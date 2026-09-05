@@ -1,0 +1,2288 @@
+{
+  "title": "Doo-wop duet prompt",
+  "create_time": 1764787266.140894,
+  "update_time": 1764788078.769391,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "693083da-dea4-8326-ba42-7d65f6e113b4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.hmaslam.com/how-to-write-suno-ai-prompts/?utm_source=chatgpt.com",
+    "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+    "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist?utm_source=chatgpt.com",
+    "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+    "https://www.hmaslam.com/how-to-write-suno-ai-prompts/",
+    "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com",
+    "https://kripeshadwani.com/suno-ai-review/",
+    "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+    "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+    "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist",
+    "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com",
+    "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices",
+    "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+    "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf",
+    "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com",
+    "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64?utm_source=chatgpt.com",
+    "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64",
+    "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+    "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/",
+    "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "74b4b82d-3f08-4f21-9428-6b8a002bef1d"
+      ]
+    },
+    "74b4b82d-3f08-4f21-9428-6b8a002bef1d": {
+      "id": "74b4b82d-3f08-4f21-9428-6b8a002bef1d",
+      "message": {
+        "id": "74b4b82d-3f08-4f21-9428-6b8a002bef1d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787257.686,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, I'd like you to rewrite the following into a tight 1000-word song prompt optimized for Suno 4.5, followed by the lyrics, stripped of all but the most basic singer and voice/style change cues: \n\nThe style of the performance, “What A Wonderful World (feat. Skrillex)” (Doo-Wop Duet from *Where The Wild Things Are* Daytime Blockbuster), is defined by a jarring **collision of hyper-real visual aesthetics, musical anachronism, and volatile performance energy**.\r\n\r\nThe style can be characterized by the following elements:\r\n\r\n### 1. Musical and Genre Collision\r\nThe performance is a **\"doo-wap duet\"** of the song \"What A Wonderful World\". This traditionally gentle song genre is juxtaposed with the inclusion of modern electronic music elements through the feature of **\"Skrillex\"**. This **genre-bending collaboration** creates a layer of powerful irony that defines the production's uniquely strange tone. The performance is described as so moving that it is successful in **\"bringing the audience to tears\"**.\r\n\r\n### 2. Visual Aesthetic and Production Style\r\nThe duet takes place on the **\"lavish set\"** of the *Where the Wild Things Are* CBS daytime drama. The visual aesthetic is highly technical and commercial, utilizing the following elements:\r\n\r\n*   **Realistic HDTV:** The visual style is specifically rendered as a **\"Realistic 8kHDTV childrens' fantasy SFXy rock video\"**.\r\n*   **Hyper-Real Polarity:** This is an amplified version of the visual style that defined the original daytime blockbuster series, the **\"Realistic 4kHDTV 'soap opera effect'\"**. This aesthetic is characterized by its polarizing, high-resolution quality, which strips away any cinematic buffer and makes the fantasy feel unnervingly **\"hyper-real\"**.\r\n\r\n### 3. Tinkerbell's Volatile Performance\r\nThe performance is delivered by **Teen-Axl Rose** (William \"Axl Rose\" Bailey) as Tinkerbell. His acting persona, often typecast as the **\"volcanic juvenile delinquent\"** archetype, defines the performance style.\r\n\r\n*   **Chaotic Magic:** The casting of William Bailey as Tinkerbell was based on the producers' deliberate choice to find an **\"enigmatic presence whose magic felt alluring and dangerous\"**. This role requires the actor to **harness his \"raw, coiled energy\"** into a captivating, yet dangerous performance.\r\n*   **Musical Debut:** This performance occurs in the context of the daytime show which marked Bailey's **\"sensational musical debut\"**. This style allowed him to finally align his latent **\"inherent vocal talent\"** (developed in a church choir) with his dramatic intensity.\r\n\r\nThe overall style combines the seemingly sweet and nostalgic elements of doo-wop and the classic song with the aggressive, chaotic persona of Axl Rose and the ultra-modern, high-tech visual effects of a rock video, all presented with the jarring, hyper-real clarity of daytime television."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "365f0444-940b-49ea-904c-7dd1407da76f",
+          "message_source": null,
+          "turn_exchange_id": "9b1e52c1-cb7a-4067-9a41-69ae40343186",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "57abb0e6-8e83-4d34-b8be-12e2c671d5bc"
+      ]
+    },
+    "57abb0e6-8e83-4d34-b8be-12e2c671d5bc": {
+      "id": "57abb0e6-8e83-4d34-b8be-12e2c671d5bc",
+      "message": {
+        "id": "57abb0e6-8e83-4d34-b8be-12e2c671d5bc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787265.97253,
+        "update_time": 1764787278.656208,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a tightened, Suno 4.5–optimized prompt (~1000 characters) followed by the lyrics stripped down to basic singer/voice/style cues:  \n\n---\n\n### Suno 4.5 Prompt (1000-character style)  \n\nA **doo-wop duet** of *What A Wonderful World* featuring **Skrillex**, blending gentle nostalgia with modern electronic aggression. Set on a **lavish *Where the Wild Things Are* daytime drama set**, rendered as a **hyper-real 8kHDTV children’s fantasy rock video** with polarizing “soap opera effect” clarity. **Teen-Axl Rose (William Bailey) as Tinkerbell** delivers a volatile, chaotic, magnetic performance: raw, coiled energy harnessed into captivating danger, combining juvenile delinquent charisma with **sensational musical debut intensity**. Genre collision of **classic doo-wop, hyper-modern EDM, and soap-opera hyper-reality**. Emotional arc moves the audience to tears. Style emphasizes visual hyper-realism, cinematic irony, and **explosive vocal dynamics**, merging the sweet nostalgia of the song with aggressive, high-tech, jarring modern production aesthetics.  \n\n---\n\n### Lyrics (basic singer/style cues)  \n\n**Tinkerbell (Teen-Axl Rose)**:  \nI see trees of green, red roses too  \nI see them bloom, for me and you  \nAnd I think to myself, what a wonderful world  \n\n**Duet Partner (Doo-Wop tone)**:  \nI see skies of blue and clouds of white  \nThe bright blessed day, the dark sacred night  \nAnd I think to myself, what a wonderful world  \n\n**Tinkerbell (growling edge)**:  \nThe colors of the rainbow, so pretty in the sky  \nAre also on the faces of people going by  \nI see friends shaking hands, saying how do you do  \nThey’re really saying I love you  \n\n**Duet"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "365f0444-940b-49ea-904c-7dd1407da76f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "b91efe56-1fb9-48f9-9711-479d634a6a3c",
+          "turn_exchange_id": "9b1e52c1-cb7a-4067-9a41-69ae40343186",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "74b4b82d-3f08-4f21-9428-6b8a002bef1d",
+      "children": [
+        "c8b001c6-2da5-4d68-868e-782a3a21d74d"
+      ]
+    },
+    "c8b001c6-2da5-4d68-868e-782a3a21d74d": {
+      "id": "c8b001c6-2da5-4d68-868e-782a3a21d74d",
+      "message": {
+        "id": "c8b001c6-2da5-4d68-868e-782a3a21d74d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787477.258,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, develop the lyrics, and describe Pookie's voice"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "f4c68df2-7a77-442c-8856-f6fe0dbdb365",
+          "message_source": null,
+          "turn_exchange_id": "33cb0450-e1a3-48a2-93da-0b8e769e27ba",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "57abb0e6-8e83-4d34-b8be-12e2c671d5bc",
+      "children": [
+        "4b9bcd71-63ed-4d02-8057-f05b3b3ca04b"
+      ]
+    },
+    "4b9bcd71-63ed-4d02-8057-f05b3b3ca04b": {
+      "id": "4b9bcd71-63ed-4d02-8057-f05b3b3ca04b",
+      "message": {
+        "id": "4b9bcd71-63ed-4d02-8057-f05b3b3ca04b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787477.384481,
+        "update_time": 1764787484.772457,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it. Let’s expand the lyrics into a full, Suno-ready version while giving **Pookie** a distinct vocal identity. I’ll keep singer/style cues minimal but clear, so it works for performance modeling.  \n\n---\n\n### Expanded Lyrics (Suno 4.5–ready)  \n\n**Tinkerbell (Teen-Axl Rose, raw/volcanic edge):**  \nI see trees of green, red roses too  \nI see them bloom, for me and you  \nAnd I think to myself, what a wonderful world  \n\n**Duet Partner (Doo-wop tone, warm/harmonized):**  \nI see skies of blue and clouds of white  \nThe bright blessed day, the dark sacred night  \nAnd I think to myself, what a wonderful world  \n\n**Tinkerbell (growling edge, chaotic magic):**  \nThe colors of the rainbow, so pretty in the sky  \nAre also on the faces of people going by  \nI see friends shaking hands, saying how do you do  \nThey"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "content_filter"
+          },
+          "safety_plugin_status_code": 123,
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "f4c68df2-7a77-442c-8856-f6fe0dbdb365",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "c8b001c6-2da5-4d68-868e-782a3a21d74d",
+          "turn_exchange_id": "33cb0450-e1a3-48a2-93da-0b8e769e27ba",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c8b001c6-2da5-4d68-868e-782a3a21d74d",
+      "children": [
+        "965efe5a-9fc7-4fcc-8076-e70f889356b4"
+      ]
+    },
+    "965efe5a-9fc7-4fcc-8076-e70f889356b4": {
+      "id": "965efe5a-9fc7-4fcc-8076-e70f889356b4",
+      "message": {
+        "id": "965efe5a-9fc7-4fcc-8076-e70f889356b4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787528.121,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, let's change the names to avoid copyright or IP infringement"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "d228d546-fa79-4d4c-adb8-cf2db8ad760b",
+          "message_source": null,
+          "turn_exchange_id": "7ba75fd6-4998-43d6-a6de-c0ac0b20e422",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4b9bcd71-63ed-4d02-8057-f05b3b3ca04b",
+      "children": [
+        "11f712e4-b539-40b0-b53a-4f782f1444d5"
+      ]
+    },
+    "11f712e4-b539-40b0-b53a-4f782f1444d5": {
+      "id": "11f712e4-b539-40b0-b53a-4f782f1444d5",
+      "message": {
+        "id": "11f712e4-b539-40b0-b53a-4f782f1444d5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787528.224262,
+        "update_time": 1764787538.418922,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect—we can fully anonymize everything while keeping the style cues and narrative intact. Here’s a rewritten version with **all names replaced**:  \n\n---\n\n### Suno 4.5 Prompt (1000-character style)  \n\nA **doo-wop duet** of *A Wonderful World* featuring **modern electronic accents**, blending gentle nostalgia with aggressive modern textures. Set on a **lavish fantasy daytime drama set**, rendered as a **hyper-real 8kHDTV children’s fantasy rock video** with polarizing “soap opera effect” clarity. **Teen-volt performer “Riley Blaze”** delivers a volatile, chaotic, magnetic performance: raw, coiled energy harnessed into captivating danger, combining juvenile delinquent charisma with **sensational musical debut intensity**. Genre collision of **classic doo-wop, hyper-modern EDM, and soap-opera hyper-reality**. Emotional arc moves the audience to tears. Style emphasizes visual hyper-realism, cinematic irony, and **explosive vocal dynamics**, merging sweet nostalgia with aggressive, high-tech, jarring modern production aesthetics.  \n\n---\n\n### Lyrics (with anonymized names, basic singer/style cues)  \n\n**Riley Blaze (raw/volcanic edge):**  \nI see trees of green, red roses too  \nI see them bloom, for me and you  \nAnd I think to myself, what a wonderful world  \n\n**Duet Partner “Luna Hart” (Doo-wop tone, warm/harmonized):**  \nI see skies of blue and clouds of white  \nThe bright blessed day, the dark sacred night  \nAnd I think to myself, what a wonderful world  \n\n**Riley Blaze (growling edge, chaotic magic):**  \nThe colors of the rainbow, so pretty in the sky  \nAre also on the faces of people going by  \nI see friends shaking hands, saying how do you do  \nThey"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "content_filter"
+          },
+          "safety_plugin_status_code": 123,
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "d228d546-fa79-4d4c-adb8-cf2db8ad760b",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "965efe5a-9fc7-4fcc-8076-e70f889356b4",
+          "turn_exchange_id": "7ba75fd6-4998-43d6-a6de-c0ac0b20e422",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "965efe5a-9fc7-4fcc-8076-e70f889356b4",
+      "children": [
+        "258f2edd-3f14-459e-8e13-df2dc366c7c8",
+        "128f9131-d252-44c4-8314-d5009e85dff8"
+      ]
+    },
+    "258f2edd-3f14-459e-8e13-df2dc366c7c8": {
+      "id": "258f2edd-3f14-459e-8e13-df2dc366c7c8",
+      "message": {
+        "id": "258f2edd-3f14-459e-8e13-df2dc366c7c8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787565.92,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Change the vocal attributions to Tink and Pookie"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "a971af92-b13b-9e29-ac42-e5e0ea3b6ba6",
+          "message_source": null,
+          "turn_exchange_id": "49a92c81-6937-45b8-a1c1-3144a72f6a63",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "11f712e4-b539-40b0-b53a-4f782f1444d5",
+      "children": [
+        "d1fc09d0-ebfc-4116-820f-86ffdbf958ec"
+      ]
+    },
+    "128f9131-d252-44c4-8314-d5009e85dff8": {
+      "id": "128f9131-d252-44c4-8314-d5009e85dff8",
+      "message": {
+        "id": "128f9131-d252-44c4-8314-d5009e85dff8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787587.269,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Change the vocal attributions to Tink and Pookie, and put anything that isn't lyrics into square brackets\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "8ad3b070-a1ff-4f94-9b08-67bd2002d008",
+          "message_source": null,
+          "turn_exchange_id": "b0bbe72c-7cb2-4bfb-abd5-c4575e3feee5",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "11f712e4-b539-40b0-b53a-4f782f1444d5",
+      "children": [
+        "32dac17a-935f-4715-a373-19a41809756c"
+      ]
+    },
+    "d1fc09d0-ebfc-4116-820f-86ffdbf958ec": {
+      "id": "d1fc09d0-ebfc-4116-820f-86ffdbf958ec",
+      "message": {
+        "id": "d1fc09d0-ebfc-4116-820f-86ffdbf958ec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787566.149,
+        "update_time": 1764787570.275974,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it. Here’s the fully anonymized version with **Tink** and **Pookie** as the vocal attributions, keeping the style cues minimal but clear:  \n\n---\n\n### Suno 4.5 Prompt (1000-character style)  \n\nA **doo-wop duet** of *A Wonderful World* featuring **modern electronic accents**, blending gentle nostalgia with aggressive modern textures. Set on a **lavish fantasy daytime drama set**, rendered as a **hyper-real 8kHDTV children’s fantasy rock video** with polarizing “soap opera effect” clarity. **Tink**, a volatile, chaotic performer, delivers raw, coiled energy harnessed into captivating danger, combining juvenile delin"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "a971af92-b13b-9e29-ac42-e5e0ea3b6ba6",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "finish_details": {
+            "type": "interrupted",
+            "reason": "client_stopped"
+          },
+          "is_complete": true,
+          "parent_id": "258f2edd-3f14-459e-8e13-df2dc366c7c8",
+          "turn_exchange_id": "49a92c81-6937-45b8-a1c1-3144a72f6a63",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "258f2edd-3f14-459e-8e13-df2dc366c7c8",
+      "children": []
+    },
+    "32dac17a-935f-4715-a373-19a41809756c": {
+      "id": "32dac17a-935f-4715-a373-19a41809756c",
+      "message": {
+        "id": "32dac17a-935f-4715-a373-19a41809756c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787588.37204,
+        "update_time": 1764787592.652586,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it! Here’s the fully revised version with **Tink** and **Pookie** as the performers, and all non-lyrical instructions or cues in square brackets.  \n\n---\n\n### Lyrics with Vocal Attributions  \n\n**[Tink – raw/volcanic edge]**  \nI see trees of green, red roses too  \nI see them bloom, for me and you  \nAnd I think to myself, what a wonderful world  \n\n**[Pookie – Doo-wop tone, warm/harmonized]**  \nI see skies of blue and clouds of white  \nThe bright blessed day, the dark sacred night  \nAnd I think to myself, what a wonderful world  \n\n**[Tink – growling edge, chaotic magic]**  \nThe colors of the rainbow, so pretty in the sky  \nAre also on the faces of people going by  \nI see friends shaking hands, saying how do you do  \nThey"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "content_filter"
+          },
+          "safety_plugin_status_code": 123,
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "8ad3b070-a1ff-4f94-9b08-67bd2002d008",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "128f9131-d252-44c4-8314-d5009e85dff8",
+          "turn_exchange_id": "b0bbe72c-7cb2-4bfb-abd5-c4575e3feee5",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "128f9131-d252-44c4-8314-d5009e85dff8",
+      "children": [
+        "633a30db-1382-45f1-8304-f5b81162bfa2"
+      ]
+    },
+    "633a30db-1382-45f1-8304-f5b81162bfa2": {
+      "id": "633a30db-1382-45f1-8304-f5b81162bfa2",
+      "message": {
+        "id": "633a30db-1382-45f1-8304-f5b81162bfa2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787696.136,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, you can't actually use the What a wondeful lyrics direcly"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "0fb11e2c-f790-4de4-bafe-06593fa6b2ae",
+          "message_source": null,
+          "turn_exchange_id": "844aeebb-01c1-44f4-afae-afecb3ac9aaa",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "32dac17a-935f-4715-a373-19a41809756c",
+      "children": [
+        "79898a65-7a0c-4b37-b95c-a86f12f3cca2"
+      ]
+    },
+    "79898a65-7a0c-4b37-b95c-a86f12f3cca2": {
+      "id": "79898a65-7a0c-4b37-b95c-a86f12f3cca2",
+      "message": {
+        "id": "79898a65-7a0c-4b37-b95c-a86f12f3cca2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787696.330587,
+        "update_time": 1764787711.733715,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ah, perfect—thanks for clarifying. We need a fully original set of lyrics that **captures the same nostalgic/poetic sentiment** without using the original lines. I’ll keep Tink and Pookie, the duet structure, and the style cues.  \n\n---\n\n### Lyrics (Original, Duet, Vocal Cues)\n\n**[Tink – raw/volcanic edge]**  \nI watch the morning glow, the sunlight on the leaves  \nThe way it paints the streets, the quiet in the breeze  \nAnd I whisper to myself, life feels strange and wide  \n\n**[Pookie – Doo-wop tone, warm/harmonized]**  \nI see the sparkling skies, the clouds drift soft and slow  \nThe laughter of the day, the gentle evening’s glow  \nAnd I smile to myself, the world is bright inside  \n\n**[Tink – growling edge, chaotic magic]**  \nColors spill across the hills, reflections in the rain  \nThe faces that I pass all carry joy and pain  \nI hear voices in the wind, telling me to stay  \nAnd I lift my heart to them, in my own wild way  \n\n**[Pookie – warm/harmonized, swooping doo-wop]**  \nThe stars will crown the night, the moon will light the stream  \nI find my peace in this, a never-ending dream  \nAnd I hum along the path, where every soul can glide  \n\n**[Tink – raw/volcanic edge, crescendo]**  \nEvery corner of the world, every hand I see  \nHolds a story waiting there, waiting just for me  \nI’ll take this light and turn it into something new  \nAnd let it burn, let it shine, let it carry through  \n\n**[Pookie – warm/harmonized, final lift]**  \nSo here we stand as one, the laughter and the tears  \nA world that shifts and grows, across the endless years  \nAnd I hum along the path, where every soul can glide  \n\n---\n\nIf you want, I can **also create a Suno 4.5–optimized version of this exact original lyrics set** with all the visual/performance cues included, ready for generation. Do you want me to do that next?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "0fb11e2c-f790-4de4-bafe-06593fa6b2ae",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "633a30db-1382-45f1-8304-f5b81162bfa2",
+          "turn_exchange_id": "844aeebb-01c1-44f4-afae-afecb3ac9aaa",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "633a30db-1382-45f1-8304-f5b81162bfa2",
+      "children": [
+        "ec6962a5-9c06-4d21-9d4b-f9307781e37e"
+      ]
+    },
+    "ec6962a5-9c06-4d21-9d4b-f9307781e37e": {
+      "id": "ec6962a5-9c06-4d21-9d4b-f9307781e37e",
+      "message": {
+        "id": "ec6962a5-9c06-4d21-9d4b-f9307781e37e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787734.019,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, let's weave in some where the wild things are-like imagery"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "95a8bcc6-bd15-40b2-baab-5ebcc6b751a8",
+          "message_source": null,
+          "turn_exchange_id": "bd2a6915-1326-47ac-bebc-9fed79b39fc4",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79898a65-7a0c-4b37-b95c-a86f12f3cca2",
+      "children": [
+        "c56506ee-b390-44ed-828e-686ae156d12e"
+      ]
+    },
+    "c56506ee-b390-44ed-828e-686ae156d12e": {
+      "id": "c56506ee-b390-44ed-828e-686ae156d12e",
+      "message": {
+        "id": "c56506ee-b390-44ed-828e-686ae156d12e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787734.139193,
+        "update_time": 1764787748.812348,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect! Let’s layer in whimsical, slightly surreal imagery reminiscent of *Where the Wild Things Are*, keeping it original and compatible with the Tink/Pookie duet. I’ll preserve the style cues and make it vivid for Suno 4.5 generation.  \n\n---\n\n### Lyrics (Original, Wild Things Imagery, Vocal Cues)  \n\n**[Tink – raw/volcanic edge]**  \nI watch the moonlit leaves, the branches twist and roar  \nGiant shadows dancing fast along the forest floor  \nAnd I whisper to myself, the night is wild and wide  \n\n**[Pookie – Doo-wop tone, warm/harmonized]**  \nI see the stars like lanterns hung above the tangled trees  \nThe wind hums lullabies through rivers full of gleaming seas  \nAnd I smile to myself, the world is bright inside  \n\n**[Tink – growling edge, chaotic magic]**  \nMonsters hum in hidden dens, their eyes like molten gold  \nThey stomp and spin, they leap and grin, their stories yet untold  \nI hear their laughter in the dark, calling me to play  \nAnd I lift my heart to them, in my own wild way  \n\n**[Pookie – warm/harmonized, swooping doo-wop]**  \nThe cliffs bend low, the waterfalls twist ribbons through the night  \nI find my joy in echoes where the shadows meet the light  \nAnd I hum along the path where dreams and danger glide  \n\n**[Tink – raw/volcanic edge, crescendo]**  \nEvery roaring hill, every hidden cave I see  \nHolds a kingdom waiting there, waiting just for me  \nI’ll take this magic, turn it into something new  \nAnd let it burn, let it shine, let it carry through  \n\n**[Pookie – warm/harmonized, final lift]**  \nSo here we dance as one, the laughter and the tears  \nA world that twists and roars, across the endless years  \nAnd I hum along the path where every soul can glide  \n\n---\n\nIf you want, I can **also rewrite the Suno 4.5 prompt** with this exact “wild things” imagery woven in, fully ready for generation with Tink and Pookie, the hyper-real visuals, and the genre-bending cues. Do you want me to do that next?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "95a8bcc6-bd15-40b2-baab-5ebcc6b751a8",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "ec6962a5-9c06-4d21-9d4b-f9307781e37e",
+          "turn_exchange_id": "bd2a6915-1326-47ac-bebc-9fed79b39fc4",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ec6962a5-9c06-4d21-9d4b-f9307781e37e",
+      "children": [
+        "a0231a52-566c-4551-823b-751013d83c8e"
+      ]
+    },
+    "a0231a52-566c-4551-823b-751013d83c8e": {
+      "id": "a0231a52-566c-4551-823b-751013d83c8e",
+      "message": {
+        "id": "a0231a52-566c-4551-823b-751013d83c8e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787800.249,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What style would you say Skrillx is"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "86af8879-75a6-4830-8b6c-d71085676ad7",
+          "message_source": null,
+          "turn_exchange_id": "5f59bddc-4f50-444e-a5bd-f9fc4c8cbf87",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c56506ee-b390-44ed-828e-686ae156d12e",
+      "children": [
+        "8489d4ab-4a65-4b7c-bff2-7178ba4349ec"
+      ]
+    },
+    "8489d4ab-4a65-4b7c-bff2-7178ba4349ec": {
+      "id": "8489d4ab-4a65-4b7c-bff2-7178ba4349ec",
+      "message": {
+        "id": "8489d4ab-4a65-4b7c-bff2-7178ba4349ec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764787800.370046,
+        "update_time": 1764787811.045478,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you mean **Skrillex**, his style is best described as **modern electronic bass music, rooted in dubstep and EDM**. More specifically:  \n\n- **Genre:** Primarily **dubstep, brostep, electro house**, with occasional experimental EDM.  \n- **Sound signature:**  \n  - Heavy, wobbling **bass drops** and growling low-end synths.  \n  - **Glitchy, chopped-up vocal samples**.  \n  - Fast-paced **hi-hat and percussion patterns**, often syncopated.  \n  - Sudden **dynamic shifts**, from quiet atmospheric passages to explosive drops.  \n- **Production style:** Highly polished, high-energy, often chaotic, with a **jarring, aggressive edge**.  \n- **Emotional effect:** Can feel intense, chaotic, or exhilarating, often creating a **collision between melody and sonic violence**.  \n\nIn the context of your Tink/Pookie duet, a “Skrillex-style” element would be **aggressive, modern electronic textures, glitchy effects, and high-impact bass drops layered on a nostalgic or melodic foundation**, creating that **genre-bending collision** effect you’re going for.  \n\nIf you want, I can **rewrite your Suno 4.5 prompt to explicitly describe a “Skrillex-inspired” sound layer** for Tink/Pookie without using his name, keeping it legally safe and stylistically accurate. Do you want me to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "86af8879-75a6-4830-8b6c-d71085676ad7",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "a0231a52-566c-4551-823b-751013d83c8e",
+          "turn_exchange_id": "5f59bddc-4f50-444e-a5bd-f9fc4c8cbf87",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a0231a52-566c-4551-823b-751013d83c8e",
+      "children": [
+        "71e176a3-8330-4b5d-ad02-004872a34069"
+      ]
+    },
+    "71e176a3-8330-4b5d-ad02-004872a34069": {
+      "id": "71e176a3-8330-4b5d-ad02-004872a34069",
+      "message": {
+        "id": "71e176a3-8330-4b5d-ad02-004872a34069",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764788058.453,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you dig up a list of artists who are available to reference directly in Suno"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "225f6115-be40-4600-9d65-6fa3a9f7224f",
+          "message_source": null,
+          "turn_exchange_id": "1f8822f4-7eab-4a5d-a08e-43acc6dd2dc5",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8489d4ab-4a65-4b7c-bff2-7178ba4349ec",
+      "children": [
+        "345d08b9-90e2-442b-b314-f8a73ed16218"
+      ]
+    },
+    "345d08b9-90e2-442b-b314-f8a73ed16218": {
+      "id": "345d08b9-90e2-442b-b314-f8a73ed16218",
+      "message": {
+        "id": "345d08b9-90e2-442b-b314-f8a73ed16218",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764788059.874809,
+        "update_time": 1764788060.522936,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Can you dig up a list of artists who are available to reference directly in Suno\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "request_id": "225f6115-be40-4600-9d65-6fa3a9f7224f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "71e176a3-8330-4b5d-ad02-004872a34069",
+          "turn_exchange_id": "1f8822f4-7eab-4a5d-a08e-43acc6dd2dc5",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "71e176a3-8330-4b5d-ad02-004872a34069",
+      "children": [
+        "f7996a1c-0cc2-48df-8896-87b3250703c4"
+      ]
+    },
+    "f7996a1c-0cc2-48df-8896-87b3250703c4": {
+      "id": "f7996a1c-0cc2-48df-8896-87b3250703c4",
+      "message": {
+        "id": "f7996a1c-0cc2-48df-8896-87b3250703c4",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1764788061.5289888,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.washingtonpost.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.washingtonpost.com/entertainment/music/2025/11/27/i-run-banned/",
+                  "title": "The music industry is getting used to AI. One viral track went too far.",
+                  "snippet": "The article discusses the controversy surrounding the AI-generated song \"I Run\" by British dance act Haven. After gaining popularity on TikTok, suspicions arose that the vocals resembled British R&B singer Jorja Smith, which Smith denied. The song was ultimately removed from streaming platforms like Spotify for violating impersonation policies, amid broader legal and ethical debates over generative AI in the music industry. Major labels like Warner and Universal have since struck licensing deals with AI companies, attempting to define acceptable AI use.\n\nHaven’s producer admitted to using AI program Suno to feminize his voice for the track. Legal threats followed, with Smith’s distributor and industry bodies issuing takedown notices. The song's popularity spurred user covers, and viral singer Kaitlin Aragon was chosen to re-record the vocals for a human version of \"I Run,\" now released on Spotify. The case highlights the ongoing tension between creative innovation and ethical boundaries in AI-assisted music, signaling a pivotal moment for how the industry adapts to emerging technologies.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1764237600.12,
+                  "attribution": "www.washingtonpost.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.musicradar.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.musicradar.com/music-tech/artists-and-songwriters-will-have-full-control-over-whether-and-how-their-names-images-likenesses-voices-and-compositions-are-used-in-new-ai-generated-music-warners-and-suno-link-up-to-create-new-legal-ai-platforms",
+                  "title": "\"Artists and songwriters will have full control over whether and how their names, images, likenesses, voices and compositions are used in new AI-generated music\": Warners and Suno link up to create new legal AI platforms",
+                  "snippet": "Warner Music has reached a new agreement with AI company Suno to create a legally compliant AI music platform. This follows a similar deal Warner made with Udio the previous week. The new Suno agreement emphasizes artist rights, allowing artists and songwriters full control over the use of their names, likenesses, voices, and compositions in AI-generated music. Participation in the platform is strictly opt-in, ensuring that creators decide if and how their work is used.\n\nThe deal also settles previous legal disputes between Warner and Suno, and includes Suno's acquisition of the concert listings platform Songkick. This collaboration is part of a broader industry effort—alongside Warner’s recent deals with Udio and a joint partnership among major labels Universal, Sony, and Klay AI—to combat the spread of low-quality AI-generated music content on streaming platforms. As a result, current Suno models will be replaced with this new licensed system, although it remains partially licensed due to the absence of full participation from all major labels.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1764247495,
+                  "attribution": "www.musicradar.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "geekonai.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/",
+                  "title": "200 Artist-Inspired Music Style Prompts with Suno AI - Geek On AI",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": 1731894208,
+                  "attribution": "geekonai.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sunomate.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://sunomate.com/",
+                  "title": "SunoMate - AI Artist & Song Style Generator for Suno",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "sunomate.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "kripeshadwani.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://kripeshadwani.com/suno-ai-review/",
+                  "title": "Suno AI Review (2025) - How To Use Suno AI - Kripesh Adwani",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "kripeshadwani.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "yeb.to",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+                  "title": "Mastering Style Tags in Suno AI - How To Properly Use Them",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "yeb.to"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.thepromptindex.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+                  "title": "AI Music with Suno: Beginner to Intermediate Course | The Prompt Index",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "www.thepromptindex.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.theverge.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.theverge.com/news/829189/warner-music-group-suno-ai-licensing-deal",
+                  "title": "Warner Music Group partners with Suno to offer AI likenesses of its artists",
+                  "snippet": "Warner Music Group (WMG) has partnered with AI music platform Suno in a licensing deal that allows users to create AI-generated music using the voices, images, names, and compositions of artists who opt into the program. WMG assures that participating artists will retain full control over how their likeness and music are utilized, though further details remain undisclosed. The agreement marks a shift in the music industry’s approach to AI integration, with WMG, Universal Music Group (UMG), and Sony recently leaning into AI partnerships after initially pursuing legal action against platforms like Suno. As part of this deal, WMG dropped out of a previous lawsuit accusing Suno of using copyrighted content from YouTube without permission. Suno will also use WMG-licensed music to develop advanced AI music models and plans to introduce a paid subscription model in 2026, limiting downloads based on subscription tiers. The move reflects a growing trend among major labels to monetize AI collaborations and explore new creative avenues and revenue streams through ethical AI usage.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1764103622,
+                  "attribution": "www.theverge.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.theverge.com/2024/8/2/24211842/ai-music-riaa-copyright-lawsuit-suno-udio-fair-use",
+                  "title": "AI music startups say copyright violation is just rock and roll",
+                  "snippet": "AI music startups Suno and Udio, recently sued for copyright infringement by the Recording Industry Association of America (RIAA), argue that their practices fall under fair use and promote creativity. The RIAA, representing major labels like UMG, Sony, and Warner Records, accuses the companies of massive-scale unauthorized copying of sound recordings and seeks damages of up to $150,000 per infringing work. Suno and Udio admit to training their models on copyrighted music but claim this is lawful and fundamental to artistic innovation. Udio likened its process to analyzing musical patterns to foster new creations, while Suno compared it to learning music through listening. They argue the music industry is resisting technological competition and misunderstand the workings of AI models. The RIAA counters that these companies failed to obtain proper licenses, unlike platforms such as YouTube, and are undermining artists’ livelihoods. This dispute reflects broader tensions over AI's legal use of copyrighted content, as similar arguments have arisen in cases involving other tech giants.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 30
+                  },
+                  "pub_date": 1722601459,
+                  "attribution": "www.theverge.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.wired.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wired.com/story/ai-music-generators-suno-and-udio-sued-for-copyright-infringement",
+                  "title": "US Record Labels Sue AI Music Generators Suno and Udio for Copyright Infringement",
+                  "snippet": "Major U.S. record labels, including Universal Music Group, Warner Music Group, and Sony Music Group, have filed copyright infringement lawsuits against AI music generation companies Suno and Udio. The labels allege that these AI services copied copyrighted works without permission, seeking damages up to $150,000 per infringing work. The suits were filed in Massachusetts (against Suno) and New York (against Udio’s parent, Uncharted Inc.).\n\nThe Recording Industry Association of America (RIAA) criticized the companies for exploiting artists’ work without compensation. The lawsuits argue that AI-generated music from these platforms closely mimics existing copyrighted songs, including tracks by Chuck Berry and Mariah Carey, and that such close resemblance could only result from unauthorized training on copyrighted data.\n\nAlthough Suno claims its technology is designed to create original music and does not allow prompts referencing specific artists, it has not denied using copyrighted material in training. The lawsuits underscore the music industry's broader concerns over AI's impact and emphasize the need for fair-market licensing as a solution. While the industry isn't anti-AI, it insists on compensation and respect for intellectual property.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1719241200,
+                  "attribution": "www.wired.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.americanbar.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.americanbar.org/groups/entertainment_sports/resources/entertainment-sports-lawyer/2025-fall/never-going-style-ai-generated-music-reliance-style-based-prompts-copyright-musical-genre/",
+                  "title": "Never Going Out of Style: How AI-Generated Music’s Reliance on Style-Based Prompts Calls for a Reminder that No One Can Copyright a Musical Genre",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.americanbar.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reelmind.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices",
+                  "title": "Suno AI Prompt Guidelines Avoid Artist Names: AI Ethics & Best Practices | ReelMind",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "reelmind.ai"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.theguardian.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.theguardian.com/technology/2024/apr/13/ai-generated-music-app-suno-ai-impact-musicians-music-rights",
+                  "title": "Suno AI can generate power ballads about coffee - and jingles for the Guardian. But will it hurt musicians?",
+                  "snippet": "Suno AI, likened to ChatGPT for music, is a generative AI tool that allows users to create full-length songs by inputting lyrics, genres, and musical styles. Developed by machine learning experts in Cambridge, it has gone viral for generating amusing yet simplistic songs, such as ballads about coffee or unrequited love, and even jingles, including one for Guardian Australia. The app's free version allows up to 10 non-commercial songs per day, while a $10/month plan permits commercial use and up to 500 songs.\n\nThe tool raises ethical and legal concerns in the music industry. Despite claims that Suno detects copyrighted lyrics and embeds an inaudible watermark to identify AI-generated content, unresolved questions remain about whether it was trained on copyrighted material. Critics, including composers and major artists like Billie Eilish and Elvis Costello, worry that AI-generated music could undermine songwriters' work, flood streaming platforms, and dilute royalty earnings. While Suno claims to support accessibility and artist respect, its resemblance to copyrighted music and potential legal challenges remain controversial. Major music labels and streaming platforms like Spotify have yet to fully address or restrict such AI content.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1712934058,
+                  "attribution": "www.theguardian.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.hmaslam.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.hmaslam.com/how-to-write-suno-ai-prompts/",
+                  "title": "How To Write Suno AI Prompts (With Examples) in 2025",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1760462848,
+                  "attribution": "www.hmaslam.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.axios.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.axios.com/2024/06/24/record-labels-sue-ai-startups-copyright-infringement",
+                  "title": "Record labels sue two AI startups for copyright infringement",
+                  "snippet": "Major U.S. record labels have filed lawsuits against two AI startups—Suno and Uncharted Labs (developer of Udio AI)—accusing them of mass copyright infringement. The lawsuits, filed in federal courts in Massachusetts and the Southern District of New York, seek to challenge the notion that training and operating generative AI systems constitutes \"fair use\" of copyrighted music. These cases reflect a broader legal battle by content creators, including authors, news publishers, and artists, to establish copyright protection against AI technologies that use their work. Mitch Glazier of the Recording Industry Association of America emphasized the industry's openness to working with AI developers, but only under collaborative and legal frameworks. Suno’s CEO, Mikey Shulman, defended the company, stating their technology is designed to create original content, and they prohibit prompting their systems with specific artist references. These lawsuits could have significant implications for the future of generative AI and intellectual property law.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1719241200,
+                  "attribution": "www.axios.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.wokewaves.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wokewaves.com/posts/suno-ai-guide-tips-tricks-prompts",
+                  "title": "The Ultimate Suno AI Guide: Tips, Tricks & Prompts to Make Real-Feeling Songs! | Tech",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "www.wokewaves.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "medium.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64",
+                  "title": "Complete Prompt of Suno AI Music Latest | Medium",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40systemdude/cant-use-artist-names-in-suno-ai-bypass-like-a-pro-2025-prompt-guide-7563ac8714ca",
+                  "title": "🤔 Can’t Use Artist Names in Suno AI? Bypass Like a Pro (2025) [Prompt Guide] 👩‍🎤 | by System Dude | Aug, 2025 | Medium",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lilys.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist",
+                  "title": "Prompt Suno AI to Sound Like Your Favorite Artist",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "lilys.ai"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.litmedia.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+                  "title": "Suno Prompts Guide: How to Write Better AI Music Prompts for Suno.AI",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "www.litmedia.ai"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "towerio.info",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf",
+                  "title": "The Sonic Architect:",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 28
+                  },
+                  "pub_date": 1762849329,
+                  "attribution": "towerio.info"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.sunopersonacreator.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.sunopersonacreator.com/",
+                  "title": "Suno Persona Creator — Build & Browse Personas for Suno",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "www.sunopersonacreator.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "itsbetterwithai.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://itsbetterwithai.com/i/how-to-use-suno/",
+                  "title": "How To Use Suno (AI Music Generator) | It's Better With AI",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "itsbetterwithai.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "assets.website-files.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://assets.website-files.com/6723d580fcea4402d275a265/68075251ab3d9fa8db1c099a_18584911759.pdf",
+                  "title": "Suno ai guide",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 29
+                  },
+                  "pub_date": 1761977379,
+                  "attribution": "assets.website-files.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1c393ll",
+                  "title": "Meta: respect for the art of ai music creation",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 34
+                  },
+                  "pub_date": 1713034295.447,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1dz55wx",
+                  "title": "Artist prompt list",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1720538644.414,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/SunoAI/comments/1l60o3w",
+                  "title": "Artist names / band names now allowed in style box?!",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1749346624.917,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/SunoAI/comments/1ouiswb",
+                  "title": "[Advanced Technique] The \"Character Prompt\" Method: How I Finally Got Consistent, Pro-Level Vocals",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1762889021.238,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1ajqn02",
+                  "title": "Genre prompting tips?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1707164891.726,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1iyn89f",
+                  "title": "A perspective change",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1740575669.304,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1dwqexa",
+                  "title": "My Prompting Tips for v3.5 (v2)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1720274814.84,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/SunoAI/comments/1lfqa1e",
+                  "title": "A prompt template that works",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 44
+                  },
+                  "pub_date": 1750378609.312,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/SunoAI/comments/1jl8rgc/ai_music_isnt_copyrightable_yetbut_you_can_still/",
+                  "title": "AI Music Isn’t Copyrightable (Yet)—But You Can Still Own and Protect It. Here’s How.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1743094780.897,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1ht8bk6",
+                  "title": "Is there a way to get specific sounding persona?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 46
+                  },
+                  "pub_date": 1735971909.152,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1kd7s0n",
+                  "title": "4.5 can now break down band names into styles",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 49
+                  },
+                  "pub_date": 1746209525.224,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/SunoAI/comments/1ki6h9t",
+                  "title": "OK... this is what has changed with Styles in Suno 4.5, why I believe they did it, and why I want to turn it off.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 50
+                  },
+                  "pub_date": 1746753197.068,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/2511.17404",
+                  "title": "The Artist is Present: Traces of Artists Resigind and Spawning in Text-to-Audio AI",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "academia",
+                    "ref_index": 36
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/2509.00654",
+                  "title": "The Name-Free Gap: Policy-Aware Stylistic Control in Music Generation",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "academia",
+                    "ref_index": 43
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6930875d8f60832c869d27d1d5f5b980",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "request_id": "225f6115-be40-4600-9d65-6fa3a9f7224f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "2dcc7115-af39-4dca-bc97-7f7d3dc17d98",
+          "turn_exchange_id": "1f8822f4-7eab-4a5d-a08e-43acc6dd2dc5",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "345d08b9-90e2-442b-b314-f8a73ed16218",
+      "children": [
+        "eeb7186f-9106-4c9b-aeeb-16adc4a79c56"
+      ]
+    },
+    "eeb7186f-9106-4c9b-aeeb-16adc4a79c56": {
+      "id": "eeb7186f-9106-4c9b-aeeb-16adc4a79c56",
+      "message": {
+        "id": "eeb7186f-9106-4c9b-aeeb-16adc4a79c56",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1764788063.155656,
+        "update_time": 1764788073.384605,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good question. I dug into what’s publicly known about entity[\"software\",\"Suno AI\",0] — and as of late 2025 there is **no authoritative public list of globally “approved” artists** whose names you can reliably plug into a prompt. In fact, most guides / policies say you should **avoid** using real‐artist names to steer style. citeturn0search3turn0search4turn0search11  \n\n### ✅ What Suno recommends instead  \n- Use **descriptive style terms** (genre, instrumentation, mood, vocal type) instead of artist or band names. citeturn0search4turn0search11  \n- Eg: rather than “like Adele,” write “soulful female vocals, torch‑song vibe, soft piano and strings, emotional, slow tempo.” citeturn0search3turn0search7  \n- For a more complex result, combine a few well‑chosen descriptors (genre, mood, instrumentation, voice type) rather than dumping many tags. citeturn0search3turn0search2  \n\n### 🧪 Why “list of artists” doesn’t really work  \n- Official Suno documentation indicates real artist/band names are typically disallowed or filtered out. citeturn0search2turn0search4turn0search11  \n- Use of artist names (or specific songs) is commonly flagged as a copyright or policy violation. citeturn0search6turn0search28  \n- Community‑sourced “artist‑based prompts” exist—but they rely on descriptive reinterpretation, not literal name use. citeturn0search0turn0search9turn0search10  \n\n### 📝 What you *can* do (work‑around / recommendation)  \nIf you want to reference “artist‑style,” best practice is to:  \n- Describe the sonic characteristics you want (e.g. “melodic indie‑folk with airy female vocals and soft acoustic guitar,” or “dark minimalist electronic with glitchy beats and haunting male vocals”).  \n- Base such descriptions on your memory of a given artist’s style, without naming them.  \n- Use genre/sub‑genre labels + mood/texture + instrumentation + vocal‑type cues.  \n\n---\n\nIf you like — I can **assemble a set of 15–20 “style archetypes”** (with descriptive prompts) covering a wide range of moods/genres: pop, soul, EDM, rock, ambient, cinematic, etc. That way you’d have a flexible “palette” for Suno — and can easily mix/modify them as needed. Want me to build that list for you now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "entity[\"software\",\"Suno AI\",0]",
+              "start_idx": 54,
+              "end_idx": 87,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Suno AI",
+              "prompt_text": "Suno AI",
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search3turn0search4turn0search11",
+              "start_idx": 329,
+              "end_idx": 375,
+              "safe_urls": [
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([yeb.to](https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mastering Style Tags in Suno AI - How To Properly Use Them",
+                  "url": "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "AI Music with Suno: Beginner to Intermediate Course | The Prompt Index",
+                      "url": "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "thepromptindex.com"
+                    },
+                    {
+                      "title": "Suno Prompts Guide: How to Write Better AI Music Prompts for Suno.AI",
+                      "url": "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "LitMedia"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "yeb.to"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search4turn0search11",
+              "start_idx": 526,
+              "end_idx": 559,
+              "safe_urls": [
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([thepromptindex.com](https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "AI Music with Suno: Beginner to Intermediate Course | The Prompt Index",
+                  "url": "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Suno Prompts Guide: How to Write Better AI Music Prompts for Suno.AI",
+                      "url": "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "LitMedia"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "thepromptindex.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3turn0search7",
+              "start_idx": 689,
+              "end_idx": 721,
+              "safe_urls": [
+                "https://www.hmaslam.com/how-to-write-suno-ai-prompts/",
+                "https://www.hmaslam.com/how-to-write-suno-ai-prompts/?utm_source=chatgpt.com",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([yeb.to](https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mastering Style Tags in Suno AI - How To Properly Use Them",
+                  "url": "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "How To Write Suno AI Prompts (With Examples) in 2025",
+                      "url": "https://www.hmaslam.com/how-to-write-suno-ai-prompts/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "HM Aslam"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "yeb.to"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3turn0search2",
+              "start_idx": 865,
+              "end_idx": 897,
+              "safe_urls": [
+                "https://kripeshadwani.com/suno-ai-review/",
+                "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+                "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([yeb.to](https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mastering Style Tags in Suno AI - How To Properly Use Them",
+                  "url": "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Suno AI Review (2025) - How To Use Suno AI - Kripesh Adwani",
+                      "url": "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Kripesh Adwani"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "yeb.to"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2turn0search4turn0search11",
+              "start_idx": 1056,
+              "end_idx": 1102,
+              "safe_urls": [
+                "https://kripeshadwani.com/suno-ai-review/",
+                "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+                "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+                "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Kripesh Adwani](https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Suno AI Review (2025) - How To Use Suno AI - Kripesh Adwani",
+                  "url": "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "AI Music with Suno: Beginner to Intermediate Course | The Prompt Index",
+                      "url": "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "thepromptindex.com"
+                    },
+                    {
+                      "title": "Suno Prompts Guide: How to Write Better AI Music Prompts for Suno.AI",
+                      "url": "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "LitMedia"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Kripesh Adwani"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search6turn0search28",
+              "start_idx": 1203,
+              "end_idx": 1236,
+              "safe_urls": [
+                "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices",
+                "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com",
+                "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf",
+                "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Reelmind](https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Suno AI Prompt Guidelines Avoid Artist Names: AI Ethics & Best Practices | ReelMind",
+                  "url": "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "The Sonic Architect:",
+                      "url": "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "towerio.info"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 28
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Reelmind"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search9turn0search10",
+              "start_idx": 1357,
+              "end_idx": 1403,
+              "safe_urls": [
+                "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/",
+                "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com",
+                "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist",
+                "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist?utm_source=chatgpt.com",
+                "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64",
+                "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Geek On AI](https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "200 Artist-Inspired Music Style Prompts with Suno AI - Geek On AI",
+                  "url": "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com",
+                  "pub_date": 1731894208,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Complete Prompt of Suno AI Music Latest | Medium",
+                      "url": "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Medium"
+                    },
+                    {
+                      "title": "Prompt Suno AI to Sound Like Your Favorite Artist",
+                      "url": "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Lilys AI"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Geek On AI"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2223,
+              "end_idx": 2223,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Mastering Style Tags in Suno AI - How To Properly Use Them",
+                  "url": "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com",
+                  "attribution": "yeb.to"
+                },
+                {
+                  "title": "AI Music with Suno: Beginner to Intermediate Course | The Prompt Index",
+                  "url": "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+                  "attribution": "thepromptindex.com"
+                },
+                {
+                  "title": "Suno AI Review (2025) - How To Use Suno AI - Kripesh Adwani",
+                  "url": "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+                  "attribution": "Kripesh Adwani"
+                },
+                {
+                  "title": "Suno AI Prompt Guidelines Avoid Artist Names: AI Ethics & Best Practices | ReelMind",
+                  "url": "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com",
+                  "attribution": "Reelmind"
+                },
+                {
+                  "title": "200 Artist-Inspired Music Style Prompts with Suno AI - Geek On AI",
+                  "url": "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com",
+                  "attribution": "Geek On AI"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/",
+            "https://geekonai.com/resources/prompts/200-artist-inspired-music-style-prompts-with-suno-ai/?utm_source=chatgpt.com",
+            "https://kripeshadwani.com/suno-ai-review/",
+            "https://kripeshadwani.com/suno-ai-review/?utm_source=chatgpt.com",
+            "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist",
+            "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist?utm_source=chatgpt.com",
+            "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64",
+            "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64?utm_source=chatgpt.com",
+            "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices",
+            "https://reelmind.ai/blog/suno-ai-prompt-guidelines-avoid-artist-names-ai-ethics-best-practices?utm_source=chatgpt.com",
+            "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf",
+            "https://towerio.info/wp-content/uploads/2025/05/The-Sonic-Architect_-Crafting-Masterful-Instrumentals-with-Suno-AI-1.pdf?utm_source=chatgpt.com",
+            "https://www.hmaslam.com/how-to-write-suno-ai-prompts/",
+            "https://www.hmaslam.com/how-to-write-suno-ai-prompts/?utm_source=chatgpt.com",
+            "https://www.litmedia.ai/resource-music-tips/suno-prompts/",
+            "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+            "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php",
+            "https://www.thepromptindex.com/ai-courses/suno-ai-music-generation.php?utm_source=chatgpt.com",
+            "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation",
+            "https://yeb.to/en/mastering-style-tags-in-suno-ai-2025-the-ultimate-guide-to-custom-music-generation?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "sunomate.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://sunomate.com/?utm_source=chatgpt.com",
+                  "title": "SunoMate - AI Artist & Song Style Generator for Suno",
+                  "snippet": "STOP GUESSING STYLES IN SUNO,  GET THE PERFECT PROMPT, INSTANTLY.  SunoMate integrates into suno and transforms any artist or song name into a detailed, high-quality style prompt. Create better music,...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "sunomate.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "americanbar.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.americanbar.org/groups/entertainment_sports/resources/entertainment-sports-lawyer/2025-fall/never-going-style-ai-generated-music-reliance-style-based-prompts-copyright-musical-genre/?utm_source=chatgpt.com",
+                  "title": "Never Going Out of Style: How AI-Generated Music’s Reliance on Style-Based Prompts Calls for a Reminder that No One Can Copyright a Musical Genre",
+                  "snippet": "Search ABA  Skip to content  Forum on the Entertainment & Sports Industries  Home  Search the Forum  ← Section Menu  Close  SUMMARY  * The Ninth Circuit's 2018 ruling in the \"Blurred Lines\" case raise...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "americanbar.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "hmaslam.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.hmaslam.com/how-to-write-suno-ai-prompts/?utm_source=chatgpt.com",
+                  "title": "How To Write Suno AI Prompts (With Examples) in 2025",
+                  "snippet": "Suno AI was trained on real music patterns, so it understands contextual sound cues tied to specific artists and eras. By referencing familiar artists or styles, you help Suno “lock onto” the right so...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1760462848,
+                  "attribution": "hmaslam.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wokewaves.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wokewaves.com/posts/suno-ai-guide-tips-tricks-prompts?utm_source=chatgpt.com",
+                  "title": "The Ultimate Suno AI Guide: Tips, Tricks & Prompts to Make Real-Feeling Songs! | Tech",
+                  "snippet": "STEP 3: CHOOSE AN ARTIST STYLE TO GUIDE THE AI  Suno AI can adapt to various artist-inspired styles. If you’re going for a specific sound, mentioning an artist can guide the AI towards that vibe. Here...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "wokewaves.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.wokewaves.com/posts/150-artist-styles-suno-ai?utm_source=chatgpt.com",
+                  "title": "150 Artist-Inspired Styles for Suno AI: Create Music in Any Genre | Tech",
+                  "snippet": "Woke Waves  Tech  150 ARTIST-INSPIRED STYLES FOR SUNO AI: CREATE MUSIC IN ANY GENRE  Daniel Martinez  Image  November 11, 2024  Image  5  min read  Last Update -  November 11, 2024 9:41 AM  ⚡ Quick Vi...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "wokewaves.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "medium.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40Adrian_Wells/the-ultimate-ai-music-list-of-prompts-for-suno-ai-music-2025-2026-latest-0ca13088bf64?utm_source=chatgpt.com",
+                  "title": "Complete Prompt of Suno AI Music Latest | Medium",
+                  "snippet": "Sitemap  Open in app  Sign up  Sign in  THE PROMPTS FOR SUNO AI MUSIC LIST OF 2025-2026  Adrian Wells  4 min read3 days ago  --  1  Listen  Share  Press enter or click to view image in full size  If y...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40systemdude/cant-use-artist-names-in-suno-ai-bypass-like-a-pro-2025-prompt-guide-7563ac8714ca?utm_source=chatgpt.com",
+                  "title": "🤔 Can’t Use Artist Names in Suno AI? Bypass Like a Pro (2025) [Prompt Guide] 👩‍🎤 | by System Dude | Aug, 2025 | Medium",
+                  "snippet": "Sitemap  🤔 CAN’T USE ARTIST NAMES IN SUNO AI? BYPASS LIKE A PRO (2025) [PROMPT GUIDE] 👩‍🎤  System Dude  3 min read15 hours ago  --  Listen  Share  Press enter or click to view image in full size  🎧 SU...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://travisnicholson.medium.com/complete-list-of-prompts-styles-for-suno-ai-music-2024-33ecee85f180?utm_source=chatgpt.com",
+                  "title": "Complete List of Prompts & Styles for Suno AI Music (2025) | by Travis Nicholson | Medium",
+                  "snippet": "Sitemap  Open in app  Sign up  Sign in  COMPLETE LIST OF PROMPTS & STYLES FOR SUNO AI MUSIC (2025)  Travis Nicholson  7 min readApr 4, 2024  --  63  Listen  Share  Press enter or click to view image i...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40kvxxpb/complete-list-of-suno-ai-prompts-styles-that-actually-work-2025-7674ada36eec?utm_source=chatgpt.com",
+                  "title": "Complete List of Suno AI Prompts & Styles That Actually Work (2025) | by James 99 | Nov, 2025 | Medium",
+                  "snippet": "Want more AI insights and exclusive prompts? Join the Suno AI newsletter for fresh prompts  Taylor Swift: Confessional pop storytelling, catchy melodic hooks, emotional narratives, polished studio so...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "medium.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lilys.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lilys.ai/notes/en/suno-ai-20251031/prompt-suno-ai-like-favorite-artist?utm_source=chatgpt.com",
+                  "title": "Prompt Suno AI to Sound Like Your Favorite Artist",
+                  "snippet": "View original video in AI viewer  Travis NicholsonViews 4,4629/25/2025  Script  Script×  00:00How do you use Suno AI to sound like your favorite artist? Let me show you  00:06[Music] That's not Simon...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "lilys.ai"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "litmedia.ai",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.litmedia.ai/resource-music-tips/suno-prompts/?utm_source=chatgpt.com",
+                  "title": "Suno Prompts Guide: How to Write Better AI Music Prompts for Suno.AI",
+                  "snippet": "03 COMMON MISTAKES TO AVOID WHEN WRITING SUNO PROMPTS — AND HOW TO FIX THEM  Crafting effective Suno prompts is essential for generating high-quality songs with Suno AI. Many users—especially those co...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "litmedia.ai"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sunopersonacreator.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.sunopersonacreator.com/?utm_source=chatgpt.com",
+                  "title": "Suno Persona Creator — Build & Browse Personas for Suno",
+                  "snippet": "New: Guided persona prompts for Suno v3 & v4  DESIGN SIGNATURE SUNO PERSONAS IN MINUTES.  Suno Persona Creator streamlines your persona workflow: name, image prompt, style/bio, and reference track. Sa...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "sunopersonacreator.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "itsbetterwithai.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://itsbetterwithai.com/i/how-to-use-suno/?utm_source=chatgpt.com",
+                  "title": "How To Use Suno (AI Music Generator) | It's Better With AI",
+                  "snippet": "VOCAL TECHNIQUES  Use the Vowel Extension Technique: If you want a longer, drawn-out vocal, add multiple vowels like this: \"lo-o-o-o-ove.\" This technique works well for melodic sections like the chor...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "itsbetterwithai.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "patreon.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.patreon.com/posts/new-tools-114242481?utm_source=chatgpt.com",
+                  "title": "New tools | Patreon",
+                  "snippet": "NEGATIVE PROMPTING IN AUDIO GENERATION  Negative prompting involves specifying elements you **don't** want in your generated output. By listing tokens or artists that are overrepresented or overfitted...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "patreon.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "suno.wiki",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.suno.wiki/faq/getting-started/custom-mode-how-do-i-write-a-style-prompt/?utm_source=chatgpt.com",
+                  "title": "Custom Mode: How do I write a Style Prompt? - Suno.wiki",
+                  "snippet": "CUSTOM MODE: HOW DO I WRITE A STYLE PROMPT?  CUSTOM MODE  Custom Mode splits the text prompts into 2 panels, a Lyric Generator and a Style of Music prompt. Each has a random generator, and a text box...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "suno.wiki"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "vocal.media",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://vocal.media/art/ai-music-prompt-list-of-artist-inspired-prompts-for-suno-ai-2025?utm_source=chatgpt.com",
+                  "title": "AI Music Prompt: List of Artist-Inspired Prompts for Suno AI 2025 | Art",
+                  "snippet": "And that’s where the creativity kicks in, because instead of imitation, you’re using AI to help shape an arrangement that’s uniquely yours.  LIST OF AI MUSIC PROMPT (ARTIST-INSPIRED) FOR SUNO AI 2025...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "vocal.media"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "request_id": "225f6115-be40-4600-9d65-6fa3a9f7224f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "f7996a1c-0cc2-48df-8896-87b3250703c4",
+          "turn_exchange_id": "1f8822f4-7eab-4a5d-a08e-43acc6dd2dc5",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f7996a1c-0cc2-48df-8896-87b3250703c4",
+      "children": []
+    }
+  },
+  "current_node": "eeb7186f-9106-4c9b-aeeb-16adc4a79c56"
+}

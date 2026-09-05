@@ -1,0 +1,2033 @@
+ON			"TURN
+— IT —
+OFF
+↯"	ON	TRUE
+	I'LL HAVE MY HASHBROWNS . . .	...covered, peppered, capped, chunked, sedated, gut-weaseled, cobbled, festered, canned, cripled, snookered, puffed, spansed, day, edgy, sloppy, punch, sad, flirt, and like Pa used to make...and tied, crottled, caped, thundered, mauled, amused, atomized, hopped-up, and twombled, ..and pilt.	TRUE		
+			TRUE		
+			"...THANK YOU FOR DINING AT THE WAFFLE HOME
+💘"		
+FALSE	ON			TRUE	FALSE
+	WAFFLE HELL MODE IS!!			ON	⏳
+
+=IF(E6="ON","ON","OFF")		=IF(AND(D3=TRUE,D2=TRUE),IMAGE("https://www.wafflehouse.com/wp-content/uploads/2015/11/WH-Regulars-Logo.png"),IMAGE("https://www.presby.edu/bluestocking/wp-content/uploads/2010/11/500px-Waffle_House_Logo.svg_.png"))	"=IF(AND(D2=TRUE,D3=""""),""CHOOSE WISELY"",IF(C3<>"""",""Special service if you know the password."",IF(AND(D2=FALSE,D3=FALSE),""PLACE YOUR ORDER"",IF(AND(D2=TRUE,D3=FALSE),""CLICK TO ORDER AGAIN"",IF(AND(D2=FALSE,D3=TRUE),""ORDER
+AGAIN
+↯"",IF(AND(D2=TRUE,D3=TRUE),""TURN
+— IT —
+OFF
+↯"",IF(AND(D2=FALSE,D3=""""),""ORDER HERE"")))))))"	=IF(E6="ON","ON","OFF")	TRUE
+	=IF(E6="ON",CONCATENATE(ENGINE!H4,". . ."),CONCATENATE(ENGINE!H4,". . ."))	=CONCATENATE("...",ENGINE!H5)	TRUE		
+			TRUE		
+			"=IFERROR(IF(AND(D2=FALSE,D3=TRUE),""💘
+SLATHER
+ME UP
+AS HELL"",IF(AND(D2=TRUE,D3=FALSE),""⇧
+SLATHER
+ME UP"",IF(AND(D2=TRUE,D3=TRUE),""...THANK YOU FOR DINING AT THE WAFFLE HOME
+💘"",IF(AND(D2=FALSE,D3=FALSE))))))"		
+FALSE	=IF(E6="ON","ON","OFF")			TRUE	FALSE
+=IF(E6="ON","","WELCOME TO WAFFLE HOME")	=if(E6="ON","WAFFLE HELL MODE IS!!","Current waffle threat level:")			=IF(AND(D2=TRUE,D3=TRUE),"ON","THE NIGHT IS YOUNG")	=IF(F5=TRUE,"IT'S ON","⏳")
+
+TRUE																									
+^CLICK HERE TO TEST																									
+																									
+					CONCATENATION			="I'LL HAVE MY HASHBROWNS "																	
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!B3:B10"&COUNTA(DATA!B3:B)*10))^0,COUNTA(DATA!B3:B))),$D6),{ROW(INDIRECT("DATA!B1:B"&COUNTA(DATA!B:B))),FILTER(DATA!B:B,DATA!B:B<>"")},2,0)))		=A5	ORIGINAL		=IF(Hashbrowns!E3=FALSE,FILTER(A5:A47, B5:B47 <> ""),FILTER(C5:C47, C5:C47 <> ""))	=IF(AND(F5<>"",F6=""),".",IF(AND(F5="",F6=""),"",IF(AND(F7="",F6<>""),", and ",", ")))		=CONCATENATE(IF(Hashbrowns!E3=TRUE,CONCATENATE(F5:G60),CONCATENATE(F5:G46)),"..and ",A50,".")																	
+peppered		=A6	=IF(Hashbrowns!E3=TRUE,CONCATENATE("limit ",RANDBETWEEN(3,9)),CONCATENATE("limit ",RANDBETWEEN(1,3)))		peppered	=IF(AND(F6<>"",F7=""),".",IF(AND(F6="",F7=""),"",IF(AND(F8="",F7<>""),", and ",", ")))																			
+capped		=A7			capped	=IF(AND(F7<>"",F8=""),".",IF(AND(F7="",F8=""),"",IF(AND(F9="",F8<>""),", and ",", ")))																			
+chunked		=A8			chunked	=IF(AND(F8<>"",F9=""),".",IF(AND(F8="",F9=""),"",IF(AND(F10="",F9<>""),", and ",", ")))																			
+		=A9			sedated	=IF(AND(F9<>"",F10=""),".",IF(AND(F9="",F10=""),"",IF(AND(F11="",F10<>""),", and ",", ")))																			
+		=A10			gut-weaseled	=IF(AND(F10<>"",F11=""),".",IF(AND(F10="",F11=""),"",IF(AND(F12="",F11<>""),", and ",", ")))																			
+		=A11			cobbled	=IF(AND(F11<>"",F12=""),".",IF(AND(F11="",F12=""),"",IF(AND(F13="",F12<>""),", and ",", ")))					.														
+	=A12				festered	=IF(AND(F12<>"",F13=""),".",IF(AND(F12="",F13=""),"",IF(AND(F14="",F13<>""),", and ",", ")))																			
+	=A13				canned	=IF(AND(F13<>"",F14=""),".",IF(AND(F13="",F14=""),"",IF(AND(F15="",F14<>""),", and ",", ")))																			
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!C3:C10"&COUNTA(DATA!C3:C)*10))^0,COUNTA(DATA!C3:C))),$D15),{ROW(INDIRECT("DATA!C1:C"&COUNTA(DATA!C:C))),FILTER(DATA!C:C,DATA!C:C<>"")},2,0)))	, 	=IF(Hashbrowns!E3=TRUE,IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!C3:C10"&COUNTA(DATA!C3:C)*10))^0,COUNTA(DATA!C3:C))),$D15),{ROW(INDIRECT("DATA!C1:C"&COUNTA(DATA!C:C))),FILTER(DATA!C:C,DATA!C:C<>"")},2,0))),"")	UNKED		cripled	=IF(AND(F14<>"",F15=""),".",IF(AND(F14="",F15=""),"",IF(AND(F16="",F15<>""),", and ",", ")))																			
+crottled	, 	gut-weaseled	=IF(Hashbrowns!E3=TRUE,CONCATENATE("limit ",RANDBETWEEN(7,9)),CONCATENATE("limit ",COUNTA(A5:A11)+RANDBETWEEN(1,3)))		snookered	=IF(AND(F15<>"",F16=""),".",IF(AND(F15="",F16=""),"",IF(AND(F17="",F16<>""),", and ",", ")))																			
+caped	, 	cobbled			puffed	=IF(AND(F16<>"",F17=""),".",IF(AND(F16="",F17=""),"",IF(AND(F18="",F17<>""),", and ",", ")))																			
+thundered	, 	festered			spansed	=IF(AND(F17<>"",F18=""),".",IF(AND(F17="",F18=""),"",IF(AND(F19="",F18<>""),", and ",", ")))																			
+mauled	, 	canned			day	=IF(AND(F18<>"",F19=""),".",IF(AND(F18="",F19=""),"",IF(AND(F20="",F19<>""),", and ",", ")))																			
+amused	, 	cripled			edgy	=IF(AND(F19<>"",F20=""),".",IF(AND(F19="",F20=""),"",IF(AND(F21="",F20<>""),", and ",", ")))																			
+atomized	, 	snookered			sloppy	=IF(AND(F20<>"",F21=""),".",IF(AND(F20="",F21=""),"",IF(AND(F22="",F21<>""),", and ",", ")))																			
+hopped-up		puffed			punch	=IF(AND(F21<>"",F22=""),".",IF(AND(F21="",F22=""),"",IF(AND(F23="",F22<>""),", and ",", ")))																			
+twombled		spansed			sad	=IF(AND(F22<>"",F23=""),".",IF(AND(F22="",F23=""),"",IF(AND(F24="",F23<>""),", and ",", ")))																			
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!D3:D10"&COUNTA(DATA!D3:D)*10))^0,COUNTA(DATA!D3:D))),$D24),{ROW(INDIRECT("DATA!D1:D"&COUNTA(DATA!D:D))),FILTER(DATA!D:D,DATA!D:D<>"")},2,0)))		=A23	BUNNY		flirt	=IF(AND(F23<>"",F24=""),".",IF(AND(F23="",F24=""),"",IF(AND(F25="",F24<>""),", and ",", ")))																			
+edgy		=A24	=IF(Hashbrowns!E3=TRUE,CONCATENATE("limit ",RANDBETWEEN(2,4)),CONCATENATE("limit ",RANDBETWEEN(0,1)))		like Pa used to make	=IF(AND(F24<>"",F25=""),".",IF(AND(F24="",F25=""),"",IF(AND(F26="",F25<>""),", and ",", ")))																			
+sloppy		=A25				=IF(AND(F25<>"",F26=""),".",IF(AND(F25="",F26=""),"",IF(AND(F27="",F26<>""),", and ",", ")))																			
+		=A26				=IF(AND(F26<>"",F27=""),".",IF(AND(F26="",F27=""),"",IF(AND(F28="",F27<>""),", and ",", ")))																			
+		=A27				=IF(AND(F27<>"",F28=""),".",IF(AND(F27="",F28=""),"",IF(AND(F29="",F28<>""),", and ",", ")))																			
+		=A28				=IF(AND(F28<>"",F29=""),".",IF(AND(F28="",F29=""),"",IF(AND(F30="",F29<>""),", and ",", ")))																			
+		=A29				=IF(AND(F29<>"",F30=""),".",IF(AND(F29="",F30=""),"",IF(AND(F31="",F30<>""),", and ",", ")))																			
+		=A30				=IF(AND(F30<>"",F31=""),".",IF(AND(F30="",F31=""),"",IF(AND(F32="",F31<>""),", and ",", ")))																			
+		=A31				=IF(AND(F31<>"",F32=""),".",IF(AND(F31="",F32=""),"",IF(AND(F33="",F32<>""),", and ",", ")))																			
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!E3:E10"&COUNTA(DATA!E3:E)*10))^0,COUNTA(DATA!E3:E))),$D33),{ROW(INDIRECT("DATA!E1:E"&COUNTA(DATA!E:E))),FILTER(DATA!E:E,DATA!E:E<>"")},2,0)))		=A32	OTHER			=IF(AND(F32<>"",F33=""),".",IF(AND(F32="",F33=""),"",IF(AND(F34="",F33<>""),", and ",", ")))																			
+sad		=A33	=IF(Hashbrowns!E3=TRUE,CONCATENATE("limit ",RANDBETWEEN(1,4)),CONCATENATE("limit ",RANDBETWEEN(0,1)))			=IF(AND(F33<>"",F34=""),".",IF(AND(F33="",F34=""),"",IF(AND(F35="",F34<>""),", and ",", ")))																			
+flirt		=A34				=IF(AND(F34<>"",F35=""),".",IF(AND(F34="",F35=""),"",IF(AND(F36="",F35<>""),", and ",", ")))																			
+		=A35				=IF(AND(F35<>"",F36=""),".",IF(AND(F35="",F36=""),"",IF(AND(F37="",F36<>""),", and ",", ")))																			
+		=A36				=IF(AND(F36<>"",F37=""),".",IF(AND(F36="",F37=""),"",IF(AND(F38="",F37<>""),", and ",", ")))																			
+		=A37				=IF(AND(F37<>"",F38=""),".",IF(AND(F37="",F38=""),"",IF(AND(F39="",F38<>""),", and ",", ")))																			
+		=A38				=IF(AND(F38<>"",F39=""),".",IF(AND(F38="",F39=""),"",IF(AND(F40="",F39<>""),", and ",", ")))																			
+		=A39				=IF(AND(F39<>"",F40=""),".",IF(AND(F39="",F40=""),"",IF(AND(F41="",F40<>""),", and ",", ")))																			
+		=A40				=IF(AND(F40<>"",F41=""),".",IF(AND(F40="",F41=""),"",IF(AND(F42="",F41<>""),", and ",", ")))																			
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!F3:F10"&COUNTA(DATA!F3:F)*10))^0,COUNTA(DATA!F3:F))),$D42),{ROW(INDIRECT("DATA!F1:F"&COUNTA(DATA!F:F))),FILTER(DATA!F:F,DATA!F:F<>"")},2,0)))		=A41	LONG			=IF(AND(F41<>"",F42=""),".",IF(AND(F41="",F42=""),"",IF(AND(F43="",F42<>""),", and ",", ")))																			
+		=A42	=IF(Hashbrowns!E3=TRUE,CONCATENATE("limit ",RANDBETWEEN(1,3)),CONCATENATE("limit ",RANDBETWEEN(0,(0.1*E42))))	=RANDBETWEEN(0,10)		=IF(AND(F42<>"",F43=""),".",IF(AND(F42="",F43=""),"",IF(AND(F44="",F43<>""),", and ",", ")))																			
+		=A43				=IF(AND(F43<>"",F44=""),".",IF(AND(F43="",F44=""),"",IF(AND(F45="",F44<>""),", and ",", ")))																			
+		=A44				=IF(AND(F44<>"",F45=""),".",IF(AND(F44="",F45=""),"",IF(AND(F46="",F45<>""),", and ",", ")))																			
+		=A45				=IF(AND(F45<>"",F46=""),".",IF(AND(F45="",F46=""),"",IF(AND(F47="",F46<>""),", and ",", ")))																			
+		=A46				=IF(AND(F46<>"",F47=""),".",IF(AND(F46="",F47=""),"",IF(AND(F48="",F47<>""),", and ",", ")))																			
+		=A47				=IF(F48<>"","..and ",IF(AND(F47<>"",F48=""),". ",IF(AND(F47="",F48=""),"",IF(AND(F49="",F48<>""),". . and ",", "))))																			
+		=A48			=ARRAYFORMULA(A14:A22)	=IF(AND(F48<>"",F49=""),", ",IF(AND(F48="",F49=""),"",IF(AND(F50="",F49<>""),", and ",", ")))																			
+		=A49			crottled	=IF(AND(F49<>"",F50=""),", ",IF(AND(F49="",F50=""),"",IF(AND(F51="",F50<>""),", and ",", ")))																			
+=IFERROR(ArrayFormula(VLOOKUP(QUERY(UNIQUE(RANDBETWEEN(ROW(INDIRECT("DATA!E3:E10"&COUNTA(DATA!E21:E)*10))^0,COUNTA(DATA!E21:E))),$D51),{ROW(INDIRECT("DATA!E1:E"&COUNTA(DATA!E:E))),FILTER(DATA!E:E,DATA!E:E<>"")},2,0)))					caped	=IF(AND(F50<>"",F51=""),", ",IF(AND(F50="",F51=""),"",IF(AND(F52="",F51<>""),", and ",", ")))																			
+sunk					thundered	=IF(AND(F51<>"",F52=""),", ",IF(AND(F51="",F52=""),"",IF(AND(F53="",F52<>""),", and ",", ")))																			
+cheddar-buttery					mauled	=IF(AND(F52<>"",F53=""),", ",IF(AND(F52="",F53=""),"",IF(AND(F54="",F53<>""),", and ",", ")))																			
+hollow					amused	=IF(AND(F53<>"",F54=""),", ",IF(AND(F53="",F54=""),"",IF(AND(F55="",F54<>""),", and ",", ")))																			
+giant					atomized	=IF(AND(F54<>"",F55=""),", ",IF(AND(F54="",F55=""),"",IF(AND(F56="",F55<>""),", and ",", ")))																			
+drug					hopped-up	=IF(AND(F55<>"",F56=""),", ",IF(AND(F55="",F56=""),"",IF(AND(F57="",F56<>""),", and ",", ")))																			
+dread					twombled	=IF(AND(F56<>"",F57=""),", ",IF(AND(F56="",F57=""),"",IF(AND(F58="",F57<>""),", and ",", ")))																			
+chickanery						=IF(AND(F57<>"",F58=""),", ",IF(AND(F57="",F58=""),"",IF(AND(F59="",F58<>""),", and ",", ")))																			
+crap-shot																									
+not																									
+betwixt																									
+gum																									
+grape																									
+pink																									
+wrist																									
+snow																									
+sloven																									
+flirt																									
+diet-diet																									
+gill																									
+wide																									
+hinting																									
+slim																									
+spew																									
+drew																									
+fro																									
+tough																									
+stung																									
+gust																									
+copper																									
+flora																									
+stretches																									
+shank																									
+spent																									
+slook																									
+chives																									
+swamp																									
+rolling																									
+trees																									
+wet																									
+stuck																									
+brazen																									
+piltdown																									
+scratch																									
+kicking																									
+fib																									
+pinch																									
+melt																									
+tuck																									
+scream																									
+drunken																									
+scent																									
+hives																									
+saw																									
+dolt																									
+gone																									
+chunks																									
+possum																									
+chocolate																									
+pale																									
+thrown																									
+calorific																									
+pepp																									
+new																									
+sad																									
+nip																									
+stinking																									
+sides																									
+dice																									
+drawn																									
+platt																									
+clap																									
+pew																									
+elfin																									
+original																									
+with pyles																									
+dingo																									
+smooth																									
+gallon																									
+tang																									
+closer																									
+screaming																									
+perpetual																									
+pant																									
+twice-burnt																									
+kud																									
+drown																									
+shining																									
+semi																									
+demure																									
+sculpture																									
+twat																									
+twazen																									
+thunken																									
+elfish																									
+subsurface																									
+flung																									
+mole																									
+shook																									
+sunkissing																									
+coats																									
+krause																									
+towering																									
+bugbear																									
+hope																									
+puck																									
+on a stick																									
+subterranean																									
+nesting																									
+piper																									
+necrotic																									
+floral																									
+knot																									
+butt																									
+sloft																									
+smelt																									
+countrywide																									
+tripping																									
+sugar																									
+stunk																									
+punch																									
+gall																									
+thruple																									
+smurfing																									
+museful																									
+cut																									
+glock																									
+snip																									
+sour																									
+jongleur (n. masc. Jongleur ≃ juggler)																									
+pallid																									
+pock																									
+thundering																									
+straw																									
+wee																									
+cheese																									
+clank																									
+flavor																									
+with greeps on the side																									
+splutt																									
+gobbles																									
+guzz																									
+dish																									
+dug																									
+cut																									
+tobacconistic																									
+florid																									
+coconut																									
+taint																									
+burnt																									
+twang																									
+waste																									
+tug																									
+chufft																									
+snuck																									
+jock																									
+good for me																									
+drunk																									
+inappropriate																									
+suck																									
+smacked																									
+dwarvish																									
+ringo																									
+long																									
+knobbles																									
+seductive																									
+crying																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+
+	smothered	journeyed	slightly	calorific	trying to get on with their journey																				
+	peppered	formed-into-a-motorcycle	slightly	gone	with a hot summer in the spring																				
+	chunked	appropriated	country	inappropriate	baked-in-the-sun																				
+	covered	country-widened	country	sunkissing	plantagenet																				
+	capped	originated	sneaky	countrywide	gonads																				
+	topped	gobble-seeded	sloppy	original	drat, I spooged myself																				
+	diced	toasted	sneaky	stretches	hurdy-gurdy																				
+		countrified	sloppy	seductive	impaled on a pike of gold																				
+		stretched	smokey	sculpture	stunnng in their orbital glory																				
+		screamed-at	smoky	screaming	pasted with a slather of mustardy glory																				
+		marijuanified	shiny	butt	all full of cheese																				
+		diet-dieted	poppy	diet-diet	cuffing themselves off for dear life																				
+		and curdled	lucky	chocolate	smurfed to the bleeding edge of life																				
+		unfinished	kitty	stinking	tag-teamed by the MacGuire brothers in their heyday																				
+		pepeppered	kimpy	tobacconistic	careful with that axe, Eugene!																				
+		pepperonied	jolly	thundering	weekend-at-bernies-ized																				
+		sculpted	dairy	shining	like Pa used to make																				
+		chocked	kimpy	scratch	the most dangerous quarry																				
+		stonked	jolly	perpetual	used as a drug mule																				
+		floralized	dairy	nesting	call me, like Debi Harry																				
+		cloistered	shiny	museful	outwardly-just-fine, but cramming it all down inside																				
+		smokey-eyed	poppy	knobbles	bottled, like a clipper ship																				
+		sideswiped	lucky	kicking	show me on the doll where he touched you																				
+		lenghtened	kitty	hinting	slimmed down to fit their old jeans																				
+		smothered	lazy	gobbles																					
+		scattered	cozy	coconut																					
+		magnified	lazy	chickanery																					
+		frittered	citified	cheddar-buttery																					
+		and diced	dry	cut																					
+		snookered	daylit	tug																					
+		tobaccoed	cray-cray	thruple																					
+		thundered	dry	thrown																					
+		enshrined	day	smooth																					
+		scratched	country	sloven																					
+		puppeted	slovenly	scream																					
+		nestled	skunky	possum																					
+		amused	tangy	krause																					
+		kobblesed	splainy	hollow																					
+		nestléd	tingy	gallon																					
+		hunted	tiny	floral																					
+		countryed	smurfy	flavor																					
+		coconuted	edgy	copper																					
+		chickened	craggy	closer																					
+		cheddared	balmy	chunks																					
+		troubled	grimy	cheese																					
+		shrouded	twinkie	florid																					
+		seetched	quirky	pallid																					
+		scrapped	plucky	wrist																					
+		peppered	dewy	waste																					
+		graveled	esplained-frankly	trees																					
+		flavored	spazzy	tough																					
+		slighted		swamp																					
+		tuggered		sugar																					
+		throwned		stunk																					
+		smoothed		stuck																					
+		slovened		straw																					
+		sloppied		spent																					
+		screamed		sloft																					
+		possumed		sides																					
+		hollowed		shook																					
+		galloned		shank																					
+		flavored		scent																					
+		coppered		punch																					
+		chunky-diapered		piper																					
+		citified		pinch																					
+		saddened		necrotic																					
+		tumbled		grape																					
+		toasted		giant																					
+		suckled		flung																					
+		stuffed		flora																					
+		studded		drown																					
+		stucked		dread																					
+		stopped		coats																					
+		stamped		clank																					
+		stained		snuck																					
+		spotted		wide																					
+		slopped		tuck																					
+		slimmed		sunk																					
+		shocked		suck																					
+		plucked		spew																					
+		peddled		sour																					
+		muffled		snow																					
+		muddled		snip																					
+		mew-fed		slim																					
+		huddled		semi																					
+		guzzled		pock																					
+		groomed		pink																					
+		gritted		pepp																					
+		fruined		pant																					
+		frosted		pale																					
+		elapsed		mole																					
+		drowned		melt																					
+		dressed		long																					
+		crowned		knot																					
+		covered		hope																					
+		cobbled		guzz																					
+		climbed		gust																					
+		chunked		gill																					
+		seethed		gall																					
+		diaried		drew																					
+		seduced		dish																					
+		trupled		dice																					
+		kraused		clap																					
+		cheesed		wet																					
+		wristed		saw																					
+		tressed		sad																					
+		toughed		pew																					
+		swamped		not																					
+		sugared		nip																					
+		stunked		new																					
+		stucked		kud																					
+		strawed		gum																					
+		spented		fro																					
+		slofted		fib																					
+		shooked		dolt																					
+		shanked		cut																					
+		scented		platt																					
+		punched		splutt																					
+		poppyed		flirt																					
+		pipered		smacked																					
+		pinched		jongleur (n. masc. Jongleur ≃ juggler)																					
+		neproed		dug																					
+		jollied		jock																					
+		gianted		puck																					
+		fingered		glock																					
+		drowned		demure																					
+		dreaded		chufft																					
+		dairyed		stung																					
+		coatsed		with greeps on the side																					
+		clanked		crap-shot																					
+		widened		drawn																					
+		knotted		subsurface																					
+		clapped		subterranean																					
+		wooled		elfish																					
+		wicked		elfin																					
+		tucked		dwarvish																					
+		traged		bugbear																					
+		tothed		rolling																					
+		topped		tripping																					
+		tipped		drunk																					
+		tinted		dingo																					
+		sucked		ringo																					
+		stored		tang																					
+		spiked		good for me																					
+		spiced		with pyles																					
+		smewed		hives																					
+		slimed		chives																					
+		sliced		burnt																					
+		skated		brazen																					
+		shaved		drunken																					
+		shaded		thunken																					
+		seemed		on a stick																					
+		seated		taint																					
+		seared		wee																					
+		rained		smelt																					
+		pushed		piltdown																					
+		puffed		pilt																					
+		poutted		twat																					
+		posed		twazen																					
+		popped		betwixt																					
+		pinted		twice-burnt																					
+		peeled		slook																					
+		melted		towering																					
+		mashed		smurfing																					
+		licked		drug																					
+		glazed		crying																					
+		gifted		twang																					
+		dusted		cancerous																					
+		dipped		candid																					
+		cursed		frank																					
+		cuffed		spazzing-out																					
+		capped		spazzing-in																					
+		canned		spazzing-on																					
+		punked		spazzing-under																					
+		pulped		spazzing-through																					
+		shined		spazzing-within																					
+		lucked		spazzing-over																					
+		slided		spazzing-between																					
+		snaked		spazzing-betwixt																					
+		wasted		spazzing-without																					
+		shined		spazzing-within																					
+		lucked		spazzing-around																					
+		graped		spazzing-outwardly																					
+		tucked		putrid																					
+		sunked		flung																					
+		sucked		craven																					
+		spewed		outspoken																					
+		soured																							
+		snowed																							
+		sniped																							
+		slimed																							
+		stymied																							
+		pocked																							
+		pinked																							
+		pepped																							
+		panted																							
+		melted																							
+		guzzed																							
+		gusted																							
+		gilled																							
+		galled																							
+		drewed																							
+		dished																							
+		wetted																							
+		nipped																							
+		kudded																							
+		gummed																							
+		fibbed																							
+		tried																							
+		tired																							
+		tiled																							
+		saved																							
+		nosed																							
+		naked																							
+		mixed																							
+		jawed																							
+		jaded																							
+		fried																							
+		dried																							
+		diced																							
+		cured																							
+		cited																							
+		cased																							
+		caped																							
+		caged																							
+		baked																							
+		kited																							
+		moléd																							
+		lased																							
+		hopped-up																							
+		diced																							
+		sawed																							
+		pewed																							
+		noted																							
+		newed																							
+		froed																							
+		dried																							
+		dewed																							
+		dayed																							
+		cuted																							
+		tied																							
+		died																							
+		sedated																							
+		underfed																							
+		sprunched																							
+		s'muched																							
+		hunkered																							
+		flirted																							
+		flittered																							
+		twittered																							
+		twombled																							
+		sponked																							
+		sprankled																							
+		jongled																							
+		stanked																							
+		sparkled																							
+		sprattled																							
+		plotted																							
+		merengued																							
+		fudged																							
+		puked																							
+		pyritized																							
+		amphetamined																							
+		mined																							
+		glocked																							
+		misted																							
+		atomized																							
+		demured																							
+		dazed																							
+		razed																							
+		raised																							
+		elevated																							
+		engulfed																							
+		straddled																							
+		spooned																							
+		pitcairned																							
+		plottered																							
+		poldered																							
+		powdered																							
+		faced																							
+		about-faced																							
+		smeckled																							
+		slovened																							
+		gut-weaseled																							
+		crottled																							
+		wheezed																							
+		greeped																							
+		strangled																							
+		muffed																							
+		caned																							
+		smeared																							
+		smacked-up																							
+		manhandled																							
+		analized																							
+		franked																							
+		spazzled																							
+		porned																							
+		gorned																							
+		corned																							
+		beef-fed																							
+		grain-fed																							
+		quartered																							
+		stunned																							
+		tazed																							
+		earwaxed																							
+		rolled																							
+		tricked-out																							
+		adderalled																							
+		enthralled																							
+		bawled																							
+		brazed																							
+		crazed																							
+		civilized																							
+		chilled																							
+		pot-holed																							
+		jingoed																							
+		dingoed																							
+		mansplained																							
+		complained																							
+		drained																							
+		mollied																							
+		piled																							
+		scar-faced																							
+		chived																							
+		choded																							
+		thunked																							
+		flunked																							
+		flayed																							
+		skewed																							
+		skewered																							
+		dick-shined																							
+		supposed																							
+		cat-called																							
+		mauled																							
+		marinated																							
+		tainted																							
+		craned																							
+		fermented																							
+		invented																							
+		tanged																							
+		tinged																							
+		smoke-tinged																							
+		pilled																							
+		tweezed																							
+		twazed																							
+		twice-baked																							
+		slaked																							
+		muffin-topped																							
+		smurfed																							
+		edged																							
+		bedraggled																							
+		draggged																							
+		drugged																							
+		teamed																							
+		tag-teamed																							
+		doped																							
+		raped																							
+		rizzed																							
+		rizzled																							
+		sodomized																							
+		starved																							
+		propped-up																							
+		staved																							
+		steered																							
+		stared-at																							
+		squelched																							
+		jet-fueled																							
+		posted																							
+		postered																							
+		plastered																							
+		grimed																							
+		membraned																							
+		thinned																							
+		crapped																							
+		cripled																							
+		griped																							
+		jangled																							
+		twinked																							
+		twinkled																							
+		twanged																							
+		tarzanned																							
+		caterpillared																							
+		patterned																							
+		delapitated																							
+		depiliatoried																							
+		under-capitalized																							
+		over-leveraged																							
+		pawed																							
+		cat-pawed																							
+		candled																							
+		leg-cramped																							
+		roughed-up																							
+		gathered																							
+		trolloped																							
+		gussied-up																							
+		butted																							
+		abutted																							
+		butt-plugged																							
+		festered																							
+		phesanted																							
+		spooged																							
+		glyphed																							
+		spiked																							
+		patted																							
+		patted-dry																							
+		petted																							
+		pawned																							
+		heavy-petted																							
+		dewed																							
+		morped																							
+		durped																							
+		drupped																							
+		pingoed																							
+		spansed																							
+		spazzed																							
+		purfed																							
+		bottled																							
+		craved																							
+		crowed																							
+		out-crowed																							
+		ousted																							
+		pouty-lipped																							
+		pouty-eyed																							
+		pouty-tongued																							
+		tongued																							
+		pouty-faced																							
+		pouty-boobed																							
+		boobed																							
+		pouty-nosed																							
+		snot-nosed																							
+		pouty-assed																							
+		gagged																							
+		gaggled																							
+		scooped																							
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

@@ -1,0 +1,157 @@
+import {Key_Cmaj,Key_Eb} from "@topia/core";
+import {unusual_Vocals,baseball_Sounds} from "@topia/carriers";
+const song=mashup({
+ A:inherit("63 Years","tempo hook cadence flamencoPocket forwardMotion"),
+ B:inherit("Ariana & Glenn","femalePitch soulSway majorLight"),
+ key:"C minor",bpm:[134,140]
+});
+song.limit({languor:"2bars",darkness:"constant",soundtrack:false});
+hookLock({pitchShape:"immutable",pulse:"keep"});
+onEnter(scene=>scene.changeOne("carrier voice meter dryFoley"));
+song.scene("dense").set({density:"max",tempo:"constant",microPauses:true});
+song.scene("DianeJack").set({lead:"female",mode:"majorColor",gait:"carriage",arrival:"hard"});
+song.scene("baseball").reset({keep:"hook pulse",first:batCrack,meter:"straight",length:"short"});
+song.scene("final").cut("1beat",dryRoom).foreground("everybody").releaseToHook();
+
+
+
+
+
+[const T=Topia,S=n=>T.scene(n),H=n=>T.hook(n);T.start("SOL");]
+Realistic twelve-sixty-four-K security-camera footage.
+
+[S("openI").enter();]
+A spry geriatric Glenn Danzig
+assists a sweet, frumpy old Ariana Grande
+with the cleaning
+
+in an open-air
+ecoutopian futuristic anarcho-communist
+Harlem pancake house.
+
+[S("openII").enter();]
+Window’s open.
+Coffee in the pot—reach in, help yourself.
+
+Glenn and Ariana
+shooting the shit, enjoying the breeze.
+
+We got sugar and cream.
+No lock. No door. No key.
+Bread cools on the sill.
+Marshall’s mended the screen.
+
+[H("watches").lock("same",4);]
+And everybody watches.
+E-e-e-e-everybody watches.
+
+[S("wrench").enter({density:"max",motion:"accelerate"});]
+Björk sixty-three-year borrowed-wrench return procession through the unlocked neighborhood repair shed, J.P. initials showing underneath the rust, greenhouse-pump bakery-mixer north-bathhouse history polished, Joe’s halfway beneath the public washroom sink says, “This mine?” Björk says back, “Sixty. Three. Years. Back.—I borrowed it on a Wednesday, I think.” Joe: “Oh yeah okay okay…” One-turn-left two-turn-back coupling-stop drip-stop, enamel basins working, seven waiting buckets moving, Joe passing the wrench up without looking while Björk tests the tap, fills the kettle, empties the first brown splash into the geranium trench and catches the clean water on its way back, Joe says something collar-low to the drainpipe, Björk fist-pump shoulder-bump laughing, “He’s funny—ha-ha,” wrench hand-to-hand down the basin row last leak tightened first kettle whistling, everybody washed up before the. Bread. Comes. Out.
+
+[S("openIII").release({carrierSwap:true});]
+Window’s open.
+Coffee in the pot—reach in, help yourself.
+
+Ariana and Joe
+shooting the shit, enjoying the breeze.
+
+Marshall turned the bench cushions.
+Dry side up.
+
+Don’t leave without a pear.
+We got too many.
+
+[H("watches").return();]
+And everybody watches.
+E-e-e-e-everybody watches.
+
+[S("laundry").enter({density:"max",voices:"trade"});]
+Whoopi Goldberg fitted-sheet corner-snap neighborhood-laundry morning rotation, Skrillex silver-braid treadle-wringer handcart-route sorting chalk-destination bakery-apron clinic-towel footbridge-bedlinen upstairs-over-pharmacy, one king-size sheet balloons over both of them and comes down already half-folded, Whoopi taps the orange canister, “Metamucil with your tea?” Skrillex slides his cup without dropping the corner, “You know me,” spoon-in stir-round pedal-down steam-up, fitted fitted flat towel apron towel, one orphan sock pinned to the claim line, Skrillex says, “Mine,” Whoopi points at his ankle, he checks left checks right, “Other one’s mine,” cart loaded route chalked laundry moving hand-to-hand four streets supplied before the. Tea. Still. Hot.
+
+[S("arch").release("open");]
+Window’s open.
+Coffee in the pot—reach in, help yourself.
+
+At the old triumphal arch,
+Björk and Skrillex
+takin’ their obligatory piss,
+shooting the shit, enjoying the breeze.
+
+Don’t leave without a pear.
+Take a couple three.
+
+[H("watches").return();]
+And everybody watches.
+E-e-e-e-everybody watches.
+
+[S("DianeJack").enter({lead:"female",mode:"major",gait:"carriage",arrival:"hard"});]
+Window’s open.
+Coffee in the pot—reach in, help yourself.
+
+Here’s a little story about Diane and Jack,
+MrBeast and Glenn Danzig sitting in the back—
+
+shooting the shit,
+enjoying the orchard breeze.
+
+Diane holds the reins loose.
+
+Jack passes the cider
+in one Mason jar.
+
+Six big Clydesdales
+take the hill without breaking pace.
+
+At the first gate,
+two old women climb aboard.
+
+At the second,
+six kids and somebody’s dog.
+
+The carriage seats twelve.
+That has never mattered.
+
+Diane slows at every gate.
+Jack scoots everybody closer.
+
+At the top of the hill
+they turn around
+
+and go back for everybody else.
+
+[H("rides").mutateFrom("watches");]
+And everybody rides.
+E-e-e-e-everybody rides.
+
+[S("baseball").reset({first:"batCrack",meter:"straight",density:"max",length:"short"});]
+Joe Pesci picks up the baseball bat. Skrillex rosin-palm toe-scrape left-leg-lift throws the pitch, Joe watches it sail past, “Juuuust a bit outside,” next one belt-high bat-crack clover-gap two-bounce roll, Joe takes first standing up, nobody covering, nobody counting, Keith rearranging the lineup with one finger while maybe Keith maybe Leo’s smokin’ a cigarette and Leo hollers, “Put me in, Coach—I’m ready to play. Today.”
+
+[S("finalOpen").release("open");]
+Window’s open.
+Coffee in the pot—reach in, help yourself.
+
+Whoopi and Leo
+shooting the shit, enjoying the breeze.
+
+Don’t you dare leave without pears.
+Take a couple three.
+
+Take two more
+for whoever you see on the way.
+
+[H("watches").return(4);]
+And everybody watches.
+E-e-e-e-everybody watches.
+Everybody watches.
+Everybody watches.
+
+[T.transport.cut("1beat","keepRoom");]
+
+And everybody watches—
+everybody.
+
+[T.transport.return("parentPulse","hookFragment");]
+
+Everybody—
+E-e-e-e-everybody—
+E-e-e-e-everybody…
