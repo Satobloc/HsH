@@ -1,0 +1,1392 @@
+{
+  "counts": {
+    "bytes_known": 390529026,
+    "directories": 10,
+    "files": 159
+  },
+  "counts_by_extension": {
+    ".json": 97,
+    ".md": 3,
+    ".pdf": 1,
+    ".png": 1,
+    ".py": 1,
+    ".txt": 55,
+    "[none]": 1
+  },
+  "counts_by_role": {
+    "archive-tooling": 1,
+    "license": 1,
+    "source-conversation-corpus": 157
+  },
+  "counts_by_top_level": {
+    "DEVELOPMENT_FULL_CONVOS": 157,
+    "LICENSE": 1,
+    "tools": 1
+  },
+  "duplicates": [
+    {
+      "content_id": "08178430dd69cc0af25c83dc75e685ee1514ec94",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Prompt Puller — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Prompt Puller — raw.txt"
+      ]
+    },
+    {
+      "content_id": "31312b28ab1716f8051e6f775689b76932cbdb70",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw.json"
+      ]
+    },
+    {
+      "content_id": "3cb1b696b94275e79e73ffc1a11555c964b67c2b",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Ret--Jun1 SAT Z Review — raw - .TXT",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Ret--Jun1 SAT Z Review — raw.json"
+      ]
+    },
+    {
+      "content_id": "40878dfb3d2f0b6973e2451ac4c4f284a88caff5",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Proton-Electron Mass Ratio — raw - .TXT",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Proton-Electron Mass Ratio — raw.json"
+      ]
+    },
+    {
+      "content_id": "4d56d6d8489a58e0b26657d98693bfbaa4837681",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw - .txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw.json"
+      ]
+    },
+    {
+      "content_id": "507a7000082415373ee98dbc95f18a991dff3c5a",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/SAT theory clarification — raw - .TXT",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/SAT theory clarification — raw.json"
+      ]
+    },
+    {
+      "content_id": "5561ba81a378cde5b14a21fecebc2699636cd323",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Intellectual Surprise Challenge — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Intellectual Surprise Challenge — raw.json"
+      ]
+    },
+    {
+      "content_id": "55f4a7e0ab701856da43494cd8e09f47a29ce986",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/2 OS-00 world overview — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/2 OS-00 world overview — raw.txt"
+      ]
+    },
+    {
+      "content_id": "5f1717c18bc8b96344b15622c5d3d6a5b9ff7db1",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw - .TXT",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw.json"
+      ]
+    },
+    {
+      "content_id": "62db1afc0f6f6d302844d77138a3991fdf0a512c",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw.json"
+      ]
+    },
+    {
+      "content_id": "77b627687f3c2d581081be4d68254bc39a5cc7d2",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Methodology Review Request — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Methodology Review Request — raw.json"
+      ]
+    },
+    {
+      "content_id": "791613a31de31ef80b6be726258b00c8a3aef0ea",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/SAT ACTIVE EDGE vNext — raw - .TXT",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/SAT ACTIVE EDGE vNext — raw.json"
+      ]
+    },
+    {
+      "content_id": "7e1c6969a09f05c26ea40ea51b187e5e2ae3b0ae",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Script prompt nesting — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Script prompt nesting — raw.txt"
+      ]
+    },
+    {
+      "content_id": "8fbded973df263d24b2c1346f0f96e28ded415e7",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Gravitational Changes and Motion — raw - .txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Gravitational Changes and Motion — raw.json"
+      ]
+    },
+    {
+      "content_id": "975c437868a9944152d7593671013ab7a771bd94",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Monorail Schede — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Monorail Schede — raw.txt"
+      ]
+    },
+    {
+      "content_id": "975e239898093bcae5dd58e5b979a80b70572434",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1).txt"
+      ]
+    },
+    {
+      "content_id": "9a7f493236c2584c2e8b81b11a4f20910f1fa840",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw - .txt",
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw.json"
+      ]
+    },
+    {
+      "content_id": "9b7e8d54ad22bc77048c947f589f56a616b2ad8f",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw .txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw.json"
+      ]
+    },
+    {
+      "content_id": "b276dadd48f3dc27588c5bcaf428f0d1e6245074",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Math Engine Tasks — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Math Engine Tasks — raw.json"
+      ]
+    },
+    {
+      "content_id": "b5f83f11e4c9b6498d98fe4effece83e2a707d7d",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Image overlay blending — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Image overlay blending — raw.txt"
+      ]
+    },
+    {
+      "content_id": "b7868607d89f66bbc0e638398182fb2d6b2da2ce",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw - Copy.txt",
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw.json"
+      ]
+    },
+    {
+      "content_id": "bf9d9a6319461a969d031773ca1e7eaf11d5a94b",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Theory Archive Review — raw - .txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Theory Archive Review — raw.json"
+      ]
+    },
+    {
+      "content_id": "d9a25072ed462c714cdd04f2fb1bce4860d4b12d",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs - .txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json"
+      ]
+    },
+    {
+      "content_id": "ea35ef29fce28433aa74ec51815223881f33ced1",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/OS-00 world overview — raw.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/OS-00 world overview — raw.txt"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "content_id": "cadbede9a8259ad336ce3cfa8c90906863676ed3",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "12c9cfab400d63a874875dc8eb58e33661b670f1",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "08e00b6483e3884a76db33211897ff4f10919967",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 6024526
+    },
+    {
+      "content_id": "5a6fa0eeddff6d2e753da69d8f32c8f7fb7dbb0a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/AI Enclosure Critique — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 24866201
+    },
+    {
+      "content_id": "62db1afc0f6f6d302844d77138a3991fdf0a512c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 6684669
+    },
+    {
+      "content_id": "62db1afc0f6f6d302844d77138a3991fdf0a512c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6684669
+    },
+    {
+      "content_id": "49a23bbeaad90eadb090afb2d593e30c530290d3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Consciousness and AI Debate — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 15811545
+    },
+    {
+      "content_id": "2e0c8477873583b92f20a0a3f2af6528643b4a8a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Geometry in Physics — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 17988441
+    },
+    {
+      "content_id": "20c16f4d2a0d1a02c63d1cab10bdfcbb3a359867",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/GitHub Archive Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5500423
+    },
+    {
+      "content_id": "5ec26adb1a1b884b98246737ef51e82434d725a8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Homes in Cardinal Order — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 9228126
+    },
+    {
+      "content_id": "07482675c8181196f2e3048ac4c4f89d616760ac",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Jetstream Construction Story Retelling — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 8240406
+    },
+    {
+      "content_id": "8d9f36aa6672ebc34e75025dee6668d537dba302",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Mathematical Tool Exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6345292
+    },
+    {
+      "content_id": "2d083839b485aebb19eb8e341f9abfd53d1d91ac",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 7778864
+    },
+    {
+      "content_id": "b7868607d89f66bbc0e638398182fb2d6b2da2ce",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "role": "source-conversation-corpus",
+      "size": 7964873
+    },
+    {
+      "content_id": "b7868607d89f66bbc0e638398182fb2d6b2da2ce",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7964873
+    },
+    {
+      "content_id": "d8d55c0ebe0082afd916b8331c31903a566786ab",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/SAT Decon + Prior ChatGPT Voice Glitch — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 23497946
+    },
+    {
+      "content_id": "023ff77688672546aeff02deb3745289f6709c90",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/SAT Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 8552294
+    },
+    {
+      "content_id": "cd235473811b36e9bcdcc21529bd8e522670ac31",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Suno Song Interpretation —  .txt",
+      "role": "source-conversation-corpus",
+      "size": 6937190
+    },
+    {
+      "content_id": "3231ac4c7d40b7f7523dcc036e978af4fb8afaaa",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/WolframAlpha Integration Guide — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 15741819
+    },
+    {
+      "content_id": "9a7f493236c2584c2e8b81b11a4f20910f1fa840",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw - .txt",
+      "role": "source-conversation-corpus",
+      "size": 7181854
+    },
+    {
+      "content_id": "9a7f493236c2584c2e8b81b11a4f20910f1fa840",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7181854
+    },
+    {
+      "content_id": "fa2586add42b4d87afe89a5b00e1e48a01aaee54",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/🧶🧱SAT — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 12651755
+    },
+    {
+      "content_id": "dd2b6141af86dea54e4ba2e782214128619ce78c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/🪡 The Tourist Tailor [e-] — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 24450213
+    },
+    {
+      "content_id": "f838dd755da1cec6ea356cc77bae59320420bf42",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/RMS-SAT-H(s)H.md",
+      "role": "source-conversation-corpus",
+      "size": 240
+    },
+    {
+      "content_id": "7d2157de9a57fc0c931cebbea841c337b6c101ec",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "ec9cf9ce4d14457f8a0187ff013ac4c22c7a7a29",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/02_whirlygig_torus_trace_raw.png",
+      "role": "source-conversation-corpus",
+      "size": 438018
+    },
+    {
+      "content_id": "99b45f23cbfdd76d07c504e81fc2b511a4a71f13",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/1970s Working Class Rewrite — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 119041
+    },
+    {
+      "content_id": "bec2f63ac8c779a7e92cd32dc94e4458d18d2b16",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/ALWAYS TWICE.json",
+      "role": "source-conversation-corpus",
+      "size": 386215
+    },
+    {
+      "content_id": "ffd4f1fd1be8bca9575beb2b8a1f59d4e6d3b802",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Activator Modes Overhaul — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 401063
+    },
+    {
+      "content_id": "9b7e8d54ad22bc77048c947f589f56a616b2ad8f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw .txt",
+      "role": "source-conversation-corpus",
+      "size": 628266
+    },
+    {
+      "content_id": "9b7e8d54ad22bc77048c947f589f56a616b2ad8f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 628266
+    },
+    {
+      "content_id": "1aca1890e781b0c8fed50bad4ae32c9fd14a1e9e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/CTMU_ Mind-Reality Integration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 110991
+    },
+    {
+      "content_id": "9ec77cdf1a18c4c2260ef455f322731270ba5a08",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Capital de Colombia — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 258040
+    },
+    {
+      "content_id": "e9ec2076ca5313676f5806db1c48b51511302b7d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Curve Composition System — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 750819
+    },
+    {
+      "content_id": "c09a526b419f06d89ff853ae8adca5f4b681f8fe",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Document Comparison and Integration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 537651
+    },
+    {
+      "content_id": "9e7c72b15d2bb61d02df12c9f40bbd342f2231b5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Doo-wop duet prompt  .txt",
+      "role": "source-conversation-corpus",
+      "size": 116910
+    },
+    {
+      "content_id": "633e27e93bcbf4d83d367686cdf726900ce35d28",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Draft Paper Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 74370
+    },
+    {
+      "content_id": "31312b28ab1716f8051e6f775689b76932cbdb70",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 338436
+    },
+    {
+      "content_id": "31312b28ab1716f8051e6f775689b76932cbdb70",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 338436
+    },
+    {
+      "content_id": "4e75374fc6a401f74be6435523b3db761b97ee77",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Equation Breakdown Topological Tension — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 558230
+    },
+    {
+      "content_id": "4d56d6d8489a58e0b26657d98693bfbaa4837681",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw - .txt",
+      "role": "source-conversation-corpus",
+      "size": 166562
+    },
+    {
+      "content_id": "4d56d6d8489a58e0b26657d98693bfbaa4837681",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 166562
+    },
+    {
+      "content_id": "5c254ffeda9c6fbbb764d63171492c9f77fefd75",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Getting Heard on Suno  .txt",
+      "role": "source-conversation-corpus",
+      "size": 707632
+    },
+    {
+      "content_id": "b3e402b628bf6831aada5e4349a1bd70da8fc9a8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt",
+      "role": "source-conversation-corpus",
+      "size": 70056
+    },
+    {
+      "content_id": "3653212cae5b116cdde2da362717a73dd8bcc1c5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt",
+      "role": "source-conversation-corpus",
+      "size": 10040
+    },
+    {
+      "content_id": "5f1717c18bc8b96344b15622c5d3d6a5b9ff7db1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw - .TXT",
+      "role": "source-conversation-corpus",
+      "size": 279477
+    },
+    {
+      "content_id": "5f1717c18bc8b96344b15622c5d3d6a5b9ff7db1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 279477
+    },
+    {
+      "content_id": "9352456114bb647473cbb89aa543d0243f7b14fb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Slow Walker Exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 37447
+    },
+    {
+      "content_id": "183afe03431cb29db52d60af1983be606de47283",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Suno LLM Workshop Master Action Plan.pdf",
+      "role": "source-conversation-corpus",
+      "size": 222829
+    },
+    {
+      "content_id": "795ed8e26ca062796121139974df313863419e5f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Symbolic Expression Interpretation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 463504
+    },
+    {
+      "content_id": "76400bef13d359d13311537b39134915f8e40ed5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/TADA.txt",
+      "role": "source-conversation-corpus",
+      "size": 23179
+    },
+    {
+      "content_id": "735f2a95e492944a244d1ceba31f33b6b5606119",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/WORLDTUBE THOUGTS.txt",
+      "role": "source-conversation-corpus",
+      "size": 22662
+    },
+    {
+      "content_id": "daad991a7dace4c2a1d157f8939b86dc04d3d732",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Whirligig SAT Framework — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 43786
+    },
+    {
+      "content_id": "0d745e65bf052e099f1db00b6fa81e763cb232d2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/XXX SAT Theory Synthesis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1197973
+    },
+    {
+      "content_id": "b110f348ccd6a32207fa477c49833495c04ecaec",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/aelffin.txt",
+      "role": "source-conversation-corpus",
+      "size": 146620
+    },
+    {
+      "content_id": "f9ce354c41891949f9940b7b415b0c9483a47374",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/arianaglenn.txt",
+      "role": "source-conversation-corpus",
+      "size": 6043
+    },
+    {
+      "content_id": "feee7e51316176197fa506bbd155cfce4a2655dd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/ecotopia.txt",
+      "role": "source-conversation-corpus",
+      "size": 5831
+    },
+    {
+      "content_id": "6077ef831a37f9dda6db9f24c03cf7fe29cc191b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/frosch-loch.txt",
+      "role": "source-conversation-corpus",
+      "size": 121805
+    },
+    {
+      "content_id": "da073c25b50364d20c8c487a54a80901e40cff4a",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "d1e189f0e1efd5828778d4286258813b44e89bb2",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "55f4a7e0ab701856da43494cd8e09f47a29ce986",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/2 OS-00 world overview — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 4733123
+    },
+    {
+      "content_id": "b5f83f11e4c9b6498d98fe4effece83e2a707d7d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Image overlay blending — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 465089
+    },
+    {
+      "content_id": "975c437868a9944152d7593671013ab7a771bd94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Monorail Schede — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 426626
+    },
+    {
+      "content_id": "ea35ef29fce28433aa74ec51815223881f33ced1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/OS-00 world overview — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 4733123
+    },
+    {
+      "content_id": "08178430dd69cc0af25c83dc75e685ee1514ec94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Prompt Puller — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 1400642
+    },
+    {
+      "content_id": "7e1c6969a09f05c26ea40ea51b187e5e2ae3b0ae",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/Script prompt nesting — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 970731
+    },
+    {
+      "content_id": "4255670419b1b8c7c59095e5c6d5c4f97a077511",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Physical Reality Evaluation — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 538343
+    },
+    {
+      "content_id": "bea607e9e070e8490fd7c45917435419e7ed677c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Physical Reality Evaluation — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 538343
+    },
+    {
+      "content_id": "f3121b50e3226b60b63cabe339f998fedb89416f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Physical Reality Evaluation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 571896
+    },
+    {
+      "content_id": "0cede2f5c17f5ae4c4bdb53c57e0c724f12ffa16",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Physics Equation Encoding Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 554472
+    },
+    {
+      "content_id": "3668c65b55662e4bc6432ccbe058caa7db0628db",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Physics Theory Sandbox — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 735817
+    },
+    {
+      "content_id": "ba226586da87cfded309a00f885f39b717d48bdb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Podcast Analysis Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 55935
+    },
+    {
+      "content_id": "ce45e0aa9253ef28e80f3c60699fa30dcd038158",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Podcast feedback summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 82785
+    },
+    {
+      "content_id": "96b380304261bb763252ecf501abc2642d48902e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Procedure Request — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 86532
+    },
+    {
+      "content_id": "40878dfb3d2f0b6973e2451ac4c4f284a88caff5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Proton-Electron Mass Ratio — raw - .TXT",
+      "role": "source-conversation-corpus",
+      "size": 175701
+    },
+    {
+      "content_id": "40878dfb3d2f0b6973e2451ac4c4f284a88caff5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Proton-Electron Mass Ratio — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 175701
+    },
+    {
+      "content_id": "8ae865dde948dfb12d6b689e5d7137bae6124f4d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/QUINTATION Pasted markdown(20260829-194715).md",
+      "role": "source-conversation-corpus",
+      "size": 21996
+    },
+    {
+      "content_id": "edf90f2e77ac03add9bcae041e35d2829fdea677",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Quick Pass Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 317656
+    },
+    {
+      "content_id": "fe99c485a48783a93eb25be0a96d8b24fda13f2c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Rating the SAT theory — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 89644
+    },
+    {
+      "content_id": "3cb1b696b94275e79e73ffc1a11555c964b67c2b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Ret--Jun1 SAT Z Review — raw - .TXT",
+      "role": "source-conversation-corpus",
+      "size": 665220
+    },
+    {
+      "content_id": "3cb1b696b94275e79e73ffc1a11555c964b67c2b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/Ret--Jun1 SAT Z Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 665220
+    },
+    {
+      "content_id": "fcc871b6aefa87139b1087cd9c248e35b3286f35",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/RevLaTeX Fix Assistance — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 169472
+    },
+    {
+      "content_id": "7c815cb4cea29a19c6ca9c457ff2145ac21b3d01",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Framework Evaluation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 731038
+    },
+    {
+      "content_id": "5429f7cb2adbfdc0abab7db46eff4ca4de08358a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt",
+      "role": "source-conversation-corpus",
+      "size": 5526
+    },
+    {
+      "content_id": "b276dadd48f3dc27588c5bcaf428f0d1e6245074",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Math Engine Tasks — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 454410
+    },
+    {
+      "content_id": "b276dadd48f3dc27588c5bcaf428f0d1e6245074",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Math Engine Tasks — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 454410
+    },
+    {
+      "content_id": "22cd38bcd1c8768ab371d545304ba895dca73496",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Overview and Details — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 160072
+    },
+    {
+      "content_id": "bf9d9a6319461a969d031773ca1e7eaf11d5a94b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Theory Archive Review — raw - .txt",
+      "role": "source-conversation-corpus",
+      "size": 292573
+    },
+    {
+      "content_id": "bf9d9a6319461a969d031773ca1e7eaf11d5a94b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Theory Archive Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 292573
+    },
+    {
+      "content_id": "06e12a40bc0db137b9890dd78d2348d99e2f3fba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT Theory Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 179101
+    },
+    {
+      "content_id": "d9a25072ed462c714cdd04f2fb1bce4860d4b12d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs - .txt",
+      "role": "source-conversation-corpus",
+      "size": 283644
+    },
+    {
+      "content_id": "d9a25072ed462c714cdd04f2fb1bce4860d4b12d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json",
+      "role": "source-conversation-corpus",
+      "size": 283644
+    },
+    {
+      "content_id": "6cf42ac624fa4354f4f18e57788fee3bff6e8d1f",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "47feb4bb3dde34ae2715336cdef08ebd00c9fa5a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Geometric Foundations Evaluation2 — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2194428
+    },
+    {
+      "content_id": "45d48a1138ae8de8c7bdcb4d24195ea3f5431f6b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/In The Cells of the Eggplant.txt",
+      "role": "source-conversation-corpus",
+      "size": 887936
+    },
+    {
+      "content_id": "98237bd471553aa43ae5045dbe35a42a7267543d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Mass in SAT framework — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 873696
+    },
+    {
+      "content_id": "ea35ef29fce28433aa74ec51815223881f33ced1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/OS-00 world overview — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 4733123
+    },
+    {
+      "content_id": "e3e40b1a167d26f2d153667d761746f9a4788db1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Ontology and Math Check — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3275822
+    },
+    {
+      "content_id": "37ff32ddaa6e2a60a504c034f6edcc5b80f87ea2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Ooo Construction Story Retelling — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 2256543
+    },
+    {
+      "content_id": "043268d181aaf64610fb57c96609b54ce0096b74",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Physics Beyond Mathematics — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3384409
+    },
+    {
+      "content_id": "25411ca50179cc3081960fc859f55b02b111d505",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Podcast Transcript Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3007208
+    },
+    {
+      "content_id": "08178430dd69cc0af25c83dc75e685ee1514ec94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Prompt Puller — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 1400642
+    },
+    {
+      "content_id": "dbb5f91e2e08ea22d13394adf879a60a0f0b0ac8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Reddit OCR Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 915309
+    },
+    {
+      "content_id": "ee37558c8cf61af47e1a474945597afb65853440",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Russia's Nuclear Arsenal Maintenance — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 2204362
+    },
+    {
+      "content_id": "8cef441a6d22a38a468cba55edc7c218a87832e3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/Russia's Nuclear Arsenal Maintenance — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2174733
+    },
+    {
+      "content_id": "791613a31de31ef80b6be726258b00c8a3aef0ea",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/SAT ACTIVE EDGE vNext — raw - .TXT",
+      "role": "source-conversation-corpus",
+      "size": 3327405
+    },
+    {
+      "content_id": "791613a31de31ef80b6be726258b00c8a3aef0ea",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/SAT ACTIVE EDGE vNext — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3327405
+    },
+    {
+      "content_id": "e07316a05b1ea011cffeefc7d071596799b959ee",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/SAT and Blockwave overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1540200
+    },
+    {
+      "content_id": "1b33954c20725ac8378d320e509871e91e8c1d57",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "0e1e75bd90e57c951e5d7c26d3af9182d555b186",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/SAT Daily Action — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4803730
+    },
+    {
+      "content_id": "9dd498f872dfcf4f202bd521c9bac1f87c7c00f4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/SAT Theorizer Emeritus — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 3513578
+    },
+    {
+      "content_id": "107149862d47bfa654fbff794b6d8cb98e35820e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/SAT Theorizer Emeritus — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3513578
+    },
+    {
+      "content_id": "dec20de13718ba09a59a76e9c958e3eee16304b0",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/SAT Theory Archive Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1587619
+    },
+    {
+      "content_id": "3723eee9dca839cf285e29ca90963d4fa1382513",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/SATNet and Neural Networks — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2002183
+    },
+    {
+      "content_id": "7e1c6969a09f05c26ea40ea51b187e5e2ae3b0ae",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Script prompt nesting — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 970731
+    },
+    {
+      "content_id": "4d5d6758cc2b448cb16c127275334300627e1e08",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Suno Song Hook Ideas —  .txt",
+      "role": "source-conversation-corpus",
+      "size": 1581622
+    },
+    {
+      "content_id": "df839968e2241039b8d30194a8b92a486d133a8c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Suno prompt feedback  .txt",
+      "role": "source-conversation-corpus",
+      "size": 4545662
+    },
+    {
+      "content_id": "dfdaec331846087af7daf0008eba431520a5b9ad",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Switching to English — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 860827
+    },
+    {
+      "content_id": "0dfc09bf9d24aed1df3a5008ae6bc835dee01353",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Testing a Theory of Everything — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1446978
+    },
+    {
+      "content_id": "1cdfa7564599f2f1b80a6f123f111eb02918c87c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Theory of Everything Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 776230
+    },
+    {
+      "content_id": "c0e5c6d1172e80f3220111c9ffadb1ee2e661172",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/Where is Velserbroek — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4465935
+    },
+    {
+      "content_id": "c61f63d2ae964a6cefaa3a2a28b9566ef5d6ee57",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/sunomisc.txt",
+      "role": "source-conversation-corpus",
+      "size": 788259
+    },
+    {
+      "content_id": "f85d9aafb13dd196577f3d83a2d6fe80885db2d4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/🏔️Interesting discovery shared 🗻 — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1089323
+    },
+    {
+      "content_id": "8bf05c4babc18d32fa836c72d617a469d0bfb424",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "e3ac67bc2b9878cab2837bb861f8864df16b7c89",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/BENT-N-DENT.txt",
+      "role": "source-conversation-corpus",
+      "size": 21761
+    },
+    {
+      "content_id": "50e24472054a9f02475ddfaacf82c6d6866141af",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Blowing up Suno — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 204006
+    },
+    {
+      "content_id": "43feeb89abe60c14b655aef5a90c5cc24b083e24",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/GLOSSOLALIA.txt",
+      "role": "source-conversation-corpus",
+      "size": 346782
+    },
+    {
+      "content_id": "8fbded973df263d24b2c1346f0f96e28ded415e7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Gravitational Changes and Motion — raw - .txt",
+      "role": "source-conversation-corpus",
+      "size": 599842
+    },
+    {
+      "content_id": "8fbded973df263d24b2c1346f0f96e28ded415e7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Gravitational Changes and Motion — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 599842
+    },
+    {
+      "content_id": "8c095421bcc00d58059eddbcfdb7a62a1486bc13",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/INGESTION_LEDGER.md",
+      "role": "source-conversation-corpus",
+      "size": 38865
+    },
+    {
+      "content_id": "4af5f792f92159c7a27c609ee35b52b3bf7083b6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Idea Evaluation Request — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 154761
+    },
+    {
+      "content_id": "b5f83f11e4c9b6498d98fe4effece83e2a707d7d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Image overlay blending — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 465089
+    },
+    {
+      "content_id": "5561ba81a378cde5b14a21fecebc2699636cd323",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Intellectual Surprise Challenge — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 42232
+    },
+    {
+      "content_id": "5561ba81a378cde5b14a21fecebc2699636cd323",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Intellectual Surprise Challenge — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 42232
+    },
+    {
+      "content_id": "ad19394acaefdb9525a4071d348be26b42edb02b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/MASHUP_PROMPTS.txt",
+      "role": "source-conversation-corpus",
+      "size": 6792
+    },
+    {
+      "content_id": "0419c27fdd9cf5bcee5080f72d471b25241d2005",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Mathematical Equation Breakdown — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 169765
+    },
+    {
+      "content_id": "77b627687f3c2d581081be4d68254bc39a5cc7d2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Methodology Review Request — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 347596
+    },
+    {
+      "content_id": "77b627687f3c2d581081be4d68254bc39a5cc7d2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Methodology Review Request — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 347596
+    },
+    {
+      "content_id": "975c437868a9944152d7593671013ab7a771bd94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Monorail Schede — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 426626
+    },
+    {
+      "content_id": "af30ad003e451e0a26b2c21d4080baae105393e2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Music Genre List  .txt",
+      "role": "source-conversation-corpus",
+      "size": 306674
+    },
+    {
+      "content_id": "0a56d16ea9b9e29b45250a5ec069890ccbba2afd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Musical taste analysis  .txt",
+      "role": "source-conversation-corpus",
+      "size": 152738
+    },
+    {
+      "content_id": "4e49650f2a0b6960d5ce99d6484825b463637828",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Paper Restructuring Plan — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 249469
+    },
+    {
+      "content_id": "7c2c4673244e7dc1c18064d70e4bbc947ae6cb80",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Peer Review Process — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 163324
+    },
+    {
+      "content_id": "c9dbeab330a434cf86d35879528760970e837943",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/SAT Framework Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3336556
+    },
+    {
+      "content_id": "507a7000082415373ee98dbc95f18a991dff3c5a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/SAT theory clarification — raw - .TXT",
+      "role": "source-conversation-corpus",
+      "size": 2670795
+    },
+    {
+      "content_id": "507a7000082415373ee98dbc95f18a991dff3c5a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/SAT theory clarification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2670795
+    },
+    {
+      "content_id": "fcf8c9e35d72cd7b57470cbd821fb9224b53307f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Suno AI Model Insights .txt",
+      "role": "source-conversation-corpus",
+      "size": 2405228
+    },
+    {
+      "content_id": "a9b02d2ce617f12d1ef9cef50d7cbb3d892e833d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Trends in Geometric Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2057626
+    },
+    {
+      "content_id": "dddce1beb0de8ff18a9ab749a1e1aea27c3e4d24",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/mashup.txt",
+      "role": "source-conversation-corpus",
+      "size": 230014
+    },
+    {
+      "content_id": "8f48fc8c6bfda65c734e7c3f38a5518900ae2455",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/music_lang.txt",
+      "role": "source-conversation-corpus",
+      "size": 11345
+    },
+    {
+      "content_id": "9b456f06a34bacfb75c81f882d7dfecde773720c",
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "975e239898093bcae5dd58e5b979a80b70572434",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt",
+      "role": "source-conversation-corpus",
+      "size": 4372583
+    },
+    {
+      "content_id": "975e239898093bcae5dd58e5b979a80b70572434",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 4372583
+    },
+    {
+      "content_id": "55f4a7e0ab701856da43494cd8e09f47a29ce986",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/2 OS-00 world overview — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 4733123
+    },
+    {
+      "content_id": "539633357f7017cf5a3d4d8854957c4dc2f17270",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/2 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 3406281
+    },
+    {
+      "content_id": "eefa60df574a84f51b17a90d02c9c543d1b0dd5b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Allo conversation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 930516
+    },
+    {
+      "content_id": "0b00fb7922238e02b72a1df51e1799db0402f979",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Boiling Point Estimation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1678668
+    },
+    {
+      "content_id": "39861b352c430c2f55b43b04c0c79e28f267825e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Construction Story Retelling — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 1287233
+    },
+    {
+      "content_id": "066fd566fbd60f3e08fc6fb8cc4223fb7a650ebf",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Construction Story Retelling — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1278080
+    },
+    {
+      "content_id": "e2692557e3e73745280b61ea9da04ad153d19188",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Core Build Exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2488686
+    },
+    {
+      "content_id": "bf446974dfebbfac7d9633c819f2047fbdc4c9e0",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Court Filing Guidance — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1202779
+    },
+    {
+      "content_id": "e4f30261f1f8f431edacd89433fa29166febe25c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Free Mode Activation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1331192
+    },
+    {
+      "content_id": "74e845f2eab79d7a39fe0f7f0ed70701d8263e41",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/FromDayOne.txt",
+      "role": "source-conversation-corpus",
+      "size": 4084909
+    },
+    {
+      "content_id": "ab8154bd79b300fee4d667f7c7933f1c15c98b18",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/GENRELAB — .txt",
+      "role": "source-conversation-corpus",
+      "size": 763512
+    },
+    {
+      "content_id": "539f96c46bd978f87979aec01a6eaa85feb9ad11",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Geometric Foundations Evaluation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 996623
+    },
+    {
+      "content_id": "9f56d205a6b1cdfe072a710215edb16efd622cdf",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/♾️ SAT_O METASUPERVISOR — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3810176
+    },
+    {
+      "content_id": "6f39fb95e700b8d6d59bbee672b6cfa76b3755aa",
+      "kind": "blob",
+      "path": "LICENSE",
+      "role": "license",
+      "size": 19441
+    },
+    {
+      "content_id": "f1a4d8d72ee830acc8179c32adda23c755223ea4",
+      "kind": "tree",
+      "path": "tools",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "aed82bb3b6079952e5aee4a9ffe349d124bd3398",
+      "kind": "blob",
+      "path": "tools/date_conversation_exports.py",
+      "role": "archive-tooling",
+      "size": 9446
+    }
+  ],
+  "limitations": [
+    "Structural index only; filenames and paths are not theory-status judgments.",
+    "Git blob SHA and local SHA-256 are both stored as content_id values but are not interchangeable.",
+    "Conversation contents were not read during this structural pass."
+  ],
+  "scan_kind": "structural",
+  "scan_scope": "repository tree excluding generated index outputs and cache metadata",
+  "scanned_at_utc": "2026-09-06T23:37:04Z",
+  "schema_version": 1,
+  "tree_id": "da416a4966e5944ed72098dea517a6e410b122c3",
+  "tree_response_truncated": false
+}
