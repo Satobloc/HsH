@@ -115,6 +115,37 @@ coarse-graining unless restricted injectivity is derived.
 coefficients `CONSTITUTIVE UNKNOWN` until exact-source provenance and units are
 verified; Lorentzian emergence and metric recovery `OPEN`.
 
+## 6. Curve formalism, finite-core morphology, and tools
+
+`HsH ARCHITECTING.txt` preserves the four-dimensional superhelical curve as the
+preferred formalism while insisting that ordinary systems have worldtubes, not
+essentialized worldlines. The clean current reading is therefore typed: a curve
+may encode a center history or parametrization, while the modeled finite-core
+object additionally requires boundary, cross-section, framing, deformation,
+contact, and resolving-surface intersection data. The source does not yet select
+one complete thick-object definition.
+
+The Universal Indicatrix and Whirligig are analytical instruments rather than
+model objects. The UI constructs or constrains four-dimensional trajectories;
+the Whirligig compares or searches geometric constraint solutions. Nesting the
+UI inside the Whirligig is an `SRC/CANDIDATE` tool design, not a theory premise.
+
+The source proposes that a filament morphology might combine ER-bridge,
+event-horizon boundary, string/vibration, and Kerr-like structures. These are
+`SRC/CANDIDATE` correspondences only. In particular, an effective-horizon
+boundary does not yet derive Pauli exclusion, permitted contact, braiding, or
+merger rules. The causal compatibility of horizon behavior with inter-filament
+interaction is an explicit open problem.
+
+The `Z3` fusion gate is retired unless forced by later geometry. Higher-order
+braids remain admissible; the suggestion that simple three-braids are easier to
+assemble, while additional filaments preferentially form higher-order wrapping,
+is a rope-mechanics/assembly-complexity hypothesis requiring calculation.
+
+**Status:** curve/tube type distinction and tool roles `SRC/ACTIVE`; specific
+morphology, exclusion mechanism, braid statistics, and background topology
+`OPEN/CANDIDATE`.
+
 ## Preserved conflicts and open edges
 
 - The archive reports useful worldline results but also says they are scattered;
@@ -126,6 +157,10 @@ verified; Lorentzian emergence and metric recovery `OPEN`.
   Minkowski/radial/UI entry layer.
 - The source does not yet derive `M`, `K`, `B`, or `M0^2` from a specified
   equilibrium ensemble, nor establish `K/M = c^2`.
+- Event-horizon, ER-bridge, string, and Kerr ingredients have not yet been shown
+  to define one mutually compatible finite-core object or its interactions.
+- Competing background candidates remain unresolved: a radial `SO(4)` picture,
+  two superimposed shells, a toroidal construction, and Klein topology.
 - The three-sphere carrier and prescribed deformation remain verified test
   constructions, not upstream-selected H(s)H premises.
 
@@ -147,6 +182,10 @@ verified; Lorentzian emergence and metric recovery `OPEN`.
   `bb44ca943f9aa1d8a398239281a1c2c4b7827f21`: lines 1 through end read fully
   and sequentially. It is a July 5, 2026 multi-agent working conversation; later
   user/coordinator corrections control over earlier generated assertions.
+- `H(s)H Dev +/HsH ARCHITECTING.txt`, blob
+  `e24d6a7fc80d6193282690e9d8124f2dab171918`: lines 1 through end read fully
+  and sequentially. Its embedded user corrections control; later generated
+  declarations of solved or locked mathematics remain unverified and displaced.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional

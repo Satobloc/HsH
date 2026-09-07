@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T10:37:47Z",
+  "last_lightweight_scan": "2026-09-07T11:35:52Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "a558c0e5b5361a9a3d87dbb096aebec133b7f583",
-      "current_scanned_commit": "a558c0e5b5361a9a3d87dbb096aebec133b7f583",
+      "previous_seen_commit": "440822fcbc01272de09e9df6b60fee6cb11459a6",
+      "current_scanned_commit": "440822fcbc01272de09e9df6b60fee6cb11459a6",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
       "automation_generated_changes": []
@@ -42,16 +42,16 @@
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "H(s)H Dev +/H(s)H REWORK.txt",
-    "blob_sha": "bb44ca943f9aa1d8a398239281a1c2c4b7827f21",
+    "path": "H(s)H Dev +/HsH ARCHITECTING.txt",
+    "blob_sha": "e24d6a7fc80d6193282690e9d8124f2dab171918",
     "coverage": "full sequential read, lines 1 through end",
-    "next_source": "H(s)H Dev +/HsH ARCHITECTING.txt line 1",
+    "next_source": "[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt line 1",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H REWORK.txt read fully; FUNDAMENTAL INTUITIONS.txt read fully; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
+    "content_reads": "HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
