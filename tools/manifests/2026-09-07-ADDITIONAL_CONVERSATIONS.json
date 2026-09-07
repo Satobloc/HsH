@@ -1,0 +1,419 @@
+{
+  "generated_at_utc": "2026-09-07T20:53:46.198Z",
+  "roots": [
+    "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1",
+    "LIVE CONVOS"
+  ],
+  "timezone": "America/New_York",
+  "mode": "apply",
+  "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
+  "parent_commit": "554e8d60eebac7badb72f85e7f5b81bb30e995a2",
+  "summary": {
+    "renamed": 21,
+    "skipped": 23,
+    "renamed_by_location": {
+      "SAT_CONVOS_1": 20,
+      "LIVE CONVOS": 1
+    }
+  },
+  "records": [
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected non-whitespace character after JSON at position 42 (line 1 column 43)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/AUTO H(s)H Gitter — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 689,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Filament Intersections and Thought — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 179,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Hubble Tension Prediction — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04•26.06.04•Hubble Tension Prediction — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 80,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Model Framework Evaluation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29•25.04.30•Model Framework Evaluation — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 41,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Predicting Superconductors Commentary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 93,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Rating the SAT theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12•25.08.12•Rating the SAT theory — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Risk Assessment Lobby Card Policy — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 301,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SAT Logical Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•25.05.07•SAT Logical Analysis — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SAT Summary Breakdown — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04•25.05.05•SAT Summary Breakdown — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 221,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SAT Theory Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•SAT Theory Exploration — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 17,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'O', \"ON\t\t\t\"TURN\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token '#', \"## PLEASE \"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scene Analysis Discussion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16•25.06.16•Scene Analysis Discussion — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 97,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/String Theory Synthesis — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01•24.04.01•String Theory Synthesis — raw (1).json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/String Theory Synthesis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01•24.04.01•String Theory Synthesis — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Stringing Along Theory Evolution — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 105,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Stringing Along Theory Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•Stringing Along Theory Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Stringing-Along Theory Feedback — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•25.05.07•Stringing-Along Theory Feedback — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/TADA.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'T', \"TADA!\r\n\r\nC\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Theoretical Physicist's Article Review — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw (1).json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Theoretical Physicist's Article Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06•25.04.06•Theoretical Physicist's Article Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Tletlegomega Speculation Summary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/WORLDTUBE THOUGTS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'Y', \"Yes. I thi\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Weinstein's Physics Critique — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.03•25.04.03•Weinstein's Physics Critique — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 29,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/aelffin.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'W', \"\r\nWikipediaT\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/arianaglenn.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'i', \"import {Ke\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/ecotopia.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'A', \"\r\n\r\n\r\n\r\nAn incredi\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/frosch-loch.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "no UTF-8 content returned"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'S', \"SAT GEOMET\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs - .txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/In The Cells of the Eggplant.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'I', \"In The Cel\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/sunomisc.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'S', \"SUNO LLM W\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/BENT-N-DENT.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'S', \"\r\nSubject\tBE\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/GLOSSOLALIA.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'G', \"Glossolali\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/MASHUP_PROMPTS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token '“', \"“Muddy Wat\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/Suno AI Model Insights .txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected non-whitespace character after JSON at position 2389700 (line 41287 column 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/mashup.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'T', \"The sounds\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/music_lang.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'P', \"Pitchfork \"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Expected property name or '}' in JSON at position 4339630 (line 65962 column 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Expected property name or '}' in JSON at position 4339630 (line 65962 column 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/2 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected non-whitespace character after JSON at position 24 (line 1 column 25)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Succinctness And Math Check — raw.json",
+      "new_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 417,
+      "warnings": []
+    }
+  ]
+}
