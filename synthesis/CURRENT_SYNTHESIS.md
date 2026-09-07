@@ -4,6 +4,56 @@ Status: **provisional and cumulative**. This map records only claims recovered
 from sequential source reading. It is not a declaration that every listed
 construction is physically established.
 
+## Live rebuild state and representation stack
+
+The live conversations now control current intent. The conceptual H(s)H picture is
+treated as sufficiently developed to begin a ground-up construction, but that
+construction is only at **primitive identification, characterization, and scale
+calibration**. The H(s)H documents, SAT26 Toolbox, and mathematical roundups are
+the expected hardware-selection corpus; SAT-O, 4DHH, and older derivation
+artifacts remain candidate assemblies and mathematical quarry. None is the
+current theory merely because it is comprehensive or formally packaged.
+
+A current user correction distinguishes three simultaneous representations:
+
+1. a dimension-reduced Minkowski diagram used to map a dynamical history;
+2. the full four-dimensional bulk/history, idealized globally while retaining
+   dynamics at and beyond the resolving thickness; and
+3. the observer's three-dimensional slice or finite-thickness intersection.
+
+Accordingly, a ring-like or Borromean appearance in a reduced diagram does not
+establish that the four-dimensional carrier is a closed ring. The current
+candidate is closer to an open, coiled four-dimensional filament/worldtube whose
+projection, slice, or induced geometry inside the resolving thickness may close.
+The proposed induction-current-like closure and its relation to mass/drag remain
+`SRC/CANDIDATE`, not a derived readout law.
+
+The newest main-conversation increment asks which components can be measured.
+Its assistant response proposes the electron-spin Kerr parameter
+
+\[
+a_e=\frac{\hbar}{2m_ec}
+\]
+
+as a core-radius anchor and then assumes a circumferential mode propagates at
+\(c\). Under those two stipulations, the reported Zitterbewegung and Compton
+period relations are algebraic consequences:
+\(\omega_1=c/a_e=2m_ec^2/\hbar\) and
+\(2(2\pi a_e/c)=h/(m_ec^2)\). They are not independent empirical successes.
+Identifying \(a_e\) with the H(s)H core radius, selecting the relevant closed
+carrier, and assigning propagation speed \(c\) all remain open. The numerical
+package is therefore `GEN/CANDIDATE`; no scale has been adopted into the
+framework.
+
+**Status:** live construction order and the three-representation distinction
+`SRC/ACTIVE`; open/coiled carrier, induction closure, Kerr-core identification,
+and mode interpretation `SRC/GEN-CANDIDATE`; scale calibration `OPEN`.
+Formalization labels, generated checker output, or historical LLM approval have
+no evidentiary weight; equations are retained or rejected on their mathematical
+quality and source-grounded dependency chain.
+
+See `synthesis/LIVE_REBUILD_STATUS.md` for the incremental source record.
+
 ## 1. Entry method: empirical Minkowski map
 
 The current rebuild begins from a richly specified Minkowski representation of
@@ -296,8 +346,8 @@ selects a rank-two subbundle. These are not interchangeable.
 **Status:** Hornung results **STD/DERIVED** in their declared domain; the
 \(SO(4)\) moving-frame kinematics **STD/DERIVED**; material-frame interpretation
 and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
-**GEN/CANDIDATE**. See \`synthesis/FORMALISM_SELECTION.md\` and
-\`synthesis/R4_FRAMED_CURVE_KINEMATICS.md\`.
+**GEN/CANDIDATE**. See `synthesis/FORMALISM_SELECTION.md` and
+`synthesis/R4_FRAMED_CURVE_KINEMATICS.md`.
 
 ## Preserved conflicts and open edges
 
@@ -336,13 +386,17 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
   structural catalogs.
 
 
-- `Satobloc/HsH/LIVE CONVOS/Succinctness And Math Check — raw.json` is the
-  current live-development transcript snapshot by explicit user instruction.
-  It is known to lag the actual conversation by several turns. It therefore
-  controls recent intent and corrections when present, but absence from the
-  snapshot is not evidence that a newer idea was abandoned. Its JSON structure
-  and terminal 25-message slice were inspected after the latest upload; the
-  full 656-message conversation has not been reread.
+- `Satobloc/HsH/LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json`,
+  blob `a933101e831ea11b13266b24f827323aaba5a7ec`: parsed as a 321-message
+  active conversation chain. Its newer successor, `Succinctness And Math Check
+  — raw (1).json`, blob `99b6e1d7ef8f3b9356d67b5bd50dd0de59529061`,
+  has an exactly identical 321-message prefix plus two new messages; that
+  increment was read fully through the terminal assistant response.
+- `Satobloc/HsH/LIVE CONVOS/AUTO H(s)H Gitter — raw.json`, blob
+  `728b4618e869e32a015b5fd9395f6bec118ccc31`: its 79-message active chain
+  was read fully and sequentially. Automation payloads were treated as process
+  records, not mathematical evidence. User turns establish the current
+  ground-up rebuild order and source roles.
 
 - `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob
   `68200d849152dcb0c4fc1814f8b1789d499ebca8`: lines 1–300 read sequentially;

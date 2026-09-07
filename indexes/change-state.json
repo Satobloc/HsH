@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T21:35:24Z",
+  "last_lightweight_scan": "2026-09-07T22:15:42.747Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,15 +9,24 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "44832b26f5fd8bf338b7f61f301091ebe032e9fb",
-      "current_scanned_commit": "5b8789932d260d3c6e3a395010614fa632e7714d",
-      "last_human_source_commit": "44832b26f5fd8bf338b7f61f301091ebe032e9fb",
+      "previous_seen_commit": "5b8789932d260d3c6e3a395010614fa632e7714d",
+      "current_scanned_commit": "7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
+      "last_human_source_commit": "7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
       "human_source_changes": [
         {
           "commit_range": "9924ce7e45924f383036287a5781f183c935a14b..44832b26f5fd8bf338b7f61f301091ebe032e9fb",
           "added_conversation_count": 20,
           "path_prefix": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/",
           "coverage": "complete commit-diff structural index; conversation content unread"
+        },
+        {
+          "commit_range": "654d6eb1955ebfcace02a12ee82dc3f648800972..7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
+          "added_conversation_count": 2,
+          "paths": [
+            "LIVE CONVOS/AUTO H(s)H Gitter — raw.json",
+            "LIVE CONVOS/Succinctness And Math Check — raw (1).json"
+          ],
+          "coverage": "AUTO active chain 79/79 read sequentially; newer Succinctness active chain increment 2/2 read after exact 321-message prefix match to dated baseline"
         }
       ],
       "automation_generated_changes": [
@@ -100,33 +109,37 @@
     }
   },
   "source_read_advance": {
-    "repository": "Satobloc/HSH_RESOURCES",
-    "path": "H(s)H_Toolkit/s00526-021-01980-0.pdf",
-    "source_sha256": "4dd0ffc84681a9cab0baa14555726764c1a2238d22b0534dc8cab16a69d3c09a",
-    "extracted_text_blob": "9c71741cb0ca1c782a04d251f5dddf3aeb730af2",
-    "coverage": "full paper remains read; higher-dimensional extension statement revisited near extracted line 455; 314 toolkit records searched by metadata/title",
-    "next_source": "current H(s)H and EARLY LOGGED sources bearing on B3 versus rank-two finite-core cross-section",
+    "repository": "Satobloc/HsH",
+    "paths": [
+      "LIVE CONVOS/AUTO H(s)H Gitter — raw.json",
+      "LIVE CONVOS/Succinctness And Math Check — raw (1).json"
+    ],
+    "blobs": [
+      "728b4618e869e32a015b5fd9395f6bec118ccc31",
+      "99b6e1d7ef8f3b9356d67b5bd50dd0de59529061"
+    ],
+    "coverage": "AUTO current-node chain 79/79 read; Succinctness exact two-message delta beyond 321-message dated baseline read fully",
+    "next_source": "live/current H(s)H sources selecting typed finite-core carrier and resolving-thickness geometry",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
-    "mode": "unchanged-head check across all three repositories; full prior paper read plus complete toolkit metadata/title search",
-    "content_reads": "Hornung 2021 remains fully read. Its higher-dimensional extension statement was revisited. Candidate metadata/title hits were inspected; no dedicated 4D framed-curve paper was identified. SO(4) kinematics were derived directly from frame orthonormality.",
+    "mode": "incremental live-conversation ingestion",
+    "content_reads": "AUTO active chain read fully; Succinctness new two-message delta read fully after exact prefix comparison",
     "search_terms": [
-      "four-dimensional framed curve",
-      "higher-dimensional rod",
-      "normal bundle",
-      "SO(4)",
-      "SO(n)",
-      "Bishop",
-      "Frenet",
-      "Cosserat",
-      "curve",
-      "hyperspherical"
+      "current_node",
+      "primitive identification",
+      "scale calibration",
+      "Minkowski",
+      "Kerr",
+      "Compton",
+      "closed ring",
+      "Borromean",
+      "timesheet thickness"
     ],
     "errors": [
-      "No new repository changes.",
-      "Toolkit absence result is limited to metadata/title search; generically named papers were not all content-searched."
+      "Abandoned conversation branches were not semantically read; they are excluded from the active chronology.",
+      "The terminal Kerr/Compton proposal has no subsequent user acceptance in the uploaded snapshot."
     ]
   }
 }
