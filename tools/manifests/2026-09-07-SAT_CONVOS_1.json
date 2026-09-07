@@ -1,0 +1,290 @@
+{
+  "generated_at_utc": "2026-09-07T16:09:00.017Z",
+  "root": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1",
+  "timezone": "America/New_York",
+  "mode": "apply",
+  "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
+  "parent_commit": "5eebd7a2d5210928ce8744df42aacd98efdf2e3c",
+  "summary": {
+    "renamed": 23,
+    "skipped": 8
+  },
+  "records": [
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/1970s Working Class Rewrite — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.08.04•26.08.05•1970s Working Class Rewrite — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 38,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/ALWAYS TWICE.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.08.26•26.08.26•ALWAYS TWICE.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 100,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Activator Modes Overhaul — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.30•25.05.30•Activator Modes Overhaul — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 21,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09•26.06.01•Assignment queue creation — raw .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 91,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Assignment queue creation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09•26.06.01•Assignment queue creation — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 91,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/CTMU_ Mind-Reality Integration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04•24.07.04•CTMU_ Mind-Reality Integration — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 7,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Capital de Colombia — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.07.11•25.07.12•Capital de Colombia — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 72,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Curve Composition System — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.04.21•26.06.11•Curve Composition System — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 192,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Document Comparison and Integration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07•25.06.08•Document Comparison and Integration — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 47,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Doo-wop duet prompt  .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.12.03•25.12.03•Doo-wop duet prompt  .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 17,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Draft Paper Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.03.21•Draft Paper Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw (1).json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 80,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Electron Paths in Chips — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 80,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Equation Breakdown Topological Tension — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.30•26.06.11•Equation Breakdown Topological Tension — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 123,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw - .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw - .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Freeze SAT Object Hierarchy — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Getting Heard on Suno  .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.12.26•26.01.01•Getting Heard on Suno  .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 174,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'O', \"ON\t\t\t\"TURN\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token '#', \"## PLEASE \"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw - .TXT",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw - .TXT",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Scientific Paper Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Slow Walker Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.28•25.05.31•Slow Walker Exploration — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Symbolic Expression Interpretation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11•25.05.11•Symbolic Expression Interpretation — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 95,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/TADA.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'T', \"TADA!\r\n\r\nC\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/WORLDTUBE THOUGTS.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'Y', \"Yes. I thi\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/Whirligig SAT Framework — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.16•26.03.16•Whirligig SAT Framework — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 7,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/XXX SAT Theory Synthesis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•26.06.01•XXX SAT Theory Synthesis — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 190,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/aelffin.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'W', \"\r\nWikipediaT\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/arianaglenn.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'i', \"import {Ke\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/ecotopia.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token 'A', \"\r\n\r\n\r\n\r\nAn incredi\"... is not valid JSON"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/frosch-loch.txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected token '#', \"# FROSCHLO\"... is not valid JSON"
+      ]
+    }
+  ]
+}
