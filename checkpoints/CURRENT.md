@@ -29,5 +29,10 @@
   HsH changes are synthesis automation.
 - **Next action:** Resume `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt` at line
   3001 and continue sequentially before assigning the document a final role.
+- **Queued source-routing rule:** After the active conceptual cursor, prioritize
+  SAT-O as a candidate systemwide EFT spine; use 4DHH as a potentially stronger
+  local mathematical quarry; then inspect late-2025/early-2026 and derivation-
+  preserving workshop artifacts. Recover the star-shaped derivation-map process
+  as a cross-sector coherence method. See `synthesis/SOURCE_PRIORITY.md`.
 - **Preserved cursors:** `H(s)H 2026 STARTUP DOCS.txt` line 301;
   `SPHERE4QC.txt` line 1301 (deferred backend audit).
