@@ -23,7 +23,10 @@
 - **Preserved conflict:** The foundational document speaks literally and
   physically about its objects; current RMS/H(s)H controls permit only
   representational use. The useful geometry is retained without importing the
-  early ontology.
+  early ontology. The finite-core transition is not justified by claiming that
+  a line cannot carry information: the ER-bridge/ideal-filament correction
+  removes the need for the centerline to encode the whole object solely through
+  its own elaboration.
 - **Earliest unsupported edge:** No source-grounded derivation yet selects the
   finite-core H(s)H object from the empirical Minkowski/radial/UI entry layer.
 - **Repository check:** No new human-source commit appeared. HsH changes are
