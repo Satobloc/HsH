@@ -14,4 +14,7 @@
   generated summary language as evidence.
 - **Known gap:** The ingestion ledger is a derived map. The three execution/source
   dumps have been located but not yet read fully.
-
+- **Archive-support update:** `Satobloc/HSH_RESOURCES` was structurally indexed and
+  given dry-run-first PDF extraction/indexing tools. A new 2,407,268-byte live
+  conversation was detected and structurally indexed at
+  `LIVE CONVOS/Succinctness And Math Check — raw.json`; it has not yet been read.

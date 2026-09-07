@@ -19,6 +19,8 @@ reality-in-itself.
 - This repository is the clean destination for the developing H(s)H synthesis.
 - The larger [SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)
   remains the historical/developmental archive and mathematical quarry.
+- The private `Satobloc/HSH_RESOURCES` repository holds raw papers and datasets;
+  its indexes are evidence navigation, not theory authority.
 - Root-level H(s)H material in that archive is the current working basis to be
   reconciled with the conversational record here.
 

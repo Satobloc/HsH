@@ -14,6 +14,11 @@ Status: active scaffold. This document governs archive organization, not theory 
 | `tools/` | Reproducible archive and validation utilities | Archive machinery |
 | `staging/` | Incomplete or fragile assembled work | Noncanonical working area |
 
+External evidence lives in the private `Satobloc/HSH_RESOURCES` repository.
+Raw papers and datasets remain separate from conversation sources and from this
+public synthesis. Any imported result must cite an exact resource record and keep
+standard-source support distinct from H(s)H interpretation.
+
 Only directories that are needed should be created. Empty architecture should
 not be manufactured merely to resemble a finished project.
 

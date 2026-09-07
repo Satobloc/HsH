@@ -1,27 +1,36 @@
 {
   "counts": {
-    "bytes_known": 390529026,
-    "directories": 10,
-    "files": 159
+    "bytes_known": 392969728,
+    "directories": 14,
+    "files": 167
   },
   "counts_by_extension": {
-    ".json": 97,
-    ".md": 3,
+    ".json": 99,
+    ".md": 8,
     ".pdf": 1,
     ".png": 1,
-    ".py": 1,
+    ".py": 2,
     ".txt": 55,
     "[none]": 1
   },
   "counts_by_role": {
-    "archive-tooling": 1,
+    "archive-tooling": 2,
+    "generated-catalog": 1,
     "license": 1,
-    "source-conversation-corpus": 157
+    "source-conversation-corpus": 157,
+    "unclassified": 4,
+    "visitor-interface": 2
   },
   "counts_by_top_level": {
+    "ARCHITECTURE.md": 1,
     "DEVELOPMENT_FULL_CONVOS": 157,
     "LICENSE": 1,
-    "tools": 1
+    "LIVE CONVOS": 1,
+    "README.md": 1,
+    "checkpoints": 1,
+    "indexes": 1,
+    "ledgers": 2,
+    "tools": 2
   },
   "duplicates": [
     {
@@ -194,6 +203,13 @@
     }
   ],
   "entries": [
+    {
+      "content_id": "fc69282c0699a38a5017b9fd1124d1b5d9f4c6cc",
+      "kind": "blob",
+      "path": "ARCHITECTURE.md",
+      "role": "visitor-interface",
+      "size": 2790
+    },
     {
       "content_id": "cadbede9a8259ad336ce3cfa8c90906863676ed3",
       "kind": "tree",
@@ -1364,7 +1380,77 @@
       "size": 19441
     },
     {
-      "content_id": "f1a4d8d72ee830acc8179c32adda23c755223ea4",
+      "content_id": "4e36e4f3e52bd2aa2ee92cf5119f2ee6dbd10889",
+      "kind": "tree",
+      "path": "LIVE CONVOS",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "040270067f05b6fd762be357fce52cbad2a0edbe",
+      "kind": "blob",
+      "path": "LIVE CONVOS/Succinctness And Math Check — raw.json",
+      "role": "unclassified",
+      "size": 2407268
+    },
+    {
+      "content_id": "4b7f0f335d4987434a4bec98c39ddb75862da664",
+      "kind": "blob",
+      "path": "README.md",
+      "role": "visitor-interface",
+      "size": 1797
+    },
+    {
+      "content_id": "67efb81f1929ee3090bca839a85d83b5f49d2155",
+      "kind": "tree",
+      "path": "checkpoints",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "52c4657078bec145b0c555b48f0775e35f2de723",
+      "kind": "blob",
+      "path": "checkpoints/CURRENT.md",
+      "role": "unclassified",
+      "size": 962
+    },
+    {
+      "content_id": "16bea07afdb910865014cf33ad217804618219f6",
+      "kind": "tree",
+      "path": "indexes",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "79f828baeb63ac084fceaeb8a099d13053a26726",
+      "kind": "blob",
+      "path": "indexes/change-state.json",
+      "role": "generated-catalog",
+      "size": 14396
+    },
+    {
+      "content_id": "b37c90a5a028648a6e9751b0ec061e74af2c32a8",
+      "kind": "tree",
+      "path": "ledgers",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "10e9347ff3288100e451c073e83624f54634f450",
+      "kind": "blob",
+      "path": "ledgers/DEPENDENCY_GRAPH.md",
+      "role": "unclassified",
+      "size": 1510
+    },
+    {
+      "content_id": "52b104614bea990bd8333bb0374c76639fadeb6f",
+      "kind": "blob",
+      "path": "ledgers/EQUATION_LEDGER.md",
+      "role": "unclassified",
+      "size": 2126
+    },
+    {
+      "content_id": "436830106ed9875dba3213b1a1f4318e00157e00",
       "kind": "tree",
       "path": "tools",
       "role": "unclassified",
@@ -1376,6 +1462,13 @@
       "path": "tools/date_conversation_exports.py",
       "role": "archive-tooling",
       "size": 9446
+    },
+    {
+      "content_id": "73a373d58f05727448abff0960a04fa9dd935236",
+      "kind": "blob",
+      "path": "tools/index_archive.py",
+      "role": "archive-tooling",
+      "size": 9853
     }
   ],
   "limitations": [
@@ -1385,8 +1478,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-06T23:37:04Z",
+  "scanned_at_utc": "2026-09-07T01:36:51Z",
   "schema_version": 1,
-  "tree_id": "da416a4966e5944ed72098dea517a6e410b122c3",
+  "tree_id": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
   "tree_response_truncated": false
 }

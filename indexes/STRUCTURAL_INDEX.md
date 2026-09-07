@@ -2,28 +2,34 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-06T23:37:04Z`
-- Tree/content state: `da416a4966e5944ed72098dea517a6e410b122c3`
-- Coverage: 159 files, 10 directories
+- Scanned: `2026-09-07T01:36:51Z`
+- Tree/content state: `30b354c9569a651dd59d7898a47cf2a6eccc38fb`
+- Coverage: 167 files, 14 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
 
 | Path | Files |
 |---|---:|
+| `ARCHITECTURE.md` | 1 |
 | `DEVELOPMENT_FULL_CONVOS` | 157 |
 | `LICENSE` | 1 |
-| `tools` | 1 |
+| `LIVE CONVOS` | 1 |
+| `README.md` | 1 |
+| `checkpoints` | 1 |
+| `indexes` | 1 |
+| `ledgers` | 2 |
+| `tools` | 2 |
 
 ## File types
 
 | Extension | Files |
 |---|---:|
-| `.json` | 97 |
-| `.md` | 3 |
+| `.json` | 99 |
+| `.md` | 8 |
 | `.pdf` | 1 |
 | `.png` | 1 |
-| `.py` | 1 |
+| `.py` | 2 |
 | `.txt` | 55 |
 | `[none]` | 1 |
 
@@ -31,9 +37,12 @@
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 1 |
+| `archive-tooling` | 2 |
+| `generated-catalog` | 1 |
 | `license` | 1 |
 | `source-conversation-corpus` | 157 |
+| `unclassified` | 4 |
+| `visitor-interface` | 2 |
 
 ## Duplicate-content groups
 
@@ -112,6 +121,7 @@
 
 ## Complete path inventory
 
+- `ARCHITECTURE.md` — 2790 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt` — 6024526 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/AI Enclosure Critique — raw.json` — 24866201 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw (1).json` — 6684669 bytes — `source-conversation-corpus`
@@ -270,7 +280,14 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/Geometric Foundations Evaluation — raw.json` — 996623 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/♾️ SAT_O METASUPERVISOR — raw.json` — 3810176 bytes — `source-conversation-corpus`
 - `LICENSE` — 19441 bytes — `license`
+- `LIVE CONVOS/Succinctness And Math Check — raw.json` — 2407268 bytes — `unclassified`
+- `README.md` — 1797 bytes — `visitor-interface`
+- `checkpoints/CURRENT.md` — 962 bytes — `unclassified`
+- `indexes/change-state.json` — 14396 bytes — `generated-catalog`
+- `ledgers/DEPENDENCY_GRAPH.md` — 1510 bytes — `unclassified`
+- `ledgers/EQUATION_LEDGER.md` — 2126 bytes — `unclassified`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
+- `tools/index_archive.py` — 9853 bytes — `archive-tooling`
 
 ## Limitations
 
