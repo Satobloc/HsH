@@ -1,39 +1,29 @@
 # Current Reconstruction Checkpoint
 
-- **Completed sources:**
-  `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/INGESTION_LEDGER.md`, lines 1–229, and
-  `SAT_THEORY_ARCHIVE_2023-25/SPHERECHECKQC.txt`, lines 1–1217, read
-  sequentially and fully. `SAT_THEORY_ARCHIVE_2023-25/SPHERES2QC.txt` was fully
-  traversed: human-readable lines 1–1953 and 2754–3255 were read sequentially;
-  its embedded ZIP/NPZ payload at lines 1954–2753 was structurally inspected.
-- **Source in progress:** `SAT_THEORY_ARCHIVE_2023-25/SPHERE4QC.txt`, blob
-  `b7f35e2e6740c75ad25e0072627451327f2d478a`, lines 1–1300 read
-  sequentially. This section contains recorded v0.3 executions, revised
-  Poincaré-return closure tests, singular-value-scaled adaptive continuation,
-  the retained static/deformation implementations, and the beginning of the
-  equal-sphere separation-collapse module. The source has not yet been judged
-  as a whole.
-- **Current dependency:** `configuration geometry -> intersection carrier`, with
-  a new conditional deformation benchmark branch.
-- **Ledger change:** No equation-ledger or dependency-graph change in this
-  partial-read pass. `EQ-0002` and `EDGE-0002` retain their prior statuses.
-- **Result:** v0.3 describes stronger numerical closure checks and begins an
-  analytic/numerical collapse sweep. Its reported numerical critical separation
-  is obtained by applying Brent root finding to the already known analytic
-  discriminant, so it is not yet independent evidence for an event threshold.
-  This is a descriptive interim finding, not a final source verdict.
-- **Continuation cursor:** Begin
-  `SAT_THEORY_ARCHIVE_2023-25/SPHERE4QC.txt` at line 1301, continuing the
-  partially read `collapse_result` construction.
-- **Next test:** Finish the collapse implementation, tests, equation packet,
-  interface documentation, recorded outputs, and finite-tube/Bishop material
-  before deciding whether v0.3 supplies convergence evidence or a valid tube
-  lift.
-- **Known gap:** No upstream H(s)H argument selects the symmetric three-sphere
-  configuration or the deformation law. The later v0.3 text and two embedded
-  ZIP/NPZ payloads remain unread or index-only; finite-tube/Bishop framing has
-  only been located, not evaluated.
-- **Archive-support update:** `Satobloc/HSH_RESOURCES` was structurally indexed and
-  given dry-run-first PDF extraction/indexing tools. A new 2,407,268-byte live
-  conversation was detected and structurally indexed at
-  `LIVE CONVOS/Succinctness And Math Check — raw.json`; it has not yet been read.
+- **Completed source range:**
+  `SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob
+  `68200d849152dcb0c4fc1814f8b1789d499ebca8`, lines 1–300 read sequentially.
+- **Coverage:** Partial. The startup conversation continues after line 300 and
+  has not been judged as a whole. `SPHERE4QC.txt` remains deferred at line 1301.
+- **Synthesis advance:** Created `synthesis/CURRENT_SYNTHESIS.md`. The first
+  supported layer is now explicit: paired empirical/control Minkowski mapping,
+  geometric inspection, minimal candidate selection, target testing, and a
+  stronger holdout/cross-sector promotion gate. The worldtube transition is
+  registered as an object-changing finite-core program, not a radius decoration.
+- **Framework statement:** H(s)H parametrizes a modeled finite-core history; it
+  is neither the object itself nor an ontological claim. Exact worldtube type and
+  the worldline-limit map remain open.
+- **Status changes:** Research method and type discipline registered
+  `SRC/ACTIVE`; finite-core object selection and limiting map remain `OPEN`. No
+  equation-ledger status changed.
+- **Preserved conflict:** The source distinguishes a full metric neighborhood of
+  a curve in four dimensions from a rope-like two-dimensional cross-section and
+  does not yet select one.
+- **Earliest unsupported edge:** No source-grounded derivation yet selects the
+  finite-core H(s)H object from the empirical Minkowski/radial/UI entry layer.
+- **Archive support:** No new human-source commit was detected in the three
+  repositories. The first full PDF extraction run exposed nine per-file errors;
+  the workflow was repaired to retain successful outputs and retry errors.
+- **Continuation cursor:** Resume `H(s)H 2026 STARTUP DOCS.txt` at line 301.
+- **Deferred cursor:** Resume `SPHERE4QC.txt` at line 1301 only if later synthesis
+  work requires the backend audit.

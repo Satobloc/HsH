@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T05:38:27Z",
+  "last_lightweight_scan": "2026-09-07T06:39:58Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,21 +9,11 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
-      "current_scanned_commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
+      "previous_seen_commit": "eabd8328e405727a27216946d070993280411446",
+      "current_scanned_commit": "eabd8328e405727a27216946d070993280411446",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
-      "automation_generated_changes": [
-        {
-          "commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
-          "paths": [
-            "ledgers/EQUATION_LEDGER.md",
-            "ledgers/DEPENDENCY_GRAPH.md",
-            "checkpoints/CURRENT.md",
-            "indexes/change-state.json"
-          ]
-        }
-      ]
+      "automation_generated_changes": []
     },
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
       "previous_seen_commit": "81509f68ab1ca613aa079ed3946b63928aa6f099",
@@ -33,32 +23,41 @@
       "automation_generated_changes": []
     },
     "Satobloc/HSH_RESOURCES": {
-      "previous_indexed_source_commit": "eeb6545287beae0f2cea67bce792f0b12b076a13",
-      "current_indexed_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
-      "index_commit": "0c6652b774b3d823e48fb100c5e9be85dbb3680d",
+      "previous_seen_commit": "7b5758af4da37f256572c8e0be70d2abd255f007",
+      "current_scan_commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
       "last_human_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
-      "baseline": {
-        "indexed_files": 288,
-        "source_files": 282,
-        "pdf_files": 276,
-        "bytes_known": 383459328,
-        "duplicate_content_groups": 25,
-        "github_tree_truncated": false
-      },
       "human_source_changes": [],
-      "automation_generated_changes": []
+      "automation_generated_changes": [
+        {
+          "commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
+          "paths": [
+            ".github/workflows/extract-papers.yml",
+            "requirements-tools.txt",
+            "tools/extract_papers.py"
+          ]
+        }
+      ]
     }
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "SPHERE4QC.txt",
-    "blob_sha": "b7f35e2e6740c75ad25e0072627451327f2d478a",
-    "coverage": "partial sequential read of decoded text lines 1-1300; later text unread and embedded ZIP/NPZ payloads index-only",
-    "next_cursor": "SPHERE4QC.txt line 1301"
+    "path": "H(s)H 2026 STARTUP DOCS.txt",
+    "blob_sha": "68200d849152dcb0c4fc1814f8b1789d499ebca8",
+    "coverage": "partial sequential read of lines 1-300",
+    "next_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
+    "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "SPHERE4QC.txt lines 1-1300 read sequentially; later text unread, embedded ZIP/NPZ payloads index-only, and all indexed PDFs unread.",
-    "errors": []
+    "content_reads": "H(s)H 2026 STARTUP DOCS.txt lines 1-300 read sequentially; later lines unread; all indexed PDFs scientifically unread.",
+    "search_terms": [
+      "2026 SAT MIDWAY REBUILD 4.txt",
+      "H(s)H 2026 STARTUP DOCS.txt",
+      "METHOD.txt",
+      "FOUNDATIONAL.txt"
+    ],
+    "errors": [
+      "METHOD.txt was not present at the tested root path; rebuild-title search found attachment references but not a standalone current file."
+    ]
   }
 }
