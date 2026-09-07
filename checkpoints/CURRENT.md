@@ -1,30 +1,37 @@
 # Current Reconstruction Checkpoint
 
-- **Completed source:** `SAT_THEORY_ARCHIVE_2023-25/H(s)H Dev +/HsH
-  ARCHITECTING.txt`, blob `e24d6a7fc80d6193282690e9d8124f2dab171918`, lines 1 through
-  end read fully and sequentially.
-- **Coverage:** Complete July 4-era NotebookLM conversation. Embedded user
-  corrections were read in sequence and control over the generated responses.
-- **Synthesis advance:** Typed the superhelical curve as formalism/center-history
-  representation and the finite-core worldtube as the thicker modeled object.
-  Added the UI and Whirligig as analytical tools, not ontology.
-- **Framework statement:** A complete finite-core object still needs boundary,
-  cross-section, framing, deformation, contact, and resolving-intersection data.
-- **Status changes:** Curve/tube distinction and tool roles are `SRC/ACTIVE`.
-  ER-bridge, effective-horizon, string/Kerr, exclusion, and braid-assembly ideas
-  remain `SRC/CANDIDATE` or `OPEN`. No equation-ledger status changed.
-- **Preserved conflicts:** `Z3` is retired unless forced. Generated claims of
-  locked constants, lattice attenuation, metric recovery, and experimental
-  predictions are displaced. Radial SO(4), two-shell, toroidal, and Klein
-  background candidates remain unresolved rather than merged.
-- **Earliest unsupported edge:** No source yet selects a mutually compatible
-  finite-core morphology from the entry geometry or derives how a horizon-like
-  boundary can support exclusion, contact, braiding, and merger behavior.
+- **Completed source:** `SAT_THEORY_ARCHIVE_2023-25/[[SAT26 TOOLBOX]]/H(s)H
+  FIRST BUILD.txt`, blob `3e38d26c2bcec46f1a15e508b8794db6ba06bea6`, lines 1–4281
+  read fully and sequentially.
+- **Coverage:** Complete July 10, 2026 NotebookLM build conversation. The nominal
+  predecessor `SAT to H(s)H TRANSITION.txt` was also fully accessed and is a
+  zero-byte placeholder. Embedded user corrections control over generated
+  declarations in the first-build transcript.
+- **Synthesis advance:** Added the staged construction protocol: understand the
+  archive, identify/review/select equations sector by sector, and only then test
+  integration. Revised the UI/Whirligig account to preserve Minkowski plus
+  standard-physics mapping and leave the exact Whirligig operation open.
+- **Framework statement:** The current mathematical inventory is a hypothesis
+  registry, not a rough theory already assembled from named formalisms.
+- **Status changes:** The equation-selection and evaluation protocol is
+  `SRC/ACTIVE`. BEC/GPE, Navier–Stokes, BV/AKSZ, holonomy, Yamabe, ER/horizon,
+  and link-invariant assignments remain `GEN/CANDIDATE`, `OPEN`, or
+  `GEN/QUARANTINED` pending sector-specific derivation. No equation-ledger status
+  changed.
+- **Preserved conflicts:** The source alternates between declaring Euclidean
+  radial expansion and a BEC vacuum foundational and calling everything a
+  falsifiable hypothesis. The later user instruction controls: do not bake in
+  either architecture. Generated deletion advice and claims of proof,
+  inevitability, lossless projection, or mandatory gauge/metric recovery are
+  rejected as authority.
+- **Earliest unsupported edge:** The archive has not yet selected the exact
+  finite-core object or vacuum/background from the empirical Minkowski entry,
+  so no downstream heavy mathematical formalism has an earned domain.
 - **Repository check:** No new human-source commit appeared. SAT Archive head is
   `81509f6`; HSH_RESOURCES remains at generated extraction commit `3678729`;
   HsH changes are synthesis automation.
-- **Next action:** Read `[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt`
-  sequentially from line 1 and compare its declared transition against this type
-  distinction.
+- **Next action:** Read `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt`
+  sequentially from line 1 and test whether it supplies a compact object/readout
+  architecture without promoting the first-build hypothesis registry.
 - **Preserved cursors:** `H(s)H 2026 STARTUP DOCS.txt` line 301;
   `SPHERE4QC.txt` line 1301 (deferred backend audit).

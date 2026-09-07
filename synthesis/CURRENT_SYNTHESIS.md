@@ -17,6 +17,33 @@ holdout or cross-sector success is the stronger promotion gate.
 **Status:** `SRC/ACTIVE` as a declared research method. It is a method of model
 construction, not itself evidence that any proposed H(s)H object is correct.
 
+### Construction and evaluation protocol
+
+`H(s)H FIRST BUILD.txt` repeatedly corrects an attempted jump from intuitions
+and a mathematical-tool inventory to a finished theory. The controlling user
+instructions replace that jump with a staged procedure: first understand the
+vision and archive; then identify, review, and select the equations needed for
+each sector; only afterward test whether the selected pieces fit together.
+
+The mathematics can establish definitions, internal consistency, and
+conditional consequences. It cannot prove that the representation is physical
+truth. Numerical agreement with CODATA or an inherited result is a sanity check,
+not a construction target and not validation by itself; failed comparisons are
+allowed to revise the premises. Geometric intuition remains a design aid, but it
+does not promote a claim without a dependency chain.
+
+The source therefore turns its own proposed “rough backbone” into a hypothesis
+registry. Euclidean radial expansion, BEC vacuum, ER-bridge/event-horizon
+morphology, Gross–Pitaevskii/Navier–Stokes dynamics, BV/AKSZ, holonomy, Yamabe
+regularization, and topological invariants are all proposals to review, not a
+single assembled framework. Generated claims that those tools are necessary,
+lossless, mutually compatible, or already yield Lorentzian signature, gauge
+physics, exclusion, finiteness, or mass selection remain `GEN/CANDIDATE` or
+`GEN/QUARANTINED`.
+
+**Status:** staged equation-selection protocol `SRC/ACTIVE`; every named
+mathematical import remains independently auditable before adoption.
+
 ### Foundational control: what survives translation
 
 `FUNDAMENTAL INTUITIONS.txt` supplies the early structural seed of the present
@@ -126,9 +153,14 @@ contact, and resolving-surface intersection data. The source does not yet select
 one complete thick-object definition.
 
 The Universal Indicatrix and Whirligig are analytical instruments rather than
-model objects. The UI constructs or constrains four-dimensional trajectories;
-the Whirligig compares or searches geometric constraint solutions. Nesting the
-UI inside the Whirligig is an `SRC/CANDIDATE` tool design, not a theory premise.
+model objects. The first-build conversation adds a controlling correction:
+filaments are mapped using Minkowski's geometric grammar and standard-physics
+calculations; this is not simply “Whirligig projection,” nor is the UI itself an
+ontology. The UI is retained provisionally as a trajectory/constraint lab bench.
+The exact Whirligig operation remains `OPEN`, because the generated mapping
+account was explicitly corrected and no direct operational source has yet been
+read. Nesting the UI inside the Whirligig remains an `SRC/CANDIDATE` tool design,
+not a theory premise.
 
 The source proposes that a filament morphology might combine ER-bridge,
 event-horizon boundary, string/vibration, and Kerr-like structures. These are
@@ -163,6 +195,9 @@ morphology, exclusion mechanism, braid statistics, and background topology
   two superimposed shells, a toroidal construction, and Klein topology.
 - The three-sphere carrier and prescribed deformation remain verified test
   constructions, not upstream-selected H(s)H premises.
+- The toolbox source repeatedly proposes BEC/GPE, Navier–Stokes, BV/AKSZ,
+  holonomy, Yamabe, and link-polynomial machinery, but does not derive why each
+  is required or show that their domains and variables form a compatible stack.
 
 ## Source coverage
 
@@ -186,6 +221,15 @@ morphology, exclusion mechanism, braid statistics, and background topology
   `e24d6a7fc80d6193282690e9d8124f2dab171918`: lines 1 through end read fully
   and sequentially. Its embedded user corrections control; later generated
   declarations of solved or locked mathematics remain unverified and displaced.
+- `[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt`, blob
+  `39c20f590e8272d054e3d8f5686c3642b1efd824`: accessed completely; the live
+  file is zero bytes and supplies no evidence. Generated descriptions of its
+  alleged contents elsewhere in the archive were not substituted for the file.
+- `[[SAT26 TOOLBOX]]/H(s)H FIRST BUILD.txt`, blob
+  `3e38d26c2bcec46f1a15e508b8794db6ba06bea6`: lines 1–4281 read fully and
+  sequentially. This July 10, 2026 NotebookLM build conversation is mostly a
+  generated proposal registry; embedded user corrections control its method and
+  status assignments.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional
