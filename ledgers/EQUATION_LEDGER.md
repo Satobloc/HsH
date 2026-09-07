@@ -116,3 +116,46 @@ H(s)H interpretation. Provenance and maturity are independent fields.
   The construction remains useful as a `SRC/CANDIDATE` controlled geometry test.
 - **Earliest unsupported edge:** Selection of this deformation family, phase
   law, and amplitude from the current H(s)H object hierarchy.
+
+## EQ-0003 — Uniform-tension linear filament dispersion
+
+- **Statement:** For a small transverse displacement `xi(s,t)` of a uniform
+  one-dimensional filament with positive tension `T` and linear mass density
+  `mu`, periodic normal modes obey
+
+  ```text
+  k_n = 2 pi n/L,
+  omega_n^2 = (T/mu) k_n^2.
+  ```
+
+- **Domain and boundary conditions:** `s` is arclength, `t` is an independent
+  evolution parameter, `T>0`, `mu>0`, and the field is periodic on length `L`.
+  Bending, gap, damping, nonlinear, and interaction terms are absent.
+- **Units:** `[T]=M L Tau^-2`, `[mu]=M L^-1`, `[k]=L^-1`, and
+  `[omega]=Tau^-1`; hence both sides of the squared dispersion have units
+  `Tau^-2`.
+- **Primary archive source:**
+  `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SAT O Derivations/CODE-LOCKED DERIVS.txt`,
+  blob `783b05d39d59bf854b92090e15d205e6823b51c8`, read fully at lines 1–448;
+  the D2 presentation is at lines 74–119.
+- **Notation repair:** The source calls the coefficient `m` while also treating
+  it as the inertial coefficient of a continuum. The formula is dimensionally
+  coherent only when that coefficient is interpreted as a linear density `mu`
+  and the displacement is supplied with the missing time argument.
+- **Provenance:** `STD`; this is the classical uniform-string normal-mode
+  dispersion, not a SAT-native prediction.
+- **Maturity:** `DERIVED` within the stated standard model. Its selection and
+  coefficients as an H(s)H effective sector remain `OPEN`.
+- **H(s)H relevance:** It is the tension-only, gapless, non-bending special case
+  of the current candidate quadratic operator
+  `D(omega,k)=-omega^2 M+k^2 K+k^4 B+M0^2`.
+- **Rejected carry-over:** The source's quantum mode expansion is not retained.
+  It states an explicit `hbar` commutator but omits the corresponding
+  `sqrt(hbar)` normalization in the mode amplitudes, without declaring natural
+  units.
+- **Earliest unsupported edge:** Derivation of `T` and `mu` from a selected
+  finite-core equilibrium and a justified reduction from the full tube to a
+  one-dimensional transverse mode.
+- **Checks:** The executable registry records a dimensional check, a numerical
+  instance, and a Lean-ready algebraic rearrangement. Lean compilation remains
+  `NOT_RUN` until a Lean toolchain is available.

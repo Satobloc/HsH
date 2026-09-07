@@ -235,10 +235,34 @@ serialization, unsafe tracker writes, missing static checks, weak perturbation
 handling, and absent post-condition invariants—but does not audit the SAT-O
 equations themselves.
 
+The subsequently read `CODE-LOCKED DERIVS.txt` does not meet that process
+standard. It mixes imported textbook formalisms, SAT definitions, particle
+assignments, and summary assertions without an executable lock record. One
+classical fragment survives after an explicit type repair: for a small
+transverse displacement `xi(s,t)` of a uniform filament with tension `T` and
+linear density `mu`, periodic modes satisfy
+
+`omega_n^2 = (T/mu) k_n^2`, with `k_n = 2 pi n/L`.
+
+This is standard uniform-string mathematics and the tension-only, gapless,
+non-bending limit of the current candidate effective operator. It does not
+derive the H(s)H coefficients or validate the one-dimensional reduction. The
+source's quantum expansion is not retained because it states an explicit
+`hbar` commutator while omitting the corresponding mode normalization.
+
+The later D3–D8 bridge is not portable as written. Among the blocking failures:
+Borromean rings have zero pairwise linking numbers rather than a pairwise sum of
+three; `pi_1(S3)` and `pi_2(S3)` are both trivial; inversion of a positive
+covariance cannot create Lorentzian signature; and a link density per volume
+times a squared length does not define a dimensionless gauge coupling. These
+failures stop downstream mass, metric, gauge, spinor, and unification claims
+before any H(s)H interpretation is considered.
+
 **Status:** derivation separation and invalidation discipline `SAT/HISTORICAL ->
-SAT/ACTIVE` as a process ancestor; SAT-O's one-dimensional ontology and named
-physics modules `SAT/HISTORICAL` or `OPEN`; O9 audit result unsupported by the
-package inspected.
+SAT/ACTIVE` as a process ancestor; the corrected classical dispersion
+`STD/DERIVED` in its declared model and registered as `EQ-0003`; SAT-O's
+one-dimensional ontology and named physics modules `SAT/HISTORICAL`, `OPEN`, or
+`QUARANTINED`; O9 audit result unsupported by the package inspected.
 
 ## Preserved conflicts and open edges
 
@@ -262,6 +286,9 @@ package inspected.
   is required or show that their domains and variables form a compatible stack.
 - SAT-O's formal gating design is stronger than its surviving audit evidence:
   the inspected O9 package omits the module it instructs the reader to audit.
+- The “code-locked” D3–D8 chain contains mathematical and dimensional failures;
+  no downstream topology-to-mass, metric, gauge, spinor, or unification claim
+  is inherited from it.
 
 ## Source coverage
 
@@ -278,6 +305,10 @@ package inspected.
   source incomplete, resume at line 301.
 - `SPHERE4QC.txt` remains deliberately deferred at line 1301 while conceptual
   synthesis takes priority.
+- `SAT O Derivations/CODE-LOCKED DERIVS.txt`, blob
+  `783b05d39d59bf854b92090e15d205e6823b51c8`, lines 1–448 read fully and
+  sequentially. Its D2 classical dispersion was reconstructed conditionally;
+  D1 and D3–D8 were characterized but not imported.
 - `Older Conversations/FUNDAMENTAL INTUITIONS.txt`, blob
   `81ae23a106939cba7e3d134ed5c90a7d7a979a25`: read fully. The same blob also
   occurs at `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` and was not counted as

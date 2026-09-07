@@ -28,7 +28,6 @@ domains, provenance, or applicability to current H(s)H.
 ## Located structurally; not yet read completely
 
 - `2026/SAT MATH — BACKBONE.txt` (234,527 bytes)
-- `SAT O Derivations/CODE-LOCKED DERIVS.txt` (17,810 bytes)
 - `2026/SAT FULL_THEORY.pdf`
 - `2026/SAT FULL_THEORY_Line.pdf`
 - `SAT O Core Modules/*.pdf` and text modules
@@ -40,3 +39,16 @@ domains, provenance, or applicability to current H(s)H.
 These are ingestion candidates, not accepted equation sources. They must be
 read sequentially and reconciled by chronology before equations are imported.
 
+## Subsequently read completely
+
+- `SAT O Derivations/CODE-LOCKED DERIVS.txt`, blob
+  `783b05d39d59bf854b92090e15d205e6823b51c8`, lines 1–448.
+
+Despite its title, the file is a mixed summary/derivation draft rather than an
+executable lock record. Its classical uniform-tension dispersion is retained as
+`EQ-0003` after repairing the overloaded inertial coefficient to a linear mass
+density and separating arclength from time. Its quantum normalization is
+inconsistent as written. Later sections contain unsupported or false bridges,
+including pairwise linking for Borromean rings, nontrivial `pi_1(S3)` and
+`pi_2(S3)`, Lorentzian signature by inversion of a positive covariance, and a
+dimensionally invalid gauge-coupling density. Those claims are not imported.

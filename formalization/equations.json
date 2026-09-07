@@ -91,7 +91,54 @@
           }
         ]
       }
+    },
+    {
+      "id": "EQ-0003",
+      "title": "Uniform-tension linear filament dispersion",
+      "source": {
+        "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "path": "SAT O Derivations/CODE-LOCKED DERIVS.txt",
+        "blob_sha": "783b05d39d59bf854b92090e15d205e6823b51c8",
+        "coverage": "read fully and sequentially; D2 at lines 74-119",
+        "line_start": 74,
+        "line_end": 119
+      },
+      "provenance": "STD",
+      "maturity": "DERIVED",
+      "dependencies": [],
+      "symbols": [
+        {"name": "omega", "domain": "Real", "unit": {"Tau": -1}},
+        {"name": "k", "domain": "Real", "unit": {"L": -1}},
+        {"name": "Tension", "domain": "Real", "unit": {"M": 1, "L": 1, "Tau": -2}},
+        {"name": "mu", "domain": "Real", "unit": {"M": 1, "L": -1}}
+      ],
+      "assumptions": [
+        "xi = xi(s,t) is a small transverse displacement field",
+        "s is arclength and t is the evolution parameter",
+        "uniform positive tension Tension",
+        "uniform positive linear mass density mu",
+        "periodic boundary conditions on a filament of length L",
+        "bending, gap, damping, and interaction terms are absent"
+      ],
+      "statement": {"latex": "\\omega_n^2=(T/\\mu)k_n^2,\\quad k_n=2\\pi n/L"},
+      "checks": [
+        {"id": "dispersion-dimensions", "kind": "dimensions", "lhs": "omega**2", "rhs": "Tension*k**2/mu"},
+        {"id": "dispersion-numeric", "kind": "numeric_close", "expression": "sqrt(Tension/mu)*abs(k)", "bindings": {"Tension": 12, "mu": 3, "k": 4}, "expected": 8, "abs_tol": 1e-12}
+      ],
+      "open_edge": "Derivation of the effective tension and line density from a selected finite-core H(s)H equilibrium; the source's quantum-mode normalization is not retained.",
+      "lean": {
+        "module": "EQ_0003_Dispersion",
+        "imports": ["Mathlib"],
+        "namespace": "HsH.Generated.EQ0003",
+        "declarations": [],
+        "theorems": [
+          {
+            "name": "dispersion_rearrangement",
+            "statement": "(Tension mu k omega : ℝ) (hmu : mu ≠ 0) (h : omega ^ 2 = (Tension / mu) * k ^ 2) : mu * omega ^ 2 = Tension * k ^ 2",
+            "derivation": ["rw [h]", "field_simp [hmu]"]
+          }
+        ]
+      }
     }
   ]
 }
-

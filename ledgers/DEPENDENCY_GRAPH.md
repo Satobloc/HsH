@@ -50,6 +50,23 @@ empirical Minkowski elements
   replacement for the still-open `intersection carrier -> framed finite tube ->
   transport and deformation` backbone.
 
+### EDGE-0003 — Uniform constitutive filament to linear propagation
+
+- **From:** A one-dimensional transverse field with stipulated uniform positive
+  tension `T`, linear mass density `mu`, and periodic boundary conditions.
+- **To:** Gapless normal modes with `omega_n^2=(T/mu)k_n^2`.
+- **Equation:** `EQ-0003`.
+- **Mathematical status:** `STD/DERIVED` under the explicit classical-string
+  assumptions and repaired notation.
+- **Framework status:** `OPEN`. Neither the one-dimensional reduction nor `T`
+  and `mu` have been derived from a selected finite-core H(s)H object.
+- **Graph role:** A conditional benchmark branch from constitutive dynamics to
+  propagation. It is a special case of the candidate effective operator, not an
+  upstream object-selection result.
+- **Rejected downstream inheritance:** The source's quantum normalization,
+  direct topology-to-mass map, metric inversion, gauge map, and spinor map do
+  not follow from this edge.
+
 ## Earliest unsupported edge
 
 The graph presently stops before `configuration geometry`: the archive has not yet
