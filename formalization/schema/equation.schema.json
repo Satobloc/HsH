@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Satobloc/HsH/formalization/schema/equation.schema.json",
+  "title": "H(s)H executable equation registry",
+  "type": "object",
+  "required": ["schema_version", "equations"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "equations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/equation"}
+    }
+  },
+  "$defs": {
+    "equation": {
+      "type": "object",
+      "required": [
+        "id", "title", "source", "provenance", "maturity", "dependencies",
+        "symbols", "assumptions", "statement", "checks", "open_edge"
+      ],
+      "properties": {
+        "id": {"pattern": "^EQ-[0-9]{4}$"},
+        "title": {"type": "string", "minLength": 1},
+        "source": {
+          "type": "object",
+          "required": ["repository", "path", "blob_sha", "coverage"],
+          "properties": {
+            "repository": {"type": "string"},
+            "path": {"type": "string"},
+            "blob_sha": {"pattern": "^[0-9a-f]{40}$"},
+            "coverage": {"type": "string"},
+            "line_start": {"type": "integer", "minimum": 1},
+            "line_end": {"type": "integer", "minimum": 1}
+          }
+        },
+        "provenance": {"enum": ["OBS", "STD", "SAT", "SRC", "GEN"]},
+        "maturity": {
+          "enum": ["FROZEN", "DERIVED", "ACTIVE", "CANDIDATE", "HISTORICAL", "QUARANTINED", "REJECTED", "OPEN"]
+        },
+        "dependencies": {"type": "array", "items": {"pattern": "^EQ-[0-9]{4}$"}},
+        "symbols": {"type": "array"},
+        "assumptions": {"type": "array", "items": {"type": "string"}},
+        "statement": {
+          "type": "object",
+          "required": ["latex"],
+          "properties": {"latex": {"type": "string"}}
+        },
+        "checks": {"type": "array"},
+        "open_edge": {"type": "string"},
+        "lean": {"type": "object"}
+      }
+    }
+  }
+}
+

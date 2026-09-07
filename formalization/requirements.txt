@@ -1,0 +1,2 @@
+# Optional symbolic backend used by `sympy_zero` checks.
+sympy>=1.13,<2

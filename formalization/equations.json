@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "equations": [
+    {
+      "id": "EQ-0001",
+      "title": "Common carrier of three equal 3-spheres",
+      "source": {
+        "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "path": "SPHERECHECKQC.txt",
+        "blob_sha": "7ea46f7d3461061a3b5f51fa7ee58b926b8404f0",
+        "coverage": "read fully and sequentially",
+        "line_start": 40,
+        "line_end": 1217
+      },
+      "provenance": "STD",
+      "maturity": "DERIVED",
+      "dependencies": [],
+      "symbols": [
+        {"name": "R", "domain": "Real", "unit": {"L": 1}},
+        {"name": "d", "domain": "Real", "unit": {"L": 1}},
+        {"name": "rho", "domain": "Real", "unit": {"L": 1}}
+      ],
+      "assumptions": [
+        "R > 0",
+        "d >= 0",
+        "three equal-radius Euclidean 3-spheres in R4",
+        "centers form an equilateral triangle of side d"
+      ],
+      "statement": {"latex": "\\rho^2=R^2-d^2/3"},
+      "checks": [
+        {"id": "radius-dimensions", "kind": "dimensions", "lhs": "rho**2", "rhs": "R**2-d**2/3"},
+        {"id": "radius-rearrangement", "kind": "sympy_zero", "expression": "3*(R**2-d**2/3)-(3*R**2-d**2)"},
+        {"id": "collapse-boundary", "kind": "numeric_close", "expression": "R**2-d**2/3", "bindings": {"R": 1, "d": 1.7320508075688772}, "expected": 0, "abs_tol": 1e-12}
+      ],
+      "open_edge": "Selection of this symmetric constraint system as an H(s)H finite-core model.",
+      "lean": {
+        "module": "EQ_0001_Carrier",
+        "imports": ["Mathlib"],
+        "namespace": "HsH.Generated.EQ0001",
+        "declarations": [],
+        "theorems": [
+          {
+            "name": "radius_rearrangement",
+            "statement": "(R d rho : ℝ) (h : rho ^ 2 = R ^ 2 - d ^ 2 / 3) : 3 * rho ^ 2 = 3 * R ^ 2 - d ^ 2",
+            "derivation": ["nlinarith"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "EQ-0002",
+      "title": "Determinant-one prescribed shell deformation",
+      "source": {
+        "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "path": "SPHERES2QC.txt",
+        "blob_sha": "9e110e2c13d95a061d9521c84ae9e1755fffa3f4",
+        "coverage": "human-readable portions read fully; embedded NPZ inspected structurally",
+        "line_start": 618,
+        "line_end": 3255
+      },
+      "provenance": "SRC",
+      "maturity": "CANDIDATE",
+      "dependencies": ["EQ-0001"],
+      "symbols": [
+        {"name": "epsilon", "domain": "Real", "unit": {}},
+        {"name": "a", "domain": "Real", "unit": {}},
+        {"name": "phi", "domain": "Real", "unit": {}}
+      ],
+      "assumptions": [
+        "epsilon = a sin(phi)",
+        "A1 = diag(1,1,exp(-2 epsilon),exp(2 epsilon))",
+        "the deformation family is prescribed rather than derived"
+      ],
+      "statement": {"latex": "\\det A_1(\\phi)=1"},
+      "checks": [
+        {"id": "determinant-dimensions", "kind": "dimensions", "lhs": "exp(-2*epsilon)*exp(2*epsilon)", "rhs": "1"},
+        {"id": "determinant-symbolic", "kind": "sympy_zero", "expression": "exp(-2*epsilon)*exp(2*epsilon)-1"},
+        {"id": "determinant-numeric", "kind": "numeric_close", "expression": "exp(-2*epsilon)*exp(2*epsilon)", "bindings": {"epsilon": 0.35}, "expected": 1, "abs_tol": 1e-14}
+      ],
+      "open_edge": "Selection of the deformation, phase law, and amplitude from the current H(s)H hierarchy.",
+      "lean": {
+        "module": "EQ_0002_Deformation",
+        "imports": ["Mathlib"],
+        "namespace": "HsH.Generated.EQ0002",
+        "declarations": [],
+        "theorems": [
+          {
+            "name": "diagonal_product_one",
+            "statement": "(epsilon : ℝ) : Real.exp (-2 * epsilon) * Real.exp (2 * epsilon) = 1",
+            "derivation": ["rw [← Real.exp_add]", "ring_nf", "simp"]
+          }
+        ]
+      }
+    }
+  ]
+}
+

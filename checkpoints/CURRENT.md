@@ -28,10 +28,21 @@
   still not selected from the empirical Minkowski entry. More locally, no
   admissible chain derives the negative radial bilinear form from the positive
   Euclidean tangent covariance.
-- **Repository check:** No new human-source commit appeared. SAT Archive head is
-  `81509f6`; HSH_RESOURCES remains at generated extraction commit `3678729`;
-  HsH head `a5d27e0` contains generated synthesis routing only. `LIVE CONVOS`
-  remains the lagging current-development snapshot and was unchanged.
+- **Repository check:** SAT Archive remains at `81509f6`; HSH_RESOURCES remains
+  at generated extraction commit `3678729`. A human upload advanced HsH to
+  `5eebd7a` and changed only `LIVE CONVOS/Succinctness And Math Check — raw.json`
+  (blob `a933101e`, 3,721,259 bytes). The JSON was structurally parsed and its
+  terminal 25-message slice inspected; the full 656-message conversation was
+  not reread. The latest user turn in that snapshot clarifies three concurrent
+  representations, so the upload is preserved as current-development context,
+  not treated as an equation source already ingested. A following generated
+  filename-normalization commit advanced the repository to `5136e15` without
+  changing conversation bytes.
+- **Formalization support:** Added an executable equation-registry scaffold that
+  keeps source/maturity status separate from Python and Lean check status. The
+  initial registry contains `EQ-0001` and `EQ-0002`; local standard-library
+  checks report four `PASS`, zero `FAIL`, and four explicit `NOT_RUN` because
+  SymPy and Lean are not installed in the execution environment.
 - **Next action:** Read `SAT O Core Modules/..folder_summary.txt` fully to establish
   the SAT-O module chronology, authority structure, and exact next sequential
   source without inferring rigor from the `Core` label.

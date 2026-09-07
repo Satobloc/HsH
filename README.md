@@ -13,6 +13,8 @@ reality-in-itself.
    as automatically current or canonical theory.
 4. Follow each synthesis claim back to its source, chronology, assumptions, and
    dependency status.
+5. Use [the executable equation registry](formalization/README.md) for curated
+   Python checks and generated Lean obligations.
 
 ## Current source relationship
 
@@ -36,6 +38,9 @@ derived, or physically established.
 - `DEVELOPMENT_FULL_CONVOS/` — exported conversations and associated source artifacts.
 - `tools/` — deterministic, auditable archive utilities.
 - `indexes/` — generated structural catalogs and machine-readable scan state.
+- `formalization/` — source-linked equation records, schema, and workflow rules.
+- `generated/equations/` — deterministic Python check logs and reports.
+- `generated/lean/` — generated Lean modules whose compile status is explicit.
 - `ARCHITECTURE.md` — repository roles, status vocabulary, and evolution policy.
 
 The source corpus will continue to grow. Structural indexes should be refreshed

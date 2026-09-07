@@ -10,6 +10,9 @@ Status: active scaffold. This document governs archive organization, not theory 
 | `synthesis/` | Clean, source-linked H(s)H construction | Current statements must carry provenance and maturity |
 | `ledgers/` | Equation, dependency, terminology, chronology, and claim-status records | Derived catalog layer |
 | `audits/` | Dimensional, algebraic, numerical, source, and benchmark checks | Evaluation layer |
+| `formalization/` | Curated machine-readable equations, assumptions, units, dependencies, and Lean obligations | Formalization input; never raw-source authority |
+| `generated/equations/` | Deterministic check logs and reports | Generated evaluation output |
+| `generated/lean/` | Lean theorem modules emitted from curated records | Formal obligations; accepted only after an actual Lean run |
 | `indexes/` | Generated structural inventories and scan state | Navigation only |
 | `tools/` | Reproducible archive and validation utilities | Archive machinery |
 | `staging/` | Incomplete or fragile assembled work | Noncanonical working area |
@@ -54,6 +57,9 @@ raise an item's status.
 - Preserve contradictions and superseded forms with chronology.
 - Do not silently merge distinct meanings of symbols such as archive `theta4` or `Q`.
 - Treat generated indexes as maps, never as evidence for a theory claim.
+- Keep equation provenance/maturity separate from Python and Lean check status.
+- Never infer Lean acceptance from file existence, successful generation, or a
+  content hash; record `PASS`, `FAIL`, or `NOT_RUN` from the executable itself.
 
 ## Repository evolution
 

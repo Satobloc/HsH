@@ -1,0 +1,8 @@
+{"check_id": "collapse-boundary", "detail": "actual=1.1102230246251565e-16; expected=0; abs_tol=1e-12", "equation_id": "EQ-0001", "kind": "numeric_close", "status": "PASS"}
+{"check_id": "lean-compile", "detail": "no --lean-command supplied", "equation_id": "EQ-0001", "kind": "lean_compile", "status": "NOT_RUN"}
+{"check_id": "radius-dimensions", "detail": "dimensions agree: {'L': Fraction(2, 1)}", "equation_id": "EQ-0001", "kind": "dimensions", "status": "PASS"}
+{"check_id": "radius-rearrangement", "detail": "SymPy is not installed", "equation_id": "EQ-0001", "kind": "sympy_zero", "status": "NOT_RUN"}
+{"check_id": "determinant-dimensions", "detail": "dimensions agree: {}", "equation_id": "EQ-0002", "kind": "dimensions", "status": "PASS"}
+{"check_id": "determinant-numeric", "detail": "actual=1; expected=1; abs_tol=1e-14", "equation_id": "EQ-0002", "kind": "numeric_close", "status": "PASS"}
+{"check_id": "determinant-symbolic", "detail": "SymPy is not installed", "equation_id": "EQ-0002", "kind": "sympy_zero", "status": "NOT_RUN"}
+{"check_id": "lean-compile", "detail": "no --lean-command supplied", "equation_id": "EQ-0002", "kind": "lean_compile", "status": "NOT_RUN"}

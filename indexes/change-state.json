@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T15:35:38Z",
+  "last_lightweight_scan": "2026-09-07T16:06:20Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,10 +9,18 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "ea228ad4ac4c33d02c2a4543a793fb1e58a7534c",
-      "current_scanned_commit": "a5d27e0f0984438e37529ce5f22acb4adf347037",
-      "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
-      "human_source_changes": [],
+      "previous_seen_commit": "a5d27e0f0984438e37529ce5f22acb4adf347037",
+      "current_scanned_commit": "5136e1516f77a81afd436026a3bd61f02939f404",
+      "last_human_source_commit": "5eebd7a2d5210928ce8744df42aacd98efdf2e3c",
+      "human_source_changes": [
+        {
+          "commit": "5eebd7a2d5210928ce8744df42aacd98efdf2e3c",
+          "path": "LIVE CONVOS/Succinctness And Math Check — raw.json",
+          "blob_sha": "a933101e831ea11b13266b24f827323aaba5a7ec",
+          "size_bytes": 3721259,
+          "coverage": "complete structural JSON parse; terminal 25-message slice inspected; full 656-message conversation not reread"
+        }
+      ],
       "automation_generated_changes": [
         {
           "commit": "004d90e7414190584813c27bfa890f9f9f918861",
@@ -27,6 +35,21 @@
           "paths": [
             "checkpoints/CURRENT.md",
             "synthesis/SOURCE_PRIORITY.md"
+          ]
+        },
+        {
+          "commit": "4923a7d1157d8a4a5187501df8caf5eef481f100",
+          "paths": [
+            "checkpoints/CURRENT.md",
+            "indexes/change-state.json",
+            "synthesis/CURRENT_SYNTHESIS.md"
+          ]
+        },
+        {
+          "commit": "5136e1516f77a81afd436026a3bd61f02939f404",
+          "paths": [
+            "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/* (23 content-preserving filename normalizations)",
+            "logs/date-prefix/20260907T160900Z__DEVELOPMENT_FULL_CONVOS__SAT_CONVOS_1.json"
           ]
         }
       ]
@@ -67,7 +90,7 @@
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-5599 read fully and sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; LIVE CONVOS path inspected structurally and unchanged but its conversation content was not read in this pass; SAT-O/4DHH priority paths remain index-only; extended Fundamental Intuitions PDF not content-read.",
+    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-5599 read fully and sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; LIVE CONVOS JSON structurally parsed and terminal 25-message slice inspected after upload, but its full 656-message content was not reread; eight small SAT-O/4DHH equation-control files were read fully for formalization design; larger equation dumps remain index-only; extended Fundamental Intuitions PDF not content-read.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
