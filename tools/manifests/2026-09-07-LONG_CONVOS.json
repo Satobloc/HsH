@@ -1,0 +1,192 @@
+{
+  "generated_at_utc": "2026-09-07T17:19:39.697Z",
+  "root": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS",
+  "timezone": "America/New_York",
+  "mode": "apply",
+  "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
+  "parent_commit": "033b3ef2dce81b4097106885a268339fe84c3e59",
+  "summary": {
+    "renamed": 20,
+    "skipped": 1
+  },
+  "records": [
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "new_path": null,
+      "status": "skipped",
+      "timestamp_source": null,
+      "message_count": 0,
+      "warnings": [
+        "Unexpected non-whitespace character after JSON at position 42 (line 1 column 43)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/AI Enclosure Critique — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1565,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 167,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Coherency Master OMNI — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 167,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Consciousness and AI Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.08.26•Consciousness and AI Debate — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1823,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Geometry in Physics — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1316,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/GitHub Archive Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•GitHub Archive Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 745,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Homes in Cardinal Order — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.22•26.06.23•Homes in Cardinal Order — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1422,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Jetstream Construction Story Retelling — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.26•26.08.26•Jetstream Construction Story Retelling — raw (2).json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 622,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Mathematical Tool Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.05•26.07.18•Mathematical Tool Exploration — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 554,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.03.21•26.08.21•Planetology -- Geometric Foundations Evaluation — raw (1).txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 948,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 461,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Reasoning with SAT-HSH Skill — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 461,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/SAT Decon + Prior ChatGPT Voice Glitch — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31•26.09.05•SAT Decon + Prior ChatGPT Voice Glitch — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1095,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/SAT Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 837,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/Suno Song Interpretation —  .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.01•26.08.03•Suno Song Interpretation —  .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 496,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/WolframAlpha Integration Guide — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.06•26.07.22•WolframAlpha Integration Guide — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 900,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw - .txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw - .txt",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 799,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/xGitHub Archive Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 799,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/🧶🧱SAT — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 770,
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/🪡 The Tourist Tailor [e-] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17•26.06.01•🪡 The Tourist Tailor [e-] — raw.json",
+      "status": "renamed",
+      "timestamp_source": "message.create_time",
+      "message_count": 1504,
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    }
+  ]
+}

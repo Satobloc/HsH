@@ -43,5 +43,27 @@ derived, or physically established.
 - `generated/lean/` — generated Lean modules whose compile status is explicit.
 - `ARCHITECTURE.md` — repository roles, status vocabulary, and evolution policy.
 
+## Date conversation exports
+
+The [conversation date utility](tools/date_conversation_exports.py) prefixes each
+ChatGPT export with its first and last message dates in Eastern time. It accepts
+JSON exports and JSON-formatted text exports, follows the active conversation
+branch, and leaves unparseable prose files untouched.
+
+Preview the complete developmental-conversation tree:
+
+```bash
+python tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS
+```
+
+Review `conversation-rename-manifest.json`, then apply the collision-checked plan:
+
+```bash
+python tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply
+```
+
+The tool is dry-run by default and replaces its own existing date prefix, so it
+can be rerun after an export grows.
+
 The source corpus will continue to grow. Structural indexes should be refreshed
 after new uploads and during periodic maintenance.
