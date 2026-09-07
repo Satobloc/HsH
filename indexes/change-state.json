@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T04:38:59Z",
+  "last_lightweight_scan": "2026-09-07T05:38:27Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,14 +9,16 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "2f2e1eeedb981d1ef5205eb204ec457aec41c1d7",
-      "current_scanned_commit": "2f2e1eeedb981d1ef5205eb204ec457aec41c1d7",
+      "previous_seen_commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
+      "current_scanned_commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
       "automation_generated_changes": [
         {
-          "commit": "2f2e1eeedb981d1ef5205eb204ec457aec41c1d7",
+          "commit": "135eea93a36b80c794527cfdf84bffe3410d4937",
           "paths": [
+            "ledgers/EQUATION_LEDGER.md",
+            "ledgers/DEPENDENCY_GRAPH.md",
             "checkpoints/CURRENT.md",
             "indexes/change-state.json"
           ]
@@ -49,14 +51,14 @@
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "SPHERES2QC.txt",
-    "blob_sha": "9e110e2c13d95a061d9521c84ae9e1755fffa3f4",
-    "coverage": "full traversal: human-readable lines 1-1953 and 2754-3255 read sequentially; embedded ZIP/NPZ lines 1954-2753 structurally inspected",
-    "next_cursor": "SPHERE4QC.txt line 1"
+    "path": "SPHERE4QC.txt",
+    "blob_sha": "b7f35e2e6740c75ad25e0072627451327f2d478a",
+    "coverage": "partial sequential read of decoded text lines 1-1300; later text unread and embedded ZIP/NPZ payloads index-only",
+    "next_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "SPHERES2QC.txt fully traversed with its binary payload index-only; all indexed PDFs remain unread.",
+    "content_reads": "SPHERE4QC.txt lines 1-1300 read sequentially; later text unread, embedded ZIP/NPZ payloads index-only, and all indexed PDFs unread.",
     "errors": []
   }
 }
