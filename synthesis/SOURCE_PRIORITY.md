@@ -5,11 +5,16 @@ polished presentation raises inspection priority but never promotes its
 mathematics. Chronology, source context, embedded user corrections, explicit
 dependencies, and reconstructibility remain controlling.
 
+`Satobloc/HsH/LIVE CONVOS` is the current live-development transcript snapshot
+by explicit user instruction. It is several turns behind the actual exchange,
+so it has highest chronological-development priority when present, while an
+omission from the snapshot has no negative evidentiary weight.
+
 ## Active cursor
 
-Finish `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt` from line 3001 before
-starting another long sequential read. Preserve the deferred cursors in
-`checkpoints/CURRENT.md`.
+`[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt` is complete through line 5599.
+Begin the SAT-O control and chronology pass specified in `checkpoints/CURRENT.md`.
+Preserve the other deferred cursors there.
 
 ## Priority lanes
 

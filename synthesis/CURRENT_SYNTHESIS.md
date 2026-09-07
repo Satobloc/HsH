@@ -44,6 +44,34 @@ physics, exclusion, finiteness, or mass selection remain `GEN/CANDIDATE` or
 **Status:** staged equation-selection protocol `SRC/ACTIVE`; every named
 mathematical import remains independently auditable before adoption.
 
+### Structural-sketch assessment
+
+`H(s)H STRUCTURAL SKETCH.txt` ultimately reinforces that protocol rather than
+supplying a completed theory. Its controlling user corrections stop the
+generated analysis from testing assumptions or declaring predicted results and
+redirect the work toward gathering standard mathematical tools that might be
+adapted to H(s)H. The eleven-sector sequence is therefore a `GEN/CANDIDATE`
+tool and hypothesis registry, not eleven established dependencies.
+
+The closing metric passage illustrates the distinction. It defines
+
+`P = delta - u tensor u`,
+
+and then defines
+
+`g_eff = P - c^2 u tensor u = delta - (1+c^2) u tensor u`.
+
+For unit `u`, this expression has one negative and three positive eigenvalues,
+but the negative radial term has been inserted into the definition of `g_eff`.
+The calculation verifies the signature of the stipulated bilinear form; it does
+not derive that form uniquely from a positive Euclidean tangent covariance,
+dual-shell expansion, or an operational clock map. Metric induction remains
+`OPEN`.
+
+Likewise, BV push-forward is a candidate coarse-graining formalism. Calling it
+both an integration over discarded ultraviolet variables and a lossless inverse
+history map is an unresolved conflict, not a supported readout theorem.
+
 ### Foundational control: what survives translation
 
 `FUNDAMENTAL INTUITIONS.txt` supplies the early structural seed of the present
@@ -201,6 +229,13 @@ morphology, exclusion mechanism, braid statistics, and background topology
 
 ## Source coverage
 
+- `Satobloc/HsH/LIVE CONVOS/Succinctness And Math Check — raw.json` is the
+  current live-development transcript snapshot by explicit user instruction.
+  It is known to lag the actual conversation by several turns. It therefore
+  controls recent intent and corrections when present, but absence from the
+  snapshot is not evidence that a newer idea was abandoned. It remains
+  index-only in this synthesis pass and showed no new repository commit.
+
 - `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob
   `68200d849152dcb0c4fc1814f8b1789d499ebca8`: lines 1–300 read sequentially;
   source incomplete, resume at line 301.
@@ -231,14 +266,17 @@ morphology, exclusion mechanism, braid statistics, and background topology
   generated proposal registry; embedded user corrections control its method and
   status assignments.
 - `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt`, blob
-  `64906501d01db12171d3a2e58dc4fd0140d2784d`: lines 1–3000 read
-  sequentially; partial, resume at line 3001. The covered range substantially
+  `64906501d01db12171d3a2e58dc4fd0140d2784d`: lines 1–5599 read fully and
+  sequentially. The source substantially
   overlaps the first-build conversation and includes generated assertions of
   complete ingestion and safe deletion that the visible evidence does not
   support. It also proposes particle-property mappings from misalignment,
   three-form current, holonomy, and braid topology; these remain unimported
-  generated leads pending completion and direct-source reconstruction. No
-  repeated claim was counted as independent support.
+  generated leads pending direct-source reconstruction. Later user corrections
+  restrict the task to gathering and selecting adaptable standard mathematics.
+  Its final Lorentzian-signature calculation verifies a stipulated negative
+  radial term rather than deriving that term. No repeated claim was counted as
+  independent support.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional

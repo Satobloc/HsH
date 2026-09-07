@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T14:40:44Z",
+  "last_lightweight_scan": "2026-09-07T15:35:38Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -10,10 +10,26 @@
   "repositories": {
     "Satobloc/HsH": {
       "previous_seen_commit": "ea228ad4ac4c33d02c2a4543a793fb1e58a7534c",
-      "current_scanned_commit": "ea228ad4ac4c33d02c2a4543a793fb1e58a7534c",
+      "current_scanned_commit": "a5d27e0f0984438e37529ce5f22acb4adf347037",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
-      "automation_generated_changes": []
+      "automation_generated_changes": [
+        {
+          "commit": "004d90e7414190584813c27bfa890f9f9f918861",
+          "paths": [
+            "checkpoints/CURRENT.md",
+            "indexes/change-state.json",
+            "synthesis/CURRENT_SYNTHESIS.md"
+          ]
+        },
+        {
+          "commit": "a5d27e0f0984438e37529ce5f22acb4adf347037",
+          "paths": [
+            "checkpoints/CURRENT.md",
+            "synthesis/SOURCE_PRIORITY.md"
+          ]
+        }
+      ]
     },
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
       "previous_seen_commit": "81509f68ab1ca613aa079ed3946b63928aa6f099",
@@ -44,14 +60,14 @@
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "path": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt",
     "blob_sha": "64906501d01db12171d3a2e58dc4fd0140d2784d",
-    "coverage": "partial sequential read, lines 1-3000 of 5599",
-    "next_source": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt line 3001",
+    "coverage": "full sequential read, lines 1-5599 of 5599",
+    "next_source": "SAT O Core Modules/..folder_summary.txt line 1",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-3000 of 5599 read sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
+    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-5599 read fully and sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; LIVE CONVOS path inspected structurally and unchanged but its conversation content was not read in this pass; SAT-O/4DHH priority paths remain index-only; extended Fundamental Intuitions PDF not content-read.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
@@ -78,7 +94,13 @@
       "mass",
       "charge",
       "spin",
-      "RMS"
+      "RMS",
+      "metric induction",
+      "ensemble co-metric",
+      "BV push-forward",
+      "lossless",
+      "standard physics toolkits",
+      "LIVE CONVOS"
     ],
     "errors": [
       "METHOD.txt was not present at the tested root path; rebuild-title search found attachment references but not a standalone current file.",
