@@ -33,6 +33,23 @@ empirical Minkowski elements
 - **Blocked next edge:** `intersection carrier -> framed finite tube`; v0.1 lines
   95–101 explicitly list Bishop-frame finite-tube lifting as future work.
 
+### EDGE-0002 — Prescribed shell deformation to evolving carrier
+
+- **From:** The conditional quadratic-shell family in `EQ-0002`.
+- **To:** A phase-indexed common carrier and its normal/tangent velocity
+  decomposition.
+- **Mathematical status:** `STD/DERIVED` for the determinant and regular
+  moving-constraint identities. The recorded continuation is numerical and lacks
+  a step-refinement study for its deformation-dependent scalar readouts.
+- **Framework status:** `SRC/CANDIDATE`. The deformation family is not selected
+  by an upstream H(s)H premise and is not a physical-time evolution law.
+- **Source-status conflict:** The source's `coordinate_rewrite` label is
+  `REJECTED`; the operation changes the constraint geometry rather than only its
+  coordinates.
+- **Graph role:** A benchmark/tool branch from configuration geometry, not a
+  replacement for the still-open `intersection carrier -> framed finite tube ->
+  transport and deformation` backbone.
+
 ## Earliest unsupported edge
 
 The graph presently stops before `configuration geometry`: the archive has not yet
