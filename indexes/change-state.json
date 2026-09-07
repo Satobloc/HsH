@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T20:50:27Z",
+  "last_lightweight_scan": "2026-09-07T21:00:00Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "9924ce7e45924f383036287a5781f183c935a14b",
-      "current_scanned_commit": "44832b26f5fd8bf338b7f61f301091ebe032e9fb",
+      "previous_seen_commit": "44832b26f5fd8bf338b7f61f301091ebe032e9fb",
+      "current_scanned_commit": "5b8789932d260d3c6e3a395010614fa632e7714d",
       "last_human_source_commit": "44832b26f5fd8bf338b7f61f301091ebe032e9fb",
       "human_source_changes": [
         {
@@ -32,8 +32,8 @@
       ]
     },
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
-      "previous_seen_commit": "ff0d960b375903df0a7ab7ca831d5dda34d0059c",
-      "current_scanned_commit": "ef5faaf1d2ec27996646c9143fcffe4432cf8cd9",
+      "previous_seen_commit": "ef5faaf1d2ec27996646c9143fcffe4432cf8cd9",
+      "current_scanned_commit": "ce47b3fa16cd28708fcec5202f2c117e91e6e225",
       "last_human_source_commit": "2c96263d838e6528d56c1e02a6c36d7b6caa34a5",
       "human_source_changes": [
         {
@@ -67,8 +67,8 @@
       ]
     },
     "Satobloc/HSH_RESOURCES": {
-      "previous_seen_commit": "49e3131d8e64ac913dbecfe2762c8a6a3ac3c901",
-      "current_scanned_commit": "175e73e51b2197475864f78b11e255b887e0e38b",
+      "previous_seen_commit": "175e73e51b2197475864f78b11e255b887e0e38b",
+      "current_scanned_commit": "9f79a66dfdc561e7cf83657cf9679d394006da03",
       "last_human_source_commit": "9e862c0d28cb04fc8882629c30536e83903feb13",
       "human_source_changes": [
         {
@@ -100,25 +100,37 @@
     }
   },
   "source_read_advance": {
-    "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "SAT O Derivations/CODE-LOCKED DERIVS.txt",
-    "blob_sha": "783b05d39d59bf854b92090e15d205e6823b51c8",
-    "coverage": "lines 1-448 read fully and sequentially",
-    "next_source": "SAT O Derivations/SAT_D2_MODE_EXPANSION.txt line 1",
+    "repository": "Satobloc/HSH_RESOURCES",
+    "path": "H(s)H_Toolkit/s00526-021-01980-0.pdf",
+    "source_sha256": "4dd0ffc84681a9cab0baa14555726764c1a2238d22b0534dc8cab16a69d3c09a",
+    "extracted_text_blob": "9c71741cb0ca1c782a04d251f5dddf3aeb730af2",
+    "coverage": "26 pages / extracted lines 1-1551 read fully and sequentially",
+    "next_source": "four-dimensional framed-curve, Cosserat-rod, or normal-bundle source from toolkit",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
-    "mode": "head comparison and complete commit-diff structural classification for all three repositories",
-    "content_reads": "CODE-LOCKED DERIVS.txt fully read. New HsH conversations, historical EARLY LOGGED tranche, and resource uploads remain structural/index-only.",
+    "mode": "complete recursive tree traversal for all three repositories plus bounded full reads",
+    "content_reads": "Hornung 2021 framed-curves paper fully read from extracted text; HsH IMPORTABLE EQUATION ROUNDUP and both toolkit manifests fully read as routing catalogs. New HsH conversations and EARLY LOGGED remain structural/index-only.",
     "search_terms": [
-      "D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8",
-      "mode", "commutator", "hbar", "Borromean", "linking",
-      "pi_1", "pi_2", "metric", "gauge coupling", "locked"
+      "framed curves",
+      "Cosserat",
+      "director",
+      "normal bundle",
+      "SO(3)",
+      "SO(4)",
+      "clamped boundary",
+      "closure",
+      "curvature",
+      "twist",
+      "GPE",
+      "holonomy",
+      "cobordism",
+      "graph Laplacian"
     ],
     "errors": [
-      "Citation markers in CODE-LOCKED DERIVS.txt are orphaned from identifiable bibliography entries.",
-      "Lean and SymPy checks remain NOT_RUN because those toolchains are unavailable in the runner."
+      "No extraction error for the selected paper. PDF equations contain some extraction glyph damage; conclusions were checked against surrounding definitions and theorem statements.",
+      "No toolkit label or historical check claim was treated as mathematical evidence."
     ]
   }
 }

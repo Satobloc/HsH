@@ -206,37 +206,18 @@ is a rope-mechanics/assembly-complexity hypothesis requiring calculation.
 morphology, exclusion mechanism, braid statistics, and background topology
 `OPEN/CANDIDATE`.
 
-## 7. SAT-O as a derivation-control ancestor
+## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
 four-dimensional differentiable manifold populated by one-dimensional
 filaments, with observable behavior attributed to their intersection with a
 propagating three-dimensional wavefront. That object choice is not the current
-finite-core H(s)H object and cannot be imported unchanged. Its reusable
-contribution is methodological: formal statements must be derived inline or
-linked to a standalone derivation, while assumptions, translations, legacy
-content, external mappings, and metaphors remain explicitly provisional.
+finite-core H(s)H object and cannot be imported unchanged. Its equations are treated as historical candidates to reconstruct, not as a
+validated package.
 
-The June 20 `SAT_Completion_Protocol_v1` turns that discipline into a proposed
-Producer -> Verifier -> Acceptor pipeline with content hashes, reverse
-invalidation of dependents, and separate Lean/Agda, SymPy, unit, dimensional,
-accuracy, and documentation gates. This is a useful ancestor of the present
-equation registry, but the protocol document does not establish that those
-checks were actually run. Its permitted-constant rule and its gauge, fermion,
-hadron, and lattice work packages belong to the older SAT-O architecture and
-must be independently reconsidered.
+Archive claims that a derivation was “locked,” checked, verified, or prepared for Lean are provenance notes only. They neither improve nor diminish the mathematics. The SAT-O equations are evaluated directly from their definitions, assumptions, algebra, dimensions, limits, and applicability to the current object; historical LLM commentary about their quality is excluded from the evidentiary chain.
 
-The supposed O9 audit baseline is incomplete: `SAT_000_Audit_Package.txt`
-explicitly replaces the module under review with “omitted for brevity.” It
-therefore supplies an audit checklist, not the equation context needed to
-validate the stated retardance calculation or numerical value. The separate
-`audit_results.txt` identifies real software-process failures—unstable context
-serialization, unsafe tracker writes, missing static checks, weak perturbation
-handling, and absent post-condition invariants—but does not audit the SAT-O
-equations themselves.
-
-The subsequently read `CODE-LOCKED DERIVS.txt` does not meet that process
-standard. It mixes imported textbook formalisms, SAT definitions, particle
+The subsequently read `CODE-LOCKED DERIVS.txt` mixes imported textbook formalisms, SAT definitions, particle
 assignments, and summary assertions without an executable lock record. One
 classical fragment survives after an explicit type repair: for a small
 transverse displacement `xi(s,t)` of a uniform filament with tension `T` and
@@ -258,11 +239,39 @@ times a squared length does not define a dimensionless gauge coupling. These
 failures stop downstream mass, metric, gauge, spinor, and unification claims
 before any H(s)H interpretation is considered.
 
-**Status:** derivation separation and invalidation discipline `SAT/HISTORICAL ->
-SAT/ACTIVE` as a process ancestor; the corrected classical dispersion
+**Status:** SAT-O is a `SAT/HISTORICAL` equation quarry; its process labels
+carry no evidentiary status. The corrected classical dispersion is
 `STD/DERIVED` in its declared model and registered as `EQ-0003`; SAT-O's
-one-dimensional ontology and named physics modules `SAT/HISTORICAL`, `OPEN`, or
-`QUARANTINED`; O9 audit result unsupported by the package inspected.
+one-dimensional ontology and named physics modules remain `SAT/HISTORICAL`,
+`OPEN`, or `QUARANTINED`; O9 audit result unsupported by the package inspected.
+
+## 8. First formalism selection: framed-curve mechanics
+
+The first fully read toolkit paper supports framed-curve/director variational
+mechanics as the strongest immediate candidate for the center-history,
+framing, closure, and deformation layer. In its declared domain,
+`gamma' = r^T e1`, `r' = A r`, and `A in so(3)` cleanly separate the
+arclength curve, moving orthonormal frame, and curvature/twist connection.
+Hornung's boundary map packages terminal frame and endpoint displacement, and
+his density theorem preserves clamped boundary conditions and selected
+curvature constraints under smooth approximation.
+
+This is standard, rigorous mathematics in `R3/SO(3)`; it is not yet an H(s)H
+worldtube theory. Adoption requires an explicit four-dimensional/normal-bundle
+extension, a selected cross-section and boundary, contact and resolving-
+intersection data, constitutive dynamics, and recovery of the curve limit.
+Helices enter the source as restrictive degenerate solutions under specified
+conditions, not as primitives.
+
+The uploaded importable-equation roundup is retained only as a routing catalog.
+Its declarations that GPE and holonomy are foundational are unsupported by a
+typed reduction. GPE remains a possible constitutive branch; holonomy a
+transport/readout tool after a connection is defined; cobordism a later global
+classification tool; graph Laplacians numerical/discrete machinery.
+
+**Status:** Hornung results `STD/DERIVED` in their declared domain; H(s)H use
+`STD/CANDIDATE`; roundup `GEN/CANDIDATE`. See
+`synthesis/FORMALISM_SELECTION.md`.
 
 ## Preserved conflicts and open edges
 
@@ -291,6 +300,15 @@ one-dimensional ontology and named physics modules `SAT/HISTORICAL`, `OPEN`, or
   is inherited from it.
 
 ## Source coverage
+
+- `H(s)H_Toolkit/s00526-021-01980-0.pdf` (Hornung 2021), source SHA-256
+  `4dd0ffc84681a9cab0baa14555726764c1a2238d22b0534dc8cab16a69d3c09a`;
+  extracted text blob `9c71741cb0ca1c782a04d251f5dddf3aeb730af2`, lines 1–1551 read fully.
+- `H(s)H_Toolkit/HsH IMPORTABLE EQUATION ROUNDUP.txt`, blob
+  `a39c9cc1c2c4f2793e6fda3ce994521a295d06f4`, all 264 lines read as a
+  generated routing catalog. Both toolkit manifests were read fully as
+  structural catalogs.
+
 
 - `Satobloc/HsH/LIVE CONVOS/Succinctness And Math Check — raw.json` is the
   current live-development transcript snapshot by explicit user instruction.
