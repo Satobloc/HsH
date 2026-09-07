@@ -1,25 +1,18 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T01:36:51Z",
+  "last_lightweight_scan": "2026-09-07T02:37:37Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
-    "Satobloc/HSH_RESOURCES": "2026-09-07T01:36:51Z"
+    "Satobloc/HSH_RESOURCES": "2026-09-07T02:37:37Z"
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "103c2b6ab76839676eb972c98941250407234f95",
-      "current_scanned_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
+      "previous_seen_commit": "1affda1c097c6350057bd8d30844eaad935cfc9c",
+      "current_scanned_commit": "1affda1c097c6350057bd8d30844eaad935cfc9c",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
-      "human_source_changes": [
-        {
-          "path": "LIVE CONVOS/Succinctness And Math Check — raw.json",
-          "status": "added",
-          "bytes": 2407268,
-          "git_blob_sha": "040270067f05b6fd762be357fce52cbad2a0edbe"
-        }
-      ],
+      "human_source_changes": [],
       "automation_generated_changes": []
     },
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
@@ -30,46 +23,49 @@
       "automation_generated_changes": []
     },
     "Satobloc/HSH_RESOURCES": {
-      "first_seen_human_commit": "a45dbaaa467f192c7667dc55cf12f16142134f20",
-      "current_commit_after_tooling": "9acc2a0f1542ed791532eb4343f75511f4671b1b",
-      "last_human_source_commit": "a45dbaaa467f192c7667dc55cf12f16142134f20",
+      "previous_indexed_source_commit": "eeb6545287beae0f2cea67bce792f0b12b076a13",
+      "current_indexed_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
+      "index_commit": "0c6652b774b3d823e48fb100c5e9be85dbb3680d",
+      "last_human_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
       "baseline": {
-        "files": 263,
-        "pdf_files": 256,
-        "bytes_known": 231620180,
-        "duplicate_content_groups": 24,
+        "indexed_files": 288,
+        "source_files": 282,
+        "pdf_files": 276,
+        "bytes_known": 383459328,
+        "duplicate_content_groups": 25,
         "github_tree_truncated": false
       },
-      "human_source_changes": "Initial complete structural baseline; item-level records are in Satobloc/HSH_RESOURCES/indexes/index-state.json.",
+      "human_source_changes": [
+        {
+          "status": "added",
+          "paths": [
+            "BIG PAPERS/qt2f18n5nk.pdf",
+            "BIG PAPERS/ssrn-7385521.pdf",
+            "BIG PAPERS/ssrn-7394178.pdf"
+          ]
+        }
+      ],
       "automation_generated_changes": [
         {
-          "commit": "9acc2a0f1542ed791532eb4343f75511f4671b1b",
+          "commit": "0c6652b774b3d823e48fb100c5e9be85dbb3680d",
           "paths": [
-            "README.md",
-            ".gitignore",
-            "requirements-tools.txt",
-            "tools/index_papers.py",
-            "tools/extract_papers.py",
-            "tests/test_tools.py",
-            "indexes/index-state.json",
-            "indexes/RESOURCE_INDEX.md"
+            "indexes/RESOURCE_INDEX.md",
+            "indexes/index-state.json"
           ]
         }
       ]
     }
   },
-  "recent_prior_event": {
+  "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "comparison": "4654584b3f44a2a1c7a04556acc9c3f388580c96..81509f68ab1ca613aa079ed3946b63928aa6f099",
-    "human_source_items": 94,
-    "generated_items": 3,
-    "note": "Historical visualization tranche; structurally recorded in the preceding scan."
+    "path": "SPHERECHECKQC.txt",
+    "blob_sha": "7ea46f7d3461061a3b5f51fa7ee58b926b8404f0",
+    "coverage": "full sequential read, lines 1-1217",
+    "next_cursor": "SPHERES2QC.txt line 1"
   },
   "coverage": {
-    "mode": "complete recursive structural traversal for HsH and HSH_RESOURCES; head comparison for SAT archive",
-    "content_reads": "No new source content read in this support pass.",
-    "skipped_or_inaccessible": "Binary PDFs and new conversation content were indexed but not semantically read.",
-    "continuation_cursor": "SAT_THEORY_ARCHIVE_2023-25/SPHERECHECKQC.txt line 1 remains the mathematical cursor."
-  },
-  "errors": []
+    "mode": "head comparison for HsH and SAT archive; complete recursive structural refresh for HSH_RESOURCES",
+    "content_reads": "SPHERECHECKQC.txt read fully. Newly indexed PDFs remain structural-only.",
+    "errors": []
+  }
 }
