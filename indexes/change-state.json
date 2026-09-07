@@ -24,7 +24,7 @@
     },
     "Satobloc/HSH_RESOURCES": {
       "previous_seen_commit": "7b5758af4da37f256572c8e0be70d2abd255f007",
-      "current_scan_commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
+      "current_scanned_commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
       "last_human_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
       "human_source_changes": [],
       "automation_generated_changes": [
