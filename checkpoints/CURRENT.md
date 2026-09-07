@@ -1,37 +1,32 @@
 # Current Reconstruction Checkpoint
 
-- **Completed source:** `SAT_THEORY_ARCHIVE_2023-25/[[SAT26 TOOLBOX]]/H(s)H
-  FIRST BUILD.txt`, blob `3e38d26c2bcec46f1a15e508b8794db6ba06bea6`, lines 1–4281
-  read fully and sequentially.
-- **Coverage:** Complete July 10, 2026 NotebookLM build conversation. The nominal
-  predecessor `SAT to H(s)H TRANSITION.txt` was also fully accessed and is a
-  zero-byte placeholder. Embedded user corrections control over generated
-  declarations in the first-build transcript.
-- **Synthesis advance:** Added the staged construction protocol: understand the
-  archive, identify/review/select equations sector by sector, and only then test
-  integration. Revised the UI/Whirligig account to preserve Minkowski plus
-  standard-physics mapping and leave the exact Whirligig operation open.
-- **Framework statement:** The current mathematical inventory is a hypothesis
-  registry, not a rough theory already assembled from named formalisms.
-- **Status changes:** The equation-selection and evaluation protocol is
-  `SRC/ACTIVE`. BEC/GPE, Navier–Stokes, BV/AKSZ, holonomy, Yamabe, ER/horizon,
-  and link-invariant assignments remain `GEN/CANDIDATE`, `OPEN`, or
-  `GEN/QUARANTINED` pending sector-specific derivation. No equation-ledger status
-  changed.
-- **Preserved conflicts:** The source alternates between declaring Euclidean
-  radial expansion and a BEC vacuum foundational and calling everything a
-  falsifiable hypothesis. The later user instruction controls: do not bake in
-  either architecture. Generated deletion advice and claims of proof,
-  inevitability, lossless projection, or mandatory gauge/metric recovery are
-  rejected as authority.
-- **Earliest unsupported edge:** The archive has not yet selected the exact
-  finite-core object or vacuum/background from the empirical Minkowski entry,
-  so no downstream heavy mathematical formalism has an earned domain.
+- **Current source:** `SAT_THEORY_ARCHIVE_2023-25/[[SAT26 TOOLBOX]]/H(s)H
+  STRUCTURAL SKETCH.txt`, blob `64906501d01db12171d3a2e58dc4fd0140d2784d`, lines
+  1–1500 read sequentially; resume at line 1501.
+- **Coverage:** Partial read of a 5,599-line NotebookLM conversation. The covered
+  range substantially overlaps `H(s)H FIRST BUILD.txt` and includes a source-
+  deletion episode; later portions remain unread.
+- **Synthesis advance:** Confirmed the controlling distinction between a tool-
+  suggested shell/3+3 conjecture and the alternative anisotropically expanding
+  four-dimensional model. Neither is promoted by repetition.
+- **Framework statement:** Even the favored ER-bridge/event-horizon fabric is a
+  candidate interpretation expressed through three-dimensional intuition, not
+  an earned finite-core definition.
+- **Status changes:** None. The covered range corroborates existing user
+  corrections but does not provide independent derivation or a complete-source
+  basis for promotion.
+- **Preserved conflicts:** Generated passages call the worldtube/ER architecture
+  “locked,” recommend deleting sources they did not demonstrate reading, and
+  assign definitive UI/Whirligig operations. Embedded user corrections demote
+  the shell, `Z3`, and 270-degree CP claims and require Minkowski plus standard-
+  physics mapping. These conflicts remain explicit pending the rest of the file.
+- **Earliest unsupported edge:** The exact finite-core object and background are
+  still not selected from the empirical Minkowski entry; the Whirligig's precise
+  operation also remains unrecovered from a direct source.
 - **Repository check:** No new human-source commit appeared. SAT Archive head is
   `81509f6`; HSH_RESOURCES remains at generated extraction commit `3678729`;
   HsH changes are synthesis automation.
-- **Next action:** Read `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt`
-  sequentially from line 1 and test whether it supplies a compact object/readout
-  architecture without promoting the first-build hypothesis registry.
+- **Next action:** Resume `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt` at line
+  1501 and continue sequentially before assigning the document a final role.
 - **Preserved cursors:** `H(s)H 2026 STARTUP DOCS.txt` line 301;
   `SPHERE4QC.txt` line 1301 (deferred backend audit).

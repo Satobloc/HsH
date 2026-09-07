@@ -230,6 +230,12 @@ morphology, exclusion mechanism, braid statistics, and background topology
   sequentially. This July 10, 2026 NotebookLM build conversation is mostly a
   generated proposal registry; embedded user corrections control its method and
   status assignments.
+- `[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt`, blob
+  `64906501d01db12171d3a2e58dc4fd0140d2784d`: lines 1–1500 read
+  sequentially; partial, resume at line 1501. The covered range substantially
+  overlaps the first-build conversation and includes generated assertions of
+  complete ingestion and safe deletion that the visible evidence does not
+  support. No repeated claim was counted as independent support.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional
