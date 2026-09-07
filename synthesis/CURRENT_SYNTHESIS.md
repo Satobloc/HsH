@@ -46,12 +46,18 @@ These remain `SAT/HISTORICAL`, `QUARANTINED`, or `OPEN` and cannot control H(s)H
 
 The older SAT baseline is described as a recursively nested, helical worldline
 grammar. The H(s)H transition is intended to replace worldline essentialism with
-an explicit finite-core/worldtube representation. This is not merely ‚Äúgive the
-helix a radius‚Äù: thickness, boundary/intersection behavior, framing and normal
+an explicit finite-core/worldtube representation. This is not merely "give the
+helix a radius": thickness, boundary/intersection behavior, framing and normal
 transport, deformation, contact, resolving-structure intersection, and
 coarse-graining become explicit modeling questions.
 
-The prior worlline construction must be recoverable as a declared limit if the
+The transition is not justified by claiming that a mathematical line is unable
+to carry information. In the current correction, the ER-bridge/ideal-filament
+candidate removes the need for a centerline to encode the whole object solely
+through its own elaboration. The finite-core lift must therefore be motivated by
+the geometry and readouts it adds, not by an information-capacity assertion.
+
+The prior worldline construction must be recoverable as a declared limit if the
 worldtube theory is to count as an extension rather than a replacement.
 
 **Status:** transition program `SRC/ACTIVE`; exact thick object and limiting map
@@ -60,9 +66,56 @@ worldtube theory is to count as an extension rather than a replacement.
 ## 3. Type boundary
 
 Current source material explicitly warns against sliding among a centerline, a
-tube surface, a rope-like material tube, a full metric tubular neighborhood, itsõ›[ô\ûK[ô]»[ù\úŸX›[€à⁄]Hô\€€ö[ô»›ùX›\ôKàÿ[ôY]H\]X][€ú¬õ]\›X€\ôHHÿöôX›[ô[Y[ú⁄[€ò[\H€à⁄X⁄^HX›ÇÇääî›]\Œääà\H\ÿ⁄\[ôH‘êÀ–P’UëX»HŸ[X›Y
- RÿöôX›\Hô[XZ[ú¬ò‘Sò[àH‹ù[€àôXYÇÇà»»àô\ô\Ÿ[ù][€àõ›[ô\ûBÇí
- R\»ôX]Y\ôH\»H\ò[Y]ö^ò][€à‹àô\ô\Ÿ[ù][€àŸàH[Ÿ[Yôö[ö]KX€‹ôH\›‹ûKõ›\»H\›‹ûH]Ÿ[à[ôõ›\»H€Z[HXõ›]úôX[]KZ[ãZ]Ÿ[ãàHô\Ÿ[ù\[ô[òﬁH‹ô\àô[XZ[úŒÇÇò[\\öXÿ[Z[ö€›‹⁄⁄H[[Y[ù»OàòYX[’RH€€ú›ùX›[€àOàö[ö]KX€‹ôH\›‹ûBãOà
- R\ò[Y]ö^ò][€àOàô\€€ö[ôÀ‹ôXY›]OàYõ‹õX][€à[ôô\›Yõ[‹ú€ŸﬁHOà[ù\òúòZY—[X›õŸ‹ò]ö]HOà[ö\ö]YY€XZ[àôXY›]ÿÇì€õHH[ùûHY]Ÿ[ôH€‹õ[ôK]ÀYö[ö]KX€‹ôHò[ú⁄][€à\ôH›\‹ùYòûHH›\úô[ùõ›[ôY€›\òŸHôXYà]\àõŸ\»ô[XZ[àXY[ô‹»]ÿZ][ô»\ôX›ú€›\òŸHôX€›ô\ûKÇÇà»»ô\Ÿ\ùôY€€ôõX›»[ô‹[àYŸ\¬ÇãHH\ò⁄]ôHô\‹ù»\ŸYù[€‹õ[ôHô\›[»ù][€»ÿ^\»^H\ôHÿÿ]\ôY¬àõ»€€\]H8†'ô\›[Ÿ∏†'Hò\Ÿ[[ôH\»Y]ôY[àôX€€ú›ùX›YÇãHH›\ùôH[àõ›\à[Y[ú⁄[€ú»\»HôYKY[Y[ú⁄[€ò[õ‹õX[‹XŸK⁄[HBàõ‹K[ZŸHÿöôX›⁄]H€ÀY[Y[ú⁄[€ò[‹õ‹‹À\ŸX›[€à\»HYôô\ô[ù⁄⁄XŸKÇàH€›\òŸHŸ\»õ›Y]⁄€‹ŸHô]ŸY[à[KÇãHH›\úô[ùôXYŸ\»õ›\ö]ôHHö[ö]KX€‹ôHÿöôX›úõ€HH[\\öXÿ[àZ[ö€›‹⁄⁄K‹òYX[’RH[ùûH^Y\ãÇãHHôYK\‹\ôHÿ\úöY\à[ôô\ÿ‹öXôYYõ‹õX][€àô[XZ[àô\öYöYY\›à€€ú›ùX›[€úÀõ›\›ôX[K\Ÿ[X›Y
- Rô[Z\Ÿ\ÀÇÇà»»€›\òŸH€›ô\òYŸBÇãHÿ]ÿõÿÀ‘–U’S‘ñW–Tê“UëWÃååÀLçK“
- Råçà’TïT–‘ÀùõÿÇàéåLMLôÿåÕòÃNMéåMŒYNYXòÿN[ô\»x†$ÃÃôXYŸ\]Y[ùX[N¬à€›\òŸH[ò€€\]Kô\›[YH][ôHÃKÇãH‘TëMPÀùô[XZ[ú»[Xô\ò][HYô\úôY][ôHLÃH⁄[H€€òŸ\X[àﬁ[ù\⁄\»ZŸ\»ö[‹ö]KÇãH€\à€€ùô\úÿ][€úÀ—ïSëSQSïSSïRUS”îÀùõÿÇà
+tube surface, a rope-like material tube, a full metric tubular neighborhood, its
+boundary, and its intersection with a resolving structure. Candidate equations
+must declare the object and dimensional type on which they act.
+
+**Status:** type discipline `SRC/ACTIVE`; the selected H(s)H object type remains
+`OPEN` in the portion read.
+
+## 4. Representation boundary
+
+H(s)H is treated here as a parametrization or representation of a modeled
+finite-core history, not as the history itself and not as a claim about
+reality-in-itself. The present dependency order remains:
+
+`empirical Minkowski elements -> radial/UI construction -> finite-core history
+-> H(s)H parametrization -> resolving/readout -> deformation and nested
+morphology -> Interbraid/Electrogravity -> inherited-domain readouts`
+
+Only the entry method and the worldline-to-finite-core transition are supported
+by the current bounded source read. Later nodes remain headings awaiting direct
+source recovery.
+
+## Preserved conflicts and open edges
+
+- The archive reports useful worldline results but also says they are scattered;
+  no complete ‚Äúbest-of‚Äù baseline has yet been reconstructed.
+- A curve in four dimensions has a three-dimensional normal space, while a
+  rope-like object with a two-dimensional cross-section is a different choice.
+  The source does not yet choose between them.
+- The current read does not derive the finite-core object from the empirical
+  Minkowski/radial/UI entry layer.
+- The three-sphere carrier and prescribed deformation remain verified test
+  constructions, not upstream-selected H(s)H premises.
+
+## Source coverage
+
+- `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob
+  `68200d849152dcb0c4fc1814f8b1789d499ebca8`: lines 1‚Äì300 read sequentially;
+  source incomplete, resume at line 301.
+- `SPHERE4QC.txt` remains deliberately deferred at line 1301 while conceptual
+  synthesis takes priority.
+- `Older Conversations/FUNDAMENTAL INTUITIONS.txt`, blob
+  `81ae23a106939cba7e3d134ed5c90a7d7a979a25`: read fully. The same blob also
+  occurs at `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` and was not counted as
+  independent support.
+- `[[SAT26 TOOLBOX]]` (9 files) and `H(s)H Dev +` (12 paths, including one
+  duplicate-content pair) were traversed structurally. Their contents remain
+  unread except `SAT26 THOUGHTS ROUNDUP.txt`, which was read fully but classified
+  as a generated claim catalog/quarry rather than controlling synthesis.
+
+Primary missed-context risk: later user corrections in the startup conversation
+and the unread current-development files may narrow or displace the provisional
+statements above. The extended Fundamental Intuitions PDF was located but not
+content-read; the accessible plain-text source is the coverage basis here.
