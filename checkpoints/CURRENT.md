@@ -1,38 +1,30 @@
 # Current Reconstruction Checkpoint
 
-- **Completed source:**
-  `SAT_THEORY_ARCHIVE_2023-25/Older Conversations/FUNDAMENTAL INTUITIONS.txt`,
-  blob `81ae23a106939cba7e3d134ed5c90a7d7a979a25`, read fully. Its duplicate at
-  `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` was identified structurally.
-- **Coverage:** The two user-prioritized directories were completely traversed
-  structurally: `[[SAT26 TOOLBOX]]` has 9 files; `H(s)H Dev +` has 12 paths and
-  one duplicate-content pair. Contents are otherwise unread, except the generated
-  `SAT26 THOUGHTS ROUNDUP.txt`, read fully as a claim catalog only. The extended
-  Fundamental Intuitions PDF is located but not content-read.
-- **Synthesis advance:** Added the foundational control to
-  `synthesis/CURRENT_SYNTHESIS.md`: modeled filament/worldline history, moving
-  resolving surface, local intersectional readout, interaction/backreaction,
-  and inherited-physics benchmark discipline survive translation into H(s)H.
-- **Framework statement:** Early time-surface/filament backreaction is a precursor
-  of the Electrogravity question; braid/direct-filament structure is a precursor
-  of Interbraid. Genealogy does not by itself derive the current two-force split.
-- **Status changes:** The translated structural core is
-  `SAT/HISTORICAL -> SAT/ACTIVE`. Ontic realism, lattice vacuum, raw `theta_4`
-  mass mapping, future-to-past tension, and constant mappings remain historical,
-  quarantined, or open. No equation-ledger status changed.
-- **Preserved conflict:** The foundational document speaks literally and
-  physically about its objects; current RMS/H(s)H controls permit only
-  representational use. The useful geometry is retained without importing the
-  early ontology. The finite-core transition is not justified by claiming that
-  a line cannot carry information: the ER-bridge/ideal-filament correction
-  removes the need for the centerline to encode the whole object solely through
-  its own elaboration.
-- **Earliest unsupported edge:** No source-grounded derivation yet selects the
-  finite-core H(s)H object from the empirical Minkowski/radial/UI entry layer.
-- **Repository check:** No new human-source commit appeared. HsH changes are
-  synthesis automation; the HSH_RESOURCES head change is the successful generated
-  PDF-extraction commit.
-- **Next action:** Read `H(s)H Dev +/H(s)H REWORK.txt` fully as the shortest
-  current-development bridge, then compare it with the retained foundational core.
+- **Completed source:** `SAT_THEORY_ARCHIVE_2023-25/H(s)H Dev +/H(s)H
+  REWORK.txt`, blob `bb44ca943f9aa1d8a398239281a1c2c4b7827f21`, lines 1 through
+  end read fully and sequentially.
+- **Coverage:** Complete human-readable conversation. It is a July 5, 2026
+  NotebookLM/ChatGPT working exchange containing user/coordinator corrections.
+- **Synthesis advance:** Added the effective-dynamics bridge: radialized UI/SO(4)
+  kinematics -> finite-core ensemble -> resolving hypersurface -> coarse-grained
+  action -> principal symbol -> light-cone/metric readout -> benchmark comparison.
+- **Framework statement:** The smallest active scaffold separates shell time
+  `tau` from arclength `s` and includes kinetic, first-gradient tension,
+  second-gradient bending, local potential, and pair-interaction sectors.
+- **Status changes:** The stack and minimal-action program are `SRC/ACTIVE`.
+  Coefficients remain `CONSTITUTIVE UNKNOWN`; Lorentzian emergence is `OPEN`.
+  No equation-ledger status changed.
+- **Preserved conflicts:** Earlier claims that the lattice, Z3 gate, fixed B,
+  lossless BV, or a positive ensemble tensor already supplies Lorentzian geometry
+  are displaced by later corrections. Setting `K/M = c^2` is calibration, not
+  emergence. Notebook-generated term-provenance claims remain unverified leads.
+- **Earliest unsupported edge:** The precise finite-core object is still not
+  selected from the Minkowski/radial/UI layer. Downstream, no equilibrium
+  calculation yet derives `M`, `K`, `B`, or `M0^2` or proves `K/M = c^2`.
+- **Repository check:** No new human-source commit appeared. SAT Archive head is
+  `81509f6`; HSH_RESOURCES remains at generated extraction commit `3678729`;
+  HsH changes are synthesis automation.
+- **Next action:** Read `H(s)H Dev +/HsH ARCHITECTING.txt` sequentially from line
+  1 to recover the current object and architecture vocabulary.
 - **Preserved cursors:** `H(s)H 2026 STARTUP DOCS.txt` line 301;
   `SPHERE4QC.txt` line 1301 (deferred backend audit).

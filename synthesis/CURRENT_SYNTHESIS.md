@@ -83,9 +83,37 @@ reality-in-itself. The present dependency order remains:
 -> H(s)H parametrization -> resolving/readout -> deformation and nested
 morphology -> Interbraid/Electrogravity -> inherited-domain readouts`
 
-Only the entry method and the worldline-to-finite-core transition are supported
-by the current bounded source read. Later nodes remain headings awaiting direct
-source recovery.
+The entry method and worldline-to-finite-core transition are supported by the
+bounded source read. The effective-dynamics bridge below is now supported as an
+active scaffold; its coefficients and its claimed metric output are not derived.
+
+## 5. Effective-dynamics bridge to metric/readout
+
+`H(s)H REWORK.txt` supplies a corrected dependency stack:
+
+`radialized UI/SO(4) kinematics -> finite-core worldtube/filament ensemble ->
+resolving hypersurface -> coarse-grained effective action -> principal symbol ->
+light-cone/metric readout -> standard-physics comparison`.
+
+It separates observer/shell time `tau` from filament arclength `s` and proposes
+the minimal elastic scaffold
+
+`S = integral [mu0/2 |d_tau X|^2 - T0/2 |d_s X|^2 - kappa/2
+|d_s^2 X|^2 - U(X)] - pair interactions`,
+
+whose quadratic Fourier operator has the candidate form
+
+`D(omega,k) = -omega^2 M + k^2 K + k^4 B + M0^2`.
+
+This does not earn a Lorentzian cone. `K/M = c^2` is a condition to test, not a
+permitted calibration. A positive-semidefinite ensemble tensor cannot acquire
+Lorentzian signature merely by inversion; the clock map and principal symbol
+must do the work. BV/AKSZ is deferred and BV push-forward is treated as
+coarse-graining unless restricted injectivity is derived.
+
+**Status:** dependency stack and minimal-action program `SRC/ACTIVE`; action
+coefficients `CONSTITUTIVE UNKNOWN` until exact-source provenance and units are
+verified; Lorentzian emergence and metric recovery `OPEN`.
 
 ## Preserved conflicts and open edges
 
@@ -96,6 +124,8 @@ source recovery.
   The source does not yet choose between them.
 - The current read does not derive the finite-core object from the empirical
   Minkowski/radial/UI entry layer.
+- The source does not yet derive `M`, `K`, `B`, or `M0^2` from a specified
+  equilibrium ensemble, nor establish `K/M = c^2`.
 - The three-sphere carrier and prescribed deformation remain verified test
   constructions, not upstream-selected H(s)H premises.
 
@@ -111,9 +141,12 @@ source recovery.
   occurs at `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` and was not counted as
   independent support.
 - `[[SAT26 TOOLBOX]]` (9 files) and `H(s)H Dev +` (12 paths, including one
-  duplicate-content pair) were traversed structurally. Their contents remain
-  unread except `SAT26 THOUGHTS ROUNDUP.txt`, which was read fully but classified
-  as a generated claim catalog/quarry rather than controlling synthesis.
+  duplicate-content pair) were traversed structurally. `SAT26 THOUGHTS
+  ROUNDUP.txt` was read fully but classified as a generated claim catalog/quarry.
+- `H(s)H Dev +/H(s)H REWORK.txt`, blob
+  `bb44ca943f9aa1d8a398239281a1c2c4b7827f21`: lines 1 through end read fully
+  and sequentially. It is a July 5, 2026 multi-agent working conversation; later
+  user/coordinator corrections control over earlier generated assertions.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional
