@@ -269,9 +269,35 @@ typed reduction. GPE remains a possible constitutive branch; holonomy a
 transport/readout tool after a connection is defined; cobordism a later global
 classification tool; graph Laplacians numerical/discrete machinery.
 
-**Status:** Hornung results `STD/DERIVED` in their declared domain; H(s)H use
-`STD/CANDIDATE`; roundup `GEN/CANDIDATE`. See
-`synthesis/FORMALISM_SELECTION.md`.
+The minimal four-dimensional kinematic extension is now explicit. For an
+adapted frame \(F=(T,N_1,N_2,N_3)\in SO(4)\),
+
+\[
+\Omega=F^TF'=
+\begin{pmatrix}
+0&-\kappa^T\\
+\kappa&\omega
+\end{pmatrix},
+\qquad \kappa\in\mathbb R^3,\quad\omega\in\mathfrak{so}(3).
+\]
+
+The three components of \(\kappa\) bend the center-history; the three components
+of \(\omega\) rotate its normal frame. Under \(N\mapsto NR(s)\),
+\(\widetilde\omega=R^T\omega R+R^TR'\). Thus \(\omega\) can be removed locally
+on an interval by a parallel frame, while a closed curve may retain normal
+holonomy. A twist observable requires labeled material directions or
+cross-sectional anisotropy; it cannot be inferred from frame rotation alone.
+
+This exposes the next object decision. A full sufficiently small tube around a curve in
+four-dimensional ambient space has a three-dimensional normal-ball
+cross-section and \(S^2\) boundary fibers. A rope-like disk cross-section
+selects a rank-two subbundle. These are not interchangeable.
+
+**Status:** Hornung results **STD/DERIVED** in their declared domain; the
+\(SO(4)\) moving-frame kinematics **STD/DERIVED**; material-frame interpretation
+and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
+**GEN/CANDIDATE**. See \`synthesis/FORMALISM_SELECTION.md\` and
+\`synthesis/R4_FRAMED_CURVE_KINEMATICS.md\`.
 
 ## Preserved conflicts and open edges
 

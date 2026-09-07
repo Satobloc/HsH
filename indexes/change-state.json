@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T21:00:00Z",
+  "last_lightweight_scan": "2026-09-07T21:35:24Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -104,33 +104,29 @@
     "path": "H(s)H_Toolkit/s00526-021-01980-0.pdf",
     "source_sha256": "4dd0ffc84681a9cab0baa14555726764c1a2238d22b0534dc8cab16a69d3c09a",
     "extracted_text_blob": "9c71741cb0ca1c782a04d251f5dddf3aeb730af2",
-    "coverage": "26 pages / extracted lines 1-1551 read fully and sequentially",
-    "next_source": "four-dimensional framed-curve, Cosserat-rod, or normal-bundle source from toolkit",
+    "coverage": "full paper remains read; higher-dimensional extension statement revisited near extracted line 455; 314 toolkit records searched by metadata/title",
+    "next_source": "current H(s)H and EARLY LOGGED sources bearing on B3 versus rank-two finite-core cross-section",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
-    "mode": "complete recursive tree traversal for all three repositories plus bounded full reads",
-    "content_reads": "Hornung 2021 framed-curves paper fully read from extracted text; HsH IMPORTABLE EQUATION ROUNDUP and both toolkit manifests fully read as routing catalogs. New HsH conversations and EARLY LOGGED remain structural/index-only.",
+    "mode": "unchanged-head check across all three repositories; full prior paper read plus complete toolkit metadata/title search",
+    "content_reads": "Hornung 2021 remains fully read. Its higher-dimensional extension statement was revisited. Candidate metadata/title hits were inspected; no dedicated 4D framed-curve paper was identified. SO(4) kinematics were derived directly from frame orthonormality.",
     "search_terms": [
-      "framed curves",
-      "Cosserat",
-      "director",
+      "four-dimensional framed curve",
+      "higher-dimensional rod",
       "normal bundle",
-      "SO(3)",
       "SO(4)",
-      "clamped boundary",
-      "closure",
-      "curvature",
-      "twist",
-      "GPE",
-      "holonomy",
-      "cobordism",
-      "graph Laplacian"
+      "SO(n)",
+      "Bishop",
+      "Frenet",
+      "Cosserat",
+      "curve",
+      "hyperspherical"
     ],
     "errors": [
-      "No extraction error for the selected paper. PDF equations contain some extraction glyph damage; conclusions were checked against surrounding definitions and theorem statements.",
-      "No toolkit label or historical check claim was treated as mathematical evidence."
+      "No new repository changes.",
+      "Toolkit absence result is limited to metadata/title search; generically named papers were not all content-searched."
     ]
   }
 }
