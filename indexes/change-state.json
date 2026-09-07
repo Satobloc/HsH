@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T13:41:25Z",
+  "last_lightweight_scan": "2026-09-07T14:40:44Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "7c0e77bee79af844d92bbcc7c4c0945f2f0d593b",
-      "current_scanned_commit": "7c0e77bee79af844d92bbcc7c4c0945f2f0d593b",
+      "previous_seen_commit": "ea228ad4ac4c33d02c2a4543a793fb1e58a7534c",
+      "current_scanned_commit": "ea228ad4ac4c33d02c2a4543a793fb1e58a7534c",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
       "automation_generated_changes": []
@@ -44,14 +44,14 @@
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "path": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt",
     "blob_sha": "64906501d01db12171d3a2e58dc4fd0140d2784d",
-    "coverage": "partial sequential read, lines 1-1500 of 5599",
-    "next_source": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt line 1501",
+    "coverage": "partial sequential read, lines 1-3000 of 5599",
+    "next_source": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt line 3001",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-1500 of 5599 read sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
+    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-3000 of 5599 read sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
@@ -73,7 +73,12 @@
       "shell",
       "ER bridge",
       "Whirligig",
-      "purge"
+      "purge",
+      "particle properties",
+      "mass",
+      "charge",
+      "spin",
+      "RMS"
     ],
     "errors": [
       "METHOD.txt was not present at the tested root path; rebuild-title search found attachment references but not a standalone current file.",
