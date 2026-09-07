@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T16:06:20Z",
+  "last_lightweight_scan": "2026-09-07T16:40:07Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "a5d27e0f0984438e37529ce5f22acb4adf347037",
-      "current_scanned_commit": "5136e1516f77a81afd436026a3bd61f02939f404",
+      "previous_seen_commit": "5136e1516f77a81afd436026a3bd61f02939f404",
+      "current_scanned_commit": "45765be85d9e5ac0e342303103363b32c446da1c",
       "last_human_source_commit": "5eebd7a2d5210928ce8744df42aacd98efdf2e3c",
       "human_source_changes": [
         {
@@ -51,21 +51,70 @@
             "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/* (23 content-preserving filename normalizations)",
             "logs/date-prefix/20260907T160900Z__DEVELOPMENT_FULL_CONVOS__SAT_CONVOS_1.json"
           ]
+        },
+        {
+          "commit": "45765be85d9e5ac0e342303103363b32c446da1c",
+          "paths": [
+            "formalization/",
+            "generated/equations/",
+            "generated/lean/",
+            "tools/equation_pipeline.py",
+            "tests/test_equation_pipeline.py",
+            "README.md",
+            "ARCHITECTURE.md",
+            "checkpoints/CURRENT.md",
+            "indexes/change-state.json"
+          ]
         }
       ]
     },
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
       "previous_seen_commit": "81509f68ab1ca613aa079ed3946b63928aa6f099",
-      "current_scanned_commit": "81509f68ab1ca613aa079ed3946b63928aa6f099",
-      "last_human_source_commit": "41b8fc7980bcb9cfc61e7638a2d2f324e6fa6ac3",
-      "human_source_changes": [],
-      "automation_generated_changes": []
+      "current_scanned_commit": "ff0d960b375903df0a7ab7ca831d5dda34d0059c",
+      "last_human_source_commit": "93eb169912483db402c2d1c35fb59a40d0852b6f",
+      "human_source_changes": [
+        {
+          "commit": "93eb169912483db402c2d1c35fb59a40d0852b6f",
+          "paths": [
+            "26R COMPUTATIONAL SYSTEMS.txt",
+            "26R QUINTATION Quick Pass Analysis — raw.txt",
+            "26R README_INSTALL_SAT_STACK.txt",
+            "26R SAT MAY 2025.txt",
+            "26R Worldline Topos.txt"
+          ],
+          "coverage": "complete structural index only; content unread"
+        }
+      ],
+      "automation_generated_changes": [
+        {
+          "commit": "ff0d960b375903df0a7ab7ca831d5dda34d0059c",
+          "paths": [
+            ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260907_161928.txt",
+            ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt"
+          ],
+          "result": "completed; no tasks parsed"
+        }
+      ]
     },
     "Satobloc/HSH_RESOURCES": {
       "previous_seen_commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
-      "current_scanned_commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
-      "last_human_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
-      "human_source_changes": [],
+      "current_scanned_commit": "49e3131d8e64ac913dbecfe2762c8a6a3ac3c901",
+      "last_human_source_commit": "49e3131d8e64ac913dbecfe2762c8a6a3ac3c901",
+      "human_source_changes": [
+        {
+          "commit_range": "1703b2a9f0c97fb4df7c99d20592f99f33bcbf25..49e3131d8e64ac913dbecfe2762c8a6a3ac3c901",
+          "net_added_pdf_count": 161,
+          "paths": {
+            "OUTSIDE RESEARCH LIBRARY": 1,
+            "OUTSIDE RESEARCH LIBRARY/BACKREACTION": 34,
+            "OUTSIDE RESEARCH LIBRARY/BLACK HOLES+": 34,
+            "OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH": 46,
+            "OUTSIDE RESEARCH LIBRARY/HUBBLE": 42,
+            "OUTSIDE RESEARCH LIBRARY/MISC": 4
+          },
+          "coverage": "complete commit-diff structural index; scientific content unread"
+        }
+      ],
       "automation_generated_changes": [
         {
           "commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
@@ -75,22 +124,32 @@
             "indexes/RESOURCE_INDEX.md",
             "indexes/index-state.json"
           ]
+        },
+        {
+          "commit_range": "052c6926369ba119f0befc186c8318d7ba844d1d..49e3131d8e64ac913dbecfe2762c8a6a3ac3c901",
+          "paths": [
+            "derived/manifests/extraction.jsonl",
+            "derived/text/",
+            "indexes/RESOURCE_INDEX.md",
+            "indexes/index-state.json"
+          ],
+          "classification": "interleaved generated extraction/index runs"
         }
       ]
     }
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "[[SAT26 TOOLBOX]]/H(s)H STRUCTURAL SKETCH.txt",
-    "blob_sha": "64906501d01db12171d3a2e58dc4fd0140d2784d",
-    "coverage": "full sequential read, lines 1-5599 of 5599",
-    "next_source": "SAT O Core Modules/..folder_summary.txt line 1",
+    "path": "SAT O Core Modules/SAT.O Official Directives.txt and linked SAT O Derivations process files",
+    "blob_sha": "167136310cdf33ca8f986f33634692314c1a0946",
+    "coverage": "six named control/process files read fully and sequentially",
+    "next_source": "SAT O Derivations/CODE-LOCKED DERIVS.txt line 1",
     "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H STRUCTURAL SKETCH.txt lines 1-5599 read fully and sequentially; H(s)H FIRST BUILD.txt, HsH ARCHITECTING.txt, H(s)H REWORK.txt, and FUNDAMENTAL INTUITIONS.txt read fully; SAT to H(s)H TRANSITION.txt fully accessed and zero bytes; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; LIVE CONVOS JSON structurally parsed and terminal 25-message slice inspected after upload, but its full 656-message content was not reread; eight small SAT-O/4DHH equation-control files were read fully for formalization design; larger equation dumps remain index-only; extended Fundamental Intuitions PDF not content-read.",
+    "content_reads": "SAT O Core Modules/..folder_summary.txt, SAT.O Official Directives.txt, SAT O Derivations/..folder_summary.txt, SAT_000_Audit_Package.txt, SAT_Completion_Protocol_v1.txt, and audit_results.txt read fully and sequentially. Earlier recorded H(s)H synthesis sources retain their stated coverage. CODE-LOCKED DERIVS.txt and SAT-O modules remain index-only; five new 26R archive texts and 161 newly added resource PDFs are structural/index-only.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
@@ -123,7 +182,12 @@
       "BV push-forward",
       "lossless",
       "standard physics toolkits",
-      "LIVE CONVOS"
+      "LIVE CONVOS",
+      "SAT.O Official Directives",
+      "Producer Verifier Acceptor",
+      "reverse cascade",
+      "SAT_000_Audit_Package",
+      "CODE-LOCKED DERIVS"
     ],
     "errors": [
       "METHOD.txt was not present at the tested root path; rebuild-title search found attachment references but not a standalone current file.",

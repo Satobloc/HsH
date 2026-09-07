@@ -206,6 +206,40 @@ is a rope-mechanics/assembly-complexity hypothesis requiring calculation.
 morphology, exclusion mechanism, braid statistics, and background topology
 `OPEN/CANDIDATE`.
 
+## 7. SAT-O as a derivation-control ancestor
+
+The July 2025 `SAT.O Official Directives` defines an older model on a
+four-dimensional differentiable manifold populated by one-dimensional
+filaments, with observable behavior attributed to their intersection with a
+propagating three-dimensional wavefront. That object choice is not the current
+finite-core H(s)H object and cannot be imported unchanged. Its reusable
+contribution is methodological: formal statements must be derived inline or
+linked to a standalone derivation, while assumptions, translations, legacy
+content, external mappings, and metaphors remain explicitly provisional.
+
+The June 20 `SAT_Completion_Protocol_v1` turns that discipline into a proposed
+Producer -> Verifier -> Acceptor pipeline with content hashes, reverse
+invalidation of dependents, and separate Lean/Agda, SymPy, unit, dimensional,
+accuracy, and documentation gates. This is a useful ancestor of the present
+equation registry, but the protocol document does not establish that those
+checks were actually run. Its permitted-constant rule and its gauge, fermion,
+hadron, and lattice work packages belong to the older SAT-O architecture and
+must be independently reconsidered.
+
+The supposed O9 audit baseline is incomplete: `SAT_000_Audit_Package.txt`
+explicitly replaces the module under review with “omitted for brevity.” It
+therefore supplies an audit checklist, not the equation context needed to
+validate the stated retardance calculation or numerical value. The separate
+`audit_results.txt` identifies real software-process failures—unstable context
+serialization, unsafe tracker writes, missing static checks, weak perturbation
+handling, and absent post-condition invariants—but does not audit the SAT-O
+equations themselves.
+
+**Status:** derivation separation and invalidation discipline `SAT/HISTORICAL ->
+SAT/ACTIVE` as a process ancestor; SAT-O's one-dimensional ontology and named
+physics modules `SAT/HISTORICAL` or `OPEN`; O9 audit result unsupported by the
+package inspected.
+
 ## Preserved conflicts and open edges
 
 - The archive reports useful worldline results but also says they are scattered;
@@ -226,6 +260,8 @@ morphology, exclusion mechanism, braid statistics, and background topology
 - The toolbox source repeatedly proposes BEC/GPE, Navier–Stokes, BV/AKSZ,
   holonomy, Yamabe, and link-polynomial machinery, but does not derive why each
   is required or show that their domains and variables form a compatible stack.
+- SAT-O's formal gating design is stronger than its surviving audit evidence:
+  the inspected O9 package omits the module it instructs the reader to audit.
 
 ## Source coverage
 
@@ -233,8 +269,9 @@ morphology, exclusion mechanism, braid statistics, and background topology
   current live-development transcript snapshot by explicit user instruction.
   It is known to lag the actual conversation by several turns. It therefore
   controls recent intent and corrections when present, but absence from the
-  snapshot is not evidence that a newer idea was abandoned. It remains
-  index-only in this synthesis pass and showed no new repository commit.
+  snapshot is not evidence that a newer idea was abandoned. Its JSON structure
+  and terminal 25-message slice were inspected after the latest upload; the
+  full 656-message conversation has not been reread.
 
 - `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob
   `68200d849152dcb0c4fc1814f8b1789d499ebca8`: lines 1–300 read sequentially;
@@ -277,6 +314,18 @@ morphology, exclusion mechanism, braid statistics, and background topology
   Its final Lorentzian-signature calculation verifies a stipulated negative
   radial term rather than deriving that term. No repeated claim was counted as
   independent support.
+- `SAT O Core Modules/..folder_summary.txt`, blob
+  `ab4f56838848ed4a58eed69d1657ac0bf784e3cc`, read fully as a provisional
+  map; not used as a substitute for its linked sources.
+- `SAT O Core Modules/SAT.O Official Directives.txt`, blob
+  `167136310cdf33ca8f986f33634692314c1a0946`, read fully.
+- `SAT O Derivations/SAT_000_Audit_Package.txt`, blob
+  `7d43c1029fe588b9056a0f864ecfb5e72ca06313`, read fully; the module content
+  is explicitly omitted inside the file.
+- `SAT O Derivations/SAT_Completion_Protocol_v1.txt`, blob
+  `e77728abf23c3aee476f5c32b9aa2a26ccf2b014`, and
+  `SAT O Derivations/audit_results.txt`, blob
+  `66da0983476329015b9e4d3394d3c28f53a15b16`, read fully.
 
 Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional
