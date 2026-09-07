@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T06:39:58Z",
+  "last_lightweight_scan": "2026-09-07T09:39:03Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "eabd8328e405727a27216946d070993280411446",
-      "current_scanned_commit": "eabd8328e405727a27216946d070993280411446",
+      "previous_seen_commit": "826c58a020c5412850101b1cce5e5c0c2106d51f",
+      "current_scanned_commit": "826c58a020c5412850101b1cce5e5c0c2106d51f",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
       "automation_generated_changes": []
@@ -23,17 +23,18 @@
       "automation_generated_changes": []
     },
     "Satobloc/HSH_RESOURCES": {
-      "previous_seen_commit": "7b5758af4da37f256572c8e0be70d2abd255f007",
-      "current_scanned_commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
+      "previous_seen_commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
+      "current_scanned_commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
       "last_human_source_commit": "59e6de8f1b4a9c144e645050294f4da09b3f6451",
       "human_source_changes": [],
       "automation_generated_changes": [
         {
-          "commit": "963e918cb1dbd35288fe50fbbc57a290c83dc827",
+          "commit": "3678729a5eb5c498841a26a42f4a8013ebdf4547",
           "paths": [
-            ".github/workflows/extract-papers.yml",
-            "requirements-tools.txt",
-            "tools/extract_papers.py"
+            "derived/manifests/extraction.jsonl",
+            "derived/text/",
+            "indexes/RESOURCE_INDEX.md",
+            "indexes/index-state.json"
           ]
         }
       ]
@@ -41,20 +42,25 @@
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "H(s)H 2026 STARTUP DOCS.txt",
-    "blob_sha": "68200d849152dcb0c4fc1814f8b1789d499ebca8",
-    "coverage": "partial sequential read of lines 1-300",
-    "next_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
+    "path": "Older Conversations/FUNDAMENTAL INTUITIONS.txt",
+    "blob_sha": "81ae23a106939cba7e3d134ed5c90a7d7a979a25",
+    "coverage": "full sequential read; duplicate blob located at DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt",
+    "next_source": "H(s)H Dev +/H(s)H REWORK.txt line 1",
+    "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
     "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
-    "content_reads": "H(s)H 2026 STARTUP DOCS.txt lines 1-300 read sequentially; later lines unread; all indexed PDFs scientifically unread.",
+    "content_reads": "FUNDAMENTAL INTUITIONS.txt read fully; SAT26 THOUGHTS ROUNDUP.txt read fully as generated catalog only; two prioritized directories index-only otherwise; extended Fundamental Intuitions PDF not content-read.",
     "search_terms": [
       "2026 SAT MIDWAY REBUILD 4.txt",
       "H(s)H 2026 STARTUP DOCS.txt",
       "METHOD.txt",
-      "FOUNDATIONAL.txt"
+      "FOUNDATIONAL.txt",
+      "Fundamental Intuitions",
+      "full theory",
+      "standalone",
+      "big paper"
     ],
     "errors": [
       "METHOD.txt was not present at the tested root path; rebuild-title search found attachment references but not a standalone current file."
