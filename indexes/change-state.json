@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T02:37:37Z",
+  "last_lightweight_scan": "2026-09-07T03:40:29Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "1affda1c097c6350057bd8d30844eaad935cfc9c",
-      "current_scanned_commit": "1affda1c097c6350057bd8d30844eaad935cfc9c",
+      "previous_seen_commit": "56c44b996141887d1dc7e9476542bbf5e0271f0e",
+      "current_scanned_commit": "56c44b996141887d1dc7e9476542bbf5e0271f0e",
       "last_human_source_commit": "30b354c9569a651dd59d7898a47cf2a6eccc38fb",
       "human_source_changes": [],
       "automation_generated_changes": []
@@ -35,37 +35,20 @@
         "duplicate_content_groups": 25,
         "github_tree_truncated": false
       },
-      "human_source_changes": [
-        {
-          "status": "added",
-          "paths": [
-            "BIG PAPERS/qt2f18n5nk.pdf",
-            "BIG PAPERS/ssrn-7385521.pdf",
-            "BIG PAPERS/ssrn-7394178.pdf"
-          ]
-        }
-      ],
-      "automation_generated_changes": [
-        {
-          "commit": "0c6652b774b3d823e48fb100c5e9be85dbb3680d",
-          "paths": [
-            "indexes/RESOURCE_INDEX.md",
-            "indexes/index-state.json"
-          ]
-        }
-      ]
+      "human_source_changes": [],
+      "automation_generated_changes": []
     }
   },
   "source_read_advance": {
     "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "path": "SPHERECHECKQC.txt",
-    "blob_sha": "7ea46f7d3461061a3b5f51fa7ee58b926b8404f0",
-    "coverage": "full sequential read, lines 1-1217",
-    "next_cursor": "SPHERES2QC.txt line 1"
+    "path": "SPHERES2QC.txt",
+    "blob_sha": "9e110e2c13d95a061d9521c84ae9e1755fffa3f4",
+    "coverage": "partial sequential read, lines 1-1000",
+    "next_cursor": "SPHERES2QC.txt line 1001"
   },
   "coverage": {
-    "mode": "head comparison for HsH and SAT archive; complete recursive structural refresh for HSH_RESOURCES",
-    "content_reads": "SPHERECHECKQC.txt read fully. Newly indexed PDFs remain structural-only.",
+    "mode": "head comparison for HsH, SAT archive, and HSH_RESOURCES",
+    "content_reads": "SPHERES2QC.txt read sequentially through line 1000; remaining source and all indexed PDFs remain unread.",
     "errors": []
   }
 }
