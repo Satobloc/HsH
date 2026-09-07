@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "tool_version": "change-state/1",
+  "last_lightweight_scan": "2026-09-07T00:39:19Z",
+  "last_broad_index": {
+    "Satobloc/HsH": "2026-09-06T23:37:04Z",
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null
+  },
+  "repositories": {
+    "Satobloc/HsH": {
+      "previous_seen_commit": "c6a3aa597774eeaccbf4f2a6ea5782319ee67330",
+      "current_commit": "a9fc9099bc47ae9fbfd1922e76efbb872ba7a6d2",
+      "last_human_source_commit": "da416a4966e5944ed72098dea517a6e410b122c3",
+      "human_source_changes": [],
+      "automation_generated_changes": [
+        {
+          "commit": "a9fc9099bc47ae9fbfd1922e76efbb872ba7a6d2",
+          "paths": [
+            "ledgers/EQUATION_LEDGER.md",
+            "ledgers/DEPENDENCY_GRAPH.md",
+            "checkpoints/CURRENT.md"
+          ]
+        }
+      ]
+    },
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25": {
+      "previous_seen_commit": "4654584b3f44a2a1c7a04556acc9c3f388580c96",
+      "current_commit": "81509f68ab1ca613aa079ed3946b63928aa6f099",
+      "last_human_source_commit": "41b8fc7980bcb9cfc61e7638a2d2f324e6fa6ac3",
+      "commits_ahead": 4,
+      "human_source_changes": [
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ChatGPT Image Oct 29, 2025, 02_40_27 PM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ConsensusPro.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ConsensusPro2.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ConsensusPro3.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ConsensusPro4.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output2.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output3.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output4.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output5.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Early_code_output6.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/FUNDAMENTAL INTUITIONS MIND MAP.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ITS_A_GO.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/Not_a_phot.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/NotebookLM Mind Map.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/borromean_link_rgb.gif",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ce51728e-410a-461c-b08a-8cb8a81373c7.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/d9c2d113-61aa-4681-9d90-ad988bbb26f1.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/ea41259c-edab-452c-8421-1c39fb0b6bf0.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/hopf_link_red_cyan.gif",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (1).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (10).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (11).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (12).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (13).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (14).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (15).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (16).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (17).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (18).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (19).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (2).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (20).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (3).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (4).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (5).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (6).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (7).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (8).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 2/output (9).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT - BEFORE SAT PREDICTIONBOOK - 2012-11-29.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT EARLY - CHATGPT MEMORY SAVED - 2024-11-8.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT EARLY EARLY - 2023-5-28.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT EARLY SYSTEMATICS 2 2025-4-6.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT EARLY SYSTEMATICS 2025-4-4.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRST - 2024-3-24.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRST DIMGRAV - 2024.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRST Forces Temporal 2024-8-8.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRST MENTIONS 2.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRST MENTIONS.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT FIRSTS - PT.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST - 2025-3-25.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST - FILE LIBRARY 2 2025 SUMMER - (ONEDRIVE).PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST - FILE LIBRARY 2025 SUMMER  (ONEDRIVE).PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST - FILE LIBRARY 3 2025 - SUMMER-FALL (ONEDRIVE).PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST 2025-4-24 to 2025-6-24.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT HIST 4-7-2025.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT PREHIST 2024-11-12.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT PREHIST 2025-3-3.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT PREHISTORY - CHAT 1.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT SYNTHESIS 2025-4-4.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT SYSTEM - NAUT - 2025-4-6.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT VERYFIRST 2024-3-13.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SAT.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SATO Mind Map.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SATy_output2.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/SATy_viz_output.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2025-10-28 at 3.55.51 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.48.30 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.49.00 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.49.25 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.49.45 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.49.56 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.50.24 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.50.38 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.51.21 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.52.02 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.52.16 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.53.33 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.53.41 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.54.27 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-07 at 4.54.53 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-10 at 12.49.32 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-03-11 at 4.49.02 PM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/Screen Shot 2026-04-25 at 10.14.09 AM.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output (21).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output (22).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output (23).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output (24).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output (25).png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/output.png",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/sat 2025-5-4.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/sat histy 2025-5-31.PNG",
+          "status": "added"
+        },
+        {
+          "path": "VISUALIZATIONS + SCREENSHOTS 3/saty_output.png",
+          "status": "added"
+        }
+      ],
+      "automation_generated_changes": [
+        {
+          "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260906_233950.txt",
+          "status": "added"
+        },
+        {
+          "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260906_234057.txt",
+          "status": "added"
+        },
+        {
+          "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
+          "status": "modified"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "new_human_source_items": 94,
+    "changed_human_source_items": 0,
+    "moved_items": 0,
+    "duplicate_assessment": "not_run_for_binary_increment",
+    "skipped_items": 94,
+    "inaccessible_items": 94,
+    "errors": []
+  },
+  "coverage": {
+    "mode": "incremental_structural_metadata",
+    "human_source_scope": "All paths in the four-commit comparison from 4654584b3f44a2a1c7a04556acc9c3f388580c96 to 81509f68ab1ca613aa079ed3946b63928aa6f099.",
+    "content_scope": "Binary visualization contents were not opened or semantically classified.",
+    "continuation_cursor": "No incremental path remains unindexed; semantic inspection is deferred until a dependency calls for a specific image."
+  }
+}
