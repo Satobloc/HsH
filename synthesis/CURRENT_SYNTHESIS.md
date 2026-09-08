@@ -583,7 +583,7 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
 
 ### Transition-source opening: a worldline scaffold presented as a worldtube theory
 
-The opening 900 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
+The opening 1,800 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
 explicitly tentative overview followed by repeated generated architecture
 proposals. Despite the title, this range continues to define a one-dimensional
 hyperhelical history `H(lambda)` in `R4` and a fourth-order centerline action.
@@ -607,7 +607,36 @@ quantities physically identical or derive the claimed 3:2 expansion law.
 mathematical imports `GEN/HISTORICAL-CANDIDATE`; claimed metric, gauge,
 particle, topological, and metrological recoveries `GEN/QUARANTINED`; explicit
 finite-core object and resolving map `OPEN`. Later user corrections in the
-remaining 6,359 lines may displace this provisional assessment.
+remaining 5,459 lines may displace this provisional assessment.
+
+
+### Resolving readout is not BV push-forward or automatic dimension loss
+
+Lines 901–1800 repeatedly identify the BV push-forward with a “projection
+engine” from four-dimensional coiling to a three-dimensional timesheet and call
+the relationship a quasi-isomorphism. These are different claims. The current
+readout `R_Sigma` must specify how a modeled history intersects, projects to,
+or is resolved by a chosen structure. A BV push-forward instead integrates over
+a declared sector of field space to produce an effective action; it requires a
+field complex, action, measure/Lagrangian subspace, and compatibility data. It
+does not select a three-dimensional geometric slice merely by being called a
+UV-to-IR coarse-graining.
+
+The same range says that a one-dimensional filament “traces a 4D worldvolume”
+and thereby creates a three-form current. Dimension does not follow that way. A
+curve already interpreted as a worldline is one-dimensional; a spatial
+one-dimensional filament evolved by one independent time parameter ordinarily
+sweeps a two-dimensional worldsheet. A four-dimensional worldvolume or a
+three-form current therefore requires additional independent parameters and a
+defined Poincare-dual/current construction. The conservation equation
+`d*J=0` would then express closure of a specified current; it would not by
+itself derive Maxwell dynamics.
+
+**Status:** distinction among geometric readout, effective-field
+coarse-graining, and dimensional reduction `STD/DERIVED`; the source's BV
+readout and quasi-isomorphism `GEN/QUARANTINED`; automatic 1D-to-4D worldvolume
+and electromagnetic recovery `GEN/REJECTED AS WRITTEN`; an H(s)H field complex,
+current, and exact `R_Sigma` remain `OPEN`.
 
 ## Preserved conflicts and open edges
 
@@ -683,8 +712,8 @@ remaining 6,359 lines may displace this provisional assessment.
   and sequentially. Its embedded user corrections control; later generated
   declarations of solved or locked mathematics remain unverified and displaced.
 - `SAT to H(s)H TRANSITION.txt`, root blob
-  `e81674de7dd79b04ecec414b94fe7611722025e9`: 7,259 lines total; lines 1–900
-  read sequentially. Resume at line 901. The previously recorded nested
+  `e81674de7dd79b04ecec414b94fe7611722025e9`: 7,259 lines total; lines 1–1800
+  read sequentially. Resume at line 1801. The previously recorded nested
   `[[H(s)H runs]]` path is stale/nonexistent. Earlier empty-content responses
   for this root file and the toolbox copy were connector-size artifacts, not
   evidence that either source was zero bytes; the prior zero-byte
