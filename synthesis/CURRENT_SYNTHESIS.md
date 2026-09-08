@@ -562,3 +562,29 @@ they are not multiple empirical calibrations.
 STD/DERIVED in their declared domains; identification with the H(s)H carrier
 GEN/CANDIDATE; spinorial \(4\pi\) interpretation and independent scale
 calibration OPEN.
+
+
+## April 2024 attachment-shadow: not a string-theory formalism
+
+`String Theory Synthesis — raw.json` is a two-message April 2024 export. The
+user requested a thorough reading of an attached 210,510-byte `SAT.txt` and
+comparisons with Cronin's Assembly Theory and Langan's CTMU. The attachment
+content is absent from the export. The assistant reply supplies only a broad SAT
+synopsis and performs neither requested comparison.
+
+The synopsis preserves several early motifs as genealogy: a modeled
+four-dimensional filament/string history; an expanding three-dimensional
+resolving surface; intersectional particle readout; inter-filament interaction;
+a vibration-to-property conjecture; openness about spherical expansion; and an
+explicitly abstract representational stance. Because these are generated
+paraphrases of an unavailable source, their recurrence does not constitute
+independent support.
+
+No equation, typed string object, finite-core geometry, action, readout
+operator, string-theory correspondence, Assembly Theory bridge, or CTMU bridge
+is supplied. The central Big-Bang knot, trans-temporal tugs, direct
+vibration-to-property assignments, and gravity/dark-matter claims remain
+generated historical proposals.
+
+**Status:** conversation `GEN/HISTORICAL-CANDIDATE`; original `SAT.txt`
+attachment and its source claims `OPEN`; no active framework promotion.
