@@ -490,3 +490,20 @@ Primary missed-context risk: later user corrections in the startup conversation
 and the unread current-development files may narrow or displace the provisional
 statements above. The extended Fundamental Intuitions PDF was located but not
 content-read; the accessible plain-text source is the coverage basis here.
+
+
+## Methodological admissibility gate recovered from the startup source
+
+A later user passage in `H(s)H 2026 STARTUP DOCS.txt` makes the candidate-promotion rule more explicit. A proposed SAT/H(s)H addition is initially admissible only when it:
+
+1. arises from the mapped geometry;
+2. costs no independent geometry beyond the geometry that required it;
+3. is constrained to one of a small number of alternatives or equivalent descriptions;
+4. does not contradict prior geometric commitments; and
+5. applies by default in the same way to all materially similar systems.
+
+Passing those conditions yields a **tentative conjecture**, not a certified result. The stronger promotion gate is solving one or preferably two problems that were not used to construct the candidate, especially in other sectors. This sharpens the earlier control/target/holdout method: fitting the construction target establishes viability, while unrequested cross-sector performance is the intended discriminator against flexible reinterpretation.
+
+This is a research-governance rule rather than a mathematical theorem. “No added geometry,” “small number,” “similar systems,” and the independence of a purported holdout must be made operational for each candidate; otherwise the rule can be satisfied rhetorically after the fact.
+
+**Status:** admissibility and cross-sector promotion discipline `SRC/ACTIVE`; operational tests for individual candidates `OPEN`.
