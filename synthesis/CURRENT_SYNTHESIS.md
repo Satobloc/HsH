@@ -446,6 +446,47 @@ remain imports; the carrier-to-worldsheet and resolving/readout maps remain
 OPEN. The earliest unsupported edge remains the intrinsic dimension and type
 of the finite-core carrier and its resolving intersection.
 
+
+### C5 completion: thickness supplies dynamics, not automatic 3D topology
+
+Nathan's final corrections in C5 restore a feature lost by the generated
+formalization: the time wavefront is an active structure with nonzero resolving
+thickness, not an infinitesimal bookkeeping slice. This supports an interaction
+interval in which filament configuration, exclusion, deformation, and readout
+may evolve. It does not, however, validate the assistant's proposed topological
+repair.
+
+The proposed slab
+\[
+W_t\cong\Sigma\times[0,1]
+\]
+has the same dimension as the four-dimensional ambient history when
+\(\dim\Sigma=3\). Merely making the transverse interval narrow, or assigning
+infinite energy outside the slab, confines motion to a four-dimensional region;
+it does not reduce the configuration space to three dimensions. Ordinary linking
+of two 1-cycles requires a three-dimensional ambient domain
+(\(1+1=3-1\)). It therefore returns only if the admissible curves are actually
+restricted to a three-dimensional carrier, or if a different finite-core
+configuration-space invariant is explicitly constructed.
+
+The source's relative-homology calculation is also incorrect:
+\[
+H_k(\Sigma\times I,\Sigma\times\partial I)\cong H_{k-1}(\Sigma),
+\]
+not \(H_k(\Sigma)\). For connected \(\Sigma\),
+\(H_1(W_t,\partial W_t)\cong H_0(\Sigma)\), but that relative class represents
+transverse interval-type chains; it is not automatically a pairwise linking
+number for two filament segments. For the example \(\Sigma=S^3\), the source's
+own asserted \(H_1(\Sigma)\ne0\) is false.
+
+**Status:** active finite-thickness wavefront as historical genealogy retained
+in the current resolving-thickness program SAT/HISTORICAL -> SRC/ACTIVE;
+finite thickness as automatic dimensional reduction and the stated
+relative-homology linking rescue GEN/REJECTED AS WRITTEN; exact confinement
+to a 3D carrier as a conditional standard knot-theory route STD/DERIVED;
+finite-core exclusion/configuration-space topology OPEN. Thickness may be
+dynamically indispensable without doing the topological work attributed to it.
+
 ## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
