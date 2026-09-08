@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "tool_version": "change-state/1",
-  "last_lightweight_scan": "2026-09-07T22:15:42.747Z",
+  "last_lightweight_scan": "2026-09-08T03:41:12.449Z",
   "last_broad_index": {
     "Satobloc/HsH": "2026-09-07T01:36:51Z",
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25": null,
@@ -9,8 +9,8 @@
   },
   "repositories": {
     "Satobloc/HsH": {
-      "previous_seen_commit": "5b8789932d260d3c6e3a395010614fa632e7714d",
-      "current_scanned_commit": "7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
+      "previous_seen_commit": "7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
+      "current_scanned_commit": "7da0b8aadaa444a39f97c32d7543e536363e8056",
       "last_human_source_commit": "7bea7aac88b877580ef3b03cbc1c9e54ff6eb113",
       "human_source_changes": [
         {
@@ -37,6 +37,13 @@
           ],
           "renamed_conversation_count": 106,
           "classification": "content-preserving date-prefix renames plus two generated manifests"
+        },
+        {
+          "commits": [
+            "10b6059456514b605a62ad8d5df467a7b3d5ec24",
+            "2b048a3ffb5282062cddeb2c2faa96e6e954e7da"
+          ],
+          "classification": "generated synthesis clarification and continuation checkpoint"
         }
       ]
     },
@@ -109,37 +116,29 @@
     }
   },
   "source_read_advance": {
-    "repository": "Satobloc/HsH",
-    "paths": [
-      "LIVE CONVOS/AUTO H(s)H Gitter — raw.json",
-      "LIVE CONVOS/Succinctness And Math Check — raw (1).json"
-    ],
-    "blobs": [
-      "728b4618e869e32a015b5fd9395f6bec118ccc31",
-      "99b6e1d7ef8f3b9356d67b5bd50dd0de59529061"
-    ],
-    "coverage": "AUTO current-node chain 79/79 read; Succinctness exact two-message delta beyond 321-message dated baseline read fully",
-    "next_source": "live/current H(s)H sources selecting typed finite-core carrier and resolving-thickness geometry",
-    "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 301",
+    "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "path": "H(s)H 2026 STARTUP DOCS.txt",
+    "blob": "68200d849152dcb0c4fc1814f8b1789d499ebca8",
+    "coverage": "lines 1-900 read sequentially across cumulative passes; later text unread",
+    "next_source": "H(s)H 2026 STARTUP DOCS.txt line 901",
+    "preserved_cursor": "H(s)H 2026 STARTUP DOCS.txt line 901",
     "deferred_cursor": "SPHERE4QC.txt line 1301"
   },
   "coverage": {
-    "mode": "incremental live-conversation ingestion",
-    "content_reads": "AUTO active chain read fully; Succinctness new two-message delta read fully after exact prefix comparison",
+    "mode": "incremental sequential synthesis-source ingestion",
+    "content_reads": "H(s)H 2026 STARTUP DOCS.txt lines 301-900 fully read this pass",
     "search_terms": [
-      "current_node",
-      "primitive identification",
-      "scale calibration",
-      "Minkowski",
+      "thickness",
+      "cross-sectional geometry",
+      "ER bridge",
+      "boundary",
+      "closed string",
       "Kerr",
-      "Compton",
-      "closed ring",
-      "Borromean",
-      "timesheet thickness"
+      "ergosphere",
+      "resolving intersection"
     ],
     "errors": [
-      "Abandoned conversation branches were not semantically read; they are excluded from the active chronology.",
-      "The terminal Kerr/Compton proposal has no subsequent user acceptance in the uploaded snapshot."
+      "Later source text remains unread; boundary candidates are provisional until the source is completed."
     ]
   }
 }
