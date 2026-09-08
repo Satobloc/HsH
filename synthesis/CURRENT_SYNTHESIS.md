@@ -364,6 +364,50 @@ vibrational mode directly fixes particle type, that SAT encompasses string
 theory, or that string-theory mathematics can simply be reinterpreted remain
 `GEN/QUARANTINED` pending a typed map and dynamics.
 
+
+### Partial C5 audit: an interaction ansatz does not generate Yang–Mills
+
+The first 1,200 lines of `SAT & String Theory/SAT & STRING THEORY/C5.txt`
+form an audit-and-repair conversation, not yet the advertised Polyakov module.
+They propose a pair interaction on the resolving slice with a harmonic
+separation term and a phase-locking cosine,
+
+[
+S_{\rm coil}^{(ij)}
+=\int dt\left[
+\frac{\kappa}{2}\lVert x_i-x_j\rVert^2
+-\alpha\cos(\theta_i-\theta_j)
+\right],
+]
+
+followed by a localized variant. This is a possible phenomenological ansatz for
+proximity and relative phase; the range read does not derive it from the
+filament–resolving-structure geometry, establish its units and boundary
+conditions, or derive the asserted helical stationary solutions and integer
+winding relation.
+
+The subsequent gauge step is not valid as written. With an ordinary scalar
+phase and
+
+[
+A_\mu=\partial_\mu\Theta ,
+]
+
+the Abelian curvature is identically zero:
+(F_{\mu\nu}=\partial_\mu\partial_\nu\Theta-
+\partial_\nu\partial_\mu\Theta=0) wherever the phase is smooth.
+Promoting (Theta) to a matrix-valued field does not by itself define a
+non-Abelian connection, produce (SU(3)), or justify a Yang–Mills action after
+“integrating out” phases. Triple-filament counting is likewise not a gauge-group
+construction.
+
+**Status:** coil potential `GEN/HISTORICAL-CANDIDATE`; the claimed
+(A_\mu=\partial_\mu\Theta\) route to nonzero Yang–Mills curvature and
+(SU(3)) `GEN/REJECTED AS WRITTEN`; resolving-mediated interaction law and
+gauge/readout correspondence `OPEN`. The controlling reusable statement is
+narrower: an active resolving structure requires an explicit coupling functional;
+calling the structure active does not specify that coupling.
+
 ## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
