@@ -580,6 +580,35 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
 **GEN/CANDIDATE**. See `synthesis/FORMALISM_SELECTION.md` and
 `synthesis/R4_FRAMED_CURVE_KINEMATICS.md`.
 
+
+### Transition-source opening: a worldline scaffold presented as a worldtube theory
+
+The opening 900 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
+explicitly tentative overview followed by repeated generated architecture
+proposals. Despite the title, this range continues to define a one-dimensional
+hyperhelical history `H(lambda)` in `R4` and a fourth-order centerline action.
+It mentions transverse scale, a resolution regulator, worldtube tangents, and a
+resolving slab, but it does not yet define a finite-core carrier, cross-section,
+boundary, contact law, or carrier-to-readout map. Accordingly, the range does
+not yet execute the SAT-to-H(s)H type transition.
+
+Several claims in the range are internally stronger than its declared draft
+status: a positive tangent-covariance inverse is said to yield Lorentzian
+signature; a conserved three-form is said to derive electromagnetism; SO(4)
+rotation is said to encode all gauge interactions; BV push-forward is treated
+as a projection to observed 3D structure; and lattice, raw `theta_4`,
+`B=3/(4pi)`, `Q=3`, mass-ratio, phase-snap, and Hubble anchors are called
+mandatory or exact. These are precisely the assumptions excluded from the
+current rebuild unless independently reconstructed. Normalizing `H0` and
+`c` at the Hubble radius fixes units at a chosen scale; it does not make the
+quantities physically identical or derive the claimed 3:2 expansion law.
+
+**Status:** declared transition goal `SRC/ACTIVE`; centerline action and named
+mathematical imports `GEN/HISTORICAL-CANDIDATE`; claimed metric, gauge,
+particle, topological, and metrological recoveries `GEN/QUARANTINED`; explicit
+finite-core object and resolving map `OPEN`. Later user corrections in the
+remaining 6,359 lines may displace this provisional assessment.
+
 ## Preserved conflicts and open edges
 
 - The archive reports useful worldline results but also says they are scattered;
@@ -653,10 +682,13 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
   `e24d6a7fc80d6193282690e9d8124f2dab171918`: lines 1 through end read fully
   and sequentially. Its embedded user corrections control; later generated
   declarations of solved or locked mathematics remain unverified and displaced.
-- `[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt`, blob
-  `39c20f590e8272d054e3d8f5686c3642b1efd824`: accessed completely; the live
-  file is zero bytes and supplies no evidence. Generated descriptions of its
-  alleged contents elsewhere in the archive were not substituted for the file.
+- `SAT to H(s)H TRANSITION.txt`, root blob
+  `e81674de7dd79b04ecec414b94fe7611722025e9`: 7,259 lines total; lines 1–900
+  read sequentially. Resume at line 901. The previously recorded nested
+  `[[H(s)H runs]]` path is stale/nonexistent. Earlier empty-content responses
+  for this root file and the toolbox copy were connector-size artifacts, not
+  evidence that either source was zero bytes; the prior zero-byte
+  classification is withdrawn.
 - `[[SAT26 TOOLBOX]]/H(s)H FIRST BUILD.txt`, blob
   `3e38d26c2bcec46f1a15e508b8794db6ba06bea6`: lines 1–4281 read fully and
   sequentially. This July 10, 2026 NotebookLM build conversation is mostly a
