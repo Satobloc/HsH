@@ -168,6 +168,36 @@ worldtube theory is to count as an extension rather than a replacement.
 **Status:** transition program `SRC/ACTIVE`; exact thick object and limiting map
 `OPEN`.
 
+### Startup-document clarification: explicit boundary rather than newly thickened line
+
+The next sequential startup range contains a controlling user correction: earlier SAT
+already treated the modeled filament as effectively thick, bendable, twistable,
+tension-bearing, and interaction-capable. The H(s)H transition is therefore better
+typed as
+
+`centerline-dominant description -> explicit finite-core boundary and resolving-intersection description`.
+
+It need not introduce an entirely new inventory of degrees of freedom; it relocates
+formerly implicit information into explicit boundary location and response,
+penetration/exclusion behavior, rotation/circulation, contact coupling, and the
+geometry induced by the resolving structure. If an ER-bridge model is used, an
+ordinary transported material disk is not automatically the accessible
+cross-section. The externally modeled interface may instead be effective thickness,
+boundary dynamics, interaction range, and resolving-intersection geometry.
+
+The same source separates progressively stronger versions of “the intersection is
+a closed string”: closed-loop geometry; closed-string-like deformation modes; a
+specific string spectrum; recovery of particle behavior; and equivalence as an
+H(s)H readout. Only the first could follow from intersection geometry alone. The
+Kerr/ergosphere-like, Schwarzschild-like, naked-ring, and regularized finite-core
+boundaries remain parallel `SRC/CANDIDATE` models to compare by topology,
+regularity, permeability, rotation/chirality, mode spectrum, limiting behavior, and
+observable interaction properties.
+
+**Status:** corrected transition statement `SRC/ACTIVE`; ER-bridge accessibility
+model and every named boundary/string realization `SRC/CANDIDATE`; selected
+finite-core carrier and resolving-intersection type `OPEN`.
+
 ## 3. Type boundary
 
 Current source material explicitly warns against sliding among a centerline, a
