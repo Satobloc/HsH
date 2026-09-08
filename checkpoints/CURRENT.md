@@ -1,15 +1,15 @@
 # Current Reconstruction Checkpoint
 
-1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, sequentially advanced through line 1500. Resume at line 1501.
-2. **Coverage:** Lines 901–1500 were read fully in this pass; lines 1–900 were covered in prior startup passes. The source remains partial. `SPHERE4QC.txt` remains deferred at line 1301.
-3. **Synthesis advance:** Recovered an explicit admissibility ladder: geometry-origin, no independent added geometry, a tightly constrained alternative class, compatibility with prior commitments, uniform application to similar systems, followed by unrequested cross-sector success before stronger promotion.
-4. **Framework statement:** A target fit makes a construction viable; it does not certify it. The intended promotion evidence is an independent holdout or one-to-two unrequested successes in other sectors.
-5. **Status changes:** The admissibility and promotion discipline is now `SRC/ACTIVE`. No geometric object, interaction law, constant, or inherited-domain identification was promoted.
-6. **Conflicts preserved:** The same range contains generated declarations that the Donut/Whirligig is the deepest transformation object and that the UI is its coordinate realization. These remain unearned interpretations. The source also corrects a batch of polished 4D-helical papers back to legacy status rather than present architecture.
-7. **Earliest unsupported edge:** Operationalize “no added geometry,” “small number of alternatives,” “similar systems,” and holdout independence for each candidate; otherwise the gate can be satisfied retrospectively.
-8. **Repository/change check:** Two human archive commits added 95 structurally indexed podcast transcripts and related files under `DEBATING AI PODCAST/`; they are unread. HSH_RESOURCES added 32 structurally indexed exposure-stat CSVs, including duplicate-suffixed files; these are data rather than mathematical-source papers and remain index-only. No new HsH human theory source was detected. Archive Admin commits were excluded as generated operations.
-9. **Next action:** Resume `H(s)H 2026 STARTUP DOCS.txt` at line 1501 and determine whether the ensuing current summary narrows the carrier/readout architecture or merely restates generated synthesis.
+1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, completed through its final line 1758.
+2. **Coverage:** Full sequential read, lines 1–1758 across four bounded passes. Referenced attachments and legacy papers are not thereby read. `SPHERE4QC.txt` remains deferred at line 1301.
+3. **Synthesis advance:** Completed the source classification and recovered a bounded vocabulary correspondence: an earlier Donut construction was recognized by the user as the Whirligig in that lineage.
+4. **Framework statement:** The closing Minkowski → radial/UI → finite-core history → H(s)H → tools → interactions → readouts chain is a generated retrospective agreeing with the current map, not independent support. The source does not select the carrier, background, metric mechanism, or constitutive laws.
+5. **Status changes:** Startup source coverage is complete. Historical Donut/Whirligig correspondence is `SRC/ACTIVE` within its context; universal identity, “Whirligig as transformation space,” and “UI as its coordinate realization” remain `GEN/CANDIDATE`; exact operations remain `OPEN`.
+6. **Conflicts preserved:** The source alternates between saying the Donut and Whirligig are one construct and assigning them a generated UI-versus-transformer division. Archive-wide terminology may reflect multiple implementations; no global merge was made.
+7. **Earliest unsupported edge:** Compare the direct Donut and Whirligig constructions before declaring their domains identical or building an operator hierarchy around them. The broader earliest model edge remains selection of the finite-core carrier from the empirical entry construction.
+8. **Repository/change check:** Repository heads were unchanged after the preceding pass. The newly uploaded 95 podcast files and 32 exposure-stat CSVs remain structurally indexed and content-unread; no self-triggering generated commit was treated as human theory input.
+9. **Next action:** Begin `H(s)H BEGIN REVIEW.txt` at line 1 as the next current root-level review source, and test its object/readout statements against the now-completed startup map.
 
-Search attention: `admissibility`, `geometry`, `conjecture`, `cross-sector`, `Donut`, `Whirligig`, `UI`, and embedded user corrections. Principal missed-context risk: later source passages may operationalize or revise the recovered promotion rule.
+Search attention: `Donut`, `Whirligig`, `UI`, `same construct`, `transformation`, `finite-core`, `double-shell`, `Electrogravity`, and embedded user corrections. Principal missed-context risk: the source’s tool descriptions summarize underlying Donut/UI documents that remain unread.
 
 Preserved secondary cursor: `SPHERE4QC.txt` line 1301.
