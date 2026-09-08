@@ -65,5 +65,16 @@ python tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply
 The tool is dry-run by default and replaces its own existing date prefix, so it
 can be rerun after an export grows.
 
+To browse every parseable export in one date-sorted view while retaining the
+source folders and their provenance, regenerate the master chronology:
+
+```bash
+python tools/index_conversation_chronology.py DEVELOPMENT_FULL_CONVOS
+```
+
+This writes `indexes/CONVERSATION_CHRONOLOGY.md`, including exact duplicate
+groups and a separate list of files that do not contain parseable conversation
+timestamps.
+
 The source corpus will continue to grow. Structural indexes should be refreshed
 after new uploads and during periodic maintenance.
