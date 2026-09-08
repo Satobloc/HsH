@@ -85,3 +85,22 @@ full \(B^3\) normal tube versus a selected rank-two \(B^2\) material subbundle,
 together with the resolving-thickness geometry. Only after that choice can the
 Kerr/Compton anchor be tested as a scale calibration rather than installed as a
 definition.
+
+
+## Calibration-dependency refinement
+
+The apparent package of core radius, circumference, Zitterbewegung frequency,
+Compton period, and two-circuit return contains fewer independent facts than its
+presentation suggests. Once \(a_e=\hbar/(2m_ec)\) is selected and the mode speed
+is set to \(c\), both the Zitterbewegung-frequency equality and the two-circuit
+Compton-period equality follow algebraically. They are consistency identities,
+not additional fits or measurements.
+
+A geometric two-lap circuit also does not establish a spinorial \(4\pi\) return.
+That needs a derived rotation/holonomy action on the modeled state. Similarly,
+Kerr–Newman's \(g=2\) property is a benchmark correspondence after assigning
+electron parameters, not an independent selection of the H(s)H core.
+
+**Classification:** identities and Kerr–Newman property STD/DERIVED in their
+own domains; H(s)H identification GEN/CANDIDATE; spinorial return and scale
+selection OPEN.
