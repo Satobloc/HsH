@@ -408,6 +408,44 @@ gauge/readout correspondence `OPEN`. The controlling reusable statement is
 narrower: an active resolving structure requires an explicit coupling functional;
 calling the structure active does not specify that coupling.
 
+
+### C5 lines 1201–2400: benchmark insertion is not recovery
+
+The next sequential range abandons the failed phase-gradient construction but
+does not repair it. Instead it proposes enriching each one-dimensional worldline
+with a chosen representation of
+\(SU(3)\times SU(2)\times U(1)\), placing an independent Riemannian metric and
+gauge connection on each resolving slice, coupling them through a schematic
+action, imposing ADM-like constraints, and then quantizing. These are recognizable
+ingredients of existing gauge and gravitational theories. They may define a
+comparison or embedding scaffold, but they do not derive charge, spin, color,
+the gauge group, the metric, quantum superposition, or their unification from the
+worldline–resolving-wavefront interaction.
+
+The gravitational claim also outruns the displayed action. A spatial
+\(\int dt\,d^3x\,R[h]\) term alone is not the ADM form of the
+Einstein–Hilbert action: lapse, shift, extrinsic-curvature kinetic terms, and the
+actual Hamiltonian and momentum constraints are not supplied. Attaching a finite
+representation to a line likewise does not by itself produce Dirac dynamics or
+chiral fermions, and quantizing the stipulated variables does not automatically
+recover quantum field theory.
+
+The advertised string step is one sentence: replace the worldlines by
+two-dimensional worldsheets \(X(\sigma,\tau)\), replace the foliation by a
+target-space metric, and invoke the Polyakov formalism. That assumes the missing
+two-dimensional carrier and changes the resolving structure; it does not derive
+a worldsheet from a one-dimensional center-history, finite core, boundary slice,
+or resolving-thickness intersection. Standard Polyakov mathematics would be
+STD once its usual domain is explicitly adopted, but this source neither writes
+the action nor supplies an H(s)H correspondence map.
+
+**Status:** enriched-worldline/field scaffold GEN/HISTORICAL-CANDIDATE;
+claims of exact GR, Standard Model, QFT, and string recovery
+GEN/REJECTED AS WRITTEN; all inserted benchmark fields and representations
+remain imports; the carrier-to-worldsheet and resolving/readout maps remain
+OPEN. The earliest unsupported edge remains the intrinsic dimension and type
+of the finite-core carrier and its resolving intersection.
+
 ## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
