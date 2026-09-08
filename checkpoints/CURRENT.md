@@ -1,15 +1,15 @@
 # Current Reconstruction Checkpoint
 
-1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, sequentially advanced through line 900. Resume at line 901.
-2. **Coverage:** Lines 301–900 were read fully in this pass; lines 1–300 were covered in the earlier startup pass. Later source text remains unread, so this is a partial-source classification. `SPHERE4QC.txt` remains deferred at line 1301.
-3. **Synthesis advance:** Clarified that the SAT-to-H(s)H transition is not a newly thickened line. Earlier SAT already modeled effective thickness, bending, twist, tension, and interaction; H(s)H makes the external finite-core boundary and resolving-intersection description explicit.
-4. **Framework statement:** The typed transition is now `centerline-dominant description -> explicit finite-core boundary and resolving-intersection description`. An ordinary transported cross-sectional disk is only one candidate and may be the wrong accessible interface for an ER-bridge model.
-5. **Status changes:** The corrected transition statement is `SRC/ACTIVE`. ER/Kerr/Schwarzschild/naked-ring boundary models and closed-string interpretations remain `SRC/CANDIDATE`; none was promoted.
-6. **Conflicts preserved:** “The intersection is a closed string” can mean five progressively stronger things, from closed-loop geometry through formal equivalence. The source does not establish that those levels coincide.
-7. **Earliest unsupported edge:** Select and type the finite-core carrier, effective external boundary, and resolving-thickness intersection before importing boundary dynamics or calibrating a Kerr/Compton scale.
-8. **Repository check:** The archive remains at `ce47b3fa16cd28708fcec5202f2c117e91e6e225` and HSH_RESOURCES at `9f79a66dfdc561e7cf83657cf9679d394006da03`. HsH’s newer pre-pass commits were team-coordination artifacts; no new human theory source was detected after `7bea7aac88b877580ef3b03cbc1c9e54ff6eb113`.
-9. **Next action:** Resume `H(s)H 2026 STARTUP DOCS.txt` at line 901 and continue sequentially, watching for later user corrections to the boundary/intersection candidates.
+1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, sequentially advanced through line 1500. Resume at line 1501.
+2. **Coverage:** Lines 901–1500 were read fully in this pass; lines 1–900 were covered in prior startup passes. The source remains partial. `SPHERE4QC.txt` remains deferred at line 1301.
+3. **Synthesis advance:** Recovered an explicit admissibility ladder: geometry-origin, no independent added geometry, a tightly constrained alternative class, compatibility with prior commitments, uniform application to similar systems, followed by unrequested cross-sector success before stronger promotion.
+4. **Framework statement:** A target fit makes a construction viable; it does not certify it. The intended promotion evidence is an independent holdout or one-to-two unrequested successes in other sectors.
+5. **Status changes:** The admissibility and promotion discipline is now `SRC/ACTIVE`. No geometric object, interaction law, constant, or inherited-domain identification was promoted.
+6. **Conflicts preserved:** The same range contains generated declarations that the Donut/Whirligig is the deepest transformation object and that the UI is its coordinate realization. These remain unearned interpretations. The source also corrects a batch of polished 4D-helical papers back to legacy status rather than present architecture.
+7. **Earliest unsupported edge:** Operationalize “no added geometry,” “small number of alternatives,” “similar systems,” and holdout independence for each candidate; otherwise the gate can be satisfied retrospectively.
+8. **Repository/change check:** Two human archive commits added 95 structurally indexed podcast transcripts and related files under `DEBATING AI PODCAST/`; they are unread. HSH_RESOURCES added 32 structurally indexed exposure-stat CSVs, including duplicate-suffixed files; these are data rather than mathematical-source papers and remain index-only. No new HsH human theory source was detected. Archive Admin commits were excluded as generated operations.
+9. **Next action:** Resume `H(s)H 2026 STARTUP DOCS.txt` at line 1501 and determine whether the ensuing current summary narrows the carrier/readout architecture or merely restates generated synthesis.
 
-Search attention in the completed range: `thickness`, `cross-sectional geometry`, `ER bridge`, `boundary`, `closed string`, `Kerr`, `ergosphere`, and `resolving intersection`. Principal missed-context risk: later portions may narrow or displace the parallel boundary candidates.
+Search attention: `admissibility`, `geometry`, `conjecture`, `cross-sector`, `Donut`, `Whirligig`, `UI`, and embedded user corrections. Principal missed-context risk: later source passages may operationalize or revise the recovered promotion rule.
 
 Preserved secondary cursor: `SPHERE4QC.txt` line 1301.
