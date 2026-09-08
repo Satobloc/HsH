@@ -583,7 +583,7 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
 
 ### Transition-source opening: a worldline scaffold presented as a worldtube theory
 
-The opening 1,800 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
+The opening 2,700 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
 explicitly tentative overview followed by repeated generated architecture
 proposals. Despite the title, this range continues to define a one-dimensional
 hyperhelical history `H(lambda)` in `R4` and a fourth-order centerline action.
@@ -607,7 +607,7 @@ quantities physically identical or derive the claimed 3:2 expansion law.
 mathematical imports `GEN/HISTORICAL-CANDIDATE`; claimed metric, gauge,
 particle, topological, and metrological recoveries `GEN/QUARANTINED`; explicit
 finite-core object and resolving map `OPEN`. Later user corrections in the
-remaining 5,459 lines may displace this provisional assessment.
+remaining 4,559 lines may displace this provisional assessment.
 
 
 ### Resolving readout is not BV push-forward or automatic dimension loss
@@ -637,6 +637,42 @@ coarse-graining, and dimensional reduction `STD/DERIVED`; the source's BV
 readout and quasi-isomorphism `GEN/QUARANTINED`; automatic 1D-to-4D worldvolume
 and electromagnetic recovery `GEN/REJECTED AS WRITTEN`; an H(s)H field complex,
 current, and exact `R_Sigma` remain `OPEN`.
+
+
+### Competing resolution architectures are not yet equivalent
+
+Lines 2025–2207 change genre into a generated recommendation transcript. Its most
+consequential proposal is not a refinement of the current resolving map but an
+alternative architecture: discard a separate three-dimensional present/timesheet
+and identify time and resolution with a synchronized vibrational wavefront of the
+filament ensemble (called the “Temperon” concept there). Under that proposal, an
+object's collective vibration generates its local time and the same fourth-order
+mechanical term is said to yield resolution, mass, and gravity.
+
+This cannot yet be merged with the higher-precedence active scaffold
+`R_Sigma(H)`. An external or independently specified resolving structure and an
+endogenous collective clock field are different mathematical objects. The latter
+would need a defined phase/clock field on a typed carrier ensemble, synchronization
+and coupling laws, an operational account of local simultaneity and observer
+readout, and a map proving when it agrees with—or replaces—the existing
+`R_Sigma` construction. The accompanying “cubic spectrum” of frequency,
+inclination, and bundle scale is presently a coordinate taxonomy; changing those
+three labels does not derive scale equivalence between particles and astrophysical
+objects.
+
+At line 2208 the file changes genre again into pasted tertiary reference pages on
+Clifford tori, Hopf fibrations, four-dimensional space and rotations, relativity of
+simultaneity, Minkowski space, inequalities, fiber bundles, and abelian groups.
+These pages may supply standard definitions or search leads, but their proximity
+does not independently support the generated H(s)H bridges.
+
+**Status:** independently specified resolving structure and `R_Sigma`
+`SRC/ACTIVE`; endogenous Temperon resolution `GEN/HISTORICAL-CANDIDATE`;
+claims that it eliminates the timesheet or jointly derives time, mass, and gravity
+`GEN/QUARANTINED`; cubic-spectrum scale equivalence
+`GEN/HISTORICAL-CANDIDATE`; pasted public-reference material
+`SRC/HISTORICAL` as background only. The equivalence or selection map between
+the two resolution architectures remains `OPEN`.
 
 ## Preserved conflicts and open edges
 
