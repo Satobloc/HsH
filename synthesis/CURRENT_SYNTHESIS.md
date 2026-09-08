@@ -750,6 +750,12 @@ not physical identity; coefficient balance does not erase Lorentzian signature;
 and rewriting mass as a Compton length does not determine that mass or select an
 H(s)H core.
 
+The later archive `DIMENSIONAL_NORMALIZATION.tex` and HsH
+`LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt` are the same
+1,454-line source file (Git blob `52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1`).
+They reproduce the ten-page PDF's complete argument and equation battery and
+therefore count as one source lineage with it, not two additional confirmations.
+
 The paper supplies an explicit prospective promotion ladder: no compression if
 residual classes proliferate or discretionary retuning is needed;
 representational compression if a small fixed grammar organizes many sectors;
@@ -825,6 +831,11 @@ resolving map.
   and `Satobloc/HsH/LIVE CONVOS/`, 10 pages, 445,700 bytes: read fully and
   sequentially; all pages visually checked against extracted text. Document
   date September 9, 2026; PDF creation metadata September 8, 2026 EDT.
+- `DIMENSIONAL_NORMALIZATION.tex` in the archive and
+  `LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt` in HsH are
+  byte-identical source copies (blob `52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1`),
+  all 1,454 lines read sequentially. They are the source representation of the
+  PDF and are not counted as independent support.
 - `SAT O Derivations/CODE-LOCKED DERIVS.txt`, blob
   `783b05d39d59bf854b92090e15d205e6823b51c8`, lines 1–448 read fully and
   sequentially. Its D2 classical dispersion was reconstructed conditionally;
