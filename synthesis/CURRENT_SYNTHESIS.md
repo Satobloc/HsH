@@ -518,3 +518,14 @@ A user correction within the source establishes a narrower historical vocabulary
 The closing summary also repeats a proposed division in which the UI generates configurations and the Donut/Whirligig transforms or compares them. That is a useful interface hypothesis, not yet a recovered operation specification.
 
 **Status:** startup source fully ingested; historical Donut/Whirligig correspondence `SRC/ACTIVE` within its stated lineage; universal name identity and UI–Whirligig operator hierarchy `GEN/CANDIDATE`; exact tool operations `OPEN`.
+
+
+## `H(s)H BEGIN REVIEW.txt`: generated hardware queue, not a controlling review
+
+This 90-line root-level file contains three generated inventories but no embedded user correction, source derivation, or independent comparison. It is therefore a compact map of proposed hardware and known failure claims, not evidence that the hardware was selected.
+
+Its recurring candidates include 4D-versus-3+3 architecture, a universal shell, ER-bridge identity, horizon-based exclusion, Kerr/string correspondence, Electrogravity and interfilamental elasticity, braid smoothing, a Klein recycling loop, and imports from symplectic geometry, Hodge theory, BV, Hardy inequalities, and Yamabe dynamics. Every one remains separately auditable. In particular, describing a formalism as “required” does not establish that its object, domain, or output matches H(s)H.
+
+The file also exposes target-repair patterns that must not control the rebuild: re-deriving a needed attenuation after an arithmetic failure; explaining a residual mass-ratio gap by slaving a new modulus to an aperture; reparameterizing incompatible scales as a new ratio; and interpreting a numerical phase gap as coordinated triplet torque. These are recovery leads at most. They are not derivations unless the quantities follow without inserting the targets they are meant to reproduce.
+
+**Status:** source `GEN/HISTORICAL-CANDIDATE` as a claim and audit queue; named metric, particle, cosmological, and numerical mechanisms `GEN/QUARANTINED` until reconstructed; no change to the active object hierarchy.
