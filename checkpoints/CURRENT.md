@@ -1,15 +1,15 @@
 # Current Reconstruction Checkpoint
 
-1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, completed through its final line 1758.
-2. **Coverage:** Full sequential read, lines 1–1758 across four bounded passes. Referenced attachments and legacy papers are not thereby read. `SPHERE4QC.txt` remains deferred at line 1301.
-3. **Synthesis advance:** Completed the source classification and recovered a bounded vocabulary correspondence: an earlier Donut construction was recognized by the user as the Whirligig in that lineage.
-4. **Framework statement:** The closing Minkowski → radial/UI → finite-core history → H(s)H → tools → interactions → readouts chain is a generated retrospective agreeing with the current map, not independent support. The source does not select the carrier, background, metric mechanism, or constitutive laws.
-5. **Status changes:** Startup source coverage is complete. Historical Donut/Whirligig correspondence is `SRC/ACTIVE` within its context; universal identity, “Whirligig as transformation space,” and “UI as its coordinate realization” remain `GEN/CANDIDATE`; exact operations remain `OPEN`.
-6. **Conflicts preserved:** The source alternates between saying the Donut and Whirligig are one construct and assigning them a generated UI-versus-transformer division. Archive-wide terminology may reflect multiple implementations; no global merge was made.
-7. **Earliest unsupported edge:** Compare the direct Donut and Whirligig constructions before declaring their domains identical or building an operator hierarchy around them. The broader earliest model edge remains selection of the finite-core carrier from the empirical entry construction.
-8. **Repository/change check:** Repository heads were unchanged after the preceding pass. The newly uploaded 95 podcast files and 32 exposure-stat CSVs remain structurally indexed and content-unread; no self-triggering generated commit was treated as human theory input.
-9. **Next action:** Begin `H(s)H BEGIN REVIEW.txt` at line 1 as the next current root-level review source, and test its object/readout statements against the now-completed startup map.
+1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H BEGIN REVIEW.txt`, blob `c7c8f74c2d556b73944ee4099eff67f6f925ad25`, lines 1–90, completed.
+2. **Coverage:** Full sequential read. The file summarizes many underlying conversations, equations, and papers that were not thereby read. `SPHERE4QC.txt` remains deferred at line 1301.
+3. **Synthesis advance:** Classified the entire source as a generated hardware/audit queue rather than a current review with authority to select its own proposals.
+4. **Framework statement:** No object, metric, force law, topology, numerical constant, or formalism was added to the active framework. The file is useful for locating candidate dependencies and target-repair patterns.
+5. **Status changes:** Source `GEN/HISTORICAL-CANDIDATE`; its 3+3, ER/horizon, Kerr/string, Klein-recycling, BV/Yamabe, numerical-scorecard, and fitted-residual mechanisms remain `GEN/QUARANTINED` pending reconstruction.
+6. **Conflicts preserved:** The file repeatedly moves from “must review” to declaring candidates foundational or mandatory without supplying a dependency chain. It also treats failed numerical targets as quantities that new mechanisms must recover, creating target-leakage risk.
+7. **Earliest unsupported edge:** Selection of the dimensional/background and finite-core carrier architecture from the empirical Minkowski construction; downstream formalism and numerical claims have no earned domain until that edge is resolved.
+8. **Repository/change check:** Eight new archive conversations were structurally indexed from commit `2496ba8`: `0.239 Radians in Science`, `ChatGPT Voice Glitch`, `Friday Research Briefs`, `SAT Daily Action`, `Scene Analysis Discussion`, `String Theory Synthesis`, `Succinctness And Math Check`, and `Theoretical Physicist's Article Review`. They remain content-unread. HsH had no new human source; HSH_RESOURCES changes were scanner tooling, not a paper tranche.
+9. **Next action:** Begin the newly uploaded `Succinctness And Math Check — raw (1).json` from its active conversation path, because it records the live ground-up rebuild and outranks older generated review material.
 
-Search attention: `Donut`, `Whirligig`, `UI`, `same construct`, `transformation`, `finite-core`, `double-shell`, `Electrogravity`, and embedded user corrections. Principal missed-context risk: the source’s tool descriptions summarize underlying Donut/UI documents that remain unread.
+Search attention: `3+3`, `ER`, `metric lock`, `Kerr`, `G-scale`, `0.246`, `BV`, `Yamabe`, `required`, and target insertion. Principal missed-context risk: every substantive claim in this review points to underlying sources not contained in the file.
 
 Preserved secondary cursor: `SPHERE4QC.txt` line 1301.
