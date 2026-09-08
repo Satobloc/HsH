@@ -529,3 +529,36 @@ Its recurring candidates include 4D-versus-3+3 architecture, a universal shell, 
 The file also exposes target-repair patterns that must not control the rebuild: re-deriving a needed attenuation after an arithmetic failure; explaining a residual mass-ratio gap by slaving a new modulus to an aperture; reparameterizing incompatible scales as a new ratio; and interpreting a numerical phase gap as coordinated triplet torque. These are recovery leads at most. They are not derivations unless the quantities follow without inserting the targets they are meant to reproduce.
 
 **Status:** source `GEN/HISTORICAL-CANDIDATE` as a claim and audit queue; named metric, particle, cosmological, and numerical mechanisms `GEN/QUARANTINED` until reconstructed; no change to the active object hierarchy.
+
+
+### Calibration refinement: algebraic closure is not spinorial return
+
+The live calibration proposal correctly derives the following identities after
+setting \(a_e=\hbar/(2m_ec)\) and stipulating circumferential propagation at
+\(c\):
+
+\[
+\omega_1=c/a_e=2m_ec^2/\hbar,
+\qquad
+2T_1=h/(m_ec^2).
+\]
+
+These are two rewritings of the same selected electron scale, not independent
+constraints. In particular, two geometric circuits do not by themselves imply
+a spinorial \(4\pi\) return. That stronger statement requires a state space and
+a nontrivial action of spatial rotation—e.g. a spin representation or derived
+holonomy—for which a \(2\pi\) rotation changes the state and a \(4\pi\) rotation
+restores it. No such map has yet been derived for the proposed ring, shell, or
+resolving-thickness circuit.
+
+Likewise, the Kerr–Newman gyromagnetic ratio \(g=2\) is a standard property of
+the charged rotating solution. Assigning electron parameters reproduces the
+Dirac value as a correspondence, but does not independently measure or select
+the H(s)H core. The circumference, mouth area, circuit times, and frequency are
+therefore derived geometry conditional on one anchor and one propagation law;
+they are not multiple empirical calibrations.
+
+**Status:** conditional algebra and Kerr–Newman gyromagnetic property
+STD/DERIVED in their declared domains; identification with the H(s)H carrier
+GEN/CANDIDATE; spinorial \(4\pi\) interpretation and independent scale
+calibration OPEN.
