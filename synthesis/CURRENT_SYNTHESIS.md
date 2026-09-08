@@ -583,7 +583,7 @@ and H(s)H constitutive adoption **OPEN/CANDIDATE**; roundup
 
 ### Transition-source opening: a worldline scaffold presented as a worldtube theory
 
-The opening 2,700 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
+The opening 3,900 lines of the root `SAT to H(s)H TRANSITION.txt` are an undated,
 explicitly tentative overview followed by repeated generated architecture
 proposals. Despite the title, this range continues to define a one-dimensional
 hyperhelical history `H(lambda)` in `R4` and a fourth-order centerline action.
@@ -607,7 +607,7 @@ quantities physically identical or derive the claimed 3:2 expansion law.
 mathematical imports `GEN/HISTORICAL-CANDIDATE`; claimed metric, gauge,
 particle, topological, and metrological recoveries `GEN/QUARANTINED`; explicit
 finite-core object and resolving map `OPEN`. Later user corrections in the
-remaining 4,559 lines may displace this provisional assessment.
+remaining 3,359 lines may displace this provisional assessment.
 
 
 ### Resolving readout is not BV push-forward or automatic dimension loss
@@ -660,11 +660,12 @@ inclination, and bundle scale is presently a coordinate taxonomy; changing those
 three labels does not derive scale equivalence between particles and astrophysical
 objects.
 
-At line 2208 the file changes genre again into pasted tertiary reference pages on
-Clifford tori, Hopf fibrations, four-dimensional space and rotations, relativity of
-simultaneity, Minkowski space, inequalities, fiber bundles, and abelian groups.
-These pages may supply standard definitions or search leads, but their proximity
-does not independently support the generated H(s)H bridges.
+At line 2208 the file changes genre again into pasted public and tertiary reference
+pages. Through line 3900 these cover Clifford tori, Hopf fibrations, four-dimensional
+rotations, Minkowski space, homology, projective and principal bundles, symplectic
+geometry, fusion rings, AKSZ, extended cobordisms/TQFT, Assembly Theory, and
+statistical ensembles. These pages may supply standard definitions or search leads,
+but their proximity does not independently support the generated H(s)H bridges.
 
 **Status:** independently specified resolving structure and `R_Sigma`
 `SRC/ACTIVE`; endogenous Temperon resolution `GEN/HISTORICAL-CANDIDATE`;
@@ -673,6 +674,45 @@ claims that it eliminates the timesheet or jointly derives time, mass, and gravi
 `GEN/HISTORICAL-CANDIDATE`; pasted public-reference material
 `SRC/HISTORICAL` as background only. The equivalence or selection map between
 the two resolution architectures remains `OPEN`.
+
+
+### Imported analytical tools require different typed inputs
+
+The line-2701–3900 resource packet is useful as a dependency inventory. It does
+not provide one unified formalism. Its named tools begin from different objects:
+
+- homology requires a specified space or chain complex and boundary maps;
+- a principal bundle requires total space, base, projection, group action, local
+  trivializations, and transition functions;
+- symplectic mechanics requires an even-dimensional phase space with a closed,
+  nondegenerate two-form;
+- a fusion ring or modular tensor category requires chosen simple objects,
+  fusion rules, associators/F-data, braiding/R-data, and coherence;
+- AKSZ requires a worldvolume, a graded target with symplectic/Q-structure,
+  mapping-space fields, and an action satisfying the master equation;
+- extended TQFT requires an appropriate cobordism higher-category, target
+  category, and symmetric monoidal functor;
+- Assembly Theory and statistical ensembles respectively require declared
+  assembly operations/histories or a probability distribution on a specified
+  state space.
+
+These signatures block a recurrent shortcut in the transition source. A visible
+loop does not supply a chain complex; a group label does not construct a principal
+bundle; filament braiding does not select an MTC; a worldtube does not define an
+AKSZ sigma model or cobordism functor; and a collection of histories is not an
+ensemble until states, measure, and observables are defined. The packet therefore
+organizes possible later mathematics but derives no H(s)H bridge.
+
+One included geometric-constraint article explicitly warns that it is
+Llama-generated and may hallucinate. Its generic taxonomy is not admissible
+evidence. The Sage and nLab pages are more useful as implementation/reference
+leads, but their standard domains remain distinct from the H(s)H correspondence
+problem.
+
+**Status:** typed input signatures `STD/DERIVED`; resource packet
+`SRC/HISTORICAL` as a quarry; AI-generated constraint article
+`GEN/QUARANTINED`; every H(s)H-to-tool correspondence `OPEN` until its domain,
+map, and necessity are supplied.
 
 ## Preserved conflicts and open edges
 
