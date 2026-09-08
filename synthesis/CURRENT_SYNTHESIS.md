@@ -322,6 +322,48 @@ edge is an explicit state space and evolution/contact map stating what persists
 through reconfiguration—worldtube identity, boundary data, topology, currents or
 charges, and the changed resolving readout.
 
+
+### Historical string correspondence exposes a readout-dimension fork
+
+The undated direct component `SAT & RMS/SAT & String Theory.txt` appears
+verbatim inside the April 4, 2025 `SAT intro.txt` compilation. It is therefore
+one source lineage, not independent support. The conversation first describes a
+filament/resolving-surface intersection as a particle point, then later accepts a
+user-proposed description in which the same intersection is a vibrating loop or
+a conventional string. Generated replies call the filament a
+"four-dimensional entity," but do not specify its intrinsic dimension, domain,
+or finite-core structure.
+
+For transverse submanifolds in a four-dimensional ambient model,
+
+[
+\dim(A\cap\Sigma)=\dim A+\dim\Sigma-4=\dim A-1,
+\qquad \dim\Sigma=3.
+]
+
+Consequently, a one-dimensional center-history intersects the resolving
+hypersurface generically in points, whereas a one-dimensional string-like
+readout requires at least a two-dimensional history carrier (for example, a
+worldsheet). A full four-dimensional tubular neighborhood slices to a
+three-dimensional region; its three-dimensional boundary intersects the sheet
+generically in a two-dimensional surface. Non-transverse contact or an
+additional readout map can change these outcomes, but must be specified rather
+than hidden inside the word "cross-section."
+
+This dimensional accounting does not rule out a string-like effective readout.
+It separates four distinct candidates: centerline intersection, finite-core
+slice, boundary intersection, and a lower-dimensional mode-support set selected
+by (R_\Sigma). No string action, worldsheet dynamics, supersymmetry,
+compactification, spectrum map, or equivalence with a specific string theory is
+derived in the source.
+
+**Status:** transverse-intersection dimension count `STD/DERIVED`; source
+correspondence `GEN/HISTORICAL-CANDIDATE`; carrier type, exceptional
+intersection geometry, and effective string readout `OPEN`. Claims that
+vibrational mode directly fixes particle type, that SAT encompasses string
+theory, or that string-theory mathematics can simply be reinterpreted remain
+`GEN/QUARANTINED` pending a typed map and dynamics.
+
 ## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
