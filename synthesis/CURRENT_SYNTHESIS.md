@@ -286,6 +286,42 @@ is a rope-mechanics/assembly-complexity hypothesis requiring calculation.
 morphology, exclusion mechanism, braid statistics, and background topology
 `OPEN/CANDIDATE`.
 
+### Historical interaction grammar: persistence before creation
+
+The April 4, 2025 compilation `Early SAT/SAT intro.txt` is editorially
+reordered: later clarifications are deliberately placed before earlier
+conversations. Its strongest transferable result is an embedded user correction,
+not its generated string-theory comparison. Language, cognition, and biology are
+downstream modeled phenomena, not additional fundamental forces; ordinary
+interactions normally propagate through already-extant filament and composite
+histories rather than continually creating new filaments or particle types. The
+speaker example makes the intended grammar concrete: electronic reconfiguration
+drives copper-composite vibration, which drives speaker-cone composites, which
+drives air-molecule composites. A chemical reaction may reorganize old composites
+into new ones, but the source supplies no general creation, annihilation, or
+reconnection law.
+
+Translated into the current finite-core vocabulary, persistence, transport,
+deformation, and composite reconfiguration must be defined before any exceptional
+topology-changing operator is added. This is not an absolute filament-number
+conservation rule, nor does it establish that particle identity is a vibrational
+mode. Generated passages in the same compilation alternate among intersection
+points, cross-sections, loops, and direct mode-to-particle conversion without
+typing those objects; those assignments remain historical candidates.
+
+The source also names a historical hierarchy—filament, thread, twine, yarn,
+bundle, rope—but its particle/atom/molecule/macroscopic identifications are not
+adopted as current definitions. Three located copies of `SAT intro.txt` are
+byte-identical (blob `2c3f93a...`) and count as one source, not three supports.
+
+**Status:** reconfiguration-first interaction discipline
+`SAT/HISTORICAL -> SAT/ACTIVE` after translation; specific composite hierarchy,
+mode/property assignments, and string-theory correspondence
+`GEN/HISTORICAL-CANDIDATE`; interaction dynamics `OPEN`. The earliest missing
+edge is an explicit state space and evolution/contact map stating what persists
+through reconfiguration—worldtube identity, boundary data, topology, currents or
+charges, and the changed resolving readout.
+
 ## 7. SAT-O as an equation quarry
 
 The July 2025 `SAT.O Official Directives` defines an older model on a
