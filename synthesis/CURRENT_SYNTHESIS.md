@@ -714,6 +714,59 @@ problem.
 `GEN/QUARANTINED`; every H(s)H-to-tool correspondence `OPEN` until its domain,
 map, and necessity are supplied.
 
+
+## Current dimensional-normalization control: residue, not unification
+
+`DIMENSIONAL_NORMALIZATION.pdf` (“Metric Symmetry to Reveal the Grain” /
+“Deviation Is Data: A Cross-Sector Normalization Audit of Physical Laws”) is a
+ten-page draft by Nathan McKnight and Janus C. Sol, dated September 9, 2026 in
+the document and created September 8, 2026 EDT. It explicitly detaches a
+representational principle motivated by SAT/H(s)H from the originating model
+and tests it as a general method for physical equations.
+
+The frozen base map is
+
+\[
+w=ct,\qquad \partial_t=c\partial_w,
+\qquad \partial_t^n=c^n\partial_w^n,
+\]
+
+followed only by secondary transformations that are invertible, recorded, and
+universal or algebraically determined by parameters already present. The audit
+residual is defined relative to that declared transformation class:
+
+\[
+R(E\mid\mathcal T)=\text{information remaining after canonicalization under }
+\mathcal T.
+\]
+
+This gives a useful discipline for H(s)H reconstruction: normalize only through
+a frozen, lossless grammar and ledger what remains—derivative order,
+characteristic scales, dimensionless couplings, nonlinearity, dissipation,
+dispersion, source or boundary data, signature, topology, or null action. Static
+laws are deliberate negative controls because the temporal map leaves them
+unchanged. Equal normalized forms identify a representational equivalence class,
+not physical identity; coefficient balance does not erase Lorentzian signature;
+and rewriting mass as a Compton length does not determine that mass or select an
+H(s)H core.
+
+The paper supplies an explicit prospective promotion ladder: no compression if
+residual classes proliferate or discretionary retuning is needed;
+representational compression if a small fixed grammar organizes many sectors;
+and stronger structure only if relations learned from one family correctly
+organize independent blinded holdouts without extra fitting. This sharpens the
+existing admissibility gate, but the paper does not itself preregister or execute
+that holdout test. Its broad equation battery is demonstration material, not an
+H(s)H derivation.
+
+**Status:** frozen normalization/residual protocol `SRC/ACTIVE` as a current
+methodological control; individual rewritten standard laws `STD/DERIVED` in
+their original domains; claimed cross-sector compression `SRC/CANDIDATE`
+pending preregistered blinded holdouts; any inference from normalization to an
+H(s)H carrier, metric, force identity, or ontology `OPEN`. The earliest
+unsupported H(s)H edge remains selection of the finite-core carrier and exact
+resolving map.
+
 ## Preserved conflicts and open edges
 
 - The archive reports useful worldline results but also says they are scattered;
@@ -768,6 +821,10 @@ map, and necessity are supplied.
   source incomplete, resume at line 301.
 - `SPHERE4QC.txt` remains deliberately deferred at line 1301 while conceptual
   synthesis takes priority.
+- `DIMENSIONAL_NORMALIZATION.pdf`, duplicated byte-for-byte at the archive root
+  and `Satobloc/HsH/LIVE CONVOS/`, 10 pages, 445,700 bytes: read fully and
+  sequentially; all pages visually checked against extracted text. Document
+  date September 9, 2026; PDF creation metadata September 8, 2026 EDT.
 - `SAT O Derivations/CODE-LOCKED DERIVS.txt`, blob
   `783b05d39d59bf854b92090e15d205e6823b51c8`, lines 1–448 read fully and
   sequentially. Its D2 classical dispersion was reconstructed conditionally;
@@ -788,8 +845,8 @@ map, and necessity are supplied.
   and sequentially. Its embedded user corrections control; later generated
   declarations of solved or locked mathematics remain unverified and displaced.
 - `SAT to H(s)H TRANSITION.txt`, root blob
-  `e81674de7dd79b04ecec414b94fe7611722025e9`: 7,259 lines total; lines 1–1800
-  read sequentially. Resume at line 1801. The previously recorded nested
+  `e81674de7dd79b04ecec414b94fe7611722025e9`: 7,259 lines total; lines 1–3900
+  read sequentially. Resume at line 3901. The previously recorded nested
   `[[H(s)H runs]]` path is stale/nonexistent. Earlier empty-content responses
   for this root file and the toolbox copy were connector-size artifacts, not
   evidence that either source was zero bytes; the prior zero-byte
