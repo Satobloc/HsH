@@ -1,42 +1,15 @@
 # Current Reconstruction Checkpoint
 
-1. **Source and position:** `Satobloc/HsH` live-conversation upload at commit
-   `7bea7aac88b877580ef3b03cbc1c9e54ff6eb113`. The newer
-   `Succinctness And Math Check — raw (1).json` was compared through its
-   terminal active-chain message; `AUTO H(s)H Gitter — raw.json` was read
-   through active-chain message 79 of 79.
-2. **Coverage:** The dated Succinctness baseline contains 321 active-chain
-   messages. The newer file has an exactly identical 321-message prefix plus two
-   messages, both read fully. The automation conversation's 79-message active
-   chain was read sequentially in full. Abandoned JSON branches were excluded;
-   automation configuration/tool payloads were described but not treated as
-   theory evidence.
-3. **Synthesis advance:** Added `synthesis/LIVE_REBUILD_STATUS.md` and updated
-   the cumulative map with the live construction stage, the three active
-   representations, and the measurement-status boundary.
-4. **Framework statement:** The conceptual picture now guides a ground-up pass
-   through primitive identification, characterization, and scale calibration.
-   Reduced Minkowski links/rings, full 4D carriers, and 3D resolving slices must
-   remain distinct.
-5. **Status changes:** The construction order and representation distinction are
-   `SRC/ACTIVE`. The Kerr/Compton numerical package is `GEN/CANDIDATE`:
-   its equalities follow conditionally, but the core-radius identification,
-   closed carrier, and speed assumption have not been selected.
-6. **Conflicts preserved:** A ring-like or Borromean reduced trace does not imply
-   a closed 4D filament. The candidate induction closure may instead live in the
-   finite resolving thickness. Historical formal-check labels and LLM judgments
-   do not contribute evidence.
-7. **Earliest unsupported edge:** Select the finite-core carrier and cross-section
-   (full \(B^3\) normal tube versus rank-two \(B^2\) material subbundle) and type
-   the resolving-thickness intersection before calibrating a Kerr core scale.
-8. **Repository check:** HsH advanced from
-   `654d6eb1955ebfcace02a12ee82dc3f648800972` to human upload
-   `7bea7aac88b877580ef3b03cbc1c9e54ff6eb113`, adding two live-conversation
-   snapshots. No archive or HSH_RESOURCES content was semantically reviewed in
-   this catch-up.
-9. **Next action:** Use the live main conversation and current H(s)H sources to
-   decide the typed finite-core carrier/resolving geometry, then test—not
-   assume—the Kerr/Compton calibration.
+1. **Source and position:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/H(s)H 2026 STARTUP DOCS.txt`, blob `68200d849152dcb0c4fc1814f8b1789d499ebca8`, sequentially advanced through line 900. Resume at line 901.
+2. **Coverage:** Lines 301–900 were read fully in this pass; lines 1–300 were covered in the earlier startup pass. Later source text remains unread, so this is a partial-source classification. `SPHERE4QC.txt` remains deferred at line 1301.
+3. **Synthesis advance:** Clarified that the SAT-to-H(s)H transition is not a newly thickened line. Earlier SAT already modeled effective thickness, bending, twist, tension, and interaction; H(s)H makes the external finite-core boundary and resolving-intersection description explicit.
+4. **Framework statement:** The typed transition is now `centerline-dominant description -> explicit finite-core boundary and resolving-intersection description`. An ordinary transported cross-sectional disk is only one candidate and may be the wrong accessible interface for an ER-bridge model.
+5. **Status changes:** The corrected transition statement is `SRC/ACTIVE`. ER/Kerr/Schwarzschild/naked-ring boundary models and closed-string interpretations remain `SRC/CANDIDATE`; none was promoted.
+6. **Conflicts preserved:** “The intersection is a closed string” can mean five progressively stronger things, from closed-loop geometry through formal equivalence. The source does not establish that those levels coincide.
+7. **Earliest unsupported edge:** Select and type the finite-core carrier, effective external boundary, and resolving-thickness intersection before importing boundary dynamics or calibrating a Kerr/Compton scale.
+8. **Repository check:** The archive remains at `ce47b3fa16cd28708fcec5202f2c117e91e6e225` and HSH_RESOURCES at `9f79a66dfdc561e7cf83657cf9679d394006da03`. HsH’s newer pre-pass commits were team-coordination artifacts; no new human theory source was detected after `7bea7aac88b877580ef3b03cbc1c9e54ff6eb113`.
+9. **Next action:** Resume `H(s)H 2026 STARTUP DOCS.txt` at line 901 and continue sequentially, watching for later user corrections to the boundary/intersection candidates.
 
-Preserved cursors: `H(s)H 2026 STARTUP DOCS.txt` line 301;
-`SPHERE4QC.txt` line 1301.
+Search attention in the completed range: `thickness`, `cross-sectional geometry`, `ER bridge`, `boundary`, `closed string`, `Kerr`, `ergosphere`, and `resolving intersection`. Principal missed-context risk: later portions may narrow or displace the parallel boundary candidates.
+
+Preserved secondary cursor: `SPHERE4QC.txt` line 1301.
