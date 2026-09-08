@@ -507,3 +507,14 @@ Passing those conditions yields a **tentative conjecture**, not a certified resu
 This is a research-governance rule rather than a mathematical theorem. “No added geometry,” “small number,” “similar systems,” and the independence of a purported holdout must be made operational for each candidate; otherwise the rule can be satisfied rhetorically after the fact.
 
 **Status:** admissibility and cross-sector promotion discipline `SRC/ACTIVE`; operational tests for individual candidates `OPEN`.
+
+
+## Completed startup-source assessment
+
+The final portion of `H(s)H 2026 STARTUP DOCS.txt` is a generated retrospective assembled after several uploaded legacy batches. It is useful as a claim inventory, but it does not independently select the finite-core carrier, vacuum/background, readout, metric mechanism, or interaction equations. Its compact chain—Minkowski map, radial/rotational extension, finite-core histories, H(s)H representation, analytical tools, two interaction classes, inherited readouts—agrees broadly with the present synthesis because it summarizes much of the same conversation; it is not additional corroboration.
+
+A user correction within the source establishes a narrower historical vocabulary correspondence: an earlier construction being discussed as the **Donut** was recognized as the **Whirligig**. This supports treating those two names as potentially referring to the same operative construction in that source lineage. It does **not** by itself establish that every archive use of “Donut” and “Whirligig” is coextensive, that the Whirligig is a transformation space, or that the UI is its coordinate realization. Those stronger role assignments are generated extrapolations and remain open until the direct Donut/Whirligig sources are compared.
+
+The closing summary also repeats a proposed division in which the UI generates configurations and the Donut/Whirligig transforms or compares them. That is a useful interface hypothesis, not yet a recovered operation specification.
+
+**Status:** startup source fully ingested; historical Donut/Whirligig correspondence `SRC/ACTIVE` within its stated lineage; universal name identity and UI–Whirligig operator hierarchy `GEN/CANDIDATE`; exact tool operations `OPEN`.
