@@ -63,7 +63,7 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 | LOCATED | `[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt` | Distinct toolbox copy not yet sequentially compared with the root source. |
 
 | FULL, 260 lines | `SAT 2026 ROUNDUP DOCS/SAT VERSIONS — 25 SAT VERSIONS.txt` | Despite its title, this is not a 25-version catalogue. It is a short archive-browsing/methodology conversation. Its controlling user correction reframes SAT's first move as using existing four-dimensional surveying tools to draft the largest coherent structure they permit—not merely adding time or privileging a 3D slice. Early assistant inventories remain generated leads. |
-| LOCATED | `SAT_HISTORY_ROUNDUP.txt` and copies at `SATOBLOC MISC/` and `[[SAT PARADIGM]]/SAT TIMELINE [old].txt` | Actual phase/version table located through content search. Copies appear content-equivalent from excerpts but require direct hash/full-read confirmation. |
+| FULL, 2,253 lines; DUPLICATE LINEAGE | `SAT_HISTORY_ROUNDUP.txt`; `SATOBLOC MISC/SAT_HISTORY_ROUNDUP.txt`; `[[SAT PARADIGM]]/SAT TIMELINE [old].txt` | Three paths are byte-identical blob `187d307853c070bb767ff034a89c7dd6fcc96df5`. Mixed human/generated, heavily repetitive history router. The direct human preface establishes that much of the geometric and interaction picture existed by the mid-2000s; generated phase tables route later formalizations but do not validate their dates or closure claims. |
 
 ## C. Spherical-constraint toolchain
 
