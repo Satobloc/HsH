@@ -104,6 +104,28 @@ generated navigation leads and do not alter their current status.
 cosmic atlas is empirically available `OPEN`; generated recurrent-feature
 inventory `GEN/HISTORICAL`.
 
+### Concept chronology is not document chronology
+
+`SAT_HISTORY_ROUNDUP.txt` is a highly repetitive mixed compilation rather than
+a primary version ledger. Its direct human preface says that, by the mid-2000s,
+the central geometric picture already included motion, particle interaction and
+QCD-like binding, and the timesheet/time-wavefront functioning as Einsteinian
+spacetime. Later version names and file dates must therefore be read as
+**formalization, implementation, or packaging events**, not automatically as
+the birth dates of their underlying ideas.
+
+The compilation still supplies a coarse routing spine: pre-AI notebooks and
+drawings; `SAT:SoT` in late 2024; Mark/SATv/SAT-X transitional builds in
+April–May 2025; SAT O and modular four-dimensional work in June 2025; and
+Blockwave/SATO work in September–October 2025. Those phase assignments are
+generated historical routing leads until checked against their direct source
+documents. The file's claims of completed closure, exact prediction, gauge or
+metric recovery, and ultraviolet finiteness remain unpromoted.
+
+**Status:** direct human preface `SRC/HISTORICAL`; coarse phase router
+`GEN/HISTORICAL-ROUTING`; exact milestone chronology and formal dependencies
+`OPEN`.
+
 ### Construction and evaluation protocol
 
 `H(s)H FIRST BUILD.txt` repeatedly corrects an attempted jump from intuitions
