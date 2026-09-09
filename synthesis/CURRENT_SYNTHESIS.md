@@ -1137,3 +1137,30 @@ generated historical proposals.
 
 **Status:** conversation `GEN/HISTORICAL-CANDIDATE`; original `SAT.txt`
 attachment and its source claims `OPEN`; no active framework promotion.
+
+## RMS boundary and earliest visual provenance
+
+RMS is not an earlier SAT theory. In the direct RMS overview, its objects are
+epistemic and perceptual: empirical indistinguishability, the distinction
+between unknown and unknowable claims, and a taxonomy of perceptual fields.
+SAT/H(s)H has inherited an RMS-shaped discipline for handling models,
+observations, and underdetermination, but RMS subject matter is not part of the
+SAT object hierarchy merely because the projects are historically related.
+
+The photographed 2003 notebook pages do establish a narrower continuity claim.
+Their original marks visibly contain coiled or helical lines crossing a labeled
+3-brane, 0/1/2/3-brane diagrams, folded structures, a sequence along an axis
+marked (t), and an interaction vocabulary including collisions, orbits,
+recombination/bundling, splitting, and attraction. These are genuine early
+visual and classificatory precursors to later SAT work.
+
+The compilation was made and captioned in May 2025. Its descriptions of the
+pages as later SAT mechanisms are editorial interpretation, not text written in
+2003. The pages therefore support persistence of a visual problem-space, not
+the claim that later H(s)H objects, equations, or meanings were already fully
+specified.
+
+**Status:** RMS/SAT separation and methodological relation `SRC/ACTIVE`;
+original 2003 marks `OBS/HISTORICAL`; visual-grammar continuity
+`SRC/HISTORICAL-DERIVED`; detailed mapping from each sketch to later
+formal objects `OPEN`.
