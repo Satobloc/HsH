@@ -62,6 +62,9 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 | PARTIAL, lines 1–4,800 of 7,259 | `SAT to H(s)H TRANSITION.txt` | Tentative compilation. Opening remains centerline-based; distinguishes resolving readout from BV coarse-graining, preserves an (R_\Sigma) vs endogenous “Temperon” fork, and inventories typed admission requirements for imported tools. **Resume at line 4,801.** |
 | LOCATED | `[[SAT26 TOOLBOX]]/SAT to H(s)H TRANSITION.txt` | Distinct toolbox copy not yet sequentially compared with the root source. |
 
+| FULL, 260 lines | `SAT 2026 ROUNDUP DOCS/SAT VERSIONS — 25 SAT VERSIONS.txt` | Despite its title, this is not a 25-version catalogue. It is a short archive-browsing/methodology conversation. Its controlling user correction reframes SAT's first move as using existing four-dimensional surveying tools to draft the largest coherent structure they permit—not merely adding time or privileging a 3D slice. Early assistant inventories remain generated leads. |
+| LOCATED | `SAT_HISTORY_ROUNDUP.txt` and copies at `SATOBLOC MISC/` and `[[SAT PARADIGM]]/SAT TIMELINE [old].txt` | Actual phase/version table located through content search. Copies appear content-equivalent from excerpts but require direct hash/full-read confirmation. |
+
 ## C. Spherical-constraint toolchain
 
 | Coverage | Source | Annotation |
