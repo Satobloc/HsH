@@ -4,6 +4,8 @@ Status: **provisional and cumulative**. This map records only claims recovered
 from sequential source reading. It is not a declaration that every listed
 construction is physically established.
 
+The exact source-coverage map is maintained in [SURVEYED_SOURCES.md](SURVEYED_SOURCES.md).
+
 ## Live rebuild state and representation stack
 
 The live conversations now control current intent. The conceptual H(s)H picture is
@@ -213,13 +215,17 @@ Ravel's Worldtube Lab baseline supplies the inherited Kerr geometry and a
 provisional electron scale. With
 
 [
-a=rac{J}{mc},qquad J=rac{hbar}{2},
+a=
+rac{J}{mc},qquad J=
+rac{hbar}{2},
 ]
 
 the electron reference is
 
 [
-a_e=rac{hbar}{2m_ec}approx1.9308	imes10^{-13} {m m},
+a_e=
+rac{hbar}{2m_ec}approx1.9308	imes10^{-13} {
+m m},
 ]
 
 with (D_0=2a_e), (C_0=2pi a_e), and coordinate mouth area
@@ -227,7 +233,9 @@ with (D_0=2a_e), (C_0=2pi a_e), and coordinate mouth area
 spheroids,
 
 [
-rac{x^2+y^2}{r^2+a^2}+rac{z^2}{r^2}=1,
+
+rac{x^2+y^2}{r^2+a^2}+
+rac{z^2}{r^2}=1,
 ]
 
 and at (r=0) the family degenerates to an equatorial disk bounded by the Kerr
