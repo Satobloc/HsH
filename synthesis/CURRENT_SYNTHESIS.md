@@ -802,6 +802,37 @@ change Euler–Lagrange trajectories. This licenses a lossless comparison of old
 and new Lagrangians; it does not make either Lagrangian an accepted H(s)H
 action.
 
+### Operator grammar and inductive-angle notation
+
+The current Worldtube Lab handoff makes the safest operator grammar explicit.
+For a state, equation, or typed object (P),
+
+[
+P=[P]_{mathcal T}+Delta_{mathcal T}P,
+]
+
+where (mathcal T) is the admissible invertible transformation family,
+([P]_{mathcal T}) is a canonical representative, and
+(Delta_{mathcal T}P) is a typed residual. Literal subtraction is valid only
+when the object's state space supports it. The historical `P-P = operator`
+syntax remains open; neither the exact family (mathcal T) nor a complete
+“P rotation” has yet been frozen.
+
+The same packet records `ᚼ` as the **inductive angle** and `ᚼᚼ` as a
+provisional **coupled angle-expansion state**, not (ᚼ^2). The exact
+finite-core definition of (ᚼ) still requires a declared worldtube domain,
+tangent/director frame, reference expansion or growth direction, and
+orientation convention. Four-cardinal tuples, the 4-simplex/16-cell calibration
+objects, additive residual channels, and the doubled-rune coupling all remain
+candidates until the carrier supplies their mathematical type and composition
+law. The six rotational-plane IDs are retained as useful legacy indexing, not
+as a selected worldtube primitive.
+
+**Status:** default-once/deviation-only discipline and inductive-angle vocabulary
+`SRC/ACTIVE`; `ᚼᚼ`, canonical representative/residual notation, and cardinal
+deployment `SRC/CANDIDATE`; exact (P)-rotation operator, transformation
+family, and finite-core (ᚼ) definition `OPEN`.
+
 Generated replies also propose normalized roles for the UI, Whirligig, Spheres,
 and Graticule. Those assignments remain `GEN/CANDIDATE`: the direct
 construction sources must still define each operation and domain.
