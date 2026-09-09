@@ -48,7 +48,9 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 | Coverage | Source | Annotation |
 |---|---|---|
-| FULL | `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` | Early structural seed: modeled 4D filament histories, resolving timesheet, intersectional particle readout, interaction/backreaction, and benchmark discipline. RMS may inform the method used to evaluate such claims, but it is a separate framework. |
+| FULL, 6 pages / 163 extracted lines | `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` | Foundational charter dated February 2, 2025 and updated February 26, 2026. Fixes the durable picture as complete filament histories, a resolving time wavefront, intersectional readout, reciprocal filament–wavefront interaction, and helical recording of internal/external deformation. Older ontic, lattice, raw `theta_4`, constant, string-import, and photon/dark-sector proposals retain their historical or candidate status. |
+| DUPLICATE | `THE FUNDAMENTAL INTUITIONS — EXTENDED 2.pdf` | Byte-identical presentation of the same six-page source; not independent support. |
+| FULL | `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` | Earlier plain-text form of the structural seed: modeled 4D filament histories, resolving timesheet, intersectional particle readout, interaction/backreaction, and benchmark discipline. RMS may inform the method used to evaluate such claims, but it is a separate framework. |
 | FULL | `RMS (Radical Meta-Skepticism).txt` | Direct RMS overview. Defines an epistemological/perceptual framework organized around empirical indistinguishability, unknown versus unknowable claims, and a taxonomy of perceptual fields. Establishes methodological inheritance into SAT without making RMS a SAT theory. |
 | FULL VISUAL, 8 pages | `2023-24 FRAMEWORK DEVELOPMENT/SAT_Earliest_Notebook_2003_Documented.pdf` | Photographs of a notebook dated February–June 2003, compiled and captioned in May 2025. Original marks visibly include coiled/helical lines crossing a labeled 3-brane, 0/1/2/3-brane diagrams, folded structures, an evolution axis, and an interaction taxonomy (collisions, orbits, recombination/bundling, splitting, attraction). Later captions are editorial interpretation, not 2003 testimony. |
 | FULL VISUAL | `2003 SKETCHES/Earliest_Surviving_Sketches_*.png` (8 source images) | Original-resolution inspection of the eight images used in the documented PDF. Supports long visual-grammar continuity only; it does not establish later equations, object identities, or terminology. |
@@ -120,7 +122,7 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 ## G. Highest-priority gaps now visible
 
-1. **Fundamental Intuitions extended versions:** `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` and identical `EXTENDED 2.pdf` are located but not yet sequentially read. This is now the first conceptual priority.
+1. **Fundamental Intuitions chronology bridge:** the extended source is now fully read; the next gap is the intermediate record showing how its stable architecture was implemented, revised, or retyped across successive SAT builds.
 2. **SAT26/SAT2026 chronology and routing:** the SAT26 toolbox, `[[[SAT26_BIGBOOK]]]`, `SAT 2026 ROUNDUP DOCS/SAT VERSIONS — 25 SAT VERSIONS.txt`, math/thought roundups, and recent root dumps need a chronology-first pass.
 3. **Early-2026 hyperhelical dynamical kernels:** `4DHH LAGRANGIAN (nolat).pdf`, `4DHH-UC BUILDOUT DEV.txt`, `BYO LAGRANGIAN.txt`, Particle Zoo / particle-Lagrangian, Satobloc, hyperhelical and hypersuperhelical sources have been located but not yet read as the controlling same-lineage kernel.
 4. **Direct tool sources:** UI, Whirligig/Donut, Spheres, Graticule, and `ᚼ` need direct operational-source reads. So far Spheres has the strongest direct-source coverage; UI/Whirligig roles are still partly reconstructed from later conversations.
@@ -132,7 +134,7 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 - Resume `SAT to H(s)H TRANSITION.txt` at **line 4,801**, but only after the higher-precedence Fundamental Intuitions and SAT26/early-2026 kernel pass.
 - Preserve `SPHERE4QC.txt` at **line 1,301** until the conceptual synthesis specifically requires the backend audit.
-- Next direct source: **`THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf`**, followed by the SAT26/SAT2026 chronology router and then the early-2026 4DHH/BYO/Particle-Zoo kernel set.
+- Next direct action: use the SAT26/SAT2026 chronology router to select the earliest high-value bridge between the Fundamental Intuitions and the early-2026 4DHH/BYO/Particle-Zoo kernel set.
 
 ## I. Search vocabulary already used
 
@@ -148,9 +150,9 @@ current`, `Temperon`, `theta_4`, `B`, `Q=3`, `Polyakov`, `worldsheet`,
 ## J. Missed-context risk
 
 The current map is well grounded in the read sources above, but the risk of
-mis-weighting the programme is still **high** until the extended Fundamental
-Intuitions, SAT26/SAT2026 chronology, and early-2026 hyperhelical Lagrangian
-sources are read directly. Those sources may repair vocabulary, restore intended
+mis-weighting the programme is still **high** until the SAT26/SAT2026 chronology and early-2026 hyperhelical Lagrangian
+sources are read directly. The extended Fundamental Intuitions is now fully
+covered. Those sources may repair vocabulary, restore intended
 dependencies, or displace generated summaries without changing the SAT/H(s)H construction lineage. RMS remains a separate
 epistemological framework whose relation to SAT is methodological and
 historical, not theory identity.
