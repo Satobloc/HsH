@@ -404,6 +404,45 @@ repeated dependence on HSUCV/unit-cell geometry, `Q <= 3`, `Z_3`,
 dark-sector, cosmological, and numerical “locks” `GEN/QUARANTINED`; actual
 line-based 4DHH action `OPEN` pending a direct kernel source.
 
+### Early-2026 4DHH-UC buildout exposes a line kernel, but not its lift
+
+The first 1,200 lines of `4DHH-UC BUILDOUT DEV.txt` are a mixed March 2026
+development compilation: direct user methodological corrections are embedded
+among repeated assistant syntheses, proposed papers, audits, and particle
+tables. Unlike the later `4DHH LAGRANGIAN (nolat).pdf`, this range does give
+an explicit candidate center-history,
+
+[
+gamma^mu(lambda)=left(lambda,,
+ell_fsum_{i=1}^{n}sin!left(rac{2pi n_ilambda}{ell_f}+phi_iight)
+hat e_iight),
+qquad v^mu=dotgamma^mu,quad a^mu=ddotgamma^mu .
+]
+
+This is evidence for the intended line-based 4DHH kinematic skeleton. It is not
+yet a complete nested H(s)H parametrization: the source does not define the
+basis and ambient signature cleanly, distinguish simultaneous transverse modes
+from recursive helices, specify admissible variations, or derive the displayed
+field-density action from this curve. The accompanying
+(int d^4xsqrt{-g}(mathcal L_{UC}+mathcal L_{4DHH})) lives on a spacetime
+domain, while the generator lives on a one-parameter curve; no push-forward,
+ensemble measure, or continuum limit connecting them is supplied in the range
+read.
+
+The controlling human correction in this range is methodological: prefer a
+coarser geometry-grounded relation that preserves cross-sector attachment over
+a numerically precise but non-geometric fit, and audit each proposed attachment
+point rather than treating consensus among generated reports as authority.
+That principle does not validate the proposed (2B), (B^4), (Qle3),
+(Z_3), raw (	heta_4), lattice, metric, or particle assignments that surround
+it.
+
+**Status:** geometric-attachment priority `SRC/HISTORICAL` and consistent with
+the active construction method; explicit superhelix generator
+`GEN/HISTORICAL-CANDIDATE`; curve-to-field/lattice coupling, recursive
+hyperhelix definition, and finite-core lift `OPEN`; advertised inherited-domain
+recoveries `GEN/QUARANTINED`. Resume this source at line 1,201.
+
 ## 6. Curve formalism, finite-core morphology, and tools
 
 `HsH ARCHITECTING.txt` preserves the four-dimensional superhelical curve as the
