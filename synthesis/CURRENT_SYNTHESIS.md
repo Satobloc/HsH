@@ -765,6 +765,47 @@ existing admissibility gate, but the paper does not itself preregister or execut
 that holdout test. Its broad equation battery is demonstration material, not an
 H(s)H derivation.
 
+### Common-length baseline and the temporal residual
+
+A subsequent current conversation supplies a controlling user correction to the
+phrase “time-to-length normalization.” All four coordinates should be
+length-valued from the outset:
+
+\[
+X^A,\qquad [X^A]=\mathrm m,\qquad A=1,2,3,4.
+\]
+
+Thus \(w=ct\) is bookkeeping that places temporal and spatial displacement in
+one dimensional currency; it does not make time “spatial,” select a preferred
+axis, or generate dynamics. Only after equal dimensional footing, system-derived
+scale normalization, and admissible reorientation may a persistent directional
+difference be cataloged as a candidate temporal residual. “Time residual
+fringe” and “Relativityvision” are current user vocabulary for this inquiry, not
+yet mathematical objects or results.
+
+The same source contains a standard exact reparameterization check. If
+
+\[
+S=\int L(q,\dot q,t)\,dt,\qquad w=ct,
+\]
+
+then
+
+\[
+L_w(q,q_w,w)=\frac1c L\!\left(q,cq_w,\frac wc\right),
+\qquad p_w=p,\qquad H_w=\frac Hc.
+\]
+
+The overall \(1/c\) is indispensable when comparing actions, canonical
+momenta, Hamiltonians, or units, even though a constant overall factor does not
+change Euler–Lagrange trajectories. This licenses a lossless comparison of old
+and new Lagrangians; it does not make either Lagrangian an accepted H(s)H
+action.
+
+Generated replies also propose normalized roles for the UI, Whirligig, Spheres,
+and Graticule. Those assignments remain `GEN/CANDIDATE`: the direct
+construction sources must still define each operation and domain.
+
 **Status:** frozen normalization/residual protocol `SRC/ACTIVE` as a current
 methodological control; individual rewritten standard laws `STD/DERIVED` in
 their original domains; claimed cross-sector compression `SRC/CANDIDATE`
@@ -836,6 +877,10 @@ resolving map.
   byte-identical source copies (blob `52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1`),
   all 1,454 lines read sequentially. They are the source representation of the
   PDF and are not counted as independent support.
+- `H(s)H_TIME_RESIDUALS.txt`, byte-identical at the archive root and
+  `HsH/LIVE CONVOS/` (blob `ff346a1953e2f0d0a60c29fc6d389b11e75e2172`),
+  read fully and sequentially. Current discussion/source commentary; embedded
+  user corrections control over generated tool assignments and roadmap claims.
 - `SAT O Derivations/CODE-LOCKED DERIVS.txt`, blob
   `783b05d39d59bf854b92090e15d205e6823b51c8`, lines 1–448 read fully and
   sequentially. Its D2 classical dispersion was reconstructed conditionally;
