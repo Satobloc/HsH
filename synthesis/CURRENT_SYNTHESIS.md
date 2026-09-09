@@ -198,6 +198,65 @@ observable interaction properties.
 model and every named boundary/string realization `SRC/CANDIDATE`; selected
 finite-core carrier and resolving-intersection type `OPEN`.
 
+### Current finite-core candidate: Kerr/ER worldtube, not bare ring
+
+A current user correction now narrows the intended finite core. The working
+modeled object is a Kerr/ER-type extended worldtube: Kerr ring/core and ER
+neck/mouth, together with whatever genuine deformable near-core shell,
+interface, or layered structure persists outward and can participate in
+contact, circulation, and resolving-wavefront deformation. This is a model
+assignment, not an ontological claim. It also does not identify the bare Kerr
+ring, an ordinary subextremal ergosphere, or the later persistent hyperhelical
+coil with one another.
+
+Ravel's Worldtube Lab baseline supplies the inherited Kerr geometry and a
+provisional electron scale. With
+
+[
+a=rac{J}{mc},qquad J=rac{hbar}{2},
+]
+
+the electron reference is
+
+[
+a_e=rac{hbar}{2m_ec}approx1.9308	imes10^{-13} {m m},
+]
+
+with (D_0=2a_e), (C_0=2pi a_e), and coordinate mouth area
+(A_0=pi a_e^2). Constant-(r) Kerr spatial coordinate surfaces are oblate
+spheroids,
+
+[
+rac{x^2+y^2}{r^2+a^2}+rac{z^2}{r^2}=1,
+]
+
+and at (r=0) the family degenerates to an equatorial disk bounded by the Kerr
+ring. These formulas describe the inherited reference geometry; identifying
+(a_e) as the H(s)H core radius remains a working assignment under attack.
+The electron-like Kerr/Kerr-Newman regime is over-extreme relative to the
+ordinary black-hole regime, so a standard subextremal ergosphere cannot be
+borrowed as the required shell thickness.
+
+The current relation between 4DHH and H(s)H is also corrected. They express the
+same nested hyper(super)helical modeling claim at different explicitness:
+line-based 4DHH provides the principal curve/dynamical kernel, while H(s)H adds
+explicit finite-core boundary, deformation, contact, and readout structure.
+The lift must recover the 4DHH equations in its centerline or vanishing-core
+limit rather than treating them as a discarded competing theory.
+
+A further current candidate links non-coincidence of finite cores to an
+asymptotic contact/exclusion law and, more speculatively, to an
+ER=EPR/Pauli correspondence. This is not yet derived. It requires a
+configuration space, distance/contact functional, admissible asymptotic limit,
+and proof that the resulting state-counting or exchange behavior reproduces
+Pauli exclusion rather than merely geometric impenetrability.
+
+**Status:** Kerr/ER-worldtube object role and 4DHH-to-H(s)H continuity
+`SAT/ACTIVE` by current user correction; inherited Kerr formulas
+`STD/DERIVED` within their declared coordinate model; electron core-scale
+assignment, deformable near-core carrier, and asymptotic exclusion mechanism
+`SRC/SAT-CANDIDATE`; ER=EPR-to-Pauli recovery `OPEN`.
+
 ## 3. Type boundary
 
 Current source material explicitly warns against sliding among a centerline, a
