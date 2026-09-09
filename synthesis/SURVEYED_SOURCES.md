@@ -3,9 +3,11 @@
 Updated: 2026-09-09
 
 This is a coverage map for the current reconstruction, not a theory-authority
-list. “Historical” means an earlier construction in the same RMS → SAT →
-SAT-O/4DHH/Blockwave/Satobloc → H(s)H lineage unless a source itself says
-otherwise. It does not mean “rival theory.”
+list. RMS and SAT are separate projects. RMS supplies a related methodological
+and epistemic stance; it is not an early version of SAT and its subject matter
+must not be imported into SAT/H(s)H. The SAT construction history runs from the
+early sketches through successive SAT builds, SAT-O/4DHH/Blockwave/Satobloc,
+and H(s)H. “Historical” describes chronology, not rejection or rival status.
 
 Coverage labels:
 
@@ -46,7 +48,11 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 | Coverage | Source | Annotation |
 |---|---|---|
-| FULL | `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` | Early structural seed: modeled 4D filament histories, resolving timesheet, intersectional particle readout, interaction/backreaction, and benchmark discipline. Ontic wording is translated through current RMS controls. |
+| FULL | `DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt` | Early structural seed: modeled 4D filament histories, resolving timesheet, intersectional particle readout, interaction/backreaction, and benchmark discipline. RMS may inform the method used to evaluate such claims, but it is a separate framework. |
+| FULL | `RMS (Radical Meta-Skepticism).txt` | Direct RMS overview. Defines an epistemological/perceptual framework organized around empirical indistinguishability, unknown versus unknowable claims, and a taxonomy of perceptual fields. Establishes methodological inheritance into SAT without making RMS a SAT theory. |
+| FULL VISUAL, 8 pages | `2023-24 FRAMEWORK DEVELOPMENT/SAT_Earliest_Notebook_2003_Documented.pdf` | Photographs of a notebook dated February–June 2003, compiled and captioned in May 2025. Original marks visibly include coiled/helical lines crossing a labeled 3-brane, 0/1/2/3-brane diagrams, folded structures, an evolution axis, and an interaction taxonomy (collisions, orbits, recombination/bundling, splitting, attraction). Later captions are editorial interpretation, not 2003 testimony. |
+| FULL VISUAL | `2003 SKETCHES/Earliest_Surviving_Sketches_*.png` (8 source images) | Original-resolution inspection of the eight images used in the documented PDF. Supports long visual-grammar continuity only; it does not establish later equations, object identities, or terminology. |
+| LOCATED | `2003 SKETCHES/SAT EARLY EARLY - 2023-5-28.PNG`, `SAT FIRST - 2024-3-24.PNG`, `SAT FIRST DIMGRAV - 2024.PNG`, `SAT FIRST Forces Temporal 2024-8-8.PNG`, `SAT PREHIST 2024-11-12.PNG`, `SAT PREHISTORY - CHAT 1.PNG`, `SAT SYSTEM - NAUT - 2025-4-6.PNG`, `SAT VERYFIRST 2024-3-13.PNG` | Newly uploaded 2023–2025 visual-history tranche; structurally located but not yet individually interpreted. |
 | FULL, 801 lines | `Early SAT/SAT intro.txt` | April 4, 2025 editorial compilation. Strongest retained correction is reconfiguration-first: ordinary interactions transport/reorganize existing histories before exceptional creation or reconnection is introduced. |
 | DUPLICATE | `2026/Early SAT/SAT intro.txt` and another located copy | Byte-identical copies; not independent support. |
 | FULL, 711 lines | `SAT & RMS/SAT & String Theory.txt` | Historical SAT/string analogy. Exposed the unresolved dimensional choice among centerline intersection, finite-core slice, boundary slice, and lower-dimensional mode support. |
@@ -145,5 +151,6 @@ The current map is well grounded in the read sources above, but the risk of
 mis-weighting the programme is still **high** until the extended Fundamental
 Intuitions, SAT26/SAT2026 chronology, and early-2026 hyperhelical Lagrangian
 sources are read directly. Those sources may repair vocabulary, restore intended
-dependencies, or displace generated summaries without changing the overall
-single-lineage genealogy.
+dependencies, or displace generated summaries without changing the SAT/H(s)H construction lineage. RMS remains a separate
+epistemological framework whose relation to SAT is methodological and
+historical, not theory identity.
