@@ -1164,3 +1164,48 @@ specified.
 original 2003 marks `OBS/HISTORICAL`; visual-grammar continuity
 `SRC/HISTORICAL-DERIVED`; detailed mapping from each sketch to later
 formal objects `OPEN`.
+
+
+## Fundamental Intuitions: the durable picture and its movable implementations
+
+The six-page extended Fundamental Intuitions source separates a remarkably
+stable architecture from several changeable implementations. Its durable
+sequence is:
+
+[
+	ext{complete filament history}
+longrightarrow
+	ext{resolving time wavefront}
+longrightarrow
+	ext{intersectional local appearance},
+]
+
+with reciprocal coupling between filament histories and the resolver, and with
+external influence recorded in the history's course while internal structure is
+represented by superimposed helical oscillation. This is the earliest compact
+source for the later distinction between filament–filament and
+filament–resolver interaction and for the nested-hyperhelical recording idea.
+
+Its propositions also impose a benchmark discipline: Standard Model, GR, and
+quantum-mechanical behavior should be preserved unless evidence or the model's
+internal geometry forces a change. “Import with geometric translation” is
+therefore a recovery target, not permission to claim recovery from resemblance.
+
+The source's Central Dogma contains both an old ontic leap and its own limiting
+correction. It proposes treating the map as physically real, but also says the
+map's usefulness does not depend on whether it is physical or conceptual.
+Current RMS-informed controls retain the latter representational claim and
+displace the ontic commitment.
+
+The following remain implementations or hypotheses inside the picture rather
+than defining parts of it: raw `theta_4` as a mass controller; an aligned
+filament lattice as vacuum; direct derivation of constants; wholesale string
+theory import; an endogenous bosonic timesheet; one common wave equation for
+fermions, bosons, gravity, and time; holonomy as sufficient explanation of
+quantization; and photon–neutrino–dark-sector identifications.
+
+**Status:** history–resolver–readout architecture, reciprocal interaction,
+benchmark preservation, and helical recording principle `SRC/ACTIVE`;
+representational usefulness independent of ontology `SAT/ACTIVE`; ontic
+reification `SRC/HISTORICAL-DISPLACED`; named implementations above
+`SRC/HISTORICAL-CANDIDATE` or `OPEN` under current guards.
