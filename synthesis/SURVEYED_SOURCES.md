@@ -78,6 +78,7 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 | Coverage | Source | Annotation |
 |---|---|---|
+| FULL VISUAL, 21 pages / 674 extracted lines | `4DHH LAGRANGIAN (nolat).pdf` | April 13, 2026 assistant-generated stabilization transcript. Declares a root action and six named sectors but supplies no explicit hyperhelical curve, nested-helix kinematics, curvature/torsion density, or Euler–Lagrange equations. The `(nolat)` label conflicts with pervasive HSUCV/unit-cell, `Q <= 3`, `Z_3`, raw `theta_4`, `B`, and lattice-mode assumptions. Sector list retained as a historical checklist; advertised metric/gauge/mass/cosmology closures remain quarantined. |
 | FULL | `SAT O Core Modules/SAT.O Official Directives.txt` | July 2025 one-dimensional filament/wavefront model. Treated as an equation quarry in the same SAT lineage, not a competing theory or current object definition. |
 | FULL, lines 1–448 | `SAT O Derivations/CODE-LOCKED DERIVS.txt` | Mixed summary/derivation draft, not an executable lock. Retained only the repaired standard uniform-string dispersion; several topology, metric, gauge, and quantum claims fail as written. |
 | FULL | `PYTHON Math Locking (SAT.O)/..folder_summary.txt` | Pipeline orientation. |
@@ -127,7 +128,7 @@ The exact active handoff lives in [../checkpoints/CURRENT.md](../checkpoints/CUR
 
 1. **Fundamental Intuitions chronology bridge:** the extended source is now fully read; the next gap is the intermediate record showing how its stable architecture was implemented, revised, or retyped across successive SAT builds.
 2. **SAT26/SAT2026 chronology and routing:** the SAT26 toolbox, `[[[SAT26_BIGBOOK]]]`, `SAT 2026 ROUNDUP DOCS/SAT VERSIONS — 25 SAT VERSIONS.txt`, math/thought roundups, and recent root dumps need a chronology-first pass.
-3. **Early-2026 hyperhelical dynamical kernels:** `4DHH LAGRANGIAN (nolat).pdf`, `4DHH-UC BUILDOUT DEV.txt`, `BYO LAGRANGIAN.txt`, Particle Zoo / particle-Lagrangian, Satobloc, hyperhelical and hypersuperhelical sources have been located but not yet read as the controlling same-lineage kernel.
+3. **Early-2026 hyperhelical dynamical kernels:** `4DHH LAGRANGIAN (nolat).pdf` is now fully read and does not contain the sought curve kernel. `4DHH-UC BUILDOUT DEV.txt`, `BYO LAGRANGIAN.txt`, Particle Zoo / particle-Lagrangian, Satobloc, hyperhelical and hypersuperhelical sources remain to be read for the controlling same-lineage equations.
 4. **Direct tool sources:** UI, Whirligig/Donut, Spheres, Graticule, and `ᚼ` need direct operational-source reads. So far Spheres has the strongest direct-source coverage; UI/Whirligig roles are still partly reconstructed from later conversations.
 5. **Finite core:** Kerr/ER role is current, but the deformable near-core shell/interface, configuration/contact space, tangent/director frame, asymptotic exclusion law, circulation carrier, and resolving-wavefront intersection remain unselected.
 6. **Interactions:** Interbraid and Electrogravity have current verbal definitions, but no selected constitutive action yet ties direct braid/contact mechanics, cross-filament tension/hysteresis, Kelvin circulation, shell deformation, and metric/fluid readouts together.
