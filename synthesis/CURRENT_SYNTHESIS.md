@@ -374,6 +374,36 @@ coarse-graining unless restricted injectivity is derived.
 coefficients `CONSTITUTIVE UNKNOWN` until exact-source provenance and units are
 verified; Lorentzian emergence and metric recovery `OPEN`.
 
+### The file titled “4DHH Lagrangian” is not the hyperhelical curve kernel
+
+The 21-page April 13, 2026 PDF `4DHH LAGRANGIAN (nolat).pdf` is an
+assistant-generated stabilization transcript. It declares a root expression
+
+\[
+S_{UI}=\int_M d^4x\,\sqrt{-g}\,\mathcal L_{SU(2)}[g,\partial g,\dot g]
+\]
+
+and later a six-block sum for gravity, phase, elasticity, current, holonomy, and
+mixing. The blocks are named but not supplied as explicit densities with
+domains, units, variations, boundary conditions, or equations of motion. The
+source contains no parametrized hyperhelix, nested-helix construction,
+curvature/torsion action, or centerline evolution equation. It therefore cannot
+serve as the direct 4DHH dynamical kernel sought in this reconstruction.
+
+The root expression also uses a metric determinant while claiming that the
+background metric has been discarded and will emerge later. Its proposed
+`g_{mu nu}=(<v_mu v_nu>)^{-1}` does not obtain Lorentzian signature by matrix
+inversion of a positive-semidefinite tangent covariance. “Flow dominance” and
+a light-speed elasticity constraint are added declarations, not a signature
+derivation. The filename's `(nolat)` label conflicts with the document's
+repeated dependence on HSUCV/unit-cell geometry, `Q <= 3`, `Z_3`,
+`B=3/(4 pi)`, and lattice mode densities.
+
+**Status:** document `GEN/HISTORICAL`; six-block decomposition
+`GEN/CANDIDATE` as a sector checklist only; metric, gauge, mass, coupling,
+dark-sector, cosmological, and numerical “locks” `GEN/QUARANTINED`; actual
+line-based 4DHH action `OPEN` pending a direct kernel source.
+
 ## 6. Curve formalism, finite-core morphology, and tools
 
 `HsH ARCHITECTING.txt` preserves the four-dimensional superhelical curve as the
