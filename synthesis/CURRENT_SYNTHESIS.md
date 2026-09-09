@@ -69,6 +69,41 @@ holdout or cross-sector success is the stronger promotion gate.
 **Status:** `SRC/ACTIVE` as a declared research method. It is a method of model
 construction, not itself evidence that any proposed H(s)H object is correct.
 
+
+
+### Cartographic completion, not merely four-dimensional awareness
+
+The misleadingly titled `SAT VERSIONS — 25 SAT VERSIONS.txt` contains a
+controlling methodological correction rather than a version catalogue. SAT's
+complaint is not that physics lacks time, worldlines, intervals, or
+four-dimensional mathematics. Nor is it adequately stated as physicists
+“treating the 3D slice as primary.” The supplied analogy is that physics has
+invented the ruler, protractor, compass, plumb bob, and related surveying tools,
+but usually applies them only on the first floor rather than drafting the whole
+house.
+
+Translated into the current reconstruction, the empirical Minkowski entry layer
+is therefore a **cartographic-completion instruction**:
+
+1. retain all empirically constrained relations already supplied by inherited
+   physics;
+2. map their complete histories and mutual relations as far as the data permit;
+3. inspect the resulting larger geometry before introducing additional
+   primitives.
+
+This does not make a worldline ontologically primary, guarantee global
+coherence, or imply that an unknown total history can actually be reconstructed.
+It specifies what information the model should avoid discarding and why
+single-slice adequacy is not sufficient for SAT's purpose.
+
+The assistant's earlier archive inventory in the same file promotes recurrent
+lattice, raw-angle, and (Z_3) vocabulary by repetition. Those statements remain
+generated navigation leads and do not alter their current status.
+
+**Status:** cartographic-completion method `SRC/ACTIVE`; claim that a complete
+cosmic atlas is empirically available `OPEN`; generated recurrent-feature
+inventory `GEN/HISTORICAL`.
+
 ### Construction and evaluation protocol
 
 `H(s)H FIRST BUILD.txt` repeatedly corrects an attempted jump from intuitions
