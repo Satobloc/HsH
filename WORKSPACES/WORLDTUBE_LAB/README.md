@@ -6,6 +6,12 @@ Live construction workspace for Nathan + Ravel + Janus.
 
 This workspace is for bounded forward-construction work on particle/worldtube geometry. Slack is the live bench; this directory is the durable state. It is not a source-authority layer by itself.
 
+## Current handoff packets
+
+- [`KERR_CORE_BASELINE.md`](./KERR_CORE_BASELINE.md) — provisional Kerr/ER core geometry baseline for forward construction.
+- [`OPERATOR_NORMALIZATION_HANDOFF.md`](./OPERATOR_NORMALIZATION_HANDOFF.md) — operator grammar, `ᚼ` / `ᚼᚼ` notation, common length-coordinate normalization, residual-anisotropy audit, instrument roles, Lagrangian conversion, and worldtube entry checklist.
+- [`OPERATOR_SPEC.json`](./OPERATOR_SPEC.json) — compact machine-readable state for the operator/normalization handoff.
+
 ## Default work sequence
 
 1. Native standard formulation / measurement.
