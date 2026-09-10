@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T20:41:39+00:00`
-- Tree/content state: `46affc0710c7acddbf6b808c9bafe386a3d08ec1b4e40a39ec82b887fa48c0e9`
+- Scanned: `2026-09-10T21:58:47+00:00`
+- Tree/content state: `01059fc5c5b2233e0a6d58964d698bb7099fcb1a2b04c2727ba4542227643507`
 - Coverage: 393 files, 38 directories
 - GitHub tree response truncated: `false`
 
@@ -529,7 +529,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09•26.09.10•🧮 H(s)H Archive Audit Thread — raw.json` — 4700989 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json` — 282163 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
-- `HISTORY_TIMELINE.md` — 7547 bytes — `unclassified`
+- `HISTORY_TIMELINE.md` — 13483 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
 - `LICENSE` — 19441 bytes — `license`
 - `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `live-conversation-corpus`

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 817361996,
+    "bytes_known": 817367932,
     "directories": 38,
     "files": 393
   },
@@ -2545,11 +2545,11 @@
       "size": 1
     },
     {
-      "content_id": "3a78c29bef608dfa6f7e42ac4c99aa9ddc8dcea9549d5765b46f07f8de26e0d4",
+      "content_id": "688fdc5dd95402b16284f3a75c943933278cb0182c698bdee1162b94b30392f3",
       "kind": "blob",
       "path": "HISTORY_TIMELINE.md",
       "role": "unclassified",
-      "size": 7547
+      "size": 13483
     },
     {
       "content_id": null,
@@ -3252,14 +3252,14 @@
       "size": null
     },
     {
-      "content_id": "7ca654b629751902027e309d25828546c40cb1433b96588ada4e95b0487fd6b9",
+      "content_id": "abc8f1131e68fbceb53472bd788c406ee1a9e71a29a7fcade6b81bce92cdb6b3",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "c6b3bacfbeeab8998f1d968d0e917f994ea9d22aafabd5ac4b249c62738a0f79",
+      "content_id": "3cdf85027c05c86490ca92b46bb6b34dd8c7eda7a3897d6383c3bdc669bd9b51",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3280,14 +3280,14 @@
       "size": null
     },
     {
-      "content_id": "ef76230779bea2ee2187b6fc6b204b16760a4eda2967393d93e936111bcdec4b",
+      "content_id": "c279bccf04aa41a141af8e8599aec5ccad5361f5b5e43a1d8285dadb77c981ba",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "eee7577bcf3518d2fbbd5881ee87a44c99d161b34f363a73bef04e43c49be679",
+      "content_id": "2fcac6d10270225bb35a47b7500c1f902f2607ea607e9fc55a1d23328b09e511",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3463,8 +3463,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T20:41:39+00:00",
+  "scanned_at_utc": "2026-09-10T21:58:47+00:00",
   "schema_version": 1,
-  "tree_id": "46affc0710c7acddbf6b808c9bafe386a3d08ec1b4e40a39ec82b887fa48c0e9",
+  "tree_id": "01059fc5c5b2233e0a6d58964d698bb7099fcb1a2b04c2727ba4542227643507",
   "tree_response_truncated": false
 }
