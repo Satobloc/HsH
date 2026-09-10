@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-09-10T13:18:49.373660+00:00",
+  "generated_at_utc": "2026-09-10T13:21:08.970381+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 223,
-    "skipped": 34,
-    "renamed": 1
+    "unchanged": 224,
+    "skipped": 35
   },
   "records": [
     {
@@ -985,6 +984,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "start_local": "2026-07-07T15:22:15.828080-04:00",
+      "end_local": "2026-07-12T16:34:30.981369-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 460,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
       "start_local": "2026-07-11T02:13:07.596000-04:00",
@@ -1027,6 +1036,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/delphi_bhabha188_manifest.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -1049,16 +1070,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/🥼 Raindrop Exploration — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
-      "start_local": "2026-07-07T15:22:15.828080-04:00",
-      "end_local": "2026-07-12T16:34:30.981369-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 460,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",

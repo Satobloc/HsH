@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-10T13:18:56.349504+00:00`
+- Generated: `2026-09-10T13:21:15.744992+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **224**
-- Skipped non-conversation or unparseable files: **34**
+- Skipped non-conversation or unparseable files: **35**
 - Exact duplicate-content groups: **41**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -475,6 +475,7 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/1.5 🏯 SAT GITKEEPER — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/1.5%20%F0%9F%8F%AF%20SAT%20GITKEEPER%20%E2%80%94%20raw.txt) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/2 🏯 SAT GITKEEPER — raw.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/2%20%F0%9F%8F%AF%20SAT%20GITKEEPER%20%E2%80%94%20raw.txt) — Extra data: line 40 column 11 (char 1601)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/HsH_INFORMATION_CONSERVATION.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/HsH_INFORMATION_CONSERVATION.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/delphi_bhabha188_manifest.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/delphi_bhabha188_manifest.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT%20GEOMETRIC%20SOLVERS.txt) — Expecting value: line 1 column 1 (char 0)
