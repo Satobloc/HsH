@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 817425745,
+    "bytes_known": 817427187,
     "directories": 40,
     "files": 399
   },
@@ -3303,14 +3303,14 @@
       "size": null
     },
     {
-      "content_id": "e432f436308fa74288886495678df1d971061c1160b01192e555c2e5414caa2e",
+      "content_id": "e29c6462dcea57f4aef3decb69a0224559b89fb8009bdecf7a6adc8b1244b36f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "4d6ae3809752f0add700020d9376bb56aef0c1a44dfd52268456a43218690b76",
+      "content_id": "9730787e04a32a82f2ad31801f01fa3f9174e844450f060eb7b86fe6d571da54",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3331,14 +3331,14 @@
       "size": null
     },
     {
-      "content_id": "b69e2aa08c7500f351f63700a37175369813aa7a1dd3e246f8b3c91d28fb69af",
+      "content_id": "80bb8ee5f1a0c89419e26c494b5d84de4c025304620a06ff1d86c40ae04fe533",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "02f98d77078bca4c56b409f4ee5f6cf64127f97c3054237e6d847006371e994a",
+      "content_id": "ddab4cbe392bf74369b5b8fa52ac0ea5943e3386b24a7ddecdaf9204a107502e",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3443,11 +3443,11 @@
       "size": null
     },
     {
-      "content_id": "4c6ffe08316dce9d1ca0c3eb9caefd1c73a1d53225004ce4113bfbd73fbfe893",
+      "content_id": "1a447324471698e3c2344e5bd4c829864c104c4b257a4d143d901e7f2e69f3d1",
       "kind": "blob",
       "path": "tools/build_public_library.py",
       "role": "archive-tooling",
-      "size": 11346
+      "size": 12788
     },
     {
       "content_id": "2a84e79e658fb3f665f0177383b9f4750c6e269a927a3b71ce599a52efbd49c8",
@@ -3521,8 +3521,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T22:44:12+00:00",
+  "scanned_at_utc": "2026-09-10T23:47:53+00:00",
   "schema_version": 1,
-  "tree_id": "9fb6e9fa7bb05e152800d1ff497d4098fa624abdeb11ca85fb8e96561e0db434",
+  "tree_id": "dccd6f76bfc720f9b83552f0a30d488089f16978c6117082af2ddb87da677992",
   "tree_response_truncated": false
 }

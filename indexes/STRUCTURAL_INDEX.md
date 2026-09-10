@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T22:44:12+00:00`
-- Tree/content state: `9fb6e9fa7bb05e152800d1ff497d4098fa624abdeb11ca85fb8e96561e0db434`
+- Scanned: `2026-09-10T23:47:53+00:00`
+- Tree/content state: `dccd6f76bfc720f9b83552f0a30d488089f16978c6117082af2ddb87da677992`
 - Coverage: 399 files, 40 directories
 - GitHub tree response truncated: `false`
 
@@ -635,7 +635,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_public_library.py` — 11346 bytes — `archive-tooling`
+- `tools/build_public_library.py` — 12788 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
 - `tools/index_archive.py` — 10674 bytes — `archive-tooling`
