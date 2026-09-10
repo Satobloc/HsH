@@ -1,0 +1,19 @@
+{
+  "server": "https://opendata.cern.ch",
+  "selector": {
+    "recid": null,
+    "doi": "10.7483/OPENDATA.DELPHI.1TRJ.F7LL",
+    "title": null
+  },
+  "protocol": "xrootd",
+  "expanded_indexes": true,
+  "files": [
+    {
+      "index": 1,
+      "url": "root://eospublic.cern.ch//eos/opendata/delphi/collision-data/Y13741/Y13741.68.al",
+      "size_bytes": 48276480,
+      "checksum": "adler32:c82b2e5b",
+      "name": "Y13741.68.al"
+    }
+  ]
+}
