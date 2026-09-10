@@ -31,6 +31,7 @@ PUBLIC_SELECTIONS = {"showcase", "excerpt", "raw_pick"}
 PAGE_SELECTIONS = {"showcase", "excerpt"}
 VALID_SELECTIONS = PUBLIC_SELECTIONS | {"candidate"}
 VALID_RENDER = {"verbatim", "manual"}
+VALID_TIERS = {1, 2, 3}
 
 
 @dataclass
@@ -59,9 +60,9 @@ def load_manifest() -> dict[str, Any]:
 
 
 def fetch_text(source: Source) -> str:
-    req = urllib.request.Request(source.raw_url, headers={"User-Agent": "HsH-public-library-builder/1.0"})
+    req = urllib.request.Request(source.raw_url, headers={"User-Agent": "HsH-public-library-builder/1.1"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=60) as response:
             data = response.read()
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f"HTTP {exc.code} for {source.path}") from exc
@@ -96,6 +97,10 @@ def validate_entry(doc: dict[str, Any], seen_ids: set[str]) -> list[str]:
     if render not in VALID_RENDER:
         errors.append(f"render must be one of {sorted(VALID_RENDER)}")
 
+    tier = doc.get("tier")
+    if tier is not None and tier not in VALID_TIERS:
+        errors.append("tier must be 1, 2, or 3")
+
     ranges = doc.get("ranges", [])
     if selection == "excerpt" and not ranges:
         errors.append("excerpt entries require at least one [[documents.ranges]] block")
@@ -129,6 +134,8 @@ def render_page(doc: dict[str, Any], source: Source, text: str) -> str:
     phase = doc.get("phase", "")
     cats = ", ".join(doc.get("categories", []))
     selection = doc["selection"]
+    tier = doc.get("tier")
+    trial = bool(doc.get("trial", False))
 
     meta = [
         f"# {title}",
@@ -141,10 +148,14 @@ def render_page(doc: dict[str, Any], source: Source, text: str) -> str:
         f"| Date | {date or '—'} |",
         f"| Development phase | {phase or '—'} |",
         f"| Library selection | {selection} |",
+        f"| Candidate tier | {('I' if tier == 1 else 'II' if tier == 2 else 'III' if tier == 3 else '—')} |",
+        f"| Presentation status | {'trial candidate' if trial else 'curated'} |",
         f"| Categories | {cats or '—'} |",
     ]
     if note:
         meta += ["", f"**Orientation:** {note}"]
+    if trial:
+        meta += ["", "_This page is currently being shown as a library-layout test. Inclusion and tier placement remain provisional._"]
     meta += ["", f"[Open the original source in the SAT Archive →]({source.blob_url})", "", "---", ""]
 
     if doc.get("render", "verbatim") == "manual":
@@ -172,9 +183,24 @@ def render_page(doc: dict[str, Any], source: Source, text: str) -> str:
     return "\n".join(meta + body)
 
 
+def _entry_block(d: dict[str, Any]) -> list[str]:
+    target = f"generated/{d['id']}.md" if d.get("render", "verbatim") != "manual" else d.get("presentation_path", "#")
+    desc = d.get("note", "")
+    context = " · ".join(x for x in [d.get("date", ""), d.get("phase", "")] if x)
+    lines = [f"### [{d['title']}]({target})"]
+    if context:
+        lines.append(f"*{context}*")
+    if desc:
+        lines.append(desc)
+    lines.append("")
+    return lines
+
+
 def render_index(docs: list[dict[str, Any]], settings: dict[str, Any]) -> str:
     showcase = [d for d in docs if d.get("selection") in PAGE_SELECTIONS]
     raw = [d for d in docs if d.get("selection") == "raw_pick"]
+    established = [d for d in showcase if d.get("tier") is None]
+    tiered = {tier: [d for d in showcase if d.get("tier") == tier] for tier in (1, 2, 3)}
 
     lines = [
         "# H(s)H Document Library",
@@ -183,22 +209,34 @@ def render_index(docs: list[dict[str, Any]], settings: dict[str, Any]) -> str:
         "",
         "[Development timeline →](../HISTORY_TIMELINE.md) · [Historical SAT Archive →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)",
         "",
-        "## Featured readings",
-        "",
     ]
+
+    if established:
+        lines += ["## Current showcase", ""]
+        for d in established:
+            lines += _entry_block(d)
+
+    if any(tiered.values()):
+        lines += [
+            "## Candidate showcase — layout trial",
+            "",
+            "These tiers are provisional editorial selections being displayed so we can judge the library presentation. A tier is not a scientific-confidence rating and does not make a historical document current theory.",
+            "",
+        ]
+        labels = {
+            1: "Tier I — primary showcase candidates",
+            2: "Tier II — strong secondary candidates",
+            3: "Tier III — broader candidate shelf",
+        }
+        for tier in (1, 2, 3):
+            if not tiered[tier]:
+                continue
+            lines += [f"### {labels[tier]}", ""]
+            for d in tiered[tier]:
+                lines += _entry_block(d)
+
     if not showcase:
-        lines += ["_Selections are being assembled._", ""]
-    else:
-        for d in showcase:
-            target = f"generated/{d['id']}.md" if d.get("render", "verbatim") != "manual" else d.get("presentation_path", "#")
-            desc = d.get("note", "")
-            context = " · ".join(x for x in [d.get("date", ""), d.get("phase", "")] if x)
-            lines.append(f"### [{d['title']}]({target})")
-            if context:
-                lines.append(f"*{context}*")
-            if desc:
-                lines.append(desc)
-            lines.append("")
+        lines += ["## Featured readings", "", "_Selections are being assembled._", ""]
 
     lines += ["## See the raw development record", "", "These links intentionally lead to the historical source material with minimal presentation. They are useful for readers who want the working record rather than the curated reading path.", ""]
     if not raw:
@@ -253,7 +291,7 @@ def main() -> int:
             fetched[doc["id"]] = text
             if doc.get("selection") == "excerpt":
                 excerpt_text(text, doc.get("ranges", []), path)
-        except Exception as exc:  # validation report should collect all failures
+        except Exception as exc:
             problems.append(f"{doc.get('id', '<unnamed>')}: {exc}")
 
     if problems:
@@ -278,7 +316,6 @@ def main() -> int:
         target.write_text(render_page(doc, src, fetched[doc["id"]]), encoding="utf-8")
         desired.add(target.resolve())
 
-    # Remove stale generated Markdown pages only. Never touch manually curated files.
     for old in outdir.glob("*.md"):
         if old.resolve() not in desired:
             old.unlink()
