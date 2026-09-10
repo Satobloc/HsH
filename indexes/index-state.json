@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 804263268,
+    "bytes_known": 804877121,
     "directories": 32,
-    "files": 357
+    "files": 360
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -16,7 +16,7 @@
     ".png": 18,
     ".py": 9,
     ".rtf": 2,
-    ".txt": 72,
+    ".txt": 75,
     ".yml": 1,
     "[none]": 2
   },
@@ -32,7 +32,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 278,
+    "source-conversation-corpus": 281,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "visitor-interface": 3
@@ -41,7 +41,7 @@
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     ".github": 1,
     "ARCHITECTURE.md": 1,
-    "DEVELOPMENT_FULL_CONVOS": 278,
+    "DEVELOPMENT_FULL_CONVOS": 281,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -1188,6 +1188,13 @@
       "size": 1049989
     },
     {
+      "content_id": "c168da6d7df7c1abcfade56c132ebdb757c2d8cea213345baa3fd92f231ef59f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/GEOMETRIC VISUALIZATION.txt",
+      "role": "source-conversation-corpus",
+      "size": 13840
+    },
+    {
       "content_id": "9ba492eb8c7076eb827b18c8b2d18db8e29d1cfec5000d736a844f5174fcc3fe",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/HsH_INFORMATION_CONSERVATION.txt",
@@ -1195,11 +1202,25 @@
       "size": 124751
     },
     {
+      "content_id": "a3c3a9937d3988346a5e676900a86c8823b2b1febe405ded2062beffd82644b6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/IDES OF IT ALL.txt",
+      "role": "source-conversation-corpus",
+      "size": 329798
+    },
+    {
       "content_id": "0841c282e8e44558581298fa716eb61ae79b43480e2a307d34365e8879f86a5b",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/IMG_1193.png",
       "role": "source-conversation-corpus",
       "size": 1326769
+    },
+    {
+      "content_id": "8a21983d45eccecc8b670a303c61237df490608e37fc3ad7eca2e16c387a4c73",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/REDEFINING SUCCESS.txt",
+      "role": "source-conversation-corpus",
+      "size": 268666
     },
     {
       "content_id": "6cc000c3dc45f7a28b5fb25048a15391c589203aad5ac787a4cbf335d846533e",
@@ -2931,14 +2952,14 @@
       "size": null
     },
     {
-      "content_id": "c712a4badff0937db7f23713b536f9034b06ca10ce986298add7b4e34f97c792",
+      "content_id": "60fe101ad0079ab05706be1f5de5ba03b8de7e58932e2377d20fd79bc693c6b2",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 79617
+      "size": 80157
     },
     {
-      "content_id": "a98a6bc320ca1910cccbaa9f1ee5da276ad373aa04c71dd868efcb76de4f60bb",
+      "content_id": "c9a1152ed833d302c79d8431d3816d1f82d36b57264d4f0b8ae7d57e26a3e716",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -2959,14 +2980,14 @@
       "size": null
     },
     {
-      "content_id": "fc1be6cbb792ab61a142150c39e9277baf4c96356b771f8db8bf947efe9bb015",
+      "content_id": "618cc79becc3dca59e96deb49e26e71a68099a292f4fcb7cb38bafda371d55c3",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 124296
+      "size": 125305
     },
     {
-      "content_id": "720d01110b9f50a76e25c6af89b7128cd94d0551a2f8bfce372ed4f707b2a031",
+      "content_id": "7218323083d2d2f9110c7f3cd462465039f259f950e000f649bf6478ac8b1916",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3142,8 +3163,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T13:21:16+00:00",
+  "scanned_at_utc": "2026-09-10T13:22:42+00:00",
   "schema_version": 1,
-  "tree_id": "85d86ff2860432f92bee43352c520e84e824f47456b233567a5e6809023a63fa",
+  "tree_id": "d94b567d492defc012bcb9c62c8c67dad91a271f42b5fa826cfa26716728c9db",
   "tree_response_truncated": false
 }

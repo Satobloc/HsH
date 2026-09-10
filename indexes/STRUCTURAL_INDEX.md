@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T13:21:16+00:00`
-- Tree/content state: `85d86ff2860432f92bee43352c520e84e824f47456b233567a5e6809023a63fa`
-- Coverage: 357 files, 32 directories
+- Scanned: `2026-09-10T13:22:42+00:00`
+- Tree/content state: `d94b567d492defc012bcb9c62c8c67dad91a271f42b5fa826cfa26716728c9db`
+- Coverage: 360 files, 32 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -14,7 +14,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 1 |
 | `ARCHITECTURE.md` | 1 |
-| `DEVELOPMENT_FULL_CONVOS` | 278 |
+| `DEVELOPMENT_FULL_CONVOS` | 281 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -44,7 +44,7 @@
 | `.png` | 18 |
 | `.py` | 9 |
 | `.rtf` | 2 |
-| `.txt` | 72 |
+| `.txt` | 75 |
 | `.yml` | 1 |
 | `[none]` | 2 |
 
@@ -63,7 +63,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 278 |
+| `source-conversation-corpus` | 281 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `visitor-interface` | 3 |
@@ -333,8 +333,11 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json` — 7964873 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json` — 1041659 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt` — 1049989 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/GEOMETRIC VISUALIZATION.txt` — 13840 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/HsH_INFORMATION_CONSERVATION.txt` — 124751 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/IDES OF IT ALL.txt` — 329798 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/IMG_1193.png` — 1326769 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/REDEFINING SUCCESS.txt` — 268666 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/delphi_bhabha188_manifest.json` — 460 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json` — 516755 bytes — `source-conversation-corpus`
@@ -562,10 +565,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 79617 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 80157 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 124296 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 125305 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
