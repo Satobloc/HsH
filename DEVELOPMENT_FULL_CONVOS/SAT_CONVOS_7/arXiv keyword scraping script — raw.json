@@ -1,0 +1,1180 @@
+{
+  "title": "arXiv keyword scraping script",
+  "create_time": 1780940545.638871,
+  "update_time": 1780940563.7853,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "6a26fecb-c1dc-83ea-a175-92033cd75d15",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": true,
+  "safe_urls": [
+    "https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com",
+    "https://pypi.org/project/arxiv/?utm_source=chatgpt.com",
+    "https://www.openai.com",
+    "https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com",
+    "https://info.arxiv.org/help/api/user-manual.html",
+    "https://docs.google.com/document/d/",
+    "https://info.arxiv.org/help/api/basics.html",
+    "https://pypi.org/project/arxiv/",
+    "https://github.com/lukasschwab/arxiv.py",
+    "https://info.arxiv.org/help/api/basics.html?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5-5-thinking",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": [],
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": 1788841636.411674,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "c6a5391a-f53a-4b73-9f29-f52f5bf1fa47": {
+      "id": "c6a5391a-f53a-4b73-9f29-f52f5bf1fa47",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0822078e-80a5-4f09-9f07-123e0cf77954"
+      ]
+    },
+    "0822078e-80a5-4f09-9f07-123e0cf77954": {
+      "id": "0822078e-80a5-4f09-9f07-123e0cf77954",
+      "message": {
+        "id": "0822078e-80a5-4f09-9f07-123e0cf77954",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780940545.046977,
+        "update_time": 1780940561.622283,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is it possible to write a py script that scrapes arXiv for keywords  "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_source": null,
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c6a5391a-f53a-4b73-9f29-f52f5bf1fa47",
+      "children": [
+        "ddf8a23d-fd16-4998-a2a7-89ed20ae85a6"
+      ]
+    },
+    "ddf8a23d-fd16-4998-a2a7-89ed20ae85a6": {
+      "id": "ddf8a23d-fd16-4998-a2a7-89ed20ae85a6",
+      "message": {
+        "id": "ddf8a23d-fd16-4998-a2a7-89ed20ae85a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780940546.382893,
+        "update_time": null,
+        "content": {
+          "content_type": "thoughts",
+          "thoughts": [],
+          "source_analysis_msg_id": "fa8d6c76-e69a-463b-91e8-5e89e5304f8a"
+        },
+        "status": "in_progress",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "is_reasoning",
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_type": "next",
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "fa8d6c76-e69a-463b-91e8-5e89e5304f8a",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780940545.5583045,
+          "skip_reasoning_title": "Skip",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0822078e-80a5-4f09-9f07-123e0cf77954",
+      "children": [
+        "0b3b4fb8-1edc-46e3-a6ff-44e87a3c73e7"
+      ]
+    },
+    "0b3b4fb8-1edc-46e3-a6ff-44e87a3c73e7": {
+      "id": "0b3b4fb8-1edc-46e3-a6ff-44e87a3c73e7",
+      "message": {
+        "id": "0b3b4fb8-1edc-46e3-a6ff-44e87a3c73e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780940545.524402,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"system1_search_query\":[{\"q\":\"arXiv API user manual search query keywords Python\"}],\"response_length\":\"short\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200012
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_type": "next",
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "88f10fd6-6e18-4363-b6e5-517927d809ca",
+          "reasoning_status": "is_reasoning",
+          "search_display_string": "Searching the web",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Browsing for stable and up-to-date arxiv API details",
+          "reasoning_titles": [
+            "Browsing for stable and up-to-date arxiv API details"
+          ],
+          "classifier_response": "default",
+          "reasoning_start_time": 1780940545.5583045,
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web.run",
+        "channel": null
+      },
+      "parent": "ddf8a23d-fd16-4998-a2a7-89ed20ae85a6",
+      "children": [
+        "bf60af11-83bb-4f1d-8e02-ddb337c9d9bc"
+      ]
+    },
+    "bf60af11-83bb-4f1d-8e02-ddb337c9d9bc": {
+      "id": "bf60af11-83bb-4f1d-8e02-ddb337c9d9bc",
+      "message": {
+        "id": "bf60af11-83bb-4f1d-8e02-ddb337c9d9bc",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "real_author": "tool:web.run"
+          }
+        },
+        "create_time": 1780940548.479926,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "info.arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://info.arxiv.org/help/api/user-manual.html",
+                  "title": "arXiv API User's Manual",
+                  "snippet": "The search_query takes a string that represents a search query used to find articles. The construction of search_query is described in the ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "info.arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.arxiv.org/help/api/basics.html",
+                  "title": "arXiv API Basics",
+                  "snippet": "The goal of the API is to allow application developers access to all of the arXiv data, search and linking facilities with an easy-to-use programmatic interface ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "info.arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.arxiv.org/help/api/index.html",
+                  "title": "arXiv API Access",
+                  "snippet": "For all API users,. Familiarize yourself with arXiv's API Terms of Use. Review the API Basics and the API User Manual. Acknowledge arXiv data usage with this ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "info.arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "github.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://github.com/lukasschwab/arxiv.py",
+                  "title": "lukasschwab/arxiv.py: Python wrapper for the arXiv API",
+                  "snippet": "import arxiv # Construct the default API client. client = arxiv.Client() # Search for the 10 most recent articles matching the keyword \"quantum.Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "github.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stackoverflow.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stackoverflow.com/questions/64047299/how-to-query-arxiv-for-a-specific-year",
+                  "title": "How to query arXiv for a specific year?",
+                  "snippet": "I'm using the code shown below in order to retrieve papers from arXiv. I want to retrieve papers that have words \"machine\" and \"learning\" in the title. ...",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "stackoverflow.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://stackoverflow.com/questions/79025216/how-can-i-access-the-latest-data-using-the-arxiv-api",
+                  "title": "How can I access the latest data using the arXiv API?",
+                  "snippet": "I am currently developing a program that uses the arXiv API to retrieve a list of titles and abstracts of papers submitted on a given day.Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "stackoverflow.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "pypi.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://pypi.org/project/arxiv/",
+                  "title": "arxiv",
+                  "snippet": "Python wrapper for the arXiv API. arXiv is a project by the Cornell University Library that provides open access to 1,000,000+ articles in Physics, Mathematics, ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "pypi.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pypi.org/project/arxiv/1.4.8/",
+                  "title": "arxiv · PyPI",
+                  "snippet": "Advanced query formats are documented in the arXiv API User Manual. id_list : list of arXiv record IDs (typically of the format \"0710.5765v1\" ). See the arXiv ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "pypi.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/ArXiv",
+                  "title": "arXiv",
+                  "snippet": "It consists of scientific papers in the fields of mathematics, physics, astronomy, electrical engineering, computer science, quantitative biology, statistics, ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1776631697,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lukasschwab.me",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lukasschwab.me/arxiv.py/",
+                  "title": "arxiv API documentation",
+                  "snippet": "A list of arXiv article IDs to which to limit the search. See the arXiv API User's Manual for documentation of the interaction between query and id_list .Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "lukasschwab.me"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reference.langchain.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://reference.langchain.com/python/langchain-community/utilities/arxiv/ArxivAPIWrapper",
+                  "title": "ArxivAPIWrapper | langchain_community",
+                  "snippet": "To use, you should have the arxiv python package installed. https://lukasschwab.me/arxiv.py/index.html This wrapper will use the Arxiv API to conduct searches ...Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "reference.langchain.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "groups.google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://groups.google.com/g/arxiv-api/c/FUOBAvAAW18",
+                  "title": "Building app with ArXiv.",
+                  "snippet": "We want to get a list of IDs in arxiv database and perform a semantic search with their abstract. Also other metadata like titles and authors are useful too.Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "groups.google.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "colab.research.google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://colab.research.google.com/github/EPS-Libraries-Berkeley/volt/blob/main/Search/arxiv_api.ipynb",
+                  "title": "ArXiv API",
+                  "snippet": "This example uses Python's vars built-in function to convert search results into Python dictionaries of paper metadata.Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "colab.research.google.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "hermes-agent.nousresearch.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-arxiv",
+                  "title": "Arxiv — Search arXiv papers by keyword, author, category, or ID",
+                  "snippet": "arXiv Research. Search and retrieve academic papers from arXiv via their free REST API. No API key, no dependencies — just curl. Quick Reference​. Action ...",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "hermes-agent.nousresearch.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "apify.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://apify.com/ryanclinton/arxiv-paper-search/api/python",
+                  "title": "ArXiv Paper Search API | Preprint Research Data ...",
+                  "snippet": "Learn how to interact with ArXiv Preprint Paper Search API in Python. Includes an example Python code snippet to help you get started quickly.",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "apify.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://apify.com/draouadmohamed/arxiv-semantic-search/api/python",
+                  "title": "Arxiv Semantic Search API in Python",
+                  "snippet": "Learn how to interact with Arxiv Semantic Search API in Python. Includes an example Python code snippet to help you get started quickly.",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "apify.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnpython/comments/15i2bkd/how_to_query_arxiv_continuously/",
+                  "title": "How to query arxiv continuously? : r/learnpython",
+                  "snippet": "I want to create a tool that can continuously query arxiv (specifically the computer science area) for paper titles every day based on keywords.Read more",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1691161098.827,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/1710.00813",
+                  "title": "A Practical Python API for Querying AFLOWLIB",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "academia",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1506631127,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/1706.00468",
+                  "title": "Function Assistant: A Tool for NL Querying of APIs",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "academia",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1496345192,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/1711.00046",
+                  "title": "Replace or Retrieve Keywords In Documents at Scale",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "academia",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1509474843,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/2304.14163",
+                  "title": "Answering Uncertain, Under-Specified API Queries Assisted by Knowledge-Aware Human-AI Dialogue",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 633368,
+                    "ref_type": "academia",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1682600465,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6a26ff0491e8832ebd17133c3ae6f53a",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_type": "next",
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "97a04d5b-9764-474d-99c4-05ddf265e224",
+          "reasoning_status": "is_reasoning",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Browsing for stable and up-to-date arxiv API details",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780940545.5583045,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b3b4fb8-1edc-46e3-a6ff-44e87a3c73e7",
+      "children": [
+        "6d7d8d48-23e8-4945-aba7-15d3ff552ed9"
+      ]
+    },
+    "6d7d8d48-23e8-4945-aba7-15d3ff552ed9": {
+      "id": "6d7d8d48-23e8-4945-aba7-15d3ff552ed9",
+      "message": {
+        "id": "6d7d8d48-23e8-4945-aba7-15d3ff552ed9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780940550.051739,
+        "update_time": null,
+        "content": {
+          "content_type": "reasoning_recap",
+          "content": "Thought for 4s"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "reasoning_ended",
+          "finished_duration_sec": 4,
+          "reasoning_start_time": 1780940545.5583045,
+          "reasoning_end_time": 1780940550.0366104,
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_type": "next",
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": false,
+          "parent_id": "fbf2d2b3-13d3-4de4-8049-814a8a65fb8f",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bf60af11-83bb-4f1d-8e02-ddb337c9d9bc",
+      "children": [
+        "334a1dcd-3cc2-41d4-9120-32c62ac97020"
+      ]
+    },
+    "334a1dcd-3cc2-41d4-9120-32c62ac97020": {
+      "id": "334a1dcd-3cc2-41d4-9120-32c62ac97020",
+      "message": {
+        "id": "334a1dcd-3cc2-41d4-9120-32c62ac97020",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1780940549.344514,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — and the sane way is **not really “scraping” the HTML**, but using the official arXiv API. arXiv exposes a query interface where you can search titles, abstracts, authors, categories, dates, etc., and get structured metadata back. citeturn633368search0turn633368search2\n\nHere’s a simple Python script that searches arXiv for keywords in titles/abstracts and saves results to CSV.\n\n```python\n# arxiv_keyword_scan.py\n\nimport arxiv\nimport csv\nfrom datetime import datetime\n\nKEYWORDS = [\n    \"holonomy\",\n    \"torsion\",\n    \"cobordism\",\n    \"neutrino photon\",\n    \"fermion boson\",\n    \"emergent spacetime\",\n]\n\nCATEGORIES = [\n    \"gr-qc\",\n    \"hep-th\",\n    \"hep-ph\",\n    \"quant-ph\",\n    \"astro-ph.CO\",\n]\n\nMAX_RESULTS_PER_QUERY = 50\nOUTPUT_FILE = \"arxiv_keyword_results.csv\"\n\n\ndef build_query(keyword, categories=None):\n    # Search all fields for the keyword, then constrain by category.\n    keyword_query = f'all:\"{keyword}\"'\n\n    if categories:\n        category_query = \" OR \".join(f\"cat:{cat}\" for cat in categories)\n        return f'({keyword_query}) AND ({category_query})'\n\n    return keyword_query\n\n\ndef main():\n    client = arxiv.Client(\n        page_size=100,\n        delay_seconds=3,\n        num_retries=3\n    )\n\n    rows = []\n\n    for keyword in KEYWORDS:\n        query = build_query(keyword, CATEGORIES)\n\n        search = arxiv.Search(\n            query=query,\n            max_results=MAX_RESULTS_PER_QUERY,\n            sort_by=arxiv.SortCriterion.SubmittedDate,\n            sort_order=arxiv.SortOrder.Descending\n        )\n\n        print(f\"Searching: {keyword}\")\n\n        for result in client.results(search):\n            rows.append({\n                \"keyword\": keyword,\n                \"title\": result.title,\n                \"authors\": \", \".join(author.name for author in result.authors),\n                \"published\": result.published.date().isoformat(),\n                \"updated\": result.updated.date().isoformat(),\n                \"categories\": \", \".join(result.categories),\n                \"primary_category\": result.primary_category,\n                \"abstract\": \" \".join(result.summary.split()),\n                \"arxiv_url\": result.entry_id,\n                \"pdf_url\": result.pdf_url,\n            })\n\n    with open(OUTPUT_FILE, \"w\", newline=\"\", encoding=\"utf-8\") as f:\n        writer = csv.DictWriter(\n            f,\n            fieldnames=[\n                \"keyword\",\n                \"title\",\n                \"authors\",\n                \"published\",\n                \"updated\",\n                \"categories\",\n                \"primary_category\",\n                \"abstract\",\n                \"arxiv_url\",\n                \"pdf_url\",\n            ]\n        )\n        writer.writeheader()\n        writer.writerows(rows)\n\n    print(f\"\\nSaved {len(rows)} results to {OUTPUT_FILE}\")\n\n\nif __name__ == \"__main__\":\n    main()\n```\n\nInstall the wrapper first:\n\n```bash\npip install arxiv\n```\n\nThen run:\n\n```bash\npython arxiv_keyword_scan.py\n```\n\nThe third-party `arxiv` Python package is a wrapper around arXiv’s API and supports search queries, sorting by submission date, and iterating through results. citeturn633368search1turn633368search4\n\nA few useful query fields:\n\n```text\nall:      title + abstract + author + comments etc.\nti:       title\nabs:      abstract\nau:       author\ncat:      arXiv category\nsubmittedDate: date range\n```\n\nSo these are valid query fragments:\n\n```text\nti:\"holonomy\"\nabs:\"emergent spacetime\"\nall:\"Pauli exclusion\"\ncat:gr-qc\ncat:hep-th\n```\n\nFor your use case, I’d probably make it do three things: scan a curated keyword list, group results by arXiv category, and track counts by month so you can see whether terms are actually spiking rather than just feeling more common. That turns it from “keyword scraper” into a lightweight trend detector."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [
+            {
+              "matched_text": "citeturn633368search0turn633368search2",
+              "prefix": null,
+              "start_idx": 236,
+              "end_idx": 278,
+              "safe_urls": [
+                "https://info.arxiv.org/help/api/basics.html",
+                "https://info.arxiv.org/help/api/basics.html?utm_source=chatgpt.com",
+                "https://info.arxiv.org/help/api/user-manual.html",
+                "https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([arXiv](https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "arXiv API User's Manual",
+                  "url": "https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com",
+                  "attribution": "arXiv",
+                  "pub_date": null,
+                  "snippet": "The search_query takes a string that represents a search query used to find articles. The construction of search_query is described in the ...Read more",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "arXiv API Basics",
+                      "url": "https://info.arxiv.org/help/api/basics.html?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "The goal of the API is to allow application developers access to all of the arXiv data, search and linking facilities with an easy-to-use programmatic interface ...Read more",
+                      "attribution": "arXiv"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn633368search1turn633368search4",
+              "prefix": null,
+              "start_idx": 3108,
+              "end_idx": 3150,
+              "safe_urls": [
+                "https://github.com/lukasschwab/arxiv.py",
+                "https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com",
+                "https://pypi.org/project/arxiv/",
+                "https://pypi.org/project/arxiv/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([GitHub](https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "lukasschwab/arxiv.py: Python wrapper for the arXiv API",
+                  "url": "https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com",
+                  "attribution": "GitHub",
+                  "pub_date": null,
+                  "snippet": "import arxiv # Construct the default API client. client = arxiv.Client() # Search for the 10 most recent articles matching the keyword \"quantum.Read more",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "arxiv",
+                      "url": "https://pypi.org/project/arxiv/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Python wrapper for the arXiv API. arXiv is a project by the Cornell University Library that provides open access to 1,000,000+ articles in Physics, Mathematics, ...Read more",
+                      "attribution": "PyPI"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "prefix": null,
+              "start_idx": 3784,
+              "end_idx": 3785,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "arXiv API User's Manual",
+                  "url": "https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com",
+                  "attribution": "arXiv"
+                },
+                {
+                  "title": "lukasschwab/arxiv.py: Python wrapper for the arXiv API",
+                  "url": "https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com",
+                  "attribution": "GitHub"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://github.com/lukasschwab/arxiv.py",
+            "https://github.com/lukasschwab/arxiv.py?utm_source=chatgpt.com",
+            "https://info.arxiv.org/help/api/basics.html",
+            "https://info.arxiv.org/help/api/basics.html?utm_source=chatgpt.com",
+            "https://info.arxiv.org/help/api/user-manual.html",
+            "https://info.arxiv.org/help/api/user-manual.html?utm_source=chatgpt.com",
+            "https://pypi.org/project/arxiv/",
+            "https://pypi.org/project/arxiv/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://info.arxiv.org/help/api/basics.html?utm_source=chatgpt.com",
+                  "title": "arXiv API Basics",
+                  "snippet": "The goal of the API is to allow application developers access to all of the arXiv data, search and linking facilities with an easy-to-use programmatic interface ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.arxiv.org/help/api/index.html?utm_source=chatgpt.com",
+                  "title": "arXiv API Access",
+                  "snippet": "For all API users,. Familiarize yourself with arXiv's API Terms of Use. Review the API Basics and the API User Manual. Acknowledge arXiv data usage with this ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stackoverflow.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stackoverflow.com/questions/64047299/how-to-query-arxiv-for-a-specific-year?utm_source=chatgpt.com",
+                  "title": "How to query arXiv for a specific year?",
+                  "snippet": "I'm using the code shown below in order to retrieve papers from arXiv. I want to retrieve papers that have words \"machine\" and \"learning\" in the title. ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "stackoverflow.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://stackoverflow.com/questions/79025216/how-can-i-access-the-latest-data-using-the-arxiv-api?utm_source=chatgpt.com",
+                  "title": "How can I access the latest data using the arXiv API?",
+                  "snippet": "I am currently developing a program that uses the arXiv API to retrieve a list of titles and abstracts of papers submitted on a given day.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "stackoverflow.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "pypi.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://pypi.org/project/arxiv/?utm_source=chatgpt.com",
+                  "title": "arxiv",
+                  "snippet": "Python wrapper for the arXiv API. arXiv is a project by the Cornell University Library that provides open access to 1,000,000+ articles in Physics, Mathematics, ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "pypi.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pypi.org/project/arxiv/1.4.8/?utm_source=chatgpt.com",
+                  "title": "arxiv · PyPI",
+                  "snippet": "Advanced query formats are documented in the arXiv API User Manual. id_list : list of arXiv record IDs (typically of the format \"0710.5765v1\" ). See the arXiv ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "pypi.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/ArXiv?utm_source=chatgpt.com",
+                  "title": "arXiv",
+                  "snippet": "It consists of scientific papers in the fields of mathematics, physics, astronomy, electrical engineering, computer science, quantitative biology, statistics, ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "wikipedia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lukasschwab.me",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lukasschwab.me/arxiv.py/?utm_source=chatgpt.com",
+                  "title": "arxiv API documentation",
+                  "snippet": "A list of arXiv article IDs to which to limit the search. See the arXiv API User's Manual for documentation of the interaction between query and id_list .Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "lukasschwab.me"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "langchain.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://reference.langchain.com/python/langchain-community/utilities/arxiv/ArxivAPIWrapper?utm_source=chatgpt.com",
+                  "title": "ArxivAPIWrapper | langchain_community",
+                  "snippet": "To use, you should have the arxiv python package installed. https://lukasschwab.me/arxiv.py/index.html This wrapper will use the Arxiv API to conduct searches ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "langchain.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://groups.google.com/g/arxiv-api/c/FUOBAvAAW18?utm_source=chatgpt.com",
+                  "title": "Building app with ArXiv.",
+                  "snippet": "We want to get a list of IDs in arxiv database and perform a semantic search with their abstract. Also other metadata like titles and authors are useful too.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "google.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://colab.research.google.com/github/EPS-Libraries-Berkeley/volt/blob/main/Search/arxiv_api.ipynb?utm_source=chatgpt.com",
+                  "title": "ArXiv API",
+                  "snippet": "This example uses Python's vars built-in function to convert search results into Python dictionaries of paper metadata.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "google.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://groups.google.com/g/arxiv-api/c/EkD5aC9LUIk?utm_source=chatgpt.com",
+                  "title": "Documentation for POST API requests",
+                  "snippet": "Mar 29, 2020 — Setting search_query in a POST header, as suggested by the API: curl --request POST \\. --url http://export.arxiv.org/api/query \\. --header ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "google.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nousresearch.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-arxiv?utm_source=chatgpt.com",
+                  "title": "Arxiv — Search arXiv papers by keyword, author, category, or ID",
+                  "snippet": "arXiv Research. Search and retrieve academic papers from arXiv via their free REST API. No API key, no dependencies — just curl. Quick Reference​. Action ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "nousresearch.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "apify.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://apify.com/ryanclinton/arxiv-paper-search/api/python?utm_source=chatgpt.com",
+                  "title": "ArXiv Paper Search API | Preprint Research Data ...",
+                  "snippet": "Learn how to interact with ArXiv Preprint Paper Search API in Python. Includes an example Python code snippet to help you get started quickly.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "apify.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://apify.com/draouadmohamed/arxiv-semantic-search/api/python?utm_source=chatgpt.com",
+                  "title": "Arxiv Semantic Search API in Python",
+                  "snippet": "Learn how to interact with Arxiv Semantic Search API in Python. Includes an example Python code snippet to help you get started quickly.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "apify.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://apify.com/gentle_cloud/arxiv-paper-search?utm_source=chatgpt.com",
+                  "title": "ArXiv Paper Search",
+                  "snippet": "Mar 22, 2026 — Search and extract academic papers from ArXiv. Find papers by keyword, author, or category with full metadata including title, authors, abstract ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "apify.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnpython/comments/15i2bkd/how_to_query_arxiv_continuously/?utm_source=chatgpt.com",
+                  "title": "How to query arxiv continuously? : r/learnpython",
+                  "snippet": "I want to create a tool that can continuously query arxiv (specifically the computer science area) for paper titles every day based on keywords.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/MachineLearning/comments/nn9q8s/p_arxivminer_a_toolkit_for_scraping_parsing_and/?utm_source=chatgpt.com",
+                  "title": "[P] ArXiv-Miner: A toolkit for scraping, parsing, and ...",
+                  "snippet": "ArXiv-Miner is a python library that helps scrape, parse, and mine research from LaTeX source on ArXiv. The library also supports Elasticsearch on the storage ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "plainenglish.io",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://python.plainenglish.io/analysis-of-the-arxiv-papers-for-a-topic-using-api-382111dfae2b?utm_source=chatgpt.com",
+                  "title": "Analysis of the arXiv Papers for a Topic Using the arXiv API",
+                  "snippet": "Mar 20, 2022 — Steps : Import required libraries. Call arXiv API with the query parameters. Parse the response. Construct the dataframe from the response.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "plainenglish.io"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "code_blocks": {
+            "0": {
+              "id": "8asyzh",
+              "edited": false,
+              "previewable": false,
+              "preview_language": null
+            },
+            "1": {
+              "id": "1rcqbg",
+              "edited": false,
+              "previewable": false,
+              "preview_language": null
+            },
+            "2": {
+              "id": "zrnxdd",
+              "edited": false,
+              "previewable": false,
+              "preview_language": null
+            },
+            "3": {
+              "id": "isnai9",
+              "edited": false,
+              "previewable": false,
+              "preview_language": null
+            },
+            "4": {
+              "id": "7pyive",
+              "edited": false,
+              "previewable": false,
+              "preview_language": null
+            }
+          },
+          "request_id": "81ed9c83-adcd-4573-b68d-ef3a8f445ba5",
+          "message_type": "next",
+          "turn_exchange_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "working_turn_id": "e994f38a-d826-4f3e-b883-0e388887b3ff",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": true,
+          "parent_id": "6d7d8d48-23e8-4945-aba7-15d3ff552ed9",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "6d7d8d48-23e8-4945-aba7-15d3ff552ed9",
+      "children": []
+    }
+  },
+  "current_node": "334a1dcd-3cc2-41d4-9120-32c62ac97020",
+  "context_truncation_continuation": null
+}
