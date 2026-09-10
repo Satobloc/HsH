@@ -1,22 +1,23 @@
 {
   "counts": {
-    "bytes_known": 804941388,
-    "directories": 33,
-    "files": 363
+    "bytes_known": 817338196,
+    "directories": 37,
+    "files": 391
   },
   "counts_by_extension": {
     ".csv": 6,
     ".docx": 1,
     ".htm": 1,
+    ".jpg": 17,
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 26,
+    ".md": 27,
     ".pdf": 4,
-    ".png": 18,
+    ".png": 27,
     ".py": 9,
     ".rtf": 2,
-    ".txt": 78,
+    ".txt": 79,
     ".yml": 1,
     "[none]": 2
   },
@@ -35,7 +36,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 1,
+    "unclassified": 29,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -46,7 +47,7 @@
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
-    "SAT_VISUALS": 1,
+    "SAT_VISUALS": 29,
     "WORKSPACES": 4,
     "audits": 1,
     "checkpoints": 1,
@@ -395,6 +396,13 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json"
+      ]
+    },
+    {
+      "content_id": "eabbc15796a98f8613e86e8360ee35d46f408c3a00ed4cd57ef45f863f344f56",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/PULSAR_MODEL",
+        "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/06_pulsar_glitch_fingerprint.png"
       ]
     },
     {
@@ -2808,6 +2816,230 @@
       "size": null
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "SAT_VISUALS/VISUALS_1",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "07b96f0f2ae6af9913a06216b4b167ec9bd3486c49f4c5a2f6039b5c8c248ab2",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FILELIST.txt",
+      "role": "unclassified",
+      "size": 1263
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "6795c3a428f954b49c258604d2e6eb53a64202355548b3bf804c27c130aa4534",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg",
+      "role": "unclassified",
+      "size": 260609
+    },
+    {
+      "content_id": "a87d5916888944e5763a2e98923a9d21f7b790fece68a0b888e55ca882085cb7",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg",
+      "role": "unclassified",
+      "size": 306025
+    },
+    {
+      "content_id": "2b60bc2236cbf06bf6447cc3c808bfa83bf8ddc061ac0c5444ffe852d4103e8f",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/03_helix_time_plane_intersection.jpg",
+      "role": "unclassified",
+      "size": 997566
+    },
+    {
+      "content_id": "30c9847a0647b0795461a060ca7d61e27341b4e531b9dcddaac6fe743095aac9",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/04_theta4_tangent_time_normal.jpg",
+      "role": "unclassified",
+      "size": 524639
+    },
+    {
+      "content_id": "a13d33f61baa7f26f1db96e4e0f9e782b11be30a8c697b4b868d6ce8045a95d0",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/05_recursive_helix_curved_carrier.jpg",
+      "role": "unclassified",
+      "size": 630577
+    },
+    {
+      "content_id": "b36ed9a57449673f9d356d3c6542185f4e06c68a1956ca00525d44ec62fde907",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/06_qcd_geometric_braiding.jpg",
+      "role": "unclassified",
+      "size": 313254
+    },
+    {
+      "content_id": "bf32732a2c44b47614a4978641bde017d48902e0822a678849f1028a87deeefe",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/07_multifilament_bundle_into_surface.png",
+      "role": "unclassified",
+      "size": 1165947
+    },
+    {
+      "content_id": "2d531f0bdaa7a98d586e409ee89b6492d594782def38e95dbcd15bbcf6e0dcf8",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/08_worldline_time_slice_evolution.jpg",
+      "role": "unclassified",
+      "size": 861296
+    },
+    {
+      "content_id": "a00841f47c287f73a0c7fa2a4fdae2bd400301f0b1c0299f1f87c9d5d828896e",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/09_geometric_cosmology_expansion.jpg",
+      "role": "unclassified",
+      "size": 337146
+    },
+    {
+      "content_id": "ed9e557fd12d52a1b9a7b4c54f51a3dc9561f4fcc43df23c5e11bdfb68bb9303",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/10_lithium_dark_matter_geometric_time.jpg",
+      "role": "unclassified",
+      "size": 300091
+    },
+    {
+      "content_id": "2fd85378657996edb23437a6d15668300a6c87676b975eea240fa69e2fc021a6",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/11_unified_spacetime_to_string_vibrations.jpg",
+      "role": "unclassified",
+      "size": 277419
+    },
+    {
+      "content_id": "8c456984edee47ea012e58df5582b0ea498b92969be2f4cffd8325cc47461e59",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/FRONT_PAGE/12_interaction_resistance_coil_deformation.jpg",
+      "role": "unclassified",
+      "size": 1060223
+    },
+    {
+      "content_id": "dc2d6df71a1b2d31efd986daa9317cc18e0b877a708682274f33cc3882c5e21b",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/MANIFEST.md",
+      "role": "unclassified",
+      "size": 3716
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "6521c6e41e335f49cb90d7abf4870639219e20c9acb6490fc8848efa5c211578",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE/01_worldlines_notecard.jpg",
+      "role": "unclassified",
+      "size": 401117
+    },
+    {
+      "content_id": "84d1e25161a0fcbba75cf00b31a14492884804de16aa3cc3c411bc31c218afdc",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE/02_sat_notebook_2025-04-15.jpg",
+      "role": "unclassified",
+      "size": 293462
+    },
+    {
+      "content_id": "eb26819b56e268177c475acbb1db671aebb1a4c5ea185805c6cc8caa13773d4c",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE/03_early_coil_plane_notebook.jpg",
+      "role": "unclassified",
+      "size": 325616
+    },
+    {
+      "content_id": "a64b97c99651add07a77c2366510a3e6d3ea8fd98feb1eaca14ac05a83fcaa2b",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png",
+      "role": "unclassified",
+      "size": 508312
+    },
+    {
+      "content_id": "983801e402af5060b18721e29b68635cd5e6570aaadea926f7281885a57fff30",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_original_screenshot.png",
+      "role": "unclassified",
+      "size": 203684
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "0b01c5c4701daaf8cfa7fb911daa1041a8f6b918dbea1ff55669f9a208dff6b7",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/01_holonomy_phase_shift_sphere.jpg",
+      "role": "unclassified",
+      "size": 688765
+    },
+    {
+      "content_id": "ae9c4608a883b1096365e22b49db9ae6dae1bd29a3e2bebcd9de905df21092fd",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/02_colored_three_ribbon_braid.png",
+      "role": "unclassified",
+      "size": 1678548
+    },
+    {
+      "content_id": "1fa49ec507f3a853e4c0b73a6dc363b3077da53c0166d04ba4ee26706a5309b8",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/04_mode_wall_visual_vocabulary.jpg",
+      "role": "unclassified",
+      "size": 275672
+    },
+    {
+      "content_id": "0fc85e52cfb2aaad1f0f13489a0b7c72fc2f59183d844ce366eabf9cd0780722",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/05_helix_through_plane_black.jpg",
+      "role": "unclassified",
+      "size": 151150
+    },
+    {
+      "content_id": "eabbc15796a98f8613e86e8360ee35d46f408c3a00ed4cd57ef45f863f344f56",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/06_pulsar_glitch_fingerprint.png",
+      "role": "unclassified",
+      "size": 83862
+    },
+    {
+      "content_id": "37b62492af4d94fc2ff2c6a7dfa6541d84ac738594dccee0caad874c9d01e40d",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/07_localized_metric_deformation.png",
+      "role": "unclassified",
+      "size": 103678
+    },
+    {
+      "content_id": "9bf76628907fd6e04d71237dc093eb479dc2454a74e72a4172d63ae907d9d00c",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/08_topological_mass_suppression.png",
+      "role": "unclassified",
+      "size": 114386
+    },
+    {
+      "content_id": "c2a27094a19979f97c542ef27b0b625a01a405a055641f0dc0d9e21484dfe797",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/09_elastic_sheet_displacement.png",
+      "role": "unclassified",
+      "size": 175922
+    },
+    {
+      "content_id": "9a95a01245c4dbe538a25d21d92fbd4f25d4706c3528c55abdbb36366fa65969",
+      "kind": "blob",
+      "path": "SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png",
+      "role": "unclassified",
+      "size": 352863
+    },
+    {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "kind": "blob",
       "path": "SAT_VISUALS/gitignore.txt",
@@ -2997,14 +3229,14 @@
       "size": null
     },
     {
-      "content_id": "d490938a689980f3bcc98d64194f1e72386d30702cb509c3d56bd13dc4030934",
+      "content_id": "699375bbdfa98c43040b334c9dbe977011d88388106eb47c9248d4e74919d1bc",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "489934493965076a4cf4177ced230b691648eb8928019a6d9436311eafb7db2c",
+      "content_id": "715850df9f0f011a8fe07ce21ff721797dc0ac7e99f9fdfe8c9790d039b57439",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3025,14 +3257,14 @@
       "size": null
     },
     {
-      "content_id": "f6fdb961fb2fd3f7268f06ba555134a13c65c4dd161907daf45214666f19f5b3",
+      "content_id": "97f08b6f8398c5ecda460180ebc7975f1a42cfb6fd12395293ea22390c040cec",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "6e9b18337d492ee4d9c5a952e9d39625b8401109c974196f97e62619f4aeadcc",
+      "content_id": "3d4dd64958d8f68e840417a8016943a5292999b7dd32c428a172d37d31e548ee",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3208,8 +3440,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T19:37:02+00:00",
+  "scanned_at_utc": "2026-09-10T19:39:18+00:00",
   "schema_version": 1,
-  "tree_id": "586d3d9e8f71df279f9e9f1a5e40a0d60a9a531cd0a87a3e2c6ce7011e7d725b",
+  "tree_id": "da65b5730f8eb44352bc63bb2ea56281181412fd04bca086cdcbfbd50ba08773",
   "tree_response_truncated": false
 }

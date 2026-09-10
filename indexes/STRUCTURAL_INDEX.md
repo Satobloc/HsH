@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T19:37:02+00:00`
-- Tree/content state: `586d3d9e8f71df279f9e9f1a5e40a0d60a9a531cd0a87a3e2c6ce7011e7d725b`
-- Coverage: 363 files, 33 directories
+- Scanned: `2026-09-10T19:39:18+00:00`
+- Tree/content state: `da65b5730f8eb44352bc63bb2ea56281181412fd04bca086cdcbfbd50ba08773`
+- Coverage: 391 files, 37 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -18,7 +18,7 @@
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
-| `SAT_VISUALS` | 1 |
+| `SAT_VISUALS` | 29 |
 | `WORKSPACES` | 4 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
@@ -37,15 +37,16 @@
 | `.csv` | 6 |
 | `.docx` | 1 |
 | `.htm` | 1 |
+| `.jpg` | 17 |
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 26 |
+| `.md` | 27 |
 | `.pdf` | 4 |
-| `.png` | 18 |
+| `.png` | 27 |
 | `.py` | 9 |
 | `.rtf` | 2 |
-| `.txt` | 78 |
+| `.txt` | 79 |
 | `.yml` | 1 |
 | `[none]` | 2 |
 
@@ -67,7 +68,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 1 |
+| `unclassified` | 29 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -222,6 +223,9 @@
 - `e15ed9da3ebc87ecb6413fcb880fb79beedf211c560aef69d8fd1b573f3f2202`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json`
+- `eabbc15796a98f8613e86e8360ee35d46f408c3a00ed4cd57ef45f863f344f56`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/PULSAR_MODEL`
+  - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/06_pulsar_glitch_fingerprint.png`
 - `f2a332a8d10b731c519065436a5293560dab74434252ea406dcdfcb7d2068624`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.07.08•26.07.30•SAT Daily Action — raw.json`
   - `LIVE CONVOS/SAT Daily Action — raw.json`
@@ -560,6 +564,34 @@
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `README.md` — 5705 bytes — `visitor-interface`
+- `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/03_helix_time_plane_intersection.jpg` — 997566 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/04_theta4_tangent_time_normal.jpg` — 524639 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/05_recursive_helix_curved_carrier.jpg` — 630577 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/06_qcd_geometric_braiding.jpg` — 313254 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/07_multifilament_bundle_into_surface.png` — 1165947 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/08_worldline_time_slice_evolution.jpg` — 861296 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/09_geometric_cosmology_expansion.jpg` — 337146 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/10_lithium_dark_matter_geometric_time.jpg` — 300091 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/11_unified_spacetime_to_string_vibrations.jpg` — 277419 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/FRONT_PAGE/12_interaction_resistance_coil_deformation.jpg` — 1060223 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/MANIFEST.md` — 3716 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/PROVENANCE/01_worldlines_notecard.jpg` — 401117 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/PROVENANCE/02_sat_notebook_2025-04-15.jpg` — 293462 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/PROVENANCE/03_early_coil_plane_notebook.jpg` — 325616 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png` — 508312 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_original_screenshot.png` — 203684 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/01_holonomy_phase_shift_sphere.jpg` — 688765 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/02_colored_three_ribbon_braid.png` — 1678548 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/04_mode_wall_visual_vocabulary.jpg` — 275672 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/05_helix_through_plane_black.jpg` — 151150 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/06_pulsar_glitch_fingerprint.png` — 83862 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/07_localized_metric_deformation.png` — 103678 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/08_topological_mass_suppression.png` — 114386 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/09_elastic_sheet_displacement.png` — 175922 bytes — `unclassified`
+- `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
