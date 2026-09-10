@@ -1,0 +1,51 @@
+# H(s)H public-library selection manifest
+#
+# This file is the handoff surface between archive discovery/tagging and the
+# public presentation layer. It does NOT modify or supersede the historical
+# SAT archive. Add candidates here as they are discovered; the generator in
+# tools/build_public_library.py turns accepted entries into navigation/pages.
+#
+# selection = "showcase"  -> highlighted, formatted public-library item
+# selection = "excerpt"   -> highlighted selected line range(s) from a source
+# selection = "raw_pick"  -> useful direct link in the raw-development section
+# selection = "candidate" -> tagged for review; not exposed publicly yet
+#
+# render = "verbatim" preserves source text byte-for-text after newline
+# normalization inside a readable <pre> block. "manual" reserves a document
+# for a separately curated presentation page without altering the source.
+
+[settings]
+source_repo = "Satobloc/SAT_THEORY_ARCHIVE_2023-25"
+source_branch = "main"
+generated_dir = "LIBRARY/generated"
+
+# Meridian: duplicate this block for each item you want to tag.
+# Paths are repository-relative and case-sensitive.
+#
+# [[documents]]
+# id = "minkowski-proper"
+# title = "Minkowski Proper"
+# source_path = "2026/MINKOWSKI PROPER.txt"
+# date = "2026"
+# phase = "4DHH / SAT 2026"
+# categories = ["foundations", "geometry"]
+# selection = "candidate"
+# render = "verbatim"
+# note = "Candidate foundational reading."
+#
+# For an excerpt, add one or more ranges. Lines are 1-based and inclusive.
+# [[documents]]
+# id = "example-excerpt"
+# title = "Example developmental excerpt"
+# source_path = "path/to/large-log.txt"
+# date = "2025"
+# phase = "SAT"
+# categories = ["development"]
+# selection = "candidate"
+# render = "verbatim"
+# note = "Example only; replace with a real selection."
+#
+#   [[documents.ranges]]
+#   start = 820
+#   end = 1040
+#   label = "Selected passage"
