@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T13:22:42+00:00`
-- Tree/content state: `d94b567d492defc012bcb9c62c8c67dad91a271f42b5fa826cfa26716728c9db`
-- Coverage: 360 files, 32 directories
+- Scanned: `2026-09-10T14:02:00+00:00`
+- Tree/content state: `8e5ec9861beff05e56ef89412157f8470e25c1f9284d8c0325417c76cf4336e7`
+- Coverage: 362 files, 32 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -14,7 +14,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 1 |
 | `ARCHITECTURE.md` | 1 |
-| `DEVELOPMENT_FULL_CONVOS` | 281 |
+| `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -44,7 +44,7 @@
 | `.png` | 18 |
 | `.py` | 9 |
 | `.rtf` | 2 |
-| `.txt` | 75 |
+| `.txt` | 77 |
 | `.yml` | 1 |
 | `[none]` | 2 |
 
@@ -63,7 +63,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 281 |
+| `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `visitor-interface` | 3 |
@@ -87,6 +87,9 @@
 - `1c9d58b1a197ac537c25f4a75d042d48233344c479ab3aa5d1dc7ada622f83ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt`
+- `1e0c50c914101ae167b8366357e582c40bf97384ac5e2ec74cc9f4a8e6708273`
+  - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt`
+  - `LIVE CONVOS/H(s)H TIME RESIDUALS.txt`
 - `1e672764595112315ea68bc7662f178f6a68ea01f1fe13299f882710ef964015`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.07•Succinctness And Math Check — raw.json`
   - `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json`
@@ -156,6 +159,9 @@
 - `73bf91b8e8496e0f8b3381d6883d9de5bd9555dda19a9c012871a96e73bc0928`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw.json`
+- `746b5b0c072fd32b02894ad88ebbd96f9a6ef51c0978e88678fcb40d9e64b4c2`
+  - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt`
+  - `LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt`
 - `772ad65a293a9734d803e8c23a1a10650130c400aebbe840680b07239129f80a`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20•25.03.20•Filament Intersections and Thought — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20•25.03.20•Filament Intersections and Thought — raw.json`
@@ -232,6 +238,8 @@
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json` — 6684669 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json` — 6684669 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json` — 12651755 bytes — `source-conversation-corpus`
@@ -565,10 +573,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 80157 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 80483 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 125305 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 125956 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

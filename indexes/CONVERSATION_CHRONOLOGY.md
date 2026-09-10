@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-10T13:22:42.189538+00:00`
+- Generated: `2026-09-10T14:02:00.052927+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **224**
-- Skipped non-conversation or unparseable files: **38**
+- Skipped non-conversation or unparseable files: **40**
 - Exact duplicate-content groups: **41**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -462,6 +462,8 @@
 
 These remain in place and are not assigned conversation dates.
 
+- [DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt](../DEVELOPMENT_FULL_CONVOS/H%28s%29H%20TEMPORAL%20ISOTROPY.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt](../DEVELOPMENT_FULL_CONVOS/H%28s%29H%20TIME%20RESIDUALS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3%20Planetology%20--%20Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw%20%281%29.txt) — Extra data: line 1 column 43 (char 42)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt) — Expecting value: line 1 column 1 (char 0)

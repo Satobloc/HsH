@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 804877121,
+    "bytes_known": 804941387,
     "directories": 32,
-    "files": 360
+    "files": 362
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -16,7 +16,7 @@
     ".png": 18,
     ".py": 9,
     ".rtf": 2,
-    ".txt": 75,
+    ".txt": 77,
     ".yml": 1,
     "[none]": 2
   },
@@ -32,7 +32,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 281,
+    "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "visitor-interface": 3
@@ -41,7 +41,7 @@
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     ".github": 1,
     "ARCHITECTURE.md": 1,
-    "DEVELOPMENT_FULL_CONVOS": 281,
+    "DEVELOPMENT_FULL_CONVOS": 283,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -92,6 +92,13 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt"
+      ]
+    },
+    {
+      "content_id": "1e0c50c914101ae167b8366357e582c40bf97384ac5e2ec74cc9f4a8e6708273",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt",
+        "LIVE CONVOS/H(s)H TIME RESIDUALS.txt"
       ]
     },
     {
@@ -249,6 +256,13 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw.json"
+      ]
+    },
+    {
+      "content_id": "746b5b0c072fd32b02894ad88ebbd96f9a6ef51c0978e88678fcb40d9e64b4c2",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
+        "LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt"
       ]
     },
     {
@@ -458,6 +472,20 @@
       "path": "DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json",
       "role": "source-conversation-corpus",
       "size": 24388363
+    },
+    {
+      "content_id": "746b5b0c072fd32b02894ad88ebbd96f9a6ef51c0978e88678fcb40d9e64b4c2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
+      "role": "source-conversation-corpus",
+      "size": 28156
+    },
+    {
+      "content_id": "1e0c50c914101ae167b8366357e582c40bf97384ac5e2ec74cc9f4a8e6708273",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt",
+      "role": "source-conversation-corpus",
+      "size": 35133
     },
     {
       "content_id": null,
@@ -2952,14 +2980,14 @@
       "size": null
     },
     {
-      "content_id": "60fe101ad0079ab05706be1f5de5ba03b8de7e58932e2377d20fd79bc693c6b2",
+      "content_id": "435760d8bc59e20209f4d5133dd834ee40e317247d40bb468bc147556cb32f9c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 80157
+      "size": 80483
     },
     {
-      "content_id": "c9a1152ed833d302c79d8431d3816d1f82d36b57264d4f0b8ae7d57e26a3e716",
+      "content_id": "00851f528e7214b07e58765dc9eb88ee42a32655303cdcc352b9635fd8db8db5",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -2980,14 +3008,14 @@
       "size": null
     },
     {
-      "content_id": "618cc79becc3dca59e96deb49e26e71a68099a292f4fcb7cb38bafda371d55c3",
+      "content_id": "1e1beee67d153a1a1a49c5bfeed7c5aae8c0e45f4bcdd96fd69347f511705e82",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 125305
+      "size": 125956
     },
     {
-      "content_id": "7218323083d2d2f9110c7f3cd462465039f259f950e000f649bf6478ac8b1916",
+      "content_id": "ad4e6e438dfe7bc73f7ea8d655d83f7426ff3d99cad5187582f049f925d8431d",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3163,8 +3191,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T13:22:42+00:00",
+  "scanned_at_utc": "2026-09-10T14:02:00+00:00",
   "schema_version": 1,
-  "tree_id": "d94b567d492defc012bcb9c62c8c67dad91a271f42b5fa826cfa26716728c9db",
+  "tree_id": "8e5ec9861beff05e56ef89412157f8470e25c1f9284d8c0325417c76cf4336e7",
   "tree_response_truncated": false
 }
