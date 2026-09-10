@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T23:47:53+00:00`
-- Tree/content state: `dccd6f76bfc720f9b83552f0a30d488089f16978c6117082af2ddb87da677992`
-- Coverage: 399 files, 40 directories
+- Scanned: `2026-09-10T23:51:16+00:00`
+- Tree/content state: `0c107e744552d5cec53be65bfaec3bede481ea47a67220921b8614f3e0006a09`
+- Coverage: 428 files, 41 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,12 +12,12 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 1 |
+| `.github` | 2 |
 | `ARCHITECTURE.md` | 1 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
-| `LIBRARY` | 5 |
+| `LIBRARY` | 33 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -44,14 +44,14 @@
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 33 |
+| `.md` | 61 |
 | `.pdf` | 4 |
 | `.png` | 27 |
 | `.py` | 10 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 79 |
-| `.yml` | 1 |
+| `.yml` | 2 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -60,7 +60,7 @@
 |---|---:|
 | `archive-tooling` | 9 |
 | `audit-output` | 1 |
-| `automation-workflow` | 1 |
+| `automation-workflow` | 2 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -72,7 +72,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 36 |
+| `unclassified` | 64 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -246,6 +246,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
+- `.github/workflows/build-public-library.yml` — 1144 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
@@ -534,8 +535,36 @@
 - `HISTORY_TIMELINE.md` — 13483 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
 - `LIBRARY/MANIFEST_GUIDE.md` — 2566 bytes — `unclassified`
-- `LIBRARY/README.md` — 3035 bytes — `unclassified`
-- `LIBRARY/library_manifest.toml` — 3039 bytes — `unclassified`
+- `LIBRARY/README.md` — 5754 bytes — `unclassified`
+- `LIBRARY/generated/2023-spacetime-chat.md` — 64595 bytes — `unclassified`
+- `LIBRARY/generated/2025-first-whitepaper-draft.md` — 77720 bytes — `unclassified`
+- `LIBRARY/generated/2026-math-revamp-take-1.md` — 74788 bytes — `unclassified`
+- `LIBRARY/generated/26r-sat-may-2025.md` — 144328 bytes — `unclassified`
+- `LIBRARY/generated/26r-worldline-topos.md` — 43370 bytes — `unclassified`
+- `LIBRARY/generated/4d-thinking-primer.md` — 5132 bytes — `unclassified`
+- `LIBRARY/generated/4dhh-uc-buildout-dev.md` — 830937 bytes — `unclassified`
+- `LIBRARY/generated/bells-light-cones.md` — 12706 bytes — `unclassified`
+- `LIBRARY/generated/byo-lagrangian.md` — 5194 bytes — `unclassified`
+- `LIBRARY/generated/cp-closure.md` — 3793 bytes — `unclassified`
+- `LIBRARY/generated/demo-qc.md` — 46464 bytes — `unclassified`
+- `LIBRARY/generated/filament-onto.md` — 110735 bytes — `unclassified`
+- `LIBRARY/generated/hsh-aha-topology.md` — 167498 bytes — `unclassified`
+- `LIBRARY/generated/hsh-classic.md` — 218815 bytes — `unclassified`
+- `LIBRARY/generated/hsh-time-residuals.md` — 34733 bytes — `unclassified`
+- `LIBRARY/generated/logic-of-sat.md` — 8464 bytes — `unclassified`
+- `LIBRARY/generated/sat-2025-deriv.md` — 237811 bytes — `unclassified`
+- `LIBRARY/generated/sat-all-together-synthesis.md` — 39334 bytes — `unclassified`
+- `LIBRARY/generated/sat-overview.md` — 129343 bytes — `unclassified`
+- `LIBRARY/generated/sat-stated-simply.md` — 73396 bytes — `unclassified`
+- `LIBRARY/generated/sat-unodrop.md` — 103567 bytes — `unclassified`
+- `LIBRARY/generated/scaling.md` — 23933 bytes — `unclassified`
+- `LIBRARY/generated/scratch-1.md` — 191126 bytes — `unclassified`
+- `LIBRARY/generated/scratch-2.md` — 55774 bytes — `unclassified`
+- `LIBRARY/generated/scratch-4.md` — 12397 bytes — `unclassified`
+- `LIBRARY/generated/srena-sat.md` — 26545 bytes — `unclassified`
+- `LIBRARY/generated/srena-sat2.md` — 187469 bytes — `unclassified`
+- `LIBRARY/generated/worldlines.md` — 43327 bytes — `unclassified`
+- `LIBRARY/library_manifest.toml` — 11941 bytes — `unclassified`
 - `LIBRARY/presented/fundamental-intuitions.md` — 11131 bytes — `unclassified`
 - `LIBRARY/presented/geometry-first-synthesis-excerpt.md` — 6348 bytes — `unclassified`
 - `LICENSE` — 19441 bytes — `license`
@@ -574,7 +603,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `README.md` — 37893 bytes — `visitor-interface`
+- `README.md` — 35643 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`

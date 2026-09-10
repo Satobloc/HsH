@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 817427187,
-    "directories": 40,
-    "files": 399
+    "bytes_known": 820410996,
+    "directories": 41,
+    "files": 428
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -12,20 +12,20 @@
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 33,
+    ".md": 61,
     ".pdf": 4,
     ".png": 27,
     ".py": 10,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 79,
-    ".yml": 1,
+    ".yml": 2,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 9,
     "audit-output": 1,
-    "automation-workflow": 1,
+    "automation-workflow": 2,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -37,17 +37,17 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 36,
+    "unclassified": 64,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 1,
+    ".github": 2,
     "ARCHITECTURE.md": 1,
     "DEVELOPMENT_FULL_CONVOS": 283,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
-    "LIBRARY": 5,
+    "LIBRARY": 33,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -459,6 +459,13 @@
       "path": ".github/workflows",
       "role": "automation-workflow",
       "size": null
+    },
+    {
+      "content_id": "861c45cb56aa9d896722132ad2867768609eb52e97f4ac18a372e41b8ce07fac",
+      "kind": "blob",
+      "path": ".github/workflows/build-public-library.yml",
+      "role": "automation-workflow",
+      "size": 1144
     },
     {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
@@ -2582,18 +2589,221 @@
       "size": 2566
     },
     {
-      "content_id": "d14b2f1cd5f342119c962b8962ddba7a5d7ec284e066577c657ef371bd123c62",
+      "content_id": "24ce3e802b61455563e72f2c207f01bc734a3b105794a4954117a270f4eae9be",
       "kind": "blob",
       "path": "LIBRARY/README.md",
       "role": "unclassified",
-      "size": 3035
+      "size": 5754
     },
     {
-      "content_id": "d19fd7f6c6f0e4f8eca13f1f8fd35b077d1e7d980362904b79ed03bfc6fe72bb",
+      "content_id": null,
+      "kind": "tree",
+      "path": "LIBRARY/generated",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "ef32892e0a113f1f177c4dddf6fdbbbf72a8d239a5d53234c4e822a6382e6230",
+      "kind": "blob",
+      "path": "LIBRARY/generated/2023-spacetime-chat.md",
+      "role": "unclassified",
+      "size": 64595
+    },
+    {
+      "content_id": "b0f455d2afbe915b730d24e174e75d284df0727d39201f44aa4fbc68037842f2",
+      "kind": "blob",
+      "path": "LIBRARY/generated/2025-first-whitepaper-draft.md",
+      "role": "unclassified",
+      "size": 77720
+    },
+    {
+      "content_id": "d227f5fdee3bb25c1267e8a543d7667300574c940d1f3d8a40d8e70d8c569ee3",
+      "kind": "blob",
+      "path": "LIBRARY/generated/2026-math-revamp-take-1.md",
+      "role": "unclassified",
+      "size": 74788
+    },
+    {
+      "content_id": "94b45b21d3570088815f441f7fcc7730ad3960624dabad745bcdc5a3981edee4",
+      "kind": "blob",
+      "path": "LIBRARY/generated/26r-sat-may-2025.md",
+      "role": "unclassified",
+      "size": 144328
+    },
+    {
+      "content_id": "02d77695fe8fcebcb1851f7180155ec58f3c7bc6bab6df4120e4061546125bcf",
+      "kind": "blob",
+      "path": "LIBRARY/generated/26r-worldline-topos.md",
+      "role": "unclassified",
+      "size": 43370
+    },
+    {
+      "content_id": "7a032f15c1d5cae14711a7b0365f6afc5f13daf5b6fa39a52a83b7a79bbb3f42",
+      "kind": "blob",
+      "path": "LIBRARY/generated/4d-thinking-primer.md",
+      "role": "unclassified",
+      "size": 5132
+    },
+    {
+      "content_id": "fe3028ee9ee909f9fc28718d286c8617f8b20874817b74afb92b9920a65e2752",
+      "kind": "blob",
+      "path": "LIBRARY/generated/4dhh-uc-buildout-dev.md",
+      "role": "unclassified",
+      "size": 830937
+    },
+    {
+      "content_id": "22504c1b036774637f4b0b734767c50f8272a6928b92ddd1e4ba2b7da3c6d088",
+      "kind": "blob",
+      "path": "LIBRARY/generated/bells-light-cones.md",
+      "role": "unclassified",
+      "size": 12706
+    },
+    {
+      "content_id": "ee1ac5041382b1f2e845024e42c14ee63f23bf8803581671f55ae279af9b33b1",
+      "kind": "blob",
+      "path": "LIBRARY/generated/byo-lagrangian.md",
+      "role": "unclassified",
+      "size": 5194
+    },
+    {
+      "content_id": "f4639db5500295400b5f9a0cf6c0b5acdfd6a6dedf404827a1c8215ecd3ed630",
+      "kind": "blob",
+      "path": "LIBRARY/generated/cp-closure.md",
+      "role": "unclassified",
+      "size": 3793
+    },
+    {
+      "content_id": "2fc78415d3a723766add910ec3833394c77eeaf53c76657f1cf9c9fb12b04181",
+      "kind": "blob",
+      "path": "LIBRARY/generated/demo-qc.md",
+      "role": "unclassified",
+      "size": 46464
+    },
+    {
+      "content_id": "1b76ac584483527b57e0865afda0c7a4047921ad554a2c8abd24a472fef8da49",
+      "kind": "blob",
+      "path": "LIBRARY/generated/filament-onto.md",
+      "role": "unclassified",
+      "size": 110735
+    },
+    {
+      "content_id": "4d874db263d4fcc6d4af7eea585a2ac2b26c620ebfbde1245ad7451cb0c28291",
+      "kind": "blob",
+      "path": "LIBRARY/generated/hsh-aha-topology.md",
+      "role": "unclassified",
+      "size": 167498
+    },
+    {
+      "content_id": "a0474f18a3d559245badd693e6044925c28d0079933843847687b3841859bffd",
+      "kind": "blob",
+      "path": "LIBRARY/generated/hsh-classic.md",
+      "role": "unclassified",
+      "size": 218815
+    },
+    {
+      "content_id": "7ec69938c561458f9b3588e2b731c7cb963dd1de5dd3fab2eb72e832ea913e9c",
+      "kind": "blob",
+      "path": "LIBRARY/generated/hsh-time-residuals.md",
+      "role": "unclassified",
+      "size": 34733
+    },
+    {
+      "content_id": "63f847ac991f516902d85e9be48428191d7b218e289b5de29c00bec3e00c023a",
+      "kind": "blob",
+      "path": "LIBRARY/generated/logic-of-sat.md",
+      "role": "unclassified",
+      "size": 8464
+    },
+    {
+      "content_id": "c2a5950d4bfdedadb334a6593f9b8caf3b0b7d4989c222962bcf417cadc675b7",
+      "kind": "blob",
+      "path": "LIBRARY/generated/sat-2025-deriv.md",
+      "role": "unclassified",
+      "size": 237811
+    },
+    {
+      "content_id": "75bb06dbdcac99fab0b4f51ed78f078d9e3aabc78acd6845aee0956a5115c5ed",
+      "kind": "blob",
+      "path": "LIBRARY/generated/sat-all-together-synthesis.md",
+      "role": "unclassified",
+      "size": 39334
+    },
+    {
+      "content_id": "422b158aa31bd526e05b67208bbeb98a2b0a9715c83ecb762806180a453fa0de",
+      "kind": "blob",
+      "path": "LIBRARY/generated/sat-overview.md",
+      "role": "unclassified",
+      "size": 129343
+    },
+    {
+      "content_id": "955c4406eb8833cec1e38db1906e6225645f049e25bff07dd97a3046651303c0",
+      "kind": "blob",
+      "path": "LIBRARY/generated/sat-stated-simply.md",
+      "role": "unclassified",
+      "size": 73396
+    },
+    {
+      "content_id": "32a50e48c6c426a0e5fc6cd45666ff1ce110766dd5190a52378100fdf9d81c37",
+      "kind": "blob",
+      "path": "LIBRARY/generated/sat-unodrop.md",
+      "role": "unclassified",
+      "size": 103567
+    },
+    {
+      "content_id": "e0ec671ea4958ef4395b80d316c0a8c3b75cd01a644209dcc57740f525289144",
+      "kind": "blob",
+      "path": "LIBRARY/generated/scaling.md",
+      "role": "unclassified",
+      "size": 23933
+    },
+    {
+      "content_id": "f7cebb2fc0e4fe4d29b4ce9cb17e7824a0d18a5937a18c7aea974e3e7541cb65",
+      "kind": "blob",
+      "path": "LIBRARY/generated/scratch-1.md",
+      "role": "unclassified",
+      "size": 191126
+    },
+    {
+      "content_id": "fcf7d664bbf523fa98c02028b4839f1671ba58d0d26c2e52915d5cc990abc958",
+      "kind": "blob",
+      "path": "LIBRARY/generated/scratch-2.md",
+      "role": "unclassified",
+      "size": 55774
+    },
+    {
+      "content_id": "119304211e3d1faa8fc46316bff30ad14feb97aa047a77052791d478f64a5a2e",
+      "kind": "blob",
+      "path": "LIBRARY/generated/scratch-4.md",
+      "role": "unclassified",
+      "size": 12397
+    },
+    {
+      "content_id": "61e73454efc269f39461bed774e504c71b8e44c93e916666f04c6809b3198284",
+      "kind": "blob",
+      "path": "LIBRARY/generated/srena-sat.md",
+      "role": "unclassified",
+      "size": 26545
+    },
+    {
+      "content_id": "e082296541fd6f36eca2296c8ea477136f95a0423dfe4a99141629269f7ab079",
+      "kind": "blob",
+      "path": "LIBRARY/generated/srena-sat2.md",
+      "role": "unclassified",
+      "size": 187469
+    },
+    {
+      "content_id": "cdf5dd142b76bc608d9d18c6052b26fa373fc24824e167c3b6eb3730f0f02c64",
+      "kind": "blob",
+      "path": "LIBRARY/generated/worldlines.md",
+      "role": "unclassified",
+      "size": 43327
+    },
+    {
+      "content_id": "ae845a2c6bddb933ff2e13fdbe2fba64d9537b15593ff29588379af4dc3fc1f3",
       "kind": "blob",
       "path": "LIBRARY/library_manifest.toml",
       "role": "unclassified",
-      "size": 3039
+      "size": 11941
     },
     {
       "content_id": null,
@@ -2876,11 +3086,11 @@
       "size": 5074617
     },
     {
-      "content_id": "31263b8fba06921ba4cd9e2c9157f3907e8c7ffb50a1e3ded1d113fc3e1b52db",
+      "content_id": "9bdff3748b647bdca777a8cc014d314ff83f42a6b59d4b18ec98125a18d6c314",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 37893
+      "size": 35643
     },
     {
       "content_id": null,
@@ -3303,14 +3513,14 @@
       "size": null
     },
     {
-      "content_id": "e29c6462dcea57f4aef3decb69a0224559b89fb8009bdecf7a6adc8b1244b36f",
+      "content_id": "36cf73be945005c04d9402c818700c03763464272a14aece8e416dfd21c5f8ad",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "9730787e04a32a82f2ad31801f01fa3f9174e844450f060eb7b86fe6d571da54",
+      "content_id": "c3c24722884373f16958ddf8f0e75d4faa0af4b4616097e45347eac36facc6b9",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3331,14 +3541,14 @@
       "size": null
     },
     {
-      "content_id": "80bb8ee5f1a0c89419e26c494b5d84de4c025304620a06ff1d86c40ae04fe533",
+      "content_id": "8114193c7d2e409a85001e3bcf5172b40a116acd8033e8b3b1fbc48f23b01380",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "ddab4cbe392bf74369b5b8fa52ac0ea5943e3386b24a7ddecdaf9204a107502e",
+      "content_id": "0dd0ed6a77e0a1dc9c1ae437884d57cbadef6bc98950b20f3cd10ea08f8fcd1e",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3521,8 +3731,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T23:47:53+00:00",
+  "scanned_at_utc": "2026-09-10T23:51:16+00:00",
   "schema_version": 1,
-  "tree_id": "dccd6f76bfc720f9b83552f0a30d488089f16978c6117082af2ddb87da677992",
+  "tree_id": "0c107e744552d5cec53be65bfaec3bede481ea47a67220921b8614f3e0006a09",
   "tree_response_truncated": false
 }
