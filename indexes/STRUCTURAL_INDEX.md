@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T21:58:47+00:00`
-- Tree/content state: `01059fc5c5b2233e0a6d58964d698bb7099fcb1a2b04c2727ba4542227643507`
-- Coverage: 393 files, 38 directories
+- Scanned: `2026-09-10T22:24:02+00:00`
+- Tree/content state: `91fd1242b0bfe188601d76bfc9f0628b61a4d9ba5741d943c238d8044c93215d`
+- Coverage: 397 files, 39 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -17,6 +17,7 @@
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
+| `LIBRARY` | 3 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -30,7 +31,7 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 8 |
+| `tools` | 9 |
 
 ## File types
 
@@ -43,11 +44,12 @@
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 29 |
+| `.md` | 31 |
 | `.pdf` | 4 |
 | `.png` | 27 |
-| `.py` | 9 |
+| `.py` | 10 |
 | `.rtf` | 2 |
+| `.toml` | 1 |
 | `.txt` | 79 |
 | `.yml` | 1 |
 | `[none]` | 2 |
@@ -56,7 +58,7 @@
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 8 |
+| `archive-tooling` | 9 |
 | `audit-output` | 1 |
 | `automation-workflow` | 1 |
 | `checkpoint` | 1 |
@@ -70,7 +72,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 31 |
+| `unclassified` | 34 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -531,6 +533,9 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `HISTORY_TIMELINE.md` — 13483 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
+- `LIBRARY/MANIFEST_GUIDE.md` — 2566 bytes — `unclassified`
+- `LIBRARY/README.md` — 890 bytes — `unclassified`
+- `LIBRARY/library_manifest.toml` — 1870 bytes — `unclassified`
 - `LICENSE` — 19441 bytes — `license`
 - `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/AUTO H(s)H Gitter — raw.json` — 4804780 bytes — `live-conversation-corpus`
@@ -628,6 +633,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
+- `tools/build_public_library.py` — 11346 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
 - `tools/index_archive.py` — 10674 bytes — `archive-tooling`

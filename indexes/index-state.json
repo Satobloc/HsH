@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 817367932,
-    "directories": 38,
-    "files": 393
+    "bytes_known": 817384604,
+    "directories": 39,
+    "files": 397
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -12,17 +12,18 @@
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 29,
+    ".md": 31,
     ".pdf": 4,
     ".png": 27,
-    ".py": 9,
+    ".py": 10,
     ".rtf": 2,
+    ".toml": 1,
     ".txt": 79,
     ".yml": 1,
     "[none]": 2
   },
   "counts_by_role": {
-    "archive-tooling": 8,
+    "archive-tooling": 9,
     "audit-output": 1,
     "automation-workflow": 1,
     "checkpoint": 1,
@@ -36,7 +37,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 31,
+    "unclassified": 34,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -46,6 +47,7 @@
     "DEVELOPMENT_FULL_CONVOS": 283,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
+    "LIBRARY": 3,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -59,7 +61,7 @@
     "ledgers": 3,
     "synthesis": 6,
     "tests": 1,
-    "tools": 8
+    "tools": 9
   },
   "duplicates": [
     {
@@ -2566,6 +2568,34 @@
       "size": 4413
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "LIBRARY",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "9d07265cfa6a124eda20c72bdc81f9d74b3b24e94e0076f924fe9e6a85fa43ef",
+      "kind": "blob",
+      "path": "LIBRARY/MANIFEST_GUIDE.md",
+      "role": "unclassified",
+      "size": 2566
+    },
+    {
+      "content_id": "67d7be16a6c3c43a3bf64cdc276cde3240c93b0dba918e89c259e2185e3a5c9a",
+      "kind": "blob",
+      "path": "LIBRARY/README.md",
+      "role": "unclassified",
+      "size": 890
+    },
+    {
+      "content_id": "080be29e9b136074313705d8346f81481bd196939966657184f9150d7b56b751",
+      "kind": "blob",
+      "path": "LIBRARY/library_manifest.toml",
+      "role": "unclassified",
+      "size": 1870
+    },
+    {
       "content_id": "57c797b3d8cf23dc9d536bdefb9444bf98e1e02980591da2cf33444924ece675",
       "kind": "blob",
       "path": "LICENSE",
@@ -3252,14 +3282,14 @@
       "size": null
     },
     {
-      "content_id": "abc8f1131e68fbceb53472bd788c406ee1a9e71a29a7fcade6b81bce92cdb6b3",
+      "content_id": "f1bfb77c4e53fd3f4bf2cb64cee6a3592ae0710519a3a4d7fbc41f0d20856510",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "3cdf85027c05c86490ca92b46bb6b34dd8c7eda7a3897d6383c3bdc669bd9b51",
+      "content_id": "790dde54c2d374e38076226c56e3c272fe7042c6d4c83e3e82fc9049d58b3974",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3280,14 +3310,14 @@
       "size": null
     },
     {
-      "content_id": "c279bccf04aa41a141af8e8599aec5ccad5361f5b5e43a1d8285dadb77c981ba",
+      "content_id": "72d0ee4c1b701c0984fc0cd3e5c9d7a9460399211bae321787fb75427dd4dd32",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "2fcac6d10270225bb35a47b7500c1f902f2607ea607e9fc55a1d23328b09e511",
+      "content_id": "c6310419451620db15e155f3311932f5890762a72a8d3e9682d012596d3a2e3c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3392,6 +3422,13 @@
       "size": null
     },
     {
+      "content_id": "4c6ffe08316dce9d1ca0c3eb9caefd1c73a1d53225004ce4113bfbd73fbfe893",
+      "kind": "blob",
+      "path": "tools/build_public_library.py",
+      "role": "archive-tooling",
+      "size": 11346
+    },
+    {
       "content_id": "2a84e79e658fb3f665f0177383b9f4750c6e269a927a3b71ce599a52efbd49c8",
       "kind": "blob",
       "path": "tools/date_conversation_exports.py",
@@ -3463,8 +3500,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T21:58:47+00:00",
+  "scanned_at_utc": "2026-09-10T22:24:02+00:00",
   "schema_version": 1,
-  "tree_id": "01059fc5c5b2233e0a6d58964d698bb7099fcb1a2b04c2727ba4542227643507",
+  "tree_id": "91fd1242b0bfe188601d76bfc9f0628b61a4d9ba5741d943c238d8044c93215d",
   "tree_response_truncated": false
 }
