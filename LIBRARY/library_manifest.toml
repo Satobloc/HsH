@@ -13,11 +13,18 @@
 # render = "verbatim" preserves source text after newline normalization.
 # render = "manual" points to a separately curated presentation page while
 # leaving the historical source untouched.
+#
+# tier = 1, 2, or 3 is an EDITORIAL DISPLAY PRIORITY, not a confidence score.
+# trial = true marks a page as provisional while we evaluate presentation.
 
 [settings]
 source_repo = "Satobloc/SAT_THEORY_ARCHIVE_2023-25"
 source_branch = "main"
 generated_dir = "LIBRARY/generated"
+
+# ---------------------------------------------------------------------------
+# Existing hand-curated prototypes
+# ---------------------------------------------------------------------------
 
 [[documents]]
 id = "fundamental-intuitions"
@@ -48,6 +55,335 @@ note = "A selected opening passage in Nathan McKnight's own explanatory voice, e
   end = 25
   label = "Opening: geometry as the constraint"
 
+# ---------------------------------------------------------------------------
+# Nathan's trial showcase set, 2026-09-10
+# Duplicate nominations are shown once at their highest-priority tier.
+# ---------------------------------------------------------------------------
+
+# TIER I
+
+[[documents]]
+id = "sat-all-together-synthesis"
+title = "SAT All Together Synthesis"
+source_path = "SAT ALL TOGETHER SYNTHESIS.txt"
+phase = "SAT synthesis / transition toward H(s)H"
+categories = ["synthesis", "method", "geometry"]
+selection = "showcase"
+render = "verbatim"
+tier = 1
+trial = true
+note = "Tier I candidate selected for full-document presentation testing."
+
+[[documents]]
+id = "2023-spacetime-chat"
+title = "2023 Spacetime Chat"
+source_path = "2023 SPACETIME CHAT.txt"
+date = "2023"
+phase = "Pre-SAT / early spacetime development"
+categories = ["history", "development", "geometry"]
+selection = "showcase"
+render = "verbatim"
+tier = 1
+trial = true
+note = "Tier I candidate selected for full-document presentation testing; also useful as an early-development source."
+
+# TIER II
+
+[[documents]]
+id = "sat-stated-simply"
+title = "SAT Stated Simply"
+source_path = "SAT_STATED_SIMPLY.txt"
+categories = ["overview", "start-here"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate selected for presentation testing."
+
+[[documents]]
+id = "26r-sat-may-2025"
+title = "26R SAT — May 2025"
+source_path = "26R SAT MAY 2025.txt"
+date = "2025-05"
+categories = ["development", "sat"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate. This file also appeared in the Tier III nomination list; it is displayed once here at the higher tier."
+
+[[documents]]
+id = "filament-onto"
+title = "Filament Onto"
+source_path = "Filament onto.txt"
+categories = ["filaments", "foundations", "geometry"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate selected for presentation testing."
+
+[[documents]]
+id = "hsh-time-residuals"
+title = "H(s)H Time Residuals"
+source_path = "H(s)H_TIME_RESIDUALS.txt"
+categories = ["hsh", "time", "residuals"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II H(s)H candidate selected for presentation testing."
+
+[[documents]]
+id = "hsh-aha-topology"
+title = "HsH Aha Topology"
+source_path = "HsH AHA TOPOLOGY.txt"
+categories = ["hsh", "topology", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II H(s)H candidate selected for presentation testing."
+
+[[documents]]
+id = "srena-sat"
+title = "SRENA SAT"
+source_path = "SRENA SAT.txt"
+categories = ["sat", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate selected for presentation testing."
+
+[[documents]]
+id = "srena-sat2"
+title = "SRENA SAT 2"
+source_path = "SRENA SAT2.txt"
+categories = ["sat", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate selected for presentation testing."
+
+[[documents]]
+id = "logic-of-sat"
+title = "The Logic of SAT"
+source_path = "THE LOGIC OF SAT.txt"
+categories = ["method", "logic", "foundations"]
+selection = "showcase"
+render = "verbatim"
+tier = 2
+trial = true
+note = "Tier II candidate selected for presentation testing."
+
+# TIER III
+
+[[documents]]
+id = "sat-unodrop"
+title = "SAT Unodrop"
+source_path = "SAT UNODROP.txt"
+categories = ["sat", "synthesis"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "2025-first-whitepaper-draft"
+title = "2025 First Whitepaper Draft"
+source_path = "2025 FIRST WHITEPAPER DRAFT.txt"
+date = "2025"
+categories = ["paper", "history", "formalization"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III historical paper candidate selected for presentation testing."
+
+[[documents]]
+id = "2026-math-revamp-take-1"
+title = "2026 Math Revamp — Take 1"
+source_path = "2026 MATH REVAMP TAKE 1.txt"
+date = "2026"
+categories = ["math", "formalization", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III mathematical-development candidate selected for presentation testing."
+
+[[documents]]
+id = "26r-worldline-topos"
+title = "26R Worldline Topos"
+source_path = "26R Worldline Topos.txt"
+categories = ["worldline", "topology", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "4d-thinking-primer"
+title = "4D Thinking Primer"
+source_path = "4D THINKING PRIMER.txt"
+categories = ["4d", "primer", "geometry"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "4dhh-uc-buildout-dev"
+title = "4DHH-UC Buildout Development"
+source_path = "4DHH-UC BUILDOUT DEV.txt"
+categories = ["4dhh", "unit-cell", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "byo-lagrangian"
+title = "BYO Lagrangian"
+source_path = "BYO LAGRANGIAN.txt"
+categories = ["lagrangian", "math", "method"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "bells-light-cones"
+title = "Bell’s + Light Cones"
+source_path = "Bell’s + Light Cones.txt"
+categories = ["bells", "light-cones", "geometry"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "cp-closure"
+title = "CP Closure"
+source_path = "CP CLOSURE.txt"
+categories = ["cp", "closure", "particle-physics"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "demo-qc"
+title = "DEMO QC"
+source_path = "DEMO_QC.txt"
+categories = ["qc", "demo", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "hsh-classic"
+title = "H(s)H Classic"
+source_path = "H(s)H CLASSIC.txt"
+categories = ["hsh", "synthesis", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III H(s)H candidate selected for presentation testing."
+
+[[documents]]
+id = "scratch-4"
+title = "Scratch 4"
+source_path = "SCRATCH 4.txt"
+categories = ["scratch", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III working-document candidate selected for presentation testing."
+
+[[documents]]
+id = "worldlines"
+title = "Worldlines"
+source_path = "Worldlines.txt"
+categories = ["worldlines", "geometry", "foundations"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "sat-overview"
+title = "SAT Overview"
+source_path = "SAT_overview.txt"
+categories = ["overview", "sat"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "scaling"
+title = "Scaling"
+source_path = "SCALING.txt"
+categories = ["scaling", "geometry", "math"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III candidate selected for presentation testing."
+
+[[documents]]
+id = "scratch-1"
+title = "Scratch 1"
+source_path = "SCRATCH 1.txt"
+categories = ["scratch", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III working-document candidate selected for presentation testing."
+
+[[documents]]
+id = "scratch-2"
+title = "Scratch 2"
+source_path = "SCRATCH 2.txt"
+categories = ["scratch", "development"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III working-document candidate selected for presentation testing."
+
+[[documents]]
+id = "sat-2025-deriv"
+title = "SAT 2025 Derivations"
+source_path = "[[[SAT_2025_DERIV]]].txt"
+categories = ["derivations", "math", "2025"]
+selection = "showcase"
+render = "verbatim"
+tier = 3
+trial = true
+note = "Tier III derivation candidate selected for presentation testing."
+
+# ---------------------------------------------------------------------------
+# Raw-development links
+# ---------------------------------------------------------------------------
+
 [[documents]]
 id = "raw-sat-timeline"
 title = "SAT Timeline — raw source"
@@ -68,4 +404,4 @@ phase = "Pre-SAT / early spacetime development"
 categories = ["raw-log", "prehistory", "geometry"]
 selection = "raw_pick"
 render = "verbatim"
-note = "An early developmental conversation preserved without presentation cleanup."
+note = "Direct access to the same early conversation, without the library presentation wrapper."
