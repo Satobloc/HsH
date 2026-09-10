@@ -10,42 +10,62 @@
 # selection = "raw_pick"  -> useful direct link in the raw-development section
 # selection = "candidate" -> tagged for review; not exposed publicly yet
 #
-# render = "verbatim" preserves source text byte-for-text after newline
-# normalization inside a readable <pre> block. "manual" reserves a document
-# for a separately curated presentation page without altering the source.
+# render = "verbatim" preserves source text after newline normalization.
+# render = "manual" points to a separately curated presentation page while
+# leaving the historical source untouched.
 
 [settings]
 source_repo = "Satobloc/SAT_THEORY_ARCHIVE_2023-25"
 source_branch = "main"
 generated_dir = "LIBRARY/generated"
 
-# Meridian: duplicate this block for each item you want to tag.
-# Paths are repository-relative and case-sensitive.
-#
-# [[documents]]
-# id = "minkowski-proper"
-# title = "Minkowski Proper"
-# source_path = "2026/MINKOWSKI PROPER.txt"
-# date = "2026"
-# phase = "4DHH / SAT 2026"
-# categories = ["foundations", "geometry"]
-# selection = "candidate"
-# render = "verbatim"
-# note = "Candidate foundational reading."
-#
-# For an excerpt, add one or more ranges. Lines are 1-based and inclusive.
-# [[documents]]
-# id = "example-excerpt"
-# title = "Example developmental excerpt"
-# source_path = "path/to/large-log.txt"
-# date = "2025"
-# phase = "SAT"
-# categories = ["development"]
-# selection = "candidate"
-# render = "verbatim"
-# note = "Example only; replace with a real selection."
-#
-#   [[documents.ranges]]
-#   start = 820
-#   end = 1040
-#   label = "Selected passage"
+[[documents]]
+id = "fundamental-intuitions"
+title = "The Fundamental Intuitions of SAT"
+source_path = "DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt"
+date = "2025"
+phase = "Early SAT / public foundational statement"
+categories = ["start-here", "foundations", "geometry", "method"]
+selection = "showcase"
+render = "manual"
+presentation_path = "presented/fundamental-intuitions.md"
+note = "A compact statement of the early SAT construction: worldlines as filaments, a moving time surface, particle-as-intersection, and the explicit rule to preserve successful Standard Model, GR, and QM structure unless forced otherwise. Historical wording is retained; some mechanisms were later revised."
+
+[[documents]]
+id = "geometry-first-synthesis-excerpt"
+title = "Geometry First: opening argument from SAT All Together Synthesis"
+source_path = "SAT ALL TOGETHER SYNTHESIS.txt"
+date = "2026-07-03"
+phase = "Late SAT / transition toward H(s)H"
+categories = ["method", "geometry", "minkowski", "development"]
+selection = "excerpt"
+render = "manual"
+presentation_path = "presented/geometry-first-synthesis-excerpt.md"
+note = "A selected opening passage in Nathan McKnight's own explanatory voice, emphasizing geometric constraint, Minkowski worldlines/timesheets, and minimal additions to the problem space."
+
+  [[documents.ranges]]
+  start = 1
+  end = 25
+  label = "Opening: geometry as the constraint"
+
+[[documents]]
+id = "raw-sat-timeline"
+title = "SAT Timeline — raw source"
+source_path = "SAT TIMELINE.txt"
+date = "2026"
+phase = "Archive chronology"
+categories = ["raw-log", "history"]
+selection = "raw_pick"
+render = "verbatim"
+note = "Long-form historical/developmental timeline from the main Archive."
+
+[[documents]]
+id = "raw-2023-spacetime-chat"
+title = "2023 Spacetime Chat — raw source"
+source_path = "2023 SPACETIME CHAT.txt"
+date = "2023"
+phase = "Pre-SAT / early spacetime development"
+categories = ["raw-log", "prehistory", "geometry"]
+selection = "raw_pick"
+render = "verbatim"
+note = "An early developmental conversation preserved without presentation cleanup."
