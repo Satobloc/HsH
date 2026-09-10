@@ -6,7 +6,7 @@ H(s)H is the current finite-core/worldtube continuation of the SAT research prog
 
 The images below are not decorative. They are the fastest way into the construction. They show the recurring picture that runs through the SAT record: a trajectory through four-dimensional geometry, its intersection/readout on a time surface, increasing structural complexity through coiling and braiding, and the extension of the same grammar from particle-scale structures to interaction and cosmology.
 
-> **Read the pictures first.** The formalism, provenance, source trails, and current status are linked underneath them.
+> **Read the pictures first.** The history, source record, formal work, and current status are linked underneath them.
 
 ---
 
@@ -80,7 +80,7 @@ The public H(s)H repository is not the primary historical archive. The larger [S
 <tr>
 <td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003.png" alt="Earliest surviving 2003 sketch"></a></td>
 <td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003_3.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003_3.png" alt="Early 2003 geometric sketch"></a></td>
-<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png" alt="Dated 2003 notebook / spine record"></a></td>
+<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png" alt="Dated 2003 notebook record"></a></td>
 </tr>
 </table>
 
@@ -99,85 +99,46 @@ The Archive dates the Ireland-trip notebook period to **February–June 2003** a
 
 The point of preserving the sketches alongside later renderings is not that every current H(s)H statement was already explicit in the earliest work. It is that the **recognizable generative geometry appears early and persists while the physical identifications, mathematical machinery, and resolution of the model accumulate around it**.
 
-[Browse the 2003 sketch folder →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/2003%20SKETCHES)
-
-[Browse the historical SAT visuals →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS)
-
-[Browse the curated H(s)H visual package →](SAT_VISUALS/VISUALS_1/)
+[Browse the 2003 sketch folder →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/2003%20SKETCHES) · [Browse the historical SAT visuals →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS) · [Browse the curated H(s)H visual package →](SAT_VISUALS/VISUALS_1/)
 
 ---
 
-# What H(s)H is working on now
+# History in brief
 
-The immediate problem is to turn the comparatively mature **worldline skeleton** into a mathematically controlled **finite-core worldtube model** without laundering later-discovered outside machinery into the theory's premises.
+SAT/H(s)H did not begin as a finished theory and then acquire illustrations afterward. The geometry came first and was repeatedly revisited, renamed, formalized, tested, simplified, and broadened. The historical archive records the path in much greater detail, but several turning points make the overall development legible:
 
-The working order is:
+**c. 1991 → 2003–04:** Minkowski worldline/timesheet thinking develops into surviving higher-dimensional path, coil, mass and curvature sketches.
 
-**geometry → admissible relations → finite-core object → interaction/deformation → projection/readout → mathematical representation → comparison with known physics**
+**2024:** the old construction is reopened explicitly as Proto-SAT; line/plane and helix/hypersurface geometry becomes the center of sustained theory-building.
 
-The project distinguishes representation, derivation, calibration, prediction, and prior-art comparison. A visually suggestive correspondence is not by itself a derivation or empirical result.
+**2 February 2025:** the Fundamental Intuitions are presented publicly: physicalized worldlines/filaments, a time surface, particle-as-intersection, and deliberate import of successful Standard Model, relativity and quantum structure.
 
-## Start here after the pictures
+**Spring–summer 2025:** SAT expands rapidly into an all-physics translation program. θ₄, torsion/twist, particle mappings, QCD-like locking/braiding, 4D-covariant integration, Hopf/Borromean structures, SAT-O modules, mathematical-backbone work, prediction protocols and hostile audits all enter the record.
 
-1. Read [ARCHITECTURE.md](ARCHITECTURE.md) for repository layers and status rules.
-2. Use [the structural index](indexes/STRUCTURAL_INDEX.md) to see what is present.
-3. Use [the executable equation registry](formalization/README.md) for curated Python checks and generated Lean obligations.
-4. Treat `DEVELOPMENT_FULL_CONVOS/` as primary developmental source material, not as automatically current or canonical theory.
-5. Use the point-of-use [citation ledger](ledgers/CITATION_LEDGER.md) when an outside source is required.
-6. For the public visual vocabulary, start in [`SAT_VISUALS/VISUALS_1`](SAT_VISUALS/VISUALS_1/).
+**Late 2025:** Blockwave and One-Action formulations compress the picture further; the public archive opens on GitHub on 28 December 2025.
 
-## Source relationship and prior-art boundary
+**Early 2026:** 4DHH, the Universal Indicatrix, Unit Cell work, photoneutrino and Standard Atom constructions reorganize much of the prior machinery around a more explicitly hyperhelical geometric generator.
 
-- **This repository** is the clean destination for the developing H(s)H synthesis.
-- The larger [SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25) remains the historical/developmental archive and mathematical quarry.
-- `HSH_RESOURCES` is the source-side research library for papers, datasets, prior art, and external comparison.
-- H(s)H is reconstructed forward from its own SAT → SAT-O → 4DHH → Blockwave/Satobloc → H(s)H development.
-- External literature is used for citation, standard definitions/results, empirical constraints, prior-art comparison, and explicitly provenance-labeled imports. It does not silently become H(s)H's generative basis.
+**Summer 2026 → H(s)H:** the longstanding coiled-worldline skeleton is carried into a finite-core **Hyperhelical Worldtube** model so that internal extent, deformation, interaction and recursive carrier structure can be treated explicitly rather than only through a centerline representation.
 
-When an outside source is used, two relationships remain separate:
+For the compact visual chronology, see **[SAT → H(s)H: a short development timeline](HISTORY_TIMELINE.md)**. The long-form source chronology remains in the [historical SAT Archive](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25#development-timeline).
 
-**internal provenance** — where the H(s)H statement came from in the SAT/H(s)H record;
+---
 
-**external citation** — what standard result, empirical source, constraint, comparison, or prior art should be credited.
+# Current H(s)H focus
 
-## Reading rule
+The present research problem is the finite-core worldtube build: preserving the durable geometric structure of the worldline model while determining which relations survive, which require new mechanics, and which historical simplifications should be retired. Mathematical formalization, empirical comparison, and prior-art review are proceeding alongside that reconstruction.
 
-**Observe → Catalog → Contextualize → Evaluate.**
+For readers who want to go deeper:
 
-Indexes describe what is present. They do not decide what is correct, current, derived, or physically established.
+- [Short development timeline](HISTORY_TIMELINE.md)
+- [Repository architecture](ARCHITECTURE.md)
+- [Structural index](indexes/STRUCTURAL_INDEX.md)
+- [Formalization workspace](formalization/README.md)
+- [Curated visual package](SAT_VISUALS/VISUALS_1/)
+- [Historical SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)
 
-<details>
-<summary><strong>Repository maintenance and navigation</strong></summary>
-
-### Current contents
-
-- `DEVELOPMENT_FULL_CONVOS/` — exported conversations and associated source artifacts.
-- `LIVE CONVOS/` — mutable/current conversation material; preserve its working character.
-- `SAT_VISUALS/` — curated public-facing and working visual material.
-- `tools/` — deterministic, auditable archive utilities.
-- `indexes/` — generated structural catalogs, conversation chronology, date manifests, and machine-readable scan state.
-- `ledgers/` — derived equation/dependency/citation records and point-of-use cross-links.
-- `formalization/` — source-linked equation records, schema, and workflow rules.
-- `generated/equations/` — deterministic Python check logs and reports.
-- `generated/lean/` — generated Lean modules whose compile status is explicit.
-- `ARCHITECTURE.md` — repository roles, status vocabulary, and evolution policy.
-
-### Automatic date and navigation maintenance
-
-`.github/workflows/maintain-navigation.yml` maintains repo navigation after ordinary pushes and can also be run manually.
-
-The maintenance policy is intentionally asymmetric:
-
-- `DEVELOPMENT_FULL_CONVOS/` is treated as stable developmental evidence. Parseable ChatGPT exports are collision-checked and date-prefixed in Eastern time using `tools/date_conversation_exports.py`.
-- `LIVE CONVOS/` is mutable. Its dates are recorded in an audit manifest and chronology **without automatic filename renaming**.
-- both conversation trees receive generated chronology/index coverage;
-- the repository structural index is refreshed;
-- generated manifests remain auditable when a collision or parse problem occurs;
-- workflow-generated commits carry a loop guard.
-
-Generated date manifests live under `indexes/manifests/`. These are navigation metadata, not replacements for original conversation timestamps or source provenance.
-
-</details>
+Contributor/LLM workflow notes, maintenance rules, source-handling instructions and internal navigation have been moved to [`INTERNAL/WORKING_INSTRUCTIONS.md`](INTERNAL/WORKING_INSTRUCTIONS.md) so the public front page can remain a scientific introduction rather than an operations manual.
 
 ---
 
