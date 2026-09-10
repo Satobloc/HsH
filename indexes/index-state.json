@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 817338196,
+    "bytes_known": 817345132,
     "directories": 37,
     "files": 391
   },
@@ -2802,11 +2802,11 @@
       "size": 5074617
     },
     {
-      "content_id": "21c4e6416619950946520b1b43e028f334f7f18e095dbecc71f4e6c55de620bc",
+      "content_id": "a54ce0e9dcdf749df94747f25cf319120bff9fb31e8b69e4261671a827e3957d",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 5705
+      "size": 12641
     },
     {
       "content_id": null,
@@ -3229,14 +3229,14 @@
       "size": null
     },
     {
-      "content_id": "699375bbdfa98c43040b334c9dbe977011d88388106eb47c9248d4e74919d1bc",
+      "content_id": "7a5ec0a15c199557f53843da176a7933e20207ba176ee6cd4ae7f1cadb39d9e6",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "715850df9f0f011a8fe07ce21ff721797dc0ac7e99f9fdfe8c9790d039b57439",
+      "content_id": "5082c963feba032fad62b28affaeb8d165d3a154462b21566c861fff242a0256",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3257,14 +3257,14 @@
       "size": null
     },
     {
-      "content_id": "97f08b6f8398c5ecda460180ebc7975f1a42cfb6fd12395293ea22390c040cec",
+      "content_id": "d9bfe73ce85c9e243d449751c2fb026dad7931d4a40005721741c7d615507152",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "3d4dd64958d8f68e840417a8016943a5292999b7dd32c428a172d37d31e548ee",
+      "content_id": "0d4f0f9f3a3e162763ba0a0442a3e9eb8900da9a7aa680c3714a6a7197d23dbd",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3440,8 +3440,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T19:39:18+00:00",
+  "scanned_at_utc": "2026-09-10T19:42:46+00:00",
   "schema_version": 1,
-  "tree_id": "da65b5730f8eb44352bc63bb2ea56281181412fd04bca086cdcbfbd50ba08773",
+  "tree_id": "e7ec6aa8493bdbc4faa08753fde4c8047d8cd4d1d399b30a7b5a982774f124c7",
   "tree_response_truncated": false
 }
