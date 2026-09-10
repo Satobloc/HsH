@@ -1,0 +1,115 @@
+name: Maintain H(s)H navigation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "indexes/STRUCTURAL_INDEX.md"
+      - "indexes/index-state.json"
+      - "indexes/CONVERSATION_CHRONOLOGY.md"
+      - "indexes/LIVE_CONVERSATION_CHRONOLOGY.md"
+      - "indexes/manifests/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hsh-navigation-main
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip hsh-maintenance]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Date-tag stable developmental exports
+        id: development_dates
+        continue-on-error: true
+        run: |
+          mkdir -p indexes/manifests
+          if [ -d "DEVELOPMENT_FULL_CONVOS" ]; then
+            python tools/date_conversation_exports.py \
+              "DEVELOPMENT_FULL_CONVOS" \
+              --apply \
+              --manifest indexes/manifests/development-conversation-dates.json
+          else
+            echo "DEVELOPMENT_FULL_CONVOS not present; skipping"
+          fi
+
+      - name: Record LIVE CONVOS dates without renaming live files
+        id: live_dates
+        continue-on-error: true
+        run: |
+          mkdir -p indexes/manifests
+          if [ -d "LIVE CONVOS" ]; then
+            python tools/date_conversation_exports.py \
+              "LIVE CONVOS" \
+              --manifest indexes/manifests/live-conversation-dates.json
+          else
+            echo "LIVE CONVOS not present; skipping"
+          fi
+
+      - name: Build conversation chronology indexes
+        run: |
+          if [ -d "DEVELOPMENT_FULL_CONVOS" ]; then
+            python tools/index_conversation_chronology.py \
+              "DEVELOPMENT_FULL_CONVOS" \
+              --output indexes/CONVERSATION_CHRONOLOGY.md
+          fi
+          if [ -d "LIVE CONVOS" ]; then
+            python tools/index_conversation_chronology.py \
+              "LIVE CONVOS" \
+              --output indexes/LIVE_CONVERSATION_CHRONOLOGY.md
+          fi
+
+      - name: Refresh repository structural index
+        run: python tools/index_archive.py --root .
+
+      - name: Run repository tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate generated navigation state
+        run: |
+          python -m json.tool indexes/index-state.json >/dev/null
+          if [ -f indexes/manifests/development-conversation-dates.json ]; then
+            python -m json.tool indexes/manifests/development-conversation-dates.json >/dev/null
+          fi
+          if [ -f indexes/manifests/live-conversation-dates.json ]; then
+            python -m json.tool indexes/manifests/live-conversation-dates.json >/dev/null
+          fi
+          test -f indexes/STRUCTURAL_INDEX.md
+          test -f indexes/CONVERSATION_CHRONOLOGY.md || true
+
+      - name: Report date-tagging warnings
+        if: ${{ steps.development_dates.outcome == 'failure' || steps.live_dates.outcome == 'failure' }}
+        run: |
+          echo "::warning::At least one date-tagging pass reported a collision or parse-level failure. Generated manifests were retained; structural/chronology indexing continued."
+
+      - name: Commit maintained navigation artifacts
+        run: |
+          git config user.name "H(s)H Navigation Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- "DEVELOPMENT_FULL_CONVOS" || true
+          git add indexes/STRUCTURAL_INDEX.md indexes/index-state.json || true
+          git add indexes/CONVERSATION_CHRONOLOGY.md indexes/LIVE_CONVERSATION_CHRONOLOGY.md || true
+          git add indexes/manifests || true
+          if git diff --cached --quiet; then
+            echo "Navigation already current"
+            exit 0
+          fi
+          git commit -m "[skip hsh-maintenance] Maintain date/index navigation"
+          git pull --rebase origin main
+          git push origin HEAD:main
