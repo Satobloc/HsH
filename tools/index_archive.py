@@ -116,13 +116,29 @@ def top_level(path: str) -> str:
 
 
 def classify(path: str) -> str:
-    if path.startswith("DEVELOPMENT_FULL_CONVOS/"):
-        return "source-conversation-corpus"
-    if path.startswith("tools/"):
-        return "archive-tooling"
-    if path.startswith("indexes/"):
-        return "generated-catalog"
-    if path in {"README.md", "ARCHITECTURE.md"}:
+    """Assign structural repository roles from explicit top-level contracts only.
+
+    These labels are navigation roles, not semantic/theory-status judgments.
+    """
+    prefix_roles = (
+        ("DEVELOPMENT_FULL_CONVOS/", "source-conversation-corpus"),
+        ("LIVE CONVOS/", "live-conversation-corpus"),
+        ("synthesis/", "synthesis-workspace"),
+        ("formalization/", "formalization-workspace"),
+        ("ledgers/", "review-ledger"),
+        ("audits/", "audit-output"),
+        ("checkpoints/", "checkpoint"),
+        ("generated/", "generated-artifact"),
+        ("WORKSPACES/", "llm-workspace"),
+        ("tools/", "archive-tooling"),
+        ("tests/", "tooling-test"),
+        ("indexes/", "generated-catalog"),
+        (".github/", "automation-workflow"),
+    )
+    for prefix, role in prefix_roles:
+        if path.startswith(prefix):
+            return role
+    if path in {"README.md", "ARCHITECTURE.md", "!_ANNOTATED_ARCHIVE_SURVEY.md"}:
         return "visitor-interface"
     if path == "LICENSE":
         return "license"
@@ -163,6 +179,7 @@ def build_state(entries: list[Entry], tree_id: str, truncated: bool, scanned_at:
         "entries": [asdict(entry) | {"role": classify(entry.path)} for entry in entries],
         "limitations": [
             "Structural index only; filenames and paths are not theory-status judgments.",
+            "Structural role labels come only from explicit repository areas; they do not imply correctness, authority, or currentness.",
             "Git blob SHA and local SHA-256 are both stored as content_id values but are not interchangeable.",
             "Conversation contents were not read during this structural pass.",
         ],
