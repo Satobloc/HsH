@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T12:33:55+00:00`
-- Tree/content state: `01ec4e4631fcbfae27971411d72467cde23b2e549529133dc937ff0f859cb4b4`
+- Scanned: `2026-09-10T12:44:31+00:00`
+- Tree/content state: `5352f08947ad1cc4377d9a5e87510babb4dfb3930420289cc1faba91a100d768`
 - Coverage: 355 files, 32 directories
 - GitHub tree response truncated: `false`
 
@@ -53,11 +53,20 @@
 | Role | Files |
 |---|---:|
 | `archive-tooling` | 8 |
+| `audit-output` | 1 |
+| `automation-workflow` | 1 |
+| `checkpoint` | 1 |
+| `formalization-workspace` | 5 |
+| `generated-artifact` | 5 |
 | `generated-catalog` | 5 |
 | `license` | 1 |
+| `live-conversation-corpus` | 35 |
+| `llm-workspace` | 4 |
+| `review-ledger` | 3 |
 | `source-conversation-corpus` | 276 |
-| `unclassified` | 63 |
-| `visitor-interface` | 2 |
+| `synthesis-workspace` | 6 |
+| `tooling-test` | 1 |
+| `visitor-interface` | 3 |
 
 ## Duplicate-content groups
 
@@ -219,8 +228,8 @@
 
 ## Complete path inventory
 
-- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `unclassified`
-- `.github/workflows/maintain-navigation.yml` — 4443 bytes — `unclassified`
+- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
+- `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json` — 6684669 bytes — `source-conversation-corpus`
@@ -499,76 +508,76 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json` — 282163 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `LICENSE` — 19441 bytes — `license`
-- `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `unclassified`
-- `LIVE CONVOS/AUTO H(s)H Gitter — raw.json` — 4804780 bytes — `unclassified`
-- `LIVE CONVOS/Build Geometry Coding Skill — raw.json` — 398954 bytes — `unclassified`
-- `LIVE CONVOS/DIMENSIONAL_NORMALIZATION.pdf` — 445700 bytes — `unclassified`
-- `LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `unclassified`
-- `LIVE CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `unclassified`
-- `LIVE CONVOS/H(s)H Team Orchestrator — raw.json` — 299475 bytes — `unclassified`
-- `LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt` — 29224 bytes — `unclassified`
-- `LIVE CONVOS/H(s)H_TIME_RESIDUALS.txt` — 33801 bytes — `unclassified`
-- `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` — 10610 bytes — `unclassified`
-- `LIVE CONVOS/SAT Daily Action — raw.json` — 4803730 bytes — `unclassified`
-- `LIVE CONVOS/SAT_HsH_Chronological_Convergence_Atlas.docx` — 59209 bytes — `unclassified`
-- `LIVE CONVOS/Succinctness And Math Check — raw (1).json` — 3765032 bytes — `unclassified`
-- `LIVE CONVOS/TEAM_SYNC_2026-09-07.md` — 22744 bytes — `unclassified`
-- `LIVE CONVOS/ckm-comparison-bar.png` — 58412 bytes — `unclassified`
-- `LIVE CONVOS/ckm-error-heatmap.png` — 57295 bytes — `unclassified`
-- `LIVE CONVOS/cmy_gradient_cancellation_atlas.png` — 653138 bytes — `unclassified`
-- `LIVE CONVOS/gendarme_exact_mirror_color_atlas.png` — 1632902 bytes — `unclassified`
-- `LIVE CONVOS/he3-charge-radius.png` — 129813 bytes — `unclassified`
-- `LIVE CONVOS/higgs-analogue-lock.png` — 245606 bytes — `unclassified`
-- `LIVE CONVOS/hydrogen-rydberg-spectrum.png` — 86437 bytes — `unclassified`
-- `LIVE CONVOS/lepton-generational-coupling.png` — 212815 bytes — `unclassified`
-- `LIVE CONVOS/lepton-nutation-ae (1).png` — 263070 bytes — `unclassified`
-- `LIVE CONVOS/lepton-nutation-ae.png` — 263070 bytes — `unclassified`
-- `LIVE CONVOS/planetary-ring-spacing.png` — 346855 bytes — `unclassified`
-- `LIVE CONVOS/pulsar_cascade_plot.png` — 255825 bytes — `unclassified`
-- `LIVE CONVOS/pulsar_recovery_curve.png` — 226762 bytes — `unclassified`
-- `LIVE CONVOS/pulsar_shell_cascade.py` — 10183 bytes — `unclassified`
-- `LIVE CONVOS/uranus-obliquity-lock.png` — 132937 bytes — `unclassified`
-- `LIVE CONVOS/venus-obliquity-lock.png` — 123678 bytes — `unclassified`
-- `LIVE CONVOS/worldline_phases.png` — 219423 bytes — `unclassified`
-- `LIVE CONVOS/worldline_simulation.py` — 6541 bytes — `unclassified`
-- `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `unclassified`
-- `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `unclassified`
-- `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `unclassified`
+- `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/AUTO H(s)H Gitter — raw.json` — 4804780 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/Build Geometry Coding Skill — raw.json` — 398954 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/DIMENSIONAL_NORMALIZATION.pdf` — 445700 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/H(s)H Team Orchestrator — raw.json` — 299475 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt` — 29224 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/H(s)H_TIME_RESIDUALS.txt` — 33801 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` — 10610 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/SAT Daily Action — raw.json` — 4803730 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/SAT_HsH_Chronological_Convergence_Atlas.docx` — 59209 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/Succinctness And Math Check — raw (1).json` — 3765032 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/TEAM_SYNC_2026-09-07.md` — 22744 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/ckm-comparison-bar.png` — 58412 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/ckm-error-heatmap.png` — 57295 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/cmy_gradient_cancellation_atlas.png` — 653138 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/gendarme_exact_mirror_color_atlas.png` — 1632902 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/he3-charge-radius.png` — 129813 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/higgs-analogue-lock.png` — 245606 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/hydrogen-rydberg-spectrum.png` — 86437 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/lepton-generational-coupling.png` — 212815 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/lepton-nutation-ae (1).png` — 263070 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/lepton-nutation-ae.png` — 263070 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/planetary-ring-spacing.png` — 346855 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/pulsar_cascade_plot.png` — 255825 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/pulsar_recovery_curve.png` — 226762 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/pulsar_shell_cascade.py` — 10183 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/uranus-obliquity-lock.png` — 132937 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/venus-obliquity-lock.png` — 123678 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/worldline_phases.png` — 219423 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/worldline_simulation.py` — 6541 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `README.md` — 5705 bytes — `visitor-interface`
-- `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `unclassified`
-- `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `unclassified`
-- `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `unclassified`
-- `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `unclassified`
-- `audits/eq0001_verify.py` — 3196 bytes — `unclassified`
-- `checkpoints/CURRENT.md` — 3263 bytes — `unclassified`
-- `formalization/README.md` — 2023 bytes — `unclassified`
-- `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `unclassified`
-- `formalization/equations.json` — 6068 bytes — `unclassified`
-- `formalization/requirements.txt` — 72 bytes — `unclassified`
-- `formalization/schema/equation.schema.json` — 1922 bytes — `unclassified`
-- `generated/equations/CHECK_REPORT.md` — 1329 bytes — `unclassified`
-- `generated/equations/check-log.jsonl` — 1636 bytes — `unclassified`
-- `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `unclassified`
-- `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `unclassified`
-- `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `unclassified`
+- `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
+- `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
+- `checkpoints/CURRENT.md` — 3263 bytes — `checkpoint`
+- `formalization/README.md` — 2023 bytes — `formalization-workspace`
+- `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
+- `formalization/equations.json` — 6068 bytes — `formalization-workspace`
+- `formalization/requirements.txt` — 72 bytes — `formalization-workspace`
+- `formalization/schema/equation.schema.json` — 1922 bytes — `formalization-workspace`
+- `generated/equations/CHECK_REPORT.md` — 1329 bytes — `generated-artifact`
+- `generated/equations/check-log.jsonl` — 1636 bytes — `generated-artifact`
+- `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
+- `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
+- `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 79197 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
 - `indexes/manifests/development-conversation-dates.json` — 123457 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
-- `ledgers/CITATION_LEDGER.md` — 4095 bytes — `unclassified`
-- `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `unclassified`
-- `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `unclassified`
-- `synthesis/CURRENT_SYNTHESIS.md` — 73921 bytes — `unclassified`
-- `synthesis/FORMALISM_SELECTION.md` — 8044 bytes — `unclassified`
-- `synthesis/LIVE_REBUILD_STATUS.md` — 5054 bytes — `unclassified`
-- `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `unclassified`
-- `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `unclassified`
-- `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `unclassified`
-- `tests/test_equation_pipeline.py` — 1893 bytes — `unclassified`
+- `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
+- `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
+- `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
+- `synthesis/CURRENT_SYNTHESIS.md` — 73921 bytes — `synthesis-workspace`
+- `synthesis/FORMALISM_SELECTION.md` — 8044 bytes — `synthesis-workspace`
+- `synthesis/LIVE_REBUILD_STATUS.md` — 5054 bytes — `synthesis-workspace`
+- `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `synthesis-workspace`
+- `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
+- `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
+- `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
-- `tools/index_archive.py` — 9853 bytes — `archive-tooling`
+- `tools/index_archive.py` — 10674 bytes — `archive-tooling`
 - `tools/index_conversation_chronology.py` — 5451 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-ADDITIONAL_CONVERSATIONS.json` — 15061 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
@@ -578,5 +587,6 @@
 ## Limitations
 
 - Structural index only; filenames and paths are not theory-status judgments.
+- Structural role labels come only from explicit repository areas; they do not imply correctness, authority, or currentness.
 - Git blob SHA and local SHA-256 are both stored as content_id values but are not interchangeable.
 - Conversation contents were not read during this structural pass.

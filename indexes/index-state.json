@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 785405103,
+    "bytes_known": 785405924,
     "directories": 32,
     "files": 355
   },
@@ -22,11 +22,20 @@
   },
   "counts_by_role": {
     "archive-tooling": 8,
+    "audit-output": 1,
+    "automation-workflow": 1,
+    "checkpoint": 1,
+    "formalization-workspace": 5,
+    "generated-artifact": 5,
     "generated-catalog": 5,
     "license": 1,
+    "live-conversation-corpus": 35,
+    "llm-workspace": 4,
+    "review-ledger": 3,
     "source-conversation-corpus": 276,
-    "unclassified": 63,
-    "visitor-interface": 2
+    "synthesis-workspace": 6,
+    "tooling-test": 1,
+    "visitor-interface": 3
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
@@ -405,7 +414,7 @@
       "content_id": "e23decf726175b0bfbe49e8f4341957abe76182b9465e01012208d959661f69f",
       "kind": "blob",
       "path": "!_ANNOTATED_ARCHIVE_SURVEY.md",
-      "role": "unclassified",
+      "role": "visitor-interface",
       "size": 3610
     },
     {
@@ -419,14 +428,14 @@
       "content_id": null,
       "kind": "tree",
       "path": ".github/workflows",
-      "role": "unclassified",
+      "role": "automation-workflow",
       "size": null
     },
     {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
       "kind": "blob",
       "path": ".github/workflows/maintain-navigation.yml",
-      "role": "unclassified",
+      "role": "automation-workflow",
       "size": 4443
     },
     {
@@ -2477,245 +2486,245 @@
       "content_id": "1e672764595112315ea68bc7662f178f6a68ea01f1fe13299f882710ef964015",
       "kind": "blob",
       "path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 3721259
     },
     {
       "content_id": "d87a8a9a1d347b4b1c3afdda5195259c90b578cbd32dd988c5d4db1c586b49ea",
       "kind": "blob",
       "path": "LIVE CONVOS/AUTO H(s)H Gitter — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 4804780
     },
     {
       "content_id": "8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834",
       "kind": "blob",
       "path": "LIVE CONVOS/Build Geometry Coding Skill — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 398954
     },
     {
       "content_id": "14ecb786e2659adf227c9455e048e79ff43774574a3d9b10711613af69208b06",
       "kind": "blob",
       "path": "LIVE CONVOS/DIMENSIONAL_NORMALIZATION.pdf",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 445700
     },
     {
       "content_id": "746b5b0c072fd32b02894ad88ebbd96f9a6ef51c0978e88678fcb40d9e64b4c2",
       "kind": "blob",
       "path": "LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 28156
     },
     {
       "content_id": "1e0c50c914101ae167b8366357e582c40bf97384ac5e2ec74cc9f4a8e6708273",
       "kind": "blob",
       "path": "LIVE CONVOS/H(s)H TIME RESIDUALS.txt",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 35133
     },
     {
       "content_id": "0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37",
       "kind": "blob",
       "path": "LIVE CONVOS/H(s)H Team Orchestrator — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 299475
     },
     {
       "content_id": "e98f21bbd75baf09d4c978092b44efceed977536c9b1308e30ed0be3d3e20035",
       "kind": "blob",
       "path": "LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 29224
     },
     {
       "content_id": "829bbd43b00a1f5f9ffe301613adbb7a1b10d16c3d5d894a7dc4d758211d9ee1",
       "kind": "blob",
       "path": "LIVE CONVOS/H(s)H_TIME_RESIDUALS.txt",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 33801
     },
     {
       "content_id": "b7a914acc3219989aefe181891d03877ebae78a0fbb1e48a495c559640d1a527",
       "kind": "blob",
       "path": "LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 10610
     },
     {
       "content_id": "f2a332a8d10b731c519065436a5293560dab74434252ea406dcdfcb7d2068624",
       "kind": "blob",
       "path": "LIVE CONVOS/SAT Daily Action — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 4803730
     },
     {
       "content_id": "4083703aff343816ae1c2388ca2d67715ebf7d373f10c862d093e6777d8c7f44",
       "kind": "blob",
       "path": "LIVE CONVOS/SAT_HsH_Chronological_Convergence_Atlas.docx",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 59209
     },
     {
       "content_id": "bf63cce6d9ed41477e75835f92b44877fec36f64a3bf60f312c87813882e258c",
       "kind": "blob",
       "path": "LIVE CONVOS/Succinctness And Math Check — raw (1).json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 3765032
     },
     {
       "content_id": "c3ac7c835e5841798457f7a935aedbd0bcf012916e6605cf83125d9d4734602d",
       "kind": "blob",
       "path": "LIVE CONVOS/TEAM_SYNC_2026-09-07.md",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 22744
     },
     {
       "content_id": "6af438945ebf2c7a0c35b4606a097e26e9a3a09540258f4599b664fc60d4a3df",
       "kind": "blob",
       "path": "LIVE CONVOS/ckm-comparison-bar.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 58412
     },
     {
       "content_id": "e5c41fb5af82025bcbbaf5cb811b4fea11bd3eaaf646d106893b6233bf5999df",
       "kind": "blob",
       "path": "LIVE CONVOS/ckm-error-heatmap.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 57295
     },
     {
       "content_id": "60405331bd29370da08aa8457b32824b43e9513a8505c01bbff44d1604e8cc78",
       "kind": "blob",
       "path": "LIVE CONVOS/cmy_gradient_cancellation_atlas.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 653138
     },
     {
       "content_id": "2c7ae46e6ae93d4afabc9f43dc03df899d311df77e8f106787843dc1024bbc74",
       "kind": "blob",
       "path": "LIVE CONVOS/gendarme_exact_mirror_color_atlas.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 1632902
     },
     {
       "content_id": "c46f9d77dad25efc5ce70a5aea0a600c4f3e8dce5bde25cfb7f1dbbe1b7815bc",
       "kind": "blob",
       "path": "LIVE CONVOS/he3-charge-radius.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 129813
     },
     {
       "content_id": "7cfca6ef221db3f60bb96eaf11522eda1b3303dc20e130192c9f68e49bc76d15",
       "kind": "blob",
       "path": "LIVE CONVOS/higgs-analogue-lock.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 245606
     },
     {
       "content_id": "95f81dc113f8e36d919b2a1d7b66001d9d733a3d460cab2983aa9364b3dcbf04",
       "kind": "blob",
       "path": "LIVE CONVOS/hydrogen-rydberg-spectrum.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 86437
     },
     {
       "content_id": "bbdc1380560593b6f5d38cf9185e5190b8290be8911e23177590de0f79c68e7f",
       "kind": "blob",
       "path": "LIVE CONVOS/lepton-generational-coupling.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 212815
     },
     {
       "content_id": "b5ae3705f77d84d11d223d8b02a85a7823444f5cc60e3cb1a78c2d6d57b905ad",
       "kind": "blob",
       "path": "LIVE CONVOS/lepton-nutation-ae (1).png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 263070
     },
     {
       "content_id": "b5ae3705f77d84d11d223d8b02a85a7823444f5cc60e3cb1a78c2d6d57b905ad",
       "kind": "blob",
       "path": "LIVE CONVOS/lepton-nutation-ae.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 263070
     },
     {
       "content_id": "0739ffcbd60d30183e0b21fe7006e3119e569ff155672a7a1c87df9a876798bc",
       "kind": "blob",
       "path": "LIVE CONVOS/planetary-ring-spacing.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 346855
     },
     {
       "content_id": "605e6e212a6c0b8d24029e4d076a20e8028999ecbad82fdc762719adcdcf2802",
       "kind": "blob",
       "path": "LIVE CONVOS/pulsar_cascade_plot.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 255825
     },
     {
       "content_id": "4191d3fb45cd0696f7673929b52e428cf458a5b7f1348ba45f55f027b6b1680a",
       "kind": "blob",
       "path": "LIVE CONVOS/pulsar_recovery_curve.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 226762
     },
     {
       "content_id": "b26c50c8f7798bac9e271c6f98e287203b43a9c30d1267fc39e696ed62e17cf3",
       "kind": "blob",
       "path": "LIVE CONVOS/pulsar_shell_cascade.py",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 10183
     },
     {
       "content_id": "eb0a12a617a8519badd0587edd9273c0b8a037e3a65874c6ff1f9e69cd55712a",
       "kind": "blob",
       "path": "LIVE CONVOS/uranus-obliquity-lock.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 132937
     },
     {
       "content_id": "6ec74eb500f0791313aed3db1c8249095bc136e243c730d3e23c51d5726fe4bd",
       "kind": "blob",
       "path": "LIVE CONVOS/venus-obliquity-lock.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 123678
     },
     {
       "content_id": "6816c98ae4d36f78c9c9b26eda3949cdfe2e41adf01167607a41792f2389c113",
       "kind": "blob",
       "path": "LIVE CONVOS/worldline_phases.png",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 219423
     },
     {
       "content_id": "f2faf3a33a1ca97953882728c0e9ed0cabbc48e59c875c65b991eedbe006d61e",
       "kind": "blob",
       "path": "LIVE CONVOS/worldline_simulation.py",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 6541
     },
     {
       "content_id": "95fdd6f729e8e8e143f18e24390c17b9564b63b916127ec01eba26f6b65bccb7",
       "kind": "blob",
       "path": "LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 1326874
     },
     {
       "content_id": "60acb117898c434c5b3a063eb750d0175ef90c02d4996abb41cdfe4922dfad93",
       "kind": "blob",
       "path": "LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 14565168
     },
     {
       "content_id": "f9bfb16862da3c2f7ed3e2f3251247f6c52b868a26625faafa2e7f6cd9b124ff",
       "kind": "blob",
       "path": "LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json",
-      "role": "unclassified",
+      "role": "live-conversation-corpus",
       "size": 5074617
     },
     {
@@ -2736,35 +2745,35 @@
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/WORLDTUBE_LAB",
-      "role": "unclassified",
+      "role": "llm-workspace",
       "size": null
     },
     {
       "content_id": "89d07f7b9cff96956222935d058ac858f94652ce8e49cd6fc54bb2c3be56c0ae",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md",
-      "role": "unclassified",
+      "role": "llm-workspace",
       "size": 5518
     },
     {
       "content_id": "11651678912c885b467b7c52d0a981c97415da194f8ef88e6d58a75966ad50fb",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md",
-      "role": "unclassified",
+      "role": "llm-workspace",
       "size": 11570
     },
     {
       "content_id": "892d7cc89d841f531e17c4d520db6f6bff4f3592c895e72c565f49faa9ac675e",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json",
-      "role": "unclassified",
+      "role": "llm-workspace",
       "size": 1285
     },
     {
       "content_id": "001a3f97846b1804f9602ec30526fae3de2483794cd63f87397bca8740fa0b37",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/README.md",
-      "role": "unclassified",
+      "role": "llm-workspace",
       "size": 3643
     },
     {
@@ -2778,7 +2787,7 @@
       "content_id": "ff9eae73674a0bec0ab196e1b0d758254bd66d8121a0f57211ec23734b211fbd",
       "kind": "blob",
       "path": "audits/eq0001_verify.py",
-      "role": "unclassified",
+      "role": "audit-output",
       "size": 3196
     },
     {
@@ -2792,7 +2801,7 @@
       "content_id": "1a18d716307ed249576a2ba7cec7173783c2f248f190f98892f5294a7f239700",
       "kind": "blob",
       "path": "checkpoints/CURRENT.md",
-      "role": "unclassified",
+      "role": "checkpoint",
       "size": 3263
     },
     {
@@ -2806,42 +2815,42 @@
       "content_id": "9b0a82f294232a2af90e69e1411912a62de83a2f9a44032039f2aed3790c0252",
       "kind": "blob",
       "path": "formalization/README.md",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": 2023
     },
     {
       "content_id": "34075de73a4a332ecb70ef7c9faaf2df23c62c9e39de94bb1c981023dca16a9d",
       "kind": "blob",
       "path": "formalization/SOURCE_INVENTORY.md",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": 2502
     },
     {
       "content_id": "8d1fd7fd66b6c6490bf2363bf835c2f5c052dd8b77a824ffb0b208c9280204dd",
       "kind": "blob",
       "path": "formalization/equations.json",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": 6068
     },
     {
       "content_id": "8799a08ca13eb34fcb973d325bfef92a3d768c908a0665dc5fbd6e15025219cd",
       "kind": "blob",
       "path": "formalization/requirements.txt",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": 72
     },
     {
       "content_id": null,
       "kind": "tree",
       "path": "formalization/schema",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": null
     },
     {
       "content_id": "c2cd99d4bad2976a60b7680d08b31c24c7836e9de3b83d337be23feff3d8df00",
       "kind": "blob",
       "path": "formalization/schema/equation.schema.json",
-      "role": "unclassified",
+      "role": "formalization-workspace",
       "size": 1922
     },
     {
@@ -2855,49 +2864,49 @@
       "content_id": null,
       "kind": "tree",
       "path": "generated/equations",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": null
     },
     {
       "content_id": "5772a849e66cafdc1767c909a1f430f3e067f9d0acbb4e3427ae3b1910d8aa87",
       "kind": "blob",
       "path": "generated/equations/CHECK_REPORT.md",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": 1329
     },
     {
       "content_id": "d21a11d2d46800ce5d42ccfa91ea0079a7351df231837fe223b3dc8822fd96c7",
       "kind": "blob",
       "path": "generated/equations/check-log.jsonl",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": 1636
     },
     {
       "content_id": null,
       "kind": "tree",
       "path": "generated/lean",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": null
     },
     {
       "content_id": "16ffa0418bba8542ed8d18fcd657058752dad5e84633bc7ef78002cd25046f4b",
       "kind": "blob",
       "path": "generated/lean/EQ_0001_Carrier.lean",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": 507
     },
     {
       "content_id": "f06997b85d7e2340de6068a953a2475071a77e1cb468fa6bd4f1bdbd9ea5a578",
       "kind": "blob",
       "path": "generated/lean/EQ_0002_Deformation.lean",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": 527
     },
     {
       "content_id": "fc4cd6e877d87bcb64364e5b89bc38543d5b0205fe8989c0d7ab5d5b6fb1d44b",
       "kind": "blob",
       "path": "generated/lean/EQ_0003_Dispersion.lean",
-      "role": "unclassified",
+      "role": "generated-artifact",
       "size": 589
     },
     {
@@ -2908,14 +2917,14 @@
       "size": null
     },
     {
-      "content_id": "0986252fd5b4327cecce85493ac83f7a965c062ab176ff4a8cab88239de92e8a",
+      "content_id": "3c7fc9a6ee6cd314e84870a86ff961b9ce43297913f984708d48884de372cd4b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 79197
     },
     {
-      "content_id": "9e5e3af73bec2fbcfe0168372b82387ff519ee64ff60b1b0b8c29eddc6d38133",
+      "content_id": "aa29e5020d83bf4ee98a9f5e58dd63ef7528a8b56c3a231405464535fc44e758",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -2936,14 +2945,14 @@
       "size": null
     },
     {
-      "content_id": "7dd08a3b2222a1ceddc5be12878975587e2327c5859d1eefa282d60087de66b4",
+      "content_id": "c1c85c6287a1917e07cae15d9538fb95c722f0ec694ddf82ee5e5d1d0c75ea40",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 123457
     },
     {
-      "content_id": "9141afc7e957faca81adc843d8e8df06fd616556d9df8118b39064358c30721c",
+      "content_id": "a8223c30892ba427fd7fd33b599a5ef4eeec420880462a74c5fdc8bb04bcd45b",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -2960,21 +2969,21 @@
       "content_id": "0577be01e6f0a6ce290254f3efa68b431e826ddce68193164ba51ebafce92a1b",
       "kind": "blob",
       "path": "ledgers/CITATION_LEDGER.md",
-      "role": "unclassified",
+      "role": "review-ledger",
       "size": 4095
     },
     {
       "content_id": "918eda90ab733fc98deadc8dfc017ae372da95a6a06e647ad8d00ce2230ce61b",
       "kind": "blob",
       "path": "ledgers/DEPENDENCY_GRAPH.md",
-      "role": "unclassified",
+      "role": "review-ledger",
       "size": 3522
     },
     {
       "content_id": "2fbbad2b81dab1a0dc5fcb1ab99cd4580abad8119956cc6eab253c68771b12fd",
       "kind": "blob",
       "path": "ledgers/EQUATION_LEDGER.md",
-      "role": "unclassified",
+      "role": "review-ledger",
       "size": 9310
     },
     {
@@ -2988,42 +2997,42 @@
       "content_id": "e2207accb7b99749765febb334bc634aea2d89f2f47978e2bd6e9f3dd186e6ab",
       "kind": "blob",
       "path": "synthesis/CURRENT_SYNTHESIS.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 73921
     },
     {
       "content_id": "96308b285a8b84f50c1e926fae0c00aab866c6d644f5b4e7107e3d7010a1a9d8",
       "kind": "blob",
       "path": "synthesis/FORMALISM_SELECTION.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 8044
     },
     {
       "content_id": "c077d2861f3b5794b64b20e00948cb164ec7e63011f2625edec10f8a15900676",
       "kind": "blob",
       "path": "synthesis/LIVE_REBUILD_STATUS.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 5054
     },
     {
       "content_id": "81f504c92706455f1b08817edb33c6fa29816cc779fb38cf3ad2f18b9efed9ec",
       "kind": "blob",
       "path": "synthesis/R4_FRAMED_CURVE_KINEMATICS.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 3132
     },
     {
       "content_id": "92d9aaae7929857e5ef6976173c8b6e965ebf726176c067a6ed21ae1b4474a5a",
       "kind": "blob",
       "path": "synthesis/SOURCE_PRIORITY.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 5344
     },
     {
       "content_id": "f069ac6dcf8f3ec2f61858049ee153045ef35cff550045387a406c9dcf67e8b0",
       "kind": "blob",
       "path": "synthesis/SURVEYED_SOURCES.md",
-      "role": "unclassified",
+      "role": "synthesis-workspace",
       "size": 20965
     },
     {
@@ -3037,7 +3046,7 @@
       "content_id": "833f5ce2ca32da0b98d2eaf5354b3fd509932e9298bd1126bf690d6e46eff821",
       "kind": "blob",
       "path": "tests/test_equation_pipeline.py",
-      "role": "unclassified",
+      "role": "tooling-test",
       "size": 1893
     },
     {
@@ -3062,11 +3071,11 @@
       "size": 15850
     },
     {
-      "content_id": "377beb5e77133b79b55ca9f0df534fa92f0c13a621d4d355cf70a0e98abb08f5",
+      "content_id": "77bf95b04c85c9ff0d5244be8f991708c444769e0cdb8c0b9123ab70ec500ae1",
       "kind": "blob",
       "path": "tools/index_archive.py",
       "role": "archive-tooling",
-      "size": 9853
+      "size": 10674
     },
     {
       "content_id": "1803f5fd0fb6e6b60a90d6caa130a05a1fcbb35b8a79da591465de724e0c2469",
@@ -3113,13 +3122,14 @@
   ],
   "limitations": [
     "Structural index only; filenames and paths are not theory-status judgments.",
+    "Structural role labels come only from explicit repository areas; they do not imply correctness, authority, or currentness.",
     "Git blob SHA and local SHA-256 are both stored as content_id values but are not interchangeable.",
     "Conversation contents were not read during this structural pass."
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T12:33:55+00:00",
+  "scanned_at_utc": "2026-09-10T12:44:31+00:00",
   "schema_version": 1,
-  "tree_id": "01ec4e4631fcbfae27971411d72467cde23b2e549529133dc937ff0f859cb4b4",
+  "tree_id": "5352f08947ad1cc4377d9a5e87510babb4dfb3930420289cc1faba91a100d768",
   "tree_response_truncated": false
 }
