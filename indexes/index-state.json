@@ -1,14 +1,14 @@
 {
   "counts": {
-    "bytes_known": 785405924,
+    "bytes_known": 804262260,
     "directories": 32,
-    "files": 355
+    "files": 356
   },
   "counts_by_extension": {
     ".csv": 6,
     ".docx": 1,
     ".htm": 1,
-    ".json": 209,
+    ".json": 210,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 26,
@@ -32,7 +32,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 276,
+    "source-conversation-corpus": 277,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "visitor-interface": 3
@@ -41,7 +41,7 @@
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     ".github": 1,
     "ARCHITECTURE.md": 1,
-    "DEVELOPMENT_FULL_CONVOS": 276,
+    "DEVELOPMENT_FULL_CONVOS": 277,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -1158,6 +1158,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json",
       "role": "source-conversation-corpus",
       "size": 860404
+    },
+    {
+      "content_id": "b01dd161eef4f5c2d7a90ff5b6d61a3e9fa3609a515440cb9d58e0916099879d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 18855625
     },
     {
       "content_id": "24bcd78518dcf2d609f58a5a20c7eecd1ef98ce8f2a022f5f93782847cc582ae",
@@ -2917,14 +2924,14 @@
       "size": null
     },
     {
-      "content_id": "3c7fc9a6ee6cd314e84870a86ff961b9ce43297913f984708d48884de372cd4b",
+      "content_id": "07585c706489272e3fce1e488876dbd0d121e3f797bd8244764a000e72fb0a1b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 79197
+      "size": 79422
     },
     {
-      "content_id": "aa29e5020d83bf4ee98a9f5e58dd63ef7528a8b56c3a231405464535fc44e758",
+      "content_id": "a8ed453c4386984928f824b318c46cd99cc9e48de5764244356ee55a09c786db",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -2945,14 +2952,14 @@
       "size": null
     },
     {
-      "content_id": "c1c85c6287a1917e07cae15d9538fb95c722f0ec694ddf82ee5e5d1d0c75ea40",
+      "content_id": "b29eb5bbd20fed1e504bb3459daed5c321ec64bec6ca8da1197958dcc1fe5a14",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 123457
+      "size": 123943
     },
     {
-      "content_id": "a8223c30892ba427fd7fd33b599a5ef4eeec420880462a74c5fdc8bb04bcd45b",
+      "content_id": "b8611e945f4bc083496e8bfe3a892f680bc1c1350744fa4e5cb20caee0e4d735",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3128,8 +3135,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T12:44:31+00:00",
+  "scanned_at_utc": "2026-09-10T13:18:56+00:00",
   "schema_version": 1,
-  "tree_id": "5352f08947ad1cc4377d9a5e87510babb4dfb3930420289cc1faba91a100d768",
+  "tree_id": "4419812e32513589bc471f816ddfd76f54d13e5eae871ac2ff70cd8f70c0b65c",
   "tree_response_truncated": false
 }

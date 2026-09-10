@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T12:44:31+00:00`
-- Tree/content state: `5352f08947ad1cc4377d9a5e87510babb4dfb3930420289cc1faba91a100d768`
-- Coverage: 355 files, 32 directories
+- Scanned: `2026-09-10T13:18:56+00:00`
+- Tree/content state: `4419812e32513589bc471f816ddfd76f54d13e5eae871ac2ff70cd8f70c0b65c`
+- Coverage: 356 files, 32 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -14,7 +14,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 1 |
 | `ARCHITECTURE.md` | 1 |
-| `DEVELOPMENT_FULL_CONVOS` | 276 |
+| `DEVELOPMENT_FULL_CONVOS` | 277 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -36,7 +36,7 @@
 | `.csv` | 6 |
 | `.docx` | 1 |
 | `.htm` | 1 |
-| `.json` | 209 |
+| `.json` | 210 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 26 |
@@ -63,7 +63,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 276 |
+| `source-conversation-corpus` | 277 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `visitor-interface` | 3 |
@@ -329,6 +329,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12•25.08.12•Rating the SAT theory — raw.json` — 87446 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.05.31•26.09.01•🏯 SAT GITKEEPER — raw.txt` — 9204430 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json` — 860404 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json` — 18855625 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json` — 7964873 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json` — 1041659 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt` — 1049989 bytes — `source-conversation-corpus`
@@ -560,10 +561,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 79197 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 79422 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 123457 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 123943 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
