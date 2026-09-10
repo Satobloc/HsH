@@ -25,9 +25,10 @@ jobs:
     timeout-minutes: 45
 
     steps:
-      - name: Check out repository
+      - name: Check out current main branch
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -111,5 +112,7 @@ jobs:
             exit 0
           fi
           git commit -m "[skip hsh-maintenance] Maintain date/index navigation"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if ! git push origin HEAD:main; then
+            echo "::warning::Main advanced while this run was working. The newer push has its own serialized maintenance run; leaving reconciliation to that run rather than rebasing generated artifacts."
+            exit 0
+          fi
