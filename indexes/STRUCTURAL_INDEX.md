@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T12:28:26+00:00`
-- Tree/content state: `2152b3ef67dd0d24eec94b1e7db061e07f36c80cc534186381c9385030a28d1f`
+- Scanned: `2026-09-10T12:33:55+00:00`
+- Tree/content state: `01ec4e4631fcbfae27971411d72467cde23b2e549529133dc937ff0f859cb4b4`
 - Coverage: 355 files, 32 directories
 - GitHub tree response truncated: `false`
 
@@ -220,7 +220,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `unclassified`
-- `.github/workflows/maintain-navigation.yml` — 4207 bytes — `unclassified`
+- `.github/workflows/maintain-navigation.yml` — 4443 bytes — `unclassified`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json` — 6684669 bytes — `source-conversation-corpus`
@@ -534,7 +534,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `unclassified`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `unclassified`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `unclassified`
-- `README.md` — 3453 bytes — `visitor-interface`
+- `README.md` — 5705 bytes — `visitor-interface`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `unclassified`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `unclassified`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `unclassified`
@@ -554,7 +554,7 @@
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 79197 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 121698 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 123457 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `unclassified`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `unclassified`
