@@ -1,0 +1,1581 @@
+{
+  "title": "Theia Life Proposal History",
+  "create_time": 1788645719.892133,
+  "update_time": 1788645737.784896,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "6a9c9123-242c-83ea-8a23-786e1a72c3ba",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com",
+    "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270?utm_source=chatgpt.com",
+    "https://www.apple.com/",
+    "https://pubmed.ncbi.nlm.nih.gov/20573713/",
+    "https://github.com/openclaw/openclaw",
+    "https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/?utm_source=chatgpt.com",
+    "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf?utm_source=chatgpt.com",
+    "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf",
+    "https://academic.oup.com/book/53843/chapter-abstract/422184205",
+    "https://pubmed.ncbi.nlm.nih.gov/20573713/?utm_source=chatgpt.com",
+    "https://www.progressive.com",
+    "https://www.statefarm.com",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/",
+    "https://doi.org/10.1101/cshperspect.a004895",
+    "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon",
+    "https://docs.google.com/document/d/",
+    "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/",
+    "https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com",
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5-6",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "3ef0fa63-b4f8-46bc-b36e-6bdfecfd05c3": {
+      "id": "3ef0fa63-b4f8-46bc-b36e-6bdfecfd05c3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "bbb905f3-ac66-4202-8df7-9435a2ce58ba"
+      ]
+    },
+    "bbb905f3-ac66-4202-8df7-9435a2ce58ba": {
+      "id": "bbb905f3-ac66-4202-8df7-9435a2ce58ba",
+      "message": {
+        "id": "bbb905f3-ac66-4202-8df7-9435a2ce58ba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1788645719.47803,
+        "update_time": 1788645737.745,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Who first proposed that the Theia impact may have kickstarted life on earth (or made earth habitable or habitable longer)"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "0047800d-eed4-4dc2-b273-2cb71cc3d71f",
+          "message_source": null,
+          "turn_exchange_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "working_turn_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3ef0fa63-b4f8-46bc-b36e-6bdfecfd05c3",
+      "children": [
+        "e906d0f5-58b2-41b5-a099-59aa992c1eeb"
+      ]
+    },
+    "e906d0f5-58b2-41b5-a099-59aa992c1eeb": {
+      "id": "e906d0f5-58b2-41b5-a099-59aa992c1eeb",
+      "message": {
+        "id": "e906d0f5-58b2-41b5-a099-59aa992c1eeb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1788645720.569278,
+        "update_time": 1788645720.569278,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Who first proposed that the Theia impact may have kickstarted life on earth (or made earth habitable or habitable longer)\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-6",
+          "request_id": "0047800d-eed4-4dc2-b273-2cb71cc3d71f",
+          "message_type": "next",
+          "turn_exchange_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "working_turn_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "model_slug": "gpt-5-6",
+          "default_model_slug": "gpt-5-6",
+          "parent_id": "b60ce3a3-2eae-4554-9b89-ae4487eab9a0",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb905f3-ac66-4202-8df7-9435a2ce58ba",
+      "children": [
+        "0ff5f190-801a-46dd-9dfe-27bd3a6e205c"
+      ]
+    },
+    "0ff5f190-801a-46dd-9dfe-27bd3a6e205c": {
+      "id": "0ff5f190-801a-46dd-9dfe-27bd3a6e205c",
+      "message": {
+        "id": "0ff5f190-801a-46dd-9dfe-27bd3a6e205c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1788645724.691213,
+        "update_time": 1788645737.527954,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "There are actually **several different versions of that idea**, with different people having priority depending on exactly what you mean.\n\nThe cleanest answer I can find is this:\n\n**For the specific claim that the Theia/Moon-forming impact chemically prepared Earth for the *origin of life*, the most explicit formulation appears to be Natalia Mrnjavac, Jessica Wimmer, Max Brabender, Loraine Schwander, and William F. Martin in 2023**, in their paper *“The Moon-Forming Impact and the Autotrophic Origin of Life.”* They argue that the impact effectively reset Earth's surface chemistry: vaporizing/melting the mantle, converting much of Earth's carbon into atmospheric CO₂, and then allowing that CO₂ to dissolve into the newly condensed oceans, where H₂ plus transition-metal catalysts could drive the chemistry leading toward autotrophic metabolism. Their conclusion is unusually strong: the impact supplied an accessible carbon reservoir capable of “kick-start[ing] life,” and without the impact life might never have arisen. citeturn0search0turn0search1\n\nBut they **didn't originate the broader idea that the Moon-forming event established Earth's subsequent habitable conditions**.\n\nA particularly important predecessor is **Kevin Zahnle, Laura Schaefer, and Bruce Fegley (2010)**. Their *Earth's Earliest Atmospheres* explicitly treats the Moon-forming impact as the event setting the “boundary conditions for Earth's subsequent evolution.” They argue that it devolatilized the mantle and reorganized the atmosphere/ocean inventory, concentrating volatiles near the surface and producing transient reducing atmospheres containing considerable chemical free energy. They explicitly connect those post-impact conditions with the origin of terrestrial life. citeturn1search12turn1search16\n\nAnd this line goes back at least another decade. **Zahnle and Norman Sleep** were already treating the Moon-forming impact as the effective initial condition for the habitable Earth in their **2001** paper *“Initiation of clement surface conditions on the earliest Earth.”* The framing there is more “when and how did Earth become clement after the catastrophic impact?” than “Theia caused life,” but it puts the impact directly into the causal history of Earth's habitability. citeturn1search15\n\nThere is an even older and somewhat different lineage: **Jacques Laskar, Frédéric Joutel, and Philippe Robutel in 1993** demonstrated that the Moon strongly stabilizes Earth's obliquity. Laskar immediately drew the astrobiological implication in a 1993 article actually titled *“The Moon and the Origin of Life on Earth”*: without the Moon, large chaotic changes in Earth's axial tilt could have produced drastic climatic changes disruptive to organized life. citeturn1search0turn1search52\n\nThat became one of the foundations for the later “large Moon helps make Earth unusually habitable” / Rare Earth argument.\n\nSo I'd provisionally put the genealogy like this:\n\n**1993 — Laskar et al.:** Moon produced by the giant impact → stabilizes Earth's spin axis → promotes long-term climatic habitability.\n\n**2001 — Zahnle & Sleep:** Moon-forming impact itself → planetary thermal/atmospheric reset → establishes the post-impact path toward clement Earth.\n\n**2010 — Zahnle, Schaefer & Fegley:** impact explicitly establishes atmospheric/oceanic boundary conditions relevant to life's origin and creates chemically energetic post-impact environments.\n\n**2023 — Mrnjavac et al./Martin group:** Theia impact itself becomes an explicit **origin-of-life mechanism**: it processes Earth's carbon into a globally available CO₂ feedstock from which autotrophic biochemistry can emerge. citeturn1search1\n\nOne wrinkle: I **wouldn't yet call 2023 the historical first** for the strong version. The references in that paper lead backward into several older literatures—impact-generated reducing atmospheres, volatile redistribution, serpentinization, late veneer chemistry, and giant-impact geochemistry—and there may be an earlier author who explicitly connected all the dots. The 1990 volume *Origin of the Earth*, for example, already contains a section devoted to the “Giant Impact and Earth-Moon Relationships” and a chapter on an inhabited Earth's origin. citeturn1search10\n\nIf you're asking because you suspect the idea is **considerably older than the recent Theia/life papers**, I think that's probably right. I can chase the citation tree backward into the 1970s–1990s and try to identify the earliest actual statement of **“the giant impact made Earth more habitable / enabled life,”** rather than merely the earliest precursor idea."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0turn0search1",
+              "prefix": null,
+              "start_idx": 1030,
+              "end_idx": 1062,
+              "safe_urls": [
+                "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270",
+                "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270?utm_source=chatgpt.com",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PubMed Central (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The Moon-Forming Impact and the Autotrophic Origin of Life - PMC",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com",
+                  "attribution": "PubMed Central (PMC)",
+                  "pub_date": 1696809600,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "The Moon‐Forming Impact and the Autotrophic Origin of Life - Mrnjavac - 2023 - ChemPlusChem - Wiley Online Library",
+                      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Chemistry Europe"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn1search12turn1search16",
+              "prefix": null,
+              "start_idx": 1766,
+              "end_idx": 1800,
+              "safe_urls": [
+                "https://doi.org/10.1101/cshperspect.a004895",
+                "https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com",
+                "https://pubmed.ncbi.nlm.nih.gov/20573713/",
+                "https://pubmed.ncbi.nlm.nih.gov/20573713/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([DOI](https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Earth’s Earliest Atmospheres",
+                  "url": "https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com",
+                  "attribution": "DOI",
+                  "pub_date": 1277251200,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Earth's earliest atmospheres - PubMed",
+                      "url": "https://pubmed.ncbi.nlm.nih.gov/20573713/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "PubMed"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    },
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn1search15",
+              "prefix": null,
+              "start_idx": 2280,
+              "end_idx": 2300,
+              "safe_urls": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PubMed Central (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Initiation of clement surface conditions on the earliest Earth - PMC",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/?utm_source=chatgpt.com",
+                  "attribution": "PubMed Central (PMC)",
+                  "pub_date": 985651200,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn1search0turn1search52",
+              "prefix": null,
+              "start_idx": 2762,
+              "end_idx": 2795,
+              "safe_urls": [
+                "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf",
+                "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf?utm_source=chatgpt.com",
+                "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon",
+                "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([ResearchGate](https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "(PDF) Stabilization of the Earth's obliquity by the Moon",
+                  "url": "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com",
+                  "attribution": "ResearchGate",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "The Moon and the Origin of Life on Earth",
+                      "url": "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "IMCCE"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 52
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn1search1",
+              "prefix": null,
+              "start_idx": 3678,
+              "end_idx": 3697,
+              "safe_urls": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PubMed Central (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The Moon-Forming Impact and the Autotrophic Origin of Life - PMC",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com",
+                  "attribution": "PubMed Central (PMC)",
+                  "pub_date": 1696809600,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn1search10",
+              "prefix": null,
+              "start_idx": 4253,
+              "end_idx": 4273,
+              "safe_urls": [
+                "https://academic.oup.com/book/53843/chapter-abstract/422184205",
+                "https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([OUP Academic](https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Origin Of An Inhabited Planet | Origin of the Earth | Oxford Academic",
+                  "url": "https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com",
+                  "attribution": "OUP Academic",
+                  "pub_date": 656812800,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "prefix": null,
+              "start_idx": 4638,
+              "end_idx": 4638,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "The Moon-Forming Impact and the Autotrophic Origin of Life - PMC",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com",
+                  "attribution": "PubMed Central (PMC)"
+                },
+                {
+                  "title": "Earth’s Earliest Atmospheres",
+                  "url": "https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com",
+                  "attribution": "DOI"
+                },
+                {
+                  "title": "(PDF) Stabilization of the Earth's obliquity by the Moon",
+                  "url": "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com",
+                  "attribution": "ResearchGate"
+                },
+                {
+                  "title": "Origin Of An Inhabited Planet | Origin of the Earth | Oxford Academic",
+                  "url": "https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com",
+                  "attribution": "OUP Academic"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "wiley.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270?utm_source=chatgpt.com",
+                  "title": "The Moon‐Forming Impact and the Autotrophic Origin of Life - Mrnjavac - 2023 - ChemPlusChem - Wiley Online Library",
+                  "snippet": "ABSTRACT  The Moon-forming impact vaporized part of Earth's mantle, and turned the rest into a magma ocean, from which carbon dioxide degassed into the atmosphere, where it stayed until water rained o...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": 1696809600,
+                  "attribution": "wiley.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016GC006305?utm_source=chatgpt.com",
+                  "title": "Asteroid bombardment and the core of Theia as possible sources for the Earth&apos;s late veneer component - Sleep - 2016 - Geochemistry, Geophysics, Geosystems - Wiley Online Library",
+                  "snippet": "ASTEROID BOMBARDMENT AND THE CORE OF THEIA AS POSSIBLE SOURCES FOR THE EARTH'S LATE VENEER COMPONENT  Norman H. Sleep,  Corresponding Author  Norman H. Sleep  Department of Geophysics, Stanford Unive...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 31
+                  },
+                  "pub_date": 1465948800,
+                  "attribution": "wiley.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011RG000375?utm_source=chatgpt.com",
+                  "title": "The faint young Sun problem - Feulner - 2012 - Reviews of Geophysics - Wiley Online Library",
+                  "snippet": "7. ROTATIONAL AND CONTINENTAL EFFECTS ON EARLY EARTH  7.1. ROTATION AND OBLIQUITY  [112] In modern times, Earth rotates once every ≃24 h around its axis that is tilted at ≃23.5° against the ecliptic (...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1337904000,
+                  "attribution": "wiley.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GC006305?utm_source=chatgpt.com",
+                  "title": "Asteroid bombardment and the core of Theia as possible sources for the Earth&apos;s late veneer component - Sleep - 2016 - Geochemistry, Geophysics, Geosystems - Wiley Online Library",
+                  "snippet": "5.3 EXTRAPOLATION TO THE EARTH  One would like to extrapolate from the largest lunar projectile that formed the South-Pole Aitken basin to the flux of still larger objects that hit the Earth. I outlin...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1465948800,
+                  "attribution": "wiley.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nasa.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://astrobiology.nasa.gov/nai/articles/2001/9/24/making-the-moon/index.html?utm_source=chatgpt.com",
+                  "title": "NASA Astrobiology Institute",
+                  "snippet": "1. ### Making the Moon  September 24, 2001 / Posted by: Shige Abe  Based on a Southwest Research Institute press release  The “giant impact” theory, first proposed in the mid-1970s to explain how the...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": 1001289600,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://science.nasa.gov/astrobiology/learning-resources/alp/earth-right-after-it-formed/?utm_source=chatgpt.com",
+                  "title": "What was the Earth like right after it formed? - NASA Science",
+                  "snippet": "GRADES 9-12 OR ADULT SOPHISTICATED LEARNER  As the planets were getting larger and larger, there were still a lot of diffuse gases and rocky particles present in the disk of material around the Sun. T...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1778630400,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://astrobiology.nasa.gov/education/alp/earth-right-after-it-formed/?utm_source=chatgpt.com",
+                  "title": "2.1. What was the Earth like right after it formed? | Astrobiology Learning Progressions | Education | Astrobiology",
+                  "snippet": "CROSSCUTTING CONCEPTS  Patterns: Different patterns may be observed at each of the scales at which a system is studied and can provide evidence for causality in explanations of phenomena. (HS-PS2-4) S...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1778112000,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://astrobiology.nasa.gov/news/the-moon-forming-impact-and-its-gifts/?utm_source=chatgpt.com",
+                  "title": "The Moon-Forming Impact And Its Gifts | News | Astrobiology",
+                  "snippet": "Jan. 28, 2019  Feature Story  THE MOON-FORMING IMPACT AND ITS GIFTS  Written by Marc Kaufman SourceMany Worlds  Image: The team (from left) G. Costin, C. Sun, D. Grewal (sitting), K. Tsuno, and R. Da...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 32
+                  },
+                  "pub_date": 1548633600,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nasa.gov/humans-in-space/artemis-astronauts-may-reveal-earths-past-foretell-future/?utm_source=chatgpt.com",
+                  "title": "Artemis Astronauts May Reveal Earth’s Past, Foretell Future - NASA",
+                  "snippet": "Climate data maintained by the National Oceanic and Atmospheric Association currently dates to 1880. Investigating ice cores can expand these records by millions of years.  LET’S DIAL IT BACK ANOTHER...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1619049600,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nasa.gov/solar-system/collision-may-have-formed-the-moon-in-mere-hours-simulations-reveal/?utm_source=chatgpt.com",
+                  "title": "Collision May Have Formed the Moon in Mere Hours, Simulations Reveal - NASA",
+                  "snippet": "5 min read  COLLISION MAY HAVE FORMED THE MOON IN MERE HOURS, SIMULATIONS REVEAL  Image: The headshot image of Frank Tavares  Frank Tavares  Oct 04, 2022  Article  Billions of years ago, a version of...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1664841600,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ntrs.nasa.gov/citations/20060054214?utm_source=chatgpt.com",
+                  "title": "Earth After the Moon Forming Impact - NASA Technical Reports Server (NTRS)",
+                  "snippet": "Earth After the Moon Forming Impact The Hadean Earth is widely and enduringly pictured as a world of exuberant volcanism, exploding meteors, huge craters, infernal heat, and billowing sulfurous steam...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1136073600,
+                  "attribution": "nasa.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ntrs.nasa.gov/citations/20140011208?utm_source=chatgpt.com",
+                  "title": "Rotation of a Moonless Earth - NASA Technical Reports Server (NTRS)",
+                  "snippet": "Back to Results  Rotation of a Moonless Earth We numerically explore the obliquity (axial tilt) variations of a hypothetical moonless Earth. Previous work has shown that the Earth's Moon stabilizes E...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 36
+                  },
+                  "pub_date": 1386547200,
+                  "attribution": "nasa.gov"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nationalacademies.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.nationalacademies.org/read/26522/chapter/8?utm_source=chatgpt.com",
+                  "title": "Read \"Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032\" at NAP.edu",
+                  "snippet": "Q3.3 HOW DID THE EARTH–MOON SYSTEM FORM?  Among our terrestrial planets, only Earth has a large satellite, and the Moon has affected our planet throughout its history. Lunar and terrestrial samples, t...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": 1672531200,
+                  "attribution": "nationalacademies.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nationalacademies.org/read/1990/chapter/4?utm_source=chatgpt.com",
+                  "title": "Read \"Solid-Earth Sciences and Society\" at NAP.edu",
+                  "snippet": "ORIGIN OF THE EARTH  Any theory of the Earth should consider its origin, and any well-rounded program in the earth sciences should consider it a component of the solar system. This consideration addre...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": 725846400,
+                  "attribution": "nationalacademies.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sciencedirect.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/book/9780128120583/origins-of-the-earth-moon-and-life?utm_source=chatgpt.com",
+                  "title": "Origins of the Earth, Moon, and Life | ScienceDirect",
+                  "snippet": "* About the book * Table of contents * Author(s) * Book preview  * Published: 2017 * Imprint: Elsevier * Language: English * ISBN: 978-0-12-812058-3 * View accessibility information  ABOUT THE BOOK...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0012821X1730763X?utm_source=chatgpt.com",
+                  "title": "Direct thermal effects of the Hadean bombardment did not limit early subsurface habitability - ScienceDirect",
+                  "snippet": "EARTH AND PLANETARY SCIENCE LETTERS  Volume 485, 1 March 2018, Pages 1-8  DIRECT THERMAL EFFECTS OF THE HADEAN BOMBARDMENT DID NOT LIMIT EARLY SUBSURFACE HABITABILITY  https://doi.org/10.1016/j.epsl....",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1519862400,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0019103521001767?utm_source=chatgpt.com",
+                  "title": "Accretion and differentiation of early planetary bodies as recorded in the composition of the silicate Earth - ScienceDirect",
+                  "snippet": "ICARUS  Volume 365, 1 September 2021, 114497    Research Paper  Accretion and differentiation of early planetary bodies as recorded in the composition of the silicate Earth  https://doi.org/10.1016/j...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1630454400,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0019103511004064?utm_source=chatgpt.com",
+                  "title": "Obliquity variations of a moonless Earth - ScienceDirect",
+                  "snippet": "ICARUS  Volume 217, Issue 1, January 2012, Pages 77-87  OBLIQUITY VARIATIONS OF A MOONLESS EARTH  https://doi.org/10.1016/j.icarus.2011.10.013Get rights and content  ABSTRACT  We numerically explore...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1325376000,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/earth-moon-system?utm_source=chatgpt.com",
+                  "title": "Earth-Moon System - an overview | ScienceDirect Topics",
+                  "snippet": "THE GIANT IMPACT MADE THE PRESENT EARTH–MOON SYSTEM  2017, Origins of the Earth, Moon, and LifeAkio Makishima  3.1 INTRODUCTION  In this chapter, the formation of inner silicate planets and the Earth–...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/author/55423060700/john-e-chambers?utm_source=chatgpt.com",
+                  "title": "John E. Chambers | ScienceDirect",
+                  "snippet": "We numerically explore the obliquity (axial tilt) variations of a hypothetical moonless Earth. Previous work has shown that the Earth’s Moon stabilizes Earth’s obliquity such that it remains within a...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 30
+                  },
+                  "pub_date": null,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0009281907000207?utm_source=chatgpt.com",
+                  "title": "Not so rare Earth? New developments in understanding the origin of the Earth and Moon - ScienceDirect",
+                  "snippet": "INVITED REVIEW  Not so rare Earth? New developments in understanding the origin of the Earth and Moon  https://doi.org/10.1016/j.chemer.2007.05.002Get rights and content  ABSTRACT  A widely accepted...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1193270400,
+                  "attribution": "sciencedirect.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nih.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4128275/?utm_source=chatgpt.com",
+                  "title": "The origin of the Moon - PMC",
+                  "snippet": "Today, decades since Apollo, lunar science is at a truly interesting stage of development. There are two key sources of information for elucidating the origin of the Moon, the data for which have beco...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1410566400,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/41264717/?utm_source=chatgpt.com",
+                  "title": "The Moon-forming impactor Theia originated from the inner Solar System - PubMed",
+                  "snippet": ". 2025 Nov 20;390(6775):819-823.  doi: 10.1126/science.ado0623. Epub 2025 Nov 20.  THE MOON-FORMING IMPACTOR THEIA ORIGINATED FROM THE INNER SOLAR SYSTEM  Timo Hopp^{  1   2 }, Nicolas Dauphas^{  1...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": 1763596800,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8793101/?utm_source=chatgpt.com",
+                  "title": "Asteroid bombardment and the core of Theia as possible sources for the Earth’s late veneer component - PMC",
+                  "snippet": ". Author manuscript; available in PMC: 2022 Jan 27.  Published in final edited form as: Geochem Geophys Geosyst. 2016 Jun 15;17(7):2623–2642. doi: 10.1002/2016gc006305  ASTEROID BOMBARDMENT AND THE C...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2944365/?utm_source=chatgpt.com",
+                  "title": "Earth’s Earliest Atmospheres - PMC",
+                  "snippet": "^{1}Space Science Division, NASA Ames Research Center, MS 245-3, Moffett Field, California 94035  ^{2}Planetary Chemistry Laboratory, Dept of Earth & Planetary Sciences & McDonnell Center for the Spa...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1285891200,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1664683/?utm_source=chatgpt.com",
+                  "title": "Physical conditions on the early Earth - PMC",
+                  "snippet": "4. FORMATION OF THE MOON  While the dynamical simulations of terrestrial planet formation indicate that growth from lunar- and Mars-sized bodies involves a series of giant impacts, the effect of such...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1162080000,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329462/?utm_source=chatgpt.com",
+                  "title": "What the earliest evidence for life tells us about the early evolution of the biosphere - PMC",
+                  "snippet": "2. EARLY LIFE ON AN ANAEROBIC, ULTRAMAFIC AND VOLCANICALLY ACTIVE PLANET  Early life emerged on a waterworld under environmental conditions completely different to those of today [20–22]. Barring any...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1754524800,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7499892/?utm_source=chatgpt.com",
+                  "title": "The Role of Meteorite Impacts in the Origin of Life - PMC",
+                  "snippet": ". 2020 Sep 15;20(9):1121–1149. doi: 10.1089/ast.2019.2203  THE ROLE OF METEORITE IMPACTS IN THE ORIGIN OF LIFE  GR Osinski  GR OSINSKI  ^{^{1}}Institute for Earth and Space Exploration, University of...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1600128000,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13046766/?utm_source=chatgpt.com",
+                  "title": "Redox chemistry of early Earth and the origin of life - PMC",
+                  "snippet": "HADEAN HYDROSPHERE  PLAUSIBLE AQUATIC HABITATS ON EARLY EARTH  DEEP-OCEAN HYDROTHERMAL VENTS  The formation of a rocky planet with liquid water, a stable atmosphere, and a magnetic field is considered...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1775088000,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/37812146/?utm_source=chatgpt.com",
+                  "title": "The Moon-Forming Impact and the Autotrophic Origin of Life - PubMed",
+                  "snippet": "ABSTRACT  The Moon-forming impact vaporized part of Earth's mantle, and turned the rest into a magma ocean, from which carbon dioxide degassed into the atmosphere, where it stayed until water rained o...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1697673600,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/25114303/?utm_source=chatgpt.com",
+                  "title": "Terrestrial aftermath of the Moon-forming impact - PubMed",
+                  "snippet": ". 2014 Sep 13;372(2024):20130172.  doi: 10.1098/rsta.2013.0172.  TERRESTRIAL AFTERMATH OF THE MOON-FORMING IMPACT  Norman H Sleep^{  1 }, Kevin J Zahnle^{  2 }, Roxana E Lupu^{  2 }  Affiliations Exp...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1410566400,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK540086/?utm_source=chatgpt.com",
+                  "title": "Dynamic Habitability - An Astrobiology Strategy for the Search for Life in the Universe - NCBI Bookshelf",
+                  "snippet": "THE DYNAMIC EARLY EARTH AND LIFE'S EMERGENCE  The search for habitable worlds inevitably leads to questions of habitability on Earth—the only planet on which life certainly arose and evolved and hence...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1539129600,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/20573713/?utm_source=chatgpt.com",
+                  "title": "Earth's earliest atmospheres - PubMed",
+                  "snippet": "Epub 2010 Jun 23.  AUTHORS  Kevin Zahnle^{  1 }, Laura Schaefer, Bruce Fegley  AFFILIATION  * ^{1} Space Science Division, NASA Ames Research Center, MS 245-3, Moffett Field, California 94035, USA. ke...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1277251200,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3228478/?utm_source=chatgpt.com",
+                  "title": "Terrestrial planet formation - PMC",
+                  "snippet": "HABITABILITY.  One of the primary features of a habitable planet is the presence of water (79). Proposed sources of Earth’s water have included comets, water from planetesimals and embryos, and nebula...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1322524800,
+                  "attribution": "nih.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11980988/?utm_source=chatgpt.com",
+                  "title": "Earth’s magnetic field and its relationship to the origin of life, evolution and planetary habitability - PMC",
+                  "snippet": "SUMMARY DISCUSSION AND OUTLOOK  Paleointensity data meeting the requirements for robust recording of the mean state of the dynamo remain sparse but substantial progress since the last review extending...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 43
+                  },
+                  "pub_date": 1740960000,
+                  "attribution": "nih.gov"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cshlp.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://cshperspectives.cshlp.org/content/2/10/a004895.full?utm_source=chatgpt.com",
+                  "title": "Earth’s Earliest Atmospheres",
+                  "snippet": "EARTH’S EARLIEST ATMOSPHERES  1. Kevin Zahnle1, 2. Laura Schaefer2 and 3. Bruce Fegley2  1. ^{1}Space Science Division, NASA Ames Research Center, MS 245-3, Moffett Field, California 94035 2. ^{2}Pla...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": 1277251200,
+                  "attribution": "cshlp.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "researchgate.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/374567570_The_Moon-Forming_Impact_and_the_Autotrophic_Origin_of_Life?utm_source=chatgpt.com",
+                  "title": "(PDF) The Moon‐Forming Impact and the Autotrophic Origin of Life",
+                  "snippet": "ces of geophysical processes in the Earth’s interior.[1–2] But what  about the early Earth?  In the standard model, the Earth formed by accretion of  smaller bodies and planetesimals over 4.5 billion...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1697673600,
+                  "attribution": "researchgate.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/400252547_The_Overlooked_Moon_From_Planetary_Accretion_to_Cradle_of_Intelligence?utm_source=chatgpt.com",
+                  "title": "(PDF) The Overlooked Moon: From Planetary Accretion to Cradle of Intelligence",
+                  "snippet": "CITATIONS (0)  REFERENCES (8)  ResearchGate has not been able to resolve any citations for this publication.  Stabilization of the Earth's obliquity by the Moon  Article  Full-text available  * Feb 19...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1769644800,
+                  "attribution": "researchgate.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/32045384_The_chaotic_obliquity_of_the_planets?utm_source=chatgpt.com",
+                  "title": "(PDF) The chaotic obliquity of the planets",
+                  "snippet": "Article PDF Available  THE CHAOTIC OBLIQUITY OF THE PLANETS  * February 1993 * Nature 361(6413)  DOI:10.1038/361608a0  Authors:  J. Laskar  J. Laskar  * This person is not on ResearchGate, or hasn't c...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 729993600,
+                  "attribution": "researchgate.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/228606451_Extraordinary_climates_of_Earth-like_planets_Three-dimensional_climate_simulations_at_extreme_obliquity?utm_source=chatgpt.com",
+                  "title": "(PDF) Extraordinary climates of Earth-like planets: three-dimensional climate simulations at extreme obliquity",
+                  "snippet": "over short geological timescales, but ﬁnding such a mechan-  ism has proven diﬃcult (cf. Williams 1993 ; N’eron de Surgy  & Laskar 1997; Williams et al. 1998). Earth is eﬀectively held  upright at low...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 34
+                  },
+                  "pub_date": 1054425600,
+                  "attribution": "researchgate.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/225893357_Impacts_and_the_Early_Evolution_of_Life?utm_source=chatgpt.com",
+                  "title": "Impacts and the Early Evolution of Life | Request PDF",
+                  "snippet": "View  Conditions required for sustaining a surface magma ocean  Article  * Jan 1988  * Y. Abe  View  Impacts and the early evolution of life  Article  * Jan 1997  * K.J. Zahnle * Norman H Sleep  View...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 50
+                  },
+                  "pub_date": 1167609600,
+                  "attribution": "researchgate.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sagepub.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://journals.sagepub.com/doi/10.1089/ast.2021.0129?utm_source=chatgpt.com",
+                  "title": "Chapter 1: The Astrobiology Primer 3.0 - Micah J. Schaible, Nadia Szeinbaum, G. Ozan Bozdag, Luoth Chou, Natalie Grefenstette, Stephanie Colón-Santos, Laura E. Rodriguez, M.J. Styczinski, Jennifer L. Thweatt, Zoe R. Todd, Alberto Vázquez-Salazar, Alyssa Adams, M.N. Araújo, Thiago Altair, Schuyler Borges, Dana Burton, José Alberto Campillo-Balderas, Eryn M. Cangi, Tristan Caro, Enrico Catalano, Kimberly Chen, Peter L. Conlin, Z.S. Cooper, Theresa M. Fisher, Santiago Mestre Fos, Amanda Garcia, D.M. Glaser, Chester E. Harman, Ninos Y. Hermis, M. Hooks, K. Johnson-Finn, Owen Lehmer, Ricardo Hernández-Morales, Kynan H.G. Hughson, Rodrigo Jácome, Tony Z. Jia, Jeffrey J. Marlow, Jordan McKaig, Veronica Mierzejewski, Israel Muñoz-Velasco, Ceren Nural, Gina C. Oliver, Petar I. Penev, Chinmayee Govinda Raj, Tyler P. Roche, Mary C. Sabuda, George A. Schaible, Serhat Sevgen, Pritvik Sinhadc, Luke H. Steller, Kamil Stelmach, J. Tarnas, Frank Tavares, Gareth Trubl, Monica Vidaurri, Lena Vincent, Jessica M. Weber, Maggie Meiqi Weng, Regina L. Wilpiszeki, Amber Young, 2024",
+                  "snippet": "1.4. THE ORIGINS OF LIFE ON EARTH  The origins of life on Earth are a central topic of study in astrobiology. A variety of geochemical scenarios may have supported the emergence of living systems very...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1710720000,
+                  "attribution": "sagepub.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://journals.sagepub.com/doi/10.1089/ast.2021.0139?utm_source=chatgpt.com",
+                  "title": "Chapter 4: A Geological and Chemical Context for the Origins of Life on Early Earth - Laura E. Rodriguez, Thiago Altair, Ninos Y. Hermis, Tony Z. Jia, Tyler P. Roche, Luke H. Steller, Jessica M. Weber, 2024",
+                  "snippet": "4.1.1. FORMATION OF THE MOON AND THE LATE HEAVY BOMBARDMENT  Oxygen and zinc isotopic values of Earth and lunar samples suggest that the Moon was formed within ∼60 million years of Earth's formation (...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1710720000,
+                  "attribution": "sagepub.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://journals.sagepub.com/doi/10.1089/ast.2019.2203?utm_source=chatgpt.com",
+                  "title": "The Role of Meteorite Impacts in the Origin of Life - G.R. Osinski, C.S. Cockell, A. Pontefract, H.M. Sapers, 2020",
+                  "snippet": "Unfortunately, the rock record on Earth offers relatively little insight into the early history of Earth and the inner Solar System in general due to constant crustal recycling and resurfacing events...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1598918400,
+                  "attribution": "sagepub.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://journals.sagepub.com/doi/full/10.1089/ast.2019.2203?utm_source=chatgpt.com",
+                  "title": "The Role of Meteorite Impacts in the Origin of Life - G.R. Osinski, C.S. Cockell, A. Pontefract, H.M. Sapers, 2020",
+                  "snippet": "Phosphorus and a rich inventory of organic molecules, including methyl cyanate, acetone, propionaldehyde, and acetamide, were detected on the surface (Goesmann et al., 2015) and glycine, methylamine,...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 40
+                  },
+                  "pub_date": 1598918400,
+                  "attribution": "sagepub.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "doi.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://doi.org/10.1089/ast.2019.2203?utm_source=chatgpt.com",
+                  "title": "The Role of Meteorite Impacts in the Origin of Life - G.R. Osinski, C.S. Cockell, A. Pontefract, H.M. Sapers, 2020",
+                  "snippet": "First published online September 1, 2020  THE ROLE OF METEORITE IMPACTS IN THE ORIGIN OF LIFE  G.R. Osinski gosinski@uwo.ca, C.S. Cockell, […], A. Pontefract, and H.M. Sapers+1-1View all authors and...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1598918400,
+                  "attribution": "doi.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://doi.org/10.1007%2Fs11214-020-00652-3?utm_source=chatgpt.com",
+                  "title": "Mission to Planet Earth: The First Two Billion Years | Space Science Reviews | Springer Nature Link",
+                  "snippet": "Show authors  * 13k Accesses  * 40 Citations  * 10 Altmetric  * Explore all metrics  A Correction to this article was published on 06 April 2020  This article has been updated  ABSTRACT  Solar radiati...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 30
+                  },
+                  "pub_date": 1584316800,
+                  "attribution": "doi.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://doi.org/10.1126/sciadv.aao5928?utm_source=chatgpt.com",
+                  "title": "Oxygen isotopic evidence for accretion of Earth’s water before a high-energy Moon-forming giant impact | Science Advances",
+                  "snippet": "DIFFERENTIAL POST-IMPACT ADDITIONS TO EARTH AND THE MOON  Highly siderophile element data indicate that following the giant impact, both Earth and the Moon received an input of chondritic material, ge...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1522195200,
+                  "attribution": "doi.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://doi.org/10.2307/j.ctv1v7zdrp.11?utm_source=chatgpt.com",
+                  "title": "Origin of the Earth and Moon | JSTOR",
+                  "snippet": "D. M. Williams and D. Pollard  https://doi.org/10.2307/j.ctv1v7zdrp.32  https://www.jstor.org/stable/j.ctv1v7zdrp.32  The Moon is the only satellite in the solar system capable of influencing planetar...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 28
+                  },
+                  "pub_date": null,
+                  "attribution": "doi.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nature.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.nature.com/articles/nature08477?utm_source=chatgpt.com",
+                  "title": "Volatile accretion history of the terrestrial planets and dynamic implications | Nature",
+                  "snippet": "* Published: 29 October 2009  VOLATILE ACCRETION HISTORY OF THE TERRESTRIAL PLANETS AND DYNAMIC IMPLICATIONS  * Francis Albarède^{1}  Nature volume 461, pages 1227–1233 (2009)   ABSTRACT  Accretion le...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": 1256774400,
+                  "attribution": "nature.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nature.com/articles/s41550-019-0779-y?utm_source=chatgpt.com",
+                  "title": "Molybdenum isotopic evidence for the late accretion of outer Solar System material to Earth | Nature Astronomy",
+                  "snippet": "* Letter * Published: 20 May 2019  MOLYBDENUM ISOTOPIC EVIDENCE FOR THE LATE ACCRETION OF OUTER SOLAR SYSTEM MATERIAL TO EARTH  * Gerrit Budde  ORCID: orcid.org/0000-0003-0762-779X^{1}, * Christoph B...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1558310400,
+                  "attribution": "nature.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nature.com/articles/nature19341?utm_source=chatgpt.com",
+                  "title": "Potassium isotopic evidence for a high-energy giant impact origin of the Moon | Nature",
+                  "snippet": "ACKNOWLEDGEMENTS  This work was funded by the NASA Emerging Worlds program (NNX15AH66G). K.W. acknowledges financial support from the Harvard Origins of Life Initiative Postdoctoral Fellowship during...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": 1473638400,
+                  "attribution": "nature.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.nature.com/articles/35089010?utm_source=chatgpt.com",
+                  "title": "Origin of the Moon in a giant impact near the end of the Earth's formation | Nature",
+                  "snippet": "* Letter * Published: 16 August 2001  ORIGIN OF THE MOON IN A GIANT IMPACT NEAR THE END OF THE EARTH'S FORMATION  * Robin M. Canup^{1} & * Erik Asphaug^{2}  Nature volume 412, pages 708–712 (2001)...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 997920000,
+                  "attribution": "nature.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "frontiersin.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1777086/full?utm_source=chatgpt.com",
+                  "title": "Frontiers | Reassessing late-stage impact assumptions in light of modern planet formation paradigms",
+                  "snippet": "3 ASSUMPTIONS UNDERLYING THE MOON-FORMING GIANT IMPACT HYPOTHESIS  The giant-impact hypothesis remains the leading explanation for the Moon’s origin (Haskin et al., 1998). Its canonical form presumes...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1771459200,
+                  "attribution": "frontiersin.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "springer.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://link.springer.com/article/10.1007/s11214-019-0624-8?utm_source=chatgpt.com",
+                  "title": "The Emergence of Life | Space Science Reviews | Springer Nature Link",
+                  "snippet": "2 HOW DID HADEAN EARTH’S GEOLOGICAL CONDITIONS PROMOTE AND CONSTRAIN THE EMERGENCE OF LIFE?  Understanding of the environmental conditions critical for the emergence of life on the early, Hadean Earth...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": 1576108800,
+                  "attribution": "springer.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://link.springer.com/article/10.1007/s11084-026-09753-5?utm_source=chatgpt.com",
+                  "title": "Progress and persistent questions in understanding the origin of life on Earth | Discover Life | Springer Nature Link",
+                  "snippet": "Based upon the geochemical studies of Hadean zircons and theoretical modelling, scientists have come to a consensus on the following aspects: intense impact activity during the Hadean Eon would have m...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 33
+                  },
+                  "pub_date": 1785628800,
+                  "attribution": "springer.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "time.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://time.com/archive/6722569/lunar-mission/?utm_source=chatgpt.com",
+                  "title": "Lunar Mission",
+                  "snippet": "LUNAR MISSION  ADD TIME ON GOOGLE  Show me more content from TIME on Google Search  by  TIME  Mar 8, 1993 5:00 AM CUT  IMAGINE WHAT WOULD HAPPEN IF NEXT YEAR’S WINter were 100 degrees colder than nor...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 26
+                  },
+                  "pub_date": 731548800,
+                  "attribution": "time.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ed.ac.uk",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.research.ed.ac.uk/en/publications/emergence-of-a-habitable-planet/?utm_source=chatgpt.com",
+                  "title": "Emergence of a habitable planet - University of Edinburgh Research Explorer",
+                  "snippet": "EMERGENCE OF A HABITABLE PLANET  * Kevin Zahnle^{*} * , Nick Arndt * , Charles S. Cockell * , Alex Halliday * , Euan Nisbet * , Franck Selsis * , Norman H. Sleep  ^{*}Corresponding author for this wo...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 28
+                  },
+                  "pub_date": null,
+                  "attribution": "ed.ac.uk"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "seti.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.seti.org/event/late-veneer-and-earths-habitability?utm_source=chatgpt.com",
+                  "title": "The Late Veneer and Earth's habitability",
+                  "snippet": "THE LATE VENEER AND EARTH'S HABITABILITY  Video iframe  SETI Talks  Tags: SETI Talks, Comets, Meteors, and Asteroids, Asteroids, Astrobiology, Outreach  Time: Tuesday, Jan 10, 2017 12:00 PM - 1:00 PM...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 29
+                  },
+                  "pub_date": 1484006400,
+                  "attribution": "seti.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scribd.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scribd.com/document/333667270/Climate?utm_source=chatgpt.com",
+                  "title": "Extreme Obliquity and Planetary Climates | PDF | Planetary Habitability | Earth",
+                  "snippet": "KEY WORDS : EXTREME ENVIRONMENTS, HABITABLE PLANETS, OBLIQUITY, PLANETARY CLIMATE.  Introduction What would Earths climate be like if its spin axis were inclined by much more than 23.5x, as it is toda...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 29
+                  },
+                  "pub_date": 1047513600,
+                  "attribution": "scribd.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "oup.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://academic.oup.com/book/53843?utm_source=chatgpt.com",
+                  "title": "Origin of the Earth | Oxford Academic",
+                  "snippet": "ORIGIN OF THE EARTH  [Input: Search in this book] Search in this book  https://doi.org/10.1093/oso/9780195066197.001.0001  Online ISBN:  9780197709719  Print ISBN:  9780195066197  Publisher:  Oxford...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 32
+                  },
+                  "pub_date": 656812800,
+                  "attribution": "oup.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://academic.oup.com/mnras/article/428/2/1673/1009264?utm_source=chatgpt.com",
+                  "title": "dynamical study on the habitability of terrestrial exoplanets – I. Tidally evolved planet–satellite pairs | Monthly Notices of the Royal Astronomical Society | Oxford Academic",
+                  "snippet": "Regarding the second set of conditions for the existence of terrestrial-type life, (v), (vi) and (vii) are satisfied because of the presence of the Moon, while conditions (v) and (viii) are the result...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1351468800,
+                  "attribution": "oup.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dokumen.pub",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dokumen.pub/dynamical-chaos-in-planetary-systems-1st-ed-9783030521431-9783030521448.html?utm_source=chatgpt.com",
+                  "title": "Dynamical Chaos in Planetary Systems [1st ed.] 9783030521431, 9783030521448 - DOKUMEN.PUB",
+                  "snippet": "The data following from the presented phase space sections in Figs. 7.12 and 7.13 perfectly agree with the results of Wisdom et al. (1984), Wisdom (1987a). In case of Amalthea, there are two centres o...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 33
+                  },
+                  "pub_date": 1577836800,
+                  "attribution": "dokumen.pub"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "earth.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.earth.com/earth-science/earth-collided-with-theia-4-5-billion-years-ago-created-moon-formation-made-life-possible/?utm_source=chatgpt.com",
+                  "title": "Life exists today because Earth collided with Theia 4.5 billion years ago",
+                  "snippet": "October 7, 2025  LIFE EXISTS TODAY BECAUSE EARTH COLLIDED WITH THEIA 4.5 BILLION YEARS AGO  The first chapter of Earth’s formation moved quickly. New research shows that our planet locked in its basi...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 34
+                  },
+                  "pub_date": 1759795200,
+                  "attribution": "earth.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "umich.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lsa.umich.edu/earth/about-us/news-events/all-events.detail.html/123473-21850975.html?utm_source=chatgpt.com",
+                  "title": "Smith Lecture - Qian Yuan: The \"missing\" planet Theia and Earth's habitability | U-M LSA Earth and Environmental Sciences",
+                  "snippet": "SMITH LECTURE - QIAN YUAN  The \"missing\" planet Theia and Earth's habitability  1.   2. About our Building 3. Camp Davis Group Photographs 4. Camp Davis History 5. Community Engagement 6. Deliveries...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1738108800,
+                  "attribution": "umich.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "phys.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://phys.org/news/2025-07-theia-struck-earth-stage-life.html?utm_source=chatgpt.com",
+                  "title": "When Theia struck Earth, it helped set the stage for life to appear",
+                  "snippet": "July 8, 2025  WHEN THEIA STRUCK EARTH, IT HELPED SET THE STAGE FOR LIFE TO APPEAR  by Evan Gough, Universe Today  edited by Lisa Lock, reviewed by Andrew Zinin  Image: This artist's illustration show...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 36
+                  },
+                  "pub_date": 1751932800,
+                  "attribution": "phys.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "substack.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://timetransit.substack.com/p/theia-earth-and-pre-collision-life?utm_source=chatgpt.com",
+                  "title": "Theia, Earth, and Pre-Collision Life - by Don Jory Jr.",
+                  "snippet": "ANALYSIS - THE POTENTIAL FOR PRE-COLLISION ABIOGENESIS ON PROTO-EARTH AND THEIA  CONDITIONS OF THE HADEAN EON: DEFINING THE PLANETARY ENVIRONMENT BEFORE IMPACT  To assess the possibility of life befor...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1779062400,
+                  "attribution": "substack.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "gsu.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.hyperphysics.phy-astr.gsu.edu/hbase/Astro/moonhab.html?utm_source=chatgpt.com",
+                  "title": "The Moon's Role in the Habitability of the Earth",
+                  "snippet": "THE MOON'S ROLE IN THE HABITABILITY OF THE EARTH  When one looks at the conditions which make advanced life on the Earth possible, one of the surprises is the importance of the Moon.  THE FORMATION OF...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 40
+                  },
+                  "pub_date": null,
+                  "attribution": "gsu.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "princeton.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.princeton.edu/news/2017/01/12/earths-moon-formed-millions-years-earlier-previously-believed?utm_source=chatgpt.com",
+                  "title": "Earth's moon formed millions of years earlier than previously believed",
+                  "snippet": "EARTH'S MOON FORMED MILLIONS OF YEARS EARLIER THAN PREVIOUSLY BELIEVED  Share on Facebook Share on Twitter Share on LinkedIn Email Print  By the Office of Communications on Jan. 12, 2017, 2 p.m.  Res...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 48
+                  },
+                  "pub_date": 1484179200,
+                  "attribution": "princeton.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "universetoday.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.universetoday.com/articles/was-there-a-time-when-the-moon-was-habitable?utm_source=chatgpt.com",
+                  "title": "Was There a Time When the Moon was Habitable? - Universe Today",
+                  "snippet": "WAS THERE A TIME WHEN THE MOON WAS HABITABLE?  By Matthew Williams - July 26, 2018 05:12 PM UTC | Astrobiology  To put it simply, the Earth's Moon is a dry, airless place where nothing lives. Aside f...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 51
+                  },
+                  "pub_date": 1532563200,
+                  "attribution": "universetoday.com"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://academic.oup.com/book/53843/chapter-abstract/422184205",
+            "https://academic.oup.com/book/53843/chapter-abstract/422184205?utm_source=chatgpt.com",
+            "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270",
+            "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cplu.202300270?utm_source=chatgpt.com",
+            "https://doi.org/10.1101/cshperspect.a004895",
+            "https://doi.org/10.1101/cshperspect.a004895?utm_source=chatgpt.com",
+            "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf",
+            "https://perso.imcce.fr/jacques-laskar/pdf/PLS_amer.pdf?utm_source=chatgpt.com",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC31109/?utm_source=chatgpt.com",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7615287/?utm_source=chatgpt.com",
+            "https://pubmed.ncbi.nlm.nih.gov/20573713/",
+            "https://pubmed.ncbi.nlm.nih.gov/20573713/?utm_source=chatgpt.com",
+            "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon",
+            "https://www.researchgate.net/publication/238393739_Stabilization_of_the_Earth%27s_obliquity_by_the_Moon?utm_source=chatgpt.com"
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-6",
+          "request_id": "0047800d-eed4-4dc2-b273-2cb71cc3d71f",
+          "message_type": "next",
+          "turn_exchange_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "working_turn_id": "705a1341-e907-4f8b-8001-df0da6534a21",
+          "model_slug": "gpt-5-6",
+          "default_model_slug": "gpt-5-6",
+          "can_save": true,
+          "parent_id": "07ec7c93-1b22-433f-a992-e16ebdc15bb0",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "e906d0f5-58b2-41b5-a099-59aa992c1eeb",
+      "children": []
+    }
+  },
+  "current_node": "0ff5f190-801a-46dd-9dfe-27bd3a6e205c",
+  "context_truncation_continuation": null
+}
