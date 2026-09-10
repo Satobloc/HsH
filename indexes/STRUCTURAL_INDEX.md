@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T20:29:20+00:00`
-- Tree/content state: `6ab10373f170033135a95a8be4e4151ca8229f8ec8183e0a172666cf93289563`
-- Coverage: 391 files, 37 directories
+- Scanned: `2026-09-10T20:41:39+00:00`
+- Tree/content state: `46affc0710c7acddbf6b808c9bafe386a3d08ec1b4e40a39ec82b887fa48c0e9`
+- Coverage: 393 files, 38 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,6 +15,8 @@
 | `.github` | 1 |
 | `ARCHITECTURE.md` | 1 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
+| `HISTORY_TIMELINE.md` | 1 |
+| `INTERNAL` | 1 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -41,7 +43,7 @@
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 27 |
+| `.md` | 29 |
 | `.pdf` | 4 |
 | `.png` | 27 |
 | `.py` | 9 |
@@ -68,7 +70,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 29 |
+| `unclassified` | 31 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -527,6 +529,8 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09•26.09.10•🧮 H(s)H Archive Audit Thread — raw.json` — 4700989 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json` — 282163 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `HISTORY_TIMELINE.md` — 7547 bytes — `unclassified`
+- `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
 - `LICENSE` — 19441 bytes — `license`
 - `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/AUTO H(s)H Gitter — raw.json` — 4804780 bytes — `live-conversation-corpus`
@@ -563,7 +567,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `README.md` — 18815 bytes — `visitor-interface`
+- `README.md` — 17545 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
