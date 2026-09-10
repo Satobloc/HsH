@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 817404952,
-    "directories": 39,
-    "files": 397
+    "bytes_known": 817425745,
+    "directories": 40,
+    "files": 399
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -12,7 +12,7 @@
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 31,
+    ".md": 33,
     ".pdf": 4,
     ".png": 27,
     ".py": 10,
@@ -37,7 +37,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 34,
+    "unclassified": 36,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -47,7 +47,7 @@
     "DEVELOPMENT_FULL_CONVOS": 283,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
-    "LIBRARY": 3,
+    "LIBRARY": 5,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "README.md": 1,
@@ -2582,18 +2582,39 @@
       "size": 2566
     },
     {
-      "content_id": "67d7be16a6c3c43a3bf64cdc276cde3240c93b0dba918e89c259e2185e3a5c9a",
+      "content_id": "d14b2f1cd5f342119c962b8962ddba7a5d7ec284e066577c657ef371bd123c62",
       "kind": "blob",
       "path": "LIBRARY/README.md",
       "role": "unclassified",
-      "size": 890
+      "size": 3035
     },
     {
-      "content_id": "080be29e9b136074313705d8346f81481bd196939966657184f9150d7b56b751",
+      "content_id": "d19fd7f6c6f0e4f8eca13f1f8fd35b077d1e7d980362904b79ed03bfc6fe72bb",
       "kind": "blob",
       "path": "LIBRARY/library_manifest.toml",
       "role": "unclassified",
-      "size": 1870
+      "size": 3039
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "LIBRARY/presented",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "3daa8bcba89b459e577da0892072666694abe773fe4d982c56b3d2bb1208f693",
+      "kind": "blob",
+      "path": "LIBRARY/presented/fundamental-intuitions.md",
+      "role": "unclassified",
+      "size": 11131
+    },
+    {
+      "content_id": "093e83ea68192d5efb7b45e3dd3cfa730c1a54d2eba9a9800c61b02bea4868c0",
+      "kind": "blob",
+      "path": "LIBRARY/presented/geometry-first-synthesis-excerpt.md",
+      "role": "unclassified",
+      "size": 6348
     },
     {
       "content_id": "57c797b3d8cf23dc9d536bdefb9444bf98e1e02980591da2cf33444924ece675",
@@ -3282,14 +3303,14 @@
       "size": null
     },
     {
-      "content_id": "9ba05ab701d67ac130c9eb81b062ec996dc76ba8f421634cfe1bbc973752fcc6",
+      "content_id": "e432f436308fa74288886495678df1d971061c1160b01192e555c2e5414caa2e",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "197f068351e598f21a03379da4e2bfb62e5da93c9d9e035e65669579bab47844",
+      "content_id": "4d6ae3809752f0add700020d9376bb56aef0c1a44dfd52268456a43218690b76",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3310,14 +3331,14 @@
       "size": null
     },
     {
-      "content_id": "c8d2ced0040c335cc31341e0e649ba67d9b1cf6e4a0768bf828fec00a3f66b52",
+      "content_id": "b69e2aa08c7500f351f63700a37175369813aa7a1dd3e246f8b3c91d28fb69af",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "cdb8b64f7d48cfb51ecee579badb87b8fe918a1d5b698645c8ce2eb6ee8832c6",
+      "content_id": "02f98d77078bca4c56b409f4ee5f6cf64127f97c3054237e6d847006371e994a",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3500,8 +3521,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T22:41:33+00:00",
+  "scanned_at_utc": "2026-09-10T22:44:12+00:00",
   "schema_version": 1,
-  "tree_id": "6a2a2a393c08578bc70ae2c795ac304178de87fbf62c04ae02c5589d83b9c6f1",
+  "tree_id": "9fb6e9fa7bb05e152800d1ff497d4098fa624abdeb11ca85fb8e96561e0db434",
   "tree_response_truncated": false
 }

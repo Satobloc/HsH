@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T22:41:33+00:00`
-- Tree/content state: `6a2a2a393c08578bc70ae2c795ac304178de87fbf62c04ae02c5589d83b9c6f1`
-- Coverage: 397 files, 39 directories
+- Scanned: `2026-09-10T22:44:12+00:00`
+- Tree/content state: `9fb6e9fa7bb05e152800d1ff497d4098fa624abdeb11ca85fb8e96561e0db434`
+- Coverage: 399 files, 40 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -17,7 +17,7 @@
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
-| `LIBRARY` | 3 |
+| `LIBRARY` | 5 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
@@ -44,7 +44,7 @@
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 31 |
+| `.md` | 33 |
 | `.pdf` | 4 |
 | `.png` | 27 |
 | `.py` | 10 |
@@ -72,7 +72,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 34 |
+| `unclassified` | 36 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -534,8 +534,10 @@
 - `HISTORY_TIMELINE.md` — 13483 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
 - `LIBRARY/MANIFEST_GUIDE.md` — 2566 bytes — `unclassified`
-- `LIBRARY/README.md` — 890 bytes — `unclassified`
-- `LIBRARY/library_manifest.toml` — 1870 bytes — `unclassified`
+- `LIBRARY/README.md` — 3035 bytes — `unclassified`
+- `LIBRARY/library_manifest.toml` — 3039 bytes — `unclassified`
+- `LIBRARY/presented/fundamental-intuitions.md` — 11131 bytes — `unclassified`
+- `LIBRARY/presented/geometry-first-synthesis-excerpt.md` — 6348 bytes — `unclassified`
 - `LICENSE` — 19441 bytes — `license`
 - `LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json` — 3721259 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/AUTO H(s)H Gitter — raw.json` — 4804780 bytes — `live-conversation-corpus`
