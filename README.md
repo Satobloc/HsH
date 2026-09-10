@@ -50,11 +50,7 @@ The model is not simply "everything is a helix." A local coil may itself propaga
 
 <a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/FRONT_PAGE/06_qcd_geometric_braiding.jpg" alt="QCD analogy represented by geometric braiding" width="100%"></a>
 
-SAT's braid-centered interaction picture treats multi-filament organization as a geometric relation rather than merely adding a new label to otherwise independent particles. In the historical worldline model this was represented by interweaving centerlines; H(s)H asks what the corresponding finite-core worldtube mechanics actually are.
-
-<a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/FRONT_PAGE/07_multifilament_bundle_into_surface.png" alt="Multifilament bundle entering a curved surface" width="78%"></a>
-
-This is the transition the current work is trying to formalize: **bundle geometry + finite extent + intersection/readout + deformation**.
+SAT's braid-centered interaction picture treats multi-filament organization as a geometric relation rather than merely adding a new label to otherwise independent particles. In the historical worldline model this was represented by interweaving centerlines; H(s)H asks what the corresponding finite-core worldtube mechanics actually are: **bundle geometry + finite extent + intersection/readout + deformation**.
 
 ---
 
@@ -76,17 +72,34 @@ SAT was developed as a whole-physics translation program rather than a particle 
 
 ## 8. Historical continuity is part of the record
 
-The public H(s)H repository is not the primary historical archive. The larger [SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25) preserves the developmental record. The images below are included here only as a quick provenance window into that history.
+The public H(s)H repository is not the primary historical archive. The larger [SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25) preserves the developmental record. The quick provenance window below deliberately spans both ends of that record: surviving 2003 material and the much more explicit 2025 SAT notebooks.
+
+### Earliest surviving notebook/sketch material — 2003
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/01_worldlines_notecard.jpg" alt="Historical worldlines sketch"></a></td>
-<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/02_sat_notebook_2025-04-15.jpg" alt="SAT notebook April 15 2025"></a></td>
-<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png" alt="SAT notebook April 25 2025"></a></td>
+<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003.png" alt="Earliest surviving 2003 sketch"></a></td>
+<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003_3.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_2003_3.png" alt="Early 2003 geometric sketch"></a></td>
+<td width="33%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png"><img src="https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/2003%20SKETCHES/Earliest_Surviving_Sketches_Leuchtturm_notebook_2003.png" alt="Dated 2003 notebook / spine record"></a></td>
+</tr>
+</table>
+
+The Archive dates the Ireland-trip notebook period to **February–June 2003** and preserves the surviving sketches as their own source layer. The point here is not to retrofit every later SAT term onto those pages, but to show the early geometric ancestry directly rather than beginning the visual history in 2025.
+
+### Explicit SAT notebook development — 2025
+
+<table>
+<tr>
+<td width="25%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/01_worldlines_notecard.jpg" alt="Historical worldlines sketch"></a></td>
+<td width="25%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/02_sat_notebook_2025-04-15.jpg" alt="SAT notebook April 15 2025"></a></td>
+<td width="25%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/03_early_coil_plane_notebook.jpg" alt="SAT coil and plane notebook sketch"></a></td>
+<td width="25%" valign="top"><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS"><img src="SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png" alt="SAT notebook April 25 2025"></a></td>
 </tr>
 </table>
 
 The point of preserving the sketches alongside later renderings is not that every current H(s)H statement was already explicit in the earliest work. It is that the **recognizable generative geometry appears early and persists while the physical identifications, mathematical machinery, and resolution of the model accumulate around it**.
+
+[Browse the 2003 sketch folder →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/2003%20SKETCHES)
 
 [Browse the historical SAT visuals →](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/SAT%20VISUALS)
 
