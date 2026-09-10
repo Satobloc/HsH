@@ -1,0 +1,41 @@
+name: Build public document library
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'LIBRARY/library_manifest.toml'
+      - 'tools/build_public_library.py'
+      - '.github/workflows/build-public-library.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-library:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out HsH
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate and render library
+        run: python tools/build_public_library.py --write
+
+      - name: Commit generated presentation pages
+        run: |
+          if git diff --quiet -- LIBRARY/README.md LIBRARY/generated; then
+            echo 'Library already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add LIBRARY/README.md LIBRARY/generated
+          git commit -m 'Rebuild public document library'
+          git push
