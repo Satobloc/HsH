@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T19:42:46+00:00`
-- Tree/content state: `e7ec6aa8493bdbc4faa08753fde4c8047d8cd4d1d399b30a7b5a982774f124c7`
+- Scanned: `2026-09-10T20:21:19+00:00`
+- Tree/content state: `fb235936ff33409d2d6c1abafdf9fc3f7643cf1e662b7bd237862cbaf2b827bd`
 - Coverage: 391 files, 37 directories
 - GitHub tree response truncated: `false`
 
@@ -563,7 +563,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `README.md` — 12641 bytes — `visitor-interface`
+- `README.md` — 14284 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
