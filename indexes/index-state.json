@@ -3282,14 +3282,14 @@
       "size": null
     },
     {
-      "content_id": "f1bfb77c4e53fd3f4bf2cb64cee6a3592ae0710519a3a4d7fbc41f0d20856510",
+      "content_id": "dc02b99a768bda13b30691d09f461c8a6047093fc66709078b1170bfbf80765b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "790dde54c2d374e38076226c56e3c272fe7042c6d4c83e3e82fc9049d58b3974",
+      "content_id": "030aef679cadfc427b6c92e27da4fc54ba75a2fcdc98a1d202df04434f321cb8",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3310,14 +3310,14 @@
       "size": null
     },
     {
-      "content_id": "72d0ee4c1b701c0984fc0cd3e5c9d7a9460399211bae321787fb75427dd4dd32",
+      "content_id": "4ef2b605747ce13b6ffa1661a16b03e63d088b2f9ae3c396df19b59a8284f7a3",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "c6310419451620db15e155f3311932f5890762a72a8d3e9682d012596d3a2e3c",
+      "content_id": "4cc94b443b3f5bcd0efc372b7ea63d79859e118b03fe6e6cfdbedc82739f1fae",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3500,8 +3500,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-10T22:24:02+00:00",
+  "scanned_at_utc": "2026-09-10T22:24:31+00:00",
   "schema_version": 1,
-  "tree_id": "91fd1242b0bfe188601d76bfc9f0628b61a4d9ba5741d943c238d8044c93215d",
+  "tree_id": "6f7a76d88bd43e2f53eedc564835d73ac552f8c1e47fd8d7b970e758e6fffab9",
   "tree_response_truncated": false
 }
