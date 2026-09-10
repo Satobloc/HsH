@@ -178,3 +178,27 @@ The maintenance policy is intentionally asymmetric:
 Generated date manifests live under `indexes/manifests/`. These are navigation metadata, not replacements for original conversation timestamps or source provenance.
 
 </details>
+
+---
+
+# SAT/H(s)H CLARIFICATIONS
+
+*A note from Nathan McKnight*
+
+1. Although we have at times explored the possibility of a 24-cell lattice, I have always found that construction somewhat artificial on its face. We have therefore placed it on the back burner unless and until the geometry itself forces something like it as the H(s)H model is built out.
+
+2. We see no inherent conflict between SAT/H(s)H and mainstream physics. Quite the opposite: the extraordinary empirical success, mathematical structure, and cumulative data of modern physics form the most important foundation for this work. SAT/H(s)H began from a literal reading of Minkowski spacetime, itself foundational to special relativity and deeply embedded in the structure of General Relativity.
+
+3. SAT/H(s)H deliberately builds on classical and relativistic thinking and takes mainstream physics as the clearest and most complete picture of the universe currently available. We began by trying only to map known physics geometrically in four dimensions. In hindsight, however, constructing such a map also created a constrained vantage point from which to ask where apparently disconnected descriptions might fit together, and where the standard picture might still be incomplete.
+
+4. Although SAT/H(s)H may eventually contribute scientifically, I regard my primary contribution as methodological and philosophical: insistence on minimalism, reduction of the problem space, and the possibility that the conceptual and mathematical tools already available to us may be sufficient to build a coherent understanding of the universe. That did not have to be true. But repeatedly, removing unnecessary ornament has produced not merely a fuller picture, but a simpler one.
+
+5. SAT/H(s)H was developed almost entirely from within its own Minkowski-geometric grammar. Along the way it repeatedly converged, often unexpectedly, on structures that already exist in established mathematics and mathematical physics. I do not take that as evidence of special insight by itself. I take it first as evidence that good geometry tends to lead people toward the same places. In that sense, the recurring answer to “why did we keep landing here?” may be very simple: because Minkowski was right.
+
+6. If SAT/H(s)H is eventually shown to fit evidence more closely than it must merely by reproducing established physics, then its contribution may prove scientific in the stronger sense I hope for. The most distinctive candidate ideas include photon–neutrino duality, a recycling black-hole cosmology, and the relocation of spacetime curvature into the geometry of the time surface. These remain claims to be tested, not conclusions to be assumed.
+
+7. We have done our best to construct the mathematical backbone using classical equations, modern formalisms, and our own geometric solvers. We do not, however, claim the specialized mathematical expertise required to vet every derivation with the confidence appropriate to peer review. For that reason we have preferred open development: making the reasoning, mistakes, revisions, dead ends, and corrections as visible as possible. Having recently recognized that parts of our work overlap a century-old mathematical and physical lineage involving braid theory and related formalisms, we are temporarily directing substantial attention away from theory-building and toward prior-art review and proper citation. Some ideas we believed to be unusual may prove to have substantial precedent. If so, that should be acknowledged plainly. I hope the overall construction may nonetheless remain distinctive in conception and synthesis.
+
+8. Over the last year and a half, we have made visible not only the work itself, but also our ineptitude, stubbornness, personal struggles, wrong turns, jokes, and occasionally embarrassing degree of obsession with this picture of reality. Against our own expectations, that process has also revealed peers, predecessors, colleagues, and a broader intellectual community working on related structures. Outsider and academic work alike rests on generations of people who opened conceptual paths long before us. Exploratory work has value even when later evidence rejects it, because science advances not only through answers but through the disciplined expansion and contraction of the space of possible answers.
+
+> **The one thing science cannot do without is wonder: wonder at the complexity of this place, and at the possibility that beneath that complexity lies something unexpectedly simple.**
