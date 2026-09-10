@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-10T14:02:00+00:00`
-- Tree/content state: `8e5ec9861beff05e56ef89412157f8470e25c1f9284d8c0325417c76cf4336e7`
-- Coverage: 362 files, 32 directories
+- Scanned: `2026-09-10T19:37:02+00:00`
+- Tree/content state: `586d3d9e8f71df279f9e9f1a5e40a0d60a9a531cd0a87a3e2c6ce7011e7d725b`
+- Coverage: 363 files, 33 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -18,6 +18,7 @@
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `README.md` | 1 |
+| `SAT_VISUALS` | 1 |
 | `WORKSPACES` | 4 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
@@ -44,7 +45,7 @@
 | `.png` | 18 |
 | `.py` | 9 |
 | `.rtf` | 2 |
-| `.txt` | 77 |
+| `.txt` | 78 |
 | `.yml` | 1 |
 | `[none]` | 2 |
 
@@ -66,6 +67,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
+| `unclassified` | 1 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -75,6 +77,7 @@
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
+  - `SAT_VISUALS/gitignore.txt`
 - `0234f958e115870079b75fb893a235ed93d89955547c89d4aadfac81aa84789f`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.04•26.06.01•Proton-Electron Mass Ratio — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.04•26.06.01•Proton-Electron Mass Ratio — raw.json`
@@ -557,6 +560,7 @@
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `README.md` — 5705 bytes — `visitor-interface`
+- `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
