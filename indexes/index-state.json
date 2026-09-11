@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 820419473,
+    "bytes_known": 820641772,
     "directories": 41,
-    "files": 429
+    "files": 432
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -12,7 +12,7 @@
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 62,
+    ".md": 65,
     ".pdf": 4,
     ".png": 27,
     ".py": 10,
@@ -37,7 +37,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 65,
+    "unclassified": 68,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -47,7 +47,7 @@
     "DEVELOPMENT_FULL_CONVOS": 283,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
-    "LIBRARY": 33,
+    "LIBRARY": 36,
     "LIBRARY.md": 1,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
@@ -462,11 +462,11 @@
       "size": null
     },
     {
-      "content_id": "861c45cb56aa9d896722132ad2867768609eb52e97f4ac18a372e41b8ce07fac",
+      "content_id": "9b28116201aab6a5f46d11b74dc73666c7eea2e6fd46100f0f5de1bba56e3866",
       "kind": "blob",
       "path": ".github/workflows/build-public-library.yml",
       "role": "automation-workflow",
-      "size": 1144
+      "size": 1263
     },
     {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
@@ -2688,6 +2688,27 @@
       "size": 110735
     },
     {
+      "content_id": "d143c17b025117595bf7028129e5f0d5267f0319649004faf9b42e2e8dfa32a5",
+      "kind": "blob",
+      "path": "LIBRARY/generated/frontpage-txt-h-s-h-2026-startup-docs-bcb325c6.md",
+      "role": "unclassified",
+      "size": 76145
+    },
+    {
+      "content_id": "56b81e23ad64a8c077d5b5c5d9d1e1fd8cb3d618d22ebc0fc61dd45ebe2cfacf",
+      "kind": "blob",
+      "path": "LIBRARY/generated/frontpage-txt-h-s-h-rework-be53e17c.md",
+      "role": "unclassified",
+      "size": 25843
+    },
+    {
+      "content_id": "e1905ea8001202b0105597840c6441f687906650994d7a1ca5acd03b1a608ea0",
+      "kind": "blob",
+      "path": "LIBRARY/generated/frontpage-txt-hsh-architecting-8aa5b793.md",
+      "role": "unclassified",
+      "size": 114229
+    },
+    {
       "content_id": "4d874db263d4fcc6d4af7eea585a2ac2b26c620ebfbde1245ad7451cb0c28291",
       "kind": "blob",
       "path": "LIBRARY/generated/hsh-aha-topology.md",
@@ -3094,11 +3115,11 @@
       "size": 5074617
     },
     {
-      "content_id": "b34ad751d66d1dd528824dd0d9a844a72fbadc4975fb4a57c50a6bb768193534",
+      "content_id": "eefd2ddccfa5ae1ea8d72d04ffe5e39421315cebb2aaa36468313158b9d1d252",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 35849
+      "size": 35654
     },
     {
       "content_id": null,
@@ -3521,14 +3542,14 @@
       "size": null
     },
     {
-      "content_id": "6debfd43a1d6203ea5ac4b268cbd811c38003867c39a31df998bd58862bd48b2",
+      "content_id": "7c5a7b111f92307c73c4a7b9dc2dbe691db08704973855f05b139025108e690a",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "c36a68290f555bd362c58be9e476f2843a020f41066c0b7b7127a509bd3e17a5",
+      "content_id": "041e93f784fdcbb2e50180eb81fda844b875554a798e22fda498e74206598f14",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3549,14 +3570,14 @@
       "size": null
     },
     {
-      "content_id": "bfbdf4b5f8b33e24106a1703ed6891f09cbd4bc054a4aa8dddece5bc36a401b3",
+      "content_id": "4b96ef314deb4d2e8d599665d37a32c73851cbbf8e0d72eeff97ed915aa03d0e",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "1709d524c6dec5949f3e0f039dfffc8c2f96b43122315822c7cb904397b42acd",
+      "content_id": "c79deddadccb6c66967c39e943c356c986c61538c1b3460fc311addfaff88cbc",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3661,11 +3682,11 @@
       "size": null
     },
     {
-      "content_id": "1a447324471698e3c2344e5bd4c829864c104c4b257a4d143d901e7f2e69f3d1",
+      "content_id": "c26eff3218a7857564d0aad650040a8a3a6e6823639bdebea29a19c6afbf5944",
       "kind": "blob",
       "path": "tools/build_public_library.py",
       "role": "archive-tooling",
-      "size": 12788
+      "size": 18946
     },
     {
       "content_id": "2a84e79e658fb3f665f0177383b9f4750c6e269a927a3b71ce599a52efbd49c8",
@@ -3739,8 +3760,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T01:05:37+00:00",
+  "scanned_at_utc": "2026-09-11T01:19:32+00:00",
   "schema_version": 1,
-  "tree_id": "949f7feebe84d3919b030a25a36783eba0d91a255652f4afd9ee8340211e6006",
+  "tree_id": "5016118a979aee6b24e22c65e1fd76e4b5524c2da4a14234e50a6b8a6c76796b",
   "tree_response_truncated": false
 }

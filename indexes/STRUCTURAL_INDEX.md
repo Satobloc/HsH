@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T01:05:37+00:00`
-- Tree/content state: `949f7feebe84d3919b030a25a36783eba0d91a255652f4afd9ee8340211e6006`
-- Coverage: 429 files, 41 directories
+- Scanned: `2026-09-11T01:19:32+00:00`
+- Tree/content state: `5016118a979aee6b24e22c65e1fd76e4b5524c2da4a14234e50a6b8a6c76796b`
+- Coverage: 432 files, 41 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -17,7 +17,7 @@
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
-| `LIBRARY` | 33 |
+| `LIBRARY` | 36 |
 | `LIBRARY.md` | 1 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
@@ -45,7 +45,7 @@
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 62 |
+| `.md` | 65 |
 | `.pdf` | 4 |
 | `.png` | 27 |
 | `.py` | 10 |
@@ -73,7 +73,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 65 |
+| `unclassified` | 68 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -247,7 +247,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `.github/workflows/build-public-library.yml` — 1144 bytes — `automation-workflow`
+- `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
@@ -549,6 +549,9 @@
 - `LIBRARY/generated/cp-closure.md` — 3793 bytes — `unclassified`
 - `LIBRARY/generated/demo-qc.md` — 46464 bytes — `unclassified`
 - `LIBRARY/generated/filament-onto.md` — 110735 bytes — `unclassified`
+- `LIBRARY/generated/frontpage-txt-h-s-h-2026-startup-docs-bcb325c6.md` — 76145 bytes — `unclassified`
+- `LIBRARY/generated/frontpage-txt-h-s-h-rework-be53e17c.md` — 25843 bytes — `unclassified`
+- `LIBRARY/generated/frontpage-txt-hsh-architecting-8aa5b793.md` — 114229 bytes — `unclassified`
 - `LIBRARY/generated/hsh-aha-topology.md` — 167498 bytes — `unclassified`
 - `LIBRARY/generated/hsh-classic.md` — 218815 bytes — `unclassified`
 - `LIBRARY/generated/hsh-time-residuals.md` — 34733 bytes — `unclassified`
@@ -605,7 +608,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `README.md` — 35849 bytes — `visitor-interface`
+- `README.md` — 35654 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
@@ -666,7 +669,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_public_library.py` — 12788 bytes — `archive-tooling`
+- `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
 - `tools/index_archive.py` — 10674 bytes — `archive-tooling`
