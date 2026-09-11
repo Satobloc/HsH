@@ -1,6 +1,6 @@
 name: Build conversation viewer catalog
 
-# Workflow edits intentionally trigger a self-test so generation changes are validated on main.
+# Workflow edits intentionally trigger a self-test so generation and UI changes are validated on main.
 on:
   workflow_dispatch:
   push:
@@ -11,6 +11,10 @@ on:
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
+      - 'CONVERSATION_VIEWER/*.js'
+      - 'CONVERSATION_VIEWER/*.html'
+      - 'CONVERSATION_VIEWER/*.css'
+      - 'CONVERSATION_VIEWER/data/landmarks.json'
       - '.github/workflows/build-conversation-viewer.yml'
 
 permissions:
@@ -33,10 +37,15 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Validate viewer JavaScript
+        run: |
+          node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/landmarks.js
+
       - name: Build compact conversation catalog
         run: python tools/build_conversation_viewer.py
 
-      - name: Validate generated catalog
+      - name: Validate generated catalog and landmarks
         run: |
           python - <<'PY'
           import json
@@ -51,7 +60,18 @@ jobs:
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
           assert all(x['path'].lower().endswith('.json') for x in data['conversations'])
+
+          lp = Path('CONVERSATION_VIEWER/data/landmarks.json')
+          landmarks = json.loads(lp.read_text(encoding='utf-8'))
+          assert landmarks['schema_version'] == 1
+          assert isinstance(landmarks['landmarks'], list)
+          known = set(ids)
+          for item in landmarks['landmarks']:
+              assert item.get('conversation_id') in known, f"unknown landmark conversation: {item}"
+              assert isinstance(item.get('message'), int) and item['message'] > 0, f"invalid landmark message: {item}"
+              assert isinstance(item.get('label'), str) and item['label'].strip(), f"invalid landmark label: {item}"
           print(data['counts'])
+          print(f"landmarks={len(landmarks['landmarks'])}")
           PY
 
       - name: Commit generated viewer catalog
