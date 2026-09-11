@@ -11,14 +11,17 @@
   let all = [];
   let current = [];
   let currentConversationId = null;
-  let painting = false;
 
   function conversationId() {
-    return new URLSearchParams(location.search).get("c");
+    return document.querySelector(".conversation-card.active")?.dataset.id || new URLSearchParams(location.search).get("c");
   }
 
   function validLandmark(item) {
     return item && typeof item === "object" && Number.isInteger(Number(item.message)) && Number(item.message) > 0 && typeof item.label === "string" && item.label.trim();
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
   }
 
   function renderSelect() {
@@ -31,26 +34,18 @@
     select.title = current.length ? `${current.length} named landmark${current.length === 1 ? "" : "s"}` : "No named landmarks for this conversation yet";
   }
 
-  function escapeHtml(value) {
-    return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
-  }
-
   function paintTimeline() {
-    if (!timelineMarks || !timeline || painting || !current.length) return;
-    painting = true;
-    try {
-      timelineMarks.querySelectorAll(".timeline-mark.landmark").forEach(node => node.remove());
-      const max = Math.max(1, Number(timeline.max) || 1);
-      for (const item of current) {
-        const index = Math.max(0, Number(item.message) - 1);
-        const mark = document.createElement("span");
-        mark.className = "timeline-mark landmark";
-        mark.style.left = `${Math.min(100, (index / max) * 100)}%`;
-        mark.title = `#${item.message} — ${item.label}`;
-        timelineMarks.appendChild(mark);
-      }
-    } finally {
-      painting = false;
+    if (!timelineMarks || !timeline) return;
+    timelineMarks.querySelectorAll(".timeline-mark.landmark").forEach(node => node.remove());
+    if (!current.length) return;
+    const max = Math.max(1, Number(timeline.max) || 1);
+    for (const item of current) {
+      const index = Math.max(0, Number(item.message) - 1);
+      const mark = document.createElement("span");
+      mark.className = "timeline-mark landmark";
+      mark.style.left = `${Math.min(100, (index / max) * 100)}%`;
+      mark.title = `#${item.message} — ${item.label}`;
+      timelineMarks.appendChild(mark);
     }
   }
 
@@ -59,6 +54,7 @@
     messages.querySelectorAll(".message.landmark-hit").forEach(node => {
       node.classList.remove("landmark-hit");
       node.removeAttribute("data-landmark-label");
+      node.querySelectorAll(".landmark-label").forEach(label => label.remove());
     });
     for (const item of current) {
       const node = document.getElementById(`m${Number(item.message)}`);
@@ -66,7 +62,7 @@
       node.classList.add("landmark-hit");
       node.dataset.landmarkLabel = item.label;
       const meta = node.querySelector(".message-meta");
-      if (meta && !meta.querySelector(".landmark-label")) {
+      if (meta) {
         const badge = document.createElement("span");
         badge.className = "landmark-label";
         badge.textContent = ` · ◆ ${item.label}`;
@@ -101,14 +97,9 @@
 
   if (search) search.addEventListener("input", () => setTimeout(paintTimeline, 0));
 
-  const urlObserver = new MutationObserver(() => refreshConversation());
+  const conversationObserver = new MutationObserver(() => refreshConversation());
   const title = document.getElementById("conversationTitle");
-  if (title) urlObserver.observe(title, { childList: true, characterData: true, subtree: true });
-
-  const timelineObserver = new MutationObserver(() => {
-    if (!painting) setTimeout(paintTimeline, 0);
-  });
-  if (timelineMarks) timelineObserver.observe(timelineMarks, { childList: true });
+  if (title) conversationObserver.observe(title, { childList: true, characterData: true, subtree: true });
 
   const messageObserver = new MutationObserver(() => setTimeout(markRenderedMessages, 0));
   if (messages) messageObserver.observe(messages, { childList: true, subtree: false });
