@@ -256,6 +256,7 @@ Supporting working sources: [H(s)H 2026 STARTUP DOCS](https://github.com/Satoblo
 
 ## Derivations, provenance, and further reading
 
+- [Expanded SAT/H(s)H Library](LIBRARY.md) — additional snapshots, calculations, derivation sources, transition documents, working conversations, and formalization material selected for easier discovery.
 - [Derivation / provenance index](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/..Derivation_Index.md) — maps major mathematical claims to likely derivation/provenance paths and current audit posture.
 - [Mathematical Repository](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..MATHEMATICAL_REPOSITORY) — equation/provenance clearinghouse.
 - [Annotated cross-archive survey](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/!_ANNOTATED_ARCHIVE_SURVEY.md) — neutral coverage and provenance map.
