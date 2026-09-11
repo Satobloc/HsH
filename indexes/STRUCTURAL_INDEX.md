@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T05:37:48+00:00`
-- Tree/content state: `43f9481c8781e5347dd365f755997102259681af307b8fb258b0037c3c00a8b2`
-- Coverage: 449 files, 45 directories
+- Scanned: `2026-09-11T06:13:01+00:00`
+- Tree/content state: `40e1927c2192fa812ebf6313930b396c3b394912636aed5da769e52a66c252f6`
+- Coverage: 451 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `!_CONVERSATION_VIEWER.md` | 1 |
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 8 |
+| `CONVERSATION_VIEWER` | 10 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -50,10 +50,10 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 2 |
-| `.json` | 213 |
+| `.json` | 214 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 68 |
+| `.md` | 69 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -81,7 +81,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 80 |
+| `unclassified` | 82 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -263,6 +263,8 @@
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
+- `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
+- `CONVERSATION_VIEWER/CURATION.md` — 2211 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/conversations.json` — 171439 bytes — `unclassified`
