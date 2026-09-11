@@ -1,8 +1,15 @@
 name: Deploy conversation viewer to GitHub Pages
 
-# Manual-only until GitHub Pages is enabled for this repository with Source = GitHub Actions.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'CONVERSATION_VIEWER/index.html'
+      - 'CONVERSATION_VIEWER/*.js'
+      - 'CONVERSATION_VIEWER/*.css'
+      - 'CONVERSATION_VIEWER/data/**'
+      - '.github/workflows/deploy-conversation-viewer-pages.yml'
 
 permissions:
   contents: read
