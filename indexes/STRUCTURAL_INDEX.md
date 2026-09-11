@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T04:05:30+00:00`
-- Tree/content state: `98452c25e5f94c7d091fbba3e9fb0af7109cb96ea3198edf5ba6cd53c3019f51`
-- Coverage: 441 files, 44 directories
+- Scanned: `2026-09-11T04:08:05+00:00`
+- Tree/content state: `e522041115f703d1e8b1a3251a257e5d2fd0b6ae09f5952a502a16347360fb40`
+- Coverage: 442 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -14,7 +14,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 4 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 4 |
+| `CONVERSATION_VIEWER` | 5 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -47,7 +47,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 1 |
-| `.json` | 211 |
+| `.json` | 212 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 66 |
@@ -78,7 +78,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 74 |
+| `unclassified` | 75 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -253,12 +253,13 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `.github/workflows/build-conversation-viewer.yml` — 2376 bytes — `automation-workflow`
+- `.github/workflows/build-conversation-viewer.yml` — 2517 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 171439 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 4535 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 8052 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 23926 bytes — `unclassified`
@@ -683,7 +684,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_conversation_viewer.py` — 6340 bytes — `archive-tooling`
+- `tools/build_conversation_viewer.py` — 6487 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
