@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 821112014,
+    "bytes_known": 821112216,
     "directories": 45,
     "files": 449
   },
@@ -457,11 +457,11 @@
       "size": 3610
     },
     {
-      "content_id": "dbc0d02fda05aff390b0c4ef89f614460e142dd53c63a39febf7917c20e69f34",
+      "content_id": "a912b73a3bc4286d55c3cdbb7677440a53519de1b6d9bde629c603b1aae23f4f",
       "kind": "blob",
       "path": "!_CONVERSATION_VIEWER.md",
       "role": "unclassified",
-      "size": 3085
+      "size": 3287
     },
     {
       "content_id": null,
@@ -3677,14 +3677,14 @@
       "size": null
     },
     {
-      "content_id": "fac44a44b2c09de2324ab396cb2d3b05e40856eaf36491b246efd19e20621e8a",
+      "content_id": "24d791a69ff0966e7b5ea209b061e468dc084a4141243663e87c114eb16c7ad4",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "3dac824d296cfc6054b25c04d432dbdd7273236eccd9d00c29216171fd7d06c3",
+      "content_id": "5084996f33b1080296b57c30b61f24e5d487fbb68fa62a45c016affa40d6b802",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3705,14 +3705,14 @@
       "size": null
     },
     {
-      "content_id": "359a262fe6af424a12839c01557f47f7619577eae87a6a46f6b0ca6a863fed15",
+      "content_id": "1ca4e6050c7b806fd48cc38ab773e12ab8d7a27624d277c5699464509fe971bc",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "a4e6d1f3c16f63311fe3628732bc6c305fa1e37e7ab2bd8433398cf08dfb5147",
+      "content_id": "19005660792aff50ced6bf427764fe3e31280b41cc16bd5c01676416eb4d3a09",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3916,8 +3916,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T05:23:40+00:00",
+  "scanned_at_utc": "2026-09-11T05:37:48+00:00",
   "schema_version": 1,
-  "tree_id": "fa479c8951da19220686a138cd2aeba6ee5a59c520a1fa58415a5df0e6822523",
+  "tree_id": "43f9481c8781e5347dd365f755997102259681af307b8fb258b0037c3c00a8b2",
   "tree_response_truncated": false
 }

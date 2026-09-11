@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T05:23:40+00:00`
-- Tree/content state: `fa479c8951da19220686a138cd2aeba6ee5a59c520a1fa58415a5df0e6822523`
+- Scanned: `2026-09-11T05:37:48+00:00`
+- Tree/content state: `43f9481c8781e5347dd365f755997102259681af307b8fb258b0037c3c00a8b2`
 - Coverage: 449 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -256,7 +256,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `!_CONVERSATION_VIEWER.md` — 3085 bytes — `unclassified`
+- `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
 - `.github/workflows/build-conversation-viewer.yml` — 3568 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
