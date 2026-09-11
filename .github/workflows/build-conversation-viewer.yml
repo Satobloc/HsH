@@ -1,5 +1,6 @@
 name: Build conversation viewer catalog
 
+# Workflow edits intentionally trigger a self-test so generation changes are validated on main.
 on:
   workflow_dispatch:
   push:
