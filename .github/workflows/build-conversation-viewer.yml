@@ -10,7 +10,6 @@ on:
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
-      - 'CONVERSATION_VIEWER/**'
 
 permissions:
   contents: write
@@ -55,7 +54,7 @@ jobs:
 
       - name: Commit generated viewer catalog
         run: |
-          if git diff --quiet -- CONVERSATION_VIEWER/data/conversations.json; then
+          if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json | grep -q .; then
             echo 'Conversation viewer catalog unchanged.'
             exit 0
           fi
