@@ -1,0 +1,74 @@
+name: Install conversation viewer front door
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/install-conversation-viewer-frontdoor.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Insert viewer panel into README
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('README.md')
+          text = path.read_text(encoding='utf-8')
+          start = '<!-- CONVERSATION_VIEWER_FRONTDOOR_START -->'
+          end = '<!-- CONVERSATION_VIEWER_FRONTDOOR_END -->'
+          anchor = '<!-- AUTO_FEATURED_START -->'
+
+          block = '''<!-- CONVERSATION_VIEWER_FRONTDOOR_START -->
+## 🔎 Development conversations: open by design
+
+In the interests of maximum transparency, and in the spirit of SAT's **Glass Sausage Factory Ethos**, much of the project's development is available in the form in which it actually happened: conversation. Because SAT/H(s)H has been developed largely through extended dialogue, those exchanges are part of the working record—ideas, mistakes, revisions, dead ends, and all.
+
+<table>
+<tr>
+<td align="center" width="100%">
+<br>
+<strong>▶ <a href="!_CONVERSATION_VIEWER.md">OPEN THE H(s)H CONVERSATION VIEWER</a></strong><br><br>
+<em>Interactive viewer thumbnail coming here.</em><br><br>
+<code>[ conversation viewer preview ]</code><br><br>
+<small>Browse, search, replay, and jump to marked moments in the development record.</small><br><br>
+</td>
+</tr>
+</table>
+<!-- CONVERSATION_VIEWER_FRONTDOOR_END -->
+'''
+
+          if start in text and end in text:
+              before, rest = text.split(start, 1)
+              _, after = rest.split(end, 1)
+              text = before + block + after.lstrip('\n')
+          else:
+              if anchor not in text:
+                  raise SystemExit('README anchor not found')
+              text = text.replace(anchor, block + '\n' + anchor, 1)
+
+          path.write_text(text, encoding='utf-8', newline='\n')
+          PY
+
+      - name: Commit front door
+        run: |
+          if git diff --quiet -- README.md; then
+            echo 'README front door already current.'
+            exit 0
+          fi
+          git config user.name 'HsH Front Page Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Add conversation viewer transparency panel'
+          git push origin HEAD:main
