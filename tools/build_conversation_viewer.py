@@ -13,7 +13,6 @@ import argparse
 import hashlib
 import json
 import re
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -88,6 +87,7 @@ def build_manifest(dev: Path, live: Path, owner: str, repo: str, branch: str) ->
     conversations: list[dict[str, Any]] = []
     inputs = [(dev, "development"), (live, "live")]
     input_meta: list[dict[str, Any]] = []
+    source_timestamps: list[str] = []
 
     for path, corpus in inputs:
         if not path.exists():
@@ -105,13 +105,16 @@ def build_manifest(dev: Path, live: Path, owner: str, repo: str, branch: str) ->
             if item:
                 conversations.append(item)
                 accepted += 1
+        generated = payload.get("generated_at_utc")
+        if isinstance(generated, str) and generated:
+            source_timestamps.append(generated)
         input_meta.append({
             "path": path.as_posix(),
             "corpus": corpus,
             "status": "loaded",
             "records": len(records),
             "accepted_json_conversations": accepted,
-            "source_generated_at_utc": payload.get("generated_at_utc"),
+            "source_generated_at_utc": generated,
         })
 
     by_path: dict[str, dict[str, Any]] = {}
@@ -130,7 +133,7 @@ def build_manifest(dev: Path, live: Path, owner: str, repo: str, branch: str) ->
 
     return {
         "schema_version": 1,
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "source_state_at_utc": max(source_timestamps) if source_timestamps else None,
         "repository": f"{owner}/{repo}",
         "branch": branch,
         "design": "manifest-only; raw conversation JSON fetched on demand",
