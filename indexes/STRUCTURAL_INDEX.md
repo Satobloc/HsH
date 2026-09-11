@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T04:13:21+00:00`
-- Tree/content state: `1b6f497256b780e5fdf0b9668f5575af5462703f95ccbdf83524a09b3acfc3ee`
-- Coverage: 447 files, 45 directories
+- Scanned: `2026-09-11T04:49:26+00:00`
+- Tree/content state: `31b04054b80a9c36e05ee443a7b1dd0b17cc4bb1baa37ae46b311b9233cf187d`
+- Coverage: 449 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -35,12 +35,14 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 10 |
+| `tools` | 11 |
+| `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
 
 | Extension | Files |
 |---|---:|
+| `.cmd` | 1 |
 | `.css` | 1 |
 | `.csv` | 6 |
 | `.docx` | 1 |
@@ -54,7 +56,7 @@
 | `.md` | 68 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 11 |
+| `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
@@ -65,7 +67,7 @@
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 10 |
+| `archive-tooling` | 11 |
 | `audit-output` | 1 |
 | `automation-workflow` | 5 |
 | `checkpoint` | 1 |
@@ -79,7 +81,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 79 |
+| `unclassified` | 80 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -254,7 +256,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `!_CONVERSATION_VIEWER.md` — 2330 bytes — `unclassified`
+- `!_CONVERSATION_VIEWER.md` — 3085 bytes — `unclassified`
 - `.github/workflows/build-conversation-viewer.yml` — 3568 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
@@ -696,10 +698,12 @@
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
 - `tools/index_archive.py` — 10674 bytes — `archive-tooling`
 - `tools/index_conversation_chronology.py` — 5451 bytes — `archive-tooling`
+- `tools/launch_conversation_viewer.py` — 1801 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-ADDITIONAL_CONVERSATIONS.json` — 15061 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_1.json` — 11151 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_2-6.json` — 37113 bytes — `archive-tooling`
+- `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations
 

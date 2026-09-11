@@ -1,10 +1,11 @@
 {
   "counts": {
-    "bytes_known": 821108123,
+    "bytes_known": 821111110,
     "directories": 45,
-    "files": 447
+    "files": 449
   },
   "counts_by_extension": {
+    ".cmd": 1,
     ".css": 1,
     ".csv": 6,
     ".docx": 1,
@@ -18,7 +19,7 @@
     ".md": 68,
     ".pdf": 5,
     ".png": 27,
-    ".py": 11,
+    ".py": 12,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
@@ -26,7 +27,7 @@
     "[none]": 2
   },
   "counts_by_role": {
-    "archive-tooling": 10,
+    "archive-tooling": 11,
     "audit-output": 1,
     "automation-workflow": 5,
     "checkpoint": 1,
@@ -40,7 +41,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 79,
+    "unclassified": 80,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -68,7 +69,8 @@
     "ledgers": 3,
     "synthesis": 6,
     "tests": 1,
-    "tools": 10
+    "tools": 11,
+    "▶ LAUNCH CONVERSATION VIEWER.cmd": 1
   },
   "duplicates": [
     {
@@ -455,11 +457,11 @@
       "size": 3610
     },
     {
-      "content_id": "66e20a44141f0d76609ad93e5964b871b380b7ba641a6d63683c0d63f8a3b5da",
+      "content_id": "dbc0d02fda05aff390b0c4ef89f614460e142dd53c63a39febf7917c20e69f34",
       "kind": "blob",
       "path": "!_CONVERSATION_VIEWER.md",
       "role": "unclassified",
-      "size": 2330
+      "size": 3085
     },
     {
       "content_id": null,
@@ -3675,14 +3677,14 @@
       "size": null
     },
     {
-      "content_id": "42070bc37c271e59e5aa8e514d8930ef9c3f2429a6c151c4d6a71b9fa2be3af6",
+      "content_id": "b449d64e3edf5d8ecbd1fbb365d6f68e59930ff3610c5ac62288f6456daf8c03",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "d4068472c56fae15b6faa808e26e1091e8c91942031f026d1e9d24cd5aa38bcf",
+      "content_id": "994ac12c1a9db2a085d837443b104af04ff35620de93a2346bfd86de5ccf9380",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3703,14 +3705,14 @@
       "size": null
     },
     {
-      "content_id": "973b914f8e4a0dd144879690d451924c8f9a41fa3a54df46b1b05ec89b93eb2f",
+      "content_id": "7329840982e551624a8cb3215aac564ad4039bd877d5bc496d6d83641067376a",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "0ac8ac63af1da3292ca4df83ac0540307a53c1d35a5b173f2266db7618fd9376",
+      "content_id": "28012082b677d73cc09c4cfd6d76d3e3dad232eecf7c63c189df09eca9056c11",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3857,6 +3859,13 @@
       "size": 5451
     },
     {
+      "content_id": "29240706d096914a8f930a6342709a73afb9e601b5b043b99163e02cb720383c",
+      "kind": "blob",
+      "path": "tools/launch_conversation_viewer.py",
+      "role": "archive-tooling",
+      "size": 1801
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "tools/manifests",
@@ -3890,6 +3899,13 @@
       "path": "tools/manifests/2026-09-07-SAT_CONVOS_2-6.json",
       "role": "archive-tooling",
       "size": 37113
+    },
+    {
+      "content_id": "9c34b061f89d878e38fc0e0d20862a01c9cf453d68a40c79004fc83bedcb22ac",
+      "kind": "blob",
+      "path": "▶ LAUNCH CONVERSATION VIEWER.cmd",
+      "role": "unclassified",
+      "size": 431
     }
   ],
   "limitations": [
@@ -3900,8 +3916,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T04:13:21+00:00",
+  "scanned_at_utc": "2026-09-11T04:49:26+00:00",
   "schema_version": 1,
-  "tree_id": "1b6f497256b780e5fdf0b9668f5575af5462703f95ccbdf83524a09b3acfc3ee",
+  "tree_id": "31b04054b80a9c36e05ee443a7b1dd0b17cc4bb1baa37ae46b311b9233cf187d",
   "tree_response_truncated": false
 }
