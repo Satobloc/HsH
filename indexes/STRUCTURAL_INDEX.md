@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T04:10:17+00:00`
-- Tree/content state: `9375c14aac3700605f640650174b528ea72c56df389904708549c0c8c9cd9433`
+- Scanned: `2026-09-11T04:10:48+00:00`
+- Tree/content state: `12fbaf86bc9a59594fec0ad63e189c53ff675b4eaa3e9fc7bc2b8f7e2d04d461`
 - Coverage: 445 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -265,7 +265,7 @@
 - `CONVERSATION_VIEWER/data/conversations.json` — 171439 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 4721 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.css` — 8052 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.css` — 8471 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 23926 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
