@@ -15,6 +15,24 @@ The archive is here to be read, tested, criticized, corrected, and improved.
 </tr>
 </table>
 
+<!-- CONVERSATION_VIEWER_FRONTDOOR_START -->
+## 🔎 Development conversations: open by design
+
+In the interests of maximum transparency, and in the spirit of SAT's **Glass Sausage Factory Ethos**, much of the project's development is available in the form in which it actually happened: conversation. Because SAT/H(s)H has been developed largely through extended dialogue, those exchanges are part of the working record—ideas, mistakes, revisions, dead ends, and all.
+
+<table>
+<tr>
+<td align="center" width="100%">
+<br>
+<strong>▶ <a href="!_CONVERSATION_VIEWER.md">OPEN THE H(s)H CONVERSATION VIEWER</a></strong><br><br>
+<em>Interactive viewer thumbnail coming here.</em><br><br>
+<code>[ conversation viewer preview ]</code><br><br>
+<small>Browse, search, replay, and jump to marked moments in the development record.</small><br><br>
+</td>
+</tr>
+</table>
+<!-- CONVERSATION_VIEWER_FRONTDOOR_END -->
+
 <!-- AUTO_FEATURED_START -->
 <!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf -->
 ## ⭐ FEATURED — September 2026
