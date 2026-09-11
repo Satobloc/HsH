@@ -15,6 +15,25 @@ The archive is here to be read, tested, criticized, corrected, and improved.
 </tr>
 </table>
 
+<!-- AUTO_FEATURED_START -->
+<!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf -->
+## ⭐ FEATURED — September 2026
+
+<table>
+<tr>
+<td>
+<strong>Current spotlight</strong><br><br>
+<a href="NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf"><strong>RECOIL_PREDICTION.pdf</strong></a><br><br>
+<small>Randomly selected from the current September 2026 featured papers.</small>
+</td>
+</tr>
+</table>
+
+**All current featured papers:** [RECOIL_PREDICTION.pdf](NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf)
+
+<small>Anything added to <code>NEW_PAPERS/SEPTEMER_2026</code> appears here automatically. The spotlight reshuffles when the folder changes and once daily.</small>
+<!-- AUTO_FEATURED_END -->
+
 H(s)H is the current finite-core/worldtube continuation of the SAT research program. The project starts from a literal geometric reading of Minkowski spacetime and asks how far the known structure of physics can be recovered by following the geometry, projection, motion, coiling, braiding, and interaction rules before importing additional interpretive machinery.
 
 The images below are not decorative. They are the fastest way into the construction. They show the recurring picture that runs through the SAT record: a trajectory through four-dimensional geometry, its intersection/readout on a time surface, increasing structural complexity through coiling and braiding, and the extension of the same grammar from particle-scale structures to interaction and cosmology.
