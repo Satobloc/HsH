@@ -1,0 +1,107 @@
+name: Rotate featured September 2026 paper
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'NEW_PAPERS/SEPTEMER_2026/**'
+      - '.github/workflows/rotate-featured.yml'
+  schedule:
+    - cron: '17 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  featured:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild FEATURED block
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import quote
+          import random
+          import re
+
+          folder = Path('NEW_PAPERS/SEPTEMER_2026')
+          readme = Path('README.md')
+          start = '<!-- AUTO_FEATURED_START -->'
+          end = '<!-- AUTO_FEATURED_END -->'
+
+          excluded_names = {
+              'gitignore.txt', '.gitignore', '.gitkeep', 'README.md', 'README.txt'
+          }
+
+          files = sorted(
+              p for p in folder.rglob('*')
+              if p.is_file()
+              and p.name not in excluded_names
+              and not any(part.startswith('.') for part in p.relative_to(folder).parts)
+          )
+
+          text = readme.read_text(encoding='utf-8')
+
+          if not files:
+              block = f'''{start}\n## ⭐ FEATURED — September 2026\n\n*New featured papers placed in [`NEW_PAPERS/SEPTEMER_2026`](NEW_PAPERS/SEPTEMER_2026/) will appear here automatically.*\n{end}'''
+          else:
+              old = re.search(r'<!-- FEATURED_SPOTLIGHT:(.*?) -->', text)
+              old_path = old.group(1).strip() if old else None
+              pool = files
+              if len(files) > 1 and old_path:
+                  alternatives = [p for p in files if p.as_posix() != old_path]
+                  if alternatives:
+                      pool = alternatives
+              spotlight = random.SystemRandom().choice(pool)
+
+              def href(p):
+                  return quote(p.as_posix(), safe='/')
+
+              def label(p):
+                  return p.name
+
+              all_links = ' · '.join(
+                  f'[{label(p)}]({href(p)})' for p in files
+              )
+
+              block = f'''{start}\n<!-- FEATURED_SPOTLIGHT:{spotlight.as_posix()} -->\n## ⭐ FEATURED — September 2026\n\n<table>\n<tr>\n<td>\n<strong>Current spotlight</strong><br><br>\n<a href="{href(spotlight)}"><strong>{label(spotlight)}</strong></a><br><br>\n<small>Randomly selected from the current September 2026 featured papers.</small>\n</td>\n</tr>\n</table>\n\n**All current featured papers:** {all_links}\n\n<small>Anything added to <code>NEW_PAPERS/SEPTEMER_2026</code> appears here automatically. The spotlight reshuffles when the folder changes and once daily.</small>\n{end}'''
+
+          if start in text and end in text:
+              pattern = re.compile(re.escape(start) + r'.*?' + re.escape(end), re.S)
+              new_text = pattern.sub(block, text)
+          else:
+              anchor = '</table>\n\nH(s)H is the current finite-core/worldtube continuation'
+              if anchor in text:
+                  new_text = text.replace(
+                      anchor,
+                      '</table>\n\n' + block + '\n\nH(s)H is the current finite-core/worldtube continuation',
+                      1,
+                  )
+              else:
+                  # Safe fallback: place it immediately after the subtitle.
+                  lines = text.splitlines()
+                  insert_at = min(4, len(lines))
+                  lines[insert_at:insert_at] = ['', block, '']
+                  new_text = '\n'.join(lines) + ('\n' if text.endswith('\n') else '')
+
+          readme.write_text(new_text, encoding='utf-8')
+          PY
+
+      - name: Commit FEATURED refresh
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo 'FEATURED block already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Refresh featured September 2026 paper'
+          git push
