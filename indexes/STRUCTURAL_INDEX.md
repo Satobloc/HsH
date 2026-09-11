@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T04:49:26+00:00`
-- Tree/content state: `31b04054b80a9c36e05ee443a7b1dd0b17cc4bb1baa37ae46b311b9233cf187d`
-- Coverage: 449 files, 45 directories
+- Scanned: `2026-09-11T05:22:04+00:00`
+- Tree/content state: `9a266d3fd73d2ae138b059844a94d9bb4a815a759d8e68b00ce97a6b0cfa66fb`
+- Coverage: 450 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 5 |
+| `.github` | 6 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 8 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -60,7 +60,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 5 |
+| `.yml` | 6 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -69,7 +69,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 5 |
+| `automation-workflow` | 6 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -260,6 +260,7 @@
 - `.github/workflows/build-conversation-viewer.yml` — 3568 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
+- `.github/workflows/install-conversation-viewer-frontdoor.yml` — 2589 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
