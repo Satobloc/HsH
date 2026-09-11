@@ -2,8 +2,6 @@
 
 **The conversation archive is now browsable as a conversation, not just as raw JSON.**
 
-Start with [`CONVERSATION_VIEWER/`](CONVERSATION_VIEWER/) for the viewer, implementation notes, and launch instructions.
-
 Current generated catalog coverage:
 
 - **198** selectable JSON conversations
@@ -11,19 +9,23 @@ Current generated catalog coverage:
 - **9** from `LIVE CONVOS`
 - raw archive files remain untouched and are loaded only when selected
 
-## ▶ One-click launch
+## ▶ Launch online
 
-### Windows checkout
+The viewer is a static web application and does **not** need Python once it is hosted. The public launch address is:
 
-Double-click:
+**[▶ OPEN THE H(s)H CONVERSATION VIEWER ONLINE](https://satobloc.github.io/HsH/)**
 
-**[`▶ LAUNCH CONVERSATION VIEWER.cmd`](%E2%96%B6%20LAUNCH%20CONVERSATION%20VIEWER.cmd)**
+GitHub Pages must first be enabled once for this repository under **Settings → Pages → Build and deployment → Source: GitHub Actions**. Then run the existing **Deploy conversation viewer to GitHub Pages** workflow. After that, the link above is the ordinary one-click viewer.
 
-The launcher automatically chooses a free local port, starts the tiny static server from the repository root, and opens the Conversation Viewer in the default browser. No command line or port selection is required. Close the minimized launcher/server window when you want to stop it.
+A normal GitHub page cannot execute `.cmd` or `.py` files on a visitor's computer; GitHub will only display or download them. That is why local launching and web launching are kept separate.
 
-### GitHub / web launch
+## Local checkout launcher
 
-The viewer is already prepared for GitHub Pages. Once Pages is enabled for this repository with **Source: GitHub Actions**, run the existing **Deploy conversation viewer to GitHub Pages** workflow once. After that the hosted viewer itself becomes an ordinary one-click web link.
+If the repository has been cloned or downloaded onto Windows, double-click the file named:
+
+`▶ LAUNCH CONVERSATION VIEWER.cmd`
+
+That local launcher automatically chooses a free port, starts a tiny static server from the repository root, and opens the viewer in the default browser. It is **not** intended to be clicked from github.com.
 
 ## Viewer features
 
