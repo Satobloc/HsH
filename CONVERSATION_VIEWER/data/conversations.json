@@ -1,13 +1,21 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-09-11T05:37:42.888195+00:00",
+  "source_state_at_utc": "2026-09-11T06:12:53.973841+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
-  "design": "manifest-only; raw conversation JSON fetched on demand",
+  "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
+  "curation": {
+    "source": "CONVERSATION_VIEWER/CURATION.json",
+    "sha256_16": "16a7f3a3fc7b3a9e",
+    "hidden_conversations": 0,
+    "partially_curated_conversations": 0,
+    "omitted_messages": 0
+  },
   "counts": {
     "conversations": 198,
     "development": 189,
-    "live": 9
+    "live": 9,
+    "source_conversations_before_curation": 198
   },
   "inputs": [
     {
@@ -16,7 +24,7 @@
       "status": "loaded",
       "records": 264,
       "accepted_json_conversations": 189,
-      "source_generated_at_utc": "2026-09-11T05:37:42.590555+00:00"
+      "source_generated_at_utc": "2026-09-11T06:12:53.559460+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -24,7 +32,7 @@
       "status": "loaded",
       "records": 13,
       "accepted_json_conversations": 9,
-      "source_generated_at_utc": "2026-09-11T05:37:42.888195+00:00"
+      "source_generated_at_utc": "2026-09-11T06:12:53.973841+00:00"
     }
   ],
   "conversations": [
