@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T01:32:05+00:00`
-- Tree/content state: `dc115fe425e54eb19bea19c94022830a421b331fa46d93be347682964df2863f`
-- Coverage: 434 files, 43 directories
+- Scanned: `2026-09-11T04:05:30+00:00`
+- Tree/content state: `98452c25e5f94c7d091fbba3e9fb0af7109cb96ea3198edf5ba6cd53c3019f51`
+- Coverage: 441 files, 44 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,8 +12,9 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 2 |
+| `.github` | 4 |
 | `ARCHITECTURE.md` | 1 |
+| `CONVERSATION_VIEWER` | 4 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -33,36 +34,39 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 9 |
+| `tools` | 10 |
 
 ## File types
 
 | Extension | Files |
 |---|---:|
+| `.css` | 1 |
 | `.csv` | 6 |
 | `.docx` | 1 |
 | `.htm` | 1 |
+| `.html` | 1 |
 | `.jpg` | 17 |
+| `.js` | 1 |
 | `.json` | 211 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 65 |
+| `.md` | 66 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 10 |
+| `.py` | 11 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 2 |
+| `.yml` | 4 |
 | `[none]` | 2 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 9 |
+| `archive-tooling` | 10 |
 | `audit-output` | 1 |
-| `automation-workflow` | 2 |
+| `automation-workflow` | 4 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -74,7 +78,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 70 |
+| `unclassified` | 74 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -249,9 +253,15 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
+- `.github/workflows/build-conversation-viewer.yml` — 2376 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
+- `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
+- `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 4535 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.css` — 8052 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 23926 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
@@ -612,7 +622,7 @@
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
-- `README.md` — 35654 bytes — `visitor-interface`
+- `README.md` — 36365 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
@@ -673,6 +683,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
+- `tools/build_conversation_viewer.py` — 6340 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`

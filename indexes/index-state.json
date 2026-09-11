@@ -1,31 +1,34 @@
 {
   "counts": {
-    "bytes_known": 820872618,
-    "directories": 43,
-    "files": 434
+    "bytes_known": 820925010,
+    "directories": 44,
+    "files": 441
   },
   "counts_by_extension": {
+    ".css": 1,
     ".csv": 6,
     ".docx": 1,
     ".htm": 1,
+    ".html": 1,
     ".jpg": 17,
+    ".js": 1,
     ".json": 211,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 65,
+    ".md": 66,
     ".pdf": 5,
     ".png": 27,
-    ".py": 10,
+    ".py": 11,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
-    ".yml": 2,
+    ".yml": 4,
     "[none]": 2
   },
   "counts_by_role": {
-    "archive-tooling": 9,
+    "archive-tooling": 10,
     "audit-output": 1,
-    "automation-workflow": 2,
+    "automation-workflow": 4,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -37,13 +40,14 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 70,
+    "unclassified": 74,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 2,
+    ".github": 4,
     "ARCHITECTURE.md": 1,
+    "CONVERSATION_VIEWER": 4,
     "DEVELOPMENT_FULL_CONVOS": 283,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
@@ -63,7 +67,7 @@
     "ledgers": 3,
     "synthesis": 6,
     "tests": 1,
-    "tools": 9
+    "tools": 10
   },
   "duplicates": [
     {
@@ -464,6 +468,13 @@
       "size": null
     },
     {
+      "content_id": "a15b476b1bd3827f99b847df6d18fbfe25ecc7d7e60dcb369a4ed2f79c83a279",
+      "kind": "blob",
+      "path": ".github/workflows/build-conversation-viewer.yml",
+      "role": "automation-workflow",
+      "size": 2376
+    },
+    {
       "content_id": "9b28116201aab6a5f46d11b74dc73666c7eea2e6fd46100f0f5de1bba56e3866",
       "kind": "blob",
       "path": ".github/workflows/build-public-library.yml",
@@ -478,11 +489,53 @@
       "size": 4443
     },
     {
+      "content_id": "f85d34aef60e2170ebc8e8f4017e5702ac4a57f1d247dab3d5a61684699c56c6",
+      "kind": "blob",
+      "path": ".github/workflows/rotate-featured.yml",
+      "role": "automation-workflow",
+      "size": 4169
+    },
+    {
       "content_id": "693d92c33e46a38bd63ca4fdb78c857009eaea0e8e6680d4167b0e4aca883d12",
       "kind": "blob",
       "path": "ARCHITECTURE.md",
       "role": "visitor-interface",
       "size": 3723
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "CONVERSATION_VIEWER",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "8191808b4f2b4a2945733fd6a2839b73b9d5a737a56cf771261a427e88f8f033",
+      "kind": "blob",
+      "path": "CONVERSATION_VIEWER/README.md",
+      "role": "unclassified",
+      "size": 2283
+    },
+    {
+      "content_id": "35394ab77513c7c5e8d882b543421840b345a02bbd6420293ac44fb9594d8437",
+      "kind": "blob",
+      "path": "CONVERSATION_VIEWER/index.html",
+      "role": "unclassified",
+      "size": 4535
+    },
+    {
+      "content_id": "0511e325a71dfa3d6d0b3ef6b6d8586b6b3590677d4c68c390a777fd183e67f1",
+      "kind": "blob",
+      "path": "CONVERSATION_VIEWER/viewer.css",
+      "role": "unclassified",
+      "size": 8052
+    },
+    {
+      "content_id": "9347e4b10409669a8bae1e9a9d171545772299d7b51950c62591c58928d29bb7",
+      "kind": "blob",
+      "path": "CONVERSATION_VIEWER/viewer.js",
+      "role": "unclassified",
+      "size": 23926
     },
     {
       "content_id": null,
@@ -3145,11 +3198,11 @@
       "size": 1
     },
     {
-      "content_id": "eefd2ddccfa5ae1ea8d72d04ffe5e39421315cebb2aaa36468313158b9d1d252",
+      "content_id": "3d344dfde42224b712090198e8dc9433f0e33fa801d5d4e7465598db047880b5",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 35654
+      "size": 36365
     },
     {
       "content_id": null,
@@ -3572,14 +3625,14 @@
       "size": null
     },
     {
-      "content_id": "02394f03761b73d6d8087f59077fc22f68a3076a3a523ff8f87ee0ddf4a6077d",
+      "content_id": "e638fbe7358b0cd0332def6b6f4ac9bfce57eb2cab103490928cd10abdf0308b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "a128a25d227de60ba70e0d9b06d43ce55d2e7a42da5e70fa636e85c5d49b9ff7",
+      "content_id": "4b57841912b620e2be7c5a4a4f91591d6d88cda45fa58ad66a905ab90e420a72",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3600,14 +3653,14 @@
       "size": null
     },
     {
-      "content_id": "9dd6b24b5eef3255df0ba7b7d24a48a940c17c910b215d7a4294dda35d8592ac",
+      "content_id": "b00d0e63f76dcae1da08e836abe73ba2655f616935d6e8a6becb535ffbdbcffc",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "bf1ed269efe9faece38653cef4af3542da7d140e14c93f933d922eeffb9346f8",
+      "content_id": "5e80c4c31d18d2a1823d22ffdc243b5ba8d13ef271387d6b644eea161d034e06",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3712,6 +3765,13 @@
       "size": null
     },
     {
+      "content_id": "06bba25f8fc64c8a115ddfcf8bb787c0f29bba3256ab56b49e2ec79a100fa72a",
+      "kind": "blob",
+      "path": "tools/build_conversation_viewer.py",
+      "role": "archive-tooling",
+      "size": 6340
+    },
+    {
       "content_id": "c26eff3218a7857564d0aad650040a8a3a6e6823639bdebea29a19c6afbf5944",
       "kind": "blob",
       "path": "tools/build_public_library.py",
@@ -3790,8 +3850,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T01:32:05+00:00",
+  "scanned_at_utc": "2026-09-11T04:05:30+00:00",
   "schema_version": 1,
-  "tree_id": "dc115fe425e54eb19bea19c94022830a421b331fa46d93be347682964df2863f",
+  "tree_id": "98452c25e5f94c7d091fbba3e9fb0af7109cb96ea3198edf5ba6cd53c3019f51",
   "tree_response_truncated": false
 }
