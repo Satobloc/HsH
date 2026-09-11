@@ -11,6 +11,7 @@ on:
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
+      - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.html'
       - 'CONVERSATION_VIEWER/*.css'
@@ -45,11 +46,12 @@ jobs:
       - name: Build compact conversation catalog
         run: python tools/build_conversation_viewer.py
 
-      - name: Validate generated catalog and landmarks
+      - name: Validate generated catalog, curation and landmarks
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+
           p = Path('CONVERSATION_VIEWER/data/conversations.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           assert data['schema_version'] == 1
@@ -61,29 +63,45 @@ jobs:
           assert len(paths) == len(set(paths)), 'duplicate source paths'
           assert all(x['path'].lower().endswith('.json') for x in data['conversations'])
 
+          cp = Path('CONVERSATION_VIEWER/CURATION.json')
+          curation = json.loads(cp.read_text(encoding='utf-8'))
+          assert curation['schema_version'] == 1
+          assert isinstance(curation['rules'], list)
+
+          for convo in data['conversations']:
+              if convo.get('curated'):
+                  curated_path = Path('CONVERSATION_VIEWER') / convo['raw_url']
+                  derived = json.loads(curated_path.read_text(encoding='utf-8'))
+                  assert derived['derived_view'] is True
+                  assert derived['source_viewer_id'] == convo['id']
+                  assert len(derived['messages']) == convo['message_count']
+
           lp = Path('CONVERSATION_VIEWER/data/landmarks.json')
           landmarks = json.loads(lp.read_text(encoding='utf-8'))
           assert landmarks['schema_version'] == 1
           assert isinstance(landmarks['landmarks'], list)
-          known = set(ids)
+          known = {x['id']: x for x in data['conversations']}
           for item in landmarks['landmarks']:
-              assert item.get('conversation_id') in known, f"unknown landmark conversation: {item}"
+              cid = item.get('conversation_id')
+              assert cid in known, f"unknown or hidden landmark conversation: {item}"
               assert isinstance(item.get('message'), int) and item['message'] > 0, f"invalid landmark message: {item}"
+              assert item['message'] <= known[cid]['message_count'], f"landmark beyond conversation length: {item}"
               assert isinstance(item.get('label'), str) and item['label'].strip(), f"invalid landmark label: {item}"
           print(data['counts'])
+          print(data['curation'])
           print(f"landmarks={len(landmarks['landmarks'])}")
           PY
 
-      - name: Commit generated viewer catalog
+      - name: Commit generated viewer data
         run: |
-          if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json | grep -q .; then
-            echo 'Conversation viewer catalog unchanged.'
+          if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated | grep -q .; then
+            echo 'Conversation viewer generated data unchanged.'
             exit 0
           fi
           git config user.name 'HsH Conversation Viewer Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add CONVERSATION_VIEWER/data/conversations.json
-          git commit -m '[skip conversation-viewer] Refresh conversation viewer catalog'
+          git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated
+          git commit -m '[skip conversation-viewer] Refresh conversation viewer data'
           git push origin HEAD:main || {
             echo 'Push race: main advanced while this run was building. A later run should absorb the change.' >&2
             exit 1
