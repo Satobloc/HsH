@@ -10,6 +10,7 @@ on:
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
+      - '.github/workflows/build-conversation-viewer.yml'
 
 permissions:
   contents: write
