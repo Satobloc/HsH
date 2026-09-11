@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'README.md'
       - 'LIBRARY/library_manifest.toml'
       - 'tools/build_public_library.py'
       - '.github/workflows/build-public-library.yml'
@@ -28,14 +29,14 @@ jobs:
       - name: Validate and render library
         run: python tools/build_public_library.py --write
 
-      - name: Commit generated presentation pages
+      - name: Commit generated presentation pages and front-page TXT routing
         run: |
-          if git diff --quiet -- LIBRARY/README.md LIBRARY/generated; then
-            echo 'Library already up to date.'
+          if git diff --quiet -- README.md LIBRARY/README.md LIBRARY/generated; then
+            echo 'Library and front-page TXT links already up to date.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add LIBRARY/README.md LIBRARY/generated
-          git commit -m 'Rebuild public document library'
+          git add README.md LIBRARY/README.md LIBRARY/generated
+          git commit -m 'Rebuild public document library and TXT presentation links'
           git push
