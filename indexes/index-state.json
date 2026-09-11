@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 820419267,
+    "bytes_known": 820419473,
     "directories": 41,
     "files": 429
   },
@@ -3094,11 +3094,11 @@
       "size": 5074617
     },
     {
-      "content_id": "9bdff3748b647bdca777a8cc014d314ff83f42a6b59d4b18ec98125a18d6c314",
+      "content_id": "b34ad751d66d1dd528824dd0d9a844a72fbadc4975fb4a57c50a6bb768193534",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 35643
+      "size": 35849
     },
     {
       "content_id": null,
@@ -3521,14 +3521,14 @@
       "size": null
     },
     {
-      "content_id": "4f8715cf18b12d21c7cb913fb4773541c51b9b8a6d315dd853f3cef32473c0ba",
+      "content_id": "6debfd43a1d6203ea5ac4b268cbd811c38003867c39a31df998bd58862bd48b2",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "72a252bf8e39e034f60c6ddfd12f862db4cef677d1a031e4de356a542efa951a",
+      "content_id": "c36a68290f555bd362c58be9e476f2843a020f41066c0b7b7127a509bd3e17a5",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3549,14 +3549,14 @@
       "size": null
     },
     {
-      "content_id": "36210f9dcd799afa5a379d5775633ba3f4c299ff64d230e083150c3b20506243",
+      "content_id": "bfbdf4b5f8b33e24106a1703ed6891f09cbd4bc054a4aa8dddece5bc36a401b3",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "0b6aa8e641f7846b499781fddfeaa6c93e52d5bd5e855d42d2cd7b7bc6b80979",
+      "content_id": "1709d524c6dec5949f3e0f039dfffc8c2f96b43122315822c7cb904397b42acd",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3739,8 +3739,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T01:03:45+00:00",
+  "scanned_at_utc": "2026-09-11T01:05:37+00:00",
   "schema_version": 1,
-  "tree_id": "d74b8047306178108cb6a4ce2b681c53d138895a4909caaa460f225747d59676",
+  "tree_id": "949f7feebe84d3919b030a25a36783eba0d91a255652f4afd9ee8340211e6006",
   "tree_response_truncated": false
 }
