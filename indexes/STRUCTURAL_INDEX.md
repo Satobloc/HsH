@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T01:19:32+00:00`
-- Tree/content state: `5016118a979aee6b24e22c65e1fd76e4b5524c2da4a14234e50a6b8a6c76796b`
-- Coverage: 432 files, 41 directories
+- Scanned: `2026-09-11T01:31:23+00:00`
+- Tree/content state: `a9f65013ecde5314241373177ea74525a90cc468fe38568ebe66ee79c96b7b5a`
+- Coverage: 433 files, 43 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -21,6 +21,7 @@
 | `LIBRARY.md` | 1 |
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
+| `NEW_PAPERS` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
 | `WORKSPACES` | 4 |
@@ -51,7 +52,7 @@
 | `.py` | 10 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
-| `.txt` | 79 |
+| `.txt` | 80 |
 | `.yml` | 2 |
 | `[none]` | 2 |
 
@@ -73,7 +74,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 68 |
+| `unclassified` | 69 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -83,6 +84,7 @@
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
+  - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt`
   - `SAT_VISUALS/gitignore.txt`
 - `0234f958e115870079b75fb893a235ed93d89955547c89d4aadfac81aa84789f`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.04•26.06.01•Proton-Electron Mass Ratio — raw - .TXT`
@@ -608,6 +610,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
+- `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
 - `README.md` — 35654 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`

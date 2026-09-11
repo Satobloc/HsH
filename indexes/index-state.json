@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 820641772,
-    "directories": 41,
-    "files": 432
+    "bytes_known": 820641773,
+    "directories": 43,
+    "files": 433
   },
   "counts_by_extension": {
     ".csv": 6,
@@ -18,7 +18,7 @@
     ".py": 10,
     ".rtf": 2,
     ".toml": 1,
-    ".txt": 79,
+    ".txt": 80,
     ".yml": 2,
     "[none]": 2
   },
@@ -37,7 +37,7 @@
     "source-conversation-corpus": 283,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 68,
+    "unclassified": 69,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -51,6 +51,7 @@
     "LIBRARY.md": 1,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
+    "NEW_PAPERS": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
     "WORKSPACES": 4,
@@ -72,6 +73,7 @@
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
+        "NEW_PAPERS/SEPTEMER_2026/gitignore.txt",
         "SAT_VISUALS/gitignore.txt"
       ]
     },
@@ -3115,6 +3117,27 @@
       "size": 5074617
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "NEW_PAPERS",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "NEW_PAPERS/SEPTEMER_2026",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "NEW_PAPERS/SEPTEMER_2026/gitignore.txt",
+      "role": "unclassified",
+      "size": 1
+    },
+    {
       "content_id": "eefd2ddccfa5ae1ea8d72d04ffe5e39421315cebb2aaa36468313158b9d1d252",
       "kind": "blob",
       "path": "README.md",
@@ -3542,14 +3565,14 @@
       "size": null
     },
     {
-      "content_id": "7c5a7b111f92307c73c4a7b9dc2dbe691db08704973855f05b139025108e690a",
+      "content_id": "f28a348f679bf66fb51f511185f1c60076223ce499ee8d4b7cb7061fdb431bf9",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "041e93f784fdcbb2e50180eb81fda844b875554a798e22fda498e74206598f14",
+      "content_id": "ce0284e8f6346e034433ec53e343adf5f99777667465dced9f7555d8982bb410",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3570,14 +3593,14 @@
       "size": null
     },
     {
-      "content_id": "4b96ef314deb4d2e8d599665d37a32c73851cbbf8e0d72eeff97ed915aa03d0e",
+      "content_id": "d81fe33fab39ca6d44f040cafdd58190199727940d2f04b29b0e8a1b9e28c724",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "c79deddadccb6c66967c39e943c356c986c61538c1b3460fc311addfaff88cbc",
+      "content_id": "4f5dcebd9bdfcf82f587c8447dea6a51bdf4754c9b0bc0ab1c3291515c4a8095",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3760,8 +3783,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T01:19:32+00:00",
+  "scanned_at_utc": "2026-09-11T01:31:23+00:00",
   "schema_version": 1,
-  "tree_id": "5016118a979aee6b24e22c65e1fd76e4b5524c2da4a14234e50a6b8a6c76796b",
+  "tree_id": "a9f65013ecde5314241373177ea74525a90cc468fe38568ebe66ee79c96b7b5a",
   "tree_response_truncated": false
 }
