@@ -19,7 +19,7 @@ Double-click:
 
 **[`▶ LAUNCH CONVERSATION VIEWER.cmd`](%E2%96%B6%20LAUNCH%20CONVERSATION%20VIEWER.cmd)**
 
-The launcher starts a tiny local server on port `8765` and opens the Conversation Viewer in the default browser. No command line is required.
+The launcher automatically chooses a free local port, starts the tiny static server from the repository root, and opens the Conversation Viewer in the default browser. No command line or port selection is required. Close the minimized launcher/server window when you want to stop it.
 
 ### GitHub / web launch
 
