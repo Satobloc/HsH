@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T06:14:41+00:00`
-- Tree/content state: `1926bc6b0b14d42f9d895a46711b502a0fd82943f4acfe5ffd721b310acd04d6`
+- Scanned: `2026-09-11T06:15:17+00:00`
+- Tree/content state: `3265c37c08d90a3780e2f90aa8cab575533f954eba673eda64305416e06e2233`
 - Coverage: 451 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -259,7 +259,7 @@
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
 - `.github/workflows/build-conversation-viewer.yml` — 4584 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
-- `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
+- `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
