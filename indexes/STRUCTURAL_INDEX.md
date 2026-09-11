@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T06:13:01+00:00`
-- Tree/content state: `40e1927c2192fa812ebf6313930b396c3b394912636aed5da769e52a66c252f6`
+- Scanned: `2026-09-11T06:14:41+00:00`
+- Tree/content state: `1926bc6b0b14d42f9d895a46711b502a0fd82943f4acfe5ffd721b310acd04d6`
 - Coverage: 451 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -257,7 +257,7 @@
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
-- `.github/workflows/build-conversation-viewer.yml` — 3568 bytes — `automation-workflow`
+- `.github/workflows/build-conversation-viewer.yml` — 4584 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
@@ -267,7 +267,7 @@
 - `CONVERSATION_VIEWER/CURATION.md` — 2211 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 171439 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 171730 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 4760 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -694,7 +694,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_conversation_viewer.py` — 6487 bytes — `archive-tooling`
+- `tools/build_conversation_viewer.py` — 19357 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
