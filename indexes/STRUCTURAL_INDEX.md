@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-11T05:22:04+00:00`
-- Tree/content state: `9a266d3fd73d2ae138b059844a94d9bb4a815a759d8e68b00ce97a6b0cfa66fb`
-- Coverage: 450 files, 45 directories
+- Scanned: `2026-09-11T05:23:40+00:00`
+- Tree/content state: `fa479c8951da19220686a138cd2aeba6ee5a59c520a1fa58415a5df0e6822523`
+- Coverage: 449 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 6 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 8 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -60,7 +60,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 6 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -69,7 +69,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -260,7 +260,6 @@
 - `.github/workflows/build-conversation-viewer.yml` — 3568 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 847 bytes — `automation-workflow`
-- `.github/workflows/install-conversation-viewer-frontdoor.yml` — 2589 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
@@ -632,7 +631,7 @@
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
-- `README.md` — 36365 bytes — `visitor-interface`
+- `README.md` — 37269 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`

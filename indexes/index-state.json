@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 821113699,
+    "bytes_known": 821112014,
     "directories": 45,
-    "files": 450
+    "files": 449
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -23,13 +23,13 @@
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
-    ".yml": 6,
+    ".yml": 5,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 6,
+    "automation-workflow": 5,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -47,7 +47,7 @@
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     "!_CONVERSATION_VIEWER.md": 1,
-    ".github": 6,
+    ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 8,
     "DEVELOPMENT_FULL_CONVOS": 283,
@@ -497,13 +497,6 @@
       "path": ".github/workflows/deploy-conversation-viewer-pages.yml",
       "role": "automation-workflow",
       "size": 847
-    },
-    {
-      "content_id": "c61cabe68c2670735b6db9c8f5222ced1ff0d45ef6aa68f08169a150c375e1da",
-      "kind": "blob",
-      "path": ".github/workflows/install-conversation-viewer-frontdoor.yml",
-      "role": "automation-workflow",
-      "size": 2589
     },
     {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
@@ -3257,11 +3250,11 @@
       "size": 1
     },
     {
-      "content_id": "3d344dfde42224b712090198e8dc9433f0e33fa801d5d4e7465598db047880b5",
+      "content_id": "8dda908ee278cf276b45606bb17113ff8299e1cd052e447e3ebed42f1f64053f",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 36365
+      "size": 37269
     },
     {
       "content_id": null,
@@ -3684,14 +3677,14 @@
       "size": null
     },
     {
-      "content_id": "7804d4055260b4761033c1e814e8ab48732bac22cba156e5ac7456ab38af7a1c",
+      "content_id": "fac44a44b2c09de2324ab396cb2d3b05e40856eaf36491b246efd19e20621e8a",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "a786cfa5a524e1b5be5f5f7784ade7390be015205cbe7d06100166d866e2f9fe",
+      "content_id": "3dac824d296cfc6054b25c04d432dbdd7273236eccd9d00c29216171fd7d06c3",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3712,14 +3705,14 @@
       "size": null
     },
     {
-      "content_id": "3096192664cdba012655434b31bf8962d741b86296a9d2382a277b3e8d89c8b3",
+      "content_id": "359a262fe6af424a12839c01557f47f7619577eae87a6a46f6b0ca6a863fed15",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "5e55cd558f7d37bc8d76c774d10002e55a498ab880f0395e5f7a12f887c6dc09",
+      "content_id": "a4e6d1f3c16f63311fe3628732bc6c305fa1e37e7ab2bd8433398cf08dfb5147",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3923,8 +3916,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-11T05:22:04+00:00",
+  "scanned_at_utc": "2026-09-11T05:23:40+00:00",
   "schema_version": 1,
-  "tree_id": "9a266d3fd73d2ae138b059844a94d9bb4a815a759d8e68b00ce97a6b0cfa66fb",
+  "tree_id": "fa479c8951da19220686a138cd2aeba6ee5a59c520a1fa58415a5df0e6822523",
   "tree_response_truncated": false
 }
