@@ -1,0 +1,69 @@
+name: Build conversation viewer catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
+      - 'LIVE CONVOS/**/*.json'
+      - 'indexes/manifests/development-conversation-dates.json'
+      - 'indexes/manifests/live-conversation-dates.json'
+      - 'tools/build_conversation_viewer.py'
+      - 'CONVERSATION_VIEWER/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: conversation-viewer-catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build compact conversation catalog
+        run: python tools/build_conversation_viewer.py
+
+      - name: Validate generated catalog
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('CONVERSATION_VIEWER/data/conversations.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          assert data['schema_version'] == 1
+          assert isinstance(data['conversations'], list)
+          assert data['conversations'], 'viewer catalog is empty'
+          ids = [x['id'] for x in data['conversations']]
+          paths = [x['path'] for x in data['conversations']]
+          assert len(ids) == len(set(ids)), 'duplicate viewer ids'
+          assert len(paths) == len(set(paths)), 'duplicate source paths'
+          assert all(x['path'].lower().endswith('.json') for x in data['conversations'])
+          print(data['counts'])
+          PY
+
+      - name: Commit generated viewer catalog
+        run: |
+          if git diff --quiet -- CONVERSATION_VIEWER/data/conversations.json; then
+            echo 'Conversation viewer catalog unchanged.'
+            exit 0
+          fi
+          git config user.name 'HsH Conversation Viewer Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add CONVERSATION_VIEWER/data/conversations.json
+          git commit -m '[skip conversation-viewer] Refresh conversation viewer catalog'
+          git push origin HEAD:main || {
+            echo 'Push race: main advanced while this run was building. A later run should absorb the change.' >&2
+            exit 1
+          }

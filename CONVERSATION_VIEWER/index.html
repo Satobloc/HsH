@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>HsH Conversation Viewer</title>
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-block">
+        <div class="eyebrow">Satobloc / HsH</div>
+        <h1>Conversation Viewer</h1>
+        <div class="tagline">A very intelligent avalanche, indexed.</div>
+      </div>
+      <div class="sidebar-controls">
+        <input id="conversationFilter" type="search" placeholder="Filter conversations…" autocomplete="off">
+        <div class="corpus-filters">
+          <label><input id="showDevelopment" type="checkbox" checked> Development</label>
+          <label><input id="showLive" type="checkbox" checked> Live</label>
+        </div>
+      </div>
+      <div id="conversationList" class="conversation-list" aria-label="Conversation list"></div>
+    </aside>
+
+    <main class="main-pane">
+      <header class="viewer-header">
+        <div class="header-row">
+          <button id="sidebarToggle" class="icon-button mobile-only" title="Toggle conversations">☰</button>
+          <div class="conversation-heading">
+            <div id="conversationMeta" class="eyebrow">Choose a conversation</div>
+            <h2 id="conversationTitle">HsH Conversation Viewer</h2>
+          </div>
+          <div class="header-actions">
+            <button id="prevConversation" title="Previous conversation">← Prev</button>
+            <button id="nextConversation" title="Next conversation">Next →</button>
+            <button id="copyLink" title="Copy a direct link to the current message">Copy link</button>
+            <a id="sourceLink" class="button-link disabled" href="#" target="_blank" rel="noopener">Raw source</a>
+          </div>
+        </div>
+        <div class="search-row">
+          <input id="threadSearch" type="search" placeholder="Search this conversation…" autocomplete="off">
+          <button id="searchPrev" title="Previous search result">↑</button>
+          <button id="searchNext" title="Next search result">↓</button>
+          <span id="searchStatus" class="status-text">0 hits</span>
+          <div id="speakerFilters" class="speaker-filters"></div>
+        </div>
+        <div class="timeline-row">
+          <span id="positionLabel" class="status-text">0 / 0</span>
+          <div class="timeline-wrap">
+            <input id="timeline" type="range" min="0" max="0" value="0" step="1" aria-label="Conversation position">
+            <div id="timelineMarks" class="timeline-marks" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="transport-row">
+          <button id="previousMessage" title="Previous message">◀</button>
+          <button id="replayToggle" class="primary">▶ Replay</button>
+          <button id="nextMessage" title="Next message">▶</button>
+          <label class="compact-control">Mode
+            <select id="replayMode">
+              <option value="typealong">Typealong</option>
+              <option value="message">Message replay</option>
+              <option value="cruise">Cruise</option>
+            </select>
+          </label>
+          <label class="compact-control">Speed
+            <select id="replaySpeed">
+              <option value="0.5">0.5×</option>
+              <option value="1" selected>1×</option>
+              <option value="2">2×</option>
+              <option value="5">5×</option>
+              <option value="10">10×</option>
+            </select>
+          </label>
+          <span id="replayStatus" class="status-text">Paused</span>
+        </div>
+      </header>
+
+      <section id="viewerNotice" class="viewer-notice">
+        <h3>Choose a conversation from the left.</h3>
+        <p>The viewer loads raw archive JSON on demand; the source files are never rewritten.</p>
+      </section>
+      <section id="messages" class="messages" aria-live="polite"></section>
+      <div id="loadMoreSentinel" class="load-more-sentinel"></div>
+    </main>
+
+    <aside id="searchDrawer" class="search-drawer" aria-label="Search results">
+      <div class="drawer-head">
+        <strong>Search results</strong>
+        <button id="closeSearchDrawer" class="icon-button">×</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </aside>
+  </div>
+  <script src="viewer.js"></script>
+</body>
+</html>
