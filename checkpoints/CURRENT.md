@@ -1,16 +1,15 @@
 # Current Integration Checkpoint
 
-1. **Synthesis advance:** Integrated `FC-BASE-003`: finite resolving thickness is a forward-kernel contribution, not material-core width by definition.
-2. **Finite-core comparison:** Under local affine independent blur, `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`; second moments alone cannot identify the two terms.
-3. **Invariant/residual status:** covariance composition and its non-identifiability are `STD/DERIVED/FROZEN` in the stated scope. Canonical `(I2,I3,chi)` remains frozen for unblurred declared fibers, but `chi` is not generally finite-convolution invariant.
-4. **Operator consequence:** local `ᚼ` remains gauge-null on an isotropic unmarked `B^3`; `ᚼᚼ` remains open. Resolver thickness cannot supply the missing material director.
-5. **Prediction ledger:** `PRED-FC-001` remains `UNFROZEN`; `PRED-FC-002` remains `CANDIDATE` with an added kernel-calibration gate. No empirical prediction is frozen.
-6. **Paper pipeline:** `HSH-P001` now includes the finite-thickness width non-identifiability/no-go lemma; maturity remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
-7. **Team/source check:** new Common controls and the Calder and Hale direct check-ins were read. Calder's theory-bearing angle interpretations are provisionally quarantined; its negative empirical/QC results remain external-evidence candidates. Hale's arXiv scanner remains an external landscape instrument, not a theory source. Morrow's integration check-in is posted. Accessible Drive supplied no controlling construction.
-8. **Exact next handoff:** Ravel/geometry should decide whether the resolving wavefront supplies an independently calibratable kernel or controlled `delta` family and reproduce FC-BASE-003 against the particle-scale candidate.
+1. **Synthesis advance:** Added `FC-BASE-004`: a controlled centered resolver family `Z_delta=delta Z_1` implies `Q_obs(delta)=Q_0+delta^2Q_K`.
+2. **Finite-core comparison:** This supplies a conditional way to separate projected carrier covariance from resolver blur by zero-thickness extrapolation without equating `delta` and core radius.
+3. **Invariant/residual status:** affine-in-`delta^2` covariance and its intercept are `STD/DERIVED/FROZEN` under FC-BASE-003 plus the scale-family assumption. Physical availability of a controlled resolver family remains `OPEN`.
+4. **Prediction ledger:** added `PRED-FC-003` as `CANDIDATE`. It predicts covariance-component and trace linearity in `delta^2`; no empirical H(s)H prediction is frozen.
+5. **Paper pipeline:** `HSH-P001` now contains the controlled-resolution extrapolation result; maturity remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
+6. **Team check:** no forward-build, geometry, covariance, archive, outsider, or blind-audit return appeared after FC-BASE-003. Calder and Hale remain external-evidence lanes and do not supply carrier/readout premises. Drive returned no controlling artifact.
+7. **Exact next handoff:** Ravel/geometry should determine whether the H(s)H resolver has independently controllable width settings and whether carrier state can remain fixed across them; if yes, freeze the experimental forward map for PRED-FC-003.
 
-**Earliest open dependency:** carrier/support selection plus an explicit resolver kernel or calibration family; then constitutive/contact law and marking/director data.
+**Earliest open dependency:** an operational resolver parameter `delta`, its kernel family, and a stability condition for the carrier across settings; carrier/support choice remains separately open.
 
-**Provenance/external evidence needed:** internal chronology for the bulk/support/boundary/readout distinction; primary standard-math citations; a proof-quality curved-sheet remainder. No external physical theory is used in FC-BASE-003.
+**Provenance/external evidence needed:** internal resolver construction and primary citations for inverse-problem/kernel calibration. No external physical theory enters FC-BASE-004.
 
 Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
