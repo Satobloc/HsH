@@ -23,6 +23,7 @@ older devices are sometimes productively revived.
 
 ## Current maps
 
+- [HIGH PRIORITY — SAT status and development history](!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md)
 - [Federated three-repository archive map](indexes/FEDERATED_ARCHIVE_MAP.md)
 - [Detailed source-by-source coverage](https://github.com/Satobloc/HsH/blob/main/synthesis/SURVEYED_SOURCES.md)
 - [Cumulative H(s)H synthesis](https://github.com/Satobloc/HsH/blob/main/synthesis/CURRENT_SYNTHESIS.md)
