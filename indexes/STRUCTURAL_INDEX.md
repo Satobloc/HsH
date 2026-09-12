@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T03:39:34+00:00`
-- Tree/content state: `1f7e0693579a06ef1151f7b34b5e7e4a510d5f205bd960cfccc60ac2c9a35b28`
-- Coverage: 455 files, 45 directories
+- Scanned: `2026-09-12T03:49:16+00:00`
+- Tree/content state: `d0ec315358d34c3bcf4b4aed8d6e4224ce2a170d52a3e6c0f9302fb2c12e2448`
+- Coverage: 457 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 5 |
+| `.github` | 6 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -35,7 +35,7 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 11 |
+| `tools` | 12 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -56,20 +56,20 @@
 | `.md` | 69 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 12 |
+| `.py` | 13 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 5 |
+| `.yml` | 6 |
 | `[none]` | 2 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 11 |
+| `archive-tooling` | 12 |
 | `audit-output` | 1 |
-| `automation-workflow` | 5 |
+| `automation-workflow` | 6 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -257,6 +257,7 @@
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
+- `.github/workflows/apply-conversation-families-date-search.yml` — 1326 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5238 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
@@ -709,6 +710,7 @@
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_1.json` — 11151 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_2-6.json` — 37113 bytes — `archive-tooling`
+- `tools/patch_conversation_families_and_date_search.py` — 11384 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations
