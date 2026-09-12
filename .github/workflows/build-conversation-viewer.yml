@@ -7,7 +7,9 @@ on:
     branches: [main]
     paths:
       - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.txt'
       - 'LIVE CONVOS/**/*.json'
+      - 'LIVE CONVOS/**/*.txt'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
@@ -63,7 +65,7 @@ jobs:
           paths = [x['path'] for x in data['conversations']]
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
-          assert all(x['path'].lower().endswith('.json') or x.get('external') for x in data['conversations'])
+          assert all(Path(x['path']).suffix.lower() in {'.json', '.txt'} or x.get('external') for x in data['conversations'])
 
           cp = Path('CONVERSATION_VIEWER/CURATION.json')
           curation = json.loads(cp.read_text(encoding='utf-8'))
