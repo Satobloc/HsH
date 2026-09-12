@@ -34,20 +34,20 @@ In the interests of maximum transparency, and in the spirit of SAT's **Glass Sau
 <!-- CONVERSATION_VIEWER_FRONTDOOR_END -->
 
 <!-- AUTO_FEATURED_START -->
-<!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf -->
+<!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md -->
 ## ⭐ FEATURED — September 2026
 
 <table>
 <tr>
 <td>
 <strong>Current spotlight</strong><br><br>
-<a href="NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf"><strong>RECOIL_PREDICTION.pdf</strong></a><br><br>
+<a href="NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md"><strong>PAPER_PIPELINE.md</strong></a><br><br>
 <small>Randomly selected from the current September 2026 featured papers.</small>
 </td>
 </tr>
 </table>
 
-**All current featured papers:** [RECOIL_PREDICTION.pdf](NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf)
+**All current featured papers:** [PAPER_PIPELINE.md](NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md) · [RECOIL_PREDICTION.pdf](NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf)
 
 <small>Anything added to <code>NEW_PAPERS/SEPTEMER_2026</code> appears here automatically. The spotlight reshuffles when the folder changes and once daily.</small>
 <!-- AUTO_FEATURED_END -->
