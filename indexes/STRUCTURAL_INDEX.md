@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T16:56:25+00:00`
-- Tree/content state: `42e3adabd8a252b781ef66717f11a78c3d38da20e91a0f13d6a7439922f97933`
+- Scanned: `2026-09-12T17:16:00+00:00`
+- Tree/content state: `548f987bfb362d97152e67d74112150ec14ca12553a72c80bd27c0333bc66589`
 - Coverage: 695 files, 54 directories
 - GitHub tree response truncated: `false`
 
@@ -764,7 +764,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt` — 30265 bytes — `source-conversation-corpus`
 - `HISTORY_TIMELINE.md` — 14716 bytes — `unclassified`
-- `INTERNAL/WORKING_INSTRUCTIONS.md` — 4941 bytes — `unclassified`
+- `INTERNAL/WORKING_INSTRUCTIONS.md` — 6814 bytes — `unclassified`
 - `LIBRARY/MANIFEST_GUIDE.md` — 2566 bytes — `unclassified`
 - `LIBRARY/README.md` — 5754 bytes — `unclassified`
 - `LIBRARY/generated/2023-spacetime-chat.md` — 64595 bytes — `unclassified`
@@ -888,7 +888,7 @@
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 4437 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
