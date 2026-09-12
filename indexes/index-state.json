@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 863638597,
+    "bytes_known": 863653239,
     "directories": 49,
-    "files": 571
+    "files": 574
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 322,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 74,
+    ".md": 77,
     ".pdf": 5,
     ".png": 27,
     ".py": 12,
@@ -37,11 +37,11 @@
     "license": 1,
     "live-conversation-corpus": 35,
     "llm-workspace": 8,
-    "review-ledger": 3,
+    "review-ledger": 5,
     "source-conversation-corpus": 391,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 89,
+    "unclassified": 90,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -56,7 +56,7 @@
     "LIBRARY.md": 1,
     "LICENSE": 1,
     "LIVE CONVOS": 35,
-    "NEW_PAPERS": 2,
+    "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
     "WORKSPACES": 8,
@@ -65,7 +65,7 @@
     "formalization": 5,
     "generated": 5,
     "indexes": 6,
-    "ledgers": 3,
+    "ledgers": 5,
     "synthesis": 6,
     "tests": 1,
     "tools": 11,
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "d7634fa1e5291ac2e7e240c60af830fba201f7e72f758a8c160e153610774403",
+      "content_id": "b4e58e9426593a7d5071ed4fdf423d203f35ba9d470d53b77bf1b1d29b631ad6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4113,6 +4113,13 @@
       "size": null
     },
     {
+      "content_id": "c630202f05a0142f0a5a951be9088515f48e4b4a6305ee6922f3cc9f5e63164c",
+      "kind": "blob",
+      "path": "NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md",
+      "role": "unclassified",
+      "size": 2307
+    },
+    {
       "content_id": "5529455decdcf8dfce55e50fb7003aa9277ad9efbb07ac83b67173675e9c3fdb",
       "kind": "blob",
       "path": "NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf",
@@ -4127,11 +4134,11 @@
       "size": 1
     },
     {
-      "content_id": "2cff340c31275d3098c0a54b5ea9c455c342484d2e6a2976ff60ede9c13f5337",
+      "content_id": "34542f307fdc8f18de6e8c21b9a1e446fa4ce2ec155f6834851e7d6bdc0af515",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 37276
+      "size": 37331
     },
     {
       "content_id": null,
@@ -4386,18 +4393,18 @@
       "size": null
     },
     {
-      "content_id": "98b99223083d1fcccaf739131507906fb5da853f2294a68060fedda3a0925bf6",
+      "content_id": "32f250b2b7e51cf6083c67a4079d7623e60908a34c054f2effa933be9d08a0e8",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/COORDINATION.md",
       "role": "llm-workspace",
-      "size": 905
+      "size": 2468
     },
     {
-      "content_id": "e794f6bbd95d816a68f53f0b499ea0b8990961310d56cf06571e0cacf74ad080",
+      "content_id": "21e8e9aa844cc3cd456d7507dfefbca2f84d493763b05fff4eed29c5497fb788",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFFS.md",
       "role": "llm-workspace",
-      "size": 620
+      "size": 1020
     },
     {
       "content_id": "8fb266af42452bfef1e682a6cdd4340a53366e6ee002774b4879c5a88794e159",
@@ -4470,11 +4477,11 @@
       "size": null
     },
     {
-      "content_id": "1a18d716307ed249576a2ba7cec7173783c2f248f190f98892f5294a7f239700",
+      "content_id": "2a136f009fe3cc2ac2f47e7925d02d982b38c9fcc877b361e8a23f5dd62d11df",
       "kind": "blob",
       "path": "checkpoints/CURRENT.md",
       "role": "checkpoint",
-      "size": 3263
+      "size": 2403
     },
     {
       "content_id": null,
@@ -4589,7 +4596,7 @@
       "size": null
     },
     {
-      "content_id": "210593089657b4f379f5ba50581695882043a4d24d9f3512379565e9ce69523e",
+      "content_id": "cb3e0b2127b2706ca03f30ce32268be65f36da66e95fa56da1d84ba4d91bf557",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4603,7 +4610,7 @@
       "size": 8625
     },
     {
-      "content_id": "ef456cef3807be9c422d59ab6402f3dfea473b23d4b036e56614c120e6bbda81",
+      "content_id": "a21afdca20c49e5c8729af1ad420daffd590ac36291c9ad75f6f9ca7e9f459ca",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4624,14 +4631,14 @@
       "size": null
     },
     {
-      "content_id": "24df9e6f4f4e46ae68e66fcad8b4945eb4a1b6dc6ba587ad84c299bd0875f34f",
+      "content_id": "82802a40079854fa1cacfe44868c6bce10c05a3b25ed9ad189af354c25977f55",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "7e5c620e212649c402f41a0d0253d3a53f7c41eff7e10d5275eace6ef34fa3ab",
+      "content_id": "1c3e3b0fcb280f80a780cd9fd1fa2f13d6acd717f6c896f7e21b82c1861e357d",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4645,11 +4652,11 @@
       "size": null
     },
     {
-      "content_id": "0577be01e6f0a6ce290254f3efa68b431e826ddce68193164ba51ebafce92a1b",
+      "content_id": "ecf11e5aab4875836e4902fe5f923dc1c41dcd14d7124fd347630ca108b0bc8c",
       "kind": "blob",
       "path": "ledgers/CITATION_LEDGER.md",
       "role": "review-ledger",
-      "size": 4095
+      "size": 5550
     },
     {
       "content_id": "918eda90ab733fc98deadc8dfc017ae372da95a6a06e647ad8d00ce2230ce61b",
@@ -4666,6 +4673,20 @@
       "size": 9310
     },
     {
+      "content_id": "67f77392449ecfddf7c10206ea6aab6999dcc6f3f7683ac61ca29279a0678998",
+      "kind": "blob",
+      "path": "ledgers/FINITE_CORE_COMPARISON.md",
+      "role": "review-ledger",
+      "size": 5861
+    },
+    {
+      "content_id": "45b364cf4d8df88d332f53c30c453caf04769d016f1bef54b4da39ee8a52f356",
+      "kind": "blob",
+      "path": "ledgers/PREDICTION_LEDGER.md",
+      "role": "review-ledger",
+      "size": 2189
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "synthesis",
@@ -4673,11 +4694,11 @@
       "size": null
     },
     {
-      "content_id": "e2207accb7b99749765febb334bc634aea2d89f2f47978e2bd6e9f3dd186e6ab",
+      "content_id": "31a991060949af5ce1dda0f2ef7ba18e2a100997b7ac360ebfd023cea3ea7a27",
       "kind": "blob",
       "path": "synthesis/CURRENT_SYNTHESIS.md",
       "role": "synthesis-workspace",
-      "size": 73921
+      "size": 75593
     },
     {
       "content_id": "96308b285a8b84f50c1e926fae0c00aab866c6d644f5b4e7107e3d7010a1a9d8",
@@ -4835,8 +4856,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T09:01:57+00:00",
+  "scanned_at_utc": "2026-09-12T09:07:47+00:00",
   "schema_version": 1,
-  "tree_id": "a542d1015a7f4b6926e0ff71e6630b37453c42a63fd2f2cc2004b95340a9aff5",
+  "tree_id": "fc817b5e9f9c6a6cd5272ae37eddd157b2250a18b3a63c83da40dd09815aeede",
   "tree_response_truncated": false
 }
