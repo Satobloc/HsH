@@ -20,6 +20,22 @@ No empirical prediction is frozen yet. The finite-core architecture and observab
 - **Freeze condition:** select the material carrier, derive the coupling density and resolver kernel, and identify an independent scale/observable pair before inspecting target scaling data.
 - **Historical provenance:** not yet checked; do not claim SAT priority.
 
+## PRED-FC-002 — Canonical moment/readout discriminator
+
+- **Status:** `CANDIDATE` — frozen geometric discriminator; not yet a frozen empirical H(s)H prediction.
+- **Derivation source:** `FC-BASE-002` and [FINITE_CORE_CROSS_SECTION_PACKET_001.md](../WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md).
+- **Assumptions:** a declared fiber measure; uniform canonical `B^3`, `S^2`, `B^2`, or `S^1` family; smooth transverse thin-sheet crossing; moment-preserving readout.
+- **Exact invariant:** `(I2,I3,chi)` equals `(0,0,25/21)`, `(0,0,1)`, `(1/6,-1/108,4/3)`, or `(1/6,-1/108,1)` respectively.
+- **Exact linear readout:** `|det L_Sigma|=|n_Sigma·T|^-1`; generic sheet-support dimensions are 3 for `B^3` and 2 for `B^2/S^2`.
+- **Units:** `I2`, `I3`, `chi`, and the secant factor are dimensionless.
+- **Observable/readout map:** cross-sectional moment estimation after a specified resolver kernel; physical measurement channel not selected.
+- **Independent comparator:** none selected.
+- **Uncertainty:** nonuniform density, anisotropy, finite resolver thickness, tangency, curvature, clipping, and reconstruction bias.
+- **Rival contrast:** separates canonical bulk from boundary using `chi`; separates rank-three from rank-two support using `I2,I3` or support dimension.
+- **Falsification:** after freezing carrier, measure, and resolver, failure of the declared canonical tuple or transverse secant factor fails that representation/readout model.
+- **Freeze condition:** select a physical carrier and independent measurement channel, then preregister estimator, kernel, corrections, and comparator before target inspection.
+- **Historical provenance:** unchecked; no novelty or priority claim.
+
 ## Blocked queue
 
 - ᚼ/ᚼᚼ residual prediction: blocked by missing frame/axis, composition law, and observable map.
