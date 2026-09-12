@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:30:19.763972+00:00`
+- Generated: `2026-09-12T13:54:20.134468+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **364**
+- Dated conversation exports: **365**
 - Skipped non-conversation or unparseable files: **48**
 - Exact duplicate-content groups: **43**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -279,6 +279,7 @@
 | 2026-06-08 | 2026-09-08 | [arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 209 |  |  |
 | 2026-06-16 | 2026-06-16 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.16%E2%80%A226.06.16%E2%80%A2Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 351 |  |  |
 | 2026-06-22 | 2026-06-22 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22%E2%80%A226.06.22%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 50 |  |  |
+| 2026-06-22 | 2026-09-12 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 55 |  |  |
 | 2026-06-22 | 2026-06-23 | [Homes in Cardinal Order](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.22%E2%80%A226.06.23%E2%80%A2Homes%20in%20Cardinal%20Order%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 1422 |  | 1 user/assistant messages lacked timestamps |
 | 2026-06-23 | 2026-08-26 | [Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23%E2%80%A226.08.26%E2%80%A2Consciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 1823 |  |  |
 | 2026-06-23 | 2026-08-26 | [Consciousness and AI Debate](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.23%E2%80%A226.08.26%E2%80%A2Consciousness%20and%20AI%20Debate%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 1833 |  |  |

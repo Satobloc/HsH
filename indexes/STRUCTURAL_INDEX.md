@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:30:20+00:00`
-- Tree/content state: `e7935de5e06b70461aaa59b22ab685d1b534c82d11a83bdf7b5e99dc41381b5f`
-- Coverage: 651 files, 54 directories
+- Scanned: `2026-09-12T13:54:20+00:00`
+- Tree/content state: `02e5ec2247c0fe6cc02d64c80eeeaf34045e7351c8f378aba821da029a7f1cdf`
+- Coverage: 652 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 432 |
+| `DEVELOPMENT_FULL_CONVOS` | 433 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 356 |
+| `.json` | 357 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 113 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 44 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 432 |
+| `source-conversation-corpus` | 433 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -295,7 +295,7 @@
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 323199 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 324063 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5914 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -564,6 +564,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10•26.09.10•H(s)H Archive Audit — raw.json` — 725774 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png` — 3026103 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json` — 377725 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
@@ -814,7 +815,7 @@
 - `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 3361 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
-- `README.md` — 37331 bytes — `visitor-interface`
+- `README.md` — 37343 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
@@ -900,11 +901,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 114980 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 115204 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 197757 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 198250 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
