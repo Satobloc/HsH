@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1011149118,
+    "bytes_known": 1012390757,
     "directories": 54,
-    "files": 652
+    "files": 658
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,15 +13,16 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 357,
+    ".json": 361,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 113,
+    ".md": 114,
     ".pdf": 5,
     ".png": 28,
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
+    ".tx": 1,
     ".txt": 88,
     ".yml": 5,
     "[none]": 2
@@ -36,9 +37,9 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 44,
+    "llm-workspace": 45,
     "review-ledger": 5,
-    "source-conversation-corpus": 433,
+    "source-conversation-corpus": 438,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +50,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 433,
+    "DEVELOPMENT_FULL_CONVOS": 438,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -59,7 +60,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 44,
+    "WORKSPACES": 45,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -355,6 +356,13 @@
       ]
     },
     {
+      "content_id": "88e4c7442b0ca2d5553aaa729c7fdfaca779470a8d4d42cf4dcecfe63816b728",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json"
+      ]
+    },
+    {
       "content_id": "8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
@@ -638,7 +646,7 @@
       "size": 49
     },
     {
-      "content_id": "0294f98da759a540f375d4f8126521a9920645e20a16cab595892ef32dc0f9a9",
+      "content_id": "6b77e8386228143aa2b156646b32943395dff6e3ea5e37a44e9c77289fbfe2ad",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2589,6 +2597,41 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "role": "source-conversation-corpus",
       "size": 377725
+    },
+    {
+      "content_id": "88e4c7442b0ca2d5553aaa729c7fdfaca779470a8d4d42cf4dcecfe63816b728",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 377725
+    },
+    {
+      "content_id": "ecdb3305dad13dfc97c7ee9241e37b383cb5f3e2ff2b00ac6e1307057bb2137d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 31894
+    },
+    {
+      "content_id": "fbd09ad0146e3c7159dd0d36c6f24a7f34c4ca7805d16ddf4ab615db6483f1d7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 112172
+    },
+    {
+      "content_id": "c1a30c76837d178264fe527e785bd39c63c5634e169bc99a06bd8da094be751f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 551513
+    },
+    {
+      "content_id": "892a24f7ef4c9faa433c219777b8859de67114768b268693aa264235468c4b43",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx",
+      "role": "source-conversation-corpus",
+      "size": 121499
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -4908,6 +4951,13 @@
       "size": 27898
     },
     {
+      "content_id": "1014521ca2408c429594e43015d9240cee74b7694c8d49a6fc5de2bc3b89f752",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_STACKED_HOLONOMY_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 43526
+    },
+    {
       "content_id": "487f30ea59583abba27d29a7a0b606469270e3106d7968936c05bbae07644fd1",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md",
@@ -5188,11 +5238,11 @@
       "size": null
     },
     {
-      "content_id": "e61b8452b5fe5b34d14765ba12d5094f046491a61dfa494c6332e084eb9e5342",
+      "content_id": "6aece90a0da048bfe88af09598e5001ef862d4dc34c46bf43506f1875ce79df8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 115204
+      "size": 116374
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5202,7 +5252,7 @@
       "size": 8625
     },
     {
-      "content_id": "f8583640e86e98a111bd25fec4942543e0af329f9593cf2c9dc2645b982be076",
+      "content_id": "43f5a6f93470d9b4e85292c8e15b0abf3c653c85dfd7efb6acdb50600fdb7c1f",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5223,14 +5273,14 @@
       "size": null
     },
     {
-      "content_id": "87e6cb164f80e5e06fffc3ee80005d3c20d8f4b22b385d514102195a3361eda3",
+      "content_id": "7e1059065487fa9b25ef49d7ee18fe05142a199e946d5c9d89f0da8ace826fc0",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 198256
+      "size": 200396
     },
     {
-      "content_id": "5d73815e0f9a8a6cf5b3d099e7d9b4203073d5ad44d97b690754097cba689558",
+      "content_id": "4e650a672923828c94b54f66e149cc3ff186996f0fd35a75701745bf092a7b3c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5448,8 +5498,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T14:04:01+00:00",
+  "scanned_at_utc": "2026-09-12T14:09:56+00:00",
   "schema_version": 1,
-  "tree_id": "7eafef71d6faa05fbc54a56a7cb9fd86f92b14c1c74e597108d6ca9aa4d567ec",
+  "tree_id": "fe81e54ac0a7d4a11724efb69f8ee40411d76592dffdcc56235d89644417453d",
   "tree_response_truncated": false
 }

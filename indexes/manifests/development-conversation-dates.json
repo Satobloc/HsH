@@ -1,12 +1,14 @@
 {
-  "generated_at_utc": "2026-09-12T14:03:55.744050+00:00",
+  "generated_at_utc": "2026-09-12T14:09:46.797044+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 365,
-    "skipped": 48
+    "skipped": 48,
+    "collision": 1,
+    "blocked": 3
   },
   "records": [
     {
@@ -2612,6 +2614,54 @@
       "message_count": 55,
       "status": "unchanged",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
+      "start_local": "2026-06-22T09:49:04.744587-04:00",
+      "end_local": "2026-09-12T09:43:33.086238-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
+      "status": "collision",
+      "warnings": [
+        "Target path already exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•EM Fields and Gravity — raw.json",
+      "start_local": "2026-06-21T15:05:48.456238-04:00",
+      "end_local": "2026-09-12T09:56:49.626646-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "start_local": "2026-06-20T20:56:09.067215-04:00",
+      "end_local": "2026-09-12T09:58:14.562000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 29,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
+      "start_local": "2026-06-21T17:07:53.153947-04:00",
+      "end_local": "2026-09-12T09:51:49.299434-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",

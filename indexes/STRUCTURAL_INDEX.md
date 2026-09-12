@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T14:04:01+00:00`
-- Tree/content state: `7eafef71d6faa05fbc54a56a7cb9fd86f92b14c1c74e597108d6ca9aa4d567ec`
-- Coverage: 652 files, 54 directories
+- Scanned: `2026-09-12T14:09:56+00:00`
+- Tree/content state: `fe81e54ac0a7d4a11724efb69f8ee40411d76592dffdcc56235d89644417453d`
+- Coverage: 658 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 433 |
+| `DEVELOPMENT_FULL_CONVOS` | 438 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 44 |
+| `WORKSPACES` | 45 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -49,15 +49,16 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 357 |
+| `.json` | 361 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 113 |
+| `.md` | 114 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
+| `.tx` | 1 |
 | `.txt` | 88 |
 | `.yml` | 5 |
 | `[none]` | 2 |
@@ -75,9 +76,9 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 44 |
+| `llm-workspace` | 45 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 433 |
+| `source-conversation-corpus` | 438 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -215,6 +216,9 @@
 - `7ee59742f376099ff1d1adba4f157f70efc716628888953eb06219d335690e98`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04•26.06.04•Hubble Tension Prediction — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json`
+- `88e4c7442b0ca2d5553aaa729c7fdfaca779470a8d4d42cf4dcecfe63816b728`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json`
 - `8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json`
   - `LIVE CONVOS/Build Geometry Coding Skill — raw.json`
@@ -565,6 +569,11 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png` — 3026103 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json` — 377725 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json` — 377725 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json` — 31894 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json` — 112172 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json` — 551513 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx` — 121499 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
@@ -871,6 +880,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT55_ROTATIONS_EVERSIONS_SPHERE_INTERSECTIONS_2026-09-12.md` — 25572 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT56_MINKOWSKI_2026-09-12.md` — 18762 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md` — 27898 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_STACKED_HOLONOMY_2026-09-12.md` — 43526 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md` — 9751 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_ADDENDUM.md` — 3205 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7744 bytes — `llm-workspace`
@@ -901,11 +911,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 115204 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 116374 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 198256 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 200396 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
