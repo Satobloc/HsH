@@ -4,7 +4,11 @@ This page holds contributor/LLM-facing workflow material that should not dominat
 
 ## Current work
 
-The immediate problem is to turn the comparatively mature **worldline skeleton** into a mathematically controlled **finite-core worldtube model** without laundering later-discovered outside machinery into the theory's premises.
+The immediate problem is to identify the most mature components of the comparatively mature **worldline skeleton** into a mathematically controlled **finite-core worldtube model** based on the latest H(s)H interpretation without laundering later-discovered outside machinery into the theory's premises, without sacrificing the Fundamental Intuitions. 
+
+BEFORE COMMITTING ANYTHING TO ANY REPO, THEORISTS MUST COMPLETE THE CURRENT MINIMUM TRAINING REQUIREMENT AND ANY ADDITIONAL TRAINING TASKS ASSIGNED THEM BY NATHAN, INCLUDING LINE-BY-LINE READING OF ANY DIRECTLY INGESTED DOCUMENTS FROM OR DIRECTED BY NATHAN. 
+
+[MINIMUM TRAINING PLACEHOLDER -- UNTIL END OF WORK STOP BEGINING SATURDAY, SEPTEMBER 12 AT 12:55 PM -- HALT FOR TRAINING UNTIL FURTHER NOTICE]
 
 Working order:
 
