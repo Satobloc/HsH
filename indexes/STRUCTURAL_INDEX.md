@@ -2,15 +2,16 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:21:02+00:00`
-- Tree/content state: `80840050c3f92544eae9a295dc19af06485a73caca87066c613178b2ebb50967`
-- Coverage: 704 files, 55 directories
+- Scanned: `2026-09-12T22:23:15+00:00`
+- Tree/content state: `e6e370e6c4992288a56dfd136604e483477ce90e502db08ee741feb0116899af`
+- Coverage: 705 files, 55 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
 
 | Path | Files |
 |---|---:|
+| `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
@@ -52,7 +53,7 @@
 | `.json` | 376 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 142 |
+| `.md` | 143 |
 | `.pdf` | 5 |
 | `.png` | 30 |
 | `.py` | 12 |
@@ -81,7 +82,7 @@
 | `source-conversation-corpus` | 456 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 90 |
+| `unclassified` | 91 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -284,7 +285,8 @@
 
 ## Complete path inventory
 
-- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3750 bytes — `visitor-interface`
+- `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` — 26764 bytes — `unclassified`
+- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3864 bytes — `visitor-interface`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -891,7 +893,7 @@
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 47810 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 55182 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`

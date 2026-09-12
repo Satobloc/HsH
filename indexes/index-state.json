@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1037047423,
+    "bytes_known": 1037081673,
     "directories": 55,
-    "files": 704
+    "files": 705
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 376,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 142,
+    ".md": 143,
     ".pdf": 5,
     ".png": 30,
     ".py": 12,
@@ -42,10 +42,11 @@
     "source-conversation-corpus": 456,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 90,
+    "unclassified": 91,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
+    "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md": 1,
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     ".github": 5,
     "ARCHITECTURE.md": 1,
@@ -507,11 +508,18 @@
   ],
   "entries": [
     {
-      "content_id": "759df23707e1b8af30f2cbebf6e24954b1bd4b8b544ff8fc9a6c9537fb49dd1f",
+      "content_id": "4ceedbbf412f284d2da34f0b567cf3f87aff3a275682e7ee4cfc9733879a9f25",
+      "kind": "blob",
+      "path": "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md",
+      "role": "unclassified",
+      "size": 26764
+    },
+    {
+      "content_id": "81e928fc64380067e9c634ccdb99cb86c1d244c3e454e07f04dfc6e26996482b",
       "kind": "blob",
       "path": "!_ANNOTATED_ARCHIVE_SURVEY.md",
       "role": "visitor-interface",
-      "size": 3750
+      "size": 3864
     },
     {
       "content_id": null,
@@ -647,7 +655,7 @@
       "size": 49
     },
     {
-      "content_id": "f8d84b172b58444ccb994c0fe5b22c07007c77e268b9ae288373fb03993716f6",
+      "content_id": "37e9b6aaeae20eed6c8c5be06e96994b548c84fcceb3683c32368313ccca9875",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -5015,11 +5023,11 @@
       "size": 5278
     },
     {
-      "content_id": "1999e942c14c11ad35373688a2293d400fb141afbbad0fbbd85e88942193fb17",
+      "content_id": "6680ddcae71f5710241d98d64bb619f196621c18e5236acb92a0c2513405d044",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 47810
+      "size": 55182
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -5568,7 +5576,7 @@
       "size": null
     },
     {
-      "content_id": "02a02e1362e67984cbfe3a437ef4f497760e94a0e30fd2107749b1b8d376899c",
+      "content_id": "80bec2196af6fa8757c70a232933bde05abb4cfa65585211a052c4a1378e0b1f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5582,7 +5590,7 @@
       "size": 8625
     },
     {
-      "content_id": "4277bf7680caf47968955077b5c313350fb79150a984e404077f563ce8652aab",
+      "content_id": "c2a637de447118031a8bea2f9c550b2ca3f6a40ed8faa352719113f06e7b5226",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5603,14 +5611,14 @@
       "size": null
     },
     {
-      "content_id": "a5b2a12855c4a0e667f3b5c746ad02c21f2c9e27f8b47d8aac0cb90681c9e315",
+      "content_id": "3a3da4c23d20559ddb8bc1c14fb91b11dcf653ccefe8031094454d1b6d8bc1e1",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 208816
     },
     {
-      "content_id": "2ee51767af488b22343c56e072bbee67dfe36fd50f1b8e8b16dfdfd07e43e93c",
+      "content_id": "12d0e7cfbbc35bbdfae5d4a878e8ef126781b892d1ee8a533555dcd0df739c91",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5828,8 +5836,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:21:02+00:00",
+  "scanned_at_utc": "2026-09-12T22:23:15+00:00",
   "schema_version": 1,
-  "tree_id": "80840050c3f92544eae9a295dc19af06485a73caca87066c613178b2ebb50967",
+  "tree_id": "e6e370e6c4992288a56dfd136604e483477ce90e502db08ee741feb0116899af",
   "tree_response_truncated": false
 }
