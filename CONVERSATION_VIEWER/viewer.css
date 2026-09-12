@@ -134,3 +134,23 @@ input[type="search"]:focus, select:focus { outline: 2px solid rgba(138,180,255,.
 .version-item span { font-size: .72rem; color: var(--text); }
 .version-item small { font-size: .66rem; color: var(--muted); }
 .version-item.active { border-color: color-mix(in srgb, var(--accent), transparent 25%); }
+
+
+/* Dialogue-first reading modes. Internals remain in source order and can be restored globally. */
+.viewer-hide-internals .message.kind-tool,
+.viewer-hide-internals .message.kind-function,
+.viewer-hide-internals .message.kind-system,
+.viewer-hide-internals .message.kind-developer,
+.viewer-hide-internals .message.kind-internal { display: none !important; }
+
+.viewer-full .message.collapsible:not(.typing) .message-body,
+.viewer-full .message.compact-output.collapsible:not(.typing) .message-body {
+  max-height: none !important;
+  overflow: visible !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+.viewer-full .expand-toggle { display: none !important; }
+.viewer-compact .expand-toggle { display: inline-block; }
+.internal-toggle { user-select: none; white-space: nowrap; }
+.internal-toggle input { accent-color: var(--accent); }

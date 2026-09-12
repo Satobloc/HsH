@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
   <title>HsH Conversation Viewer</title>
-  <link rel="stylesheet" href="viewer.css?v=20260912-0018">
-  <link rel="stylesheet" href="presentation.css?v=20260912-0018">
-  <link rel="stylesheet" href="runtime-fixes.css?v=20260912-0018">
+  <link rel="stylesheet" href="viewer.css?v=20260912-0045">
+  <link rel="stylesheet" href="presentation.css?v=20260912-0045">
+  <link rel="stylesheet" href="runtime-fixes.css?v=20260912-0045">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 <body>
@@ -80,6 +80,13 @@
               <option value="10">10×</option>
             </select>
           </label>
+          <label class="compact-control">View
+            <select id="displayDensity">
+              <option value="compact" selected>Compact</option>
+              <option value="full">Full</option>
+            </select>
+          </label>
+          <label class="compact-control internal-toggle"><input id="showInternals" type="checkbox"> Show internals</label>
           <span id="replayStatus" class="status-text">Paused</span>
           <span id="messageDateTime" class="message-datetime" title="Current message date and time">📅 —</span>
         </div>
@@ -103,8 +110,8 @@
   </div>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-  <script src="viewer.js?v=20260912-0018"></script>
-  <script src="landmarks.js?v=20260912-0018"></script>
-  <script src="presentation.js?v=20260912-0018"></script>
+  <script src="viewer.js?v=20260912-0045"></script>
+  <script src="landmarks.js?v=20260912-0045"></script>
+  <script src="presentation.js?v=20260912-0045"></script>
 </body>
 </html>

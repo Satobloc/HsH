@@ -15,7 +15,7 @@
     "sidebar", "sidebarToggle", "conversationFilter", "showDevelopment", "showLive", "conversationList",
     "conversationMeta", "conversationTitle", "prevConversation", "nextConversation", "copyLink", "sourceLink",
     "threadSearch", "searchPrev", "searchNext", "searchStatus", "speakerFilters", "timeline", "timelineMarks",
-    "positionLabel", "previousMessage", "nextMessage", "replayToggle", "replayMode", "replaySpeed", "replayStatus", "messageDateTime",
+    "positionLabel", "previousMessage", "nextMessage", "replayToggle", "replayMode", "replaySpeed", "displayDensity", "showInternals", "replayStatus", "messageDateTime",
     "viewerNotice", "messages", "loadMoreSentinel", "searchDrawer", "closeSearchDrawer", "searchResults"
   ];
   const el = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
@@ -50,6 +50,27 @@
   }
 
   function parseParams() { return new URLSearchParams(location.search); }
+
+  function plumbingLikeMessage(msg) {
+    if (!msg) return true;
+    const role = String(msg.role || "unknown").toLowerCase();
+    if (["tool", "system", "developer", "function", "internal"].includes(role)) return true;
+    const text = String(msg.text || "");
+    const lines = text.split(/\n/);
+    const urlCount = (text.match(/https?:\/\//g) || []).length;
+    const pathCount = (text.match(/(?:^|\s)(?:\.?\.?\/|[A-Za-z]:\\|[\w.-]+\/[\w./ -]+)/gm) || []).length;
+    const markers = /Resource uri:|Citation Marker:|filecite|filenavlist|search result|tool result|function call|files\.(?:search|find|read)|api_tool|github\.|raw source|content_sha|workflow run|\"result\"\s*:/i.test(text);
+    const structured = /^\s*[\[{]/.test(text) && /[}\]]\s*$/.test(text);
+    return markers || urlCount >= 3 || pathCount >= 5 || (structured && lines.length >= 5);
+  }
+
+  function isDialogueMessage(msg) {
+    if (!msg) return false;
+    const role = String(msg.role || "unknown").toLowerCase();
+    if (!["user", "assistant", "companion"].includes(role)) return false;
+    if (role === "assistant" && plumbingLikeMessage(msg)) return false;
+    return true;
+  }
 
   function updateUrl(index = state.activeIndex, replace = true) {
     if (!state.conversation) return;
@@ -542,6 +563,7 @@
     const token = ++state.replay.token; state.replay.running = true; state.replay.mode = typealong ? "typealong" : "message"; el.replayToggle.textContent = "⏸ Pause";
     if (typealong) prepareTypealongReplay(state.activeIndex);
     for (let i = state.activeIndex; i < state.messages.length && state.replay.running && token === state.replay.token; i++) {
+      if (!isDialogueMessage(state.messages[i])) continue;
       setActive(i, true); let ok = true;
       if (typealong) ok = await typealongMessage(i, token);
       else {
@@ -585,6 +607,8 @@
   function bindEvents() {
     el.conversationFilter.addEventListener("input", renderCatalog); el.showDevelopment.addEventListener("change", renderCatalog); el.showLive.addEventListener("change", renderCatalog);
     el.threadSearch.addEventListener("input", searchThread); el.searchPrev.addEventListener("click", () => cycleSearch(-1)); el.searchNext.addEventListener("click", () => cycleSearch(1));
+    el.displayDensity?.addEventListener("change", () => document.dispatchEvent(new CustomEvent("viewer:viewmode", { detail: { density: el.displayDensity.value, showInternals: Boolean(el.showInternals?.checked) } })));
+    el.showInternals?.addEventListener("change", () => document.dispatchEvent(new CustomEvent("viewer:viewmode", { detail: { density: el.displayDensity?.value || "compact", showInternals: Boolean(el.showInternals.checked) } })));
     el.closeSearchDrawer.addEventListener("click", () => el.searchDrawer.classList.remove("open"));
     el.prevConversation.addEventListener("click", () => neighboringConversation(-1)); el.nextConversation.addEventListener("click", () => neighboringConversation(1));
     el.previousMessage.addEventListener("click", () => jumpToMessage(state.activeIndex - 1)); el.nextMessage.addEventListener("click", () => {

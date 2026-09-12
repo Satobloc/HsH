@@ -5,6 +5,13 @@
   const timers = new WeakMap();
   const GENERIC = new Set(["user", "assistant", "system", "developer", "tool", "unknown", "chatgpt", "openai"]);
 
+  function applyViewMode(density = "compact", showInternals = false) {
+    document.body.classList.toggle("viewer-full", density === "full");
+    document.body.classList.toggle("viewer-compact", density !== "full");
+    document.body.classList.toggle("viewer-show-internals", Boolean(showInternals));
+    document.body.classList.toggle("viewer-hide-internals", !showInternals);
+  }
+
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
   }
@@ -295,6 +302,11 @@
   });
 
   document.getElementById("replayToggle")?.addEventListener("click", () => setTimeout(enhanceAll, 120));
+  document.addEventListener("viewer:viewmode", event => {
+    const detail = event.detail || {};
+    applyViewMode(detail.density || "compact", Boolean(detail.showInternals));
+  });
+  applyViewMode(document.getElementById("displayDensity")?.value || "compact", Boolean(document.getElementById("showInternals")?.checked));
 
   // Typealong temporarily replaces rendered HTML with text. Re-render only after the full source text has returned.
   setInterval(() => {
