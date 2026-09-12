@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T10:43:33+00:00`
-- Tree/content state: `c0592785e0adc9cb1ad9f98c1876c08d231cb6bf91ac9df8e9763f67863cf339`
+- Scanned: `2026-09-12T10:52:12+00:00`
+- Tree/content state: `ed3899126a558be68cb10df3124a99a3014652e5dc63bdeec6d6887b77a1ee13`
 - Coverage: 585 files, 49 directories
 - GitHub tree response truncated: `false`
 
@@ -798,9 +798,9 @@
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 2853 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKINS.md` — 2326 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS.md` — 13439 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/COORDINATION.md` — 6194 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/COORDINATION.md` — 6905 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md` — 4283 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 1411 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
