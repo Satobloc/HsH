@@ -58,3 +58,16 @@ The directory is GitHub-Pages-ready because all viewer assets are static and con
 ## Provenance rule
 
 The viewer is a derived presentation layer. It must never rewrite, normalize in place, reorder on disk, deduplicate, or replace the raw archive conversations. Direct links are presentation addresses; archive provenance remains the exact repository source path.
+
+
+## Provenance annotation mode
+
+The one-click local launcher now opens an **internal annotation mode**. It adds conversation- and message/range-level controls for core/supporting provenance, priority/search promotion, milestones, editorial status (`superseded`, `misleading`, `counterfactual`, `not-currently-held`, `re-adopted`, etc.), timeline links, and Viewer visibility.
+
+Private working metadata is stored outside the repository at `~/.hsh_conversation_viewer/annotations.json`. The toolbar's **Publish public projection** action writes only the public-safe projection to `CONVERSATION_VIEWER/data/annotations.json`; internal notes never enter that file.
+
+Core provenance conversations are promoted within genuine search matches. If promoted message/range annotations exist, the conversation opens in provenance-focus mode: promoted passages and one message of surrounding context are expanded while other messages are collapsed. An explicit default anchor overrides the automatic highest-weighted anchor.
+
+Within-conversation search results include the original message date/time and respect public visibility plus provenance promotion.
+
+See `CONVERSATION_VIEWER/ANNOTATIONS.md` for the schema and workflow. Viewer-level hiding is curation only: it does not make a raw source private if that source remains in a public repository.

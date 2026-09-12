@@ -278,18 +278,26 @@
     const needle = el.conversationFilter.value.trim().toLocaleLowerCase();
     const showDev = el.showDevelopment.checked, showLive = el.showLive.checked;
     const scored = state.catalog.map(c => ({ c, match: catalogMatch(c, needle) })).filter(({ c, match }) => {
+      if (window.HSHAnnotations && !window.HSHAnnotations.isConversationVisible(c.id)) return false;
       if (c.corpus === "development" && !showDev) return false;
       if (c.corpus === "live" && !showLive) return false;
       return match.matched;
     });
-    scored.sort((a, b) => (b.match.score - a.match.score) || String(b.c.start_local || "").localeCompare(String(a.c.start_local || "")) || a.c.path.localeCompare(b.c.path));
+    scored.sort((a, b) => {
+      const provenance = needle && window.HSHAnnotations
+        ? window.HSHAnnotations.conversationSearchPriority(b.c.id) - window.HSHAnnotations.conversationSearchPriority(a.c.id)
+        : 0;
+      return provenance || (b.match.score - a.match.score) || String(b.c.start_local || "").localeCompare(String(a.c.start_local || "")) || a.c.path.localeCompare(b.c.path);
+    });
     state.filteredCatalog = scored.map(x => x.c);
 
     const groups = familyMembers(state.filteredCatalog);
     groups.sort((a, b) => {
       const as = Math.max(...a.members.map(x => catalogMatch(x, needle).score));
       const bs = Math.max(...b.members.map(x => catalogMatch(x, needle).score));
-      return (bs - as) || String(b.primary.start_local || "").localeCompare(String(a.primary.start_local || ""));
+      const ap = needle && window.HSHAnnotations ? Math.max(...a.members.map(x => window.HSHAnnotations.conversationSearchPriority(x.id))) : 0;
+      const bp = needle && window.HSHAnnotations ? Math.max(...b.members.map(x => window.HSHAnnotations.conversationSearchPriority(x.id))) : 0;
+      return (bp - ap) || (bs - as) || String(b.primary.start_local || "").localeCompare(String(a.primary.start_local || ""));
     });
 
     el.conversationList.innerHTML = groups.map(group => {
@@ -315,10 +323,10 @@
 
     el.conversationList.querySelectorAll(".conversation-card").forEach(card => card.addEventListener("click", event => {
       if (event.target.closest("details, summary, .version-item")) return;
-      loadConversation(card.dataset.id, 0, true);
+      loadConversation(card.dataset.id, null, true);
     }));
     el.conversationList.querySelectorAll(".version-item").forEach(button => button.addEventListener("click", event => {
-      event.stopPropagation(); loadConversation(button.dataset.versionId, 0, true);
+      event.stopPropagation(); loadConversation(button.dataset.versionId, null, true);
     }));
   }
 
@@ -328,7 +336,7 @@
     el.messages.innerHTML = "";
   }
 
-  async function loadConversation(id, requestedIndex = 0, push = false) {
+  async function loadConversation(id, requestedIndex = null, push = false) {
     stopReplay();
     const convo = state.catalog.find(c => c.id === id);
     if (!convo) return;
@@ -344,10 +352,14 @@
       const messages = normalizeConversation(raw);
       if (!messages.length) throw new Error("No displayable messages were found in this export.");
       state.raw = raw; state.messages = messages; state.rendered = 0;
-      state.activeIndex = Math.max(0, Math.min(Number(requestedIndex) || 0, messages.length - 1));
+      const requested = requestedIndex == null && window.HSHAnnotations
+        ? window.HSHAnnotations.defaultAnchor(convo.id)
+        : (Number(requestedIndex) || 0);
+      state.activeIndex = Math.max(0, Math.min(requested, messages.length - 1));
       state.searchQuery = ""; state.searchHits = []; state.searchCursor = -1; state.speakerEnabled.clear();
       for (const msg of messages) state.speakerEnabled.set(msg.speaker, true);
       el.threadSearch.value = ""; el.viewerNotice.hidden = true; el.timeline.max = String(messages.length - 1); el.timeline.value = String(state.activeIndex);
+      document.dispatchEvent(new CustomEvent("viewer:conversation-loaded", { detail: { conversation: convo, messageCount: messages.length } }));
       buildSpeakerFilters(); renderNext(Math.max(INITIAL_RENDER, state.activeIndex + 20)); applySpeakerFilters(); jumpToMessage(state.activeIndex, false);
       updateConversationButtons(); updateUrl(state.activeIndex, !push);
     } catch (error) {
@@ -434,6 +446,7 @@
     const currentTime = state.messages[index]?.createTime;
     if (el.messageDateTime) el.messageDateTime.textContent = currentTime ? `📅 ${new Date(currentTime * 1000).toLocaleString([], { year:"numeric", month:"short", day:"numeric", hour:"numeric", minute:"2-digit" })}` : "📅 time unavailable";
     if (writeUrl) updateUrl(index, true);
+    document.dispatchEvent(new CustomEvent("viewer:active-message", { detail: { index, conversationId: state.conversation?.id || null } }));
   }
 
   function jumpToMessage(index, smooth = true) {
@@ -450,8 +463,13 @@
     const q = el.threadSearch.value.trim(); state.searchQuery = q; state.searchHits = []; state.searchCursor = -1;
     if (q) {
       const needle = q.toLocaleLowerCase();
-      state.messages.forEach((m, i) => { if (m.text.toLocaleLowerCase().includes(needle)) state.searchHits.push(i); });
-      if (state.searchHits.length) { const pos = state.searchHits.findIndex(i => i >= state.activeIndex); state.searchCursor = pos >= 0 ? pos : 0; }
+      state.messages.forEach((m, i) => {
+        if (m.text.toLocaleLowerCase().includes(needle) && (!window.HSHAnnotations || window.HSHAnnotations.isMessageVisible(state.conversation?.id, i))) state.searchHits.push(i);
+      });
+      if (state.searchHits.length) {
+        if (window.HSHAnnotations) state.searchHits.sort((a, b) => window.HSHAnnotations.compareMessageSearch(state.conversation?.id, a, b));
+        state.searchCursor = 0;
+      }
     }
     el.searchStatus.textContent = `${state.searchHits.length} hit${state.searchHits.length === 1 ? "" : "s"}`;
     renderTimelineMarks(); renderSearchResults(); highlightRendered(); updateUrl(state.activeIndex, true);
@@ -490,7 +508,8 @@
     if (!state.searchQuery) { el.searchResults.innerHTML = ""; return; }
     el.searchResults.innerHTML = state.searchHits.slice(0, 400).map((index, pos) => {
       const m = state.messages[index];
-      return `<div class="search-result ${pos === state.searchCursor ? "current" : ""}" data-pos="${pos}"><div class="result-meta">#${index + 1} · ${esc(m.speaker)}</div><div class="snippet">${esc(snippet(m.text, state.searchQuery))}</div></div>`;
+      const stamp = m.createTime ? new Date(m.createTime * 1000).toLocaleString([], { year:"numeric", month:"short", day:"numeric", hour:"numeric", minute:"2-digit", second:"2-digit" }) : "timestamp unavailable";
+      return `<div class="search-result ${pos === state.searchCursor ? "current" : ""}" data-pos="${pos}"><div class="result-meta">#${index + 1} · ${esc(m.speaker)} · ${esc(stamp)}</div><div class="snippet">${esc(snippet(m.text, state.searchQuery))}</div></div>`;
     }).join("") || `<div class="status-text">No matches.</div>`;
     el.searchResults.querySelectorAll(".search-result").forEach(node => node.addEventListener("click", () => { state.searchCursor = Number(node.dataset.pos); jumpToSearchCursor(); }));
   }
@@ -510,7 +529,7 @@
 
   function neighboringConversation(delta) {
     const idx = state.catalog.findIndex(c => c.id === state.conversation?.id), next = state.catalog[idx + delta];
-    if (next) loadConversation(next.id, 0, true);
+    if (next) loadConversation(next.id, null, true);
   }
 
   function replaySpeed(index = null) {
@@ -649,19 +668,20 @@
       else if (event.code === "Space") { event.preventDefault(); toggleReplay(); }
     });
     window.addEventListener("popstate", () => {
-      const p = parseParams(), id = p.get("c"), m = Math.max(0, Number(p.get("m") || 1) - 1);
-      if (id && id !== state.conversation?.id) loadConversation(id, m, false); else if (state.messages.length) jumpToMessage(m, false);
+      const p = parseParams(), id = p.get("c"), hasM = p.has("m"), m = Math.max(0, Number(p.get("m") || 1) - 1);
+      if (id && id !== state.conversation?.id) loadConversation(id, hasM ? m : null, false); else if (state.messages.length && hasM) jumpToMessage(m, false);
     });
   }
 
   async function boot() {
     bindEvents();
     try {
+      if (window.HSHAnnotations?.ready) await window.HSHAnnotations.ready;
       const res = await fetch(MANIFEST_URL, { cache: "no-cache" }); if (!res.ok) throw new Error(`manifest HTTP ${res.status}`);
       const data = await res.json(); state.catalog = Array.isArray(data.conversations) ? data.conversations : []; renderCatalog();
-      const p = parseParams(), id = p.get("c") || state.catalog[0]?.id, m = Math.max(0, Number(p.get("m") || 1) - 1);
+      const p = parseParams(), id = p.get("c") || state.catalog.find(c => !window.HSHAnnotations || window.HSHAnnotations.isConversationVisible(c.id))?.id, hasM = p.has("m"), m = Math.max(0, Number(p.get("m") || 1) - 1);
       if (p.get("q")) el.threadSearch.value = p.get("q");
-      if (id) { await loadConversation(id, m, false); if (el.threadSearch.value) searchThread(); }
+      if (id) { await loadConversation(id, hasM ? m : null, false); if (el.threadSearch.value) searchThread(); }
     } catch (error) {
       el.viewerNotice.innerHTML = `<h3>Viewer manifest unavailable</h3><p>${esc(error.message || error)}</p><p>Run <code>python tools/build_conversation_viewer.py</code> from the repository root, then serve the repo over HTTP.</p>`;
       console.error(error);
