@@ -245,6 +245,14 @@
     return "alternate / branch";
   }
 
+  function isRecentlyLive(c) {
+    if (c.corpus !== "live" || !c.end_local) return false;
+    const end = new Date(c.end_local);
+    if (Number.isNaN(end.getTime())) return false;
+    const age = Date.now() - end.getTime();
+    return age >= 0 && age <= 14 * 24 * 60 * 60 * 1000;
+  }
+
   function renderCatalog() {
     const needle = el.conversationFilter.value.trim().toLocaleLowerCase();
     const showDev = el.showDevelopment.checked, showLive = el.showLive.checked;
@@ -278,7 +286,7 @@
       return `<div class="conversation-card ${active ? "active" : ""}" data-id="${c.id}">
         <div class="card-date">${esc(formatDay(c.start_local))}</div>
         <div class="title">${esc(c.title)}</div>
-        <div class="meta"><span class="badge ${c.corpus === "live" ? "live" : ""}">${esc(c.corpus)}</span>
+        <div class="meta">${isRecentlyLive(c) ? `<span class="badge live">live</span>` : ""}
         <span>${Number(c.message_count).toLocaleString()} msgs</span>${group.members.length > 1 ? `<span>${group.members.length} versions</span>` : ""}</div>
         ${versions}
       </div>`;
