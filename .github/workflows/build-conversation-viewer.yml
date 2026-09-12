@@ -42,6 +42,7 @@ jobs:
         run: |
           node --check CONVERSATION_VIEWER/viewer.js
           node --check CONVERSATION_VIEWER/landmarks.js
+          node --check CONVERSATION_VIEWER/presentation.js
 
       - name: Build compact conversation catalog
         run: python tools/build_conversation_viewer.py
