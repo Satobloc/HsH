@@ -1416,10 +1416,8 @@ The package's circuit, frequency, and Compton-period identities are algebraicall
 
 A recovered former-instance audit exposed a simple overconstraint that must not recur in the finite-core lift. For a local constant-radius circular helix with orthogonal Euclidean axial and transverse velocities,
 
-[
-lVert UVert^2=dot w^2+(Romega)^2.
-]
+`||U||^2 = wdot^2 + (R omega)^2`.
 
-If total speed is fixed to (c), then (Romega=sqrt{c^2-dot w^2}). Assigning (dot w=c) simultaneously forces zero transverse winding. This is `STD/DERIVED/FROZEN` only in the stated Euclidean local ansatz. It does not establish the H(s)H metric or speed convention.
+If total speed is fixed to `c`, then `R omega = sqrt(c^2 - wdot^2)`. Assigning `wdot=c` simultaneously forces zero transverse winding. This is `STD/DERIVED/FROZEN` only in the stated Euclidean local ansatz. It does not establish the H(s)H metric or speed convention.
 
-The active kernel must therefore type (c) explicitly as total parameter speed, axial/resolver-relative propagation, phase speed, or a Lorentzian null/timelike condition. Variable radius, nesting, and moving frames require their additional velocity terms. Carrier selection remains open; this result instead supplies a transport admissibility test that applies before pitch, circulation, `ᚼ`, `ᚼᚼ`, or circuit-time claims are promoted.
+The active kernel must therefore type `c` explicitly as total parameter speed, axial/resolver-relative propagation, phase speed, or a Lorentzian null/timelike condition. Variable radius, nesting, and moving frames require their additional velocity terms. Carrier selection remains open; this result instead supplies a transport admissibility test that applies before pitch, circulation, `ᚼ`, `ᚼᚼ`, or circuit-time claims are promoted.
