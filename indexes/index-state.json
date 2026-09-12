@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1036929195,
+    "bytes_known": 1037007638,
     "directories": 54,
-    "files": 697
+    "files": 701
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 376,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 136,
+    ".md": 140,
     ".pdf": 5,
     ".png": 30,
     ".py": 12,
@@ -37,7 +37,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 67,
+    "llm-workspace": 71,
     "review-ledger": 5,
     "source-conversation-corpus": 455,
     "synthesis-workspace": 6,
@@ -60,7 +60,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 67,
+    "WORKSPACES": 71,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -646,7 +646,7 @@
       "size": 49
     },
     {
-      "content_id": "3acef43bb7e2c3f3350f51c05abf6691fc3ab52c17992bc18939af32a7e4982b",
+      "content_id": "a8a59304809ef9b4ed136546e03191bf5e12948ca8b91973925bdba61152b6ed",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -5161,11 +5161,39 @@
       "size": 43526
     },
     {
+      "content_id": "a47df66308fff0fa56981f43f9808504d9eccc92aafd4834a94d8dc04779d07a",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 21568
+    },
+    {
+      "content_id": "07ad04acbc14ef25869f393e3e4022baef7de138d47ec7fba4a3d039209166f2",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_FRAMEWORK_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 19511
+    },
+    {
+      "content_id": "fa3f5e204c44d7463b23fa5faf51b61b41188a967245696c16f80ae1ab4cea64",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_METHOD_PAPER_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 16838
+    },
+    {
       "content_id": "7c22a84062d5994b1b1f498c481c3ea745155f28203166376c74a586a91ee365",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_VISUAL_CONTACT_SHEET_GPT55_THINKING_2026-09-12.md",
       "role": "llm-workspace",
       "size": 21027
+    },
+    {
+      "content_id": "0a58ddf8e47143cdd9c66e349a0be96c0218be60057c03e2b2ead4fdf20a6972",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN__UNIVERSAL_INDICATRIX_GRAVITY__2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 20526
     },
     {
       "content_id": "487f30ea59583abba27d29a7a0b606469270e3106d7968936c05bbae07644fd1",
@@ -5511,7 +5539,7 @@
       "size": null
     },
     {
-      "content_id": "a418c82b699f0665bd1a5dad2073c0763f36b4255a0164902e46efaccd07ffc3",
+      "content_id": "b3696e4e22f97d0f3cb9d41a7352c2122c87835f82acfefd7c088feda0c11d1a",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5525,7 +5553,7 @@
       "size": 8625
     },
     {
-      "content_id": "53ec08cc8eaca318caf528932b5544c0bb1fc2acb38d782d7a11e34dbff06989",
+      "content_id": "3ce9d5fd4963f7bf6a3f15c5de3a198f93d9dc52cba9b76f89ad1397e23846c1",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5546,14 +5574,14 @@
       "size": null
     },
     {
-      "content_id": "a5d025f201527b5b8840c552d1a66bc1448e606eaae655de21451f58bcfb4400",
+      "content_id": "54952768c257f6105ac4a6cb3ffa23fd28ab1e4c94b4ee76b2cffe6b0faf8bae",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 208489
     },
     {
-      "content_id": "08411ffa5fb036670b2306cf88acfe7faf108032aad8aa2d5003ca90d99635ae",
+      "content_id": "e0d77819d2c99aa53a4beff2ea17b8c5bc0cea690832419659592628b9b923d8",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5771,8 +5799,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T20:23:44+00:00",
+  "scanned_at_utc": "2026-09-12T20:49:04+00:00",
   "schema_version": 1,
-  "tree_id": "281dcb0c0dab99144e3cec7f25cc785219ea459b4dd14d606e44e0e72c15f756",
+  "tree_id": "fed97f986c9bf7364a26c25fc3a1cde66964860fe61c8766dbbfa287a0035327",
   "tree_response_truncated": false
 }
