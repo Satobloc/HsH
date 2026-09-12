@@ -8,7 +8,7 @@
   const state = {
     catalog: [], filteredCatalog: [], conversation: null, raw: null, messages: [], rendered: 0,
     activeIndex: 0, speakerEnabled: new Map(), searchQuery: "", searchHits: [], searchCursor: -1,
-    replay: { running: false, token: 0, cruiseFrame: null },
+    replay: { running: false, token: 0, cruiseFrame: null, mode: null, currentIndex: -1, shown: 0, forceComplete: false, forceAdvance: false },
   };
 
   const ids = [
@@ -255,6 +255,21 @@
 
   function ensureRendered(index) { if (index >= state.rendered) renderNext(index + 20); }
 
+  function ensureRenderedExact(index) { if (index >= state.rendered) renderNext(index + 1); }
+
+  function prepareTypealongReplay(index) {
+    ensureRenderedExact(index);
+    el.messages.querySelectorAll(".message").forEach(node => {
+      if (Number(node.dataset.index) > index) node.remove();
+    });
+    state.rendered = index + 1;
+    state.replay.mode = "typealong";
+    state.replay.currentIndex = index;
+    state.replay.shown = 0;
+    state.replay.forceComplete = false;
+    state.replay.forceAdvance = false;
+  }
+
   function setActive(index, writeUrl = true) {
     if (!state.messages.length) return;
     index = Math.max(0, Math.min(index, state.messages.length - 1)); state.activeIndex = index;
@@ -355,21 +370,39 @@
 
   function wait(ms, token) { return new Promise(resolve => setTimeout(() => resolve(token === state.replay.token), Math.max(10, ms))); }
 
-  async function typealongMessage(index, token) {
-    ensureRendered(index); jumpToMessage(index, true);
-    const node = document.getElementById(`m${index + 1}`); if (!node) return false;
-    const body = node.querySelector(".message-body"), text = state.messages[index].text;
-    const charsPerSecond = 48 * replaySpeed(index); let shown = 0; body.textContent = "";
-    while (shown < text.length && state.replay.running && token === state.replay.token) {
-      shown = Math.min(text.length, shown + Math.max(1, Math.round(charsPerSecond / 20)));
-      body.textContent = text.slice(0, shown); node.scrollIntoView({ block: "nearest" });
-      if (!await wait(50, token)) return false;
+  async function replayGap(ms, token) {
+    const end = performance.now() + Math.max(0, ms);
+    while (state.replay.running && token === state.replay.token && performance.now() < end) {
+      if (state.replay.forceAdvance) { state.replay.forceAdvance = false; return true; }
+      const left = end - performance.now();
+      if (!await wait(Math.min(40, left), token)) return false;
     }
-    body.textContent = text; return state.replay.running && token === state.replay.token;
+    state.replay.forceAdvance = false;
+    return state.replay.running && token === state.replay.token;
+  }
+
+  async function typealongMessage(index, token) {
+    ensureRenderedExact(index); setActive(index, true);
+    const node = document.getElementById(`m${index + 1}`); if (!node) return false;
+    node.scrollIntoView({ behavior: "smooth", block: "center" });
+    const body = node.querySelector(".message-body"), text = state.messages[index].text;
+    const charsPerSecond = 48 * replaySpeed(index); let shown = 0;
+    state.replay.currentIndex = index; state.replay.shown = 0;
+    state.replay.forceComplete = false; state.replay.forceAdvance = false;
+    node.classList.add("typing"); body.textContent = "";
+    while (shown < text.length && state.replay.running && token === state.replay.token) {
+      if (state.replay.forceComplete) { shown = text.length; body.textContent = text; state.replay.shown = shown; break; }
+      shown = Math.min(text.length, shown + Math.max(1, Math.round(charsPerSecond / 20)));
+      state.replay.shown = shown; body.textContent = text.slice(0, shown); node.scrollIntoView({ block: "nearest" });
+      if (!await wait(50, token)) { node.classList.remove("typing"); return false; }
+    }
+    body.textContent = text; state.replay.shown = text.length; state.replay.forceComplete = false; node.classList.remove("typing");
+    return state.replay.running && token === state.replay.token;
   }
 
   async function runSequentialReplay(typealong) {
-    const token = ++state.replay.token; state.replay.running = true; el.replayToggle.textContent = "⏸ Pause";
+    const token = ++state.replay.token; state.replay.running = true; state.replay.mode = typealong ? "typealong" : "message"; el.replayToggle.textContent = "⏸ Pause";
+    if (typealong) prepareTypealongReplay(state.activeIndex);
     for (let i = state.activeIndex; i < state.messages.length && state.replay.running && token === state.replay.token; i++) {
       setActive(i, true); let ok = true;
       if (typealong) ok = await typealongMessage(i, token);
@@ -379,7 +412,7 @@
         el.replayStatus.textContent = `Message ${i + 1} / ${state.messages.length}`; ok = await wait(dwell, token);
       }
       if (!ok) break; state.activeIndex = i;
-      if (typealong && !await wait(Math.min(900, 300 + state.messages[i].text.length * 0.7) / replaySpeed(i), token)) break;
+      if (typealong && !await replayGap(Math.min(900, 300 + state.messages[i].text.length * 0.7) / replaySpeed(i), token)) break;
     }
     if (token === state.replay.token) stopReplay();
   }
@@ -416,7 +449,20 @@
     el.threadSearch.addEventListener("input", searchThread); el.searchPrev.addEventListener("click", () => cycleSearch(-1)); el.searchNext.addEventListener("click", () => cycleSearch(1));
     el.closeSearchDrawer.addEventListener("click", () => el.searchDrawer.classList.remove("open"));
     el.prevConversation.addEventListener("click", () => neighboringConversation(-1)); el.nextConversation.addEventListener("click", () => neighboringConversation(1));
-    el.previousMessage.addEventListener("click", () => jumpToMessage(state.activeIndex - 1)); el.nextMessage.addEventListener("click", () => jumpToMessage(state.activeIndex + 1));
+    el.previousMessage.addEventListener("click", () => jumpToMessage(state.activeIndex - 1)); el.nextMessage.addEventListener("click", () => {
+      if (state.replay.running && state.replay.mode === "typealong") {
+        const index = state.replay.currentIndex, text = state.messages[index]?.text || "";
+        if (index >= 0 && state.replay.shown < text.length) {
+          state.replay.forceComplete = true;
+          const body = document.querySelector(`#m${index + 1} .message-body`); if (body) body.textContent = text;
+          state.replay.shown = text.length;
+          return;
+        }
+        state.replay.forceAdvance = true;
+        return;
+      }
+      jumpToMessage(state.activeIndex + 1);
+    });
     el.timeline.addEventListener("input", () => { const i = Number(el.timeline.value); el.positionLabel.textContent = `${i + 1} / ${state.messages.length}`; });
     el.timeline.addEventListener("change", () => jumpToMessage(Number(el.timeline.value), false)); el.replayToggle.addEventListener("click", toggleReplay);
     el.sidebarToggle.addEventListener("click", () => el.sidebar.classList.toggle("open"));

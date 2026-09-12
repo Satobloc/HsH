@@ -192,7 +192,7 @@
     article.classList.add(`kind-${kindFor(article, rawText)}`);
     addRawToggle(article, body, rawText);
 
-    if (!article.classList.contains("search-hit") && body.dataset.view !== "raw") {
+    if (!article.classList.contains("search-hit") && !article.classList.contains("typing") && body.dataset.view !== "raw") {
       renderBody(body, rawText);
     }
   }
