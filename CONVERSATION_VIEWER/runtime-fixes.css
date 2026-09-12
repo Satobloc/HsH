@@ -10,10 +10,19 @@ html, body { height: 100%; max-height: 100%; overflow: hidden; }
 .conversation-list::-webkit-scrollbar-thumb { background: rgba(150,150,160,.45); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
 .conversation-list::-webkit-scrollbar-track { background: transparent; }
 
+/* Search results are an intentional overlay; keep them above the sticky transport/header instead of underneath it. */
+.search-drawer { z-index: 90 !important; }
+.drawer-head { position: sticky; top: 0; z-index: 2; background: #101721; }
+.search-results { min-height: 0; overflow-y: auto; }
+@media (prefers-color-scheme: light) {
+  .drawer-head { background: #fff; }
+}
+
 /* Keep the header usable on narrow/mobile screens rather than letting it disappear. */
 @media (max-width: 860px) {
   .main-pane { height: 100dvh; max-height: 100dvh; }
   .viewer-header { position: sticky; top: 0; }
   .header-actions { display: flex; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 2px; }
   .header-actions button, .header-actions .button-link { flex: 0 0 auto; }
+  .search-drawer { z-index: 100 !important; }
 }
