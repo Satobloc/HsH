@@ -322,6 +322,38 @@ Pauli exclusion rather than merely geometric impenetrability.
 assignment, deformable near-core carrier, and asymptotic exclusion mechanism
 `SRC/SAT-CANDIDATE`; ER=EPR-to-Pauli recovery `OPEN`.
 
+### Frozen local dimension hierarchy for finite-core candidates
+
+Let `gamma: I -> M^4` be a smooth embedded center history. Its normal bundle
+has rank three. For sufficiently small core radius `epsilon`, standard tubular
+neighborhood geometry therefore distinguishes:
+
+- the full normal core, with fiber `B^3` and four-dimensional total space;
+- its boundary, with fiber `S^2` and three-dimensional total space;
+- a selected rank-two material-support subbundle, with fiber `B^2` and
+  three-dimensional total space; and
+- a transverse three-dimensional resolving hypersurface, whose thin
+  intersection with those carriers is generically `B^3`, `S^2`, or `B^2`
+  respectively.
+
+These are related representations, not synonyms. Treating them as one layered
+object requires explicit inclusion, boundary, support-selection, and readout
+maps. Resolver thickness `delta` is likewise not automatically the material
+core radius `epsilon`.
+
+This hierarchy also limits the current operator notation. A general normal-core
+or boundary rotation lies in `SO(3)`; one scalar inductive angle `ᚼ` is
+insufficient until an axis, reference frame, and one-parameter subgroup are
+fixed. A `B^2` support can carry a plane angle only after its plane field and
+transport law are selected. A slice angle is not automatically the bulk
+inductive angle, and `ᚼᚼ` still requires a declared expansion variable and
+composition law.
+
+**Status:** dimension/codimension hierarchy `STD/DERIVED/FROZEN`, conditional
+on smooth embeddedness, sufficiently small radius, and transversality. Material
+carrier, topology, dynamics, Kerr/ER identification, `ᚼ` action, and physical
+readout remain `OPEN`.
+
 ## 3. Type boundary
 
 Current source material explicitly warns against sliding among a centerline, a
