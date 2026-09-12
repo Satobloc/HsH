@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1069431512,
+    "bytes_known": 1077894964,
     "directories": 58,
-    "files": 751
+    "files": 769
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 376,
+    ".json": 394,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 143,
@@ -40,7 +40,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 502,
+    "source-conversation-corpus": 520,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +52,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 502,
+    "DEVELOPMENT_FULL_CONVOS": 520,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -656,7 +656,7 @@
       "size": 49
     },
     {
-      "content_id": "f99d21aa54387d1a0aa965b2689d9ef4115659aaed8901cb23bee1e3cdfbf1e6",
+      "content_id": "6734c1aed339a395a8b604ef40c4b8e605a7a433d03e3492024d9e060fb1f0be",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2798,11 +2798,53 @@
       "size": 507907
     },
     {
+      "content_id": "40119b960a5bb211aa08963987e904e5457dc8b8558dd0f81ff3289fc657b9ef",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Clarify TOE meaning — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 62201
+    },
+    {
+      "content_id": "f3ae0560f52943014e34175aa4795a0fb4c211d885406531e0043ac88235fc40",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Concise Persona Guidelines — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 137498
+    },
+    {
+      "content_id": "5f5750eb0dc9afe46fa0815674ee1b69dce7e11cf6c1c7f12742c68dda2cab1b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Credulity meter placement — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 318824
+    },
+    {
+      "content_id": "af7bbe902d409e66f5f67e9488159320f2052f077d2cfa2dbe0cc3d62cb04751",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 581675
+    },
+    {
       "content_id": "fd8ce6b5bbfa4ef4ef8b424c427406c10e82b127bfbd39bf8c3c82a521fc705e",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/FujiFilm xray SHR-U (HR-T30) wavelength sensitivity.PNG",
       "role": "source-conversation-corpus",
       "size": 50735
+    },
+    {
+      "content_id": "06f4414b11c776a829402aa24c664bb8e346ca5ec0b31335e9b5d3cd69992854",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Functional equivalence principle — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 212390
+    },
+    {
+      "content_id": "2468ab6880fd9112458d1de23909da2b04a111da5c9103dd2b4320b3789aa60b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Grade ΛCDM rubric — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1934492
     },
     {
       "content_id": null,
@@ -2854,6 +2896,27 @@
       "size": 4939
     },
     {
+      "content_id": "639e4e9991631153a870bf031fa4d9889ca2e9218f637ad7209dc635b15e0763",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Interstellar object A11pl3Z — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1362047
+    },
+    {
+      "content_id": "f439da3d0fc98ca694457e456c40f0ed424aff16bd224bfd037f444d691e91c5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB 1_ Validation Lead — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 743614
+    },
+    {
+      "content_id": "693c4e14a48feee09f2774c090b109ac736c7f066fc49eb84e54471b44a5e987",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Lean 4 path fix — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 152321
+    },
+    {
       "content_id": "b50787242e329845326d90907f4e3b9556f89bea6c047ea67d734ff921073b28",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf",
@@ -2861,11 +2924,46 @@
       "size": 412967
     },
     {
+      "content_id": "80fe8b58b7632db9ea0fb9502df0af49a54c3aebb1b736a6ed96bf3a03b2e101",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 662251
+    },
+    {
+      "content_id": "fbc4daa6546ade20950d18e3707d498ac95bc3bfc0d8f5dd2f952abf3e2b6e39",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 286628
+    },
+    {
       "content_id": "1b8ef3b227413f39c07e163ce6d2d67c43142b6b2c9c64971684a26d3bf53708",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png",
       "role": "source-conversation-corpus",
       "size": 6400142
+    },
+    {
+      "content_id": "9378573711c3d4fc10e6faea3fda1d8b2136276b7562b763b9efbd0ff2206777",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 109679
+    },
+    {
+      "content_id": "963404f525d7d96a68bf52c26a566849f8b99603e2d99ef803c37a7431517973",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 342746
+    },
+    {
+      "content_id": "e95e9471c56229160c7ccaea7e89553acd9003c9980a3fce69b06f010f22c4b2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 190928
     },
     {
       "content_id": null,
@@ -3001,6 +3099,13 @@
       "size": 14537491
     },
     {
+      "content_id": "a81b3d7b4b594e0eea3372e68b7fe917539aca002fde4f7cd8213dbf9ef9a8f7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 234786
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS",
@@ -3097,6 +3202,27 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf",
       "role": "source-conversation-corpus",
       "size": 289507
+    },
+    {
+      "content_id": "4fe4468735d4dfaa463ebb2bf73711b223934da052164ab59f09f5119ff03dc2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 461209
+    },
+    {
+      "content_id": "3c760b368b7e5d8603ea2caf22cde13661ae2c23eabc8de0044671d7d9800994",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 461208
+    },
+    {
+      "content_id": "192fb2ef19f47064f06bec0651f508417d820668cdd1b42a457ce1715a51714d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Worldlines and Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 195994
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -5920,11 +6046,11 @@
       "size": null
     },
     {
-      "content_id": "3a36aeb70ca426f07594e543d8eadeb50f31a398947dffbd8ae95271ff9018c8",
+      "content_id": "9d838e9914d33bad0f286d031f79dcbe4d323d5df5d4d297d74084ebc03655a8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 127450
+      "size": 130738
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5934,7 +6060,7 @@
       "size": 8625
     },
     {
-      "content_id": "313720764e3ac181b615992efb64761b35fc8e429334c98b94b3a66fac166cd9",
+      "content_id": "825f9389016e848f14e7ed5ad831692ccf7e5730ad99f249c0e7ede020c17366",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5955,14 +6081,14 @@
       "size": null
     },
     {
-      "content_id": "608d074909e0336eeecce92cca00d774289258185cd67d8851ec4dd059847240",
+      "content_id": "3bad191bdc76af00682c792b09eb8d40557738aa6e44b929f3e4fe41526621ef",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 221698
+      "size": 231371
     },
     {
-      "content_id": "80bea74c8706fd890c83be2e7d3f440e295190ca1060f8d70ee5c583ab5f2532",
+      "content_id": "f1a06ee9a3f81bf2285d19b13eac4bc0fdfe5c1124e27d19178dbcabf96920c0",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6180,8 +6306,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:32:56+00:00",
+  "scanned_at_utc": "2026-09-12T22:37:02+00:00",
   "schema_version": 1,
-  "tree_id": "d41987110c78b1dccce788ebaa3e18066b216ea51accc654b3c7ab734e404ae3",
+  "tree_id": "1ac62e5cfea92706ec5e205b4d198c1c97424a961a1615e49bd65d090ec55324",
   "tree_response_truncated": false
 }

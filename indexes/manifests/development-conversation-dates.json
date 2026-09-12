@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T22:32:49.215969+00:00",
+  "generated_at_utc": "2026-09-12T22:36:52.568540+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 365,
     "skipped": 85,
-    "blocked": 18,
+    "blocked": 36,
     "collision": 1
   },
   "records": [
@@ -2868,6 +2868,78 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Clarify TOE meaning — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•25.09.14•Clarify TOE meaning — raw.json",
+      "start_local": "2025-09-14T22:36:17.445353-04:00",
+      "end_local": "2025-09-14T22:39:07.072617-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 7,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Concise Persona Guidelines — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json",
+      "start_local": "2025-07-25T17:08:31.651000-04:00",
+      "end_local": "2026-09-12T18:00:46.557921-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 26,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Credulity meter placement — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13•26.09.12•Credulity meter placement — raw.json",
+      "start_local": "2025-09-13T02:02:21.699306-04:00",
+      "end_local": "2026-09-12T17:48:39.302979-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
+      "start_local": "2026-02-24T16:29:54.904123-05:00",
+      "end_local": "2026-09-12T17:10:08.737069-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 87,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Functional equivalence principle — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Functional equivalence principle — raw.json",
+      "start_local": "2025-11-16T15:05:08.185559-05:00",
+      "end_local": "2026-09-12T17:28:13.576000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 54,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Grade ΛCDM rubric — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•26.09.12•Grade ΛCDM rubric — raw.json",
+      "start_local": "2025-09-14T22:47:10.317960-04:00",
+      "end_local": "2026-09-12T17:39:32.204709-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 48,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/FREE MODE PRIORITIES.txt",
       "new_path": null,
       "start_local": null,
@@ -2937,6 +3009,102 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Interstellar object A11pl3Z — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "start_local": "2025-10-07T16:22:44.478693-04:00",
+      "end_local": "2026-09-12T17:36:41.955000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 160,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T18:04:36.764577-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 149,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Lean 4 path fix — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29•26.09.12•Lean 4 path fix — raw.json",
+      "start_local": "2025-10-29T19:02:14.716000-04:00",
+      "end_local": "2026-09-12T17:31:07.884920-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 51,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Memory Status 확인 — raw.json",
+      "start_local": "2026-02-24T15:34:25.856647-05:00",
+      "end_local": "2026-09-12T17:03:54.386574-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 61,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Morsefish meaning exploration — raw.json",
+      "start_local": "2025-11-16T10:38:21.359945-05:00",
+      "end_local": "2026-09-12T17:24:15.390861-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 83,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10•26.09.12•Optical setup breakdown — raw.json",
+      "start_local": "2025-09-10T11:24:34.672326-04:00",
+      "end_local": "2026-09-12T17:50:49.955814-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 20,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07•26.09.12•Prediction validation search — raw.json",
+      "start_local": "2025-09-07T20:35:24.736739-04:00",
+      "end_local": "2026-09-12T17:55:10.202765-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
+      "start_local": "2025-12-29T19:52:53.360734-05:00",
+      "end_local": "2026-09-12T17:18:57.536833-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
       ]
     },
     {
@@ -3144,6 +3312,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.01.20•26.09.12•SAT Lookup Framework — raw.json",
+      "start_local": "2026-01-20T05:38:51.239096-05:00",
+      "end_local": "2026-09-12T17:06:05.432567-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 23,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt",
       "new_path": null,
       "start_local": null,
@@ -3285,6 +3465,42 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
+      "start_local": "2025-12-30T00:31:34.043090-05:00",
+      "end_local": "2026-09-12T17:19:31.784831-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 73,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
+      "start_local": "2025-12-30T00:31:34.043090-05:00",
+      "end_local": "2026-09-12T17:19:31.784831-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 73,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Worldlines and Unification — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.23•26.09.12•Worldlines and Unification — raw.json",
+      "start_local": "2026-02-23T07:57:36.902000-05:00",
+      "end_local": "2026-09-12T17:15:28.650453-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 37,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
       ]
     },
     {
