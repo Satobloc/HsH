@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T03:10:31+00:00`
-- Tree/content state: `4c93dab9a67b3d285d99f38eaf1e54750b440fbd13fe5db4d5939f8ca15d9af6`
-- Coverage: 454 files, 45 directories
+- Scanned: `2026-09-12T03:26:11+00:00`
+- Tree/content state: `678385085a23d5d74108b6988a3e06d0c8b411841854c5ef08252da21aebc591`
+- Coverage: 455 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `!_CONVERSATION_VIEWER.md` | 1 |
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 13 |
+| `CONVERSATION_VIEWER` | 14 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -43,7 +43,7 @@
 | Extension | Files |
 |---|---:|
 | `.cmd` | 1 |
-| `.css` | 2 |
+| `.css` | 3 |
 | `.csv` | 6 |
 | `.docx` | 1 |
 | `.htm` | 1 |
@@ -81,7 +81,7 @@
 | `source-conversation-corpus` | 283 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 85 |
+| `unclassified` | 86 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -270,10 +270,11 @@
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/conversations.json` — 173028 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 5263 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 5410 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13018 bytes — `unclassified`
+- `CONVERSATION_VIEWER/runtime-fixes.css` — 1395 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 11268 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 30476 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
