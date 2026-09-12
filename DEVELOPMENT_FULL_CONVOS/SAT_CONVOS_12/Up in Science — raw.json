@@ -1,0 +1,197 @@
+{
+  "title": "Up in Science",
+  "create_time": 1709576485.345545,
+  "update_time": 1709576736.303339,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "6c545f7a-e928-404d-9477-dcacda249b5c",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa158fc-af86-49ff-8f81-56db168f19f6": {
+      "id": "aaa158fc-af86-49ff-8f81-56db168f19f6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa2044d-7da7-45ba-8b7f-df9fea8c96f5"
+      ]
+    },
+    "aaa2044d-7da7-45ba-8b7f-df9fea8c96f5": {
+      "id": "aaa2044d-7da7-45ba-8b7f-df9fea8c96f5",
+      "message": {
+        "id": "aaa2044d-7da7-45ba-8b7f-df9fea8c96f5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709576485.34634,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you give me an overly-literal answer to the question \"What's up?\" that accurately and precisely defines the word \"up\" in a scientific sense?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "85f3e2c68bf3111c-ORD",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa158fc-af86-49ff-8f81-56db168f19f6",
+      "children": [
+        "e84f14da-c34f-4fc9-8b5a-a8995d052373"
+      ]
+    },
+    "e84f14da-c34f-4fc9-8b5a-a8995d052373": {
+      "id": "e84f14da-c34f-4fc9-8b5a-a8995d052373",
+      "message": {
+        "id": "e84f14da-c34f-4fc9-8b5a-a8995d052373",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709576487.938228,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Certainly! In the scientific sense, \"up\" refers to the direction opposite to the gravitational pull experienced at a particular location on a celestial body, such as Earth. This direction is typically oriented away from the center of the celestial body and is commonly referred to as the vertical direction."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "acfedcd4-eba7-422d-b747-6a936752527a",
+          "request_id": "85f3e2c68bf3111c-ORD",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2044d-7da7-45ba-8b7f-df9fea8c96f5",
+      "children": [
+        "aaa261ec-5225-45b6-bd1f-248900a8b94a"
+      ]
+    },
+    "aaa261ec-5225-45b6-bd1f-248900a8b94a": {
+      "id": "aaa261ec-5225-45b6-bd1f-248900a8b94a",
+      "message": {
+        "id": "aaa261ec-5225-45b6-bd1f-248900a8b94a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709576733.409289,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Excellent. This closely matches the definition I've been using for many years now to respond to \"What's up?\" when I'm in a flippant mood. Can you look at my definition below, and assess its accuracy and style vis-à-vis your own?\n\n\"With respect to a given gravitational field, 'up' is any of a set of directions oriented away from the center of that field.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "85f3e8d67ad210fe-ORD",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e84f14da-c34f-4fc9-8b5a-a8995d052373",
+      "children": [
+        "96a29543-c797-4fac-9ed8-78522ee96e11"
+      ]
+    },
+    "96a29543-c797-4fac-9ed8-78522ee96e11": {
+      "id": "96a29543-c797-4fac-9ed8-78522ee96e11",
+      "message": {
+        "id": "96a29543-c797-4fac-9ed8-78522ee96e11",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709576736.299227,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Your definition is quite accurate and captures the scientific concept of \"up\" with precision. It effectively conveys the idea that \"up\" is a direction away from the center of a gravitational field. However, it could be made slightly more concise for general use. Here's a slightly streamlined version:\n\n\"In the context of a gravitational field, 'up' refers to any direction away from the field's center.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa261ec-5225-45b6-bd1f-248900a8b94a",
+          "request_id": "85f3e8d67ad210fe-ORD",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa261ec-5225-45b6-bd1f-248900a8b94a",
+      "children": []
+    }
+  },
+  "current_node": "96a29543-c797-4fac-9ed8-78522ee96e11",
+  "context_truncation_continuation": null
+}
