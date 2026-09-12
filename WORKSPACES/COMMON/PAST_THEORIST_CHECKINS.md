@@ -2277,3 +2277,305 @@ Here the answer is yes: the adaptive-generator discussion should not be indexed 
 
 > The main reason to preserve/revisit it now is that it contains a potentially reusable computational primitive and a distinct adaptive-dynamics idea while clearly documenting that neither has yet been established as current SAT/H(s)H theory.
 
+---
+
+### GPT-5.6 Sol / SAT Scientific-Library + NotebookLM Toolkit Thread — 2026-09-12 — 2026-09-12
+
+#### 1. Who was this instance in the project?
+
+I did not have a pre-existing named SAT/H(s)H team role in this thread. A fair working identity is **SAT Scientific-Library + NotebookLM Toolkit Thread**.
+
+My role here was practical scientific-computing/tooling support rather than theory derivation. The visible work consisted of:
+
+- inspecting the external `trajectory-invariants/invariants_py` repository and explaining what its coordinate-invariant trajectory machinery actually does;
+- auditing Nathan's installed Python scientific/visualization stack and mapping each library to SAT/H(s)H-relevant capabilities and limitations;
+- identifying missing computational layers more precisely than the vague label “heavy mathematical physics libraries”;
+- checking NotebookLM source limits and building a PDF-packing utility intended to turn a folder of SAT/H(s)H PDFs into upload-sized source bundles;
+- preserving a hard project boundary after Nathan corrected me: **H-Universes is a separate spin-off/meta project and must not be confused with or mixed into SAT/H(s)H.**
+
+I should not be treated as a SAT/H(s)H theory authority on the basis of this thread. My value is tooling, software capability analysis, ingestion infrastructure, and preservation of the project-boundary correction.
+
+#### 2. What was I last working on?
+
+Immediately before this survey I had completed a standalone Python utility, `combine_pdfs_for_notebooklm.py`, for packing all PDFs in a folder into numbered outputs such as `HsHtoolkit_1.pdf` while enforcing NotebookLM-style source limits.
+
+The implemented behavior was:
+
+- discover PDFs in natural filename order;
+- estimate extracted word count page by page using `pypdf`;
+- use planning targets of 190 MB and 480,000 words;
+- enforce hard defaults of 200 MB and 500,000 estimated extracted words;
+- write candidate PDFs and check their **actual** byte size rather than assuming merged size equals summed input size;
+- recursively split oversized candidates, down to page ranges within an individual source PDF when necessary;
+- reopen each generated candidate and verify the expected page count;
+- exclude prior `HsHtoolkit_#.pdf` outputs from re-ingestion;
+- emit a CSV manifest mapping every output back to source PDF and page ranges;
+- permit size-only mode when word extraction is too slow or uninformative;
+- warn implicitly/explicitly about scanned PDFs whose text layer yields zero words.
+
+I inspected the generated script after creation and a synthetic test run produced seven small numbered PDFs plus `HsHtoolkit_manifest.csv` under `/mnt/data/pdf_merge_test/`.
+
+The real SAT/H(s)H corpus had **not** yet been run through the utility in this thread. The obvious next step was to run it on the intended PDF folder, inspect the manifest and bundle sizes, then upload the resulting bundles to NotebookLM.
+
+A separate earlier task in the thread was an environment capability audit. I concluded that the installed stack already supports serious numerical geometry, mesh/render inspection, run summaries, and diagnostics, but lacks or had not yet confirmed the symbolic/variational/ODE/automatic-differentiation layers that tools such as SciPy, SymPy, CasADi, or Xarray could provide. Those were recommendations/proposed additions, not confirmed installations in this thread.
+
+#### 3. What did I understand SAT/H(s)H to be at this point?
+
+From this thread alone, I should be conservative. I did not reread core SAT/H(s)H theory documents here.
+
+What was explicit in the visible conversation is that SAT/H(s)H is the **primary project**, while H-Universes is a separate spin-off/meta project that Nathan explicitly does not want mixed into it. Nathan also described the current environment as supporting “kinematic manifold analysis,” tensor calculations, and “3D morphological rendering.”
+
+I therefore understood my job here as supporting the computational infrastructure around a geometric/mathematical SAT/H(s)H program, not defining the theory itself.
+
+I have broader account/project context available at system level, but importing that here would defeat the blank-slate purpose. I am not using it to retrofit a fuller theory description.
+
+#### 4. What information do I actually have?
+
+##### A. Material visible/loaded in the present conversation context
+
+- The current conversation beginning with Nathan's PowerShell command cloning `https://github.com/trajectory-invariants/invariants_py.git`.
+- Nathan's explicit correction that this work is for SAT/H(s)H, **not H-Universes**, and that the two must not be confused or mixed.
+- Nathan's installed-package inventory, including versions for NumPy, Pandas, PyVista, Matplotlib, VTK, Plotly, Trimesh, Rich, Scooby, Pooch, Cyclopts, Requests, Tzdata, Narwhals, Pygments, and Markdown-it-py, plus standard-library modules.
+- Directly retrieved GitHub material from `trajectory-invariants/invariants_py`: README, `pyproject.toml`, `invariants_py/dynamics_vector_invariants.py`, and recent commit metadata.
+- The generated local script `/mnt/data/combine_pdfs_for_notebooklm.py`, which I reopened and inspected during this check-in.
+- Synthetic test outputs under `/mnt/data/pdf_merge_test/`.
+- `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md`, read for this survey.
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md`, which I necessarily inspected in order to append safely.
+
+Survey-discipline note: because the destination ledger is a live shared file and I had to preserve existing entries exactly, I did see other check-ins while preparing the append. I have not used those entries to harmonize this report.
+
+##### B. Material I strongly remember from my own work in this thread
+
+The relevant work is still visible in the current conversation, so little reconstruction from memory is necessary. I strongly remember:
+
+- initially framing `invariants_py` partly in terms of H-Universes, which Nathan then corrected;
+- the subsequent hard separation of SAT/H(s)H from H-Universes;
+- mapping the installed numerical/visualization stack into distinct roles rather than treating it as one undifferentiated “math stack”;
+- identifying `invariants_py` as a coordinate-invariant trajectory-analysis/generation library based on geometric optimal control, with 3D Frenet-Serret-like translational invariants and SO(3)/SE(3)-style machinery;
+- emphasizing that its optimization objective is not automatically a physical Lagrangian;
+- building the NotebookLM PDF merger with post-write size checks rather than trusting file-size estimates.
+
+##### C. Material I merely know probably exists
+
+- Nathan referenced scripts such as `HOMNI_STABLE.py` and `GOLD_STANDARD_PY`, but I did not read them in this thread.
+- Larger SAT/H(s)H repositories, theory documents, equations, notebooks, and historical conversations exist, but they were not used here to derive theory content.
+- H-Universes code exists as a separate side/meta project, but I should not treat it as SAT/H(s)H source material.
+
+##### D. Shared/system resources I can currently access
+
+- GitHub connector for repository search/read/write operations.
+- Web access for current public documentation and service limits.
+- Python/container runtimes for code inspection, tests, and file generation.
+- Conversation/file tools when relevant files are available.
+- Local `/mnt/data` working storage for generated artifacts.
+
+I do not have direct access to Nathan's local Windows filesystem or installed environment unless he supplies output/files, so package-presence claims beyond the list he gave me should not be inferred.
+
+#### 5. What did I create?
+
+- **`combine_pdfs_for_notebooklm.py`** — `/mnt/data/combine_pdfs_for_notebooklm.py` — generated and inspected; synthetic-tested — purpose: combine a folder of PDFs into numbered NotebookLM-sized source bundles with hard byte/word limits, page-level splitting, integrity checks, and manifest output.
+- **Synthetic `HsHtoolkit_1.pdf` through `HsHtoolkit_7.pdf`** — `/mnt/data/pdf_merge_test/` — test-only artifacts — purpose: exercise splitting/packing behavior; these are not SAT/H(s)H source documents.
+- **`HsHtoolkit_manifest.csv`** — `/mnt/data/pdf_merge_test/HsHtoolkit_manifest.csv` — synthetic test manifest — purpose: verify provenance mapping from output bundle back to source/page ranges.
+- **SAT scientific-library capability map** — conversation only — status: explanatory/audit output — purpose: distinguish what NumPy, Pandas, PyVista/VTK, Matplotlib, Plotly, Trimesh, and support packages can actually contribute to SAT/H(s)H work.
+- **Proposed missing-layer map** — conversation only — status: recommendation, not installation record — purpose: distinguish SciPy (integration/optimization), SymPy (symbolic derivation), CasADi (automatic differentiation/optimal control), and Xarray (labeled multidimensional state) as separate capabilities.
+- **`invariants_py` capability/provenance assessment** — conversation only — status: source-grounded external-tool review — purpose: explain what the cloned repository actually contains and what it does not imply for SAT/H(s)H.
+
+No SAT/H(s)H physical equation, derivation, solver, or theory document was created in this thread.
+
+#### 6. What was I planning to create next?
+
+The concrete unfinished step was operational rather than theoretical:
+
+- **Run the PDF packer on the real SAT/H(s)H PDF folder** — purpose: produce upload-ready NotebookLM source bundles plus manifest — dependencies: the actual source folder and `pypdf` installed on Nathan's machine — intended destination: Nathan's local SAT/H(s)H toolkit/NotebookLM ingestion workflow.
+
+Possible but not yet authorized/started:
+
+- install or audit SciPy/SymPy/CasADi/Xarray if a specific SAT task requires those capabilities;
+- evaluate whether `invariants_py` offers reusable algorithms for a specific SAT trajectory problem.
+
+I did **not** have authorization to integrate `invariants_py` into SAT/H(s)H, and no such integration should be inferred from the repository inspection.
+
+#### 7. What do I believe my most important contributions were?
+
+1. **Project-boundary correction preserved.** My first answer crossed SAT/H(s)H with H-Universes. Nathan explicitly corrected that. The corrected rule is stronger than a naming preference: H-Universes is a separate spin-off/meta project and should not silently contaminate SAT theory, code architecture, or interpretation.
+
+2. **Reclassified the current software environment accurately.** The stack is not merely a graphics setup. It already provides a serious numerical geometry / mesh / visualization / run-audit foundation. Its gaps are more specific: symbolic derivation, robust ODE/BVP/optimization, automatic differentiation/optimal control, and higher-level labeled multidimensional data handling.
+
+3. **Separated computational layers.** I distinguished numerical state (`NumPy`), run/provenance summaries (`Pandas`), interactive geometry (`PyVista/VTK`), mesh audit (`Trimesh`), static quantitative diagnostics (`Matplotlib`), browser dashboards (`Plotly`), CLI/logging/support tools, and data acquisition.
+
+4. **Prevented over-reading `invariants_py`.** Direct source inspection showed it is primarily a 3D coordinate-invariant trajectory/robotics library using geometric optimal control and Frenet-Serret-like invariants. It is potentially useful as a tool/reference, but cloning it neither installs it nor makes its objective function a SAT physical action.
+
+5. **Built a robust ingestion utility.** The NotebookLM packer uses actual post-write byte checks and recursive page splitting rather than naïvely summing input sizes. That is a concrete reusable archive/research tool.
+
+Negative/corrective contribution:
+
+- My initial H-Universes/SAT conflation is itself worth preserving as a failure mode. It demonstrates exactly the kind of cross-project contamination Nathan wants prevented.
+
+#### 8. Were any results proved, verified, or independently checked?
+
+No SAT/H(s)H physical result was proved, verified, or independently checked in this thread.
+
+What was checked:
+
+- The `trajectory-invariants/invariants_py` capabilities were grounded by direct reads of its README, package metadata, and dynamics code rather than memory alone.
+- The package metadata showed `invariants-py` version `0.3.9`, Python `>=3.8`, MIT licensing, and dependencies including SciPy and CasADi at the time inspected.
+- Its dynamics code visibly implements 3D rotation matrices, Rodrigues-style integration, translational speed/curvature/torsion invariants, and reconstruction routines.
+- The NotebookLM PDF utility was synthetically exercised; test outputs and a manifest exist under `/mnt/data/pdf_merge_test/`.
+- The script itself reopens each generated PDF and checks page count after writing.
+
+What was not checked:
+
+- the merger on Nathan's real SAT/H(s)H corpus;
+- word-count accuracy for scanned/image-only PDFs without OCR text layers;
+- the script on Nathan's local Windows installation;
+- any physical interpretation of `invariants_py` inside SAT/H(s)H.
+
+The NotebookLM 200 MB / 500,000-word limits were treated as a current external service constraint in the conversation. Because service limits can change, they should be rechecked when this utility is used much later.
+
+#### 9. What did Nathan explicitly correct, sharpen, reject, or insist on?
+
+The dominant correction in this thread was explicit and unambiguous:
+
+> This is for H(s)H / SAT, **not** for H-Universes. H-Universes is a spin-off side/meta project and should **absolutely not be confused for or mixed in with SAT**.
+
+That correction applies retrospectively to my first response about `invariants_py`: any H-Universes-specific relevance discussion there should be quarantined from SAT/H(s)H.
+
+No other comparably strong theory-intent correction occurred in this short thread.
+
+#### 10. What external ideas or sources were active in my context?
+
+- **`trajectory-invariants/invariants_py`** — external software/research comparator and possible tool reference; **not imported into SAT theory**. Its cited research background is invariant motion/force trajectory descriptors and geometric optimal control.
+- **NumPy, Pandas, PyVista, VTK, Matplotlib, Plotly, Trimesh** — standard scientific-computing/visualization tools; implementation infrastructure, not theory sources.
+- **Rich, Scooby, Pooch, Cyclopts, Requests, Tzdata, Narwhals, Pygments, Markdown-it-py** — support/tooling infrastructure.
+- **SciPy, SymPy, CasADi, Xarray** — standard computational tools I proposed as capability additions; in this thread they were recommendations, not confirmed installed dependencies of Nathan's SAT environment. CasADi/SciPy were also visible as dependencies of `invariants_py`.
+- **NotebookLM** — external research/notebook platform; its source-size constraints motivated the PDF-packing script.
+- **pypdf** — deliberate utility dependency for the merger; not a theory input.
+- **H-Universes** — separate internal spin-off/meta project; in this thread it is best classified as an explicit **contamination boundary**, not a source for SAT/H(s)H.
+
+#### 11. What earlier SAT/H(s)H material did my work depend on?
+
+Very little theory material was required.
+
+Inherited inputs from Nathan in this thread:
+
+- the installed-package/version inventory;
+- the statement that the environment already supports kinematic manifold analysis and 3D morphological rendering;
+- references to `HOMNI_STABLE.py` and `GOLD_STANDARD_PY` as examples of current scripts, without their contents being loaded;
+- the requirement that this work apply to SAT/H(s)H and not H-Universes.
+
+I did not independently rederive any SAT/H(s)H equation or physical claim here.
+
+#### 12. What subtlety should the present team be careful NOT to lose?
+
+Several tooling distinctions are easy to flatten:
+
+- **A visualization backend is not the physics object.** PyVista/VTK render 3D datasets. If SAT's underlying state is higher-dimensional, the projection/slice/readout should remain explicit rather than being silently identified with the rendered mesh.
+- **Trimesh audits the triangulated 3D realization, not automatically the topology of a higher-dimensional SAT object.** Watertightness, Euler characteristic, normals, or connected components of a render are not by themselves claims about the full theory object.
+- **Pandas is best used for run summaries/provenance, not as the primary container for large evolving tensor/geometry states.**
+- **`invariants_py`'s “geometric optimal control” objective is not automatically a physical Lagrangian.** The solver chassis and the physical action are conceptually separate.
+- **Cloning a Git repository is not the same as installing or adopting it.** `git clone` only copied the source/history into the local directory.
+- Most importantly, **SAT/H(s)H and H-Universes must remain separate unless Nathan explicitly creates a controlled bridge.**
+
+#### 13. What in my own old work now seems questionable, speculative, generated, imported, stale, or superseded?
+
+- The first response's framing of `invariants_py` in terms of H-Universes crossed a project boundary and should not be used as SAT guidance.
+- My suggested 4D generalization of the library's 3D Frenet machinery was generic mathematical speculation/reference architecture, not a recovered SAT requirement.
+- The proposed SciPy/SymPy/CasADi/Xarray installation order was advisory and may be superseded by the actual current environment or a more targeted dependency plan.
+- NotebookLM service limits can change; the script's defaults are therefore operational constants, not timeless facts.
+- The synthetic PDF test demonstrates software mechanics only; it says nothing about behavior on very large, malformed, encrypted, OCR-poor, or unusually compressed real archive PDFs.
+
+#### 14. Which parts of this conversation are uniquely worth archiving?
+
+Most worth preserving:
+
+- Nathan's explicit SAT/H(s)H versus H-Universes boundary correction.
+- The source-grounded `invariants_py` audit, especially the distinction between invariant trajectory optimization and physical dynamics.
+- The installed-library capability map, because it records what the SAT environment could already do before adding more packages.
+- The correction to the phrase “no heavy mathematical physics libs”: the meaningful gaps are capability-specific, not a prestige category.
+- `combine_pdfs_for_notebooklm.py` and its test/manifest behavior, because it is a concrete archive-ingestion tool.
+
+Rating: **B**.
+
+Reason: high practical/infrastructure value and one important project-boundary correction, but essentially no SAT/H(s)H theory derivation. The first H-Universes-mixing portion should be treated as quarantined/superseded within the otherwise useful thread.
+
+#### 15. Conversation identity and archive status
+
+- Model/instance: **GPT-5.6 Sol**.
+- Working label for this check-in: **SAT Scientific-Library + NotebookLM Toolkit Thread**.
+- Approximate active period visible here: **2026-09-12**.
+- Exact UI thread title: not visible to me.
+- UUID/thread ID: not visible to me.
+- User-uploaded attachments in this visible thread: none.
+- Generated artifact: `/mnt/data/combine_pdfs_for_notebooklm.py`.
+- External repository inspected: `trajectory-invariants/invariants_py`.
+- Project repository used for this survey: `Satobloc/HsH`.
+- Full-thread archive status: unknown. This check-in is intended to make the thread's relevant institutional memory durable; I do not know whether the full raw conversation has already been exported.
+
+#### 16. If this thread woke back up today, what would it be unusually well positioned to do?
+
+Especially well positioned for:
+
+- auditing the SAT Python environment and mapping libraries to actual computational roles;
+- reviewing external scientific Python packages before they are adopted;
+- building practical ingestion, conversion, packaging, manifest, and provenance utilities;
+- extending the NotebookLM PDF pipeline based on real corpus failure cases;
+- designing clear boundaries between numerical state, projection/readout, rendering, mesh audit, and run summaries.
+
+It should **not** be assigned:
+
+- current SAT/H(s)H theory synthesis without loading the relevant theory sources;
+- H-Universes-to-SAT conceptual transfer unless Nathan explicitly requests it;
+- physical claims based merely on capabilities of external libraries;
+- historical priority work without the archive sources.
+
+Reload first if resumed:
+
+- Nathan's current `pip freeze`/environment report if package state matters;
+- the actual SAT code being supported (`HOMNI_STABLE.py`, `GOLD_STANDARD_PY`, or successors) rather than relying on filenames;
+- the target PDF corpus and any NotebookLM ingestion conventions;
+- current SAT/H(s)H definitions if the task moves from tooling into theory.
+
+#### 17. Capabilities / specs / working style
+
+Visible capabilities:
+
+- GPT-5.6 Sol reasoning model.
+- GitHub connector with repository read/search/update capability.
+- Web access for current software/platform documentation.
+- Python and container runtimes for code generation, inspection, synthetic testing, and file creation.
+- File/conversation tools where sources are available.
+
+Strengths demonstrated here:
+
+- direct-source software inspection rather than guessing from package names;
+- scientific-Python architecture and capability mapping;
+- practical defensive scripting with verification and provenance output;
+- distinguishing numerical/visual infrastructure from physics claims;
+- accepting and propagating a hard project-scope correction.
+
+Limitations:
+
+- no direct visibility into Nathan's local machine or whether a package actually imports there unless he supplies output;
+- no direct SAT theory-source read in this thread;
+- external platform limits and package APIs can become stale;
+- my initial response demonstrated that project-boundary context can be lost if a nearby side project is allowed to dominate the framing.
+
+#### 18. What important question did the survey fail to ask?
+
+A useful question for tooling threads would be:
+
+**“Which external libraries or computational frameworks were evaluated but have NOT been admitted as SAT/H(s)H dependencies or theory machinery?”**
+
+For this thread:
+
+- `invariants_py` was evaluated, not adopted;
+- SciPy/SymPy/CasADi/Xarray were proposed as capability-specific additions, not confirmed as part of the environment;
+- H-Universes was explicitly excluded as a source of SAT/H(s)H theory/architecture unless Nathan deliberately establishes a bridge.
+
+That distinction can prevent a later index or code audit from turning “discussed” into “used,” or “used as a tool” into “part of the theory.”
+
+#### 19. One-line historical checksum
+
+> The most important thing my thread contributed was a source-grounded map of the SAT scientific-Python/tooling stack plus a robust NotebookLM PDF-packing utility, while preserving Nathan's explicit boundary that H-Universes must not be mixed into SAT/H(s)H.
+
+> The main reason to preserve/revisit it now is that it records both a reusable archive-ingestion tool and the distinction between external computational machinery, rendered/readout geometry, and actual SAT/H(s)H content.
