@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 863733720,
+    "bytes_known": 863796023,
     "directories": 48,
-    "files": 554
+    "files": 563
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 3,
-    ".json": 313,
+    ".json": 322,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 68,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 383,
+    "source-conversation-corpus": 392,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 85,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 14,
-    "DEVELOPMENT_FULL_CONVOS": 383,
+    "DEVELOPMENT_FULL_CONVOS": 392,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -599,11 +599,11 @@
       "size": null
     },
     {
-      "content_id": "87c644b6675b1cb9dadb27da0cf1b1b4010a8854e4280f9f46f12fe1475cd191",
+      "content_id": "2dc661f22e8396c66b65bc396009308e00a0a910ba270111109507dd193ffb5a",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 286779
+      "size": 294118
     },
     {
       "content_id": null,
@@ -2095,6 +2095,69 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23•24.12.23•String Configurations Generation — raw.json",
       "role": "source-conversation-corpus",
       "size": 14224
+    },
+    {
+      "content_id": "5afffff8965bc2025deb917ae6836ac6c1497263dc1d3d028d5c6603db793f68",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 3976
+    },
+    {
+      "content_id": "bcfd616fd31f83583edc32a632bb7e4daa29dd82f247c2e97c8ced7a5d5271a1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6915
+    },
+    {
+      "content_id": "29d65270a17f7f3eac5fb1ca144da03a1f59acba4b7f666f8fbe5ed0e3d86369",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B equation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4079
+    },
+    {
+      "content_id": "52316e2df880e362984ceffabf8944f45272417086372725deeb72036a68cd2a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 4006
+    },
+    {
+      "content_id": "b1364462fa135f3b26b789a1385db4afe4cf62492b53341e7c9a95bba4f1b565",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 9857
+    },
+    {
+      "content_id": "e4be6d010aba18034e30a2d849963dbb995cea22f19ce66caddd351aa85db8f7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3982
+    },
+    {
+      "content_id": "92e0aba685738142e8e04bc079a7fa17c7d895fa910b7dc7013a421fb82c4f54",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C Percent Difference — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4853
+    },
+    {
+      "content_id": "88d7f9baf14a30f55b55f78844ccf428e1b5e89eba145b24ae1f9e2af95e68a1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 3992
+    },
+    {
+      "content_id": "bec51152522631c02c65699746dedf130c8507b757b9c111f70a8eac134a5fe2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7014
     },
     {
       "content_id": "1d541888f7cf4e38e24f306eb39ace4f1323eea78a0cd17d1f26013486eb4694",
@@ -4470,14 +4533,14 @@
       "size": null
     },
     {
-      "content_id": "a963d55c9b74671493a0e5112ac2eb1b78abaa2fe4bcab43b901bf17b12d5cee",
+      "content_id": "aa069b31a0ae96f20e0f55a1a153a78f65093ce87e89425f83d145923590843f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 103444
+      "size": 105297
     },
     {
-      "content_id": "ed4aab7c67da738a0111feaabc6d75a67a2104b096c0e11f228b6592e1b0a117",
+      "content_id": "3ef7bca9ebaed9decc7d79faef531518878e99945f9083f9454bf587a2440e9f",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4498,14 +4561,14 @@
       "size": null
     },
     {
-      "content_id": "c899e32aca60153bb9d57020173227f4f989ed3f0a813f6a02e1cdb2379dacc8",
+      "content_id": "585ea95f881d9811574e33bb0725d1aaa9cf76634063da631fc9d7687534304a",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 174696
+      "size": 179133
     },
     {
-      "content_id": "17befcb4e70b6441dfb6991fe884a67f99eb1121260f910be8942aaf19b716ac",
+      "content_id": "d199d878ee12e897be548b6fc72e8373ce88b964f5de0c964d56d8bacf08a419",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4709,8 +4772,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T07:09:43+00:00",
+  "scanned_at_utc": "2026-09-12T07:10:27+00:00",
   "schema_version": 1,
-  "tree_id": "cbde8bae5b20363c15120a8a897350dc28721db5a56257ebfa4325fdf341764b",
+  "tree_id": "8b59ade2091afde3b7996d377db3bde14cea08579441909738f927a60784d0c2",
   "tree_response_truncated": false
 }

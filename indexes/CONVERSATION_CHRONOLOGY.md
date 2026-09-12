@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T07:09:43.069255+00:00`
+- Generated: `2026-09-12T07:10:26.860832+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **322**
+- Dated conversation exports: **331**
 - Skipped non-conversation or unparseable files: **42**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -105,8 +105,17 @@
 | 2025-05-04 | 2025-05-05 | [SAT Summary Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 221 | D19 |  |
 | 2025-05-04 | 2025-05-04 | [Unifying Physics Theories](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2025-05-04 | 2025-05-04 | [GN-z11 Redshift and Electron Mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 9 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for B — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_12` | 6 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for A — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_12` | 2 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for B — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_12` | 2 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for C — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_12` | 2 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for B equation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20equation%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for C](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 4 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for A](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 4 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for B](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2025-05-04 | 2025-05-04 | [Redshift and Effective Mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 25 |  |  |
 | 2025-05-04 | 2025-05-04 | [Significance of 1.002×10⁻²⁷](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
+| 2025-05-04 | 2025-05-04 | [Solve for C Percent Difference](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20Percent%20Difference%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |
 | 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 16 | D22 |  |
 | 2025-05-07 | 2025-05-07 | [Stringing-Along Theory Feedback](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 16 | D22 |  |
 | 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 22 | D29 |  |
