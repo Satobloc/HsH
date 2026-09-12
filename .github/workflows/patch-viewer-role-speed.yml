@@ -27,18 +27,14 @@ jobs:
           js_path = Path('CONVERSATION_VIEWER/viewer.js')
           js = js_path.read_text(encoding='utf-8')
           replacements = {
-              'function replaySpeed() { return Number(el.replaySpeed.value) || 1; }': '''function replaySpeed(index = null) {
-    const base = Number(el.replaySpeed.value) || 1;
-    if (index == null) return base;
-    return state.messages[index]?.role === "assistant" ? base * 10 : base;
-  }''',
+              'function replaySpeed() { return Number(el.replaySpeed.value) || 1; }': 'function replaySpeed(index = null) {\n    const base = Number(el.replaySpeed.value) || 1;\n    if (index == null) return base;\n    return state.messages[index]?.role === "assistant" ? base * 10 : base;\n  }',
               'const charsPerSecond = 48 * replaySpeed(); let shown = 0; body.textContent = "";': 'const charsPerSecond = 48 * replaySpeed(index); let shown = 0; body.textContent = "";',
               '(state.messages[i].text.length / (42 * replaySpeed())) * 1000': '(state.messages[i].text.length / (42 * replaySpeed(i))) * 1000',
               '300 + state.messages[i].text.length * 0.7) / replaySpeed(), token': '300 + state.messages[i].text.length * 0.7) / replaySpeed(i), token',
           }
           for old, new in replacements.items():
               if old not in js:
-                  raise SystemExit(f'missing viewer.js patch anchor: {old}')
+                  raise SystemExit('missing viewer.js patch anchor: ' + old)
               js = js.replace(old, new, 1)
           js_path.write_text(js, encoding='utf-8', newline='\n')
 
