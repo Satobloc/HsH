@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T00:17:21+00:00`
-- Tree/content state: `c362f82b1552730cd3b3cf5beb493f944e36bd1cc86f4a235f494134d21394e6`
-- Coverage: 455 files, 45 directories
+- Scanned: `2026-09-12T00:18:35+00:00`
+- Tree/content state: `2004ad983d8301ffb1cb15d88cfa0b14af9d8b0c10138fdd06af55bfbbdde1e5`
+- Coverage: 456 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 6 |
+| `.github` | 7 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 13 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -60,7 +60,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 6 |
+| `.yml` | 7 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -69,7 +69,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 7 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -261,6 +261,7 @@
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
 - `.github/workflows/find-srena-orphan.yml` — 1863 bytes — `automation-workflow`
+- `.github/workflows/integrate-srena-viewer.yml` — 12245 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
