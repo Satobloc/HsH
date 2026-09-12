@@ -1403,3 +1403,11 @@ If the resolver blur is a centered scale family `Z_delta=delta Z_1` while the ca
 `Q_obs(delta)=Q_0+delta^2 Q_K`.
 
 This provides a clean conditional discriminator: covariance components must be affine in `delta^2`, and the zero-width intercept gives projected carrier covariance within the model. The relation is `STD/DERIVED/FROZEN` under FC-BASE-003 plus the scale-family assumption. Whether H(s)H supplies a controllable physical `delta` is `OPEN`; failure of the scaling law rejects the readout model, not automatically the finite-core carrier.
+
+### Kerr reference is not yet the finite-core carrier
+
+Ravel's direct 2026-09-12 check-in places `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` under provisional quarantine because standard Kerr/Kerr-Newman/QNM research and forward H(s)H construction were mixed. This changes artifact authority, not Nathan's active project direction.
+
+Retain separately: (a) Kerr/ER-type worldtube as `SRC/ACTIVE` intended target; (b) standard Kerr identities within their standard domains as `STD/DERIVED`; (c) the electron-scale assignment, near-core shell/carrier anatomy, and coupling into H(s)H as `SAT/CANDIDATE`, with the current package `QUARANTINED` pending provenance and an electron-like over-extreme survival table.
+
+The package's circuit, frequency, and Compton-period identities are algebraically downstream of choosing `a=hbar/(2m_ec)` and propagation speed `c`; they are not independent evidence for the carrier. Kerr/ER must be mapped onto the `B^3/B^2/S^2/readout` hierarchy rather than treated as a fifth carrier type or as automatic support for a layered object.
