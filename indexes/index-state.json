@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1060271745,
-    "directories": 56,
-    "files": 723
+    "bytes_known": 1069098339,
+    "directories": 57,
+    "files": 740
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -18,13 +18,13 @@
     ".lean": 3,
     ".md": 143,
     ".pdf": 7,
-    ".png": 35,
+    ".png": 36,
     ".py": 12,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 98,
+    ".txt": 114,
     ".yml": 5,
     "[none]": 2
   },
@@ -40,7 +40,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 474,
+    "source-conversation-corpus": 491,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +52,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 474,
+    "DEVELOPMENT_FULL_CONVOS": 491,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -656,7 +656,7 @@
       "size": 49
     },
     {
-      "content_id": "8f6b0b2e48f6056372ba5e7baf08843251c23452911e8d4898b52209c938f61f",
+      "content_id": "eb9b5b2799a7227bb2bafb97a755a5a0dccce11dbd3b17c3455e855484e8d435",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2866,6 +2866,132 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png",
       "role": "source-conversation-corpus",
       "size": 6400142
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "2b59f6bf04f0f5c3e55f2a8a6e5750d03834ee391eb94213567d5ead0ebbf841",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt",
+      "role": "source-conversation-corpus",
+      "size": 876
+    },
+    {
+      "content_id": "06605cb40e3620cc14a066e021a748241291169d8472f78cff87aa05bb82f056",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/ROADMAP.txt",
+      "role": "source-conversation-corpus",
+      "size": 4119
+    },
+    {
+      "content_id": "f7fdbac6c1d9ddc1f5327e62ad35aa25d925a88c1d002ff36ac1e43458eca59e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20 PROJECT OVERVIEW.png",
+      "role": "source-conversation-corpus",
+      "size": 8771998
+    },
+    {
+      "content_id": "b2bac6345a41dfba67b10d9637b92e922b125fc13ce3ebeed37037e1b2371247",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt",
+      "role": "source-conversation-corpus",
+      "size": 5670
+    },
+    {
+      "content_id": "1bfeecef894802cb913003749a6402790365328026dd6dc59a2b322434edd084",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_Neutral.txt",
+      "role": "source-conversation-corpus",
+      "size": 5487
+    },
+    {
+      "content_id": "bd68da39991d6061e0bd40b49441aac5bbf9d6dc10cba14e4e226673a291e2b9",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_CHATGPT_MODE_SPECIFICATIONS.txt",
+      "role": "source-conversation-corpus",
+      "size": 3787
+    },
+    {
+      "content_id": "b78891c951a5992833dbd15ad2b70cfa4621f06ca06d99585add60c02728e420",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_COMBINED_MODE_REFERENCE_SHEET.txt",
+      "role": "source-conversation-corpus",
+      "size": 2233
+    },
+    {
+      "content_id": "5dbe0288cd5ed6edb84b8e07a4a2888c987f51a20912d196876513d4296c7e53",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MASTER_DOCUMENT_CONTROL_SHEET.txt",
+      "role": "source-conversation-corpus",
+      "size": 2176
+    },
+    {
+      "content_id": "e51ad0c4c1d09bb8e248ad7b6b70c3df0208d8a59ff4b856bdcf3cb6083dd904",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MASTER_PLAN.txt",
+      "role": "source-conversation-corpus",
+      "size": 3749
+    },
+    {
+      "content_id": "e60faa81af4c4555c8d2248aedd6eb5b1cbea8c7a184cf13c3057dc2d6b12f28",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_LOGIC_TREE_ADVISORY.txt",
+      "role": "source-conversation-corpus",
+      "size": 2946
+    },
+    {
+      "content_id": "02dce065d1d7885ab7f81c36eeb2cd73bde2d5cff7dc89ac9234da98793d1ca8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_QUICK_LOOKUP.txt",
+      "role": "source-conversation-corpus",
+      "size": 932
+    },
+    {
+      "content_id": "7b7e3d19d7aa0ea42b32b10f5ccd0def9a6a923570e70bfc9874ba92aeceaa1d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_TO_MODEL_ASSIGNMENT_TABLE.txt",
+      "role": "source-conversation-corpus",
+      "size": 880
+    },
+    {
+      "content_id": "32361bb5a6c983833d15b4479d4cfdfc0bff6ccd9a914a0377ca5be891aad501",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_QUICK_MODE_SWITCH_TEMPLATE.txt",
+      "role": "source-conversation-corpus",
+      "size": 1294
+    },
+    {
+      "content_id": "20ce5f53c259b46820c6f0f388146a64c3d68ea3c074b19c35598e0ca972573a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_QUICK_REFERENCE_CARD.txt",
+      "role": "source-conversation-corpus",
+      "size": 1835
+    },
+    {
+      "content_id": "365a3dde1b882fa81ee82764357c01ad151b77bd5c515e86b6c34f422377613e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_SESSION_RECAP_TEMPLATE.txt",
+      "role": "source-conversation-corpus",
+      "size": 1247
+    },
+    {
+      "content_id": "4a9a63d9502397f42cad30e82a68b0669dbde2c8d06a9dc92518cfafb5d8daf1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_TOP_LEVEL_GOALS.txt",
+      "role": "source-conversation-corpus",
+      "size": 4319
+    },
+    {
+      "content_id": "3b2f27e2900c66ea582a27386270c41d4d82400660de5d78eed36b1b07a47c5e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/TIME INSTRUCTIONS.txt",
+      "role": "source-conversation-corpus",
+      "size": 3322
     },
     {
       "content_id": "f8374eaf3cced34cd26b090d1f555033e2d0d7f5cb0a035f3a23656d52486d55",
@@ -5710,11 +5836,11 @@
       "size": null
     },
     {
-      "content_id": "a6b353e49473e521bffee4eb112cd103124c189a4eccde304a2c6eea4483e1f5",
+      "content_id": "045cae727ceba9a2a550435deec310b6343bbc0eb02f548692bf3f909603cf40",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 121354
+      "size": 125224
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5724,7 +5850,7 @@
       "size": 8625
     },
     {
-      "content_id": "e6e01263244ad4874492ed6106e974b2e28022e424e952c76b83083a3dcabb81",
+      "content_id": "a9782dc2a9aa91c80afacdd371b075529b5e4d5fabb9ab7dd0b9fc4ec267ddf6",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5745,14 +5871,14 @@
       "size": null
     },
     {
-      "content_id": "43e961f178e63ce8afd2ca00aaf6e757da606c1f5cc86bdd8850fb3e11668d04",
+      "content_id": "278d6649ed991fb46a21676e67ed9ae2b16ce1a128409676c7bbdc52f005e447",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 212037
+      "size": 217891
     },
     {
-      "content_id": "52eecaf52a866fe665027565292cee5acebbe7f275b0783aeffe0f4dcf850d72",
+      "content_id": "207d2e981113013fa297ecd2ceea1803e00f659bcefa66caedde63c0062fa503",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5970,8 +6096,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:31:27+00:00",
+  "scanned_at_utc": "2026-09-12T22:32:13+00:00",
   "schema_version": 1,
-  "tree_id": "c0af4d08f5e8055a0f8e2eab767a3fe8099c6b5001105d0ca1603ba354b59a31",
+  "tree_id": "200fb8da3a74385e1cd907fad3aab5a79cd38dda460a5fb731cc97702677f1b0",
   "tree_response_truncated": false
 }

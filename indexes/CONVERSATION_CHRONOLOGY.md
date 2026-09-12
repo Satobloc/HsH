@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:31:26.631292+00:00`
+- Generated: `2026-09-12T22:32:13.330110+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **384**
-- Skipped non-conversation or unparseable files: **58**
+- Skipped non-conversation or unparseable files: **74**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -679,6 +679,22 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 PRINCIPLES OF MINIMAL ASSUMPTION.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20PRINCIPLES%20OF%20MINIMAL%20ASSUMPTION.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 TOP LEVEL GOALS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20TOP%20LEVEL%20GOALS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT_20_AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT_20_AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/Questions.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/ROADMAP.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/ROADMAP.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_Neutral.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT20_Emergent_Filament_Surface_Theory_Neutral.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_CHATGPT_MODE_SPECIFICATIONS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_CHATGPT_MODE_SPECIFICATIONS.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_COMBINED_MODE_REFERENCE_SHEET.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_COMBINED_MODE_REFERENCE_SHEET.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MASTER_DOCUMENT_CONTROL_SHEET.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_MASTER_DOCUMENT_CONTROL_SHEET.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MASTER_PLAN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_MASTER_PLAN.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_LOGIC_TREE_ADVISORY.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_MODE_LOGIC_TREE_ADVISORY.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_QUICK_LOOKUP.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_MODE_QUICK_LOOKUP.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_MODE_TO_MODEL_ASSIGNMENT_TABLE.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_MODE_TO_MODEL_ASSIGNMENT_TABLE.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_QUICK_MODE_SWITCH_TEMPLATE.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_QUICK_MODE_SWITCH_TEMPLATE.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_QUICK_REFERENCE_CARD.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_QUICK_REFERENCE_CARD.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_SESSION_RECAP_TEMPLATE.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_SESSION_RECAP_TEMPLATE.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_TOP_LEVEL_GOALS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_TOP_LEVEL_GOALS.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/TIME INSTRUCTIONS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/TIME%20INSTRUCTIONS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20DEV%20DISCUSSIONS%201.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
