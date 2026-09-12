@@ -52,6 +52,22 @@ No empirical prediction is frozen yet. The finite-core architecture and observab
 - **Freeze condition:** demonstrate an independently controlled H(s)H resolver-width family and freeze estimator, settings, corrections, and held-out test before inspecting target behavior.
 - **Historical provenance:** unchecked; no SAT priority or physical prediction claim.
 
+## PRED-FC-004 — Helical speed-budget relation
+
+- **Status:** `UNFROZEN` — exact local kinematic guard; no physical H(s)H speed/readout assignment.
+- **Derivation source:** `FC-BASE-005` and [FIXED_SPEED_HELIX_COMPATIBILITY_001.md](../WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md).
+- **Assumptions:** constant-radius circular helix; orthogonal Euclidean axial/transverse decomposition; total parameter speed fixed to `c`.
+- **Exact equation:** `v_perp^2+v_axial^2=c^2`, with `v_perp=R omega`; hence `v_axial=c => v_perp=0`.
+- **Predicted relation:** any admitted nonzero winding requires `|v_axial|<c` under this specific speed convention.
+- **Units:** speed squared.
+- **Observable/readout map:** not defined; parameter, group, phase, signal, and material speeds remain untyped.
+- **Independent comparator:** none selected.
+- **Uncertainty:** variable radius, nesting, nonorthogonal frames, curved geometry, and Lorentzian signature add or alter terms.
+- **Rival contrast:** distinguishes a fixed-total-speed Euclidean transport convention from models that fix axial/phase speed or impose a Lorentzian null condition.
+- **Falsification condition:** a fully specified model satisfying the stated assumptions while having `v_axial=c` and nonzero `R omega` is algebraically inconsistent.
+- **Freeze condition:** type the parameter and metric, identify the relevant speed operationally, and derive the centerline/readout velocity map.
+- **Historical provenance:** a former-instance closure audit recovered the original correction; no novelty claim.
+
 ## Readout no-go affecting the queue
 
 FC-BASE-003 is `STD/DERIVED/FROZEN` in its stated affine independent-kernel scope: `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`. It is not an empirical prediction. It blocks promotion of any apparent-width or canonical-`chi` claim that lacks kernel calibration, controlled thin-limit extrapolation, or a proved kernel-invariant observable.
