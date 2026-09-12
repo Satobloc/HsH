@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:17:12+00:00`
-- Tree/content state: `95c5dcb24ba3dd68bde3d17b21ae4b94ca55bf3a0aae0b77459bed150e871832`
-- Coverage: 598 files, 50 directories
+- Scanned: `2026-09-12T12:18:25+00:00`
+- Tree/content state: `54c25848236e0f5e31a24137466a04674717093ee074b877bb514f2242a38df9`
+- Coverage: 600 files, 50 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 31 |
+| `WORKSPACES` | 33 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 100 |
+| `.md` | 102 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -75,7 +75,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 31 |
+| `llm-workspace` | 33 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -799,9 +799,11 @@
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md` — 18952 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 4323 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 80667 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COORDINATION.md` — 7398 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md` — 4283 bytes — `llm-workspace`
