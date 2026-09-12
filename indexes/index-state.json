@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1020646661,
+    "bytes_known": 1021167987,
     "directories": 54,
-    "files": 663
+    "files": 664
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 364,
+    ".json": 365,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 116,
@@ -39,7 +39,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 47,
     "review-ledger": 5,
-    "source-conversation-corpus": 441,
+    "source-conversation-corpus": 442,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -50,7 +50,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 441,
+    "DEVELOPMENT_FULL_CONVOS": 442,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -646,7 +646,7 @@
       "size": 49
     },
     {
-      "content_id": "0cdba63518c7aed3af184713c9b19301ef7b8f252fdadce019bae0870e3f382d",
+      "content_id": "92c34a713afa8c0a5296713849269be033de70faa3b51170558be8bb26a0563d",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2639,6 +2639,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx",
       "role": "source-conversation-corpus",
       "size": 121499
+    },
+    {
+      "content_id": "24725fca42a3ae39b7af8debd5152008e46b6e82ce64204d5e67a435dfd7cbdd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 520575
     },
     {
       "content_id": "caf7469085324ba7bf0c12d50592029f7c0565c3871084b6786f1aa31d6474eb",
@@ -5273,11 +5280,11 @@
       "size": null
     },
     {
-      "content_id": "8cb314e05b337c32ab6060e893fa7a77b0addf3a47397fc9a01f86aefb26ab9c",
+      "content_id": "9ff126d4d08894c7542dc2ec9e406840a12160cbaa3aec20148f7c01b7e8d474",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 116890
+      "size": 117087
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5287,7 +5294,7 @@
       "size": 8625
     },
     {
-      "content_id": "b017942bcf590a21e5be571bcbe42d32740bfb480007dd63074bbcccda76150a",
+      "content_id": "51857f2ae0bff972a1a23f943efce5235bbbe84168a00c3a12e717d3bc1c643b",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5308,14 +5315,14 @@
       "size": null
     },
     {
-      "content_id": "99be7ae6c1aa8660eef504d5d8288e02c04aa3f6aecff2f136ae08c369e0a055",
+      "content_id": "e9edcb368074a18be3d69f210f5a222f93e1944f79455f3987c6734bd24df08a",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 201983
+      "size": 202537
     },
     {
-      "content_id": "3c389aab744bbc779c70553e70e0149a4ba19abb46948ce2bc7a81ab1510f14a",
+      "content_id": "1f1d60bbb15cdce528340265750a7b418b8e3ff24b1dbb1933942c74361b5126",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5533,8 +5540,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T14:38:46+00:00",
+  "scanned_at_utc": "2026-09-12T14:40:40+00:00",
   "schema_version": 1,
-  "tree_id": "ee048406e6eae8cc96b83141873da40250bb8f102c1685f8385f1ef4d21aa810",
+  "tree_id": "a24fc010e48df11a22d59aeb37638b6a1bc0c326315e9400a51e3c42410e87d3",
   "tree_response_truncated": false
 }

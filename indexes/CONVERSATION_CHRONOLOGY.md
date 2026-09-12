@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T14:38:45.862104+00:00`
+- Generated: `2026-09-12T14:40:39.980405+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **372**
+- Dated conversation exports: **373**
 - Skipped non-conversation or unparseable files: **48**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -246,6 +246,7 @@
 | 2026-03-21 | 2026-08-21 | [Planetology -- Geometric Foundations Evaluation — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.03.21%E2%80%A226.08.21%E2%80%A2Planetology%20--%20Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw%20%281%29.txt) | `LONG_CONVOS` | 948 |  |  |
 | 2026-03-30 | 2026-06-11 | [Equation Breakdown Topological Tension](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.30%E2%80%A226.06.11%E2%80%A2Equation%20Breakdown%20Topological%20Tension%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 123 |  |  |
 | 2026-04-03 | 2026-06-13 | [Radical Meta-Skepticism Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.04.03%E2%80%A226.06.13%E2%80%A2Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 112 |  |  |
+| 2026-04-03 | 2026-09-12 | [Radical Meta-Skepticism Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 113 |  |  |
 | 2026-04-10 | 2026-04-11 | [Reddit OCR Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/26.04.10%E2%80%A226.04.11%E2%80%A2Reddit%20OCR%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 175 |  |  |
 | 2026-04-13 | 2026-06-11 | [Theory of Everything Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.04.13%E2%80%A226.06.11%E2%80%A2Theory%20of%20Everything%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 125 |  | 1 user/assistant messages lacked timestamps |
 | 2026-04-21 | 2026-06-11 | [Curve Composition System](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.04.21%E2%80%A226.06.11%E2%80%A2Curve%20Composition%20System%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 192 |  | 1 user/assistant messages lacked timestamps |
