@@ -8,6 +8,8 @@
 
 `2026-09-12 — Integration -> Ravel / Worldtube Lab — FC-BASE-002 — reproduce L_Sigma, (I2,I3,chi), and the isotropic B^3 gauge-null result against the particle-scale candidate; identify the first step requiring a rank-two support plane, boundary field, or material director — WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md — return a freeze-or-repair note here`
 
+`2026-09-12 — Integration -> Ravel / geometry / solver — FC-BASE-003 — test whether the resolving wavefront provides an independently calibratable kernel or controlled delta-family; reproduce Q_obs=L_Sigma Q_core L_Sigma^T+Q_kernel and determine whether correlated core-resolver coupling changes the freeze scope — WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md — return freeze-or-repair note here`
+
 ## Completed handoffs
 
 _None recorded._
