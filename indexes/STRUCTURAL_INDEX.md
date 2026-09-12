@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T09:14:42+00:00`
-- Tree/content state: `f14258696d7891cb1904d1abec9cf2f232158295ce4a2bb30f562e0972c07e70`
+- Scanned: `2026-09-12T09:16:14+00:00`
+- Tree/content state: `7ab4332d5b3a60787b610787c498ee00bece8d42c36d0ca4f9485cd4cf0d3a0c`
 - Coverage: 575 files, 49 directories
 - GitHub tree response truncated: `false`
 
@@ -800,7 +800,7 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 1020 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 1736 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 5851 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6106 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
