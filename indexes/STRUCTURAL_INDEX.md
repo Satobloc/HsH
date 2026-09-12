@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T15:22:27+00:00`
-- Tree/content state: `b6cacab2fe7195d4b09c9bec314adf4b39ad2d3ce52547896654fd8453b942cf`
-- Coverage: 678 files, 54 directories
+- Scanned: `2026-09-12T15:35:15+00:00`
+- Tree/content state: `33855f446f4d2c9ce39bc85aa20ec9816746f857639834915cb01941b4a65582`
+- Coverage: 687 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 446 |
+| `DEVELOPMENT_FULL_CONVOS` | 455 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,12 +49,12 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 369 |
+| `.json` | 376 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 126 |
 | `.pdf` | 5 |
-| `.png` | 28 |
+| `.png` | 30 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
@@ -78,7 +78,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 57 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 446 |
+| `source-conversation-corpus` | 455 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -569,19 +569,28 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png` — 3026103 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json` — 377725 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw (1).json` — 361104 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw.json` — 361104 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/7e7bc25e-8457-4550-bee3-765a966e4988.png` — 2643821 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Casual Check-in — raw.json` — 1207907 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json` — 377725 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json` — 31894 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json` — 112172 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json` — 179274 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Geometric Glass Thumbnails — raw.json` — 210570 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json` — 551513 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json` — 297607 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx` — 121499 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json` — 1340445 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Pet Theory Discussion — raw.json` — 3493711 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Proton Electron Mass Ratio — raw.json` — 170549 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json` — 520575 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json` — 3513429 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json` — 471923 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Testing a Theory of Everything — raw.json` — 1536189 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json` — 1059025 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json` — 4528086 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png` — 2241001 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
@@ -931,11 +940,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 117818 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 119140 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 204695 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 208489 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
