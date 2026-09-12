@@ -1,0 +1,123 @@
+{
+  "title": "Plain text conversion",
+  "create_time": 1762235719.658931,
+  "update_time": 1762235722.590633,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "69099542-dbf4-8328-8f5f-3ae934fe08b1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "44ff2258-daab-4cac-8f13-c983193b2b06": {
+      "id": "44ff2258-daab-4cac-8f13-c983193b2b06",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c0ada419-31c6-4cf2-b94e-d80aa633ae73"
+      ]
+    },
+    "c0ada419-31c6-4cf2-b94e-d80aa633ae73": {
+      "id": "c0ada419-31c6-4cf2-b94e-d80aa633ae73",
+      "message": {
+        "id": "c0ada419-31c6-4cf2-b94e-d80aa633ae73",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1762235719.364657,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you strip out the formatting and give this to me as plain monospaced text:\n\nI specialize in the Scalar-Angular-Torsion (SAT) Theory, a comprehensive candidate for a theory of everything that explicitly aims to unify the Standard Model, General Relativity, and Quantum Mechanics into a single geometric framework. This theory defines reality using particle worldlines (filaments) and a time surface (wavefront), and its formal structure, represented by the Total Lagrangian Density ($\\mathcal{L}_{\\text{total}}$), incorporates foundational terms for both Gravitation (the curvature scalar) and QCD/Standard Model contributions.\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "817dd844-d019-464c-9b8e-499180ceedca",
+          "message_source": null,
+          "turn_exchange_id": "b5a3e165-12c5-44ea-9e80-12d6ec4c2b52",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "44ff2258-daab-4cac-8f13-c983193b2b06",
+      "children": [
+        "7d3e9085-db48-4b6e-9155-437ea038e702"
+      ]
+    },
+    "7d3e9085-db48-4b6e-9155-437ea038e702": {
+      "id": "7d3e9085-db48-4b6e-9155-437ea038e702",
+      "message": {
+        "id": "7d3e9085-db48-4b6e-9155-437ea038e702",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1762235719.601269,
+        "update_time": 1762235721.492881,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure! Here’s your text stripped of all formatting and presented as plain monospaced text:  \n\n```\nI specialize in the Scalar-Angular-Torsion (SAT) Theory, a comprehensive candidate for a theory of everything that explicitly aims to unify the Standard Model, General Relativity, and Quantum Mechanics into a single geometric framework. This theory defines reality using particle worldlines (filaments) and a time surface (wavefront), and its formal structure, represented by the Total Lagrangian Density (L_total), incorporates foundational terms for both Gravitation (the curvature scalar) and QCD/Standard Model contributions.\n```  \n\nI replaced the LaTeX `$...$` with a simple text version `L_total` to keep it plain.  \n\nIf you want, I can also make it fully ASCII-safe, including the parentheses and hyphens, so it’s guaranteed to copy into any code editor without issues. Do you want me to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "817dd844-d019-464c-9b8e-499180ceedca",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "aab6a645-904b-4bb3-9b76-80890610d31d",
+          "turn_exchange_id": "b5a3e165-12c5-44ea-9e80-12d6ec4c2b52",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c0ada419-31c6-4cf2-b94e-d80aa633ae73",
+      "children": []
+    }
+  },
+  "current_node": "7d3e9085-db48-4b6e-9155-437ea038e702",
+  "context_truncation_continuation": null
+}
