@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 863768245,
+    "bytes_known": 863772475,
     "directories": 49,
     "files": 586
   },
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "cde5dd49ce2d27cd14a5edcd087c30fede14f61de5e9062baacdf593127e5c4d",
+      "content_id": "028ade64266545a0c5ac9646d36ff0ce08c8cdc5c2de729d1ce96130f2a7ac57",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4113,11 +4113,11 @@
       "size": null
     },
     {
-      "content_id": "db4ba54a01d1c69c681a456cd7d488acd13b6a299d9db2fc6e9c9091072acd74",
+      "content_id": "393d5892157226034b693a3e7ed5cb10d377d080dea0b9af4716729899913961",
       "kind": "blob",
       "path": "NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md",
       "role": "unclassified",
-      "size": 2722
+      "size": 3149
     },
     {
       "content_id": "5529455decdcf8dfce55e50fb7003aa9277ad9efbb07ac83b67173675e9c3fdb",
@@ -4421,11 +4421,11 @@
       "size": 2609
     },
     {
-      "content_id": "afa49529131b8c27f034771a23915090df0b1c133c6fbe6058ef920ef91d7c67",
+      "content_id": "179198fc50775aec4cb3ad518bcae15be37b783615d877f20c7a1f1abf4a90ef",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/COORDINATION.md",
       "role": "llm-workspace",
-      "size": 6905
+      "size": 7398
     },
     {
       "content_id": "8bcc129b546916d2ca2c437766f92b875af36c45a0eac018ee8305a85d13ae10",
@@ -4435,11 +4435,11 @@
       "size": 4283
     },
     {
-      "content_id": "a02d0bb66635eea3a4c23bb0ec2afb57c74a3b18ba484917603c76c94d2efe9a",
+      "content_id": "275c5094e5e8256065b616e4c35e4503d6caf30c056b7488bfa31d2a68546334",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFFS.md",
       "role": "llm-workspace",
-      "size": 1411
+      "size": 1838
     },
     {
       "content_id": "15af145d7bcc05f13ddb245fc5247a06aa5ecf76e95a3a31150151e9159c1232",
@@ -4561,11 +4561,11 @@
       "size": null
     },
     {
-      "content_id": "7ea889facba00b854b0176e63f30e4f343addc0c3d23931ca8cdf7a4dc907832",
+      "content_id": "d0373381bf1d4fcf93425f9a26374a044e4bb1c2f6e1d067d1eeccd178e02a6a",
       "kind": "blob",
       "path": "checkpoints/CURRENT.md",
       "role": "checkpoint",
-      "size": 2359
+      "size": 2248
     },
     {
       "content_id": null,
@@ -4680,7 +4680,7 @@
       "size": null
     },
     {
-      "content_id": "e7494ec0ae109cb0e4214b4f95d3e732d9d50aebfa024c9126b3d44457b0e621",
+      "content_id": "88366467cab1e6116d497bc2dd2f00c00ecb7799db9187090b17677534102da8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4694,7 +4694,7 @@
       "size": 8625
     },
     {
-      "content_id": "fecce62bac62cf43b6af31c1d23b460398e7ca3ba85e9978d8485387ddce3c28",
+      "content_id": "700fef8520cf5697035586534f95f8ac3bb79d36d04e13d7f197f2fb1b42a49f",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4715,14 +4715,14 @@
       "size": null
     },
     {
-      "content_id": "10a6fd402b5cfa29608d158768a6b8793e482005f6901ec0112a37644a18fa58",
+      "content_id": "6b2b0499b69fdc346cced4b2c31d0683e882f2e83d2ad024f89b999746f3e694",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "9f765a82f6f85a82d36d1d9b7d1dd7900febc1e24646644d14d51708fe141ccb",
+      "content_id": "b2066be4e03e990a786a31ec3043ec18bad8163074c0bf0d7027b624357ca2af",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4757,18 +4757,18 @@
       "size": 9310
     },
     {
-      "content_id": "9ea70e9a7483c6f437dcd4721bd36f274ea1ab45d0979eb054405ef8641d795a",
+      "content_id": "55e8eb67216e79ea1d492415b1d1825cf6762881132c98c5e4f7b464309da7f7",
       "kind": "blob",
       "path": "ledgers/FINITE_CORE_COMPARISON.md",
       "role": "review-ledger",
-      "size": 7502
+      "size": 8910
     },
     {
-      "content_id": "cdaf19e870efb3d5dd10d8a2131f70c294749b013d4d69c0289630a65608d83a",
+      "content_id": "b918e52633f11c115463c49ab5d2c317dce53e0d92c250013096d6c2e4d51d96",
       "kind": "blob",
       "path": "ledgers/PREDICTION_LEDGER.md",
       "role": "review-ledger",
-      "size": 3904
+      "size": 4629
     },
     {
       "content_id": null,
@@ -4778,11 +4778,11 @@
       "size": null
     },
     {
-      "content_id": "e23538e7d0e33093d36316b1ef5a50e8393ef635d44ce100639104716276cd40",
+      "content_id": "810b4a23b5faca862ebabed25b7c487f97078f3fdb9a83c77bbd1b45bf424f17",
       "kind": "blob",
       "path": "synthesis/CURRENT_SYNTHESIS.md",
       "role": "synthesis-workspace",
-      "size": 77004
+      "size": 77865
     },
     {
       "content_id": "96308b285a8b84f50c1e926fae0c00aab866c6d644f5b4e7107e3d7010a1a9d8",
@@ -4940,8 +4940,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T10:53:35+00:00",
+  "scanned_at_utc": "2026-09-12T10:54:54+00:00",
   "schema_version": 1,
-  "tree_id": "68fc726bad7d377a97a04b9b5747114c8e599d86a0f5781fdaa07252548f6d96",
+  "tree_id": "f81bc937720de558836d4d0a9fe8fd19a3011cbaa70e1833859b510972203a32",
   "tree_response_truncated": false
 }
