@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T14:40:40+00:00`
-- Tree/content state: `a24fc010e48df11a22d59aeb37638b6a1bc0c326315e9400a51e3c42410e87d3`
-- Coverage: 664 files, 54 directories
+- Scanned: `2026-09-12T14:42:17+00:00`
+- Tree/content state: `f287fac9cf0f2866b949f6261ed5754e3718a8cf5dc4e22b77de2ec4b3db3d22`
+- Coverage: 665 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 47 |
+| `WORKSPACES` | 48 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 365 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 116 |
+| `.md` | 117 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 47 |
+| `llm-workspace` | 48 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 442 |
 | `synthesis-workspace` | 6 |
@@ -882,6 +882,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_TRILLION_UNIVERSE_MODEL_GENERATOR_2026-09-12.md` — 27377 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_2026-09-12_LITERATURE_CONVERGENCE_SAT_RIGOR.md` — 19234 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT-5.6-Sol_Logic-Spine_2026-09-12.md` — 22155 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT55_RMS_METHODOLOGY_STACKED_HOLONOMY_2026-09-12_143838.md` — 29875 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT55_ROTATIONS_EVERSIONS_SPHERE_INTERSECTIONS_2026-09-12.md` — 25572 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT56_MINKOWSKI_2026-09-12.md` — 18762 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md` — 27898 bytes — `llm-workspace`
