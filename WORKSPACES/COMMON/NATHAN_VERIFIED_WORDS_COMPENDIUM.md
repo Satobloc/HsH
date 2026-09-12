@@ -496,6 +496,78 @@ This batch fills four high-value gaps in the already scanned early region. Each 
 
 ---
 
+## Excavation batch 2026-09-12-E — `DIMENSIONAL GRAVITY — raw.json`, late-March continuation and 2026 revisit
+
+This batch continues forward within the same durable raw export. Each promoted passage below is a raw ChatGPT mapping node with `message.author.role = user`. The March 2024 material is historical and is not promoted into current H(s)H; the June 2026 entry is retained as a source-status correction about the uploaded later formulation.
+
+### 2024-03-28 — Interaction history as additional cross-spacetime structure
+
+- **Tags:** `INTERACTIONS` `4D-THINKING` `HISTORY` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa268fe-22ef-476c-bb79-d8d63ad59af0` — 2024-03-28 01:22:58 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** historical SAT mechanism proposal; not current H(s)H authority.
+- **Exact Nathan wording:**
+
+> We also have to account for the past and future history of the interactions between the filaments. That is, as the universe cooled, larger and more complex composite filaments formed (and thereby, more complex composite particles and macro-objects). This history of interactions would introduce additional tugs across spacetime, leading to the emergence of gravity, and transmitting energy across time. 
+
+- **Immediate context:** Nathan was challenging a simple early-universe-density argument by adding the growing complexity of composite structures and their interaction histories to the then-current SAT picture.
+- **Later correction / relationship:** retain as dated provenance for the importance Nathan assigned to full interaction history. It does not establish the later H(s)H force taxonomy or current gravity mechanism.
+
+---
+
+### 2024-03-28 — Future/past structural asymmetry as a proposed directionality test
+
+- **Tags:** `INTERACTIONS` `4D-THINKING` `HISTORY` `METHOD`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2f9ca-d910-4986-9e0d-73ecfe64e972` — 2024-03-28 02:01:30 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** exploratory question inside the early energy-transfer model; not a current directional law.
+- **Exact Nathan wording:**
+
+> Would increased tangling in the "outward" or future direction compared to the "inward" or past direction mean that more energy gets transferred inward than outward?
+
+- **Immediate context:** follows Nathan's physical-string thought experiment in which a disturbance propagates through a central knot and through strings with different degrees of tangling.
+- **Later correction / relationship:** preserves the historical route by which directional cross-temporal energy-transfer ideas were explored; no later status is inferred here.
+
+---
+
+### 2024-03-28 — High-energy-event coupling proposed through interaction history
+
+- **Tags:** `INTERACTIONS` `HISTORY` `METHOD` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2bc89-9d93-465f-bb74-6e40b3352af5` — 2024-03-28 02:05:01 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicitly proposed as a prediction in the early SAT interaction-history model; current empirical/theory status is not assigned.
+- **Exact Nathan wording:**
+
+> I think I can make another prediction... High-energy events should contribute to the energy flux in other matter if that matter has (in the past or future) interacted with the body undergoing the high-energy event. 
+
+- **Immediate context:** Nathan generalized the preceding string-network energy-transfer analogy into a proposed observational consequence of the then-current cross-temporal interaction picture.
+- **Later correction / relationship:** preserve as historical prediction provenance only; later H(s)H work must be checked independently for whether this idea survived, changed, or was abandoned.
+
+---
+
+### 2026-06-01 — Uploaded later formulation is one of many variations, not a unique canonical endpoint
+
+- **Tags:** `METHOD` `MODEL-VS-REALITY` `NATHAN-CORRECTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `de5227a7-022f-495e-9682-1cb16a7461b1` — 2026-06-01 17:52:44 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct source-status qualification during a 2026 revisit of the 2024 conversation.
+- **Exact Nathan wording:**
+
+> You’re seeing the future. It must’ve been a year or so since  we spoke. That’s our theory today. Well… one of the countless variations 
+
+- **Immediate context:** Nathan had supplied the old conversation with a much later `SAT.4DHH.UC.pdf`; the assistant treated the uploaded formalization as a descendant/current version of the earlier SAT ideas. Nathan immediately qualified that status as one among many variations.
+- **Later correction / relationship:** important guard against treating the uploaded `SAT.4DHH.UC.pdf` or any single June 2026 formalization as uniquely canonical without further provenance.
+
+---
+
 ## Excavation coverage ledger
 
 ### 2026-09-12-A
@@ -544,6 +616,17 @@ This batch fills four high-value gaps in the already scanned early region. Each 
 - **Deduplication:** exact quoted wording and timestamps were checked against the existing compendium; none of these four messages was already promoted.
 - **Unresolved/source issue:** the raw messages' exact UUID message IDs were not recovered in this pass, but exact raw `create_time` values and author-role metadata were recovered and recorded as landmarks. Most of the long export remains unscanned beyond the early 2024 region.
 - **Next priority region:** move forward chronologically in `DIMENSIONAL GRAVITY` beyond March 28, prioritizing later Nathan-authored corrections/refinements of dimensionality, time-surface/timesheet motion, `c`, worldline/worldtube typing, and intersection/readout; then resolve the durable GitHub path for `SAT Overview — raw.json` and continue into `Reasoning with SAT-HSH Skill` / `H(s)H TIME RESIDUALS`.
+
+### 2026-09-12-E
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`.
+- **Authorship method:** raw mapping nodes inspected directly; every promoted passage has `message.author.role = user`.
+- **Date range actually covered in this batch:** late March 28, 2024 interaction-history/energy-transfer region, plus the June 1, 2026 revisit after `SAT.4DHH.UC.pdf` was introduced into the old thread.
+- **Verified Nathan messages added:** 4.
+- **Primary topics covered:** interaction history as a 4D/cross-spacetime model ingredient; historical future/past directionality question; historical high-energy-event prediction; direct qualification that the uploaded 2026 formalization was only one of “countless variations.”
+- **Deduplication:** all four UUIDs were checked against the existing compendium before insertion; none was already present.
+- **Unresolved/source issue:** `DIMENSIONAL GRAVITY` is now substantially sampled across its 2024 development and 2026 revisit, but not exhaustively read message-by-message. The long 2026 tool-injected `SAT.4DHH.UC.pdf` excerpts are not treated as Nathan-authored messages and were not promoted.
+- **Next priority region:** shift to the durable raw `SAT Overview — raw.json` conversation if its exact GitHub path can be resolved; otherwise continue with `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`, then `H(s)H TIME RESIDUALS`, prioritizing direct Nathan corrections of dimensionality, worldline/worldtube, timesheet/intersection propagation, and model-status errors.
 
 # UNVERIFIED / NEEDS SOURCE CHECK
 
