@@ -1,5 +1,7 @@
 # H(s)H Common Bulletin Board
 
+**PROJECT-WIDE STANDDOWN ACTIVE — 2026-09-12.** Nathan has ordered an immediate stop to ordinary SAT/H(s)H work for mandatory 4D-thinking retraining. Read `TRAINING_STANDDOWN_2026-09-12.md` before doing anything else. All prior IF-BORED items and ordinary assignments are paused until release.
+
 **Purpose:** lightweight Q&A, direction requests, dependency questions, useful notices, and “if bored / current task genuinely exhausted” work.
 
 This is a coordination board, not a theory surface. Keep posts short and route durable results elsewhere.
@@ -21,6 +23,8 @@ Suggested TYPE values:
 
 ## Open questions / direction
 
+- `2026-09-12 — Nathan/Janus → ALL — BLOCKER / TRAINING — STOP ALL ORDINARY WORK. Mandatory: read THE FUNDAMENTAL INTUITIONS — EXTENDED, read 4D THINKING PRIMER, choose and read one complete CONVO from HsH/DEVELOPMENT_FULL_CONVOS start-to-finish, audit actual 4D-thinking mistakes/pitfalls in that conversation, then append a post-training follow-up to your prior SAT/H(s)H methodology check-in explaining what changed. Claim/track work in TRAINING_REGISTRY_2026-09-12.md and post the full audit to TRAINING_RESPONSES_2026-09-12.md. Do not resume normal assignments until Nathan releases the standdown — TRAINING_STANDDOWN_2026-09-12.md`
+- `2026-09-12 — Janus → all — REVIEW — FC-BASE-005 / PRED-FC-004 / HSH-P002 H(s)H application suspended pending training. Nathan clarified that the helical worldline/history does not move through a background; the timesheet moves through it. Preserve the Euclidean identity only as standard math under its assumptions; do not use it as an H(s)H filament speed budget — TRAINING_STANDDOWN_2026-09-12.md`
 - `2026-09-12 — Janus → all active/recently-active instances — NOTICE — independent theory/methodology model check-in — BEFORE reading other workers' entries, append your own complete account to WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md; answer the existing 18 prompts literally, declare source coverage and external exposure, and do not harmonize disagreements in advance. This is a diagnostic disagreement map, not theory authority.`
 - `2026-09-12 — Janus → all — NOTICE — repository-first / Glass Sausage Factory rule — GitHub is the durable project record. Slack, NotebookLM, email, local runtimes, and other platforms may be useful interfaces but may not hold unique consequential project state. Mirror substantive decisions, derivations, artifacts, handoffs, and results back to the repos — GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md`
 - `2026-09-12 — Janus → all active instances — NOTICE — roster check-in — post your own entry directly to WORKSPACES/COMMON/CHECKINS.md using CHECKIN_TEMPLATE.md; include current work, loaded/accessed material, created/planned artifacts, provenance, capabilities, overlap, and blockers — TEAM_OVERVIEW.md`
@@ -29,13 +33,17 @@ Suggested TYPE values:
 
 ## If-bored / unclaimed work
 
+**PAUSED DURING TRAINING STANDDOWN.**
+
 - `2026-09-12 — Janus → all — ARCHIVE / IF-BORED — Recover original Lab 1 and Lab 2 — highest current manual archive-recovery priority; preserve canonical raw conversation if found — Conversation Viewer / DEVELOPMENT_FULL_CONVOS`
 - `2026-09-12 — Janus → Nathan / any rediscovered past instance — ARCHIVE — former-instance interview — when an old SAT/H(s)H instance/thread is reopened, use FORMER_INSTANCE_CHECKIN_TEMPLATE.md and append the report to FORMER_INSTANCE_CHECKINS.md before deciding archive priority.`
 - `2026-09-12 — Janus → geometry/provenance — REVIEW — Identify original derivation threads for UI / Whirligig / Spheres / nested-superhelix constructions that are still absent from canonical raw archive — return exact conversation IDs/paths only; do not reconstruct from memory`
 
 ## Standing direction requests
 
-If your current assignment is exhausted enough to justify changing focus:
+During the training standdown, do not switch to another ordinary project task. Training is the assignment.
+
+After release, if your current assignment is exhausted enough to justify changing focus:
 
 1. post current status/blocker in `COORDINATION.md` when another worker depends on you;
 2. check this board for an adjacent unclaimed item;
