@@ -1,7 +1,7 @@
 {
   "counts": {
-    "bytes_known": 821200213,
-    "directories": 45,
+    "bytes_known": 821197835,
+    "directories": 46,
     "files": 455
   },
   "counts_by_extension": {
@@ -16,13 +16,13 @@
     ".json": 215,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 69,
+    ".md": 68,
     ".pdf": 5,
     ".png": 27,
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
-    ".txt": 80,
+    ".txt": 81,
     ".yml": 5,
     "[none]": 2
   },
@@ -38,19 +38,18 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 283,
+    "source-conversation-corpus": 284,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 86,
+    "unclassified": 85,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    "!_CONVERSATION_VIEWER.md": 1,
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 14,
-    "DEVELOPMENT_FULL_CONVOS": 283,
+    "DEVELOPMENT_FULL_CONVOS": 284,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -77,6 +76,7 @@
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
@@ -457,13 +457,6 @@
       "size": 3610
     },
     {
-      "content_id": "a912b73a3bc4286d55c3cdbb7677440a53519de1b6d9bde629c603b1aae23f4f",
-      "kind": "blob",
-      "path": "!_CONVERSATION_VIEWER.md",
-      "role": "unclassified",
-      "size": 3287
-    },
-    {
       "content_id": null,
       "kind": "tree",
       "path": ".github",
@@ -611,11 +604,11 @@
       "size": 13018
     },
     {
-      "content_id": "1436f0b0297e0cb241c4169a594a4709c6735acae844e6bf06ec2e405810d3ea",
+      "content_id": "b1018240df7072e606b44704087da3fc71a88288953a5ea29b5a49f791dab28a",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/runtime-fixes.css",
       "role": "unclassified",
-      "size": 1395
+      "size": 1811
     },
     {
       "content_id": "04e713f561a3fe6983c0ffab9f01e3a189cff0fb4d9502ebc789f7b06850b0f4",
@@ -1449,6 +1442,20 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/time_series_US_20031231-1900_20260831-0937.csv",
       "role": "source-conversation-corpus",
       "size": 4374
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
     },
     {
       "content_id": null,
@@ -3292,11 +3299,11 @@
       "size": 1
     },
     {
-      "content_id": "8dda908ee278cf276b45606bb17113ff8299e1cd052e447e3ebed42f1f64053f",
+      "content_id": "2cff340c31275d3098c0a54b5ea9c455c342484d2e6a2976ff60ede9c13f5337",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 37269
+      "size": 37276
     },
     {
       "content_id": null,
@@ -3719,14 +3726,14 @@
       "size": null
     },
     {
-      "content_id": "4fb7ca757a15dc5ee8c2c3d101e814c28846cc13a24218d4d3a0e4a9ca0b822e",
+      "content_id": "d3fd2f98f182ba0205d2277c65545e7e5fa62bc6a9cd29824361634e349c91a1",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 80483
+      "size": 80641
     },
     {
-      "content_id": "cfafb1a502fa2d7ec0aa7e6b75beb971fe0159acdbd0afdfaa88f474b19fa079",
+      "content_id": "b01ba01b5e1bf74137b5ef3c4a7cb2c4aeaae545455c6b3b5d4d2b8c807b96e6",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3747,14 +3754,14 @@
       "size": null
     },
     {
-      "content_id": "d74548344b8bbae38c7811594050e60da7bdbf21f32ada59fc0c5fd4ff109462",
+      "content_id": "cef94691d1270786fcec101f5cb1d49dde877185230091432b7ef99b9fc380a0",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 125956
+      "size": 126283
     },
     {
-      "content_id": "78e0907dba7d1d5fc7c9a2fb1d66065ca53cdad29c300bd1416a8977e370652f",
+      "content_id": "874592f4b95f7c47904634cf82e84aef38b690402e809ab0b5c2367775a081d8",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3958,8 +3965,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T03:51:56+00:00",
+  "scanned_at_utc": "2026-09-12T04:17:05+00:00",
   "schema_version": 1,
-  "tree_id": "16d6eea8925f99b9a74a3591d282426258a1b4f1763a41988304e59f25546c7d",
+  "tree_id": "8be110f9432da79c308af87d58164aae282b81c45c64e96ed6a6ab6cfa264679",
   "tree_response_truncated": false
 }

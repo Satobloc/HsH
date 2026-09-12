@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T03:51:56+00:00`
-- Tree/content state: `16d6eea8925f99b9a74a3591d282426258a1b4f1763a41988304e59f25546c7d`
-- Coverage: 455 files, 45 directories
+- Scanned: `2026-09-12T04:17:05+00:00`
+- Tree/content state: `8be110f9432da79c308af87d58164aae282b81c45c64e96ed6a6ab6cfa264679`
+- Coverage: 455 files, 46 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,11 +12,10 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `!_CONVERSATION_VIEWER.md` | 1 |
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
-| `DEVELOPMENT_FULL_CONVOS` | 283 |
+| `DEVELOPMENT_FULL_CONVOS` | 284 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -53,13 +52,13 @@
 | `.json` | 215 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 69 |
+| `.md` | 68 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
-| `.txt` | 80 |
+| `.txt` | 81 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -78,16 +77,17 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 283 |
+| `source-conversation-corpus` | 284 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 86 |
+| `unclassified` | 85 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
 
 - `01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
@@ -256,7 +256,6 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -274,7 +273,7 @@
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13018 bytes — `unclassified`
-- `CONVERSATION_VIEWER/runtime-fixes.css` — 1395 bytes — `unclassified`
+- `CONVERSATION_VIEWER/runtime-fixes.css` — 1811 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 12060 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 35531 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
@@ -390,6 +389,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json` — 516755 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/time_series_US_20031231-1900_20260831-0937.csv` — 4374 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT` — 665220 bytes — `source-conversation-corpus`
@@ -637,7 +637,7 @@
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
-- `README.md` — 37269 bytes — `visitor-interface`
+- `README.md` — 37276 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
@@ -683,10 +683,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 80483 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 80641 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 125956 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 126283 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
