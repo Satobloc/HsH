@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:25:02+00:00`
-- Tree/content state: `aa74968bb66de4156a1630b31b9dcb863dd0e8b43975f855cd09898845665f76`
-- Coverage: 711 files, 55 directories
+- Scanned: `2026-09-12T22:29:18+00:00`
+- Tree/content state: `1ffd1a8173f54e092c5d7da23e449ab3a53d77fa07beb9dd5946a3e07a013fd3`
+- Coverage: 715 files, 55 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 462 |
+| `DEVELOPMENT_FULL_CONVOS` | 466 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -54,8 +54,8 @@
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 143 |
-| `.pdf` | 5 |
-| `.png` | 32 |
+| `.pdf` | 7 |
+| `.png` | 34 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
@@ -80,7 +80,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 462 |
+| `source-conversation-corpus` | 466 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -597,8 +597,12 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png` — 2241001 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/2025 FULL SKILLSET + RESUME.txt` — 17314 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO adv.PNG` — 601015 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO.PNG` — 507907 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/FujiFilm xray SHR-U (HR-T30) wavelength sensitivity.PNG` — 50735 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf` — 412967 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt` — 128313 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf` — 289507 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/overlapping_parameters.png` — 176935 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/predictionbook_my_predictions.csv` — 33825 bytes — `source-conversation-corpus`

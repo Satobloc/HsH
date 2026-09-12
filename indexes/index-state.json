@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1037489940,
+    "bytes_known": 1039301336,
     "directories": 55,
-    "files": 711
+    "files": 715
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,8 +17,8 @@
     ".jsonl": 1,
     ".lean": 3,
     ".md": 143,
-    ".pdf": 5,
-    ".png": 32,
+    ".pdf": 7,
+    ".png": 34,
     ".py": 12,
     ".rtf": 2,
     ".scsyndef": 1,
@@ -40,7 +40,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 462,
+    "source-conversation-corpus": 466,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +52,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 462,
+    "DEVELOPMENT_FULL_CONVOS": 466,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -656,7 +656,7 @@
       "size": 49
     },
     {
-      "content_id": "989f6d1b79fb242dcc8f2df62f1bc13e2f481c5197ccb859b967dcc9a99ba42c",
+      "content_id": "a55f4c82482512cb01d61d2a4bf4063ca4349aba4fbc7672cd51323ab19da265",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2784,6 +2784,20 @@
       "size": 17314
     },
     {
+      "content_id": "f10aba996e8e35829c1bb335c10bb2390f5a91a9181d9abaacc29e0530844078",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO adv.PNG",
+      "role": "source-conversation-corpus",
+      "size": 601015
+    },
+    {
+      "content_id": "646b53ea7a8797c21c798df272bda1ccec1dff99bdbbd0b709a251e3cc2c1ec1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO.PNG",
+      "role": "source-conversation-corpus",
+      "size": 507907
+    },
+    {
       "content_id": "fd8ce6b5bbfa4ef4ef8b424c427406c10e82b127bfbd39bf8c3c82a521fc705e",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/FujiFilm xray SHR-U (HR-T30) wavelength sensitivity.PNG",
@@ -2791,11 +2805,25 @@
       "size": 50735
     },
     {
+      "content_id": "b50787242e329845326d90907f4e3b9556f89bea6c047ea67d734ff921073b28",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf",
+      "role": "source-conversation-corpus",
+      "size": 412967
+    },
+    {
       "content_id": "566d40115fb3f2595adc1422a4e757d89095f7cd50593de46c35a7b866fe9f87",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt",
       "role": "source-conversation-corpus",
       "size": 128313
+    },
+    {
+      "content_id": "44c839b153a91bed66e0b4fcc7c5bbdb0342f40ba0432ea08958878248a3c54f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf",
+      "role": "source-conversation-corpus",
+      "size": 289507
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -5619,7 +5647,7 @@
       "size": null
     },
     {
-      "content_id": "cf8f5e91338404e2cbdd9f028c3afa47dc27868e757532a51c12d7cdaf1a98a7",
+      "content_id": "e9a3efc99b5f64a4bf606a300c8558565beda23343967b2094b03fae2ff590a8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5633,7 +5661,7 @@
       "size": 8625
     },
     {
-      "content_id": "88545737b11208e20277434dfa14d829289c7fa6e4d641419174c758b441d204",
+      "content_id": "73048b19c3a3c1d494049c5495632aae63cb1467c3a502d5bf0107d5f26d7e50",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5654,14 +5682,14 @@
       "size": null
     },
     {
-      "content_id": "2110d0c6273138ae55455d653dcf3c3c7931b2e1b42ce5f0a2ed312ea6ef9f68",
+      "content_id": "2cb6c5ffabad5687229f5d1790b188cf5d6841432e5a6091ba349e8a59a98da1",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 209491
     },
     {
-      "content_id": "0a483ea05e372af0c9f952975c46f066cb341ced2d57b958eddb49bdf329f608",
+      "content_id": "8669ab33066025bc758b9d61b4d4594b2618c3773570b81e50532f4849243b2b",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5879,8 +5907,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:25:02+00:00",
+  "scanned_at_utc": "2026-09-12T22:29:18+00:00",
   "schema_version": 1,
-  "tree_id": "aa74968bb66de4156a1630b31b9dcb863dd0e8b43975f855cd09898845665f76",
+  "tree_id": "1ffd1a8173f54e092c5d7da23e449ab3a53d77fa07beb9dd5946a3e07a013fd3",
   "tree_response_truncated": false
 }
