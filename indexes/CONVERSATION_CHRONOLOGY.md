@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T14:28:59.619898+00:00`
+- Generated: `2026-09-12T14:38:45.862104+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **369**
+- Dated conversation exports: **372**
 - Skipped non-conversation or unparseable files: **48**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -120,6 +120,7 @@
 | 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 22 | D29 |  |
 | 2025-05-07 | 2025-05-07 | [SAT Logical Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 22 | D29 |  |
 | 2025-05-07 | 2026-06-01 | [XXX SAT Theory Synthesis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A226.06.01%E2%80%A2XXX%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 190 |  |  |
+| 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_4` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 479 |  |  |
 | 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_3` | 545 | D10 | 1 user/assistant messages lacked timestamps |
@@ -278,6 +279,8 @@
 | 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 209 |  |  |
 | 2026-06-08 | 2026-09-08 | [arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 209 |  |  |
 | 2026-06-16 | 2026-06-16 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.16%E2%80%A226.06.16%E2%80%A2Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 351 |  |  |
+| 2026-06-16 | 2026-09-12 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 356 |  |  |
+| 2026-06-20 | 2026-09-12 | [ER=EPR Conjecture](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER%3DEPR%20Conjecture%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 28 |  |  |
 | 2026-06-20 | 2026-09-12 | [ER EPR Kerr Connections](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER%20EPR%20Kerr%20Connections%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 29 |  |  |
 | 2026-06-21 | 2026-09-12 | [EM Fields and Gravity](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM%20Fields%20and%20Gravity%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 4 |  |  |
 | 2026-06-21 | 2026-09-12 | [If Then Logic](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If%20Then%20Logic%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 141 |  |  |

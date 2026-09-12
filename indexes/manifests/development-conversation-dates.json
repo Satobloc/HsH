@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T14:28:52.563168+00:00",
+  "generated_at_utc": "2026-09-12T14:38:37.096779+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -8,7 +8,7 @@
     "unchanged": 365,
     "skipped": 48,
     "collision": 1,
-    "blocked": 3
+    "blocked": 6
   },
   "records": [
     {
@@ -2652,12 +2652,48 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER=EPR Conjecture — raw.json",
+      "start_local": "2026-06-20T19:47:01.116225-04:00",
+      "end_local": "2026-09-12T10:21:26.146602-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 28,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
       "start_local": "2026-06-21T17:07:53.153947-04:00",
       "end_local": "2026-09-12T09:51:49.299434-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 141,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "start_local": "2025-05-08T13:55:08.002000-04:00",
+      "end_local": "2026-06-13T21:24:08.087651-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 479,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.16•26.09.12•Where is Velserbroek — raw.json",
+      "start_local": "2026-06-16T07:37:47.570563-04:00",
+      "end_local": "2026-09-12T10:25:37.682101-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 356,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"
