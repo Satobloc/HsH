@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T11:06:39+00:00`
-- Tree/content state: `61f68578f27011a6d4ba5763611e63aba42d0666aa5af63492394b1e4b779aff`
-- Coverage: 588 files, 49 directories
+- Scanned: `2026-09-12T11:09:01+00:00`
+- Tree/content state: `6a65e76be1e50b74ba4dbcdb63de825194afd2d7dc737c6fce17088af6503886`
+- Coverage: 589 files, 49 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,7 +12,7 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 5 |
+| `.github` | 6 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 391 |
@@ -59,7 +59,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 82 |
-| `.yml` | 5 |
+| `.yml` | 6 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -68,7 +68,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 5 |
+| `automation-workflow` | 6 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -273,6 +273,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3750 bytes — `visitor-interface`
+- `.github/workflows/append-meridian-checkin-once.yml` — 14732 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -798,7 +799,7 @@
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 2853 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKINS.md` — 34443 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS.md` — 45141 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COORDINATION.md` — 7398 bytes — `llm-workspace`
