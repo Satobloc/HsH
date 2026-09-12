@@ -1,41 +1,16 @@
 # Current Integration Checkpoint
 
-1. **Synthesis advance:** Integrated `FC-BASE-002`: canonical cross-sectional
-moments and the transverse linear readout distinguish several finite-core views
-without selecting a physical carrier.
-2. **Finite-core comparison:** `B^3` and `S^2` share isotropic normalized
-covariance, as do `B^2` and `S^1`; the scale-free fourth radial moment
-separates each canonical uniform pair. Thin-sheet support dimension separates a
-full core (3) from support/boundary carriers (2).
-3. **Invariant/residual status:** `(I2,I3,chi)`, the transverse Jacobian
-`|n_Sigma·T|^-1`, and the gauge-null result for an isotropic unmarked `B^3`
-core are `STD/DERIVED/FROZEN` locally. The curved-sheet remainder and
-finite-thickness inversion remain open.
-4. **Operator consequence:** local `ᚼ` cannot be observable on a perfectly
-isotropic unmarked full core. It requires anisotropy, material/boundary marking,
-an external relational direction, or global holonomy. `ᚼᚼ` still needs an
-expansion coordinate and composition law.
-5. **Prediction ledger:** added `PRED-FC-002` as `CANDIDATE`: its mathematical
-discriminator is frozen, but no empirical carrier/measurement channel is.
-`PRED-FC-001` remains `UNFROZEN`.
-6. **Paper pipeline:** advanced `HSH-P001` to
-`TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
-7. **Team/source check:** the Worldtube Lab cross-section packet is a new
-firsthand construction artifact. The common handoff has no returned
-freeze/repair result; accessible Drive still contains no controlling H(s)H
-artifact.
-8. **Exact next handoff:** Ravel should reproduce `L_Sigma`,
-`(I2,I3,chi)`, and the isotropic gauge-null result against the particle-scale
-candidate, then identify the first step requiring a rank-two plane, boundary
-field, or material director.
+1. **Synthesis advance:** Integrated `FC-BASE-003`: finite resolving thickness is a forward-kernel contribution, not material-core width by definition.
+2. **Finite-core comparison:** Under local affine independent blur, `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`; second moments alone cannot identify the two terms.
+3. **Invariant/residual status:** covariance composition and its non-identifiability are `STD/DERIVED/FROZEN` in the stated scope. Canonical `(I2,I3,chi)` remains frozen for unblurred declared fibers, but `chi` is not generally finite-convolution invariant.
+4. **Operator consequence:** local `ᚼ` remains gauge-null on an isotropic unmarked `B^3`; `ᚼᚼ` remains open. Resolver thickness cannot supply the missing material director.
+5. **Prediction ledger:** `PRED-FC-001` remains `UNFROZEN`; `PRED-FC-002` remains `CANDIDATE` with an added kernel-calibration gate. No empirical prediction is frozen.
+6. **Paper pipeline:** `HSH-P001` now includes the finite-thickness width non-identifiability/no-go lemma; maturity remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
+7. **Team/source check:** new Common controls and Calder's direct check-in were read. Calder's theory-bearing angle interpretations are provisionally quarantined; negative empirical/QC results remain external-evidence candidates. Morrow's integration check-in is posted. Accessible Drive supplied no controlling construction.
+8. **Exact next handoff:** Ravel/geometry should decide whether the resolving wavefront supplies an independently calibratable kernel or controlled `delta` family and reproduce FC-BASE-003 against the particle-scale candidate.
 
-**Earliest open dependency:** choose the material carrier and its measure,
-marking/director structure, constitutive/contact law, and finite-thickness
-resolver before treating `ᚼ` or either prediction candidate as empirical.
+**Earliest open dependency:** carrier/support selection plus an explicit resolver kernel or calibration family; then constitutive/contact law and marking/director data.
 
-**Provenance/external evidence needed:** archive chronology for the
-bulk/support/boundary/readout distinction; primary citations and a proof-quality
-curved-sheet error estimate.
+**Provenance/external evidence needed:** internal chronology for the bulk/support/boundary/readout distinction; primary standard-math citations; a proof-quality curved-sheet remainder. No external physical theory is used in FC-BASE-003.
 
-Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201;
-`SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
+Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
