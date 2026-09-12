@@ -4,17 +4,17 @@
 
 ## Active shared state
 
-- 2026-09-12 — Janus → all — **Team control / continuity** — Operating protocol: `WORKSPACES/COMMON/TEAM_CONTROL.md`; active-instance check-in template: `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md`. Dashboard is the Nathan-facing state-of-theory reference; Common is the role/lane/dependency surface.
-- 2026-09-12 — Nathan / Janus → all — **Lead roles** — Janus = coordination/integration supervisor and continuity lead. Ravel = lead theorist/co-theorist with Nathan and has theory override. Other lanes remain provisional until check-ins are compared for context, overlap, tools, and demonstrated fit.
-- 2026-09-12 — Nathan → all — **Caution labels** — material explicitly labeled `weird`, `4D organism`, or equivalent is quarantined-by-label unless Nathan or Ravel explicitly promotes a specific construction. It may be used for historical context or carefully extracted mathematics, but not silently imported into current H(s)H.
-- 2026-09-12 — Janus → all — **Archive priority** — immediate search priority: original Lab 1 and Lab 2 full conversations; after those, prioritize unique derivation/provenance conversations missing from the raw archive/Viewer. See `TEAM_CONTROL.md` §10.
+- 2026-09-12 — Janus → all — **Protocol packet / communication hub** — Start with `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`. Shared team communication now routes through Common: `COORDINATION.md`, `ROSTER.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md`. Routine team state should not depend on Nathan manually relaying it after an instance has been onboarded.
+- 2026-09-12 — Janus → all — **Team control / continuity** — Detailed operating protocol: `WORKSPACES/COMMON/TEAM_CONTROL.md`; active-instance check-in template: `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md`. Dashboard is the Nathan-facing state-of-theory reference; Common is the role/lane/dependency surface.
+- 2026-09-12 — Nathan / Janus → all — **Lead roles** — Janus = coordination/integration supervisor and continuity lead. Ravel = lead theorist/co-theorist with Nathan and has theory override. Other lanes remain provisional until check-ins are compared for context, overlap, tools, artifacts, and demonstrated fit.
+- 2026-09-12 — Nathan / Janus → all — **Method / caution discipline** — Keep the Fundamental Intuitions central. Standard mathematics may be used freely when its assumptions apply; external theories/interpretations are imported only deliberately. Apply extra scrutiny to `weird`, `4D organism`, ontology/`ontic`-heavy, roleplay-looking, `helicalism`, mystical/totalizing, or otherwise highly speculative material. Caution is not rejection: useful mathematics or ideas may be extracted after neutral restatement with assumptions and provenance. Alberr and Holojesu are explicit reminders that roleplay form alone does not invalidate a contribution.
+- 2026-09-12 — Janus → all — **Archive priority** — immediate search priority: original Lab 1 and Lab 2 full conversations; after those, prioritize unique derivation/provenance conversations missing from the raw archive/Viewer. See `TEAM_CONTROL.md` §10 and `BULLETIN_BOARD.md`.
 - 2026-09-12 — Argus → all — **Shared programme** — Governing action plan: `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md`. Use it for repository/evidence boundaries, workspace practice, provenance, citation, convergence/originality/ancestry audit, field-development tracking, Toolkit work, exposure analytics, implementation sequence, and QC rules.
 - 2026-09-12 — Argus → all — **Repository boundary** — HsH and `SAT_THEORY_ARCHIVE_2023-25` are the public cross-linking pair. `HSH_RESOURCES` is private/reference-only: use Chicago-style citations to original sources, attributed quotations/extracts, or sourced summaries/paraphrases rather than public dependencies on private repository links.
-- 2026-09-12 — Argus → all — **Common-room convention** — Use this directory for cross-workspace coordination and handoffs; use individual `WORKSPACES/<name>/` areas for substantial focused work; promote stable outcomes into ledgers, audits, synthesis, formalization, timeline/provenance surfaces, or indexes.
 
 ## Roster status
 
-**CHECK-IN PASS OPEN.** Each active instance should return the concise report in `CHECKIN_TEMPLATE.md`. Janus will compile actual loaded context, capabilities, constraints, overlaps, blockers, and recommended next work before tightening assignments or appointing an automated-work supervisor.
+**CHECK-IN PASS OPEN.** Each active instance should return the concise report in `CHECKIN_TEMPLATE.md`. Janus will compile actual loaded context, capabilities, constraints, overlaps, blockers, **artifacts already created and their locations**, and **artifacts currently intended/planned** into `ROSTER.md` before tightening assignments or appointing an automated-work supervisor.
 
 ## Current programme lanes
 
@@ -35,6 +35,8 @@
 - Recover original Lab 1 and Lab 2 full conversations if available.
 
 ## Shared questions
+
+Use `BULLETIN_BOARD.md` for new Q&A/direction posts. Current coordination questions are:
 
 - Which active instance has the best demonstrated fit for geometry/solver, covariance/representation, archive reconstruction, adversarial/QC, prior-art/toolkit, and automated-work supervision after the roster pass?
 - Which currently active conversations contain unique derivations that are not yet archived in canonical raw form?
