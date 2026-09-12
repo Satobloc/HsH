@@ -104,3 +104,9 @@ input[type="search"]:focus, select:focus { outline: 2px solid rgba(138,180,255,.
 
 .message.kind-tool, .message.kind-function, .message.kind-system, .message.kind-developer, .message.kind-internal { opacity: .78; }
 .message.kind-tool.expanded, .message.kind-function.expanded, .message.kind-system.expanded, .message.kind-developer.expanded, .message.kind-internal.expanded { opacity: .94; }
+
+
+/* Typealong needs empty scroll runway below the current message so the live edge can stay high in view. */
+.messages.typealong-active { padding-bottom: 78vh; }
+.message.collapsible:not(.expanded):not(.typing) .message-body { max-height: var(--collapse-height, 40rem) !important; }
+.message.compact-output.collapsible:not(.expanded):not(.typing) .message-body { max-height: var(--collapse-height, 4.5em) !important; }

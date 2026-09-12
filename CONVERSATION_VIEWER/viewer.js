@@ -269,6 +269,7 @@
     state.replay.forceComplete = false;
     state.replay.forceAdvance = false;
     state.replay.follow = true;
+    el.messages.classList.add("typealong-active");
   }
 
   function pinTypingEdge(body) {
@@ -374,7 +375,7 @@
   function stopReplay() {
     state.replay.running = false; state.replay.token += 1;
     if (state.replay.cruiseFrame) cancelAnimationFrame(state.replay.cruiseFrame);
-    state.replay.cruiseFrame = null; el.replayToggle.textContent = "▶ Replay"; el.replayStatus.textContent = "Paused";
+    state.replay.cruiseFrame = null; el.messages.classList.remove("typealong-active"); el.replayToggle.textContent = "▶ Replay"; el.replayStatus.textContent = "Paused";
   }
 
   function wait(ms, token) { return new Promise(resolve => setTimeout(() => resolve(token === state.replay.token), Math.max(10, ms))); }
@@ -481,6 +482,8 @@
     });
     el.messages.addEventListener("wheel", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
     el.messages.addEventListener("touchstart", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
+    el.messages.addEventListener("touchmove", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
+    el.messages.addEventListener("pointerdown", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
     el.messages.addEventListener("scroll", () => {
       if (el.messages.scrollTop + el.messages.clientHeight > el.messages.scrollHeight - 900 && state.rendered < state.messages.length && state.replay.mode !== "typealong") renderNext();
       if (!state.replay.running) setActive(currentVisibleMessage(), true);

@@ -174,22 +174,30 @@
   }
 
   function addCollapseToggle(article, body, rawText, kind) {
-    if (article.querySelector(".expand-toggle")) return;
     const toolish = ["tool", "function", "internal", "developer", "system"].includes(kind);
-    const threshold = toolish ? 260 : 2200;
-    if (rawText.length <= threshold) return;
-    article.classList.add("collapsible");
     if (toolish) article.classList.add("compact-output");
-    const meta = article.querySelector(".message-meta");
-    if (!meta) return;
-    const button = document.createElement("button");
-    button.type = "button"; button.className = "expand-toggle"; button.textContent = toolish ? "Show output" : "Expand";
-    button.addEventListener("click", event => {
-      event.stopPropagation();
-      const expanded = article.classList.toggle("expanded");
-      button.textContent = expanded ? "Collapse" : (toolish ? "Show output" : "Expand");
-    });
-    meta.prepend(button);
+
+    const install = () => {
+      if (!body.isConnected || article.classList.contains("typing")) return;
+      const lineHeight = parseFloat(getComputedStyle(body).lineHeight) || 24;
+      const limit = lineHeight * (toolish ? 3 : 25);
+      article.style.setProperty("--collapse-height", `${limit}px`);
+      if (body.scrollHeight <= limit + 4) return;
+      article.classList.add("collapsible");
+      if (article.querySelector(".expand-toggle")) return;
+      const meta = article.querySelector(".message-meta");
+      if (!meta) return;
+      const button = document.createElement("button");
+      button.type = "button"; button.className = "expand-toggle"; button.textContent = toolish ? "Show output" : "Expand";
+      button.addEventListener("click", event => {
+        event.stopPropagation();
+        const expanded = article.classList.toggle("expanded");
+        button.textContent = expanded ? "Collapse" : (toolish ? "Show output" : "Expand");
+      });
+      meta.prepend(button);
+    };
+
+    requestAnimationFrame(() => requestAnimationFrame(install));
   }
 
   function addRawToggle(article, body, rawText) {
@@ -233,6 +241,7 @@
 
     if (!article.classList.contains("search-hit") && !article.classList.contains("typing") && body.dataset.view !== "raw") {
       renderBody(body, rawText);
+      addCollapseToggle(article, body, rawText, kind);
     }
   }
 

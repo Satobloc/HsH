@@ -92,3 +92,6 @@ input[type="search"]:focus, select:focus { outline-color: rgba(214,41,112,.28); 
 .message-body .katex-display { margin: .9em 0 1.05em; overflow-x: auto; overflow-y: hidden; padding: .18em 0 .3em; }
 .message-body .katex-display > .katex { white-space: nowrap; }
 .message-body .katex-error { color: inherit !important; }
+
+.message-body { font-size: 1rem; line-height: 1.62; }
+@media (min-width: 1000px) { .message-body { font-size: 1.04rem; } }
