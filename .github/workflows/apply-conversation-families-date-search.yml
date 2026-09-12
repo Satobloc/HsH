@@ -21,15 +21,15 @@ jobs:
         run: |
           python -m py_compile tools/build_conversation_viewer.py
           node --check CONVERSATION_VIEWER/viewer.js
-      - name: Commit patch
+      - name: Commit ordinary repository files only
         run: |
-          if [[ -n "$(git status --porcelain tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/viewer.css .github/workflows/build-conversation-viewer.yml .github/workflows/deploy-conversation-viewer-pages.yml)" ]]; then
+          if [[ -n "$(git status --porcelain tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/viewer.css)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/viewer.css .github/workflows/build-conversation-viewer.yml .github/workflows/deploy-conversation-viewer-pages.yml
+            git add tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/viewer.css
             git commit -m "Group conversation versions and add date-aware search"
             git pull --rebase origin main
             git push origin HEAD:main
           else
-            echo "No patch changes needed."
+            echo "No ordinary repository changes needed."
           fi
