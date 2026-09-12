@@ -1,15 +1,40 @@
-# Current Reconstruction Checkpoint
+# Current Integration Checkpoint
 
-1. **Source and position:** `4DHH-UC BUILDOUT DEV.txt`, blob `37e2490602b23bdd0d1fd418c51b65df5cdc548c`, lines 1–1,200 of 10,945. Local SHA-256: `4b647eef40bd9277a1ea29aa8fb221ceb438c705eff127c0e29ba093ab79acb8`.
-2. **Coverage:** Partial, sequential. Resume at line 1,201. This opening is a mixed March 2026 development compilation containing direct user interventions among repeated generated overviews, audits, paper plans, and particle tables.
-3. **Synthesis advance:** Recovered the first explicit early-2026 line kernel in this route: a one-parameter center-history `gamma^mu(lambda)` with longitudinal coordinate `lambda`, transverse sinusoidal modes, scale `l_f`, integer harmonics `n_i`, phases `phi_i`, and derivatives `v^mu` and `a^mu`.
-4. **Framework statement:** This supports 4DHH as H(s)H's line-based kinematic skeleton, but not yet its finite-core realization. The generator is defined on a curve, while the accompanying `integral d^4x sqrt(-g)(L_UC + L_4DHH)` is a field/lattice action; the source supplies no push-forward, ensemble measure, or continuum map joining those domains.
-5. **Status changes:** The geometric-attachment-over-fit correction is `SRC/HISTORICAL` and consistent with the active method; the explicit generator is `GEN/HISTORICAL-CANDIDATE`; curve-to-field coupling, recursive hyper(super)helical nesting, admissible variations, and finite-core lift remain `OPEN`; inherited metric, gauge, mass, particle, and numerical recoveries remain `GEN/QUARANTINED`.
-6. **Conflicts preserved:** The direct user instruction favors geometry that connects sectors and warns against generated consensus, while surrounding assistant text repeatedly calls lattice, `Q <= 3`, `Z_3`, raw `theta_4`, `B` scaling, metric inversion, and particle assignments locked or final. Simultaneous sinusoidal modes are not automatically recursive nested helices.
-7. **Earliest unsupported edge:** Type the ambient four-space and basis, define whether nesting is recursive or merely modal superposition, specify parameterization and boundary conditions, and construct the measure/map that lifts the one-dimensional curve action into the finite-core worldtube and any four-dimensional field density.
-8. **Repository/change check:** No new human theory upload superseded this pass. Main-archive changes were Archive Admin processing of the prior breadcrumb; HsH changes were reconstruction outputs; the new HSH_RESOURCES commit was automated scan rotation. The previously detected February 2, 2025 upload remains queued as secondary provenance.
-9. **Next action:** Continue `4DHH-UC BUILDOUT DEV.txt` at line 1,201, watching for direct user corrections, a recursive hyperhelix definition, or an explicit curve-to-UC/field coupling before routing to BYO/Particle-Zoo sources.
+1. **Synthesis advance:** Froze the local dimension/codimension hierarchy for a
+smooth finite-core thickening of a center history in four dimensions.
+2. **Finite-core comparison:** A full normal `B^3` core, selected `B^2`
+material support, `S^2` boundary, and finite-thickness resolving intersection
+are distinct roles. They form one layered object only after explicit inclusion,
+support-selection, boundary, and readout maps are supplied.
+3. **Invariant/residual status:** Rank-three normal structure and the resulting
+dimension table are `STD/DERIVED/FROZEN` under smooth embeddedness, small
+radius, and transversality. A scalar `ᚼ` remains underdetermined without a
+normal frame, axis, reference orientation, and transport law; `ᚼᚼ` additionally
+needs an expansion coordinate and composition rule.
+4. **Prediction ledger:** `PRED-FC-001` records the geometric scaling contrast
+`Vol(B^3_epsilon)=(4 pi/3)epsilon^3`,
+`Area(S^2_epsilon)=4 pi epsilon^2`, and
+`Area(B^2_epsilon)=pi epsilon^2`. Status remains `UNFROZEN`: no observable
+forward map or independent scale estimator has been selected.
+5. **Paper pipeline:** `HSH-P001`, *Tubular-Neighborhood Typing for Finite-Core
+H(s)H Representations*, is a skeleton with its mathematical baseline frozen and
+model selection open.
+6. **Team/source check:** No current H(s)H team artifact was found in accessible
+Google Drive results, and the GitHub common room contained no scientific
+handoff. The Worldtube Lab artifacts are therefore the firsthand construction
+basis for this pass.
+7. **Exact next handoff:** Geometry/solver and covariance/representation lanes
+should test anisotropic and nontransverse cases and specify the minimum
+`SO(3)` frame/axis data that reduces normal rotation to scalar `ᚼ`.
 
-Search attention: `gamma^mu`, `lambda`, `superhelix`, `L_4DHH`, `S_Total`, `variation`, `Euler`, `nested`, `worldtube`, `finite thickness`, `Q <= 3`, `Z_3`, `theta_4`, and `2B`. Gap: no finite-core carrier or domain-changing map appears in lines 1–1,200. Missed-context risk is high because 9,745 lines remain unread and may contain later corrections.
+**Earliest open dependency:** select the literal carrier and define its
+configuration space, constitutive/contact law, resolving operator, and
+centerline limiting map before promoting any empirical prediction.
 
-Preserved cursors: `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
+**Provenance/external evidence needed:** archive provenance for the first
+bulk/support/boundary/readout distinction; primary references for tubular
+neighborhoods, transversality, framed curves/ribbons, shell-versus-bulk
+mechanics, and open string-link/Brunnian topology.
+
+Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201;
+`SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
