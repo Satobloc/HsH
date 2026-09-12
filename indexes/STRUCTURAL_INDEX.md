@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:57:18+00:00`
-- Tree/content state: `7dc028c50828817ba44f7bfbdb27a51bdd758ec133b641b30b6cecc3918b0a80`
-- Coverage: 607 files, 51 directories
+- Scanned: `2026-09-12T13:04:23+00:00`
+- Tree/content state: `9476fb460e2677eb2a0a46d52d32799a9fe32c67fea69c4f1aa83c1b04189173`
+- Coverage: 610 files, 52 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 41 |
+| `WORKSPACES` | 44 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 110 |
+| `.md` | 113 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -75,7 +75,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 41 |
+| `llm-workspace` | 44 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -811,9 +811,11 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 155758 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 179942 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_RELAYED/README.md` — 1071 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_RELAYED/ROBERT_GEOMETRY_TO_PYTHON_COBORDISM_2026-09-12.md` — 11949 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md` — 20388 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_TRILLION_UNIVERSE_MODEL_GENERATOR_2026-09-12.md` — 27377 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT-5.6-Sol_Logic-Spine_2026-09-12.md` — 22155 bytes — `llm-workspace`
@@ -822,6 +824,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md` — 27898 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md` — 9751 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_ADDENDUM.md` — 3205 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7532 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
