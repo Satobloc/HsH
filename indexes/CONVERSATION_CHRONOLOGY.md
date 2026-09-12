@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:32:13.330110+00:00`
+- Generated: `2026-09-12T22:32:56.036482+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **384**
-- Skipped non-conversation or unparseable files: **74**
+- Skipped non-conversation or unparseable files: **85**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -696,6 +696,17 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_TOP_LEVEL_GOALS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT_20_TOP_LEVEL_GOALS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/TIME INSTRUCTIONS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/TIME%20INSTRUCTIONS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20DEV%20DISCUSSIONS%201.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/EMULATOR%20ANALYSIS.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR RESULTS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/EMULATOR%20RESULTS.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_FIRST RUN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/EMULATOR_FIRST%20RUN.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_SECOND RUN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/EMULATOR_SECOND%20RUN.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/MOD1 CHECKLIST.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/MOD1%20CHECKLIST.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O4_Prelim_Audit_Report.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/SAT_O4_Prelim_Audit_Report.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O8_Audit_Results.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/SAT_O8_Audit_Results.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o1 (X) AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/o1%20%28X%29%20AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o2 AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/o2%20AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o3 AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/o3%20AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o6 AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20O%20AUDITS/o6%20AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT%20GEOMETRIC%20SOLVERS.txt) — Expecting value: line 1 column 1 (char 0)

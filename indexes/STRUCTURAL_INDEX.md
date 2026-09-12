@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:32:13+00:00`
-- Tree/content state: `200fb8da3a74385e1cd907fad3aab5a79cd38dda460a5fb731cc97702677f1b0`
-- Coverage: 740 files, 57 directories
+- Scanned: `2026-09-12T22:32:56+00:00`
+- Tree/content state: `d41987110c78b1dccce788ebaa3e18066b216ea51accc654b3c7ab734e404ae3`
+- Coverage: 751 files, 58 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 491 |
+| `DEVELOPMENT_FULL_CONVOS` | 502 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -61,7 +61,7 @@
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 114 |
+| `.txt` | 125 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -80,7 +80,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 491 |
+| `source-conversation-corpus` | 502 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -626,6 +626,17 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_TOP_LEVEL_GOALS.txt` — 4319 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/TIME INSTRUCTIONS.txt` — 3322 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt` — 14537491 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt` — 42731 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR RESULTS.txt` — 19442 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_FIRST RUN.txt` — 103189 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_SECOND RUN.txt` — 81413 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/MOD1 CHECKLIST.txt` — 622 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O4_Prelim_Audit_Report.txt` — 5079 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O8_Audit_Results.txt` — 32466 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o1 (X) AUDIT.txt` — 11459 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o2 AUDIT.txt` — 9743 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o3 AUDIT.txt` — 10230 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o6 AUDIT.txt` — 10766 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt` — 128313 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf` — 289507 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt` — 1 bytes — `source-conversation-corpus`
@@ -996,11 +1007,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 125224 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 127450 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 217891 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 221698 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

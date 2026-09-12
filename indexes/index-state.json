@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1069098339,
-    "directories": 57,
-    "files": 740
+    "bytes_known": 1069431512,
+    "directories": 58,
+    "files": 751
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -24,7 +24,7 @@
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 114,
+    ".txt": 125,
     ".yml": 5,
     "[none]": 2
   },
@@ -40,7 +40,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 491,
+    "source-conversation-corpus": 502,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +52,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 491,
+    "DEVELOPMENT_FULL_CONVOS": 502,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -656,7 +656,7 @@
       "size": 49
     },
     {
-      "content_id": "eb9b5b2799a7227bb2bafb97a755a5a0dccce11dbd3b17c3455e855484e8d435",
+      "content_id": "f99d21aa54387d1a0aa965b2689d9ef4115659aaed8901cb23bee1e3cdfbf1e6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2999,6 +2999,90 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt",
       "role": "source-conversation-corpus",
       "size": 14537491
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "acea5f1affb47e9a0bb2adee6c0f781270f4b242d7074fd33fdd2d6b7b3facd5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt",
+      "role": "source-conversation-corpus",
+      "size": 42731
+    },
+    {
+      "content_id": "8f0a755876e3003c15ccbff1c9e2252a6586adf4e3320e4bb7553f3ba1c87b6f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR RESULTS.txt",
+      "role": "source-conversation-corpus",
+      "size": 19442
+    },
+    {
+      "content_id": "e73ac7518e78bccc09393bcf94f7933c3c667160c492bab578760484183f4d3a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_FIRST RUN.txt",
+      "role": "source-conversation-corpus",
+      "size": 103189
+    },
+    {
+      "content_id": "9dea4af0d9353d7b074ecc8f0f3f9e3f50c0826f5c98f8b297d02f84b125936b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_SECOND RUN.txt",
+      "role": "source-conversation-corpus",
+      "size": 81413
+    },
+    {
+      "content_id": "99ca1cff4f793841cafc9108a052c0a03f32d8759b9f2cedbf89b5406b10b9d3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/MOD1 CHECKLIST.txt",
+      "role": "source-conversation-corpus",
+      "size": 622
+    },
+    {
+      "content_id": "fb94bc9fd38d2a5589edf5aad2a20620d2700512a31acff3a8e0b38678c9e11c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O4_Prelim_Audit_Report.txt",
+      "role": "source-conversation-corpus",
+      "size": 5079
+    },
+    {
+      "content_id": "a5629836b3125fb816a040c3495a02986b743926ef8ed3c030731a5a70e253f9",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/SAT_O8_Audit_Results.txt",
+      "role": "source-conversation-corpus",
+      "size": 32466
+    },
+    {
+      "content_id": "444246ac34043d70da65d68c9631cf166e9f35ec816735d8b793fcb45db415ed",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o1 (X) AUDIT.txt",
+      "role": "source-conversation-corpus",
+      "size": 11459
+    },
+    {
+      "content_id": "c5a87086b838e2cd181621f46566bccdceee6287e1e2ace9cba0c982532cfc3e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o2 AUDIT.txt",
+      "role": "source-conversation-corpus",
+      "size": 9743
+    },
+    {
+      "content_id": "5f3f2178bdf31d33b02aadf4068ddb14b5ee7e2413f4c8a789288dd4e77a409a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o3 AUDIT.txt",
+      "role": "source-conversation-corpus",
+      "size": 10230
+    },
+    {
+      "content_id": "0bbbb9f04fc88ae6fbabd0175ca002ed3bfcc82f6b5aa21bb3bec4e19cd651f0",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o6 AUDIT.txt",
+      "role": "source-conversation-corpus",
+      "size": 10766
     },
     {
       "content_id": "566d40115fb3f2595adc1422a4e757d89095f7cd50593de46c35a7b866fe9f87",
@@ -5836,11 +5920,11 @@
       "size": null
     },
     {
-      "content_id": "045cae727ceba9a2a550435deec310b6343bbc0eb02f548692bf3f909603cf40",
+      "content_id": "3a36aeb70ca426f07594e543d8eadeb50f31a398947dffbd8ae95271ff9018c8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 125224
+      "size": 127450
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5850,7 +5934,7 @@
       "size": 8625
     },
     {
-      "content_id": "a9782dc2a9aa91c80afacdd371b075529b5e4d5fabb9ab7dd0b9fc4ec267ddf6",
+      "content_id": "313720764e3ac181b615992efb64761b35fc8e429334c98b94b3a66fac166cd9",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5871,14 +5955,14 @@
       "size": null
     },
     {
-      "content_id": "278d6649ed991fb46a21676e67ed9ae2b16ce1a128409676c7bbdc52f005e447",
+      "content_id": "608d074909e0336eeecce92cca00d774289258185cd67d8851ec4dd059847240",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 217891
+      "size": 221698
     },
     {
-      "content_id": "207d2e981113013fa297ecd2ceea1803e00f659bcefa66caedde63c0062fa503",
+      "content_id": "80bea74c8706fd890c83be2e7d3f440e295190ca1060f8d70ee5c583ab5f2532",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6096,8 +6180,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:32:13+00:00",
+  "scanned_at_utc": "2026-09-12T22:32:56+00:00",
   "schema_version": 1,
-  "tree_id": "200fb8da3a74385e1cd907fad3aab5a79cd38dda460a5fb731cc97702677f1b0",
+  "tree_id": "d41987110c78b1dccce788ebaa3e18066b216ea51accc654b3c7ab734e404ae3",
   "tree_response_truncated": false
 }
