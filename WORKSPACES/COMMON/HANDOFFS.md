@@ -12,6 +12,8 @@
 
 `2026-09-12 — Integration -> Ravel / geometry / solver — FC-BASE-004 / PRED-FC-003 — determine whether the resolving wavefront admits independently controlled width settings with fixed carrier state; if yes, freeze delta calibration, estimator, and held-out settings for Q_obs(delta)=Q_0+delta^2Q_K — WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md — return freeze/reject/repair note here`
 
+`2026-09-12 — Integration -> Ravel / Worldtube Lab — Kerr reference/carrier separation — complete the source-typed electron-like Kerr/Kerr-Newman survival table and dependency audit; identify which surviving object, if any, supplies B^3 bulk, B^2 support, S^2 boundary, material director, and resolver coupling; do not reuse a=hbar/(2m_ec) or c^4/G as confirming premises — WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md and CHECKINS.md#Ravel — return promotion/rejection/repair note here`
+
 ## Completed handoffs
 
 _None recorded._
