@@ -1,0 +1,43 @@
+name: Append Argus roster check-in
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md'
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append check-in if absent
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          src = Path('WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md')
+          dst = Path('WORKSPACES/COMMON/CHECKINS.md')
+          marker = '### Argus — 2026-09-12'
+          current = dst.read_text(encoding='utf-8')
+          if marker in current:
+              print('Argus check-in already present; no change.')
+          else:
+              block = src.read_text(encoding='utf-8').strip()
+              dst.write_text(current.rstrip() + '\n\n' + block + '\n', encoding='utf-8')
+              print('Appended Argus check-in.')
+          PY
+      - name: Commit
+        run: |
+          if git diff --quiet -- WORKSPACES/COMMON/CHECKINS.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/CHECKINS.md
+          git commit -m 'coordination: append Argus roster check-in'
+          git push
