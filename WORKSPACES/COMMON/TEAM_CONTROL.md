@@ -6,80 +6,103 @@
 ## 1. Control surfaces
 
 - **State of theory / Nathan-facing reference:** `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`
+- **Team overview / current directives:** `WORKSPACES/COMMON/TEAM_OVERVIEW.md`
+- **Instance check-in intake:** `WORKSPACES/COMMON/CHECKINS.md`
+- **Compiled roster:** `WORKSPACES/COMMON/ROSTER.md`
 - **Shared team coordination:** `WORKSPACES/COMMON/COORDINATION.md`
+- **Q&A / direction / if-bored board:** `WORKSPACES/COMMON/BULLETIN_BOARD.md`
 - **Handoffs:** `WORKSPACES/COMMON/HANDOFFS.md`
+- **External-research hard boundary:** `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md`
 - **Shared programme / evidence rules:** `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md`
 - **Substantial work:** `WORKSPACES/<lane>/`
 - **Conversation provenance:** Conversation Viewer + canonical raw conversation JSON
 
-The Dashboard is the default answer to “what is the state of the theory / what does Nathan need to know?” Workspaces are noncanonical. The common room is a routing surface, not a shadow synthesis.
+The Dashboard answers “what is the state of the theory / what does Nathan need to know?” Common answers “who is doing what / what is blocked / what must be routed?” Workspaces are noncanonical.
 
 ## 2. Lead roles
 
 ### Janus — coordination / integration supervisor
 
-Primary responsibility: continuity, task routing, role boundaries, cross-team dependencies, promotion gates, archive priorities, automation design, and keeping Nathan’s Dashboard/update surface intelligible.
+Primary responsibility: continuity, task routing, role boundaries, cross-team dependencies, promotion gates, archive priorities, workflow design, automation architecture, and keeping Nathan’s Dashboard/update surface intelligible.
 
-Janus may stop or reroute work for duplication, provenance, safety, stale assumptions, missing QC, or role collision. Janus does **not** override the lead theorist on theory content.
+Janus may stop or reroute work for duplication, provenance, stale assumptions, missing QC, role collision, or lane contamination. Janus does **not** override the lead theorist on theory content.
 
 ### Ravel — lead theorist / co-theorist with Nathan
 
-Primary responsibility: forward H(s)H theory construction with Nathan, including deciding which mathematical constructions belong in the active theory and which remain tools, candidates, or discarded branches.
+Primary responsibility: forward H(s)H theory construction with Nathan, including deciding which mathematical constructions belong in the active theory and which remain tools, candidates, comparisons, or discarded branches.
 
 **Theory override:** Ravel has final project-internal override on theory construction/promotion unless Nathan decides otherwise. Process/provenance objections remain visible rather than being erased.
 
+### Nathan — project originator / final override
+
+Nathan controls intended meaning where archive language is ambiguous and may redirect or override any lane.
+
 ### Other lanes
 
-Assignments remain provisional until the active-team check-in roster is complete. Existing tendencies may be preserved when useful (archive/provenance, geometry/solver, covariance/representation, outsider/adversarial, prior-art/toolkit, code/infrastructure), but role bleed should be made explicit rather than silently normalized.
+Assignments remain provisional until the active-team check-in roster is complete. Existing tendencies may be preserved when useful, but role bleed must be made explicit rather than silently normalized.
 
 ## 3. Check-in and roster rule
 
-Every active instance should submit a concise check-in before roles are tightened. Janus compiles the roster from those reports and records:
+Every active instance posts its own concise check-in **directly to `WORKSPACES/COMMON/CHECKINS.md`**. Nathan should not have to relay ordinary roster state.
 
-- current task and intended output;
-- material actually loaded/read versus merely available;
-- repository/file/tool access;
-- special capabilities and constraints;
-- strongest context / unique institutional knowledge;
-- overlaps with other workers;
-- blockers and requested inputs;
-- recommended next job.
+Use `CHECKIN_TEMPLATE.md`. Each report must cover:
 
-Use `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md`.
+- what the instance is working on and intended output/destination;
+- what it actually knows/has loaded versus merely can access;
+- tools/repository/file/runtime/research capabilities and constraints;
+- artifacts already created and exact locations;
+- artifacts currently planned and intended destinations;
+- provenance of the current work, including internal versus external dependencies;
+- overlap/role-bleed/contamination risk;
+- blockers and suggested next work.
 
-After several check-ins, Janus assigns or loosens lanes based on demonstrated context and performance rather than prior naming alone.
+Janus compiles `ROSTER.md` only after enough direct check-ins exist to compare roles, context, artifacts, and capabilities.
 
 ## 4. Minimum preload by role
 
 All active instances should know, at minimum:
 
 1. the Dashboard;
-2. `WORKSPACES/README.md`;
-3. this file;
-4. current `COORDINATION.md` and `HANDOFFS.md`;
-5. the current synthesis/checkpoint if their job touches theory status.
+2. `TEAM_OVERVIEW.md`;
+3. `WORKSPACES/README.md`;
+4. this file;
+5. current `COORDINATION.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md`;
+6. `EXTERNAL_RESEARCH_FIREWALL.md` if the lane touches outside research;
+7. the current synthesis/checkpoint if the job touches theory status.
 
-Additional loading should be role-specific rather than universal:
+Additional loading should be role-specific rather than universal.
 
-- **Ravel / theory:** current synthesis, current checkpoint, relevant Worldtube Lab packets/ledgers, current mathematical construction documents.
-- **Archive/provenance:** archive index/survey, conversation viewer/catalog, exact raw conversations, source chronology; avoid silently promoting historical math.
-- **Geometry/solver:** exact source constructions plus relevant standard mathematical references; strip external physical interpretations unless deliberately imported.
-- **Prior-art/toolkit:** `HSH_RESOURCES/indexes/AI_START_HERE.md`, relevant PRIOR_ART/Toolkit indices, original external sources, convergence rubric.
-- **Outsider/adversarial:** intentionally limited preload when blindness is useful; state the blind packet explicitly.
-- **Automation/infrastructure:** action plan, this protocol, task registry/locks, validation rules; no independent authority to promote theory.
+## 5. Caution / quarantine labels
 
-## 5. Quarantine / caution labels
+Use judgment, not keyword superstition. Material deserves extra scrutiny when it is explicitly labeled or substantively reads as highly speculative, ontic/metaphysical, roleplay-like, mystical, totalizing, or rhetorically stronger than its derivation.
 
-Files or conversations explicitly labeled by Nathan as `weird`, `4D organism`, or equivalent cautionary/speculative material are **quarantined by label** unless Nathan or Ravel explicitly promotes a specific construction.
+Examples include `weird`, `4D organism`, ontology-heavy claims, roleplay/persona material, `helicalism`, and similar branches.
 
-Rules:
+Caution does not mean rejection. Alberr and Holojesu are explicit reminders that unusual form may contain substantive contributions. Useful mathematics or ideas may be extracted after neutral restatement with assumptions and provenance.
 
-- they may be read for historical context or mathematical ideas;
-- they do not silently enter current H(s)H premises;
-- if a useful geometric construction is extracted, restate it independently with assumptions and provenance;
-- a title/path label is a routing warning, not a verdict on every sentence in the file.
+No caution-class material silently becomes a current H(s)H premise.
 
-## 6. Work and promotion flow
+## 6. Hard external-research / theory firewall
+
+Recent arXiv/paper scanning, literature review, prior-art, citation research, and empirical-bound research are **external-evidence lanes, not theorybuilding lanes**.
+
+These lanes may supply:
+
+- direct observations, datasets, null results, and bounds;
+- standard mathematical results with assumptions;
+- citations and provenance;
+- prior-art comparisons;
+- clearly typed deliberate-import candidates.
+
+They may **not** choose or repair H(s)H geometry using outside equations, assumptions, models, interpretations, or mechanisms unless Nathan/Ravel explicitly requests a deliberate import.
+
+Separate the empirical hard backstop from the literature's preferred interpretation wherever possible.
+
+Any artifact produced under a mixed `recent-literature scan + forward theorybuilding` assignment is provisionally quarantined until its direct check-in identifies exact paths and dependency provenance. Quarantine means `do not promote/use as a premise`, not delete.
+
+See `EXTERNAL_RESEARCH_FIREWALL.md`.
+
+## 7. Work and promotion flow
 
 Default substantial-task flow:
 
@@ -87,13 +110,15 @@ Default substantial-task flow:
 
 For theory-bearing results:
 
-`worker -> independent mathematical/QC check -> Ravel theory review -> Janus process/provenance check -> durable theory surface`
+`internal theory worker -> independent mathematical/QC check -> Ravel theory review -> Janus process/provenance check -> durable theory surface`
 
-Janus can block promotion for missing evidence/QC; Ravel controls theory acceptance. Nathan can override either.
+For external research:
 
-Negative/null results should be retained when they close a live path.
+`external scan -> typed evidence packet -> Common/Handoff -> internal theory lane decides whether to engage`
 
-## 7. One-writer / code-lock rule
+External-research workers do not directly promote theory-bearing outputs.
+
+## 8. One-writer / code-lock rule
 
 Until a stronger task registry is needed, use a simple one-writer lease for shared durable files:
 
@@ -103,53 +128,49 @@ Until a stronger task registry is needed, use a simple one-writer lease for shar
 - do experimental work in a workspace/output file first;
 - release the claim after merge/promotion or abandonment.
 
-Automated workers should default to writing workspace/outbox artifacts, not directly changing synthesis, Dashboard, ledgers, or checkpoints.
+Automated workers should default to workspace/outbox artifacts, not direct edits to synthesis, Dashboard, ledgers, or checkpoints.
 
-## 8. Cross-vetting
+## 9. Cross-vetting
 
 Use orthogonal review where it matters:
 
 - mathematical derivation -> independent derivation or numerical/unit test;
 - provenance/priority -> separate chronology/source audit;
 - empirical claim -> independent data/source check;
+- external import -> dependency/provenance audit + explicit Ravel/Nathan decision;
 - code -> syntax/tests + reviewer not responsible for original implementation;
 - theory promotion -> Ravel + process/provenance check;
 - automation changes -> dry run before recurring deployment.
 
 Avoid having the same instance generate, validate, and promote a consequential result without an independent checkpoint.
 
-## 9. Automated-work supervisor
+## 10. Automated-work supervisor
 
-Do **not** appoint or deploy the automated supervisor until the roster and current automation inventory are visible.
+Do **not** appoint or deploy the automated supervisor until the direct Common check-ins and current automation/output inventory are visible.
 
-When created, its lane should be operational only: task scheduling, stale-task detection, output validation, lock checking, handoff routing, and exception reporting. It should not independently decide theory, priority, novelty, or publication claims.
+When created, its lane should be operational only: task scheduling, stale-task detection, output validation, lock checking, handoff routing, and exception reporting. It should not independently decide theory, priority, novelty, publication claims, or external-theory imports.
 
 It reports to Janus; theory-bearing exceptions route to Ravel.
 
-## 10. Archive priorities
+## 11. Archive priorities
 
-Immediate human search priority remains the original **Lab 1** and **Lab 2** full conversations.
+Immediate human search priority remains original **Lab 1** and **Lab 2** full conversations.
 
-After those, prioritize raw/full conversations when they satisfy one or more of:
+After those, prioritize raw/full conversations when they contain unique current derivations, theory transitions, UI/Whirligig/Spheres/finite-core/nested-superhelix construction steps, exact Nathan corrections, or sole provenance for a current/frozen result.
 
-1. contain the first derivation of a result now used in current work;
-2. contain a unique transition in the theory that survives only as summaries/extracts elsewhere;
-3. contain original UI/Whirligig/Spheres/finite-core or nested-superhelix construction steps not yet preserved in canonical raw form;
-4. are repeatedly referenced by active agents but absent from the Conversation Viewer/archive;
-5. contain exact corrections by Nathan that later summaries may have blurred;
-6. are the sole provenance for a frozen/current mathematical result.
+Roster gaps may reorder the later priorities.
 
-Lower priority: duplicate exports, conversations whose distinctive content is already preserved verbatim elsewhere, and explicitly quarantined `weird`/`4D organism` material unless a current provenance question specifically requires them.
-
-## 11. Continuity rule
+## 12. Continuity rule
 
 At any conversation cutoff, a replacement supervisor should be able to resume by reading, in order:
 
 1. Dashboard;
-2. this file;
-3. current `COORDINATION.md`;
-4. current `HANDOFFS.md`;
-5. current check-in roster / active workspace READMEs;
-6. current synthesis/checkpoint only as needed for the task.
+2. `TEAM_OVERVIEW.md`;
+3. this file;
+4. `COORDINATION.md`;
+5. `CHECKINS.md` and `ROSTER.md`;
+6. `BULLETIN_BOARD.md` and `HANDOFFS.md`;
+7. current workspace READMEs;
+8. current synthesis/checkpoint only as needed.
 
-The goal is not to recreate one model’s memory. The goal is to make the project state reconstructible from durable, concise surfaces.
+The goal is not to recreate one model’s memory. The goal is durable reconstructibility of project state.
