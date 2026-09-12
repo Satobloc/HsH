@@ -12,6 +12,7 @@ on:
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
+      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.html'
       - 'CONVERSATION_VIEWER/*.css'
@@ -62,12 +63,20 @@ jobs:
           paths = [x['path'] for x in data['conversations']]
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
-          assert all(x['path'].lower().endswith('.json') for x in data['conversations'])
+          assert all(x['path'].lower().endswith('.json') or x.get('external') for x in data['conversations'])
 
           cp = Path('CONVERSATION_VIEWER/CURATION.json')
           curation = json.loads(cp.read_text(encoding='utf-8'))
           assert curation['schema_version'] == 1
           assert isinstance(curation['rules'], list)
+
+          ep = Path('CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json')
+          external = json.loads(ep.read_text(encoding='utf-8'))
+          assert external['schema_version'] == 1
+          assert isinstance(external['conversations'], list)
+          known_ids = set(ids)
+          for item in external['conversations']:
+              assert item['id'] in known_ids, f"registered external conversation missing from catalog: {item['id']}"
 
           for convo in data['conversations']:
               if convo.get('curated'):
@@ -90,6 +99,7 @@ jobs:
               assert isinstance(item.get('label'), str) and item['label'].strip(), f"invalid landmark label: {item}"
           print(data['counts'])
           print(data['curation'])
+          print(f"registered_external={len(external['conversations'])}")
           print(f"landmarks={len(landmarks['landmarks'])}")
           PY
 
