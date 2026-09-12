@@ -6,38 +6,27 @@
 
 ## Setup
 
-Let a local constant-radius circular helix be written in an orthogonal Euclidean decomposition with axial coordinate (w), radius (R), angular rate (omega), and tangent velocity
+Let a local constant-radius circular helix have axial coordinate `w`, radius `R`, angular rate `omega`, and orthogonal axial/transverse unit directions. Its tangent velocity is
 
-[
-U=dot w,e_w+Romega,e_perp,
-qquad e_wcdot e_perp=0.
-]
+`U = wdot e_w + R omega e_perp`.
 
-Then
+Orthogonality gives
 
-[
-lVert UVert^2=dot w^2+(Romega)^2.
-]
+`||U||^2 = wdot^2 + (R omega)^2`.
 
-If the model imposes the fixed total speed (lVert UVert=c), admissibility requires
+If the model imposes fixed total speed `||U||=c`, admissibility requires
 
-[
-(Romega)^2+dot w^2=c^2,
-qquad
-v_perp=Romega=sqrt{c^2-dot w^2}.
-]
+`(R omega)^2 + wdot^2 = c^2`
 
-Therefore the simultaneous assignments (lVert UVert=c) and (dot w=c) imply
+and hence
 
-[
-Romega=0.
-]
+`v_perp = R omega = sqrt(c^2 - wdot^2)`.
 
-A nonzero transverse helical motion cannot coexist with both assignments in this ansatz.
+Therefore the simultaneous assignments `||U||=c` and `wdot=c` force `R omega=0`. Nonzero transverse helical motion cannot coexist with both assignments in this ansatz.
 
 ## Interpretation boundary
 
-This is a compatibility condition, not a particle prediction. A nontrivial H(s)H helix must declare which quantity (c) constrains:
+This is a compatibility condition, not a particle prediction. A nontrivial H(s)H helix must declare which quantity `c` constrains:
 
 1. total Euclidean parameter speed;
 2. axial/resolver-relative propagation;
@@ -49,8 +38,8 @@ For variable radius, nonorthogonal frames, nested motion, or curved ambient geom
 
 ## Consequence for finite-core candidates
 
-The carrier choice (B^3/B^2/S^2) is unaffected, but every candidate transport law must pass this compatibility check before pitch, circulation, `ᚼ`, `ᚼᚼ`, circuit time, or centerline-limit claims can be promoted. Axial propagation and transverse winding are not independent degrees of freedom once a total-speed constraint is fixed.
+The carrier choice `B^3/B^2/S^2` is unaffected, but every candidate transport law must pass this compatibility check before pitch, circulation, `ᚼ`, `ᚼᚼ`, circuit time, or centerline-limit claims can be promoted. Axial propagation and transverse winding are not independent degrees of freedom once a total-speed constraint is fixed.
 
 ## Failure/freeze boundary
 
-The lemma fails as written if the decomposition is nonorthogonal, (R) varies without its radial term being included, (w) is not a physical coordinate, or the relevant metric is Lorentzian. Freeze only the algebraic statement inside the setup above.
+The lemma fails as written if the decomposition is nonorthogonal, `R` varies without its radial term being included, `w` is not a physical coordinate, or the relevant metric is Lorentzian. Freeze only the algebraic statement inside the setup above.
