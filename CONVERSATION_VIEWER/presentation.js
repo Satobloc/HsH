@@ -22,16 +22,18 @@
 
   function kindFor(article, rawText) {
     const raw = String(article.dataset.speaker || "unknown").toLowerCase();
+    const role = String(article.dataset.role || raw || "unknown").toLowerCase();
     const meta = article.querySelector(".message-meta")?.textContent?.toLowerCase() || "";
-    if (raw === "user") {
+    if (role === "user") {
       const looksLikePaste = rawText.length > 2400 || /<<file\s+name=|<file\b|```[\s\S]*```/i.test(rawText);
       return looksLikePaste ? "user-paste" : "user";
     }
-    if (["tool", "developer", "system"].includes(raw)) return raw;
-    if (raw === "assistant") {
+    if (["tool", "developer", "system"].includes(role)) return role;
+    if (role === "assistant") {
       if (/tool|function|execution|computer|code/.test(meta)) return "function";
       return "assistant";
     }
+    if (role === "companion") return "other-assistant";
     return GENERIC.has(raw) ? "internal" : "other-assistant";
   }
 
@@ -201,8 +203,8 @@
       chip.textContent = displayName(raw);
       const key = raw.toLowerCase();
       let color = "var(--other-assistant)";
-      if (key === "user") color = "var(--user)";
-      else if (key === "assistant") color = "var(--assistant)";
+      if (["user", "nathan"].includes(key)) color = "var(--user)";
+      else if (["assistant", "chatgpt"].includes(key)) color = "var(--assistant)";
       else if (["tool", "developer", "system"].includes(key)) color = "var(--tool)";
       chip.style.setProperty("--chip", color);
     });

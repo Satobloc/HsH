@@ -126,14 +126,45 @@
   function normalizeGeneric(data) {
     const list = Array.isArray(data) ? data : (Array.isArray(data?.messages) ? data.messages : []);
     return list.map((msg, i) => {
-      const author = typeof msg?.author === "object" ? msg.author : {};
+      const authorValue = msg?.author;
+      const author = authorValue && typeof authorValue === "object" ? authorValue : {};
+      const authorName = typeof authorValue === "string" ? authorValue : author.name;
       const role = msg?.role || author.role || msg?.speaker || "unknown";
       return {
-        nodeId: msg?.id || String(i), role, speaker: author.name || role,
+        nodeId: msg?.id || String(i), role, speaker: authorName || msg?.speaker || role,
         text: contentText(msg?.content ?? msg?.text ?? msg?.message ?? "").trim(),
         createTime: Number(msg?.create_time || msg?.timestamp || 0) || null,
       };
     }).filter(m => m.text);
+  }
+
+  function parseCompanionComposite(text) {
+    const marker = text.indexOf("#########"), start = text.indexOf("{");
+    if (marker < 0 || start < 0 || marker <= start) throw new Error("Companion composite source is missing its structured header.");
+    const head = JSON.parse(text.slice(start, marker).trim());
+    const structured = Array.isArray(head.messages) ? head.messages : [];
+    const tail = text.slice(marker + "#########".length);
+    const label = /^\s*(Nathan|Srena)\s*$/gm, hits = [];
+    let match;
+    while ((match = label.exec(tail)) !== null) hits.push({ author: match[1], start: match.index, end: label.lastIndex });
+    const plain = [];
+    for (let i = 0; i < hits.length; i += 1) {
+      const hit = hits[i], end = i + 1 < hits.length ? hits[i + 1].start : tail.length;
+      const content = tail.slice(hit.end, end).trim();
+      if (!content) continue;
+      plain.push({ role: hit.author === "Nathan" ? "user" : "companion", author: hit.author, content, metadata: {} });
+    }
+    if (!plain.length) return head;
+    const norm = value => String(value || "").replace(/\s+/g, " ").trim().toLocaleLowerCase();
+    const first = plain[0];
+    const overlap = structured.findIndex(msg => msg?.author === first.author && norm(msg?.content) === norm(first.content));
+    head.messages = overlap >= 0 ? structured.slice(0, overlap).concat(plain) : structured.concat(plain);
+    return head;
+  }
+
+  function parseSourcePayload(text, convo) {
+    if (convo?.parser === "companion-composite") return parseCompanionComposite(text);
+    return JSON.parse(text);
   }
 
   function normalizeConversation(data) {
@@ -176,7 +207,8 @@
     try {
       const res = await fetch(convo.raw_url, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const raw = await res.json();
+      const sourceText = await res.text();
+      const raw = parseSourcePayload(sourceText, convo);
       const messages = normalizeConversation(raw);
       if (!messages.length) throw new Error("No displayable messages were found in this export.");
       state.raw = raw; state.messages = messages; state.rendered = 0;
@@ -204,7 +236,7 @@
 
   function renderMessage(index) {
     const msg = state.messages[index], article = document.createElement("article");
-    article.className = "message"; article.id = `m${index + 1}`; article.dataset.index = String(index); article.dataset.speaker = msg.speaker;
+    article.className = "message"; article.id = `m${index + 1}`; article.dataset.index = String(index); article.dataset.speaker = msg.speaker; article.dataset.role = msg.role;
     article.style.setProperty("--speaker", colorForSpeaker(msg.speaker));
     const time = msg.createTime ? new Date(msg.createTime * 1000).toLocaleString() : "timestamp unavailable";
     article.innerHTML = `<div class="message-head"><span class="message-speaker">${esc(msg.speaker)}</span><span class="message-meta">#${index + 1} · ${esc(time)}${msg.contentType ? ` · ${esc(msg.contentType)}` : ""}</span></div><div class="message-body"></div>`;
@@ -312,7 +344,7 @@
   function replaySpeed(index = null) {
     const base = Number(el.replaySpeed.value) || 1;
     if (index == null) return base;
-    return state.messages[index]?.role === "assistant" ? base * 10 : base;
+    return ["assistant", "companion"].includes(state.messages[index]?.role) ? base * 10 : base;
   }
 
   function stopReplay() {

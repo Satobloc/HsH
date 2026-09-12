@@ -24,6 +24,7 @@ DEFAULT_DEV = Path("indexes/manifests/development-conversation-dates.json")
 DEFAULT_LIVE = Path("indexes/manifests/live-conversation-dates.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
 DEFAULT_CURATION = Path("CONVERSATION_VIEWER/CURATION.json")
+DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
 DEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")
 DATE_PREFIX_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.json$", re.I)
@@ -370,7 +371,7 @@ def apply_curation(conversations: list[dict[str, Any]], curation: dict[str, Any]
     }
 
 
-def build_manifest(dev: Path, live: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:
+def build_manifest(dev: Path, live: Path, external_path: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:
     conversations: list[dict[str, Any]] = []
     inputs = [(dev, "development"), (live, "live")]
     input_meta: list[dict[str, Any]] = []
@@ -402,6 +403,35 @@ def build_manifest(dev: Path, live: Path, curation_path: Path, curated_dir: Path
             "records": len(records),
             "accepted_json_conversations": accepted,
             "source_generated_at_utc": generated,
+        })
+
+    if external_path.exists():
+        external_payload = load_json(external_path)
+        if external_payload.get("schema_version") != 1:
+            raise ValueError(f"unsupported external conversation schema_version in {external_path}")
+        external_records = external_payload.get("conversations")
+        if not isinstance(external_records, list):
+            raise ValueError(f"external conversations must be a list in {external_path}")
+        accepted_external = 0
+        required = {"id", "title", "path", "corpus", "message_count", "raw_url", "github_url"}
+        for raw in external_records:
+            if not isinstance(raw, dict):
+                raise ValueError(f"invalid external conversation entry in {external_path}")
+            missing = sorted(required - set(raw))
+            if missing:
+                raise ValueError(f"external conversation missing {missing}: {raw}")
+            if not isinstance(raw.get("message_count"), int) or raw["message_count"] <= 0:
+                raise ValueError(f"external conversation has invalid message_count: {raw}")
+            item = dict(raw)
+            item["external"] = True
+            conversations.append(item)
+            accepted_external += 1
+        input_meta.append({
+            "path": external_path.as_posix(),
+            "corpus": "registered-external",
+            "status": "loaded",
+            "records": len(external_records),
+            "accepted_conversations": accepted_external,
         })
 
     by_path: dict[str, dict[str, Any]] = {}
@@ -449,6 +479,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--development-manifest", type=Path, default=DEFAULT_DEV)
     parser.add_argument("--live-manifest", type=Path, default=DEFAULT_LIVE)
+    parser.add_argument("--external-conversations", type=Path, default=DEFAULT_EXTERNAL)
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--curated-dir", type=Path, default=DEFAULT_CURATED_DIR)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -460,6 +491,7 @@ def main() -> int:
     payload = build_manifest(
         args.development_manifest,
         args.live_manifest,
+        args.external_conversations,
         args.curation,
         args.curated_dir,
         args.owner,
