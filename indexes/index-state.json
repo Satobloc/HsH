@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 864077512,
+    "bytes_known": 864154988,
     "directories": 51,
-    "files": 600
+    "files": 601
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 322,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 103,
+    ".md": 104,
     ".pdf": 5,
     ".png": 27,
     ".py": 12,
@@ -36,7 +36,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 34,
+    "llm-workspace": 35,
     "review-ledger": 5,
     "source-conversation-corpus": 391,
     "synthesis-workspace": 6,
@@ -59,7 +59,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 34,
+    "WORKSPACES": 35,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "b810e7804a87ec0625611ba284cd8c0ecec1d6451c5d8845f8199bf4ebd0c59e",
+      "content_id": "a888213674ed4eaf79aaf17ba7bd8f917c93f1b48cd4954e86d053711c071724",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4498,11 +4498,11 @@
       "size": 8075
     },
     {
-      "content_id": "4a777ffc8f0c7892f8b32a8c9e724c1c6ba3dbbc5be4cdd17b5a648f83692cb9",
+      "content_id": "733afc9795cc49b7117e2f489d857a0fb4daba1a47435159eb8d00f655f90e70",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md",
       "role": "llm-workspace",
-      "size": 77747
+      "size": 129651
     },
     {
       "content_id": null,
@@ -4524,6 +4524,13 @@
       "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md",
       "role": "llm-workspace",
       "size": 20388
+    },
+    {
+      "content_id": "7ef1c4334abe34c8e7c4cd3d709003ee0fd1fd6d8c3d0f7a7149044233863ea9",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT55_ROTATIONS_EVERSIONS_SPHERE_INTERSECTIONS_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 25572
     },
     {
       "content_id": "487f30ea59583abba27d29a7a0b606469270e3106d7968936c05bbae07644fd1",
@@ -4792,7 +4799,7 @@
       "size": null
     },
     {
-      "content_id": "dc76f562524fc1f317d199b7b007b64bfb1c7e8e2afd1e5c2990a1c6ea5e5a92",
+      "content_id": "cd2f8294590583ee0259402ddb0e60b176c4ec2f020877a461a987a59115a841",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4806,7 +4813,7 @@
       "size": 8625
     },
     {
-      "content_id": "35eeccc8b297e054f6f3051c26db5453b8314e9d623f8c80e31d577682e842db",
+      "content_id": "494df4db18665d7207b4a026e1aad2dff11ac79640b96f895bb8f37154fe8025",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4827,14 +4834,14 @@
       "size": null
     },
     {
-      "content_id": "ebc7ecbf3206984380a083840c42870cf5adf483c92984b362347d81bc8d821a",
+      "content_id": "dae174d9e54b1dcd1884b5b88b26dfc1339e63ebbef23b59fa4615932f934bc1",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "e051119b661d8100eb71b0e8ce17ebcabeac03441a794cc063151b522440c7b6",
+      "content_id": "3d0b15d170fd4579ab8d8cdb6d6d00bc1ff40054d0a09d30fff47bd900b8fe26",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5052,8 +5059,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T12:33:54+00:00",
+  "scanned_at_utc": "2026-09-12T12:47:17+00:00",
   "schema_version": 1,
-  "tree_id": "f4582a9bbc92ed61855b85016130f9cdfd352f661de06683ef89a8033a65b3a7",
+  "tree_id": "35b75966ec3abca4184c73261c13254b4b1858ab0a202635675148972834e30a",
   "tree_response_truncated": false
 }
