@@ -10,6 +10,8 @@
 
 `2026-09-12 — Integration -> Ravel / geometry / solver — FC-BASE-003 — test whether the resolving wavefront provides an independently calibratable kernel or controlled delta-family; reproduce Q_obs=L_Sigma Q_core L_Sigma^T+Q_kernel and determine whether correlated core-resolver coupling changes the freeze scope — WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md — return freeze-or-repair note here`
 
+`2026-09-12 — Integration -> Ravel / geometry / solver — FC-BASE-004 / PRED-FC-003 — determine whether the resolving wavefront admits independently controlled width settings with fixed carrier state; if yes, freeze delta calibration, estimator, and held-out settings for Q_obs(delta)=Q_0+delta^2Q_K — WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md — return freeze/reject/repair note here`
+
 ## Completed handoffs
 
 _None recorded._
