@@ -15,20 +15,31 @@ An instance may not begin or resume SAT/H(s)H theory-bearing work until it has:
 3. Read at least **one complete full HsH development conversation** from `DEVELOPMENT_FULL_CONVOS/`, start to finish.
 4. Demonstrated that it understands the basic 4D category distinction between:
    - the full four-dimensional history/carrier;
-   - the moving timesheet/resolver;
-   - the timesheet-filament intersection/readout;
+   - the timesheet/resolver;
+   - the timesheet-filament intersection/readout and its propagation;
    - projected or observed three-dimensional behavior.
 5. If the instance has been onboarded with additional required resources, read those resources **line by line in full**, not merely through summaries, search snippets, indexes, excerpts, prior memory, or another instance's synthesis.
 
-## Current controlling clarification about `c`
+## Current controlling clarification about the speed of time and `c`
 
-`c` is **the `w` component of propagation of the timesheet-filament intersection**.
+Until evidence or the internal logic of SAT/H(s)H forces a revision, the model **provisionally treats the speed of time as basically fixed**.
 
-Do not state this merely as “the timesheet moves along `w` at `c`.” That wording is an oversimplification and can encourage another category error.
+In the current formulation, that fixed rate yields
 
-The relevant modeled propagation is the **intersection/readout propagation** produced as the timesheet resolves the four-dimensional filament/history. The helical worldline itself is not to be treated as a material helix moving through a background time parameter.
+`c = the w component of propagation of the timesheet-filament intersection`.
 
-Any equation using `c`, `w`, axial speed, tangent speed, phase speed, signal speed, or readout speed must type the quantity explicitly before it can constrain H(s)H.
+This is the controlling typed statement. Do not silently move `c` onto a different object.
+
+In particular:
+
+- the helical worldline/history is not a material helix translating through an external background time;
+- the relevant propagation is the propagation of the timesheet-filament **intersection/readout**;
+- `c` is presently assigned to its `w` component as the geometric expression of the provisionally fixed speed of time;
+- this does **not** by itself identify `c` with material filament speed, total Euclidean tangent speed, helical axial speed, transverse winding speed, phase speed, or signal speed.
+
+The shorthand “the timesheet moves along `w` at `c`” may be useful conversationally only if everybody already understands the typed construction. It is not precise enough for formal work because it can shift the speed from intersection propagation onto the wrong modeled object.
+
+Any equation using `c`, `w`, axial speed, tangent speed, phase speed, signal speed, timesheet motion, or readout speed must type the quantity explicitly before it can constrain H(s)H.
 
 ## Full-ingestion rule
 
@@ -58,10 +69,11 @@ Only `FULL-READ` / `FULL-INGESTED` satisfy a named onboarding prerequisite.
 Before introducing or using a theory-bearing equation, mechanism, or solver interpretation, ask:
 
 1. What exact 4D object does each variable belong to?
-2. Is this intrinsic geometry/history, resolver/timesheet motion, intersection propagation, or observed projection?
+2. Is this intrinsic geometry/history, timesheet/resolver structure, intersection propagation, or observed projection?
 3. Have I silently converted a 4D history into a 3D object evolving in an external time parameter?
-4. Is `c` being used as the `w` component of timesheet-filament intersection propagation, or have I silently substituted some other speed?
-5. Is the source I am relying on actually fully ingested, or only remembered/searched/summarized?
+4. If `c` appears, is it the `w` component of timesheet-filament intersection propagation, or is some other use independently and explicitly justified?
+5. Have I confused intrinsic worldline/worldtube length with the displacement of its intersection/readout?
+6. Is the source I am relying on actually fully ingested, or only remembered/searched/summarized?
 
 If any answer is unclear, theory work stops at that point until the ambiguity is resolved from source or by Nathan/Ravel.
 
