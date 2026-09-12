@@ -1411,3 +1411,15 @@ Ravel's direct 2026-09-12 check-in places `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BA
 Retain separately: (a) Kerr/ER-type worldtube as `SRC/ACTIVE` intended target; (b) standard Kerr identities within their standard domains as `STD/DERIVED`; (c) the electron-scale assignment, near-core shell/carrier anatomy, and coupling into H(s)H as `SAT/CANDIDATE`, with the current package `QUARANTINED` pending provenance and an electron-like over-extreme survival table.
 
 The package's circuit, frequency, and Compton-period identities are algebraically downstream of choosing `a=hbar/(2m_ec)` and propagation speed `c`; they are not independent evidence for the carrier. Kerr/ER must be mapped onto the `B^3/B^2/S^2/readout` hierarchy rather than treated as a fifth carrier type or as automatic support for a layered object.
+
+### Fixed-speed helical transport compatibility (FC-BASE-005)
+
+A recovered former-instance audit exposed a simple overconstraint that must not recur in the finite-core lift. For a local constant-radius circular helix with orthogonal Euclidean axial and transverse velocities,
+
+[
+lVert UVert^2=dot w^2+(Romega)^2.
+]
+
+If total speed is fixed to (c), then (Romega=sqrt{c^2-dot w^2}). Assigning (dot w=c) simultaneously forces zero transverse winding. This is `STD/DERIVED/FROZEN` only in the stated Euclidean local ansatz. It does not establish the H(s)H metric or speed convention.
+
+The active kernel must therefore type (c) explicitly as total parameter speed, axial/resolver-relative propagation, phase speed, or a Lorentzian null/timelike condition. Variable radius, nesting, and moving frames require their additional velocity terms. Carrier selection remains open; this result instead supplies a transport admissibility test that applies before pitch, circulation, `ᚼ`, `ᚼᚼ`, or circuit-time claims are promoted.
