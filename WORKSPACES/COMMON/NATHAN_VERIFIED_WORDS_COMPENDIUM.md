@@ -369,6 +369,61 @@ This batch reads the earliest currently identified SAT-adjacent raw conversation
 
 ---
 
+## Excavation batch 2026-09-12-C — `DIMENSIONAL GRAVITY — raw.json`, continuation
+
+This batch continues the same durable raw export beyond the opening March 22 construction. Every promoted passage below is a raw mapping node whose `message.author.role = user`. The entries remain historical unless and until later Nathan-authored material explicitly carries them forward.
+
+### 2024-03-23 — Complexity belongs to the 4D filament structures; the time-surface intersection is the 3D manifestation
+
+- **Tags:** `4D-THINKING` `TIMESHEET` `PROJECTION-READOUT` `INTERACTIONS` `NATHAN-CORRECTION` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa24791-27b2-4b58-8f1a-19ee7e30d650` — 2024-03-23 02:14:56 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct correction of an assistant summary in the early model; especially relevant to carrier-versus-readout typing.
+- **Exact Nathan wording:**
+
+> Well, the complexity would arise from the interactions between filaments, threads, ropes, etc. The interaction between these four-dimensional structures and the time surface would not be the cause of the complexity, but rather the manifestation in three-dimensional space that constitute the familiar small and large scale structures of the universe. 
+
+- **Immediate context:** the assistant had described increasing structural complexity as emerging from interactions of the entities with the time surface. Nathan corrected the causal/type assignment: complexity was attributed to interactions among the four-dimensional structures, while their interaction with the time surface supplied the familiar three-dimensional manifestation.
+- **Later correction / relationship:** strongly parallels the current training distinction between carrier/history structure and intersection/readout, but this entry preserves the 2024 wording rather than importing the 2026 formulation into it.
+
+---
+
+### 2024-03-23 — Crisscrossing 4D lacework and cumulative cross-temporal tugs
+
+- **Tags:** `4D-THINKING` `WORLDLINE` `INTERACTIONS` `PROJECTION-READOUT` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa28f08-eb30-4f37-b94e-def30a789983` — 2024-03-23 02:39:08 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** early SAT-era gravitational/interconnection picture; not promoted as current H(s)H mechanism.
+- **Exact Nathan wording:**
+
+> Ok, now let's come up with some terminology for the crisscrossing lacework of these various filament structures in 4-space. For example, a planetary system formed from a large central rope (star) with several heloids (planets) coiling around it would be expected to have a great many smaller rope loops/tethers, as well as bundles, twines, threads, and even individual filaments interweaving these larger structures. This would be the 4-dimensional extension of small bodies and other objects "floating around" in the system, and the cumulative cross-temporal tugs exerted by all of them would result in the total gravitational binding of the system, which would be expected to result in a more tightly bound gravitational system than predicted by the Standard Model (even if these effects might be so small as to be difficult or impossible to observe on the scale of a solar system). We may also want to have a collective term for filament structures on the thread, twine, yarn, and bundle levels. Maybe these are just "strands".
+
+- **Immediate context:** Nathan was extending an early hierarchy of `filaments/threads/twines/yarns/bundles/ropes` into a description of how many such four-dimensional histories could interweave across an astronomical system.
+- **Later correction / relationship:** terminology and gravity mechanism changed substantially later; retain this as dated evidence of how Nathan related composite 4D structures, astronomical readout, and interaction history at this stage.
+
+---
+
+### 2024-03-28 — Proposed interaction-history dependence as an observational discriminator
+
+- **Tags:** `INTERACTIONS` `METHOD` `HISTORY` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa26227-0c05-4cf7-8b37-7091cf0cd942` — 2024-03-28 02:14:32 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicitly framed by Nathan as a prediction of the then-current SAT idea; preserved as historical methodology/prediction provenance, not current validation.
+- **Exact Nathan wording:**
+
+> So, gravitationally interacting objects will exhibit greater gravitational interactions with one another in proportion to the complexity of the interactions between the objects. That is, two objects that collide or merge will have greater gravitational attraction to one another at any given time (before or after the interaction) than two objects that pass each other without colliding. This would be a prediction of SAT. Would this be observable? Can you suggest examples that might be compared to look for this effect?
+
+- **Immediate context:** Nathan had proposed comparing systems with similar present geometry but different past/future interaction histories, using the Milky Way–Andromeda case as an example, and then stated the generalized prediction above.
+- **Later correction / relationship:** no current-theory status is assigned here. Future excavation should link any later abandonment, refinement, numerical test, or replacement of this proposed interaction-history dependence.
+
+---
+
 ## Excavation coverage ledger
 
 ### 2026-09-12-A
@@ -395,6 +450,17 @@ This batch reads the earliest currently identified SAT-adjacent raw conversation
 - **Deduplication:** exact durable path above is treated as the source identity for this pass; no duplicate copy is counted as independent evidence.
 - **Unresolved/source issue:** none for authorship in the eight promoted messages. The main incompleteness is coverage: most of the long `DIMENSIONAL GRAVITY` export remains unscanned.
 - **Next priority region:** continue `DIMENSIONAL GRAVITY` chronologically beyond March 22, 2024, looking specifically for later user refinements/corrections of dimensionality, time-surface motion, `c`, worldline/worldtube geometry, and intersection/readout; after that move to `SAT Overview` and `Reasoning with SAT-HSH Skill`.
+
+### 2026-09-12-C
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Authorship method:** raw `message.author.role`; only `role = user` accepted.
+- **Date range actually covered in this batch:** March 23 and March 28, 2024 portions of the same long export, with source windows around the early terminology/interconnection discussion and the later interaction-history comparison discussion.
+- **Verified Nathan messages added:** 3.
+- **Primary topics covered:** explicit carrier-versus-readout correction; early four-dimensional lacework/composite relationship language; historical proposal that gravitational interaction strength could depend on interaction-history complexity and be tested comparatively.
+- **Deduplication:** message IDs were checked against the existing compendium; no prior entries used these IDs.
+- **Unresolved/source issue:** most of the long export between/after these sampled windows remains unscanned, and its filename end-date indicates later material through 2026. No authorship ambiguity was found in the three promoted messages.
+- **Next priority region:** continue `DIMENSIONAL GRAVITY` through later dated portions where terminology or geometry changes, especially any explicit update to time-surface motion, `c`, dimensionality, worldline/worldtube typing, or projection/intersection. Then move to the durable raw `SAT Overview` copy if its GitHub path can be resolved, followed by `Reasoning with SAT-HSH Skill` and `H(s)H TIME RESIDUALS`.
 
 # UNVERIFIED / NEEDS SOURCE CHECK
 
