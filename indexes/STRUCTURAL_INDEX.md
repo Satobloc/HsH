@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T07:43:29+00:00`
-- Tree/content state: `df87c4731a8273d768a4d19670545a5f879fa52ea8df271540885d32b2a428f7`
-- Coverage: 566 files, 48 directories
+- Scanned: `2026-09-12T08:43:40+00:00`
+- Tree/content state: `8471af24a518d56370bd363f37f9856810fe051bbd45041645471f21dfbeb584`
+- Coverage: 567 files, 48 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -30,7 +30,7 @@
 | `checkpoints` | 1 |
 | `formalization` | 5 |
 | `generated` | 5 |
-| `indexes` | 5 |
+| `indexes` | 6 |
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 69 |
+| `.md` | 70 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -72,7 +72,7 @@
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
-| `generated-catalog` | 5 |
+| `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
@@ -272,7 +272,7 @@
 
 ## Complete path inventory
 
-- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
+- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3750 bytes — `visitor-interface`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -812,6 +812,7 @@
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 105071 bytes — `generated-catalog`
+- `indexes/FEDERATED_ARCHIVE_MAP.md` — 5448 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
 - `indexes/manifests/development-conversation-dates.json` — 178832 bytes — `generated-catalog`
