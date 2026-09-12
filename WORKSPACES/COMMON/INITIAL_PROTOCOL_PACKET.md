@@ -3,9 +3,26 @@
 **Status:** active onboarding / coordination packet  
 **Purpose:** give every active instance the same minimal operating picture before role assignment is tightened.
 
+## 0. Minimum prerequisite for theory-bearing work
+
+Before an instance may do SAT/H(s)H theory, mathematical formalization, solver interpretation, prediction work, paper development, or theory-bearing synthesis, it must satisfy `MINIMUM_THEORY_PREREQUISITES.md`.
+
+At minimum this means:
+
+- read **THE FUNDAMENTAL INTUITIONS — EXTENDED** completely, line by line;
+- read **4D THINKING PRIMER** completely, line by line;
+- read at least one complete HsH development conversation start to finish;
+- fully ingest every additional resource explicitly named as required during onboarding;
+- demonstrate the core 4D distinction between full history/carrier, timesheet/resolver, timesheet-filament intersection/readout, and projected three-dimensional behavior.
+
+For the current construction, `c` is the **`w` component of timesheet-filament intersection propagation**. Do not silently substitute material filament speed, total tangent speed, axial speed of a moving helix, phase speed, or signal speed.
+
+“Available,” “indexed,” “searched,” “substantially read,” and “remembered” do not count as complete ingestion of a named prerequisite.
+
 ## 1. Central anchors
 
 - **Fundamental conceptual anchor:** keep the Fundamental Intuitions central. Later formalism, terminology, roleplay-derived ideas, speculative branches, and imported tools are subordinate unless independently rebuilt and promoted.
+- **Standing theory prerequisite:** `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md`
 - **Nathan-facing state-of-theory reference:** `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`
 - **Shared coordination hub:** `WORKSPACES/COMMON/`
 - **Current directives:** `WORKSPACES/COMMON/TEAM_OVERVIEW.md`
@@ -39,12 +56,13 @@ All secondary assignments remain provisional until the first direct Common-room 
 ## 3. Methodological anchor
 
 1. Start from the Fundamental Intuitions and current durable theory surfaces.
-2. Use standard mathematics freely when its assumptions apply.
-3. Import external physical/theoretical interpretations only deliberately and visibly.
-4. Prefer explicit assumptions, typed objects, and lossless transforms.
-5. Distinguish source text, reconstruction, current theory, conjecture, analogy, and speculation.
-6. Keep negative/null results when they close a live path.
-7. Improve methodology when a better practice becomes visible; protocol is expected to evolve.
+2. Complete the standing 4D-thinking prerequisite before theory-bearing work.
+3. Use standard mathematics freely when its assumptions apply.
+4. Import external physical/theoretical interpretations only deliberately and visibly.
+5. Prefer explicit assumptions, typed objects, and lossless transforms.
+6. Distinguish source text, reconstruction, current theory, conjecture, analogy, and speculation.
+7. Keep negative/null results when they close a live path.
+8. Improve methodology when a better practice becomes visible; protocol is expected to evolve.
 
 ## 4. Caution / quarantine policy
 
@@ -89,6 +107,7 @@ Each check-in must include:
 
 - current work and intended output/destination;
 - material actually loaded/read versus merely accessible/indexed;
+- for every named onboarding/theory prerequisite, whether status is `AVAILABLE`, `INDEXED`, `TARGETED-READ`, `SUBSTANTIAL-READ`, `FULL-READ`, or `FULL-INGESTED`;
 - tools/access/capabilities/constraints;
 - artifacts already created, with exact paths/locations;
 - artifacts currently planned, with intended destinations;
@@ -122,11 +141,15 @@ External research follows:
 
 `scan/research -> typed evidence packet -> Common/Handoff -> internal theory lane decides whether to engage`
 
+No theory-bearing result enters this flow from an instance that has not satisfied `MINIMUM_THEORY_PREREQUISITES.md`.
+
 ## 10. Automation
 
 Do not appoint the automated-work supervisor until the roster and automation inventory are visible. Automated workers should default to workspace/outbox outputs, not direct edits to Dashboard, synthesis, ledgers, or checkpoints.
 
 The future automation-supervisor lane is operational only: schedules, stale tasks, locks, validation, routing, and exception reporting. It does not decide theory, novelty, priority, publication claims, or external-theory imports.
+
+Any automated or recurrent theory worker must satisfy the same minimum prerequisite as an interactive instance; a schedule is not an exemption from source ingestion.
 
 ## 11. Archive priorities
 
@@ -145,14 +168,15 @@ Use the Conversation Viewer and exact message landmarks whenever possible instea
 
 A fresh coordinator should be able to recover the project by reading:
 
-1. Dashboard;
-2. `TEAM_OVERVIEW.md`;
-3. this packet;
-4. `TEAM_CONTROL.md`;
-5. `COORDINATION.md`;
-6. `CHECKINS.md` and `ROSTER.md`;
-7. `BULLETIN_BOARD.md` and `HANDOFFS.md`;
-8. current workspace READMEs;
-9. synthesis/checkpoint only as needed for the assigned task.
+1. `MINIMUM_THEORY_PREREQUISITES.md`;
+2. Dashboard;
+3. `TEAM_OVERVIEW.md`;
+4. this packet;
+5. `TEAM_CONTROL.md`;
+6. `COORDINATION.md`;
+7. `CHECKINS.md` and `ROSTER.md`;
+8. `BULLETIN_BOARD.md` and `HANDOFFS.md`;
+9. current workspace READMEs;
+10. synthesis/checkpoint only as needed for the assigned task.
 
 The aim is not to reproduce one instance’s memory. The aim is durable reconstructibility of project state.
