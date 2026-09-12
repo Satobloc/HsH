@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1037046937,
-    "directories": 54,
-    "files": 703
+    "bytes_known": 1037047423,
+    "directories": 55,
+    "files": 704
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -23,7 +23,7 @@
     ".rtf": 2,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 88,
+    ".txt": 89,
     ".yml": 5,
     "[none]": 2
   },
@@ -39,7 +39,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 455,
+    "source-conversation-corpus": 456,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -50,7 +50,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 455,
+    "DEVELOPMENT_FULL_CONVOS": 456,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -81,6 +81,7 @@
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
@@ -646,7 +647,7 @@
       "size": 49
     },
     {
-      "content_id": "57403f63680105f6731aa9d8036617bb223c7b33e2a8aa60b8bf6ecb424049f9",
+      "content_id": "f8d84b172b58444ccb994c0fe5b22c07007c77e268b9ae288373fb03993716f6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2756,6 +2757,20 @@
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt",
       "role": "source-conversation-corpus",
       "size": 1
     },
@@ -5553,11 +5568,11 @@
       "size": null
     },
     {
-      "content_id": "baacdf02b4213e9e7eb5cff621fe063bc914529932361e1a685f6d576ab4e55c",
+      "content_id": "02a02e1362e67984cbfe3a437ef4f497760e94a0e30fd2107749b1b8d376899c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 119140
+      "size": 119298
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5567,7 +5582,7 @@
       "size": 8625
     },
     {
-      "content_id": "9c591486587230d09f538ca63b1638c44ea2fcb188c8a475cd819ce09232bc9f",
+      "content_id": "4277bf7680caf47968955077b5c313350fb79150a984e404077f563ce8652aab",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5588,14 +5603,14 @@
       "size": null
     },
     {
-      "content_id": "26db78862f3811677f92e399748ef4d0864fd49301d710ef331b412e09558596",
+      "content_id": "a5b2a12855c4a0e667f3b5c746ad02c21f2c9e27f8b47d8aac0cb90681c9e315",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 208489
+      "size": 208816
     },
     {
-      "content_id": "f896e135609cae1cfad9ab7876ecf9e7dfce146fe6b655432984f9eeddc29c1c",
+      "content_id": "2ee51767af488b22343c56e072bbee67dfe36fd50f1b8e8b16dfdfd07e43e93c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5813,8 +5828,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T21:24:02+00:00",
+  "scanned_at_utc": "2026-09-12T22:21:02+00:00",
   "schema_version": 1,
-  "tree_id": "7b55293853433152f95fd5531f8129f5bc8584c3df2b911d5a2db1626fbdb07a",
+  "tree_id": "80840050c3f92544eae9a295dc19af06485a73caca87066c613178b2ebb50967",
   "tree_response_truncated": false
 }

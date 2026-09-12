@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T21:24:02+00:00`
-- Tree/content state: `7b55293853433152f95fd5531f8129f5bc8584c3df2b911d5a2db1626fbdb07a`
-- Coverage: 703 files, 54 directories
+- Scanned: `2026-09-12T22:21:02+00:00`
+- Tree/content state: `80840050c3f92544eae9a295dc19af06485a73caca87066c613178b2ebb50967`
+- Coverage: 704 files, 55 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 455 |
+| `DEVELOPMENT_FULL_CONVOS` | 456 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -59,7 +59,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 88 |
+| `.txt` | 89 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -78,7 +78,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 455 |
+| `source-conversation-corpus` | 456 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -92,6 +92,7 @@
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
@@ -592,6 +593,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json` — 4528086 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png` — 2241001 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT` — 665220 bytes — `source-conversation-corpus`
@@ -956,11 +958,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 119140 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 119298 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 208489 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 208816 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
