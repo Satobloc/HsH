@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 864347645,
-    "directories": 52,
-    "files": 610
+    "bytes_known": 864348173,
+    "directories": 53,
+    "files": 611
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -22,7 +22,7 @@
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
-    ".txt": 82,
+    ".txt": 83,
     ".yml": 5,
     "[none]": 2
   },
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 391,
+    "source-conversation-corpus": 392,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 391,
+    "DEVELOPMENT_FULL_CONVOS": 392,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -77,6 +77,7 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
@@ -627,7 +628,7 @@
       "size": 49
     },
     {
-      "content_id": "a47d95867bbadd0bc51305e257d6b8da62f05c64790e4cf60351ba55be9a356a",
+      "content_id": "ea65b799c3040ae65969eb5e47a85366550a4ae06ef0cc3716cbcdddc6089ef3",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2277,6 +2278,20 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
       "role": "source-conversation-corpus",
       "size": 14565168
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -4869,11 +4884,11 @@
       "size": null
     },
     {
-      "content_id": "4406acdfa68ed35d72a56a6e7e96731081906f64c643d43666f4e0e8a75ecae9",
+      "content_id": "a12e2bb39a296fd04e84948aaec1351fdd9eefad6adb485f9a3fbef9cf863ab3",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 105071
+      "size": 105257
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -4883,7 +4898,7 @@
       "size": 8625
     },
     {
-      "content_id": "c7cd8e92d3e447367ebf6972dd356874a37988c4a959d82aa1e8b165b1f65021",
+      "content_id": "f4924cbe1f0586ab960adf32199ecd766d445096be98cbeb9a71f269bcd3ced4",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4904,14 +4919,14 @@
       "size": null
     },
     {
-      "content_id": "cd90dd9e873202f0ac7fb149e8607288ccf8a9f43994fc5f722cc624d1561424",
+      "content_id": "d30c756f9ee6336478dc367230a84da3f96c7060ab893c7c13e2930376cb551c",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 178832
+      "size": 179173
     },
     {
-      "content_id": "cd0d26b63bc69a47de724418ca0bdc4b2dc5ce9391557a498c3c376d54920151",
+      "content_id": "40d337340a6ea3dd7ff08e576126287b5fd6b6a13750b6a663950c2f39181ba5",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5129,8 +5144,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:05:07+00:00",
+  "scanned_at_utc": "2026-09-12T13:08:21+00:00",
   "schema_version": 1,
-  "tree_id": "55074fe9ef5a61425b9426c5cdc1b9df8961ad18223354387806a27aa62f52db",
+  "tree_id": "ba83c2452d5576afb14e50e8361ba9091a3320ad641b8c5d088ce8ab92efc019",
   "tree_response_truncated": false
 }

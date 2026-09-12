@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-12T13:04:59.818404+00:00",
+  "generated_at_utc": "2026-09-12T13:08:13.793221+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 330,
-    "skipped": 42
+    "skipped": 43
   },
   "records": [
     {
@@ -2202,6 +2202,18 @@
       "message_count": 710,
       "status": "unchanged",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",

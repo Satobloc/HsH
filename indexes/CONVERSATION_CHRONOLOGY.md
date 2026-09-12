@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:05:06.798652+00:00`
+- Generated: `2026-09-12T13:08:20.987510+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **330**
-- Skipped non-conversation or unparseable files: **42**
+- Skipped non-conversation or unparseable files: **43**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -600,6 +600,7 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT%20GEOMETRIC%20SOLVERS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs - .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs%20-%20.txt) — no usable conversation or message timestamps
