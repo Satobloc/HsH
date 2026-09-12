@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:26:04+00:00`
-- Tree/content state: `f94cd8bf75e8df7df0c7c3d24455e0c11ae0b37ac5c411e9dcdfd587b587d0da`
+- Scanned: `2026-09-12T12:27:33+00:00`
+- Tree/content state: `bc9b70acf04de700f53bc1aac650b0ca17a2db89e08cb225c20366735e500b35`
 - Coverage: 599 files, 51 directories
 - GitHub tree response truncated: `false`
 
@@ -811,7 +811,7 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 23880 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 47288 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md` — 9751 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
