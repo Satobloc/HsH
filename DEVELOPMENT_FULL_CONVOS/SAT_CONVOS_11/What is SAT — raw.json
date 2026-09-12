@@ -1,0 +1,125 @@
+{
+  "title": "What is SAT",
+  "create_time": 1748787100.987085,
+  "update_time": 1748787110.104595,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "683c5f9c-8c14-8002-b182-48a8b82d03bd",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "288fb16c-24e5-4ee8-860b-a06eaffc108c"
+      ]
+    },
+    "288fb16c-24e5-4ee8-860b-a06eaffc108c": {
+      "id": "288fb16c-24e5-4ee8-860b-a06eaffc108c",
+      "message": {
+        "id": "288fb16c-24e5-4ee8-860b-a06eaffc108c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748787064.97,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Do you know what SAT is?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "948f4d31c863be76-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "9e07ca2a-d837-4ef3-adc3-3834ca428eae"
+      ]
+    },
+    "9e07ca2a-d837-4ef3-adc3-3834ca428eae": {
+      "id": "9e07ca2a-d837-4ef3-adc3-3834ca428eae",
+      "message": {
+        "id": "9e07ca2a-d837-4ef3-adc3-3834ca428eae",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748787101.159182,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, the **SAT** (Scholastic Assessment Test) is a standardized test widely used for **college admissions** in the United States. It's designed to assess a high school student's readiness for college and provides colleges with a common data point to compare applicants.\n\n### Key features of the SAT:\n- **Sections**: As of 2024, the SAT has transitioned to a **digital format**, and includes:\n  - **Reading and Writing**\n  - **Math**\n- **Scoring**: Each section is scored on a scale of **200 to 800**, for a total maximum score of **1600**.\n- **Length**: About **2 hours and 14 minutes** in its digital form.\n- **Purpose**: Measures skills in reading comprehension, grammar, algebra, problem-solving, and data analysis.\n\nLet me know if you want tips on preparing for it, recent changes to the digital version, or anything else specific."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "288fb16c-24e5-4ee8-860b-a06eaffc108c",
+          "request_id": "948f4d31c863be76-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "288fb16c-24e5-4ee8-860b-a06eaffc108c",
+      "children": []
+    }
+  },
+  "current_node": "9e07ca2a-d837-4ef3-adc3-3834ca428eae",
+  "context_truncation_continuation": null
+}
