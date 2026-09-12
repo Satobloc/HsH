@@ -2,15 +2,34 @@
 
 This directory is the shared coordination surface for active H(s)H work across agents, threads, and focused workspaces.
 
-Use it to exchange concise information that another worker needs before the underlying work is finished: handoffs, blockers, shared questions, discoveries worth routing, dependency notices, and pointers to work in progress.
+Use it to exchange concise information that another worker needs before the underlying work is finished: handoffs, blockers, shared questions, discoveries worth routing, dependency notices, role/lane state, and pointers to work in progress.
 
 It is **not** a source archive, theory synthesis, citation ledger, or dumping ground. Durable conclusions belong in the appropriate source/provenance, timeline, ledger, audit, synthesis, formalization, or index layer.
 
-## Files
+## Start here
 
+Every active instance should read:
+
+1. `INITIAL_PROTOCOL_PACKET.md` — minimal team protocol, lead roles, methodology, caution policy, communication rules, and continuity order;
+2. `CHECKIN_TEMPLATE.md` — first-pass roster report;
+3. `COORDINATION.md` — current shared state and lane ownership;
+4. `ROSTER.md` — active-team capabilities, artifacts, overlap, and planned outputs;
+5. `BULLETIN_BOARD.md` — Q&A, direction requests, notices, reviews, archive requests, and “if bored / current task exhausted” work;
+6. `HANDOFFS.md` — explicit transfers between workers/workspaces.
+
+## Other control files
+
+- `TEAM_CONTROL.md` — detailed workflow/control protocol.
 - `2026-09-12_ACTION_PLAN.md` — dated shared programme for repository boundaries, provenance, citation, convergence/originality/ancestry audit, field-development research, Toolkit digestion, exposure analytics, and implementation sequence.
-- `COORDINATION.md` — current shared state, blockers, requests, and questions.
-- `HANDOFFS.md` — dated handoffs from one worker/workspace to another.
+
+## Communication roles
+
+- **Dashboard:** state of theory / Nathan-facing reference.
+- **Common room:** who is doing what, who needs what, role/lane checks, questions, blockers, handoffs, and coordination.
+- **Individual workspaces:** substantial noncanonical work in progress.
+- **Durable theory/audit/provenance surfaces:** stable promoted results only.
+
+Routine cross-team communication should happen here rather than requiring Nathan to relay it manually once an instance knows the protocol.
 
 ## Posting convention
 
