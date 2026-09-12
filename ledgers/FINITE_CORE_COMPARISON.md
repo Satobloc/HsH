@@ -25,6 +25,47 @@ A finite-thickness resolving slab thickens the readout operation. Its thickness 
 
 **Status:** `STD/DERIVED/FROZEN` for smooth local tubular-neighborhood dimension bookkeeping, conditional on embeddedness, small radius, and transversality. It does not freeze topology, dynamics, Kerr/ER identity, material support, or readout physics.
 
+## Frozen cross-section discriminator FC-BASE-002
+
+For a measured fiber with centroid `c`, covariance `Q`, and normalized
+trace-free shape tensor
+
+`S = Q/tr(Q) - I/3`,
+
+the quantities `I2 = tr(S^2)`, `I3 = det(S)`, and
+`chi = E[||y||^4] / E[||y||^2]^2` are invariant under simultaneous normal-frame
+rotation. For the canonical uniform fibers:
+
+| Fiber | `(I2,I3,chi)` |
+|---|---|
+| `B^3` bulk | `(0,0,25/21)` |
+| `S^2` boundary | `(0,0,1)` |
+| `B^2` support | `(1/6,-1/108,4/3)` |
+| `S^1` support boundary | `(1/6,-1/108,1)` |
+
+Thus covariance alone is degenerate between `B^3/S^2` and `B^2/S^1`;
+the fourth radial moment separates these canonical uniform pairs. The tuple is
+not a complete shape invariant.
+
+At a transverse linear crossing, the normal-fiber readout
+
+`L_Sigma(y) = y - T (n_Sigma·y)/(n_Sigma·T)`
+
+has `|det L_Sigma| = |n_Sigma·T|^-1`. It maps a full rank-three core to a
+three-dimensional sheet patch; rank-two support and a boundary carrier give
+two-dimensional support. Tangency requires higher-order intersection geometry.
+
+**Gauge-null consequence for ᚼ:** rotating an isotropic, unmarked `B^3` fiber
+changes no local moment. Observable local `ᚼ` therefore requires anisotropy,
+material or boundary marking, an external relational direction, or a global
+return map. This is a constraint on every carrier candidate, not carrier
+selection.
+
+**Status:** canonical moment values, invariance, linear transverse map, and
+isotropic gauge-null result `STD/DERIVED/FROZEN` in their stated local model.
+The curved-sheet remainder, constitutive dynamics, physical observable map, and
+particle interpretation remain `OPEN`.
+
 ## Candidate comparison
 
 | Candidate/view | Literal object and minimum data | ᚼ / ᚼᚼ requirement | Perturbations and residuals | Readout and limiting map | Topology/nesting support | Hidden freedom / freeze condition |
