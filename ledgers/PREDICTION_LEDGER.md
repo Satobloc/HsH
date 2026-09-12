@@ -28,13 +28,17 @@ No empirical prediction is frozen yet. The finite-core architecture and observab
 - **Exact invariant:** `(I2,I3,chi)` equals `(0,0,25/21)`, `(0,0,1)`, `(1/6,-1/108,4/3)`, or `(1/6,-1/108,1)` respectively.
 - **Exact linear readout:** `|det L_Sigma|=|n_Sigma·T|^-1`; generic sheet-support dimensions are 3 for `B^3` and 2 for `B^2/S^2`.
 - **Units:** `I2`, `I3`, `chi`, and the secant factor are dimensionless.
-- **Observable/readout map:** cross-sectional moment estimation after a specified resolver kernel; physical measurement channel not selected.
+- **Observable/readout map:** cross-sectional moment estimation after a specified resolver kernel; physical measurement channel not selected. Under the affine independent-kernel baseline, `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`.
 - **Independent comparator:** none selected.
-- **Uncertainty:** nonuniform density, anisotropy, finite resolver thickness, tangency, curvature, clipping, and reconstruction bias.
+- **Uncertainty:** nonuniform density, anisotropy, finite resolver thickness, tangency, curvature, clipping, and reconstruction bias. FC-BASE-003 shows that second moments cannot separate core and resolver width without calibration, and `chi` is not generally convolution-invariant.
 - **Rival contrast:** separates canonical bulk from boundary using `chi`; separates rank-three from rank-two support using `I2,I3` or support dimension.
 - **Falsification:** after freezing carrier, measure, and resolver, failure of the declared canonical tuple or transverse secant factor fails that representation/readout model.
-- **Freeze condition:** select a physical carrier and independent measurement channel, then preregister estimator, kernel, corrections, and comparator before target inspection.
+- **Freeze condition:** select a physical carrier and independent measurement channel; independently calibrate the resolver kernel, use a controlled thickness family, or prove kernel insensitivity; then preregister estimator, corrections, and comparator before target inspection.
 - **Historical provenance:** unchecked; no novelty or priority claim.
+
+## Readout no-go affecting the queue
+
+FC-BASE-003 is `STD/DERIVED/FROZEN` in its stated affine independent-kernel scope: `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`. It is not an empirical prediction. It blocks promotion of any apparent-width or canonical-`chi` claim that lacks kernel calibration, controlled thin-limit extrapolation, or a proved kernel-invariant observable.
 
 ## Blocked queue
 
