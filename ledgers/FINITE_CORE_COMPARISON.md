@@ -108,6 +108,20 @@ where `Q_0 = L_Sigma Q_core L_Sigma^T`. Each covariance component and `tr(Q_obs)
 
 **Status:** affine scaling and intercept result `STD/DERIVED/FROZEN` conditional on the FC-BASE-003 assumptions and a controlled centered scale family. Physical availability and calibration of `delta` remain `OPEN`.
 
+## Frozen transport-compatibility baseline FC-BASE-005
+
+For a local constant-radius circular helix in an orthogonal Euclidean decomposition,
+
+`U = wdot e_w + R omega e_perp`
+
+and
+
+`||U||^2 = wdot^2 + (R omega)^2`.
+
+Thus, if `||U||=c`, then `R omega=sqrt(c^2-wdot^2)`; imposing `wdot=c` as well forces `R omega=0`. Axial propagation and transverse winding are not independent after fixing total speed.
+
+**Status:** `STD/DERIVED/FROZEN` only for the declared constant-radius, orthogonal, Euclidean local ansatz. It does not select a carrier or establish that H(s)H uses total Euclidean speed `c`. Variable radius, nesting, nonorthogonal frames, phase velocity, and Lorentzian/null parametrizations require separate norm relations. Source packet: [FIXED_SPEED_HELIX_COMPATIBILITY_001.md](../WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md).
+
 ## Candidate comparison
 
 | Candidate/view | Literal object and minimum data | ᚼ / ᚼᚼ requirement | Perturbations and residuals | Readout and limiting map | Topology/nesting support | Hidden freedom / freeze condition |
