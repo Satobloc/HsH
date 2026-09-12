@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T14:52:07.249755+00:00",
+  "generated_at_utc": "2026-09-12T15:03:53.751956+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -8,7 +8,7 @@
     "unchanged": 365,
     "skipped": 48,
     "collision": 1,
-    "blocked": 8
+    "blocked": 11
   },
   "records": [
     {
@@ -2676,6 +2676,30 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•KAR-HNN Translation — raw.json",
+      "start_local": "2026-06-11T15:57:51.708454-04:00",
+      "end_local": "2026-09-12T10:46:10.243682-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.25•26.09.12•Paper Proposal Evaluation — raw.json",
+      "start_local": "2026-03-25T16:20:04.913532-04:00",
+      "end_local": "2026-09-12T10:48:37.742242-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 333,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.04.03•26.09.12•Radical Meta-Skepticism Overview — raw.json",
       "start_local": "2026-04-03T19:22:26.110802-04:00",
@@ -2694,6 +2718,18 @@
       "end_local": "2026-06-13T21:24:08.087651-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 479,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13•26.09.12•SAT Unified Field Theory — raw.json",
+      "start_local": "2026-03-13T18:11:50.698000-04:00",
+      "end_local": "2026-09-12T10:51:37.093411-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 18,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"

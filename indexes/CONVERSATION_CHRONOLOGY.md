@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T14:52:14.124773+00:00`
+- Generated: `2026-09-12T15:04:02.369872+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **374**
+- Dated conversation exports: **377**
 - Skipped non-conversation or unparseable files: **48**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -233,6 +233,7 @@
 | 2026-03-12 | 2026-06-01 | [Mathematical Equation Breakdown](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.12%E2%80%A226.06.01%E2%80%A2Mathematical%20Equation%20Breakdown%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 49 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-13 | 2026-04-21 | [Ontology and Math Check](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/26.03.13%E2%80%A226.04.21%E2%80%A2Ontology%20and%20Math%20Check%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 813 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-13 | 2026-06-01 | [SAT Framework Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.13%E2%80%A226.06.01%E2%80%A2SAT%20Framework%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 33 |  | 1 user/assistant messages lacked timestamps |
+| 2026-03-13 | 2026-09-12 | [SAT Unified Field Theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT%20Unified%20Field%20Theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 18 |  |  |
 | 2026-03-16 | 2026-03-16 | [Procedure Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.16%E2%80%A226.03.16%E2%80%A2Procedure%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 17 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-16 | 2026-03-16 | [Whirligig SAT Framework](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.16%E2%80%A226.03.16%E2%80%A2Whirligig%20SAT%20Framework%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 7 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-21 | 2026-04-24 | [Scientific Paper Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21%E2%80%A226.04.24%E2%80%A2Scientific%20Paper%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_1` | 55 | D33 | 1 user/assistant messages lacked timestamps |
@@ -244,6 +245,7 @@
 | 2026-03-21 | 2026-06-19 | [Geometric Foundations Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.03.21%E2%80%A226.06.19%E2%80%A2Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_6` | 125 |  |  |
 | 2026-03-21 | 2026-08-21 | [Geometric Foundations Evaluation2](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/26.03.21%E2%80%A226.08.21%E2%80%A2Geometric%20Foundations%20Evaluation2%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 392 |  |  |
 | 2026-03-21 | 2026-08-21 | [Planetology -- Geometric Foundations Evaluation — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.03.21%E2%80%A226.08.21%E2%80%A2Planetology%20--%20Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw%20%281%29.txt) | `LONG_CONVOS` | 948 |  |  |
+| 2026-03-25 | 2026-09-12 | [Paper Proposal Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper%20Proposal%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 333 |  |  |
 | 2026-03-30 | 2026-06-11 | [Equation Breakdown Topological Tension](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.30%E2%80%A226.06.11%E2%80%A2Equation%20Breakdown%20Topological%20Tension%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 123 |  |  |
 | 2026-04-03 | 2026-06-13 | [Radical Meta-Skepticism Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.04.03%E2%80%A226.06.13%E2%80%A2Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 112 |  |  |
 | 2026-04-03 | 2026-09-12 | [Radical Meta-Skepticism Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 113 |  |  |
@@ -279,6 +281,7 @@
 | 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 209 |  |  |
 | 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 209 |  |  |
 | 2026-06-08 | 2026-09-08 | [arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 209 |  |  |
+| 2026-06-11 | 2026-09-12 | [KAR-HNN Translation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN%20Translation%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 22 |  |  |
 | 2026-06-16 | 2026-06-16 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.16%E2%80%A226.06.16%E2%80%A2Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 351 |  |  |
 | 2026-06-16 | 2026-09-12 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 356 |  |  |
 | 2026-06-20 | 2026-09-12 | [ER=EPR Conjecture](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER%3DEPR%20Conjecture%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 28 |  |  |

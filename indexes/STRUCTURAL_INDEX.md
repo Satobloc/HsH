@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T14:52:14+00:00`
-- Tree/content state: `9a8d8a29536e37e79d4a6b14d88e0a4008aab56a4829d848000f19131883fb5f`
-- Coverage: 669 files, 54 directories
+- Scanned: `2026-09-12T15:04:02+00:00`
+- Tree/content state: `330dbaa31bd73a8cfa185b854812db83c9fad603a729433c9b0b39f011b3f2d0`
+- Coverage: 673 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 443 |
+| `DEVELOPMENT_FULL_CONVOS` | 446 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 51 |
+| `WORKSPACES` | 52 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -49,10 +49,10 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 366 |
+| `.json` | 369 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 120 |
+| `.md` | 121 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
@@ -76,9 +76,9 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 51 |
+| `llm-workspace` | 52 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 443 |
+| `source-conversation-corpus` | 446 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -574,9 +574,12 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json` — 112172 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json` — 179274 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json` — 551513 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json` — 297607 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx` — 121499 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json` — 1340445 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json` — 520575 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json` — 3513429 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json` — 471923 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json` — 1059025 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json` — 4528086 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt` — 1 bytes — `source-conversation-corpus`
@@ -826,7 +829,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 3361 bytes — `unclassified`
+- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 3640 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
 - `README.md` — 37343 bytes — `visitor-interface`
@@ -871,7 +874,7 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKINS.md` — 1620 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFFS.md` — 2756 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
@@ -882,6 +885,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md` — 20388 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_TRILLION_UNIVERSE_MODEL_GENERATOR_2026-09-12.md` — 27377 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_2026-09-12_LITERATURE_CONVERGENCE_SAT_RIGOR.md` — 19234 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_ADDENDUM_HYPERSPHERE_GAUGE_FILAMENT_2026-09-12.md` — 22355 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_ALBERR_NUMERIC_POCKET_TOE_2026-09-12.md` — 21462 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT-5.6-Sol_Logic-Spine_2026-09-12.md` — 22155 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT55_RMS_METHODOLOGY_STACKED_HOLONOMY_2026-09-12_143838.md` — 29875 bytes — `llm-workspace`
@@ -906,12 +910,12 @@
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6096 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md` — 13676 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md` — 4267 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 6217 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
 - `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
-- `checkpoints/CURRENT.md` — 1983 bytes — `checkpoint`
+- `checkpoints/CURRENT.md` — 2420 bytes — `checkpoint`
 - `formalization/README.md` — 2023 bytes — `formalization-workspace`
 - `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
 - `formalization/equations.json` — 6068 bytes — `formalization-workspace`
@@ -922,18 +926,18 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 117285 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 117818 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 203090 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 204695 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
-- `ledgers/FINITE_CORE_COMPARISON.md` — 9624 bytes — `review-ledger`
-- `ledgers/PREDICTION_LEDGER.md` — 6499 bytes — `review-ledger`
-- `synthesis/CURRENT_SYNTHESIS.md` — 78500 bytes — `synthesis-workspace`
+- `ledgers/FINITE_CORE_COMPARISON.md` — 10995 bytes — `review-ledger`
+- `ledgers/PREDICTION_LEDGER.md` — 6671 bytes — `review-ledger`
+- `synthesis/CURRENT_SYNTHESIS.md` — 79570 bytes — `synthesis-workspace`
 - `synthesis/FORMALISM_SELECTION.md` — 8044 bytes — `synthesis-workspace`
 - `synthesis/LIVE_REBUILD_STATUS.md` — 5054 bytes — `synthesis-workspace`
 - `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `synthesis-workspace`
