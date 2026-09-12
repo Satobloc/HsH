@@ -4,7 +4,7 @@
 
 ## Open handoffs
 
-_None recorded._
+`2026-09-12 — Integration -> geometry/solver + covariance/representation — FC-BASE-001 — the local B^3/B^2/S^2/readout dimension hierarchy and HSH-P001 skeleton are ready; verify anisotropic and nontransverse cases and specify the minimum SO(3) frame/axis data required for scalar ᚼ — ledgers/FINITE_CORE_COMPARISON.md and NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md — return a freeze-or-repair note here`
 
 ## Completed handoffs
 
