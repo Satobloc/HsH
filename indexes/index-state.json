@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1091384165,
-    "directories": 60,
-    "files": 829
+    "bytes_known": 1094804914,
+    "directories": 61,
+    "files": 853
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -18,14 +18,14 @@
     ".jsonl": 1,
     ".lean": 3,
     ".md": 143,
-    ".pdf": 21,
+    ".pdf": 22,
     ".png": 37,
     ".py": 38,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 131,
+    ".txt": 154,
     ".yml": 5,
     "[none]": 2
   },
@@ -41,7 +41,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 580,
+    "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -53,7 +53,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 580,
+    "DEVELOPMENT_FULL_CONVOS": 604,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -451,6 +451,13 @@
       ]
     },
     {
+      "content_id": "d609b35720f432565c67fcae5f48dfa539f3c9e57614bf7f67f6eb8f48b4f348",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT FORMALIZATION doc.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT FORMALIZATION doc.txt"
+      ]
+    },
+    {
       "content_id": "d743dfa3dd6ab5670236bc849e2327cf0d8272d8b2faceceb68f40a7eca7c0a6",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16•25.06.16•Scene Analysis Discussion — raw.json",
@@ -664,7 +671,7 @@
       "size": 49
     },
     {
-      "content_id": "2f3f409df35c3e4294ea63038f03b69812b2722c1ba7eb244025c9c6b9820b7c",
+      "content_id": "70d0290d6eb8d0d1c80bd18576cb97c71be03fa7cb486359073cb5998b50b8c0",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -3476,6 +3483,181 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json",
       "role": "source-conversation-corpus",
       "size": 234786
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "f171295ab7c47426d685d8d0b6fe8ac53b7479079e65eda837267733d82e0714",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/A DOZEN THEORY STUBS.txt",
+      "role": "source-conversation-corpus",
+      "size": 4739
+    },
+    {
+      "content_id": "e9295a1a8ce20157ecf929eb6c83fdd4a8d11f604130dde71fd0929c662af17e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/ActiveEdgevNext.txt",
+      "role": "source-conversation-corpus",
+      "size": 806310
+    },
+    {
+      "content_id": "4b7690a52fb2ddd69f5fad246fb90c7b4b7aac5c05df0147979d38a1543603ae",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/Alberr.txt",
+      "role": "source-conversation-corpus",
+      "size": 253466
+    },
+    {
+      "content_id": "9727ab204e96b3735c423d034bddf10ff4748abea19dfb727538160eca69590e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/MODELING SEISMIC WAVE PROP.txt",
+      "role": "source-conversation-corpus",
+      "size": 44681
+    },
+    {
+      "content_id": "a3663ca1bc482b7cd83adb2e98332634577b6b5cf7d152eae21ad8e32a804359",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PARTICLE_SAVE.txt",
+      "role": "source-conversation-corpus",
+      "size": 4051
+    },
+    {
+      "content_id": "a2801ebfcbef15c93fd88e7668e390a9e24bcfae46bba015f149ed2e5d1eb2b7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PARTICLE_SAVE_FORMUL.txt",
+      "role": "source-conversation-corpus",
+      "size": 41762
+    },
+    {
+      "content_id": "66c6547b6bed9367ba1e9dc67c1dfc0866f489b5574fb4741c67ec8d3662aa71",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PRIMARY INVESTIGATOR DIRECTIVE.txt",
+      "role": "source-conversation-corpus",
+      "size": 9216
+    },
+    {
+      "content_id": "d609b35720f432565c67fcae5f48dfa539f3c9e57614bf7f67f6eb8f48b4f348",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT FORMALIZATION doc.txt",
+      "role": "source-conversation-corpus",
+      "size": 60654
+    },
+    {
+      "content_id": "dcfe7a37b6a1be1a9117623e7cd93fca383c713686100a9a675f8709a80fa3b2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT TO-DO LIST APR2025.txt",
+      "role": "source-conversation-corpus",
+      "size": 6162
+    },
+    {
+      "content_id": "b2c596c098da698fa3bf3ad9afe8b04fbffc851947edce3afd35f971738e02fc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT_ATTEMPTED_FORMALIZATION.pdf",
+      "role": "source-conversation-corpus",
+      "size": 1077897
+    },
+    {
+      "content_id": "c0a64ae7e9e67fd1b8277c9790ea541e014cda32d64065d14bc4d1e0c9d9e852",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv  TO STANDARD MAP.txt",
+      "role": "source-conversation-corpus",
+      "size": 9286
+    },
+    {
+      "content_id": "1c968bb14d4b260d1604ceadd2cdc40ef0b954ed18edd4b8747ddd725466a95e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ACTUAL ANSWERS.txt",
+      "role": "source-conversation-corpus",
+      "size": 79835
+    },
+    {
+      "content_id": "dd6ec94858cb60439ce59fa05d7a78425f1274b3ac8508cf444339c3cb9819a1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ANSWER KEY.txt",
+      "role": "source-conversation-corpus",
+      "size": 4258
+    },
+    {
+      "content_id": "3ec754b6ca82c564c1de070f093478dad6ad2bb56be599cfc440612204cd1a2d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ASSESSMENT.txt",
+      "role": "source-conversation-corpus",
+      "size": 7009
+    },
+    {
+      "content_id": "24ae5a47099c9e2ca692c57fb700971e2e3f2972bf978f74d4b893fe0f9046f4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ATTEMPTED FORMALIZATION.txt",
+      "role": "source-conversation-corpus",
+      "size": 280587
+    },
+    {
+      "content_id": "7d90b8f82c8dbb86d6e271e478e67f32a49e916f769cde53c007967dc71aadf4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv FORMAL POSTULATES.txt",
+      "role": "source-conversation-corpus",
+      "size": 3855
+    },
+    {
+      "content_id": "d2ced5c70240169a4bf6fe7d2595db23e3a8ef16734d4d9d3735fd3eb740d5e6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv REFORMULATION.xtx.txt",
+      "role": "source-conversation-corpus",
+      "size": 7070
+    },
+    {
+      "content_id": "7d5e905149aed47897ec112928d81456411eba6b8f9a5cfeadfaa77d5ab53b59",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv THE PARTICLE ZOO.txt",
+      "role": "source-conversation-corpus",
+      "size": 4008
+    },
+    {
+      "content_id": "c0bf4921511fb54a5a33c057f41fec54733547a9dcdb3aa3c0e7b10c049f781d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv TIME_WAVEFRONT.txt",
+      "role": "source-conversation-corpus",
+      "size": 3494
+    },
+    {
+      "content_id": "5e58bd946fbccb51fa14fa4eddcd9c8d8ea6941dcb926c65919ad8c4f28b17e5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv VISUAL VOCABULARY.txt",
+      "role": "source-conversation-corpus",
+      "size": 3016
+    },
+    {
+      "content_id": "f1b0940f13ea6a24ab96e436e7847b41fb7ca2b4847c9045cd7555480938c4bc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv _REFORM_TRIAL.txt",
+      "role": "source-conversation-corpus",
+      "size": 398146
+    },
+    {
+      "content_id": "88647aef9023e9c694e353ae5463cf47f7949468c02583fff55605bbab354b47",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv aSAT vs SAT.txt",
+      "role": "source-conversation-corpus",
+      "size": 115633
+    },
+    {
+      "content_id": "02c3062bbeb4a5f5e84e602f59dd80e0f1297c0c5dd2346183f43b1e2b7a6a40",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv_CONSENSUS.txt",
+      "role": "source-conversation-corpus",
+      "size": 6496
+    },
+    {
+      "content_id": "eac55fad7aeb1d8eb927dbdad0ad94dc57353b112811052dc94970a053b98bc0",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/WHY SAT.txt",
+      "role": "source-conversation-corpus",
+      "size": 176369
     },
     {
       "content_id": null,
@@ -6488,11 +6670,11 @@
       "size": null
     },
     {
-      "content_id": "bba46c69b8a0552a9f9d038fdef18a00a52513363165f0a021f6fc16c8dd3ed0",
+      "content_id": "815a5f2e0b92ac973156505b0dfa4677ef776cfca02e6550c2f10f9b640f25f8",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 134284
+      "size": 139038
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -6502,7 +6684,7 @@
       "size": 8625
     },
     {
-      "content_id": "f03415ba9c05fd0be906691a08854ecf7b04151d33e21eaf33bffd99df3d9e71",
+      "content_id": "96d8a0cec3da12ef11ec81670d505413d620e17b8bf64c0c4441c8bdd1ce9321",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6523,14 +6705,14 @@
       "size": null
     },
     {
-      "content_id": "851330f4c34b913575c9343bd90e2498318531bed597f74a483b29146dd74ed4",
+      "content_id": "477d1a7c9bd31eef47bcf48b0812195d09dff2e69d1946a390d24770db63b997",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 240015
+      "size": 248010
     },
     {
-      "content_id": "2b38ff6e7c8ccf1dfd8f1a81e2098d87063b76bf9f9c577f5fe3a939de333fd0",
+      "content_id": "f3dd23d88eb57362f203d59b8a2ef2fb3cbc708db72e017fc6885541bac19885",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6748,8 +6930,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:57:09+00:00",
+  "scanned_at_utc": "2026-09-12T22:59:16+00:00",
   "schema_version": 1,
-  "tree_id": "a98d6ede2f581562a4fe361e74e821180233f7cf04823a76505bbeb747bbe584",
+  "tree_id": "71f59128c4d6668904be418f361d7f95df3dcde42f0bd5cc6973d62f03922098",
   "tree_response_truncated": false
 }

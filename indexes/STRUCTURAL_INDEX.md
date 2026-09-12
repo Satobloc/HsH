@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:57:09+00:00`
-- Tree/content state: `a98d6ede2f581562a4fe361e74e821180233f7cf04823a76505bbeb747bbe584`
-- Coverage: 829 files, 60 directories
+- Scanned: `2026-09-12T22:59:16+00:00`
+- Tree/content state: `71f59128c4d6668904be418f361d7f95df3dcde42f0bd5cc6973d62f03922098`
+- Coverage: 853 files, 61 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 580 |
+| `DEVELOPMENT_FULL_CONVOS` | 604 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -55,14 +55,14 @@
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 143 |
-| `.pdf` | 21 |
+| `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 38 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 131 |
+| `.txt` | 154 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -81,7 +81,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 580 |
+| `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -259,6 +259,9 @@
 - `d0b7339ddf47414dd6b48b4f324208bb6ec5cac28d0e8ba00ea5f2165d6e4108`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json`
+- `d609b35720f432565c67fcae5f48dfa539f3c9e57614bf7f67f6eb8f48b4f348`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT FORMALIZATION doc.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT FORMALIZATION doc.txt`
 - `d743dfa3dd6ab5670236bc849e2327cf0d8272d8b2faceceb68f40a7eca7c0a6`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16•25.06.16•Scene Analysis Discussion — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16•25.06.16•Scene Analysis Discussion — raw.json`
@@ -695,6 +698,30 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt` — 14537491 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT FORMALIZATION doc.txt` — 60654 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json` — 234786 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/A DOZEN THEORY STUBS.txt` — 4739 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/ActiveEdgevNext.txt` — 806310 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/Alberr.txt` — 253466 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/MODELING SEISMIC WAVE PROP.txt` — 44681 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PARTICLE_SAVE.txt` — 4051 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PARTICLE_SAVE_FORMUL.txt` — 41762 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/PRIMARY INVESTIGATOR DIRECTIVE.txt` — 9216 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT FORMALIZATION doc.txt` — 60654 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT TO-DO LIST APR2025.txt` — 6162 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT_ATTEMPTED_FORMALIZATION.pdf` — 1077897 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv  TO STANDARD MAP.txt` — 9286 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ACTUAL ANSWERS.txt` — 79835 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ANSWER KEY.txt` — 4258 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ASSESSMENT.txt` — 7009 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ATTEMPTED FORMALIZATION.txt` — 280587 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv FORMAL POSTULATES.txt` — 3855 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv REFORMULATION.xtx.txt` — 7070 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv THE PARTICLE ZOO.txt` — 4008 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv TIME_WAVEFRONT.txt` — 3494 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv VISUAL VOCABULARY.txt` — 3016 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv _REFORM_TRIAL.txt` — 398146 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv aSAT vs SAT.txt` — 115633 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv_CONSENSUS.txt` — 6496 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/WHY SAT.txt` — 176369 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt` — 42731 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR RESULTS.txt` — 19442 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR_FIRST RUN.txt` — 103189 bytes — `source-conversation-corpus`
@@ -1089,11 +1116,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 134284 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 139038 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 240015 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 248010 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
