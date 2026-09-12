@@ -628,6 +628,124 @@ This batch continues forward within the same durable raw export. Each promoted p
 - **Unresolved/source issue:** `DIMENSIONAL GRAVITY` is now substantially sampled across its 2024 development and 2026 revisit, but not exhaustively read message-by-message. The long 2026 tool-injected `SAT.4DHH.UC.pdf` excerpts are not treated as Nathan-authored messages and were not promoted.
 - **Next priority region:** shift to the durable raw `SAT Overview — raw.json` conversation if its exact GitHub path can be resolved; otherwise continue with `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`, then `H(s)H TIME RESIDUALS`, prioritizing direct Nathan corrections of dimensionality, worldline/worldtube, timesheet/intersection propagation, and model-status errors.
 
+## Excavation batch 2026-09-12-F — `SAT Overview — raw.json`
+
+This batch begins the durable raw overview conversation at `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`. Every promoted passage below was found in the raw conversation mapping with `message.author.role = user`; Library-indexed duplicate copies are treated only as alternate retrieval surfaces, not independent provenance.
+
+### 2026-06-23 — Timesheet drag, braid morphology, and incomplete roundup documents
+
+- **Tags:** `TIMESHEET` `PROJECTION-READOUT` `INTERBRAID` `METHOD` `MODEL-VS-REALITY` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `47f3c62a-32e6-4972-b1c2-4d071a729001` — 2026-06-23 02:57:01 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** working overview statement with explicit hedges about completeness and mathematical status; not current theory authority.
+- **Exact Nathan wording:**
+
+> SAT reproduces GR, or it should, cleanly. I don't know whether it's fully spelled out here. But it's almost trivial that if timesheet drag is a thing, then GR is immediately reproduced, at least morphologically, but on the timesheet, and down to the quantum scale. We've systemetized at least approximate derivations, and in some cases, I think, rigorous ones, in one formalisim or another. Again, not sure if all of that is reprosduced in these roundup docs. 
+>
+>
+> QCD is also immediately reprotduced by braid morphology. 
+>
+> If the tools for these are not present, then these docuents are incomplete. 
+> We also have a GR-QFT isomorphism--ostensible, and apparently accurate--proof. Though probably not in these docs. 
+>
+>
+> SAT rejects much of ST, but retains the part that corresponds to timesheet footprint = vibration modes. In that sense, it subsumes ST. Or it intends to, although the mathematical import (to the extent that it is intended to be imported) is probably incomplete. 
+
+- **Immediate context:** Nathan was assessing whether the supplied roundup/project documents actually contained mechanisms and derivations he believed existed elsewhere in the archive; the message is partly a completeness check on the source packet.
+- **Later correction / relationship:** preserve Nathan's uncertainty markers exactly. Later training and reconstruction must inspect the claimed derivations directly rather than promote this overview statement as verification of them.
+
+---
+
+### 2026-06-23 — One nested structure: helical worldline/worldtube
+
+- **Tags:** `WORLDLINE` `WORLDTUBE` `NESTED-HELIX` `DIMENSIONALITY` `INTERACTIONS` `METHOD` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `28895d46-780e-46d9-a4cd-646f92fad193` — 2026-06-23 05:46:30 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit working-language snapshot; Nathan says the scaling placement is unresolved and expresses a preference for a simpler 4DHH-style description.
+- **Exact Nathan wording:**
+
+> That's the working language for now. tbh, it looks like a mess to me. I liked the old 4DHH formulation. A 4D Nth-Order Superhelix, simple as that (maybe 'simple' isnt the right work, but...) the goal is going to have to be simplicity eventually. To me, it seems kinda simple, but I'm not a mathematitian.
+>
+> You've got one structure: Helical worldline/worldtube. It has some parameters at the fundamental scale. It's hyper (4D) it's super (nested). So, it's just a matrioshka doll, where the features change a bit (or sometimes a lot) at the different layers. Thre's some question to my mind about the scaling factor (which is where basically *all* everyday mesoscale physics lives)... does it nest inside the matrioshka? outside? as an exponent? a dot product? a limit? Or does it have its own nesting strcture separate from the hyper(super)helix? Given the self-similar idea, it should just be one structure with itself nested inside, in one way or another. Of course, dynamics means there's more than one h(s)h being described, so there's a coupling factor that varies per interaction per SAT rules, which are just standard science stated as superhelices. Covariant equations does half the job. 
+>
+> (helix+stuff(helix+stuff(helix+stuff...(((((...))))))))
+>
+> Where "helix" is a helix equation and "stuff" is stuff that changes. 
+
+- **Immediate context:** the assistant had presented a more elaborate current grammar; Nathan pushed back toward a single recursively nested helical worldline/worldtube picture and explicitly left the scaling architecture open.
+- **Later correction / relationship:** current September training further types carrier/history, resolver/timesheet, intersection propagation, and projected readout; do not assume every June term remained unchanged. The unresolved scaling question should remain unresolved in provenance.
+
+---
+
+### 2026-06-23 — UI/TX and Donut/Whirlygig are tools
+
+- **Tags:** `UI` `WHIRLIGIG-DONUT` `METHOD` `MODEL-VS-REALITY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `bbf9cce9-a7ed-4e2a-ae42-57ea3a58369d` — 2026-06-23 06:56:07 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct typing clarification about project machinery; useful guard against silently treating these constructions as ontology.
+- **Exact Nathan wording:**
+
+> Now… the UI/TX and Donut/Whirlygig are tools that we can and should use as appropriate 
+
+- **Immediate context:** Nathan was distinguishing useful project machinery from the underlying theory during a purge/rebuild discussion.
+- **Later correction / relationship:** this entry should be cross-linked to any later Nathan-authored description that assigns a more specific computational or representational role to these tools.
+
+---
+
+### 2026-06-23 — `FINDING THE DONUT` is the original formulation
+
+- **Tags:** `WHIRLIGIG-DONUT` `METHOD` `HISTORY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `025057e3-ec0b-4ca4-a1dd-a3a3fe4fb7bc` — 2026-06-23 08:03:58 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct provenance statement identifying source lineage among attached Donut artifacts.
+- **Exact Nathan wording:**
+
+> Finding the donut is my original formulation. The others are at least attempts to make it work 
+
+- **Immediate context:** Nathan attached `DONUT 1.txt`, `DONUT 2.txt`, `Donut canon.txt`, `ReDonut.txt`, and `FINDING THE DONUT (nolat).pdf` while clarifying which artifact represented his original formulation versus later implementation/formalization attempts.
+- **Later correction / relationship:** future Donut excavation should privilege the raw Nathan-authored formulation for intended geometry and treat later generated/formalized versions as derivative attempts unless independently confirmed.
+
+---
+
+### 2026-06-23 — Geometric conviction and the separate task of validating the Donut's formal role
+
+- **Tags:** `WHIRLIGIG-DONUT` `METHOD` `MODEL-VS-REALITY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `c4115122-1cb3-4d3d-98a7-7f28ad4562ed` — 2026-06-23 08:20:37 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** epistemic/method statement. Nathan explicitly separates what he takes as geometrically evident from the future task of establishing the Donut's status as a formal proving mechanism.
+- **Exact Nathan wording:**
+
+> We can quibble about what constitutes a proof. I think that the existence of a closed composite curve is a proof. That’s because I think geometrically, which makes it a lot easier to see what has to be true without having to write equations.
+>
+> But you don’t have to believe me. Proving that the donut is a prover is a different task that we should probably tackle one day. Not today though.
+
+- **Immediate context:** Nathan was responding to a distinction between the Donut exposing a geometric relation and a separate mathematical check establishing what that relation warrants.
+- **Later correction / relationship:** preserve the distinction rather than using Nathan's geometric confidence as a substitute for formal validation. Later work on the Donut's capabilities should be linked here when directly sourced.
+
+---
+
+### 2026-09-12-F
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`.
+- **Raw export title:** `SAT Overview`.
+- **Authorship method:** raw conversation mapping retrieved through the Library index; only nodes explicitly showing `message.author.role = user` were accepted.
+- **Date range actually covered in this batch:** targeted June 23, 2026 overview/rebuild regions, approximately 02:57–08:20 EDT.
+- **Verified Nathan messages added:** 5.
+- **Primary topics covered:** timesheet/GR and braid/QCD overview language with explicit uncertainty; the one-structure nested helical worldline/worldtube picture; explicit typing of UI/TX and Donut/Whirlygig as tools; Donut source-lineage provenance; distinction between Nathan's geometric conviction and the separate task of validating the Donut as a formal proving mechanism.
+- **Deduplication:** all five UUIDs were checked against the existing compendium before insertion. A closely repeated earlier GR/QCD message (`3d3b7b50-6324-4c09-bcfe-585b0895a9b0`) was not separately promoted because the later `47f3c62a-32e6-4972-b1c2-4d071a729001` message is the richer version in the same immediate region.
+- **Unresolved/source issue:** a high-value passage was located in the indexed raw corpus in which Nathan says worldlines are an essentialized representation relative to worldtubes and discusses helical-worldtube radius/pitch scaling, but this pass did not recover a raw mapping node that explicitly showed `author.role = user` for that exact passage. It was therefore not promoted. The Library exposes duplicate `SAT Overview — raw.json` copies; the durable repository path above controls source identity.
+- **Next priority region:** continue later June 23 through July 5 in `SAT Overview`, prioritizing explicit user nodes on worldtube/finite-core typing, radius/pitch/arclength, UI/Donut/Whirligig, Spheres/Graticule, and corrections to model status; then move to `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json` and `H(s)H TIME RESIDUALS`.
+
 # UNVERIFIED / NEEDS SOURCE CHECK
 
 _Candidates may be parked here temporarily, but must not be cited as Nathan's words until authorship is verified from raw source metadata._
