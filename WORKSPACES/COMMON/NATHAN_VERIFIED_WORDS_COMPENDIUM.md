@@ -225,6 +225,150 @@ Raw author metadata was inspected directly from the 17,988,441-byte conversation
 
 ---
 
+## Excavation batch 2026-09-12-B — `DIMENSIONAL GRAVITY — raw.json`
+
+This batch reads the earliest currently identified SAT-adjacent raw conversation directly from the durable HsH archive. Every quoted passage below is from a raw ChatGPT mapping node with `message.author.role = user`. The March 22, 2024 timestamp is the conversation's original create date; later material in the same export extends much farther forward and remains for future passes.
+
+### 2024-03-22 — Start with a helix, a straight line, and an intersecting plane
+
+- **Tags:** `DIMENSIONALITY` `4D-THINKING` `WORLDLINE` `PROJECTION-READOUT` `HELIX-PITCH-RADIUS-ARCLENGTH` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa28bd9-07f7-4740-b878-b485d4db44d0` — 2024-03-22 11:10:05 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** earliest currently identified raw construction conversation; deliberately pre-SAT vocabulary and geometry.
+- **Exact Nathan wording:**
+
+> I'd like to explore an idea I've had for a long time. I'll start by asking you to imagine a geometric space and ask you to answer some specific questions about that space. 
+>
+> So... picture two lines. One is a straight line, the other is a helical line wrapping around the straight line at an arbitrary distance. Now picture an intersecting plane perpendicular to the straight line. If we were to look at the plane from above, marking the intersections of each line with the plane as a simple point, what would the arrangement of those two points be?
+
+- **Immediate context:** opening user message of the raw conversation; no assistant interpretation precedes it.
+- **Later correction / relationship:** later SAT/H(s)H terminology replaces this generic line/plane vocabulary with more typed worldline/timesheet/intersection language, but the geometry here is primary provenance for the intersection construction.
+
+---
+
+### 2024-03-22 — Keep the first construction static and dimensionally typed
+
+- **Tags:** `DIMENSIONALITY` `4D-THINKING` `PROJECTION-READOUT` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2269b-7eab-4781-9454-647098d6747f` — 2024-03-22 11:20:20 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit correction of the assistant for prematurely introducing temporal behavior into a static geometric slice.
+- **Exact Nathan wording:**
+
+> Well, you've jumped ahead a little bit and anticipated a time dimension which I'll get to in a moment. But right now we're just considering a static geometric arrangement without a time dimension. So, assuming the plane and lines are perfect mathematical objects, which means the lines are one-dimensional and plane is two dimensional. This means that the intersection of each line would form a single point. Therefore, the helical line would not intersect the plane in a helical or spiral pattern. Instead, we'd simply have two points, separated by a distance equal to the distance between the lines. Let's call those points S (for "straight") and H (for "helix"). The exact position of point H would depend upon where along the helical line the plane intersected. Does that make sense?
+
+- **Immediate context:** the assistant had incorrectly described the helix-plane intersection as a spiral-like pattern. Nathan corrected both the dimensional category and the number/type of intersections.
+- **Later correction / relationship:** strongly relevant to later training rules separating intrinsic carrier geometry from the geometry of its intersection/readout.
+
+---
+
+### 2024-03-22 — Introduce time by moving the intersecting plane
+
+- **Tags:** `DIMENSIONALITY` `TIMESHEET` `INTERSECTION-PROPAGATION` `PROJECTION-READOUT` `REST-AND-MOTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa20670-fd77-4577-8e31-0a33a9e358c6` — 2024-03-22 11:23:19 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** early geometric precursor to the later time-surface/timesheet model; no claim is made here about the current physical interpretation or speed.
+- **Exact Nathan wording:**
+
+> Correct. Now, let's go ahead and introduce time. If the plane is moving along the lines at an arbitrary rate (maintaining its perpendicularity with the straight line), what would be happening to point S and what would be happening to point H. 
+
+- **Immediate context:** follows the static two-intersection construction immediately; Nathan introduces temporal behavior by changing the position of the intersecting plane while preserving its orientation.
+- **Later correction / relationship:** later language identifies the time surface/timesheet and distinguishes its geometry from the propagation of the timesheet–filament intersection. This entry records the earlier geometric setup without importing the later formal typing.
+
+---
+
+### 2024-03-22 — Circular readout radius is set by helix radius, not pitch
+
+- **Tags:** `HELIX-PITCH-RADIUS-ARCLENGTH` `PROJECTION-READOUT` `INTERSECTION-PROPAGATION` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2a1cc-e884-4f6a-800f-8afc29ab221a` — 2024-03-22 11:35:10 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct geometric correction within the toy construction.
+- **Exact Nathan wording:**
+
+> Basically, but the size of the circular path would not be related to the pitch of the helix as it intersects the plane. Assuming the straight line follows the long axis of the helix, the size of the circular path would only depend upon the distance between the straight line and the helix that wraps around it, which would be equal to the cross-sectional radius of the helix. Thus, we'd see a static point S orbited by point H at a fixed distance in a circular orbit. Do you see?
+
+- **Immediate context:** Nathan corrected the assistant's attempted relation between helix pitch and the radius of the moving intersection point on the plane.
+- **Later correction / relationship:** current training work is separately re-auditing how pitch, radius, intrinsic arclength, and intersection propagation relate; this historical statement controls only the radius of the circular intersection path in the stated construction.
+
+---
+
+### 2024-03-22 — A diagonal carrier produces apparent in-plane motion as the plane advances
+
+- **Tags:** `DIMENSIONALITY` `PROJECTION-READOUT` `INTERSECTION-PROPAGATION` `REST-AND-MOTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa28e47-4279-4e8f-8f74-f1ba7c2c0474` — 2024-03-22 11:38:57 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** early slice/readout thought experiment.
+- **Exact Nathan wording:**
+
+> Ok, good. Now, let's consider an even simpler case. This time, we only have one line and a plane that intersects it. But in this scenario, the line intersects the plane at an angle, and we will label the intersection point D (for "diagonal"). The plane is moving perpendicular to its two dimensions. What happens to point D in the plane?
+
+- **Immediate context:** Nathan temporarily removes the helix to isolate the relation between carrier angle, plane advance, and apparent motion of the intersection point.
+- **Later correction / relationship:** useful provenance for later SAT/H(s)H distinctions between full history geometry and apparent/projection motion.
+
+---
+
+### 2024-03-22 — Correct the assistant's helix geometry before building collision-like readouts
+
+- **Tags:** `HELIX-PITCH-RADIUS-ARCLENGTH` `PROJECTION-READOUT` `NATHAN-CORRECTION` `METHOD`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2d58f-3738-44f9-9fcc-d4c054b23c2a` — 2024-03-22 12:08:08 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit geometry correction; demonstrates constraint-first construction rather than accepting a suggestive animation.
+- **Exact Nathan wording:**
+
+> I don't think that works. If we invoke a helical line, then we're going to get some sort of rotational motion for its point of intersection with the plane. Further, if it's a perfect helix, then there is no maximum or minimum radius, and the point will always trace out a circular path of some sort, and if the straight line is the long axis of the helix, then the two points would always be equidistant from one another, no matter where along its length the helix intersects with the plane.
+>
+> Let's try a more well defined scenario: Say you want two points to travel towards the origin along the y-axis of the plane, meet at the origin, then move away from the origin again at a steady rate. Can you describe the 3-dimensional geometry that would obtain this result?
+
+- **Immediate context:** the assistant had proposed using a perfect helix with a supposed maximum-radius point to make two projected points meet; Nathan rejected the geometry and tightened the target behavior.
+- **Later correction / relationship:** preserves an early example of Nathan separating desired readout behavior from the geometry capable of producing it.
+
+---
+
+### 2024-03-22 — Time as a three-dimensional intersecting surface; now as the current intersection
+
+- **Tags:** `TIMESHEET` `DIMENSIONALITY` `4D-THINKING` `PROJECTION-READOUT` `INTERSECTION-PROPAGATION` `MODEL-VS-REALITY` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa28a9a-dcfc-4835-8359-e7da7b36911c` — 2024-03-22 13:07:55 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** unusually important early statement of the time-surface/intersection picture; terminology predates the later SAT formal vocabulary and should not be silently updated.
+- **Exact Nathan wording:**
+
+> Well... there does appear to be some overlap. My framework is based on my own vague early intuition about what "strings" meant in String Theory, and I do envision my own concept of strings to be a way of representing fundamental building blocks of the universe, along with time. It may also be that the properties of various particles could have to do with the vibration of these strings in four-dimensional space, although I have not considered that idea in depth. The way I see it, we can represent the behaviors of all the particles in the universe by envisioning time as a sort of three-dimensional "surface" intersecting these strings, and we can envision "now" as the current point of intersection, analogous to a propagating wavefront.
+
+- **Immediate context:** Nathan was distinguishing his geometric construction from his earlier vague understanding of String Theory and stating what the intersecting-surface picture was intended to represent.
+- **Later correction / relationship:** later SAT/H(s)H language sharpens `strings` into worldlines/filaments/worldtubes and distinguishes timesheet geometry from intersection propagation; the quoted wording remains primary historical provenance.
+
+---
+
+### 2024-03-22 — Composite cords and the time-surface intersection encode heavier nuclei
+
+- **Tags:** `TIMESHEET` `WORLDLINE` `NESTED-HELIX` `INTERBRAID` `PROJECTION-READOUT` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** `aaa2cb73-002e-4d7f-8b0a-71deb748a6ad` — 2024-03-22 13:36:44 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** very early composite/braiding metaphor; not current particle ontology by default.
+- **Exact Nathan wording:**
+
+> Ok, so in this scenario, depending upon the mass of the star, perhaps only the outer cords become disentangled, leaving some smaller number of them continuing their entanglement in four dimensions, representing the stellar remnant. Now, let's say at some point along the length of this bundle of cords (which is to say sometime during the life of the star), another bundle of cords forms nearby. This time, the cords that become intertwined are individually more complex, involving a larger number of braided strings, such that the intersection of the cords with the time surface correspond to atoms with larger numbers of quarks, and thus heavier atomic nuclei... things like iron, nickel, oxygen, and silicon. As these complex braided cords become intertwined with one another, the bundle (let's call it a "rope" ...albeit a rather messy one). The rope is loosely wrapped around the larger bundle representing the star in a roughly helical fashion. Do you see what I'm describing here?
+
+- **Immediate context:** Nathan extended the line/surface construction from individual intersections to hierarchical braided/composite histories in an astrophysical visualization.
+- **Later correction / relationship:** later theory substantially changes particle/braid detail; this survives in the compendium as dated provenance for nested/composite geometry and time-surface readout, not as a current model assertion.
+
+---
+
 ## Excavation coverage ledger
 
 ### 2026-09-12-A
@@ -236,8 +380,21 @@ Raw author metadata was inspected directly from the 17,988,441-byte conversation
 - **Date range searched in this batch:** 2026-06-07 through 2026-06-10 conversation span; verified entries added from June 8 and June 10.
 - **Verified Nathan messages added:** 6.
 - **Deduplication:** Library duplicates of `Geometry in Physics — raw.json` were treated as alternate copies, not independent evidence. Durable source path recorded as the HsH `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/` copy.
-- **Unresolved:** no raw `DIMENSIONAL GRAVITY` export was materialized in this batch; `SAT Overview — raw.json` was located with raw user metadata visible but its Library copy did not expose an authorized raw-byte materialization path.
-- **Next priority region:** locate/materialize `DIMENSIONAL GRAVITY`; then scan `SAT Overview`, `Reasoning with SAT-HSH Skill`, `H(s)H TIME RESIDUALS`, and the June–July worldline→worldtube conversations for direct Nathan corrections on dimensionality, timesheet/intersection propagation, rest/motion, and finite-thickness readout.
+- **Unresolved:** `SAT Overview — raw.json` was located with raw user metadata visible but its Library copy did not expose an authorized raw-byte materialization path.
+- **Next priority region:** `DIMENSIONAL GRAVITY`, then `SAT Overview`, `Reasoning with SAT-HSH Skill`, `H(s)H TIME RESIDUALS`, and the June–July worldline→worldtube conversations.
+
+### 2026-09-12-B
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Raw export title:** `DIMENSIONAL GRAVITY`
+- **Conversation ID:** `252d05c0-22ed-4ea2-a474-7966ab13145a`
+- **Authorship method:** raw `message.author.role`; only `role = user` accepted.
+- **Date range actually covered in this batch:** opening March 22, 2024 construction through the early composite/time-surface discussion later that same day. The export continues through 2026 and is not fully excavated yet.
+- **Verified Nathan messages added:** 8.
+- **Primary topics covered:** static line/plane intersection typing; introducing time by plane advance; helix radius versus pitch in readout; diagonal-line intersection motion; explicit correction of invalid helix geometry; time as a 3D intersecting surface; `now` as current intersection/wavefront; early hierarchical braided-composite geometry.
+- **Deduplication:** exact durable path above is treated as the source identity for this pass; no duplicate copy is counted as independent evidence.
+- **Unresolved/source issue:** none for authorship in the eight promoted messages. The main incompleteness is coverage: most of the long `DIMENSIONAL GRAVITY` export remains unscanned.
+- **Next priority region:** continue `DIMENSIONAL GRAVITY` chronologically beyond March 22, 2024, looking specifically for later user refinements/corrections of dimensionality, time-surface motion, `c`, worldline/worldtube geometry, and intersection/readout; after that move to `SAT Overview` and `Reasoning with SAT-HSH Skill`.
 
 # UNVERIFIED / NEEDS SOURCE CHECK
 
