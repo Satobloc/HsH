@@ -93,3 +93,11 @@ input[type="search"]:focus, select:focus { outline: 2px solid rgba(138,180,255,.
   body { background: var(--bg); } .sidebar { background: #f8f9fc; } .viewer-header { background: rgba(244,246,250,.96); }
   input[type="search"], select { background: #fff; color: var(--text); } .search-drawer { background: #fff; }
 }
+
+
+/* Readability controls for very long messages and tool output. */
+.raw-toggle, .expand-toggle { padding: 2px 6px; margin-right: 5px; font-size: .68rem; border-radius: 6px; }
+.message.collapsible:not(.expanded):not(.typing) .message-body { max-height: min(58vh, 38rem); overflow: hidden; position: relative; -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%); }
+.message.compact-output.collapsible:not(.expanded):not(.typing) .message-body { max-height: 11rem; opacity: .82; }
+.message.typing .message-body { max-height: none !important; overflow: visible !important; -webkit-mask-image: none !important; mask-image: none !important; }
+.message.compact-output:not(.expanded) .message-head { opacity: .88; }

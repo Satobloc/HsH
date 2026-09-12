@@ -8,7 +8,7 @@
   const state = {
     catalog: [], filteredCatalog: [], conversation: null, raw: null, messages: [], rendered: 0,
     activeIndex: 0, speakerEnabled: new Map(), searchQuery: "", searchHits: [], searchCursor: -1,
-    replay: { running: false, token: 0, cruiseFrame: null, mode: null, currentIndex: -1, shown: 0, forceComplete: false, forceAdvance: false },
+    replay: { running: false, token: 0, cruiseFrame: null, mode: null, currentIndex: -1, shown: 0, forceComplete: false, forceAdvance: false, follow: true },
   };
 
   const ids = [
@@ -268,6 +268,15 @@
     state.replay.shown = 0;
     state.replay.forceComplete = false;
     state.replay.forceAdvance = false;
+    state.replay.follow = true;
+  }
+
+  function pinTypingEdge(body) {
+    if (!body || !state.replay.follow) return;
+    const viewport = el.messages.getBoundingClientRect(), edge = body.getBoundingClientRect().bottom;
+    const target = viewport.top + viewport.height * 0.25;
+    const delta = edge - target;
+    if (Math.abs(delta) > 1) el.messages.scrollTop += delta;
   }
 
   function setActive(index, writeUrl = true) {
@@ -384,16 +393,15 @@
   async function typealongMessage(index, token) {
     ensureRenderedExact(index); setActive(index, true);
     const node = document.getElementById(`m${index + 1}`); if (!node) return false;
-    node.scrollIntoView({ behavior: "smooth", block: "center" });
     const body = node.querySelector(".message-body"), text = state.messages[index].text;
     const charsPerSecond = 48 * replaySpeed(index); let shown = 0;
     state.replay.currentIndex = index; state.replay.shown = 0;
-    state.replay.forceComplete = false; state.replay.forceAdvance = false;
-    node.classList.add("typing"); body.textContent = "";
+    state.replay.forceComplete = false; state.replay.forceAdvance = false; state.replay.follow = true;
+    node.classList.add("typing"); body.textContent = ""; pinTypingEdge(body);
     while (shown < text.length && state.replay.running && token === state.replay.token) {
       if (state.replay.forceComplete) { shown = text.length; body.textContent = text; state.replay.shown = shown; break; }
       shown = Math.min(text.length, shown + Math.max(1, Math.round(charsPerSecond / 20)));
-      state.replay.shown = shown; body.textContent = text.slice(0, shown); node.scrollIntoView({ block: "nearest" });
+      state.replay.shown = shown; body.textContent = text.slice(0, shown); pinTypingEdge(body);
       if (!await wait(50, token)) { node.classList.remove("typing"); return false; }
     }
     body.textContent = text; state.replay.shown = text.length; state.replay.forceComplete = false; node.classList.remove("typing");
@@ -471,8 +479,10 @@
       try { await navigator.clipboard.writeText(location.href); el.copyLink.textContent = "Copied"; setTimeout(() => el.copyLink.textContent = "Copy link", 900); }
       catch { prompt("Copy this link:", location.href); }
     });
+    el.messages.addEventListener("wheel", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
+    el.messages.addEventListener("touchstart", () => { if (state.replay.running && state.replay.mode === "typealong") state.replay.follow = false; }, { passive: true });
     el.messages.addEventListener("scroll", () => {
-      if (el.messages.scrollTop + el.messages.clientHeight > el.messages.scrollHeight - 900 && state.rendered < state.messages.length) renderNext();
+      if (el.messages.scrollTop + el.messages.clientHeight > el.messages.scrollHeight - 900 && state.rendered < state.messages.length && state.replay.mode !== "typealong") renderNext();
       if (!state.replay.running) setActive(currentVisibleMessage(), true);
     }, { passive: true });
     document.addEventListener("keydown", event => {

@@ -153,6 +153,25 @@
     body.dataset.presented = "true";
   }
 
+  function addCollapseToggle(article, body, rawText, kind) {
+    if (article.querySelector(".expand-toggle")) return;
+    const toolish = ["tool", "function", "internal", "developer", "system"].includes(kind);
+    const threshold = toolish ? 900 : 6500;
+    if (rawText.length <= threshold) return;
+    article.classList.add("collapsible");
+    if (toolish) article.classList.add("compact-output");
+    const meta = article.querySelector(".message-meta");
+    if (!meta) return;
+    const button = document.createElement("button");
+    button.type = "button"; button.className = "expand-toggle"; button.textContent = toolish ? "Show output" : "Expand";
+    button.addEventListener("click", event => {
+      event.stopPropagation();
+      const expanded = article.classList.toggle("expanded");
+      button.textContent = expanded ? "Collapse" : (toolish ? "Show output" : "Expand");
+    });
+    meta.prepend(button);
+  }
+
   function addRawToggle(article, body, rawText) {
     if (article.querySelector(".raw-toggle")) return;
     const head = article.querySelector(".message-head");
@@ -189,8 +208,8 @@
     speaker.textContent = displayName(rawSpeaker);
 
     article.classList.remove("kind-user", "kind-user-paste", "kind-assistant", "kind-other-assistant", "kind-tool", "kind-function", "kind-system", "kind-developer", "kind-internal");
-    article.classList.add(`kind-${kindFor(article, rawText)}`);
-    addRawToggle(article, body, rawText);
+    const kind = kindFor(article, rawText); article.classList.add(`kind-${kind}`);
+    addRawToggle(article, body, rawText); addCollapseToggle(article, body, rawText, kind);
 
     if (!article.classList.contains("search-hit") && !article.classList.contains("typing") && body.dataset.view !== "raw") {
       renderBody(body, rawText);
@@ -241,7 +260,7 @@
   setInterval(() => {
     document.querySelectorAll("#messages > .message").forEach(article => {
       const body = article.querySelector(".message-body");
-      if (!body || body.dataset.view === "raw" || article.classList.contains("search-hit")) return;
+      if (!body || body.dataset.view === "raw" || article.classList.contains("search-hit") || article.classList.contains("typing")) return;
       const raw = rawByBody.get(body);
       if (raw != null && body.textContent === raw && !body.querySelector("p, pre, ul, ol, blockquote, .md-heading")) renderBody(body, raw);
     });
