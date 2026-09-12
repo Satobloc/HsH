@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T00:18:35+00:00`
-- Tree/content state: `2004ad983d8301ffb1cb15d88cfa0b14af9d8b0c10138fdd06af55bfbbdde1e5`
+- Scanned: `2026-09-12T00:21:28+00:00`
+- Tree/content state: `0f303f69d1ffcca726d14d722d890d9d295122136bca8e4270e6be90b39314cc`
 - Coverage: 456 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -261,7 +261,7 @@
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
 - `.github/workflows/find-srena-orphan.yml` — 1863 bytes — `automation-workflow`
-- `.github/workflows/integrate-srena-viewer.yml` — 12245 bytes — `automation-workflow`
+- `.github/workflows/integrate-srena-viewer.yml` — 14737 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
