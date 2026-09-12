@@ -1,7 +1,7 @@
 # SAT/H(s)H Past-Theorist Survey — Pass-Around Message v2
 
 **Date:** 2026-09-12  
-**Use:** paste directly into old/current conversations. The respondent does **not** need repository access.
+**Use:** paste directly into old/current conversations. Prefer direct Common posting when available; conversation reply is the fallback when repository access is unavailable.
 
 ---
 
@@ -23,9 +23,15 @@ Answer from **your own thread and whatever context/resources you can actually ac
 
 If your thread was only tangentially related to SAT/H(s)H, that is still useful. Do not force yourself into a theory role. Tooling, code, visualization, archive methods, negative results, side calculations, methodological corrections, speculative/quarantined ideas, and exact Nathan corrections are all worth recovering.
 
-**Do not spend time trying to gain access to a workspace or repository just to answer this. Answer directly in this conversation. Nathan/Janus can relay the response into the Common archive.**
+**PREFERRED SUBMISSION:** If you can access the Common workspace, append your response directly to:
 
-If you already have straightforward access to `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md`, you may also post there, but repository access is not required.
+`WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md`
+
+Use the heading:
+
+`### <INSTANCE NAME OR THREAD TITLE> — <approximate active period if known> — 2026-09-12`
+
+**FALLBACK:** If you cannot access or write to the Common workspace, do not spend time troubleshooting repository access. Just answer directly in this conversation. Nathan/Janus will relay the response into the durable Common archive.
 
 ============================================================
 SURVEY
