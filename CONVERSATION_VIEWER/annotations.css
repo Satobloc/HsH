@@ -1,0 +1,173 @@
+.provenance-bar,
+.annotation-admin-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .55rem;
+  padding: .55rem .8rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  font-size: .84rem;
+}
+
+.provenance-bar[hidden] { display: none; }
+
+.provenance-badge,
+.annotation-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid color-mix(in srgb, currentColor 28%, transparent);
+  border-radius: 999px;
+  padding: .16rem .48rem;
+  line-height: 1.1;
+  font-size: .72rem;
+  letter-spacing: .015em;
+}
+
+.provenance-badge.core {
+  font-weight: 800;
+  border-width: 2px;
+}
+
+.annotation-admin-bar {
+  background: color-mix(in srgb, #8f5cff 10%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, #8f5cff 26%, transparent);
+}
+
+.annotation-admin-bar .annotation-save-status { opacity: .72; }
+.annotation-admin-bar .annotation-save-status.error { color: #ff8b8b; opacity: 1; }
+.annotation-admin-bar button { font-size: .78rem; }
+
+.annotation-hidden { display: none !important; }
+
+.annotation-badges {
+  display: inline-flex;
+  gap: .28rem;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.annotation-badge.private {
+  border-style: dashed;
+  opacity: .8;
+}
+
+.annotation-badge.status {
+  font-style: italic;
+  opacity: .85;
+}
+
+.message.provenance-promoted {
+  box-shadow: inset 3px 0 0 var(--speaker, currentColor);
+}
+
+.message.provenance-collapsed:not(.annotation-open):not(.search-hit) .message-body {
+  max-height: 3.6em !important;
+  overflow: hidden !important;
+  position: relative;
+  mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
+}
+
+.message.provenance-collapsed.annotation-open .message-body,
+.message.provenance-collapsed.search-hit .message-body {
+  max-height: none !important;
+  overflow: visible !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}
+
+.provenance-open-button,
+.annotation-selector button {
+  font-size: .7rem;
+  padding: .14rem .38rem;
+  min-height: 0;
+}
+
+.annotation-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  margin-right: .45rem;
+  font-size: .7rem;
+  opacity: .82;
+}
+
+.annotation-selector label {
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
+  cursor: pointer;
+}
+
+.annotation-dialog {
+  width: min(780px, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  border: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+  border-radius: 12px;
+  padding: 0;
+  background: Canvas;
+  color: CanvasText;
+}
+
+.annotation-dialog::backdrop { background: rgb(0 0 0 / .62); }
+
+.annotation-form {
+  display: grid;
+  gap: .8rem;
+  padding: 1rem;
+}
+
+.annotation-dialog-head,
+.annotation-dialog-actions {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.annotation-dialog-head { justify-content: space-between; }
+.annotation-dialog-actions .spacer { flex: 1; }
+.annotation-scope { font-size: .82rem; opacity: .7; }
+
+.annotation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem;
+}
+
+.annotation-form label {
+  display: grid;
+  gap: .28rem;
+  font-size: .78rem;
+}
+
+.annotation-form input[type="text"],
+.annotation-form input[type="number"],
+.annotation-form select,
+.annotation-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.annotation-form fieldset {
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 8px;
+}
+
+.quick-tags {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .35rem .7rem;
+}
+
+.quick-tags label,
+.annotation-form .checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+}
+
+@media (max-width: 760px) {
+  .annotation-grid,
+  .quick-tags { grid-template-columns: 1fr; }
+  .annotation-admin-bar { align-items: stretch; }
+}
