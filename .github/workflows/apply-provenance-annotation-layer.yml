@@ -1,0 +1,35 @@
+name: Apply provenance annotation layer
+
+on:
+  push:
+    paths:
+      - tools/patch_provenance_annotations.py
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply patch
+        run: python tools/patch_provenance_annotations.py
+      - name: Validate JavaScript and Python
+        run: |
+          node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/annotations.js
+          python -m py_compile tools/launch_conversation_viewer.py
+      - name: Commit generated patch
+        run: |
+          if git diff --quiet; then
+            echo "No patch changes required."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CONVERSATION_VIEWER/index.html CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/README.md tools/launch_conversation_viewer.py
+          git commit -m "Integrate provenance annotation controls"
+          git push
