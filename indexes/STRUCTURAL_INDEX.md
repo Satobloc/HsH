@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:44:24+00:00`
-- Tree/content state: `964ea3d3e375e8e58b544f8e6523352910ed4ca815d7732de47cdf4a42454b55`
-- Coverage: 812 files, 60 directories
+- Scanned: `2026-09-12T22:45:14+00:00`
+- Tree/content state: `275a8c99cd9b7fed78944a54fba09fa1de273627b00b346b70ee584a000a39b1`
+- Coverage: 816 files, 60 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 563 |
+| `DEVELOPMENT_FULL_CONVOS` | 567 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -55,7 +55,7 @@
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 143 |
-| `.pdf` | 17 |
+| `.pdf` | 21 |
 | `.png` | 37 |
 | `.py` | 38 |
 | `.rtf` | 2 |
@@ -81,7 +81,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 563 |
+| `source-conversation-corpus` | 567 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -699,6 +699,9 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o2 AUDIT.txt` — 9743 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o3 AUDIT.txt` — 10230 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/o6 AUDIT.txt` — 10766 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_4D_LEGACY_REFERENCE.pdf` — 459067 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_CLEAN-eval.pdf` — 311482 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_FULL_BUILDOUT.pdf` — 488753 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt` — 128313 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf` — 289507 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json` — 461209 bytes — `source-conversation-corpus`
@@ -707,6 +710,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/overlapping_parameters.png` — 176935 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/predictionbook_my_predictions.csv` — 33825 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/refractive_index_modulation.pdf` — 382611 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/simple_synth.scsyndef` — 102 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
