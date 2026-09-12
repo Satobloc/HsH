@@ -1,0 +1,124 @@
+{
+  "title": "Stringing-Along Theory Summary",
+  "create_time": 1731665371.576654,
+  "update_time": 1780358415.952286,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "67371ddb-5988-8002-87fd-420fc68f5fe8",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa1634f-6bba-4507-9907-9a7e1f7ae04b": {
+      "id": "aaa1634f-6bba-4507-9907-9a7e1f7ae04b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa28a09-72b7-4303-9d69-d3de4a80411b"
+      ]
+    },
+    "aaa28a09-72b7-4303-9d69-d3de4a80411b": {
+      "id": "aaa28a09-72b7-4303-9d69-d3de4a80411b",
+      "message": {
+        "id": "aaa28a09-72b7-4303-9d69-d3de4a80411b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731665371.586674,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you condense this without losing the content?\n\nThe \"Stringing-Along toy theory\", thinking of the \"threads\" as kind of like gravity wells, perhaps themselves made of stretched out strands of spacetime itself, like bits of spacetime that \"stick to\" the central point of the big bang, stretching and distending even as the rest of the spherical surface of spacetime expands but maintains connection back to the origin, perhaps tangling if there's a rotational differential between the central point and the expanding surface, and how this might parallel the structure of connection between minds as connected by \"strands\" of language."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8e2e723a3dd613a7-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1634f-6bba-4507-9907-9a7e1f7ae04b",
+      "children": [
+        "96dadf89-0fe7-4e33-9994-e3c49021499f"
+      ]
+    },
+    "96dadf89-0fe7-4e33-9994-e3c49021499f": {
+      "id": "96dadf89-0fe7-4e33-9994-e3c49021499f",
+      "message": {
+        "id": "96dadf89-0fe7-4e33-9994-e3c49021499f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731665372.951503,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The \"Stringing-Along Toy Theory\" compares \"threads\" to gravity wells, made of stretched spacetime strands that anchor to the big bang's central point. These strands stretch and distort as spacetime expands, maintaining a connection to the origin. They might tangle if there's rotational differential between the center and expanding surface. This idea parallels how minds connect through \"strands\" of language."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "b6f98e34-2fa3-45b6-8c2c-f4dcc6c688ab",
+          "request_id": "8e2e723a3dd613a7-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa28a09-72b7-4303-9d69-d3de4a80411b",
+      "children": []
+    }
+  },
+  "current_node": "96dadf89-0fe7-4e33-9994-e3c49021499f",
+  "context_truncation_continuation": null
+}

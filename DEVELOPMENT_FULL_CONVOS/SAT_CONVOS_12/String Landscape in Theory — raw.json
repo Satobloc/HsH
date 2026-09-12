@@ -1,0 +1,2558 @@
+{
+  "title": "String Landscape in Theory",
+  "create_time": 1780561686.224538,
+  "update_time": 1780562685.020031,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "6a21370d-c9dc-83ea-8a20-20aa63f5f6cf",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.sciencedirect.com/science/article/pii/0370269383906391?utm_source=chatgpt.com",
+    "https://www.openai.com",
+    "https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com",
+    "https://docs.google.com/document/d/",
+    "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/",
+    "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com",
+    "https://www.sciencedirect.com/science/article/pii/0370269383906391",
+    "https://www.sciencedirect.com/science/article/pii/037026938390638X",
+    "https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com",
+    "https://en.wikipedia.org/wiki/Axion"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5-5-thinking",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": [],
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "54958ff6-1d17-487f-a044-25c4985bb8bd": {
+      "id": "54958ff6-1d17-487f-a044-25c4985bb8bd",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d0e1c2a9-7e4c-471c-bd12-6c2b4d930599"
+      ]
+    },
+    "d0e1c2a9-7e4c-471c-bd12-6c2b4d930599": {
+      "id": "d0e1c2a9-7e4c-471c-bd12-6c2b4d930599",
+      "message": {
+        "id": "d0e1c2a9-7e4c-471c-bd12-6c2b4d930599",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780561685.801073,
+        "update_time": 1780561707.641302,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tell me about the string landscape "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "e9600c0c-a2de-44ed-a2da-b8985ec7f21b",
+          "message_source": null,
+          "turn_exchange_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "working_turn_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "54958ff6-1d17-487f-a044-25c4985bb8bd",
+      "children": [
+        "99e8fce7-37a0-4991-966f-80180dbdd1fd"
+      ]
+    },
+    "99e8fce7-37a0-4991-966f-80180dbdd1fd": {
+      "id": "99e8fce7-37a0-4991-966f-80180dbdd1fd",
+      "message": {
+        "id": "99e8fce7-37a0-4991-966f-80180dbdd1fd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780561688.308785,
+        "update_time": null,
+        "content": {
+          "content_type": "reasoning_recap",
+          "content": "Thought for a couple of seconds"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "reasoning_ended",
+          "finished_duration_sec": 2,
+          "reasoning_start_time": 1780561686.155405,
+          "reasoning_end_time": 1780561688.275324,
+          "request_id": "e9600c0c-a2de-44ed-a2da-b8985ec7f21b",
+          "message_type": "next",
+          "turn_exchange_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "working_turn_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": false,
+          "parent_id": "9af61398-eb86-4103-950e-80e476bcd0bf",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d0e1c2a9-7e4c-471c-bd12-6c2b4d930599",
+      "children": [
+        "3a291e02-790d-4953-bf14-0c8a5106e05f"
+      ]
+    },
+    "3a291e02-790d-4953-bf14-0c8a5106e05f": {
+      "id": "3a291e02-790d-4953-bf14-0c8a5106e05f",
+      "message": {
+        "id": "3a291e02-790d-4953-bf14-0c8a5106e05f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780561686.132076,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The **string landscape** is the idea that string theory may not predict one unique possible universe, but instead permits a vast “landscape” of possible vacuum states — each with different low-energy physics.\n\nIn plainer terms: string theory has equations, but the equations appear to allow many ways for the extra dimensions, fields, fluxes, branes, and vacuum energies to settle into stable or metastable configurations. Each configuration is like a different “solution” to the theory, and each solution could correspond to a different effective universe.\n\nThe infamous number often thrown around is something like **10⁵⁰⁰ possible vacua**, though that is not a precise census so much as a symbol for “staggeringly many.”\n\nThe core issue is this:\n\nString theory starts in something like 10 or 11 dimensions, depending on formulation. To get something like our observed 4D universe, the extra dimensions need to be compactified — curled up into tiny geometric spaces. But there are many possible compactification geometries, many possible flux choices, many possible brane arrangements, and many possible ways of stabilizing the moduli fields that describe the shape and size of those extra dimensions.\n\nEach choice changes the effective physics we would observe:\n\nthe cosmological constant, particle masses, coupling constants, symmetry groups, number of particle generations, supersymmetry breaking scale, dark energy behavior, inflationary dynamics, and so on.\n\nSo instead of one clean prediction like:\n\n“String theory says the electron mass must be X,”\n\nyou get something more like:\n\n“String theory may contain a huge distribution of possible universes, and ours is one vacuum among many.”\n\nThat is why the landscape is both powerful and maddening.\n\nOn the positive side, it could explain why some constants look bizarrely fine-tuned. The cosmological constant is the famous example. If there are enormous numbers of possible vacua with different vacuum energies, then maybe it is not shocking that at least some universes have a tiny positive cosmological constant compatible with galaxies and observers. This leads directly into anthropic reasoning and multiverse arguments.\n\nOn the negative side, it threatens predictivity. If nearly anything can be found somewhere in the landscape, then string theory risks becoming less like a sharp physical theory and more like a giant catalog of possibilities. The savage version of the critique is: “A theory that predicts everything predicts nothing.”\n\nBut defenders would say that is too glib. The landscape may have structure. Not all vacua are equally allowed. There may be statistical preferences, forbidden regions, consistency constraints, and “swampland” criteria that separate possible-looking effective theories from ones that cannot arise from quantum gravity.\n\nThat gives us the related concept of the **swampland**.\n\nThe **landscape** is the set of low-energy effective theories/string vacua that really can come from string theory.\n\nThe **swampland** is the set of apparently reasonable-looking effective field theories that cannot be completed into a consistent theory of quantum gravity.\n\nSo the landscape says: “There are many possible universes.”\n\nThe swampland program says: “Yes, but not anything goes.”\n\nSome major landscape-related ideas:\n\n**Flux compactification:** background field fluxes wrap around cycles in the compact extra dimensions, helping stabilize their shape and size.\n\n**Moduli stabilization:** the extra-dimensional geometry has adjustable parameters — moduli — and these need to be fixed, otherwise we would observe massless scalar fields or varying constants.\n\n**KKLT construction:** one famous proposal for obtaining metastable de Sitter vacua, relevant because our universe appears to have a small positive vacuum energy.\n\n**Large Volume Scenario:** another major approach to stabilizing moduli and producing hierarchies.\n\n**Anthropic cosmological constant:** Weinberg-style reasoning that a small positive cosmological constant might be selected because larger values prevent galaxy formation.\n\n**Eternal inflation:** often paired with the landscape, because inflation could populate different vacuum regions, making the landscape physically realized as a multiverse rather than merely mathematically available.\n\nThe deepest controversy is about **de Sitter space**. Our universe appears roughly de Sitter-like at late times because of dark energy. But there is an ongoing debate over whether fully controlled, stable or metastable de Sitter vacua actually exist in string theory. If they do, the landscape picture is strengthened. If they do not, that pushes toward alternatives: rolling quintessence, modified cosmology, or a need to rethink how string theory connects to our universe.\n\nFor your SAT instincts, the string landscape is interesting because it represents almost the opposite philosophical pressure from “maximal determinacy.” It is a theory-space where mathematical consistency appears to generate enormous underdetermination. The key question becomes: does deeper structure reduce the apparent freedom, or is the freedom real?\n\nThat’s the live nerve.\n\nThe landscape might be:\n\na genuine multiverse of physically realized vacua,\n\na huge but mostly irrelevant solution-space with only a few dynamically reachable regions,\n\nan artifact of incomplete nonperturbative understanding,\n\nor a sign that string theory, while rich, lacks the kind of uniqueness people originally hoped for.\n\nMy compact take: the string landscape is not just “many universes.” It is the problem of whether a candidate theory of everything gives us a unique world, a statistical ensemble of possible worlds, or a mathematically overgenerous space that still lacks the right selection principle."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "search_result_groups": [],
+          "request_id": "e9600c0c-a2de-44ed-a2da-b8985ec7f21b",
+          "message_type": "next",
+          "turn_exchange_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "working_turn_id": "50f8b1f9-64cd-43bd-bcb0-2adf061fa0ce",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": true,
+          "parent_id": "99e8fce7-37a0-4991-966f-80180dbdd1fd",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "99e8fce7-37a0-4991-966f-80180dbdd1fd",
+      "children": [
+        "3df7ddc9-a7ae-481c-af29-ff9361e0d1d5"
+      ]
+    },
+    "3df7ddc9-a7ae-481c-af29-ff9361e0d1d5": {
+      "id": "3df7ddc9-a7ae-481c-af29-ff9361e0d1d5",
+      "message": {
+        "id": "3df7ddc9-a7ae-481c-af29-ff9361e0d1d5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562581.0845199,
+        "update_time": 1780562600.841845,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tell me about the axion misalignment angle\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "fbc0888e-4c72-43ab-bdf3-c69425ea483e",
+          "message_source": null,
+          "turn_exchange_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "working_turn_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3a291e02-790d-4953-bf14-0c8a5106e05f",
+      "children": [
+        "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3"
+      ]
+    },
+    "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3": {
+      "id": "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3",
+      "message": {
+        "id": "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562584.590882,
+        "update_time": null,
+        "content": {
+          "content_type": "thoughts",
+          "thoughts": [],
+          "source_analysis_msg_id": "243894b5-88d2-4dc7-910d-6c4afbf4b3cc"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "is_reasoning",
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "fbc0888e-4c72-43ab-bdf3-c69425ea483e",
+          "message_type": "next",
+          "turn_exchange_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "working_turn_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "243894b5-88d2-4dc7-910d-6c4afbf4b3cc",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562584.1933818,
+          "skip_reasoning_title": "Skip",
+          "can_save": false,
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3df7ddc9-a7ae-481c-af29-ff9361e0d1d5",
+      "children": [
+        "e3a5c416-593d-48a0-9da0-544ae168fdb5"
+      ]
+    },
+    "e3a5c416-593d-48a0-9da0-544ae168fdb5": {
+      "id": "e3a5c416-593d-48a0-9da0-544ae168fdb5",
+      "message": {
+        "id": "e3a5c416-593d-48a0-9da0-544ae168fdb5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562584.820985,
+        "update_time": null,
+        "content": {
+          "content_type": "reasoning_recap",
+          "content": "Thought for a second"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "reasoning_ended",
+          "finished_duration_sec": 0,
+          "reasoning_start_time": 1780562584.1933818,
+          "reasoning_end_time": 1780562584.790234,
+          "request_id": "fbc0888e-4c72-43ab-bdf3-c69425ea483e",
+          "message_type": "next",
+          "turn_exchange_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "working_turn_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": false,
+          "parent_id": "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2872b68b-3fbe-4ef4-830f-bb8b78ff3de3",
+      "children": [
+        "9e7702da-b549-477a-b7a1-b3ebc1f0f22b"
+      ]
+    },
+    "9e7702da-b549-477a-b7a1-b3ebc1f0f22b": {
+      "id": "9e7702da-b549-477a-b7a1-b3ebc1f0f22b",
+      "message": {
+        "id": "9e7702da-b549-477a-b7a1-b3ebc1f0f22b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562581.441124,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The **axion misalignment angle** is basically the initial “tilt” of the axion field away from the minimum of its potential in the early universe.\n\nIn axion physics, especially the QCD axion, the axion field is usually written as an angular variable:\n\n\\[\n\\theta \\equiv \\frac{a}{f_a}\n\\]\n\nwhere \\(a\\) is the axion field and \\(f_a\\) is the axion decay constant. Since the axion is periodic, \\(\\theta\\) is an angle, typically taken in the range:\n\n\\[\n-\\pi \\leq \\theta \\leq \\pi\n\\]\n\nThe **misalignment angle**, often written \\(\\theta_i\\), is the initial value of this angle in the early universe.\n\nThe idea goes like this.\n\nAt very early times, the axion field is effectively light and its potential is nearly flat. So the field can be “stuck” at some initial value, like a marble sitting somewhere on a very shallow circular hill. Later, when the universe cools and QCD effects become important, the axion potential turns on. The axion now “realizes” it is not sitting at the bottom of its potential.\n\nSo it begins to roll and oscillate around the minimum.\n\nThose oscillations behave like cold dark matter.\n\nThat is the **misalignment mechanism**.\n\nA simplified potential is:\n\n\\[\nV(a) \\approx m_a^2 f_a^2 \\left(1 - \\cos\\theta\\right)\n\\]\n\nwith the minimum at:\n\n\\[\n\\theta = 0\n\\]\n\nSo if the early universe starts with:\n\n\\[\n\\theta_i \\neq 0\n\\]\n\nthen the axion field has stored potential energy. When it starts oscillating, that energy becomes a cosmic population of axion dark matter.\n\nFor small angles, the potential is approximately quadratic:\n\n\\[\nV(a) \\approx \\frac{1}{2}m_a^2 f_a^2 \\theta^2\n\\]\n\nSo the initial energy density scales roughly like:\n\n\\[\n\\rho_a \\propto f_a^2 m_a^2 \\theta_i^2\n\\]\n\nBut the full cosmological abundance has more dependencies because the axion mass evolves with temperature and oscillations begin when roughly:\n\n\\[\n3H(T_{\\rm osc}) \\sim m_a(T_{\\rm osc})\n\\]\n\nThe important intuition is:\n\nlarger \\(\\theta_i\\) means more stored energy, so more axion dark matter.\n\nsmaller \\(\\theta_i\\) means less stored energy, so fewer axions.\n\nnear \\(\\theta_i \\sim \\pi\\), the field starts near the top of the potential, and anharmonic effects become important; the abundance can be enhanced because the field lingers before rolling down.\n\nThe misalignment angle matters a lot because it affects whether axions overclose the universe.\n\nFor the QCD axion, there is a relation between axion mass and decay constant:\n\n\\[\nm_a \\sim \\frac{\\Lambda_{\\rm QCD}^2}{f_a}\n\\]\n\nMore precisely, larger \\(f_a\\) means lighter axions. But larger \\(f_a\\) also generally means the initial field displacement \\(a_i = f_a\\theta_i\\) can be larger. So for a given \\(\\theta_i\\), very large \\(f_a\\) can produce too much dark matter.\n\nThat leads to a rough rule:\n\nIf \\(\\theta_i\\) is “generic,” meaning order unity, then the QCD axion dark matter abundance tends to point toward a particular broad range of \\(f_a\\), often around the classic invisible axion window. But if \\(\\theta_i\\) is unusually small, much larger \\(f_a\\) values can be allowed because the field started closer to the minimum.\n\nThis is where some anthropic/string-landscape thinking enters.\n\nIn string theory, axion-like fields are common, and \\(f_a\\) can be very large. If the initial misalignment angle is random across different patches of the universe or different vacua, then maybe our universe has a relatively small \\(\\theta_i\\) because otherwise too much dark matter would form. That is one of the classic anthropic axion arguments.\n\nThere are two major cosmological cases.\n\nIf Peccei–Quinn symmetry breaks **before inflation**, then our observable universe gets inflated from one patch with one approximately uniform value of \\(\\theta_i\\). In that case, the misalignment angle is a free initial condition for our whole visible universe. But inflationary fluctuations in the axion field can produce isocurvature perturbations, which are strongly constrained.\n\nIf Peccei–Quinn symmetry breaks **after inflation**, then different regions have different random \\(\\theta_i\\) values. In that case, you average over angles, often with something like:\n\n\\[\n\\langle \\theta_i^2 \\rangle \\sim \\frac{\\pi^2}{3}\n\\]\n\nBut then axion strings and domain walls can also contribute to the final axion abundance.\n\nSo the phrase **axion misalignment angle** is doing a lot of work. It is not merely a parameter in a particle model. It is a cosmological initial condition, a dark matter abundance dial, and sometimes a bridge into inflation, isocurvature constraints, topological defects, and anthropic selection.\n\nThe very compressed version:\n\n\\[\n\\theta_i = \\frac{a_i}{f_a}\n\\]\n\nIt measures how far the early axion field starts from the CP-conserving minimum. That initial offset stores energy. When the axion potential turns on, the field oscillates, and those oscillations behave like cold dark matter."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "search_result_groups": [],
+          "request_id": "fbc0888e-4c72-43ab-bdf3-c69425ea483e",
+          "message_type": "next",
+          "turn_exchange_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "working_turn_id": "9bc519b8-9f08-4ba1-8b3b-aa8d6ba15e1c",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": true,
+          "parent_id": "e3a5c416-593d-48a0-9da0-544ae168fdb5",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "e3a5c416-593d-48a0-9da0-544ae168fdb5",
+      "children": [
+        "2b88084d-203e-4f68-8d9d-2d70a52c66c5"
+      ]
+    },
+    "2b88084d-203e-4f68-8d9d-2d70a52c66c5": {
+      "id": "2b88084d-203e-4f68-8d9d-2d70a52c66c5",
+      "message": {
+        "id": "2b88084d-203e-4f68-8d9d-2d70a52c66c5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562637.416511,
+        "update_time": 1780562683.995739,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            " Tell me about the origins of the concept"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_source": null,
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9e7702da-b549-477a-b7a1-b3ebc1f0f22b",
+      "children": [
+        "55ded766-f1ca-4fb3-a965-4a5fdff85ca5"
+      ]
+    },
+    "55ded766-f1ca-4fb3-a965-4a5fdff85ca5": {
+      "id": "55ded766-f1ca-4fb3-a965-4a5fdff85ca5",
+      "message": {
+        "id": "55ded766-f1ca-4fb3-a965-4a5fdff85ca5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562652.268521,
+        "update_time": null,
+        "content": {
+          "content_type": "thoughts",
+          "thoughts": [
+            {
+              "summary": "Looking into axion misalignment angle",
+              "content": "I need to find out more about the origins of the axion misalignment angle. It's a rather niche and historical topic, so I'm not sure where to start. It might need a bit of browsing for historical context, but I might struggle with reliable sources or citations.",
+              "chunks": [
+                "I need to find out more about the origins of the axion misalignment angle.",
+                "It's a rather niche and historical topic, so I'm not sure where to start.",
+                "It might need a bit of browsing for historical context, but I might struggle with reliable sources or citations."
+              ],
+              "finished": true
+            }
+          ],
+          "source_analysis_msg_id": "4b824619-92d5-45b5-a537-c1d3cf77eac3"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "is_reasoning",
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "4b824619-92d5-45b5-a537-c1d3cf77eac3",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "skip_reasoning_title": "Skip",
+          "can_save": false,
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b88084d-203e-4f68-8d9d-2d70a52c66c5",
+      "children": [
+        "50334863-c0f1-4e66-b1f6-21a99b6a1b6f"
+      ]
+    },
+    "50334863-c0f1-4e66-b1f6-21a99b6a1b6f": {
+      "id": "50334863-c0f1-4e66-b1f6-21a99b6a1b6f",
+      "message": {
+        "id": "50334863-c0f1-4e66-b1f6-21a99b6a1b6f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562637.795319,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"search_query\":[{\"q\":\"original axion misalignment mechanism Preskill Wise Wilczek Abbott Sikivie Dine Fischler 1983\"},{\"q\":\"axion cosmology misalignment mechanism history Peccei Quinn Weinberg Wilczek\"},{\"q\":\"Sikivie axion cosmology lectures misalignment angle history\"}],\"response_length\":\"short\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200012
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "35f13367-74ca-4184-b455-be2fee07003a",
+          "reasoning_status": "is_reasoning",
+          "search_queries": [
+            {
+              "type": "search",
+              "q": "original axion misalignment mechanism Preskill Wise Wilczek Abbott Sikivie Dine Fischler 1983"
+            },
+            {
+              "type": "search",
+              "q": "axion cosmology misalignment mechanism history Peccei Quinn Weinberg Wilczek"
+            },
+            {
+              "type": "search",
+              "q": "Sikivie axion cosmology lectures misalignment angle history"
+            }
+          ],
+          "search_display_string": "Searching the web",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Browsing historical sources on axion misalignment angle",
+          "reasoning_titles": [
+            "Browsing historical sources on axion misalignment angle"
+          ],
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web.run",
+        "channel": null
+      },
+      "parent": "55ded766-f1ca-4fb3-a965-4a5fdff85ca5",
+      "children": [
+        "399fc61f-3fb6-469b-8065-59b991184a86"
+      ]
+    },
+    "399fc61f-3fb6-469b-8065-59b991184a86": {
+      "id": "399fc61f-3fb6-469b-8065-59b991184a86",
+      "message": {
+        "id": "399fc61f-3fb6-469b-8065-59b991184a86",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "real_author": "tool:web.run"
+          }
+        },
+        "create_time": 1780562654.434905,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.merriam-webster.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.merriam-webster.com/dictionary/original",
+                  "title": "ORIGINAL Definition & Meaning",
+                  "snippet": "The meaning of ORIGINAL is of, relating to, or constituting an origin or beginning : initial. How to use original in a sentence.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "www.merriam-webster.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/html/2604.02012v1",
+                  "title": "The Axion Helical Misalignment Mechanism",
+                  "snippet": "Apr 2, 2026 — Their cosmological evolution differs significantly depending on the timing of PQ symmetry breaking relative to inflation, yielding distinct ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/astro-ph/0610440",
+                  "title": "[astro-ph/0610440] Axion Cosmology",
+                  "snippet": "by P Sikivie · 2006 · Cited by 742 — Outline: 1. Thermal axions 2. Axion field evolution 3. The domain wall problem 4. Cold axions 5. Axion miniclusters 6. Axion isocurvature perturbations",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "journals.aps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://journals.aps.org/prd/abstract/10.1103/k3hh-gszm",
+                  "title": "Noninflationary axion and ALP misalignment mechanism",
+                  "snippet": "by R Brandenberger · 2025 · Cited by 7 — Based on considerations of quantum gravity, global symmetries which lead to axions as pseudo- Nambu-Goldstone bosons after low scale symmetry breaking ...",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "journals.aps.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "inspirehep.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/1765040",
+                  "title": "Dynamical axion misalignment with small instantons",
+                  "snippet": "Nov 13, 2019 — We present a new mechanism to relax the initial misalignment angle of the QCD axion and raise the cosmological bound on the axion decay constant.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/534165",
+                  "title": "The Weinberg-Wilczek axion revisited",
+                  "snippet": "by Z Berezhiani · 2001 · Cited by 274 — The experimental and astrophysical limits on such an axion is discussed. An interesting parameter window is found where ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ui.adsabs.harvard.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/2008LNP...741...19S",
+                  "title": "Axion Cosmology - ADS",
+                  "snippet": "by P Sikivie · 2008 · Cited by 742 — The cosmological properties of axions are reviewed. We discuss the axions produced by thermal processes in the early universe, the evolution of the average ...",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "ui.adsabs.harvard.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Axion",
+                  "title": "Axion",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bib-pubdb1.desy.de",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://bib-pubdb1.desy.de/record/297009/files/sikivie_pierre.pdf",
+                  "title": "Axion Theory",
+                  "snippet": "by P Sikivie · Cited by 1 — α(t1)2. (5). 2. PIERRE SIKIVIE. 14. PATRAS08. Page 3. where α(t1) ≡ a(t1)/fa is the initial misalignment angle. This contribution is called of 'vacuum.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1461650938,
+                  "attribution": "bib-pubdb1.desy.de"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://bib-pubdb1.desy.de/record/436775/files/2003.01100.pdf?subformat=pdfa",
+                  "title": "The landscape of QCD axion models - PUBDB",
+                  "snippet": "by L Di Luzio · 2020 · Cited by 1141 — 2.4.2 Peccei Quinn mechanism . ... combination of their phases in a generalization of the Weinberg-Wilczek mechanism.Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1584443159,
+                  "attribution": "bib-pubdb1.desy.de"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.wordwebonline.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wordwebonline.com/en/ORIGINAL",
+                  "title": "original, originals- WordWeb dictionary definition",
+                  "snippet": "Adjective: original u'ri-j(u-)n(u-)l. Preceding all others in time or being as first made or performed \"restored the house to its original condition\"; ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "www.wordwebonline.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ncatlab.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ncatlab.org/nlab/show/axion",
+                  "title": "axion in nLab",
+                  "snippet": "Oct 6, 2025 — The axion is a hypothetical type of field/fundamental particle originally hypothesized (Weinberg 77, Wilczek 78) as a solution to the strong CP problem.Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "ncatlab.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "link.aps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://link.aps.org/doi/10.1103/PhysRevD.108.083536",
+                  "title": "Constraining axion and ALP dark matter from misalignment ...",
+                  "snippet": "by Y Xu · 2023 · Cited by 18 — We explore the phenomenology of QCD axion and axionlike particle (ALP) dark matter production via misalignment during inflationary reheating.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "link.aps.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "indico-tdli.sjtu.edu.cn",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indico-tdli.sjtu.edu.cn/event/1309/contributions/5569/attachments/2387/3639/TDLeeInstitute-2022.pdf",
+                  "title": "The Resonant Cavity Search for Axion Dark Matter",
+                  "snippet": "▷ Peccei–Quinn mechanism: strong CP problem. ▷ Axion quality problem. The gauged discrete ZN PQ symmetry with N ≥ 10 inspired from the anomalous U(1)A ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1668709532,
+                  "attribution": "indico-tdli.sjtu.edu.cn"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "indico.cern.ch",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indico.cern.ch/event/1524531/sessions/595886/attachments/3118713/5530040/Axion-Cosmology-Servant-Santa-Cruz-school-2025.pdf",
+                  "title": "Axion cosmology .",
+                  "snippet": "Aug 15, 2025 — Kinetic misalignment. Add kinetic energy to delay onset of oscillations. > Begins to oscillate at ˙φ ⇠ 2Λ2 b.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "indico.cern.ch"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://indico.cern.ch/event/464174/contributions/2135746/attachments/1282519/1906060/01_saikawa.pdf",
+                  "title": "Axion dark matter in the post-inflationary Peccei-Quinn ...",
+                  "snippet": "May 31, 2016 — QCD axion as dark matter candidate. Weinberg (1978), Wilczek (1978). “axion decay constant”. 3/14. Peccei and Quinn (1977) at a scale. Page 4 ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": null,
+                  "attribution": "indico.cern.ch"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dictionary.cambridge.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dictionary.cambridge.org/us/dictionary/english/original",
+                  "title": "ORIGINAL | definition in the Cambridge English Dictionary",
+                  "snippet": "in the earliest form of something, or in the form that existed at the beginning: The original plans have been changed. Original can also mean different from ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "dictionary.cambridge.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.susanjfowler.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.susanjfowler.com/blog/2016/9/17/from-the-fledgling-physicist-archives-an-introduction-to-axions",
+                  "title": "From the Fledgling Physicist Archives: An Introduction to Axions",
+                  "snippet": "Sep 17, 2016 — Axions were proposed by Peccei and Quinn in 1977 to solve the Strong CP Problem, which, in a nutshell, is that CP violation doesn't occur in QCD but there is ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1474181625,
+                  "attribution": "www.susanjfowler.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=6bLesz0zvlw",
+                  "title": "Axions: The Past - Lecture 1",
+                  "snippet": "Axions: The Past - Lecture 1 Speaker: S. Rajendran (UC Berkeley) Summer School on Particle Physics | (smr 2727) 2015_06_24-14_00-smr2727.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.youtube.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dictionary.findlaw.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dictionary.findlaw.com/definition/original.html",
+                  "title": "Original - FindLaw Dictionary of Legal Terms",
+                  "snippet": "2 : a work composed firsthand as the product of an author's creativity NOTE: A work must be an original in order to obtain a copyright. original adj.Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1359408854,
+                  "attribution": "dictionary.findlaw.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "link.springer.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://link.springer.com/article/10.1007/JHEP02%282025%29078",
+                  "title": "Dynamical axion misalignment from the Witten effect",
+                  "snippet": "by A Banerjee · 2025 · Cited by 4 — We propose a relaxation mechanism for the initial misalignment angle of the pre-inflationary QCD axion with a large decay constant.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "link.springer.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.gymglish.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.gymglish.com/en/gymglish/english-translation/original",
+                  "title": "Original - Definition & Meaning",
+                  "snippet": "Examples. \"His original fragrances are one of the reasons that Delavigne perfumes remain popular year after year.\" \"Ooh, look at this lovely original ...Read more",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": null,
+                  "attribution": "www.gymglish.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scholar.google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://scholar.google.com/citations?hl=en&user=naSXA1EAAAAJ",
+                  "title": "Pierre Sikivie",
+                  "snippet": "Axion cosmology. P Sikivie. Axions: Theory, Cosmology, and Experimental Searches, 19-50, 2008. 738, 2008 ; Experimental tests of the\" invisible\" axion. P Sikivie.",
+                  "ref_id": {
+                    "turn_index": 678251,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": null,
+                  "attribution": "scholar.google.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6a213ade7684832ab2f7f23b944ef49d",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "d33ec4f4-cdd2-4c04-84d5-23920e8b4691",
+          "reasoning_status": "is_reasoning",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Browsing historical sources on axion misalignment angle",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "50334863-c0f1-4e66-b1f6-21a99b6a1b6f",
+      "children": [
+        "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1"
+      ]
+    },
+    "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1": {
+      "id": "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1",
+      "message": {
+        "id": "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562666.271668,
+        "update_time": null,
+        "content": {
+          "content_type": "thoughts",
+          "thoughts": [
+            {
+              "summary": "Looking into axions and vacuum misalignment",
+              "content": "I need to mention key papers and events: the 1977 PQ paper, 1978 Weinberg/Wilczek work, invisible axions from the late '70s and early '80s, and the 1983 Preskill, Wise, Wilczek paper. Abbott Sikivie and Dine Fischler independently showed relics from vacuum misalignment. I'll look for targeted citations on this.",
+              "chunks": [
+                "I need to mention key papers and events: the 1977 PQ paper, 1978 Weinberg/Wilczek work, invisible axions from the late '70s and early '80s, and the 1983 Preskill, Wise, Wilczek paper.",
+                "Abbott Sikivie and Dine Fischler independently showed relics from vacuum misalignment.",
+                "I'll look for targeted citations on this."
+              ],
+              "finished": true
+            }
+          ],
+          "source_analysis_msg_id": "c2d41287-3465-48b9-bdfa-1f155ee74a89"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "is_reasoning",
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "a0764283-8e8a-4f57-a2f1-8d72641ed2f8",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "skip_reasoning_title": "Skip",
+          "can_save": false,
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "399fc61f-3fb6-469b-8065-59b991184a86",
+      "children": [
+        "202f4bcc-62fe-4099-9e68-d847c5ae44b4"
+      ]
+    },
+    "202f4bcc-62fe-4099-9e68-d847c5ae44b4": {
+      "id": "202f4bcc-62fe-4099-9e68-d847c5ae44b4",
+      "message": {
+        "id": "202f4bcc-62fe-4099-9e68-d847c5ae44b4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562656.118597,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"search_query\":[{\"q\":\"Preskill Wise Wilczek cosmology of invisible axion 1983 misalignment\"},{\"q\":\"Abbott Sikivie cosmological bound on invisible axion 1983\"},{\"q\":\"Dine Fischler not so harmless axion 1983\"}],\"response_length\":\"medium\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200012
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1",
+          "reasoning_status": "is_reasoning",
+          "search_queries": [
+            {
+              "type": "search",
+              "q": "Preskill Wise Wilczek cosmology of invisible axion 1983 misalignment"
+            },
+            {
+              "type": "search",
+              "q": "Abbott Sikivie cosmological bound on invisible axion 1983"
+            },
+            {
+              "type": "search",
+              "q": "Dine Fischler not so harmless axion 1983"
+            }
+          ],
+          "search_display_string": "Searching the web",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Searching for 1980s invisible axion references and citations",
+          "reasoning_titles": [
+            "Searching for 1980s invisible axion references and citations"
+          ],
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web.run",
+        "channel": null
+      },
+      "parent": "a0cd37ee-53eb-475e-afeb-ce0bf08e82e1",
+      "children": [
+        "887293d0-8862-4463-b92b-3fe02dc84e40"
+      ]
+    },
+    "887293d0-8862-4463-b92b-3fe02dc84e40": {
+      "id": "887293d0-8862-4463-b92b-3fe02dc84e40",
+      "message": {
+        "id": "887293d0-8862-4463-b92b-3fe02dc84e40",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "real_author": "tool:web.run"
+          }
+        },
+        "create_time": 1780562665.7682462,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "inspirehep.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/179499",
+                  "title": "Cosmology of the Invisible Axion",
+                  "snippet": "We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain wall problem.",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/12562",
+                  "title": "A Cosmological Bound on the Invisible Axion",
+                  "snippet": "A Cosmological Bound on the Invisible Axion. L.F. Abbott(. Brandeis U. ) ,. P. Sikivie(. Florida U. ) Sep, 1982. 4 pages. Part of Particle physics and cosmology ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/179461",
+                  "title": "The Not So Harmless Axion",
+                  "snippet": "Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/729040",
+                  "title": "Axion Cosmology",
+                  "snippet": "by P Sikivie · 2008 · Cited by 742 — 10.1016/0370-2693(83)90637-8. edit. A Cosmological Bound on the Invisible Axion · L.F. Abbott(. Brandeis U. ) ,. P. Sikivie(. Florida U. ) Phys.Lett.B 120 (1983) ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/13613",
+                  "title": "Saving the Invisible Axion",
+                  "snippet": "The Not So Harmless Axion · Michael Dine(. Princeton, Inst. Advanced Study. ) ,. Willy Fischler(. Pennsylvania U. ) Phys.Lett.B 120 (1983) 137-141. •. DOI:.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.sciencedirect.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/037026938390638X",
+                  "title": "A cosmological bound on the invisible axion",
+                  "snippet": "by LF Abbott · 1983 · Cited by 4125 — The production of axions in the early universe is studied. Axion models which break the U(1)PQ symmetry above 1012 GeV are found to produce an unacceptably ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "www.sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/pii/0370269383906391",
+                  "title": "The not-so-harmless axion",
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/abs/pii/0370269383906391",
+                  "title": "The not-so-harmless axion",
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "www.sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/abs/pii/037026938390638X",
+                  "title": "A cosmological bound on the invisible axion",
+                  "snippet": "by LF Abbott · 1983 · Cited by 4124 — 6 January 1983, Pages 133-136. Physics Letters B. A cosmological bound on the invisible axion. Author links open overlay panel L.F. Abbott 1 , P. Sikivie 2.",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "www.sciencedirect.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ui.adsabs.harvard.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..127P/abstract",
+                  "title": "Cosmology of the invisible axion - ADS",
+                  "snippet": "by J Preskill · 1983 · Cited by 4627 — Abstract. We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain wall problem.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "ui.adsabs.harvard.edu"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..137D/abstract",
+                  "title": "The not-so-harmless axion - ADS",
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — The not-so-harmless axion. Dine, Michael; ;; Fischler, Willy. Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the ...Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 410486400,
+                  "attribution": "ui.adsabs.harvard.edu"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..133A/abstract",
+                  "title": "A cosmological bound on the invisible axion - ADS",
+                  "snippet": "by LF Abbott · 1983 · Cited by 4124 — A cosmological bound on the invisible axion. Abbott, L. F.; ;; Sikivie, P. Abstract. The production of axions in the early universe is studied. Axion models ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "ui.adsabs.harvard.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "asu.elsevierpure.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/",
+                  "title": "Cosmology of the invisible axion",
+                  "snippet": "by J Preskill · 1983 · Cited by 4628 — Abstract. We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "asu.elsevierpure.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.columbia.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.columbia.edu/cu/neurotheory/Larry/AbbottPL83a.pdf",
+                  "title": "a cosmological bound on the invisible axion lf abbott 1",
+                  "snippet": "by LF ABBOTT · 1983 · Cited by 4124 — In this letter, we derive a new constraint which standard cosmology imposes on axion models. We consider the production of axions in the early ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "www.columbia.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "journals.aps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://journals.aps.org/prd/abstract/10.1103/k3hh-gszm",
+                  "title": "Noninflationary axion and ALP misalignment mechanism",
+                  "snippet": "by R Brandenberger · 2025 · Cited by 7 — Preskill, M. B. Wise, and F. Wilczek, Cosmology of the invisible axion, Phys. Lett. B 120B, 127 (1983).Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "journals.aps.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.scribd.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scribd.com/document/420695785/The-not-so-harmless-axion",
+                  "title": "The Not-So-Harmless Axion | PDF",
+                  "snippet": "Volume 120B, number 1,2,3 PHYSICS LETTERS 6 January 1983. THE NOT-SO-HARMLESS AXION. Michael DINE The Institute for Advanced Study, Princeton, NJ 08540, USARead more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "www.scribd.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/html/2604.02012v1",
+                  "title": "The Axion Helical Misalignment Mechanism",
+                  "snippet": "Apr 2, 2026 — (1983) John Preskill, Mark B. Wise, and Frank Wilczek, “Cosmology of the invisible axion,” Physics Letters B 120, 127–132 (1983).Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scholar.google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://scholar.google.com/citations?hl=en&user=naSXA1EAAAAJ",
+                  "title": "Pierre Sikivie",
+                  "snippet": "A cosmological bound on the invisible axion. LF Abbott, P Sikivie. Physics Letters B 120 (1-3), 133-136, 1983. 4107, 1983 ; Experimental tests of the\" invisible\" ...",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "scholar.google.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://scholar.google.com/citations?hl=en&user=fAjPZzkAAAAJ",
+                  "title": "Willy Fischler",
+                  "snippet": "The not-so-harmless axion. M Dine, W Fischler. Physics Letters B 120 (1-3), 137-141, 1983. 3952, 1983 ; M theory as a matrix model: A conjecture. T Banks, W ...Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "scholar.google.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.scirp.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scirp.org/reference/referencespapers?referenceid=3551846",
+                  "title": "Dine, M. and Fischler, W. (1983) The Not-So-Harmless ...",
+                  "snippet": "We propose that both DM and DE can be explained by the existence of long-lived topological gravitational vortices that were produced in the quark-gluon epoch of ...Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "www.scirp.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.scirp.org/reference/referencespapers?referenceid=3917432",
+                  "title": "Preskill, J., Wise, M.B. and Wilczek, F. (1983) Cosmology of ...",
+                  "snippet": "Jan 24, 2025 — Preskill, J., Wise, M.B. and Wilczek, F. (1983) Cosmology of the Invisible Axion. Physics Letters B, 120, 127-132.",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.scirp.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scispace.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://scispace.com/pdf/cosmology-of-the-invisible-axion-34g7l56uw1.pdf",
+                  "title": "Cosmology of the invisible axion",
+                  "snippet": "We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated.Read more",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "scispace.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.researchgate.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/222447988_Cosmological_bound_on_the_invisible_axion",
+                  "title": "(PDF) Cosmological bound on the invisible axion",
+                  "snippet": "Cosmological bound on the invisible axion. January 1983; Physics Letters B 120 ... Axions, Domain Walls, and the Early Universe. Article. Apr 1982. P. Sikivie.",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": 410659200,
+                  "attribution": "www.researchgate.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Direct_detection_of_dark_matter",
+                  "title": "Direct detection of dark matter",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 29
+                  },
+                  "pub_date": null,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "de.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://de.wikipedia.org/wiki/Willy_Fischler",
+                  "title": "Willy Fischler",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 428732,
+                    "ref_type": "search",
+                    "ref_index": 30
+                  },
+                  "pub_date": null,
+                  "attribution": "de.wikipedia.org"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6a213ade7684832ab2f7f23b944ef49d",
+          "hide_inline_actions": true,
+          "disable_turn_actions": true,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "parent_id": "df77035b-f1ea-4780-a1ba-6dce1a6e5341",
+          "reasoning_status": "is_reasoning",
+          "tool_icons": [
+            "default"
+          ],
+          "reasoning_title": "Searching for 1980s invisible axion references and citations",
+          "classifier_response": "default",
+          "reasoning_start_time": 1780562652.1510148,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "202f4bcc-62fe-4099-9e68-d847c5ae44b4",
+      "children": [
+        "ed532292-753a-4d34-a874-e2498f1694ff"
+      ]
+    },
+    "ed532292-753a-4d34-a874-e2498f1694ff": {
+      "id": "ed532292-753a-4d34-a874-e2498f1694ff",
+      "message": {
+        "id": "ed532292-753a-4d34-a874-e2498f1694ff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1780562670.993604,
+        "update_time": null,
+        "content": {
+          "content_type": "reasoning_recap",
+          "content": "Thought for 18s"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "reasoning_status": "reasoning_ended",
+          "finished_duration_sec": 18,
+          "reasoning_start_time": 1780562652.1510148,
+          "reasoning_end_time": 1780562670.9850056,
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": false,
+          "parent_id": "cf2294cf-3c12-4cdb-8ba3-f3246bffd311",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "887293d0-8862-4463-b92b-3fe02dc84e40",
+      "children": [
+        "42899b23-1fe3-418e-a865-3411a95d008a"
+      ]
+    },
+    "42899b23-1fe3-418e-a865-3411a95d008a": {
+      "id": "42899b23-1fe3-418e-a865-3411a95d008a",
+      "message": {
+        "id": "42899b23-1fe3-418e-a865-3411a95d008a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1780562666.487535,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The concept grew out of a very specific chain of problems, almost like physics discovering an accidental dark-matter machine while trying to solve something else.\n\nThe starting point was the **strong CP problem** in QCD. Quantum chromodynamics allows a CP-violating angle, usually called \\(\\theta_{\\rm QCD}\\), but experiments say the effective value has to be extremely tiny. Peccei and Quinn proposed in 1977 that this angle should not be a fixed number at all, but a dynamical quantity relaxed by a new symmetry. Weinberg and Wilczek then showed in 1978 that this mechanism implied a new light particle: the axion. citeturn678251search7\n\nSo originally, the “angle” was not a dark-matter initial condition. It was the unwanted QCD vacuum angle:\n\n\\[\n\\theta_{\\rm QCD}\n\\]\n\nThe Peccei–Quinn move was basically: promote that angle into a field. The axion field \\(a(x)\\) appears through something like\n\n\\[\n\\theta_{\\rm eff} = \\theta_{\\rm QCD} + \\frac{a(x)}{f_a}\n\\]\n\nand QCD dynamics generate a potential whose minimum is CP-conserving. So the axion rolls toward the value that cancels the strong CP problem. That is the conceptual ancestor of the misalignment angle.\n\nThe **misalignment** idea comes in when cosmologists asked: what was the axion field doing in the early universe?\n\nAt high temperature, before QCD effects fully turn on, the axion potential is very shallow or essentially absent. So the axion field can sit at some arbitrary initial value. When the universe cools to around the QCD scale, instanton/nonperturbative QCD effects generate the axion potential, and suddenly the field discovers that it is not at the minimum. The offset is the **initial misalignment angle**:\n\n\\[\n\\theta_i = \\frac{a_i}{f_a}\n\\]\n\nIt then begins coherent oscillations, and those oscillations behave like cold dark matter.\n\nThe key papers were all clustered around 1982–1983. Preskill, Wise, and Wilczek’s **“Cosmology of the Invisible Axion”** identified that the classical axion field’s oscillation energy does not dissipate efficiently and can exceed the closure density unless \\(f_a\\) is below roughly \\(10^{12}\\,\\mathrm{GeV}\\); they also noted that if the bound is saturated, axions could make up the dark matter. citeturn428732search6 Abbott and Sikivie independently derived a cosmological bound, finding excessive axion energy density for PQ breaking above about \\(10^{12}\\,\\mathrm{GeV}\\). citeturn428732search1 Dine and Fischler likewise showed that demanding axions not dominate the universe gives an upper bound on the axion decay constant of at most about \\(10^{12}\\,\\mathrm{GeV}\\). citeturn428732search2\n\nSo the historical irony is lovely: axions were invented to solve **why QCD does not visibly violate CP**, but their early-universe field dynamics immediately made them a **cold dark matter candidate**.\n\nThe phrase “misalignment angle” itself is just the geometric language for that initial displacement. The axion is periodic, so its field value is naturally angular. If the minimum is at \\(\\theta = 0\\), then the early field might be sitting at \\(\\theta_i = 0.3\\), \\(1\\), \\(2\\), or nearly \\(\\pi\\). That initial angular offset determines how much energy gets stored in later oscillations.\n\nIn slightly more philosophical terms: the original strong-CP problem asked, “Why is this angle so close to zero?” The misalignment mechanism says, “Before the universe cooled, the axion angle did not have to be near zero; it could begin anywhere, and cosmology remembers that initial condition as dark matter.”\n\nThat’s the origin of the concept: not a free dark-matter knob invented by hand, but the cosmological afterlife of the QCD vacuum angle."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [
+            {
+              "matched_text": "citeturn678251search7",
+              "prefix": null,
+              "start_idx": 617,
+              "end_idx": 641,
+              "safe_urls": [
+                "https://en.wikipedia.org/wiki/Axion",
+                "https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Wikipedia](https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Axion",
+                  "url": "https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com",
+                  "attribution": "Wikipedia",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn428732search6",
+              "prefix": null,
+              "start_idx": 2207,
+              "end_idx": 2231,
+              "safe_urls": [
+                "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/",
+                "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Arizona State University](https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Cosmology of the invisible axion",
+                  "url": "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com",
+                  "attribution": "Arizona State University",
+                  "pub_date": null,
+                  "snippet": "by J Preskill · 1983 · Cited by 4628 — Abstract. We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn428732search1",
+              "prefix": null,
+              "start_idx": 2389,
+              "end_idx": 2413,
+              "safe_urls": [
+                "https://www.sciencedirect.com/science/article/pii/037026938390638X",
+                "https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([ScienceDirect](https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "A cosmological bound on the invisible axion",
+                  "url": "https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com",
+                  "attribution": "ScienceDirect",
+                  "pub_date": null,
+                  "snippet": "by LF Abbott · 1983 · Cited by 4125 — The production of axions in the early universe is studied. Axion models which break the U(1)PQ symmetry above 1012 GeV are found to produce an unacceptably ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn428732search2",
+              "prefix": null,
+              "start_idx": 2589,
+              "end_idx": 2613,
+              "safe_urls": [
+                "https://www.sciencedirect.com/science/article/pii/0370269383906391",
+                "https://www.sciencedirect.com/science/article/pii/0370269383906391?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([ScienceDirect](https://www.sciencedirect.com/science/article/pii/0370269383906391?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The not-so-harmless axion",
+                  "url": "https://www.sciencedirect.com/science/article/pii/0370269383906391?utm_source=chatgpt.com",
+                  "attribution": "ScienceDirect",
+                  "pub_date": null,
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read more",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 1,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "prefix": null,
+              "start_idx": 3652,
+              "end_idx": 3653,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Axion",
+                  "url": "https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com",
+                  "attribution": "Wikipedia"
+                },
+                {
+                  "title": "Cosmology of the invisible axion",
+                  "url": "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com",
+                  "attribution": "Arizona State University"
+                },
+                {
+                  "title": "A cosmological bound on the invisible axion",
+                  "url": "https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com",
+                  "attribution": "ScienceDirect"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/",
+            "https://asu.elsevierpure.com/en/publications/cosmology-of-the-invisible-axion/?utm_source=chatgpt.com",
+            "https://en.wikipedia.org/wiki/Axion",
+            "https://en.wikipedia.org/wiki/Axion?utm_source=chatgpt.com",
+            "https://www.sciencedirect.com/science/article/pii/037026938390638X",
+            "https://www.sciencedirect.com/science/article/pii/037026938390638X?utm_source=chatgpt.com",
+            "https://www.sciencedirect.com/science/article/pii/0370269383906391",
+            "https://www.sciencedirect.com/science/article/pii/0370269383906391?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "merriam-webster.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.merriam-webster.com/dictionary/original?utm_source=chatgpt.com",
+                  "title": "ORIGINAL Definition & Meaning",
+                  "snippet": "The meaning of ORIGINAL is of, relating to, or constituting an origin or beginning : initial. How to use original in a sentence.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "merriam-webster.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "inspirehep.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/1765040?utm_source=chatgpt.com",
+                  "title": "Dynamical axion misalignment with small instantons",
+                  "snippet": "Nov 13, 2019 — We present a new mechanism to relax the initial misalignment angle of the QCD axion and raise the cosmological bound on the axion decay constant.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/534165?utm_source=chatgpt.com",
+                  "title": "The Weinberg-Wilczek axion revisited",
+                  "snippet": "by Z Berezhiani · 2001 · Cited by 274 — The experimental and astrophysical limits on such an axion is discussed. An interesting parameter window is found where ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/1767463?utm_source=chatgpt.com",
+                  "title": "New Perspectives on Axion Misalignment Mechanism",
+                  "snippet": "Jul 9, 2020 — We propose an alternative scenario where the initial velocity is nonzero, which may arise from an explicit breaking of the Peccei-Quinn (PQ) ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/179499?utm_source=chatgpt.com",
+                  "title": "Cosmology of the Invisible Axion",
+                  "snippet": "We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain wall problem.",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/12562?utm_source=chatgpt.com",
+                  "title": "A Cosmological Bound on the Invisible Axion",
+                  "snippet": "A Cosmological Bound on the Invisible Axion. L.F. Abbott(. Brandeis U. ) ,. P. Sikivie(. Florida U. ) Sep, 1982. 4 pages. Part of Particle physics and cosmology ...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/179461?utm_source=chatgpt.com",
+                  "title": "The Not So Harmless Axion",
+                  "snippet": "Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/729040?utm_source=chatgpt.com",
+                  "title": "Axion Cosmology",
+                  "snippet": "by P Sikivie · 2008 · Cited by 742 — 10.1016/0370-2693(83)90637-8. edit. A Cosmological Bound on the Invisible Axion · L.F. Abbott(. Brandeis U. ) ,. P. Sikivie(. Florida U. ) Phys.Lett.B 120 (1983) ....",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://inspirehep.net/literature/13613?utm_source=chatgpt.com",
+                  "title": "Saving the Invisible Axion",
+                  "snippet": "The Not So Harmless Axion · Michael Dine(. Princeton, Inst. Advanced Study. ) ,. Willy Fischler(. Pennsylvania U. ) Phys.Lett.B 120 (1983) 137-141. •. DOI:.Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": null,
+                  "attribution": "inspirehep.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/html/2604.02012v1?utm_source=chatgpt.com",
+                  "title": "The Axion Helical Misalignment Mechanism",
+                  "snippet": "Apr 2, 2026 — Their cosmological evolution differs significantly depending on the timing of PQ symmetry breaking relative to inflation, yielding distinct ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/astro-ph/0610440?utm_source=chatgpt.com",
+                  "title": "[astro-ph/0610440] Axion Cosmology",
+                  "snippet": "by P Sikivie · 2006 · Cited by 742 — Outline: 1. Thermal axions 2. Axion field evolution 3. The domain wall problem 4. Cold axions 5. Axion miniclusters 6. Axion isocurvature perturbations",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "aps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://journals.aps.org/prd/abstract/10.1103/k3hh-gszm?utm_source=chatgpt.com",
+                  "title": "Noninflationary axion and ALP misalignment mechanism",
+                  "snippet": "by R Brandenberger · 2025 · Cited by 7 — Based on considerations of quantum gravity, global symmetries which lead to axions as pseudo- Nambu-Goldstone bosons after low scale symmetry breaking ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "aps.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://link.aps.org/doi/10.1103/PhysRevD.108.083536?utm_source=chatgpt.com",
+                  "title": "Constraining axion and ALP dark matter from misalignment ...",
+                  "snippet": "by Y Xu · 2023 · Cited by 18 — We explore the phenomenology of QCD axion and axionlike particle (ALP) dark matter production via misalignment during inflationary reheating.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "aps.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "harvard.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/2008LNP...741...19S?utm_source=chatgpt.com",
+                  "title": "Axion Cosmology - ADS",
+                  "snippet": "by P Sikivie · 2008 · Cited by 742 — The cosmological properties of axions are reviewed. We discuss the axions produced by thermal processes in the early universe, the evolution of the average ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "harvard.edu"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..127P/abstract?utm_source=chatgpt.com",
+                  "title": "Cosmology of the invisible axion - ADS",
+                  "snippet": "by J Preskill · 1983 · Cited by 4627 — Abstract. We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated to the domain wall problem.Read m...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "harvard.edu"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..137D/abstract?utm_source=chatgpt.com",
+                  "title": "The not-so-harmless axion - ADS",
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — The not-so-harmless axion. Dine, Michael; ;; Fischler, Willy. Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the ...R...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "harvard.edu"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://ui.adsabs.harvard.edu/abs/1983PhLB..120..133A/abstract?utm_source=chatgpt.com",
+                  "title": "A cosmological bound on the invisible axion - ADS",
+                  "snippet": "by LF Abbott · 1983 · Cited by 4124 — A cosmological bound on the invisible axion. Abbott, L. F.; ;; Sikivie, P. Abstract. The production of axions in the early universe is studied. Axion models ...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "harvard.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "columbia.edu",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.columbia.edu/cu/neurotheory/Larry/AbbottPL83a.pdf?utm_source=chatgpt.com",
+                  "title": "a cosmological bound on the invisible axion lf abbott 1",
+                  "snippet": "by LF ABBOTT · 1983 · Cited by 4124 — In this letter, we derive a new constraint which standard cosmology imposes on axion models. We consider the production of axions in the early ...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "columbia.edu"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "desy.de",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://bib-pubdb1.desy.de/record/297009/files/sikivie_pierre.pdf?utm_source=chatgpt.com",
+                  "title": "Axion Theory",
+                  "snippet": "by P Sikivie · Cited by 1 — α(t1)2. (5). 2. PIERRE SIKIVIE. 14. PATRAS08. Page 3. where α(t1) ≡ a(t1)/fa is the initial misalignment angle. This contribution is called of 'vacuum.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "desy.de"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://bib-pubdb1.desy.de/record/436775/files/2003.01100.pdf?subformat=pdfa&utm_source=chatgpt.com",
+                  "title": "The landscape of QCD axion models - PUBDB",
+                  "snippet": "by L Di Luzio · 2020 · Cited by 1141 — 2.4.2 Peccei Quinn mechanism . ... combination of their phases in a generalization of the Weinberg-Wilczek mechanism.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "desy.de"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wordwebonline.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.wordwebonline.com/en/ORIGINAL?utm_source=chatgpt.com",
+                  "title": "original, originals- WordWeb dictionary definition",
+                  "snippet": "Adjective: original u'ri-j(u-)n(u-)l. Preceding all others in time or being as first made or performed \"restored the house to its original condition\"; ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "wordwebonline.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ncatlab.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ncatlab.org/nlab/show/axion?utm_source=chatgpt.com",
+                  "title": "axion in nLab",
+                  "snippet": "Oct 6, 2025 — The axion is a hypothetical type of field/fundamental particle originally hypothesized (Weinberg 77, Wilczek 78) as a solution to the strong CP problem.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "ncatlab.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scribd.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scribd.com/document/420695785/The-not-so-harmless-axion?utm_source=chatgpt.com",
+                  "title": "The Not-So-Harmless Axion | PDF",
+                  "snippet": "Volume 120B, number 1,2,3 PHYSICS LETTERS 6 January 1983. THE NOT-SO-HARMLESS AXION. Michael DINE The Institute for Advanced Study, Princeton, NJ 08540, USARead more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "scribd.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sjtu.edu.cn",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indico-tdli.sjtu.edu.cn/event/1309/contributions/5569/attachments/2387/3639/TDLeeInstitute-2022.pdf?utm_source=chatgpt.com",
+                  "title": "The Resonant Cavity Search for Axion Dark Matter",
+                  "snippet": "▷ Peccei–Quinn mechanism: strong CP problem. ▷ Axion quality problem. The gauged discrete ZN PQ symmetry with N ≥ 10 inspired from the anomalous U(1)A ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "sjtu.edu.cn"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cern.ch",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indico.cern.ch/event/1524531/sessions/595886/attachments/3118713/5530040/Axion-Cosmology-Servant-Santa-Cruz-school-2025.pdf?utm_source=chatgpt.com",
+                  "title": "Axion cosmology .",
+                  "snippet": "Aug 15, 2025 — Kinetic misalignment. Add kinetic energy to delay onset of oscillations. > Begins to oscillate at ˙φ ⇠ 2Λ2 b.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "cern.ch"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://indico.cern.ch/event/464174/contributions/2135746/attachments/1282519/1906060/01_saikawa.pdf?utm_source=chatgpt.com",
+                  "title": "Axion dark matter in the post-inflationary Peccei-Quinn ...",
+                  "snippet": "May 31, 2016 — QCD axion as dark matter candidate. Weinberg (1978), Wilczek (1978). “axion decay constant”. 3/14. Peccei and Quinn (1977) at a scale. Page 4 ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": null,
+                  "attribution": "cern.ch"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scirp.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scirp.org/reference/referencespapers?referenceid=3551846&utm_source=chatgpt.com",
+                  "title": "Dine, M. and Fischler, W. (1983) The Not-So-Harmless ...",
+                  "snippet": "We propose that both DM and DE can be explained by the existence of long-lived topological gravitational vortices that were produced in the quark-gluon epoch of ...Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "scirp.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.scirp.org/reference/referencespapers?referenceid=3917432&utm_source=chatgpt.com",
+                  "title": "Preskill, J., Wise, M.B. and Wilczek, F. (1983) Cosmology of ...",
+                  "snippet": "Jan 24, 2025 — Preskill, J., Wise, M.B. and Wilczek, F. (1983) Cosmology of the Invisible Axion. Physics Letters B, 120, 127-132.",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "scirp.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cambridge.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dictionary.cambridge.org/us/dictionary/english/original?utm_source=chatgpt.com",
+                  "title": "ORIGINAL | definition in the Cambridge English Dictionary",
+                  "snippet": "in the earliest form of something, or in the form that existed at the beginning: The original plans have been changed. Original can also mean different from ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "cambridge.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "susanjfowler.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.susanjfowler.com/blog/2016/9/17/from-the-fledgling-physicist-archives-an-introduction-to-axions?utm_source=chatgpt.com",
+                  "title": "From the Fledgling Physicist Archives: An Introduction to Axions",
+                  "snippet": "Sep 17, 2016 — Axions were proposed by Peccei and Quinn in 1977 to solve the Strong CP Problem, which, in a nutshell, is that CP violation doesn't occur in QCD but there is ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "susanjfowler.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://scholar.google.com/citations?hl=en&user=naSXA1EAAAAJ&utm_source=chatgpt.com",
+                  "title": "Pierre Sikivie",
+                  "snippet": "Axion cosmology. P Sikivie. Axions: Theory, Cosmology, and Experimental Searches, 19-50, 2008. 738, 2008 ; Experimental tests of the\" invisible\" axion. P Sikivie.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": null,
+                  "attribution": "google.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://scholar.google.com/citations?hl=en&user=fAjPZzkAAAAJ&utm_source=chatgpt.com",
+                  "title": "Willy Fischler",
+                  "snippet": "The not-so-harmless axion. M Dine, W Fischler. Physics Letters B 120 (1-3), 137-141, 1983. 3952, 1983 ; M theory as a matrix model: A conjecture. T Banks, W ...Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "google.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=6bLesz0zvlw&utm_source=chatgpt.com",
+                  "title": "Axions: The Past - Lecture 1",
+                  "snippet": "Axions: The Past - Lecture 1 Speaker: S. Rajendran (UC Berkeley) Summer School on Particle Physics | (smr 2727) 2015_06_24-14_00-smr2727.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "youtube.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "findlaw.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dictionary.findlaw.com/definition/original.html?utm_source=chatgpt.com",
+                  "title": "Original - FindLaw Dictionary of Legal Terms",
+                  "snippet": "2 : a work composed firsthand as the product of an author's creativity NOTE: A work must be an original in order to obtain a copyright. original adj.Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "findlaw.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sciencedirect.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/abs/pii/0370269383906391?utm_source=chatgpt.com",
+                  "title": "The not-so-harmless axion",
+                  "snippet": "by M Dine · 1983 · Cited by 3966 — Abstract. Cosmological aspects of a very weakly interacting axion are discussed. A solution to the problem of domain walls discussed by Sikivie is mentioned.Read mor...",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "sciencedirect.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.sciencedirect.com/science/article/abs/pii/037026938390638X?utm_source=chatgpt.com",
+                  "title": "A cosmological bound on the invisible axion",
+                  "snippet": "by LF Abbott · 1983 · Cited by 4124 — 6 January 1983, Pages 133-136. Physics Letters B. A cosmological bound on the invisible axion. Author links open overlay panel L.F. Abbott 1 , P. Sikivie 2.",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "sciencedirect.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scispace.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://scispace.com/pdf/cosmology-of-the-invisible-axion-34g7l56uw1.pdf?utm_source=chatgpt.com",
+                  "title": "Cosmology of the invisible axion",
+                  "snippet": "We identify a new cosmological problem for models which solve the strong CP puzzle with an invisible axion, unrelated.Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "scispace.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "springer.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://link.springer.com/article/10.1007/JHEP02%282025%29078?utm_source=chatgpt.com",
+                  "title": "Dynamical axion misalignment from the Witten effect",
+                  "snippet": "by A Banerjee · 2025 · Cited by 4 — We propose a relaxation mechanism for the initial misalignment angle of the pre-inflationary QCD axion with a large decay constant.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "springer.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "gymglish.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.gymglish.com/en/gymglish/english-translation/original?utm_source=chatgpt.com",
+                  "title": "Original - Definition & Meaning",
+                  "snippet": "Examples. \"His original fragrances are one of the reasons that Delavigne perfumes remain popular year after year.\" \"Ooh, look at this lovely original ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": null,
+                  "attribution": "gymglish.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "researchgate.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.researchgate.net/publication/222447988_Cosmological_bound_on_the_invisible_axion?utm_source=chatgpt.com",
+                  "title": "(PDF) Cosmological bound on the invisible axion",
+                  "snippet": "The production of axions in the early universe is studied. Axion models which break the U(1)PQ symmetry above 1012 GeV are found to produce an unacceptably ...Read more",
+                  "ref_id": {
+                    "turn_index": 1,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": null,
+                  "attribution": "researchgate.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "wiktionary.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wiktionary.org/wiki/original?utm_source=chatgpt.com",
+                  "title": "original - Wiktionary, the free dictionary",
+                  "snippet": "original (Jawi spelling اوريݢينل, comparative lebih original, superlative paling original). (informal) Not fake; original. Synonyms: asli, tulen: Antonym ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": null,
+                  "attribution": "wiktionary.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "word.tips",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://word.tips/spelling/original-vs-orginal/?utm_source=chatgpt.com",
+                  "title": "Original or Orginal | How to spell it?",
+                  "snippet": "The correct word is original. How to pronounce original? The correct pronunciation is əˈrɪdʒənl. What does original mean? Present or existing from the ...Read more",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 26
+                  },
+                  "pub_date": null,
+                  "attribution": "word.tips"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-5-thinking",
+          "request_id": "6788e680-df8a-4ce8-8a9b-5221d9ab740f",
+          "message_type": "next",
+          "turn_exchange_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "working_turn_id": "65c301c7-79fc-4b31-b8a2-b61b90df018f",
+          "model_slug": "gpt-5-5-thinking",
+          "default_model_slug": "gpt-5-5-thinking",
+          "can_save": true,
+          "parent_id": "ed532292-753a-4d34-a874-e2498f1694ff",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "ed532292-753a-4d34-a874-e2498f1694ff",
+      "children": []
+    }
+  },
+  "current_node": "42899b23-1fe3-418e-a865-3411a95d008a",
+  "context_truncation_continuation": null
+}
