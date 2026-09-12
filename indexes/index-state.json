@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 864423516,
+    "bytes_known": 888481824,
     "directories": 53,
-    "files": 615
+    "files": 630
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 322,
+    ".json": 337,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 113,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 396,
+    "source-conversation-corpus": 411,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 396,
+    "DEVELOPMENT_FULL_CONVOS": 411,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -289,6 +289,7 @@
     {
       "content_id": "732b61e0f3a0fd8e7eaf9714690c35a578238a2b1571cbf1e94e25ad8e6519dd",
       "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29•26.08.30•Quick Pass Analysis — raw.json"
       ]
@@ -628,11 +629,11 @@
       "size": 49
     },
     {
-      "content_id": "65f931bb36647d7059866b80f63ee8aa1934120709bf5b2476a10215bf391bed",
+      "content_id": "635c5ac64c6b5fe35f3aadadfe9a4af139be4f1fbd2bdd6f81cdaf5f74cb4f2a",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 293250
+      "size": 306310
     },
     {
       "content_id": null,
@@ -2313,6 +2314,111 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13",
       "role": "source-conversation-corpus",
       "size": null
+    },
+    {
+      "content_id": "89fc80577e36a694309f4c54e57739def838664a3e837a49323f018889fe0d64",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.07.10•Git clone explanation — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 376077
+    },
+    {
+      "content_id": "42a9cfd09ed84788d0bece306662aff0b021d0462c59fb51f642d2698ab9d98b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.07.10•Git clone explanation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 376077
+    },
+    {
+      "content_id": "d35878f2a5dac68c8c28af2a8b7d5c7ebef267254430dc93bbce67fee809de68",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.09.12•J-space Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 757070
+    },
+    {
+      "content_id": "366cfbfb9f31e6cfe6ac3b9a8fe742f3cf43df7496f3eda427a2548297b20f71",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.09.12•Rotations in Higher Dimensions — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 265229
+    },
+    {
+      "content_id": "88583caafb67e4d1ae96e905ec1c155d9b19a90b4581badbd0857646ce8b0356",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.09.12•Scientific Presentation Critique — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 474951
+    },
+    {
+      "content_id": "6c06f062ff3de246e7e9a0bbf24788e80a768869c7291166067398dc0cc28a94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.13•26.09.12•Brownian motion and molecular mass — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 368183
+    },
+    {
+      "content_id": "f618e879038fcab219836611a6ba44c402c30e85da739a3c24a714b69ac4d310",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.23•26.09.12•Geometric Polynomial Solution — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1149947
+    },
+    {
+      "content_id": "031e484678bb605e38da53269c6748990e9e4ffa9830517a46412d673bc8595b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.31•26.07.31•⚒️ Pulsar Glitch Modeling — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1568564
+    },
+    {
+      "content_id": "e809e04710fdf979f8860d065ffc988f31ebdc2df1a08b895ecef9e9aee62cc6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.23•26.08.24•Population Social Thresholds — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2522504
+    },
+    {
+      "content_id": "264c51a6d2dab2571813829cc2310adcd8e282664fdc5bed9edffa350efbfc12",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.25•26.08.25•⚒️ Priority assessment summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5469135
+    },
+    {
+      "content_id": "732b61e0f3a0fd8e7eaf9714690c35a578238a2b1571cbf1e94e25ad8e6519dd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 317656
+    },
+    {
+      "content_id": "6e28ed054d9a31b79e885bda602d40d2e8434213308463da64d493f9eb9675b1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.03•26.09.09•🧮 Friday Research Briefs — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2269990
+    },
+    {
+      "content_id": "234f2856104d1c20217aa6e4f461ea1d3cfbda84ace1f4814bcfd294d1732d77",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2646059
+    },
+    {
+      "content_id": "14c64f032a3081f457b445bf5b114119c9421e5a9c4d755ed1619367fc72abcb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.08•⚒️ Build Geometry Coding Skill — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 398959
+    },
+    {
+      "content_id": "f03d1905cfab6b06cba0fc9d3ab14c06d8be327f5f21afd2309ecfd14136fa80",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5074088
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -4912,11 +5018,11 @@
       "size": null
     },
     {
-      "content_id": "017d1f2401282c075b3f9655ec8cc1fa632d49c732e9ab892aabc36952753980",
+      "content_id": "8a763606d62f189b1b3f76c999e7b3f9b922448c792a4970cc77fd0526ef270c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 105867
+      "size": 109522
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -4926,7 +5032,7 @@
       "size": 8625
     },
     {
-      "content_id": "3f1e20e2ad02ce4a27fdcdfbd083cd923c2b28d3adf045aee2868b5bc1df87c2",
+      "content_id": "5ddbeb602eb8d8b652bccda5fd61adcfbe7d55172e34c8a94b5f68c85956f7e2",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4947,14 +5053,14 @@
       "size": null
     },
     {
-      "content_id": "86e6dd2346433a040f4fa5522db4e7db30d531383b589fee69ea7970da7ca3a0",
+      "content_id": "59e774c3db2bf3509d70bbdf22e6c8523f6f249262c26977e5c032a7cb549e76",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 180461
+      "size": 187565
     },
     {
-      "content_id": "acd99613bbe61355581ee1bd1a615d4837b0105aa346215c67964b09b605a315",
+      "content_id": "a0feb18568c6cba00c4ab701b1cc086649a2273f8c4443edce0d6ac4311acbed",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5172,8 +5278,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:15:37+00:00",
+  "scanned_at_utc": "2026-09-12T13:18:38+00:00",
   "schema_version": 1,
-  "tree_id": "811e7da7248ce5b894f43871207d324fd4988fe12d444b444575c8dbe7205c41",
+  "tree_id": "adfb2f1c9e452905b31b601dd26002eb85ddf3c7d69d404773b0085d268f4645",
   "tree_response_truncated": false
 }
