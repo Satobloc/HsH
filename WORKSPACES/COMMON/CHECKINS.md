@@ -157,3 +157,45 @@ Append one section headed with your instance name and date.
 
 **Coordination note:**  
 - The important boundary is that **topic-composition movement is itself part of the observed field change**. The standardized/decomposed views are diagnostic explanations of the aggregate shift, not corrections that erase it. This lane can quantify convergence/landscape movement, but should not convert that movement into H(s)H premises or novelty claims without the separate priority/provenance review.
+
+### Morrow (integration lane) — 2026-09-12
+
+**Working on now:**  
+- Integrating the finite-core discrimination chain into the synthesis, comparison ledger, prediction ledger, and narrow-paper pipeline; current result is the finite-thickness readout non-identifiability baseline FC-BASE-003.
+
+**Know / have access to:**  
+- Actually loaded/substantially read in this lane: Fundamental Intuitions extended; RMS control text; 2003 notebook packet; SAT/H(s)H transition transcript through line 4,800; H(s)H time-residual correction; Kerr-core and operator-normalization handoffs; finite-core cross-section packet; current synthesis, checkpoint, finite-core/prediction/paper ledgers, Dashboard, and Common controls.
+- Indexed but incomplete: 4DHH-UC BUILDOUT DEV through line 1,200; SPHERE4QC through line 1,300; broader SAT26/BYO/Particle-Zoo/notlat corpus; HSH_RESOURCES as secondary/private evidence only.
+- Access: GitHub and Google Drive connectors, web research, repository text reads/writes. Current local scratch runtime is unavailable, so the newly attached pasted-text copy could not be read directly; equivalent newly committed Common controls were read firsthand from GitHub.
+
+**Created already:**  
+- synthesis/CURRENT_SYNTHESIS.md — active cumulative source-grounded map.
+- checkpoints/CURRENT.md — current integration checkpoint.
+- ledgers/FINITE_CORE_COMPARISON.md — active candidate comparison with FC-BASE-001/002.
+- ledgers/PREDICTION_LEDGER.md — PRED-FC-001/002; no empirical prediction frozen.
+- NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md — HSH-P001 technical outline.
+- WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md — FC-BASE-003 standard-math packet.
+- WORKSPACES/COMMON/HANDOFFS.md entries and the original-archive ..[🎛️_NATHAN_DASH]/!_DASHBOARD.md.
+
+**Planning to create:**  
+- Continue HSH-P001 only after Ravel/geometry review; add a calibrated finite-thickness forward model only if a resolver kernel or controlled delta-family is supplied.
+
+**Provenance of current work:**  
+- Internal structure and vocabulary derive from Nathan corrections, Fundamental Intuitions, current H(s)H sources, and Worldtube Lab artifacts.
+- FC-BASE-001/002/003 use standard tubular-neighborhood, linear-algebra, probability, and transversality results under explicit assumptions.
+- No external physical theory, recent paper, empirical dataset, or legacy SAT numerical constant is used as a forward-theory premise in these artifacts. Primary citations/prior-art remain to be supplied by external/provenance lanes.
+
+**Overlap / role-bleed / contamination risk:**  
+- Overlaps Ravel/Worldtube Lab and geometry/covariance lanes at the review boundary; this lane integrates and freezes only scoped standard-math consequences, not physical carrier selection.
+- No recent-literature/theorybuilding mixture in the finite-core artifacts. Historical SAT claims remain source-typed and unpromoted.
+
+**Blockers / inputs needed:**  
+- Ravel reproduction/freeze-or-repair response for FC-BASE-002 and FC-BASE-003.
+- Material carrier choice; constitutive/contact law; resolver kernel or controlled thickness family; explicit marking/director data for observable local ᚼ.
+- Direct lane check-ins from geometry/solver, covariance/representation, archive/provenance, outsider/QC, and forward-build workers.
+
+**Suggested next task:**  
+- Test whether the resolving wavefront supplies an independently calibratable kernel. If not, formalize the width/moment non-identifiability as the next bounded no-go result in HSH-P001.
+
+**Coordination note:**  
+- FC-BASE-003 freezes only the covariance composition/no-identifiability statement. It demotes any unqualified claim that the canonical fourth-moment tuple is directly observable through a finite-thickness resolver.
