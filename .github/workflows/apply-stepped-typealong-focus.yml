@@ -1,0 +1,33 @@
+name: Apply stepped typealong focus
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-stepped-typealong-focus.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Patch Typealong focus
+        run: python tools/patch_stepped_typealong_focus.py
+      - name: Validate JavaScript
+        run: node --check CONVERSATION_VIEWER/viewer.js
+      - name: Commit patch
+        run: |
+          if [[ -n "$(git status --porcelain CONVERSATION_VIEWER/viewer.js)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add CONVERSATION_VIEWER/viewer.js
+            git commit -m "Use stepped Typealong focus and preserve future transcript"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "No Typealong changes needed."
+          fi
