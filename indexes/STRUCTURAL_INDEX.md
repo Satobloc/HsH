@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T06:59:05+00:00`
-- Tree/content state: `06e24b19a70b720242ef685a7a0b32cdcff7dbb6b8fc454584abd9593ae2253f`
-- Coverage: 536 files, 47 directories
+- Scanned: `2026-09-12T07:09:43+00:00`
+- Tree/content state: `cbde8bae5b20363c15120a8a897350dc28721db5a56257ebfa4325fdf341764b`
+- Coverage: 554 files, 48 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
-| `DEVELOPMENT_FULL_CONVOS` | 365 |
+| `DEVELOPMENT_FULL_CONVOS` | 383 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 3 |
-| `.json` | 296 |
+| `.json` | 313 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 68 |
@@ -58,7 +58,7 @@
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
-| `.txt` | 81 |
+| `.txt` | 82 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 365 |
+| `source-conversation-corpus` | 383 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 85 |
@@ -88,6 +88,7 @@
 - `01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
@@ -163,6 +164,9 @@
 - `5bfeef3758fb96b6cf899749089020094514a4543be40bfec0b21faf7111ba19`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw.json`
+- `60acb117898c434c5b3a063eb750d0175ef90c02d4996abb41cdfe4922dfad93`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
+  - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
 - `6260d025390f278203456678ac444aade4cc3e08d13411321114fd250b1e419c`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04•25.05.05•SAT Summary Breakdown — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04•25.05.05•SAT Summary Breakdown — raw.json`
@@ -210,6 +214,9 @@
 - `8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json`
   - `LIVE CONVOS/Build Geometry Coding Skill — raw.json`
+- `95fdd6f729e8e8e143f18e24390c17b9564b63b916127ec01eba26f6b65bccb7`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json`
+  - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json`
 - `9cf52b20bb3391282094fba8bc2f88bc76cafb80a5ef51ca64ae69f32e22f375`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw - .txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw.json`
@@ -277,7 +284,7 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 272122 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 286779 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5792 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -481,6 +488,24 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json` — 299475 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•RECENT arXiv PAPERS — raw.json` — 299471 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04•24.03.04•Up in Science — raw.json` — 6655 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15•24.11.15•Stringing-Along Theory Summary — raw.json` — 4497 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23•24.12.23•String Configurations Generation — raw.json` — 14224 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json` — 15006 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unifying Physics Theories — raw.json` — 10039 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06•26.06.15•🤖 SAT O REWRITE SUPERVISOR — raw.json` — 3701950 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•String SAT filament model — raw.json` — 62690 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory name suggestions — raw.json` — 16789 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory of Everything_ — raw.json` — 91610 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory review and feedback — raw.json` — 60284 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw (1).json` — 125111 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw.json` — 125111 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.12.22•26.06.01•Theory discussion response — raw.json` — 119160 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.04•26.06.04•String Landscape in Theory — raw.json` — 126097 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json` — 2057626 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT` — 665220 bytes — `source-conversation-corpus`
@@ -774,10 +799,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 99480 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 103444 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 166336 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 174696 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

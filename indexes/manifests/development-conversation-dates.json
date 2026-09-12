@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-12T06:58:59.161545+00:00",
+  "generated_at_utc": "2026-09-12T07:09:35.702825+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 304,
-    "skipped": 41,
-    "renamed": 1
+    "unchanged": 305,
+    "skipped": 42,
+    "renamed": 17
   },
   "records": [
     {
@@ -1643,6 +1643,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•What is SAT — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•What is SAT — raw.json",
+      "start_local": "2025-06-01T10:11:04.970000-04:00",
+      "end_local": "2025-06-01T10:11:41.159182-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
       "start_local": "2025-06-08T22:17:17.523000-04:00",
@@ -1933,16 +1943,6 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/What is SAT — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•What is SAT — raw.json",
-      "start_local": "2025-06-01T10:11:04.970000-04:00",
-      "end_local": "2025-06-01T10:11:41.159182-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -1953,6 +1953,188 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/String Configurations Generation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23•24.12.23•String Configurations Generation — raw.json",
+      "start_local": "2024-12-23T22:58:47.309820-05:00",
+      "end_local": "2024-12-23T22:58:57.970911-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/String Landscape in Theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.04•26.06.04•String Landscape in Theory — raw.json",
+      "start_local": "2026-06-04T04:28:05.801073-04:00",
+      "end_local": "2026-06-04T04:44:30.993604-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 14,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/String SAT filament model — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•String SAT filament model — raw.json",
+      "start_local": "2025-10-29T14:13:43.343000-04:00",
+      "end_local": "2025-10-29T14:37:36.666584-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Stringing-Along Theory Summary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15•24.11.15•Stringing-Along Theory Summary — raw.json",
+      "start_local": "2024-11-15T05:09:31.586674-05:00",
+      "end_local": "2024-11-15T05:09:32.951503-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Theory discussion response — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.12.22•26.06.01•Theory discussion response — raw.json",
+      "start_local": "2025-12-22T16:59:24.644189-05:00",
+      "end_local": "2026-06-01T23:40:36.520564-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 42,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Theory name suggestions — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory name suggestions — raw.json",
+      "start_local": "2025-10-29T22:02:25.695000-04:00",
+      "end_local": "2025-10-29T22:02:25.733525-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Theory of Everything_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory of Everything_ — raw.json",
+      "start_local": "2025-10-29T14:41:47.425000-04:00",
+      "end_local": "2025-10-29T14:54:53.416209-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 11,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Theory review and feedback — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory review and feedback — raw.json",
+      "start_local": "2025-10-29T21:51:54.508000-04:00",
+      "end_local": "2025-10-29T21:52:48.913729-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Trends in Geometric Unification — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "start_local": "2026-06-05T20:50:01.364623-04:00",
+      "end_local": "2026-06-06T15:27:54.096505-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 138,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Unified Physical Theory Proposal — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json",
+      "start_local": "2025-05-04T01:16:51.872698-04:00",
+      "end_local": "2025-05-04T01:18:55.036000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Unifying Physics Theories — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unifying Physics Theories — raw.json",
+      "start_local": "2025-05-04T02:45:04.401086-04:00",
+      "end_local": "2025-05-04T02:45:04.795000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Up in Science — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04•24.03.04•Up in Science — raw.json",
+      "start_local": "2024-03-04T13:21:25.346340-05:00",
+      "end_local": "2024-03-04T13:25:36.299227-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Vetting document review — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw (1).json",
+      "start_local": "2025-10-29T12:07:55.484000-04:00",
+      "end_local": "2025-10-29T12:30:33.370685-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Vetting document review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw.json",
+      "start_local": "2025-10-29T12:07:55.484000-04:00",
+      "end_local": "2025-10-29T12:30:33.370685-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-08T06:04:20.605378-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 253,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "start_local": "2026-09-07T18:41:11.950000-04:00",
+      "end_local": "2026-09-08T22:26:21.682596-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 710,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/🤖 SAT O REWRITE SUPERVISOR — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06•26.06.15•🤖 SAT O REWRITE SUPERVISOR — raw.json",
+      "start_local": "2025-06-06T11:28:02.617000-04:00",
+      "end_local": "2026-06-15T12:37:12.336488-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 227,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",

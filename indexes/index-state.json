@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 841277847,
-    "directories": 47,
-    "files": 536
+    "bytes_known": 863733720,
+    "directories": 48,
+    "files": 554
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 3,
-    ".json": 296,
+    ".json": 313,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 68,
@@ -22,7 +22,7 @@
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
-    ".txt": 81,
+    ".txt": 82,
     ".yml": 5,
     "[none]": 2
   },
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 365,
+    "source-conversation-corpus": 383,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 85,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 14,
-    "DEVELOPMENT_FULL_CONVOS": 365,
+    "DEVELOPMENT_FULL_CONVOS": 383,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -77,6 +77,7 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
@@ -243,6 +244,13 @@
       ]
     },
     {
+      "content_id": "60acb117898c434c5b3a063eb750d0175ef90c02d4996abb41cdfe4922dfad93",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+        "LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json"
+      ]
+    },
+    {
       "content_id": "6260d025390f278203456678ac444aade4cc3e08d13411321114fd250b1e419c",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04•25.05.05•SAT Summary Breakdown — raw.json",
@@ -347,6 +355,13 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
         "LIVE CONVOS/Build Geometry Coding Skill — raw.json"
+      ]
+    },
+    {
+      "content_id": "95fdd6f729e8e8e143f18e24390c17b9564b63b916127ec01eba26f6b65bccb7",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+        "LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json"
       ]
     },
     {
@@ -584,11 +599,11 @@
       "size": null
     },
     {
-      "content_id": "7f5e142d44fb3e1845800749633559b771aed05c546dbbcea0fcafbc1f71b73a",
+      "content_id": "87c644b6675b1cb9dadb27da0cf1b1b4010a8854e4280f9f46f12fe1475cd191",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 272122
+      "size": 286779
     },
     {
       "content_id": null,
@@ -2050,6 +2065,139 @@
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "9a56befe41c297b067a2cc28b8cc885908bf481db9014995046e2ad9b205b6f8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04•24.03.04•Up in Science — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6655
+    },
+    {
+      "content_id": "f11ec56851aa7483d2b4d3c15a35651e9a01d6187e802c97192426bae21f4fc4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15•24.11.15•Stringing-Along Theory Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4497
+    },
+    {
+      "content_id": "e1439abb39b9d216de244a23475bc3159bfc95e6f7e6063b255174a9677ee091",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23•24.12.23•String Configurations Generation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 14224
+    },
+    {
+      "content_id": "1d541888f7cf4e38e24f306eb39ace4f1323eea78a0cd17d1f26013486eb4694",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 15006
+    },
+    {
+      "content_id": "b530617ffa209080e70e166d987e4dbbfc5ace19dc8eeefa97c2ddbfa802807c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unifying Physics Theories — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 10039
+    },
+    {
+      "content_id": "349da4e596369f11f655f526818089854485d46742a8b8ad23dd7219e3ac4a64",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06•26.06.15•🤖 SAT O REWRITE SUPERVISOR — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3701950
+    },
+    {
+      "content_id": "ce07825c52f54774e2bb48b395dbee8304dba3766f62e99dec1f214b0c0658dd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•String SAT filament model — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 62690
+    },
+    {
+      "content_id": "2a59fc79b77a9d51bbef94ad4bcd223542e839f78dc625268dbb058069f42ab6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory name suggestions — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 16789
+    },
+    {
+      "content_id": "7f5722e0f6ab500d67abe623c89a1c9d77f02e3c3633a92acfbcb5025a606895",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory of Everything_ — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 91610
+    },
+    {
+      "content_id": "5309e27a871a6b050dacebbb067be60494aaf70156523c6d2940d22b9e60948b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Theory review and feedback — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 60284
+    },
+    {
+      "content_id": "18655ffa2d2ad9b596cbc904aa05e1e67fc0c9a678c12ce77328fe1cb17fc2f1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 125111
+    },
+    {
+      "content_id": "378400a4463fee58d6ebdcdfc7069c7e91f877c39186e88783c5b7f94e423406",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 125111
+    },
+    {
+      "content_id": "0b6b3c6f034aee858dc3fcf74aedab794b4be77f7b27b2fc9ee71a6ef7f76fcb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.12.22•26.06.01•Theory discussion response — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 119160
+    },
+    {
+      "content_id": "21fad648f17f8f475263484731998dc8274cded88cc9d0e52e7d0e9a880165a4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.04•26.06.04•String Landscape in Theory — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 126097
+    },
+    {
+      "content_id": "68de4b175dbc6c94c3fe12117b0105ae73a81e46e7ff09b5ebbc30e74cf53a47",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2057626
+    },
+    {
+      "content_id": "95fdd6f729e8e8e143f18e24390c17b9564b63b916127ec01eba26f6b65bccb7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1326874
+    },
+    {
+      "content_id": "60acb117898c434c5b3a063eb750d0175ef90c02d4996abb41cdfe4922dfad93",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 14565168
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
       "role": "source-conversation-corpus",
       "size": 1
     },
@@ -4322,14 +4470,14 @@
       "size": null
     },
     {
-      "content_id": "e0063d70e43ae188e51418364783d6d59588e1cb837914dd70fc80121ad86e90",
+      "content_id": "a963d55c9b74671493a0e5112ac2eb1b78abaa2fe4bcab43b901bf17b12d5cee",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 99480
+      "size": 103444
     },
     {
-      "content_id": "972e7a2ea324bdbd6e5cda1328d1d5bf2cb7b9763f1d7df53e35b01bd484cf1c",
+      "content_id": "ed4aab7c67da738a0111feaabc6d75a67a2104b096c0e11f228b6592e1b0a117",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4350,14 +4498,14 @@
       "size": null
     },
     {
-      "content_id": "ecccc310bf40b85c49dfd233df0e42a0cfe843beec51a6d3741d69c5a628d62f",
+      "content_id": "c899e32aca60153bb9d57020173227f4f989ed3f0a813f6a02e1cdb2379dacc8",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 166336
+      "size": 174696
     },
     {
-      "content_id": "5a362797225d166745cf3a4c6c766e5bacd101b7b01ba0601761403770e843cc",
+      "content_id": "17befcb4e70b6441dfb6991fe884a67f99eb1121260f910be8942aaf19b716ac",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4561,8 +4709,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T06:59:05+00:00",
+  "scanned_at_utc": "2026-09-12T07:09:43+00:00",
   "schema_version": 1,
-  "tree_id": "06e24b19a70b720242ef685a7a0b32cdcff7dbb6b8fc454584abd9593ae2253f",
+  "tree_id": "cbde8bae5b20363c15120a8a897350dc28721db5a56257ebfa4325fdf341764b",
   "tree_response_truncated": false
 }
