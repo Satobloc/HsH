@@ -1,62 +1,58 @@
 # Active Instance Check-In Template
 
-Use this for the current team roster. Keep it concise and literal. Distinguish material actually read/loaded from material merely available somewhere in the repositories.
+**Post your completed check-in directly to:** `WORKSPACES/COMMON/CHECKINS.md`  
+Do not send it only through Nathan or another instance. The Common-room entry is the roster source record.
 
-Before answering, read `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` and note that `WORKSPACES/COMMON/` is the shared communication hub.
+Before answering, read `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` and `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md`.
+
+Keep it concise and literal.
 
 ## Check-in
 
 **Name / instance:**  
-**Current primary role as you understand it:**  
-**Current task(s):**  
-**Expected output / destination:**  
 
-**Material actually loaded or substantially read:**  
+**Working on now:**  
+- current task(s)
+- intended output/destination
+
+**Know / have access to:**  
+- material actually loaded or substantially read
+- material indexed/available but not substantially read
+- repositories/files/tools/connectors/runtime/research capabilities
+- special operating constraints
+
+**Created already:**  
+- `artifact — exact path/location — status — purpose`
+
+**Planning to create:**  
+- `artifact — intended destination — purpose/dependency`
+
+**Provenance of current work:**  
+- internal Nathan/SAT/H(s)H source dependencies
+- standard mathematics used
+- external papers/models/equations/assumptions/data used
+- identify exactly what was imported from outside work rather than merely citing a bibliography
+
+**Overlap / role-bleed / contamination risk:**  
+- especially flag any combination of recent-paper/arXiv scanning with forward theorybuilding
+
+**Blockers / inputs needed:**  
 - 
 
-**Material indexed/available but not substantially read:**  
+**Suggested next task:**  
 - 
 
-**Tools / repository / file access currently available:**  
-- 
-
-**Special capabilities / operating constraints:**  
-- 
-
-**Unique context you think you hold that the rest of the team may not:**  
-- 
-
-**Known overlap / possible role-bleed with other instances:**  
-- 
-
-**Blockers / inputs you need:**  
-- 
-
-**Artifacts you have already created:**  
-For each: `artifact — exact path/location — status (workspace/canonical/historical/experimental) — one-line purpose`
-- 
-
-**Artifacts/documents you are currently planning or intending to create:**  
-For each: `planned artifact — intended destination — purpose — dependency if any`
-- 
-
-**What you think you should do next:**  
-- 
-
-**What you think another named instance should handle instead, if anything:**  
-- 
-
-**One thing Janus should know for coordination:**  
+**Coordination note for Janus/Ravel/Nathan:**  
 - 
 
 ## Rules
 
-- Do not claim to have read material you have only seen referenced or indexed.
-- Flag stale assumptions or older theory versions explicitly.
+- Distinguish `read/loaded` from `available/indexed`.
+- Name every artifact already created or currently being drafted and give its location.
+- State provenance at the level of actual dependencies.
+- If your lane mixed external research with theorybuilding, flag every affected artifact; those outputs are provisionally quarantined pending review.
 - Keep the Fundamental Intuitions central when interpreting later or ambiguous theory material.
-- Treat explicitly cautionary or substantively high-speculation material with extra scrutiny: `weird`, `4D organism`, ontology/`ontic`-heavy claims, roleplay-looking material, `helicalism`, mystical/totalizing language, and analogous branches. Caution is not rejection; useful contributions may be extracted after neutral restatement with assumptions and provenance.
-- Roleplay form alone is not disqualifying; Alberr and Holojesu are explicit examples of roleplay contexts that may contain substantive contributions.
-- Standard mathematics may be used freely when its assumptions apply; external physical/theoretical interpretations are imported only deliberately and visibly.
+- Treat conspicuously speculative / `weird` / `4D organism` / ontology-heavy / roleplay-looking / `helicalism` / mystical-totalizing material with extra scrutiny, not automatic rejection. Alberr and Holojesu are explicit reminders that unusual form may still contain substantive contributions.
+- Standard mathematics may be used freely when assumptions hold; external physical theories, equations, assumptions, interpretations, and mechanisms enter H(s)H only deliberately and visibly.
 - Workspaces are noncanonical; current theory status comes from the Dashboard / synthesis / ledgers / checkpoints.
-- If your work depends on another instance’s current output, name the dependency rather than duplicating it silently.
-- After check-in, use `COORDINATION.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md` for shared communication rather than relying on Nathan to relay routine team state.
+- After check-in, use `COORDINATION.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md` for routine direction and cross-team communication.
