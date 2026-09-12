@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T13:13:26.475163+00:00",
+  "generated_at_utc": "2026-09-12T13:15:31.376856+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -2240,7 +2240,7 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -2252,7 +2252,7 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,

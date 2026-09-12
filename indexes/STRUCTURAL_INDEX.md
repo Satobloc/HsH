@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:13:34+00:00`
-- Tree/content state: `88782e1911f3091e84602cca9a43e8758c4461707d75d971afdebe0e6fede5bd`
+- Scanned: `2026-09-12T13:15:37+00:00`
+- Tree/content state: `811e7da7248ce5b894f43871207d324fd4988fe12d444b444575c8dbe7205c41`
 - Coverage: 615 files, 53 directories
 - GitHub tree response truncated: `false`
 
@@ -88,8 +88,8 @@
 - `01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt`
-  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
@@ -521,8 +521,8 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json` — 2057626 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `source-conversation-corpus`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT` — 665220 bytes — `source-conversation-corpus`
@@ -858,11 +858,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 105895 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 105867 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 180475 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 180461 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
