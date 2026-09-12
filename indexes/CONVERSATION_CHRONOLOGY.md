@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:24:04.070245+00:00`
+- Generated: `2026-09-12T13:25:07.212527+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **355**
+- Dated conversation exports: **357**
 - Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -331,6 +331,7 @@
 | 2026-08-26 | 2026-08-26 | [Construction Story Retelling — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.08.26%E2%80%A226.08.26%E2%80%A2Construction%20Story%20Retelling%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_6` | 170 |  |  |
 | 2026-08-26 | 2026-08-26 | [Ooo Construction Story Retelling — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/26.08.26%E2%80%A226.08.26%E2%80%A2Ooo%20Construction%20Story%20Retelling%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_3` | 302 |  |  |
 | 2026-08-26 | 2026-08-26 | [Jetstream Construction Story Retelling — raw (2).json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.26%E2%80%A226.08.26%E2%80%A2Jetstream%20Construction%20Story%20Retelling%20%E2%80%94%20raw%20%282%29.json) | `LONG_CONVOS` | 622 |  |  |
+| 2026-08-26 | 2026-09-07 | [⚗️ CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26%E2%80%A226.09.07%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 245 |  |  |
 | 2026-08-26 | 2026-09-07 | [CALDER [Construction Story Retelling]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.08.26%E2%80%A226.09.07%E2%80%A2CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 245 |  |  |
 | 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 75 | D23 |  |
 | 2026-08-29 | 2026-08-30 | [Quick Pass Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29%E2%80%A226.08.30%E2%80%A2Quick%20Pass%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 75 | D23 |  |
@@ -355,6 +356,7 @@
 | 2026-09-05 | 2026-09-05 | [Theia Life Proposal History](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.09.05%E2%80%A226.09.05%E2%80%A2Theia%20Life%20Proposal%20History%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 3 |  |  |
 | 2026-09-06 | 2026-09-07 | [Succinctness And Math Check](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 417 |  |  |
 | 2026-09-06 | 2026-09-07 | [Succinctness And Math Check — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_7` | 425 |  |  |
+| 2026-09-06 | 2026-09-10 | [🎼 Ravel [H(s)H] Syncmathcek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06%E2%80%A226.09.10%E2%80%A2%F0%9F%8E%BC%20Ravel%20%5BH%28s%29H%5D%20Syncmathcek%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 694 |  |  |
 | 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 689 | D38 |  |
 | 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 689 | D38 |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 938 |  |  |

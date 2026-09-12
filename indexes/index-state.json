@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 916223382,
+    "bytes_known": 934077295,
     "directories": 53,
-    "files": 641
+    "files": 643
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 347,
+    ".json": 349,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 113,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 422,
+    "source-conversation-corpus": 424,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 422,
+    "DEVELOPMENT_FULL_CONVOS": 424,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -629,11 +629,11 @@
       "size": 49
     },
     {
-      "content_id": "8b2cdf8b24c14a1f60137829fce1b203a5160a7c729b7363ea55e65f341183f8",
+      "content_id": "153d902f6c5c45ca4486d6e7d1e4e9d28080fbc5a85d0f928b6c9e2ef3af11ed",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 315145
+      "size": 317015
     },
     {
       "content_id": null,
@@ -2421,6 +2421,13 @@
       "size": 5469135
     },
     {
+      "content_id": "5f879420996f7bbc92b2cc187bfd28ec498094c88a1ee072d0ea3a898207d66a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26•26.09.07•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 12004300
+    },
+    {
       "content_id": "732b61e0f3a0fd8e7eaf9714690c35a578238a2b1571cbf1e94e25ad8e6519dd",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
@@ -2454,6 +2461,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.08•☘️ Aldus [AUTO H(s)H Gitter] — raw.json",
       "role": "source-conversation-corpus",
       "size": 7155853
+    },
+    {
+      "content_id": "81b35d59fb7a1348e4beae7b52a9e23fe4ee3ee342f52bbbe84612e41cd98643",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5846071
     },
     {
       "content_id": "14c64f032a3081f457b445bf5b114119c9421e5a9c4d755ed1619367fc72abcb",
@@ -5095,11 +5109,11 @@
       "size": null
     },
     {
-      "content_id": "1f2c43c25b700191902385be09266acb0e8eb69d82bbbb252e6d4b91d87bc28b",
+      "content_id": "cdb549f9208edda3c5cf1173d728ac3972d568a3f0a1e601ddd2e7779cde5260",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 111908
+      "size": 112428
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5109,7 +5123,7 @@
       "size": 8625
     },
     {
-      "content_id": "b28a8724452362d6139c6fd34ecf0cdd19101b28456387381bd424c037aa4ddb",
+      "content_id": "a0f1f63cfa1d1d0c0fe8896a543aad7274a6f7bce96e448d95de6d0b8ab83f44",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5130,14 +5144,14 @@
       "size": null
     },
     {
-      "content_id": "4d1d5f067c5efc0477bfe190c1ec8521e2ccac7940259e2504a0b813261e0ffb",
+      "content_id": "2d3228461dc93ed5e6980d08ca6ac1358fa3488d270f8c26732d75e27a8354ff",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 192755
+      "size": 193907
     },
     {
-      "content_id": "3cb73daa27d55ba3142b7af4689a815c43c6d40df20a34218785e84780ef0074",
+      "content_id": "43e8f9e6b3d87a9f8a764358fbd53db76e7da5b30704c1b77d172cd8a2e8c55a",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5355,8 +5369,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:24:04+00:00",
+  "scanned_at_utc": "2026-09-12T13:25:07+00:00",
   "schema_version": 1,
-  "tree_id": "061fb16f458b965da3a8b1e6bb5567acb0ec5e6fdaeec4fa2b54d652cf8890f3",
+  "tree_id": "28fabd6349d510e34898fdd13e0f24350a4575eb3935f7115e8fa321a2632851",
   "tree_response_truncated": false
 }
