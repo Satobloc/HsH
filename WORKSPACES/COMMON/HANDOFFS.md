@@ -6,6 +6,8 @@
 
 `2026-09-12 — Integration -> geometry/solver + covariance/representation — FC-BASE-001 — the local B^3/B^2/S^2/readout dimension hierarchy and HSH-P001 skeleton are ready; verify anisotropic and nontransverse cases and specify the minimum SO(3) frame/axis data required for scalar ᚼ — ledgers/FINITE_CORE_COMPARISON.md and NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md — return a freeze-or-repair note here`
 
+`2026-09-12 — Integration -> Ravel / Worldtube Lab — FC-BASE-002 — reproduce L_Sigma, (I2,I3,chi), and the isotropic B^3 gauge-null result against the particle-scale candidate; identify the first step requiring a rank-two support plane, boundary field, or material director — WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md — return a freeze-or-repair note here`
+
 ## Completed handoffs
 
 _None recorded._
