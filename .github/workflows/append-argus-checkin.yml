@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md'
+      - '.github/workflows/append-argus-checkin.yml'
 
 permissions:
   contents: write
@@ -16,9 +17,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Append check-in if absent
+      - name: Append and commit against latest main
         run: |
-          python - <<'PY'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
           from pathlib import Path
           src = Path('WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md')
           dst = Path('WORKSPACES/COMMON/CHECKINS.md')
@@ -31,13 +37,15 @@ jobs:
               dst.write_text(current.rstrip() + '\n\n' + block + '\n', encoding='utf-8')
               print('Appended Argus check-in.')
           PY
-      - name: Commit
-        run: |
-          if git diff --quiet -- WORKSPACES/COMMON/CHECKINS.md; then
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add WORKSPACES/COMMON/CHECKINS.md
-          git commit -m 'coordination: append Argus roster check-in'
-          git push
+            if git diff --quiet -- WORKSPACES/COMMON/CHECKINS.md; then
+              exit 0
+            fi
+            git add WORKSPACES/COMMON/CHECKINS.md
+            git commit -m 'coordination: append Argus roster check-in'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo 'Failed to append Argus check-in after retries.' >&2
+          exit 1
