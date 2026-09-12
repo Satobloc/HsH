@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T07:10:26.860832+00:00`
+- Generated: `2026-09-12T07:24:35.336054+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **331**
+- Dated conversation exports: **330**
 - Skipped non-conversation or unparseable files: **42**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -53,7 +53,6 @@
 | 2024-09-01 | 2024-09-02 | [Gravitational Lensing Exoplanets](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01%E2%80%A224.09.02%E2%80%A2Gravitational%20Lensing%20Exoplanets%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 69 |  |  |
 | 2024-09-02 | 2024-09-02 | [Discrete Space and Dark Matter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02%E2%80%A224.09.02%E2%80%A2Discrete%20Space%20and%20Dark%20Matter%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2024-09-06 | 2024-09-06 | [ChatGPT Consciousness Argument](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06%E2%80%A224.09.06%E2%80%A2ChatGPT%20Consciousness%20Argument%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 30 |  |  |
-| 2024-09-22 | 2024-09-24 | [Network Data Analysis Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22%E2%80%A224.09.24%E2%80%A2Network%20Data%20Analysis%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 43 |  |  |
 | 2024-11-15 | 2024-11-15 | [Consciousness AI Analysis](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Consciousness%20AI%20Analysis%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 23 |  |  |
 | 2024-11-15 | 2024-11-15 | [AND NOT Logic](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 14 |  |  |
 | 2024-11-15 | 2024-11-15 | [Stringing-Along Theory Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15%E2%80%A224.11.15%E2%80%A2Stringing-Along%20Theory%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 2 |  |  |

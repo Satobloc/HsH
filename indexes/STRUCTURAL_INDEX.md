@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T07:10:27+00:00`
-- Tree/content state: `8b59ade2091afde3b7996d377db3bde14cea08579441909738f927a60784d0c2`
-- Coverage: 563 files, 48 directories
+- Scanned: `2026-09-12T07:24:35+00:00`
+- Tree/content state: `96568254b066b4435348859ca67307a0722921a3c8bc2b42f6475468025b7f6f`
+- Coverage: 562 files, 48 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
-| `DEVELOPMENT_FULL_CONVOS` | 392 |
+| `DEVELOPMENT_FULL_CONVOS` | 391 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 3 |
-| `.json` | 322 |
+| `.json` | 321 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 68 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 392 |
+| `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 85 |
@@ -284,7 +284,7 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 294118 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 293250 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5792 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -434,7 +434,6 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json` — 285707 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02•24.09.02•Discrete Space and Dark Matter — raw.json` — 37581 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06•24.09.06•ChatGPT Consciousness Argument — raw.json` — 122852 bytes — `source-conversation-corpus`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22•24.09.24•Network Data Analysis Request — raw.json` — 217356 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json` — 39522 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Consciousness AI Analysis — raw.json` — 531234 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Framework Integration Analysis — raw.json` — 101248 bytes — `source-conversation-corpus`
@@ -808,10 +807,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 105297 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 105071 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 179133 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 178832 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

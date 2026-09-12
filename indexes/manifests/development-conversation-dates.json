@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-09-12T07:10:19.763406+00:00",
+  "generated_at_utc": "2026-09-12T07:24:31.024652+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 322,
-    "skipped": 42,
-    "renamed": 9
+    "unchanged": 330,
+    "skipped": 42
   },
   "records": [
     {
@@ -1413,16 +1412,6 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22•24.09.24•Network Data Analysis Request — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22•24.09.24•Network Data Analysis Request — raw.json",
-      "start_local": "2024-09-22T08:43:18.866587-04:00",
-      "end_local": "2024-09-24T16:13:09.315805-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 43,
-      "status": "unchanged",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json",
       "start_local": "2024-11-15T03:08:34.791517-05:00",
@@ -1985,6 +1974,96 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw (1).json",
+      "start_local": "2025-05-04T04:58:12.016436-04:00",
+      "end_local": "2025-05-04T04:58:12.174000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw.json",
+      "start_local": "2025-05-04T05:12:55.104468-04:00",
+      "end_local": "2025-05-04T05:14:23.908000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B equation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B equation — raw.json",
+      "start_local": "2025-05-04T05:00:44.730159-04:00",
+      "end_local": "2025-05-04T05:00:45.241000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (1).json",
+      "start_local": "2025-05-04T04:59:18.635191-04:00",
+      "end_local": "2025-05-04T04:59:18.800000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (2).json",
+      "start_local": "2025-05-04T04:46:49.709071-04:00",
+      "end_local": "2025-05-04T04:49:54.383000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw.json",
+      "start_local": "2025-05-04T05:15:21.294068-04:00",
+      "end_local": "2025-05-04T05:15:21.823000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C Percent Difference — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C Percent Difference — raw.json",
+      "start_local": "2025-05-04T08:37:04.970000-04:00",
+      "end_local": "2025-05-04T08:37:05.169851-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw (1).json",
+      "start_local": "2025-05-04T04:59:56.916795-04:00",
+      "end_local": "2025-05-04T04:59:57.422000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw.json",
+      "start_local": "2025-05-04T05:02:02.398011-04:00",
+      "end_local": "2025-05-04T05:02:46.358000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json",
       "start_local": "2025-05-04T01:16:51.872698-04:00",
@@ -2122,96 +2201,6 @@
       "timestamp_source": "message.create_time",
       "message_count": 710,
       "status": "unchanged",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for A — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw (1).json",
-      "start_local": "2025-05-04T04:58:12.016436-04:00",
-      "end_local": "2025-05-04T04:58:12.174000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for A — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for A — raw.json",
-      "start_local": "2025-05-04T05:12:55.104468-04:00",
-      "end_local": "2025-05-04T05:14:23.908000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for B equation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B equation — raw.json",
-      "start_local": "2025-05-04T05:00:44.730159-04:00",
-      "end_local": "2025-05-04T05:00:45.241000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for B — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (1).json",
-      "start_local": "2025-05-04T04:59:18.635191-04:00",
-      "end_local": "2025-05-04T04:59:18.800000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for B — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw (2).json",
-      "start_local": "2025-05-04T04:46:49.709071-04:00",
-      "end_local": "2025-05-04T04:49:54.383000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 6,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for B — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for B — raw.json",
-      "start_local": "2025-05-04T05:15:21.294068-04:00",
-      "end_local": "2025-05-04T05:15:21.823000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for C Percent Difference — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C Percent Difference — raw.json",
-      "start_local": "2025-05-04T08:37:04.970000-04:00",
-      "end_local": "2025-05-04T08:37:05.169851-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for C — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw (1).json",
-      "start_local": "2025-05-04T04:59:56.916795-04:00",
-      "end_local": "2025-05-04T04:59:57.422000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/Solve for C — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04•25.05.04•Solve for C — raw.json",
-      "start_local": "2025-05-04T05:02:02.398011-04:00",
-      "end_local": "2025-05-04T05:02:46.358000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "renamed",
       "warnings": []
     },
     {
