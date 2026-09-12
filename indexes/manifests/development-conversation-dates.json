@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-12T13:26:59.851720+00:00",
+  "generated_at_utc": "2026-09-12T13:27:57.589488+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 358,
+    "unchanged": 362,
     "skipped": 47,
-    "renamed": 4
+    "renamed": 1
   },
   "records": [
     {
@@ -2263,8 +2263,28 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 AI Archive Test Run — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 AI Archive Test Run — raw.json",
+      "start_local": "2026-06-08T07:06:48.075048-04:00",
+      "end_local": "2026-09-08T11:46:00.595838-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 716,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json",
+      "start_local": "2026-06-08T13:42:25.046977-04:00",
+      "end_local": "2026-09-08T03:04:46.786229-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 209,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw.json",
       "start_local": "2026-06-08T13:42:25.046977-04:00",
       "end_local": "2026-09-08T03:04:46.786229-04:00",
       "timestamp_source": "message.create_time",
@@ -2339,6 +2359,16 @@
       "end_local": "2026-09-12T08:43:33.276000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 75,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "start_local": "2026-07-11T02:13:07.596000-04:00",
+      "end_local": "2026-07-17T16:48:09.108915-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 461,
       "status": "unchanged",
       "warnings": []
     },
@@ -2503,6 +2533,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-09T13:11:01.818880-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 114,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json",
       "start_local": "2026-09-09T04:39:45.467000-04:00",
@@ -2533,16 +2573,6 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/Reasoning with SAT-HSH Skill — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
-      "start_local": "2026-07-11T02:13:07.596000-04:00",
-      "end_local": "2026-07-17T16:48:09.108915-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 461,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -2555,32 +2585,12 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🧮 AI Archive Test Run — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 AI Archive Test Run — raw.json",
-      "start_local": "2026-06-08T07:06:48.075048-04:00",
-      "end_local": "2026-09-08T11:46:00.595838-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🥼 Raindrop Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "start_local": "2026-07-07T15:22:15.828080-04:00",
+      "end_local": "2026-07-12T16:34:30.981369-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 716,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🧮 RECENT arXiv PAPERS — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw.json",
-      "start_local": "2026-09-08T07:18:24.071268-04:00",
-      "end_local": "2026-09-09T13:11:01.818880-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 114,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🧮 arXiv keyword scraping script — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw.json",
-      "start_local": "2026-06-08T13:42:25.046977-04:00",
-      "end_local": "2026-09-08T03:04:46.786229-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 209,
+      "message_count": 460,
       "status": "renamed",
       "warnings": []
     },
