@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-12T13:27:57.589488+00:00",
+  "generated_at_utc": "2026-09-12T13:28:53.367541+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 362,
+    "unchanged": 363,
     "skipped": 47,
     "renamed": 1
   },
@@ -2323,6 +2323,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
+      "start_local": "2026-07-07T15:22:15.828080-04:00",
+      "end_local": "2026-07-12T16:34:30.981369-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 460,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.07.10•Git clone explanation — raw (1).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.07.10•Git clone explanation — raw (1).json",
       "start_local": "2026-07-10T01:27:01.835000-04:00",
@@ -2585,12 +2595,12 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🥼 Raindrop Exploration — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json",
-      "start_local": "2026-07-07T15:22:15.828080-04:00",
-      "end_local": "2026-07-12T16:34:30.981369-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "start_local": "2026-09-07T18:41:11.950000-04:00",
+      "end_local": "2026-09-10T13:18:57.660398-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 460,
+      "message_count": 945,
       "status": "renamed",
       "warnings": []
     },
