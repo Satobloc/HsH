@@ -309,7 +309,11 @@
     if (next) loadConversation(next.id, 0, true);
   }
 
-  function replaySpeed() { return Number(el.replaySpeed.value) || 1; }
+  function replaySpeed(index = null) {
+    const base = Number(el.replaySpeed.value) || 1;
+    if (index == null) return base;
+    return state.messages[index]?.role === "assistant" ? base * 10 : base;
+  }
 
   function stopReplay() {
     state.replay.running = false; state.replay.token += 1;
@@ -323,7 +327,7 @@
     ensureRendered(index); jumpToMessage(index, true);
     const node = document.getElementById(`m${index + 1}`); if (!node) return false;
     const body = node.querySelector(".message-body"), text = state.messages[index].text;
-    const charsPerSecond = 48 * replaySpeed(); let shown = 0; body.textContent = "";
+    const charsPerSecond = 48 * replaySpeed(index); let shown = 0; body.textContent = "";
     while (shown < text.length && state.replay.running && token === state.replay.token) {
       shown = Math.min(text.length, shown + Math.max(1, Math.round(charsPerSecond / 20)));
       body.textContent = text.slice(0, shown); node.scrollIntoView({ block: "nearest" });
@@ -339,11 +343,11 @@
       if (typealong) ok = await typealongMessage(i, token);
       else {
         ensureRendered(i); jumpToMessage(i, true);
-        const dwell = Math.min(7000, Math.max(650, (state.messages[i].text.length / (42 * replaySpeed())) * 1000));
+        const dwell = Math.min(7000, Math.max(650, (state.messages[i].text.length / (42 * replaySpeed(i))) * 1000));
         el.replayStatus.textContent = `Message ${i + 1} / ${state.messages.length}`; ok = await wait(dwell, token);
       }
       if (!ok) break; state.activeIndex = i;
-      if (typealong && !await wait(Math.min(900, 300 + state.messages[i].text.length * 0.7) / replaySpeed(), token)) break;
+      if (typealong && !await wait(Math.min(900, 300 + state.messages[i].text.length * 0.7) / replaySpeed(i), token)) break;
     }
     if (token === state.replay.token) stopReplay();
   }
