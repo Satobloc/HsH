@@ -146,9 +146,29 @@
     }
   }
 
+  function renderMath(body) {
+    if (!body || typeof window.renderMathInElement !== "function") return;
+    try {
+      window.renderMathInElement(body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false,
+        strict: "ignore",
+        ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      });
+    } catch (error) {
+      console.debug("Math render skipped", error);
+    }
+  }
+
   function renderBody(body, rawText, query = "") {
     if (!body || body.dataset.view === "raw") return;
     body.innerHTML = renderMarkdown(rawText);
+    renderMath(body);
     if (query) highlightTextNodes(body, query);
     body.dataset.presented = "true";
   }
@@ -156,7 +176,7 @@
   function addCollapseToggle(article, body, rawText, kind) {
     if (article.querySelector(".expand-toggle")) return;
     const toolish = ["tool", "function", "internal", "developer", "system"].includes(kind);
-    const threshold = toolish ? 900 : 6500;
+    const threshold = toolish ? 260 : 2200;
     if (rawText.length <= threshold) return;
     article.classList.add("collapsible");
     if (toolish) article.classList.add("compact-output");
