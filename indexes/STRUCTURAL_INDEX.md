@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T10:06:27+00:00`
-- Tree/content state: `881bb18fb26a9907510db1a04de360186a7573d57b45496db910074292d94d2b`
+- Scanned: `2026-09-12T10:07:09+00:00`
+- Tree/content state: `be0f9d59cb74808d0a800f23fa638ae4783ad2b92f951ca557e105f5a73117fc`
 - Coverage: 577 files, 49 directories
 - GitHub tree response truncated: `false`
 
