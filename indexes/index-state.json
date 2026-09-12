@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 821162006,
+    "bytes_known": 821151042,
     "directories": 45,
-    "files": 456
+    "files": 454
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -23,13 +23,13 @@
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
-    ".yml": 7,
+    ".yml": 5,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 7,
+    "automation-workflow": 5,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -47,7 +47,7 @@
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     "!_CONVERSATION_VIEWER.md": 1,
-    ".github": 7,
+    ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 13,
     "DEVELOPMENT_FULL_CONVOS": 283,
@@ -478,11 +478,11 @@
       "size": null
     },
     {
-      "content_id": "2296a39d1f1b6961fdd6c5943d7a7c74c4209009af577679498ccd82630ee38a",
+      "content_id": "52e9e7af007c9236a45fc3de6344ed0a7cf31929b621c566e2c5420acafe4c03",
       "kind": "blob",
       "path": ".github/workflows/build-conversation-viewer.yml",
       "role": "automation-workflow",
-      "size": 4643
+      "size": 5238
     },
     {
       "content_id": "9b28116201aab6a5f46d11b74dc73666c7eea2e6fd46100f0f5de1bba56e3866",
@@ -497,20 +497,6 @@
       "path": ".github/workflows/deploy-conversation-viewer-pages.yml",
       "role": "automation-workflow",
       "size": 1008
-    },
-    {
-      "content_id": "9b905f462670c5cbdd26ad8a508083f46e0b51bca0855cd4ebfdd970f410e31d",
-      "kind": "blob",
-      "path": ".github/workflows/find-srena-orphan.yml",
-      "role": "automation-workflow",
-      "size": 1863
-    },
-    {
-      "content_id": "54580d857863f57b8bdb25b94b4cfdbfaec4c9400535d70a5153b7fe51dbe7dd",
-      "kind": "blob",
-      "path": ".github/workflows/integrate-srena-viewer.yml",
-      "role": "automation-workflow",
-      "size": 14740
     },
     {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
@@ -583,11 +569,11 @@
       "size": null
     },
     {
-      "content_id": "80bf6625fc92cf0d60039c2e600058cfd785ce6d63e4f5c460591d8a7358e4b7",
+      "content_id": "bc547ccdf66788e4a6f197282d980133ded5a0d690a78d818c3fcd1c8edb09a0",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 171730
+      "size": 173028
     },
     {
       "content_id": "b38236dbb0e449699fa7d6c5053b97ed51e7615a5658cbd2c38893ea2ff8e120",
@@ -618,11 +604,11 @@
       "size": 5253
     },
     {
-      "content_id": "b458751fafa04d2041065df06d840f0c22e776a436180add9d4db5994e0fb42f",
+      "content_id": "14e769543511834993aff55d4060a171dcbd3b054ed74f816f8b10f93f5823a6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/presentation.js",
       "role": "unclassified",
-      "size": 9943
+      "size": 10121
     },
     {
       "content_id": "a59139b1f3141548d80e5ea54027f66c823fd5d78fda98d78769874c7a4a790e",
@@ -632,11 +618,11 @@
       "size": 8471
     },
     {
-      "content_id": "80e22116b77e7e4087354c16fc259374cfc4024cdd7a944f5a8957feed068174",
+      "content_id": "1efe20410f125664a333427c0681884078055433305e20a5300da7829f6eb818",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/viewer.js",
       "role": "unclassified",
-      "size": 24068
+      "size": 25926
     },
     {
       "content_id": null,
@@ -3726,14 +3712,14 @@
       "size": null
     },
     {
-      "content_id": "193e51cb6107e38fe580e540530d2fb5deec6f53a928905d219900679e8e21e1",
+      "content_id": "66f1c3806ce92eed05e0621529d4019fd27bc1c196768f5f1323abaac3ccb323",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "e4cbfaac4ccdeadfa5e71662d5a7c130316282fe039a6ef2effd507c2846b9dd",
+      "content_id": "53fab11a04861da349aff7004d0c22e96711acaa991d26b14a82aa301475f245",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3754,14 +3740,14 @@
       "size": null
     },
     {
-      "content_id": "a2345fbbb7df26ec6c54d23d14d3704ec8edd3efd026902d29c08f7b58657ab0",
+      "content_id": "110c01879bd76dd53711244e6ae88371b7a1360921b5a36b4d5508ef2e0c6ab3",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "8703a69fd638ca4cec4dbac5d596ef9ffd634db0dd16641f46488d265d0f9fac",
+      "content_id": "6d1fc8670c162cc8d87d612f0babb9eac175424ba38b16f7d98deaef5fd057b8",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3866,11 +3852,11 @@
       "size": null
     },
     {
-      "content_id": "850be5c61c227d7d8a5a391f699f44253bb62f823a460500df0aa55e404d96c4",
+      "content_id": "6d5400f7adbc27d4f6f1224d4d7c2df4438893375efc193ba2c4d4fa04538cca",
       "kind": "blob",
       "path": "tools/build_conversation_viewer.py",
       "role": "archive-tooling",
-      "size": 19357
+      "size": 21067
     },
     {
       "content_id": "c26eff3218a7857564d0aad650040a8a3a6e6823639bdebea29a19c6afbf5944",
@@ -3965,8 +3951,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T00:23:10+00:00",
+  "scanned_at_utc": "2026-09-12T00:26:31+00:00",
   "schema_version": 1,
-  "tree_id": "ebb1acc5e9a9e94d2b2267b5f598cffe11b8b702cbed6edeea86fb3cf16647af",
+  "tree_id": "e81047fcac6a4468a7ae2d37bedfb398b1ce2c4fabc0e69d7fcde6814e641e77",
   "tree_response_truncated": false
 }

@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T00:23:10+00:00`
-- Tree/content state: `ebb1acc5e9a9e94d2b2267b5f598cffe11b8b702cbed6edeea86fb3cf16647af`
-- Coverage: 456 files, 45 directories
+- Scanned: `2026-09-12T00:26:31+00:00`
+- Tree/content state: `e81047fcac6a4468a7ae2d37bedfb398b1ce2c4fabc0e69d7fcde6814e641e77`
+- Coverage: 454 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 7 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 13 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -60,7 +60,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 7 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -69,7 +69,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 7 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -257,11 +257,9 @@
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
-- `.github/workflows/build-conversation-viewer.yml` — 4643 bytes — `automation-workflow`
+- `.github/workflows/build-conversation-viewer.yml` — 5238 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
-- `.github/workflows/find-srena-orphan.yml` — 1863 bytes — `automation-workflow`
-- `.github/workflows/integrate-srena-viewer.yml` — 14740 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
@@ -270,14 +268,14 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 171730 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 173028 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 4852 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 5253 bytes — `unclassified`
-- `CONVERSATION_VIEWER/presentation.js` — 9943 bytes — `unclassified`
+- `CONVERSATION_VIEWER/presentation.js` — 10121 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 8471 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.js` — 24068 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 25926 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
@@ -699,7 +697,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_conversation_viewer.py` — 19357 bytes — `archive-tooling`
+- `tools/build_conversation_viewer.py` — 21067 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
