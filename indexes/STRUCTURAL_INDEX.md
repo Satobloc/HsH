@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T16:48:12+00:00`
-- Tree/content state: `bb7087c4a925bfeb52a956bea91bb3aa6dba5ae5b9dd72fdfe3142c1c261b4de`
-- Coverage: 694 files, 54 directories
+- Scanned: `2026-09-12T16:51:28+00:00`
+- Tree/content state: `a6a698d79db9fae2c60c377f4f2100874935ebf182db3b61132c38188ff6a7a9`
+- Coverage: 695 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 64 |
+| `WORKSPACES` | 65 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 376 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 133 |
+| `.md` | 134 |
 | `.pdf` | 5 |
 | `.png` | 30 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 64 |
+| `llm-workspace` | 65 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 455 |
 | `synthesis-workspace` | 6 |
@@ -874,7 +874,7 @@
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 5845 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 6739 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
@@ -885,9 +885,10 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 3203 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 7880 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 4437 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -920,10 +921,10 @@
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 2541 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md` — 2052 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md` — 2085 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 7344 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
