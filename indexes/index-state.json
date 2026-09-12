@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 821165211,
+    "bytes_known": 821158983,
     "directories": 45,
-    "files": 456
+    "files": 454
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -19,17 +19,17 @@
     ".md": 69,
     ".pdf": 5,
     ".png": 27,
-    ".py": 13,
+    ".py": 12,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
-    ".yml": 6,
+    ".yml": 5,
     "[none]": 2
   },
   "counts_by_role": {
-    "archive-tooling": 12,
+    "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 6,
+    "automation-workflow": 5,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -47,7 +47,7 @@
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     "!_CONVERSATION_VIEWER.md": 1,
-    ".github": 6,
+    ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 13,
     "DEVELOPMENT_FULL_CONVOS": 283,
@@ -69,7 +69,7 @@
     "ledgers": 3,
     "synthesis": 6,
     "tests": 1,
-    "tools": 12,
+    "tools": 11,
     "▶ LAUNCH CONVERSATION VIEWER.cmd": 1
   },
   "duplicates": [
@@ -476,13 +476,6 @@
       "path": ".github/workflows",
       "role": "automation-workflow",
       "size": null
-    },
-    {
-      "content_id": "4187c3d507ed56b47377875123b961882302156053fc249c16f011042a349a18",
-      "kind": "blob",
-      "path": ".github/workflows/apply-25line-truncation.yml",
-      "role": "automation-workflow",
-      "size": 1297
     },
     {
       "content_id": "52e9e7af007c9236a45fc3de6344ed0a7cf31929b621c566e2c5420acafe4c03",
@@ -3719,14 +3712,14 @@
       "size": null
     },
     {
-      "content_id": "a25af6267baea429ab9f4deab39d2e42b90e4d30b39f4c55b62eb8acad8ca3fd",
+      "content_id": "0f6ca109a758c27373e0c8dbb846e425941bf78d276073ff06964e41772b63f3",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "abf8d107b4505b21e6ae6f677eb2430473a1629dae60333c75cc4735a4d17065",
+      "content_id": "8ce8434accd258b370602bc0af39ce3ac23eeaed3bdf93da36c05bd6f570cd81",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3747,14 +3740,14 @@
       "size": null
     },
     {
-      "content_id": "6d677a4c1c2d1d5be9d8d4653f43e9d705414a5c170fc6ad9a6d1ae4e8992867",
+      "content_id": "58f4c8e6a8035146cd33744fb03add102abbcd421b929a77f9f1463578259609",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "6001aa1f766adbb738566520ff6f806648781fe717706c760372f9d3312c89e0",
+      "content_id": "084953944303c4e9aa5d18854310cc4ee5735938fadba71305dddccbb1e53c5c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3943,13 +3936,6 @@
       "size": 37113
     },
     {
-      "content_id": "94bf591c3842a47cb7400e8680004636a8f09bd6866c741a4fa3f06796e26d0b",
-      "kind": "blob",
-      "path": "tools/patch_25line_truncation_and_replay_runway.py",
-      "role": "archive-tooling",
-      "size": 4931
-    },
-    {
       "content_id": "9c34b061f89d878e38fc0e0d20862a01c9cf453d68a40c79004fc83bedcb22ac",
       "kind": "blob",
       "path": "▶ LAUNCH CONVERSATION VIEWER.cmd",
@@ -3965,8 +3951,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T02:58:42+00:00",
+  "scanned_at_utc": "2026-09-12T02:59:42+00:00",
   "schema_version": 1,
-  "tree_id": "311081a7ab77d42743dd313cb70771c39f01d91278ebd22a99387fa2e191fa4d",
+  "tree_id": "d15e7f4af8f456aeb544aa9eb015c7279dcb3302614f579c4bf6fef4bc70940e",
   "tree_response_truncated": false
 }

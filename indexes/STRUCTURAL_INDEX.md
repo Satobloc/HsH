@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T02:58:42+00:00`
-- Tree/content state: `311081a7ab77d42743dd313cb70771c39f01d91278ebd22a99387fa2e191fa4d`
-- Coverage: 456 files, 45 directories
+- Scanned: `2026-09-12T02:59:42+00:00`
+- Tree/content state: `d15e7f4af8f456aeb544aa9eb015c7279dcb3302614f579c4bf6fef4bc70940e`
+- Coverage: 454 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 6 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 13 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -35,7 +35,7 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 12 |
+| `tools` | 11 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -56,20 +56,20 @@
 | `.md` | 69 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 13 |
+| `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 6 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 12 |
+| `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -257,7 +257,6 @@
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
-- `.github/workflows/apply-25line-truncation.yml` — 1297 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5238 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
@@ -709,7 +708,6 @@
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_1.json` — 11151 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_2-6.json` — 37113 bytes — `archive-tooling`
-- `tools/patch_25line_truncation_and_replay_runway.py` — 4931 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations
