@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T09:16:14+00:00`
-- Tree/content state: `7ab4332d5b3a60787b610787c498ee00bece8d42c36d0ca4f9485cd4cf0d3a0c`
-- Coverage: 575 files, 49 directories
+- Scanned: `2026-09-12T09:20:14+00:00`
+- Tree/content state: `08c9c2afd19080d94463c905026bf6ac31fef9df89c69f606bd5c28f53eaa03b`
+- Coverage: 576 files, 49 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 9 |
+| `WORKSPACES` | 10 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 78 |
+| `.md` | 79 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -75,7 +75,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 9 |
+| `llm-workspace` | 10 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -796,9 +796,10 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/09_elastic_sheet_displacement.png` — 175922 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
-- `WORKSPACES/COMMON/COORDINATION.md` — 2468 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/COORDINATION.md` — 3333 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 1020 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/README.md` — 1736 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/README.md` — 1978 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6106 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
