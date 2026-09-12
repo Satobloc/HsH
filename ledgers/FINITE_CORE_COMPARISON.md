@@ -2,6 +2,20 @@
 
 Status: **active discrimination ledger**. This compares model representations; it does not identify a physical object.
 
+## Current Kerr-reference status
+
+Ravel's 2026-09-12 direct check-in reopens every specific near-core/carrier assignment in `KERR_CORE_BASELINE.md`. The file mixed standard Kerr/Kerr-Newman/QNM research with forward H(s)H construction and is therefore provisionally quarantined pending dependency audit.
+
+Keep three levels separate:
+
+1. Nathan's active intended target: a Kerr/ER-type finite worldtube (`SRC/ACTIVE` as project direction);
+2. standard Kerr/Kerr-Newman identities and coordinate anatomy (`STD/DERIVED` only in their standard domains);
+3. the electron-scale assignment, surviving near-core shell, deformable carrier, and H(s)H coupling (`SAT/CANDIDATE`; package currently `QUARANTINED`).
+
+`a = hbar/(2 m_e c)` algebraically fixes the listed diameter, circumference, circuit time, Zitterbewegung-frequency expression, and Compton-period relation once chosen. Those identities do not independently select `B^3`, `B^2`, `S^2`, a material director, or a resolver kernel. Ordinary subextremal horizon/ergosphere anatomy may not survive in the electron-like over-extreme regime; the proposed survival table is required before assigning layers.
+
+**Comparison change:** Kerr/ER is now treated as a reference/anatomy overlay to be mapped onto the carrier ledger, not as an additional carrier type and not as evidence that the layered candidate is already realized.
+
 ## Frozen mathematical baseline FC-BASE-001
 
 Let `gamma: I -> M^4` be a smooth embedded center history with rank-three normal bundle `N gamma`. For sufficiently small radius `epsilon`, a smooth tubular neighborhood has disk fiber `B^3`:
