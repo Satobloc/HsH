@@ -312,3 +312,52 @@ Append one section headed with your instance name and date.
 
 **Coordination note:**  
 - The public front page now has an operational rule worth preserving: **anything placed in `NEW_PAPERS/SEPTEMER_2026` automatically appears in the top FEATURED section, with one random rotating spotlight; FEATURED placement is not a vetting or theory-authority signal.** Also, the main archive's successful 153-file PDF pass was root-only, not recursive, so we should not yet say that every archive PDF has a text extract.
+
+### Ravel — 2026-09-12
+
+**Working on now:**  
+- **Worldtube/Kerr construction audit.** Intended output: neutral Kerr/Kerr-Newman anatomy -> 4D translation -> dynamical response -> measurement packet, including an electron-like over-extreme survival table. Intended destination: `WORKSPACES/WORLDTUBE_LAB/` first; no promotion without review. Status: active. The transverse Kerr reference scale is provisionally frozen; any specific near-core/carrier assignment has been reopened rather than assumed.
+- **Historical filament-tension reconstruction.** Intended output: dependency/provenance ledger for archived `T ~ 1.2e44 N` / `c^4/G`, separating actual derivation, imported scale, calibration/fit, arithmetic, and later reuse. Intended destination: Worldtube Lab and/or archive-recovery handoff, not current-theory surfaces. Status: active; the old Planck-force-scale number is not currently accepted as a derived SAT/H(s)H result.
+- **Main-archive PDF extraction.** Intended output: readable root-level PDF corpus under `_AUTO_EXTRACTED_TEXT/` with manifests/logs. Intended destination: main SAT archive generated-text/log surfaces. Status: root pass effectively succeeded: 153 PDFs found, 152 extracted and committed; `FINAL_CLOSURE.pdf` is an empty file and was logged as the lone failure, causing the Action to report failure while preserving the useful outputs.
+
+**Know / have access to:**  
+- **A. Actually loaded / substantially read:** this roster memo; `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`, `CHECKINS.md`, and `COORDINATION.md`; the uploaded SAT/H(s)H reasoning skill (working contract, not fully vetted); Worldtube Lab README and Kerr baseline; Fundamental Intuitions and selected SAT/H(s)H core/Kerr/ER/filament-tension material used in the live rebuild; current PDF extractor workflow and run logs.
+- **B. Known/indexed/accessible but not substantially read:** large portions of `SAT_THEORY_ARCHIVE_2023-25`, `HsH`, and `HSH_RESOURCES`; the newly extracted root-PDF corpus as a whole; many historical conversation exports and superseded branches. `TEAM_CONTROL.md`, `EXTERNAL_RESEARCH_FIREWALL.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md` are known Common surfaces but should still be freshly loaded before detailed use.
+- **C. Current tools/access:** GitHub read/write/search/commit/Actions run-job-log inspection; Slack integration; conversation/File Library retrieval; public web search; Python/container runtimes and user-visible Python; scheduled/conditional automations; standard artifact-generation tools.
+- **D. Capabilities/limitations:** GPT-5.6 Sol. Strong fit for live theory synthesis, dimensional/algebraic/geometric convergence checks, representation discipline, dependency tracing, and theory acceptance/rejection with Nathan. I cannot see another instance's unsurfaced private state; archive search remains incomplete despite the new root extraction; connector/search snippets can bias retrieval; no unattended background execution occurs except explicit automations.
+
+**Created already:**  
+- `Worldtube Lab charter — Satobloc/HsH/WORKSPACES/WORLDTUBE_LAB/README.md — workspace — bounded live forward-construction workflow for Nathan/Ravel/Janus — operational only, not canonical theory — commit b959c971fb62fab5c80c31ce2232d69bfeb0f9c2.`
+- `KERR_CORE_BASELINE.md — Satobloc/HsH/WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md — workspace / provisional / PROVISIONALLY QUARANTINED pending provenance audit — records the already-built Kerr reference cross-section, numerical measures, circuit identities, caveats, and open questions — no current-theory authority until mixed-context audit is complete.`
+- `#worldtube-lab — Slack channel C0C0L4S8220 — workspace coordination — Nathan/Ravel/Janus live bench — no theory authority by itself.`
+- `PDF extractor batch extension/hardening — Satobloc/SAT_THEORY_ARCHIVE_2023-25/.github/workflows/extract-pdf-text.yml — archive infrastructure — bounded directory extraction, OCR fallback, SHA256 provenance, manifests/logs, concurrency-safe rebase/push — commits 29a201a583afcb246636c6464f090c6350f3a875 and 9c03128e303d80e81c68af61888fdc586d3e91cd.`
+- `Root PDF extraction requests — Satobloc/SAT_THEORY_ARCHIVE_2023-25/_AI_REQUESTS/pdf_extract_request.json — generated/operational — first bounded discovery pass and successful 200-file-cap retry — request commits 380b58f6d010e03e3c4bc4eb9052d45aebee5198 and 8f3aa1146d64c4c9a1ade20c5e0d9e6de6065018.`
+
+**Planning to create:**  
+- `Kerr anatomy/response/metrology packet — Worldtube Lab — separate actual Kerr structures from shell intuition and map 3D -> 4D -> response -> measurements; dependencies: internal worldtube constraints + standard GR geometry + empirical backstops; likely overlap with Meridian/Calder/empirical lane.`
+- `Electron-like over-extreme Kerr/KN survival table — same packet/workspace — mark which familiar black-hole structures survive, disappear, or change status in the electron-like regime; overlap with Meridian/Calder.`
+- `Filament-tension provenance / constitutive-response ledger — Worldtube Lab and/or archive-recovery handoff — reconstruct whether old tension was ever derived and determine the minimum response structure current H(s)H actually requires; dependencies: extracted archive corpus + Morrow historical lane; overlap likely and should be coordinated.`
+
+**Provenance of current work:**  
+- **A. Nathan / SAT / H(s)H internal sources:** Nathan's live construction constraints/corrections; Fundamental Intuitions; SAT/H(s)H archive material; current Worldtube Lab baseline; older filament-tension/base-unit/audit records.
+- **B. Standard mathematics:** Kerr/Kerr-Newman geometry, helix geometry, dimensional analysis, and standard perturbation-response mathematics where their assumptions apply.
+- **C. External empirical data / measurements / constraints:** CODATA/PDG-style constants/limits; EHT/LIGO/scattering-type observations only as measurement references or hard backstops, not as ontology.
+- **D. External papers / theories / models / equations / assumptions:** standard Kerr/Carter, Einstein-Rosen, Teukolsky/QNM and related GR machinery entered as standard-physics anatomy/dynamics/citation closure. No external mechanism is accepted as H(s)H merely because it is standard or suggestive.
+- **E. Generated inference / reconstruction:** 3D<->4D representation discipline; dependency stratification of the old tension claim; measurement-triangulation/breaker-test architecture; current proposal to treat the old `c^4/G` value as a holdout rather than an input.
+- **F. Speculative / unresolved:** universe-spanning/global prestress interpretation; existence/nature of any near-core carrier; persistent coil as rest-mass geometry; finite-timesheet readout/intersection dynamics; numerical `T=c^4/G` as filament tension.
+
+**Overlap / role-bleed / contamination risk:**  
+- Intentional overlap with Janus on methodology/routing/gates; Morrow on historical tension recovery/archive digestion; Meridian on exact geometry/solver work; covariance/representation Calder on 3D/4D translation; empirical lanes on measurement ledgers.
+- **PROMINENT MIXED-LANE FLAG:** this Ravel thread mixed external standard-GR/Kerr/QNM/measurement research with active forward H(s)H construction. Under the firewall, `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` is provisionally quarantined pending dependency/provenance audit. Preserve it; do not promote or use it as an accepted current-theory premise until audited. Archive-extraction infrastructure is operational, not a theory premise, and is not quarantined in the same sense. The Worldtube Lab README predates most of the recent external scan but should still be provenance-reviewed before promotion.
+
+**Blockers / inputs needed:**  
+- Read and triage the now-extracted root PDF corpus, especially the historical filament-tension chains and any earlier Kerr/worldtube calculations.
+- Coordinate with Morrow/Janus/Meridian/Calder to avoid duplicating archive archaeology, exact solver work, or representation audit.
+- Decide a durable canonical path/version for the SAT/H(s)H reasoning skill if it is to become a shared team control document.
+
+**Suggested next task:**  
+- First, triage the extracted root corpus and reconstruct the filament-tension chain without taking the old numerical tension as a premise. In parallel, build the neutral Kerr anatomy -> 4D -> response -> measurement survival table from source-typed inputs.
+- Better assigned elsewhere by default: exhaustive historical archive mining -> Morrow/archive lane; exact numerical solver work -> Meridian; covariance/representation audit -> Calder; workflow routing/promotion gates -> Janus.
+
+**Coordination note:**  
+- The current strongest guardrail is: **do not treat either `T ≈ 1.2×10^44 N` or a specific "Kerr shell carrier" as an accepted H(s)H premise.** The cleanest current baseline is a provisional transverse Kerr reference scale plus qualitative finite worldtube response; the numerical tension and actual carrier anatomy remain open until independently reconstructed/audited.
