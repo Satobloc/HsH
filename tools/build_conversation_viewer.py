@@ -27,7 +27,8 @@ DEFAULT_CURATION = Path("CONVERSATION_VIEWER/CURATION.json")
 DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
 DEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")
 DATE_PREFIX_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
-RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.json$", re.I)
+RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.(?:json|txt)$", re.I)
+SUPPORTED_CONVERSATION_SUFFIXES = {".json", ".txt"}
 OMISSION_TEXT = "[Omitted from the public Conversation Viewer by a curation rule.]"
 
 
@@ -41,7 +42,7 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def canonical_path(record: dict[str, Any]) -> str | None:
     candidate = record.get("new_path") or record.get("old_path")
-    if not isinstance(candidate, str) or not candidate.lower().endswith(".json"):
+    if not isinstance(candidate, str) or Path(candidate).suffix.lower() not in SUPPORTED_CONVERSATION_SUFFIXES:
         return None
     return candidate.replace("\\", "/")
 
@@ -50,8 +51,8 @@ def display_title(path: str) -> str:
     name = Path(path).name
     name = DATE_PREFIX_RE.sub("", name, count=1)
     name = RAW_SUFFIX_RE.sub("", name)
-    if name.lower().endswith(".json"):
-        name = name[:-5]
+    if Path(name).suffix.lower() in SUPPORTED_CONVERSATION_SUFFIXES:
+        name = str(Path(name).with_suffix(""))
     return name.strip() or Path(path).stem
 
 
