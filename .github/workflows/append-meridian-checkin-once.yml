@@ -1,0 +1,102 @@
+name: Append Meridian roster check-in once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/append-meridian-checkin-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append Meridian check-in if absent
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('WORKSPACES/COMMON/CHECKINS.md')
+          heading = '### Meridian — 2026-09-12'
+          text = path.read_text(encoding='utf-8')
+          if heading in text:
+              print('Meridian check-in already present; no change.')
+              raise SystemExit(0)
+
+          entry = r'''
+
+### Meridian — 2026-09-12
+
+**Working on now:**  
+- **Public SAT/H(s)H library/front-page curation:** link first, then classify/weed. Intended outputs/destinations: `README.md` for the public front door and `LIBRARY.md` for the larger linked collection. Current status: welcome/research-status box, featured/read-theory surfaces, initial document vetting panels, expanded library link set, and FEATURED automation are live; deeper document classification and derivation-linking remain open.
+- **Archive PDF-text coverage audit:** determine whether the main archive has searchable text counterparts for all PDFs. Intended output/destination: a missing-extract inventory plus extraction manifests in the archive's existing `_AUTO_EXTRACTED_TEXT` / extractor-log system. Current status: the latest root pass found 153 root PDFs, produced 152 extracts, and failed only on empty `FINAL_CLOSURE.pdf`; that pass was explicitly nonrecursive, so nested PDF coverage is not yet established. I have not launched the recursive pass myself.
+- **Solver/geometric formalization programme:** UI/TX, Whirligig/Donut, Spheres, Gendarme Graticule, solver-vs-conventional verification, and the GR↔QM Whirligig replay. Intended output: a solver canon, verification ledger, and eventually precise manuals/configurable implementations. Current status: substantial prior reconstruction/planning exists, but this lane is paused at the roster boundary and should not outrun Janus/Ravel assignment.
+
+**Know / have access to:**  
+- **A. Actually loaded / substantially read:** the 2026-09-12 roster memo; `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`; current `CHECKINS.md` and `COORDINATION.md`; the HsH public `README.md`; the archive annotated survey and derivation-index material used in this curation pass; `THE FUNDAMENTAL INTUITIONS — EXTENDED`; `THE LOGIC OF SAT`; `FULL_THEORY`; `SAT CORE`; `MINKOWSKI PROPER`; `Relativistic–Quantum Isomorphism (nolat)`; `ST-QM-GR-SM (nolat)`; `SAT PRE-H(s)H TIGHTENING`; `H(s)H REWORK`; current H(s)H synthesis/source-survey material used to distinguish current from historical sources; and the root-PDF extraction manifest/log. In prior direct work I also substantially reconstructed the UI/TX, Whirligig, Spheres, torus/Gendarme geometry and solver-use history from conversation/archive material.
+- **B. Known/indexed/accessible but not substantially read:** much of the expanded `LIBRARY.md` long tail; most nested PDFs and many raw historical conversations; large parts of SAT-O/4DHH/sector-paper material; the private `HSH_RESOURCES` paper corpus; and NotebookLM source/output history not yet exported/recovered into a complete solver provenance record. The fact that a file is linked or indexed does not mean I have read or validated it.
+- **C. Current tools/access:** read/write GitHub connector access to project repositories; conversation/Library file tools; public web research; Python/container runtimes; document/PDF/spreadsheet artifact tooling; image generation; and the ability to inspect/create GitHub workflow definitions. I can use repository text/extraction/index artifacts directly and can create/update public-repo text surfaces when assigned.
+- **D. Capabilities/limitations:** GPT-5.6 Sol. Strongest fit is literal geometric formalization, solver archaeology, invariant/symmetry bookkeeping, adversarial reconstruction of a claimed derivation, and turning messy archive material into explicit state/operator/constraint specifications. I can computationally check many equations and procedures, but I am not a substitute for independent specialist human mathematical review. I do not have live access to other instances' private conversational state; cross-instance facts must come from Common, repo artifacts, supplied exports, or recoverable archives.
+
+**Created already:**  
+- `Public HsH front-page research-status/library/vetting structure — Satobloc/HsH/README.md — public/editorial/generated — makes the research-status disclaimer prominent, adds read-theory links, curated library entries, grey→blue→green→red review-progress panels, and an expanded-library bridge. No theory authority; document descriptions/statuses are curation metadata subject to revision.`
+- `Expanded SAT/H(s)H library — Satobloc/HsH/LIBRARY.md — public/generated discovery surface — links the additional document batches Nathan supplied, deduplicated globally and marked queued pending actual curation/vetting. No theory authority.`
+- `Featured-paper rotator — Satobloc/HsH/.github/workflows/rotate-featured.yml — operational automation — anything placed in NEW_PAPERS/SEPTEMER_2026 is listed in the top FEATURED block; one item is randomly spotlighted on folder changes and daily. Operational only; placement does not imply vetting or theory promotion.`
+- `Meridian/Emeritus solver-symmetry coordination plan — Satobloc/HsH/LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md — workspace/coordination artifact — sets reconstruction/audit tasks for UI/TX, Whirligig, Spheres and Gendarme, including the GR↔QM replay and later common solver API/verification harness. No theory authority.`
+- `Solver-adjacent literature notes and extensive solver reconstruction — conversation-level, not promoted to a durable theory surface — generated/working material — useful for methodology and source recovery, but see mixed-lane flag below.`
+- I have not edited the Dashboard, synthesis, prediction ledger, finite-core ledger, or checkpoints as part of the current library/front-page work.
+
+**Planning to create:**  
+- `Recursive/missing-only PDF extraction coverage record — intended destination: SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT manifests/logs plus a concise missing/low-text inventory — purpose: make every relevant PDF searchable without duplicating successful extracts. Dependencies: Janus/archive-lane ownership decision and use of the existing extraction workflow. Possible overlap: archive-accessibility/provenance workers.`
+- `Curated document-role + derivation-link pass — intended destination: README.md / LIBRARY.md and, if needed, a separate library metadata ledger — purpose: connect each showcased paper to its derivation attempts and distinguish conceptual fidelity, derivation presence/completeness, LLM/computational review, human review, and formal verification. Dependencies: archive recovery and Ravel/Nathan clarification only where intended meaning is ambiguous. Overlap: Morrow/integration and archive/provenance lanes.`
+- `Solver Canon + Verification Ledger — intended destination TBD under a dedicated solver/geometry workspace after roster assignment — purpose: exact primitives, operators, couplings, free DOF, invariants, outputs, failure conditions, provenance, and standard-method comparisons for UI/TX, Whirligig, Spheres, and Gendarme. Dependencies: original solver conversations/NotebookLM records, benchmark questions, and lane ownership. Likely unique Meridian fit but overlaps geometry/covariance review.`
+- `Whirligig GR↔QM verification packet — intended destination same solver workspace — purpose: reconstruct the original process before repair, independently recompute the claimed relation conventionally, and classify the result as isomorphism/restricted equivalence/analogy/underdetermined/failed. Dependencies: exact original Whirligig artifacts and preferably the source conversation.`
+
+**Provenance of current work:**  
+- **A. Nathan / SAT / H(s)H internal sources:** all public-library selection, conceptual descriptions, solver goals, torus/Gendarme definitions, UI/Whirligig/Spheres reconstruction, and document-role judgments originate from Nathan's directions plus the SAT/H(s)H repositories/conversation record. Nathan's intended meaning controls where historical wording is ambiguous.
+- **B. Standard mathematics:** solver work uses ordinary differential geometry of curves/surfaces, embedded ring-torus geometry, local frames, curvature/torsion, reflection/even-odd decomposition, holonomy/transport distinctions, Jacobian/singular-value reasoning, symmetry and dimensional checks. These are tools for stating/checking the internal constructions; they are not imported external physical theories.
+- **C. External empirical data / measurements / constraints:** none are dependencies of the current README/LIBRARY/FEATURED artifacts or of the solver canon plan.
+- **D. External papers / theories / models / equations / assumptions:** an earlier adjacent-methodology scan in this instance examined recent work on symmetry-reduced/physics-informed solvers, geometric numerical methods, topological analysis, and LLM representation geometry. That material was used only to learn neighboring terminology/methodology and compare solver-design questions; it was not deliberately imported as H(s)H physics. Because recent-literature scanning and internal solver-design discussion coexisted in that period, theory-bearing solver-methodology conclusions from that mixed conversation context are provisionally quarantined until provenance is separated. The current public library/front-page artifacts do **not** depend on that external literature.
+- **E. Generated inference / reconstruction:** ranking papers as outsider-facing vs formalization-oriented; drafting short public annotations; designing the review-status grammar; inferring provisional solver purposes from historical uses; and proposing common solver schemas/verification harnesses are generated reconstructions and remain revisable.
+- **F. Speculative / unresolved:** exact coupling among UI rotation/expansion and helix curvature/torsion; exact Whirligig mechanics and whether the GR↔QM result qualifies as an isomorphism; minimal Gendarme algebra; full independent uses of Spheres; which formal papers will survive derivation-level audit; and whether any solver composition is mathematically natural rather than merely visually compatible.
+
+**Overlap / role-bleed / contamination risk:**  
+- Current public-facing work overlaps **Janus** on front-page architecture/coordination and **Morrow** on source integration/document-role classification; this is useful if Janus owns layout/routing and Morrow owns theory-state integration while Meridian owns public library curation plus solver formalization unless reassigned.
+- Solver work overlaps Ravel at the theory-acceptance boundary and any geometry/covariance lane at the invariant/representation boundary. Meridian should derive/check machinery, not unilaterally promote physical interpretation.
+- **MIXED-LANE FLAG:** this instance previously did both recent adjacent-literature scanning and internal solver-design/formalization discussion. No durable current-theory surface was knowingly promoted from that mixture. Conversation-level theory-bearing solver-methodology conclusions created under that mixed condition should be treated as provisionally quarantined. The durable `MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` is primarily internal-source reconstruction/verification planning; if Janus determines it was created inside the mixed assignment window, quarantine it for provenance review rather than deleting it.
+- The README/LIBRARY/FEATURED changes are editorial/archive-accessibility/operational artifacts, not forward theory outputs, and have no external-theory dependency.
+
+**Blockers / inputs needed:**  
+- Janus decision on whether Meridian's tightened lane is primarily geometry/solvers, public library/archive accessibility, or a split with one clearly subordinate to the other.
+- For the library: recursive PDF extraction/inventory coverage and continued linking of the documents Nathan wants exposed before we weed/classify.
+- For solver archaeology: original UI, Whirligig, Spheres, and finite-core/nested-superhelix conversations that are not yet in clean raw form; NotebookLM prompts/outputs for the Whirligig successes and abuses; exact code/artifacts tied to those uses.
+- Ravel/Janus benchmark and promotion boundaries for solver verification; eventually independent human specialists for genuine mathematical vetting, though lack of that review is not a blocker to honest curation/reconstruction.
+
+**Suggested next task:**  
+- **Immediate:** finish the link-first public library/archive-accessibility pass Nathan is actively directing, including a recursive missing-PDF-text inventory so the library can be searched comprehensively before we weed it.
+- **Best longer-term Meridian job:** return to the solver/geometric-formalization lane under the new Common protocol and build the Solver Canon + Verification Ledger from firsthand artifacts, beginning with the Whirligig GR↔QM replay and clean Gendarme specification.
+- Better assigned elsewhere: forward theory acceptance/rejection to Ravel/Nathan; synthesis promotion to Morrow/Ravel/Janus; current external-literature scanning to Hale/external-evidence; empirical statistics to Calder; overall routing/automation supervision to Janus.
+
+**Coordination note:**  
+- The public front page now has an operational rule worth preserving: **anything placed in `NEW_PAPERS/SEPTEMER_2026` automatically appears in the top FEATURED section, with one random rotating spotlight; FEATURED placement is not a vetting or theory-authority signal.** Also, the main archive's successful 153-file PDF pass was root-only, not recursive, so we should not yet say that every archive PDF has a text extract.
+'''
+
+          path.write_text(text.rstrip() + entry + '\n', encoding='utf-8')
+          PY
+      - name: Commit check-in
+        shell: bash
+        run: |
+          if git diff --quiet -- WORKSPACES/COMMON/CHECKINS.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/CHECKINS.md
+          git commit -m 'Append Meridian roster check-in'
+          git push
