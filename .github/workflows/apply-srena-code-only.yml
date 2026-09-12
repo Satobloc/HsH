@@ -1,0 +1,61 @@
+name: Apply validated Srena viewer code patch
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply-srena-code-only.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Reuse validated patch payload
+        run: |
+          python - <<'PY'
+          import base64
+          import re
+          from pathlib import Path
+
+          helper = Path('.github/workflows/integrate-srena-viewer.yml').read_text(encoding='utf-8')
+          match = re.search(r'^\s*PATCH_B64:\s*"([A-Za-z0-9+/=]+)"\s*$', helper, re.M)
+          if not match:
+              raise SystemExit('validated Srena patch payload not found')
+          patch = base64.b64decode(match.group(1)).decode('utf-8')
+          exec(compile(patch, '<validated-srena-viewer-patch>', 'exec'))
+          PY
+
+          python -m py_compile tools/build_conversation_viewer.py
+          node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/presentation.js
+          python tools/build_conversation_viewer.py
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
+          srena = [x for x in data['conversations'] if x['id'] == 'srena-20260731-hsh']
+          assert len(srena) == 1
+          assert srena[0]['message_count'] == 80
+          assert srena[0]['external'] is True
+          assert srena[0]['parser'] == 'companion-composite'
+          print('validated catalog:', data['counts'])
+          print('validated Srena:', srena[0]['title'], srena[0]['message_count'])
+          PY
+
+      - name: Commit production code only
+        run: |
+          git config user.name 'HsH Conversation Viewer Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/presentation.js CONVERSATION_VIEWER/data/conversations.json
+          git commit -m 'Integrate Srena companion conversation into viewer'
+          git push origin HEAD:main
