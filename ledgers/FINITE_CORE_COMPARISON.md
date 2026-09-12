@@ -84,6 +84,16 @@ Independent cumulants add before normalization, so the canonical fourth-moment r
 
 **Status:** covariance composition and second-moment non-identifiability `STD/DERIVED/FROZEN` under affine, centered, independent finite-moment assumptions. Kernel calibration, correlated carrier-resolver coupling, nonlinear reconstruction, curved sheets, tangency, and finite-thickness recovery of `chi` remain `OPEN`. Source packet: `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md`.
 
+## Frozen controlled-thickness baseline FC-BASE-004
+
+If the centered resolver kernel is a known scale family `Z_delta = delta Z_1`, then
+
+`Q_obs(delta) = Q_0 + delta^2 Q_K`,
+
+where `Q_0 = L_Sigma Q_core L_Sigma^T`. Each covariance component and `tr(Q_obs)` must therefore be affine in `delta^2`; the zero-thickness intercept recovers the projected carrier covariance within this model. Non-affinity rejects the scaled independent-kernel/linear-readout assumptions, not automatically the carrier.
+
+**Status:** affine scaling and intercept result `STD/DERIVED/FROZEN` conditional on the FC-BASE-003 assumptions and a controlled centered scale family. Physical availability and calibration of `delta` remain `OPEN`.
+
 ## Candidate comparison
 
 | Candidate/view | Literal object and minimum data | ᚼ / ᚼᚼ requirement | Perturbations and residuals | Readout and limiting map | Topology/nesting support | Hidden freedom / freeze condition |
