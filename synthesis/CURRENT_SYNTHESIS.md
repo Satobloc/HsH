@@ -1395,3 +1395,11 @@ For a centered carrier coordinate `Y`, transverse linear readout `L_Sigma`, and 
 `Q_obs = L_Sigma Q_carrier L_Sigma^T + Q_kernel`.
 
 This standard covariance identity freezes a limited but controlling statement: observed second moments cannot by themselves distinguish projected finite-core width from resolver width. The canonical `chi` values in FC-BASE-002 are not generally preserved by finite convolution; they require a negligible/calibrated kernel or proved deconvolution. This does not select `B^3`, `B^2`, `S^2`, a Kerr/ER carrier, or a physical resolver. Status: covariance law and non-identifiability `STD/DERIVED/FROZEN`; physical forward operator and kernel `OPEN`.
+
+### Controlled resolver-width extrapolation (FC-BASE-004)
+
+If the resolver blur is a centered scale family `Z_delta=delta Z_1` while the carrier state is fixed, then
+
+`Q_obs(delta)=Q_0+delta^2 Q_K`.
+
+This provides a clean conditional discriminator: covariance components must be affine in `delta^2`, and the zero-width intercept gives projected carrier covariance within the model. The relation is `STD/DERIVED/FROZEN` under FC-BASE-003 plus the scale-family assumption. Whether H(s)H supplies a controllable physical `delta` is `OPEN`; failure of the scaling law rejects the readout model, not automatically the finite-core carrier.
