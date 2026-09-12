@@ -1,40 +1,41 @@
 # Current Integration Checkpoint
 
-1. **Synthesis advance:** Froze the local dimension/codimension hierarchy for a
-smooth finite-core thickening of a center history in four dimensions.
-2. **Finite-core comparison:** A full normal `B^3` core, selected `B^2`
-material support, `S^2` boundary, and finite-thickness resolving intersection
-are distinct roles. They form one layered object only after explicit inclusion,
-support-selection, boundary, and readout maps are supplied.
-3. **Invariant/residual status:** Rank-three normal structure and the resulting
-dimension table are `STD/DERIVED/FROZEN` under smooth embeddedness, small
-radius, and transversality. A scalar `ᚼ` remains underdetermined without a
-normal frame, axis, reference orientation, and transport law; `ᚼᚼ` additionally
-needs an expansion coordinate and composition rule.
-4. **Prediction ledger:** `PRED-FC-001` records the geometric scaling contrast
-`Vol(B^3_epsilon)=(4 pi/3)epsilon^3`,
-`Area(S^2_epsilon)=4 pi epsilon^2`, and
-`Area(B^2_epsilon)=pi epsilon^2`. Status remains `UNFROZEN`: no observable
-forward map or independent scale estimator has been selected.
-5. **Paper pipeline:** `HSH-P001`, *Tubular-Neighborhood Typing for Finite-Core
-H(s)H Representations*, is a skeleton with its mathematical baseline frozen and
-model selection open.
-6. **Team/source check:** No current H(s)H team artifact was found in accessible
-Google Drive results, and the GitHub common room contained no scientific
-handoff. The Worldtube Lab artifacts are therefore the firsthand construction
-basis for this pass.
-7. **Exact next handoff:** Geometry/solver and covariance/representation lanes
-should test anisotropic and nontransverse cases and specify the minimum
-`SO(3)` frame/axis data that reduces normal rotation to scalar `ᚼ`.
+1. **Synthesis advance:** Integrated `FC-BASE-002`: canonical cross-sectional
+moments and the transverse linear readout distinguish several finite-core views
+without selecting a physical carrier.
+2. **Finite-core comparison:** `B^3` and `S^2` share isotropic normalized
+covariance, as do `B^2` and `S^1`; the scale-free fourth radial moment
+separates each canonical uniform pair. Thin-sheet support dimension separates a
+full core (3) from support/boundary carriers (2).
+3. **Invariant/residual status:** `(I2,I3,chi)`, the transverse Jacobian
+`|n_Sigma·T|^-1`, and the gauge-null result for an isotropic unmarked `B^3`
+core are `STD/DERIVED/FROZEN` locally. The curved-sheet remainder and
+finite-thickness inversion remain open.
+4. **Operator consequence:** local `ᚼ` cannot be observable on a perfectly
+isotropic unmarked full core. It requires anisotropy, material/boundary marking,
+an external relational direction, or global holonomy. `ᚼᚼ` still needs an
+expansion coordinate and composition law.
+5. **Prediction ledger:** added `PRED-FC-002` as `CANDIDATE`: its mathematical
+discriminator is frozen, but no empirical carrier/measurement channel is.
+`PRED-FC-001` remains `UNFROZEN`.
+6. **Paper pipeline:** advanced `HSH-P001` to
+`TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
+7. **Team/source check:** the Worldtube Lab cross-section packet is a new
+firsthand construction artifact. The common handoff has no returned
+freeze/repair result; accessible Drive still contains no controlling H(s)H
+artifact.
+8. **Exact next handoff:** Ravel should reproduce `L_Sigma`,
+`(I2,I3,chi)`, and the isotropic gauge-null result against the particle-scale
+candidate, then identify the first step requiring a rank-two plane, boundary
+field, or material director.
 
-**Earliest open dependency:** select the literal carrier and define its
-configuration space, constitutive/contact law, resolving operator, and
-centerline limiting map before promoting any empirical prediction.
+**Earliest open dependency:** choose the material carrier and its measure,
+marking/director structure, constitutive/contact law, and finite-thickness
+resolver before treating `ᚼ` or either prediction candidate as empirical.
 
-**Provenance/external evidence needed:** archive provenance for the first
-bulk/support/boundary/readout distinction; primary references for tubular
-neighborhoods, transversality, framed curves/ribbons, shell-versus-bulk
-mechanics, and open string-link/Brunnian topology.
+**Provenance/external evidence needed:** archive chronology for the
+bulk/support/boundary/readout distinction; primary citations and a proof-quality
+curved-sheet error estimate.
 
 Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201;
 `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
