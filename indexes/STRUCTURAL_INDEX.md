@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T03:49:16+00:00`
-- Tree/content state: `d0ec315358d34c3bcf4b4aed8d6e4224ce2a170d52a3e6c0f9302fb2c12e2448`
-- Coverage: 457 files, 45 directories
+- Scanned: `2026-09-12T03:51:56+00:00`
+- Tree/content state: `16d6eea8925f99b9a74a3591d282426258a1b4f1763a41988304e59f25546c7d`
+- Coverage: 455 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 6 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -35,7 +35,7 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 12 |
+| `tools` | 11 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -56,20 +56,20 @@
 | `.md` | 69 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 13 |
+| `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 6 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 12 |
+| `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -257,10 +257,9 @@
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
 - `!_CONVERSATION_VIEWER.md` — 3287 bytes — `unclassified`
-- `.github/workflows/apply-conversation-families-date-search.yml` — 1326 bytes — `automation-workflow`
-- `.github/workflows/build-conversation-viewer.yml` — 5238 bytes — `automation-workflow`
+- `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
-- `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
+- `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
@@ -269,15 +268,15 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 173028 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 202578 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 5410 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 5428 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13018 bytes — `unclassified`
 - `CONVERSATION_VIEWER/runtime-fixes.css` — 1395 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.css` — 11268 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.js` — 30757 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.css` — 12060 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 35531 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
@@ -699,7 +698,7 @@
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
-- `tools/build_conversation_viewer.py` — 21067 bytes — `archive-tooling`
+- `tools/build_conversation_viewer.py` — 21209 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
@@ -710,7 +709,6 @@
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_1.json` — 11151 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_2-6.json` — 37113 bytes — `archive-tooling`
-- `tools/patch_conversation_families_and_date_search.py` — 11384 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations
