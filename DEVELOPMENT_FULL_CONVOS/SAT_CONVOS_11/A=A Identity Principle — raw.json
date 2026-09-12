@@ -1,0 +1,119 @@
+{
+  "title": "A=A Identity Principle",
+  "create_time": 1709935397.89182,
+  "update_time": 1709935400.649805,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "13f9c4e2-5f7f-47b6-b3f6-809c149b178b",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa11577-95a4-4423-b570-ec72f0eb485e": {
+      "id": "aaa11577-95a4-4423-b570-ec72f0eb485e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa2df2a-4e46-426e-bce2-6badf5c354b6"
+      ]
+    },
+    "aaa2df2a-4e46-426e-bce2-6badf5c354b6": {
+      "id": "aaa2df2a-4e46-426e-bce2-6badf5c354b6",
+      "message": {
+        "id": "aaa2df2a-4e46-426e-bce2-6badf5c354b6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709935397.892434,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you tell me what the expression A=A means"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "86161d4b9db51126-ORD",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa11577-95a4-4423-b570-ec72f0eb485e",
+      "children": [
+        "133ca8ca-a66a-434f-850f-33c801d1f034"
+      ]
+    },
+    "133ca8ca-a66a-434f-850f-33c801d1f034": {
+      "id": "133ca8ca-a66a-434f-850f-33c801d1f034",
+      "message": {
+        "id": "133ca8ca-a66a-434f-850f-33c801d1f034",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709935399.734551,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The expression \"A = A\" is an identity statement in mathematics and logic. It asserts that the value or meaning of the variable or concept represented by \"A\" is equal to itself. This statement is known as the law of identity and is considered a foundational principle in many systems of logic and mathematics. In symbolic logic, it is often used as a basic axiom or rule of inference."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "de6cf83d-99ee-43d2-82e4-413d6dead06a",
+          "request_id": "86161d4b9db51126-ORD",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2df2a-4e46-426e-bce2-6badf5c354b6",
+      "children": []
+    }
+  },
+  "current_node": "133ca8ca-a66a-434f-850f-33c801d1f034",
+  "context_truncation_continuation": null
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Conlang Creation Worksheet",
+  "create_time": 1724440077.759245,
+  "update_time": 1724440916.383993,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "591f4f2e-3997-418b-829a-89ba7906de73",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa1526f-7d6a-449d-85e7-c65e5fd15ce0": {
+      "id": "aaa1526f-7d6a-449d-85e7-c65e5fd15ce0",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa2c3d9-26b9-44b6-bd05-09d5311b849d"
+      ]
+    },
+    "aaa2c3d9-26b9-44b6-bd05-09d5311b849d": {
+      "id": "aaa2c3d9-26b9-44b6-bd05-09d5311b849d",
+      "message": {
+        "id": "aaa2c3d9-26b9-44b6-bd05-09d5311b849d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724440077.767123,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you make a simple step-by-step form/worksheet that walks one through the process of making a conlang, with the following parameters:\n\n1. The overall process should be minimalist, including only what is generally considered linguistically necessary to include in a language. \n2. It should use proper linguitic terminology, with a simple explanation of each concept. \n3. It should be designed to help the user produce an academically-presentable linguistic description of the language. \n4. Each section should be followed by a fairly exhaustive list of additional features one might include in a language beyond the minimalist structure. This should just be a list of linguitic terms, no explanation of the terms is necessary."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "8b7d63743f465b3b-IAD",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1526f-7d6a-449d-85e7-c65e5fd15ce0",
+      "children": [
+        "e5cfcd36-6cab-4b3e-ad6d-a25f4d3ff97a"
+      ]
+    },
+    "e5cfcd36-6cab-4b3e-ad6d-a25f4d3ff97a": {
+      "id": "e5cfcd36-6cab-4b3e-ad6d-a25f4d3ff97a",
+      "message": {
+        "id": "e5cfcd36-6cab-4b3e-ad6d-a25f4d3ff97a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724440111.216107,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "### Conlang Creation Worksheet\n\nThis worksheet is designed to guide you through the minimalist process of creating a constructed language (conlang). Each section provides a fundamental linguistic component necessary for your language, along with a brief explanation. After each section, you'll find an extensive list of additional linguistic features you may choose to include, but are not necessary for a minimalist conlang.\n\n---\n\n#### 1. **Phonology (Sound System)**\n   **Description:** The set of sounds used in your language, including consonants, vowels, and their allowable combinations.\n\n   - **Consonant Inventory:** List the consonants in your language. Consider place of articulation (where the sound is produced in the mouth) and manner of articulation (how the sound is produced).\n   - **Vowel Inventory:** List the vowels in your language. Consider height (how open your mouth is) and backness (whether the tongue is towards the front or back of the mouth).\n   - **Phonotactics:** Define the rules for how sounds can combine in your language (e.g., which consonants can appear next to each other, which sounds can start or end a word).\n\n   **Optional Features:**\n   - Nasalization\n   - Aspiration\n   - Tone\n   - Stress patterns\n   - Vowel harmony\n   - Allophones\n   - Syllable structure\n   - Phonological processes (e.g., assimilation, elision)\n   - Suprasegmentals (e.g., intonation, prosody)\n\n---\n\n#### 2. **Morphology (Word Structure)**\n   **Description:** The way words are formed in your language, including the use of prefixes, suffixes, infixes, and root structures.\n\n   - **Word Formation:** Decide if your language will be isolating (one meaning per word), agglutinative (stacking affixes), fusional (affixes combine meanings), or polysynthetic (very complex words).\n   - **Affixation:** Describe any prefixes, suffixes, or other affixes used in your language. What meanings do they convey?\n   - **Inflection:** Determine how your language handles changes in tense, number, case, etc.\n\n   **Optional Features:**\n   - Reduplication\n   - Compounding\n   - Derivation\n   - Clitics\n   - Conjugation (verbs)\n   - Declension (nouns)\n   - Cases (e.g., nominative, accusative)\n   - Agreement (e.g., subject-verb agreement)\n   - Suppletion\n\n---\n\n#### 3. **Syntax (Sentence Structure)**\n   **Description:** The rules governing the structure of sentences in your language.\n\n   - **Basic Word Order:** Decide the default order of Subject (S), Object (O), and Verb (V) in your language (e.g., SVO, SOV, VSO).\n   - **Phrase Structure:** Define how different phrases (noun phrases, verb phrases, etc.) are structured.\n   - **Clause Structure:** Determine how your language forms simple, compound, and complex sentences.\n\n   **Optional Features:**\n   - Word order flexibility\n   - Head-directionality\n   - Relative clauses\n   - Subordination\n   - Coordination\n   - Question formation\n   - Negation\n   - Serial verb constructions\n   - Topicalization\n   - Passives\n   - Causatives\n\n---\n\n#### 4. **Semantics (Meaning)**\n   **Description:** The system by which meanings are conveyed in your language.\n\n   - **Core Vocabulary:** Develop a list of basic words, covering essential concepts like pronouns, numbers, colors, common objects, etc.\n   - **Semantic Roles:** Define how different roles like agent, patient, and experiencer are expressed in your language.\n\n   **Optional Features:**\n   - Polysemy\n   - Synonyms\n   - Antonyms\n   - Homophones\n   - Semantic fields\n   - Idiomatic expressions\n   - Metaphor\n   - Euphemism\n   - Deixis\n   - Aspect\n   - Modality\n   - Evidentiality\n   - Definiteness\n\n---\n\n#### 5. **Pragmatics (Language Use)**\n   **Description:** The rules governing the use of language in context, including politeness, emphasis, and conversational norms.\n\n   - **Speech Acts:** Define how your language handles different speech acts like commands, requests, and statements.\n   - **Politeness Strategies:** Decide how politeness is expressed, if at all.\n\n   **Optional Features:**\n   - Register\n   - Honorifics\n   - Discourse markers\n   - Turn-taking\n   - Code-switching\n   - Ellipsis\n   - Implicature\n   - Speech levels\n   - Focus constructions\n   - Topic-comment structure\n\n---\n\n#### 6. **Orthography (Writing System)**\n   **Description:** The system of symbols used to represent the sounds and words of your language.\n\n   - **Alphabet:** Decide if your language will use an alphabet, syllabary, abugida, or logographic system. Define the symbols and their corresponding sounds.\n   - **Punctuation:** Establish any punctuation rules.\n   - **Capitalization:** Define rules for when (and if) letters are capitalized.\n\n   **Optional Features:**\n   - Diacritics\n   - Ligatures\n   - Digraphs\n   - Calligraphy styles\n   - Script directionality\n   - Spacing rules\n   - Phoneme-grapheme correspondence\n   - Abbreviations\n   - Number system\n\n---\n\nThis minimalist approach ensures that your language will have all the necessary components to be fully functional while providing the flexibility to expand with additional linguistic features if desired."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "6ec0eee7-ae1e-4dbf-b232-7270aacdc29a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b7d63743f465b3b-IAD",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2c3d9-26b9-44b6-bd05-09d5311b849d",
+      "children": []
+    }
+  },
+  "current_node": "e5cfcd36-6cab-4b3e-ad6d-a25f4d3ff97a",
+  "context_truncation_continuation": null
+}

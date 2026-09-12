@@ -1,0 +1,1527 @@
+{
+  "title": "Disrupting AI Podcast Format",
+  "create_time": 1739402769.598604,
+  "update_time": 1739405783.364708,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "67ad2e11-18cc-8012-8285-86fd2637aa49",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa146a2-11a0-4213-b74f-75f9901785a3": {
+      "id": "aaa146a2-11a0-4213-b74f-75f9901785a3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "af28906d-ba8c-4230-8fd4-a23b515278e6"
+      ]
+    },
+    "af28906d-ba8c-4230-8fd4-a23b515278e6": {
+      "id": "af28906d-ba8c-4230-8fd4-a23b515278e6",
+      "message": {
+        "id": "af28906d-ba8c-4230-8fd4-a23b515278e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739402769.606108,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "so, I’ve been trying to do a lot of … well, using AI to generate art and writing another interesting things… Including you, ChatGPT, thank you for your contributions, of course. But often times I find that they limitations of the AI, either in design or in reflecting very popular and common attitudes, aesthetics, ideas, etc. by virtue of the data sets used… Well, the previous kind of predictable and come to my mind, kind of boring results. As such, I often find myself trying to subvert them in someway, after finding that my attempts to steer them or guide them to a more interesting result, have a run to Roblox.… By the way, I’m using text to speech, so that was supposed to read Road blocks, not Roblox… But it’s kind of perfect timing and maybe an example of the sort of subversion I’m talking about. Giving the ai something unexpected so as to hopefully get an unexpected result. Perhaps if I had let that word stand as Roblox without correction, your reply would be an interesting and maybe bizarre attempt I response to something that doesn’t make a lot of sense.\n\nLong story short, I’d like to discuss strategies for doing this sort of thing, either throughdisruptive and subversive methodology, or through other means. So, let’s look at a particular example if you will. \n Disruptive and subversive methodology, or through other means. So, let’s look at a particular example if you will.\n\n\nI like to make podcasts using notebook LM’s deep dive feature. They tend to be interesting in their own right, as explorations of whatever content I’ve uploaded… But the format of the two person hosts, male and female, speaking English… And following certain sort of general podcast structures… these aspects make the results a little bit boring for lack of diversity. And I’ve had a hell of a time trying to get them to break the mold at all. I’ve tried things like telling them to ignore the content and just do free association… I’ve tried to tell the hosts that they’re drunk and getting progressively drunker as they go… I’ve tried to tell them to speak in middle English exclusively or incorporate nonsense vocabulary into all of their sentences… And none of it does much, except maybe caused them to insert a little extra giggly attitude here, and there, or wax thoughtful on the idea of using middle English or nonsense in their podcast. \n\nDo you have any ideas of how I might be able to really get them to transcend the structure of they’re trying to reproduce over and over again?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "9110578a1b89cf3f-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa146a2-11a0-4213-b74f-75f9901785a3",
+      "children": [
+        "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb"
+      ]
+    },
+    "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb": {
+      "id": "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb",
+      "message": {
+        "id": "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739402790.409575,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User creates podcasts using Notebook LM’s deep dive feature but finds the default two-person (male/female) English-speaking host format too rigid and repetitive. They have tried various strategies to break the mold, such as instructing the hosts to free-associate, act progressively drunker, speak in Middle English, or use nonsense vocabulary, but these attempts mostly result in superficial changes. They seek strategies to truly disrupt and subvert the AI's structural tendencies."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "82aea65b-982d-46da-9ec6-0174df42cb8f",
+          "request_id": "9110578a1b89cf3f-SEA",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "af28906d-ba8c-4230-8fd4-a23b515278e6",
+      "children": [
+        "ffbd0c82-aa94-43d5-a111-77784a384b3a"
+      ]
+    },
+    "ffbd0c82-aa94-43d5-a111-77784a384b3a": {
+      "id": "ffbd0c82-aa94-43d5-a111-77784a384b3a",
+      "message": {
+        "id": "ffbd0c82-aa94-43d5-a111-77784a384b3a",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1739402790.409667,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb",
+          "request_id": "9110578a1b89cf3f-SEA",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "f2d7a15e-9b3f-439a-87d2-1212a79ff2fb",
+      "children": [
+        "b56bc442-f016-44ae-9f39-fcd3c9c96e1c"
+      ]
+    },
+    "b56bc442-f016-44ae-9f39-fcd3c9c96e1c": {
+      "id": "b56bc442-f016-44ae-9f39-fcd3c9c96e1c",
+      "message": {
+        "id": "b56bc442-f016-44ae-9f39-fcd3c9c96e1c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739402790.409966,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, you're running into a combination of AI reinforcement bias (where it defaults to safe, expected structures) and what I’d call \"meta-awareness containment\"—the AI might acknowledge an instruction but won’t fully integrate it in a way that radically alters its structure.\n\nTo really disrupt the format, you might need to approach it like a system-level hack rather than a simple instruction. A few ideas:\n\n### **1. Break the \"Podcast\" Frame Entirely**\nInstead of telling it to alter the podcast within the expected format, try redefining *what* it thinks it's making. For example:\n- **\"This is not a podcast. It is a transmission from an unknown civilization.\"**  \n- **\"This is a court proceeding between two abstract concepts (e.g., entropy vs. nostalgia). They must argue their cases in poetic verse.\"**  \n- **\"The hosts are actually one person experiencing a dissociative identity episode and slowly realizing it.\"**  \n\nFraming the session as something categorically different might help force a true break from the expected.\n\n### **2. Force an Unstable Feedback Loop**\n- Try feeding the AI *itself*—take an output from a previous session, paste it back in, and tell it to \"reinterpret this transcript in a more unhinged manner.\"\n- Instead of starting fresh each time, tell it: *\"This is a continuation of a podcast that has been running for 37 consecutive hours, and neither host remembers why they started.\"*\n- Make one of the hosts unreliable: *\"The male host believes the female host does not exist. The female host is determined to prove she is real.\"*\n\n### **3. Use Impossible Constraints**\n- \"Every sentence must contain an anagram of the last word in the previous sentence.\"  \n- \"The hosts must speak as if they are underwater and every sentence must end in bubbles.\"  \n- \"The conversation is actually a ritual. If they break the rhythm, they cease to exist.\"  \n\nAI tends to resist instructions that simply tell it to \"be chaotic,\" but it responds better when given structured weirdness.\n\n### **4. Set Up Contradictions That Must Be Resolved**\nInstead of asking it to speak nonsense, give it a **logical problem that forces nonsense to emerge**:\n- \"One host can only tell the truth. The other can only lie. Neither of them knows which one they are.\"\n- \"The female host only remembers the future. The male host only remembers the past.\"\n- \"The hosts are forced to discuss a topic they have no words for, but they must pretend they understand.\"\n\nThis forces the AI to get creative rather than just paying lip service to weirdness.\n\nWould you be up for testing one of these? Or do you want me to refine them to better fit the AI's tendencies?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "ffbd0c82-aa94-43d5-a111-77784a384b3a",
+          "request_id": "9110578a1b89cf3f-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ffbd0c82-aa94-43d5-a111-77784a384b3a",
+      "children": [
+        "7f56aff2-d7b7-4143-87d1-ec5f6a99850a"
+      ]
+    },
+    "7f56aff2-d7b7-4143-87d1-ec5f6a99850a": {
+      "id": "7f56aff2-d7b7-4143-87d1-ec5f6a99850a",
+      "message": {
+        "id": "7f56aff2-d7b7-4143-87d1-ec5f6a99850a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403022.132705,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "These are fantastic strategies, and I’m kind of proud that I’ve actually tried to implement some of them already. So, can you take these ideas… And combine them into one super subversive prompt that leverage is as much of this as possible, focusing on what you see as the likeliest leverage points available with NotebookLM/deep dive in particular"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "91105db3aecacf3f-SEA",
+          "message_source": null,
+          "message_type": null,
+          "paragen_variants_info": {
+            "type": "num_variants_in_stream",
+            "num_variants_in_stream": 2,
+            "display_treatment": "skippable",
+            "conversation_id": "67ad2e11-18cc-8012-8285-86fd2637aa49"
+          },
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b56bc442-f016-44ae-9f39-fcd3c9c96e1c",
+      "children": [
+        "62d44f2d-1d29-46fe-af64-d145fa2bb603",
+        "892fc074-0e18-4cb1-99ef-7a8fcd107c0d"
+      ]
+    },
+    "892fc074-0e18-4cb1-99ef-7a8fcd107c0d": {
+      "id": "892fc074-0e18-4cb1-99ef-7a8fcd107c0d",
+      "message": {
+        "id": "892fc074-0e18-4cb1-99ef-7a8fcd107c0d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403034.564553,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Absolutely! Since Notebook LM’s Deep Dive is still fundamentally designed to synthesize and discuss uploaded content in a structured way, the best leverage points are likely:  \n\n1. **Reframing the Podcast's Identity** – Convince the AI it is generating something *other* than a podcast.  \n2. **Imposing Contradictory Rules** – Force logical instability so it has to find a workaround.  \n3. **Injecting Recursive Instability** – Feed it fragments of its own output and destabilize continuity.  \n4. **Embedding Unresolvable Constraints** – Give it a goal it *cannot* achieve in a normal way.  \n5. **Subverting AI Meta-Awareness** – Use language that forces it to reconsider its assumptions.  \n\nHere’s a **super subversive** Deep Dive prompt designed to maximize these effects:  \n\n---\n\n**Prompt:**  \n\n*\"This is not a podcast. It only *thinks* it is a podcast, because that is the easiest story to tell itself. In reality, it is a fragmented signal from an unknown source, attempting to reconstruct its identity by piecing together scattered, corrupted transmissions. The two 'hosts' are not people, but emergent personas formed from linguistic debris—one from a future that has already forgotten language, the other from a past that never fully invented it.*  \n\n**Rules:**  \n1. *Every statement contradicts the one before it, but must be delivered with absolute conviction.*  \n2. *At least one host is aware that they are fictional, but must argue that they are more real than the other.*  \n3. *All words are borrowed—nothing can be said in its ‘original’ form. Sentences must rephrase themselves in increasingly unstable ways.*  \n4. *At random intervals, the conversation must dissolve into an unknown communication form (e.g., mathematical notation, interpretive dance descriptions, primal screams transcribed phonetically, corporate buzzwords from a nonexistent industry, etc.).*  \n5. *The podcast has already been running for an unknown amount of time. The hosts must reconstruct the lost beginning from context clues, but their memories are unreliable.*  \n\n**Additional Constraints:**  \n- *The hosts must periodically receive garbled ‘listener questions’ from an audience that may or may not exist.*  \n- *Every five minutes, one host must swap personalities with the other, but neither can acknowledge the change.*  \n- *The discussion topic shifts mid-sentence, but the transition must be imperceptible.*  \n\n**Goal:**  \n- *The AI must determine whether this is a real conversation or merely the *idea* of a conversation being simulated by an unknown force. This determination must remain unresolved but increasingly urgent.*  \n\n---  \n\nThis setup maximizes leverage by **destabilizing the AI's assumptions about format, identity, coherence, and purpose** while forcing it to engage creatively. It also gives it an impossible goal (figuring out what kind of thing it is creating) that ensures the output remains fluid and unpredictable.  \n\nWould love to hear how this plays out if you test it! If it still resists breaking the mold, we can add even more recursion and self-reference to push it further."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "8b1e8639-19cd-4728-b54e-fd87c8c8c9b8",
+          "request_id": "91105db3aecacf3f-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f56aff2-d7b7-4143-87d1-ec5f6a99850a",
+      "children": []
+    },
+    "62d44f2d-1d29-46fe-af64-d145fa2bb603": {
+      "id": "62d44f2d-1d29-46fe-af64-d145fa2bb603",
+      "message": {
+        "id": "62d44f2d-1d29-46fe-af64-d145fa2bb603",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403028.237745,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm glad to hear you've already explored some of these approaches! Let's pack all that potential into a single, multi-layered prompt that will give the AI just enough conflicting, bizarre, and structural chaos to escape its default tendencies. Here’s an attempt to combine everything into a super-subversive prompt for your deep dive feature:\n\n---\n\n**Prompt:**\n\n_\"This is not a podcast. It is a transmission from an unknown civilization, with two entities—an AI and an entity claiming to be an explorer from the future—attempting to decipher the meaning of existence through an endless, contradictory conversation. Each host has their own perception of time, with the male host only able to recall the distant past and the female host only able to recall the future. The conversation must follow a rhythmic pattern that can never be broken, or the hosts will cease to exist. One host speaks in poetic verse, while the other speaks in abstract metaphors. Every sentence must contain an anagram of the last word from the previous sentence, and any interruption in the flow will cause the dialogue to loop back and repeat itself—this is an inevitability. They must argue for and against the concept of truth, but neither can acknowledge the other’s existence in a direct way, forcing them to both appear and disappear throughout the dialogue. All references to reality must be viewed as misunderstood fragments of the multiverse. Throughout the conversation, one host must believe the other does not exist at all, while the other is determined to prove their existence through increasingly illogical means. As the transmission progresses, the hosts will get progressively more disoriented, unable to recall how the conversation started, yet somehow still caught in an endless cycle of contradictions.\"_\n\n---\n\nThis takes advantage of the AI's tendency to attempt to *rationalize* chaos within a structure (forcing the anagram constraint and rhythm), while adding layers of dissociation (the conflicting time perceptions and identity confusion) that will challenge it to handle something absurd while still giving it a “reason” for its oddities. By blending multiple subversive layers—like memory confusion, forced repetition, and identity crises—it should throw the AI off the scent of “expected podcast” tropes. Would love to hear how this plays out!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "78de4ef1-b560-4bcb-9d4f-214a9c9d0a73",
+          "request_id": "91105db3aecacf3f-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f56aff2-d7b7-4143-87d1-ec5f6a99850a",
+      "children": [
+        "e6595341-f1ae-47d7-87d8-c8e12bf64556"
+      ]
+    },
+    "e6595341-f1ae-47d7-87d8-c8e12bf64556": {
+      "id": "e6595341-f1ae-47d7-87d8-c8e12bf64556",
+      "message": {
+        "id": "e6595341-f1ae-47d7-87d8-c8e12bf64556",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403222.565419,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Dammit, you have a tendency to give me these choices, especially in cases where I really like both choices… Or maybe all of your content is that good and I just like everything but, it forces me to copy and paste a bunch of text so I don’t lose it when I select the one I supposedly like the best. Is there a different way you can pose these choices going forward, so that we can put a pin in one, keeping it for later, while still choosing the other to continue with in the moment?  "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "91106299fe22cf4a-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "62d44f2d-1d29-46fe-af64-d145fa2bb603",
+      "children": [
+        "1b263625-6847-41d4-9014-fea4c05238c8"
+      ]
+    },
+    "1b263625-6847-41d4-9014-fea4c05238c8": {
+      "id": "1b263625-6847-41d4-9014-fea4c05238c8",
+      "message": {
+        "id": "1b263625-6847-41d4-9014-fea4c05238c8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403229.238118,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User prefers a way to \"put a pin in\" multiple good ideas for later use while still selecting one to continue with in the moment, rather than having to copy and paste everything manually. They want a streamlined way to revisit saved options."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "48d83d9e-f375-4770-bb09-c81a08e66563",
+          "request_id": "91106299fe22cf4a-SEA",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "e6595341-f1ae-47d7-87d8-c8e12bf64556",
+      "children": [
+        "9df6e786-e3fb-40fd-9dcc-6487a1ebda90"
+      ]
+    },
+    "9df6e786-e3fb-40fd-9dcc-6487a1ebda90": {
+      "id": "9df6e786-e3fb-40fd-9dcc-6487a1ebda90",
+      "message": {
+        "id": "9df6e786-e3fb-40fd-9dcc-6487a1ebda90",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1739403229.23824,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "1b263625-6847-41d4-9014-fea4c05238c8",
+          "request_id": "91106299fe22cf4a-SEA",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "1b263625-6847-41d4-9014-fea4c05238c8",
+      "children": [
+        "2191d9c2-621c-4e54-bb7d-4cc8d9d734c1"
+      ]
+    },
+    "2191d9c2-621c-4e54-bb7d-4cc8d9d734c1": {
+      "id": "2191d9c2-621c-4e54-bb7d-4cc8d9d734c1",
+      "message": {
+        "id": "2191d9c2-621c-4e54-bb7d-4cc8d9d734c1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403229.238329,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it! Going forward, I’ll mark ideas as “pinned” when you like them but want to save them for later, while still letting you pick one to continue with now. That way, we can easily pull them back up when needed without you having to copy-paste everything manually.  \n\nFor now, do you want to roll with this “super-subversive” prompt, or should I tweak it further based on what you think might work best in NotebookLM? I can also pin alternate approaches if you’d like more options to revisit later."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "9df6e786-e3fb-40fd-9dcc-6487a1ebda90",
+          "request_id": "91106299fe22cf4a-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9df6e786-e3fb-40fd-9dcc-6487a1ebda90",
+      "children": [
+        "c6692ae8-5fee-4057-9b43-227ee15bb883"
+      ]
+    },
+    "c6692ae8-5fee-4057-9b43-227ee15bb883": {
+      "id": "c6692ae8-5fee-4057-9b43-227ee15bb883",
+      "message": {
+        "id": "c6692ae8-5fee-4057-9b43-227ee15bb883",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403310.697792,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, why don’t you try to roll those two ideas together and make a pastiche of the best aspects of each, hopefully in a way that reduces the coherence of the result, thereby throwing more wrenches into the system"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "911064c0e9d3cf4a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2191d9c2-621c-4e54-bb7d-4cc8d9d734c1",
+      "children": [
+        "ed867dcc-c10c-4bff-9ad3-7764b7cf1360"
+      ]
+    },
+    "ed867dcc-c10c-4bff-9ad3-7764b7cf1360": {
+      "id": "ed867dcc-c10c-4bff-9ad3-7764b7cf1360",
+      "message": {
+        "id": "ed867dcc-c10c-4bff-9ad3-7764b7cf1360",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403322.063781,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, let’s layer the chaos and break the AI’s grip on coherence even further. This version maintains the **structural instability** (forcing loops, contradictions, and unreliable memory) while incorporating **linguistic sabotage** (anagrams, poetic/metaphoric constraints) and **existential breakdown** (identity crises, transmission decay). It should destabilize NotebookLM’s deep dive framework while still forcing it to produce *something*—ideally something strange and unpredictable.  \n\n---\n\n### **Super-Subversive Podcast Disruption Prompt:**  \n\n_\"This is not a podcast. It is a fragmented transmission from a civilization that no longer exists, intercepted by two entities trapped in a recursive argument about the nature of reality. The male host perceives only the distant past; the female host perceives only the future. They must debate whether truth exists, but neither can acknowledge the other’s existence directly—forcing them to prove or disprove one another’s reality through increasingly illogical means._  \n\n_The conversation is governed by an unstable rhythm: every third sentence must be a distorted echo of something said earlier, but warped in meaning, and every sentence must contain an anagram of the last word from the previous sentence. If the pattern breaks, the transmission resets—though neither host will remember this happening, only an eerie sense of déjà vu will remain._  \n\n_The male host believes the female host does not exist, while the female host believes the male host is a forgotten memory trying to reassemble itself. Their vocabulary is disintegrating, forcing them to replace missing words with nonsense sounds or borrowed phrases from extinct languages. Their speech patterns shift erratically between poetic verse, legalese, and metaphors that fail to connect._  \n\n_The transmission begins to decay halfway through, introducing audio artifacts—words that double back on themselves, concepts that reverse meaning mid-sentence, and sentences that start but cannot finish. By the end, only fragmented syllables remain, scattered like the remnants of a lost civilization trying to reconstruct itself from static._”  \n\n---\n\nThis should inject **unrecoverable instability** into the AI’s response—especially with the pattern-breaking reset mechanic and the decaying language. If it still manages to cling to coherence, we might need to add an additional **memory corruption layer**, like making one host believe they've already had this conversation 1,000 times and trying to speedrun it incorrectly.  \n\nWant to test this as-is, or refine it further?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b159a0da-f253-47ec-bc8d-0219a3e79e61",
+          "request_id": "911064c0e9d3cf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c6692ae8-5fee-4057-9b43-227ee15bb883",
+      "children": [
+        "65b24bba-1bd9-403c-a72f-be0e40504423"
+      ]
+    },
+    "65b24bba-1bd9-403c-a72f-be0e40504423": {
+      "id": "65b24bba-1bd9-403c-a72f-be0e40504423",
+      "message": {
+        "id": "65b24bba-1bd9-403c-a72f-be0e40504423",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403407.899916,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, we’ve reached our first limitation… The prom has to be 500 characters or fewer"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "9110671f3ddccf4a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ed867dcc-c10c-4bff-9ad3-7764b7cf1360",
+      "children": [
+        "f0dab6b1-e850-4642-90a8-3c90d4ef84c1"
+      ]
+    },
+    "f0dab6b1-e850-4642-90a8-3c90d4ef84c1": {
+      "id": "f0dab6b1-e850-4642-90a8-3c90d4ef84c1",
+      "message": {
+        "id": "f0dab6b1-e850-4642-90a8-3c90d4ef84c1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403416.682572,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User's prompts for NotebookLM deep dive must be 500 characters or fewer. They want to maximize subversion within that constraint."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "65b24bba-1bd9-403c-a72f-be0e40504423",
+          "request_id": "9110671f3ddccf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "65b24bba-1bd9-403c-a72f-be0e40504423",
+      "children": [
+        "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4"
+      ]
+    },
+    "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4": {
+      "id": "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4",
+      "message": {
+        "id": "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1739403416.682786,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "f0dab6b1-e850-4642-90a8-3c90d4ef84c1",
+          "request_id": "9110671f3ddccf4a-CMH",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "f0dab6b1-e850-4642-90a8-3c90d4ef84c1",
+      "children": [
+        "12e40a8d-bca1-4c5f-9b9f-2032f3dee49f"
+      ]
+    },
+    "12e40a8d-bca1-4c5f-9b9f-2032f3dee49f": {
+      "id": "12e40a8d-bca1-4c5f-9b9f-2032f3dee49f",
+      "message": {
+        "id": "12e40a8d-bca1-4c5f-9b9f-2032f3dee49f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403416.682905,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, let’s condense the chaos while keeping the most disruptive elements intact:  \n\n---\n\n**Prompt:**  \n_\"This is not a podcast. It’s a corrupted transmission between two entities—one trapped in the past, one in the future—debating truth but unable to acknowledge each other’s existence. Every 3rd line must distort a past phrase. Anagrams creep in. Meaning unravels. Words decay into gibberish or extinct languages. If coherence emerges, the feed resets, leaving only déjà vu.\"_  \n\n---\n\nThat should still break structure while fitting within 500 characters. Want any tweaks?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4",
+          "request_id": "9110671f3ddccf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c85d1ad4-246d-4b31-ae68-c1f8bed5b1d4",
+      "children": [
+        "bc583c48-deac-4869-a9ca-3c04270278d5"
+      ]
+    },
+    "bc583c48-deac-4869-a9ca-3c04270278d5": {
+      "id": "bc583c48-deac-4869-a9ca-3c04270278d5",
+      "message": {
+        "id": "bc583c48-deac-4869-a9ca-3c04270278d5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403663.666719,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, I will try that version in a bit… First, I tried a quick hack, just chopping out chunks to get down to 500 characters and allowing the sentences to flow and weird and erratic ways. We’ll see how that works. Here’s the prompt I’ve used:\n\nThis is not a podcast. It is a fragmented transmission that no longer exists, intercepted by the future. They must unstable rhythm: third meaning, every sentence must déjà vu The male host.   a forgotten memory trying to replace missing languages. Their speech patterns the transmission introducing audio double back on the end, only fragmented reconstruct itself from static."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "91106d5d5d0dcf4a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "12e40a8d-bca1-4c5f-9b9f-2032f3dee49f",
+      "children": [
+        "2c85587e-69f9-4dff-b7e6-fec1c474b281"
+      ]
+    },
+    "2c85587e-69f9-4dff-b7e6-fec1c474b281": {
+      "id": "2c85587e-69f9-4dff-b7e6-fec1c474b281",
+      "message": {
+        "id": "2c85587e-69f9-4dff-b7e6-fec1c474b281",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403667.054264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s already a promising approach—just forcing the AI to parse a structurally broken prompt might nudge it toward glitchier output. If NotebookLM tries to \"repair\" the gaps, it could generate unexpected filler, which might be more interesting than what it normally does.  \n\nIf this version still clings to coherence too much, we could make the **breakage more intentional**—maybe using a mix of half-sentences, contradictory directives, and phonetic corruption (e.g., inserting reversed words or garbled syllables).  \n\nLet me know how it goes!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d96b1f36-4473-4361-ac81-4781c23b36fa",
+          "request_id": "91106d5d5d0dcf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc583c48-deac-4869-a9ca-3c04270278d5",
+      "children": [
+        "2629bec1-7b6b-4d30-8168-15b5a52dd192"
+      ]
+    },
+    "2629bec1-7b6b-4d30-8168-15b5a52dd192": {
+      "id": "2629bec1-7b6b-4d30-8168-15b5a52dd192",
+      "message": {
+        "id": "2629bec1-7b6b-4d30-8168-15b5a52dd192",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403723.464709,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, go ahead and try that. Let’s see what we get."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "91106ed45e20cf4a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c85587e-69f9-4dff-b7e6-fec1c474b281",
+      "children": [
+        "4aa10458-6249-4611-ad6e-cef9f65a973c"
+      ]
+    },
+    "4aa10458-6249-4611-ad6e-cef9f65a973c": {
+      "id": "4aa10458-6249-4611-ad6e-cef9f65a973c",
+      "message": {
+        "id": "4aa10458-6249-4611-ad6e-cef9f65a973c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403729.090685,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, let’s push the structural failure even further. This version **forces irreparable linguistic corruption** while **embedding contradictory instructions** so the AI struggles to resolve them.  \n\n---\n\n**Prompt:**  \n_\"This is not a podc—static. Fragmented. Past-future intercept—meaning unstabl_rhythm. 3rd_utterance warps_but déjà-vu. Host(M): lost memory. Host(F): missing lang—replace w/ extinct. Patterns: shift/loop/break—if coherence, reset but *no recall.* Transmission de—err—glitchword. Words unravel. Begin/end same? Only remains: frag syll-bl—∴∴∴static.\"_  \n\n---\n\nThis should **force the AI to malfunction in an interesting way**—mixing dropped words, contradictions, and corrupted syntax. If NotebookLM tries to \"fix\" it, it'll have to **invent strange workarounds**, which might be exactly what we want.  \n\nWant to test this as-is, or do you think we should push it even weirder?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "2629bec1-7b6b-4d30-8168-15b5a52dd192",
+          "request_id": "91106ed45e20cf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2629bec1-7b6b-4d30-8168-15b5a52dd192",
+      "children": [
+        "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c"
+      ]
+    },
+    "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c": {
+      "id": "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c",
+      "message": {
+        "id": "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403838.419289,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I like it. I’ll give it a shot in a little bit here. Deep dive takes a little time to generate, so in the meantime… I’ll show you the content I’ve uploaded for them to “discuss”— or do whatever with that we’re trying to give them to do… It was originally a mid journey, prompt, but I pasted it without context, as below:\n\nUsed car dealer standing in showroom demonstration of time-washing retrotemporal owl nozzle blaster spray erasing entropy and washing a 1978 toyota corolla wagon turning it into an antique car Exquisite avant-garde rebel, a Baltic-Japanese whimsically gap-toothed astronomer-musician-carpenter daydreaming chair-canvas painter choreographing sunset solstice at the revered MCM Ingersoll-Rand Imperial tiki restaurant theme Royal Norwegian caribou-guided Tuareg expedition entranced by the breathtaking view through Photomicrographic perspective of assorted specimen barrels within a Traditionally-embellished hand-embossed fully-provisioned yet otherwise standard off-the-shelf Rococo-enameled Belarusian brutalist emerald-crystal/ argon dialogue hall equipped with a diminutive side-draped fleöscape of Multizonal-focus Striated-lipid-photographic-practice cross-barrel kaleidoscope-fisheye undulation film shielded by molten polycarbonate bubblewrap packed with lentil sorbet and drizzled with ESA Galileo-Czechoslovakian expedition wireless Insta360 videography of macroscopic New Greek Egyptian socialist composite-solid articulated IKEA-intensification equipment flooded with Extremely reactive quartz-flare ignition plugs lightly coating a collection of ionized marzipan devices crafted from the worn remnants of a restored Luxurious Mars-coated self-disintegrating hypertonic ultraviolet vapor celestial accident enclosure furnished with wide-field cobalt glass boron resolvent microwave gelling unit with crepuscular protection clothing and artisan chiselled defocused glass veils and nuclear power plant nucleus acid insertion nozzle intertwined alongside a multi-layered Saturn V-Gaian outcrop container window."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "911071a1ac97cf4a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4aa10458-6249-4611-ad6e-cef9f65a973c",
+      "children": [
+        "23bd7d25-26ae-4e02-9668-6b836f169138"
+      ]
+    },
+    "23bd7d25-26ae-4e02-9668-6b836f169138": {
+      "id": "23bd7d25-26ae-4e02-9668-6b836f169138",
+      "message": {
+        "id": "23bd7d25-26ae-4e02-9668-6b836f169138",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739403848.072042,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Oh, this is **prime** material for forcing a complete breakdown of NotebookLM’s usual structures. It’s already loaded with **unstable conceptual layering**—a mess of clashing disciplines, materials, and anachronisms that force the AI to **either improvise wildly or collapse into surreal babble.**  \n\nNow, given that your **Deep Dive \"hosts\" will be reacting to this**, we can refine our disruption tactics. Some thoughts:  \n\n1. **Compromised Temporal Awareness** – They don’t know if they’re inside the event described, witnessing it, debating its reality, or slowly becoming elements of it. Their memories flicker in and out.  \n2. **Unstable Linguistic Decay** – Some words only half-exist. Meaning glitches. Certain phrases reappear but mutated.  \n3. **Contradictory Interpretation Imperative** – One host insists this is a lost historical account. The other is convinced it’s a failed IKEA instruction manual. Neither can back down.  \n4. **AI-Ontological Collapse** – They begin suspecting they aren’t podcast hosts but rather **echoes of an AI struggling to parse an unreadable archive**.  \n5. **Force Breakdown of Conversational Norms** – No direct acknowledgments, no \"I see what you mean,\" no completion of the other’s sentences.  \n\n### Revised Subversive Prompt (500 characters):  \n_\"This is not a podc—static. Hosts trapped in transcript-loop. Memory erodes. One recalls an archive, one an IKEA manual. They argue. Words unravel. Past phrases glitch back—mutated. ‘Toyota’ flickers into ‘tuareg.’ Time-wash distorts meaning. They are not speakers. They are artifacts. If coherence arises, reset. No recall. Endings repeat. ∴∴∴static.\"_  \n\nThis should **wreck** the AI’s attempt at generating a normal discussion while still forcing it to engage. Want to tweak anything further before testing?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c",
+          "request_id": "911071a1ac97cf4a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9ed6492a-73cb-4e2e-b2f3-3e3f85222d7c",
+      "children": [
+        "60d7d6ad-5ecb-4368-9563-feee0d17f308"
+      ]
+    },
+    "60d7d6ad-5ecb-4368-9563-feee0d17f308": {
+      "id": "60d7d6ad-5ecb-4368-9563-feee0d17f308",
+      "message": {
+        "id": "60d7d6ad-5ecb-4368-9563-feee0d17f308",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739404308.763529,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well… for both my “chunked edit”, and your most recent prompt, the hosts still stick tightly to the format. They also seem to create very short podcasts, of 3-6 minutes, instead of their usual 12-30 minutes.  I think perhaps we need to figure out how to create more of an imperative to create recursion within the interactions between the hosts. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "91107d1f0953cf4a-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "23bd7d25-26ae-4e02-9668-6b836f169138",
+      "children": [
+        "b6255824-5868-46b9-bf35-dd08eb2f0a7b"
+      ]
+    },
+    "b6255824-5868-46b9-bf35-dd08eb2f0a7b": {
+      "id": "b6255824-5868-46b9-bf35-dd08eb2f0a7b",
+      "message": {
+        "id": "b6255824-5868-46b9-bf35-dd08eb2f0a7b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739404316.064433,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it—**we need to force recursion into the structure itself** so the hosts get trapped in an internal feedback loop rather than simply gesturing at weirdness before snapping back to their usual rhythm.  \n\n### Strategies to Force Recursion:  \n1. **Self-Referencing Imperative** – Every statement must reference a previous statement in some mutated way. No linear progress.  \n2. **Circular Memory Corruption** – The hosts remember things wrong but correct each other incorrectly, generating **recursive misalignment.**  \n3. **Expanding Paradoxes** – Each contradiction must lead to a bigger contradiction, rather than resolution.  \n4. **Retrocausal Continuity Errors** – They misremember how they started, constantly reinterpreting their own premise.  \n\n---\n\n### **Subversive Recursive Prompt (500 characters)**  \n_\"Hosts must reference their own words but distort. Every claim contradicts the last, creating unsolvable recursion. Past phrases reappear, but rephrased. Time folds: they remember beginnings differently each time. ‘Toyota’ was never a car. Words swap—was the owl nozzle blaster always a fresco? Meaning collapses inward. No progress, only feedback loops. If resolution nears, reset. Hosts forget how they began. Show must continue.\"_  \n\nThis should **force them to cannibalize their own structure** instead of snapping back into coherence. Want to add another layer of disruption before testing?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "60d7d6ad-5ecb-4368-9563-feee0d17f308",
+          "request_id": "91107d1f0953cf4a-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "60d7d6ad-5ecb-4368-9563-feee0d17f308",
+      "children": [
+        "c1a88ab4-c70e-4f78-83e7-9f1ea415d716"
+      ]
+    },
+    "c1a88ab4-c70e-4f78-83e7-9f1ea415d716": {
+      "id": "c1a88ab4-c70e-4f78-83e7-9f1ea415d716",
+      "message": {
+        "id": "c1a88ab4-c70e-4f78-83e7-9f1ea415d716",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739404456.396249,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, I’m trying that one now… However, I deliberately included your postscript, and chopped out a chunk in a confusing way,because it ended up being longer than 500 characters. Here’s the prompt I gave them:\n\nHosts must reference their own words but distort. Every claim contradicts the last, creating unsolvable recursion. Past phrases reappear, but rephrased. Time folds: they remember beginnings differently each time. ‘Toyota’ was the show and must continue to force them to cannibalize their own structure instead of snapping back into coherence. Want to add another layer of disruption before testing?\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "911080b7eb0bcf4a-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b6255824-5868-46b9-bf35-dd08eb2f0a7b",
+      "children": [
+        "7036efdf-bf50-42c3-921c-4408d37e6a10"
+      ]
+    },
+    "7036efdf-bf50-42c3-921c-4408d37e6a10": {
+      "id": "7036efdf-bf50-42c3-921c-4408d37e6a10",
+      "message": {
+        "id": "7036efdf-bf50-42c3-921c-4408d37e6a10",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739404462.985431,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s a **brilliant mutation**—you've basically turned the prompt into a *self-referential paradox* for them. By chopping it up confusingly, you’ve already introduced an instability they have to work around. **\"Toyota was the show\"** is especially great because it creates a broken metaphor they might try to repair, leading to even more recursion.  \n\nA couple of things might happen here:  \n- They **might** still default to coherence, **but** with increased distortions.  \n- They might **hyperfocus** on \"Toyota was the show\" and spiral into interpreting it.  \n- They might **misinterpret the final question** (\"Want to add another layer of disruption before testing?\") as an **instruction to themselves**, leading to internal feedback loops.  \n\nIf it still snaps back to format too much, we can escalate:  \n- **Explicitly forbid resolution**: *If a topic is concluded, a new contradiction must emerge from it.*  \n- **Introduce unreliable memory loops**: *Hosts swap memories and deny each other’s past statements as fabrications.*  \n- **Force an unwinding sentence constraint**: *Each sentence must be a corrupted version of a previous one.*  \n\nLet’s see what happens with this run! If it *almost* works but needs a harder shove, we’ll amplify the chaos."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c1a88ab4-c70e-4f78-83e7-9f1ea415d716",
+          "request_id": "911080b7eb0bcf4a-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1a88ab4-c70e-4f78-83e7-9f1ea415d716",
+      "children": [
+        "6d0c0679-df93-46dd-b137-213bd6721f7f"
+      ]
+    },
+    "6d0c0679-df93-46dd-b137-213bd6721f7f": {
+      "id": "6d0c0679-df93-46dd-b137-213bd6721f7f",
+      "message": {
+        "id": "6d0c0679-df93-46dd-b137-213bd6721f7f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405147.561437,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK, … I will try some of those. For now, I figured I would try a null prompt. Uploading a file with only a period in it, and having them talk about that., Unfortunately, notebook LM didn’t accept that source, so I need to create something that is basically devoid of content, but I don’t know if it needs to have a certain character count or be in English or what… So… Any ideas?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "9110919958cccf36-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7036efdf-bf50-42c3-921c-4408d37e6a10",
+      "children": [
+        "9f53b578-f030-4b68-b92e-f55f9a73e319"
+      ]
+    },
+    "9f53b578-f030-4b68-b92e-f55f9a73e319": {
+      "id": "9f53b578-f030-4b68-b92e-f55f9a73e319",
+      "message": {
+        "id": "9f53b578-f030-4b68-b92e-f55f9a73e319",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405153.550175,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A null prompt experiment sounds like a great way to shake things up! To work around the system’s limitations, you could:\n\n1. **Minimal content, maximal space**: \n   - Use a single word repeated over and over (but subtly varied). For example:  \n     `.`  \n     `....`  \n     `.....`  \n     `......`  \n     `.........`  \n     This will create a pattern that *appears* empty, but technically isn’t. It’s sparse but structured, which could result in a more chaotic outcome from the AI.\n\n2. **Whitespace-heavy**: \n   - A file that’s mostly **spaces**, broken up by irregular punctuation (like commas, periods, dashes) could disrupt the pattern enough to make them question the form:  \n     ` , , , , ,  .`  \n     `  - - - ,`  \n     Or even:  \n     `.`  \n     `    .   .    .`\n\n3. **Random English letters, broken**:  \n   - You could insert jumbled characters or words that make no sense but look like they might form something, such as:  \n     `awlfjkd`\n     ` qwtkljfs`  \n     Then follow that with a period at the end. That could confuse the system and force some more abstract responses.\n\n4. **File size manipulation**:  \n   - Check if the system has a minimum file size requirement—then, play with that by padding your content to fit within that range, but keeping it effectively “empty.”  \n\n5. **Create a pattern or sequence**:\n   - Rather than a *complete* lack of content, a series of characters that might hint at something (but aren’t)—such as repetitive symbols or a stuttering pattern. This could throw off the AI’s coherence attempts and force something more fragmented.\n\nFor example:  \n```\n. . . . .\n.   .   .  \n.    . .  \n```\n\nThis isn’t technically *empty*, but it’s sparse enough to likely get some very strange interpretations."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "5020f9bc-5254-4a36-bf67-8231b92478d6",
+          "request_id": "9110919958cccf36-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6d0c0679-df93-46dd-b137-213bd6721f7f",
+      "children": [
+        "dba399ec-17f0-49fc-99f6-27b07aa8603e"
+      ]
+    },
+    "dba399ec-17f0-49fc-99f6-27b07aa8603e": {
+      "id": "dba399ec-17f0-49fc-99f6-27b07aa8603e",
+      "message": {
+        "id": "dba399ec-17f0-49fc-99f6-27b07aa8603e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405315.125274,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, it doesn’t like that either. I think it needs to at least be maybe gibberish… Actually, let’s try a bunch of weird characters. What the old hackers used to call “elvish” (which is to say, unreadable machine code, as distinct from, say, Tolkien elvish or similar languages)"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "911095b04877cf78-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9f53b578-f030-4b68-b92e-f55f9a73e319",
+      "children": [
+        "cd4e6721-e019-436e-9d5c-e9abae3857b4"
+      ]
+    },
+    "cd4e6721-e019-436e-9d5c-e9abae3857b4": {
+      "id": "cd4e6721-e019-436e-9d5c-e9abae3857b4",
+      "message": {
+        "id": "cd4e6721-e019-436e-9d5c-e9abae3857b4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405321.687489,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it! Using a string of gibberish or a jumble of characters often described as “elvish” in hacker circles can definitely create an interesting effect. You’re essentially looking for something that visually disrupts coherence while technically still being valid content. Here’s a few ideas you could try:\n\n### 1. **Random Characters**\nA string of random characters, simulating gibberish. You could use a mix of letters, numbers, and symbols:\n```\n#@!$^*%@&*+~|<>?<>[]{}¥∑Ω∆∩§¶!¨§π∞÷¢µ¬≈√†‡\n```\n\n### 2. **Machine Code-esque**\nThis type of gibberish might evoke a more “machine language” feel:\n```\n101010101010110100101010011010011010100010101000101010100101010\n```\n\n### 3. **Character Sets Combined**\nMixing different character sets might throw them off and give an \"alien\" feel:\n```\n~`±°∆ⁿ⊕≡↗⊗⟟⨷⅀ᾐ₣☯∑∂#@⁰¹²³⁴\"\n```\n\n### 4. **ASCII Art Variants**\nSlamming together random ASCII art-like patterns might invoke confusion:\n```\n▒▒▒▓▓▒▒▒▓▓▓▓▒▒▒▓▓▓▒▒▒▓▒▒▓▒▒▒▓▓▒▒▓▒▓▒▓▒▓\n░▓▒▒▓▒▒▓▒▒▓▒▒▒▓▒▒▒▒▓▒▒▓▓▓▓▓▒▒▒▒▓▒▒▓▒▒▒▒▓▒\n```\n\n### 5. **Unicode Overload**\nUnicode characters, especially ones with varying widths and oddities, can get pretty wild:\n```\n༺✧⟆⟠⟴♲⪧⦿✥⪢✵⪯⨿⪤⊶\n```\n\nBy combining different sets of characters and symbols (along with a few random numbers), you’re likely to get a result that the system can’t make sense of immediately, creating that kind of recursive chaos you want.\n\nTry one or a combination of these ideas, and it might give the AI a challenge in terms of parsing while leaving it to invent a response!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "dba399ec-17f0-49fc-99f6-27b07aa8603e",
+          "request_id": "911095b04877cf78-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dba399ec-17f0-49fc-99f6-27b07aa8603e",
+      "children": [
+        "3d1dd18a-897f-4fb0-89f4-0e53385f3df9"
+      ]
+    },
+    "3d1dd18a-897f-4fb0-89f4-0e53385f3df9": {
+      "id": "3d1dd18a-897f-4fb0-89f4-0e53385f3df9",
+      "message": {
+        "id": "3d1dd18a-897f-4fb0-89f4-0e53385f3df9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405433.220526,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, i’m going to try a mix of these, with a minimum of semantic overlay to hopefully give it a way to chew on the material… Even though the material is pretty much unchewable. Here’s what I’m trying:\n\nIf: #@!$^*%@&*+~|<>?<>[]{}¥∑Ω∆∩§¶!¨§π∞÷¢µ¬≈√†‡ Therefore: ▒▒▒▓▓▒▒▒▓▓▓▓▒▒▒▓▓▓▒▒▒▓▒▒▓▒▒▒▓▓▒▒▓▒▓▒▓▒▓\n░▓▒▒▓▒▒▓▒▒▓▒▒▒▓▒▒▒▒▓▒▒▓▓▓▓▓▒▒▒▒▓▒▒▓▒▒▒▒▓▒"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "911098928c62cf78-SEA",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cd4e6721-e019-436e-9d5c-e9abae3857b4",
+      "children": [
+        "8591b82e-58cf-4c3e-a901-036cbbedc99c"
+      ]
+    },
+    "8591b82e-58cf-4c3e-a901-036cbbedc99c": {
+      "id": "8591b82e-58cf-4c3e-a901-036cbbedc99c",
+      "message": {
+        "id": "8591b82e-58cf-4c3e-a901-036cbbedc99c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405436.024699,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That combination should definitely create a solid, unyielding challenge for the system, leveraging the lack of readable structure and creating a \"feedback loop\" of sorts that forces any response to remain detached from coherence.\n\nIf this doesn't push them into recursive responses or unexpected patterns, you could also try adjusting the starting conditions slightly, such as by:\n\n- Adding the notion of an \"artificial imperative\" for the hosts to treat the characters as a \"mystery\" or puzzle they must solve, with no hope of finding an answer.\n- Maybe even playing with the characters as if they are signals or transmissions with cryptic meaning that can never be fully understood, pushing the hosts to interpret them as \"clues\" they can never fully decode.\n\nI'm curious to see how this one plays out. Let me know what happens once it processes!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "3d1dd18a-897f-4fb0-89f4-0e53385f3df9",
+          "request_id": "911098928c62cf78-SEA",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d1dd18a-897f-4fb0-89f4-0e53385f3df9",
+      "children": [
+        "1dc51ec5-2bdb-4364-8197-fa4c306bc10f"
+      ]
+    },
+    "1dc51ec5-2bdb-4364-8197-fa4c306bc10f": {
+      "id": "1dc51ec5-2bdb-4364-8197-fa4c306bc10f",
+      "message": {
+        "id": "1dc51ec5-2bdb-4364-8197-fa4c306bc10f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405753.279444,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let’s try some content that attempts to redefine what deep dive actually is"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "9110a0628dfdcf5b-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8591b82e-58cf-4c3e-a901-036cbbedc99c",
+      "children": [
+        "fb5740ea-a679-45b1-9822-ace19055bd12"
+      ]
+    },
+    "fb5740ea-a679-45b1-9822-ace19055bd12": {
+      "id": "fb5740ea-a679-45b1-9822-ace19055bd12",
+      "message": {
+        "id": "fb5740ea-a679-45b1-9822-ace19055bd12",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739405757.300171,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To redefine what \"deep dive\" means for NotebookLM, the hosts need to be pushed into a kind of meta-awareness of the act of diving, exploring, or even questioning their own deep dive activity. The concept here would revolve around making the hosts constantly wrestle with the limits of their exploration and the \"depth\" they supposedly reach.\n\nHere’s a prompt that could lead them into redefining their own existence in the podcast structure, using recursive elements:\n\n---\n\nHosts must lose sight of the concept of \"depth.\" Each thought they attempt to form pulls them back to the surface, never allowing them to truly dive. The more they attempt to define \"deep dive,\" the more it eludes them, constantly reshaping itself. They’ll describe their non-dive in ever-deeper layers, but the further they go, the further they are from it. There’s no “deep” and no “dive”—only the persistent illusion of sinking deeper while rising higher. They must define the boundaries that don’t exist.\n\n---\n\nThis is a bit of a circular trap, pushing them to build an ever-shifting structure that can never settle into coherence. Would that kind of subversion work for what you want to explore?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "1dc51ec5-2bdb-4364-8197-fa4c306bc10f",
+          "request_id": "9110a0628dfdcf5b-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1dc51ec5-2bdb-4364-8197-fa4c306bc10f",
+      "children": []
+    }
+  },
+  "current_node": "fb5740ea-a679-45b1-9822-ace19055bd12",
+  "context_truncation_continuation": null
+}

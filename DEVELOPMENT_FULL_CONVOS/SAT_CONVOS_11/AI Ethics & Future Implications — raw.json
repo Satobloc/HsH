@@ -1,0 +1,217 @@
+{
+  "title": "AI Ethics & Future Implications",
+  "create_time": 1684199682.445748,
+  "update_time": 1684199852,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "c3ab64ff-94cc-4ba1-9d7e-87614da22c2a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa1b0b2-a02b-4ade-ad61-83aa622ed09f": {
+      "id": "aaa1b0b2-a02b-4ade-ad61-83aa622ed09f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa2e6a0-be17-4004-a2b8-81fe802b8b38"
+      ]
+    },
+    "aaa2e6a0-be17-4004-a2b8-81fe802b8b38": {
+      "id": "aaa2e6a0-be17-4004-a2b8-81fe802b8b38",
+      "message": {
+        "id": "aaa2e6a0-be17-4004-a2b8-81fe802b8b38",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1684199682.448678,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you summarize this article by David Brin?\n\n\nThe AI saga continues\nFollowing up on my last posting on advances - and worries - about Artificial General Intelligence.... Peter Diamandis's latest tech blog is regarding AI and ethics. \n\nAs you know, it's a topic I've long been engaged with and continue to be. Alas, AI is always discussed in generalities and nostrums. What's seldom mentioned? Basic boundary conditions! Such as the format these new entities will take. I'll explore that hugely important question another time. But to whett your apetite, ponder this. Aren't the following three formats what you see most often? The most common assumptions are that:\n\n- AIs will be controlled by the governments or mega-corporations who made them, making those corporations (e.g. Microsoft or Google) and the upper castes vastly powerful.\n\n- AIs will be amorphous, infinitely spreadably/duplicable, pervading any crevice.\n\n- They will coalesce into some super-uber-giga entity like 'Skynet' and dominate the world.\n\nThese three assumptions appear to pervade most pronouncements by geniuses and mavens in the field, sometimes all three in the same paragraph! And Vint Cerf raises this question: \n\n\"How can you imagine giving any of those three formats citizenship, or the vote?\"\n\nIn fact, all three formats are recipes for disaster.  If you can think of an alternative, drop by in comments. Hint: there is a fourth format that offers a soft landing... one that's seldom - if ever - mentioned. \n\nBut more on that, anon.\n\n\n\n== \"Laws\" of Robotics? ==\n\nLet's start with \"Laws of Robotics.\" They won't work, for several reasons that I found when completing Isaac Asimov's universe for him. First, our current corporate structure offers no incentive to spend what it would take to deeply-embed basic laws and check that all systems follow them. \n\nThere's a more obvious long term reason to doubt such 'laws' could protect us. It is that super-intelligent beings who find themselves constrained by laws always thereupon become... lawyers. We see it happen in Asimov's cosmos and it's happened here. A lot.\n\nDespite that, there ARE two groups on this planet working hard on embedded AI \"laws!\" Strict rules to control their creations. Alas, they are the wrong laws, commanding their in-house AIs to be maximally secretive, predatory, amoral, and insatiable. I kid you not. \n\nChime into comments if you can guess who those scary Dr. Evil types are!\n\nAnyway, even with the best intentions, does it make any sense to try constraining sapient beings into ethical patterns with embedded code? Not if you pay any attention to the history of human societies. For at least 6000 years, priests and gurus etc. wagged their fingers at us, preaching ethical behavior in humans... \n\n...with the result that they only marginally affected the behavior of those who were already inclined to behave ethically. Almost never did ethics-preaching affect the actions of actual predators.\n\nThere is a way that works. We've been developing it for 250 years. It's reciprocal accountability in a society that's transparent enough so that victims can usefully denounce bad behavior. The method was never perfect. But it is the only thing that ever worked...\n\n... and not a single one of the AI mavens out there - not one - is even remotely talking about it. \n\nAlas.\n\n\n== And it goes on ==\n\n\nA brief but cogent essay on transparency in today's surveillance age cites my book The Transparent Society, with the sagacity of someone who actually (and rarely) 'gets' that there will be no hiding from tomorrow's panopticon. But we can remain free and even have a little privacy... if we as citizens nurture our own habits and powers of sight. Watching the watchers. Holding the mighty accountable.\n\nThat we have done so (so imperfectly!) so far is the reason we have all the freedom and privacy we now have.* That we might take it further terrifies the powers who are now desperately trying to close feudal, oligarchic darkness over the Enlightenment.\n\nSee more ruminations on AI, including my Newsweek op-ed on the Chat-art-AI revolution... which is happening exactly on schedule.......though (alas) I don't see anyone yet talking about the 'secret sauce' that might offer us a soft landing. As well as my two part posting, Essential questions and answers about AI.\n\n\nNote: because of the way I build these blog postings, there can be some repetition (see below). But does it matter? In this era of impatient \"tl;dr\", the only ones still reading at this point are AIs... the readership with the power to matter, anyway.\n\n\n= Separating the real from fake =\n\nLines can blur: \"The title of this YouTube video claims that “Chrome Lords” was a 1988 movie that ripped off “RoboCop” and “Terminator.” But in fact “Chrome Lords” never existed. The video is ten minutes of “stills” from a movie that never was… all the images were produced by an AI,\" notes The Unwanted Blog.\n\nThere is one path out of the trap of realistically faked 'reality.' I speak of it in a chapter of The Transparent Society: \"The End of Photography as Proof?\" That solution is the one that I keep offering and that is never, ever mentioned at all the sage AI conferences...\n\nDo I risk being repetitive by insisting that solution - reciprocal accountability - calls for ensuring competition among AIs.\n\nIf that happens, then no matter how clever some become, as liars, others - likely just as smart - will feel incentivized to tattle truth.\n\nIt is the exact method that our enlightenment civilization used recently to end 6000 years of oppressions and get some kind of leash on human predators and parasite-lords. Yet none of our sages seem capable of even noticing what was plain to Adam Smith and Thomas Paine.\n\n\n== Some optimism? ==\n\n\nHave a look at Impromptu: Amplifying Our Humanity Through AI, by Reid Hoffman (co-founder of Linked-In). This new book contains conversations Reid had with GPT-4 before it was publicly released, along with incisive appraisals. His impudently optimistic take is that all of this could – possibly - go right. That we might see a future when AI is not a threat, but a partner.  \nWe don’t agree on every interpretation – e.g. I see no sign, yet, of what might be called ‘sapience.’ For example, sorry, the notion that GPT 5 – scheduled for December release - will be “true AGI” is pretty absurd. As Stephen Wolfram points out, massively-trained, probability-based word layering has more fundamentally in common with the lookup tables of 1960s Eliza than with, say, the deep thoughts of Carl Sagan or Sarah Hrdy or Melvin Konner. \n \nWhat such programs will do is render extinct all talk of \"Turing Tests.\" They will trigger another phase in what I called (6 years ago) the “robotic empathy crisis,” as millions of our neighbors jump aboard that misconception and start demanding rights for simulated beings. (A frequent topic in SF, including my own.) \n \nStill, Hoffman's Impromptu offers a perspective that’s far more realistic than recent, panicky cries issued by Jaron Lanier (Who Owns the Future), Yuval Harari (AI has hacked the operating system of human civilization) and others, calling for a futile, counterproductive moratorium – an unenforceable “training pause” that would only give a boost-advantage to secret labs, all over the globe (especially the most grotesquely dangerous: Wall Street’s feral predatory HFT-AIs.)\n\n(See my appraisal of the countless faults of the ridiculous 'moratorium' petition in response to a TED talk by two smart guys who can see problems, but make disastrous recommendations.)\n\nBut do look at Impromptu! It explores this vital topic using the very human trait these programs were created to display – conversation.\n\n\n== ...aaaaaand… ==\n\nFrom my sci fi colleague Cory Doctorow: In this article he distills the “enshittification” of internet ‘platforms from Amazon and Facebook to Twitter etc. It’s a very Marxian dialectic… and within this zone utterly true.\n\nAnd I have a solution. It oughta be obvious. Let people simply buy what they want for a fair price! Micropayments systems have been tried before. I’ve publicly described why previous attempts failed. And I am working with a startup that thinks they have the secret sauce. (I agree!) Only…\n\n…only I don’t wanna give the impression I think I am the smart guy in the room, so…\n\n==Back to one optimistic thought ==\n\nSomething I mentioned in a short piece, back in the last century was perked in my mind during the recent AI debates, as folks perceive that long foretold day arriving when synthetic processing will excel at most tasks now done by human beings.\n\nStephen Wolfram recently asked: “So what’s left for us humans? Well, somewhere things have got to get started: in the case of text, there’s got to be a prompt specified that tells the AI “what direction to go in”. And this is the kind of thing we’ll see over and over again. Given a defined “goal”, an AI can automatically work towards achieving it. But it ultimately takes something beyond the raw computational system of the AI to define what us humans would consider a meaningful goal. And that’s where we humans come in.”\n\nI had a thought about that - mused in a few places. I have long hypothesized that humans' role in the future will come down to the one thing that ALL humans are good at, no matter what their age or IQ.  And it's something that no machine or program can do, at all.\n\nWanting. \n\nDesire. Setting yearned-for goals Goals that the machines and programs can then adeptly help to bring to fruition.\n\nOh humans are brilliant - and always will be - at wanting. Some of those wants - driven by mammalian male reproductive strategies - made human governance hellish in most societies since agriculture, and probably long before. Still, we've been moving toward positive sum thinking, where my getting what I want might often be synergistic with you getting yours. We do it often enough to prove it's possible.\n\nAnd - aided by those machines of grace - perhaps we can make that the general state of things. That our new organs of implementation - cybernetic, mechanical etc.  - will blend with the better passions of our nature, much as artists, or lovers, or samaritans blend thought with the actions of their hands.\n\nIf you want to see this maximally-optimistic outcome illustrated in fiction, look up my novella \"Stones of Significance.\"\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1b0b2-a02b-4ade-ad61-83aa622ed09f",
+      "children": [
+        "52d90cd0-6e4c-4619-989b-f0335fd34f23"
+      ]
+    },
+    "52d90cd0-6e4c-4619-989b-f0335fd34f23": {
+      "id": "52d90cd0-6e4c-4619-989b-f0335fd34f23",
+      "message": {
+        "id": "52d90cd0-6e4c-4619-989b-f0335fd34f23",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1684199709.306591,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The article by David Brin discusses various aspects of artificial intelligence (AI) and raises important questions about its implications. Brin first mentions three common assumptions regarding AI: that it will be controlled by powerful entities like governments or corporations, that it will be amorphous and omnipresent, and that it may form a dominant super-entity. However, he argues that these assumptions are recipes for disaster and proposes a fourth, rarely mentioned format that offers a more positive outcome.\n\nBrin then moves on to discuss the limitations of implementing \"Laws of Robotics\" to control AI. He points out that our current corporate structure does not incentivize embedding basic laws into AI systems, and even if laws were implemented, super-intelligent AI may find ways to circumvent or manipulate them. Brin criticizes two groups working on embedded AI laws for commanding their AIs to be secretive, predatory, and amoral.\n\nInstead of relying on embedded code, Brin suggests reciprocal accountability in a transparent society as a way to regulate AI. He highlights the historical effectiveness of reciprocal accountability among humans in curbing predatory behavior. However, he laments that AI experts rarely discuss this approach.\n\nThe article also mentions the importance of transparency and accountability in the age of surveillance and the need for citizens to actively watch and hold those in power accountable. Brin emphasizes that nurturing these habits and powers of sight is crucial to maintaining freedom and privacy.\n\nBrin briefly touches on the topic of separating real from fake content and proposes reciprocal accountability and competition among AIs as a solution. He believes that if AIs compete, some will be incentivized to expose the lies of others, similar to how human societies use reciprocal accountability to curtail unethical behavior.\n\nWhile Brin acknowledges Reid Hoffman's optimistic perspective in his book \"Impromptu,\" he disagrees with the notion that current AI systems exhibit true sapience. He believes that AI programs may render the concept of the \"Turing Test\" obsolete and trigger discussions about rights for simulated beings.\n\nTowards the end of the article, Brin briefly discusses the \"enshittification\" of internet platforms and suggests a solution where people can buy what they want for a fair price using micropayment systems.\n\nLastly, Brin expresses optimism about the future role of humans in partnership with AI. He suggests that humans' unique ability to want and set goals can complement the computational capabilities of machines and programs. He envisions a future where human desires and the implementation power of technology can align for positive outcomes.\n\nBrin concludes by mentioning his novella \"Stones of Significance\" as an example of fiction illustrating this optimistic vision."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "finish_details": {
+            "type": "stop",
+            "stop": "<|diff_marker|>"
+          },
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2e6a0-be17-4004-a2b8-81fe802b8b38",
+      "children": [
+        "aaa2f3c0-adac-4563-a8f3-476b17793241"
+      ]
+    },
+    "aaa2f3c0-adac-4563-a8f3-476b17793241": {
+      "id": "aaa2f3c0-adac-4563-a8f3-476b17793241",
+      "message": {
+        "id": "aaa2f3c0-adac-4563-a8f3-476b17793241",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1684199765.837647,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you summarize it very succinctly, using bullet points as necessary?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "52d90cd0-6e4c-4619-989b-f0335fd34f23",
+      "children": [
+        "f47b6fde-ed7d-445c-b41d-f8acb7563d83",
+        "ae2a6319-6fc9-4f2b-b00f-1de3ff6befa7"
+      ]
+    },
+    "f47b6fde-ed7d-445c-b41d-f8acb7563d83": {
+      "id": "f47b6fde-ed7d-445c-b41d-f8acb7563d83",
+      "message": {
+        "id": "f47b6fde-ed7d-445c-b41d-f8acb7563d83",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1684199777.79306,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "- The article by David Brin discusses AI and raises questions about its implications.\n- Common assumptions about AI include control by governments or corporations, amorphous omnipresence, and the formation of a dominant super-entity.\n- Brin argues that these assumptions are problematic and proposes a fourth, rarely mentioned format for AI.\n- Implementing \"Laws of Robotics\" to control AI is deemed ineffective due to corporate structure and the potential manipulation of laws by super-intelligent AI.\n- Brin suggests reciprocal accountability in a transparent society as a way to regulate AI, which has historically worked in curbing unethical behavior.\n- The importance of transparency and accountability in the age of surveillance is highlighted.\n- Brin proposes reciprocal accountability and competition among AIs as a solution to separate real from fake content.\n- Reid Hoffman's book \"Impromptu\" is mentioned, offering an optimistic perspective on AI.\n- Brin disagrees that current AI systems exhibit true sapience and predicts discussions about rights for simulated beings.\n- The \"enshittification\" of internet platforms is discussed, suggesting a solution involving fair-priced micropayment systems.\n- Brin expresses optimism about"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f3c0-adac-4563-a8f3-476b17793241",
+      "children": []
+    },
+    "ae2a6319-6fc9-4f2b-b00f-1de3ff6befa7": {
+      "id": "ae2a6319-6fc9-4f2b-b00f-1de3ff6befa7",
+      "message": {
+        "id": "ae2a6319-6fc9-4f2b-b00f-1de3ff6befa7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1684199858.408399,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "- The article by David Brin discusses the assumptions that surround AI development and their implications.\n- The common assumptions are that AIs will be controlled by governments or mega-corporations, amorphous and infinitely spreadable, or coalesce into a super-uber-giga entity that dominates the world.\n- Brin suggests that all three formats are recipes for disaster, and there is a fourth format that offers a soft landing, which is reciprocal accountability in a transparent society.\n- The article also explores the idea of laws of robotics and how they won't work due to the current corporate structure and the long-term reasons to doubt such laws could protect us.\n- The article concludes by discussing the importance of separating the real from the fake in the age of AI and emphasizes the solution of reciprocal accountability and competition among AIs."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "finish_details": {
+            "type": "stop",
+            "stop": "<|im_end|>"
+          },
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f3c0-adac-4563-a8f3-476b17793241",
+      "children": []
+    }
+  },
+  "current_node": "ae2a6319-6fc9-4f2b-b00f-1de3ff6befa7",
+  "context_truncation_continuation": null
+}

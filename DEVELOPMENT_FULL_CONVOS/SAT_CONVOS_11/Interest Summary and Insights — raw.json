@@ -1,0 +1,124 @@
+{
+  "title": "Interest Summary and Insights",
+  "create_time": 1733152974.178701,
+  "update_time": 1733152982.420161,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "674dd0ce-0e30-8012-ae6c-a030a0435227",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "aaa1224c-3e7a-4254-a64f-1ecc4bf74677": {
+      "id": "aaa1224c-3e7a-4254-a64f-1ecc4bf74677",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aaa261a7-a571-404c-b65d-c1479d42e6b4"
+      ]
+    },
+    "aaa261a7-a571-404c-b65d-c1479d42e6b4": {
+      "id": "aaa261a7-a571-404c-b65d-c1479d42e6b4",
+      "message": {
+        "id": "aaa261a7-a571-404c-b65d-c1479d42e6b4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733152973.806,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you make a concise but exhaustive list of everything you know that I'm interested in"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ebc50a77d13cf5a-CMH",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1224c-3e7a-4254-a64f-1ecc4bf74677",
+      "children": [
+        "e63084d4-3161-4c12-9241-227dca7b62fd"
+      ]
+    },
+    "e63084d4-3161-4c12-9241-227dca7b62fd": {
+      "id": "e63084d4-3161-4c12-9241-227dca7b62fd",
+      "message": {
+        "id": "e63084d4-3161-4c12-9241-227dca7b62fd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733152974.229463,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a concise, but exhaustive list based on what you've shared:\n\n1. **Education and Pedagogy**\n   - Experience in informal education, particularly in science centers and museums (COSI Columbus, AMNH).\n   - Focus on experience-creation, creative learning, and integrating new technologies.\n   - Hands-on, real-world approaches to teaching.\n   - Wide range of teaching subjects from astronomy to cultural anthropology.\n\n2. **Writing & Fiction**\n   - Science fiction, dark fantasy, slipstream, and weird fiction.\n   - Emphasis on experimental narrative techniques and unconventional subject matter.\n   - Personal, emotive stories about humans and other intelligences.\n   - Interest in niche settings like geological, astronomical, and temporal landscapes.\n\n3. **Science and Technology**\n   - Geology, paleontology, and micropaleontology (with a degree in these areas).\n   - Read scientific journals for fun.\n   - Interests in comparative and historical linguistics, history, geography, and philosophy.\n\n4. **Arts & Creativity**\n   - Focus on AI art and mixed-media, filmmaking, DSLR and film photography.\n   - Experimental DIY camera building and darkroom techniques.\n   - Experimental music-making.\n   - Interest in antiques and historical/world cuisine.\n\n5. **Programming and Technology**\n   - Dabble in computer programming.\n\n6. **Philosophy & Epistemology**\n   - Open-minded, epistemologically informed approach to big questions (e.g., panpsychism, AI consciousness, the Hard Problem of consciousness).\n   - Emphasis on remaining agnostic and self-questioning.\n\n7. **Pop Culture and Subcultures**\n   - A broad range of interests in entertainment, film, and pop culture.\n\nDoes this list capture everything, or would you like to add anything more?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "e3ebf470-91c4-4475-b27d-bf636ed77df7",
+          "request_id": "8ebc50a77d13cf5a-CMH",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa261a7-a571-404c-b65d-c1479d42e6b4",
+      "children": []
+    }
+  },
+  "current_node": "e63084d4-3161-4c12-9241-227dca7b62fd",
+  "context_truncation_continuation": null
+}
