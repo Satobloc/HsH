@@ -1,10 +1,10 @@
 # Annotated cross-archive survey
 
-Updated: 2026-09-09
+Updated: 2026-09-12
 
 This is a neutral coverage and provenance map for visitors working across
-[Satobloc/HsH](https://github.com/Satobloc/HsH) and
-[SAT_THEORY_ARCHIVE_2023-25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25).
+[Satobloc/HsH](https://github.com/Satobloc/HsH),
+[SAT_THEORY_ARCHIVE_2023-25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25), and the external-source/data repository `Satobloc/HSH_RESOURCES`.
 It is not a ranking of sources, a declaration of settled policy, or a reason to
 ignore material not yet indexed.
 
@@ -23,6 +23,7 @@ older devices are sometimes productively revived.
 
 ## Current maps
 
+- [Federated three-repository archive map](indexes/FEDERATED_ARCHIVE_MAP.md)
 - [Detailed source-by-source coverage](https://github.com/Satobloc/HsH/blob/main/synthesis/SURVEYED_SOURCES.md)
 - [Cumulative H(s)H synthesis](https://github.com/Satobloc/HsH/blob/main/synthesis/CURRENT_SYNTHESIS.md)
 - [Exact continuation checkpoint](https://github.com/Satobloc/HsH/blob/main/checkpoints/CURRENT.md)
