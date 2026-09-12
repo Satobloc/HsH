@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T08:45:30+00:00`
-- Tree/content state: `a564198154e3c9139f1fca6d0cd18721c1ba19c09960a864dcb799e2593318da`
-- Coverage: 567 files, 48 directories
+- Scanned: `2026-09-12T09:01:13+00:00`
+- Tree/content state: `60ea410aa65540a628973d4c9d0fe0ef3b417052f7a21f0210b3c95943badd03`
+- Coverage: 571 files, 49 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 2 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 4 |
+| `WORKSPACES` | 8 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 70 |
+| `.md` | 74 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -75,7 +75,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 4 |
+| `llm-workspace` | 8 |
 | `review-ledger` | 3 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -278,7 +278,7 @@
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
-- `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
+- `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md` — 4370 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.md` — 2211 bytes — `unclassified`
@@ -795,6 +795,10 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/09_elastic_sheet_displacement.png` — 175922 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
+- `WORKSPACES/COMMON/COORDINATION.md` — 905 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFFS.md` — 620 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/README.md` — 1736 bytes — `llm-workspace`
+- `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
@@ -812,7 +816,7 @@
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 105071 bytes — `generated-catalog`
-- `indexes/FEDERATED_ARCHIVE_MAP.md` — 5448 bytes — `generated-catalog`
+- `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
 - `indexes/manifests/development-conversation-dates.json` — 178832 bytes — `generated-catalog`
