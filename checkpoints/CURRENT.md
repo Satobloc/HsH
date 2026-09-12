@@ -6,7 +6,7 @@
 4. **Operator consequence:** local `ᚼ` remains gauge-null on an isotropic unmarked `B^3`; `ᚼᚼ` remains open. Resolver thickness cannot supply the missing material director.
 5. **Prediction ledger:** `PRED-FC-001` remains `UNFROZEN`; `PRED-FC-002` remains `CANDIDATE` with an added kernel-calibration gate. No empirical prediction is frozen.
 6. **Paper pipeline:** `HSH-P001` now includes the finite-thickness width non-identifiability/no-go lemma; maturity remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
-7. **Team/source check:** new Common controls and Calder's direct check-in were read. Calder's theory-bearing angle interpretations are provisionally quarantined; negative empirical/QC results remain external-evidence candidates. Morrow's integration check-in is posted. Accessible Drive supplied no controlling construction.
+7. **Team/source check:** new Common controls and the Calder and Hale direct check-ins were read. Calder's theory-bearing angle interpretations are provisionally quarantined; its negative empirical/QC results remain external-evidence candidates. Hale's arXiv scanner remains an external landscape instrument, not a theory source. Morrow's integration check-in is posted. Accessible Drive supplied no controlling construction.
 8. **Exact next handoff:** Ravel/geometry should decide whether the resolving wavefront supplies an independently calibratable kernel or controlled `delta` family and reproduce FC-BASE-003 against the particle-scale candidate.
 
 **Earliest open dependency:** carrier/support selection plus an explicit resolver kernel or calibration family; then constitutive/contact law and marking/director data.
