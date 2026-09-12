@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T04:18:40+00:00`
-- Tree/content state: `2b6089e9c7d9c293954936da156d12be87c2f91e168eada5b4a9acb58bb96bdd`
-- Coverage: 455 files, 46 directories
+- Scanned: `2026-09-12T04:23:13+00:00`
+- Tree/content state: `d9f8bfe126fc20f937409f1b7e7865631cceebc5e9d71eda274417a31934916f`
+- Coverage: 535 files, 46 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
-| `DEVELOPMENT_FULL_CONVOS` | 284 |
+| `DEVELOPMENT_FULL_CONVOS` | 364 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 3 |
-| `.json` | 215 |
+| `.json` | 295 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 68 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 284 |
+| `source-conversation-corpus` | 364 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 85 |
@@ -102,6 +102,12 @@
 - `0c4ae93c0e6c2912bed473c45db6bdf1189de32b0b3435d2ce4ff0f73cfb1fca`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29•25.04.30•Model Framework Evaluation — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.29•25.04.30•Model Framework Evaluation — raw.json`
+- `0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json`
+  - `LIVE CONVOS/H(s)H Team Orchestrator — raw.json`
+- `130770d0308d9376a1714ead32c86fd0a74362e7b0d3caad1f6969de65998ccb`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json`
 - `1c9d58b1a197ac537c25f4a75d042d48233344c479ab3aa5d1dc7ada622f83ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt`
@@ -147,6 +153,7 @@
 - `513fb4c519ce3f43d9f25b34b05fba18b089c019ed7b61a34885aea28d0e1f25`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json`
 - `521bf91c88810d268568bd32eebc3e4a615c1813c17819271f37522b993276c7`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw.json`
@@ -200,6 +207,9 @@
 - `7ee59742f376099ff1d1adba4f157f70efc716628888953eb06219d335690e98`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04•26.06.04•Hubble Tension Prediction — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json`
+- `8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json`
+  - `LIVE CONVOS/Build Geometry Coding Skill — raw.json`
 - `9cf52b20bb3391282094fba8bc2f88bc76cafb80a5ef51ca64ae69f32e22f375`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw - .txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw.json`
@@ -389,6 +399,86 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/impossiblex.json` — 516755 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/time_series_US_20031231-1900_20260831-0937.csv` — 4374 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.07•23.04.08•Logic Characters Usage — raw.json` — 28748 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12•23.04.12•Epistemology of the World — raw.json` — 221754 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.24•23.04.24•RESUME_ EDUCATION — raw.json` — 46146 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25•23.04.25•Notation for Set Theory. — raw.json` — 58933 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.15•23.05.15•AI Ethics & Future Implications — raw.json` — 21574 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json` — 94213 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.22•23.05.22•Russian Grammar Help — raw.json` — 10337 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.07.22•23.07.22•Data Ends_ Sep 2021 — raw.json` — 52196 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.08.15•23.08.15•Quirky Life Journey — raw.json` — 21975 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json` — 50890 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.18•23.10.24•Arctic Bridge Chaos Showdown — raw.json` — 208522 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.20•23.10.20•RPI Heliotelescope at Rensselaer — raw.json` — 12751 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.26•23.10.26•Darkroom Mastery Unleashed — raw.json` — 43099 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.15•23.11.15•Intelligence, Perception, Experience_ Future Exploration — raw.json` — 24220 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.28•23.11.28•Gothic-Slavic Fusion Kingdom — raw.json` — 403749 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•A=A Identity Principle — raw.json` — 3700 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•RMS Taxonomy and Truth — raw.json` — 107639 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json` — 76251 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json` — 921002 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29•24.03.30•Maya & Aiden Episodes — raw.json` — 228453 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.25•24.07.25•Neo-Riemannian Cube Dance — raw.json` — 53745 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.27•24.07.27•Future of AI Music — raw.json` — 7933 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08•24.08.08•Forces Across Temporal Points — raw.json` — 7183 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.23•24.08.23•Conlang Creation Worksheet — raw.json` — 9288 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.31•24.08.31•Personality Test Summary — raw.json` — 36841 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json` — 285707 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02•24.09.02•Discrete Space and Dark Matter — raw.json` — 37581 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06•24.09.06•ChatGPT Consciousness Argument — raw.json` — 122852 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22•24.09.24•Network Data Analysis Request — raw.json` — 217356 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json` — 39522 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Consciousness AI Analysis — raw.json` — 531234 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Framework Integration Analysis — raw.json` — 101248 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.12.02•24.12.02•Interest Summary and Insights — raw.json` — 5306 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.22•25.01.22•Camera Specs and Setup — raw.json` — 161410 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.28•25.01.28•AI Research Workflow Insights — raw.json` — 17825 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.29•25.01.29•Non-monotonic Reasoning Explained — raw.json` — 7939 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.12•25.02.12•Disrupting AI Podcast Format — raw.json` — 76264 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json` — 68278 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.17•25.02.17•Schizophrenie und Übersetzungshilfe — raw.json` — 18804 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.18•25.02.20•RMS Worldview Character Creation — raw.json` — 898414 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10•25.04.10•1-n Dart System Patent — raw.json` — 7767 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10•25.04.10•Patentability Analysis of Dart System — raw.json` — 171156 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.02•25.05.02•Script Debugging Assistance — raw.json` — 33440 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json` — 373820 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•GN-z11 Redshift and Electron Mass — raw.json` — 58175 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•Redshift and Effective Mass — raw.json` — 112533 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json` — 7432 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•26.06.01•Geometric Unity Theory — raw.json` — 24040 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json` — 8968 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json` — 191093 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Proof Consistency Check — raw.json` — 12992 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json` — 6684669 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06•25.10.06•Resume cleanup and formatting — raw.json` — 151509 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SAT theory overview — raw.json` — 66862 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SATO-BLOC FULL LEANCHECK — raw.json` — 619539 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.30•Exploring inspiration together — raw.json` — 723413 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•25.10.30•Correct LaTeX markup — raw.json` — 25580 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (1).json` — 75287 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json` — 75287 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json` — 75287 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw (1).json` — 314147 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw.json` — 314147 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Latex correction guide — raw.json` — 344936 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Latex fix suggestions — raw.json` — 55595 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Reaction to manuscript submission — raw.json` — 493259 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.11.01•Helix mathematical formula — raw.json` — 230567 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.04•25.11.04•Plain text conversion — raw.json` — 5069 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.05•25.11.05•Alien math possibilities — raw.json` — 369711 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.06•25.11.06•Edit academic introduction — raw.json` — 22474 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.15•25.11.15•BibTeX entry handling — raw.json` — 14538 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•4D Worldline Unification — raw.json` — 86100 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json` — 71609 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07•26.02.07•Logic-based Response Construction — raw.json` — 11130 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07•26.02.07•Response Framework Agreement — raw.json` — 44658 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.04.03•26.06.13•Radical Meta-Skepticism Overview — raw.json` — 519222 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.04•26.06.04•Hubble Tension Prediction — raw.json` — 860404 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22•26.06.22•Cosmological Constant Summary — raw.json` — 347087 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json` — 398954 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json` — 299475 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•RECENT arXiv PAPERS — raw.json` — 299471 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
@@ -683,10 +773,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 80641 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 99293 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 126283 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 163979 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

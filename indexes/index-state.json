@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 821197835,
+    "bytes_known": 841196467,
     "directories": 46,
-    "files": 455
+    "files": 535
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 3,
-    ".json": 215,
+    ".json": 295,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 68,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 4,
     "review-ledger": 3,
-    "source-conversation-corpus": 284,
+    "source-conversation-corpus": 364,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 85,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 14,
-    "DEVELOPMENT_FULL_CONVOS": 284,
+    "DEVELOPMENT_FULL_CONVOS": 364,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -103,6 +103,20 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29•25.04.30•Model Framework Evaluation — raw.json",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.29•25.04.30•Model Framework Evaluation — raw.json"
+      ]
+    },
+    {
+      "content_id": "0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json",
+        "LIVE CONVOS/H(s)H Team Orchestrator — raw.json"
+      ]
+    },
+    {
+      "content_id": "130770d0308d9376a1714ead32c86fd0a74362e7b0d3caad1f6969de65998ccb",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json"
       ]
     },
     {
@@ -203,7 +217,8 @@
       "content_id": "513fb4c519ce3f43d9f25b34b05fba18b089c019ed7b61a34885aea28d0e1f25",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
-        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json"
       ]
     },
     {
@@ -325,6 +340,13 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.06.04•26.06.04•Hubble Tension Prediction — raw.json",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.06.04•26.06.04•Hubble Tension Prediction — raw.json"
+      ]
+    },
+    {
+      "content_id": "8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
+        "LIVE CONVOS/Build Geometry Coding Skill — raw.json"
       ]
     },
     {
@@ -562,7 +584,7 @@
       "size": null
     },
     {
-      "content_id": "9af032cb57caa85d243e2ad3903208aafd16c26f91a6d8648249afabbc26d337",
+      "content_id": "847eedeb3d73fdd807a60be253e3ded5cd4f0df503c296d11e1a90970524e752",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -1449,6 +1471,566 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11",
       "role": "source-conversation-corpus",
       "size": null
+    },
+    {
+      "content_id": "afd1ec822631117102e8ceb7638d70f4afee789a2037aba8727bb13f4a0a544c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.07•23.04.08•Logic Characters Usage — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 28748
+    },
+    {
+      "content_id": "993731f5082e99d7e1641142cd5c190bfceb1181bd0a09ed3958cb18c65fa341",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12•23.04.12•Epistemology of the World — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 221754
+    },
+    {
+      "content_id": "5d6ae57e917290438369ee762b725409b9ef24fc8c2008ed346f9dd666d9db7f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.24•23.04.24•RESUME_ EDUCATION — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 46146
+    },
+    {
+      "content_id": "c6cb8ff12087c89cfb083375bce055428ba48d5008ee7f701703f43ca639c8cd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25•23.04.25•Notation for Set Theory. — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 58933
+    },
+    {
+      "content_id": "79e49f18577d972e606ddc7575c3733338e76a26d1ea032d3ec91e0ace8c070e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.15•23.05.15•AI Ethics & Future Implications — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 21574
+    },
+    {
+      "content_id": "e5db55b4282a6c40b0bceca2877255cb03537227e1289d27054a0cd79ef1a8df",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21•23.05.21•ExoWorld Creation Journey — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 94213
+    },
+    {
+      "content_id": "4c6752911d66a8ff6472510169842ebbf007b2f86dcbd824a3102924daa6df3a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.22•23.05.22•Russian Grammar Help — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 10337
+    },
+    {
+      "content_id": "59cdcd33e8229073d71b4e1f685189f6f205dc93cdf3f668ab5605f15f23e3a7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.07.22•23.07.22•Data Ends_ Sep 2021 — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 52196
+    },
+    {
+      "content_id": "5968e0ba342f36dc700ba659e9b6d6ca753893ab9446850455908d78df41c3f3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.08.15•23.08.15•Quirky Life Journey — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 21975
+    },
+    {
+      "content_id": "cd378760ab62ef73c5b6e1e8bbe0e04e7df75ff17f2db4d7393d533d41e81eff",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15•23.09.30•Asteroid Mining Workshop — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 50890
+    },
+    {
+      "content_id": "b5ff9efb4bd06a140dd01a5672be52aff836475f0b1056db3dc0503d5060d9dc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.18•23.10.24•Arctic Bridge Chaos Showdown — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 208522
+    },
+    {
+      "content_id": "7b42c6c4129c8652140d2448cd2dcc720d78e2fd7da6feadc80f98c628a3a7b2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.20•23.10.20•RPI Heliotelescope at Rensselaer — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 12751
+    },
+    {
+      "content_id": "59f51b83e14d3047b7ec10c0f98e8be611249f6bc35e1edcedab1ee08c7c5c94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.26•23.10.26•Darkroom Mastery Unleashed — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 43099
+    },
+    {
+      "content_id": "b2ec11dd92dd91fac8dabf8a6eed8687d24adef6948176825a38d32ea1ae1907",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.15•23.11.15•Intelligence, Perception, Experience_ Future Exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 24220
+    },
+    {
+      "content_id": "4944da9c70a134d8b68d4e4bb2c43ea82a6ed928eb9c15abe29d61de9de2a27a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.28•23.11.28•Gothic-Slavic Fusion Kingdom — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 403749
+    },
+    {
+      "content_id": "ed37bda117d5342a6deabc14ee982edf9077b0a8b3681bab8565ca7a9dd00327",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•A=A Identity Principle — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3700
+    },
+    {
+      "content_id": "b1d6fc2749606c4b5c23c6fdc93d349bcd9dd98ab31952a6aedf26e91012da1e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•RMS Taxonomy and Truth — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 107639
+    },
+    {
+      "content_id": "4b2a467765547a8bc0a7506234a7aaa2cef52e27934be633c3d65441746d8a82",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08•24.03.08•Radical Meta-Skepticism Overview — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 76251
+    },
+    {
+      "content_id": "560dcbdb85ebdd20c7708072e4027df022f471b7edbbaee4cc380b6f22be34c9",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 921002
+    },
+    {
+      "content_id": "f9509c2802d164d9e2aa7be9952566228afea7fb504c9a6f8eedb3b65fbfe061",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29•24.03.30•Maya & Aiden Episodes — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 228453
+    },
+    {
+      "content_id": "0d814f81bae45cfa8e720c144757321b51d16e4b16b877d4ee52756674a1b16a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.25•24.07.25•Neo-Riemannian Cube Dance — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 53745
+    },
+    {
+      "content_id": "5c75e6274551ecf58e5dced0c96ff718028163788f7d11f173e7dc1bd1401a94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.27•24.07.27•Future of AI Music — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7933
+    },
+    {
+      "content_id": "c0c9f03521ba87bc9604511dc2a9efb50016aea39260ec8b9eb4b3f2e969552d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08•24.08.08•Forces Across Temporal Points — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7183
+    },
+    {
+      "content_id": "305211d5f145ab7b21d2b6205f3ca9386e8d375e2f4c289fc0e430e9608e3be2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.23•24.08.23•Conlang Creation Worksheet — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 9288
+    },
+    {
+      "content_id": "fe85b9ed37ec9df4b3a0413dc7129689bce2480edfecf92b8a944716aa7a3e51",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.31•24.08.31•Personality Test Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 36841
+    },
+    {
+      "content_id": "c4f538fd6e96051e8d3900c480274dbe32d4a27567cc93b9c901a6f852b9868f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01•24.09.02•Gravitational Lensing Exoplanets — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 285707
+    },
+    {
+      "content_id": "f5ebad46f2872afd57b3b15c3f1db0129c6487928fc4053753167d587ec23385",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02•24.09.02•Discrete Space and Dark Matter — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 37581
+    },
+    {
+      "content_id": "2c2f06297cad9b80b34584c6da10832d4413923c9bc8fb7fe5440ebcb5161e9f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06•24.09.06•ChatGPT Consciousness Argument — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 122852
+    },
+    {
+      "content_id": "c7f004081c3faa6baddff8b450faf1dcf7e7b7858379cc71401edb6f33e3c15e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.22•24.09.24•Network Data Analysis Request — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 217356
+    },
+    {
+      "content_id": "9470da4cc5eb7bed3ea05cf5204164062471f77d7fe48c0bef96c56fcea8d128",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•AND NOT Logic — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 39522
+    },
+    {
+      "content_id": "f2dad31d5f3be5f161b13c9f88ab7cd4814fa6e74c7fc2173ea289d5f58fc729",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Consciousness AI Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 531234
+    },
+    {
+      "content_id": "4eeae1b1f41f6f26b338d4ad07459f09ac258b1cacac3de4f09c867e40032b97",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15•24.11.15•Framework Integration Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 101248
+    },
+    {
+      "content_id": "47249410023a25d6e5cd75cead474eaf7e389a72bed00bb36578fdb271b0338a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.12.02•24.12.02•Interest Summary and Insights — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5306
+    },
+    {
+      "content_id": "9f6a088eb7a949f6f099880c5ff3d681b39f1e183c1c9af6b4491b22367a4c70",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.22•25.01.22•Camera Specs and Setup — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 161410
+    },
+    {
+      "content_id": "b077f438ffdefaa125416386f0673cd2fe4ed431006f756d1d80d1f08edb4148",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.28•25.01.28•AI Research Workflow Insights — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 17825
+    },
+    {
+      "content_id": "ae954dfc6f3eaa815872a647feacff43ff327472eb2232e4080cb696091eb00d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.29•25.01.29•Non-monotonic Reasoning Explained — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7939
+    },
+    {
+      "content_id": "9290ca95e98dd5d643e395dbc1e3ee9fcadd73070207296ed00013e7360baa71",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.12•25.02.12•Disrupting AI Podcast Format — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 76264
+    },
+    {
+      "content_id": "6260f9985ea55e44b9a2b7fb144286edbaec5dfd997eee5b046bdf3b06e96d19",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 68278
+    },
+    {
+      "content_id": "aa92fd751d85b7436bbb5248077bd026edc74059317c0e5aa71e7382bfc2b1a8",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.17•25.02.17•Schizophrenie und Übersetzungshilfe — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 18804
+    },
+    {
+      "content_id": "b6f90419b954fc9f2f60dbf792cbfe7ad0da592c0fa53b6b80caa52abe54d47c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.18•25.02.20•RMS Worldview Character Creation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 898414
+    },
+    {
+      "content_id": "25f63af019169647014362a2159f6c9e6c143293c03a267ab006e7494486638a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10•25.04.10•1-n Dart System Patent — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7767
+    },
+    {
+      "content_id": "6d6f22ce1678e3c060e5c7e27a5a64d071e5f13a5135bbf919689b7fbd5ed306",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10•25.04.10•Patentability Analysis of Dart System — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 171156
+    },
+    {
+      "content_id": "2fbfee6fe592c787e653f9dfd1c57a7ccca0b97749d7e5c3437a50a05c61870a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.02•25.05.02•Script Debugging Assistance — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 33440
+    },
+    {
+      "content_id": "f446e52a981315f11b27fd25e5269314a9ebad6f63b74e00dcb6bbfafcb2140b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 373820
+    },
+    {
+      "content_id": "eadbb1802453106b1b74074ff7c12b8a10526fef19f8f6eb306932de407b88bf",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•GN-z11 Redshift and Electron Mass — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 58175
+    },
+    {
+      "content_id": "c9bd36191a2b28a9867fabd342b4ec30a66056da1c18636e490b5c9758585f57",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•Redshift and Effective Mass — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 112533
+    },
+    {
+      "content_id": "a5f5cf10ac96d3dfb1cda5ae2adb407add080e0ba2e901fa87464bc3371e6d44",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7432
+    },
+    {
+      "content_id": "4de13fb1f675091776d2ffad2502b857f3605f057d34b2e4a1732b88f504062d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04•26.06.01•Geometric Unity Theory — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 24040
+    },
+    {
+      "content_id": "541f0a9c0f2570e4676d5a9bc2adc758a1fa4f83f6efefd65349475193e42a83",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 8968
+    },
+    {
+      "content_id": "0bb0c419eaa019011ff9b40d0ecfd09cc6464cac74fb9ea42c762cfbd16ea065",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 191093
+    },
+    {
+      "content_id": "0c4f0d7ec3b4795c6592bc582f6a42f602136bf9a095d9cfe5fda8e481d92f18",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Proof Consistency Check — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 12992
+    },
+    {
+      "content_id": "513fb4c519ce3f43d9f25b34b05fba18b089c019ed7b61a34885aea28d0e1f25",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6684669
+    },
+    {
+      "content_id": "bc2579bd7855516771cd3abbda1ccc71cf46397dfc27a6b408c27cdfb19a9eb2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06•25.10.06•Resume cleanup and formatting — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 151509
+    },
+    {
+      "content_id": "ba63656a17f9cb6c56626e2446726f148adc0231e2098047bbee97062adfbe2f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SAT theory overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 66862
+    },
+    {
+      "content_id": "b360c7f631fd3a707b105f774e104fd2aac3f585d5cd5c70c9477ec91dbba984",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SATO-BLOC FULL LEANCHECK — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 619539
+    },
+    {
+      "content_id": "866bd5ec06f8621d5712306c9beb0ab62ca3ebe7b760caad060101d674c0f84f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.30•Exploring inspiration together — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 723413
+    },
+    {
+      "content_id": "994f9e6484dbe4f0366d095235cc02bf9f257828ebdcbbc7b6088046efacd7ec",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•25.10.30•Correct LaTeX markup — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 25580
+    },
+    {
+      "content_id": "6ef051783a63d7fe5f1d2a3dbb1e5116a72b76da590bd03200ceaf3a251e2f87",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 75287
+    },
+    {
+      "content_id": "130770d0308d9376a1714ead32c86fd0a74362e7b0d3caad1f6969de65998ccb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 75287
+    },
+    {
+      "content_id": "130770d0308d9376a1714ead32c86fd0a74362e7b0d3caad1f6969de65998ccb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 75287
+    },
+    {
+      "content_id": "b9c2ab265365065c2f039209ee4248c07933ac86ba449912df5eaa1d445a061f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 314147
+    },
+    {
+      "content_id": "ffd1614fb2d031997714ed1a67b228e0fd853761b6993750394565269523ba74",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 314147
+    },
+    {
+      "content_id": "b9fa0c0fc2d7709f26621597ab7691eb7dacb1fc1ebf2ca66924ae7441942837",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Latex correction guide — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 344936
+    },
+    {
+      "content_id": "f64fa3d49136d5e6cbd5a2a64dfbd6a396588287a33e48eaf71cc706395cdbdc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Latex fix suggestions — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 55595
+    },
+    {
+      "content_id": "8e3bc3b03ff901b4c78d3bd124fb8ad0922550c031ccfe3d81be020a2cac6d48",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Reaction to manuscript submission — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 493259
+    },
+    {
+      "content_id": "97d662f855347c060af38722feef95627974f7055b1c397a8dc895738f292687",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.11.01•Helix mathematical formula — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 230567
+    },
+    {
+      "content_id": "ac5c7a91c0d0c805b444bbee339072f25b533049d62397dfb05065dffb13e792",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.04•25.11.04•Plain text conversion — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 5069
+    },
+    {
+      "content_id": "0bb82087049292cdfc9646db2ae41a1eef6433a1420274f0ccb3764dfb8fd478",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.05•25.11.05•Alien math possibilities — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 369711
+    },
+    {
+      "content_id": "ac130e4dc170bdb12900207ef80251c2d6b1ffeffbf3c96de873420d1755b04f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.06•25.11.06•Edit academic introduction — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 22474
+    },
+    {
+      "content_id": "9fe2fbfa84d244dacf6235c9dabaabc5bceef4020b1fee44dc08242f15d917d5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.11.15•25.11.15•BibTeX entry handling — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 14538
+    },
+    {
+      "content_id": "bc491fa9577dde05083d550806400f02636cdbcb63b870a4ac14cb042788442f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•4D Worldline Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 86100
+    },
+    {
+      "content_id": "dfd38ad49bca58a0d9bb6f240804e2df697f9f9cbd4f7c8f728e8c86cf7f637d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 71609
+    },
+    {
+      "content_id": "66c835f5911dc032cfaf919764ceb4905c6d611f92cad70e7c4f79b54028e58c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07•26.02.07•Logic-based Response Construction — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 11130
+    },
+    {
+      "content_id": "1fe14324a6ecde579de9082028ecd80b29c9e3170ce7f9bbf5da12c3fc7acee3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07•26.02.07•Response Framework Agreement — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 44658
+    },
+    {
+      "content_id": "61f53950493f06a4d21261e825f0e77131751afec3b88448151fc40d6614c16f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.04.03•26.06.13•Radical Meta-Skepticism Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 519222
+    },
+    {
+      "content_id": "fc40267e77757f55dbdd89f897bfef6eca35ed2dca741e461cda544218efc618",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.04•26.06.04•Hubble Tension Prediction — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 860404
+    },
+    {
+      "content_id": "39b4970fdbf14a65a75dfe13588edea46c5c62650519af0ff23ce3034d337f4f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22•26.06.22•Cosmological Constant Summary — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 347087
+    },
+    {
+      "content_id": "8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 398954
+    },
+    {
+      "content_id": "0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 299475
+    },
+    {
+      "content_id": "df3b0ce6b7af6c0b6eb5997c26bbcd6c1a6cbeace70ddeff4cd08d30809e3134",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•RECENT arXiv PAPERS — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 299471
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -3726,14 +4308,14 @@
       "size": null
     },
     {
-      "content_id": "89e0f94c3aaa5ab77a1226b1715356fcd7be1fd494307a5985319afe0cdc5328",
+      "content_id": "579dc0e1db3dbf4b217957972c195d76583f2092fb3cbec0b3df85e1c05e13a5",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 80641
+      "size": 99293
     },
     {
-      "content_id": "80efa01dc776fb0854d7428b31a44ce14ee2a4862de1769003f3a40379a2361b",
+      "content_id": "1fa043d4db517571b22a539ccc7c13528d88d037b51ecbb26cdc4d425507c8dc",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3754,14 +4336,14 @@
       "size": null
     },
     {
-      "content_id": "a79c88a8fcedbb8419e610b73cd30674ddaf70468d9ba2aaf4a8f7bf6919d36c",
+      "content_id": "dcfd9ca57e57952805d3a933110a00a597c8a319d70a9d6a2cda5db4b5855e7d",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 126283
+      "size": 163979
     },
     {
-      "content_id": "58625e02f0e7aeaaa27c93e7f0b4569f2fef3d744af653d10f3eb8852fea2722",
+      "content_id": "70698634898821443f825cca6ea8039fdc8d9adc0b5dd3a78395279d5817c86a",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3965,8 +4547,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T04:18:40+00:00",
+  "scanned_at_utc": "2026-09-12T04:23:13+00:00",
   "schema_version": 1,
-  "tree_id": "2b6089e9c7d9c293954936da156d12be87c2f91e168eada5b4a9acb58bb96bdd",
+  "tree_id": "d9f8bfe126fc20f937409f1b7e7865631cceebc5e9d71eda274417a31934916f",
   "tree_response_truncated": false
 }
