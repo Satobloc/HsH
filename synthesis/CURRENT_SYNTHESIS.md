@@ -1387,3 +1387,11 @@ benchmark preservation, and helical recording principle `SRC/ACTIVE`;
 representational usefulness independent of ontology `SAT/ACTIVE`; ontic
 reification `SRC/HISTORICAL-DISPLACED`; named implementations above
 `SRC/HISTORICAL-CANDIDATE` or `OPEN` under current guards.
+
+### Finite-thickness readout non-identifiability (FC-BASE-003)
+
+For a centered carrier coordinate `Y`, transverse linear readout `L_Sigma`, and an independent centered finite-thickness/reconstruction kernel `Z`, the observed coordinate `X=L_Sigma Y+Z` satisfies
+
+`Q_obs = L_Sigma Q_carrier L_Sigma^T + Q_kernel`.
+
+This standard covariance identity freezes a limited but controlling statement: observed second moments cannot by themselves distinguish projected finite-core width from resolver width. The canonical `chi` values in FC-BASE-002 are not generally preserved by finite convolution; they require a negligible/calibrated kernel or proved deconvolution. This does not select `B^3`, `B^2`, `S^2`, a Kerr/ER carrier, or a physical resolver. Status: covariance law and non-identifiability `STD/DERIVED/FROZEN`; physical forward operator and kernel `OPEN`.
