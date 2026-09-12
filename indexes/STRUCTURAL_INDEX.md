@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:37:02+00:00`
-- Tree/content state: `1ac62e5cfea92706ec5e205b4d198c1c97424a961a1615e49bd65d090ec55324`
-- Coverage: 769 files, 58 directories
+- Scanned: `2026-09-12T22:42:03+00:00`
+- Tree/content state: `48f2bd9defb9fc661a24150235d68f6c67d5030764bded00abd10e327cd07009`
+- Coverage: 785 files, 59 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 520 |
+| `DEVELOPMENT_FULL_CONVOS` | 536 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -54,14 +54,14 @@
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 143 |
-| `.pdf` | 7 |
-| `.png` | 36 |
+| `.pdf` | 17 |
+| `.png` | 37 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 125 |
+| `.txt` | 130 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -80,7 +80,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 520 |
+| `source-conversation-corpus` | 536 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -283,6 +283,9 @@
 - `fa77e1ac7595f39d7c2c465ef6e223606872275add9c040f1f2a0b6b4be4e324`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.26•Monorail Schede — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26•25.09.26•Monorail Schede — raw.txt`
+- `fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/Minimal Introduction (SAT O era).pdf`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O1.pdf`
 
 ## Complete path inventory
 
@@ -619,6 +622,22 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json` — 662251 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json` — 286628 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png` — 6400142 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/AUDITOR README.txt` — 2755 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/MASTER THREAD README.txt` — 3168 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/Minimal Introduction (SAT O era).pdf` — 150401 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/NotebookLM Mind Map.png` — 5467539 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT 20 Minimal Intro.pdf` — 171943 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_GLOSSARY_MODEL_INDEX_v9.txt` — 4597 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O1.pdf` — 150401 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O2.pdf` — 162528 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O3.pdf` — 115477 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O4.pdf` — 150740 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O5.pdf` — 152388 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O6.pdf` — 119592 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O7_tentative.pdf` — 166113 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O8.txt` — 5856 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O_Glossary_1.pdf` — 129701 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SHEEN.txt` — 119471 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json` — 109679 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json` — 342746 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json` — 190928 bytes — `source-conversation-corpus`
@@ -1025,11 +1044,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 130738 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 131728 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 231371 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 233093 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

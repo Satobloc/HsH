@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:37:01.856878+00:00`
+- Generated: `2026-09-12T22:42:02.635992+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **402**
-- Skipped non-conversation or unparseable files: **85**
+- Skipped non-conversation or unparseable files: **90**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -697,6 +697,11 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 PRINCIPLES OF MINIMAL ASSUMPTION.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20PRINCIPLES%20OF%20MINIMAL%20ASSUMPTION.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 TOP LEVEL GOALS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20TOP%20LEVEL%20GOALS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT_20_AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT_20_AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/AUDITOR README.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER%20SAT%20O/AUDITOR%20README.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/MASTER THREAD README.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER%20SAT%20O/MASTER%20THREAD%20README.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_GLOSSARY_MODEL_INDEX_v9.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER%20SAT%20O/SAT_GLOSSARY_MODEL_INDEX_v9.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O8.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER%20SAT%20O/SAT_O8.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SHEEN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER%20SAT%20O/SHEEN.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/Questions.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/ROADMAP.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/ROADMAP.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%2020%20Build%20Plans/SAT20_Emergent_Filament_Surface_Theory_CriticHardened_v2.txt) — Expecting value: line 2 column 1 (char 1)

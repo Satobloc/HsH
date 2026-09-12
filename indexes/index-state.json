@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1077894964,
-    "directories": 58,
-    "files": 769
+    "bytes_known": 1084970346,
+    "directories": 59,
+    "files": 785
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,14 +17,14 @@
     ".jsonl": 1,
     ".lean": 3,
     ".md": 143,
-    ".pdf": 7,
-    ".png": 36,
+    ".pdf": 17,
+    ".png": 37,
     ".py": 12,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 125,
+    ".txt": 130,
     ".yml": 5,
     "[none]": 2
   },
@@ -40,7 +40,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 520,
+    "source-conversation-corpus": 536,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +52,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 520,
+    "DEVELOPMENT_FULL_CONVOS": 536,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -505,6 +505,13 @@
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.26•Monorail Schede — raw.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26•25.09.26•Monorail Schede — raw.txt"
       ]
+    },
+    {
+      "content_id": "fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/Minimal Introduction (SAT O era).pdf",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O1.pdf"
+      ]
     }
   ],
   "entries": [
@@ -656,7 +663,7 @@
       "size": 49
     },
     {
-      "content_id": "6734c1aed339a395a8b604ef40c4b8e605a7a433d03e3492024d9e060fb1f0be",
+      "content_id": "b3bc202be54413173af184672c780da1dc3d7a46eed02a66ce0520ccf2a0f062",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2943,6 +2950,125 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png",
       "role": "source-conversation-corpus",
       "size": 6400142
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "b33469352dd61bd94c0b7f06431185879a4937fa902750bfc0578a1397c9c1ca",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/AUDITOR README.txt",
+      "role": "source-conversation-corpus",
+      "size": 2755
+    },
+    {
+      "content_id": "308f15c9e7f7e75511cf64189f3768ff83bb39e3588146c74ce75a5ff60f03ba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/MASTER THREAD README.txt",
+      "role": "source-conversation-corpus",
+      "size": 3168
+    },
+    {
+      "content_id": "fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/Minimal Introduction (SAT O era).pdf",
+      "role": "source-conversation-corpus",
+      "size": 150401
+    },
+    {
+      "content_id": "2a258a53d4376a7f4d2f82e624192a665f5928619b35f9bf7baef763967c4b4b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/NotebookLM Mind Map.png",
+      "role": "source-conversation-corpus",
+      "size": 5467539
+    },
+    {
+      "content_id": "14e03c5f4bf5e8d6be6cd204c3b9ff4a786c4a9faf3982db70df2a1aeaf3493a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT 20 Minimal Intro.pdf",
+      "role": "source-conversation-corpus",
+      "size": 171943
+    },
+    {
+      "content_id": "d300e5b671591299ed0d11815e7a4c2af2302f36ecbc29582afe2eecf859d53c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_GLOSSARY_MODEL_INDEX_v9.txt",
+      "role": "source-conversation-corpus",
+      "size": 4597
+    },
+    {
+      "content_id": "fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O1.pdf",
+      "role": "source-conversation-corpus",
+      "size": 150401
+    },
+    {
+      "content_id": "36c8378e68a51cb869639cddb5b6c5080dbb6955e876566bea055d88813a8771",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O2.pdf",
+      "role": "source-conversation-corpus",
+      "size": 162528
+    },
+    {
+      "content_id": "36d6f94e2394b08b1e2608129be332d97498fc9f37a76a40b562072d0a1fcaa2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O3.pdf",
+      "role": "source-conversation-corpus",
+      "size": 115477
+    },
+    {
+      "content_id": "5d309db192d5082d1957a93a2c1f70f1633d9501a7d9544c773911604b27c7ef",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O4.pdf",
+      "role": "source-conversation-corpus",
+      "size": 150740
+    },
+    {
+      "content_id": "0380aaaee6eaa8a46dca8418ad248219908e94edbf3d97e50a7936c41321010d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O5.pdf",
+      "role": "source-conversation-corpus",
+      "size": 152388
+    },
+    {
+      "content_id": "496b78a9ec3e2ee16b874491d598716f614350023b5fb0331a3c129efee63bac",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O6.pdf",
+      "role": "source-conversation-corpus",
+      "size": 119592
+    },
+    {
+      "content_id": "c71bac5f5f20c983024786fb25e613cfccd11b52ff3e6063e3075266cfb599ea",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O7_tentative.pdf",
+      "role": "source-conversation-corpus",
+      "size": 166113
+    },
+    {
+      "content_id": "33b2b3b46e07a3b8b2bf9305ef5f2f11133950d246d2b84de483f8dd3023e085",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O8.txt",
+      "role": "source-conversation-corpus",
+      "size": 5856
+    },
+    {
+      "content_id": "1058844985147024eda3ceed620414c716698f8b12a866cc2439ea3288843bdc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O_Glossary_1.pdf",
+      "role": "source-conversation-corpus",
+      "size": 129701
+    },
+    {
+      "content_id": "6313381703c4dfa95acbbf16c97aad5ff9540b9f6803185616b23efd85b946ea",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SHEEN.txt",
+      "role": "source-conversation-corpus",
+      "size": 119471
     },
     {
       "content_id": "9378573711c3d4fc10e6faea3fda1d8b2136276b7562b763b9efbd0ff2206777",
@@ -6046,11 +6172,11 @@
       "size": null
     },
     {
-      "content_id": "9d838e9914d33bad0f286d031f79dcbe4d323d5df5d4d297d74084ebc03655a8",
+      "content_id": "d3abd4a5b5dc26c8941929c24cecc8b275af87d93f04ebf0741c038b45554c57",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 130738
+      "size": 131728
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -6060,7 +6186,7 @@
       "size": 8625
     },
     {
-      "content_id": "825f9389016e848f14e7ed5ad831692ccf7e5730ad99f249c0e7ede020c17366",
+      "content_id": "3d28d5562259226ca448914ff0f7c2de2b85ffdc63312465f8d14907b315681d",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6081,14 +6207,14 @@
       "size": null
     },
     {
-      "content_id": "3bad191bdc76af00682c792b09eb8d40557738aa6e44b929f3e4fe41526621ef",
+      "content_id": "ef5ae8e4e330e44367f771ba0c6cd173de88c55a3d73a9e80750b5c42ca75d25",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 231371
+      "size": 233093
     },
     {
-      "content_id": "f1a06ee9a3f81bf2285d19b13eac4bc0fdfe5c1124e27d19178dbcabf96920c0",
+      "content_id": "0f82dc579dc32974ead9f2c034bf6991c4d97f6e9e75da48a990d99c4bb0b2a1",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6306,8 +6432,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:37:02+00:00",
+  "scanned_at_utc": "2026-09-12T22:42:03+00:00",
   "schema_version": 1,
-  "tree_id": "1ac62e5cfea92706ec5e205b4d198c1c97424a961a1615e49bd65d090ec55324",
+  "tree_id": "48f2bd9defb9fc661a24150235d68f6c67d5030764bded00abd10e327cd07009",
   "tree_response_truncated": false
 }
