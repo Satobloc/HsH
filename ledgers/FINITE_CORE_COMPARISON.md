@@ -66,6 +66,24 @@ isotropic gauge-null result `STD/DERIVED/FROZEN` in their stated local model.
 The curved-sheet remainder, constitutive dynamics, physical observable map, and
 particle interpretation remain `OPEN`.
 
+## Frozen finite-thickness baseline FC-BASE-003
+
+Let `Y` be a centered carrier-fiber coordinate, `L_Sigma` the transverse linear map from FC-BASE-002, and `Z` an independent centered finite-thickness/reconstruction kernel in sheet coordinates. For
+
+`X = L_Sigma Y + Z`,
+
+the observed covariance is
+
+`Q_X = L_Sigma Q_Y L_Sigma^T + Q_Z`.
+
+Thus second moments alone do not identify projected core width separately from resolver width. Given only `Q_X`, every positive-semidefinite `A <= Q_X` yields an algebraic decomposition `L_Sigma Q_Y L_Sigma^T = A`, `Q_Z = Q_X - A`. In the isotropic scalar reduction,
+
+`sigma_obs^2 = sigma_core,proj^2 + sigma_resolver^2`.
+
+Independent cumulants add before normalization, so the canonical fourth-moment ratio `chi` in FC-BASE-002 is not generally preserved by finite-thickness convolution. It remains exact for the declared unblurred fibers and usable in a negligible-kernel limit or after a proved deconvolution.
+
+**Status:** covariance composition and second-moment non-identifiability `STD/DERIVED/FROZEN` under affine, centered, independent finite-moment assumptions. Kernel calibration, correlated carrier-resolver coupling, nonlinear reconstruction, curved sheets, tangency, and finite-thickness recovery of `chi` remain `OPEN`. Source packet: `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md`.
+
 ## Candidate comparison
 
 | Candidate/view | Literal object and minimum data | ᚼ / ᚼᚼ requirement | Perturbations and residuals | Readout and limiting map | Topology/nesting support | Hidden freedom / freeze condition |
@@ -88,4 +106,4 @@ These survive smooth coordinate changes. Radius values, a chosen support plane, 
 
 ## Earliest open dependency
 
-Choose whether the model's material degrees of freedom occupy the full rank-three normal core or a selected rank-two support. Without that choice, ᚼ cannot be typed beyond “inductive angle,” contact cannot be defined, and bulk deformation cannot be separated from resolver artifacts.
+Choose whether the model's material degrees of freedom occupy the full rank-three normal core or a selected rank-two support, and specify or calibrate the resolver kernel. Without those choices, ᚼ cannot be typed beyond “inductive angle,” contact cannot be defined, and bulk deformation/width cannot be separated from resolver artifacts.
