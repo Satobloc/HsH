@@ -1,0 +1,227 @@
+name: Integrate Srena conversation viewer support
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/integrate-srena-viewer.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Patch builder and viewer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(text, old, new, label):
+              if old not in text:
+                  raise SystemExit(f'missing patch anchor: {label}')
+              return text.replace(old, new, 1)
+
+          # --- catalog builder: registered cross-repository conversations ---
+          p = Path('tools/build_conversation_viewer.py')
+          s = p.read_text(encoding='utf-8')
+          s = replace_once(s,
+              'DEFAULT_CURATION = Path("CONVERSATION_VIEWER/CURATION.json")\nDEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")',
+              'DEFAULT_CURATION = Path("CONVERSATION_VIEWER/CURATION.json")\nDEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")\nDEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")',
+              'builder constants')
+          s = replace_once(s,
+              'def build_manifest(dev: Path, live: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:',
+              'def build_manifest(dev: Path, live: Path, external_path: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:',
+              'build signature')
+          anchor = '    by_path: dict[str, dict[str, Any]] = {}\n'
+          external_block = '''    if external_path.exists():
+        external_payload = load_json(external_path)
+        if external_payload.get("schema_version") != 1:
+            raise ValueError(f"unsupported external conversation schema_version in {external_path}")
+        external_records = external_payload.get("conversations")
+        if not isinstance(external_records, list):
+            raise ValueError(f"external conversations must be a list in {external_path}")
+        accepted_external = 0
+        required = {"id", "title", "path", "corpus", "message_count", "raw_url", "github_url"}
+        for raw in external_records:
+            if not isinstance(raw, dict):
+                raise ValueError(f"invalid external conversation entry in {external_path}")
+            missing = sorted(required - set(raw))
+            if missing:
+                raise ValueError(f"external conversation missing {missing}: {raw}")
+            if not isinstance(raw.get("message_count"), int) or raw["message_count"] <= 0:
+                raise ValueError(f"external conversation has invalid message_count: {raw}")
+            item = dict(raw)
+            item["external"] = True
+            conversations.append(item)
+            accepted_external += 1
+        input_meta.append({
+            "path": external_path.as_posix(),
+            "corpus": "registered-external",
+            "status": "loaded",
+            "records": len(external_records),
+            "accepted_conversations": accepted_external,
+        })
+
+'''
+          s = replace_once(s, anchor, external_block + anchor, 'external registry insertion')
+          s = replace_once(s,
+              '    parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)\n',
+              '    parser.add_argument("--external-conversations", type=Path, default=DEFAULT_EXTERNAL)\n    parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)\n',
+              'external CLI arg')
+          s = replace_once(s,
+              '        args.development_manifest,\n        args.live_manifest,\n        args.curation,',
+              '        args.development_manifest,\n        args.live_manifest,\n        args.external_conversations,\n        args.curation,',
+              'external build arg')
+          p.write_text(s, encoding='utf-8', newline='\n')
+
+          # --- viewer: companion/composite source adapter and identity preservation ---
+          p = Path('CONVERSATION_VIEWER/viewer.js')
+          s = p.read_text(encoding='utf-8')
+          old = '''      const author = typeof msg?.author === "object" ? msg.author : {};
+      const role = msg?.role || author.role || msg?.speaker || "unknown";
+      return {
+        nodeId: msg?.id || String(i), role, speaker: author.name || role,'''
+          new = '''      const authorValue = msg?.author;
+      const author = authorValue && typeof authorValue === "object" ? authorValue : {};
+      const authorName = typeof authorValue === "string" ? authorValue : author.name;
+      const role = msg?.role || author.role || msg?.speaker || "unknown";
+      return {
+        nodeId: msg?.id || String(i), role, speaker: authorName || msg?.speaker || role,'''
+          s = replace_once(s, old, new, 'generic string author')
+
+          normalize_anchor = '  function normalizeConversation(data) {\n'
+          parser_block = '''  function parseCompanionComposite(text) {
+    const marker = text.indexOf("#########"), start = text.indexOf("{");
+    if (marker < 0 || start < 0 || marker <= start) throw new Error("Companion composite source is missing its structured header.");
+    const head = JSON.parse(text.slice(start, marker).trim());
+    const structured = Array.isArray(head.messages) ? head.messages : [];
+    const tail = text.slice(marker + "#########".length);
+    const label = /^\\s*(Nathan|Srena)\\s*$/gm, hits = [];
+    let match;
+    while ((match = label.exec(tail)) !== null) hits.push({ author: match[1], start: match.index, end: label.lastIndex });
+    const plain = [];
+    for (let i = 0; i < hits.length; i += 1) {
+      const hit = hits[i], end = i + 1 < hits.length ? hits[i + 1].start : tail.length;
+      const content = tail.slice(hit.end, end).trim();
+      if (!content) continue;
+      plain.push({ role: hit.author === "Nathan" ? "user" : "companion", author: hit.author, content, metadata: {} });
+    }
+    if (!plain.length) return head;
+    const norm = value => String(value || "").replace(/\\s+/g, " ").trim().toLocaleLowerCase();
+    const first = plain[0];
+    const overlap = structured.findIndex(msg => msg?.author === first.author && norm(msg?.content) === norm(first.content));
+    head.messages = overlap >= 0 ? structured.slice(0, overlap).concat(plain) : structured.concat(plain);
+    return head;
+  }
+
+  function parseSourcePayload(text, convo) {
+    if (convo?.parser === "companion-composite") return parseCompanionComposite(text);
+    return JSON.parse(text);
+  }
+
+'''
+          s = replace_once(s, normalize_anchor, parser_block + normalize_anchor, 'composite parser')
+          s = replace_once(s,
+              '      const raw = await res.json();\n      const messages = normalizeConversation(raw);',
+              '      const sourceText = await res.text();\n      const raw = parseSourcePayload(sourceText, convo);\n      const messages = normalizeConversation(raw);',
+              'text source loading')
+          s = replace_once(s,
+              'article.dataset.index = String(index); article.dataset.speaker = msg.speaker;',
+              'article.dataset.index = String(index); article.dataset.speaker = msg.speaker; article.dataset.role = msg.role;',
+              'message role data')
+          s = replace_once(s,
+              'return state.messages[index]?.role === "assistant" ? base * 10 : base;',
+              'return ["assistant", "companion"].includes(state.messages[index]?.role) ? base * 10 : base;',
+              'companion replay speed')
+          p.write_text(s, encoding='utf-8', newline='\n')
+
+          # --- presentation: style by semantic role, not by display name ---
+          p = Path('CONVERSATION_VIEWER/presentation.js')
+          s = p.read_text(encoding='utf-8')
+          old = '''  function kindFor(article, rawText) {
+    const raw = String(article.dataset.speaker || "unknown").toLowerCase();
+    const meta = article.querySelector(".message-meta")?.textContent?.toLowerCase() || "";
+    if (raw === "user") {
+      const looksLikePaste = rawText.length > 2400 || /<<file\\s+name=|<file\\b|```[\\s\\S]*```/i.test(rawText);
+      return looksLikePaste ? "user-paste" : "user";
+    }
+    if (["tool", "developer", "system"].includes(raw)) return raw;
+    if (raw === "assistant") {
+      if (/tool|function|execution|computer|code/.test(meta)) return "function";
+      return "assistant";
+    }
+    return GENERIC.has(raw) ? "internal" : "other-assistant";
+  }'''
+          new = '''  function kindFor(article, rawText) {
+    const raw = String(article.dataset.speaker || "unknown").toLowerCase();
+    const role = String(article.dataset.role || raw || "unknown").toLowerCase();
+    const meta = article.querySelector(".message-meta")?.textContent?.toLowerCase() || "";
+    if (role === "user") {
+      const looksLikePaste = rawText.length > 2400 || /<<file\\s+name=|<file\\b|```[\\s\\S]*```/i.test(rawText);
+      return looksLikePaste ? "user-paste" : "user";
+    }
+    if (["tool", "developer", "system"].includes(role)) return role;
+    if (role === "assistant") {
+      if (/tool|function|execution|computer|code/.test(meta)) return "function";
+      return "assistant";
+    }
+    if (role === "companion") return "other-assistant";
+    return GENERIC.has(raw) ? "internal" : "other-assistant";
+  }'''
+          s = replace_once(s, old, new, 'role-aware presentation')
+          s = replace_once(s,
+              '      if (key === "user") color = "var(--user)";\n      else if (key === "assistant") color = "var(--assistant)";',
+              '      if (["user", "nathan"].includes(key)) color = "var(--user)";\n      else if (["assistant", "chatgpt"].includes(key)) color = "var(--assistant)";',
+              'named speaker chip palette')
+          p.write_text(s, encoding='utf-8', newline='\n')
+
+          # --- build workflow: watch and allow registered non-JSON sources ---
+          p = Path('.github/workflows/build-conversation-viewer.yml')
+          s = p.read_text(encoding='utf-8')
+          s = replace_once(s,
+              "      - 'CONVERSATION_VIEWER/CURATION.json'\n",
+              "      - 'CONVERSATION_VIEWER/CURATION.json'\n      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'\n",
+              'external trigger')
+          s = replace_once(s,
+              "          assert all(x['path'].lower().endswith('.json') for x in data['conversations'])",
+              "          assert all(x['path'].lower().endswith('.json') or x.get('external') for x in data['conversations'])",
+              'external path validation')
+          p.write_text(s, encoding='utf-8', newline='\n')
+          PY
+
+          python -m py_compile tools/build_conversation_viewer.py
+          node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/presentation.js
+          python tools/build_conversation_viewer.py
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
+          srena = [x for x in data['conversations'] if x['id'] == 'srena-20260731-hsh']
+          assert len(srena) == 1, srena
+          assert srena[0]['message_count'] == 80
+          assert srena[0]['external'] is True
+          assert srena[0]['parser'] == 'companion-composite'
+          print('SRENA viewer entry validated:', srena[0]['title'], srena[0]['message_count'])
+          PY
+
+      - name: Commit integration
+        run: |
+          git config user.name 'HsH Conversation Viewer Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tools/build_conversation_viewer.py CONVERSATION_VIEWER/viewer.js CONVERSATION_VIEWER/presentation.js CONVERSATION_VIEWER/data/conversations.json .github/workflows/build-conversation-viewer.yml
+          if git diff --cached --quiet; then
+            echo 'No integration changes needed.'
+            exit 0
+          fi
+          git commit -m 'Integrate Srena companion conversation into viewer'
+          git push origin HEAD:main
