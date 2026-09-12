@@ -1,6 +1,16 @@
 # Kerr Core Baseline Package
 
-Status: provisional working baseline for Worldtube Lab forward construction.
+Status: **PROVISIONALLY QUARANTINED** pending Ravel's dependency/provenance audit.
+
+> **Current control notice — 2026-09-12:** Ravel's direct roster check-in
+> classifies this package as **PROVISIONALLY QUARANTINED** because standard
+> Kerr/Kerr-Newman/QNM research and forward H(s)H construction were mixed in
+> its production context. Preserve the calculations and standard Kerr anatomy,
+> but do not use the electron-scale assignment, near-core shell/carrier, or
+> `frozen starting geometry` language as current-theory premises until the
+> dependency/provenance audit and electron-like over-extreme survival table are
+> complete. Nathan's active Kerr/ER-worldtube intent remains a separate source
+> statement; it does not validate this package's specific anatomy.
 
 This package records the basic Kerr-core geometry already worked out in the live particle/worldtube line. It is not a fresh derivation and should not be silently re-solved from scratch unless the baseline itself is under audit.
 
@@ -207,7 +217,7 @@ A ring-like slice or projection does not imply that the full 4D filament is a cl
 
 ## 10. Next use of this package
 
-This file is the frozen starting geometry for the next forward-construction stage:
+Historical intended use (superseded as a current control by the quarantine notice above):
 
 Kerr core baseline -> identify genuine near-core carrier -> persistent-coil triangulation -> timesheet intersection/readout -> independent measurable consequence.
 
