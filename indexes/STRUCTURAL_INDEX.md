@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:52:22+00:00`
-- Tree/content state: `86d3465b6f3702dfd0c75376e7d21c24d30f331a9ad2f6dd0d8e3edc740e6fb4`
-- Coverage: 828 files, 60 directories
+- Scanned: `2026-09-12T22:57:09+00:00`
+- Tree/content state: `a98d6ede2f581562a4fe361e74e821180233f7cf04823a76505bbeb747bbe584`
+- Coverage: 829 files, 60 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 579 |
+| `DEVELOPMENT_FULL_CONVOS` | 580 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -62,7 +62,7 @@
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 130 |
+| `.txt` | 131 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -81,7 +81,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 579 |
+| `source-conversation-corpus` | 580 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -693,6 +693,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT_20_TOP_LEVEL_GOALS.txt` — 4319 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/TIME INSTRUCTIONS.txt` — 3322 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt` — 14537491 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT FORMALIZATION doc.txt` — 60654 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json` — 234786 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR ANALYSIS.txt` — 42731 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT O AUDITS/EMULATOR RESULTS.txt` — 19442 bytes — `source-conversation-corpus`
@@ -1088,11 +1089,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 134098 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 134284 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 239676 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 240015 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
