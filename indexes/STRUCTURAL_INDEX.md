@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T15:06:13+00:00`
-- Tree/content state: `66cd3d2ae329fde6d205be0ee7bbc14f95decdbd0aaf3628873b326757b26848`
-- Coverage: 674 files, 54 directories
+- Scanned: `2026-09-12T15:18:35+00:00`
+- Tree/content state: `f1d9389194c5f1e790a00044a57d7d5f53619c66879b26e2f64d0e17bdcfb725`
+- Coverage: 676 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 53 |
+| `WORKSPACES` | 55 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 369 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 122 |
+| `.md` | 124 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 53 |
+| `llm-workspace` | 55 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 446 |
 | `synthesis-workspace` | 6 |
@@ -885,6 +885,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md` — 20388 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_TRILLION_UNIVERSE_MODEL_GENERATOR_2026-09-12.md` — 27377 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_2026-09-12_LITERATURE_CONVERGENCE_SAT_RIGOR.md` — 19234 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_2026_REALIGNMENT_2026-09-12.md` — 28725 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_4DUC_NUMERICAL_INTERROGATION_2026-09-12.md` — 27374 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_ADDENDUM_HYPERSPHERE_GAUGE_FILAMENT_2026-09-12.md` — 22355 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_ALBERR_NUMERIC_POCKET_TOE_2026-09-12.md` — 21462 bytes — `llm-workspace`
@@ -903,6 +904,7 @@
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
