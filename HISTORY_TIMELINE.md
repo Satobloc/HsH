@@ -6,6 +6,8 @@ The recurring thread is geometric: four-dimensional particle paths/worldlines, i
 
 Where a surviving or later explanatory image closely matches a stage, it is linked directly into the timeline. **Historical images are identified as such; later explanatory visuals should not be read as evidence that their final rendering existed at the earlier date.**
 
+**Source-status note:** conversation exports remain incomplete, especially for some middle-period working sessions and alternate accounts. Dates below should therefore distinguish the **earliest currently recovered source** from the actual origin of an idea. Conversation links are added where a dated firsthand working record is presently available.
+
 <table>
 <tr><th width="18%" align="right">Date</th><th width="4%"> </th><th>Turning point</th></tr>
 
@@ -21,10 +23,10 @@ Where a surviving or later explanatory image closely matches a stage, it is link
 <tr><td align="right"><strong>Feb–Apr 2004</strong></td><td align="center">●</td><td><strong>Mass / curvature / time-path sketches.</strong> Moleskine-era notes explicitly develop curved-space light paths, particle-path geometry, mass/curvature intuition, and “path / time line / space curve” language.</td></tr>
 <tr><td></td><td align="center">│</td><td></td></tr>
 
-<tr><td align="right"><strong>Mar–Apr 2024</strong></td><td align="center">●</td><td><strong>Proto-SAT becomes explicit.</strong> Longstanding geometry is reopened in sustained AI-assisted work: line/plane intersection, helical-line geometry, worldline–hypersurface intersection, early SAT systematics, and explicit recognition that a Lagrangian/action treatment would eventually be needed.</td></tr>
+<tr><td align="right"><strong>22 Mar 2024</strong></td><td align="center">●</td><td><strong>Earliest currently recovered SAT conversation: DIMENSIONAL GRAVITY.</strong> Longstanding geometry is reopened in AI-assisted work using a straight 1D line, a helical 1D line, and an intersecting plane. Motion is then reconstructed as changing lower-dimensional intersections with a propagating time surface; helices map to apparent orbital motion, and multiscale cords/ropes/braids and cross-temporal gravitational “tugs” are explored. This is a recovered conversation anchor, not a claim that every ingredient originated on this date.<br><small><a href="DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22%E2%80%A226.06.01%E2%80%A2DIMENSIONAL%20GRAVITY%20%E2%80%94%20raw.json">Dated working conversation: DIMENSIONAL GRAVITY</a></small></td></tr>
 <tr><td></td><td align="center">│</td><td></td></tr>
 
-<tr><td align="right"><strong>Late 2024</strong></td><td align="center">●</td><td><strong>Stringing-Along Theory.</strong> Worldline/timesheet and filament vocabularies differentiate; the SAT/RMS relationship and toy-theory status are explicit; cross-temporal-force and physical-filament ideas are actively explored.</td></tr>
+<tr><td align="right"><strong>Aug–late 2024</strong></td><td align="center">●</td><td><strong>Stringing-Along Theory vocabulary begins to consolidate.</strong> An 8 Aug block-universe conversation explicitly asks whether a localized particle interaction could propagate influence along extended four-dimensional histories; the assistant names the developing framework “Stringing Along Theory (SAT).” Later-2024 material is being treated as antecedent/provenance material pending the more sustained theory-building record of early 2025.<br><small><a href="DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08%E2%80%A224.08.08%E2%80%A2Forces%20Across%20Temporal%20Points%20%E2%80%94%20raw.json">Dated working conversation: Forces Across Temporal Points</a></small></td></tr>
 <tr><td></td><td align="center">│</td><td></td></tr>
 
 <tr><td align="right"><strong>2 Feb 2025</strong></td><td align="center">●</td><td><strong>Fundamental Intuitions become public.</strong> Physicalized worldlines/filaments, time surface/timesheet, particle-as-intersection, four-dimensional trace as physical object, and the rule to import successful SM/GR/QM structure unless forced otherwise are presented publicly.</td></tr>
