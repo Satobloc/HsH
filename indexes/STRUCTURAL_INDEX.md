@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T20:52:37+00:00`
-- Tree/content state: `d63eb53462240705df7563b24dc7ca7718a2cbbbeb2ed21ce83bd8f8cc4f3c8e`
-- Coverage: 702 files, 54 directories
+- Scanned: `2026-09-12T21:04:29+00:00`
+- Tree/content state: `60dc376cb2d3a32640fc2cb0358f106863d7b087c97cde1d722ff0342bab833a`
+- Coverage: 703 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 72 |
+| `WORKSPACES` | 73 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 376 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 141 |
+| `.md` | 142 |
 | `.pdf` | 5 |
 | `.png` | 30 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 72 |
+| `llm-workspace` | 73 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 455 |
 | `synthesis-workspace` | 6 |
@@ -909,6 +909,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md` — 27898 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_KAR_HNN_ARXIV_RADIO_2026-09-12.md` — 19679 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_MODIFIED_SPACETIME_SUSCEPTIBILITY_DARK_MATTER_2026-09-12.md` — 18499 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_SENSORIUM_INVERSION_2026-09-12.md` — 20295 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_STACKED_HOLONOMY_2026-09-12.md` — 43526 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_UI_CONSCIOUSNESS_2026-09-12.md` — 10283 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_UNIVERSAL_INDICATRIX_2026-09-12.md` — 21568 bytes — `llm-workspace`
