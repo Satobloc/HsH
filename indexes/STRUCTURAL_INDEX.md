@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:28:54+00:00`
-- Tree/content state: `9cb66f7d019556d445884710dc4bacb6d6147f8cb4b5f153d515fda993c58040`
+- Scanned: `2026-09-12T12:33:54+00:00`
+- Tree/content state: `f4582a9bbc92ed61855b85016130f9cdfd352f661de06683ef89a8033a65b3a7`
 - Coverage: 600 files, 51 directories
 - GitHub tree response truncated: `false`
 
@@ -811,7 +811,7 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 47288 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 77747 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS__GPT-5.5_THINKING_PERCOLATION_METROLOGY_2026-09-12.md` — 20388 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md` — 9751 bytes — `llm-workspace`
