@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T07:41:30+00:00`
-- Tree/content state: `c943ef7184dad6f15d5894c5ee500b1366194148fcdd7c5289b4a74ab57d5818`
-- Coverage: 568 files, 48 directories
+- Scanned: `2026-09-12T07:42:50+00:00`
+- Tree/content state: `671505aec7dc9e58dd3e56b75c000342abb1163caf0242f9a1095e9e81fad17b`
+- Coverage: 566 files, 48 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,7 +12,7 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 6 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 391 |
@@ -34,7 +34,7 @@
 | `ledgers` | 3 |
 | `synthesis` | 6 |
 | `tests` | 1 |
-| `tools` | 12 |
+| `tools` | 11 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -55,20 +55,20 @@
 | `.md` | 69 |
 | `.pdf` | 5 |
 | `.png` | 27 |
-| `.py` | 13 |
+| `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 82 |
-| `.yml` | 6 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 12 |
+| `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -273,7 +273,6 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3610 bytes — `visitor-interface`
-- `.github/workflows/apply-provenance-annotation-layer.yml` — 1129 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -838,7 +837,6 @@
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_1.json` — 11151 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-SAT_CONVOS_2-6.json` — 37113 bytes — `archive-tooling`
-- `tools/patch_provenance_annotations.py` — 19594 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations
