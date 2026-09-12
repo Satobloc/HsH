@@ -1,0 +1,19 @@
+/* Runtime viewport fixes: keep controls visible and make both panes independently scrollable. */
+html, body { height: 100%; max-height: 100%; overflow: hidden; }
+.app-shell, .main-pane, .sidebar { height: 100dvh; max-height: 100dvh; min-height: 0; }
+.main-pane { overflow: hidden; grid-template-rows: auto minmax(0, 1fr); }
+.viewer-header { position: sticky; top: 0; z-index: 50; flex: 0 0 auto; }
+.messages { min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.sidebar { overflow: hidden; }
+.conversation-list { flex: 1 1 0; min-height: 0; overflow-y: scroll !important; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; scrollbar-width: thin; }
+.conversation-list::-webkit-scrollbar { width: 10px; }
+.conversation-list::-webkit-scrollbar-thumb { background: rgba(150,150,160,.45); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
+.conversation-list::-webkit-scrollbar-track { background: transparent; }
+
+/* Keep the header usable on narrow/mobile screens rather than letting it disappear. */
+@media (max-width: 860px) {
+  .main-pane { height: 100dvh; max-height: 100dvh; }
+  .viewer-header { position: sticky; top: 0; }
+  .header-actions { display: flex; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 2px; }
+  .header-actions button, .header-actions .button-link { flex: 0 0 auto; }
+}
