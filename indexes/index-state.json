@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 864299704,
+    "bytes_known": 864302909,
     "directories": 51,
-    "files": 606
+    "files": 607
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 322,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 109,
+    ".md": 110,
     ".pdf": 5,
     ".png": 27,
     ".py": 12,
@@ -36,7 +36,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 40,
+    "llm-workspace": 41,
     "review-ledger": 5,
     "source-conversation-corpus": 391,
     "synthesis-workspace": 6,
@@ -59,7 +59,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 40,
+    "WORKSPACES": 41,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "986416577270d10b2cf441dd76f086f16565986aa594763c3b2ae650f6687843",
+      "content_id": "3f90d318a2d138a61295ed7f356b78398f0c47b33e8ae4a2273491b4e42320ae",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4575,6 +4575,13 @@
       "size": 9751
     },
     {
+      "content_id": "f22cbb256cbf540537b55910dbbb7afa391852521ea67ba7381ab8059d873030",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_SURVEY_ADDENDUM.md",
+      "role": "llm-workspace",
+      "size": 3205
+    },
+    {
       "content_id": "47eca3c2520ca69820cd52313f97de3fc0df6b53bdfd35cb5613bbdd980da546",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md",
@@ -4834,7 +4841,7 @@
       "size": null
     },
     {
-      "content_id": "6534282b1e5d380db4260e4f9a965e00de962c0da9ba507f6c795621ef6dbe75",
+      "content_id": "50d359880773a1cb6f110aaba795ab034aa2718f0028010ac86ed30987dbfb4c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4848,7 +4855,7 @@
       "size": 8625
     },
     {
-      "content_id": "4ca8febfbc3ba44f816bcfa44475b336b2fc79e7b33920d7b33f2f34da4cac7b",
+      "content_id": "15afb28426c3bef472c2c13c3077985644acb67641293f397f3136db4530a86a",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4869,14 +4876,14 @@
       "size": null
     },
     {
-      "content_id": "455da38d13f39ecf99d93298f3a3b309f559662e9f32ee8fa129c3d34799bc2c",
+      "content_id": "49ea3694d93a0c24a5eb0bad256cf8a08987369be3af258c7d83076802135ba2",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "803e134f0b8e9fc6d9970494e1491722a2aec0cec6d3ec88b80f1c8be5d26f04",
+      "content_id": "80186f48295999c7a987d9cc13abecddb09c1bd2f84a3a50618f2103f8a45fec",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5094,8 +5101,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T12:55:16+00:00",
+  "scanned_at_utc": "2026-09-12T12:57:18+00:00",
   "schema_version": 1,
-  "tree_id": "c9277cddde0c421ae690756624e9027374e6524af0c8b736a29785306bdccd3d",
+  "tree_id": "7dc028c50828817ba44f7bfbdb27a51bdd758ec133b641b30b6cecc3918b0a80",
   "tree_response_truncated": false
 }
