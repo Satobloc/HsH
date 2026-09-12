@@ -1,0 +1,760 @@
+{
+  "title": "Clarify TOE meaning",
+  "create_time": 1757903756.547754,
+  "update_time": 1757903951.954147,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68c77b55-d81c-8320-b5e5-04e56aacce9c",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.notion.so/9162f50b62b080124ca4db47ba6f2e54",
+    "https://docs.google.com/spreadsheets/d/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ/edit?gid=676408861#gid=676408861",
+    "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+    "https://docs.google.com/presentation/d/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI/edit#slide=id.g2ef8699e0eb_48_36",
+    "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "7ce4502d-8e43-4e16-bb48-118f385232e8": {
+      "id": "7ce4502d-8e43-4e16-bb48-118f385232e8",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3afcbc5c-44f8-4bf6-bb6b-f927e98a213d",
+        "698cfede-55ad-44ce-ae1d-c3eae6ded74a"
+      ]
+    },
+    "3afcbc5c-44f8-4bf6-bb6b-f927e98a213d": {
+      "id": "3afcbc5c-44f8-4bf6-bb6b-f927e98a213d",
+      "message": {
+        "id": "3afcbc5c-44f8-4bf6-bb6b-f927e98a213d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903755.882121,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "list every major and mid level TOE "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "97f4bbcb184f8f4f-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ce4502d-8e43-4e16-bb48-118f385232e8",
+      "children": [
+        "83b45671-5d89-4864-b8ed-3473845abaab"
+      ]
+    },
+    "698cfede-55ad-44ce-ae1d-c3eae6ded74a": {
+      "id": "698cfede-55ad-44ce-ae1d-c3eae6ded74a",
+      "message": {
+        "id": "698cfede-55ad-44ce-ae1d-c3eae6ded74a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903777.445353,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "list every major and mid level Theory of everything "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "97f4bc520f3e89e9-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ce4502d-8e43-4e16-bb48-118f385232e8",
+      "children": [
+        "d783919a-a280-4548-add4-c0d439cfaf0a"
+      ]
+    },
+    "83b45671-5d89-4864-b8ed-3473845abaab": {
+      "id": "83b45671-5d89-4864-b8ed-3473845abaab",
+      "message": {
+        "id": "83b45671-5d89-4864-b8ed-3473845abaab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903756.400104,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Could you clarify what you mean by **“TOE”** in this context?  \n\n- In some fields, **TOE** refers to *Theory of Everything* (physics).  \n- In cybersecurity, it can mean *Target of Evaluation* (from Common Criteria).  \n- In organizational/management contexts, it could mean *Technology-Organization-Environment* framework.  \n- In military/government settings, it sometimes refers to *Table of Organization and Equipment*.  \n\nEach of these has very different \"major\" and \"mid-level\" entities associated with it. Do you mean TOE as in **military Tables of Organization and Equipment**, or something else?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "97f4bbcb184f8f4f-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "01c0f275-81af-4a5f-b649-5c2b4f0baf81",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3afcbc5c-44f8-4bf6-bb6b-f927e98a213d",
+      "children": []
+    },
+    "d783919a-a280-4548-add4-c0d439cfaf0a": {
+      "id": "d783919a-a280-4548-add4-c0d439cfaf0a",
+      "message": {
+        "id": "d783919a-a280-4548-add4-c0d439cfaf0a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903777.941686,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — you’re asking for a list of **major and mid-level “Theories of Everything” (TOEs)** in physics. These are attempts at a unified framework that explains all fundamental forces and particles under a single consistent theory. Here’s a structured list:\n\n---\n\n## 🔹 Major Theories of Everything (well-developed and influential)\n\n1. **String Theory**  \n   - Proposes that fundamental particles are 1D vibrating strings.  \n   - Has many variants: Type I, Type IIA, Type IIB, Heterotic \\(E₈×E₈\\), Heterotic \\(SO(32)\\).  \n   - Predicts extra dimensions (usually 10 or 11).\n\n2. **M-Theory**  \n   - Unifies the five main string theories.  \n   - Requires 11 dimensions.  \n   - Includes membranes (“branes”) in addition to strings.\n\n3. **Loop Quantum Gravity (LQG)**  \n   - A background-independent approach.  \n   - Space is quantized into discrete “loops.”  \n   - Competes with string theory as a non-perturbative quantum gravity theory.\n\n4. **Supergravity (SUGRA)**  \n   - Supersymmetric extension of general relativity.  \n   - Exists in multiple dimensions; the 11D version is especially significant.  \n   - Predecessor and part of M-theory.\n\n5. **Grand Unified Theories (GUTs)** (not full TOEs, but precursors)  \n   - Try to unify electromagnetism, weak, and strong forces.  \n   - Famous models: SU(5), SO(10), E₆.  \n   - Often combined with quantum gravity candidates for TOE attempts.\n\n---\n\n## 🔹 Mid-Level or Less Mainstream TOE Attempts\n\nThese are less dominant in physics circles but still pursued by some researchers:\n\n1. **Causal Dynamical Triangulations (CDT)**  \n   - Uses discrete building blocks of spacetime in a sum-over-histories approach.  \n\n2. **Asymptotic Safety**  \n   - Suggests gravity becomes “safe” at very high energies due to nontrivial fixed points.  \n\n3. **Twistor Theory (Penrose)**  \n   - Reformulates spacetime geometry in terms of twistor space.  \n\n4. **E₈ Theory (Lisi’s “Exceptionally Simple TOE”)**  \n   - Maps all particles and forces into the mathematical structure of E₈ Lie algebra.  \n   - Not widely accepted but mathematically elegant.  \n\n5. **Noncommutative Geometry (Connes’ approach)**  \n   - Uses noncommutative algebra to unify geometry and quantum field theory.  \n\n6. **Causal Set Theory**  \n   - Suggests spacetime is fundamentally discrete and ordered like a causal graph.  \n\n7. **Quantum Graphity / Emergent Spacetime Models**  \n   - Propose spacetime itself is emergent from more fundamental graph or network structures.  \n\n8. **Holographic Principle / AdS-CFT**  \n   - Suggests all information in a volume is encoded on its boundary.  \n   - Not itself a TOE, but a guiding principle linking string theory and quantum gravity.  \n\n---\n\n✅ In short: **Major TOEs** include String Theory, M-Theory, LQG, Supergravity, and GUT-plus-gravity models.  \n**Mid-level TOEs** include CDT, Asymptotic Safety, Twistor Theory, E₈ TOE, Noncommutative Geometry, Causal Sets, Emergent Spacetime, and Holographic dualities.\n\n---\n\nWould you like me to **make a detailed comparison table** of these TOEs (key principles, math used, pros/cons, current status)? That way you’d have a clear side-by-side view."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "97f4bc520f3e89e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "7782d387-5f90-48ce-bcbd-f3bcc52d2f60",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "698cfede-55ad-44ce-ae1d-c3eae6ded74a",
+      "children": [
+        "ec2e61a6-babb-4600-bec2-67f1b3e1f463",
+        "2d7c6c29-43fc-4da9-ae24-8e9c545d89df"
+      ]
+    },
+    "ec2e61a6-babb-4600-bec2-67f1b3e1f463": {
+      "id": "ec2e61a6-babb-4600-bec2-67f1b3e1f463",
+      "message": {
+        "id": "ec2e61a6-babb-4600-bec2-67f1b3e1f463",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903868.9639668,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, now use this list as a rubric to make a master ✅⚠️❌ chart"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "97f4be8dbe2389e9-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d783919a-a280-4548-add4-c0d439cfaf0a",
+      "children": [
+        "692e094f-f451-4794-813e-8d689fd6ce41"
+      ]
+    },
+    "2d7c6c29-43fc-4da9-ae24-8e9c545d89df": {
+      "id": "2d7c6c29-43fc-4da9-ae24-8e9c545d89df",
+      "message": {
+        "id": "2d7c6c29-43fc-4da9-ae24-8e9c545d89df",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903885.83514,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, now use this list as a rubric to make a master ✅⚠️❌ chart"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-KMMYQhZMsJeLWvfcy65G8r",
+              "size": 8745,
+              "mime_type": "text/plain",
+              "name": "TOE SCORECARD.txt"
+            }
+          ],
+          "dictation": false,
+          "request_id": "97f4bef72bc289e9-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d783919a-a280-4548-add4-c0d439cfaf0a",
+      "children": [
+        "0ef4e056-4e5f-43dd-8839-9dea21e60538"
+      ]
+    },
+    "692e094f-f451-4794-813e-8d689fd6ce41": {
+      "id": "692e094f-f451-4794-813e-8d689fd6ce41",
+      "message": {
+        "id": "692e094f-f451-4794-813e-8d689fd6ce41",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903869.355624,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "import pandas as pd\r\n\r\n# Define the rubric of TOEs with classification\r\ndata = {\r\n    \"Theory\": [\r\n        \"String Theory\",\r\n        \"M-Theory\",\r\n        \"Loop Quantum Gravity (LQG)\",\r\n        \"Supergravity (SUGRA)\",\r\n        \"Grand Unified Theories (GUTs)\",\r\n        \"Causal Dynamical Triangulations (CDT)\",\r\n        \"Asymptotic Safety\",\r\n        \"Twistor Theory\",\r\n        \"E8 Theory (Lisi)\",\r\n        \"Noncommutative Geometry\",\r\n        \"Causal Set Theory\",\r\n        \"Quantum Graphity / Emergent Spacetime\",\r\n        \"Holographic Principle / AdS-CFT\"\r\n    ],\r\n    \"Category\": [\r\n        \"Major\",\r\n        \"Major\",\r\n        \"Major\",\r\n        \"Major\",\r\n        \"Major\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\",\r\n        \"Mid-level\"\r\n    ],\r\n    # Assign evaluation: ✅ (mainstream/strong candidate), ⚠️ (active but uncertain/controversial), ❌ (not widely accepted)\r\n    \"Status\": [\r\n        \"✅\",  # String Theory\r\n        \"✅\",  # M-Theory\r\n        \"✅\",  # LQG\r\n        \"⚠️\",  # Supergravity (important but partial, precursor to M-theory)\r\n        \"⚠️\",  # GUTs (incomplete without gravity)\r\n        \"⚠️\",  # CDT (promising but niche)\r\n        \"⚠️\",  # Asymptotic Safety\r\n        \"⚠️\",  # Twistor Theory\r\n        \"❌\",  # E8 TOE (not accepted)\r\n        \"⚠️\",  # Noncommutative Geometry (mathematically deep but fringe)\r\n        \"⚠️\",  # Causal Set Theory\r\n        \"⚠️\",  # Quantum Graphity\r\n        \"⚠️\"   # Holographic Principle\r\n    ]\r\n}\r\n\r\n# Create DataFrame\r\ntoe_chart = pd.DataFrame(data)\r\n\r\nimport caas_jupyter_tools\r\ncaas_jupyter_tools.display_dataframe_to_user(\"Master TOE Chart (✅⚠️❌"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "97f4be8dbe2389e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "finish_details": {
+            "type": "interrupted",
+            "reason": "client_stopped"
+          },
+          "is_complete": true,
+          "parent_id": "ec2e61a6-babb-4600-bec2-67f1b3e1f463",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "ec2e61a6-babb-4600-bec2-67f1b3e1f463",
+      "children": []
+    },
+    "0ef4e056-4e5f-43dd-8839-9dea21e60538": {
+      "id": "0ef4e056-4e5f-43dd-8839-9dea21e60538",
+      "message": {
+        "id": "0ef4e056-4e5f-43dd-8839-9dea21e60538",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1757903886.6355305,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "request_id": "97f4bef72bc289e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "7d19f86d-a65c-4413-a816-871f068c5240",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2d7c6c29-43fc-4da9-ae24-8e9c545d89df",
+      "children": [
+        "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b"
+      ]
+    },
+    "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b": {
+      "id": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+      "message": {
+        "id": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1757903886.6550715,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            "Make sure to include `【message_idx†source】` markers to provide citations based on this file, where [message_idx] is provided at the beginning of this message",
+            "TOE SCORECARD\n\n•\tPrecisely predicts electroweak observables (W/Z/Higgs properties) that match collider data to high accuracy.\n\t•\tGauge structure SU(3)×SU(2)×U(1) perfectly describes strong, weak, and electromagnetic interactions.\n\t•\tCKM matrix structure successfully describes quark flavor mixing and CP violation seen in K, D, and B meson systems.\n\t•\tPMNS mixing matrix accommodates large neutrino mixing angles observed in oscillation experiments.\n\t•\tHiggs boson discovery at 125 GeV matches electroweak symmetry-breaking mechanism.\n\t•\tRunning of couplings qualitatively hints at near-unification of SU(2) and U(1) couplings.\n\t•\tModel plus neutrino masses fits all precision electroweak data, collider results, and low-energy flavor data.\n\t•\tAccurately predicts gravitational lensing, perihelion precession, time dilation, and frame-dragging.\n\t•\tPrediction that gravitational waves travel at c confirmed to parts in 10^15 by GW170817.\n\t•\tBlack hole solutions describe observed LIGO/Virgo/KAGRA mergers and EHT black hole images.\n\t•\tPredicts cosmological expansion (Friedmann equations), consistent with Hubble–Lemaître law.\n\t•\tΛ + cold dark matter fits CMB anisotropies, baryon acoustic oscillations, supernova distances, and structure growth.\n\t•\tAccounts for nucleosynthesis of light elements in the early universe.\n\t•\tExplains large-scale structure distribution in galaxy surveys.\n\t•\tExplains gauge coupling unification at ~10^16 GeV.\n\t•\tProvides a natural dark matter candidate.\n\t•\tStabilizes the Higgs mass against quadratic divergences (hierarchy problem).\n\t•\tEnables radiative electroweak symmetry breaking.\n\t•\tCan accommodate the muon (g–2) anomaly within certain parameter regions.\n\t•\tUnifies SU(3)×SU(2)×U(1) into larger groups with successful charge quantization.\n\t•\tNaturally includes a right-handed neutrino, explaining tiny neutrino masses via seesaw.\n\t•\tCan explain fermion mass relations (like m_b ≈ m_τ at high scale).\n\t•\tPredicts proton decay, a sharp falsifiable signature (though not yet observed).\n\t•\tProvides a framework unifying gravity with quantum mechanics.\n\t•\tPredicts higher-dimensional consistency and anomaly cancellation.\n\t•\tCompactifications can yield realistic 4D gauge groups and chiral fermions.\n\t•\tProvides a candidate landscape for a small cosmological constant (vacuum selection).\n\t•\tExplains strong/weak coupling equivalences and holography.\n\t•\tDualities provide a non-perturbative definition and insights into strongly coupled gauge theories.\n\t•\tBlack hole microstate counting matches Bekenstein–Hawking entropy.\n\t•\tProvides a background-independent quantization of geometry.\n\t•\tPredicts discrete spectra for area and volume operators.\n\t•\tReplaces the big bang singularity with a bounce.\n\t•\tPredicts possible Planck-scale modification of dispersion relations.\n\t•\tProvides a discrete spacetime structure consistent with Lorentz invariance.\n\t•\tExplains cosmological constant scale as statistical fluctuation of spacetime volume.\n\t•\tExplains fermion mass hierarchies via U(1) flavor charges.\n\t•\tDiscrete flavor symmetries predict large PMNS angles and near-tribimaximal mixing.\n\t•\tModular flavor symmetries constrain Yukawas using modular forms, explaining mixing patterns with fewer free parameters.\n\t•\tμ–τ symmetry predicts θ₂₃ ≈ 45° and δCP ≈ ±90°.\n\t•\tMinimal seesaw models naturally explain tiny neutrino masses and leptogenesis.\n\t•\tProvides UV completion for gravity via a nontrivial fixed point.\n\t•\tExplains Higgs quartic near zero at 10^9–10^12 GeV.\n\t•\tCan stabilize electroweak vacuum without new physics.\n\t•\tExplains Higgs as a bound state, addressing hierarchy problem.\n\t•\tGenerates Yukawa hierarchies via partial compositeness.\n\t•\tMirror-sector extensions solve naturalness by introducing hidden copies.\n\t•\tResolves black hole information paradox with horizonless microstates.\n\t•\tProvides quantum-gravity connections between entanglement and spacetime geometry.\n\t•\tSharpens black hole information paradox, producing testable echoes.\n\t•\tSuccessfully explains galaxy rotation curves with minimal parameters.\n\t•\tProvides a covariant extension matching lensing observations.\n\t•\tExplains some galaxy-scale dynamics without dark matter.\n\t•\tUses holography intuition to describe the early universe.\n\t•\tExplains small cosmological constant and SM parameter ranges consistent with life.\n\t•\tWarped geometry addresses hierarchy problem.\n\t•\tLarge extra dimensions lower the fundamental Planck scale, making gravity testable at colliders.\n\t•\tBraneworld models produce late-time cosmic acceleration without Λ.\n\t•\tGenerates SM gauge structure and Yukawa sector geometrically.\n\t•\tProvides a power-counting renormalizable gravity framework.\n\t•\tGeneralizes loop/spin foams into second-quantized geometry.\n\t•\tGenerates emergent 4D spacetime from discrete building blocks.\n\t•\tEffective inflationary field theories successfully describe CMB spectrum and non-Gaussianity.\n\t•\tUses Higgs as inflaton, consistent with Planck data.\n\t•\tR² inflation predicts n_s and r values matching Planck constraints.\n\t•\tAxion models solve strong CP problem and provide dark matter candidate.\n\t•\tAxion-driven inflation generates signatures consistent with CMB bounds.\n\n⸻\n\n\t•\tPredicts Cabibbo relation |V_us| ≈ √(m_d/m_s), confirmed within ~2%.\n\t•\tPredicts θ₂₃ ≈ 45° (maximal atmospheric neutrino mixing), consistent with ~47°±2°.\n\t•\tPredicts δCP ≈ 270° (−90°), matching current experimental trend (sin δ < 0).\n\t•\tPredicts large PMNS mixing angles without fine-tuning.\n\t•\tPredicts neutrino quasi-degeneracy with Σmν ≈ 0.06 eV, exactly the minimal cosmological sum.\n\t•\tIdentifies the “electron anomaly” — mₑ overpredicted unless overlap phases intervene.\n\t•\tPredicts CKM/PMNS coherence ratio ≈ 1.10–1.25, observed ≈1.17.\n\t•\tPredicts S₈ = 0.80 ± 0.02, consistent with DES/KiDS/Planck combined results.\n\t•\tPredicts σ₈(0) ≈ 0.80–0.84, observed ≈0.81.\n\t•\tPredicts growth index γ = 0.55 ± 0.02, observed ≈0.55.\n\t•\tPredicts dark energy equation of state w = −1, consistent with BAO/Planck/DESI.\n\t•\tPredicts CMB lensing amplitude A_L = 1.00 ± 0.05 (with Σmν≈0.06), observed 1.02 ± 0.04.\n\t•\tPredicts CMB low-ℓ suppression of 5–10% at ℓ≲20, seen in Planck and Simons Observatory.\n\t•\tPredicts nonsingular bounce cosmology, avoiding Big Bang singularity.\n\t•\tPredicts gravitational-wave propagation speed c_T = 1, confirmed to ~10⁻¹⁵ in GW170817.\n\t•\tPredicts BBH echoes at 1–3% amplitude, 10–100 ms delay, brushing current LVK limits.\n\t•\tPredicts BNS structured post-merger noise at 1.5–3 kHz, coherence 5–20 ms, with hints seen in O3–O4 stacks.\n\t•\tPredicts continuity between BNS noise and BBH echoes as one spectrum of effects.\n\t•\tBuilds mass hierarchies from discrete Q-indices, replacing arbitrary Yukawa tuning.\n\t•\tGenerates mixing from overlap geometry of localized profiles, not free parameters.\n\t•\tDerives gauge symmetries (U(1), SU(2), SU(3)) from compact phase holonomies.\n\t•\tUnifies GR as emergent elasticity and QM as compact phase quantization from the same medium.\n\t•\tPredicts eEDM in the range (0.5–2)×10⁻²⁹ e·cm, right at ACME reach.\n\t•\tPredicts EDM hierarchy: electron first, neutron later, with |dₙ/dₑ| ≈ 30–300.\n\t•\tPredicts sign correlation: δ=270° implies sign(dₑ) = −sign(dₙ).\n\t•\tPredicts CKM triple ratio should trend toward 18–22, currently high at ~24–25.\n\t•\tPredicts θ₂₃ deviations scale quadratically with ε, so shifts ≲2–7°.\n\t•\tPredicts mixing entropies: H_PMNS > H_CKM; PMNS entropy rises, CKM stays flat.\n\t•\tExplains Higgs vacuum near-criticality (λ≈0 at 10⁹–10¹² GeV).\n\t•\tExplains S₈ easing as interplay of Σmν minimal sum and Λ-like dark energy.\n\t•\tProvides falsifiable red lines (δ≠±90°, θ₂₃ far from 45°, eEDM null below 2×10⁻³⁰, robust null echoes, CKM triple ratio ≫25).\n\t•\tIntegrates flavor, cosmology, and gravity anomalies under one framework.\n\t•\tRequires few structural inputs to generate wide sector predictions.\n\t•\tProduces sharp prediction corridors instead of vague fits.\n\t•\tMatches multiple independent datasets simultaneously.\n\t•\tProvides rationale for low-ℓ CMB anomalies, not statistical flukes.\n\t•\tSuggests subtle GW “echo continuum” from BNS to BBH.\n\t•\tExplains why maximal mixings and large phases appear naturally.\n\t•\tLinks flavor observables (Cabibbo, δ) to measurable EDM signatures.\n\t•\tTies cosmology observables (S₈, A_L, Σmν) into the same scaffold as flavor and gravity."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "97f4bef72bc289e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "0ef4e056-4e5f-43dd-8839-9dea21e60538",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0ef4e056-4e5f-43dd-8839-9dea21e60538",
+      "children": [
+        "1a7fcc16-f3ea-476d-aad3-522fbfa972c0"
+      ]
+    },
+    "1a7fcc16-f3ea-476d-aad3-522fbfa972c0": {
+      "id": "1a7fcc16-f3ea-476d-aad3-522fbfa972c0",
+      "message": {
+        "id": "1a7fcc16-f3ea-476d-aad3-522fbfa972c0",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1757903886.656963,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won't provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "97f4bef72bc289e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+      "children": [
+        "bd6d6bd4-eb73-47c4-8733-0193c192e656"
+      ]
+    },
+    "bd6d6bd4-eb73-47c4-8733-0193c192e656": {
+      "id": "bd6d6bd4-eb73-47c4-8733-0193c192e656",
+      "message": {
+        "id": "bd6d6bd4-eb73-47c4-8733-0193c192e656",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903886.661289,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect — I see your **TOE SCORECARD** file 【9†TOE SCORECARD】. Let’s now combine that with the **major & mid-level TOE rubric** we built earlier, and turn it into a **✅ (strong evidence / success), ⚠️ (uncertain / partial), ❌ (fails / no evidence)** chart.  \n\n---\n\n# Master TOE Chart ✅⚠️❌  \n\n### 1. **Standard Model (SM) + General Relativity (baseline pillars)**\n- Electroweak precision tests → ✅  \n- CKM & PMNS mixing → ✅  \n- Higgs discovery → ✅  \n- Gravitational lensing, perihelion precession, GW speed → ✅  \n- Big Bang Nucleosynthesis & ΛCDM cosmology → ✅  \n- Dark matter & quantum gravity → ❌  \n\n---\n\n### 2. **Grand Unified Theories (SU(5), SO(10), E₆)**\n- Gauge unification → ✅  \n- Charge quantization → ✅  \n- Fermion mass relations (mb ≈ mτ) → ⚠️ (approximate)  \n- Proton decay prediction → ❌ (not yet observed)  \n- Neutrino seesaw explanation → ✅  \n\n---\n\n### 3. **Supersymmetry (SUSY & Supergravity)**\n- Higgs stabilization (hierarchy problem) → ✅  \n- Radiative electroweak breaking → ✅  \n- Muon (g–2) anomaly → ⚠️ (parameter-dependent)  \n- No SUSY partners at LHC → ❌  \n\n---\n\n### 4. **String Theory / M-Theory**\n- Higher-dimensional consistency & anomaly cancellation → ✅  \n- Realistic compactifications possible → ⚠️ (landscape problem)  \n- Black hole entropy matching → ✅  \n- Cosmological constant landscape → ⚠️ (not predictive yet)  \n- Direct experimental evidence → ❌  \n\n---\n\n### 5. **Loop Quantum Gravity (LQG) / Spin Foams**\n- Discrete area/volume spectra → ✅ (theoretical)  \n- Singularity resolution (bounce cosmology) → ⚠️ (no experimental test)  \n- Planck-scale dispersion relations → ⚠️  \n- Compatibility with particle physics → ❌  \n\n---\n\n### 6. **Causal Dynamical Triangulations (CDT) / Emergent Spacetime**\n- Emergent 4D spacetime from discrete building blocks → ✅ (simulations)  \n- Cosmological expansion recovery → ✅  \n- Predictive power at particle scale → ❌  \n\n---\n\n### 7. **Asymptotic Safety (Weinberg program)**\n- Nontrivial UV fixed point → ✅ (theoretical support)  \n- Higgs quartic near zero (vacuum stability) → ✅  \n- No need for new physics → ⚠️ (still debated)  \n\n---\n\n### 8. **Twistor Theory (Penrose)**\n- Reformulates spacetime elegantly → ✅ (mathematical beauty)  \n- Clear link to particle physics → ❌  \n\n---\n\n### 9. **E₈ Theory (Garrett Lisi’s “Exceptionally Simple TOE”)**\n- Embeds SM groups in E₈ → ✅ (math works)  \n- Realistic fermion spectrum → ❌  \n- Predictive success → ❌  \n\n---\n\n### 10. **Noncommutative Geometry (Connes)**\n- Derives SM gauge group from geometry → ✅  \n- Links Higgs to geometry → ✅  \n- Experimental validation → ❌  \n\n---\n\n### 11. **Causal Set Theory**\n- Discrete spacetime preserving Lorentz invariance → ✅  \n- Cosmological constant as fluctuation → ✅  \n- Particle physics incorporation → ❌  \n\n---\n\n### 12. **Holographic Principle / AdS–CFT**\n- Black hole information / entropy → ✅  \n- Strong–weak dualities → ✅  \n- Cosmological real universe fit → ⚠️  \n- Direct evidence → ❌  \n\n---\n\n### 13. **Composite Higgs & Mirror-Sector Models**\n- Solve hierarchy problem via compositeness → ✅ (conceptual)  \n- Hidden copies / mirror naturalness → ⚠️  \n- Experimental signals → ❌  \n\n---\n\n### 14. **Modified Gravity (MOND, TeVeS, etc.)**\n- Galaxy rotation curves → ✅  \n- Covariant extensions for lensing → ⚠️  \n- Cosmological structure formation → ❌ (ΛCDM fits better)  \n\n---\n\n### 15. **Flavor Symmetry Models (U(1), modular, μ–τ)**\n- Predict large PMNS angles & δCP ≈ ±90° → ✅  \n- Predict θ₂₃ ≈ 45° → ✅  \n- Exact electron mass anomaly → ⚠️  \n- Full quark–lepton mass/mixing pattern → ⚠️  \n\n---\n\n### 16. **Other Speculative TOE Proposals**\n- Bounce cosmology, GW echoes, EDM predictions (from your file) → ⚠️ (tentative hints, not established)  \n- Unified elasticity/QM from compact phases (your notes) → ⚠️  \n- Sharp falsifiable predictions (δ, EDM, CKM ratios) → ⚠️ (awaiting tests)  \n\n---\n\n✅ = strongly supported  \n⚠️ = partial / untested / debated  \n❌ = fails / no evidence  \n\n---\n\nWould you like me to **turn this into a big visual table** (with columns like *Theory | Core Claims | ✅⚠️❌ per category*) so you can quickly compare at a glance?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [
+            {
+              "start_ix": 44,
+              "end_ix": 61,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "file",
+                "name": "TOE SCORECARD.txt",
+                "id": "file-KMMYQhZMsJeLWvfcy65G8r",
+                "source": "my_files",
+                "text": "",
+                "extra": {
+                  "cited_message_idx": 9,
+                  "cited_message_id": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+                  "search_result_idx": null,
+                  "evidence_text": "TOE SCORECARD",
+                  "cloud_doc_url": null,
+                  "authors_display": null,
+                  "doi": null,
+                  "publication_year": "None",
+                  "journal_name": null
+                }
+              }
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "【9†TOE SCORECARD】",
+              "start_idx": 44,
+              "end_idx": 61,
+              "alt": null,
+              "type": "file",
+              "name": "TOE SCORECARD.txt",
+              "id": "file-KMMYQhZMsJeLWvfcy65G8r",
+              "source": "my_files",
+              "snippet": "",
+              "cloud_doc_url": null,
+              "medical_file_reference": {
+                "authors_display": null,
+                "doi": null,
+                "publication_year": "None",
+                "journal_name": null
+              },
+              "input_pointer": {
+                "message_index": 9,
+                "message_id": "9783a71e-1bfe-41c9-aca8-3a17d4bcad2b",
+                "file_index": null,
+                "line_range_start": null,
+                "line_range_end": null
+              },
+              "fff_metadata": null
+            }
+          ],
+          "request_id": "97f4bef72bc289e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "1a7fcc16-f3ea-476d-aad3-522fbfa972c0",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1a7fcc16-f3ea-476d-aad3-522fbfa972c0",
+      "children": [
+        "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed"
+      ]
+    },
+    "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed": {
+      "id": "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed",
+      "message": {
+        "id": "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903933.310298,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you make it a grid of theory vs rubric "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "97f4c01fdd7189e9-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bd6d6bd4-eb73-47c4-8733-0193c192e656",
+      "children": [
+        "92eb831c-30b7-4ab1-9594-c81463d89212"
+      ]
+    },
+    "92eb831c-30b7-4ab1-9594-c81463d89212": {
+      "id": "92eb831c-30b7-4ab1-9594-c81463d89212",
+      "message": {
+        "id": "92eb831c-30b7-4ab1-9594-c81463d89212",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903933.815365,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "import pandas as pd\r\n\r\n# Define the rubric categories\r\nrubric = [\r\n    \"Unifies gauge forces\",\r\n    \"Explains fermion masses/mixing\",\r\n    \"Predicts Higgs properties\",\r\n    \"Addresses hierarchy problem\",\r\n    \"Explains neutrino masses\",\r\n    \"Dark matter candidate\",\r\n    \"Quantum gravity framework\",\r\n    \"Cosmology predictions (expansion, CMB, inflation)\",\r\n    \"Black hole entropy / info paradox\",\r\n    \"Experimental evidence / tests\"\r\n]\r\n\r\n# Define theories and their scores (✅, ⚠️, ❌)\r\ndata = {\r\n    \"Standard Model + GR\": [\"⚠️\", \"✅\", \"✅\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"✅\", \"✅\", \"✅\"],\r\n    \"Grand Unified Theories\": [\"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Supersymmetry / Supergravity\": [\"✅\", \"⚠️\", \"✅\", \"✅\", \"✅\", \"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"❌\"],\r\n    \"String Theory / M-Theory\": [\"✅\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"✅\", \"❌\"],\r\n    \"Loop Quantum Gravity\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"⚠️\", \"❌\"],\r\n    \"Causal Dynamical Triangulations\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"✅\", \"❌\", \"❌\"],\r\n    \"Asymptotic Safety\": [\"❌\", \"❌\", \"⚠️\", \"✅\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Twistor Theory\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\"],\r\n    \"E8 Theory\": [\"✅\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\"],\r\n    \"Noncommutative Geometry\": [\"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\"],\r\n    \"Causal Set Theory\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Holographic Principle / AdS–CFT\": [\"⚠️\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"✅\", \"❌\"],\r\n    \"Composite Higgs / Mirror Models\": [\"⚠️\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Modified Gravity\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"⚠️\", \"⚠️\", \"✅\", \"❌\", \"❌\"],\r\n    \"Flavor Symmetry Models\": [\"❌\", \"✅\", \"⚠️\", \"❌\", \"✅\", \"❌\", \"❌\", \"⚠️\", \"❌\", \"⚠️\"]\r\n}\r\n\r\n# Build dataframe\r\ndf = pd.DataFrame(data, index=rubric).T\r\n\r\nimport caas_jupyter_tools\r\ncaas_jupyter_tools.display_dataframe_to_user(\"Theory vs Rubric Scorecard\", df)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "97f4c01fdd7189e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "fe291326-daf5-4bd5-8e3b-8a4a6d9951ed",
+      "children": [
+        "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42"
+      ]
+    },
+    "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42": {
+      "id": "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42",
+      "message": {
+        "id": "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1757903943.9840333,
+        "update_time": 1757903947.0623488,
+        "content": {
+          "content_type": "execution_output",
+          "text": "                             Unifies gauge forces  \\\nStandard Model + GR                            ⚠️   \nGrand Unified Theories                          ✅   \nSupersymmetry / Supergravity                    ✅   \nString Theory / M-Theory                        ✅   \nLoop Quantum Gravity                            ❌   \n\n                             Explains fermion masses/mixing  \\\nStandard Model + GR                                       ✅   \nGrand Unified Theories                                   ⚠️   \nSupersymmetry / Supergravity                             ⚠️   \nString Theory / M-Theory                                 ⚠️   \nLoop Quantum Gravity                                      ❌   \n\n                             Predicts Higgs properties  \\\nStandard Model + GR                                  ✅   \nGrand Unified Theories                              ⚠️   \nSupersymmetry / Supergravity                         ✅   \nString Theory / M-Theory                            ⚠️   \nLoop Quantum Gravity                                 ❌   \n\n                             Addresses hierarchy problem  \\\nStandard Model + GR                                    ❌   \nGrand Unified Theories                                ⚠️   \nSupersymmetry / Supergravity                           ✅   \nString Theory / M-Theory                               ✅   \nLoop Quantum Gravity                                   ❌   \n\n                             Explains neutrino masses Dark matter candidate  \\\nStandard Model + GR                                ⚠️                     ❌   \nGrand Unified Theories                              ✅                    ⚠️   \nSupersymmetry / Supergravity                        ✅                     ✅   \nString Theory / M-Theory                           ⚠️                    ⚠️   \nLoop Quantum Gravity                                ❌                     ❌   \n\n                             Quantum gravity framework  \\\nStandard Model + GR                                  ❌   \nGrand Unified Theories                               ❌   \nSupersymmetry / Supergravity                        ⚠️   \nString Theory / M-Theory                             ✅   \nLoop Quantum Gravity                                 ✅   \n\n                             Cosmology predictions (expansion, CMB, inflation)  \\\nStandard Model + GR                                                          ✅   \nGrand Unified Theories                                                      ⚠️   \nSupersymmetry / Supergravity                                                ⚠️   \nString Theory / M-Theory                                                    ⚠️   \nLoop Quantum Gravity                                                        ⚠️   \n\n                             Black hole entropy / info paradox  \\\nStandard Model + GR                                          ✅   \nGrand Unified Theories                                       ❌   \nSupersymmetry / Supergravity                                ⚠️   \nString Theory / M-Theory                                     ✅   \nLoop Quantum Gravity                                        ⚠️   \n\n                             Experimental evidence / tests  \nStandard Model + GR                                      ✅  \nGrand Unified Theories                                   ❌  \nSupersymmetry / Supergravity                             ❌  \nString Theory / M-Theory                                 ❌  \nLoop Quantum Gravity                                     ❌  "
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "a11b97c3-4dcb-4ca9-8543-c7e942d56c95",
+            "start_time": 1757903943.9840333,
+            "update_time": 1757903947.0623488,
+            "code": "import pandas as pd\r\n\r\n# Define the rubric categories\r\nrubric = [\r\n    \"Unifies gauge forces\",\r\n    \"Explains fermion masses/mixing\",\r\n    \"Predicts Higgs properties\",\r\n    \"Addresses hierarchy problem\",\r\n    \"Explains neutrino masses\",\r\n    \"Dark matter candidate\",\r\n    \"Quantum gravity framework\",\r\n    \"Cosmology predictions (expansion, CMB, inflation)\",\r\n    \"Black hole entropy / info paradox\",\r\n    \"Experimental evidence / tests\"\r\n]\r\n\r\n# Define theories and their scores (✅, ⚠️, ❌)\r\ndata = {\r\n    \"Standard Model + GR\": [\"⚠️\", \"✅\", \"✅\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"✅\", \"✅\", \"✅\"],\r\n    \"Grand Unified Theories\": [\"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Supersymmetry / Supergravity\": [\"✅\", \"⚠️\", \"✅\", \"✅\", \"✅\", \"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"❌\"],\r\n    \"String Theory / M-Theory\": [\"✅\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"✅\", \"❌\"],\r\n    \"Loop Quantum Gravity\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"⚠️\", \"❌\"],\r\n    \"Causal Dynamical Triangulations\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"✅\", \"❌\", \"❌\"],\r\n    \"Asymptotic Safety\": [\"❌\", \"❌\", \"⚠️\", \"✅\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Twistor Theory\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\"],\r\n    \"E8 Theory\": [\"✅\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\"],\r\n    \"Noncommutative Geometry\": [\"✅\", \"⚠️\", \"⚠️\", \"⚠️\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\", \"❌\"],\r\n    \"Causal Set Theory\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Holographic Principle / AdS–CFT\": [\"⚠️\", \"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"✅\", \"⚠️\", \"✅\", \"❌\"],\r\n    \"Composite Higgs / Mirror Models\": [\"⚠️\", \"⚠️\", \"⚠️\", \"✅\", \"⚠️\", \"⚠️\", \"❌\", \"⚠️\", \"❌\", \"❌\"],\r\n    \"Modified Gravity\": [\"❌\", \"❌\", \"❌\", \"❌\", \"❌\", \"⚠️\", \"⚠️\", \"✅\", \"❌\", \"❌\"],\r\n    \"Flavor Symmetry Models\": [\"❌\", \"✅\", \"⚠️\", \"❌\", \"✅\", \"❌\", \"❌\", \"⚠️\", \"❌\", \"⚠️\"]\r\n}\r\n\r\n# Build dataframe\r\ndf = pd.DataFrame(data, index=rubric).T\r\n\r\nimport caas_jupyter_tools\r\ncaas_jupyter_tools.display_dataframe_to_user(\"Theory vs Rubric Scorecard\", df)",
+            "end_time": 1757903947.0623488,
+            "final_expression_output": "                             Unifies gauge forces  \\\nStandard Model + GR                            ⚠️   \nGrand Unified Theories                          ✅   \nSupersymmetry / Supergravity                    ✅   \nString Theory / M-Theory                        ✅   \nLoop Quantum Gravity                            ❌   \n\n                             Explains fermion masses/mixing  \\\nStandard Model + GR                                       ✅   \nGrand Unified Theories                                   ⚠️   \nSupersymmetry / Supergravity                             ⚠️   \nString Theory / M-Theory                                 ⚠️   \nLoop Quantum Gravity                                      ❌   \n\n                             Predicts Higgs properties  \\\nStandard Model + GR                                  ✅   \nGrand Unified Theories                              ⚠️   \nSupersymmetry / Supergravity                         ✅   \nString Theory / M-Theory                            ⚠️   \nLoop Quantum Gravity                                 ❌   \n\n                             Addresses hierarchy problem  \\\nStandard Model + GR                                    ❌   \nGrand Unified Theories                                ⚠️   \nSupersymmetry / Supergravity                           ✅   \nString Theory / M-Theory                               ✅   \nLoop Quantum Gravity                                   ❌   \n\n                             Explains neutrino masses Dark matter candidate  \\\nStandard Model + GR                                ⚠️                     ❌   \nGrand Unified Theories                              ✅                    ⚠️   \nSupersymmetry / Supergravity                        ✅                     ✅   \nString Theory / M-Theory                           ⚠️                    ⚠️   \nLoop Quantum Gravity                                ❌                     ❌   \n\n                             Quantum gravity framework  \\\nStandard Model + GR                                  ❌   \nGrand Unified Theories                               ❌   \nSupersymmetry / Supergravity                        ⚠️   \nString Theory / M-Theory                             ✅   \nLoop Quantum Gravity                                 ✅   \n\n                             Cosmology predictions (expansion, CMB, inflation)  \\\nStandard Model + GR                                                          ✅   \nGrand Unified Theories                                                      ⚠️   \nSupersymmetry / Supergravity                                                ⚠️   \nString Theory / M-Theory                                                    ⚠️   \nLoop Quantum Gravity                                                        ⚠️   \n\n                             Black hole entropy / info paradox  \\\nStandard Model + GR                                          ✅   \nGrand Unified Theories                                       ❌   \nSupersymmetry / Supergravity                                ⚠️   \nString Theory / M-Theory                                     ✅   \nLoop Quantum Gravity                                        ⚠️   \n\n                             Experimental evidence / tests  \nStandard Model + GR                                      ✅  \nGrand Unified Theories                                   ❌  \nSupersymmetry / Supergravity                             ❌  \nString Theory / M-Theory                                 ❌  \nLoop Quantum Gravity                                     ❌  ",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "b9476e3f-da4a46f84e152f5a1a07cd15_3_2",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "b9476e3f-da4a46f84e152f5a1a07cd15_3_2",
+                  "version": "5.3"
+                }
+              },
+              {
+                "parent_header": {
+                  "msg_id": "b9476e3f-da4a46f84e152f5a1a07cd15_3_2",
+                  "version": "5.3"
+                },
+                "msg_type": "execute_result",
+                "content": {
+                  "data": {
+                    "text/plain": "                             Unifies gauge forces  \\\nStandard Model + GR                            ⚠️   \nGrand Unified Theories                          ✅   \nSupersymmetry / Supergravity                    ✅   \nString Theory / M-Theory                        ✅   \nLoop Quantum Gravity                            ❌   \n\n                             Explains fermion masses/mixing  \\\nStandard Model + GR                                       ✅   \nGrand Unified Theories                                   ⚠️   \nSupersymmetry / Supergravity                             ⚠️   \nString Theory / M-Theory                                 ⚠️   \nLoop Quantum Gravity                                      ❌   \n\n                             Predicts Higgs properties  \\\nStandard Model + GR                                  ✅   \nGrand Unified Theories                              ⚠️   \nSupersymmetry / Supergravity                         ✅   \nString Theory / M-Theory                            ⚠️   \nLoop Quantum Gravity                                 ❌   \n\n                             Addresses hierarchy problem  \\\nStandard Model + GR                                    ❌   \nGrand Unified Theories                                ⚠️   \nSupersymmetry / Supergravity                           ✅   \nString Theory / M-Theory                               ✅   \nLoop Quantum Gravity                                   ❌   \n\n                             Explains neutrino masses Dark matter candidate  \\\nStandard Model + GR                                ⚠️                     ❌   \nGrand Unified Theories                              ✅                    ⚠️   \nSupersymmetry / Supergravity                        ✅                     ✅   \nString Theory / M-Theory                           ⚠️                    ⚠️   \nLoop Quantum Gravity                                ❌                     ❌   \n\n                             Quantum gravity framework  \\\nStandard Model + GR                                  ❌   \nGrand Unified Theories                               ❌   \nSupersymmetry / Supergravity                        ⚠️   \nString Theory / M-Theory                             ✅   \nLoop Quantum Gravity                                 ✅   \n\n                             Cosmology predictions (expansion, CMB, inflation)  \\\nStandard Model + GR                                                          ✅   \nGrand Unified Theories                                                      ⚠️   \nSupersymmetry / Supergravity                                                ⚠️   \nString Theory / M-Theory                                                    ⚠️   \nLoop Quantum Gravity                                                        ⚠️   \n\n                             Black hole entropy / info paradox  \\\nStandard Model + GR                                          ✅   \nGrand Unified Theories                                       ❌   \nSupersymmetry / Supergravity                                ⚠️   \nString Theory / M-Theory                                     ✅   \nLoop Quantum Gravity                                        ⚠️   \n\n                             Experimental evidence / tests  \nStandard Model + GR                                      ✅  \nGrand Unified Theories                                   ❌  \nSupersymmetry / Supergravity                             ❌  \nString Theory / M-Theory                                 ❌  \nLoop Quantum Gravity                                     ❌  ",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Unifies gauge forces</th>\n      <th>Explains fermion masses/mixing</th>\n      <th>Predicts Higgs properties</th>\n      <th>Addresses hierarchy problem</th>\n      <th>Explains neutrino masses</th>\n      <th>Dark matter candidate</th>\n      <th>Quantum gravity framework</th>\n      <th>Cosmology predictions (expansion, CMB, inflation)</th>\n      <th>Black hole entropy / info paradox</th>\n      <th>Experimental evidence / tests</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>Standard Model + GR</th>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>✅</td>\n      <td>❌</td>\n      <td>⚠️</td>\n      <td>❌</td>\n      <td>❌</td>\n      <td>✅</td>\n      <td>✅</td>\n      <td>✅</td>\n    </tr>\n    <tr>\n      <th>Grand Unified Theories</th>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>❌</td>\n      <td>⚠️</td>\n      <td>❌</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <th>Supersymmetry / Supergravity</th>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>✅</td>\n      <td>✅</td>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <th>String Theory / M-Theory</th>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <th>Loop Quantum Gravity</th>\n      <td>❌</td>\n      <td>❌</td>\n      <td>❌</td>\n      <td>❌</td>\n      <td>❌</td>\n      <td>❌</td>\n      <td>✅</td>\n      <td>⚠️</td>\n      <td>⚠️</td>\n      <td>❌</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "b9476e3f-da4a46f84e152f5a1a07cd15_3_2",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-LkwiECo1mEPqi29yWVSBPd",
+              "title": "Theory vs Rubric Scorecard"
+            }
+          ],
+          "request_id": "97f4c01fdd7189e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "92eb831c-30b7-4ab1-9594-c81463d89212",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92eb831c-30b7-4ab1-9594-c81463d89212",
+      "children": [
+        "7f00691c-35d9-4096-8f0c-e8ea53d40e67"
+      ]
+    },
+    "7f00691c-35d9-4096-8f0c-e8ea53d40e67": {
+      "id": "7f00691c-35d9-4096-8f0c-e8ea53d40e67",
+      "message": {
+        "id": "7f00691c-35d9-4096-8f0c-e8ea53d40e67",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757903947.072617,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I’ve built a **grid of theories vs rubric** so you can compare them side-by-side. ✅ means strong evidence/success, ⚠️ means partial or debated, and ❌ means no evidence/failure.  \n\nYou can now scan across each row to see how well a given TOE scores across categories like *unifying forces, fermion masses, Higgs predictions, dark matter, quantum gravity, cosmology, black holes, experimental tests*, etc.  \n\nWould you like me to **fill in the rest of the mid-level theories** (CDT, Asymptotic Safety, Twistor, E₈, Noncommutative Geometry, Causal Sets, Holography, Flavor Symmetries, etc.) into this same chart so it’s fully comprehensive?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "97f4c01fdd7189e9-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e8c6247f-bbef-49b6-a4d5-8cda5e8b2a42",
+      "children": []
+    }
+  },
+  "current_node": "7f00691c-35d9-4096-8f0c-e8ea53d40e67",
+  "context_truncation_continuation": null
+}
