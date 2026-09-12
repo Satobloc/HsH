@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T04:34:03+00:00`
-- Tree/content state: `1c86a4f1f2be1b18240bf9ce4cb928eda0eece4cb10ab79f88d86dcf9a125c23`
+- Scanned: `2026-09-12T04:44:47+00:00`
+- Tree/content state: `8aef1dbe1225c714d1c342a98e2f7916453c9b3943ee10e0463ce211de9c84fd`
 - Coverage: 535 files, 47 directories
 - GitHub tree response truncated: `false`
 
@@ -279,13 +279,13 @@
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/conversations.json` — 271331 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 5428 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 5792 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
-- `CONVERSATION_VIEWER/presentation.js` — 13018 bytes — `unclassified`
+- `CONVERSATION_VIEWER/presentation.js` — 13723 bytes — `unclassified`
 - `CONVERSATION_VIEWER/runtime-fixes.css` — 1811 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.css` — 12060 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.js` — 35802 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.css` — 12929 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 37499 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`

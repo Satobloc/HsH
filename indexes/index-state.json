@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 841268512,
+    "bytes_known": 841272147,
     "directories": 47,
     "files": 535
   },
@@ -584,7 +584,7 @@
       "size": null
     },
     {
-      "content_id": "b805ac43881be60634cce7c8209c57e9eb054cbee7fb8ff3ff7dc42d9c4797f1",
+      "content_id": "84d4f3459a7a67b2846247f52817be0e06b941268b2cd8905308d3dfabf5e421",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -605,11 +605,11 @@
       "size": 45
     },
     {
-      "content_id": "6bac20a015773d6c7c590367331e2467102e24909cc97e410b095e3d4b90e190",
+      "content_id": "dbbc5619b18ae91e4f07f73f29d7dd6e5427baebdcfdb4b464af1cc1e078f907",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/index.html",
       "role": "unclassified",
-      "size": 5428
+      "size": 5792
     },
     {
       "content_id": "515be0f2cf7ff5a98687e7cac7fbaa8aa9b90ac99249e88f3888764857417c5c",
@@ -626,11 +626,11 @@
       "size": 6085
     },
     {
-      "content_id": "42664ab973b62f11d46445f42ec9df3af2b67000575015bd025348919a9ef31c",
+      "content_id": "f6aff8760627cd43194e2c1e050b52b4a3d1d9de30694cec23664651c5fc3a48",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/presentation.js",
       "role": "unclassified",
-      "size": 13018
+      "size": 13723
     },
     {
       "content_id": "b1018240df7072e606b44704087da3fc71a88288953a5ea29b5a49f791dab28a",
@@ -640,18 +640,18 @@
       "size": 1811
     },
     {
-      "content_id": "04e713f561a3fe6983c0ffab9f01e3a189cff0fb4d9502ebc789f7b06850b0f4",
+      "content_id": "ad6ac4cc11b5b8eecc4ec9daeab834be7b21d7403890650a1fd326235694dc4c",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/viewer.css",
       "role": "unclassified",
-      "size": 12060
+      "size": 12929
     },
     {
-      "content_id": "a21916f3bf52fa4a3adca4500b6bdabbe8e7954620055533f91c4df5b321cbcf",
+      "content_id": "346f19bd00d1e7fc4f5ec3732659b5134f4015f678a30904ab66dede6d77abc6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/viewer.js",
       "role": "unclassified",
-      "size": 35802
+      "size": 37499
     },
     {
       "content_id": null,
@@ -4315,14 +4315,14 @@
       "size": null
     },
     {
-      "content_id": "b5619feda09dafe58c97080db340dd91a03c7f470c5d92b4aa7534b950c761d9",
+      "content_id": "fa561cbe6e9975ccf9015108bf43bc24cbdbcf8e67adf7bf593829c57ba008fc",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 99293
     },
     {
-      "content_id": "088c38a376583833f77c6d93fa67e80971b56cb2aed8015e7af4dee629c594e5",
+      "content_id": "d8b4c1980f2ad489309467af83a90534f24b95098a3018a3909a2cdde0be9734",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4343,14 +4343,14 @@
       "size": null
     },
     {
-      "content_id": "b8aaa5d4c69ae8c9bd8728d9d68cbe4efd723cefd6975def52d6379bf1c90f97",
+      "content_id": "8f5eb8c57950a9059ddcfd1ee415a6a5853bfd4af8257257e7e7eab9e1964aaf",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 165880
     },
     {
-      "content_id": "84841380eea07c351a05abb8c6d26bb84dcaa1f316a31c05d7bb692c79b980bd",
+      "content_id": "d4e70b783edaa311bb8185432f33380fe6af2d51b180243fbe778f09ffa2615d",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4554,8 +4554,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T04:34:03+00:00",
+  "scanned_at_utc": "2026-09-12T04:44:47+00:00",
   "schema_version": 1,
-  "tree_id": "1c86a4f1f2be1b18240bf9ce4cb928eda0eece4cb10ab79f88d86dcf9a125c23",
+  "tree_id": "8aef1dbe1225c714d1c342a98e2f7916453c9b3943ee10e0463ce211de9c84fd",
   "tree_response_truncated": false
 }
