@@ -60,4 +60,4 @@ FC-BASE-003 is `STD/DERIVED/FROZEN` in its stated affine independent-kernel scop
 
 - ᚼ/ᚼᚼ residual prediction: blocked by missing frame/axis, composition law, and observable map.
 - Open-Brunnian persistence prediction: blocked by missing material-support topology and reconnection rule.
-- Kerr-scale or legacy-angle prediction: forbidden until independently regenerated from frozen current geometry.
+- Kerr-scale or legacy-angle prediction: forbidden until independently regenerated from frozen current geometry. `KERR_CORE_BASELINE.md` is provisionally quarantined; its electron-scale circuit identities are consequences of the selected `a=hbar/(2m_ec)`, not independent predictions.
