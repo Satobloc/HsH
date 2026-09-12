@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-12T13:24:59.525164+00:00",
+  "generated_at_utc": "2026-09-12T13:25:49.407548+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 355,
+    "unchanged": 357,
     "skipped": 47,
-    "renamed": 2
+    "renamed": 1
   },
   "records": [
     {
@@ -2403,6 +2403,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26•26.09.07•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26•26.09.07•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-07T22:59:33.763838-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 245,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json",
       "start_local": "2026-08-29T15:50:53.291000-04:00",
@@ -2449,6 +2459,16 @@
       "end_local": "2026-09-08T22:27:06.256320-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1025,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-10T12:01:08.216666-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 694,
       "status": "unchanged",
       "warnings": []
     },
@@ -2515,22 +2535,12 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/⚗️ CALDER [Construction Story Retelling] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.26•26.09.07•⚗️ CALDER [Construction Story Retelling] — raw.json",
-      "start_local": "2026-08-26T05:11:22.113566-04:00",
-      "end_local": "2026-09-07T22:59:33.763838-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json",
+      "start_local": "2026-09-07T18:41:11.950000-04:00",
+      "end_local": "2026-09-10T21:25:01.763446-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 245,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/🎼 Ravel [H(s)H] Syncmathcek — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
-      "start_local": "2026-09-06T03:46:03.438933-04:00",
-      "end_local": "2026-09-10T12:01:08.216666-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 694,
+      "message_count": 1243,
       "status": "renamed",
       "warnings": []
     },

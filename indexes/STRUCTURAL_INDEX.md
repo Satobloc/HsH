@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:25:07+00:00`
-- Tree/content state: `28fabd6349d510e34898fdd13e0f24350a4575eb3935f7115e8fa321a2632851`
-- Coverage: 643 files, 53 directories
+- Scanned: `2026-09-12T13:25:56+00:00`
+- Tree/content state: `d0f64a64bb3e96977f753184b0dda3963b1235665bcc0e66cd8e74d471f17caa`
+- Coverage: 644 files, 53 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 424 |
+| `DEVELOPMENT_FULL_CONVOS` | 425 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 349 |
+| `.json` | 350 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 113 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 44 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 424 |
+| `source-conversation-corpus` | 425 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -290,7 +290,7 @@
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 317015 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 317933 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5914 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -545,6 +545,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json` — 2646059 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.08•☘️ Aldus [AUTO H(s)H Gitter] — raw.json` — 7155853 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json` — 5846071 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json` — 20912188 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.08•⚒️ Build Geometry Coding Skill — raw.json` — 398959 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw (1).json` — 1412275 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json` — 5074088 bytes — `source-conversation-corpus`
@@ -887,11 +888,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 112428 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 112695 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 193907 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 194442 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:25:07.212527+00:00`
+- Generated: `2026-09-12T13:25:55.663693+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **357**
+- Dated conversation exports: **358**
 - Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -368,6 +368,7 @@
 | 2026-09-07 | 2026-09-08 | [MORROW [Reconstruct H(s)H Synthesis] — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.07%E2%80%A226.09.08%E2%80%A2MORROW%20%5BReconstruct%20H%28s%29H%20Synthesis%5D%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_7` | 134 |  |  |
 | 2026-09-07 | 2026-09-09 | [MORROW [Reconstruct H(s)H Synthesis] — raw (3).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07%E2%80%A226.09.09%E2%80%A2MORROW%20%5BReconstruct%20H%28s%29H%20Synthesis%5D%20%E2%80%94%20raw%20%283%29.json) | `SAT_CONVOS_9` | 315 |  |  |
 | 2026-09-07 | 2026-09-08 | [🗿ORCHESTRATOR JANUS H(s)HvO](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07%E2%80%A226.09.08%E2%80%A2%F0%9F%97%BFORCHESTRATOR%20JANUS%20H%28s%29HvO%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 710 |  |  |
+| 2026-09-07 | 2026-09-10 | [🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07%E2%80%A226.09.10%E2%80%A2%F0%9F%97%BFORCHESTRATOR%20JANUS%20H%28s%29HvO%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 1243 |  |  |
 | 2026-09-08 | 2026-09-08 | [H(s)H Team Orchestrator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2H%28s%29H%20Team%20Orchestrator%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2026-09-08 | 2026-09-08 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 114 |  |  |

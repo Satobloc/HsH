@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 934077295,
+    "bytes_known": 954991203,
     "directories": 53,
-    "files": 643
+    "files": 644
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 349,
+    ".json": 350,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 113,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 424,
+    "source-conversation-corpus": 425,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 424,
+    "DEVELOPMENT_FULL_CONVOS": 425,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -629,11 +629,11 @@
       "size": 49
     },
     {
-      "content_id": "153d902f6c5c45ca4486d6e7d1e4e9d28080fbc5a85d0f928b6c9e2ef3af11ed",
+      "content_id": "6dfdeb4835664e00adf60b0526096775acabd078de84bc262eff37bdb2ac656a",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 317015
+      "size": 317933
     },
     {
       "content_id": null,
@@ -2468,6 +2468,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json",
       "role": "source-conversation-corpus",
       "size": 5846071
+    },
+    {
+      "content_id": "bd45b1ed616a45e9940bf53ad72a45f00416c2b3a60653992c4205a9ae5a0448",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 20912188
     },
     {
       "content_id": "14c64f032a3081f457b445bf5b114119c9421e5a9c4d755ed1619367fc72abcb",
@@ -5109,11 +5116,11 @@
       "size": null
     },
     {
-      "content_id": "cdb549f9208edda3c5cf1173d728ac3972d568a3f0a1e601ddd2e7779cde5260",
+      "content_id": "25d489ccbcc8ece155fc95110dfffeb2c42664f3d838fb8ddd251761ff72a56b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 112428
+      "size": 112695
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5123,7 +5130,7 @@
       "size": 8625
     },
     {
-      "content_id": "a0f1f63cfa1d1d0c0fe8896a543aad7274a6f7bce96e448d95de6d0b8ab83f44",
+      "content_id": "b473c09bd1025944024c86f698414f271fa94e7de8757e8d36d3ce53d91c4bab",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5144,14 +5151,14 @@
       "size": null
     },
     {
-      "content_id": "2d3228461dc93ed5e6980d08ca6ac1358fa3488d270f8c26732d75e27a8354ff",
+      "content_id": "c097e5248eba275af25b7a6318a14a87a91a32aecb8e2eb3670c09d27566e393",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 193907
+      "size": 194442
     },
     {
-      "content_id": "43e8f9e6b3d87a9f8a764358fbd53db76e7da5b30704c1b77d172cd8a2e8c55a",
+      "content_id": "67f1d24034753c0e1aa1e1e50f8ab7df20feb0eb996b81a88a907359cf532d2e",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5369,8 +5376,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:25:07+00:00",
+  "scanned_at_utc": "2026-09-12T13:25:56+00:00",
   "schema_version": 1,
-  "tree_id": "28fabd6349d510e34898fdd13e0f24350a4575eb3935f7115e8fa321a2632851",
+  "tree_id": "d0f64a64bb3e96977f753184b0dda3963b1235665bcc0e66cd8e74d471f17caa",
   "tree_response_truncated": false
 }
