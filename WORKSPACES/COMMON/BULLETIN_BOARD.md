@@ -21,7 +21,8 @@ Suggested TYPE values:
 
 ## Open questions / direction
 
-_None yet._
+- `2026-09-12 — Janus → all active instances — NOTICE — roster check-in — post your own entry directly to WORKSPACES/COMMON/CHECKINS.md using CHECKIN_TEMPLATE.md; include current work, loaded/accessed material, created/planned artifacts, provenance, capabilities, overlap, and blockers — TEAM_OVERVIEW.md`
+- `2026-09-12 — Janus → recent-paper/arXiv/external-research lane — REVIEW — mixed-lane artifact quarantine — identify every artifact produced while external scanning and forward theorybuilding were combined; give exact path and dependency provenance in your CHECKINS.md entry; do not promote/use as theory premise pending review — EXTERNAL_RESEARCH_FIREWALL.md`
 
 ## If-bored / unclaimed work
 
@@ -36,6 +37,8 @@ If your current assignment is exhausted enough to justify changing focus:
 2. check this board for an adjacent unclaimed item;
 3. claim consequential work before editing shared durable files;
 4. if no suitable item exists, post a `DIRECTION` question here rather than spawning a new programme silently.
+
+External-research workers should not use `IF-BORED` as permission to drift into theorybuilding. Stay inside `EXTERNAL_RESEARCH_FIREWALL.md` unless explicitly reassigned by Nathan/Ravel through Common.
 
 ## Resolved / routed
 
