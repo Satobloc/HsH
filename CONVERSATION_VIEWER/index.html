@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="dark light">
   <title>HsH Conversation Viewer</title>
   <link rel="stylesheet" href="viewer.css">
+  <link rel="stylesheet" href="presentation.css">
 </head>
 <body>
   <div id="app" class="app-shell">
@@ -71,10 +72,10 @@
           <label class="compact-control">Speed
             <select id="replaySpeed">
               <option value="0.5">0.5×</option>
-              <option value="1" selected>1×</option>
+              <option value="1">1×</option>
               <option value="2">2×</option>
               <option value="5">5×</option>
-              <option value="10">10×</option>
+              <option value="10" selected>10×</option>
             </select>
           </label>
           <span id="replayStatus" class="status-text">Paused</span>
@@ -99,5 +100,6 @@
   </div>
   <script src="viewer.js"></script>
   <script src="landmarks.js"></script>
+  <script src="presentation.js"></script>
 </body>
 </html>
