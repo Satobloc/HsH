@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1012404535,
+    "bytes_known": 1012423769,
     "directories": 54,
-    "files": 659
+    "files": 660
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,7 +16,7 @@
     ".json": 361,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 115,
+    ".md": 116,
     ".pdf": 5,
     ".png": 28,
     ".py": 12,
@@ -37,7 +37,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 46,
+    "llm-workspace": 47,
     "review-ledger": 5,
     "source-conversation-corpus": 438,
     "synthesis-workspace": 6,
@@ -60,7 +60,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 46,
+    "WORKSPACES": 47,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -646,7 +646,7 @@
       "size": 49
     },
     {
-      "content_id": "3cc97d1963d32741bbadb9287845ede8aae637bbf528d43ab6b3d8e9118bb37f",
+      "content_id": "33d7aa201622c99e4a860b5fdac937753ae060dd17f8cdfa0692889f92d70cd7",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4923,6 +4923,13 @@
       "size": 27377
     },
     {
+      "content_id": "b20dca9c6bea051f0fdbb2dc6b4914b472896d3d66708112126742519eaff575",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_2026-09-12_LITERATURE_CONVERGENCE_SAT_RIGOR.md",
+      "role": "llm-workspace",
+      "size": 19234
+    },
+    {
       "content_id": "a69d1baefe29401ec2640da3e815d41b62bf535763c92d98ab0bec913b969e26",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_GPT-5.6-Sol_Logic-Spine_2026-09-12.md",
@@ -5245,7 +5252,7 @@
       "size": null
     },
     {
-      "content_id": "ef2af62ed95360bc761de4d2d155dd0c8ea60c89c592e43172efb2afe3aec447",
+      "content_id": "901790a3c7a27082e8f0d0dd0ce8dbc9cd5627790e2920b2b323f8d6eaedecde",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5259,7 +5266,7 @@
       "size": 8625
     },
     {
-      "content_id": "dc97b2b876e29402fe7fb25413bd64196b6c74d8601108b7936db88ba1cfa912",
+      "content_id": "b587fb50f214fd9647007cdca1809de452182f32320e81e278e96bbab6d187cc",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5280,14 +5287,14 @@
       "size": null
     },
     {
-      "content_id": "3ac4061b1f153e68666d937bde95f4d39216b12c568ef6d3c715a0d207c45d7a",
+      "content_id": "f36451877d5c13b1f92e0d0bb0be810797d79d12613b1b163fa922a30dd087d2",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 200396
     },
     {
-      "content_id": "796a2bf7f04735b02c52140a9bf1e51dbb1944d417b32aabb9447b758fd03456",
+      "content_id": "5dfe5d59da10bc90b0eff8b681b53b78f081c84a25ca204cd247a51dbde348fd",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5505,8 +5512,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T14:10:43+00:00",
+  "scanned_at_utc": "2026-09-12T14:29:00+00:00",
   "schema_version": 1,
-  "tree_id": "8185674996d0e6311123e550d66d114e874798b7f2faa06f1e7adcde01557cf1",
+  "tree_id": "4766581b65b4dfcd1927df4d6f8553280651c2eb0e0e6b9f6d6b59683ed4f9dc",
   "tree_response_truncated": false
 }
