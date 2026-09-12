@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T04:23:13+00:00`
-- Tree/content state: `d9f8bfe126fc20f937409f1b7e7865631cceebc5e9d71eda274417a31934916f`
-- Coverage: 535 files, 46 directories
+- Scanned: `2026-09-12T04:34:03+00:00`
+- Tree/content state: `1c86a4f1f2be1b18240bf9ce4cb928eda0eece4cb10ab79f88d86dcf9a125c23`
+- Coverage: 535 files, 47 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -269,7 +269,7 @@
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
-- `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
+- `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
@@ -277,7 +277,7 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 202578 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 271331 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5428 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -285,7 +285,7 @@
 - `CONVERSATION_VIEWER/presentation.js` — 13018 bytes — `unclassified`
 - `CONVERSATION_VIEWER/runtime-fixes.css` — 1811 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 12060 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.js` — 35531 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 35802 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
@@ -776,7 +776,7 @@
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 99293 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 163979 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 165880 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
