@@ -1,0 +1,6 @@
+(
+SynthDef(\simple_synth, {
+    arg freq = 440;
+    Out.ar(0, SinOsc.ar(freq, 0, 0.1));
+}).add;
+)
