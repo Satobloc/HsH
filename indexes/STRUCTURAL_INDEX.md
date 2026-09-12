@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T04:44:47+00:00`
-- Tree/content state: `8aef1dbe1225c714d1c342a98e2f7916453c9b3943ee10e0463ce211de9c84fd`
-- Coverage: 535 files, 47 directories
+- Scanned: `2026-09-12T06:59:05+00:00`
+- Tree/content state: `06e24b19a70b720242ef685a7a0b32cdcff7dbb6b8fc454584abd9593ae2253f`
+- Coverage: 536 files, 47 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 14 |
-| `DEVELOPMENT_FULL_CONVOS` | 364 |
+| `DEVELOPMENT_FULL_CONVOS` | 365 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 3 |
-| `.json` | 295 |
+| `.json` | 296 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 68 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 4 |
 | `review-ledger` | 3 |
-| `source-conversation-corpus` | 364 |
+| `source-conversation-corpus` | 365 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 85 |
@@ -277,7 +277,7 @@
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
 - `CONVERSATION_VIEWER/README.md` — 2283 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 271331 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 272122 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5792 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -450,6 +450,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09•25.05.09•Fusion Constraints and Domain Walls — raw.json` — 8968 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Data Search and Prediction Assessment — raw.json` — 191093 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•Proof Consistency Check — raw.json` — 12992 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01•25.06.01•What is SAT — raw.json` — 4266 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08•25.08.31•Coherency Master OMNI — raw.json` — 6684669 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06•25.10.06•Resume cleanup and formatting — raw.json` — 151509 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SAT theory overview — raw.json` — 66862 bytes — `source-conversation-corpus`
@@ -773,10 +774,10 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 99293 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 99480 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 165880 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 166336 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 4095 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

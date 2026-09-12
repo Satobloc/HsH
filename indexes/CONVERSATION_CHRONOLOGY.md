@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T04:44:46.655076+00:00`
+- Generated: `2026-09-12T06:59:04.784966+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **304**
+- Dated conversation exports: **305**
 - Skipped non-conversation or unparseable files: **41**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -120,6 +120,7 @@
 | 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_2` | 69 | D24 |  |
 | 2025-06-01 | 2025-06-01 | [Ret--Jun1 SAT Z Review](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 69 | D24 |  |
 | 2025-06-01 | 2025-06-01 | [Data Search and Prediction Assessment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Data%20Search%20and%20Prediction%20Assessment%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 9 |  |  |
+| 2025-06-01 | 2025-06-01 | [What is SAT](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2What%20is%20SAT%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2025-06-01 | 2025-06-01 | [Proof Consistency Check](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Proof%20Consistency%20Check%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 2 |  |  |
 | 2025-06-01 | 2025-09-13 | [♾️ SAT_O METASUPERVISOR](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01%E2%80%A225.09.13%E2%80%A2%E2%99%BE%EF%B8%8F%20SAT_O%20METASUPERVISOR%20%E2%80%94%20raw.json) | `SAT_CONVOS_6` | 492 |  |  |
 | 2025-06-03 | 2025-08-31 | [Core Build Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03%E2%80%A225.08.31%E2%80%A2Core%20Build%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_6` | 206 |  |  |
