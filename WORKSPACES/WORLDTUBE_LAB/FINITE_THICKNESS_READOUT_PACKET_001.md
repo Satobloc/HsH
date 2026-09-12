@@ -66,6 +66,32 @@ Any empirical finite-core width or moment claim must provide at least one of:
 3. an observable invariant proved insensitive to the admissible kernel class;
 4. a coupled forward model whose extra parameters are independently constrained.
 
+## Controlled-thickness extrapolation (FC-BASE-004)
+
+If the resolver kernels form a centered scale family
+
+\[
+Z_\delta=\delta Z_1,\qquad Q_{Z_\delta}=\delta^2 Q_{Z_1},
+\]
+
+then
+
+\[
+Q_{\mathrm{obs}}(\delta)=Q_0+\delta^2Q_K,
+\qquad Q_0=L_\Sigma Q_YL_\Sigma^{\mathsf T}.
+\]
+
+Thus every covariance component and the trace must be affine in \(\delta^2\). For two settings,
+
+\[
+Q_{\mathrm{obs}}(\delta_2)-Q_{\mathrm{obs}}(\delta_1)
+=(\delta_2^2-\delta_1^2)Q_K.
+\]
+
+A preregistered multi-\(\delta\) experiment can estimate the zero-thickness intercept \(Q_0\) without identifying \(\delta\) with core radius. Systematic non-affinity falsifies this scale-family/linear-independent-kernel model, not necessarily the carrier.
+
+**Status:** the affine-in-\(\delta^2\) law is `STD/DERIVED/FROZEN` conditional on the declared kernel family and FC-BASE-003 assumptions. Existence and controllability of such an H(s)H resolver family remain `OPEN`.
+
 ## Exact handoff question
 
 Can the proposed H(s)H resolving wavefront supply an independently measurable kernel or a controlled \(\delta\)-family? If not, width and normalized-moment claims must remain readout-model dependent.
