@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:10:39.262517+00:00`
+- Generated: `2026-09-12T13:13:33.616603+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **330**
-- Skipped non-conversation or unparseable files: **43**
+- Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -578,9 +578,12 @@
 
 These remain in place and are not assigned conversation dates.
 
+- [DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt](../DEVELOPMENT_FULL_CONVOS/ACTIVE%20ROSTER%20SEPT%2012%202026.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt](../DEVELOPMENT_FULL_CONVOS/CONVO%20DOWNLOAD%20TARGETS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt](../DEVELOPMENT_FULL_CONVOS/H%28s%29H%20TEMPORAL%20ISOTROPY.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt](../DEVELOPMENT_FULL_CONVOS/H%28s%29H%20TIME%20RESIDUALS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3%20Planetology%20--%20Geometric%20Foundations%20Evaluation%20%E2%80%94%20raw%20%281%29.txt) — Extra data: line 1 column 43 (char 42)
+- [DEVELOPMENT_FULL_CONVOS/PRIOR SAT ROSTER SURVEY.txt](../DEVELOPMENT_FULL_CONVOS/PRIOR%20SAT%20ROSTER%20SURVEY.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SMOOTHERED.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/SUNOCLAUS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/TADA.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/TADA.txt) — Expecting value: line 1 column 1 (char 0)
@@ -621,3 +624,4 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/HSH Convo NLM.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/HSH%20Convo%20NLM.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
+- [DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt](../DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt) — Expecting value: line 1 column 1 (char 0)

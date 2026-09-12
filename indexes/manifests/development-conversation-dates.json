@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-12T13:10:33.433132+00:00",
+  "generated_at_utc": "2026-09-12T13:13:26.475163+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 330,
-    "skipped": 43
+    "skipped": 47
   },
   "records": [
     {
@@ -18,6 +18,30 @@
       "message_count": 1565,
       "status": "unchanged",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
@@ -261,6 +285,18 @@
       "status": "skipped",
       "warnings": [
         "Extra data: line 1 column 43 (char 42)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/PRIOR SAT ROSTER SURVEY.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
@@ -3893,6 +3929,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
       ]
     }
   ]

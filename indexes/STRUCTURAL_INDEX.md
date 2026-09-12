@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:10:39+00:00`
-- Tree/content state: `8ca6795cbc91c050369521af94ad122aa5d1f4d28fc1bbabbaea3dd467b04ec5`
-- Coverage: 611 files, 53 directories
+- Scanned: `2026-09-12T13:13:34+00:00`
+- Tree/content state: `88782e1911f3091e84602cca9a43e8758c4461707d75d971afdebe0e6fede5bd`
+- Coverage: 615 files, 53 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 392 |
+| `DEVELOPMENT_FULL_CONVOS` | 396 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -58,7 +58,7 @@
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
-| `.txt` | 83 |
+| `.txt` | 87 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 44 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 392 |
+| `source-conversation-corpus` | 396 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -299,6 +299,8 @@
 - `CONVERSATION_VIEWER/viewer.css` — 12929 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 39226 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt` — 11419 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt` — 2969 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json` — 6684669 bytes — `source-conversation-corpus`
@@ -322,6 +324,7 @@
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.26•26.08.26•Jetstream Construction Story Retelling — raw (2).json` — 8240406 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31•26.09.05•SAT Decon + Prior ChatGPT Voice Glitch — raw.json` — 23497946 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/3 Planetology -- Geometric Foundations Evaluation — raw (1).txt` — 6024526 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/PRIOR SAT ROSTER SURVEY.txt` — 5474 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/RMS-SAT-H(s)H.md` — 240 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/02_whirlygig_torus_trace_raw.png` — 438018 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json` — 5676 bytes — `source-conversation-corpus`
@@ -690,6 +693,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09•26.09.10•🧮 H(s)H Archive Audit Thread — raw.json` — 4700989 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json` — 282163 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt` — 30265 bytes — `source-conversation-corpus`
 - `HISTORY_TIMELINE.md` — 14716 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 4413 bytes — `unclassified`
 - `LIBRARY/MANIFEST_GUIDE.md` — 2566 bytes — `unclassified`
@@ -854,11 +858,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 105257 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 105895 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 179173 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 180475 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
