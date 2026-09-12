@@ -8,6 +8,7 @@ It is **not** a source archive, theory synthesis, citation ledger, or dumping gr
 
 ## Files
 
+- `2026-09-12_ACTION_PLAN.md` — dated shared programme for repository boundaries, provenance, citation, convergence/originality/ancestry audit, field-development research, Toolkit digestion, exposure analytics, and implementation sequence.
 - `COORDINATION.md` — current shared state, blockers, requests, and questions.
 - `HANDOFFS.md` — dated handoffs from one worker/workspace to another.
 
