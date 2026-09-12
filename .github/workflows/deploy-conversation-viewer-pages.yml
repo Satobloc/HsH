@@ -9,6 +9,11 @@ on:
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.css'
       - 'CONVERSATION_VIEWER/data/**'
+      - 'tools/build_conversation_viewer.py'
+      - 'indexes/manifests/development-conversation-dates.json'
+      - 'indexes/manifests/live-conversation-dates.json'
+      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
+      - 'CONVERSATION_VIEWER/CURATION.json'
       - '.github/workflows/deploy-conversation-viewer-pages.yml'
 
 permissions:
@@ -29,6 +34,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Rebuild conversation catalog for deployment
+        run: python tools/build_conversation_viewer.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
