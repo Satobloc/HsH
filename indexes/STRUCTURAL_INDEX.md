@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T00:08:57+00:00`
-- Tree/content state: `f85d90a9c3db40652e8842a07a11c75319e4152e063b13ab35a9e83da46809c3`
+- Scanned: `2026-09-12T00:10:35+00:00`
+- Tree/content state: `e7924b91d199c2e00e49b60185915629b7940c34056dda14a9c62553077d9262`
 - Coverage: 454 files, 45 directories
 - GitHub tree response truncated: `false`
 
@@ -260,8 +260,8 @@
 - `.github/workflows/build-conversation-viewer.yml` — 4643 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
+- `.github/workflows/find-srena-orphan.yml` — 1863 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
-- `.github/workflows/patch-viewer-role-speed.yml` — 3039 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`

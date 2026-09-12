@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 821147334,
+    "bytes_known": 821146158,
     "directories": 45,
     "files": 454
   },
@@ -499,18 +499,18 @@
       "size": 1008
     },
     {
+      "content_id": "9b905f462670c5cbdd26ad8a508083f46e0b51bca0855cd4ebfdd970f410e31d",
+      "kind": "blob",
+      "path": ".github/workflows/find-srena-orphan.yml",
+      "role": "automation-workflow",
+      "size": 1863
+    },
+    {
       "content_id": "cf3632e4729c6664b092ad4159a73c03191be50aa8626caa6fb1fc0622543635",
       "kind": "blob",
       "path": ".github/workflows/maintain-navigation.yml",
       "role": "automation-workflow",
       "size": 4443
-    },
-    {
-      "content_id": "174398a36e90f48861c639521a45f108e2577aefd6e83e0d287a37a687826b55",
-      "kind": "blob",
-      "path": ".github/workflows/patch-viewer-role-speed.yml",
-      "role": "automation-workflow",
-      "size": 3039
     },
     {
       "content_id": "f85d34aef60e2170ebc8e8f4017e5702ac4a57f1d247dab3d5a61684699c56c6",
@@ -3712,14 +3712,14 @@
       "size": null
     },
     {
-      "content_id": "1b3adabfaccea365aa3c077ce3f42a9f8dd1c2f5ec7572f6aea992ee771e7baa",
+      "content_id": "c9cc522ce5df1461cb716984bc9380e72b31ddc78cbda9c4db8269ce1d438325",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "4bf07ca3e5cb4521fa04456f038ab9b3f149e2e1b6aaa5bf5ae137b0c6552622",
+      "content_id": "d18510378dbefd10f3ad8a93bba74fd55ab560f93d2c76d3aedda870d878c0c9",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3740,14 +3740,14 @@
       "size": null
     },
     {
-      "content_id": "2140db6ba123f12a62599d0f32e15722a6d4eff201127bfa38ec8922a46d0d4f",
+      "content_id": "69d0ac94ebde45546598faa7890ef5d331b6ea1720adb5d424c28041bd6e2894",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "dd6dc6b28f91f0ae435538b2ef412d3c6759f60b068243748dfc42e8b571dbcb",
+      "content_id": "3ebca7860a74a9067a03a84785cad851b9219586f4721e96b36b11384fdc5817",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3951,8 +3951,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T00:08:57+00:00",
+  "scanned_at_utc": "2026-09-12T00:10:35+00:00",
   "schema_version": 1,
-  "tree_id": "f85d90a9c3db40652e8842a07a11c75319e4152e063b13ab35a9e83da46809c3",
+  "tree_id": "e7924b91d199c2e00e49b60185915629b7940c34056dda14a9c62553077d9262",
   "tree_response_truncated": false
 }
