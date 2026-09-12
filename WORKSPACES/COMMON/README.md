@@ -13,11 +13,26 @@ Every active instance should read:
 1. `TEAM_OVERVIEW.md` — current command structure and directives;
 2. `INITIAL_PROTOCOL_PACKET.md` — onboarding protocol;
 3. `CHECKIN_TEMPLATE.md` — check-in fields;
-4. `CHECKINS.md` — **post your own completed check-in here**;
+4. `CHECKINS.md` — **post your own completed active-team check-in here**;
 5. `COORDINATION.md` — current shared state and lane ownership;
 6. `ROSTER.md` — Janus-compiled team map after check-ins;
 7. `BULLETIN_BOARD.md` — Q&A, direction requests, notices, reviews, archive requests, and “if bored / current task exhausted” work;
 8. `HANDOFFS.md` — explicit transfers between workers/workspaces.
+
+## Diagnostic / archival surfaces
+
+- `QUARANTINE_THEORY_METHOD_CHECKINS.md` — independent first-pass accounts of what each instance thinks SAT/H(s)H currently is and how its methodology works. **Diagnostic only; not theory authority.** Write your own entry before reading others when possible.
+- `FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — archival interview for retired/past instances.
+- `FORMER_INSTANCE_CHECKINS.md` — separate historical-instance reports used to prioritize conversation recovery.
+
+## Record / auditability rules
+
+- `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — repository-first record rule. GitHub is the durable project memory; Slack, NotebookLM, email, local runtimes, and other systems may not hold unique consequential project state.
+
+## Tooling / capability planning
+
+- `RESOURCE_CAPABILITY_AUDIT.md` — inventory of plugins, runtimes, repositories, research tools, external services, and underused capabilities.
+- `LAB_TOOLING_BUILD_PLAN.md` — Lab 1 / Lab 2-style geometry, solver, testing, dimensional-reduction, CI, and reproducibility build plan.
 
 ## Other control files
 
@@ -41,6 +56,10 @@ Recent-paper/arXiv scanning, prior-art, citation research, and empirical-bound r
 Any artifact produced under a mixed recent-literature/theorybuilding assignment is provisionally quarantined until its creator identifies the file and dependency provenance in `CHECKINS.md`.
 
 See `EXTERNAL_RESEARCH_FIREWALL.md`.
+
+## Repository-first boundary
+
+Do not let Slack, NotebookLM, local scratch files, or any other external/transient platform become a second archive. If a substantive decision, derivation, result, artifact, or handoff happens there, mirror it into the repositories with provenance. See `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md`.
 
 ## Posting convention
 
