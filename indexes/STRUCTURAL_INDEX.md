@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T15:18:35+00:00`
-- Tree/content state: `f1d9389194c5f1e790a00044a57d7d5f53619c66879b26e2f64d0e17bdcfb725`
-- Coverage: 676 files, 54 directories
+- Scanned: `2026-09-12T15:20:23+00:00`
+- Tree/content state: `5f5279024ac1f03ab846685ba874aa1071898f60f2f48eb0bfc561467825729c`
+- Coverage: 677 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 55 |
+| `WORKSPACES` | 56 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 369 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 124 |
+| `.md` | 125 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 55 |
+| `llm-workspace` | 56 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 446 |
 | `synthesis-workspace` | 6 |
@@ -863,6 +863,7 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 4323 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
@@ -871,7 +872,7 @@
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COORDINATION.md` — 7398 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md` — 4283 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKINS.md` — 1620 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKINS.md` — 17716 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2756 bytes — `llm-workspace`
