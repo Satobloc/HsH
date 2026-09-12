@@ -424,6 +424,78 @@ This batch continues the same durable raw export beyond the opening March 22 con
 
 ---
 
+## Excavation batch 2026-09-12-D — `DIMENSIONAL GRAVITY — raw.json`, March 22–23 backfill
+
+This batch fills four high-value gaps in the already scanned early region. Each passage was re-queried by its raw `create_time` and accepted only after the surrounding mapping showed `author.role = user`. These are dated historical statements, not promoted current theory.
+
+### 2024-03-22 — Apparent 3D dynamism as changing intersections of a 4D construction
+
+- **Tags:** `4D-THINKING` `TIMESHEET` `INTERSECTION-PROPAGATION` `PROJECTION-READOUT` `REST-AND-MOTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** raw timestamp `1711130742.011797` — 2024-03-22 14:05:42 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** early explicitly static-carrier formulation; later SAT/H(s)H work does not inherit its static-universe wording automatically.
+- **Exact Nathan wording:**
+
+> Ok, so we've described a four-dimensional universe, static except for the propagation of the three-dimensional surface of time. Any appearance of dynamism within the three spatial dimensions of the universe is an artifact of the geometry of these cords, ropes, etc and their changing points of intersection with the propagating wavefront of the three-dimensionally time surface. What we aren't accounting for is the rules by which these strings are braided forming composite particles like nucleons, atoms, etc. I would assume such "braiding rules" would have to be very specific up to the level of chemical bonds forming molecules, but any higher level structure in these tangled cords would be much more "messy", corresponding to gravitational differentiation, sedimentary sorting, weather patterns, and such. It is the basic level of organizations of tight braids at the chemical level and below that I think String Theory proper is helpful.
+
+- **Immediate context:** follows the early line/plane/time-surface construction and extends it from isolated intersections to composite structures and large-scale apparent dynamics.
+- **Later correction / relationship:** especially relevant to the later carrier/history-versus-readout distinction, but the current H(s)H model should not be back-projected onto the quoted 2024 static-carrier language.
+
+---
+
+### 2024-03-22 — Early hypothesis that the propagating time surface excites filament behavior
+
+- **Tags:** `TIMESHEET` `INTERACTIONS` `HISTORY` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** raw timestamp `1711138569.386636` — 2024-03-22 16:16:09 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** tentative early mechanism stated as “Perhaps”; not current theory authority.
+- **Exact Nathan wording:**
+
+> Perhaps it is the tug of my four-dimensional "time surface" that provides the strings with their vibrations and their tugs on other strings as it propagates outward from the central knot of the big bang.
+
+- **Immediate context:** Nathan was exploring whether the same time-surface interaction used in the early geometric picture could supply excitation and interaction behavior to the filament/string representation.
+- **Later correction / relationship:** later SAT/H(s)H terminology and mechanism changed substantially; retain the modal wording and do not rewrite this as an established mechanism.
+
+---
+
+### 2024-03-22 — Spherical time-surface geometry is optional; the model is a heuristic, not a claim about true reality
+
+- **Tags:** `MODEL-VS-REALITY` `METHOD` `TIMESHEET` `DIMENSIONALITY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** raw timestamp `1711165466.423608` — 2024-03-22 23:44:26 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** methodological boundary statement with continuing relevance to provenance; cosmological specifics remain dated.
+- **Exact Nathan wording:**
+
+> Ok, we need a snappier name. I’d also add that there is some speculation on what we might interpreted as dark energy in terms of properties of the propagating time surface as it expands, or its interaction with the changing string and string bundle configurations as the universe evolves in time. I think it’s also important to note 1) that the spherical expansion of the time surface is not necessary and that other geometries could be accommodated, and 2) that this model is acknowledged to be an abstraction, only of value as a potential heuristic for predicting various properties of the universe, *not* as an assertion of the “true” nature of the universe.
+
+- **Immediate context:** Nathan was refining the description and naming of the early framework after a long first-day exploration.
+- **Later correction / relationship:** provides direct early provenance for the model-versus-reality boundary. Later ontological language elsewhere should be read against this explicit statement rather than silently replacing it.
+
+---
+
+### 2024-03-23 — The time surface is the salient temporal entity; filament names should reflect intersectional particle readout
+
+- **Tags:** `TIMESHEET` `WORLDLINE` `PROJECTION-READOUT` `TOPOLOGY-VS-MORPHOLOGY` `NATHAN-CORRECTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`
+- **Conversation title:** `DIMENSIONAL GRAVITY`
+- **Message ID / timestamp / landmark:** raw timestamp `1711172841.991266` — 2024-03-23 01:47:21 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** terminology-design statement from the early SAT-naming phase.
+- **Exact Nathan wording:**
+
+> Although SAT strings do have a temporal dimension and morphology as an integral aspect of their formulation, I think it's misleading to emphasize that property in naming them because the more salient temporal entity in SAT is the time surface. It would be better to come up with a name that reflects the fact that these strings are seen as giving rise to matter and energy particles by their intersection with the time surface. 
+
+- **Immediate context:** Nathan was rejecting proposed names such as `TimeThreads`/`ChronoStrands` because they overemphasized the carriers' temporal morphology rather than their intersectional relationship to the time surface.
+- **Later correction / relationship:** later terminology settles on `filaments`/worldlines/worldtubes and further sharpens the distinction between carrier geometry and intersection/readout; this entry preserves why Nathan wanted the naming to foreground that relationship.
+
+---
+
 ## Excavation coverage ledger
 
 ### 2026-09-12-A
@@ -461,6 +533,17 @@ This batch continues the same durable raw export beyond the opening March 22 con
 - **Deduplication:** message IDs were checked against the existing compendium; no prior entries used these IDs.
 - **Unresolved/source issue:** most of the long export between/after these sampled windows remains unscanned, and its filename end-date indicates later material through 2026. No authorship ambiguity was found in the three promoted messages.
 - **Next priority region:** continue `DIMENSIONAL GRAVITY` through later dated portions where terminology or geometry changes, especially any explicit update to time-surface motion, `c`, dimensionality, worldline/worldtube typing, or projection/intersection. Then move to the durable raw `SAT Overview` copy if its GitHub path can be resolved, followed by `Reasoning with SAT-HSH Skill` and `H(s)H TIME RESIDUALS`.
+
+### 2026-09-12-D
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`.
+- **Authorship method:** raw mapping queried by exact `create_time`; every promoted passage showed `author.role = user` in its source node.
+- **Date range actually covered in this batch:** targeted backfill on March 22–23, 2024 within already-open source regions.
+- **Verified Nathan messages added:** 4.
+- **Primary topics covered:** apparent 3D dynamics as changing intersections; tentative time-surface excitation mechanism; explicit model-as-heuristic/not-true-reality boundary; time surface as the salient temporal entity relative to filament morphology and naming.
+- **Deduplication:** exact quoted wording and timestamps were checked against the existing compendium; none of these four messages was already promoted.
+- **Unresolved/source issue:** the raw messages' exact UUID message IDs were not recovered in this pass, but exact raw `create_time` values and author-role metadata were recovered and recorded as landmarks. Most of the long export remains unscanned beyond the early 2024 region.
+- **Next priority region:** move forward chronologically in `DIMENSIONAL GRAVITY` beyond March 28, prioritizing later Nathan-authored corrections/refinements of dimensionality, time-surface/timesheet motion, `c`, worldline/worldtube typing, and intersection/readout; then resolve the durable GitHub path for `SAT Overview — raw.json` and continue into `Reasoning with SAT-HSH Skill` / `H(s)H TIME RESIDUALS`.
 
 # UNVERIFIED / NEEDS SOURCE CHECK
 
