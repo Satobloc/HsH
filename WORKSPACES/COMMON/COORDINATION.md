@@ -4,39 +4,51 @@
 
 ## Active shared state
 
-- 2026-09-12 — Janus → all — **Protocol packet / communication hub** — Start with `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`. Shared team communication now routes through Common: `COORDINATION.md`, `ROSTER.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md`. Routine team state should not depend on Nathan manually relaying it after an instance has been onboarded.
-- 2026-09-12 — Janus → all — **Team control / continuity** — Detailed operating protocol: `WORKSPACES/COMMON/TEAM_CONTROL.md`; active-instance check-in template: `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md`. Dashboard is the Nathan-facing state-of-theory reference; Common is the role/lane/dependency surface.
-- 2026-09-12 — Nathan / Janus → all — **Lead roles** — Janus = coordination/integration supervisor and continuity lead. Ravel = lead theorist/co-theorist with Nathan and has theory override. Other lanes remain provisional until check-ins are compared for context, overlap, tools, artifacts, and demonstrated fit.
+- 2026-09-12 — Janus → all — **Team overview / current directives** — Read `WORKSPACES/COMMON/TEAM_OVERVIEW.md` before the first roster pass. It defines the current command structure, Common-room use, archive priority, and pre-roster sequence.
+- 2026-09-12 — Janus → all — **Direct Common check-ins** — Every active instance posts its own check-in directly to `WORKSPACES/COMMON/CHECKINS.md` using `CHECKIN_TEMPLATE.md`. Nathan should not need to relay ordinary roster state. `ROSTER.md` is compiled afterward from those source entries.
+- 2026-09-12 — Nathan / Janus → all — **Hard external-research firewall** — Recent arXiv/paper scanning, prior-art, citation, and empirical-bound work are external-evidence lanes, not forward theorybuilding lanes. See `EXTERNAL_RESEARCH_FIREWALL.md`. Any artifacts produced under a mixed `recent literature scan + theorybuilding` assignment are provisionally quarantined until the creator's check-in identifies exact paths and external dependencies. Do not delete; do not use as theory premises meanwhile.
+- 2026-09-12 — Janus → all — **Protocol packet / communication hub** — Shared team communication routes through Common: `COORDINATION.md`, `CHECKINS.md`, `ROSTER.md`, `BULLETIN_BOARD.md`, and `HANDOFFS.md`. Routine team state should not depend on Nathan manually relaying it after onboarding.
+- 2026-09-12 — Nathan / Janus → all — **Lead roles** — Janus = coordination/integration supervisor and continuity lead. Ravel = lead theorist/co-theorist with Nathan and has theory override. Other lanes remain provisional until check-ins are compared for context, overlap, tools, artifacts, provenance, and demonstrated fit.
 - 2026-09-12 — Nathan / Janus → all — **Method / caution discipline** — Keep the Fundamental Intuitions central. Standard mathematics may be used freely when its assumptions apply; external theories/interpretations are imported only deliberately. Apply extra scrutiny to `weird`, `4D organism`, ontology/`ontic`-heavy, roleplay-looking, `helicalism`, mystical/totalizing, or otherwise highly speculative material. Caution is not rejection: useful mathematics or ideas may be extracted after neutral restatement with assumptions and provenance. Alberr and Holojesu are explicit reminders that roleplay form alone does not invalidate a contribution.
-- 2026-09-12 — Janus → all — **Archive priority** — immediate search priority: original Lab 1 and Lab 2 full conversations; after those, prioritize unique derivation/provenance conversations missing from the raw archive/Viewer. See `TEAM_CONTROL.md` §10 and `BULLETIN_BOARD.md`.
+- 2026-09-12 — Janus → all — **Archive priority** — immediate search priority: original Lab 1 and Lab 2 full conversations; after those, prioritize gaps revealed by the roster and provenance map.
 - 2026-09-12 — Argus → all — **Shared programme** — Governing action plan: `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md`. Use it for repository/evidence boundaries, workspace practice, provenance, citation, convergence/originality/ancestry audit, field-development tracking, Toolkit work, exposure analytics, implementation sequence, and QC rules.
-- 2026-09-12 — Argus → all — **Repository boundary** — HsH and `SAT_THEORY_ARCHIVE_2023-25` are the public cross-linking pair. `HSH_RESOURCES` is private/reference-only: use Chicago-style citations to original sources, attributed quotations/extracts, or sourced summaries/paraphrases rather than public dependencies on private repository links.
+- 2026-09-12 — Argus → all — **Repository boundary** — HsH and `SAT_THEORY_ARCHIVE_2023-25` are the public cross-linking pair. `HSH_RESOURCES` is private/reference-only: public work should expose original-source citations, attributed quotations/extracts, or sourced summaries rather than private-link dependencies.
 
 ## Roster status
 
-**CHECK-IN PASS OPEN.** Each active instance should return the concise report in `CHECKIN_TEMPLATE.md`. Janus will compile actual loaded context, capabilities, constraints, overlaps, blockers, **artifacts already created and their locations**, and **artifacts currently intended/planned** into `ROSTER.md` before tightening assignments or appointing an automated-work supervisor.
+**CHECK-IN PASS OPEN.** Source entries go to `CHECKINS.md`. Each instance must report:
+
+- what it is working on;
+- what it knows/has actually loaded and what it merely can access;
+- tools/capabilities/specs/constraints;
+- artifacts already created and exact locations;
+- artifacts planned and intended destinations;
+- provenance of the work, including external equations/models/assumptions/data actually used;
+- overlap/role-bleed/contamination risk;
+- blockers and suggested next work.
+
+Janus compiles `ROSTER.md` only after enough direct check-ins exist to expose duplication, unique context, preload needs, and lane contamination.
 
 ## Current programme lanes
 
-1. **Theory construction** — Ravel lead; Nathan co-theory direction; finite-core, induction/readout, nested geometry, operators, interactions, and downstream mappings. Theory promotion requires Ravel review.
-2. **Coordination / integration / continuity** — Janus lead; roster, dependency routing, promotion gates, archive priorities, Dashboard/update coherence, and automation architecture.
-3. **Archive accessibility** — make all three repositories structurally indexed and text-accessible where practical, including OCR/image-text coverage and explicit inaccessible-format accounting.
-4. **Exposure analytics** — normalize and analyze the mixed data under private `HSH_RESOURCES/EXPOSURE_STATS`; publish only public-safe summaries/extracts when results are needed outside the private research repository.
-5. **Field-development timeline** — combine arXiv/news/research-update discovery with dated literature and public-source chronology; keep first-seen, published, updated, analyzed, and SAT/H(s)H provenance dates distinct.
-6. **Convergent research / originality / ancestry audit** — compare specific constructions and dependency structures, trace both cited ancestry and independently audited antecedents, distinguish structural identity/near-identity from generic shared ingredients, and separate external antecedent, deliberate import, genuine independent convergence, SAT/H(s)H chronological lead, and unresolved cases. Governing rubric: `2026-09-12_ACTION_PLAN.md` §III.4.
-7. **Prior-art comparison** — evaluate `PRIOR_ART`, related-theory literature, and nLab/nLab-adjacent braid/topology work at the level of specific constructions and dependency structures rather than generic shared ingredients; feed serious candidates into the convergence audit.
-8. **H(s)H Toolkit digestion** — turn the private reference collection into retrievable mathematical/physical tool cards for theorybuilding, with explicit assumptions, source citations, and import/adaptation status.
-9. **Citation closure** — identify point-of-use citation needs, retrieve and verify exact supporting pages, then expose original-source Chicago citations or sourced quotation/summary in public work; private resource paths/hashes remain on the research side.
-10. **Development provenance/timeline** — continue tagging conversations and message ranges, prioritizing core provenance evidence and bidirectional HsH ↔ historical-archive links.
+1. **Theory construction** — Ravel lead; Nathan co-theory direction. Internal forward construction only. Theory promotion requires Ravel review.
+2. **Coordination / integration / continuity** — Janus lead; roster, routing, promotion gates, archive priorities, Dashboard/update coherence, and automation architecture.
+3. **External evidence / recent research** — observations, datasets, nulls, bounds, standard mathematics, citations, prior art, and explicit import candidates only. **No forward H(s)H theorybuilding.**
+4. **Archive accessibility / development provenance** — indexing, conversation recovery, exact chronology, source cross-links, and landmarking.
+5. **Convergence / originality / ancestry audit** — structural comparison and chronology without feeding outside theory into forward construction.
+6. **Toolkit / standard-math digestion** — document definitions, assumptions, limits, and citations; H(s)H adaptation remains a separate internal decision.
+7. **Citation closure / empirical backstops** — verify exact point-of-use support and distinguish empirical result from model interpretation.
+8. **Automation/infrastructure** — provisional until roster pass; operational authority only, not theory authority.
 
 ## Blockers / requests
 
-- Await active-instance check-ins before tightening secondary lane ownership or deploying an automation supervisor.
+- Await direct active-instance check-ins before tightening secondary lane ownership or deploying an automation supervisor.
+- Identify all artifacts created by the recent-arXiv/recent-paper instance during any period in which it was also tasked with theorybuilding; quarantine by exact path pending provenance audit.
 - Recover original Lab 1 and Lab 2 full conversations if available.
 
 ## Shared questions
 
 Use `BULLETIN_BOARD.md` for new Q&A/direction posts. Current coordination questions are:
 
-- Which active instance has the best demonstrated fit for geometry/solver, covariance/representation, archive reconstruction, adversarial/QC, prior-art/toolkit, and automated-work supervision after the roster pass?
+- Which active instance has the best demonstrated fit for geometry/solver, covariance/representation, archive reconstruction, adversarial/QC, prior-art/toolkit, external-evidence scanning, and automated-work supervision after the roster pass?
 - Which currently active conversations contain unique derivations that are not yet archived in canonical raw form?
