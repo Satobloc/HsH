@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:19:52.923464+00:00`
+- Generated: `2026-09-12T13:24:04.070245+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **348**
+- Dated conversation exports: **355**
 - Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -213,6 +213,7 @@
 | 2026-02-07 | 2026-02-07 | [Logic-based Response Construction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07%E2%80%A226.02.07%E2%80%A2Logic-based%20Response%20Construction%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 4 |  |  |
 | 2026-02-07 | 2026-02-07 | [Response Framework Agreement](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.02.07%E2%80%A226.02.07%E2%80%A2Response%20Framework%20Agreement%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 16 |  |  |
 | 2026-02-24 | 2026-06-11 | [0.239 Radians in Science](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.02.24%E2%80%A226.06.11%E2%80%A20.239%20Radians%20in%20Science%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 88 |  |  |
+| 2026-02-24 | 2026-09-08 | [🧮 0.239 Radians in Science](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.02.24%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%200.239%20Radians%20in%20Science%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 347 |  |  |
 | 2026-02-24 | 2026-09-08 | [0.239 Radians in Science — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.02.24%E2%80%A226.09.08%E2%80%A20.239%20Radians%20in%20Science%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 347 |  |  |
 | 2026-02-26 | 2026-06-01 | [Boiling Point Estimation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.02.26%E2%80%A226.06.01%E2%80%A2Boiling%20Point%20Estimation%20%E2%80%94%20raw.json) | `SAT_CONVOS_6` | 523 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 4 | D18 |  |
@@ -272,6 +273,7 @@
 | 2026-06-07 | 2026-09-08 | [Geometry in Physics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.07%E2%80%A226.09.08%E2%80%A2Geometry%20in%20Physics%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 1294 |  |  |
 | 2026-06-08 | 2026-09-08 | [AI Archive Test Run](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2AI%20Archive%20Test%20Run%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 716 |  |  |
 | 2026-06-08 | 2026-06-08 | [arXiv keyword scraping script](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.08%E2%80%A226.06.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 5 |  |  |
+| 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 209 |  |  |
 | 2026-06-08 | 2026-09-08 | [arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 209 |  |  |
 | 2026-06-16 | 2026-06-16 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.16%E2%80%A226.06.16%E2%80%A2Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 351 |  |  |
 | 2026-06-22 | 2026-06-22 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22%E2%80%A226.06.22%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 50 |  |  |
@@ -346,6 +348,7 @@
 | 2026-09-03 | 2026-09-03 | [Prototype Wiki Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.09.03%E2%80%A226.09.03%E2%80%A2Prototype%20Wiki%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 66 |  |  |
 | 2026-09-04 | 2026-09-08 | [🌐Meridian [HsH] Michelstein-on-Meinorly](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04%E2%80%A226.09.08%E2%80%A2%F0%9F%8C%90Meridian%20%5BHsH%5D%20Michelstein-on-Meinorly%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 253 |  |  |
 | 2026-09-04 | 2026-09-08 | [🌐Meridian [HsH] Michelstein-on-Meinorly](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.04%E2%80%A226.09.08%E2%80%A2%F0%9F%8C%90Meridian%20%5BHsH%5D%20Michelstein-on-Meinorly%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 253 |  |  |
+| 2026-09-04 | 2026-09-10 | [🌐Meridian [HsH] Michelstein-on-Meinorly](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.04%E2%80%A226.09.10%E2%80%A2%F0%9F%8C%90Meridian%20%5BHsH%5D%20Michelstein-on-Meinorly%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 423 |  |  |
 | 2026-09-05 | 2026-09-07 | [⚒️ Continue Conversation Here](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.05%E2%80%A226.09.07%E2%80%A2%E2%9A%92%EF%B8%8F%20Continue%20Conversation%20Here%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 529 |  |  |
 | 2026-09-05 | 2026-09-07 | [Continue Conversation Here](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.09.05%E2%80%A226.09.07%E2%80%A2Continue%20Conversation%20Here%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 529 |  |  |
 | 2026-09-05 | 2026-09-05 | [Theia Life Proposal History — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.09.05%E2%80%A226.09.05%E2%80%A2Theia%20Life%20Proposal%20History%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_8` | 3 |  |  |
@@ -356,6 +359,7 @@
 | 2026-09-06 | 2026-09-07 | [AUTO H(s)H Gitter](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.07%E2%80%A2AUTO%20H%28s%29H%20Gitter%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 689 | D38 |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 938 |  |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_7` | 958 |  |  |
+| 2026-09-06 | 2026-09-08 | [☘️ Aldus [AUTO H(s)H Gitter]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06%E2%80%A226.09.08%E2%80%A2%E2%98%98%EF%B8%8F%20Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 1025 |  |  |
 | 2026-09-06 | 2026-09-08 | [Aldus [AUTO H(s)H Gitter] — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06%E2%80%A226.09.08%E2%80%A2Aldus%20%5BAUTO%20H%28s%29H%20Gitter%5D%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_9` | 1025 |  |  |
 | 2026-09-07 | 2026-09-08 | [MORROW [Reconstruct H(s)H Synthesis]](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.07%E2%80%A226.09.08%E2%80%A2MORROW%20%5BReconstruct%20H%28s%29H%20Synthesis%5D%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 79 |  |  |
 | 2026-09-07 | 2026-09-08 | [MORROW [Reconstruct H(s)H Synthesis] — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.07%E2%80%A226.09.08%E2%80%A2MORROW%20%5BReconstruct%20H%28s%29H%20Synthesis%5D%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_7` | 89 |  |  |
@@ -364,6 +368,7 @@
 | 2026-09-07 | 2026-09-08 | [🗿ORCHESTRATOR JANUS H(s)HvO](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07%E2%80%A226.09.08%E2%80%A2%F0%9F%97%BFORCHESTRATOR%20JANUS%20H%28s%29HvO%20%E2%80%94%20raw.json) | `SAT_CONVOS_12` | 710 |  |  |
 | 2026-09-08 | 2026-09-08 | [H(s)H Team Orchestrator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2H%28s%29H%20Team%20Orchestrator%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2026-09-08 | 2026-09-08 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
+| 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 114 |  |  |
 | 2026-09-08 | 2026-09-09 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.08%E2%80%A226.09.09%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 114 |  |  |
 | 2026-09-08 | 2026-09-08 | [Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 70 |  |  |
 | 2026-09-08 | 2026-09-08 | [⚒️ Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.08%E2%80%A2%E2%9A%92%EF%B8%8F%20Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 70 |  |  |
@@ -373,6 +378,8 @@
 | 2026-09-09 | 2026-09-10 | [H(s)H Archive Audit — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09%E2%80%A226.09.10%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 5 |  |  |
 | 2026-09-09 | 2026-09-10 | [🧮 H(s)H Archive Audit Thread](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09%E2%80%A226.09.10%E2%80%A2%F0%9F%A7%AE%20H%28s%29H%20Archive%20Audit%20Thread%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 418 |  |  |
 | 2026-09-10 | 2026-09-10 | [ARGUS H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10%E2%80%A226.09.10%E2%80%A2ARGUS%20H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 16 |  |  |
+| 2026-09-10 | 2026-09-10 | [H(s)H Archive Audit](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10%E2%80%A226.09.10%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 11 |  |  |
+| 2026-09-10 | 2026-09-10 | [H(s)H Archive Audit — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10%E2%80%A226.09.10%E2%80%A2H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 13 |  |  |
 
 ## Exact duplicate-content groups
 

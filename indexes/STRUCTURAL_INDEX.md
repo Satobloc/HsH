@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:19:53+00:00`
-- Tree/content state: `74932f994d360eec89fbc63093cb1fe928b03d4f86d6953a306dd30a10a14d1b`
-- Coverage: 634 files, 53 directories
+- Scanned: `2026-09-12T13:24:04+00:00`
+- Tree/content state: `061fb16f458b965da3a8b1e6bb5567acb0ec5e6fdaeec4fa2b54d652cf8890f3`
+- Coverage: 641 files, 53 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 415 |
+| `DEVELOPMENT_FULL_CONVOS` | 422 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -49,7 +49,7 @@
 | `.html` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 340 |
+| `.json` | 347 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 113 |
@@ -77,7 +77,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 44 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 415 |
+| `source-conversation-corpus` | 422 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 90 |
@@ -290,7 +290,7 @@
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 308879 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 315145 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 5914 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
@@ -523,6 +523,8 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.02.24•26.09.08•🧮 0.239 Radians in Science — raw.json` — 5741114 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json` — 2201325 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.28•26.06.28•AI and Scientific Enrollment — raw.json` — 244506 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.30•26.09.12•Test Message Confirmation — raw.json` — 204926 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.08•Spacetime Manifold Notation — raw.json` — 3263790 bytes — `source-conversation-corpus`
@@ -538,9 +540,14 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.25•26.08.25•⚒️ Priority assessment summary — raw.json` — 5469135 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json` — 317656 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.03•26.09.09•🧮 Friday Research Briefs — raw.json` — 2269990 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.04•26.09.10•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 3009843 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json` — 2646059 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.08•☘️ Aldus [AUTO H(s)H Gitter] — raw.json` — 7155853 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.08•⚒️ Build Geometry Coding Skill — raw.json` — 398959 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw (1).json` — 1412275 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json` — 5074088 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10•26.09.10•H(s)H Archive Audit — raw (1).json` — 739638 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.10•26.09.10•H(s)H Archive Audit — raw.json` — 725774 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png` — 3026103 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt` — 1 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
@@ -878,11 +885,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 110183 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 111908 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 189336 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 192755 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
