@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T14:47:13+00:00`
-- Tree/content state: `0ecf272616ebc2de1b83a8acc377eaa665fee0f9f4f3cc2d8e63cf6921aa2716`
-- Coverage: 667 files, 54 directories
+- Scanned: `2026-09-12T14:49:13+00:00`
+- Tree/content state: `464dc64b486c54e61040a1d7c970e3b9597b0949ed0f345f4c58d89815a80fa3`
+- Coverage: 668 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 49 |
+| `WORKSPACES` | 50 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 366 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 118 |
+| `.md` | 119 |
 | `.pdf` | 5 |
 | `.png` | 28 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 49 |
+| `llm-workspace` | 50 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 443 |
 | `synthesis-workspace` | 6 |
@@ -899,6 +899,7 @@
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6096 bytes — `llm-workspace`
