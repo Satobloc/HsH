@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:08:21+00:00`
-- Tree/content state: `ba83c2452d5576afb14e50e8361ba9091a3320ad641b8c5d088ce8ab92efc019`
+- Scanned: `2026-09-12T13:10:39+00:00`
+- Tree/content state: `8ca6795cbc91c050369521af94ad122aa5d1f4d28fc1bbabbaea3dd467b04ec5`
 - Coverage: 611 files, 53 directories
 - GitHub tree response truncated: `false`
 
@@ -813,7 +813,7 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 179942 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_RELAYED/README.md` — 1071 bytes — `llm-workspace`
