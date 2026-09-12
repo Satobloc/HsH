@@ -9,12 +9,12 @@ What minimum cross-sectional state distinguishes a genuine finite normal core fr
 ## Source scope
 
 - Current construction-lab control prompt: controlling.
-- \`synthesis/R4_FRAMED_CURVE_KINEMATICS.md\`: full sequential read.
-- \`synthesis/FORMALISM_SELECTION.md\`: full sequential read.
-- \`synthesis/CURRENT_SYNTHESIS.md\`: targeted finite-core/readout read.
-- \`LIVE CONVOS/TEAM_SYNC_2026-09-07.md\`: targeted finite-core handoff read.
+- `synthesis/R4_FRAMED_CURVE_KINEMATICS.md`: full sequential read.
+- `synthesis/FORMALISM_SELECTION.md`: full sequential read.
+- `synthesis/CURRENT_SYNTHESIS.md`: targeted finite-core/readout read.
+- `LIVE CONVOS/TEAM_SYNC_2026-09-07.md`: targeted finite-core handoff read.
 - Google Drive: searched; no controlling H(s)H source located.
-- Slack \`#worldtube-lab\`: full channel history; routing context only.
+- Slack `#worldtube-lab`: full channel history; routing context only.
 
 ## Object and dimensional type
 
