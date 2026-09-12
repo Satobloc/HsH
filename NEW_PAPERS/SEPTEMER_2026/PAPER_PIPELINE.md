@@ -17,3 +17,20 @@
 - **Figures/tables/code:** bundle/slice diagram; invariant table; secant-map diagram; numerical anisotropic/nontransverse stress test.
 - **Reviewer attack list:** textbook repackaging; unjustified uniform measure; local/global conflation; gauge/material ambiguity; boundary treated as material; unproved curvature remainder; no empirical channel.
 - **Next condition for draft:** Ravel reproduces `L_Sigma`, `(I2,I3,chi)`, the isotropic gauge-null result, and FC-BASE-003 against the particle-scale candidate; then identifies the first required material director/boundary field and whether the resolver kernel is independently calibratable or experimentally variable across a known delta-family.
+
+## HSH-P002 — A Fixed-Speed No-Go for Euclidean Helical Transport
+
+- **One-sentence claim:** In an orthogonal constant-radius Euclidean helix, fixing both total tangent speed and axial speed to the same nonzero value eliminates transverse winding.
+- **Maturity:** `SKELETON / LOCAL LEMMA FROZEN; H(s)H APPLICATION OPEN`
+- **Scope and epistemic boundary:** elementary curve kinematics and model-admissibility; no claim that the physical H(s)H carrier obeys a Euclidean fixed-speed convention.
+- **Setup:** `U=wdot e_w+R omega e_perp`, orthogonal unit directions, fixed `R`, and `||U||=c`.
+- **Result:** `wdot^2+(R omega)^2=c^2`; therefore `wdot=c` implies `R omega=0`.
+- **Model discriminator:** any nontrivial hyperhelix must type `c` as total, axial, phase, signal, or Lorentzian/null speed and use the matching norm.
+- **Prediction/test:** `PRED-FC-004` remains `UNFROZEN`; no empirical channel is selected.
+- **Standard comparison:** elementary helical-curve kinematics; extensions require variable-radius terms, moving frames, nested velocities, and Lorentzian causal structure.
+- **Provenance/prior art:** recovered from a quarantined former-instance closure audit, then independently restated as standard algebra; search prior uses in relativistic helix/Zitterbewegung models before any novelty claim.
+- **Failure conditions:** nonorthogonal decomposition, variable radius omitted, coordinate/parameter mismatch, or Lorentzian rather than Euclidean norm.
+- **Limitations/open dependencies:** current H(s)H metric, parameter domain, transport law, and resolver-relative operational speed.
+- **Figures/code needed:** one velocity-triangle diagram; symbolic regression tests for constant- and variable-radius cases.
+- **Reviewer attacks:** triviality; confusing phase and transport speeds; Euclidean/Lorentzian conflation; failure to generalize to nested helices.
+- **Next condition for draft:** Ravel types the speed and metric used by the active 4DHH/H(s)H kernel and returns the corrected nontrivial helix relation.
