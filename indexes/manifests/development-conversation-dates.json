@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T22:45:04.552408+00:00",
+  "generated_at_utc": "2026-09-12T22:48:11.843281+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 365,
     "skipped": 90,
-    "blocked": 36,
+    "blocked": 47,
     "collision": 1
   },
   "records": [
@@ -2904,6 +2904,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Electron Paths in Chips — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
+      "start_local": "2026-03-08T09:32:42.660236-04:00",
+      "end_local": "2026-09-12T16:52:02.192653-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 91,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
       "start_local": "2026-02-24T16:29:54.904123-05:00",
@@ -2922,6 +2934,18 @@
       "end_local": "2026-09-12T17:28:13.576000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 54,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Geometric Framework Assessment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.04•Geometric Framework Assessment — raw.json",
+      "start_local": "2026-03-04T18:46:02.048613-05:00",
+      "end_local": "2026-03-04T22:58:44.117099-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 93,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"
@@ -3030,6 +3054,42 @@
       "end_local": "2026-09-12T18:04:36.764577-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 149,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw (1).json",
+      "start_local": "2026-03-04T18:18:59.520473-05:00",
+      "end_local": "2026-09-12T16:57:22.158497-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw.json",
+      "start_local": "2026-03-04T18:18:59.520473-05:00",
+      "end_local": "2026-09-12T16:55:55.057488-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LaTeX Formatting for Paper — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LaTeX Formatting for Paper — raw.json",
+      "start_local": "2026-03-04T22:55:14.790877-05:00",
+      "end_local": "2026-09-12T16:48:09.251409-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"
@@ -3150,6 +3210,18 @@
       "end_local": "2026-09-12T17:55:10.202765-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 22,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•QM and Relativity Connection — raw.json",
+      "start_local": "2026-03-07T12:26:24.014739-05:00",
+      "end_local": "2026-09-12T16:51:01.920583-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"
@@ -3528,6 +3600,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Sensorium Inversion Thought Experiment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Sensorium Inversion Thought Experiment — raw.json",
+      "start_local": "2026-03-07T15:45:16.501000-05:00",
+      "end_local": "2026-09-12T16:52:04.254958-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 25,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
       "start_local": "2025-12-30T00:31:34.043090-05:00",
@@ -3546,6 +3630,54 @@
       "end_local": "2026-09-12T17:19:31.784831-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 73,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•Universal Indicatrix Evaluation — raw (1).json",
+      "start_local": "2026-03-04T23:09:12.789579-05:00",
+      "end_local": "2026-09-12T16:46:55.374454-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 44,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.05•Universal Indicatrix Evaluation — raw.json",
+      "start_local": "2026-03-04T23:09:12.789579-05:00",
+      "end_local": "2026-03-05T21:46:26.821218-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 34,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Universal Indicatrix Framework — raw (1).json",
+      "start_local": "2026-03-07T09:18:29.964800-05:00",
+      "end_local": "2026-09-12T16:48:01.246533-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 19,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.05•26.09.12•Universal Indicatrix Framework — raw.json",
+      "start_local": "2026-03-05T21:47:34.386754-05:00",
+      "end_local": "2026-09-12T16:47:30.947129-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 20,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"

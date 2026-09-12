@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:45:13.756546+00:00`
+- Generated: `2026-09-12T22:48:18.848622+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **402**
+- Dated conversation exports: **413**
 - Skipped non-conversation or unparseable files: **90**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -241,10 +241,21 @@
 | 2026-03-02 | 2026-03-02 | [Intellectual Surprise Challenge](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02%E2%80%A226.03.02%E2%80%A2Intellectual%20Surprise%20Challenge%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 4 | D18 |  |
 | 2026-03-02 | 2026-06-11 | [Testing a Theory of Everything](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.02%E2%80%A226.06.11%E2%80%A2Testing%20a%20Theory%20of%20Everything%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 469 |  |  |
 | 2026-03-02 | 2026-09-12 | [Testing a Theory of Everything](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Testing%20a%20Theory%20of%20Everything%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 477 |  |  |
+| 2026-03-04 | 2026-09-12 | [LLM Physical Law Derivation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM%20Physical%20Law%20Derivation%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 4 |  |  |
+| 2026-03-04 | 2026-09-12 | [LLM Physical Law Derivation — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM%20Physical%20Law%20Derivation%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_16` | 6 |  |  |
+| 2026-03-04 | 2026-03-04 | [Geometric Framework Assessment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Geometric%20Framework%20Assessment%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 93 |  |  |
+| 2026-03-04 | 2026-09-12 | [LaTeX Formatting for Paper](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LaTeX%20Formatting%20for%20Paper%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 12 |  |  |
+| 2026-03-04 | 2026-03-05 | [Universal Indicatrix Evaluation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal%20Indicatrix%20Evaluation%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 34 |  |  |
+| 2026-03-04 | 2026-09-12 | [Universal Indicatrix Evaluation — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal%20Indicatrix%20Evaluation%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_16` | 44 |  |  |
+| 2026-03-05 | 2026-09-12 | [Universal Indicatrix Framework](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal%20Indicatrix%20Framework%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 20 |  |  |
 | 2026-03-06 | 2026-06-11 | [Idea Evaluation Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.06%E2%80%A226.06.11%E2%80%A2Idea%20Evaluation%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 30 |  |  |
 | 2026-03-06 | 2026-06-11 | [Switching to English](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.03.06%E2%80%A226.06.11%E2%80%A2Switching%20to%20English%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 173 |  | 1 user/assistant messages lacked timestamps |
+| 2026-03-07 | 2026-09-12 | [Universal Indicatrix Framework — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal%20Indicatrix%20Framework%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_16` | 19 |  |  |
+| 2026-03-07 | 2026-09-12 | [QM and Relativity Connection](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM%20and%20Relativity%20Connection%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 35 |  |  |
+| 2026-03-07 | 2026-09-12 | [Sensorium Inversion Thought Experiment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Sensorium%20Inversion%20Thought%20Experiment%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 25 |  |  |
 | 2026-03-08 | 2026-03-08 | [Electron Paths in Chips — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_1` | 80 | D42 |  |
 | 2026-03-08 | 2026-03-08 | [Electron Paths in Chips](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08%E2%80%A226.03.08%E2%80%A2Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 80 | D42 |  |
+| 2026-03-08 | 2026-09-12 | [Electron Paths in Chips](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Electron%20Paths%20in%20Chips%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 91 |  |  |
 | 2026-03-09 | 2026-03-09 | [Physics Theory Sandbox](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.03.09%E2%80%A226.03.09%E2%80%A2Physics%20Theory%20Sandbox%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 186 |  | 1 user/assistant messages lacked timestamps |
 | 2026-03-11 | 2026-03-11 | [Methodology Review Request — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_5` | 74 | D14 |  |
 | 2026-03-11 | 2026-03-11 | [Methodology Review Request](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11%E2%80%A226.03.11%E2%80%A2Methodology%20Review%20Request%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 74 | D14 |  |
