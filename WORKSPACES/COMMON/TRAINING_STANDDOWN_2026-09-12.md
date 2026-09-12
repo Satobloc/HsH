@@ -5,6 +5,12 @@
 **Coordinator:** Janus  
 **Release authority:** Nathan, with Ravel controlling theory acceptance below Nathan.
 
+## Permanent rule created by this standdown
+
+This training is not a one-time emergency only. Its core reading/comprehension requirement is now the standing minimum prerequisite for theory-bearing SAT/H(s)H work. See `MINIMUM_THEORY_PREREQUISITES.md`.
+
+Any instance that has already onboarded but has not fully ingested every named required onboarding resource line by line must finish that ingestion now before resuming theory work.
+
 ## Immediate rule
 
 All forward SAT/H(s)H work is paused until the mandatory 4D-thinking training pass is complete.
@@ -12,6 +18,7 @@ All forward SAT/H(s)H work is paused until the mandatory 4D-thinking training pa
 Allowed during standdown:
 - required reading;
 - one complete HsH CONVO read from start to finish;
+- completion of any previously named onboarding resource that was only skimmed, searched, indexed, summarized, or partially read;
 - training notes and provenance capture;
 - follow-up reflection on prior theory/method check-in;
 - questions to Nathan needed to understand the source material;
@@ -35,10 +42,12 @@ Nathan clarified a controlling 4D interpretation that exposed a serious category
 
 - the helical worldline is not a material filament moving through a background;
 - the modeled helical worldline is the four-dimensional history/geometry;
-- the timesheet/time surface moves through that history;
-- its advance along the `w` direction is taken as `c`, the speed of time in the model;
+- the timesheet/time surface resolves/intersects that history;
+- **`c` is the `w` component of propagation of the timesheet-filament intersection**;
 - the coarse-grained rest orientation has the helix long axis perpendicular to the timesheet;
-- radius and pitch determine how much worldline arclength is intersected across a given timesheet advance.
+- radius and pitch determine how much worldline arclength is intersected across a given resolving advance.
+
+Do **not** paraphrase the third and fourth bullets merely as “the timesheet itself moves along `w` at `c`.” That wording is too loose. The typed quantity is the `w` component of **intersection propagation**.
 
 Therefore the recently recovered Euclidean moving-helix relation
 
@@ -48,7 +57,7 @@ remains valid as ordinary Euclidean kinematics under its own assumptions, but it
 
 ## Mandatory reading for every active/recently-active instance
 
-Read both documents in full:
+Read both documents in full, line by line:
 
 1. **THE FUNDAMENTAL INTUITIONS — EXTENDED**  
    Canonical readable extraction:  
@@ -59,6 +68,21 @@ Read both documents in full:
    `Satobloc/SAT_THEORY_ARCHIVE_2023-25/4D THINKING PRIMER.txt`
 
 Then choose **one complete conversation** from `Satobloc/HsH/DEVELOPMENT_FULL_CONVOS/` and read it from beginning to end. Summaries, search snippets, conversation-viewer landmarks, and previous memory do not count as a full read.
+
+### Previously onboarded instances: full-ingestion catch-up
+
+Every instance must also audit the resource list it was given during onboarding. If a named required resource was not read completely line by line, read it now.
+
+The following do **not** count as full ingestion:
+- knowing the resource exists;
+- indexing it;
+- semantic search results;
+- targeted excerpts;
+- summaries by another instance;
+- partial or “substantial” reading;
+- remembered context from an earlier model session.
+
+For the standing vocabulary and future onboarding rule, use `MINIMUM_THEORY_PREREQUISITES.md`.
 
 ## Conversation assignment rule
 
@@ -84,13 +108,13 @@ For every item, give:
 Pay particular attention to category confusions such as:
 - 4D history versus a 3D object moving through time;
 - fixed geometry/history versus motion assigned to the object;
-- timesheet motion versus filament/worldline motion;
+- timesheet geometry versus timesheet-filament intersection propagation;
 - intrinsic 4D length versus projected or intersectional displacement;
 - phase/orientation versus clock-time evolution;
 - intersection/readout versus carrier/history;
 - local 3D rotation language silently substituted for 4D rotation;
 - visualization or slice behavior silently treated as intrinsic geometry;
-- parameter speed versus physical transport speed;
+- parameter speed versus physical transport speed versus intersection-propagation component;
 - topology versus morphology;
 - mathematical representation versus ontological claim.
 
@@ -113,6 +137,7 @@ Preserve the pre-training post as baseline evidence. Then append a training foll
 9. Questions for Nathan that cannot be resolved from the sources.
 10. A revised short account of SAT/H(s)H in my own words.
 11. A one-sentence 4D-thinking checksum I will use before future theory work.
+12. Which onboarding resources I had not previously fully ingested, and whether they are now complete.
 
 Append the follow-up to `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` under the original instance identity, clearly headed `POST-TRAINING FOLLOW-UP — 2026-09-12`.
 
@@ -126,6 +151,7 @@ Janus must:
 - read Fundamental Intuitions Extended in full;
 - read the 4D Thinking Primer in full;
 - read **every full CONVO selected by the training cohort**, start to finish;
+- audit and fully ingest every resource Janus's own onboarding/control packet treats as required but that Janus has not yet actually read line by line;
 - read every training response;
 - discuss unresolved conceptual points with Nathan rather than silently harmonizing them;
 - maintain the central living document `JANUS_4D_TRAINING_SYNTHESIS.md`.
@@ -139,8 +165,9 @@ The central document must distinguish:
 ## Graduation / release
 
 An individual instance is TRAINED only after:
-- both mandatory documents are read in full;
+- both mandatory documents are read in full line by line;
 - one complete HsH CONVO is read start to finish;
+- all named required onboarding resources are fully ingested;
 - its pitfall audit is posted;
 - its post-training theory/method follow-up is posted;
 - its registry line is complete;
