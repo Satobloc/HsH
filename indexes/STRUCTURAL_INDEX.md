@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:18:25+00:00`
-- Tree/content state: `54c25848236e0f5e31a24137466a04674717093ee074b877bb514f2242a38df9`
-- Coverage: 600 files, 50 directories
+- Scanned: `2026-09-12T12:20:29+00:00`
+- Tree/content state: `d14b28c5a5fc4c94448ead09d49354a86496b9679937e1fbf30d9db44752c2bc`
+- Coverage: 598 files, 50 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,7 +12,7 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 6 |
+| `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 391 |
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 33 |
+| `WORKSPACES` | 32 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,14 +52,14 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 102 |
+| `.md` | 101 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 82 |
-| `.yml` | 6 |
+| `.yml` | 5 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -68,14 +68,14 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 5 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 33 |
+| `llm-workspace` | 32 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -273,7 +273,6 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3750 bytes — `visitor-interface`
-- `.github/workflows/append-argus-checkin.yml` — 1374 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -799,9 +798,8 @@
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md` — 18952 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 4323 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKINS.md` — 80667 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS.md` — 99620 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`

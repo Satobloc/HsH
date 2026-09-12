@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 863953348,
+    "bytes_known": 863951975,
     "directories": 50,
-    "files": 600
+    "files": 598
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,27 +16,27 @@
     ".json": 322,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 102,
+    ".md": 101,
     ".pdf": 5,
     ".png": 27,
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 82,
-    ".yml": 6,
+    ".yml": 5,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 6,
+    "automation-workflow": 5,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 33,
+    "llm-workspace": 32,
     "review-ledger": 5,
     "source-conversation-corpus": 391,
     "synthesis-workspace": 6,
@@ -46,7 +46,7 @@
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 6,
+    ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
     "DEVELOPMENT_FULL_CONVOS": 391,
@@ -59,7 +59,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 33,
+    "WORKSPACES": 32,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -508,13 +508,6 @@
       "size": null
     },
     {
-      "content_id": "fb7da82b7b458bca7e65d68ec5132a370a112acf9aedf535606f8f21da1831ad",
-      "kind": "blob",
-      "path": ".github/workflows/append-argus-checkin.yml",
-      "role": "automation-workflow",
-      "size": 1374
-    },
-    {
       "content_id": "ce84fe5c583c1b425fcefb87df5259aded7e3cdb87eccb9e12004a135f6160ad",
       "kind": "blob",
       "path": ".github/workflows/build-conversation-viewer.yml",
@@ -634,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "04ddea768de0774f57c302f10fc7ebc3d7783e991b0f4f73ab3bd34a0f842d79",
+      "content_id": "6b9a950030bd42cab54e506c79a455ddb110864d0ab7ab85cedc678027a87a2a",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4414,13 +4407,6 @@
       "size": 12571
     },
     {
-      "content_id": "ae488661e6c340bd6e0227e88730d8bcff4e0504de5c9ffd59fc07bbc63ad341",
-      "kind": "blob",
-      "path": "WORKSPACES/COMMON/ARGUS_CHECKIN_2026-09-12.md",
-      "role": "llm-workspace",
-      "size": 18952
-    },
-    {
       "content_id": "3265c0a594e60ba024c4c3fdfb1d40395fba48b7328b47d5bc019640d25e9adc",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/BULLETIN_BOARD.md",
@@ -4428,11 +4414,11 @@
       "size": 4323
     },
     {
-      "content_id": "42e11f8049f541e13d72958b9237c44bad3fcb5932c41894948cca348a8a184a",
+      "content_id": "05b9a155aba8f67d8f0799ce3b5417378df6cee3e18b974615e11e1f8ed873c9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CHECKINS.md",
       "role": "llm-workspace",
-      "size": 80667
+      "size": 99620
     },
     {
       "content_id": "6a72eb1ce14bec7571f926cdefbac3657f23bb67dfda8604402b3fb30d12e242",
@@ -4785,7 +4771,7 @@
       "size": null
     },
     {
-      "content_id": "ee6a93d23dcb181dbabbb699b7dd3e65393c5c779dd24b49a2b8f1dab303bfa6",
+      "content_id": "913bdae3acb37299c34d607740455d43b409c0745aea549d979c798a5d3cc35c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4799,7 +4785,7 @@
       "size": 8625
     },
     {
-      "content_id": "60ba67f1df4f8ddca6df8671eb1905b83be1b9cafa06245e53eb926aac847934",
+      "content_id": "2b0f08fa55ee1fc1cb68a58143f7f0a47f65b32209f5fe6dbe946d4a3915fedf",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4820,14 +4806,14 @@
       "size": null
     },
     {
-      "content_id": "c9b3fa40d8b1d6d2bb0860b1c06bf36d7c37813ffcf8f069feca47f673faca69",
+      "content_id": "d779c673007496a00eff6760f1558d92c8d9f1fd6e3263eca088dfe0459c86d7",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "ffe0b53cbcbab9e6e41553108cc7dbaec14cc1db46f9f6b58172e2ab13569bb6",
+      "content_id": "ec645acfa7d6ebbfd66d6a9e391e39674640ac00f86943820d49ce676ffd2ff9",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5045,8 +5031,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T12:18:25+00:00",
+  "scanned_at_utc": "2026-09-12T12:20:29+00:00",
   "schema_version": 1,
-  "tree_id": "54c25848236e0f5e31a24137466a04674717093ee074b877bb514f2242a38df9",
+  "tree_id": "d14b28c5a5fc4c94448ead09d49354a86496b9679937e1fbf30d9db44752c2bc",
   "tree_response_truncated": false
 }
