@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-09-12T13:54:11.466009+00:00",
+  "generated_at_utc": "2026-09-12T14:03:55.744050+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 364,
-    "skipped": 48,
-    "renamed": 1
+    "unchanged": 365,
+    "skipped": 48
   },
   "records": [
     {
@@ -2605,13 +2604,13 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "start_local": "2026-06-22T09:49:04.744587-04:00",
       "end_local": "2026-09-12T09:43:33.086238-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 55,
-      "status": "renamed",
+      "status": "unchanged",
       "warnings": []
     },
     {

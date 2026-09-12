@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T13:54:20+00:00`
-- Tree/content state: `02e5ec2247c0fe6cc02d64c80eeeaf34045e7351c8f378aba821da029a7f1cdf`
+- Scanned: `2026-09-12T14:04:01+00:00`
+- Tree/content state: `7eafef71d6faa05fbc54a56a7cb9fd86f92b14c1c74e597108d6ca9aa4d567ec`
 - Coverage: 652 files, 54 directories
 - GitHub tree response truncated: `false`
 
@@ -873,7 +873,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md` — 27898 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY.md` — 9751 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_ADDENDUM.md` — 3205 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7532 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7744 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
@@ -905,7 +905,7 @@
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 198250 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 198256 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
