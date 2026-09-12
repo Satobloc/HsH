@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 821157580,
+    "bytes_known": 821165211,
     "directories": 45,
-    "files": 454
+    "files": 456
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -19,17 +19,17 @@
     ".md": 69,
     ".pdf": 5,
     ".png": 27,
-    ".py": 12,
+    ".py": 13,
     ".rtf": 2,
     ".toml": 1,
     ".txt": 80,
-    ".yml": 5,
+    ".yml": 6,
     "[none]": 2
   },
   "counts_by_role": {
-    "archive-tooling": 11,
+    "archive-tooling": 12,
     "audit-output": 1,
-    "automation-workflow": 5,
+    "automation-workflow": 6,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -47,7 +47,7 @@
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
     "!_CONVERSATION_VIEWER.md": 1,
-    ".github": 5,
+    ".github": 6,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 13,
     "DEVELOPMENT_FULL_CONVOS": 283,
@@ -69,7 +69,7 @@
     "ledgers": 3,
     "synthesis": 6,
     "tests": 1,
-    "tools": 11,
+    "tools": 12,
     "▶ LAUNCH CONVERSATION VIEWER.cmd": 1
   },
   "duplicates": [
@@ -478,6 +478,13 @@
       "size": null
     },
     {
+      "content_id": "4187c3d507ed56b47377875123b961882302156053fc249c16f011042a349a18",
+      "kind": "blob",
+      "path": ".github/workflows/apply-25line-truncation.yml",
+      "role": "automation-workflow",
+      "size": 1297
+    },
+    {
       "content_id": "52e9e7af007c9236a45fc3de6344ed0a7cf31929b621c566e2c5420acafe4c03",
       "kind": "blob",
       "path": ".github/workflows/build-conversation-viewer.yml",
@@ -597,32 +604,32 @@
       "size": 4965
     },
     {
-      "content_id": "f22c513ce0e1076e714ffad2751e9d969afa5673f20b8af4b788bb5e9bcb88ad",
+      "content_id": "d9fa11a487e35482e95e08bf80633e5fc4c01473efaa5a7543dc6f0daddd6c64",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/presentation.css",
       "role": "unclassified",
-      "size": 5622
+      "size": 5746
     },
     {
-      "content_id": "170ea884511d0dbb3fcb6a4b3987620b7e5a205228be782b9c49c97ab0b708de",
+      "content_id": "2826aa5678870880e777ae7b7d9858f43037144d706e9a52b8b21faa8f6c9ab2",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/presentation.js",
       "role": "unclassified",
-      "size": 11850
+      "size": 12268
     },
     {
-      "content_id": "996fc61d067cdb69190c13e592a4ad5aa0a9db6ad5751afd43f1c7804e34a43b",
+      "content_id": "e6e977d11e3110ac21b001aedc02d4334141d743458ade58abcdccee89542a60",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/viewer.css",
       "role": "unclassified",
-      "size": 9600
+      "size": 10020
     },
     {
-      "content_id": "998d759722828b10874a3c27756b15126412ed752aba6e01e05ac1d2c541e93b",
+      "content_id": "ca90ad982d7fcb23e29d4bcf2b22a52dfc55b18f313a9b9b1aacd70a970aad5d",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/viewer.js",
       "role": "unclassified",
-      "size": 28942
+      "size": 29383
     },
     {
       "content_id": null,
@@ -3712,14 +3719,14 @@
       "size": null
     },
     {
-      "content_id": "4a102c0325122f10908c84d5d7d4cbc37b4634862aa67240fa97c2655e358f24",
+      "content_id": "a25af6267baea429ab9f4deab39d2e42b90e4d30b39f4c55b62eb8acad8ca3fd",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 80483
     },
     {
-      "content_id": "4d4962efcdf9e03e6e2dd0536b563f3ead4a1ba85f049670e3be717d5e97980d",
+      "content_id": "abf8d107b4505b21e6ae6f677eb2430473a1629dae60333c75cc4735a4d17065",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -3740,14 +3747,14 @@
       "size": null
     },
     {
-      "content_id": "20f5d7eaa40634c5e750be94a47a96034a4f5794b6e5f99bf03a50f1798d2975",
+      "content_id": "6d677a4c1c2d1d5be9d8d4653f43e9d705414a5c170fc6ad9a6d1ae4e8992867",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 125956
     },
     {
-      "content_id": "d4325c72cabb3af6127fede4f04dffc9373cddba1f54ddbeb3c715ee2a5a93b7",
+      "content_id": "6001aa1f766adbb738566520ff6f806648781fe717706c760372f9d3312c89e0",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -3936,6 +3943,13 @@
       "size": 37113
     },
     {
+      "content_id": "94bf591c3842a47cb7400e8680004636a8f09bd6866c741a4fa3f06796e26d0b",
+      "kind": "blob",
+      "path": "tools/patch_25line_truncation_and_replay_runway.py",
+      "role": "archive-tooling",
+      "size": 4931
+    },
+    {
       "content_id": "9c34b061f89d878e38fc0e0d20862a01c9cf453d68a40c79004fc83bedcb22ac",
       "kind": "blob",
       "path": "▶ LAUNCH CONVERSATION VIEWER.cmd",
@@ -3951,8 +3965,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T02:08:18+00:00",
+  "scanned_at_utc": "2026-09-12T02:58:42+00:00",
   "schema_version": 1,
-  "tree_id": "bb486aba10847b882460fcb093aae97bf97a1a7c74983f241ad9888271d60029",
+  "tree_id": "311081a7ab77d42743dd313cb70771c39f01d91278ebd22a99387fa2e191fa4d",
   "tree_response_truncated": false
 }
