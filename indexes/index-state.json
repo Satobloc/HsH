@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 863920414,
+    "bytes_known": 863921788,
     "directories": 50,
-    "files": 597
+    "files": 598
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -23,13 +23,13 @@
     ".rtf": 2,
     ".toml": 1,
     ".txt": 82,
-    ".yml": 5,
+    ".yml": 6,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 5,
+    "automation-workflow": 6,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -46,7 +46,7 @@
   },
   "counts_by_top_level": {
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 5,
+    ".github": 6,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
     "DEVELOPMENT_FULL_CONVOS": 391,
@@ -508,6 +508,13 @@
       "size": null
     },
     {
+      "content_id": "fb7da82b7b458bca7e65d68ec5132a370a112acf9aedf535606f8f21da1831ad",
+      "kind": "blob",
+      "path": ".github/workflows/append-argus-checkin.yml",
+      "role": "automation-workflow",
+      "size": 1374
+    },
+    {
       "content_id": "ce84fe5c583c1b425fcefb87df5259aded7e3cdb87eccb9e12004a135f6160ad",
       "kind": "blob",
       "path": ".github/workflows/build-conversation-viewer.yml",
@@ -627,7 +634,7 @@
       "size": 49
     },
     {
-      "content_id": "2a9ce60e13c174e152bed54db9d38deb795de21b0f93027fe39e886b2ba4c442",
+      "content_id": "6ee92b3ded97e635c94041d68e39db19c4ad3935b6775414e055c9da3be92419",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4764,7 +4771,7 @@
       "size": null
     },
     {
-      "content_id": "1ff6006d8fba431aba19aa2df0acb95bc2753c07899b51f977e4b99d3e612571",
+      "content_id": "60bbd82a9ef04f122d19e034ca7a22d04151937d01bdc04594c979521502110b",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4778,7 +4785,7 @@
       "size": 8625
     },
     {
-      "content_id": "728dc0279e7a9cc2a6bc792d82b2b92d4486b42c51613bfe0b03a0b9b1a8ea5e",
+      "content_id": "43ad51fa4401e35c775cdaab402b7d67ac2c318fc7ed40ac5c8afa7f474edf72",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4799,14 +4806,14 @@
       "size": null
     },
     {
-      "content_id": "06a3002d3b3e4831214c682a7a116cad195f159cda8d70675dcf0c5107a390ff",
+      "content_id": "447778e0cf512c1451b53156dcac351a949125ccfb3a04be32ca2bf36baa5a7e",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "2b718d239602173756c3e54cd2a33574866a15f4d08e9d015e8f87af199dfabd",
+      "content_id": "4bc99eedf581b01ee79f585f1679a3b1cd3e0d863fb00d0e151830d0c96ffaec",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5024,8 +5031,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T12:08:12+00:00",
+  "scanned_at_utc": "2026-09-12T12:17:12+00:00",
   "schema_version": 1,
-  "tree_id": "2b0a47966f0a13d3645589b501efa3af582142756ec4ffc224860724039e3457",
+  "tree_id": "95c5dcb24ba3dd68bde3d17b21ae4b94ca55bf3a0aae0b77459bed150e871832",
   "tree_response_truncated": false
 }

@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T12:08:12+00:00`
-- Tree/content state: `2b0a47966f0a13d3645589b501efa3af582142756ec4ffc224860724039e3457`
-- Coverage: 597 files, 50 directories
+- Scanned: `2026-09-12T12:17:12+00:00`
+- Tree/content state: `95c5dcb24ba3dd68bde3d17b21ae4b94ca55bf3a0aae0b77459bed150e871832`
+- Coverage: 598 files, 50 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,7 +12,7 @@
 | Path | Files |
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 5 |
+| `.github` | 6 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 391 |
@@ -59,7 +59,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 82 |
-| `.yml` | 5 |
+| `.yml` | 6 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -68,7 +68,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 5 |
+| `automation-workflow` | 6 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -273,6 +273,7 @@
 ## Complete path inventory
 
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3750 bytes — `visitor-interface`
+- `.github/workflows/append-argus-checkin.yml` — 1374 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
