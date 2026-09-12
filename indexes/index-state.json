@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1010769090,
-    "directories": 53,
-    "files": 650
+    "bytes_known": 1010769582,
+    "directories": 54,
+    "files": 651
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -22,7 +22,7 @@
     ".py": 12,
     ".rtf": 2,
     ".toml": 1,
-    ".txt": 87,
+    ".txt": 88,
     ".yml": 5,
     "[none]": 2
   },
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 431,
+    "source-conversation-corpus": 432,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 431,
+    "DEVELOPMENT_FULL_CONVOS": 432,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -79,6 +79,7 @@
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
@@ -637,7 +638,7 @@
       "size": 49
     },
     {
-      "content_id": "742efe27ee19c89e44f2261a648e3a77aeb68f7d2033fe7436c680664cd14eae",
+      "content_id": "2a0ca75838cb07b8f9b1fe5e2392e3692cebb21d8917292507680ded850fe4a8",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2572,6 +2573,20 @@
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
       "role": "source-conversation-corpus",
       "size": 1
     },
@@ -5166,11 +5181,11 @@
       "size": null
     },
     {
-      "content_id": "7f57a82182d90dd0da6bf7ca24d494cc962d443bf85298de86143f3f2e21da9b",
+      "content_id": "90f6e7893bee10a0b06172bd76efe8232e09f5dbbc93264996fbc8e7b9198da3",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 114822
+      "size": 114980
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5180,7 +5195,7 @@
       "size": 8625
     },
     {
-      "content_id": "f518d67817c6d4d8d6501387bdb6503ed5a799acdef41bdfd28c0f7f70b43495",
+      "content_id": "31ae1e7c6b987c99559f04a3337adedbe083396c1019846b040540faa13b86ae",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5201,14 +5216,14 @@
       "size": null
     },
     {
-      "content_id": "df1155148b5228a36493e44b9c8834ccfa9ccb6d36a5776ed4541e88fb4789ae",
+      "content_id": "2af5f19e9fc6ae5ed6828095e6ec791cd397009489d9b33d80cafb8b43c29ff5",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 197424
+      "size": 197757
     },
     {
-      "content_id": "91cdad880e90d8012875966f8e14814a2dab20e5e603335f5812bfb666aca4bc",
+      "content_id": "803016fd569622eb512d3ae3f8796237c110e0212186ae72df43636a1d3ea41c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5426,8 +5441,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:29:02+00:00",
+  "scanned_at_utc": "2026-09-12T13:30:20+00:00",
   "schema_version": 1,
-  "tree_id": "c5111ea9d9d0763f2fbae2c7d049668deb1c31add4ba2613d045c87492976b8b",
+  "tree_id": "e7935de5e06b70461aaa59b22ab685d1b534c82d11a83bdf7b5e99dc41381b5f",
   "tree_response_truncated": false
 }
