@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T00:07:43+00:00`
-- Tree/content state: `65a87e7d56e1b2fb8c65abefb27a88c71e2a014285db180d1fe773356925369c`
-- Coverage: 453 files, 45 directories
+- Scanned: `2026-09-12T00:08:57+00:00`
+- Tree/content state: `f85d90a9c3db40652e8842a07a11c75319e4152e063b13ab35a9e83da46809c3`
+- Coverage: 454 files, 45 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `!_CONVERSATION_VIEWER.md` | 1 |
-| `.github` | 5 |
+| `.github` | 6 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 12 |
 | `DEVELOPMENT_FULL_CONVOS` | 283 |
@@ -60,7 +60,7 @@
 | `.rtf` | 2 |
 | `.toml` | 1 |
 | `.txt` | 80 |
-| `.yml` | 5 |
+| `.yml` | 6 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -69,7 +69,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 5 |
+| `automation-workflow` | 6 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -261,6 +261,7 @@
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1008 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 4443 bytes — `automation-workflow`
+- `.github/workflows/patch-viewer-role-speed.yml` — 3039 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 3723 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
@@ -274,7 +275,7 @@
 - `CONVERSATION_VIEWER/presentation.css` — 5253 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 9943 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 8471 bytes — `unclassified`
-- `CONVERSATION_VIEWER/viewer.js` — 23926 bytes — `unclassified`
+- `CONVERSATION_VIEWER/viewer.js` — 24068 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
