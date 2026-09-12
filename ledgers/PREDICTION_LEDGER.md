@@ -36,6 +36,22 @@ No empirical prediction is frozen yet. The finite-core architecture and observab
 - **Freeze condition:** select a physical carrier and independent measurement channel; independently calibrate the resolver kernel, use a controlled thickness family, or prove kernel insensitivity; then preregister estimator, corrections, and comparator before target inspection.
 - **Historical provenance:** unchecked; no novelty or priority claim.
 
+## PRED-FC-003 — Controlled resolver-width covariance law
+
+- **Status:** `CANDIDATE` — exact calibration prediction; no physical H(s)H resolver family selected.
+- **Derivation source:** `FC-BASE-003/004` and [FINITE_THICKNESS_READOUT_PACKET_001.md](../WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md).
+- **Assumptions:** centered independent additive kernel; local affine crossing; controlled scale family `Z_delta=delta Z_1`; fixed carrier state across settings.
+- **Exact equation:** `Q_obs(delta)=Q_0+delta^2 Q_K`; equivalently `Q_obs(delta_2)-Q_obs(delta_1)=(delta_2^2-delta_1^2)Q_K`.
+- **Predicted scaling/invariant:** every covariance component and the trace are affine in `delta^2`; the intercept is the projected carrier covariance `Q_0`.
+- **Units:** covariance entries `L^2`; `delta` has the chosen resolver-width unit and must be independently calibrated.
+- **Observable/readout map:** repeated cross-sectional measurements of the same declared carrier ensemble at preregistered resolver widths.
+- **Independent comparator:** held-out resolver settings not used to estimate `Q_0,Q_K`.
+- **Uncertainty:** carrier drift, correlated core-resolver response, nonlinear reconstruction, clipping, curvature, tangency, and width-calibration error.
+- **Rival contrast:** separates additive resolver broadening from a fixed projected carrier covariance; it does not by itself select `B^3`, `B^2`, or `S^2`.
+- **Falsification condition:** statistically resolved non-affinity in `delta^2` after preregistered corrections rejects the scaled independent-kernel readout model.
+- **Freeze condition:** demonstrate an independently controlled H(s)H resolver-width family and freeze estimator, settings, corrections, and held-out test before inspecting target behavior.
+- **Historical provenance:** unchecked; no SAT priority or physical prediction claim.
+
 ## Readout no-go affecting the queue
 
 FC-BASE-003 is `STD/DERIVED/FROZEN` in its stated affine independent-kernel scope: `Q_obs = L_Sigma Q_core L_Sigma^T + Q_kernel`. It is not an empirical prediction. It blocks promotion of any apparent-width or canonical-`chi` claim that lacks kernel calibration, controlled thin-limit extrapolation, or a proved kernel-invariant observable.
