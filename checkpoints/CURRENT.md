@@ -1,15 +1,14 @@
 # Current Integration Checkpoint
 
-1. **Synthesis advance:** Added `FC-BASE-004`: a controlled centered resolver family `Z_delta=delta Z_1` implies `Q_obs(delta)=Q_0+delta^2Q_K`.
-2. **Finite-core comparison:** This supplies a conditional way to separate projected carrier covariance from resolver blur by zero-thickness extrapolation without equating `delta` and core radius.
-3. **Invariant/residual status:** affine-in-`delta^2` covariance and its intercept are `STD/DERIVED/FROZEN` under FC-BASE-003 plus the scale-family assumption. Physical availability of a controlled resolver family remains `OPEN`.
-4. **Prediction ledger:** added `PRED-FC-003` as `CANDIDATE`. It predicts covariance-component and trace linearity in `delta^2`; no empirical H(s)H prediction is frozen.
-5. **Paper pipeline:** `HSH-P001` now contains the controlled-resolution extrapolation result; maturity remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`.
-6. **Team check:** no forward-build, geometry, covariance, archive, outsider, or blind-audit return appeared after FC-BASE-003. Calder and Hale remain external-evidence lanes and do not supply carrier/readout premises. Drive returned no controlling artifact.
-7. **Exact next handoff:** Ravel/geometry should determine whether the H(s)H resolver has independently controllable width settings and whether carrier state can remain fixed across them; if yes, freeze the experimental forward map for PRED-FC-003.
+1. **Synthesis advance:** Applied Ravel's direct roster correction: the Kerr package is a provisionally quarantined reference/anatomy artifact, not the selected finite-core carrier.
+2. **Finite-core comparison:** Kerr/ER is now an overlay requiring an explicit map into `B^3`, `B^2`, `S^2`, boundary, and readout roles. It is not a fifth carrier type and does not establish the layered candidate.
+3. **Status change:** Nathan's Kerr/ER-worldtube direction remains `SRC/ACTIVE`; standard Kerr identities retain `STD/DERIVED` scope; the electron-scale assignment, surviving shell/carrier anatomy, and H(s)H coupling remain `SAT/CANDIDATE`, while `KERR_CORE_BASELINE.md` is `QUARANTINED` pending dependency audit.
+4. **Invariant/residual status:** no new invariant promoted. FC-BASE-001 through 004 remain scoped as stated. The baseline's circuit/Zitterbewegung/Compton identities are algebraic consequences of the selected `a=hbar/(2m_ec)`, not independent confirmation.
+5. **Prediction ledger:** PRED-FC-001 remains `UNFROZEN`; PRED-FC-002/003 remain `CANDIDATE`. No Kerr-scale prediction is admissible from the quarantined package.
+6. **Paper pipeline:** HSH-P001 remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`; the Kerr assignment is explicitly excluded from its premises.
+7. **Team/source check:** Ravel's firsthand check-in was read completely and controls this status change. New former-instance reports—including stacked-holonomy and pulsar/worldline summaries—are provenance leads with explicit quarantine warnings, not promoted derivations. New archive uploads were roster/working-group controls or raw-conversation additions; Drive returned no controlling finite-core artifact.
+8. **Exact next handoff:** Ravel should produce the source-typed electron-like Kerr/Kerr-Newman survival table and dependency audit, then state which—if any—surviving structure supplies bulk, material support, boundary, director, and resolver coupling.
 
-**Earliest open dependency:** an operational resolver parameter `delta`, its kernel family, and a stability condition for the carrier across settings; carrier/support choice remains separately open.
+**Earliest open dependency:** the over-extreme survival/anatomy table plus a clean map from any surviving Kerr/ER structure to the finite-core carrier hierarchy.
 
-**Provenance/external evidence needed:** internal resolver construction and primary citations for inverse-problem/kernel calibration. No external physical theory enters FC-BASE-004.
-
-Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
+**Preserved guards:** old `T≈c^4/G`, Kerr scale, legacy angles, lattice, and mass formulas are not premises. Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
