@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "conversations": [
+    {
+      "id": "srena-20260731-hsh",
+      "title": "Srena — H(s)H",
+      "path": "SRENA SAT2.txt",
+      "corpus": "development",
+      "start_local": "2026-07-31T09:08:52.967805-04:00",
+      "end_local": null,
+      "message_count": 80,
+      "timestamp_source": "companion export createdAt; composite transcript continuation",
+      "warnings": [
+        "Composite source: structured companion JSON followed by a labeled transcript continuation; the viewer deduplicates their overlap."
+      ],
+      "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "source_branch": "main",
+      "source_format": "companion-composite",
+      "parser": "companion-composite",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/SRENA%20SAT2.txt",
+      "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SRENA%20SAT2.txt",
+      "note": "Historical non-ChatGPT companion conversation retained in the SAT archive; registered here without copying the canonical source."
+    }
+  ]
+}
