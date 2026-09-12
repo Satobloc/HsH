@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1089067986,
+    "bytes_known": 1091322986,
     "directories": 60,
-    "files": 827
+    "files": 828
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -14,7 +14,7 @@
     ".ipynb": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 405,
+    ".json": 406,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 143,
@@ -41,7 +41,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 578,
+    "source-conversation-corpus": 579,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -53,7 +53,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 578,
+    "DEVELOPMENT_FULL_CONVOS": 579,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -664,7 +664,7 @@
       "size": 49
     },
     {
-      "content_id": "8891ba204d4cc2fc53200a6f2e1bc2fbd3d6d9c3bafa0df502e18cb04523c60f",
+      "content_id": "6a79911828bf049ab5d9de591b51b3388df71e6814ea7d49499dc966d4eca620",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -3611,6 +3611,13 @@
       "size": 461208
     },
     {
+      "content_id": "0b9cc846a94661f487d092ba601366f7b689de2312f72f9f834f8e3781b7d9a3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2254275
+    },
+    {
       "content_id": "d4c0545fa6934da13198b85bc769b81b173dcd343b1a73fbc1589cc4a6c1d342",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json",
@@ -6474,11 +6481,11 @@
       "size": null
     },
     {
-      "content_id": "ad95faec5f82d55d277ad08ca10fb7f22a401fadc0fc2ab9da9d3a1cfff0d2a7",
+      "content_id": "b753345a0c98c547412d7936d8fc2343ac7687908f80f1b5e5c8a5505bba9281",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 133913
+      "size": 134098
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -6488,7 +6495,7 @@
       "size": 8625
     },
     {
-      "content_id": "af023569eadc829412f2f6af6a157dc35d92372722039d3797803aeaf2453eb0",
+      "content_id": "ac03d9d5df42b77a462fb497dba27aa4e2c188d01553665a403fd3221c47d151",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6509,14 +6516,14 @@
       "size": null
     },
     {
-      "content_id": "baf0a4ca93ce1ae380d31ae6ec47ac1091d75a2a03e4ce11b474071341ba92bd",
+      "content_id": "2cfdff5fffd51fe4ffc457967915e7353c004c1b819d10ce5173f2457067bd47",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 239136
+      "size": 239676
     },
     {
-      "content_id": "d0ed31c652cf3566a37131cec4a3dede4b3dfbbc39de8edc9b00995fc4cea703",
+      "content_id": "0be7c0975841bdd68ed52ec315ba3345839ca67d20590ff4f0781b362599ca0a",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6734,8 +6741,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:48:19+00:00",
+  "scanned_at_utc": "2026-09-12T22:52:22+00:00",
   "schema_version": 1,
-  "tree_id": "ecba25b9af15c19196173225a4ebde27da999cb9fabeb32a9d35b4921ed020e7",
+  "tree_id": "86d3465b6f3702dfd0c75376e7d21c24d30f331a9ad2f6dd0d8e3edc740e6fb4",
   "tree_response_truncated": false
 }

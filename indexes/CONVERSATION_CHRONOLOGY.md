@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:48:18.848622+00:00`
+- Generated: `2026-09-12T22:52:22.010156+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **413**
+- Dated conversation exports: **414**
 - Skipped non-conversation or unparseable files: **90**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -123,6 +123,7 @@
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_4` | 479 |  |  |
 | 2025-05-08 | 2026-06-13 | [SAT Theorizer Emeritus](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 479 |  |  |
+| 2025-05-08 | 2026-09-12 | [THE WAVEFRONT BRAIN TRUST](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE%20WAVEFRONT%20BRAIN%20TRUST%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 217 |  |  |
 | 2025-05-09 | 2026-09-12 | [LAB 1_ Validation Lead](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 149 |  |  |
 | 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT) | `SAT_CONVOS_3` | 545 | D10 | 1 user/assistant messages lacked timestamps |
 | 2025-05-09 | 2026-06-16 | [SAT ACTIVE EDGE vNext](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json) | `SAT_CONVOS_3` | 545 | D10 | 1 user/assistant messages lacked timestamps |

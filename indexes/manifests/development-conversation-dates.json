@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T22:48:11.843281+00:00",
+  "generated_at_utc": "2026-09-12T22:52:14.961831+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 365,
     "skipped": 90,
-    "blocked": 47,
+    "blocked": 48,
     "collision": 1
   },
   "records": [
@@ -3630,6 +3630,18 @@
       "end_local": "2026-09-12T17:19:31.784831-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 73,
+      "status": "blocked",
+      "warnings": [
+        "No files renamed because at least one collision exists"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "start_local": "2025-05-08T23:52:38.750000-04:00",
+      "end_local": "2026-09-12T18:22:14.364381-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 217,
       "status": "blocked",
       "warnings": [
         "No files renamed because at least one collision exists"

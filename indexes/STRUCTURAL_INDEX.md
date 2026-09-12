@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:48:19+00:00`
-- Tree/content state: `ecba25b9af15c19196173225a4ebde27da999cb9fabeb32a9d35b4921ed020e7`
-- Coverage: 827 files, 60 directories
+- Scanned: `2026-09-12T22:52:22+00:00`
+- Tree/content state: `86d3465b6f3702dfd0c75376e7d21c24d30f331a9ad2f6dd0d8e3edc740e6fb4`
+- Coverage: 828 files, 60 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 578 |
+| `DEVELOPMENT_FULL_CONVOS` | 579 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -51,7 +51,7 @@
 | `.ipynb` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
-| `.json` | 405 |
+| `.json` | 406 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
 | `.md` | 143 |
@@ -81,7 +81,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 578 |
+| `source-conversation-corpus` | 579 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -713,6 +713,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Sensorium Inversion Thought Experiment — raw.json` — 130889 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json` — 461209 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json` — 461208 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json` — 2254275 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json` — 329080 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw.json` — 230091 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw (1).json` — 152724 bytes — `source-conversation-corpus`
@@ -1087,11 +1088,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 133913 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 134098 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 239136 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 239676 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
