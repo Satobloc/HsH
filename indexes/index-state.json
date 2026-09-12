@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 863772475,
+    "bytes_known": 863772575,
     "directories": 49,
     "files": 586
   },
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "028ade64266545a0c5ac9646d36ff0ce08c8cdc5c2de729d1ce96130f2a7ac57",
+      "content_id": "8b5f25bf919a3f525a0c1d17fe1be6a8461be2e8cb41b647c4cd42ee1839f388",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4561,11 +4561,11 @@
       "size": null
     },
     {
-      "content_id": "d0373381bf1d4fcf93425f9a26374a044e4bb1c2f6e1d067d1eeccd178e02a6a",
+      "content_id": "5cc2bf48c2319c35fd9b8518853c860efa14e1ee8ff329b59a425601d19bb534",
       "kind": "blob",
       "path": "checkpoints/CURRENT.md",
       "role": "checkpoint",
-      "size": 2248
+      "size": 2348
     },
     {
       "content_id": null,
@@ -4680,7 +4680,7 @@
       "size": null
     },
     {
-      "content_id": "88366467cab1e6116d497bc2dd2f00c00ecb7799db9187090b17677534102da8",
+      "content_id": "724a42fe35323c46820cd10a336ab798f223d06e6891c647acfdbea3e2ae24ba",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4694,7 +4694,7 @@
       "size": 8625
     },
     {
-      "content_id": "700fef8520cf5697035586534f95f8ac3bb79d36d04e13d7f197f2fb1b42a49f",
+      "content_id": "35005e8b08574746908ddea77110b61a5f359cf7be0caab9015cb506265a364a",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4715,14 +4715,14 @@
       "size": null
     },
     {
-      "content_id": "6b2b0499b69fdc346cced4b2c31d0683e882f2e83d2ad024f89b999746f3e694",
+      "content_id": "0a1563858be1de820ee0b34aba364575ff6cd3832b8174f1085bec7dd58e5daf",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "b2066be4e03e990a786a31ec3043ec18bad8163074c0bf0d7027b624357ca2af",
+      "content_id": "7358cc3d4e120b17a508f3443107b245870f27877f30a6fefdcf4f6196595fe9",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4940,8 +4940,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T10:54:54+00:00",
+  "scanned_at_utc": "2026-09-12T10:56:08+00:00",
   "schema_version": 1,
-  "tree_id": "f81bc937720de558836d4d0a9fe8fd19a3011cbaa70e1833859b510972203a32",
+  "tree_id": "42e765072ed40d41bd140224c4338d098fca3c9107ac3fe619de68ece36a736f",
   "tree_response_truncated": false
 }

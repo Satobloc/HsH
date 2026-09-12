@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T10:54:54+00:00`
-- Tree/content state: `f81bc937720de558836d4d0a9fe8fd19a3011cbaa70e1833859b510972203a32`
+- Scanned: `2026-09-12T10:56:08+00:00`
+- Tree/content state: `42e765072ed40d41bd140224c4338d098fca3c9107ac3fe619de68ece36a736f`
 - Coverage: 586 files, 49 directories
 - GitHub tree response truncated: `false`
 
@@ -817,7 +817,7 @@
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
 - `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
-- `checkpoints/CURRENT.md` — 2248 bytes — `checkpoint`
+- `checkpoints/CURRENT.md` — 2348 bytes — `checkpoint`
 - `formalization/README.md` — 2023 bytes — `formalization-workspace`
 - `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
 - `formalization/equations.json` — 6068 bytes — `formalization-workspace`
