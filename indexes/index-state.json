@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "d245d6d30c6e5d9cde3893414bdfdcd6411b11810ee1fd2370508d36f02a8938",
+      "content_id": "debdb92696d4310d9ccac01397d920035addf01ffdfe94b5d6061e748140a50e",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4554,14 +4554,14 @@
       "size": null
     },
     {
-      "content_id": "3ce9deacf454c6acc45b3160393cb54059554aa29311fd119bbd2d981927e292",
+      "content_id": "2fcec7043a825a56813f1bdefeaefd9d7b89fa07a171307128126c6adb4bd77d",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
       "size": 105071
     },
     {
-      "content_id": "355d35eac161db64efe19282ded80b0b523ae88c92d408b081589dd350cacd1a",
+      "content_id": "499d7a773309b98fc9ecd6dafb43273be6961c42668946c86a8accc1af179c37",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4582,14 +4582,14 @@
       "size": null
     },
     {
-      "content_id": "8d2f2b7bce2ed577dc675e926acfc1f1ac50319f3b6a2d365a58a7b2bea982cf",
+      "content_id": "1cf42692151a9ba02a4118a0c56bab4797df24828a73f724e6a4da94bef3e5e2",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "28289c657dc5e396226540470e3a90b45be0ea670f0d57d3e30c26bf9bdf344c",
+      "content_id": "2697c25f9bc3acb301ef1f4cd37be35bd1e682f86e8cc24fee1a9e0725d1bba1",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -4793,8 +4793,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T07:42:50+00:00",
+  "scanned_at_utc": "2026-09-12T07:43:29+00:00",
   "schema_version": 1,
-  "tree_id": "671505aec7dc9e58dd3e56b75c000342abb1163caf0242f9a1095e9e81fad17b",
+  "tree_id": "df87c4731a8273d768a4d19670545a5f879fa52ea8df271540885d32b2a428f7",
   "tree_response_truncated": false
 }
