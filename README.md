@@ -24,7 +24,7 @@ In the interests of maximum transparency, and in the spirit of SAT's **Glass Sau
 <tr>
 <td align="center" width="100%">
 <br>
-<strong>▶ <a href="!_CONVERSATION_VIEWER.md">OPEN THE H(s)H CONVERSATION VIEWER</a></strong><br><br>
+<strong>▶ <a href="https://satobloc.github.io/HsH/">OPEN THE H(s)H CONVERSATION VIEWER</a></strong><br><br>
 <em>Interactive viewer thumbnail coming here.</em><br><br>
 <code>[ conversation viewer preview ]</code><br><br>
 <small>Browse, search, replay, and jump to marked moments in the development record.</small><br><br>
