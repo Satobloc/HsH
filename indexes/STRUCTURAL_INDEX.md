@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T10:09:17+00:00`
-- Tree/content state: `7a92eccd5019497b6e33cb0f6602298630700b2bb612feb35d5e1b82ce934935`
-- Coverage: 579 files, 49 directories
+- Scanned: `2026-09-12T10:24:32+00:00`
+- Tree/content state: `d43448261dc02982226dd5434b348add87577ec37cdfb8cddb44e39821e44966`
+- Coverage: 582 files, 49 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 13 |
+| `WORKSPACES` | 16 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 322 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 82 |
+| `.md` | 85 |
 | `.pdf` | 5 |
 | `.png` | 27 |
 | `.py` | 12 |
@@ -75,7 +75,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 13 |
+| `llm-workspace` | 16 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 391 |
 | `synthesis-workspace` | 6 |
@@ -797,10 +797,13 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 1468 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/COORDINATION.md` — 5736 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 1970 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2769 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/COORDINATION.md` — 6327 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 1411 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/README.md` — 1978 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 7735 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/README.md` — 3019 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8269 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6096 bytes — `llm-workspace`
