@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:29:18+00:00`
-- Tree/content state: `1ffd1a8173f54e092c5d7da23e449ab3a53d77fa07beb9dd5946a3e07a013fd3`
-- Coverage: 715 files, 55 directories
+- Scanned: `2026-09-12T22:31:27+00:00`
+- Tree/content state: `c0af4d08f5e8055a0f8e2eab767a3fe8099c6b5001105d0ca1603ba354b59a31`
+- Coverage: 723 files, 56 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 466 |
+| `DEVELOPMENT_FULL_CONVOS` | 474 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -55,13 +55,13 @@
 | `.lean` | 3 |
 | `.md` | 143 |
 | `.pdf` | 7 |
-| `.png` | 34 |
+| `.png` | 35 |
 | `.py` | 12 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 91 |
+| `.txt` | 98 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -80,7 +80,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 466 |
+| `source-conversation-corpus` | 474 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -600,7 +600,15 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO adv.PNG` — 601015 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO.PNG` — 507907 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/FujiFilm xray SHR-U (HR-T30) wavelength sensitivity.PNG` — 50735 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/FREE MODE PRIORITIES.txt` — 1788 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 BUILD SETUP.txt` — 9280 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 MASTER PLAN.txt` — 3756 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 PRINCIPLES OF MINIMAL ASSUMPTION.txt` — 4540 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 TOP LEVEL GOALS.txt` — 4239 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT_20_AUDIT.txt` — 4939 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf` — 412967 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png` — 6400142 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt` — 14537491 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt` — 128313 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Scalar-Angular-Twist.pdf` — 289507 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt` — 1 bytes — `source-conversation-corpus`
@@ -971,11 +979,11 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 119666 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 121354 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 209491 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 212037 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`

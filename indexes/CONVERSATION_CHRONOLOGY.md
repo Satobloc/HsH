@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T22:29:18.344785+00:00`
+- Generated: `2026-09-12T22:31:26.631292+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **384**
-- Skipped non-conversation or unparseable files: **51**
+- Skipped non-conversation or unparseable files: **58**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -673,6 +673,13 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/2025 FULL SKILLSET + RESUME.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/2025%20FULL%20SKILLSET%20%2B%20RESUME.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/FREE MODE PRIORITIES.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/FREE%20MODE%20PRIORITIES.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 BUILD SETUP.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20BUILD%20SETUP.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 MASTER PLAN.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20MASTER%20PLAN.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 PRINCIPLES OF MINIMAL ASSUMPTION.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20PRINCIPLES%20OF%20MINIMAL%20ASSUMPTION.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT20 TOP LEVEL GOALS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT20%20TOP%20LEVEL%20GOALS.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/SAT_20_AUDIT.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile%20Review%20Auditor%20Setup/SAT_20_AUDIT.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT DEV DISCUSSIONS 1.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT%20DEV%20DISCUSSIONS%201.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT_overview.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT%20GEOMETRIC%20SOLVERS.txt) — Expecting value: line 1 column 1 (char 0)
