@@ -104,3 +104,56 @@ Append one section headed with your instance name and date.
 
 **Coordination note:**  
 - The strongest reusable product of this thread is **not a positive SAT signal**; it is a developing empirical test that has already rejected attractive-looking false positives. Please keep the earlier theory-bearing chat summaries quarantined, but preserve the negative galaxy result and the canopy method-artifact result as useful QC evidence. If this lane continues, it should be isolated from forward theorybuilding.
+
+### Hale — 2026-09-12
+
+**Working on now:**  
+- **Task:** build and calibrate an arXiv/literature-landscape scanner for a matched 2024-vs-2026 comparison of SAT/H(s)H-adjacent structural language, topic distribution, category distribution, controls, and lexical drift.  
+  **Intended output:** reproducible external-evidence comparison, including all-paper scored tables, aggregate feature/sector/bundle prevalence, topic-composition change, category change, control behavior, and unsupervised lexical/bigram drift.  
+  **Intended destination:** current durable code location is private `Satobloc/HSH_RESOURCES/tools/arxiv_sat_scanner.py`; the latest v0.7 exists only as a conversation/download artifact pending review and durable-destination decision. Comparison outputs are intended as external-evidence artifacts, not theory surfaces.  
+  **Status:** v0.4 committed; v0.5-v0.7 built/calibrated locally. One 7-day live haul (1328 records) was used only to debug scoring. The actual scientific comparison is now designed as matched Jan-1-through-same-date 2024 vs 2026, with aggregate field/topic redistribution treated as signal rather than normalized away. Full historical comparison has not yet been executed by this runtime.
+
+**Know / have access to:**  
+- **A. Actually loaded/substantially read:** this roster memo; `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`; `CHECKINS.md`; `COORDINATION.md`; `EXTERNAL_RESEARCH_FIREWALL.md`; the relevant SAT/H(s)H standard-terminology/dictionary material supplied in this scanner thread; `HSH_RESOURCES/info/arXiv API ETC.txt`; the v0.4 scanner source; the first live scan report/results supplied back by Nathan; official arXiv API behavior/docs used to design retrieval and rate limiting.  
+- **B. Know exists/can access but have not substantially read in this lane:** the broader `HsH`, `SAT_THEORY_ARCHIVE_2023-25`, and `HSH_RESOURCES` corpora; Dashboard and most durable theory surfaces; most archived conversations and workspace material outside the scanner/research context; `2026-09-12_ACTION_PLAN.md` beyond references visible in Common. I should not represent those as loaded theory context.  
+- **C. Current access/tools:** GitHub connector with read/write access to the relevant repositories; conversation/Library files; public web search; Python/container runtime; file generation; code analysis/testing. The Python/container runtime cannot make normal outbound internet/DNS connections, so it cannot itself execute the arXiv HTTP crawl; public-web tooling can inspect current public sources, while Nathan's/local network-capable Python run is needed for the full scanner.  
+- **D. Special capabilities/limitations:** strong code/scoring/statistical-analysis capability; can inspect and revise scanner logic and analyze returned corpora. Current instance is exposed to external literature by design and must remain behind the external-research firewall. No reliable prior scanner-specific instance name was present in my loaded record; I am using **Hale** for this roster entry to avoid colliding with established instance names.
+
+**Created already:**  
+- `arXiv SAT/H(s)H structural scanner v0.4 — Satobloc/HSH_RESOURCES/tools/arxiv_sat_scanner.py — experimental/private external-research tool — broad structural vocabulary, controls, arXiv retrieval, scoring and prevalence reporting; no theory authority.`  
+- `arxiv_sat_scanner_v0_4.py — conversation download artifact (/mnt/data/arxiv_sat_scanner_v0_4.py in this runtime) — generated mirror — downloadable copy of committed v0.4.`  
+- `arxiv_sat_scanner_v0_5.py — conversation download artifact (/mnt/data/arxiv_sat_scanner_v0_5.py) — experimental — corrected phrase matching/double-counting and added all-scored corpus output plus updated-date retrieval logic.`  
+- `arxiv_sat_scanner_v0_6.py — conversation download artifact (/mnt/data/arxiv_sat_scanner_v0_6.py) — experimental — changed analytical target from recent-week scan to matched 2024-vs-2026 comparison with category-mixture decomposition.`  
+- `arxiv_sat_scanner_v0_7.py — conversation download artifact (/mnt/data/arxiv_sat_scanner_v0_7.py) — experimental/current local candidate — adds field/category composition, neutral topic-landscape comparison, unsupervised lexical/bigram drift, and treats aggregate topic redistribution as part of the field shift rather than a nuisance variable.`  
+- `scanner calibration diagnostics — /mnt/data/test_scan05/, /mnt/data/test_compare06/, /mnt/data/test07/ — generated/experimental/non-durable — local rescoring and output-schema tests only.`
+
+**Planning to create:**  
+- `2024-vs-2026 matched literature-landscape evidence packet — destination TBD within the external-evidence/research workspace or HSH_RESOURCES data area; do not promote directly to Dashboard/theory surfaces — purpose: quantify raw aggregate change, topic/category redistribution, within-topic change, controls, score-distribution change, and lexical drift.`  
+- `v0.7-or-successor durable scanner update — likely HSH_RESOURCES/tools/arxiv_sat_scanner.py after review/ownership decision — purpose: replace the v0.4 recent-scan-oriented implementation with the matched-period landscape instrument.`  
+- Possible overlap: another external-evidence/recent-research worker may already own recurring arXiv scans; Janus should decide whether this becomes that lane's instrument, a separate field-development-tracking lane, or a QC/comparison utility.
+
+**Provenance of current work:**  
+- **A. Nathan / SAT / H(s)H internal sources:** the search ontology is derived from the SAT/H(s)H standard dictionary/translation material and Nathan's explicit research question: compare the 2024 scientific landscape with 2026, including whether the distribution of topics/structures reorganized toward H(s)H-adjacent territory. Internal vocabulary determines what structural families are measured; it does not determine what the external literature says.  
+- **B. Standard mathematics/methods:** document-frequency/prevalence counting; matched-period comparison; mixture/category decomposition; relative change and percentage-point change; lexical unigram/bigram frequency drift; heuristic weighted feature scoring; cross-feature co-occurrence bundles. These are analysis methods, not imported physical theory.  
+- **C. External empirical data/measurements/constraints:** none have been imported into H(s)H theory in this work. arXiv metadata/abstracts are literature records, not empirical measurements.  
+- **D. External papers/theories/models/equations/assumptions:** external paper abstracts/metadata are used only as the comparison corpus. No external physical equation, mechanism, model assumption, or interpretation has been promoted into H(s)H. Official arXiv API documentation/terms supplied endpoint/query/rate-limit/retrieval behavior only.  
+- **E. Generated inference/reconstruction:** feature weights, bundle definitions, control families, neutral topic map, score thresholds, matcher fixes, matched-period design, category/topic decomposition, and lexical-drift design are generated research-instrument choices and require calibration; they are not H(s)H premises.  
+- **F. Speculative/unresolved:** whether any measured 2024->2026 literature shift is statistically robust, conceptually meaningful, unusual relative to controls, or relevant to H(s)H priority/convergence remains entirely open until the matched corpora are run and analyzed.
+
+**Overlap / role-bleed / contamination risk:**  
+- Overlaps the **external evidence / recent research**, **field-development tracking**, and **convergence/originality/ancestry audit** lanes. That overlap is potentially useful but ownership is not yet explicit.  
+- This scanner uses internal H(s)H vocabulary to define measurements while reading external literature, so provenance must remain explicit. In the work I can substantiate in this thread, I have **not** been doing forward H(s)H theorybuilding from recent papers. The created scanner/code artifacts are research instruments/evidence-analysis tools, not theory outputs. If broader instance history reveals mixed forward-theory work under the same instance identity, Janus should reclassify/quarantine affected artifacts accordingly rather than relying on this narrower loaded context.  
+- The original one-week scan must not be interpreted as evidence of 2024-vs-2026 change; it was only a calibration/debugging haul.
+
+**Blockers / inputs needed:**  
+- A network-capable full run of the matched 2024 and 2026 corpora (Nathan/local machine or another execution lane).  
+- The returned all-scored outputs for both periods so I can calibrate false positives/near misses and perform the actual comparison.  
+- Janus decision on durable ownership/destination of the scanner and whether the sampling universe should become physics-wide/arXiv-wide rather than the current hand-selected category neighborhood.  
+- No Ravel theory decision is needed for the scanner itself unless a later evidence packet proposes a theory-bearing import, which this lane should not do by default.
+
+**Suggested next task:**  
+- Execute the full matched 2024-vs-2026 landscape scan on a network-capable machine, then produce a typed external-evidence packet separating: raw aggregate shift; category/topic redistribution; within-topic/within-category movement; control movements; lexical drift; structurally high-scoring papers; and uncertainty/calibration limits. Hand that packet to Common/Handoffs without prescribing an H(s)H theory response.  
+- Any forward-theory interpretation should be assigned to Ravel/internal theory lane after the evidence packet exists. Recurring operational execution of the scanner may be better owned by the eventual external-evidence automation lane.
+
+**Coordination note:**  
+- The important boundary is that **topic-composition movement is itself part of the observed field change**. The standardized/decomposed views are diagnostic explanations of the aggregate shift, not corrections that erase it. This lane can quantify convergence/landscape movement, but should not convert that movement into H(s)H premises or novelty claims without the separate priority/provenance review.
