@@ -95,3 +95,6 @@ input[type="search"]:focus, select:focus { outline-color: rgba(214,41,112,.28); 
 
 .message-body { font-size: 1rem; line-height: 1.62; }
 @media (min-width: 1000px) { .message-body { font-size: 1.04rem; } }
+
+.message.kind-tool, .message.kind-function, .message.kind-system, .message.kind-developer, .message.kind-internal { color: #a0a3a8; }
+.message.kind-tool .message-body, .message.kind-function .message-body, .message.kind-system .message-body, .message.kind-developer .message-body, .message.kind-internal .message-body { color: #8e9298; }

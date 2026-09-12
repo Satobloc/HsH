@@ -20,6 +20,16 @@
     return raw;
   }
 
+  function plumbingLike(rawText) {
+    const text = String(rawText || "");
+    const lines = text.split(/\n/);
+    const urlCount = (text.match(/https?:\/\//g) || []).length;
+    const pathCount = (text.match(/(?:^|\s)(?:\.?\.?\/|[A-Za-z]:\\|[\w.-]+\/[\w./ -]+)/gm) || []).length;
+    const markers = /Resource uri:|Citation Marker:|filecite|filenavlist|search result|tool result|function call|files\.(?:search|find|read)|api_tool|github\.|raw source|content_sha|workflow run|\"result\"\s*:/i.test(text);
+    const structured = /^\s*[\[{]/.test(text) && /[}\]]\s*$/.test(text);
+    return markers || urlCount >= 3 || pathCount >= 5 || (structured && lines.length >= 5);
+  }
+
   function kindFor(article, rawText) {
     const raw = String(article.dataset.speaker || "unknown").toLowerCase();
     const role = String(article.dataset.role || raw || "unknown").toLowerCase();
@@ -30,10 +40,11 @@
     }
     if (["tool", "developer", "system"].includes(role)) return role;
     if (role === "assistant") {
-      if (/tool|function|execution|computer|code/.test(meta)) return "function";
+      if (/tool|function|execution|computer|code/.test(meta) || plumbingLike(rawText)) return "function";
       return "assistant";
     }
     if (role === "companion") return "other-assistant";
+    if (plumbingLike(rawText)) return "function";
     return GENERIC.has(raw) ? "internal" : "other-assistant";
   }
 

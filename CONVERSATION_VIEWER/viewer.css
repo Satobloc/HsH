@@ -110,3 +110,17 @@ input[type="search"]:focus, select:focus { outline: 2px solid rgba(138,180,255,.
 .messages.typealong-active { padding-bottom: 78vh; }
 .message.collapsible:not(.expanded):not(.typing) .message-body { max-height: var(--collapse-height, 40rem) !important; }
 .message.compact-output.collapsible:not(.expanded):not(.typing) .message-body { max-height: var(--collapse-height, 4.5em) !important; }
+
+
+/* Sidebar scrolling and temporal emphasis. */
+.sidebar { min-height: 0; overflow: hidden; }
+.conversation-list { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.conversation-card .card-date { color: var(--text); font-size: .82rem; font-weight: 700; letter-spacing: .01em; margin-bottom: 4px; }
+.message.after-focus { opacity: .34; filter: grayscale(.68); transition: opacity .16s ease, filter .16s ease; }
+.message.after-focus:hover { opacity: .68; filter: grayscale(.35); }
+.message.active { opacity: 1; filter: none; }
+.message-datetime { margin-left: auto; color: var(--text); font-size: .78rem; font-weight: 650; padding: 4px 7px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in srgb, var(--panel-2), transparent 12%); }
+.messages.typealong-active { padding-bottom: 96vh; scroll-behavior: auto; }
+.message.typing .message-body { white-space: pre-wrap; }
+.typing-caret { display: inline-block; width: .11em; min-width: 2px; height: 1.18em; margin-left: .08em; vertical-align: -.18em; background: currentColor; animation: viewer-caret-blink .82s steps(1,end) infinite; }
+@keyframes viewer-caret-blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }

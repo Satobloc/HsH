@@ -15,7 +15,7 @@
     "sidebar", "sidebarToggle", "conversationFilter", "showDevelopment", "showLive", "conversationList",
     "conversationMeta", "conversationTitle", "prevConversation", "nextConversation", "copyLink", "sourceLink",
     "threadSearch", "searchPrev", "searchNext", "searchStatus", "speakerFilters", "timeline", "timelineMarks",
-    "positionLabel", "previousMessage", "nextMessage", "replayToggle", "replayMode", "replaySpeed", "replayStatus",
+    "positionLabel", "previousMessage", "nextMessage", "replayToggle", "replayMode", "replaySpeed", "replayStatus", "messageDateTime",
     "viewerNotice", "messages", "loadMoreSentinel", "searchDrawer", "closeSearchDrawer", "searchResults"
   ];
   const el = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
@@ -37,6 +37,12 @@
     if (!value) return "date unknown";
     const d = new Date(value);
     return Number.isNaN(d.getTime()) ? String(value) : d.toLocaleString([], { year:"numeric", month:"short", day:"numeric", hour:"numeric", minute:"2-digit" });
+  }
+
+  function formatDay(value) {
+    if (!value) return "Date unknown";
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? String(value) : d.toLocaleDateString([], { year:"numeric", month:"short", day:"numeric" });
   }
 
   function esc(s) {
@@ -183,9 +189,10 @@
     });
     el.conversationList.innerHTML = state.filteredCatalog.map(c => `
       <div class="conversation-card ${state.conversation?.id === c.id ? "active" : ""}" data-id="${c.id}">
+        <div class="card-date">${esc(formatDay(c.start_local))}</div>
         <div class="title">${esc(c.title)}</div>
         <div class="meta"><span class="badge ${c.corpus === "live" ? "live" : ""}">${esc(c.corpus)}</span>
-        <span>${Number(c.message_count).toLocaleString()} msgs</span><span>${esc(formatDate(c.start_local).replace(/,.*$/, ""))}</span></div>
+        <span>${Number(c.message_count).toLocaleString()} msgs</span></div>
       </div>`).join("");
     el.conversationList.querySelectorAll(".conversation-card").forEach(card => card.addEventListener("click", () => loadConversation(card.dataset.id, 0, true)));
   }
@@ -250,7 +257,7 @@
     target = Math.min(target, state.messages.length);
     const frag = document.createDocumentFragment();
     while (state.rendered < target) { frag.appendChild(renderMessage(state.rendered)); state.rendered += 1; }
-    el.messages.appendChild(frag); applySpeakerFilters(); highlightRendered();
+    el.messages.appendChild(frag); applySpeakerFilters(); highlightRendered(); updateFocusClasses(state.activeIndex);
   }
 
   function ensureRendered(index) { if (index >= state.rendered) renderNext(index + 20); }
@@ -272,12 +279,19 @@
     el.messages.classList.add("typealong-active");
   }
 
-  function pinTypingEdge(body) {
-    if (!body || !state.replay.follow) return;
-    const viewport = el.messages.getBoundingClientRect(), edge = body.getBoundingClientRect().bottom;
-    const target = viewport.top + viewport.height * 0.25;
-    const delta = edge - target;
+  function pinTypingCaret(caret) {
+    if (!caret || !state.replay.follow) return;
+    const viewport = el.messages.getBoundingClientRect(), rect = caret.getBoundingClientRect();
+    const target = viewport.top + 28;
+    const delta = rect.top - target;
     if (Math.abs(delta) > 1) el.messages.scrollTop += delta;
+  }
+
+  function updateFocusClasses(index) {
+    el.messages.querySelectorAll(".message").forEach(node => {
+      const n = Number(node.dataset.index);
+      node.classList.toggle("after-focus", Number.isFinite(n) && n > index);
+    });
   }
 
   function setActive(index, writeUrl = true) {
@@ -286,6 +300,9 @@
     el.timeline.value = String(index); el.positionLabel.textContent = `${index + 1} / ${state.messages.length}`;
     el.messages.querySelectorAll(".message.active").forEach(x => x.classList.remove("active"));
     const node = document.getElementById(`m${index + 1}`); if (node) node.classList.add("active");
+    updateFocusClasses(index);
+    const currentTime = state.messages[index]?.createTime;
+    if (el.messageDateTime) el.messageDateTime.textContent = currentTime ? `📅 ${new Date(currentTime * 1000).toLocaleString([], { year:"numeric", month:"short", day:"numeric", hour:"numeric", minute:"2-digit" })}` : "📅 time unavailable";
     if (writeUrl) updateUrl(index, true);
   }
 
@@ -398,12 +415,15 @@
     const charsPerSecond = 48 * replaySpeed(index); let shown = 0;
     state.replay.currentIndex = index; state.replay.shown = 0;
     state.replay.forceComplete = false; state.replay.forceAdvance = false; state.replay.follow = true;
-    node.classList.add("typing"); body.textContent = ""; pinTypingEdge(body);
+    node.classList.add("typing");
+    const textNode = document.createTextNode("");
+    const caret = document.createElement("span"); caret.className = "typing-caret"; caret.setAttribute("aria-hidden", "true");
+    body.replaceChildren(textNode, caret); pinTypingCaret(caret);
     while (shown < text.length && state.replay.running && token === state.replay.token) {
-      if (state.replay.forceComplete) { shown = text.length; body.textContent = text; state.replay.shown = shown; break; }
+      if (state.replay.forceComplete) { shown = text.length; textNode.nodeValue = text; state.replay.shown = shown; pinTypingCaret(caret); break; }
       shown = Math.min(text.length, shown + Math.max(1, Math.round(charsPerSecond / 20)));
-      state.replay.shown = shown; body.textContent = text.slice(0, shown); pinTypingEdge(body);
-      if (!await wait(50, token)) { node.classList.remove("typing"); return false; }
+      state.replay.shown = shown; textNode.nodeValue = text.slice(0, shown); pinTypingCaret(caret);
+      if (!await wait(50, token)) { node.classList.remove("typing"); caret.remove(); return false; }
     }
     body.textContent = text; state.replay.shown = text.length; state.replay.forceComplete = false; node.classList.remove("typing");
     return state.replay.running && token === state.replay.token;
