@@ -2,7 +2,7 @@
 
 ## HSH-P001 — Tubular-Neighborhood Typing for Finite-Core H(s)H Representations
 
-- **One-sentence claim:** A center history in a four-dimensional ambient model naturally separates a full `B^3) normal core, a possible `B^2` material subbundle, an `S^2` core boundary, and finite-thickness resolving readout; these roles are dimensionally related but not interchangeable without explicit inclusion and readout maps.
+- **One-sentence claim:** A center history in a four-dimensional ambient model naturally separates a full `B^3` normal core, a possible `B^2` material subbundle, an `S^2` core boundary, and finite-thickness resolving readout; these roles are dimensionally related but not interchangeable without explicit inclusion and readout maps.
 - **Maturity:** `SKELETON / MATHEMATICAL BASELINE FROZEN, MODEL SELECTION OPEN`
 - **Scope and epistemic boundary:** local smooth differential geometry of a represented history; no claim about inaccessible physical reality or particle identity.
 - **Definitions/setup:** embedded curve `gamma: I -> M^4`; normal bundle; tubular neighborhood; rank-two subbundle; boundary; transverse hypersurface; finite-thickness resolver.
