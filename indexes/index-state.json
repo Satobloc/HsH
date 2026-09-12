@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 863890938,
+    "bytes_known": 863909878,
     "directories": 50,
     "files": 595
   },
@@ -627,7 +627,7 @@
       "size": 49
     },
     {
-      "content_id": "c0d57c6c328ee0fe753b21f5317622a004b498ba74d47076e067bdc5ee48d3af",
+      "content_id": "be2c800b21669ba04323f633d4d43a456ba2fd0c630a0b8e4442780ff9decbe1",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4414,11 +4414,11 @@
       "size": 4323
     },
     {
-      "content_id": "927059be7cd547a5f2d5a95ceef61577a16e27de90968d5974356c5eeb4bd201",
+      "content_id": "42e11f8049f541e13d72958b9237c44bad3fcb5932c41894948cca348a8a184a",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CHECKINS.md",
       "role": "llm-workspace",
-      "size": 67712
+      "size": 80667
     },
     {
       "content_id": "6a72eb1ce14bec7571f926cdefbac3657f23bb67dfda8604402b3fb30d12e242",
@@ -4491,11 +4491,11 @@
       "size": 8075
     },
     {
-      "content_id": "e75f48ff202f4ed7da73b6511819940ad18896ae3c956bc06b8248439b661734",
+      "content_id": "47eca3c2520ca69820cd52313f97de3fc0df6b53bdfd35cb5613bbdd980da546",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md",
       "role": "llm-workspace",
-      "size": 14651
+      "size": 20636
     },
     {
       "content_id": "aafbb625a428dd38aa9d54b3cff627c12fc5748383eb3101fed94515f8627a86",
@@ -4750,7 +4750,7 @@
       "size": null
     },
     {
-      "content_id": "2d7005b1c887e8bca5bb0b6592b1eb4026ec5969aab4c1c16bb9af1b6d1ec5df",
+      "content_id": "cb1585a14b7073d16129c9c4f6f5448cc0f2d3dc5a0303859f6b008a10db0929",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4764,7 +4764,7 @@
       "size": 8625
     },
     {
-      "content_id": "de39c25285313f0cb1dccd2eddc2b16691447944cba89aacce9afd4aedbf590a",
+      "content_id": "9e6b9ed180328f723e93b5da115b527c25dd1cf13c2d8756ae2f27b2bc1b6c9e",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -4785,14 +4785,14 @@
       "size": null
     },
     {
-      "content_id": "689990f9770874f7b8d51900748a4b374da94fde83137a57c38774f7c84a53cc",
+      "content_id": "e11941439566b83cb3d029722f7ed3af24c1485fee5faa2940d8ec91e7d60802",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 178832
     },
     {
-      "content_id": "5ec2bab764d243a957d7acf40f849471f1b0c44e376a2a0ef9445d70816a4ca4",
+      "content_id": "cdb80a291c0f848c62fa99bfb82c2d89106dc550b4fef116dbc26e0201216f57",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5010,8 +5010,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T11:57:16+00:00",
+  "scanned_at_utc": "2026-09-12T11:58:54+00:00",
   "schema_version": 1,
-  "tree_id": "a6e259d8ba8407f734ce1b07911d89007bb8a0700a5b91e6f5fb21cc7c0f7508",
+  "tree_id": "b03f23beab105f44815928e824da9cbea0a632096ec9943343946ba1f94b0827",
   "tree_response_truncated": false
 }

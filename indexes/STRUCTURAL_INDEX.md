@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T11:57:16+00:00`
-- Tree/content state: `a6e259d8ba8407f734ce1b07911d89007bb8a0700a5b91e6f5fb21cc7c0f7508`
+- Scanned: `2026-09-12T11:58:54+00:00`
+- Tree/content state: `b03f23beab105f44815928e824da9cbea0a632096ec9943343946ba1f94b0827`
 - Coverage: 595 files, 50 directories
 - GitHub tree response truncated: `false`
 
@@ -799,7 +799,7 @@
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 4323 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKINS.md` — 67712 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS.md` — 80667 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COORDINATION.md` — 7398 bytes — `llm-workspace`
@@ -810,7 +810,7 @@
 - `WORKSPACES/COMMON/HANDOFFS.md` — 2255 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 8477 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 14651 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
