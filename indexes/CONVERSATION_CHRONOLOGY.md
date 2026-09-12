@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:18:37.875767+00:00`
+- Generated: `2026-09-12T13:19:52.923464+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **345**
+- Dated conversation exports: **348**
 - Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -281,11 +281,14 @@
 | 2026-06-23 | 2026-06-23 | [SAT Overview and Details](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.23%E2%80%A226.06.23%E2%80%A2SAT%20Overview%20and%20Details%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 20 |  |  |
 | 2026-06-23 | 2026-07-05 | [SAT Overview](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23%E2%80%A226.07.05%E2%80%A2SAT%20Overview%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 837 |  |  |
 | 2026-06-27 | 2026-06-27 | [SAT Theory Unification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.27%E2%80%A226.06.27%E2%80%A2SAT%20Theory%20Unification%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 4 |  |  |
+| 2026-06-28 | 2026-06-28 | [AI and Scientific Enrollment](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.28%E2%80%A226.06.28%E2%80%A2AI%20and%20Scientific%20Enrollment%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 30 |  |  |
+| 2026-06-30 | 2026-09-12 | [Test Message Confirmation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.30%E2%80%A226.09.12%E2%80%A2Test%20Message%20Confirmation%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 53 |  |  |
 | 2026-07-02 | 2026-08-26 | [Allo conversation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.07.02%E2%80%A226.08.26%E2%80%A2Allo%20conversation%20%E2%80%94%20raw.json) | `SAT_CONVOS_6` | 135 |  |  |
 | 2026-07-05 | 2026-07-18 | [Mathematical Tool Exploration](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.05%E2%80%A226.07.18%E2%80%A2Mathematical%20Tool%20Exploration%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 554 |  |  |
 | 2026-07-06 | 2026-07-22 | [WolframAlpha Integration Guide](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.06%E2%80%A226.07.22%E2%80%A2WolframAlpha%20Integration%20Guide%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 900 |  | 1 user/assistant messages lacked timestamps |
 | 2026-07-07 | 2026-07-12 | [🥼 Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07%E2%80%A226.07.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 460 |  |  |
 | 2026-07-07 | 2026-07-12 | [Raindrop Exploration](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.07.07%E2%80%A226.07.12%E2%80%A2Raindrop%20Exploration%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 460 |  |  |
+| 2026-07-07 | 2026-07-08 | [Spacetime Manifold Notation](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07%E2%80%A226.07.08%E2%80%A2Spacetime%20Manifold%20Notation%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 240 |  |  |
 | 2026-07-08 | 2026-07-30 | [SAT Daily Action](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.07.08%E2%80%A226.07.30%E2%80%A2SAT%20Daily%20Action%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 430 |  | 1 user/assistant messages lacked timestamps |
 | 2026-07-08 | 2026-09-07 | [SAT Daily Action](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.07.08%E2%80%A226.09.07%E2%80%A2SAT%20Daily%20Action%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 435 |  |  |
 | 2026-07-08 | 2026-07-08 | [Freeze SAT Object Hierarchy](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08%E2%80%A226.07.08%E2%80%A2Freeze%20SAT%20Object%20Hierarchy%20%E2%80%94%20raw%20-%20.txt) | `SAT_CONVOS_1` | 6 | D13 |  |
