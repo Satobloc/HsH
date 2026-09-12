@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1021197862,
+    "bytes_known": 1022277317,
     "directories": 54,
-    "files": 665
+    "files": 667
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,10 +13,10 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 365,
+    ".json": 366,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 117,
+    ".md": 118,
     ".pdf": 5,
     ".png": 28,
     ".py": 12,
@@ -37,9 +37,9 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 48,
+    "llm-workspace": 49,
     "review-ledger": 5,
-    "source-conversation-corpus": 442,
+    "source-conversation-corpus": 443,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -50,7 +50,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 442,
+    "DEVELOPMENT_FULL_CONVOS": 443,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -60,7 +60,7 @@
     "NEW_PAPERS": 3,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 48,
+    "WORKSPACES": 49,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -646,7 +646,7 @@
       "size": 49
     },
     {
-      "content_id": "476d4da064aa6009ca0df135058dfdf31c7f3b630221a116efd659f7a25da0ad",
+      "content_id": "df2785eb1b2f6858f4b4f4c80893cf9c1cc0d586961dc62eb2bf4c4137e8846e",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -2653,6 +2653,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json",
       "role": "source-conversation-corpus",
       "size": 3513429
+    },
+    {
+      "content_id": "5ec72244ce1ead61c9ced6e54e38972d516c1e8b9e0372e90718eb76071f595f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1059025
     },
     {
       "content_id": "f416da49d1bde64295873fc91e1faf030f1925b8424f27f5e5a48c5643ce3ff2",
@@ -4993,6 +5000,13 @@
       "size": 27898
     },
     {
+      "content_id": "7147c490a26521746b51718492c779a3a1b04697205cd80fe4a2b9ec4d543121",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_KAR_HNN_ARXIV_RADIO_2026-09-12.md",
+      "role": "llm-workspace",
+      "size": 19679
+    },
+    {
       "content_id": "1014521ca2408c429594e43015d9240cee74b7694c8d49a6fc5de2bc3b89f752",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_STACKED_HOLONOMY_2026-09-12.md",
@@ -5287,11 +5301,11 @@
       "size": null
     },
     {
-      "content_id": "9b7dca3ae7bb60515f95bce4afc5697fc310b49bc9c040a72a70ecba15c3b96c",
+      "content_id": "89d3e31a56236f860c0f6829a6fe6047473ef6a481a0453079567666eb62fdfb",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 117087
+      "size": 117285
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5301,7 +5315,7 @@
       "size": 8625
     },
     {
-      "content_id": "326ea5d729a090c394b0b851814ab3cfab6749485043038b0470b5c8d693ed99",
+      "content_id": "49f245580665066130e7584489e9a1a15b3e5df7333429d4ce3e2d0d9e18d8a7",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5322,14 +5336,14 @@
       "size": null
     },
     {
-      "content_id": "af33bb01f4a839a717a614f78eb4f906d8c0587bbb64f85bb7f7ef71109d6f7a",
+      "content_id": "53616c693bda9102877a6fa1b2dbe89033a80a200636d73c7dc591ae268292f6",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 202537
+      "size": 203090
     },
     {
-      "content_id": "667923e96c4b55cd97c08a3f4f4ca6e1cc76a95025d3767d298365fbef2594de",
+      "content_id": "d1c9ff2cb49c10709d29cee937df085810e35ee409c33b99a821199f510d5cec",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5547,8 +5561,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T14:42:17+00:00",
+  "scanned_at_utc": "2026-09-12T14:47:13+00:00",
   "schema_version": 1,
-  "tree_id": "f287fac9cf0f2866b949f6261ed5754e3718a8cf5dc4e22b77de2ec4b3db3d22",
+  "tree_id": "0ecf272616ebc2de1b83a8acc377eaa665fee0f9f4f3cc2d8e63cf6921aa2716",
   "tree_response_truncated": false
 }

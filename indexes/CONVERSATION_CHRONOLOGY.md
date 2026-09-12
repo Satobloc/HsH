@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T14:42:17.112292+00:00`
+- Generated: `2026-09-12T14:47:12.767205+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **373**
+- Dated conversation exports: **374**
 - Skipped non-conversation or unparseable files: **48**
 - Exact duplicate-content groups: **44**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -329,6 +329,7 @@
 | 2026-08-01 | 2026-08-03 | [Suno Song Interpretation —  .txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.01%E2%80%A226.08.03%E2%80%A2Suno%20Song%20Interpretation%20%E2%80%94%20%20.txt) | `LONG_CONVOS` | 496 |  |  |
 | 2026-08-01 | 2026-08-04 | [Suno Song Hook Ideas —  .txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.08.01%E2%80%A226.08.04%E2%80%A2Suno%20Song%20Hook%20Ideas%20%E2%80%94%20%20.txt) | `SAT_CONVOS_4` | 372 |  |  |
 | 2026-08-04 | 2026-08-05 | [1970s Working Class Rewrite](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.08.04%E2%80%A226.08.05%E2%80%A21970s%20Working%20Class%20Rewrite%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 38 |  |  |
+| 2026-08-10 | 2026-08-10 | [Token Prediction and Compression](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token%20Prediction%20and%20Compression%20%E2%80%94%20raw.json) | `SAT_CONVOS_15` | 81 |  |  |
 | 2026-08-19 | 2026-08-20 | [File Set Overview](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.19%E2%80%A226.08.20%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 1237 |  |  |
 | 2026-08-22 | 2026-08-22 | [Coining Oopsistic Terms](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.22%E2%80%A226.08.22%E2%80%A2Coining%20Oopsistic%20Terms%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 138 |  |  |
 | 2026-08-23 | 2026-08-23 | [FromDayOne.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.08.23%E2%80%A226.08.23%E2%80%A2FromDayOne.txt) | `SAT_CONVOS_6` | 125 |  |  |
