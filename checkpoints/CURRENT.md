@@ -1,14 +1,13 @@
 # Current Integration Checkpoint
 
-1. **Synthesis advance:** Applied Ravel's direct roster correction: the Kerr package is a provisionally quarantined reference/anatomy artifact, not the selected finite-core carrier.
-2. **Finite-core comparison:** Kerr/ER is now an overlay requiring an explicit map into `B^3`, `B^2`, `S^2`, boundary, and readout roles. It is not a fifth carrier type and does not establish the layered candidate.
-3. **Status change:** Nathan's Kerr/ER-worldtube direction remains `SRC/ACTIVE`; standard Kerr identities retain `STD/DERIVED` scope; the electron-scale assignment, surviving shell/carrier anatomy, and H(s)H coupling remain `SAT/CANDIDATE`, while `KERR_CORE_BASELINE.md` is `QUARANTINED` pending dependency audit.
-4. **Invariant/residual status:** no new invariant promoted. FC-BASE-001 through 004 remain scoped as stated. The baseline's circuit/Zitterbewegung/Compton identities are algebraic consequences of the selected `a=hbar/(2m_ec)`, not independent confirmation.
-5. **Prediction ledger:** PRED-FC-001 remains `UNFROZEN`; PRED-FC-002/003 remain `CANDIDATE`. No Kerr-scale prediction is admissible from the quarantined package.
-6. **Paper pipeline:** HSH-P001 remains `TECHNICAL OUTLINE / LOCAL LEMMAS FROZEN, MODEL AND EMPIRICAL CLAIMS OPEN`; the Kerr assignment is explicitly excluded from its premises.
-7. **Team/source check:** Ravel's firsthand check-in was read completely and controls this status change. New former-instance reports—including stacked-holonomy and pulsar/worldline summaries—are provenance leads with explicit quarantine warnings, not promoted derivations. New archive uploads were roster/working-group controls or raw-conversation additions; Drive returned no controlling finite-core artifact.
-8. **Exact next handoff:** Ravel should produce the source-typed electron-like Kerr/Kerr-Newman survival table and dependency audit, then state which—if any—surviving structure supplies bulk, material support, boundary, director, and resolver coupling.
+1. **Synthesis advance:** Added FC-BASE-005: a fixed-total-speed Euclidean helix cannot also have axial speed `c` and nonzero transverse winding.
+2. **Finite-core comparison:** carrier typing is unchanged, but every `B^3/B^2/S^2` or layered candidate must now type its metric, curve parameter, and axial/transverse speed budget before transport, pitch, circulation, or centerline-limit claims can freeze.
+3. **Invariant/residual status:** `wdot^2+(R omega)^2=c^2` and the implication `wdot=c => R omega=0` are `STD/DERIVED/FROZEN` only for a constant-radius, orthogonal, Euclidean local helix. Variable radius, nesting, nonorthogonal frames, phase speed, and Lorentzian/null motion remain `OPEN`.
+4. **Prediction ledger:** PRED-FC-004 added as `UNFROZEN`; it becomes testable only after the active kernel supplies an operational speed/readout map. PRED-FC-001 remains `UNFROZEN`; PRED-FC-002/003 remain `CANDIDATE`.
+5. **Paper pipeline:** HSH-P002 created as `SKELETON / LOCAL LEMMA FROZEN; H(s)H APPLICATION OPEN`. HSH-P001 is unchanged.
+6. **Team/source check:** no current worker returned a finite-core handoff. The source was a complete 130-line former-instance closure-audit report (`SRC/HISTORICAL-QUARANTINED`); its speed check was independently reduced to elementary standard algebra. Drive supplied no controlling artifact. Other new uploads are raw conversations or former-instance reports.
+7. **Exact next handoff:** Ravel should type the active 4DHH/H(s)H curve parameter, metric, and meaning of `c`, then return the admissible nontrivial helical velocity relation—including radial, frame, and nesting terms actually retained.
 
-**Earliest open dependency:** the over-extreme survival/anatomy table plus a clean map from any surviving Kerr/ER structure to the finite-core carrier hierarchy.
+**Earliest open dependency:** decide whether the active kernel uses a Euclidean fixed-total-speed parametrization, resolver-relative axial propagation, phase speed, or a Lorentzian null/timelike constraint.
 
-**Preserved guards:** old `T≈c^4/G`, Kerr scale, legacy angles, lattice, and mass formulas are not premises. Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
+**Preserved guards:** the result does not select a carrier or revive legacy `B`, angles, mass laws, lattice, Kerr scale, or `c^4/G`. Preserved cursors: `4DHH-UC BUILDOUT DEV.txt` line 1,201; `SAT to H(s)H TRANSITION.txt` line 4,801; `SPHERE4QC.txt` line 1,301.
