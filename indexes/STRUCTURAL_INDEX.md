@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T17:16:00+00:00`
-- Tree/content state: `548f987bfb362d97152e67d74112150ec14ca12553a72c80bd27c0333bc66589`
-- Coverage: 695 files, 54 directories
+- Scanned: `2026-09-12T17:17:44+00:00`
+- Tree/content state: `591a7063931df1c8668bae841e5c55a05273fbe78a2b58abaf9255cc7c64afa4`
+- Coverage: 697 files, 54 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -25,7 +25,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 65 |
+| `WORKSPACES` | 67 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 | `.json` | 376 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 134 |
+| `.md` | 136 |
 | `.pdf` | 5 |
 | `.png` | 30 |
 | `.py` | 12 |
@@ -76,7 +76,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 65 |
+| `llm-workspace` | 67 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 455 |
 | `synthesis-workspace` | 6 |
@@ -889,6 +889,7 @@
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 4643 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -924,6 +925,7 @@
 - `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md` — 2052 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md` — 2085 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 8914 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
