@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 954991203,
+    "bytes_known": 974025344,
     "directories": 53,
-    "files": 644
+    "files": 648
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -13,7 +13,7 @@
     ".html": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 350,
+    ".json": 354,
     ".jsonl": 1,
     ".lean": 3,
     ".md": 113,
@@ -38,7 +38,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 44,
     "review-ledger": 5,
-    "source-conversation-corpus": 425,
+    "source-conversation-corpus": 429,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 90,
@@ -49,7 +49,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 425,
+    "DEVELOPMENT_FULL_CONVOS": 429,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -170,7 +170,8 @@
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
         "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json"
       ]
     },
     {
@@ -629,11 +630,11 @@
       "size": 49
     },
     {
-      "content_id": "6dfdeb4835664e00adf60b0526096775acabd078de84bc262eff37bdb2ac656a",
+      "content_id": "298e76ba87ff85b657caf014f172a714eaeea2de99f346c473aae1289502b913",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 317933
+      "size": 321441
     },
     {
       "content_id": null,
@@ -2323,9 +2324,23 @@
       "size": 5741114
     },
     {
+      "content_id": "8491524758f73cf11dfe5bc04837b743e89e54fd2c656e57f9a402b6cdbccb9e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 AI Archive Test Run — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7449077
+    },
+    {
       "content_id": "19c0af879da7465421ebd54928386297a747789e99de410dcdcfe6e71f525e02",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 2201325
+    },
+    {
+      "content_id": "3f893c70ad821f4ab1a7bd398adc9fcc9396123197b02e9d7a14df9a38c50a0a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08•26.09.08•🧮 arXiv keyword scraping script — raw.json",
       "role": "source-conversation-corpus",
       "size": 2201325
     },
@@ -2377,6 +2392,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.09.12•Rotations in Higher Dimensions — raw.json",
       "role": "source-conversation-corpus",
       "size": 265229
+    },
+    {
+      "content_id": "24bcd78518dcf2d609f58a5a20c7eecd1ef98ce8f2a022f5f93782847cc582ae",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 7964873
     },
     {
       "content_id": "88583caafb67e4d1ae96e905ec1c155d9b19a90b4581badbd0857646ce8b0356",
@@ -2487,6 +2509,13 @@
       "content_id": "c0a95a946f26a20996cbf3c8e4388c3c4ca2b9d949bab05b38b71fe3b6ccfd42",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 1412275
+    },
+    {
+      "content_id": "25dae05f645c001916e4f65905d81ad5910f228e70ed418f78f50d873e522971",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08•26.09.09•🧮 RECENT arXiv PAPERS — raw.json",
       "role": "source-conversation-corpus",
       "size": 1412275
     },
@@ -5116,11 +5145,11 @@
       "size": null
     },
     {
-      "content_id": "25d489ccbcc8ece155fc95110dfffeb2c42664f3d838fb8ddd251761ff72a56b",
+      "content_id": "ee6a8082e57a6f6783702ff9d9d1be5d1de385fe821d378da810332eb4281cea",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 112695
+      "size": 113862
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -5130,7 +5159,7 @@
       "size": 8625
     },
     {
-      "content_id": "b473c09bd1025944024c86f698414f271fa94e7de8757e8d36d3ce53d91c4bab",
+      "content_id": "4e54fad703fd48e8dc26e24cef7ed39492753f42fc4f6b001c15d6b17598e663",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -5151,14 +5180,14 @@
       "size": null
     },
     {
-      "content_id": "c097e5248eba275af25b7a6318a14a87a91a32aecb8e2eb3670c09d27566e393",
+      "content_id": "0de97cd0d7a75b28155b43d7d9a444488f480435065564d0885db6bbe64a53ab",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 194442
+      "size": 196358
     },
     {
-      "content_id": "67f1d24034753c0e1aa1e1e50f8ab7df20feb0eb996b81a88a907359cf532d2e",
+      "content_id": "9f360e3d0cd10bf2258a7c8821c4074f4ceda84fb0f44d5ca343529aa5a07929",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -5376,8 +5405,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T13:25:56+00:00",
+  "scanned_at_utc": "2026-09-12T13:27:05+00:00",
   "schema_version": 1,
-  "tree_id": "d0f64a64bb3e96977f753184b0dda3963b1235665bcc0e66cd8e74d471f17caa",
+  "tree_id": "b3e694582f6f7bbb55528033c2908073a8f842f192a455ee30c98dbb69dd3004",
   "tree_response_truncated": false
 }

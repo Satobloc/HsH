@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-12T13:25:55.663693+00:00`
+- Generated: `2026-09-12T13:27:05.165850+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **358**
+- Dated conversation exports: **362**
 - Skipped non-conversation or unparseable files: **47**
 - Exact duplicate-content groups: **42**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -271,9 +271,11 @@
 | 2026-06-05 | 2026-06-06 | [Trends in Geometric Unification](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.06.05%E2%80%A226.06.06%E2%80%A2Trends%20in%20Geometric%20Unification%20%E2%80%94%20raw.json) | `SAT_CONVOS_5` | 138 |  |  |
 | 2026-06-07 | 2026-06-10 | [Geometry in Physics](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07%E2%80%A226.06.10%E2%80%A2Geometry%20in%20Physics%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 1316 |  | 1 user/assistant messages lacked timestamps |
 | 2026-06-07 | 2026-09-08 | [Geometry in Physics](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.07%E2%80%A226.09.08%E2%80%A2Geometry%20in%20Physics%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 1294 |  |  |
+| 2026-06-08 | 2026-09-08 | [🧮 AI Archive Test Run](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20AI%20Archive%20Test%20Run%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 716 |  |  |
 | 2026-06-08 | 2026-09-08 | [AI Archive Test Run](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2AI%20Archive%20Test%20Run%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 716 |  |  |
 | 2026-06-08 | 2026-06-08 | [arXiv keyword scraping script](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.06.08%E2%80%A226.06.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw.json) | `SAT_CONVOS_7` | 5 |  |  |
 | 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 209 |  |  |
+| 2026-06-08 | 2026-09-08 | [🧮 arXiv keyword scraping script](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.06.08%E2%80%A226.09.08%E2%80%A2%F0%9F%A7%AE%20arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 209 |  |  |
 | 2026-06-08 | 2026-09-08 | [arXiv keyword scraping script — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.06.08%E2%80%A226.09.08%E2%80%A2arXiv%20keyword%20scraping%20script%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_9` | 209 |  |  |
 | 2026-06-16 | 2026-06-16 | [Where is Velserbroek](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.06.16%E2%80%A226.06.16%E2%80%A2Where%20is%20Velserbroek%20%E2%80%94%20raw.json) | `SAT_CONVOS_4` | 351 |  |  |
 | 2026-06-22 | 2026-06-22 | [Cosmological Constant Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.06.22%E2%80%A226.06.22%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 50 |  |  |
@@ -302,6 +304,7 @@
 | 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill — raw - Copy.txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw%20-%20Copy.txt) | `LONG_CONVOS` | 461 | D08 |  |
 | 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `LONG_CONVOS` | 461 | D08 |  |
 | 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 461 | D08 |  |
+| 2026-07-11 | 2026-07-17 | [Reasoning with SAT-HSH Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 461 | D08 |  |
 | 2026-07-11 | 2026-09-12 | [Scientific Presentation Critique](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.09.12%E2%80%A2Scientific%20Presentation%20Critique%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 36 |  |  |
 | 2026-07-13 | 2026-07-13 | [Brownian motion and molecular mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.07.13%E2%80%A226.07.13%E2%80%A2Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 35 |  |  |
 | 2026-07-13 | 2026-09-12 | [Brownian motion and molecular mass](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.13%E2%80%A226.09.12%E2%80%A2Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 36 |  |  |
@@ -372,6 +375,7 @@
 | 2026-09-08 | 2026-09-08 | [H(s)H Team Orchestrator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2H%28s%29H%20Team%20Orchestrator%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2026-09-08 | 2026-09-08 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 13 |  |  |
 | 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_13` | 114 |  |  |
+| 2026-09-08 | 2026-09-09 | [🧮 RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.09%E2%80%A2%F0%9F%A7%AE%20RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 114 |  |  |
 | 2026-09-08 | 2026-09-09 | [RECENT arXiv PAPERS](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.08%E2%80%A226.09.09%E2%80%A2RECENT%20arXiv%20PAPERS%20%E2%80%94%20raw.json) | `SAT_CONVOS_9` | 114 |  |  |
 | 2026-09-08 | 2026-09-08 | [Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08%E2%80%A226.09.08%E2%80%A2Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_11` | 70 |  |  |
 | 2026-09-08 | 2026-09-08 | [⚒️ Build Geometry Coding Skill](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.08%E2%80%A226.09.08%E2%80%A2%E2%9A%92%EF%B8%8F%20Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `SAT_CONVOS_13` | 70 |  |  |
@@ -428,6 +432,7 @@
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw%20-%20Copy.txt)
 - [DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11%E2%80%A226.07.17%E2%80%A2Reasoning%20with%20SAT-HSH%20Skill%20%E2%80%94%20raw.json)
 
 ### D09
 
