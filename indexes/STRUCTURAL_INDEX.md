@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T10:05:46+00:00`
-- Tree/content state: `3472c47dfa1710fe7e4127119d0474f3b539b713c0b34cd532633bd64208d2f1`
+- Scanned: `2026-09-12T10:06:27+00:00`
+- Tree/content state: `881bb18fb26a9907510db1a04de360186a7573d57b45496db910074292d94d2b`
 - Coverage: 577 files, 49 directories
 - GitHub tree response truncated: `false`
 
@@ -763,7 +763,7 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 2307 bytes — `unclassified`
+- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 2722 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
 - `README.md` — 37331 bytes — `visitor-interface`
@@ -798,17 +798,17 @@
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COORDINATION.md` — 3333 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/HANDOFFS.md` — 1020 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFFS.md` — 1411 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 1978 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6106 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6096 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md` — 13676 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 5518 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
 - `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
-- `checkpoints/CURRENT.md` — 2403 bytes — `checkpoint`
+- `checkpoints/CURRENT.md` — 2359 bytes — `checkpoint`
 - `formalization/README.md` — 2023 bytes — `formalization-workspace`
 - `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
 - `formalization/equations.json` — 6068 bytes — `formalization-workspace`
@@ -828,9 +828,9 @@
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
-- `ledgers/FINITE_CORE_COMPARISON.md` — 5861 bytes — `review-ledger`
-- `ledgers/PREDICTION_LEDGER.md` — 2189 bytes — `review-ledger`
-- `synthesis/CURRENT_SYNTHESIS.md` — 75593 bytes — `synthesis-workspace`
+- `ledgers/FINITE_CORE_COMPARISON.md` — 7502 bytes — `review-ledger`
+- `ledgers/PREDICTION_LEDGER.md` — 3904 bytes — `review-ledger`
+- `synthesis/CURRENT_SYNTHESIS.md` — 77004 bytes — `synthesis-workspace`
 - `synthesis/FORMALISM_SELECTION.md` — 8044 bytes — `synthesis-workspace`
 - `synthesis/LIVE_REBUILD_STATUS.md` — 5054 bytes — `synthesis-workspace`
 - `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `synthesis-workspace`
