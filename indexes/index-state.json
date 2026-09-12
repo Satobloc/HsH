@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1084970346,
-    "directories": 59,
-    "files": 785
+    "bytes_known": 1085037741,
+    "directories": 60,
+    "files": 812
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -11,6 +11,7 @@
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
+    ".ipynb": 1,
     ".jpg": 17,
     ".js": 4,
     ".json": 394,
@@ -19,7 +20,7 @@
     ".md": 143,
     ".pdf": 17,
     ".png": 37,
-    ".py": 12,
+    ".py": 38,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
@@ -40,7 +41,7 @@
     "live-conversation-corpus": 35,
     "llm-workspace": 73,
     "review-ledger": 5,
-    "source-conversation-corpus": 536,
+    "source-conversation-corpus": 563,
     "synthesis-workspace": 6,
     "tooling-test": 1,
     "unclassified": 91,
@@ -52,7 +53,7 @@
     ".github": 5,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
-    "DEVELOPMENT_FULL_CONVOS": 536,
+    "DEVELOPMENT_FULL_CONVOS": 563,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 36,
@@ -663,7 +664,7 @@
       "size": 49
     },
     {
-      "content_id": "b3bc202be54413173af184672c780da1dc3d7a46eed02a66ce0520ccf2a0f062",
+      "content_id": "1a86d1f3720a5fb18c4d71d008480d366c9e11aedbde38efd0ba235a4ca0cf81",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -3076,6 +3077,202 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json",
       "role": "source-conversation-corpus",
       "size": 109679
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "d735542ac1110abe9bc6b84167eae721664600e528c65c3d41440a512a082513",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/4+link_fallapart.py",
+      "role": "source-conversation-corpus",
+      "size": 1863
+    },
+    {
+      "content_id": "4a9a353180ea7619734c350c844acca0cfd3027ad091652e115a34f780d75760",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/MASTER_CONTROL.py",
+      "role": "source-conversation-corpus",
+      "size": 1606
+    },
+    {
+      "content_id": "0b418e41959869e78db909dd7aa5bb49577db155c9c6209c16de5351fe3680ba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/PROTOCOLS_REF.py",
+      "role": "source-conversation-corpus",
+      "size": 3329
+    },
+    {
+      "content_id": "1930a14a1acb3a4f0b6ae6628aba90c89dca7eaf356a3770a3658eaaf962eae3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT4DCORE_MASTER_STRUCTURE_LOCK.py",
+      "role": "source-conversation-corpus",
+      "size": 6419
+    },
+    {
+      "content_id": "d9a264b37f9297979892a8b264f3d6c3702a9b5518e5690f57d27ee849dda6bc",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT4_MASTER_STRUCTURE_LOCK.py",
+      "role": "source-conversation-corpus",
+      "size": 5545
+    },
+    {
+      "content_id": "1792693092dd80de1262375a69ba929333477d6b194228bffd51bcbae244549a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O1_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 2318
+    },
+    {
+      "content_id": "2643427738fca8a16046df25e143bc6e78cc82672f5813ec5a00a10ff11af703",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O2_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1526
+    },
+    {
+      "content_id": "581917811a68c1a65e089080a6787e2ea96c2637713b13369bfe3e5934d943c2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O3_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1891
+    },
+    {
+      "content_id": "0fd4df7e20fdfc992fd034fe169fddbfa047d5196e90fdb94a41f6e360bf0844",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O4_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1559
+    },
+    {
+      "content_id": "210619d7232793249b6e75ec3b2607ff7957c449cbd65dc6c3d2256372d1ba9e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O5_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1832
+    },
+    {
+      "content_id": "5ed27a7693a731e5e35f8f9c3e742ae39a577deed31a0e729e250d69644b6b69",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O6_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1785
+    },
+    {
+      "content_id": "c3ec17462ad569043658680b261578ed672dc4729cd737bafc4d85208521d383",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O7_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1185
+    },
+    {
+      "content_id": "fdf00256ebeabc480c434dea856fbcacb9a59800c72b3f8c2d049c014cf337d6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O8_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 1107
+    },
+    {
+      "content_id": "dece69b631246da713fd1ada844f4e7cb26441f7494c2d760c11b7e52b1aeb27",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O9_structure_lock.py",
+      "role": "source-conversation-corpus",
+      "size": 976
+    },
+    {
+      "content_id": "fc33dad1e8670f9c8769e80b3c047d9eefb97b25a5c899c54814fad58a93ef79",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SHEPARD.py",
+      "role": "source-conversation-corpus",
+      "size": 3064
+    },
+    {
+      "content_id": "089de1512166df502b72353b3bf857c4b45723ad1632e4ebc31e6543a1fff43b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/baryon_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 1760
+    },
+    {
+      "content_id": "9275f3588dfe86122fb16b33cd24db611683bcbb32cb10e9ceccbc7e3e1a6aba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/borromean_binding.py",
+      "role": "source-conversation-corpus",
+      "size": 2040
+    },
+    {
+      "content_id": "caaf743cd04dd9556bd633d51e728841ead28a5887148a89c2493864e306d88d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/concordance_colab_block_3_fixed.py",
+      "role": "source-conversation-corpus",
+      "size": 4526
+    },
+    {
+      "content_id": "41ed57150ff2ad7125484d105a080bb3cd73eca58a2628f856f3b356e2af6a88",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/helix_intersection_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 2276
+    },
+    {
+      "content_id": "d952c4285b8d5ac7da4f01f8a760f95e598e9b650e367f1f43b1abd61754c131",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/helix_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 5275
+    },
+    {
+      "content_id": "d2d6ebb7e7c0b31fe11036bb9b8ffb7797da7c0d7a21be0358124cff38d3a9ae",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/master_module_loader.py",
+      "role": "source-conversation-corpus",
+      "size": 1153
+    },
+    {
+      "content_id": "8b6ac1f617deadaf14033002f57486e90c54630973379817d9f9a2d1b3d2c6df",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/meson_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 2394
+    },
+    {
+      "content_id": "44b47f95cd09a1d28ef78f112f13e96a4d6ae63f1d246fa83b739946585b9180",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/neutrino_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 1333
+    },
+    {
+      "content_id": "56b9c9f2db8319ee62bcd27d754a520086abad4a4fe4db2bf2574b3db5c7ac6d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/quark_binding.py",
+      "role": "source-conversation-corpus",
+      "size": 2393
+    },
+    {
+      "content_id": "cce8755ae948e9f1c76ef780c2e9f327fb1c2e110ba43a7970b7447cd1aed352",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/sat_diagnostics.ipynb",
+      "role": "source-conversation-corpus",
+      "size": 2945
+    },
+    {
+      "content_id": "1dffa1f5177823fffada7ce4fda5beb4dff064e19f3c8d3eb17e52e420a6ec49",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/theta_4_concept_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 2719
+    },
+    {
+      "content_id": "989b0c9c8c0254da00ac12f2fdf71d40731bab227909cad4ddb53aff405bed03",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/theta_4_visualizer.py",
+      "role": "source-conversation-corpus",
+      "size": 2576
     },
     {
       "content_id": "963404f525d7d96a68bf52c26a566849f8b99603e2d99ef803c37a7431517973",
@@ -6172,7 +6369,7 @@
       "size": null
     },
     {
-      "content_id": "d3abd4a5b5dc26c8941929c24cecc8b275af87d93f04ebf0741c038b45554c57",
+      "content_id": "b2508caf7d5d5faf8937aecb700e5952bf895bc68e20e2fb6d77c684d478aecd",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6186,7 +6383,7 @@
       "size": 8625
     },
     {
-      "content_id": "3d28d5562259226ca448914ff0f7c2de2b85ffdc63312465f8d14907b315681d",
+      "content_id": "dcde42c905e230bd4be48383073bfdd6248c2d65e6b7dacb6dd6d2d60ffe2016",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6207,14 +6404,14 @@
       "size": null
     },
     {
-      "content_id": "ef5ae8e4e330e44367f771ba0c6cd173de88c55a3d73a9e80750b5c42ca75d25",
+      "content_id": "0a885617f91ca482730617f4561a64709803005de5493c96d06303f299083388",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 233093
     },
     {
-      "content_id": "0f82dc579dc32974ead9f2c034bf6991c4d97f6e9e75da48a990d99c4bb0b2a1",
+      "content_id": "1c30b654885e2dda2933999962e67a4c38bd2081ccab47f5c21c584181a65bbe",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6432,8 +6629,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-12T22:42:03+00:00",
+  "scanned_at_utc": "2026-09-12T22:44:24+00:00",
   "schema_version": 1,
-  "tree_id": "48f2bd9defb9fc661a24150235d68f6c67d5030764bded00abd10e327cd07009",
+  "tree_id": "964ea3d3e375e8e58b544f8e6523352910ed4ca815d7732de47cdf4a42454b55",
   "tree_response_truncated": false
 }

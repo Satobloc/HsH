@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T22:42:03+00:00`
-- Tree/content state: `48f2bd9defb9fc661a24150235d68f6c67d5030764bded00abd10e327cd07009`
-- Coverage: 785 files, 59 directories
+- Scanned: `2026-09-12T22:44:24+00:00`
+- Tree/content state: `964ea3d3e375e8e58b544f8e6523352910ed4ca815d7732de47cdf4a42454b55`
+- Coverage: 812 files, 60 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -16,7 +16,7 @@
 | `.github` | 5 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
-| `DEVELOPMENT_FULL_CONVOS` | 536 |
+| `DEVELOPMENT_FULL_CONVOS` | 563 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 36 |
@@ -48,6 +48,7 @@
 | `.docx` | 1 |
 | `.htm` | 1 |
 | `.html` | 1 |
+| `.ipynb` | 1 |
 | `.jpg` | 17 |
 | `.js` | 4 |
 | `.json` | 394 |
@@ -56,7 +57,7 @@
 | `.md` | 143 |
 | `.pdf` | 17 |
 | `.png` | 37 |
-| `.py` | 12 |
+| `.py` | 38 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
@@ -80,7 +81,7 @@
 | `live-conversation-corpus` | 35 |
 | `llm-workspace` | 73 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 536 |
+| `source-conversation-corpus` | 563 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
 | `unclassified` | 91 |
@@ -639,6 +640,33 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O_Glossary_1.pdf` — 129701 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SHEEN.txt` — 119471 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json` — 109679 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/4+link_fallapart.py` — 1863 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/MASTER_CONTROL.py` — 1606 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/PROTOCOLS_REF.py` — 3329 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT4DCORE_MASTER_STRUCTURE_LOCK.py` — 6419 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT4_MASTER_STRUCTURE_LOCK.py` — 5545 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O1_structure_lock.py` — 2318 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O2_structure_lock.py` — 1526 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O3_structure_lock.py` — 1891 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O4_structure_lock.py` — 1559 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O5_structure_lock.py` — 1832 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O6_structure_lock.py` — 1785 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O7_structure_lock.py` — 1185 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O8_structure_lock.py` — 1107 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SAT_O9_structure_lock.py` — 976 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/SHEPARD.py` — 3064 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/baryon_visualizer.py` — 1760 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/borromean_binding.py` — 2040 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/concordance_colab_block_3_fixed.py` — 4526 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/helix_intersection_visualizer.py` — 2276 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/helix_visualizer.py` — 5275 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/master_module_loader.py` — 1153 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/meson_visualizer.py` — 2394 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/neutrino_visualizer.py` — 1333 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/quark_binding.py` — 2393 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/sat_diagnostics.ipynb` — 2945 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/theta_4_concept_visualizer.py` — 2719 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/PYTHON Math Locking (SAT.O)/theta_4_visualizer.py` — 2576 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json` — 342746 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json` — 190928 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt` — 876 bytes — `source-conversation-corpus`
