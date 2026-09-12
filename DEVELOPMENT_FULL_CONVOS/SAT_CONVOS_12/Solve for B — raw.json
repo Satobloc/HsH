@@ -1,0 +1,126 @@
+{
+  "title": "Solve for B",
+  "create_time": 1746350121.228935,
+  "update_time": 1746350123.862409,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68173029-14e4-8002-bf0d-b5892a11e416",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "4ee717ba-80b0-45ed-8937-d9aebb374bc2"
+      ]
+    },
+    "4ee717ba-80b0-45ed-8937-d9aebb374bc2": {
+      "id": "4ee717ba-80b0-45ed-8937-d9aebb374bc2",
+      "message": {
+        "id": "4ee717ba-80b0-45ed-8937-d9aebb374bc2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746350121.823,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, solve for B using the following values:\n1 + A = B / C\n\nA=10.0584\nC=0.4725 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93a6e4a059b3cf42-DFW",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "10d37535-3bd5-45fa-9e8f-18b0e0e702df"
+      ]
+    },
+    "10d37535-3bd5-45fa-9e8f-18b0e0e702df": {
+      "id": "10d37535-3bd5-45fa-9e8f-18b0e0e702df",
+      "message": {
+        "id": "10d37535-3bd5-45fa-9e8f-18b0e0e702df",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746350121.294068,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To solve for \\( B \\), we start with the equation:\n\n\\[\n1 + A = \\frac{B}{C}\n\\]\n\nWe know:\n- \\( A = 10.0584 \\)\n- \\( C = 0.4725 \\)\n\nRearranging the equation to solve for \\( B \\):\n\n\\[\nB = (1 + A) \\times C\n\\]\n\nNow substitute the known values:\n\n\\[\nB = (1 + 10.0584) \\times 0.4725\n\\]\n\n\\[\nB = 11.0584 \\times 0.4725\n\\]\n\nNow, let's calculate that.\n\n\\[\nB = 5.2305\n\\]\n\nSo, the value of \\( B \\) is approximately \\( 5.2305 \\)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "parent_id": "4ee717ba-80b0-45ed-8937-d9aebb374bc2",
+          "request_id": "93a6e4a059b3cf42-DFW",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ee717ba-80b0-45ed-8937-d9aebb374bc2",
+      "children": []
+    }
+  },
+  "current_node": "10d37535-3bd5-45fa-9e8f-18b0e0e702df",
+  "context_truncation_continuation": null
+}

@@ -1,0 +1,126 @@
+{
+  "title": "Solve for B",
+  "create_time": 1746349158.520676,
+  "update_time": 1746349161.509361,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68172c66-104c-8002-b276-c52e2e7058b8",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "45b274bd-9670-427e-bc36-9db808c11980"
+      ]
+    },
+    "45b274bd-9670-427e-bc36-9db808c11980": {
+      "id": "45b274bd-9670-427e-bc36-9db808c11980",
+      "message": {
+        "id": "45b274bd-9670-427e-bc36-9db808c11980",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349158.8,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, solve for B with the following givens:\n1+A=B/C\n\nA=10.957 \nC=0.510998950 \n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93a6cd1d8c378cbe-DFW",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "e2703454-1ae8-4f0e-af9b-0bb0edfe42c3"
+      ]
+    },
+    "e2703454-1ae8-4f0e-af9b-0bb0edfe42c3": {
+      "id": "e2703454-1ae8-4f0e-af9b-0bb0edfe42c3",
+      "message": {
+        "id": "e2703454-1ae8-4f0e-af9b-0bb0edfe42c3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349158.635191,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "We are given the equation:\n\n\\[\n1 + A = \\frac{B}{C}\n\\]\n\nWith values:\n\n- \\( A = 10.957 \\)\n- \\( C = 0.510998950 \\)\n\n### Step 1: Plug in the values\n\\[\n1 + 10.957 = \\frac{B}{0.510998950}\n\\]\n\n\\[\n11.957 = \\frac{B}{0.510998950}\n\\]\n\n### Step 2: Solve for \\( B \\)\n\\[\nB = 11.957 \\times 0.510998950\n\\]\n\n\\[\nB \\approx 6.105295\n\\]\n\n### ✅ Final Answer:\n\\[\nB \\approx 6.1053\n\\]\n\nWould you like this answer with more decimal places or in scientific notation?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "45b274bd-9670-427e-bc36-9db808c11980",
+          "request_id": "93a6cd1d8c378cbe-DFW",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "45b274bd-9670-427e-bc36-9db808c11980",
+      "children": []
+    }
+  },
+  "current_node": "e2703454-1ae8-4f0e-af9b-0bb0edfe42c3",
+  "context_truncation_continuation": null
+}

@@ -1,0 +1,126 @@
+{
+  "title": "Solve for A",
+  "create_time": 1746349091.976209,
+  "update_time": 1746349094.761748,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68172c23-aeb4-8002-a760-c1699b189ff9",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "23b29609-fc41-4194-ad88-a165cc1af384"
+      ]
+    },
+    "23b29609-fc41-4194-ad88-a165cc1af384": {
+      "id": "23b29609-fc41-4194-ad88-a165cc1af384",
+      "message": {
+        "id": "23b29609-fc41-4194-ad88-a165cc1af384",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349092.174,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, solve for A with the following givens:\n\n1+A=B/C\n\nC=0.510998950 \nB=5.65 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93a6cb7d29238cbe-DFW",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "20608f31-c3b1-4686-bc72-e7f3632e1c74"
+      ]
+    },
+    "20608f31-c3b1-4686-bc72-e7f3632e1c74": {
+      "id": "20608f31-c3b1-4686-bc72-e7f3632e1c74",
+      "message": {
+        "id": "20608f31-c3b1-4686-bc72-e7f3632e1c74",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349092.016436,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "We are given the equation:\n\n\\[\n1 + A = \\frac{B}{C}\n\\]\n\nand the values:\n\n- \\( B = 5.65 \\)\n- \\( C = 0.510998950 \\)\n\n### Step 1: Solve for \\( A \\)\n\n\\[\nA = \\frac{B}{C} - 1\n\\]\n\n### Step 2: Plug in the values\n\n\\[\nA = \\frac{5.65}{0.510998950} - 1\n\\]\n\n\\[\nA \\approx 11.05836756 - 1 = 10.05836756\n\\]\n\n### ✅ Final Answer:\n\n\\[\nA \\approx \\boxed{10.0584}\n\\]\n\nWould you like this rounded to a specific number of decimal places?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "23b29609-fc41-4194-ad88-a165cc1af384",
+          "request_id": "93a6cb7d29238cbe-DFW",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "23b29609-fc41-4194-ad88-a165cc1af384",
+      "children": []
+    }
+  },
+  "current_node": "20608f31-c3b1-4686-bc72-e7f3632e1c74",
+  "context_truncation_continuation": null
+}

@@ -1,0 +1,126 @@
+{
+  "title": "Solve for B equation",
+  "create_time": 1746349244.693665,
+  "update_time": 1746349247.802311,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68172cbc-80cc-8002-b1ce-99515e19f371",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "57c8b954-8098-40b6-a8c4-4a78c36eba50"
+      ]
+    },
+    "57c8b954-8098-40b6-a8c4-4a78c36eba50": {
+      "id": "57c8b954-8098-40b6-a8c4-4a78c36eba50",
+      "message": {
+        "id": "57c8b954-8098-40b6-a8c4-4a78c36eba50",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349245.241,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok, solve for B with the following givens:\n1+A=B/C\n\nA'=10.0584\nC=0.510998950 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "93a6cf39cf128cbe-DFW",
+          "message_source": null,
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "f4f71828-1e17-419c-92a9-82aeef3ee6c7"
+      ]
+    },
+    "f4f71828-1e17-419c-92a9-82aeef3ee6c7": {
+      "id": "f4f71828-1e17-419c-92a9-82aeef3ee6c7",
+      "message": {
+        "id": "f4f71828-1e17-419c-92a9-82aeef3ee6c7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746349244.730159,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "We are given the equation:\n\n\\[\n1 + A = \\frac{B}{C}\n\\]\n\nAnd the values:\n\n- \\( A' = 10.0584 \\)\n- \\( C = 0.510998950 \\)\n\nAssuming \\( A' \\) is the value of \\( A \\), we substitute into the equation:\n\n\\[\n1 + 10.0584 = \\frac{B}{0.510998950}\n\\]\n\n\\[\n11.0584 = \\frac{B}{0.510998950}\n\\]\n\nNow solve for \\( B \\):\n\n\\[\nB = 11.0584 \\times 0.510998950\n\\]\n\n\\[\nB \\approx 5.64783\n\\]\n\n### Final Answer:\n\\[\nB \\approx \\boxed{5.64783}\n\\]\n\nWould you like the result with more significant figures or in scientific notation?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "57c8b954-8098-40b6-a8c4-4a78c36eba50",
+          "request_id": "93a6cf39cf128cbe-DFW",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "57c8b954-8098-40b6-a8c4-4a78c36eba50",
+      "children": []
+    }
+  },
+  "current_node": "f4f71828-1e17-419c-92a9-82aeef3ee6c7",
+  "context_truncation_continuation": null
+}
