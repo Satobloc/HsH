@@ -354,6 +354,31 @@ on smooth embeddedness, sufficiently small radius, and transversality. Material
 carrier, topology, dynamics, Kerr/ER identification, `ᚼ` action, and physical
 readout remain `OPEN`.
 
+### Cross-sectional invariants and the local gauge limit of ᚼ
+
+The finite-core cross-section packet adds a bounded result without selecting a
+carrier. Once a fiber measure is declared, normalized covariance invariants
+`I2=tr(S^2)` and `I3=det(S)` distinguish canonical rank-three isotropic
+fibers from canonical rank-two supports, while the scale-free fourth radial
+moment `chi` separates uniform bulk from its uniform boundary. Covariance
+alone cannot separate `B^3` from `S^2`, or `B^2` from `S^1`.
+
+At a transverse linear crossing the normal fiber maps isomorphically to the
+resolver tangent space with Jacobian `|n_Sigma·T|^-1`. This supplies a typed
+local readout relation; it does not yet supply a physical detector or a
+finite-thickness inversion.
+
+Most importantly for the operator programme, local rotation of a perfectly
+isotropic, unmarked `B^3` core is normal-frame gauge. An observable inductive
+angle `ᚼ` must therefore act on or relative to anisotropy, material/boundary
+marking, an external direction, or global holonomy. Merely assigning an angle to
+the normal frame is not a physical perturbation.
+
+**Status:** canonical moment table, simultaneous-frame invariance, transverse
+linear map, and isotropic gauge-null statement `STD/DERIVED/FROZEN` in their
+declared local model; carrier selection, curved/finite-thickness readout,
+constitutive dynamics, and physical interpretation `OPEN`.
+
 ## 3. Type boundary
 
 Current source material explicitly warns against sliding among a centerline, a
