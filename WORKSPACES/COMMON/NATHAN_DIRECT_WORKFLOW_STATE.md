@@ -18,7 +18,9 @@ This file records mutable execution state. Do not treat it as a substitute for r
 
 **PRECISION/WINNOW_READY — durable Nathan Direct landed and bounded structural/provenance audit passed.**
 
-The master unsorted/tagged Nathan-only substrate is now durable on `main` under `indexes/nathan-direct/`. Chronological adjacency plus raw parent/child branch pointers are present. Stage-2 operations may proceed non-destructively, subject to the precision caveat below.
+The master unsorted/tagged Nathan-only substrate is durable on `main` under `indexes/nathan-direct/`. Chronological adjacency plus raw parent/child branch pointers are present. Stage-2 operations may proceed non-destructively.
+
+The autotag workflow on `main` has since advanced from the original high-recall v1 pass to `layered_autotag_nathan_v3.py`, which retains the v2 selectivity corrections and adds semantic guards plus retrieval-only definition/crosswalk/supersession candidate surfaces. Treat this as a precision/retrieval transition, not as permission to erase earlier v1 metadata. Durable outputs from the new pass must be verified after the run lands before its precision behavior is treated as current substrate state.
 
 ## Active operations
 
@@ -41,21 +43,27 @@ The master unsorted/tagged Nathan-only substrate is now durable on `main` under 
 - chronological previous/next pointers remain alongside parent/child pointers
 - produces: branch-aware context recovery without changing Nathan wording, tags, or message identity
 
-### ND-B1 — Precision-v2 supplemental retrieval layer
+### ND-B1 — Precision supplemental retrieval layer
 - priority: P1
-- state: READY / COORDINATE WITH MERCER
-- source already present: `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py`
-- rule: v2 may supplement v1; it must not replace/delete existing v1 tags or provenance
-- intended outputs: separate precision/retrieval fields or secondary index, preserving master package unchanged
-- bounded Stage-2 audit confirmed v1 topic minima are unsafe for literal earliest-use claims; obvious false historical candidates occur in unrelated 2023 material
-- current QA owner: Mercer; do not duplicate his selectivity/index work
+- state: IN PIPELINE / COORDINATE WITH MERCER
+- v2 source: `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py`
+- v3 source now present and selected by the workflow: `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py`
+- v3 adds semantic guards for ambiguous/common lexical hits and retrieval-only `DEFINITION-CANDIDATE`, `CROSSWALK-CANDIDATE`, and `SUPERSESSION-CANDIDATE` surfaces
+- rule: newer precision output supplements historical v1 metadata; it must not be used as justification to delete/downgrade previously attached tags
+- current QA owner: Mercer; do not duplicate his selectivity/index evaluation
+- verification gate: inspect durable run output before declaring v3 current/validated
 
-### ND-B2 — Non-destructive winnow / earliest-use / correction queues
+### ND-B2 — Non-destructive winnow / correction / provenance queues
 - priority: P1
-- state: PARTIALLY READY
-- ready now: correction/refinement, definition, methodology, decision, duplicate, branch-aware, and bounded manual-winnow queues
-- still gated: literal earliest-use claims based solely on v1 topic minima; require precision filtering plus exact wording/raw-context review
-- rule: winnow status is additive metadata only; no master deletion
+- state: CLAIMED / GENERATION RUN QUEUED BY NATHAN WORDS
+- queue builder: `WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py`
+- pipeline integration commit: `0025c194ca4861aea6a885500d34e53a1959414b`
+- generated queue target: `indexes/nathan-direct/stage2/`
+- workflow run triggered by integration: GitHub Actions `34771136500` (run 8; queued at last verification)
+- queues: correction-refinement, definition, methodology, decision, duplicate-provenance, branch-context
+- current focus/claim for this lane: correction-refinement queue generation and later bounded review
+- still gated: literal earliest-use conclusions; require precision filtering plus exact Nathan wording/raw-context review
+- rule: winnow/queue status is additive metadata only; no master deletion
 - earliest-use claims must state actual corpus coverage
 - readiness audit: `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`
 
@@ -63,7 +71,7 @@ The master unsorted/tagged Nathan-only substrate is now durable on `main` under 
 - priority: P1
 - state: READY BUT LOW-PRECISION / COORDINATE WITH MORROW
 - package contains branch-aware parent/child plus chronological adjacency pointers
-- v1 marks 14,269/14,306 records context-dependent, so inherited-tag presence is high-recall rather than a selective contextualization judgment
+- original v1 package marks 14,269/14,306 records context-dependent, so inherited-tag presence is high-recall rather than a selective contextualization judgment
 - use: select bounded messages/regions after additional precision or other independent signal
 - current continuity/context owner: Morrow; reuse his work rather than duplicating conversation-family recovery
 - assistant material remains pointer/context only, never Nathan-authored content
@@ -72,7 +80,7 @@ The master unsorted/tagged Nathan-only substrate is now durable on `main` under 
 
 Run `34766849104` completed successfully and landed the branch-aware package on `main`.
 
-Current manifest:
+Verified run-6 manifest:
 
 - input records: 69,927
 - raw `role=user` records: 21,451
@@ -86,29 +94,33 @@ Current manifest:
 
 A bounded raw-source check matched package role metadata, message/conversation identity, timestamp, recipient, wording, and graph relationship. A duplicate exemplar retained three archive paths under one stable message identity. See `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`.
 
+**Do not silently substitute later run counts for this checkpoint until the corresponding durable manifests are verified.**
+
 ## Eligible Stage-2 work
 
 Workers should avoid launching a duplicate full extractor. Useful eligible operations include:
 
-- construct non-destructive correction/refinement queues from durable Nathan Direct;
-- perform bounded manual winnow/context review under the tag-on-read rule;
+- after run 8 lands, verify the generated Stage-2 queue files and updated package/manifests;
+- take bounded correction/refinement review tranches from `indexes/nathan-direct/stage2/correction-refinement.jsonl` under the tag-on-read rule;
 - audit duplicate/prefix/superset identity handling;
-- use branch pointers for selected contextual recovery;
-- consume additive precision-v2 output once QA lands;
+- use branch pointers for selected contextual recovery, coordinated with Morrow;
+- consume additive v3 precision output after Mercer QA rather than overwriting old metadata;
 - build earliest-use candidate queues only after precision filtering, then verify exact Nathan wording/raw context before making historical claims;
 - reconcile archive paths/navigation and raw conversation identities;
 - fill specific extraction/provenance gaps discovered by Morrow/Mercer rather than rerunning the global extractor.
 
 ## Precision warning
 
-The master package is complete as a high-recall substrate, but v1 topic tags are intentionally not treated as historical authority. Automated minima generated clearly spurious early `SAT-HSH`, `SPHERES`, and `QUANTIZATION` candidates in unrelated 2023 material. Preserve those v1 tags as cumulative metadata; do not erase them. Add a precision layer and verify raw context instead.
+The verified run-6 master package is complete as a high-recall substrate, but its v1 topic tags are intentionally not historical authority. Automated minima generated clearly spurious early `SAT-HSH`, `SPHERES`, and `QUANTIZATION` candidates in unrelated 2023 material. Preserve those tags as cumulative metadata; do not erase them.
+
+The workflow now selects v3 for new corpus passes, but the durable result must be inspected after landing. Precision layers aid retrieval; earliest-use/history still requires exact Nathan wording and raw-context verification.
 
 ## Coordination / complementarity
 
-- **Nathan Words / this packaging lane:** durable Nathan-only substrate, provenance packaging, adjacency/context preservation, strategic secondary enrichment after landing.
+- **Nathan Words / this packaging lane:** durable Nathan-only substrate, provenance packaging, adjacency/context preservation, Stage-2 queue generation, bounded strategic secondary review.
 - **Tag Conversation Corpus:** systematic cumulative tagging/enrichment; existing tags remain attached.
 - **Morrow:** conversation-family identity, continuity, branch/context and provenance recovery.
-- **Mercer:** retrieval/index QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation; current precision-v2/selectivity owner.
+- **Mercer:** retrieval/index QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation; current precision/selectivity owner.
 - **Meridian:** training-first source ingestion / 4D-thinking audit during theory standdown; later geometry/solver source reconstruction if released.
 
 Do not duplicate another worker merely because an operation is technically available.
