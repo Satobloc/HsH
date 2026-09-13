@@ -57,6 +57,20 @@ If a live conversation has not yet entered the raw archive, record the directive
 
 ---
 
+## 2026-09-13 — Conversation Viewer message-provenance search
+
+- **Local timestamp:** `2026-09-13 05:17 EDT` (`America/New_York`)
+- **Conversation ID:** `PENDING RAW-ID BACKFILL`
+- **Message/node ID:** `PENDING RAW-ID BACKFILL`
+- **Durable conversation path:** `PENDING LIVE EXPORT`
+- **Authorship:** direct current-chat user instruction from Nathan; raw metadata not yet available in repository.
+- **Directive summary:** add an option to search Conversation Viewer messages specifically by message provenance, including at minimum Nathan/me, ChatGPT, any assistant, and other message types.
+- **Implementation:** added a provenance selector that can constrain either a text query or, with an empty text box, function as a provenance-only search. Categories are `All messages`, `Nathan / me` (`user` role), `ChatGPT` (`assistant` role), `Any assistant` (`assistant` + `companion`), `Other assistant / companion`, `Tool / system / developer` (including function/internal roles), and `Other / unknown`. Search result navigation and timeline marks operate on the constrained set.
+- **Affected records:** `CONVERSATION_VIEWER/provenance_search.js`; `CONVERSATION_VIEWER/index.html`; `CONVERSATION_VIEWER/argus_followup.css`; `.github/workflows/maintain-navigation.yml`.
+- **Status:** implemented on `main`; exact raw conversation/message provenance pending export backfill.
+
+---
+
 ## Backfill procedure
 
 When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPMENT_FULL_CONVOS`:
