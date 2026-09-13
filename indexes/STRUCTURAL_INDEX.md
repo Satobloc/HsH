@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T02:41:08+00:00`
-- Tree/content state: `f469488aac7fc288200a34873a917a379c6647c3cd7a318407b22eb8f3eed4e7`
-- Coverage: 868 files, 65 directories
+- Scanned: `2026-09-13T02:46:09+00:00`
+- Tree/content state: `b92c77ccf325575723fdeafdd16f50ca4606e50c9c9be968efe9a8ca9dd54b43`
+- Coverage: 870 files, 66 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 6 |
+| `.github` | 7 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 86 |
+| `WORKSPACES` | 87 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -58,13 +58,13 @@
 | `.md` | 147 |
 | `.pdf` | 22 |
 | `.png` | 37 |
-| `.py` | 39 |
+| `.py` | 40 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 6 |
+| `.yml` | 7 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -73,14 +73,14 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 6 |
+| `automation-workflow` | 7 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 86 |
+| `llm-workspace` | 87 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -302,6 +302,7 @@
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
+- `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md` — 4370 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
@@ -1110,6 +1111,7 @@
 - `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 8914 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 15112 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
