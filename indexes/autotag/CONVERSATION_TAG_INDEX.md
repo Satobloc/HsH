@@ -2,80 +2,80 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 408
-- conversation exports recognized: 388
-- non-conversation JSON skipped: 20
+- JSON files scanned: 414
+- conversation exports recognized: 387
+- non-conversation JSON skipped: 27
 - parse errors: 0
 - structural-index gap candidates: 0
 
 ## Topic coverage
 
-- `ART-DESIGN`: 376 conversations
-- `BIOLOGY`: 365 conversations
-- `PHYSICS`: 364 conversations
-- `SAT-HSH`: 349 conversations
-- `LAGRANGIAN`: 346 conversations
-- `MATHEMATICS`: 346 conversations
-- `LANGUAGE`: 344 conversations
-- `CODING`: 343 conversations
-- `GEOMETRY`: 341 conversations
-- `ASTRONOMY`: 337 conversations
-- `ELECTROMAGNETISM`: 337 conversations
-- `LAW-LEGAL`: 335 conversations
-- `WRITING`: 335 conversations
-- `PROVENANCE-HISTORY`: 332 conversations
-- `VISUALIZATION`: 332 conversations
-- `METRIC`: 326 conversations
-- `INTERACTIONS`: 323 conversations
-- `QUANTUM`: 317 conversations
-- `FILM-MEDIA`: 313 conversations
-- `GRAVITY`: 313 conversations
-- `ARCHIVE-INDEXING`: 308 conversations
-- `MODEL-VS-REALITY`: 308 conversations
-- `PARTICLE-PHYSICS`: 308 conversations
-- `HISTORY`: 306 conversations
-- `LEAN-FORMALIZATION`: 302 conversations
-- `DIMENSIONALITY`: 300 conversations
-- `GITHUB-REPO`: 299 conversations
-- `MUSIC-AUDIO`: 298 conversations
-- `ALGEBRA`: 297 conversations
-- `IMAGE-PHOTOGRAPHY`: 297 conversations
-- `TOPOLOGY`: 297 conversations
-- `CHEMISTRY`: 292 conversations
-- `COSMOLOGY`: 292 conversations
-- `INTERSECTION-READOUT`: 289 conversations
-- `PHILOSOPHY`: 289 conversations
-- `TOPOLOGY-MORPHOLOGY`: 285 conversations
-- `4D-THINKING`: 281 conversations
-- `DATA-PROCESSING`: 281 conversations
-- `RELATIVITY`: 277 conversations
-- `CALCULUS`: 275 conversations
-- `OPTICS`: 271 conversations
-- `PROBABILITY-STATS`: 271 conversations
-- `AI-LLM`: 265 conversations
-- `QUANTIZATION`: 257 conversations
-- `HELIX-GEOMETRY`: 256 conversations
-- `THERMODYNAMICS`: 255 conversations
-- `NEUROSCIENCE`: 250 conversations
-- `BLACK-HOLES`: 247 conversations
-- `BRAIDING`: 243 conversations
-- `HOLONOMY`: 237 conversations
+- `ART-DESIGN`: 375 conversations
+- `BIOLOGY`: 364 conversations
+- `PHYSICS`: 363 conversations
+- `SAT-HSH`: 348 conversations
+- `LAGRANGIAN`: 345 conversations
+- `MATHEMATICS`: 345 conversations
+- `LANGUAGE`: 343 conversations
+- `CODING`: 342 conversations
+- `GEOMETRY`: 340 conversations
+- `ASTRONOMY`: 336 conversations
+- `ELECTROMAGNETISM`: 336 conversations
+- `LAW-LEGAL`: 334 conversations
+- `WRITING`: 334 conversations
+- `PROVENANCE-HISTORY`: 331 conversations
+- `VISUALIZATION`: 331 conversations
+- `METRIC`: 325 conversations
+- `INTERACTIONS`: 322 conversations
+- `QUANTUM`: 316 conversations
+- `FILM-MEDIA`: 312 conversations
+- `GRAVITY`: 312 conversations
+- `ARCHIVE-INDEXING`: 307 conversations
+- `MODEL-VS-REALITY`: 307 conversations
+- `PARTICLE-PHYSICS`: 307 conversations
+- `HISTORY`: 305 conversations
+- `LEAN-FORMALIZATION`: 301 conversations
+- `DIMENSIONALITY`: 299 conversations
+- `GITHUB-REPO`: 298 conversations
+- `MUSIC-AUDIO`: 297 conversations
+- `ALGEBRA`: 296 conversations
+- `IMAGE-PHOTOGRAPHY`: 296 conversations
+- `TOPOLOGY`: 296 conversations
+- `CHEMISTRY`: 291 conversations
+- `COSMOLOGY`: 291 conversations
+- `INTERSECTION-READOUT`: 288 conversations
+- `PHILOSOPHY`: 288 conversations
+- `TOPOLOGY-MORPHOLOGY`: 284 conversations
+- `4D-THINKING`: 280 conversations
+- `DATA-PROCESSING`: 280 conversations
+- `RELATIVITY`: 276 conversations
+- `CALCULUS`: 274 conversations
+- `OPTICS`: 270 conversations
+- `PROBABILITY-STATS`: 270 conversations
+- `AI-LLM`: 264 conversations
+- `QUANTIZATION`: 256 conversations
+- `HELIX-GEOMETRY`: 255 conversations
+- `THERMODYNAMICS`: 254 conversations
+- `NEUROSCIENCE`: 249 conversations
+- `BLACK-HOLES`: 246 conversations
+- `BRAIDING`: 242 conversations
+- `HOLONOMY`: 236 conversations
 - `AUTOMATION`: 234 conversations
-- `NESTING`: 231 conversations
-- `WORK-CAREER`: 229 conversations
-- `TIMESHEET`: 227 conversations
-- `WORLDLINE`: 224 conversations
-- `POLITICS-POLICY`: 219 conversations
-- `PHOTON-NEUTRINO`: 216 conversations
+- `NESTING`: 230 conversations
+- `WORK-CAREER`: 228 conversations
+- `TIMESHEET`: 226 conversations
+- `WORLDLINE`: 223 conversations
+- `POLITICS-POLICY`: 218 conversations
+- `PHOTON-NEUTRINO`: 215 conversations
 - `SPHERES`: 211 conversations
-- `ASTROPHYSICS`: 186 conversations
+- `ASTROPHYSICS`: 185 conversations
 - `EDUCATION`: 173 conversations
 - `GEOLOGY`: 169 conversations
-- `WHIRLIGIG-DONUT`: 168 conversations
-- `WORLDTUBE`: 153 conversations
-- `MEDICINE-HEALTH`: 150 conversations
+- `WHIRLIGIG-DONUT`: 167 conversations
+- `WORLDTUBE`: 152 conversations
+- `MEDICINE-HEALTH`: 149 conversations
 - `UI`: 149 conversations
-- `C-TYPING`: 143 conversations
+- `C-TYPING`: 142 conversations
 - `FINITE-CORE`: 125 conversations
 - `W-AXIS`: 89 conversations
 - `INTERBRAID`: 81 conversations
@@ -2327,13 +2327,6 @@
 - messages/user: 196/93
 - density: 0.510204; top retrieval score: 51.5624
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `BIOLOGY`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `DATA-PROCESSING`, `DIMENSIONALITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HISTORY`, `HOLONOMY`, `IMAGE-PHOTOGRAPHY`, `INTERACTIONS`
-
-### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json`
-
-- title: Court Filing Guidance
-- messages/user: 96/48
-- density: 0.885417; top retrieval score: 76.0
-- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `DATA-PROCESSING`, `DIMENSIONALITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`
 
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.02.26•26.06.01•Boiling Point Estimation — raw.json`
 
