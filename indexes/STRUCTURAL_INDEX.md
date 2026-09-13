@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T08:33:53+00:00`
-- Tree/content state: `e5df498b1448bbe4e97f06656e2d7ce977b002f6d066d092f77a058815311751`
-- Coverage: 898 files, 68 directories
+- Scanned: `2026-09-13T08:34:55+00:00`
+- Tree/content state: `68744ed31a2a28a38c36ace4a3a90a0a2ff53a1a5246e7e3f70897f057b7fe38`
+- Coverage: 900 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 12 |
+| `.github` | 13 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 110 |
+| `WORKSPACES` | 111 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -58,13 +58,13 @@
 | `.md` | 167 |
 | `.pdf` | 22 |
 | `.png` | 37 |
-| `.py` | 42 |
+| `.py` | 43 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 12 |
+| `.yml` | 13 |
 | `[none]` | 3 |
 
 ## Structural roles
@@ -73,14 +73,14 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 12 |
+| `automation-workflow` | 13 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 110 |
+| `llm-workspace` | 111 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -308,6 +308,7 @@
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis-sample.yml` — 1061 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
+- `.github/workflows/superset-conversation-duplicate-scan.yml` — 1517 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md` — 4370 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
@@ -1123,6 +1124,7 @@
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 14343 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py` — 8077 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/layered_autotag_nathan.py` — 15519 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 3786 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`

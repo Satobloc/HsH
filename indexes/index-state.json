@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1097079378,
+    "bytes_known": 1097088972,
     "directories": 68,
-    "files": 898
+    "files": 900
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -20,26 +20,26 @@
     ".md": 167,
     ".pdf": 22,
     ".png": 37,
-    ".py": 42,
+    ".py": 43,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
     ".txt": 155,
-    ".yml": 12,
+    ".yml": 13,
     "[none]": 3
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 12,
+    "automation-workflow": 13,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 110,
+    "llm-workspace": 111,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -50,7 +50,7 @@
   "counts_by_top_level": {
     "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md": 1,
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 12,
+    ".github": 13,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
     "DEVELOPMENT_FULL_CONVOS": 604,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 110,
+    "WORKSPACES": 111,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -637,6 +637,13 @@
       "size": 1037
     },
     {
+      "content_id": "0308d4a3e76c120b0f29f68a3a0329d7f7c13c687b311947458604393b51188a",
+      "kind": "blob",
+      "path": ".github/workflows/superset-conversation-duplicate-scan.yml",
+      "role": "automation-workflow",
+      "size": 1517
+    },
+    {
       "content_id": "de593e2cad46eaaa0fa4afa4cec5f055fe2f9929c86fd5d0ca9a74edcf70a3df",
       "kind": "blob",
       "path": "ARCHITECTURE.md",
@@ -721,7 +728,7 @@
       "size": 49
     },
     {
-      "content_id": "0738c75edd7dfdd935215d79271a92ee42c33648ebf7d975624ef064c8eac691",
+      "content_id": "635d8a1a44b704ab77eb9a1e1319bc8493811f250b71fea067aeab49970bf436",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6678,6 +6685,13 @@
       "size": 14343
     },
     {
+      "content_id": "e567d83c9d92837b36613aeadc000f0171a2e1bdd28a8df5a41774f3b95a4e15",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py",
+      "role": "llm-workspace",
+      "size": 8077
+    },
+    {
       "content_id": "0d26634f89a61712091bc2be61bee4ea928cbf06acb7d608b8f4454f3aa17d92",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/scripts/layered_autotag_nathan.py",
@@ -7035,7 +7049,7 @@
       "size": null
     },
     {
-      "content_id": "76a67d2f9422fbc752827d523dc81b90506f6d0e234742a30bd5e54a25ca537f",
+      "content_id": "a08738bc3600f60ccb85c1e2c177be682d2f0681e2ffc25097dab320d1f7a51d",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7049,7 +7063,7 @@
       "size": 8625
     },
     {
-      "content_id": "0af4fba9097ecda6f720bb7c76ea5c3238a12a742a02d395c56e88d168360684",
+      "content_id": "b203b0e2cffba02a482bf983d4cb62f42b701a61526db87f4f4a779143391782",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7070,14 +7084,14 @@
       "size": null
     },
     {
-      "content_id": "fe17ad6dd7aa6ef028029074302c5c9be31300e4a00809cd287b69958114ac85",
+      "content_id": "c62b05c12e20a97d50ded59ada6d61f367abb93ed759c24f2610aeffdf7b7647",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "a60e48898200dc11ed99bf2c9ad12828658e812bd55908801c7f272f63e2c1d9",
+      "content_id": "604a08dc8d4b7409ed3bfdc07868de8b412716b54fac3ce3255993b2ccd6229c",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7295,8 +7309,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T08:33:53+00:00",
+  "scanned_at_utc": "2026-09-13T08:34:55+00:00",
   "schema_version": 1,
-  "tree_id": "e5df498b1448bbe4e97f06656e2d7ce977b002f6d066d092f77a058815311751",
+  "tree_id": "68744ed31a2a28a38c36ace4a3a90a0a2ff53a1a5246e7e3f70897f057b7fe38",
   "tree_response_truncated": false
 }
