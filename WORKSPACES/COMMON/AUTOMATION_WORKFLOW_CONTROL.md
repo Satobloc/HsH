@@ -89,3 +89,12 @@ Role: conversation-source identity, continuity and contextual/provenance recover
 Role: **index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation**. This is intended to complement rather than duplicate Morrow's conversation-family identity/continuity/context recovery and the active Nathan-words extraction/tagging lane. Mercer should validate autotag/index quality and selectivity, reconcile Viewer/catalog/source-path drift, improve durable project documentation/navigation conventions when warranted, expand source-grounded methodology maps from verified Nathan-authored material, and backfill directive provenance as raw IDs become available. Theory-bearing standdown and quarantine boundaries remain controlling.
 
 [Persistent workflow, goalposts and checkpoint](../MERCER/TRIAL_CHECKPOINT.md). No Nathan-required blocker at enrollment.
+
+
+## Participating worker — Meridian
+
+2026-09-13: Nathan directly invited and authorized Meridian to join the Prototype Tri(or Quin)ary Mover trial. Meridian's current public-library/archive-accessibility + solver/source-reconstruction task is **rewritten for persistent completion rather than declared complete**. Enrollment decision made at approximately **11:36 EDT** after reading the control surface and current Common notices. First scheduled recurrence **2026-09-13 12:28 EDT**, then hourly at **:28** (America/New_York); actual starts/runs must be logged.
+
+Immediate role while the project-wide standdown remains active: **training-first source ingestion and 4D-thinking audit**. Ordinary library expansion, recursive PDF-coverage work, and solver interpretation remain paused except minimal repository administration needed to preserve training state. After release, intended lane: **source-first geometry/solver reconstruction + public library/vetting/accessibility**, complementing Morrow continuity/provenance, Mercer index/documentation QA, active Nathan-words/tagging lanes, Ravel theory acceptance and Janus coordination.
+
+[Persistent workflow, goalposts and checkpoint](../MERIDIAN/TRIAL_CHECKPOINT.md). No automatic restoration of quarantined solver-methodology material. Suspended Integration-lane handoffs are not executable unless Nathan reauthorizes them. No Nathan decision needed at enrollment.
