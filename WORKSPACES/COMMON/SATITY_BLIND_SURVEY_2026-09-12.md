@@ -14,7 +14,7 @@ Do **not** use pre-existing SAT-vs-mainstream analyses, `EXP_ANALYSIS`, `SAT_IMP
 ### Chunk 1 — CORE: SCIENCE NEWS + LIVE_RESEARCH_UPDATES
 Claim-level professional sources included CFT spectra in a quantum simulator, Schrödinger-vs-Heisenberg divisibility, RG-improved lattice gauge actions, anomalous Hall physics, quantum equivalence-principle tests, and alternative dark-energy/Einstein–Euler cosmology.
 
-**CORE PASS:** `B001 B002 B004 B006 B007 B008 B009 O010 W007 AC001 AC003 AC004 AC005 AC006 AC008 AC010 AD001 AD003 AD007 AD010 AE004 AE006 AE008 AE009 AE011 AE015 AE017 AF001 AF002 AF003 AF004 AF007 AF009 AH001 AH003 AH004 AH005 AH006 AH010 AH011 AH012 AH013 AL006 AL011 AL012 AM003 AM017 AM019`
+**CORE PASS (original provisional scoring):** `B001 B002 B004 B006 B007 B008 B009 O010 W007 AC001 AC003 AC004 AC005 AC006 AC008 AC010 AD001 AD003 AD007 AD010 AE004 AE006 AE008 AE009 AE011 AE015 AE017 AF001 AF002 AF003 AF004 AF007 AF009 AH001 AH003 AH004 AH005 AH006 AH010 AH011 AH012 AH013 AL006 AL011 AL012 AM003 AM017 AM019`
 
 **CORE FAIL/ABSENT:** `AN008 AN010 AN011 AN012 AN013 AN018 AN020`
 
@@ -94,11 +94,39 @@ Claim-level controls:
 
 **Additional FRINGE SKIP retained/added:** `AE009 AE015 AH010 AF002 AF003 AM019 AN010 AN011 AN012 AN013 AN020` because the control sample is methodologically mixed.
 
+### Chunk 6 — CORE calibration, B-section only
+Bounded re-audit of the exact B001–B009 wording against an independent professional sample from `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH`. This run tests whether the earlier marks describe CORE as a patient, rather than merely occur somewhere in professional physics.
+
+#### Claim-level sources read
+1. `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH/2608.23220v1.pdf` -> `derived/text/02c2b6f97750be5411d8fa6a7df126ab1d29e6023a786cda3c305d3c25311f0c.txt` — conformal/noncommutative gravity and SO(2,16) gauge unification.
+2. `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH/2608.24796v1.pdf` -> `derived/text/c14909a5a79a4b262a590e6dce56050a8cbb446b7c3fd552a66329a8888a8203.txt` — critical map from quantum-gravity-inspired neutron-star assumptions to observables.
+3. `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH/2608.24002v1.pdf` -> `derived/text/62b66317da58231100f02164b8d0a17d0acaf91bd481474d531dd889cd4daedc.txt` — Chern-Simons modified gravity, pulsar glitches and controlled observational bounds.
+4. `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH/2608.24675v1.pdf` -> `derived/text/4a7e7617625d1a67676570787bff7b3c8e5c628696900638576463d9ad502d54.txt` — Liouville quantum gravity constructions on fractals.
+
+#### Calibration result
+**Retain CORE PASS:** `B007`.
+- Minimum auditable evidence: the neutron-star critical-map paper explicitly says a visible numerical change from a chosen large parameter is not by itself evidence for microscopic quantum gravity; it requires consistency checks and multiple observables. The Chern-Simons paper separately distinguishes observational bounds from the parameter regime in which the effective theory is actually controlled. The gauge-unification paper distinguishes theoretical attractiveness from absent experimental support. This is enough to support the general CORE norm behind B007: reproducing or generating the target behavior is viability, not strong confirmation.
+
+**Demote provisional CORE PASS -> SKIP:** `B001 B002 B004 B006 B008 B009`.
+- `B001`: the exact SAT procedure—start from the richest empirically allowed Minkowski map before new primitives—is not characteristic of this professional sample. The papers begin from gauge groups/symmetry breaking, effective microscopic assumptions, modified-gravity actions, or mathematical analogues.
+- `B002`: preserving established limits/content is common, but the additional requirement of temporarily stripping inherited explanatory interpretation is not evidenced as a CORE-wide method.
+- `B004`: geometric comparison to a matched phenomenon/control pair is not a general method across the sample.
+- `B006`: parsimony and controlled assumptions occur, but the exact rule “smallest candidate compatible with observations, geometric grammar, and prior admitted commitments” is not sufficiently evidenced as a characteristic CORE protocol.
+- `B008`: independent observables and consistency checks are valued, but the exact holdout-before-promotion rule is not explicit enough in this bounded sample for patient-level PASS.
+- `B009`: cross-sector consequences are attractive in unification work, but are not shown to be especially valued across CORE as a whole.
+
+**Retain CORE SKIP:** `B003 B005`.
+
+No B-section FAIL/ABSENT or REJECT PREMISE judgments were added. The calibration intentionally moves ambiguous prevalence claims toward SKIP rather than treating non-characteristic as categorical absence.
+
 ### Current comparative observation
 The sampled FRINGE patient is substantially closer to SAT than CORE on several **structural ontology/unification motifs**: one substrate, geometry-as-particle-identity, vacuum/matter unification, emergent quantum structure, common force mechanisms and aggressive parameter elimination. The robustness controls narrow that claim: maximal unification and anti-parameter aspiration recur across independent fringe families, while the more specific common-substrate/geometry-zoo motifs are concentrated in particular families rather than universal across fringe physics. Methodological quality remains heterogeneous, so no blanket `fringe = epistemically undisciplined` score is justified.
 
+The CORE calibration is now stricter: exact SAT/H(s)H procedural predicates are not credited merely because mainstream science exhibits a nearby generic virtue. In B001–B009 only `B007` survives as a patient-level CORE PASS after this bounded re-audit.
+
 ## Next unreviewed chunk
 
-1. Re-audit the broad CORE PASS list against exact patient-level wording and demote overbroad marks to `SKIP` where evidence only shows existence in professional physics rather than a property of CORE-as-a-whole.
-2. Freeze the internal first-pass comparison after that calibration.
-3. Then begin clearly separated external validation windows: last year / last month / last week, preserving any changes rather than rewriting the blind pass.
+1. Continue the CORE calibration with the next bounded block of provisional PASS items (`O010 W007 AC001 AC003 AC004 AC005 AC006 AC008 AC010`), using heterogeneous claim-level professional sources and the same prevalence-vs-existence rule.
+2. Then calibrate the remaining CORE methodological/epistemic provisional marks in another bounded run rather than changing the whole vector at once.
+3. Freeze the internal first-pass comparison only after those calibration chunks.
+4. Then begin clearly separated external validation windows: last year / last month / last week, preserving any changes rather than rewriting the blind pass.
