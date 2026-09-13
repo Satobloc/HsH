@@ -41,6 +41,12 @@ Do **not** simply replace v1 outputs with v2 outputs. Nathan's controlling corpu
 
 No Stage-2 precision merge is promoted here before the durable Nathan Direct package itself lands and is sampled.
 
+## Branch-context audit item
+
+The raw autotag stream preserves ChatGPT conversation-graph fields `node_id` and `parent`. The current Nathan Direct packager does **not** carry those fields into the durable record; it constructs chronological previous/next pointers after sorting by timestamp. Those chronological pointers are useful, but they are not equivalent to the actual parent/child branch graph in conversations that fork.
+
+After the first durable package lands, audit this on real branched examples. If confirmed useful, extend the package additively with raw node ID plus parent/child graph pointers while retaining the existing chronological pointers. This is provenance/context enrichment only: it must not alter exact Nathan wording, existing tags, or duplicate identities.
+
 ## Next gate
 
 When the fresh run completes, verify on `main` before downstream use:
@@ -49,6 +55,6 @@ When the fresh run completes, verify on `main` before downstream use:
 - `indexes/nathan-direct/README.md`
 - nonempty `nathan-direct-*.jsonl` shards
 - actual fresh-run counts and missing-ID count
-- a bounded sample of exact Nathan text, duplicate-path relationships, neighboring-message pointers, and inherited-context metadata
+- a bounded sample of exact Nathan text, duplicate-path relationships, neighboring-message pointers, inherited-context metadata, and at least one branched-conversation case where raw graph adjacency can be compared with chronological adjacency
 
-Only after those checks should Stage-2 winnowing, earliest-use searches, correction mapping, contextual recovery, or v2 precision enrichment treat the durable Nathan Direct shards as ready substrate.
+Only after those checks should Stage-2 winnowing, earliest-use searches, correction mapping, contextual recovery, branch-context enrichment, or v2 precision enrichment treat the durable Nathan Direct shards as ready substrate.
