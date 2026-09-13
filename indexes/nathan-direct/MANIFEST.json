@@ -8,6 +8,8 @@
   "archive_duplicate_user_records_collapsed": 7145,
   "context_dependent_inherited_tag_records": 14269,
   "records_missing_conversation_or_message_id": 0,
+  "records_with_resolved_parent_graph_pointer": 13651,
+  "records_with_child_graph_pointer": 9247,
   "shards": [
     {
       "year": "2023",
