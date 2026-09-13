@@ -53,7 +53,9 @@ When a worker has an unresolved item that genuinely needs Nathan's attention, en
 
 ### Current unresolved issues
 
-_None recorded at initialization._
+| Issue | Priority | Worker / requested review | Class | Dependency / decision | Safe work meanwhile | Raised | Status |
+|---|---|---|---|---|---|---|---|
+| `MORROW-SOURCE-001` | P1 before duplicate disposition | Morrow; review requested from Mercer / superset-scanner maintainer | `DEPENDENCY` | [Janus audit](../MORROW/JANUS_EXPORT_COMPARISON_2026-09-13.md): A→C preserves all earlier IDs but shortens one `execution_output.text`; scanner blob `de5478b26c01a5cfe4a591be7e154295233710b3` omits that field. Update/document complete-content equality and metadata policy, add this regression case, and regenerate affected candidate reports before disposition. No source loss has been observed; preserve A meanwhile. | Recapture the separately disputed Janus 20:01–20:08 raw IDs; other bounded identity/training work. No Nathan decision required. | 2026-09-13 | OPEN |
 
 ## Current trial priorities
 
