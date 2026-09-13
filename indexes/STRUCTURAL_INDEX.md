@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T09:07:41+00:00`
-- Tree/content state: `6aa2f94f00c30410e46e9276cbed84bb773cef7d7104e0c8ed2e2501db6b1ace`
-- Coverage: 903 files, 68 directories
+- Scanned: `2026-09-13T09:40:23+00:00`
+- Tree/content state: `b649b1f82ebf0fac373be3f2b68b944a2aaa8ecf33435e06d35379914ae383f0`
+- Coverage: 914 files, 71 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 13 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 20 |
+| `CONVERSATION_VIEWER` | 21 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -27,12 +27,12 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 112 |
+| `WORKSPACES` | 118 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
 | `generated` | 5 |
-| `indexes` | 6 |
+| `indexes` | 10 |
 | `ledgers` | 5 |
 | `synthesis` | 6 |
 | `tests` | 1 |
@@ -51,11 +51,11 @@
 | `.html` | 1 |
 | `.ipynb` | 1 |
 | `.jpg` | 17 |
-| `.js` | 5 |
-| `.json` | 410 |
-| `.jsonl` | 1 |
+| `.js` | 6 |
+| `.json` | 411 |
+| `.jsonl` | 3 |
 | `.lean` | 3 |
-| `.md` | 168 |
+| `.md` | 175 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 43 |
@@ -77,15 +77,15 @@
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
-| `generated-catalog` | 6 |
+| `generated-catalog` | 10 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 112 |
+| `llm-workspace` | 118 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 94 |
+| `unclassified` | 95 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -301,8 +301,8 @@
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
-- `.github/workflows/layered-nathan-autotag.yml` — 1538 bytes — `automation-workflow`
-- `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
+- `.github/workflows/layered-nathan-autotag.yml` — 2390 bytes — `automation-workflow`
+- `.github/workflows/maintain-navigation.yml` — 7052 bytes — `automation-workflow`
 - `.github/workflows/merge-verified-batches.yml` — 2080 bytes — `automation-workflow`
 - `.github/workflows/provenance-reasoning-scan.yml` — 6866 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
@@ -310,7 +310,7 @@
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
 - `.github/workflows/superset-conversation-duplicate-scan.yml` — 1517 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
-- `CONVERSATION_VIEWER/ANNOTATIONS.md` — 4370 bytes — `unclassified`
+- `CONVERSATION_VIEWER/ANNOTATIONS.md` — 6019 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.md` — 2211 bytes — `unclassified`
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
@@ -318,15 +318,16 @@
 - `CONVERSATION_VIEWER/README.md` — 3622 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
-- `CONVERSATION_VIEWER/argus_followup.css` — 761 bytes — `unclassified`
+- `CONVERSATION_VIEWER/argus_followup.css` — 1234 bytes — `unclassified`
 - `CONVERSATION_VIEWER/argus_followup.js` — 8575 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/conversations.json` — 324063 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 6042 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 6105 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13723 bytes — `unclassified`
+- `CONVERSATION_VIEWER/provenance_search.js` — 8064 bytes — `unclassified`
 - `CONVERSATION_VIEWER/runtime-fixes.css` — 1811 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.css` — 12929 bytes — `unclassified`
 - `CONVERSATION_VIEWER/viewer.js` — 39226 bytes — `unclassified`
@@ -1044,6 +1045,7 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/2026-09-13_DASHBOARD_QUARANTINE_VIEWER_DIRECTIVES.md` — 2462 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 7625 bytes — `llm-workspace`
@@ -1056,7 +1058,7 @@
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.json` — 168357 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.csv` — 155736 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.json` — 175396 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 8533 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 10070 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
@@ -1072,6 +1074,7 @@
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAYERED_AUTOTAG_SCHEMA.md` — 5701 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` — 6417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 123570 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
@@ -1105,7 +1108,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7744 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V3.md` — 13778 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/README.md` — 6079 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
@@ -1124,13 +1127,16 @@
 - `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 8914 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl` — 423738869 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 14343 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py` — 8077 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/scripts/layered_autotag_nathan.py` — 15519 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/layered_autotag_nathan.py` — 27931 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-AUTOTAG-INFRASTRUCTURE-02.md` — 4100 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 3786 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md` — 3161 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-2213-0945.md` — 3143 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2001-to-2207.md` — 7890 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2208-to-2212.md` — 6537 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2213-worldtube-transition.md` — 5462 bytes — `llm-workspace`
@@ -1145,6 +1151,7 @@
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-04.md` — 4851 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Spacetime-Manifold-Notation-01.md` — 9120 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Stringing-Along-Theory-Summary-01.md` — 4464 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/README.md` — 5280 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
@@ -1170,6 +1177,10 @@
 - `indexes/CONVERSATION_CHRONOLOGY.md` — 139038 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
+- `indexes/autotag/AUTOTAG_SUMMARY.md` — 338840 bytes — `generated-catalog`
+- `indexes/autotag/CONVERSATION_TAG_INDEX.md` — 210710 bytes — `generated-catalog`
+- `indexes/autotag/conversation-tag-manifest.json` — 1520689 bytes — `generated-catalog`
+- `indexes/autotag/user-message-tags.jsonl` — 58561129 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
 - `indexes/manifests/development-conversation-dates.json` — 248010 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
