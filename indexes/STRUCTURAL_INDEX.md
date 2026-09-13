@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T01:31:58+00:00`
-- Tree/content state: `e7ab39f42727aca4da634088768ffe2c3843518e2def8dd809ee48ee4f136770`
+- Scanned: `2026-09-13T01:38:24+00:00`
+- Tree/content state: `03cd9b08aa81fe6053ee3fe9c846a03f3d03e314166956c6d60c69d81a0cf79c`
 - Coverage: 859 files, 64 directories
 - GitHub tree response truncated: `false`
 
@@ -1037,7 +1037,7 @@
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 8514 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 7638 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 6739 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
@@ -1089,7 +1089,7 @@
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 9611 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 9144 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
