@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1096888651,
+    "bytes_known": 1096903994,
     "directories": 66,
-    "files": 874
+    "files": 875
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -20,7 +20,7 @@
     ".md": 148,
     ".pdf": 22,
     ".png": 37,
-    ".py": 40,
+    ".py": 41,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 88,
+    "llm-workspace": 89,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 88,
+    "WORKSPACES": 89,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -553,11 +553,11 @@
       "size": null
     },
     {
-      "content_id": "52753989938cfb93f0986c562348611fcef6ed193fd5480896c0be446d9b44a3",
+      "content_id": "c48f20d8e231c967d47322df43137346aa52f1d1959641fc7e1eb00e848a111f",
       "kind": "blob",
       "path": ".github/workflows/append-provenance-reasoning-batch.yml",
       "role": "automation-workflow",
-      "size": 18086
+      "size": 1332
     },
     {
       "content_id": "113d41043a2e79cc4b8cc212e77608e69874541e53911faf63fd0e5b71ebf1c9",
@@ -707,7 +707,7 @@
       "size": 49
     },
     {
-      "content_id": "0df4b0e81c1c77ed460ac2e6ab4acf8b0e0ad22234a22d58698819ca88fb32da",
+      "content_id": "40d6e71f6d8de913ea251e29a2fbcc90264d785ea711a1323d12249f28edaf2b",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6258,11 +6258,11 @@
       "size": 5278
     },
     {
-      "content_id": "5a51fe9d688e2070d9c99c3d7cc49e2b815dc0ca664e3354db510ea3fdb89857",
+      "content_id": "0157cf1e6dc71aa7e78b6ff667fa4e58640a6e233e2d7a560d88da357aa0fd6f",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 78032
+      "size": 93483
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6622,6 +6622,13 @@
       "size": null
     },
     {
+      "content_id": "2661ea6b6174c08b32b283cd693630d089af4285515d0d9bfea464dfeb6af411",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py",
+      "role": "llm-workspace",
+      "size": 16646
+    },
+    {
       "content_id": "ba33945d15041c3b3fdd80aceb49a2750c16a62f3cb3222086502fd3c7713e10",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py",
@@ -6853,7 +6860,7 @@
       "size": null
     },
     {
-      "content_id": "c432650974ece8d35105d4d8591b92a51fd5afe0ab507a7d7124809f3dc099c2",
+      "content_id": "a4f2ca69a13b4d5bcb6f9d6620de2a98735d537905007a5f8317139fedb2ccfc",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6867,7 +6874,7 @@
       "size": 8625
     },
     {
-      "content_id": "5c67915dab567da2dfe36d06023e67e2cec1eb04fa06b76467d914c28e601ec1",
+      "content_id": "8aabdd9ab78ea1aefb96d438812ce9782b896bb1ce7e85044dc6b2c73915f7d3",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6888,14 +6895,14 @@
       "size": null
     },
     {
-      "content_id": "8d5747fd3c2fd2335f4e45f9d50c7b6ddc18c6b3e46f48dce38a515265eb7c98",
+      "content_id": "097dca2143b1d72c883ebae650e9f2b742591272543f084e0eab7319169d8d94",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "6597af4a5242a6fa09f1ad7689287df43747786c8966621e257e1ade502fafb9",
+      "content_id": "b986683848d2d8636bf771659686ab43c2c24b116efc5ea42208b64cba6eea84",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7113,8 +7120,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T03:20:43+00:00",
+  "scanned_at_utc": "2026-09-13T03:23:14+00:00",
   "schema_version": 1,
-  "tree_id": "0d791d4460cbb067c4b959b6573ec8c4928a35bb4e902d07d52ab2bdc1d63e35",
+  "tree_id": "870ab47dc91aa546a23925f9d303ba8d0f34c092d8c06ee6469bb8dbeb1e095f",
   "tree_response_truncated": false
 }

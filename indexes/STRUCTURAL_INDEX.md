@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:20:43+00:00`
-- Tree/content state: `0d791d4460cbb067c4b959b6573ec8c4928a35bb4e902d07d52ab2bdc1d63e35`
-- Coverage: 874 files, 66 directories
+- Scanned: `2026-09-13T03:23:14+00:00`
+- Tree/content state: `870ab47dc91aa546a23925f9d303ba8d0f34c092d8c06ee6469bb8dbeb1e095f`
+- Coverage: 875 files, 66 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 88 |
+| `WORKSPACES` | 89 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -58,7 +58,7 @@
 | `.md` | 148 |
 | `.pdf` | 22 |
 | `.png` | 37 |
-| `.py` | 40 |
+| `.py` | 41 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 88 |
+| `llm-workspace` | 89 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -296,7 +296,7 @@
 
 - `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` — 26764 bytes — `unclassified`
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 4195 bytes — `visitor-interface`
-- `.github/workflows/append-provenance-reasoning-batch.yml` — 18086 bytes — `automation-workflow`
+- `.github/workflows/append-provenance-reasoning-batch.yml` — 1332 bytes — `automation-workflow`
 - `.github/workflows/arxiv-random-sample.yml` — 1434 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
@@ -1066,7 +1066,7 @@
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 78032 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 93483 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -1115,6 +1115,7 @@
 - `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 8914 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 15112 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
