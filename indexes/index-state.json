@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1094909822,
-    "directories": 61,
-    "files": 854
+    "bytes_known": 1094914037,
+    "directories": 63,
+    "files": 855
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 406,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 143,
+    ".md": 144,
     ".pdf": 22,
     ".png": 37,
     ".py": 38,
@@ -44,7 +44,7 @@
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
     "tooling-test": 1,
-    "unclassified": 91,
+    "unclassified": 92,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -61,6 +61,7 @@
     "LICENSE": 1,
     "LIVE CONVOS": 35,
     "NEW_PAPERS": 3,
+    "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
     "WORKSPACES": 74,
@@ -531,11 +532,11 @@
       "size": 26764
     },
     {
-      "content_id": "81e928fc64380067e9c634ccdb99cb86c1d244c3e454e07f04dfc6e26996482b",
+      "content_id": "56d13b862e2645f106baa21bfc122be0b1afb32b8213a950a1af5a1d34dbcf03",
       "kind": "blob",
       "path": "!_ANNOTATED_ARCHIVE_SURVEY.md",
       "role": "visitor-interface",
-      "size": 3864
+      "size": 4195
     },
     {
       "content_id": null,
@@ -671,7 +672,7 @@
       "size": 49
     },
     {
-      "content_id": "5f9a8408a84daad7c9013ec90083258709bc433fc8bfee16908c929c87522119",
+      "content_id": "6aa24ffbcb4520490272fcbea1e472218bbc5fe01a04872af281215b6aaec1e0",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -5711,11 +5712,11 @@
       "size": null
     },
     {
-      "content_id": "645bb9484cff5c87b85d85c82eaf564d6d9bb1af5f7bfdb84643774393cc7a51",
+      "content_id": "5f363a5a27c6e13801e1b2272c1cd3a51a415a3a478091e25aef1db382d01463",
       "kind": "blob",
       "path": "NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md",
       "role": "unclassified",
-      "size": 6757
+      "size": 7094
     },
     {
       "content_id": "5529455decdcf8dfce55e50fb7003aa9277ad9efbb07ac83b67173675e9c3fdb",
@@ -5730,6 +5731,27 @@
       "path": "NEW_PAPERS/SEPTEMER_2026/gitignore.txt",
       "role": "unclassified",
       "size": 1
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "QUARANTINE",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "QUARANTINE/2026-09-13_INTEGRATION_HALT",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "b02b47b41f57a4166de0bfee50e8d65d0496c48d06101827dc4644775e2f863a",
+      "kind": "blob",
+      "path": "QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md",
+      "role": "unclassified",
+      "size": 2040
     },
     {
       "content_id": "2661d36c64ce26d9a0929be3f4d39be163ee5d25ae729bd622ef0350effda73e",
@@ -6082,11 +6104,11 @@
       "size": 4242
     },
     {
-      "content_id": "4c2e496f42f6872341532425f68fc4d82d0fc4017315ddb7ee773a210daba2a0",
+      "content_id": "cfc4effbfaa253d29214b39a282f12c053830dc10d85a303ae48d997c36b31cb",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFFS.md",
       "role": "llm-workspace",
-      "size": 3203
+      "size": 3444
     },
     {
       "content_id": "be9325360cf0ffeea60f261edcda5a3b4a0fdab47eb87baa56177c1dc8b5dc62",
@@ -6481,11 +6503,11 @@
       "size": null
     },
     {
-      "content_id": "bff52b64fa2a07d9d0ee03c5ba2d8d4c2fb033389731317e781e1abc13d4520d",
+      "content_id": "0323a50ae8f3bd338c936d019d57ea94c0b7f071517724dbe867ff7ed8d244a6",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md",
       "role": "llm-workspace",
-      "size": 6096
+      "size": 6433
     },
     {
       "content_id": "e293997890f33c7b2420367bc066853879dd3bac87310ef2a47b33ae073cae12",
@@ -6495,18 +6517,18 @@
       "size": 13676
     },
     {
-      "content_id": "55adbef8c9adc000d618775a85ff99a5eeabdc31c62288b6cbe83dd6bd1f5cbd",
+      "content_id": "e0121b2e4f31912407dbf9065be01660f26f79057efbecab23295c086fdd91ee",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md",
       "role": "llm-workspace",
-      "size": 4267
+      "size": 4604
     },
     {
-      "content_id": "2a0b795856493aabcb2adb99f767a54b9ebb5d36ff3191944629529b86c32c1e",
+      "content_id": "6f12dbd6a38756e9252fa7646ef9eef971d422758460fefe0c4f90b3c14f4d51",
       "kind": "blob",
       "path": "WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md",
       "role": "llm-workspace",
-      "size": 2356
+      "size": 2693
     },
     {
       "content_id": "3a7b3adef8996314108277a6989da60c8300610dc5b94a20def9a244f484bd98",
@@ -6558,11 +6580,11 @@
       "size": null
     },
     {
-      "content_id": "43af36768c66e0cb707c66e9ed7e47e24770d4bc6590f9db0966a7f0fab7ade1",
+      "content_id": "51ed89f6a020ac0a4f3d5756a500df6705effa339564a6d8d1b1f2cac880b970",
       "kind": "blob",
       "path": "checkpoints/CURRENT.md",
       "role": "checkpoint",
-      "size": 2145
+      "size": 730
     },
     {
       "content_id": null,
@@ -6677,7 +6699,7 @@
       "size": null
     },
     {
-      "content_id": "6dbe5d629ec77ddb90918eae2cc9a5a5d382db8b38723501f8e4d7dbfa9dd804",
+      "content_id": "8f0ddf554b7df4360da1df2a3be95d68910fffa802af7e23c32d778dfba1945c",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6691,7 +6713,7 @@
       "size": 8625
     },
     {
-      "content_id": "dbbf605221850a46b2ad42d2ff8406d2eb79afac5d014e4349974e7318294e8d",
+      "content_id": "e920086376d50f33a8a88e9e847a52a5a1d12a1395997cd60bf311127e12ca08",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6712,14 +6734,14 @@
       "size": null
     },
     {
-      "content_id": "8cc4d8b4a3af766ea87eb7cfd8d50528873b67ed98eaf11fcbf24c3e08b26464",
+      "content_id": "5c59d65dacee8254372859c4f3ea58778af914b59b85130516b9447a9ada8b99",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "25fdd515843453ef6ee827adcf2f77cfd1aa91e247d42a834a6bee74521263df",
+      "content_id": "8bd5ba1d1afd348dcaec135ff1494ab0491db530685a44ddeba226ffadb49c51",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6754,18 +6776,18 @@
       "size": 9310
     },
     {
-      "content_id": "15e70fe3095da62ce074db70b759242afc581e98b1dd441fb3f73bb7a4e3a149",
+      "content_id": "c85466e5094414c55f81c5e88d9243fd6c36a9c8b46f1d75736808ae35ce57e7",
       "kind": "blob",
       "path": "ledgers/FINITE_CORE_COMPARISON.md",
       "role": "review-ledger",
-      "size": 11850
+      "size": 12184
     },
     {
-      "content_id": "53f2b5b249eafbcb84aac095f2ee06927e779dd746dc41b52d6b50360c8e1480",
+      "content_id": "94706d76f4d0912c4210ad199ad08ff1618c57e2d8c8fe0051d67d9408f00f78",
       "kind": "blob",
       "path": "ledgers/PREDICTION_LEDGER.md",
       "role": "review-ledger",
-      "size": 8241
+      "size": 8575
     },
     {
       "content_id": null,
@@ -6775,11 +6797,11 @@
       "size": null
     },
     {
-      "content_id": "86e0b51b1e1b560fdc400cd12d22dc0bb8e5763a861798bd7f53481327c25369",
+      "content_id": "1710ea28ccc691d0aaff964f12c65bada7c607263970cda7ba67ed26dc4e9015",
       "kind": "blob",
       "path": "synthesis/CURRENT_SYNTHESIS.md",
       "role": "synthesis-workspace",
-      "size": 80592
+      "size": 80926
     },
     {
       "content_id": "96308b285a8b84f50c1e926fae0c00aab866c6d644f5b4e7107e3d7010a1a9d8",
@@ -6789,11 +6811,11 @@
       "size": 8044
     },
     {
-      "content_id": "c077d2861f3b5794b64b20e00948cb164ec7e63011f2625edec10f8a15900676",
+      "content_id": "e45ed2204f4a04bf20b7cea089a3c225a67dd7bfd494b7ebd534264709c81757",
       "kind": "blob",
       "path": "synthesis/LIVE_REBUILD_STATUS.md",
       "role": "synthesis-workspace",
-      "size": 5054
+      "size": 5388
     },
     {
       "content_id": "81f504c92706455f1b08817edb33c6fa29816cc779fb38cf3ad2f18b9efed9ec",
@@ -6810,11 +6832,11 @@
       "size": 5344
     },
     {
-      "content_id": "f069ac6dcf8f3ec2f61858049ee153045ef35cff550045387a406c9dcf67e8b0",
+      "content_id": "a6f311e7a8d60774bba07cc5e2561dd8ca508023ce00f559c79474b68662e63b",
       "kind": "blob",
       "path": "synthesis/SURVEYED_SOURCES.md",
       "role": "synthesis-workspace",
-      "size": 20965
+      "size": 21299
     },
     {
       "content_id": null,
@@ -6937,8 +6959,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T00:07:50+00:00",
+  "scanned_at_utc": "2026-09-13T00:14:37+00:00",
   "schema_version": 1,
-  "tree_id": "1699382bfa80b1af7ebef34148a5e7b1f910280313d3afff19a9947cdd6b81e2",
+  "tree_id": "2cb087e146eec0893002eda1e2451540b4f5e9a54731d6d13e20ef804b6d07f6",
   "tree_response_truncated": false
 }

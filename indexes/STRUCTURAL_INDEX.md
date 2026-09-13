@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T00:07:50+00:00`
-- Tree/content state: `1699382bfa80b1af7ebef34148a5e7b1f910280313d3afff19a9947cdd6b81e2`
-- Coverage: 854 files, 61 directories
+- Scanned: `2026-09-13T00:14:37+00:00`
+- Tree/content state: `2cb087e146eec0893002eda1e2451540b4f5e9a54731d6d13e20ef804b6d07f6`
+- Coverage: 855 files, 63 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -24,6 +24,7 @@
 | `LICENSE` | 1 |
 | `LIVE CONVOS` | 35 |
 | `NEW_PAPERS` | 3 |
+| `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
 | `WORKSPACES` | 74 |
@@ -54,7 +55,7 @@
 | `.json` | 406 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 143 |
+| `.md` | 144 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 38 |
@@ -84,7 +85,7 @@
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 91 |
+| `unclassified` | 92 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -294,7 +295,7 @@
 ## Complete path inventory
 
 - `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` — 26764 bytes — `unclassified`
-- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 3864 bytes — `visitor-interface`
+- `!_ANNOTATED_ARCHIVE_SURVEY.md` — 4195 bytes — `visitor-interface`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
@@ -998,9 +999,10 @@
 - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json` — 1326874 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` — 14565168 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json` — 5074617 bytes — `live-conversation-corpus`
-- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 6757 bytes — `unclassified`
+- `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 7094 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
+- `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 2040 bytes — `unclassified`
 - `README.md` — 37343 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
@@ -1044,7 +1046,7 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKINS.md` — 17716 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/HANDOFFS.md` — 3203 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFFS.md` — 3444 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
@@ -1097,16 +1099,16 @@
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6096 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md` — 13676 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md` — 4267 bytes — `llm-workspace`
-- `WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md` — 2356 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md` — 4604 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md` — 2693 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 6217 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
 - `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
-- `checkpoints/CURRENT.md` — 2145 bytes — `checkpoint`
+- `checkpoints/CURRENT.md` — 730 bytes — `checkpoint`
 - `formalization/README.md` — 2023 bytes — `formalization-workspace`
 - `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
 - `formalization/equations.json` — 6068 bytes — `formalization-workspace`
@@ -1126,14 +1128,14 @@
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
-- `ledgers/FINITE_CORE_COMPARISON.md` — 11850 bytes — `review-ledger`
-- `ledgers/PREDICTION_LEDGER.md` — 8241 bytes — `review-ledger`
-- `synthesis/CURRENT_SYNTHESIS.md` — 80592 bytes — `synthesis-workspace`
+- `ledgers/FINITE_CORE_COMPARISON.md` — 12184 bytes — `review-ledger`
+- `ledgers/PREDICTION_LEDGER.md` — 8575 bytes — `review-ledger`
+- `synthesis/CURRENT_SYNTHESIS.md` — 80926 bytes — `synthesis-workspace`
 - `synthesis/FORMALISM_SELECTION.md` — 8044 bytes — `synthesis-workspace`
-- `synthesis/LIVE_REBUILD_STATUS.md` — 5054 bytes — `synthesis-workspace`
+- `synthesis/LIVE_REBUILD_STATUS.md` — 5388 bytes — `synthesis-workspace`
 - `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `synthesis-workspace`
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
-- `synthesis/SURVEYED_SOURCES.md` — 20965 bytes — `synthesis-workspace`
+- `synthesis/SURVEYED_SOURCES.md` — 21299 bytes — `synthesis-workspace`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
 - `tools/build_conversation_viewer.py` — 21209 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
