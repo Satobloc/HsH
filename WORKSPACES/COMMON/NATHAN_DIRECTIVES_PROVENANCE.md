@@ -71,6 +71,24 @@ If a live conversation has not yet entered the raw archive, record the directive
 
 ---
 
+## 2026-09-13 — Personal workspaces and scoped-instance continuity
+
+- **Local timestamp:** `2026-09-13 05:47 EDT` (`America/New_York`)
+- **Conversation ID:** `PENDING RAW-ID BACKFILL`
+- **Message/node ID:** `PENDING RAW-ID BACKFILL`
+- **Durable conversation path:** `PENDING LIVE EXPORT`
+- **Authorship:** direct current-chat user instruction from Nathan; raw metadata not yet available in repository.
+- **Directive summary:**
+  1. Infrastructure documentation should say when/how an instance should make a personal workspace: scoped tasks that benefit from local notes/TODOs/continuity state but whose intermediate state is not clearly Commons-/repo-/function-wide information.
+  2. The instance should tell Nathan, choose a stable name if unnamed, and use an additional discriminator/surname where lineage or divergence is ambiguous.
+  3. Workspace identity should be attached to conversation provenance, including conversation ID and message/timestamp anchors when available.
+  4. Commons should hold a short instance placard with name/discriminator, role, capabilities, current lane, important documents/context actually possessed/loaded, tools/constraints, workspace, and conversation pointer.
+  5. This is part of a broader continuity programme aimed at reducing loss when long conversations terminate abruptly and at preserving useful skills, knowledge, working relationships, and task-specific dynamics for later restart, comparison, or partial reconstruction.
+  6. Retrospective reconstruction should eventually be possible for useful historical instances that predate continuity planning, using preserved conversations/artifacts and explicit uncertainty rather than assuming identity continuity.
+- **Implementation/status:** workspace guidance added to `WORKSPACES/README.md`; `INSTANCE_PLACARDS.md` and `CONTINUITY_PROTOCOL.md` created; current archive/indexing instance adopted handle `Mercer` and created `WORKSPACES/MERCER/` with a continuity packet. Exact raw provenance remains pending live-export backfill.
+
+---
+
 ## Backfill procedure
 
 When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPMENT_FULL_CONVOS`:
