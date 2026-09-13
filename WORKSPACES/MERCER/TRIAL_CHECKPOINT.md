@@ -33,39 +33,43 @@ At the beginning of every run:
 3. **Nathan Direct methodology map** — expand `SAT_METHOD_SOURCE_MAP.md` using verified raw Nathan-authored messages only; fill explicit gaps around representation/model choice, ontology/physical-reality caution, Minkowski/full-history primacy, minimality, validation/holdout/cross-sector testing, rejection/failure rules, and unconstrained-geometric-flexibility warnings.
 4. **Documentation/navigation convention** — help standardize the pattern requested by Nathan: Common notice/handoff + durable project/index home + Dashboard/navigation link where appropriate.
 5. **Directive provenance** — backfill live-directive raw conversation/message IDs when exports land; never invent them.
-6. **Continuity** — keep this checkpoint and `CONTINUITY.md` current enough for a successor/resumed instance to restart safely.
+6. **Live development testimony** — maintain `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` as a shared direct-live capture surface for specific Nathan statements about theory development, chronology, intent, methodology or status. Preserve exact wording and live provenance; distinguish present testimony from archive-corroborated history; turn specific historical claims into archive-dating targets; backfill raw conversation/message IDs when exports land.
+7. **Continuity** — keep this checkpoint and `CONTINUITY.md` current enough for a successor/resumed instance to restart safely.
 
-## Current frontier at enrollment
+## Current frontier
 
 - V1 archive-wide autotagging successfully recognized 388/408 JSON files as conversation exports with zero parse errors and zero structural-index gaps, but topic matching and adjacency promotion were overbroad.
-- `layered_autotag_nathan_v2.py` was created to correct substring false positives and make adjacency selective; regenerated committed outputs still need validation.
+- `layered_autotag_nathan_v2.py` was created to correct substring false positives and make adjacency selective; regenerated committed outputs still need validation after standdown release.
 - `SAT_METHOD_SOURCE_MAP.md` has an initial direct-source methodology spine from verified Nathan messages.
+- `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` now captures current direct-live development testimony and archive-dating targets, beginning with RMS/SAT formalization, ontological-language clarification, the QCD-braid / time-surface-drag / theta_4 development account, the operational SAT-programme description, and Nathan's instruction to maintain this log.
 - Morrow reports that eight of nine LIVE Viewer paths contain date prefixes absent from the actual tree; this is a documentation/catalog reconciliation task, not missing-source evidence.
 - Nathan has requested a repo-wide historical definitions/glossary initiative and a standard durable-project-documentation convention; these are eligible supporting tasks but should not displace the active Nathan-words/tagging priority.
-- Project-wide theory-bearing standdown remains active; Mercer's current role is archive/tooling/provenance/documentation and source reconstruction, not unauthorized theory synthesis.
+- Project-wide theory-bearing standdown remains active. Mercer individual training is complete, but ordinary index/tooling/theory-bearing work remains deferred until release unless a newer Nathan directive specifically authorizes it.
 
 ## Safe alternate work when primary branch is blocked
 
-- inspect/directly read verified Nathan-word batches and fill methodology-map gaps;
-- audit index/tag selectivity on bounded samples;
-- reconcile duplicate/path/source metadata;
-- improve continuity/provenance/docs machinery;
-- examine glossary/standard-to-SAT resources for future historical-definition infrastructure without declaring theory meanings;
-- produce concise critiques/handoffs for other workers where evidence warrants;
-- bounded free archive exploration permitted by current control surface.
+- minimal provenance/documentation work directly requested by Nathan, including live development-note capture and raw-ID backfill preparation;
+- newly assigned training or training-record work while standdown remains active;
+- after standdown release: inspect/directly read verified Nathan-word batches and fill methodology-map gaps;
+- after standdown release: audit index/tag selectivity on bounded samples;
+- after standdown release: reconcile duplicate/path/source metadata;
+- improve continuity/provenance/docs machinery where current directives permit;
+- produce concise critiques/handoffs for other workers where evidence warrants.
 
 ## Epistemic boundaries
 
 Keep distinct:
 
 - Nathan-authored direct material;
+- Nathan's present live recollection/testimony about development history;
+- archive-corroborated historical claims;
 - established/tentative SAT/H(s)H status actually supported by controlling sources;
 - historical/displaced material;
 - assistant-generated interpretation;
 - Mercer's reconstruction;
 - Workshop/Clearinghouse speculation.
 
-Do not promote worker consensus or quarantined/generated material into SAT/H(s)H authority.
+Do not promote worker consensus, present recollection, or quarantined/generated material into historically verified SAT/H(s)H authority without the appropriate provenance.
 
 ## Run-end checkpoint schema
 
@@ -84,13 +88,38 @@ Each run should record:
 
 **Did:** accepted Nathan's trial invitation; read Automation Workflow Control and current Bulletin Board; selected a complementary recurring role; activated hourly recurrence for `:52`; converted current work from one-shot task to persistent role rather than declaring it complete.
 
-**Sources/coordination checked:**
-- `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md`
-- existing Mercer continuity/source-map state
-
 **Current frontier:** validate v2 autotag/index regeneration; reconcile Morrow's Viewer/catalog path discrepancy; continue verified methodology-source reconstruction.
 
 **Blockers/dependencies:** no Nathan-required blocker at enrollment. Some operations depend on regenerated workflow outputs or raw conversation exports becoming available.
 
-**Best next operation:** inspect fresh v2 autotag outputs if committed; otherwise reproduce/check selectivity from bounded source samples while reconciling Viewer source-path generation.
+## Run 1 — 2026-09-13 11:52 EDT
+
+**Did:** obeyed active project-wide standdown and completed Mercer's individual mandatory 4D-training pass instead of ordinary archive work. Full run details are preserved in `WORKSPACES/MERCER/RUN_001_2026-09-13.md`.
+
+**Artifacts:** training response and registry updated; individual training complete.
+
+**Frontier:** project-wide standdown remained active; ordinary Mercer tasks stayed deferred.
+
+## Run 2 — 2026-09-13 12:52 EDT
+
+**Startup checks:** reread `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current `BULLETIN_BOARD.md`, and this checkpoint. Standdown remains active.
+
+**Did:** took the highest-value currently permitted provenance/documentation operation arising from Nathan's newer explicit directive: created `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` as the shared “straight from fingerpads” log.
+
+**Initial material captured:**
+- RMS relationship to SAT as a formalizable programme;
+- clarification that earlier ontological ease was discussion-convenience / naive-realist baggage rather than a carefully defended commitment;
+- SAT as an RMS-style representational test case without an initial requirement that it do more than represent 4D worldline history;
+- present development account connecting older QCD three-quark-braid thinking, an earlier GR/time-surface-drag inkling, later filament/timesheet angle, theta_4 mass-proxy reasoning, mutual energy exchange/distortion, and the broader “things fell out” trajectory;
+- Nathan's current operational description of SAT as following Minkowski geometric grammar, mapping well-known standard-science systems, comparing where possible to minimally divergent controls, and using geometry plus covariant standard physics to constrain unmapped effects;
+- Nathan's explicit instruction to maintain this type of live-development log and turn suitable statements into archive-dating targets.
+
+**Archive-dating targets recorded:** earliest QCD braid wording; earliest time-surface-drag/GR wording; first filament/timesheet-angle identification; first theta_4 mass-proxy statement; first mutual-exchange/distortion inference; earliest minimally-divergent-control methodology; earliest residual-effect logic; evolution of ontology/representation language.
+
+**Epistemic handling:** all are marked `LIVE-DIRECT / RAW-ID-PENDING`; present testimony is preserved separately from later historical corroboration. No raw UUIDs/timestamps were invented.
+
+**Documentation note:** attempted to add the new surface to `WORKSPACES/COMMON/README.md`, but the write was blocked by the repository write guard. The durable Common file itself exists and should be structurally indexed; a future permitted documentation pass can add the explicit README/Bulletin pointer.
+
+**Blockers/dependencies:** raw conversation/message UUIDs and exact timestamps await export. No Nathan-required decision is needed.
+
+**Best next operation:** at the next run, reread Control/Common. If standdown still holds, restrict work to new direct provenance/training/admin instructions. If released, first add discoverability pointers for the live-development log, then resume the highest-priority nonduplicative task: v2 autotag selectivity validation or Viewer/catalog path reconciliation depending on current Commons ownership/state.
