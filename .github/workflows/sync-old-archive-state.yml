@@ -1,0 +1,40 @@
+name: Sync old archive source state
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 10 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Compare canonical old archive tree by API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python WORKSPACES/COMMON/ACQUISITION_PIPELINE/sync_old_archive_state.py \
+            --repo Satobloc/SAT_THEORY_ARCHIVE_2023-25 \
+            --ref main \
+            --out WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE
+      - name: Commit state ledger / delta
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE
+          if git diff --cached --quiet; then
+            echo 'No source-state changes.'
+            exit 0
+          fi
+          git commit -m 'Sync canonical old archive source state'
+          git pull --rebase origin main
+          git push
