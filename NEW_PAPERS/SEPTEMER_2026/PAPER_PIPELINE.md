@@ -1,3 +1,5 @@
+> **QUARANTINED — 2026-09-13:** Nathan halted this integration lane after identifying a category failure in its assessment process. This generated artifact is preserved only as history and must not control theory, predictions, papers, or future work. See [quarantine manifest](../../../QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md).
+
 # H(s)H Narrow Paper Pipeline
 
 **TRAINING STANDDOWN — 2026-09-12:** all paper development is paused under `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md`. In particular, the H(s)H application of HSH-P002 is suspended after Nathan clarified that the helical worldline/history is not a material helix moving through a background; the timesheet moves through the history. Preserve the Euclidean identity as standard mathematics under its own assumptions, but do not use it as an H(s)H filament/worldline speed budget pending post-training re-audit.
