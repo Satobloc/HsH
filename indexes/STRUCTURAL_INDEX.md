@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-12T23:25:17+00:00`
-- Tree/content state: `8712b69169bfa815976cadf078faab79696fb0b1f8f51406616a85e0c5e4b480`
-- Coverage: 853 files, 61 directories
+- Scanned: `2026-09-13T00:07:50+00:00`
+- Tree/content state: `1699382bfa80b1af7ebef34148a5e7b1f910280313d3afff19a9947cdd6b81e2`
+- Coverage: 854 files, 61 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -26,7 +26,7 @@
 | `NEW_PAPERS` | 3 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 73 |
+| `WORKSPACES` | 74 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -62,7 +62,7 @@
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 154 |
+| `.txt` | 155 |
 | `.yml` | 5 |
 | `[none]` | 2 |
 
@@ -79,7 +79,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 73 |
+| `llm-workspace` | 74 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1085,6 +1085,7 @@
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
