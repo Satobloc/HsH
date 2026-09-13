@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1096973734,
+    "bytes_known": 1096989351,
     "directories": 68,
-    "files": 884
+    "files": 886
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 155,
+    ".md": 157,
     ".pdf": 22,
     ".png": 37,
     ".py": 41,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 97,
+    "llm-workspace": 99,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 97,
+    "WORKSPACES": 99,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -714,7 +714,7 @@
       "size": 49
     },
     {
-      "content_id": "8c658301b1fd04639370ede895d13df0774f11f2c17d63ff6f46ed0f09f61c22",
+      "content_id": "3c742b6e75b5d42d182b938343615bff23cddd5272cfecd541075add34b668c6",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6265,11 +6265,11 @@
       "size": 5278
     },
     {
-      "content_id": "bbe5642b3923355aaeb79855ef27a232117aab3ffb64ffcc2d1af397e76c2c1b",
+      "content_id": "4d925b202bd85b5121958011a0a4f1afee8e5e4de704f0b744a39ecb9be4d16b",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 107556
+      "size": 112413
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6678,6 +6678,13 @@
       "size": 6372
     },
     {
+      "content_id": "7282bfc0316a980bdb47ba0f7396785f618511b3e8d843202cb4362beef98c9f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1835-to-July17-tail.md",
+      "role": "llm-workspace",
+      "size": 5909
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/COMMON/verified_batches",
@@ -6711,6 +6718,13 @@
       "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md",
       "role": "llm-workspace",
       "size": 8228
+    },
+    {
+      "content_id": "eb404e0cadb1e256658b4bef27c838100bcab372179d5a30bc57cc2a3cad0e39",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-04.md",
+      "role": "llm-workspace",
+      "size": 4851
     },
     {
       "content_id": null,
@@ -6937,7 +6951,7 @@
       "size": null
     },
     {
-      "content_id": "87a2d61dbda97e31c76ad9e99b0a8f9a1f7b107f7cb93d3781ffc579bf54f0aa",
+      "content_id": "d4ed7920c93faa6d15185ef15b9e9215dacf86ec806d33e9f24898231f40682f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6951,7 +6965,7 @@
       "size": 8625
     },
     {
-      "content_id": "bed4f855d3f5a5ee9c5a504df9e106ca0d53e25ae8f47cb9e5f4ecfcad2e8689",
+      "content_id": "2348603b10eb38502568849a2c4aece1b9fb7cae8cbe31d75b0a9fc0d98f7b4e",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6972,14 +6986,14 @@
       "size": null
     },
     {
-      "content_id": "a153f706edf650eea4e63e4c6c234a5c4e9c192e3ca3c1eb7fbcce939d3113ef",
+      "content_id": "eba7dd62438941c50ae33aa7ac916f61b5e8ccddfa117199e9e80844010ef439",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "269df4cbfe96c3898b2e3eda4424e338b08addf44d3bcb3ce57434449aa66ed3",
+      "content_id": "2957b392adc51ea8688694b3da7f08dffffcfbb0a9528591580b431f8131ae42",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7197,8 +7211,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T05:39:02+00:00",
+  "scanned_at_utc": "2026-09-13T06:21:50+00:00",
   "schema_version": 1,
-  "tree_id": "5148357a8758ea8a6a302c297cf53886afc6b93deda2dabb12884bfea6b2ebb2",
+  "tree_id": "4090a882241d5ae06d5c3751e04535efee8508f5767fd3a0d5889025a016e5e3",
   "tree_response_truncated": false
 }
