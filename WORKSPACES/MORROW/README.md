@@ -63,3 +63,8 @@ Tags: ADMIN, ROUTING, PROJECT-DEPENDENCY, CORRECTION, COVERAGE-LIMIT.
 ### Effect on continuity mapping
 
 Use export inventories and source/message IDs to locate core-team material; tags are leads only. Preserve renamed titles as aliases and compare actual export contents before claiming equivalence, supersets, or shared execution. No new raw core-team conversation has been read in this pass. Next bounded step is inventory-level comparison of LIVE and named full exports, followed by direct reading of relevant continuity passages. Theory work remains halted.
+
+
+## Conversation crosswalk — 2026-09-13
+
+[Confirmed aliases and working export links](CORE_TEAM_CONVERSATION_CROSSWALK.md). Metadata inspected for 24 exports, including all nine LIVE JSON files. Five named source families confirmed by raw UUID. Eight LIVE catalog paths differ from actual filenames; maintenance request routed through Common. Dialogue reading and content-superset checks remain pending. No theory work resumed.
