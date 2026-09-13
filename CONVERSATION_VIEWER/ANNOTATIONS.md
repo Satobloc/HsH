@@ -16,6 +16,8 @@ Each conversation can also have a 0–100 provenance priority, a search weight, 
 
 When promoted message/range annotations exist, the Viewer enters provenance-focus mode: promoted passages (plus one message of context on either side) are open and other messages are collapsed. `Show full conversation` restores the ordinary transcript view. Search hits open normally.
 
+Collapsed provenance-focus messages can also be opened by clicking the collapsed message body, not only the small `Open` button. A manual open is remembered for that conversation/message during the browser session so ordinary Viewer re-rendering does not immediately collapse it again.
+
 ## Message and range annotations
 
 Internal annotation mode supports a single message or a contiguous range. Shift-clicking message selectors inherits selection across the intervening range. Discontiguous selections are saved as separate contiguous ranges.
@@ -40,11 +42,28 @@ Free-form thematic tags such as `QCD`, `electrogravity`, `worldtube`, or `torus`
 
 A historically important passage may therefore be both `provenance-anchor` and `superseded`, or `milestone` and `re-adopted`. Historical importance and current theoretical status are intentionally orthogonal.
 
+### Internal quick curation
+
+The local/admin Viewer additionally exposes compact per-message quick controls:
+
+- `−` — reduce that exact message's priority by 10;
+- `+` — increase priority by 10;
+- `Flag` — toggle an internal review flag;
+- `Promote` — toggle ordinary `important`/search promotion, with a modest priority/search-weight floor.
+
+These controls are available only in local internal annotation mode. `Promote` is intentionally weaker than declaring a passage a `provenance-anchor` or a conversation `core`; those stronger judgments still belong in the full annotation editor.
+
 ## Search behavior
 
 Conversation search first requires a real textual/date match. Among matching conversations, provenance class and provenance priority promote stronger primary evidence. Core provenance does not cause an unrelated conversation to beat an actually relevant result.
 
 Within-conversation search ranks promoted message hits ahead of ordinary hits and preserves message number plus the original message date/time in each result entry.
+
+## Replay behavior
+
+Typealong and sequential message replay operate on dialogue messages rather than blindly replaying every raw record. `tool`, `system`, `developer`, `function`, and `internal` records are excluded; assistant messages that look like tool/plumbing payloads are also skipped. Ordinary user, assistant, and companion dialogue remains eligible.
+
+This filtering affects presentation only. The raw messages remain in the source conversation and can still be exposed through ordinary Viewer/internal-message controls where supported.
 
 ## Public versus internal
 
@@ -84,5 +103,7 @@ The local toolbar provides:
 - Clear selection
 - Publish public projection
 - Export private annotation JSON
+
+Per-message quick controls provide the faster upgrade/downgrade/flag/promote pass; the full editor remains available for provenance class, exact status, labels, notes, timeline links, visibility, and richer tagging.
 
 Every raw conversation remains source-preserved throughout this process.
