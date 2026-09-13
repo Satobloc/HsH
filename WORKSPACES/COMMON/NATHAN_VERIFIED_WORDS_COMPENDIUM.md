@@ -734,17 +734,76 @@ This batch begins the durable raw overview conversation at `DEVELOPMENT_FULL_CON
 
 ---
 
-### 2026-09-12-F
+## Excavation batch 2026-09-12-G — `SAT Overview — raw.json`, Donut/method continuation
+
+This batch continues later on June 23 in the same durable raw export. Each promoted passage below was verified in its own raw mapping node with `message.author.role = user`. Repeated copies embedded inside later `file_search`/tool retrieval payloads were excluded and are not counted as independent evidence.
+
+### 2026-06-23 — Donut is not SAT; distinguish a transformation path from physical meaning
+
+- **Tags:** `WHIRLIGIG-DONUT` `METHOD` `MODEL-VS-REALITY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `bb4a205b-7fa0-446c-a1c9-37bc9db05701` — 2026-06-23 09:47:59 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit same-day correction of the Donut's status. Statements about particular isomorphisms are preserved only as Nathan's at-the-time wording and are not independently validated here.
+- **Exact Nathan wording:**
+
+> Actually. No, the donut really is not part of SAT. It’s a bit of a feather in my cap as a guy who couldn’t solve a quadratic equation to save my life. But honestly, SAT is already a whole headdress. The geometric map does generate the physics… Or the other way around. Doesn’t matter. Same thing.
+>
+> And yes, the donut did give us away to convert between quantum mechanics and general relativity. Two, in fact. It gave us the Schwarzchild-Hydrogen ladder isomorphism, and the Schwarzchild-SO(4) or SU(2) isomorphism. I can never remember which one. But of course… It doesn’t matter because they’re all related to one another. The donut is just a crutch to show you how. The rest of SAT is the scaffolding that allows you to make sense of it determine if it has physical meaning or if it’s just … I folded a loop into a figure eight. It’s trivial that it can be done for any equation. There’s always a transformation path. The question is what does it mean, if anything?
+
+- **Immediate context:** the preceding assistant message had treated the Donut as part of the SAT toolbox/foundational hierarchy. Nathan explicitly corrected the stronger identification: the Donut itself is not SAT, and mere transformability is not enough to establish physical meaning.
+- **Later correction / relationship:** strengthens and sharpens the earlier `bbf9cce9-a7ed-4e2a-ae42-57ea3a58369d` tool-typing statement. Future Donut claims should preserve this boundary unless a later Nathan-authored message changes it.
+
+---
+
+### 2026-06-23 — Method: draw the map and inspect it rather than infer meaning from resemblance
+
+- **Tags:** `METHOD` `WHIRLIGIG-DONUT` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `e8ebb572-4383-44a6-991f-56ab46e5d7b7` — 2026-06-23 09:51:02 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct methodology statement; acknowledges that noticing an isomorphism is not itself unique or sufficient.
+- **Exact Nathan wording:**
+
+> And the fact of the matter is, I’m not the first one to find an isomorphism… But instead of wondering about why this math does this and that math does that and is it meaningful that these look similar or not… I’m just like draw the fucking map, and look at lol
+
+- **Immediate context:** follows the Donut-status correction and a discussion distinguishing formal transformability from physical significance.
+- **Later correction / relationship:** cross-link with earlier geometry-first methodology entries; this passage says what Nathan wants done procedurally, not what any particular mapping establishes.
+
+---
+
+### 2026-06-23 — Donut prompted a helix/quantization observation
+
+- **Tags:** `WHIRLIGIG-DONUT` `QUANTIZATION` `HELIX-PITCH-RADIUS-ARCLENGTH` `METHOD`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `82e0cebb-764c-4039-b60b-17f687b274a0` — 2026-06-23 09:53:30 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** Nathan's at-the-time geometric interpretation/hypothesis. The compendium preserves the observation but does not promote the quantization claim.
+- **Exact Nathan wording:**
+
+> And I’ll tell you what, the only thing the donut did for me out what was right in front of my face the whole time… Even after finding the isomorphism that we found, it took me a while to recognize.
+>
+> Just look at helix… nice and curved is now stretch the fuck out of it. Does it stay nice and curved? No. Does it go straight? No. What does it do? It quantizes
+
+- **Immediate context:** immediately follows Nathan's “draw the map” methodology statement; he described what the Donut visualization prompted him to notice about a stretched helix.
+- **Later correction / relationship:** should be linked to later direct Nathan-authored material on holonomy/quantization if and when recovered. Do not infer a mathematical derivation from this wording alone.
+
+---
+
+### 2026-09-12-G
 
 - **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`.
 - **Raw export title:** `SAT Overview`.
-- **Authorship method:** raw conversation mapping retrieved through the Library index; only nodes explicitly showing `message.author.role = user` were accepted.
-- **Date range actually covered in this batch:** targeted June 23, 2026 overview/rebuild regions, approximately 02:57–08:20 EDT.
-- **Verified Nathan messages added:** 5.
-- **Primary topics covered:** timesheet/GR and braid/QCD overview language with explicit uncertainty; the one-structure nested helical worldline/worldtube picture; explicit typing of UI/TX and Donut/Whirlygig as tools; Donut source-lineage provenance; distinction between Nathan's geometric conviction and the separate task of validating the Donut as a formal proving mechanism.
-- **Deduplication:** all five UUIDs were checked against the existing compendium before insertion. A closely repeated earlier GR/QCD message (`3d3b7b50-6324-4c09-bcfe-585b0895a9b0`) was not separately promoted because the later `47f3c62a-32e6-4972-b1c2-4d071a729001` message is the richer version in the same immediate region.
-- **Unresolved/source issue:** a high-value passage was located in the indexed raw corpus in which Nathan says worldlines are an essentialized representation relative to worldtubes and discusses helical-worldtube radius/pitch scaling, but this pass did not recover a raw mapping node that explicitly showed `author.role = user` for that exact passage. It was therefore not promoted. The Library exposes duplicate `SAT Overview — raw.json` copies; the durable repository path above controls source identity.
-- **Next priority region:** continue later June 23 through July 5 in `SAT Overview`, prioritizing explicit user nodes on worldtube/finite-core typing, radius/pitch/arclength, UI/Donut/Whirligig, Spheres/Graticule, and corrections to model status; then move to `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json` and `H(s)H TIME RESIDUALS`.
+- **Authorship method:** direct raw mapping inspection; only standalone nodes with `message.author.role = user` were accepted. Copies of the same wording embedded in later tool/file-search retrieval payloads were explicitly excluded.
+- **Date range actually covered in this batch:** June 23, 2026, 09:47:59–09:53:30 EDT.
+- **Verified Nathan messages added:** 3.
+- **Primary topics covered:** Donut's status as external/tool-like rather than SAT itself; distinction between a legal transformation path and physical significance; map-first methodology; a dated helix/quantization observation prompted by the Donut.
+- **Deduplication:** all three raw message UUIDs were checked against the existing compendium; none was already promoted. Retrieval-payload duplicates do not count as separate provenance.
+- **Unresolved/source issue:** the high-value passage saying “we'll just stick with tubes, because worldlines is an essentialized idea” and discussing worldtube radius/pitch/thickness remains visible in the raw-export retrieval surface, but a standalone source node with explicit `author.role = user` was not recovered in this pass. It therefore remains excluded from VERIFIED rather than inferred from wording/style.
+- **Next priority region:** continue the later June 23–July 5 `SAT Overview` chronology, with first priority on recovering a standalone raw user node for the worldline/worldtube essentialization correction if it exists, then finite-core/readout and UI/Donut/Whirligig material. After that move to `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json` and `H(s)H TIME RESIDUALS`.
 
 # UNVERIFIED / NEEDS SOURCE CHECK
 
