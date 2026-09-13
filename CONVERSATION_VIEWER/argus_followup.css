@@ -1,0 +1,39 @@
+.message.provenance-collapsed:not(.annotation-open) {
+  cursor: pointer;
+}
+
+.message.provenance-collapsed.annotation-open,
+.message.provenance-collapsed.annotation-manual-open {
+  cursor: default;
+}
+
+.annotation-quick-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: .22rem;
+  margin-right: .4rem;
+  font-size: .68rem;
+  opacity: .88;
+}
+
+.annotation-quick-controls button {
+  min-height: 0;
+  padding: .12rem .32rem;
+  font-size: .68rem;
+}
+
+.annotation-quick-controls button.active {
+  font-weight: 800;
+  outline: 1px solid currentColor;
+}
+
+.annotation-quick-controls .quick-priority {
+  min-width: 2.1em;
+  font-variant-numeric: tabular-nums;
+  opacity: .72;
+}
+
+.annotation-quick-controls .quick-status {
+  min-width: 3.4em;
+  opacity: .68;
+}
