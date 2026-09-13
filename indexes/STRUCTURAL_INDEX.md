@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T02:46:09+00:00`
-- Tree/content state: `b92c77ccf325575723fdeafdd16f50ca4606e50c9c9be968efe9a8ca9dd54b43`
-- Coverage: 870 files, 66 directories
+- Scanned: `2026-09-13T02:49:58+00:00`
+- Tree/content state: `0f031cbeb2f60fa8bd5c0b11df849fd7ce81463765c5f9c49ffc1c19a467f9ac`
+- Coverage: 871 files, 66 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 7 |
+| `.github` | 8 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -64,7 +64,7 @@
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 7 |
+| `.yml` | 8 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -73,7 +73,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 7 |
+| `automation-workflow` | 8 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -302,6 +302,7 @@
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
+- `.github/workflows/sat-candidate-analysis-sample.yml` — 1061 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md` — 4370 bytes — `unclassified`
