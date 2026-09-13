@@ -23,14 +23,19 @@ jobs:
       - name: Run layered autotagger
         run: |
           mkdir -p WORKSPACES/COMMON/analysis
-          ROOTS="DEVELOPMENT_FULL_CONVOS"
           if [ -d "LIVE CONVOS" ]; then
-            ROOTS="$ROOTS LIVE CONVOS"
+            python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py \
+              DEVELOPMENT_FULL_CONVOS "LIVE CONVOS" \
+              --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
+              --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
+              --window 4
+          else
+            python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py \
+              DEVELOPMENT_FULL_CONVOS \
+              --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
+              --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
+              --window 4
           fi
-          python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py $ROOTS \
-            --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
-            --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
-            --window 4
       - name: Show summary
         run: sed -n '1,320p' WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md
       - uses: actions/upload-artifact@v4
