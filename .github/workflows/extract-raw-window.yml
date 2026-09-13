@@ -1,0 +1,42 @@
+name: Extract bounded raw conversation window
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/extraction_requests/*.json'
+      - 'WORKSPACES/COMMON/scripts/extract_raw_window.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run extraction requests
+        run: |
+          mkdir -p WORKSPACES/COMMON/extraction_outputs
+          for req in WORKSPACES/COMMON/extraction_requests/*.json; do
+            [ -e "$req" ] || continue
+            python WORKSPACES/COMMON/scripts/extract_raw_window.py "$req"
+          done
+      - name: Commit extraction outputs
+        run: |
+          git config user.name "H(s)H Extraction Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add WORKSPACES/COMMON/extraction_outputs
+          if git diff --cached --quiet; then
+            echo "Extraction outputs already current"
+          else
+            git commit -m "[skip hsh-maintenance] Refresh bounded raw extraction outputs"
+            git push origin HEAD:main
+          fi
