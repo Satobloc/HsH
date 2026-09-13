@@ -7,7 +7,7 @@ Existing task to replace: `6a9deb436bd0819196ab3ec694e294c2`, associated by sche
 
 ## Frontier
 
-Initial [core-team metadata crosswalk](CORE_TEAM_CONVERSATION_CROSSWALK.md) remains complete for 24 exports/five families. Janus A/B/C export comparison is complete at message-graph level, with one shortened A tool body preserved. [The 20:01–20:08 UUID discrepancy is now resolved](JANUS_UUID_RECONCILIATION_2026-09-13.md): all three raw blobs agree, affected historical ledgers carry correction banners, and current compendium fields are corrected. Next: bounded role/access-capability passage beginning at `a044a94b-e4fe-4d27-874f-a503022cfa4d`; historical testimony must remain separate from present tool evidence. Mercer owns LIVE path reconciliation and scanner review. No training completion or theory resumption asserted.
+Initial five-family metadata crosswalk remains complete. Janus A/B/C export comparison and 20:01–20:08 UUID reconciliation remain complete. The [bounded Aldus/Morrow role-and-access exchange](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md) is now source-typed: one historical Aldus `pca` citation is observable, while whole-thread access, a Morrow citation, current crosstalk, and the claimed context-bleed event are not established by that branch. Current Morrow role authority comes from Nathan's later workflow directive, not retroactively from Janus's assistant-authored proposal. Next: direct raw audit of the candidate Morrow context-bleed region beginning `829aa155…` through the completed assessment following `95bfdf06…`. Mercer owns LIVE path reconciliation and scanner review. No training completion or theory resumption asserted.
 
 ## Goalposts and workflow
 
@@ -53,3 +53,18 @@ Read central workflow control in full (blob e4f99ae2e055855d420ff0e78df5b8b5b814
 - Drive: scoped query `Janus continuity` returned no result. This is not an all-Drive absence claim.
 - Frontier/blockers: interval discrepancy closed. `MORROW-SOURCE-001` remains OPEN solely for scanner-maintainer review of `content.text` and affected duplicate reports; no Nathan decision required. Theory freeze and uncompleted training unchanged; `SPHERE4QC.txt` line 1301 untouched.
 - Next exact operation: raw Janus branch from `a044a94b-e4fe-4d27-874f-a503022cfa4d` (06:28:31.349 EDT) through the completed answer following `8466ff95-e853-4875-8f53-c936ca9f17a2` (06:29:37.300 EDT). Recover Aldus/Morrow role definitions and the claimed access mechanism; compare the claim to observable tool calls without converting export testimony into present capability.
+
+
+## Run checkpoint — 2026-09-13, role/access boundary
+
+- Actual first clock observation: **2026-09-13T20:38:17.649Z** (16:38:17 EDT); scheduled coordination phase **:40**, nominal 16:40 EDT. Received trigger stated 16:37:39 EDT. These are coordination times, not executor identity.
+- Work quantum: sequentially read the complete bounded Janus branch from Nathan user node `a044a94b-e4fe-4d27-874f-a503022cfa4d` through completed assistant answer `cb5953a8-2288-4ea2-af23-20bc5d728b06`, stopping before the next user turn. Eight nodes include visible messages and exported reasoning/retrieval records; this is not full-conversation ingestion.
+- Source comparison: relevant content, authorship, routing, timestamps, graph links and final citation metadata agree across Janus blobs A `bb0aed39…`, B `8086aa3e…`, C `4d0db671…`.
+- Findings: Nathan's two prompts do not define roles or assert access. The Morrow/Aldus/Janus architecture is `GEN/HISTORICAL-PROPOSAL`; Nathan's later workflow independently controls the current Morrow role. Historical retrieval metadata records one seeded `pca` citation to Aldus conversation `6a9dea2e…`, exactly matching raw node `d2157b30…` in Aldus blob `2f5ea91a…`. No Morrow citation, transcript body or separate tool-result node is exposed.
+- Capability boundary: this branch supports selective past-chat retrieval in that historical Janus turn. It does not establish complete-chat access, present live-thread access, direct inter-instance communication, or the asserted Morrow context-bleed event. That stronger statement remains historical assistant testimony pending direct raw audit.
+- Artifacts: new [source audit](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md); workspace README and [crosswalk](CORE_TEAM_CONVERSATION_CROSSWALK.md) linked; Common notice posted. No theory artifact touched.
+- Searches: GitHub exact-ID/exact-phrase queries returned no derived-document hit; direct raw blobs control. Scoped Drive query `Aldus Morrow` returned no result. Neither is a repository/Drive absence proof.
+- Common startup/pre-write controls: workflow `cbc7d9ba…`, bulletin `79010fe6…`, coordination `8ff638a6…`, handoffs `2a46cf8f…`; no intervening change found before shared writes.
+- Frontier/blockers: `MORROW-SOURCE-001` remains OPEN for scanner-maintainer review; no Nathan decision required. Historical context-bleed mechanism remains unclassified.
+- Next exact operation: Morrow raw blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, active branch beginning user node `829aa155-eea0-458b-8fb4-ccc20903773a` (2026-09-08T10:08:16.142Z) through the completed correction/assessment following assistant node `95bfdf06-d045-5d74-b9d8-bc657610eab6`. Compare embedded user turns, assistant output, tool records and raw-export evidence before distinguishing context injection, duplicate routing or interpretation.
+- Training frontier unchanged; theory freeze remains; deferred `SPHERE4QC.txt` line 1301 untouched.
