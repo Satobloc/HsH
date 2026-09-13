@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1097094162,
+    "bytes_known": 1097098627,
     "directories": 68,
-    "files": 901
+    "files": 902
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 168,
+    ".md": 169,
     ".pdf": 22,
     ".png": 37,
     ".py": 43,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 112,
+    "llm-workspace": 113,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 112,
+    "WORKSPACES": 113,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -728,7 +728,7 @@
       "size": 49
     },
     {
-      "content_id": "5e8101eb9b990cb620646d2d1cef7f92938e3cdd0d177bbe8ace1a601550d3c4",
+      "content_id": "1e91eca60610af1e1cdb92dba131225821846c262cada6d5581e0ad9392ee9b3",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -5803,11 +5803,11 @@
       "size": null
     },
     {
-      "content_id": "b02b47b41f57a4166de0bfee50e8d65d0496c48d06101827dc4644775e2f863a",
+      "content_id": "9a947957971870920c8493589bc8708eea5787a69ae23ab0006c96eb37c75af1",
       "kind": "blob",
       "path": "QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md",
       "role": "unclassified",
-      "size": 2040
+      "size": 4269
     },
     {
       "content_id": "2661d36c64ce26d9a0929be3f4d39be163ee5d25ae729bd622ef0350effda73e",
@@ -6174,11 +6174,11 @@
       "size": 175396
     },
     {
-      "content_id": "9401b8105a31d38be87e34f9153d6560300c228859601026761192aebbcf2b60",
+      "content_id": "68cb81709808954e46b26337d8ab1c6e657e0901817ef60b8137ed21b83a12b3",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/BULLETIN_BOARD.md",
       "role": "llm-workspace",
-      "size": 7465
+      "size": 8533
     },
     {
       "content_id": "b999b5b8381f66f1774181963abc319a9361df9ea66ec9030ef31a4b382d86b4",
@@ -6790,6 +6790,13 @@
       "size": 6699
     },
     {
+      "content_id": "e0e83d44a98e21927408be39695f51593125dc770c76dfcff598c28ffe76d4a7",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-03.md",
+      "role": "llm-workspace",
+      "size": 1168
+    },
+    {
       "content_id": "9716c9999777deff5abb9ece794ee49375a103f17e69af62dfdbf49f037b17c8",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md",
@@ -7056,7 +7063,7 @@
       "size": null
     },
     {
-      "content_id": "bd2b4acf014235c35dd3718ca70b117aa0892e88a51b43c95cc8aa31bb329dca",
+      "content_id": "801da03c2aa810c18089b0f2baefe018bd0979df85aff4ecb8306e34e776b656",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7070,7 +7077,7 @@
       "size": 8625
     },
     {
-      "content_id": "e187c91f8a2436860413b0a11d225d8975e129f811281649e4d1cbc44c613934",
+      "content_id": "ebd3862f0ccc87dd9c807a05ff2b85bb687fb20f187e533d81f5f9ef5ec18013",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7091,14 +7098,14 @@
       "size": null
     },
     {
-      "content_id": "338502ace8242a9ce4383feaeb4a65818ef1b058face6cb37c5d7507f4153187",
+      "content_id": "c995776c016e5ded3a67e531687cdbffe1f64325e0bbba96e301a13557ac3399",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "f2e1de49e8b741780481573880a7b46484b8ef64d0f707be7c086d9379e04722",
+      "content_id": "28cf121f5139105b5af343404635ca3fbe2677c0af9a6f598923f8d769157dc2",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7316,8 +7323,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T08:41:29+00:00",
+  "scanned_at_utc": "2026-09-13T09:04:08+00:00",
   "schema_version": 1,
-  "tree_id": "96ef1321cfa1b23154404a74a040d9074d506dd07454c38febd8e33d5f7ec8c5",
+  "tree_id": "f5ff117fa06c29e2021d463be2555448ce35021765d87531750def63501063ba",
   "tree_response_truncated": false
 }

@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T08:41:29+00:00`
-- Tree/content state: `96ef1321cfa1b23154404a74a040d9074d506dd07454c38febd8e33d5f7ec8c5`
-- Coverage: 901 files, 68 directories
+- Scanned: `2026-09-13T09:04:08+00:00`
+- Tree/content state: `f5ff117fa06c29e2021d463be2555448ce35021765d87531750def63501063ba`
+- Coverage: 902 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 112 |
+| `WORKSPACES` | 113 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 168 |
+| `.md` | 169 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 43 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 112 |
+| `llm-workspace` | 113 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1010,7 +1010,7 @@
 - `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 7094 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
-- `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 2040 bytes — `unclassified`
+- `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
 - `README.md` — 37343 bytes — `visitor-interface`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
@@ -1054,7 +1054,7 @@
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.json` — 168357 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.csv` — 155736 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.json` — 175396 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 7465 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 8533 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
@@ -1137,6 +1137,7 @@
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-01.md` — 4446 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-02.md` — 6699 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-03.md` — 1168 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 10969 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md` — 5833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md` — 8228 bytes — `llm-workspace`
