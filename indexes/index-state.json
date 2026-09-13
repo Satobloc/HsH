@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1097088972,
+    "bytes_known": 1097093436,
     "directories": 68,
-    "files": 900
+    "files": 901
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 167,
+    ".md": 168,
     ".pdf": 22,
     ".png": 37,
     ".py": 43,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 111,
+    "llm-workspace": 112,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 111,
+    "WORKSPACES": 112,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -728,7 +728,7 @@
       "size": 49
     },
     {
-      "content_id": "635d8a1a44b704ab77eb9a1e1319bc8493811f250b71fea067aeab49970bf436",
+      "content_id": "f7de9910c1315a24a9c6e54a0dd7c9c6f6891e51c55690d07dcb88d6f2f26054",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6825,6 +6825,13 @@
       "size": 9120
     },
     {
+      "content_id": "7d25c5676457385f74509dfa2183e9369373a17d90117a8df36abc34e2ebce31",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Stringing-Along-Theory-Summary-01.md",
+      "role": "llm-workspace",
+      "size": 4464
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/PODCAST_LAB",
@@ -7049,7 +7056,7 @@
       "size": null
     },
     {
-      "content_id": "a08738bc3600f60ccb85c1e2c177be682d2f0681e2ffc25097dab320d1f7a51d",
+      "content_id": "f4222a4ec1cdb184a2bd8520e9707ece2501bcefbe3adefd51c5f3f6eedd62a0",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7063,7 +7070,7 @@
       "size": 8625
     },
     {
-      "content_id": "b203b0e2cffba02a482bf983d4cb62f42b701a61526db87f4f4a779143391782",
+      "content_id": "f8c110ca0c2983cf768b75f8c1b12b115a4b147300da40a14f92f81264c525ab",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7084,14 +7091,14 @@
       "size": null
     },
     {
-      "content_id": "c62b05c12e20a97d50ded59ada6d61f367abb93ed759c24f2610aeffdf7b7647",
+      "content_id": "fddd2986613d3a07dece7bf2a64b36fe09c1490be3894a3ac928ad10fe335936",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "604a08dc8d4b7409ed3bfdc07868de8b412716b54fac3ce3255993b2ccd6229c",
+      "content_id": "9c34410072c2eb3bf0cc509dc8245e73ea0c0efd18279b6e821551773b969b45",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7309,8 +7316,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T08:34:55+00:00",
+  "scanned_at_utc": "2026-09-13T08:36:28+00:00",
   "schema_version": 1,
-  "tree_id": "68744ed31a2a28a38c36ace4a3a90a0a2ff53a1a5246e7e3f70897f057b7fe38",
+  "tree_id": "e3fad017f64669a5df4172e70a4568f77e5502e7aef3f1a4ea5ff7c3d84a299c",
   "tree_response_truncated": false
 }

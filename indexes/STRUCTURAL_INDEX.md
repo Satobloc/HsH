@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T08:34:55+00:00`
-- Tree/content state: `68744ed31a2a28a38c36ace4a3a90a0a2ff53a1a5246e7e3f70897f057b7fe38`
-- Coverage: 900 files, 68 directories
+- Scanned: `2026-09-13T08:36:28+00:00`
+- Tree/content state: `e3fad017f64669a5df4172e70a4568f77e5502e7aef3f1a4ea5ff7c3d84a299c`
+- Coverage: 901 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 111 |
+| `WORKSPACES` | 112 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 167 |
+| `.md` | 168 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 43 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 111 |
+| `llm-workspace` | 112 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1142,6 +1142,7 @@
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md` — 8228 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-04.md` — 4851 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Spacetime-Manifold-Notation-01.md` — 9120 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-Stringing-Along-Theory-Summary-01.md` — 4464 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
