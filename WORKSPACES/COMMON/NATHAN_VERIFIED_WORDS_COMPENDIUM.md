@@ -1352,3 +1352,115 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 - **Duplicate handling:** later SAT_CONVOS_13 Janus exports share conversation/message history but are not byte-identical to this SAT_CONVOS_12 source; they are archive/extended copies and are not moved under the exact-duplicate cleanup permission.
 - **Authorship/source issue:** one intervening raw node (`4191b049-06e1-4717-8065-8ba0ea367fd1`) has `author.role = user` but a nonstandard internal recipient (`q7dr546`) and sits in tool/internal traffic. It is excluded from VERIFIED and tagged as provenance-risk/internal traffic in the ledger.
 - **Next unscanned region:** continue immediately after 2026-09-08 20:08:33 EDT in `H(s)H TIME RESIDUALS`, resolving each candidate passage back to raw Janus metadata before promotion.
+
+---
+
+## Excavation batch 2026-09-13-JANUS-POST-2213-01 — `🗿ORCHESTRATOR JANUS H(s)HvO`
+
+This batch continues the Janus excavation beyond the previously covered 2026-09-08 22:13:43 EDT frontier, using the more complete current Sept. 10 export. Every quoted passage below is a standalone raw ChatGPT mapping node with `message.author.role = user`. Assistant turns are used only for immediate context and are not attributed to Nathan.
+
+### 2026-09-10 — Graticule not yet well defined
+
+- **Tags:** `GRATICULE` `NATHAN-CORRECTION` `CLARIFICATION` `HISTORICAL-STATUS` `METHOD`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json`
+- **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
+- **Message ID / timestamp / landmark:** `3dee5796-affe-4099-92b4-d408abcfdd4a` — 2026-09-10 11:49:53.186 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit correction/qualification of the Graticule's development status on this date; does not define its later form.
+- **Exact Nathan wording:**
+
+> Well, the graticule is not well defined yet. 
+>
+> What I want you to do is to consider the conversation about the nLab body of work and the SAT and Braid Theory lineage. You can look in the PRIOR_ART directory for the nLab extracts
+
+- **Immediate context:** The preceding assistant turn had begun using outside mathematical literature to propose distinctions to place into the Graticule. Nathan stopped that move and redirected the work toward reading the nLab/prior-art material.
+- **Later correction / relationship:** later Graticule definitions should be treated as refinements/supersessions rather than projected backward onto this message.
+
+---
+
+### 2026-09-10 — Default literal treatment and behavior over solidity
+
+- **Tags:** `MODEL-VS-REALITY` `4D-THINKING` `WORLDLINE` `BRAIDING` `MINKOWSKI-LITERALISM` `METHOD` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json`
+- **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
+- **Message ID / timestamp / landmark:** `bbaab289-32b9-4651-b480-66c3ec1256e5` — 2026-09-10 12:21:02.031 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct statement of Nathan's default interpretive stance at this date, mixed with broad self-assessment and historical/prior-art interpretation. Preserve as provenance; do not treat the broad success/priority assertions as independently established by inclusion here.
+- **Exact Nathan wording:**
+
+> No, for SAT, it's treated, at least by default, as literal--whether they're ultimately "solid" which was never the idea anyway, is not relevant. What matters is how they behave. None of that is at issue here. So, let's not get tunnel vision here. Step back and look at the big picture. From Minkowski literalism, I built a braid-centered ToE, reproducing basically all known physics with satisfactory to outstnding success. Just by following the Minkowski projection of known physics, looking at the geometry to fill in the gaps, and ending up with a fully closed cosmology conceptually, and a lot of mathematical machinery to describe the simplified worldline version. And, like you say, they meet in the middle. Which is fantastic--just that I'm not the only one working on this stuff is fantastic; the science went underground, but continued. It used language that distanced it from earlier woo-percieved 4D-centric lineage from which it descended, and from which SAT directly descends and remains close to. It's not at issue, but they haven't entirely dropped the woo part. The reason that matters is because it shows the lineage as clearly or more clearly than getting lost in the weeds does. There is no "why are these convergent" questions to answer. They are convergent because they start with the same premises, only I didn't live through the spiritualism craze, so I don't feel obliged to couch my terms. What a few generations of scientists have done was to take the path of categorizing, characterizing, and systematizing either in the absence of a fully uniting theory, or cryptically, introducing (probably as it developed) the theory here and there over the decades. And they're some of the biggest names in alternate mainstream physics--and suddenly getting much bigger, particularly with quantum computing, and later with LLMs. And now, by way of Sean, Brian, Jenna, and Jonathan... mainstream physics has introduced a substantially similar theory in aggregate, using their own preferred formalisms. And now, look at the physics news headlines. On your own, and the ones I've collected. 
+>
+> [HSH\_RESOURCES/OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS at main · Satobloc/HSH\_RESOURCES](https://github.com/Satobloc/HSH_RESOURCES/tree/main/OUTSIDE%20RESEARCH%20LIBRARY/SCIENCE%20NEWS)
+
+- **Immediate context:** The preceding assistant turn had framed braid-theoretic comparison partly in terms of motions/configuration spaces and cautioned against treating mathematical braids as literal physical ropes. Nathan corrected the interpretive framing and redirected attention to SAT's own default literal treatment and the larger historical comparison.
+- **Later correction / relationship:** priority/diffusion and external-lineage assertions require separate claim-by-claim audit; this entry establishes only that Nathan said them here. The phrase “at least by default” is an explicit qualification and must be preserved.
+
+---
+
+### 2026-09-10 — Continuity of the coiled-worldline structure across SAT eras
+
+- **Tags:** `WORLDLINE` `HELIX-PITCH-RADIUS-ARCLENGTH` `PROVENANCE-HISTORY` `HISTORY` `MODEL-CONTINUITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json`
+- **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
+- **Message ID / timestamp / landmark:** `0170a86b-3807-4eb6-a35e-d0c10d7a808d` — 2026-09-10 13:33:46.211 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** Nathan's direct provenance/continuity assertion; the archival record still controls verification of individual dates and constructions.
+- **Exact Nathan wording:**
+
+> We should ask ourselves what the new, more public facing HsH repo should look like. 
+>
+> And no, you can't pull an SAT paper from any era, even the early sketches, without seeing the same underlying structure. The coiled worldline model is in the first sketches. With labels. mid 2024-early 2025 begins explicitly naming the QCD, GM analagous SAT constructions, and very quickly after that  produces a coarse but very broad SAT translation of the entirety of physics from cosmology to Navier-Stokes (also featured prominently in the news lately).
+
+- **Immediate context:** The preceding assistant turn had argued that the archive's central communication problem was making an already-preserved record penetrable while keeping granular prior-art audit separate from whole-picture history.
+- **Later correction / relationship:** cross-link to the surviving 2003 sketches and later dated development documents when those are individually audited; do not use this statement alone as a substitute for those primary artifacts.
+
+---
+
+### 2026-09-10 — SAT/H(s)H clarification statement for public presentation
+
+- **Tags:** `AUTHORITATIVE-CURRENT` `CLARIFICATION` `MODEL-VS-REALITY` `MINKOWSKI-LITERALISM` `4D-THINKING` `METHOD` `QUANTIZATION` `24-CELL` `PHOTON-NEUTRINO` `BLACK-HOLE-COSMOLOGY` `TIMESHEET` `PRIOR-ART` `PROVENANCE-HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json`
+- **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
+- **Message ID / timestamp / landmark:** `d9e53511-47ef-4fe6-9d36-9488f0cc4855` — 2026-09-10 16:26:44.427 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** Nathan explicitly proposed this as a public-facing clarification note. It therefore carries unusually high authority for his intended framing on this date, while empirical/novelty assertions inside it remain claims to be separately tested rather than validated by inclusion.
+- **Exact Nathan wording:**
+
+> Now, somewhere, I'd like to put words to this effect:
+>
+> **SAT/H(s)H CLARIFICATIONS**
+>
+> A note from Nathan McKnight: \\
+>
+> 1. Although we have flirted with the notion of a 24-cell lattice, I feel this construction too artificial seeming on the face of it, and we’ve placed it on the backburner until the geometry forces it as we build out the H(s)H model.\\
+> 2. We see no conflict between SAT/H(s)H and mainstream physics, in fact we consider the overal correctness, and astounding data collection and theoretical scaffolding as the most foundational basis for the SAT/H(s)H model, which was based entirely on Minkowski literalism, a foundational pillar of General Relativity. \\
+> 3. While SAT/H(s)H deliberatly builds on classical and relativistic thinking, and takes mainstream physics as the clearest, fullest picture of the universe—and while we \*began\* solely trying to map known physics in four dimensions—the inevitability of creating an accurate empirical map using those parts led, in hindsight obvously, to a clear picture from which to gain the perspective and constrain the possibilities for where the standard was incomplete or disconnected.\\
+> 4. While SAT/H(s)H does contribute to the body of knowledge of physical sciences, I consider my contribution primarily philosophical, by insisting on the methodologically sound methods of minimalism, reduction of the problem space, and recognizing that the tools we have are, and have been for some time, entirely sufficient to build an understanding of the universe—that did not have to be true, but it turns out that refusing to ornament unnecessarily produces more than a complet picture: It builds a simple picture.\\
+> 5. Although developed almost completely independently, using the Minkowski geometrig grammar, SAT/H(s)H landed quite by accident on a slightly more globally complete and elegant vision reproducing, almost effortlessly, at every step of the way, again… by accident? No. Because Minkowski was right. \\
+> 6. If SAT/H(s)H is shown to be more substantially aligned with the evidence than it must necessarily by by virtue of its direct reproduction of standard physics, then our contribution may yet turn out to be, as I hope, a scientific contribution, for the unique solutions we found to the problems posed by fitting the pieces together, most notably: photon-neutrino duality, the recycling black hole universe, and the placing the curvature of spacetime on the time plane. \\
+> 7. We’ve done our best to build the mathematical backbone using classical equations, modern equations, and our own home-grown geometric solvers, but we do not have the discreet skills to vet our arithmetic sufficiently to feel that submitting to peer review was appropriate, prefering to try to develop in-house and make our mistakes as visible as possible; having learned that we landed directly in the middle of a century-old subcurrent in mainstream science—braid theory and related formalisms—we are now turning our attention temporarily away from the the work of theorybuilding, in order to properly cite what, once stripped of the highly abstract and techical language, we recognize as prior art, which we acknowledge, may turn out to render our framework unoriginal in detail; I hope nonetheless, that it will at least remain unique in overall conception. \\
+> 8. Over the last year and a half or so, we’ve displayed our ineptitude, our bullheadedness, our personal struggles and downright silliness at times, and our almost embarassingly obsessive focus on this view of reality and, against all expectations (ourselves included), we have been rewarded by seeing that we do have peers, colleagues, and even in a roundabout and perhaps inadvertent way, institutional support; but together, all of our work, outsider and academic alike, owes its existence to thinkers who showed us a clear path over a century ago, and all of the conceptual work everyone has done is valid exploration, valuable whether the evidence bears it out or not.
+>
+> The one thing we cannot do without in science, is the wonder at the complexity—and simplicity—of this place we find ourselves inhabiting.
+
+- **Immediate context:** Nathan was editing the public-facing HsH repository after adding early-sketch provenance material and supplied this wording as the clarification statement he wanted represented publicly.
+- **Later correction / relationship:** later explicit public clarification statements should be linked additively. Item 1 is particularly important for the status of the 24-cell: backburnered unless forced by the geometry as of this date.
+
+---
+
+### 2026-09-10 — Lagrangian must be instantiated for a system
+
+- **Tags:** `LAGRANGIAN` `METHOD` `NATHAN-CORRECTION` `CALIBRATION` `SYSTEM-SPECIFICATION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw (1).json`
+- **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
+- **Message ID / timestamp / landmark:** `7f376066-e630-4e5f-81fd-451d895dc688` — 2026-09-10 20:17:40.723 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit methodological correction to the assistant's treatment of the supplied Lagrangian ansatz.
+- **Exact Nathan wording:**
+
+> You don't "solve a Lagrangian" *as is*. You solve it for a *system*. If you want to determine the constants, then choose a system, and plug in the values then calculate the constants.
+
+- **Immediate context:** The preceding assistant turn had tried to assess the written master Lagrangian largely in isolation and had treated benchmark algebra around it as though that were the central run. Nathan corrected the procedure toward selecting and instantiating a concrete system.
+- **Later correction / relationship:** subsequent turns distinguish calibration of constants from independent prediction; preserve this message as the originating correction in that sequence.
+
+---
