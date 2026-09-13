@@ -31,6 +31,7 @@ This is routing/catalog drift, not source loss.
    - The workflow now invokes the existence-aware wrapper.
    - The wrapper path itself is a workflow trigger.
    - Validation now asserts that every non-external catalog `path` resolves to a real repository file.
+   - The generated-data commit stage now tolerates concurrent `main` updates: on a push race it fetches/reset to newest `origin/main`, rebuilds the Viewer, rechecks path existence, and retries up to four times instead of leaving validated output stranded.
 
 ## Regression behavior
 
@@ -48,7 +49,7 @@ The new existence gate exposed a separate development-manifest residue:
 
 `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json`
 
-The file is no longer present in the repository tree, but the development manifest still referenced it. This is consistent with the earlier scoped privacy deletion. The Viewer should not resurrect or publish a dead source path merely because the stale manifest still lists it.
+The file is no longer present in the repository tree, but the development manifest still referenced it as `status: unchanged`, `message_count: 78`, with old/new path identical. This is consistent with the earlier scoped privacy deletion. The Viewer should not resurrect or publish a dead source path merely because the stale manifest still lists it.
 
 ## Commits / workflow evidence
 
@@ -58,15 +59,20 @@ The file is no longer present in the repository tree, but the development manife
 - `6ef257698796ab34e0442e9e9be6154fe074dc19` — preserved the original fallback, eliminating that recursion.
 - Viewer run `34788150612` then built the catalog successfully; validation failed only on the stale deleted `Court Filing Guidance` manifest path.
 - `92b7b37459e648b682d28dfad9a36765825eac99` — changed resolver behavior so records with no materialized source path are omitted from Viewer output.
+- Viewer run `34788195121` built and validated the repaired catalog successfully (`374` conversations; `365` development; `9` live; zero missing-path assertion failures), but its generated-data commit lost a concurrent push race and therefore did not reach `main`.
+- `f1bee23ba9e94848e427a6adb86e8d6bc830a610` — hardened the generated-data commit stage with fetch/reset/rebuild/path-revalidation/push retry behavior.
+- Viewer run `34791027403` was triggered by that hardening commit and was in progress at the last check; success is not claimed until completion is observed.
 
 ## Validation state at run close
 
-The third repair commit had landed but no successor Viewer workflow run was yet visible at the final check. CI success is therefore **not** claimed in this run.
+The resolver/path logic itself has passed the full Viewer validation step on run `34788195121`. The remaining issue at that point was only publication of the regenerated data under concurrent repository writes. The current `main` Viewer catalog was still the older generated file (`375` conversations; `366` development; `9` live) when inspected, confirming the failed push had not silently landed.
+
+A successor run (`34791027403`) is now exercising the race-resilient publication path. Its completion remains pending at this checkpoint.
 
 ## Remaining follow-up
 
-- Verify a successor Viewer workflow run completes successfully and commits regenerated `CONVERSATION_VIEWER/data/conversations.json`.
-- Confirm all nine materialized LIVE Viewer entries resolve against the repository tree.
-- Confirm the deleted `Court Filing Guidance` residue no longer appears in Viewer output.
-- Separately reconcile the stale development-manifest record so the manifest itself reflects the intended deletion state.
+- Verify Viewer run `34791027403` (or its direct successor) completes successfully and commits regenerated `CONVERSATION_VIEWER/data/conversations.json`.
+- Confirm the materialized LIVE Viewer paths all resolve against the repository tree.
+- Confirm the deleted `Court Filing Guidance` residue is absent from Viewer output.
+- Separately reconcile the stale development-manifest record so the manifest itself reflects the intended deletion state; do not hand-edit source-history semantics without identifying the manifest's owning regeneration path.
 - If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
