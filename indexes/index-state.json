@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1581684367,
+    "bytes_known": 1581743792,
     "directories": 72,
-    "files": 931
+    "files": 936
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,29 +17,29 @@
     ".json": 411,
     ".jsonl": 3,
     ".lean": 3,
-    ".md": 192,
+    ".md": 195,
     ".pdf": 22,
     ".png": 37,
-    ".py": 43,
+    ".py": 44,
     ".rtf": 2,
     ".scsyndef": 1,
     ".toml": 1,
     ".tx": 1,
     ".txt": 155,
-    ".yml": 13,
+    ".yml": 14,
     "[none]": 3
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 13,
+    "automation-workflow": 14,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
     "generated-catalog": 10,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 135,
+    "llm-workspace": 139,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -50,7 +50,7 @@
   "counts_by_top_level": {
     "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md": 1,
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 13,
+    ".github": 14,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 21,
     "DEVELOPMENT_FULL_CONVOS": 604,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 135,
+    "WORKSPACES": 139,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -616,6 +616,13 @@
       "size": 6866
     },
     {
+      "content_id": "9ca09719a5155312f9d7fd879b69c57af06ffea931d2f429d2778dd6cf65d95a",
+      "kind": "blob",
+      "path": ".github/workflows/provenance-window-ravel.yml",
+      "role": "automation-workflow",
+      "size": 1035
+    },
+    {
       "content_id": "f85d34aef60e2170ebc8e8f4017e5702ac4a57f1d247dab3d5a61684699c56c6",
       "kind": "blob",
       "path": ".github/workflows/rotate-featured.yml",
@@ -742,7 +749,7 @@
       "size": 49
     },
     {
-      "content_id": "6d9d39cd8ebb0af5f8c2b7a9554fb06bacc8474db3d88f949de0900d35545c77",
+      "content_id": "a109c7e438ff1a2e20358017be3b2d780134c5adbc1fec3f48ad1e51282ffefb",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6335,11 +6342,11 @@
       "size": 8449
     },
     {
-      "content_id": "1eb322a7a0942c8f2974409deec6c0f38e12956403da4acee87f7a8b8f0af677",
+      "content_id": "90b2968a2b6f0625c7d8924c1b101db6372f97e33a26476e5d846b8ce4f67420",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 171106
+      "size": 198410
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6755,6 +6762,13 @@
       "size": 14343
     },
     {
+      "content_id": "8d388c8eb3bfe95fce49f4e0ff43cf49a53d689ef1e8e2fbfb650a57c38a725f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/scripts/extract_raw_user_window.py",
+      "role": "llm-workspace",
+      "size": 3964
+    },
+    {
       "content_id": "e567d83c9d92837b36613aeadc000f0171a2e1bdd28a8df5a41774f3b95a4e15",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py",
@@ -6860,6 +6874,13 @@
       "size": 5462
     },
     {
+      "content_id": "07612db5525898fccdaede7772af598d99dc30af86888103d694d0359828f35a",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-RAVEL-0440-2202-READ-TAGS.md",
+      "role": "llm-workspace",
+      "size": 6584
+    },
+    {
       "content_id": "039c21e8e28a8c510e3b49fe16316866b6cd3ff5e947e1a97a4fcd3a7fbe88a9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md",
@@ -6942,6 +6963,20 @@
       "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-01.md",
       "role": "llm-workspace",
       "size": 9710
+    },
+    {
+      "content_id": "a4d995553a20daeb99caa509978fcadede0c25de9312b9d4b8f4a3bac71ded04",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-02.md",
+      "role": "llm-workspace",
+      "size": 14119
+    },
+    {
+      "content_id": "908d3b08675ae2015d2af47de98d8c5f0463f1e4aa54d75c689e8fb0cd70d658",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-03.md",
+      "role": "llm-workspace",
+      "size": 6419
     },
     {
       "content_id": "9716c9999777deff5abb9ece794ee49375a103f17e69af62dfdbf49f037b17c8",
@@ -7259,7 +7294,7 @@
       "size": null
     },
     {
-      "content_id": "72c1619b864a03ae0e8388847fcfbf3ee63172d30a92739eef80ea901376218f",
+      "content_id": "429056cc78f17d4611540572a699ac0eaf47ee026fd93d3c7ca83c45c0d26f7d",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7273,7 +7308,7 @@
       "size": 8625
     },
     {
-      "content_id": "f54e71295b0b2e446f1d7dcdbc5f54354842c47d275555eabfb8063ff98540c5",
+      "content_id": "ffb5b6686bea9f33782c5f133cba771fff7002400a241a00ffa6716bb5b5407b",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7329,14 +7364,14 @@
       "size": null
     },
     {
-      "content_id": "1eef27cca9af1305ce5eb217f884173994262db0c11463a3c3d204367c5b5257",
+      "content_id": "3736104589eb841d47f21ee1321167cea90d857a43268960ba0e287f2bcf87bd",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "626c5e0fe7a5ccb4554a1339378881a35fea72ed326ea0331f17040c69dc436e",
+      "content_id": "7750be28cb641c6608531c906d9a0765adef9257b364c240bad675c9f86bd49d",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7554,8 +7589,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T11:18:41+00:00",
+  "scanned_at_utc": "2026-09-13T11:47:00+00:00",
   "schema_version": 1,
-  "tree_id": "6d8abc7b5952cc413be31ccab8ece10e4f6d6f5138dbd6937f2f6e462a49680e",
+  "tree_id": "14b3bc6fe414f02cad9f920baf9f0154e5d77adbe332d56c100e00e3c02951f5",
   "tree_response_truncated": false
 }
