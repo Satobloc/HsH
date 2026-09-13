@@ -6,7 +6,7 @@ Generated from raw ChatGPT conversation metadata plus the archive-wide layered a
 - input user records: 21451
 - packaged unique user messages: 14306
 - archive duplicate user records collapsed: 7145
-- context dependent inherited tag records: 14269
+- context dependent inherited tag records: 13698
 - records missing conversation or message id: 0
 - records with resolved parent graph pointer: 13651
 - records with child graph pointer: 9247

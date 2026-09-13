@@ -1,18 +1,16 @@
 {
   "generated_by": "WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py",
-  "tested_against_workflow_run": 34766849104,
   "source": "indexes/nathan-direct/nathan-direct-*.jsonl",
   "source_records": 14306,
   "purpose": "Non-destructive Stage-2 work queues only; no curation or theory authority.",
   "earliest_use_excluded": true,
   "earliest_use_exclusion_reason": "v1 topic minima are high-recall and known to generate false early candidates; precision layer plus raw-context verification required.",
-  "queue_counts": {
+  "queues": {
     "correction-refinement": 2616,
     "definition": 1674,
     "methodology": 1820,
     "decision": 667,
     "duplicate-provenance": 4661,
     "branch-context": 2319
-  },
-  "status": "QUEUE BUILDER TESTED; counts checkpointed. Generate JSONL queue files from the current durable shards when a worker claims one for bounded review. Do not treat queue membership as a verified semantic judgment."
+  }
 }
