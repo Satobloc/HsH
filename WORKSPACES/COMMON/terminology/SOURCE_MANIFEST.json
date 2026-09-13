@@ -1,0 +1,54 @@
+{
+  "description": "Seed-source classes for archive terminology harvesting. Discovery is filename/path based and intentionally broad; manual curation happens after frequency/provenance extraction.",
+  "source_classes": [
+    {
+      "name": "timeline_history",
+      "weight": 5.0,
+      "patterns": ["timeline", "history", "chronology", "development timeline"]
+    },
+    {
+      "name": "glossary_lexicon",
+      "weight": 5.0,
+      "patterns": ["glossary", "lexicon", "dictionary", "terminology", "vocabulary"]
+    },
+    {
+      "name": "sat_standard_crosswalk",
+      "weight": 5.0,
+      "patterns": ["sat to standard", "sat-to-standard", "sat_standard", "standard to sat", "standard-to-sat", "standard_sat", "translation", "crosswalk", "map"]
+    },
+    {
+      "name": "full_theory_core",
+      "weight": 4.0,
+      "patterns": ["full theory", "theory full", "sat core", "satobloc core", "core theory", "fundamental intuitions", "master theory"]
+    },
+    {
+      "name": "big_paper",
+      "weight": 4.0,
+      "patterns": ["big paper", "master paper", "main paper"]
+    },
+    {
+      "name": "summary_synthesis",
+      "weight": 3.0,
+      "patterns": ["summary", "synthesis", "overview", "roundup", "round-up", "status report", "refinement", "all together"]
+    },
+    {
+      "name": "version_transition",
+      "weight": 3.5,
+      "patterns": ["sat-o", "4dhh", "blockwave", "one-action", "universal indicatrix", "h(s)h", "hsh", "transition"]
+    }
+  ],
+  "always_include": [
+    "HISTORY_TIMELINE.md",
+    "README.md",
+    "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md"
+  ],
+  "extensions": [".md", ".txt", ".tex", ".html", ".htm", ".pdf"],
+  "exclude_path_fragments": [
+    "/DEVELOPMENT_FULL_CONVOS/",
+    "/LIVE CONVOS/",
+    "/CONVERSATION_VIEWER/",
+    "/WORKSPACES/",
+    "/indexes/terminology/",
+    "/.git/"
+  ]
+}
