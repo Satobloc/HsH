@@ -33,6 +33,14 @@ Those figures describe that specific workflow checkout/run and should not be tre
 
 Fresh workflow run `34766611617` was triggered by that fix. At the last verified check it was still processing the archive-wide autotag step; no claim is made here that its outputs have yet landed on `main`.
 
+## Precision-v2 finding
+
+`WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py` already exists as a precision-corrected wrapper around the current v1 tagger. Its own documentation says it corrects two v1 pathologies: substring spillover in topic matching and adjacency behavior that auto-winnows nearly every user message. It changes the retrieval buckets so direct-message evidence outranks adjacency and allows `DROP-FOR-NOW` for low-signal turns.
+
+Do **not** simply replace v1 outputs with v2 outputs. Nathan's controlling corpus directive requires existing tags to remain attached and cumulative. The safe use of v2 is therefore as a supplemental precision/retrieval layer over the durable high-recall substrate: retain all v1 tags and provenance, then add distinct v2 precision fields/buckets or a secondary index. This also explains why the very high run-4 inherited-context count should be treated as a high-recall signal rather than a selective contextualization judgment.
+
+No Stage-2 precision merge is promoted here before the durable Nathan Direct package itself lands and is sampled.
+
 ## Next gate
 
 When the fresh run completes, verify on `main` before downstream use:
@@ -43,4 +51,4 @@ When the fresh run completes, verify on `main` before downstream use:
 - actual fresh-run counts and missing-ID count
 - a bounded sample of exact Nathan text, duplicate-path relationships, neighboring-message pointers, and inherited-context metadata
 
-Only after those checks should Stage-2 winnowing, earliest-use searches, correction mapping, and contextual recovery treat the durable Nathan Direct shards as ready substrate.
+Only after those checks should Stage-2 winnowing, earliest-use searches, correction mapping, contextual recovery, or v2 precision enrichment treat the durable Nathan Direct shards as ready substrate.
