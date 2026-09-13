@@ -51,15 +51,21 @@ The autotag workflow on `main` has since advanced from the original high-recall 
 - v3 adds semantic guards for ambiguous/common lexical hits and retrieval-only `DEFINITION-CANDIDATE`, `CROSSWALK-CANDIDATE`, and `SUPERSESSION-CANDIDATE` surfaces
 - rule: newer precision output supplements historical v1 metadata; it must not be used as justification to delete/downgrade previously attached tags
 - current QA owner: Mercer; do not duplicate his selectivity/index evaluation
-- verification gate: inspect durable run output before declaring v3 current/validated
+- run 8 (`34771136500`) passed tooling/tests but was cancelled exactly at the workflow's former 45-minute job timeout while v3 was still scanning; packaging/Stage-2 generation never ran
+- the timeout was operational rather than a semantic/test failure; the partial artifact was uploaded for audit
+- recovery commit `ed259c84012572b578d021c0fdaab7568e49e307` raises the workflow job timeout from 45 to 90 minutes without changing tagging semantics
+- recovery run 9: GitHub Actions `34774328685`; in progress at last verification
+- verification gate: inspect durable run-9 output before declaring v3 current/validated
 
 ### ND-B2 — Non-destructive winnow / correction / provenance queues
 - priority: P1
-- state: CLAIMED / GENERATION RUN QUEUED BY NATHAN WORDS
+- state: CLAIMED / RECOVERY RUN IN PROGRESS BY NATHAN WORDS
 - queue builder: `WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py`
 - pipeline integration commit: `0025c194ca4861aea6a885500d34e53a1959414b`
 - generated queue target: `indexes/nathan-direct/stage2/`
-- workflow run triggered by integration: GitHub Actions `34771136500` (run 8; queued at last verification)
+- integration run 8 (`34771136500`) did not reach queue generation because the preceding v3 archive scan hit the old 45-minute timeout
+- recovery commit: `ed259c84012572b578d021c0fdaab7568e49e307`
+- recovery run 9: GitHub Actions `34774328685`
 - queues: correction-refinement, definition, methodology, decision, duplicate-provenance, branch-context
 - current focus/claim for this lane: correction-refinement queue generation and later bounded review
 - still gated: literal earliest-use conclusions; require precision filtering plus exact Nathan wording/raw-context review
@@ -100,7 +106,7 @@ A bounded raw-source check matched package role metadata, message/conversation i
 
 Workers should avoid launching a duplicate full extractor. Useful eligible operations include:
 
-- after run 8 lands, verify the generated Stage-2 queue files and updated package/manifests;
+- after recovery run 9 lands, verify the generated Stage-2 queue files and updated package/manifests;
 - take bounded correction/refinement review tranches from `indexes/nathan-direct/stage2/correction-refinement.jsonl` under the tag-on-read rule;
 - audit duplicate/prefix/superset identity handling;
 - use branch pointers for selected contextual recovery, coordinated with Morrow;
