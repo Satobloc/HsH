@@ -8,6 +8,8 @@ which produced broken Viewer URLs for planned renames.
 
 This wrapper keeps the manifest metadata unchanged, but replaces the base builder's
 path resolver with an existence-aware resolver before running its normal entry point.
+Records for which neither manifest path exists are omitted from the Viewer catalog;
+they remain visible in the source manifest for separate provenance/index repair.
 """
 from __future__ import annotations
 
@@ -16,16 +18,13 @@ from typing import Any
 
 import build_conversation_viewer as base
 
-_BASE_CANONICAL_PATH = base.canonical_path
-
 
 def existing_canonical_path(record: dict[str, Any]) -> str | None:
     """Return the first supported manifest path that exists in the checkout.
 
     Prefer ``new_path`` when it has actually materialized, otherwise fall back to
-    ``old_path``. If neither exists, preserve the base builder's fallback so the
-    workflow's source-path validation fails loudly instead of silently dropping a
-    conversation from the catalog.
+    ``old_path``. If neither supported path exists, return ``None`` so the Viewer does
+    not publish a dead repository/raw URL.
     """
     candidates = (record.get("new_path"), record.get("old_path"))
     for candidate in candidates:
@@ -36,7 +35,7 @@ def existing_canonical_path(record: dict[str, Any]) -> str | None:
             continue
         if Path(normalized).is_file():
             return normalized
-    return _BASE_CANONICAL_PATH(record)
+    return None
 
 
 def main() -> int:
