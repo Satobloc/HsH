@@ -58,3 +58,10 @@ Selection: all nine LIVE JSON exports plus viewer titles matching Aldus, Janus, 
 ## Janus comparison follow-up — 2026-09-13
 
 All three unique Janus blobs retain every earlier message ID and active-branch ID prefix, but A→B/C changes one tool payload by replacing 3,896 code points of `execution_output.text` with a truncation marker. B→C preserves the compared content payload, with one `update_time` change. Therefore “latest selected export” is chronological routing metadata, not a lossless-replacement designation. Preserve A. The corrected 20:01 / 20:07 / 20:08 user UUIDs are `8f4721c7…`, `96bba8d8…`, `3183b844…`; complete nodes agree across A/B/C. Coverage and reproducible method are in the linked audits. Other named families remain metadata-only here.
+
+
+## Janus role/access audit — 2026-09-13
+
+[Bounded source audit](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md): read the exact eight-node Janus branch from `a044a94b…` through `cb5953a8…`; relevant content, authorship, routing, timestamps, graph links and final citation metadata agree across A/B/C. “Morrow inward / Aldus outward / Janus membrane” is `GEN/HISTORICAL-PROPOSAL`, not Nathan-authored role authority. The current Morrow role rests independently on Nathan's later workflow directive.
+
+The historical access turn contains one observable `pca` citation to Aldus conversation `6a9dea2e…`, exactly matching raw user node `d2157b30…` (“How frequently can you do automated tasks?”). It exposes no Morrow citation or transcript body. Thus selective past-chat retrieval in that Janus turn is evidenced; whole-thread access, present crosstalk and the stronger claimed Morrow context-bleed event are not established by this branch. Next source cursor: Morrow raw node `829aa155…` through the completed assessment following `95bfdf06…`.
