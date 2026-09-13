@@ -3,7 +3,7 @@
 **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.09.12•Rotations in Higher Dimensions — raw.json`  
 **Conversation title:** `Rotations in Higher Dimensions`  
 **Conversation ID:** `6a5125ae-795c-83ea-908d-7c8bb5a67e33`  
-**Authorship verification:** each entry below is a standalone raw message with `author.role = user`. Assistant context is not promoted.
+**Authorship verification:** in these archives, each raw `author.role = user` message is Nathan. Assistant or explicitly identified other-LLM context is not promoted into Nathan's voice.
 
 ### 2026-07-10 — Pressure propagation parameters in the lattice
 
@@ -13,8 +13,6 @@
 - **Exact Nathan wording:**
 
 > You would need an elastic modulus, and a fractal scaling factor. Maybe a propagation speed and dampening factor, but those should all be related. Then any pressure vector should have a unique solution at any point in the lattice, I think. The wave propagation would be dictated by those properties
-
-- **Immediate context:** follows Nathan's statement that a single pressure vector plus lattice structure could calculate every particle vector.
 
 ### 2026-07-10 — Candidate minimal apparatus
 
@@ -92,4 +90,10 @@
 
 ---
 
-**Non-promoted user-role node encountered next:** `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` (2026-09-12 08:43:33.276 EDT) is a long Past Theorist / Former Instance survey/template and is tagged in the manual ledger as `POSSIBLE-PASTED-MATERIAL` / `DO-NOT-PROMOTE-AS-NATHAN-WORDING`. Raw user role alone is not treated as sufficient evidence that the template wording itself is Nathan-authored.
+### 2026-09-12 — Past Theorist / Former Instance survey node
+
+- **Tags:** `ADMIN` `PAST-THEORIST-SURVEY` `INSTITUTIONAL-MEMORY` `PROVENANCE`
+- **Message ID / timestamp:** `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` — 2026-09-12 08:43:33.276 EDT
+- **Authorship/status:** Nathan-authored because it is a raw `author.role = user` message in the archive. Its survey/template form does not create a separate speaker.
+
+**Correction note — 2026-09-13:** an earlier pass incorrectly treated this node as possible non-Nathan pasted material. Nathan explicitly clarified that user-role archive messages are always his; that provenance classification has been corrected.
