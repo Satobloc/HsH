@@ -1,0 +1,114 @@
+name: Provenance scan - Reasoning with SAT-HSH Skill
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/provenance-reasoning-scan.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract chronological raw user corpus and ranked candidates
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, re, math
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          path = Path('DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json')
+          obj = json.loads(path.read_text(encoding='utf-8'))
+          mapping = obj['mapping']
+          rows=[]
+          for node_id,node in mapping.items():
+              msg=(node or {}).get('message')
+              if not isinstance(msg,dict): continue
+              role=(msg.get('author') or {}).get('role')
+              parts=(msg.get('content') or {}).get('parts') or []
+              text='\n'.join(p for p in parts if isinstance(p,str)).strip()
+              if not text: continue
+              rows.append({'node_id':node_id,'message_id':msg.get('id') or node_id,'parent':node.get('parent'),'role':role,'create_time':msg.get('create_time'),'text':text})
+          rows.sort(key=lambda r:(r['create_time'] is None,r['create_time'] or 0,r['node_id']))
+          for i,r in enumerate(rows): r['index']=i
+
+          vocab = {
+            'sat':8,'h(s)h':10,'hsh':7,'filament':7,'filaments':7,'timesheet':10,'time surface':8,
+            'worldline':8,'world line':8,'worldtube':9,'world tube':9,'theta4':9,'θ4':9,'θ_4':9,
+            'intersection':4,'readout':7,'propagation':3,'w-axis':8,'w axis':8,'speed of time':10,
+            'helix':4,'helical':4,'hyperhelix':8,'hyperhelical':8,'hyper helical':8,'pitch':4,'radius':3,'arclength':5,
+            'rest':2,'motion':2,'nest':3,'projection':4,'slice':3,'topology':3,'morphology':5,
+            'whirligig':10,'donut':7,'sphere':2,'spheres':3,'graticule':10,'hagalaz':10,'finite core':9,
+            'electrogravity':10,'interbraid':10,'metric':4,'holonomy':6,'quantiz':5,'torsion':5,'braid':4,
+            'model':1,'reality':2,'4d':4,'dimension':3,'minkowski':5,'c typing':8,'c-typing':8,
+            'correction':5,'actually':2,"that's not":5,'that is not':5,'i mean':3,'rather':2,'wrong':4,
+            'not part':5,'on the fence':5,'i think':1,'maybe':1,'perhaps':1,'conjecture':4,'hypothesis':3,
+          }
+          def score(text):
+              t=re.sub(r'\s+',' ',text.lower())
+              hits=[]; s=0.0
+              for term,w in vocab.items():
+                  if term=='quantiz': n=len(re.findall(r'quantiz\w*',t))
+                  else: n=t.count(term)
+                  if n:
+                      s += w*(1+math.log1p(n-1)); hits.append((term,n,w))
+              # reward substantive length but cap it
+              s *= min(1.8, .75 + math.log1p(len(text))/8)
+              return s,hits
+
+          users=[]
+          for r in rows:
+              if r['role']=='user':
+                  s,h=score(r['text']); r['score']=s; r['hits']=h; users.append(r)
+
+          outdir=Path('WORKSPACES/COMMON/analysis'); outdir.mkdir(parents=True,exist_ok=True)
+          full=outdir/'reasoning_sat_hsh_skill_ALL_RAW_USER_MESSAGES.md'
+          with full.open('w',encoding='utf-8') as f:
+              f.write(f"# Raw user corpus — {obj.get('title')}\n\n")
+              f.write(f"Source: `{path}`\n\nUser messages: {len(users)}\n\n")
+              for r in users:
+                  ts=r['create_time']
+                  iso=datetime.fromtimestamp(ts,tz=timezone.utc).isoformat() if ts else 'NO_TIMESTAMP'
+                  f.write(f"## {r['index']} — {r['message_id']} — {iso}\n\n")
+                  f.write(r['text']+'\n\n')
+
+          ranked=sorted(users,key=lambda r:r['score'],reverse=True)
+          cand=outdir/'reasoning_sat_hsh_skill_ranked_candidates.md'
+          with cand.open('w',encoding='utf-8') as f:
+              f.write(f"# Ranked provenance candidates — {obj.get('title')}\n\n")
+              f.write(f"Raw user messages: {len(users)}\n\n")
+              for rank,r in enumerate(ranked[:140],1):
+                  ts=r['create_time']; iso=datetime.fromtimestamp(ts,tz=timezone.utc).isoformat() if ts else 'NO_TIMESTAMP'
+                  prev=rows[r['index']-1] if r['index']>0 else None
+                  nxt=rows[r['index']+1] if r['index']+1<len(rows) else None
+                  f.write(f"## {rank}. score={r['score']:.2f} — {r['message_id']} — {iso}\n")
+                  f.write(f"Hits: {r['hits']}\n\n### EXACT USER TEXT\n\n{r['text']}\n\n")
+                  if prev:
+                      p=prev['text'].replace('\n',' ')[:900]
+                      f.write(f"**Previous raw message ({prev['role']}):** {p}\n\n")
+                  if nxt:
+                      n=nxt['text'].replace('\n',' ')[:900]
+                      f.write(f"**Next raw message ({nxt['role']}):** {n}\n\n")
+                  f.write('---\n\n')
+
+          print(f"title={obj.get('title')}")
+          print(f"total_nonempty_messages={len(rows)} user_messages={len(users)}")
+          print('TOP 35 USER CANDIDATES')
+          for rank,r in enumerate(ranked[:35],1):
+              t=r['text'].replace('\n',' ')
+              if len(t)>650:t=t[:647]+'...'
+              print(f"[{rank:02}] score={r['score']:.2f} id={r['message_id']} ts={r['create_time']} hits={[x[0] for x in r['hits']]} :: {t}")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: provenance-reasoning-scan
+          path: WORKSPACES/COMMON/analysis/
