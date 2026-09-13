@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hsh-navigation-main
+  group: hsh-verified-batch-merge
   cancel-in-progress: false
 
 jobs:
