@@ -1,5 +1,7 @@
 # Read/tag ledger — `H(s)H TIME RESIDUALS` continuation
 
+> **PROVENANCE CORRECTION — 2026-09-13 (controls UUID claims below):** direct comparison of all three Janus raw blobs fixes the 20:01 / 20:07 / 20:08 UUIDs as `8f4721c7…`, `96bba8d8…`, and `3183b844…`, respectively. The original body is retained as historical audit evidence, but its shifted UUID headings, `4191b049…` provenance-risk classification, and `1c9204ab…` cursor are superseded. [Exact mapping and raw evidence](../../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md).
+
 **Discovery surface:** `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt`  
 **Raw source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`  
 **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`  
@@ -77,3 +79,7 @@ The three turns are raw `role=user` verified and have exact epoch timestamps, bu
 ## Next untagged region
 
 Continue immediately after 2026-09-08 20:08:33.464 EDT in the same raw `🗿ORCHESTRATOR JANUS H(s)HvO` conversation / `H(s)H TIME RESIDUALS` discovery surface, resolving subsequent Nathan user turns chronologically and preserving any explicit corrections as additive relationships.
+
+## UUID recapture completed — 2026-09-13
+
+The historically unresolved IDs above are now direct-raw resolved: 20:01 `8f4721c7-1959-4ff3-81f6-340f751fd476`; 20:07 `96bba8d8-a05a-47ff-bde7-f10fd87c7472`; 20:08 `3183b844-e7d0-480c-a7f4-e6d6aa1d58c5`. Complete nodes/messages agree across all three identified Janus blobs. Tags added: `RAW-ID-RECAPTURED` `PROVENANCE-CORRECTION`. [Evidence and affected records](../../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md). The old “unresolved in this pass” wording remains as the original pass state; it no longer describes the current state.
