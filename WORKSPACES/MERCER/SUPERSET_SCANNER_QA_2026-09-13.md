@@ -34,13 +34,23 @@ This is deliberately fail-closed with respect to future content shapes: a newly 
 
 ## Regression coverage
 
-The exact Janus failure mode and the additional channel case are now committed in `tests/test_superset_conversation_duplicates.py` (commit `f2bc84d5ea9632bd019ef442b4f6ff30b921e146`). The tests require that:
+The exact Janus failure mode and the additional channel case are committed in `tests/test_superset_conversation_duplicates.py` (commit `f2bc84d5ea9632bd019ef442b4f6ff30b921e146`). The tests require that:
 
 - same-ID `execution_output` messages with different `content.text` bodies — including an interior `...[truncated]...` replacement — hash differently;
 - otherwise identical messages with different `channel` values hash differently;
 - JSON object-key ordering alone does not change the hash.
 
-The repository's `maintain-navigation.yml` already runs `python -m unittest discover -s tests -v`, so this regression file is automatically included in that test surface on qualifying maintenance runs. At the time of this note, no workflow run was yet associated with the regression-test commit, so CI success is not claimed here.
+The repository's `maintain-navigation.yml` already runs `python -m unittest discover -s tests -v`, so this regression file is automatically included in that test surface on qualifying maintenance runs.
+
+### Direct validation
+
+Mercer independently re-executed the current `canonical_message()` logic against all three committed regression conditions on 2026-09-13 after re-reading the current scanner from `main`:
+
+- execution-output text truncation changes hash: **PASS**;
+- channel-only change changes hash: **PASS**;
+- JSON object-key reordering alone preserves hash: **PASS**.
+
+A GitHub combined-status check for commit `f2bc84d5...` still returned no status contexts, so CI success is not claimed. The lack of a CI signal does not change the direct regression result above.
 
 A prior synthetic executable spot-check of the first two cases also passed; see `RUN_005_2026-09-13.md`.
 
@@ -58,8 +68,9 @@ In particular, preserve the earliest Janus export A; do not disposition it based
 - payload policy: documented in code/report output;
 - exact Janus regression case: durably documented;
 - executable regression tests: committed;
+- direct execution of all three regression conditions against current logic: passed;
 - repository test runner: already discovers the new test file;
-- CI result for the new regression commit: not yet observed;
+- CI status context for the regression commit: not observed;
 - stale generated candidate reports: cannot be regenerated because no committed invocation/output surface is discoverable; regenerate if/when the owning manual/external generation path is identified.
 
-No Nathan decision is required.
+The remaining dependency is therefore not scanner correctness but provenance/ownership of any old generated candidate report. No Nathan decision is required.
