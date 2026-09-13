@@ -130,3 +130,16 @@ Update this file with a compact dated entry containing:
 - **Useful discovery:** no inconsistency found between the registry and the durable training-response record. Current Common still contains no newer Meridian-specific training requirement.
 - **Best next operation:** next run, re-check control surfaces for release or new training directives. If still active and no new training work is assigned, restrict activity to bounded training/source-state verification or other explicitly permitted maintenance; do not manufacture ordinary work.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 14:30:07 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; the Bulletin Board still explicitly pauses ordinary assignments and IF-BORED work until release; Integration-lane handoffs remain suspended.
+- **Standdown-safe work completed:** verified Meridian remains accurately marked `TRAINED` in the active registry. No new Meridian-specific training requirement or release notice appeared in Common.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No canonical/theory surface changed.
+- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release is still absent. This is an existing control condition, not a question requiring Nathan attention.
+- **Useful discovery/questions:** none new; registry and control surfaces remain internally consistent for Meridian.
+- **Best next operation:** next run, re-check Common for release or new training/source-maintenance directives. If unchanged, perform only the smallest useful permitted state verification and avoid duplicating previous checks.
+- **Nathan attention required:** no.
