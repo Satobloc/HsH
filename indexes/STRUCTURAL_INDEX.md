@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:18:31+00:00`
-- Tree/content state: `aeb6ef1a7f5ea5eb43d63c31bcdb76cc96ea2dd43d63e43ad086ff4fdc82043f`
-- Coverage: 872 files, 66 directories
+- Scanned: `2026-09-13T03:19:25+00:00`
+- Tree/content state: `e94d22d03c2cab52a7e0f195bc447b641c628d01e7eee3d3ca57de704dc57afc`
+- Coverage: 873 files, 66 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 87 |
+| `WORKSPACES` | 88 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 147 |
+| `.md` | 148 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 40 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 87 |
+| `llm-workspace` | 88 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1099,6 +1099,7 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V3.md` — 13778 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/README.md` — 5040 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 11605 bytes — `llm-workspace`
