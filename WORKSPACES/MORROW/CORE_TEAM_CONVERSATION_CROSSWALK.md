@@ -14,7 +14,7 @@ Nathan requested continuity and wayfinding work while theory remains halted. Thi
 | Meridian | Michelstein-on-Meinorly | `6a9aa91b-11f4-83ea-80a1-4d502522e441` | [2026-09-10T21:34:40.381903-04:00](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.04%E2%80%A226.09.10%E2%80%A2%F0%9F%8C%90Meridian%20%5BHsH%5D%20Michelstein-on-Meinorly%20%E2%80%94%20raw.json) |
 | Morrow | Reconstruct H(s)H Synthesis | `6a9ee7ca-d340-83ea-b99d-6a3097429f36` | [2026-09-09T08:45:41.152954-04:00](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07%E2%80%A226.09.09%E2%80%A2MORROW%20%5BReconstruct%20H(s)H%20Synthesis%5D%20%E2%80%94%20raw%20(3).json) |
 
-“Latest selected” is the greatest catalog end timestamp among inspected named candidates, not a guarantee of the newest existing conversation or an exhaustive repository-wide UUID scan. Morrow has no matching UUID among the nine LIVE JSON files inspected. Two LIVE Succinctness exports share Ravel's UUID. Same UUID establishes a source conversation family; content equivalence and branch inclusion have not been assessed.
+“Latest selected” is the greatest catalog end timestamp among inspected named candidates, not a guarantee of the newest existing conversation or an exhaustive repository-wide UUID scan. Morrow has no matching UUID among the nine LIVE JSON files inspected. Two LIVE Succinctness exports share Ravel's UUID. Same UUID establishes a source conversation family; it does not by itself establish content equivalence or branch inclusion. Janus is the one exception now directly compared: [A/B/C message-graph audit](JANUS_EXPORT_COMPARISON_2026-09-13.md) and [20:01–20:08 UUID reconciliation](JANUS_UUID_RECONCILIATION_2026-09-13.md). Other families remain unassessed at message-content level.
 
 ## Wayfinding gap
 
@@ -22,7 +22,7 @@ Eight of nine LIVE catalog paths in [viewer data](../../CONVERSATION_VIEWER/data
 
 ## Inspected exports
 
-Raw JSON parsed completely for metadata; dialogue NOT read sequentially. No training completion, theory finding, identity experience, or inter-instance crosstalk is inferred. No message-content comparison was performed.
+Raw JSON in this original table was parsed completely for metadata; dialogue was NOT read sequentially. No training completion, theory finding, identity experience, or inter-instance crosstalk is inferred. Subsequent Janus-only message-content/branch comparison is linked above; it does not extend to the other families.
 
 | Working source | Raw UUID | Blob |
 |---|---|---|
@@ -54,3 +54,7 @@ Raw JSON parsed completely for metadata; dialogue NOT read sequentially. No trai
 ## Coverage and next action
 
 Selection: all nine LIVE JSON exports plus viewer titles matching Aldus, Janus, Morrow, Meridian, Ravel, or Reconstruct (24 exports total). Catalog source-state timestamp: 2026-09-13T12:30:33.868040+00:00. Other LIVE UUIDs are retained without assigning a personal name. Read Common Bulletin Board, Coordination and Handoffs fully; no new response to the previous documentation request appeared. Next: read relevant continuity/automation passages directly in these confirmed source families, retaining exact message IDs and distinguishing stored testimony from present capabilities. Theory freeze remains in force.
+
+## Janus comparison follow-up — 2026-09-13
+
+All three unique Janus blobs retain every earlier message ID and active-branch ID prefix, but A→B/C changes one tool payload by replacing 3,896 code points of `execution_output.text` with a truncation marker. B→C preserves the compared content payload, with one `update_time` change. Therefore “latest selected export” is chronological routing metadata, not a lossless-replacement designation. Preserve A. The corrected 20:01 / 20:07 / 20:08 user UUIDs are `8f4721c7…`, `96bba8d8…`, `3183b844…`; complete nodes agree across A/B/C. Coverage and reproducible method are in the linked audits. Other named families remain metadata-only here.
