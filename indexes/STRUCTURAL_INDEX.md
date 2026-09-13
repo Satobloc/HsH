@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:17:24+00:00`
-- Tree/content state: `40412b54ff838b472e2ee241fd20947ef94434db5469b9aabd39918f3455857b`
+- Scanned: `2026-09-13T03:18:31+00:00`
+- Tree/content state: `aeb6ef1a7f5ea5eb43d63c31bcdb76cc96ea2dd43d63e43ad086ff4fdc82043f`
 - Coverage: 872 files, 66 directories
 - GitHub tree response truncated: `false`
 
@@ -301,7 +301,7 @@
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
-- `.github/workflows/provenance-reasoning-scan.yml` — 5796 bytes — `automation-workflow`
+- `.github/workflows/provenance-reasoning-scan.yml` — 6866 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis-sample.yml` — 1061 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`

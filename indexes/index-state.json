@@ -1,6 +1,6 @@
 {
   "counts": {
-    "bytes_known": 1096865440,
+    "bytes_known": 1096866510,
     "directories": 66,
     "files": 872
   },
@@ -588,11 +588,11 @@
       "size": 5563
     },
     {
-      "content_id": "5b396c7af26ee9bbb0dcb2541a74ced64c7d49f5ccb1a68b3256375e27cb904c",
+      "content_id": "581f31907637d827fad951baadad16223853194b293ff903bad03ef8a85bdb52",
       "kind": "blob",
       "path": ".github/workflows/provenance-reasoning-scan.yml",
       "role": "automation-workflow",
-      "size": 5796
+      "size": 6866
     },
     {
       "content_id": "f85d34aef60e2170ebc8e8f4017e5702ac4a57f1d247dab3d5a61684699c56c6",
@@ -700,7 +700,7 @@
       "size": 49
     },
     {
-      "content_id": "5fc967b906367f716bf47bcd28b2bde3c37e6a03ae81eec879a9e345559b9e9b",
+      "content_id": "bf980f790e0dbb0c82f8b65808c43b15cabe5da75c0941a0215b19f2a37d3feb",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6839,7 +6839,7 @@
       "size": null
     },
     {
-      "content_id": "168a2a63c450598868088aa18993bb99f116174243072eb33201de561dba0dc9",
+      "content_id": "a6c4ce442fcf6bd5907ef7ee7e1d6a2031b31adc9f17e4de680781160133105f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6853,7 +6853,7 @@
       "size": 8625
     },
     {
-      "content_id": "f7d77d95d888c1ba860bf9e6dffab786c797be5450887d8d18f5f62f523349d2",
+      "content_id": "5704364b79cbd5007529f453e30e7cb4a0cdae9858cd99f40d0cf566dfca49c1",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6874,14 +6874,14 @@
       "size": null
     },
     {
-      "content_id": "e844be0f34e0653fa7c434390e65747079a94eb9de839b0370b5780cb40aaa30",
+      "content_id": "cc94ec82387e82157ed40aa344e1a7fdd67994b55be2ea2a5b8dad5cfe502a72",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "75eea6d37db4e6187def27254cc710259f3e07be5521d7be52d547fb73e9b822",
+      "content_id": "58ca2c7cf6fd283484606db6212c5ad2d93e79fa5b9c32bdce94567bc9163295",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7099,8 +7099,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T03:17:24+00:00",
+  "scanned_at_utc": "2026-09-13T03:18:31+00:00",
   "schema_version": 1,
-  "tree_id": "40412b54ff838b472e2ee241fd20947ef94434db5469b9aabd39918f3455857b",
+  "tree_id": "aeb6ef1a7f5ea5eb43d63c31bcdb76cc96ea2dd43d63e43ad086ff4fdc82043f",
   "tree_response_truncated": false
 }
