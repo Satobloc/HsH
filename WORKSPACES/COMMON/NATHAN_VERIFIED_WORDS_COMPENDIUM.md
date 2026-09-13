@@ -808,3 +808,73 @@ This batch continues later on June 23 in the same durable raw export. Each promo
 # UNVERIFIED / NEEDS SOURCE CHECK
 
 _Candidates may be parked here temporarily, but must not be cited as Nathan's words until authorship is verified from raw source metadata._
+
+# VERIFIED ENTRIES — CONTINUATION
+
+## Excavation batch 2026-09-12-H — `SAT Overview — raw.json`, tail verification
+
+The full raw `SAT Overview` mapping was parsed across all 224 standalone `author.role = user` nodes. This batch covers the previously unscanned tail after 09:53 on June 23 through July 5. Only direct raw user nodes are promoted; later `file_search` retrieval copies remain excluded.
+
+### 2026-06-23 — Stretched helix, timesheet angle, and retained twists
+
+- **Tags:** `HELIX-PITCH-RADIUS-ARCLENGTH` `TIMESHEET` `HOLONOMY` `PROJECTION-READOUT` `REST-AND-MOTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `cd7c40e3-cdad-4551-be1d-7c14a8b1a1ad` — 2026-06-23 10:00:23 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** at-the-time geometric interpretation immediately following the helix/quantization discussion; not promoted as a current derivation or current vacuum model.
+- **Exact Nathan wording:**
+
+> And as the path of the helix become straighter and straighter… That already has an SAT interpretation: it’s trying to become vacuum. It never quite gets there, because the straight bits are not quite straight… They’re a little off, which means they become vacuum energy in SAT… by definition. But the twists don’t go away, they get tighter. So if you move a particle close to the speed of light, you’re stretching a normally curled helix towards 45°, lengthening it, straightening it from its perspective, but with knots along its length periodically. And you’re angling it with respect to the time sheet because the long axis of the coil is usually roughly parallel to the propagation direction of the time sheet motion, moving towards 45°, which is not enough to instantiate matter probably… So you turned into vacuum energy, with periodic spikes where the holonomic twists become knots 
+
+- **Immediate context:** Nathan was responding to an assistant discussion of what happens geometrically when a helix is stretched toward a straighter configuration.
+- **Later correction / relationship:** follows immediately after the 09:53 helix/quantization observation. Later status of the vacuum/45° interpretation is not inferred here and must be established from later Nathan-authored material.
+
+---
+
+### 2026-06-23 — Opposite torsion remains an explicit conditional
+
+- **Tags:** `HOLONOMY` `NATHAN-CORRECTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `bbb71081-d69b-44b8-a4d4-c1e9c3b2a220` — 2026-06-23 10:03:06 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** immediate conditional qualification of the preceding speculative helix/twist discussion.
+- **Exact Nathan wording:**
+
+> That’s right. Unless there’s a way to apply torsion in the opposite direction.
+
+- **Immediate context:** direct reply to the assistant response following Nathan's 10:00 stretched-helix message.
+- **Later correction / relationship:** treat as a local qualifier on the preceding historical interpretation, not as a standalone torsion law.
+
+---
+
+### 2026-07-05 — Pauli-Kerr exploration: Nathan places the relevant exterior description on the surface
+
+- **Tags:** `INTERACTIONS` `INTERBRAID` `MODEL-VS-REALITY` `NATHAN-CORRECTION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`
+- **Conversation title:** `SAT Overview`
+- **Message ID / timestamp / landmark:** `e9fd9fc7-2345-4825-a500-7c483b9668e9` — 2026-07-05 14:48:42 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** local statement inside a July 2026 Pauli-Kerr exploratory branch; current H(s)H status is not inferred.
+- **Exact Nathan wording:**
+
+> if the interiors are causally isolated, ordinary interior-to-interior negotiation cannot explain braiding
+>
+> Right, but we don’t need interior to exterior right. The way I’m seeing it, from the outside, there is no interior. It’s completely meaningless. The entire thing lives on the surface. Anything that could possibly matter.
+
+- **Immediate context:** the first line is Nathan quoting the assistant's stated concern; the remainder is Nathan's response. The raw message itself is a standalone `role = user` node.
+- **Later correction / relationship:** preserve as a dated Pauli-Kerr exploration and do not promote its surface-only framing outside that context without a later direct Nathan source.
+
+---
+
+### 2026-09-12-H coverage note
+
+- **Raw source inspected:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json`.
+- **Raw export size:** 8,552,294 bytes.
+- **Authorship method:** full raw mapping parsed; 224 standalone nodes had `message.author.role = user`; only those nodes were eligible for VERIFIED.
+- **Date range covered:** raw user-message span June 23 through July 5, 2026; this run specifically closed the previously unscanned tail after the 09:53 June 23 batch through July 5.
+- **Verified Nathan messages added:** 3.
+- **Deduplication:** all three UUIDs were searched against the repository before insertion and were absent from the compendium.
+- **Unresolved/source issue:** the passage saying “we'll just stick with tubes, because worldlines is an essentialized idea” is present in this raw export only inside `file_search` tool retrieval nodes, including `dd910a47-bdcf-4b64-aa02-02b3aa447b80` and `033438a8-cdd9-418f-9c6e-7c027926ecee`; no standalone `author.role = user` source node for that passage was found in this conversation. It therefore remains excluded from VERIFIED. Other Nathan-looking excerpts inside the same retrieval payload are likewise not promoted from style or source labels.
+- **Next priority region:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`, followed by `H(s)H TIME RESIDUALS`, prioritizing direct corrections involving dimensionality, timesheet/intersection propagation, worldline/worldtube typing, finite core/readout, metric, holonomy, and method.
