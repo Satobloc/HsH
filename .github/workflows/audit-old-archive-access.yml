@@ -1,0 +1,42 @@
+name: Audit old SAT archive accessibility
+
+on:
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/audit_old_archive_access.py'
+      - '.github/workflows/audit-old-archive-access.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: hsh
+          fetch-depth: 1
+      - name: Clone old SAT archive read-only
+        run: |
+          git clone --depth 1 https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25.git old_archive
+      - name: Run accessibility audit
+        run: |
+          python hsh/WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/audit_old_archive_access.py \
+            --archive old_archive \
+            --out hsh/WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output
+      - name: Commit audit outputs to HsH only
+        working-directory: hsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output
+          if git diff --cached --quiet; then
+            echo 'No changes.'
+            exit 0
+          fi
+          git commit -m 'Record old archive accessibility audit'
+          git pull --rebase origin main
+          git push
