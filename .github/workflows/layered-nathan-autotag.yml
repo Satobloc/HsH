@@ -65,11 +65,32 @@ jobs:
           git add indexes/autotag indexes/nathan-direct
           if git diff --cached --quiet; then
             echo "Autotag and Nathan Direct indexes already current"
-          else
-            git commit -m "[skip autotag] Refresh archive-wide tags and Nathan Direct packages"
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "[skip autotag] Refresh archive-wide tags and Nathan Direct packages"
+
+          # Other archive workers legitimately write to main while this long corpus pass runs.
+          # Rebase the generated-output commit onto the newest main and retry rather than
+          # failing on an ordinary non-fast-forward race. Never force-push.
+          for attempt in 1 2 3 4; do
+            echo "Publish attempt ${attempt}/4"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Generated-output rebase conflicted; refusing to guess or overwrite concurrent work."
+              git rebase --abort || true
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+
+          echo "Unable to publish generated indexes after four non-destructive retries."
+          exit 1
       - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
         with:
           name: archive-wide-layered-autotags
           path: |
