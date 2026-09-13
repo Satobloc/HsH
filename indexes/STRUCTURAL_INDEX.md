@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T05:20:50+00:00`
-- Tree/content state: `0a047583c885131e19d27c5038a6c4d4d3c050570a16b4e29444f9f98a93d337`
-- Coverage: 883 files, 68 directories
+- Scanned: `2026-09-13T05:39:02+00:00`
+- Tree/content state: `5148357a8758ea8a6a302c297cf53886afc6b93deda2dabb12884bfea6b2ebb2`
+- Coverage: 884 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 96 |
+| `WORKSPACES` | 97 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 154 |
+| `.md` | 155 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 41 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 96 |
+| `llm-workspace` | 97 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1104,10 +1104,11 @@
 - `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 7410 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 9577 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md` — 7161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN4_FRINGE.md` — 10659 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN5_FRINGE_ROBUSTNESS.md` — 6316 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
