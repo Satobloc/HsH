@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T09:05:53+00:00`
-- Tree/content state: `97fadc528d2ac694e6a1372faf364e2871ebf2fae0105dd4f9428ad8b8c599c4`
-- Coverage: 902 files, 68 directories
+- Scanned: `2026-09-13T09:07:41+00:00`
+- Tree/content state: `6aa2f94f00c30410e46e9276cbed84bb773cef7d7104e0c8ed2e2501db6b1ace`
+- Coverage: 903 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -15,7 +15,7 @@
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
 | `.github` | 13 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 18 |
+| `CONVERSATION_VIEWER` | 20 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 113 |
+| `WORKSPACES` | 112 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -44,18 +44,18 @@
 | Extension | Files |
 |---|---:|
 | `.cmd` | 1 |
-| `.css` | 4 |
+| `.css` | 5 |
 | `.csv` | 11 |
 | `.docx` | 1 |
 | `.htm` | 1 |
 | `.html` | 1 |
 | `.ipynb` | 1 |
 | `.jpg` | 17 |
-| `.js` | 4 |
+| `.js` | 5 |
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 169 |
+| `.md` | 168 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 43 |
@@ -80,12 +80,12 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 113 |
+| `llm-workspace` | 112 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 1 |
-| `unclassified` | 92 |
+| `unclassified` | 94 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -318,10 +318,12 @@
 - `CONVERSATION_VIEWER/README.md` — 3622 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
+- `CONVERSATION_VIEWER/argus_followup.css` — 761 bytes — `unclassified`
+- `CONVERSATION_VIEWER/argus_followup.js` — 8575 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/conversations.json` — 324063 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 5914 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 6042 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13723 bytes — `unclassified`
@@ -1137,7 +1139,6 @@
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-01.md` — 4446 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-02.md` — 6699 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-03.md` — 1168 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 10969 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md` — 5833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md` — 8228 bytes — `llm-workspace`
