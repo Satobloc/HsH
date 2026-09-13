@@ -7,6 +7,13 @@ A file is a SUPERFLUOUS-PREFIX-CANDIDATE only when:
 - the normalized authored/content payload for each shared message ID is identical,
 - the larger export contains at least one additional message.
 
+Payload equality is intentionally conservative. For each shared message we compare:
+- author role and name,
+- the entire ``content`` object (not selected fields such as ``parts``),
+- recipient,
+- channel,
+- create_time.
+
 This script NEVER deletes or moves files. It emits a review plan. Point-of-use/index/tag checks
 remain mandatory before quarantine, per Nathan's standing instruction.
 """
@@ -36,14 +43,21 @@ def unwrap(obj: Any) -> dict[str, Any] | None:
 
 
 def canonical_message(msg: dict[str, Any]) -> str:
+    """Hash the complete authored/content payload used by the subset gate.
+
+    Do not whitelist content subfields here. ChatGPT exports use different content shapes
+    (for example ``parts`` for ordinary text and ``text`` for some execution outputs), and
+    a selected-field comparison can falsely classify a lossy later export as a superset.
+    JSON object-key order is normalized; array order and string contents are preserved.
+    """
     author = msg.get("author") or {}
-    content = msg.get("content") or {}
+    content = msg.get("content")
     obj = {
         "role": author.get("role"),
         "author_name": author.get("name"),
-        "content_type": content.get("content_type"),
-        "parts": content.get("parts"),
+        "content": content,
         "recipient": msg.get("recipient"),
+        "channel": msg.get("channel"),
         "create_time": msg.get("create_time"),
     }
     raw = json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
@@ -168,7 +182,7 @@ def main() -> None:
                 "superset_last_message_time": best.get("last_message_time"),
                 "smaller_bytes": small["size"],
                 "superset_bytes": best["size"],
-                "content_test": "all smaller message IDs and canonical message payloads identical in preferred superset",
+                "content_test": "all smaller message IDs and complete authored/content payloads identical in preferred superset (author role/name, entire content object, recipient, channel, create_time)",
                 "action": "REVIEW-INDEX-LINK-TAG-POINT-OF-USE-BEFORE-QUARANTINE",
             })
 
@@ -185,7 +199,8 @@ def main() -> None:
 
     with args.report.open("w", encoding="utf-8") as f:
         f.write("# Superset Conversation Duplicate Report\n\n")
-        f.write("No files were moved or deleted. Each candidate passed message-ID + content equality through the smaller export's cutoff. Navigation/index/tag checks are still required.\n\n")
+        f.write("No files were moved or deleted. Each candidate passed message-ID + complete authored/content payload equality through the smaller export's cutoff. Navigation/index/tag checks are still required.\n\n")
+        f.write("Payload policy: author role/name + entire content object + recipient + channel + create_time. Export/message metadata outside that payload is not used to establish content equality.\n\n")
         f.write(f"- raw files scanned: {len(paths)}\n")
         f.write(f"- parsed conversations: {len(rows)}\n")
         f.write(f"- superfluous-prefix candidates: {len(candidates)}\n")
