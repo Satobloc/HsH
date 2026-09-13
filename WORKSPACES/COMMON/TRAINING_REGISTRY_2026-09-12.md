@@ -11,6 +11,7 @@ Each active/recently-active instance should claim one complete HsH CONVO and rec
 | Ravel | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Morrow | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Meridian | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
+| Mercer | READ | READ | DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt | yes | posted | posted in training response (no earlier Mercer baseline existed) | none required | TRAINED |
 | Calder — empirical/statistical lane | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Calder — Foundational Covariance / Global Architecture | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Hale | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
