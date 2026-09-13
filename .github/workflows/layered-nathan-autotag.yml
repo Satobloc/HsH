@@ -23,7 +23,7 @@ jobs:
   autotag:
     if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip autotag]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
