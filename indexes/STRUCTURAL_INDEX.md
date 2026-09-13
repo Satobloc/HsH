@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T07:06:42+00:00`
-- Tree/content state: `ae0871bd7d669ad59921097661dd23aed7d86fc0f3b11f393f2be812645721b9`
+- Scanned: `2026-09-13T07:15:33+00:00`
+- Tree/content state: `ba4f968e9974b043a9a54f71940bca39825b2cd905578d36635667a623e85e4c`
 - Coverage: 891 files, 68 directories
 - GitHub tree response truncated: `false`
 
@@ -1104,7 +1104,7 @@
 - `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 9577 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 13541 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md` — 7161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN4_FRINGE.md` — 10659 bytes — `llm-workspace`
