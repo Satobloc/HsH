@@ -8,18 +8,30 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: hsh-navigation-main
+  cancel-in-progress: false
+
 jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Check out current main
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
-      - name: Append unmerged verified batches
+      - name: Append and push unmerged verified batches
         run: |
-          python - <<'PY'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            python - <<'PY'
           from pathlib import Path
 
           compendium = Path('WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md')
@@ -50,14 +62,16 @@ jobs:
               print('NO UNMERGED BATCHES')
           PY
 
-      - name: Commit merged compendium
-        run: |
-          git add WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md
-          if git diff --cached --quiet; then
-            echo 'No compendium changes.'
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Merge verified provenance batch into compendium'
-          git push
+            git add WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md
+            if git diff --cached --quiet; then
+              echo 'No compendium changes.'
+              exit 0
+            fi
+            git commit -m 'Merge verified provenance batch into compendium'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent main update on attempt $attempt; retrying from fresh origin/main"
+          done
+          echo 'Failed to merge verified batches after retries.' >&2
+          exit 1
