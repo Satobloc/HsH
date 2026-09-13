@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1096870565,
+    "bytes_known": 1096888651,
     "directories": 66,
-    "files": 873
+    "files": 874
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -26,13 +26,13 @@
     ".toml": 1,
     ".tx": 1,
     ".txt": 155,
-    ".yml": 9,
+    ".yml": 10,
     "[none]": 2
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 9,
+    "automation-workflow": 10,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
@@ -50,7 +50,7 @@
   "counts_by_top_level": {
     "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md": 1,
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 9,
+    ".github": 10,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
     "DEVELOPMENT_FULL_CONVOS": 604,
@@ -553,6 +553,13 @@
       "size": null
     },
     {
+      "content_id": "52753989938cfb93f0986c562348611fcef6ed193fd5480896c0be446d9b44a3",
+      "kind": "blob",
+      "path": ".github/workflows/append-provenance-reasoning-batch.yml",
+      "role": "automation-workflow",
+      "size": 18086
+    },
+    {
       "content_id": "113d41043a2e79cc4b8cc212e77608e69874541e53911faf63fd0e5b71ebf1c9",
       "kind": "blob",
       "path": ".github/workflows/arxiv-random-sample.yml",
@@ -700,7 +707,7 @@
       "size": 49
     },
     {
-      "content_id": "9a138bfc390ec6dd68d1b8e03b55b91bb8ae802a6450789a23cf02967cdb488d",
+      "content_id": "0df4b0e81c1c77ed460ac2e6ab4acf8b0e0ad22234a22d58698819ca88fb32da",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6846,7 +6853,7 @@
       "size": null
     },
     {
-      "content_id": "7858e27f97d06ddc6d984bcf854cbca3fde07c2597f4badbd47eb4a6fe96dfb8",
+      "content_id": "c432650974ece8d35105d4d8591b92a51fd5afe0ab507a7d7124809f3dc099c2",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6860,7 +6867,7 @@
       "size": 8625
     },
     {
-      "content_id": "e2f0d28dd45ffb7f2b8a01426a11b5a96db68bdc5bdf289ed65012903d130a06",
+      "content_id": "5c67915dab567da2dfe36d06023e67e2cec1eb04fa06b76467d914c28e601ec1",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6881,14 +6888,14 @@
       "size": null
     },
     {
-      "content_id": "99ff49c36b995dad30894f3225d5a7b829c13ea6008e22e270b541e7e429c000",
+      "content_id": "8d5747fd3c2fd2335f4e45f9d50c7b6ddc18c6b3e46f48dce38a515265eb7c98",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "291a73fbd1f025774eb853d20ca2e0bdf992a5d3be4c02c9fd6a19398c337431",
+      "content_id": "6597af4a5242a6fa09f1ad7689287df43747786c8966621e257e1ade502fafb9",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7106,8 +7113,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T03:19:25+00:00",
+  "scanned_at_utc": "2026-09-13T03:20:43+00:00",
   "schema_version": 1,
-  "tree_id": "e94d22d03c2cab52a7e0f195bc447b641c628d01e7eee3d3ca57de704dc57afc",
+  "tree_id": "0d791d4460cbb067c4b959b6573ec8c4928a35bb4e902d07d52ab2bdc1d63e35",
   "tree_response_truncated": false
 }

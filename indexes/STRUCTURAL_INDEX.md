@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:19:25+00:00`
-- Tree/content state: `e94d22d03c2cab52a7e0f195bc447b641c628d01e7eee3d3ca57de704dc57afc`
-- Coverage: 873 files, 66 directories
+- Scanned: `2026-09-13T03:20:43+00:00`
+- Tree/content state: `0d791d4460cbb067c4b959b6573ec8c4928a35bb4e902d07d52ab2bdc1d63e35`
+- Coverage: 874 files, 66 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 9 |
+| `.github` | 10 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -64,7 +64,7 @@
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 9 |
+| `.yml` | 10 |
 | `[none]` | 2 |
 
 ## Structural roles
@@ -73,7 +73,7 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 9 |
+| `automation-workflow` | 10 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
@@ -296,6 +296,7 @@
 
 - `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` — 26764 bytes — `unclassified`
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 4195 bytes — `visitor-interface`
+- `.github/workflows/append-provenance-reasoning-batch.yml` — 18086 bytes — `automation-workflow`
 - `.github/workflows/arxiv-random-sample.yml` — 1434 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
