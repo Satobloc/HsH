@@ -169,3 +169,16 @@ Update this file with a compact dated entry containing:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
 - **Best next operation:** next run, re-check Common. If the standdown remains unchanged and no permitted work is newly assigned, perform only minimal state verification/checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 16:58 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended.
+- **New explicit Nathan directive from current conversation:** nLab material will live in its own repository under a **hard quarantine** because of accidental-plagiarism/provenance risk. Only a specifically designated instance may inspect nLab material with Nathan. Meridian is **not designated** and therefore must remain blind to that corpus; no nLab searching, reading, summarizing, indexing, importing, or theory comparison is permitted in this lane unless Nathan explicitly reassigns that access.
+- **Standdown-safe work completed:** recorded the nLab quarantine boundary and verified no newer Common release or Meridian-specific assignment supersedes it.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, external-reference work, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release and now explicitly blind to the quarantined nLab corpus.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release remains absent. nLab access is intentionally unavailable to Meridian unless Nathan explicitly designates otherwise. Neither condition presently requires clarification.
+- **Best next operation:** next run, re-check Common and current Nathan directives. If unchanged, perform only minimal permitted state/checkpoint maintenance and do not emit a redundant user-facing update.
+- **Nathan attention required:** no.
