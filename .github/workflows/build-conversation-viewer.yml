@@ -13,6 +13,7 @@ on:
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
+      - 'tools/build_conversation_viewer_resolved.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
@@ -48,9 +49,9 @@ jobs:
           node --check CONVERSATION_VIEWER/presentation.js
 
       - name: Build compact conversation catalog
-        run: python tools/build_conversation_viewer.py
+        run: python tools/build_conversation_viewer_resolved.py
 
-      - name: Validate generated catalog, curation and landmarks
+      - name: Validate generated catalog, source paths, curation and landmarks
         run: |
           python - <<'PY'
           import json
@@ -66,6 +67,8 @@ jobs:
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
           assert all(Path(x['path']).suffix.lower() in {'.json', '.txt'} or x.get('external') for x in data['conversations'])
+          missing_paths = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
+          assert not missing_paths, f'viewer catalog contains missing repository source paths: {missing_paths}'
 
           cp = Path('CONVERSATION_VIEWER/CURATION.json')
           curation = json.loads(cp.read_text(encoding='utf-8'))
