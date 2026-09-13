@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T01:18:59+00:00`
-- Tree/content state: `4d4cc18cc6bcdad24f13e06a5b9eccae42db43ba693ff51fed969b916121c811`
+- Scanned: `2026-09-13T01:21:41+00:00`
+- Tree/content state: `578a83de712615a5b02656eacd3951a2c16c927960d09d52e78f0d7443856a70`
 - Coverage: 859 files, 64 directories
 - GitHub tree response truncated: `false`
 
@@ -1037,7 +1037,7 @@
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 9724 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 8624 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 6739 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
