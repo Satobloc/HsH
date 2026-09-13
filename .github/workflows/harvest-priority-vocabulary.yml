@@ -1,0 +1,61 @@
+name: Harvest priority terminology
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/scripts/harvest_priority_vocabulary.py'
+      - 'WORKSPACES/COMMON/scripts/tag_priority_vocabulary.py'
+      - 'WORKSPACES/COMMON/terminology/**'
+      - '.github/workflows/harvest-priority-vocabulary.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout HsH
+        uses: actions/checkout@v4
+        with:
+          path: hsh
+
+      - name: Checkout historical archive
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+
+      - name: Install PDF text extractor
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Harvest frequency/provenance vocabulary
+        run: |
+          python hsh/WORKSPACES/COMMON/scripts/harvest_priority_vocabulary.py \
+            --hsh-root hsh \
+            --archive-root archive \
+            --manifest hsh/WORKSPACES/COMMON/terminology/SOURCE_MANIFEST.json \
+            --curation hsh/WORKSPACES/COMMON/terminology/VOCABULARY_CURATION.json \
+            --output hsh/indexes/terminology
+
+      - name: Apply accepted priority terms to conversation corpus
+        run: |
+          python hsh/WORKSPACES/COMMON/scripts/tag_priority_vocabulary.py \
+            hsh/DEVELOPMENT_FULL_CONVOS archive \
+            --vocabulary hsh/indexes/terminology/priority_vocabulary_curated.json \
+            --out hsh/indexes/terminology/priority_term_message_tags.jsonl \
+            --summary hsh/indexes/terminology/TAGGING_SUMMARY.md
+
+      - name: Commit durable terminology outputs
+        working-directory: hsh
+        run: |
+          git config user.name "SAT terminology bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add indexes/terminology
+          if git diff --cached --quiet; then
+            echo "No terminology-output changes"
+          else
+            git commit -m "Refresh priority terminology harvest"
+            git push
+          fi
