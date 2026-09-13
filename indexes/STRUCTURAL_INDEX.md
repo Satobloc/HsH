@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T08:24:23+00:00`
-- Tree/content state: `d8adcd91252b4a5ba8e6abef0c06989296fe5dd7c3b67da7f28c0e8079dbc4f5`
+- Scanned: `2026-09-13T08:31:22+00:00`
+- Tree/content state: `c175f678e868d2655055c2583689422c500b6aa2086eab8f25163014030182d0`
 - Coverage: 895 files, 68 directories
 - GitHub tree response truncated: `false`
 
@@ -1120,7 +1120,7 @@
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 15112 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 14343 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 3786 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md` — 3161 bytes — `llm-workspace`
