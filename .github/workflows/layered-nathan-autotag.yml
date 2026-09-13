@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
+      - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py'
+      - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py'
       - 'WORKSPACES/COMMON/scripts/package_nathan_direct.py'
       - '.github/workflows/layered-nathan-autotag.yml'
   workflow_dispatch:
@@ -29,10 +31,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate autotag tooling
+        run: |
+          python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan.py
+          python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py
+          python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py
+          python -m unittest discover -s tests -p 'test_autotag_selectivity_v3.py' -v
       - name: Run archive-wide layered autotagger
         run: |
           mkdir -p WORKSPACES/COMMON/analysis indexes/autotag indexes/nathan-direct
-          python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py . \
+          python WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py . \
             --out WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
             --summary indexes/autotag/AUTOTAG_SUMMARY.md \
             --index indexes/autotag/CONVERSATION_TAG_INDEX.md \
