@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T01:21:41+00:00`
-- Tree/content state: `578a83de712615a5b02656eacd3951a2c16c927960d09d52e78f0d7443856a70`
+- Scanned: `2026-09-13T01:31:08+00:00`
+- Tree/content state: `9781c441865a19568cb1551f2b30446fef19a115acdff4801d3bbc934c15b96b`
 - Coverage: 859 files, 64 directories
 - GitHub tree response truncated: `false`
 
@@ -1037,7 +1037,7 @@
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 8624 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 8514 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 6739 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
@@ -1053,7 +1053,7 @@
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 71591 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 78032 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
