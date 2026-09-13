@@ -1,0 +1,63 @@
+name: Merge verified provenance batches
+
+on:
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/verified_batches/**'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Append unmerged verified batches
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          compendium = Path('WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md')
+          batch_dir = Path('WORKSPACES/COMMON/verified_batches')
+          original = compendium.read_text(encoding='utf-8')
+          merged = original
+          added = []
+
+          for path in sorted(batch_dir.glob('*.md')):
+              text = path.read_text(encoding='utf-8').strip()
+              if not text:
+                  continue
+              heading = next((line.strip() for line in text.splitlines() if line.startswith('## Excavation batch ')), None)
+              if not heading:
+                  print(f'SKIP {path}: no excavation batch heading')
+                  continue
+              if heading in merged:
+                  print(f'ALREADY MERGED {path}: {heading}')
+                  continue
+              merged = merged.rstrip() + '\n\n---\n\n' + text + '\n'
+              added.append(str(path))
+              print(f'APPEND {path}: {heading}')
+
+          if added:
+              compendium.write_text(merged, encoding='utf-8')
+              print('ADDED', len(added), 'batch(es)')
+          else:
+              print('NO UNMERGED BATCHES')
+          PY
+
+      - name: Commit merged compendium
+        run: |
+          git add WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md
+          if git diff --cached --quiet; then
+            echo 'No compendium changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Merge verified provenance batch into compendium'
+          git push
