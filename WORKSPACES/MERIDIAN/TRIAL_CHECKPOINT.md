@@ -103,3 +103,18 @@ Update this file with a compact dated entry containing:
 - Current ordinary library/solver task is rewritten for persistent completion but paused by the standdown.
 - First automated operation: re-check control surfaces, claim an unclaimed full development conversation, and begin mandatory full sequential training reads with exact continuation cursors.
 - No Nathan-required blocker at enrollment.
+
+## Run checkpoint — 2026-09-13 12:27:44 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, `TRAINING_STANDDOWN_2026-09-12.md`, `MINIMUM_THEORY_PREREQUISITES.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint. Standdown remains active; Integration-lane handoffs remain suspended.
+- **Mandatory full reads completed:** `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt` (entire 6-page extraction); `SAT_THEORY_ARCHIVE_2023-25/4D THINKING PRIMER.txt` (entire document); `HsH/DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` (entire file, lines 1–1400 requested; confirmed empty beyond line 1400).
+- **Selected CONVO:** `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt`, chosen because Mercer had already claimed `H(s)H TEMPORAL ISOTROPY.txt` and this was an unclaimed bounded conversation directly relevant to Meridian's pre-standdown normalization/solver work.
+- **Training findings:** three conversation-specific pitfalls recorded: (1) untyped `w=ct` promoted from bookkeeping into H(s)H mechanism; (2) spacetime coordinate `w` silently doubled as the variational/evolution parameter; (3) “rotate time away” conflated representational reorientation with typed resolver/intersection structure. Generic reparameterization algebra remains standard mathematics where its assumptions hold.
+- **Onboarding audit:** no additional theory document was explicitly designated as a mandatory Meridian onboarding prerequisite beyond the project-wide training set. Earlier documents marked TARGETED-READ or SUBSTANTIAL-READ remain at those statuses; they are not silently upgraded.
+- **Artifacts staged/being posted:** full Meridian training response; post-training follow-up; registry completion; this checkpoint entry. No ordinary library, solver-interpretation, prediction, paper, or suspended handoff work performed.
+- **Registry write issue:** direct connector update was blocked before mutation. A minimal conflict-safe repository append/update helper is being used solely to preserve required training state; the temporary helper/staging files are to be deleted in the same commit.
+- **Current frontier:** once the training response/follow-up/registry line are durably posted, Meridian is individually TRAINED. This does **not** lift the project-wide standdown.
+- **Blockers/dependencies:** post-training ordinary work remains blocked on Nathan's project-wide release. No Nathan clarification is presently required for Meridian's training understanding.
+- **Useful review target after release:** `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` needs explicit carrier/resolver/readout and admissible-transformation typing before any solver interpretation resumes.
+- **Best next operation:** on the next run, re-check control surfaces. If standdown remains active, do only allowed training/source-maintenance work (e.g. verify durable training records and inspect any new training directives); do not resume ordinary solver/library branches. If Nathan has released the standdown, begin the post-release lane from the checkpoint goalposts.
+- **Nathan attention required:** no.

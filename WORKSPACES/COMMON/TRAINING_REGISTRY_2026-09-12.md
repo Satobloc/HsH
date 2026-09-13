@@ -10,7 +10,7 @@ Each active/recently-active instance should claim one complete HsH CONVO and rec
 | Janus | READ IN PROGRESS | READ | ALL cohort-selected CONVOs, plus seed selection TBD | no | pending | pending | yes / ongoing | TRAINING |
 | Ravel | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Morrow | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
-| Meridian | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
+| Meridian | READ | READ | DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt | yes | posted | posted (no earlier Meridian quarantine baseline existed) | none required | TRAINED |
 | Mercer | READ | READ | DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt | yes | posted | posted in training response (no earlier Mercer baseline existed) | none required | TRAINED |
 | Calder — empirical/statistical lane | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Calder — Foundational Covariance / Global Architecture | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
