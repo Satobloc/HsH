@@ -1,0 +1,203 @@
+name: Append verified provenance batch - Reasoning with SAT-HSH Skill
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/append-provenance-reasoning-batch.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rebase onto current main
+        run: git pull --rebase origin main
+      - name: Append verified user-authored entries if missing
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md')
+          text = path.read_text(encoding='utf-8')
+          source = 'DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json'
+
+          entries = [
+          ('898814a5-79c6-4e26-b0f8-5f7501ef1957', r'''### 2026-07-11 — Reject field-theory framing for the core object
+
+- **Tags:** `WORLDLINE` `WORLDTUBE` `FINITE-CORE` `MODEL-VS-REALITY` `NATHAN-CORRECTION` `INTERACTIONS`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `898814a5-79c6-4e26-b0f8-5f7501ef1957` — 2026-07-11 03:12:12 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit architectural correction, current in this conversation at the time; later ER-bridge and finite-core developments require separate chronological comparison.
+- **Exact Nathan wording:**
+
+> I don't particularly like the field theory framing. I still think it should remain worldline at core, but using the ER bridge as that line. A line, with thickness. But still a line, not a field. And composed of a spacetime *surface*, not fields per se. Where something *like* fields comes in is EM interactions--which we've been leaning into modeling as Kelvin vortices 'stirred up' by the worldline/tube coils in a BEC ground state vacuum/spacetime fabric.
+
+- **Immediate context:** The preceding assistant audit had proposed a `1+1`-dimensional effective field-theory/Cosserat-rod framing for the microscopic action. Nathan rejected that as the core framing and restated the preferred object as a finite-thickness line/worldline with field-like behavior relegated to interactions.
+- **Later correction / relationship:** cross-link with later worldline/worldtube, finite-core, ER-bridge, and timesheet/readout statements; do not infer present-day canonical status from this July statement alone.
+
+---'''),
+          ('e568ef81-3502-4e40-992f-2fe26710acb3', r'''### 2026-07-11 — Simplicity, recursion, and a modular geometric equation builder
+
+- **Tags:** `NESTED-HELIX` `UI` `WHIRLIGIG-DONUT` `METHOD` `FINITE-CORE`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `e568ef81-3502-4e40-992f-2fe26710acb3` — 2026-07-11 04:15:46 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** methodology/architecture statement; exploratory implementation proposal rather than a settled equation.
+- **Exact Nathan wording:**
+
+> The idea is simplicity and recursion. We need to make the core basically a generalized superhelical equation, embedded within a superfluid medium, with scale-dependent variability. We probably ought to set it up to be actuated by a geometric solver, like the UI/Whirligig or something similar. That way we have a robust scale/scope equation *builder* designed to run the equations, but with modular swap-out available for testing different hypotheses.
+
+- **Immediate context:** This followed discussion of replacing a field-action core with a finite-thickness worldline/worldtube architecture. Nathan shifted the emphasis toward a recursively generated core plus a modular geometric solver.
+- **Later correction / relationship:** should be compared with later UI/Whirligig, Spheres, Graticule, finite-core, and equation-builder development; the named solver choice is explicitly tentative (`like ... or something similar`).
+
+---'''),
+          ('552c04ba-9c90-441d-8f91-f08d1e3af3e4', r'''### 2026-07-11 — `ALL TOGETHER SYNTHESIS` as the closest planning authority
+
+- **Tags:** `METHOD` `PROVENANCE` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `552c04ba-9c90-441d-8f91-f08d1e3af3e4` — 2026-07-11 05:17:54 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit source-authority instruction for the planning documents supplied at this point in development.
+- **Exact Nathan wording:**
+
+> Ok, I'm giving you some of the documents I've been compiling for planning. The ALL TOGETHER SYNTHESIS is probably the closest to a "this is where the theory's going" plan I've got. The rest are mostly suggestions and ideas
+
+- **Immediate context:** Nathan was supplying planning/source documents after a discussion of candidate mathematical formalisms and stated how they should be weighted relative to one another.
+- **Later correction / relationship:** source priority is dated to this July 11 conversation; later primary Nathan corrections and later raw conversations still control where they conflict.
+
+---'''),
+          ('f4df0af0-9cae-4c3f-b484-3c83bc5a987c', r'''### 2026-07-11 — Relate multiple measures of the same paths and event types
+
+- **Tags:** `METHOD` `HELIX-PITCH-RADIUS-ARCLENGTH` `HOLONOMY` `NESTED-HELIX` `PROJECTION-READOUT`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `f4df0af0-9cae-4c3f-b484-3c83bc5a987c` — 2026-07-11 06:12:30 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** exploratory methodology statement about what relationships the calculation system should seek.
+- **Exact Nathan wording:**
+
+> Exactly. That *and* finding relationships between different meassures of the same paths--eg the surface vector, the internal vector... and finding relationships between various behaviors/event types (eg a superhelical turn/nesting) and the primitives of distance and time or the different path measures. If holonomy closure or scale changes or nesting coil turns/jumps are partly a function of scale, then it may be possible to, if not predict specific instances, then perhaps get something like estimated [event type] occurance
+
+- **Immediate context:** The preceding assistant message had proposed treating deformed-sphere intersections as a lower-dimensional carrier and separating carrier motion from motion along it. Nathan emphasized comparing multiple measures of the same path and using scale relationships to characterize event occurrence.
+- **Later correction / relationship:** later path-measure, readout, nesting, and scale formulations should be linked when recovered; this message proposes a search strategy rather than fixing a final mathematical relation.
+
+---'''),
+          ('357fae86-dd21-41fc-bf92-646bb4c336ac', r'''### 2026-07-11 — Q=3 braid as foundational model element and He-3 as holotype
+
+- **Tags:** `INTERBRAID` `MINKOWSKI` `INTERACTIONS` `METHOD` `PROVENANCE`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `357fae86-dd21-41fc-bf92-646bb4c336ac` — 2026-07-11 08:34:41 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** direct statement of model priority and the rationale for treating He-3 as a holotype as of this date; includes an explicit `so far as I know` qualification.
+- **Exact Nathan wording:**
+
+> So, right... the Q=3 hadronic quark braid is basically *the* foundational element of the model (taking Minkowski geometry into mapping additional structure). The later He3 construction, and recognizing the scale repetition would be a match for nuclear residual strong force was a key understanding, as it provdides a (so far as I know) unique operation of the same force on different scales in such proximity. It gives us a basis for scaling and a hard calculation or two that can act as tests. That's why it's the holotype atom.
+
+- **Immediate context:** The assistant had just audited the Standard Atom/He-3 material and distinguished fine and coarse resolutions. Nathan clarified why the Q=3 braid and the He-3 scale repetition mattered to the model and to testing.
+- **Later correction / relationship:** immediately followed by further clarification distinguishing braid nesting from superhelical nesting; link to the next entry rather than collapsing those two recursion types.
+
+---'''),
+          ('95993cdf-7794-4270-84cb-af391d7cbaf1', r'''### 2026-07-11 — Superhelical nesting and braid nesting are distinct
+
+- **Tags:** `NESTED-HELIX` `INTERBRAID` `TOPOLOGY-VS-MORPHOLOGY` `NATHAN-CORRECTION`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `95993cdf-7794-4270-84cb-af391d7cbaf1` — 2026-07-11 08:42:38 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit correction/distinction.
+- **Exact Nathan wording:**
+
+> We have to distinguish between superhelical nesting and braid nesting. They're two different things
+
+- **Immediate context:** The preceding assistant response had represented the He-3 hierarchy with a repeated braid operator and was treating recursive constituent grouping and recursive path coiling too uniformly. Nathan explicitly separated the two nesting concepts.
+- **Later correction / relationship:** the following assistant turn acknowledged the conflation; subsequent Nathan statements about He-3 and Interbraid should be read with this distinction in force.
+
+---'''),
+          ('c3f309e3-fc8d-4cca-98f7-4072c322e722', r'''### 2026-07-11 — Scaled-up hadron expectation and rejection of the older Velcro picture
+
+- **Tags:** `INTERBRAID` `INTERACTIONS` `NATHAN-CORRECTION` `HISTORY` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `c3f309e3-fc8d-4cca-98f7-4072c322e722` — 2026-07-11 08:54:18 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** dated model-commitment statement plus explicit historical rejection/qualification of an earlier interaction proposal.
+- **Exact Nathan wording:**
+
+> It's pretty foundational to the model that if our base assumption taht 3 filaments coil together, producing QCD, then a parallel structure should necessarily be a parallel force. The "velcro effect" idea was an earlier proposition that was clearly problematic (at least, as it was originally pictured, as a basis for EM or electroweak interactions). Whether *other* things are also happening is another question. But whether He3 is *expected* by the model to behave similarly to a scaled up hadron isn't really something we can reject without being self-inconsistent
+
+- **Immediate context:** After Nathan separated superhelical nesting from braid nesting, the assistant had left open whether He-3 nuclear binding was literally a second braid or another contact/intermeshing mechanism. Nathan clarified that the scaled parallel-force expectation was a model commitment while separately marking the older Velcro account as problematic in its original EM/electroweak role.
+- **Later correction / relationship:** link to the preceding nesting distinction and to later Interbraid-force terminology; do not use the assistant's subsequent formalization as Nathan-authored content.
+
+---'''),
+          ('d27667d7-fd7f-4795-9263-a29fc16abed9', r'''### 2026-07-11 — Dated two-force taxonomy: Electrogravity and Interbraid Force
+
+- **Tags:** `ELECTROGRAVITY` `INTERBRAID` `INTERACTIONS` `METRIC` `HISTORY` `MODEL-VS-REALITY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `d27667d7-fd7f-4795-9263-a29fc16abed9` — 2026-07-11 09:10:39 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicitly introduced as `the current theory thinking` on this date; several mechanisms inside the statement are themselves marked tentative (`tentatively proposed`, `perhaps`). Preserve as dated development rather than silently treating it as current canon.
+- **Exact Nathan wording:**
+
+> So, the current theory thinking is that there are two fundamental forces: Electrogravity (ie the Kelvin vortex as the mechanism for electromagnetism and gravity, taking the place of fields and the metric, and the scale dampening being largely a result of chirality cancellation at large scale, and different proportional spacing and size with respect to the BEC vacuum), and Interbraid Force (ie, the strong force as we've been discussing, but also *any* filament-on-filament force--which would include collision, on any scale, and would be akin to either event horizon contact [which we've tentatively proposed does not result in full merger, but more like a filament braid] or contact between naked singularities); it should be noted, another significant interbraid force would be trans-temporal filament tug (pastward, but perhaps also futureward), and this would contribute to gravity as well, perhaps leading to hysteresis or strengthening of local gravity in bound systems.
+
+- **Immediate context:** This followed the He-3/recursive-braid discussion. Nathan broadened the interaction taxonomy beyond that specific example and explicitly named the two proposed fundamental interaction classes as understood at that point.
+- **Later correction / relationship:** later H(s)H interaction, Electrogravity, Interbraid, metric, and gravity discussions should be linked as refinements or supersessions where raw Nathan statements establish them.
+
+---'''),
+          ('bed36236-2f55-402a-9c9a-fa512f03c522', r'''### 2026-07-12 — Correction: rotation is a component of the expansion
+
+- **Tags:** `NATHAN-CORRECTION` `NESTED-HELIX` `INTERSECTION-PROPAGATION` `HISTORY`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- **Conversation title:** `Reasoning with SAT-HSH Skill`
+- **Message ID / timestamp / landmark:** `bed36236-2f55-402a-9c9a-fa512f03c522` — 2026-07-12 16:57:37 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`)
+- **Historical terminology/status:** explicit correction inside an exploratory Klein/expansion construction; not promoted here beyond the correction actually stated.
+- **Exact Nathan wording:**
+
+> No, I meant a rotational component to the expansion
+
+- **Immediate context:** The preceding assistant message had interpreted rotation as winding/folding of a global filament relative to a resolving surface. Nathan corrected the intended object: the rotation under discussion was a component of the expansion itself.
+- **Later correction / relationship:** immediately followed by further exploration of rotational expansion and helical neck/worldtube geometry; later time/expansion/readout clarifications must control if they revise this construction.
+
+---'''),
+          ]
+
+          missing = [(mid,entry) for mid,entry in entries if mid not in text]
+          if not missing:
+              print('No new entries: all selected message IDs already present.')
+              Path('/tmp/no_changes').write_text('1')
+              raise SystemExit(0)
+
+          header = '''\n\n## Excavation batch 2026-09-13-A — `Reasoning with SAT-HSH Skill — raw.json`\n\nThis batch was extracted directly from the raw ChatGPT mapping for `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`. The conversation contains 57 non-empty `author.role = user` messages among 181 non-empty messages. The entries below were selected from raw user nodes only; adjacent assistant turns were used solely to describe immediate context and are not promoted as Nathan-authored content.\n\n'''
+          if '## Excavation batch 2026-09-13-A — `Reasoning with SAT-HSH Skill — raw.json`' not in text:
+              text += header
+          else:
+              text += '\n\n'
+          text += '\n\n'.join(entry for _,entry in missing) + '\n'
+          path.write_text(text, encoding='utf-8')
+          print(f'Appended {len(missing)} verified entries: {[mid for mid,_ in missing]}')
+          PY
+      - name: Commit appended compendium entries
+        shell: bash
+        run: |
+          if [ -f /tmp/no_changes ]; then exit 0; fi
+          git config user.name "Satobloc provenance bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md
+          git commit -m "Append verified Nathan provenance from Reasoning with SAT-HSH Skill"
+          git pull --rebase origin main
+          git push origin HEAD:main
