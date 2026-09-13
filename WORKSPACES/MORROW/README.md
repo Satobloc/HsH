@@ -68,3 +68,11 @@ Use export inventories and source/message IDs to locate core-team material; tags
 ## Conversation crosswalk — 2026-09-13
 
 [Confirmed aliases and working export links](CORE_TEAM_CONVERSATION_CROSSWALK.md). Metadata inspected for 24 exports, including all nine LIVE JSON files. Five named source families confirmed by raw UUID. Eight LIVE catalog paths differ from actual filenames; maintenance request routed through Common. Dialogue reading and content-superset checks remain pending. No theory work resumed.
+
+## Message-level audit — 2026-09-13
+
+[Janus export relationships, comparator gap and raw-ID recapture](JANUS_EXPORT_COMPARISON_2026-09-13.md) · [Read-only comparator](compare_conversation_exports.mjs) · [Current checkpoint](TRIAL_CHECKPOINT.md).
+
+Tags: ADMIN, SOURCE-IDENTITY, RAW-ID-COMPARED, CONTENT-DIFF, RAW-ID-RECAPTURED, COVERAGE-LIMIT. Three raw blobs/four paths compared computationally; not full dialogue reading. A later copy retains all 119 earlier user payloads but shortens one tool body, so message-ID inclusion is insufficient for lossless replacement. The 22:13 Janus UUID is now directly recaptured; earlier 20:01–20:08 discrepancies remain open. Maintainer reconciliation is tracked as `MORROW-SOURCE-001` in Common.
+
+Queue update: [Nathan Direct](../../indexes/nathan-direct/README.md) now has a repository-visible README and manifest. Those were fully read; yearly shards were not. This supplements the older availability notes without claiming complete ingestion. Next work is the exact disputed-ID interval in the checkpoint; theory work remains stopped and training incomplete.
