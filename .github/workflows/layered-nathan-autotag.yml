@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - '**/*.json'
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
       - '.github/workflows/layered-nathan-autotag.yml'
   workflow_dispatch:
@@ -18,7 +17,7 @@ concurrency:
 
 jobs:
   autotag:
-    if: ${{ github.event_name != 'push' || (!contains(github.event.head_commit.message, '[skip autotag]') && !contains(github.event.head_commit.message, '[skip hsh-maintenance]')) }}
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip autotag]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
