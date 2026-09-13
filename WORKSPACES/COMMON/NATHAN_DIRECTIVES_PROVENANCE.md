@@ -40,6 +40,23 @@ If a live conversation has not yet entered the raw archive, record the directive
 
 ---
 
+## 2026-09-13 — Archive-wide layered autotagging and redundant indexing
+
+- **Local timestamp:** approximately `2026-09-13 05:15 EDT` (`America/New_York`)
+- **Conversation ID:** `PENDING RAW-ID BACKFILL`
+- **Message/node ID:** `PENDING RAW-ID BACKFILL`
+- **Durable conversation path:** `PENDING LIVE EXPORT`
+- **Authorship:** direct current-chat user instruction from Nathan; raw metadata not yet available in repository.
+- **Directive summary:**
+  1. Modify the layered tagger so its durable outputs participate in repository indexing/navigation rather than existing only as transient workflow artifacts.
+  2. Give the tagger a broad topic remit rather than SAT/H(s)H-only vocabulary.
+  3. Scan/tag all conversation-shaped JSON throughout the archive/repository, not merely the established development/live conversation folders or filenames matching a narrow convention.
+  4. Preserve intentional indexing redundancy: independently discover taggable conversation JSON and compare that discovery surface with ordinary structural indexing so a tagged-but-not-indexed file becomes visible as an index-gap candidate.
+- **Affected records/workstreams:** `WORKSPACES/COMMON/scripts/layered_autotag_nathan.py`; `.github/workflows/layered-nathan-autotag.yml`; `.github/workflows/maintain-navigation.yml`; `indexes/autotag/**`; tagging infrastructure ledgers.
+- **Implementation/status:** implemented on `main` in commit `aee43f7f6074f21612ca8818c5b114e3ddda8fe4`; first automated archive-wide generation/validation pending workflow completion at the time of this log entry.
+
+---
+
 ## Backfill procedure
 
 When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPMENT_FULL_CONVOS`:
