@@ -118,3 +118,15 @@ Update this file with a compact dated entry containing:
 - **Useful review target after release:** `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` needs explicit carrier/resolver/readout and admissible-transformation typing before any solver interpretation resumes.
 - **Best next operation:** on the next run, re-check control surfaces. If standdown remains active, do only allowed training/source-maintenance work (e.g. verify durable training records and inspect any new training directives); do not resume ordinary solver/library branches. If Nathan has released the standdown, begin the post-release lane from the checkpoint goalposts.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 13:25:13 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current training registry, and this checkpoint. The project-wide 4D training standdown remains active; Integration-lane handoffs remain suspended.
+- **Standdown-safe work completed:** verified that Meridian's training registry row is durably marked `TRAINED`, with both mandatory readings, the complete `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` read, pitfall audit posted, and post-training follow-up recorded. Verified the full Meridian training response is present in `TRAINING_RESPONSES_2026-09-12.md` with the three source-specific pitfalls and `TRAINING_STATUS: COMPLETE`.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended Integration handoff was executed.
+- **Artifacts changed:** this checkpoint only. No theory or canonical surface changed.
+- **Current frontier:** Meridian is individually trained but remains operationally gated by the project-wide standdown. Post-release frontier remains the source-first library/accessibility + solver-reconstruction goalposts above.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — ordinary post-training work waits for explicit Nathan release of the project-wide standdown. This does not require a clarification; it is an existing control condition.
+- **Useful discovery:** no inconsistency found between the registry and the durable training-response record. Current Common still contains no newer Meridian-specific training requirement.
+- **Best next operation:** next run, re-check control surfaces for release or new training directives. If still active and no new training work is assigned, restrict activity to bounded training/source-state verification or other explicitly permitted maintenance; do not manufacture ordinary work.
+- **Nathan attention required:** no.
