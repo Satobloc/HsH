@@ -1,0 +1,76 @@
+name: Finalize Meridian training records once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/meridian-training-finalize-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Finalize Meridian training records
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          response_path = Path('WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md')
+          quarantine_path = Path('WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md')
+          registry_path = Path('WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md')
+          checkpoint_path = Path('WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md')
+
+          response_entry = Path('.github/meridian-training-response.tmp.md').read_text(encoding='utf-8').rstrip()
+          followup_entry = Path('.github/meridian-post-training-followup.tmp.md').read_text(encoding='utf-8').rstrip()
+          checkpoint_entry = Path('.github/meridian-checkpoint-entry.tmp.md').read_text(encoding='utf-8').rstrip()
+
+          response_text = response_path.read_text(encoding='utf-8')
+          if '### Meridian — H(s)H TIME RESIDUALS — 2026-09-13' not in response_text:
+              response_path.write_text(response_text.rstrip() + '\n\n' + response_entry + '\n', encoding='utf-8')
+
+          quarantine_text = quarantine_path.read_text(encoding='utf-8')
+          if '### Meridian — 2026-09-13\n\n#### POST-TRAINING FOLLOW-UP — 2026-09-12' not in quarantine_text:
+              quarantine_path.write_text(quarantine_text.rstrip() + '\n\n' + followup_entry + '\n', encoding='utf-8')
+
+          registry_text = registry_path.read_text(encoding='utf-8')
+          old = '| Meridian | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |'
+          old_claimed = '| Meridian | pending | pending | DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt | no | pending | pending | pending | TRAINING |'
+          new = '| Meridian | READ | READ | DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt | yes | posted | posted (no earlier Meridian quarantine baseline existed) | none required | TRAINED |'
+          if new not in registry_text:
+              if old in registry_text:
+                  registry_text = registry_text.replace(old, new, 1)
+              elif old_claimed in registry_text:
+                  registry_text = registry_text.replace(old_claimed, new, 1)
+              else:
+                  raise SystemExit('Meridian registry row changed unexpectedly; refusing blind rewrite.')
+              registry_path.write_text(registry_text, encoding='utf-8')
+
+          checkpoint_text = checkpoint_path.read_text(encoding='utf-8')
+          if '## Run checkpoint — 2026-09-13 12:27:44 EDT / scheduled :28 phase' not in checkpoint_text:
+              checkpoint_path.write_text(checkpoint_text.rstrip() + '\n\n' + checkpoint_entry + '\n', encoding='utf-8')
+          PY
+
+          rm -f .github/meridian-training-response.tmp.md \
+                .github/meridian-post-training-followup.tmp.md \
+                .github/meridian-checkpoint-entry.tmp.md \
+                .github/workflows/meridian-training-finalize-once.yml
+
+      - name: Commit training records
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Finalize Meridian 4D training records'
+          git push
