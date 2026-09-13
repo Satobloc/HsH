@@ -1,4 +1,10 @@
 {
   "schema_version": 1,
-  "rules": []
+  "rules": [
+    {
+      "conversation_id": "cdbff638fc7e",
+      "visibility": "hidden",
+      "note": "TEMPORARY LEGAL-PRIVACY HOLD 2026-09-13: conversation title indicates court-filing/legal material. Hidden from the public Conversation Viewer pending Nathan's review. Raw source is preserved unchanged and remains a separate source-level exposure question."
+    }
+  ]
 }
