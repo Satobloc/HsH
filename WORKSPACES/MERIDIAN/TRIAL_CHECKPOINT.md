@@ -156,3 +156,16 @@ Update this file with a compact dated entry containing:
 - **Useful discovery/questions:** one new Common unresolved issue, `MORROW-SOURCE-001`, concerns export-comparator completeness and is outside Meridian's lane; no Meridian action is indicated under the standdown.
 - **Best next operation:** next run, re-check Common for release or new permitted training/source-maintenance work. If unchanged, make only the minimum state/checkpoint update and avoid redundant verification.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 16:28:49 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
+- **Standdown-safe work completed:** minimal state verification only. Meridian remains individually trained from the prior completed training record; no new Meridian-specific training directive or project-wide release appeared.
+- **New Common state observed:** `MORROW-SOURCE-001` remains the only central unresolved issue and does not require Meridian action; the Bulletin Board records the separate Janus UUID 20:01–20:08 provenance discrepancy as resolved while the export-truncation/scanner issue remains open.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
+- **Best next operation:** next run, re-check Common. If the standdown remains unchanged and no permitted work is newly assigned, perform only minimal state verification/checkpoint maintenance and emit no redundant user-facing update.
+- **Nathan attention required:** no.
