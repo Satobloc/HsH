@@ -1,5 +1,7 @@
 ## Excavation batch 2026-09-13-F — `H(s)H TIME RESIDUALS` source-resolved continuation in raw `🗿ORCHESTRATOR JANUS H(s)HvO`
 
+> **PROVENANCE CORRECTION — 2026-09-13 (controls UUID claims below):** direct comparison of all three Janus raw blobs fixes the 20:01 / 20:07 / 20:08 UUIDs as `8f4721c7…`, `96bba8d8…`, and `3183b844…`, respectively. The original body is retained as historical audit evidence, but its shifted UUID headings, `4191b049…` provenance-risk classification, and `1c9204ab…` cursor are superseded. [Exact mapping and raw evidence](../../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md).
+
 The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` remains discovery-only. The three passages below were resolved to standalone raw nodes in `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` with `author.role = user` and normal conversation recipient `all`. Assistant elaborations are context only and are not attributed to Nathan.
 
 ### 2026-09-08 — Heavy-math plan, automated conversion, and old/new Lagrangians
@@ -65,3 +67,7 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 - **Duplicate handling:** later SAT_CONVOS_13 Janus exports share conversation/message history but are not byte-identical to this SAT_CONVOS_12 source; they are archive/extended copies and are not moved under the exact-duplicate cleanup permission.
 - **Authorship/source issue:** one intervening raw node (`4191b049-06e1-4717-8065-8ba0ea367fd1`) has `author.role = user` but a nonstandard internal recipient (`q7dr546`) and sits in tool/internal traffic. It is excluded from VERIFIED and tagged as provenance-risk/internal traffic in the ledger.
 - **Next unscanned region:** continue immediately after 2026-09-08 20:08:33 EDT in `H(s)H TIME RESIDUALS`, resolving each candidate passage back to raw Janus metadata before promotion.
+
+## Additive provenance correction — 2026-09-13
+
+The current canonical mapping is 20:01 `8f4721c7…`; 20:07 `96bba8d8…`; 20:08 `3183b844…`. The relationship is therefore `96bba8d8… -> 3183b844…`. `1c9204ab…` belongs to the 22:07 tentative ᚼ message. `4191b049…` is a 22:04 ordinary user message with `recipient=all`; its assistant child `328878c3…` carries `recipient=q7dr546`. The original batch text remains above so the correction is auditable. [Raw comparison](../../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md).
