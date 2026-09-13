@@ -1,371 +1,177 @@
 #!/usr/bin/env python3
-"""Extract and score Nathan/user messages from raw ChatGPT conversation JSON.
+"""Extract, tag, and score Nathan/user messages from raw ChatGPT conversation JSON.
 
-Topic detection uses BOTH speakers. Quote eligibility uses only raw author.role == 'user'.
+Automated pre-tagging operates at three independent levels:
+  1. MESSAGE: terms and discourse/style signals in the message itself.
+  2. ADJACENCY: weighted nearby-message context from both speakers.
+  3. CONVERSATION: a whole-conversation topic prior.
+
+Topic/context detection may use BOTH speakers. Nathan quotation eligibility always requires
+raw author.role == 'user'. Automated tags are additive triage metadata, never authority claims.
 Designed for provenance triage, not theory synthesis.
 """
-
 from __future__ import annotations
-
-import argparse
-import hashlib
-import json
-import math
-import re
-import statistics
+import argparse, hashlib, json, math, re, statistics
 from collections import Counter, defaultdict
-from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 WORDLISTS = {
-    "sat": {
-        # historical + current SAT/H(s)H vocabulary
-        "sat": 8, "scalar angular torsion": 10, "h(s)h": 10, "hsh": 7,
-        "blockwave": 8, "filament": 7, "filaments": 7, "timesheet": 10,
-        "time surface": 8, "worldline": 8, "world line": 8, "worldtube": 9,
-        "world tube": 9, "theta4": 9, "θ4": 9, "torsion": 5, "twist": 3,
-        "braid": 4, "braids": 4, "superhelix": 8, "superhelical": 8,
-        "nested helix": 8, "nested helices": 8, "whirligig": 10, "donut": 6,
-        "graticule": 10, "hagalaz": 10, "electrogravity": 10, "interbraid": 10,
-        "finite core": 8, "intersection readout": 10, "intersection propagation": 10,
-        "w-axis": 8, "w axis": 8, "4dhh": 9, "sat-o": 8, "holonomy": 5,
-        "t-boson": 9, "f-boson": 9, "macro-bundle": 8, "macro bundle": 8,
-        # older / looser vocabulary retained deliberately
-        "strand": 2, "strands": 2, "my strings": 5, "string theory like": 4,
-        "coil": 3, "coils": 3, "helical worldline": 9, "particle worldline": 7,
-        "quantized holonomy": 9, "filament-time": 9, "timesheet drag": 10,
-    },
-    "physics": {
-        "spacetime": 4, "minkowski": 5, "relativity": 4, "general relativity": 5,
-        "gravity": 3, "particle": 2, "electron": 3, "quark": 3, "photon": 3,
-        "neutrino": 3, "boson": 3, "fermion": 3, "mass": 2, "momentum": 2,
-        "energy": 1, "velocity": 2, "acceleration": 2, "field": 1, "metric": 3,
-        "manifold": 3, "dimension": 2, "4d": 3, "lorentz": 4, "curvature": 2,
-        "topology": 3, "quantum": 3, "qft": 4, "gauge": 3, "symmetry": 2,
-        "spin": 2, "phase": 2, "wave": 1, "cosmology": 3, "black hole": 4,
-        "kerr": 4, "schwarzschild": 4, "dirac": 4, "clifford": 4, "light cone": 4,
-        "proper time": 4, "world sheet": 3, "worldsheet": 3, "lagrangian": 4,
-        "hamiltonian": 4, "action": 2, "geodesic": 4, "vacuum": 2,
-    },
-    "science": {
-        "geology": 3, "paleontology": 3, "conodont": 5, "stratigraphy": 4,
-        "astronomy": 2, "planetary": 2, "planetology": 3, "biology": 2,
-        "evolution": 2, "genetics": 3, "chemistry": 2, "molecule": 2,
-        "atom": 2, "optics": 3, "lens": 1, "microscope": 3, "tem": 4,
-        "neuroscience": 3, "cognition": 2, "ai": 1, "computation": 2,
-        "algorithm": 2, "experiment": 2, "observation": 1, "measurement": 2,
-        "data": 1, "hypothesis": 2, "model": 1, "simulation": 2,
-    },
-    "admin": {
-        "repo": 3, "repository": 3, "github": 3, "archive": 3, "index": 2,
-        "document": 2, "file": 1, "folder": 2, "upload": 3, "download": 2,
-        "readme": 3, "conversation": 2, "search": 1, "rewrite": 2,
-        "commit": 3, "branch": 3, "json": 3, "pdf": 2, "markdown": 2,
-    },
+ "sat": {"sat":8,"scalar angular torsion":10,"h(s)h":10,"hsh":7,"blockwave":8,"filament":7,"filaments":7,"timesheet":10,"time surface":8,"worldline":8,"world line":8,"worldtube":9,"world tube":9,"theta4":9,"θ4":9,"torsion":5,"twist":3,"braid":4,"braids":4,"superhelix":8,"superhelical":8,"nested helix":8,"nested helices":8,"whirligig":10,"donut":6,"graticule":10,"hagalaz":10,"electrogravity":10,"interbraid":10,"finite core":8,"intersection readout":10,"intersection propagation":10,"w-axis":8,"w axis":8,"4dhh":9,"sat-o":8,"holonomy":5,"t-boson":9,"f-boson":9,"macro-bundle":8,"macro bundle":8,"strand":2,"strands":2,"my strings":5,"string theory like":4,"coil":3,"coils":3,"helical worldline":9,"particle worldline":7,"quantized holonomy":9,"filament-time":9,"timesheet drag":10},
+ "physics": {"spacetime":4,"minkowski":5,"relativity":4,"general relativity":5,"gravity":3,"particle":2,"electron":3,"quark":3,"photon":3,"neutrino":3,"boson":3,"fermion":3,"mass":2,"momentum":2,"energy":1,"velocity":2,"acceleration":2,"field":1,"metric":3,"manifold":3,"dimension":2,"4d":3,"lorentz":4,"curvature":2,"topology":3,"quantum":3,"qft":4,"gauge":3,"symmetry":2,"spin":2,"phase":2,"wave":1,"cosmology":3,"black hole":4,"kerr":4,"schwarzschild":4,"dirac":4,"clifford":4,"light cone":4,"proper time":4,"world sheet":3,"worldsheet":3,"lagrangian":4,"hamiltonian":4,"action":2,"geodesic":4,"vacuum":2},
+ "science": {"geology":3,"paleontology":3,"conodont":5,"stratigraphy":4,"astronomy":2,"planetary":2,"planetology":3,"biology":2,"evolution":2,"genetics":3,"chemistry":2,"molecule":2,"atom":2,"optics":3,"lens":1,"microscope":3,"tem":4,"neuroscience":3,"cognition":2,"ai":1,"computation":2,"algorithm":2,"experiment":2,"observation":1,"measurement":2,"data":1,"hypothesis":2,"model":1,"simulation":2},
+ "method": {"method":3,"methodology":5,"assumption":3,"premise":3,"constraint":3,"criterion":3,"test":2,"falsif":4,"compare":2,"control":3,"baseline":3,"derive":3,"derivation":3,"formalize":3,"formalism":3,"parameter":2,"prediction":3,"evidence":3,"empirical":3,"measurement":2,"consistency":2,"contradiction":3,"dependency":3,"independent":2},
+ "epistemology": {"epistem":6,"know":1,"knowledge":2,"certainty":3,"uncertain":3,"confidence":2,"claim":2,"reality":2,"real world":3,"represent":2,"interpret":2,"meaning":2,"infer":2,"inference":3,"assume":2,"plausib":2,"possible":1,"necessary":2,"sufficient":2,"ontology":4,"ontolog":4},
+ "reasoning": {"reason":2,"because":1,"therefore":2,"so if":2,"if we":1,"implies":3,"entail":4,"follows":2,"relationship":2,"distinction":3,"difference":2,"instead":2,"rather than":2,"in other words":2,"which means":2,"the point is":3,"the way i see it":4},
+ "ideation": {"idea":2,"maybe":2,"perhaps":2,"what if":4,"i wonder":3,"could we":2,"try":1,"possibility":2,"candidate":2,"imagine":2,"suppose":2,"consider":2,"might":1,"could be":1},
+ "speculation": {"speculat":4,"hypothes":3,"conject":4,"guess":2,"maybe":2,"perhaps":2,"might":1,"could":1,"i suspect":3,"i wonder":2,"seems like":2,"looks like":2},
+ "admin": {"repo":3,"repository":3,"github":3,"archive":3,"index":2,"document":2,"file":1,"folder":2,"upload":3,"download":2,"readme":3,"conversation":2,"search":1,"rewrite":2,"commit":3,"branch":3,"json":3,"pdf":2,"markdown":2}
 }
 
-TOKEN_RE = re.compile(r"[\wθ₄()+\-]+", re.UNICODE)
+# Discourse families intentionally broad. These are retrieval cues, not psychological labels.
+DISCOURSE_PATTERNS = {
+ "CORRECTIVE": [r"\bnot exactly\b",r"\bnot quite\b",r"\bactually\b",r"\bmore accurately\b",r"\bthat's not (?:right|accurate|what i mean)\b",r"\bwhat i mean is\b",r"\bi mean\b",r"\bcorrection\b"],
+ "NEGATION_COUNTERMAND": [r"\bno[,.! ]",r"\bdon't\b",r"\bdo not\b",r"\bstop\b",r"\bforget that\b",r"\binstead\b",r"\brather than\b",r"\bmust not\b",r"\bcan't\b",r"\bcannot\b"],
+ "CLARIFICATION_NUANCE": [r"\bto be clear\b",r"\bclarif",r"\bnuance",r"\bthe distinction\b",r"\bthe difference\b",r"\bspecifically\b",r"\btechnically\b",r"\bprecisely\b",r"\bin point of fact\b",r"\bmore precisely\b"],
+ "HESITANCY_QUALIFICATION": [r"^\s*well[,.… ]",r"\balthough\b",r"\bhowever\b",r"\bi'm not sure\b",r"\bi am not sure\b",r"\bmy feeling is\b",r"\bthe way i see it\b",r"\bi think\b",r"\bi suppose\b",r"\bprobably\b",r"\bperhaps\b",r"\bmaybe\b"],
+ "ENTHUSIASTIC_AGREEMENT": [r"\bprecisely\b",r"\bexactly\b",r"\bcorrect\b",r"\bthat's right\b",r"\bthat is right\b",r"\bi agree\b",r"^\s*yes\b",r"\byes[!,. ]"],
+ "URGENCY_INSISTENCE": [r"\bmust\b",r"\bneed to\b",r"\bhave to\b",r"\bimportant\b",r"\bcrucial\b",r"\bpriority\b",r"\bfirst and foremost\b",r"\bdo this\b",r"\bnow\b"],
+ "DIDACTIC_POINTED": [r"\bthe point is\b",r"\bremember\b",r"\bunderstand\b",r"\bnotice\b",r"\bthe key is\b",r"\bwhich means\b",r"\bthat means\b",r"\bby definition\b"],
+ "ADVERSARIAL_CHALLENGE": [r"\bchallenge\b",r"\bwhy (?:would|should|is|are|does|do)\b",r"\bhow can\b",r"\bthat doesn't\b",r"\bthat does not\b",r"\bwrong\b",r"\bnonsense\b",r"\bcontradict"],
+ "GENTLE_REDIRECTION": [r"\blet's (?:instead|focus|drop|look|try)\b",r"\bwhat about\b",r"\bmaybe (?:we|you)\b",r"\bi'd rather\b",r"\bcan we\b"],
+ "COMPLAINT_FRICTION": [r"\bannoy",r"\bfrustrat",r"\bproblem with\b",r"\bwhy (?:didn't|did not|aren't|are not|isn't|is not)\b",r"\bi hate\b",r"\bridiculous\b"],
+ "COARSE_EMPHASIS": [r"\bdamn\b",r"\bhell\b",r"\bshit\b",r"\bfuck\w*\b",r"\bbullshit\b"],
+}
 
 
-def norm_text(x: str) -> str:
-    return re.sub(r"\s+", " ", x.lower()).strip()
+def norm_text(x:str)->str: return re.sub(r"\s+"," ",x.lower()).strip()
+def extract_text(message:dict[str,Any])->str:
+ parts=(message.get("content") or {}).get("parts") or []; out=[]
+ for p in parts:
+  if isinstance(p,str): out.append(p)
+  elif isinstance(p,dict) and isinstance(p.get("text"),str): out.append(p["text"])
+ return "\n".join(out).strip()
 
+def phrase_hits(text:str,vocab:dict[str,int]):
+ t=norm_text(text); score=0.; hits=[]
+ for phrase,weight in vocab.items():
+  # stems ending in obvious truncation are substring cues; normal phrases use boundaries.
+  if phrase.endswith(("falsif","epistem","ontolog","plausib","speculat","hypothes","conject")):
+   n=t.count(phrase)
+  else:
+   n=len(re.findall(r"(?<!\w)"+re.escape(phrase)+r"(?!\w)",t))
+  if n: score += weight*(1+math.log1p(n-1)); hits.append(f"{phrase}:{n}")
+ return score,hits
 
-def extract_text(message: dict[str, Any]) -> str:
-    content = message.get("content") or {}
-    parts = content.get("parts") or []
-    out = []
-    for p in parts:
-        if isinstance(p, str):
-            out.append(p)
-        elif isinstance(p, dict):
-            # Do not treat attachments/tool payload objects as authored prose.
-            txt = p.get("text")
-            if isinstance(txt, str):
-                out.append(txt)
-    return "\n".join(out).strip()
+def length_adjust(raw,chars): return raw/max(1.,math.sqrt(max(chars,40)/160.))
+def discourse_tags(text:str):
+ t=norm_text(text); tags={}
+ for fam,pats in DISCOURSE_PATTERNS.items():
+  hits=[p for p in pats if re.search(p,t,re.I)]
+  if hits: tags[fam]=len(hits)
+ # Precision punctuation/structure signals.
+ punct={"EM_DASH_PRECISION":text.count("—"),"PARENTHETICAL_PRECISION":text.count("(")+text.count(")"),"BRACKET_PRECISION":text.count("[")+text.count("]"),"ELLIPSIS":len(re.findall(r"(?:\.\.\.|…)",text))}
+ tags.update({k:v for k,v in punct.items() if v})
+ clauses=len(re.findall(r"[,;:]|\b(?:although|however|because|which|whereas|unless|while|but)\b",t))
+ if len(text)>=350 and clauses>=7: tags["DENSE_NESTED_CLAUSING"]=clauses
+ if len(text)>=1200: tags["LONG_FORM"]=len(text)
+ return tags
 
+def load_conversation(path:Path):
+ obj=json.loads(path.read_text(encoding="utf-8"))
+ if isinstance(obj,list):
+  convs=[x for x in obj if isinstance(x,dict) and "mapping" in x]
+  if len(convs)!=1: raise ValueError(f"Expected one conversation mapping in {path}; found {len(convs)}")
+  obj=convs[0]
+ title=obj.get("title") or path.stem; rows=[]
+ for node_id,node in (obj.get("mapping") or {}).items():
+  msg=(node or {}).get("message")
+  if not isinstance(msg,dict): continue
+  text=extract_text(msg)
+  if not text: continue
+  author=msg.get("author") or {}
+  rows.append({"node_id":node_id,"message_id":msg.get("id") or node_id,"parent":node.get("parent"),"role":author.get("role"),"author_name":author.get("name"),"create_time":msg.get("create_time"),"text":text})
+ rows.sort(key=lambda r:(r["create_time"] is None,r["create_time"] or 0,r["node_id"]))
+ return title,rows
 
-def phrase_hits(text: str, vocab: dict[str, int]) -> tuple[float, list[str]]:
-    t = norm_text(text)
-    score = 0.0
-    hits: list[str] = []
-    for phrase, weight in vocab.items():
-        # word-ish boundaries for alphanumeric phrases; substring for symbolic forms
-        if phrase.isalnum() or " " in phrase:
-            pat = r"(?<!\w)" + re.escape(phrase) + r"(?!\w)"
-            n = len(re.findall(pat, t))
-        else:
-            n = t.count(phrase)
-        if n:
-            # diminishing returns: first occurrence matters most
-            score += weight * (1.0 + math.log1p(n - 1))
-            hits.append(f"{phrase}:{n}")
-    return score, hits
+def score_conversation(path:Path,window:int=4):
+ title,rows=load_conversation(path)
+ if not rows:return []
+ for r in rows:
+  r.update(title=title,source_path=str(path),chars=len(r["text"]),scores={},hits={})
+  for fam,vocab in WORDLISTS.items():
+   raw,hits=phrase_hits(r["text"],vocab); r["scores"][fam]=length_adjust(raw,r["chars"]); r["hits"][fam]=hits
+  r["message_discourse_tags"]=discourse_tags(r["text"])
+  r["message_topic_tags"]=[f"MESSAGE_{k.upper()}" for k,v in r["scores"].items() if v>0]
+ # conversation-level tags use all speakers and prevalence, not merely mean term density.
+ conv_scores={fam:statistics.fmean([r["scores"][fam] for r in rows]) for fam in WORDLISTS}
+ conv_presence={fam:sum(r["scores"][fam]>0 for r in rows)/len(rows) for fam in WORDLISTS}
+ conv_tags=[f"CONVERSATION_{fam.upper()}" for fam in WORDLISTS if conv_scores[fam]>0 or conv_presence[fam]>=.01]
+ conv_sat=conv_scores["sat"]; conv_phys=conv_scores["physics"]; conv_admin=conv_scores["admin"]
+ prior=math.log1p(conv_sat+.35*conv_phys)-.20*math.log1p(conv_admin)
+ for i,r in enumerate(rows):
+  lo,hi=max(0,i-window),min(len(rows),i+window+1); idx=range(lo,hi); ws=[1/(1+abs(j-i)) for j in idx]
+  def wav(fam): return sum(rows[j]["scores"][fam]*w for j,w in zip(idx,ws))/sum(ws)
+  r["adjacency_scores"]={fam:wav(fam) for fam in WORDLISTS}
+  r["adjacency_tags"]=[f"ADJACENT_{fam.upper()}" for fam,v in r["adjacency_scores"].items() if v>0]
+  r["conversation_tags"]=conv_tags; r["conversation_scores"]=conv_scores
+  r["local_sat"]=r["adjacency_scores"]["sat"]; r["local_physics"]=r["adjacency_scores"]["physics"]; r["local_science"]=r["adjacency_scores"]["science"]; r["local_admin"]=r["adjacency_scores"]["admin"]
+  r["sat_evidence"]=.55*r["scores"]["sat"]+.95*r["local_sat"]+.12*r["local_physics"]-.06*r["local_admin"]+.25*prior
+ # broad retrieval score: independent channels accumulate rather than one channel vetoing another.
+ for r in rows:
+  direct=sum(min(v,12) for k,v in r["scores"].items() if k!="admin")
+  adjacent=sum(min(v,8) for k,v in r["adjacency_scores"].items() if k!="admin")
+  discourse=len(r["message_discourse_tags"])
+  levels=int(direct>0)+int(adjacent>0)+int(bool(conv_tags))
+  r["relevance_levels_hit"]=levels
+  r["bulk_winnow_score"]=direct + .75*adjacent + 1.25*discourse + 2.5*levels
+  r["auto_tags"]=r["message_topic_tags"]+r["adjacency_tags"]+r["conversation_tags"]+[f"DISCOURSE_{x}" for x in r["message_discourse_tags"]]
+  if r["role"]!="user": r["candidate_class"]="CONTEXT_ONLY_NONUSER"
+  elif r["scores"]["sat"]>0:r["candidate_class"]="DIRECT_HIT"
+  elif r["local_sat"]>0:r["candidate_class"]="ADJACENCY_SURFACED"
+  elif conv_sat>0 and (direct>0 or discourse>0):r["candidate_class"]="CONVERSATION_SURFACED"
+  elif direct>0 or discourse>=2:r["candidate_class"]="BROAD_WINNOW"
+  else:r["candidate_class"]="LOW_SIGNAL"
+ return rows
 
+def sha256(path):
+ h=hashlib.sha256()
+ with path.open("rb") as f:
+  for chunk in iter(lambda:f.read(1024*1024),b""):h.update(chunk)
+ return h.hexdigest()
+def discover(root): return sorted(p for p in root.rglob("*") if p.is_file() and p.suffix.lower()==".json" and "raw" in p.name.lower())
 
-def length_adjust(raw: float, chars: int) -> float:
-    # Avoid punishing short messages heavily while stopping giant messages winning by size.
-    return raw / max(1.0, math.sqrt(max(chars, 40) / 160.0))
-
-
-def robust_z(values: list[float]) -> list[float]:
-    if not values:
-        return []
-    med = statistics.median(values)
-    dev = [abs(v - med) for v in values]
-    mad = statistics.median(dev)
-    if mad == 0:
-        # fallback when most messages are zero
-        nz = [v for v in values if v > 0]
-        scale = statistics.median(nz) if nz else 1.0
-        return [(v - med) / max(scale, 1e-9) for v in values]
-    return [0.67448975 * (v - med) / mad for v in values]
-
-
-def load_conversation(path: Path) -> tuple[str, list[dict[str, Any]]]:
-    obj = json.loads(path.read_text(encoding="utf-8"))
-    # ChatGPT export may be one conversation object or a one-element list.
-    if isinstance(obj, list):
-        if not obj:
-            return path.stem, []
-        if len(obj) == 1 and isinstance(obj[0], dict) and "mapping" in obj[0]:
-            obj = obj[0]
-        else:
-            # caller should split multi-conversation exports elsewhere; process each mapping if possible
-            convs = [x for x in obj if isinstance(x, dict) and "mapping" in x]
-            if len(convs) != 1:
-                raise ValueError(f"Expected one conversation mapping in {path}; found {len(convs)}")
-            obj = convs[0]
-    title = obj.get("title") or path.stem
-    mapping = obj.get("mapping") or {}
-    rows = []
-    for node_id, node in mapping.items():
-        msg = (node or {}).get("message")
-        if not isinstance(msg, dict):
-            continue
-        author = msg.get("author") or {}
-        role = author.get("role")
-        text = extract_text(msg)
-        if not text:
-            continue
-        rows.append({
-            "node_id": node_id,
-            "message_id": msg.get("id") or node_id,
-            "parent": (node or {}).get("parent"),
-            "role": role,
-            "author_name": author.get("name"),
-            "create_time": msg.get("create_time"),
-            "text": text,
-        })
-    rows.sort(key=lambda r: (r["create_time"] is None, r["create_time"] or 0, r["node_id"]))
-    return title, rows
-
-
-def score_conversation(path: Path, window: int = 4) -> list[dict[str, Any]]:
-    title, rows = load_conversation(path)
-    if not rows:
-        return []
-
-    for r in rows:
-        r["title"] = title
-        r["source_path"] = str(path)
-        r["chars"] = len(r["text"])
-        r["scores"] = {}
-        r["hits"] = {}
-        for family, vocab in WORDLISTS.items():
-            raw, hits = phrase_hits(r["text"], vocab)
-            r["scores"][family] = length_adjust(raw, r["chars"])
-            r["hits"][family] = hits
-
-    sat = [r["scores"]["sat"] for r in rows]
-    phys = [r["scores"]["physics"] for r in rows]
-    sci = [r["scores"]["science"] for r in rows]
-    admin = [r["scores"]["admin"] for r in rows]
-    zsat = robust_z(sat)
-
-    # Topic context is intentionally computed from BOTH speakers.
-    for i, r in enumerate(rows):
-        lo, hi = max(0, i-window), min(len(rows), i+window+1)
-        dists = [abs(j-i) for j in range(lo, hi)]
-        weights = [1.0/(1+d) for d in dists]
-        def wav(vals: list[float]) -> float:
-            return sum(vals[j]*w for j, w in zip(range(lo, hi), weights)) / sum(weights)
-        r["local_sat"] = wav(sat)
-        r["local_physics"] = wav(phys)
-        r["local_science"] = wav(sci)
-        r["local_admin"] = wav(admin)
-        r["z_sat"] = zsat[i]
-
-    # Conversation prior: SAT signal relative to competing generic-science/admin signal.
-    conv_sat = statistics.fmean(sat)
-    conv_phys = statistics.fmean(phys)
-    conv_admin = statistics.fmean(admin)
-    prior = math.log1p(conv_sat + 0.35*conv_phys) - 0.20*math.log1p(conv_admin)
-
-    # Simple hysteresis segmentation. High threshold opens a region; lower closes it.
-    evidence = []
-    for r in rows:
-        e = (
-            0.55*r["scores"]["sat"]
-            + 0.95*r["local_sat"]
-            + 0.12*r["local_physics"]
-            - 0.06*r["local_admin"]
-            + 0.25*prior
-        )
-        r["sat_evidence"] = e
-        evidence.append(e)
-
-    positives = [x for x in evidence if x > 0]
-    if positives:
-        medp = statistics.median(positives)
-        open_thr = max(1.8, 0.85*medp)
-        close_thr = max(0.65, 0.28*open_thr)
-    else:
-        open_thr, close_thr = 1e9, 1e9
-
-    active = False
-    weak_run = 0
-    region_id = 0
-    for r in rows:
-        e = r["sat_evidence"]
-        if not active and e >= open_thr:
-            active = True
-            weak_run = 0
-            region_id += 1
-        elif active:
-            if e < close_thr:
-                weak_run += 1
-                if weak_run >= 3:
-                    active = False
-                    weak_run = 0
-            else:
-                weak_run = 0
-        r["sat_region"] = active
-        r["sat_region_id"] = region_id if active else None
-        r["open_threshold"] = open_thr
-        r["close_threshold"] = close_thr
-
-    # Eligible quote candidates: RAW USER only. Topic context can come from either speaker.
-    for r in rows:
-        if r["role"] != "user":
-            r["candidate_class"] = "CONTEXT_ONLY_NONUSER"
-        elif r["scores"]["sat"] > 0:
-            r["candidate_class"] = "DIRECT_HIT"
-        elif r["sat_region"]:
-            r["candidate_class"] = "SAT_RUN_CONTEXT"
-        elif r["scores"]["physics"] > 0 and r["local_sat"] > 0:
-            r["candidate_class"] = "RESIDUAL_CANDIDATE"
-        else:
-            r["candidate_class"] = "LIKELY_NON_SAT"
-    return rows
-
-
-def sha256(path: Path) -> str:
-    h = hashlib.sha256()
-    with path.open("rb") as f:
-        for chunk in iter(lambda: f.read(1024*1024), b""):
-            h.update(chunk)
-    return h.hexdigest()
-
-
-def discover(root: Path) -> list[Path]:
-    paths = []
-    for p in root.rglob("*"):
-        if p.is_file() and p.suffix.lower() == ".json" and "raw" in p.name.lower():
-            paths.append(p)
-    return sorted(paths)
-
-
-def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("root", type=Path, help="Repo root or conversation subtree")
-    ap.add_argument("--out", type=Path, default=Path("nathan_sat_candidates.jsonl"))
-    ap.add_argument("--examples", type=Path, default=Path("nathan_sat_examples.md"))
-    ap.add_argument("--window", type=int, default=4)
-    ap.add_argument("--limit-files", type=int, default=None)
-    args = ap.parse_args()
-
-    files = discover(args.root)
-    if args.limit_files:
-        files = files[:args.limit_files]
-
-    # Byte-level duplicate archive copies are processed once but recorded.
-    by_sha: dict[str, list[Path]] = defaultdict(list)
-    for p in files:
-        by_sha[sha256(p)].append(p)
-
-    all_rows: list[dict[str, Any]] = []
-    errors = []
-    for digest, copies in by_sha.items():
-        primary = copies[0]
-        try:
-            rows = score_conversation(primary, args.window)
-            for r in rows:
-                r["source_sha256"] = digest
-                r["duplicate_archive_paths"] = [str(x) for x in copies[1:]]
-            all_rows.extend(rows)
-        except Exception as exc:
-            errors.append((str(primary), repr(exc)))
-
-    # Exact-text recurrence is tagged, not deleted.
-    user_text_groups: dict[str, list[int]] = defaultdict(list)
-    for i, r in enumerate(all_rows):
-        if r["role"] == "user":
-            key = hashlib.sha256(norm_text(r["text"]).encode()).hexdigest()[:16]
-            user_text_groups[key].append(i)
-    for key, idxs in user_text_groups.items():
-        if len(idxs) > 1:
-            for i in idxs:
-                all_rows[i]["duplicate_text_group"] = key
-        else:
-            all_rows[idxs[0]]["duplicate_text_group"] = None
-
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with args.out.open("w", encoding="utf-8") as f:
-        for r in all_rows:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-
-    # Human tuning sample: strongest + boundary/context + likely false positives.
-    users = [r for r in all_rows if r["role"] == "user"]
-    direct = sorted((r for r in users if r["candidate_class"] == "DIRECT_HIT"), key=lambda r: r["sat_evidence"], reverse=True)[:25]
-    context = sorted((r for r in users if r["candidate_class"] == "SAT_RUN_CONTEXT"), key=lambda r: r["sat_evidence"], reverse=True)[:25]
-    residual = sorted((r for r in users if r["candidate_class"] == "RESIDUAL_CANDIDATE"), key=lambda r: r["sat_evidence"], reverse=True)[:25]
-    nonsat_phys = sorted((r for r in users if r["candidate_class"] == "LIKELY_NON_SAT" and r["scores"]["physics"] > 0), key=lambda r: r["scores"]["physics"], reverse=True)[:25]
-
-    with args.examples.open("w", encoding="utf-8") as f:
-        f.write("# SAT/H(s)H Candidate Tuning Sample\n\n")
-        f.write(f"Files discovered: {len(files)}; unique-by-SHA: {len(by_sha)}; rows: {len(all_rows)}; user rows: {len(users)}\n\n")
-        counts = Counter(r["candidate_class"] for r in users)
-        f.write("Candidate counts: " + json.dumps(counts, ensure_ascii=False) + "\n\n")
-        if errors:
-            f.write("## Parse errors\n\n")
-            for p,e in errors:
-                f.write(f"- `{p}` — `{e}`\n")
-            f.write("\n")
-        for label, sample in [("DIRECT_HIT", direct), ("SAT_RUN_CONTEXT", context), ("RESIDUAL_CANDIDATE", residual), ("PHYSICS_LIKELY_NON_SAT", nonsat_phys)]:
-            f.write(f"## {label}\n\n")
-            for r in sample:
-                excerpt = r["text"].replace("\n", " ")
-                if len(excerpt) > 500:
-                    excerpt = excerpt[:497] + "..."
-                f.write(f"### {r['title']} — {r['message_id']}\n")
-                f.write(f"- source: `{r['source_path']}`\n")
-                f.write(f"- score: `{r['sat_evidence']:.3f}`; sat={r['scores']['sat']:.3f}; physics={r['scores']['physics']:.3f}; local_sat={r['local_sat']:.3f}\n")
-                f.write(f"- SAT hits: `{', '.join(r['hits']['sat'])}`\n")
-                f.write(f"> {excerpt}\n\n")
-
-    print(json.dumps({
-        "files_discovered": len(files),
-        "unique_file_shas": len(by_sha),
-        "messages": len(all_rows),
-        "user_messages": len(users),
-        "candidate_counts": Counter(r["candidate_class"] for r in users),
-        "parse_errors": len(errors),
-        "out": str(args.out),
-        "examples": str(args.examples),
-    }, ensure_ascii=False, indent=2, default=dict))
-
-if __name__ == "__main__":
-    main()
+def main():
+ ap=argparse.ArgumentParser(); ap.add_argument("root",type=Path); ap.add_argument("--out",type=Path,default=Path("nathan_sat_candidates.jsonl")); ap.add_argument("--examples",type=Path,default=Path("nathan_sat_examples.md")); ap.add_argument("--window",type=int,default=4); ap.add_argument("--limit-files",type=int,default=None); args=ap.parse_args()
+ files=discover(args.root); files=files[:args.limit_files] if args.limit_files else files
+ by_sha=defaultdict(list)
+ for p in files:by_sha[sha256(p)].append(p)
+ all_rows=[];errors=[]
+ for digest,copies in by_sha.items():
+  try:
+   rows=score_conversation(copies[0],args.window)
+   for r in rows:r["source_sha256"]=digest;r["duplicate_archive_paths"]=[str(x) for x in copies[1:]]
+   all_rows.extend(rows)
+  except Exception as exc:errors.append((str(copies[0]),repr(exc)))
+ # Recurrence is tagged, never silently deleted.
+ groups=defaultdict(list)
+ for i,r in enumerate(all_rows):
+  if r["role"]=="user":groups[hashlib.sha256(norm_text(r["text"]).encode()).hexdigest()[:16]].append(i)
+ for key,idxs in groups.items():
+  for i in idxs:all_rows[i]["duplicate_text_group"]=key if len(idxs)>1 else None
+ args.out.parent.mkdir(parents=True,exist_ok=True)
+ with args.out.open("w",encoding="utf-8") as f:
+  for r in all_rows:f.write(json.dumps(r,ensure_ascii=False)+"\n")
+ users=[r for r in all_rows if r["role"]=="user"]
+ ranked=sorted(users,key=lambda r:r["bulk_winnow_score"],reverse=True)
+ with args.examples.open("w",encoding="utf-8") as f:
+  f.write("# Nathan Corpus Multi-Level Auto-Tag Tuning Sample\n\n")
+  f.write(f"Files discovered: {len(files)}; unique-by-SHA: {len(by_sha)}; rows: {len(all_rows)}; user rows: {len(users)}\n\n")
+  f.write("Candidate counts: "+json.dumps(Counter(r["candidate_class"] for r in users),ensure_ascii=False)+"\n\n")
+  if errors:
+   f.write("## Parse errors\n\n"+"\n".join(f"- `{p}` — `{e}`" for p,e in errors)+"\n\n")
+  for r in ranked[:100]:
+   ex=r["text"].replace("\n"," "); ex=ex[:697]+"..." if len(ex)>700 else ex
+   f.write(f"### {r['title']} — {r['message_id']}\n- class: `{r['candidate_class']}`; winnow={r['bulk_winnow_score']:.2f}; levels={r['relevance_levels_hit']}\n- tags: `{'`, `'.join(r['auto_tags'][:40])}`\n> {ex}\n\n")
+ print(json.dumps({"files_discovered":len(files),"unique_file_shas":len(by_sha),"messages":len(all_rows),"user_messages":len(users),"candidate_counts":dict(Counter(r["candidate_class"] for r in users)),"parse_errors":len(errors),"out":str(args.out),"examples":str(args.examples)},ensure_ascii=False,indent=2))
+if __name__=="__main__":main()
