@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T11:47:00+00:00`
-- Tree/content state: `14b3bc6fe414f02cad9f920baf9f0154e5d77adbe332d56c100e00e3c02951f5`
-- Coverage: 936 files, 72 directories
+- Scanned: `2026-09-13T12:14:43+00:00`
+- Tree/content state: `2d1def82af8a665b60402d98e90cc73300ad4d4820c89a45f35f0a018d0290b3`
+- Coverage: 939 files, 73 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 14 |
+| `.github` | 15 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 21 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 139 |
+| `WORKSPACES` | 141 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,16 +55,16 @@
 | `.json` | 411 |
 | `.jsonl` | 3 |
 | `.lean` | 3 |
-| `.md` | 195 |
+| `.md` | 196 |
 | `.pdf` | 22 |
 | `.png` | 37 |
-| `.py` | 44 |
+| `.py` | 45 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 14 |
+| `.yml` | 15 |
 | `[none]` | 3 |
 
 ## Structural roles
@@ -73,14 +73,14 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 14 |
+| `automation-workflow` | 15 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 10 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 139 |
+| `llm-workspace` | 141 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -299,6 +299,7 @@
 - `.github/workflows/append-provenance-reasoning-batch.yml` — 1332 bytes — `automation-workflow`
 - `.github/workflows/arxiv-random-sample.yml` — 1434 bytes — `automation-workflow`
 - `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
+- `.github/workflows/build-keyword-bucket.yml` — 1356 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/layered-nathan-autotag.yml` — 2390 bytes — `automation-workflow`
@@ -1074,6 +1075,7 @@
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INSTANCE_PLACARDS.md` — 4360 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/KEYWORD_BUCKET/build_keyword_bucket.py` — 7285 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAYERED_AUTOTAG_SCHEMA.md` — 5701 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
@@ -1150,6 +1152,7 @@
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2208-to-2212.md` — 6537 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2213-worldtube-transition.md` — 5462 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-RAVEL-0440-2202-READ-TAGS.md` — 6584 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 2889 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md` — 6372 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1835-to-July17-tail.md` — 5909 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-01.md` — 3580 bytes — `llm-workspace`
