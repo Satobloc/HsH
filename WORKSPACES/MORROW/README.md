@@ -76,3 +76,9 @@ Use export inventories and source/message IDs to locate core-team material; tags
 Tags: ADMIN, SOURCE-IDENTITY, RAW-ID-COMPARED, CONTENT-DIFF, RAW-ID-RECAPTURED, COVERAGE-LIMIT. Three raw blobs/four paths compared computationally; not full dialogue reading. A later copy retains all 119 earlier user payloads but shortens one tool body, so message-ID inclusion is insufficient for lossless replacement. The 22:13 Janus UUID is now directly recaptured; earlier 20:01–20:08 discrepancies remain open. Maintainer reconciliation is tracked as `MORROW-SOURCE-001` in Common.
 
 Queue update: [Nathan Direct](../../indexes/nathan-direct/README.md) now has a repository-visible README and manifest. Those were fully read; yearly shards were not. This supplements the older availability notes without claiming complete ingestion. Next work is the exact disputed-ID interval in the checkpoint; theory work remains stopped and training incomplete.
+
+## UUID reconciliation — 2026-09-13
+
+[Corrected Janus 20:01–20:08 message mapping](JANUS_UUID_RECONCILIATION_2026-09-13.md). Three raw blobs agree; two older residuals records had shifted UUIDs and one transferred an assistant child's nonstandard recipient onto an ordinary user parent. Historical bodies remain under visible correction; current compendium fields are corrected. Tags: `RAW-ID-RECAPTURED`, `PROVENANCE-CORRECTION`, `SUPERSEDES-METADATA`, `COVERAGE-LIMIT`. No theory judgment or full-conversation ingestion claimed.
+
+Next continuity region: Janus user node `a044a94b-e4fe-4d27-874f-a503022cfa4d` (“Let's talk about Aldus and Morrow”) through the completed answer to `8466ff95-e853-4875-8f53-c936ca9f17a2` (“Are you able to see the conversations I''ve had with them?”). Record role/access claims as historical testimony and separately inventory live evidence.
