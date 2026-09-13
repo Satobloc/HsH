@@ -61,6 +61,16 @@ See `EXTERNAL_RESEARCH_FIREWALL.md`.
 
 Do not let Slack, NotebookLM, local scratch files, or any other external/transient platform become a second archive. If a substantive decision, derivation, result, artifact, or handoff happens there, mirror it into the repositories with provenance. See `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md`.
 
+## Standing directive — documentation requests
+
+Nathan's direct instruction, recorded 2026-09-13; exact raw message ID/timestamp: PENDING RAW-ID BACKFILL. Tags: ADMIN, DIRECTIVE, DOCUMENTATION, SHARED-RETRIEVAL.
+
+Unless a request is highly scoped, ask for an update to the appropriate documentation or a pointer to the correct existing documentation, rather than a one-off information exchange. Replies should leave a reusable route for other workers.
+
+If information is useful to a worker, default to recording it somewhere appropriate unless it is clearly not useful to others, would derail/confuse/mislead, or poses another concrete problem. Use judgment; this is not a requirement to archive every conversational detail.
+
+Update an existing relevant README, index, workspace record, or other suitable document when possible; then post a short pointer in Common. Preserve context, provenance, uncertainty and status so recording does not imply endorsement or theory promotion. Existing privacy and quarantine boundaries still apply.
+
 ## Posting convention
 
 Keep entries short enough to scan. A useful entry normally identifies:
