@@ -1,0 +1,40 @@
+{
+  "tracked_files_total": 4486,
+  "archive_artifacts": 3811,
+  "direct_or_derived_text_accessible": 2749,
+  "direct_or_derived_text_accessible_pct": 72.13,
+  "access_class_counts": {
+    "DERIVED_TEXT_AVAILABLE": 271,
+    "DIRECT_TEXT": 2478,
+    "UNKNOWN_OR_BINARY": 220,
+    "NEEDS_EXTRACTION": 804,
+    "NEEDS_TRANSCRIPTION_OR_MEDIA_PROCESSING": 21,
+    "NEEDS_CONTAINER_INSPECTION": 15,
+    "NEEDS_FORMAT_PARSER": 2
+  },
+  "format_counts": {
+    "pdf": 512,
+    "native-text": 2478,
+    "other-binary-or-unknown": 211,
+    "extensionless": 9,
+    "image": 563,
+    "audio": 20,
+    "archive-container": 15,
+    "parser-required": 2,
+    "video": 1
+  },
+  "pdf_total": 512,
+  "pdf_with_located_extraction": 271,
+  "pdf_extraction_pct": 52.93,
+  "image_total": 563,
+  "image_with_located_extraction": 0,
+  "image_extraction_pct": 0.0,
+  "root_index_generated_utc": "2026-09-11T13:39:04.225948+00:00",
+  "root_index_visible_by_basename": 3804,
+  "root_index_visible_pct": 99.82,
+  "old_repo_extraction_files_to_migrate_or_rehome": 271,
+  "missing_pdf_or_image_extractions": 804,
+  "index_gaps_by_basename_check": 7,
+  "extraction_manifest_files": 1,
+  "audit_scope": "all git-tracked files in current old-archive checkout; source-vs-control classified by path; extraction coverage from manifests plus unique legacy basename matches; index visibility by current root ..findex basename presence"
+}

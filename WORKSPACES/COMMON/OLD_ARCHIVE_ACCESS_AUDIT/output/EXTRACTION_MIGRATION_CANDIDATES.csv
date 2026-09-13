@@ -1,0 +1,272 @@
+source_path,source_format,extraction_path_old_archive,status,basis,engine,characters,manifest
+ ..✅ BOSONIC_TIME.pdf,pdf,_AUTO_EXTRACTED_TEXT/ ..✅ BOSONIC_TIME.txt,OK,manifest-exact,PyMuPDF,32495,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ ..✅ SAT CORE.pdf,pdf,_AUTO_EXTRACTED_TEXT/ ..✅ SAT CORE.txt,OK,manifest-exact,PyMuPDF,10516,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ ..✅ SATOBLOC_pre_lean.pdf,pdf,_AUTO_EXTRACTED_TEXT/ ..✅ SATOBLOC_pre_lean.txt,OK,manifest-exact,PyMuPDF,3933,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ ..✅ Satobloc Core.pdf,pdf,_AUTO_EXTRACTED_TEXT/ ..✅ Satobloc Core.txt,OK,manifest-exact,PyMuPDF,7727,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ ..✅ WANNA BOUNCE?.pdf,pdf,_AUTO_EXTRACTED_TEXT/ ..✅ WANNA BOUNCE?.txt,OK,manifest-exact,PyMuPDF,99395,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+###. THEORY REFINEMENT SUMMARY.pdf,pdf,_AUTO_EXTRACTED_TEXT/###. THEORY REFINEMENT SUMMARY.txt,OK,manifest-exact,PyMuPDF,59170,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+% BIG PAPER (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/% BIG PAPER (nolat).txt,OK,manifest-exact,PyMuPDF,8790,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+0PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/0PHYS_REV_D_V_1_Submission.txt,OK,manifest-exact,PyMuPDF,4439,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+2023-24 FRAMEWORK DEVELOPMENT/Audit Code Package Construction Guide.pdf,pdf,_AUTO_EXTRACTED_TEXT/Audit Code Package Construction Guide.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/McKnight_N_SAT-QR.pdf,pdf,_AUTO_EXTRACTED_TEXT/McKnight_N_SAT-QR.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/Minimal Introduction (SAT O era).pdf,pdf,_AUTO_EXTRACTED_TEXT/Minimal Introduction (SAT O era).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_Framework_Final_Report_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Final_Report_Cleaned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_Framework_Report_Plain.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Report_Plain.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_LAB1_Composite_Binding_Simulation_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Composite_Binding_Simulation_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_LAB1_Energy_Tau_Results.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Energy_Tau_Results.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_LAB1_Full_Annealing_Radial_Kink_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_LAB1_Radial_Fringe_Falsifiability_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Radial_Fringe_Falsifiability_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_Lab1_Visuals_Compiled.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Compiled.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_Lab1_Visuals_Landscape.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_Lab1_Visuals_Landscape_Scaled_Fit.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape_Scaled_Fit.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2023-24 FRAMEWORK DEVELOPMENT/SAT_ST_integration_test.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_ST_integration_test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2025.10.29+Prototype+Fact+Sheet.pdf,pdf,_AUTO_EXTRACTED_TEXT/2025.10.29+Prototype+Fact+Sheet.txt,OK,manifest-exact,PyMuPDF,7827,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+2026/Consciousness + AI/Consciousness_of_AI.pdf,pdf,_AUTO_EXTRACTED_TEXT/Consciousness_of_AI.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  DRAFT PAPER/0PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/0PHYS_REV_D_V_1_Submission.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  DRAFT PAPER/2PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/2PHYS_REV_D_V_1_Submission.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  DRAFT PAPER/3PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/3PHYS_REV_D_V_1_Submission.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  DRAFT PAPER/4PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/4PHYS_REV_D_V_1_Submission.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/PULSAR_PAPER.pdf,pdf,_AUTO_EXTRACTED_TEXT/PULSAR_PAPER.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-13.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-13.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-14.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-14.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+2026/SAT  REVAMP — MARCH 2026/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+25 SAT VERSIONS.pdf,pdf,_AUTO_EXTRACTED_TEXT/25 SAT VERSIONS.txt,OK,manifest-exact,PyMuPDF,235349,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+2PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/2PHYS_REV_D_V_1_Submission.txt,OK,manifest-exact,PyMuPDF,2917,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+3PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/3PHYS_REV_D_V_1_Submission.txt,OK,manifest-exact,PyMuPDF,1865,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+4DHH LAGRANGIAN (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt,OK,manifest-exact,PyMuPDF,42487,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+4PHYS_REV_D_V_1_Submission.pdf,pdf,_AUTO_EXTRACTED_TEXT/4PHYS_REV_D_V_1_Submission.txt,OK,manifest-exact,PyMuPDF,3633,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Audit Code Package Construction Guide.pdf,pdf,_AUTO_EXTRACTED_TEXT/Audit Code Package Construction Guide.txt,OK,manifest-exact,PyMuPDF,17600,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+BARYGENESIS (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/BARYGENESIS (nolat).txt,OK,manifest-exact,PyMuPDF,62975,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+BIG PAPER 5 SAT_DATA_FITS.pdf,pdf,_AUTO_EXTRACTED_TEXT/BIG PAPER 5 SAT_DATA_FITS.txt,OK,manifest-exact,PyMuPDF,11050,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+BOSONIC_SATOBLOC.pdf,pdf,_AUTO_EXTRACTED_TEXT/BOSONIC_SATOBLOC.txt,OK,manifest-exact,PyMuPDF,32490,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+BOSONIC_TIME.pdf,pdf,_AUTO_EXTRACTED_TEXT/BOSONIC_TIME.txt,OK,manifest-exact,PyMuPDF,10513,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+CODE OUTPUT/Early_Code_Outputs_Documented.pdf,pdf,_AUTO_EXTRACTED_TEXT/Early_Code_Outputs_Documented.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+COLLECTIVE ATTENUATION AND OTHER SOLUTIONS TO ANOMALIES (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/COLLECTIVE ATTENUATION AND OTHER SOLUTIONS TO ANOMALIES (nolat).txt,OK,manifest-exact,PyMuPDF,9566,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+CONSENSUS PRO/ConsensusPro_Annotated_Captions_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/ConsensusPro_Annotated_Captions_Cleaned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+CORE PACK 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/CORE PACK 2.txt,OK,manifest-exact,PyMuPDF,2466,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+CORE PACK.pdf,pdf,_AUTO_EXTRACTED_TEXT/CORE PACK.txt,OK,manifest-exact,PyMuPDF,2466,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Cauliflower_Worlds.pdf,pdf,_AUTO_EXTRACTED_TEXT/Cauliflower_Worlds.txt,OK,manifest-exact,PyMuPDF,4014,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Consciousness_of_AI.pdf,pdf,_AUTO_EXTRACTED_TEXT/Consciousness_of_AI.txt,OK,manifest-exact,PyMuPDF,13120,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ConsensusPro_Annotated_Captions_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/ConsensusPro_Annotated_Captions_Cleaned.txt,OK,manifest-exact,PyMuPDF,1374,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+DERIVATIVE INDICATRIX (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/DERIVATIVE INDICATRIX (nolat).txt,OK,manifest-exact,PyMuPDF,14005,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+DIMENSIONAL_NORMALIZATION.pdf,pdf,_AUTO_EXTRACTED_TEXT/DIMENSIONAL_NORMALIZATION.txt,OK,manifest-exact,PyMuPDF,19846,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+EARLY LOGGED/SAT_CLEAN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_CLEAN.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Early Misc/GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.pdf,pdf,_AUTO_EXTRACTED_TEXT/GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Early Misc/LAB2_SAT_Dirac_Brackets_And_Closure_3D.pdf,pdf,_AUTO_EXTRACTED_TEXT/LAB2_SAT_Dirac_Brackets_And_Closure_3D.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Early Misc/Theorizer_Emeritus_SAT_Development_Annotated.pdf,pdf,_AUTO_EXTRACTED_TEXT/Theorizer_Emeritus_SAT_Development_Annotated.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Early Misc/Wavefront_BrainTrust_Captioned.pdf,pdf,_AUTO_EXTRACTED_TEXT/Wavefront_BrainTrust_Captioned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Early_Code_Outputs_Documented.pdf,pdf,_AUTO_EXTRACTED_TEXT/Early_Code_Outputs_Documented.txt,OK,manifest-exact,PyMuPDF,1158,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+FINAL AUDIT PRE-CONDITIONING 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/FINAL AUDIT PRE-CONDITIONING 2.txt,OK,manifest-exact,PyMuPDF,167846,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+FINAL AUDIT PRE-CONDITIONING.pdf,pdf,_AUTO_EXTRACTED_TEXT/FINAL AUDIT PRE-CONDITIONING.txt,OK,manifest-exact,PyMuPDF,167846,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+FINAL.pdf,pdf,_AUTO_EXTRACTED_TEXT/FINAL.txt,OK,manifest-exact,PyMuPDF,41487,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+FINDING THE DONUT (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/FINDING THE DONUT (nolat).txt,OK,manifest-exact,PyMuPDF,56327,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+FULL_THEORY.pdf,pdf,_AUTO_EXTRACTED_TEXT/FULL_THEORY.txt,OK,manifest-exact,PyMuPDF,20041,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+GLITCH (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/GLITCH (nolat).txt,OK,manifest-exact,PyMuPDF,13723,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+GPT_Tools_and_SAT-Naive_Analysis_Captions.pdf,pdf,_AUTO_EXTRACTED_TEXT/GPT_Tools_and_SAT-Naive_Analysis_Captions.txt,OK,manifest-exact,PyMuPDF,2087,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.pdf,pdf,_AUTO_EXTRACTED_TEXT/GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.txt,OK,manifest-exact,PyMuPDF,1937,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+GRAVITATIONAL NANOSTRUCTURE (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/GRAVITATIONAL NANOSTRUCTURE (Nolat).txt,OK,manifest-exact,PyMuPDF,7335,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+How hard is it to make a first principles estimate of an element’s… 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/How hard is it to make a first principles estimate of an element’s… 2.txt,OK,manifest-exact,PyMuPDF,159492,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+How hard is it to make a first principles estimate of an element’s….pdf,pdf,_AUTO_EXTRACTED_TEXT/How hard is it to make a first principles estimate of an element’s….txt,OK,manifest-exact,PyMuPDF,159492,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+LAB2_SAT_Dirac_And_Coupling_Closure_ReportLab.pdf,pdf,_AUTO_EXTRACTED_TEXT/LAB2_SAT_Dirac_And_Coupling_Closure_ReportLab.txt,OK,manifest-exact,PyMuPDF,924,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+LAB2_SAT_Dirac_Brackets_And_Closure_3D.pdf,pdf,_AUTO_EXTRACTED_TEXT/LAB2_SAT_Dirac_Brackets_And_Closure_3D.txt,OK,manifest-exact,PyMuPDF,911,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+LIGHT CONES AND ENTANGLEMENT (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/LIGHT CONES AND ENTANGLEMENT (Nolat).txt,OK,manifest-exact,PyMuPDF,11301,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Lab2_Lagrangian_Captioned.pdf,pdf,_AUTO_EXTRACTED_TEXT/Lab2_Lagrangian_Captioned.txt,OK,manifest-exact,PyMuPDF,1022,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Lab2_Lagrangian_Evolution.pdf,pdf,_AUTO_EXTRACTED_TEXT/Lab2_Lagrangian_Evolution.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,8107,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+MARCH 12 SYNTHESIS (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/MARCH 12 SYNTHESIS (nolat).txt,OK,manifest-exact,PyMuPDF,29499,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+MEMORY.pdf,pdf,_AUTO_EXTRACTED_TEXT/MEMORY.txt,OK,manifest-exact,PyMuPDF,26250,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+MINKOWSKI PROPER 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/MINKOWSKI PROPER 2.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,12577,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+MINKOWSKI PROPER.pdf,pdf,_AUTO_EXTRACTED_TEXT/MINKOWSKI PROPER.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,12577,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+MISC/4DHH LAGRANGIAN (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/CORE PACK.pdf,pdf,_AUTO_EXTRACTED_TEXT/CORE PACK.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/DERIVATIVE INDICATRIX (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/DERIVATIVE INDICATRIX (nolat).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/FINDING THE DONUT (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/FINDING THE DONUT (nolat).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/GRAVITATIONAL NANOSTRUCTURE (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/GRAVITATIONAL NANOSTRUCTURE (Nolat).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/SAT_2026.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_2026.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+MISC/Universal Indicatrix in my words CHARACTERIZATION (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/Universal Indicatrix in my words CHARACTERIZATION (Nolat).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+McKnight_N_SAT-QR.pdf,pdf,_AUTO_EXTRACTED_TEXT/McKnight_N_SAT-QR.txt,OK,manifest-exact,PyMuPDF,3152,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf,pdf,_AUTO_EXTRACTED_TEXT/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.txt,OK,manifest-exact,PyMuPDF,69264,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Minimal Introduction (SAT O era).pdf,pdf,_AUTO_EXTRACTED_TEXT/Minimal Introduction (SAT O era).txt,OK,manifest-exact,PyMuPDF,3919,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Minkowski-1-6 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/Minkowski-1-6 2.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,12577,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Minkowski-1-6.pdf,pdf,_AUTO_EXTRACTED_TEXT/Minkowski-1-6.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,12577,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+NSATOBLOC_pre_lean.pdf,pdf,_AUTO_EXTRACTED_TEXT/NSATOBLOC_pre_lean.txt,OK,manifest-exact,PyMuPDF,6310,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+NotebookLM_Captioned_Archive.pdf,pdf,_AUTO_EXTRACTED_TEXT/NotebookLM_Captioned_Archive.txt,OK,manifest-exact,PyMuPDF,418,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+OLD BIG PAPER SAT_4D_LEGACY_REFERENCE.pdf,pdf,_AUTO_EXTRACTED_TEXT/OLD BIG PAPER SAT_4D_LEGACY_REFERENCE.txt,OK,manifest-exact,PyMuPDF,123708,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ONE FILE SAT 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/ONE FILE SAT 2.txt,OK,manifest-exact,PyMuPDF,35553,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Orders and Q numbers 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/Orders and Q numbers 2.txt,OK,manifest-exact,PyMuPDF,5085,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Orders and Q numbers.pdf,pdf,_AUTO_EXTRACTED_TEXT/Orders and Q numbers.txt,OK,manifest-exact,PyMuPDF,5085,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PDF LIBRARY [OLD]/Audit Code Package Construction Guide.pdf,pdf,_AUTO_EXTRACTED_TEXT/Audit Code Package Construction Guide.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/McKnight_N_SAT-QR.pdf,pdf,_AUTO_EXTRACTED_TEXT/McKnight_N_SAT-QR.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/Minimal Introduction (SAT O era).pdf,pdf,_AUTO_EXTRACTED_TEXT/Minimal Introduction (SAT O era).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/Proof1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Proof1).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT 20 Minimal Intro.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT 20 Minimal Intro.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_4D_LEGACY_REFERENCE.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LEGACY_REFERENCE.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_DATA_FITS.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_DATA_FITS.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O2.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O3.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O3.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O4.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O4.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O5.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O6.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O7_tentative.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O7_tentative.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_O_Glossary_1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O_Glossary_1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/SAT_ST_integration_test.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_ST_integration_test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/Test (1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Test (1).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PDF LIBRARY [OLD]/Test.pdf,pdf,_AUTO_EXTRACTED_TEXT/Test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PHYS (nolat) 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/PHYS (nolat) 2.txt,OK,manifest-exact,PyMuPDF,10677,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PHYS (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/PHYS (nolat).txt,OK,manifest-exact,PyMuPDF,10677,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTOTESTPRINT.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTOTESTPRINT.txt,LOW_TEXT,manifest-exact,OCRmyPDF + PyMuPDF,104,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTO_RESUME 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTO_RESUME 2.txt,OK,manifest-exact,PyMuPDF,5182,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTO_RESUME 3.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTO_RESUME 3.txt,OK,manifest-exact,PyMuPDF,2278,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTO_RESUME-back.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTO_RESUME-back.txt,OK,manifest-exact,PyMuPDF,5182,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTO_RESUME-front.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTO_RESUME-front.txt,OK,manifest-exact,PyMuPDF,1086,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PROTO_RESUME.pdf,pdf,_AUTO_EXTRACTED_TEXT/PROTO_RESUME.txt,OK,manifest-exact,PyMuPDF,1086,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PUB DRAFTS/McKnight_N_SAT-QR.pdf,pdf,_AUTO_EXTRACTED_TEXT/McKnight_N_SAT-QR.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PUB DRAFTS/Proof1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Proof1).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PUB DRAFTS/Test (1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Test (1).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PUB DRAFTS/Test.pdf,pdf,_AUTO_EXTRACTED_TEXT/Test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+PULSAR GLITCH (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/PULSAR GLITCH (Nolat).txt,OK,manifest-exact,PyMuPDF,9827,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+PULSAR_PAPER.pdf,pdf,_AUTO_EXTRACTED_TEXT/PULSAR_PAPER.txt,OK,manifest-exact,PyMuPDF,4680,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Photoneutrino Sector (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/Photoneutrino Sector (nolat).txt,OK,manifest-exact,PyMuPDF,6865,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Proof1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Proof1).txt,OK,manifest-exact,PyMuPDF,4333,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ProtoRes.pdf,pdf,_AUTO_EXTRACTED_TEXT/ProtoRes.txt,OK,manifest-exact,PyMuPDF,4820,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+QUANTUM GRAVITYFOAM (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/QUANTUM GRAVITYFOAM (nolat).txt,OK,manifest-exact,PyMuPDF,6499,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Relativistic–Quantum Isomorphism (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/Relativistic–Quantum Isomorphism (nolat).txt,OK,manifest-exact,PyMuPDF,4992,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT 20 Minimal Intro.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT 20 Minimal Intro.txt,OK,manifest-exact,PyMuPDF,2510,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT 4D Theory Work/Audit Code Package Construction Guide.pdf,pdf,_AUTO_EXTRACTED_TEXT/Audit Code Package Construction Guide.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT 4D Theory Work/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT 4D Theory Work/SAT_CLEAN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_CLEAN.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT 4D Theory Work/SAT_ST_integration_test.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_ST_integration_test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT O Core Modules/SAT_O1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT O Core Modules/SAT_O2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O2.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT O Core Modules/SAT_O5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O5.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT O Core Modules/SAT_O6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O6.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT PARTICLE ZOO LAGRANGIAN (nolattice).pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT PARTICLE ZOO LAGRANGIAN (nolattice).txt,OK,manifest-exact,PyMuPDF,121906,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT Tester 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT Tester 2.txt,OK,manifest-exact,PyMuPDF,9083,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT Tester.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT Tester.txt,OK,manifest-exact,PyMuPDF,9083,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT VISUALS/ConsensusPro_Annotated_Captions_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/ConsensusPro_Annotated_Captions_Cleaned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/Early_Code_Outputs_Documented.pdf,pdf,_AUTO_EXTRACTED_TEXT/Early_Code_Outputs_Documented.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/GPT_Tools_and_SAT-Naive_Analysis_Captions.pdf,pdf,_AUTO_EXTRACTED_TEXT/GPT_Tools_and_SAT-Naive_Analysis_Captions.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.pdf,pdf,_AUTO_EXTRACTED_TEXT/GPT_Tools_and_SAT-Naive_Analysis_Captions_FINAL_SAFE.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/LAB2_SAT_Dirac_And_Coupling_Closure_ReportLab.pdf,pdf,_AUTO_EXTRACTED_TEXT/LAB2_SAT_Dirac_And_Coupling_Closure_ReportLab.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/LAB2_SAT_Dirac_Brackets_And_Closure_3D.pdf,pdf,_AUTO_EXTRACTED_TEXT/LAB2_SAT_Dirac_Brackets_And_Closure_3D.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/Lab2_Lagrangian_Captioned.pdf,pdf,_AUTO_EXTRACTED_TEXT/Lab2_Lagrangian_Captioned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/Lab2_Lagrangian_Evolution.pdf,pdf,_AUTO_EXTRACTED_TEXT/Lab2_Lagrangian_Evolution.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/NotebookLM_Captioned_Archive.pdf,pdf,_AUTO_EXTRACTED_TEXT/NotebookLM_Captioned_Archive.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Errata_and_Wordcount_Overview.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Errata_and_Wordcount_Overview.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Framework_Final_Report_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Final_Report_Cleaned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Framework_Report_Plain.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Report_Plain.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_LAB1_Composite_Binding_Simulation_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Composite_Binding_Simulation_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_LAB1_Energy_Tau_Results.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Energy_Tau_Results.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_LAB1_Full_Annealing_Radial_Kink_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_LAB1_Radial_Fringe_Falsifiability_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Radial_Fringe_Falsifiability_Report.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Lab1_Visuals_Compiled.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Compiled.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Lab1_Visuals_Landscape.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/SAT_Lab1_Visuals_Landscape_Scaled_Fit.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape_Scaled_Fit.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/Theorizer_Emeritus_SAT_Development_Annotated.pdf,pdf,_AUTO_EXTRACTED_TEXT/Theorizer_Emeritus_SAT_Development_Annotated.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT VISUALS/Wavefront_BrainTrust_Captioned.pdf,pdf,_AUTO_EXTRACTED_TEXT/Wavefront_BrainTrust_Captioned.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT-O Theory Work/SAT_O_Glossary_1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O_Glossary_1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SAT.4DHH.UC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT.4DHH.UC.txt,OK,manifest-exact,PyMuPDF,191932,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SATOBLOC 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SATOBLOC 2.txt,OK,manifest-exact,PyMuPDF,4624,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SATOBLOC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SATOBLOC.txt,OK,manifest-exact,PyMuPDF,4624,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SATOBLOC/SATOBLOC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SATOBLOC.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+SATOBLOC_pre_lean.pdf,pdf,_AUTO_EXTRACTED_TEXT/SATOBLOC_pre_lean.txt,OK,manifest-exact,PyMuPDF,3930,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_2026.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_2026.txt,OK,manifest-exact,PyMuPDF,3463,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_4DHH_UC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4DHH_UC.txt,OK,manifest-exact,PyMuPDF,3473,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_4D_LEGACY_REFERENCE.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LEGACY_REFERENCE.txt,OK,manifest-exact,PyMuPDF,123708,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.txt,OK,manifest-exact,PyMuPDF,128144,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_CLEAN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_CLEAN.txt,OK,manifest-exact,PyMuPDF,30983,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_DATA_FITS.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_DATA_FITS.txt,OK,manifest-exact,PyMuPDF,11050,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Errata_and_Wordcount_Overview.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Errata_and_Wordcount_Overview.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,8709,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Framework_Final_Report_Cleaned.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Final_Report_Cleaned.txt,OK,manifest-exact,PyMuPDF,2428,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Framework_Report_Plain.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Framework_Report_Plain.txt,OK,manifest-exact,PyMuPDF,981,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_LAB1_Composite_Binding_Simulation_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Composite_Binding_Simulation_Report.txt,OK,manifest-exact,PyMuPDF,1118,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_LAB1_Energy_Tau_Results.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Energy_Tau_Results.txt,OK,manifest-exact,PyMuPDF,1041,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_LAB1_Full_Annealing_Radial_Kink_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report.txt,OK,manifest-exact,PyMuPDF,1129,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Full_Annealing_Radial_Kink_Report_REGEN.txt,OK,manifest-exact,PyMuPDF,1129,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_LAB1_Radial_Fringe_Falsifiability_Report.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_LAB1_Radial_Fringe_Falsifiability_Report.txt,OK,manifest-exact,PyMuPDF,1060,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Lab1_Visuals_Compiled.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Compiled.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,1152,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Lab1_Visuals_Landscape.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,1786,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_Lab1_Visuals_Landscape_Scaled_Fit.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_Lab1_Visuals_Landscape_Scaled_Fit.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,1099,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O1.txt,OK,manifest-exact,PyMuPDF,3919,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O2.txt,OK,manifest-exact,PyMuPDF,1854,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O3.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O3.txt,OK,manifest-exact,PyMuPDF,2038,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O4.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O4.txt,OK,manifest-exact,PyMuPDF,2924,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O5.txt,OK,manifest-exact,PyMuPDF,1512,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O6.txt,OK,manifest-exact,PyMuPDF,1477,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O7_tentative.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O7_tentative.txt,OK,manifest-exact,PyMuPDF,3134,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_O_Glossary_1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O_Glossary_1.txt,OK,manifest-exact,PyMuPDF,2327,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SAT_ST_integration_test.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_ST_integration_test.txt,OK,manifest-exact,PyMuPDF,62482,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-10.txt,OK,manifest-exact,PyMuPDF,5307,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-11.txt,OK,manifest-exact,PyMuPDF,5060,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-12.txt,OK,manifest-exact,PyMuPDF,5184,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-13.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-13.txt,OK,manifest-exact,PyMuPDF,6439,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-14.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-14.txt,OK,manifest-exact,PyMuPDF,244,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-2.txt,OK,manifest-exact,PyMuPDF,5594,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-3.txt,OK,manifest-exact,PyMuPDF,4917,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-4.txt,OK,manifest-exact,PyMuPDF,5743,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-5.txt,OK,manifest-exact,PyMuPDF,4668,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-6.txt,OK,manifest-exact,PyMuPDF,5629,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-7.txt,OK,manifest-exact,PyMuPDF,5497,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-8.txt,OK,manifest-exact,PyMuPDF,5116,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL-9.txt,OK,manifest-exact,PyMuPDF,4524,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SCALAR_ANGULAR_TORSION___PHYS_D_FINAL.pdf,pdf,_AUTO_EXTRACTED_TEXT/SCALAR_ANGULAR_TORSION___PHYS_D_FINAL.txt,OK,manifest-exact,PyMuPDF,4971,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+SSATOBLOC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SSATOBLOC.txt,OK,manifest-exact,PyMuPDF,8405,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+ST-QM-GR-SM (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/ST-QM-GR-SM (nolat).txt,OK,manifest-exact,PyMuPDF,11904,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+STANDARD ATOM (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/STANDARD ATOM (nolat).txt,OK,manifest-exact,PyMuPDF,25294,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+STANDARD ATOM.pdf,pdf,_AUTO_EXTRACTED_TEXT/STANDARD ATOM.txt,OK,manifest-exact,PyMuPDF,22649,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Satobloc Minimal Drafts/SATOBLOC.pdf,pdf,_AUTO_EXTRACTED_TEXT/SATOBLOC.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Scalar-Angular-Twist.pdf,pdf,_AUTO_EXTRACTED_TEXT/Scalar-Angular-Twist.txt,OK,manifest-exact,PyMuPDF,36454,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Submission_for_Physics_Review_D.pdf,pdf,_AUTO_EXTRACTED_TEXT/Submission_for_Physics_Review_D.txt,OK,manifest-exact,PyMuPDF,7722,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE FUNDAMENTAL INTUITIONS — EXTENDED 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt,OK,manifest-exact,PyMuPDF,12358,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED.txt,OK,manifest-exact,PyMuPDF,12358,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE SEED 1 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE SEED 1 2.txt,OK,manifest-exact,PyMuPDF,48139,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE SEED 1.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE SEED 1.txt,OK,manifest-exact,PyMuPDF,48139,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE SEED 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE SEED 2.txt,OK,manifest-exact,PyMuPDF,50807,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+THE SEED 3.pdf,pdf,_AUTO_EXTRACTED_TEXT/THE SEED 3.txt,OK,manifest-exact,PyMuPDF,50807,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Test (1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Test (1).txt,OK,manifest-exact,PyMuPDF,41305,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Test.pdf,pdf,_AUTO_EXTRACTED_TEXT/Test.txt,OK,manifest-exact,PyMuPDF,38706,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Theorizer_Emeritus_SAT_Development_Annotated.pdf,pdf,_AUTO_EXTRACTED_TEXT/Theorizer_Emeritus_SAT_Development_Annotated.txt,OK,manifest-exact,PyMuPDF,2183,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+This integration plan addresses your query by detailing the necessary….pdf,pdf,_AUTO_EXTRACTED_TEXT/This integration plan addresses your query by detailing the necessary….txt,OK,manifest-exact,PyMuPDF,19565,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+UI CONFIGURATION (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/UI CONFIGURATION (nolat).txt,OK,manifest-exact,PyMuPDF,27453,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+UNIT CELL.pdf,pdf,_AUTO_EXTRACTED_TEXT/UNIT CELL.txt,OK,manifest-exact,PyMuPDF,57759,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Universal Indicatrix in my words CHARACTERIZATION (Nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/Universal Indicatrix in my words CHARACTERIZATION (Nolat).txt,OK,manifest-exact,PyMuPDF,3550,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+VARIOUS LAGRANGIANS (speculative) 2.pdf,pdf,_AUTO_EXTRACTED_TEXT/VARIOUS LAGRANGIANS (speculative) 2.txt,OK,manifest-exact,PyMuPDF,66780,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+VARIOUS LAGRANGIANS (speculative).pdf,pdf,_AUTO_EXTRACTED_TEXT/VARIOUS LAGRANGIANS (speculative).txt,OK,manifest-exact,PyMuPDF,66780,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Visualizations (O.4D era)/SAT_4D_LEGACY_REFERENCE.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LEGACY_REFERENCE.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_4D_LIVE_DRAFT-10Jul2025 - Copy.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_CLEAN.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_CLEAN.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_DATA_FITS.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_DATA_FITS.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O2.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O2.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O3.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O3.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O4.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O4.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O5.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O5.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O6.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O6.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O7_tentative.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O7_tentative.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_O_Glossary_1.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_O_Glossary_1.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/SAT_ST_integration_test.pdf,pdf,_AUTO_EXTRACTED_TEXT/SAT_ST_integration_test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/Test (1).pdf,pdf,_AUTO_EXTRACTED_TEXT/Test (1).txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+Visualizations (O.4D era)/Test.pdf,pdf,_AUTO_EXTRACTED_TEXT/Test.txt,LEGACY_NAME_MATCH,legacy-basename-unique,,,
+WHIRLIGIG SUMMARY (nolat).pdf,pdf,_AUTO_EXTRACTED_TEXT/WHIRLIGIG SUMMARY (nolat).txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,19968,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+WHIRLIGIG SUMMARY-1.pdf,pdf,_AUTO_EXTRACTED_TEXT/WHIRLIGIG SUMMARY-1.txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,19968,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Wanna_Bounce_.pdf,pdf,_AUTO_EXTRACTED_TEXT/Wanna_Bounce_.txt,OK,manifest-exact,PyMuPDF,99395,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+Wavefront_BrainTrust_Captioned.pdf,pdf,_AUTO_EXTRACTED_TEXT/Wavefront_BrainTrust_Captioned.txt,OK,manifest-exact,PyMuPDF,1377,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+[VISUAL_INSP].pdf,pdf,_AUTO_EXTRACTED_TEXT/[VISUAL_INSP].txt,OK,manifest-exact,OCRmyPDF + PyMuPDF,474,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+s2Submission_for_Physics_Review_D.pdf,pdf,_AUTO_EXTRACTED_TEXT/s2Submission_for_Physics_Review_D.txt,OK,manifest-exact,PyMuPDF,10370,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+s3Submission_for_Physics_Review_D.pdf,pdf,_AUTO_EXTRACTED_TEXT/s3Submission_for_Physics_Review_D.txt,OK,manifest-exact,PyMuPDF,35580,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+sSubmission_for_Physics_Review_D.pdf,pdf,_AUTO_EXTRACTED_TEXT/sSubmission_for_Physics_Review_D.txt,OK,manifest-exact,PyMuPDF,38523,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json
+✅SAT BIG PAPER.pdf,pdf,_AUTO_EXTRACTED_TEXT/✅SAT BIG PAPER.txt,OK,manifest-exact,PyMuPDF,197223,_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json

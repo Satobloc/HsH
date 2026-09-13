@@ -1,0 +1,2 @@
+manifest,request_id,target,recursive,include_images,found,succeeded,failed,utc
+_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json,2026-09-10_root_pdf_extraction_pass_002,directory=. recursive=False include_images=False,False,False,153,152,1,2026-09-10T16:03:31.825163+00:00
