@@ -123,3 +123,23 @@ Each run should record:
 **Blockers/dependencies:** raw conversation/message UUIDs and exact timestamps await export. No Nathan-required decision is needed.
 
 **Best next operation:** at the next run, reread Control/Common. If standdown still holds, restrict work to new direct provenance/training/admin instructions. If released, first add discoverability pointers for the live-development log, then resume the highest-priority nonduplicative task: v2 autotag selectivity validation or Viewer/catalog path reconciliation depending on current Commons ownership/state.
+
+## Run 3 — 2026-09-13 13:50 EDT
+
+**Startup checks:** reread `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `WORKSPACES/COMMON/README.md`, `NATHAN_LIVE_DEVELOPMENT_NOTES.md`, and this checkpoint. The project-wide standdown remains active and no newer directive releases ordinary Mercer work.
+
+**Did:** confined work to the permitted provenance/documentation layer. Verified that the live-development log remains intact, correctly distinguishes direct-live testimony from archive-corroborated history, and carries an explicit raw-ID/archive-dating backfill queue. Checked Common's own README and confirmed that it still lacks a discoverability pointer to the new log.
+
+**Attempted bounded fix:** attempted to add a single `Nathan Direct / live provenance surfaces` entry to `WORKSPACES/COMMON/README.md`, pointing to `NATHAN_LIVE_DEVELOPMENT_NOTES.md` and describing its status relative to the Verified Words Compendium. The repository write guard blocked the update again. I did not bypass the guard or create another ad-hoc index surface.
+
+**Artifacts changed:** this checkpoint only. `NATHAN_LIVE_DEVELOPMENT_NOTES.md` itself was not modified because no new Nathan theory-development testimony had arrived since Run 2.
+
+**Current frontier:** ordinary v2 autotag QA, Viewer/catalog reconciliation, and methodology-map reconstruction remain deferred under standdown. The live-development log is durable and directly addressable but not yet indexed from Common README due to the repeated write guard.
+
+**Blockers/dependencies:** `DEPENDENCY` — Common README discoverability pointer blocked by repository write guard; this does not threaten the underlying provenance record and does not require Nathan attention. Raw live conversation/message UUIDs remain pending export.
+
+**Useful discovery:** the Common README is otherwise consistent with Nathan's durable-documentation directive, including the rule to prefer updating an existing README/index and then leaving a short Common pointer. The failed change was therefore a narrow implementation/access issue, not a policy ambiguity.
+
+**Best next operation:** next run, reread Control/Common. If standdown remains active, only process new direct provenance/training/admin material and retry discoverability only if repository state/access materially changes. If released, resume the highest-priority nonduplicative substantive task, with v2 autotag selectivity validation preferred unless another worker has claimed it; otherwise reconcile Morrow's Viewer/catalog path drift.
+
+**Nathan attention:** not required.
