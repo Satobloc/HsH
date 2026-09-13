@@ -67,8 +67,11 @@ Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation hav
 - durable queue manifest verified: correction-refinement 2,616; definition 1,674; methodology 1,820; decision 667; duplicate-provenance 4,661; branch-context 2,319
 - current focus/claim for this lane: bounded correction/refinement winnow/enrichment under `READ IT, TAG IT`
 - first bounded ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-correction-refinement-01.md`
-- tranche 01 reviewed 3 queue items (2 complete queue reads, 1 partial); 3 queue items received additive review metadata; 6 raw adjacency/context messages exposed by verification were tagged because read; 0 passages promoted/curated; 0 destructive removals
-- tranche 01 precision finding: discourse-level `CORRECTIVE` is a broad behavioral retrieval signal and is not by itself selective for SAT/H(s)H correction history; combine with independent SAT/H(s)H relevance/provenance signals for concentration without deleting/downgrading `CORRECTIVE`
+- initial queue-head pass reviewed 3 queue items (2 complete queue reads, 1 partial); 3 queue items received additive review metadata; 6 raw adjacency/context messages exposed by verification were tagged because read; 0 passages promoted/curated; 0 destructive removals
+- second bounded pass selected an independently SAT/H(s)H-relevant correction sequence from `DIMENSIONAL GRAVITY` (2024-03-22 local archive chronology): 6 Nathan turns manually reviewed/enriched and 6/6 rechecked against raw `author.role=user`; 0 new extraction, 0 promotion, 0 deletion
+- reviewed correction chain includes terminology/conceptual-emphasis clarification, two context-dependent rejection turns, a detailed assistant-misread correction, local `filaments` terminology resolution, and a later correction distinguishing interaction-generated complexity from time-surface manifestation
+- adjacency implementation note: internal raw assistant/bio/tool nodes can make literal raw-graph parent identity differ from normalized user-facing conversational adjacency; treat this as a context-boundary implementation detail, retain full raw pointer, and never infer authorship from normalized adjacency
+- tranche precision finding remains: discourse-level `CORRECTIVE` is a broad behavioral retrieval signal and is not by itself selective for SAT/H(s)H correction history; combine with independent SAT/H(s)H relevance/provenance signals for concentration without deleting/downgrading `CORRECTIVE`
 - still gated: literal earliest-use conclusions; require precision filtering plus exact Nathan wording/raw-context review
 - rule: winnow/queue status is additive metadata only; no master deletion
 - earliest-use claims must state actual corpus coverage
@@ -113,6 +116,7 @@ Workers should avoid launching a duplicate full extractor. Useful eligible opera
 
 - continue bounded correction/refinement review tranches under the tag-on-read rule;
 - preferentially select correction candidates with independent SAT/H(s)H relevance so the concentrate lane is not dominated by generic discourse corrections;
+- continue within the already-extracted `DIMENSIONAL GRAVITY` region for definition/decision/refinement review, while preserving historical/superseded status rather than harmonizing it;
 - audit duplicate/prefix/superset identity handling where not already owned;
 - use branch pointers for selected contextual recovery, coordinated with Morrow;
 - consume additive v3 precision output after Mercer QA rather than overwriting old metadata;
@@ -127,6 +131,8 @@ The master package is complete as a high-recall substrate, but machine topic/dis
 Run 9 materially improves precision retrieval and reduces broad inherited/context-dependent marking, but earliest-use/history still requires exact Nathan wording and raw-context verification.
 
 The first correction/refinement tranche independently demonstrates another selectivity issue: queue membership based on `CORRECTIVE` can surface genuine Nathan corrections in unrelated epistemology material. Such items stay in Nathan Direct and keep the correction tag; Stage-2 winnow metadata may mark them incidental to SAT/H(s)H correction-history concentration.
+
+The second pass demonstrates that independent SAT/H(s)H relevance plus local chronology is a productive concentration strategy: it surfaced a coherent correction → rejection → explicit restatement → terminology-resolution sequence without requiring theory reconstruction or assistant-intent inference.
 
 ## Coordination / complementarity
 
