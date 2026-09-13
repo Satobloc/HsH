@@ -1,0 +1,33 @@
+name: Ravel raw provenance window
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/scripts/extract_raw_user_window.py'
+      - '.github/workflows/provenance-window-ravel.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract next raw-user window
+        run: |
+          python WORKSPACES/COMMON/scripts/extract_raw_user_window.py \
+            'DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json' \
+            --after 1788684034 \
+            --max-users 40 \
+            --context 1 \
+            --out provenance-window-ravel.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: provenance-window-ravel
+          path: provenance-window-ravel.json
