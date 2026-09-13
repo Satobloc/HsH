@@ -1,7 +1,7 @@
 # SAT Methodology Source Map — Mercer working layer
 
 **Status:** source-grounding workbench; not canon, not theory authority.  
-**Rule:** only verified Nathan-authored entries already present in `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` are used below. Assistant interpretations are not promoted into Nathan's position.
+**Rule:** only verified Nathan-authored entries already present in `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` are used as VERIFIED anchors below. Current live-chat Nathan clarifications may be recorded separately with `PENDING RAW-ID BACKFILL` and must not be silently upgraded to raw-verified status until the export lands. Assistant interpretations are not promoted into Nathan's position.
 
 ## Purpose
 
@@ -99,9 +99,35 @@ Before comparing SAT/H(s)H to outside physics, establish what Nathan actually sa
 - **Method status:** explicit audit schema requested by Nathan.
 - **Importance:** this is strong evidence that derived versus inserted/calibrated content and internal failures are supposed to remain visible rather than blended into a single success narrative.
 
+## Current direct clarification — RMS relation, ontological ease, and SAT's operational programme
+
+**Date:** 2026-09-13  
+**Source:** current live Nathan conversation  
+**Raw conversation/message IDs:** `PENDING RAW-ID BACKFILL`  
+**Status:** direct Nathan-authored current clarification; not yet raw-export verified.
+
+Nathan clarifies the following distinctions:
+
+1. **Earlier ontological ease was not a deep methodological commitment.** Early SAT talk used naive-realist language largely as intuitive baggage and for ease of discussion. Repeated ontological questions later prompted more discriminating usage.
+2. **RMS is not a SAT-specific antecedent theory.** RMS is useful methodological/philosophical context for modeling and science, but it does not specifically generate or define SAT.
+3. **RMS supplied a reason to pursue SAT representationally.** Framing SAT as an RMS-style test case helped justify developing it as a representational system even without a strong expectation that it would become anything beyond a representation of 4D worldline history.
+4. **The formalizable SAT programme rapidly became constraint-driven.** Long-standing three-quark braid/QCD imagery supplied one foundational 4D what-if/necessary representation; an older intuition about GR as time-surface drag was present but less developed.
+5. **The θ₄/drag chain is described as an inescapable conclusion inside the chosen Minkowski grammar, not merely an imported physical analogy.** The live wording links filament/timesheet angle with motion/momentum/drag and therefore with a mass proxy; drag then implies mutual energy exchange and consequent mutual distortion. These are to be preserved with their stated status and chronology, not upgraded here into externally validated physics.
+6. **Nathan's concise operational description of SAT:** follow Minkowski geometric grammar to map well-known, well-understood standard-science systems; inspect the resulting geometry; ideally compare to a minimally divergent control; then use geometry plus standard covariant physics to constrain the admissible possibilities for any additional effect not yet mapped to a geometric primitive.
+7. **"Things falling out" is retrospective language for constrained consequences.** The intended method is not free geometric invention. The claim is that once enough of a known system is mapped into the chosen grammar and constrained by standard physics, some candidate extensions become unavoidable or sharply narrowed within that representation.
+
+### Methodological consequence
+
+This clarification strongly sharpens several gaps in the map:
+
+- `RMS -> SAT` should be represented as **methodological framing/context**, not as direct conceptual ancestry of SAT's physics content.
+- Early literal/ontological language must be dated and typed as **historical ease-of-discussion / naive-realist baggage** unless a particular source establishes stronger intent.
+- The core programme should be reconstructed as **representation + control comparison + geometric/covariant constraint**, not simply "geometry first" or "reality is geometry."
+- "Fallout" claims need a provenance chain showing which ingredients were imported from standard science, which geometric primitives were already fixed, what control/comparator was used, and what remaining possibilities were actually constrained.
+
 ## Methodological pattern supported so far
 
-The verified primary record already supports the following cautious description:
+The verified primary record plus the current live clarification supports the following cautious description:
 
 - Nathan repeatedly uses geometry as an exploratory and constraint-generating representation.
 - He corrects attractive constructions when their geometry does not actually produce the claimed readout.
@@ -112,13 +138,16 @@ The verified primary record already supports the following cautious description:
 - He distinguishes mathematical transformability/isomorphism from physical significance.
 - He prefers direct map/representation inspection as a way to expose structure.
 - He explicitly calls for dimensional consistency and structured audits separating assumptions, primitives, derivations, calibration, failures, and downstream consequences.
+- Current clarification frames SAT's formal programme more specifically as mapping known systems into Minkowski geometry, comparing against minimally divergent controls where possible, and using geometric plus standard-covariant constraints to narrow unmapped residual possibilities.
+- RMS is methodologically relevant context, but not a SAT-specific source theory.
+- Historical ontological literalism should not be flattened into the current epistemic framing.
 
 This is enough to reject several simplistic characterizations of SAT method, but **not enough yet to freeze a complete methodology rubric**.
 
 ## Important gaps to excavate before freezing the SAT-side methodology
 
 1. **Representation choice / plain interpretation:** direct Nathan wording on why some representations are preferred over other empirically equivalent ones.
-2. **Ontology / knowability:** direct wording establishing SAT's stance on ontology, inaccessible physical reality, and representation versus reality.
+2. **Ontology / knowability:** raw historical and current wording establishing the transition from naive-realist ease-of-discussion to discriminating representation/reality language.
 3. **Observation and abstraction:** direct statements on not discounting observation or force-fitting it to inherited abstraction.
 4. **Model-selection economy:** direct wording on smallest/simplest admissible explanation, use of geometric grammar, and avoiding unnecessary primitives.
 5. **Holdouts / cross-sector consequences:** direct wording on what counts as stronger-than-construction evidence and the value of consequences not used to build the model.
@@ -126,7 +155,9 @@ This is enough to reject several simplistic characterizations of SAT method, but
 7. **Minkowski sufficiency / full-history primacy:** direct wording on complete 4D histories as primary comparison objects and why slice-by-slice descriptions are informationally incomplete.
 8. **Failure/rejection rules:** more direct examples of Nathan abandoning, downgrading, or quarantining attractive ideas when constraints fail.
 9. **Universality versus overfitting:** direct wording on whether a sufficiently flexible geometric construction becomes explanatorily empty unless constrained.
-10. **Current-versus-historical status:** recover later corrections for older `DIMENSIONAL GRAVITY`, SAT-O, Donut, and transitional H(s)H method statements.
+10. **Control construction:** direct examples and definitions of `minimally divergent control`, including what is held fixed and what one-variable/one-feature divergence is considered legitimate.
+11. **Residual-effect logic:** direct examples where standard-science mapping plus covariant equations genuinely narrowed the remaining possible geometric primitive/effect.
+12. **RMS relation:** identify the RMS passages that best document the modeling/epistemic frame without retroactively treating RMS as SAT-specific ancestry.
 
 ## Retrieval targets
 
@@ -134,10 +165,12 @@ Highest-value next searches in the verified/raw corpus:
 
 - `representation`, `physical reality`, `ontology`, `map`, `plain`, `literal`, `Minkowski`, `complete history`, `worldline`, `worldtube`
 - `simplest`, `smallest`, `minimal`, `new primitive`, `assumption`, `calibrated`, `inserted`, `derived`
+- `control`, `comparison`, `minimally divergent`, `same except`, `hold fixed`, `residual`, `what's left`, `has to`, `inescapable`
 - `holdout`, `prediction`, `different sector`, `didn't use`, `not used`, `test`, `falsify`, `failure`
-- `standard physics`, `preserve`, `observable`, `interpretation`, `strip away`
+- `standard physics`, `covariant`, `preserve`, `observable`, `interpretation`, `strip away`
+- `RMS`, `representation`, `model`, `reality`, `epistemology`, `formalizable`
 - correction clusters: `no`, `that's not`, `actually`, `rather`, `not exactly`, `take that back`, `revert`
 
 ## Promotion rule
 
-Nothing in this working map becomes the final SAT methodology description merely because it fits a coherent pattern. Each substantive characterization should ultimately point to one or more raw Nathan messages, with date/status and later correction links where applicable.
+Nothing in this working map becomes the final SAT methodology description merely because it fits a coherent pattern. Each substantive characterization should ultimately point to one or more raw Nathan messages, with date/status and later correction links where applicable. Current live-chat clarifications remain explicitly pending raw-ID backfill until the corresponding export is available.
