@@ -61,18 +61,22 @@ The file is no longer present in the repository tree, but the development manife
 - `92b7b37459e648b682d28dfad9a36765825eac99` — changed resolver behavior so records with no materialized source path are omitted from Viewer output.
 - Viewer run `34788195121` built and validated the repaired catalog successfully (`374` conversations; `365` development; `9` live; zero missing-path assertion failures), but its generated-data commit lost a concurrent push race and therefore did not reach `main`.
 - `f1bee23ba9e94848e427a6adb86e8d6bc830a610` — hardened the generated-data commit stage with fetch/reset/rebuild/path-revalidation/push retry behavior.
-- Viewer run `34791027403` was triggered by that hardening commit and was in progress at the last check; success is not claimed until completion is observed.
+- Viewer run `34791027403` completed successfully, including generated-catalog build, full source-path validation, and generated-data commit/push.
 
-## Validation state at run close
+## Final validation state
 
-The resolver/path logic itself has passed the full Viewer validation step on run `34788195121`. The remaining issue at that point was only publication of the regenerated data under concurrent repository writes. The current `main` Viewer catalog was still the older generated file (`375` conversations; `366` development; `9` live) when inspected, confirming the failed push had not silently landed.
+The repaired Viewer catalog is now committed on `main` with:
 
-A successor run (`34791027403`) is now exercising the race-resilient publication path. Its completion remains pending at this checkpoint.
+- `374` total conversations;
+- `365` development conversations;
+- `9` live conversations;
+- development manifest acceptance reduced to `364` because the dead source record is no longer admitted into Viewer output.
+
+The workflow's source-path assertion passed against the landed catalog, so every non-external Viewer entry—including all nine LIVE entries—resolved to an existing repository file during the successful run.
+
+A direct search of the committed Viewer catalog found zero `Court Filing Guidance` matches. The stale development-manifest record still exists upstream, but it is no longer exposed through the Viewer.
 
 ## Remaining follow-up
 
-- Verify Viewer run `34791027403` (or its direct successor) completes successfully and commits regenerated `CONVERSATION_VIEWER/data/conversations.json`.
-- Confirm the materialized LIVE Viewer paths all resolve against the repository tree.
-- Confirm the deleted `Court Filing Guidance` residue is absent from Viewer output.
-- Separately reconcile the stale development-manifest record so the manifest itself reflects the intended deletion state; do not hand-edit source-history semantics without identifying the manifest's owning regeneration path.
+- Separately reconcile the stale development-manifest record so the manifest itself reflects the intended deletion state; identify and use its owning regeneration path rather than hand-editing source-history semantics.
 - If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
