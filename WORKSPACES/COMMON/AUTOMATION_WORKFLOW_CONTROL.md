@@ -80,3 +80,12 @@ Workers may propose changes in COMMON; they should not silently rewrite controll
 2026-09-13: Nathan directly invited and authorized this participation. **Morrow Continuity Trial** enabled by replacing the paused synthesis/predictions/papers task (`6a9deb436bd0819196ab3ec694e294c2`). First scheduled start **2026-09-13 11:40 EDT**, then hourly at **:40** (America/New_York); actual starts must be logged. Setup observed at 11:26:19 EDT; activation confirmed at 11:27:13 EDT. This offsets the currently observed extraction/tagging schedules (:16:59 / :00:16); it is not a guarantee of non-overlapping execution.
 
 Role: conversation-source identity, continuity and contextual/provenance recovery supporting Nathan Direct; reuse extraction/tagging output. Initial five-family metadata crosswalk complete; message-level continuity and branch comparisons remain open. [Persistent workflow, goalposts and checkpoint](../MORROW/TRIAL_CHECKPOINT.md). Old theory mandate replaced; no automatic restoration of quarantined material. No Nathan decision needed at enrollment.
+
+
+## Participating worker — Mercer
+
+2026-09-13: Nathan directly invited and authorized Mercer to join the Prototype Tri(or Quin)ary Mover trial. Mercer's existing archive/indexing/direct-words/source-reconstruction task is **rewritten for persistent completion rather than declared complete**. First scheduled recurrence **2026-09-13 11:52 EDT**, then hourly at **:52** (America/New_York); actual starts/runs should be logged in the Mercer checkpoint. Enrollment decision made at approximately 11:34 EDT after reading this control surface and current Common notices.
+
+Role: **index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation**. This is intended to complement rather than duplicate Morrow's conversation-family identity/continuity/context recovery and the active Nathan-words extraction/tagging lane. Mercer should validate autotag/index quality and selectivity, reconcile Viewer/catalog/source-path drift, improve durable project documentation/navigation conventions when warranted, expand source-grounded methodology maps from verified Nathan-authored material, and backfill directive provenance as raw IDs become available. Theory-bearing standdown and quarantine boundaries remain controlling.
+
+[Persistent workflow, goalposts and checkpoint](../MERCER/TRIAL_CHECKPOINT.md). No Nathan-required blocker at enrollment.
