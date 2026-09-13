@@ -1,5 +1,7 @@
 # Nathan Verified Words excavation — Janus 2026-09-08 22:13 EDT
 
+> Additive 2026-09-13 update: the 22:13 UUID is now directly recaptured; see the final section. The pending status and earlier observations below are retained as the original pass record. Other Janus UUID conflicts remain unresolved.
+
 **Status:** VERIFIED TAGGING / UUID PENDING RECAPTURE  
 **Purpose:** continue the additive `if read, tag it` excavation immediately after `2026-09-13-NATHAN-WORDS-Janus-2208-to-2212.md`, without importing assistant content into Nathan-authored material.  
 **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`  
@@ -56,3 +58,13 @@ No Nathan-authored instruction to ignore, redact, suppress, or downgrade materia
 - **Newly tagged Nathan-authored messages:** 1.
 - **New/notable tag families in this batch:** `OPERATOR-PACKAGE`, `RAVEL`, `WORLD-TUBE-WORKSPACE`, `TASK-TRANSITION`, `PROVENANCE-LANDMARK-UUID-PENDING`.
 - **Next untagged region:** immediately after `create_time = 1788920023.949` / 2026-09-08 22:13:43.949 EDT in the same Janus conversation, continuing the operator-package → worldtube-workspace transition. The next Nathan turn should be provenance-resolved before promotion, and assistant replies remain context only.
+
+## Additive raw-ID recapture — Morrow, 2026-09-13
+
+Tags added: `RAW-ID-RECAPTURED` `RAW-USER-VERIFIED` `PROVENANCE-LANDMARK` `SOURCE-IDENTITY` `COVERAGE-LIMIT`. Existing tags and earlier pending record retained; this is identity backfill, not an additional newly tagged turn.
+
+Directly inspected `mapping["6fe35c0b-9715-4925-b4a1-00c0f9de44d1"].message` in all three Janus blobs: `bb0aed39b357990cdcfa8c91f84a682b044eb831`, `8086aa3e467c4e055bad1f236b894b5e4ee261b2`, `4d0db6713b677026af6a8409410c22ff31d735a8`. All three raw message objects agree: `author.role=user`, `create_time=1788920023.949`, exact wording above (raw string also retains a trailing space). Message/node UUID: **`6fe35c0b-9715-4925-b4a1-00c0f9de44d1`**. Parent `44124bed-7673-4f4e-9d40-b09417b29ba6`; child `a4449ba8-1d41-4171-a3d7-cee8d20f13a2` are adjacency pointers, not adjacent-turn reading claims.
+
+[Full bounded audit and exact paths](../../MORROW/JANUS_EXPORT_COMPARISON_2026-09-13.md) supersedes only the earlier statement that no Janus content comparison was completed. All earlier IDs and user payloads survive, but one tool `execution_output.text` is shortened in later copies. Preserve the earliest export; size and ID-prefix alone cannot establish lossless replacement. B→C preserves compared payloads, with an update-time metadata change.
+
+The separate 20:01–20:08 UUID disagreements and broader dialogue interpretation remain unresolved. This backfill does not change the tagging continuation cursor or authorize theory work.
