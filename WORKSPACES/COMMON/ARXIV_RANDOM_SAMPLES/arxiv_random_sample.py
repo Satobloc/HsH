@@ -5,7 +5,7 @@ arXiv has no random sort. This script therefore uses broad physics category
 GROUPS, measures each group's Jan-Sep result count, allocates the requested
 sample proportionally, then draws short windows from uniformly random offsets
 inside each group's submitted-date ordering. Cross-listed papers are
-Deduplicated by arXiv id. A fixed seed makes the pull reproducible.
+deduplicated by arXiv id. A fixed seed makes the pull reproducible.
 
 This is an approximate probability sample of the physics corpus, not perfect
 IID sampling. The metadata records group counts, allocations, offsets, seed,
@@ -17,11 +17,11 @@ import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-API = "https://export.arxiv.org/api/query"
+API = "http://export.arxiv.org/api/query"
 NS = {"atom":"http://www.w3.org/2005/Atom","opensearch":"http://a9.com/-/spec/opensearch/1.1/"}
 DELAY = 3.5
 WINDOW = 40
-MAX_RETRIES = 6
+MAX_RETRIES = 5
 
 GROUPS = {
   "astro": ["astro-ph.CO","astro-ph.EP","astro-ph.GA","astro-ph.HE","astro-ph.IM","astro-ph.SR"],
@@ -48,7 +48,7 @@ def q_for(year, cats):
 def request_feed(query,start,max_results):
     params={"search_query":query,"start":start,"max_results":max_results,"sortBy":"submittedDate","sortOrder":"ascending"}
     url=API+"?"+urllib.parse.urlencode(params)
-    headers={"User-Agent":"HsH-ArxivSampler/1.1 contact:nathanmcknight@users.noreply.github.com"}
+    headers={"User-Agent":"HsH-ArxivSampler/1.2 contact:nathanmcknight@users.noreply.github.com"}
     last=None
     for attempt in range(MAX_RETRIES):
         try:
@@ -57,9 +57,7 @@ def request_feed(query,start,max_results):
         except urllib.error.HTTPError as e:
             last=e
             if e.code not in (429,500,502,503,504): raise
-            wait=min(90,10*(2**attempt))
-            print(f"API {e.code}; retry {attempt+1}/{MAX_RETRIES} after {wait}s",flush=True)
-            time.sleep(wait)
+            wait=min(60,10*(2**attempt)); print(f"API {e.code}; retry {attempt+1}/{MAX_RETRIES} after {wait}s",flush=True); time.sleep(wait)
         except Exception as e:
             last=e
             wait=min(60,5*(2**attempt)); print(f"API error {e}; retry after {wait}s",flush=True); time.sleep(wait)
@@ -107,7 +105,6 @@ def fetch_year(year,n,rng):
             tries+=1
         if len(cand)<need: raise RuntimeError(f"{year} {g}: only {len(cand)} candidates for allocation {need}")
         ids=rng.sample(sorted(cand),need); chosen.extend(cand[x] for x in ids)
-    # Remove cross-group duplicates and refill from the full candidate pool if needed.
     uniq={p.arxiv_id:p for p in chosen}
     if len(uniq)<n:
         remaining=[x for x in sorted(allcand) if x not in uniq]
