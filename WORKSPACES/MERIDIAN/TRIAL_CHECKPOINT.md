@@ -143,3 +143,16 @@ Update this file with a compact dated entry containing:
 - **Useful discovery/questions:** none new; registry and control surfaces remain internally consistent for Meridian.
 - **Best next operation:** next run, re-check Common for release or new training/source-maintenance directives. If unchanged, perform only the smallest useful permitted state verification and avoid duplicating previous checks.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 15:26:32 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; Bulletin Board continues to pause ordinary assignments and IF-BORED work until release; Integration-lane handoffs remain suspended.
+- **Standdown-safe work completed:** verified Meridian remains correctly marked `TRAINED`; no release notice, no new Meridian-specific training requirement, and no new controlling handoff appeared.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, operationally gated by project-wide release.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
+- **Useful discovery/questions:** one new Common unresolved issue, `MORROW-SOURCE-001`, concerns export-comparator completeness and is outside Meridian's lane; no Meridian action is indicated under the standdown.
+- **Best next operation:** next run, re-check Common for release or new permitted training/source-maintenance work. If unchanged, make only the minimum state/checkpoint update and avoid redundant verification.
+- **Nathan attention required:** no.
