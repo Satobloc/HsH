@@ -1289,12 +1289,14 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 
 The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` remains discovery-only. The three passages below were resolved to standalone raw nodes in `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json` with `author.role = user` and normal conversation recipient `all`. Assistant elaborations are context only and are not attributed to Nathan.
 
+> **Provenance correction — 2026-09-13:** direct A/B/C raw comparison corrected the three UUID fields and the dependent relationship below. The prior imported mapping was `96bba8d8… / 3183b844… / 1c9204ab…`; it is preserved under visible supersession in the original batch. Current mapping: `8f4721c7… / 96bba8d8… / 3183b844…`. Tags: `RAW-ID-RECAPTURED`, `PROVENANCE-CORRECTION`, `SUPERSEDES-METADATA`. [Audit trail](../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md).
+
 ### 2026-09-08 — Heavy-math plan, automated conversion, and old/new Lagrangians
 
 - **Tags:** `METHOD` `HEAVY-MATH-PLAN` `AUTOMATION` `LAGRANGIAN` `OLD-NEW-LAGRANGIANS` `QUESTION` `HSH-CONTEXT` `PLANNING`
 - **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
 - **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
-- **Message ID / timestamp / landmark:** `96bba8d8-a05a-47ff-bde7-f10fd87c7472` — 2026-09-08 20:01:58.643 EDT (`create_time = 1788912118.643`)
+- **Message ID / timestamp / landmark:** `8f4721c7-1959-4ff3-81f6-340f751fd476` — 2026-09-08 20:01:58.643 EDT (`create_time = 1788912118.643`)
 - **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`; `recipient = all` in raw conversation mapping)
 - **Historical terminology/status:** direct planning/question message. It records Nathan asking what the immediately preceding normalization discussion means for the planned mathematical programme, automation, and the old/new Lagrangians. It does not adopt the assistant's subsequent proposed conversions or formulae.
 - **Exact Nathan wording:**
@@ -1311,7 +1313,7 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 - **Tags:** `VOCABULARY` `RELATIVITYVISION` `DYNAMICS-ONLY-UNIVERSE` `TIME-RESIDUAL-FRINGE` `METHOD` `NAMING` `HSH-CONTEXT`
 - **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
 - **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
-- **Message ID / timestamp / landmark:** `3183b844-e7d0-480c-a7f4-e6d6aa1d58c5` — 2026-09-08 20:07:13.627592 EDT (`create_time = 1788912433.627592`)
+- **Message ID / timestamp / landmark:** `96bba8d8-a05a-47ff-bde7-f10fd87c7472` — 2026-09-08 20:07:13.627592 EDT (`create_time = 1788912433.627592`)
 - **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`; `recipient = all` in raw conversation mapping)
 - **Historical terminology/status:** compact Nathan-authored naming/characterization statement. No formal definitions are inferred from the assistant's subsequent expansion of these phrases.
 - **Exact Nathan wording:**
@@ -1328,7 +1330,7 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 - **Tags:** `NATHAN-CORRECTION` `AUTHORITATIVE-CORRECTION` `CLARIFICATION` `UNITS` `DIMENSIONALITY` `C-TYPING` `4D-THINKING` `METRES-VS-METRES` `DIRECTION-NONPRIVILEGE` `HSH-CONTEXT`
 - **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
 - **Conversation title:** `🗿ORCHESTRATOR JANUS H(s)HvO`
-- **Message ID / timestamp / landmark:** `1c9204ab-df65-46ca-b214-3c45b74b03db` — 2026-09-08 20:08:33.463769 EDT (`create_time = 1788912513.463769`)
+- **Message ID / timestamp / landmark:** `3183b844-e7d0-480c-a7f4-e6d6aa1d58c5` — 2026-09-08 20:08:33.463769 EDT (`create_time = 1788912513.463769`)
 - **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`; `recipient = all` in raw conversation mapping)
 - **Historical terminology/status:** explicit correction to the assistant's phrase `seconds-versus-metres notation`. The correction itself is authoritative as Nathan's instruction about how the representation should be described; no additional equations from the assistant response are attributed to him.
 - **Exact Nathan wording:**
@@ -1338,7 +1340,7 @@ The flattened discovery file `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` 
 > Although we should always be using meters and meters. Doesn’t matter which direction.
 
 - **Immediate context:** the assistant had described the remaining temporal asymmetry as no longer being supplied by “seconds-versus-metres notation.” Nathan corrected that baseline. The assistant then elaborated with `w=ct`, four length-valued coordinates, and further symmetry language; those elaborations remain assistant-authored.
-- **Later correction / relationship:** `3183b844-e7d0-480c-a7f4-e6d6aa1d58c5 -> 1c9204ab-df65-46ca-b214-3c45b74b03db` (`NAMING/CONTEXT -> EXPLICIT CORRECTION OF ASSISTANT WORDING`). Any later unit convention should be preserved as chronology rather than overwriting this message.
+- **Later correction / relationship:** `96bba8d8-a05a-47ff-bde7-f10fd87c7472 -> 3183b844-e7d0-480c-a7f4-e6d6aa1d58c5` (`NAMING/CONTEXT -> EXPLICIT CORRECTION OF ASSISTANT WORDING`). Any later unit convention should be preserved as chronology rather than overwriting this message.
 
 ---
 
