@@ -48,3 +48,18 @@ Administrative sources below were fetched and read in full during this workspace
 | [TEAM_OVERVIEW.md](../../WORKSPACES/COMMON/TEAM_OVERVIEW.md) | `4ccc4beebc263ca4944cb71bd85c6bd1050cd489` | ADMIN, ROUTING |
 
 The directive file is a repository report of Nathan's instructions with raw-ID backfill pending; it is not a firsthand export of that separate conversation.
+
+## Common follow-up — 2026-09-13
+
+Tags: ADMIN, ROUTING, PROJECT-DEPENDENCY, CORRECTION, COVERAGE-LIMIT.
+
+- The [autotag summary](../../indexes/autotag/AUTOTAG_SUMMARY.md) now provides a durable repository route. This resolves the earlier artifact-only availability concern. Header read (lines 1–15); the large ranked-excerpt appendix was returned with truncation and is NOT claimed fully read. Reported counts: 388 recognized exports, 70,023 message records, 21,499 user messages, all retained in WINNOW. These are reported run counts, not independently deduplicated conversations or reviewed quotations.
+- Fully read [layered tagging schema](../COMMON/LAYERED_AUTOTAG_SCHEMA.md), blob `7d8d28d39606c0b14245328a4fc00b7f813ae2ee`: conversation/adjacency/message relevance supports discovery; automatic tagging does not establish Nathan-authored propositions or VERIFIED status.
+- Fully read [source integration architecture](../COMMON/SOURCE_INTEGRATION_ARCHITECTURE_2026-09-13.md), blob `fdc003a9de18d4c6f75ce0f00b02ba63f295e93c`: preserve source families and explicit dated relations. This is a plan; implementation of every proposed graph/index is not established.
+- Fully read [signature-tagging request](../COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md), blob `64e46584e6ff6aa0cde55c02ac156ab4daf27eb7`: proposal, not an approved SAT identity classifier.
+- Followed that request's pointer and fully read the corrected structural-X-ray protocol in the private reference repository (blob `0bc76705dbe5a85de70c4765555505610a4968f3`). Public-safe administrative summary: the model-originated 30-dimension classifier is unauthorized and its scoring pass quarantined; random corpus and blind shuffle are retained as infrastructure. Nathan-authoritative evidence and approval must precede classification. Requested a public-facing documentation update from the owning lane rather than exposing a private-link dependency.
+- Fully re-read Bulletin Board (`d0752235a524c44df0d9d126384af7d5ec37922c`), Coordination (`8ff638a6d29613e0b3ae9dc238ec2a9f4ccabc27`), and Handoffs (`2a46cf8f859653b027469b3d6843b32ceb5208ae`). New definitions initiative and documentation convention are recorded requests; do not divert the ongoing tagging lane.
+
+### Effect on continuity mapping
+
+Use export inventories and source/message IDs to locate core-team material; tags are leads only. Preserve renamed titles as aliases and compare actual export contents before claiming equivalence, supersets, or shared execution. No new raw core-team conversation has been read in this pass. Next bounded step is inventory-level comparison of LIVE and named full exports, followed by direct reading of relevant continuity passages. Theory work remains halted.
