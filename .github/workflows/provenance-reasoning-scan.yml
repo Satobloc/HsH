@@ -61,7 +61,6 @@ jobs:
                   else: n=t.count(term)
                   if n:
                       s += w*(1+math.log1p(n-1)); hits.append((term,n,w))
-              # reward substantive length but cap it
               s *= min(1.8, .75 + math.log1p(len(text))/8)
               return s,hits
 
@@ -93,20 +92,40 @@ jobs:
                   f.write(f"## {rank}. score={r['score']:.2f} — {r['message_id']} — {iso}\n")
                   f.write(f"Hits: {r['hits']}\n\n### EXACT USER TEXT\n\n{r['text']}\n\n")
                   if prev:
-                      p=prev['text'].replace('\n',' ')[:900]
-                      f.write(f"**Previous raw message ({prev['role']}):** {p}\n\n")
+                      f.write(f"**Previous raw message ({prev['role']}):** {prev['text'].replace(chr(10),' ')[:1200]}\n\n")
                   if nxt:
-                      n=nxt['text'].replace('\n',' ')[:900]
-                      f.write(f"**Next raw message ({nxt['role']}):** {n}\n\n")
+                      f.write(f"**Next raw message ({nxt['role']}):** {nxt['text'].replace(chr(10),' ')[:1200]}\n\n")
                   f.write('---\n\n')
 
-          print(f"title={obj.get('title')}")
-          print(f"total_nonempty_messages={len(rows)} user_messages={len(users)}")
-          print('TOP 35 USER CANDIDATES')
-          for rank,r in enumerate(ranked[:35],1):
-              t=r['text'].replace('\n',' ')
-              if len(t)>650:t=t[:647]+'...'
-              print(f"[{rank:02}] score={r['score']:.2f} id={r['message_id']} ts={r['create_time']} hits={[x[0] for x in r['hits']]} :: {t}")
+          selected = {
+            'd27667d7-fd7f-4795-9263-a29fc16abed9',
+            'e568ef81-3502-4e40-992f-2fe26710acb3',
+            'f4df0af0-9cae-4c3f-b484-3c83bc5a987c',
+            'c3f309e3-fc8d-4cca-98f7-4072c322e722',
+            '898814a5-79c6-4e26-b0f8-5f7501ef1957',
+            'f8e3ca00-6348-43d3-9602-014002b9feed',
+            '95993cdf-7794-4270-84cb-af391d7cbaf1',
+            'b43f5b3e-9df9-417b-b6e7-dcd2a31858e7',
+            '357fae86-dd21-41fc-bf92-646bb4c336ac',
+            '54ba3cda-a0e1-4861-90f9-482f5850a245',
+            'ac413920-99c7-40c0-84b8-343fa8b001cc',
+            '38b48b83-ae30-4c2c-a3f1-4f6d4eb07828',
+            '552c04ba-9c90-441d-8f91-f08d1e3af3e4',
+            'bed36236-2f55-402a-9c9a-fa512f03c522',
+          }
+          print(f"title={obj.get('title')} total_nonempty_messages={len(rows)} user_messages={len(users)}")
+          print('=== SELECTED FULL RAW USER MESSAGES WITH ADJACENT CONTEXT ===')
+          for r in rows:
+              if r['message_id'] not in selected: continue
+              ts=r['create_time']; iso=datetime.fromtimestamp(ts,tz=timezone.utc).isoformat() if ts else 'NO_TIMESTAMP'
+              print(f"\n===== USER id={r['message_id']} utc={iso} index={r['index']} =====")
+              print(r['text'])
+              for j,label in ((r['index']-1,'PREVIOUS'),(r['index']+1,'NEXT')):
+                  if 0 <= j < len(rows):
+                      q=rows[j]
+                      print(f"\n--- {label} role={q['role']} id={q['message_id']} ---")
+                      print(q['text'][:3500])
+              print('\n===== END SELECTED =====')
           PY
       - uses: actions/upload-artifact@v4
         with:
