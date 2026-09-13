@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:43:23+00:00`
-- Tree/content state: `87619547926937f3e0be5498f853741b160ed8eec2d28c48b38e239e35e2f3ba`
+- Scanned: `2026-09-13T03:44:13+00:00`
+- Tree/content state: `2d5f591d7fbe66c9a72fb426a54df1cbb3ccfd8ed3518153784aa8be693abfc2`
 - Coverage: 876 files, 66 directories
 - GitHub tree response truncated: `false`
 
@@ -1103,7 +1103,7 @@
 - `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 11605 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 17488 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md` — 7161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
