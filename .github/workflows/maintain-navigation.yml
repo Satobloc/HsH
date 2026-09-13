@@ -107,7 +107,10 @@ jobs:
 
       - name: Validate viewer JavaScript
         run: |
+          node --check CONVERSATION_VIEWER/annotations.js
           node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/argus_followup.js
+          node --check CONVERSATION_VIEWER/provenance_search.js
           node --check CONVERSATION_VIEWER/landmarks.js
           node --check CONVERSATION_VIEWER/presentation.js
 
