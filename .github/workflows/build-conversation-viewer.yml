@@ -110,15 +110,37 @@ jobs:
 
       - name: Commit generated viewer data
         run: |
-          if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated | grep -q .; then
-            echo 'Conversation viewer generated data unchanged.'
-            exit 0
-          fi
           git config user.name 'HsH Conversation Viewer Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated
-          git commit -m '[skip conversation-viewer] Refresh conversation viewer data'
-          git push origin HEAD:main || {
-            echo 'Push race: main advanced while this run was building. A later run should absorb the change.' >&2
-            exit 1
-          }
+
+          for attempt in 1 2 3 4; do
+            # Rebuild from the newest main each time so a concurrent worker commit
+            # cannot strand otherwise-valid generated Viewer data.
+            git fetch origin main
+            git reset --hard origin/main
+            python tools/build_conversation_viewer_resolved.py
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
+          missing = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
+          assert not missing, f'viewer catalog contains missing repository source paths after race rebuild: {missing}'
+          PY
+
+            if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated | grep -q .; then
+              echo 'Conversation viewer generated data unchanged.'
+              exit 0
+            fi
+
+            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated
+            git commit -m '[skip conversation-viewer] Refresh conversation viewer data'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push race on attempt ${attempt}; rebuilding from latest main." >&2
+            sleep 2
+          done
+
+          echo 'Conversation viewer refresh could not win a push race after 4 attempts.' >&2
+          exit 1
