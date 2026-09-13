@@ -157,8 +157,27 @@ Tag direct Nathan/user-authored passages by at least these topics:
 
 ## G. Verification rule for the Nathan-word compendium
 
-A statement may enter the verified compendium only when the source artifact identifies the message as user-authored / Nathan-authored or another provenance record makes authorship unambiguous.
+In the preserved conversation archives, `author.role = user` is Nathan. A user message remains Nathan-authored even when it contains a template, survey, quotation, or pasted-looking block. Do not invent a third human speaker from formatting or style.
 
-Do not infer authorship from writing style alone. Do not copy assistant paraphrases into Nathan's voice. Do not silently modernize old terminology. Preserve the original wording, date, source path, and message/timestamp landmark, then add separate topic/status metadata.
+Assistant/other-LLM messages may establish context but cannot be promoted into Nathan's voice. Do not silently modernize old terminology. Preserve original wording, date, source path, and message/timestamp landmark, then add separate topic/status metadata.
 
 Contradictions and later corrections are features of the compendium: link them rather than deleting older statements.
+
+## H. Timeline-first provenance tagging strategy
+
+The systematic tagging/provenance lane should be driven first by concepts the project itself already marks as historically important rather than by analyst-invented ad hoc vocabulary.
+
+Primary seed surfaces:
+
+1. `Satobloc/HsH/HISTORY_TIMELINE.md`.
+2. The `Development Timeline` on `Satobloc/SAT_THEORY_ARCHIVE_2023-25/README.md`.
+3. Additional timeline/history documents in the old archive as they are located.
+4. SAT-to-standard / standard-to-SAT maps and glossaries.
+5. Major summary/synthesis/status documents.
+6. Automatically harvested corpus vocabulary beyond those sources.
+
+For every high-priority named term/construction, search the raw conversation corpus for the earliest currently surfaced Nathan occurrence. Record exact message ID, timestamp, conversation path/title and theory/version era. Timeline dates are provisional provenance anchors: if an older source is recovered, move the `EARLIEST-CURRENTLY-SURFACED` date backward and retain the prior historical assertion as part of the audit trail.
+
+Secondary terminology work should capture mappings to standard scientific language with explicit relationship types (`SYNONYM-OF`, `NEAR-SYNONYM-OF`, `STRUCTURALLY-OVERLAPS`, `MAPS-TO`, `BROADER-THAN`, `NARROWER-THAN`, etc.) rather than treating every resemblance as identity.
+
+The automated tagger should eventually ingest vocabulary harvested from these source classes rather than relying only on a hand-maintained fixed dictionary.
