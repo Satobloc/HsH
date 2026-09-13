@@ -32,33 +32,34 @@ JSON object-key order is normalized; array order and string contents remain sign
 
 This is deliberately fail-closed with respect to future content shapes: a newly introduced field inside `content` changes the hash without requiring the scanner maintainer to know that field in advance.
 
-## Regression case
+## Regression coverage
 
-Required retained regression:
+The exact Janus failure mode and the additional channel case are now committed in `tests/test_superset_conversation_duplicates.py` (commit `f2bc84d5ea9632bd019ef442b4f6ff30b921e146`). The tests require that:
 
-- same message ID;
-- `author.role=tool`;
-- `content.content_type=execution_output`;
-- earlier export contains the full body in `content.text`;
-- later export replaces an interior section with the literal marker `\n...[truncated]...\n`;
-- the two messages **must not** compare equal.
+- same-ID `execution_output` messages with different `content.text` bodies — including an interior `...[truncated]...` replacement — hash differently;
+- otherwise identical messages with different `channel` values hash differently;
+- JSON object-key ordering alone does not change the hash.
 
-Additional regression worth retaining: identical content with different `channel` must not compare equal under the present payload policy.
+The repository's `maintain-navigation.yml` already runs `python -m unittest discover -s tests -v`, so this regression file is automatically included in that test surface on qualifying maintenance runs. At the time of this note, no workflow run was yet associated with the regression-test commit, so CI success is not claimed here.
 
-An attempt to add a small executable regression-test file was blocked by the repository write guard. No test file is therefore claimed to exist. The case is preserved here for the next permitted test/documentation pass.
+A prior synthetic executable spot-check of the first two cases also passed; see `RUN_005_2026-09-13.md`.
 
 ## Candidate-report regeneration
 
-A repository code search found no committed `SUPERFLUOUS-PREFIX-CANDIDATE` report text to regenerate in place. Any previously generated artifact/report produced with the old scanner should be considered stale until rerun with the patched comparator. In particular, preserve the earliest Janus export A; do not disposition it based on pre-patch scanner output.
+Repository code search found no committed invocation or `SUPERFLUOUS-PREFIX-CANDIDATE` report surface to regenerate in place. A direct listing/review of `.github/workflows/` likewise found no committed workflow invoking the scanner. Any previously generated artifact/report produced with the old scanner should therefore be considered stale until rerun from its owning external/manual context.
+
+In particular, preserve the earliest Janus export A; do not disposition it based on pre-patch scanner output.
 
 ## Current issue status
 
-`MORROW-SOURCE-001` is **partially resolved**:
+`MORROW-SOURCE-001` is **code-side resolved / output-side pending**:
 
 - scanner equality bug: fixed;
 - payload policy: documented in code/report output;
-- exact Janus regression case: durably documented here;
-- executable regression fixture: still pending due write guard;
-- affected generated candidate reports: must be regenerated when their owning workflow/artifact path is available.
+- exact Janus regression case: durably documented;
+- executable regression tests: committed;
+- repository test runner: already discovers the new test file;
+- CI result for the new regression commit: not yet observed;
+- stale generated candidate reports: cannot be regenerated because no committed invocation/output surface is discoverable; regenerate if/when the owning manual/external generation path is identified.
 
 No Nathan decision is required.
