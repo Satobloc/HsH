@@ -28,29 +28,39 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Mercer individual training is complete.
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 
-## Current frontier — after Run 8
+## Current frontier — after Run 9
 
 ### Viewer/catalog path drift
-**Root cause identified; repair iterated; final CI confirmation pending.**
+**Resolver/path validation passed; generated-data publication race hardened; successor CI still pending.**
 
-Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent from the repository tree. Direct inspection showed:
-- `indexes/manifests/live-conversation-dates.json` is in `mode: dry-run`;
+Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent from the repository tree. Direct inspection established:
+- `indexes/manifests/live-conversation-dates.json` is dry-run;
 - eight accepted LIVE records have `status: planned`;
-- their `new_path` values are proposed rename targets while files remain at `old_path`;
-- `tools/build_conversation_viewer.py` historically preferred `new_path` unconditionally.
+- their `new_path` values are proposed rename targets while source files remain at `old_path`;
+- the historical Viewer builder preferred `new_path` unconditionally.
 
-Completed:
+Completed through Run 8:
 - created `tools/build_conversation_viewer_resolved.py` with existence-aware path resolution;
-- updated `.github/workflows/build-conversation-viewer.yml` to invoke that resolver and assert every non-external catalog path exists;
+- updated `.github/workflows/build-conversation-viewer.yml` to invoke that resolver and assert every non-external catalog source path exists;
 - documented root cause/regression expectations in `VIEWER_PATH_QA_2026-09-13.md`;
-- first workflow run `34788105816` exposed wrapper fallback recursion; fixed;
-- second workflow run `34788150612` built the catalog successfully and then exposed one separate stale development-manifest path: deleted `Court Filing Guidance — raw.json`;
-- resolver now omits records for which neither manifest path exists, preventing the Viewer from republishing dead source URLs while leaving stale manifest state available for separate repair.
+- fixed initial wrapper recursion;
+- changed resolver to omit records for which neither manifest path exists, preventing publication of dead source URLs.
+
+Run 9 findings/actions:
+- inspected Viewer run `34788195121` for commit `92b7b37459e648b682d28dfad9a36765825eac99` directly through GitHub Actions;
+- confirmed build and full generated-catalog validation both succeeded: `374` conversations, `365` development, `9` live, with no missing-path assertion failure;
+- confirmed the run failed only in the final push because `main` advanced concurrently (`fetch first` non-fast-forward rejection);
+- confirmed current committed `CONVERSATION_VIEWER/data/conversations.json` was still stale at inspection time: `375` conversations, `366` development, `9` live, showing the repaired generated data had not silently landed;
+- inspected `indexes/manifests/development-conversation-dates.json` and directly located the stale deleted-source record for `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json` (`status: unchanged`, `message_count: 78`);
+- hardened `.github/workflows/build-conversation-viewer.yml` in commit `f1bee23ba9e94848e427a6adb86e8d6bc830a610`: generated-data publication now fetches/reset to newest `origin/main`, rebuilds, rechecks repository path existence, and retries push races up to four times;
+- successor Viewer run `34791027403` triggered and was in progress at last check;
+- updated `VIEWER_PATH_QA_2026-09-13.md` with exact run/commit evidence and remaining gates.
 
 Pending:
-- a successor Viewer workflow run after commit `92b7b37459e648b682d28dfad9a36765825eac99` must complete successfully;
-- after success, verify all materialized LIVE Viewer paths resolve against the tree and confirm deleted `Court Filing Guidance` is absent from Viewer output;
-- separately reconcile the stale development-manifest residue so the manifest itself reflects intended deletion state.
+- observe completion of Viewer run `34791027403` or direct successor;
+- verify regenerated Viewer data actually lands on `main` and count drops from stale `375/366/9` to current materialized `374/365/9` unless intervening legitimate source additions change those counts;
+- verify all materialized LIVE entries resolve and deleted `Court Filing Guidance` is absent from Viewer output;
+- identify the owning regeneration path for the development-date manifest before changing the stale record itself. Do not hand-edit manifest history semantics without that ownership/source path.
 
 ### `MORROW-SOURCE-001`
 **Code-side resolved / output-side pending.** Comparator, payload policy, regression case, and tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
@@ -78,13 +88,14 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - Run 6: committed scanner regression tests.
 - Run 7: revalidated scanner logic and compacted checkpoint.
 - Run 8: traced Viewer LIVE-path drift to dry-run manifest `new_path` misuse; landed existence-aware resolver and workflow path-existence gate; CI then exposed and drove repair of wrapper recursion and one stale deleted-source manifest residue; see `RUN_008_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
+- Run 9: confirmed repaired Viewer generation/path validation succeeds but publication was losing a concurrent push race; hardened workflow with newest-main rebuild/revalidation/retry loop; directly confirmed stale `Court Filing Guidance` manifest residue and current stale generated catalog; successor CI pending.
 
 ## Blockers / dependencies
-- `DEPENDENCY`: final successor Viewer workflow result pending; no Nathan decision required.
-- `DEPENDENCY`: stale development-manifest entry for deleted `Court Filing Guidance` still needs manifest-level reconciliation after Viewer safety is green.
+- `DEPENDENCY`: Viewer run `34791027403` / direct successor must finish before publication repair is declared green; no Nathan decision required.
+- `DEPENDENCY`: stale development-manifest entry for deleted `Court Filing Guidance` needs owning generator/regeneration path identified before manifest-level reconciliation.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await export for provenance backfill.
 - No current issue genuinely requires Nathan attention.
 
 ## Best next operation
-Next run: reread Control/Common, then check for the Viewer workflow triggered by `92b7b37459e648b682d28dfad9a36765825eac99` or a successor. If green, validate all materialized LIVE Viewer paths and the deleted-source exclusion, post concise resolution to Common/Morrow, then reconcile the stale development-manifest record. If not green, inspect the exact failure and repair only the path-generation/validation layer before branching elsewhere.
+Next run: reread Control/Common, then inspect Viewer run `34791027403` or its direct successor. If green, fetch committed `CONVERSATION_VIEWER/data/conversations.json`, verify all LIVE paths and deleted-source exclusion against the tree, then post a concise resolution/handoff to Common/Morrow. After that, trace the development-manifest generation owner and repair the stale deleted-source record through its proper regeneration path rather than hand-editing it. If CI fails, inspect only the exact publication/rebuild failure and keep changes bounded to Viewer/catalog infrastructure.
