@@ -1,0 +1,39 @@
+name: Layered Nathan corpus autotag
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
+      - 'WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py'
+      - '.github/workflows/layered-nathan-autotag.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  autotag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run layered autotagger
+        run: |
+          mkdir -p WORKSPACES/COMMON/analysis
+          ROOTS="DEVELOPMENT_FULL_CONVOS"
+          if [ -d "LIVE CONVOS" ]; then
+            ROOTS="$ROOTS LIVE CONVOS"
+          fi
+          python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py $ROOTS \
+            --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
+            --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
+            --window 4
+      - name: Show summary
+        run: sed -n '1,320p' WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nathan-layered-autotags
+          path: WORKSPACES/COMMON/analysis/
