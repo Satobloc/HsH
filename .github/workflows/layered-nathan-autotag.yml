@@ -8,6 +8,7 @@ on:
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py'
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py'
       - 'WORKSPACES/COMMON/scripts/package_nathan_direct.py'
+      - 'WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py'
       - '.github/workflows/layered-nathan-autotag.yml'
   workflow_dispatch:
 
@@ -36,6 +37,8 @@ jobs:
           python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan.py
           python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py
           python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py
+          python -m py_compile WORKSPACES/COMMON/scripts/package_nathan_direct.py
+          python -m py_compile WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py
           python -m unittest discover -s tests -p 'test_autotag_selectivity_v3.py' -v
       - name: Run archive-wide layered autotagger
         run: |
@@ -54,25 +57,33 @@ jobs:
           python WORKSPACES/COMMON/scripts/package_nathan_direct.py \
             WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
             --outdir indexes/nathan-direct
+      - name: Build non-destructive Stage-2 queues
+        run: |
+          python WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py \
+            indexes/nathan-direct \
+            --outdir indexes/nathan-direct/stage2
       - name: Validate durable outputs
         run: |
           python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
           python -m json.tool indexes/nathan-direct/MANIFEST.json >/dev/null
+          python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
           test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
           test -s indexes/autotag/user-message-tags.jsonl
           test -s indexes/nathan-direct/README.md
-          find indexes/nathan-direct -name 'nathan-direct-*.jsonl' -type f -size +0c | grep -q .
+          test -s indexes/nathan-direct/stage2/correction-refinement.jsonl
+          find indexes/nathan-direct -maxdepth 1 -name 'nathan-direct-*.jsonl' -type f -size +0c | grep -q .
       - name: Show summaries
         run: |
           sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
           cat indexes/nathan-direct/README.md
-      - name: Commit durable autotag and Nathan Direct indexes
+          cat indexes/nathan-direct/stage2/MANIFEST.json
+      - name: Commit durable autotag, Nathan Direct, and Stage-2 indexes
         run: |
           git config user.name "H(s)H Autotag Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add indexes/autotag indexes/nathan-direct
           if git diff --cached --quiet; then
-            echo "Autotag and Nathan Direct indexes already current"
+            echo "Autotag, Nathan Direct, and Stage-2 indexes already current"
             exit 0
           fi
 
