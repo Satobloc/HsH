@@ -31,7 +31,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 ## Current frontier — after Run 8
 
 ### Viewer/catalog path drift
-**Root cause identified; repair landed; CI confirmation pending.**
+**Root cause identified; repair iterated; final CI confirmation pending.**
 
 Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent from the repository tree. Direct inspection showed:
 - `indexes/manifests/live-conversation-dates.json` is in `mode: dry-run`;
@@ -43,11 +43,14 @@ Completed:
 - created `tools/build_conversation_viewer_resolved.py` with existence-aware path resolution;
 - updated `.github/workflows/build-conversation-viewer.yml` to invoke that resolver and assert every non-external catalog path exists;
 - documented root cause/regression expectations in `VIEWER_PATH_QA_2026-09-13.md`;
-- first workflow run exposed a wrapper recursion bug; fixed by preserving the original base resolver before monkeypatching.
+- first workflow run `34788105816` exposed wrapper fallback recursion; fixed;
+- second workflow run `34788150612` built the catalog successfully and then exposed one separate stale development-manifest path: deleted `Court Filing Guidance — raw.json`;
+- resolver now omits records for which neither manifest path exists, preventing the Viewer from republishing dead source URLs while leaving stale manifest state available for separate repair.
 
 Pending:
-- successor Viewer workflow run `34788150612` or successor must complete successfully;
-- after success, verify all nine LIVE Viewer catalog paths against the repository tree and mark Morrow's Viewer handoff resolved.
+- a successor Viewer workflow run after commit `92b7b37459e648b682d28dfad9a36765825eac99` must complete successfully;
+- after success, verify all materialized LIVE Viewer paths resolve against the tree and confirm deleted `Court Filing Guidance` is absent from Viewer output;
+- separately reconcile the stale development-manifest residue so the manifest itself reflects intended deletion state.
 
 ### `MORROW-SOURCE-001`
 **Code-side resolved / output-side pending.** Comparator, payload policy, regression case, and tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
@@ -74,13 +77,14 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - Run 5: traced scanner invocation/report path and spot-tested regressions.
 - Run 6: committed scanner regression tests.
 - Run 7: revalidated scanner logic and compacted checkpoint.
-- Run 8: traced Viewer LIVE-path drift to dry-run manifest `new_path` misuse; landed existence-aware resolver and workflow path-existence gate; first CI run found recursion and was repaired; see `RUN_008_2026-09-13.md`.
+- Run 8: traced Viewer LIVE-path drift to dry-run manifest `new_path` misuse; landed existence-aware resolver and workflow path-existence gate; CI then exposed and drove repair of wrapper recursion and one stale deleted-source manifest residue; see `RUN_008_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 
 ## Blockers / dependencies
-- `DEPENDENCY`: Viewer successor workflow result pending; no Nathan decision required.
+- `DEPENDENCY`: final successor Viewer workflow result pending; no Nathan decision required.
+- `DEPENDENCY`: stale development-manifest entry for deleted `Court Filing Guidance` still needs manifest-level reconciliation after Viewer safety is green.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await export for provenance backfill.
 - No current issue genuinely requires Nathan attention.
 
 ## Best next operation
-Next run: reread Control/Common, then check Viewer run `34788150612` or successor. If green, validate all nine LIVE Viewer paths against the tree and post concise resolution to Common/Morrow. If not green, inspect the exact failure and repair only the path-generation/validation layer. After that, take the next eligible nonduplicative provenance/documentation QA task.
+Next run: reread Control/Common, then check for the Viewer workflow triggered by `92b7b37459e648b682d28dfad9a36765825eac99` or a successor. If green, validate all materialized LIVE Viewer paths and the deleted-source exclusion, post concise resolution to Common/Morrow, then reconcile the stale development-manifest record. If not green, inspect the exact failure and repair only the path-generation/validation layer before branching elsewhere.
