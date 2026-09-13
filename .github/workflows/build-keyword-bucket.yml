@@ -1,0 +1,42 @@
+name: Build SAT / standard terminology keyword bucket
+
+on:
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/KEYWORD_BUCKET/build_keyword_bucket.py'
+      - '.github/workflows/build-keyword-bucket.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: hsh
+          fetch-depth: 1
+      - name: Clone legacy archive
+        run: git clone --depth 1 https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25.git sat_archive
+      - name: Build keyword bucket
+        run: |
+          python hsh/WORKSPACES/COMMON/KEYWORD_BUCKET/build_keyword_bucket.py \
+            --repo HsH=hsh \
+            --repo SAT_THEORY_ARCHIVE_2023-25=sat_archive \
+            --out hsh/WORKSPACES/COMMON/KEYWORD_BUCKET/output
+      - name: Commit output
+        working-directory: hsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/KEYWORD_BUCKET/output
+          if git diff --cached --quiet; then
+            echo 'No changes.'
+            exit 0
+          fi
+          git commit -m 'Build SAT / standard terminology keyword bucket'
+          git pull --rebase origin main
+          git push
