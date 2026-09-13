@@ -1,44 +1,65 @@
-name: Layered Nathan corpus autotag
+name: Archive-wide layered conversation autotag
 
 on:
   push:
     branches: [main]
     paths:
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
-      - 'WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py'
       - '.github/workflows/layered-nathan-autotag.yml'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: hsh-layered-autotag-main
+  cancel-in-progress: false
 
 jobs:
   autotag:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip autotag]') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run layered autotagger
+      - name: Run archive-wide layered autotagger
         run: |
-          mkdir -p WORKSPACES/COMMON/analysis
-          if [ -d "LIVE CONVOS" ]; then
-            python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py \
-              DEVELOPMENT_FULL_CONVOS "LIVE CONVOS" \
-              --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
-              --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
-              --window 4
-          else
-            python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py \
-              DEVELOPMENT_FULL_CONVOS \
-              --out WORKSPACES/COMMON/analysis/nathan_layered_autotags.jsonl \
-              --summary WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md \
-              --window 4
-          fi
+          mkdir -p WORKSPACES/COMMON/analysis indexes/autotag
+          python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py . \
+            --out WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
+            --summary indexes/autotag/AUTOTAG_SUMMARY.md \
+            --index indexes/autotag/CONVERSATION_TAG_INDEX.md \
+            --manifest indexes/autotag/conversation-tag-manifest.json \
+            --user-tag-index indexes/autotag/user-message-tags.jsonl \
+            --structural-index-state indexes/index-state.json \
+            --window 4
+      - name: Validate durable tag outputs
+        run: |
+          python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
+          test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
+          test -s indexes/autotag/user-message-tags.jsonl
       - name: Show summary
-        run: sed -n '1,320p' WORKSPACES/COMMON/analysis/nathan_layered_autotag_summary.md
+        run: sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
+      - name: Commit durable autotag indexes
+        run: |
+          git config user.name "H(s)H Autotag Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add indexes/autotag
+          if git diff --cached --quiet; then
+            echo "Autotag indexes already current"
+          else
+            git commit -m "[skip autotag] Refresh archive-wide conversation autotags"
+            git push origin HEAD:main
+          fi
       - uses: actions/upload-artifact@v4
         with:
-          name: nathan-layered-autotags
-          path: WORKSPACES/COMMON/analysis/
+          name: archive-wide-layered-autotags
+          path: |
+            WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl
+            indexes/autotag/
