@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1096989351,
+    "bytes_known": 1097001410,
     "directories": 68,
-    "files": 886
+    "files": 888
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 157,
+    ".md": 159,
     ".pdf": 22,
     ".png": 37,
     ".py": 41,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 99,
+    "llm-workspace": 101,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 99,
+    "WORKSPACES": 101,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -714,7 +714,7 @@
       "size": 49
     },
     {
-      "content_id": "3c742b6e75b5d42d182b938343615bff23cddd5272cfecd541075add34b668c6",
+      "content_id": "25774a57473ff7d6cf89fb728e7b7dbae37396f675bd71767a848897e9168272",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6265,11 +6265,11 @@
       "size": 5278
     },
     {
-      "content_id": "4d925b202bd85b5121958011a0a4f1afee8e5e4de704f0b744a39ecb9be4d16b",
+      "content_id": "bd71970c19de5d4b76e85a9da052cd6978585ff85bb49de81b1ae747a1fcd500",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 112413
+      "size": 116865
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6671,6 +6671,13 @@
       "size": null
     },
     {
+      "content_id": "cc8bfbb9667c47852b5ad25c54b7b12e6ff508628cc70b960c3ca3ffb7c8be14",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md",
+      "role": "llm-workspace",
+      "size": 3161
+    },
+    {
       "content_id": "039c21e8e28a8c510e3b49fe16316866b6cd3ff5e947e1a97a4fcd3a7fbe88a9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md",
@@ -6697,6 +6704,13 @@
       "path": "WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A",
       "role": "llm-workspace",
       "size": 77
+    },
+    {
+      "content_id": "a643e239fb3d1924ffafe676c619d9090fe1c6cff55f4d5a8eadb62aae3d0bc6",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-01.md",
+      "role": "llm-workspace",
+      "size": 4446
     },
     {
       "content_id": "9716c9999777deff5abb9ece794ee49375a103f17e69af62dfdbf49f037b17c8",
@@ -6951,7 +6965,7 @@
       "size": null
     },
     {
-      "content_id": "d4ed7920c93faa6d15185ef15b9e9215dacf86ec806d33e9f24898231f40682f",
+      "content_id": "04463385c8cd31251e599212bc0dd6e1f9fb332e18c546180dd079b70d257ba5",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6965,7 +6979,7 @@
       "size": 8625
     },
     {
-      "content_id": "2348603b10eb38502568849a2c4aece1b9fb7cae8cbe31d75b0a9fc0d98f7b4e",
+      "content_id": "1bb46f14ed6132c4b7defbbaa885e75ce95b77f4399de8abc553d0fbcc09bbb3",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6986,14 +7000,14 @@
       "size": null
     },
     {
-      "content_id": "eba7dd62438941c50ae33aa7ac916f61b5e8ccddfa117199e9e80844010ef439",
+      "content_id": "5f2cdfb528d3908738d69eb26185c61eead9eff5c48ef21699a102809eec5b20",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "2957b392adc51ea8688694b3da7f08dffffcfbb0a9528591580b431f8131ae42",
+      "content_id": "b5785a45d29cb50f1673f1af49d6ec27f2c093d948423e1d0ba8d47c004f5bd7",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7211,8 +7225,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T06:21:50+00:00",
+  "scanned_at_utc": "2026-09-13T06:25:17+00:00",
   "schema_version": 1,
-  "tree_id": "4090a882241d5ae06d5c3751e04535efee8508f5767fd3a0d5889025a016e5e3",
+  "tree_id": "12c4473236def74f93b56c79d09db0e54d7a3598ab90549c3f9855f29f58ef90",
   "tree_response_truncated": false
 }
