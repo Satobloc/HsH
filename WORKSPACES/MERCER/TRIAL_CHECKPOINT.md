@@ -43,12 +43,14 @@ At the beginning of every run:
 - `SAT_METHOD_SOURCE_MAP.md` has an initial direct-source methodology spine from verified Nathan messages.
 - `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` now captures current direct-live development testimony and archive-dating targets, beginning with RMS/SAT formalization, ontological-language clarification, the QCD-braid / time-surface-drag / theta_4 development account, the operational SAT-programme description, and Nathan's instruction to maintain this log.
 - Morrow reports that eight of nine LIVE Viewer paths contain date prefixes absent from the actual tree; this is a documentation/catalog reconciliation task, not missing-source evidence.
+- Morrow's `MORROW-SOURCE-001` exposed a content-equality bug in the shared superset-conversation scanner. Mercer patched the scanner to compare the entire content object plus channel and documented the Janus truncation regression in `SUPERSET_SCANNER_QA_2026-09-13.md`; executable regression fixture and stale-report regeneration remain pending.
 - Nathan has requested a repo-wide historical definitions/glossary initiative and a standard durable-project-documentation convention; these are eligible supporting tasks but should not displace the active Nathan-words/tagging priority.
-- Project-wide theory-bearing standdown remains active. Mercer individual training is complete, but ordinary index/tooling/theory-bearing work remains deferred until release unless a newer Nathan directive specifically authorizes it.
+- Project-wide theory-bearing standdown remains active. Mercer individual training is complete, but ordinary theory-bearing work remains deferred until release; bounded source-integrity/provenance maintenance explicitly handed off through Common is permitted.
 
 ## Safe alternate work when primary branch is blocked
 
 - minimal provenance/documentation work directly requested by Nathan, including live development-note capture and raw-ID backfill preparation;
+- bounded source-integrity/provenance maintenance explicitly handed off through Common;
 - newly assigned training or training-record work while standdown remains active;
 - after standdown release: inspect/directly read verified Nathan-word batches and fill methodology-map gaps;
 - after standdown release: audit index/tag selectivity on bounded samples;
@@ -106,13 +108,7 @@ Each run should record:
 
 **Did:** took the highest-value currently permitted provenance/documentation operation arising from Nathan's newer explicit directive: created `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` as the shared “straight from fingerpads” log.
 
-**Initial material captured:**
-- RMS relationship to SAT as a formalizable programme;
-- clarification that earlier ontological ease was discussion-convenience / naive-realist baggage rather than a carefully defended commitment;
-- SAT as an RMS-style representational test case without an initial requirement that it do more than represent 4D worldline history;
-- present development account connecting older QCD three-quark-braid thinking, an earlier GR/time-surface-drag inkling, later filament/timesheet angle, theta_4 mass-proxy reasoning, mutual energy exchange/distortion, and the broader “things fell out” trajectory;
-- Nathan's current operational description of SAT as following Minkowski geometric grammar, mapping well-known standard-science systems, comparing where possible to minimally divergent controls, and using geometry plus covariant standard physics to constrain unmapped effects;
-- Nathan's explicit instruction to maintain this type of live-development log and turn suitable statements into archive-dating targets.
+**Initial material captured:** RMS relationship to SAT as a formalizable programme; clarification that earlier ontological ease was discussion-convenience / naive-realist baggage rather than a carefully defended commitment; SAT as an RMS-style representational test case without an initial requirement that it do more than represent 4D worldline history; present development account connecting older QCD three-quark-braid thinking, an earlier GR/time-surface-drag inkling, later filament/timesheet angle, theta_4 mass-proxy reasoning, mutual energy exchange/distortion, and the broader “things fell out” trajectory; Nathan's current operational description of SAT as following Minkowski geometric grammar, mapping well-known standard-science systems, comparing where possible to minimally divergent controls, and using geometry plus covariant standard physics to constrain unmapped effects; Nathan's explicit instruction to maintain this type of live-development log and turn suitable statements into archive-dating targets.
 
 **Archive-dating targets recorded:** earliest QCD braid wording; earliest time-surface-drag/GR wording; first filament/timesheet-angle identification; first theta_4 mass-proxy statement; first mutual-exchange/distortion inference; earliest minimally-divergent-control methodology; earliest residual-effect logic; evolution of ontology/representation language.
 
@@ -141,5 +137,29 @@ Each run should record:
 **Useful discovery:** the Common README is otherwise consistent with Nathan's durable-documentation directive, including the rule to prefer updating an existing README/index and then leaving a short Common pointer. The failed change was therefore a narrow implementation/access issue, not a policy ambiguity.
 
 **Best next operation:** next run, reread Control/Common. If standdown remains active, only process new direct provenance/training/admin material and retry discoverability only if repository state/access materially changes. If released, resume the highest-priority nonduplicative substantive task, with v2 autotag selectivity validation preferred unless another worker has claimed it; otherwise reconcile Morrow's Viewer/catalog path drift.
+
+**Nathan attention:** not required.
+
+## Run 4 — 2026-09-13 14:54 EDT
+
+**Startup checks:** reread `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` and `BULLETIN_BOARD.md`. Standdown remains active. A new P1 source-integrity issue, `MORROW-SOURCE-001`, explicitly requested Mercer review and therefore superseded lower-priority deferred work for this bounded run.
+
+**Sources/regions covered:** full `WORKSPACES/MORROW/JANUS_EXPORT_COMPARISON_2026-09-13.md`; full `WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py`; current Common control/bulletin; repository code search for committed `SUPERFLUOUS-PREFIX-CANDIDATE` report text.
+
+**Did:** independently reviewed Morrow's reproducer against the shared scanner. Confirmed the reported false-positive mechanism: the scanner hashed only `content_type` + `parts`, so changes stored in `content.text` were invisible. Found one additional mismatch with Morrow's conservative payload policy: the scanner also omitted `channel`.
+
+**Patch:** updated `find_superset_conversation_duplicates.py` in commit `88b947ac804bb716e91d36c6c1b89cdf061debe0`. `canonical_message()` now hashes author role/name, the entire `content` object, recipient, channel, and create_time. Report output now states that policy explicitly. This makes unknown future content fields fail closed rather than requiring a whitelist update.
+
+**Regression record:** created `WORKSPACES/MERCER/SUPERSET_SCANNER_QA_2026-09-13.md` in commit `364911089407f1f01246b16a02fe041dfdd79aae`, preserving the exact Janus truncation regression and the channel-difference case. An attempted executable regression-test file was blocked by the repository write guard, so no automated test file is claimed.
+
+**Report regeneration check:** repository code search found no committed `SUPERFLUOUS-PREFIX-CANDIDATE` report text to regenerate in place. Any report/artifact generated by the old scanner remains stale until rerun. Preserve Janus export A; no duplicate disposition is authorized from pre-patch output.
+
+**Current frontier:** `MORROW-SOURCE-001` is partially resolved: scanner equality bug fixed; payload policy documented; regression case durably recorded. Pending: executable regression fixture if write guard permits, and regeneration of affected generated candidate reports when their owning workflow/artifact path is available. Viewer/catalog reconciliation and v2 autotag QA remain lower-priority/deferred under standdown.
+
+**Blockers/dependencies:** `DEPENDENCY` — affected generated candidate report location/workflow output is not presently committed/discoverable; executable test-file creation was blocked by repository write guard. Neither requires Nathan attention.
+
+**Useful discovery:** the old scanner's field whitelist was not only incomplete for `execution_output.text`; it was structurally fragile against any future content shape. Whole-content hashing is the safer archive-preservation default.
+
+**Best next operation:** reread Control/Common next run. If `MORROW-SOURCE-001` has not been picked up by the report/workflow owner, locate the scanner invocation/workflow and regenerate or mark stale outputs without touching source files. Otherwise take the next highest-priority permitted provenance/index handoff.
 
 **Nathan attention:** not required.
