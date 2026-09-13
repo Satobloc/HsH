@@ -1,5 +1,7 @@
 # Workspace Handoffs
 
+> **INTEGRATION-LANE HALT — 2026-09-13:** All handoffs issued by the Integration lane are suspended. Do not execute or return them unless Nathan explicitly reauthorizes that lane. This does not suspend independently originated team work.
+
 > Dated, concise transfers between agents/workspaces. This is a routing log, not a source or synthesis layer.
 
 ## Open handoffs
