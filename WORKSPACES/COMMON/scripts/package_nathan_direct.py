@@ -63,31 +63,80 @@ def merge_lists(records: list[dict[str, Any]], key: str) -> list[Any]:
     return out
 
 
-def add_neighbor_pointers(rows: list[dict[str, Any]]) -> None:
+def raw_pointer(r: dict[str, Any] | None) -> dict[str, Any] | None:
+    if r is None:
+        return None
+    return {
+        "node_id": r.get("node_id"),
+        "message_id": r.get("message_id"),
+        "role": r.get("role"),
+        "create_time": r.get("create_time"),
+        "source_path": r.get("source_path"),
+    }
+
+
+def add_context_pointers(rows: list[dict[str, Any]]) -> None:
+    """Attach chronological and raw conversation-graph context pointers.
+
+    ChatGPT exports are graphs, not guaranteed linear transcripts. Chronological
+    previous/next pointers are useful for reading order, while node parent/child
+    pointers preserve actual branch structure. Both are retained explicitly.
+    """
     groups: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for r in rows:
         groups[(str(r.get("source_path") or ""), str(r.get("conversation_id") or ""))].append(r)
+
     for group in groups.values():
-        group.sort(key=lambda r: ((r.get("create_time") is None), r.get("create_time") or 0, str(r.get("message_id") or "")))
-        for i, r in enumerate(group):
-            prev = group[i - 1] if i else None
-            nxt = group[i + 1] if i + 1 < len(group) else None
-            r["_previous_raw_message"] = None if prev is None else {
-                "message_id": prev.get("message_id"),
-                "role": prev.get("role"),
-                "create_time": prev.get("create_time"),
-                "source_path": prev.get("source_path"),
-            }
-            r["_next_raw_message"] = None if nxt is None else {
-                "message_id": nxt.get("message_id"),
-                "role": nxt.get("role"),
-                "create_time": nxt.get("create_time"),
-                "source_path": nxt.get("source_path"),
-            }
+        node_index: dict[str, dict[str, Any]] = {}
+        children: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for r in group:
+            node_id = r.get("node_id")
+            if node_id is not None:
+                node_index[str(node_id)] = r
+        for r in group:
+            parent = r.get("parent")
+            if parent is not None:
+                children[str(parent)].append(r)
+
+        chronological = sorted(
+            group,
+            key=lambda r: (
+                (r.get("create_time") is None),
+                r.get("create_time") or 0,
+                str(r.get("message_id") or ""),
+            ),
+        )
+        for i, r in enumerate(chronological):
+            prev = chronological[i - 1] if i else None
+            nxt = chronological[i + 1] if i + 1 < len(chronological) else None
+            r["_previous_raw_message"] = raw_pointer(prev)
+            r["_next_raw_message"] = raw_pointer(nxt)
+
+            parent_id = r.get("parent")
+            parent_row = node_index.get(str(parent_id)) if parent_id is not None else None
+            r["_parent_raw_message"] = raw_pointer(parent_row)
+            r["_child_raw_messages"] = [
+                raw_pointer(child)
+                for child in sorted(
+                    children.get(str(r.get("node_id")), []),
+                    key=lambda child: (
+                        (child.get("create_time") is None),
+                        child.get("create_time") or 0,
+                        str(child.get("message_id") or ""),
+                    ),
+                )
+            ]
+
+
+def append_unique(out: list[Any], value: Any) -> None:
+    if value is None:
+        return
+    if value not in out:
+        out.append(value)
 
 
 def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    add_neighbor_pointers(rows)
+    add_context_pointers(rows)
     users = [r for r in rows if r.get("role") == "user"]
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for r in users:
@@ -97,6 +146,8 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
     duplicate_records = 0
     inherited_cases = 0
     missing_ids = 0
+    records_with_resolved_parent = 0
+    records_with_children = 0
 
     for key, copies in grouped.items():
         copies.sort(key=lambda r: (str(r.get("source_path") or ""), r.get("create_time") or 0))
@@ -127,13 +178,27 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
         if key[0] == "NO-CONVERSATION-ID" or key[1] == "NO-MESSAGE-ID":
             missing_ids += 1
 
-        prev_ptrs = []
-        next_ptrs = []
+        prev_ptrs: list[dict[str, Any]] = []
+        next_ptrs: list[dict[str, Any]] = []
+        parent_ptrs: list[dict[str, Any]] = []
+        child_ptrs: list[dict[str, Any]] = []
+        source_node_ids: list[str] = []
+        raw_parent_node_ids: list[str] = []
         for r in copies:
-            if r.get("_previous_raw_message") and r["_previous_raw_message"] not in prev_ptrs:
-                prev_ptrs.append(r["_previous_raw_message"])
-            if r.get("_next_raw_message") and r["_next_raw_message"] not in next_ptrs:
-                next_ptrs.append(r["_next_raw_message"])
+            append_unique(prev_ptrs, r.get("_previous_raw_message"))
+            append_unique(next_ptrs, r.get("_next_raw_message"))
+            append_unique(parent_ptrs, r.get("_parent_raw_message"))
+            for child in r.get("_child_raw_messages") or []:
+                append_unique(child_ptrs, child)
+            if r.get("node_id") is not None:
+                append_unique(source_node_ids, str(r.get("node_id")))
+            if r.get("parent") is not None:
+                append_unique(raw_parent_node_ids, str(r.get("parent")))
+
+        if parent_ptrs:
+            records_with_resolved_parent += 1
+        if child_ptrs:
+            records_with_children += 1
 
         packaged.append({
             "record_type": "NATHAN_DIRECT_RAW_USER_MESSAGE",
@@ -149,6 +214,8 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
             "all_source_paths": source_paths,
             "source_sha256_values": sorted({str(r.get("source_sha256")) for r in copies if r.get("source_sha256")}),
             "archive_copy_count": len(copies),
+            "source_node_ids": source_node_ids,
+            "raw_parent_node_ids": raw_parent_node_ids,
             "conversation_tags": conv_tags,
             "adjacency_tags": adj_tags,
             "message_tags": msg_tags,
@@ -161,13 +228,20 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
             "inherited_topic_tags": inherited_tags,
             "previous_raw_message_pointers": prev_ptrs,
             "next_raw_message_pointers": next_ptrs,
+            "parent_raw_message_pointers": parent_ptrs,
+            "child_raw_message_pointers": child_ptrs,
             "full_conversation_pointers": source_paths,
             "AUTO_TAG_ONLY": True,
             "NOT_VERIFIED_COMPENDIUM_ENTRY": True,
             "NO_THEORY_AUTHORITY": True,
         })
 
-    packaged.sort(key=lambda r: ((r.get("create_time") is None), r.get("create_time") or 0, str(r.get("conversation_id") or ""), str(r.get("message_id") or "")))
+    packaged.sort(key=lambda r: (
+        (r.get("create_time") is None),
+        r.get("create_time") or 0,
+        str(r.get("conversation_id") or ""),
+        str(r.get("message_id") or ""),
+    ))
     stats = {
         "input_records": len(rows),
         "input_user_records": len(users),
@@ -175,6 +249,8 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
         "archive_duplicate_user_records_collapsed": duplicate_records,
         "context_dependent_inherited_tag_records": inherited_cases,
         "records_missing_conversation_or_message_id": missing_ids,
+        "records_with_resolved_parent_graph_pointer": records_with_resolved_parent,
+        "records_with_child_graph_pointer": records_with_children,
     }
     return packaged, stats
 
@@ -206,14 +282,15 @@ def write_outputs(packaged: list[dict[str, Any]], stats: dict[str, Any], outdir:
         f.write("# Nathan Direct — unsorted tagged substrate\n\n")
         f.write("Generated from raw ChatGPT conversation metadata plus the archive-wide layered autotag stream. ")
         f.write("This surface preserves exact `role=user` text, provenance, accumulated machine tags, duplicate-path relationships, ")
-        f.write("and neighboring-message pointers. It is not a curated quote collection and carries no automatic theory authority.\n\n")
+        f.write("chronological neighboring-message pointers, and raw parent/child branch pointers. It is not a curated quote collection ")
+        f.write("and carries no automatic theory authority.\n\n")
         for k, v in stats.items():
             f.write(f"- {k.replace('_', ' ')}: {v}\n")
         f.write("\n## Shards\n\n")
         for item in manifest_shards:
             f.write(f"- `{Path(item['path']).name}` — {item['records']} records\n")
         f.write("\n`context_dependent_inherited_tag=true` means at least one adjacency topic tag is not directly present among the message-level topic tags. ")
-        f.write("Use the raw neighboring/full-conversation pointers for contextual recovery; do not merge assistant text into Nathan wording.\n")
+        f.write("Use the raw chronological, parent/child, and full-conversation pointers for contextual recovery; do not merge assistant text into Nathan wording.\n")
 
 
 def main() -> None:
