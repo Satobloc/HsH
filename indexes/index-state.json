@@ -1,23 +1,23 @@
 {
   "counts": {
-    "bytes_known": 1094950678,
-    "directories": 64,
-    "files": 859
+    "bytes_known": 1096842434,
+    "directories": 65,
+    "files": 868
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 4,
-    ".csv": 7,
+    ".csv": 11,
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
     ".ipynb": 1,
     ".jpg": 17,
     ".js": 4,
-    ".json": 406,
+    ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 146,
+    ".md": 147,
     ".pdf": 22,
     ".png": 37,
     ".py": 39,
@@ -39,7 +39,7 @@
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 77,
+    "llm-workspace": 86,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 77,
+    "WORKSPACES": 86,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -679,7 +679,7 @@
       "size": 49
     },
     {
-      "content_id": "6e7f42d0a725aa5988d11f9289fed7bfce740865dca34b0dd8d81909d8a24cca",
+      "content_id": "0607ff5ab965f4519589b756b4eb5e133b100437a0a3d25e671919257c5c30f8",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6055,6 +6055,76 @@
       "size": 7625
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "64e61f71459820981696c1f7957131ed1754c016d2c7ac3761351bb884791d96",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/README.md",
+      "role": "llm-workspace",
+      "size": 441
+    },
+    {
+      "content_id": "1ef10433b3338f7698c93d6f4dc7d86077e47018bd4b9ab8d3cbf384a30858bc",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2024_2025_2026_combined.csv",
+      "role": "llm-workspace",
+      "size": 442594
+    },
+    {
+      "content_id": "4d2575315b204f8d3e0ee7bfd5dff83fad229dcc5dd0c3f065e8fc25805289e8",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2024_2025_2026_combined.json",
+      "role": "llm-workspace",
+      "size": 502085
+    },
+    {
+      "content_id": "c687877dd848ba8f8cbe18971d27895cf89f0d148674db28a99b900915c9299f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2024_jan_sep.csv",
+      "role": "llm-workspace",
+      "size": 138160
+    },
+    {
+      "content_id": "3235a8baddb076dca3e36dd138b35c45cecfddd176624e445d5cdf137243b5ee",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2024_jan_sep.json",
+      "role": "llm-workspace",
+      "size": 157688
+    },
+    {
+      "content_id": "77b32035c0a8dd55e3c27101669989675b1784241ae1cdecb738ef1df7facfcf",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.csv",
+      "role": "llm-workspace",
+      "size": 148838
+    },
+    {
+      "content_id": "8f6936ab102da4267e19f7f31eee81b7f4c567be96e23bbb88868558747d6197",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.json",
+      "role": "llm-workspace",
+      "size": 168357
+    },
+    {
+      "content_id": "85febec828512f6c1fb7bd895b491ad9ca6a89aad9a283bef19aefd716d55bb4",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.csv",
+      "role": "llm-workspace",
+      "size": 155736
+    },
+    {
+      "content_id": "6cf73aa94f19c21620d6ed80a5db3f7f4430f7db2c7e02564aa21844708f70f1",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.json",
+      "role": "llm-workspace",
+      "size": 175396
+    },
+    {
       "content_id": "49cf1cce7867a8bea9cb17194a2da71dc70b3e8d097a5878a0b8969d324a5ddd",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/BULLETIN_BOARD.md",
@@ -6426,11 +6496,11 @@
       "size": 2647
     },
     {
-      "content_id": "9eb65145072c9fa7f9e734856fb127c5364ab7bd98ebbaa50df506e7e4db63ae",
+      "content_id": "753244f314844db68441c178ba3c87b0aa70226e551173b5785a4f2bc75bdd31",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md",
       "role": "llm-workspace",
-      "size": 9144
+      "size": 11605
     },
     {
       "content_id": "93d387525e31a731354b3a71790f96e898453f67ef2c8d6147bf78c41e981006",
@@ -6734,7 +6804,7 @@
       "size": null
     },
     {
-      "content_id": "531bbfb984b2e3dd5beac4adbbf6de39f19f9ad4790502c87eb2df3ecbbe7d14",
+      "content_id": "09320eddcd980b7558bbe5f29a5648812e1a4993336ee0120dae4ac1c259b4dc",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6748,7 +6818,7 @@
       "size": 8625
     },
     {
-      "content_id": "5caf888ab99819e6ba847bbf8895c82de934fb55daf069ea5468cc5c94191cab",
+      "content_id": "cb9462a8d80dca6fc828c06146e98e3eec286136b58893de066aa35640082c33",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6769,14 +6839,14 @@
       "size": null
     },
     {
-      "content_id": "394a67a232bd99a5b483754246cadaf7af5d29504ffae79d4a0010e53bfb7bf9",
+      "content_id": "ba75088c9e36c46e4d28632438d7ce06d10010f083dd75561144ebecc2484b94",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "c39e5f68589a07a8fe3a04bff884c9a9a0ddf0c1f921802cbcd05938a4912745",
+      "content_id": "99ca6d22f2b934452b9323151476299dcf99d1650e362989547d53e1ec7d242e",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -6994,8 +7064,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T01:43:00+00:00",
+  "scanned_at_utc": "2026-09-13T02:41:08+00:00",
   "schema_version": 1,
-  "tree_id": "15551da7377b3fde1ee1d08fb164c4617a881c61d5d889b9a9b36cd0367a65fc",
+  "tree_id": "f469488aac7fc288200a34873a917a379c6647c3cd7a318407b22eb8f3eed4e7",
   "tree_response_truncated": false
 }
