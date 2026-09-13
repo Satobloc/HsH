@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
-"""Reproducible Jan-Sep arXiv physics sampler.
+"""Reproducible random pull of arXiv physics abstracts, Jan-Sep 2024/25/26.
 
-arXiv has no random sort. This script therefore uses broad physics category
-GROUPS, measures each group's Jan-Sep result count, allocates the requested
-sample proportionally, then draws short windows from uniformly random offsets
-inside each group's submitted-date ordering. Cross-listed papers are
-deduplicated by arXiv id. A fixed seed makes the pull reproducible.
+Sampling design
+---------------
+arXiv's search API has no random sort. For each year this script:
+1. queries the Jan-1 through Sep-30 submittedDate interval across ALL arXiv;
+2. reads totalResults;
+3. draws uniformly random start offsets in that result ordering;
+4. fetches short windows at those offsets;
+5. retains records having at least one physics-family category;
+6. deduplicates by arXiv id and randomly selects exactly N retained records.
 
-This is an approximate probability sample of the physics corpus, not perfect
-IID sampling. The metadata records group counts, allocations, offsets, seed,
-and query strings so the pull can be audited/repeated.
+Conditioning a uniform random sample of the all-arXiv result ordering on physics
+membership avoids hand-weighting physics subfields. A fixed seed makes the pull
+reproducible. Random-window clustering means this is an approximate probability
+sample, not a claim of perfect IID sampling.
 """
 from __future__ import annotations
 import argparse, csv, json, random, re, time, urllib.error, urllib.parse, urllib.request
@@ -17,38 +22,28 @@ import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-API = "http://export.arxiv.org/api/query"
+API = "https://export.arxiv.org/api/query"
 NS = {"atom":"http://www.w3.org/2005/Atom","opensearch":"http://a9.com/-/spec/opensearch/1.1/"}
-DELAY = 3.5
-WINDOW = 40
+DELAY = 4.0
+WINDOW = 100
+MAX_WINDOWS = 12
 MAX_RETRIES = 5
-
-GROUPS = {
-  "astro": ["astro-ph.CO","astro-ph.EP","astro-ph.GA","astro-ph.HE","astro-ph.IM","astro-ph.SR"],
-  "condmat": ["cond-mat.dis-nn","cond-mat.mes-hall","cond-mat.mtrl-sci","cond-mat.other","cond-mat.quant-gas","cond-mat.soft","cond-mat.stat-mech","cond-mat.str-el","cond-mat.supr-con"],
-  "hep_gr": ["gr-qc","hep-ex","hep-lat","hep-ph","hep-th"],
-  "nuclear": ["nucl-ex","nucl-th"],
-  "quantum": ["quant-ph"],
-  "physics_a": ["physics.acc-ph","physics.ao-ph","physics.app-ph","physics.atom-ph","physics.atm-clus","physics.bio-ph","physics.chem-ph","physics.class-ph"],
-  "physics_b": ["physics.comp-ph","physics.data-an","physics.flu-dyn","physics.gen-ph","physics.geo-ph","physics.hist-ph","physics.ins-det","physics.med-ph","physics.optics","physics.plasm-ph","physics.pop-ph","physics.soc-ph","physics.space-ph"],
-  "mathphys_nlin": ["math-ph","nlin.AO","nlin.CD","nlin.CG","nlin.PS","nlin.SI"],
-}
+PHYS_PREFIXES = ("astro-ph", "cond-mat", "gr-qc", "hep-", "nucl-", "physics.", "quant-ph", "math-ph", "nlin.")
 
 @dataclass
 class Paper:
     year:int; arxiv_id:str; title:str; abstract:str; published:str; updated:str
-    authors:str; primary_category:str; categories:str; link:str; sample_group:str
+    authors:str; primary_category:str; categories:str; link:str
 
 def ws(s): return re.sub(r"\s+"," ",s or "").strip()
 
-def q_for(year, cats):
-    c = " OR ".join(f"cat:{x}" for x in cats)
-    return f"({c}) AND submittedDate:[{year}01010000 TO {year}09302359]"
+def query_for(year:int)->str:
+    return f"submittedDate:[{year}01010000 TO {year}09302359]"
 
 def request_feed(query,start,max_results):
     params={"search_query":query,"start":start,"max_results":max_results,"sortBy":"submittedDate","sortOrder":"ascending"}
     url=API+"?"+urllib.parse.urlencode(params)
-    headers={"User-Agent":"HsH-ArxivSampler/1.2 contact:nathanmcknight@users.noreply.github.com"}
+    headers={"User-Agent":"HsH-ArxivSampler/1.3 contact:nathanmcknight@users.noreply.github.com"}
     last=None
     for attempt in range(MAX_RETRIES):
         try:
@@ -57,77 +52,79 @@ def request_feed(query,start,max_results):
         except urllib.error.HTTPError as e:
             last=e
             if e.code not in (429,500,502,503,504): raise
-            wait=min(60,10*(2**attempt)); print(f"API {e.code}; retry {attempt+1}/{MAX_RETRIES} after {wait}s",flush=True); time.sleep(wait)
+            wait=min(90,15*(2**attempt)); print(f"API {e.code}; retry {attempt+1}/{MAX_RETRIES} after {wait}s",flush=True); time.sleep(wait)
         except Exception as e:
-            last=e
-            wait=min(60,5*(2**attempt)); print(f"API error {e}; retry after {wait}s",flush=True); time.sleep(wait)
+            last=e; wait=min(60,10*(2**attempt)); print(f"API error {e}; retry after {wait}s",flush=True); time.sleep(wait)
     raise RuntimeError(f"arXiv API failed after retries: {last}")
 
-def total(feed):
+def total_results(feed):
     x=feed.find("opensearch:totalResults",NS); return int(x.text) if x is not None and x.text else 0
 
-def parse(feed,year,group):
+def physics_record(cats:list[str])->bool:
+    return any(c.startswith(PHYS_PREFIXES) for c in cats)
+
+def parse(feed,year):
     out=[]
     for e in feed.findall("atom:entry",NS):
         rid=ws(e.findtext("atom:id",default="",namespaces=NS)); aid=rid.rsplit("/",1)[-1]
         pub=ws(e.findtext("atom:published",default="",namespaces=NS))
         if not pub.startswith(f"{year}-"): continue
-        try: m=int(pub[5:7])
-        except: continue
-        if not 1<=m<=9: continue
+        try: month=int(pub[5:7])
+        except Exception: continue
+        if not 1<=month<=9: continue
         cats=[c.attrib.get("term","") for c in e.findall("atom:category",NS)]
+        if not physics_record(cats): continue
         p=e.find("{http://arxiv.org/schemas/atom}primary_category")
-        out.append(Paper(year,aid,ws(e.findtext("atom:title",default="",namespaces=NS)),ws(e.findtext("atom:summary",default="",namespaces=NS)),pub,ws(e.findtext("atom:updated",default="",namespaces=NS)),"; ".join(ws(a.findtext("atom:name",default="",namespaces=NS)) for a in e.findall("atom:author",NS)),p.attrib.get("term","") if p is not None else "","; ".join(cats),rid,group))
+        out.append(Paper(
+            year,aid,
+            ws(e.findtext("atom:title",default="",namespaces=NS)),
+            ws(e.findtext("atom:summary",default="",namespaces=NS)),pub,
+            ws(e.findtext("atom:updated",default="",namespaces=NS)),
+            "; ".join(ws(a.findtext("atom:name",default="",namespaces=NS)) for a in e.findall("atom:author",NS)),
+            p.attrib.get("term","") if p is not None else "",
+            "; ".join(cats),rid))
     return out
 
-def apportion(counts,n):
-    s=sum(counts.values()); raw={g:n*counts[g]/s for g in counts}; alloc={g:int(raw[g]) for g in counts}
-    rem=n-sum(alloc.values())
-    for g in sorted(counts,key=lambda k:(raw[k]-alloc[k],counts[k]),reverse=True)[:rem]: alloc[g]+=1
-    return alloc
-
 def fetch_year(year,n,rng):
-    counts={}; queries={}
-    for i,(g,cats) in enumerate(GROUPS.items()):
+    q=query_for(year)
+    first=request_feed(q,0,1); total=total_results(first)
+    if total<n: raise RuntimeError(f"{year}: totalResults={total}, smaller than requested n={n}")
+    print(f"{year}: all-arXiv totalResults={total}",flush=True)
+    cand={}; offsets=[]
+    for i in range(MAX_WINDOWS):
+        start=rng.randint(0,max(0,total-WINDOW)); offsets.append(start)
         if i: time.sleep(DELAY)
-        q=q_for(year,cats); queries[g]=q; f=request_feed(q,0,1); counts[g]=total(f)
-        print(year,g,"total",counts[g],flush=True)
-    alloc=apportion(counts,n)
-    chosen=[]; allcand={}; offsets={}
-    for g,cats in GROUPS.items():
-        need=alloc[g]; offsets[g]=[]
-        if need<=0 or counts[g]<=0: continue
-        cand={}; tries=0; target=max(need*3,need+20)
-        while len(cand)<target and tries<8:
-            start=rng.randint(0,max(0,counts[g]-WINDOW)); offsets[g].append(start)
-            time.sleep(DELAY); f=request_feed(queries[g],start,WINDOW)
-            for p in parse(f,year,g): cand[p.arxiv_id]=p; allcand[p.arxiv_id]=p
-            tries+=1
-        if len(cand)<need: raise RuntimeError(f"{year} {g}: only {len(cand)} candidates for allocation {need}")
-        ids=rng.sample(sorted(cand),need); chosen.extend(cand[x] for x in ids)
-    uniq={p.arxiv_id:p for p in chosen}
-    if len(uniq)<n:
-        remaining=[x for x in sorted(allcand) if x not in uniq]
-        for aid in rng.sample(remaining,n-len(uniq)): uniq[aid]=allcand[aid]
-    papers=list(uniq.values())
-    if len(papers)>n: papers=rng.sample(papers,n)
-    rng.shuffle(papers)
-    meta={"year":year,"period":f"{year}-01-01 through {year}-09-30","requested_n":n,"actual_n":len(papers),"seed_stream_note":"global seed + year","group_total_results":counts,"proportional_allocation":alloc,"random_start_offsets":offsets,"groups":GROUPS,"queries":queries,"window_size":WINDOW,"sampling_note":"Proportional broad-subfield stratification using arXiv totalResults, random windows at uniformly random offsets, deduplication, then fixed-seed selection. Approximate probability sample; not perfect IID."}
+        feed=request_feed(q,start,WINDOW)
+        for p in parse(feed,year): cand[p.arxiv_id]=p
+        print(f"{year}: window {i+1}, offset={start}, physics candidates={len(cand)}",flush=True)
+        if len(cand)>=max(n*2,150): break
+    if len(cand)<n: raise RuntimeError(f"{year}: only {len(cand)} unique physics candidates after {len(offsets)} random windows")
+    ids=rng.sample(sorted(cand),n); papers=[cand[i] for i in ids]; rng.shuffle(papers)
+    meta={
+      "year":year,"period":f"{year}-01-01 through {year}-09-30","n":n,
+      "all_arxiv_total_results":total,"candidate_pool_unique_physics":len(cand),
+      "windows_requested":len(offsets),"window_size":WINDOW,"random_start_offsets":offsets,
+      "query":q,"physics_category_prefixes":PHYS_PREFIXES,
+      "sampling_note":"Uniform random offsets in the all-arXiv submittedDate-ordered Jan-Sep result set; retain records with a physics-family category; deduplicate; fixed-seed simple random sample from retained candidates. Approximate probability sample because records arrive in windows rather than independent single draws."
+    }
     return papers,meta
 
 def write_csv(path,papers):
-    fields=list(Paper.__dataclass_fields__); path.parent.mkdir(parents=True,exist_ok=True)
+    path.parent.mkdir(parents=True,exist_ok=True); fields=list(Paper.__dataclass_fields__)
     with path.open("w",newline="",encoding="utf-8") as f:
-        w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); [w.writerow(asdict(p)) for p in papers]
+        w=csv.DictWriter(f,fieldnames=fields); w.writeheader();
+        for p in papers: w.writerow(asdict(p))
 
 def main():
-    a=argparse.ArgumentParser(); a.add_argument("--years",nargs="+",type=int,default=[2024,2025,2026]); a.add_argument("--n",type=int,default=100); a.add_argument("--seed",type=int,default=20260912); a.add_argument("--out",type=Path,default=Path("results")); x=a.parse_args(); x.out.mkdir(parents=True,exist_ok=True)
-    allp=[]; metas={}
+    a=argparse.ArgumentParser(); a.add_argument("--years",nargs="+",type=int,default=[2024,2025,2026]); a.add_argument("--n",type=int,default=100); a.add_argument("--seed",type=int,default=20260912); a.add_argument("--out",type=Path,default=Path("results")); x=a.parse_args()
+    x.out.mkdir(parents=True,exist_ok=True); allp=[]; metas={}
     for y in x.years:
         p,m=fetch_year(y,x.n,random.Random(x.seed+y)); allp+=p; metas[str(y)]=m
-        write_csv(x.out/f"arxiv_random_{x.n}_{y}_jan_sep.csv",p); (x.out/f"arxiv_random_{x.n}_{y}_jan_sep.json").write_text(json.dumps({"metadata":m,"papers":[asdict(z) for z in p]},indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+        write_csv(x.out/f"arxiv_random_{x.n}_{y}_jan_sep.csv",p)
+        (x.out/f"arxiv_random_{x.n}_{y}_jan_sep.json").write_text(json.dumps({"metadata":m,"papers":[asdict(z) for z in p]},indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+        time.sleep(DELAY)
     write_csv(x.out/f"arxiv_random_{x.n}_2024_2025_2026_combined.csv",allp)
     (x.out/f"arxiv_random_{x.n}_2024_2025_2026_combined.json").write_text(json.dumps({"metadata":{"seed":x.seed,"years":x.years,"per_year":metas},"papers":[asdict(z) for z in allp]},indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    (x.out/"README.md").write_text(f"# arXiv random physics abstract pull\n\n- Jan 1-Sep 30 for {', '.join(map(str,x.years))}\n- {x.n} abstracts/year; {len(allp)} total\n- fixed seed `{x.seed}`\n- broad physics corpus split into 8 category groups\n- sample allocated in proportion to arXiv `totalResults` by group, then drawn from uniformly random submitted-date offsets\n- cross-lists deduplicated by arXiv id\n\nThis is a reproducible approximate probability sample, not perfect IID sampling. Full counts, allocations, offsets, queries and categories are in the JSON metadata.\n",encoding="utf-8")
-    print("Wrote",len(allp),"papers to",x.out,flush=True)
+    (x.out/"README.md").write_text(f"# arXiv random physics abstract pull\n\n- Window: Jan 1-Sep 30 for {', '.join(map(str,x.years))}\n- Sample: {x.n} abstracts/year; {len(allp)} total\n- Fixed seed: `{x.seed}`\n- Source: arXiv Atom search API\n- Method: random offsets over the complete date-bounded arXiv result ordering; condition on physics-category membership; deduplicate; random select.\n\nThis is reproducible and designed for structural comparison. It is an approximate probability sample rather than perfect IID sampling because API records are fetched in short windows. Exact offsets and source metadata are preserved in the JSON files.\n",encoding="utf-8")
+    print(f"Wrote {len(allp)} papers to {x.out}",flush=True)
 if __name__=="__main__": main()
