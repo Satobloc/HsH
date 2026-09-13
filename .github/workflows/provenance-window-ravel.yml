@@ -1,5 +1,6 @@
 name: Ravel raw provenance window
 
+# Bounded extraction for manual provenance review; raw source remains authoritative.
 on:
   push:
     branches: [main]
