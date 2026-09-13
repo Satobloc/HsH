@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T07:15:33+00:00`
-- Tree/content state: `ba4f968e9974b043a9a54f71940bca39825b2cd905578d36635667a623e85e4c`
-- Coverage: 891 files, 68 directories
+- Scanned: `2026-09-13T07:18:20+00:00`
+- Tree/content state: `6f680f95c6283886f0c5b87d807f35f2ecabfdc5f6ce0bdaa3f8da7e366ff0ad`
+- Coverage: 892 files, 68 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 104 |
+| `WORKSPACES` | 105 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 162 |
+| `.md` | 163 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 41 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 104 |
+| `llm-workspace` | 105 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1124,6 +1124,7 @@
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 3786 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md` — 3161 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2001-to-2207.md` — 7890 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md` — 6372 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1835-to-July17-tail.md` — 5909 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
