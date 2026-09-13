@@ -3,9 +3,9 @@
 **Source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.10•26.09.12•Rotations in Higher Dimensions — raw.json`  
 **Conversation ID:** `6a5125ae-795c-83ea-908d-7c8bb5a67e33`  
 **Pass date:** 2026-09-13  
-**Read boundary:** strictly after `c61edfa8-a9a2-4b36-9602-8d6913042464` (2026-07-10 14:21:21.325 EDT), through the final ordinary July 10 user turn `c642ca2d-fac1-4808-9008-c18a59c207c4` (2026-07-10 14:43:52.061 EDT), plus the next user-role node encountered on 2026-09-12, which is separately tagged as pasted/admin material rather than promoted.
+**Read boundary:** strictly after `c61edfa8-a9a2-4b36-9602-8d6913042464` (2026-07-10 14:21:21.325 EDT), through the final ordinary July 10 user turn `c642ca2d-fac1-4808-9008-c18a59c207c4` (2026-07-10 14:43:52.061 EDT), plus the next Nathan/user node encountered on 2026-09-12.
 
-## User-authored messages read and tagged
+## Nathan/user-authored messages read and tagged
 
 | User message ID | Local time (EDT) | Manual tags | Disposition |
 |---|---|---|---|
@@ -18,24 +18,23 @@
 | `ceac1e35-4f3a-4d5b-9f0f-2707c53de38a` | 2026-07-10 14:39:29.520 | `RAW-USER-VERIFIED` `SPHERES` `DEFORMATION` `TOY-MODEL` `METHOD` `NEXT-OPERATION` `SHORT-TURN` | VERIFIED batch |
 | `b6a40994-6db5-4264-a405-569d6c9c2080` | 2026-07-10 14:40:50.611 | `RAW-USER-VERIFIED` `NATHAN-CORRECTION` `SELF-CORRECTION` `SPHERES` `4D-THINKING` `3D-MODEL` `2D-MODEL` `PARTICLE-VECTOR` `INTERSECTION-POINTS` `CONSTRAINT` | VERIFIED batch |
 | `c642ca2d-fac1-4808-9008-c18a59c207c4` | 2026-07-10 14:43:52.061 | `RAW-USER-VERIFIED` `NATHAN-CORRECTION` `CORRECTIVE` `VECTOR` `PARTICLE-VECTOR` `TWO-POINT-REQUIREMENT` `INTERSECTION-POINTS` `POINTEDNESS` `CLARIFICATION` | VERIFIED batch |
-| `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` | 2026-09-12 08:43:33.276 | `ROLE-USER` `POSSIBLE-PASTED-MATERIAL` `ADMIN` `PAST-THEORIST-SURVEY` `INSTITUTIONAL-MEMORY` `PROVENANCE` `DO-NOT-PROMOTE-AS-NATHAN-WORDING` | tagged; not promoted |
+| `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` | 2026-09-12 08:43:33.276 | `RAW-USER-VERIFIED` `ADMIN` `PAST-THEORIST-SURVEY` `INSTITUTIONAL-MEMORY` `PROVENANCE` | Nathan-authored; eligible for promotion |
 
 ## Assistant-context tagging
 
 Assistant passages encountered between these user turns were used only to establish immediate conversational context and are collectively tagged `CONTEXT-ONLY`, `NON-NATHAN`, and where they extended the construction beyond Nathan's prompt, `ASSISTANT-ELABORATION-DO-NOT-PROMOTE`. No assistant proposition is transferred into Nathan's record.
 
-## Provenance note
+## Provenance correction — 2026-09-13
 
-The September 12 user-role node is a long institutional-memory survey/template rather than ordinary conversational wording. Raw `role=user` is therefore treated as necessary but not sufficient for promotion. It is retained as `POSSIBLE-PASTED-MATERIAL` / `DO-NOT-PROMOTE-AS-NATHAN-WORDING` unless a separate provenance audit establishes authorship of the template itself.
+Nathan explicitly clarified that in these archives `author.role = user` is always Nathan. The earlier speculative `POSSIBLE-PASTED-MATERIAL` / `DO-NOT-PROMOTE-AS-NATHAN-WORDING` classification on message `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` was therefore wrong and has been removed under Nathan's explicit correction. A template, survey, quotation, or pasted-looking structure inside a user turn does not create a new speaker.
 
 ## Coverage result
 
-- ordinary July 10 user messages newly read/tagged: **9**
-- newly promoted Nathan messages: **9**
-- additional user-role pasted/admin node tagged: **1**
+- July 10 Nathan/user messages newly read/tagged: **9**
+- September 12 Nathan/user node read/tagged: **1**
+- total Nathan/user messages covered by this pass: **10**
 - provenance-risk internal user nodes encountered: **0**
-- explicit Nathan redaction/downgrade instructions encountered: **0**
 
 ## Next boundary
 
-For this conversation, ordinary July 10 theory dialogue is covered through `c642ca2d-fac1-4808-9008-c18a59c207c4` at 14:43:52.061 EDT. The next chronological user-role node is the September 12 survey/template already tagged here; inspect later nodes only if the conversation continues beyond that survey in the most-complete export.
+For this conversation, July 10 theory dialogue is covered through `c642ca2d-fac1-4808-9008-c18a59c207c4` at 14:43:52.061 EDT, and the next Nathan/user node (`6f6bbfe0-6e84-4f08-b282-db40bebc7a85`, 2026-09-12 08:43:33.276 EDT) has also been tagged. Continue after that node if the most-complete export contains later Nathan turns.
