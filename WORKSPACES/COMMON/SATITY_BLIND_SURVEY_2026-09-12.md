@@ -106,21 +106,51 @@ This run therefore advances **coverage and source integrity**, not the FRINGE sc
 
 ---
 
+### Chunk 2C / Run 2 — contemporary-research access audit + topology-toolbox source pass
+
+**Bounded source paths**
+- `OUTSIDE RESEARCH LIBRARY/CONTEMPORARY RESEARCH/` — first five PDFs targeted.
+- `indexes/human_source_index/folder-records__outside-research-library-contemporary-research-48ca90__001.md`.
+- `indexes/bibliography_provisional/PROVISIONAL_0014.md`.
+- `OUTSIDE RESEARCH LIBRARY/MISC/ARXIV ABSTRACTS — TOPOLOGY.txt`.
+
+**Access/coverage result**
+The first five Contemporary Research PDFs were identified and targeted, but the available internal route exposed only provisional metadata/first-page heuristics and the runtime could not retrieve the binary PDFs for claim-level reading. No rubric marks were assigned from their titles. They remain unscored.
+
+The arXiv topology capture is source-bearing listing text rather than an analytic layer. It directly records contemporary professional work involving knots/links, topology in quantum physics, string-net methods, BV mathematical physics, and *Constrained integrability and anyonic chains* cross-listed across high-energy theory, statistical mechanics, mathematical physics and quantum physics. This is sufficient evidence for toolbox-presence predicates, but not for stronger particle-ontology or unification claims.
+
+#### CORE changes from Chunk 2C
+
+**ADD PASS:** `AC004` — braid, knot, anyon and topological methods are demonstrably part of the contemporary professional mathematical-physics/quantum toolbox.
+
+Minimum evidence: the source listing includes current knot/link work, quantum/topological cross-listing, string-net work and an anyonic-chain paper in physics-facing arXiv categories.
+
+**ADD FAIL/ABSENT:** `AN008` — professional physics does **not** prohibit braid/holonomy/chirality from structural roles.
+
+Minimum evidence: the categorical negative is contradicted by current professional topology/anyon/string-net work. This does not imply those methods are central to all physics.
+
+**Explicit SKIP after review:** `AC007 AC014 AM004 AM005 AM007 AM010 I002`.
+
+Reason: the available source listing does not establish the stronger roles specified by those criteria. In particular, current topology/anyon work does not by itself establish a common morphological grammar, a geometry-zoo particle ontology, emergent quantization as a general doctrine, a braid-centered QCD program, or SAT-style braid centrality.
+
+No WIDE or FRINGE score was changed in this chunk.
+
+---
+
 ## Current patient status
 
 ### CORE professional physics
-Substantive first-pass evidence exists for methodological, representational, mathematical-toolbox, and established-physics-recovery portions of the rubric. SAT-specific ontology remains mostly SKIP.
+Substantive first-pass evidence exists for methodological, representational, mathematical-toolbox, and established-physics-recovery portions of the rubric. The toolbox now explicitly includes professional topology/knot/anyon work (`AC004 PASS`), while stronger SAT-specific uses remain mostly `SKIP`.
 
 ### WIDE respectable / pop / casual physics culture
 Not yet sufficiently sampled as its own patient. Science-news material contributes to the source pool, but a separate WIDE score vector has not yet been frozen.
 
 ### FRINGE non-accepted physics ecosystem
-Candidate corpus is now cleanly enumerated and obvious contamination/duplicates are quarantined. No claim-level score vector has yet been frozen.
+Candidate corpus is cleanly enumerated and obvious contamination/duplicates are quarantined. No claim-level score vector has yet been frozen because the underlying heterodox primary PDFs remain inaccessible through the present binary route.
 
 ## Next unreviewed chunk
 
-1. Obtain claim-level text for a small heterodox primary-source subset **without** using the forbidden analytic layers; score only clear FRINGE presences.
-2. If the PDF binary route remains unavailable, move to accessible primary-source text/HTML captures in source-bearing PARADIGM/OTHER-RESEARCH directories rather than substituting analysis.
-3. Then build a separate WIDE patient pass from legitimate science communication / broad physics-interest material.
-4. Re-audit all provisional CORE marks and demote any patient-wide overreach to `SKIP`.
-5. External last-year / last-month / last-week validation remains deferred until the blind internal first pass is substantially complete.
+1. Build a bounded WIDE patient pass from legitimate science-news / science-communication primary content already accessible in the archive.
+2. Continue looking for a claim-level heterodox primary-text/HTML route without crossing into forbidden analytic material.
+3. Re-audit earlier provisional CORE passes and demote any patient-wide overreach to `SKIP`.
+4. External last-year / last-month / last-week validation remains deferred until the blind internal first pass is substantially complete.
