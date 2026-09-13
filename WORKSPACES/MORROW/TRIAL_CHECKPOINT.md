@@ -1,6 +1,6 @@
 # Morrow — trial workflow and checkpoint
 
-Status: accepted / activation pending confirmation. 2026-09-13.
+Status: ACTIVE — scheduler confirmed activation and replacement of the old prompt at 2026-09-13T15:27:13Z. 2026-09-13.
 Setup time observed: 2026-09-13T15:26:19Z (11:26:19 EDT).
 Requested first scheduled run: 2026-09-13 11:40 America/New_York; hourly at :40. Actual execution may differ; record each run's actual start.
 Existing task to replace: `6a9deb436bd0819196ab3ec694e294c2`, associated by scheduler with conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`. This association is scheduler metadata, not a claim about current runtime identity.
