@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
+      - 'WORKSPACES/COMMON/scripts/package_nathan_direct.py'
       - '.github/workflows/layered-nathan-autotag.yml'
   workflow_dispatch:
 
@@ -30,7 +31,7 @@ jobs:
           python-version: '3.12'
       - name: Run archive-wide layered autotagger
         run: |
-          mkdir -p WORKSPACES/COMMON/analysis indexes/autotag
+          mkdir -p WORKSPACES/COMMON/analysis indexes/autotag indexes/nathan-direct
           python WORKSPACES/COMMON/scripts/layered_autotag_nathan.py . \
             --out WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
             --summary indexes/autotag/AUTOTAG_SUMMARY.md \
@@ -39,22 +40,33 @@ jobs:
             --user-tag-index indexes/autotag/user-message-tags.jsonl \
             --structural-index-state indexes/index-state.json \
             --window 4
-      - name: Validate durable tag outputs
+      - name: Package Nathan Direct substrate
+        run: |
+          rm -rf indexes/nathan-direct
+          python WORKSPACES/COMMON/scripts/package_nathan_direct.py \
+            WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
+            --outdir indexes/nathan-direct
+      - name: Validate durable outputs
         run: |
           python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
+          python -m json.tool indexes/nathan-direct/MANIFEST.json >/dev/null
           test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
           test -s indexes/autotag/user-message-tags.jsonl
-      - name: Show summary
-        run: sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
-      - name: Commit durable autotag indexes
+          test -s indexes/nathan-direct/README.md
+          find indexes/nathan-direct -name 'nathan-direct-*.jsonl' -type f -size +0c | grep -q .
+      - name: Show summaries
+        run: |
+          sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
+          cat indexes/nathan-direct/README.md
+      - name: Commit durable autotag and Nathan Direct indexes
         run: |
           git config user.name "H(s)H Autotag Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add indexes/autotag
+          git add indexes/autotag indexes/nathan-direct
           if git diff --cached --quiet; then
-            echo "Autotag indexes already current"
+            echo "Autotag and Nathan Direct indexes already current"
           else
-            git commit -m "[skip autotag] Refresh archive-wide conversation autotags"
+            git commit -m "[skip autotag] Refresh archive-wide tags and Nathan Direct packages"
             git push origin HEAD:main
           fi
       - uses: actions/upload-artifact@v4
@@ -63,3 +75,4 @@ jobs:
           path: |
             WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl
             indexes/autotag/
+            indexes/nathan-direct/
