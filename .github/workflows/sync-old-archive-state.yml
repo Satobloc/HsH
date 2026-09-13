@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 10 * * *'
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/ACQUISITION_PIPELINE/sync_old_archive_state.py'
+      - '.github/workflows/sync-old-archive-state.yml'
 
 permissions:
   contents: write
