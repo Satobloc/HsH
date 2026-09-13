@@ -16,6 +16,8 @@ from typing import Any
 
 import build_conversation_viewer as base
 
+_BASE_CANONICAL_PATH = base.canonical_path
+
 
 def existing_canonical_path(record: dict[str, Any]) -> str | None:
     """Return the first supported manifest path that exists in the checkout.
@@ -34,7 +36,7 @@ def existing_canonical_path(record: dict[str, Any]) -> str | None:
             continue
         if Path(normalized).is_file():
             return normalized
-    return base.canonical_path(record)
+    return _BASE_CANONICAL_PATH(record)
 
 
 def main() -> int:
