@@ -137,20 +137,64 @@ No WIDE or FRINGE score was changed in this chunk.
 
 ---
 
+### Chunk 3 / Run 3 — WIDE respectable/pop/casual physics source-text pass
+
+**Access breakthrough**
+`HSH_RESOURCES/indexes/AI_START_HERE.md` documents the repository's extraction manifest: `derived/manifests/extraction.jsonl` maps each archived `source_path` to a full extracted `derived/text/<sha256>.txt`. This route bypasses the earlier binary-PDF blocker and permits claim-level reading without leaving the HSH_RESOURCES primary-source corpus.
+
+**Bounded claim-level sample**
+1. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/A new hypothesis could connect two of physics’ greatest mysteries_ dark energy and quantum gravity.pdf` → `derived/text/90316b0cfebb35db92065020670ed6603b904c3d87d3dba5b6bc2b217d1919ac.txt`.
+   - Evidence: explicitly labels the proposal a hypothesis; links dark energy to quantum gravity acting on spacetime geometry; foregrounds the microscopic/cosmological scale gap rather than hiding it.
+2. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/A simple discovery is shaking the foundations of spintronics _ ScienceDaily.pdf` → `derived/text/5029c5a37bbbbd19b57d24f1228ff306a7ea6e632a8e60c2f7d13dff5fe93873.txt`.
+   - Evidence: dominant SMR explanation fails where its required mechanism is absent; a simpler two-vector interface-scattering model predicts large single-layer signals, higher-order contributions, and a universal sum rule; prior data are reinterpreted under that framework.
+3. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/Caltech startup unveils physics AI that skips transformers_ No benchmark proof yet.pdf` → `derived/text/8a2629b53fa64320be96d33246ee317d3e3bb315404a9b0189b670dabc6608ef.txt`.
+   - Evidence: architecture claims are explicitly separated from benchmark validation; the model is described as operating on continuous 3+1D fields rather than token sequences; the article warns that the five-trillion-value claim is not directly comparable to LLM context windows.
+4. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/Chemical physicists quantitatively model electron interactions in real quantum materials.pdf` → `derived/text/c67b1ea2074323cacb208fb9e9ec58225631741765fa3c02129676b1bc07f2d4.txt`.
+   - Evidence: simplified qualitative Kondo models are replaced by material-specific first-principles treatment; Kondo behavior is explicitly used as a benchmark; the work is framed as a step toward harder correlated-material systems.
+5. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/NEWS - Taking dark energy out of the equation…pdf` → `derived/text/de5ac4dc666eaee37e6191de0a6ecf64021192d9cac85f25cc561a0f12ad7557.txt`.
+   - Evidence: preserves Einstein–Euler machinery while challenging ΛCDM interpretation; argues that Friedmann instability may yield accelerated expansion without inserting dark energy; explicitly advocates a simpler account inside Einstein's theory.
+6. `OUTSIDE RESEARCH LIBRARY/SCIENCE NEWS/Scientists observe Einstein's gravity in the quantum world.pdf` → `derived/text/924650a1dde01eaef70e532fb193336a7ed44102c62911f20fd761ea4981b7a1.txt`.
+   - Evidence: calls GR and QM two extraordinarily successful descriptions; states that their relation remains unresolved; reports an experiment testing equivalence-principle behavior on a quantum object rather than treating either framework as disposable.
+
+#### WIDE judgments added in Chunk 3
+
+**ADD PASS:**
+- `B002` — same observed phenomena are explicitly retained while explanatory interpretation is changed; strongest examples are UMR/two-vector MR and cosmic acceleration/Einstein–Euler.
+- `B006` — simpler candidate explanations are positively preferred when they cover the evidence with fewer auxiliary mechanisms; strongest examples are two-vector MR replacing a growing list of mechanisms and the Einstein–Euler no-added-dark-energy account.
+- `AF002` — GR is treated as a successful baseline unless forced otherwise.
+- `AF003` — QM is treated as a successful baseline unless forced otherwise.
+- `AH010` — ambiguity is preserved where evidence does not settle the question: hypothesis language, unresolved GR/QM fit, and explicit lack of benchmark validation.
+- `AH011` — explanatory simplicity is positively valued but tied to empirical breadth.
+- `AM019` — respectable/pop science in this bounded sample treats successful mainstream frameworks as constraints/baselines to extend or reinterpret, not enemies to reject wholesale.
+
+**ADD FAIL/ABSENT on negative fingerprint:**
+- `AN018` — WIDE does not reject mainstream physics wholesale in this sample.
+- `AN020` — WIDE does not erase distinctions among hypothesis, model, prediction, experiment, benchmark, dominant theory, and unresolved question.
+
+**Explicit SKIP after review:** `B001 B003 B004 B005 B007 B008 B009 B013 B014 B015 AF001 AF004 AF009 AH005 AH009 AE006 AE015 AN010 AN012`.
+
+Reason: these may be plausible or locally illustrated, but the bounded WIDE sample does not establish the exact patient-level predicate strongly enough. In particular, generic use of geometry or model language is not sufficient to score SAT's specific cartographic/worldline criteria.
+
+**WIDE calibration:** this patient is rhetorically more permissive than CORE—headlines emphasize overturned assumptions, mysteries, bizarre effects, and universal explanations—but the underlying respectable sources still retain epistemic status markers and mainstream constraints. This makes WIDE somewhat more receptive to SAT-like explanatory motifs without making it methodologically equivalent to the non-accepted fringe.
+
+A detailed source/evidence record is also stored at `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md`.
+
+---
+
 ## Current patient status
 
 ### CORE professional physics
-Substantive first-pass evidence exists for methodological, representational, mathematical-toolbox, and established-physics-recovery portions of the rubric. The toolbox now explicitly includes professional topology/knot/anyon work (`AC004 PASS`), while stronger SAT-specific uses remain mostly `SKIP`.
+Substantive first-pass evidence exists for methodological, representational, mathematical-toolbox, and established-physics-recovery portions of the rubric. The toolbox explicitly includes professional topology/knot/anyon work (`AC004 PASS`), while stronger SAT-specific uses remain mostly `SKIP`.
 
 ### WIDE respectable / pop / casual physics culture
-Not yet sufficiently sampled as its own patient. Science-news material contributes to the source pool, but a separate WIDE score vector has not yet been frozen.
+A provisional source-backed score vector now exists from a bounded six-story science-news sample. Clear passes center on reinterpretation of preserved phenomena (`B002`), simplicity under constraint (`B006`), retention of GR/QM baselines (`AF002 AF003`), preserved uncertainty (`AH010`), and constrained explanatory simplicity (`AH011`). Negative-fingerprint items `AN018 AN020` are currently absent.
 
 ### FRINGE non-accepted physics ecosystem
-Candidate corpus is cleanly enumerated and obvious contamination/duplicates are quarantined. No claim-level score vector has yet been frozen because the underlying heterodox primary PDFs remain inaccessible through the present binary route.
+Candidate corpus is cleanly enumerated and contamination/duplicates are quarantined. The extraction-manifest route discovered in Run 3 should now allow claim-level reading of the heterodox primary PDFs instead of leaving them blocked at the binary layer.
 
 ## Next unreviewed chunk
 
-1. Build a bounded WIDE patient pass from legitimate science-news / science-communication primary content already accessible in the archive.
-2. Continue looking for a claim-level heterodox primary-text/HTML route without crossing into forbidden analytic material.
-3. Re-audit earlier provisional CORE passes and demote any patient-wide overreach to `SKIP`.
+1. Use `derived/manifests/extraction.jsonl` to resolve the selected `EXPOSURE_STATS/MISC_PAPERS` heterodox PDFs to `derived/text/` and begin the FRINGE score vector at claim level.
+2. Re-audit earlier provisional CORE passes and demote any patient-wide overreach to `SKIP`.
+3. Expand WIDE only after the FRINGE bounded pass, avoiding repeated sampling of the same science-news style.
 4. External last-year / last-month / last-week validation remains deferred until the blind internal first pass is substantially complete.
