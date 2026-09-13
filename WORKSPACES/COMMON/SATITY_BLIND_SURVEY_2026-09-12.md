@@ -77,11 +77,28 @@ Important mixed cases:
 - `AF...` / `AM019`: some fringe papers explicitly recover/compare mainstream limits; others use replacement-oriented rhetoric.
 - epistemic-status criteria are mixed: Neutrinoverse calls itself falsifiable hypothesis; D4 lists unresolved technical items; UCBF uses much stronger closure/truth language.
 
+### Chunk 5 — FRINGE robustness controls outside the initial lattice-heavy cluster
+Detailed record: `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN5_FRINGE_ROBUSTNESS.md`.
+
+Claim-level controls:
+1. `Relaxation-Driven Cyclic Cosmology (RDCC) v21.0` -> `derived/text/2476ab0d85bbea62b1db95b220216431cf8b8dd5ffa90dd4c39a2c3ede621039.txt`.
+2. `Lehew-2026-Pascal-Anti-Diagonal Alpha-Letter.pdf` -> `derived/text/09132162cc00c4f12afc21908f59d819fa86e0b7cd5de8ff8e8cd0f2bbb397f9.txt`.
+3. `Dark Matter as a Trapped K=6 Remnant` -> `derived/text/e1fc1adec5a285d6f42cf0058ed5cfafd0313b0391683a7172dd73973dc093e7.txt`; counted only as a same-family consistency check, not an independent ecosystem specimen.
+
+**FRINGE marks strengthened cross-family:** `AE002 AM017 R001 AC001`.
+
+- RDCC preserves standard GR plus a small field content while trying to explain several cosmological phenomena through one two-sector mechanism, explicitly labels predictions testable/falsifiable, and uses a single controlling infrared parameter.
+- Pascal anti-diagonal work explicitly claims pre-anchored inputs, zero free parameters and falsification conditions while attempting a highly nonstandard constant recovery. It therefore strengthens the anti-tuning aspiration but simultaneously warns against equating anti-tuning rhetoric with successful methodology.
+
+**Important robustness correction:** the stronger Run-4 SAT-like ontology cluster (`F001 G002 G004 K001 M001 O001 O002 O010 AM005 AM006 AM007 AM008`) is **not independently reproduced by every non-FCC control**. Keep those PASS marks as sample-supported, but do not call them universal fringe traits. RDCC is strongly unificatory without a vacuum/matter geometric substrate; the Pascal construction is mainly a constant-recovery program.
+
+**Additional FRINGE SKIP retained/added:** `AE009 AE015 AH010 AF002 AF003 AM019 AN010 AN011 AN012 AN013 AN020` because the control sample is methodologically mixed.
+
 ### Current comparative observation
-The sampled FRINGE patient is substantially closer to SAT than CORE on several **structural ontology/unification motifs**: one substrate, geometry-as-particle-identity, vacuum/matter unification, emergent quantum structure, common force mechanisms and aggressive parameter elimination. But the fringe sample is methodologically heterogeneous, so no blanket `fringe = epistemically undisciplined` score is justified.
+The sampled FRINGE patient is substantially closer to SAT than CORE on several **structural ontology/unification motifs**: one substrate, geometry-as-particle-identity, vacuum/matter unification, emergent quantum structure, common force mechanisms and aggressive parameter elimination. The robustness controls narrow that claim: maximal unification and anti-parameter aspiration recur across independent fringe families, while the more specific common-substrate/geometry-zoo motifs are concentrated in particular families rather than universal across fringe physics. Methodological quality remains heterogeneous, so no blanket `fringe = epistemically undisciplined` score is justified.
 
 ## Next unreviewed chunk
 
-1. Add 2–3 independent non-FCC fringe controls (`Relaxation-Driven Cyclic Cosmology`, `Pascal Anti-Diagonal`, `Dark Matter as a Trapped K=6 Remnant` or equivalent) to test whether the FRINGE marks survive outside the FCC/lattice-heavy cluster.
-2. Re-audit broad CORE PASS marks and demote patient-wide overreach to `SKIP` where necessary.
-3. External last-year / last-month / last-week validation remains deferred until the blind internal first pass is substantially complete.
+1. Re-audit the broad CORE PASS list against exact patient-level wording and demote overbroad marks to `SKIP` where evidence only shows existence in professional physics rather than a property of CORE-as-a-whole.
+2. Freeze the internal first-pass comparison after that calibration.
+3. Then begin clearly separated external validation windows: last year / last month / last week, preserving any changes rather than rewriting the blind pass.
