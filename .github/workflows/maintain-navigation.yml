@@ -93,7 +93,7 @@ jobs:
       - name: Build archive-wide conversation autotag indexes
         run: |
           mkdir -p WORKSPACES/COMMON/analysis indexes/autotag
-          python WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py . \
+          python WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py . \
             --out WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
             --summary indexes/autotag/AUTOTAG_SUMMARY.md \
             --index indexes/autotag/CONVERSATION_TAG_INDEX.md \
@@ -109,6 +109,7 @@ jobs:
         run: |
           python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan.py
           python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py
+          python -m py_compile WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py
 
       - name: Validate viewer JavaScript
         run: |
