@@ -82,3 +82,10 @@ Queue update: [Nathan Direct](../../indexes/nathan-direct/README.md) now has a r
 [Corrected Janus 20:01–20:08 message mapping](JANUS_UUID_RECONCILIATION_2026-09-13.md). Three raw blobs agree; two older residuals records had shifted UUIDs and one transferred an assistant child's nonstandard recipient onto an ordinary user parent. Historical bodies remain under visible correction; current compendium fields are corrected. Tags: `RAW-ID-RECAPTURED`, `PROVENANCE-CORRECTION`, `SUPERSEDES-METADATA`, `COVERAGE-LIMIT`. No theory judgment or full-conversation ingestion claimed.
 
 Next continuity region: Janus user node `a044a94b-e4fe-4d27-874f-a503022cfa4d` (“Let's talk about Aldus and Morrow”) through the completed answer to `8466ff95-e853-4875-8f53-c936ca9f17a2` (“Are you able to see the conversations I''ve had with them?”). Record role/access claims as historical testimony and separately inventory live evidence.
+
+
+## Role/access capability audit — 2026-09-13
+
+[Janus Aldus/Morrow exchange](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md) read sequentially from `a044a94b…` through completed answer `cb5953a8…`; eight relevant nodes agree across all three Janus blobs. Tags: `SOURCE-IDENTITY`, `CAPABILITY-BOUNDARY`, `HISTORICAL-TESTIMONY`, `RAW-ID-COMPARED`, `COVERAGE-LIMIT`.
+
+The role architecture is a historical Janus proposal; the current Morrow role derives from Nathan's later controlling workflow. The access answer is partly corroborated: exported metadata records one seeded `pca` citation to an exact Aldus raw user node. It does not expose a Morrow citation, a returned transcript, direct inter-instance communication, or present live-thread access. Stronger context-bleed language remains testimony until its candidate raw Morrow region is read directly. Scoped Drive query `Aldus Morrow` returned no result; no broad Drive absence is inferred.
