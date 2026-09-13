@@ -1,3 +1,5 @@
+> **QUARANTINED — 2026-09-13:** Nathan halted this integration lane after identifying a category failure in its assessment process. This generated artifact is preserved only as history and must not control theory, predictions, papers, or future work. See [quarantine manifest](../../QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md).
+
 # Finite-Core Representation Comparison Ledger
 
 Status: **active discrimination ledger**. This compares model representations; it does not identify a physical object.
