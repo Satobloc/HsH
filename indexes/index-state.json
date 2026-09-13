@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1581605461,
+    "bytes_known": 1581684367,
     "directories": 72,
-    "files": 923
+    "files": 931
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 411,
     ".jsonl": 3,
     ".lean": 3,
-    ".md": 184,
+    ".md": 192,
     ".pdf": 22,
     ".png": 37,
     ".py": 43,
@@ -39,7 +39,7 @@
     "generated-catalog": 10,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 127,
+    "llm-workspace": 135,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 127,
+    "WORKSPACES": 135,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -742,7 +742,7 @@
       "size": 49
     },
     {
-      "content_id": "4e248b3a1c60fc3184b62d905b2d76d8613d1d1127ef82164832bd2bc49b3ab8",
+      "content_id": "6d9d39cd8ebb0af5f8c2b7a9554fb06bacc8474db3d88f949de0900d35545c77",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6202,11 +6202,11 @@
       "size": 175396
     },
     {
-      "content_id": "00533608833e2c97c4df68746a4cf42b89e19a4f9944e56783ad079c6f9d17f0",
+      "content_id": "a7624142b419f4b14757a52c3c9a2e4748392bd538d6e56a5003bbf4485cf53b",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/BULLETIN_BOARD.md",
       "role": "llm-workspace",
-      "size": 10691
+      "size": 12818
     },
     {
       "content_id": "b999b5b8381f66f1774181963abc319a9361df9ea66ec9030ef31a4b382d86b4",
@@ -6335,11 +6335,11 @@
       "size": 8449
     },
     {
-      "content_id": "ab1efa34b8a416f365bb8d748df62502af8a273357665b7af4a4c165f855e73b",
+      "content_id": "1eb322a7a0942c8f2974409deec6c0f38e12956403da4acee87f7a8b8f0af677",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 138055
+      "size": 171106
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6657,6 +6657,13 @@
       "size": 20630
     },
     {
+      "content_id": "a9400366f57ed4098dc7a8b039361a5f8d8cd0a98599e6451609b2081f8ce492",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md",
+      "role": "llm-workspace",
+      "size": 5159
+    },
+    {
       "content_id": "73610a9648fb16bcf9519a54ba3631c2060c785c497bef5283baf81ccb91c7c0",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/TEAM_CONTROL.md",
@@ -6804,6 +6811,20 @@
       "size": 3143
     },
     {
+      "content_id": "d24b1353cf8a8e3d4f41872204413919568f16acdf8728dc8303326807f00f0f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md",
+      "role": "llm-workspace",
+      "size": 4996
+    },
+    {
+      "content_id": "ad58b88f0b945a62172217b24569a33ee3dab354c07ca7979aed9593543da6e8",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2103-03.md",
+      "role": "llm-workspace",
+      "size": 2603
+    },
+    {
       "content_id": "f51fa55e3c3f46f4c1c903edf04d15fd7050ca46b6562721811c46b8cfcaca25",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2213-01.md",
@@ -6860,6 +6881,13 @@
       "size": 3580
     },
     {
+      "content_id": "64308341cb7aa954139b4f52ecd837de5e0b4b3f3e98000464b4e0bd2e9098d4",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-02.md",
+      "role": "llm-workspace",
+      "size": 4554
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/COMMON/verified_batches",
@@ -6888,11 +6916,32 @@
       "size": 6699
     },
     {
+      "content_id": "673426ad0a21215861a31653819b622afb116001c656b59f241dc2cd9b3f1b63",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md",
+      "role": "llm-workspace",
+      "size": 7698
+    },
+    {
       "content_id": "666869b9751d59b53c4a815069d2bfe4be21776710c9d26e0a12362f6a1eb79c",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-POST-2213-01.md",
       "role": "llm-workspace",
       "size": 14479
+    },
+    {
+      "content_id": "5d2d75dd1b45f00dcccf5558b3283ee3c2b2389606d3abb01caf0cb4669da3c1",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-ZETA-SOURCE-RECOVERY-03.md",
+      "role": "llm-workspace",
+      "size": 2261
+    },
+    {
+      "content_id": "59ad930f69f34cca8ba4af9faf0f4ea0509e914683bb0caaa132969538afa08d",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-01.md",
+      "role": "llm-workspace",
+      "size": 9710
     },
     {
       "content_id": "9716c9999777deff5abb9ece794ee49375a103f17e69af62dfdbf49f037b17c8",
@@ -6928,6 +6977,13 @@
       "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-01.md",
       "role": "llm-workspace",
       "size": 13357
+    },
+    {
+      "content_id": "64fb9f0cac231f2edc64fe2354f58327dc2a02b3c66d8e446add92056b60d552",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-02.md",
+      "role": "llm-workspace",
+      "size": 6747
     },
     {
       "content_id": "fc3b8374944de4f95b797f5b15bdae5779d7107a299334379f53a4ed71a88c13",
@@ -7203,7 +7259,7 @@
       "size": null
     },
     {
-      "content_id": "375cdb5ccd6206b15018eaef0062ddf4254b5dfb97d0cc04d73b07c79db24fdc",
+      "content_id": "72c1619b864a03ae0e8388847fcfbf3ee63172d30a92739eef80ea901376218f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7217,7 +7273,7 @@
       "size": 8625
     },
     {
-      "content_id": "fa11280e665084731b431cd3203531ac518241de7b22b8171f6a285c3f56daf5",
+      "content_id": "f54e71295b0b2e446f1d7dcdbc5f54354842c47d275555eabfb8063ff98540c5",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -7273,14 +7329,14 @@
       "size": null
     },
     {
-      "content_id": "1f413912e260ec7603d49c4e2d05e8dfb1dae546060d3897884a421f1719aefb",
+      "content_id": "1eef27cca9af1305ce5eb217f884173994262db0c11463a3c3d204367c5b5257",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "6c07c101434bc2a7e60c9f3bf4e4938d416e777dd799369b2827385d1bc1ebd5",
+      "content_id": "626c5e0fe7a5ccb4554a1339378881a35fea72ed326ea0331f17040c69dc436e",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7498,8 +7554,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T10:11:42+00:00",
+  "scanned_at_utc": "2026-09-13T11:18:41+00:00",
   "schema_version": 1,
-  "tree_id": "28c6222f48c491d68ea94621ae7108127c47e78ae0dea7b6b64291123859f9a0",
+  "tree_id": "6d8abc7b5952cc413be31ccab8ece10e4f6d6f5138dbd6937f2f6e462a49680e",
   "tree_response_truncated": false
 }

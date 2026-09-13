@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T10:11:42+00:00`
-- Tree/content state: `28c6222f48c491d68ea94621ae7108127c47e78ae0dea7b6b64291123859f9a0`
-- Coverage: 923 files, 72 directories
+- Scanned: `2026-09-13T11:18:41+00:00`
+- Tree/content state: `6d8abc7b5952cc413be31ccab8ece10e4f6d6f5138dbd6937f2f6e462a49680e`
+- Coverage: 931 files, 72 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 127 |
+| `WORKSPACES` | 135 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 411 |
 | `.jsonl` | 3 |
 | `.lean` | 3 |
-| `.md` | 184 |
+| `.md` | 192 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 43 |
@@ -80,7 +80,7 @@
 | `generated-catalog` | 10 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 127 |
+| `llm-workspace` | 135 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -1058,7 +1058,7 @@
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.json` — 168357 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.csv` — 155736 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.json` — 175396 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 10691 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 12818 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
@@ -1077,7 +1077,7 @@
 - `WORKSPACES/COMMON/LAYERED_AUTOTAG_SCHEMA.md` — 5701 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` — 8449 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 138055 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 171106 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -1121,6 +1121,7 @@
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN5_FRINGE_ROBUSTNESS.md` — 6316 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md` — 5159 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
@@ -1139,6 +1140,8 @@
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md` — 3161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-2213-0945.md` — 3143 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md` — 4996 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2103-03.md` — 2603 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2213-01.md` — 5270 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-LEGAL-PRIVACY-AUDIT-01.md` — 5586 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2001-to-2207.md` — 7890 bytes — `llm-workspace`
@@ -1147,15 +1150,20 @@
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md` — 6372 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1835-to-July17-tail.md` — 5909 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-01.md` — 3580 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 4554 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-01.md` — 4446 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-02.md` — 6699 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md` — 7698 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-POST-2213-01.md` — 14479 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-ZETA-SOURCE-RECOVERY-03.md` — 2261 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-01.md` — 9710 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 10969 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md` — 5833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md` — 8228 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-04.md` — 4851 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-01.md` — 13357 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 6747 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Spacetime-Manifold-Notation-01.md` — 9120 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Stringing-Along-Theory-Summary-01.md` — 4464 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 5736 bytes — `llm-workspace`
