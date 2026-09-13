@@ -1,0 +1,34 @@
+name: SAT candidate analysis
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py'
+      - '.github/workflows/sat-candidate-analysis.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run candidate extractor
+        run: |
+          mkdir -p WORKSPACES/COMMON/analysis
+          python WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py DEVELOPMENT_FULL_CONVOS \
+            --out WORKSPACES/COMMON/analysis/nathan_sat_candidates.jsonl \
+            --examples WORKSPACES/COMMON/analysis/nathan_sat_examples.md
+      - name: Show summary
+        run: |
+          sed -n '1,220p' WORKSPACES/COMMON/analysis/nathan_sat_examples.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nathan-sat-candidate-analysis
+          path: WORKSPACES/COMMON/analysis/
