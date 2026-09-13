@@ -2099,3 +2099,37 @@ The extractor returns raw message IDs, timestamps, `author.role`, recipient, con
 ---
 
 **Non-promoted user-role node encountered next:** `6f6bbfe0-6e84-4f08-b282-db40bebc7a85` (2026-09-12 08:43:33.276 EDT) is a long Past Theorist / Former Instance survey/template and is tagged in the manual ledger as `POSSIBLE-PASTED-MATERIAL` / `DO-NOT-PROMOTE-AS-NATHAN-WORDING`. Raw user role alone is not treated as sufficient evidence that the template wording itself is Nathan-authored.
+
+---
+
+## Excavation batch 2026-09-13-RAVEL-SPRING-WORLDTUBE-03 — `🎼 Ravel [H(s)H] Syncmathcek — raw.json`
+
+Raw source inspected directly through the bounded raw-message extractor:
+`DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`
+
+Conversation ID: `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`
+
+The passage below is a standalone raw mapping message with `message.author.role = user` and `recipient = all`. Its speculative/working language is preserved as such; no assistant equations or interpretations are imported into Nathan's position.
+
+### 2026-09-06 — Exploratory joint charge/gravity picture; timesheet motion as historical basis for c; two proposed exclusion mechanisms
+
+- **Tags:** `TIMESHEET` `INTERACTIONS` `METRIC` `c-TYPING` `w-AXIS` `DIMENSIONALITY` `WHIRLIGIG-DONUT` `FINITE-CORE` `KERR` `PAULI` `KELVIN-VORTEX` `CHARGE` `MASS` `MODEL-VS-REALITY` `HISTORICAL` `SPECULATION` `RAW-USER-VERIFIED`
+- **Source conversation:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`
+- **Conversation title:** `🎼 Ravel [H(s)H] Syncmathcek`
+- **Message ID / timestamp / landmark:** `59a38049-e410-455d-afe9-87fcbc6f5264` — 2026-09-06 16:55:31.340 EDT
+- **Authorship verification:** `RAW USER MESSAGE` (`author.role = user`, `recipient = all`)
+- **Historical terminology/status:** explicitly exploratory working synthesis. Nathan uses `I suspect`, `likely`, `probably`, `we have treated in the past`, and unresolved alternatives; none of those are promoted to settled status. The message also explicitly identifies historical treatments of mass and `c`.
+- **Exact Nathan wording:**
+
+> Well, exactly how to deal with charge is part of what we're trying to figure out. I suspect charge is a consequence of timesheet-filament mutual distortion, charge being the filament size, timesheet distortion being the GR metric, but Kelvin vortices in the medium or a timesheet-bound soliton approximating Kelvin vortices is necessary as well. The difference between EM effects and metric effects being baked into GR and Maxwell. And mass, we have treated in the past as a pure function of filament-timeshet intersection angle, or as a direct function of coil cross-section geometry [simply plotting the motion of a known mass moving a set distance as a 4D trajectory gives you the rough total momentum in Minkowski, and we've treated timesheet motion as the fundamental basis for c  in the past, so we have what we consider an absoloute length scale, where the wxyz axes are all measured in SI length units or, more naturally in Planck units]. There's also singularity shell structure, per Kerr, which is likely going to have an analagous or identical cross-section on the filament, so probably total charge and total gravity will live in the joint dynamics of something like ergosphere-timesheet local distortion and extended Kelvin vortex and the scale problem reduces to the proportional contribution of the vortex and the raw mutual distortion as it scales. Picture it this way --
+>
+> Particle scale: timesheet distortion and angle of intersection creates a ripple, distorted in the direction opposite timesheet motion, attached to or accompanying this is a Kelvin-vortex-like structure that is a donut representing the reach of EM repulsion/attraction (which is good because that gives us a way to roughly scale the vortex), and at the fundamental level, that's basically proportionally big donut, little timesheet dimple.
+>
+> Planetary scale: timesheet distortion is more like a wake, its shape should be thought of primarily as being *perpendicular* extension of the same dimple mechanism--lateral waves on the timesheet surface. There would still be some Kelvin vortex or an analogue (perhaps a degenerate analogue), but whether it's primarily centered on the planet's worldtube, or on the entire orbit of the planet is something we'll have to figure out. The answer will be: Both. Always both. [Actually, my "always both" maxim, now that I think of it is just a restatement of the First Law--filament/worldtube-timesheet distortion is mutual, equal and opposite] ...but here, the balance of timesheet-distortional gravity and Kelvin-vortex gravity has dramatically different proportional contribution. The dimensions of the scaling problem, the EM field scale dimensions are where we'll have to look by analyzing representative systems chosen to minimize differences to isolate a sort of generalized vortex\:timesheet general scale factor (EM fields=Kelvin vortex+[timesheet]metric distortion\~equal? contribution) and the GR metric distortion dimensional scale (gravity well=[timesheet] metric distortion+Kelvin vortex EM \~very unequal contributions).
+>
+> A couple other things to note: The finite-core of the filament is \~Pauli exclusion, but [another thing to add to the pile of things SAT inadvertently reinvented without trying as a natural consequence of the geometry]...Pauli exclusion would, I'm just realizing, come in two forms: Raw filament non-intersection (basically set to whatever the smallest Kerr ring size is), plus the much less absolute coil-coil intermesh "reluctance" which can be overcome. You can't force two singularities into the same space, but you can force exactly two slinkies to stack almost neetly into the same space if you get them to line up just right. Does that sound familiar to you?
+
+- **Immediate context:** Nathan had supplied original Einstein papers and was using them to investigate filament/core dimensions. The preceding assistant message summarized bridge throat facts and raised a historical Einstein–Rosen two-bridge construction; Nathan responded by laying out his then-current speculative charge/gravity/core picture and explicitly identifying several unresolved pieces.
+- **Later correction / relationship:** cross-link to the immediately preceding Sept. 6 correction that a filament is the totality of a four-dimensional particle trajectory and that Compton/ZB should not set filament thickness. Also compare against later Sept. 12/13 clarifications of timesheet–filament intersection propagation and `c`; the phrase here is explicitly historical: `we've treated timesheet motion as the fundamental basis for c in the past`. The Pauli/intermesh proposal remains exploratory unless later Nathan source material promotes, modifies, or rejects it.
+
+---
