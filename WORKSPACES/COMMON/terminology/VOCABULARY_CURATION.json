@@ -1,0 +1,13 @@
+{
+  "description": "Manual controls applied after frequency/provenance harvesting and before vocabulary enters the conversation tagger.",
+  "force_include": [],
+  "force_exclude": [],
+  "canonicalize": {},
+  "aliases": {},
+  "notes": {},
+  "minimums": {
+    "unigram_frequency": 3,
+    "ngram_frequency": 2,
+    "document_frequency": 1
+  }
+}
