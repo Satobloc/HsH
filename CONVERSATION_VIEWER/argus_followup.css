@@ -37,3 +37,31 @@
   min-width: 3.4em;
   opacity: .68;
 }
+
+.provenance-search-control {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .76rem;
+  white-space: nowrap;
+}
+
+.provenance-search-control select {
+  max-width: 12.5rem;
+}
+
+.message.provenance-search-hit {
+  box-shadow: inset 3px 0 0 currentColor;
+}
+
+@media (max-width: 760px) {
+  .provenance-search-control {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .provenance-search-control select {
+    max-width: none;
+    flex: 1;
+  }
+}
