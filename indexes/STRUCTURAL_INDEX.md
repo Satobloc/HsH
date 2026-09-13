@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T03:44:13+00:00`
-- Tree/content state: `2d5f591d7fbe66c9a72fb426a54df1cbb3ccfd8ed3518153784aa8be693abfc2`
-- Coverage: 876 files, 66 directories
+- Scanned: `2026-09-13T05:11:00+00:00`
+- Tree/content state: `51ff01c21dd283fb54a1291a96d472f07c1fc4d388920159eb2086446a06215f`
+- Coverage: 881 files, 67 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -13,7 +13,7 @@
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 10 |
+| `.github` | 11 |
 | `ARCHITECTURE.md` | 1 |
 | `CONVERSATION_VIEWER` | 18 |
 | `DEVELOPMENT_FULL_CONVOS` | 604 |
@@ -27,7 +27,7 @@
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 90 |
+| `WORKSPACES` | 94 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -55,7 +55,7 @@
 | `.json` | 410 |
 | `.jsonl` | 1 |
 | `.lean` | 3 |
-| `.md` | 149 |
+| `.md` | 152 |
 | `.pdf` | 22 |
 | `.png` | 37 |
 | `.py` | 41 |
@@ -64,8 +64,8 @@
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 155 |
-| `.yml` | 10 |
-| `[none]` | 2 |
+| `.yml` | 11 |
+| `[none]` | 3 |
 
 ## Structural roles
 
@@ -73,14 +73,14 @@
 |---|---:|
 | `archive-tooling` | 11 |
 | `audit-output` | 1 |
-| `automation-workflow` | 10 |
+| `automation-workflow` | 11 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 6 |
 | `license` | 1 |
 | `live-conversation-corpus` | 35 |
-| `llm-workspace` | 90 |
+| `llm-workspace` | 94 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 604 |
 | `synthesis-workspace` | 6 |
@@ -302,6 +302,7 @@
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/maintain-navigation.yml` — 5563 bytes — `automation-workflow`
+- `.github/workflows/merge-verified-batches.yml` — 2080 bytes — `automation-workflow`
 - `.github/workflows/provenance-reasoning-scan.yml` — 6866 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis-sample.yml` — 1061 bytes — `automation-workflow`
@@ -1066,7 +1067,7 @@
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 93483 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 99322 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -1103,9 +1104,10 @@
 - `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 17488 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 7410 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md` — 7161 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN4_FRINGE.md` — 10659 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
@@ -1118,6 +1120,9 @@
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 15112 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 10969 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md` — 5833 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 2540 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`

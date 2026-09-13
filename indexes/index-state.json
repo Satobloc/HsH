@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 1096917038,
-    "directories": 66,
-    "files": 876
+    "bytes_known": 1096942417,
+    "directories": 67,
+    "files": 881
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,7 +17,7 @@
     ".json": 410,
     ".jsonl": 1,
     ".lean": 3,
-    ".md": 149,
+    ".md": 152,
     ".pdf": 22,
     ".png": 37,
     ".py": 41,
@@ -26,20 +26,20 @@
     ".toml": 1,
     ".tx": 1,
     ".txt": 155,
-    ".yml": 10,
-    "[none]": 2
+    ".yml": 11,
+    "[none]": 3
   },
   "counts_by_role": {
     "archive-tooling": 11,
     "audit-output": 1,
-    "automation-workflow": 10,
+    "automation-workflow": 11,
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
     "generated-catalog": 6,
     "license": 1,
     "live-conversation-corpus": 35,
-    "llm-workspace": 90,
+    "llm-workspace": 94,
     "review-ledger": 5,
     "source-conversation-corpus": 604,
     "synthesis-workspace": 6,
@@ -50,7 +50,7 @@
   "counts_by_top_level": {
     "!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md": 1,
     "!_ANNOTATED_ARCHIVE_SURVEY.md": 1,
-    ".github": 10,
+    ".github": 11,
     "ARCHITECTURE.md": 1,
     "CONVERSATION_VIEWER": 18,
     "DEVELOPMENT_FULL_CONVOS": 604,
@@ -64,7 +64,7 @@
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 29,
-    "WORKSPACES": 90,
+    "WORKSPACES": 94,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -595,6 +595,13 @@
       "size": 5563
     },
     {
+      "content_id": "c2207a031662b199c6f8b689f90b0fee774fd271c624313a1a6b807500e5a55b",
+      "kind": "blob",
+      "path": ".github/workflows/merge-verified-batches.yml",
+      "role": "automation-workflow",
+      "size": 2080
+    },
+    {
       "content_id": "581f31907637d827fad951baadad16223853194b293ff903bad03ef8a85bdb52",
       "kind": "blob",
       "path": ".github/workflows/provenance-reasoning-scan.yml",
@@ -707,7 +714,7 @@
       "size": 49
     },
     {
-      "content_id": "437f23b92d2c6830b6458effd70f4587eed251b2834bc2ee0329f666c2359932",
+      "content_id": "a6ff7d21a388764a4bbcedf163873e4ce3eedb0a820a10fa8dd9ac9cee21ed3f",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -6258,11 +6265,11 @@
       "size": 5278
     },
     {
-      "content_id": "0157cf1e6dc71aa7e78b6ff667fa4e58640a6e233e2d7a560d88da357aa0fd6f",
+      "content_id": "f77bd3b802a598f30c987c7693e8da68acb2ddbf77e84e4d9ed9271dc1baf7b9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
       "role": "llm-workspace",
-      "size": 93483
+      "size": 99322
     },
     {
       "content_id": "69648d17b4bc733acdf1605d31b35c2fc536b92476205835b93edde119b12d05",
@@ -6531,11 +6538,11 @@
       "size": 2647
     },
     {
-      "content_id": "c752e5e528a66a9a998811425a0671d22cb36b264be5177f740899edacce9a8c",
+      "content_id": "4df048d4838f44fb263c8fd8d9aad38e29b7eb50833c5413c270bf6f5bdb9688",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md",
       "role": "llm-workspace",
-      "size": 17488
+      "size": 7410
     },
     {
       "content_id": "93d387525e31a731354b3a71790f96e898453f67ef2c8d6147bf78c41e981006",
@@ -6550,6 +6557,13 @@
       "path": "WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md",
       "role": "llm-workspace",
       "size": 7161
+    },
+    {
+      "content_id": "10d285108360997fd6b3392391f8f4d2668682192e68cddfce31d3039891d861",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN4_FRINGE.md",
+      "role": "llm-workspace",
+      "size": 10659
     },
     {
       "content_id": "1fa1ea8631f5f557ecfb54b5c1942767476cf860945f047ca056f47851cbf1b3",
@@ -6641,6 +6655,34 @@
       "path": "WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py",
       "role": "llm-workspace",
       "size": 15112
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/COMMON/verified_batches",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "57fd9aafaf14b450fb0207ee0b0a7e29bc0b5e077fc700be6cc36c453e575c0d",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A",
+      "role": "llm-workspace",
+      "size": 77
+    },
+    {
+      "content_id": "9716c9999777deff5abb9ece794ee49375a103f17e69af62dfdbf49f037b17c8",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md",
+      "role": "llm-workspace",
+      "size": 10969
+    },
+    {
+      "content_id": "6e43b543e69c3dcdee2b85bb2d8577efc5abda7178cdef2220c49edc6d3b9973",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md",
+      "role": "llm-workspace",
+      "size": 5833
     },
     {
       "content_id": null,
@@ -6867,7 +6909,7 @@
       "size": null
     },
     {
-      "content_id": "a2d223fb54f0d9b0b21c15ff7e607a6c7859534a372ce2636a3688eccb503f64",
+      "content_id": "1c6e4539b5f5eaf15730b818816773947293bf167e33fef60ad6a204a29f4d99",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6881,7 +6923,7 @@
       "size": 8625
     },
     {
-      "content_id": "b0351997f23dbaa5de164005ebb471af9e799cbb857c29dfe5a18ca04b685ce2",
+      "content_id": "9b7e22cdccd6131d256f09c3abfba92c3bf2d9eb0d200be05d0182eb76acbf15",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -6902,14 +6944,14 @@
       "size": null
     },
     {
-      "content_id": "46710b2494fadb500773086ca263b5caab30863eacf87a695c4cca509dfd10d3",
+      "content_id": "ef05295f83817cc8b409d71ae12b7d8a3bf5d374d7626003e9dcadff957c89ac",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 248010
     },
     {
-      "content_id": "604a6436abf43a2dadac8795d40b121094af6572c7fe6887da5622fec6566368",
+      "content_id": "005a8c73727eb997a9e1061e197604ebe6d01073afc417f1e4df70253d8efda5",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -7127,8 +7169,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-13T03:44:13+00:00",
+  "scanned_at_utc": "2026-09-13T05:11:00+00:00",
   "schema_version": 1,
-  "tree_id": "2d5f591d7fbe66c9a72fb426a54df1cbb3ccfd8ed3518153784aa8be693abfc2",
+  "tree_id": "51ff01c21dd283fb54a1291a96d472f07c1fc4d388920159eb2086446a06215f",
   "tree_response_truncated": false
 }
