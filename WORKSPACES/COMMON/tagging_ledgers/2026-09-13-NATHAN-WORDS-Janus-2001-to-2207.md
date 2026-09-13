@@ -1,5 +1,7 @@
 # Nathan Verified Words excavation — Janus 2026-09-08 20:01–22:07 EDT
 
+> **Direct UUID recheck — Morrow, 2026-09-13:** A/B/C raw nodes and complete message objects agree for the three 20:01–20:08 entries below. This ledger's UUIDs are correct: `8f4721c7…`, `96bba8d8…`, `3183b844…`. Two older residuals records used shifted IDs and now carry additive corrections; [reconciliation trail](../../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md). No entry is counted again.
+
 **Status:** VERIFIED APPEND STAGING  
 **Purpose:** provenance-safe staging for `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md`.  
 **Raw source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`  
