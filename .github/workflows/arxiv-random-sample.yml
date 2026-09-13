@@ -1,0 +1,46 @@
+name: arXiv random physics sample
+
+on:
+  push:
+    paths:
+      - 'WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Pull random arXiv samples
+        run: |
+          python WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py \
+            --years 2024 2025 2026 \
+            --n 100 \
+            --seed 20260912 \
+            --out WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results
+      - name: Upload downloadable results
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-random-100-2024-2025-2026
+          path: WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/
+          if git diff --cached --quiet; then
+            echo "No result changes"
+            exit 0
+          fi
+          git commit -m "Add arXiv random 2024-2026 abstract sample [skip hsh-maintenance]"
+          git pull --rebase origin main
+          git push
