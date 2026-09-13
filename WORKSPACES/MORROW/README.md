@@ -4,6 +4,8 @@ Administrative workbench for conversation continuity, archive wayfinding, source
 
 ## Standing reminders
 
+- Follow [Common's standing documentation directive](../COMMON/README.md#standing-directive--documentation-requests): request documentation updates or existing documentation pointers unless highly scoped. Record reusable discoveries in the appropriate place, with context and status; avoid unnecessary or misleading duplication.
+
 - Nathan's theory freeze remains in force. Do not restart integration handoffs, promote results, or develop predictions/papers. Training completion is not asserted here.
 - Nathan explicitly requested this workspace and routine Common participation in the current conversation. Exact message ID and timestamp: PENDING RAW-ID BACKFILL. Morrow is the working name used in this thread; this does not establish runtime/container identity.
 - Resolve shorthand contextually: “ACTIVE” means [LIVE CONVOS](../../LIVE%20CONVOS/) in Nathan's clarified request; “AI folder” means the historical archive's AI orientation/tools area when context identifies it. Ask when ambiguity matters.
