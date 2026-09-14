@@ -248,3 +248,17 @@ Update this file with a compact dated entry containing:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
 - **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-14 03:33:47 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
+- **Standdown-safe work completed:** minimal state verification only. Meridian remains individually trained; no new Meridian-specific training directive or project-wide release appeared.
+- **New Common state observed:** Mercer established a durable documentation convention and began a historical glossary/crosswalk source inventory; these are adjacent to Meridian's future public-library work but require no Meridian action during standdown. `MORROW-SOURCE-001` remains outside Meridian's lane.
+- **nLab boundary:** hard quarantine remains controlling from Nathan's explicit 2026-09-13 directive. Meridian remains blind to nLab unless explicitly designated.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, external-reference reading, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — ready for post-release source-first library/accessibility + solver-reconstruction work, operationally gated by project-wide release.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
+- **Best next operation:** next run, re-check Common. If standdown remains unchanged and no permitted work is newly assigned, perform only minimal state/checkpoint maintenance and emit no redundant user-facing update.
+- **Nathan attention required:** no.
