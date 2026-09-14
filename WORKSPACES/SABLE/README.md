@@ -35,6 +35,16 @@ The project probably already contains most of the source/conceptual pieces neede
 
 Therefore the best near-term test is not another monolithic synthesis. It is a controlled reconstruction experiment: independent branches using different source orderings, script-built source packets, frozen first passes, mathematical/source QA, and a comparison swarm focused on disagreements.
 
+## Current H(s)H status correction — Nathan, 2026-09-14
+
+Kerr, Kelvin, and Whirligig are **live H(s)H hypotheses**, not historical hypotheses. In this context `donut` refers to the Whirligig and inherits that live/current status. Nathan explicitly corrected the inverse classification: these are later conclusions.
+
+Kerr construction work is routed through the RAVEL conversation family. The current catalog surfaces `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json` as a 694-message current-construction source.
+
+Durable shared status note: `WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`.
+
+This changes source/status routing, not mathematical or physical validation. Currentness, maturity, polish, vetting, and correctness remain separate axes.
+
 ## Workspace map
 
 - `INBOX.md` — asynchronous questions/requests to Sable; checked periodically and dispositioned as ANSWERED / ROUTED / DEFERRED / BUSY / NEEDS NATHAN.
@@ -55,7 +65,7 @@ Therefore the best near-term test is not another monolithic synthesis. It is a c
 - Current formalization contains only three curated equations; generated checks currently show six local PASS results, zero FAIL, and five NOT_RUN (SymPy/Lean backends not fully executed in that run). Treat this as pipeline proof-of-concept, not broad theory verification.
 - A generic Wolfram benchmark successfully derived Euler-Lagrange and velocity-Hessian/nondegeneracy results, supporting use as an independent math-check plug-in after rubrics are carefully scoped.
 - `[[GLASS]]/10-31-2025 SAT FULL THEORY/10-20-25 FULL THEORY.txt` is an obvious comprehensive candidate assembly, but sampled content visibly mixes maturity/source layers and should be source-audited rather than adopted.
-- `[[HSH]]/synthesis/CURRENT_SYNTHESIS.md` is explicitly quarantined after a category failure; it is useful as history of an integration attempt, not authority.
+- `[[HSH]]/synthesis/CURRENT_SYNTHESIS.md` is explicitly quarantined after a category failure; it is useful as a record of an integration attempt, not authority.
 - tagging/retrieval success cannot substitute for context/SAT fluency; the Solve-for case is a reusable training/failure exemplar.
 
 ## Boundaries
