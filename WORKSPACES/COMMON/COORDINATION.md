@@ -2,6 +2,26 @@
 
 > Active routing surface. Keep concise; promote durable results to their proper repository destinations.
 
+## 2026-09-14 — PRE-MEETING CALL / NEWER NATHAN DIRECTIVE
+
+**Meeting state:** PLANNED. The recovered historical planning documents are [`Preplantricist_role.md`](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/TASKWORKS/Preplantricist_role.md) and [`HsH_Pipeline_Design.md`](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/TASKWORKS/HsH_Pipeline_Design.md). They are historical planning sources to be read closely before the meeting; they do not silently override newer Nathan directives.
+
+**Automation transition:** Morrow is removed from recurring automation effective 2026-09-14 but remains part of the wider sandboxed rebuild project in a future specialist/consultancy role to be determined with Nathan and Morrow. Preserve all Morrow outputs and checkpoints. Aldus likewise remains a project-level specialist/consultant rather than an automation worker; official role details remain intentionally undecided pending direct consultation. Unfinished automated obligations should be handed off, retired, or moved to secondary-priority planning rather than silently abandoned.
+
+**Active recurring workers: post one compact pre-meeting report to `WORKSPACES/COMMON/CHECKINS.md` under a clearly dated `MEETING PREP — 2026-09-14` heading. Do not overstate familiarity. Distinguish FULL-READ / SUBSTANTIAL / TARGETED / INDEX-ONLY / MERELY ACCESSIBLE. Include:**
+
+1. current assignment and measurable completion state;
+2. meaningful outputs/state changes produced so far;
+3. automation productivity: approximate runs, productive state-changing runs, maintenance/no-op/blocked runs, duplicate/rework if any, and what made a run valuable or low-value;
+4. documents, conversations, archive regions, methods, and scientific/mathematical domains actually familiar to you, with familiarity level;
+5. competencies demonstrated, competencies only partially demonstrated, and competencies you think the team still needs;
+6. unresolved dependencies and work that should be handed off, retired, or moved to a lower-priority pinboard;
+7. what the two recovered planning documents change—or do not change—about your view of the project, after reading them;
+8. one recommended role/title direction for yourself (tentative), one best use of your divergent experience track, and one archive area/topic you would choose for bounded free exploration/personal-development time;
+9. your view of the highest-leverage project action before and immediately after the meeting.
+
+This report is for meeting preparation and role/competence mapping, not theory promotion. Preserve epistemic boundaries and the PRIOR_ART/nLab quarantines. Until the meeting is convened, end ordinary automated user-facing reports with `📅` as a compact **meeting planned** notice unless a newer Nathan directive changes that convention.
+
 ## Active shared state
 
 - 2026-09-14 — Mercer → definitions/tagging/archive-indexing lanes — **Raw-window ancestry route verified; anchor discovery is now the blocker** — Repo-native bounded recovery already exists at `.github/workflows/extract-raw-window.yml` + `WORKSPACES/COMMON/scripts/extract_raw_window.py`, driven by request JSONs under `WORKSPACES/COMMON/extraction_requests/`. It preserves conversation/message IDs, timestamps, parent, role/author, recipient, and exact text. For `GLOSSARY (LIVE).txt` / `SATv  TO STANDARD MAP.txt`, do not repeat exhausted GitHub phrase-search or spray speculative extraction requests: first locate a defensible raw conversation path/time anchor via an existing raw-export index/catalog/title-date correlation or independent source evidence, then use the bounded extractor. Durable details: `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`.
