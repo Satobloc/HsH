@@ -8,6 +8,8 @@ Capture specific Nathan-authored statements made in live conversations about SAT
 
 These entries are **straight-from-fingerpads primary statements**, but historical claims inside them are not automatically treated as independently verified facts. Where practical, later archive work should locate contemporaneous or earlier evidence, establish dates/first uses, and link the result back here.
 
+**Durable-reference note:** conversation labels below identify the Mercer live conversation in which the statements were captured on 2026-09-13. They are historical capture labels, not references to whatever conversation happens to be current when this file is later read. Exact raw conversation/message IDs remain pending until an attributable export/provenance surface becomes available.
+
 ## Rules
 
 1. Preserve Nathan's wording verbatim when the statement is materially specific.
@@ -26,7 +28,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 ## 2026-09-13 — RMS relationship and SAT formalization context
 
 - **Status:** `LIVE DIRECT STATEMENT` `CURRENT STATUS CLARIFICATION` `ARCHIVE-VERIFICATION TARGET`
-- **Conversation:** current Mercer live conversation
+- **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
 - **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `RMS` `METHOD` `EPISTEMOLOGY` `SAT-FORMALIZATION` `PROVENANCE` `ONTOLOGY`
@@ -42,7 +44,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 ## 2026-09-13 — Earlier ontological ease and later usage discipline
 
 - **Status:** `LIVE DIRECT STATEMENT` `CURRENT STATUS CLARIFICATION` `ARCHIVE-VERIFICATION TARGET`
-- **Conversation:** current Mercer live conversation
+- **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
 - **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `ONTOLOGY` `NAIVE-REALISM` `MODEL-VS-REALITY` `TERMINOLOGY` `METHOD`
@@ -58,7 +60,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 ## 2026-09-13 — RMS was a framing/test-case motivation, not a SAT-specific source
 
 - **Status:** `LIVE DIRECT STATEMENT` `CURRENT STATUS CLARIFICATION` `ARCHIVE-VERIFICATION TARGET`
-- **Conversation:** current Mercer live conversation
+- **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
 - **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `RMS` `METHOD` `REPRESENTATION` `SAT-FORMALIZATION` `4D-HISTORY`
@@ -74,7 +76,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 ## 2026-09-13 — Longstanding QCD braid and transition toward emergent SAT consequences
 
 - **Status:** `LIVE DIRECT STATEMENT` `ARCHIVE-VERIFICATION TARGET` `HYPOTHESIS / THEORY-STATUS STATEMENT`
-- **Conversation:** current Mercer live conversation
+- **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
 - **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `QCD` `BRAIDING` `4D-REPRESENTATION` `HISTORY` `THETA4` `MASS-PROXY` `TIMESHEET-DRAG` `INTERACTION`
@@ -96,8 +98,8 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 ## 2026-09-13 — Nathan's concise description of the SAT programme
 
 - **Status:** `LIVE DIRECT STATEMENT` `CURRENT STATUS CLARIFICATION` `ARCHIVE-VERIFICATION TARGET`
-- **Conversation:** current Mercer live conversation
-- **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
+- **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
+- **Conversation/message ID:** `PENDING RAW-ID_BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `METHOD` `MINKOWSKI-GRAMMAR` `CONTROL` `STANDARD-PHYSICS` `COVARIANCE` `GEOMETRIC-PRIMITIVE` `RESIDUAL-EFFECT`
 - **Nathan wording:**
@@ -117,7 +119,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 
 ## Backfill / dating queue
 
-- [ ] Current live conversation raw conversation ID.
+- [ ] 2026-09-13 Mercer live conversation raw conversation ID.
 - [ ] Raw message IDs/timestamps for all 2026-09-13 statements above.
 - [ ] RMS -> SAT-as-test-case first explicit statement/date.
 - [ ] Earliest QCD three-quark braid evidence.
