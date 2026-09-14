@@ -2,7 +2,7 @@
 
 **Date reviewed:** 2026-09-14  
 **Conversation:** `LAB 1: Validation Lead`  
-**Conversation ID:** `681d758d-684c-8003-bf5d-1141b15e090d`  
+**Conversation ID:** `681da28f-2d44-8003-bc6e-0e1929c125c4`  
 **Raw source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 1_ Validation Lead — raw.json`  
 **Stage:** Stage 2 bounded enrichment; Stage-1 Nathan Direct substrate already complete.  
 **Boundary:** continuation immediately after message `49aa6590-cfaa-41db-9933-ea20def096db`.
@@ -10,6 +10,8 @@
 ## Provenance discipline
 
 All entries below were recovered from the existing deterministic extraction `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-130946.json`, which records raw `author_role: user`, message ID, timestamp, recipient, raw parent pointer, and exact text. Assistant context is not merged into Nathan wording. No scientific result asserted in adjacent assistant turns is promoted here.
+
+**Source-identity correction:** an earlier version of this ledger carried conversation ID `681d758d-684c-8003-bf5d-1141b15e090d`. Rechecking both the deterministic extraction and the preceding LAB 1 ledgers shows the raw-source conversation ID is `681da28f-2d44-8003-bc6e-0e1929c125c4`. This metadata correction changes no message wording, IDs, timestamps, tags, or provenance relationships.
 
 ## Reviewed Nathan messages
 
