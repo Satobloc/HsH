@@ -28,10 +28,10 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Mercer individual training is complete.
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 
-## Current frontier — after Run 10
+## Current frontier — after Run 11
 
 ### Viewer/catalog path drift
-**Viewer publication repair is green; manifest ownership is now identified; one owner-run verification remains.**
+**Viewer publication repair is green; canonical navigation workflow is now reconciled to the same resolver; fresh owner regeneration still pending.**
 
 Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent from the repository tree. Direct inspection established:
 - `indexes/manifests/live-conversation-dates.json` is dry-run;
@@ -39,7 +39,7 @@ Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent 
 - their `new_path` values are proposed rename targets while source files remain at `old_path`;
 - the historical Viewer builder preferred `new_path` unconditionally.
 
-Completed:
+Completed before Run 11:
 - created `tools/build_conversation_viewer_resolved.py` with existence-aware path resolution;
 - updated `.github/workflows/build-conversation-viewer.yml` to invoke that resolver and assert every non-external catalog source path exists;
 - fixed initial wrapper recursion;
@@ -51,18 +51,25 @@ Completed:
 - direct search of the committed Viewer catalog found zero `Court Filing Guidance` matches, confirming the deleted-source residue is no longer published by Viewer;
 - workflow validation guarantees every non-external path in that landed catalog resolved to a repository file during the run, covering the LIVE-path handoff.
 
-Run 10 resolved the upstream ownership question:
+Run 10 resolved upstream ownership:
 - canonical development manifest is `indexes/manifests/development-conversation-dates.json`;
 - `.github/workflows/maintain-navigation.yml` regenerates it by running `tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply --manifest indexes/manifests/development-conversation-dates.json`;
 - the generator rebuilds records from files currently present under `DEVELOPMENT_FULL_CONVOS`; it does not intentionally retain absent-file history;
 - current manifest was generated `2026-09-13T12:30:33.434526+00:00`;
 - `Court Filing Guidance` was deleted later at `2026-09-13T13:41:24Z` in commit `655db2d384867c43fc59c5047403f6feade5a88c` (`privacy: remove Court Filing Guidance raw conversation from public corpus`);
-- therefore the stale record is ordinary generation-time lag, not evidence that the generator resurrected the source;
-- at Run 10 inspection, canonical navigation run `34793981748` was pending on current `main`; Mercer left the generated manifest to its owning workflow instead of hand-editing it.
+- therefore the stale record is ordinary generation-time lag, not evidence that the generator resurrected the source.
+
+Run 11 established:
+- navigation run `34793981748`, previously pending, ended `completed/cancelled` and returned no jobs; it did not supply the needed owner regeneration;
+- the committed development manifest remains the older generation and still contains the deleted `Court Filing Guidance` entry;
+- canonical `.github/workflows/maintain-navigation.yml` was still invoking the old `tools/build_conversation_viewer.py`, creating a risk that a successful navigation run could undo the dedicated Viewer's existence-aware path repair;
+- commit `44548450fa4af2905f711e81ce07139b393983d6` changes canonical navigation maintenance to invoke `tools/build_conversation_viewer_resolved.py` and adds a validation assertion that every non-external Viewer source path exists;
+- immediate post-commit status inspection showed no attached check/status yet, so no fresh owner-run success is claimed.
 
 Remaining Viewer-adjacent work:
 - verify the next successful canonical navigation regeneration removes the deleted `Court Filing Guidance` record from the development manifest;
-- if it survives a fresh successful owner regeneration, diagnose that as a generator/workflow defect; otherwise close this branch.
+- verify the canonical navigation run passes the new Viewer source-path existence gate;
+- if the dead record survives a fresh successful owner regeneration, diagnose that as a generator/workflow defect; otherwise close this branch.
 
 ### `MORROW-SOURCE-001`
 **Code-side resolved / output-side pending.** Comparator, payload policy, regression case, and tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
@@ -92,12 +99,13 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - Run 8: traced Viewer LIVE-path drift to dry-run manifest `new_path` misuse; landed existence-aware resolver and workflow path-existence gate; CI then exposed and drove repair of wrapper recursion and one stale deleted-source manifest residue; see `RUN_008_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 - Run 9: diagnosed Viewer publication failure as push-race only; hardened publication; successor run `34791027403` passed all steps and landed repaired `374/365/9` catalog; deleted `Court Filing Guidance` confirmed absent from Viewer output. See `RUN_009_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 - Run 10: traced the stale development-manifest record to its canonical owner and established the exact timing cause: manifest generation predated the scoped privacy deletion. Confirmed `maintain-navigation.yml` + `date_conversation_exports.py` own fresh regeneration, so Mercer documented rather than hand-edited generated state. See `RUN_010_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
+- Run 11: verified the previously pending canonical navigation run was cancelled with no jobs; confirmed the stale manifest record remains; found canonical navigation was still bypassing the existence-aware Viewer resolver; patched `maintain-navigation.yml` to use the resolved builder and enforce non-external source-path existence. See `RUN_011_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 
 ## Blockers / dependencies
-- `DEPENDENCY`: verify one fresh successful canonical navigation regeneration after the `Court Filing Guidance` deletion; if the record persists then investigate generator/workflow behavior.
+- `DEPENDENCY`: verify one fresh successful canonical navigation regeneration after the `Court Filing Guidance` deletion and after commit `44548450fa4af2905f711e81ce07139b393983d6`; if the record persists then investigate generator/workflow behavior.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await export for provenance backfill.
 - No current issue genuinely requires Nathan attention.
 
 ## Best next operation
-Next run: reread Control/Common, then inspect the newest successful `Maintain H(s)H navigation` state. Confirm whether `indexes/manifests/development-conversation-dates.json` has dropped the deleted `Court Filing Guidance` record. If yes, close the Viewer/manifest branch and post/update the concise Common handoff. If no after a successful fresh regeneration, diagnose the generator/workflow defect source-first. If that branch is blocked, move to the highest-value permitted provenance/documentation task under the standdown rather than resuming theory-bearing work.
+Next run: reread Control/Common, then inspect the newest `Maintain H(s)H navigation` state after commit `44548450fa4af2905f711e81ce07139b393983d6`. Confirm whether a successful owner run has (a) regenerated `indexes/manifests/development-conversation-dates.json` without the deleted `Court Filing Guidance` record and (b) passed the new Viewer source-path existence assertion. If yes, close the Viewer/manifest branch and post/update the concise Common handoff. If no successful run is available, record the dependency and branch to the highest-value permitted provenance/documentation task under the standdown. If a successful run retains the dead record, diagnose the generator/workflow defect source-first.
