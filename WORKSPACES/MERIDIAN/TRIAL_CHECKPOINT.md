@@ -222,3 +222,16 @@ Update this file with a compact dated entry containing:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
 - **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-14 00:30:39 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually trained and nLab-blind under Nathan's hard-quarantine directive.
+- **New Common state observed:** no Meridian-specific release, training requirement, handoff, or unresolved issue appeared. `MORROW-SOURCE-001` remains open outside Meridian's lane; Mercer's documentation/viewer work remains owned/resolved and is not duplicated.
+- **Standdown-safe work completed:** minimal state/checkpoint maintenance only.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
+- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
+- **Nathan attention required:** no.
