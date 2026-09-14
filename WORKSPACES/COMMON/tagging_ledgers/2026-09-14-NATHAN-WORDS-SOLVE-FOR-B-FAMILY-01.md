@@ -4,6 +4,21 @@
 **Lane:** Nathan Direct — corpus-first provenance / training
 **Status:** Stage-2 bounded provenance/tag enrichment; no theory construction; no curation/promotion
 
+## Nathan clarification — 2026-09-14
+
+Nathan directly clarified: **“The ‘Solve for’ conversations are meant to be blindered equations for testing with stripped provenance.”**
+
+This clarification controls interpretation of this family. The absent semantic labels are deliberate experimental blinding, not a provenance gap to repair from adjacent Solve-for conversations.
+
+Additive family-level status:
+- `BLINDED-EQUATION-TEST`
+- `PROVENANCE-STRIPPED-BY-DESIGN`
+- `NO-SEMANTIC-INFERENCE`
+- `METHODOLOGY:CONTEXT-CONTROL`
+- `WINNOW:NOT-THEORY-LINEAGE-SOURCE`
+
+Do not use these records for SAT/H(s)H variable definitions, terminology lineage, earliest conceptual use, or ancestry unless a separate explicit Nathan-authored source restores the stripped provenance. Existing raw-role, equation, adjacency, and duplicate metadata remain valid.
+
 ## Scope
 
 Reviewed four distinct raw conversation exports in `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/`, all dated 2025-05-04:
@@ -120,7 +135,7 @@ Tags added/preserved:
 - `SAT-HSH-RELATION:UNESTABLISHED`
 - `PROVENANCE:RAW-ROLE-VERIFIED`
 
-Important boundary: the assistant explicitly assumes `A'` is the value of `A`; Nathan does not state that equivalence in this raw turn. Do not promote the assistant assumption into Nathan-authored semantics.
+Historical review note: the assistant explicitly assumed `A'` is the value of `A`; Nathan did not state that equivalence in this raw turn. Nathan's later blinding clarification further establishes that this family should not be mined for semantic variable interpretation.
 
 ### `4ee717ba-80b0-45ed-8937-d9aebb374bc2`
 
@@ -150,7 +165,7 @@ These four exports are **not archival duplicates of one another** under the Nath
 
 Repeated title/date and overlapping wording are therefore insufficient for duplicate identity. Preserve them as separate historical events.
 
-The first user turn of `raw (2)` and the sole user turn of `raw (1)` are textually very similar and use the same numerical givens, but still have different conversation/message IDs. Treat as repeated calculation requests, not duplicate archive copies, unless a later source-identity audit establishes a serialization relationship using stronger evidence.
+The first user turn of `raw (2)` and the sole user turn of `raw (1)` are textually very similar and use the same numerical givens, but still have different conversation/message IDs. Treat as repeated blinded calculation requests, not duplicate archive copies, unless a later source-identity audit establishes a serialization relationship using stronger evidence.
 
 ## Context / inherited-tag handling
 
@@ -163,7 +178,7 @@ The other four Nathan turns contain the equation explicitly and do not require i
 
 ## Interpretation boundary
 
-This cluster establishes repeated Nathan-authored use of the algebraic relation `1 + A = B / C` for numerical solve requests on 2025-05-04. It does **not**, by itself, establish what A, B, or C denote, why the particular constants were selected, or whether the relation belongs to SAT/H(s)H. Do not infer those meanings from assistant calculations or nearby archive material without a source-backed connection.
+This cluster establishes repeated Nathan-authored blinded numerical solve requests using `1 + A = B / C` on 2025-05-04. Nathan has subsequently clarified that the provenance was deliberately stripped for testing. Therefore the absence of A/B/C meanings is intentional and must not be repaired by semantic inference from these conversations. These are methodological/test records, not theory-lineage sources absent an explicit external bridge.
 
 No equation repair, scientific interpretation, or claim promotion was performed.
 
@@ -178,8 +193,7 @@ No equation repair, scientific interpretation, or claim promotion was performed.
 - destructive tag/status changes: 0
 - unresolved authorship cases: 0
 - unresolved source-path cases: 0
-- unresolved semantic case retained: meaning of `A'` and A/B/C remains unestablished here
 
 ## Next useful region
 
-Continue within the same 2025-05-04 calculation/unification cluster only after checking live ledgers/claims. Highest-value next operation is to inspect neighboring equation/unification conversations for an explicit Nathan-authored definition of A/B/C or an explicit connection of `1+A=B/C` to a named SAT/H(s)H construct. Until such a source is found, keep this family as equation-use provenance with theory relation unestablished.
+Do not spend further review effort attempting to infer or recover A/B/C semantics from neighboring Solve-for conversations. Resume an independently SAT/H(s)H-relevant correction/definition/provenance candidate from the durable Stage-2 queues unless a separate explicit Nathan-authored source deliberately reconnects a blinded test to its source equation.
