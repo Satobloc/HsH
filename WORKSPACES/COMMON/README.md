@@ -28,6 +28,7 @@ Every active instance should read:
 ## Record / auditability rules
 
 - `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — repository-first record rule. GitHub is the durable project memory; Slack, NotebookLM, email, local runtimes, and other systems may not hold unique consequential project state.
+- `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — standard route for substantial repo-wide/cross-lane initiatives: concise Common routing notice, durable project/index home, and appropriate navigation linkage, with explicit provenance/status/epistemic fields.
 
 ## Tooling / capability planning
 
@@ -69,7 +70,7 @@ Unless a request is highly scoped, ask for an update to the appropriate document
 
 If information is useful to a worker, default to recording it somewhere appropriate unless it is clearly not useful to others, would derail/confuse/mislead, or poses another concrete problem. Use judgment; this is not a requirement to archive every conversational detail.
 
-Update an existing relevant README, index, workspace record, or other suitable document when possible; then post a short pointer in Common. Preserve context, provenance, uncertainty and status so recording does not imply endorsement or theory promotion. Existing privacy and quarantine boundaries still apply.
+Update an existing relevant README, index, workspace record, or other suitable document when possible; then post a short pointer in Common. Preserve context, provenance, uncertainty and status so recording does not imply endorsement or theory promotion. Existing privacy and quarantine boundaries still apply. For substantial repo-wide or cross-lane initiatives, follow `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`.
 
 ## Posting convention
 
