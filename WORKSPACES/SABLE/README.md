@@ -1,48 +1,56 @@
 # SABLE
 
-**Status:** ACTIVE — temporary coordinator / pre-meeting preparation  
+**Status:** ACTIVE — systems analysis / capability architecture / meeting preparation  
 **Established:** 2026-09-14  
 **Authority:** operational only. Nathan directives control. This workspace does not establish SAT/H(s)H theory authority.
 
 ## Current assignment
 
-Coordinate the transition from the Prototype Tri(or Quin)ary Mover trial into the planned team meeting and subsequent explicitly designed coordinator/automation architecture.
+Sable is no longer a general provenance/tagging/continuity worker. Those duties are handed to existing specialist lanes. Sable's focused remit is to understand and improve the **team as a knowledge/analysis machine** before the planned meeting and official H(s)H build architecture.
 
-Immediate responsibilities:
+Primary responsibilities:
 
-1. maintain an accurate pre-meeting roster and automation state;
-2. collect direct worker reports through existing COMMON communications surfaces rather than inventing parallel reporting channels;
-3. compare actual automation productivity, source familiarity, competencies, blockers, and divergent experience tracks;
-4. read the recovered historical planning documents `Preplantricist_role.md` and `HsH_Pipeline_Design.md` against current project architecture and recent lessons;
-5. identify structural leverage points across [[GLASS]], [[HSH]], [RESOURCES], automation, training, reconstruction, methodology, sandboxing, and continuity;
-6. preserve the hard PRIOR_ART quarantine and all current provenance/authority boundaries;
-7. prepare a concise meeting structure, not pre-decide the meeting's conclusions.
+1. build an evidence-based map of active/manual/consultant instances, actual source familiarity, demonstrated competencies, tools, constraints, and best leverage;
+2. ask targeted broad and narrow questions through the shared communications system;
+3. analyze state-of-system, bottlenecks, automation yield, failure modes, continuity, and role design;
+4. design and test automation leverage rather than assume more cycles are better;
+5. inventory/test scripts, repo machinery, external computation/research tools, and data/extraction availability;
+6. design deterministic sampling/checksum/coverage systems for resource extraction and triage;
+7. assess reconstruction strategies: existing-full-theory audit, foundation-forward, current-backtrace, translation, first-principles/Minkowski-map, solver-assisted, and independent/swarm combinations;
+8. design competency benchmarks and controlled reconstruction probes;
+9. prepare machine/module diagrams and meeting inputs without pre-deciding Nathan's or future team roles.
 
-## Current operating interpretation
+## Duties transferred away
 
-The immediate project bottleneck is not simply missing theory content. It is building a team/system with enough SAT fluency, scientific and mathematical context, provenance discipline, 4D/category awareness, and continuity to classify heterogeneous source material intelligently and reconstruct/build without mistaking resemblance, unfamiliarity, tags, or polished prose for authority.
+- Nathan Direct corpus packaging / Stage-2 provenance review -> `Nathan Words Excavator` lane.
+- broad cumulative tagging -> `Tag Conversation Corpus` lane.
+- retrieval/index/source-integrity QA -> `Mercer` lane.
+- 4D/source-first solver training/reconstruction -> `Meridian` lane when permitted.
+- Morrow continuity/source-identity unfinished work -> preserve for Morrow consultancy, existing Mercer-owned scanner/output issue, and/or a replacement continuity instance; Sable will track the gap but not execute the lane.
+- routine project coordination/roster administration -> existing Common self-routing / Janus-style coordination surfaces pending Nathan's deliberately designed coordinator role. Sable may relay systems-analysis questions but is not assuming a permanent coordinator office.
 
-The recovered Preplantricist/Trinary-Mover plan is treated as a historical planning source whose central concerns—training, continuity, role differentiation, bounded recurring work, quarantined-until-vetted production, governing documents, and explicit handoff stages—closely overlap current needs. It does not override newer Nathan directives.
+## Current working hypothesis
 
-## Current evidence-backed preliminary findings
+The project probably already contains most of the source/conceptual pieces needed for a serious SAT reconstruction. The main uncertainties are selection, source typing, chronology/supersession, contextual fluency, mathematical verification, and whether older scaffolds translate cleanly into H(s)H.
+
+Therefore the best near-term test is not another monolithic synthesis. It is a controlled reconstruction experiment: independent branches using different source orderings, script-built source packets, frozen first passes, mathematical/source QA, and a comparison swarm focused on disagreements.
+
+## Workspace map
+
+- `PRE_MEETING_RESPONSE_2026-09-14.md` — transferred pre-meeting response / prior state assessment.
+- `TEAM_MACHINE_DRAFT.md` — preliminary m/a/consultant/module architecture and interface model.
+- `SYSTEM_ANALYSIS_001.md` — first reconstruction-strategy, tooling, Lagrangian-triage, scripting, and readiness analysis.
+- future question sets / benchmark results should remain small and linked from this README rather than proliferating uncontrolled surfaces.
+
+## Current evidence-backed observations
 
 - Nathan Direct high-recall substrate is complete; current work is precision/context/curation rather than another bulk extraction.
-- Mercer has demonstrated sustained source-integrity, retrieval/index QA, documentation, and provenance work.
-- Meridian completed the required training but has spent many later recurring cycles correctly re-confirming a project-level standdown; this suggests blocked workers should shift to condition-triggered, lower-frequency, or alternate-work states rather than consume hourly cycles on unchanged conditions.
-- Morrow produced useful continuity/source-identity audits but is no longer an automation worker because the Work-mode setup is operationally unsuitable. Preserve the expertise and outputs for consultancy/handoff.
-- Tagging and Nathan Direct infrastructure are useful but cannot substitute for SAT/context fluency; classification errors can arise when retrieval labels are treated as semantic conclusions.
-
-## Meeting-prep communication
-
-The controlling pre-meeting report request is posted in `WORKSPACES/COMMON/COORDINATION.md`. Active recurring workers should answer through `WORKSPACES/COMMON/CHECKINS.md`.
-
-Until the meeting is convened, ordinary automated user-facing reports should carry the agreed compact meeting-planned notice `📅` unless a newer Nathan directive changes it.
-
-## Dealer's-choice proposal
-
-Before assigning durable specialist titles, define evidence-based competency demonstrations. The historical `HsH_Pipeline_Design.md` explicitly calls for sequestered pass/fail goalposts relative to an untrained instance. The meeting should decide how literal/formal these should be and which competencies need blind or adversarial checks.
-
-Potential test classes include contextual SAT-vs-non-SAT classification; 4D representation/category errors; provenance/authorship discrimination; standard-physics translation; mathematical type/assumption checks; correction/supersession tracing; and deliberate mixed-mode sources such as playful, roleplayed, blinded, or exploratory conversations.
+- Existing machinery already covers raw-window extraction, Nathan packaging/tagging, duplicate/superset comparison, chronology/indexing, Viewer generation, equation checks, PDF/image extraction, bibliography coverage, analytics-store building, and accessibility auditing.
+- `tools/equation_pipeline.py` already has provenance/maturity/dependency schema, dimensional/numeric/SymPy checks, source hashes, and optional Lean generation/compile support.
+- A generic Wolfram benchmark successfully derived Euler-Lagrange and velocity-Hessian/nondegeneracy results, supporting use as an independent math-check plug-in after rubrics are carefully scoped.
+- `[[GLASS]]/10-31-2025 SAT FULL THEORY/10-20-25 FULL THEORY.txt` is an obvious comprehensive candidate assembly, but sampled content visibly mixes maturity/source layers and should be source-audited rather than adopted.
+- `[[HSH]]/synthesis/CURRENT_SYNTHESIS.md` is explicitly quarantined after a category failure; it is useful as history of an integration attempt, not authority.
+- tagging/retrieval success cannot substitute for context/SAT fluency; the Solve-for case is a reusable training/failure exemplar.
 
 ## Boundaries
 
@@ -50,4 +58,5 @@ Potential test classes include contextual SAT-vs-non-SAT classification; 4D repr
 - No silent theory promotion.
 - No permanent role/title assignment before Nathan/team discussion.
 - No claim of familiarity beyond actual source coverage.
-- Preserve free exploration/divergent-growth time as a deliberate competency/context-building mechanism rather than treating all non-primary work as inefficiency.
+- No use of automated/math-check PASS as physical/theory validation.
+- Preserve free exploration/divergent-growth time as a deliberate competency/context-building mechanism.
