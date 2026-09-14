@@ -99,7 +99,7 @@ These entries are **straight-from-fingerpads primary statements**, but historica
 
 - **Status:** `LIVE DIRECT STATEMENT` `CURRENT STATUS CLARIFICATION` `ARCHIVE-VERIFICATION TARGET`
 - **Conversation:** Mercer live conversation captured 2026-09-13; exact raw conversation ID pending
-- **Conversation/message ID:** `PENDING RAW-ID_BACKFILL`
+- **Conversation/message ID:** `PENDING RAW-ID BACKFILL`
 - **Local date:** 2026-09-13 EDT
 - **Tags:** `METHOD` `MINKOWSKI-GRAMMAR` `CONTROL` `STANDARD-PHYSICS` `COVARIANCE` `GEOMETRIC-PRIMITIVE` `RESIDUAL-EFFECT`
 - **Nathan wording:**
