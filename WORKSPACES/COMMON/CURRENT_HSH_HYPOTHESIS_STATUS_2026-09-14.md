@@ -1,17 +1,29 @@
-# Current H(s)H hypothesis status — Nathan correction, 2026-09-14
+# Current H(s)H / SAT status — Nathan corrections, 2026-09-14
 
-**Authority:** explicit Nathan correction in live conversation. This file records status only; it is not a theory derivation or validation.
+**Authority:** explicit Nathan corrections in live conversation. This file records status only; it is not a theory derivation or validation.
 
-## Current/live hypotheses
+## Current/live H(s)H hypotheses
 
 The following are **LIVE H(s)H hypotheses** and must not be labeled historical merely because related precursor material exists elsewhere:
 
 - **Kerr** — live H(s)H hypothesis / current construction line.
 - **Kelvin** — live H(s)H hypothesis / current construction line.
-- **Whirligig** — live H(s)H hypothesis / current construction line.
-- **Donut** — in this context refers to the Whirligig and therefore inherits the live/current status.
 
 Nathan explicitly corrected the inverse classification: these are later conclusions, not discarded historical scaffolds.
+
+## Live SAT geometric-solver system
+
+The following are **live SAT geometric-solver machinery**, not historical hypotheses:
+
+- **Whirligig** — live geometric solver developed for SAT.
+- **Donut** — refers to the Whirligig in this context; it is a solver reference, not a separate H(s)H hypothesis.
+- **Hagalaz operator** — live operator tying the solver system together.
+- **UI / TX** — live SAT geometric solver/component; UI and TX are aliases in this context.
+- **Three Spheres** — live SAT geometric solver/component.
+
+**Integration relation:** Hagalaz ties Whirligig, UI/TX, and Three Spheres together.
+
+This solver-system status should be kept distinct from the Kerr/Kelvin live H(s)H hypothesis status.
 
 ## Ravel source routing
 
@@ -23,6 +35,6 @@ Catalog metadata: 2026-09-06 through 2026-09-10, 694 messages. Use the raw conve
 
 ## Handling rule
 
-If existing summaries, ledgers, tags, or analyst notes mark Kerr, Kelvin, Whirligig, or Donut-as-Whirligig as `HISTORICAL`, add a Nathan-correction/current-status relation and remove/downgrade the incorrect historical status where Nathan's explicit override applies. Preserve an audit trail of the former classification rather than silently rewriting provenance.
+If existing summaries, ledgers, tags, or analyst notes mark Kerr, Kelvin, Whirligig/Donut, Hagalaz, UI/TX, or Three Spheres as `HISTORICAL` where Nathan's explicit correction applies, add a Nathan-correction/current-status relation and remove/downgrade the incorrect status while preserving an audit trail of the former classification.
 
-Current/live status is independent of mathematical correctness, maturity, polish, or validation.
+Current/live status and functional classification are independent of mathematical correctness, maturity, polish, or validation.
