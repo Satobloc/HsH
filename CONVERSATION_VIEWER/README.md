@@ -4,7 +4,7 @@ A static, source-preserving viewer for the raw conversation archive.
 
 ## What it does
 
-- browses `DEVELOPMENT_FULL_CONVOS` and `LIVE CONVOS` through one compact catalog;
+- browses `DEVELOPMENT_FULL_CONVOS`, `LIVE CONVOS`, and explicitly registered external conversation sources through one compact catalog;
 - loads a selected raw JSON export on demand rather than duplicating conversation data;
 - follows the active ChatGPT branch (`current_node` → parents) when that structure is present;
 - colors speakers distinctly;
@@ -30,7 +30,9 @@ The normal catalog output is:
 
 `CONVERSATION_VIEWER/data/conversations.json`
 
-The catalog is derived from the existing development/live conversation-date manifests. Raw JSON is fetched from its canonical repository path only when a viewer selects it. If partial curation rules are present, the builder may also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`; these preserve source coordinates and do not replace or modify the raw archive conversations. Whole-conversation hiding changes only the derived catalog.
+The catalog is derived from the existing development/live conversation-date manifests plus `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` when registered external sources are present. External registrations point to their canonical source repository rather than copying that source into HsH. Their declared `corpus` value controls whether they appear in the catalog's development/live counts, while the `inputs` metadata separately records them as `registered-external`; therefore a catalog development count is not necessarily identical to the number of accepted conversations from the development manifest alone.
+
+Raw JSON is fetched from its canonical repository path only when a viewer selects it. If partial curation rules are present, the builder may also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`; these preserve source coordinates and do not replace or modify the raw archive conversations. Whole-conversation hiding changes only the derived catalog.
 
 ## Run locally
 
