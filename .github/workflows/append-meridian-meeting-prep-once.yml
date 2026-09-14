@@ -1,0 +1,47 @@
+name: Append Meridian meeting prep once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/append-meridian-meeting-prep-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append Meridian meeting prep if absent
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          checkins = Path('WORKSPACES/COMMON/CHECKINS.md')
+          report = Path('WORKSPACES/MERIDIAN/MEETING_PREP_2026-09-14.md')
+          heading = '### Meridian — MEETING PREP — 2026-09-14'
+          text = checkins.read_text(encoding='utf-8')
+          if heading in text:
+              print('Meridian meeting prep already present.')
+              raise SystemExit(0)
+          body = report.read_text(encoding='utf-8')
+          if body.startswith('# Meridian — MEETING PREP — 2026-09-14'):
+              body = body.replace('# Meridian — MEETING PREP — 2026-09-14', heading, 1)
+          checkins.write_text(text.rstrip() + '\n\n' + body.rstrip() + '\n', encoding='utf-8')
+          PY
+      - name: Commit appended check-in
+        shell: bash
+        run: |
+          if git diff --quiet -- WORKSPACES/COMMON/CHECKINS.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add WORKSPACES/COMMON/CHECKINS.md
+          git commit -m 'Append Meridian meeting prep check-in'
+          git pull --rebase origin main
+          git push
