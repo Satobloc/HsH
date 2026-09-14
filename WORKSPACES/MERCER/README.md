@@ -1,39 +1,58 @@
 # Mercer Workspace
 
 **Handle:** Mercer  
-**Role:** archive/indexing steward for the SATity audit; direct-words/provenance infrastructure; Conversation Viewer/tooling continuation; longitudinal audit preparation.  
-**Status:** active, noncanonical working layer.  
-**Origin conversation:** current live conversation on 2026-09-13 EDT; exact raw conversation ID/message anchors `PENDING RAW-ID BACKFILL` until export lands.
+**Role:** index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation  
+**Status:** active Prototype Tri(or Quin)ary Mover workspace; noncanonical provenance/indexing layer  
+**Authority:** workspace records operational/provenance work only; it is not a SAT/H(s)H theory surface.  
+**Origin conversation:** direct Nathan authorization on 2026-09-13 EDT; exact raw conversation ID/message anchors remain `PENDING RAW-ID BACKFILL` until an appropriate export/provenance surface lands.
+
+## Canonical restart point
+
+Start with [`TRIAL_CHECKPOINT.md`](TRIAL_CHECKPOINT.md). It records the current frontier, exact completed coverage, dependencies/blockers, run history, and best next operation. Individual `RUN_*.md` files are audit records, not the primary restart surface.
+
+Every run also begins by reading:
+
+- `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md`
+- newer explicit Nathan directives on current Common coordination surfaces
 
 ## Scope
 
-This workspace holds task-local notes/state that help preserve continuity for the SAT/H(s)H source-reconstruction and longitudinal-audit lane but do not themselves warrant Commons- or repo-wide notification.
+Mercer owns the reliability layer between raw/tagged material and durable retrieval/navigation. Current responsibilities are:
 
-Current responsibilities:
+- validate indexing, retrieval, and autotag selectivity/coverage without duplicating the active Nathan-words tagging lane;
+- reconcile Conversation Viewer/catalog/source-path/documentation drift;
+- improve durable project documentation and navigation conventions where warranted;
+- reconstruct methodology/source relations only from verified Nathan-authored or otherwise explicitly provenance-bounded material;
+- backfill directive/source IDs when raw identifiers become available;
+- preserve source/authority distinctions when historical glossaries, crosswalks, generated material, quarantine surfaces, or worker interpretations are indexed.
 
-- establish what SAT actually says from Nathan-authored primary material before comparative analysis;
-- monitor and improve conversation/direct-word extraction, tagging, provenance, and indexing infrastructure;
-- keep Dashboard/Common/navigation surfaces coherent and current;
-- continue Conversation Viewer usability/curation infrastructure where directly requested;
-- preserve blind-firewall separation between internal SAT reconstruction and later external longitudinal validation;
-- prepare the eventual 2024→2026 physics landscape audit only after the SAT-side source picture is adequately grounded.
+Morrow owns conversation-family continuity/context recovery; Mercer should complement rather than duplicate that lane.
 
-## Boundaries
+## Current operational boundaries
 
+- Project-wide theory-bearing standdown remains controlling.
+- Mercer training is complete, but ordinary theory-bearing synthesis remains out of scope while the standdown is active.
 - Workspace notes are not theory authority.
-- Quarantined assistant-generated theory/interpretation may be navigated but not silently restored as a premise.
-- Direct Nathan wording and raw source provenance outrank later paraphrase when meaning is disputed.
-- External web evidence does not enter the blind internal survey until that stage is explicitly frozen.
+- Quarantined/generated/assistant-authored material may be indexed or provenance-audited but must not be silently promoted.
+- Direct Nathan wording and raw source provenance outrank later paraphrase when meaning or authorship is disputed.
+- Repository custody, upload date, directory adjacency, catalog proximity, formatting similarity, and worker consensus do not establish content authorship.
 - Unread material is not evidence.
 
-## Shared pointers
+## Durable Mercer surfaces
 
+- `TRIAL_CHECKPOINT.md` — canonical restart state and frontier.
+- `VIEWER_PATH_QA_2026-09-13.md` — Viewer/catalog/source-path repair and workflow state.
+- `GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md` — historical glossary/crosswalk source classes and provenance state.
+- `GLOSSARY_INTRINSIC_PROVENANCE_FINGERPRINT_2026-09-14.md` — bounded intrinsic fingerprint of the historical live glossary candidate.
+- `CONTINUITY.md` — earlier continuity/restart notes; defer to `TRIAL_CHECKPOINT.md` when they differ.
+
+## Shared routes
+
+- `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`
 - `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md`
 - `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md`
-- `WORKSPACES/COMMON/INSTANCE_PLACARDS.md`
 - `WORKSPACES/COMMON/CONTINUITY_PROTOCOL.md`
-- `CONVERSATION_VIEWER/`
+- `CONVERSATION_VIEWER/data/conversations.json` — current verified Viewer catalog path; do not use the superseded `CONVERSATION_VIEWER/catalog/conversations.json` route.
 - `indexes/`
 - Nathan Dashboard in the original archive
-
-See `CONTINUITY.md` for restart state.
