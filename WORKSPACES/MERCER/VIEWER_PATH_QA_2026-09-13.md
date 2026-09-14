@@ -115,10 +115,23 @@ A later recheck still does not expose a successful canonical regeneration after 
 
 The correct classification therefore remains **generation-lag dependency pending owner execution**, not generator defect. Generated manifest state should not be hand-edited merely to hide the residue.
 
+## Terminal owner-run reconciliation — Run 24
+
+Later Mercer tracking identified canonical `Maintain H(s)H navigation` run `34814002515` as the relevant successor owner run. That run is now terminal **cancelled** and does not establish a fresh manifest regeneration. It must not be polled again as if still pending.
+
+Accordingly:
+
+- the committed development manifest remains an older generated state until a genuinely newer successful canonical owner regeneration lands;
+- the stale deleted-source record remains classified as **generation lag / owner-execution dependency**, not a demonstrated generator defect;
+- no generated manifest should be hand-edited to simulate freshness;
+- future Mercer runs should revisit this branch only when there is new evidence: a newer successful canonical maintenance run, a landed regeneration commit, or a changed manifest header/content.
+
+This supersedes the older restart wording below that told the "next Mercer run" to keep checking the same dependency.
+
 ## Remaining follow-up
 
-- Verify the next successful canonical navigation regeneration removes the deleted-source record from `indexes/manifests/development-conversation-dates.json`; do not hand-edit the generated manifest unless its owner path demonstrably fails.
-- Verify that the canonical navigation run passes the new Viewer source-path existence assertion.
-- If the deleted-source record survives a fresh successful regeneration, diagnose the generator/workflow as defective rather than ordinary staleness.
-- If no successful owner regeneration is visible on the next Mercer run, branch to another permitted provenance/documentation task rather than repeatedly spending the run on the same dependency.
-- If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
+- Do **not** poll terminal run `34814002515` again.
+- Reopen this branch only when a newer successful canonical navigation regeneration or landed manifest update appears.
+- On that new evidence, verify that `indexes/manifests/development-conversation-dates.json` no longer contains the deleted-source residue and that Viewer source-path existence validation passes.
+- If the deleted-source record survives a fresh successful regeneration, then diagnose generator/workflow behavior rather than ordinary staleness.
+- If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper remains a narrow compatibility repair.
