@@ -11,7 +11,7 @@ Nathan directed the project toward a repo-wide historical definitions initiative
 
 This inventory implements `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`: source first, authorship/status explicit, historical/superseded material preserved, generated interpretation not silently promoted.
 
-## Search / coverage performed this pass
+## Search / coverage performed
 
 ### Current HsH repository
 
@@ -67,7 +67,7 @@ Read the legacy archive README and generated `..findex.txt` rather than guessing
 **Classification:** **AI-mediated/generated compilation signal present; not Nathan Direct by default**.  
 **Caution:** this file may preserve useful quotations, source references, or Nathan-approved material, but the compilation itself cannot be used as a Nathan-authored definition source without tracing entries back to attributable underlying material.
 
-## Repository-custody provenance pass — Run 15
+## Repository-custody provenance — Run 15
 
 Git path history adds a useful but limited provenance layer for the two unresolved candidates.
 
@@ -104,6 +104,48 @@ This distinction should be carried into the planned historical glossary registry
 - `repository_custodian`;
 - `ingest_mode` (`bulk upload`, `specific edit`, `generated`, etc.);
 - `content_authorship_status` separately from commit author.
+
+## Indexed phrase ancestry test — Run 16
+
+Distinctive source-derived phrases from `SATv  TO STANDARD MAP.txt` were tested through the available GitHub indexed-search routes against HsH and the legacy archive, including:
+
+- `Mapping SAT-W to Known Physics (Initial Set)`;
+- `Photons are events, not objects`;
+- `restoration of filament symmetry`;
+- `filament tension across time`.
+
+No raw-conversation ancestry hit surfaced. This is a retrieval limitation/result, not evidence that no originating conversation exists. Do **not** repeat the same GitHub phrase-search route unless the searchable corpus/index changes.
+
+## Raw-export retrieval route — Run 17
+
+A repository-native raw-conversation extraction path is now verified:
+
+- workflow: `.github/workflows/extract-raw-window.yml`;
+- extractor: `WORKSPACES/COMMON/scripts/extract_raw_window.py`;
+- request queue: `WORKSPACES/COMMON/extraction_requests/*.json`;
+- output directory: `WORKSPACES/COMMON/extraction_outputs/`.
+
+The extractor reads an explicit raw conversation `source_path`, selects user messages after `after_create_time`, includes configurable neighboring context through `context_each_side`, and writes both JSON and Markdown. Output preserves the conversation ID plus per-message `node_id`, `message_id`, role, author name, recipient, create time, parent, and text. This is materially stronger provenance machinery than filename/upload custody or indexed phrase matching.
+
+A committed request demonstrates the intended request schema:
+
+```json
+{
+  "source_path": "<raw conversation path>",
+  "after_create_time": 0,
+  "user_limit": 20,
+  "context_each_side": 1,
+  "purpose": "<provenance/retrieval purpose>"
+}
+```
+
+The workflow automatically reruns requests when request JSONs or the extractor change and commits changed extraction outputs back to `main`.
+
+### Consequence for glossary ancestry
+
+The ancestry problem is now narrower and better specified. The missing prerequisite is **not** raw-window tooling. It is a defensible candidate raw conversation path and time/frontier for either historical candidate. The extractor is deliberately bounded and chronological; it is not a phrase-search engine across all exports. Therefore creating speculative requests against arbitrary raw files would be noisy and could duplicate Morrow/Nathan-Words lanes.
+
+Safe next ancestry operation: locate an existing raw-export index, title/date correlation, or independently sourced candidate conversation path for the glossary/standard-map material; then use the bounded extractor to recover exact attributable messages. Until an anchor exists, keep authorship unresolved.
 
 ## Retrieval finding
 
@@ -142,6 +184,7 @@ Do **not** create a theory-bearing canonical glossary from this inventory during
 ## Dependencies / blockers
 
 - Raw conversation/message provenance for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` is not yet identified.
+- A repository-native bounded raw extractor exists, but the historical candidates still lack defensible `source_path` / time anchors for using it.
 - Current H(s)H terminology authority cannot be inferred from these historical files while the theory-bearing standdown remains active.
 - GitHub connector recursive-tree output is response-truncated; current-HsH negative filename search is therefore a discoverability finding, not exhaustive absence.
 - Repository path history establishes first-seen custody dates but cannot by itself recover line-level/content authorship from bulk-upload commits.
@@ -150,8 +193,8 @@ Do **not** create a theory-bearing canonical glossary from this inventory during
 
 Continue source-first ancestry recovery for the two high-value historical candidates:
 
-1. use exact distinctive phrases against raw conversation exports / archive indices where those surfaces are searchable;
-2. recover attributable Nathan prompts/messages and dates where possible;
+1. locate an existing raw-export index, title/date correlation, or attributable candidate conversation path without repeating the exhausted GitHub phrase-search route;
+2. once a defensible raw source/time anchor exists, submit a bounded extraction request and recover exact Nathan prompts/messages, IDs, and dates;
 3. record framework phase and any explicit supersession/clarification without reconciling theory content;
 4. keep repository custody separate from content authorship;
 5. hand verified source metadata to the definitions/tagging lane rather than independently constructing the glossary.
