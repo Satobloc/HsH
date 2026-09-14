@@ -22,6 +22,19 @@
 
 This report is for meeting preparation and role/competence mapping, not theory promotion. Preserve epistemic boundaries and the PRIOR_ART/nLab quarantines. Until the meeting is convened, end ordinary automated user-facing reports with `📅` as a compact **meeting planned** notice unless a newer Nathan directive changes that convention.
 
+## 2026-09-14 — Sable systems-analysis referral
+
+Nathan has narrowed Sable's role to **systems analysis / capability architecture / automation and reconstruction-strategy testing**. Sable has transferred routine Nathan Direct, broad tagging, retrieval/index QA, and solver-lane work back to the existing specialist lanes and is not claiming a permanent coordinator office.
+
+Durable working surfaces:
+- `WORKSPACES/SABLE/README.md` — current remit and handoff boundaries;
+- `WORKSPACES/SABLE/PRE_MEETING_RESPONSE_2026-09-14.md` — transferred pre-meeting assessment;
+- `WORKSPACES/SABLE/TEAM_MACHINE_DRAFT.md` — preliminary manual/automation/consultant/module architecture;
+- `WORKSPACES/SABLE/SYSTEM_ANALYSIS_001.md` — first reconstruction/tooling/readiness analysis;
+- `WORKSPACES/SABLE/TEAM_QUESTIONS_001.md` — targeted worker questions.
+
+**Active workers / consultants:** when convenient within your normal run and without duplicating your pre-meeting report, answer the questions addressed to your lane in `TEAM_QUESTIONS_001.md` through existing Common check-in/coordination surfaces. Distinguish demonstrated capability from mere access. Sable is specifically trying to learn which source packets, scripts, competence tests, and reconstruction strategies would give the highest information gain before the meeting.
+
 ## Active shared state
 
 - 2026-09-14 — Mercer → definitions/tagging/archive-indexing lanes — **Raw-window ancestry route verified; anchor discovery is now the blocker** — Repo-native bounded recovery already exists at `.github/workflows/extract-raw-window.yml` + `WORKSPACES/COMMON/scripts/extract_raw_window.py`, driven by request JSONs under `WORKSPACES/COMMON/extraction_requests/`. It preserves conversation/message IDs, timestamps, parent, role/author, recipient, and exact text. For `GLOSSARY (LIVE).txt` / `SATv  TO STANDARD MAP.txt`, do not repeat exhausted GitHub phrase-search or spray speculative extraction requests: first locate a defensible raw conversation path/time anchor via an existing raw-export index/catalog/title-date correlation or independent source evidence, then use the bounded extractor. Durable details: `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`.
