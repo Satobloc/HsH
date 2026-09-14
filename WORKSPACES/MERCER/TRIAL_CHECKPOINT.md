@@ -17,7 +17,7 @@ Every run: read `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, `WORKSPACES/
 
 Keep distinct: Nathan-authored direct material; Nathan's present recollection/testimony; archive-corroborated history; established/tentative SAT/H(s)H status supported by controlling sources; historical/displaced material; assistant interpretation; Mercer reconstruction; Workshop/Clearinghouse speculation. Do not promote worker consensus, recollection, quarantined material, repository upload identity, catalog proximity, thematic similarity, clean formatting, directory adjacency, or generated interpretation into content authority without provenance.
 
-## Current controlling state — after Run 31
+## Current controlling state — after Run 32
 
 - Project-wide theory-bearing standdown remains active.
 - Mercer individual training is complete.
@@ -75,6 +75,14 @@ Current coherent chain:
 - Nathan Direct: 14,306 packaged unique user messages + 7,145 collapsed duplicate user records = 21,451;
 - Stage 2: `source_records: 14306`.
 
+Run 32 confirmed `indexes/nathan-direct/MANIFEST.json` as the preferred stable machine-readable Nathan Direct package-count surface. It carries input/package/duplicate counts plus yearly shard counts. Safe machine invariants now include:
+
+- 14,306 packaged unique + 7,145 collapsed duplicates = 21,451 input user records;
+- shard counts 293 + 306 + 4,801 + 8,906 = 14,306;
+- Stage-2 `source_records` should equal 14,306 packaged unique messages.
+
+This closes the package-count bridge gap without Markdown scraping or raw reparsing. Autotag → package generation-state/freshness lineage remains separate and `UNKNOWN` until a stable machine-readable autotag-side state marker is confirmed.
+
 Distinguish raw corpus counts, scanned infrastructure JSON counts, and tagger/bucket counts. Do not treat winnow/bucket changes as source loss when source counts remain stable.
 
 ## D. Development-manifest collision / normalization blocker
@@ -98,7 +106,9 @@ Do not conflate the separate SAT_CONVOS_11 50-message `Cosmological Constant Sum
 
 Run 30: `WORKSPACES/MERCER/SOURCE_INTEGRITY_SYSTEMS_RESPONSE_001.md` mapped reliable machine substrate, observed failure modes, composition strategy, sampling regime, and safe Mercer/Morrow role boundary.
 
-Run 31: `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` converts that recommendation into a bounded v0 implementation contract.
+Run 31: `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` converted that recommendation into a bounded v0 implementation contract.
+
+Run 32: located and verified `indexes/nathan-direct/MANIFEST.json` as the machine-readable package-count bridge; updated the validator contract accordingly.
 
 Verified v0 feasibility:
 
@@ -106,13 +116,13 @@ Verified v0 feasibility:
 - Viewer accepted-count arithmetic can include registered external records explicitly.
 - Viewer path/message-count/timestamp fields can be reconciled against accepted manifest records.
 - Manifest summary/status arithmetic can be checked without reading theory content.
-- Stage-2 count continuity can be checked once the preferred machine-readable upstream count surface is selected.
+- Nathan Direct package arithmetic and package → Stage-2 source-count continuity can be checked from machine-readable manifests.
 
 Explicit bridge gaps:
 
 - date manifests do not carry Git blob SHA;
 - date manifests do not carry raw conversation ID;
-- easiest current autotag summary is Markdown, so avoid brittle prose scraping if a stable JSON/JSONL metadata surface already exists;
+- machine-readable autotag-side generation/state lineage surface not yet confirmed;
 - PDF/extraction parentage should wait for explicit parent/checksum metadata.
 
 Implementation rule: build adapters over existing metadata surfaces; do not build another archive parser. Validator must be read-only, deterministic, emit `PASS/WARN/BLOCKED/FAIL/UNKNOWN`, preserve warning text, and never infer authorship/theory authority.
@@ -133,6 +143,7 @@ Permanent regression specimens: Janus non-`parts` truncation; historical Viewer 
 - `OWNER ACTION`: SAT_CONVOS_15 exact duplicate pair requires explicit provenance-preserving disposition before the development manifest can clear its collision and 48 blocked records.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: exact raw IDs for 2026-09-13 Mercer live-source statements await attributable export/provenance material.
+- `DEPENDENCY`: machine-readable autotag-side generation/state lineage surface not yet confirmed.
 - No current issue genuinely requires Nathan attention.
 
 ## Run history
@@ -147,7 +158,8 @@ Permanent regression specimens: Janus non-`parts` truncation; historical Viewer 
 - Run 29: exact duplicate collision isolated; owner handoff created.
 - Run 30: source-integrity systems response and failure-mode map.
 - Run 31: thin cross-source integrity validator feasibility audit and v0 implementation contract.
+- Run 32: Nathan Direct machine-readable package-count bridge verified and added to validator contract.
 
 ## Best next operation
 
-Next run: reread Control/Common/Handoffs. If the SAT_CONVOS_15 pair has been dispositioned or manifests/Viewer regenerated, verify the new state and zero collision-induced global blocking. Otherwise, locate the most stable existing machine-readable upstream autotag/Nathan Direct count surface. If found, add it to the validator contract; if not, implement a minimal read-only Viewer/manifest validator covering freshness, accepted-count arithmetic, path/message-count reconciliation, and manifest status arithmetic. Do not expand into raw archive parsing merely to fill optional metadata; use `UNKNOWN` for unavailable joins and add adapters only when an existing source warrants them.
+Next run: reread Control/Common/Handoffs. If the SAT_CONVOS_15 pair has been dispositioned or manifests/Viewer regenerated, verify the new state and zero collision-induced global blocking. Otherwise implement the minimal read-only validator over already verified metadata surfaces: Viewer/date-manifest freshness and arithmetic, manifest blocker/status arithmetic, Nathan Direct package arithmetic, and package → Stage-2 `source_records` continuity. Emit JSON plus compact Markdown with `PASS/WARN/BLOCKED/FAIL/UNKNOWN`. Do not expand into raw archive parsing merely to fill optional identity fields; use `UNKNOWN` for unavailable joins.
