@@ -26,11 +26,11 @@ From the repository root:
 python tools/build_conversation_viewer.py
 ```
 
-This generates only:
+The normal catalog output is:
 
 `CONVERSATION_VIEWER/data/conversations.json`
 
-The catalog is derived from the existing development/live conversation-date manifests. Raw JSON is fetched from its canonical repository path only when a viewer selects it.
+The catalog is derived from the existing development/live conversation-date manifests. Raw JSON is fetched from its canonical repository path only when a viewer selects it. If partial curation rules are present, the builder may also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`; these preserve source coordinates and do not replace or modify the raw archive conversations. Whole-conversation hiding changes only the derived catalog.
 
 ## Run locally
 
