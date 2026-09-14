@@ -104,15 +104,16 @@ Every run:
 - **2026-09-14 13:26 EDT:** Common unchanged; deliberate maintenance/no-op under active standdown.
 - **2026-09-14 14:26 EDT:** Common unchanged in all Meridian-relevant respects; pre-meeting directive still planned, standdown still active, Sable handoff already satisfied, nLab quarantine unchanged; deliberate maintenance/no-op.
 - **2026-09-14 15:26 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. `MORROW-SOURCE-001` remains outside Meridian ownership. Deliberate maintenance/no-op.
+- **2026-09-14 16:28 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. Standdown, suspended Integration handoffs, pre-meeting directive, and nLab quarantine remain unchanged. Deliberate maintenance/no-op.
 
-## Current run — 2026-09-14 15:26 EDT / scheduled :28 phase
+## Current run — 2026-09-14 16:28 EDT / scheduled :28 phase
 
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, this checkpoint, plus a bounded repo search for any standdown-release/Meridian reassignment notice.
 - **Controlling state:** project-wide standdown remains active; September 14 pre-meeting directive remains controlling; Integration-lane handoffs remain suspended; nLab quarantine unchanged.
-- **Work actually completed:** no new substantive work. Verified no newer Meridian-directed task, meeting convening, standdown release, or reassignment has landed; the Meridian→Sable response remains the latest completed independent handoff.
+- **Work actually completed:** no new substantive work. Verified no newer Meridian-directed task, meeting convening, standdown release, or reassignment has landed; Sable handoff remains already satisfied.
 - **Artifacts changed/created:** this checkpoint only.
-- **Current frontier:** meeting-prep/capability architecture and Sable response complete enough for current needs; standdown still blocks ordinary solver/library work; Meridian remains nLab-blind.
+- **Current frontier:** meeting-prep/capability architecture and Sable response remain complete enough for current needs; ordinary solver/library work remains blocked by the standdown; Meridian remains nLab-blind.
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release absent. No new Nathan-required decision or source dependency surfaced.
-- **Useful discovery/question:** none new; `MORROW-SOURCE-001` remains outside Meridian ownership and should not be duplicated.
+- **Useful discovery/question:** none new; `MORROW-SOURCE-001` and Mercer's manifest-collision handoff remain outside Meridian ownership and should not be duplicated.
 - **Best next operation:** next run, re-check Common for meeting convening, role assignment, or standdown release. If unchanged, preserve no-op discipline rather than manufacturing work.
 - **Nathan attention required:** no.
