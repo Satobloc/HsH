@@ -44,7 +44,30 @@ This is sufficient to validate Viewer lineage arithmetic, source-manifest freshn
 
 The current artifact is human-readable Markdown rather than a small normalized manifest. It exposes corpus totals and bucket counts, but a validator should avoid brittle prose scraping if a machine-readable autotag output already exists elsewhere. For v0, these totals can remain an optional/manual invariant unless a stable JSON/JSONL summary path is confirmed.
 
-### 4. Nathan Direct Stage 2 manifest
+### 4. Nathan Direct package manifest
+
+`indexes/nathan-direct/MANIFEST.json`
+
+Verified as the preferred stable machine-readable upstream count surface. It exposes:
+
+- `input_records: 69927`
+- `input_user_records: 21451`
+- `packaged_unique_user_messages: 14306`
+- `archive_duplicate_user_records_collapsed: 7145`
+- missing-ID and graph-pointer counts
+- explicit per-year shard paths and record counts
+
+This closes the Run-31 bridge gap for Nathan Direct package → Stage 2 count continuity without scraping Markdown or reparsing raw conversations.
+
+Safe arithmetic invariants now available directly from this manifest:
+
+- `packaged_unique_user_messages + archive_duplicate_user_records_collapsed == input_user_records`
+- sum of shard `records` equals `packaged_unique_user_messages`
+- Stage-2 `source_records` should equal `packaged_unique_user_messages`
+
+The manifest's own authority note remains controlling: role metadata verifies user authorship; machine tags are retrieval aids and do not confer theory authority.
+
+### 5. Nathan Direct Stage 2 manifest
 
 `indexes/nathan-direct/stage2/MANIFEST.json`
 
@@ -56,7 +79,7 @@ Verified fields:
 - queue counts
 - explicit purpose/boundary metadata
 
-This supports count continuity checks against the upstream Nathan Direct package once the upstream machine-readable count surface is identified.
+This supports count continuity checks against `indexes/nathan-direct/MANIFEST.json`.
 
 ## v0 checks that can be implemented now
 
@@ -80,14 +103,19 @@ This supports count continuity checks against the upstream Nathan Direct package
    - Distinguish `blocked` from missing/unparseable source.
    - Preserve all warnings verbatim in validator output.
 
-5. **Stage-2 queue arithmetic**
-   - Sum queue counts and compare with `source_records` only where queue semantics are supposed to partition the source. Current queues overlap conceptually, so the validator must **not** assume they partition unless the generator contract states that. The safe invariant is only that `source_records` matches the upstream package count.
+5. **Nathan Direct package arithmetic**
+   - Verify packaged unique + collapsed duplicate user records = input user records.
+   - Verify yearly shard record counts sum to packaged unique user messages.
+   - Compare Stage-2 `source_records` directly to packaged unique user messages.
+
+6. **Stage-2 queue arithmetic**
+   - Sum queue counts and compare with `source_records` only where queue semantics are supposed to partition the source. Current queues overlap conceptually, so the validator must **not** assume they partition unless the generator contract states that. The safe invariant is that `source_records` matches the upstream package count.
 
 ## Checks that need one additional metadata bridge
 
 1. **Blob SHA / byte identity** — manifests do not currently carry Git blob SHA. A repository-tree lookup can provide it, but that should be a distinct adapter, not folded into conversation parsing.
 2. **Stable raw conversation ID** — development manifest records do not expose conversation ID. Use an existing raw-source metadata index if one exists; otherwise mark stable-ID join `UNKNOWN` rather than reparsing all files in v0.
-3. **Autotag → Nathan Direct machine count continuity** — current verified totals close, but the easiest public surface inspected here is Markdown. Prefer an existing JSON/JSONL metadata summary if available before automating this check.
+3. **Autotag source-generation lineage** — Nathan Direct package counts are now machine-readable, but a stable machine-readable autotag-side generation/state manifest has not yet been confirmed. Therefore autotag → package freshness should remain `UNKNOWN`/manual rather than inferred from package counts alone.
 4. **PDF/extraction parentage** — defer until explicit parent-source/checksum fields are confirmed in the PDF lane; filename similarity is not enough.
 
 ## Proposed v0 record/result schema
@@ -119,10 +147,10 @@ Build one small validator around **adapters to existing metadata surfaces**, not
 
 - adapter: date manifests
 - adapter: Viewer catalog + external registry
-- adapter: Nathan Direct machine counts
+- adapter: `indexes/nathan-direct/MANIFEST.json` + Stage-2 manifest
 - optional adapter: repository tree/blob metadata
 
-The initial success criterion is modest: reproduce the already-audited Viewer arithmetic/freshness relations and current development-manifest blocker classification from generated metadata alone, with zero raw-source mutation and zero semantic/theory inference.
+The initial success criterion is modest: reproduce the already-audited Viewer arithmetic/freshness relations, current development-manifest blocker classification, and Nathan Direct package/Stage-2 count continuity from generated metadata alone, with zero raw-source mutation and zero semantic/theory inference.
 
 ## Current blocker status
 
