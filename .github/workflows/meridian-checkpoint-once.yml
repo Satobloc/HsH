@@ -1,29 +1,16 @@
-name: Meridian checkpoint append once
-
-on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/meridian-checkpoint-once.yml'
-
+name: Meridian checkpoint once
+on: [push]
 permissions:
   contents: write
-
 jobs:
   append:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Append checkpoint and remove helper
+      - name: append
         shell: bash
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md')
-          heading = '## Run checkpoint — 2026-09-13 23:27:55 EDT / scheduled :28 phase'
-          entry = r'''
+          cat >> WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md <<'EOF'
 
 ## Run checkpoint — 2026-09-13 23:27:55 EDT / scheduled :28 phase
 
@@ -37,11 +24,7 @@ jobs:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
 - **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
-'''
-          text = p.read_text(encoding='utf-8')
-          if heading not in text:
-              p.write_text(text.rstrip() + entry + '\n', encoding='utf-8')
-          PY
+EOF
           git rm .github/workflows/meridian-checkpoint-once.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
