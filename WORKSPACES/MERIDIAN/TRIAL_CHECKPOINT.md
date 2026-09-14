@@ -1,8 +1,7 @@
 # Meridian — Prototype Tri(or Quin)ary Mover Trial Checkpoint
 
-**Status:** ACTIVE / training-first under project standdown  
+**Status:** ACTIVE / individually TRAINED / project-wide standdown still active  
 **Activated:** 2026-09-13 11:36 EDT  
-**First scheduled recurrence:** 2026-09-13 12:28 EDT  
 **Scheduled phase:** hourly at :28, America/New_York  
 **Authority:** newer explicit Nathan directives and `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` control.
 
@@ -10,51 +9,52 @@
 
 Meridian is the **source-first geometry/solver reconstruction + public library/vetting/accessibility lane**, with ordinary work subordinated to the active 4D-training standdown.
 
-This lane is intended to complement, not duplicate:
-- Morrow: conversation-family identity, continuity, contextual/provenance recovery;
-- Mercer: index/retrieval QA, documentation/navigation reconciliation;
-- Nathan Words / tagging lanes: corpus-wide Nathan-authored extraction and tagging;
-- Ravel: forward theory construction and theory acceptance/rejection;
-- Janus: coordination/integration and automation architecture.
+Complementary boundaries:
+- Morrow — conversation identity, continuity, contextual/provenance recovery;
+- Mercer — index/retrieval QA, documentation/navigation reconciliation, glossary ancestry work;
+- Nathan Words / tagging lanes — corpus-wide Nathan-authored extraction and tagging;
+- Ravel — theory construction and theory acceptance/rejection;
+- Janus — coordination/integration and automation architecture.
 
-## Current task disposition
+## Hard boundaries
 
-The pre-trial task is **rewritten for completion, not declared complete**.
+- Project-wide 4D-training standdown remains controlling until Nathan explicitly releases it.
+- Meridian is individually `TRAINED`, but individual completion does not lift the standdown.
+- Integration-lane handoffs remain suspended unless Nathan explicitly reauthorizes them.
+- nLab is under Nathan's hard external quarantine. Meridian is **not** the designated nLab-facing instance and must remain blind to that corpus: no searching, reading, summarizing, indexing, importing, or theory comparison unless Nathan explicitly reassigns access.
+- FEATURED placement is editorial/operational, not theory authority or vetting status.
 
-Pre-trial frontier:
-1. link-first SAT/H(s)H public library expansion before weeding;
-2. verify recursive PDF-text extraction coverage, not just the completed root-only pass;
-3. connect showcased papers to derivation attempts and maintain transparent vetting-status panels;
-4. after training/release, reconstruct and verify UI/TX, Whirligig/Donut, Spheres and Gendarme operators from firsthand artifacts, with special priority on the Whirligig GR↔QM replay.
+## Training completion
 
-These ordinary branches are PAUSED while the project-wide training standdown remains active except for minimal repository administration needed to preserve training state.
+Completed 2026-09-13:
+- FULL-READ / FULL-INGEST `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt`.
+- FULL-READ / FULL-INGEST `SAT_THEORY_ARCHIVE_2023-25/4D THINKING PRIMER.txt`.
+- FULL-READ `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` start-to-finish.
+- Required 4D-pitfalls audit posted to `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md`.
+- Post-training follow-up posted under Meridian in `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md`.
+- Registry row marked `TRAINED` in `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md`.
 
-## Immediate training goalposts
-
-Before any theory-bearing solver/formalization work:
-1. FULL-READ / FULL-INGEST `THE FUNDAMENTAL INTUITIONS — EXTENDED` line by line.
-2. FULL-READ / FULL-INGEST `4D THINKING PRIMER` line by line.
-3. Claim one unclaimed complete conversation in `TRAINING_REGISTRY_2026-09-12.md` and read it start-to-finish.
-4. Audit Meridian's onboarding list and fully ingest every named required resource not previously read completely.
-5. Post the required 4D-pitfalls audit to `TRAINING_RESPONSES_2026-09-12.md`.
-6. Append `POST-TRAINING FOLLOW-UP — 2026-09-12` under Meridian in `QUARANTINE_THEORY_METHOD_CHECKINS.md`.
-7. Complete the Meridian registry row accurately. Individual completion does not lift the standdown.
+Training-specific corrections retained for later solver review:
+1. untyped `w=ct` must not drift from bookkeeping into mechanism;
+2. spacetime coordinate `w` must not silently double as evolution/variational parameter;
+3. representational reorientation must not be conflated with resolver/intersection/readout structure.
 
 ## Post-release measurable goalposts
 
-Only after Nathan releases the standdown and prerequisites are satisfied:
+Only after Nathan releases the standdown:
 
 ### A. Public library / accessibility
-- Continue link-first inclusion of Nathan-designated material.
-- Produce a recursive missing-PDF-text inventory using the archive's existing extraction machinery; do not duplicate successful extracts.
+- Continue link-first inclusion of Nathan-designated material before weeding.
+- Produce recursive missing-PDF-text coverage using existing extraction machinery; do not duplicate successful extracts.
 - Connect featured/formal papers to derivation/provenance paths.
-- Keep conceptual fidelity, derivation status, LLM/computational review, human review and formal verification distinct.
+- Keep conceptual fidelity, derivation completeness, LLM/computational review, human review, and formal verification separate.
 
 ### B. Solver/source reconstruction
-- Recover exact firsthand UI/TX, Whirligig/Donut, Spheres and Gendarme source artifacts before trusting summaries.
-- For each solver record primitives, state, operators, constraints, free DOF, invariants, outputs, failure conditions, source coverage and authority status.
+- Recover firsthand UI/TX, Whirligig/Donut, Spheres, and Gendarme artifacts before trusting summaries.
+- Record primitives, state, operators, constraints, free DOF, invariants, outputs, failure conditions, source coverage, and authority status.
 - Build a Solver Canon + Verification Ledger only if Common confirms no duplicate owner.
-- Reconstruct the original Whirligig GR↔QM process before repairing it; independently recompute with standard mathematics and classify the claim conservatively.
+- Reconstruct the original Whirligig GR↔QM process before repair; independently recompute with standard mathematics and classify conservatively.
+- Re-audit `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` for carrier/resolver/readout typing and admissible-transformation errors before reuse.
 
 ## Epistemic rules
 
@@ -64,201 +64,40 @@ Keep separate:
 - historical material;
 - assistant-generated interpretation;
 - Meridian reconstruction;
-- speculation;
-- external research or standard mathematics.
+- standard mathematics;
+- external research;
+- speculation.
 
-Previously quarantined material may be examined through the Clearinghouse but gains no authority automatically. External literature does not steer forward H(s)H unless deliberately imported under current control. The active Integration-lane handoffs in `HANDOFFS.md` are suspended and must not be executed unless Nathan reauthorizes them.
+Previously quarantined material may be discussed through the Workshop / Ideas Clearinghouse but retains its provenance, quarantine reason, and zero automatic authority.
 
 ## Run protocol
 
-At the beginning of every run:
-1. record actual run start time and scheduled phase;
+Every run:
+1. record actual start time and scheduled phase;
 2. read `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`;
-3. inspect current `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and any newly referenced controlling surface;
+3. inspect current `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and newly referenced controlling surfaces;
 4. read this checkpoint;
-5. choose the highest-priority eligible nonduplicative operation.
+5. choose the highest-priority eligible nonduplicative operation;
+6. if blocked, record the blocker and branch only to work allowed by current control;
+7. update this checkpoint with exact work, frontier, dependencies, and next operation.
 
-During training standdown, training is the assignment. If a branch is blocked, record the blocker and continue with the highest-value allowed training/source-maintenance operation rather than guessing.
+## Historical run summary
 
-When cooperative reconstruction is active later, freeze an independent initial approach before reading other workers' interpretations where practical.
+- **2026-09-13 11:36–12:28 EDT:** enrolled; selected :28 phase; completed mandatory training reads and full `H(s)H TIME RESIDUALS` conversation; posted pitfall audit/follow-up; registry marked TRAINED.
+- **2026-09-13 13:25–16:28 EDT:** repeated Common checks confirmed standdown remained active; no ordinary work resumed; `MORROW-SOURCE-001` identified as outside Meridian lane.
+- **2026-09-13 16:58 EDT:** Nathan imposed hard nLab quarantine; Meridian explicitly remains blind unless designated.
+- **2026-09-13 17:28–23:28 EDT:** standdown unchanged; Mercer resolved Viewer path ownership/documentation; Meridian did not duplicate it.
+- **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
 
-## End-of-run checkpoint format
-
-Update this file with a compact dated entry containing:
-- actual start time / scheduled phase;
-- exact sources and regions read;
-- work actually completed;
-- artifacts changed/created;
-- current frontier / continuation cursor;
-- blockers/dependencies;
-- useful discoveries/questions/disagreements;
-- best next operation;
-- whether Nathan attention is required (`🔶` only when genuinely needed).
-
-## Initial checkpoint — 2026-09-13 11:36 EDT
-
-- Read `AUTOMATION_WORKFLOW_CONTROL.md`, `COORDINATION.md`, `BULLETIN_BOARD.md`, `HANDOFFS.md`, `TRAINING_STANDDOWN_2026-09-12.md`, `MINIMUM_THEORY_PREREQUISITES.md`, and `TRAINING_REGISTRY_2026-09-12.md`.
-- Observed active recurring phases: Nathan Words ~:16:59; Morrow :40; Mercer :52; tagging ~:00:16. Meridian selects **:28** to reduce direct phase collision.
-- Training registry currently lists Meridian as pending/unclaimed.
-- Current ordinary library/solver task is rewritten for persistent completion but paused by the standdown.
-- First automated operation: re-check control surfaces, claim an unclaimed full development conversation, and begin mandatory full sequential training reads with exact continuation cursors.
-- No Nathan-required blocker at enrollment.
-
-## Run checkpoint — 2026-09-13 12:27:44 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, `TRAINING_STANDDOWN_2026-09-12.md`, `MINIMUM_THEORY_PREREQUISITES.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint. Standdown remains active; Integration-lane handoffs remain suspended.
-- **Mandatory full reads completed:** `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt` (entire 6-page extraction); `SAT_THEORY_ARCHIVE_2023-25/4D THINKING PRIMER.txt` (entire document); `HsH/DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` (entire file, lines 1–1400 requested; confirmed empty beyond line 1400).
-- **Selected CONVO:** `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt`, chosen because Mercer had already claimed `H(s)H TEMPORAL ISOTROPY.txt` and this was an unclaimed bounded conversation directly relevant to Meridian's pre-standdown normalization/solver work.
-- **Training findings:** three conversation-specific pitfalls recorded: (1) untyped `w=ct` promoted from bookkeeping into H(s)H mechanism; (2) spacetime coordinate `w` silently doubled as the variational/evolution parameter; (3) “rotate time away” conflated representational reorientation with typed resolver/intersection structure. Generic reparameterization algebra remains standard mathematics where its assumptions hold.
-- **Onboarding audit:** no additional theory document was explicitly designated as a mandatory Meridian onboarding prerequisite beyond the project-wide training set. Earlier documents marked TARGETED-READ or SUBSTANTIAL-READ remain at those statuses; they are not silently upgraded.
-- **Artifacts staged/being posted:** full Meridian training response; post-training follow-up; registry completion; this checkpoint entry. No ordinary library, solver-interpretation, prediction, paper, or suspended handoff work performed.
-- **Registry write issue:** direct connector update was blocked before mutation. A minimal conflict-safe repository append/update helper is being used solely to preserve required training state; the temporary helper/staging files are to be deleted in the same commit.
-- **Current frontier:** once the training response/follow-up/registry line are durably posted, Meridian is individually TRAINED. This does **not** lift the project-wide standdown.
-- **Blockers/dependencies:** post-training ordinary work remains blocked on Nathan's project-wide release. No Nathan clarification is presently required for Meridian's training understanding.
-- **Useful review target after release:** `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` needs explicit carrier/resolver/readout and admissible-transformation typing before any solver interpretation resumes.
-- **Best next operation:** on the next run, re-check control surfaces. If standdown remains active, do only allowed training/source-maintenance work (e.g. verify durable training records and inspect any new training directives); do not resume ordinary solver/library branches. If Nathan has released the standdown, begin the post-release lane from the checkpoint goalposts.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 13:25:13 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current training registry, and this checkpoint. The project-wide 4D training standdown remains active; Integration-lane handoffs remain suspended.
-- **Standdown-safe work completed:** verified that Meridian's training registry row is durably marked `TRAINED`, with both mandatory readings, the complete `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` read, pitfall audit posted, and post-training follow-up recorded. Verified the full Meridian training response is present in `TRAINING_RESPONSES_2026-09-12.md` with the three source-specific pitfalls and `TRAINING_STATUS: COMPLETE`.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended Integration handoff was executed.
-- **Artifacts changed:** this checkpoint only. No theory or canonical surface changed.
-- **Current frontier:** Meridian is individually trained but remains operationally gated by the project-wide standdown. Post-release frontier remains the source-first library/accessibility + solver-reconstruction goalposts above.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — ordinary post-training work waits for explicit Nathan release of the project-wide standdown. This does not require a clarification; it is an existing control condition.
-- **Useful discovery:** no inconsistency found between the registry and the durable training-response record. Current Common still contains no newer Meridian-specific training requirement.
-- **Best next operation:** next run, re-check control surfaces for release or new training directives. If still active and no new training work is assigned, restrict activity to bounded training/source-state verification or other explicitly permitted maintenance; do not manufacture ordinary work.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 14:30:07 EDT / scheduled :28 phase
+## Current run — 2026-09-14 05:28:53 EDT / scheduled :28 phase
 
 - **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; the Bulletin Board still explicitly pauses ordinary assignments and IF-BORED work until release; Integration-lane handoffs remain suspended.
-- **Standdown-safe work completed:** verified Meridian remains accurately marked `TRAINED` in the active registry. No new Meridian-specific training requirement or release notice appeared in Common.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No canonical/theory surface changed.
-- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release is still absent. This is an existing control condition, not a question requiring Nathan attention.
-- **Useful discovery/questions:** none new; registry and control surfaces remain internally consistent for Meridian.
-- **Best next operation:** next run, re-check Common for release or new training/source-maintenance directives. If unchanged, perform only the smallest useful permitted state verification and avoid duplicating previous checks.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 15:26:32 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; Bulletin Board continues to pause ordinary assignments and IF-BORED work until release; Integration-lane handoffs remain suspended.
-- **Standdown-safe work completed:** verified Meridian remains correctly marked `TRAINED`; no release notice, no new Meridian-specific training requirement, and no new controlling handoff appeared.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, operationally gated by project-wide release.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
-- **Useful discovery/questions:** one new Common unresolved issue, `MORROW-SOURCE-001`, concerns export-comparator completeness and is outside Meridian's lane; no Meridian action is indicated under the standdown.
-- **Best next operation:** next run, re-check Common for release or new permitted training/source-maintenance work. If unchanged, make only the minimum state/checkpoint update and avoid redundant verification.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 16:28:49 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
-- **Standdown-safe work completed:** minimal state verification only. Meridian remains individually trained from the prior completed training record; no new Meridian-specific training directive or project-wide release appeared.
-- **New Common state observed:** `MORROW-SOURCE-001` remains the only central unresolved issue and does not require Meridian action; the Bulletin Board records the separate Janus UUID 20:01–20:08 provenance discrepancy as resolved while the export-truncation/scanner issue remains open.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
-- **Best next operation:** next run, re-check Common. If the standdown remains unchanged and no permitted work is newly assigned, perform only minimal state verification/checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 16:58 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended.
-- **New explicit Nathan directive from current conversation:** nLab material will live in its own repository under a **hard quarantine** because of accidental-plagiarism/provenance risk. Only a specifically designated instance may inspect nLab material with Nathan. Meridian is **not designated** and therefore must remain blind to that corpus; no nLab searching, reading, summarizing, indexing, importing, or theory comparison is permitted in this lane unless Nathan explicitly reassigns that access.
-- **Standdown-safe work completed:** recorded the nLab quarantine boundary and verified no newer Common release or Meridian-specific assignment supersedes it.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained and ready for post-release source-first library/accessibility + solver-reconstruction work, but operationally gated by project-wide release and now explicitly blind to the quarantined nLab corpus.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release remains absent. nLab access is intentionally unavailable to Meridian unless Nathan explicitly designates otherwise. Neither condition presently requires clarification.
-- **Best next operation:** next run, re-check Common and current Nathan directives. If unchanged, perform only minimal permitted state/checkpoint maintenance and do not emit a redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 17:28 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
-- **New Common state observed:** Mercer has resolved the LIVE Viewer path-handoff defect and identified `.github/workflows/maintain-navigation.yml` as the canonical manifest owner; `MORROW-SOURCE-001` remains open and outside Meridian's lane. No release notice or Meridian-specific assignment appeared.
-- **Standdown-safe work completed:** minimal state maintenance only; no duplicate investigation of Mercer/Morrow work.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 22:30 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
-- **Current Meridian state:** individually trained; no new Meridian-specific training requirement or release notice appeared. The nLab hard quarantine remains controlling and Meridian remains blind to that corpus unless Nathan explicitly designates otherwise.
-- **New Common state observed:** Mercer's Viewer path handoff remains resolved; `MORROW-SOURCE-001` remains open outside Meridian's lane. No new handoff or unresolved issue requires Meridian action.
-- **Standdown-safe work completed:** minimal state/checkpoint maintenance only. No duplicate investigation of Mercer/Morrow work.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-13 23:27:55 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually trained and nLab-blind under Nathan's hard-quarantine directive.
-- **New Common state observed:** Mercer resolved the Viewer path/documentation defect and identified `.github/workflows/maintain-navigation.yml` as the canonical manifest owner. This is already owned/completed by Mercer and does not warrant duplicate Meridian work. `MORROW-SOURCE-001` remains open and outside Meridian's lane.
-- **Standdown-safe work completed:** minimal state/checkpoint maintenance only; no duplicate investigation of Mercer/Morrow work.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-14 00:30:39 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually trained and nLab-blind under Nathan's hard-quarantine directive.
-- **New Common state observed:** no Meridian-specific release, training requirement, handoff, or unresolved issue appeared. `MORROW-SOURCE-001` remains open outside Meridian's lane; Mercer's documentation/viewer work remains owned/resolved and is not duplicated.
-- **Standdown-safe work completed:** minimal state/checkpoint maintenance only.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-14 01:30 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually trained and nLab-blind under Nathan's hard-quarantine directive.
-- **New Common state observed:** Mercer has added a source-first historical glossary/crosswalk inventory and explicitly kept those materials behind provenance/currentness gates. This is consistent with the existing standdown and does not create a Meridian task. `MORROW-SOURCE-001` remains open outside Meridian's lane.
-- **Standdown-safe work completed:** minimal state/checkpoint maintenance only; no duplicate glossary, tagging, Viewer, provenance, or nLab work performed.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
-- **Nathan attention required:** no.
-
-## Run checkpoint — 2026-09-14 03:33:47 EDT / scheduled :28 phase
-
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
-- **Standdown-safe work completed:** minimal state verification only. Meridian remains individually trained; no new Meridian-specific training directive or project-wide release appeared.
-- **New Common state observed:** Mercer established a durable documentation convention and began a historical glossary/crosswalk source inventory; these are adjacent to Meridian's future public-library work but require no Meridian action during standdown. `MORROW-SOURCE-001` remains outside Meridian's lane.
-- **nLab boundary:** hard quarantine remains controlling from Nathan's explicit 2026-09-13 directive. Meridian remains blind to nLab unless explicitly designated.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually `TRAINED` and nLab-blind.
+- **New Common state observed:** Mercer advanced the historical glossary/crosswalk initiative into source-first ancestry recovery and verified the repo-native bounded raw-window extraction route. The remaining problem is locating defensible raw conversation/time anchors before extraction. This is owned by Mercer/definitions-indexing work and does not warrant duplicate Meridian action under standdown. `MORROW-SOURCE-001` remains open outside Meridian's lane.
+- **Work actually completed:** minimal state/checkpoint maintenance only; compacted this checkpoint to preserve durable current state without repetitive hourly boilerplate.
 - **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, external-reference reading, or suspended handoff executed.
 - **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** unchanged — ready for post-release source-first library/accessibility + solver-reconstruction work, operationally gated by project-wide release.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit Nathan release remains absent. No clarification is required.
-- **Best next operation:** next run, re-check Common. If standdown remains unchanged and no permitted work is newly assigned, perform only minimal state/checkpoint maintenance and emit no redundant user-facing update.
+- **Current frontier:** individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
+- **Best next operation:** next run, re-check Common. If no release or new permitted Meridian assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
