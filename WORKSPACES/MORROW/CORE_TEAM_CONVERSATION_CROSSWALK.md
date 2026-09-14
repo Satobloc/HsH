@@ -1,6 +1,6 @@
 # Core-team conversation crosswalk
 
-2026-09-13 · ADMIN / ROUTING / METADATA-VERIFIED / COVERAGE-LIMIT
+2026-09-13 · ADMIN / ROUTING / METADATA-VERIFIED / BOUNDED-MESSAGE-COMPARISON / COVERAGE-LIMIT
 
 Nathan requested continuity and wayfinding work while theory remains halted. This records export identity, not runtime identity, memory continuity, or communication capabilities.
 
@@ -14,15 +14,15 @@ Nathan requested continuity and wayfinding work while theory remains halted. Thi
 | Meridian | Michelstein-on-Meinorly | `6a9aa91b-11f4-83ea-80a1-4d502522e441` | [2026-09-10T21:34:40.381903-04:00](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.04%E2%80%A226.09.10%E2%80%A2%F0%9F%8C%90Meridian%20%5BHsH%5D%20Michelstein-on-Meinorly%20%E2%80%94%20raw.json) |
 | Morrow | Reconstruct H(s)H Synthesis | `6a9ee7ca-d340-83ea-b99d-6a3097429f36` | [2026-09-09T08:45:41.152954-04:00](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07%E2%80%A226.09.09%E2%80%A2MORROW%20%5BReconstruct%20H(s)H%20Synthesis%5D%20%E2%80%94%20raw%20(3).json) |
 
-“Latest selected” is the greatest catalog end timestamp among inspected named candidates, not a guarantee of the newest existing conversation or an exhaustive repository-wide UUID scan. Morrow has no matching UUID among the nine LIVE JSON files inspected. Two LIVE Succinctness exports share Ravel's UUID. Same UUID establishes a source conversation family; it does not by itself establish content equivalence or branch inclusion. Janus is the one exception now directly compared: [A/B/C message-graph audit](JANUS_EXPORT_COMPARISON_2026-09-13.md) and [20:01–20:08 UUID reconciliation](JANUS_UUID_RECONCILIATION_2026-09-13.md). Other families remain unassessed at message-content level.
+“Latest selected” is the greatest catalog end timestamp among inspected named candidates, not a guarantee of the newest existing conversation or an exhaustive repository-wide UUID scan. Morrow has no matching UUID among the nine LIVE JSON files inspected. Two LIVE Succinctness exports share Ravel's UUID. Same UUID establishes a source conversation family; it does not by itself establish content equivalence or branch inclusion. Bounded exceptions now directly compared are Janus [A/B/C message graphs](JANUS_EXPORT_COMPARISON_2026-09-13.md), the Janus [20:01–20:08 UUID region](JANUS_UUID_RECONCILIATION_2026-09-13.md), and the historical [Morrow–Aldus mirrored response region](MORROW_ALDUS_CROSS_GRAPH_ROUTING_AUDIT_2026-09-13.md). Other families and unlisted regions remain unassessed at message-content level.
 
-## Wayfinding gap
+## Viewer wayfinding repair — resolved
 
-Eight of nine LIVE catalog paths in [viewer data](../../CONVERSATION_VIEWER/data/conversations.json) contain date prefixes absent from actual repository paths. The remaining prefixed Succinctness path exists. The files are present under the working paths below. Request: viewer/index maintenance should regenerate or reconcile source paths and validate each path against the repository tree, preserving conversation UUID and title aliases. Do not infer missing sources from path mismatch. The viewer's short `id` values are separate from raw `conversation_id` UUIDs.
+Mercer traced the eight broken LIVE links to a dry-run rename manifest being treated as completed work and landed an existence-aware resolver. The successful Viewer build now exposes **374** conversations (**365** development, **9** live) with zero missing-path assertion failures; all nine LIVE entries resolve. See [Viewer path QA](../MERCER/VIEWER_PATH_QA_2026-09-13.md). A deleted-source residue remains in the upstream development manifest but is omitted from Viewer output; its owning regeneration path remains a separate maintenance item. The viewer's short `id` values remain distinct from raw `conversation_id` UUIDs.
 
 ## Inspected exports
 
-Raw JSON in this original table was parsed completely for metadata; dialogue was NOT read sequentially. No training completion, theory finding, identity experience, or inter-instance crosstalk is inferred. Subsequent Janus-only message-content/branch comparison is linked above; it does not extend to the other families.
+Raw JSON in this original table was parsed completely for metadata; dialogue was NOT read sequentially. No training completion, theory finding, or runtime identity is inferred. The linked Janus and Morrow–Aldus audits are bounded message-level exceptions; their coverage does not extend to the other families or unlisted regions.
 
 | Working source | Raw UUID | Blob |
 |---|---|---|
@@ -65,3 +65,10 @@ All three unique Janus blobs retain every earlier message ID and active-branch I
 [Bounded source audit](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md): read the exact eight-node Janus branch from `a044a94b…` through `cb5953a8…`; relevant content, authorship, routing, timestamps, graph links and final citation metadata agree across A/B/C. “Morrow inward / Aldus outward / Janus membrane” is `GEN/HISTORICAL-PROPOSAL`, not Nathan-authored role authority. The current Morrow role rests independently on Nathan's later workflow directive.
 
 The historical access turn contains one observable `pca` citation to Aldus conversation `6a9dea2e…`, exactly matching raw user node `d2157b30…` (“How frequently can you do automated tasks?”). It exposes no Morrow citation or transcript body. Thus selective past-chat retrieval in that Janus turn is evidenced; whole-thread access, present crosstalk and the stronger claimed Morrow context-bleed event are not established by this branch. Next source cursor: Morrow raw node `829aa155…` through the completed assessment following `95bfdf06…`.
+
+
+## Morrow–Aldus message-level routing result — 2026-09-13
+
+The [raw cross-graph audit](MORROW_ALDUS_CROSS_GRAPH_ROUTING_AUDIT_2026-09-13.md) confirms one historical routing event at message level. A 4,148-character Aldus answer appears verbatim as a Morrow-labeled automation completion with a different node and turn ID. A later response segment is represented in both graphs with exact 5,455- and 5,277-character Slack calls, identical Slack work-item IDs, and exact visible assessments/finals despite distinct prompts and turn ancestry.
+
+Classification: cross-container response/tool-stream mirroring is **OBS/HISTORICAL-EXPORT**; a routing or serialization collision is the strongest bounded inference. This is not independent agreement and does not establish present crosstalk, whole-thread visibility, persistent shared memory, or runtime identity. The earliest Morrow snapshot also has materially thinner citation metadata than later copies of the same final node, so later citation enrichment must not be projected backward as generation-time evidence.
