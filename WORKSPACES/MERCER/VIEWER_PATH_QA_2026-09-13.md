@@ -76,7 +76,21 @@ The workflow's source-path assertion passed against the landed catalog, so every
 
 A direct search of the committed Viewer catalog found zero `Court Filing Guidance` matches. The stale development-manifest record still exists upstream, but it is no longer exposed through the Viewer.
 
+## Manifest-owner follow-up — Run 10
+
+The owning regeneration path is now identified rather than inferred:
+
+- `.github/workflows/maintain-navigation.yml` owns navigation regeneration.
+- Its `Date-tag stable developmental exports` step runs `tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply --manifest indexes/manifests/development-conversation-dates.json`.
+- `tools/date_conversation_exports.py` constructs a fresh record list by recursively enumerating the files that currently exist under the supplied root and then rewrites the manifest. It does not intentionally preserve records for files no longer present.
+- The current development manifest header reports `generated_at_utc: 2026-09-13T12:30:33.434526+00:00`, `mode: apply`.
+- Repository history records the public-corpus privacy deletion of `Court Filing Guidance` later, at `2026-09-13T13:41:24Z`, commit `655db2d384867c43fc59c5047403f6feade5a88c`.
+
+Therefore the residual record has a straightforward timing explanation: the currently committed manifest predates the deletion. It is not evidence that the generator reintroduced a deleted source, nor does it require hand-editing a generated artifact.
+
+At inspection time, a newer serialized `Maintain H(s)H navigation` run (`34793981748`) was pending on current `main`. Because that workflow is the canonical owner and will rebuild the manifest from currently present files, Mercer did not manually alter the generated manifest. Follow-up should verify the successor maintained state after that owner run lands; if the dead record survives a fresh successful regeneration, that would become a generator/workflow defect rather than ordinary staleness.
+
 ## Remaining follow-up
 
-- Separately reconcile the stale development-manifest record so the manifest itself reflects the intended deletion state; identify and use its owning regeneration path rather than hand-editing source-history semantics.
+- Verify the next successful canonical navigation regeneration removes the deleted-source record from `indexes/manifests/development-conversation-dates.json`; do not hand-edit the generated manifest unless its owner path demonstrably fails.
 - If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
