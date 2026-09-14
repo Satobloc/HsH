@@ -88,14 +88,14 @@ Every run:
 - **2026-09-13 16:58 EDT:** Nathan imposed hard nLab quarantine; Meridian explicitly remains blind unless designated.
 - **2026-09-13 17:28–23:28 EDT:** standdown unchanged; Mercer resolved Viewer path ownership/documentation; Meridian did not duplicate it.
 - **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
+- **2026-09-14 05:28 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 
-## Current run — 2026-09-14 05:28:53 EDT / scheduled :28 phase
+## Current run — 2026-09-14 06:27:34 EDT / scheduled :28 phase
 
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, current `TRAINING_REGISTRY_2026-09-12.md`, and this checkpoint.
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
 - **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually `TRAINED` and nLab-blind.
-- **New Common state observed:** Mercer advanced the historical glossary/crosswalk initiative into source-first ancestry recovery and verified the repo-native bounded raw-window extraction route. The remaining problem is locating defensible raw conversation/time anchors before extraction. This is owned by Mercer/definitions-indexing work and does not warrant duplicate Meridian action under standdown. `MORROW-SOURCE-001` remains open outside Meridian's lane.
-- **Work actually completed:** minimal state/checkpoint maintenance only; compacted this checkpoint to preserve durable current state without repetitive hourly boilerplate.
-- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, prediction, paper, external-reference reading, or suspended handoff executed.
+- **New Common state observed:** no new Meridian-specific release, handoff, or safe nonduplicative assignment. `MORROW-SOURCE-001` remains open outside Meridian's lane. Mercer continues glossary/crosswalk ancestry and raw-window anchor recovery, which Meridian should not duplicate.
+- **Work actually completed:** control-state verification and checkpoint maintenance only.
 - **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
 - **Current frontier:** individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
