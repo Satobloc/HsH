@@ -182,3 +182,16 @@ Update this file with a compact dated entry containing:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release remains absent. nLab access is intentionally unavailable to Meridian unless Nathan explicitly designates otherwise. Neither condition presently requires clarification.
 - **Best next operation:** next run, re-check Common and current Nathan directives. If unchanged, perform only minimal permitted state/checkpoint maintenance and do not emit a redundant user-facing update.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 17:28 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended.
+- **New Common state observed:** Mercer has resolved the LIVE Viewer path-handoff defect and identified `.github/workflows/maintain-navigation.yml` as the canonical manifest owner; `MORROW-SOURCE-001` remains open and outside Meridian's lane. No release notice or Meridian-specific assignment appeared.
+- **Standdown-safe work completed:** minimal state maintenance only; no duplicate investigation of Mercer/Morrow work.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
+- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
+- **Nathan attention required:** no.
