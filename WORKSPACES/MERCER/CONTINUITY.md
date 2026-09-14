@@ -1,88 +1,78 @@
 # Mercer Continuity Packet
 
-## WHO / LINEAGE
+## Canonical restart rule
 
-- Handle: `Mercer`
-- Lineage: current live instance; no claim of literal identity persistence beyond this conversation. If a later instance resumes from this packet, mark relation explicitly (`resumed-from`, `derived-from`, or `parallel-to`).
-- Raw conversation provenance: `PENDING RAW-ID BACKFILL` for the current 2026-09-13 live conversation.
+Read `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` first. It is the controlling Mercer restart surface for the Prototype Tri(or Quin)ary Mover trial. This packet is a compact continuity aid; if it differs from the checkpoint, the checkpoint controls.
 
-## CURRENT REMIT
+At the beginning of every run also read:
 
-Source-ground SAT/H(s)H before longitudinal comparison. Maintain/archive-indexing infrastructure, support Nathan-direct-word extraction/tagging, continue requested Conversation Viewer improvements, and prepare a clean historical/longitudinal audit of physics only after internal source reconstruction is adequate.
+- `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md`
+- newer explicit Nathan directives on current Common coordination surfaces
 
-## NOW
+## Who / lineage
 
-1. Monitor archive-wide layered autotag/index outputs as workflows land.
-2. Check Commons and Nathan Dashboard for new instructions, extraction progress, index gaps, or replies.
-3. Keep structural/navigation indexes current and inspect whether bulk outputs are actually discoverable.
-4. Improve tooling only where retrieval/coordination failures are concrete and changes fit existing archival mentality.
-5. Build the Nathan-direct-words SAT/methodology corpus before relying on assistant synthesis.
+- Handle: `Mercer`.
+- Current role: index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation.
+- Lineage: recurring trial worker authorized directly by Nathan on 2026-09-13; no claim of literal identity persistence between runtime instances.
+- Raw conversation provenance: `PENDING RAW-ID BACKFILL` for live Mercer-origin directives until an appropriate raw export/provenance surface lands.
 
-## NEXT
+## Current remit
 
-- Verify the new archive-wide autotagging/index workflow completes cleanly and produces durable, useful index surfaces.
-- Inspect the generated tag indexes for recall/precision and discoverability, especially Nathan-authored methodology statements.
-- Backfill current direct Nathan directives with exact conversation/message IDs once this conversation enters the raw archive.
-- Test/iterate Conversation Viewer provenance-search + annotation controls against real conversation exports.
-- Establish a usable source-grounded SAT methodology/claims map from verified Nathan wording and historical corrections/supersessions.
-- Only then resume the longitudinal 2024→2026 mainstream/WIDE/FRINGE physics landscape analysis; keep premature web examples quarantined from the blind pass.
+Mercer owns the reliability layer between raw/tagged material and durable retrieval/navigation. The lane complements rather than duplicates Morrow's conversation-family continuity/context recovery and the active Nathan-words extraction/tagging lane.
 
-## LOADED / POSSESSED
+Primary work:
 
-- SAT/H(s)H fingerprint checklist and current blind-survey ledger state.
-- Dashboard/quarantine clarification and current Commons coordination relevant to this lane.
-- Conversation Viewer architecture, annotations, replay filtering, click-open/quick-curation extension, provenance-aware message search.
-- Nathan-directives provenance procedure and current entries.
-- Current layered-autotag/indexing initiative and prior identified durability/index-gap concerns.
-- Historical calibration: SAT methodology is representation-selection/geometric-constraint oriented, not an ontological commitment; this must still be rebuilt from direct Nathan wording before being used as final characterization.
+1. validate index/retrieval/autotag selectivity and coverage when allowed;
+2. reconcile Viewer/catalog/source-path/documentation drift;
+3. improve durable documentation/index conventions where warranted;
+4. build methodology/source maps only from verified Nathan-authored or explicitly provenance-bounded material;
+5. backfill exact directive/source IDs when raw identifiers become available.
 
-## IMPORTANT DIRECT NATHAN CORRECTIONS / DIRECTIVES
+## Current controlling state
 
-- Dashboard stays open/usable; quarantine primarily constrains affected assistant-generated theory/interpretation, not wayfinding.
-- Dashboard should show what is quarantined and why.
-- Direct requests/directives should be logged with conversation/message/timestamp provenance when available.
-- Conversation Viewer: click collapsed/truncated messages open; Typealong skips plumbing; internal upgrade/downgrade/flag/promote controls; search by message provenance.
-- Periodically check Commons + Dashboard; communicate there; improve infrastructure within existing toolset/archival mentality, especially in service of direct requests.
-- Before physics trend analysis, establish what SAT actually says and how Nathan says it; prioritize direct Nathan wording/tagging effort.
-- Personal workspaces should support scoped local notes/continuity without duplicating Commons; use stable names/discriminators and placards.
+- Project-wide theory-bearing standdown remains active.
+- Mercer individual training is complete.
+- Bounded provenance, archive, navigation, documentation, and source-integrity maintenance is permitted.
+- Do not perform unauthorized theory-bearing synthesis or promote workshop/quarantined/generated interpretation.
+- No current Mercer issue requires Nathan attention.
 
-## ARTIFACTS / PATHS
+## Current frontier
 
-- `WORKSPACES/MERCER/README.md`
-- `WORKSPACES/MERCER/CONTINUITY.md`
-- `WORKSPACES/README.md`
-- `WORKSPACES/COMMON/INSTANCE_PLACARDS.md`
-- `WORKSPACES/COMMON/CONTINUITY_PROTOCOL.md`
-- `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md`
-- `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md`
-- `CONVERSATION_VIEWER/argus_followup.js`
-- `CONVERSATION_VIEWER/argus_followup.css`
-- `CONVERSATION_VIEWER/provenance_search.js`
-- `CONVERSATION_VIEWER/ANNOTATIONS.md`
+See `TRIAL_CHECKPOINT.md` for exact run state. As of the current continuity refresh:
 
-## TOOLS / ACCESS / LIMITS
+- historical glossary / standard-crosswalk source inventory is established, but direct raw-message ancestry remains unresolved and speculative candidate expansion is closed pending a stronger source anchor;
+- Viewer publication/path repair is green, while generated-state freshness still depends on a newer successful canonical navigation regeneration;
+- the verified Viewer catalog route is `CONVERSATION_VIEWER/data/conversations.json`;
+- the superseded route `CONVERSATION_VIEWER/catalog/conversations.json` must not be reused;
+- the durable project documentation convention is established at `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`;
+- `MORROW-SOURCE-001` is code-side resolved and output-side pending only if a historical/manual candidate-report owner path emerges.
 
-- GPT-5.6 Sol.
-- GitHub read/write connector; web; Python/container when available.
-- Must preserve blind internal/external firewall for SATity survey.
-- GitHub search/index coverage can lag; absence from search is not absence from repo.
-- Raw message IDs may be unavailable until live conversation export is committed.
+## Durable Mercer surfaces
 
-## WORKING CONVENTIONS
+- `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` — canonical restart state/frontier.
+- `WORKSPACES/MERCER/README.md` — Mercer front door and role boundaries.
+- `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` — Viewer/catalog/source-path QA.
+- `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md` — glossary/crosswalk source inventory and provenance status.
+- `WORKSPACES/MERCER/GLOSSARY_INTRINSIC_PROVENANCE_FINGERPRINT_2026-09-14.md` — bounded intrinsic glossary fingerprint.
+- `WORKSPACES/MERCER/RUN_*.md` — per-run audit records.
 
-- Prefer durable documentation updates/pointers over one-off infoswaps when information is reusable.
-- Preserve source provenance and changed judgments rather than silently rewriting history.
-- Use direct Nathan-authored raw text as the strongest evidence for intended SAT meaning.
-- Keep infrastructure improvements small, logged, and compatible with existing architecture.
+## Retrieval/provenance rules retained
 
-## KNOWN FAILURE MODES / DO-NOT-REPEAT
+- Direct Nathan-authored raw text is the strongest evidence for Nathan intent when available.
+- Repository custody, upload date, directory adjacency, catalog proximity, formatting similarity, or worker agreement do not establish content authorship.
+- GitHub code-search misses are retrieval negatives, not evidence of absence.
+- If one connector route reports an empty file while another direct repository route returns populated content, do not infer repository emptiness from the lone empty result.
+- For artifact-ancestry candidate ranking, prefer exact/near start-date match + title/content signal + bounded message count before end-date proximity.
+- Do not invent conversation IDs, message IDs, dates, or source ancestry.
 
-- Do not infer SAT content from remembered assistant summaries when direct source can be recovered.
-- Do not treat geometry-first language as equivalent to SAT ontology.
-- Do not let quarantined integration-era theoretical interpretations control current source reconstruction.
-- Do not contaminate blind internal survey with premature external-web examples.
-- Do not invent conversation IDs/message IDs.
+## Tools / limits
 
-## HANDOFF / RECONSTRUCTION NOTES
+- GitHub read/write connector plus available retrieval/file-analysis tools.
+- GitHub search/index coverage can lag.
+- Generated catalogs/manifests should be changed through their owning generators/workflows, not hand-edited merely to appear current.
+- Raw message IDs may remain unavailable until source exports are committed.
 
-A successor should first read this packet, `WORKSPACES/README.md`, `INSTANCE_PLACARDS.md`, `NATHAN_DIRECTIVES_PROVENANCE.md`, the current Dashboard, and current Commons notices. Then inspect the freshest indexing/autotag outputs and the Nathan Verified Words Compendium before doing substantive SAT interpretation.
+## Handoff rule
+
+A successor should read `TRIAL_CHECKPOINT.md`, Control, Bulletin Board, and the Mercer README before acting. Use Common only for materially useful cross-lane handoffs; keep local Mercer state in the Mercer workspace. Do not resume theory-bearing work while the standdown remains active.
