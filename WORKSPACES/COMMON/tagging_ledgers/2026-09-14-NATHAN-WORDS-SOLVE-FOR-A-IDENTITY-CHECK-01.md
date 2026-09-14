@@ -4,6 +4,21 @@
 **Lane:** Nathan Direct Stage 2 / bounded provenance + winnow enrichment
 **Policy:** READ IT, TAG IT; additive only; no theory construction or claim promotion
 
+## Nathan clarification — 2026-09-14
+
+Nathan directly clarified after this pass: **“The ‘Solve for’ conversations are meant to be blindered equations for testing with stripped provenance.”**
+
+This clarification controls the interpretation of this family. The absence of variable semantics is intentional test design, not a provenance defect to repair from neighboring conversations.
+
+Additive family-level status:
+- `BLINDED-EQUATION-TEST`
+- `PROVENANCE-STRIPPED-BY-DESIGN`
+- `NO-SEMANTIC-INFERENCE`
+- `METHODOLOGY:CONTEXT-CONTROL`
+- `WINNOW:NOT-THEORY-LINEAGE-SOURCE`
+
+Do not use these Solve-for records to establish SAT/H(s)H variable meanings, terminology lineage, earliest conceptual use, or theory ancestry unless a separate Nathan-authored source explicitly restores the stripped provenance. Their retained value is methodological/test provenance plus exact equation-input/output history.
+
 ## Scope
 
 Reviewed two same-title raw exports from `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/` to determine whether the filename pair represented duplicate/prefix/superset copies or distinct source conversations:
@@ -73,7 +88,7 @@ No duplicate collapse or prefix/superset relationship is warranted between these
 
 ## Theory-status boundary
 
-The messages show repeated use of the algebraic relation `1 + A = B / C` and primed/unprimed numeric values, but this bounded source does not identify what `A`, `B`, or `C` mean or establish that the calculation belongs to SAT/H(s)H. No semantic meaning, lineage, physical interpretation, or current-theory status is inferred here.
+The messages show repeated use of the algebraic relation `1 + A = B / C` and primed/unprimed numeric values. Nathan's later clarification establishes that the missing semantic provenance was deliberately stripped for blinded testing. Accordingly, no attempt should be made to infer or recover A/B/C meanings from this family itself, and these records should not be used as SAT/H(s)H theory-lineage evidence absent a separate explicit bridge.
 
 ## Counts
 
@@ -87,4 +102,4 @@ The messages show repeated use of the algebraic relation `1 + A = B / C` and pri
 
 ## Next useful operation
 
-Inspect the neighboring May 4 `Solve for B` / `Solve for B equation` export family as an identity/provenance cluster before interpreting the A/B/C notation. Prefer message-ID/conversation-ID comparison first; only after source identity is established should any wider contextual relevance be assessed.
+Do not spend further Nathan Direct review cycles searching neighboring Solve-for conversations for variable meaning. Treat the family as a blinded methodological/test cluster unless a separate Nathan-authored source explicitly restores its provenance. Resume an independently SAT/H(s)H-relevant correction/definition/provenance candidate from the durable Stage-2 queues.
