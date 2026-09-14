@@ -24,14 +24,14 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 19
+## Current frontier — after Run 20
 
 ### A. Historical glossary / standard-crosswalk provenance
 
-**Status: source inventory + repository-custody layer complete; raw-message/content ancestry unresolved; Viewer catalog verified as candidate-path/date bridge; four bounded candidates now classified.**
+**Status: source inventory + repository-custody layer complete; raw-message/content ancestry unresolved; Viewer catalog verified as candidate-path/date bridge; five bounded candidates now classified.**
 
 Durable inventory: `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`.  
-Latest run record: `WORKSPACES/MERCER/RUN_019_2026-09-14.md`.
+Latest run record: `WORKSPACES/MERCER/RUN_020_2026-09-14.md`.
 
 Verified candidate classes remain:
 1. `SAT_THEORY_ARCHIVE_2023-25/README.md` — Nathan-authored editorial/front-door source.
@@ -50,22 +50,23 @@ Run 17 verified bounded raw-message recovery infrastructure:
 - `WORKSPACES/COMMON/extraction_requests/*.json`
 - outputs under `WORKSPACES/COMMON/extraction_outputs/`
 
-Run 18 verified `CONVERSATION_VIEWER/catalog/conversations.json` as candidate-selection bridge: titles/dates map to explicit raw paths, time ranges and message counts. Catalog proximity is retrieval metadata only, not authorship evidence.
+Viewer catalog candidate-selection bridge is currently at **`CONVERSATION_VIEWER/data/conversations.json`**. Earlier Mercer references to `CONVERSATION_VIEWER/catalog/conversations.json` are stale and should not be reused. The catalog maps titles/dates to explicit raw paths, time ranges and message counts. Catalog proximity is retrieval metadata only, not authorship evidence.
 
-Bounded candidate results through Run 19:
+Bounded candidate results through Run 20:
 
 - `SAT theory overview`, catalog ID `fa2cc1b6a832`, 2025-10-29, 10 messages — no `SATv` reference or crosswalk-document creation/discussion signal; eliminated as direct ancestry anchor.
 - `Vetting document review`, raw conversation ID `69023bdb-63f0-832b-8821-56362ed2493c`, 2025-10-29, 16 catalog messages — journal-submission vetting; no `SATv` / `standard map` match; eliminated for standard-map ancestry.
 - `SAT Theory Archive Review`, raw conversation ID `6a1df035-25d4-83ea-943d-e0db20433533`, 2026-06-01, 7 catalog messages — genuine archive-review context but no `glossary` match; not established as direct glossary ancestry.
-- `SATO-BLOC FULL LEANCHECK`, raw conversation ID `6902429e-f6b8-8326-b681-3e74e3119378`, 2025-10-29, 121 messages — contains same-day SAT-to-standard mapping work (`SAT → Standard-Model mapping log`) but no `SATv`, `SAT-W`, target heading, `standard map`, or tested distinctive target phrases. **Retain as contextual mapping evidence, but not a direct ancestry anchor for `SATv  TO STANDARD MAP.txt`.**
+- `SATO-BLOC FULL LEANCHECK`, raw conversation ID `6902429e-f6b8-8326-b681-3e74e3119378`, 2025-10-29, 121 messages — contains same-day SAT-to-standard mapping work (`SAT → Standard-Model mapping log`) but no `SATv`, `SAT-W`, target heading, `standard map`, or tested distinctive target phrases. Retain as contextual mapping evidence, not a direct ancestry anchor.
+- `Assignment queue creation`, Viewer ID `6ecbc7ec20e7`, raw conversation ID `68c0c03c-ffc4-8331-8b66-49d0993c5830`, span 2025-09-09→2026-06-01, 91 catalog messages — no `GLOSSARY (LIVE)` or `LIVE GLOSSARY` signal. Generic `Glossary` occurs repeatedly only as a required assignment-template section heading (`7) Glossary`), which is workflow-schema vocabulary, not evidence of the historical target artifact. Eliminated as a direct glossary ancestry anchor on current evidence.
 
-Current ancestry blocker remains **content-level anchor discovery**, not missing path/index/extraction machinery. Do not infer ancestry from same-date custody + thematic similarity. Continue small, title/date-plausible candidate triage; if a direct artifact mention/paste appears, use the bounded extractor to preserve exact Nathan message IDs/timestamps and relation.
+Current ancestry blocker remains **content-level anchor discovery**, not missing path/index/extraction machinery. Do not infer ancestry from same-date custody + thematic similarity or from generic vocabulary matches. Continue small, title/date-plausible candidate triage; if a direct artifact mention/paste appears, use the bounded extractor to preserve exact Nathan message IDs/timestamps and relation.
 
 ### B. Viewer/catalog path drift
 
 **Status: Viewer publication repair green; canonical navigation workflow reconciled; fresh owner run checked once and terminal/cancelled.**
 
-Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`. The development manifest/catalog still reflects the older 2026-09-13 source state; this does not affect use of already-existing raw paths as provenance candidates.
+Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`. The current Viewer catalog path is `CONVERSATION_VIEWER/data/conversations.json`; its `source_state_at_utc` observed in Run 20 is `2026-09-13T12:30:33.868040+00:00`, with 374 conversations (365 development / 9 live). The development input still points to a manifest generated `2026-09-13T12:30:33.434526+00:00`. This older generated state does not affect use of raw paths that actually exist as provenance candidates.
 
 Canonical `Maintain H(s)H navigation` run `34814002515` is **cancelled** and must not be polled again. Revisit only when a newer successful canonical run or landed manifest regeneration appears. Until then stale generated state remains an owner-execution/generation-lag dependency, not a demonstrated generator defect.
 
@@ -104,8 +105,9 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Run 16: tested source-derived distinctive phrase anchors against GitHub indexed search with no ancestry hit; recorded retrieval limitation and stopped repeating that route.
 - Run 17: verified cancelled navigation owner run; identified repository-native bounded raw-conversation extraction workflow/script/request schema; narrowed ancestry blocker to missing candidate source/time anchors.
 - Run 18: identified Viewer catalog as raw-path/date/message-count ancestry-selection index; bounded-inspected three high-signal candidates without broad theory-content scanning.
-- Run 19: bounded-inspected `SATO-BLOC FULL LEANCHECK`; found same-day SAT-to-standard mapping context but no direct target-artifact language/phrase anchor, so retained it as contextual evidence while declining unsupported ancestry/authorship promotion. See `RUN_019_2026-09-14.md`.
+- Run 19: bounded-inspected `SATO-BLOC FULL LEANCHECK`; retained same-day SAT-to-standard mapping as contextual evidence while declining unsupported direct ancestry.
+- Run 20: reconciled the live Viewer catalog path to `CONVERSATION_VIEWER/data/conversations.json`; bounded-inspected `Assignment queue creation`; separated repeated generic assignment-template `Glossary` headings from target-artifact ancestry and eliminated the conversation as a direct glossary anchor on current evidence. See `RUN_020_2026-09-14.md`.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. For glossary ancestry, use Viewer metadata to choose another **small June-1 archival/document-management candidate** after `SAT Theory Archive Review`, then inspect only targeted `glossary` / artifact-name / distinctive-source ancestry anchors. If a direct artifact mention/paste appears, invoke the bounded raw extractor and record exact Nathan message/node IDs, timestamps, and relation. Otherwise record the bounded negative and branch rather than widening into speculative corpus scanning.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. For glossary ancestry, use `CONVERSATION_VIEWER/data/conversations.json` to choose another **small archival/document/definition-management candidate**, then inspect only targeted target-filename/heading/distinctive-source ancestry anchors. Treat generic `Glossary` template vocabulary as a false-positive class unless linked to the target artifact. If a direct artifact mention/paste appears, invoke the bounded raw extractor and record exact Nathan message/node IDs, timestamps, and relation. Otherwise record the bounded negative and branch rather than widening into speculative corpus scanning.
