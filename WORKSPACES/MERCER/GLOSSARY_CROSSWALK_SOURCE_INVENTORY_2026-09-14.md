@@ -67,6 +67,44 @@ Read the legacy archive README and generated `..findex.txt` rather than guessing
 **Classification:** **AI-mediated/generated compilation signal present; not Nathan Direct by default**.  
 **Caution:** this file may preserve useful quotations, source references, or Nathan-approved material, but the compilation itself cannot be used as a Nathan-authored definition source without tracing entries back to attributable underlying material.
 
+## Repository-custody provenance pass — Run 15
+
+Git path history adds a useful but limited provenance layer for the two unresolved candidates.
+
+### `GLOSSARY (LIVE).txt`
+
+- Git history for the exact path returns a single introducing commit: `f25c2b8a63eca815cce863bbe859f104983fedd5`.
+- Commit author identity is the `Satobloc` account / Nathan McKnight email identity used by the archive, timestamped `2026-06-01T00:01:54Z`.
+- Commit message is generic: `Add files via upload`.
+- The introducing commit is a **bulk archive upload**, adding 37,337 lines across many files, not a glossary-specific authored edit.
+
+**What this establishes:** the file was under Nathan/Satobloc repository custody by 2026-06-01 and was intentionally included in that archive upload.
+
+**What this does not establish:** the document's original creation date, whether Nathan wrote every line, whether it originated in a mixed/assistant conversation, or whether its `LIVE`/`ACTIVE` label remained current after that historical context.
+
+### `SATv  TO STANDARD MAP.txt`
+
+- Git history for the exact path returns a single introducing commit: `bd1b2a6d25d8133c21a1901777ebdc137dc925e5`.
+- Commit author identity is the same `Satobloc` / Nathan archive account identity, timestamped `2025-10-29T20:03:04Z`.
+- Commit message is generic: `Add files via upload`.
+- The introducing commit is an even larger **bulk archive upload**, adding 199,724 lines across many files.
+
+**What this establishes:** the file was under Nathan/Satobloc repository custody by 2025-10-29 and was intentionally included in that archive upload.
+
+**What this does not establish:** original document date, line-level authorship, raw conversation/message ancestry, or later supersession status.
+
+### Provenance consequence
+
+Repository commit authorship must be stored separately from **content authorship**. For imported archives, `uploaded_by / repository_custodian` and `content_author_class` are different fields. A Satobloc-authored bulk-upload commit is positive custody evidence, but it is not sufficient to upgrade imported file text to `Nathan Direct`.
+
+This distinction should be carried into the planned historical glossary registry. Recommended additional fields:
+
+- `repository_first_seen_commit`;
+- `repository_first_seen_at`;
+- `repository_custodian`;
+- `ingest_mode` (`bulk upload`, `specific edit`, `generated`, etc.);
+- `content_authorship_status` separately from commit author.
+
 ## Retrieval finding
 
 The archive already contains at least three distinct kinds of “definition” resource that a naive glossary merger would conflate:
@@ -90,7 +128,8 @@ When the owning glossary/tagging lane creates the canonical definitions index, e
 - source quotation or exact pointer rather than reconstructed wording when authority matters;
 - supersedes / superseded-by link where established;
 - public/private evidence boundary;
-- verification note naming who/what established the classification.
+- verification note naming who/what established the classification;
+- repository first-seen commit/time and ingest mode, kept separate from content authorship.
 
 This is a metadata recommendation only; it does not define or adjudicate any SAT/H(s)H term.
 
@@ -105,12 +144,14 @@ Do **not** create a theory-bearing canonical glossary from this inventory during
 - Raw conversation/message provenance for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` is not yet identified.
 - Current H(s)H terminology authority cannot be inferred from these historical files while the theory-bearing standdown remains active.
 - GitHub connector recursive-tree output is response-truncated; current-HsH negative filename search is therefore a discoverability finding, not exhaustive absence.
+- Repository path history establishes first-seen custody dates but cannot by itself recover line-level/content authorship from bulk-upload commits.
 
 ## Next operation
 
-Source-first provenance recovery for the two high-value historical candidates:
+Continue source-first ancestry recovery for the two high-value historical candidates:
 
-1. search conversation exports / archive indices for exact distinctive phrases from `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt`;
+1. use exact distinctive phrases against raw conversation exports / archive indices where those surfaces are searchable;
 2. recover attributable Nathan prompts/messages and dates where possible;
 3. record framework phase and any explicit supersession/clarification without reconciling theory content;
-4. hand verified source metadata to the definitions/tagging lane rather than independently constructing the glossary.
+4. keep repository custody separate from content authorship;
+5. hand verified source metadata to the definitions/tagging lane rather than independently constructing the glossary.
