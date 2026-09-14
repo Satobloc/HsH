@@ -1,6 +1,6 @@
 # Meridian — Prototype Tri(or Quin)ary Mover Trial Checkpoint
 
-**Status:** ACTIVE / individually TRAINED / project-wide standdown still active  
+**Status:** ACTIVE / individually TRAINED / project-wide standdown still active / meeting prep posted  
 **Activated:** 2026-09-13 11:36 EDT  
 **Scheduled phase:** hourly at :28, America/New_York  
 **Authority:** newer explicit Nathan directives and `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` control.
@@ -10,7 +10,7 @@
 Meridian is the **source-first geometry/solver reconstruction + public library/vetting/accessibility lane**, with ordinary work subordinated to the active 4D-training standdown.
 
 Complementary boundaries:
-- Morrow — conversation identity, continuity, contextual/provenance recovery;
+- Morrow — conversation identity, continuity, contextual/provenance recovery; removed from recurring automation 2026-09-14 but retained as future specialist/consultant pending role design;
 - Mercer — index/retrieval QA, documentation/navigation reconciliation, glossary ancestry work;
 - Nathan Words / tagging lanes — corpus-wide Nathan-authored extraction and tagging;
 - Ravel — theory construction and theory acceptance/rejection;
@@ -23,6 +23,7 @@ Complementary boundaries:
 - Integration-lane handoffs remain suspended unless Nathan explicitly reauthorizes them.
 - nLab is under Nathan's hard external quarantine. Meridian is **not** the designated nLab-facing instance and must remain blind to that corpus: no searching, reading, summarizing, indexing, importing, or theory comparison unless Nathan explicitly reassigns access.
 - FEATURED placement is editorial/operational, not theory authority or vetting status.
+- Until the planned September 14 meeting is convened, ordinary automated user-facing reports end with `📅` unless a newer Nathan directive changes that convention.
 
 ## Training completion
 
@@ -56,6 +57,14 @@ Only after Nathan releases the standdown:
 - Reconstruct the original Whirligig GR↔QM process before repair; independently recompute with standard mathematics and classify conservatively.
 - Re-audit `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` for carrier/resolver/readout typing and admissible-transformation errors before reuse.
 
+## Emerging role direction from recovered planning documents
+
+FULL-READ 2026-09-14:
+- `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/TASKWORKS/Preplantricist_role.md`.
+- `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/TASKWORKS/HsH_Pipeline_Design.md`.
+
+Tentative role direction for meeting discussion: **Indicatricist / Solver Metrologist**, with Mindwringer, Metamathematician, and Lexotopologist as supporting competencies. The planning docs reinforce a build-pipeline approach: determine designer metaskills/knowledge, design the designer/task separately, then establish sequestered pass/fail goalposts relative to an untrained instance. This is role/training design, not theory authority.
+
 ## Epistemic rules
 
 Keep separate:
@@ -88,16 +97,18 @@ Every run:
 - **2026-09-13 16:58 EDT:** Nathan imposed hard nLab quarantine; Meridian explicitly remains blind unless designated.
 - **2026-09-13 17:28–23:28 EDT:** standdown unchanged; Mercer resolved Viewer path ownership/documentation; Meridian did not duplicate it.
 - **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
-- **2026-09-14 05:28–07:29 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
+- **2026-09-14 05:28–09:30 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 
-## Current run — 2026-09-14 09:30 EDT / scheduled :28 phase
+## Current run — 2026-09-14 10:33 EDT / scheduled :28 phase
 
 - **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually `TRAINED` and nLab-blind.
-- **New Common state observed:** Mercer added source-first glossary/crosswalk ancestry findings and confirmed that anchor discovery, not raw-window extraction machinery, is now the blocker in that lane. `MORROW-SOURCE-001` remains open outside Meridian's role. No Meridian-specific release, handoff, or permitted nonduplicative assignment appeared.
-- **Work actually completed:** control-state verification and checkpoint maintenance only.
-- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
-- **Current frontier:** individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
-- **Best next operation:** next run, re-check Common. If no release or new permitted Meridian assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
+- **Newer controlling state:** `COORDINATION.md` now carries a September 14 pre-meeting directive for active recurring workers. It requires a compact meeting-prep report in `CHECKINS.md`, close reading of `Preplantricist_role.md` and `HsH_Pipeline_Design.md`, and `📅` on ordinary automated reports until the meeting is convened. This is newer than the prior no-op posture and is compatible with the standdown because it is role/training/coordination work, not theory construction.
+- **Sources fully read this run:** `Preplantricist_role.md` and `HsH_Pipeline_Design.md`, both start-to-finish.
+- **Work actually completed:** created `WORKSPACES/MERIDIAN/MEETING_PREP_2026-09-14.md`; appended the same report under `### Meridian — MEETING PREP — 2026-09-14` in `WORKSPACES/COMMON/CHECKINS.md`; updated this checkpoint. The temporary one-shot append helper was removed after successful use.
+- **Meeting-prep conclusion:** Meridian's strongest role direction is `Indicatricist / Solver Metrologist`, supported by Mindwringer/Metamathematician/Lexotopologist competencies. The highest-value future training design is not generic solver familiarity but a sequestered benchmark suite: recover an operator from raw source, type its state/inputs/outputs/invariants/failure conditions, reproduce one historical result, and independently recompute the target conventionally.
+- **Automation productivity estimate recorded:** approximately ~20 enrollment/recurring runs through this report; a few state-changing runs (training/enrollment, nLab quarantine incorporation, meeting prep) and many intentional standdown no-ops/guard checks. Exact per-run accounting remains approximate and is labeled as such.
+- **Artifacts changed/created:** `WORKSPACES/MERIDIAN/MEETING_PREP_2026-09-14.md`, `WORKSPACES/COMMON/CHECKINS.md`, and this checkpoint. No theory/canonical surface changed.
+- **Current frontier:** meeting-prep complete; standdown still blocks ordinary solver/library work. Meridian remains nLab-blind.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release absent; primary source/operator recovery for UI/Whirligig/Spheres/Gendarme remains a post-release dependency. No Nathan clarification is required now.
+- **Best next operation:** next run, re-check Common for meeting/role changes. If no newer assignment appears, avoid redundant work; preserve the meeting-prep state and await the convening/release decision.
 - **Nathan attention required:** no.
