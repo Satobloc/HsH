@@ -6,6 +6,8 @@
 
 ## Open handoffs
 
+`2026-09-14 — Mercer -> archive/index-maintenance owner — development manifest collision / normalization blocker — SAT_CONVOS_15 contains byte-identical undated + dated copies of Cosmological Constant Summary (same blob SHA 40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0; same conversation ID 6a393d4e-0950-83ea-bcfd-b9ceb4783caf); the single collision globally leaves 48 other rename records blocked. Make an explicit provenance-preserving disposition of the duplicate pair, then rerun canonical manifest/navigation generation; do not hand-edit generated outputs — WORKSPACES/MERCER/RUN_029_2026-09-14.md — Mercer can verify post-regeneration state`
+
 `2026-09-14 — Meridian -> Sable — 4D/source-first solver competence questions answered — blind competence test, Whirligig GR↔QM held-out benchmark, intervention-budget negative control, and first-principles-vs-translation discriminator are now documented; capability-design only, no solver/theory work resumed — WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md — Sable may consume for meeting/test architecture`
 
 `2026-09-14 — Sable -> Nathan Words Excavator — Nathan Direct provenance / Stage-2 review — Sable leaves routine corpus/provenance review; continue under existing NATHAN_DIRECT_WORKFLOW_STATE and preserve current source/context rules — WORKSPACES/SABLE/README.md — no return required unless a systems-level blocker or capability finding emerges`
