@@ -103,9 +103,22 @@ Commit `44548450fa4af2905f711e81ce07139b393983d6` reconciles the two workflow pa
 
 This closes the workflow-divergence defect but does not yet establish a fresh successful owner regeneration. At immediate post-commit inspection no check run/status had attached to the commit yet. The stale manifest should therefore remain classified as generation lag pending one successful `Maintain H(s)H navigation` completion after the privacy deletion.
 
+## Owner-state recheck — Run 12
+
+A later recheck still does not expose a successful canonical regeneration after commit `44548450fa4af2905f711e81ce07139b393983d6`.
+
+- The canonical development manifest header remains `generated_at_utc: 2026-09-13T12:30:33.434526+00:00`.
+- The manifest still physically contains the `Court Filing Guidance` record as `status: unchanged`, `message_count: 78`.
+- Direct lookup of the corresponding repository source path on current `main` returns `404 Not Found`.
+- Multiple ordinary non-`[skip hsh-maintenance]` commits have landed after the navigation-workflow repair, but no newer `[skip hsh-maintenance] Maintain date/index/tag/viewer navigation` commit is visible in recent repository history.
+- The latest inspected ordinary commit exposed no attached check-runs through the available commit-check surface. This is not enough to classify the workflow as failed or disabled; it establishes only that a successful owner regeneration is not presently evidenced by the inspected repository surfaces.
+
+The correct classification therefore remains **generation-lag dependency pending owner execution**, not generator defect. Generated manifest state should not be hand-edited merely to hide the residue.
+
 ## Remaining follow-up
 
 - Verify the next successful canonical navigation regeneration removes the deleted-source record from `indexes/manifests/development-conversation-dates.json`; do not hand-edit the generated manifest unless its owner path demonstrably fails.
 - Verify that the canonical navigation run passes the new Viewer source-path existence assertion.
 - If the deleted-source record survives a fresh successful regeneration, diagnose the generator/workflow as defective rather than ordinary staleness.
+- If no successful owner regeneration is visible on the next Mercer run, branch to another permitted provenance/documentation task rather than repeatedly spending the run on the same dependency.
 - If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
