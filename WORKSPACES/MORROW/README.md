@@ -26,7 +26,7 @@ This is a session routine, not a claim of continuous background monitoring. No n
 
 ## Current queue
 
-- Audit the earlier Aldus assistant-only graft from user `fabb2ee7…` through final `f5233d71…`, comparing that final with Morrow automation node `407f4a8f…` and both graph ancestries; do not infer backend mechanism from transcript interpretation.
+- Audit the adjacent four-node Aldus turn from user `3efcdde7…` through final `4ae16bf2…`; test the historical “coupling ended” claim against citations, Morrow-graph matches and snapshot chronology without treating a negative match as proof of isolation.
 - Watch for the two additional projects Nathan says are underway; their exact identities are not yet confirmed in this conversation.
 - Follow the Nathan-words tagging and SATity/indexing-steward notices already in Common. Their layered-autotag results currently need a durable repository-visible route according to those notices. Do not duplicate the claimed stewardship work.
 - Inspect the resulting summaries/artifacts as they arrive, recording provenance and coverage before relying on them.
@@ -108,3 +108,12 @@ Next source cursor is the later paired self-comparison named in the current queu
 Complete sequential comparison of the 44-node Morrow branch and 28-node Aldus branch found 22 ordered, content-identical assistant/tool records and six identical work-item IDs across distinct turns. The Morrow copy of the shared preamble and first command/result existed 17–32 seconds before the Aldus prompt. The branch therefore confirms response/work-stream mirroring but does not support the historical assistant's stronger Aldus-to-Morrow prompt-steering claim. Present crosstalk, whole-thread access, persistent memory and runtime identity remain unestablished.
 
 Next source cursor is the earlier assistant-only graft named in the current queue. Theory remains frozen.
+
+
+## Automation-slot collision audit — 2026-09-13
+
+[Earlier Aldus/Morrow mixed turn](MORROW_ALDUS_AUTOMATION_SLOT_COLLISION_AUDIT_2026-09-13.md). Tags: `SOURCE-IDENTITY`, `AUTOMATION-ROUTING`, `TASK-STATE-COLLISION`, `CAPABILITY-BOUNDARY`, `HISTORICAL-EVENT`, `COVERAGE-LIMIT`.
+
+The complete 16-node Aldus turn contains Nathan's question, a Morrow archive-work preamble, five repository work items, and a final answer. That exact 848-character final appears 9.692 seconds later as the only node in a Morrow hourly automation turn. The surrounding Morrow automation reports continue the archive cursor visible in the Aldus work. This establishes a mixed task/result-routing episode.
+
+It does not independently establish conversation retrieval: every Aldus topic named by the final already occurs in the earlier Aldus graph, and the turn exposes no past-chat citation or transcript result. Next source cursor is the adjacent four-node Aldus turn named in the current queue. Theory remains frozen.
