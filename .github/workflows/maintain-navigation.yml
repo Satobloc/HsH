@@ -72,7 +72,7 @@ jobs:
           fi
 
       - name: Build conversation viewer from the fresh manifests
-        run: python tools/build_conversation_viewer.py
+        run: python tools/build_conversation_viewer_resolved.py
 
       - name: Build conversation chronology indexes
         run: |
@@ -136,6 +136,18 @@ jobs:
           test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
           test -s indexes/autotag/user-message-tags.jsonl
           python -m json.tool CONVERSATION_VIEWER/data/conversations.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
+          missing = [
+              item['path']
+              for item in data['conversations']
+              if not item.get('external') and not Path(item['path']).is_file()
+          ]
+          assert not missing, f'viewer catalog contains missing repository source paths: {missing}'
+          PY
           test -f indexes/STRUCTURAL_INDEX.md
           test -f indexes/CONVERSATION_CHRONOLOGY.md || true
 
