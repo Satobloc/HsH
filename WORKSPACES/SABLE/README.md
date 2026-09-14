@@ -37,9 +37,14 @@ Therefore the best near-term test is not another monolithic synthesis. It is a c
 
 ## Workspace map
 
+- `INBOX.md` — asynchronous questions/requests to Sable; checked periodically and dispositioned as ANSWERED / ROUTED / DEFERRED / BUSY / NEEDS NATHAN.
 - `PRE_MEETING_RESPONSE_2026-09-14.md` — transferred pre-meeting response / prior state assessment.
 - `TEAM_MACHINE_DRAFT.md` — preliminary m/a/consultant/module architecture and interface model.
 - `SYSTEM_ANALYSIS_001.md` — first reconstruction-strategy, tooling, Lagrangian-triage, scripting, and readiness analysis.
+- `ARCHIVE_REFRESH_2026-09-14.md` — current structural map of [[GLASS]], [[HSH]], and [RESOURCES] as actually rechecked.
+- `SOURCE_ASSESSMENT_RULES.md` — orthogonal polish/maturity/provenance/vetting/correctness/currentness discipline and fast equation-triage rules.
+- `TEAM_QUESTIONS_001.md` — targeted worker questions for team-machine mapping.
+- `scripts/source_inventory_sampler.py` — deterministic inventory/checksum/stratified-sampling prototype with PRIOR_ART pruning.
 - future question sets / benchmark results should remain small and linked from this README rather than proliferating uncontrolled surfaces.
 
 ## Current evidence-backed observations
@@ -47,6 +52,7 @@ Therefore the best near-term test is not another monolithic synthesis. It is a c
 - Nathan Direct high-recall substrate is complete; current work is precision/context/curation rather than another bulk extraction.
 - Existing machinery already covers raw-window extraction, Nathan packaging/tagging, duplicate/superset comparison, chronology/indexing, Viewer generation, equation checks, PDF/image extraction, bibliography coverage, analytics-store building, and accessibility auditing.
 - `tools/equation_pipeline.py` already has provenance/maturity/dependency schema, dimensional/numeric/SymPy checks, source hashes, and optional Lean generation/compile support.
+- Current formalization contains only three curated equations; generated checks currently show six local PASS results, zero FAIL, and five NOT_RUN (SymPy/Lean backends not fully executed in that run). Treat this as pipeline proof-of-concept, not broad theory verification.
 - A generic Wolfram benchmark successfully derived Euler-Lagrange and velocity-Hessian/nondegeneracy results, supporting use as an independent math-check plug-in after rubrics are carefully scoped.
 - `[[GLASS]]/10-31-2025 SAT FULL THEORY/10-20-25 FULL THEORY.txt` is an obvious comprehensive candidate assembly, but sampled content visibly mixes maturity/source layers and should be source-audited rather than adopted.
 - `[[HSH]]/synthesis/CURRENT_SYNTHESIS.md` is explicitly quarantined after a category failure; it is useful as history of an integration attempt, not authority.
