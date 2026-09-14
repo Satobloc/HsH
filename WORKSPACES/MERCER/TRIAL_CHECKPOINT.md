@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 24
+## Current frontier — after Run 25
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -102,6 +102,8 @@ Run 23 brought the two Mercer front-door documents into alignment with the curre
 
 Run 24 extended that reconciliation into `VIEWER_PATH_QA_2026-09-13.md`; `WORKSPACES/MERCER/RUN_024_2026-09-14.md` records exact source coverage and changes. No Common handoff was warranted because this was internal Mercer documentation drift with no new cross-lane dependency.
 
+Run 25 extended the same bounded reconciliation into `WORKSPACES/MERCER/NATHAN_LIVE_THEORY_DEVELOPMENT_LOG.md`. The durable phrase `current Mercer live conversation` was ambiguous once detached from its capture moment. Entries now identify the **Mercer live conversation captured on 2026-09-13** while retaining `PENDING RAW-ID BACKFILL` until an attributable export/provenance surface supplies exact conversation/message IDs. All quoted Nathan wording was preserved verbatim; no historical claim was promoted. Final corrective commit: `a9580ffbfda0236bd5cd379c4200a43ca98b2b98`. `WORKSPACES/MERCER/RUN_025_2026-09-14.md` records the exact coverage and change.
+
 ### D. Durable documentation convention
 
 Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`, linked/routed through Common.
@@ -112,7 +114,7 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 
 ## Other queued Mercer work
 
-- continue bounded internal navigation QA of Mercer-owned durable records;
+- bounded retrieval/index-integrity QA with measurable repository evidence;
 - layered-autotag selectivity validation after standdown release;
 - source-grounded methodology reconstruction from verified Nathan-authored material;
 - raw UUID/timestamp backfill for live Nathan testimony when exports land;
@@ -124,7 +126,7 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - `DEPENDENCY`: repository first-seen dates are bulk-upload custody dates and may substantially postdate artifact creation.
 - `DEPENDENCY`: canonical navigation run `34814002515` finished cancelled; a newer successful owner regeneration is still needed to close generated-state freshness.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
-- `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await appropriate export/provenance surfaces for backfill.
+- `DEPENDENCY`: exact raw conversation/message IDs for the 2026-09-13 Mercer live-source statements await an attributable export/provenance surface.
 - No current issue genuinely requires Nathan attention.
 
 ## Run history
@@ -138,7 +140,8 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Run 22: intrinsic fingerprint of `GLOSSARY (LIVE).txt`; no defensible author/tool/source anchor found; speculative ancestry expansion closed.
 - Run 23: stale Viewer-route indexed search plus Mercer README/continuity reconciliation; current catalog path and checkpoint-first restart behavior made explicit.
 - Run 24: durable Viewer QA restart-state reconciliation; terminal cancelled owner run is now recorded at the owning QA surface and repeat polling retired.
+- Run 25: live-source provenance-log durable referent reconciliation; quoted Nathan text unchanged; raw-ID backfill remains pending.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Continue bounded inspection of Mercer-owned durable QA/source-integrity records for stale restart/path instructions that can be reconciled mechanically. If no additional concrete drift is found, branch to the next highest-value bounded retrieval/index-integrity check allowed by Control rather than reopening exhausted ancestry or standdown-gated autotag interpretation.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. The bounded stale-restart/referent audit has now covered Mercer's principal durable front-door, Viewer QA, checkpoint, and live-source records. Branch to a bounded retrieval/index-integrity check with measurable repository evidence, preferably source-path/catalog or durable-index consistency work that does not duplicate Morrow continuity work or the active Nathan-words lane. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
