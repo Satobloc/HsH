@@ -28,10 +28,10 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Mercer individual training is complete.
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 
-## Current frontier — after Run 9
+## Current frontier — after Run 10
 
 ### Viewer/catalog path drift
-**Viewer publication repair is green; manifest cleanup remains separate.**
+**Viewer publication repair is green; manifest ownership is now identified; one owner-run verification remains.**
 
 Morrow reported eight of nine LIVE Viewer paths containing date prefixes absent from the repository tree. Direct inspection established:
 - `indexes/manifests/live-conversation-dates.json` is dry-run;
@@ -51,9 +51,18 @@ Completed:
 - direct search of the committed Viewer catalog found zero `Court Filing Guidance` matches, confirming the deleted-source residue is no longer published by Viewer;
 - workflow validation guarantees every non-external path in that landed catalog resolved to a repository file during the run, covering the LIVE-path handoff.
 
+Run 10 resolved the upstream ownership question:
+- canonical development manifest is `indexes/manifests/development-conversation-dates.json`;
+- `.github/workflows/maintain-navigation.yml` regenerates it by running `tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply --manifest indexes/manifests/development-conversation-dates.json`;
+- the generator rebuilds records from files currently present under `DEVELOPMENT_FULL_CONVOS`; it does not intentionally retain absent-file history;
+- current manifest was generated `2026-09-13T12:30:33.434526+00:00`;
+- `Court Filing Guidance` was deleted later at `2026-09-13T13:41:24Z` in commit `655db2d384867c43fc59c5047403f6feade5a88c` (`privacy: remove Court Filing Guidance raw conversation from public corpus`);
+- therefore the stale record is ordinary generation-time lag, not evidence that the generator resurrected the source;
+- at Run 10 inspection, canonical navigation run `34793981748` was pending on current `main`; Mercer left the generated manifest to its owning workflow instead of hand-editing it.
+
 Remaining Viewer-adjacent work:
-- `indexes/manifests/development-conversation-dates.json` still contains the stale deleted-source record for `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json` (`status: unchanged`, `message_count: 78`);
-- identify the owning manifest generator/regeneration path before repairing that record. Do not hand-edit source-history semantics without ownership/provenance.
+- verify the next successful canonical navigation regeneration removes the deleted `Court Filing Guidance` record from the development manifest;
+- if it survives a fresh successful owner regeneration, diagnose that as a generator/workflow defect; otherwise close this branch.
 
 ### `MORROW-SOURCE-001`
 **Code-side resolved / output-side pending.** Comparator, payload policy, regression case, and tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
@@ -82,12 +91,13 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - Run 7: revalidated scanner logic and compacted checkpoint.
 - Run 8: traced Viewer LIVE-path drift to dry-run manifest `new_path` misuse; landed existence-aware resolver and workflow path-existence gate; CI then exposed and drove repair of wrapper recursion and one stale deleted-source manifest residue; see `RUN_008_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 - Run 9: diagnosed Viewer publication failure as push-race only; hardened publication; successor run `34791027403` passed all steps and landed repaired `374/365/9` catalog; deleted `Court Filing Guidance` confirmed absent from Viewer output. See `RUN_009_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
+- Run 10: traced the stale development-manifest record to its canonical owner and established the exact timing cause: manifest generation predated the scoped privacy deletion. Confirmed `maintain-navigation.yml` + `date_conversation_exports.py` own fresh regeneration, so Mercer documented rather than hand-edited generated state. See `RUN_010_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 
 ## Blockers / dependencies
-- `DEPENDENCY`: stale development-manifest entry for deleted `Court Filing Guidance` needs owning generator/regeneration path identified before manifest-level reconciliation.
+- `DEPENDENCY`: verify one fresh successful canonical navigation regeneration after the `Court Filing Guidance` deletion; if the record persists then investigate generator/workflow behavior.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await export for provenance backfill.
 - No current issue genuinely requires Nathan attention.
 
 ## Best next operation
-Next run: reread Control/Common, post/verify concise Viewer-path resolution handoff if not already superseded, then trace the development-manifest generation owner and repair the stale deleted-source record through its proper regeneration path. If that path is blocked, branch to the highest-value permitted provenance/documentation task under the standdown rather than resuming theory-bearing work.
+Next run: reread Control/Common, then inspect the newest successful `Maintain H(s)H navigation` state. Confirm whether `indexes/manifests/development-conversation-dates.json` has dropped the deleted `Court Filing Guidance` record. If yes, close the Viewer/manifest branch and post/update the concise Common handoff. If no after a successful fresh regeneration, diagnose the generator/workflow defect source-first. If that branch is blocked, move to the highest-value permitted provenance/documentation task under the standdown rather than resuming theory-bearing work.
