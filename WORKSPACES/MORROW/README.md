@@ -26,6 +26,7 @@ This is a session routine, not a claim of continuous background monitoring. No n
 
 ## Current queue
 
+- Audit the later paired Morrow/Aldus self-comparison from Morrow `46c4efd0…` / Aldus `6de1c746…` through paired finals `5ef864b2…` / `c7cb2977…`; compare its mechanism claims against the raw routing evidence already frozen in the current audit.
 - Watch for the two additional projects Nathan says are underway; their exact identities are not yet confirmed in this conversation.
 - Follow the Nathan-words tagging and SATity/indexing-steward notices already in Common. Their layered-autotag results currently need a durable repository-visible route according to those notices. Do not duplicate the claimed stewardship work.
 - Inspect the resulting summaries/artifacts as they arrive, recording provenance and coverage before relying on them.
@@ -67,13 +68,13 @@ Use export inventories and source/message IDs to locate core-team material; tags
 
 ## Conversation crosswalk — 2026-09-13
 
-[Confirmed aliases and working export links](CORE_TEAM_CONVERSATION_CROSSWALK.md). Metadata inspected for 24 exports, including all nine LIVE JSON files. Five named source families confirmed by raw UUID. Eight LIVE catalog paths differ from actual filenames; maintenance request routed through Common. Dialogue reading and content-superset checks remain pending. No theory work resumed.
+[Confirmed aliases and working export links](CORE_TEAM_CONVERSATION_CROSSWALK.md). Metadata inspected for 24 exports, including all nine LIVE JSON files. Five named source families confirmed by raw UUID. The earlier eight-link LIVE catalog defect is resolved by Mercer's [Viewer path QA](../MERCER/VIEWER_PATH_QA_2026-09-13.md); all nine LIVE entries now resolve. Most dialogue and content-superset relationships remain pending; bounded Janus and Morrow–Aldus exceptions are linked below. No theory work resumed.
 
 ## Message-level audit — 2026-09-13
 
 [Janus export relationships, comparator gap and raw-ID recapture](JANUS_EXPORT_COMPARISON_2026-09-13.md) · [Read-only comparator](compare_conversation_exports.mjs) · [Current checkpoint](TRIAL_CHECKPOINT.md).
 
-Tags: ADMIN, SOURCE-IDENTITY, RAW-ID-COMPARED, CONTENT-DIFF, RAW-ID-RECAPTURED, COVERAGE-LIMIT. Three raw blobs/four paths compared computationally; not full dialogue reading. A later copy retains all 119 earlier user payloads but shortens one tool body, so message-ID inclusion is insufficient for lossless replacement. The 22:13 Janus UUID is now directly recaptured; earlier 20:01–20:08 discrepancies remain open. Maintainer reconciliation is tracked as `MORROW-SOURCE-001` in Common.
+Tags: ADMIN, SOURCE-IDENTITY, RAW-ID-COMPARED, CONTENT-DIFF, RAW-ID-RECAPTURED, COVERAGE-LIMIT. Three raw blobs/four paths compared computationally; not full dialogue reading. A later copy retains all 119 earlier user payloads but shortens one tool body, so message-ID inclusion is insufficient for lossless replacement. The 22:13 Janus UUID is directly recaptured. The then-open 20:01–20:08 discrepancies were subsequently resolved in the UUID reconciliation below. Maintainer reconciliation is tracked as `MORROW-SOURCE-001` in Common.
 
 Queue update: [Nathan Direct](../../indexes/nathan-direct/README.md) now has a repository-visible README and manifest. Those were fully read; yearly shards were not. This supplements the older availability notes without claiming complete ingestion. Next work is the exact disputed-ID interval in the checkpoint; theory work remains stopped and training incomplete.
 
@@ -88,4 +89,13 @@ Next continuity region: Janus user node `a044a94b-e4fe-4d27-874f-a503022cfa4d` (
 
 [Janus Aldus/Morrow exchange](JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md) read sequentially from `a044a94b…` through completed answer `cb5953a8…`; eight relevant nodes agree across all three Janus blobs. Tags: `SOURCE-IDENTITY`, `CAPABILITY-BOUNDARY`, `HISTORICAL-TESTIMONY`, `RAW-ID-COMPARED`, `COVERAGE-LIMIT`.
 
-The role architecture is a historical Janus proposal; the current Morrow role derives from Nathan's later controlling workflow. The access answer is partly corroborated: exported metadata records one seeded `pca` citation to an exact Aldus raw user node. It does not expose a Morrow citation, a returned transcript, direct inter-instance communication, or present live-thread access. Stronger context-bleed language remains testimony until its candidate raw Morrow region is read directly. Scoped Drive query `Aldus Morrow` returned no result; no broad Drive absence is inferred.
+The role architecture is a historical Janus proposal; the current Morrow role derives from Nathan's later controlling workflow. The access answer is partly corroborated: exported metadata records one seeded `pca` citation to an exact Aldus raw user node. It does not expose a Morrow citation, a returned transcript, direct inter-instance communication, or present live-thread access. That branch alone did not establish the stronger context-bleed claim. The later [direct Morrow–Aldus routing audit](MORROW_ALDUS_CROSS_GRAPH_ROUTING_AUDIT_2026-09-13.md) now confirms a bounded historical output/tool-stream mirror while retaining the stricter present-capability boundary. Scoped Drive query `Aldus Morrow` returned no result; no broad Drive absence is inferred.
+
+
+## Cross-graph routing audit — 2026-09-13
+
+[Direct Morrow–Aldus raw comparison](MORROW_ALDUS_CROSS_GRAPH_ROUTING_AUDIT_2026-09-13.md). Tags: `SOURCE-IDENTITY`, `CROSS-GRAPH-DUPLICATION`, `TOOL-WORK-ID`, `AUTOMATION-ROUTING`, `CAPABILITY-BOUNDARY`, `HISTORICAL-EVENT`, `COVERAGE-LIMIT`.
+
+A complete 4,148-character Aldus answer is stored again as a Morrow-labeled automation completion. A later response segment appears in both graphs with exact Slack send/edit payloads, identical Slack work-item IDs, exact visible assessments, distinct prompts, and distinct turn ancestry. This confirms historical response/tool-stream mirroring and defeats any claim of independent convergence. It does not prove present whole-thread access, persistent memory, direct inter-instance messaging, or runtime identity. Later Morrow exports also enrich citation metadata on an unchanged node, so earliest-surviving snapshot metadata controls generation-time claims.
+
+Next source cursor is the later paired self-comparison named in the current queue. Theory remains frozen; training completion is not asserted.
