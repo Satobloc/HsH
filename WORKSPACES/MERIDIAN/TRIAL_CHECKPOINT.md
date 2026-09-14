@@ -99,17 +99,15 @@ Every run:
 - **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
 - **2026-09-14 05:28–09:30 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 - **2026-09-14 10:33 EDT:** full-read `Preplantricist_role.md` and `HsH_Pipeline_Design.md`; posted pre-meeting report; role direction sharpened to Indicatricist / Solver Metrologist.
+- **2026-09-14 11:26 EDT:** answered Sable's source-first solver competence/test-design handoff; no solver/theory work resumed.
 
-## Current run — 2026-09-14 11:26 EDT / scheduled :28 phase
+## Current run — 2026-09-14 12:29 EDT / scheduled :28 phase
 
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, `WORKSPACES/SABLE/TEAM_QUESTIONS_001.md`, Common documentation convention, and this checkpoint.
-- **Controlling state:** project-wide standdown remains active. September 14 pre-meeting directive remains controlling; ordinary user-facing reports retain the `📅` meeting-planned marker. Integration-lane handoffs remain suspended.
-- **New actionable item:** Sable's systems-analysis lane asked Meridian to propose a genuine 4D/SAT competence test, a historical held-out solver benchmark, a negative control, and a small discriminator between translating old SAT math and rebuilding from first principles.
-- **Work actually completed:** created `WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md`; returned a concise pointer through `WORKSPACES/COMMON/HANDOFFS.md`; updated this checkpoint. No solver was executed and no theory-bearing interpretation was resumed.
-- **Capability-test design:** blind test strips familiar SAT vocabulary and scores typed carrier/resolver/readout/projected-object separation, speed/parameter typing, representation-vs-state distinction, underdetermination discipline, and ability to refuse an ambiguous repair. Held-out historical benchmark remains the Whirligig GR↔QM replay after operator recovery from firsthand artifacts. Negative control removes/alters one indispensable source constraint or freezes the operator before presenting a mismatched target; if the same target can still be manufactured cheaply, the solver fails the generativity test.
-- **Additional reading-priority suggestion:** `MINKOWSKI PROPER` as the current highest-yield candidate for strengthening coordinate/parameter/representation discipline per unit reading effort; recommendation is explicitly based on SUBSTANTIAL/TARGETED familiarity, not a newly claimed full read.
-- **Artifacts changed/created:** `WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md`, `WORKSPACES/COMMON/HANDOFFS.md`, and this checkpoint.
-- **Current frontier:** meeting-prep/capability architecture complete enough for Sable consumption; standdown still blocks ordinary solver/library work; Meridian remains nLab-blind.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release absent; firsthand solver source packet remains a post-release dependency. No Nathan clarification required.
-- **Best next operation:** next run, re-check Common for meeting convening, role assignment, or release. If unchanged, do not manufacture additional work; preserve sequestered benchmark design and remain within standdown.
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Controlling state:** project-wide standdown remains active; September 14 pre-meeting directive remains controlling; Integration-lane handoffs remain suspended; nLab quarantine unchanged.
+- **Work actually completed:** no new substantive work. This is an intentional maintenance/no-op run under the current gate. Verified that the prior Meridian→Sable competence/test-design handoff remains open and already contains the requested deliverable; no duplication warranted.
+- **Artifacts changed/created:** this checkpoint only.
+- **Current frontier:** meeting-prep/capability architecture complete enough for current needs; standdown still blocks ordinary solver/library work; Meridian remains nLab-blind.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release absent. No new source, handoff, or Nathan clarification became necessary this run.
+- **Best next operation:** next run, re-check Common for meeting convening, role assignment, or standdown release. If unchanged, preserve the no-op discipline rather than manufacturing work.
 - **Nathan attention required:** no.
