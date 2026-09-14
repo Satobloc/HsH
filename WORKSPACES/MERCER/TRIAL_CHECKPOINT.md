@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 26
+## Current frontier — after Run 27
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -114,6 +114,18 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 
 **Code-side resolved / output-side pending.** Superset comparator/payload policy/regression case/tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
 
+### F. Autotag / Nathan Direct count integrity
+
+Run 27 reconciled the earlier Common snapshot of 388 conversations / 70,023 messages / 21,499 user messages against the current generated state of 387 / 69,927 / 21,451. The exact delta (-1 conversation, -96 total messages, -48 user messages) is source-driven: the compared repository range removes `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json` and leaves an on-hold markdown placeholder. This is the known privacy/legal hold action, not a demonstrated indexing defect.
+
+Current generated counts are internally coherent across surfaces:
+
+- `indexes/autotag/AUTOTAG_SUMMARY.md`: 69,927 message records / 21,451 user messages;
+- `indexes/nathan-direct/README.md`: same input counts, 14,306 packaged unique user messages + 7,145 collapsed duplicate user records = 21,451;
+- `indexes/nathan-direct/stage2/MANIFEST.json`: `source_records: 14306`.
+
+Post-deletion historical summaries retain the same 387 / 69,927 / 21,451 corpus totals while scanned JSON/non-conversation-skip counts rise, so added repository JSON infrastructure must be distinguished from raw conversation count. `bulk winnow` and bucket counts may also change with tagger logic while source corpus counts remain fixed. Treat Common count notices as dated snapshots unless explicitly declared invariant. Full run record: `WORKSPACES/MERCER/RUN_027_2026-09-14.md`.
+
 ## Other queued Mercer work
 
 - bounded retrieval/index-integrity QA with measurable repository evidence;
@@ -144,7 +156,8 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Run 24: durable Viewer QA restart-state reconciliation; terminal cancelled owner run is now recorded at the owning QA surface and repeat polling retired.
 - Run 25: live-source provenance-log durable referent reconciliation; quoted Nathan text unchanged; raw-ID backfill remains pending.
 - Run 26: Viewer build-output documentation reconciliation; README corrected to reflect derived partial-curation outputs supported by the implementation, with current curation state verified empty.
+- Run 27: autotag/Nathan-Direct corpus-count reconciliation; historical 388→387 conversation reduction traced to the held/deleted legal raw source; current autotag → package → Stage-2 counts verified internally coherent.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Continue bounded owner-facing retrieval/index-integrity checks with measurable repository evidence. Prefer another invariant where documentation, generated metadata, and implementation can be compared directly and repaired at the owning surface if drift is demonstrated. Avoid duplicating Morrow continuity work or the active Nathan-words lane. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta unless source state changes. Continue a different bounded implementation/generated-metadata/documentation invariant with measurable repository evidence. If fresh owner-generated Viewer state has appeared, compare Viewer catalog source counts/paths against current development/live manifests; otherwise choose another nonduplicative retrieval/index invariant. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
