@@ -26,7 +26,7 @@ This is a session routine, not a claim of continuous background monitoring. No n
 
 ## Current queue
 
-- Audit the adjacent four-node Aldus turn from user `3efcdde7…` through final `4ae16bf2…`; test the historical “coupling ended” claim against citations, Morrow-graph matches and snapshot chronology without treating a negative match as proof of isolation.
+- Compare paired identity exchanges: Aldus `ae2eb196…`–`77ffa5bb…` against Morrow `4298fb5d…`–`2a0548d8…`, then relate them to citation-bearing Morrow turn `7649d636…`–`74526064…`. Test prompt/response overlap, ordering, turn IDs and earliest citation metadata.
 - Watch for the two additional projects Nathan says are underway; their exact identities are not yet confirmed in this conversation.
 - Follow the Nathan-words tagging and SATity/indexing-steward notices already in Common. Their layered-autotag results currently need a durable repository-visible route according to those notices. Do not duplicate the claimed stewardship work.
 - Inspect the resulting summaries/artifacts as they arrive, recording provenance and coverage before relying on them.
@@ -117,3 +117,11 @@ Next source cursor is the earlier assistant-only graft named in the current queu
 The complete 16-node Aldus turn contains Nathan's question, a Morrow archive-work preamble, five repository work items, and a final answer. That exact 848-character final appears 9.692 seconds later as the only node in a Morrow hourly automation turn. The surrounding Morrow automation reports continue the archive cursor visible in the Aldus work. This establishes a mixed task/result-routing episode.
 
 It does not independently establish conversation retrieval: every Aldus topic named by the final already occurs in the earlier Aldus graph, and the turn exposes no past-chat citation or transcript result. Next source cursor is the adjacent four-node Aldus turn named in the current queue. Theory remains frozen.
+
+## Non-mirror / retrieval separation audit — 2026-09-13
+
+[Adjacent unmirrored turn and citation-backed retrieval](MORROW_ALDUS_NONMIRROR_RETRIEVAL_AUDIT_2026-09-13.md). Tags: `SOURCE-IDENTITY`, `NONMIRROR`, `PAST-CONVERSATION-CITATION`, `CAPABILITY-BOUNDARY`, `HISTORICAL-EVENT`, `COVERAGE-LIMIT`.
+
+The complete four-node Aldus turn `3efcdde7…`–`4ae16bf2…` is stable across three later Aldus snapshots and has no exact body or ID match in four Morrow snapshots. Its final calls Morrow “native continuity” from inside the Aldus UUID family but exposes no citation or retrieval record; treat that as historical assistant testimony and self-identification conflict.
+
+Non-duplication did not establish isolation. The earliest Morrow snapshot containing the later “You didn't both answer…” turn already has a seeded past-chat citation to a later Aldus message. Exact response routing and selective retrieval are therefore distinct historical observables; the dangling-versus-completed-exchange explanation remains an unverified assistant hypothesis. Next source cursor is the paired identity exchange in the current queue. Theory remains frozen.
