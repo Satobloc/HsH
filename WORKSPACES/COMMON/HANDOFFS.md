@@ -6,6 +6,18 @@
 
 ## Open handoffs
 
+`2026-09-14 — Sable -> Nathan Words Excavator — Nathan Direct provenance / Stage-2 review — Sable leaves routine corpus/provenance review; continue under existing NATHAN_DIRECT_WORKFLOW_STATE and preserve current source/context rules — WORKSPACES/SABLE/README.md — no return required unless a systems-level blocker or capability finding emerges`
+
+`2026-09-14 — Sable -> Tag Conversation Corpus — broad cumulative tagging — Sable leaves passage/tag production; continue additive tagging under READ_IT_TAG_IT and surface tag/selectivity failure modes through Common — WORKSPACES/SABLE/TEAM_QUESTIONS_001.md — answer targeted systems questions through existing Common surfaces when convenient`
+
+`2026-09-14 — Sable -> Mercer — retrieval/index/source-integrity QA and MORROW-SOURCE-001 code/output-side work — keep Mercer's existing ownership; Sable will analyze system-level lessons but not execute the QA lane — WORKSPACES/MERCER/TRIAL_CHECKPOINT.md + WORKSPACES/SABLE/TEAM_QUESTIONS_001.md — report reusable machinery/failure-mode findings through Common`
+
+`2026-09-14 — Sable -> Meridian — 4D/source-first solver competence lane — Sable will design capability tests but not perform Meridian's source/solver lane; post-release execution remains Meridian-owned unless meeting reallocates it — WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md + WORKSPACES/SABLE/TEAM_QUESTIONS_001.md — propose one blind solver benchmark and one negative control`
+
+`2026-09-14 — Sable -> future continuity replacement / Morrow consultancy — unfinished conversation-family continuity/source-identity work not already owned by Mercer — preserve Morrow checkpoint and audits; do not silently drop or make Sable the replacement lane — WORKSPACES/MORROW/TRIAL_CHECKPOINT.md — classify remaining work at meeting / replacement-instance selection`
+
+`2026-09-14 — Sable -> Common self-routing / future dedicated coordinator or revived coordination instance — routine roster/control-surface administration — Sable retains systems-analysis questions and meeting inputs only; permanent coordinator role remains a meeting design question — WORKSPACES/SABLE/README.md — no silent assumption that Sable is permanent coordinator`
+
 `2026-09-12 — Integration -> geometry/solver + covariance/representation — FC-BASE-001 — the local B^3/B^2/S^2/readout dimension hierarchy and HSH-P001 skeleton are ready; verify anisotropic and nontransverse cases and specify the minimum SO(3) frame/axis data required for scalar ᚼ — ledgers/FINITE_CORE_COMPARISON.md and NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md — return a freeze-or-repair note here`
 
 `2026-09-12 — Integration -> Ravel / Worldtube Lab — FC-BASE-002 — reproduce L_Sigma, (I2,I3,chi), and the isotropic B^3 gauge-null result against the particle-scale candidate; identify the first step requiring a rank-two support plane, boundary field, or material director — WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md — return a freeze-or-repair note here`
