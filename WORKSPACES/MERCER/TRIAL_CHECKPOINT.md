@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 25
+## Current frontier — after Run 26
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -80,7 +80,7 @@ Retrieval-selectivity rules retained:
 
 ### B. Viewer/catalog path and generated state
 
-**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; durable QA restart guidance now reconciled to terminal state.
+**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; durable QA restart guidance reconciled to terminal state; owning build-output documentation now matches current curation-capable implementation.
 
 Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`.
 
@@ -91,6 +91,8 @@ Canonical `Maintain H(s)H navigation` run `34814002515` is cancelled and must no
 Run 23 searched the indexed repository for both `CONVERSATION_VIEWER/catalog/conversations.json` and `catalog/conversations`; neither returned a match. Because search coverage can lag, this is not absence evidence, but there is no basis for speculative bulk editing. Mercer front-door documents now explicitly route to `CONVERSATION_VIEWER/data/conversations.json` and warn against the superseded route.
 
 Run 24 inspected the durable Viewer QA record and found stale restart wording that still told a future run to keep checking the same owner dependency. `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` now explicitly records run `34814002515` as terminal cancelled, forbids repeat polling, and gates reopening on genuinely new owner evidence. Commit: `9c0b70715878b3adeadf8deef0afbfae9aed283b`.
+
+Run 26 checked the owning Viewer README against `tools/build_conversation_viewer.py` and current curation state. The README's claim that the build “generates only” `CONVERSATION_VIEWER/data/conversations.json` was too strong: partial curation can also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`, while whole-conversation hiding alters only the derived catalog. `CONVERSATION_VIEWER/CURATION.json` currently has an empty rules list, so the mismatch was latent rather than an active data defect. The README now documents the implementation accurately and preserves the raw-source boundary. Commit: `57f85c1f71ca3407a80dd665a72f279a0e56e1f7`. Full run record: `WORKSPACES/MERCER/RUN_026_2026-09-14.md`.
 
 ### C. Mercer documentation/navigation reconciliation
 
@@ -141,7 +143,8 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Run 23: stale Viewer-route indexed search plus Mercer README/continuity reconciliation; current catalog path and checkpoint-first restart behavior made explicit.
 - Run 24: durable Viewer QA restart-state reconciliation; terminal cancelled owner run is now recorded at the owning QA surface and repeat polling retired.
 - Run 25: live-source provenance-log durable referent reconciliation; quoted Nathan text unchanged; raw-ID backfill remains pending.
+- Run 26: Viewer build-output documentation reconciliation; README corrected to reflect derived partial-curation outputs supported by the implementation, with current curation state verified empty.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. The bounded stale-restart/referent audit has now covered Mercer's principal durable front-door, Viewer QA, checkpoint, and live-source records. Branch to a bounded retrieval/index-integrity check with measurable repository evidence, preferably source-path/catalog or durable-index consistency work that does not duplicate Morrow continuity work or the active Nathan-words lane. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Continue bounded owner-facing retrieval/index-integrity checks with measurable repository evidence. Prefer another invariant where documentation, generated metadata, and implementation can be compared directly and repaired at the owning surface if drift is demonstrated. Avoid duplicating Morrow continuity work or the active Nathan-words lane. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
