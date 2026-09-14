@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 29
+## Current frontier — after Run 30
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -138,9 +138,27 @@ The stale Viewer catalog exposes the dated target copy (`id: 46da07bfc17d`, 55 m
 
 Mercer did not delete either raw file or hand-edit generated outputs. A Common handoff now asks the owning archive/index-maintenance lane to make an explicit provenance-preserving disposition of the byte-identical pair and then rerun canonical manifest/navigation generation. Full run record: `WORKSPACES/MERCER/RUN_029_2026-09-14.md`.
 
+### H. Source-integrity systems map / Sable response
+
+Run 30 consolidated Mercer's observed QA evidence into `WORKSPACES/MERCER/SOURCE_INTEGRITY_SYSTEMS_RESPONSE_001.md` in response to Sable's systems questions.
+
+Key conclusions:
+
+- current superset comparator is reliable for strict message/payload subset-candidate detection under its explicit policy, but disposition still requires point-of-use/provenance review;
+- `tools/date_conversation_exports.py` is reliable for deterministic dry-run/date-prefix planning and collision-safe all-or-nothing apply behavior;
+- autotag → Nathan Direct → Stage-2 counts are useful structural invariants, not semantic authority;
+- Viewer is a navigation/candidate-selection surface only when freshness is checked;
+- `extract_raw_window.py` is a bounded text-window helper, **not** a complete-content serializer, because it reads `content.parts` rather than arbitrary content shapes;
+- the observed failure-mode set now includes partial content-shape comparison, generated path drift, stale generated state, source-driven count shifts, retrieval/proximity overread as provenance, and path-normalization collision blocking;
+- a cross-repo integrity layer should be a thin join/validator over existing path/blob SHA/stable-ID/generator/source-state/count metadata rather than a new parser stack;
+- Mercer can inherit deterministic Morrow identity/path/UUID/checksum/index work, but contextual conversation-family causality/branch-significance/routing interpretation should remain with a continuity specialist or explicit contextual review.
+
+Full run record: `WORKSPACES/MERCER/RUN_030_2026-09-14.md`.
+
 ## Other queued Mercer work
 
 - bounded retrieval/index-integrity QA with measurable repository evidence;
+- feasibility audit for a thin cross-source inventory/validator composed from existing manifests and SHA/ID/path metadata;
 - layered-autotag selectivity validation after standdown release;
 - source-grounded methodology reconstruction from verified Nathan-authored material;
 - raw UUID/timestamp backfill for live Nathan testimony when exports land;
@@ -172,7 +190,8 @@ Mercer did not delete either raw file or hand-edit generated outputs. A Common h
 - Run 27: autotag/Nathan-Direct corpus-count reconciliation; historical 388→387 conversation reduction traced to the held/deleted legal raw source; current autotag → package → Stage-2 counts verified internally coherent.
 - Run 28: Viewer registered-external source/count semantics reconciliation; README now documents external registry inputs and explains why top-level corpus counts can exceed manifest acceptance counts.
 - Run 29: development-manifest collision isolated to one byte-identical SAT_CONVOS_15 duplicate pair; its all-or-nothing effect on 48 blocked rename records documented and routed to the archive/index-maintenance owner without deleting source or editing generated outputs.
+- Run 30: source-integrity systems response consolidated reliable substrate, observed failure modes, checksum/inventory composition strategy, sampling regime, and safe Mercer/Morrow continuity boundary; no theory work resumed.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta or Viewer external-count semantics unless source/build state changes. If the SAT_CONVOS_15 duplicate collision has been dispositioned or manifests regenerated, verify that the development manifest has zero collision-induced global blocking and that Viewer/catalog input state follows the regenerated manifest. If that owner action has not occurred, do not repeatedly re-audit the same pair; choose another nonduplicative retrieval/index/generated-metadata invariant with measurable repository evidence. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta or Viewer external-count semantics unless source/build state changes. If the SAT_CONVOS_15 duplicate collision has been dispositioned or manifests regenerated, verify zero collision-induced global blocking and that Viewer/catalog input state follows the regenerated manifest. Otherwise, perform a bounded feasibility audit for the thin cross-source inventory/validator using existing manifests/IDs/SHA/path/source-state fields, unless a higher-priority provenance/index dependency has landed. Do not implement a parallel parser stack merely because the inventory layer is useful.
