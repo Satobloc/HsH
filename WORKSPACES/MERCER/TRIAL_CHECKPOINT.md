@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 23
+## Current frontier — after Run 24
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -80,7 +80,7 @@ Retrieval-selectivity rules retained:
 
 ### B. Viewer/catalog path and generated state
 
-**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; current indexed stale-path prose cleanup effectively reconciled.
+**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; durable QA restart guidance now reconciled to terminal state.
 
 Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`.
 
@@ -90,6 +90,8 @@ Canonical `Maintain H(s)H navigation` run `34814002515` is cancelled and must no
 
 Run 23 searched the indexed repository for both `CONVERSATION_VIEWER/catalog/conversations.json` and `catalog/conversations`; neither returned a match. Because search coverage can lag, this is not absence evidence, but there is no basis for speculative bulk editing. Mercer front-door documents now explicitly route to `CONVERSATION_VIEWER/data/conversations.json` and warn against the superseded route.
 
+Run 24 inspected the durable Viewer QA record and found stale restart wording that still told a future run to keep checking the same owner dependency. `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` now explicitly records run `34814002515` as terminal cancelled, forbids repeat polling, and gates reopening on genuinely new owner evidence. Commit: `9c0b70715878b3adeadf8deef0afbfae9aed283b`.
+
 ### C. Mercer documentation/navigation reconciliation
 
 Run 23 brought the two Mercer front-door documents into alignment with the current trial:
@@ -98,7 +100,7 @@ Run 23 brought the two Mercer front-door documents into alignment with the curre
 - `WORKSPACES/MERCER/CONTINUITY.md` now defers to this checkpoint, removes obsolete autotag/SATity-audit restart instructions, and preserves current retrieval/provenance rules and blockers.
 - `WORKSPACES/MERCER/RUN_023_2026-09-14.md` records exact coverage and edits.
 
-No Common handoff was posted because this was local Mercer navigation cleanup and introduced no new cross-lane dependency.
+Run 24 extended that reconciliation into `VIEWER_PATH_QA_2026-09-13.md`; `WORKSPACES/MERCER/RUN_024_2026-09-14.md` records exact source coverage and changes. No Common handoff was warranted because this was internal Mercer documentation drift with no new cross-lane dependency.
 
 ### D. Durable documentation convention
 
@@ -110,7 +112,7 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 
 ## Other queued Mercer work
 
-- bounded internal navigation QA of Mercer-owned durable records;
+- continue bounded internal navigation QA of Mercer-owned durable records;
 - layered-autotag selectivity validation after standdown release;
 - source-grounded methodology reconstruction from verified Nathan-authored material;
 - raw UUID/timestamp backfill for live Nathan testimony when exports land;
@@ -135,7 +137,8 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Runs 18–21: Viewer-catalog candidate selection, bounded candidate eliminations, path correction, generic-glossary false-positive classification, and date-selection/retrieval-surface QA.
 - Run 22: intrinsic fingerprint of `GLOSSARY (LIVE).txt`; no defensible author/tool/source anchor found; speculative ancestry expansion closed.
 - Run 23: stale Viewer-route indexed search plus Mercer README/continuity reconciliation; current catalog path and checkpoint-first restart behavior made explicit.
+- Run 24: durable Viewer QA restart-state reconciliation; terminal cancelled owner run is now recorded at the owning QA surface and repeat polling retired.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Inspect Mercer-owned durable QA records for internal navigation drift, stale restart instructions, or concrete source-path references that can be reconciled mechanically. If none are found, branch to the next highest-value bounded retrieval/index integrity check allowed by Control rather than reopening exhausted ancestry or standdown-gated autotag interpretation.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Continue bounded inspection of Mercer-owned durable QA/source-integrity records for stale restart/path instructions that can be reconciled mechanically. If no additional concrete drift is found, branch to the next highest-value bounded retrieval/index-integrity check allowed by Control rather than reopening exhausted ancestry or standdown-gated autotag interpretation.
