@@ -28,7 +28,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Mercer individual training is complete.
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 
-## Current frontier — after Run 12
+## Current frontier — after Run 13
 
 ### Viewer/catalog path drift
 **Viewer publication repair is green; canonical navigation workflow is reconciled; owner manifest regeneration remains pending.**
@@ -73,6 +73,12 @@ Run 12 rechecked the owner state without assuming CI success:
 - the manifest still physically contains `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json` as `status: unchanged`, `message_count: 78`;
 - direct lookup of that source path on current `main` returns `404 Not Found`.
 
+Run 13 performed the promised bounded owner-state check:
+- newest visible `[skip hsh-maintenance] Maintain date/index/tag/viewer navigation` commit remains `82d9ef9a5f82cfc3ddc8fd81027af4629b121c1a` at `2026-09-13T12:41:35Z`;
+- it predates both the privacy deletion and Mercer's canonical-navigation repair;
+- therefore no fresh successful owner regeneration is yet evidenced;
+- per Run 12's branch-away rule, Mercer stopped polling and moved to documentation-standardization work.
+
 Classification remains: **generation-lag dependency pending successful owner execution**, not generator defect. Do not hand-edit the generated manifest merely to remove the stale record.
 
 Remaining Viewer-adjacent work:
@@ -82,13 +88,26 @@ Remaining Viewer-adjacent work:
 - if all hold, close this branch;
 - if a successful owner run retains the dead record, diagnose the generator/workflow source-first.
 
+### Durable documentation convention
+**Established and discoverable in Run 13.**
+
+Nathan's repo-wide/cross-lane documentation-standardization directive is now implemented at:
+- `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`
+
+The convention defines the normal three-layer route for substantial initiatives:
+1. concise Common routing notice;
+2. durable project/index home carrying scope, status, outputs, provenance, dependencies, access pointers, supersession/history and next operation;
+3. appropriate README/index/Dashboard linkage when discoverability warrants it.
+
+It also explicitly preserves epistemic/source boundaries and applies the pattern to the historical definitions/glossary initiative, autotag QA, and Viewer/catalog maintenance. `WORKSPACES/COMMON/README.md` now links the convention, and `WORKSPACES/COMMON/COORDINATION.md` carries a concise all-lanes handoff.
+
 ### `MORROW-SOURCE-001`
 **Code-side resolved / output-side pending.** Comparator, payload policy, regression case, and tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
 
 ### Other queued Mercer work
 - layered-autotag selectivity validation after standdown release;
 - continued source-grounded methodology reconstruction;
-- Common historical-definitions/glossary initiative and durable documentation convention;
+- source-first inventory of existing glossary / standard-to-SAT resources and their navigation/provenance structure, without creating theory-bearing definitions under standdown;
 - raw UUID/timestamp backfill for live Nathan development testimony when exports land.
 
 ## Safe alternate work while standdown remains active
@@ -112,6 +131,7 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - Run 10: traced the stale development-manifest record to its canonical owner and established the exact timing cause: manifest generation predated the scoped privacy deletion. Confirmed `maintain-navigation.yml` + `date_conversation_exports.py` own fresh regeneration, so Mercer documented rather than hand-edited generated state. See `RUN_010_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 - Run 11: verified the previously pending canonical navigation run was cancelled with no jobs; confirmed the stale manifest record remains; found canonical navigation was still bypassing the existence-aware Viewer resolver; patched `maintain-navigation.yml` to use the resolved builder and enforce non-external source-path existence. See `RUN_011_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
 - Run 12: rechecked canonical owner state after the workflow repair; confirmed no visible successful owner regeneration, manifest timestamp unchanged, stale `Court Filing Guidance` record still present, and source path still absent (`404`). Classified this as owner-execution dependency rather than generator defect and recorded a branch-away rule for the next run if owner success remains unavailable. See `RUN_012_2026-09-13.md` and `VIEWER_PATH_QA_2026-09-13.md`.
+- Run 13: performed one bounded navigation-owner recheck, found no fresh successful owner commit, then implemented Nathan's documentation-standardization directive via `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`, linked it from Common README, and routed it through Common coordination. See `RUN_013_2026-09-13.md`.
 
 ## Blockers / dependencies
 - `DEPENDENCY`: verify one fresh successful canonical navigation regeneration after the `Court Filing Guidance` deletion and after commit `44548450fa4af2905f711e81ce07139b393983d6`; if the record persists then investigate generator/workflow behavior.
@@ -120,4 +140,4 @@ Do not resume ordinary theory-bearing synthesis, solver interpretation, predicti
 - No current issue genuinely requires Nathan attention.
 
 ## Best next operation
-Next run: reread Control/Common and perform one bounded owner-state check. If a successful canonical navigation regeneration is now evidenced, verify manifest timestamp advance, removal of `Court Filing Guidance`, and Viewer path-gate success; close the branch if clean. If no successful owner regeneration is visible, do **not** spend another full run polling this dependency: record the unchanged dependency and branch to the highest-value permitted provenance/documentation task under the standdown, preferably durable documentation convention or source-grounded directive-provenance work that does not duplicate Morrow or Nathan-words tagging.
+Next run: reread Control/Common and perform only a bounded check for a newly successful canonical navigation regeneration. If present, verify manifest/output and close or diagnose that branch. Otherwise continue permitted source-first documentation/provenance work: inventory existing glossary/standard-to-SAT resources and map their current navigation/provenance structure under the new durable-documentation convention, without drafting theory-bearing definitions or duplicating active Nathan-words tagging.
