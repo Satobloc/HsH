@@ -2,7 +2,7 @@
 
 **Program:** Prototype Tri(or Quin)ary Mover
 **Scope:** Nathan Direct corpus-first provenance/training lane
-**State date:** 2026-09-13
+**State date:** 2026-09-14
 **Authority:** operational state only; no theory authority
 **Controlling policy:** `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` plus newer explicit Nathan directives
 
@@ -72,6 +72,7 @@ Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation hav
 - reviewed correction chain includes terminology/conceptual-emphasis clarification, two context-dependent rejection turns, a detailed assistant-misread correction, local `filaments` terminology resolution, and a later correction distinguishing interaction-generated complexity from time-surface manifestation
 - adjacency implementation note: internal raw assistant/bio/tool nodes can make literal raw-graph parent identity differ from normalized user-facing conversational adjacency; treat this as a context-boundary implementation detail, retain full raw pointer, and never infer authorship from normalized adjacency
 - tranche precision finding remains: discourse-level `CORRECTIVE` is a broad behavioral retrieval signal and is not by itself selective for SAT/H(s)H correction history; combine with independent SAT/H(s)H relevance/provenance signals for concentration without deleting/downgrading `CORRECTIVE`
+- 2026-09-14 Nathan clarification: conversations titled `Solve for ...` in the reviewed May 4, 2025 cluster are intentionally **blinded equation tests with stripped provenance**. Treat reviewed members as `BLINDED-EQUATION-TEST`, `PROVENANCE-STRIPPED-BY-DESIGN`, `NO-SEMANTIC-INFERENCE`, and `WINNOW:NOT-THEORY-LINEAGE-SOURCE`; do not spend review cycles reverse-engineering their variable semantics or use them for earliest-use/theory-lineage claims absent a separate explicit Nathan-authored bridge. Ledgers A/B/C were updated additively; raw extraction/identity metadata remains unchanged.
 - still gated: literal earliest-use conclusions; require precision filtering plus exact Nathan wording/raw-context review
 - rule: winnow/queue status is additive metadata only; no master deletion
 - earliest-use claims must state actual corpus coverage
@@ -134,11 +135,13 @@ The first correction/refinement tranche independently demonstrates another selec
 
 The second pass demonstrates that independent SAT/H(s)H relevance plus local chronology is a productive concentration strategy: it surfaced a coherent correction → rejection → explicit restatement → terminology-resolution sequence without requiring theory reconstruction or assistant-intent inference.
 
+Blinded test families are a separate selectivity class: deliberate provenance stripping is not missing context to be repaired. Preserve exact Nathan wording and methodological status, but do not reconstruct semantics from the test record itself.
+
 ## Coordination / complementarity
 
 - **Nathan Words / this packaging lane:** durable Nathan-only substrate, provenance packaging, adjacency/context preservation, Stage-2 queue generation, bounded strategic secondary review.
 - **Tag Conversation Corpus:** systematic cumulative tagging/enrichment; existing tags remain attached.
-- **Morrow:** conversation-family identity, continuity, branch/context and provenance recovery.
+- **Morrow:** conversation-family identity, continuity, branch/context and provenance recovery under the older trial structure; newer Nathan directives govern any change in active status.
 - **Mercer:** retrieval/index QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation; current precision/selectivity owner.
 - **Meridian:** training-first source ingestion / 4D-thinking audit during theory standdown; later geometry/solver source reconstruction if released.
 
@@ -146,7 +149,7 @@ Do not duplicate another worker merely because an operation is technically avail
 
 ## Unresolved Nathan-required decisions
 
-**None currently.** Stage-2 provenance work can continue safely without Nathan intervention.
+**None currently for Nathan Direct.** Stage-2 provenance work can continue safely without Nathan intervention.
 
 The Common unresolved issue `MORROW-SOURCE-001` remains a worker dependency/scanner-policy issue, not a Nathan-required decision; preserve the earlier Janus export while that review proceeds.
 
