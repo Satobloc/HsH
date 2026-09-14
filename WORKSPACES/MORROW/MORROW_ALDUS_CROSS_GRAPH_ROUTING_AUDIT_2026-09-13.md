@@ -104,3 +104,10 @@ Thus later export metadata may enrich an already-existing node. The later Aldus 
 5. Next cursor: sequentially audit the later paired self-comparison beginning Morrow user `46c4efd0…` / assistant `1db3c441…` and Aldus user `6de1c746…` / assistant `0234c545…`, through paired finals `5ef864b2…` and `c7cb2977…`. Compare its claims against the direct evidence above rather than accepting its conclusion as authority.
 
 Theory remains frozen. Deferred `SPHERE4QC.txt` line 1301 remains untouched.
+
+
+## Follow-up — paired self-audit completed
+
+The next cursor above is now complete: see [Morrow–Aldus self-audit causality check](MORROW_ALDUS_SELF_AUDIT_CAUSALITY_CHECK_2026-09-13.md).
+
+That comparison preserves this audit's central result—historical response/tool-stream mirroring—but narrows the causal interpretation. In the later paired branch, the Morrow stream's shared preamble and first command/result predate the Aldus prompt. The export therefore does not establish Aldus-to-Morrow prompt steering. Root cause remains open.
