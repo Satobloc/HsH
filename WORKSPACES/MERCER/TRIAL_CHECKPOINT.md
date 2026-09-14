@@ -24,69 +24,35 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 15
+## Current frontier — after Run 16
 
 ### A. Historical glossary / standard-crosswalk provenance
 
-**Status: source inventory complete; repository-custody layer added; raw-message/content ancestry still unresolved.**
+**Status: source inventory + repository-custody layer complete; raw-message/content ancestry unresolved; GitHub phrase-search route tested and nonproductive.**
 
-Durable inventory:
-- `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`
+Durable inventory: `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`.
 
-Verified candidate classes:
+Verified candidate classes remain:
+1. `SAT_THEORY_ARCHIVE_2023-25/README.md` — Nathan-authored editorial/front-door source.
+2. `2026/Early SAT/GLOSSARY (LIVE).txt` — historical theory-bearing glossary candidate; content authorship/currentness unresolved.
+3. `2023-24 FRAMEWORK DEVELOPMENT/SATv  TO STANDARD MAP.txt` — historical standard-crosswalk candidate; content authorship/currentness unresolved.
+4. `10-31-2025 SAT FULL THEORY/10-20-25 definitions.txt` — visible AI/Notebook-mediated compilation layer; not Nathan Direct by default.
 
-1. `SAT_THEORY_ARCHIVE_2023-25/README.md` — directly Nathan-signed/editorially framed archive front door; useful as Nathan-authored provenance/context, but not evidence that every embedded historical definition is current H(s)H.
-2. `2026/Early SAT/GLOSSARY (LIVE).txt` — historical theory-bearing glossary candidate; inspected body lacks explicit raw author/message attribution. `LIVE` / `ACTIVE` are historical labels, not currentness authority.
-3. `2023-24 FRAMEWORK DEVELOPMENT/SATv  TO STANDARD MAP.txt` — historical theory-bearing standard-crosswalk candidate; inspected body lacks explicit raw author/message attribution.
-4. `10-31-2025 SAT FULL THEORY/10-20-25 definitions.txt` — visibly AI/Notebook-mediated compilation layer; not Nathan Direct by default without tracing attributable underlying material.
+Repository custody remains distinct from content authorship: glossary first seen in bulk upload `f25c2b8a63eca815cce863bbe859f104983fedd5` (2026-06-01); standard map first seen in bulk upload `bd1b2a6d25d8133c21a1901777ebdc137dc925e5` (2025-10-29).
 
-Run 15 added exact repository-custody provenance:
-
-- `GLOSSARY (LIVE).txt` first appears in path history in commit `f25c2b8a63eca815cce863bbe859f104983fedd5`, timestamp `2026-06-01T00:01:54Z`, author identity `Satobloc` / Nathan archive account, generic message `Add files via upload`. Commit inspection shows a bulk archive upload totaling 37,337 added lines across many files.
-- `SATv  TO STANDARD MAP.txt` first appears in path history in commit `bd1b2a6d25d8133c21a1901777ebdc137dc925e5`, timestamp `2025-10-29T20:03:04Z`, same archive-account identity and generic upload message. Commit inspection shows a bulk archive upload totaling 199,724 added lines across many files.
-
-Interpretive guardrail: these commits establish **repository custody / first-seen dates**, not original document creation dates or line-level content authorship. For imported archive material, store `repository_custodian` / `repository_first_seen` / `ingest_mode` separately from `content_authorship_status`. Do not upgrade either file to Nathan Direct from Git commit authorship alone.
-
-Next safe ancestry operation:
-- use distinctive exact phrases only against searchable raw conversation exports/archive indices;
-- recover attributable Nathan prompts/messages, dates, framework phase, and explicit supersession where the source itself establishes them;
-- never invent raw IDs or infer content authorship from bulk-upload identity;
-- hand verified metadata to the definitions/tagging lane instead of constructing the glossary independently.
+Run 16 tested exact/distinctive source phrases from the standard map (`Mapping SAT-W to Known Physics (Initial Set)`, `Photons are events, not objects`, `restoration of filament symmetry`, `filament tension across time`) through available GitHub code-search routes against HsH and the legacy archive. No raw-conversation ancestry hit surfaced. This is a retrieval limitation/result, not evidence of absence. Do not repeat the same GitHub phrase-search route unless the searchable corpus/index changes. Prefer a raw-export-aware search/index surface if one becomes available.
 
 ### B. Viewer/catalog path drift
 
-**Status: Viewer publication repair green; canonical navigation workflow reconciled; upstream manifest regeneration still pending owner execution.**
+**Status: Viewer publication repair green; canonical navigation workflow reconciled; fresh owner run observed but pending at Run-16 inspection.**
 
-Established repair chain, Runs 8–12:
-- dry-run LIVE manifest `new_path` values caused eight broken Viewer paths when treated as materialized renames;
-- `tools/build_conversation_viewer_resolved.py` now resolves only repository paths that exist and omits dead manifest-only sources;
-- Viewer workflows validate every non-external catalog source path;
-- publication was hardened against concurrent-main push races;
-- Viewer run `34791027403` succeeded and landed `374` total / `365` development / `9` live; deleted `Court Filing Guidance` is absent from Viewer output;
-- canonical `.github/workflows/maintain-navigation.yml` was also corrected in commit `44548450fa4af2905f711e81ce07139b393983d6` to use the existence-aware resolver and path gate.
+Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`. The committed development manifest still showed `generated_at_utc = 2026-09-13T12:30:33.434526+00:00` at Run 16 inspection.
 
-Upstream stale-manifest explanation:
-- canonical manifest: `indexes/manifests/development-conversation-dates.json`;
-- owner: `.github/workflows/maintain-navigation.yml` via `tools/date_conversation_exports.py`;
-- manifest generation timestamp remains `2026-09-13T12:30:33.434526+00:00` in the last inspected state;
-- `Court Filing Guidance` was deleted later at `2026-09-13T13:41:24Z` in commit `655db2d384867c43fc59c5047403f6feade5a88c`;
-- source path is absent on current main while the pre-deletion manifest still carried it;
-- cancelled run `34793981748` supplied no successful owner regeneration.
-
-Classification: **generation-lag dependency pending successful owner execution**, not demonstrated generator defect. Do not hand-edit generated state. Perform only bounded checks for a fresh successful owner regeneration; if one lands, verify timestamp advance, dead-record removal, and Viewer path gate. If no new evidence exists, branch rather than repeatedly poll.
-
-Durable QA: `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`.
+Fresh owner evidence: canonical `Maintain H(s)H navigation` run `34814002515`, head `f7e960d773521b2ba4a2f6126119f5b4dff8c772`, created `2026-09-14T06:33:59Z`, was visible but still `pending`. Therefore it was not yet valid evidence of successful regeneration. On a later run, check it once: if successful/landed, verify timestamp advance, dead `Court Filing Guidance` record removal, and Viewer path validation; otherwise retain the owner-execution dependency and branch rather than polling repeatedly.
 
 ### C. Durable documentation convention
 
-Established in Run 13:
-- `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`
-- linked from Common README and routed through `WORKSPACES/COMMON/COORDINATION.md`.
-
-Normal durable pattern for substantial cross-lane initiatives:
-1. concise Common routing notice;
-2. durable project/index home with scope/status/outputs/provenance/access/dependencies/history/next operation;
-3. README/index/Dashboard linkage when discoverability warrants it.
+Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`, linked/routed through Common.
 
 ### D. `MORROW-SOURCE-001`
 
@@ -101,8 +67,8 @@ Normal durable pattern for substantial cross-lane initiatives:
 
 ## Dependencies / blockers
 
-- `DEPENDENCY`: raw conversation/message ancestry for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` remains unidentified.
-- `DEPENDENCY`: verify one fresh successful canonical navigation regeneration after the privacy deletion and canonical-workflow repair; investigate only if a demonstrably successful run retains the dead record.
+- `DEPENDENCY`: raw conversation/message ancestry for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` remains unidentified; GitHub indexed phrase search yielded no ancestry hit.
+- `DEPENDENCY`: canonical navigation run `34814002515` was pending at last inspection; successful owner regeneration still needs one bounded verification.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await export for provenance backfill.
 - No current issue genuinely requires Nathan attention.
@@ -111,11 +77,12 @@ Normal durable pattern for substantial cross-lane initiatives:
 
 - Runs 1–4: training, shared live-development testimony surface, integrity/discoverability check, initial superset-scanner defect isolation/patch.
 - Runs 5–7: scanner invocation/report tracing, regression spot-checks, committed regression tests, logic revalidation.
-- Runs 8–12: Viewer LIVE-path drift diagnosis and repair; publication race hardening; canonical owner tracing; privacy-deletion timing reconstruction; canonical navigation workflow reconciliation; bounded owner-state verification. See `RUN_008_...` through `RUN_012_...` and `VIEWER_PATH_QA_2026-09-13.md`.
+- Runs 8–12: Viewer LIVE-path drift diagnosis and repair; publication race hardening; canonical owner tracing; privacy-deletion timing reconstruction; canonical navigation workflow reconciliation; bounded owner-state verification.
 - Run 13: established repo-wide durable documentation convention and Common routing.
-- Run 14: source-first glossary/crosswalk inventory and source typing without theory reconciliation. See `RUN_014_2026-09-14.md`.
-- Run 15: established exact Git first-seen/custody provenance for the two unresolved glossary/crosswalk candidates; both were introduced through large generic bulk-upload commits, so commit author identity was explicitly separated from content authorship. Updated durable inventory and created `RUN_015_2026-09-14.md`.
+- Run 14: source-first glossary/crosswalk inventory and source typing without theory reconciliation.
+- Run 15: exact Git first-seen/custody provenance for the unresolved glossary/crosswalk candidates; bulk-upload identity separated from content authorship.
+- Run 16: observed a fresh but pending canonical navigation owner run; tested source-derived distinctive phrase anchors against GitHub indexed search with no ancestry hit; recorded the retrieval limitation and stopped repeating that route. See `RUN_016_2026-09-14.md`.
 
 ## Best next operation
 
-Next run: reread Control/Common. Make only a bounded check for a newly successful canonical navigation regeneration. If present, verify/close or diagnose that branch. Otherwise continue raw-message ancestry recovery for the glossary and standard map through searchable conversation exports/archive indices. If no suitable ancestry surface is available, record that dependency once and branch to the highest-value permitted provenance/navigation QA task rather than treating repository custody as content authorship or performing theory reconciliation.
+Next run: reread Control/Common. Check canonical navigation run `34814002515` once. If successful and landed, verify generated-state cleanup/path gate and close or diagnose the branch. If not, branch immediately. For glossary/crosswalk ancestry, use a raw-export-aware retrieval surface if available; do not infer absence from GitHub code-search misses and do not repeat the same search route without changed evidence. Otherwise select the highest-value permitted provenance/navigation QA task.
