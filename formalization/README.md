@@ -38,6 +38,35 @@ python tools/equation_pipeline.py formalization/equations.json \
   --lean-command "lake env lean"
 ```
 
+### Windows / PowerShell Lean-ready wrapper
+
+`formalization/leancheck/run.ps1` provides a self-contained local Mathlib
+workspace under `formalization/leancheck/.work/`. It does **not** turn the HsH
+repository root into a Lake project or replace the user's installed Lean.
+
+On first run it uses the official Mathlib toolchain selector to initialize a
+Mathlib-backed Lake workspace, downloads the Mathlib cache, checks that Python
+and SymPy are available, and then runs this registry with `--strict` and
+`--lean-command "lake env lean"`. Later runs reuse the workspace/cache.
+
+From the HsH repository root:
+
+```powershell
+PowerShell -ExecutionPolicy Bypass -File .\formalization\leancheck\run.ps1
+```
+
+Useful options:
+
+```powershell
+# Skip cache refresh on an already-prepared machine
+PowerShell -ExecutionPolicy Bypass -File .\formalization\leancheck\run.ps1 -SkipCache
+
+# Refresh the downstream Mathlib dependency before checking
+PowerShell -ExecutionPolicy Bypass -File .\formalization\leancheck\run.ps1 -RefreshMathlib
+```
+
+See `formalization/leancheck/README.md` for setup diagnostics and exact outputs.
+
 Outputs are deterministic unless an external checker includes nondeterministic
 diagnostics:
 
@@ -47,9 +76,8 @@ diagnostics:
 
 ## Editing rule
 
-Do not mechanically translate display mathematics from an archive dump into
-the registry. First read the source sequentially and identify its definitions,
+Do not mechanically translate display mathematics from an archive dump into the
+registry. First read the source sequentially and identify its definitions,
 scope, assumptions, and status. The `lean` block is curated rather than inferred
 from LaTeX because automatic LaTeX-to-Lean translation can silently alter the
 statement.
-
