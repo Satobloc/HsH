@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 28
+## Current frontier — after Run 29
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -128,6 +128,16 @@ Current generated counts are internally coherent across surfaces:
 
 Post-deletion historical summaries retain the same 387 / 69,927 / 21,451 corpus totals while scanned JSON/non-conversation-skip counts rise, so added repository JSON infrastructure must be distinguished from raw conversation count. `bulk winnow` and bucket counts may also change with tagger logic while source corpus counts remain fixed. Treat Common count notices as dated snapshots unless explicitly declared invariant. Full run record: `WORKSPACES/MERCER/RUN_027_2026-09-14.md`.
 
+### G. Development-manifest collision / normalization blocker
+
+Run 29 isolated the manifest's sole `collision` record. `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json` and its intended normalized target `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json` both exist and are byte-identical: blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`, conversation ID `6a393d4e-0950-83ea-bcfd-b9ceb4783caf`.
+
+The development manifest summary is 365 unchanged / 114 skipped / 48 blocked / 1 collision. The blocked records explicitly say `No files renamed because at least one collision exists`, so the one exact-duplicate collision globally prevents normalization of 48 additional records. This is an archive/path-normalization blocker, not source-loss evidence.
+
+The stale Viewer catalog exposes the dated target copy (`id: 46da07bfc17d`, 55 messages) but not the undated duplicate as a second record. The separate SAT_CONVOS_11 `Cosmological Constant Summary` entry (50 messages) is a different archived snapshot and must not be folded into this duplicate-pair finding.
+
+Mercer did not delete either raw file or hand-edit generated outputs. A Common handoff now asks the owning archive/index-maintenance lane to make an explicit provenance-preserving disposition of the byte-identical pair and then rerun canonical manifest/navigation generation. Full run record: `WORKSPACES/MERCER/RUN_029_2026-09-14.md`.
+
 ## Other queued Mercer work
 
 - bounded retrieval/index-integrity QA with measurable repository evidence;
@@ -141,6 +151,7 @@ Post-deletion historical summaries retain the same 387 / 69,927 / 21,451 corpus 
 - `DEPENDENCY / AMBIGUOUS_PROVENANCE`: direct raw-message ancestry for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` remains unidentified; current search/fingerprint routes are exhausted pending a stronger source anchor.
 - `DEPENDENCY`: repository first-seen dates are bulk-upload custody dates and may substantially postdate artifact creation.
 - `DEPENDENCY`: canonical navigation run `34814002515` finished cancelled; a newer successful owner regeneration is still needed to close generated-state freshness.
+- `DEPENDENCY / OWNER ACTION`: explicit provenance-preserving disposition of the byte-identical SAT_CONVOS_15 `Cosmological Constant Summary` pair is needed before the development manifest can clear its single collision and release the 48 globally blocked rename records.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: exact raw conversation/message IDs for the 2026-09-13 Mercer live-source statements await an attributable export/provenance surface.
 - No current issue genuinely requires Nathan attention.
@@ -160,7 +171,8 @@ Post-deletion historical summaries retain the same 387 / 69,927 / 21,451 corpus 
 - Run 26: Viewer build-output documentation reconciliation; README corrected to reflect derived partial-curation outputs supported by the implementation, with current curation state verified empty.
 - Run 27: autotag/Nathan-Direct corpus-count reconciliation; historical 388→387 conversation reduction traced to the held/deleted legal raw source; current autotag → package → Stage-2 counts verified internally coherent.
 - Run 28: Viewer registered-external source/count semantics reconciliation; README now documents external registry inputs and explains why top-level corpus counts can exceed manifest acceptance counts.
+- Run 29: development-manifest collision isolated to one byte-identical SAT_CONVOS_15 duplicate pair; its all-or-nothing effect on 48 blocked rename records documented and routed to the archive/index-maintenance owner without deleting source or editing generated outputs.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta or Viewer external-count semantics unless source/build state changes. If fresh owner-generated Viewer state has appeared, compare Viewer catalog source counts/paths against current development/live manifests and external registry; otherwise choose another nonduplicative retrieval/index/generated-metadata invariant with measurable repository evidence. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta or Viewer external-count semantics unless source/build state changes. If the SAT_CONVOS_15 duplicate collision has been dispositioned or manifests regenerated, verify that the development manifest has zero collision-induced global blocking and that Viewer/catalog input state follows the regenerated manifest. If that owner action has not occurred, do not repeatedly re-audit the same pair; choose another nonduplicative retrieval/index/generated-metadata invariant with measurable repository evidence. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
