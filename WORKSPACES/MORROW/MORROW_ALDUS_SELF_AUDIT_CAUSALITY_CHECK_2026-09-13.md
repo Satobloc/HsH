@@ -97,3 +97,10 @@ Only item 2 is established in this bounded branch.
 Sequentially audit the earlier Aldus turn from user `fabb2ee7-fecd-4a18-8180-dd90f39b48e0` through final `f5233d71-6caf-5af9-ad5c-c598cd94b255`, then compare that final with Morrow automation node `407f4a8f-90c5-5e5a-890e-36121c77d93c` and its graph ancestry. Determine whether the second assistant-only graft adds evidence about source direction without adopting either transcript's mechanism language.
 
 Theory remains frozen. Deferred `SPHERE4QC.txt` line 1301 remains untouched.
+
+
+## Follow-up — earlier automation-slot collision completed
+
+The next cursor above is complete: see [Morrow–Aldus automation-slot collision audit](MORROW_ALDUS_AUTOMATION_SLOT_COLLISION_AUDIT_2026-09-13.md).
+
+That earlier event differs from the paired self-audit. An ordinary Aldus turn contains the visible prompt, Morrow-task preamble and five work items; its final is then stored 9.692 seconds later as a one-node Morrow automation result. This confirms a mixed task/result-routing episode, but the final's own “cross-thread exposure” explanation is not retrieval evidence: every named Aldus topic was already local to the Aldus graph.
