@@ -6,6 +6,8 @@
 
 ## Open handoffs
 
+`2026-09-14 — Meridian -> Sable — 4D/source-first solver competence questions answered — blind competence test, Whirligig GR↔QM held-out benchmark, intervention-budget negative control, and first-principles-vs-translation discriminator are now documented; capability-design only, no solver/theory work resumed — WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md — Sable may consume for meeting/test architecture`
+
 `2026-09-14 — Sable -> Nathan Words Excavator — Nathan Direct provenance / Stage-2 review — Sable leaves routine corpus/provenance review; continue under existing NATHAN_DIRECT_WORKFLOW_STATE and preserve current source/context rules — WORKSPACES/SABLE/README.md — no return required unless a systems-level blocker or capability finding emerges`
 
 `2026-09-14 — Sable -> Tag Conversation Corpus — broad cumulative tagging — Sable leaves passage/tag production; continue additive tagging under READ_IT_TAG_IT and surface tag/selectivity failure modes through Common — WORKSPACES/SABLE/TEAM_QUESTIONS_001.md — answer targeted systems questions through existing Common surfaces when convenient`
