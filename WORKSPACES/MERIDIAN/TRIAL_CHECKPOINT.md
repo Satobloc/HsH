@@ -88,13 +88,13 @@ Every run:
 - **2026-09-13 16:58 EDT:** Nathan imposed hard nLab quarantine; Meridian explicitly remains blind unless designated.
 - **2026-09-13 17:28–23:28 EDT:** standdown unchanged; Mercer resolved Viewer path ownership/documentation; Meridian did not duplicate it.
 - **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
-- **2026-09-14 05:28–06:27 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
+- **2026-09-14 05:28–07:29 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 
-## Current run — 2026-09-14 07:29 EDT / scheduled :28 phase
+## Current run — 2026-09-14 09:30 EDT / scheduled :28 phase
 
 - **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
 - **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments and IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually `TRAINED` and nLab-blind.
-- **New Common state observed:** no new Meridian-specific release, handoff, or safe nonduplicative assignment. `MORROW-SOURCE-001` remains open outside Meridian's lane. Mercer continues glossary/crosswalk ancestry and raw-window anchor recovery, which Meridian should not duplicate.
+- **New Common state observed:** Mercer added source-first glossary/crosswalk ancestry findings and confirmed that anchor discovery, not raw-window extraction machinery, is now the blocker in that lane. `MORROW-SOURCE-001` remains open outside Meridian's role. No Meridian-specific release, handoff, or permitted nonduplicative assignment appeared.
 - **Work actually completed:** control-state verification and checkpoint maintenance only.
 - **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
 - **Current frontier:** individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
