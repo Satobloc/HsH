@@ -24,7 +24,7 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 27
+## Current frontier — after Run 28
 
 ### A. Historical glossary / standard-crosswalk provenance
 
@@ -80,11 +80,11 @@ Retrieval-selectivity rules retained:
 
 ### B. Viewer/catalog path and generated state
 
-**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; durable QA restart guidance reconciled to terminal state; owning build-output documentation now matches current curation-capable implementation.
+**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; durable QA restart guidance reconciled to terminal state; owning build-output and external-source documentation now match current implementation.
 
 Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`.
 
-Current Viewer catalog path is `CONVERSATION_VIEWER/data/conversations.json`; its last observed `source_state_at_utc` is `2026-09-13T12:30:33.868040+00:00`, with 374 conversations (365 development / 9 live). Development input still points to manifest generated `2026-09-13T12:30:33.434526+00:00`.
+Current Viewer catalog path is `CONVERSATION_VIEWER/data/conversations.json`; its last observed `source_state_at_utc` remains `2026-09-13T12:30:33.868040+00:00`, with 374 conversations (365 development / 9 live). Development input still points to manifest generated `2026-09-13T12:30:33.434526+00:00`.
 
 Canonical `Maintain H(s)H navigation` run `34814002515` is cancelled and must not be polled again. Revisit only when a newer successful canonical run or landed manifest regeneration appears. Until then stale generated state remains an owner-execution/generation-lag dependency, not a demonstrated generator defect.
 
@@ -93,6 +93,8 @@ Run 23 searched the indexed repository for both `CONVERSATION_VIEWER/catalog/con
 Run 24 inspected the durable Viewer QA record and found stale restart wording that still told a future run to keep checking the same owner dependency. `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` now explicitly records run `34814002515` as terminal cancelled, forbids repeat polling, and gates reopening on genuinely new owner evidence. Commit: `9c0b70715878b3adeadf8deef0afbfae9aed283b`.
 
 Run 26 checked the owning Viewer README against `tools/build_conversation_viewer.py` and current curation state. The README's claim that the build “generates only” `CONVERSATION_VIEWER/data/conversations.json` was too strong: partial curation can also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`, while whole-conversation hiding alters only the derived catalog. `CONVERSATION_VIEWER/CURATION.json` currently has an empty rules list, so the mismatch was latent rather than an active data defect. The README now documents the implementation accurately and preserves the raw-source boundary. Commit: `57f85c1f71ca3407a80dd665a72f279a0e56e1f7`. Full run record: `WORKSPACES/MERCER/RUN_026_2026-09-14.md`.
+
+Run 28 verified that the catalog also consumes `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json`. Current count arithmetic is 364 accepted development-manifest conversations + 9 accepted live-manifest conversations + 1 registered external record declaring `corpus: development` = 365 development / 9 live / 374 total. Top-level development/live counts therefore reflect each resulting conversation's declared corpus and are not necessarily identical to manifest acceptance counts; input metadata separately labels the external source `registered-external`. `CONVERSATION_VIEWER/README.md` now documents this source/count semantics and canonical external-source behavior. Commit: `0db8a9067a5bda081eec5f60032d4bd5adc35bb4`. Full run record: `WORKSPACES/MERCER/RUN_028_2026-09-14.md`.
 
 ### C. Mercer documentation/navigation reconciliation
 
@@ -157,7 +159,8 @@ Post-deletion historical summaries retain the same 387 / 69,927 / 21,451 corpus 
 - Run 25: live-source provenance-log durable referent reconciliation; quoted Nathan text unchanged; raw-ID backfill remains pending.
 - Run 26: Viewer build-output documentation reconciliation; README corrected to reflect derived partial-curation outputs supported by the implementation, with current curation state verified empty.
 - Run 27: autotag/Nathan-Direct corpus-count reconciliation; historical 388→387 conversation reduction traced to the held/deleted legal raw source; current autotag → package → Stage-2 counts verified internally coherent.
+- Run 28: Viewer registered-external source/count semantics reconciliation; README now documents external registry inputs and explains why top-level corpus counts can exceed manifest acceptance counts.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta unless source state changes. Continue a different bounded implementation/generated-metadata/documentation invariant with measurable repository evidence. If fresh owner-generated Viewer state has appeared, compare Viewer catalog source counts/paths against current development/live manifests; otherwise choose another nonduplicative retrieval/index invariant. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Do not recheck the reconciled autotag corpus-count delta or Viewer external-count semantics unless source/build state changes. If fresh owner-generated Viewer state has appeared, compare Viewer catalog source counts/paths against current development/live manifests and external registry; otherwise choose another nonduplicative retrieval/index/generated-metadata invariant with measurable repository evidence. If a committed owner/path for a historical scanner candidate report appears, use it to advance `MORROW-SOURCE-001`; otherwise leave that dependency recorded rather than guessing.
