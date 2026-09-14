@@ -24,17 +24,16 @@ Keep distinct: Nathan-authored direct material; Nathan's present recollection/te
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
 - No current issue genuinely requires Nathan attention.
 
-## Current frontier — after Run 22
+## Current frontier — after Run 23
 
 ### A. Historical glossary / standard-crosswalk provenance
 
-**Status:** source inventory + repository-custody layer complete; raw-message/content ancestry unresolved. Viewer catalog candidate triage and intrinsic glossary fingerprinting have both reached bounded stopping points without a defensible direct ancestry anchor.
+**Status:** source inventory + repository-custody layer complete; raw-message/content ancestry unresolved. Viewer catalog candidate triage and intrinsic glossary fingerprinting both reached bounded stopping points without a defensible direct ancestry anchor.
 
 Durable sources:
 
 - `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md`
 - `WORKSPACES/MERCER/GLOSSARY_INTRINSIC_PROVENANCE_FINGERPRINT_2026-09-14.md`
-- latest run record: `WORKSPACES/MERCER/RUN_022_2026-09-14.md`
 
 Verified source classes remain:
 
@@ -57,7 +56,7 @@ Run 17 verified bounded raw-message recovery infrastructure:
 - `WORKSPACES/COMMON/extraction_requests/*.json`
 - outputs under `WORKSPACES/COMMON/extraction_outputs/`
 
-Viewer catalog candidate-selection bridge is **`CONVERSATION_VIEWER/data/conversations.json`**. Earlier Mercer references to `CONVERSATION_VIEWER/catalog/conversations.json` are stale and should not be reused. The catalog maps titles/dates to explicit raw paths, time ranges and message counts. Catalog proximity is retrieval metadata only, not authorship evidence.
+Viewer catalog candidate-selection bridge is **`CONVERSATION_VIEWER/data/conversations.json`**. Earlier Mercer references to `CONVERSATION_VIEWER/catalog/conversations.json` are stale and should not be reused. Catalog proximity is retrieval metadata only, not authorship evidence.
 
 Bounded candidate results through Run 21:
 
@@ -68,58 +67,50 @@ Bounded candidate results through Run 21:
 - `Assignment queue creation`, Viewer ID `6ecbc7ec20e7`, raw conversation ID `68c0c03c-ffc4-8331-8b66-49d0993c5830` — generic `Glossary` assignment-template false positives only.
 - `SATNet and Neural Networks`, Viewer ID `3c14bc5a00c7`, raw conversation ID `6a1df069-b5e0-83ea-943d-e0db20433533`, 2026-06-01 start — no glossary signal.
 
-### Run-22 intrinsic fingerprint result
+Run 22 intrinsic fingerprint of `GLOSSARY (LIVE).txt` found a prepared standalone LaTeX fragment with no author/date/source IDs/citations/speaker labels/UI residue or other discriminating origin metadata. Neighboring files and the June-1 upload cohort are heterogeneous. Close speculative ancestry expansion unless a stronger anchor appears: exact artifact paste, explicit generation instruction, matching distinctive body text in raw conversation, original file metadata, or another independently attributable source relation.
 
-Target: `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/Early SAT/GLOSSARY (LIVE).txt`, blob `aaf4a51228865fe9d05066a20e6daf2d18f8deb8`, 1,896 bytes.
+Retrieval-selectivity rules retained:
 
-Verified form:
+1. for artifact ancestry ranking, prefer exact/near `start_local` date match;
+2. then archive/document/glossary/definition title signal;
+3. then small bounded message count;
+4. only then end-date proximity;
+5. GitHub code-search misses are retrieval negatives only;
+6. do not infer repository emptiness from one empty connector response when another direct repository route returns populated content.
 
-- prepared standalone LaTeX fragment;
-- leading blank line / CRLF line endings;
-- `\section{LIVE GLOSSARY -- ACTIVE}` + `\section*{Glossary of Terms and Symbols}`;
-- one structured `description` environment with math-rich entries;
-- no preamble, author/date, source IDs, citations, speaker labels, UI residue, assistant salutation, or other embedded origin metadata.
+### B. Viewer/catalog path and generated state
 
-Neighboring `2026/Early SAT/` files and the June-1 upload cohort are heterogeneous. Directory adjacency and upload-cohort membership therefore do not identify a common author/tool/source workflow. GitHub code-search misses for the exact heading and a distinctive body anchor are retrieval negatives only.
+**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled; current indexed stale-path prose cleanup effectively reconciled.
 
-**Consequence:** intrinsic formatting did not yield a discriminating creation-era/tool-origin/raw-conversation anchor. Close this branch for now. Do not widen speculative candidate scanning from formatting, directory adjacency, `LIVE`/`ACTIVE` labels, bulk-upload membership, or code-search misses.
+Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`.
 
-A future ancestry claim should require a stronger link: exact artifact paste, explicit glossary-generation instruction, matching distinctive body text in raw conversation, original file metadata, or another independently attributable source relation.
-
-### Run-21 retrieval-selectivity rule retained
-
-For artifact ancestry candidate ranking, prefer:
-
-1. exact/near `start_local` date match;
-2. archive/document/glossary/definition title signal;
-3. small bounded message count;
-4. only then end-date proximity.
-
-End-date-only matches are weak secondary clues unless another independent artifact/content anchor exists.
-
-A connector-specific discrepancy was also verified in Run 21: one `fetch_file` route reported a raw file as empty while the GitHub Contents API returned populated JSON. Do not infer repository emptiness from a lone empty retrieval surface when another direct GitHub route contradicts it.
-
-### B. Viewer/catalog path drift
-
-**Status:** Viewer publication repair green; canonical navigation workflow reconciled; tracked owner run terminal/cancelled.
-
-Established repair chain remains in `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md`. Current Viewer catalog path is `CONVERSATION_VIEWER/data/conversations.json`; its observed `source_state_at_utc` remains `2026-09-13T12:30:33.868040+00:00`, with 374 conversations (365 development / 9 live). Development input still points to manifest generated `2026-09-13T12:30:33.434526+00:00`.
+Current Viewer catalog path is `CONVERSATION_VIEWER/data/conversations.json`; its last observed `source_state_at_utc` is `2026-09-13T12:30:33.868040+00:00`, with 374 conversations (365 development / 9 live). Development input still points to manifest generated `2026-09-13T12:30:33.434526+00:00`.
 
 Canonical `Maintain H(s)H navigation` run `34814002515` is cancelled and must not be polled again. Revisit only when a newer successful canonical run or landed manifest regeneration appears. Until then stale generated state remains an owner-execution/generation-lag dependency, not a demonstrated generator defect.
 
-A documentation cleanup remains useful: stale prose references to `CONVERSATION_VIEWER/catalog/conversations.json` should be reconciled to `CONVERSATION_VIEWER/data/conversations.json` when safely editable without overwriting concurrent work.
+Run 23 searched the indexed repository for both `CONVERSATION_VIEWER/catalog/conversations.json` and `catalog/conversations`; neither returned a match. Because search coverage can lag, this is not absence evidence, but there is no basis for speculative bulk editing. Mercer front-door documents now explicitly route to `CONVERSATION_VIEWER/data/conversations.json` and warn against the superseded route.
 
-### C. Durable documentation convention
+### C. Mercer documentation/navigation reconciliation
+
+Run 23 brought the two Mercer front-door documents into alignment with the current trial:
+
+- `WORKSPACES/MERCER/README.md` now states the active role, startup surfaces, role separation, standdown/provenance boundaries, durable Mercer records, and verified Viewer catalog path.
+- `WORKSPACES/MERCER/CONTINUITY.md` now defers to this checkpoint, removes obsolete autotag/SATity-audit restart instructions, and preserves current retrieval/provenance rules and blockers.
+- `WORKSPACES/MERCER/RUN_023_2026-09-14.md` records exact coverage and edits.
+
+No Common handoff was posted because this was local Mercer navigation cleanup and introduced no new cross-lane dependency.
+
+### D. Durable documentation convention
 
 Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`, linked/routed through Common.
 
-### D. `MORROW-SOURCE-001`
+### E. `MORROW-SOURCE-001`
 
 **Code-side resolved / output-side pending.** Superset comparator/payload policy/regression case/tests are fixed. No committed historical candidate-report path has been identified; any pre-patch external/manual report remains stale until its owning path is found. Preserve the earlier Janus export.
 
 ## Other queued Mercer work
 
-- bounded stale Viewer-path documentation reconciliation;
+- bounded internal navigation QA of Mercer-owned durable records;
 - layered-autotag selectivity validation after standdown release;
 - source-grounded methodology reconstruction from verified Nathan-authored material;
 - raw UUID/timestamp backfill for live Nathan testimony when exports land;
@@ -129,7 +120,7 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 
 - `DEPENDENCY / AMBIGUOUS_PROVENANCE`: direct raw-message ancestry for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` remains unidentified; current search/fingerprint routes are exhausted pending a stronger source anchor.
 - `DEPENDENCY`: repository first-seen dates are bulk-upload custody dates and may substantially postdate artifact creation.
-- `DEPENDENCY`: canonical navigation run `34814002515` finished cancelled; a newer successful owner regeneration is still needed to close generated-state cleanup.
+- `DEPENDENCY`: canonical navigation run `34814002515` finished cancelled; a newer successful owner regeneration is still needed to close generated-state freshness.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: live Nathan conversation UUIDs/timestamps await appropriate export/provenance surfaces for backfill.
 - No current issue genuinely requires Nathan attention.
@@ -142,8 +133,9 @@ Established in Run 13: `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTI
 - Run 13: established repo-wide durable documentation convention and Common routing.
 - Runs 14–17: source-first glossary/crosswalk inventory, custody provenance, indexed phrase testing, and bounded raw-extraction route verification.
 - Runs 18–21: Viewer-catalog candidate selection, bounded candidate eliminations, path correction, generic-glossary false-positive classification, and date-selection/retrieval-surface QA.
-- Run 22: intrinsic fingerprint of `GLOSSARY (LIVE).txt`; determined artifact form, directory adjacency, upload cohort, and indexed-search misses do not yield a defensible author/tool/source anchor; closed speculative ancestry expansion. See `RUN_022_2026-09-14.md`.
+- Run 22: intrinsic fingerprint of `GLOSSARY (LIVE).txt`; no defensible author/tool/source anchor found; speculative ancestry expansion closed.
+- Run 23: stale Viewer-route indexed search plus Mercer README/continuity reconciliation; current catalog path and checkpoint-first restart behavior made explicit.
 
 ## Best next operation
 
-Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Perform a bounded documentation/navigation reconciliation pass for stale references to the superseded Viewer catalog path `CONVERSATION_VIEWER/catalog/conversations.json`, replacing them with the verified current path `CONVERSATION_VIEWER/data/conversations.json` only where the owning documents can be safely edited without trampling concurrent work. If already reconciled by another worker, choose the next highest-value permitted retrieval/index QA task.
+Next run: reread Control/Common. Do not poll terminal navigation run `34814002515`. Do not resume broad glossary ancestry scanning without a new source anchor. Inspect Mercer-owned durable QA records for internal navigation drift, stale restart instructions, or concrete source-path references that can be reconciled mechanically. If none are found, branch to the next highest-value bounded retrieval/index integrity check allowed by Control rather than reopening exhausted ancestry or standdown-gated autotag interpretation.
