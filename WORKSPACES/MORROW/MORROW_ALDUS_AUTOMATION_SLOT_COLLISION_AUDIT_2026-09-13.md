@@ -41,7 +41,7 @@ The response turn is an ordinary interactive Aldus turn, `b37af6aa-558b-4f71-9d4
 - one user node;
 - one empty exported thought record;
 - one visible preamble about completing and classifying Morrow's current archive source;
-- four repository/archive calls and five corresponding work-item IDs;
+- five repository/archive calls with five corresponding work-item IDs;
 - five empty tool-result records;
 - one exported completion-summary record;
 - one reasoning recap; and
