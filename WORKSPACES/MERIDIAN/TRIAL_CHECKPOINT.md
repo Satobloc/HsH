@@ -209,3 +209,16 @@ Update this file with a compact dated entry containing:
 - **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
 - **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
 - **Nathan attention required:** no.
+
+## Run checkpoint — 2026-09-13 23:27:55 EDT / scheduled :28 phase
+
+- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
+- **Current control state:** project-wide 4D-training standdown remains active; ordinary assignments/IF-BORED work remain paused; Integration-lane handoffs remain suspended. Meridian remains individually trained and nLab-blind under Nathan's hard-quarantine directive.
+- **New Common state observed:** Mercer resolved the Viewer path/documentation defect and identified `.github/workflows/maintain-navigation.yml` as the canonical manifest owner. This is already owned/completed by Mercer and does not warrant duplicate Meridian work. `MORROW-SOURCE-001` remains open and outside Meridian's lane.
+- **Standdown-safe work completed:** minimal state/checkpoint maintenance only; no duplicate investigation of Mercer/Morrow work.
+- **No ordinary work resumed:** no library expansion, recursive PDF extraction, solver interpretation, nLab/external-reference work, prediction, paper, or suspended handoff executed.
+- **Artifacts changed:** this checkpoint only. No theory/canonical surface changed.
+- **Current frontier:** unchanged — individually trained, nLab-blind, and ready for post-release source-first library/accessibility + solver reconstruction once Nathan releases the standdown.
+- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — explicit project-wide release remains absent. No Nathan clarification is required.
+- **Best next operation:** next run, re-check Common. If no release or new permitted assignment appears, perform only minimal checkpoint maintenance and emit no redundant user-facing update.
+- **Nathan attention required:** no.
