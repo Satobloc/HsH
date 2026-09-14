@@ -90,7 +90,22 @@ Therefore the residual record has a straightforward timing explanation: the curr
 
 At inspection time, a newer serialized `Maintain H(s)H navigation` run (`34793981748`) was pending on current `main`. Because that workflow is the canonical owner and will rebuild the manifest from currently present files, Mercer did not manually alter the generated manifest. Follow-up should verify the successor maintained state after that owner run lands; if the dead record survives a fresh successful regeneration, that would become a generator/workflow defect rather than ordinary staleness.
 
+## Canonical-workflow reconciliation — Run 11
+
+Run `34793981748` did not become the required successful owner regeneration: GitHub records it as `completed/cancelled`, with no jobs returned by the run-jobs endpoint. The committed development manifest therefore remains the older `2026-09-13T12:30:33.434526+00:00` generation and still contains the deleted `Court Filing Guidance` record.
+
+While tracing that owner path, a second Viewer consistency defect was found: `.github/workflows/maintain-navigation.yml` was still invoking `python tools/build_conversation_viewer.py`, bypassing the existence-aware resolver already made canonical in the dedicated Viewer workflow. A successful navigation run could therefore regenerate a Viewer catalog using the old dry-run-path semantics and undo the earlier LIVE-path repair before publication.
+
+Commit `44548450fa4af2905f711e81ce07139b393983d6` reconciles the two workflow paths:
+
+- canonical navigation maintenance now invokes `tools/build_conversation_viewer_resolved.py`;
+- its generated-navigation validation now asserts that every non-external Viewer source path exists in the checkout, matching the dedicated Viewer workflow's critical integrity gate.
+
+This closes the workflow-divergence defect but does not yet establish a fresh successful owner regeneration. At immediate post-commit inspection no check run/status had attached to the commit yet. The stale manifest should therefore remain classified as generation lag pending one successful `Maintain H(s)H navigation` completion after the privacy deletion.
+
 ## Remaining follow-up
 
 - Verify the next successful canonical navigation regeneration removes the deleted-source record from `indexes/manifests/development-conversation-dates.json`; do not hand-edit the generated manifest unless its owner path demonstrably fails.
+- Verify that the canonical navigation run passes the new Viewer source-path existence assertion.
+- If the deleted-source record survives a fresh successful regeneration, diagnose the generator/workflow as defective rather than ordinary staleness.
 - If desired later, fold the existence-aware selection directly into `tools/build_conversation_viewer.py`; the wrapper is a narrow compatibility repair.
