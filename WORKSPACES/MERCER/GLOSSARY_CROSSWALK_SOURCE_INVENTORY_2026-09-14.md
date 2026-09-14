@@ -147,6 +147,33 @@ The ancestry problem is now narrower and better specified. The missing prerequis
 
 Safe next ancestry operation: locate an existing raw-export index, title/date correlation, or independently sourced candidate conversation path for the glossary/standard-map material; then use the bounded extractor to recover exact attributable messages. Until an anchor exists, keep authorship unresolved.
 
+## Viewer-catalog anchor selection — Run 18
+
+`CONVERSATION_VIEWER/catalog/conversations.json` supplies the previously missing path/date selection layer. Per conversation it records a compact ID, title, exact raw repository path, corpus, start/end times, message count, and raw/GitHub URLs. That makes it possible to correlate a historical artifact's repository first-seen date with a small set of plausible raw conversations before invoking the bounded extractor.
+
+**Important boundary:** Viewer title/date/path proximity is a retrieval aid only. It does not establish that a conversation created the artifact, that Nathan authored artifact text, or that the artifact was current at that date.
+
+The inspected catalog reports `source_state_at_utc = 2026-09-13T12:30:33.868040+00:00`. Its generated state is not fresh enough to resolve the separate navigation-regeneration dependency, but its existing raw paths are usable for candidate selection.
+
+### Bounded candidate triage: `SATv  TO STANDARD MAP.txt`
+
+The map's repository first-seen date is 2025-10-29. Two small/high-signal same-day candidates were inspected directly:
+
+1. **`SAT theory overview`** — catalog ID `fa2cc1b6a832`; `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.29•25.10.29•SAT theory overview — raw.json`; 10 messages. No `SATv` reference and no indication that the historical crosswalk document itself was being created/discussed. **Eliminated as a direct ancestry anchor.**
+2. **`Vetting document review`** — `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.10.29•25.10.29•Vetting document review — raw.json`; conversation ID `69023bdb-63f0-832b-8821-56362ed2493c`; 16 messages. The conversation begins with Nathan asking to vet attached `SPACE-S-25-00569.pdf`; retrieved content is the Space: Science & Technology submission/manuscript package. No `SATv` or `standard map` match surfaced. **Eliminated for this ancestry purpose.**
+
+These are bounded negative results only; they do not imply that the map lacks conversation ancestry elsewhere.
+
+### Bounded candidate triage: `GLOSSARY (LIVE).txt`
+
+The glossary's repository first-seen date is 2026-06-01. The smallest/high-signal same-day archival candidate inspected was:
+
+- **`SAT Theory Archive Review`** — `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw.json`; conversation ID `6a1df035-25d4-83ea-943d-e0db20433533`; 7 catalog messages. Nathan points the assistant to the public SAT archive and the raw record carries many archive/support attachments, making this useful archival-context evidence. A direct `glossary` search returned no match. **Not established as direct glossary ancestry.**
+
+### Run-18 consequence
+
+The ancestry blocker is now narrower again: path discovery machinery exists and a defensible candidate-selection method exists. What remains is **content-level anchor discovery**. Continue with small/title-plausible catalog candidates rather than corpus-wide phrase scans or speculative raw-window requests. If a candidate directly names/pastes the target artifact, then use the bounded extractor to preserve exact Nathan message IDs/timestamps and relation to the artifact.
+
 ## Retrieval finding
 
 The archive already contains at least three distinct kinds of “definition” resource that a naive glossary merger would conflate:
@@ -184,7 +211,7 @@ Do **not** create a theory-bearing canonical glossary from this inventory during
 ## Dependencies / blockers
 
 - Raw conversation/message provenance for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt` is not yet identified.
-- A repository-native bounded raw extractor exists, but the historical candidates still lack defensible `source_path` / time anchors for using it.
+- Repository-native bounded raw extraction and Viewer-catalog candidate-path selection now exist; the remaining blocker is a direct content-level anchor linking one raw conversation to either artifact.
 - Current H(s)H terminology authority cannot be inferred from these historical files while the theory-bearing standdown remains active.
 - GitHub connector recursive-tree output is response-truncated; current-HsH negative filename search is therefore a discoverability finding, not exhaustive absence.
 - Repository path history establishes first-seen custody dates but cannot by itself recover line-level/content authorship from bulk-upload commits.
@@ -193,8 +220,9 @@ Do **not** create a theory-bearing canonical glossary from this inventory during
 
 Continue source-first ancestry recovery for the two high-value historical candidates:
 
-1. locate an existing raw-export index, title/date correlation, or attributable candidate conversation path without repeating the exhausted GitHub phrase-search route;
-2. once a defensible raw source/time anchor exists, submit a bounded extraction request and recover exact Nathan prompts/messages, IDs, and dates;
-3. record framework phase and any explicit supersession/clarification without reconciling theory content;
-4. keep repository custody separate from content authorship;
-5. hand verified source metadata to the definitions/tagging lane rather than independently constructing the glossary.
+1. use Viewer catalog title/date/message-count metadata to choose the smallest, strongest candidate conversations without repeating the exhausted GitHub phrase-search route;
+2. for the standard map, next candidate is `SATO-BLOC FULL LEANCHECK` (same day, document-checking signal), but inspect only targeted ancestry anchors because it is larger;
+3. for the glossary, choose another small June-1 archival/document-management candidate before invoking extraction;
+4. once a direct artifact mention/paste or other defensible content anchor exists, submit a bounded extraction request and recover exact Nathan prompts/messages, IDs, and dates;
+5. keep repository custody, catalog proximity, and content authorship as separate provenance fields;
+6. hand verified source metadata to the definitions/tagging lane rather than independently constructing the glossary.
