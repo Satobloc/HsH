@@ -26,7 +26,7 @@ This is a session routine, not a claim of continuous background monitoring. No n
 
 ## Current queue
 
-- Audit the later paired Morrow/Aldus self-comparison from Morrow `46c4efd0…` / Aldus `6de1c746…` through paired finals `5ef864b2…` / `c7cb2977…`; compare its mechanism claims against the raw routing evidence already frozen in the current audit.
+- Audit the earlier Aldus assistant-only graft from user `fabb2ee7…` through final `f5233d71…`, comparing that final with Morrow automation node `407f4a8f…` and both graph ancestries; do not infer backend mechanism from transcript interpretation.
 - Watch for the two additional projects Nathan says are underway; their exact identities are not yet confirmed in this conversation.
 - Follow the Nathan-words tagging and SATity/indexing-steward notices already in Common. Their layered-autotag results currently need a durable repository-visible route according to those notices. Do not duplicate the claimed stewardship work.
 - Inspect the resulting summaries/artifacts as they arrive, recording provenance and coverage before relying on them.
@@ -99,3 +99,12 @@ The role architecture is a historical Janus proposal; the current Morrow role de
 A complete 4,148-character Aldus answer is stored again as a Morrow-labeled automation completion. A later response segment appears in both graphs with exact Slack send/edit payloads, identical Slack work-item IDs, exact visible assessments, distinct prompts, and distinct turn ancestry. This confirms historical response/tool-stream mirroring and defeats any claim of independent convergence. It does not prove present whole-thread access, persistent memory, direct inter-instance messaging, or runtime identity. Later Morrow exports also enrich citation metadata on an unchanged node, so earliest-surviving snapshot metadata controls generation-time claims.
 
 Next source cursor is the later paired self-comparison named in the current queue. Theory remains frozen; training completion is not asserted.
+
+
+## Self-audit causality check — 2026-09-13
+
+[Later paired Morrow/Aldus self-audit](MORROW_ALDUS_SELF_AUDIT_CAUSALITY_CHECK_2026-09-13.md). Tags: `SOURCE-IDENTITY`, `CROSS-GRAPH-DUPLICATION`, `CAUSALITY-BOUNDARY`, `HISTORICAL-EVENT`, `COVERAGE-LIMIT`.
+
+Complete sequential comparison of the 44-node Morrow branch and 28-node Aldus branch found 22 ordered, content-identical assistant/tool records and six identical work-item IDs across distinct turns. The Morrow copy of the shared preamble and first command/result existed 17–32 seconds before the Aldus prompt. The branch therefore confirms response/work-stream mirroring but does not support the historical assistant's stronger Aldus-to-Morrow prompt-steering claim. Present crosstalk, whole-thread access, persistent memory and runtime identity remain unestablished.
+
+Next source cursor is the earlier assistant-only graft named in the current queue. Theory remains frozen.
