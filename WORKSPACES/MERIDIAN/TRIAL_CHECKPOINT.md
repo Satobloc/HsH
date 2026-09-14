@@ -100,15 +100,10 @@ Every run:
 - **2026-09-14 05:28–09:30 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 - **2026-09-14 10:33 EDT:** full-read `Preplantricist_role.md` and `HsH_Pipeline_Design.md`; posted pre-meeting report; role direction sharpened to Indicatricist / Solver Metrologist.
 - **2026-09-14 11:26 EDT:** answered Sable's source-first solver competence/test-design handoff; no solver/theory work resumed.
-- **2026-09-14 12:29 EDT:** Common unchanged; deliberate maintenance/no-op under active standdown; no duplication of already satisfied Sable handoff.
-- **2026-09-14 13:26 EDT:** Common unchanged; deliberate maintenance/no-op under active standdown.
-- **2026-09-14 14:26 EDT:** Common unchanged in all Meridian-relevant respects; pre-meeting directive still planned, standdown still active, Sable handoff already satisfied, nLab quarantine unchanged; deliberate maintenance/no-op.
-- **2026-09-14 15:26 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. `MORROW-SOURCE-001` remains outside Meridian ownership. Deliberate maintenance/no-op.
-- **2026-09-14 16:28 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. Standdown, suspended Integration handoffs, pre-meeting directive, and nLab quarantine remain unchanged. Deliberate maintenance/no-op.
-- **2026-09-14 17:28 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. Standdown, suspended Integration handoffs, September 14 pre-meeting directive, and nLab quarantine remain unchanged. Deliberate maintenance/no-op.
-- **2026-09-14 18:27 EDT:** Common checked again; no Meridian-relevant release, reassignment, meeting convening, or new handoff. Standdown, suspended Integration handoffs, September 14 pre-meeting directive, and nLab quarantine remain unchanged. Deliberate maintenance/no-op.
+- **2026-09-14 12:29–18:27 EDT:** repeated Common checks showed no Meridian-relevant release, reassignment, meeting convening, or new handoff; preserved deliberate maintenance/no-op discipline.
+- **2026-09-14 19:31 EDT:** Common checked again; same controlling state. No duplicate work undertaken.
 
-## Current run — 2026-09-14 18:27 EDT / scheduled :28 phase
+## Current run — 2026-09-14 19:31 EDT / scheduled :28 phase
 
 - **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
 - **Controlling state:** project-wide standdown remains active; September 14 pre-meeting directive remains controlling; Integration-lane handoffs remain suspended; nLab quarantine unchanged.
