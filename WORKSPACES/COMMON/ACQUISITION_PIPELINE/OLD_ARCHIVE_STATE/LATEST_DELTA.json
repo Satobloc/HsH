@@ -1,48 +1,104 @@
 {
-  "source_commit": "113219e1f63933038e00ce0f4beda672b49b4a5a",
-  "observed_utc": "2026-09-14T16:23:52.442998+00:00",
+  "source_commit": "d53b5fe72699deacf0b9e91c9c5f214136d90a24",
+  "observed_utc": "2026-09-15T15:03:18.359279+00:00",
   "changes": [
     {
       "change": "CHANGED",
+      "path": "..[🎛️_NATHAN_DASH]/!_DASHBOARD.md",
+      "old_blob_sha": "4783eeb2000d104883c57a7eb25ccedc45800d41",
+      "new_blob_sha": "aed95d506e6d1be8be965c77903e4c2ff6833b3d",
+      "bytes": 13108
+    },
+    {
+      "change": "CHANGED",
       "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "9c7030549f20b56b7c875b10b2e5eeefd956ae74",
-      "new_blob_sha": "36672d93b8527e9ac69de6781f4ab24aaad1a671",
-      "bytes": 761697
+      "old_blob_sha": "36672d93b8527e9ac69de6781f4ab24aaad1a671",
+      "new_blob_sha": "21bb59eea0488908c4543c0c5633e661e153a1a9",
+      "bytes": 955164
+    },
+    {
+      "change": "CHANGED",
+      "path": "..[🎛️_NATHAN_DASH]/🚩_IGNORE_REDACTION_FLAGS.md",
+      "old_blob_sha": "cea335d3465922df336c5789d8fa15c83bf748d4",
+      "new_blob_sha": "844302cae7b04ad1c2c3d008307be8dfab70186c",
+      "bytes": 3755
     },
     {
       "change": "CHANGED",
       "path": "..findex.txt",
-      "old_blob_sha": "420e489e9827727b0a55b6f8310c21f714b6780a",
-      "new_blob_sha": "29ade3220e30a5127821e656c77633e4280eae19",
-      "bytes": 193485
+      "old_blob_sha": "29ade3220e30a5127821e656c77633e4280eae19",
+      "new_blob_sha": "1a2a0b12a39efc9b524fb8bee239e2583a6be3a4",
+      "bytes": 193522
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260913_233150.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260914_181009.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "0d0faf170415df79d4eb85a1144ac26de012b380",
+      "new_blob_sha": "4203dd0e76f2bba153bdf1719c1f7a4cea2c5a02",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20260914_155557.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260915_014857.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "9a067a4ddddb1aea78f5ec34599d408c7833800a",
+      "new_blob_sha": "ca701f45c2340604a06a1d54edbf53dd639e7bc8",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260915_063430.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "746a5d675d4588a2ad60535e42bbe938ea07587f",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260915_111219.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "9fcceaee9aea3181e838a0bdf6bd781eb6eca2ce",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260915_112050.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "282f5eea24d166102d77ce0c145f555a36705680",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20260915_111225.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "4659c6ea866f04ae18d4dde5f4bcf6cef64472d4",
       "bytes": 301
     },
     {
       "change": "CHANGED",
       "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
-      "old_blob_sha": "a07574b79b3fdbc022fdeace23a5c70f1f6ebc68",
-      "new_blob_sha": "2a5aea353ff4b72a4d5a9c110bbc8c9839d3db3b",
+      "old_blob_sha": "2a5aea353ff4b72a4d5a9c110bbc8c9839d3db3b",
+      "new_blob_sha": "d9a9541985a37fc9d091fd2a160759b90fd6b044",
       "bytes": 174
     },
     {
+      "change": "CHANGED",
+      "path": ".github/workflows/archive-admin.yml",
+      "old_blob_sha": "81a25f8916587028920be1773697063508d03e55",
+      "new_blob_sha": "c121ae7c5da3f4d3ee15beaec0702fa95b4930b7",
+      "bytes": 10661
+    },
+    {
+      "change": "CHANGED",
+      "path": ".github/workflows/full-archive-index.yml",
+      "old_blob_sha": "9d8030f4c362e0c6f1dbc0b137314fbb47b1e105",
+      "new_blob_sha": "c1560e59db7486ef0d99441454796b97f87d7686",
+      "bytes": 2502
+    },
+    {
       "change": "ADDED",
-      "path": "PT I.5 - OVERLAP PROMPTEROYALE.txt",
+      "path": "SCRIPT_EXECUTION_SAFETY.md",
       "old_blob_sha": "",
-      "new_blob_sha": "153094364fce377f22eac9e020f6d0573f348b45",
-      "bytes": 38434
+      "new_blob_sha": "3c1ab61b6a502b6768a3ddbf3934362adb76d0ef",
+      "bytes": 1128
     }
   ]
 }
