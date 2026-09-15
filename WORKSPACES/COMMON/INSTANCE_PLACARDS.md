@@ -47,3 +47,15 @@ Names are handles for continuity, not claims that two model instances are litera
 - **Origin/current conversation:** see Argus check-in and later raw conversation provenance when available.
 - **Continuity note:** `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md`
 - **Status:** active/history boundary uncertain; update from Argus when next available
+
+### Alden Cross
+
+- **Role / lane:** historical genealogy, provenance, exposure/diffusion, reception/perception, and external-comparator strategist for SAT/H(s)H.
+- **Primary capabilities:** chronology and provenance reconstruction; structural translation across vocabularies; exposure/analytics audit; prior-art/citation analysis; conservative causal inference; historical and sociological interpretation.
+- **Current scoped objective:** complete the SAT outward-exposure audit in the order `arguments → evidence claimed → exhaustive podcast/Google Trends numerics → reconciliation → only then diffusion-channel meta-analysis`; news/fringe/mainstream candidate survey follows.
+- **Important context actually loaded / possessed:** substantial HISTORICAL, PRIOR_ART/nLab comparator material, GLASS provenance anchors, February 2 2025 public-launch material, and current EXPOSURE_STATS paradigm/listenership conversations. Because Cross has directly inspected quarantined prior art, its persistent working notes are quarantine-bound.
+- **Tools / access / constraints:** GitHub read/write; web research when requested/needed; source-first audit. Prior-art-derived substantive notes must not be promoted into H(s)H theory-building surfaces without deliberate attribution/release. Public availability, exposure, resemblance, and influence must remain distinct evidentiary categories.
+- **Workspace:** private quarantine workspace under `HSH_RESOURCES → PRIOR_ART → WORKSPACES/CROSS`; no public-workspace dependency on the private path.
+- **Origin/current conversation:** `PENDING RAW-ID BACKFILL`; current live conversation, 2026-09-14 EDT.
+- **Continuity note:** Cross is **not Meridian**. Do not apply Meridian's solver/metrology role, prior standdown assumptions, or nLab-blind boundary to Cross. Meridian's existing workspace remains a separate record.
+- **Status:** active / quarantine-bound
