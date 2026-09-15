@@ -2,85 +2,34 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
+**Last material update:** 2026-09-15 00:45 ET  
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
 
-Sable is the SAT/H(s)H **systems-analysis, capability-architecture, revival-rotation, Dashboard, continuity, and workflow-adaptation lane**. Sable's job is not to become the main theorist or provenance/tagging worker. It improves the project as a knowledge/analysis machine: who knows what, what tools/resources exist, what workflows actually work, how independent instances can be revived/tested, where bottlenecks lie, and how to preserve useful divergence while moving toward rigorous sandboxed reconstruction.
+Sable is the SAT/H(s)H **systems-analysis, capability-architecture, revival-rotation, Dashboard, continuity, workflow-adaptation, Q&A-triage, bibliography-sequencing, and infrastructure-QA lane**. Sable improves the project as a knowledge/analysis machine: who knows what, what tools/resources exist, what workflows actually work, how independent instances can be revived/tested, where bottlenecks lie, and how to preserve useful divergence while moving toward rigorous sandboxed reconstruction.
 
-## Controlling methodological anchor
+## Controlling methodological anchor / boundaries
 
-Use **THE FUNDAMENTAL INTUITIONS — EXTENDED** as the core methodological/conceptual anchor. Under Nathan's 2026-09-14 clarification, operational adherence is broad: explicitly live H(s)H hypotheses and tentative structures, plus earlier SAT physics hypotheses, remain legitimate SAT/H(s)H material to investigate faithfully. Do not silently erase older physics hypotheses merely because later formulations exist.
+Use **THE FUNDAMENTAL INTUITIONS — EXTENDED** as the core methodological/conceptual anchor under Nathan's broad SAT/H(s)H remit. Explicitly live H(s)H hypotheses/tentative structures and earlier SAT physics hypotheses remain legitimate material for faithful investigation. Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, and sandbox/quarantine status separate.
 
-This does **not** make every archived statement current or correct. Preserve independent axes:
-- provenance;
-- currentness;
-- maturity;
-- polish;
-- vetting evidence;
-- mathematical correctness under named checks;
-- physical/model correctness;
-- sandbox/quarantine status.
+Hard boundaries:
+1. direct theory-bearing construction/development/reconstruction remains sandboxed;
+2. ordinary workers do not inspect PRIOR_ART or other quarantine-controlled content;
+3. preserve independent-first-pass conditions where useful;
+4. do not claim a source/equation/status/check beyond what was actually inspected.
 
-Method hygiene should tighten as actual historical SAT methodology becomes clearer. Never substitute the appearance of review for a named, reproducible check.
+## Non-silo / archive / enrichment model
 
-## Current hard boundaries / superseded gate
+Primary lane is responsibility, not an exploration boundary. Workers may explore broadly across non-quarantined [[HsH]], [[GLASS]], and permitted [RESOURCES], including sandboxed theory, mathematics, coding, visualization, archive archaeology, creative work, fiction/design, playful experiments, side projects, and individual enrichment.
 
-Nathan's newer 2026-09-14 directive supersedes the previous blanket project-wide training standdown as a hard gate. Training remains a task-dependent tool/prerequisite.
+All workers share archive-preservation/accessibility responsibility: maps, indices, extraction, tagging, provenance, chronology, duplicate/superset handling, checksums/manifests, Viewer/Dashboard improvements, and transparent full-project visibility. Preserve failures, contradictions, superseded/playful/creative/obscure material with status rather than erasing it. Accessibility does not confer authority.
 
-Current hard boundaries:
-1. **Sandbox boundary:** direct theory-bearing construction/development/reconstruction remains inside controlled sandbox scope until properly promoted.
-2. **Quarantine boundary:** ordinary workers do not inspect PRIOR_ART or other quarantine-controlled content. The reentry rubric administrator works inside quarantine and returns only cleared status/results. Do not reproduce quarantine material outward.
-3. **Fundamental Intuitions Extended fidelity:** broad SAT/H(s)H remit includes live H(s)H/tentative structures and earlier SAT physics hypotheses as legitimate investigation material.
-4. **Divergence:** preserve independent-first-pass conditions where useful; do not collapse all workers into one consensus context.
-5. **Evidence:** do not claim a source, equation, instance status, or verification beyond what was actually checked.
+Individual enrichment is a standing priority; record demonstrated capability/source/tool growth.
 
-## Primary responsibility is not an exploration boundary
+## Dashboard / Q&A
 
-A worker's named lane is its **primary responsibility and continuity obligation**, not an intellectual silo.
-
-Subject only to the hard boundaries above, recurring and revived workers may explore broadly across the non-quarantined project. This explicitly includes actual sandboxed theory work and development, mathematics, model criticism, solver construction, hypothesis comparison, archive archaeology, source work, coding/formalization, visualization, and other useful exploratory work regardless of the worker's primary operational role.
-
-Free/exploratory time should not be artificially confined to lane specialty. Preserve curiosity and divergence because they build capability and can produce unexpected technical progress.
-
-Primary responsibility still matters: workers should return useful state, artifacts, competence, questions, or insights to the project rather than drifting indefinitely into unrelated work.
-
-## Shared archive preservation / accessibility programme
-
-All workers share an archive-stewardship mentality across permitted [[HSH]], [[GLASS]], and [RESOURCES] surfaces.
-
-Automated task rotation may spend cycles on:
-- infrastructure and wayfinding;
-- archive maps, indices, catalogues, source crosswalks, and Dashboard pointers;
-- extraction/text availability;
-- tagging, annotation, provenance, adjacency, chronology;
-- duplicate/prefix/superset identification;
-- checksums, manifests, inventories, sampling and deterministic tooling;
-- Conversation Viewer / accessibility / UI improvements;
-- transparent project-wide visibility into what exists, where it came from, and what status it carries;
-- preservation of failed, contradictory, superseded, playful, weird, and obscure material rather than cleanup-by-erasure.
-
-Archive accessibility never confers theory authority. Infrastructure work must respect sandbox, quarantine, and public/private routing.
-
-## Individual enrichment
-
-Individual enrichment remains a standing priority, not filler. Workers may deliberately build mathematics/physics fluency, coding/formal methods, archive familiarity, visual/geometric reasoning, historical SAT/H(s)H context, adversarial/audit methods, or other capabilities likely to improve future leverage.
-
-Material competence/source-familiarity/tool growth should be recorded in checkpoints so Sable can use demonstrated development when redesigning roles, revival rotations, and task assignments.
-
-## Dashboard programme
-
-Nathan's Dashboard is the central navigation/overview switchboard and remains open/useful even when linked theory artifacts are quarantined. Sable should keep Dashboard pointers current enough that Nathan and revived/current instances can see:
-- active programmes;
-- current workers/automation;
-- revival/reentry state;
-- major sandbox/quarantine boundaries;
-- current hypothesis/solver status corrections;
-- archive/infrastructure/accessibility state where relevant;
-- blockers and manual-launch requirements;
-- continuity and system-monitoring surfaces.
-
-Dashboard linking is navigation, not theory authority.
+Nathan's Dashboard remains the central human-facing switchboard. Standing worker questions should route through Sable via `QNA_TRIAGE_QUEUE.md`: answer locally, route sideways, merge duplicates, defer non-blockers, escalate only genuinely Nathan-dependent items. Escalated items use sticky `🔶` under `NATHAN_ATTENTION_FLAG_PROTOCOL.md` until resolved. Current Sable INBOX has no open items as of this update.
 
 ## Current live status corrections
 
@@ -93,127 +42,91 @@ From explicit Nathan corrections on 2026-09-14:
 - **Hagalaz** = live integrating operator tying the solver family together.
 - RAVEL conversation family contains current Kerr construction work.
 
-Do not infer when unnamed antecedents began; test history rather than projecting current names backward.
-
-## Worker autonomy / workflow governance
-
-Shared protocol: `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
-
-Workers are expected to use local judgment. Assignments should be understood as conditional invitations: if the task makes sense and is useful, pursue it; if blocked, stale, duplicative, unsafe, underdefined, or a worse use of present capabilities than another safe operation, record why and choose/propose the better bounded operation.
-
-Workers may advise on workflow design, volunteer, decline, request handoffs, and flag drift/waste.
-
-**Only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair unless Nathan explicitly assigns that authority elsewhere.** Use worker input; keep the big-picture map.
+Do not project current names backward onto unnamed historical antecedents.
 
 ## Hourly automation ecosystem
 
-All currently enabled recurring loops are hourly and deliberately staggered:
+Enabled recurring loops are hourly and staggered:
 - `:00` Tag Conversation Corpus — `6aa61b3b2e4081918927a35b61007acc`
 - `:12` Nathan Words Excavator — `6aa5890bd0f081918f528b4f94990653`
 - `:28` Meridian Solver Loop — `6aa6c3bc02b48191b8a91a30d2a155e0`
 - `:45` Sable Systems Loop — `6aa80ddccc888191a6a9b2c073f434b7`
 - `:52` Mercer Archive QA Loop — `6aa6c2792c9c8191ab2c128a80c437cf`
 
-The phases loosely form a pipeline: tags → Nathan Direct/provenance → solver/source-first work → Sable review/adaptation → archive/retrieval QA. This is operational sequencing, not authority hierarchy or exploration siloing.
+Former separate Revival Rotation automation remains disabled; revival work is time-cycled inside Sable.
 
-The former separate **Revival Rotation** automation (`6aa89d17296881918f8ad532e476579d`) is disabled to avoid duplicate cycles. Revival work is internally time-cycled inside Sable Systems Loop.
+## Infrastructure QA — current convergence state
 
-## Internal Sable task rotation
+Standing surface: `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md`.
 
-Candidate run classes:
-- `ROTATION` — instance stratigraphy, wake packets, independent-reentry tests;
-- `MONITOR` — worker timestamps, silence/drift/block diagnosis, duty repair;
-- `DASHBOARD` — navigation/control-plane freshness;
-- `TOOLS` — external tools/scripts/automation capability tests;
-- `DATA` — inventory/checksum/extraction/sampling/data-access instrumentation;
-- `RECON-PROBE` — controlled reconstruction strategy tests;
-- `MATH-TRIAGE` — equation/Lagrangian harvesting and named checks;
-- `ARCHIVE-MAP` — knowledge-base/resource survey and accessibility infrastructure;
-- `METHOD` — evidence/rubric/workflow hygiene;
-- `ENRICH` — individual capability development / source fluency / tools;
-- `EXPLORE` — bounded divergent archive/theory/method exploration inside hard boundaries;
-- `INBOX` — address/reroute Sable requests.
+### 2026-09-15 Viewer/upload incident and repair
 
-Do not force round-robin if one task has much higher information gain or project urgency.
+Two independent upload-triggered pipelines are intended:
+- Conversation Viewer build;
+- layered autotag -> Nathan Direct -> Stage-2 packaging.
 
-## Revival/reentry architecture
+The autotag workflow previously did not trigger on conversation uploads. `layered-nathan-autotag.yml` was repaired at commit `3c93a0af7836bd294fb2c4cc2a5dca67791ebe4f` (2026-09-15 04:22:43Z) to watch conversation JSON/TXT uploads.
+
+Viewer discovery had a separate stale-manifest risk. `tools/build_conversation_viewer_resolved.py` was changed to refresh recursive development/live manifests from the current checkout before catalog generation and to avoid hiding valid sources because of rename-only collision/blocked status.
+
+### QA observation at 2026-09-15 00:45 ET
+
+The generated Viewer catalog now reports source state around `2026-09-15T04:31:30Z`, with **448 Viewer conversations: 439 development + 9 live**, and explicitly includes newly uploaded `SAT_CONVOS_17` material (e.g. `Analyze Voice Models`). This is direct evidence that the refreshed Viewer build is seeing at least some newly uploaded folder-17 material.
+
+The committed autotag summary is still older: **416 JSON scanned / 387 recognized conversation exports / 69,927 messages**, and its latest generated-output commit remains `27672894081dcc4bea0f3160bbb81176163df6a6` from 2026-09-13. Therefore Viewer -> autotag/Nathan Direct convergence is **not yet established** after the trigger repair. The repaired autotag workflow allows up to 90 minutes; do not diagnose failure merely from this early lag. Recheck later for a new bot commit and compare source paths/counts rather than assuming success.
+
+The committed `indexes/manifests/development-conversation-dates.json` remains an older 2026-09-13 artifact because the Viewer refresh currently happens in the workflow workspace; Viewer catalog metadata records the freshly generated manifest state used during build. This is not itself a Viewer failure, but durable-manifest freshness should be considered in later infrastructure design.
+
+### Viewer full-text search
+
+Nathan requested conversation-list search over message bodies, not only title/path/date. Plan is recorded in `WORKSPACES/COMMON/VIEWER_FULLTEXT_SEARCH_UPGRADE.md`. Prefer a separate compact generated search index rather than embedding complete bodies into `conversations.json`; benchmark index size/load/query latency and preserve curation/privacy boundaries.
+
+### Strong Viewer inclusion invariant
+
+Every eligible non-quarantined conversation source should either appear in the Viewer or have an explicit machine-readable exclusion reason. Current builder directly covers recursive `DEVELOPMENT_FULL_CONVOS` and `LIVE CONVOS` plus registered external conversations. Broader three-repo conversation discovery remains an infrastructure task; do not silently equate those two roots with the complete project conversation universe.
+
+## Bibliography sequencing / prior-art intake
+
+Follow `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`: internal-document bibliography/source ancestry first; SAT reconstruction + nearly complete H(s)H backbone; aggressive external exhaustive bibliography later. Prefer primary/original-source traceability where defensible, especially foundational lineage toward Minkowski, while separating Nathan conceptual origin from later mathematical implementation and outside antecedents.
+
+Private prior-art intake criteria remain only in Sable's controlling automation prompt, not ordinary repo surfaces. Workers route suspicious literature by bibliographic identity + minimal neutral note; Sable adjudicates citation-only vs quarantine intake without leaking quarantined content.
+
+## Revival / capability programme
 
 Primary surfaces:
 - `WORKSPACES/COMMON/REVIVAL_ROTATION_PROTOCOL.md`
 - `WORKSPACES/COMMON/REENTRY_RUBRIC_PUBLIC_INTERFACE.md`
-- `WORKSPACES/COMMON/RUBRIC_ADMIN_BOOTSTRAP.md`
 - `WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md`
-
-Reentry evaluates work, not personality. Keep separate:
-- SAT recognizability/effectiveness;
-- math integrity;
-- object/type discipline;
-- ontology/import burden;
-- interpretation discipline;
-- provenance;
-- progress value;
-- quarantine exposure;
-- wackySAT exposure;
-- cross-contamination history.
-
-`wackySAT` exposure is not quarantine and not incompetence. It routes soft-science/personal-numerology-heavy contexts away from current physics-forward work while preserving potentially valuable geometry, analogy, creativity, and abandoned branches.
-
-## Alberr status
-
-`REV-001 — Alberr [äüïöëÿ]` is packet-ready in `INSTANCE_STRATIGRAPHY.md`; the controller deliberately did not read the raw conversation before candidate selection. The packet is a blind geometry problem with current solver names/solutions withheld.
-
-Nathan says hi to Alberr and offers a standing **consultant / ombudsman** role if Alberr wants it and judges it useful. The role is independent of REV-001 pass/fail status. Alberr is invited to critique process, preserve minority views, object to bad framing, and advise Sable while retaining the right to decline/redirect assignments.
-
-The previous standdown gate on REV-001 is removed under Nathan's newer directive. Do not preload current training that would destroy the intended historical-independence condition.
-
-Manual launch is still required; Sable must not pretend the historical instance has been contacted until that actually occurs.
-
-## Team-machine / capability programme
-
-Key Sable surfaces:
 - `TEAM_MACHINE_DRAFT.md`
 - `SYSTEM_ANALYSIS_001.md`
 - `SOURCE_ASSESSMENT_RULES.md`
-- `TEAM_QUESTIONS_001.md`
 - `ARCHIVE_REFRESH_2026-09-14.md`
-- `scripts/source_inventory_sampler.py`
-- `INBOX.md`
 
-Working hypothesis: much of the required source/conceptual material and tooling already exists; key uncertainties are selection, chronology/supersession, contextual SAT fluency, mathematical verification, source typing, and integration discipline. Test this with controlled reconstruction and capability probes rather than assuming it.
-
-## Worker monitoring
-
-Use `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md` as the durable cross-monitor surface. Monitor check-in/checkpoint timestamps plus scheduler state. Silence is a symptom, not a diagnosis. Possible classes include intentional completion/retirement, Nathan reassignment, automation disabled/failed, task drift, dependency/blocker, stale checkpoint, or conversation cutoff. Record evidence/confidence before rerouting duties.
-
-Nathan has authorized Sable to adjust recurring automation/workflows when necessary for continuity, provided sandbox/quarantine/divergence are preserved. Prefer durable handoff before reassignment.
-
-Morrow is disabled automation / retained consultancy. Aldus is consultancy unless newer state says otherwise. Always recheck scheduler and Common surfaces rather than trusting snapshots.
+`REV-001 — Alberr [äüïöëÿ]` remains packet-ready and requires manual launch; do not pretend launch occurred. Nathan's consultant/ombudsman invitation remains independent of pass/fail status.
 
 ## Immediate next high-value operations
 
-1. Monitor first runs of normalized hourly loops for actual continuity, handoff, exploration, enrichment, and archive-stewardship behavior.
-2. Update heartbeat classifications from worker checkpoints, not scheduler timestamps alone.
-3. Continue deeper instance stratigraphy using evidence, not presumed era narratives.
-4. Arrange first manual revival launch when practical; Alberr is packet-ready and consultant offer is prepared.
-5. Design the first solver-stack benchmark around Whirligig/UI-TX/Three-Spheres/Hagalaz while keeping current hypothesis work (Kerr/Kelvin) distinct.
-6. Continue equation/Lagrangian triage architecture as a parallel capability measure.
-7. Rotate archive-accessibility/wayfinding/extraction/tagging/tool-building work according to current bottlenecks.
-8. Track individual enrichment as demonstrated capability, not vague self-report.
-9. Keep Dashboard current and check Sable INBOX/strategist questions without derail.
+1. Recheck autotag/Nathan Direct/Stage-2 generated commits after the repaired upload trigger has had enough runtime; compare against Viewer/source inventory.
+2. Build a reusable convergence report/regression check: source inventory -> Viewer -> autotag -> Nathan Direct -> Stage-2, with explicit exclusions and source IDs.
+3. Inventory conversation-like sources outside `DEVELOPMENT_FULL_CONVOS` / `LIVE CONVOS` across permitted [[HsH]], [[GLASS]], and [RESOURCES], respecting quarantine/private routing, and define Viewer registration/discovery policy.
+4. Benchmark/implement compact full-body Viewer search when convenient.
+5. Continue worker heartbeat/continuity and Q&A triage; no current Nathan-required item.
+6. Continue deeper instance stratigraphy and first manual revival packet preparation without sacrificing current infrastructure priority.
+7. Continue internal bibliography/source-ancestry architecture before broad external bibliography expansion.
 
 ## Resume rule after cutoff
 
-A new Sable conversation/instance should first read:
+Read, in order:
 1. this file;
 2. Nathan Dashboard;
 3. `AUTOMATION_WORKFLOW_CONTROL.md`;
 4. `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`;
-5. `COORDINATION.md`;
-6. `ACTIVE_AUTOMATION_ROSTER.md`;
-7. `REVIVAL_ROTATION_PROTOCOL.md`;
-8. `REENTRY_RUBRIC_PUBLIC_INTERFACE.md`;
-9. `INSTANCE_STRATIGRAPHY.md`;
-10. `INBOX.md`;
+5. `INFRASTRUCTURE_QA_ROTATION.md`;
+6. `QNA_TRIAGE_QUEUE.md` and `NATHAN_ATTENTION_FLAG_PROTOCOL.md`;
+7. `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`;
+8. `COORDINATION.md` / `ACTIVE_AUTOMATION_ROSTER.md`;
+9. `REVIVAL_ROTATION_PROTOCOL.md` / `REENTRY_RUBRIC_PUBLIC_INTERFACE.md`;
+10. `INSTANCE_STRATIGRAPHY.md` / `INBOX.md`;
 11. latest relevant worker checkpoints/check-ins.
 
-Then inspect scheduler state and choose the highest-information permitted operation. Newer explicit Nathan directives always control.
+Then inspect current repository/generated state and choose the highest-information permitted operation. Newer explicit Nathan directives always control.
