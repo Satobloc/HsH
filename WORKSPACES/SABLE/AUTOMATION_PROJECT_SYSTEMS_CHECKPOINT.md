@@ -4,19 +4,36 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current run finding — mixed navigation publisher uses correct race disposition
+## Current bounded operation — locate remaining named publication-regression publishers
 
-Direct inspection of `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` and `.github/workflows/maintain-navigation.yml` confirms the mixed HsH navigation workflow now follows the critical rule for a publisher that can mutate canonical/source files as well as generated derivatives.
+This recurrence performed one bounded INFRA-QA diagnosis only: locate the two remaining publishers named by `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` before attempting any publish-semantics judgment or repair.
 
-The workflow stages possible source conversation renames plus structural indexes, chronology/manifests, autotag indexes, and Viewer catalog data. If its push to `main` is rejected because `main` advanced, it does **not** rebase, merge, force-push, or replay the stale mixed snapshot. It emits an error and exits nonzero, explicitly requiring a fresh maintenance run to recompute from current main.
+### Durable boundary reached
 
-This matches the active INFRA-QA rule for mixed source/generated workflows: stale source mutations must not be replayed after a race. Unlike a pure generated publisher, failure-and-fresh-rerun is the safe disposition.
+- The controlling INFRA-QA surface explicitly says the Cross podcast transcript index and GLASS full structural index were part of the 2026-09-15 generated-artifact publication regression class and were changed to the newer transaction rule.
+- Direct listing of `Satobloc/HsH/.github/workflows` does not expose an obvious Cross transcript-index or GLASS structural-index workflow name.
+- HsH code search for `cross-podcast`, `podcast`, `transcript_index`, and `structural index` returned no locator hit in the accessible default-branch search.
+- Guessed HsH workflow paths `cross-podcast-transcript-index.yml` and `glass-full-structural-index.yml` returned 404 and are therefore not being treated as real paths.
+- Guessed repositories `Satobloc/Cross` and `Satobloc/GLASS` were not resolvable through the current connector calls used here. This is a locator/access result only; it is not evidence that the repositories or publishers do not exist.
+- No workflow semantics were inferred from the Common summary alone, and no repair was attempted.
 
-This closes the specific mixed-navigation false-green/replay concern named in the September 15 generated-artifact publication regression class. It does not establish that every navigation run is race-free or that full source -> Viewer -> autotag -> Nathan Direct -> Stage-2 convergence holds.
+### Current purpose / dependencies
+
+The next step for this regression class is now a source-location problem, not a publication-semantics problem. Obtain the exact repository/path or commit that changed either named publisher, then inspect exactly one publisher in a later bounded recurrence.
+
+No automation/cadence changes. No Q&A disposition changed. No prior-art content was accessed or exposed. No theory-bearing work was performed. No Nathan decision is required.
+
+### One continuation cursor
+
+Use repository/commit history around the 2026-09-15 generated-artifact transaction changes to recover the **exact Cross podcast transcript-index publisher repository/path**; stop once that locator is durable, without also auditing its semantics in the same recurrence.
+
+## Prior finding — mixed navigation publisher
+
+The mixed HsH navigation workflow now fails visibly on a rejected push rather than rebasing, merging, force-pushing, or replaying a stale mixed source/generated snapshot. This matches the active mixed-publisher race rule.
 
 ## Prior finding — archive-wide autotag generated-artifact publish safety
 
-The archive-wide autotag/Nathan Direct publisher implements the newer generated-artifact transaction rule rather than the older rebase-generated-output pattern: concurrency group; validated generated snapshot; fetch/hard-reset to current `origin/main`; declared generated scope only; revalidation; non-force push; discard/retry after race; visible failure after bounded retries.
+The archive-wide autotag/Nathan Direct publisher implements the newer generated-artifact transaction rule: concurrency group; validated generated snapshot; fetch/hard-reset to current `origin/main`; declared generated scope only; revalidation; non-force push; discard/retry after race; visible failure after bounded retries.
 
 ## Inventory provenance handoff remains open
 
@@ -31,12 +48,3 @@ and include source commit triplet + inventory hash so ordinary source growth is 
 ## Control / safety state
 
 `AUTOMATION_WORKFLOW_CONTROL.md` requires `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md` before write-capable script/workflow publication. Shared semantic state uses fresh-read/current-SHA semantics; generated state uses deterministic rebuild plus current-main publication discipline. This automation re-fetched this worker-local checkpoint immediately before this update and used the returned current blob SHA.
-
-No PRIOR_ART content was opened, listed, hashed, sampled, indexed, or exposed. No theory-bearing work was promoted. No Q&A/prior-art disposition changed. No Nathan decision is required.
-
-## Next high-information operations
-
-1. Inspect the remaining publishers named in the current INFRA-QA regression class (Cross podcast transcript index and GLASS structural indexing) and confirm their actual current publish semantics.
-2. Inspect workflow-run artifacts/logs or non-main refs for the unsupported inventory `0.3.0` identifiers before deciding whether that state was transient/unpublished versus subsequently replaced.
-3. Implement or propose the reusable inventory-state consistency check above as generated QA output.
-4. Resume full source -> Viewer -> autotag -> Nathan Direct -> Stage-2 identity/count/hash convergence QA.
