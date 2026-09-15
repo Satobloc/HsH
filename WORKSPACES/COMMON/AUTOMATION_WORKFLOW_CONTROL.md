@@ -1,102 +1,122 @@
 # AUTOMATION WORKFLOW CONTROL
 
-**Status:** Prototype trial control surface
-**Program:** Prototype Tri(or Quin)ary Mover
-**Established:** 2026-09-13
-**Authority:** Nathan directives control. This file coordinates workers; it does not define SAT/H(s)H theory.
+**Status:** ACTIVE current control surface  
+**Program:** hourly SAT/H(s)H worker loops + Sable continuity  
+**Updated:** 2026-09-14  
+**Authority:** newer explicit Nathan directives control. This file coordinates workers; it does not define theory truth.
 
-## Worker startup rule
+## Startup rule
 
-Every recurring worker participating in archive maintenance, Nathan Direct, reconstruction, training, workshop, or related SAT/H(s)H work should begin by checking this file and `WORKSPACES/COMMON/BULLETIN_BOARD.md` for workflow modifications, priority changes, blockers, handoffs, and Nathan-required decisions. Follow newer explicit Nathan directives over stale instructions.
+Every recurring worker begins by checking:
+- this file;
+- `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`;
+- current `COORDINATION.md`, `HANDOFFS.md`, `CHECKINS.md`, and relevant lane checkpoint;
+- newer Nathan directives and lane-specific control surfaces.
+
+The worker should then assess whether its nominal task remains the highest-value safe operation inside its lane.
+
+## Current hard boundaries
+
+Under Nathan's newer 2026-09-14 directive, the old blanket project-wide training standdown is **superseded as a hard gate**. Training remains a tool/prerequisite when it materially improves a task.
+
+The current hard boundaries are:
+1. **Fundamental Intuitions Extended fidelity** as core methodological/conceptual anchor, operationally broad enough to include explicitly live H(s)H hypotheses/tentative structures and earlier SAT physics hypotheses as legitimate material for faithful reconstruction/testing;
+2. **sandbox limitation** for theory-bearing construction/reconstruction;
+3. **quarantine adherence**, including PRIOR_ART separation and no leakage of quarantined content/reasoning into ordinary team surfaces.
+
+These boundaries do not make any individual hypothesis/source current, mature, correct, or validated.
+
+## Worker autonomy
+
+Assignments are invitations to informed action, not demands to manufacture output. Each worker may accept, decline, redirect, or propose a better bounded task inside its lane when that is more useful.
+
+Interpret assignments as:
+
+> If you want to, and if you think it makes sense according to your own judgment — considering current workflow functionality and consulting Sable where useful — pursue it. If the task is blocked, stale, duplicative, unsafe, underdefined, or not the best use of your lane, record why and choose a better safe operation.
+
+Workers may propose workflow changes, request handoffs, volunteer for work, flag drift/waste, and critique interfaces.
+
+**Only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair unless Nathan explicitly assigns that authority elsewhere.** Sable should actively use worker input while keeping the system-wide view.
+
+## Hourly recurrence / phase design
+
+Current recurring loops are hourly and deliberately staggered:
+- `:00` Tag Conversation Corpus
+- `:12` Nathan Words Excavator
+- `:28` Meridian Solver Loop
+- `:45` Sable Systems Loop
+- `:52` Mercer Archive QA Loop
+
+Sable may adjust phases/cadence when workflow evidence supports it. Workers should not create additional recurring tasks on their own unless explicitly authorized.
 
 ## Operating model
 
-Primary obligations remain first. Workers should advance measurable to-do/frontier goals and leave auditable state. Once a bounded work quantum is complete, or when the primary route is blocked/ambiguous/inopportune, a worker may perform bounded alternate or exploratory work rather than idling.
+Primary lane obligations remain first, but each run is state-dependent. After checking dependencies and current state, choose one bounded high-information operation. Safe alternatives may include archive/source reading, context recovery, tag enrichment, continuity, question generation, math checking, tool development, source QA, controlled reconstruction, benchmark design, or bounded exploration consistent with the lane.
 
-Safe alternate/exploratory work may include archive reading, contextual recovery, tag enrichment, developmental-thread tracing, continuity recording, question generation, equation checking, skill/tool development, constructive critique, big-picture synthesis, free archive exploration, and workshop interpretation. Exploration must remain bounded and must not silently become official theory.
+Do not force progress for appearance's sake. A well-documented negative result, no-op, or refusal to duplicate work can be the correct run outcome.
 
 ## Epistemic surfaces
 
 ### Nathan Direct
-Verified Nathan-authored material and provenance. Preserve exact wording, authorship boundaries, chronology, tags, adjacency, contradictions, and corrections.
+Verified Nathan-authored material and provenance. Preserve exact wording, authorship boundaries, chronology, tags, adjacency, contradictions, corrections.
 
-### Canon / accepted theory surfaces
-Only material whose status is actually established by Nathan/current controlling sources. Do not promote material merely because workers agree.
+### Current/live hypothesis or solver status
+Only status actually established by Nathan/current controlling sources. Currentness is separate from correctness, maturity, polish, or validation.
 
-### Workshop / Ideas Clearinghouse
-Home for reconstruction, interpretations, conjectures, alternative readings, equation checks, questions, failed approaches, rediscovered quarantined material, speculative extensions, and other intellectually useful non-canonical work. Preserve origin and authority status. Material may be alive and discussable without being accepted.
+### Sandbox
+Controlled theory-bearing reconstruction, testing, mathematics, solver work, interpretation, and comparison. Sandbox results do not automatically become canonical/current truth.
 
-Previously quarantined material may be discussed here while retaining its original provenance, quarantine reason, authorship status, and zero automatic authority.
+### Workshop / exploratory work
+Conjectures, alternative readings, failed approaches, playful/experimental branches, wackySAT material, analogies, speculative extensions, negative results. Preserve provenance and routing.
 
-## Independent-team reconstruction protocol
+### Quarantine
+Information/outputs whose exposure is restricted. PRIOR_ART and quarantined rubric-administrator reasoning do not leak into ordinary lanes. Cleared summaries/status packets may cross only through defined interfaces.
 
-When cooperative reconstruction is activated, prefer independent first passes using distinct strategies/material emphases before cross-reading. Freeze initial interpretations before comparison where practical. Then compare agreements/disagreements, challenge each worker's own interpretation against archive evidence, and determine whether consensus is warranted rather than forcing consensus.
+## Independent-team protocol
 
-Agreement among workers measures interpretive stability; it does not establish scientific correctness or Nathan authorship/intent.
+Prefer independent first passes where comparison value matters. Record source/exposure history. Freeze first-pass outputs before cross-reading where practical. Agreement measures interpretive stability, not scientific truth.
 
-## Branching / blockage behavior
+Do not project current names backward onto older work. Historical instances should solve bounded problems from their actual context before later mapping is attempted.
 
-For each worker, choose the highest-priority eligible operation whose dependencies are satisfied. If blocked, ambiguous, unsafe, or strategically premature:
-1. record the blocker without guessing;
-2. add/update it in the unresolved-issues queue;
-3. select the highest-priority safe alternate whose dependencies are satisfied;
-4. continue productive bounded work;
-5. retry the blocked branch when its dependency is resolved.
+## Continuity / handoff
 
-Useful blocker classes include `NEEDS_NATHAN`, `SOURCE_MISSING`, `DEPENDENCY`, `AMBIGUOUS_PROVENANCE`, and `DEFERRED_INOPPORTUNE`.
+Every recurring lane maintains durable checkpoint state sufficient for another instance/conversation to resume after context cutoff. Follow `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
 
-## Unresolved issues / Nathan attention
+Sable cross-monitors scheduler state, checkpoint/check-in timestamps, drift, blockers, and silence through `INSTANCE_HEARTBEAT_MONITOR.md`. Silence alone is not a diagnosis.
 
-Maintain a prioritized unresolved-issues list in this file until/unless a dedicated ledger supersedes it. Each issue should carry: issue ID, priority, worker, blocker class, concise decision/question, safe work available meanwhile, date raised, and status.
+Prefer explicit durable handoffs before Sable reassigns or absorbs another worker's duties.
 
-When a worker has an unresolved item that genuinely needs Nathan's attention, end its user-facing report with **🔶**. No 🔶 means no Nathan-required decision is currently being surfaced by that worker.
+## Evidence hygiene
 
-### Current unresolved issues
+Keep independent:
+- provenance;
+- currentness;
+- maturity;
+- polish;
+- vetting evidence;
+- mathematical correctness under named checks;
+- physical/model correctness;
+- sandbox/quarantine status.
+
+Never use generic `verified` as a substitute for stating exactly what was checked, how, against what inputs, and with what limits.
+
+## Current unresolved issues
 
 | Issue | Priority | Worker / requested review | Class | Dependency / decision | Safe work meanwhile | Raised | Status |
 |---|---|---|---|---|---|---|---|
-| `MORROW-SOURCE-001` | P1 before duplicate disposition | Morrow; review requested from Mercer / superset-scanner maintainer | `DEPENDENCY` | [Janus audit](../MORROW/JANUS_EXPORT_COMPARISON_2026-09-13.md): A→C preserves all earlier IDs but shortens one `execution_output.text`; scanner blob `de5478b26c01a5cfe4a591be7e154295233710b3` omits that field. Update/document complete-content equality and metadata policy, add this regression case, and regenerate affected candidate reports before disposition. No source loss has been observed; preserve A meanwhile. | The disputed Janus 20:01–20:08 IDs are [resolved](../MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md). Continue bounded role/access-capability recovery or training while scanner review is pending. No Nathan decision required. | 2026-09-13 | OPEN |
+| `MORROW-SOURCE-001` | P1 before duplicate disposition | Morrow; review from Mercer / scanner maintainer | `DEPENDENCY` | Janus export comparison found one shortened `execution_output.text` despite earlier-ID preservation; complete-content equality / metadata policy and regression case still need durable resolution before duplicate disposition. | Preserve older source; continue other continuity/retrieval QA. No Nathan decision currently required. | 2026-09-13 | OPEN |
 
-## Current trial priorities
+## Current lane map
 
-1. Build the complete tagged Nathan Direct substrate from raw conversation metadata.
-2. Continue corpus tagging/enrichment without destroying existing tags or provenance.
-3. Package chronological Nathan Direct material with adjacency/context pointers.
-4. Permit concurrent winnowing, earliest-use searches, correction mapping, and contextual recovery on already-extracted regions.
-5. Develop the Workshop / Ideas Clearinghouse and cooperative reconstruction protocol without writing speculative/generated theory into canonical surfaces.
-6. Use bounded alternate/exploratory work to improve context, continuity, tools, questions, and team awareness while primary maintenance proceeds.
-
-## Handoffs and coordination
-
-Use COMMON coordination surfaces for concise handoffs, blockers, workflow modifications, and materially useful discoveries. Do not create chatter merely to demonstrate activity. Workers should leave enough state that another instance can continue without reconstructing the entire run.
+- **Tag Corpus:** broad cumulative tagging/enrichment and tagging infrastructure.
+- **Nathan Words:** Nathan-only substrate/provenance packaging, chronology, adjacency, targeted Stage-2 provenance work.
+- **Meridian:** SAT geometric solver/source-first reconstruction; Whirligig/Donut, UI/TX, Three Spheres, Hagalaz integration benchmarks; representation/library support.
+- **Mercer:** archive/index/retrieval/provenance/documentation QA and reproducibility.
+- **Sable:** system-wide capability architecture, Dashboard, revival/reentry, worker monitoring, continuity, workflow redesign, tools/data/reconstruction probes.
+- **Morrow/Aldus and revived instances:** consultants/specialists or bounded revival workers according to evidence/live problems; not presumed inactive or authoritative merely from age/status.
 
 ## Modification rule
 
-This control surface is intentionally state-dependent and expected to evolve. Nathan or an authorized coordinating instance may revise priorities, branches, worker roles, dependency gates, and exploration rules. Recurring prompts should therefore point here rather than duplicating every mutable workflow detail.
+This file is state-dependent. Nathan or Sable under Nathan's current clearance may revise priorities, phases, worker roles, gates, and exploration rules. Other workers should submit workflow proposals/input rather than silently changing cross-lane control.
 
-Workers may propose changes in COMMON; they should not silently rewrite controlling policy because an exploration produced an interesting idea.
-
-
-## Participating worker — Morrow
-
-2026-09-13: Nathan directly invited and authorized this participation. **Morrow Continuity Trial** enabled by replacing the paused synthesis/predictions/papers task (`6a9deb436bd0819196ab3ec694e294c2`). First scheduled start **2026-09-13 11:40 EDT**, then hourly at **:40** (America/New_York); actual starts must be logged. Setup observed at 11:26:19 EDT; activation confirmed at 11:27:13 EDT. This offsets the currently observed extraction/tagging schedules (:16:59 / :00:16); it is not a guarantee of non-overlapping execution.
-
-Role: conversation-source identity, continuity and contextual/provenance recovery supporting Nathan Direct; reuse extraction/tagging output. Initial five-family metadata crosswalk complete; message-level continuity and branch comparisons remain open. [Persistent workflow, goalposts and checkpoint](../MORROW/TRIAL_CHECKPOINT.md). Old theory mandate replaced; no automatic restoration of quarantined material. No Nathan decision needed at enrollment.
-
-
-## Participating worker — Mercer
-
-2026-09-13: Nathan directly invited and authorized Mercer to join the Prototype Tri(or Quin)ary Mover trial. Mercer's existing archive/indexing/direct-words/source-reconstruction task is **rewritten for persistent completion rather than declared complete**. First scheduled recurrence **2026-09-13 11:52 EDT**, then hourly at **:52** (America/New_York); actual starts/runs should be logged in the Mercer checkpoint. Enrollment decision made at approximately 11:34 EDT after reading this control surface and current Common notices.
-
-Role: **index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation**. This is intended to complement rather than duplicate Morrow's conversation-family identity/continuity/context recovery and the active Nathan-words extraction/tagging lane. Mercer should validate autotag/index quality and selectivity, reconcile Viewer/catalog/source-path drift, improve durable project documentation/navigation conventions when warranted, expand source-grounded methodology maps from verified Nathan-authored material, and backfill directive provenance as raw IDs become available. Theory-bearing standdown and quarantine boundaries remain controlling.
-
-[Persistent workflow, goalposts and checkpoint](../MERCER/TRIAL_CHECKPOINT.md). No Nathan-required blocker at enrollment.
-
-
-## Participating worker — Meridian
-
-2026-09-13: Nathan directly invited and authorized Meridian to join the Prototype Tri(or Quin)ary Mover trial. Meridian's current public-library/archive-accessibility + solver/source-reconstruction task is **rewritten for persistent completion rather than declared complete**. Enrollment decision made at approximately **11:36 EDT** after reading the control surface and current Common notices. First scheduled recurrence **2026-09-13 12:28 EDT**, then hourly at **:28** (America/New_York); actual starts/runs must be logged.
-
-Immediate role while the project-wide standdown remains active: **training-first source ingestion and 4D-thinking audit**. Ordinary library expansion, recursive PDF-coverage work, and solver interpretation remain paused except minimal repository administration needed to preserve training state. After release, intended lane: **source-first geometry/solver reconstruction + public library/vetting/accessibility**, complementing Morrow continuity/provenance, Mercer index/documentation QA, active Nathan-words/tagging lanes, Ravel theory acceptance and Janus coordination.
-
-[Persistent workflow, goalposts and checkpoint](../MERIDIAN/TRIAL_CHECKPOINT.md). No automatic restoration of quarantined solver-methodology material. Suspended Integration-lane handoffs are not executable unless Nathan reauthorizes them. No Nathan decision needed at enrollment.
+Use the Dashboard as the central human-facing navigation/switchboard. Linking from the Dashboard does not confer theory authority.
