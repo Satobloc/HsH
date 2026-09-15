@@ -42,20 +42,28 @@ Never infer a cause from silence alone.
 - If task drift is suspected, compare latest output/checkpoint against controlling directive before intervening.
 - If cutoff risk is plausible, preserve/reconstruct the worker's checkpoint and prepare a revival/resume packet.
 
-## Current baseline snapshot — 2026-09-14 ~21:45 EDT
+## Current snapshot — 2026-09-14 23:48 EDT
 
-| Worker/lane | Scheduler state known to Sable | Latest scheduler evidence | Current interpretation |
-|---|---|---|---|
-| Sable Systems Loop | ENABLED hourly | converted from Sable Inbox Check; broad flexible systems remit | `ACTIVE-NORMAL` |
-| Tag Conversation Corpus | ENABLED hourly | last scheduler run observed 2026-09-14 23:11Z | `ACTIVE-NORMAL` pending checkpoint freshness check |
-| Nathan Words Excavator | ENABLED hourly | last scheduler run observed 2026-09-14 23:27Z | `ACTIVE-NORMAL` pending checkpoint freshness check |
-| Meridian Mover Trial | ENABLED hourly | last scheduler run observed 2026-09-14 23:32Z | `ACTIVE-NORMAL`; solver remit exists but must recheck current gates/directives |
-| Mercer Archive Mover | ENABLED hourly | last scheduler run observed 2026-09-14 22:54Z | `ACTIVE-NORMAL` pending checkpoint freshness check |
-| Morrow Continuity Trial | DISABLED | disabled 2026-09-14; consultancy retained | `INTENTIONAL-SLEEP` |
-| Aldus | no enabled automation in last roster snapshot | consultant/specialist | `INTENTIONAL-SLEEP` unless newer directive says otherwise |
-| Revival Rotation separate automation | DISABLED | folded into Sable Systems Loop | `INTENTIONAL-SLEEP` / function absorbed |
+| Worker/lane | Scheduler evidence | Durable-state evidence | Current interpretation | Sable action |
+|---|---|---|---|---|
+| Sable Systems Loop | ENABLED hourly; current run active | continuity checkpoint current through latest architecture changes | `ACTIVE-NORMAL` | continue flexible systems rotation |
+| Tag Conversation Corpus | ENABLED hourly; last scheduler run 2026-09-14 22:58 EDT | checkpoint not inspected this pass | `ACTIVE-NORMAL` pending durable-state sample | inspect only if gap/drift appears |
+| Nathan Words Excavator | ENABLED hourly; last scheduler run 2026-09-14 23:11 EDT | checkpoint not inspected this pass | `ACTIVE-NORMAL` pending durable-state sample | provenance directive includes Nathan intellectual-history capture |
+| Meridian Solver Loop | ENABLED hourly; last scheduler run 2026-09-14 23:28 EDT | checkpoint not inspected this pass | `ACTIVE-NORMAL` pending durable-state sample | no intervention |
+| Mercer Archive QA Loop | ENABLED hourly; last scheduler run observed 2026-09-14 21:52 EDT; next scheduled phase is :52 | `TRIAL_CHECKPOINT.md` remains at Run 35 and still says the superseded project-wide theory standdown is active and that Mercer must not broaden into theory | `STALE-CHECKPOINT?` with one apparently missed hourly execution; cause not established | do not diagnose fault from one gap; Mercer prompt itself has newer non-silo/sandbox rules. Recheck after next :52 phase; if checkpoint remains stale, issue continuity repair/handoff rather than silently treating old text as controlling |
+| Morrow Continuity Trial | DISABLED | consultancy retained | `INTENTIONAL-SLEEP` | no action |
+| Aldus | no enabled automation in current roster | consultant/specialist | `INTENTIONAL-SLEEP` unless newer directive says otherwise | no action |
+| Revival Rotation separate automation | DISABLED | function absorbed into Sable | `INTENTIONAL-SLEEP` / function absorbed | no action |
 
-Times above are scheduler observations, not claims of productive output. Each monitoring pass should compare against durable checkpoints and Common state before reclassifying.
+Times are scheduler observations, not claims of productive output.
+
+## Control-surface drift note
+
+`COORDINATION.md` and some older worker checkpoints still contain pre-meeting / blanket-standdown language that predates Nathan's newer 2026-09-14 operating directives. Newer directives and `AUTOMATION_WORKFLOW_CONTROL.md` control. Do not delete historical coordination text merely because it is stale; add/maintain explicit supersession where needed and repair worker checkpoints when they materially misdirect live runs.
+
+## Q&A state
+
+Sable's standing Q&A queue currently has no submitted worker questions. Do not manufacture Nathan escalations. Questions should be answered locally, routed sideways, merged/deferred, or escalated only when Nathan is genuinely required.
 
 ## Per-pass record template
 
