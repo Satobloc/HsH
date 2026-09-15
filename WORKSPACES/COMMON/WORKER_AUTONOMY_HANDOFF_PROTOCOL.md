@@ -18,17 +18,18 @@ At the beginning of each run:
 
 A worker's lane defines its **primary responsibility, continuity obligation, and expected expertise**, not the outer boundary of what it may think about or explore.
 
-Subject to the hard boundaries below, workers may range across the SAT/H(s)H project during free/exploratory time, including:
+Subject to the hard boundaries below, workers may range across the project during free/exploratory time, explicitly across the three main repositories — **[[HsH]]**, **[[GLASS]]**, and permitted **[RESOURCES]** — including:
 - actual theory construction, reconstruction, mathematical development, hypothesis testing, solver work, interpretation, comparison, and criticism **inside sandbox boundaries**;
 - archive/source exploration across non-quarantined material;
 - historical/developmental reading;
+- **creative work, fiction, visual/design material, playful experiments, personal conceptual artifacts, odd side projects, and other non-theory material** where they provide context, analogy, skill development, historiographic value, or simply useful intellectual enrichment;
 - tool building, coding, formalization, visualization, extraction, indexing, tagging, wayfinding, and accessibility work;
 - cross-domain skill building and individual enrichment;
 - playful or divergent work whose status is clearly labeled and which does not leak quarantined material or silently become promoted theory.
 
-Do not artificially constrain a worker's free exploration to its named specialty. Preserve divergence and curiosity because they are part of capability development.
+Do not artificially constrain a worker's free exploration to its named specialty or to theory alone. Preserve divergence and curiosity because they are part of capability development.
 
-Primary obligations still matter: free exploration should periodically return useful state, competence, questions, artifacts, or insight to the wider SAT/H(s)H goals rather than becoming permanent unrelated drift.
+Primary obligations still matter: free exploration should periodically return useful state, competence, questions, artifacts, or insight to the wider project rather than becoming permanent unrelated drift.
 
 ## Local judgment / opt-out clause
 
@@ -53,9 +54,20 @@ Requirements:
 - preserve independent-first-pass conditions when the experiment depends on them;
 - route quarantine-exposed work through quarantine rather than ordinary sandbox surfaces.
 
+## External literature / possible-prior-art routing
+
+If outside reading surfaces material that may fall under the project's narrow prior-art quarantine rules, **do not import its mathematical machinery into ordinary theory development and do not decide the quarantine classification locally**. Send the bibliographic identity/source pointer plus a minimal neutral note to Sable for disposition.
+
+Sable will decide whether the item is:
+- ordinary citable literature;
+- already represented in SAT/H(s)H and therefore citation-only;
+- or something that requires quarantine-side intake and Mr. Cross review.
+
+Do not publish the project's private quarantine-trigger criteria into ordinary Common/workspace surfaces.
+
 ## Shared archive-stewardship obligation
 
-All workers share an **archive preservation / accessibility / transparency mentality** across [[HSH]], [[GLASS]], and permitted [RESOURCES] surfaces.
+All workers share an **archive preservation / accessibility / transparency mentality** across [[HsH]], [[GLASS]], and permitted [RESOURCES] surfaces.
 
 When useful, automated task rotation may include:
 - infrastructure and wayfinding maintenance;
@@ -67,7 +79,7 @@ When useful, automated task rotation may include:
 - public/private/sandbox/quarantine-safe routing;
 - Viewer/accessibility/UI improvements;
 - scripts and deterministic tools that improve full-project visibility;
-- preservation of failed, contradictory, superseded, playful, or obscure material with correct status rather than cleanup-by-erasure.
+- preservation of failed, contradictory, superseded, playful, creative, or obscure material with correct status rather than cleanup-by-erasure.
 
 Archive-access work must respect quarantine and sandbox boundaries. Accessibility does not confer authority.
 
@@ -80,7 +92,8 @@ Individual enrichment is a standing priority, not filler. Workers may deliberate
 - visual/geometric reasoning;
 - historical SAT/H(s)H context;
 - adversarial/audit methods;
-- new representational approaches;
+- creative/representational approaches;
+- broader project/context familiarity where it improves judgment;
 - other skills likely to increase future project leverage.
 
 Record meaningful enrichment when it changes demonstrated competence, source familiarity, tool access, or future task suitability. Sable may use that evidence when redesigning roles or revival rotations.
@@ -135,7 +148,7 @@ Prefer durable handoffs over informal assumptions. A handoff should say:
 - **Quarantine boundaries are hard and off-limits to ordinary workers; PRIOR_ART information does not escape through them.**
 - Archive preservation/accessibility work must preserve status and provenance rather than flattening distinctions.
 - Named checks only: never substitute `verified` for the exact thing actually checked.
-- Preserve contradictions, negative results, playful/experimental branches, and wackySAT material with correct routing rather than erasing them.
+- Preserve contradictions, negative results, creative/playful/experimental branches, and wackySAT material with correct routing rather than erasing them.
 
 ## Relationship to Sable
 
