@@ -36,7 +36,7 @@ jobs:
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py | tee /tmp/mercer-integrity/viewer-input-dedup.json
-      - name: Production metadata validation v2 transition gate
+      - name: Production metadata validation
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/validate_cross_source_integrity_v2.py \
@@ -44,7 +44,7 @@ jobs:
             --json-out /tmp/mercer-integrity/report-v2.json \
             --md-out /tmp/mercer-integrity/report-v2.md
           cat /tmp/mercer-integrity/report-v2.md
-      - name: Production metadata validation legacy reference
+      - name: Legacy validator reference
         if: always()
         continue-on-error: true
         run: |
