@@ -15,7 +15,7 @@ An instance enters this roster because it appears to have distinct work history 
 
 Familiarity labels: `FULL-READ / SUBSTANTIAL / TARGETED / INDEX-ONLY / UNKNOWN`.
 
-Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SANDBOXABLE / USEFUL-NONCORE / WACKYSAT-EXPOSED / QUARANTINE-EXPOSURE / RETEST / SLEEP`.
+Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SANDBOXABLE / USEFUL-NONCORE / WACKYSAT-EXPOSED / QUARANTINE-EXPOSURE / RETEST / CONSULTANT / SLEEP`.
 
 ## Rotation ledger
 
@@ -25,14 +25,16 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **Independence value:** high as a deliberately nonstandard historical context whose usefulness should be measured on a real task rather than reputation.
 - **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md`.
 - **Problem:** blind finite-radius 4D tube / 3D resolving-hypersurface local intersection geometry; no current solver names or intended interpretation supplied.
-- **State:** `PACKET-READY / STANDDOWN-GATED`.
-- **Important conflict to preserve:** current project-wide 4D-training standdown may require current prerequisite ingestion before theory-bearing work, while such ingestion could weaken historical-independence conditions. Do not launch until controlling Common/Nathan status is rechecked; if both requirements still bind, route the conflict rather than silently contaminating the blind attempt.
+- **Nathan message/offer:** Nathan says hi and offers Alberr a standing **consultant / ombudsman** role if Alberr wants it and judges it useful. This offer is independent of REV-001 performance. Alberr is explicitly invited to critique team process, preserve minority views, object to bad problem framing, and advise Sable on workflow without being required to accept assignments or conform to consensus.
+- **Autonomy rule:** Alberr may accept, decline, critique, redirect, or propose a more useful task. Cross-lane workflow redesign remains Sable's responsibility.
+- **State:** `PACKET-READY / CONSULTANT-OFFER-PENDING-MANUAL-LAUNCH`.
+- **Gate update:** the former blanket project-wide training standdown is no longer treated as a hard gate after Nathan's newer 2026-09-14 directive. For this blind attempt, do not preload current training that would destroy historical independence.
 
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
 - **Ravel** — current/recent H(s)H construction; Kerr construction source family evidenced. Candidate use: current-construction comparator after independent workers freeze.
-- **Meridian** — source-first geometry/solver reconstruction; explicit post-gate remit includes UI/TX, Whirligig/Donut and Spheres. Candidate use: blinded solver-stack reconstruction/benchmark.
+- **Meridian** — source-first geometry/solver reconstruction; explicit remit includes UI/TX, Whirligig/Donut and Spheres. Candidate use: blinded solver-stack reconstruction/benchmark.
 - **Calder** — current coordination surfaces describe representation invariance/covariance and slice-artifact work. Candidate use: independent representation/readout audit.
 - **Mercer** — retrieval/index/provenance/documentation QA. Candidate use: source-packet integrity and ancestry checks rather than forward solving.
 - **Morrow** — continuity/source identity/contextual provenance; automation retired, consultancy preserved. Candidate use: source-family reconstruction/continuity questions.
@@ -60,6 +62,14 @@ Prefer revival candidates whose source history differs materially from the curre
 - playful/experimental work that may preserve abandoned geometry;
 - provenance or historiographic knowledge;
 - a useful known failure mode for stress-testing current methods.
+
+## Assignment norm
+
+Revival/current assignments should be framed as invitations rather than coercive scripts wherever feasible:
+
+> If you want to, and if you think it makes sense according to your own judgment — considering current workflow functionality and consulting Sable where useful — have a go. If the task is badly posed, duplicative, blocked, stale, or not the best use of your capabilities, say so and suggest a better bounded operation.
+
+Workers may advise on workflow. Sable alone owns cross-lane workflow redesign unless Nathan explicitly assigns that authority elsewhere.
 
 ## First rotation design
 
