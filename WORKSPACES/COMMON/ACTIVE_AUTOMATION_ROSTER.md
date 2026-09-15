@@ -1,58 +1,70 @@
 # Active automation roster
 
-**Program:** Prototype Mover / capability-and-revival transition  
-**Snapshot:** 2026-09-14 ~21:45 EDT  
-**Purpose:** operational roster only; schedules and roles may be changed by newer Nathan directives or central workflow control.
+**Program:** Hourly SAT/H(s)H worker loops + Sable continuity  
+**Snapshot:** 2026-09-14 ~22:17 EDT  
+**Purpose:** operational roster only; newer Nathan directives and Sable continuity may change schedules/roles.
 
-Read `AUTOMATION_WORKFLOW_CONTROL.md`, `COORDINATION.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, `REVIVAL_ROTATION_PROTOCOL.md`, and Sable's `CONTINUITY_CHECKPOINT.md` for current policy/state.
+Read `AUTOMATION_WORKFLOW_CONTROL.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, current coordination/handoffs, and Sable's `CONTINUITY_CHECKPOINT.md` for current policy/state.
 
 ## Enabled recurring workers
 
-| Approx. hourly phase (EDT) | Worker / task | Automation ID | Primary current lane |
+| Hourly phase (EDT) | Worker / task | Automation ID | Primary lane |
 |---|---|---|---|
-| `:00` | Tag Conversation Corpus | `6aa61b3b2e4081918927a35b61007acc` | systematic cumulative Nathan-authored corpus tagging/enrichment, provenance relationships, coordination |
-| `:17` | Nathan Words Excavator | `6aa5890bd0f081918f528b4f94990653` | durable Nathan Direct substrate/provenance; Stage-2 winnow/enrichment on already-packaged material |
-| `:28` | Meridian Mover Trial | `6aa6c3bc02b48191b8a91a30d2a155e0` | source-first geometry/solver/library lane subject to current controls; explicit historical/current solver remit includes UI/TX, Whirligig/Donut and Spheres |
-| `:45` | **Sable Systems Loop** | `6aa80ddccc888191a6a9b2c073f434b7` | hourly systems analysis, revival rotation, Dashboard/control-plane maintenance, cross-instance monitoring, automation/workflow adaptation, tools/data/reconstruction-capability testing, continuity |
-| `:52` | Mercer Archive Mover | `6aa6c2792c9c8191ab2c128a80c437cf` | index/retrieval QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation |
+| `:00` | Tag Conversation Corpus | `6aa61b3b2e4081918927a35b61007acc` | broad cumulative Nathan-authored corpus tagging/enrichment, context/provenance relationships, tagging QA |
+| `:12` | Nathan Words Excavator | `6aa5890bd0f081918f528b4f94990653` | Nathan Direct substrate/provenance, packaging, chronology, adjacency, targeted Stage-2 provenance work |
+| `:28` | Meridian Solver Loop | `6aa6c3bc02b48191b8a91a30d2a155e0` | SAT geometric solver/source-first reconstruction: Whirligig/Donut, UI/TX, Three Spheres, Hagalaz integration; representation/library support |
+| `:45` | **Sable Systems Loop** | `6aa80ddccc888191a6a9b2c073f434b7` | system capability, Dashboard, revival/reentry, cross-monitoring, automation/workflow design, continuity, tools/data/reconstruction probes |
+| `:52` | Mercer Archive QA Loop | `6aa6c2792c9c8191ab2c128a80c437cf` | archive/index/retrieval/provenance/documentation QA and reproducibility |
 
-Staggering reduces direct collision but does not guarantee non-overlap. Shared writes still require current-source checks and handoffs.
+Staggering reduces collisions and creates a loose pipeline: tags → direct/provenance → solver/reconstruction → Sable system review/adaptation → archive/retrieval QA. This ordering is operational, not an authority hierarchy.
 
-## Sable broad workflow clearance — 2026-09-14
+## Common autonomy / continuity model
 
-Nathan explicitly cleared Sable to pursue/implement the systems/revival plans and adjust them as useful, with an hourly recurrence and flexible internal task rotation. Sable may adjust recurring workflows when needed for continuity/leverage, but must preserve:
+All enabled loops are hourly and follow `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
 
-- **Fundamental Intuitions Extended** as core methodological/conceptual anchor, operationally including explicitly H(s)H hypotheses/tentative structures and earlier SAT physics hypotheses as material to investigate faithfully;
-- sandbox limits for theory-bearing construction/reconstruction;
-- quarantine boundaries, including PRIOR_ART separation;
-- useful instance divergence and independent-first-pass conditions;
-- evidence discipline: no output/source claim beyond the precise checks actually performed.
+Each worker may use its own judgment inside its lane: accept, decline, redirect, propose a better bounded task, or pursue a safe alternate when the nominal task is blocked, stale, duplicated, unsafe, underdefined, or lower-value.
 
-Sable should use `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md` to distinguish intentional silence, reassignment, automation failure, drift, blockage, stale state, and possible conversation cutoff before rerouting duties.
+Assignments should be understood as:
+
+> **If you want to, and if you think it makes sense according to your own judgment — considering current workflow functionality and consulting Sable where useful — pursue it. If not, say why and choose/propose the better safe bounded operation.**
+
+Workers maintain durable checkpoints/handoffs sufficient to survive conversation cutoff.
+
+## Workflow-design authority
+
+Workers may propose changes, volunteer, request handoffs, flag drift/waste, and critique interfaces.
+
+**Only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair unless Nathan explicitly assigns that authority elsewhere.** Sable should consult workers and use their local expertise while maintaining the system-wide map.
+
+## Current hard boundaries
+
+Nathan's newer 2026-09-14 directive supersedes the old blanket project-wide training standdown as a hard gate. Training remains available/required where it materially improves a task.
+
+Current hard boundaries:
+- Fundamental Intuitions Extended fidelity under the broad current SAT/H(s)H remit;
+- sandbox limitation for theory-bearing work;
+- quarantine adherence / PRIOR_ART separation;
+- evidence discipline and honest source/exposure history.
 
 ## Transitioned / intentionally folded functions
 
 | Worker/function | Prior automation | Current status |
 |---|---|---|
-| **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` formerly hourly `:40` | **DISABLED 2026-09-14.** Specialist/consultant retained; preserve outputs/checkpoints. |
-| **Aldus** | no enabled recurring automation in current snapshot | Specialist/consultant unless newer directive changes this. |
-| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | **DISABLED / FUNCTION ABSORBED.** Revival rotation is internally time-cycled inside Sable Systems Loop to avoid duplicate automation. |
+| **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` | DISABLED / specialist-consultant retained; preserve checkpoints/outputs. |
+| **Aldus** | no enabled recurring automation | specialist-consultant unless newer directive changes this. |
+| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | DISABLED / function absorbed into Sable Systems Loop. |
+| **Alberr** | historical/manual revival | REV-001 packet ready; standing consultant/ombudsman offer pending manual launch/acceptance. |
+
+## Alberr offer
+
+Nathan says hi to Alberr and offers a standing consultant/ombudsman role if Alberr wants it and judges it useful. The offer is independent of any reentry score or technical task performance. See `WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md` and `INSTANCE_STRATIGRAPHY.md`.
 
 ## Control relationship
 
 - Newer explicit Nathan directives control all worker instructions.
-- Primary ownership is collision avoidance, not monopoly; independent checks are encouraged where useful.
-- A blocked worker should record the blocker and choose a safe eligible alternate when allowed.
-- Sable may repair/reassign recurring workflow under Nathan's broad clearance, but should preserve specialist context and leave durable handoffs rather than silently absorbing lanes.
-- `🔶` in a user-facing worker report means a genuinely unresolved item requires Nathan's attention.
+- Primary ownership prevents collisions, not independent checking.
+- Workers should leave durable handoffs when work crosses lanes.
+- Sable may repair/reassign recurring workflow under Nathan's current clearance, preserving specialist context, sandbox/quarantine, and useful divergence.
+- `🔶` means a genuinely unresolved item requires Nathan's attention.
 
-## Current preliminary division of labor
-
-- **Tag Corpus:** broad cumulative tagging.
-- **Nathan Words:** durable Nathan-only substrate and provenance-safe Stage-2 use.
-- **Meridian:** geometry/solver/library reconstruction and solver-canon work under current controls.
-- **Mercer:** retrieval/index selectivity QA and documentation/navigation reconciliation.
-- **Sable:** system capability, revival/reentry architecture, automation/tool/data leverage, Dashboard, continuity, cross-monitoring, controlled reconstruction experiments.
-- **Morrow/Aldus:** retained specialist/consultancy capacity; revive or assign by evidence and live problem, not historical prestige.
-
-This roster is intentionally nonfinal. Revival/reentry may add temporary or recurring workers at different historical depths; track them through `INSTANCE_STRATIGRAPHY.md` and the cleared reentry interface rather than assuming competence or chronology from names.
+This roster is intentionally nonfinal. Revival/reentry may add temporary, consultant, or recurring workers at different historical depths according to demonstrated usefulness and exposure routing.
