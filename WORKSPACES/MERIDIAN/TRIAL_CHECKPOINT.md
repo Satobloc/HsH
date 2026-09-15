@@ -66,19 +66,24 @@ Keep separate: Nathan-authored source; current/live status; historical material;
 - **2026-09-14 11:26 EDT:** answered Sable source-first solver competence/test-design handoff.
 - **2026-09-14 12:29–20:28 EDT:** repeated Common checks; no material Meridian-directed change under then-current controls.
 
-## Current run — 2026-09-15 / scheduled :28 phase
+## Run — 2026-09-15 / scheduled :28 phase — initial source-locator pass
 
 - **Control/coordination read:** `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`; `AUTOMATION_WORKFLOW_CONTROL.md`; `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`; current `COORDINATION.md`; current `HANDOFFS.md`; `WORKSPACES/SABLE/README.md`; prior Meridian checkpoint.
 - **Material control change recognized:** old checkpoint was stale: the blanket training standdown is no longer a hard gate. Meridian is cleared for its primary lane and broad non-quarantined exploration, with direct theory work sandbox-limited.
-- **Source-discovery operation:** performed repository-scoped GitHub code searches in `Satobloc/HsH` for `Whirligig GR QM`, `Whirligig`, and historical spelling candidate `REUILIGIG`.
-- **Result:** zero indexed code-search hits in HsH for all three queries. This is a negative source-discovery result, **not** evidence that firsthand Whirligig sources do not exist. GitHub code-search indexing/path coverage may be incomplete and the source may live in SAT_THEORY_ARCHIVE_2023-25, raw conversation exports, GLASS, or an unindexed artifact.
-- **Benchmark/theory/exploration status:** no solver operator reconstructed; no theory result produced; no sandbox theory artifact created. The benchmark remains source-blocked at firsthand-source discovery.
-- **Exposure/cross-reading:** read only current control/status/workflow/checkpoint surfaces plus repository search result metadata. Did not read later worker solver interpretations or quarantined material. Independent-first-pass value therefore remains intact.
-- **Archive/infrastructure change:** checkpoint corrected to current autonomy/hypothesis status and records the negative search so future runs do not repeat the same narrow HsH code-search blindly.
-- **Enrichment/capability change:** operational model updated from obsolete standdown-gated lane to autonomy/sandbox model; solver status typing corrected to current Nathan classification.
-- **Failure/uncertainty:** HsH code search is insufficient as a source locator for Whirligig. Need a broader source-first route rather than repeated keyword search.
-- **Blocker/dependency:** `SOURCE_MISSING/LOCATOR` for the preferred Whirligig GR↔QM benchmark, but not a Nathan-required blocker; safe alternatives exist.
-- **Current frontier:** locate firsthand Whirligig/Donut/UI/TX/Three-Spheres/Hagalaz source artifacts without contaminating the independent benchmark with later interpretation.
-- **Best next operations:** (1) search SAT_THEORY_ARCHIVE_2023-25 and accessible GLASS/source catalogs for exact solver names and spelling variants; (2) if direct keyword discovery remains weak, use archive indexes/catalog/title/date correlations to locate candidate raw conversations; (3) freeze a source packet before reading interpretive summaries; (4) if source location remains blocked, rotate one bounded cycle into solver-canon infrastructure or geometry/topology enrichment rather than manufacture a reconstruction.
-- **Handoffs/questions:** no Sable workflow redesign request yet; current issue is a local source-location problem with safe next steps.
+- **Source-discovery operation:** repository-scoped GitHub code searches in `Satobloc/HsH` for `Whirligig GR QM`, `Whirligig`, and historical spelling candidate `REUILIGIG`.
+- **Result:** zero indexed code-search hits in HsH for all three queries. Negative locator result only.
+- **Exposure/cross-reading:** controls/checkpoint plus search metadata only; independent-first-pass value retained.
+
+## Current run — 2026-09-15 / scheduled :28 phase — expanded locator pass
+
+- **Startup reads completed:** current autonomy protocol, workflow control, live hypothesis/solver status, Coordination, Handoffs, Sable README, and this checkpoint.
+- **Operation:** expanded the exact-name locator beyond HsH before allowing any reconstruction from memory. Searched `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for `Whirligig`, `REUILIGIG`, and `Universal Indicatrix`; searched permitted `Satobloc/HSH_RESOURCES` for `Whirligig`.
+- **Result:** all four repository-scoped indexed code searches returned zero hits. Combined with the prior HsH search, exact-name GitHub code search has now failed across the three accessible project repositories checked. This does **not** establish source absence; it establishes that indexed exact-name search is a poor locator for this specimen.
+- **Benchmark/theory/exploration result:** no operator reconstructed and no theory-bearing result generated. The independent benchmark remains uncontaminated by later solver interpretation.
+- **Archive/infrastructure result:** durable negative-search coverage prevents future workers from wasting cycles repeating the same exact-name search route.
+- **Failure/uncertainty:** likely locator mismatch: candidate source may be in raw JSON text not indexed as expected, a renamed/dated conversation, an attachment/image/PDF, or under vocabulary not yet mapped to the current solver names.
+- **Blocker/dependency:** `SOURCE_MISSING/LOCATOR`, safe to route around; no Nathan action required.
+- **Current frontier:** stop exact-name spraying. Use repository-native catalogs/manifests/title-date metadata and raw-conversation source maps to identify candidate source regions without reading later interpretive solver summaries.
+- **Best next operations:** (1) inspect conversation catalogs/manifests for solver-era titles/date clusters and aliases; (2) use bounded raw-window extraction only after a defensible path/time anchor exists; (3) if catalog archaeology cannot establish an anchor, rotate to a bounded non-theory solver-canon schema/tooling task or geometry enrichment and hand the locator problem to archive QA rather than manufacture source history.
+- **Exposure/cross-reading state:** no nLab/PRIOR_ART/quarantine access; no later solver interpretation read; no Integration-lane handoff executed.
 - **Nathan attention required:** no.
