@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - 'WORKSPACES/MERCER/validate_cross_source_integrity.py'
+      - 'WORKSPACES/MERCER/validate_cross_source_integrity_v2.py'
+      - 'WORKSPACES/MERCER/viewer_input_semantics.py'
       - 'WORKSPACES/MERCER/test_validate_cross_source_integrity.py'
       - 'WORKSPACES/MERCER/test_integrity_failure_modes.py'
       - 'WORKSPACES/MERCER/diagnose_viewer_input_dedup.py'
@@ -34,14 +36,24 @@ jobs:
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py | tee /tmp/mercer-integrity/viewer-input-dedup.json
-      - name: Production metadata validation
+      - name: Production metadata validation v2 transition gate
+        run: |
+          mkdir -p /tmp/mercer-integrity
+          python WORKSPACES/MERCER/validate_cross_source_integrity_v2.py \
+            --repo-root . \
+            --json-out /tmp/mercer-integrity/report-v2.json \
+            --md-out /tmp/mercer-integrity/report-v2.md
+          cat /tmp/mercer-integrity/report-v2.md
+      - name: Production metadata validation legacy reference
+        if: always()
+        continue-on-error: true
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/validate_cross_source_integrity.py \
             --repo-root . \
-            --json-out /tmp/mercer-integrity/report.json \
-            --md-out /tmp/mercer-integrity/report.md
-          cat /tmp/mercer-integrity/report.md
+            --json-out /tmp/mercer-integrity/report-legacy.json \
+            --md-out /tmp/mercer-integrity/report-legacy.md
+          cat /tmp/mercer-integrity/report-legacy.md
       - name: Upload reports
         if: always()
         uses: actions/upload-artifact@v4
