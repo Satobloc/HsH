@@ -100,10 +100,10 @@ Every run:
 - **2026-09-14 05:28–09:30 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
 - **2026-09-14 10:33 EDT:** full-read `Preplantricist_role.md` and `HsH_Pipeline_Design.md`; posted pre-meeting report; role direction sharpened to Indicatricist / Solver Metrologist.
 - **2026-09-14 11:26 EDT:** answered Sable's source-first solver competence/test-design handoff; no solver/theory work resumed.
-- **2026-09-14 12:29–18:27 EDT:** repeated Common checks showed no Meridian-relevant release, reassignment, meeting convening, or new handoff; preserved deliberate maintenance/no-op discipline.
-- **2026-09-14 19:31 EDT:** Common checked again; same controlling state. No duplicate work undertaken.
+- **2026-09-14 12:29–19:31 EDT:** repeated Common checks showed no Meridian-relevant release, reassignment, meeting convening, or new handoff; preserved deliberate maintenance/no-op discipline.
+- **2026-09-14 20:28 EDT:** Common checked again; standdown and pre-meeting state unchanged; no duplicate work undertaken.
 
-## Current run — 2026-09-14 19:31 EDT / scheduled :28 phase
+## Current run — 2026-09-14 20:28 EDT / scheduled :28 phase
 
 - **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
 - **Controlling state:** project-wide standdown remains active; September 14 pre-meeting directive remains controlling; Integration-lane handoffs remain suspended; nLab quarantine unchanged.
