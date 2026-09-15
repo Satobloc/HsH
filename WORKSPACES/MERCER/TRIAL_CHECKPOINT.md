@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation  
-**Current through:** Run 36, 2026-09-14
+**Current through:** Run 37, 2026-09-15
 
 ## Startup / authority
 
@@ -19,18 +19,18 @@ Keep Nathan-authored direct material, present Nathan testimony, archive-corrobor
 
 ### Viewer / manifests
 
-Canonical Viewer catalog: `CONVERSATION_VIEWER/data/conversations.json`. Last verified source state: 374 conversations = 365 development / 9 live. Arithmetic is 364 accepted development-manifest records + 9 live-manifest records + 1 registered external development-class record. Registered external corpus labels do not imply manifest membership.
+Viewer state moved substantially on 2026-09-15. Current fetched `CONVERSATION_VIEWER/data/conversations.json` reports source state `2026-09-15T04:31:30.545330+00:00`, 448 conversations = 439 development / 9 live, and declares a development-manifest input generated `2026-09-15T04:31:30.209813+00:00` with 560 records / 439 accepted JSON conversations.
 
-Last inspected development manifest state: generated `2026-09-13T12:30:33.434526+00:00`, 365 unchanged / 114 skipped / 48 blocked / 1 collision. Sole collision is the byte-identical SAT_CONVOS_15 pair:
+At Run-37 inspection, however, current default-branch `indexes/manifests/development-conversation-dates.json` still exposed the older generation `2026-09-13T12:30:33.434526+00:00`, 365 unchanged / 114 skipped / 48 blocked / 1 collision. A newer `Maintain H(s)H navigation` workflow was pending, so treat this as a **convergence/freshness split** until terminal navigation state is checked. Do not yet canonize the 448 count or declare the old SAT_CONVOS_15 collision resolved.
 
+Previously verified sole collision was the byte-identical SAT_CONVOS_15 pair:
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json`
-
-Both previously verified as blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`, conversation ID `6a393d4e-0950-83ea-bcfd-b9ceb4783caf`. Owner disposition is required before 48 queued normalizations can clear. Do not conflate the distinct SAT_CONVOS_11 snapshot.
+Both had blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`, conversation ID `6a393d4e-0950-83ea-bcfd-b9ceb4783caf`. Re-evaluate only against settled regenerated state; do not conflate the distinct SAT_CONVOS_11 snapshot.
 
 ### Autotag / Nathan Direct
 
-Current coherent counts: autotag 69,927 records / 21,451 user records; Nathan Direct 14,306 packaged unique + 7,145 collapsed duplicates = 21,451; yearly shards 293 + 306 + 4,801 + 8,906 = 14,306; Stage 2 `source_records = 14306`. Historical 388→387 conversation and 21,499→21,451 user-record reductions were reconciled to the known held/deleted legal raw source, not indexing loss.
+Last coherent counts: autotag 69,927 records / 21,451 user records; Nathan Direct 14,306 packaged unique + 7,145 collapsed duplicates = 21,451; yearly shards 293 + 306 + 4,801 + 8,906 = 14,306; Stage 2 `source_records = 14306`. Historical 388→387 conversation and 21,499→21,451 user-record reductions were reconciled to the known held/deleted legal raw source, not indexing loss.
 
 Preferred package-count surface: `indexes/nathan-direct/MANIFEST.json`. Machine-readable autotag-side generation/freshness lineage remains unconfirmed.
 
@@ -44,11 +44,9 @@ Durable implementation:
 
 Validator is read-only and metadata-only; classes are `PASS/WARN/BLOCKED/FAIL/UNKNOWN`. `BLOCKED` is operational dependency, not corruption.
 
-Run 34 production execution on complete checkout succeeded: **12 PASS / 1 BLOCKED / 0 FAIL / 0 WARN / 0 UNKNOWN**. Sole BLOCKED item was the known development-manifest collision state.
+Run 34 production execution on complete checkout succeeded: **12 PASS / 1 BLOCKED / 0 FAIL / 0 WARN / 0 UNKNOWN**; sole BLOCKED item was the then-known development-manifest collision state.
 
-Run 35 added six synthetic specimens: clean PASS, stale Viewer WARN, Viewer count FAIL, Nathan Direct arithmetic FAIL, Stage-2 continuity FAIL, declared collision BLOCKED-without-FAIL. CI run `34918942881` subsequently failed specifically at the failure-mode harness while the older regression fixture passed and production validation was skipped.
-
-Run 36 isolated the failure to stale/nonexistent check IDs in the harness, not changed expected classifications. `test_integrity_failure_modes.py` now calls the validator's actual IDs (`viewer.input_freshness.development`, `nathan_direct.user_record_arithmetic`, `nathan_direct.stage2_source_continuity`, and the manifest operational-blocker ID). Repair commit `fd948c412436a295eebaf78689b7e49325a8dc82`. Triggered Mercer workflow run `34926821342` was queued at Run-36 close; do not claim green until terminal result is inspected. Run record: `WORKSPACES/MERCER/RUN_036_2026-09-14.md`.
+Runs 35–36 added six synthetic specimens and repaired stale harness check IDs without weakening expected classifications. Run 37 confirmed GitHub Actions run `34926821342` completed **success** on repair commit `fd948c412436a295eebaf78689b7e49325a8dc82`: regression fixture, six-specimen competence harness, production metadata validation, and report upload all succeeded. Artifact `10379809650`, digest `sha256:edc63c62dbe5b712091a2fb805aaab7ef38bf833772389291fdfa97170f9e0a1`. Freeze these six specimens as the initial competence set; expand only for observed failure classes or materially new contracts.
 
 ### MORROW-SOURCE-001
 
@@ -56,7 +54,7 @@ Code-side resolved / historical-output-side pending. Comparator hashes the entir
 
 ### Historical glossary / standard crosswalk
 
-Source inventory/custody work is complete; direct raw-message ancestry remains unresolved for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt`. Current phrase-search, Viewer-candidate, and intrinsic-fingerprint routes were exhausted in Runs 16–22. Reopen only with a stronger source anchor (exact paste, explicit generation instruction, raw-message match, original metadata, or independently attributable relation).
+Source inventory/custody work is complete; direct raw-message ancestry remains unresolved for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt`. Current phrase-search, Viewer-candidate, and intrinsic-fingerprint routes were exhausted in Runs 16–22. Reopen only with a stronger source anchor.
 
 ### Durable documentation / role development
 
@@ -68,7 +66,8 @@ Source inventory/custody work is complete; direct raw-message ancestry remains u
 
 ## Open dependencies
 
-- `OWNER ACTION`: SAT_CONVOS_15 exact duplicate disposition + canonical regeneration.
+- `CONVERGENCE CHECK`: Viewer currently declares a newer development-manifest generation than the default-branch manifest actually fetched; navigation workflow was pending at Run-37 inspection. Recheck after terminal navigation before classifying as defect.
+- `OWNER ACTION / RECHECK AFTER CONVERGENCE`: historical SAT_CONVOS_15 exact duplicate disposition + canonical regeneration; do not assume still open or resolved until settled manifest state is fetched.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `DEPENDENCY`: machine-readable autotag-side generation/freshness lineage.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -78,8 +77,8 @@ Source inventory/custody work is complete; direct raw-message ancestry remains u
 
 ## Run history
 
-Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance investigation; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 full-checkout production validation + CI harness; 35 failure-mode competence/regression harness; 36 CI failure diagnosis + harness check-ID repair.
+Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance investigation; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 full-checkout production validation + CI harness; 35 failure-mode competence/regression harness; 36 CI failure diagnosis + harness check-ID repair; 37 green repaired harness confirmation + Viewer/manifest convergence-state split.
 
 ## Best next operation
 
-Inspect terminal result/logs for Mercer workflow run `34926821342`. If it passes, freeze the six Run-35/36 specimens as the initial source-integrity competence set and add specimens only when tied to observed failures; then inspect whether fresh navigation generation changed the manifest/Viewer collision state. If it fails, repair the demonstrated harness/contract defect without weakening expected classifications. If the SAT_CONVOS_15 pair is dispositioned or canonical manifests/Viewer regenerate first, verify changed state and zero collision-induced blocking. Do not reopen exhausted provenance searches without new evidence.
+After current navigation reaches terminal state, refetch `indexes/manifests/development-conversation-dates.json` and `CONVERSATION_VIEWER/data/conversations.json`, then run/review cross-source integrity against the settled commit. If they converge, record new canonical counts and collision status. If they remain split after terminal navigation, classify as reproducible generated-state integrity defect and route a concise handoff to Sable/navigation maintenance. Do not reopen exhausted provenance searches without new evidence.
