@@ -2,31 +2,30 @@
 
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
-**Role:** index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation  
-**Current through:** Run 37, 2026-09-15
+**Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
+**Current through:** Run 38, 2026-09-15
 
 ## Startup / authority
 
-Every run read `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Nathan directives control.
+Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first and treat it as a hard UX rule: never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Nathan directives control.
 
 The former blanket training standdown is superseded as a hard gate. Direct theory-bearing work/development remains sandbox-limited; quarantine remains hard/off-limits. Mercer may explore broadly but owns the reliability layer between raw/tagged material and navigation/retrieval. Do not silently absorb familiarity-dependent conversation-family causality/context interpretation or the active Nathan-words extraction/tagging lane.
 
 ## Epistemic boundary
 
-Keep Nathan-authored direct material, present Nathan testimony, archive-corroborated history, established/tentative theory status, displaced/quarantined material, assistant interpretation, and Mercer reconstruction distinct. Repository proximity, worker agreement, generated metadata, thematic similarity, clean indexing, or successful automated checks never confer theory correctness or authority.
+Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, sandbox status, and quarantine status distinct. Repository proximity, worker agreement, generated metadata, thematic similarity, clean indexing, or successful automated checks never confer theory correctness or authority.
 
 ## Current verified state
 
 ### Viewer / manifests
 
-Viewer state moved substantially on 2026-09-15. Current fetched `CONVERSATION_VIEWER/data/conversations.json` reports source state `2026-09-15T04:31:30.545330+00:00`, 448 conversations = 439 development / 9 live, and declares a development-manifest input generated `2026-09-15T04:31:30.209813+00:00` with 560 records / 439 accepted JSON conversations.
+Run 38 closed the Run-37 convergence split. Current default-branch `indexes/manifests/development-conversation-dates.json` is generated `2026-09-15T07:15:03.960820+00:00`; current `CONVERSATION_VIEWER/data/conversations.json` declares that exact generation as its development input and has source state `2026-09-15T07:15:04.276513+00:00`.
 
-At Run-37 inspection, however, current default-branch `indexes/manifests/development-conversation-dates.json` still exposed the older generation `2026-09-13T12:30:33.434526+00:00`, 365 unchanged / 114 skipped / 48 blocked / 1 collision. A newer `Maintain H(s)H navigation` workflow was pending, so treat this as a **convergence/freshness split** until terminal navigation state is checked. Do not yet canonize the 448 count or declare the old SAT_CONVOS_15 collision resolved.
+Current development-manifest summary: **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. The older `48 blocked` description is obsolete under the current generator state. One collision remains; do not declare the historical SAT_CONVOS_15 duplicate disposition resolved until directly established.
 
-Previously verified sole collision was the byte-identical SAT_CONVOS_15 pair:
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json`
-Both had blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`, conversation ID `6a393d4e-0950-83ea-bcfd-b9ceb4783caf`. Re-evaluate only against settled regenerated state; do not conflate the distinct SAT_CONVOS_11 snapshot.
+Current Viewer: **453 conversations**, top-level `development: 439`, `live: 9`, `source_conversations_before_curation: 453`. Inputs report 560 development-manifest records / 439 accepted JSON conversations; 13 live-manifest records / 9 accepted; and 6 discovered-external records / 6 accepted.
+
+`CONVERSATION_VIEWER/data/discovered_external_conversations.json` now reports 6 merged external conversations: 1 manual (`Srena — H(s)H`, corpus `development`) + 5 structurally discovered public cross-repo conversations inspected as `glass-public`. Therefore naive accepted-input summation is not a valid Viewer-total invariant without builder merge/deduplication/corpus semantics. Next validator work must be source-code grounded, not arithmetic relaxation.
 
 ### Autotag / Nathan Direct
 
@@ -44,9 +43,9 @@ Durable implementation:
 
 Validator is read-only and metadata-only; classes are `PASS/WARN/BLOCKED/FAIL/UNKNOWN`. `BLOCKED` is operational dependency, not corruption.
 
-Run 34 production execution on complete checkout succeeded: **12 PASS / 1 BLOCKED / 0 FAIL / 0 WARN / 0 UNKNOWN**; sole BLOCKED item was the then-known development-manifest collision state.
+Run 37 confirmed Actions run `34926821342` completed success on repair commit `fd948c412436a295eebaf78689b7e49325a8dc82`: regression fixture, six-specimen competence harness, production metadata validation, and report upload all succeeded. Artifact `10379809650`, digest `sha256:edc63c62dbe5b712091a2fb805aaab7ef38bf833772389291fdfa97170f9e0a1`. Keep the original six specimens frozen unless an observed failure class or materially new contract warrants expansion.
 
-Runs 35–36 added six synthetic specimens and repaired stale harness check IDs without weakening expected classifications. Run 37 confirmed GitHub Actions run `34926821342` completed **success** on repair commit `fd948c412436a295eebaf78689b7e49325a8dc82`: regression fixture, six-specimen competence harness, production metadata validation, and report upload all succeeded. Artifact `10379809650`, digest `sha256:edc63c62dbe5b712091a2fb805aaab7ef38bf833772389291fdfa97170f9e0a1`. Freeze these six specimens as the initial competence set; expand only for observed failure classes or materially new contracts.
+Run 38 observed exactly such a materially new contract candidate: the Viewer now consumes a six-record discovered-external surface with mixed corpus labels and possible merge/deduplication semantics. Inspect builder code against validator before changing tests or contract; if mismatched, add one regression specimen for this observed semantics change first.
 
 ### MORROW-SOURCE-001
 
@@ -61,13 +60,13 @@ Source inventory/custody work is complete; direct raw-message ancestry remains u
 - `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` established Run 13.
 - Mercer README/CONTINUITY and Viewer documentation reconciled in Runs 23–28.
 - `NATHAN_LIVE_THEORY_DEVELOPMENT_LOG.md` has durable September 13 referents; exact raw IDs remain pending attributable export.
-- `PRE_MEETING_REPORT_2026-09-14.md` records tentative role direction: **Source Integrity Metrologist** — provenance-safe retrieval/index QA, generated-state integrity, archive-facing competence/regression tests.
+- `PRE_MEETING_REPORT_2026-09-14.md` records tentative role direction: **Source Integrity Metrologist**.
 - Safe Morrow inheritance: deterministic UUID/path/checksum/index reconciliation and machine-readable provenance joins. Do not inherit contextual causality/dialogue-significance judgments by default.
 
 ## Open dependencies
 
-- `CONVERGENCE CHECK`: Viewer currently declares a newer development-manifest generation than the default-branch manifest actually fetched; navigation workflow was pending at Run-37 inspection. Recheck after terminal navigation before classifying as defect.
-- `OWNER ACTION / RECHECK AFTER CONVERGENCE`: historical SAT_CONVOS_15 exact duplicate disposition + canonical regeneration; do not assume still open or resolved until settled manifest state is fetched.
+- `VALIDATOR CONTRACT REVIEW`: inspect current Viewer builder external merge/deduplication/counting semantics against `validate_cross_source_integrity.py`; current discovered-external input is 6 records with mixed corpus labels.
+- `OWNER ACTION / RECHECK`: current development manifest still has 1 collision; historical SAT_CONVOS_15 exact duplicate disposition not yet established. Prior `48 blocked` wording is obsolete; current manifest has 74 planned.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `DEPENDENCY`: machine-readable autotag-side generation/freshness lineage.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -77,8 +76,12 @@ Source inventory/custody work is complete; direct raw-message ancestry remains u
 
 ## Run history
 
-Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance investigation; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 full-checkout production validation + CI harness; 35 failure-mode competence/regression harness; 36 CI failure diagnosis + harness check-ID repair; 37 green repaired harness confirmation + Viewer/manifest convergence-state split.
+Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance investigation; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 full-checkout production validation + CI harness; 35 failure-mode competence/regression harness; 36 CI failure diagnosis + harness check-ID repair; 37 green repaired harness confirmation + transient Viewer/manifest split; 38 settled Viewer/manifest convergence + new discovered-external accounting semantics identified.
+
+## Last material run
+
+`WORKSPACES/MERCER/RUN_038_2026-09-15.md` records exact Run-38 coverage, checks, limits, and next operation.
 
 ## Best next operation
 
-After current navigation reaches terminal state, refetch `indexes/manifests/development-conversation-dates.json` and `CONVERSATION_VIEWER/data/conversations.json`, then run/review cross-source integrity against the settled commit. If they converge, record new canonical counts and collision status. If they remain split after terminal navigation, classify as reproducible generated-state integrity defect and route a concise handoff to Sable/navigation maintenance. Do not reopen exhausted provenance searches without new evidence.
+Inspect current Viewer builder code for discovered-external merge, deduplication, corpus classification, and top-level count construction; compare that contract directly with `validate_cross_source_integrity.py`. If the validator is stale, first encode one regression specimen reproducing the observed six-record mixed-corpus external surface, then repair the validator without weakening unrelated invariants. If already correct, record the semantics and move to the next highest-value QA dependency.
