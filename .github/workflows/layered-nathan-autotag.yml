@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
     paths:
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.txt'
+      - 'LIVE CONVOS/**/*.json'
+      - 'LIVE CONVOS/**/*.txt'
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan.py'
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py'
       - 'WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py'
