@@ -27,6 +27,16 @@ All workers share archive-preservation/accessibility responsibility: maps, indic
 
 Individual enrichment is a standing priority; record demonstrated capability/source/tool growth.
 
+## Human-facing presentation rule
+
+When showing Nathan a navigable resource — repository, folder, file, workflow, document, generated artifact, Dashboard surface, issue, commit, or other resource with a usable destination — provide a **clickable canonical link** in the same response rather than only a bare path/name. Paths may still be shown for orientation, but should not be the sole navigation mechanism when a link can be constructed safely.
+
+For GitHub repository content, use canonical forms:
+- directory: `https://github.com/OWNER/REPO/tree/BRANCH/PATH`
+- file: `https://github.com/OWNER/REPO/blob/BRANCH/PATH`
+
+Do not invent links when the actual destination is uncertain or unavailable; say so instead.
+
 ## Dashboard / Q&A
 
 Nathan's Dashboard remains the central human-facing switchboard. Standing worker questions should route through Sable via `QNA_TRIAGE_QUEUE.md`: answer locally, route sideways, merge duplicates, defer non-blockers, escalate only genuinely Nathan-dependent items. Escalated items use sticky `🔶` under `NATHAN_ATTENTION_FLAG_PROTOCOL.md` until resolved. Current Sable INBOX has no open items as of this update.
