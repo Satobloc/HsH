@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 42, 2026-09-15
+**Current through:** Run 43, 2026-09-15
 
 ## Startup / authority
 
@@ -21,25 +21,27 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 
 Settled development manifest generation: `2026-09-15T07:15:03.960820+00:00`; Viewer declares that same development input generation. Development summary: **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. One collision remains; do not declare the historical SAT_CONVOS_15 duplicate disposition resolved until directly established.
 
-Settled Viewer: **453 conversations**, `development: 439`, `live: 9`, `source_conversations_before_curation: 453`. Inputs: 439 accepted development + 9 accepted live + 6 accepted external = 454 pre-dedup accepted inputs.
+Settled Viewer: **453 conversations**, `development: 439`, `live: 9`, `source_conversations_before_curation: 453`. Viewer input metadata declares 439 accepted development + 9 accepted live + 6 accepted external = 454.
 
-Builder contract from `tools/build_conversation_viewer.py`: accepted development/live/external records are appended, then deduplicated by exact `path`; an existing record is retained unless the later duplicate has `corpus == "live"`. `source_conversations_before_curation` is computed after this path deduplication. Therefore 454 accepted inputs → 453 source conversations is compatible with one exact-path duplicate and is not by itself evidence of Viewer corruption.
+Run 43 establishes that the earlier working explanation `454 accepted -> 453 after one exact-path dedup` is not supported by reconstruction. Retained diagnostic from Actions run `34960203633` reports **no duplicate paths**, reconstructs **453 accepted total and 453 post-dedup total**, while Viewer input metadata declares 454. The discrepancy is upstream of deduplication.
 
-### Validator contract defect — OPEN, diagnostic observability repaired Run 42
+Development-manifest status arithmetic supplies the one-record location: `364 unchanged + 74 planned = 438` accepted development records under current builder status rules; live contributes 9 and discovered external contributes 6, yielding `438 + 9 + 6 = 453`. Viewer input metadata nevertheless says `accepted_json_conversations: 439` for development. Viewer catalog `development: 439` is a separate dimension because one discovered-external record itself declares corpus `development`.
 
-`WORKSPACES/MERCER/validate_cross_source_integrity.py` is stale in four related places:
-1. `viewer.accepted_input_arithmetic` compares raw accepted-input sum directly to post-dedup `source_conversations_before_curation`.
-2. `viewer.manifest_record_reconciliation` excludes every Viewer development/live record whose path appears in its external path set, even when a manifest record wins builder precedence.
-3. `viewer.external_registry_reconciliation` can match by path/corpus/count without establishing survivor provenance after path deduplication.
+Current `tools/build_conversation_viewer.py` and `diagnose_viewer_input_dedup.py` agree on excluding `skipped`, `collision`, and `blocked`. Do not infer the historical cause of the stale/incorrect `439` input count until commit-level generation provenance is reconstructed.
+
+### Validator contract defect — OPEN
+
+`WORKSPACES/MERCER/validate_cross_source_integrity.py` remains stale in these areas:
+1. `viewer.accepted_input_arithmetic` compares Viewer-declared accepted-input sum directly to post-dedup `source_conversations_before_curation` rather than independently reconstructing acceptance from the declared source inputs.
+2. `viewer.manifest_record_reconciliation` excludes Viewer records by external-path presence without establishing survivor provenance.
+3. `viewer.external_registry_reconciliation` does not establish survivor provenance after path deduplication.
 4. Validator hardcodes `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json`, while current Viewer consumed `CONVERSATION_VIEWER/data/discovered_external_conversations.json` (1 manual + 5 structurally discovered public cross-repo records).
 
-Run 41 added read-only `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py`. Actions run `34954998631` completed **failure** specifically at that diagnostic step; ordinary regression fixture and frozen six-specimen competence harness passed, production validation was skipped. No artifact was retained because `/tmp/mercer-integrity` had not yet been created.
+Run 43 production artifact `10392707034` has digest `sha256:6d1226df87aaa57836e41227df6c263a78b463a9fee3c692751f1eed378b16dd`. Production validator result is `FAIL` only at `viewer.accepted_input_arithmetic`, with the development-manifest collision separately `BLOCKED`; 11 other checks pass.
 
-Run 42 re-read builder and diagnostic code; relevant acceptance/dedup semantics still appear aligned. Rather than infer the mismatch, CI was repaired to create `/tmp/mercer-integrity` before the diagnostic and tee its JSON to `viewer-input-dedup.json`, while preserving nonzero failure propagation. Workflow commit: `c30dfcd8d52c1189d3b7ea3cddaf0f5051ded975`. The next run of the workflow should therefore retain exact mismatch/duplicate provenance even on failure.
+The seventh competence specimen should now encode the **observed declared-acceptance drift with zero path duplicates**, not a synthetic duplicate-path case. Freeze that before repairing the validator.
 
-Repair remains one source-code-grounded precedence model: resolve external source from Viewer `inputs[]`, normalize accepted manifest records under builder rules, append Viewer-declared external records, replay exact-path precedence, then compare accepted totals, deduplicated totals, survivor provenance, and metadata. Do not weaken unrelated invariants.
-
-### Source-integrity validator / competence harness
+### Source-integrity machinery
 
 Durable implementation:
 - `WORKSPACES/MERCER/validate_cross_source_integrity.py`
@@ -48,11 +50,11 @@ Durable implementation:
 - `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py`
 - `.github/workflows/mercer-cross-source-integrity.yml`
 
-Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is operational dependency, not corruption. Run 37 confirmed original regression fixture + frozen six-specimen competence harness green at Actions run `34926821342`, artifact `10379809650`, digest `sha256:edc63c62dbe5b712091a2fb805aaab7ef38bf833772389291fdfa97170f9e0a1`. Those six specimens remain frozen; observed Runs 39–42 contract warrants one additional specimen after exact diagnostic output is captured.
+Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is operational dependency, not corruption. Original regression fixture + frozen six-specimen competence harness remain green. Do not weaken those six when adding specimen seven.
 
-### Autotag / Nathan Direct
+### Nathan Direct / autotag
 
-Last coherent counts: autotag 69,927 records / 21,451 user records; Nathan Direct 14,306 packaged unique + 7,145 collapsed duplicates = 21,451; yearly shards 293 + 306 + 4,801 + 8,906 = 14,306; Stage 2 `source_records = 14306`. Preferred package-count surface: `indexes/nathan-direct/MANIFEST.json`. Machine-readable autotag-side generation/freshness lineage remains unconfirmed.
+Run-43 production artifact records current Nathan Direct arithmetic at **15,133 packaged unique + 7,625 collapsed duplicates = 22,758 input user records**. Year shards sum to 15,133 (`293 + 306 + 5,467 + 9,067`), and Stage-2 `source_records = 15133`. Preferred package-count surface: `indexes/nathan-direct/MANIFEST.json`. Machine-readable autotag-side generation/freshness lineage remains unconfirmed.
 
 ### MORROW-SOURCE-001
 
@@ -68,7 +70,7 @@ Source inventory/custody work complete; direct raw-message ancestry remains unre
 
 ## Open dependencies
 
-- `VALIDATOR REPAIR`: exact-path dedup/preference semantics + stale external-source lineage established Runs 39–40; Run 41 diagnostic failed before production validation; Run 42 repaired diagnostic-output retention. Exact mismatch/duplicate result + seventh regression specimen + coherent validator repair remain.
+- `VALIDATOR REPAIR`: exact observed failure is now captured: Viewer declares 454 accepted, source reconstruction yields 453, no duplicate paths. Seventh specimen + generation-history provenance + coherent validator repair remain.
 - `OWNER ACTION / RECHECK`: development manifest still has 1 collision; historical SAT_CONVOS_15 exact duplicate disposition not established.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `DEPENDENCY`: machine-readable autotag-side generation/freshness lineage.
@@ -79,12 +81,15 @@ Source inventory/custody work complete; direct raw-message ancestry remains unre
 
 ## Run history
 
-Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 production validation + CI; 35 failure-mode harness; 36 harness interface repair; 37 green harness + transient Viewer/manifest split; 38 settled convergence + external accounting change; 39 source-code isolation of exact-path dedup validator defect; 40 external-registry lineage defect isolated; 41 full-checkout dedup diagnostic + CI instrumentation; 42 failed diagnostic confirmed + failure-output observability repair.
+Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 production validation + CI; 35 failure-mode harness; 36 harness interface repair; 37 green harness + transient Viewer/manifest split; 38 settled convergence + external accounting change; 39–40 initial dedup/external-lineage diagnosis; 41 diagnostic instrumentation; 42 failure-output observability repair; **43 retained diagnostic falsified the path-dedup explanation and localized the discrepancy to development accepted-input metadata**.
 
 ## Last material run
 
-`WORKSPACES/MERCER/RUN_042_2026-09-15.md` records exact Run-42 coverage, Actions failure diagnosis, code recheck, CI observability repair, limits, and next operation.
+`WORKSPACES/MERCER/RUN_043_2026-09-15.md` records exact Run-43 coverage, retained diagnostic, revised interpretation, limits, and next operation.
 
-## Best next operation
+## Best next operations
 
-Inspect the integrity run triggered by workflow commit `c30dfcd8d52c1189d3b7ea3cddaf0f5051ded975`. Retrieve retained `viewer-input-dedup.json` whether the diagnostic passes or fails. Freeze the exact observed duplicate/mismatch semantics as specimen seven before changing `validate_cross_source_integrity.py`. Then run frozen six + specimen seven before production validation. If source state changes first, re-establish settled input lineage before patching.
+1. Add specimen seven reproducing Viewer-declared development acceptance `439` versus source-reconstructed `438`, with zero path duplicates and internally consistent post-reconstruction cardinality.
+2. Reconstruct the Viewer generation commit/history enough to identify why the declared development acceptance diverged from the referenced manifest under current builder rules; distinguish older generator behavior, stale/generated publish transaction, or another deterministic source.
+3. Only then repair `validate_cross_source_integrity.py` to separate source-input acceptance reconciliation, post-dedup cardinality, survivor provenance, and catalog corpus counts. Run frozen six + specimen seven before production validation.
+4. Keep the SAT_CONVOS_15 collision as a separate `BLOCKED` dependency.
