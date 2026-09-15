@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/SCRIPT_RUN_MANIFEST_SCHEMA.json",
+  "title": "SAT/H(s)H Cross-Repo Script Run Manifest",
+  "type": "object",
+  "required": [
+    "run_id",
+    "tool",
+    "started_at",
+    "inputs",
+    "write_scope",
+    "mode",
+    "status"
+  ],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1},
+    "tool": {
+      "type": "object",
+      "required": ["name", "version_or_commit"],
+      "properties": {
+        "name": {"type": "string"},
+        "version_or_commit": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "started_at": {"type": "string"},
+    "finished_at": {"type": ["string", "null"]},
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["repository", "commit_sha", "read_roots"],
+        "properties": {
+          "repository": {"type": "string"},
+          "commit_sha": {"type": "string"},
+          "read_roots": {"type": "array", "items": {"type": "string"}},
+          "quarantine_roots_pruned": {"type": "integer", "minimum": 0}
+        },
+        "additionalProperties": true
+      }
+    },
+    "write_scope": {
+      "type": "object",
+      "required": ["repositories", "paths"],
+      "properties": {
+        "repositories": {"type": "array", "items": {"type": "string"}},
+        "paths": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "mode": {
+      "enum": ["read-only", "append-only", "replace-generated", "semantic-update", "migration"]
+    },
+    "seed": {},
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": ["string", "null"]},
+          "source_identity": {"type": ["string", "null"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "published_commits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["repository", "commit_sha"],
+        "properties": {
+          "repository": {"type": "string"},
+          "commit_sha": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "status": {"enum": ["running", "success", "failed", "aborted", "needs-reconciliation"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
