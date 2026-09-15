@@ -4,25 +4,23 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current run finding — generated-artifact publish safety has converged
+## Current run finding — mixed navigation publisher uses correct race disposition
 
-Direct inspection of `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` and `.github/workflows/layered-nathan-autotag.yml` shows that the archive-wide autotag/Nathan Direct publisher now implements the newer generated-artifact transaction rule rather than the older rebase-generated-output pattern.
+Direct inspection of `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` and `.github/workflows/maintain-navigation.yml` confirms the mixed HsH navigation workflow now follows the critical rule for a publisher that can mutate canonical/source files as well as generated derivatives.
 
-The current workflow:
-- uses a concurrency group;
-- preserves a validated generated snapshot;
-- fetches and hard-resets to current `origin/main` before each publish attempt;
-- re-lays only the declared generated `indexes/autotag` and `indexes/nathan-direct` scope;
-- revalidates the durable manifests/indexes;
-- commits and pushes without force;
-- on a push race, discards the generated commit and retries from latest main rather than rebasing/merging generated artifacts;
-- exits nonzero after bounded failed publication attempts.
+The workflow stages possible source conversation renames plus structural indexes, chronology/manifests, autotag indexes, and Viewer catalog data. If its push to `main` is rejected because `main` advanced, it does **not** rebase, merge, force-push, or replay the stale mixed snapshot. It emits an error and exits nonzero, explicitly requiring a fresh maintenance run to recompute from current main.
 
-This resolves the specific publish-transaction mismatch previously visible in the September 15 autotag workflow. It does **not** by itself establish full source -> Viewer -> autotag -> Nathan Direct -> Stage-2 convergence; that remains a separate eventual-convergence QA question.
+This matches the active INFRA-QA rule for mixed source/generated workflows: stale source mutations must not be replayed after a race. Unlike a pure generated publisher, failure-and-fresh-rerun is the safe disposition.
+
+This closes the specific mixed-navigation false-green/replay concern named in the September 15 generated-artifact publication regression class. It does not establish that every navigation run is race-free or that full source -> Viewer -> autotag -> Nathan Direct -> Stage-2 convergence holds.
+
+## Prior finding — archive-wide autotag generated-artifact publish safety
+
+The archive-wide autotag/Nathan Direct publisher implements the newer generated-artifact transaction rule rather than the older rebase-generated-output pattern: concurrency group; validated generated snapshot; fetch/hard-reset to current `origin/main`; declared generated scope only; revalidation; non-force push; discard/retry after race; visible failure after bounded retries.
 
 ## Inventory provenance handoff remains open
 
-The current private inventory remains a live, source-commit-bound observation rather than a stable project total. Current published tooling/output inspected by this automation still identifies as `sable-source-inventory/0.2.1`; the earlier human-facing continuity claim of a published `0.3.0` / `input_refs.json` state remains unsubstantiated by current-main evidence inspected here. Do not overwrite the human-facing continuity checkpoint from this backend loop; route this as worker-local handoff under `SHARED_STATE_WRITE_SAFETY.md`.
+Current published tooling/output inspected by this automation identifies as `sable-source-inventory/0.2.1`; the earlier human-facing continuity claim of a published `0.3.0` / `input_refs.json` state remains unsubstantiated by current-main evidence inspected here. Do not overwrite the human-facing continuity checkpoint from this backend loop; route this as worker-local handoff under `SHARED_STATE_WRITE_SAFETY.md`.
 
 A reusable consistency check should compare atomically:
 
@@ -38,7 +36,7 @@ No PRIOR_ART content was opened, listed, hashed, sampled, indexed, or exposed. N
 
 ## Next high-information operations
 
-1. Inspect the other publishers named in the current INFRA-QA regression class (Cross podcast transcript index, GLASS structural indexing, mixed HsH navigation) and confirm their actual current publish semantics rather than relying on the control-surface statement.
+1. Inspect the remaining publishers named in the current INFRA-QA regression class (Cross podcast transcript index and GLASS structural indexing) and confirm their actual current publish semantics.
 2. Inspect workflow-run artifacts/logs or non-main refs for the unsupported inventory `0.3.0` identifiers before deciding whether that state was transient/unpublished versus subsequently replaced.
 3. Implement or propose the reusable inventory-state consistency check above as generated QA output.
 4. Resume full source -> Viewer -> autotag -> Nathan Direct -> Stage-2 identity/count/hash convergence QA.
