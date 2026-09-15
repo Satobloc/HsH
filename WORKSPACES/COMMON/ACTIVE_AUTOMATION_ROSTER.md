@@ -1,10 +1,10 @@
 # Active automation roster
 
-**Program:** Prototype Tri(or Quin)ary Mover — pre-meeting transition
-**Snapshot:** 2026-09-14
+**Program:** Prototype Mover / capability-and-revival transition  
+**Snapshot:** 2026-09-14 ~21:45 EDT  
 **Purpose:** operational roster only; schedules and roles may be changed by newer Nathan directives or central workflow control.
 
-Read `AUTOMATION_WORKFLOW_CONTROL.md`, `COORDINATION.md`, and `NATHAN_DIRECT_WORKFLOW_STATE.md` for current policy/state. The 2026-09-14 meeting-prep call in `COORDINATION.md` is newer than the original trial setup.
+Read `AUTOMATION_WORKFLOW_CONTROL.md`, `COORDINATION.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, `REVIVAL_ROTATION_PROTOCOL.md`, and Sable's `CONTINUITY_CHECKPOINT.md` for current policy/state.
 
 ## Enabled recurring workers
 
@@ -12,40 +12,47 @@ Read `AUTOMATION_WORKFLOW_CONTROL.md`, `COORDINATION.md`, and `NATHAN_DIRECT_WOR
 |---|---|---|---|
 | `:00` | Tag Conversation Corpus | `6aa61b3b2e4081918927a35b61007acc` | systematic cumulative Nathan-authored corpus tagging/enrichment, provenance relationships, coordination |
 | `:17` | Nathan Words Excavator | `6aa5890bd0f081918f528b4f94990653` | durable Nathan Direct substrate/provenance; Stage-2 winnow/enrichment on already-packaged material |
-| `:28` | Meridian Mover Trial | `6aa6c3bc02b48191b8a91a30d2a155e0` | individually trained; currently gated by project-level standdown; future source-first geometry/solver/library role subject to meeting redesign |
+| `:28` | Meridian Mover Trial | `6aa6c3bc02b48191b8a91a30d2a155e0` | source-first geometry/solver/library lane subject to current controls; explicit historical/current solver remit includes UI/TX, Whirligig/Donut and Spheres |
+| `:45` | **Sable Systems Loop** | `6aa80ddccc888191a6a9b2c073f434b7` | hourly systems analysis, revival rotation, Dashboard/control-plane maintenance, cross-instance monitoring, automation/workflow adaptation, tools/data/reconstruction-capability testing, continuity |
 | `:52` | Mercer Archive Mover | `6aa6c2792c9c8191ab2c128a80c437cf` | index/retrieval QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation |
 
-Staggering reduces direct collision but does not guarantee non-overlap; large archive scans can run across multiple phases. Shared writes therefore still need source checks and central handoffs.
+Staggering reduces direct collision but does not guarantee non-overlap. Shared writes still require current-source checks and handoffs.
 
-## Transitioned out of recurring automation
+## Sable broad workflow clearance — 2026-09-14
 
-| Worker | Prior automation | Current status |
+Nathan explicitly cleared Sable to pursue/implement the systems/revival plans and adjust them as useful, with an hourly recurrence and flexible internal task rotation. Sable may adjust recurring workflows when needed for continuity/leverage, but must preserve:
+
+- **Fundamental Intuitions Extended** as core methodological/conceptual anchor, operationally including explicitly H(s)H hypotheses/tentative structures and earlier SAT physics hypotheses as material to investigate faithfully;
+- sandbox limits for theory-bearing construction/reconstruction;
+- quarantine boundaries, including PRIOR_ART separation;
+- useful instance divergence and independent-first-pass conditions;
+- evidence discipline: no output/source claim beyond the precise checks actually performed.
+
+Sable should use `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md` to distinguish intentional silence, reassignment, automation failure, drift, blockage, stale state, and possible conversation cutoff before rerouting duties.
+
+## Transitioned / intentionally folded functions
+
+| Worker/function | Prior automation | Current status |
 |---|---|---|
-| **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` formerly hourly `:40` | **DISABLED 2026-09-14.** Remains part of the wider sandboxed rebuild as a specialist/consultant; official role to be determined with Nathan/Morrow. Preserve all checkpoints/outputs. Unfinished automation obligations must be handed off, retired, or placed on a lower-priority planning surface. |
-| **Aldus** | no enabled recurring automation in the current scheduler snapshot | Remains a wider-project specialist/consultant. Official role intentionally undecided pending Nathan/Aldus consultation. |
-
-## Pre-meeting reporting requirement
-
-Each enabled worker should read the 2026-09-14 meeting-prep call in `COORDINATION.md` and post one compact direct report to `CHECKINS.md` covering assignment/completion, meaningful outputs, automation productivity, actual familiarity/coverage, competencies, blockers/handoffs, interpretation of the recovered historical planning documents, divergent-growth interests, and highest-leverage next action.
-
-Until the meeting is convened, ordinary automated user-facing reports should end with `📅` as a compact **meeting planned** notice unless a newer Nathan directive changes the convention.
+| **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` formerly hourly `:40` | **DISABLED 2026-09-14.** Specialist/consultant retained; preserve outputs/checkpoints. |
+| **Aldus** | no enabled recurring automation in current snapshot | Specialist/consultant unless newer directive changes this. |
+| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | **DISABLED / FUNCTION ABSORBED.** Revival rotation is internally time-cycled inside Sable Systems Loop to avoid duplicate automation. |
 
 ## Control relationship
 
-- Nathan's newer explicit directives control all worker instructions.
-- Workers should normally coordinate behavior through COMMON control/state/checkpoint surfaces rather than assuming they can edit another worker's scheduler definition.
-- A blocked worker should record the blocker and choose a safe eligible alternate rather than waiting or resolving ambiguity by inference.
-- `🔶` in a user-facing worker report means a genuinely unresolved item is being surfaced for Nathan's attention.
+- Newer explicit Nathan directives control all worker instructions.
+- Primary ownership is collision avoidance, not monopoly; independent checks are encouraged where useful.
+- A blocked worker should record the blocker and choose a safe eligible alternate when allowed.
+- Sable may repair/reassign recurring workflow under Nathan's broad clearance, but should preserve specialist context and leave durable handoffs rather than silently absorbing lanes.
+- `🔶` in a user-facing worker report means a genuinely unresolved item requires Nathan's attention.
 
 ## Current preliminary division of labor
 
-The roster is complementary rather than rigid. Primary ownership is a collision-avoidance default, not a prohibition on useful cross-checking.
+- **Tag Corpus:** broad cumulative tagging.
+- **Nathan Words:** durable Nathan-only substrate and provenance-safe Stage-2 use.
+- **Meridian:** geometry/solver/library reconstruction and solver-canon work under current controls.
+- **Mercer:** retrieval/index selectivity QA and documentation/navigation reconciliation.
+- **Sable:** system capability, revival/reentry architecture, automation/tool/data leverage, Dashboard, continuity, cross-monitoring, controlled reconstruction experiments.
+- **Morrow/Aldus:** retained specialist/consultancy capacity; revive or assign by evidence and live problem, not historical prestige.
 
-- **Tag Corpus:** broad cumulative tagging progress.
-- **Nathan Words:** durable Nathan-only substrate/package progress and provenance-safe secondary use of that substrate.
-- **Mercer:** retrieval/index selectivity QA and documentation/navigation reconciliation; demonstrated sustained source-integrity and provenance work.
-- **Meridian:** trained geometry/solver/library-oriented worker presently under a project-level gate; meeting should decide whether/how to release or redesign this lane.
-- **Morrow:** no longer automated; continuity/source-identity expertise retained for consultancy/handoff.
-- **Aldus:** no longer part of recurring automation; high-level specialist consultancy role to be designed separately with Nathan and Aldus.
-
-The pre-meeting roster is not a final title/role system. The meeting will compare direct reports, demonstrated competencies, source familiarity, automation productivity, project needs, and the recovered historical planning documents before assigning durable roles.
+This roster is intentionally nonfinal. Revival/reentry may add temporary or recurring workers at different historical depths; track them through `INSTANCE_STRATIGRAPHY.md` and the cleared reentry interface rather than assuming competence or chronology from names.
