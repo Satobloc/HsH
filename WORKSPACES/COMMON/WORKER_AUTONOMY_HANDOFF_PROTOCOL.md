@@ -113,6 +113,14 @@ Only **Sable continuity/systems** owns cross-lane workflow redesign, automation 
 
 Sable should solicit and use worker input while maintaining the big-picture map and preserving useful divergence.
 
+## Nathan attention flag
+
+Read and follow `NATHAN_ATTENTION_FLAG_PROTOCOL.md`.
+
+`🔶` means a genuinely unresolved item requires Nathan's attention, action, answer, or manual intervention. Once raised, it is **sticky**: keep `🔶` at the bottom of subsequent user-facing messages until Nathan answers, the dependency is legitimately resolved another way, or Sable records that it no longer matters. Do not raise it for optional work or dependencies that can be safely routed around.
+
+Workers should tell Sable when opening or closing a sticky Nathan-attention item so Sable can keep the system-wide queue coherent.
+
 ## Continuity requirement
 
 Every recurring worker should maintain a durable checkpoint sufficient for another instance/conversation to resume the lane after context cutoff. At minimum record:
