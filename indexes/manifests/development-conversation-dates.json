@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-13T12:30:33.434526+00:00",
+  "generated_at_utc": "2026-09-15T06:16:17.746389+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
-  "mode": "apply",
+  "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 365,
-    "skipped": 114,
-    "blocked": 48,
+    "unchanged": 364,
+    "skipped": 121,
+    "planned": 74,
     "collision": 1
   },
   "records": [
@@ -32,6 +32,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "start_local": "2025-05-11T04:18:40.496000-04:00",
+      "end_local": "2026-06-07T20:34:23.660085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt",
@@ -2622,10 +2632,8 @@
       "end_local": "2026-09-12T11:19:17.030162-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 43,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw.json",
@@ -2634,10 +2642,8 @@
       "end_local": "2026-09-12T11:19:17.030162-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 43,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Casual Check-in — raw.json",
@@ -2646,10 +2652,8 @@
       "end_local": "2026-09-12T11:18:02.606999-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 243,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json",
@@ -2670,10 +2674,8 @@
       "end_local": "2026-09-12T09:56:49.626646-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 4,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json",
@@ -2682,10 +2684,8 @@
       "end_local": "2026-09-12T09:58:14.562000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 29,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json",
@@ -2694,10 +2694,8 @@
       "end_local": "2026-09-12T10:21:26.146602-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 28,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Geometric Glass Thumbnails — raw.json",
@@ -2706,10 +2704,8 @@
       "end_local": "2026-09-12T11:21:56.532789-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 25,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
@@ -2718,10 +2714,8 @@
       "end_local": "2026-09-12T09:51:49.299434-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 141,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json",
@@ -2730,10 +2724,8 @@
       "end_local": "2026-09-12T10:46:10.243682-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 22,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json",
@@ -2742,10 +2734,8 @@
       "end_local": "2026-09-12T10:48:37.742242-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 333,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Pet Theory Discussion — raw.json",
@@ -2754,10 +2744,8 @@
       "end_local": "2026-09-12T11:18:08.645639-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 745,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Proton Electron Mass Ratio — raw.json",
@@ -2766,10 +2754,8 @@
       "end_local": "2026-09-12T11:18:55.337799-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 25,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json",
@@ -2778,10 +2764,8 @@
       "end_local": "2026-09-12T10:38:46.622000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 113,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json",
@@ -2790,10 +2774,8 @@
       "end_local": "2026-06-13T21:24:08.087651-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 479,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json",
@@ -2802,10 +2784,8 @@
       "end_local": "2026-09-12T10:51:37.093411-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 18,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Testing a Theory of Everything — raw.json",
@@ -2814,10 +2794,8 @@
       "end_local": "2026-09-12T11:02:33.070063-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 477,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json",
@@ -2826,10 +2804,8 @@
       "end_local": "2026-08-10T15:41:04.419202-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 81,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json",
@@ -2838,10 +2814,8 @@
       "end_local": "2026-09-12T10:25:37.682101-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 356,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
@@ -2874,10 +2848,8 @@
       "end_local": "2025-09-14T22:39:07.072617-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 7,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Concise Persona Guidelines — raw.json",
@@ -2886,10 +2858,8 @@
       "end_local": "2026-09-12T18:00:46.557921-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 26,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Credulity meter placement — raw.json",
@@ -2898,10 +2868,8 @@
       "end_local": "2026-09-12T17:48:39.302979-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 22,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Electron Paths in Chips — raw.json",
@@ -2910,10 +2878,8 @@
       "end_local": "2026-09-12T16:52:02.192653-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 91,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
@@ -2922,10 +2888,8 @@
       "end_local": "2026-09-12T17:10:08.737069-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 87,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Functional equivalence principle — raw.json",
@@ -2934,10 +2898,8 @@
       "end_local": "2026-09-12T17:28:13.576000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 54,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Geometric Framework Assessment — raw.json",
@@ -2946,10 +2908,8 @@
       "end_local": "2026-03-04T22:58:44.117099-05:00",
       "timestamp_source": "message.create_time",
       "message_count": 93,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Grade ΛCDM rubric — raw.json",
@@ -2958,10 +2918,8 @@
       "end_local": "2026-09-12T17:39:32.204709-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 48,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Hostile Review Auditor Setup/FREE MODE PRIORITIES.txt",
@@ -3042,10 +3000,8 @@
       "end_local": "2026-09-12T17:36:41.955000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 160,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB 1_ Validation Lead — raw.json",
@@ -3054,10 +3010,8 @@
       "end_local": "2026-09-12T18:04:36.764577-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 149,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw (1).json",
@@ -3066,10 +3020,8 @@
       "end_local": "2026-09-12T16:57:22.158497-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 6,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw.json",
@@ -3078,10 +3030,8 @@
       "end_local": "2026-09-12T16:55:55.057488-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 4,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LaTeX Formatting for Paper — raw.json",
@@ -3090,10 +3040,8 @@
       "end_local": "2026-09-12T16:48:09.251409-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 12,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Lean 4 path fix — raw.json",
@@ -3102,10 +3050,8 @@
       "end_local": "2026-09-12T17:31:07.884920-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 51,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json",
@@ -3114,10 +3060,8 @@
       "end_local": "2026-09-12T17:03:54.386574-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 61,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json",
@@ -3126,10 +3070,8 @@
       "end_local": "2026-09-12T17:24:15.390861-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 83,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/AUDITOR README.txt",
@@ -3198,10 +3140,8 @@
       "end_local": "2026-09-12T17:50:49.955814-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 20,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json",
@@ -3210,10 +3150,8 @@
       "end_local": "2026-09-12T17:55:10.202765-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 22,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json",
@@ -3222,10 +3160,8 @@
       "end_local": "2026-09-12T16:51:01.920583-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 35,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json",
@@ -3234,10 +3170,8 @@
       "end_local": "2026-09-12T17:18:57.536833-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 12,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt",
@@ -3462,10 +3396,8 @@
       "end_local": "2026-09-12T17:06:05.432567-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 23,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/A DOZEN THEORY STUBS.txt",
@@ -3894,10 +3826,8 @@
       "end_local": "2026-09-12T16:52:04.254958-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 25,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
@@ -3906,10 +3836,8 @@
       "end_local": "2026-09-12T17:19:31.784831-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 73,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json",
@@ -3918,10 +3846,8 @@
       "end_local": "2026-09-12T17:19:31.784831-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 73,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json",
@@ -3930,10 +3856,8 @@
       "end_local": "2026-09-12T18:22:14.364381-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 217,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json",
@@ -3942,10 +3866,8 @@
       "end_local": "2026-09-12T16:46:55.374454-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 44,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw.json",
@@ -3954,10 +3876,8 @@
       "end_local": "2026-03-05T21:46:26.821218-05:00",
       "timestamp_source": "message.create_time",
       "message_count": 34,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw (1).json",
@@ -3966,10 +3886,8 @@
       "end_local": "2026-09-12T16:48:01.246533-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 19,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw.json",
@@ -3978,10 +3896,8 @@
       "end_local": "2026-09-12T16:47:30.947129-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 20,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Worldlines and Unification — raw.json",
@@ -3990,13 +3906,345 @@
       "end_local": "2026-09-12T17:15:28.650453-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 37,
-      "status": "blocked",
-      "warnings": [
-        "No files renamed because at least one collision exists"
-      ]
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/2 H(S)H EQUATION ROUNDUP.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/3 H(S)H EQUATION ROUNDUP.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ACTIVATOR HoloJesu — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28•25.08.11•ACTIVATOR HoloJesu — raw.json",
+      "start_local": "2025-05-28T08:22:04.751000-04:00",
+      "end_local": "2025-08-11T19:40:28.446948-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 230,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "start_local": "2025-05-11T04:18:40.496000-04:00",
+      "end_local": "2026-06-07T20:34:23.660085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "start_local": "2026-09-13T19:33:46.070000-04:00",
+      "end_local": "2026-09-14T08:25:36.224958-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 259,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "start_local": "2026-09-13T19:33:46.070000-04:00",
+      "end_local": "2026-09-14T07:57:47.377961-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 302,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Audit Protocol Initiation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Audit Protocol Initiation — raw.json",
+      "start_local": "2025-06-23T14:13:20.491311-04:00",
+      "end_local": "2025-06-23T14:13:21.916362-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Code Audit Request — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Code Audit Request — raw.json",
+      "start_local": "2025-06-23T14:09:33.810000-04:00",
+      "end_local": "2025-06-23T14:41:05.543493-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 70,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Crockpot Theory Lagrangian Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.04•26.09.12•Crockpot Theory Lagrangian Analysis — raw.json",
+      "start_local": "2026-03-04T13:32:35.413361-05:00",
+      "end_local": "2026-09-12T16:55:32.273684-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 17,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ER EPR Kerr Connections — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "start_local": "2026-06-20T20:56:09.067215-04:00",
+      "end_local": "2026-09-12T10:08:50.120823-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 68,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/H(S)H EQUATION ROUNDUP.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Hopf Borromean Mode 1 Fix — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•Hopf Borromean Mode 1 Fix — raw.json",
+      "start_local": "2025-06-22T11:58:14.017059-04:00",
+      "end_local": "2025-06-22T12:14:38.278050-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T20:51:32.412370-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 182,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 2_ Refinement Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "start_local": "2025-05-09T02:39:32.860000-04:00",
+      "end_local": "2025-05-09T16:00:20.326928-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 56,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Lagrangian Permutations Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
+      "start_local": "2025-06-18T21:18:10.315906-04:00",
+      "end_local": "2025-06-18T21:25:47.355527-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw (1).json",
+      "start_local": "2025-06-22T22:46:52.467000-04:00",
+      "end_local": "2025-06-22T22:50:02.656650-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 33,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw.json",
+      "start_local": "2025-06-22T22:55:32.606000-04:00",
+      "end_local": "2025-06-22T23:20:22.676409-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 50,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Mecha Quant MathProof Tasks — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30•25.05.30•Mecha Quant MathProof Tasks — raw.json",
+      "start_local": "2025-05-30T01:54:00.158000-04:00",
+      "end_local": "2025-05-30T01:54:01.033688-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-01T18:26:35.993985-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 122,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-02T02:46:03.626111-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 300,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-01T18:33:48.728630-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 124,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Completion Protocol Execution — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20•25.06.20•SAT Completion Protocol Execution — raw.json",
+      "start_local": "2025-06-20T04:23:33.643000-04:00",
+      "end_local": "2025-06-20T04:24:46.113116-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 15,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT ELECTRON MASS CALC.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Quark Binding Rewrite — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
+      "start_local": "2025-06-19T21:23:38.492603-04:00",
+      "end_local": "2025-06-19T21:46:42.553428-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 53,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
+      "start_local": "2025-06-29T15:26:03.275367-04:00",
+      "end_local": "2025-08-31T18:59:30.328087-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json",
+      "start_local": "2025-06-29T15:26:03.275367-04:00",
+      "end_local": "2025-08-31T18:59:30.328087-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SHEPARDED.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Sage Mode Engaged — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.08.31•Sage Mode Engaged — raw.json",
+      "start_local": "2025-06-22T05:56:56.733278-04:00",
+      "end_local": "2025-08-31T18:45:37.170978-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 51,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Scaling Postulates Testing — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Speculative Physics Model Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.24•Speculative Physics Model Review — raw.json",
+      "start_local": "2025-06-22T18:50:17.898000-04:00",
+      "end_local": "2025-06-24T18:18:28.941253-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 461,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/gitignore.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -5000,16 +5248,6 @@
       "end_local": "2025-09-27T22:12:50.759023-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 240,
-      "status": "unchanged",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json",
-      "start_local": "2025-12-29T12:34:30.317295-05:00",
-      "end_local": "2025-12-30T07:32:00.292775-05:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 78,
       "status": "unchanged",
       "warnings": []
     },

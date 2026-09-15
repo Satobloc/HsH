@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-09-15T04:31:30.545330+00:00",
+  "source_state_at_utc": "2026-09-15T06:16:18.096221+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -24,7 +24,7 @@
       "status": "loaded",
       "records": 560,
       "accepted_json_conversations": 439,
-      "source_generated_at_utc": "2026-09-15T04:31:30.209813+00:00"
+      "source_generated_at_utc": "2026-09-15T06:16:17.746389+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 13,
       "accepted_json_conversations": 9,
-      "source_generated_at_utc": "2026-09-15T04:31:30.545330+00:00"
+      "source_generated_at_utc": "2026-09-15T06:16:18.096221+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json",
