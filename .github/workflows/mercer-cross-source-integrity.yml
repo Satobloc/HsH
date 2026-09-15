@@ -31,7 +31,9 @@ jobs:
       - name: Failure-mode competence harness
         run: python WORKSPACES/MERCER/test_integrity_failure_modes.py
       - name: Viewer input dedup diagnostic
-        run: python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py
+        run: |
+          mkdir -p /tmp/mercer-integrity
+          python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py | tee /tmp/mercer-integrity/viewer-input-dedup.json
       - name: Production metadata validation
         run: |
           mkdir -p /tmp/mercer-integrity
