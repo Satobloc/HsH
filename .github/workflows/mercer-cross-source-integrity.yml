@@ -1,0 +1,42 @@
+name: Mercer cross-source integrity
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'WORKSPACES/MERCER/validate_cross_source_integrity.py'
+      - 'WORKSPACES/MERCER/test_validate_cross_source_integrity.py'
+      - 'CONVERSATION_VIEWER/data/conversations.json'
+      - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
+      - 'indexes/manifests/**'
+      - 'indexes/nathan-direct/**/MANIFEST.json'
+      - '.github/workflows/mercer-cross-source-integrity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regression fixture
+        run: python WORKSPACES/MERCER/test_validate_cross_source_integrity.py
+      - name: Production metadata validation
+        run: |
+          mkdir -p /tmp/mercer-integrity
+          python WORKSPACES/MERCER/validate_cross_source_integrity.py \
+            --root . \
+            --json-out /tmp/mercer-integrity/report.json \
+            --markdown-out /tmp/mercer-integrity/report.md
+          cat /tmp/mercer-integrity/report.md
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mercer-cross-source-integrity
+          path: /tmp/mercer-integrity/
+          if-no-files-found: warn
