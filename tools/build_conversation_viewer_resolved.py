@@ -9,6 +9,11 @@ The wrapper also resolves dry-run rename records against paths that actually exi
 Filename-renaming ``collision``/``blocked`` statuses do not hide a valid existing
 conversation source from the Viewer; those statuses concern rename operations, not
 Viewer eligibility.
+
+When the public cross-repo discovery step has produced
+``CONVERSATION_VIEWER/data/discovered_external_conversations.json``, use that merged
+external catalog instead of the hand-maintained external file. The generated file
+contains the manual registrations plus structurally discovered public conversations.
 """
 from __future__ import annotations
 
@@ -21,6 +26,7 @@ import date_conversation_exports as dater
 
 
 _original_normalize_record = base.normalize_record
+DISCOVERED_EXTERNAL = Path("CONVERSATION_VIEWER/data/discovered_external_conversations.json")
 
 
 def refresh_manifest(root: Path, manifest: Path) -> None:
@@ -70,6 +76,8 @@ def main() -> int:
     refresh_source_manifests()
     base.canonical_path = existing_canonical_path
     base.normalize_record = existing_source_normalize_record
+    if DISCOVERED_EXTERNAL.is_file():
+        base.DEFAULT_EXTERNAL = DISCOVERED_EXTERNAL
     return base.main()
 
 
