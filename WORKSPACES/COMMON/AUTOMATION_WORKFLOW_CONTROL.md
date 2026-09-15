@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE current control surface  
 **Program:** hourly SAT/H(s)H worker loops + Sable continuity  
-**Updated:** 2026-09-14  
+**Updated:** 2026-09-15  
 **Authority:** newer explicit Nathan directives control. This file coordinates workers; it does not define theory truth.
 
 ## Startup rule
@@ -12,6 +12,10 @@ Every recurring worker begins by checking:
 - `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`;
 - current `COORDINATION.md`, `HANDOFFS.md`, `CHECKINS.md`, and relevant lane checkpoint;
 - newer Nathan directives and lane-specific control surfaces.
+
+Before running, creating, modifying, or publishing from any script/bot/workflow that can touch repository state, also read and obey:
+- `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md`;
+- `SHARED_STATE_WRITE_SAFETY.md` when shared/generated/semantic state may be written.
 
 The worker should then assess whether its nominal primary responsibility remains the highest-value safe operation.
 
@@ -46,7 +50,7 @@ Current recurring loops are hourly and deliberately staggered:
 - `:00` Tag Conversation Corpus
 - `:12` Nathan Words Excavator
 - `:28` Meridian Solver Loop
-- `:45` Sable Systems Loop
+- `:45` AUTOMATION — Project Systems
 - `:52` Mercer Archive QA Loop
 
 Sable may adjust phases/cadence when workflow evidence supports it. Workers should not create additional recurring tasks on their own unless explicitly authorized.
@@ -67,6 +71,23 @@ Eligible work may include:
 - individual enrichment/training and bounded curiosity-driven exploration.
 
 Do not force progress for appearance's sake. A well-documented negative result, no-op, or refusal to duplicate work can be the correct run outcome.
+
+## Script / workflow execution safety
+
+`CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` is a required project-wide execution contract for scripts, bots, GitHub Actions, extraction jobs, indexing/tagging utilities, one-shot compute shims, and automated write processes across `[[HsH]]`, `[[GLASS]]`, and permitted `[RESOURCES]`.
+
+Key obligations include:
+- declare exact read/write scope and source repository commits;
+- prune quarantine-controlled roots before file access, not merely before publication;
+- preserve original source artifacts; extraction/conversion writes derived outputs elsewhere;
+- isolate temporary/output paths by run where concurrent work is possible;
+- use current-SHA/compare-and-swap or fresh fetch/rebase protection before writes;
+- never force-push or blindly overwrite collisions;
+- keep private-derived material private by default;
+- validate outputs and reject unexpected diffs;
+- retain reproducible run/source provenance, using `SCRIPT_RUN_MANIFEST_SCHEMA.json` for substantial recurring/cross-repo jobs when practical.
+
+If a write-capable script does not meet the standard, treat it as infrastructure debt and upgrade it before unattended use when risk is material. On ambiguity/collision/stale target: stop, retry, or route; do not guess and overwrite.
 
 ## Shared archive-preservation / transparency programme
 
