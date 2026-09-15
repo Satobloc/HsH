@@ -1,29 +1,40 @@
 #!/usr/bin/env python3
-"""Build the Conversation Viewer catalog using paths that actually exist in the checkout.
+"""Build the Conversation Viewer catalog from the current archive checkout.
 
-The conversation-date manifests are often generated in dry-run mode. In that mode a
-record may carry a proposed ``new_path`` while the file still exists only at
-``old_path``. The base builder historically preferred ``new_path`` unconditionally,
-which produced broken Viewer URLs for planned renames.
+Before building, refresh the development/live date manifests recursively from the
+actual conversation roots. This prevents newly uploaded conversations from being
+missed merely because a previously generated manifest is stale.
 
-This wrapper keeps the manifest metadata unchanged, but replaces the base builder's
-path resolver with an existence-aware resolver before running its normal entry point.
-Records for which neither manifest path exists are omitted from the Viewer catalog;
-they remain visible in the source manifest for separate provenance/index repair.
-
-Viewer inclusion is based on an existing readable conversation source, not on whether
-a filename-renaming dry run reported ``collision`` or ``blocked``. Those statuses are
-rename-workflow concerns and should not hide an otherwise valid source from the Viewer.
+The wrapper also resolves dry-run rename records against paths that actually exist.
+Filename-renaming ``collision``/``blocked`` statuses do not hide a valid existing
+conversation source from the Viewer; those statuses concern rename operations, not
+Viewer eligibility.
 """
 from __future__ import annotations
 
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import build_conversation_viewer as base
+import date_conversation_exports as dater
 
 
 _original_normalize_record = base.normalize_record
+
+
+def refresh_manifest(root: Path, manifest: Path) -> None:
+    """Regenerate one recursive dry-run conversation manifest from current sources."""
+    if not root.is_dir():
+        return
+    timezone_name = dater.DEFAULT_TIMEZONE
+    records = dater.build_records(root, ZoneInfo(timezone_name))
+    dater.write_manifest(manifest, root, timezone_name, False, records)
+
+
+def refresh_source_manifests() -> None:
+    refresh_manifest(Path("DEVELOPMENT_FULL_CONVOS"), base.DEFAULT_DEV)
+    refresh_manifest(Path("LIVE CONVOS"), base.DEFAULT_LIVE)
 
 
 def existing_canonical_path(record: dict[str, Any]) -> str | None:
@@ -48,12 +59,7 @@ def existing_canonical_path(record: dict[str, Any]) -> str | None:
 def existing_source_normalize_record(
     record: dict[str, Any], corpus: str, owner: str, repo: str, branch: str
 ) -> dict[str, Any] | None:
-    """Normalize any existing source record, ignoring rename-only blockers.
-
-    ``collision`` and ``blocked`` refer to proposed filename changes, not to source
-    validity. Preserve all other record metadata while allowing the base normalizer to
-    publish the source path that ``existing_canonical_path`` resolves.
-    """
+    """Normalize any existing source record, ignoring rename-only blockers."""
     adjusted = dict(record)
     if str(adjusted.get("status") or "") in {"collision", "blocked"}:
         adjusted["status"] = "unchanged"
@@ -61,6 +67,7 @@ def existing_source_normalize_record(
 
 
 def main() -> int:
+    refresh_source_manifests()
     base.canonical_path = existing_canonical_path
     base.normalize_record = existing_source_normalize_record
     return base.main()
