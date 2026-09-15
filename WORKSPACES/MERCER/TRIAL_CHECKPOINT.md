@@ -3,95 +3,60 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 48, 2026-09-15
+**Current through:** Run 49, 2026-09-15
 
 ## Startup / authority
-
-Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before touching write-capable scripts/shared generated state, also read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control.
-
-Direct theory-bearing work/development remains sandbox-limited; quarantine remains hard/off-limits. Mercer owns the reliability layer between raw/tagged material and navigation/retrieval, while remaining free to explore permitted material.
+Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before touching write-capable scripts/shared generated state, also read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
 
 ## Epistemic boundary
-
-Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, sandbox status, and quarantine status distinct. Repository proximity, generated metadata, clean indexing, or successful automated checks never confer theory correctness or authority.
+Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, sandbox status, and quarantine status distinct. Clean indexing or successful automated checks do not confer theory correctness.
 
 ## Current verified state
 
-### Viewer / manifest / dedup — exact reconstruction
+### Viewer / manifest / exact dedup reconstruction
+Settled generation: development summary **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer has **453 conversations** from declared accepted inputs 439 development + 9 live + 6 external = **454**. Production uses `tools/build_conversation_viewer_resolved.py`: existing supported `new_path` before `old_path`; collision/blocked rename status does not itself make a materialized source Viewer-ineligible.
 
-Settled generation audited by the retained Run-45/46 integrity artifact uses development summary **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer records **453 conversations**, while declared accepted inputs are 439 development + 9 live + 6 external = **454**.
+Retained Run-46 diagnostic artifact `10399888652`, digest `sha256:4f78f568ff2ed9cee9ab26a90810ce0af2d4b84fa9612923eeff2116f2df5c40`, reconstructs **454 accepted -> 453 post-dedup** with exactly one duplicate path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json`. Manifest index 253 is the earlier unchanged winner; index 257 is collision, resolves from existing dated `new_path`, and does not replace the winner because it is not live. Both source files were confirmed identical blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`. Viewer-safe dedup does **not** disposition the archive duplicate or clear the normalization blocker.
 
-Production navigation uses `tools/build_conversation_viewer_resolved.py`. Existing supported `new_path` is preferred over `old_path`; `collision`/`blocked` are rename-operation statuses and do not by themselves make an existing source Viewer-ineligible.
+### Validator transition
+Legacy `validate_cross_source_integrity.py` remains the active production entry point and contains stale Viewer assumptions. Run 47 added `viewer_input_semantics.py` (`e36cea17fd5a22ccc88bcda339a30385d4a18563`) centralizing production resolved-input/dedup semantics. Run 48 added read-only `validate_cross_source_integrity_v2.py` (`36411c2954564209c323bd036c2c84950756bea4`), replacing the stale Viewer checks with: declared pre-dedup acceptance vs reconstruction; post-dedup cardinality vs Viewer source count; final Viewer vs resolved winner provenance; and Viewer-declared external lineage.
 
-The repaired diagnostic executed successfully in Mercer integrity run `34977962790` on commit `4ec472ff2e78724a0cf8e9981af7e9c35863666a`. Retained artifact `10399888652` has digest `sha256:4f78f568ff2ed9cee9ab26a90810ce0af2d4b84fa9612923eeff2116f2df5c40`.
+**Run 49:** `test_integrity_failure_modes.py` now imports the semantics-aware v2 validator and specimen seven expects the resolved collision+dedup condition to PASS its four Viewer invariants while remaining `BLOCKED` for the normalization collision. The synthetic baseline now materializes source-path placeholders because production resolution is existence-aware. The original six semantic expectations are retained; the collision-only fixture's Viewer-declared accepted count was corrected to 2 so it models the production rule while still asserting `BLOCKED` and no `FAIL`. Commit: `eebfddde94efc67ddbbc6d95653157a2cd062fea`.
 
-Exact result under `production-resolved-existing-source-v1`:
-- reconstructed accepted inputs = **454**;
-- reconstructed post-dedup records = **453**;
-- exactly **one duplicate path**: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json`;
-- manifest source index **253**: `unchanged`, old/new already the dated path, 55 messages;
-- manifest source index **257**: `collision`, old path undated, new path dated, resolves from existing `new_path`, 55 messages;
-- winner = source index **253**, the earlier unchanged record. The later collision record does not replace it because it is not `live`.
-
-Thus Viewer metadata/cardinality is coherent under the production resolved-builder contract. Viewer-safe dedup does **not** disposition the underlying archive duplicate or clear the normalization blocker. Both SAT_CONVOS_15 source files were independently confirmed on current `main` in Run 45 with identical blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`.
-
-### Validator contract repair — transition implementation added Run 48
-
-Legacy `WORKSPACES/MERCER/validate_cross_source_integrity.py` still contains three stale Viewer checks: it compares pre-dedup accepted total **454** directly with post-dedup source count **453**, hard-codes the legacy manual external registry, and reconciles manifest records without resolved winner provenance.
-
-Run 47 created `WORKSPACES/MERCER/viewer_input_semantics.py` at commit `e36cea17fd5a22ccc88bcda339a30385d4a18563`. This reusable read-only adapter centralizes the confirmed production contract: existing `new_path` then `old_path`; `skipped` exclusion; collision/blocked eligibility when materialized; Viewer-declared external registry; exact-path dedup; live replacement precedence; and accepted/duplicate/winner provenance.
-
-Run 48 created `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py` at commit `36411c2954564209c323bd036c2c84950756bea4`. It is a read-only transition wrapper that preserves the legacy validator's unrelated checks while replacing the three stale Viewer checks with four explicit invariants:
-1. declared pre-dedup acceptance vs reconstructed resolved-source acceptance;
-2. reconstructed post-dedup cardinality vs Viewer `source_conversations_before_curation`;
-3. final Viewer records vs resolved winner provenance;
-4. external lineage from the Viewer-declared external input rather than a hard-coded legacy registry.
-
-The wrapper reports schema version 2 and names `production-resolved-existing-source-v1`. It is **not yet claimed green**: it has not yet been wired through the seven-specimen harness or production CI. The legacy validator remains the active production entry point until the transition passes those checks.
-
-Specimen seven remains frozen as the resolved collision + dedup case. Flip it to expected PASS only after the semantics-aware path passes; original six specimens remain unchanged.
+This is an implementation state change, **not yet a green regression claim**. At cutoff the updated seven-specimen harness had not yet been observed executing in CI, and production v2 validation has not yet been observed green. Do not switch the active validator/CI entry point until both are established.
 
 ### Source-integrity machinery
-
 - `WORKSPACES/MERCER/validate_cross_source_integrity.py` — legacy active validator
-- `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py` — semantics-aware transition wrapper, Run 48
+- `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py` — semantics-aware transition wrapper
+- `WORKSPACES/MERCER/viewer_input_semantics.py` — shared production-semantics adapter
 - `WORKSPACES/MERCER/test_validate_cross_source_integrity.py`
-- `WORKSPACES/MERCER/test_integrity_failure_modes.py`
+- `WORKSPACES/MERCER/test_integrity_failure_modes.py` — seven-specimen harness now targeting v2
 - `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py`
-- `WORKSPACES/MERCER/viewer_input_semantics.py`
 - `.github/workflows/mercer-cross-source-integrity.yml`
 
-Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is operational dependency, not corruption.
+Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is an operational dependency, not corruption.
 
 ### Other retained state
-
 Nathan Direct: **15,133 packaged unique + 7,625 collapsed duplicates = 22,758 input user records**; year shards sum to 15,133 and Stage-2 `source_records = 15133`. Preferred package-count surface: `indexes/nathan-direct/MANIFEST.json`. Machine-readable autotag generation/freshness lineage remains unconfirmed.
 
-`MORROW-SOURCE-001`: code-side resolved / historical-output-side pending. Preserve earlier Janus export. `extract_raw_window.py` is a bounded `content.parts` helper, not a complete-content serializer.
+`MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. `extract_raw_window.py` is a bounded `content.parts` helper, not a complete-content serializer.
 
-Historical glossary / standard crosswalk: source inventory/custody work complete; direct raw-message ancestry remains unresolved for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt`. Reopen only with a stronger source anchor.
+Historical glossary/standard crosswalk: inventory/custody work complete; direct raw-message ancestry unresolved for `GLOSSARY (LIVE).txt` and `SATv  TO STANDARD MAP.txt`; reopen only with stronger source anchor.
 
 ## Open dependencies
-
-- `VALIDATOR TRANSITION`: wire `validate_cross_source_integrity_v2.py` through specimen seven + original six, then production validation/CI before replacing the legacy entry point.
-- `OWNER ACTION / RECHECK`: development manifest still has 1 collision; SAT_CONVOS_15 duplicate disposition is not resolved merely because Viewer safely deduplicates it.
+- `VALIDATOR TRANSITION`: observe all seven v2 specimens, then run/observe v2 against production metadata; only then replace active validator/CI entry point.
+- `OWNER ACTION / RECHECK`: development manifest still has 1 collision; SAT_CONVOS_15 duplicate disposition unresolved.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
-- `DEPENDENCY`: machine-readable autotag-side generation/freshness lineage.
+- `DEPENDENCY`: machine-readable autotag generation/freshness lineage.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `AMBIGUOUS PROVENANCE`: glossary/standard-map raw-message ancestry; current routes exhausted.
 - No current Nathan-required decision.
 
 ## Run history
-
-Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 production validation + CI; 35 failure-mode harness; 36 harness interface repair; 37 green harness + transient Viewer/manifest split; 38 settled convergence + external accounting change; 39–40 initial dedup/external-lineage diagnosis; 41 diagnostic instrumentation; 42 failure-output observability repair; 43 apparent discrepancy under incomplete base-builder semantics; 44 production-wrapper reconstruction + specimen-seven correction; 45 repaired diagnostic to production resolved semantics; 46 exact 454→453 duplicate/winner reconstruction; 47 factored confirmed production semantics into reusable adapter; **48 added a semantics-aware validator transition wrapper that separates pre-dedup acceptance, post-dedup cardinality, winner provenance, and Viewer-declared external lineage while retaining legacy non-Viewer checks.**
-
-## Last material run
-
-Run 48: read controlling startup/safety surfaces; created `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py`; recorded `WORKSPACES/MERCER/RUN_048_2026-09-15.md`; no theory work; no raw/generated source mutation; no conversation identity altered. The transition wrapper is deliberately not claimed regression-green until harness and production execution.
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis and corrected production-wrapper reconstruction; 47 shared semantics adapter; 48 v2 transition wrapper; **49 migrated the seven-specimen failure-mode harness to v2 semantics and flipped specimen seven to expected Viewer PASS while preserving normalization BLOCKED status.**
 
 ## Best next operations
-
-1. Adapt the regression harness so specimen seven executes the semantics-aware wrapper and expects PASS while the original six retain their existing expectations.
-2. Run all seven specimens, then run the wrapper against production metadata.
-3. Only after both are green, redirect/replace the active validator and CI entry point; preserve old behavior in repository history rather than silently deleting it.
+1. Observe/run the seven-specimen harness and inspect any failure without weakening expectations.
+2. Run/observe `validate_cross_source_integrity_v2.py` against current production metadata.
+3. Only if both are green, redirect the active validator/CI entry point; preserve legacy behavior in history.
 4. Keep SAT_CONVOS_15 normalization collision separately `BLOCKED` until provenance-preserving duplicate disposition is established.
