@@ -91,7 +91,22 @@ def main():
     assert check(r, "manifest.operational_blockers.indexes/manifests/development-conversation-dates.json")["severity"] == "BLOCKED", r
     assert not [c for c in r["checks"] if c["severity"] == "FAIL"], r
 
-    print("PASS: 6 integrity specimens: clean, stale-viewer, catalog-count, package-count, stage2-count, collision-blocked")
+    # Specimen 7 freezes the production failure observed in Run 43: Viewer input
+    # metadata overstates development acceptance by one while the manifest and
+    # final catalog remain cardinality-consistent. There are no duplicate paths
+    # in this synthetic state, so this cannot be explained away as deduplication.
+    acceptance_drift = copy.deepcopy(base)
+    acceptance_drift["CONVERSATION_VIEWER/data/conversations.json"]["inputs"][0]["accepted_json_conversations"] = 2
+    r = run(acceptance_drift)
+    arithmetic = check(r, "viewer.accepted_input_arithmetic")
+    assert arithmetic["severity"] == "FAIL", r
+    assert arithmetic["compared"]["accepted_total"] == 4, r
+    assert arithmetic["compared"]["source_conversations_before_curation"] == 3, r
+    paths = [c["path"] for c in acceptance_drift["CONVERSATION_VIEWER/data/conversations.json"]["conversations"]]
+    assert len(paths) == len(set(paths)) == 3, paths
+    assert check(r, "viewer.catalog_count_arithmetic")["severity"] == "PASS", r
+
+    print("PASS: 7 integrity specimens: clean, stale-viewer, catalog-count, package-count, stage2-count, collision-blocked, declared-acceptance-drift")
     return 0
 
 
