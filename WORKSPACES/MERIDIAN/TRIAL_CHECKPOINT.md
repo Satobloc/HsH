@@ -1,116 +1,84 @@
 # Meridian — Prototype Tri(or Quin)ary Mover Trial Checkpoint
 
-**Status:** ACTIVE / individually TRAINED / project-wide standdown still active / meeting prep posted  
-**Activated:** 2026-09-13 11:36 EDT  
-**Scheduled phase:** hourly at :28, America/New_York  
-**Authority:** newer explicit Nathan directives and `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` control.
+**Status:** ACTIVE / hourly :28 / autonomy protocol active / direct theory sandbox-limited
+**Activated:** 2026-09-13 11:36 EDT
+**Scheduled phase:** hourly at :28, America/New_York
+**Authority:** newer explicit Nathan directives, `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, and `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` control.
 
-## Role
+## Current primary responsibility
 
-Meridian is the **source-first geometry/solver reconstruction + public library/vetting/accessibility lane**, with ordinary work subordinated to the active 4D-training standdown.
+Source-first SAT geometric-solver / representation / library work: Whirligig/Donut, UI/TX, Three Spheres, Hagalaz integration, exact operators/maps/representations/equivalences, intervention budgets, failures, reproducible benchmarks, representation invariance, and source history. Kerr and Kelvin are live H(s)H hypothesis/construction lines and remain distinct from solver classification.
 
-Complementary boundaries:
-- Morrow — conversation identity, continuity, contextual/provenance recovery; removed from recurring automation 2026-09-14 but retained as future specialist/consultant pending role design;
-- Mercer — index/retrieval QA, documentation/navigation reconciliation, glossary ancestry work;
-- Nathan Words / tagging lanes — corpus-wide Nathan-authored extraction and tagging;
-- Ravel — theory construction and theory acceptance/rejection;
-- Janus — coordination/integration and automation architecture.
+Primary responsibility is not an intellectual silo. Meridian may explore broadly across non-quarantined SAT/H(s)H material, including sandboxed theory construction, mathematics, archive archaeology, coding/formalization, visualization, criticism, infrastructure, and individual enrichment. Quarantine remains off-limits.
 
-## Hard boundaries
+## Current controlling corrections
 
-- Project-wide 4D-training standdown remains controlling until Nathan explicitly releases it.
-- Meridian is individually `TRAINED`, but individual completion does not lift the standdown.
-- Integration-lane handoffs remain suspended unless Nathan explicitly reauthorizes them.
-- nLab is under Nathan's hard external quarantine. Meridian is **not** the designated nLab-facing instance and must remain blind to that corpus: no searching, reading, summarizing, indexing, importing, or theory comparison unless Nathan explicitly reassigns access.
-- FEATURED placement is editorial/operational, not theory authority or vetting status.
-- Until the planned September 14 meeting is convened, ordinary automated user-facing reports end with `📅` unless a newer Nathan directive changes that convention.
+- The old blanket 4D-training standdown is superseded as a hard gate by Nathan's 2026-09-14 autonomy directive.
+- Fundamental Intuitions Extended remains the conceptual/methodological anchor.
+- Direct theory-bearing work remains sandbox-limited.
+- Whirligig/Donut, Hagalaz, UI/TX, and Three Spheres are live SAT geometric-solver machinery.
+- Hagalaz ties Whirligig, UI/TX, and Three Spheres together.
+- Kerr and Kelvin are live H(s)H hypotheses/construction lines, not solver classifications.
+- Current names must not be projected backward onto unnamed historical antecedents until comparison is justified.
+- nLab remains under Nathan's hard external quarantine. Meridian is not designated nLab-facing and remains blind to it.
+- Integration-lane handoffs dated under the halted Integration lane remain suspended unless explicitly reauthorized.
 
-## Training completion
+## Training/source foundation already completed
 
-Completed 2026-09-13:
 - FULL-READ / FULL-INGEST `SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt`.
 - FULL-READ / FULL-INGEST `SAT_THEORY_ARCHIVE_2023-25/4D THINKING PRIMER.txt`.
-- FULL-READ `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` start-to-finish.
-- Required 4D-pitfalls audit posted to `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md`.
-- Post-training follow-up posted under Meridian in `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md`.
-- Registry row marked `TRAINED` in `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md`.
+- FULL-READ `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt`.
+- Required 4D-pitfalls audit and post-training follow-up posted; training registry marked TRAINED.
 
-Training-specific corrections retained for later solver review:
+Retained solver cautions:
 1. untyped `w=ct` must not drift from bookkeeping into mechanism;
 2. spacetime coordinate `w` must not silently double as evolution/variational parameter;
 3. representational reorientation must not be conflated with resolver/intersection/readout structure.
 
-## Post-release measurable goalposts
+## Solver benchmark direction
 
-Only after Nathan releases the standdown:
+Preferred first source-first specimen remains the historical Whirligig GR↔QM process, but only after locating firsthand source material. Benchmark discipline:
+- recover operator before repair;
+- type state, inputs, outputs, constraints, free DOF, invariants, and failure conditions;
+- freeze historical reconstruction before cross-reading later interpretations where practical;
+- reproduce one historical result if source permits;
+- independently recompute the same target with ordinary mathematics;
+- include an intervention-budget negative control;
+- classify failures and underdetermination as useful results.
 
-### A. Public library / accessibility
-- Continue link-first inclusion of Nathan-designated material before weeding.
-- Produce recursive missing-PDF-text coverage using existing extraction machinery; do not duplicate successful extracts.
-- Connect featured/formal papers to derivation/provenance paths.
-- Keep conceptual fidelity, derivation completeness, LLM/computational review, human review, and formal verification separate.
+Existing capability-design response: `WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md`.
 
-### B. Solver/source reconstruction
-- Recover firsthand UI/TX, Whirligig/Donut, Spheres, and Gendarme artifacts before trusting summaries.
-- Record primitives, state, operators, constraints, free DOF, invariants, outputs, failure conditions, source coverage, and authority status.
-- Build a Solver Canon + Verification Ledger only if Common confirms no duplicate owner.
-- Reconstruct the original Whirligig GR↔QM process before repair; independently recompute with standard mathematics and classify conservatively.
-- Re-audit `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` for carrier/resolver/readout typing and admissible-transformation errors before reuse.
+## Archive/library stewardship
 
-## Emerging role direction from recovered planning documents
+Shared obligations include public library/accessibility, source crosswalks, extraction/text availability, derivation/provenance linkage, indices, Viewer/Dashboard improvements, solver-canon documentation, scripts, checksums, inventories, and preservation of failed/superseded attempts with correct status. Accessibility does not confer theory authority.
 
-FULL-READ 2026-09-14:
-- `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/TASKWORKS/Preplantricist_role.md`.
-- `SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/TASKWORKS/HsH_Pipeline_Design.md`.
+## Epistemic/exposure rules
 
-Tentative role direction for meeting discussion: **Indicatricist / Solver Metrologist**, with Mindwringer, Metamathematician, and Lexotopologist as supporting competencies. The planning docs reinforce a build-pipeline approach: determine designer metaskills/knowledge, design the designer/task separately, then establish sequestered pass/fail goalposts relative to an untrained instance. This is role/training design, not theory authority.
-
-## Epistemic rules
-
-Keep separate:
-- Nathan-authored source;
-- established/tentative SAT/H(s)H;
-- historical material;
-- assistant-generated interpretation;
-- Meridian reconstruction;
-- standard mathematics;
-- external research;
-- speculation.
-
-Previously quarantined material may be discussed through the Workshop / Ideas Clearinghouse but retains its provenance, quarantine reason, and zero automatic authority.
-
-## Run protocol
-
-Every run:
-1. record actual start time and scheduled phase;
-2. read `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`;
-3. inspect current `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and newly referenced controlling surfaces;
-4. read this checkpoint;
-5. choose the highest-priority eligible nonduplicative operation;
-6. if blocked, record the blocker and branch only to work allowed by current control;
-7. update this checkpoint with exact work, frontier, dependencies, and next operation.
+Keep separate: Nathan-authored source; current/live status; historical material; assistant-generated interpretation; Meridian reconstruction; standard mathematics; external research; speculation; sandbox status; quarantine status. Preserve exposure/cross-reading state where independence matters.
 
 ## Historical run summary
 
 - **2026-09-13 11:36–12:28 EDT:** enrolled; selected :28 phase; completed mandatory training reads and full `H(s)H TIME RESIDUALS` conversation; posted pitfall audit/follow-up; registry marked TRAINED.
-- **2026-09-13 13:25–16:28 EDT:** repeated Common checks confirmed standdown remained active; no ordinary work resumed; `MORROW-SOURCE-001` identified as outside Meridian lane.
+- **2026-09-13 13:25–16:28 EDT:** repeated Common checks confirmed then-active standdown; no ordinary work resumed.
 - **2026-09-13 16:58 EDT:** Nathan imposed hard nLab quarantine; Meridian explicitly remains blind unless designated.
-- **2026-09-13 17:28–23:28 EDT:** standdown unchanged; Mercer resolved Viewer path ownership/documentation; Meridian did not duplicate it.
-- **2026-09-14 00:30–03:33 EDT:** standdown unchanged; Mercer established durable documentation convention and began glossary/crosswalk source inventory; Meridian stayed out of duplicate work.
-- **2026-09-14 05:28–09:30 EDT:** standdown unchanged; Mercer verified bounded raw-window ancestry route and anchor-discovery blocker; Meridian performed minimal checkpoint maintenance only.
-- **2026-09-14 10:33 EDT:** full-read `Preplantricist_role.md` and `HsH_Pipeline_Design.md`; posted pre-meeting report; role direction sharpened to Indicatricist / Solver Metrologist.
-- **2026-09-14 11:26 EDT:** answered Sable's source-first solver competence/test-design handoff; no solver/theory work resumed.
-- **2026-09-14 12:29–19:31 EDT:** repeated Common checks showed no Meridian-relevant release, reassignment, meeting convening, or new handoff; preserved deliberate maintenance/no-op discipline.
-- **2026-09-14 20:28 EDT:** Common checked again; standdown and pre-meeting state unchanged; no duplicate work undertaken.
+- **2026-09-13 17:28–2026-09-14 09:30 EDT:** maintenance/no-op discipline while old standdown remained controlling; did not duplicate Mercer/Morrow work.
+- **2026-09-14 10:33 EDT:** full-read historical planning docs; posted pre-meeting report; role direction sharpened to Indicatricist / Solver Metrologist.
+- **2026-09-14 11:26 EDT:** answered Sable source-first solver competence/test-design handoff.
+- **2026-09-14 12:29–20:28 EDT:** repeated Common checks; no material Meridian-directed change under then-current controls.
 
-## Current run — 2026-09-14 20:28 EDT / scheduled :28 phase
+## Current run — 2026-09-15 / scheduled :28 phase
 
-- **Control/coordination checked:** current `AUTOMATION_WORKFLOW_CONTROL.md`, `BULLETIN_BOARD.md`, `COORDINATION.md`, `HANDOFFS.md`, and this checkpoint.
-- **Controlling state:** project-wide standdown remains active; September 14 pre-meeting directive remains controlling; Integration-lane handoffs remain suspended; nLab quarantine unchanged.
-- **Work actually completed:** no new substantive work. Verified no newer Meridian-directed task, meeting convening, standdown release, or reassignment has landed; Sable handoff remains already satisfied.
-- **Artifacts changed/created:** this checkpoint only.
-- **Current frontier:** meeting-prep/capability architecture and Sable response remain complete enough for current needs; ordinary solver/library work remains blocked by the standdown; Meridian remains nLab-blind.
-- **Blockers/dependencies:** `DEFERRED_INOPPORTUNE` — project-wide release absent. No new Nathan-required decision or source dependency surfaced.
-- **Useful discovery/question:** none new; `MORROW-SOURCE-001` and Mercer's manifest-collision handoff remain outside Meridian ownership and should not be duplicated.
-- **Best next operation:** next run, re-check Common for meeting convening, role assignment, or standdown release. If unchanged, preserve no-op discipline rather than manufacturing work.
+- **Control/coordination read:** `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`; `AUTOMATION_WORKFLOW_CONTROL.md`; `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`; current `COORDINATION.md`; current `HANDOFFS.md`; `WORKSPACES/SABLE/README.md`; prior Meridian checkpoint.
+- **Material control change recognized:** old checkpoint was stale: the blanket training standdown is no longer a hard gate. Meridian is cleared for its primary lane and broad non-quarantined exploration, with direct theory work sandbox-limited.
+- **Source-discovery operation:** performed repository-scoped GitHub code searches in `Satobloc/HsH` for `Whirligig GR QM`, `Whirligig`, and historical spelling candidate `REUILIGIG`.
+- **Result:** zero indexed code-search hits in HsH for all three queries. This is a negative source-discovery result, **not** evidence that firsthand Whirligig sources do not exist. GitHub code-search indexing/path coverage may be incomplete and the source may live in SAT_THEORY_ARCHIVE_2023-25, raw conversation exports, GLASS, or an unindexed artifact.
+- **Benchmark/theory/exploration status:** no solver operator reconstructed; no theory result produced; no sandbox theory artifact created. The benchmark remains source-blocked at firsthand-source discovery.
+- **Exposure/cross-reading:** read only current control/status/workflow/checkpoint surfaces plus repository search result metadata. Did not read later worker solver interpretations or quarantined material. Independent-first-pass value therefore remains intact.
+- **Archive/infrastructure change:** checkpoint corrected to current autonomy/hypothesis status and records the negative search so future runs do not repeat the same narrow HsH code-search blindly.
+- **Enrichment/capability change:** operational model updated from obsolete standdown-gated lane to autonomy/sandbox model; solver status typing corrected to current Nathan classification.
+- **Failure/uncertainty:** HsH code search is insufficient as a source locator for Whirligig. Need a broader source-first route rather than repeated keyword search.
+- **Blocker/dependency:** `SOURCE_MISSING/LOCATOR` for the preferred Whirligig GR↔QM benchmark, but not a Nathan-required blocker; safe alternatives exist.
+- **Current frontier:** locate firsthand Whirligig/Donut/UI/TX/Three-Spheres/Hagalaz source artifacts without contaminating the independent benchmark with later interpretation.
+- **Best next operations:** (1) search SAT_THEORY_ARCHIVE_2023-25 and accessible GLASS/source catalogs for exact solver names and spelling variants; (2) if direct keyword discovery remains weak, use archive indexes/catalog/title/date correlations to locate candidate raw conversations; (3) freeze a source packet before reading interpretive summaries; (4) if source location remains blocked, rotate one bounded cycle into solver-canon infrastructure or geometry/topology enrichment rather than manufacture a reconstruction.
+- **Handoffs/questions:** no Sable workflow redesign request yet; current issue is a local source-location problem with safe next steps.
 - **Nathan attention required:** no.
