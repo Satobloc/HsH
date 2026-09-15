@@ -18,9 +18,14 @@ This tool assigns no theory authority, relevance, authorship, or quality status.
 Optional GitHub upload
 ----------------------
 Pass ``--upload`` to publish ``inventory.csv``, ``sample.csv``, and ``summary.json``
-to GitHub after successful local generation. The default destination is:
+to GitHub after successful local generation. Because a combined run may include
+metadata from the private HSH_RESOURCES repository, the safe default destination is:
 
-    Satobloc/HsH / main / WORKSPACES/SABLE/source_inventory_run/
+    Satobloc/HSH_RESOURCES / main / SOURCE_INVENTORY/SABLE/source_inventory_run/
+
+The script refuses to upload a combined inventory containing HSH_RESOURCES metadata
+to the known public project repositories unless the user explicitly supplies
+``--allow-private-metadata-publication``.
 
 Authentication is resolved in this order:
 1. the environment variable named by ``--github-token-env`` (if supplied),
@@ -50,15 +55,19 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
-TOOL_VERSION = "sable-source-inventory/0.2.0"
+TOOL_VERSION = "sable-source-inventory/0.2.1"
 QUARANTINED_COMPONENTS = {"PRIOR_ART"}
 TEXT_SUFFIXES = {
     ".txt", ".md", ".json", ".jsonl", ".csv", ".tsv", ".tex", ".py",
     ".yml", ".yaml", ".toml", ".ini", ".lean", ".wl", ".m", ".rst",
 }
-DEFAULT_UPLOAD_REPO = "Satobloc/HsH"
+DEFAULT_UPLOAD_REPO = "Satobloc/HSH_RESOURCES"
 DEFAULT_UPLOAD_BRANCH = "main"
-DEFAULT_UPLOAD_PATH = "WORKSPACES/SABLE/source_inventory_run"
+DEFAULT_UPLOAD_PATH = "SOURCE_INVENTORY/SABLE/source_inventory_run"
+KNOWN_PUBLIC_PROJECT_REPOS = {
+    "satobloc/hsh",
+    "satobloc/sat_theory_archive_2023-25",
+}
 GITHUB_API = "https://api.github.com"
 
 
@@ -383,6 +392,11 @@ def main() -> int:
         default="Refresh Sable source inventory",
         help="Base commit message used for uploaded output files.",
     )
+    parser.add_argument(
+        "--allow-private-metadata-publication",
+        action="store_true",
+        help="Explicitly allow a run containing HSH_RESOURCES metadata to upload to a known public project repo.",
+    )
     args = parser.parse_args()
 
     if args.sample_per_stratum < 1:
@@ -399,6 +413,22 @@ def main() -> int:
         if not label.strip() or not root.is_dir():
             parser.error(f"invalid repository mapping: {spec!r}")
         roots.append((label.strip(), root))
+
+    includes_private_resources = any(
+        label.upper() == "RESOURCES" or root.name.upper() == "HSH_RESOURCES"
+        for label, root in roots
+    )
+    if (
+        args.upload
+        and includes_private_resources
+        and args.upload_repo.lower() in KNOWN_PUBLIC_PROJECT_REPOS
+        and not args.allow_private_metadata_publication
+    ):
+        parser.error(
+            "this run includes private HSH_RESOURCES metadata; refusing to upload the combined inventory "
+            "to a known public project repository. Use the private default destination, choose another "
+            "private repository with --upload-repo, or explicitly pass --allow-private-metadata-publication."
+        )
 
     all_records: list[FileRecord] = []
     pruned_total = 0
