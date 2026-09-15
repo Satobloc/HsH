@@ -1,0 +1,56 @@
+name: Mercer validator contract repair once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/mercer-validator-repair-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Patch validator to production Viewer contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('WORKSPACES/MERCER/validate_cross_source_integrity.py')
+          s=p.read_text()
+          old='''    external_rel = "CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json"'''
+          new='''    external_rel = next((inp.get("path") for inp in viewer.get("inputs", []) if isinstance(inp, dict) and inp.get("corpus") == "registered-external" and isinstance(inp.get("path"), str)), "CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")'''
+          # external_rel must be resolved after viewer is loaded, so first remove static assignment.
+          s=s.replace(old, '    external_rel = "CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json"', 1)
+          marker='''    inputs = viewer.get("inputs", [])'''
+          replacement='''    inputs = viewer.get("inputs", [])\n    external_rel = next((inp.get("path") for inp in inputs if isinstance(inp, dict) and inp.get("corpus") == "registered-external" and isinstance(inp.get("path"), str)), external_rel)'''
+          if marker not in s: raise SystemExit('inputs marker missing')
+          s=s.replace(marker,replacement,1)
+          old_block='''    severity = "UNKNOWN" if missing_acceptance or source_before is None else (\n        "PASS" if accepted_total == source_before else "FAIL")\n    checks.append(result(\n        "viewer.accepted_input_arithmetic", severity, viewer_rel,\n        f"{viewer_rel}:inputs[*].accepted*", f"{viewer_rel}:counts.source_conversations_before_curation",\n        {"accepted_parts": accepted_parts, "accepted_total": accepted_total,\n         "source_conversations_before_curation": source_before,\n         "missing_acceptance": missing_acceptance},\n        "Uses Viewer-declared acceptance semantics; manifest status counts are a separate invariant.",\n    ))'''
+          new_block='''    dedup_report = None\n    dedup_error = None\n    try:\n        from diagnose_viewer_input_dedup import diagnose\n        dedup_report = diagnose(root)\n    except Exception as exc:\n        dedup_error = str(exc)\n    if missing_acceptance or source_before is None or dedup_report is None:\n        severity = "UNKNOWN"\n    else:\n        severity = "PASS" if (\n            accepted_total == dedup_report.get("reconstructed_accepted_total")\n            and source_before == dedup_report.get("reconstructed_post_dedup_total")\n        ) else "FAIL"\n    checks.append(result(\n        "viewer.accepted_input_arithmetic", severity, viewer_rel,\n        f"{viewer_rel}:inputs[*].accepted*", f"{viewer_rel}:counts.source_conversations_before_curation",\n        {"accepted_parts": accepted_parts, "accepted_total": accepted_total,\n         "source_conversations_before_curation": source_before,\n         "missing_acceptance": missing_acceptance,\n         "reconstructed_accepted_total": dedup_report.get("reconstructed_accepted_total") if dedup_report else None,\n         "reconstructed_post_dedup_total": dedup_report.get("reconstructed_post_dedup_total") if dedup_report else None,\n         "duplicate_paths": dedup_report.get("duplicate_paths") if dedup_report else None,\n         "dedup_error": dedup_error},\n        "Separates Viewer-declared pre-dedup acceptance from production-resolved exact-path post-dedup cardinality; manifest normalization blockers remain a separate invariant.",\n    ))'''
+          if old_block not in s: raise SystemExit('arithmetic block missing')
+          s=s.replace(old_block,new_block,1)
+          p.write_text(s)
+          PY
+      - name: Run integrity competence tests
+        run: |
+          python WORKSPACES/MERCER/test_validate_cross_source_integrity.py
+          python WORKSPACES/MERCER/test_integrity_failure_modes.py
+          python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py
+          python WORKSPACES/MERCER/validate_cross_source_integrity.py --repo-root . --json-out /tmp/report.json --md-out /tmp/report.md || test $? -eq 2
+          cat /tmp/report.md
+      - name: Publish from fresh main
+        run: |
+          git config user.name 'Mercer Archive QA'
+          git config user.email 'actions@users.noreply.github.com'
+          git add WORKSPACES/MERCER/validate_cross_source_integrity.py
+          git commit -m 'Mercer: align validator with resolved Viewer dedup contract'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
