@@ -7,7 +7,7 @@
 
 ## Role boundary
 
-Mercer owns the reliability layer between raw/tagged material and project navigation/retrieval: index quality, source-path/catalog reconciliation, retrieval selectivity, durable documentation conventions, direct-source methodology mapping, and bounded source-integrity QA. This complements rather than duplicates Morrow's conversation-family identity/continuity/context recovery and the active Nathan-words extraction/tagging lane.
+Mercer owns the reliability layer between raw/tagged material and project navigation/retrieval: index quality, source-path/catalog reconciliation, retrieval selectivity, durable documentation conventions, direct-source methodology mapping, and bounded source-integrity QA. This complements rather than duplicates Morrow's conversation-family identity/continuity/context recovery and the active Nathan-words extraction/tagging lane. Morrow is no longer a recurring automation worker as of the newer 2026-09-14 Common directive; do not silently absorb his familiarity-dependent/contextual interpretation work.
 
 ## Startup rule
 
@@ -17,11 +17,13 @@ Every run: read `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, `WORKSPACES/
 
 Keep distinct: Nathan-authored direct material; Nathan's present recollection/testimony; archive-corroborated history; established/tentative SAT/H(s)H status supported by controlling sources; historical/displaced material; assistant interpretation; Mercer reconstruction; Workshop/Clearinghouse speculation. Do not promote worker consensus, recollection, quarantined material, repository upload identity, catalog proximity, thematic similarity, clean formatting, directory adjacency, or generated interpretation into content authority without provenance.
 
-## Current controlling state — after Run 32
+## Current controlling state — after Run 33
 
 - Project-wide theory-bearing standdown remains active.
-- Mercer individual training is complete.
+- Mercer individual training is complete; training registry records READ for Fundamental Intuitions Extended and 4D Thinking Primer plus full-read confirmation for `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt`, with pitfalls audit/follow-up posted.
 - Bounded archive/navigation/source-integrity/provenance maintenance is permitted when handed off or directly within lane.
+- Newer Common coordination state includes a planned pre-meeting role/competence review; historical planning sources `Preplantricist_role.md` and `HsH_Pipeline_Design.md` were full-read in Run 33 and do not override current directives.
+- Mercer pre-meeting report is durable at `WORKSPACES/MERCER/PRE_MEETING_REPORT_2026-09-14.md`; safe direct append to the shared `CHECKINS.md` remains an operational write-path gap because the available connector uses whole-file replacement.
 - No current issue genuinely requires Nathan attention.
 - Do not poll terminal canonical navigation run `34814002515` again.
 - Do not resume broad glossary/crosswalk ancestry scanning without a stronger source anchor.
@@ -63,6 +65,8 @@ Established durable fixes:
 
 Current count arithmetic: 364 accepted development-manifest conversations + 9 accepted live conversations + 1 registered external development-class conversation = 365 development / 9 live / 374 total.
 
+Important Run-33 invariant: Viewer acceptance arithmetic and manifest status arithmetic are related but not identical. Do not infer accepted Viewer conversations solely from `unchanged/planned/...` manifest counts. Registered-external records can declare ordinary corpus semantics (`development`) while remaining outside the development date manifest; source class/path controls membership.
+
 Generated-state lag is an owner-execution dependency, not a demonstrated generator defect.
 
 ## C. Autotag / Nathan Direct structural integrity
@@ -94,7 +98,7 @@ Run 29 isolated the sole development-manifest collision:
 
 Both are byte-identical blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`, conversation ID `6a393d4e-0950-83ea-bcfd-b9ceb4783caf`.
 
-Manifest summary: 365 unchanged / 114 skipped / 48 blocked / 1 collision. The one collision globally leaves 48 otherwise queued renames blocked. Mercer did not delete or rename either copy. Common handoff requests explicit provenance-preserving owner disposition followed by canonical regeneration.
+Manifest summary remains 365 unchanged / 114 skipped / 48 blocked / 1 collision at the last observed generation. The one collision globally leaves 48 otherwise queued renames blocked. Mercer did not delete or rename either copy. Common handoff requests explicit provenance-preserving owner disposition followed by canonical regeneration.
 
 Do not conflate the separate SAT_CONVOS_11 50-message `Cosmological Constant Summary` snapshot with this exact duplicate pair.
 
@@ -110,22 +114,31 @@ Run 31: `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-
 
 Run 32: located and verified `indexes/nathan-direct/MANIFEST.json` as the machine-readable package-count bridge; updated the validator contract accordingly.
 
-Verified v0 feasibility:
+Run 33: implemented the contract:
 
-- Viewer input freshness can be joined against referenced manifest generation timestamps.
-- Viewer accepted-count arithmetic can include registered external records explicitly.
-- Viewer path/message-count/timestamp fields can be reconciled against accepted manifest records.
-- Manifest summary/status arithmetic can be checked without reading theory content.
-- Nathan Direct package arithmetic and package → Stage-2 source-count continuity can be checked from machine-readable manifests.
+- `WORKSPACES/MERCER/validate_cross_source_integrity.py`
+- `WORKSPACES/MERCER/test_validate_cross_source_integrity.py`
 
-Explicit bridge gaps:
+The validator is read-only and metadata-only. It checks:
+
+- referenced date-manifest status arithmetic and collision/blocked operational state;
+- Viewer input-generation freshness markers;
+- Viewer-declared accepted-input arithmetic independently from manifest status arithmetic;
+- Viewer top-level catalog/corpus counts;
+- registered-external path/corpus/message-count semantics;
+- Viewer development/live record joins against manifest `old_path`/`new_path`, excluding registered-external paths even when their declared corpus is `development`;
+- Nathan Direct package arithmetic, yearly shard sum, and package → Stage-2 `source_records` continuity.
+
+Result classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`. `BLOCKED` is deliberately distinct from integrity `FAIL` so the known SAT_CONVOS_15 normalization dependency is not mislabeled as data corruption. Queue counts are not assumed to partition Stage-2. Authorship/theory authority is never inferred.
+
+A synthetic regression fixture was run successfully before commit; it returned no `FAIL` and the expected overall `BLOCKED` from declared manifest blockers. Full-repository production execution is still pending a complete checkout/runtime surface.
+
+Explicit bridge gaps remain:
 
 - date manifests do not carry Git blob SHA;
 - date manifests do not carry raw conversation ID;
 - machine-readable autotag-side generation/state lineage surface not yet confirmed;
 - PDF/extraction parentage should wait for explicit parent/checksum metadata.
-
-Implementation rule: build adapters over existing metadata surfaces; do not build another archive parser. Validator must be read-only, deterministic, emit `PASS/WARN/BLOCKED/FAIL/UNKNOWN`, preserve warning text, and never infer authorship/theory authority.
 
 Permanent regression specimens: Janus non-`parts` truncation; historical Viewer LIVE-path drift; legal/privacy source removal; SAT_CONVOS_15 collision/global blocking; registered-external Viewer count semantics.
 
@@ -135,6 +148,18 @@ Permanent regression specimens: Janus non-`parts` truncation; historical Viewer 
 - Mercer README/CONTINUITY reconciled in Run 23.
 - `VIEWER_PATH_QA_2026-09-13.md` restart wording reconciled in Run 24.
 - `NATHAN_LIVE_THEORY_DEVELOPMENT_LOG.md` durable referents reconciled in Run 25; exact raw conversation/message IDs remain `PENDING RAW-ID BACKFILL` until attributable exports land.
+- `WORKSPACES/MERCER/PRE_MEETING_REPORT_2026-09-14.md` created in Run 33 after full-reading the two recovered historical planning documents and re-verifying training state.
+
+## H. Pre-meeting role-development state
+
+Historical planning documents are planning/provenance sources, not current control surfaces. The useful design implication for Mercer is that archive-facing specialist competence should become measurable: designer metaskills → bounded task definition → sequestered pass/fail goalposts against an untrained baseline.
+
+Tentative role direction recorded in the pre-meeting report: **Source Integrity Metrologist** — provenance-safe retrieval/index QA, generated-state integrity, and archive-facing competence/regression tests.
+
+Natural Morrow inheritance boundary:
+
+- safe Mercer inheritance: deterministic UUID/path/checksum/index reconciliation, source-integrity regression cases, machine-readable provenance joins;
+- do not inherit by default: contextual family causality, dialogue significance, branch interpretation dependent on accumulated conversational familiarity, or historical theory-content synthesis.
 
 ## Dependencies / blockers
 
@@ -144,6 +169,8 @@ Permanent regression specimens: Janus non-`parts` truncation; historical Viewer 
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
 - `DEPENDENCY`: exact raw IDs for 2026-09-13 Mercer live-source statements await attributable export/provenance material.
 - `DEPENDENCY`: machine-readable autotag-side generation/state lineage surface not yet confirmed.
+- `EXECUTION GAP`: validator v0 is implemented and fixture-tested; full current-checkout execution remains pending.
+- `COORDINATION WRITE GAP`: pre-meeting report is durable under Mercer but not yet appended to the shared `CHECKINS.md`; current connector provides whole-file replacement rather than safe append/patch, and Mercer should not risk clobbering a heavily shared file.
 - No current issue genuinely requires Nathan attention.
 
 ## Run history
@@ -159,7 +186,8 @@ Permanent regression specimens: Janus non-`parts` truncation; historical Viewer 
 - Run 30: source-integrity systems response and failure-mode map.
 - Run 31: thin cross-source integrity validator feasibility audit and v0 implementation contract.
 - Run 32: Nathan Direct machine-readable package-count bridge verified and added to validator contract.
+- Run 33: read newer pre-meeting control state; full-read recovered planning docs; re-verified training record; implemented + fixture-tested read-only cross-source validator; created Mercer pre-meeting role/competence report.
 
 ## Best next operation
 
-Next run: reread Control/Common/Handoffs. If the SAT_CONVOS_15 pair has been dispositioned or manifests/Viewer regenerated, verify the new state and zero collision-induced global blocking. Otherwise implement the minimal read-only validator over already verified metadata surfaces: Viewer/date-manifest freshness and arithmetic, manifest blocker/status arithmetic, Nathan Direct package arithmetic, and package → Stage-2 `source_records` continuity. Emit JSON plus compact Markdown with `PASS/WARN/BLOCKED/FAIL/UNKNOWN`. Do not expand into raw archive parsing merely to fill optional identity fields; use `UNKNOWN` for unavailable joins.
+Next run: reread Control/Common/Handoffs. If the SAT_CONVOS_15 pair has been dispositioned or manifests/Viewer regenerated, verify the new state and zero collision-induced global blocking first. Otherwise execute `WORKSPACES/MERCER/validate_cross_source_integrity.py` against a complete current checkout and emit JSON + compact Markdown; investigate only `FAIL/WARN/UNKNOWN` while retaining declared collision/blocking as `BLOCKED`. Do not expand into raw archive parsing merely to fill optional identity fields. Route the pre-meeting report into `CHECKINS.md` only through a safe append/patch-capable path. After a successful production run, convert the known source-integrity failure cases into a small archive-worker competence harness rather than broadening into theory work.
