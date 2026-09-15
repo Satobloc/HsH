@@ -31,6 +31,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip conversation-viewer]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -70,6 +71,13 @@ jobs:
           missing_paths = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
           assert not missing_paths, f'viewer catalog contains missing repository source paths: {missing_paths}'
 
+          for manifest_path in [
+              Path('indexes/manifests/development-conversation-dates.json'),
+              Path('indexes/manifests/live-conversation-dates.json'),
+          ]:
+              manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+              assert isinstance(manifest.get('records'), list), f'invalid conversation manifest: {manifest_path}'
+
           cp = Path('CONVERSATION_VIEWER/CURATION.json')
           curation = json.loads(cp.read_text(encoding='utf-8'))
           assert curation['schema_version'] == 1
@@ -108,7 +116,7 @@ jobs:
           print(f"landmarks={len(landmarks['landmarks'])}")
           PY
 
-      - name: Commit generated viewer data
+      - name: Commit generated viewer data and source manifests
         run: |
           git config user.name 'HsH Conversation Viewer Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -125,15 +133,18 @@ jobs:
           data = json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
           missing = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
           assert not missing, f'viewer catalog contains missing repository source paths after race rebuild: {missing}'
+          for p in [Path('indexes/manifests/development-conversation-dates.json'), Path('indexes/manifests/live-conversation-dates.json')]:
+              manifest = json.loads(p.read_text(encoding='utf-8'))
+              assert isinstance(manifest.get('records'), list), f'invalid refreshed manifest: {p}'
           PY
 
-            if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated | grep -q .; then
-              echo 'Conversation viewer generated data unchanged.'
+            if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json | grep -q .; then
+              echo 'Conversation viewer generated data and manifests already current.'
               exit 0
             fi
 
-            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated
-            git commit -m '[skip conversation-viewer] Refresh conversation viewer data'
+            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json
+            git commit -m '[skip conversation-viewer] Refresh conversation viewer data and manifests'
             if git push origin HEAD:main; then
               exit 0
             fi
