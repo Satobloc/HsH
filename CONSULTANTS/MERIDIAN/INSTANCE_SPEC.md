@@ -1,4 +1,4 @@
-# MERIDIAN — Instance / Role Specification
+# ~MERIDIAN~ ALDEN CROSS — Instance / Role Specification
 
 **Label:** MERIDIAN  
 **Role:** Independent Comparative-Research & Provenance Consultant  
