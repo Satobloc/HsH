@@ -66,7 +66,7 @@ def main():
     stale = copy.deepcopy(base)
     stale["CONVERSATION_VIEWER/data/conversations.json"]["inputs"][0]["source_generated_at_utc"] = "OLD"
     r = run(stale)
-    assert check(r, "viewer.development_manifest_freshness")["severity"] == "WARN", r
+    assert check(r, "viewer.input_freshness.development")["severity"] == "WARN", r
 
     count_drift = copy.deepcopy(base)
     count_drift["CONVERSATION_VIEWER/data/conversations.json"]["counts"]["conversations"] = 4
@@ -76,19 +76,19 @@ def main():
     package_drift = copy.deepcopy(base)
     package_drift["indexes/nathan-direct/MANIFEST.json"]["packaged_unique_user_messages"] = 6
     r = run(package_drift)
-    assert check(r, "nathan_direct.package_arithmetic")["severity"] == "FAIL", r
+    assert check(r, "nathan_direct.user_record_arithmetic")["severity"] == "FAIL", r
 
     stage2_drift = copy.deepcopy(base)
     stage2_drift["indexes/nathan-direct/stage2/MANIFEST.json"]["source_records"] = 6
     r = run(stage2_drift)
-    assert check(r, "nathan_direct.stage2_continuity")["severity"] == "FAIL", r
+    assert check(r, "nathan_direct.stage2_source_continuity")["severity"] == "FAIL", r
 
     collision = copy.deepcopy(base)
     collision_dev = collision["indexes/manifests/development-conversation-dates.json"]
     collision_dev["summary"] = {"unchanged":1,"collision":1}
     collision_dev["records"].append({"old_path":"dev/c.json","new_path":"dev/a.json","status":"collision","message_count":2,"start_local":"A","end_local":"B","timestamp_source":"message.create_time","warnings":["target exists"]})
     r = run(collision)
-    assert check(r, "development_manifest.operational_blockers")["severity"] == "BLOCKED", r
+    assert check(r, "manifest.operational_blockers.indexes/manifests/development-conversation-dates.json")["severity"] == "BLOCKED", r
     assert not [c for c in r["checks"] if c["severity"] == "FAIL"], r
 
     print("PASS: 6 integrity specimens: clean, stale-viewer, catalog-count, package-count, stage2-count, collision-blocked")
