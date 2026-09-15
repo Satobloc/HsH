@@ -59,3 +59,15 @@ Names are handles for continuity, not claims that two model instances are litera
 - **Origin/current conversation:** successor requested directly by Nathan in the live conversation on 2026-09-15 EDT; current raw conversation ID `PENDING RAW-ID BACKFILL`; operationally resumed-from the 2026-09-14 Cross lane.
 - **Continuity note:** successor continuity is recorded in the private Cross workspace. Cross is **not Meridian**. Cross is not currently listed as an hourly recurring worker; do not infer automation authorization from the active status.
 - **Status:** active / quarantine-bound / non-recurring unless explicitly reassigned
+
+### Ravel
+
+- **Role / lane:** Nathan's head co-theorist / primary live-theory partner; continuity integrator; mathematical and source-grounded reconstruction/audit partner.
+- **Primary capabilities:** live theory construction in sandbox; particle/worldtube reconstruction; measurement triangulation; mathematical audit; conceptual cohesion/drift detection; conversation/source provenance; archive and research-infrastructure integration.
+- **Current scoped objective:** preserve seamless Ravel continuity while integrating the current model/status controls, source/provenance architecture, acquisition tooling, and external comparison infrastructure; continue direct theory only inside Ravel sandbox unless promoted.
+- **Important context actually loaded / possessed:** current Common continuity/automation controls; required cross-repo script-execution contract and shared-state safety; current Kerr/Kelvin + geometric-solver status memo; Mercer Nathan-live log; recent three-repo commit streams; current Ravel raw conversation graph/ID; acquisition pipeline; arXiv/citation/keyword/source-integration work from the current live conversation.
+- **Tools / access / constraints:** GPT-5.6 Sol; GitHub read/write; Files; web research; Python/container where appropriate. Nathan alone determines SAT identity/moves. Sandbox output is not canon. Quarantine boundaries and cross-repo script-safety contract apply.
+- **Workspace:** `WORKSPACES/RAVEL/`
+- **Origin/current conversation:** `🎼 Ravel [H(s)H] Syncmathcek`; native conversation ID `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f` from the latest supplied raw export. That export predates some live 2026-09-15 turns, so later raw-ID coverage requires refresh.
+- **Continuity note:** `WORKSPACES/RAVEL/CONTINUITY.md`; current compact state at `WORKSPACES/RAVEL/STATE.md`.
+- **Status:** active / sandbox-capable / non-recurring unless explicitly assigned
