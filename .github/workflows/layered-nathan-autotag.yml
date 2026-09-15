@@ -82,35 +82,54 @@ jobs:
           cat indexes/nathan-direct/README.md
           cat indexes/nathan-direct/stage2/MANIFEST.json
       - name: Commit durable autotag, Nathan Direct, and Stage-2 indexes
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "H(s)H Autotag Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add indexes/autotag indexes/nathan-direct
-          if git diff --cached --quiet; then
-            echo "Autotag, Nathan Direct, and Stage-2 indexes already current"
-            exit 0
-          fi
 
-          git commit -m "[skip autotag] Refresh archive-wide tags and Nathan Direct packages"
+          SNAP="$RUNNER_TEMP/autotag-generated-snapshot"
+          rm -rf "$SNAP"
+          mkdir -p "$SNAP"
+          cp -a indexes/autotag "$SNAP/autotag"
+          cp -a indexes/nathan-direct "$SNAP/nathan-direct"
 
-          # Other archive workers legitimately write to main while this long corpus pass runs.
-          # Rebase the generated-output commit onto the newest main and retry rather than
-          # failing on an ordinary non-fast-forward race. Never force-push.
+          # Never rebase deterministic generated artifacts. If another worker advances
+          # main while this long corpus pass runs, discard the local generated commit,
+          # reset to latest main, re-lay the validated snapshot, and retry. Conversation
+          # source pushes are serialized and queue their own later autotag run, so this
+          # snapshot remains tied honestly to the source state that produced it.
           for attempt in 1 2 3 4; do
             echo "Publish attempt ${attempt}/4"
             git fetch origin main
-            if ! git rebase origin/main; then
-              echo "Generated-output rebase conflicted; refusing to guess or overwrite concurrent work."
-              git rebase --abort || true
-              exit 1
+            git reset --hard origin/main
+
+            rm -rf indexes/autotag indexes/nathan-direct
+            cp -a "$SNAP/autotag" indexes/autotag
+            cp -a "$SNAP/nathan-direct" indexes/nathan-direct
+
+            python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
+            python -m json.tool indexes/nathan-direct/MANIFEST.json >/dev/null
+            python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
+            test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
+            test -s indexes/autotag/user-message-tags.jsonl
+
+            git add indexes/autotag indexes/nathan-direct
+            if git diff --cached --quiet; then
+              echo "Autotag, Nathan Direct, and Stage-2 indexes already current for this generated snapshot"
+              exit 0
             fi
+
+            git commit -m "[skip autotag] Refresh archive-wide tags and Nathan Direct packages"
             if git push origin HEAD:main; then
               exit 0
             fi
+
+            echo "Push race on attempt ${attempt}; discarding generated commit and retrying from latest main." >&2
             sleep $((attempt * 2))
           done
 
-          echo "Unable to publish generated indexes after four non-destructive retries."
+          echo "Unable to publish generated indexes after four rebuild-from-main retries." >&2
           exit 1
       - uses: actions/upload-artifact@v4
         if: ${{ always() }}
