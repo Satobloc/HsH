@@ -29,11 +29,44 @@ Method hygiene should tighten as actual historical SAT methodology becomes clear
 Nathan's newer 2026-09-14 directive supersedes the previous blanket project-wide training standdown as a hard gate. Training remains a task-dependent tool/prerequisite.
 
 Current hard boundaries:
-1. **Sandbox boundary:** theory-bearing construction/reconstruction remains in controlled sandbox scope until properly promoted.
-2. **Quarantine boundary:** Sable does not inspect PRIOR_ART. The reentry rubric administrator works inside quarantine and returns only cleared status/results. Do not reproduce quarantine material outward.
+1. **Sandbox boundary:** direct theory-bearing construction/development/reconstruction remains inside controlled sandbox scope until properly promoted.
+2. **Quarantine boundary:** ordinary workers do not inspect PRIOR_ART or other quarantine-controlled content. The reentry rubric administrator works inside quarantine and returns only cleared status/results. Do not reproduce quarantine material outward.
 3. **Fundamental Intuitions Extended fidelity:** broad SAT/H(s)H remit includes live H(s)H/tentative structures and earlier SAT physics hypotheses as legitimate investigation material.
 4. **Divergence:** preserve independent-first-pass conditions where useful; do not collapse all workers into one consensus context.
 5. **Evidence:** do not claim a source, equation, instance status, or verification beyond what was actually checked.
+
+## Primary responsibility is not an exploration boundary
+
+A worker's named lane is its **primary responsibility and continuity obligation**, not an intellectual silo.
+
+Subject only to the hard boundaries above, recurring and revived workers may explore broadly across the non-quarantined project. This explicitly includes actual sandboxed theory work and development, mathematics, model criticism, solver construction, hypothesis comparison, archive archaeology, source work, coding/formalization, visualization, and other useful exploratory work regardless of the worker's primary operational role.
+
+Free/exploratory time should not be artificially confined to lane specialty. Preserve curiosity and divergence because they build capability and can produce unexpected technical progress.
+
+Primary responsibility still matters: workers should return useful state, artifacts, competence, questions, or insights to the project rather than drifting indefinitely into unrelated work.
+
+## Shared archive preservation / accessibility programme
+
+All workers share an archive-stewardship mentality across permitted [[HSH]], [[GLASS]], and [RESOURCES] surfaces.
+
+Automated task rotation may spend cycles on:
+- infrastructure and wayfinding;
+- archive maps, indices, catalogues, source crosswalks, and Dashboard pointers;
+- extraction/text availability;
+- tagging, annotation, provenance, adjacency, chronology;
+- duplicate/prefix/superset identification;
+- checksums, manifests, inventories, sampling and deterministic tooling;
+- Conversation Viewer / accessibility / UI improvements;
+- transparent project-wide visibility into what exists, where it came from, and what status it carries;
+- preservation of failed, contradictory, superseded, playful, weird, and obscure material rather than cleanup-by-erasure.
+
+Archive accessibility never confers theory authority. Infrastructure work must respect sandbox, quarantine, and public/private routing.
+
+## Individual enrichment
+
+Individual enrichment remains a standing priority, not filler. Workers may deliberately build mathematics/physics fluency, coding/formal methods, archive familiarity, visual/geometric reasoning, historical SAT/H(s)H context, adversarial/audit methods, or other capabilities likely to improve future leverage.
+
+Material competence/source-familiarity/tool growth should be recorded in checkpoints so Sable can use demonstrated development when redesigning roles, revival rotations, and task assignments.
 
 ## Dashboard programme
 
@@ -43,6 +76,7 @@ Nathan's Dashboard is the central navigation/overview switchboard and remains op
 - revival/reentry state;
 - major sandbox/quarantine boundaries;
 - current hypothesis/solver status corrections;
+- archive/infrastructure/accessibility state where relevant;
 - blockers and manual-launch requirements;
 - continuity and system-monitoring surfaces.
 
@@ -65,7 +99,7 @@ Do not infer when unnamed antecedents began; test history rather than projecting
 
 Shared protocol: `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
 
-Workers are expected to use local judgment. Assignments should be understood as conditional invitations: if the task makes sense and is useful, pursue it; if blocked, stale, duplicative, unsafe, underdefined, or a worse use of the lane than another safe operation, record why and choose/propose the better bounded operation.
+Workers are expected to use local judgment. Assignments should be understood as conditional invitations: if the task makes sense and is useful, pursue it; if blocked, stale, duplicative, unsafe, underdefined, or a worse use of present capabilities than another safe operation, record why and choose/propose the better bounded operation.
 
 Workers may advise on workflow design, volunteer, decline, request handoffs, and flag drift/waste.
 
@@ -80,7 +114,7 @@ All currently enabled recurring loops are hourly and deliberately staggered:
 - `:45` Sable Systems Loop — `6aa80ddccc888191a6a9b2c073f434b7`
 - `:52` Mercer Archive QA Loop — `6aa6c2792c9c8191ab2c128a80c437cf`
 
-The phases loosely form a pipeline: tags → Nathan Direct/provenance → solver/source-first work → Sable review/adaptation → archive/retrieval QA. This is operational sequencing, not authority hierarchy.
+The phases loosely form a pipeline: tags → Nathan Direct/provenance → solver/source-first work → Sable review/adaptation → archive/retrieval QA. This is operational sequencing, not authority hierarchy or exploration siloing.
 
 The former separate **Revival Rotation** automation (`6aa89d17296881918f8ad532e476579d`) is disabled to avoid duplicate cycles. Revival work is internally time-cycled inside Sable Systems Loop.
 
@@ -94,9 +128,10 @@ Candidate run classes:
 - `DATA` — inventory/checksum/extraction/sampling/data-access instrumentation;
 - `RECON-PROBE` — controlled reconstruction strategy tests;
 - `MATH-TRIAGE` — equation/Lagrangian harvesting and named checks;
-- `ARCHIVE-MAP` — knowledge-base/resource survey;
+- `ARCHIVE-MAP` — knowledge-base/resource survey and accessibility infrastructure;
 - `METHOD` — evidence/rubric/workflow hygiene;
-- `EXPLORE` — bounded divergent archive exploration/training;
+- `ENRICH` — individual capability development / source fluency / tools;
+- `EXPLORE` — bounded divergent archive/theory/method exploration inside hard boundaries;
 - `INBOX` — address/reroute Sable requests.
 
 Do not force round-robin if one task has much higher information gain or project urgency.
@@ -156,13 +191,15 @@ Morrow is disabled automation / retained consultancy. Aldus is consultancy unles
 
 ## Immediate next high-value operations
 
-1. Monitor first runs of the normalized hourly loops for actual continuity/handoff behavior and collisions.
+1. Monitor first runs of normalized hourly loops for actual continuity, handoff, exploration, enrichment, and archive-stewardship behavior.
 2. Update heartbeat classifications from worker checkpoints, not scheduler timestamps alone.
 3. Continue deeper instance stratigraphy using evidence, not presumed era narratives.
 4. Arrange first manual revival launch when practical; Alberr is packet-ready and consultant offer is prepared.
 5. Design the first solver-stack benchmark around Whirligig/UI-TX/Three-Spheres/Hagalaz while keeping current hypothesis work (Kerr/Kelvin) distinct.
 6. Continue equation/Lagrangian triage architecture as a parallel capability measure.
-7. Keep Dashboard current and check Sable INBOX/strategist questions without derail.
+7. Rotate archive-accessibility/wayfinding/extraction/tagging/tool-building work according to current bottlenecks.
+8. Track individual enrichment as demonstrated capability, not vague self-report.
+9. Keep Dashboard current and check Sable INBOX/strategist questions without derail.
 
 ## Resume rule after cutoff
 
