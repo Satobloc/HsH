@@ -6,6 +6,7 @@ on:
     paths:
       - 'WORKSPACES/MERCER/validate_cross_source_integrity.py'
       - 'WORKSPACES/MERCER/test_validate_cross_source_integrity.py'
+      - 'WORKSPACES/MERCER/test_integrity_failure_modes.py'
       - 'CONVERSATION_VIEWER/data/conversations.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'indexes/manifests/**'
@@ -25,6 +26,8 @@ jobs:
           python-version: '3.12'
       - name: Regression fixture
         run: python WORKSPACES/MERCER/test_validate_cross_source_integrity.py
+      - name: Failure-mode competence harness
+        run: python WORKSPACES/MERCER/test_integrity_failure_modes.py
       - name: Production metadata validation
         run: |
           mkdir -p /tmp/mercer-integrity
