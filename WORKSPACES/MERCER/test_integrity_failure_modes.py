@@ -91,22 +91,27 @@ def main():
     assert check(r, "manifest.operational_blockers.indexes/manifests/development-conversation-dates.json")["severity"] == "BLOCKED", r
     assert not [c for c in r["checks"] if c["severity"] == "FAIL"], r
 
-    # Specimen 7 freezes the production failure observed in Run 43: Viewer input
-    # metadata overstates development acceptance by one while the manifest and
-    # final catalog remain cardinality-consistent. There are no duplicate paths
-    # in this synthetic state, so this cannot be explained away as deduplication.
-    acceptance_drift = copy.deepcopy(base)
-    acceptance_drift["CONVERSATION_VIEWER/data/conversations.json"]["inputs"][0]["accepted_json_conversations"] = 2
-    r = run(acceptance_drift)
+    # Specimen 7 freezes the production condition correctly after source-code
+    # reconstruction of build_conversation_viewer_resolved.py. The resolved
+    # builder may accept an existing source whose rename status is collision;
+    # when its preferred existing new_path is already represented by another
+    # accepted record, two accepted inputs legitimately collapse to one path.
+    # The current validator does not model that pre-catalog precedence yet, so
+    # this specimen intentionally records the present FAIL until that repair.
+    resolved_collision_dedup = copy.deepcopy(base)
+    dev = resolved_collision_dedup["indexes/manifests/development-conversation-dates.json"]
+    dev["summary"] = {"unchanged":1,"collision":1}
+    dev["records"].append({"old_path":"dev/c.json","new_path":"dev/a.json","status":"collision","message_count":2,"start_local":"A","end_local":"B","timestamp_source":"message.create_time","warnings":["target exists"]})
+    resolved_collision_dedup["CONVERSATION_VIEWER/data/conversations.json"]["inputs"][0]["accepted_json_conversations"] = 2
+    r = run(resolved_collision_dedup)
     arithmetic = check(r, "viewer.accepted_input_arithmetic")
     assert arithmetic["severity"] == "FAIL", r
     assert arithmetic["compared"]["accepted_total"] == 4, r
     assert arithmetic["compared"]["source_conversations_before_curation"] == 3, r
-    paths = [c["path"] for c in acceptance_drift["CONVERSATION_VIEWER/data/conversations.json"]["conversations"]]
-    assert len(paths) == len(set(paths)) == 3, paths
+    assert check(r, "manifest.operational_blockers.indexes/manifests/development-conversation-dates.json")["severity"] == "BLOCKED", r
     assert check(r, "viewer.catalog_count_arithmetic")["severity"] == "PASS", r
 
-    print("PASS: 7 integrity specimens: clean, stale-viewer, catalog-count, package-count, stage2-count, collision-blocked, declared-acceptance-drift")
+    print("PASS: 7 integrity specimens: clean, stale-viewer, catalog-count, package-count, stage2-count, collision-blocked, resolved-collision-dedup-current-defect")
     return 0
 
 
