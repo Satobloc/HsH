@@ -3,6 +3,10 @@ name: Build conversation viewer catalog
 # Workflow edits intentionally trigger a self-test so generation and UI changes are validated on main.
 on:
   workflow_dispatch:
+  schedule:
+    # GLASS is a separate public repository, so an hourly sweep provides eventual
+    # convergence even when no HsH commit occurs at the same time.
+    - cron: '23 * * * *'
   push:
     branches: [main]
     paths:
@@ -14,6 +18,7 @@ on:
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
+      - 'tools/discover_external_conversations.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
@@ -33,11 +38,20 @@ jobs:
   build:
     if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip conversation-viewer]') }}
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+
+      - name: Checkout public GLASS archive for Viewer discovery
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          ref: main
+          path: _viewer_external/GLASS
+          fetch-depth: 1
 
       - uses: actions/setup-python@v5
         with:
@@ -49,10 +63,18 @@ jobs:
           node --check CONVERSATION_VIEWER/landmarks.js
           node --check CONVERSATION_VIEWER/presentation.js
 
+      - name: Discover eligible public cross-repo conversations
+        run: |
+          python tools/discover_external_conversations.py \
+            --hsh-root . \
+            --external-root _viewer_external/GLASS \
+            --external-repository Satobloc/SAT_THEORY_ARCHIVE_2023-25 \
+            --output CONVERSATION_VIEWER/data/discovered_external_conversations.json
+
       - name: Build compact conversation catalog
         run: python tools/build_conversation_viewer_resolved.py
 
-      - name: Validate generated catalog, source paths, curation and landmarks
+      - name: Validate generated catalog, public discovery, source paths, curation and landmarks
         run: |
           python - <<'PY'
           import json
@@ -83,13 +105,28 @@ jobs:
           assert curation['schema_version'] == 1
           assert isinstance(curation['rules'], list)
 
-          ep = Path('CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json')
-          external = json.loads(ep.read_text(encoding='utf-8'))
-          assert external['schema_version'] == 1
-          assert isinstance(external['conversations'], list)
+          manual_path = Path('CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json')
+          manual = json.loads(manual_path.read_text(encoding='utf-8'))
+          assert manual['schema_version'] == 1
+          assert isinstance(manual['conversations'], list)
+
+          discovered_path = Path('CONVERSATION_VIEWER/data/discovered_external_conversations.json')
+          discovered = json.loads(discovered_path.read_text(encoding='utf-8'))
+          assert discovered['schema_version'] == 1
+          assert isinstance(discovered['conversations'], list)
+          assert discovered['source_repository'] == 'Satobloc/SAT_THEORY_ARCHIVE_2023-25'
+          assert 'HSH_RESOURCES' not in json.dumps(discovered), 'private resource identity leaked into public discovery'
+          assert discovered['stats']['recognized'] >= discovered['stats']['discovered_added']
+
           known_ids = set(ids)
-          for item in external['conversations']:
+          for item in manual['conversations']:
               assert item['id'] in known_ids, f"registered external conversation missing from catalog: {item['id']}"
+          for item in discovered['conversations']:
+              assert item['id'] in known_ids, f"discovered public conversation missing from catalog: {item['id']}"
+
+          glass = [x for x in data['conversations'] if x.get('source_repository') == 'Satobloc/SAT_THEORY_ARCHIVE_2023-25']
+          assert glass, 'no public GLASS conversations reached Viewer catalog'
+          assert all(x.get('external') for x in glass)
 
           for convo in data['conversations']:
               if convo.get('curated'):
@@ -112,7 +149,9 @@ jobs:
               assert isinstance(item.get('label'), str) and item['label'].strip(), f"invalid landmark label: {item}"
           print(data['counts'])
           print(data['curation'])
-          print(f"registered_external={len(external['conversations'])}")
+          print(f"manual_external={len(manual['conversations'])}")
+          print(f"glass_discovery_stats={discovered['stats']}")
+          print(f"glass_viewer_entries={len(glass)}")
           print(f"landmarks={len(landmarks['landmarks'])}")
           PY
 
@@ -122,11 +161,20 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
           for attempt in 1 2 3 4; do
-            # Rebuild from the newest main each time so a concurrent worker commit
-            # cannot strand otherwise-valid generated Viewer data.
+            # Rebuild from the newest public inputs each time so concurrent work cannot
+            # strand or silently overwrite otherwise-valid generated Viewer data.
             git fetch origin main
             git reset --hard origin/main
+            git -C _viewer_external/GLASS fetch origin main
+            git -C _viewer_external/GLASS reset --hard origin/main
+
+            python tools/discover_external_conversations.py \
+              --hsh-root . \
+              --external-root _viewer_external/GLASS \
+              --external-repository Satobloc/SAT_THEORY_ARCHIVE_2023-25 \
+              --output CONVERSATION_VIEWER/data/discovered_external_conversations.json
             python tools/build_conversation_viewer_resolved.py
+
             python - <<'PY'
           import json
           from pathlib import Path
@@ -136,20 +184,25 @@ jobs:
           for p in [Path('indexes/manifests/development-conversation-dates.json'), Path('indexes/manifests/live-conversation-dates.json')]:
               manifest = json.loads(p.read_text(encoding='utf-8'))
               assert isinstance(manifest.get('records'), list), f'invalid refreshed manifest: {p}'
+          discovered = json.loads(Path('CONVERSATION_VIEWER/data/discovered_external_conversations.json').read_text(encoding='utf-8'))
+          assert discovered['source_repository'] == 'Satobloc/SAT_THEORY_ARCHIVE_2023-25'
+          assert 'HSH_RESOURCES' not in json.dumps(discovered)
+          assert any(x.get('source_repository') == 'Satobloc/SAT_THEORY_ARCHIVE_2023-25' for x in data['conversations'])
           PY
 
-            if ! git status --porcelain -- CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json | grep -q .; then
-              echo 'Conversation viewer generated data and manifests already current.'
+            WATCH='CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json'
+            if ! git status --porcelain -- $WATCH | grep -q .; then
+              echo 'Conversation viewer generated data, public discovery and manifests already current.'
               exit 0
             fi
 
-            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json
-            git commit -m '[skip conversation-viewer] Refresh conversation viewer data and manifests'
+            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json
+            git commit -m '[skip conversation-viewer] Refresh Viewer data, GLASS discovery and manifests'
             if git push origin HEAD:main; then
               exit 0
             fi
 
-            echo "Push race on attempt ${attempt}; rebuilding from latest main." >&2
+            echo "Push race on attempt ${attempt}; rebuilding from latest public inputs." >&2
             sleep 2
           done
 
