@@ -29,9 +29,9 @@ jobs:
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/validate_cross_source_integrity.py \
-            --root . \
+            --repo-root . \
             --json-out /tmp/mercer-integrity/report.json \
-            --markdown-out /tmp/mercer-integrity/report.md
+            --md-out /tmp/mercer-integrity/report.md
           cat /tmp/mercer-integrity/report.md
       - name: Upload reports
         if: always()
