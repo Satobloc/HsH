@@ -17,6 +17,17 @@ Familiarity labels: `FULL-READ / SUBSTANTIAL / TARGETED / INDEX-ONLY / UNKNOWN`.
 
 Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SANDBOXABLE / USEFUL-NONCORE / WACKYSAT-EXPOSED / QUARANTINE-EXPOSURE / RETEST / SLEEP`.
 
+## Rotation ledger
+
+### REV-001 — Alberr [äüïöëÿ]
+- **Source evidence:** raw conversation exists at `DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json`. The 2026-09-12 active-roster memo explicitly identifies Alberr (with Holojesu) as a roleplay/persona context that nevertheless produced substantive contributions and says such content should be extracted neutrally with assumptions/provenance preserved.
+- **Controller coverage:** raw conversation deliberately **not read** for candidate selection; no assumptions recorded about exact SAT competence, dates, solver exposure, Hagalaz/Kerr familiarity, mathematical quality, or wackySAT exposure.
+- **Independence value:** high as a deliberately nonstandard historical context whose usefulness should be measured on a real task rather than reputation.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md`.
+- **Problem:** blind finite-radius 4D tube / 3D resolving-hypersurface local intersection geometry; no current solver names or intended interpretation supplied.
+- **State:** `PACKET-READY / STANDDOWN-GATED`.
+- **Important conflict to preserve:** current project-wide 4D-training standdown may require current prerequisite ingestion before theory-bearing work, while such ingestion could weaken historical-independence conditions. Do not launch until controlling Common/Nathan status is rechecked; if both requirements still bind, route the conflict rather than silently contaminating the blind attempt.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
