@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 44, 2026-09-15
+**Current through:** Run 45, 2026-09-15
 
 ## Startup / authority
 
@@ -17,17 +17,26 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 
 ## Current verified state
 
-### Viewer / manifests — Run 44 correction
+### Viewer / manifests — Run 44 correction retained
 
-Current generation is `2026-09-15T12:44:12.190935+00:00`; Viewer records that exact development-manifest generation. Development summary remains **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer remains **453 conversations**, `development: 439`, `live: 9`, `source_conversations_before_curation: 453`, while input metadata declares 439 development + 9 live + 6 external = 454.
+Current settled generation inspected in Runs 44–45 is `2026-09-15T12:44:12.190935+00:00`; Viewer records that development-manifest generation. Development summary: **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer: **453 conversations**, `development: 439`, `live: 9`, `source_conversations_before_curation: 453`, while input metadata declares 439 development + 9 live + 6 external = 454.
 
-**Important correction to Runs 41–43:** the production navigation workflow does not call `tools/build_conversation_viewer.py` directly. It calls `tools/build_conversation_viewer_resolved.py`. That wrapper deliberately treats `collision`/`blocked` as rename-operation statuses rather than Viewer ineligibility when a supported source path actually exists. It substitutes `existing_source_normalize_record`, which changes collision/blocked to unchanged for Viewer normalization. Therefore the current development acceptance is correctly reconstructed as `364 unchanged + 74 planned + 1 existing collision = 439`, not 438.
+Production navigation uses `tools/build_conversation_viewer_resolved.py`, not the base builder directly. The wrapper treats `collision`/`blocked` as rename-operation statuses rather than Viewer ineligibility when a supported source path actually exists, and resolves materialized `new_path` before materialized `old_path`. Therefore current development acceptance is correctly reconstructible as `364 unchanged + 74 planned + 1 existing collision = 439`.
 
-The wrapper also resolves `new_path` first when it exists, then `old_path`. In the known SAT_CONVOS_15 collision, the collision record can therefore normalize to the already represented dated target path. This restores the earlier structural explanation: **454 accepted input records can legitimately collapse to 453 post-dedup source conversations through one exact-path duplicate**. The Run-41 diagnostic was incomplete because it modeled the base builder's status exclusion rather than the resolved wrapper used in production.
+The SAT_CONVOS_15 collision is independently confirmed on current `main`: both `26.06.22•26.09.12•Cosmological Constant Summary — raw.json` and `Cosmological Constant Summary — raw.json` exist and have identical blob SHA `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`. Viewer-safe deduplication does not itself resolve the provenance-preserving duplicate disposition.
 
-Do not describe the Viewer input metadata as stale/incorrect on the present evidence. The generated state is internally explainable under the actual production wrapper.
+### Run 45 diagnostic repair — COMPLETE, execution pending
 
-### Validator contract defect — OPEN, now better localized
+`WORKSPACES/MERCER/diagnose_viewer_input_dedup.py` was repaired in commit `4ec472ff2e78724a0cf8e9981af7e9c35863666a` to replay production resolved semantics instead of the base builder's blocked-status shortcut. It now:
+- resolves each manifest record by first existing supported `new_path`, then existing supported `old_path`;
+- excludes only `skipped` among rename statuses after existence resolution, allowing existing `collision`/`blocked` sources to participate as production does;
+- records `resolved_from`, `old_path`, and `new_path` for manifest inputs;
+- preserves exact-path winner reconstruction and external-input following;
+- labels report semantics `production-resolved-existing-source-v1`.
+
+The change triggered both navigation and Mercer integrity workflows; both were queued when this checkpoint was written. Do not claim the exact duplicate path/winner from the repaired diagnostic until its retained output is available.
+
+### Validator contract defect — OPEN
 
 `WORKSPACES/MERCER/validate_cross_source_integrity.py` remains stale because it models base-manifest semantics rather than the production resolved-builder contract and hardcodes the manual external registry. Needed repair:
 1. reconstruct accepted manifest records using production resolved semantics, including existing-source collision/blocked eligibility and `new_path`-then-`old_path` existence precedence;
@@ -36,7 +45,7 @@ Do not describe the Viewer input metadata as stale/incorrect on the present evid
 4. follow the Viewer-declared external input (`data/discovered_external_conversations.json` currently) rather than hardcoding `EXTERNAL_CONVERSATIONS.json`;
 5. keep manifest normalization blockers separately `BLOCKED`; Viewer eligibility does not resolve rename disposition.
 
-Specimen seven is now frozen in `test_integrity_failure_modes.py` as the **resolved collision + dedup current-defect** case. It intentionally records the current validator's arithmetic FAIL until the coherent validator repair; the original six specimens remain unchanged. Initial incorrect Run-44 specimen commit `190f574...` was immediately superseded by corrected commit `95a6b0e22c66a42e370bd83ba24fbc15463bc681` after production-wrapper reconstruction.
+Specimen seven remains frozen in `test_integrity_failure_modes.py` as the **resolved collision + dedup current-defect** case. It intentionally records the current validator's arithmetic FAIL until the coherent validator repair; the original six specimens remain unchanged. Initial incorrect Run-44 specimen commit `190f574...` was immediately superseded by corrected commit `95a6b0e22c66a42e370bd83ba24fbc15463bc681`.
 
 ### Source-integrity machinery
 
@@ -63,7 +72,8 @@ Source inventory/custody work complete; direct raw-message ancestry remains unre
 
 ## Open dependencies
 
-- `VALIDATOR REPAIR`: production resolved-wrapper semantics are now identified; implement acceptance + dedup + survivor-provenance reconstruction and discovered-external input following.
+- `DIAGNOSTIC EXECUTION`: retrieve the Run-45 integrity artifact after workflow completion; record exact duplicate path and winner provenance under repaired resolved semantics.
+- `VALIDATOR REPAIR`: after diagnostic confirmation, implement resolved acceptance + dedup + survivor-provenance reconstruction and Viewer-declared external-input following.
 - `OWNER ACTION / RECHECK`: development manifest still has 1 collision; historical SAT_CONVOS_15 duplicate disposition is not resolved merely because Viewer can safely represent it.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `DEPENDENCY`: machine-readable autotag-side generation/freshness lineage.
@@ -73,15 +83,15 @@ Source inventory/custody work complete; direct raw-message ancestry remains unre
 
 ## Run history
 
-Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 production validation + CI; 35 failure-mode harness; 36 harness interface repair; 37 green harness + transient Viewer/manifest split; 38 settled convergence + external accounting change; 39–40 initial dedup/external-lineage diagnosis; 41 diagnostic instrumentation; 42 failure-output observability repair; 43 diagnostic localized an apparent acceptance discrepancy under incomplete base-builder semantics; **44 reconstructed the actual production resolved wrapper, corrected Runs 41–43 interpretation, and froze specimen seven around the real collision/dedup contract.**
+Runs 1–7 training + scanner defect/repair; 8–12 Viewer path/navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 durable docs reconciliation; 27 corpus-count reconciliation; 28 registered-external semantics; 29 exact duplicate collision; 30 source-integrity systems map; 31 validator contract; 32 Nathan Direct machine bridge; 33 validator implementation + pre-meeting report; 34 production validation + CI; 35 failure-mode harness; 36 harness interface repair; 37 green harness + transient Viewer/manifest split; 38 settled convergence + external accounting change; 39–40 initial dedup/external-lineage diagnosis; 41 diagnostic instrumentation; 42 failure-output observability repair; 43 apparent discrepancy under incomplete base-builder semantics; 44 production-wrapper reconstruction + specimen-seven correction; **45 repaired the dedup diagnostic to replay the actual resolved wrapper's existence-aware manifest semantics and re-confirmed the byte-identical SAT_CONVOS_15 source pair on current main.**
 
 ## Last material run
 
-Run 44: read production workflow and `build_conversation_viewer_resolved.py`; established that collision/blocked rename statuses do not hide valid existing Viewer sources; corrected the acceptance arithmetic and specimen seven. No conversation identity altered.
+Run 45: read all controlling startup/safety surfaces and current handoffs; repaired `diagnose_viewer_input_dedup.py` against `build_conversation_viewer_resolved.py`; independently re-confirmed both SAT_CONVOS_15 Cosmological Constant Summary paths exist with identical blob SHA; triggered CI/navigation but did not claim pending results. No conversation identity altered.
 
 ## Best next operations
 
-1. Repair `diagnose_viewer_input_dedup.py` first so it imports/replays `build_conversation_viewer_resolved.py` semantics rather than base-builder status rules; use it to explicitly identify the current duplicate path and winner provenance.
-2. Then repair `validate_cross_source_integrity.py` to model resolved acceptance, pre/post-dedup cardinality, survivor provenance, and Viewer-declared external input.
-3. Flip specimen seven from documenting the current validator defect to expected PASS only when the repaired validator reproduces the production contract; rerun all seven plus production validation.
+1. Retrieve the repaired diagnostic's retained JSON after workflow completion; name the exact duplicate path, its two input records, and winner provenance.
+2. Repair `validate_cross_source_integrity.py` to model resolved acceptance, pre/post-dedup cardinality, survivor provenance, and Viewer-declared external input.
+3. Flip specimen seven to expected PASS only when the repaired validator reproduces the production contract; rerun all seven plus production validation.
 4. Keep the SAT_CONVOS_15 collision separately `BLOCKED` until provenance-preserving duplicate disposition is actually established.
