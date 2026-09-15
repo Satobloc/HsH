@@ -7,8 +7,10 @@ on:
       - 'WORKSPACES/MERCER/validate_cross_source_integrity.py'
       - 'WORKSPACES/MERCER/test_validate_cross_source_integrity.py'
       - 'WORKSPACES/MERCER/test_integrity_failure_modes.py'
+      - 'WORKSPACES/MERCER/diagnose_viewer_input_dedup.py'
       - 'CONVERSATION_VIEWER/data/conversations.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
+      - 'CONVERSATION_VIEWER/data/discovered_external_conversations.json'
       - 'indexes/manifests/**'
       - 'indexes/nathan-direct/**/MANIFEST.json'
       - '.github/workflows/mercer-cross-source-integrity.yml'
@@ -28,6 +30,8 @@ jobs:
         run: python WORKSPACES/MERCER/test_validate_cross_source_integrity.py
       - name: Failure-mode competence harness
         run: python WORKSPACES/MERCER/test_integrity_failure_modes.py
+      - name: Viewer input dedup diagnostic
+        run: python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py
       - name: Production metadata validation
         run: |
           mkdir -p /tmp/mercer-integrity
