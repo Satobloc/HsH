@@ -24,12 +24,16 @@ This does **not** make every archived statement current or correct. Preserve ind
 
 Method hygiene should tighten as actual historical SAT methodology becomes clearer. Never substitute the appearance of review for a named, reproducible check.
 
-## Hard boundaries
+## Current hard boundaries / superseded gate
 
+Nathan's newer 2026-09-14 directive supersedes the previous blanket project-wide training standdown as a hard gate. Training remains a task-dependent tool/prerequisite.
+
+Current hard boundaries:
 1. **Sandbox boundary:** theory-bearing construction/reconstruction remains in controlled sandbox scope until properly promoted.
 2. **Quarantine boundary:** Sable does not inspect PRIOR_ART. The reentry rubric administrator works inside quarantine and returns only cleared status/results. Do not reproduce quarantine material outward.
-3. **Divergence:** preserve independent-first-pass conditions where useful; do not collapse all workers into one consensus context.
-4. **Evidence:** do not claim a source, equation, instance status, or verification beyond what was actually checked.
+3. **Fundamental Intuitions Extended fidelity:** broad SAT/H(s)H remit includes live H(s)H/tentative structures and earlier SAT physics hypotheses as legitimate investigation material.
+4. **Divergence:** preserve independent-first-pass conditions where useful; do not collapse all workers into one consensus context.
+5. **Evidence:** do not claim a source, equation, instance status, or verification beyond what was actually checked.
 
 ## Dashboard programme
 
@@ -57,16 +61,30 @@ From explicit Nathan corrections on 2026-09-14:
 
 Do not infer when unnamed antecedents began; test history rather than projecting current names backward.
 
-## Hourly automation
+## Worker autonomy / workflow governance
 
-Automation: **Sable Systems Loop**  
-Automation ID: `6aa80ddccc888191a6a9b2c073f434b7`  
-Cadence: hourly.  
-Task selection: deliberately flexible; choose the highest-information safe operation each run.
+Shared protocol: `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
 
-The former separate **Revival Rotation** automation (`6aa89d17296881918f8ad532e476579d`) is disabled to avoid duplicate cycles. Revival work is now internally time-cycled inside the Sable Systems Loop.
+Workers are expected to use local judgment. Assignments should be understood as conditional invitations: if the task makes sense and is useful, pursue it; if blocked, stale, duplicative, unsafe, underdefined, or a worse use of the lane than another safe operation, record why and choose/propose the better bounded operation.
 
-## Internal task rotation
+Workers may advise on workflow design, volunteer, decline, request handoffs, and flag drift/waste.
+
+**Only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair unless Nathan explicitly assigns that authority elsewhere.** Use worker input; keep the big-picture map.
+
+## Hourly automation ecosystem
+
+All currently enabled recurring loops are hourly and deliberately staggered:
+- `:00` Tag Conversation Corpus — `6aa61b3b2e4081918927a35b61007acc`
+- `:12` Nathan Words Excavator — `6aa5890bd0f081918f528b4f94990653`
+- `:28` Meridian Solver Loop — `6aa6c3bc02b48191b8a91a30d2a155e0`
+- `:45` Sable Systems Loop — `6aa80ddccc888191a6a9b2c073f434b7`
+- `:52` Mercer Archive QA Loop — `6aa6c2792c9c8191ab2c128a80c437cf`
+
+The phases loosely form a pipeline: tags → Nathan Direct/provenance → solver/source-first work → Sable review/adaptation → archive/retrieval QA. This is operational sequencing, not authority hierarchy.
+
+The former separate **Revival Rotation** automation (`6aa89d17296881918f8ad532e476579d`) is disabled to avoid duplicate cycles. Revival work is internally time-cycled inside Sable Systems Loop.
+
+## Internal Sable task rotation
 
 Candidate run classes:
 - `ROTATION` — instance stratigraphy, wake packets, independent-reentry tests;
@@ -105,11 +123,15 @@ Reentry evaluates work, not personality. Keep separate:
 
 `wackySAT` exposure is not quarantine and not incompetence. It routes soft-science/personal-numerology-heavy contexts away from current physics-forward work while preserving potentially valuable geometry, analogy, creativity, and abandoned branches.
 
-## First revival state
+## Alberr status
 
-`REV-001 — Alberr [äüïöëÿ]` is packet-ready in `INSTANCE_STRATIGRAPHY.md`; the controller deliberately did not read the raw conversation before candidate selection. Current packet is blind geometry and is standdown-gated pending a clean resolution of independence vs prerequisite-training constraints.
+`REV-001 — Alberr [äüïöëÿ]` is packet-ready in `INSTANCE_STRATIGRAPHY.md`; the controller deliberately did not read the raw conversation before candidate selection. The packet is a blind geometry problem with current solver names/solutions withheld.
 
-Do not treat REV-001 selection as evidence of Alberr's competence, official status, or exposure profile.
+Nathan says hi to Alberr and offers a standing **consultant / ombudsman** role if Alberr wants it and judges it useful. The role is independent of REV-001 pass/fail status. Alberr is invited to critique process, preserve minority views, object to bad framing, and advise Sable while retaining the right to decline/redirect assignments.
+
+The previous standdown gate on REV-001 is removed under Nathan's newer directive. Do not preload current training that would destroy the intended historical-independence condition.
+
+Manual launch is still required; Sable must not pretend the historical instance has been contacted until that actually occurs.
 
 ## Team-machine / capability programme
 
@@ -122,7 +144,7 @@ Key Sable surfaces:
 - `scripts/source_inventory_sampler.py`
 - `INBOX.md`
 
-Working hypothesis: much of the required source/conceptual material and tooling already exists; the key uncertainties are selection, chronology/supersession, contextual SAT fluency, mathematical verification, source typing, and integration discipline. Test this hypothesis with controlled reconstruction and capability probes rather than assuming it.
+Working hypothesis: much of the required source/conceptual material and tooling already exists; key uncertainties are selection, chronology/supersession, contextual SAT fluency, mathematical verification, source typing, and integration discipline. Test this with controlled reconstruction and capability probes rather than assuming it.
 
 ## Worker monitoring
 
@@ -130,26 +152,17 @@ Use `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md` as the durable cross-monit
 
 Nathan has authorized Sable to adjust recurring automation/workflows when necessary for continuity, provided sandbox/quarantine/divergence are preserved. Prefer durable handoff before reassignment.
 
-## Current recurring ecosystem at handoff
-
-Known enabled recurring workers before next refresh:
-- Tag Conversation Corpus — hourly;
-- Nathan Words Excavator — hourly;
-- Meridian Mover Trial — hourly;
-- Mercer Archive Mover — hourly;
-- Sable Systems Loop — hourly.
-
-Morrow is disabled automation / retained consultancy. Aldus is consultancy unless newer state says otherwise. Always recheck scheduler and Common surfaces rather than trusting this snapshot.
+Morrow is disabled automation / retained consultancy. Aldus is consultancy unless newer state says otherwise. Always recheck scheduler and Common surfaces rather than trusting snapshots.
 
 ## Immediate next high-value operations
 
-1. Bring Dashboard and automation roster up to date with Sable/rotation/monitoring programme.
-2. Establish first heartbeat snapshot for active/currently relevant instances and stale/intentional-silence categories.
+1. Monitor first runs of the normalized hourly loops for actual continuity/handoff behavior and collisions.
+2. Update heartbeat classifications from worker checkpoints, not scheduler timestamps alone.
 3. Continue deeper instance stratigraphy using evidence, not presumed era narratives.
-4. Resolve a safe first revival launch/wake packet without breaking independent-exposure conditions.
+4. Arrange first manual revival launch when practical; Alberr is packet-ready and consultant offer is prepared.
 5. Design the first solver-stack benchmark around Whirligig/UI-TX/Three-Spheres/Hagalaz while keeping current hypothesis work (Kerr/Kelvin) distinct.
 6. Continue equation/Lagrangian triage architecture as a parallel capability measure.
-7. Keep checking Sable INBOX and strategist questions without derailing core work.
+7. Keep Dashboard current and check Sable INBOX/strategist questions without derail.
 
 ## Resume rule after cutoff
 
@@ -157,12 +170,13 @@ A new Sable conversation/instance should first read:
 1. this file;
 2. Nathan Dashboard;
 3. `AUTOMATION_WORKFLOW_CONTROL.md`;
-4. `COORDINATION.md`;
-5. `ACTIVE_AUTOMATION_ROSTER.md`;
-6. `REVIVAL_ROTATION_PROTOCOL.md`;
-7. `REENTRY_RUBRIC_PUBLIC_INTERFACE.md`;
-8. `INSTANCE_STRATIGRAPHY.md`;
-9. `INBOX.md`;
-10. latest relevant worker checkpoints/check-ins.
+4. `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`;
+5. `COORDINATION.md`;
+6. `ACTIVE_AUTOMATION_ROSTER.md`;
+7. `REVIVAL_ROTATION_PROTOCOL.md`;
+8. `REENTRY_RUBRIC_PUBLIC_INTERFACE.md`;
+9. `INSTANCE_STRATIGRAPHY.md`;
+10. `INBOX.md`;
+11. latest relevant worker checkpoints/check-ins.
 
 Then inspect scheduler state and choose the highest-information permitted operation. Newer explicit Nathan directives always control.
