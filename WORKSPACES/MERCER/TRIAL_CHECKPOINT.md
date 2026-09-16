@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 60, 2026-09-16
+**Current through:** Run 61, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before touching write-capable scripts/shared generated state, also read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -28,6 +28,8 @@ Run 58 triaged all 222 pairwise comparisons. Taxonomy: 66 subset candidates, 49 
 Run 59 implemented privacy-preserving mapping-internal signatures at commit `e83c2c2fae2b5293cece1f4b275b3e363efffd71`.
 
 Run 60 observed production v2: Actions run `35061454854` completed successfully; artifact `10432552752`, digest `sha256:c912619b5c8d56f2609e0a354209473ef82c7125395f32845691e598ac814ef3`. Across all 12 same-message-ID-set divergent-payload comparisons, **side-only mapping nodes = 0 and topology-changed nodes = 0**. Eleven comparisons contain at least one changed `message.content` node; one (`String Theory Particle Zoo`) is metadata-only at mapping level (`message.update_time` only, zero content changes). Content-bearing families include `SAT Theorizer Emeritus`, `AI Enclosure Critique`, `Population Social Thresholds`, `Priority assessment summary`, `ChatGPT Voice Glitch`, `Friday Research Briefs`, `Continue Conversation Here`, and `H(s)H Archive Audit`. `AI Enclosure Critique` is exceptional for large model/tool-response metadata churn in addition to 54 content-changed nodes. These signatures do not establish human-visible semantic difference because retained v2 output intentionally omits differing values. Durable record: `RUN_060_2026-09-16.md`.
+
+Run 61 audited post-Run-60 publication freshness. Commit `c5cddd8e3bc82d6f5281dade17e2980d77670771` refreshed only Viewer/discovery/manifest generated surfaces and timestamps; its changed-file list contains no raw conversation sources, while shown development/live accepted counts remain 439/9. This specific refresh therefore makes publication timestamps newer without evidence of conversation-content drift and does not invalidate Run-60's content/topology taxonomy. Future freshness checks should distinguish publication-state freshness from accepted-source-content freshness and rerun identity QA when intervening commits touch accepted raw inputs, acceptance semantics, or the diagnostic—not solely for timestamp-only refreshes. Durable record: `RUN_061_2026-09-16.md`.
 
 ### Validator production contract
 Runs 47–51 established the semantics-aware v2 validator and seven-specimen harness. Production v2 run `35016148194` completed with **0 FAIL / 1 BLOCKED / 13 PASS**; sole blocker is the known SAT_CONVOS_15 normalization collision. Legacy validator is reference-only because it retains the known false pre-dedup/post-dedup arithmetic failure. Active workflow contract commit: `02b4ac3a8264fffd2d70afda7f5d4a2f2c8834ad`.
@@ -64,7 +66,7 @@ Historical glossary/standard crosswalk: inventory/custody complete; direct raw-m
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; 59 implemented mapping-internal v2 signatures; **60 observed v2 production and separated metadata-only from content-bearing same-ID-set divergence.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; 59 implemented mapping-internal v2 signatures; 60 observed v2 production and separated metadata-only from content-bearing same-ID-set divergence; **61 audited post-v2 publication freshness and separated publication timestamp movement from source-content drift.**
 
 ## Best next operations
 1. Compare normalized human-visible content for the 11 content-bearing same-ID-set comparisons without retaining bodies in CI output.
@@ -72,4 +74,5 @@ Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation conve
 3. Inspect `AI Enclosure Critique` separately because of large tool/model metadata churn.
 4. Reconstruct ancestry for the four graph-divergent cases independently of same-ID-set payload analysis.
 5. Audit any implemented autotag lineage repair.
-6. Keep Viewer navigation dedup separate from archive source disposition.
+6. On identity-artifact freshness checks, compare intervening changed paths/acceptance semantics before deciding a rerun is required.
+7. Keep Viewer navigation dedup separate from archive source disposition.
