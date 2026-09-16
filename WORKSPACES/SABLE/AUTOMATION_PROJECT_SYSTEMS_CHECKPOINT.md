@@ -4,7 +4,25 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — diagnose safe root-front-door edit path
+## Current bounded operation — Large Document Feeder conversation-order repair
+
+This recurrence performed one bounded infrastructure-QA repair against the newly adopted work/document quantum standard.
+
+### Durable boundary reached
+
+- Read the current `AUTOMATION_WORKFLOW_CONTROL.md`, `WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md`, BEDROCK control surface, and this backend checkpoint before acting.
+- Inspected `tools/large_document_feeder.py` against the feeder requirement to preserve conversation ordering and message identity.
+- Found one concrete defect class: mapping-shaped ChatGPT exports were being read via raw `mapping.values()` order. That can include alternate branches and does not explicitly preserve the active conversation path.
+- Repaired only that defect. When `current_node` is available, the feeder now walks the parent chain to recover the active branch and reverses it into conversation order. Mapping-shaped exports without `current_node` use a deterministic create-time/message-ID fallback and are explicitly labeled `chatgpt-mapping-chronological-fallback` rather than being represented as an active branch.
+- Existing message IDs, author, timestamp, packet source ranges, source hashes, read-only source behavior, and PRIOR_ART guard remain intact.
+- Feeder repair commit: `233c65903514b27eb5633da09aa35be32f7d9f8e`.
+- No theory claim or BEDROCK status changed. No PRIOR_ART/nLab/quarantine content was accessed. No cross-lane cadence or role change was made.
+
+### One continuation cursor
+
+Run one bounded regression test of `tools/large_document_feeder.py` against a small representative mapping-shaped conversation fixture/source, checking active-branch order, packet cursor continuity, manifest source ranges, and source immutability; stop after recording the test result.
+
+## Prior bounded operation — diagnose safe root-front-door edit path
 
 This recurrence performed one bounded shared-state/visibility diagnosis only. It did not modify the root README or any theory-state surface.
 
