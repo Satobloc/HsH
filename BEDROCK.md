@@ -19,6 +19,13 @@ Do not reconstruct the project's bedrock from the newest paper, the newest conve
 
 This register does **not** replace primary sources. It points to them and records their current authority/status.
 
+### Two central theory surfaces
+
+- **[BEDROCK.md](BEDROCK.md)** answers: **What may theory work presently assume, and with what authority/status?**
+- **[STATE_OF_THE_THEORY.md](STATE_OF_THE_THEORY.md)** answers: **Where is the theory now, what is live, what is being translated/built, and what remains unclosed?**
+
+`STATE_OF_THE_THEORY.md` is subordinate to BEDROCK and newer Nathan Direct. It is the living map, not an independent source of authority.
+
 ---
 
 ## 1. Authority and status strata
@@ -162,6 +169,10 @@ A status movement should name **why** it occurred and link the source/test/direc
 ---
 
 ## 6. Current high-priority source routing
+
+### Current state map
+
+- [STATE_OF_THE_THEORY.md](STATE_OF_THE_THEORY.md) — living theory-state map: current architecture, live work fronts, translation state, and principal open closure problem. **Subordinate to this register and newer Nathan Direct.**
 
 ### Foundational
 
