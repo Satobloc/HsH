@@ -4,7 +4,25 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — front-door theory visibility regression diagnosis
+## Current bounded operation — route lead co-theorist updates into State of the Theory
+
+This recurrence performed one bounded theory-reference visibility/routing repair only. It updated `STATE_OF_THE_THEORY.md`; it did not edit BEDROCK or the root README.
+
+### Durable boundary reached
+
+- `STATE_OF_THE_THEORY.md` now exposes `!!_RUNNING_COTHEORIST_LOG.md` conspicuously near its top as the current lead-co-theorist update feed.
+- The feed is explicitly typed as **intake/visibility, not theory authority**; its entries remain sandbox/open/tentative as appropriate until bounded source/status review changes BEDROCK or materially changes the state map.
+- The Ravel work-front section now identifies Ravel as the current head co-theorist/live-theory lane and routes newer live-theory updates through the running log.
+- The State-of-the-Theory update protocol now treats the running log as a standing upstream feed: review substantive additions in bounded slices, do not copy every update, route premise-status changes through BEDROCK first, and update State of the Theory only when the overall map materially changes.
+- Fast routing now answers explicitly where to find current lead-co-theorist work/reporting.
+- No theory claim was promoted. No PRIOR_ART/nLab/quarantine content was accessed. BEDROCK was not edited.
+- Commit for the semantic state-map repair: `1f78d7a928a5ca8028ecc509f830d7774b5dbd45`.
+
+### One continuation cursor
+
+The root README still needs the separate visibility quantum previously identified: expose `BEDROCK.md`, `STATE_OF_THE_THEORY.md`, and the current lead-co-theorist feed together at the theory front door **outside generated blocks**, using a safe current-state editing route that does not require reconstructing/truncating the full README. Do not combine that with the `AUTO_FEATURED` generator-owned authority-label repair.
+
+## Prior bounded operation — front-door theory visibility regression diagnosis
 
 This recurrence performed one bounded reference-lane/visibility diagnosis only. It inspected the current root `README.md` after the recent BEDROCK / State-of-the-Theory / lead-co-theorist routing work and did not modify the shared README.
 
