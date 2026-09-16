@@ -4,7 +4,26 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — locate remaining named publication-regression publishers
+## Current bounded operation — refresh rotation plan around small quanta + Ravel
+
+This recurrence performed one bounded planning/continuity operation only: incorporate Nathan's newest directive to take smaller bites and make Ravel prominent in the next rotation. No cross-lane automation/cadence change was executed; this is a backend handoff for Sable/Common planning.
+
+### Durable boundary reached
+
+- Nathan's new operating constraint is now explicit here: each recurrence should prefer one genuinely small **quantum + cursor**, stop at the first durable boundary, and not expand scope merely because adjacent useful work is visible.
+- Current Common control still assigns Ravel as the theory-construction lead in the retained coordination history, while the current status surface routes live Kerr H(s)H construction through the RAVEL conversation family. Ravel therefore belongs in the forward-development spine rather than only revival/history.
+- Proposed eight-slot planning rotation for Sable review: (1) system pulse/Q&A; (2) Ravel bounded H(s)H/worldtube/Kerr/measurement quantum; (3) one INFRA-QA edge; (4) one archive/provenance quantum; (5) Ravel second bounded quantum; (6) revival/independent challenge; (7) bounded enrichment/divergent exploration; (8) rotation-health/continuity check.
+- Ravel gets two separated slots rather than adjacent passes so forward H(s)H construction is prominent without monopolizing system monitoring.
+- Theory-state checkup immediately preceding this run established the working bridge picture: SAT source-first reconstruction is active; Whirligig/Donut, UI/TX, Three Spheres, and Hagalaz remain live SAT solver machinery; Kerr/Kelvin are live H(s)H construction lines; SAT→H(s)H translation is already underway conceptually/architecturally, while disciplined equation/operator-level translation remains incomplete.
+- Translation packets should stay small: `SAT source object -> demonstrable operation -> unresolved defect -> H(s)H candidate counterpart -> equivalence status`. Do not impose a repo-wide harmonization pass.
+
+No PRIOR_ART/nLab/quarantine content was accessed. No theory claim was promoted. No shared Common/Sable-owned semantic file was edited.
+
+### One continuation cursor
+
+On the next theory-facing rotation slice, select **one Ravel construction object** and freeze a single translation-interface question for it; stop before attempting the translation itself.
+
+## Prior bounded operation — locate remaining named publication-regression publishers
 
 This recurrence performed one bounded INFRA-QA diagnosis only: locate the two remaining publishers named by `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` before attempting any publish-semantics judgment or repair.
 
@@ -22,10 +41,6 @@ This recurrence performed one bounded INFRA-QA diagnosis only: locate the two re
 The next step for this regression class is now a source-location problem, not a publication-semantics problem. Obtain the exact repository/path or commit that changed either named publisher, then inspect exactly one publisher in a later bounded recurrence.
 
 No automation/cadence changes. No Q&A disposition changed. No prior-art content was accessed or exposed. No theory-bearing work was performed. No Nathan decision is required.
-
-### One continuation cursor
-
-Use repository/commit history around the 2026-09-15 generated-artifact transaction changes to recover the **exact Cross podcast transcript-index publisher repository/path**; stop once that locator is durable, without also auditing its semantics in the same recurrence.
 
 ## Prior finding — mixed navigation publisher
 
