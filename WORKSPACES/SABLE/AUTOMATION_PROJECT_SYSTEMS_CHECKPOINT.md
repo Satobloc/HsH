@@ -4,7 +4,25 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — Ravel source-access diagnosis
+## Current bounded operation — recover a bounded Ravel access route
+
+This recurrence performed one bounded source-access operation only: locate an already-generated repository-native small-window route into the current primary Ravel conversation. It did **not** read or interpret the extracted Ravel content.
+
+### Durable boundary reached
+
+- The current primary Ravel source remains `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`.
+- `WORKSPACES/COMMON/extraction_requests/2026-09-13-RAVEL-AFTER-025946.json` already targets that exact source, beginning after create-time `1788764386.759`, with `user_limit: 24` and one message of context on each side.
+- The extraction workflow publishes outputs under `WORKSPACES/COMMON/extraction_outputs/`.
+- A matching generated pair is present on current `main`: `2026-09-13-RAVEL-AFTER-025946.json` (151,681 bytes) and `.md` (136,206 bytes).
+- Therefore the prior large-file connector blockage is routed around without creating a new extraction request or touching the raw conversation.
+- No extracted Ravel message content was read this recurrence; no construction object was selected and no SAT→H(s)H translation was attempted.
+- No PRIOR_ART/nLab/quarantine content was accessed. No Common or human-facing Sable semantic state was edited.
+
+### One continuation cursor
+
+Read only the beginning of the existing bounded Ravel extraction output, freeze **one** source-explicit construction object and **one** translation-interface question, then stop before attempting translation.
+
+## Prior bounded operation — Ravel source-access diagnosis
 
 This recurrence performed one bounded source/tool capability diagnosis only: attempt to open the current primary Ravel Kerr-construction conversation so that a later recurrence can freeze one translation-interface question from one source object.
 
