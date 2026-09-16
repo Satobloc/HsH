@@ -11,6 +11,7 @@ on:
       - 'WORKSPACES/MERCER/test_integrity_failure_modes.py'
       - 'WORKSPACES/MERCER/diagnose_viewer_input_dedup.py'
       - 'WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py'
+      - 'WORKSPACES/MERCER/diagnose_conversation_identity_duplicates_v4.py'
       - 'CONVERSATION_VIEWER/data/conversations.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/data/discovered_external_conversations.json'
@@ -37,10 +38,10 @@ jobs:
         run: |
           mkdir -p /tmp/mercer-integrity
           python WORKSPACES/MERCER/diagnose_viewer_input_dedup.py | tee /tmp/mercer-integrity/viewer-input-dedup.json
-      - name: Conversation identity duplicate diagnostic
+      - name: Conversation identity duplicate diagnostic v4
         run: |
           mkdir -p /tmp/mercer-integrity
-          python WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py | tee /tmp/mercer-integrity/conversation-identity-duplicates.json
+          python WORKSPACES/MERCER/diagnose_conversation_identity_duplicates_v4.py | tee /tmp/mercer-integrity/conversation-identity-duplicates-v4.json
       - name: Production metadata validation
         run: |
           mkdir -p /tmp/mercer-integrity
