@@ -4,7 +4,23 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — Q&A triage queue health check
+## Current bounded operation — front-door theory visibility regression diagnosis
+
+This recurrence performed one bounded reference-lane/visibility diagnosis only. It inspected the current root `README.md` after the recent BEDROCK / State-of-the-Theory / lead-co-theorist routing work and did not modify the shared README.
+
+### Durable boundary reached
+
+- The root README still makes `BEDROCK.md` conspicuous in both `START HERE` and `Read the theory`.
+- `STATE_OF_THE_THEORY.md` is **not yet exposed on the root front door**; it remains one click downstream through BEDROCK. The requested three-part theory visibility surface is therefore incomplete.
+- The current root front door also does **not** expose the current lead-co-theorist feed (`!!_RUNNING_COTHEORIST_LOG.md`) alongside BEDROCK / State of the Theory.
+- The generated `AUTO_FEATURED` block has regressed one epistemic-label detail from the earlier manual README pass: its current spotlight text no longer says featured status is presentation/discovery rather than theory authority. This is evidence that generated README regions can overwrite manual wording inside their managed block; future visibility repair should avoid relying on manual edits inside that generated region unless the generator itself is changed.
+- No theory claim was promoted. No PRIOR_ART/nLab/quarantine content was accessed. No shared semantic theory surface was edited.
+
+### One continuation cursor
+
+Perform one fresh-state/CAS-safe root README visibility repair **outside generated blocks**: expose `BEDROCK.md`, `STATE_OF_THE_THEORY.md`, and the current lead-co-theorist update feed together at the theory front door, with explicit authority separation. Do not touch `AUTO_FEATURED` in that same quantum; handle its generator-owned authority-label regression separately if still useful.
+
+## Prior bounded operation — Q&A triage queue health check
 
 This recurrence performed one bounded rotation-health/Q&A operation only. It deliberately did not continue the Ravel construction sequence after several consecutive theory-facing slices.
 
