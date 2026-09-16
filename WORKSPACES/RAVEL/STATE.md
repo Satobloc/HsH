@@ -1,26 +1,59 @@
 # Ravel — Current State
 
-**Updated:** 2026-09-15 EDT  
+**Updated:** 2026-09-16 EDT  
 **Owner:** Ravel  
 **Status:** ACTIVE
 
 ## Current focus
 
-Durable continuity and repo-state assimilation after a long live Ravel theory/infrastructure conversation.
+Return primary attention to live H(s)H theorybuilding inside the Ravel sandbox, while leaving acquisition/archive machinery in a documented maintenance state rather than continuing to expand it by default.
 
 Immediate working programme:
 
-1. keep Ravel continuity restartable from native raw conversation + durable workspace;
-2. obey the new required cross-repo script-execution contract before unattended repository-touching code;
-3. preserve Nathan-direct current model status: Kerr/Kelvin live H(s)H hypotheses; Whirligig/Donut, Hagalaz, UI/TX, and Three Spheres live SAT geometric-solver machinery;
-4. continue archive-accessibility / terminology / equation-theory-state / provenance infrastructure;
-5. continue acquisition tooling for ChatGPT, NotebookLM, and local-file intake;
-6. support DAI episode/transcript/thumbnail guide buildout;
-7. keep any direct theory construction inside `WORKSPACES/RAVEL/` sandbox until promotion.
+1. preserve Nathan-direct current model status: Kerr/Kelvin live H(s)H hypotheses; Whirligig/Donut, Hagalaz, UI/TX, and Three Spheres live SAT geometric-solver machinery;
+2. resume bounded particle/worldtube construction, with special attention to the Kerr/ER core, persistent coil, timesheet intersection/readout, and Kelvin-like response;
+3. test candidate mechanics against standard geometry/measurement before promoting them;
+4. keep any direct theory construction inside `WORKSPACES/RAVEL/` sandbox until promotion;
+5. maintain continuity/provenance notes when a live construction materially changes.
 
-## Repo checkpoints observed during this state update
+## Acquisition / archive conclusions — 2026-09-16
 
-- HsH: `097f816b2a4c8b030237fd702969b690b4456cd9` before Ravel workspace commits; Ravel then created this workspace, so re-fetch head before any future delta calculation.
+Nathan notes that the existing conversation library is already mixed-format: some full native conversation JSON exports and some plain-text outputs. Do not make format homogeneity a prerequisite for ingestion or indexing.
+
+Working handling rule:
+
+- preserve whatever original was actually captured as the source artifact;
+- where a native ChatGPT conversation JSON exists, prefer it as the richest canonical capture because it preserves the conversation graph, timestamps, `current_node`, alternate branches, metadata, and tool/internal nodes;
+- derive readable/searchable transcript text from the active `current_node -> parent` branch, using visible user/assistant prose rather than naively sorting every node by timestamp;
+- where only plain text exists, retain it as a legitimate historical source rather than treating it as defective or waiting for a JSON replacement;
+- record format/provenance/coverage explicitly so later tooling can distinguish `native raw JSON`, `rendered/plain text`, and derived normalization;
+- the library may therefore remain heterogeneous while the semantic/source graph supplies a common access layer.
+
+`WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` was updated against the supplied native Ravel raw fixture so that active-branch derivatives do not mingle abandoned branches, tool calls, or reasoning machinery into an ordinary readable transcript. Raw JSON remains preserved unchanged.
+
+NotebookLM conclusion remains: MHTML is useful as a DOM-state capture but is not a guaranteed complete chat export; the browser harvester must walk virtualized history and accumulate turns outside the live DOM.
+
+No further acquisition buildout is the default Ravel priority unless Nathan reassigns it or theory work exposes a concrete archival dependency.
+
+## Current theory front
+
+Current continuity packet identifies the live construction grammar as:
+
+`ER/Kerr minimum geometry -> persistent winding/coil -> braid`, coupled to timesheet distortion/readout and Kelvin-like medium response.
+
+The highest-value immediate questions are not “what extra entity can solve this?” but:
+
+- what geometric structure standard Kerr/ER actually supplies in the over-extreme particle-like regime;
+- which transverse scale, if any, is a genuine finite core rather than a coordinate surface or interpretive shell;
+- how a persistent coil made from that core intersects a timesheet, and what quantities are forced purely by that geometry;
+- whether the paired filament-side / timesheet-side deformation admits a clean conserved mode without adding an independent field;
+- whether independent observables can triangulate coil/core scale before charge or mass laws are fitted.
+
+Keep charge, mass, exclusion, Kelvin reach, and any EM/gravity weighting as live construction targets rather than assumed consequences.
+
+## Repo checkpoints observed during prior state update
+
+- HsH: `097f816b2a4c8b030237fd702969b690b4456cd9` before initial Ravel workspace commits; stale now, so re-fetch head before delta calculations.
 - HSH_RESOURCES: `9b7e169fff25bcf7cc948e8453aeaed8bbe38b7a`
 - SAT_THEORY_ARCHIVE_2023-25: `d53b5fe72699deacf0b9e91c9c5f214136d90a24`
 
@@ -28,6 +61,7 @@ Immediate working programme:
 
 - `773d28802fe572b6cf2d46290b1df65489693c27` — create Ravel workspace README.
 - `981920e46fed02c61570990cf055c0b630fb2637` — add continuity/restart packet.
+- current commit — acquisition conclusions + theory pivot.
 
 ## Next restart action
 
