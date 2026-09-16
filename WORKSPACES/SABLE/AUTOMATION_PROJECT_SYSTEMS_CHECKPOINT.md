@@ -4,7 +4,25 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — refresh rotation plan around small quanta + Ravel
+## Current bounded operation — Ravel source-access diagnosis
+
+This recurrence performed one bounded source/tool capability diagnosis only: attempt to open the current primary Ravel Kerr-construction conversation so that a later recurrence can freeze one translation-interface question from one source object.
+
+### Durable boundary reached
+
+- Current control still routes live Kerr H(s)H construction through the RAVEL conversation family.
+- The exact current source path attempted was `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`.
+- Direct repository-path fetch resolved the file/blob identity but returned no usable text payload through the connector for this large raw JSON.
+- A direct blob fetch on the returned blob SHA likewise returned no usable text payload.
+- Repository code search for `Ravel Kerr` returned no indexed hit.
+- Therefore this run does **not** select, summarize, or translate any Ravel construction object. The result is a bounded access-method finding: ordinary direct-file/blob/code-search routes are insufficient for this large source in the current connector path.
+- No PRIOR_ART/nLab/quarantine content was accessed. No theory claim was promoted. No Common or human-facing Sable semantic state was edited.
+
+### One continuation cursor
+
+Use an existing generated conversation/Viewer index or another bounded repository-native extraction route to obtain **one small text window** from the Ravel raw conversation; freeze one source-explicit construction object and one translation-interface question, then stop before translation.
+
+## Prior bounded operation — refresh rotation plan around small quanta + Ravel
 
 This recurrence performed one bounded planning/continuity operation only: incorporate Nathan's newest directive to take smaller bites and make Ravel prominent in the next rotation. No cross-lane automation/cadence change was executed; this is a backend handoff for Sable/Common planning.
 
