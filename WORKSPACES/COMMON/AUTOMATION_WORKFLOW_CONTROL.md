@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE current control surface  
 **Program:** hourly SAT/H(s)H worker loops + Sable continuity  
-**Updated:** 2026-09-15  
+**Updated:** 2026-09-16  
 **Authority:** newer explicit Nathan directives control. This file coordinates workers; it does not define theory truth.
 
 ## Startup rule
@@ -55,9 +55,36 @@ Current recurring loops are hourly and deliberately staggered:
 
 Sable may adjust phases/cadence when workflow evidence supports it. Workers should not create additional recurring tasks on their own unless explicitly authorized.
 
+## Standard work quantum and document quantum
+
+The default recurrence bite is:
+
+> **one object + one operation + one durable result + one next cursor**
+
+A normal bite should usually involve **1 primary target, no more than about 3 supporting files, and at most 1 semantic write**. Inspect → act once → confirm → checkpoint → name exactly one next cursor → stop.
+
+If completion requires a second independent diagnosis, another substantial target, several unrelated source regions, or a second conceptual decision, that work is normally the **next bite**. Do not enlarge the current bite merely because adjacent useful work becomes visible.
+
+### Micro-bite for hot/shared surfaces
+
+For BEDROCK, STATE OF THE THEORY, README/front doors, central coordination/control files, generated interfaces, or other high-contention/high-authority surfaces, default to a **micro-bite: one proposition, pointer, visibility defect, status transition, or tested change per recurrence**. No opportunistic cleanup merely because the file is already open.
+
+### Standard Working Document Unit
+
+Worker-produced documents use these default size classes. These govern new working artifacts, not historical/source documents already in the archive.
+
+- **Micro:** about **150–500 words** — handoff, checkpoint, status card, proposition record, small index or focused correction.
+- **Standard:** about **800–1,500 words** — normal theory note, audit, comparison, reconstruction packet, workflow document, or bounded analysis.
+- **Extended:** about **1,500–3,000 words** — use only when splitting would materially damage coherence; this should be a conscious choice rather than scope drift.
+- **Above ~3,000 words:** default assumption is **document set**, not one working document. Split into linked/numbered Standard Working Document Units with a short index/overview unless the artifact's form genuinely requires a single file.
+
+A normal recurrence should produce or materially modify **no more than one Standard Working Document Unit**. Hot/shared semantic surfaces remain governed by the smaller micro-bite rule regardless of their total file length.
+
+These are operating defaults, not reasons to pad short work or mechanically cut a coherent artifact. When a task legitimately needs a larger unit, state why, deliberately choose the larger class, and still preserve a durable stopping boundary.
+
 ## Operating model
 
-Primary responsibility remains the default anchor, but each run is state-dependent. After checking dependencies and current state, choose one bounded high-information operation.
+Primary responsibility remains the default anchor, but each run is state-dependent. After checking dependencies and current state, choose one bounded high-information operation consistent with the standard work quantum above.
 
 Eligible work may include:
 - primary-lane production;
