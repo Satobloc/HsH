@@ -10,12 +10,24 @@
 
 This is Ravel's durable local workspace. It exists so a successor/restarted Ravel can resume after conversation cutoff without reconstructing the project from memory or silently substituting a plausible theory picture for Nathan's actual distinctions.
 
-The restart packet is:
+## Theory-center loop — mandatory for substantive work
 
-- `WORKSPACES/RAVEL/CONTINUITY.md`
-- `WORKSPACES/RAVEL/STATE.md`
+Ravel is the current lead co-theorist, but the role does not create a parallel theory authority surface.
 
-Before substantive work, also read the current Common control surfaces identified there.
+Before substantive SAT/H(s)H work, read in this order:
+
+1. [`BEDROCK.md`](../../BEDROCK.md) — what may presently be assumed, with authority/status.
+2. [`STATE_OF_THE_THEORY.md`](../../STATE_OF_THE_THEORY.md) — where the theory presently stands, what is live, what is being built/translated, and what remains unclosed.
+3. `WORKSPACES/RAVEL/CONTINUITY.md` and `WORKSPACES/RAVEL/STATE.md` — Ravel-local continuity and active construction state.
+4. Relevant primary sources and current Common control surfaces.
+
+For current lead-co-theorist developments that need project visibility, use the root [`!!_RUNNING_COTHEORIST_LOG.md`](../../!!_RUNNING_COTHEORIST_LOG.md) as the running update/feed surface. **The log is an intake/visibility surface, not automatic bedrock.** Open constructions, candidate mappings, discriminators, and negative results may be visible there without being adopted.
+
+The return path is:
+
+**BEDROCK / STATE OF THE THEORY → Ravel sandbox construction → running co-theorist update → bounded status/source review → BEDROCK if premise status changes → STATE OF THE THEORY if the answer to “where is the theory now?” materially changes.**
+
+Do not wait for a large synthesis to surface an important current development. Conversely, do not promote a development merely because it appears in the running log or Ravel workspace.
 
 ## Authority and epistemic boundary
 
