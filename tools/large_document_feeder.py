@@ -53,14 +53,41 @@ def message_text(msg: dict[str, Any]) -> str:
     return ""
 
 
-def conversation_units(obj: Any) -> list[dict[str, Any]] | None:
-    msgs = None
+def active_mapping_messages(obj: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return the active ChatGPT branch in parent-chain order when possible."""
+    mapping = obj.get("mapping")
+    if not isinstance(mapping, dict): return []
+    current = obj.get("current_node")
+    if current in mapping:
+        chain, seen = [], set()
+        while current in mapping and current not in seen:
+            seen.add(current)
+            node = mapping[current]
+            if not isinstance(node, dict): break
+            msg = node.get("message")
+            if isinstance(msg, dict): chain.append(msg)
+            current = node.get("parent")
+        chain.reverse()
+        return chain
+    # Fallback for mapping-shaped exports without current_node: deterministic
+    # chronological order. This may include branches, so the parser label records it.
+    msgs = [n.get("message") for n in mapping.values()
+            if isinstance(n, dict) and isinstance(n.get("message"), dict)]
+    def stamp(m: dict[str, Any]) -> tuple[float, str]:
+        t = m.get("create_time")
+        return (float(t) if isinstance(t, (int, float)) else float("inf"), str(m.get("id") or ""))
+    return sorted(msgs, key=stamp)
+
+
+def conversation_units(obj: Any) -> tuple[str, list[dict[str, Any]]] | None:
+    msgs = None; parser = "conversation-messages"
     if isinstance(obj, dict):
         for key in ("messages", "conversation"):
             if isinstance(obj.get(key), list): msgs = obj[key]; break
         if msgs is None and isinstance(obj.get("mapping"), dict):
-            nodes = list(obj["mapping"].values())
-            msgs = [n.get("message") for n in nodes if isinstance(n, dict) and isinstance(n.get("message"), dict)]
+            has_active = obj.get("current_node") in obj["mapping"]
+            msgs = active_mapping_messages(obj)
+            parser = "chatgpt-active-branch" if has_active else "chatgpt-mapping-chronological-fallback"
     elif isinstance(obj, list) and all(isinstance(x, dict) for x in obj):
         msgs = obj
     if not msgs: return None
@@ -76,15 +103,15 @@ def conversation_units(obj: Any) -> list[dict[str, Any]] | None:
         out.append({"text": rendered, "start": {"message_index": i, "message_id": mid},
                     "end": {"message_index": i, "message_id": mid}, "message_id": mid,
                     "author": author, "timestamp": msg.get("create_time") or msg.get("timestamp")})
-    return out or None
+    return (parser, out) if out else None
 
 
 def load_units(path: Path) -> tuple[str, list[dict[str, Any]]]:
     text = path.read_text(encoding="utf-8", errors="replace")
     if path.suffix.lower() == ".json":
         try:
-            units = conversation_units(json.loads(text))
-            if units: return "conversation-messages", units
+            parsed = conversation_units(json.loads(text))
+            if parsed: return parsed
         except json.JSONDecodeError:
             pass
     return text_units(text)
