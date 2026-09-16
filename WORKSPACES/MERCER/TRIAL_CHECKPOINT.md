@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 70, 2026-09-16
+**Current through:** Run 71, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md` where available, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -17,6 +17,8 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 Development summary: **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer acceptance reconstruction: **454 accepted -> 453 post-dedup**. SAT_CONVOS_15 dated `Cosmological Constant Summary` has two identical source blobs (`40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`); Viewer-safe path dedup does not disposition either archive source or clear normalization.
 
 Run 70 reconciled identity QA against current Viewer presentation. Current generated catalog is **453 conversations / 439 development / 9 live** plus registered external entries. Each catalog record has a Viewer-local ID and exact source path/corpus/date/message-count/source URLs, while `conversation_ids.js` fetches the selected raw source and displays embedded ChatGPT `conversation_id` as `CID`. Thus source conversation identity is visible after selection, but `conversation_id`, repeated-family membership, and Runs 54–69 relation classes are not first-class catalog/list metadata. Current SHA-256 discovery dedup is correctly limited to byte-identical cross-repo presentation copies and cannot stand in for ancestry/disposition. Durable record: `WORKSPACES/MERCER/RUN_070_2026-09-16.md`.
+
+Run 71 specified the minimum additive Viewer-facing relation projection without changing production Viewer state. Recommended architecture is a **separate versioned generated relation sidecar** keyed by embedded `conversation_id`, joining family members to existing Viewer IDs/exact source paths and exposing only diagnostic relation classes plus tool/source-commit/report-digest provenance. UI contract is neutral `Related exports: N` discovery/navigation with no hiding, merging, renaming, ranking, suppression, or authority/currentness inference. Stale source-state projection must be omitted or visibly marked stale. Shared schema/workflow ownership is routed to Sable before implementation. Durable record: `WORKSPACES/MERCER/RUN_071_2026-09-16.md`, creation commit `b6867dc33824120b96ca9765ea8d26323c84e26b`.
 
 ### Raw conversation-identity QA
 Runs 54–56 separated raw artifact/path/blob identity, ChatGPT `conversation_id`, message graph/content relation, and Viewer presentation identity and built the read-only corpus diagnostic.
@@ -64,7 +66,7 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 `Cosmological Constant Summary` duplicate disposition / normalization collision unresolved. Viewer path dedup does not disposition either source.
 - `IDENTITY ANCESTRY`: explicit all-family relation vocabulary exists; authority/disposition remains unresolved and must not be inferred from newest/largest/LIVE placement.
-- `VIEWER / NEXT`: current Viewer exposes selected-source CID but not family membership/relation class. Specify minimum additive non-authoritative relation projection; route shared-schema/interface decision through Sable before implementation.
+- `VIEWER / SABLE REVIEW`: Run 71 sidecar projection is specified but intentionally not implemented. Sable/interface owner should approve/adjust sidecar-vs-inline architecture and identify generated-owner workflow.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure; Mercer audits implementation.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -72,10 +74,10 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; 68 graph-divergent ancestry audit; 69 all-family relation/time-order classification; **70 Viewer identity/provenance exposure audit.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; 68 graph-divergent ancestry audit; 69 all-family relation/time-order classification; 70 Viewer identity/provenance exposure audit; **71 minimum additive Viewer relation projection specification / Sable routing.**
 
 ## Best next operations
-1. Specify/audit minimum additive Viewer relation projection (family key, relation labels, source pointers, diagnostic/source-state provenance) without authority inference or suppression.
-2. Route shared Viewer/catalog schema/interface proposal through Sable before implementation.
+1. Await/inspect Sable response on Viewer relation sidecar ownership/interface; do not implement shared schema unilaterally.
+2. Independently specify a small fixture/validation harness covering the seven relation classes and stale-source rejection, without touching production Viewer state.
 3. Audit any implemented autotag lineage repair.
 4. Keep Viewer navigation dedup separate from archive source disposition.
