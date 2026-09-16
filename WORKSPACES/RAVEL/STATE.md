@@ -2,18 +2,25 @@
 
 **Updated:** 2026-09-16 EDT  
 **Owner:** Ravel  
-**Status:** ACTIVE
+**Status:** ACTIVE — SANDBOX THEORY EXCEPTION ONLY
 
 ## Current focus
 
-Return primary attention to live H(s)H theorybuilding inside the Ravel sandbox, while leaving acquisition/archive machinery in a documented maintenance state rather than continuing to expand it by default.
+Return primary attention to live H(s)H theorybuilding **inside the Ravel sandbox only**. Nathan clarified on 2026-09-16 that the September 12 project-wide standdown was released **only for sandbox theory work**. The general standdown remains in force outside that exception.
+
+Operational consequence:
+
+- Ravel may continue bounded theory construction inside `WORKSPACES/RAVEL/` and other explicitly authorized sandbox surfaces;
+- sandbox results do **not** automatically propagate into BEDROCK, STATE OF THE THEORY, shared solver interpretation, prediction promotion, paper development, or other non-sandbox theory surfaces;
+- any such propagation requires separate release, review, or Nathan-direct promotion;
+- the active project-wide standdown documents therefore remain controlling outside the sandbox exception.
 
 Immediate working programme:
 
 1. preserve Nathan-direct current model status: Kerr/Kelvin live H(s)H hypotheses; Whirligig/Donut, Hagalaz, UI/TX, and Three Spheres live SAT geometric-solver machinery;
-2. resume bounded particle/worldtube construction, with special attention to the Kerr/ER core, persistent coil, timesheet intersection/readout, and Kelvin-like response;
-3. test candidate mechanics against standard geometry/measurement before promoting them;
-4. keep any direct theory construction inside `WORKSPACES/RAVEL/` sandbox until promotion;
+2. resume bounded particle/worldtube construction inside the sandbox, with special attention to the Kerr/ER core, persistent coil, timesheet intersection/readout, and Kelvin-like response;
+3. test candidate mechanics against standard geometry/measurement without treating successful sandbox work as promoted theory;
+4. keep all direct theory construction inside `WORKSPACES/RAVEL/` sandbox unless separately authorized for propagation;
 5. maintain continuity/provenance notes when a live construction materially changes.
 
 ## Acquisition / archive conclusions — 2026-09-16
@@ -61,8 +68,8 @@ Keep charge, mass, exclusion, Kelvin reach, and any EM/gravity weighting as live
 
 - `773d28802fe572b6cf2d46290b1df65489693c27` — create Ravel workspace README.
 - `981920e46fed02c61570990cf055c0b630fb2637` — add continuity/restart packet.
-- current commit — acquisition conclusions + theory pivot.
+- later commits — acquisition conclusions, theory pivot, Kerr/worldtube sandbox passes, and sandbox-only standdown clarification.
 
 ## Next restart action
 
-Read `CONTINUITY.md`, then inspect repo changes newer than the recorded checkpoints. Do not assume this file is current merely because it is named `STATE.md`.
+Read `CONTINUITY.md`, then inspect repo changes newer than the recorded checkpoints. Do not assume this file is current merely because it is named `STATE.md`. Before propagating any sandbox result outside Ravel, re-check the project-wide standdown and obtain the required release/promotion authority.
