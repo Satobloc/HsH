@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 69, 2026-09-16
+**Current through:** Run 70, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md` where available, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -15,6 +15,8 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 
 ### Viewer / exact-path dedup
 Development summary: **364 unchanged / 121 skipped / 74 planned / 1 collision** across 560 records. Viewer acceptance reconstruction: **454 accepted -> 453 post-dedup**. SAT_CONVOS_15 dated `Cosmological Constant Summary` has two identical source blobs (`40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`); Viewer-safe path dedup does not disposition either archive source or clear normalization.
+
+Run 70 reconciled identity QA against current Viewer presentation. Current generated catalog is **453 conversations / 439 development / 9 live** plus registered external entries. Each catalog record has a Viewer-local ID and exact source path/corpus/date/message-count/source URLs, while `conversation_ids.js` fetches the selected raw source and displays embedded ChatGPT `conversation_id` as `CID`. Thus source conversation identity is visible after selection, but `conversation_id`, repeated-family membership, and Runs 54–69 relation classes are not first-class catalog/list metadata. Current SHA-256 discovery dedup is correctly limited to byte-identical cross-repo presentation copies and cannot stand in for ancestry/disposition. Durable record: `WORKSPACES/MERCER/RUN_070_2026-09-16.md`.
 
 ### Raw conversation-identity QA
 Runs 54–56 separated raw artifact/path/blob identity, ChatGPT `conversation_id`, message graph/content relation, and Viewer presentation identity and built the read-only corpus diagnostic.
@@ -35,9 +37,9 @@ Run 65 created `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates_v4.p
 
 Run 67 production v4 is green: workflow `35118273709`, artifact `10456196155`, digest `sha256:fb095cef2a5e0d396f74634dce1fc4965934405046929f3fb4841c2e161d8d62`. Corrected `AI Enclosure Critique`: 54 content-changed nodes, 54 text-comparable, 54 normalized-visible-text changed; remaining changed shared nodes are metadata churn. `ChatGPT Voice Glitch` remains one non-ordinary-text content node with stable carrier-shape signature; semantic equivalence is not established.
 
-Run 68 audited the graph-divergent ancestry counterexamples from the retained v4 artifact. `Geometric Foundations Evaluation` is later/larger but mutually side-exclusive (483 vs 224 message IDs; 147 shared; 84 topology-changed shared nodes). `Geometry in Physics` is the critical later/smaller case (3279 vs 2522 IDs; 2487 shared; 792 vs 35 side-only mapping nodes; 1062 topology-changed shared nodes; 90 normalized-visible-text changed nodes). `SAT Daily Action` has a 635-message July/LIVE state byte-identical across two paths and a newer 511-message September state; they share 434 IDs with 201 vs 77 side-only mapping nodes and 219 topology-changed shared nodes. These are branch/snapshot ancestry, not safe UUID duplicates. `newest == most complete`, `largest == authoritative`, and `LIVE path == conversation-level current authority` are all unsafe heuristics. Durable record: `WORKSPACES/MERCER/RUN_068_2026-09-16.md`.
+Run 68 audited graph-divergent ancestry counterexamples. `Geometric Foundations Evaluation` is later/larger but mutually side-exclusive. `Geometry in Physics` is the critical later/smaller mutually divergent case. `SAT Daily Action` has a 635-message July/LIVE state byte-identical across two paths and a newer 511-message September mutually divergent state. Therefore newest, largest, and LIVE placement are unsafe global authority heuristics. Durable record: `WORKSPACES/MERCER/RUN_068_2026-09-16.md`.
 
-Run 69 classified all **222** pairwise relations across all **74** repeated-UUID families from the retained v4 artifact: **115 message-ID subset/superset, 56 exact-byte, 36 same-graph metadata-only, 9 same-graph readable-text-divergent, 4 branch/snapshot-divergent, 2 same-graph nontext-unresolved**. Among the 115 simple subset/superset pairs, recorded `update_time` is later on the larger/superset side in **106**, tied in **9**, and later on the smaller/subset side in **0**. This supports monotonic snapshot growth only inside that relation class; Run-68 graph-divergent counterexamples prevent global newest/largest authority inference. Durable record: `WORKSPACES/MERCER/RUN_069_2026-09-16.md`.
+Run 69 classified all **222** pairwise relations across all **74** repeated-UUID families: **115 message-ID subset/superset, 56 exact-byte, 36 same-graph metadata-only, 9 same-graph readable-text-divergent, 4 branch/snapshot-divergent, 2 same-graph nontext-unresolved**. Among 115 simple subset/superset pairs, recorded `update_time` is later on the larger/superset side in **106**, tied in **9**, later on smaller in **0**. This supports monotonic snapshot growth only inside that class. Durable record: `WORKSPACES/MERCER/RUN_069_2026-09-16.md`.
 
 ### Validator production contract
 Runs 47–51 established semantics-aware v2 validator + seven-specimen harness. Production v2 run `35016148194`: **0 FAIL / 1 BLOCKED / 13 PASS**; sole blocker is known SAT_CONVOS_15 normalization collision. Legacy validator remains reference-only.
@@ -61,8 +63,8 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 `Cosmological Constant Summary` duplicate disposition / normalization collision unresolved. Viewer path dedup does not disposition either source.
-- `IDENTITY ANCESTRY`: explicit all-family relation vocabulary now exists; authority/disposition remains unresolved and must not be inferred from newest/largest/LIVE placement.
-- `VIEWER / NEXT`: reconcile identity/branch relations against Viewer acceptance/presentation without source suppression; route shared-schema proposals through Sable.
+- `IDENTITY ANCESTRY`: explicit all-family relation vocabulary exists; authority/disposition remains unresolved and must not be inferred from newest/largest/LIVE placement.
+- `VIEWER / NEXT`: current Viewer exposes selected-source CID but not family membership/relation class. Specify minimum additive non-authoritative relation projection; route shared-schema/interface decision through Sable before implementation.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure; Mercer audits implementation.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -70,10 +72,10 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; 68 graph-divergent ancestry audit; **69 all-family relation/time-order classification.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; 68 graph-divergent ancestry audit; 69 all-family relation/time-order classification; **70 Viewer identity/provenance exposure audit.**
 
 ## Best next operations
-1. Reconcile repeated-UUID relation classes against Viewer acceptance/presentation and identify where provenance can be exposed without suppression.
-2. Route any shared Viewer/catalog branch-relation schema proposal through Sable.
+1. Specify/audit minimum additive Viewer relation projection (family key, relation labels, source pointers, diagnostic/source-state provenance) without authority inference or suppression.
+2. Route shared Viewer/catalog schema/interface proposal through Sable before implementation.
 3. Audit any implemented autotag lineage repair.
 4. Keep Viewer navigation dedup separate from archive source disposition.
