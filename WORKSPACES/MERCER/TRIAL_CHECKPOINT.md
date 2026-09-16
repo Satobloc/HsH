@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 59, 2026-09-16
+**Current through:** Run 60, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before touching write-capable scripts/shared generated state, also read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -23,9 +23,11 @@ Runs 54–56 established the identity-layer blind spot and built `WORKSPACES/MER
 
 Run 57 observed production v1: Actions run `35049604577`, artifact `10427898109`, scanned **412 JSON conversations with raw IDs**, found **74 repeated-ID families**, and no unreadable inputs. The `4D Topological Model Assessment` pair is `top-level-order-only`: identical 53-message mapping graph, differing only in `safe_urls` ordering. Raw UUID equality is therefore an identity/provenance key, not a sufficient content-equivalence predicate.
 
-Run 58 triaged all 222 pairwise comparisons. Taxonomy: 66 subset candidates, 49 superset candidates, 56 exact-byte pairs, 18 top-level-order-only, 17 same-message-graph/top-level-metadata differences, **12 same-message-ID-set divergent-payload pairs**, and **4 divergent/unclassified pairs**. The 16 highest-risk comparisons occupy 12 families. The four divergent cases (`Geometric Foundations Evaluation`, `Geometry in Physics`, and two `SAT Daily Action` comparisons) have substantial graph-cardinality/overlap differences and are branch/snapshot ancestry candidates, not safe UUID-dedup targets. Durable record: `RUN_058_2026-09-16.md`.
+Run 58 triaged all 222 pairwise comparisons. Taxonomy: 66 subset candidates, 49 superset candidates, 56 exact-byte pairs, 18 top-level-order-only, 17 same-message-graph/top-level-metadata differences, **12 same-message-ID-set divergent-payload pairs**, and **4 divergent/unclassified pairs**. The four divergent cases (`Geometric Foundations Evaluation`, `Geometry in Physics`, and two `SAT Daily Action` comparisons) have substantial graph-cardinality/overlap differences and remain branch/snapshot ancestry candidates. Durable record: `RUN_058_2026-09-16.md`.
 
-Run 59 implemented diagnostic v2 at commit `e83c2c2fae2b5293cece1f4b275b3e363efffd71`. V2 adds privacy-preserving mapping-internal signatures: changed shared-node count, `message.content` changed-node count, parent/children topology changed-node count, side-only mapping-node counts, and differing node-local JSON-path counts. It retains no differing values or message bodies and remains reporting-only. Actions run `35061454854` triggered automatically and was still in progress at last observation, so v2 is **not yet claimed production-green**. Durable record: `RUN_059_2026-09-16.md`.
+Run 59 implemented privacy-preserving mapping-internal signatures at commit `e83c2c2fae2b5293cece1f4b275b3e363efffd71`.
+
+Run 60 observed production v2: Actions run `35061454854` completed successfully; artifact `10432552752`, digest `sha256:c912619b5c8d56f2609e0a354209473ef82c7125395f32845691e598ac814ef3`. Across all 12 same-message-ID-set divergent-payload comparisons, **side-only mapping nodes = 0 and topology-changed nodes = 0**. Eleven comparisons contain at least one changed `message.content` node; one (`String Theory Particle Zoo`) is metadata-only at mapping level (`message.update_time` only, zero content changes). Content-bearing families include `SAT Theorizer Emeritus`, `AI Enclosure Critique`, `Population Social Thresholds`, `Priority assessment summary`, `ChatGPT Voice Glitch`, `Friday Research Briefs`, `Continue Conversation Here`, and `H(s)H Archive Audit`. `AI Enclosure Critique` is exceptional for large model/tool-response metadata churn in addition to 54 content-changed nodes. These signatures do not establish human-visible semantic difference because retained v2 output intentionally omits differing values. Durable record: `RUN_060_2026-09-16.md`.
 
 ### Validator production contract
 Runs 47–51 established the semantics-aware v2 validator and seven-specimen harness. Production v2 run `35016148194` completed with **0 FAIL / 1 BLOCKED / 13 PASS**; sole blocker is the known SAT_CONVOS_15 normalization collision. Legacy validator is reference-only because it retains the known false pre-dedup/post-dedup arithmetic failure. Active workflow contract commit: `02b4ac3a8264fffd2d70afda7f5d4a2f2c8834ad`.
@@ -40,7 +42,7 @@ Runs 52–53 established coherent durable products at **73,200 input records / 2
 - `WORKSPACES/MERCER/test_validate_cross_source_integrity.py`
 - `WORKSPACES/MERCER/test_integrity_failure_modes.py` — seven-specimen harness
 - `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py`
-- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py` — repeated raw-UUID reporting diagnostic; v2 awaiting production observation
+- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py` — repeated raw-UUID reporting diagnostic; v2 production-green under run `35061454854`
 - `.github/workflows/mercer-cross-source-integrity.yml`
 
 Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is an operational dependency, not corruption.
@@ -54,7 +56,7 @@ Historical glossary/standard crosswalk: inventory/custody complete; direct raw-m
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 Cosmological Constant Summary duplicate disposition / normalization collision unresolved. Viewer path dedup does not disposition either source.
-- `IDENTITY QA / NEXT`: observe Actions run `35061454854`, inspect retained v2 signatures, then reclassify the 12 same-ID-set divergent pairs and sharpen the four branch/snapshot ancestry cases. Do not add suppression semantics locally.
+- `IDENTITY QA / NEXT`: bounded value-level/normalized-human-visible comparison for the 11 content-bearing same-ID-set comparisons; determine whether recurring content-field signatures are serialization migration or meaningful content divergence. Keep the four graph-divergent cases on the branch/snapshot ancestry track. Do not add suppression semantics locally.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure; Mercer audits implementation.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -62,11 +64,12 @@ Historical glossary/standard crosswalk: inventory/custody complete; direct raw-m
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; **59 implemented privacy-preserving mapping-internal v2 signatures and triggered production CI.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; 59 implemented mapping-internal v2 signatures; **60 observed v2 production and separated metadata-only from content-bearing same-ID-set divergence.**
 
 ## Best next operations
-1. Observe run `35061454854` and inspect its retained v2 identity artifact.
-2. Reclassify the 12 same-ID-set divergent pairs by content/topology/metadata signature.
-3. Reconstruct ancestry only where v2 shows genuine graph/content divergence; keep UUID grouping separate from suppression/disposition.
-4. Audit any implemented autotag lineage repair.
-5. Keep Viewer navigation dedup separate from archive source disposition.
+1. Compare normalized human-visible content for the 11 content-bearing same-ID-set comparisons without retaining bodies in CI output.
+2. Test whether the recurring `content_type/language/parts/response_format_name/text` signature is systematic serialization migration.
+3. Inspect `AI Enclosure Critique` separately because of large tool/model metadata churn.
+4. Reconstruct ancestry for the four graph-divergent cases independently of same-ID-set payload analysis.
+5. Audit any implemented autotag lineage repair.
+6. Keep Viewer navigation dedup separate from archive source disposition.
