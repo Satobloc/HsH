@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -38,6 +38,65 @@ def message_ids(payload: dict[str, Any]) -> set[str]:
     if not isinstance(mapping, dict):
         return set()
     return {str(k) for k, v in mapping.items() if isinstance(v, dict) and isinstance(v.get("message"), dict)}
+
+
+def differing_paths(a: Any, b: Any, prefix: str = "", out: Counter[str] | None = None) -> Counter[str]:
+    """Count differing JSON paths without retaining values or message bodies."""
+    if out is None:
+        out = Counter()
+    if type(a) is not type(b):
+        out[prefix or "$"] += 1
+    elif isinstance(a, dict):
+        for key in set(a) | set(b):
+            path = f"{prefix}.{key}" if prefix else str(key)
+            if key not in a or key not in b:
+                out[path] += 1
+            else:
+                differing_paths(a[key], b[key], path, out)
+    elif isinstance(a, list):
+        if a != b:
+            out[prefix or "$"] += 1
+    elif a != b:
+        out[prefix or "$"] += 1
+    return out
+
+
+def mapping_diff_signature(mapping_a: Any, mapping_b: Any) -> dict[str, Any]:
+    if not isinstance(mapping_a, dict) or not isinstance(mapping_b, dict):
+        return {"comparable": False}
+    shared = set(mapping_a) & set(mapping_b)
+    changed_nodes = 0
+    content_changed_nodes = 0
+    topology_changed_nodes = 0
+    path_counts: Counter[str] = Counter()
+    for node_id in shared:
+        a, b = mapping_a[node_id], mapping_b[node_id]
+        if canonical_hash(a) == canonical_hash(b):
+            continue
+        changed_nodes += 1
+        if isinstance(a, dict) and isinstance(b, dict):
+            ma, mb = a.get("message"), b.get("message")
+            ca = ma.get("content") if isinstance(ma, dict) else None
+            cb = mb.get("content") if isinstance(mb, dict) else None
+            if ca != cb:
+                content_changed_nodes += 1
+            if a.get("parent") != b.get("parent") or a.get("children") != b.get("children"):
+                topology_changed_nodes += 1
+            for path, count in differing_paths(a, b).items():
+                # Generalize node-local paths; never retain values or body text.
+                path_counts[path] += count
+        else:
+            path_counts["node_type_or_value"] += 1
+    return {
+        "comparable": True,
+        "shared_mapping_nodes": len(shared),
+        "changed_shared_nodes": changed_nodes,
+        "message_content_changed_nodes": content_changed_nodes,
+        "topology_changed_nodes": topology_changed_nodes,
+        "only_in_a_nodes": len(set(mapping_a) - set(mapping_b)),
+        "only_in_b_nodes": len(set(mapping_b) - set(mapping_a)),
+        "differing_json_paths": dict(sorted(path_counts.items())),
+    }
 
 
 def compare_pair(a: dict[str, Any], b: dict[str, Any]) -> dict[str, Any]:
@@ -71,6 +130,7 @@ def compare_pair(a: dict[str, Any], b: dict[str, Any]) -> dict[str, Any]:
         "mapping_sha256_a": canonical_hash(mapping_a), "mapping_sha256_b": canonical_hash(mapping_b),
         "message_ids_a": len(ids_a), "message_ids_b": len(ids_b), "shared_message_ids": len(ids_a & ids_b),
         "differing_top_level_keys": sorted(k for k in set(top_a) | set(top_b) if top_a.get(k) != top_b.get(k)),
+        "mapping_diff_signature": mapping_diff_signature(mapping_a, mapping_b),
     }
 
 
@@ -125,8 +185,8 @@ def main() -> int:
                          "artifacts": [{k: v for k, v in x.items() if k != "payload"} for x in items],
                          "pairwise": comparisons})
 
-    report = {"diagnostic": "raw-conversation-identity-duplicates-v1",
-              "scope": "Viewer-resolved accepted JSON inputs; read-only",
+    report = {"diagnostic": "raw-conversation-identity-duplicates-v2",
+              "scope": "Viewer-resolved accepted JSON inputs; read-only; mapping diff signatures retain paths/counts only",
               "scanned_json_conversations_with_id": scanned,
               "repeated_conversation_id_families": len(families), "families": families,
               "unreadable": unreadable, "disposition": "none; report only"}
