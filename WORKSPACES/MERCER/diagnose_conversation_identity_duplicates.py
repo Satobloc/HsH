@@ -40,6 +40,50 @@ def message_ids(payload: dict[str, Any]) -> set[str]:
     return {str(k) for k, v in mapping.items() if isinstance(v, dict) and isinstance(v.get("message"), dict)}
 
 
+def visible_text_fragments(value: Any) -> list[str]:
+    """Project content payloads onto human-readable text without retaining it in reports.
+
+    ChatGPT exports have used multiple content representations over time. This projection
+    deliberately ignores representation metadata such as content_type/language/format
+    names and extracts only textual leaves from the ordinary `parts`/`text` carriers.
+    It is a *text-equivalence diagnostic*, not a complete visible-content serializer:
+    images, attachments, citations, tool payloads, and other non-text semantics require
+    separate treatment.
+    """
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        out: list[str] = []
+        for item in value:
+            out.extend(visible_text_fragments(item))
+        return out
+    if not isinstance(value, dict):
+        return []
+
+    # Prefer explicit text-bearing carriers and avoid recursively harvesting unrelated
+    # metadata strings (URLs, MIME types, IDs, etc.).
+    if "parts" in value:
+        return visible_text_fragments(value.get("parts"))
+    if "text" in value:
+        return visible_text_fragments(value.get("text"))
+    return []
+
+
+def message_visible_text_hash(node: Any) -> str | None:
+    if not isinstance(node, dict):
+        return None
+    message = node.get("message")
+    if not isinstance(message, dict):
+        return None
+    content = message.get("content")
+    fragments = visible_text_fragments(content)
+    if not fragments:
+        return None
+    # Hash a structured fragment list rather than joined prose so boundaries remain
+    # significant while no message text is retained in diagnostic output.
+    return canonical_hash(fragments)
+
+
 def differing_paths(a: Any, b: Any, prefix: str = "", out: Counter[str] | None = None) -> Counter[str]:
     """Count differing JSON paths without retaining values or message bodies."""
     if out is None:
@@ -68,6 +112,9 @@ def mapping_diff_signature(mapping_a: Any, mapping_b: Any) -> dict[str, Any]:
     changed_nodes = 0
     content_changed_nodes = 0
     topology_changed_nodes = 0
+    visible_text_changed_nodes = 0
+    visible_text_comparable_nodes = 0
+    content_changed_but_visible_text_equal_nodes = 0
     path_counts: Counter[str] = Counter()
     for node_id in shared:
         a, b = mapping_a[node_id], mapping_b[node_id]
@@ -78,8 +125,17 @@ def mapping_diff_signature(mapping_a: Any, mapping_b: Any) -> dict[str, Any]:
             ma, mb = a.get("message"), b.get("message")
             ca = ma.get("content") if isinstance(ma, dict) else None
             cb = mb.get("content") if isinstance(mb, dict) else None
-            if ca != cb:
+            content_changed = ca != cb
+            if content_changed:
                 content_changed_nodes += 1
+            visible_a = message_visible_text_hash(a)
+            visible_b = message_visible_text_hash(b)
+            if visible_a is not None and visible_b is not None:
+                visible_text_comparable_nodes += 1
+                if visible_a != visible_b:
+                    visible_text_changed_nodes += 1
+                elif content_changed:
+                    content_changed_but_visible_text_equal_nodes += 1
             if a.get("parent") != b.get("parent") or a.get("children") != b.get("children"):
                 topology_changed_nodes += 1
             for path, count in differing_paths(a, b).items():
@@ -92,6 +148,9 @@ def mapping_diff_signature(mapping_a: Any, mapping_b: Any) -> dict[str, Any]:
         "shared_mapping_nodes": len(shared),
         "changed_shared_nodes": changed_nodes,
         "message_content_changed_nodes": content_changed_nodes,
+        "visible_text_comparable_changed_nodes": visible_text_comparable_nodes,
+        "visible_text_changed_nodes": visible_text_changed_nodes,
+        "content_changed_but_visible_text_equal_nodes": content_changed_but_visible_text_equal_nodes,
         "topology_changed_nodes": topology_changed_nodes,
         "only_in_a_nodes": len(set(mapping_a) - set(mapping_b)),
         "only_in_b_nodes": len(set(mapping_b) - set(mapping_a)),
@@ -185,8 +244,8 @@ def main() -> int:
                          "artifacts": [{k: v for k, v in x.items() if k != "payload"} for x in items],
                          "pairwise": comparisons})
 
-    report = {"diagnostic": "raw-conversation-identity-duplicates-v2",
-              "scope": "Viewer-resolved accepted JSON inputs; read-only; mapping diff signatures retain paths/counts only",
+    report = {"diagnostic": "raw-conversation-identity-duplicates-v3",
+              "scope": "Viewer-resolved accepted JSON inputs; read-only; mapping diff signatures retain paths/counts and normalized text hashes only; non-text visible semantics not compared",
               "scanned_json_conversations_with_id": scanned,
               "repeated_conversation_id_families": len(families), "families": families,
               "unreadable": unreadable, "disposition": "none; report only"}
