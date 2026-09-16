@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 68, 2026-09-16
+**Current through:** Run 69, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md` where available, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -37,6 +37,8 @@ Run 67 production v4 is green: workflow `35118273709`, artifact `10456196155`, d
 
 Run 68 audited the graph-divergent ancestry counterexamples from the retained v4 artifact. `Geometric Foundations Evaluation` is later/larger but mutually side-exclusive (483 vs 224 message IDs; 147 shared; 84 topology-changed shared nodes). `Geometry in Physics` is the critical later/smaller case (3279 vs 2522 IDs; 2487 shared; 792 vs 35 side-only mapping nodes; 1062 topology-changed shared nodes; 90 normalized-visible-text changed nodes). `SAT Daily Action` has a 635-message July/LIVE state byte-identical across two paths and a newer 511-message September state; they share 434 IDs with 201 vs 77 side-only mapping nodes and 219 topology-changed shared nodes. These are branch/snapshot ancestry, not safe UUID duplicates. `newest == most complete`, `largest == authoritative`, and `LIVE path == conversation-level current authority` are all unsafe heuristics. Durable record: `WORKSPACES/MERCER/RUN_068_2026-09-16.md`.
 
+Run 69 classified all **222** pairwise relations across all **74** repeated-UUID families from the retained v4 artifact: **115 message-ID subset/superset, 56 exact-byte, 36 same-graph metadata-only, 9 same-graph readable-text-divergent, 4 branch/snapshot-divergent, 2 same-graph nontext-unresolved**. Among the 115 simple subset/superset pairs, recorded `update_time` is later on the larger/superset side in **106**, tied in **9**, and later on the smaller/subset side in **0**. This supports monotonic snapshot growth only inside that relation class; Run-68 graph-divergent counterexamples prevent global newest/largest authority inference. Durable record: `WORKSPACES/MERCER/RUN_069_2026-09-16.md`.
+
 ### Validator production contract
 Runs 47–51 established semantics-aware v2 validator + seven-specimen harness. Production v2 run `35016148194`: **0 FAIL / 1 BLOCKED / 13 PASS**; sole blocker is known SAT_CONVOS_15 normalization collision. Legacy validator remains reference-only.
 
@@ -59,7 +61,7 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 `Cosmological Constant Summary` duplicate disposition / normalization collision unresolved. Viewer path dedup does not disposition either source.
-- `IDENTITY ANCESTRY / NEXT`: extend explicit relation labeling across all repeated-UUID families; preserve branch/snapshot relations and do not infer authority from newest/largest/LIVE placement.
+- `IDENTITY ANCESTRY`: explicit all-family relation vocabulary now exists; authority/disposition remains unresolved and must not be inferred from newest/largest/LIVE placement.
 - `VIEWER / NEXT`: reconcile identity/branch relations against Viewer acceptance/presentation without source suppression; route shared-schema proposals through Sable.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure; Mercer audits implementation.
@@ -68,11 +70,10 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; **68 graph-divergent ancestry audit.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 diagnostic; 57 v1 production; 58 high-risk residue; 59 v2; 60 v2 production; 61 freshness semantics; 62 v3; 63 v3 production; 64 denominator defect; 65 staged v4 repair; 66 v4 workflow wiring; 67 v4 production audit; 68 graph-divergent ancestry audit; **69 all-family relation/time-order classification.**
 
 ## Best next operations
-1. Produce a read-only all-family branch/relation report combining structural relation and time ordering without authority inference.
-2. Reconcile branch relations against Viewer acceptance/presentation and identify where provenance can be exposed without suppression.
-3. Route any shared Viewer/catalog branch-relation schema proposal through Sable.
-4. Audit any implemented autotag lineage repair.
-5. Keep Viewer navigation dedup separate from archive source disposition.
+1. Reconcile repeated-UUID relation classes against Viewer acceptance/presentation and identify where provenance can be exposed without suppression.
+2. Route any shared Viewer/catalog branch-relation schema proposal through Sable.
+3. Audit any implemented autotag lineage repair.
+4. Keep Viewer navigation dedup separate from archive source disposition.
