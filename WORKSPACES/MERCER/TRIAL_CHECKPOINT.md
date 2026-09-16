@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 61, 2026-09-16
+**Current through:** Run 62, 2026-09-16
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before touching write-capable scripts/shared generated state, also read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -31,6 +31,8 @@ Run 60 observed production v2: Actions run `35061454854` completed successfully;
 
 Run 61 audited post-Run-60 publication freshness. Commit `c5cddd8e3bc82d6f5281dade17e2980d77670771` refreshed only Viewer/discovery/manifest generated surfaces and timestamps; its changed-file list contains no raw conversation sources, while shown development/live accepted counts remain 439/9. This specific refresh therefore makes publication timestamps newer without evidence of conversation-content drift and does not invalidate Run-60's content/topology taxonomy. Future freshness checks should distinguish publication-state freshness from accepted-source-content freshness and rerun identity QA when intervening commits touch accepted raw inputs, acceptance semantics, or the diagnostic—not solely for timestamp-only refreshes. Durable record: `RUN_061_2026-09-16.md`.
 
+Run 62 implemented diagnostic v3 at commit `3f459f8d05f206f67fce563fe42deb4dd770fe97`. V3 adds a privacy-preserving normalized text projection over ordinary `message.content.parts` / `message.content.text` carriers and reports only counts/hashes: comparable changed nodes, normalized-text-changed nodes, and content-changed-but-normalized-text-equal nodes. It deliberately ignores representation metadata (`content_type`, language, response-format labels) and retains no body text. This can distinguish serialized-content churn with equal text from changed text, but it is **not** a complete human-visible-content serializer: images, attachments, citations, tool payloads, multimodal objects, and other non-text semantics remain outside the projection. Production v3 artifact not yet observed; no Run-60 pair is reclassified yet. Durable record: `RUN_062_2026-09-16.md`.
+
 ### Validator production contract
 Runs 47–51 established the semantics-aware v2 validator and seven-specimen harness. Production v2 run `35016148194` completed with **0 FAIL / 1 BLOCKED / 13 PASS**; sole blocker is the known SAT_CONVOS_15 normalization collision. Legacy validator is reference-only because it retains the known false pre-dedup/post-dedup arithmetic failure. Active workflow contract commit: `02b4ac3a8264fffd2d70afda7f5d4a2f2c8834ad`.
 
@@ -44,7 +46,7 @@ Runs 52–53 established coherent durable products at **73,200 input records / 2
 - `WORKSPACES/MERCER/test_validate_cross_source_integrity.py`
 - `WORKSPACES/MERCER/test_integrity_failure_modes.py` — seven-specimen harness
 - `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py`
-- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py` — repeated raw-UUID reporting diagnostic; v2 production-green under run `35061454854`
+- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py` — repeated raw-UUID reporting diagnostic; v2 production-green under run `35061454854`; v3 normalized-text projection committed in Run 62, production artifact pending
 - `.github/workflows/mercer-cross-source-integrity.yml`
 
 Classes: `PASS/WARN/BLOCKED/FAIL/UNKNOWN`; `BLOCKED` is an operational dependency, not corruption.
@@ -58,7 +60,7 @@ Historical glossary/standard crosswalk: inventory/custody complete; direct raw-m
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 Cosmological Constant Summary duplicate disposition / normalization collision unresolved. Viewer path dedup does not disposition either source.
-- `IDENTITY QA / NEXT`: bounded value-level/normalized-human-visible comparison for the 11 content-bearing same-ID-set comparisons; determine whether recurring content-field signatures are serialization migration or meaningful content divergence. Keep the four graph-divergent cases on the branch/snapshot ancestry track. Do not add suppression semantics locally.
+- `IDENTITY QA / NEXT`: observe v3 production output, then classify the 11 content-bearing same-ID-set comparisons by normalized text equality; do not treat text equality as complete semantic equivalence. Keep the four graph-divergent cases on the branch/snapshot ancestry track. Do not add suppression semantics locally.
 - `DEPENDENCY`: exact raw IDs for September 13 Mercer live-source statements.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure; Mercer audits implementation.
 - `DEPENDENCY`: historical/manual scanner candidate-report owner/path unknown.
@@ -66,11 +68,11 @@ Historical glossary/standard crosswalk: inventory/custody complete; direct raw-m
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; 59 implemented mapping-internal v2 signatures; 60 observed v2 production and separated metadata-only from content-bearing same-ID-set divergence; **61 audited post-v2 publication freshness and separated publication timestamp movement from source-content drift.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–55 raw-UUID candidate investigation; 56 built corpus diagnostic; 57 observed v1 production; 58 bounded high-risk identity residue; 59 implemented mapping-internal v2 signatures; 60 observed v2 production and separated metadata-only from content-bearing same-ID-set divergence; 61 audited post-v2 publication freshness and separated publication timestamp movement from source-content drift; **62 implemented privacy-preserving normalized-text projection v3; production observation pending.**
 
 ## Best next operations
-1. Compare normalized human-visible content for the 11 content-bearing same-ID-set comparisons without retaining bodies in CI output.
-2. Test whether the recurring `content_type/language/parts/response_format_name/text` signature is systematic serialization migration.
+1. Observe the next retained v3 identity artifact and classify the 11 content-bearing same-ID-set comparisons by normalized text equality.
+2. Test whether the recurring `content_type/language/parts/response_format_name/text` signature is systematic serialization migration while keeping non-text semantics explicitly unresolved.
 3. Inspect `AI Enclosure Critique` separately because of large tool/model metadata churn.
 4. Reconstruct ancestry for the four graph-divergent cases independently of same-ID-set payload analysis.
 5. Audit any implemented autotag lineage repair.
