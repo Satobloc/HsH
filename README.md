@@ -2,6 +2,22 @@
 
 **A visual-first reconstruction of the SAT → H(s)H geometry.**
 
+> ## START HERE — choose the lane before you read
+>
+> **Doing SAT/H(s)H theory work? → [BEDROCK.md](BEDROCK.md)**  
+> BEDROCK is the central living premise-state and theory-reference surface. It records what is foundational, working bedrock, tentative, contested, superseded, or Nathan Direct, and routes outward to the primary theory sources. **All substantive theory work begins there and returns there when the premise state changes.**
+>
+> **Looking for conversations / historical development? → [Conversation Viewer](https://satobloc.github.io/HsH/) / [SAT Theory Archive](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)**  
+> These are archive/provenance lanes. Historical visibility does not confer current theory authority.
+>
+> **Running workers, automation, repo maintenance, QA, or coordination? → [WORKSPACES/COMMON](WORKSPACES/COMMON/)**  
+> This is the operations/admin/infrastructure lane. Its control documents govern how the project is operated; they do not define theory truth.
+>
+> **Using outside/supporting mathematics and resources? → HSH_RESOURCES / RESOURCES Toolkit**  
+> These are supporting-resource/methods lanes. They are usable unless specifically quarantined. **PRIOR_ART alone is the hard-quarantine lane** and requires its special provenance discipline.
+>
+> **Rule of thumb:** “reference material” is not a status. Every habitually consulted document should be clearly routed as **theory/BEDROCK**, **archive/provenance**, **navigation/orientation**, **admin/workflow**, **infrastructure/QA**, **methods/resources**, or **quarantine/prior-art**. If its lane is unclear, treat that as a documentation defect rather than guessing its authority.
+
 <table>
 <tr>
 <td>
@@ -42,7 +58,7 @@ In the interests of maximum transparency, and in the spirit of SAT's **Glass Sau
 <td>
 <strong>Current spotlight</strong><br><br>
 <a href="NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md"><strong>PAPER_PIPELINE.md</strong></a><br><br>
-<small>Randomly selected from the current September 2026 featured papers.</small>
+<small>Randomly selected from the current September 2026 featured papers. Featured status is presentation/discovery, not theory authority; consult BEDROCK for premise status.</small>
 </td>
 </tr>
 </table>
@@ -58,16 +74,20 @@ The images below are not decorative. They are the fastest way into the construct
 
 ## Read the theory
 
+**For substantive theory work, begin with [BEDROCK.md](BEDROCK.md).** The links below are primary/historical theory sources routed through that control surface; being listed here does not independently establish their current premise status.
+
 <table>
 <tr>
-<td width="25%" valign="top"><strong>Start with the idea</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf">The Fundamental Intuitions — Extended</a><br><small>Foundational conceptual statement.</small></td>
-<td width="25%" valign="top"><strong>Formal SAT presentation</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FULL_THEORY.pdf">FULL_THEORY.pdf</a><br><small>Compact mathematical presentation; awaiting independent vetting.</small></td>
-<td width="25%" valign="top"><strong>Trace the derivations</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/..Derivation_Index.md">Derivation / provenance index</a><br><small>Map from major claims to source derivation attempts.</small></td>
-<td width="25%" valign="top"><strong>Current H(s)H</strong><br><a href="synthesis/CURRENT_SYNTHESIS.md">Current synthesis</a><br><small>Living reconstruction of the finite-core worldtube program.</small></td>
+<td width="25%" valign="top"><strong>Bedrock / premise state</strong><br><a href="BEDROCK.md">BEDROCK.md</a><br><small>Central theory control surface; start here.</small></td>
+<td width="25%" valign="top"><strong>Foundational source</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf">The Fundamental Intuitions — Extended</a><br><small>Foundational conceptual doctrine; see BEDROCK for current routing/status.</small></td>
+<td width="25%" valign="top"><strong>Historical formal SAT</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FULL_THEORY.pdf">FULL_THEORY.pdf</a><br><small>Historical/formal SAT presentation; not automatic current bedrock.</small></td>
+<td width="25%" valign="top"><strong>Derivation / provenance</strong><br><a href="https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/..Derivation_Index.md">Derivation index</a><br><small>Archive/provenance map; evidence routing rather than theory authority.</small></td>
 </tr>
 </table>
 
-> **Read the pictures first if you want the fastest conceptual route.** The history, source record, formal work, current status, and growing document library are linked around and beneath them.
+> **Important:** `synthesis/CURRENT_SYNTHESIS.md` is not a controlling theory surface. Current premise authority/status belongs in BEDROCK unless a newer Nathan Direct instruction says otherwise.
+
+> **Read the pictures first if you want the fastest conceptual route. Read BEDROCK first if you are going to build on the theory.**
 
 ---
 
@@ -176,128 +196,29 @@ SAT/H(s)H did not begin as a finished theory and then acquire illustrations afte
 
 **Spring–summer 2025:** SAT expands rapidly into an all-physics translation program. θ₄, torsion/twist, particle mappings, QCD-like locking/braiding, 4D-covariant integration, Hopf/Borromean structures, SAT-O modules, mathematical-backbone work, prediction protocols and hostile audits all enter the record.
 
-**Late 2025:** Blockwave and One-Action formulations compress the picture further; the public archive opens on GitHub on 28 December 2025.
+**Late 2025 → early 2026:** the project becomes increasingly formal and source-conscious: 4DHH, SAT-O, worldline/holonomy work, explicit prediction documents, Lean-oriented rebuilding, provenance tracking, and adversarial validation become central.
 
-**Early 2026:** 4DHH, the Universal Indicatrix, Unit Cell work, photoneutrino and Standard Atom constructions reorganize much of the prior machinery around a more explicitly hyperhelical geometric generator.
+**Mid-2026:** the finite-core problem becomes unavoidable. The centerline/filament picture is generalized into **H(s)H — Hyper(super)Helical Worldtube**, with explicit worldtube cross-section, recursive coiling, braid/bundle geometry, and a cleaner separation between full higher-dimensional structure and lower-dimensional readout.
 
-**Summer 2026 → H(s)H:** the longstanding coiled-worldline skeleton is carried into a finite-core **Hyperhelical Worldtube** model so that internal extent, deformation, interaction and recursive carrier structure can be treated explicitly rather than only through a centerline representation.
-
-For the compact visual chronology, see **[SAT → H(s)H: a short development timeline](HISTORY_TIMELINE.md)**. The long-form source chronology remains in the [historical SAT Archive](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25#development-timeline).
+The current project is therefore best read neither as a frozen 2025 theory nor as a clean break from it. H(s)H is the attempt to retain the durable geometric grammar while rebuilding the mathematical object at higher resolution.
 
 ---
 
-# Current H(s)H focus
+# Reading the archive responsibly
 
-The present research problem is the finite-core worldtube build: preserving the durable geometric structure of the worldline model while determining which relations survive, which require new mechanics, and which historical simplifications should be retired. Mathematical formalization, empirical comparison, and prior-art review are proceeding alongside that reconstruction.
+This repository intentionally mixes several kinds of material that should not be collapsed into one evidentiary category:
 
-For readers who want to go deeper:
+- **Nathan-authored conceptual statements** — primary evidence for what the model is intended to mean.
+- **Historical derivations and calculations** — evidence of mathematical development, with varying levels of checking.
+- **AI-generated formalizations and reconstructions** — useful working mathematics, but not automatically authoritative.
+- **Computational experiments** — evidence for what a particular implementation produced under specified assumptions.
+- **Visualizations** — often the clearest route into the geometry, but not themselves proofs.
+- **External-source comparisons** — context for comparison and vocabulary, not evidence that SAT/H(s)H inherits the validity of the compared theory.
 
-- [Short development timeline](HISTORY_TIMELINE.md)
-- [Repository architecture](ARCHITECTURE.md)
-- [Structural index](indexes/STRUCTURAL_INDEX.md)
-- [Formalization workspace](formalization/README.md)
-- [Curated visual package](SAT_VISUALS/VISUALS_1/)
-- [Historical SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)
-
-Contributor/LLM workflow notes, maintenance rules, source-handling instructions and internal navigation have been moved to [`INTERNAL/WORKING_INSTRUCTIONS.md`](INTERNAL/WORKING_INSTRUCTIONS.md) so the public front page can remain a scientific introduction rather than an operations manual.
+The repository's vetting/status labels are intended to keep those categories visible. Where a document has not yet been independently checked, it should be read as part of an active research record rather than as settled result.
 
 ---
 
-# SAT/H(s)H CLARIFICATIONS
+# Where to go next
 
-*A note from Nathan McKnight*
-
-1. Although we have at times explored the possibility of a 24-cell lattice, I have always found that construction somewhat artificial on its face. We have therefore placed it on the back burner unless and until the geometry itself forces something like it as the H(s)H model is built out.
-
-2. We see no inherent conflict between SAT/H(s)H and mainstream physics. Quite the opposite: the extraordinary empirical success, mathematical structure, and cumulative data of modern physics form the most important foundation for this work. SAT/H(s)H began from a literal reading of Minkowski spacetime, itself foundational to special relativity and deeply embedded in the structure of General Relativity.
-
-3. SAT/H(s)H deliberately builds on classical and relativistic thinking and takes mainstream physics as the clearest and most complete picture of the universe currently available. We began by trying only to map known physics geometrically in four dimensions. In hindsight, however, constructing such a map also created a constrained vantage point from which to ask where apparently disconnected descriptions might fit together, and where the standard picture might still be incomplete.
-
-4. Although SAT/H(s)H may eventually contribute scientifically, I regard my primary contribution as methodological and philosophical: insistence on minimalism, reduction of the problem space, and the possibility that the conceptual and mathematical tools already available to us may be sufficient to build a coherent understanding of the universe. That did not have to be true. But repeatedly, removing unnecessary ornament has produced not merely a fuller picture, but a simpler one.
-
-5. SAT/H(s)H was developed almost entirely from within its own Minkowski-geometric grammar. Along the way it repeatedly converged, often unexpectedly, on structures that already exist in established mathematics and mathematical physics. I do not take that as evidence of special insight by itself. I take it first as evidence that good geometry tends to lead people toward the same places. In that sense, the recurring answer to “why did we keep landing here?” may be very simple: because Minkowski was right.
-
-6. If SAT/H(s)H is eventually shown to fit evidence more closely than it must merely by reproducing established physics, then its contribution may prove scientific in the stronger sense I hope for. The most distinctive candidate ideas include photon–neutrino duality, a recycling black-hole cosmology, and the relocation of spacetime curvature into the geometry of the time surface. These remain claims to be tested, not conclusions to be assumed.
-
-7. We have done our best to construct the mathematical backbone using classical equations, modern formalisms, and our own geometric solvers. We do not, however, claim the specialized mathematical expertise required to vet every derivation with the confidence appropriate to peer review. For that reason we have preferred open development: making the reasoning, mistakes, revisions, dead ends, and corrections as visible as possible. Having recently recognized that parts of our work overlap a century-old mathematical and physical lineage involving braid theory and related formalisms, we are temporarily directing substantial attention away from theory-building and toward prior-art review and proper citation. Some ideas we believed to be unusual may prove to have substantial precedent. If so, that should be acknowledged plainly. I hope the overall construction may nonetheless remain distinctive in conception and synthesis.
-
-8. Over the last year and a half, we have made visible not only the work itself, but also our ineptitude, stubbornness, personal struggles, wrong turns, jokes, and occasionally embarrassing degree of obsession with this picture of reality. Against our own expectations, that process has also revealed peers, predecessors, colleagues, and a broader intellectual community working on related structures. Outsider and academic work alike rests on generations of people who opened conceptual paths long before us. Exploratory work has value even when later evidence rejects it, because science advances not only through answers but through the disciplined expansion and contraction of the space of possible answers.
-
-> **The one thing science cannot do without is wonder: wonder at the complexity of this place, and at the possibility that beneath that complexity lies something unexpectedly simple.**
-
----
-
-# SAT/H(s)H Library
-
-This is a curated front-door collection, not a declaration of canon. Documents are included because they are useful for understanding the conceptual construction, mathematical formalization, derivation history, or current H(s)H rebuild. Status panels will be updated as papers are connected to their derivation attempts and as those derivations receive additional review.
-
-**Vetting scale:** ![Queued](https://img.shields.io/badge/QUEUED-64748B?style=flat-square) grey = queued · ![Preliminary](https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square) blue = preliminary review · ![Substantive](https://img.shields.io/badge/SUBSTANTIVE-16A34A?style=flat-square) green = substantive review milestone · ![Complete](https://img.shields.io/badge/COMPLETE-DC2626?style=flat-square) red = review complete. Pale boxes are inactive; saturated boxes are active.
-
-> **These colors show review progress, not whether the underlying model is physically true.** Questions, caveats, discrepancies, and failed checks are recorded in the document annotation and linked audit/derivation records rather than encoded as warning colors.
-
-## Conceptual foundations
-
-### [The Fundamental Intuitions — Extended](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf)
-**Document status:** `FOUNDATIONAL CONCEPT`  
-Short, direct statement of the durable SAT picture: complete filament/worldline histories, the resolving time surface, particle-as-intersection, interaction/backreaction, and the helical recording of deformation.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-### [The Logic of SAT](LIBRARY/generated/logic-of-sat.md)
-**Document status:** `CONCEPTUAL MAP`  
-A structured explanation of the intended object hierarchy and reasoning chain. Especially useful for understanding how the early model connects worldlines, the time surface, intersectional particles, backreaction, mass, forces, GR, and QM. Some ontological language is stronger than the present H(s)H stance.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-## Mathematical and formal presentations
-
-### [FULL_THEORY.pdf](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FULL_THEORY.pdf)
-**Document status:** `HISTORICAL FORMALIZATION` · `UNDER AUDIT`  
-One of the clearest paper-style attempts to present superhelical parameterization, curvature/torsion, projections, coupling metrics, proposed invariants, applications, and tests in one place. Preliminary review has identified places where the displayed derivation chain needs to be connected to the broader archive before stronger claims can be assessed.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-### [SAT CORE.pdf](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/%20..%E2%9C%85%20SAT%20CORE.pdf)
-**Document status:** `HISTORICAL FORMALIZATION` · `UNDER AUDIT`  
-A compact intended mature architecture spanning the time-flow field, θ₄, phase/twist fields, coupled action, mass mechanism, gauge reconstruction, cosmology, and falsification claims. Useful as a map of what the formal program was trying to accomplish; several stated closures point outward to derivation work that still needs to be reconnected and assessed.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-### [MINKOWSKI PROPER.pdf](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/MINKOWSKI%20PROPER.pdf)
-**Document status:** `METHODOLOGICAL / FORMALIZATION SOURCE` · `UNDER AUDIT`  
-Important for the procedural ambition of beginning from established four-dimensional worldline geometry and constraining extensions geometrically. Later portions incorporate several SAT constants and mechanisms whose displayed derivation chains still need reconstruction.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-### [Relativistic–Quantum Isomorphism (nolat).pdf](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/Relativistic%E2%80%93Quantum%20Isomorphism%20%28nolat%29.pdf)
-**Document status:** `MAJOR DERIVATION TARGET` · `UNDER AUDIT`  
-A particularly important proposed bridge between constrained geometric motion, spectral modes, and a shared variational structure. It is being retained prominently because both the claimed correspondence and the historical Whirligig-assisted route used to reach it deserve direct reconstruction and comparison with conventional calculation.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-### [DIMENSIONAL_NORMALIZATION.pdf](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/DIMENSIONAL_NORMALIZATION.pdf)
-**Document status:** `CURRENT FORMAL TOOL`  
-A September 2026 normalization protocol intended to keep representations lossless and to distinguish genuine residual structure from artifacts of scaling, coordinate choice, or normalization. It is a formal tool for the rebuild rather than a derivation of H(s)H physics.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-## Current H(s)H working architecture
-
-### [Current H(s)H synthesis](synthesis/CURRENT_SYNTHESIS.md)
-**Document status:** `CURRENT WORKING SYNTHESIS`  
-The living reconstruction layer. This is the best current route into what has survived the SAT → H(s)H transition, what remains open, and how the finite-core worldtube architecture is being rebuilt.
-
-<table><tr><td><strong>VETTING STATUS</strong><br><br><strong>LLM / COMPUTATIONAL</strong><br><img src="https://img.shields.io/badge/QUEUED-CBD5E1?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-2563EB?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>HUMAN / SPECIALIST</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"><br><strong>FORMAL</strong><br><img src="https://img.shields.io/badge/QUEUED-64748B?style=flat-square"> <img src="https://img.shields.io/badge/PRELIMINARY-BFDBFE?style=flat-square"> <img src="https://img.shields.io/badge/SUBSTANTIVE-BBF7D0?style=flat-square"> <img src="https://img.shields.io/badge/COMPLETE-FECACA?style=flat-square"></td></tr></table>
-
-Supporting working sources: [H(s)H 2026 STARTUP DOCS](LIBRARY/generated/frontpage-txt-h-s-h-2026-startup-docs-bcb325c6.md) · [H(s)H REWORK](LIBRARY/generated/frontpage-txt-h-s-h-rework-be53e17c.md) · [HsH ARCHITECTING](LIBRARY/generated/frontpage-txt-hsh-architecting-8aa5b793.md)
-
-## Derivations, provenance, and further reading
-
-- [Expanded SAT/H(s)H Library](LIBRARY.md) — additional snapshots, calculations, derivation sources, transition documents, working conversations, and formalization material selected for easier discovery.
-- [Derivation / provenance index](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..%5B%F0%9F%8E%9B%EF%B8%8F_NATHAN_DASH%5D/..Derivation_Index.md) — maps major mathematical claims to likely derivation/provenance paths and current audit posture.
-- [Mathematical Repository](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/..MATHEMATICAL_REPOSITORY) — equation/provenance clearinghouse.
-- [Annotated cross-archive survey](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/!_ANNOTATED_ARCHIVE_SURVEY.md) — neutral coverage and provenance map.
-- [Detailed surveyed-sources ledger](synthesis/SURVEYED_SOURCES.md) — what has actually been read, partially read, merely located, or identified as duplicate.
-- [Historical SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25) — the broader developmental record, including sector papers, derivation attempts, conversations, code, visualizations, and failed or superseded branches.
-
-This library is intentionally incomplete. Additional sector papers, solver documents, historical formalizations, prediction papers, and primary conversations will be added as their roles and derivation relationships are mapped.
+For theory work, return to **[BEDROCK.md](BEDROCK.md)**. For historical reconstruction, use the **[SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)** and the derivation/provenance indices. For development conversations, use the **[Conversation Viewer](https://satobloc.github.io/HsH/)**. For operations, coordination, automation, and infrastructure, use **[WORKSPACES/COMMON](WORKSPACES/COMMON/)**.
