@@ -4,7 +4,23 @@
 **Established:** 2026-09-15  
 **Write model:** automation-owned checkpoint/handoff. Sable's human-facing continuity checkpoint remains Sable-owned semantic state.
 
-## Current bounded operation — route lead co-theorist updates into State of the Theory
+## Current bounded operation — diagnose safe root-front-door edit path
+
+This recurrence performed one bounded shared-state/visibility diagnosis only. It did not modify the root README or any theory-state surface.
+
+### Durable boundary reached
+
+- Current `README.md` still exposes `BEDROCK.md` prominently in `START HERE`, but does not expose `STATE_OF_THE_THEORY.md` or `!!_RUNNING_COTHEORIST_LOG.md` alongside it.
+- The `AUTO_FEATURED` block is present and remains generator-owned; this pass did not touch it.
+- The available GitHub `update_file` action is whole-file replacement. The current README is large enough that connector reads truncate its full payload, so a safe current-SHA whole-file replacement cannot be constructed from the connector response without reconstructing unseen text. This backend therefore did **not** attempt the README edit.
+- `maintain-navigation.yml` was inspected as a possible owner of the README/generated block. It does not edit or stage `README.md`; its publish scope is conversation-source renames plus generated indexes/autotag/viewer artifacts. Therefore the README visibility repair should not be routed through that workflow.
+- No theory claim was promoted. No PRIOR_ART/nLab/quarantine content was accessed.
+
+### One continuation cursor
+
+Locate the exact script/workflow that owns `AUTO_FEATURED` / root README generation, or obtain a safe patch-capable/current-full-file editing route. Then perform one root-front-door repair outside generated blocks that exposes `BEDROCK.md`, `STATE_OF_THE_THEORY.md`, and `!!_RUNNING_COTHEORIST_LOG.md` together with explicit authority separation. Do not reconstruct the unread tail of README from memory.
+
+## Prior bounded operation — route lead co-theorist updates into State of the Theory
 
 This recurrence performed one bounded theory-reference visibility/routing repair only. It updated `STATE_OF_THE_THEORY.md`; it did not edit BEDROCK or the root README.
 
