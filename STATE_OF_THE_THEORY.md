@@ -7,6 +7,8 @@
 
 > **Read [BEDROCK.md](BEDROCK.md) first for premise authority.** This document is the current map of the research programme, not an independent source of bedrock and not a substitute for primary sources.
 
+> **Current lead co-theorist updates:** [Running Co-theorist Log](!!_RUNNING_COTHEORIST_LOG.md) → current Ravel/live-theory update feed. It is an **intake/visibility surface, not theory authority**. New entries remain sandbox/open/tentative as appropriate until bounded source/status review changes BEDROCK or materially changes this state map.
+
 ## 1. One-line state
 
 The project is presently in a **convergence / translation-and-construction phase**: recovering the demonstrable SAT backbone from its historical record while building the finite-core H(s)H worldtube formulation toward it. The conceptual translation has substantially begun; machinery-level translation is underway; the equation-level bridge is not yet closed.
@@ -92,7 +94,7 @@ These are active construction questions, not settled entries merely because curr
 
 ### Ravel / finite-core particle construction
 
-[Ravel](WORKSPACES/RAVEL/) is a prominent current construction lane. Recent work includes Kerr-cross-section/worldtube typing, scale separation and triangulation, null-helix/worldtube kinematics, and force-primitive/interface questions. Consult the source documents directly and preserve their sandbox status unless BEDROCK says otherwise.
+[Ravel](WORKSPACES/RAVEL/) is the current head co-theorist/live-theory lane. Recent work includes Kerr-cross-section/worldtube typing, scale separation and triangulation, null-helix/worldtube kinematics, force-primitive/interface questions, and newer live-theory updates surfaced through the [Running Co-theorist Log](!!_RUNNING_COTHEORIST_LOG.md). Consult the source documents directly and preserve their sandbox/open/tentative status unless BEDROCK says otherwise.
 
 ### Meridian / SAT solver recovery
 
@@ -129,13 +131,16 @@ Update this document when a change materially alters the answer to **“Where is
 - a major construction line becomes live, contested, or superseded;
 - the principal unresolved bottleneck changes.
 
-Do not update it merely because another calculation or document was produced.
+The [Running Co-theorist Log](!!_RUNNING_COTHEORIST_LOG.md) is a standing upstream feed for this update process: review its substantive additions in bounded slices, but do not copy every update here. Promote only changes that materially alter the state map, and route premise-status changes through BEDROCK first.
+
+Do not update this document merely because another calculation or document was produced.
 
 ## 8. Fast routing
 
 - **What may I assume?** → [BEDROCK.md](BEDROCK.md)
 - **What is the foundational doctrine?** → [The Fundamental Intuitions — Extended](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf)
 - **Where is the theory now?** → this document
+- **What is the current lead co-theorist working on / reporting?** → [Running Co-theorist Log](!!_RUNNING_COTHEORIST_LOG.md) and [WORKSPACES/RAVEL](WORKSPACES/RAVEL/); intake visibility, not automatic authority
 - **What is currently classified live?** → [CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md](WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md), subject to newer Nathan Direct/BEDROCK
 - **Where is current Kerr/worldtube construction?** → [WORKSPACES/RAVEL](WORKSPACES/RAVEL/)
 - **Where is the historical development record?** → [Conversation Viewer](https://satobloc.github.io/HsH/) and [SAT Theory Archive 2023–25](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)
