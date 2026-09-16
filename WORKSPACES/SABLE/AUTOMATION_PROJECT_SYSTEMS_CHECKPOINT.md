@@ -5,23 +5,22 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — Large Document Feeder regression-test artifact
+## Current bounded operation — feeder regression runtime probe
 
-This recurrence performed one bounded infrastructure-QA operation: turn the prior conversation-order repair into a reusable regression test.
+This recurrence performed one bounded infrastructure-QA operation: attempt to execute the existing Large Document Feeder regression test rather than extending feeder implementation.
 
 ### Durable boundary reached
 
-- Re-read current `AUTOMATION_WORKFLOW_CONTROL.md`, `WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md`, the BEDROCK front matter/routing rule, current `tools/large_document_feeder.py`, and this backend checkpoint before acting.
-- Added `tests/test_large_document_feeder.py` using a synthetic mapping-shaped ChatGPT conversation fixture. The fixture deliberately scrambles mapping insertion order and includes an abandoned alternate branch.
-- The regression asserts the feeder selects the `current_node` parent chain, preserves `alpha -> beta -> gamma` active-branch order, excludes the abandoned branch, maintains bidirectional previous/next packet cursor continuity, records message-index/message-ID source ranges, retains source and packet SHA-256 identities, and leaves the source bytes unchanged.
-- Test artifact commit: `02feb654ff9fa34b64634930c3755cad7db8055c`.
-- This connector run created the reusable test artifact but did **not** execute the repository test in a checked-out runtime; therefore no passing-test claim is made yet.
+- Re-fetched the current backend checkpoint, current `AUTOMATION_WORKFLOW_CONTROL.md`, `tools/large_document_feeder.py`, and `tests/test_large_document_feeder.py` before the probe.
+- Confirmed the committed regression still targets the intended active-branch, abandoned-branch exclusion, cursor-chain, source-range, hash, and source-immutability invariants.
+- Attempted execution in the available container runtime. The repository is not checked out there, and outbound raw-GitHub retrieval from that runtime failed at DNS resolution; therefore the committed test itself was **not executed** and no passing/failing test claim is made.
+- This is a runtime-access limitation, not evidence of a feeder defect.
 - No theory claim or BEDROCK status changed. No PRIOR_ART/nLab/quarantine content was accessed. No cadence, role, Dashboard, Q&A, bibliography, or human-facing continuity state changed.
 
 ### Current feeder state
 
-The feeder implementation remains at `tools/large_document_feeder.py`. Its current mapping-export behavior uses the active `current_node` parent chain when available and labels the deterministic no-`current_node` fallback separately. The project standard remains `WORKSPACES/COMMON/WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md`.
+The feeder implementation remains `tools/large_document_feeder.py`; the reusable regression remains `tests/test_large_document_feeder.py`. Current QA status is **test authored, execution pending in a repository-capable runtime**.
 
 ### One continuation cursor
 
-Execute `tests/test_large_document_feeder.py` against the current repository checkout in a runtime that can run the script. Record the exact result. If it fails, repair only the first failure class; if it passes, stop and rotate away from feeder QA on the following recurrence.
+At the next feeder-QA opportunity, use a repository-capable execution path (checked-out repo or CI/workflow route) to run `python tests/test_large_document_feeder.py` exactly once and record the exact result; do not spend another recurrence retrying the same unavailable container path.
