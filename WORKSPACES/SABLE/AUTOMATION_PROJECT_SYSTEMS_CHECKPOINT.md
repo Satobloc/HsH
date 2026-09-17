@@ -5,24 +5,24 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — Issue #3 closure-state audit
+## Current bounded operation — FIE extraction lookup audit
 
-This recurrence performed one bounded system-pulse/reference-lane status check on the orientation issue after the GLASS front-door repair.
+This recurrence performed one bounded archive/infrastructure audit: locate the existing machine-readable extraction route for `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` without creating new extraction machinery.
 
 ### Durable boundary reached
 
-- Re-read current Issue #2 and Issue #3 rather than treating the earlier GLASS repair as closure of the whole orientation workstream.
-- Issue #3 has a Nathan addendum requiring deterministic PDF -> machine-readable full-text discovery, with Fundamental Intuitions Extended as the high-priority acceptance case.
-- The GLASS pointer portion is repaired, but the PDF-extraction/discoverability acceptance criterion remains unresolved. Therefore Issue #3 must remain OPEN.
-- The historical archive root `..findex.txt` was directly inspected. It is an extensive generated folder tree, but in the inspected representation it does not itself provide an obvious PDF -> extraction mapping for a worker starting from an important PDF filename.
-- No claim is made that the extraction is absent; Nathan's addendum explicitly requires treating nondiscovery as a documentation/indexing defect until the extraction machinery is audited.
-- During this audit Issue #3 was briefly closed, then immediately reopened after its addendum was read. Final durable state is OPEN; no completed-work claim should be inferred from the transient state change.
-- No BEDROCK theory state, Dashboard, Q&A queue, automation cadence, or human-facing continuity state was changed.
+- Re-read current BEDROCK and Issue #3 plus its PDF-extraction addendum before acting.
+- BEDROCK still routes foundational work directly to `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf`; Issue #3 requires a deterministic one- or two-step route from an important PDF filename to complete machine-readable text.
+- Searched both `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for obvious Fundamental-Intuitions extraction names/terms; no machine-readable companion was returned by code search.
+- Inspected the archive recursive tree and root `..findex.txt`. The tree confirms the generated index/navigation infrastructure, but the inspected surfaces do not expose a deterministic FIE PDF -> full-text extraction mapping.
+- Inspected `..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt` through the connector; the requested text representation returned empty despite the file having a large blob size. This is a retrieval/index-surface anomaly, not evidence that the underlying archive index is empty.
+- No claim is made that FIE lacks an extraction. The bounded result is narrower: the current obvious repository/search/index surfaces still do not reveal the extraction route, so Issue #3's acceptance case remains unresolved.
+- No new extraction pipeline, BEDROCK change, Dashboard change, Q&A change, automation change, or human-facing continuity edit was made.
 
 ### Infrastructure/reference-lane finding
 
-The next unresolved orientation defect is not GLASS identity but PDF-text routing. The controlling invariant is: given an important PDF filename, a worker should reach complete machine-readable text in one or two deterministic steps without OCR, binary-PDF access, filename guessing, or Nathan intervention.
+The likely next information gain is to inspect the archive's indexing/extraction scripts/workflows themselves rather than continue filename guessing. The large `🗄️_ARCHIVE_INDEX.txt` connector anomaly is also relevant because it may be hiding an existing mapping from ordinary AI retrieval.
 
 ### One continuation cursor
 
-Audit only the existing PDF extraction/indexing machinery for `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf`: locate any current machine-readable extraction and its index/manifest relationship. Do not create a new extraction pipeline until the existing machinery has been checked.
+Audit one existing archive indexing/extraction implementation surface (script or workflow) to determine whether PDF full-text extraction is generated and, if so, its naming/path convention and manifest destination. Stop after identifying that mechanism or establishing that the inspected implementation does not perform PDF extraction.
