@@ -12,7 +12,7 @@ This is a byte-identity test only. It does not infer authorship, date, visual eq
 
 ## Result
 
-Three of eight Library objects are byte-identical to the corresponding public repository objects:
+Four of eight Library objects are byte-identical to the corresponding public repository objects:
 
 | image | Library bytes | computed Library Git blob | public repo bytes | public repo blob | disposition |
 |---|---:|---|---:|---|---|
@@ -29,7 +29,7 @@ Count: **4/8 byte-identical; 4/8 not byte-identical.**
 
 ## Correction to prior crosswalk assumption
 
-The prior crosswalk correctly established a corresponding eight-name family in both surfaces, but byte reconciliation shows that cross-surface correspondence is not uniformly copy identity. Four objects are exact byte copies; four are distinct encodings/files under corresponding names. Therefore the Library/attachment surface and public repository surface must not be globally collapsed as duplicate copies without per-object reconciliation.
+The prior crosswalk correctly established a corresponding eight-name family in both surfaces, but byte reconciliation shows that cross-surface correspondence is not uniformly copy identity. Four objects are exact byte copies; four are distinct files under corresponding names. Therefore the Library/attachment surface and public repository surface must not be globally collapsed as duplicate copies without per-object reconciliation.
 
 This does **not** imply the four nonidentical pairs depict different physical pages/objects. Differences could arise from crop, resize, recompression, metadata, alternate photograph/export, or genuinely different image content. That question remains open until image-level comparison.
 
