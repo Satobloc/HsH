@@ -5,23 +5,22 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — reference-lane/front-door audit
+## Current bounded operation — README safe-write capability probe
 
-This recurrence performed one bounded diagnosis against the fresh-instance orientation acceptance test, using the current root `README.md` as the primary target and current BEDROCK / STATE / workflow controls as supporting references.
+This recurrence performed one bounded infrastructure/write-safety diagnosis for the pending root README micro-repair.
 
 ### Durable boundary reached
 
-- The README front door clearly identifies `BEDROCK.md` as the theory center and explicitly directs substantive theory work there.
-- It identifies Fundamental Intuitions Extended as the foundational source and separately marks historical SAT material as non-automatic current bedrock.
-- It routes conversations/history to archive/provenance, worker operations to `WORKSPACES/COMMON`, supporting mathematics/resources to the methods/resources lane, and PRIOR_ART to hard quarantine.
-- It explicitly states that reference/discovery status does not confer authority and preserves `synthesis/CURRENT_SYNTHESIS.md` as non-controlling.
-- One concrete fresh-instance visibility defect remains: the START HERE archive/provenance lane names the Conversation Viewer and SAT Theory Archive but does not explicitly name **GLASS / Glass Sausage Factory** as the primary internal development/historical working record. This misses one element of the standing acceptance test even though the rest of the lane structure is strong.
-- No theory status, shared semantic front door, Dashboard, Q&A, automation, or human-facing continuity state was changed in this diagnostic bite.
+- Re-fetched current `BEDROCK.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, the Q&A queue, backend checkpoint, and the current root `README.md` before acting.
+- Confirmed the pending defect remains: the README START HERE archive/provenance pointer names the Conversation Viewer and SAT Theory Archive but does not explicitly name **GLASS / Glass Sausage Factory** as the primary internal development/historical working record.
+- Confirmed ordinary `fetch_file` can truncate the README, so its returned body must not be used blindly for whole-file replacement.
+- Tested the connector's blob-read path against the README's current blob SHA `e42e451865d96621a0c8b1e17d2ac78af7a10af1`. `fetch_blob` returned the complete current README body through the final `Where to go next` section. This establishes a safe full-current-file read route for the pending semantic micro-edit.
+- No README, theory state, Dashboard, Q&A state, automation, or human-facing continuity state was changed in this bite.
 
-### Reference-lane finding
+### Infrastructure / write-safety finding
 
-The root front door is substantially centered correctly. The next useful change should be a micro-bite only: add GLASS explicitly to the existing archive/provenance START HERE pointer, without expanding into a new orientation essay or unrelated README cleanup.
+The earlier blocker is narrowed: full-current README retrieval is available through the Git blob endpoint. The remaining requirement is to perform exactly one controlled textual substitution against that full current blob and publish with current-SHA/CAS semantics; do not reconstruct or truncate the file.
 
 ### One continuation cursor
 
-Make the single README front-door pointer repair that names GLASS / Glass Sausage Factory as the primary internal development/historical working record, using a full-current-file or patch-capable safe write path rather than stale/truncated whole-file replacement.
+Using a full-current blob read immediately before write, make the single README START HERE substitution that explicitly names GLASS / Glass Sausage Factory as the primary internal development/historical working record, with no other README cleanup.
