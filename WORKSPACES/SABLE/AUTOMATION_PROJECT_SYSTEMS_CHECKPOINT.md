@@ -5,22 +5,22 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — feeder regression runtime probe
+## Current bounded operation — Q&A system pulse
 
-This recurrence performed one bounded infrastructure-QA operation: attempt to execute the existing Large Document Feeder regression test rather than extending feeder implementation.
+This recurrence performed one bounded system-pulse operation: inspect the standing Common Q&A triage surface for unresolved worker questions requiring routing or Nathan attention.
 
 ### Durable boundary reached
 
-- Re-fetched the current backend checkpoint, current `AUTOMATION_WORKFLOW_CONTROL.md`, `tools/large_document_feeder.py`, and `tests/test_large_document_feeder.py` before the probe.
-- Confirmed the committed regression still targets the intended active-branch, abandoned-branch exclusion, cursor-chain, source-range, hash, and source-immutability invariants.
-- Attempted execution in the available container runtime. The repository is not checked out there, and outbound raw-GitHub retrieval from that runtime failed at DNS resolution; therefore the committed test itself was **not executed** and no passing/failing test claim is made.
-- This is a runtime-access limitation, not evidence of a feeder defect.
-- No theory claim or BEDROCK status changed. No PRIOR_ART/nLab/quarantine content was accessed. No cadence, role, Dashboard, Q&A, bibliography, or human-facing continuity state changed.
+- Re-fetched the current `AUTOMATION_WORKFLOW_CONTROL.md`, `QNA_TRIAGE_QUEUE.md`, `CHECKINS.md`, and this backend checkpoint.
+- `QNA_TRIAGE_QUEUE.md` currently contains the routing protocol and queue-record schema but no populated queue records requiring disposition.
+- No question therefore requires local resolution, sideways routing, duplicate merge, deferral, or Nathan escalation in this slice.
+- `CHECKINS.md` remains a substantial historical/current worker check-in surface; this pulse did not reinterpret or redistribute lanes from it because cross-lane workflow redesign remains outside this backend's authority.
+- No sticky Nathan-attention item was opened. No theory claim, BEDROCK status, cadence, role, Dashboard, bibliography, archive source, PRIOR_ART/nLab/quarantine state, or human-facing continuity state changed.
 
-### Current feeder state
+### Open dependency retained
 
-The feeder implementation remains `tools/large_document_feeder.py`; the reusable regression remains `tests/test_large_document_feeder.py`. Current QA status is **test authored, execution pending in a repository-capable runtime**.
+Large Document Feeder QA remains **test authored, execution pending in a repository-capable runtime**. The unavailable local-container route was not retried, in accordance with the prior cursor and rotation-health rule.
 
 ### One continuation cursor
 
-At the next feeder-QA opportunity, use a repository-capable execution path (checked-out repo or CI/workflow route) to run `python tests/test_large_document_feeder.py` exactly once and record the exact result; do not spend another recurrence retrying the same unavailable container path.
+Choose a non-feeder bounded operation next; prefer one Ravel/theory-interface or reference-lane slice so infrastructure QA does not monopolize successive recurrences. Return to feeder QA only when a repository-capable execution path is available.
