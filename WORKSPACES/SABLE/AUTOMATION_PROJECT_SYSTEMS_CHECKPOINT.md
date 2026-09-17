@@ -5,25 +5,24 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — GLASS front-door routing repair
+## Current bounded operation — Issue #3 closure-state audit
 
-This recurrence performed one bounded navigation/reference-lane repair to the HsH root README.
+This recurrence performed one bounded system-pulse/reference-lane status check on the orientation issue after the GLASS front-door repair.
 
 ### Durable boundary reached
 
-- Re-read current BEDROCK and AUTOMATION_WORKFLOW_CONTROL before acting.
-- Followed the prior cursor into the historical `Satobloc/SAT_THEORY_ARCHIVE_2023-25` front door.
-- The archive README explicitly identifies itself with the heading `WELCOME TO THE GLASS SAUSAGE FACTORY`, resolving the prior canonical-pointer ambiguity without inference.
-- Re-fetched the complete current HsH README in consecutive line ranges under one current blob SHA.
-- Made one README START HERE semantic micro-edit: the historical-development pointer now labels `Satobloc/SAT_THEORY_ARCHIVE_2023-25` as `GLASS — Glass Sausage Factory` and states that GLASS is the historical SAT archive / working development record.
-- The edit preserved the existing archive/provenance warning that historical visibility does not confer current theory authority.
-- README write used current blob SHA/CAS semantics. Commit: `90b70438038a16ead85dda8f1451c6c85d1467c8`.
-- No BEDROCK theory state, Dashboard, Q&A state, automation, or human-facing continuity state was changed.
+- Re-read current Issue #2 and Issue #3 rather than treating the earlier GLASS repair as closure of the whole orientation workstream.
+- Issue #3 has a Nathan addendum requiring deterministic PDF -> machine-readable full-text discovery, with Fundamental Intuitions Extended as the high-priority acceptance case.
+- The GLASS pointer portion is repaired, but the PDF-extraction/discoverability acceptance criterion remains unresolved. Therefore Issue #3 must remain OPEN.
+- The historical archive root `..findex.txt` was directly inspected. It is an extensive generated folder tree, but in the inspected representation it does not itself provide an obvious PDF -> extraction mapping for a worker starting from an important PDF filename.
+- No claim is made that the extraction is absent; Nathan's addendum explicitly requires treating nondiscovery as a documentation/indexing defect until the extraction machinery is audited.
+- During this audit Issue #3 was briefly closed, then immediately reopened after its addendum was read. Final durable state is OPEN; no completed-work claim should be inferred from the transient state change.
+- No BEDROCK theory state, Dashboard, Q&A queue, automation cadence, or human-facing continuity state was changed.
 
-### Reference-lane result
+### Infrastructure/reference-lane finding
 
-The root front door now deterministically routes the project's GLASS name to the historical SAT archive using that archive's own explicit self-identification. This closes the previously recorded GLASS canonical-pointer blocker.
+The next unresolved orientation defect is not GLASS identity but PDF-text routing. The controlling invariant is: given an important PDF filename, a worker should reach complete machine-readable text in one or two deterministic steps without OCR, binary-PDF access, filename guessing, or Nathan intervention.
 
 ### One continuation cursor
 
-Rotate away from README/GLASS cleanup. On the next recurrence choose the highest-information non-starved operation from system pulse/Q&A, Ravel theory-interface, infrastructure QA, archive/provenance, revival, or individual enrichment rather than extending front-door cleanup opportunistically.
+Audit only the existing PDF extraction/indexing machinery for `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf`: locate any current machine-readable extraction and its index/manifest relationship. Do not create a new extraction pipeline until the existing machinery has been checked.
