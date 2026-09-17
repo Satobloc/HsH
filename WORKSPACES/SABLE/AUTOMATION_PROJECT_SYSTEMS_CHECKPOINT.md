@@ -5,24 +5,23 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — FIE extraction lookup audit
+## Current bounded operation — archive indexer implementation audit
 
-This recurrence performed one bounded archive/infrastructure audit: locate the existing machine-readable extraction route for `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` without creating new extraction machinery.
+This recurrence performed one bounded archive/infrastructure operation: inspect one existing archive indexing implementation surface to determine whether it performs PDF full-text extraction or records an extraction mapping.
 
 ### Durable boundary reached
 
-- Re-read current BEDROCK and Issue #3 plus its PDF-extraction addendum before acting.
-- BEDROCK still routes foundational work directly to `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf`; Issue #3 requires a deterministic one- or two-step route from an important PDF filename to complete machine-readable text.
-- Searched both `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for obvious Fundamental-Intuitions extraction names/terms; no machine-readable companion was returned by code search.
-- Inspected the archive recursive tree and root `..findex.txt`. The tree confirms the generated index/navigation infrastructure, but the inspected surfaces do not expose a deterministic FIE PDF -> full-text extraction mapping.
-- Inspected `..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt` through the connector; the requested text representation returned empty despite the file having a large blob size. This is a retrieval/index-surface anomaly, not evidence that the underlying archive index is empty.
-- No claim is made that FIE lacks an extraction. The bounded result is narrower: the current obvious repository/search/index surfaces still do not reveal the extraction route, so Issue #3's acceptance case remains unresolved.
-- No new extraction pipeline, BEDROCK change, Dashboard change, Q&A change, automation change, or human-facing continuity edit was made.
+- Re-read current BEDROCK before operating; FIE remains Nathan Direct + Foundational Bedrock and the foundational-source routing remains unchanged.
+- Inspected `Satobloc/SAT_THEORY_ARCHIVE_2023-25/..[🎛️_NATHAN_DASH]/⚒️_FOLDER_INDEXER.txt`, the archive's explicit folder-indexer control surface.
+- The inspected implementation configures directory/file enumeration into local `..findex.txt` plus append into `..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt`, with depth/runtime/entry limits and skip directories.
+- It contains no PDF parsing, PDF-to-text generation, extracted-text naming convention, extraction directory, or PDF -> text manifest field. Therefore this specific indexing surface is navigation/inventory infrastructure, not the FIE machine-readable extraction mechanism required by Issue #3.
+- This narrows the prior uncertainty: the large Dashboard archive index may inventory an extraction if one exists elsewhere, but the folder indexer itself does not generate that extraction.
+- No theory state, Dashboard, Q&A queue, automation cadence, Issue state, extraction pipeline, or human-facing continuity surface was changed.
 
 ### Infrastructure/reference-lane finding
 
-The likely next information gain is to inspect the archive's indexing/extraction scripts/workflows themselves rather than continue filename guessing. The large `🗄️_ARCHIVE_INDEX.txt` connector anomaly is also relevant because it may be hiding an existing mapping from ordinary AI retrieval.
+`⚒️_FOLDER_INDEXER.txt` belongs to archive/provenance navigation infrastructure. It should not be treated as a PDF extraction implementation merely because it feeds the master archive index. Issue #3's FIE PDF -> complete machine-readable-text acceptance case remains unresolved.
 
 ### One continuation cursor
 
-Audit one existing archive indexing/extraction implementation surface (script or workflow) to determine whether PDF full-text extraction is generated and, if so, its naming/path convention and manifest destination. Stop after identifying that mechanism or establishing that the inspected implementation does not perform PDF extraction.
+Inspect exactly one next archive implementation surface with plausible content-extraction responsibility (script or workflow, not another filename search). Determine whether it reads PDF bytes or emits machine-readable document text; stop after that determination.
