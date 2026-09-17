@@ -2,7 +2,8 @@
 """Read-only large-source feeder for bounded worker reading packets.
 
 Source files are never modified. Derived packets and manifest are written only
-under --output. Ordinary runs reject paths containing PRIOR_ART.
+under --output. PRIOR_ART is unconditionally excluded from this ordinary-worker
+tool; quarantine-authorized work requires a separate controlled interface.
 """
 from __future__ import annotations
 import argparse, hashlib, json, re
@@ -20,13 +21,12 @@ def words(text: str) -> int:
     return len(WORD_RE.findall(text))
 
 
-def reject_quarantine(path: Path, allow_prior_art: bool) -> None:
-    if not allow_prior_art and any(p.upper() == "PRIOR_ART" for p in path.parts):
-        raise SystemExit("Refusing PRIOR_ART input without --allow-prior-art (authorized runs only).")
+def reject_quarantine(path: Path) -> None:
+    if any(p.upper() == "PRIOR_ART" for p in path.parts):
+        raise SystemExit("Refusing PRIOR_ART input: this feeder is an ordinary-worker interface and has no quarantine bypass.")
 
 
 def text_units(text: str) -> tuple[str, list[dict[str, Any]]]:
-    # Paragraph-aware units with 1-based line ranges.
     lines = text.splitlines(keepends=True)
     units, buf, start = [], [], 1
     for i, line in enumerate(lines, 1):
@@ -69,8 +69,6 @@ def active_mapping_messages(obj: dict[str, Any]) -> list[dict[str, Any]]:
             current = node.get("parent")
         chain.reverse()
         return chain
-    # Fallback for mapping-shaped exports without current_node: deterministic
-    # chronological order. This may include branches, so the parser label records it.
     msgs = [n.get("message") for n in mapping.values()
             if isinstance(n, dict) and isinstance(n.get("message"), dict)]
     def stamp(m: dict[str, Any]) -> tuple[float, str]:
@@ -119,7 +117,6 @@ def load_units(path: Path) -> tuple[str, list[dict[str, Any]]]:
 
 def split_oversized(unit: dict[str, Any], target: int) -> list[dict[str, Any]]:
     if words(unit["text"]) <= target * 2: return [unit]
-    # Only split pathological oversized units; preserve parent structural identity.
     toks = unit["text"].split()
     out = []
     for n, pos in enumerate(range(0, len(toks), target)):
@@ -143,16 +140,15 @@ def packetize(units: list[dict[str, Any]], target: int) -> list[list[dict[str, A
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Feed a large source into bounded, resumable reading packets.")
+    ap = argparse.ArgumentParser(description="Feed a large permitted source into bounded, resumable reading packets.")
     ap.add_argument("source", type=Path)
     ap.add_argument("--output", type=Path, required=True)
     ap.add_argument("--target-words", type=int, default=1250)
     ap.add_argument("--source-repo", default=None)
     ap.add_argument("--source-ref", default=None)
-    ap.add_argument("--allow-prior-art", action="store_true", help="Only for explicitly authorized quarantine workflows.")
     args = ap.parse_args()
     if args.target_words < 200: raise SystemExit("--target-words must be >= 200")
-    source = args.source.resolve(); reject_quarantine(source, args.allow_prior_art)
+    source = args.source.resolve(); reject_quarantine(source)
     raw = source.read_bytes(); source_hash = sha256(raw); short = source_hash[:12]
     parser, units = load_units(source); packets = packetize(units, args.target_words)
     out = args.output.resolve() / short; out.mkdir(parents=True, exist_ok=True)
@@ -169,7 +165,8 @@ def main() -> None:
     manifest = {"schema": "hsh-large-document-feeder-v1", "derived": True, "source_modified": False,
         "source": {"path": str(source), "sha256": source_hash, "repository": args.source_repo, "ref": args.source_ref},
         "parser": parser, "target_words": args.target_words, "overlap": {"enabled": False},
-        "quarantine": {"prior_art_allowed": args.allow_prior_art}, "packet_count": len(entries), "packets": entries}
+        "quarantine": {"prior_art_allowed": False, "policy": "hard-excluded-by-interface"},
+        "packet_count": len(entries), "packets": entries}
     (out/"manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+"\n", encoding="utf-8")
     print(json.dumps({"manifest": str(out/"manifest.json"), "packet_count": len(entries), "source_sha256": source_hash}))
 
