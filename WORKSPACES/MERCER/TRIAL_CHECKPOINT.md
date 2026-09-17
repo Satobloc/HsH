@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 78, 2026-09-17
+**Current through:** Run 79, 2026-09-17
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -23,6 +23,8 @@ Viewer acceptance reconstruction remains **454 accepted -> 453 post-dedup**. Vie
 Run 70: generated Viewer catalog is **453 conversations / 439 development / 9 live** plus registered external entries. Viewer-local ID and exact source path are catalog metadata; embedded ChatGPT `conversation_id` is displayed as CID after opening a source, but repeated-family membership/relation is not first-class catalog/list metadata.
 
 Run 78 found a second mutable-state drift in the long-lived Common routing layer: `COORDINATION.md` still advertises the 2026-09-13 Viewer state as **374 total / 365 development / 9 live**, while Mercer's later direct catalog audit established **453 conversations / 439 development / 9 live** plus registered external entries. Treat the 374/365/9 figures as a dated historical snapshot, not current Viewer state. This is documentation-currentness debt only; it does not imply Viewer/catalog corruption. The shared coordination surface was not rewritten opportunistically.
+
+Run 79 checked the current root `README.md` front door for propagation of these mutable Viewer counts. The README links the Viewer/archive without stating total/development/live counts, so the specific stale-count defect is **not propagated onto the root public front door**. This is a bounded negative result, not an audit of every Dashboard/wayfinding surface. Durable record: `WORKSPACES/MERCER/RUN_079_2026-09-17.md`.
 
 Runs 71–74: minimum additive Viewer relation sidecar specified, with neutral `Related exports: N` navigation, no hiding/merging/ranking/currentness inference, and diagnostic/source-state provenance. Synthetic seven-class contract harness `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py` is runtime-green for its encoded fixtures only. Durable Sable inbox request exists and remains OPEN; do not implement shared Viewer schema/workflow without systems/interface review.
 
@@ -52,7 +54,7 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 exact-byte duplicate disposition / normalization collision unresolved. Current measurable impact is 74 dry-run planned candidates that would block in apply mode. Do not recheck until duplicate paths, dating script, or manifest materially changes.
-- `ROUTING CURRENTNESS`: Common `HANDOFFS.md` still carries historical `48 blocked` Run-29 state, and Common `COORDINATION.md` still carries historical Viewer `374 total / 365 development / 9 live` state. Current verified states are recorded above; refresh shared routing wording when its owner next maintains those surfaces.
+- `ROUTING CURRENTNESS`: Common `HANDOFFS.md` still carries historical `48 blocked` Run-29 state, and Common `COORDINATION.md` still carries historical Viewer `374 total / 365 development / 9 live` state. Current verified states are recorded above; root README does not repeat the Viewer counts. Refresh shared routing wording when its owner next maintains those surfaces.
 - `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN in Sable inbox; no approval inferred.
 - `IDENTITY ANCESTRY`: relation vocabulary exists; authority/disposition remains unresolved and must not be inferred from chronology/size/LIVE placement.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure.
@@ -60,11 +62,11 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; 76 normalization collision current-state reclassification; 77 shared-handoff currentness audit; **78 shared-coordination currentness audit: 2026-09-13 Viewer 374/365/9 figures remain visible on the active routing surface despite later 453/439/9 catalog state; historical snapshot, not current operational state.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; 76 normalization collision current-state reclassification; 77 shared-handoff currentness audit; 78 shared-coordination currentness audit; **79 root README front-door currentness audit: Viewer mutable counts are not copied there, bounding the known stale-count defect away from this public front door.**
 
 ## Best next operations
-1. Inspect Sable response/state for the Run-71 Viewer relation-sidecar proposal; do not implement shared schema unilaterally.
-2. Inspect whether the Dashboard/front-door repeats either stale mutable count now identified in HANDOFFS/COORDINATION; prefer pointer/current-state semantics over duplicating generated counts.
+1. Inspect one actual Dashboard/wayfinding surface beyond the root README for copied mutable Viewer/normalization counts or stale operational status; stop after that one surface.
+2. Inspect Sable response/state for the Run-71 Viewer relation-sidecar proposal; do not implement shared schema unilaterally.
 3. Re-audit autotag lineage only after relevant generator/workflow/manifest state changes.
 4. Recheck SAT_CONVOS_15 normalization only after duplicate paths, dating script, or manifest materially changes.
 5. Keep Viewer navigation dedup separate from archive source disposition.
