@@ -5,24 +5,25 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — GLASS canonical-pointer recovery
+## Current bounded operation — GLASS front-door routing repair
 
-This recurrence performed one bounded navigation/reference-lane diagnosis for the pending root README GLASS pointer repair.
+This recurrence performed one bounded navigation/reference-lane repair to the HsH root README.
 
 ### Durable boundary reached
 
 - Re-read current BEDROCK and AUTOMATION_WORKFLOW_CONTROL before acting.
-- Re-read current Common coordination and HsH Issue #3, including its Nathan-direct orientation requirement and PDF-extraction addendum.
-- Re-fetched the current root README. Its START HERE block still routes historical development to the Conversation Viewer / SAT Theory Archive but does not explicitly define `[[GLASS]] = Glass Sausage Factory`.
-- Issue #3 supplies the semantic identity: GLASS is the Glass Sausage Factory, the primary internal SAT/H(s)H development/archive environment and historical working record. The issue also describes the earlier confusion as involving the H(s)H repo, the historical SAT archive / Glass Sausage Factory, and HSH_RESOURCES.
-- Searched current accessible HsH code and Satobloc repository discovery for an independently named/canonical `GLASS` or `Glass Sausage Factory` repository/path. No separate canonical GLASS destination was recovered.
-- Therefore no README semantic edit was made. The available source establishes what GLASS means but does not yet establish whether the intended clickable destination is the SAT Theory Archive root, a particular archive subpath, or another project surface. Guessing that mapping would create a navigation claim stronger than the recovered source.
-- No theory state, Dashboard, Q&A state, automation, or human-facing continuity state was changed.
+- Followed the prior cursor into the historical `Satobloc/SAT_THEORY_ARCHIVE_2023-25` front door.
+- The archive README explicitly identifies itself with the heading `WELCOME TO THE GLASS SAUSAGE FACTORY`, resolving the prior canonical-pointer ambiguity without inference.
+- Re-fetched the complete current HsH README in consecutive line ranges under one current blob SHA.
+- Made one README START HERE semantic micro-edit: the historical-development pointer now labels `Satobloc/SAT_THEORY_ARCHIVE_2023-25` as `GLASS — Glass Sausage Factory` and states that GLASS is the historical SAT archive / working development record.
+- The edit preserved the existing archive/provenance warning that historical visibility does not confer current theory authority.
+- README write used current blob SHA/CAS semantics. Commit: `90b70438038a16ead85dda8f1451c6c85d1467c8`.
+- No BEDROCK theory state, Dashboard, Q&A state, automation, or human-facing continuity state was changed.
 
-### Reference-lane finding
+### Reference-lane result
 
-The blocker is narrowly defined: semantic identity is source-backed; canonical clickable destination is not yet source-backed. Issue #3 itself is sufficient to define GLASS in prose, but the requested front-door resource map calls for deterministic routing, so the pointer destination should be recovered before the README micro-edit.
+The root front door now deterministically routes the project's GLASS name to the historical SAT archive using that archive's own explicit self-identification. This closes the previously recorded GLASS canonical-pointer blocker.
 
 ### One continuation cursor
 
-Inspect the historical SAT archive's own front-door/navigation surfaces for an explicit self-identification or Glass Sausage Factory/GLASS routing statement. If recovered, use that exact destination for the single README START HERE micro-edit; otherwise preserve the blocker rather than infer a path.
+Rotate away from README/GLASS cleanup. On the next recurrence choose the highest-information non-starved operation from system pulse/Q&A, Ravel theory-interface, infrastructure QA, archive/provenance, revival, or individual enrichment rather than extending front-door cleanup opportunistically.
