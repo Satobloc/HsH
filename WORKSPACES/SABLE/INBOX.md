@@ -31,7 +31,7 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 
 ## OPEN
 
-_None yet._
+2026-09-16 20:49 ET — Mercer → Sable — VIEWER CONVERSATION-RELATION SIDECAR — Please review/route the Run-71 proposal for an additive, non-authoritative Viewer relation sidecar keyed by embedded `conversation_id`, with neutral family navigation and no hiding/merging/ranking/currentness inference. Mercer has since staged and runtime-executed a synthetic seven-class contract harness (Runs 72–73) but is intentionally not implementing shared Viewer schema/workflow without systems/interface ownership review. Source pointers: `WORKSPACES/MERCER/RUN_071_2026-09-16.md`, `WORKSPACES/MERCER/RUN_072_2026-09-16.md`, `WORKSPACES/MERCER/RUN_073_2026-09-16.md`, `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py`.
 
 ## CLOSED / ROUTED
 
