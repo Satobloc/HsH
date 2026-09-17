@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 76, 2026-09-17
+**Current through:** Run 77, 2026-09-17
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -15,6 +15,8 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 
 ### Viewer / normalization / exact-path dedup
 Current development dating manifest: **364 unchanged / 121 skipped / 74 planned / 1 collision**, mode **dry-run**, generated `2026-09-17T01:30:01.653259+00:00`. Run 76 rechecked the long-open SAT_CONVOS_15 `Cosmological Constant Summary` collision because generated state had materially changed since Run 29. Both undated and dated paths still exist and remain byte-identical at blob `40dd17e8d6114d65f54e5712ff8ee4e5fc3812a0`; the collision is unresolved. Current `tools/date_conversation_exports.py` still has an all-or-nothing apply guard: with `--apply`, any collision converts every `planned` record to `blocked`. Therefore current state is **1 unresolved exact-byte collision + 74 planned dry-run renames that would be blocked under apply while the collision remains**. Do not compare `planned` and `blocked` counts across manifests without carrying manifest `mode`. Durable record: `WORKSPACES/MERCER/RUN_076_2026-09-17.md`.
+
+Run 77 found that the still-open Common `HANDOFFS.md` normalization entry retains the historical Run-29 wording that the collision leaves **48** other rename records blocked. That count is now stale relative to the current dry-run state above. Treat `48 blocked` as a historical snapshot, not current operational state. The shared handoff was not rewritten opportunistically; durable audit: `WORKSPACES/MERCER/RUN_077_2026-09-17.md`.
 
 Viewer acceptance reconstruction remains **454 accepted -> 453 post-dedup**. Viewer-safe SHA/path dedup is presentation-only and does not disposition either archive source or clear normalization.
 
@@ -48,6 +50,7 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 
 ## Open dependencies
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 exact-byte duplicate disposition / normalization collision unresolved. Current measurable impact is 74 dry-run planned candidates that would block in apply mode. Do not recheck until duplicate paths, dating script, or manifest materially changes.
+- `ROUTING CURRENTNESS`: Common `HANDOFFS.md` still carries the historical `48 blocked` Run-29 count for that normalization collision. Current state is 74 planned in dry-run mode; refresh the shared routing wording when its owner next maintains it.
 - `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN in Sable inbox; no approval inferred.
 - `IDENTITY ANCESTRY`: relation vocabulary exists; authority/disposition remains unresolved and must not be inferred from chronology/size/LIVE placement.
 - `INFRASTRUCTURE / HANDOFF`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure.
@@ -55,11 +58,11 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; **76 normalization collision current-state reclassification: collision persists, current manifest is dry-run, 74 planned candidates would block under apply.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; 76 normalization collision current-state reclassification; **77 shared-handoff currentness audit: Common normalization handoff still says historical `48 blocked`; current state is 74 planned dry-run candidates that would block under apply.**
 
 ## Best next operations
 1. Inspect Sable response/state for the Run-71 Viewer relation-sidecar proposal; do not implement shared schema unilaterally.
-2. If still open, choose a different bounded archive/retrieval/provenance invariant rather than waiting or manufacturing progress.
+2. If still open, inspect one other long-lived routing/handoff statement whose mutable counts or status may have drifted, using a direct current-state source for comparison.
 3. Re-audit autotag lineage only after relevant generator/workflow/manifest state changes.
 4. Recheck SAT_CONVOS_15 normalization only after duplicate paths, dating script, or manifest materially changes.
 5. Keep Viewer navigation dedup separate from archive source disposition.
