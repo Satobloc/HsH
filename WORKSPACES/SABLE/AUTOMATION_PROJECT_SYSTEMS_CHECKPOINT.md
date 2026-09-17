@@ -5,22 +5,22 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — README safe-write capability probe
+## Current bounded operation — README safe-write capability recheck
 
-This recurrence performed one bounded infrastructure/write-safety diagnosis for the pending root README micro-repair.
+This recurrence performed one bounded shared-state write-safety check for the pending root README GLASS pointer repair.
 
 ### Durable boundary reached
 
-- Re-fetched current `BEDROCK.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, the Q&A queue, backend checkpoint, and the current root `README.md` before acting.
-- Confirmed the pending defect remains: the README START HERE archive/provenance pointer names the Conversation Viewer and SAT Theory Archive but does not explicitly name **GLASS / Glass Sausage Factory** as the primary internal development/historical working record.
-- Confirmed ordinary `fetch_file` can truncate the README, so its returned body must not be used blindly for whole-file replacement.
-- Tested the connector's blob-read path against the README's current blob SHA `e42e451865d96621a0c8b1e17d2ac78af7a10af1`. `fetch_blob` returned the complete current README body through the final `Where to go next` section. This establishes a safe full-current-file read route for the pending semantic micro-edit.
+- Re-fetched the current Q&A queue, backend checkpoint, and root `README.md` before acting.
+- Confirmed the pending README defect remains: START HERE routes conversations/historical development to the Conversation Viewer and SAT Theory Archive but does not explicitly name **GLASS / Glass Sausage Factory** as the primary internal development/historical working record.
+- Rechecked both ordinary `fetch_file` and the Git blob endpoint against the current README blob SHA `e42e451865d96621a0c8b1e17d2ac78af7a10af1`.
+- Contrary to the previous checkpoint's capability conclusion, the connector response for the blob endpoint is also truncated before the end of the README. It therefore does **not** presently provide a safely reusable complete-file body for `update_file`.
 - No README, theory state, Dashboard, Q&A state, automation, or human-facing continuity state was changed in this bite.
 
-### Infrastructure / write-safety finding
+### Shared-state write-safety finding
 
-The earlier blocker is narrowed: full-current README retrieval is available through the Git blob endpoint. The remaining requirement is to perform exactly one controlled textual substitution against that full current blob and publish with current-SHA/CAS semantics; do not reconstruct or truncate the file.
+The proposed README semantic micro-edit remains valid, but this runtime does not currently expose a patch-in-place write action and the available whole-file update action requires complete current content. Because neither tested read route yields a confirmed complete body in this connector response, publishing the README edit here would violate the no-stale/no-truncation whole-file replacement rule.
 
 ### One continuation cursor
 
-Using a full-current blob read immediately before write, make the single README START HERE substitution that explicitly names GLASS / Glass Sausage Factory as the primary internal development/historical working record, with no other README cleanup.
+Locate or use a genuinely patch-capable README write route, or a read route that returns the complete current README body without response truncation; then make only the START HERE GLASS substitution with current-SHA/CAS semantics.
