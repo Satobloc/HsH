@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 80, 2026-09-17
+**Current through:** Run 81, 2026-09-17
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -27,6 +27,8 @@ Run 78 found a second mutable-state drift in the long-lived Common routing layer
 Run 79 checked the current root `README.md` front door for propagation of these mutable Viewer counts. The README links the Viewer/archive without stating total/development/live counts, so the specific stale-count defect is **not propagated onto the root public front door**. Durable record: `WORKSPACES/MERCER/RUN_079_2026-09-17.md`.
 
 Run 80 inspected the actual Nathan Dashboard in the separate `Satobloc/SAT_THEORY_ARCHIVE_2023-25` repository (`..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`). It likewise does **not** copy either the mutable Viewer totals or the normalization candidate counts. Thus the specific stale-count defects remain bounded away from both inspected high-value human-facing front doors (root HsH README and Nathan Dashboard). The Dashboard is explicitly dated `Updated: 2026-09-14`; this was a count-propagation audit only, not a full status-currentness audit. Durable record: `WORKSPACES/MERCER/RUN_080_2026-09-17.md`.
+
+Run 81 audited one dated Dashboard programme-state proposition. The Dashboard labels `Sable systems / capability programme` as **ACTIVE HOURLY**; current `AUTOMATION_WORKFLOW_CONTROL.md` and `ACTIVE_AUTOMATION_ROSTER.md` independently agree that the Sable Systems Loop is an enabled hourly worker at `:45`. Result: **CURRENT UNDER NAMED CHECK** for active/hourly state only. This does not establish scheduler execution health or currentness of every descriptive clause in that Dashboard row. Durable record: `WORKSPACES/MERCER/RUN_081_2026-09-17.md`.
 
 Runs 71–74: minimum additive Viewer relation sidecar specified, with neutral `Related exports: N` navigation, no hiding/merging/ranking/currentness inference, and diagnostic/source-state provenance. Synthetic seven-class contract harness `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py` is runtime-green for its encoded fixtures only. Durable Sable inbox request exists and remains OPEN; do not implement shared Viewer schema/workflow without systems/interface review.
 
@@ -64,7 +66,7 @@ Nathan Direct preferred package-count surface: `indexes/nathan-direct/MANIFEST.j
 - No current Nathan-required decision.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; 76 normalization collision current-state reclassification; 77 shared-handoff currentness audit; 78 shared-coordination currentness audit; 79 root README front-door currentness audit; **80 actual Nathan Dashboard currentness micro-audit: specific mutable Viewer/normalization counts are not copied there; Dashboard cross-repo identity explicitly recovered.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup diagnosis; 47–51 semantics-aware validator transition; 52–53 autotag lineage audit/handoff; 54–69 conversation-identity diagnostics through production v4 and all-family ancestry classification; 70 Viewer exposure audit; 71 sidecar specification; 72–73 synthetic sidecar harness staged/runtime-green; 74 continuity + Sable handoff repair; 75 Nathan Direct lineage re-audit; 76 normalization collision current-state reclassification; 77 shared-handoff currentness audit; 78 shared-coordination currentness audit; 79 root README front-door currentness audit; 80 Nathan Dashboard mutable-count propagation audit; **81 Dashboard Sable-programme micro-audit: ACTIVE HOURLY agrees with both current operational control surfaces; Sable sidecar request still OPEN.**
 
 ## Best next operations
 1. Inspect Sable response/inbox state for the Run-71 Viewer relation-sidecar proposal; do not implement shared schema unilaterally.
