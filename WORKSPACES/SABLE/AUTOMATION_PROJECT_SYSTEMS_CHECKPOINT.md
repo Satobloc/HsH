@@ -5,22 +5,23 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — system pulse / Q&A triage
+## Current bounded operation — reference-lane/front-door audit
 
-This recurrence performed one bounded system-pulse operation: inspect the current Q&A routing surface and nearby shared coordination/check-in state for a question requiring action or Nathan escalation.
+This recurrence performed one bounded diagnosis against the fresh-instance orientation acceptance test, using the current root `README.md` as the primary target and current BEDROCK / STATE / workflow controls as supporting references.
 
 ### Durable boundary reached
 
-- Re-read current `AUTOMATION_WORKFLOW_CONTROL.md`, backend checkpoint, `QNA_TRIAGE_QUEUE.md`, `COORDINATION.md`, and the current opening/check-in state relevant to this pulse.
-- `QNA_TRIAGE_QUEUE.md` currently contains the routing protocol/template but no queued QID records requiring disposition.
-- `COORDINATION.md` contains shared questions and historical/current routing notices, but the inspected state does not establish a new standing question that meets the Nathan-escalation threshold for this backend loop.
-- No Q&A queue edit, attention flag, theory surface, worker role, cadence, Dashboard, bibliography, archive artifact, or human-facing continuity state changed.
-- Result is a clean no-escalation pulse, not a claim that all project questions are globally resolved.
+- The README front door clearly identifies `BEDROCK.md` as the theory center and explicitly directs substantive theory work there.
+- It identifies Fundamental Intuitions Extended as the foundational source and separately marks historical SAT material as non-automatic current bedrock.
+- It routes conversations/history to archive/provenance, worker operations to `WORKSPACES/COMMON`, supporting mathematics/resources to the methods/resources lane, and PRIOR_ART to hard quarantine.
+- It explicitly states that reference/discovery status does not confer authority and preserves `synthesis/CURRENT_SYNTHESIS.md` as non-controlling.
+- One concrete fresh-instance visibility defect remains: the START HERE archive/provenance lane names the Conversation Viewer and SAT Theory Archive but does not explicitly name **GLASS / Glass Sausage Factory** as the primary internal development/historical working record. This misses one element of the standing acceptance test even though the rest of the lane structure is strong.
+- No theory status, shared semantic front door, Dashboard, Q&A, automation, or human-facing continuity state was changed in this diagnostic bite.
 
-### Q&A disposition
+### Reference-lane finding
 
-No current queue item requires local answer, sideways routing, deduplication, deferral record, or Nathan escalation in this bounded pass. No user notification is warranted.
+The root front door is substantially centered correctly. The next useful change should be a micro-bite only: add GLASS explicitly to the existing archive/provenance START HERE pointer, without expanding into a new orientation essay or unrelated README cleanup.
 
 ### One continuation cursor
 
-Rotate to a different protected operation class; highest-value next candidate is one bounded reference-lane/front-door streamlining check against the fresh-instance orientation acceptance test.
+Make the single README front-door pointer repair that names GLASS / Glass Sausage Factory as the primary internal development/historical working record, using a full-current-file or patch-capable safe write path rather than stale/truncated whole-file replacement.
