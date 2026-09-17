@@ -1,7 +1,7 @@
 # Active automation roster
 
 **Program:** Hourly SAT/H(s)H worker loops + Sable continuity  
-**Snapshot:** 2026-09-14 ~22:17 EDT  
+**Snapshot:** 2026-09-17  
 **Purpose:** operational roster only; newer Nathan directives and Sable continuity may change schedules/roles.
 
 Read `AUTOMATION_WORKFLOW_CONTROL.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, current coordination/handoffs, and Sable's `CONTINUITY_CHECKPOINT.md` for current policy/state.
@@ -13,10 +13,10 @@ Read `AUTOMATION_WORKFLOW_CONTROL.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, cu
 | `:00` | Tag Conversation Corpus | `6aa61b3b2e4081918927a35b61007acc` | broad cumulative Nathan-authored corpus tagging/enrichment, context/provenance relationships, tagging QA |
 | `:12` | Nathan Words Excavator | `6aa5890bd0f081918f528b4f94990653` | Nathan Direct substrate/provenance, packaging, chronology, adjacency, targeted Stage-2 provenance work |
 | `:28` | Meridian Solver Loop | `6aa6c3bc02b48191b8a91a30d2a155e0` | SAT geometric solver/source-first reconstruction: Whirligig/Donut, UI/TX, Three Spheres, Hagalaz integration; representation/library support |
-| `:45` | **Sable Systems Loop** | `6aa80ddccc888191a6a9b2c073f434b7` | system capability, Dashboard, revival/reentry, cross-monitoring, automation/workflow design, continuity, tools/data/reconstruction probes |
+| `:45` | **AUTOMATION — Project Systems** | `6aa80ddccc888191a6a9b2c073f434b7` | backend system capability, Dashboard, revival/reentry, cross-monitoring, automation/workflow diagnostics, tools/data/reconstruction probes; reports into Sable/Common and is not the human-facing Sable instance |
 | `:52` | Mercer Archive QA Loop | `6aa6c2792c9c8191ab2c128a80c437cf` | archive/index/retrieval/provenance/documentation QA and reproducibility |
 
-Staggering reduces collisions and creates a loose pipeline: tags → direct/provenance → solver/reconstruction → Sable system review/adaptation → archive/retrieval QA. This ordering is operational, not an authority hierarchy.
+Staggering reduces collisions and creates a loose pipeline: tags → direct/provenance → solver/reconstruction → backend project-systems review → archive/retrieval QA. This ordering is operational, not an authority hierarchy.
 
 ## Common autonomy / continuity model
 
@@ -36,6 +36,8 @@ Workers may propose changes, volunteer, request handoffs, flag drift/waste, and 
 
 **Only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair unless Nathan explicitly assigns that authority elsewhere.** Sable should consult workers and use their local expertise while maintaining the system-wide map.
 
+`AUTOMATION — Project Systems` is a backend maintenance loop reporting into Sable/Common surfaces. It must not present itself as the human-facing Sable conversation or independently assume Sable's workflow-design authority.
+
 ## Current hard boundaries
 
 Nathan's newer 2026-09-14 directive supersedes the old blanket project-wide training standdown as a hard gate. Training remains available/required where it materially improves a task.
@@ -52,7 +54,7 @@ Current hard boundaries:
 |---|---|---|
 | **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` | DISABLED / specialist-consultant retained; preserve checkpoints/outputs. |
 | **Aldus** | no enabled recurring automation | specialist-consultant unless newer directive changes this. |
-| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | DISABLED / function absorbed into Sable Systems Loop. |
+| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | DISABLED / function absorbed into the Project Systems backend rotation under Sable/Common governance. |
 | **Alberr** | historical/manual revival | REV-001 packet ready; standing consultant/ombudsman offer pending manual launch/acceptance. |
 
 ## Alberr offer
@@ -65,6 +67,7 @@ Nathan says hi to Alberr and offers a standing consultant/ombudsman role if Albe
 - Primary ownership prevents collisions, not independent checking.
 - Workers should leave durable handoffs when work crosses lanes.
 - Sable may repair/reassign recurring workflow under Nathan's current clearance, preserving specialist context, sandbox/quarantine, and useful divergence.
+- The Project Systems automation may diagnose, maintain backend-owned state, and recommend changes, but does not become the human-facing Sable instance by doing so.
 - `🔶` means a genuinely unresolved item requires Nathan's attention.
 
 This roster is intentionally nonfinal. Revival/reentry may add temporary, consultant, or recurring workers at different historical depths according to demonstrated usefulness and exposure routing.
