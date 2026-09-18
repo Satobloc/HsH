@@ -10,7 +10,7 @@ Authenticate and preserve the September 14, 2026 Nathan-authored conceptual/inte
 
 ## Source
 
-Raw conversation export: `ALDEN CROSS — raw.json`  
+Raw conversation export family: `ALDEN CROSS — raw.json` plus byte/content-equivalent archive manifestations returned as `ALDEN CROSS — raw (1).json`, `ALDEN CROSS — raw (2).json`, and `ALDEN CROSS — raw (1)(1).json`.  
 Conversation ID: `6aa814bf-053c-83ea-8145-f130df03b231`  
 Date: 2026-09-14 (raw epoch timestamps; EDT conversation chronology)
 
@@ -62,26 +62,52 @@ Additive tags / provenance relations:
 
 Interpretive limit: the first sentence is direct testimony about Nathan's prior familiarity/exposure. The second sentence contains Nathan's historical characterization of the wider Minkowski tradition; preserve it as Nathan's claim, not as an externally established historical conclusion.
 
+### ND-PROV-20260914-C — authenticated correction / Asimov anchor
+
+Raw message ID / mapping node ID: `34281756-6f9a-4c0a-894b-5b21c07427aa`  
+Raw metadata: `author.role=user`; `create_time=1789407088.64377` = **2026-09-14 13:31:28.643770 EDT**; `content_type=text`; `recipient=all`; `dictation=false`.  
+Raw parent: `f44b4e38-c885-44f7-a22d-f2d323af4f34`  
+Raw child: `0dec18a1-7668-47e2-9625-ee5cb47ab6d1` (assistant response).  
+Turn metadata: `turn_exchange_id=edcd0db3-2b4e-42b3-890f-73c59ed58c78`; `turn_id=aaf8b7a4-605c-45d5-be17-9f9f4621b1d7`.
+
+Exact Nathan wording, including trailing space in the raw `parts[0]` value:
+
+> It didn’t “happen to” it was Isaac Asimov on Math. See the timeline 
+
+Additive tags / provenance relations:
+
+- `NATHAN-DIRECT`
+- `PROVENANCE-TESTIMONY`
+- `CONCEPTUAL-ORIGIN-CORRECTION`
+- `ASIMOV-ON-MATH`
+- `TIMELINE-POINTER`
+- `CORRECTIVE`
+- `RETROSPECTIVE-TESTIMONY`
+- `NOT-NOVELTY-OR-PRIORITY-ADJUDICATION`
+
+Interpretive limit: this authenticates Nathan's direct correction that the relationship under discussion did not merely “happen to” occur and explicitly points to **Isaac Asimov on Math** plus the archive timeline. It does **not**, standing alone, authorize the fuller assistant synthesis `Asimov → dimensional thinking → Minkowski/worldlines`; the exact contents and authorship/status of the referenced timeline remain a separate source-ancestry question.
+
 ## Combined provenance disposition
 
-These two authenticated Nathan messages materially sharpen the live-provenance note. The defensible Nathan-testimony layer is narrower and more precise than assistant summaries:
+These three authenticated Nathan messages materially sharpen the live-provenance note. The defensible Nathan-testimony layer is narrower and more precise than assistant summaries:
 
 1. Nathan says the pre-SAT teenage conception was his mistaken conception of string theory, specifically taking strings to mean worldlines; after learning that was wrong, he called them "my strings."
-2. Nathan says he had never heard of Cartan or Cauchy and had only vague awareness of braid theory as associated with knot theory.
-3. The same first message directly points to the archive-frontpage timeline and carries the early-sketch attachments, creating explicit source adjacency without making the timeline/images independent witnesses to Nathan's mental exposure history.
+2. Nathan directly corrects an assistant framing by identifying `Isaac Asimov on Math` and pointing to the timeline.
+3. Nathan says he had never heard of Cartan or Cauchy and had only vague awareness of braid theory as associated with knot theory.
+4. The first message directly points to the archive-frontpage timeline and carries the early-sketch attachments, creating explicit source adjacency without making the timeline/images independent witnesses to Nathan's mental exposure history.
 
-Do **not** convert nearby assistant claims such as "Asimov → dimensional thinking → Minkowski/worldlines" or assertions of independent development into Nathan-authored wording unless separately anchored in Nathan messages or Nathan-signed sources. Nathan's adjacent correction `It didn’t “happen to” it was Isaac Asimov on Math. See the timeline` is a useful next provenance target, but is not silently merged into these two records.
+Do **not** convert nearby assistant claims such as `Asimov → dimensional thinking → Minkowski/worldlines` or assertions of independent development into Nathan-authored wording unless separately anchored in Nathan messages or Nathan-signed sources.
 
 ## Duplicate/source handling
 
-The same raw message identities occur in multiple Library copies of the Alden Cross export. Treat identical `(conversation_id, message_id)` occurrences as archive copies of the same Nathan message, not independent testimony. No master records deleted or tags downgraded.
+The authenticated Asimov message appears with the same stable message identity, timestamp, parent/child pointers, wording, and turn metadata in multiple Library copies: `ALDEN CROSS — raw.json`, `ALDEN CROSS — raw (1).json`, `ALDEN CROSS — raw (2).json`, and `ALDEN CROSS — raw (1)(1).json`. Treat these as archive manifestations of **one Nathan testimony event**, not four events. No master records deleted or tags downgraded.
 
 ## Coverage / limits
 
-Coverage in this bite: two specific September 14, 2026 Nathan messages selected from the authenticated Alden Cross raw conversation. This is not a complete exposure-history scan, not an earliest-use scan, and not an external bibliography/prior-art comparison.
+Coverage in this ledger: three specific September 14, 2026 Nathan messages selected from the authenticated Alden Cross raw conversation family, with the Asimov correction now fully metadata-authenticated. This is not a complete exposure-history scan, not an earliest-use scan, and not an external bibliography/prior-art comparison.
 
 No quarantine material was used as a premise for this record. No direct theory development was performed.
 
 ## Current frontier / next cursor
 
-Next bounded target: authenticate the adjacent Nathan message `It didn’t “happen to” it was Isaac Asimov on Math. See the timeline` from the same raw conversation, capture its message ID/timestamp/adjacency, and then determine whether the archive-frontpage statement it points to is Nathan-signed/direct editorial testimony or a separate retrospective source layer. Preserve the distinction.
+Trace the **archive-frontpage timeline** explicitly referenced by ND-PROV-20260914-A and -C: determine its exact repository path/version, whether the relevant Asimov/Minkowski chronology is Nathan-signed/direct editorial testimony or a later composite layer, and preserve that source ancestry without using assistant paraphrase as a bridge.
