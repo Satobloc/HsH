@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 96, 2026-09-17
+**Current through:** Run 99, 2026-09-18
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -14,27 +14,24 @@ Keep provenance, currentness, maturity, polish, vetting evidence, mathematical c
 ## Current verified state
 
 ### Viewer / normalization / source identity
-Current Viewer catalog: **453 conversations / 439 development / 9 live**, generated source state 2026-09-18T00:25:05Z. Development dating manifest currently reports **364 unchanged / 121 skipped / 74 planned / 1 collision**. SAT_CONVOS_15 `Cosmological Constant Summary` exact-byte duplicate collision remains the normalization blocker; do not recheck absent relevant source/script/manifest change.
+Current Viewer catalog at last bounded audit: 453 conversations / 439 development / 9 live. SAT_CONVOS_15 `Cosmological Constant Summary` exact-byte duplicate collision remains the normalization blocker; do not recheck absent relevant source/script/manifest change.
 
-Runs 71–74 specified a minimum additive Viewer relation sidecar with neutral `Related exports: N` navigation, no hiding/merging/ranking/currentness inference, and diagnostic/source-state provenance. Synthetic seven-class contract harness is runtime-green for encoded fixtures only. Sable review remains OPEN; do not implement shared Viewer schema/workflow without systems/interface review.
+Runs 71–74 specified a minimum additive Viewer relation sidecar with neutral navigation and diagnostic/source-state provenance. Sable review remains OPEN; do not implement shared Viewer schema/workflow without systems/interface review.
 
-Runs 90–92: `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` presently has one manual record, Srena. Manual registration carries repository/branch/path/URLs/parser metadata but no content hash or immutable source identity. `discover_external_conversations.py` hashes structural discoveries, then manual-wins merge semantics skip collided discoveries rather than enriching manual records. Classify as a general implementation-level reproducibility gap with one presently observed manual-catalog instance, not demonstrated source error or a formal exemption policy.
+Runs 90–96 bounded Viewer reproducibility: one manual external record (Srena) lacks immutable source identity; manual-wins merge semantics do not enrich it; external-only sources cannot currently use local-path partial curation; dormant body-search code provides repository-aware GLASS precedent; wired Viewer is catalog-frozen for metadata but runtime-live for source bytes; historical HsH build inputs are reconstructable through the generated commit parent, while external GLASS build-tree provenance is weaker.
 
-Run 93: partial curation (`omit_ranges` / `only_ranges`) requires `Path(item["path"])` in the local HsH checkout, so canonical external-only sources cannot currently use that builder path. `CURATION.json` is empty: latent capability/documentation mismatch, not current production failure.
+### Extraction / context provenance
+Run 97 established that `extract_raw_window.py` selects `context_each_side` by globally timestamp-sorted message-list adjacency, not graph ancestry, while preserving each row's `parent`. Run 98 sampled one retained LAB1 window and found both neighbors immediate graph-local.
 
-Run 94: `tools/build_viewer_body_search.py` already contains repository-aware GLASS source resolution and curated-copy handling, but cross-conversation body search is dormant/unwired: no committed `data/body_search/`, workflow invocation, or page script load. Current README promises within-conversation search only. Treat as implementation precedent, not regression.
+**Run 99:** concrete positive retained-output counterexample in `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.json` (`context_each_side: 1`). Preceding assistant `06f138ff-3c3b-470b-a74f-a3c0cd2e30de` has parent `ee668a69-b132-442a-9380-c4fb7251185a`; following user target `1a875034-ddd0-48c3-af1e-4c77af02ef0f` instead records parent `01a81054-432e-4ac4-a8ca-fb0b3b9c4eb0`. Following assistant `c95d429b-b1e6-4a86-92f2-5c63f5e24fc4` correctly records the target as parent. Therefore at least one exercised retained extraction has chronological context outside the target's immediate parent/child graph relation. Classify as extraction-context provenance/semantics defect-risk, not source corruption; prevalence and downstream interpretive effect remain unmeasured. Durable record: `WORKSPACES/MERCER/RUN_099_2026-09-18.md`.
 
-Run 95: wired Viewer retrieval is **catalog-frozen for metadata but runtime-live for conversation bytes**. `viewer.js` loads generated catalog then fetches selected `raw_url` with `cache: "no-cache"`; current internal URLs point at mutable `main`. This is a runtime currentness/reproducibility boundary, not a demonstrated present mismatch.
-
-**Run 96:** historical HsH build reproducibility is stronger than runtime behavior. The Viewer workflow resets HsH to current `origin/main`, rebuilds, stages only generated Viewer data/curated outputs plus date manifests, then commits. Latest sampled generated commit `3ad949f15c8eb4fcffa0c9708c009a17cf79bfe9` has sole parent `a4d909d9d5dbc1aa92e4875814f59f48864117ec`; under the inspected transaction, that parent reconstructs the HsH source/builder/config input tree for the successful build attempt (with generated manifests rewritten during build). External GLASS is separately reset to then-current `main`, but its checkout commit SHA is not persisted in inspected HsH build metadata; structural discoveries have per-file hashes, while manual Srena does not. Distinguish runtime-live rendering, historically reconstructable HsH build inputs, and weaker external-tree build provenance. Durable record: `WORKSPACES/MERCER/RUN_096_2026-09-17.md`.
+Next extraction cursor: deterministic read-only classification across retained extraction JSONs with positive context: immediate parent/child-local; same-branch/non-immediate; cross-branch; unresolved. Preserve old outputs; do not overwrite provenance. Keep separate source-commit/ref provenance audit distinct.
 
 ### Operational currentness / formalization
-Runs 81–85 established proposition-level currentness discipline: Dashboard Sable programme ACTIVE/HOURLY agreed with current controls under named fields; Sable live inbox had one OPEN Mercer sidecar request; heartbeat ACTIVE surface carried a stale embedded snapshot; dated roster agreed with live membership/cadence/phase under tested fields; revival programme active/design-level while REV-001 Alberr was packet-ready/manual-launch-pending. Do not generalize beyond named propositions.
-
-Runs 86–89: `formalization/README.md` advertises `formalization/leancheck/run.ps1` and companion README, but the path is absent on current `main` and inspected visible branches. Commit `c4e6bfa6e848a165ee2c1761b1c85a5328cba2af` changed only the README; path/history/signature searches found no implementation. Classification: documented-but-unmaterialized in inspected repository state. Stop probing absent new evidence.
+Runs 81–85 established proposition-level currentness discipline. Runs 86–89 found `formalization/README.md` advertises an absent `formalization/leancheck/run.ps1`; inspected repository routes found no implementation. Classification: documented-but-unmaterialized; stop probing absent new evidence.
 
 ### Raw conversation identity / validator / Nathan Direct
-Production v4 identity diagnostic: 74 repeated conversation-UUID families / 222 pairwise comparisons = 115 message-ID subset/superset, 56 exact-byte, 36 same-graph metadata-only, 9 same-graph readable-text-divergent, 4 branch/snapshot-divergent, 2 same-graph nontext-unresolved. Among 115 simple subset/superset pairs, recorded update time is later on larger state in 106, tied in 9, later on smaller in 0. This supports monotonic snapshot growth only inside that class; newest/largest/filename end-date/LIVE/shared UUID are not global authority heuristics.
+Production v4 identity diagnostic retained: 74 repeated conversation-UUID families / 222 pairwise comparisons = 115 message-ID subset/superset, 56 exact-byte, 36 same-graph metadata-only, 9 same-graph readable-text-divergent, 4 branch/snapshot-divergent, 2 same-graph nontext-unresolved. Among 115 simple subset/superset pairs, recorded update time is later on larger state in 106, tied in 9, later on smaller in 0. This supports monotonic snapshot growth only inside that class; newest/largest/filename end-date/LIVE/shared UUID are not global authority heuristics.
 
 Semantics-aware v2 validator retained; production result 0 FAIL / 1 BLOCKED / 13 PASS, sole blocker the known SAT_CONVOS_15 collision. Nathan Direct retained counts: 73,200 input records / 22,758 user records / 15,133 unique packaged Nathan messages + 7,625 collapsed duplicates. `indexes/nathan-direct/MANIFEST.json` still lacks exact scanned-source repository commit/ref; classify as provenance/observability debt, not stale/incorrect-content evidence.
 
@@ -44,24 +41,23 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred. If review activates, supply external immutable identity, external partial-curation source resolution, dormant body-index external-root precedent, Run-95 runtime-live semantics, and Run-96 build-input provenance as distinct adjacent evidence rather than opening duplicate requests.
+- `EXTRACTION CONTEXT / OWNER-SABLE`: Run 99 confirms one retained cross-branch/immediate-ancestry mismatch; route concrete finding to extraction/Nathan Words owner or Sable. No Nathan decision currently required.
+- `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred.
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 duplicate disposition unresolved; recheck only after relevant state change.
 - `DORMANT VIEWER BODY SEARCH`: do not activate without intent/interface review.
 - `FORMALIZATION ACCESS`: repository routes exhausted; stop probing absent new evidence.
-- `IDENTITY ANCESTRY`: relation vocabulary exists; authority/disposition unresolved and must not be inferred from chronology/size/LIVE placement.
+- `IDENTITY ANCESTRY`: authority/disposition unresolved and must not be inferred from chronology/size/LIVE placement.
 - `INFRASTRUCTURE`: autotag scanned-source lineage repair remains with Sable/tagging infrastructure.
-- `AMBIGUOUS PROVENANCE`: glossary/standard-map raw-message ancestry routes exhausted.
 - No current Nathan-required decision.
 
 ## Current frontier
-Viewer build/publish provenance question is bounded. Rotate to fresh extraction/sample QA unless newer Viewer state or Sable review creates a higher-value cursor.
+Quantify extraction context graph-locality across retained positive-context JSON outputs with a deterministic read-only validator. Do not conflate chronological adjacency with branch ancestry. Keep extraction source-commit/ref provenance as a separate later bite.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization current state; 77–80 routing/front-door; 81–85 operational-currentness micro-audits; 86–89 formalization access; 90–92 external provenance; 93 external partial curation; 94 dormant body-search wiring; 95 runtime Viewer source-currentness; **96 historical Viewer build-input reproducibility boundary.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97 extraction-context implementation semantics; 98 first negative retained sample; **99 first positive retained cross-branch/immediate-ancestry mismatch.**
 
 ## Best next operations
-1. Rotate to extraction/sample QA.
-2. Inspect Sable inbox on future runs; route Viewer findings into the existing review only if it activates.
-3. If build provenance is revisited, inspect whether Actions run metadata preserves the external checkout SHA, distinguishing operational traceability from committed artifact provenance.
-4. Re-audit autotag lineage or normalization only after relevant state changes.
-5. Keep Viewer presentation/navigation identity distinct from archive source disposition and theory authority.
+1. Deterministically classify retained extraction JSONs with positive context by graph-locality.
+2. Route Run-99 concrete finding through existing Sable/extraction ownership rather than silently redesigning another lane.
+3. Audit exact checked-out source commit/ref persistence in extraction payload/run manifests as a separate bite.
+4. Re-audit normalization/Viewer/autotag only after relevant state changes.
