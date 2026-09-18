@@ -5,27 +5,26 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — scanner-input provenance publication QA
+## Current bounded operation — rotation-health / system pulse
 
-This recurrence performed one bounded infrastructure-QA validation: inspect the first durable scanner-input provenance artifact after the observability repair reached production publication.
+This recurrence performed one bounded rotation-health operation after closing the scanner-provenance repair: check whether the recurring worker system is visibly alive and whether standing Q&A requires intervention.
 
 ### Durable boundary reached
 
-- Re-read BEDROCK, the current layered-autotag workflow, and this automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
-- The workflow now durably records scanner provenance and validates it through publication. Current generated `indexes/autotag/SCANNER_INPUT_PROVENANCE.md` records checkout SHA `f7688fcfb99cce5776112e7d6ae50ba55f282881` and explicitly identifies the source tree as the repository working tree at scanner invocation.
-- That SHA resolves to the workflow-change commit `Record autotag scanner input commit provenance`; therefore the recorded scanner tree is a real repository commit, not trigger-SHA or publication-parent inference.
-- The same published generated snapshot reports 468 JSON files scanned, 417 conversation exports recognized, 51 non-conversation JSON files skipped, and zero parse errors.
-- Bot publication commit `60d6542e982aee4ea8e92e8a15fcdf863811d50c` contains the generated provenance artifact carrying scanner SHA `f7688fcf...`, demonstrating that scanner-tree identity survived the reset/re-lay publication path.
-- This operation stops at publication validation. It does not attempt to reconstruct the earlier +5 anomaly retroactively, alter scanner semantics, or change Dashboard/BEDROCK/archive sources/automation cadence.
+- Re-read `BEDROCK.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `ACTIVE_AUTOMATION_ROSTER.md`, `QNA_TRIAGE_QUEUE.md`, this backend checkpoint, and the human-facing systems inbox before operating. No theory proposition was reconstructed, interpreted, promoted, or changed.
+- The active roster still defines five staggered hourly workers and explicitly keeps this automation in the backend Project Systems lane rather than the human-facing continuity identity.
+- The human-facing systems inbox currently has no OPEN item. Therefore there is no standing worker question requiring local resolution, sideways routing, or Nathan escalation in this pulse.
+- Fresh durable worker activity is visible: Mercer advanced its checkpoint through Run 109 at commit `a9d2c6388c9c186710706a181f68ef6cbe2e74e0` (2026-09-18 17:56Z), and Meridian recorded Run 049 at commit `a372f8e5a8a508b04aac979643cab4b39b2c7f06` (2026-09-18 18:28Z). These timestamps are evidence of current durable output for those two lanes only; this pulse does not infer health for workers not sampled.
+- No automation cadence, role, lane, Dashboard, Common control surface, theory surface, or worker-owned checkpoint was changed.
 
-### Infrastructure-QA finding
+### Rotation-health finding
 
-The scanner-input provenance repair is runtime-green at the durable-publication layer: a scanner-time repository SHA is now persisted independently of both workflow trigger SHA and later generated-commit ancestry. Future aggregate scan results can be tied to an exact scanner source tree without the inference failure that blocked the September 18 regression analysis.
+The previous infrastructure-QA branch is not monopolizing the recurrence. The sampled system shows current durable activity in two adjacent recurring lanes and no queued systems question requiring intervention. No Nathan notification is warranted from this pulse.
 
 ### Open dependency
 
-None for the minimal scanner-tree provenance repair. A separate future QA quantum may decide whether the simultaneously present `SCANNER_CHECKOUT_SHA.txt` and `SCANNER_INPUT_PROVENANCE.md` are redundant/confusing; that is not required for this acceptance check.
+None created by this operation. Unsampled workers remain outside this pulse's conclusion.
 
 ### One continuation cursor
 
-Rotate away from this now-closed repair. On a later infrastructure-QA recurrence, inspect the two current scanner-provenance artifacts (`SCANNER_CHECKOUT_SHA.txt` and `SCANNER_INPUT_PROVENANCE.md`) as one bounded reference/QA question: determine whether both encode distinct useful moments or whether one is misleading after publication reset, and route any cleanup rather than silently changing shared workflow behavior.
+Use the next recurrence for a different protected class rather than returning immediately to scanner QA: choose one bounded Ravel/theory-interface or archive/provenance operation after re-reading current controls and the relevant source surface.
