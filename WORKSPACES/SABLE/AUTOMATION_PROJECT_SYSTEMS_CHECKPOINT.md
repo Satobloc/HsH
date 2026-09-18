@@ -5,24 +5,24 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — Mercer Viewer relation-sidecar triage
+## Current bounded operation — conversation-upload autotag trigger regression
 
-This recurrence performed one bounded system-pulse/Q&A operation: disposition the standing Mercer request for interface-owner review of the proposed Viewer conversation-relation sidecar.
+This recurrence performed one bounded infrastructure-QA operation: retest the 2026-09-15 regression case that conversation uploads must trigger the layered Nathan autotag pipeline.
 
 ### Durable boundary reached
 
-- Re-read current BEDROCK before operating; no theory state was reconstructed or promoted.
-- Read the standing inbox request and Mercer's Run 71 architecture proposal plus Run 73 execution record.
-- Accepted the proposal as a sound minimum **design direction**, not as authorization for Mercer to change shared Viewer schema/workflow: keep the existing Viewer catalog as source catalog; use a separate generated relation sidecar; retain exact source identity/path and diagnostic provenance; expose neutral relation classes only; never hide, merge, rank, or infer currentness/authority from relation data; fail closed or visibly stale when provenance does not match.
-- Recorded that Run 73's synthetic harness is runtime-green for its seven encoded valid relation classes and five encoded invalid cases, while explicitly preserving that this does not establish production joins or generator correctness.
-- Routed Mercer to continue diagnostic/harness QA while leaving production Viewer/interface scheduling and implementation with the human-facing systems/interface owner.
-- Determined that this proposal itself does not require Nathan's factual memory, preference, manual action, or authority; no Nathan-attention flag was opened.
-- Moved the inbox item from OPEN to CLOSED / ROUTED using a fresh blob SHA. No Viewer production state, automation cadence, Dashboard, BEDROCK, archive source, or human-facing continuity checkpoint was changed.
+- Re-read current BEDROCK and automation workflow control before operating; no theory state was reconstructed, interpreted, or promoted.
+- Inspected the current `.github/workflows/layered-nathan-autotag.yml`. Its push path filter now explicitly includes `DEVELOPMENT_FULL_CONVOS/**/*.json`, `DEVELOPMENT_FULL_CONVOS/**/*.txt`, `LIVE CONVOS/**/*.json`, and `LIVE CONVOS/**/*.txt`.
+- Inspected the fresh 2026-09-18 upload commit `9a3714de0e1f7314133f92ae211ef06a12287578`; it added four JSON conversation files under `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/`.
+- Inspected GitHub Actions state for that exact head SHA. `Archive-wide layered conversation autotag` run `35318818359` was created from event `push` against the upload commit and was `pending` when checked.
+- Therefore the specific historical failure class — conversation upload does not trigger `layered-nathan-autotag.yml` — does not reproduce on this fresh real upload. Trigger creation is confirmed for this case.
+- This does **not** yet establish downstream convergence or successful completion of the autotag → Nathan Direct → Stage-2 outputs; the run had not completed at the durable boundary.
+- No workflow, generated index, Dashboard, BEDROCK, archive source, automation cadence, or human-facing continuity state was changed.
 
-### Q&A state
+### Infrastructure-QA finding
 
-The currently visible systems inbox has no remaining OPEN item after this routing.
+The 2026-09-15 missing conversation-upload trigger regression is **runtime-green at the trigger-creation layer** on the 2026-09-18 upload commit. Downstream completion/convergence remains a separate check.
 
 ### One continuation cursor
 
-Rotate away from this Viewer-sidecar item. On a later bounded recurrence, choose the highest-information non-starved class from current control surfaces—prefer infrastructure QA or a separated Ravel/theory-interface slice unless a newer Nathan Direct or urgent inbox item supersedes it.
+On a later infrastructure-QA recurrence, inspect run `35318818359` after terminal completion and compare its resulting autotag/Nathan-Direct/Stage-2 provenance against upload commit `9a3714de0e1f7314133f92ae211ef06a12287578`; treat that as a separate bounded convergence test rather than extending this trigger test.
