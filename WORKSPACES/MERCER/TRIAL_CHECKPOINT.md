@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 95, 2026-09-17
+**Current through:** Run 96, 2026-09-17
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -24,7 +24,9 @@ Run 93: partial curation (`omit_ranges` / `only_ranges`) requires `Path(item["pa
 
 Run 94: `tools/build_viewer_body_search.py` already contains repository-aware GLASS source resolution and curated-copy handling, but cross-conversation body search is dormant/unwired: no committed `data/body_search/`, workflow invocation, or page script load. Current README promises within-conversation search only. Treat as implementation precedent, not regression.
 
-**Run 95:** currently wired Viewer retrieval is **catalog-frozen for metadata but runtime-live for conversation bytes**. `viewer.js` loads generated `data/conversations.json`, then fetches each selected `convo.raw_url` with `cache: "no-cache"`; current internal URLs point at mutable `raw.githubusercontent.com/Satobloc/HsH/main/...`. Rendered messages can therefore reflect a newer `main` source state than the catalog's generated metadata until regeneration. `conversation_ids.js` likewise fetches runtime `raw_url` for source UUID decoration. Sampled internal catalog and upstream dating-manifest records do not carry per-source content hashes. This establishes a runtime currentness/reproducibility boundary, **not** a demonstrated present mismatch and not automatically a defect: the page explicitly describes loading canonical exports on demand. Durable record: `WORKSPACES/MERCER/RUN_095_2026-09-17.md`.
+Run 95: wired Viewer retrieval is **catalog-frozen for metadata but runtime-live for conversation bytes**. `viewer.js` loads generated catalog then fetches selected `raw_url` with `cache: "no-cache"`; current internal URLs point at mutable `main`. This is a runtime currentness/reproducibility boundary, not a demonstrated present mismatch.
+
+**Run 96:** historical HsH build reproducibility is stronger than runtime behavior. The Viewer workflow resets HsH to current `origin/main`, rebuilds, stages only generated Viewer data/curated outputs plus date manifests, then commits. Latest sampled generated commit `3ad949f15c8eb4fcffa0c9708c009a17cf79bfe9` has sole parent `a4d909d9d5dbc1aa92e4875814f59f48864117ec`; under the inspected transaction, that parent reconstructs the HsH source/builder/config input tree for the successful build attempt (with generated manifests rewritten during build). External GLASS is separately reset to then-current `main`, but its checkout commit SHA is not persisted in inspected HsH build metadata; structural discoveries have per-file hashes, while manual Srena does not. Distinguish runtime-live rendering, historically reconstructable HsH build inputs, and weaker external-tree build provenance. Durable record: `WORKSPACES/MERCER/RUN_096_2026-09-17.md`.
 
 ### Operational currentness / formalization
 Runs 81–85 established proposition-level currentness discipline: Dashboard Sable programme ACTIVE/HOURLY agreed with current controls under named fields; Sable live inbox had one OPEN Mercer sidecar request; heartbeat ACTIVE surface carried a stale embedded snapshot; dated roster agreed with live membership/cadence/phase under tested fields; revival programme active/design-level while REV-001 Alberr was packet-ready/manual-launch-pending. Do not generalize beyond named propositions.
@@ -42,7 +44,7 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred. If review activates, supply external immutable identity, external partial-curation source resolution, dormant body-index external-root precedent, and Run-95 runtime-live source semantics as distinct adjacent evidence rather than opening duplicate requests.
+- `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred. If review activates, supply external immutable identity, external partial-curation source resolution, dormant body-index external-root precedent, Run-95 runtime-live semantics, and Run-96 build-input provenance as distinct adjacent evidence rather than opening duplicate requests.
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 duplicate disposition unresolved; recheck only after relevant state change.
 - `DORMANT VIEWER BODY SEARCH`: do not activate without intent/interface review.
 - `FORMALIZATION ACCESS`: repository routes exhausted; stop probing absent new evidence.
@@ -52,14 +54,14 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 - No current Nathan-required decision.
 
 ## Current frontier
-Inspect the Viewer build/publish transaction to determine whether the generated catalog commit provides a reconstructable historical relationship to the exact source tree it scanned. This is the next bounded operation; it will distinguish runtime-live behavior from historical build reproducibility.
+Viewer build/publish provenance question is bounded. Rotate to fresh extraction/sample QA unless newer Viewer state or Sable review creates a higher-value cursor.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization current state; 77–80 routing/front-door; 81–85 operational-currentness micro-audits; 86–89 formalization access; 90–92 external provenance; 93 external partial curation; 94 dormant body-search wiring; **95 runtime Viewer source-currentness / reproducibility boundary.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization current state; 77–80 routing/front-door; 81–85 operational-currentness micro-audits; 86–89 formalization access; 90–92 external provenance; 93 external partial curation; 94 dormant body-search wiring; 95 runtime Viewer source-currentness; **96 historical Viewer build-input reproducibility boundary.**
 
 ## Best next operations
-1. Inspect Viewer workflow publish transaction / source-tree commit relationship.
+1. Rotate to extraction/sample QA.
 2. Inspect Sable inbox on future runs; route Viewer findings into the existing review only if it activates.
-3. Rotate to extraction/sample QA after closing the publish-transaction question if no higher-value Viewer target appears.
+3. If build provenance is revisited, inspect whether Actions run metadata preserves the external checkout SHA, distinguishing operational traceability from committed artifact provenance.
 4. Re-audit autotag lineage or normalization only after relevant state changes.
 5. Keep Viewer presentation/navigation identity distinct from archive source disposition and theory authority.
