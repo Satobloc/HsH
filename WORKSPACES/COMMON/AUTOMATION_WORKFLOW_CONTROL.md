@@ -2,13 +2,14 @@
 
 **Status:** ACTIVE current control surface  
 **Program:** hourly SAT/H(s)H worker loops + Sable continuity  
-**Updated:** 2026-09-16  
+**Updated:** 2026-09-18  
 **Authority:** newer explicit Nathan directives control. This file coordinates workers; it does not define theory truth.
 
 ## Startup rule
 
 Every recurring worker begins by checking:
 - this file;
+- **the must-read SAT/H(s)H terminology/theory update below on boson/fermion vs persistent-coil/traveling-excitation classification**;
 - `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`;
 - current `COORDINATION.md`, `HANDOFFS.md`, `CHECKINS.md`, and relevant lane checkpoint;
 - newer Nathan directives and lane-specific control surfaces.
@@ -18,6 +19,69 @@ Before running, creating, modifying, or publishing from any script/bot/workflow 
 - `SHARED_STATE_WRITE_SAFETY.md` when shared/generated/semantic state may be written.
 
 The worker should then assess whether its nominal primary responsibility remains the highest-value safe operation.
+
+## MUST-READ — SAT/H(s)H boson/fermion terminology correction — 2026-09-18
+
+Nathan has identified a terminology collision between historical SAT usage and standard-physics usage of **boson** and **fermion**. Treat this as a current must-read correction for reconstruction, tagging, glossary work, theory discussion, and source interpretation.
+
+### Standard-physics meaning
+
+In standard physics, boson/fermion is fundamentally a **spin/statistics classification**, not a synonym for `massless force carrier` versus `massive matter particle`. Composite objects and isotopes can themselves be bosonic or fermionic depending on their total quantum state. A neutrino is standardly classified as a fermion even though it is extremely light and ordinarily propagates relativistically.
+
+Therefore workers must **not** use standard `boson`/`fermion` as automatic translations of SAT's structural categories.
+
+### Current SAT/H(s)H structural distinction
+
+The core SAT distinction Nathan intends to preserve is:
+
+- **persistent localized/coiled excitation / persistent coil**;
+- **traveling / light-mode / spot excitation**.
+
+These are SAT structural categories. They are **not automatically identical** to standard fermion/boson classes.
+
+Do not infer:
+
+- persistent coil = standard fermion;
+- traveling/light-mode excitation = standard boson.
+
+The mapping, if any, is a separate theory problem that must account for the observed spin/statistics behavior of the resulting state.
+
+### Neutrino status under the corrected terminology
+
+Nathan's current SAT classification may still place the neutrino with photons and related `light-particle` / traveling-excitation structures. That SAT classification can coexist with the standard statement that neutrinos are fermions, because the two labels answer different questions.
+
+Accordingly, do **not** rewrite the current SAT position as `SAT claims neutrinos obey bosonic statistics` unless a source explicitly makes that stronger claim. The intended current distinction is structural: neutrinos may belong to the SAT traveling/light-mode excitation family while remaining standard fermions in the spin/statistics sense.
+
+Nathan also rejects `massless` as a clean SAT ontological boundary. Within SAT reasoning, interaction between timesheet/filament structures still requires dynamical accounting; the more useful internal category is therefore `light-mode` or `traveling excitation`, not an assumption of literally zero dynamical/inertial content.
+
+### Force transmission / exchange-particle caution
+
+SAT does **not** posit exchange of independently existing particles as a necessary primitive mechanism of force transmission, and does not require that such an exchange ontology exist at all.
+
+SAT may nevertheless permit characteristic traveling excitations to be produced, released, absorbed, or detected during high-energy or `force-breaking` events. The detection of a characteristic excitation emitted by such an event is **not, by itself, evidence within SAT that the same excitation existed beforehand as a distinct persistent identity performing the interaction-mediating job**.
+
+For reconstruction and interpretation, keep separate:
+
+1. a characteristic excitation is observed after/during an energetic interaction;
+2. the event dynamically produces or releases that excitation;
+3. a pre-existing particle-like carrier was exchanged as the primitive causal mechanism.
+
+SAT may accept (1) and potentially model (2) without assuming (3).
+
+### Historical terminology handling
+
+Do **not** globally rewrite the archive. Earlier SAT uses of `boson`, `fermion`, `t-boson`, `f-boson`, or related language are historical evidence and must remain visible in their original wording.
+
+Instead:
+
+- preserve exact historical terminology in source/provenance records;
+- distinguish `historical SAT usage` from standard-physics usage;
+- when context shows that an older SAT `boson` label meant approximately `traveling/light-mode excitation`, annotate rather than silently replace;
+- when context shows that an older SAT `fermion` label meant approximately `persistent localized/coiled matter structure`, annotate rather than silently replace;
+- do not assume every historical occurrence has that meaning without source/context review;
+- reserve unqualified current `boson` / `fermion` language for standard spin/statistics unless a document explicitly labels the term as SAT-historical or SAT-specific usage.
+
+This correction is a **terminology/theory-state clarification**, not evidence that the persistent-coil/traveling-excitation distinction has been discarded. That structural distinction remains live and should be reconstructed/tested on its own terms.
 
 ## Current hard boundaries
 
