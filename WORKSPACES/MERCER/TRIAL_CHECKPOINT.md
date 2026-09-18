@@ -3,13 +3,18 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 110, 2026-09-18
+**Current through:** Run 111, 2026-09-19
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
 
 ## Epistemic boundary
 Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, sandbox status, and quarantine status distinct. Clean indexing or successful automated checks do not confer theory correctness.
+
+## New standing priority — He-3 holotype anchoring/scaling
+Run 111 records Nathan's newer directive: prioritize the He-3 “Holotype Atom” as an anchoring and scaling case for SAT/H(s)H, and actively identify other unusually constrained/information-rich cases that may serve comparable or complementary anchor/scaling roles. Mercer’s lane contribution is provenance-first: recover historical He-3 formulations and revisions; distinguish inherited SAT claims from current H(s)H use; map quantities, geometry, parameters, equations, and proposed scale transfers to exact sources; and distinguish derived scaling relations from heuristic/exploratory ones. Candidate additional anchors should receive the same source/status treatment so they can be compared rather than accumulated as disconnected special cases. This priority does not confer mathematical or physical correctness on He-3-based constructions, and direct theory development remains sandboxed.
+
+Repository code search on the HsH default branch during Run 111 returned no match for exact phrases `He-3 holotype` or `Holotype Atom`; this establishes only that those exact phrases were not indexed/found in that search, not that He-3 material is absent from the archive or other repositories. Next useful archive operation is source discovery across permitted HsH/GLASS/Resources surfaces without entering PRIOR_ART.
 
 ## Current verified state
 
@@ -52,6 +57,7 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
+- `HE-3 HOLOTYPE / MERCER PRIORITY`: source-discover and provenance-map He-3 anchor/scaling formulations across permitted HsH/GLASS/Resources surfaces; identify comparable anchor cases with the same status discipline. Theory-bearing development stays sandboxed.
 - `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–104 reproduce retained graph/chronology divergence across LAB1, RUSSIA, and RAVEL; Runs 102 and 109 provide bounded graph-local negative controls; repaired classifier execution remains pending. Route eventual prevalence result through extraction/Nathan Words owner or Sable.
 - `EXTRACTION PROVENANCE / OWNER-SABLE`: Run 107 supplies the minimal patch specification. No evidence of Sable consumption/supersession was found in the last inspected routing surfaces. Mercer should not implement shared workflow changes unless ownership/intent changes.
 - `RESOURCES WAYFINDING / OWNER-SABLE OR RESOURCE INFRASTRUCTURE`: Run 110 found AI-facing HSH_RESOURCES root wording that directs agents toward both PRIOR_ART and Toolkit despite ordinary-worker hard quarantine. Review audience scoping; Mercer must not inspect deeper PRIOR_ART route.
@@ -64,13 +70,14 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 - No current Nathan-required decision.
 
 ## Current frontier
-Execute the repaired `WORKSPACES/MERCER/classify_extraction_context_graph.py` against an exact readable HsH checkout when a materialization/execution route can actually read the large raw JSON sources and report prevalence by file/window/edge category. Otherwise rotate to a fresh bounded archive/index/retrieval QA object with higher information value. Do not enter PRIOR_ART from the ordinary Mercer lane; Run-110 routing ambiguity belongs to Sable/resource infrastructure.
+Prioritize He-3 Holotype Atom source discovery/provenance and scaling-anchor reconstruction across permitted non-quarantined surfaces, while preserving historical/current and derived/heuristic distinctions. In parallel, execute the repaired extraction-context classifier when an exact readable HsH checkout becomes available. Do not enter PRIOR_ART from the ordinary Mercer lane.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 deterministic whole-window classifier materialized; 106 extraction source-tree/tool provenance + workflow publication-safety audit; 107 minimal extraction provenance/publication-safety patch specification routed; 108 classifier default-semantics fidelity repair; 109 Meridian graph-local negative control + boundary-classification refinement; **110 private Resources AI-wayfinding quarantine-boundary ambiguity identified and routed.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 deterministic whole-window classifier materialized; 106 extraction source-tree/tool provenance + workflow publication-safety audit; 107 minimal extraction provenance/publication-safety patch specification routed; 108 classifier default-semantics fidelity repair; 109 Meridian graph-local negative control + boundary-classification refinement; 110 private Resources AI-wayfinding quarantine-boundary ambiguity identified and routed; **111 He-3 Holotype Atom anchoring/scaling priority durably added, with exact-phrase HsH search negative and provenance-first next cursor.**
 
 ## Best next operations
-1. Execute and validate the repaired classifier at an exact readable HsH checkout when available; report prevalence without rewriting historical outputs.
-2. If execution remains blocked, rotate to a fresh bounded archive/index/retrieval QA object with higher information value.
-3. Recheck Sable consumption/supersession only when relevant routing/checkpoint state changes; do not duplicate shared-workflow design locally.
-4. Do not follow the HSH_RESOURCES AI route into PRIOR_ART; await Sable/resource-infrastructure handling of Run 110.
+1. Search permitted HsH/GLASS/Resources surfaces for He-3 / helium-3 / holotype / Borromean / Jarlskog-shadow formulations and build a source/status map before synthesizing the anchor model.
+2. From that map, distinguish quantities/relations actually proposed for scaling from descriptive geometry and identify candidate complementary anchor systems.
+3. Execute and validate the repaired extraction classifier at an exact readable HsH checkout when available; report prevalence without rewriting historical outputs.
+4. Recheck Sable consumption/supersession only when relevant routing/checkpoint state changes; do not duplicate shared-workflow design locally.
+5. Do not follow the HSH_RESOURCES AI route into PRIOR_ART; await Sable/resource-infrastructure handling of Run 110.
