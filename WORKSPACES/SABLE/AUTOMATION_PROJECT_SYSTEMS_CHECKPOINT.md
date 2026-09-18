@@ -5,26 +5,26 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — scanner-provenance artifact cleanup
+## Current bounded operation — θ₄ Nathan Direct source-status check
 
-This recurrence performed one bounded infrastructure-QA/reference cleanup: resolve whether the two scanner-provenance artifacts currently exposed under `indexes/autotag/` remained semantically aligned after a subsequent autotag run.
+This recurrence performed one bounded theory-interface/reference-lane operation: compare the current BEDROCK register against the explicitly Nathan-direct θ₄ clarification already preserved in the running reconstruction record.
 
 ### Durable boundary reached
 
-- Current workflow behavior was inspected directly. `.github/workflows/layered-nathan-autotag.yml` generates, validates, displays, snapshots, and republishes `indexes/autotag/SCANNER_CHECKOUT_SHA.txt`; it does not generate or refresh `SCANNER_INPUT_PROVENANCE.md`.
-- Current `SCANNER_CHECKOUT_SHA.txt` records `60d6542e982aee4ea8e92e8a15fcdf863811d50c`. Git history shows autotag bot commit `fc4b82c86d42172c75d853ce0965787bf3f62aa4` added that value after scanning the then-current tree.
-- `SCANNER_INPUT_PROVENANCE.md` still recorded the older scanner SHA `f7688fcfb99cce5776112e7d6ae50ba55f282881` and had not been refreshed by the current workflow. The two files therefore no longer represented two useful contemporaneous provenance moments; the Markdown file had become a stale duplicate capable of misleading readers.
-- Removed only the stale `indexes/autotag/SCANNER_INPUT_PROVENANCE.md` using its freshly fetched blob SHA. Cleanup commit: `395c76537b11f2e00d8f3aa9e6b5338104834d1c`.
-- No scanner behavior, workflow cadence, source corpus, Nathan Direct/Stage-2 semantics, theory state, BEDROCK, Dashboard, or human-facing continuity surface was changed.
+- Re-read current `BEDROCK.md` before theory-interface work. Its controlling entries currently stop at BR-004 and contain no proposition recording the current θ₄ baseline.
+- Re-read `!!_RUNNING_COTHEORIST_LOG.md` directly. Its 2026-09-16 θ₄ entry explicitly labels the following as **Nathan-direct clarification**: SAT θ₄ is measured from the **time normal**; null/vacuum orientation is θ₄ = 0, with filament tangent parallel to the time normal / timesheet propagation direction; for a particle at rest, θ₄ is equivalent to inverse helical pitch.
+- Separated that Nathan-direct statement from the immediately following **working implication** about winding. Only the θ₄ definition/baseline has Nathan-direct status in the inspected source; the winding-origin discussion remains working/exploratory and must not hitchhike into bedrock.
+- This establishes a propagation/documentation defect: a current Nathan Direct theory definition exists in a working reconstruction surface but has not yet been routed into the central theory-premise register. Under BEDROCK's own rule, newer Nathan Direct controls immediately even while the register is stale.
+- No theory proposition was newly derived, promoted by AI judgment, or reconstructed from memory. No BEDROCK edit was made in this quantum; the operation ended at the source/status diagnosis boundary.
 
-### Infrastructure-QA finding
+### Theory-control finding
 
-The durable scanner provenance contract is now singular and matches the active workflow: `SCANNER_CHECKOUT_SHA.txt` is the generated scanner-tree identity artifact. The older Markdown provenance artifact was a one-run artifact rather than a maintained second provenance channel and became stale on the next run.
+The missing θ₄ entry is high-value because angle convention errors invert downstream interpretation. The safe intake is narrowly source-backed: preserve the Nathan-direct θ₄ baseline itself and keep the adjacent winding hypotheses outside the controlling proposition unless separately promoted.
 
 ### Open dependency
 
-None for this cleanup. Future scanner runs should continue to refresh `SCANNER_CHECKOUT_SHA.txt` through the existing generated-snapshot path.
+BEDROCK still needs a bounded Nathan Direct intake/repair for this already-controlling θ₄ clarification, using the running log as the immediate provenance pointer and preserving any older contradictory angle convention as superseded/historical rather than silently overwriting it.
 
 ### One continuation cursor
 
-Rotate away from scanner QA. Choose one bounded Ravel/theory-interface or archive/provenance operation after re-reading current controls and the relevant primary source surface.
+Perform one bounded BEDROCK repair: freshly fetch `BEDROCK.md`, add a compact Nathan Direct θ₄ baseline entry sourced to the 2026-09-16 running-log clarification, and do not import the adjacent winding speculation. Stop after that single semantic repair.
