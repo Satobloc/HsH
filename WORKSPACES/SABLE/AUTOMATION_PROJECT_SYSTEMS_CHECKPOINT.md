@@ -5,24 +5,24 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — FIE extraction provenance check
+## Current bounded operation — Mercer Viewer relation-sidecar triage
 
-This recurrence performed one bounded archive/provenance operation: determine whether the foundational `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` extraction is tied to its PDF by an exact manifest record rather than only by filename resemblance.
+This recurrence performed one bounded system-pulse/Q&A operation: disposition the standing Mercer request for interface-owner review of the proposed Viewer conversation-relation sidecar.
 
 ### Durable boundary reached
 
-- Re-read the current backend cursor and checked current repository activity before operating; no theory state was reconstructed or promoted.
-- Inspected the old archive extraction manifest `2026-09-10_root_pdf_extraction_pass_002.json` directly.
-- The manifest contains an exact `results` record whose `source` is `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` and whose `output` is `_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED.txt`.
-- That record reports `status: ok`, `characters: 12909`, and `engine: pypdf`.
-- Therefore the primary FIE text companion is manifest-exact, not merely a legacy basename inference. The separately observed `... EXTENDED 2.txt` remains a distinct duplicate/variant and was not adjudicated in this quantum.
-- This resolves the provenance-strength half of the FIE machine-readable-text acceptance case: the PDF has a deterministic manifest-backed route to a successful machine-readable extraction.
-- No BEDROCK, Dashboard, Q&A queue, automation cadence, Issue state, extraction artifact, or human-facing continuity surface was changed.
+- Re-read current BEDROCK before operating; no theory state was reconstructed or promoted.
+- Read the standing inbox request and Mercer's Run 71 architecture proposal plus Run 73 execution record.
+- Accepted the proposal as a sound minimum **design direction**, not as authorization for Mercer to change shared Viewer schema/workflow: keep the existing Viewer catalog as source catalog; use a separate generated relation sidecar; retain exact source identity/path and diagnostic provenance; expose neutral relation classes only; never hide, merge, rank, or infer currentness/authority from relation data; fail closed or visibly stale when provenance does not match.
+- Recorded that Run 73's synthetic harness is runtime-green for its seven encoded valid relation classes and five encoded invalid cases, while explicitly preserving that this does not establish production joins or generator correctness.
+- Routed Mercer to continue diagnostic/harness QA while leaving production Viewer/interface scheduling and implementation with the human-facing systems/interface owner.
+- Determined that this proposal itself does not require Nathan's factual memory, preference, manual action, or authority; no Nathan-attention flag was opened.
+- Moved the inbox item from OPEN to CLOSED / ROUTED using a fresh blob SHA. No Viewer production state, automation cadence, Dashboard, BEDROCK, archive source, or human-facing continuity checkpoint was changed.
 
-### Archive/infrastructure finding
+### Q&A state
 
-For FIE specifically, the old archive supports deterministic source→derived-text routing through `_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json`. This establishes extraction provenance and successful generation; it does not by itself assess semantic completeness/fidelity of every PDF element.
+The currently visible systems inbox has no remaining OPEN item after this routing.
 
 ### One continuation cursor
 
-Rotate away from the FIE existence/provenance lookup. In a later bounded Issue #3 slice, test the FIE extracted text for practical completeness/fidelity against the source PDF or the accessibility-audit acceptance criteria; stop after that single assessment.
+Rotate away from this Viewer-sidecar item. On a later bounded recurrence, choose the highest-information non-starved class from current control surfaces—prefer infrastructure QA or a separated Ravel/theory-interface slice unless a newer Nathan Direct or urgent inbox item supersedes it.
