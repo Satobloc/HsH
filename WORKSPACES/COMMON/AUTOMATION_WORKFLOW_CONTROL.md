@@ -171,6 +171,35 @@ Eligible work may include:
 
 Do not force progress for appearance's sake. A well-documented negative result, no-op, or refusal to duplicate work can be the correct run outcome.
 
+## CURRENT PRIORITY — 2023–25 archive excavation + Jarlskog/soliton reconstruction — 2026-09-18
+
+Nathan has elevated **systematic excavation of the original `Satobloc/SAT_THEORY_ARCHIVE_2023-25`** as a current recurrence priority. This is broader than a single-keyword search: workers should use bounded cycles to recover historical formulations, source chronology, terminology, abandoned/modified branches, equations, diagrams, and conceptual links that may not yet be represented in current H(s)H summaries.
+
+Within that broad archive excavation, give **special priority** to source-first recovery of the following connected material:
+
+- **Jarlskog Shadow**;
+- **“ghost neutrino”** at the He-3 nuclear vertex / Holotype Atom context;
+- **intra-braid solitons** and related vertex-supported/trinary excitations;
+- the historical SAT relationship among those solitons, **gluons**, and neutrino-like timesheet excitations;
+- **neutron-star trinary** soliton material;
+- **gravitational-wave / gravitational soliton / “giant-neutrino”-like** constructions;
+- any scale-recursive statements tying these together.
+
+Nathan's current theory clarification is that **gluons, neutrino-like timesheet solitons, and “giant-neutrino”-like gravitational solitons are different-scale presentations of the same underlying phenomenon**. Treat that as a current Nathan-direct theory-state statement, while separately excavating what the 2023–25 archive actually said, when it said it, and how the formulation evolved.
+
+Do **not** retroactively rewrite old sources into the current formulation. Preserve exact historical wording and distinguish:
+
+1. what the source explicitly states;
+2. later Nathan corrections/current theory-state statements;
+3. assistant reconstruction or proposed unification;
+4. unresolved gaps or contradictions.
+
+Useful search vocabulary should include, but not be limited to: `Jarlskog`, `Jarlskog Shadow`, `ghost neutrino`, `He-3`, `helium-3`, `holotype`, `vertex`, `gluon`, `soliton`, `timesheet`, `neutrino`, `trinary`, `three-body`, `braid`, `intra-braid`, `neutron star`, `gravitational wave`, `gravitational soliton`, `giant neutrino`, and historically adjacent terminology discovered during excavation.
+
+The target is a **provenance-rich relationship reconstruction**, not merely a modern summary. Record exact paths/dates/authorship where available, earliest located occurrences with scoped language, later reformulations, and whether a connection is explicit in-source or inferred only retrospectively.
+
+Workers should keep bites small: one source/object or one tightly bounded term cluster per recurrence, then checkpoint the next cursor.
+
 ## Script / workflow execution safety
 
 `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` is a required project-wide execution contract for scripts, bots, GitHub Actions, extraction jobs, indexing/tagging utilities, one-shot compute shims, and automated write processes across `[[HsH]]`, `[[GLASS]]`, and permitted `[RESOURCES]`.
