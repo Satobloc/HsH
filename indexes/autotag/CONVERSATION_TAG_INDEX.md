@@ -2,90 +2,90 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 480
-- conversation exports recognized: 417
+- JSON files scanned: 482
+- conversation exports recognized: 419
 - non-conversation JSON skipped: 63
 - parse errors: 0
-- structural-index gap candidates: 30
+- structural-index gap candidates: 32
 
 ## Topic coverage
 
-- `PHYSICS`: 360 conversations
-- `GEOMETRY`: 333 conversations
-- `MATHEMATICS`: 320 conversations
-- `CODING`: 315 conversations
-- `INTERACTIONS`: 307 conversations
-- `SAT-HSH`: 302 conversations
-- `LANGUAGE`: 300 conversations
-- `GRAVITY`: 298 conversations
-- `PROVENANCE-HISTORY`: 287 conversations
-- `DEFINITION-CANDIDATE`: 286 conversations
-- `QUANTUM`: 283 conversations
-- `PARTICLE-PHYSICS`: 280 conversations
-- `WRITING`: 278 conversations
-- `DIMENSIONALITY`: 276 conversations
-- `TOPOLOGY`: 275 conversations
-- `TOPOLOGY-MORPHOLOGY`: 274 conversations
-- `MODEL-VS-REALITY`: 271 conversations
-- `HISTORY`: 270 conversations
-- `INTERSECTION-READOUT`: 268 conversations
-- `ALGEBRA`: 263 conversations
-- `COSMOLOGY`: 262 conversations
-- `VISUALIZATION`: 262 conversations
-- `ARCHIVE-INDEXING`: 258 conversations
-- `LAW-LEGAL`: 256 conversations
-- `PHILOSOPHY`: 256 conversations
-- `CROSSWALK-CANDIDATE`: 254 conversations
-- `METRIC`: 252 conversations
-- `4D-THINKING`: 249 conversations
-- `RELATIVITY`: 247 conversations
-- `QUANTIZATION`: 243 conversations
-- `BIOLOGY`: 241 conversations
-- `MUSIC-AUDIO`: 234 conversations
-- `AI-LLM`: 228 conversations
-- `HELIX-GEOMETRY`: 228 conversations
-- `LAGRANGIAN`: 223 conversations
-- `CALCULUS`: 222 conversations
-- `ART-DESIGN`: 218 conversations
-- `PROBABILITY-STATS`: 216 conversations
-- `GITHUB-REPO`: 211 conversations
-- `HOLONOMY`: 211 conversations
-- `OPTICS`: 211 conversations
-- `NESTING`: 210 conversations
-- `BRAIDING`: 209 conversations
-- `DATA-PROCESSING`: 206 conversations
-- `TIMESHEET`: 203 conversations
-- `WORLDLINE`: 193 conversations
-- `ELECTROMAGNETISM`: 192 conversations
-- `BLACK-HOLES`: 188 conversations
-- `CHEMISTRY`: 175 conversations
-- `THERMODYNAMICS`: 170 conversations
-- `AUTOMATION`: 156 conversations
-- `PHOTON-NEUTRINO`: 156 conversations
-- `SPHERES`: 149 conversations
-- `NEUROSCIENCE`: 144 conversations
-- `FILM-MEDIA`: 133 conversations
-- `WORLDTUBE`: 132 conversations
-- `WORK-CAREER`: 131 conversations
-- `ASTRONOMY`: 128 conversations
-- `WHIRLIGIG-DONUT`: 127 conversations
-- `IMAGE-PHOTOGRAPHY`: 123 conversations
-- `ASTROPHYSICS`: 119 conversations
-- `UI`: 107 conversations
-- `LEAN-FORMALIZATION`: 104 conversations
-- `SUPERSESSION-CANDIDATE`: 102 conversations
+- `PHYSICS`: 362 conversations
+- `GEOMETRY`: 335 conversations
+- `MATHEMATICS`: 322 conversations
+- `CODING`: 317 conversations
+- `INTERACTIONS`: 308 conversations
+- `SAT-HSH`: 303 conversations
+- `LANGUAGE`: 302 conversations
+- `GRAVITY`: 300 conversations
+- `PROVENANCE-HISTORY`: 289 conversations
+- `DEFINITION-CANDIDATE`: 288 conversations
+- `QUANTUM`: 284 conversations
+- `PARTICLE-PHYSICS`: 281 conversations
+- `WRITING`: 280 conversations
+- `DIMENSIONALITY`: 277 conversations
+- `TOPOLOGY`: 277 conversations
+- `TOPOLOGY-MORPHOLOGY`: 276 conversations
+- `MODEL-VS-REALITY`: 273 conversations
+- `HISTORY`: 272 conversations
+- `INTERSECTION-READOUT`: 270 conversations
+- `ALGEBRA`: 265 conversations
+- `COSMOLOGY`: 264 conversations
+- `VISUALIZATION`: 264 conversations
+- `ARCHIVE-INDEXING`: 260 conversations
+- `LAW-LEGAL`: 258 conversations
+- `PHILOSOPHY`: 258 conversations
+- `CROSSWALK-CANDIDATE`: 256 conversations
+- `METRIC`: 254 conversations
+- `4D-THINKING`: 250 conversations
+- `RELATIVITY`: 248 conversations
+- `QUANTIZATION`: 244 conversations
+- `BIOLOGY`: 243 conversations
+- `MUSIC-AUDIO`: 236 conversations
+- `AI-LLM`: 230 conversations
+- `HELIX-GEOMETRY`: 230 conversations
+- `CALCULUS`: 224 conversations
+- `LAGRANGIAN`: 224 conversations
+- `ART-DESIGN`: 220 conversations
+- `PROBABILITY-STATS`: 218 conversations
+- `GITHUB-REPO`: 213 conversations
+- `OPTICS`: 213 conversations
+- `HOLONOMY`: 212 conversations
+- `NESTING`: 212 conversations
+- `BRAIDING`: 210 conversations
+- `DATA-PROCESSING`: 208 conversations
+- `TIMESHEET`: 204 conversations
+- `WORLDLINE`: 194 conversations
+- `ELECTROMAGNETISM`: 193 conversations
+- `BLACK-HOLES`: 189 conversations
+- `CHEMISTRY`: 177 conversations
+- `THERMODYNAMICS`: 171 conversations
+- `AUTOMATION`: 158 conversations
+- `PHOTON-NEUTRINO`: 157 conversations
+- `SPHERES`: 150 conversations
+- `NEUROSCIENCE`: 146 conversations
+- `FILM-MEDIA`: 135 conversations
+- `WORK-CAREER`: 133 conversations
+- `WORLDTUBE`: 133 conversations
+- `ASTRONOMY`: 129 conversations
+- `WHIRLIGIG-DONUT`: 128 conversations
+- `IMAGE-PHOTOGRAPHY`: 125 conversations
+- `ASTROPHYSICS`: 121 conversations
+- `UI`: 108 conversations
+- `LEAN-FORMALIZATION`: 105 conversations
+- `SUPERSESSION-CANDIDATE`: 103 conversations
 - `FINITE-CORE`: 86 conversations
-- `EDUCATION`: 82 conversations
-- `C-TYPING`: 76 conversations
-- `INTERBRAID`: 57 conversations
-- `POLITICS-POLICY`: 55 conversations
-- `ELECTROGRAVITY`: 54 conversations
-- `GEOLOGY`: 52 conversations
-- `MEDICINE-HEALTH`: 35 conversations
+- `EDUCATION`: 84 conversations
+- `C-TYPING`: 77 conversations
+- `INTERBRAID`: 58 conversations
+- `POLITICS-POLICY`: 56 conversations
+- `ELECTROGRAVITY`: 55 conversations
+- `GEOLOGY`: 54 conversations
+- `MEDICINE-HEALTH`: 36 conversations
 - `SPEED-OF-TIME`: 22 conversations
 - `GRATICULE`: 21 conversations
-- `PERSONAL-BIOGRAPHICAL`: 16 conversations
-- `PALEONTOLOGY`: 14 conversations
+- `PERSONAL-BIOGRAPHICAL`: 17 conversations
+- `PALEONTOLOGY`: 15 conversations
 - `W-AXIS`: 8 conversations
 
 ## Conversation inventory
@@ -2113,6 +2113,13 @@
 - density: 0.798131; top retrieval score: 94.0
 - topics: `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `AUTOMATION`, `BIOLOGY`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROMAGNETISM`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`, `IMAGE-PHOTOGRAPHY`
 
+### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: File Set Overview
+- messages/user: 1134/354
+- density: 0.732804; top retrieval score: 85.52
+- topics: `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `EDUCATION`, `FILM-MEDIA`, `GEOLOGY`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`, `IMAGE-PHOTOGRAPHY`, `INTERSECTION-READOUT`
+
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json` **INDEX-GAP-CANDIDATE**
 
 - title: Scaling Postulates Testing
@@ -2140,6 +2147,13 @@
 - messages/user: 832/154
 - density: 0.905048; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `ELECTROGRAVITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `FINITE-CORE`
+
+### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: 📜Consciousness and AI Debate
+- messages/user: 1385/424
+- density: 0.862816; top retrieval score: 94.0
+- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROGRAVITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`
 
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json` **INDEX-GAP-CANDIDATE**
 

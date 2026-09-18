@@ -1,16 +1,16 @@
 {
   "generated_by": "WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py",
   "source": "indexes/nathan-direct/nathan-direct-*.jsonl",
-  "source_records": 15187,
+  "source_records": 15188,
   "purpose": "Non-destructive Stage-2 work queues only; no curation or theory authority.",
   "earliest_use_excluded": true,
   "earliest_use_exclusion_reason": "v1 topic minima are high-recall and known to generate false early candidates; precision layer plus raw-context verification required.",
   "queues": {
-    "correction-refinement": 2792,
-    "definition": 1735,
-    "methodology": 1946,
+    "correction-refinement": 2793,
+    "definition": 1736,
+    "methodology": 1947,
     "decision": 717,
-    "duplicate-provenance": 5139,
-    "branch-context": 2693
+    "duplicate-provenance": 5493,
+    "branch-context": 2798
   }
 }
