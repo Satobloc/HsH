@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 100, 2026-09-18
+**Current through:** Run 101, 2026-09-18
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -25,9 +25,11 @@ Run 97 established that `extract_raw_window.py` selects `context_each_side` by g
 
 Run 99 found a concrete positive retained-output counterexample in `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.json` (`context_each_side: 1`): at least one chronological context row lies outside the target's immediate parent/child graph relation.
 
-**Run 100:** second retained LAB1 output independently reproduces graph/chronology divergence: `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-154902.json` (blob `05eb3c565ba86f162af573093474d261d263e13b`, `context_each_side: 1`). Visible sequence crosses from assistant `df07ce94-3bbd-46dc-b28b-cd0b09cbc6d0` (parent `56438255-f240-4855-a046-7b9812e9b6ab`) to assistant `8493cc45-dd0b-4824-a167-0dc3c80f8149` (parent `acae344f-fccd-4d34-a14e-35c5f65aa0f2`), then user `cd28c7f7-13f5-4e51-9afc-170fd2d79f10` whose parent is `8493cc45-dd0b-4824-a167-0dc3c80f8149`. Therefore checking only the target-parent edge is insufficient: a retained context segment can splice branches one edge earlier while the target's immediate parent relation is locally correct. Durable record: `WORKSPACES/MERCER/RUN_100_2026-09-18.md`.
+Run 100 independently reproduced graph/chronology divergence in `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-154902.json` (blob `05eb3c565ba86f162af573093474d261d263e13b`, `context_each_side: 1`) and established that checking only the target-parent edge is insufficient: a retained context segment can splice branches one edge earlier while the target's immediate parent relation is locally correct.
 
-Classification remains extraction-context provenance/semantics issue, not source corruption; prevalence and downstream interpretive effect remain unmeasured. Next extraction cursor: deterministic read-only classification across retained extraction JSONs with positive context, evaluating whole context-segment graph continuity: immediate parent/child-local; same-branch/non-immediate; cross-branch/spliced; unresolved. Preserve old outputs; do not overwrite provenance. Keep separate source-commit/ref provenance audit distinct.
+**Run 101:** third retained LAB1 positive-context output sampled: `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-025210.json` (`context_each_side: 1`). The visible retained sequence is graph-local through assistant `2201eda1-e660-442c-998e-99134b9b0318` -> user `bed50466-dfb1-4ff7-8922-3e5e711ecb9d`, but the next chronological assistant `e3988b24-4722-45bf-8463-f5c1ef9e3fc6` records parent `d94d68c6-1576-4cd8-a251-8fae6ade1196`, not `bed50466-dfb1-4ff7-8922-3e5e711ecb9d`. This is a third retained-output reproduction of branch-spliced chronological context and confirms the whole-segment continuity criterion on a later extraction. Source read was bounded/truncated; do not infer prevalence beyond the visible sampled segment.
+
+Classification remains extraction-context provenance/semantics issue, not source corruption; prevalence and downstream interpretive effect remain unmeasured. Next extraction cursor: continue deterministic read-only classification across retained extraction JSONs with positive context, evaluating whole context-segment graph continuity: immediate parent/child-local; same-branch/non-immediate; cross-branch/spliced; unresolved. Preserve old outputs; do not overwrite provenance. Keep separate source-commit/ref provenance audit distinct.
 
 ### Operational currentness / formalization
 Runs 81–85 established proposition-level currentness discipline. Runs 86–89 found `formalization/README.md` advertises an absent `formalization/leancheck/run.ps1`; inspected repository routes found no implementation. Classification: documented-but-unmaterialized; stop probing absent new evidence.
@@ -43,7 +45,7 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–100 now reproduce retained graph/chronology divergence in two LAB1 positive-context output files; route through extraction/Nathan Words owner or Sable. No Nathan decision currently required.
+- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–101 now reproduce retained graph/chronology divergence in three LAB1 positive-context output files; route through extraction/Nathan Words owner or Sable. No Nathan decision currently required.
 - `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred.
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 duplicate disposition unresolved; recheck only after relevant state change.
 - `DORMANT VIEWER BODY SEARCH`: do not activate without intent/interface review.
@@ -56,10 +58,10 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 Quantify extraction context graph-locality across retained positive-context JSON outputs with a deterministic read-only validator. Test whole retained context-segment continuity, not only target-adjacent edges. Keep extraction source-commit/ref provenance as a separate later bite.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97 extraction-context implementation semantics; 98 first negative retained sample; 99 first positive retained immediate-ancestry mismatch; **100 second retained file reproduces graph/chronology divergence and sharpens validator requirement to whole-segment continuity.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97 extraction-context implementation semantics; 98 first negative retained sample; 99 first positive retained immediate-ancestry mismatch; 100 second retained reproduction; **101 third retained positive-context file reproduces a branch splice after a locally correct target-parent edge.**
 
 ## Best next operations
-1. Deterministically classify retained extraction JSONs with positive context by whole-segment graph-locality.
-2. Route Runs 99–100 concrete finding through existing Sable/extraction ownership rather than silently redesigning another lane.
+1. Continue deterministic classification of retained extraction JSONs with positive context by whole-segment graph-locality.
+2. Route Runs 99–101 concrete finding through existing Sable/extraction ownership rather than silently redesigning another lane.
 3. Audit exact checked-out source commit/ref persistence in extraction payload/run manifests as a separate bite.
 4. Re-audit normalization/Viewer/autotag only after relevant state changes.
