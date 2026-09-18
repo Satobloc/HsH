@@ -5,23 +5,25 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — autotag +5 recognition anomaly isolation
+## Current bounded operation — resolve autotag +5 recognition anomaly
 
-This recurrence performed one bounded infrastructure-QA diagnosis: determine whether the observed 412 -> 417 recognized-conversation jump can be attributed to repository changes between the two autotag snapshots.
+This recurrence performed one bounded infrastructure-QA diagnosis: inspect the actual workflow execution timing and checkout semantics behind the 463/412 -> 468/417 autotag jump.
 
 ### Durable boundary reached
 
-- Re-read current repository state before operating; no theory state was reconstructed, interpreted, or promoted.
-- Autotag bot commit `863daea0df43dcd2a86c060f7fbec0a842a63f00` reports 463 JSON files scanned, 412 conversation exports recognized, and 51 non-conversation JSONs skipped. Its commit changes only the existing autotag summary/index/manifest surfaces; it does not add five JSON source files.
-- The only two commits on the direct parent chain before the later autotag refresh are Meridian run `a1c5268bfa7f36e79546a5640098f7e540f9fcf6` and Mercer run `5fdc855aa744a6f55819dff25851807cfb42d7cb`; both modify/add Markdown only, not JSON.
-- Later autotag bot commit `0161511937cca3e4fd9e50721a13527f3927fd61` reports 468 JSON files scanned and 417 recognized conversations, with message records increasing 73,200 -> 75,767 and user messages 22,758 -> 23,367. Its generated package refresh is therefore substantive, not merely a displayed count change.
-- Consequently the +5 JSON / +5 recognized-conversation delta cannot be explained by five intervening committed JSON source files on that parent chain. The remaining live hypotheses are intra-workflow generated/transient JSON inclusion, checkout/ref/worktree state not represented by the visible commit chain, or another scanner-scope/input-accounting effect. No one of these is yet established.
-- This operation deliberately stops before inspecting workflow step order or generated filenames. No workflow, generated index, Dashboard, BEDROCK, archive source, automation cadence, or human-facing continuity state was changed.
+- Re-read the current workflow and the automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
+- The September 18 upload commit `9a3714de0e1f7314133f92ae211ef06a12287578` added exactly four conversation JSON files under `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/`.
+- Workflow run `35318818359` was triggered by that upload commit, but its job did not begin until `08:18:31Z`, roughly one hour after the triggering push. The workflow explicitly checks out `ref: main`, not the triggering `head_sha`. Therefore its scanner input is the state of `main` at checkout time, not necessarily the repository tree of the upload commit.
+- The archive-wide autotagger then ran from `08:18:53Z` until `09:38:15Z`. The workflow does not create JSON files before this scan: prior steps only checkout, set up Python, compile scripts, run tests, and `mkdir` output directories. This rules out the previously live hypothesis that five intra-workflow/generated JSON files were created before the scan.
+- The workflow's publication step later fetches and hard-resets to then-current `origin/main` before re-laying the validated generated snapshot. Thus the generated bot commit's direct parent chain is not a reliable record of the scanner's checkout tree or input additions; the workflow is explicitly designed to publish a snapshot generated earlier onto a newer main.
+- Repository path history confirms that, between the upload timestamp and bot publication, `DEVELOPMENT_FULL_CONVOS` itself had no additional committed change beyond the four-file upload, and `LIVE CONVOS` had none. The +5 recognized-conversation delta therefore cannot be attributed to a fifth later commit in those two canonical conversation-source roots.
+- The apparent contradiction in the prior checkpoint is resolved at the mechanism level: comparing the bot commit's parent chain to infer scanner inputs was invalid because `checkout ref: main` and later reset-to-current-main decouple trigger SHA, scanner checkout state, and publication parent.
+- This operation deliberately stops before reconstructing the exact checkout SHA or identifying the fifth recognized path. No workflow, generated index, Dashboard, BEDROCK, archive source, automation cadence, or human-facing continuity state was changed.
 
 ### Infrastructure-QA finding
 
-The earlier interpretation that current 417 recognition straightforwardly means the four September 18 uploads plus one additional committed conversation is not supported by the commit chain. The unexplained +5 is now isolated as an input-accounting/convergence anomaly requiring workflow-level tracing.
+The +5 anomaly is now a **timing/ref-accounting issue, not evidence of transient JSON generation or five hidden source commits**. The workflow's use of moving `main` means a run triggered by four uploads can scan a later repository state, and its eventual generated commit can be parented onto a still later state. Exact source accounting therefore requires recording or recovering the scanner checkout SHA/path inventory; trigger SHA and generated-commit ancestry are insufficient.
 
 ### One continuation cursor
 
-Inspect the exact execution order and filesystem outputs of `layered-nathan-autotag.yml` / its invoked scripts for run producing `0161511937cca3e4fd9e50721a13527f3927fd61`, and identify which five JSON paths were present to the scanner beyond the 463-file snapshot. Do not infer their identity from aggregate counts.
+On a later infrastructure-QA recurrence, recover the exact SHA checked out by run `35318818359` at `08:18:33Z` (or the nearest durable tree identity available) and diff its JSON path inventory against the 463-file snapshot. If the exact checkout SHA is unrecoverable, treat that observability gap itself as the bounded QA defect and design a minimal scanner-input provenance field for future runs rather than guessing the fifth path.
