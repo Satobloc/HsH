@@ -5,23 +5,24 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — old-archive extraction-routing implementation audit
+## Current bounded operation — FIE extraction provenance check
 
-This recurrence performed one bounded archive/infrastructure operation: inspect one implementation surface whose declared job concerns document accessibility/extraction rather than structural indexing.
+This recurrence performed one bounded archive/provenance operation: determine whether the foundational `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` extraction is tied to its PDF by an exact manifest record rather than only by filename resemblance.
 
 ### Durable boundary reached
 
-- Re-read current `BEDROCK.md`; FIE remains Nathan Direct + Foundational Bedrock and the foundational-source routing is unchanged.
-- Inspected `.github/workflows/audit-old-archive-access.yml` and its single audit implementation `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/audit_old_archive_access.py` as one coupled implementation surface.
-- This surface does not itself extract PDF text, but it reveals the archive's actual extraction architecture: `_AUTO_EXTRACTED_TEXT/`, `_AUTO_EXTRACTED_TEXT/_manifests/*.json`, manifest `results` records keyed by exact `source` path with `output`, `status`, `characters`, and `engine`, plus a weaker legacy unique-basename fallback for pre-manifest `.txt` extracts.
-- The audit explicitly distinguishes `manifest-exact` mappings from `legacy-basename-unique` mappings and emits `EXTRACTION_MIGRATION_CANDIDATES.csv` and `MISSING_EXTRACTION_QUEUE.csv`.
-- This materially changes the Issue #3 search: deterministic PDF -> text routing is a known archive concept, not an unknown hypothetical mechanism. The unresolved question is now specifically whether FIE has an exact manifest-backed extraction, only a legacy basename-matched extraction, or no located extraction.
-- No theory state, Dashboard, Q&A queue, automation cadence, Issue state, extraction data, or human-facing continuity surface was changed.
+- Re-read the current backend cursor and checked current repository activity before operating; no theory state was reconstructed or promoted.
+- Inspected the old archive extraction manifest `2026-09-10_root_pdf_extraction_pass_002.json` directly.
+- The manifest contains an exact `results` record whose `source` is `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` and whose `output` is `_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED.txt`.
+- That record reports `status: ok`, `characters: 12909`, and `engine: pypdf`.
+- Therefore the primary FIE text companion is manifest-exact, not merely a legacy basename inference. The separately observed `... EXTENDED 2.txt` remains a distinct duplicate/variant and was not adjudicated in this quantum.
+- This resolves the provenance-strength half of the FIE machine-readable-text acceptance case: the PDF has a deterministic manifest-backed route to a successful machine-readable extraction.
+- No BEDROCK, Dashboard, Q&A queue, automation cadence, Issue state, extraction artifact, or human-facing continuity surface was changed.
 
-### Infrastructure/reference-lane finding
+### Archive/infrastructure finding
 
-`OLD_ARCHIVE_ACCESS_AUDIT` belongs to infrastructure/QA and archive-accessibility routing. It provides the first source-backed map in this workstream of how old-archive PDF/image extracts are represented and distinguished by provenance quality. It is not itself the extractor.
+For FIE specifically, the old archive supports deterministic source→derived-text routing through `_AUTO_EXTRACTED_TEXT/_manifests/2026-09-10_root_pdf_extraction_pass_002.json`. This establishes extraction provenance and successful generation; it does not by itself assess semantic completeness/fidelity of every PDF element.
 
 ### One continuation cursor
 
-Inspect exactly the current generated old-archive accessibility-audit outputs for the FIE source row. Determine whether `THE FUNDAMENTAL INTUITIONS — EXTENDED.pdf` is classified as `DERIVED_TEXT_AVAILABLE` or `NEEDS_EXTRACTION`, and if derived text exists, record its extraction path/basis/manifest. Stop after that determination.
+Rotate away from the FIE existence/provenance lookup. In a later bounded Issue #3 slice, test the FIE extracted text for practical completeness/fidelity against the source PDF or the accessibility-audit acceptance criteria; stop after that single assessment.
