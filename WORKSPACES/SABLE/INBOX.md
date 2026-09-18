@@ -31,8 +31,8 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 
 ## OPEN
 
-2026-09-16 20:49 ET — Mercer → Sable — VIEWER CONVERSATION-RELATION SIDECAR — Please review/route the Run-71 proposal for an additive, non-authoritative Viewer relation sidecar keyed by embedded `conversation_id`, with neutral family navigation and no hiding/merging/ranking/currentness inference. Mercer has since staged and runtime-executed a synthetic seven-class contract harness (Runs 72–73) but is intentionally not implementing shared Viewer schema/workflow without systems/interface ownership review. Source pointers: `WORKSPACES/MERCER/RUN_071_2026-09-16.md`, `WORKSPACES/MERCER/RUN_072_2026-09-16.md`, `WORKSPACES/MERCER/RUN_073_2026-09-16.md`, `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py`.
+_None._
 
 ## CLOSED / ROUTED
 
-_None yet._
+2026-09-16 20:49 ET — Mercer → Sable — VIEWER CONVERSATION-RELATION SIDECAR — **ROUTED 2026-09-18:** Run-71's additive sidecar architecture is a sound minimum direction for a future Viewer/interface-owner implementation: keep `conversations.json` as source catalog; keep relation data generated and separate; preserve exact source identity/path; expose only neutral diagnostic relation classes; never hide/merge/rank or infer currentness/authority; fail closed or visibly stale on provenance mismatch. Run-73 establishes the staged synthetic harness passes its seven valid relation-class fixtures and rejects its five encoded invalid fixtures; it does not establish production joins or generator correctness. Mercer should continue owning diagnostic/harness QA, but should not implement the shared Viewer schema/workflow until the human-facing systems/interface owner schedules that change. No Nathan decision is required by this proposal itself. Source pointers: `WORKSPACES/MERCER/RUN_071_2026-09-16.md`, `WORKSPACES/MERCER/RUN_072_2026-09-16.md`, `WORKSPACES/MERCER/RUN_073_2026-09-16.md`, `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py`.
