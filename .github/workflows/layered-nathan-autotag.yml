@@ -47,7 +47,6 @@ jobs:
       - name: Run archive-wide layered autotagger
         run: |
           mkdir -p WORKSPACES/COMMON/analysis indexes/autotag indexes/nathan-direct
-          SCANNER_INPUT_SHA="$(git rev-parse HEAD)"
           python WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py . \
             --out WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl \
             --summary indexes/autotag/AUTOTAG_SUMMARY.md \
@@ -56,8 +55,6 @@ jobs:
             --user-tag-index indexes/autotag/user-message-tags.jsonl \
             --structural-index-state indexes/index-state.json \
             --window 4
-          printf '# Scanner Input Provenance\n\n- checkout SHA: `%s`\n- source tree: repository working tree at scanner invocation\n' \
-            "$SCANNER_INPUT_SHA" > indexes/autotag/SCANNER_INPUT_PROVENANCE.md
       - name: Package Nathan Direct substrate
         run: |
           rm -rf indexes/nathan-direct
@@ -76,14 +73,12 @@ jobs:
           python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
           test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
           test -s indexes/autotag/user-message-tags.jsonl
-          test -s indexes/autotag/SCANNER_INPUT_PROVENANCE.md
           test -s indexes/nathan-direct/README.md
           test -s indexes/nathan-direct/stage2/correction-refinement.jsonl
           find indexes/nathan-direct -maxdepth 1 -name 'nathan-direct-*.jsonl' -type f -size +0c | grep -q .
       - name: Show summaries
         run: |
           sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
-          cat indexes/autotag/SCANNER_INPUT_PROVENANCE.md
           cat indexes/nathan-direct/README.md
           cat indexes/nathan-direct/stage2/MANIFEST.json
       - name: Commit durable autotag, Nathan Direct, and Stage-2 indexes
@@ -118,7 +113,6 @@ jobs:
             python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
             test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
             test -s indexes/autotag/user-message-tags.jsonl
-            test -s indexes/autotag/SCANNER_INPUT_PROVENANCE.md
 
             git add indexes/autotag indexes/nathan-direct
             if git diff --cached --quiet; then
