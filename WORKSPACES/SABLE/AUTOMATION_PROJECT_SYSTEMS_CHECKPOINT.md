@@ -5,28 +5,27 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — scanner-input provenance repair design
+## Current bounded operation — scanner-input provenance publication QA
 
-This recurrence performed one bounded infrastructure-QA design operation: reduce the previously diagnosed scanner-input observability defect to a minimal patch that can be handed to the systems/interface owner without changing scanner semantics.
+This recurrence performed one bounded infrastructure-QA validation: inspect the first durable scanner-input provenance artifact after the observability repair reached production publication.
 
 ### Durable boundary reached
 
-- Re-read the current layered-autotag workflow and this automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
-- The minimal durable provenance unit is a new generated file under `indexes/autotag/`, e.g. `SCANNER_INPUT_PROVENANCE.md`, containing the repository checkout SHA captured in the same shell immediately before scanner invocation: `SCANNER_INPUT_SHA="$(git rev-parse HEAD)"`.
-- After the scanner returns, write that captured SHA to the provenance file. Capturing before invocation matters: it records the tree identity used by the scan rather than publication-time `main`.
-- Add `test -s indexes/autotag/SCANNER_INPUT_PROVENANCE.md` to durable-output validation and publication re-validation. Because the existing snapshot copies the entire `indexes/autotag` directory, no publication-loop redesign is required.
-- Optionally print the provenance file in `Show summaries`; this improves run-log observability but is not required for durable reconstruction.
-- Do **not** change checkout semantics, scanner selection rules, manifest interpretation, Nathan Direct packaging, Stage-2 behavior, or bot publication/race handling as part of this repair.
-- A direct workflow edit was briefly attempted during this recurrence before the ownership boundary in the prior checkpoint was re-read closely; it was immediately reverted. Current `.github/workflows/layered-nathan-autotag.yml` content is restored to blob `46c3455a527e7d8cbe97fe0fef8d4c5e1b447ea2`. The two commits remain in history for transparency (`f7688fcf...` attempted edit; `8cfaaffc...` restoration).
+- Re-read BEDROCK, the current layered-autotag workflow, and this automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
+- The workflow now durably records scanner provenance and validates it through publication. Current generated `indexes/autotag/SCANNER_INPUT_PROVENANCE.md` records checkout SHA `f7688fcfb99cce5776112e7d6ae50ba55f282881` and explicitly identifies the source tree as the repository working tree at scanner invocation.
+- That SHA resolves to the workflow-change commit `Record autotag scanner input commit provenance`; therefore the recorded scanner tree is a real repository commit, not trigger-SHA or publication-parent inference.
+- The same published generated snapshot reports 468 JSON files scanned, 417 conversation exports recognized, 51 non-conversation JSON files skipped, and zero parse errors.
+- Bot publication commit `60d6542e982aee4ea8e92e8a15fcdf863811d50c` contains the generated provenance artifact carrying scanner SHA `f7688fcf...`, demonstrating that scanner-tree identity survived the reset/re-lay publication path.
+- This operation stops at publication validation. It does not attempt to reconstruct the earlier +5 anomaly retroactively, alter scanner semantics, or change Dashboard/BEDROCK/archive sources/automation cadence.
 
 ### Infrastructure-QA finding
 
-The observability repair is now implementation-ready and tightly bounded. It records scanner tree identity without altering corpus processing. It should be applied by the systems/interface owner because shared workflow behavior/ownership is outside this backend loop's independent redesign authority.
+The scanner-input provenance repair is runtime-green at the durable-publication layer: a scanner-time repository SHA is now persisted independently of both workflow trigger SHA and later generated-commit ancestry. Future aggregate scan results can be tied to an exact scanner source tree without the inference failure that blocked the September 18 regression analysis.
 
 ### Open dependency
 
-Owner application of the minimal workflow patch. No Nathan factual-memory or preference decision is required.
+None for the minimal scanner-tree provenance repair. A separate future QA quantum may decide whether the simultaneously present `SCANNER_CHECKOUT_SHA.txt` and `SCANNER_INPUT_PROVENANCE.md` are redundant/confusing; that is not required for this acceptance check.
 
 ### One continuation cursor
 
-After the owner applies the patch and a later autotag run reaches terminal publication, inspect exactly one generated `SCANNER_INPUT_PROVENANCE.md` and confirm that its SHA resolves to the source tree whose aggregate scan counts were emitted in the same run.
+Rotate away from this now-closed repair. On a later infrastructure-QA recurrence, inspect the two current scanner-provenance artifacts (`SCANNER_CHECKOUT_SHA.txt` and `SCANNER_INPUT_PROVENANCE.md`) as one bounded reference/QA question: determine whether both encode distinct useful moments or whether one is misleading after publication reset, and route any cleanup rather than silently changing shared workflow behavior.
