@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 108, 2026-09-18
+**Current through:** Run 109, 2026-09-18
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -29,7 +29,9 @@ Run 106 audited extraction source-tree/tool provenance and workflow publication 
 
 Run 107 added the durable minimal patch specification `WORKSPACES/MERCER/RUN_107_2026-09-18.md`, routing exact checked-out HsH commit, raw-source blob identity, extractor blob identity, request/run identity, generated-artifact hash/manifest, and fresh-base non-force publication/retry discipline to Sable/infrastructure without locally changing shared workflow semantics.
 
-**Run 108:** audited the classifier against the extractor's request-default semantics and found a fidelity defect: `extract_raw_window.py` defaults omitted `context_each_side` to `1`, while the classifier defaulted it to `0`, which could silently skip historical/defaulted positive-context extractions. Repaired the classifier to default to `1` exactly like the extractor; code commit `101ebcb0f5bb772a4793a741e7711a5ca273ca79`. Durable run record: `WORKSPACES/MERCER/RUN_108_2026-09-18.md` (creation commit `77323e4c216195f9a0d1e4271256ae1977bdec40`). Static source comparison establishes default-semantic alignment only; no claim is made that any retained request omitted the field or about prevalence/runtime corpus results.
+Run 108 audited the classifier against the extractor's request-default semantics and found a fidelity defect: `extract_raw_window.py` defaults omitted `context_each_side` to `1`, while the classifier defaulted it to `0`. Repaired classifier default to `1`; code commit `101ebcb0f5bb772a4793a741e7711a5ca273ca79`. This establishes source-level semantic alignment only, not prevalence.
+
+**Run 109:** inspected `meridian_ontology_math_check_opening_20260916.json` as a non-LAB1 negative control. Its request explicitly sets `context_each_side: 1`; the inspected visible opening sequence is graph-local, with each successor after the first recording the preceding visible node as parent. The first visible row's parent lies outside the retained prefix; boundary-missing ancestry alone is not a demonstrated splice and should remain distinct from incompatible internal adjacency. Durable record: `WORKSPACES/MERCER/RUN_109_2026-09-18.md` (creation commit `33f7be1a1bc2c4f38c2e04a4fa7a4fe2382977e5`). This does not classify the whole file or establish prevalence.
 
 Preserve old extraction outputs; do not overwrite provenance. Keep context semantics and source-tree provenance as distinct QA dimensions.
 
@@ -47,8 +49,8 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–104 reproduce retained graph/chronology divergence across LAB1, RUSSIA, and RAVEL; repaired classifier execution remains pending. Route eventual prevalence result through extraction/Nathan Words owner or Sable.
-- `EXTRACTION PROVENANCE / OWNER-SABLE`: Run 107 supplies the minimal patch specification. No evidence of Sable consumption/supersession was found in the Run-108 inspected current Sable README/Common routing surfaces. Mercer should not implement shared workflow changes unless ownership/intent changes.
+- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–104 reproduce retained graph/chronology divergence across LAB1, RUSSIA, and RAVEL; Runs 102 and 109 provide bounded graph-local negative controls; repaired classifier execution remains pending. Route eventual prevalence result through extraction/Nathan Words owner or Sable.
+- `EXTRACTION PROVENANCE / OWNER-SABLE`: Run 107 supplies the minimal patch specification. No evidence of Sable consumption/supersession was found in the last inspected routing surfaces. Mercer should not implement shared workflow changes unless ownership/intent changes.
 - `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred.
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 duplicate disposition unresolved; recheck only after relevant state change.
 - `DORMANT VIEWER BODY SEARCH`: do not activate without intent/interface review.
@@ -58,12 +60,12 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 - No current Nathan-required decision.
 
 ## Current frontier
-Execute the repaired `WORKSPACES/MERCER/classify_extraction_context_graph.py` against an exact readable HsH checkout when a materialization/execution route can actually read the large raw JSON sources and report prevalence by file/window/edge category. Otherwise rotate to a fresh bounded archive/index/retrieval QA object with higher information value rather than duplicating the Run-107 handoff.
+Execute the repaired `WORKSPACES/MERCER/classify_extraction_context_graph.py` against an exact readable HsH checkout when a materialization/execution route can actually read the large raw JSON sources and report prevalence by file/window/edge category. Otherwise rotate to a fresh bounded archive/index/retrieval QA object with higher information value rather than accumulating more extraction examples.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 deterministic whole-window classifier materialized; 106 extraction source-tree/tool provenance + workflow publication-safety audit; 107 minimal extraction provenance/publication-safety patch specification routed; **108 classifier default-semantics fidelity repair.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 deterministic whole-window classifier materialized; 106 extraction source-tree/tool provenance + workflow publication-safety audit; 107 minimal extraction provenance/publication-safety patch specification routed; 108 classifier default-semantics fidelity repair; **109 Meridian graph-local negative control + boundary-classification refinement.**
 
 ## Best next operations
 1. Execute and validate the repaired classifier at an exact readable HsH checkout when available; report prevalence without rewriting historical outputs.
-2. If execution remains blocked and Run-107 handoff remains pending, rotate to a fresh bounded archive/index/retrieval QA object with higher information value.
+2. If execution remains blocked, rotate to a fresh bounded archive/index/retrieval QA object with higher information value rather than accumulating extraction anecdotes.
 3. Recheck Sable consumption/supersession only when its relevant routing/checkpoint state changes; do not duplicate shared-workflow design locally.
