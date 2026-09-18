@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-18T18:33:07.563119+00:00",
+  "generated_at_utc": "2026-09-18T21:36:05.976652+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 364,
-    "skipped": 122,
-    "planned": 79,
+    "skipped": 135,
+    "planned": 81,
     "collision": 1
   },
   "records": [
@@ -4256,6 +4256,136 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json",
+      "start_local": "2026-08-19T05:06:07.842000-04:00",
+      "end_local": "2026-08-20T20:41:34.467801-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1237,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(norm)H TRAD__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H CLASSIC__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/RECONSTRUCTION18SEPT26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT Vis__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
       "start_local": "2026-03-01T14:32:29.036001-05:00",
@@ -4264,6 +4394,42 @@
       "message_count": 141,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV5. SAT PREDICTIONS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/[[H(s)H]]__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/gitignore.txt",
@@ -4304,6 +4470,16 @@
       "end_local": "2026-09-16T01:17:06.744000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1192,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "start_local": "2026-06-23T01:13:02.548000-04:00",
+      "end_local": "2026-09-12T08:26:10.150514-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1847,
       "status": "planned",
       "warnings": []
     },
