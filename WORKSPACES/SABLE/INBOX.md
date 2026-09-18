@@ -31,7 +31,7 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 
 ## OPEN
 
-_None._
+2026-09-18 18:09 ET — Nathan → Sable — NOTEBOOKLM CONVERSATION INGESTION PRIORITY — Put ingestion of the newly uploaded NotebookLM contents in conversation folder 18 on the immediate to-do list. Begin with what is present now; do not wait for the next folder. Add a periodic incremental check for further uploads to folder 18 and for creation/population of conversation folder 19 and higher, and fold newly appearing material into the appropriate ingestion/indexing/provenance workflows. Preserve source identity and authorship boundaries: NotebookLM-generated/extracted material must remain distinguishable from Nathan-direct conversation text and other source classes. **Priority: immediate / ongoing watch.**
 
 ## CLOSED / ROUTED
 
