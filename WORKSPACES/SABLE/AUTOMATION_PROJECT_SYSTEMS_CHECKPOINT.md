@@ -5,25 +5,23 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — resolve autotag +5 recognition anomaly
+## Current bounded operation — scanner-input provenance observability
 
-This recurrence performed one bounded infrastructure-QA diagnosis: inspect the actual workflow execution timing and checkout semantics behind the 463/412 -> 468/417 autotag jump.
+This recurrence performed one bounded infrastructure-QA diagnosis: determine whether the exact repository SHA scanned by layered-autotag run `35318818359` can be recovered from durable GitHub Actions metadata.
 
 ### Durable boundary reached
 
-- Re-read the current workflow and the automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
-- The September 18 upload commit `9a3714de0e1f7314133f92ae211ef06a12287578` added exactly four conversation JSON files under `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/`.
-- Workflow run `35318818359` was triggered by that upload commit, but its job did not begin until `08:18:31Z`, roughly one hour after the triggering push. The workflow explicitly checks out `ref: main`, not the triggering `head_sha`. Therefore its scanner input is the state of `main` at checkout time, not necessarily the repository tree of the upload commit.
-- The archive-wide autotagger then ran from `08:18:53Z` until `09:38:15Z`. The workflow does not create JSON files before this scan: prior steps only checkout, set up Python, compile scripts, run tests, and `mkdir` output directories. This rules out the previously live hypothesis that five intra-workflow/generated JSON files were created before the scan.
-- The workflow's publication step later fetches and hard-resets to then-current `origin/main` before re-laying the validated generated snapshot. Thus the generated bot commit's direct parent chain is not a reliable record of the scanner's checkout tree or input additions; the workflow is explicitly designed to publish a snapshot generated earlier onto a newer main.
-- Repository path history confirms that, between the upload timestamp and bot publication, `DEVELOPMENT_FULL_CONVOS` itself had no additional committed change beyond the four-file upload, and `LIVE CONVOS` had none. The +5 recognized-conversation delta therefore cannot be attributed to a fifth later commit in those two canonical conversation-source roots.
-- The apparent contradiction in the prior checkpoint is resolved at the mechanism level: comparing the bot commit's parent chain to infer scanner inputs was invalid because `checkout ref: main` and later reset-to-current-main decouple trigger SHA, scanner checkout state, and publication parent.
-- This operation deliberately stops before reconstructing the exact checkout SHA or identifying the fifth recognized path. No workflow, generated index, Dashboard, BEDROCK, archive source, automation cadence, or human-facing continuity state was changed.
+- Re-read the current workflow/control state and this automation-owned checkpoint before operating; no theory state was reconstructed, interpreted, or promoted.
+- Run `35318818359` is durably identified as triggered by upload commit `9a3714de0e1f7314133f92ae211ef06a12287578`, but the workflow itself explicitly checks out moving `main`; therefore the run trigger SHA is not sufficient to identify scanner input.
+- The run's job metadata identifies the checkout step and its timing, but does not expose the resolved commit SHA produced by `actions/checkout`.
+- The available Actions job-log endpoint is not exposed through the current GitHub connector route, and the workflow does not itself persist the resolved checkout SHA or a scanner-input path inventory into its generated artifacts.
+- Consequently the exact tree scanned at `08:18:33Z` cannot be recovered reliably from the durable metadata currently available to this automation. Inferring it from trigger SHA, later bot-commit ancestry, or aggregate file counts would recreate the accounting error already diagnosed.
+- This operation stops at that observability boundary. No workflow, generated index, Dashboard, BEDROCK, archive source, automation cadence, or human-facing continuity state was changed.
 
 ### Infrastructure-QA finding
 
-The +5 anomaly is now a **timing/ref-accounting issue, not evidence of transient JSON generation or five hidden source commits**. The workflow's use of moving `main` means a run triggered by four uploads can scan a later repository state, and its eventual generated commit can be parented onto a still later state. Exact source accounting therefore requires recording or recovering the scanner checkout SHA/path inventory; trigger SHA and generated-commit ancestry are insufficient.
+The remaining +5 path anomaly is presently **non-reconstructible from durable workflow provenance available here**. The actionable defect is now precise: layered autotag records aggregate scan results but not the exact repository tree identity used for the scan. Because checkout uses moving `main` and publication later resets to a newer `main`, future forensic accounting needs scanner-input provenance independent of both trigger and publication SHAs.
 
 ### One continuation cursor
 
-On a later infrastructure-QA recurrence, recover the exact SHA checked out by run `35318818359` at `08:18:33Z` (or the nearest durable tree identity available) and diff its JSON path inventory against the 463-file snapshot. If the exact checkout SHA is unrecoverable, treat that observability gap itself as the bounded QA defect and design a minimal scanner-input provenance field for future runs rather than guessing the fifth path.
+On a later infrastructure-QA recurrence, design one minimal, deterministic provenance addition for the layered autotagger—preferably recording `git rev-parse HEAD` immediately after checkout (and, if cheap, the canonical conversation-source path count) into the generated summary/manifest—without changing scanner semantics or broadening into pipeline redesign. Route the proposed patch through the appropriate systems/interface owner rather than silently changing shared workflow behavior.
