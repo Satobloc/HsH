@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T07:14:06.527973+00:00",
+  "generated_at_utc": "2026-09-18T07:19:47.576443+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 364,
     "skipped": 122,
-    "planned": 75,
+    "planned": 79,
     "collision": 1
   },
   "records": [
@@ -4256,6 +4256,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -4268,12 +4278,42 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "start_local": "2026-09-06T18:33:31.020000-04:00",
+      "end_local": "2026-09-13T11:27:43.869763-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1325,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-12T07:08:06.886290-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 282,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
       "start_local": "2026-09-06T03:46:03.438933-04:00",
       "end_local": "2026-09-16T01:17:06.744000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1192,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "start_local": "2026-09-07T12:43:39.943884-04:00",
+      "end_local": "2026-09-13T23:46:51.862524-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 463,
       "status": "planned",
       "warnings": []
     },
