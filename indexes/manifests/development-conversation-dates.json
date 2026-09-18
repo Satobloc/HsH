@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-18T05:59:57.965155+00:00",
+  "generated_at_utc": "2026-09-18T07:11:29.854192+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 364,
-    "skipped": 121,
+    "skipped": 122,
     "planned": 74,
     "collision": 1
   },
@@ -4245,6 +4245,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/gitignore.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
