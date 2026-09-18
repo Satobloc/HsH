@@ -90,7 +90,9 @@ def classify_pair(a: dict[str, Any], b: dict[str, Any], mapping: dict[str, Any])
 def classify_payload(payload_path: Path, repo_root: Path) -> dict[str, Any]:
     payload = json.loads(payload_path.read_text(encoding="utf-8"))
     req = payload.get("request") or {}
-    ctx = int(req.get("context_each_side", 0))
+    # Match extract_raw_window.py exactly: omitted context_each_side means radius 1.
+    # A classifier default of 0 would silently skip historical/defaulted extractions.
+    ctx = int(req.get("context_each_side", 1))
     source_rel = req.get("source_path")
     result: dict[str, Any] = {
         "payload": payload_path.as_posix(),
