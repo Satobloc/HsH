@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 468,
+  "json_files_scanned": 480,
   "conversation_exports_recognized": 417,
-  "nonconversation_json_skipped": 51,
+  "nonconversation_json_skipped": 63,
   "parse_errors": [],
   "conversations": [
     {
