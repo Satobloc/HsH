@@ -5,26 +5,26 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — rotation-health / system pulse
+## Current bounded operation — scanner-provenance artifact cleanup
 
-This recurrence performed one bounded rotation-health operation after closing the scanner-provenance repair: check whether the recurring worker system is visibly alive and whether standing Q&A requires intervention.
+This recurrence performed one bounded infrastructure-QA/reference cleanup: resolve whether the two scanner-provenance artifacts currently exposed under `indexes/autotag/` remained semantically aligned after a subsequent autotag run.
 
 ### Durable boundary reached
 
-- Re-read `BEDROCK.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `ACTIVE_AUTOMATION_ROSTER.md`, `QNA_TRIAGE_QUEUE.md`, this backend checkpoint, and the human-facing systems inbox before operating. No theory proposition was reconstructed, interpreted, promoted, or changed.
-- The active roster still defines five staggered hourly workers and explicitly keeps this automation in the backend Project Systems lane rather than the human-facing continuity identity.
-- The human-facing systems inbox currently has no OPEN item. Therefore there is no standing worker question requiring local resolution, sideways routing, or Nathan escalation in this pulse.
-- Fresh durable worker activity is visible: Mercer advanced its checkpoint through Run 109 at commit `a9d2c6388c9c186710706a181f68ef6cbe2e74e0` (2026-09-18 17:56Z), and Meridian recorded Run 049 at commit `a372f8e5a8a508b04aac979643cab4b39b2c7f06` (2026-09-18 18:28Z). These timestamps are evidence of current durable output for those two lanes only; this pulse does not infer health for workers not sampled.
-- No automation cadence, role, lane, Dashboard, Common control surface, theory surface, or worker-owned checkpoint was changed.
+- Current workflow behavior was inspected directly. `.github/workflows/layered-nathan-autotag.yml` generates, validates, displays, snapshots, and republishes `indexes/autotag/SCANNER_CHECKOUT_SHA.txt`; it does not generate or refresh `SCANNER_INPUT_PROVENANCE.md`.
+- Current `SCANNER_CHECKOUT_SHA.txt` records `60d6542e982aee4ea8e92e8a15fcdf863811d50c`. Git history shows autotag bot commit `fc4b82c86d42172c75d853ce0965787bf3f62aa4` added that value after scanning the then-current tree.
+- `SCANNER_INPUT_PROVENANCE.md` still recorded the older scanner SHA `f7688fcfb99cce5776112e7d6ae50ba55f282881` and had not been refreshed by the current workflow. The two files therefore no longer represented two useful contemporaneous provenance moments; the Markdown file had become a stale duplicate capable of misleading readers.
+- Removed only the stale `indexes/autotag/SCANNER_INPUT_PROVENANCE.md` using its freshly fetched blob SHA. Cleanup commit: `395c76537b11f2e00d8f3aa9e6b5338104834d1c`.
+- No scanner behavior, workflow cadence, source corpus, Nathan Direct/Stage-2 semantics, theory state, BEDROCK, Dashboard, or human-facing continuity surface was changed.
 
-### Rotation-health finding
+### Infrastructure-QA finding
 
-The previous infrastructure-QA branch is not monopolizing the recurrence. The sampled system shows current durable activity in two adjacent recurring lanes and no queued systems question requiring intervention. No Nathan notification is warranted from this pulse.
+The durable scanner provenance contract is now singular and matches the active workflow: `SCANNER_CHECKOUT_SHA.txt` is the generated scanner-tree identity artifact. The older Markdown provenance artifact was a one-run artifact rather than a maintained second provenance channel and became stale on the next run.
 
 ### Open dependency
 
-None created by this operation. Unsampled workers remain outside this pulse's conclusion.
+None for this cleanup. Future scanner runs should continue to refresh `SCANNER_CHECKOUT_SHA.txt` through the existing generated-snapshot path.
 
 ### One continuation cursor
 
-Use the next recurrence for a different protected class rather than returning immediately to scanner QA: choose one bounded Ravel/theory-interface or archive/provenance operation after re-reading current controls and the relevant source surface.
+Rotate away from scanner QA. Choose one bounded Ravel/theory-interface or archive/provenance operation after re-reading current controls and the relevant primary source surface.
