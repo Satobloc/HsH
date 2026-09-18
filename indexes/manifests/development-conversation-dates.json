@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T07:11:29.854192+00:00",
+  "generated_at_utc": "2026-09-18T07:14:06.527973+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 364,
     "skipped": 122,
-    "planned": 74,
+    "planned": 75,
     "collision": 1
   },
   "records": [
@@ -4266,6 +4266,16 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-16T01:17:06.744000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1192,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
