@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 101, 2026-09-18
+**Current through:** Run 102, 2026-09-18
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -23,11 +23,9 @@ Runs 90–96 bounded Viewer reproducibility: one manual external record (Srena) 
 ### Extraction / context provenance
 Run 97 established that `extract_raw_window.py` selects `context_each_side` by globally timestamp-sorted message-list adjacency, not graph ancestry, while preserving each row's `parent`. Run 98 sampled one retained LAB1 window and found both neighbors immediate graph-local.
 
-Run 99 found a concrete positive retained-output counterexample in `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.json` (`context_each_side: 1`): at least one chronological context row lies outside the target's immediate parent/child graph relation.
+Runs 99–101 reproduced graph/chronology divergence in three retained LAB1 positive-context outputs. The important criterion is whole retained context-segment continuity, not merely whether the target's immediate predecessor is its recorded parent: branch splices can occur one edge earlier or immediately after a locally correct target-parent edge.
 
-Run 100 independently reproduced graph/chronology divergence in `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-154902.json` (blob `05eb3c565ba86f162af573093474d261d263e13b`, `context_each_side: 1`) and established that checking only the target-parent edge is insufficient: a retained context segment can splice branches one edge earlier while the target's immediate parent relation is locally correct.
-
-**Run 101:** third retained LAB1 positive-context output sampled: `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-025210.json` (`context_each_side: 1`). The visible retained sequence is graph-local through assistant `2201eda1-e660-442c-998e-99134b9b0318` -> user `bed50466-dfb1-4ff7-8922-3e5e711ecb9d`, but the next chronological assistant `e3988b24-4722-45bf-8463-f5c1ef9e3fc6` records parent `d94d68c6-1576-4cd8-a251-8fae6ade1196`, not `bed50466-dfb1-4ff7-8922-3e5e711ecb9d`. This is a third retained-output reproduction of branch-spliced chronological context and confirms the whole-segment continuity criterion on a later extraction. Source read was bounded/truncated; do not infer prevalence beyond the visible sampled segment.
+**Run 102:** extended sampling to previously unsampled `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-130946.json` (blob `30d09433e3a2c69007b8320292138eb8f841d45d`, `context_each_side: 1`). The first visible retained triple is graph-local: assistant `e16c5de4-2537-4f97-bd51-b359a57462db` -> user `2356503a-eb62-474e-99da-cd1ff06d80f6` -> assistant `36cdfe32-c841-4a92-8406-e93a224d6065`, with the user recording the first assistant as parent and the following assistant recording the user as parent. This is a negative sample for that visible window only; connector truncation prevents classifying the whole extraction from this read. Do not infer file-wide or corpus-wide prevalence from it.
 
 Classification remains extraction-context provenance/semantics issue, not source corruption; prevalence and downstream interpretive effect remain unmeasured. Next extraction cursor: continue deterministic read-only classification across retained extraction JSONs with positive context, evaluating whole context-segment graph continuity: immediate parent/child-local; same-branch/non-immediate; cross-branch/spliced; unresolved. Preserve old outputs; do not overwrite provenance. Keep separate source-commit/ref provenance audit distinct.
 
@@ -45,7 +43,7 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/standard crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–101 now reproduce retained graph/chronology divergence in three LAB1 positive-context output files; route through extraction/Nathan Words owner or Sable. No Nathan decision currently required.
+- `EXTRACTION CONTEXT / OWNER-SABLE`: Runs 99–101 reproduce retained graph/chronology divergence in three LAB1 positive-context output files; Run 102 adds a negative visible-window control from a fourth sampled output. Route through extraction/Nathan Words owner or Sable. No Nathan decision currently required.
 - `VIEWER / SABLE REVIEW`: Run-71 sidecar proposal remains OPEN; no approval inferred.
 - `OWNER ACTION / RECHECK`: SAT_CONVOS_15 duplicate disposition unresolved; recheck only after relevant state change.
 - `DORMANT VIEWER BODY SEARCH`: do not activate without intent/interface review.
@@ -58,10 +56,10 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 Quantify extraction context graph-locality across retained positive-context JSON outputs with a deterministic read-only validator. Test whole retained context-segment continuity, not only target-adjacent edges. Keep extraction source-commit/ref provenance as a separate later bite.
 
 ## Run history
-Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97 extraction-context implementation semantics; 98 first negative retained sample; 99 first positive retained immediate-ancestry mismatch; 100 second retained reproduction; **101 third retained positive-context file reproduces a branch splice after a locally correct target-parent edge.**
+Runs 1–7 training/scanner; 8–12 Viewer navigation QA; 13 documentation convention; 14–22 glossary/crosswalk provenance; 23–26 docs reconciliation; 27 corpus counts; 28 external semantics; 29 duplicate collision; 30–37 integrity validator/harness; 38–46 Viewer acceptance/dedup; 47–51 semantics-aware validator; 52–53 autotag lineage; 54–69 conversation identity; 70 Viewer exposure; 71–74 relation sidecar/spec/harness/handoff; 75 Nathan Direct lineage; 76 normalization; 77–80 routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97 extraction-context implementation semantics; 98 first negative retained sample; 99–101 three positive retained branch-splice reproductions; **102 fourth sampled LAB1 positive-context output adds a graph-local visible-window negative control; full-file classification remains unresolved due bounded read truncation.**
 
 ## Best next operations
 1. Continue deterministic classification of retained extraction JSONs with positive context by whole-segment graph-locality.
-2. Route Runs 99–101 concrete finding through existing Sable/extraction ownership rather than silently redesigning another lane.
+2. Route Runs 99–102 concrete finding through existing Sable/extraction ownership rather than silently redesigning another lane.
 3. Audit exact checked-out source commit/ref persistence in extraction payload/run manifests as a separate bite.
 4. Re-audit normalization/Viewer/autotag only after relevant state changes.
