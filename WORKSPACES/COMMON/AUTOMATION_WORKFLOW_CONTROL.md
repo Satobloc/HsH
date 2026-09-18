@@ -52,7 +52,15 @@ Nathan's current SAT classification may still place the neutrino with photons an
 
 Accordingly, do **not** rewrite the current SAT position as `SAT claims neutrinos obey bosonic statistics` unless a source explicitly makes that stronger claim. The intended current distinction is structural: neutrinos may belong to the SAT traveling/light-mode excitation family while remaining standard fermions in the spin/statistics sense.
 
-Nathan also rejects `massless` as a clean SAT ontological boundary. Within SAT reasoning, interaction between timesheet/filament structures still requires dynamical accounting; the more useful internal category is therefore `light-mode` or `traveling excitation`, not an assumption of literally zero dynamical/inertial content.
+### SAT masslessness correction / prediction status
+
+Within SAT, **literal masslessness is not an allowed physical category for a detectable particle**. Nathan's current position is that any detectable excitation must interact with and push back on the timesheet; that back-reaction entails at least inertial mass. Therefore SAT predicts that every detectable particle has **nonzero inertial mass**, including photons and neutrinos.
+
+Do not soften this into `massless is merely an inconvenient label` or `massless is not the preferred SAT boundary`. The stronger SAT claim is that a physically detectable particle with exactly zero inertial mass is not possible under the model's timesheet/filament interaction picture.
+
+This means a **photon inertial-mass calculation is a distinct SAT prediction**, not merely a terminological reinterpretation of standard lightlike propagation. Historical/current SAT work has attempted such a calculation; workers should preserve and recover those calculations and their provenance rather than collapsing them into the structural light-mode category. Whether a specific calculation is mathematically or experimentally successful is a separate audit question.
+
+Accordingly, `light-mode`, `traveling excitation`, and related SAT structural terms should not be translated as `massless`.
 
 ### Force transmission / exchange-particle caution
 
