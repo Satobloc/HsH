@@ -33,6 +33,11 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - name: Record scanner checkout provenance
+        run: |
+          mkdir -p indexes/autotag
+          git rev-parse HEAD > indexes/autotag/SCANNER_CHECKOUT_SHA.txt
+          printf 'Scanner checkout SHA: %s\n' "$(cat indexes/autotag/SCANNER_CHECKOUT_SHA.txt)"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -71,6 +76,7 @@ jobs:
           python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
           python -m json.tool indexes/nathan-direct/MANIFEST.json >/dev/null
           python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
+          test -s indexes/autotag/SCANNER_CHECKOUT_SHA.txt
           test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
           test -s indexes/autotag/user-message-tags.jsonl
           test -s indexes/nathan-direct/README.md
@@ -78,6 +84,7 @@ jobs:
           find indexes/nathan-direct -maxdepth 1 -name 'nathan-direct-*.jsonl' -type f -size +0c | grep -q .
       - name: Show summaries
         run: |
+          cat indexes/autotag/SCANNER_CHECKOUT_SHA.txt
           sed -n '1,320p' indexes/autotag/AUTOTAG_SUMMARY.md
           cat indexes/nathan-direct/README.md
           cat indexes/nathan-direct/stage2/MANIFEST.json
@@ -111,6 +118,7 @@ jobs:
             python -m json.tool indexes/autotag/conversation-tag-manifest.json >/dev/null
             python -m json.tool indexes/nathan-direct/MANIFEST.json >/dev/null
             python -m json.tool indexes/nathan-direct/stage2/MANIFEST.json >/dev/null
+            test -s indexes/autotag/SCANNER_CHECKOUT_SHA.txt
             test -s indexes/autotag/CONVERSATION_TAG_INDEX.md
             test -s indexes/autotag/user-message-tags.jsonl
 
