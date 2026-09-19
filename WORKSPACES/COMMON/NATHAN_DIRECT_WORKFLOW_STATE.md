@@ -39,6 +39,24 @@ Key rules:
 
 Current availability note: conversation folder 19 contains a very large, mostly-NLM tranche; folder 20 is being created/populated. These are newly available ingest fronts, **not** inherently more valuable than earlier folders.
 
+### First bounded folder-19 index pass — 2026-09-19
+
+Durable output: `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md`.
+
+Coverage:
+- verified `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/` is populated with a large NLM-heavy tranche;
+- targeted-read `2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json`;
+- targeted-read `2025 Change__NotebookLM_export.json`;
+- inventoried several additional visible NLM filenames without assigning semantic value from title alone.
+
+Material findings:
+- NLM exports inspected here serialize both Nathan prompts and obvious NLM-generated answer prose as `role=user`; therefore the role field alone is not valid Nathan-authorship evidence for these exports;
+- `2025 Change` contains a detailed NLM-generated topic/source index over 36 uploaded papers and is tentatively VERY-HIGH value for bibliography/source-discovery work, while remaining secondary/wayfinding evidence until underlying sources are crosswalked;
+- `2 Stringing Along Theory` contains early-SAT conceptual/formalization discussion and is tentatively HIGH value for historical reconstruction, but the inspected NLM characterizations must not be promoted to Nathan Direct without underlying-source recovery;
+- an Asteroid Mining NLM export plus `(1)` variant is visible and should receive bounded duplicate/alternate-export comparison rather than filename-based disposition.
+
+Current next cursor: continue folder-19 one high-information item/cluster per bite; strongest bounded candidates are the 36-source `2025 Change` crosswalk or the Asteroid Mining export-pair relationship check. Folder 20 should receive lightweight inventory when it becomes visible, without priority inflation from upload order.
+
 ## Active operations
 
 ### ND-A1 — Publish durable high-recall Nathan Direct substrate
