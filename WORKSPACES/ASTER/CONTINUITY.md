@@ -61,6 +61,7 @@ No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet.
 - `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`
 - master Nathan Direct substrate: `indexes/nathan-direct/`
 - Stage-2 queues: `indexes/nathan-direct/stage2/`
 
@@ -74,11 +75,17 @@ Result: source-panel attestation remains stronger than repository-search evidenc
 
 ### 2026-09-20 — Steamroller source-metadata audit
 
-Current must-reads reread again. Inspected the successful Steamroller export's actual `sources` array around the target. `Proton-Electron Mass Ratio — raw - .TXT` is explicitly present, immediately between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`. Crucially, both its source entries have `source_id: null` and `row_text: null`; the export preserves only the title (one icon-prefixed duplicate and one plain duplicate). The surrounding source entries have the same null metadata pattern. Therefore this exporter capture contains **no target-specific identifier, URL, date, or row metadata to follow** beyond the title itself. The notebook-level metadata does preserve notebook ID/capture time, but that does not identify the underlying Proton-Electron source.
+Current must-reads reread again. Inspected the successful Steamroller export's actual `sources` array around the target. `Proton-Electron Mass Ratio — raw - .TXT` is explicitly present, immediately between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`. Crucially, both its source entries have `source_id: null` and `row_text: null`; the export preserves only the title (one icon-prefixed duplicate and one plain duplicate). The surrounding source entries have the same null metadata pattern. Therefore this exporter capture contains no target-specific identifier, URL, date, or row metadata to follow beyond the title itself. The notebook-level metadata preserves notebook ID/capture time, but that does not identify the underlying Proton-Electron source.
 
-This closes the proposed “extract source-specific metadata from Steamroller” route as a negative result rather than leaving it pending. Provenance classification remains: **NLM source-panel attestation / unresolved underlying source**. It is not a located archived source and not yet a demonstrated archive gap.
+This closes the proposed “extract source-specific metadata from Steamroller” route as a negative result. Provenance classification remains: **NLM source-panel attestation / unresolved underlying source**. It is not a located archived source and not yet a demonstrated archive gap.
 
-**Next cursor:** use source adjacency as the new bounded recovery route: crosswalk one distinctive adjacent named source from the same panel (prefer `Ret--Jun1 SAT Z Review — raw - .TXT` or `SAT ACTIVE EDGE vNext — raw - .TXT`) to a raw conversation/document with date/identity, then test whether the Proton-Electron item belongs to the same export/source-generation tranche. Do not infer adjacency chronology unless the underlying sources establish it.
+### 2026-09-19 — adjacent-title search + folder-20 availability checkpoint
+
+Current must-reads reread. The bounded source-adjacency search for `Ret--Jun1 SAT Z Review`, `SAT ACTIVE EDGE vNext`, `QUINTATION Quick Pass Analysis`, and nearby shortened title variants returned no indexed matches across HsH and the original SAT archive. This means the first adjacency route did not produce a raw anchor; do not turn source-panel order into chronology without independent evidence.
+
+The required higher-folder watch produced a material change: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/` is now populated. A first SHA-based comparison against visible folder-19 entries established several exact cross-folder duplicate blobs, including `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS`, `2 Stringing Along Theory`, both Asteroid Mining captures, `BLANK SLATE`, and `CONSCIOUSNESS CLUB_ SUPERMETA CHAT`. These duplicate paths should be preserved for provenance but do not require repeated semantic ingest. Folder 20 also contains inventory-visible blobs such as `# SAT_SoT Scalar-Angular-Theory State of the Theory`, `Alberrisch`, and `BURNTHROUGH` that have not yet been semantically assessed. Durable index started at `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
+
+**Next cursor:** perform one bounded folder-20 novelty pass using filename + blob SHA against folder 19, separating exact duplicate archive copies from genuinely new blobs before selecting one new high-information item for targeted reading. Return to the Q ancestry route when a non-code-search anchor becomes available; do not keep spraying title variants.
 
 ## End-of-run discipline
 
