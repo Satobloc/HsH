@@ -290,7 +290,7 @@ Never use generic `verified` as a substitute for stating exactly what was checke
 
 | Issue | Priority | Worker / requested review | Class | Dependency / decision | Safe work meanwhile | Raised | Status |
 |---|---|---|---|---|---|---|---|
-| `MORROW-SOURCE-001` | P1 before duplicate disposition | Morrow; review from Mercer / scanner maintainer | `DEPENDENCY` | Janus export comparison found one shortened `execution_output.text` despite earlier-ID preservation; complete-content equality / metadata policy and regression case still need durable resolution before duplicate disposition. | Preserve older source; continue other continuity/retrieval QA. No Nathan decision currently required. | 2026-09-13 | OPEN |
+| `MORROW-SOURCE-001` | P1 before duplicate disposition | Morrow; review from Mercer / scanner maintainer | `RESOLVED` | Scanner now compares the entire `content` object rather than selected fields; the Janus `execution_output.text` truncation case is therefore no longer a false-positive under the current scanner implementation. Historical candidate reports generated under the old selected-field comparator may still require regeneration/review before duplicate disposition. | Preserve older source until point-of-use/index/tag review and regenerated candidate output are complete. | 2026-09-13 | RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN |
 
 ## Current lane map
 
