@@ -24,12 +24,14 @@ Use these statuses for LLM-produced mathematics:
 An LLM produced or asserted a calculation/result. No meaningful verification has yet been established.
 
 ### DISCLAIMED
-An LLM later identified the calculation/result as invalid, unsupported, incomplete, dimensionally inconsistent, or insufficient to establish the claimed conclusion.
+A full mathematical workthrough has been completed, the relevant calculation/result has failed that workthrough, and reasonable repair has been attempted without resolving the defect.
+
+**Hard gate:** nothing is assigned `DISCLAIMED` merely because a displayed derivation is incomplete, a source omits needed machinery, a benchmark fails to instantiate its advertised endpoints, or an audit finds a local defect. Those findings are recorded as **INCOMPLETE / UNSUPPORTED IN THIS PRESENTATION / REPAIR REQUIRED** while the broader archive and repair path are investigated.
 
 A disclaimer applies to the particular calculation/derivation/test unless the examined attempt set is explicitly exhaustive. It does **not** by itself invalidate an entire hypothesis family.
 
 ### CLAIMED VERIFIED
-An LLM or computational tool reports that it checked the mathematics and found it valid.
+An LLM or computational tool reports that it checked the mathematics and found it valid. Historical `CLAIMED VERIFIED` is preserved as provenance, but a new/current validation judgment requires a full mathematical workthrough and attempted repair of any defects encountered.
 
 This records a verification **claim**. It is not equivalent to proof that the result is correct. Record the verifier, method, inputs, assumptions, and scope where recoverable.
 
@@ -77,3 +79,20 @@ The governing audit question is:
 > What exactly was calculated, and does the calculation establish what it says it establishes?
 
 This protocol should be used in solver reconstruction, claims ledgers, glossary/source ancestry work where equations are involved, and future mathematical development.
+
+
+## Hard validation/disclaimer gate — Nathan directive
+
+**Directive recorded:** 2026-09-19, current conversation turn containing Nathan's instruction:  
+> "DISCLAIMED isn't accurate. I'm quite sure that somewhere in the archive we have a working GM-QR isomorphism calculation. Nothing *ever* gets disclaimed (or validated) without full workthrough of the math, and attempted repair. Make that a standing rule with this turn ID recorded."
+
+**Turn ID:** The runtime exposed to this worker does not provide a stable platform message/turn identifier for the user message. Record locator: **Meridian conversation, 2026-09-19 04:54 -04:00, immediately following RUN_057 discussion of the GR↔QM benchmark.** If/when a stable exported turn/message ID is recovered, append it here without replacing this locator.
+
+Standing rule:
+
+1. No current mathematical claim is newly marked **DISCLAIMED** without a full workthrough of the relevant mathematics and a good-faith attempted repair.
+2. No current mathematical claim is newly marked **VALIDATED** (or equivalent present-day positive verdict) without a full workthrough and attempted repair of encountered defects.
+3. A deficient or incomplete individual presentation is not evidence that the archive lacks a working derivation elsewhere.
+4. Before negative adjudication of an important historical SAT/H(s)H mathematical claim, search for alternate/full derivations in the archive.
+5. Local defects remain reportable and must be preserved, but use scoped language such as **INCOMPLETE**, **LOCAL DEFECT**, **UNSUPPORTED IN THIS PRESENTATION**, or **REPAIR REQUIRED** until the hard gate is satisfied.
+6. Historical status claims such as `CLAIMED VERIFIED` remain part of provenance even when present-day re-audit is pending.
