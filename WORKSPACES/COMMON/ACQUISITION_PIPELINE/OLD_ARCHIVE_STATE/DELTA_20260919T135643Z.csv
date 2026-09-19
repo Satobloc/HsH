@@ -1,0 +1,38 @@
+change,path,old_blob_sha,new_blob_sha,bytes
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_042808.txt,,d3b0939f9fe49188f3ba76295d7ded18955aebb4,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_042909.txt,,131508d5eb9b9ab4ef5792a9463d2e36edf4c211,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_091914.txt,,2c203818d90d6dd79e597ae8b8d16dff02c8f031,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_093747.txt,,5be8c09920bd59b3e0f831dfa2420c663818ba53,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_094137.txt,,f66be3451b050b9cbe81c429169cfcfadbed70f9,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_094518.txt,,e8d603abd7b5d949f12f7a9d7cefd4a30cfb6532,1669
+CHANGED,.[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt,d9a9541985a37fc9d091fd2a160759b90fd6b044,c83650a827164ab05370272d632a6519d4bc8e97,174
+CHANGED,2026 discussions/SAT PREDICTIVE BENCHMARKING.txt,cc317e5e2b0633edcabf51c891282bc4b2734499,1cdc67ae06e9811193009f1c1db7fe12895d35f8,152440
+ADDED,"DEBATING AI PODCAST/The New Physics - (++++) or (+++,+++)_.srt",,ce80c65941ee72f2041786b68a61033ac7d106a2,70572
+ADDED,DEBATING AI PODCAST/The New Physics - 2026 ≠ 2024.srt,,f32e1bbbc644b940095a5d2577d83f68431feb38,95475
+ADDED,DEBATING AI PODCAST/The New Physics - AI Legibility — The Fun Way.srt,,9da6d71c51adc56757ce2e3f3d55bbe3626e9f96,80098
+ADDED,DEBATING AI PODCAST/The New Physics - Another Look at Bell’s Theorem.srt,,24c90e9396b6a39a7e00de51b833baf861c9501f,71674
+ADDED,DEBATING AI PODCAST/The New Physics - Black Hole Merger.srt,,0d235bc2489617f2738c744dffffe2d8ffcc6f85,55886
+ADDED,DEBATING AI PODCAST/The New Physics - Chemical-Optical Lab Bench.srt,,576ffef4bab6e6eae52be7e21e0950bdba91310b,89351
+ADDED,DEBATING AI PODCAST/The New Physics - Convergence.srt,,1be36dee8c815a8e533c102aed5601134a540d19,103974
+ADDED,DEBATING AI PODCAST/The New Physics - Crazy Talk.srt,,5e9ef4943612ac83b5696e4b745478e0ca7f8f21,46574
+ADDED,DEBATING AI PODCAST/The New Physics - Dual-Shell λ Expansion.srt,,a87c5af3b6595287962e61d8c4c324822c5c19ba,93812
+ADDED,DEBATING AI PODCAST/The New Physics - Dzhanibekov Planets.srt,,3aa2adfc89cc89f112ed57895f5429b9b5664115,55646
+ADDED,DEBATING AI PODCAST/The New Physics - Finger Trap World.srt,,3e9589b12f50ab894b2504e62729db3ac23fe787,84797
+ADDED,DEBATING AI PODCAST/The New Physics - H(s)H Overview.srt,,01b15466c2c74f3ca68a8a2d3fdffc7580f8fc8f,67788
+ADDED,DEBATING AI PODCAST/The New Physics - Hasimoto Particle Cosmology.srt,,47149a5972dd982bbee5ab65eb4011f28c15db2c,62402
+ADDED,DEBATING AI PODCAST/The New Physics - Intellectual Playgrounds_ Thought As Structure — Revisited.srt,,d3e886ff35b6bcf54f9d1bc2d6448368c395d54b,69444
+ADDED,DEBATING AI PODCAST/The New Physics - Majorana Coupling & Coiled Cooper Pairing (1).srt,,4fcf898af846478b3f031313ecd9dc96813b7517,92105
+ADDED,DEBATING AI PODCAST/The New Physics - Particles & Inverse Black Holes.srt,,cc8266d8e80cdb69d2293328cd9ec3809689a6b0,79462
+ADDED,DEBATING AI PODCAST/The New Physics - Physics vs Dogma.srt,,6b63709fd3491d4d77a1b87b979f242c4ab3713e,77558
+ADDED,DEBATING AI PODCAST/The New Physics - Physics_ The Full Stack.srt,,5defcd4ef2faa48fd2c38b354bfbaf92dc8c0b91,15677
+ADDED,DEBATING AI PODCAST/The New Physics - Quantum Kelvin Waves.srt,,d13e35cdc0e1b3cec2488ffd94e1cb2888a88066,79208
+ADDED,DEBATING AI PODCAST/The New Physics - SAT ==_ H(s)H.srt,,49c0ecdf1fadf811cd14a75ddfdecff0acf97180,80953
+ADDED,DEBATING AI PODCAST/The New Physics - The Einstein-Rosen Key.srt,,6cc59163f8cae33babce5f26dd96ec7d58dc2552,67925
+ADDED,DEBATING AI PODCAST/The New Physics - The Math of it All.srt,,49f47e71be46c769ce5a68b4c01af77d6cba917a,75813
+ADDED,DEBATING AI PODCAST/The New Physics - The Time Travel Brick Wall.srt,,c7534d587c06f62d24c6ba5a6f3d8dd2978875bd,83158
+ADDED,DEBATING AI PODCAST/The New Physics - The c - H_0 Gap.srt,,6e786fb392c9fd4b4862971d0a813de4b84188e6,95757
+ADDED,DEBATING AI PODCAST/The New Physics - Viscous_ Or Superfluid_.srt,,c200166371904ac64d6a662a7eb4688543c16505,72571
+ADDED,DEBATING AI PODCAST/The New Physics - Zitterbewegung & Worldtubes.srt,,d7807b1871ef96f491a1178df9f4ee7356072af3,71971
+CHANGED,DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt,81ae23a106939cba7e3d134ed5c90a7d7a979a25,0318d803fc4bb948d781d1aa0d9257dc2bcead77,9657
+CHANGED,SAT 2026 PRE HsH/SAT 2026 WHIRLIGIG — Donut canon.txt,be985c292bfcae7352983d596c38e7f172f6029d,8f95b9174657617c9976ff76e17fd8ef36ad660c,18505
+CHANGED,_AUTO_EXTRACTED_TEXT/MINKOWSKI PROPER.txt,d947b88277a738b414b0cad7a4acef6a6d570842,99d4a476c854ed4259b4e43fed274886dcb7f284,13546

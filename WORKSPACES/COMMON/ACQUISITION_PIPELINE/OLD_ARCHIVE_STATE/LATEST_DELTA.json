@@ -1,27 +1,265 @@
 {
-  "source_commit": "c6012e90ef6354eb828c16decef9b1f4a76518d1",
-  "observed_utc": "2026-09-18T14:32:48.960219+00:00",
+  "source_commit": "cbbb90e3e26923f73d6fc92f75abc86b34f8c775",
+  "observed_utc": "2026-09-19T13:56:43.107460+00:00",
   "changes": [
     {
-      "change": "CHANGED",
-      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "6bdd7d53aa24ec32df35a1a365174ab6798c199a",
-      "new_blob_sha": "07a2c2fb52c6aa40b20edf5f403795771e3cd937",
-      "bytes": 1342098
-    },
-    {
-      "change": "CHANGED",
-      "path": "..findex.txt",
-      "old_blob_sha": "1cc55431e3a4d124e90a934576c7bfffb44c2cfd",
-      "new_blob_sha": "1b00ca9829c97e478839d2343f93333258cf874d",
-      "bytes": 193522
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_042808.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "d3b0939f9fe49188f3ba76295d7ded18955aebb4",
+      "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20260918_134051.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_042909.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "b49639f7092c85cec0c4a1a6ec7c2d5968e0ac49",
-      "bytes": 301
+      "new_blob_sha": "131508d5eb9b9ab4ef5792a9463d2e36edf4c211",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_091914.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "2c203818d90d6dd79e597ae8b8d16dff02c8f031",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_093747.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "5be8c09920bd59b3e0f831dfa2420c663818ba53",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_094137.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "f66be3451b050b9cbe81c429169cfcfadbed70f9",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260919_094518.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "e8d603abd7b5d949f12f7a9d7cefd4a30cfb6532",
+      "bytes": 1669
+    },
+    {
+      "change": "CHANGED",
+      "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
+      "old_blob_sha": "d9a9541985a37fc9d091fd2a160759b90fd6b044",
+      "new_blob_sha": "c83650a827164ab05370272d632a6519d4bc8e97",
+      "bytes": 174
+    },
+    {
+      "change": "CHANGED",
+      "path": "2026 discussions/SAT PREDICTIVE BENCHMARKING.txt",
+      "old_blob_sha": "cc317e5e2b0633edcabf51c891282bc4b2734499",
+      "new_blob_sha": "1cdc67ae06e9811193009f1c1db7fe12895d35f8",
+      "bytes": 152440
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - (++++) or (+++,+++)_.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "ce80c65941ee72f2041786b68a61033ac7d106a2",
+      "bytes": 70572
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - 2026 ≠ 2024.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "f32e1bbbc644b940095a5d2577d83f68431feb38",
+      "bytes": 95475
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - AI Legibility — The Fun Way.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "9da6d71c51adc56757ce2e3f3d55bbe3626e9f96",
+      "bytes": 80098
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Another Look at Bell’s Theorem.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "24c90e9396b6a39a7e00de51b833baf861c9501f",
+      "bytes": 71674
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Black Hole Merger.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "0d235bc2489617f2738c744dffffe2d8ffcc6f85",
+      "bytes": 55886
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Chemical-Optical Lab Bench.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "576ffef4bab6e6eae52be7e21e0950bdba91310b",
+      "bytes": 89351
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Convergence.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "1be36dee8c815a8e533c102aed5601134a540d19",
+      "bytes": 103974
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Crazy Talk.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "5e9ef4943612ac83b5696e4b745478e0ca7f8f21",
+      "bytes": 46574
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Dual-Shell λ Expansion.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "a87c5af3b6595287962e61d8c4c324822c5c19ba",
+      "bytes": 93812
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Dzhanibekov Planets.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "3aa2adfc89cc89f112ed57895f5429b9b5664115",
+      "bytes": 55646
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Finger Trap World.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "3e9589b12f50ab894b2504e62729db3ac23fe787",
+      "bytes": 84797
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - H(s)H Overview.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "01b15466c2c74f3ca68a8a2d3fdffc7580f8fc8f",
+      "bytes": 67788
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Hasimoto Particle Cosmology.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "47149a5972dd982bbee5ab65eb4011f28c15db2c",
+      "bytes": 62402
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Intellectual Playgrounds_ Thought As Structure — Revisited.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "d3e886ff35b6bcf54f9d1bc2d6448368c395d54b",
+      "bytes": 69444
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Majorana Coupling & Coiled Cooper Pairing (1).srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "4fcf898af846478b3f031313ecd9dc96813b7517",
+      "bytes": 92105
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Particles & Inverse Black Holes.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "cc8266d8e80cdb69d2293328cd9ec3809689a6b0",
+      "bytes": 79462
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Physics vs Dogma.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "6b63709fd3491d4d77a1b87b979f242c4ab3713e",
+      "bytes": 77558
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Physics_ The Full Stack.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "5defcd4ef2faa48fd2c38b354bfbaf92dc8c0b91",
+      "bytes": 15677
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Quantum Kelvin Waves.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "d13e35cdc0e1b3cec2488ffd94e1cb2888a88066",
+      "bytes": 79208
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - SAT ==_ H(s)H.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "49c0ecdf1fadf811cd14a75ddfdecff0acf97180",
+      "bytes": 80953
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - The Einstein-Rosen Key.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "6cc59163f8cae33babce5f26dd96ec7d58dc2552",
+      "bytes": 67925
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - The Math of it All.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "49f47e71be46c769ce5a68b4c01af77d6cba917a",
+      "bytes": 75813
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - The Time Travel Brick Wall.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "c7534d587c06f62d24c6ba5a6f3d8dd2978875bd",
+      "bytes": 83158
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - The c - H_0 Gap.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "6e786fb392c9fd4b4862971d0a813de4b84188e6",
+      "bytes": 95757
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Viscous_ Or Superfluid_.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "c200166371904ac64d6a662a7eb4688543c16505",
+      "bytes": 72571
+    },
+    {
+      "change": "ADDED",
+      "path": "DEBATING AI PODCAST/The New Physics - Zitterbewegung & Worldtubes.srt",
+      "old_blob_sha": "",
+      "new_blob_sha": "d7807b1871ef96f491a1178df9f4ee7356072af3",
+      "bytes": 71971
+    },
+    {
+      "change": "CHANGED",
+      "path": "DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt",
+      "old_blob_sha": "81ae23a106939cba7e3d134ed5c90a7d7a979a25",
+      "new_blob_sha": "0318d803fc4bb948d781d1aa0d9257dc2bcead77",
+      "bytes": 9657
+    },
+    {
+      "change": "CHANGED",
+      "path": "SAT 2026 PRE HsH/SAT 2026 WHIRLIGIG — Donut canon.txt",
+      "old_blob_sha": "be985c292bfcae7352983d596c38e7f172f6029d",
+      "new_blob_sha": "8f95b9174657617c9976ff76e17fd8ef36ad660c",
+      "bytes": 18505
+    },
+    {
+      "change": "CHANGED",
+      "path": "_AUTO_EXTRACTED_TEXT/MINKOWSKI PROPER.txt",
+      "old_blob_sha": "d947b88277a738b414b0cad7a4acef6a6d570842",
+      "new_blob_sha": "99d4a476c854ed4259b4e43fed274886dcb7f284",
+      "bytes": 13546
     }
   ]
 }
