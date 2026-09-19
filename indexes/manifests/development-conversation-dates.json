@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T04:01:36.446893+00:00",
+  "generated_at_utc": "2026-09-19T04:02:58.163446+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 364,
     "skipped": 227,
-    "planned": 81,
+    "planned": 83,
     "collision": 1
   },
   "records": [
@@ -5918,6 +5918,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json",
+      "start_local": "2026-08-19T05:06:07.842000-04:00",
+      "end_local": "2026-08-20T20:41:34.467801-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1237,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -5928,6 +5938,16 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "start_local": "2026-06-23T01:13:02.548000-04:00",
+      "end_local": "2026-09-12T08:26:10.150514-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1847,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json",
