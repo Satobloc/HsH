@@ -22,15 +22,7 @@ Newer explicit Nathan directives control.
 
 ## Primary responsibility
 
-Recover and preserve verified Nathan-authored raw material with:
-- exact wording;
-- metadata-authenticated authorship;
-- chronology;
-- cumulative tags;
-- adjacency / parent-child context;
-- duplicate, prefix, superset, branch, and alternate-capture relationships;
-- source ancestry and archive crosswalks;
-- strict separation of Nathan text from assistant, NotebookLM, or other LLM prose.
+Recover and preserve verified Nathan-authored raw material with exact wording, metadata-authenticated authorship, chronology, cumulative tags, adjacency / parent-child context, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation of Nathan text from assistant/NotebookLM/other LLM prose.
 
 Do not treat `role=user` as sufficient Nathan-authorship evidence in NotebookLM exports. Folder-18/19 NLM captures demonstrably serialize generated/interface material that way.
 
@@ -38,121 +30,56 @@ Do not treat `role=user` as sufficient Nathan-authorship evidence in NotebookLM 
 
 P0 remains detailed conversation-folder indexing, especially folder 18 NLM extractions, while lightly detecting new material in folders 19+ without rescanning unchanged tranches merely to satisfy a watch.
 
-NLM source indices are wayfinding evidence, not substitutes for underlying documents. Maintain:
-1. index/source attestation;
-2. located underlying archived source;
-3. unresolved/inferred/missing source candidate.
+NLM source indices are wayfinding evidence, not substitutes for underlying documents. Maintain: (1) index/source attestation; (2) located underlying archived source; (3) unresolved/inferred/missing source candidate.
 
 ## Q / inverse-Q watch
 
-Nathan-direct clarification, 2026-09-19:
+Nathan-direct clarification, 2026-09-19: neither Q nor inverse-Q is adequate. Prioritize braid smoothing, scaling, scale transition, and attempted replacements. Treat “holonomy bridge” as exploratory until provenance/necessity are established. Bare `Q` is collision-prone elsewhere and requires local typing.
 
-- neither the Q rule nor inverse-Q is right; both are insufficient;
-- prioritize braid smoothing, scaling, scale-transition, and related reconciliation/replacement work;
-- NLM contains substantial relevant work but must be handled cautiously;
-- devices such as the “holonomy bridge” may be fudge/repair attempts and must not be silently promoted;
-- reconstruct why Q and inverse-Q failed, what problem each addressed, what smoothing/scaling repairs followed, and which structures survived or were superseded.
+Folder 18 `H(s)H STEAMROLLER__NotebookLM_export (1).json` contains NLM-generated proportional-Q mass law, “Braid-Smoothing Factor,” “Holonomy Bridge,” incompatible bridge corrections (~8.2e-5 vs ~0.00609), and a later generated claim that inverse-Q was retracted. Nathan's newer direct correction supersedes that binary generated resolution.
 
-Important collision warning: bare `Q` is overloaded elsewhere (e.g. frame rotations and covariance/second-moment tensors). Require local typing/context.
+The same NLM material repeatedly depends on 24-cell/HSUCV machinery. A likely Nathan intervention rejecting the 24-cell until geometry forces it appears in the notebook, but is not authenticated because of the NLM role-serialization problem.
 
-### Current Q-lineage evidence
-
-Folder 18 `H(s)H STEAMROLLER__NotebookLM_export (1).json` contains NLM-generated material with:
-- proportional-Q mass law;
-- explicit “Braid-Smoothing Factor”;
-- explicit “Holonomy Bridge”;
-- incompatible bridge corrections (~8.2e-5 versus ~0.00609 in different generated passages);
-- later generated declaration that inverse-Q was retracted in favor of proportional Q.
-
-Nathan's newer direct correction supersedes that binary NLM resolution: neither is adequate.
-
-The same NLM material repeatedly depends on 24-cell/HSUCV machinery. A likely Nathan intervention rejecting the 24-cell until geometry forces it appears in the notebook, but is not yet authenticated because of the NLM role-serialization problem.
-
-Strong ancestry cursor: `Proton-Electron Mass Ratio — raw - .TXT`. Exact-title searches in HsH and original SAT archive did not locate it. Status: unresolved crosswalk, not proven absent.
+Strong ancestry cursor: `Proton-Electron Mass Ratio — raw - .TXT`. Exact-title/distinctive-phrase searches in HsH and original SAT archive did not locate it. Status remains unresolved crosswalk, not proven absent.
 
 ## Mathematical diagnosis / repair clearance
 
-Nathan explicitly cleared Aster on 2026-09-19 to attempt mathematical diagnoses and repairs where Aster judges the source/context sufficient.
+Nathan explicitly cleared Aster on 2026-09-19 to attempt mathematical diagnoses and repairs where source/context is sufficient. All such work is sandbox theory work unless Nathan explicitly promotes it. Separate source claims, Nathan-direct constraints, Aster assumptions, diagnosis, proposed repair, checks, and unresolved failure modes. Never back-write repair into historical provenance.
 
-All such work is **sandbox theory work** unless Nathan explicitly promotes it.
-
-For every diagnosis/repair, separate:
-- source equations / source claims;
-- Nathan-direct constraints/corrections;
-- assumptions introduced by Aster;
-- mathematical diagnosis;
-- proposed repair/alternative;
-- checks performed;
-- unresolved issues / failure modes.
-
-Never back-write a repair into historical provenance. A mathematically successful repair is not automatically current SAT/H(s)H doctrine.
-
-For the Q/inverse-Q problem specifically, do not start by choosing one. Recover the actual scaling/smoothing constraints first; test whether Q/inverse-Q were compensating for a missing variable, normalization, scale map, geometric invariant, or other structure. Treat bridge terms as suspect until independently motivated.
+For Q/inverse-Q, recover actual scaling/smoothing constraints before proposing a rule; test whether the historical alternatives were compensating for a missing variable, normalization, scale map, invariant, or other structure.
 
 ## Live provenance priority
 
-Recover exact raw wording/date for Nathan's 2026-09-14 intellectual-provenance statement: conceptual development primarily his own thinking, strongly rooted in Minkowski/first-principles spacetime reasoning and general science background; very limited prior braid-mathematics familiarity until recently; only broad-popular familiarity with string theory. This is provenance testimony, not novelty proof.
+Recover exact raw wording/date for Nathan's 2026-09-14 intellectual-provenance statement: conceptual development primarily his own thinking, strongly rooted in Minkowski/first-principles spacetime reasoning and general science background; very limited prior braid-mathematics familiarity until recently; only broad-popular familiarity with string theory. Treat as provenance testimony, not novelty proof.
 
 ## Hard boundaries
 
-- No conversation renaming or retitling.
-- Never reproduce/imitate Nathan's owl signet.
-- Direct theory development stays in sandbox.
-- Quarantine / PRIOR_ART remains off-limits.
-- Possible close prior art discovered outside quarantine: send Sable only bibliographic identity/source pointer + minimal neutral note; do not import machinery locally.
-- Preserve failed, contradictory, superseded, playful, and exploratory work.
-- Keep provenance/currentness/polish/maturity/vetting/math correctness/theory correctness/sandbox status distinct.
+No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet. Direct theory development stays in sandbox. Quarantine / PRIOR_ART remains off-limits. Possible close prior art: send Sable only bibliographic identity/source pointer + minimal neutral note. Preserve failed/contradictory/superseded/playful work and keep provenance/currentness/polish/vetting/math correctness/theory correctness/sandbox status distinct.
 
-## Current durable outputs / pointers
+## Current durable pointers
 
 - `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md`
-- folder-19 Asteroid Mining pair audit (see Common conversation-folder index area)
 - master Nathan Direct substrate: `indexes/nathan-direct/`
 - Stage-2 queues: `indexes/nathan-direct/stage2/`
 
-## Current frontier / restart cursor
+## Last meaningful state / checkpoints
 
-First choice: locate/crosswalk `Proton-Electron Mass Ratio — raw - .TXT` or its originating raw conversation using title fragments, distinctive equations/phrases, adjacency, NLM source metadata, and original SAT archive material. Goal: establish authorship/chronology for Q, inverse-Q, braid smoothing, and Holonomy Bridge machinery.
+### 2026-09-20 — Proton-Electron source search
 
-Second choice if blocked: inspect a tightly related folder-18 NLM smoothing/scaling source and extract source-panel ancestry pointers, without treating NLM synthesis as Nathan Direct.
+Current must-reads reread. Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and `0.00609 proton electron mass` returned no indexed matches. `File Set Overview — raw.json` was visible but not treated as searched content when connector retrieval returned no body text.
 
-Third choice: recover/authenticate the candidate Nathan 24-cell rejection from the underlying raw conversation.
+Result: source-panel attestation remains stronger than repository-search evidence. Stop repeating broad code-search variants.
 
-When enough primary context is recovered, a sandbox mathematical diagnosis of the Q/inverse-Q scaling failure is explicitly authorized.
+### 2026-09-20 — Steamroller source-metadata audit
 
-## Last meaningful state
+Current must-reads reread again. Inspected the successful Steamroller export's actual `sources` array around the target. `Proton-Electron Mass Ratio — raw - .TXT` is explicitly present, immediately between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`. Crucially, both its source entries have `source_id: null` and `row_text: null`; the export preserves only the title (one icon-prefixed duplicate and one plain duplicate). The surrounding source entries have the same null metadata pattern. Therefore this exporter capture contains **no target-specific identifier, URL, date, or row metadata to follow** beyond the title itself. The notebook-level metadata does preserve notebook ID/capture time, but that does not identify the underlying Proton-Electron source.
 
-As of 2026-09-19:
-- NLM role=user hazard established;
-- Q-symbol collision established;
-- Q/inverse-Q insufficiency recorded as newer Nathan-direct correction;
-- Steamroller NLM repair sequence identified;
-- Holonomy Bridge flagged as potentially ad hoc and numerically inconsistent in generated presentations;
-- underlying Proton-Electron Mass Ratio source remains unresolved;
-- no replacement scaling law has been established.
+This closes the proposed “extract source-specific metadata from Steamroller” route as a negative result rather than leaving it pending. Provenance classification remains: **NLM source-panel attestation / unresolved underlying source**. It is not a located archived source and not yet a demonstrated archive gap.
 
-### Hourly checkpoint — 2026-09-20
-
-Current must-read/control surfaces were reread, including the no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, bibliography sequence, Nathan Direct state, current coordination/handoffs, and this continuity file. No newer directive displaced the folder-18/Q-lineage cursor.
-
-Bounded operation: source-path/crosswalk search for `Proton-Electron Mass Ratio — raw - .TXT`. GitHub code searches across both `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for the exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and the distinctive `0.00609 proton electron mass` phrase returned no indexed matches. A fresh listing of `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/` confirms the NLM/source-rich tranche remains present; the large `File Set Overview — raw.json` is present but line-oriented connector retrieval returned no body text, so it was not treated as searched content.
-
-Result: the source-panel attestation remains stronger than repository-search evidence. `Proton-Electron Mass Ratio — raw - .TXT` is still an **index-attested / unresolved underlying source**, not a located source and not a proven archive gap. No authorship, chronology, or mathematical status was promoted. This negative search narrows the next method: stop repeating code-search variants and instead recover the source through NLM source metadata or a raw-conversation title/date/content anchor, then use bounded raw-window extraction if a defensible anchor is found.
-
-**Next cursor:** inspect the successful Steamroller capture's source metadata for any identifier/date/URL attached specifically to `Proton-Electron Mass Ratio — raw - .TXT`; if metadata are insufficient, seek a raw conversation anchor from adjacent named source artifacts rather than another broad phrase search.
+**Next cursor:** use source adjacency as the new bounded recovery route: crosswalk one distinctive adjacent named source from the same panel (prefer `Ret--Jun1 SAT Z Review — raw - .TXT` or `SAT ACTIVE EDGE vNext — raw - .TXT`) to a raw conversation/document with date/identity, then test whether the Proton-Electron item belongs to the same export/source-generation tranche. Do not infer adjacency chronology unless the underlying sources establish it.
 
 ## End-of-run discipline
 
-After material progress, update this file with:
-- exact sources/date ranges covered;
-- provenance/authorship decisions;
-- duplicate/crosswalk status;
-- mathematical/theory work and sandbox status;
-- archive infrastructure changes;
-- enrichment/capability changes;
-- unresolved issues;
-- one best next cursor.
-
-Do not manufacture progress when none exists.
+After material progress, update this file with exact sources/date ranges covered, provenance/authorship decisions, duplicate/crosswalk status, mathematical/theory work and sandbox status, archive-infrastructure changes, enrichment/capability changes, unresolved issues, and one best next cursor. Do not manufacture progress when none exists.
