@@ -99,11 +99,17 @@ Private/quarantined material must stay within its routing rules.
 
 Current and upcoming NotebookLM uploads are a priority ingest frontier.
 
-Use them for:
+**Current ingest frontier update — 2026-09-18:**
+- conversation folder **19** now contains a **very large tranche**, mostly NotebookLM exports, and should be treated as a high-value current source batch;
+- conversation folder **20** is now being created/populated and should be watched for new arrivals;
+- folder 18 remains relevant, but workers should not assume it is still the newest or highest-yield tranche merely because earlier control text named it first.
+
+Use NLM material for:
 - Nathan-authored formulations of epistemic and methodological controls;
 - source indices that may point to important underlying archive documents;
 - leads to documents that may be absent from current archives;
-- chronology and source ancestry.
+- chronology and source ancestry;
+- reconstruction clues that can be traced back to underlying source documents.
 
 Preserve the distinction between:
 1. an NLM index naming or attesting to a source;
