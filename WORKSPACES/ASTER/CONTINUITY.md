@@ -133,6 +133,16 @@ As of 2026-09-19:
 - underlying Proton-Electron Mass Ratio source remains unresolved;
 - no replacement scaling law has been established.
 
+### Hourly checkpoint — 2026-09-20
+
+Current must-read/control surfaces were reread, including the no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, bibliography sequence, Nathan Direct state, current coordination/handoffs, and this continuity file. No newer directive displaced the folder-18/Q-lineage cursor.
+
+Bounded operation: source-path/crosswalk search for `Proton-Electron Mass Ratio — raw - .TXT`. GitHub code searches across both `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for the exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and the distinctive `0.00609 proton electron mass` phrase returned no indexed matches. A fresh listing of `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/` confirms the NLM/source-rich tranche remains present; the large `File Set Overview — raw.json` is present but line-oriented connector retrieval returned no body text, so it was not treated as searched content.
+
+Result: the source-panel attestation remains stronger than repository-search evidence. `Proton-Electron Mass Ratio — raw - .TXT` is still an **index-attested / unresolved underlying source**, not a located source and not a proven archive gap. No authorship, chronology, or mathematical status was promoted. This negative search narrows the next method: stop repeating code-search variants and instead recover the source through NLM source metadata or a raw-conversation title/date/content anchor, then use bounded raw-window extraction if a defensible anchor is found.
+
+**Next cursor:** inspect the successful Steamroller capture's source metadata for any identifier/date/URL attached specifically to `Proton-Electron Mass Ratio — raw - .TXT`; if metadata are insufficient, seek a raw conversation anchor from adjacent named source artifacts rather than another broad phrase search.
+
 ## End-of-run discipline
 
 After material progress, update this file with:
