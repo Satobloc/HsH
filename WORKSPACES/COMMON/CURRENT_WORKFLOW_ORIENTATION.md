@@ -95,14 +95,33 @@ Important surfaces include:
 
 Private/quarantined material must stay within its routing rules.
 
-## 8. NotebookLM-specific handling
+## 8. Conversation-folder handling
+
+Conversation folders are **transport / upload groupings, not value rankings, chronological theory layers, or deprecation stages**.
+
+Do not infer that a higher-numbered folder is more authoritative, more current in content, or generally more valuable than a lower-numbered one merely because Nathan exported/uploaded it later.
+
+Likewise, do not deprecate a conversation folder project-wide because a newer folder exists.
+
+The value of any conversation folder depends on what source material it contains, what provenance can be established, and what task it supports.
+
+Current operational notes may identify newly arrived folders as an **ingest frontier** for practical processing, but that means only that they are newly available/unprocessed—not that older folders have lost relevance.
+
+Workers should:
+- preserve exact folder/source identity;
+- inventory new arrivals without treating upload order as theory chronology;
+- route high-value material by content, provenance, and current task need;
+- revisit older folders whenever they contain better sources, earlier attestations, cleaner provenance, unique branches, or missing context;
+- state actual search/coverage bounds when making earliest-use, completeness, or current-status claims.
+
+## 9. NotebookLM-specific handling
 
 Current and upcoming NotebookLM uploads are a priority ingest frontier.
 
-**Current ingest frontier update — 2026-09-18:**
-- conversation folder **19** now contains a **very large tranche**, mostly NotebookLM exports, and should be treated as a high-value current source batch;
+**Current ingest availability note — 2026-09-18:**
+- conversation folder **19** now contains a **very large tranche**, mostly NotebookLM exports, and is a high-value newly available batch;
 - conversation folder **20** is now being created/populated and should be watched for new arrivals;
-- folder 18 remains relevant, but workers should not assume it is still the newest or highest-yield tranche merely because earlier control text named it first.
+- folder 18 remains relevant, as do earlier folders; none is deprecated by this note.
 
 Use NLM material for:
 - Nathan-authored formulations of epistemic and methodological controls;
@@ -120,7 +139,7 @@ Do not treat NotebookLM-generated summary language as Nathan Direct unless there
 
 When Plug n Play exports arrive, treat them as an extractor-integrity QA set: verify that deliberately different selected documents/panes produce correspondingly different exported content rather than repeated copies of the same material.
 
-## 9. Continuation / self-reconstruction from saved conversations
+## 10. Continuation / self-reconstruction from saved conversations
 
 A conversation or instance that is being continued, revived, or re-derived from prior work may reconstruct its working identity and state from the saved conversation corpus.
 
@@ -141,7 +160,7 @@ Requirements:
 
 If an instance-specific conversation exists, it is usually the best first stop, but it is not an exclusive source boundary.
 
-## 10. Provenance and authorship rules
+## 11. Provenance and authorship rules
 
 Do not equate `role=user` with sole Nathan authorship. A user message may contain embedded coauthored or assistant-generated material.
 
@@ -155,7 +174,7 @@ For Nathan Direct work, preserve:
 
 Never convert assistant interpretation, captioning, reconstruction, NotebookLM paraphrase, or coauthored embedded prompts into sole Nathan-authored text.
 
-## 11. Current doctrine vs historical material
+## 12. Current doctrine vs historical material
 
 Never flatten the archive into a single current voice.
 
@@ -170,13 +189,13 @@ Keep separate:
 
 Currentness is not correctness. Polish is not maturity. Provenance is not validation. A clean index is not theory proof.
 
-## 12. Sandbox and quarantine
+## 13. Sandbox and quarantine
 
 **Sandbox:** theory-bearing construction, derivation, solver work, mathematical repair, interpretation, prediction exploration, and criticism may occur here with explicit status labels.
 
 **Quarantine:** restricted material, including PRIOR_ART-controlled content, does not leak into ordinary theory or Common surfaces. If outside reading surfaces material that may trigger quarantine, send Sable bibliographic identity/source pointer plus a minimal neutral note; do not import the mathematical machinery into ordinary development.
 
-## 13. State-of-Reconstruction and Instance-Enrichment reports
+## 14. State-of-Reconstruction and Instance-Enrichment reports
 
 These reports are part of project restartability and longitudinal self-audit.
 
@@ -203,7 +222,7 @@ A report should capture demonstrable changes in:
 
 Reports should live in visible, durable repo locations with Common/Dashboard/README wayfinding. Preserve instance identity, date, and exposure state so reports can be compared longitudinally.
 
-## 14. How to choose useful work
+## 15. How to choose useful work
 
 Default work quantum:
 
@@ -219,7 +238,7 @@ Before acting:
 
 Safe alternates include provenance QA, extraction-gap audit, archive/source-path repair, chronology, duplicate handling, bibliography/source ancestry, infrastructure, tagging, wayfinding, bounded enrichment, or sandbox exploration.
 
-## 15. Where outputs belong
+## 16. Where outputs belong
 
 Use visible repo locations for substantive reports intended for future reference.
 
@@ -231,13 +250,13 @@ General pattern:
 
 Do not let important project state exist only in chat, local scratch files, external apps, or automation prompts.
 
-## 16. Hard UX rule
+## 17. Hard UX rule
 
 Do not rename, retitle, or otherwise alter any conversation/thread/chat. Do not suggest conversation renaming.
 
 See `NO_CONVERSATION_RENAMING_POLICY.md`.
 
-## 17. Maintenance
+## 18. Maintenance
 
 This orientation is a living front door, not a historical authority source.
 
