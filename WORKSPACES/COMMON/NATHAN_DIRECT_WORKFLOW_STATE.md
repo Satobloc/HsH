@@ -2,7 +2,7 @@
 
 **Program:** Prototype Tri(or Quin)ary Mover
 **Scope:** Nathan Direct corpus-first provenance/training lane
-**State date:** 2026-09-14
+**State date:** 2026-09-19
 **Authority:** operational state only; no theory authority
 **Controlling policy:** `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` plus newer explicit Nathan directives
 
@@ -16,11 +16,28 @@ This file records mutable execution state. Do not treat it as a substitute for r
 
 ## Current phase
 
-**PRECISION/WINNOW_READY with bounded Stage-2 review active.**
+**PRECISION/WINNOW_READY with bounded Stage-2 review active; conversation-folder content indexing is now a P0 shared ingest/provenance priority.**
 
 The master unsorted/tagged Nathan-only substrate is durable on `main` under `indexes/nathan-direct/`. Chronological adjacency plus raw parent/child branch pointers are present. Stage-2 operations may proceed non-destructively.
 
-Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation have now landed successfully through run 9. Precision output supplements historical v1 metadata; it does not authorize deleting or downgrading older tags. Mercer remains the precision/selectivity QA owner.
+Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation have landed successfully through run 9. Precision output supplements historical v1 metadata; it does not authorize deleting or downgrading older tags. Mercer remains the precision/selectivity QA owner.
+
+## New P0 — conversation-folder content index
+
+Nathan's 2026-09-19 directive prioritizes a **detailed content index of the exported conversation folders**, covering not only conversation exports but every other document/artifact in those folders. The index must track current ingest completion plus **explicitly tentative** value and priority assessments.
+
+Controlling specification: `WORKSPACES/COMMON/CONVERSATION_FOLDER_CONTENT_INDEX_SPEC.md`.
+
+Key rules:
+- folder/upload order is not a value ranking, chronology ranking, or deprecation sequence;
+- index every item, including NLM exports/source indices and non-conversation documents;
+- preserve exact folder/source identity and duplicate/prefix/superset relationships;
+- record actual read/ingest coverage rather than implying completion from inventory presence;
+- value/priority labels are routing hypotheses and must remain easy to revise;
+- `UNKNOWN` is preferable to false precision;
+- use NLM source indices for wayfinding/crosswalks to underlying documents, not as replacements for those sources.
+
+Current availability note: conversation folder 19 contains a very large, mostly-NLM tranche; folder 20 is being created/populated. These are newly available ingest fronts, **not** inherently more valuable than earlier folders.
 
 ## Active operations
 
@@ -51,40 +68,24 @@ Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation hav
 - v3 adds semantic guards for ambiguous/common lexical hits and retrieval-only `DEFINITION-CANDIDATE`, `CROSSWALK-CANDIDATE`, and `SUPERSESSION-CANDIDATE` surfaces
 - rule: newer precision output supplements historical v1 metadata; it must not be used as justification to delete/downgrade previously attached tags
 - current QA owner: Mercer; do not duplicate his selectivity/index evaluation
-- run 8 (`34771136500`) passed tooling/tests but was cancelled at the former 45-minute workflow timeout before packaging/Stage-2 generation
-- recovery commit `ed259c84012572b578d021c0fdaab7568e49e307` raised the workflow timeout from 45 to 90 minutes without changing tagging semantics
-- recovery run 9: GitHub Actions `34774328685`
-- run-9 status: **COMPLETED / SUCCESS**
-- durable run-9 manifest verified on `main`: 69,927 input records; 21,451 raw user records; 14,306 unique packaged messages; 7,145 duplicate archive copies collapsed; 13,698 context-dependent/inherited-tag records; 0 missing conversation/message IDs; 13,651 resolved parent graph pointers; 9,247 child graph pointers
+- recovery run 9: GitHub Actions `34774328685` — COMPLETED / SUCCESS
+- durable run-9 manifest: 69,927 input records; 21,451 raw user records; 14,306 unique packaged messages; 7,145 duplicate archive copies collapsed; 13,698 context-dependent/inherited-tag records; 0 missing conversation/message IDs; 13,651 resolved parent graph pointers; 9,247 child graph pointers
 
 ### ND-B2 — Non-destructive winnow / correction / provenance queues
 - priority: P1
 - state: ACTIVE / CLAIMED BY NATHAN WORDS
 - queue builder: `WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py`
-- pipeline integration commit: `0025c194ca4861aea6a885500d34e53a1959414b`
-- recovery run 9: GitHub Actions `34774328685` — **COMPLETED / SUCCESS**
 - durable queue target: `indexes/nathan-direct/stage2/`
-- durable queue manifest verified: correction-refinement 2,616; definition 1,674; methodology 1,820; decision 667; duplicate-provenance 4,661; branch-context 2,319
-- current focus/claim for this lane: bounded correction/refinement winnow/enrichment under `READ IT, TAG IT`
-- first bounded ledger: `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-correction-refinement-01.md`
-- initial queue-head pass reviewed 3 queue items (2 complete queue reads, 1 partial); 3 queue items received additive review metadata; 6 raw adjacency/context messages exposed by verification were tagged because read; 0 passages promoted/curated; 0 destructive removals
-- second bounded pass selected an independently SAT/H(s)H-relevant correction sequence from `DIMENSIONAL GRAVITY` (2024-03-22 local archive chronology): 6 Nathan turns manually reviewed/enriched and 6/6 rechecked against raw `author.role=user`; 0 new extraction, 0 promotion, 0 deletion
-- reviewed correction chain includes terminology/conceptual-emphasis clarification, two context-dependent rejection turns, a detailed assistant-misread correction, local `filaments` terminology resolution, and a later correction distinguishing interaction-generated complexity from time-surface manifestation
-- adjacency implementation note: internal raw assistant/bio/tool nodes can make literal raw-graph parent identity differ from normalized user-facing conversational adjacency; treat this as a context-boundary implementation detail, retain full raw pointer, and never infer authorship from normalized adjacency
-- tranche precision finding remains: discourse-level `CORRECTIVE` is a broad behavioral retrieval signal and is not by itself selective for SAT/H(s)H correction history; combine with independent SAT/H(s)H relevance/provenance signals for concentration without deleting/downgrading `CORRECTIVE`
-- 2026-09-14 Nathan clarification: conversations titled `Solve for ...` in the reviewed May 4, 2025 cluster are intentionally **blinded equation tests with stripped provenance**. Treat reviewed members as `BLINDED-EQUATION-TEST`, `PROVENANCE-STRIPPED-BY-DESIGN`, `NO-SEMANTIC-INFERENCE`, and `WINNOW:NOT-THEORY-LINEAGE-SOURCE`; do not spend review cycles reverse-engineering their variable semantics or use them for earliest-use/theory-lineage claims absent a separate explicit Nathan-authored bridge. Ledgers A/B/C were updated additively; raw extraction/identity metadata remains unchanged.
-- still gated: literal earliest-use conclusions; require precision filtering plus exact Nathan wording/raw-context review
-- rule: winnow/queue status is additive metadata only; no master deletion
-- earliest-use claims must state actual corpus coverage
-- readiness audit: `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`
+- durable queue manifest: correction-refinement 2,616; definition 1,674; methodology 1,820; decision 667; duplicate-provenance 4,661; branch-context 2,319
+- current focus/claim for this lane: bounded correction/refinement winnow/enrichment under `READ IT, TAG IT`, now secondary to bounded P0 conversation-folder indexing when a useful unindexed tranche is available
+- earliest-use claims remain gated by precision filtering plus exact Nathan wording/raw-context review
+- winnow/queue status is additive metadata only; no master deletion
 
 ### ND-B3 — Context-recovery queue for inherited tags
 - priority: P1
-- state: READY BUT BROAD / COORDINATE WITH MORROW
+- state: READY BUT BROAD / COORDINATE WITH CONTINUITY WORK
 - package contains branch-aware parent/child plus chronological adjacency pointers
 - current run-9 manifest marks 13,698/14,306 records context-dependent/inherited-tag; this remains high-recall rather than a selective contextualization judgment
-- use: select bounded messages/regions after additional precision or another independent signal
-- current continuity/context owner: Morrow; reuse his work rather than duplicating conversation-family recovery
 - assistant material remains pointer/context only, never Nathan-authored content
 
 ## Verified durable checkpoints
@@ -92,7 +93,6 @@ Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation hav
 ### Foundational branch-aware checkpoint — run 6
 
 Run `34766849104` landed the branch-aware package on `main`:
-
 - input records: 69,927
 - raw `role=user` records: 21,451
 - unique packaged `(conversation_id, message_id)` records: 14,306
@@ -103,59 +103,51 @@ Run `34766849104` landed the branch-aware package on `main`:
 - child graph pointers: 9,247
 - shards: 2023 = 293; 2024 = 306; 2025 = 4,801; 2026 = 8,906
 
-A bounded raw-source check matched package role metadata, message/conversation identity, timestamp, recipient, wording, and graph relationship. A duplicate exemplar retained three archive paths under one stable message identity. See `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`.
-
 ### Precision/repackaging checkpoint — run 9
 
-Run `34774328685` completed successfully after the timeout recovery. Durable `indexes/nathan-direct/MANIFEST.json` and `indexes/nathan-direct/stage2/MANIFEST.json` were directly verified on `main`.
+Run `34774328685` completed successfully after timeout recovery. Durable `indexes/nathan-direct/MANIFEST.json` and `indexes/nathan-direct/stage2/MANIFEST.json` were directly verified on `main`.
 
-Current durable counts remain 14,306 unique packaged Nathan/user messages and 7,145 collapsed duplicate archive copies, with 13,698 context-dependent/inherited-tag records. The six Stage-2 queue files are now durable and eligible for non-destructive work. This later checkpoint supplements rather than erases the run-6 historical checkpoint.
+Current durable counts remain 14,306 unique packaged Nathan/user messages and 7,145 collapsed duplicate archive copies, with 13,698 context-dependent/inherited-tag records.
 
-## Eligible Stage-2 work
+## Eligible work
 
-Workers should avoid launching a duplicate full extractor. Useful eligible operations include:
-
-- continue bounded correction/refinement review tranches under the tag-on-read rule;
-- preferentially select correction candidates with independent SAT/H(s)H relevance so the concentrate lane is not dominated by generic discourse corrections;
-- continue within the already-extracted `DIMENSIONAL GRAVITY` region for definition/decision/refinement review, while preserving historical/superseded status rather than harmonizing it;
-- audit duplicate/prefix/superset identity handling where not already owned;
-- use branch pointers for selected contextual recovery, coordinated with Morrow;
-- consume additive v3 precision output after Mercer QA rather than overwriting old metadata;
-- build earliest-use candidate queues only after precision filtering, then verify exact Nathan wording/raw context before making historical claims;
+Useful operations now include:
+- build/extend the conversation-folder content index under `CONVERSATION_FOLDER_CONTENT_INDEX_SPEC.md`;
+- inventory newly arrived folder tranches without treating upload order as value order;
+- add bounded semantic descriptions and tentative value/priority only after actual inspection;
+- crosswalk NLM source-index entries to underlying archive documents and flag unresolved source candidates;
+- continue bounded correction/refinement review under the tag-on-read rule when it is the better current operation;
+- audit duplicate/prefix/superset identity handling;
+- build earliest-use candidate queues only after precision filtering and exact raw-context verification;
 - reconcile archive paths/navigation and raw conversation identities;
-- fill specific extraction/provenance gaps discovered by Morrow/Mercer rather than rerunning the global extractor.
+- fill specific extraction/provenance gaps rather than rerunning the global extractor.
 
 ## Precision warning
 
-The master package is complete as a high-recall substrate, but machine topic/discourse tags are retrieval aids, not historical authority. Earlier automated minima generated clearly spurious early `SAT-HSH`, `SPHERES`, and `QUANTIZATION` candidates in unrelated 2023 material. Preserve those tags as cumulative metadata; do not erase them.
+The master package is complete as a high-recall substrate, but machine topic/discourse tags are retrieval aids, not historical authority. Preserve cumulative metadata; do not erase older tags merely because later precision improves.
 
-Run 9 materially improves precision retrieval and reduces broad inherited/context-dependent marking, but earliest-use/history still requires exact Nathan wording and raw-context verification.
+Conversation-folder value/priority scoring has the same epistemic constraint: it is a **tentative routing layer**, not a permanent importance judgment. Shallow inventory should not masquerade as semantic ingestion.
 
-The first correction/refinement tranche independently demonstrates another selectivity issue: queue membership based on `CORRECTIVE` can surface genuine Nathan corrections in unrelated epistemology material. Such items stay in Nathan Direct and keep the correction tag; Stage-2 winnow metadata may mark them incidental to SAT/H(s)H correction-history concentration.
-
-The second pass demonstrates that independent SAT/H(s)H relevance plus local chronology is a productive concentration strategy: it surfaced a coherent correction → rejection → explicit restatement → terminology-resolution sequence without requiring theory reconstruction or assistant-intent inference.
-
-Blinded test families are a separate selectivity class: deliberate provenance stripping is not missing context to be repaired. Preserve exact Nathan wording and methodological status, but do not reconstruct semantics from the test record itself.
+Blinded test families remain a separate selectivity class: deliberate provenance stripping is not missing context to be repaired. Preserve exact wording and methodological status, but do not reconstruct semantics from the test record itself absent a separate explicit bridge.
 
 ## Coordination / complementarity
 
-- **Nathan Words / this packaging lane:** durable Nathan-only substrate, provenance packaging, adjacency/context preservation, Stage-2 queue generation, bounded strategic secondary review.
+- **Nathan Words:** durable Nathan-only substrate, provenance packaging, adjacency/context preservation, Stage-2 review, and now direct contribution to conversation-folder content indexing/source crosswalks.
 - **Tag Conversation Corpus:** systematic cumulative tagging/enrichment; existing tags remain attached.
-- **Morrow:** conversation-family identity, continuity, branch/context and provenance recovery under the older trial structure; newer Nathan directives govern any change in active status.
-- **Mercer:** retrieval/index QA, Nathan Direct methodology/source reconstruction, documentation/navigation reconciliation; current precision/selectivity owner.
-- **Meridian:** training-first source ingestion / 4D-thinking audit during theory standdown; later geometry/solver source reconstruction if released.
+- **Continuity/revival work:** conversation-family identity, self-reconstruction, branch/context recovery; saved conversations may be used across folders, with instance-named conversations preferred as anchors but not exclusive.
+- **Mercer:** retrieval/index QA, source integrity, documentation/navigation reconciliation, precision/selectivity QA.
+- **Meridian:** geometry/solver/source reconstruction under current controls.
 
-Do not duplicate another worker merely because an operation is technically available.
+Do not duplicate another worker merely because an operation is technically available; do contribute bounded index rows/rollups when that advances the shared P0 index.
 
 ## Unresolved Nathan-required decisions
 
-**None currently for Nathan Direct.** Stage-2 provenance work can continue safely without Nathan intervention.
-
-The Common unresolved issue `MORROW-SOURCE-001` remains a worker dependency/scanner-policy issue, not a Nathan-required decision; preserve the earlier Janus export while that review proceeds.
+**None currently for Nathan Direct.** The new index can proceed with explicitly tentative assessments and revision history.
 
 ## Update discipline
 
-After any material state change, update only the affected operation(s): state, run/output pointer, success/failure condition, and next eligible branch. Preserve historical run identifiers in the status note rather than pretending a later scan has the same coverage/counts.
+After material state change, update only affected operation(s): exact sources/coverage, state, output pointer, checks performed, and next cursor. Preserve historical checkpoints rather than rewriting old coverage as if later scans had always existed.
 
 Detailed packaging history: `WORKSPACES/COMMON/NATHAN_DIRECT_PACKAGING_STATUS_2026-09-13.md`.  
-Stage-2 readiness audit: `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`.
+Stage-2 readiness audit: `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md`.  
+Conversation-folder index specification: `WORKSPACES/COMMON/CONVERSATION_FOLDER_CONTENT_INDEX_SPEC.md`.
