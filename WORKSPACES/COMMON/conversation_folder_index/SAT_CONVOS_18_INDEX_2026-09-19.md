@@ -41,15 +41,38 @@ The capture metadata visibly identifies a NotebookLM notebook/page titled `SAT R
 
 ### Duplicate / alternate-capture relation
 
-A sibling file `SAT RIGOR__NotebookLM_export (1).json` exists and is larger than the base capture in the folder listing. This is a **candidate metadata-enriched or alternate capture**, not yet a confirmed superset. A direct blob retrieval attempt for the sibling was unavailable in this run, so no duplicate disposition is made.
+A sibling file `SAT RIGOR__NotebookLM_export (1).json` exists and is larger than the base capture in the folder listing. This is a **candidate metadata-enriched or alternate capture**, not yet a confirmed superset. A direct blob retrieval attempt for the sibling was unavailable in the prior run, so no duplicate disposition is made.
 
 ### Next useful action
 
 Compare the base and `(1)` `SAT RIGOR` captures structurally; recover the short prompting turns and source/studio metadata if present; then crosswalk high-value methodological formulations to underlying Nathan-authored/project sources before any Nathan Direct promotion.
+
+## Pair record — `H(s)H STEAMROLLER__NotebookLM_export.json` ↔ `(1)`
+
+**Type:** NotebookLM capture pair / failed-empty capture followed by populated recapture  
+**Ingest status:** STRUCTURAL PAIR CHECK COMPLETE; populated `(1)` body NOT semantically ingested  
+**Tentative value:** UNKNOWN semantically; HIGH provenance/tooling value as a clean exporter-capture-state example.  
+**Tentative priority:** MEDIUM for content ingest; LOW for further duplicate investigation because the structural relation is already clear.
+
+### Structural relationship
+
+The base export is a 580-byte capture of notebook `H(s)H STEAMROLLER`, notebook ID `6429e5c6-6b04-41e0-8d38-086fbf12cf95`, captured at `2026-09-18T18:52:04.055Z`. It reports `visible_source_count: 50`, `reached_top: false`, `scans: 0`, and contains empty `messages`, `sources`, `studio`, and `capture_log` arrays.
+
+The `(1)` export is from the same notebook ID, captured about four minutes later at `2026-09-18T18:55:58.660Z`; it reports `visible_source_count: 50`, `reached_top: true`, `scans: 211`, and contains populated messages. Its first visible records include NotebookLM status text (`Consulting your sources...`, `Retrieving details...`) serialized as `role=user`.
+
+This pair should therefore **not** be described as two independent conversations or ordinary duplicates. The base file is provenance-bearing evidence of an unsuccessful/empty capture state; `(1)` is a later successful/populated recapture of the same NotebookLM notebook. Preserve both. Do not infer that every base/`(1)` pair in folder 18 has this relationship; each pair still requires checking.
+
+### Authorship caution
+
+The populated capture again demonstrates that `role=user` in these NotebookLM exports is not sufficient Nathan-authorship evidence: interface/status text is serialized under that role. No message from this pair is promoted to Nathan Direct in this structural pass.
+
+### Next useful action
+
+When `H(s)H STEAMROLLER` becomes a semantic target, inspect the populated `(1)` capture and recover authenticated Nathan prompts/source ancestry. No further duplicate-disposition work is needed unless another capture of the same notebook ID appears.
 
 ## Current frontier
 
 1. `SAT RIGOR` base ↔ `(1)` structural comparison and prompt recovery.
 2. `SAT EPISTEMOLOGY` and `Science Epistemology` targeted reads for overlap/source ancestry, without assuming title similarity means duplication.
 3. `NLM Source Lists` extraction as an archive-discovery crosswalk, preserving index-attested vs located-source vs unresolved-source status.
-4. Continue inventorying folder 18 without treating later folders as superseding it.
+4. Continue inventorying folder 18, including identifying other empty-base → populated-`(1)` capture pairs without generalizing from filename pattern alone.
