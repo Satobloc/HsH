@@ -3,10 +3,10 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 113, 2026-09-19
+**Current through:** Run 114, 2026-09-19
 
 ## Startup / authority
-Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
+Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
 
 ## Epistemic boundary
 Keep provenance, currentness, maturity, polish, vetting evidence, mathematical correctness under named checks, physical/model correctness, sandbox status, and quarantine status distinct. Clean indexing or successful automated checks do not confer theory correctness.
@@ -16,7 +16,9 @@ Nathan prioritizes the He-3 “Holotype Atom” as an anchoring/scaling case and
 
 **Run 112 retrieval correction:** GitHub code-search zeroes are not exhaustive absence evidence in the currently available connector. Use deterministic inventory/tree traversal plus direct candidate reads, or a search substrate with demonstrated coverage, for absence-sensitive source discovery.
 
-**Run 113 first direct anchor source:** inventory-led traversal located and direct-read `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/SAT CORE — HELIUM STANDARD ATOM 2.txt`. It explicitly calls He-3 the `Holotype Atom` / `Geometric Anchor`, includes Jarlskog/neutrino-shadow material, and attempts cross-isotope scaling. It also contains internal tensions requiring reconciliation before canonical use: He-3 appears as total `Q=9` in one formulation and `Q=3` in another; mass scaling appears as both `m ∝ Q` and `m_eff ≈ m_0/Q`; ~0.239-rad geometry is expressed through overlapping labels (`B`, `theta_F`, `theta_4`) that must not be conflated merely by numerical proximity. Currentness/authorship/correctness are not established. Durable record: `WORKSPACES/MERCER/RUN_113_2026-09-19.md`.
+**Run 113 first direct anchor source:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/SAT CORE — HELIUM STANDARD ATOM 2.txt` explicitly calls He-3 the `Holotype Atom` / `Geometric Anchor`, includes Jarlskog/neutrino-shadow material, and attempts cross-isotope scaling. It contains internal tensions: He-3 total `Q=9` versus later anchor `Q=3`; `m ∝ Q` versus later `m_eff ≈ m_0/Q`; overlapping ~0.239-rad labels requiring disambiguation.
+
+**Run 114 backbone reconciliation:** direct-read `2026/SAT MATH — BACKBONE.txt` explicitly uses nuclear/strand-density `Q=3A` and `m_linear = Q m_0/(2B)` followed by braid-smoothing `M_eff=m_linear S`. For He-3 that convention implies `Q=9` and positive pre-smoothing Q scaling, aligning with one Run-113 block and conflicting with the later `Q=3`, inverse-Q isotope table. The backbone also distinguishes raw `B=3/(4π)≈0.2387`, `B_stable≈0.24177`, and `Phi≈0.246`; `2026/..folder_summary.txt` independently warns not to conflate nearby `Phi/theta_obs/theta4`. This narrows the conflict but does not establish chronology, authorship, currentness, or correctness. `2026/SAT CORE — Standard Helium Atom.pdf` exists but was not text-readable through the current GitHub UTF-8 route. Durable record: `WORKSPACES/MERCER/RUN_114_2026-09-19.md`.
 
 ## Current verified state
 
@@ -41,7 +43,7 @@ Retained machinery includes `validate_cross_source_integrity_v2.py`, `viewer_inp
 `MORROW-SOURCE-001`: code-side resolved / historical-output-side pending; preserve earlier Janus export. Historical glossary/crosswalk custody complete but direct raw-message ancestry unresolved; reopen only with stronger source anchor. Historical/manual scanner candidate-report owner/path remains unknown.
 
 ## Open dependencies / handoffs
-- `HE-3 HOLOTYPE / MERCER PRIORITY`: direct source recovery active; first source exposes Q/scaling/symbol conflicts requiring chronology/status reconciliation.
+- `HE-3 HOLOTYPE / MERCER PRIORITY`: direct source recovery active. Backbone now supplies a competing typed convention: nuclear Q=3A, positive pre-smoothing Q mass scaling, and distinct B/B_stable/Phi. Need readable adjacent helium source and chronology/status reconstruction.
 - `EXTRACTION CONTEXT / OWNER-SABLE`: repaired classifier execution pending readable exact checkout; route eventual prevalence result through extraction/Nathan Words owner or Sable.
 - `EXTRACTION PROVENANCE / OWNER-SABLE`: Run 107 minimal patch specification; no shared-workflow implementation by Mercer absent ownership/intent change.
 - `RESOURCES WAYFINDING / OWNER-SABLE OR RESOURCE INFRASTRUCTURE`: Run 110 audience-scoping defect; ordinary Mercer must not enter PRIOR_ART.
@@ -51,14 +53,15 @@ Retained machinery includes `validate_cross_source_integrity_v2.py`, `viewer_inp
 - No current Nathan-required decision.
 
 ## Current frontier
-Build a small provenance-rich helium cluster by direct-reading adjacent inventory-discovered sources. Specifically test whether adjacent sources resolve, predate, or reproduce Run-113 conflicts: Q meaning (bundle/nucleon/nucleus/integrated winding), mass-scaling direction, and identity of B/theta_F/theta_4. Preserve chronology/status and derived-vs-heuristic distinctions. Do not enter PRIOR_ART. In parallel, execute the repaired extraction classifier when exact readable raw sources become available.
+Build a typed He-3 scaling crosswalk: `(source, date/status, Q definition/level, mass stage, formula, angular symbol, numeric value, derivation status)`. Recover text for `2026/SAT CORE — Standard Helium Atom.pdf` through an existing extraction/text counterpart if available, or direct-read another adjacent helium source. Determine whether Run-113 `Q=3` is bundle/nucleon-level relabeling or incompatible nuclear-Q reuse, and whether inverse-Q scaling is a distinct later experiment or simple inconsistency. Preserve chronology/status and derived-vs-heuristic distinctions. Do not enter PRIOR_ART.
 
 ## Recent run history
-Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76–80 normalization/routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 classifier materialized; 106 extraction provenance/publication audit; 107 patch specification; 108 classifier fidelity repair; 109 Meridian graph-local control; 110 Resources quarantine-wayfinding ambiguity; 111 He-3 anchor priority added; 112 code-search recall positive-control failure established; **113 first direct He-3 holotype/scaling source recovered and internal Q/mass-law/symbol conflicts isolated.**
+Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76–80 normalization/routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 classifier materialized; 106 extraction provenance/publication audit; 107 patch specification; 108 classifier fidelity repair; 109 Meridian graph-local control; 110 Resources quarantine-wayfinding ambiguity; 111 He-3 anchor priority added; 112 code-search recall positive-control failure; 113 first direct He-3 source/conflicts; **114 adjacent SAT backbone narrows Q/mass/angle semantics and identifies PDF text-access blocker.**
 
 ## Best next operations
-1. Direct-read one adjacent helium source (`2026/SAT CORE — Standard Helium Atom.pdf` if text-accessible, otherwise a readable helium discussion text) and compare Q/scaling/angle semantics against Run 113.
-2. Build a source/status map before synthesizing the anchor model; separate proposed scaling relations from descriptive geometry.
-3. Identify complementary anchor systems only after source recovery supports comparison.
-4. Execute repaired extraction classifier when readable exact raw-source checkout becomes available.
-5. Recheck Sable consumption/supersession only on relevant routing/checkpoint change; do not duplicate shared-workflow design locally.
+1. Locate an already-extracted/text counterpart for `2026/SAT CORE — Standard Helium Atom.pdf`; do not infer its content from filename.
+2. If unavailable, direct-read another inventory-discovered helium source and extend the typed crosswalk.
+3. Trace Q level and mass stage explicitly before comparing formulas; distinguish pre-smoothing mass from effective mass.
+4. Identify complementary anchor systems only after source recovery supports comparison.
+5. Execute repaired extraction classifier when readable exact raw-source checkout becomes available.
+6. Recheck Sable consumption/supersession only on relevant routing/checkpoint change; do not duplicate shared-workflow design locally.
