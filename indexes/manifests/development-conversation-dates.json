@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-19T01:11:32.948964+00:00",
+  "generated_at_utc": "2026-09-19T01:13:19.113819+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 364,
-    "skipped": 136,
+    "skipped": 151,
     "planned": 81,
     "collision": 1
   },
@@ -4492,6 +4492,186 @@
       "message_count": 463,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/BLANK SLATE__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Gemini Notebook__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export (1).json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT (Almost) From Scratch__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT_ACTIV.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Fundaments__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Lean__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅__NotebookLM_export.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gitignore.txt",
