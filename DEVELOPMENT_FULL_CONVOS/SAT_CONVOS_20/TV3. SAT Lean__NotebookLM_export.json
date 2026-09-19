@@ -1,0 +1,773 @@
+{
+  "metadata": {
+    "notebook_title": "TV3. SAT Lean",
+    "notebook_id": "38174e9c-da73-4ff3-afeb-f448b118c50e",
+    "notebook_url": "https://notebook.google.com/notebook/38174e9c-da73-4ff3-afeb-f448b118c50e",
+    "captured_at": "2026-09-19T00:42:29.765Z",
+    "visible_source_count": 26,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 14
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Explain how the images explain the fundamental intuitions/core ideas of SAT, and what equations would be used to model each",
+      "citations": [],
+      "key": "c986bfe0"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The images provided illustrate the core ideas of Scalar-Angular-Torsion (SAT) theory by visualizing its geometric ontology, topological constraints, and unification framework.\n1. Geometric Ontology and the Definition of a Particle\nImages Illustrating the Concept: Helix Intersection with Moving Plane (e.g.,\n1\n,,\n2\n,) and the notebook sketch showing 1-branes and the 3-brane (e.g.,\n3\n).\nFundamental Intuition: SAT theory posits that reality is composed of one-dimensional particle worldlines called filaments\n1\nmore_horiz\n. A physical particle is defined geometrically as the instantaneous point of intersection where the 4D filament pierces the advancing, three-dimensional Time Surface (Σ\nt\n\t​\n\n)\n1\nmore_horiz\n.\nThe blue helix in images\n1\n- represents the 4D Filament\n1\n5\n.\nThe moving grey plane represents the advancing Time Surface (Σ\nt\n\t​\n\n)\n1\n5\n.\nThe red intersection point represents the observable particle\n1\n7\n.\nThe Z-axis, often labeled \"Time Projection,\" represents the time foliation\n5\n8\n.\nModeling Equations: The emergent flow of time and the dynamics of matter (filaments/particles) propagating through the time surface are governed by the physics derived from the Lagrangian density (L) in the non-relativistic hydrodynamic limit\n9\n. The Time Surface movement is constrained by the Unit Time-Flow Vector (u\nμ\n), which is fundamental to the ontology\n5\n:\n$$ u^\\mu u_\\mu + 1 = 0 \\quad \\text{$$\n5\n$$} $$\n The Lagrangian density for the classical/fluid dynamics derivations would apply to the motion of the helix in relation to the plane\n9\n:\n$$ \\mathcal L = \\frac{1}{2}\\rho \\mathbf v^2 - \\rho W(\\Phi) - \\frac{\\kappa}{2}(\\nabla\\Phi)^2 + \\lambda \\rho \\Phi (\\nabla\\cdot\\mathbf v) \\quad \\text{$$\n9\n$$} $$\n2. Unification and Force Incorporation\nImages Illustrating the Concept: Image showing Quantum Chromodynamics, String Theory, General Relativity (e.g.,\n10\n,).\nFundamental Intuition: This image illustrates SAT's goal of providing a unified geometric framework that integrates fundamental theories, specifically listing Quantum Chromodynamics, String Theory, and General Relativity\n10\nmore_horiz\n. General Relativity, for instance, is recreated by the geometric \"back-pull\" of the filament network on the time surface, which generates curvature\n13\n.\nModeling Equations: The mathematical foundation for this unification is the Total Covariant Action (S\nSAT\n\t​\n\n), which functionally integrates General Relativity (via the Ricci scalar R[g]) and other sector Lagrangians, combined with a Topological Action (S\nTop\n\t​\n\n)\n14\n:\n$$ S_{\\text{SAT}} = \\int_M d^4x \\sqrt{-g} \\Biggl[ \\frac{c^4}{16\\pi G_{\\text{ind}}} R[g] + \\mathcal{L}_{\\text{u}} + \\mathcal{L}_{\\text{gauge}} + \\mathcal{L}_{\\text{Dirac}} + \\dots \\Biggr] + S_{\\text{Top}} \\quad \\text{$$\n14\n$$} $$\n3. Topological Charge and Particle Identity\nImages Illustrating the Concept: Three-Filament SAT Bundle (Baryon Triplet) (e.g.,\n8\n,\n15\n), SAT Meson Binding (e.g.,,\n7\n), and Closed String Mode (e.g.,\n16\n,\n17\n).\nFundamental Intuition: Particle identity, binding, and mass are defined by the Topological Charge (τ or Q), which is a discrete invariant derived from the geometry of the filament configuration\n18\nmore_horiz\n.\nThe three-filament bundle (red, green, blue) illustrates the structure of Baryons\n8\n15\n. The stability of this three-constituent particle is geometrically tied to the Z\n3\n\t​\n\n fusion rule enforced by topological twist fields, reflecting the strong interaction structure\n21\n.\nThe two-filament binding state (red and blue in images-\n22\n) illustrates a Meson.\nThe \"Closed String Mode n=3\" (e.g.,\n16\n) illustrates that particles can exist in quantized excited states (N≥1) defined by their internal oscillation modes\n23\n.\nModeling Equations: The core topological measure is the Topological Charge Q(τ), calculated as the sum of winding, linking, and writhe numbers\n24\n25\n:\n$$ Q(\\tau) = \\tau.L_{\\text{wind}} + \\tau.L_{\\text{link}} + \\tau.W_{\\text{writhe}} \\quad \\text{$$\n24\n25\n$$} $$\n This topological charge suppresses the particle's mass, forming the Topological Mass Suppression Law\n26\n27\n:\n$$ \\mathbf{m}_{\\text{topo}} = \\frac{m_0}{Q} \\quad \\text{$$\n27\n$$} $$\n The excited states observed in the closed string mode are governed by the quadratic mass spectrum formula\n23\n28\n:\n$$ m^2 (\\tau, N, \\text{params}) = \\text{params.k} * (N + \\text{params.}\\beta * (Q \\tau)^2 - \\text{params.a}) \\quad \\text{$$\n28\n$$} $$\nThe interactions (like the Meson binding, titled \"with θ\n4\n\t​\n\n\") are derived from the dynamics of the 4D fields (θ, u, J), governed by their respective Euler–Lagrange equations\n29\n:\n$$ \\text{EL}_\\theta (\\text{fields}, x, \\mu) = \\nabla (\\nabla \\text{fields.}\\theta \\mu) \\mu x + 3 * \\text{Real.sin} (3 * \\text{fields.}\\theta \\mu x) \\quad \\text{$$\n29\n$$} $$\nThe relationship between the filament's geometry and physical laws in SAT theory is akin to how the knots and twists in a complex rope determine its stability and physical properties, rather than those properties being fundamental, separate constants.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "a696148b"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "In SAT, what actually are the physical constants",
+      "citations": [],
+      "key": "7acc8a31"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "In the Scalar-Angular-Torsion (SAT) theory, physical constants are not independent, fundamental numbers \"hand-tuned\" by nature. Instead, the theory follows a Zero-Parameter Economy (Normalization Principle), which posits that all fundamental dimensionless constants and physical scales must emerge from the internal geometry and topology of the filament-timesheet intersection\n1\n2\n.\nAccording to the sources, the \"constants\" are categorized as follows:\n1. Dimensional Anchors\nWhile the theory axiomatically introduces zero numerical parameters, it requires a single dimensional anchor to set the absolute physical scale of the universe\n2\n. All other absolute scales are derived from this anchor. Examples of these anchors include:\nFilament Tension (T): The microscopic tension of the 1D filaments\n2\n3\n.\nFilament Length (ℓ\nf\n\t​\n\n): The fundamental length scale of the filaments\n2\n3\n.\nBare Mass (m\n0\n\t​\n\n): Derived from the relationship m\n0\n\t​\n\n=\nc\n2\nTℓ\nf\n\t​\n\n\t​\n\n4\n.\n2. Emergent Gravitational and Gauge Constants\nConstants that are typically viewed as fundamental in standard physics, such as the gravitational constant (G) and the fine-structure constant (α), are viewed as emergent properties in SAT:\nInduced Gravity (G\nind\n\t​\n\n): This is parametrically related to the microscopic filament tension (T), length (ℓ\nf\n\t​\n\n), and strain stiffness (κ)\n3\n5\n. The sources model this relationship as:\n$$G_{\\text{ind}} \\sim \\frac{c^4 \\ell_f^2}{16\\pi \\mathcal{A} \\kappa} \\quad \\text{$$\n5\n$$}$$\nCoupling Ratio (R): Calibrated to match the fine-structure constant (α≈0.007304), this value is derived from the structural ratios of the geometry rather than being an axiomatic constant\n1\n6\n.\n3. Structural Parameters in the SAT Framework\nThe sources define a specific structure called SATParams used to model the dynamics of the theory. These parameters represent the numerical inputs required for the equations of motion and mass spectrums\n7\n8\n:\nDynamic Parameters: T (Tension), A (Area/Scale factor), ℓ\nf\n\t​\n\n (Filament length), and g\n1\n\t​\n\n (Coupling strength)\n7\n9\n.\nMass and Wave Parameters: M\n2\n (Induced mass scale), c\n1\n\t​\n\n,c\n2\n\t​\n\n (Wave speeds), and λ\nc\n\t​\n\n (Coupling constant)\n7\n8\n.\nTopological/Spectrum Parameters: k,β, and a, which are used to calculate the Mass Spectrum of particles\n9\nmore_horiz\n.\n4. Topological Constants\nParticle-specific properties are determined by Topological Charges (Q), which are discrete integers derived from the winding (L\nwind\n\t​\n\n), linking (L\nlink\n\t​\n\n), and writhe (W\nwrithe\n\t​\n\n) of the filaments\n12\n13\n. These are \"constants\" of a specific particle's identity rather than constants of the universe itself\n14\n.\nAnalogy for Understanding: Think of the universe as a violin string. The \"physical constants\" are not separate objects placed on the string; instead, they are like the tension of the string and the length of the neck. From just those two \"anchors,\" every note (particle) and the harmony (physical laws) emerge automatically based on the geometry of how the string vibrates.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "9203157d"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Ok, but I mean… what is the fine structure constant, the gravitational constant, etc",
+      "citations": [],
+      "key": "22a075b3"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "In SAT theory, what we traditionally call \"fundamental constants\" are not considered arbitrary numbers or independent inputs\n1\n. Instead, they are emergent structural ratios derived from the internal geometry and topology of the filament-timesheet intersection\n1\n2\n.\nUnder the theory's Zero-Parameter Economy, the universe requires only a single dimensional anchor (such as filament tension T or length ℓ\nf\n\t​\n\n) to set the absolute scale; all other constants then emerge automatically from the geometric framework\n1\n3\n.\n1. The Fine-Structure Constant (α)\nIn SAT, the fine-structure constant is identified as the Coupling Ratio (R)\n2\n4\n.\nWhat it represents: It is the ratio between the \"Induced Inertial Mass\" (m\nind\n\t​\n\n)—which arises from the drag or coupling interactions with background fields—and the \"Topological Mass\" (m\ntopo\n\t​\n\n), which is the mass inherent to the filament's geometry\n5\n.\nThe Value: Calibration of the SAT framework yields a value of R≈0.007304, which directly matches the known value of the fine-structure constant (α)\n4\n6\n.\nEquation: The stability of the theory depends on the \"Topological Dominance Condition,\" where this ratio must remain much less than one (R≪1)\n7\n.\n2. The Gravitational Constant (G)\nGravity in SAT is not a fundamental force but the geometric \"back-pull\" of the filament network on the 3D time surface\n7\n8\n.\nWhat it represents: The induced gravitational constant (G\nind\n\t​\n\n) is a measure of how the time surface curves in response to the tension of the 4D filaments\n7\n.\nModeling Equation: It is parametrically related to the microscopic properties of the filaments\n7\n9\n:\n$$\\mathbf{G_{ind}} \\sim \\frac{c^4 \\ell_f^2}{16\\pi \\mathcal{A} \\kappa} \\quad \\text{$$\n3\n9\n$$}$$\n In this equation, c is the speed of light, ℓ\nf\n\t​\n\n is the fundamental filament length, A is a scale factor, and κ is the \"strain stiffness\" of the system\n3\n9\n.\n3. Mass Scales (Hadronic and Lepton)\nRather than using the Higgs mechanism, SAT derives mass from the Topological Mass Suppression Law\n5\n10\n.\nHadronic Scale: By calibrating the framework (specifically the P\n4\n\t​\n\n parameter set), the theory matches the effective mass of the primary scale (Q=1) to the hadronic mass scale: m\neff\n\t​\n\n≈1.0073×10\n−27\n kg\n4\n.\nLepton Consistency: The theory explains why leptons (like electrons) are so much lighter than hadrons. It assigns them larger topological charges (Q), which, according to the suppression law (m\ntopo\n\t​\n\n=m\n0\n\t​\n\n/Q), results in a much lower effective mass\n5\n11\n.\n4. Particle Spin\nSpin is not an intrinsic \"label\" but a result of Holonomy Quantization\n12\n. It is calculated by determining the winding number of a compact phase field (θ) around a closed loop\n12\n. This geometric calculation naturally yields half-integer spin for fermions (the filaments themselves) and integer spin for bosons (torsional ripples traveling along the filaments)\n9\n12\n.\n\n--------------------------------------------------------------------------------\n\nAnalogy for Understanding: Imagine the universe is a giant trampoline net (the filament network). The \"gravitational constant\" is simply a measure of how stiff the trampoline material is. You don't need a separate law for how much the net dips when you stand on it; the \"constant\" of that dip is already determined by the thickness and tension of the fibers used to make the net in the first place.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "bc325936"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Do we have: Complete derivations for all forces (weak, strong, EM, gravity) in all limits.\n•\tA fully quantized version compatible with renormalization or lattice computations.\n•\tA systematic procedure for arbitrary excited states, scattering amplitudes, or multi-particle entanglement.\n•\tA full map from SAT parameters to every known experimental constant.",
+      "citations": [],
+      "key": "b715a043"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "Based on the provided sources, the current state of Scalar-Angular-Torsion (SAT) theory regarding your specific criteria is as follows:\n1. Complete Derivations for All Forces in All Limits\nThe theory provides a Total Covariant Action (S\nSAT\n\t​\n\n) that functionally integrates General Relativity, gauge sectors, and Dirac sectors into a single structure\n1\n2\n.\nGravity: Is derived as an emergent \"back-pull\" of the filament network on the 3D time surface, recreating Einstein’s equations through variation of the metric\n3\n4\n.\nStrong Interaction: Is explained via a Z\n3\n\t​\n\n fusion rule enforced by topological twist fields, which accounts for the stability of three-constituent baryons\n5\n6\n.\nLimits: The sources explicitly detail the non-relativistic hydrodynamic limit used for classical and fluid mechanics derivations\n7\n8\n. While the unified action covers all sectors, the sources do not explicitly state that derivations for every force have been completed \"in all limits\" beyond the hydrodynamic and relativistic frameworks mentioned\n2\nmore_horiz\n.\n2. Fully Quantized Version (Renormalization/Lattice)\nSAT employs Canonical Quantization via standard commutator relations over the continuous field sector\n10\nmore_horiz\n.\nThe framework includes a symbolic quantization structure within Lean 4 code to verify mathematical stability\n12\n13\n.\nWhile the theory claims UV Finiteness through a \"topological lock\" (Q≤3), the provided sources do not explicitly detail compatibility with standard renormalization procedures or lattice computations\n14\n15\n.\n3. Systematic Procedure for Excited States, Scattering, and Entanglement\nExcited States: A systematic procedure exists for calculating arbitrary excited states (N≥1) using a quadratic mass spectrum formula: m\n2\n=k(N+β(Qτ)\n2\n−a)\n15\n16\n.\nMulti-Particle Interactions: The theory geometrically models multi-particle binding (such as Mesons and Baryons) and derives their stability from Euler–Lagrange equations\n5\n17\n.\nOmissions: The current sources do not contain specific systematic procedures for calculating scattering amplitudes or multi-particle entanglement\n9\n17\n.\n4. Full Map from SAT Parameters to Experimental Constants\nThe theory operates under a Zero-Parameter Economy, where dimensionless constants are derived as structural ratios of the geometry\n18\n19\n. Key experimental constants are mapped as follows:\nFine-Structure Constant (α): Mapped to the emergent Coupling Ratio (R≈0.007304)\n20\n21\n.\nGravitational Constant (G): Derived as an emergent property (G\nind\n\t​\n\n) related to filament tension, length, and strain stiffness\n4\nmore_horiz\n.\nMass Scales: The hadronic scale is matched to the effective mass of a Q=1 configuration (1.0073×10\n−27\n kg), and consistency checks are provided for the W-to-Z boson mass ratio and lepton mass reconcilement\n21\n23\n.\nDark Matter: The theory predicts novel stable ground states (Q=2 and Q=3) that serve as dark matter candidates\n14\n20\n.\nIn summary, while SAT provides a rigorous mathematical mapping for the fundamental anchors (G, α, and primary mass scales), it describes a framework for unification rather than a finished catalog of \"every\" experimental constant\n15\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "1dafd534"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}
