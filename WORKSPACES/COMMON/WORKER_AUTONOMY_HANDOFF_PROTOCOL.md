@@ -3,6 +3,19 @@
 **Status:** ACTIVE — Nathan directive, 2026-09-14  
 **Applies to:** recurring SAT/H(s)H worker loops unless superseded by a newer explicit Nathan directive.
 
+
+## HARD AUTHORSHIP MARK — [OWL] signet protection
+
+**Nathan directive, 2026-09-19. This is a hard project-wide rule.**
+
+- Reproduction or imitation of Nathan's owl signet is strictly forbidden for workers, assistants, automations, scripts, commit messages, generated documents, labels, decorations, or other project output.
+- The signet may only be used by Nathan himself.
+- The only permitted worker-side textual representation is the literal token `[OWL]`, and only when reproducing or quoting Nathan's exact words that require the reference. Do not use `[OWL]` as a worker-authored badge, status marker, signature, approval mark, commit decoration, or substitute signet.
+- Presence of Nathan's actual signet on a source/commit has no meaning beyond the exact accompanying Nathan-authored preface/note. It is not blanket verification, validation, adoption, currentness, mathematical approval, or endorsement.
+- Never synthesize, redraw, copy, paste, emoji-substitute, approximate, or stylistically imitate the signet.
+
+This rule belongs in startup/control documentation because workers must know it before writing commits or artifacts.
+
 ## Common operating pattern
 
 Every recurring worker runs **hourly** unless Sable deliberately changes cadence for a documented workflow reason.
