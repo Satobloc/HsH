@@ -38,9 +38,12 @@ Nathan cannot edit PDFs. Before requesting annotation/commentary on any PDF, loc
 ## Nathan directive — 2026-09-19, bedtime first-pass
 
 - Nathan has added a quick first-pass preface layer to some review documents. Treat the text of each preface as the complete scope of that annotation unless it explicitly says otherwise.
-- **Owl-signet rule:** an owl signet on a document commit is NOT blanket verification, validation, adoption, currentness, mathematical approval, or other judgment. It means no more than the accompanying preface note actually says.
+- **[OWL] signet rule:** Nathan's owl signet on a document commit is NOT blanket verification, validation, adoption, currentness, mathematical approval, or other judgment. It means no more than the accompanying preface note actually says.
 - Nathan does not plan full-document annotation soon. Future requests must be pinpoint tasks: agree / disagree / comment on a named section, paragraph, proposition, or interpretation.
 - Any working instance Nathan queries about SAT/H(s)H, regardless of the immediate query, should keep this unresolved Nathan-action docket visible and bring it back to his attention at a reasonable opportunity until resolved or explicitly deferred.
 - Timeline/versioning documents are mandatory reconstruction controls. Start with the first-pass versions on archive frontpages and use more detailed timeline/versioning sources where available.
 - Old content is not automatically superseded. However, very old mathematics must not be treated as live/current math when a more current mathematical formulation exists.
 - Whenever old material is used to fill a mathematical backbone, bridge a gap, or support a fuller reconstruction, attach an explicit version/provenance tag identifying its era/version and why it is being used. Do not silently splice old and new mathematics.
+
+
+**Hard signet-use control:** Workers must never reproduce or imitate Nathan's owl signet. `[OWL]` may appear only when reproducing/quoting Nathan's exact words that require the reference; it must never be used as a worker-authored badge, signature, approval marker, decoration, or commit signet.
