@@ -120,7 +120,28 @@ Do not treat NotebookLM-generated summary language as Nathan Direct unless there
 
 When Plug n Play exports arrive, treat them as an extractor-integrity QA set: verify that deliberately different selected documents/panes produce correspondingly different exported content rather than repeated copies of the same material.
 
-## 9. Provenance and authorship rules
+## 9. Continuation / self-reconstruction from saved conversations
+
+A conversation or instance that is being continued, revived, or re-derived from prior work may reconstruct its working identity and state from the saved conversation corpus.
+
+Preferred approach:
+- first search for saved conversations explicitly tagged/named for that instance or lane;
+- use those as the primary continuity anchor when available;
+- then broaden to any other saved conversations that contain relevant work, handoffs, direct Nathan instructions, role definitions, continuity material, outputs, or cross-instance references.
+
+The reconstruction corpus is **not restricted to conversations bearing the instance's own name**. A useful continuation packet may be distributed across other conversations, Common surfaces, handoffs, checkpoints, reports, and cross-lane references.
+
+Requirements:
+- preserve the distinction between exact prior-instance output, Nathan instructions, other-instance commentary, and later retrospective reconstruction;
+- do not assume identity continuity merely from a shared name;
+- record which saved conversations were used to reconstruct the instance, with dates/IDs where available;
+- note important disagreements, branch variants, stale role definitions, or superseded instructions rather than smoothing them away;
+- use current Common/control surfaces to synchronize the reconstructed instance after historical self-recovery;
+- treat reconstruction from saved conversations as a legitimate continuity method, not as weaker by default than a single dedicated wake packet.
+
+If an instance-specific conversation exists, it is usually the best first stop, but it is not an exclusive source boundary.
+
+## 10. Provenance and authorship rules
 
 Do not equate `role=user` with sole Nathan authorship. A user message may contain embedded coauthored or assistant-generated material.
 
@@ -134,7 +155,7 @@ For Nathan Direct work, preserve:
 
 Never convert assistant interpretation, captioning, reconstruction, NotebookLM paraphrase, or coauthored embedded prompts into sole Nathan-authored text.
 
-## 10. Current doctrine vs historical material
+## 11. Current doctrine vs historical material
 
 Never flatten the archive into a single current voice.
 
@@ -149,13 +170,13 @@ Keep separate:
 
 Currentness is not correctness. Polish is not maturity. Provenance is not validation. A clean index is not theory proof.
 
-## 11. Sandbox and quarantine
+## 12. Sandbox and quarantine
 
 **Sandbox:** theory-bearing construction, derivation, solver work, mathematical repair, interpretation, prediction exploration, and criticism may occur here with explicit status labels.
 
 **Quarantine:** restricted material, including PRIOR_ART-controlled content, does not leak into ordinary theory or Common surfaces. If outside reading surfaces material that may trigger quarantine, send Sable bibliographic identity/source pointer plus a minimal neutral note; do not import the mathematical machinery into ordinary development.
 
-## 12. State-of-Reconstruction and Instance-Enrichment reports
+## 13. State-of-Reconstruction and Instance-Enrichment reports
 
 These reports are part of project restartability and longitudinal self-audit.
 
@@ -182,7 +203,7 @@ A report should capture demonstrable changes in:
 
 Reports should live in visible, durable repo locations with Common/Dashboard/README wayfinding. Preserve instance identity, date, and exposure state so reports can be compared longitudinally.
 
-## 13. How to choose useful work
+## 14. How to choose useful work
 
 Default work quantum:
 
@@ -198,7 +219,7 @@ Before acting:
 
 Safe alternates include provenance QA, extraction-gap audit, archive/source-path repair, chronology, duplicate handling, bibliography/source ancestry, infrastructure, tagging, wayfinding, bounded enrichment, or sandbox exploration.
 
-## 14. Where outputs belong
+## 15. Where outputs belong
 
 Use visible repo locations for substantive reports intended for future reference.
 
@@ -210,13 +231,13 @@ General pattern:
 
 Do not let important project state exist only in chat, local scratch files, external apps, or automation prompts.
 
-## 15. Hard UX rule
+## 16. Hard UX rule
 
 Do not rename, retitle, or otherwise alter any conversation/thread/chat. Do not suggest conversation renaming.
 
 See `NO_CONVERSATION_RENAMING_POLICY.md`.
 
-## 16. Maintenance
+## 17. Maintenance
 
 This orientation is a living front door, not a historical authority source.
 
