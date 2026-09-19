@@ -1,7 +1,7 @@
 # SAT_CONVOS_20 — content / ingest index
 
 **Started:** 2026-09-19  
-**Status:** ACTIVE / LIGHTWEIGHT INVENTORY ONLY  
+**Status:** ACTIVE / BOUNDED SEMANTIC INGEST STARTED  
 **Authority:** routing and provenance index only; folder order does not imply value, chronology, currentness, or authority.  
 **Folder:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/`
 
@@ -20,7 +20,45 @@ The first bounded comparison establishes exact cross-folder duplicate identity f
 
 These are **cross-folder duplicate archive copies**. Preserve both folder paths for provenance, but do not spend semantic ingest effort rereading the folder-20 copy when the identical blob has already been read/indexed from folder 19.
 
-Folder 20 also visibly contains items not present in the truncated first folder-19 listing, including `# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` (SHA `50c4ae2b880804d0f4dd7bfb9e1ba7ef08ba19fc`), `Alberrisch__NotebookLM_export.json` (SHA `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`), and `BURNTHROUGH__NotebookLM_export.json` (SHA `8bb929b45a85f199021cd01c653db209679a436c`). At this checkpoint they are **inventory-visible only**; no semantic value/currentness/authorship judgment is made from titles.
+Folder 20 also visibly contains items not present in the truncated first folder-19 listing, including `# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` (SHA `50c4ae2b880804d0f4dd7bfb9e1ba7ef08ba19fc`), `Alberrisch__NotebookLM_export.json` (SHA `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`), and `BURNTHROUGH__NotebookLM_export.json` (SHA `8bb929b45a85f199021cd01c653db209679a436c`).
+
+## First semantic read — `# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json`
+
+**Read date:** 2026-09-19  
+**Blob:** `50c4ae2b880804d0f4dd7bfb9e1ba7ef08ba19fc`  
+**Notebook id:** `2b4f69a2-fc11-45ff-9187-19b5e8b9ca4d`  
+**Capture:** `2026-09-19T01:17:10.512Z`  
+**Visible source count:** 50  
+**Exporter:** `0.2.2`  
+**Capture completeness warning:** `reached_top=false`; do not treat the visible message sequence as a complete notebook history.
+
+### Authorship/source boundary
+
+The export again demonstrates the known NotebookLM serialization hazard: short prompt-like turns and long citation-heavy generated answers are both serialized as `role=user`. Therefore `role=user` is **not** Nathan-authorship authentication here. Prompt-like turns such as `Has SAT achieved structural closure` and `Ok, give me all the core equations of SAT` are Nathan-candidate utterances only until recovered against an underlying raw conversation/source or other independent authorship evidence. The long responses are plainly NotebookLM synthesis and must not enter Nathan Direct as Nathan-authored prose.
+
+### Semantic routing value
+
+Tentative value: **VERY HIGH for historical SAT reconstruction/source wayfinding; LOW as direct-authorship evidence without crosswalks.**
+
+The generated material is unusually dense in claims/equations attributed to its 50-source panel. Visible topics include:
+
+- claimed classical constraint closure in a unit-timelike `u_mu` sector, Poisson-matrix/second-class-constraint/Dirac-bracket language;
+- a three-field SAT Lagrangian involving `theta_4`, `u_mu`, and `tau`;
+- refractive-index / angle relations and an inverse-RI extraction relation;
+- mass-emergence and angular-tension formulas;
+- `Z_3` / triplet-fusion / torsion-quantization claims;
+- cosmological-redshift, muon-anomaly, and lensing reinterpretations;
+- explicit generated caveats that quantization, tau dynamics, and precise mass hierarchy remained unfinished.
+
+None of those generated formulations is promoted here as current SAT/H(s)H, mathematically correct, Nathan-authored, or historically primary. Their immediate provenance value is as a **source-panel ancestry map**: the citation labels and 50-source panel may point to underlying SAT documents that need source-first recovery.
+
+### Important chronology/currentness caution
+
+This notebook appears to synthesize a substantial historical SAT field-theory phase. It should not be flattened into current H(s)H theory state. In particular, generated claims of `structural closure`, `operational field theory`, or a settled equation chassis are NLM characterizations unless/until matched to attributable underlying documents and later Nathan corrections.
+
+### Crosswalk target
+
+Best next operation on this item is **not** another generated-answer read. Extract/crosswalk its source-panel entries, then prioritize the sources behind the constraint-closure/Lagrangian claims and the mass-hierarchy caveat. Preserve three levels separately: (a) NLM generated claim, (b) source-panel attestation/citation pointer, (c) located underlying source with authenticated authorship/provenance.
 
 ## Extraction / authorship caution
 
@@ -28,4 +66,4 @@ Folder 18/19 NotebookLM exports already establish that `role=user` is not suffic
 
 ## Next cursor
 
-Perform one bounded folder-20 novelty pass using filename + blob SHA against folder 19, separating exact duplicates from genuinely new blobs before semantic ingest. Then choose one high-information genuinely new item for targeted reading under the normal authorship/source-boundary rules.
+Continue the `SAT_SoT` item source-first: recover its visible source-panel names/records and build the first bounded source-index → underlying-document crosswalk for the constraint-closure/Lagrangian cluster. If source-panel metadata proves unavailable in the export, record that limitation and move to one genuinely new folder-20 blob (`BURNTHROUGH` is the next high-information candidate by size, but title/size alone does not confer semantic priority).
