@@ -94,6 +94,14 @@ Its immediate generated response treats the 24-cell, fixed fusion gate, and fixe
 
 This matters to the Q/smoothing lineage because several generated Q/bridge formulas in the same notebook explicitly rely on the 24-cell/HSUCV lattice. Any reconstruction of those formulas must therefore track whether their supporting scaffold had already been rejected/demoted in Nathan's own chronology.
 
+### Current-status contradiction inside the same NLM notebook — 2026-09-19 check
+
+A later NotebookLM-generated response (message index 53), immediately following the short prompt-like turn `Ok, what happens to the UI, and the Whirligig?`, says the UI and Whirligig are "demoted" to scaffold/readout map and operational solver, respectively, and says they are not part of the physical substrate. That generated characterization must **not** be treated as current-status authority.
+
+The current Nathan-correction status surface `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md` explicitly classifies **Whirligig/Donut, Hagalaz, UI/TX, and Three Spheres as live SAT geometric-solver machinery**, with Hagalaz tying the solver system together. Thus this NLM passage is a concrete example of why polished generated reconstruction prose can conflict with controlling Nathan-direct status even inside a source-rich notebook.
+
+Preserve the distinction: the NLM passage may still be useful for reconstructing an intermediate interpretation of the tools' ontological/operational role, but it does not demote their current live solver status. Any historical claim about when/why their role changed requires underlying-source chronology rather than the NLM synthesis alone.
+
 ### Source-ancestry clues exposed by the notebook
 
 The source panel names several potentially useful underlying artifacts, including:
