@@ -38,6 +38,9 @@ Before running, creating, modifying, or publishing from any script/bot/workflow 
 - `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md`;
 - `SHARED_STATE_WRITE_SAFETY.md` when shared/generated/semantic state may be written.
 
+Before reconstructing, deriving, repairing, auditing, calculating, benchmarking, or making historical mathematical-status claims, also read and obey:
+- `../MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`.
+
 The worker should then assess whether its nominal primary responsibility remains the highest-value safe operation.
 
 
