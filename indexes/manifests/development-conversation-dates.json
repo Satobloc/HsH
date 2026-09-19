@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-19T00:25:00.323664+00:00",
+  "generated_at_utc": "2026-09-19T01:11:32.948964+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 364,
-    "skipped": 135,
+    "skipped": 136,
     "planned": 81,
     "collision": 1
   },
@@ -4492,6 +4492,18 @@
       "message_count": 463,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json",
