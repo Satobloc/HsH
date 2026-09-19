@@ -20,6 +20,11 @@ Before running, creating, modifying, or publishing from any script/bot/workflow 
 
 The worker should then assess whether its nominal primary responsibility remains the highest-value safe operation.
 
+
+### HARD startup rule — Nathan [OWL] signet protection
+
+Before producing repository text or commit messages, follow the project-wide signet rule in `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`: workers must never reproduce, imitate, decorate with, or use Nathan's owl signet. The literal token `[OWL]` is permitted only when reproducing/quoting Nathan's exact words that require that reference; it is never a worker badge, signature, approval mark, or commit decoration.
+
 ## MUST-READ — SAT/H(s)H boson/fermion terminology correction — 2026-09-18
 
 Nathan has identified a terminology collision between historical SAT usage and standard-physics usage of **boson** and **fermion**. Treat this as a current must-read correction for reconstruction, tagging, glossary work, theory discussion, and source interpretation.
