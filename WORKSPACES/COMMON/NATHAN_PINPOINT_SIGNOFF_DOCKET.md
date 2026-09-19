@@ -16,7 +16,9 @@
 
 ## Interpretation controls
 
-- Owl signet on a commit has no blanket semantic force. Read only the associated Nathan preface/annotation.
+- Nathan's [OWL] signet on a commit has no blanket semantic force. Read only the associated Nathan preface/annotation.
 - Nathan attestation is provenance/conceptual-status evidence, not mathematical verification.
 - Use timeline/versioning controls before asking any question above; phrase questions against the correct historical version.
 - Old material used in current reconstruction must carry explicit version/era provenance tags.
+
+**Hard signet-use control:** Workers must never reproduce or imitate Nathan's owl signet. `[OWL]` may appear only when reproducing/quoting Nathan's exact words that require the reference; it must never be used as a worker-authored badge, signature, approval marker, decoration, or commit signet.
