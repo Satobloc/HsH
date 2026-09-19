@@ -100,6 +100,15 @@ Each proposition should be small enough to cite and update independently.
 - **Statement:** When Nathan modifies or overrides an existing premise, preserve the old entry/status and explicitly link the transition. Do not rewrite history to make the current formulation appear to have existed earlier.
 - **Date/status note:** Nathan Direct, 2026-09-16.
 
+### BR-005 — θ₄ baseline is measured from the time normal
+
+- **Status:** ND
+- **Scope:** SAT θ₄ convention and SAT → H(s)H translation
+- **Statement:** SAT θ₄ measures the filament–timesheet intersection angle from the **time normal**. Null/vacuum orientation is **θ₄ = 0**, with the filament tangent parallel to the time normal / timesheet propagation direction. For a particle at rest, θ₄ is equivalent to inverse helical pitch.
+- **Source:** [`!!_RUNNING_COTHEORIST_LOG.md`](!!_RUNNING_COTHEORIST_LOG.md), 2026-09-16 θ₄ baseline entry, explicitly recorded there as Nathan-direct clarification.
+- **Boundary:** The adjacent working hypothesis about the origin/inheritance of winding is **not** part of this entry and remains exploratory unless separately promoted.
+- **Date/status note:** Nathan Direct, 2026-09-16; propagated to BEDROCK 2026-09-18.
+
 ---
 
 ## 3. Tentative findings intake
