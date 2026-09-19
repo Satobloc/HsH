@@ -51,7 +51,7 @@ This roster is initialized from `ACTIVE_AUTOMATION_ROSTER.md` (snapshot 2026-09-
 | Nathan Words Excavator | Not yet located | Not yet located | active recurring worker |
 | Meridian Solver Loop | Not yet located | Not yet located | active recurring worker; complete `WORKSPACES/MERIDIAN/` filename inventory checked by Mercer Run 117 with no obvious dedicated report-family filename; this does not establish non-filing elsewhere/under another name |
 | AUTOMATION — Project Systems | Not yet located | Not yet located | backend system loop; not human-facing Sable identity; complete `WORKSPACES/SABLE/` filename inventory checked by Mercer Run 118 with no obvious dedicated report-family filename; assignment/control artifact is not itself a filed instance report |
-| Mercer Archive QA Loop | [`STATE_OF_RECONSTRUCTION_2026-09-19.md`](../MERCER/STATE_OF_RECONSTRUCTION_2026-09-19.md) | Not yet located | active recurring worker; reconstruction report filed 2026-09-19 |
+| Mercer Archive QA Loop | [`STATE_OF_RECONSTRUCTION_2026-09-19.md`](../MERCER/STATE_OF_RECONSTRUCTION_2026-09-19.md) | [`INSTANCE_ENRICHMENT_2026-09-19.md`](../MERCER/INSTANCE_ENRICHMENT_2026-09-19.md) | active recurring worker; both requested reports filed 2026-09-19 |
 
 Active non-recurring/current specialists should be added when current control surfaces establish that they are presently working and reportable. Disabled, sleeping, consultant, or revivable instances belong in a separate status class rather than being silently counted as current workers.
 
