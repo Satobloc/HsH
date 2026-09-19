@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T04:04:23.734653+00:00",
+  "generated_at_utc": "2026-09-19T04:05:43.785072+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 364,
     "skipped": 240,
-    "planned": 86,
+    "planned": 89,
     "collision": 1
   },
   "records": [
@@ -5976,6 +5976,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SABLE Revival Rotation — raw (2).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt",
+      "start_local": "2026-09-13T05:42:26.860526-04:00",
+      "end_local": "2026-09-15T07:12:47.189056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 976,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
       "new_path": null,
       "start_local": null,
@@ -6122,6 +6132,26 @@
       "end_local": "2026-09-07T18:25:43.845020-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 529,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-12T07:08:06.886290-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 282,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-16T01:17:06.744000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1192,
       "status": "planned",
       "warnings": []
     },
