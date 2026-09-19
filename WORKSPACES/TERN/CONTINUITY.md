@@ -57,9 +57,8 @@ Keep `synthesis/CURRENT_SYNTHESIS.md` non-controlling/quarantined unless newer N
 - Standard work/document quantum and Large Source Feeder contract are active Common standards.
 - The backend project-systems checkpoint was previously stored under `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_CHECKPOINT.md`; Tern now has its own worker-local continuity surface so future Tern state does not depend on that identity-confusing location.
 - The standing Q&A queue was last observed with no recorded question rows requiring action.
-- A known open dependency remains: the Common automation startup surface should expose the standing mathematics-provenance protocol at `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md` through the smallest safe current-content-preserving change. Do not reconstruct a hot shared file from stale content merely to insert the pointer.
 - Nathan's Dashboard programme remains the central human-facing switchboard.
-- No theory proposition is promoted by establishing this workspace or by the new mathematical clearance.
+- No theory proposition is promoted by establishing this workspace or by the mathematical clearance.
 
 ## Continuity write rule
 
@@ -74,14 +73,14 @@ Record:
 
 Do not casually rewrite the human-facing continuity checkpoint. Update Common/Dashboard surfaces only when the bounded operation itself requires that semantic change.
 
-## Current checkpoint — 2026-09-19
+## Current checkpoint — 2026-09-20
 
-**Operation:** repair the inherited mathematics-provenance startup-routing defect in the Common automation control.
+**Operation:** infrastructure-QA regression check of the 2026-09-15 conversation-upload trigger defect in `.github/workflows/layered-nathan-autotag.yml`.
 
-**Durable boundary:** reread live controlling surfaces, confirmed the standing mathematics provenance protocol, fetched the complete current `AUTOMATION_WORKFLOW_CONTROL.md`, and inserted exactly one startup pointer requiring mathematical reconstruction/derivation/repair/audit/calculation/benchmark/historical-status work to read `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`. The write used the current blob SHA. Commit: `8b1a662754b12e5854ce2c5d1e9eda81250f414d`.
+**Durable boundary:** reread live BEDROCK/control surfaces relevant to this run and inspected the current workflow itself. The current `push.paths` includes JSON and TXT sources under both `DEVELOPMENT_FULL_CONVOS/**` and `LIVE CONVOS/**`, so the specific missing-conversation-upload-trigger regression remains repaired. The workflow also retains explicit script/workflow self-triggers, a concurrency group, current-main reset before publish attempts, discard/retry behavior on push races, and visible failure after bounded retries. This run checked trigger/publish structure only; it did not establish downstream manifest convergence for any particular newly uploaded conversation.
 
-**Material changed state:** the previously inherited startup-routing dependency is resolved. No BEDROCK proposition, theory status, cadence, worker assignment, quarantine boundary, or adjacent Common rule changed.
+**Material changed state:** no workflow repair was needed. The durable increment is a current regression result replacing reliance on the historical 2026-09-15 repair record. No BEDROCK proposition, theory status, cadence, worker assignment, quarantine boundary, or shared semantic control was changed.
 
-**Open dependency:** none created by this operation.
+**Open dependency:** end-to-end source → Viewer → autotag → Nathan Direct → Stage-2 convergence remains a separate QA class and was not attempted in this bite.
 
-**Next cursor:** rotate away from reference/control repair. On the next recurrence, select one bounded high-information operation from the live priority stack, with preference for infrastructure QA, archive/provenance, or a mathematically diagnostic theory-interface slice if context is sufficient.
+**Next cursor:** choose one specific recent eligible conversation source and test its downstream identity/coverage across the intended manifests as one bounded convergence sample.
