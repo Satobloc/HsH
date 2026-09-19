@@ -1,3 +1,6 @@
+{{{ Nathan Annotation Sept 2026 -- This is a - very early - LLM discussion of how the then-Mark V version of the theory was intended to map to standard physics; I have not yet reassessed the contents, but regardless it's quite old material... not necessarily fully superseded, but necessarily not superseding of anything that comes later unless later material is specifically found flawed going all the way back to the Mark V / SAT-W history, which seems unlikely. Use the [[GLASS]] (shorthand for the original main SAT Glass Sausage Factory; brackets optional for *me* due to my bony interface surface) versioning on the front page (considered roughly; actual conversation dates supersede any chronological errors that may be present in the versioning list(s). --NM 🦉 19SEP2026 }}} 
+
+
 Mapping SAT-W to Known Physics (Initial Set)
 1. GRAVITY → Filament Tension Across Time
 Standard View:
