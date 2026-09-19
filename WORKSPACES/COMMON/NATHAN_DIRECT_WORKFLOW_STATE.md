@@ -22,6 +22,22 @@ The master unsorted/tagged Nathan-only substrate is durable on `main` under `ind
 
 Archive-wide v3 precision tagging, repackaging, and Stage-2 queue generation have landed successfully through run 9. Precision output supplements historical v1 metadata; it does not authorize deleting or downgrading older tags. Mercer remains the precision/selectivity QA owner.
 
+## WATCH PRIORITY — Q vs inverse-Q / braid smoothing and scaling
+
+Nathan-direct clarification, 2026-09-19:
+
+- **Neither the Q rule nor the inverse-Q rule is currently adequate. Both are insufficient.**
+- Do not promote either formulation as the resolved/current rule merely because a document, reconstruction, or NLM synthesis presents it cleanly.
+- Give special retrieval/indexing attention to documents and conversations dealing with **braid smoothing, scaling, scale transitions, and related attempts to reconcile or replace Q/inverse-Q behavior**.
+- NotebookLM material contains substantial work in this area and is therefore potentially high-value for wayfinding/reconstruction, but must be handled with the usual NLM authorship and source-boundary caution.
+- Treat proposed devices such as the **“holonomy bridge”** cautiously: they may represent exploratory repair/fudge attempts rather than established structure. Preserve them as historical/exploratory hypotheses until source chronology, derivation, necessity, and later correction/supersession are established.
+- The reconstruction target is not “choose Q or inverse-Q.” It is to recover **why each proved insufficient, what smoothing/scaling problem each was trying to solve, what alternatives/bridges were attempted, and what later work actually superseded or constrained them**.
+- Preserve exact source wording and distinguish Nathan-direct statements, assistant proposals, NLM synthesis, mathematical derivations/checks, and later retrospective interpretation.
+
+Useful retrieval terms include: `Q`, `inverse-Q`, `inverse Q`, `braid smoothing`, `smoothing`, `scaling`, `scale transition`, `scale bridge`, `holonomy bridge`, `holonomy`, and adjacent terminology discovered in-source.
+
+This is a **watch/reconstruction priority**, not a declaration that any replacement rule has already been identified.
+
 ## New P0 — conversation-folder content index
 
 Nathan's 2026-09-19 directive prioritizes a **detailed content index of the exported conversation folders**, covering not only conversation exports but every other document/artifact in those folders. The index must track current ingest completion plus **explicitly tentative** value and priority assessments.
