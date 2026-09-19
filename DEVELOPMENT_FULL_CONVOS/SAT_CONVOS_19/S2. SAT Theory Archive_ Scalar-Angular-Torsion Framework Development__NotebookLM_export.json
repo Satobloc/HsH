@@ -1,0 +1,1386 @@
+{
+  "metadata": {
+    "notebook_title": "S2. SAT Theory Archive: Scalar-Angular-Torsion Framework Development",
+    "notebook_id": "1071260b-3824-4334-9720-6a96e904d7ad",
+    "notebook_url": "https://notebook.google.com/notebook/1071260b-3824-4334-9720-6a96e904d7ad?authuser=1",
+    "captured_at": "2026-09-19T02:19:07.849Z",
+    "visible_source_count": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 31
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Do we have: Complete Lattice & Multi-Particle Dynamics\n•\tInter-filament interactions, excited states, and scattering amplitudes for arbitrary particles.\n2.\tFull Quantization of $\\theta_4$ & $u^\\mu$ Fields\n•\tSAT-X treats these mostly classically with topological quantization; a fully quantum field theory with renormalization is not formalized.\n3.\tDynamic Cosmology / Large-Scale Limits\n•\tHubble tension, dark matter fraction, and photon-neutrino conversion are qualitatively described, but the full SAT-X cosmology equations aren’t fully solved.\n4.\tUnified SAT/SAT-X Notation & Constants\n•\tNeed to merge SAT-X’s $\\psi, T, \\mathcal{L}_{\\rm BGT}$ formalism with the newer SAT Lagrangian, topological fusion, and geometric stress-energy to produce a single consistent chassis.\n5.\tNumerical Implementations / Predictions\n•\tActual computation of particle masses, interactions, gravitational effects, and cosmology from filament parameters is implied but not carried out explicitly.",
+      "citations": [],
+      "key": "457ce39a"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the sources provided, the current status of the Scalar-Angular-Torsion (SAT) framework and its advanced iteration, SAT-X, can be summarized as follows:\n1. Complete Lattice & Multi-Particle Dynamics\nThe sources describe a vacuum filled with an aligned lattice of filaments where the angle of intersection with the time surface is near-zero\n1\n2\n. Inter-filament interactions are modeled through intersectional traces that produce helical patterns and bundled filaments\n3\n4\n. A composite taxonomy classifies multi-particle structures based on filament entanglement:\nThreads: Simple composites like mesons and baryons\n5\n6\n.\nTwines and Yarns: Atoms and molecules\n5\n6\n.\nBundles and Ropes: Everyday objects up to stars and planets\n5\nmore_horiz\n. While internal structures are mapped to worldline oscillations, the sources do not explicitly provide a formalized set of scattering amplitudes for arbitrary particles\n8\nmore_horiz\n.\n2. Full Quantization of θ\n4\n\t​\n\n and u\nμ\n Fields\nIn the transition to SATv and SAT-X, the framework defines θ\n4\n\t​\n\n(x) as a dynamical scalar field (angular misalignment) and u\nμ\n(x) as a unit timelike vector field representing wavefront propagation\n11\n. The sources indicate that while the Blockwave Lagrangian includes the critical architecture for mass generation and quantization (a cosine potential), a fully quantized field theory with renormalization is not yet finalized\n12\n13\n. The completion of operator algebra and field quantization is explicitly listed as a post-Q2 2025 priority\n14\n.\n3. Dynamic Cosmology / Large-Scale Limits\nThe large-scale structure is addressed through the Projection Geometry Cosmological Unfolding (PGCU) module, which interprets expansion as the time surface sweeping through the filamental structure\n15\n. Key qualitative descriptions include:\nDark Matter: Interpreted as \"normal matter\" where photons are out of phase and thus unavailable for interaction with detectors\n16\n17\n.\nPhoton-Neutrino Conversion: Suggested by the possibility that photons and neutrinos are projections of the same underlying structure viewed from different perspectives\n16\n17\n. Despite these insights, the sources acknowledge that full cosmology equations and modules for emergent gravitational action are still \"ongoing\" or \"speculative\" and require redevelopment\n15\n18\n.\n4. Unified SAT/SAT-X Notation & Constants\nThe sources outline an effort to reach \"Structural Closure\" by integrating modular results into a \"One–Action SAT\" (Blockwave Lagrangian)\n12\n13\n. This build seeks to unify the following field ontologies: g\nμν\n\t​\n\n,u\nμ\n,θ, and J\nμν\n\t​\n\n13\n. Fundamental constants like c,ℏ, and α are treated as Structural Derivatives emerging from the geometry of the wavefront-filament interaction, though the full merger of all formalisms into a single \"consistent chassis\" appears to be the goal of the current \"Lean-Locked rebuild\"\n4\nmore_horiz\n.\n5. Numerical Implementations / Predictions\nQuantitative tightening is described as an ongoing process\n13\n. The framework uses publicly available data, such as CMB birefringence measurements and INTEGRAL data, to compute numerical constraints\n13\n. While the sources mention a \"numerically grounded SAT particle spectrum table\" for the electron, muon, and neutrinos, many broader computations of interactions and gravitational effects from filament parameters are implied as being in the \"Operational Rollout Phase\" rather than being fully completed\n13\n21\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "0f70e021"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Can you give me the relevant math",
+      "citations": [],
+      "key": "a3e6427e"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The relevant mathematical framework for SAT and SAT-X centers on the transition from a purely geometric conceptual model into a geometric-topological field theory\n1\n. This framework is built upon several core mathematical components:\n1. Field Content and Variables\nThe theory defines its field content through two primary entities:\nθ\n4\n\t​\n\n(x): A dynamical scalar field representing local angular misalignment\n1\n. This is defined as the angle of incidence between the filament’s tangent vector (T\nμ\n) and the unit timelike vector field (u\nμ\n)\n1\n.\nu\nμ\n(x): A unit timelike vector field representing the dynamic, tensioned wavefront propagation or \"time flow\"\n1\n.\ng\nμν\n\t​\n\n: The metric tensor, which the sources suggest emerges statistically from the average of filament tangent vectors, denoted as ⟨v\nμ\nv\nν\n⟩\n2\n.\n2. The Blockwave Lagrangian\nThe \"One–Action SAT\" or Blockwave Lagrangian synthesizes these fields to describe mass generation and quantization\n3\n4\n. It is constructed as follows:\nThe Lagrangian incorporates θ\n4\n\t​\n\n kinetics and a potential term V(θ\n4\n\t​\n\n)\n5\n.\nA critical component of this Lagrangian is the compact scalar phase θ with a cosine potential: L\nθ\n\t​\n\n∝1−cosθ\n4\n.\nThis specific potential architecture is identified as the mechanism for both mass generation and quantization\n4\n.\n3. Topological Math and Fusion Rules\nTo account for particle identity and binding, the framework utilizes topological charge and discrete states:\nτ∈Z\n3\n\t​\n\n: These are discrete twist sector labels representing the topological state of a filament\n5\n6\n.\nFusion Rules: Particle binding is modeled through these states. For example, Mesons are represented by the fusion τ+(−τ), while Baryons are modeled as the combination of three states: τ\n0\n\t​\n\n+τ\n1\n\t​\n\n+τ\n2\n\t​\n\n6\n.\nTopological Class (Q): The framework computes the total topological class by summing winding + linking + writhe\n3\n.\nGauge Symmetries: U(1), SU(2), and SU(3) are derived as emergent properties from stable topological interlocks within the filament network\n2\n.\n4. Constants and Observables\nFundamental physical constants are not treated as independent inputs but as Structural Derivatives arising from the geometry\n7\n8\n:\nConstants such as c,ℏ, and α (the Fine Structure Constant) emerge from wavefront-filament geometry thresholds and bundle stability topologies\n7\n.\nMass (m) is mathematically related to the stored angular tension in bundled filaments, specifically the θ\n4\n\t​\n\n misalignment\n7\n8\n.\nThe Quantum Waveform is modeled as a statistical measure of trajectory length over an arbitrary time period, formulated as a speed of light boundary function\n9\n10\n.\n5. Relativity and Resonance\nThe framework reinterprets the Einstein equations by emphasizing the periodicity inherent in specific terms:\nThe appearance of 8π in relativistic equations is interpreted as a metric for periodic behavior\n11\n12\n.\nIn high-mass, dynamic systems, this term allows for resonant effects—values that oscillate, reinforce, or cancel—calculated with respect to that periodicity\n11\n12\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "7ba979ed"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Can you give me the full set of equations and calculations",
+      "citations": [],
+      "key": "dd38790f"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "While the sources indicate that the Scalar-Angular-Torsion (SAT) theory is currently undergoing a \"Structural Closure\" phase to finalize its unified equations, the foundational mathematical architecture and core field definitions are documented\n1\nmore_horiz\n.\nThe following are the central equations and mathematical derivations provided in the sources:\n1. Primary Field Ontologies\nThe framework is synthesized into a \"One–Action SAT\" (Blockwave Lagrangian) using four fundamental field ontologies\n2\n4\n:\ng\nμν\n\t​\n\n: The metric tensor, which emerges statistically from the average of filament tangent vectors: g\nμν\n\t​\n\n≈⟨v\nμ\nv\nν\n⟩\n5\n.\nu\nμ\n: A unit timelike vector field representing dynamic wavefront propagation (time flow)\n4\nmore_horiz\n.\nθ\n4\n\t​\n\n(x): A dynamical scalar field representing the local angular misalignment between the filament tangent vector (T\nμ\n) and the wavefront propagation vector (u\nμ\n)\n7\n8\n.\nJ\nμν\n\t​\n\n: A strain or angular momentum tensor\n4\n.\n2. The Blockwave Lagrangian (L\nSAT\n\t​\n\n)\nThe theory describes mass generation and quantization through a specific Lagrangian structure\n4\n9\n:\nL\nSAT\n\t​\n\n incorporates θ\n4\n\t​\n\n kinetics and a potential V(θ\n4\n\t​\n\n)\n9\n.\nCompact Scalar Phase: The critical architecture for quantization and mass is a compact scalar phase θ with a cosine potential:\nL\nθ\n\t​\n\n∝1−cosθ\n4\n.\nMass-Angular Relation: Mass (m) is defined as stored angular tension and is proportional to the angle of incidence θ\n4\n\t​\n\n8\nmore_horiz\n.\n3. Topological Charge and Fusion Rules\nParticle identity and binding are derived from discrete topological states\n6\n9\n:\nDiscrete Twist States: Defined as τ∈Z\n3\n\t​\n\n6\n9\n.\nFusion Rules for Particle Binding:\nMesons: τ+(−τ)\n6\n.\nBaryons: τ\n0\n\t​\n\n+τ\n1\n\t​\n\n+τ\n2\n\t​\n\n6\n.\nTopological Class (Q): The total topological charge is computed as the sum of geometric properties:\nQ=winding+linking+writhe\n2\n.\nStability Constraint: The \"2/3 filament theorem\" dictates that no stable particles exist with a topological charge Q≥4\n12\n.\n4. Emergent Physics and Constants\nFundamental constants are derived as Structural Derivatives of the geometry rather than arbitrary inputs\n11\n13\n:\nConstants c,ℏ, and α (Fine Structure Constant) emerge from wavefront-filament geometry thresholds and bundle stability topologies\n8\n11\n.\nThe Quantum Waveform: Modeled as a statistical measure of trajectory length over a time period, formulated as a speed of light boundary function:\nWaveform≈Statistical Measure of\nTime Period\nTrajectory Length\n\t​\n\n14\nmore_horiz\n.\n5. Relativity and Resonance\nThe framework reinterprets the Einstein equations by identifying the 8π term as a metric for periodic behavior\n17\nmore_horiz\n:\nIn high-mass, dynamic systems, values in the equation oscillate and resonate (reinforcing or canceling) based on this 8π periodicity\n17\n19\n.\nGravity itself is defined as emergent curvature of the time surface (u\nμ\n) caused by the back-pull (strain) of the filament network\n20\nmore_horiz\n.\n6. Summary of Ongoing Calculations\nThe sources note that specific numerical implementations are in progress, including:\nTorsion Stiffness (κ\n0\n\t​\n\n): Used to ground the SAT particle spectrum table for electrons, muons, and neutrinos\n4\n.\nDimensional Constants: All physics in the theory's \"Sanity Pass\" depends on exactly two constants: filament tension (T) and length scale (L)\n5\n23\n.\nPGCU (Projection Geometry Cosmological Unfolding): Used to calculate cosmic expansion as the geometric sweeping of the time surface (Σ\nt\n\t​\n\n) through the filament lattice\n22\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "e287d9d1"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Ok, based on the sources you have and our conversation, can you give me a detailed timeline of the development of SAT and introduction of key ideas and most importantly equations and definitions",
+      "citations": [],
+      "key": "0e99af00"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "The development of Scalar-Angular-Torsion (SAT) theory evolved from a philosophical thought experiment into a rigorous geometric-topological field theory, aiming to unify physics by reinterpreting reality as a four-dimensional fabric of worldline filaments\n1\n2\n.\nI. SAT Development Timeline\nPre-Formal Conception (c. 1991 – 2022):\n1991: Initial visualizations of particle movements in four dimensions using vector geometry\n3\n4\n.\n2000: Proto-structural theorizing begins, asserting that geometry is the binding logic of reality\n5\n6\n.\nThe Radical Leap (Decades Later): A central ontological shift where worldlines are reinterpreted as real physical objects called filaments\n5\n6\n.\nEarly Formalization (c. 2022 – May 2025):\n2022: Introduction of the \"Filament\" hypothesis and the \"Stringing Along Theory\" (SAT) nickname\n7\n.\nPre-November 2024: Integration with Radical Meta-Skepticism (RMS) to ensure conceptual clarity\n8\n. The Time Surface (3D resolving wavefront) is defined\n9\n.\nQ2 2025: Transition to SATv and SAT-X, moving from a conceptual model to a quantifiable field theory\n10\n11\n.\nModular Rigor & 4D Architecture (June 2025):\nSAT.O Modules: The theory's \"spine\" is established through modules O1–O8\n12\n.\nArchitectural Lock: Formal definition of Interpretive Mode 1 (True Block), where reality is a static 4D structure and dynamics are emergent projections\n12\n13\n.\nMetric Emergence: Derivation of the spacetime metric (g\nμν\n\t​\n\n) as a statistical average of filament tangent vectors\n13\n.\nStructural Closure and Current Build (Late 2025 – 2026):\nPhase VIII-A: Resolutions of foundational gaps leading to the Unified Blockwave Action (Master Lagrangian)\n14\n.\nMetrological Scorecard: Derivation of structural constants (e.g., Dirac CP Phase at 270\n∘\n, Helium-3 magnetic moment) with metrological precision\n15\n16\n.\nMarch 2026: Finalization of the \"Standard Atom\" (Helium-3 Holotype) and the global integration of the Universal Indicatrix (UI)\n17\n18\n.\nII. Key Definitions and Field Ontologies\nZottenwelt: The hypercomplex, tangled 4D fabric of worldline filaments\n19\n20\n.\nFilament: A physical 4D object representing a particle worldline, possessing intrinsic tension (T)\n19\n21\n.\nTime Surface (Σ\nt\n\t​\n\n): A propagating 3D wavefront (the \"now\") that resolves 4D filaments into observable 3D particle events\n19\n22\n.\nθ\n4\n\t​\n\n(x): A dynamical scalar field representing the local misalignment angle between a filament's tangent and the time-flow vector\n11\n23\n.\nu\nμ\n(x): A unit timelike vector field representing dynamic time-flow or wavefront propagation\n11\n24\n.\nTopological Charge (Q): The sum of winding, linking, and writhe, defining particle identity and mass\n25\n26\n.\nProjection Constant (B): The fundamental geometric fingerprint of 4D-to-3D projection, defined as 3/4π≈0.2387 rad\n27\n28\n.\nObscuration Constant (θ\nobs\n\t​\n\n): A \"geometric blackout\" threshold of exactly 0.246 rad (14.1\n∘\n) where filaments precess out of the observable 3D slice\n29\n30\n.\nIII. Foundational Equations and Calculations\n1. The Generator: Universal Indicatrix (UI)\nThe UI generates worldlines based on scale (r) and rotation (R):\nFundamental Trajectory Equation:\ny\nμ\n(λ)=r(λ)R\n ν\nμ\n\t​\n\n(λ)x\n0\nν\n\t​\n\n31\n32\nUI Lagrangian:\nL\nUI\n\t​\n\n=\n2\n1\n\t​\n\nr\n˙\n2\n+\n2\n1\n\t​\n\nr\n2\nΩ\nμν\n\t​\n\nΩ\nμν\n where Ω\nμν\n\t​\n\n is the angular velocity tensor\n33\n.\n2. The Measure: Unified Blockwave Lagrangian (L\nSAT\n\t​\n\n)\nThe master action integrates gravity, mass (misalignment), and gauge interactions:\nL\nSAT\n\t​\n\n=\n−g\n\t​\n\n[L\nGravity\n\t​\n\n+L\nθ\n\t​\n\n+L\nu\n\t​\n\n+L\nJ\n\t​\n\n+L\nhol\n\t​\n\n+L\nmix\n\t​\n\n]\n34\n35\nGravity Block (L\nGravity\n\t​\n\n): Derives g\nμν\n\t​\n\n as the statistical inverse of tangent ensembles: g\nμν\n\t​\n\n≈(⟨v\nμ\n\t​\n\nv\nν\n\t​\n\n⟩)\n−1\n34\n36\n.\nCompact Phase Block (L\nθ\n\t​\n\n): Replaces the Higgs mechanism; mass is energy required for filament misalignment: L\nθ\n\t​\n\n∝1−cos(3θ\n4\n\t​\n\n)\n37\n38\n.\n3. Mass and Topology\nProportional Mass Law: Mass is reinterpreted as Projective Resistance (R): m∝Q\n39\n40\n.\nEffective Mass (m\neff\n\t​\n\n):\nm\neff\n\t​\n\n=m\ntopo\n\t​\n\n+m\nind\n\t​\n\n where m\ntopo\n\t​\n\n is topological mass and m\nind\n\t​\n\n is induced inertial mass\n41\n.\nBraid Smoothing: A non-linear correction where higher filament density (Q) paradoxically creates a smoother interaction surface, reducing relative drag\n42\n43\n.\n4. Quantization and Holonomy\nLaplace-Beltrami Quantization: Discrete energy levels emerge as vibrational modes on the S\n3\n manifold:\n∇\nS\n3\n2\n\t​\n\nf=−λ\nl\n\t​\n\nf,λ\nl\n\t​\n\n=\nR\n2\nl(l+2)\n\t​\n\n44\n45\n.\nQuarter-Turn Holonomy: Pins the Dirac CP Phase and anchors the lepton mass ladder:\n∮∇θ⋅dℓ=\n2\n3π\n\t​\n\n radians (270\n∘\n)\n46\n47\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "8e04cfac"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\nsearch",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n% BIG PAPER (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "% BIG PAPER (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n4DHH LAGRANGIAN (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "4DHH LAGRANGIAN (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "A Course in Metric Geometry Dmitri Burago Yuri Burago Sergei Ivanov",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nBARYGENESIS (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "BARYGENESIS (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nCOLLECTIVE ATTENUATION AND OTHER SOLUTIONS TO ANOMALIES (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "COLLECTIVE ATTENUATION AND OTHER SOLUTIONS TO ANOMALIES (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nDERIVATIVE INDICATRIX (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "DERIVATIVE INDICATRIX (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Fractal Geometry_ Mathematical Foundations and Applications - Kenneth Falconer",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGRAVITATIONAL NANOSTRUCTURE (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "GRAVITATIONAL NANOSTRUCTURE (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "High Dimensional Geometry, Curse of Dimensionality, Dimension Reduction - cs.Princeton",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nLIGHT CONES AND ENTANGLEMENT (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "LIGHT CONES AND ENTANGLEMENT (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMechanics of the Internal Marble: Visualizing Quantum Dots",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Mechanics of the Internal Marble: Visualizing Quantum Dots",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Notes on Topological Dimension Theory - UCR Math",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOrders and Q numbers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Orders and Q numbers.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nPhotoneutrino Sector (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Photoneutrino Sector (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nPULSAR GLITCH (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "PULSAR GLITCH (Nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nQUANTUM GRAVITYFOAM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "QUANTUM GRAVITYFOAM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nRelativistic–Quantum Isomorphism (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Relativistic–Quantum Isomorphism (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT Theory Archive: Scalar-Angular-Torsion Framework Development",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT Theory Archive: Scalar-Angular-Torsion Framework Development",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSAT.4DHH.UC.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT.4DHH.UC.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nST-QM-GR-SM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "ST-QM-GR-SM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSTANDARD ATOM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "STANDARD ATOM (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nTHE FUNDAMENTAL INTUITIONS — EXTENDED 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "THE FUNDAMENTAL INTUITIONS — EXTENDED 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nThe Worldline Framework: A Structural Unification of Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Worldline Framework: A Structural Unification of Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nThe Worldline Framework: Deductive Logic and Structural Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Worldline Framework: Deductive Logic and Structural Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nThe Worldline Intuition: Unified Physics Through First Principles",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The Worldline Intuition: Unified Physics Through First Principles",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nTowards the Holy Grail.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Towards the Holy Grail.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nUI CONFIGURATION (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "UI CONFIGURATION (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nVARIOUS LAGRANGIANS (speculative) 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "VARIOUS LAGRANGIANS (speculative) 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nWHIRLIGIG SUMMARY (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "WHIRLIGIG SUMMARY (nolat).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "30 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward\ntablet\nSlide Deck\nchevron_forward\nsubscriptions\nVideo Overview\nchevron_forward\nflowchart\nMind Map\nchevron_forward\nauto_tab_group\nReports\nchevron_forward\ncards_star\nFlashcards\nchevron_forward\nquiz\nQuiz\nchevron_forward\nstacked_bar_chart\nInfographic\nchevron_forward\ntable_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser"
+    },
+    {
+      "text": "tablet\nSlide Deck\nchevron_forward"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "subscriptions\nVideo Overview\nchevron_forward"
+    },
+    {
+      "text": "subscriptions"
+    },
+    {
+      "text": "flowchart\nMind Map\nchevron_forward"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports\nchevron_forward"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "cards_star\nFlashcards\nchevron_forward"
+    },
+    {
+      "text": "cards_star"
+    },
+    {
+      "text": "quiz\nQuiz\nchevron_forward"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic\nchevron_forward"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "table_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "table_view"
+    },
+    {
+      "text": "auto_tab_group\nS2 BACKBONE: The Mathematical-Geometric Foundations of Scalar-Angular Torsion (SAT) Theory\nCreate Your Own · 5 sources · 136d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nS2 BACKBONE: The Mathematical-Geometric Foundations of Scalar-Angular Torsion (SAT) Theory\nCreate Your Own · 5 sources · 136d ago"
+    },
+    {
+      "text": "S2 BACKBONE: The Mathematical-Geometric Foundations of Scalar-Angular Torsion (SAT) Theory\nCreate Your Own · 5 sources · 136d ago"
+    },
+    {
+      "text": "S2 BACKBONE: The Mathematical-Geometric Foundations of Scalar-Angular Torsion (SAT) Theory"
+    },
+    {
+      "text": "Create Your Own · 5 sources · 136d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "subscriptions\nSAT Theory Archive Guide\n6:01 · Explainer · 1 source · 264d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "subscriptions\nSAT Theory Archive Guide\n6:01 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "SAT Theory Archive Guide\n6:01 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "SAT Theory Archive Guide"
+    },
+    {
+      "text": "6:01 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "audio_magic_eraser\nUnifying Physics With Geometric Filaments\n 35:14 · Deep Dive · 1 source · 264d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nUnifying Physics With Geometric Filaments\n 35:14 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Unifying Physics With Geometric Filaments\n 35:14 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Unifying Physics With Geometric Filaments"
+    },
+    {
+      "text": "35:14 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar-Angular-Torsion Theory Chronological Development\n29:51 · Deep Dive · 1 source · 264d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar-Angular-Torsion Theory Chronological Development\n29:51 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Scalar-Angular-Torsion Theory Chronological Development\n29:51 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Scalar-Angular-Torsion Theory Chronological Development"
+    },
+    {
+      "text": "29:51 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "subscriptions\nThe Explainer: SAT Theory\n7:57 · Explainer · 1 source · 264d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "subscriptions\nThe Explainer: SAT Theory\n7:57 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "The Explainer: SAT Theory\n7:57 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "The Explainer: SAT Theory"
+    },
+    {
+      "text": "7:57 · Explainer · 1 source · 264d ago"
+    },
+    {
+      "text": "tablet\nRendering Reality A Physics Framework\n1 source · 264d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nRendering Reality A Physics Framework\n1 source · 264d ago"
+    },
+    {
+      "text": "Rendering Reality A Physics Framework\n1 source · 264d ago"
+    },
+    {
+      "text": "Rendering Reality A Physics Framework"
+    },
+    {
+      "text": "1 source · 264d ago"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar Angular Torsion The Geometry of Time\n 36:18 · Deep Dive · 1 source · 264d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar Angular Torsion The Geometry of Time\n 36:18 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Scalar Angular Torsion The Geometry of Time\n 36:18 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "Scalar Angular Torsion The Geometry of Time"
+    },
+    {
+      "text": "36:18 · Deep Dive · 1 source · 264d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nSAT Theory: Evolution of Reality.\n1 source · 264d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nSAT Theory: Evolution of Reality.\n1 source · 264d ago"
+    },
+    {
+      "text": "SAT Theory: Evolution of Reality.\n1 source · 264d ago"
+    },
+    {
+      "text": "SAT Theory: Evolution of Reality."
+    },
+    {
+      "text": "flowchart\nArchitectural Foundations of Scalar-Angular-Torsion Theory\n1 source · 264d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nArchitectural Foundations of Scalar-Angular-Torsion Theory\n1 source · 264d ago"
+    },
+    {
+      "text": "Architectural Foundations of Scalar-Angular-Torsion Theory\n1 source · 264d ago"
+    },
+    {
+      "text": "Architectural Foundations of Scalar-Angular-Torsion Theory"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-09-19T02:19:05.721Z",
+      "event": "harvest_complete",
+      "messages": 8,
+      "reachedTop": true
+    }
+  ]
+}

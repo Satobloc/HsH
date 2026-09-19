@@ -1,0 +1,2477 @@
+{
+  "metadata": {
+    "notebook_title": "SAT — HUB",
+    "notebook_id": "428daa21-c39e-4765-8b57-7310ea3ef7b0",
+    "notebook_url": "https://notebook.google.com/notebook/428daa21-c39e-4765-8b57-7310ea3ef7b0?authuser=1",
+    "captured_at": "2026-09-19T02:20:33.572Z",
+    "visible_source_count": 50,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 54
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Do a very thorough but very concise index to the concepts in these files.",
+      "citations": [],
+      "key": "16f57611"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Foundational Ontology (The Zottenwelt)\nZottenwelt (\"Shaggy World\"): A purely Euclidean 4-space (R\n4\n) with a (+,+,+,+) metric signature, re-architecting reality as a dense, physical fabric of one-dimensional filaments\nlock\nmore_horiz\n.\nEvolving Block Universe (EBU): A dynamic 4D structure where time is the physical expansion of a 3D Time Surface (or Timesheet) propagating at the speed of time (c)\nlock\nmore_horiz\n.\nIntersectional Trace: The concept that what we perceive as a fundamental particle is the 3D manifestation of a 4D worldline filament piercing the moving timesheet\nlock\nmore_horiz\n.\nRadial World Manifold: An architecture where the history of a particle is a 4D radial sector rather than a linearized line, with light and matter following distinct expansion regimes\nlock\nmore_horiz\n.\nThe Mathematical Engine\nMaster SAT Lagrangian (L\nSAT\n\t​\n\n): A scale-invariant action functional governing energy transfer between the 4D network and the 3D wavefront, integrating kinetic, projective, and interaction energies\nlock\nmore_horiz\n.\nRelativistic-Quantum Isomorphism: The core proof that General Relativity (low-frequency global bending) and Quantum Mechanics (high-frequency discrete vibrations) are isomorphic projections of the same 4D superhelical dynamics\nlock\nmore_horiz\n.\nFourth-Order Governing Equation: An analytical worldline formalism used to prevent \"curvature spikes\" and singularities, ensuring path differentiability up to the fourth order\nlock\nmore_horiz\n.\nLaplace-Beltrami Operator: Used on the S\n3\n manifold to derive quantum discreteness and the hydrogen energy ladder from standing-wave harmonics\nlock\nmore_horiz\n.\nBV Pushforward (P\n∬\n\t​\n\n): A projection engine that integrates out high-frequency 4D coiling histories (Ultraviolet) to produce effective 3D observables (Infrared)\nlock\nmore_horiz\n.\nStructural Invariants (The Zero-Parameter Economy)\nProjection Constant (B=3/4π≈0.2387 rad): The fundamental per-dimension distortion factor governing 4D-to-3D lattice closure and the critical velocity threshold (v\ncrit\n\t​\n\n≈0.2387c)\nlock\nmore_horiz\n.\nAchromatic Phase Snap (Φ≈0.246 rad / 14.1°): A mandatory structural invariant/reset required for holonomy closure when worldlines hit the Geometric Corner\nlock\nmore_horiz\n.\nFilament Scale (ℓ\nf\n\t​\n\n≈0.7937 fm): The fundamental unit of distance, re-architected as the Topological Saturation Limit and pinned to the Rydberg Constant\nlock\nmore_horiz\n.\nMinimal Curvature Regulator (ϵ≈2×10\n−21\n m): The hard mechanical resolution limit (string thickness) that prevents mathematical singularities and interaction energy divergences\nlock\nmore_horiz\n.\nDirac CP Phase Lock (270\n∘\n): An inevitability of lattice closure derived from integrating rotational torsion over the S\n3\n manifold\nlock\nmore_horiz\n.\nParticle Taxonomy & Force Unification\nTopological Charge (Q): A dimensionless invariant (Q=L\nwind\n\t​\n\n+L\nlink\n\t​\n\n+W\nwrithe\n\t​\n\n) used to derive the particle mass hierarchy; stable configurations are capped by the UV Finiteness Lock (Q≤3)\nlock\nmore_horiz\n.\nBorromean Triplets (Baryons): Stable 3-filament braids where stability requires all three strands, providing a geometric derivation of quark confinement\nlock\nmore_horiz\n.\nHopf Links (Mesons): Intersectional traces of 2-filament braids\nlock\nmore_horiz\n.\nTrue Bosons vs. True Fermions: Fermions are persistent 4D coils, while bosons (photons, gravitons) are transient excitations or ripples propagating parasitically through the filament ensemble\nlock\nmore_horiz\n.\nElectrogravity Unification: A model identifying electromagnetism as high-frequency Toroidal Vortex induction in the time wave and gravity as its low-frequency, charge-cancelled macroscopic limit\nlock\nmore_horiz\n.\nStrong Force: Re-architected as Braid Rigidity—the geometric resistance of interlocked worldlines to being de-braided\nlock\nmore_horiz\n.\nKey Phenomena & Resolved Anomalies\nMass as Projective Resistance (R): The mechanical drag/back-push encountered by a 4D world tube resisting the radial expansion of the timesheet\nlock\nmore_horiz\n.\nGravity as Forward Pull: The cumulative Topological Tension of worldlines being pulled taut against the knots of historical interaction\nlock\nmore_horiz\n.\nDark Matter Illusion: Matter that has precessed past the Obscuration Constant (≈14.1\n∘\n), losing its 3D gauge coupling (becoming 80% darker) while retaining its gravitational persistence\nlock\nmore_horiz\n.\nPulsar Glitches: Mandatory Quantized Holonomy Transitions (structural resets) triggered when rotating bodies breach the critical velocity threshold\nlock\nmore_horiz\n.\nBraid Smoothing: A non-linear mechanism where intensive inter-braiding in dense nuclei paradoxically reduces total resolution resistance\nlock\nmore_horiz\n.\nNeutrino Precession: A model explaining flavor oscillation as a mechanical residual caused by the worldline corkscrewing through geometric slots in the lattice\nlock\nmore_horiz\n.\nComputational & Speculative Tools\nTopological Indicatrix (TX) / Universal Indicatrix (UI): A geometric generator/translator that maps 4D worldlines to 3D trajectories using rotation matrices (SO(4)) and radial expansion\nlock\nmore_horiz\n.\nWhirligig Engine: A computational device mapping logical derivations as physical geometric paths on a unit 3-sphere to identify shortest path derivations between theories\nlock\nmore_horiz\n.\nThe Donut (Torus): A mapping surface where the interaction of two equations is visualized as a Lissajous Curve, acting as a physical computer for geometric differentiation\nlock\nmore_horiz\n.\nLattice Navigator: Speculative macroscopic spaceflight mechanics utilizing \"time feathering\" (pitch adjustment) to neutralize projective resistance and navigate the 4D bulk\nlock\nmore_horiz\n.\nComplexity Inversion: A nonlinear transition in superheavy attractors (e.g., Harmonium-620) where high link density allows matter to slip through the time wavefront with anomalously low resistance\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "219d9f7c"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Ok,  what other ideas can we index",
+      "citations": [],
+      "key": "bd1371cc"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "To expand the index for the Scalar-Angular Torsion (SAT) framework, we can categorize additional concepts into technical mechanisms, cosmological edge effects, specialized particle states, and the framework’s unique methodological strategies.\nExtended Technical Mechanisms\nCodimension Cascade: A hierarchy where 1D filaments are reinterpreted as triple intersections of 4D hyperspheres (S\n3\n∩S\n3\n∩S\n3\n), and 0D particles are quadruple intersections (S\n3\n∩S\n3\n∩S\n3\n∩S\n3\n) where filaments pierce the 3D wavefront\nlock\nlock\n.\nVortex-Solenoid Mechanism: A unification model identifying electromagnetic charge as a Toroidal Vortex spun by a filament coil in the time wave; gravity is the charge-cancelled, low-frequency limit of this same interaction\nlock\nmore_horiz\n.\nCoil Intermeshing (\"Velcro Effect\"): The mechanical basis for electromagnetism and the weak force, caused by the literal intermeshing or \"catching\" of helical worldline coils\nlock\nmore_horiz\n.\nFilamental Elastic Modulus (E\nf\n\t​\n\n): A variable governing the axial \"springiness\" or longitudinal stretch of a worldline, used to resolve mass splits and define the Elastic Backsnap of massive bosons (W, Z)\nlock\n.\nTriattic Correction: A formal recognition that physical properties (mass, spin, charge) are not point-instant values but integrated geometric invariants of a worldline’s motion against the time-flow vector\nlock\nlock\n.\nCosmological & Edge Effects\nTopological Tearing: A proposed origin for matter where the lateral stress of universal expansion causes vacuum filaments to snap and buckle into permanent superhelical coils (matter creation)\nlock\n.\nTimesheet Wake (Cosmological Drag): An effect where high-density regions leave a \"topological wake\" in their historical 4D path, potentially explaining the Hubble Tension as an anomalous deceleration of light traveling through ancient density gradients\nlock\n.\nGeometric Blackout (Obscuration): A phenomenon occurring at v\ncrit\n\t​\n\n≈0.2387c, where matter rotates into the \"dark sector\" of the lattice, losing 80% of its observable luminosity while remaining gravitationally present\nlock\nmore_horiz\n.\nKink Splitting: The mechanical mechanism for Hawking Radiation, where untethered excitations (bosons) striking a black hole's event horizon are sheared by the 14.1° obscuration boundary, splitting into a \"dark\" component and a visible photon ray\nlock\n.\nTeleological Pull (\"Forward Pull\"): The physical tension exerted on the present by the \"future\" coiling history of a worldline, used to explain gravitational capture and the stabilization of galactic fiber bundles\nlock\nmore_horiz\n.\nSpecialized States & Systems\nHarmonium-620 (Hm\n620\n): The terminal structural resting point of 4D lattice topology; a superheavy attractor with massive gravitational persistence but anomalously low inertial resistance\nlock\nmore_horiz\n.\nHolotype Pulsar: An idealized, perfect sphere pulsar rotating at exactly v\ncrit\n\t​\n\n=0.2387c, used as a primary analytical instrument to observe deterministic 9-phase worldline cycles\nlock\nlock\n.\nBraid-Smoothing Paradox: The observation that as topological complexity (Q) increases, intensive inter-braiding creates a \"threaded screw\" geometry that paradoxically reduces projective resistance (mass)\nlock\nlock\n.\nZ3 Fusion Gate: A discrete symmetry rule (∑τ\ni\n\t​\n\n≡0(mod3)) at lattice nodes that enforces torsion balance and prevents \"pathological tangling\" at worldline junctions\nlock\nmore_horiz\n.\nSpeculative & Engineering Applications\nLattice Navigator: A relativistic navigation concept utilizing \"Time Feathering\" (adjusting the pitch of a craft's internal filament coils) to neutralize projective resistance and navigate along the time-axis\nlock\nlock\n.\nSlip-Drive: An engineering frontier focused on inducing local torsional precession to align filaments with the obscuration constant, effectively cancelling inertia for easy acceleration\nlock\n.\nSynthetic Glitch Communications: A theoretical zero-latency communication method that works by globally \"clicking\" the lattice via controlled filamental snaps rather than propagating waves\nlock\n.\nHolonomic Record: The SAT redefinition of memory as a permanent, non-local etching into the \"click-tension\" of the 4D field, where identity is a stable recursive attractor\nlock\nlock\n.\nMethodology & Philosophy\nRadical Meta-Skepticism (RMS): The foundational epistemology asserting that only immediately perceived experience is absolute knowledge, treating all physical theories (including SAT) as useful, asymptotically accurate models\nlock\nlock\n.\nZero-Parameter Economy: A theoretical mandate to derive all physical constants from mandatory structural constraints and a single dimensional anchor (the Filament Scale)\nlock\nmore_horiz\n.\nFail-Rigidity: A property where every component of the theory is so geometrically interlocked that a single deviation (e.g., a measured CP phase other than 270°) would shatter the entire mathematical edifice\nlock\nmore_horiz\n.\nIntellectual Heist: A strategic strategy to bypass mainstream academic filters by dressing radical SAT ontology in the conservative syntax of differential geometry and Effective Field Theory (EFT)\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "f476819d"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "What else?",
+      "citations": [],
+      "key": "8c831afc"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "To further round out the index of the Scalar-Angular Torsion (SAT) framework, we can categorize additional concepts into dimensional mechanics, technical regulators, emergent astrophysical dynamics, and bio-technological speculations.\nDimensional & Radial Mechanics\nRadial World Manifold: A 4D re-architecting where a particle’s history is not a 1D line but a radial sector measured from the manifold’s origin, with time acting as an expansion parameter rather than a static axis\nlock\nmore_horiz\n.\nUniversal Shell: The interpretation of the 3D universe as the \"thickness\" of a universal intersection manifold, created by the velocity gap between the three spatial dimensions (expanding at H\n0\n\t​\n\n) and the time dimension (expanding at H\n0\n\t​\n\n+c)\nlock\nlock\n.\nMatter Entrainment: The process where fermionic matter \"snags\" on the slower-expanding spatial dimensions due to coiling, while massless bosons (light) couple to the faster \"time-wind\" expansion\nlock\nmore_horiz\n.\nLuminous Wake: The traces left by moving objects of n−1 dimensions as they generate the manifold of n dimensions, signaling the transition from the void into higher dimensions\nlock\nlock\n.\n\"Inside\" as Surface: The geometric principle that the totality of a figure's internal configuration is exposed as a surface when viewed from an n+1 dimension\nlock\n.\nTechnical Regulators & Stability Mechanisms\nFilamental Elastic Modulus (E\nf\n\t​\n\n): A variable governing the longitudinal stretch or \"springiness\" of a worldline, acting as the physical source for the \"Elastic Backsnap\" of massive bosons (W, Z)\nlock\n.\nJarlskog Shadow: A transient Q=1 neutrino filament that acts as a virtual fourth-leg stabilizer at vertex nodes, allowing for isotopic phase-locking while satisfying UV finiteness\nlock\nlock\n.\nTemporons: Bosonic excitations or emergent phonon modes of the unit time-flow vector (u\nμ\n) that mediate the inertial drag encountered by filaments\nlock\nlock\n.\nQuantum Click Rate: The discrete frequency at which a worldline coil \"clicks\" with the expanding timewave, acting as the fundamental regulator for time quantization\nlock\nlock\n.\nTopological Reconnection Barrier (α\ntop\n\t​\n\n): The energy cost required to alter a filament weave, which enforces the stability of Q≤3 configurations (standard matter)\nlock\n.\nEmergent Astrophysical & Fluid Dynamics\nMacroscopic Braid Smoothing (Hydrostatic Transition): The transition of rocky or icy bodies into spherical manifolds, re-architected as the large-scale equivalent of subatomic Braid Smoothing where internal resistances resolve into collective curvature\nlock\nlock\n.\nInternal Relativistic Driver: A model proposing that convection cells in planets and stars are driven by relativistic spacetime curvature manifesting internally within the body’s \"world-tube\"\nlock\nlock\n.\nHarmonic Mirroring: A nonlinear transition in superheavy attractors (like Harmonium-620) where extreme link density makes complex matter paradoxically resemble the 90° vacuum state again\nlock\nlock\n.\nTimesheet Wake (Cosmological Drag): A hidden \"time pressure\" gradient trailing behind high-density regions, potentially explaining the Hubble Tension as an anomalous deceleration of light traveling through historical wakes\nlock\n.\nKink Splitting: The SAT mechanical mechanism for Hawking Radiation, where untethered excitations (photons) strike a black hole horizon and are sheared by the 14.1° obscuration constant\nlock\n.\nBio-Cognitive & Speculative Engineering\nBiological Sovereignty: The proposal that life and consciousness are the most complex \"superhelical\" structures in the universe, capable of sensing or subtly influencing the direction of their own 4D expansion front\nlock\nlock\n.\nHolonomic Memory: The redefinition of computation where a processor does not just \"process bits\" but weaves a physical 4D structure whose internal geometric phase represents its logic\nlock\n.\nAchromatic Seeding: A theoretical engineering pathway utilizing laser-plasma interactions tuned to the Universal Ringdown Frequency to induce stable holonomy in macroscopic materials\nlock\n.\nTorsional Power Generation: A \"Zottenwelt Tap\" that harvest energy from universal expansion by using high-frequency resonators tuned to the Filament Scale (ℓ\nf\n\t​\n\n)\nlock\n.\nSynthetic Glitch Communications: A zero-latency signaling method that works by globally \"clicking\" the rigid 4D architecture via controlled filamental snaps rather than propagating waves\nlock\n.\nProcedural & Methodological Rules\nIntellectual Heist: A strategic approach to bypass academic \"red flags\" (like numerology) by dressing radical SAT ontology in the conservative syntax of differential geometry and Lean 4 formalisms\nlock\nlock\n.\nFailure-Rigidity: A property where the framework is so geometrically interlocked that any deviation from derived constants (e.g., the 14.1° snap) would necessitate a total structural collapse of the theory\nlock\nmore_horiz\n.\nAxiomatic Purge of Free Parameters: A mandate to replace all measured \"fudge factors\" with structural constants derived from the 24-cell HSUCV lattice packing constraints\nlock\nmore_horiz\n.\nThe Whirligig Engine: A computational generator mapping logical derivations as physical paths on a 3-sphere to identify shortest-path transformations between different physical theories\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "aaee8d49"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "OK... anything else ?",
+      "citations": [],
+      "key": "ac777812"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "To complete the index for the Scalar-Angular Torsion (SAT) framework, we can categorize the remaining concepts into high-precision diagnostic tools, emergent cosmological \"edge effects,\" radial manifold mechanics, and the specific engineering speculations derived from the theory’s \"fail-rigid\" logic.\nPrecision Diagnostics & \"Torque Wrenches\"\nThe μ Arithmetic Failure (Factorization Gap): A noted mathematical tension where the current derivation of the proton-electron mass ratio (μ) requires a 0.57% correction (the Filamental Elastic Modulus) to reach CODATA values, currently outstripping the identified 0.0082% Holonomy Bridge\nlock\nlock\n.\nThe ℓ\nf\n\t​\n\n Scaling Tension (Factor of 2 Problem): A discrepancy where solving for the filament scale via the Planck relation yields ≈1.46 fm, while nuclear stability requires ≈0.7937 fm\nlock\nlock\n.\nIsotope \"Mirror Lab\" (Tritium vs. Helium-3): A proposed honesty check comparing these Q=9 isotopes; the measured mass delta between them is used to derive the Filamental Elastic Modulus (E\nf\n\t​\n\n) and the Jarlskog Shadow’s perturbative effect\nlock\nlock\n.\nB-Meson \"Flexure\" Check: A diagnostic using LHCb electroweak decay data to test if nuclear flexure is mathematically \"slaved\" to the Dirac CP Phase lock of 270°\nlock\nlock\n.\nRelativistic Spinner Protocol: A definitive \"honesty test\" predicting that a system rotating at v\ncrit\n\t​\n\n≈0.2387c must exhibit a discrete 0.246 rad phase shift and an 80% Geometric Blackout\nlock\nmore_horiz\n.\nThermodynamic Saturation Ratios: A parameter checking if the ratio between an isotope's boiling point and its Debye temperature matches the Topological Saturation Limit\nlock\n.\nRadial Manifold & Temporal Mechanics\nRadial World Manifold: A 4D re-architecture where time is a radial expansion parameter and a particle's history is a radial sector rather than a linearized world tube\nlock\nlock\n.\nVelocity Gap (Radial Displacement Divergence): The gap between ordinary matter (accelerating at H\n0\n\t​\n\n) and light (expanding at H\n0\n\t​\n\n+c), defining the \"thickness\" of the universal intersection manifold\nlock\nlock\n.\nEntrainment Function (E): A function determining the radial velocity of a filament; massless bosons (E≈1) surf the expansion front, while fermions \"snag\" on the spatial expansion due to coiling\nlock\n.\nUnit Time-Flow Vector (u\nμ\n): The gradient of the time surface defining the foliation direction; its local fluctuations are Temporons (bosonic excitations mediating inertial drag)\nlock\nmore_horiz\n.\nQuantum Click Rate: The discrete frequency of the timewave \"clicking\" across individual loops of a filament coil, acting as the fundamental regulator of temporal flow\nlock\n.\nCosmological & Astrophysical Edge Effects\nTimesheet Wake (Cosmological Drag): A topological wake stretching into \"pastward\" 4D space behind dense regions, creating a \"time pressure\" gradient that may explain the Hubble Tension\nlock\n.\nFilament \"Kink Splitting\": The SAT mechanical explanation for Hawking Radiation, where excitations striking a black hole horizon are sheared by the 14.1° Obscuration Constant, splitting into a \"dark\" component and a visible photon ray\nlock\n.\nTopological Tearing: The origin of matter creation where lateral stress from universal expansion causes vacuum filaments to snap and buckle into permanent Order-1 superhelical coils\nlock\n.\n\"Shelf-Cocking\" (Angular Discrepancy): The mechanism for neutrino flavor oscillation, reinterpreted as a mechanical residual caused by worldlines corkscrewing through different geometric \"slots\" in the lattice\nlock\nlock\n.\nBlack Hole Ringdown \"Comb Spectrum\": Predicted primordial spacing in the Hz to kHz range, representing a rotating black hole's \"gears\" clicking against the metric substrate\nlock\nlock\n.\nSpecialized States & Systems\nHarmonium-620 (Hm\n620\n): The terminal structural attractor of the 4D lattice; a \"hyper-nucleus\" with massive gravitational persistence but anomalously low inertial resistance due to maximum Braid Smoothing\nlock\nmore_horiz\n.\nBorromean Triplets vs. Hopf Links: The 3-filament (baryon) and 2-filament (meson) topologies that define stable matter; configurations with Q≥4 are \"pathological tangles\" prohibited by the UV Finiteness Lock\nlock\nmore_horiz\n.\nJarlskog Shadow: A transient Q=1 neutrino filament acting as a virtual fourth-leg stabilizer for sparse nuclei like Helium-3, anchoring the Dirac CP Phase\nlock\nmore_horiz\n.\nMacroscopic Braid Smoothing (Hydrostatic Transition): The transition of astronomical bodies into spheres, re-architected as the point where internal mechanical resistances resolve into collective curvature\nlock\nlock\n.\nSpeculative Engineering & Methodological Strategies\nLattice Navigator: A relativistic navigation concept using \"Time Feathering\" (adjusting the pitch of internal coils) to minimize Projective Resistance and navigate the 4D bulk\nlock\nlock\n.\nTeleological Guidance: Navigation using the physical tension exerted by high-mass \"future\" coordinates (destinations) as homing beacons\nlock\n.\nSlip-Drive (Inertia Cancellation): An engineering frontier that induces local torsional precession to align filaments with the Obscuration Constant, effectively making matter \"slacker\" in the substrate\nlock\n.\nSynthetic Glitch Communications: A zero-latency signaling method that works by globally \"clicking\" the rigid 4D architecture through controlled filamental snaps\nlock\n.\nIntellectual Heist (Sociological Warfare): A strategic approach to bypass academic \"numerology\" filters by dressing radical SAT ontology in the conservative syntax of differential geometry and Lean 4 formalisms\nlock\nmore_horiz\n.\nTheoretical Adulthood: The point where a framework transitions from poetic metaphor to a mathematically closed specification that reveals the structural reasons for its own predictive limits\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "9dcb1eb5"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "Ok, good. Anything else?",
+      "citations": [],
+      "key": "23a25c61"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "To conclude the comprehensive index for the Scalar-Angular Torsion (SAT) framework, we can categorize the final set of concepts into deep-structure nuclear holotypes, thermodynamic and informational mechanics, specific experimental \"smoking guns,\" and advanced engineering extrapolations.\nDeep-Structure Nuclear Holotypes\nHelium-3 (\n3\nHe) Geometric Anchor: The \"metrological anchor\" of the theory, identified as the heaviest nucleus that has not yet \"smoothed out\" its 4D lattice structure, allowing for the direct observation of the Jarlskog Shadow\nlock\nlock\n.\nTechnetium-98 (\n98\nTc) Outlier: A \"screaming outlier\" used to prove that mass and instability are integrated geometric invariants of a particle's Coiling History rather than intrinsic properties\nlock\nlock\n.\nLithium-4 Decay Mechanism: Re-architected as a structural failure where configuration attempts to reach Q≥4, hitting the Geometric Crowding Limit and violating the lattice's packing constraints\nlock\nlock\n.\nIsland of Stability (Cage-Locking): The point where Link Density counterbalances lattice strain, creating \"indefinitely stable\" heavy isotopes that are trapped in a Global Minimum of contact potential\nlock\n.\n\"Solid Vacuum\" Isotopes: Theoretical high-density isotopes that hit Maximum Braid Smoothing, resulting in high rest mass but negligible inertial resistance\nlock\nlock\n.\nThermodynamic & Informational Mechanics\nTopological Convergence Boundary Layer: A first-principles scaling relationship (ΔT≈T\nc\n\t​\n\n⋅B⋅∣J\neff\n\t​\n\n∣) used to predict precise shifts in thermal transitions, such as the 17 mK Helium-4 shift\nlock\nlock\n.\nTopological Memory Locality: The SAT redefinition of memory as a high-assembly weave etched into the 4D block, where current states re-align with historical contours through Internal Induction\nlock\nlock\n.\nThe Holonomic Envelope: The collective geometric \"memory\" and magnetic field tube wrapping around nested solenoids in a computer chip or brain, representing the Physical Record of its logic\nlock\n.\nComputation as Sculpting: The reinterpretation of processing as the act of carving \"crevices\" and \"soft corners\" into the 4D weave to manipulate the Surface Tension of Reality\nlock\nlock\n.\nGeometric Determinism (Entropy): The reduction of entropy functionals during Worldline Backbleed (topological relaxation), which accounts for quantum entanglement and state collapse\nlock\n.\nMetrological \"Smoking Guns\" & Signatures\nAchromatic Phase Shift (0.246 rad): A mandatory, frequency-independent delay predicted for light traversing a θ\n4\n\t​\n\n Domain Wall or a high-velocity rotating system\nlock\nlock\n.\nLattice Attenuation Coefficient (ρ\nembed\n\t​\n\n≈10\n−19\n): The frequency filter that \"rotates away\" 10\n20\n parts of internal tension into the 4th dimension, explaining why gravity is so much weaker than electromagnetism\nlock\nlock\n.\nUniversal Ringdown Frequency (ω≈c/ℓ\nf\n\t​\n\n): The background \"hum\" of the 24-cell lattice generated by the Big Snap, detected in quantum spectra and gravitational beats\nlock\nmore_horiz\n.\nLepton Nutation (g-2 mechanical slip): The proposal that the anomalous magnetic moment arises from the mechanical \"skidding\" of an Order-1 coil across the vacuum lattice due to timesheet vibrations\nlock\nlock\n.\nSilver Isotope Precipitation Ratio (χ\nAg\n\t​\n\n): A chemical diagnostic asserting that Liesegang ring spacing is a macroscopic manifestation of the isotopes' underlying Order-1 Quark Coils\nlock\nlock\n.\nAdvanced Engineering & Cosmological Limits\nAchromatic Seeding: A theoretical engineering pathway using laser-plasma interactions to induce stable holonomy in macroscopic materials, potentially creating Room-Temperature Superconductors\nlock\nlock\n.\nB-Phase Anchor: A proposed device that precesses in 4D to \"drop anchor\" into the kinetic energy of universal expansion, creating a Mechanical Differential with theoretically infinite torque\nlock\n.\nTorsional Power Generation: A \"Zottenwelt Tap\" designed to harvest energy from the expansion of the universe using high-frequency resonators tuned to the Filament Scale\nlock\n.\nMetrological Stealth: The use of high-frequency angular precession to rotate an object into Geometric Blackout, making it gravitationally heavy but electromagnetically invisible\nlock\n.\nThe \"Big Snap\" Cosmology: The re-architecting of the Big Bang as a mechanical \"click\" in a 4D Ratchet required when the expanding filaments hit a Geometric Corner in the lattice\nlock\nlock\n.\nBackbleed Stability: The property where backward propagation in time is Structurally Self-Limiting due to the finite tensile strength and flexibility of filaments\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "22397aa3"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "Ok, great. Now... can you pull out all the most significant mathematics?",
+      "citations": [],
+      "key": "7dca311a"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "The mathematical foundation of the Scalar-Angular-Torsion (SAT) framework is built upon a \"Zero-Parameter Economy\" where physical laws and constants emerge as mandatory structural invariants of 4D superhelical worldline dynamics\nlock\nmore_horiz\n.\n1. Fundamental Trajectory Generation\nThe Universal Indicatrix (UI) acts as the kinematic generator, mapping 4D filamental geometry to observable 3D trajectories through rotation and expansion\nlock\nlock\n.\nMaster Trajectory Equation: y\nμ\n(λ)=r(λ)R\n ν\nμ\n\t​\n\n(λ)x\n0\nν\n\t​\n\nlock\nlock\n.\nVelocity Decomposition:\ny\n˙\n\t​\n\nμ\n=\nr\n˙\ny\n^\n\t​\n\nμ\n+Ω\n ν\nμ\n\t​\n\ny\nν\n (where Ω=\nR\n˙\nR\n−1\n is the angular velocity tensor)\nlock\nlock\n.\nRecursive Superhelix: To maintain differentiability and prevent \"curvature spikes,\" worldlines follow a recursive harmonic structure: H\n∗\n\t​\n\n(k,λ)=f\nk\n∗\n\t​\n\n(λ)⋅f\nk−1\n∗\n\t​\n\n(λ)⋅⋯⋅f\n1\n∗\n\t​\n\nlock\nlock\n.\n2. The Master SAT Action Functional\nThe total unified state is governed by a scale-invariant Lagrangian that integrates bending energy, projective resistance, and topological interactions\nlock\nlock\n.\nOntological Action (L\nSAT\n\t​\n\n): L\nSAT\n\t​\n\n=∑\ni\n\t​\n\n[\n2\n1\n\t​\n\nμ\ni\n\t​\n\n∣\ndλ\ndH\n\t​\n\n∣\n2\n]+∑\nj\n\t​\n\n[κF\nbraid\n\t​\n\n]+α(∣\ndλ\ndH\n\t​\n\n⋅T∣\n2\n)+V\ngeom\n\t​\n\n(λ)\nlock\nlock\n.\nOperationalized Lagrangian (L\ntotal\n\t​\n\n): Used for Geometric Transform Analysis (GTA) to find derivation paths: L\ntotal\n\t​\n\n=\n2\nκ\n\t​\n\n∣H\n′′\n(λ)∣\n2\n+\n2\nλ\ns\n\t​\n\n\t​\n\n(∣H∣\n2\n−R\n2\n(λ))\n2\n+\n2\nk\n\t​\n\n∣H(λ)−G(λ)∣\n2\nlock\nlock\n.\nFourth-Order Governing Equation: Derived via the principle of least action to ensure path stability: κH\ni\n(4)\n\t​\n\n+2λ\ns\n\t​\n\n(r\n2\n−R\n2\n)H\ni\n\t​\n\n+k(H\ni\n\t​\n\n−G\ni\n\t​\n\n)=0\nlock\nlock\n.\n3. Structural Invariants & Metric Recovery\nPhysical constants are re-parameterized as mandatory geometric coordinates\nlock\nlock\n.\nProjection Constant (B): B=3/4π≈0.2387. Defines the per-dimension share of distortion allowed before lattice saturation and sets the Critical Velocity (v\ncrit\n\t​\n\n=Bc)\nlock\nmore_horiz\n.\nAchromatic Phase Snap (Φ): Φ≈0.246 rad (14.1\n∘\n). A mandatory structural reset required to maintain holonomy closure when worldlines breach the critical velocity threshold\nlock\nmore_horiz\n.\nRelational Metric Emergence: Spacetime is a statistical projection of the filament ensemble: g\nμν\n\t​\n\n≈(⟨v\nμ\n\t​\n\nv\nν\n\t​\n\n⟩)\n−1\nlock\nmore_horiz\n.\n4. Mass & Particle Derivations\nMass is redefined as Projective Resistance (R), the mechanical drag a worldline encounters against the radial expansion of time (r(λ)=ct)\nlock\nlock\n.\nProportional Mass Law: m∝Q⋅sin\n2\n(θ\n4\n\t​\n\n) (where Q is Topological Charge and θ\n4\n\t​\n\n is the misalignment angle)\nlock\nlock\n.\nProton-Electron Mass Ratio (μ): Recovered with zero deviation as a mandatory structural consequence: μ≈\n2B\n5\n3\n\t​\n\n≈1836.152\nlock\nlock\n.\nDirac CP Phase: Fixed as a structural inevitability of quarter-turn lattice closure: δ\nCP\n\t​\n\n=270.0\n∘\nlock\nmore_horiz\n.\n5. Relativistic-Quantum Isomorphism\nThe framework proves that GR and QM are scale-dependent manifestations of the same 4D geometry\nlock\nlock\n.\nLaplace-Beltrami Spectrum: Quantum discreteness emerges from standing-wave modes on the S\n3\n manifold: λ\nl\n\t​\n\n=\nR\n2\nl(l+2)\n\t​\n\nlock\nmore_horiz\n.\nGravitational Constant (G): Recovered through Collective Attenuation, filtering raw nuclear vertex tension (G/c\n4\n→8πℓ\nf\n2\n\t​\n\n) through the lattice's mode density (ρ\nembed\n\t​\n\n≈10\n−19\n)\nlock\nmore_horiz\n.\nThe Unification Proof: ∣X\n′′\n∣\n2\n≡λ (the curvature for a relativistic geodesic is mathematically identical to the \"stiffness\" of the quantum Laplacian mode)\nlock\nlock\n.\n6. Advanced Regularization & Field Mapping\nTo reach \"Theoretical Adulthood,\" the framework employs high-level formalisms for background independence\nlock\nlock\n.\nt-Deformed Scalar Curvature: Formalizes the potential landscape: μ\nt\n\t​\n\n(ω):=scalCh(ω)+\nn−1\nt−n\n\t​\n\nd\n∗\nθ+\n4\nt−2n\n\t​\n\n∣T∣\n2\nlock\nlock\n.\nBV Pushforward (P\n∬\n\t​\n\n): A projection engine that integrates out high-frequency coiling histories (Ultraviolet) to produce effective 3D observables (Infrared)\nlock\nmore_horiz\n.\nHubble Constant (H\n0\n\t​\n\n): Derived from the projective resistance of the lattice during radial expansion: H\n0\n\t​\n\n≈71.2±0.5 km/s/Mpc\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "78508a95"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "OK, can you create a detailed timeline of every date and what file or conversation it's connected to",
+      "citations": [],
+      "key": "f9b19b9f"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "Based on the provided documents and conversation history, the following timeline outlines the development of the Scalar-Angular Torsion (SAT) framework and its connected files and conversations.\n2012\nNovember 29: An entry in CANONICAL READINGS.txt predicts that over the next 20 years, loop quantum gravity will dominate efforts to reconcile Relativity with Quantum Mechanics\n1\n.\n2023\nMay 28: A conversation titled \"Equations in Gravitational Physics\" occurs, establishing early mathematical explorations\n2\n.\n2024\nMarch 13: A chat titled \"Moral Realism: Two Camps\" is recorded under the Radical Meta-Skepticism (RMS) project\n3\n4\n.\nMarch 24: The conversation \"DIMENSIONAL GRAVITY\" begins, exploring the geometric idea of mapping motion as the intersection of a line and a plane\n5\n6\n.\nAugust 8: A conversation titled \"Forces Across Temporal Points\" discusses filament dynamics and the SAT speculative context\n7\n.\nNovember 8: Metadata shows a ChatGPT memory save for equations including EB=0.60∗b/(1−(b/2)) and the definition of the filament scale\n8\n.\nNovember 12: The conversation \"Theory Building with AI\" takes place, noting that SAT is a \"toy theory\" illustrating the equivalence principle\n9\n.\nNovember 28: The file CANONICAL READINGS.txt is created/modified, containing early conceptual anchors\n8\n.\n2025\nMarch 3: A chat titled \"RMS and Consciousness Inquiry\" is held\n10\n.\nMarch 14: Search history shows a connection between \"Russia's Nuclear Arsenal Maintenance\" and \"Klein Logic,\" suggesting a transition into formal logical derivations for the SAT framework\n11\n.\nMarch 25: Search results include \"prime Directive and SAT\" and \"Refinement Lead,\" indicating an active phase of theory stabilization\n11\n.\nApril 4: The conversation \"SAT Theory Analysis\" occurs\n12\n13\n.\nApril 6: Two significant debates take place: \"SAT Framework Analysis\" and \"Geometry vs Numerology Debate,\" which critiques the framework's predictive power\n14\n15\n.\nApril 7: A chat titled \"Predicting Superconductors Commentary\" appears under the \"chronophys\" search\n16\n.\nApril 24 – June 24: A period of intensive file generation and modification occurs\n17\n:\nApril 25: SAT TO-DO LIST APR2025.txt, SAT TO STANDARD MAP.txt, and 4D ORGANISM.txt are created.\nMay 4: The chat \"Fundamental Physics Explanations\" explores filament-wavefront intersections\n18\n.\nMay 5: SATv_REFORM_TRIAL.txt is generated.\nMay 7: Files include SAT ASSESSMENT.txt, SAT ACTUAL ANSWERS.txt, and SAT aSAT vs SAT.txt.\nMay 8: SAT FORMALIZATION doc.txt is produced.\nMay 12: ActiveEdgeNext.txt is created.\nMay 30: PARTICLE_SAVE.txt is created.\nMay 31: The \"SAT Z QG\" folder is populated with core files like SAT Z ACTION PLAN.txt, SAT-QG.txt, and SAT Z AXIOMS.txt\n19\n.\nJune 1: SAT PREDICTIONS JUNE 1 2025.txt and the SAT-PREDICTION-PROTOCOL are selected for synthesis\n19\n.\nJune 3: ClockDrift_SAT.txt (Clock Drift Prediction Memo) is updated with derivation details for experimental groups like NIST\n19\n.\nJune 6–10: A massive documentation \"audit\" and \"backbone\" construction occurs\n20\nmore_horiz\n:\nJune 6: SAT_04_UltraHostile_Audit.txt and various audit reports are modified.\nJune 7: SAT 4D.ipynb (IPYNB file), 4D_COVARIANT_INTEGRATION_INSTRUCTIONS.txt, and ST_MASSLESS_PARTICLE_REINTERPRETATION.txt are created.\nJune 8: SAT 4D_LIVE.pdf and SAT 4D-Sketch.pdf are generated.\nJune 9: SAT 4D_LIVE_DRAFT.txt and SAT O MODULES -- ALL MODULES LATEX.txt are modified.\nJune 10: SAT4D_MATHEMATICAL_BACKBONE.txt, VERSIONING PRONUNCIATION.txt, and SAT CoMast Operational Instructions.txt are finalized.\nOctober 25: Advanced topological files like SAT_O10_Topological_Spectrum_Higher.txt and SAT_O9_Graviton_Topological_Strain.txt are modified\n22\n.\n2026\nMarch: The document \"UNIFIED HYPERSPHERICAL BLOCKWAVE ACTION: FULL ARCHITECTURAL RECONSTRUCTION\" is finalized, formalizing the HSUCV lattice and the Master Lagrangian\nlock\n.\nJune 8: (Recent History) Detailed indexing of SAT concepts, including the Zottenwelt, Proportional Mass Law, and the Universal Indicatrix (UI).\nJune 9 (Today): Current stabilization of the mathematical derivations and creation of the comprehensive concept index.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "0f2e19fd"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "Ok. Can you give me a very detailed desorption of what’s in the newly uploaded images",
+      "citations": [],
+      "key": "6821d504"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "The newly uploaded images provide a visual and historical map of the Scalar-Angular Torsion (SAT) framework’s development, ranging from early conceptual sketches to precise 3D mathematical visualizations.\n1. 3D Kinematic Visualizations\nHelix-Plane Intersections: A series of computer-generated plots illustrates a blue 4D superhelical worldline (helix) being pierced by a translucent grey 3D Timesheet (moving plane)\n1\n,\n2\n,\n3\n.\nThe Manifestation of Matter: These images visualize the core SAT concept that a \"particle\" is merely the intersectional trace (represented by a red dot) of a static 4D filament as the timesheet propagates along the Z-axis (time)\n1\n,\n2\n.\nVelocity & Pitch: The changing position of the plane relative to the helix demonstrates how the \"pitch\" and \"angle\" of the worldline determine the particle's 3D coordinates at any given moment in time\n3\n.\n2. Topological & Brane Schematics\nThe Brane Hierarchy: Several sketches define the dimensional layers of the framework, using labels like 0-brane (point intersection/particle), 1-brane (line/filament), and 3-brane (the space plane)\n4\n,\n5\n,\n6\n.\nPreferred Geometries: The notebook pages use a \"Green Check/Red X\" system to differentiate between stable and unstable topological configurations\n7\n,\n8\n.\nFavored: Simple intersecting planes and coherent coiled filaments\n5\n,\n9\n.\nRejected: \"Heavily-folded\" or \"multiply-folded\" structures that create \"pathological tangles\"\n7\n,\n8\n.\nHelical Evolution: One diagram tracks the transition of a straight 1D filament into a coiled superhelix as it progresses along a time-axis (t), illustrating the mechanical origin of mass and spin\n10\n,\n9\n.\n3. Relativistic & Temporal Mechanics\nMass as a \"Glitch\": Hand-drawn diagrams redefine mass not as an intrinsic property, but as the mechanical resistance (or \"glitch\") encountered when a 4D world-tube pierces the spacetime manifold\n11\n,\n12\n.\nGeometric Time Dilation: A sketch compares the \"Time Path\" of stationary versus moving objects, showing that as an object's speed increases, its 4D trajectory becomes more parallel to the space plane (D\n′\n>D), geometrically slowing the flow of time\n11\n,\n13\n.\nCurved Spacetime Effects: In \"The Case of Curved Space,\" the sketches show that curvature causes mass points to separate, potentially allowing an object to appear at two different points simultaneously without its mass reaching infinity\n14\n.\nOne-Electron Universe: A sophisticated diagram titled \"or the same path?\" explores the idea that multiple observed particles (like electrons in two separate hydrogen atoms) may actually be a single worldline that loops back through the same timesheet multiple times\n15\n.\n4. Energy Flux & Interaction Taxonomy\nEnergy Transfer (E\nflux\n\t​\n\n): Notebook pages derive the transfer of energy from the \"Time wave\" to the \"Space plane.\" It notes that in a \"True null\" vacuum, energy is inaccessible because none is transferred to space (flux=0), whereas a misaligned angle (θ\n4\n\t​\n\n) creates Nonzero flux\n16\n.\nInteraction Types: A taxonomy of filamental interactions is listed:\nCollisions (sketched as \"sticky\" intersections)\n17\n.\nOrbits (helical coiling).\nBundling/Recombination (braiding).\nSplitting\n17\n.\n5. Historical & Archival Context\nThe \"Prehistory\" Notebooks: Several photos show the physical artifacts where these ideas originated, specifically black Moleskine notebooks belonging to Nathan McKnight\n18\n,\n19\n.\nTimeline Anchors: Labels on the notebooks and inside covers date these explorations back to a 2003 Ireland trip (Feb 03 to June 03) and a subsequent period from Feb 04 to April 04\n18\n,\n20\n.\nEarly Brainstorming: One page includes a \"People to think\" list, connecting various musical genres (Metal, Hard Rock, Folk) to specific individuals, suggesting an early interest in the intersection of sonic patterns and physical structures\n21\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "2ae3e014"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\nsearch",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1145.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1145.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1146.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1146.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1147.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1147.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1620.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1620.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3481.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3481.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3482.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3482.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3483.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3483.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3484.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3484.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9514.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9514.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9515.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9515.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9516.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9516.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9517.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9517.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9518.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9518.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9519.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9519.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9520.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9520.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9521.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9521.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9522.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9522.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9628.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9628.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9630.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9630.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9631.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9631.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9632.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9632.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9633.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9633.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9635.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9635.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9636.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9636.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT - BEFORE SAT PREDICTIONBOOK - 2012-11-29.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT - BEFORE SAT PREDICTIONBOOK - 2012-11-29.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nsat 2025-5-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "sat 2025-5-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT EARLY - CHATGPT MEMORY SAVED - 2024-11-8.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT EARLY - CHATGPT MEMORY SAVED - 2024-11-8.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT EARLY EARLY - 2023-5-28.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT EARLY EARLY - 2023-5-28.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT EARLY SYSTEMATICS 2 2025-4-6.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT EARLY SYSTEMATICS 2 2025-4-6.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT EARLY SYSTEMATICS 2025-4-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT EARLY SYSTEMATICS 2025-4-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRST - 2024-3-24.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRST - 2024-3-24.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRST DIMGRAV - 2024.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRST DIMGRAV - 2024.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRST Forces Temporal 2024-8-8.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRST Forces Temporal 2024-8-8.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRST MENTIONS 2.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRST MENTIONS 2.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRST MENTIONS.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRST MENTIONS.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT FIRSTS - PT.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT FIRSTS - PT.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST - 2025-3-25.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST - 2025-3-25.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST - FILE LIBRARY 2 2025 SUMMER - (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST - FILE LIBRARY 2 2025 SUMMER - (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST - FILE LIBRARY 3 2025 - SUMMER-FALL (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST - FILE LIBRARY 3 2025 - SUMMER-FALL (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST - FILE LIBRARY 2025 SUMMER (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST - FILE LIBRARY 2025 SUMMER  (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST - FILE LIBRARY 2025 SUMMER (ONEDRIVE).PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST 4-7-2025.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST 4-7-2025.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT HIST 2025-4-24 to 2025-6-24.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HIST 2025-4-24 to 2025-6-24.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nsat histy 2025-5-31.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "sat histy 2025-5-31.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT PREHIST 2024-11-12.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT PREHIST 2024-11-12.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT PREHIST 2025-3-3.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT PREHIST 2025-3-3.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT PREHISTORY - CHAT 1.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT PREHISTORY - CHAT 1.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT SYNTHESIS 2025-4-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT SYNTHESIS 2025-4-4.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT SYSTEM - NAUT - 2025-4-6.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT SYSTEM - NAUT - 2025-4-6.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nSAT VERYFIRST 2024-3-13.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT VERYFIRST 2024-3-13.PNG",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "50 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward\ntablet\nSlide Deck\nchevron_forward\nsubscriptions\nVideo Overview\nchevron_forward\nflowchart\nMind Map\nchevron_forward\nauto_tab_group\nReports\nchevron_forward\ncards_star\nFlashcards\nchevron_forward\nquiz\nQuiz\nchevron_forward\nstacked_bar_chart\nInfographic\nchevron_forward\ntable_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser"
+    },
+    {
+      "text": "tablet\nSlide Deck\nchevron_forward"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "subscriptions\nVideo Overview\nchevron_forward"
+    },
+    {
+      "text": "subscriptions"
+    },
+    {
+      "text": "flowchart\nMind Map\nchevron_forward"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports\nchevron_forward"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "cards_star\nFlashcards\nchevron_forward"
+    },
+    {
+      "text": "cards_star"
+    },
+    {
+      "text": "quiz\nQuiz\nchevron_forward"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic\nchevron_forward"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "table_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "table_view"
+    },
+    {
+      "text": "audio_magic_eraser\nThe 4D Geometric Blueprint of Our Universe\n38:49 · Deep Dive · 26 sources · 101d ago\nwaving_hand\nplay_arrow\nmore_vert\naudio_magic_eraser\nThe scalar angular torsion framework\n47:52 · Deep Dive · 49 sources · 101d ago\nwaving_hand\nplay_arrow\nmore_vert\ntable_view\nDates and Associated Files or Conversations\n26 sources · 101d ago\nmore_vert\ntablet\nInvented Sonic Realms\n1 source · 235d ago\nmore_vert\naudio_magic_eraser\nMusic Genres That Don't Exist Yet\n37:49 · Deep Dive · 1 source · 235d ago\nwaving_hand\nplay_arrow\nmore_vert\nsticky_note_2\nAdd note"
+    },
+    {
+      "text": "audio_magic_eraser\nThe 4D Geometric Blueprint of Our Universe\n38:49 · Deep Dive · 26 sources · 101d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nThe 4D Geometric Blueprint of Our Universe\n38:49 · Deep Dive · 26 sources · 101d ago"
+    },
+    {
+      "text": "The 4D Geometric Blueprint of Our Universe\n38:49 · Deep Dive · 26 sources · 101d ago"
+    },
+    {
+      "text": "The 4D Geometric Blueprint of Our Universe"
+    },
+    {
+      "text": "38:49 · Deep Dive · 26 sources · 101d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nThe scalar angular torsion framework\n47:52 · Deep Dive · 49 sources · 101d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nThe scalar angular torsion framework\n47:52 · Deep Dive · 49 sources · 101d ago"
+    },
+    {
+      "text": "The scalar angular torsion framework\n47:52 · Deep Dive · 49 sources · 101d ago"
+    },
+    {
+      "text": "The scalar angular torsion framework"
+    },
+    {
+      "text": "47:52 · Deep Dive · 49 sources · 101d ago"
+    },
+    {
+      "text": "table_view\nDates and Associated Files or Conversations\n26 sources · 101d ago\nmore_vert"
+    },
+    {
+      "text": "table_view\nDates and Associated Files or Conversations\n26 sources · 101d ago"
+    },
+    {
+      "text": "Dates and Associated Files or Conversations\n26 sources · 101d ago"
+    },
+    {
+      "text": "Dates and Associated Files or Conversations"
+    },
+    {
+      "text": "26 sources · 101d ago"
+    },
+    {
+      "text": "tablet\nInvented Sonic Realms\n1 source · 235d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nInvented Sonic Realms\n1 source · 235d ago"
+    },
+    {
+      "text": "Invented Sonic Realms\n1 source · 235d ago"
+    },
+    {
+      "text": "Invented Sonic Realms"
+    },
+    {
+      "text": "1 source · 235d ago"
+    },
+    {
+      "text": "audio_magic_eraser\nMusic Genres That Don't Exist Yet\n37:49 · Deep Dive · 1 source · 235d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nMusic Genres That Don't Exist Yet\n37:49 · Deep Dive · 1 source · 235d ago"
+    },
+    {
+      "text": "Music Genres That Don't Exist Yet\n37:49 · Deep Dive · 1 source · 235d ago"
+    },
+    {
+      "text": "Music Genres That Don't Exist Yet"
+    },
+    {
+      "text": "37:49 · Deep Dive · 1 source · 235d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-09-19T02:20:22.120Z",
+      "event": "harvest_complete",
+      "messages": 16,
+      "reachedTop": true
+    }
+  ]
+}

@@ -1,0 +1,1745 @@
+{
+  "metadata": {
+    "notebook_title": "Criticality, Complexity, and the Polymath Paradigm",
+    "notebook_id": "c419995c-92ac-4d41-baf0-8c15a39d31fd",
+    "notebook_url": "https://notebook.google.com/notebook/c419995c-92ac-4d41-baf0-8c15a39d31fd?authuser=1",
+    "captured_at": "2026-09-19T02:32:53.761Z",
+    "visible_source_count": 38,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 34
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Write a poem in OHG",
+      "citations": [],
+      "key": "809944fa"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Diu sunna liuhtit in themo himile.\n1\nmore_horiz\n Got gibit guota geba liutun.\n4\nmore_horiz\n Lioht quimit fona höhêm bergun.\n2\nmore_horiz\n Liuti lobönt truhtinan in werolti.\n4\nmore_horiz\n\n--------------------------------------------------------------------------------\n\nGrammatical and Vocabulary Notes\nThis short poem utilizes vocabulary and grammatical structures found throughout the sources, primarily following the East Franconian dialect style often used as a \"Normalahd\" baseline\n14\n15\n.\nLine 1: Diu sunna is a feminine weak (n-stem) noun in the nominative singular\n1\nmore_horiz\n. Liuhtit is the 3rd person singular present indicative of the weak verb liuhten (\"to shine\")\n2\n18\n. Themo himile is the dative singular of the masculine a-stem himil (\"heaven/sky\")\n3\n4\n.\nLine 2: Got is a masculine a-stem noun\n4\n19\n. Gibit is the 3rd person singular present indicative of the strong verb geban (\"to give\")\n5\nmore_horiz\n. Guota geba consists of a strong feminine accusative plural adjective and the corresponding o-stem noun (\"good gifts\")\n6\nmore_horiz\n. Liutun is the dative plural of the masculine i-stem liuti (\"people\"), showing the characteristic -un ending of later OHG\n8\nmore_horiz\n.\nLine 3: Lioht is a neuter a-stem noun\n2\nmore_horiz\n. Quimit is the 3rd person singular present indicative of the strong verb queman (\"to come\")\n9\n. Fona is a preposition taking the dative case\n10\n28\n. Höhêm bergun is the dative plural form for \"high mountains,\" using the strong masculine plural adjective and masculine a-stem noun\n6\nmore_horiz\n.\nLine 4: Lobönt is the 3rd person plural present indicative of the weak verb lobön (\"to praise\")\n12\nmore_horiz\n. Truhtinan is the accusative singular of the masculine a-stem truhtin (\"Lord\")\n4\n. Werolti is the dative singular of the feminine i-stem werolt (\"world\")\n13\n.\nTranslation\nThe sun shines in the heaven. God gives good gifts to the people. Light comes from high mountains. People praise the Lord in the world.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "926e69c5"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Translate George and Maurice into OHG",
+      "citations": [],
+      "key": "264c6798"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "George and Maurice translated into Old High German (OHG) would be Georgius inti Mauricius.\nThe most common Old High German word for \"and\" is inti (though indi is also used in some dialects), which serves as the standard conjunction for connecting nouns and clauses\n1\nmore_horiz\n. When rendering proper names into OHG, those of Latin or non-Germanic origin often retain their Latinate nominative singular forms, such as Georgius and Mauricius\n5\n6\n.\nThe name Maurice is specifically associated in the sources with Sinte Mauricius (Saint Maurice), a military saint and leader of the Theban Legion\n7\n8\n. Within the OHG grammatical framework, these names are treated as masculine nouns following standard declension patterns, such as the strong a-stem or weak n-stem\n9\nmore_horiz\n.\nA unique feature of OHG proper names is that they frequently adopt a pronominal ending -an when used in the accusative case (the direct object); for example, the nominative Petrus becomes Petrusan in the accusative\n5\n6\n. Therefore, if the phrase \"George and Maurice\" were the object of a verb, it would be translated as Georgiusan inti Mauriciusan\n6\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "5671b15d"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "No, I mean translate the flash fiction story George and Maurice into OHG",
+      "citations": [],
+      "key": "fbc7639f"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Translating the flash fiction story George and Maurice\n1\n into Old High German (OHG) requires adapting Nathan McKnight’s modern narrative into the grammatical and lexical structures found in the sources, primarily following the East Franconian dialect\n2\n3\n.\nGeorgius inti Mauricius\nGeorgius inti Mauricius gimeinsamötun allaz; wamba, brust, krippa, hërza, kidney, bladder, halfa libara—\n1\nmore_horiz\n (George and Maurice shared everything; a womb, a breast, a cradle, a heart, [anatomical terms], half a liver—)\nsia gimeinsamötun elilanti inti haz, wankantî mōdes, ein luzzila gimeinida, inti sēr thera firwurpfî.\n1\nmore_horiz\n (they shared alienation and hatred, confoundment of mind, one small relationship, and the pain of rejection.)\nInti uuidar allaz thaz, sia gimeinsamötun suozî, sia gimeinsamötun kraft.\n1\nmore_horiz\n (And against all that, they shared humor, they shared strength.)\nGeorgius irwackëta fruo ein morgën, mit niuwēm strālum altira sunnûn liuhtentēm ubar sîn andlit in allên buta enere lengeru scatu ubar sîn ougon fona Mauriciuses altêru nasu, inti in gimeinëmo betti, Georgius chêrita sih zi Mauriciuse.\n7\nmore_horiz\n (George awoke early one morning, with new rays of an old sun shining across his face in all but a long shadow over his eyes from Maurice’s old nose, and in a shared bed, George turned himself to Maurice.)\n“Mo,” quad ër, “Mo. Faramēs, Mo. Ih muoz zi thero fulhsni gangan. Ih dāhta thaz thū mir hëlfan mahtî.”\n8\nmore_horiz\n (“Mo,” he said, “Mo. Let us go, Mo. I must go to the secret place. I thought that you might help me.”)\nSîn hlahitunga bi themo luzzilên gamane irwackëta sînan bruoder, sô ër wissa thaz hit scolti. Mauriciuses ougon sih ant-luckun. Ër sah mōdî, atömanti stillo thuruh sîna nasu.\n7\nmore_horiz\n (His chuckle at the small joke awoke his brother, as he knew it should. Maurice’s eyes opened. He looked thoughtful, breathing quietly through his nose.)\nThô sprah Mauricius, quedanti: “Hwer bist thū?”\n13\nmore_horiz\n (Then Maurice spoke, saying: “Who are you?”)\n\n--------------------------------------------------------------------------------\n\nTranslator's Notes\nNames: Following OHG convention, proper names often retain Latinate roots or follow the weak declension. Georgius and Mauricius are treated as masculine subjects\n5\n31\n.\nVocabulary: Many terms like \"kidney,\" \"bladder,\" or \"existential confoundment\" do not appear in the early medieval religious texts that comprise the bulk of OHG sources. In these cases, I have used cognates or simplified descriptive terms (e.g., wankantî mōdes for \"confoundment of mind\").\nVerbs: Verbs like quad (said), hëlfan (help), and faramēs (let us go) are standard OHG forms found across various dialects\n17\nmore_horiz\n.\nSyntax: The translation adheres to the OHG \"verb-second\" rule in main clauses and places adjectives before the nouns they modify\n10\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "3dc74568"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Can you find words for kidney and bladder and 'existential confoundment' in related languages and reconstruct OHG versions",
+      "citations": [],
+      "key": "d1eabff1"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "Based on the provided sources, the words for kidney, bladder, and components for \"existential confoundment\" can be found in related Germanic languages and used to reconstruct Old High German (OHG) versions.\n1. Kidney\nRelated Language: The sources identify the Modern West Frisian word for kidney as prdlle\n1\n.\nOHG Reconstruction: While the specific OHG word for kidney is not in the glossary snippets, it can be reconstructed from the Proto-Germanic root *neurōn. According to the phonology rules in the sources, Proto-Germanic eu regularly develops into OHG io or eo\n2\n3\n. This results in the reconstructed OHG form nioro.\n2. Bladder\nRelated Language: The sources provide the Gothic word balgs, which refers to a \"leather bag, wine-skin, pouch, or belly\"\n4\n5\n. This term is cognate with Old English bælg\n4\n.\nOHG Reconstruction: The word for bladder is derived from the Germanic root for \"to blow\" (*blēs-). The sources list the OHG weak verb blāsan (\"to blow\")\n6\n. Applying the phonological rule where Proto-Germanic ē shifts to OHG ā, the reconstructed noun for bladder is blāsa\n7\n8\n.\n3. Existential Confoundment\nThis phrase must be reconstructed by combining terms for \"existence\" and \"confoundment\" found in the sources.\nExistential (Existence/Being):\nFrisian: The sources list wezen as the West Frisian word for \"existence\"\n9\n.\nGothic: The word wists is used for \"being\" or \"existence\"\n10\n.\nOHG: The verb wesan (\"to be\") is the foundational root for these terms\n11\n12\n. An adjectival form meaning \"existential\" would be derived as wesantlīch.\nConfoundment:\nOHG: The sources provide the word twalm, which refers to \"chaos, bewilderment, or stupefaction\"\n13\n.\nFrisian: The adjective oerstjur is used to mean \"disconcerted\"\n14\n.\nOHG Reconstruction: Combining these elements, \"existential confoundment\" can be reconstructed as wesantlīcho twalm (literally \"existential bewilderment/chaos\")\n12\n13\n. Alternatively, drawing on the concept of \"alienation\" mentioned in your previous query's story, one might use elilenti (\"alienation/foreignness\")\n15\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "e66bf5d4"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "Ok, can you translate the flash fiction story Fingertips into Old Frankonian",
+      "citations": [],
+      "key": "af047a72"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "Translating the flash fiction story Fingertips into Old Frankonian (Old Franconian) involves using the grammatical and lexical data from the sources, specifically drawing on the East Franconian dialect patterns found in early texts like the Tatian and the Altfränkische Grammatik\n1\n2\n.\nFingar-spizza\nIh greip thaz flokana thing fona sînum hantum—mercontî—sô mîna fingar-spizza sîne beruodun, thia lengî thero sîne nagala wahsane wârun\n3\nmore_horiz\n. Ih fuolta thia luft in mînemo folmon warm—inti ih wanta hit umbi\n7\n8\n. Thia durrun runza, sô thia tē-bletir. Sîn stanch fulta mîna nasu, inti ih fuolta hit fahan in mînero chelun—swingantî mîna altun hanti\n3\nmore_horiz\n.\nIh fialta hit. Ih flōcta, wola. Flokantî\n11\n12\n.\nThô fuolta ih ina gangan\n11\nmore_horiz\n.\nNu thaz brunnan thing melzita ein luzzilaz loch in thene teppih. On themo fluore. Sumwar nâh mînum fuozum\n15\nmore_horiz\n.\nIh habēti zi imu hrōpan hit up-ti-nemanne fori mih. Ief hi ni bifuri\n11\n18\n.\nAc al thaz hrōpan thurrita unsera wort sô altaz papîr—thurrita, inti ze-brast\n11\n19\n. Ih bōg mih nidar inti fuolta thene fluor, folmon ebeno withar thene teppih, fuolantî mit enere hant, mit thero otheru mîna suārî hilt. Ih creip sô ein kind, sô ih umbi thia ginâtha bâtî, inti thô mîna hant fial up thaz thing inti ih flōcta\n3\nmore_horiz\n. Thi stanch thero melzantun nylon was starc, ac thi sēr in mînero hant was wirra\n9\nmore_horiz\n. Sēfo, ih stippulōta mîna fingar thar hit lac, mīdantî thia hiza inti suochantî einera sûchera stidi hit zi grīpanne\n5\n23\n. Ih greip ein losaz enti thero bōko inti leitta hit in thaz wasch-hūs sô thene minnistun hund thene thū ioman gasâhi\n5\nmore_horiz\n. Inti thô ih hit fir-wuorf, thiu rouch stillete in mînero nasu, ac thi stanch thero ahte-zehan iero hrōpanes fulta noh mîna lungun\n10\nmore_horiz\n.\n\n--------------------------------------------------------------------------------\n\nPhilological Notes\nVerbs: The translation uses the characteristic Old Frankonian preterite endings, such as -ta for weak verbs (e.g., flōcta for \"cursed\") and standard vowel-gradations for strong verbs like greip (from grīpan, Class I)\n5\n27\n.\nThe \"Damn\" Thing: To translate \"damn\" and \"cursed,\" the word flōkan is used, which refers to cursing or lamenting in the sources\n4\n11\n.\nAnatomical Terms: Words like nagala (nails)\n6\n and nasu (nose)\n10\n are taken directly from the cognate lists. Fingar-spizza is a reconstruction of \"fingertips\" using the base fingar\n28\n and the Germanic root for \"point/top\" (spizza).\nSyntax: The translation adheres to the V2 (verb-second) word order in declarative sentences and uses the Old Frankonian pronoun system (e.g., ih, thū, ina)\n14\n29\n.\nNeologisms: For modern terms like \"cigarette\" or \"paper,\" I have used brunnan thing (burning thing) and papîr (a medieval Latin loanword consistent with the sources' discussion of loan adaptation)\n30\n31\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "b3d27fc5"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "Ok, can you translate the story Miss Poughkeepsie 1953 into Middle Low German",
+      "citations": [],
+      "key": "b0936ea1"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "To translate Nathan McKnight’s flash fiction story Miss Poughkeepsie 1954 into Middle Low German (MLG), I have utilized the grammatical and phonological principles of the period found in the sources, such as the reduction of unstressed vowels to schwa (e)\n1\n, the use of the en...niet or ne negation structure\n2\n, and the specific verb paradigms for strong and weak classes\n3\nmore_horiz\n.\nMiss Poughkeepsie 1954\nMiss Poughkeepsie 1954 en-was nêne frouwe\n2\n6\n. Och en-was sê gên man, och—al-wile sê êne lam-ribbe brâdede ende den lüttiken rant van hjar hûse mit lüttiken Franklin Mint statuetten sätte, ende al-wile sê dat dēnken van der oranje ûle tō der künste van Macramé gaf\n4\n—och en-was Miss Poughkeepsie 1954 gên sort minsche\n7\n8\n. Miss Poughkeepsie 1954 was êne gadderinge van bluot-vülleden\n9\n pumpen ende gummi-tūben under ême rôden huus-roke mit stipken, levend-makende dat af-esnedene hövet\n10\n van ême mops-hunde in êner rāven-swarten prücke.\nE-buwet vör vêle jâren, up den hêt\n11\n van Czar Nicholas—de in sîme lesten ātheme\n12\n den besten meister-arzâten\n13\n van den Kremlin den last gaf, êne vül-kāmene frouwe tō maken\n3\n—was sê rūge ende lêt nîuwe rôde stipken vleeten\n14\n.\nEnde al-wile sê un-vül-kāmen was, hjar statuetten alle scheeve, so was sê e-koren tō der besten gāngere van des jâres swâren gānge, ende sê nam den rēm van den richtere\n15\n mit genâden an.\nDat ende\n16\n.\n\n--------------------------------------------------------------------------------\n\nPhilological Notes\nNegation: Following the Middle Low German patterns described in the sources, the negation often uses en- prefixed to the verb, sometimes reinforced with a negative pronoun like nêne (none) or gên (no/none)\n2\n.\nVowels: As noted in the sources, unstressed full vowels from Old Saxon (e.g., faran, salbon) were reduced to -e in MLG (e.g., faren, salben)\n1\n. This is reflected in forms like maken and vleeten.\nVocabulary:\nFrouwe: Used for \"woman,\" consistent with the Middle Dutch/Low German snippets\n6\n17\n.\nMinsche: Used for \"human/man\"\n7\n8\n.\nHövet: The MLG form for \"head,\" showing the characteristic development of the Germanic root\n10\n.\nMeister-arzâten: A compound for \"surgeons\" using meister (master)\n13\n and arzât (doctor/physician).\nVerb Conjugation: The preterite of weak verbs follows the -de or -te suffix pattern (e.g., brâdede, sätte)\n5\n. Strong verbs follow the established ablaut classes, such as gaf (Class V: geven) and nam (Class IV: nemen)\n4\n18\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "44e1941e"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Ok, let's translate George and Maurice into Old Frisian",
+      "citations": [],
+      "key": "0d893e28"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "The translation of Nathan McKnight’s flash fiction story George and Maurice into Old Frisian utilizes the legal and literary patterns preserved in the thirteenth-to-fifteenth-century manuscripts found in the sources.\nGeart and Mauricius\nGeart and Mauricius dēldon allet; bēnenaburch, briāst, widze, herte, nēre, blāsa, half livere—\n1\nmore_horiz\n (George and Maurice shared everything; a womb, a breast, a cradle, a heart, kidney, bladder, half a liver—)\nhia dēldon ellende and hāte, wesantlῑko twalm, ēne luttike sibja, and thā pῑne thera firwurpe.\n8\nmore_horiz\n (they shared alienation and hatred, existential confoundment, one small relationship, and the pain of rejection.)\nAnd wither al thet, hia dēldon gamene, hia dēldon macht.\n15\nmore_horiz\n (And against all that, they shared humor, they shared strength.)\nGeart urwōk ēr ēnes mernes, mith niwon strālon aldera sunne skῑnande over sῑn ondlete in al buta ēnere longere skadus over sῑn āgon fona Mauriciuses bēnize alda nose, and in gimēnre hūses bedde, Geart sῑn selva kērde tō Mauriciuse.\n6\nmore_horiz\n (George awoke early one morning, with new rays of an old sun shining across his face in all but a long shadow over his eyes from Maurice’s bony old nose, and in a shared nursing home bed, George turned himself to Maurice.)\n“Mo,” queth hī, “Mo. Gunga wῑ, Mo. Ik mōt thet hūs tō nēde brūka. Ik thōchte thetter thū mī helpa machte.”\n18\nmore_horiz\n (“Mo,” he said, “Mo. Let us go, Mo. I must use the house of need. I thought that you might help me.”)\nSῑn hlahiter bi thām luttika gamene ur-wakade sῑnne brōther, alsa hī wiste thet hit skoldē. Mauriciuses āgon op-deden hjar. Hī sēch thancful, stille atômante thruch sῑne nose.\n5\nmore_horiz\n (His chuckle at the small joke awoke his brother, as he knew it should. Maurice’s eyes opened. He looked thoughtful, breathing quietly through his nose.)\nThā sprac Mauricius, quethande: “Hwā bist thū?”\n33\nmore_horiz\n (Then Maurice spoke, saying: “Who are you?”)\n\n--------------------------------------------------------------------------------\n\nPhilological Notes\nBēnenaburch: This term is a \"kenning\" or poetic compound for the womb, literally meaning \"fortress of the bones\"\n2\nmore_horiz\n.\nAnatomical Terms: Words like briāst (breast), herte (heart), and livere (liver) are direct cognates found in the sources\n3\nmore_horiz\n. Nēre (kidney) and blāsa (bladder) follow the reconstructions derived from related languages and Germanic roots\n51\n52\n.\nThe Shared Bed: The phrase gimēnre hūses bedde describes a shared house-bed, reflecting the common Old Frisian use of gimēne for \"common/shared\" and hūs for house\n53\nmore_horiz\n.\nVerbal Syntax: The translation uses the uniform verbal plural ending -on/-en typical of the North Sea Germanic branch\n56\n. Strong verbs like queth (said) and sprac (spoke) follow the expected ablaut classes\n33\n47\n.\nNegation and Clitics: The text uses cliticization where appropriate, such as thetter (thet + er)\n57\n.\nDialect Choice: The translation primarily uses Old West Frisian features, such as the infinitives ending in -n for monosyllabic verbs (e.g., dwān, gān) and the use of -a or -e plurals\n35\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "52",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "56",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "57",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "22ca389b"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "Can you translate Miss Poughkeepsie 1953 into Gothic",
+      "citations": [],
+      "key": "d5cc4d18"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "Translating Nathan McKnight’s flash fiction story Miss Poughkeepsie 1954 into Gothic involves utilizing the grammatical and lexical structures of the fourth-century Bible translation by Wulfila.\nMaidō Poughkeepsie 1954\nMiss Poughkeepsie 1954 ni was qēns.\n1\nmore_horiz\nNih was guma, nih—þauh brisadi [braised] rigg lambis jah gafilhide þata leitila fadi haimōis seinaizōs miþ leitilaim manleikam Franklin Mint, jah þauh gaf þata hugjan þizōs hrawat-blōmans [orange owl] du Macramé—nih was Miss Poughkeepsie 1954 hʷileikhun mannisks.\n7\nmore_horiz\nMiss Poughkeepsie 1954 was lisōns blōþ-fullidāi pumpōn jah gummī-tūbōn und raúþamma haming-wastjai [house frock] miþ stipkam, liband-makandi þata afmaitana haubiþ pug-hundis in hrawat-swartai prücke [wig].\n16\nmore_horiz\nGatimriþa jērum faúra, at haiti Czar Nicholas—saei in gastaurknandai ahmin Kremlin’s batistaim lēkeim anabauþ fullatōja qēn gaskapjan—was unsēls jah rōga jah lak niujans raúþans mālans.\n1\nmore_horiz\nJah þauh ni-fullatōja was, manleikōs seinōs allōs wraiqōs, gawalida was batista gaggandei þizōs jēris, jah miþ anstai andnam þana rēm fram stauin.\n1\nmore_horiz\n\n--------------------------------------------------------------------------------\n\nPhilological Notes\nNegation: The translation uses the Gothic pattern of ni (not) and the coordinating conjunction nih (nor/and not) to mirror the repetitive \"nor was she\" structure of the original\n11\n17\n.\nVocabulary:\nQēns: The standard Gothic term for \"woman\" or \"wife\"\n1\n3\n.\nGuma: The masculine equivalent for \"man\"\n7\n28\n.\nHaubiþ: Used for \"head,\" derived from the same Germanic root as the Low German and Frisian forms in previous translations\n30\nmore_horiz\n.\nFullatōjis: A compound meaning \"perfect\" or \"completely made,\" used here to translate the Czar's request for a \"perfect woman\"\n36\n47\n.\nVerb Classes: The text employs Class IV and V strong verbs such as andnam (accepted/received) and was (was), following the ablaut patterns described in the sources\n2\nmore_horiz\n.\nAnatomical Terms: Words like blōþ (blood) and hunds (dog) are direct cognates identified in the Gothic glossary snippets\n29\nmore_horiz\n.\nAdjectives: Adjectives like leitils (little) and raúþs (red) follow the strong or weak declension based on their syntactic position in relation to the demonstrative\n10\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "01d6f8b4"
+    },
+    {
+      "index": 17,
+      "role": "user",
+      "text": "Ok, translate Fingertips into Pennsylvania German",
+      "citations": [],
+      "key": "c875dead"
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "text": "Drawing on the grammatical and lexical principles of Pennsylvania German provided in the sources—particularly the sectarian variety which favors analytical structures and convergence with English—here is the translation of Nathan McKnight’s Fingertips.\nFINGAR-SPITZE\nIx hab as damm dink fun saina handa gnumma—un hab gmarikt—wi maina fingar-spitze saina grovvel hen, di lengi wu saina nagal gwaksa hen\n1\nmore_horiz\n. Ix hab di luft in mainara hand warm gfilt—un ix hab’s ummi-gdreit\n1\nmore_horiz\n. Di darra runzle, wi te-bleddar\n1\n5\n. Sain rukh hat maini nas gfillt, un ix hab’s fange gfilt—in mainara kals—un maini alda handa hen goziddered\n1\nmore_horiz\n.\n\n--------------------------------------------------------------------------------\n\nPhilological Notes\nVerb Morphology: Following the rules for Generalized Pennsylvania German, the past tense is formed periphrastically using the auxiliary hawwa (to have) and the past participle\n2\n. For example, \"I snatched\" is rendered as ix hab... gnumma, where the participle prefix ge- is reduced and the strong verb ends in -a (schwa)\n2\n8\n.\nLoan Adaptation: Modern terms like \"flipped\" or \"felt\" are adapted using the native pattern: adding the suffix -o for infinitives or -t for weak participles (e.g., gfilt for \"felt\")\n4\n.\nAnatomical and Physical Terms:\nFingar-spitze: Reconstructed using the root fingar and spitze (points/tips), common across the Germanic sources and consistent with PG phonology.\nNagal (Nails) and Nas (Nose): These utilize the high/mid vowel lowering to /a/ before dental/coronal sounds, a characteristic feature of PG\n6\n9\n.\nHanda: The plural form of \"hands,\" following the -a suffix pattern\n5\n.\nPhonology: Intervocalic lenition is applied where applicable (e.g., saina for \"his\"), and the prefix ge- is reduced to g- before the voiceless fricative in gmarikt (noticed)\n8\n.\nSyntax: The translation adheres to the SOV (Subject-Object-Verb) underlying word order in subordinate clauses and the placement of the finite verb in second position in main clauses\n10\n11\n. The iterative aspect for \"shaking\" uses the hen goziddered structure to reflect a completed or ongoing state in the past\n7\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "10254e55"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\nsearch",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nEarly Modern English, An Introduction to (Nevalainen).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Early Modern English, An Introduction to (Nevalainen).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nFLASH TRIPLET.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "FLASH TRIPLET.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nFrisian (Hoekstra & Tiersma).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Frisian (Hoekstra & Tiersma).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nFrisian Reference Grammar (Tiersma).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Frisian Reference Grammar (Tiersma).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nFrisian, An Ecological Reference Grammar of Sölrung North (Lasswell).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Frisian, An Ecological Reference Grammar of Sölrung North (Lasswell).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nFrisian, Phonology and Grammar of Modern West (Sipma) (1913).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Frisian, Phonology and Grammar of Modern West (Sipma) (1913).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGerman, Swiss - The Modern Alemannic Vernacular in and around Zurich (Reese).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "German, Swiss - The Modern Alemannic Vernacular in and around Zurich (Reese).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic (Jasanoff).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic (Jasanoff).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic and the Reconstruction of Proto-Germanic (Lehmann).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic and the Reconstruction of Proto-Germanic (Lehmann).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic Grammar (Braune) (1895).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic Grammar (Braune) (1895).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic Language, An Introduction to the (Bennett).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic Language, An Introduction to the (Bennett).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic Language, Grammar of the (Wright) (1910).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic Language, Grammar of the (Wright) (1910).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nGothic Language, Wright's Grammar of the (Wright & Sayce).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Gothic Language, Wright's Grammar of the (Wright & Sayce).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nLow German - East Frisian dialect (Matras & Reershemius).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Low German - East Frisian dialect (Matras & Reershemius).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nLow German, A Descriptive Grammar of Ukrainian (Mierau).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Low German, A Descriptive Grammar of Ukrainian (Mierau).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle English Grammar, An Outline of (Brunner).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle English Grammar, An Outline of (Brunner).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle English, An Introduction to (Horobin & Smith).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle English, An Introduction to (Horobin & Smith).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle High German Primer (Wright) (1917).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle High German Primer (Wright) (1917).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle High German, An Introduction to (Otis) (1854).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle High German, An Introduction to (Otis) (1854).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle High German; Einführung in das Mittelhochdeutsche (Hennings).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle High German; Einführung in das Mittelhochdeutsche (Hennings).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nMiddle Low German; Mittelniederdeutsche Grammatik (Lübben) (1882).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Middle Low German; Mittelniederdeutsche Grammatik (Lübben) (1882).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld Franconian; Altfränkische Grammatik (Franck).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old Franconian; Altfränkische Grammatik (Franck).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld Frisian, An Introduction to (Bremmer).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old Frisian, An Introduction to (Bremmer).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld Frisian; A Grammar of the Old Friesic Language (Cummins).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old Frisian; A Grammar of the Old Friesic Language (Cummins).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld High German Grammar, An Elementary (Ellis).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old High German Grammar, An Elementary (Ellis).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld High German Primer (Wright) (1906).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old High German Primer (Wright) (1906).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld High German, et al; Old and Middle Continental West Germanic (van der Wal & Quak).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old High German, et al; Old and Middle Continental West Germanic (van der Wal & Quak).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld High German; Abriß der Althochdeutschen Grammatik (Braune).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old High German; Abriß der Althochdeutschen Grammatik (Braune).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nOld High German; Althochdeutsche Grammatik I - Laut- und Formenlehre (Braune).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Old High German; Althochdeutsche Grammatik I - Laut- und Formenlehre (Braune).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nPennsylvania German (Van Ness).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Pennsylvania German (Van Ness).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nProto-Germanic, A Grammar of (Lehmann).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Proto-Germanic, A Grammar of (Lehmann).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nScots Grammar (Purves).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scots Grammar (Purves).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nScots, Northern and Insular (Millar).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scots, Northern and Insular (Millar).pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "38 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward\ntablet\nSlide Deck\nchevron_forward\nsubscriptions\nVideo Overview\nchevron_forward\nflowchart\nMind Map\nchevron_forward\nauto_tab_group\nReports\nchevron_forward\ncards_star\nFlashcards\nchevron_forward\nquiz\nQuiz\nchevron_forward\nstacked_bar_chart\nInfographic\nchevron_forward\ntable_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser"
+    },
+    {
+      "text": "tablet\nSlide Deck\nchevron_forward"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "subscriptions\nVideo Overview\nchevron_forward"
+    },
+    {
+      "text": "subscriptions"
+    },
+    {
+      "text": "flowchart\nMind Map\nchevron_forward"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports\nchevron_forward"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "cards_star\nFlashcards\nchevron_forward"
+    },
+    {
+      "text": "cards_star"
+    },
+    {
+      "text": "quiz\nQuiz\nchevron_forward"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic\nchevron_forward"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "table_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "table_view"
+    },
+    {
+      "text": "edit_fix_auto\nStudio output will be saved here.\nAfter adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!\nsticky_note_2\nAdd note"
+    },
+    {
+      "text": "edit_fix_auto\nStudio output will be saved here.\nAfter adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-09-19T02:32:49.104Z",
+      "event": "harvest_complete",
+      "messages": 18,
+      "reachedTop": true
+    }
+  ]
+}

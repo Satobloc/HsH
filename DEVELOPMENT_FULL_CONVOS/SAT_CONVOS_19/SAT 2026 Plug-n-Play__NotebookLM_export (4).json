@@ -1,0 +1,763 @@
+{
+  "metadata": {
+    "notebook_title": "SAT 2026 Plug-n-Play",
+    "notebook_id": "79c87486-acad-49ed-b198-e35bc2fe959b",
+    "notebook_url": "https://notebook.google.com/notebook/79c87486-acad-49ed-b198-e35bc2fe959b?authuser=1",
+    "captured_at": "2026-09-19T02:44:05.979Z",
+    "visible_source_count": 9,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 168
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Give me a large, detailed (exhaustive) topical index please",
+      "citations": [],
+      "key": "0ce6adf8"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Thoughts\nexpand_more\n1. Foundational Ontology, Geometry, & Mathematical Action\nPrimary World-Line Worldview: Particles are fundamental 1D world lines r\ni\n\t​\n\n(t) through spacetime\n1\n2\n. Physical forces act as geometric constraints or projections onto world lines, internal quantum numbers and flavors correspond to transverse or longitudinal world-line oscillations, and observables emerge from topological winding, linking, and writhing numbers Q\n1\nmore_horiz\n.\nThe 0.239 Radian Projection Constant (13.76\n∘\n): Derived by taking the 0.9559 rad angle of a 4D tesseract hyperface normal relative to a 3D slice and dividing by 4 spacetime dimensions\n7\n8\n. It serves as a universal angular calibration constant quantifying the apparent curvature, coupling bias, or geometric deflection introduced when projecting 4D symmetric dynamics into a 3D observational plane\n9\nmore_horiz\n.\nTotal Covariant SAT Action (S\nSAT\n\t​\n\n): Unifies Einstein-Hilbert GR curvature R[g], gauge fields F\nμν\n\t​\n\n, scalar mass/coupling field θ(x), matter content L\nmatter\n\t​\n\n, time-flow/filament fields (L\nu\n\t​\n\n,L\nJ\n\t​\n\n), and discrete holonomy winding constraints S\nhol\n\t​\n\n (∮dϕ=2πn)\n13\n14\n.\nMaster Mass Formulas: Total particle mass is expressed as m\neff\n\t​\n\n=m\ntopo\n\t​\n\n+m\nind\n\t​\n\n, where topological mass m\ntopo\n\t​\n\n=m\n0\n\t​\n\n/Q and induced mass m\nind\n\t​\n\n≈Cg\n1\n2\n\t​\n\nM\n2\n/E\noverlap\n\t​\n\n2\n4\n. Quadratic excited states scale as m\n2\n(N,Q)=k(N+βQ\n2\n−a)e\nγ\nχ\n\t​\n\nτ\nχ\n\t​\n\n6\nmore_horiz\n.\n2. Leptonic Sector & Neutrino Physics\nElectron Mass Derivation: Ground state m\ne\n\t​\n\n=0.511 MeV is reproduced directly using topological charge Q\ne\n\t​\n\n=1 and torsion factor τ\nχ\n\t​\n\n=0\n4\n17\n.\nNeutrino Mass Spectrum: Predicts discrete neutrino mass eigenvalues m\nν\n\t​\n\n={5.0,8.9,16.3} meV and a total mass sum ∑m\nν\n\t​\n\n≈0.0302 eV, constrained by discrete topological charges (Q\nν\n\t​\n\n=2,3,4) and θ-worldline holonomies\n17\nmore_horiz\n.\nNeutrinoless Double Beta Decay (0νββ): Predicts discrete effective Majorana masses ∣m\nββ\n\t​\n\n∣∈{0.40,1.12,5.69,6.41} meV due to discrete Majorana phase interference along world-line holonomy paths\n18\nmore_horiz\n. Half-life predictions are computed across isotopes, including\n76\nGe (1.2×10\n29\n–3.1×10\n31\n yr) and\n136\nXe (3.0×10\n28\n–7.3×10\n30\n yr)\n26\nmore_horiz\n.\nSterile Neutrinos & CP Phase: Apparent sterile neutrino signals are explained as hidden holonomy modes along existing world lines rather than new physical particles\n18\nmore_horiz\n. The Jarlskog invariant J and CP phase δ\nCP\n\t​\n\n=197\n∘\n are derived from phase-locking of lepton world lines\n6\nmore_horiz\n.\n3. Hadron Spectrum, Resonance Excitations, & QCD\nLight Baryon & Meson Ground States: Reproduces octet (p,n,Λ,Σ,Ξ) and decuplet (Δ,Σ\n∗\n,Ξ\n∗\n,Ω) baryons alongside pseudoscalar (π,K,η) and vector (ρ,K\n∗\n,ϕ) mesons within <1–2 MeV using topological assignments (Q=3 for baryons, Q=2 for mesons) and torsion scaling τ\nχ\n\t​\n\n34\nmore_horiz\n.\nHarmonic Resonances (N≥1,2): Utilizing sector-dependent k scaling fixed from ground states, SAT predicts first and second excitations including π(N=2)=168 MeV, K(N=2)=628 MeV, η(N=2)=475 MeV, ρ(N=2)=870 MeV, ϕ(N=1)=1070 MeV, N\n∗\n(N=2)=1038 MeV, and Δ\n∗\n(N=2)=1348 MeV\n37\nmore_horiz\n.\nStrong CP Problem: Enforces θ\nQCD\n\t​\n\n≈0 geometrically through holonomy stability along confined gluon loops, eliminating the need for an axion\n47\nmore_horiz\n.\nProton Radius Puzzle: Resolves the discrepancy (∼0.84 vs. 0.88 fm) as a projection effect, where electronic and muonic probes couple to different world-line torsion projections\n31\nmore_horiz\n.\n4. Exotic States, Glueballs, & High-Energy Phenomena\nBorromean Scalars: Three-body linked world-line topologies that form an ultra-stable scalar bound state with mass m\nB\n\t​\n\n≈0.74 TeV, an ultra-narrow decay width Γ\nB\n\t​\n\n<10\n−6\n MeV, and a relic density contribution Ω\nB\n\t​\n\nh\n2\n≈0.012\n47\nmore_horiz\n.\nExotic Hadronic States (X,Y,Z): Multi-loop world-line structures that yield narrow tetraquark and pentaquark resonances protected by topological stability\n47\nmore_horiz\n.\nGlueball Spectrum: Predicts a 0\n++\n scalar glueball at 1500 MeV and a 2\n++\n tensor glueball at 2400 MeV\n57\nmore_horiz\n.\nMicro-Black Holes: High-energy collision cross-sections are estimated at σ\nMBH\n\t​\n\n≈0.077 fb at 100 TeV, constrained by extreme torsion cutoffs\n55\nmore_horiz\n.\n5. Precision Electroweak & Magnetic Moment (g−2) Anomalies\nLepton g−2 Anomalies: Precession along torsion loops scaled by mass-dependent holonomy loop counts (N\nloops\n\t​\n\n∝m\n2\n) accounts for muon g−2 (Δa\nμ\n\t​\n\n≈2.51×10\n−9\n with N\nloops,μ\n\t​\n\n≈4.7×10\n11\n) and electron g−2 (Δa\ne\n\t​\n\n≈2.1×10\n−13\n)\n62\nmore_horiz\n. Tau g−2 is predicted at Δa\nτ\n\t​\n\n≈3.16×10\n−3\n with a spread of 0.00244–0.00287\n68\nmore_horiz\n.\nGauge Boson g−2: Predicts an anomalous magnetic moment for the W boson of Δa\nW\n\t​\n\n≈0.212\n71\n.\nQuark & Hadron Magnetic Moments: Maps constituent light (u,d) and heavy (s,c,b,t) quark torsion contributions to composite proton (Δa\np\n\t​\n\n≈3.84×10\n−13\n) and neutron (Δa\nn\n\t​\n\n≈4.44×10\n−13\n) anomalous moments\n72\nmore_horiz\n.\nCDF II W Boson Mass Shift: Reconciles the +76 MeV discrepancy (80,433 MeV vs. SM 80,357 MeV) via electroweak filament density ρ\nfilament\n\t​\n\n and N\nloops\n\t​\n\n≈2.73×10\n17\n, generating a +37–52 MeV baseline shift\n75\nmore_horiz\n.\n6. Cosmology, Dark Matter, & Dark Energy\nHubble Tension (H\n0\n\t​\n\n) Resolution: Reconciles local distance ladder (73–74 km/s/Mpc) and global CMB (67.4 km/s/Mpc) measurements via line-of-sight projective resistance R(r)=ρ\nlink\n\t​\n\n(r)/∣cosθ\n4\n\t​\n\n(r)∣, yielding H\nlocal\n\t​\n\n≈74.4 km/s/Mpc vs. H\nglobal\n\t​\n\n≈67.4 km/s/Mpc\n22\nmore_horiz\n.\nDark Matter as 4D Projection Effect:\nGlobal Fraction: The 0.239 rad rotation relative to 90\n∘\n orthogonality projects 15.3% of matter/light out of our 3D slice, leaving 84.7% visible (∼85% apparent dark matter) without requiring exotic dark particles\n9\nmore_horiz\n.\nCosmic Variance: Local filament angle fluctuations σ\nθ\n\t​\n\n≈0.03–0.05 rad produce ∼3% variation across volume regions\n82\nmore_horiz\n.\nRedshift Evolution: The effective dark fraction f\ndark\n\t​\n\n(z) exhibits non-linear, oscillatory behavior over conformal distance that averages out across deep cosmological baselines\n86\nmore_horiz\n.\nCosmological Parameters: Predicts a tensor-to-scalar ratio r≈0.011\n92\n, CMB birefringence Δψ≲3.74×10\n−7\n rad\n79\nmore_horiz\n, and dark energy Λ\neff\n\t​\n\n as residual topological misalignment\n95\n.\n7. Planetesimal Formation & Protoplanetary Disk Dynamics\nEntanglement-Enhanced Gravity: Particle interactions leave topological knots in the 4D filament web over time, generating a 1–5% monotonic, saturating gravitational boost that overcomes electrostatic repulsion for millimeter-scale chondrules without runaway collapse\n96\nmore_horiz\n.\nDisk Timeline Stages: Models disk evolution from dust settling (10\n2\n yr) to pebble coagulation (10\n3\n–10\n4\n yr) and planetesimal runaway accretion (10\n5\n–10\n6\n yr)\n102\n103\n.\nObservational Signatures: Predicts thinner midplane dust layers, early narrow pebble rings, short-lived IR hotspots from chondrule collisions, and a flattened size-frequency distribution\n104\nmore_horiz\n.\n8. Planetary Systems & Exoplanet Observables (TTVs & Geophysics)\nSolar System Tests: Verifies Mercury's perihelion precession correction (+6.1×10\n−5′′\n/century)\n108\nmore_horiz\n and Earth-Moon tidal locking synchronization (4.5 Gyr)\n111\n112\n.\nTransit Timing Variations (TTVs): Filament-torsion perturbation δt\nfiltorsion\n\t​\n\n=P\ni\n\t​\n\n⋅f\nft\n\t​\n\n predicts small TTV residuals (∼1–25 s) matching observed data across TRAPPIST-1, Kepler-223, K2-138, Kepler-80, and TOI-178 with correlation r>0.99\n113\nmore_horiz\n.\nCoupled Planetary Vector: Unifies orbital periods (P\ni\n\t​\n\n), tidal locking times (t\nlock\n\t​\n\n), surface gravity (g\neff\n\t​\n\n), crustal hoop stress (σ\nθ\n\t​\n\n), atmospheric scale height (H\natm\n\t​\n\n), cloud deck altitude (z\ncloud\n\t​\n\n), dew points (T\ndp\n\t​\n\n), trace gas abundances, melting points (T\nm\n\t​\n\n), and optical phase shifts (Δϕ\nopt\n\t​\n\n)\n120\nmore_horiz\n.\n9. Condensed Matter, Optics, & Extreme Materials\nOptical Domain-Wall Phase Shifts: Refractive index modulation Δn(x)=ηsin\n2\n(θ\n4\n\t​\n\n(x)) across lattice domain walls\n55\nmore_horiz\n.\nZ\n3\n\t​\n\n Defect Fusion: Topological lattice loop constraints dictate defect fusion mod 3 (τ\n1\n\t​\n\n+τ\n2\n\t​\n\n+τ\n3\n\t​\n\n≡0(mod3))\n60\nmore_horiz\n.\nLattice Dynamics & Melting: Torsion-adjusted Debye temperature Θ\nD\n\t​\n\n and Lindemann melting point T\nm\n\t​\n\n⋅(1+τ\ni\n\t​\n\n)\n125\nmore_horiz\n.\nCondensed Matter Edges: High-T\nc\n\t​\n\n Cooper pairing modeled as paired world-line modes, fractional quantum Hall plateaus, and glass transition relaxation dynamics\n131\n132\n.\n10. Quantum Foundations, Gravitational Thermodynamics, & Black Holes\nHorizon Quantization & Entropy: Black hole horizon area quantization ΔA=\nκ\n8π\n\t​\n\nE\n1\n\t​\n\n and Bekenstein-Hawking entropy S=A/4\n129\n133\n.\nHawking Radiation Staircase: Discrete thermal emission quanta Δf=ΔE/h=c/(8πM)\n79\nmore_horiz\n.\nInformation Paradox & Measurement: Information is preserved in filament/torsion holonomies\n133\n136\n. Wave-function superposition represents overlapping torsion states, and collapse reflects projection during interaction with external filament networks\n137\n.\nArrow of Time: Thermodynamic asymmetry emerges from the cosmological orientation of the unit-time vector field u\nμ\n\t​\n\n along filaments\n138\n.\n11. Interdisciplinary & Fringe Physics Applications\nAstrophysics & Cosmological Edges: Fast Radio Bursts (FRBs) driven by sudden filament reconnections\n139\n140\n, UHECR energy cutoffs set by topological constraints\n141\n, and CMB cold spot projection gaps in low-density filament nodes\n141\n.\nPlasma & Geophysical Edges: Solar flare magnetic reconnection topology, turbulent vortex spectra, seismic wave travel-time shifts, and geomagnetic micro-fluctuations\n142\nmore_horiz\n.\nBiophysics & Quantum Biology: Protein backbone folding pathways mapped as world lines in torsion space, enzyme tunneling, ion channel transport, and photosynthetic/neural quantum coherence\n145\nmore_horiz\n.\n12. Experimental Roadmap, Priority Targets, & Robustness\nTop 10 Actionable Priorities: Near-term experimental cheat sheet highlighting targets at BESIII, Belle II, LHCb, CLAS12, GlueX, DUNE, Hyper-K, LEGEND, LiteBIRD, and 100 TeV colliders\n45\nmore_horiz\n.\nRobustness & Sensitivity Analysis: Stress-testing parameter perturbations (k,τ,γ\nχ\n\t​\n\n,Q) confirms that topological state emergence (excited states N≥1,2, Borromean scalars, glueballs) is structurally inevitable rather than a fine-tuned artifact\n151\nmore_horiz\n.\nUniversal Lookup Map & Pipeline: Domain-to-equation cross-reference guide connecting field variables, key operators, and testable observables\n156\nmore_horiz\n.\n💡 Next Step: Would you like me to synthesize these topics into a tailored Report or Slide Deck focusing on a specific sector (such as particle physics predictions or exoplanet TTV signatures)?",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "57",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "55",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "62",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "68",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "71",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "72",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "75",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "82",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "86",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "92",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "79",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "95",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "96",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "102",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "103",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "104",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "108",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "111",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "112",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "113",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "120",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "55",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "60",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "125",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "131",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "132",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "129",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "133",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "79",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "133",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "136",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "137",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "138",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "139",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "140",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "141",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "141",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "142",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "145",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "151",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "156",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "7f2a2e5d"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Geometric Anomalies and World-Line Topology in SAT Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "button_magic\nSource guide\narrow_drop_up",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "button_magic\nSource guide",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "button_magic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Close source guide",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "9 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward\ntablet\nSlide Deck\nchevron_forward\nsubscriptions\nVideo Overview\nchevron_forward\nflowchart\nMind Map\nchevron_forward\nauto_tab_group\nReports\nchevron_forward\ncards_star\nFlashcards\nchevron_forward\nquiz\nQuiz\nchevron_forward\nstacked_bar_chart\nInfographic\nchevron_forward\ntable_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser"
+    },
+    {
+      "text": "tablet\nSlide Deck\nchevron_forward"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "subscriptions\nVideo Overview\nchevron_forward"
+    },
+    {
+      "text": "subscriptions"
+    },
+    {
+      "text": "flowchart\nMind Map\nchevron_forward"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports\nchevron_forward"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "cards_star\nFlashcards\nchevron_forward"
+    },
+    {
+      "text": "cards_star"
+    },
+    {
+      "text": "quiz\nQuiz\nchevron_forward"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic\nchevron_forward"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "table_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "table_view"
+    },
+    {
+      "text": "audio_magic_eraser\n0.239 Radians Is The Shape Of Reality\n31:47 · Deep Dive · 9 sources · 206d ago\nwaving_hand\nplay_arrow\nmore_vert\nsubscriptions\nSAT: A Map to a New Physics?\n7:02 · Explainer · 8 sources · 245d ago\nplay_arrow\nmore_vert\ntablet\nGeometric Unification\n5 sources · 245d ago\nmore_vert\naudio_magic_eraser\nScalar Angular Torsion Physics Explained\n31:37 · Deep Dive · 5 sources · 245d ago\nwaving_hand\nplay_arrow\nmore_vert\nflowchart\nSAT Unified Physics Framework Taxonomy\n5 sources · 245d ago\nmore_vert\nsticky_note_2\nAdd note"
+    },
+    {
+      "text": "audio_magic_eraser\n0.239 Radians Is The Shape Of Reality\n31:47 · Deep Dive · 9 sources · 206d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\n0.239 Radians Is The Shape Of Reality\n31:47 · Deep Dive · 9 sources · 206d ago"
+    },
+    {
+      "text": "0.239 Radians Is The Shape Of Reality\n31:47 · Deep Dive · 9 sources · 206d ago"
+    },
+    {
+      "text": "0.239 Radians Is The Shape Of Reality"
+    },
+    {
+      "text": "31:47 · Deep Dive · 9 sources · 206d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "subscriptions\nSAT: A Map to a New Physics?\n7:02 · Explainer · 8 sources · 245d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "subscriptions\nSAT: A Map to a New Physics?\n7:02 · Explainer · 8 sources · 245d ago"
+    },
+    {
+      "text": "SAT: A Map to a New Physics?\n7:02 · Explainer · 8 sources · 245d ago"
+    },
+    {
+      "text": "SAT: A Map to a New Physics?"
+    },
+    {
+      "text": "7:02 · Explainer · 8 sources · 245d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "tablet\nGeometric Unification\n5 sources · 245d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nGeometric Unification\n5 sources · 245d ago"
+    },
+    {
+      "text": "Geometric Unification\n5 sources · 245d ago"
+    },
+    {
+      "text": "Geometric Unification"
+    },
+    {
+      "text": "5 sources · 245d ago"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar Angular Torsion Physics Explained\n31:37 · Deep Dive · 5 sources · 245d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_magic_eraser\nScalar Angular Torsion Physics Explained\n31:37 · Deep Dive · 5 sources · 245d ago"
+    },
+    {
+      "text": "Scalar Angular Torsion Physics Explained\n31:37 · Deep Dive · 5 sources · 245d ago"
+    },
+    {
+      "text": "Scalar Angular Torsion Physics Explained"
+    },
+    {
+      "text": "31:37 · Deep Dive · 5 sources · 245d ago"
+    },
+    {
+      "text": "flowchart\nSAT Unified Physics Framework Taxonomy\n5 sources · 245d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nSAT Unified Physics Framework Taxonomy\n5 sources · 245d ago"
+    },
+    {
+      "text": "SAT Unified Physics Framework Taxonomy\n5 sources · 245d ago"
+    },
+    {
+      "text": "SAT Unified Physics Framework Taxonomy"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-09-19T02:43:13.896Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    },
+    {
+      "at": "2026-09-19T02:43:25.033Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}
