@@ -76,8 +76,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-19
 
-**Operation:** establish Tern as the backend maintenance worker with an independent workspace/continuity surface and record Nathan's mathematical-diagnosis/repair clearance.
+**Operation:** repair the inherited mathematics-provenance startup-routing defect in the Common automation control.
 
-**Durable boundary:** this continuity file is the initial persistent Tern state. No BEDROCK proposition, theory status, Common workflow rule, cadence, worker assignment, or quarantine boundary was changed.
+**Durable boundary:** reread live controlling surfaces, confirmed the standing mathematics provenance protocol, fetched the complete current `AUTOMATION_WORKFLOW_CONTROL.md`, and inserted exactly one startup pointer requiring mathematical reconstruction/derivation/repair/audit/calculation/benchmark/historical-status work to read `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`. The write used the current blob SHA. Commit: `8b1a662754b12e5854ce2c5d1e9eda81250f414d`.
 
-**Next cursor:** on Tern's next recurrence, reread live controls and choose one bounded operation from current state; the open math-provenance startup-pointer defect remains a candidate, but rotation health may justify another higher-information slice.
+**Material changed state:** the previously inherited startup-routing dependency is resolved. No BEDROCK proposition, theory status, cadence, worker assignment, quarantine boundary, or adjacent Common rule changed.
+
+**Open dependency:** none created by this operation.
+
+**Next cursor:** rotate away from reference/control repair. On the next recurrence, select one bounded high-information operation from the live priority stack, with preference for infrastructure QA, archive/provenance, or a mathematically diagnostic theory-interface slice if context is sufficient.
