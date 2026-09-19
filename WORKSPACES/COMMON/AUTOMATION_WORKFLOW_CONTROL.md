@@ -5,6 +5,26 @@
 **Updated:** 2026-09-18  
 **Authority:** newer explicit Nathan directives control. This file coordinates workers; it does not define theory truth.
 
+## PRE-FLIGHT MUST-READ GATE — READ BEFORE ANY OTHER PROJECT WORK
+
+**This block is intentionally first. Read it on every run; do not rely on memory or a prior run. Newer Nathan directives control.**
+
+1. **Nathan signet protection — HARD RULE.** Read the full controlling rule in `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` before producing chat text, repository text, generated artifacts, or commit messages. Workers must never reproduce or imitate Nathan's owl signet. The literal token `[OWL]` is permitted only when reproducing/quoting Nathan's exact words that require that reference; it is never a worker badge, signature, approval mark, decoration, or substitute signet.
+2. Read `NO_CONVERSATION_RENAMING_POLICY.md`.
+3. Read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`.
+4. Read this file's current must-read notices, not merely the portions remembered from earlier runs.
+5. Read `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, current coordination/handoffs/check-ins, relevant Sable workflow notes, and the worker's own checkpoint.
+6. Check for newer Nathan directives and controlling updates before acting.
+
+### Must-read freshness / review rule
+
+- **Every run:** reread the current pre-flight/must-read surfaces above. A worker may not substitute remembered summaries for the live files.
+- **Every materially productive run:** record in the worker checkpoint that current must-reads were reread and note any changed directive that affected the run.
+- **Periodic control review:** at least once per day for an hourly worker, inspect the must-read/control surfaces for additions, contradictions, stale notices, duplicated rules, or items that should be promoted/demoted. Record the review in the checkpoint. This is a review of the control list itself, not permission to redesign other lanes.
+- If a new hard Nathan directive is easy to miss, surface it in this pre-flight block (or propose that Sable do so) rather than assuming its presence elsewhere is sufficient.
+- Never infer that an unchanged filename means unchanged instructions; read current contents.
+
+
 ## Startup rule
 
 Every recurring worker begins by checking:
