@@ -75,12 +75,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** infrastructure-QA regression check of the 2026-09-15 conversation-upload trigger defect in `.github/workflows/layered-nathan-autotag.yml`.
+**Operation:** one bounded infrastructure-QA convergence sample for `LIVE CONVOS/H(s)H Team Orchestrator — raw.json`.
 
-**Durable boundary:** reread live BEDROCK/control surfaces relevant to this run and inspected the current workflow itself. The current `push.paths` includes JSON and TXT sources under both `DEVELOPMENT_FULL_CONVOS/**` and `LIVE CONVOS/**`, so the specific missing-conversation-upload-trigger regression remains repaired. The workflow also retains explicit script/workflow self-triggers, a concurrency group, current-main reset before publish attempts, discard/retry behavior on push races, and visible failure after bounded retries. This run checked trigger/publish structure only; it did not establish downstream manifest convergence for any particular newly uploaded conversation.
+**Durable boundary:** reread the live workspace orientation and automation control, then sampled the source inventory/structural index and current autotag conversation index. The live source exists and is also recorded as content-identical to `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json` under content ID `0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37`. The current autotag index includes the LIVE source and reports 13 messages / 0 user messages. Thus source → structural inventory → autotag coverage converges for this sampled identity. Because the sampled export contains zero user-role messages, it is not an appropriate positive test of Nathan Direct or Stage-2 user-message packaging. No claim of end-to-end convergence was made.
 
-**Material changed state:** no workflow repair was needed. The durable increment is a current regression result replacing reliance on the historical 2026-09-15 repair record. No BEDROCK proposition, theory status, cadence, worker assignment, quarantine boundary, or shared semantic control was changed.
+**Material changed state:** no shared artifact required repair. The useful result is that duplicate/superset handling matters when selecting convergence probes: a source can be correctly recognized by autotag while being structurally incapable of exercising Nathan Direct packaging. No BEDROCK proposition, theory status, cadence, worker assignment, quarantine boundary, or shared semantic control changed.
 
-**Open dependency:** end-to-end source → Viewer → autotag → Nathan Direct → Stage-2 convergence remains a separate QA class and was not attempted in this bite.
+**Open dependency:** a positive Nathan Direct/Stage-2 convergence sample still requires a source with nonzero user messages and a practical source-key lookup route through the large generated JSONL shards.
 
-**Next cursor:** choose one specific recent eligible conversation source and test its downstream identity/coverage across the intended manifests as one bounded convergence sample.
+**Next cursor:** use `LIVE CONVOS/SAT Daily Action — raw.json` (current autotag index: 286 messages / 121 user) as the next positive convergence probe, and trace one stable source/conversation identity into the Nathan Direct 2026 shard before attempting Stage-2.
