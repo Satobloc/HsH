@@ -38,6 +38,16 @@ Useful retrieval terms include: `Q`, `inverse-Q`, `inverse Q`, `braid smoothing`
 
 This is a **watch/reconstruction priority**, not a declaration that any replacement rule has already been identified.
 
+### Q-symbol collision warning recovered from folder 18 — 2026-09-19
+
+Targeted read: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/RECONSTRUCTION18SEPT26.txt`.
+
+This reconstruction report uses the symbol `Q` for at least two explicitly different mathematical objects: Hagalaz/frame **relative rotation** (`Q_{ij}` and adjacent-state `Q_n`, with `Ω = Q'Q^{-1}`), and finite-core/readout **second-moment/covariance-like tensors** (`Q_obs`, `Q_core`, `Q_kernel`). These usages are not evidence for the separate historical **Q vs inverse-Q rule** Nathan has just flagged. Treat bare `Q` searches as collision-prone and require local typing/context before assigning a hit to the Q/inverse-Q smoothing/scaling lineage.
+
+The same report states that adjacent-state `Δφ_n` and frame `Q_n` are separately typed coordinates and argues that missing phase cannot simply be assumed to be hidden in frame rotation. This may become relevant to smoothing/scaling reconstruction, but the report is a reconstruction artifact rather than an authenticated Nathan-direct source and must not be used to settle the Q/inverse-Q problem.
+
+**Next cursor:** in folder-18 NLM/source-index material, search for *co-occurrence* of Q/inverse-Q with smoothing/scaling/bridge language rather than bare `Q`; recover underlying source identity before semantic promotion.
+
 ## New P0 — conversation-folder content index
 
 Nathan's 2026-09-19 directive prioritizes a **detailed content index of the exported conversation folders**, covering not only conversation exports but every other document/artifact in those folders. The index must track current ingest completion plus **explicitly tentative** value and priority assessments.
