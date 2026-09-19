@@ -5,27 +5,29 @@
 **Write model:** automation-owned checkpoint/handoff. Human-facing continuity state remains separately owned.  
 **History:** prior bounded-operation detail remains preserved in git history; this surface is kept compact as the current resumable state.
 
-## Current bounded operation — math-provenance control-surface routing check
+## Current bounded operation — Q/inverse-Q BEDROCK status intake
 
-This recurrence performed one bounded continuity/reference-lane diagnosis: assess the newest Nathan-authored LLM mathematics provenance/verification protocol against the current project startup/control routing.
+This recurrence performed one bounded theory-control repair: propagate Nathan's newest Q/inverse-Q clarification from the operational Nathan Direct surface into BEDROCK as an explicitly open/contested theory state.
 
 ### Durable boundary reached
 
-- Re-read current `BEDROCK.md` before theory-adjacent assessment; no BEDROCK proposition was changed.
-- Read the newest repository commit `84b9837e06089f09a36f2a6100d6811ab6ec4402`, which adds `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md` as a standing rule applying to SAT/H(s)H mathematical reconstruction, solver audits, derivations, numerical calculations, benchmarks, and historical claims.
-- The protocol separates conceptual provenance from calculation provenance and defines the LLM-math status vocabulary `CLAIMED`, `DISCLAIMED`, `CLAIMED VERIFIED`, and `MULTIPLY VERIFIED`, with status history preserved rather than overwritten.
-- Re-read current `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`. Its startup rule does not yet point workers to the new project-wide math-provenance protocol.
-- Classified the new document as a **methods/resources / mathematical-audit protocol with project-wide workflow relevance**, not a theory/BEDROCK authority surface. Its location under Meridian does not limit its stated applicability to Meridian.
-- No shared control surface was edited in this recurrence; this stops at the diagnosis/routing boundary rather than combining diagnosis with a second semantic write.
+- Read the newest Nathan Direct workflow update dated 2026-09-19 before theory work.
+- Re-read current `BEDROCK.md` immediately before the semantic write.
+- Added `OC-001 — Q versus inverse-Q / braid smoothing and scaling is unresolved` with **ND + OC** status.
+- Recorded the controlling proposition that neither Q nor inverse-Q is currently adequate and neither may be treated as the resolved/current rule.
+- Preserved the actual reconstruction target: recover why each was insufficient, what smoothing/scaling problem each addressed, what alternatives/bridges were attempted, and what later work superseded or constrained them.
+- Kept “holonomy bridge” exploratory/historical unless separately established and kept NotebookLM material in its wayfinding/reconstruction role subject to authorship/source-boundary checks.
+- No Q replacement rule, Ravel/Meridian result, NLM synthesis, or bridge mechanism was promoted.
+- BEDROCK repair commit: `851a4160cdede07e032ec45bb3b93831f30daa1f`.
 
 ### Purpose
 
-Prevent a newly recorded project-wide mathematical provenance discipline from remaining discoverable only through a specialist workspace, while avoiding the opposite error of treating verification-status vocabulary as theory authority.
+Prevent cleanly presented Q or inverse-Q material from being mistaken for current theory authority while preserving the unresolved smoothing/scaling problem as a high-priority reconstruction target.
 
 ### Open dependency
 
-A later bounded control-surface pass should decide the smallest durable project-wide pointer location. `AUTOMATION_WORKFLOW_CONTROL.md` is the obvious candidate because its startup rule already routes required cross-lane protocols, but any edit must use a fresh blob SHA and should add only one pointer rather than restructuring workflow.
+The source chronology and exact failure modes of Q, inverse-Q, smoothing/scaling, scale-transition, and bridge attempts remain to be reconstructed from primary/internal sources. That reconstruction is not performed in this recurrence.
 
 ### One continuation cursor
 
-On a later non-starving recurrence, add one explicit startup/control pointer to `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md` from the appropriate Common workflow surface, preserving its methods/audit lane and subordinate relationship to BEDROCK for theory authority.
+Rotate away from BEDROCK editing. On a later bounded archive/provenance pass, take one high-information Q/inverse-Q/smoothing source cluster and establish chronology/source-role only, without attempting to solve the whole reconstruction problem.
