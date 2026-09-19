@@ -58,7 +58,7 @@ Previously important premise or formulation no longer controlling current theory
 
 ---
 
-## 2. Bedrock register
+## 2. bedrock register
 
 Each proposition should be small enough to cite and update independently.
 
@@ -111,7 +111,21 @@ Each proposition should be small enough to cite and update independently.
 
 ---
 
-## 3. Tentative findings intake
+## 3. Open / contested register
+
+### OC-001 — Q versus inverse-Q / braid smoothing and scaling is unresolved
+
+- **Status:** ND + OC
+- **Scope:** SAT/H(s)H Q-rule, inverse-Q rule, braid smoothing, scaling, and scale-transition reconstruction
+- **Statement:** **Neither the Q rule nor the inverse-Q rule is currently adequate. Both are insufficient.** Do not treat either formulation as the resolved/current rule. The reconstruction target is to recover why each was insufficient, what smoothing/scaling problem each attempted to solve, what alternatives or bridges were attempted, and what later work superseded or constrained them.
+- **Source:** [`WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md`](WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md), Nathan-direct clarification dated 2026-09-19.
+- **Boundary:** Proposed devices such as a “holonomy bridge” remain historical/exploratory unless separately established; NotebookLM material is wayfinding/reconstruction evidence subject to authorship/source-boundary checks, not automatic theory authority.
+- **Next discriminator:** source-chronology reconstruction across Q, inverse-Q, braid-smoothing, scaling, scale-transition, and bridge attempts.
+- **Date/status note:** Nathan Direct, 2026-09-19; propagated to BEDROCK 2026-09-19.
+
+---
+
+## 4. Tentative findings intake
 
 This section is the landing zone for important theory-bearing results that may matter downstream but have **not** been promoted to working/foundational bedrock.
 
@@ -138,7 +152,7 @@ Use this template:
 
 ---
 
-## 4. Nathan Direct override / amendment intake
+## 5. Nathan Direct override / amendment intake
 
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
@@ -160,7 +174,7 @@ If a Nathan Direct statement conflicts with this register, **the newer Nathan Di
 
 ---
 
-## 5. Promotion / demotion discipline
+## 6. Promotion / demotion discipline
 
 Allowed state movements include:
 
@@ -177,7 +191,7 @@ A status movement should name **why** it occurred and link the source/test/direc
 
 ---
 
-## 6. Current high-priority source routing
+## 7. Current high-priority source routing
 
 ### Current state map
 
@@ -202,7 +216,7 @@ These links are intentionally status-separated from the foundational section. Th
 
 ---
 
-## 7. Resource-boundary reminder
+## 8. Resource-boundary reminder
 
 - **GLASS / historical SAT archive:** primary internal development/history and foundational record.
 - **HsH:** current public H(s)H working/archive environment and this control surface.
@@ -212,7 +226,7 @@ These links are intentionally status-separated from the foundational section. Th
 
 ---
 
-## 8. Maintenance rule
+## 9. Maintenance rule
 
 Keep this document **shorter than the theory it governs**. It is an indexed premise register, not a replacement synthesis.
 
