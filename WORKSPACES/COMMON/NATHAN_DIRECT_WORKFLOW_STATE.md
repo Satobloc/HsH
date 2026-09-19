@@ -46,7 +46,17 @@ This reconstruction report uses the symbol `Q` for at least two explicitly diffe
 
 The same report states that adjacent-state `Δφ_n` and frame `Q_n` are separately typed coordinates and argues that missing phase cannot simply be assumed to be hidden in frame rotation. This may become relevant to smoothing/scaling reconstruction, but the report is a reconstruction artifact rather than an authenticated Nathan-direct source and must not be used to settle the Q/inverse-Q problem.
 
-**Next cursor:** in folder-18 NLM/source-index material, search for *co-occurrence* of Q/inverse-Q with smoothing/scaling/bridge language rather than bare `Q`; recover underlying source identity before semantic promotion.
+### Steamroller provenance checkpoint — 2026-09-19
+
+Targeted full-blob read: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export (1).json` (capture `2026-09-18T18:55:58.660Z`, notebook id `6429e5c6-6b04-41e0-8d38-086fbf12cf95`).
+
+The export gives a useful **generated-claim chronology but not Nathan-authorship authentication**. Its NLM-generated equation megapack states a topological mass law `M = Q * m0 * B^f * S(Q,n)` with `S(Q,n)` labeled the **Braid-Smoothing Factor** and `Delta_bridge` labeled the **Holonomy Bridge**. Later generated material describes the bridge inconsistently: one presentation labels it approximately `8.2e-5`, while a later proton/electron derivation applies approximately `0.00609`. Still later, an NLM-generated prediction audit classifies inverse mass scaling `1/Q` as retracted and proportional `m ∝ Q` as current. Nathan's newer 2026-09-19 direct correction supersedes that generated binary resolution: **neither Q nor inverse-Q is sufficient**.
+
+Authorship caution is especially strong here. The exporter serializes NotebookLM UI strings and generated answers as `role=user`; therefore the role field is unusable by itself for Nathan Direct. Short conversational prompts that are structurally plausible Nathan turns remain candidates pending stronger authentication. The clearest directly relevant source-panel ancestry pointer is `Proton-Electron Mass Ratio — raw - .TXT`; exact-title GitHub code search across HsH and the original SAT archive did not locate it, so its underlying archive crosswalk remains unresolved rather than absent.
+
+The same NLM notebook contains an apparent Nathan correction candidate rejecting the 24-cell lattice until forced by geometry, followed immediately by NLM-generated agreement. Do not authenticate that candidate solely from `role=user`; recover its underlying raw conversation/source if possible. This matters because the generated Q/bridge derivations repeatedly depend on the 24-cell/HSUCV scaffold.
+
+**Next cursor:** locate/crosswalk the underlying `Proton-Electron Mass Ratio — raw - .TXT` or its source conversation by title/content/adjacency evidence; use that source to separate Nathan statements from assistant-originated Q, smoothing, and bridge machinery before making chronology/currentness claims.
 
 ## New P0 — conversation-folder content index
 
