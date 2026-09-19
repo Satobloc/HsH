@@ -50,9 +50,9 @@ Compare the base and `(1)` `SAT RIGOR` captures structurally; recover the short 
 ## Pair record — `H(s)H STEAMROLLER__NotebookLM_export.json` ↔ `(1)`
 
 **Type:** NotebookLM capture pair / failed-empty capture followed by populated recapture  
-**Ingest status:** STRUCTURAL PAIR CHECK COMPLETE; populated `(1)` body NOT semantically ingested  
-**Tentative value:** UNKNOWN semantically; HIGH provenance/tooling value as a clean exporter-capture-state example.  
-**Tentative priority:** MEDIUM for content ingest; LOW for further duplicate investigation because the structural relation is already clear.
+**Ingest status:** STRUCTURAL PAIR CHECK COMPLETE; populated `(1)` body TARGETED-READ for Q/smoothing/bridge lineage, NOT fully ingested  
+**Tentative value:** HIGH for Q/inverse-Q / braid-smoothing historical reconstruction; HIGH provenance/tooling value as a clean exporter-capture-state example.  
+**Tentative priority:** HIGH for source-ancestry recovery of the Q/smoothing/holonomy-bridge material; LOW for further duplicate investigation because the structural relation is already clear.
 
 ### Structural relationship
 
@@ -64,15 +64,60 @@ This pair should therefore **not** be described as two independent conversations
 
 ### Authorship caution
 
-The populated capture again demonstrates that `role=user` in these NotebookLM exports is not sufficient Nathan-authorship evidence: interface/status text is serialized under that role. No message from this pair is promoted to Nathan Direct in this structural pass.
+The populated capture again demonstrates that `role=user` in these NotebookLM exports is not sufficient Nathan-authorship evidence: interface/status text is serialized under that role. Short request-like turns can be candidate Nathan prompts, but promotion still requires structural/contextual authentication. NotebookLM-generated synthesis remains distinct from Nathan Direct.
+
+### Q / braid-smoothing / holonomy-bridge watch — targeted read 2026-09-19
+
+This populated export is a high-value **wayfinding source** for Nathan's newer warning that neither the historical Q rule nor inverse-Q rule is adequate.
+
+A NotebookLM-generated plain-text equation megapack (message index 23) explicitly presents a `Topological Mass Suppression Law`:
+
+- `m_eff = M(Q, m_0, B, S(Q, n), delta, n) * (1 + Delta_bridge)`;
+- `M(Q, m_0, B, S, delta, n) = Q * m_0 * B^f(Q, delta) * S(Q, n)`;
+- `S(Q,n)=B^(1-delta)`, labelled `The Braid-Smoothing Factor`;
+- `Delta_bridge ≈ 8.2×10^-5`, labelled `The Holonomy Bridge—a minor elastic modulus adjustment`;
+- `Q = sum_i W_i + L = 3A`, labelled integrated topological charge.
+
+This is **NotebookLM-generated synthesis, not Nathan Direct and not a current accepted rule**. It is especially important because it places braid smoothing, Q-dependent mass scaling, and a named holonomy bridge in the same reconstruction cluster Nathan specifically warned may contain insufficient rules and fudge attempts.
+
+The same export contains a later NotebookLM-generated five-"proof" layout (message index 25) that uses a different numerical bridge correction in its proton/electron mass-ratio narrative, describing an elastic/Holonomy Bridge correction around `0.00609`. A subsequent generated numerical-audit response (message index 27) again uses `δ≈0.00609`, while reporting a fitted/stabilized `B_stable`. These differing bridge values/formulations are themselves a reason **not** to treat `Holonomy Bridge` as a settled mechanism or constant without underlying-source chronology and derivation recovery.
+
+Most importantly, a later generated prediction audit (message index 63) calls `Inverse Mass Scaling (1/Q)` "retracted" and says a proportional mass law `m∝Q` replaced it. Under Nathan's newer 2026-09-19 directive, that generated audit is **also insufficient/currently superseded as a resolution claim**: neither Q nor inverse-Q is accepted as the answer. Preserve it as evidence of an intermediate reconstruction state, not as current doctrine.
+
+### Authenticated Nathan correction inside the same export
+
+The capture contains a short direct correction candidate at message index 46:
+
+> `No, the 24-cell lattice is not justified. We reject it until (and it probably will) it is forced by the geomery.`
+
+Its immediate generated response treats the 24-cell, fixed fusion gate, and fixed phase-snap machinery as demoted rather than primitive. This correction is strongly Nathan-like and structurally appears as a direct intervention between generated turns, but because the NotebookLM exporter serializes all visible turns as `role=user`, it should remain **candidate Nathan Direct pending source/conversation cross-authentication**, rather than being promoted solely from the role field.
+
+This matters to the Q/smoothing lineage because several generated Q/bridge formulas in the same notebook explicitly rely on the 24-cell/HSUCV lattice. Any reconstruction of those formulas must therefore track whether their supporting scaffold had already been rejected/demoted in Nathan's own chronology.
+
+### Source-ancestry clues exposed by the notebook
+
+The source panel names several potentially useful underlying artifacts, including:
+- `Proton-Electron Mass Ratio — raw - .TXT`;
+- `SAT theory clarification — raw - .TXT`;
+- `SAT ACTIVE EDGE vNext — raw - .TXT`;
+- `Freeze SAT Object Hierarchy — raw - .txt`;
+- `Ret--Jun1 SAT Z Review — raw - .TXT`;
+- `SAT_HSH_SYNTHESIS_STATE.md`;
+- `SATOBLOC-CALIBRATED.txt`;
+- `SATOBLOCK Full Theory & Predictions.txt`;
+- `SATxy CYCLETHROUGH4-4.txt`;
+- `TADA!` and `CORRECTION TO "TADA!" SOURCE GUIDE.`
+
+These are index-attested/source-panel names only at this stage. They are **not yet located/crosswalked underlying sources** for the Q/smoothing formulas. The next provenance step is to locate the most likely underlying source rather than treating the NotebookLM synthesis as a substitute.
 
 ### Next useful action
 
-When `H(s)H STEAMROLLER` becomes a semantic target, inspect the populated `(1)` capture and recover authenticated Nathan prompts/source ancestry. No further duplicate-disposition work is needed unless another capture of the same notebook ID appears.
+Crosswalk `Proton-Electron Mass Ratio — raw - .TXT` first, because it is the tightest source-panel candidate for the Q-dependent mass formula, braid-smoothing factor, and Holonomy Bridge. Recover exact source wording/authorship/chronology and determine whether Q, inverse-Q, smoothing, and bridge terms are Nathan-originated, assistant-originated, NLM reconstruction, or mixed. Do not adjudicate a replacement rule from this NLM export.
 
 ## Current frontier
 
-1. `SAT RIGOR` base ↔ `(1)` structural comparison and prompt recovery.
-2. `SAT EPISTEMOLOGY` and `Science Epistemology` targeted reads for overlap/source ancestry, without assuming title similarity means duplication.
-3. `NLM Source Lists` extraction as an archive-discovery crosswalk, preserving index-attested vs located-source vs unresolved-source status.
-4. Continue inventorying folder 18, including identifying other empty-base → populated-`(1)` capture pairs without generalizing from filename pattern alone.
+1. Crosswalk `Proton-Electron Mass Ratio — raw - .TXT` from `H(s)H STEAMROLLER` to its archived underlying source and recover the Q / inverse-Q / braid-smoothing / Holonomy-Bridge chronology.
+2. `SAT RIGOR` base ↔ `(1)` structural comparison and prompt recovery.
+3. `SAT EPISTEMOLOGY` and `Science Epistemology` targeted reads for overlap/source ancestry, without assuming title similarity means duplication.
+4. `NLM Source Lists` extraction as an archive-discovery crosswalk, preserving index-attested vs located-source vs unresolved-source status.
+5. Continue inventorying folder 18, including identifying other empty-base → populated-`(1)` capture pairs without generalizing from filename pattern alone.
