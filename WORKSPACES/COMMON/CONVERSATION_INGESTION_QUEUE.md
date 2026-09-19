@@ -6,9 +6,9 @@ Owner/coordinator: Sable systems lane, with Tag Conversation Corpus / Nathan Wor
 
 ## Immediate intake
 
-### DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18
+### DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18 and SAT_CONVOS_19+
 
-Nathan is actively uploading NotebookLM-derived material here. Treat this folder as an OPEN intake stream until uploads stabilize; do not assume the current file list is complete.
+Nathan is actively uploading NotebookLM-derived material here. Treat these folders as OPEN intake streams until uploads stabilize; do not assume the current file lists are complete.
 
 Immediate obligations:
 
@@ -27,11 +27,42 @@ Immediate obligations:
 
 NotebookLM provenance rule: preserve NotebookLM-generated/assistant text as NotebookLM-generated material. Do not relabel it as Nathan-authored content merely because Nathan uploaded the export or because it discusses SAT/H(s)H. Nathan Direct extraction requires explicit authorship support in the source representation.
 
+## NotebookLM chronology rule
+
+Do **not** equate missing standard JSON timestamps with undatable NotebookLM material.
+
+NotebookLM exports may contain usable chronological evidence in nonstandard locations or formats, including prose, copied source text, headers, titles, quoted conversation fragments, embedded date strings, notebook discussion, source citations, or other textual artifacts that the generic conversation-date parser does not recognize.
+
+For each NLM export, chronology recovery should therefore proceed in this order:
+
+1. explicit conversation/message timestamps if present in structured metadata;
+2. explicit dates/times embedded elsewhere in the export or source text;
+3. date-bearing references to the underlying ChatGPT conversation/source artifact;
+4. source-document chronology and cross-repo provenance;
+5. upload/commit chronology as a later bound;
+6. `captured_at` only as the NotebookLM export/capture event, **not** as the conversation start date.
+
+Record the timestamp source and confidence. Do not silently convert inferred dates into exact dates.
+
+### Expected NLM lag relative to ChatGPT
+
+Nathan's current guidance is that, **generally but not universally, NotebookLM discussion lags the corresponding ChatGPT theory-development conversations**. Treat this as a chronology prior / search heuristic, not a hard dating rule.
+
+Accordingly:
+
+- when an NLM notebook summarizes or interrogates a theory formulation, preferentially search earlier ChatGPT/GLASS material for the originating formulation;
+- do not assign priority or first-appearance status to the NLM discussion merely because its export is easier to locate;
+- distinguish an NLM **retrospective synthesis** from genuinely new theory development occurring inside NLM;
+- where NLM appears to introduce a new consequence, interpretation, correction, or hypothesis not found in the earlier source corpus, preserve it as a possible later development rather than forcing an earlier origin;
+- for the most important ideas, establish chronology from the underlying source chain rather than from the NLM capture date.
+
+This lag prior is especially useful for theory-history reconstruction but should not override explicit contrary timestamps or source evidence.
+
 ## Standing new-upload watch
 
 At every Project Systems recurrence, perform a lightweight delta check on `DEVELOPMENT_FULL_CONVOS/` and `LIVE CONVOS/` sufficient to notice newly appearing files or `SAT_CONVOS_N` folders since the last recorded state. This is a detection/checkpoint operation, not a requirement to process an arbitrarily large batch in one recurrence.
 
-When a new folder appears (including the expected `SAT_CONVOS_19` and later folders):
+When a new folder appears:
 
 - register it here or in the backend continuity checkpoint;
 - determine source/export family;
@@ -47,8 +78,9 @@ A folder is not `INGESTED` merely because its files are committed. Mark a bounde
 
 ## Current priority
 
-1. SAT_CONVOS_18 NotebookLM intake and source-format compatibility.
-2. Verify current automatic workflow convergence for newly uploaded folder-18 files, especially after the recent generated-artifact publish-race fixes.
-3. Maintain periodic detection for additional folder-18 files and the appearance of SAT_CONVOS_19+.
-4. Feed provenance-safe Nathan-authored material to Nathan Words / Nathan Direct only after source-format authorship checks.
-5. Have Mercer independently sample source-to-downstream coverage after material batches land.
+1. SAT_CONVOS_18 and SAT_CONVOS_19 NotebookLM intake and source-format compatibility.
+2. Recover nonstandard embedded chronology before classifying NLM exports as undated.
+3. Verify current automatic workflow convergence for newly uploaded NLM files.
+4. Maintain periodic detection for further additions to 18/19 and creation of SAT_CONVOS_20+.
+5. Feed provenance-safe Nathan-authored material to Nathan Words / Nathan Direct only after source-format authorship checks.
+6. Have Mercer independently sample source-to-downstream coverage after material batches land.
