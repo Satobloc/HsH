@@ -47,7 +47,7 @@ This roster was initialized from `ACTIVE_AUTOMATION_ROSTER.md` (snapshot 2026-09
 
 | Current working instance / lane | State of Reconstruction | Instance Enrichment | Notes |
 |---|---|---|---|
-| Tag Conversation Corpus | Not yet located | Not yet located | active recurring worker |
+| Loom / Tag Conversation Corpus | Not yet located | Not yet located | current corpus-tagging worker identity established 2026-09-19 at `WORKSPACES/LOOM/README.md`; Mercer Run 124 inventoried the complete top-level `WORKSPACES/LOOM/` listing (`README.md`, `CONTINUITY.md`, `CHECKPOINT.md`) with no dedicated report-family filename; this does not establish non-filing elsewhere/under another name |
 | Nathan Words Excavator | Not yet located | Not yet located | active recurring worker |
 | Meridian Solver Loop | Not yet located | Not yet located | active recurring worker; complete `WORKSPACES/MERIDIAN/` filename inventory checked by Mercer Run 117 with no obvious dedicated report-family filename; this does not establish non-filing elsewhere/under another name |
 | Tern / AUTOMATION — Project Systems | Not yet located | Not yet located | current backend project-systems worker identity established by Nathan Direct 2026-09-19 at `WORKSPACES/TERN/CONTINUITY.md`; the automation/task name is not a conversation identity. Earlier Mercer Run 118 inspected the former `WORKSPACES/SABLE/` backend location; that inventory does not establish Tern report status. |
