@@ -1,0 +1,708 @@
+{
+  "metadata": {
+    "notebook_title": "SAT 2026 BUILDBOX",
+    "notebook_id": "9c82535d-9834-4e38-b6ce-53c0d87f4728",
+    "notebook_url": "https://notebook.google.com/notebook/9c82535d-9834-4e38-b6ce-53c0d87f4728?authuser=1",
+    "captured_at": "2026-09-19T01:39:58.950Z",
+    "visible_source_count": 50,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 19
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Ok. Using our core corrections as our guideline… What needs to happen to bring SAT into its new 2026 resynthesis",
+      "citations": [],
+      "key": "c6e0277a"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "To bring Scalar-Angular Torsion (SAT) into its 2026 resynthesis—now frequently referred to as Holonomic Worldtube Geometry (HWG)—the theory must transition from a narrative-driven \"pocket TOE\" to a locked mathematical framework characterized by Failure Rigidity and a Zero-Parameter Economy\n1\nmore_horiz\n. This resynthesis is guided by several core corrections that refine its ontology, geometry, and metrology.\n1. Ontological Pivot: From Worldlines to Worldtube Complexes\nThe primary physical entity must be redefined. The 2026 synthesis moves away from the 1D \"filament\" or \"worldline\" abstraction toward a finite-core 4D superhelical worldtube architecture\n5\nmore_horiz\n.\nThe Particle as Intersection: A \"particle\" is no longer a primary object but a 3D intersection manifold (a localized geometric trace) formed as a 4D worldtube complex pierces the resolving Time Surface (Σ\nt\n\t​\n\n)\n6\nmore_horiz\n.\nPauli Event Horizons: The Pauli Exclusion Principle is re-parameterized as Event Horizon Asymptotics—an exclusion boundary in configuration space that prevents identical worldtube states from occupying the same effective mode\n10\nmore_horiz\n.\n2. Geometric Shift: Euclidean Bulk and Radial Expansion\nA critical 2026 correction identifies that the Universal Indicatrix (UI) is natively Euclidean (R\n4\n), not Lorentzian\n14\nmore_horiz\n.\nRadial Growth as Time: The temporal dimension is re-architected as a spherical growth vector rather than a linear axis\n17\nmore_horiz\n. Time emerges from the asymmetric expansion rates of the 4D manifold: ordinary spatial dimensions expand at H\n0\n\t​\n\n, while the \"time\" dimension expands at H\n0\n\t​\n\n+c\n8\nmore_horiz\n.\nLorentzian Emergence: Observed Lorentzian spacetime is an emergent projection resulting from this growth-rate asymmetry and the \"Flow Dominance\" of worldlines\n21\nmore_horiz\n.\n3. Force Taxonomy and Manifold Observables\nTo achieve \"mechanism minimality,\" the resynthesis demotes forces from independent \"gadgets\" to manifold observables of a single 4D structure\n24\nmore_horiz\n.\nStrong Force: Reinterpreted as Braid Rigidity—the geometric resistance of three-strand worldtube braids (baryons) to being untwisted or separated\n27\nmore_horiz\n.\nElectromagnetism: Modeled as a superfluid vortex response of the dimensional substrate; charged worldtubes stir the medium, creating quantized vortex/phase excitations\n27\nmore_horiz\n.\nGravity: Defined as the unsigned, coarse-grained residual strain of the substrate. It is the faint remainder after enormous chiral electromagnetic distortions cancel out in composite matter\n26\nmore_horiz\n.\n4. Metrological Closure: The Zero-Parameter Economy\nThe 2026 resynthesis enforces a \"Total Parameter Collapse,\" where all physical constants emerge as mandatory geometric invariants of the 24-cell HSUCV lattice\n2\nmore_horiz\n.\nDimensional Anchors: All SI units must be retrodicted from a single anchor (e.g., the Rydberg constant or Helium-3 transition frequency) that sets the Filament Scale (ℓ\nf\n\t​\n\n≈0.7937 fm)\n39\nmore_horiz\n.\nThe Projection Constant (B): The value B=3/4π≈0.2387 rad acts as a \"geometric notch\" or \"hinge\" for 4D-to-3D projection, regulating mass ratios and interaction strengths\n43\nmore_horiz\n.\nAudit Points: The theory must resolve current \"stripped gears,\" such as the 0.57% Factorization Gap in the proton-electron mass ratio and the Factor of 2 discrepancy between the nuclear and Planck-derived filament scales\n47\nmore_horiz\n.\n5. Empirical Confrontation: Hard Falsification Benchmarks\nThe framework matures into a \"locked mathematical theory\" only by committing to non-negotiable numerical targets\n1\n51\n.\nAchromatic Phase Snap: A rotating system reaching the critical velocity v\ncrit\n\t​\n\n≈0.2387c must exhibit a discrete 0.246 rad (14.1°) phase shift and an 80% luminosity drop (Geometric Blackout)\n30\nmore_horiz\n.\nDirac CP phase: Must be measured as exactly 270° (quarter-turn holonomy)\n43\nmore_horiz\n.\nHelium-4 Transition: Precision calorimetry must detect a shift of exactly 17 mK in transition widths\n56\nmore_horiz\n.\nUV Finiteness Lock: The discovery of any stable ground-state particle with a topological charge Q≥4 (e.g., a stable tetraquark) would fundamentally refute the model\n60\nmore_horiz\n.\n6. Methodological Hygiene\nFinally, the resynthesis requires a transition to a formal, peer-reviewed lexicon\n65\n. Internal jargon (like \"Zottenwelt\" or \"Temporons\") must be translated into the language of Hermitian geometry, foliation frame bundles, and effective field theory to be communicable to the broader physics community\n66\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "56",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "60",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "65",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "66",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "6ebe1162"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "The core corrections provide a different name for the 2026 resynthesis.",
+      "citations": [],
+      "key": "e2de0c20"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "According to the CORE CORRECTIONS established in your documentation, the internal terminology and formal name for the 2026 resynthesis is the H(s)H Minkowski Symplectic Coholonomy\nlock\n.\nThis name change is part of a specific directive to eliminate metaphorical terminology and \"physics poetry\" from the framework, replacing internal jargon with a more formal, peer-reviewed lexicon derived from established mathematical physics\nlock\nlock\n. The transition to this name emphasizes a move away from narrative-driven descriptions toward a more rigorous mathematical discipline\nlock\n.\nWhile earlier discussions frequently utilized the name Holonomic Worldtube Geometry (HWG) to describe the transition to finite-core worldtubes and holonomy-based quantization, the CORE CORRECTIONS specify that the H(s)H Minkowski Symplectic Coholonomy is the operative internal terminology for the current working synthesis\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "71e12d29"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Does this new terminology miss any of the key factors that make the 2026 resynthesis unique?",
+      "citations": [],
+      "key": "8bc239d6"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "The formal name for the 2026 resynthesis, the H(s)H Minkowski Symplectic Coholonomy, is specifically designed to eliminate \"physics poetry\" and metaphorical terminology (like \"Zottenwelt\" or \"loom\") in favor of a rigorous, peer-reviewed lexicon\nlock\nlock\n. Rather than missing the key factors that make the synthesis unique, this name mathematically encodes them into a single descriptor.\nHere is how the new terminology captures the unique drivers of the 2026 resynthesis:\n1. H(s)H: Higher-Order Superhelical Holonomy\nThe \"H(s)H\" prefix addresses the nth-order superhelical coiling that is the framework's primary dynamical variable\n1\n2\n.\nUnique Factor: It encodes the vibrational mode hierarchy where mass and particle identity are not arbitrary but are discrete coiling orders (N=1 for leptons, N=2 for baryons)\n3\n4\n.\nHolonomy: It signifies that quantization arises from phase-locking and holonomy closure within these nested coils, rather than through abstract operator quantization\n5\n6\n.\n2. Minkowski: Worldtube Realism\nWhile the resynthesis identifies the bulk manifold as natively Euclidean (R\n4\n), the term \"Minkowski\" is retained to represent the Minkowski worldline/worldtube formalism taken as literal physical structure\n7\n8\n.\nUnique Factor: It marks the ontological pivot from 1D worldlines to finite-core 4D superhelical worldtube complexes\nlock\n. This shift allows the theory to treat particles as 3D intersection manifolds formed as these tubes pierce the resolving Time Surface (Σ\nt\n\t​\n\n)\nlock\n.\n3. Symplectic: The (∬) Observable Map\nThe term \"Symplectic\" refers to the partitioning of field space into symplectic subspaces: the Infrared (F\n′\n) for observable 3D snapshots and the Ultraviolet (F\n′′\n) for 4D filamental histories\n9\n10\n.\nUnique Factor: This represents the BV pushforward mechanism, which acts as the \"projection engine\" to integrate out high-frequency ultraviolet coiling to produce the stable infrared observables we see in our 3D slice\n11\n12\n. It resolves the GR-QM conflict by treating them as different frequency windows of the same path integral\n13\n.\n4. Coholonomy: Lattice Closure and the Structural Snap\n\"Coholonomy\" refers to the holonomy-locked transitions and discrete symmetry requirements of the framework\n14\n.\nUnique Factor: it encapsulates the Failure Rigidity of the 24-cell HSUCV lattice, where stability requires the Achromatic Phase Snap (Φ ≈ 0.246 rad) to maintain metric continuity\nlock\n15\n. This is the mechanism behind the \"Structural Snap\" that freezes physical constants into a Zero-Parameter Economy\n16\n17\n.\nWhat the Terminology De-emphasizes (The Nuance)\nWhile the name is mathematically complete, it deliberately moves away from the visual-mechanical imagery that some might consider essential to the theory's uniqueness:\nRadial Growth as Time: The clinical name doesn't immediately evoke the Radial World Manifold architecture, where time is re-architected as a spherical expansion vector (H\n0\n\t​\n\n+c) rather than a linear axis\n18\nlock\n.\nVortex Dynamics: The transition demotes electromagnetism to a superfluid vortex response of the substrate\nlock\n19\n. While \"symplectic\" describes the phase space of these interactions, it strips away the Kelvin-like mechanical imagery of worldtubes \"stirring\" the dimensional medium\n20\n21\n.\nMechanism Minimality: The formal name masks the \"mechanism purge\" intended to reduce all forces to manifold observables (e.g., gravity as unsigned residual strain)\nlock\n22\n.\nIn summary, the terminology H(s)H Minkowski Symplectic Coholonomy does not miss the unique factors; it compresses them into a formal mathematical grammar\nlock\n11\n. It trades the evocative \"shaggy\" villagers of the Zottenwelt for the rigorous language of foliation frame bundles and effective field theory\nlock\n23\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "2a5afbe6"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Explain time in this view",
+      "citations": [],
+      "key": "1913779a"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "In the 2026 resynthesis—formally titled the H(s)H Minkowski Symplectic Coholonomy—time is re-architected from a linear coordinate into a dynamic radial expansion parameter\n1\nmore_horiz\n. In this framework, the universe is not a static 4D block but a Radial World Manifold where the temporal dimension is distinguished solely by its differential growth rate within a natively Euclidean (R\n4\n) bulk\n4\nmore_horiz\n.\n1. The Radial Pivot: Time as Spherical Growth\nIn this view, the \"future\" is the outward radial vector of an expanding hypersphere (S\n3\n), while the \"past\" is the inward direction toward the manifold origin\n7\nmore_horiz\n. Time is defined as the radial thickness-growth of the universal shell\n10\n.\nEuclidean Substrate: The underlying geometry has a (+,+,+,+) signature; the observed Lorentzian signature (−,+,+,+) is not fundamental but emerges from the asymmetry of the expansion rates\n6\nmore_horiz\n.\nExpansion Rates: The three ordinary spatial dimensions expand at the Hubble rate (H\n0\n\t​\n\n), while the fourth dimension (which we perceive as time) expands at H\n0\n\t​\n\n+c\n4\nmore_horiz\n.\n2. The Velocity Gap and the \"Universal Shell\"\nThe \"speed of light\" (c) is reinterpreted as the radial displacement divergence between two expansion regimes\n2\n14\n.\nLight-Front: Massless excitations (photons, neutrinos) \"ride\" the faster expansion branch (H\n0\n\t​\n\n+c), allowing them to propagate as an expanding sphere at constant velocity c relative to the matter frame\n2\nmore_horiz\n.\nMatter-Frame: Fermionic matter is \"entrained\" or \"snags\" on the slower spatial triad (H\n0\n\t​\n\n) due to its complex superhelical coiling\n2\nmore_horiz\n.\nThe Observable Slice: Our 3D universe is re-conceptualized as the outer shell or gap between these two expansion fronts\n15\nmore_horiz\n.\n3. Time as a Resolving Wavefront (Σ\nt\n\t​\n\n)\nPhysical reality is modeled as a 3D topological wavefront, the Time Surface (Σ\nt\n\t​\n\n), sweeping through a static 4D network of worldlines (the Zottenwelt)\n20\nmore_horiz\n.\nMotion as Playback: What we perceive as \"motion\" is the sequential intersection of the advancing Σ\nt\n\t​\n\n wavefront with the stationary 4D filaments\n23\nmore_horiz\n.\nThe \"Now\" Condition: A particle only \"obtains\" reality at the specific locus where a worldline pierces the advancing time surface\n20\nmore_horiz\n.\nProperty Emergence: Properties such as mass, spin, and charge do not exist at a point-instant but emerge from the integrated helical history of the worldline as it is \"resolved\" by the expanding front\n22\nmore_horiz\n.\n4. Quantized Progression: The \"Quantum Clicks\"\nTemporal flow is not a smooth continuum but a staccato progression of discrete mechanical events\n29\nmore_horiz\n.\nThe Click-Rate: Time \"clicks\" as the resolving surface sweeps across individual superhelical loops of the worldline ensemble\n31\n32\n.\nHolonomy Locking: A clock is essentially a device that counts these stable holonomy cycles\n33\n34\n.\nFailure Rigidity: When a rotating system reaches a critical velocity (v\ncrit\n\t​\n\n≈0.2387c), the geometry enforces a discrete Achromatic Phase Snap (Φ≈0.246 rad) to maintain metric continuity, manifesting macroscopically as events like pulsar glitches\n35\nmore_horiz\n.\n5. Relativistic Emergence: Dilation as \"Trailing\"\nIn this architecture, relativistic effects are re-parameterized as the geometric consequences of a worldline's Misalignment Angle (θ\n4\n\t​\n\n) relative to the expansion normal\n39\nmore_horiz\n.\nTime Dilation: When a worldline \"tilts\" (spatial motion), it can no longer keep up perfectly with the time-normal expansion. It begins to \"trail\" the wavefront, causing it to \"sink\" relative to the present moment, which 3D observers measure as time dilation\n39\n41\n.\nMass as Drag: This trailing creates Projective Resistance (R)—the mechanical drag a 4D radial sector exerts against the resolving wavefront—which is the true geometric origin of inertia and mass\n2\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "ec5ec572"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}

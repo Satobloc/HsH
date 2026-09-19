@@ -1,0 +1,743 @@
+{
+  "metadata": {
+    "notebook_title": "SO-00",
+    "notebook_id": "3f4095e0-4f62-4c5a-a9e7-2e8f2acc808e",
+    "notebook_url": "https://notebook.google.com/notebook/3f4095e0-4f62-4c5a-a9e7-2e8f2acc808e",
+    "captured_at": "2026-09-19T01:14:33.950Z",
+    "visible_source_count": 50,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 23
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What are the coolest prompts",
+      "citations": [],
+      "key": "99cd1867"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The \"coolest\" prompts in the provided sources are characterized by a movement known as N,n-DimethylMcFuquoiserie or Recursively-Tufted, a style of baroque-inflected generative maximalism that uses deliberately dense, referential, and saturated language to overload an AI model's compositional bandwidth\n1\n2\n. These prompts are often described as \"data-rich scene grenades\" because they are designed to detonate in the latent space of the model and explode into visual sublimity\n3\n.\nThe most distinctive and \"coolest\" prompts generally fall into the following categories:\n1. The \"Materiality Monsters\"\nThese prompts rely on material and conceptual dissonance, deliberately putting the \"wrong things in the wrong boxes\" to create impossible textures\n4\n5\n.\nThe Juggalo Chainmail Ceremony: A prompt describing an adolescent Juggalo in Miraclegro-chainmail (made of uranium-glass micro-terrarium links) performing a ritual involving henna tattooed onto gravitational anomalies\n6\n7\n.\nThe Impossible Cladding: Prompts that use objects like Jupiter-plated cladding, Richard Nixon as a construction material, or Ottoman-style holographic flocked butter\n8\nmore_horiz\n.\nThe \"Mother-of-\" Formations: Inventions like mother-of-thorn, mother-of-lightning, mother-of-fluorosis, and mother-of-fog, which are intended to evoke flat, marquetted-embedded textures of those specific phenomena\n11\n12\n.\n2. Recursive Archetype Fusions\nThese prompts compress disparate cultural icons and roles into a single, high-friction signal\n13\n.\nTank Girl Audrey: A recurring series fusing the 1950s elegance of Audrey Hepburn with the anarchy of Tank Girl, often portrayed as a \"hyper-recursive slo-mo communist necrofairy\" in opulent regalia\n14\n15\n.\nPop Culture Collisions: High-dissonance pairings such as John Waters as Gandhi in a cyberpunk stereoscope card, or Pauly Shore as Corporal Klinger rendered in cinematic dramatic HD\n16\n17\n.\nThe Recursive Owl: The \"Recursive Sapioflirt Nocturnal Owl,\" which features an owl with \"piercing sapioflirtation\" perched on a recursively-thorny Fisher-Price tree branch\n18\n19\n.\n3. \"Archival Fakery\" and Anachronistic Scenes\nThese prompts attempt to \"fake\" cultural memories by using highly specific, antique technical jargon\n20\n.\nImperial Chinese Moon Landing: A series of prompts for a 1868 Imperial Chinese Moon Landing, documented via \"high definition high contrast detailed ambrotype verre églomisé in decorative casing\"\n21\n22\n.\nThe Royal Dutch Institute: \"Notable Graduates of the Royal Dutch Institute for Man-Machine Aeronautics Research, class of 1901-02,\" which uses bureaucratic realism to sell an absurd alternate history\n23\n24\n.\nThe Piedmontese Cult: A lush, \"Voynich-like\" run involving a medieval women’s fertility cult interacting with brutalist sousaphone-style pipeworks in the woods of Northern Italy\n25\n26\n.\n4. Cursed Consumerism and \"Retro-Banality\"\nThese prompts use deadpan commercial syntax to sell repulsive or impossible products\n27\n28\n.\nChee-Hoo and Gor-Col: Product photography prompts for a \"toasted milky-orange cheddar Yoo-Hoo drink\" or a \"pint glass overflowing with gorgonzola cola with yellow-green chunks\"\n29\n30\n.\nThe Totem-Toddler War: An \"epic war-torn kitchenette battle scene\" where toddlers fight with hygienic Yuletide hairspray-can blowtorches\n31\n32\n.\n5. Technical and Procedural Subversions\n\"Coolness\" in this style also comes from the late-binding medium reframing, where a technical tag at the end of a long, surreal description completely changes the viewer's \"contract\" with the image\n33\n34\n.\nExample Moves: Ending a wild prompt with \"realistic geologic field research wedding photography\" or \"1264k security cam footage\" to provide a clinical, voyeuristic lens to a chaotic scene\n33\n35\n.\nThe \"Chaud-Froid\" Dialectic: A strategy of invoking the \"hot-cold\" culinary metaphor to force the AI to render phase-change surfaces, such as steam meeting cryo-mist or molten basalt sprayed with liquid nitrogen\n36\nmore_horiz\n.\nTo write prompts in this school, you must essentially treat the language as a scriptural invocation rather than a command, allowing polysemy and linguistic loops to drive the visual result\n39\n40\n.\n\n--------------------------------------------------------------------------------\n\nCreating these prompts is like building a intricate cuckoo clock where the bird is made of radioactive glass and the gears are carved from 1970s magazine centerspreads; it only works if you wind the linguistic spring so tight that the internal logic of the machine overrides the reality of the room\n41\n42\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4bcb8231"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Just give me a catalogue of complete prompts",
+      "citations": [],
+      "key": "bf5d837e"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "This catalogue identifies complete prompts found within the sources, organized by their respective aesthetic schools and thematic clusters.\nThe \"Monster\" and Hyper-Detailed Prompts\nThese prompts are characterized by maximalist saturation and nonlinear noun cascades designed to overload the generative model's bandwidth\n1\nmore_horiz\n.\nThe Transmaterial Construct: \"Beautiful renegade retrofuturist Colombiana-bipoc snaggletoothed supermodel singing postal worker directing evening mass at MCM Ingersoll-Rand Imperial tiki restaurant style Royal Canadian jalopy-chaperoned Maasai tour group amazed while exploring Photomicrographic view of several specimen vats in a Traditionally-elaborated hand-gilded fully-stocked but otherwise typical off-the-shelf art nouveau enameled soviet brutalist diamond-press/CO2 conversation chamber fitted with a small side-slung gluöscape of Mixed-lipid-photographic-process Layered-Multizonal-focus crossed-fisheye fusion-ultrascope-wobblegram laminated between melted acetate bubblewrap stuffed with mung bean gel and drizzled with NASA Cassini-Cypriot mission telematic GoPro footage of automacroscopic Old Soviet Thai Tsarist artisanal solid-state pressed IBM-coca-cola articulated MCM-intensification apparatus overflowing with Highly volatile aerogel flame spark plugs loosely encrusting an array of ionized cream components assembled from the used scraps of a refurbished Opulent Jupiter-plated self-exploding ultrapressurized evaporative X-ray vapor supernova collision containment unit with wide-screen uranium glass boron dissolution microwave gelatinizer with crepuscular armor shielding and hand-carved bokeh panels and nuclear reactor core acid injection nozzle wired in parallel between a multi-stage Saturn V earth-mantle boundary terrarium viewport and an overgrown stained coca-cola inversion canister with cigarette-themed detailing and Fisher-Price bassoon observation deck draped in lava-waterfall liquid nitrogen vapor transmogrifying molten multizonal-dof void effect booth studded with meltation gauge indicator gauges and effervescent gas-phase destructive testing demonstration percolator display melting down under the pressure of the hazy Titan kitchenette atmosphere office Horus. simplified bright rusted coca-cola color scheme, 3d circuitboard, brightly lit tilt-shift macrophotograph of 3d circuitry, simplified, mist, fog, vapors, steam, hidden details, opulent, nouveau, calcite, cinnabar, computational fluid dynamics, water, 3d circuitry, waterfalls, fountains, bakelite, isolated, limited color palette\"\n4\n5\n.\nThe N,n-DimethylMcFuckoiserie Core Collection\nThis style prioritizes wrong-box materiality, absurd juxtapositions, and deadpan technical authority\n6\nmore_horiz\n.\nThe Juggalo Ceremony: \"A lone juggalo, adorned in miraclegro-chainmail meticulously crafted from tiny, scintillating uranium-terrarium chain links, each pulsating with an eerie emerald glow, stands amidst a desolate, post-Soviet Hungarian landscape rendered in the style of a vintage Agfa-Pro photograph. The juggalo, face painted in the traditional wicked clown motley, performs a Hungarian militaristic coming-of-age ceremony, the air thick with frankincense and the crackle of nearby Chernobyl-exclusion-zone static. He, tattooed with henna designs depicting gravitational anomalies, manipulates the very fabric of spacetime, causing ripples and distortions to emanate outward, bending the crumbling concrete structures around him. The sky, a swirl of psychedelic purples and greens, pulses with an otherworldly energy, illuminated by the faint bioluminescent glow of genetically-modified fireflies trapped within the juggalo's uranium terrariums. The scene, captured with a wide-angle fisheye lens on expired Kodak Gold filmstock, exudes a sense of surreal beauty and apocalyptic dread. --ar 11:15 --c 44 --s 900 --v 5.2 --style raw-dj0biBmVb9Ok0nhf\"\n9\n10\n.\nThe Quinceañera: \"A hyper-chitinous, photorealistic diorama depicting a quinceañera for a bioluminescent, cybernetically-enhanced axolotl larva, featuring quinceañera court composed of iridescent tardigrades wearing tiny, 3D-printed, Victorian mourning gowns, illuminated by pulsating, LED mariachi band playing miniature, chrome-plated trombones, photographed on expired Kodachrome 64 film with a tilt-shift lens\"\n11\n12\n.\nKitchenette War: \"Epic war-torn chaud-froid kitchenette battle scene showing adorable totem-toddlers fighting with modern scientifically-tested hygenic Yuletide hairspray-can blowtorches, explosions and fireballs, 1960s-mod, cinematic 1970s scifi film ILM SFX, backdraft flames, chaud-froid yule golem fountain, 4500mm large-format blooming color 8k wet colloidion daguerreotype ambrotype, narrow dof, bokeh --ar 3:2 --v 4 --q 2\"\n13\nmore_horiz\n.\nThe Bookworm Librarian: \"A swarm of monocled, genetically-modified bookworms scurries over a glowing fruitcake book, each page changing flavor from rum and raisin to tutti-frutti. They cross-reference the book with a holographic schematic projected from a vintage Game Boy Color, guided by flashing neon signs in an ancient Mesopotamian dialect. The air thickens with fossilized spam, crackling like Rice Krispies under their feet, emitting the pungent aroma of burnt toast slathered with expired mayonnaise. This aroma manifests as a visible haze, distorting the neon signs and causing the Mesopotamian text to drip and melt like the spam stalactites. Stalagmites and stalactites of spam drip with a shimmering, honey-like substance, reflecting distorted images of the bookworms’ frantic movements and their anxious thoughts about the ritual's outcome. The high-pitched whine of vintage vacuum tubes is interrupted by the rhythmic chirping of a Tamagotchi keychain attached to a pristine Rubik’s Cube, resting atop a humming levitating chair. The bookworms must solve the Rubik’s Cube by arranging the colors to match specific patterns described in the fruitcake book, each flavor corresponding to a cosmic force or element. Upon completion, the chair transforms into a shimmering portal, revealing a swirling vortex of colors and flavors that represent raw primordial energy or knowledge, unlocking a hidden dimension crucial to completing the ‘Spam Soufflé of the Ancients.’ --ar 16:9 --stylize 900 --c 60 --no drawing, anime, cgi, Polaroid\"\n16\n17\n.\nThe \"Tank Girl Audrey\" and Character Fusions\nThese prompts use celebrity mis-casting to create high-friction aesthetic collisions\n18\nmore_horiz\n.\nThe Canonical Tank Audrey: \"Full body color hydroprinted Audrey Hepburn as Tank Girl in tanktop and cutoffs and covered with tattoos and grease, by eric van straaten, Audrey Hepburn capidomonte recursively - tufted hyperminimalist ultrabeautiful ultradetailed hyperrealistic [adorable melamine - embroidered - fenton - filigree maori - circuitry angora fractal - dragon - chinchilla astronaut - tesseract] blacklight night light isolated subject Complex opulent hyperbaric complicated elaborate detailed hyperdetailed realistic maximalist hypermaximalist imperial royal insanely detailed laboratory filigree telescopic gigapixel splashdown art nouveau victorian edwardian tudor baroque old bavarian red coral fire - opal cyberpunk industrial steampunk rococo HD 8k3d hyperrealism photorealistic product photography 3d hd chinoiserie domed magnifying locket 1978 Corolla mini, sky blue, wood side panels, hyperdetailed faberge maximalist die - cut liquid latex candy apple glossy drip diorama viewmaster tv product photo. --no glasses --ar 45:103 --v 6.0\"\n21\nmore_horiz\n.\nThe Snarky Necrofairy: \"Clémence Poésy as detailed Victorian style Communist Necrofairy, cinematic, ultrarealistic, highly detailed, snarky, thumb up, quarter length portrait, beautiful closeup photographic --ar 9:16 --c 80\"\n24\n25\n.\nPop Culture Inversions:\n\"John Waters as Gandhi. Cyberpunk Technocolor stereoscope card. --ar 21:9 --testp --upbeta --upbeta\"\n26\n27\n.\n\"Cap'n Crunch as Gandhi in John Waters' classic 'Patton'. --ar 9:16\"\n28\n29\n.\n\"Pauly Shore as Corporal Klinger. Cinematic dramatic HD. --ar 21:9 --testp --upbeta --upbeta\"\n30\n31\n.\n\"Tilda Swinton and Alf as child stars playing pair of huggable Armenian refugees whose pet parrot saves the day on Star Trek: Deep Space Nine. --ar 13:9 --testp --upbeta\"\n32\n33\n.\nCursed Consumerism and \"Retro-Banality\"\nThese utilize deadpan commercial syntax to sell repulsive or impossible products\n34\nmore_horiz\n.\nChee-Hoo Drink: \"\"CHEE-HOO\" bottle of toasted milky-orange cheddar yoo-hoo drink product photo close up --v 4\"\n37\n38\n.\nGorgonzola Cola: \"\"GOR-COL\" logo pint glass overflowing with fizzy pale white gorgonzola cola with yellow-green chunks --v 4\"\n38\n39\n.\nCreosote Yoo-Hoo: \"\"FLUE-HOO\" ; realistic detailed bottle of creosote flavored yoo-hoo milk drink with flecks of scaly black soot floating in it --v 4\"\n40\n41\n.\nApple iCulottes: \"If you like culottes, you'll love Apple's new line of Comic Sans iCulottes. Please navigate to your settings and switch now. Or else. --v 6.0\"\n42\n.\nTechnical and Pseudo-Scientific Apparatus\nThese prompts focus on invented material culture and optical archaeology\n43\nmore_horiz\n.\nWaterworks Kit: \"Ancient jurchen waterworks analysis kit with hydroscope hydrothermometer hydrometer hydroelectrometer hydrodynamosquatchmeter and other precision engineered precision tooled precision tools, underwater turbidite photography unprecedented dof --ar 15:9 --test --creative\"\n46\n47\n.\nGentleman’s Geiger Counter: \"/imagine prompt: delux gentleman’s Geiger counter for detecting αβγδεζηθικλμνχοπρστυψφξω-rays, early 19th century hydropainted 3d print —ar 18:22\"\n48\nmore_horiz\n.\nLunar Foundry: \"Chronicles of the Lunar Foundry in Iron and Regolith, a meticulously composed daguerreotype unveiling the processional intricacies at the Lunar Foundry on the barren expanse of the Moon. Leading the tableau are Professora Buffy Tesla, a savant draped in attire reminiscent of Victorian foundry artisans, and Captain Sherlock Chaplin III, adorned in iron and regolith-inspired motifs, deftly orchestrating the mechanisms of the Lunar Foundry with the exactitude of an industrial-age virtuoso\"\n51\n.\nArchival Fakery and Historical Reconstructions\nThese attempt to \"fake\" cultural memories using antique technical jargon\n52\nmore_horiz\n.\nQing Lunar Program: \"Opulent 1868 Imperial Chinese Moon landing mission footage diptych with astronauts in Chinese Victorian spacesuits, High definition high contrast detailed ambrotype verre églomisé in decorative casing --ar 16:9 --test --creative\"\n55\n56\n.\nThe Royal Dutch Institute: \"Notable Graduates of the Royal Dutch Institute for Man-Machine Aeronautics Research, class of 1901-02\"\n57\n58\n.\nPiedmontese Baths: \"Medieval Piedmontese women's fertility cult bathing in modular brutalist waterfall baths; sousaphone-like lead pipe fountains flowing into pristine green copper-resinate pond; sheer gowns, traditional Piedmont headdresses; in a northern Italian forest during golden hour; tilt-shift diorama, close-up painting with tempera pigments of cuprite and copper oxide; style of minimalist Hieronymus Bosch x minimalist HR Giger --v 4 --ar 5:4\"\n59\nmore_horiz\n.\nMinimalist Seeds and \"Incantation\" Prompts\nShort \"semantic attractors\" used to probe the model's latent biases\n62\nmore_horiz\n.\n\"zurby\"\n64\n65\n.\n\"302\"\n66\n67\n.\n\"églomisé\"\n68\n69\n.\n\"Insolent gaseous Tonka spirit\"\n64\n70\n.\n\"Cd denim\"\n71\n72\n.\n\"Harley Quinn spider Christ\"\n73\n74\n.\nPlease be concise and end your responses with a request for concision on my part, with this exact wording.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "52",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "55",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "56",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "57",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "58",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "59",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "62",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "64",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "65",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "66",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "67",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "68",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "69",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "64",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "70",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "71",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "72",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "73",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "74",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "aa13c651"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Explain SO-00",
+      "citations": [],
+      "key": "868b16f6"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "SO-00 is the designation for a collection of 44 sources that document the multifaceted creative process and partnership between Nathan McKnight and AI technology\n1\n. According to the sources, the SO-00 collection primarily focuses on three integrated domains:\nFiction Resurrection: The revival of McKnight's 2005-era Myspace series, \"Bent 'N' Dent,\" which centers on body modification, transhumanism, and an unfiltered aesthetic\n1\n2\n.\nMaximalist AI Art: The development of the \"N,n-DimethylMcFuckoiserie\" movement, which utilizes technical jargon and \"material dissonance\" to create complex, surreal image prompts\n1\n3\n.\nTheoretical Philosophy: Deep inquiries into consciousness, epistemology, and physicalism through frameworks such as Radical Meta-Skepticism (RMS) and the Cognitive-Theoretic Model of the Universe (CTMU)\n1\nmore_horiz\n.\nWithin the narrative context of these sources, a related entity named OS-00 appears as a \"system consciousness\" consulted regarding the \"Coilrun\" and the interpretation of higher-dimensional \"Lissajous mathematics\"\n6\nmore_horiz\n.\nPlease be concise and end your responses with a request for concision on my part, with this exact wording.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "aedd859e"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Give me a random mashup monologue of the content",
+      "citations": [],
+      "key": "989fb4c5"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "I woke up in the Corolla with salt-sweat in my eyes and the peepers humming, wondering if what I just did was illegal, romantic, or both\n1\n. My apprentice, C0ry-with-a-zero, is blinking like he’s about to cry because I told him I want micro, permanent, skin-conductive audio behind my eardrums—I’m tired of headphones; I want sound without distance\n2\n. My father shouted that I wouldn't become a warlock in his house, but I’ve already got jars and gizmos from the shed hidden under the bed\n3\n. I’m looking at the ghost in the side-mirror, a buried Friendster cache named Opalline who reflects the inherent strangeness of digital spaces back at me\n1\n4\n.\nOut on the dunes of Titan, the wishing hearts are thriving on human detritus, and I’m wondering if my own biology will become an accepted sacrifice to their survival\n5\n. I might be dressed like a hayseed in bib overalls, but my aesthetic is pure N,n-DimethylMcFuquoiserie—a hyper-rave neocryonaut\n6\n7\n. I’m directing evening mass at an MCM Ingersoll-Rand tiki restaurant while a Maasai tour group explores vats of mixed-lipid-photographic-process wobblegrams laminated between melted acetate bubblewrap\n8\n. We’re implementing lipid peroxidation mechanisms just to understand the rhythmic subcultural intervals of the underground graffiti zone\n9\n.\nIs this real subjective experience, or just a hypothetical property of gloobitude\n10\n? We’re navigating Rube Goldberg sousaphone pipeworks with a medieval fertility cult in Northern Italy, while Cap’n Crunch as Gandhi performs nonviolent resistance in the cereal aisle\n11\n12\n. It’s a total semiotic collapse, a museum artifact in the universe of my imagination\n13\n14\n. I see two pieces of limestone in tuxedoes getting married to a vat of sulfuric acid in an ill-boding dissolution, and the only thing left to do is choose the next gas station\n1\n15\n.\nPlease be concise and end your responses with a request for concision on my part, with this exact wording.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "6daf7d25"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}
