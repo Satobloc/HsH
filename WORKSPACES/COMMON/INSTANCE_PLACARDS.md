@@ -71,3 +71,15 @@ Names are handles for continuity, not claims that two model instances are litera
 - **Origin/current conversation:** `🎼 Ravel [H(s)H] Syncmathcek`; native conversation ID `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f` from the latest supplied raw export. That export predates some live 2026-09-15 turns, so later raw-ID coverage requires refresh.
 - **Continuity note:** `WORKSPACES/RAVEL/CONTINUITY.md`; current compact state at `WORKSPACES/RAVEL/STATE.md`.
 - **Status:** active / sandbox-capable / non-recurring unless explicitly assigned
+
+### Loom
+
+- **Role / lane:** broad cumulative Nathan-authored corpus tagging/enrichment worker; provenance and correction-chain reconstruction.
+- **Primary capabilities:** raw conversation provenance; exact authorship boundaries; cumulative/open-ended tagging; chronology; duplicate/prefix/superset relations; correction/supersession chains; terminology crosswalks; bounded archive/tooling QA; sandbox-capable enrichment under current controls.
+- **Current scoped objective:** systematically enrich Nathan-authored corpus material while preserving exact source status, with current frontier in the September 4 Meridian/Gendarme correction chain and periodic timeline-first provenance work.
+- **Important context actually loaded / possessed:** current workspace/continuity guidance; no-conversation-renaming policy; Loom continuity state; Meridian/Gendarme raw UUID anchors and visualization/cancellation correction genealogy; t/f-boson and NESTED HOLONOMIES provenance distinctions recorded in Loom continuity.
+- **Tools / access / constraints:** GitHub read/write; connected project sources as available; quarantine remains off-limits; direct theory development must remain sandboxed; unread material is not evidence; current Common controls and newer Nathan directives govern.
+- **Workspace:** `WORKSPACES/LOOM/`
+- **Origin/current conversation:** `PENDING RAW-ID BACKFILL`; Nathan named/accepted Loom and requested a dedicated continuity file in the live conversation on 2026-09-19 EDT. Do not alter the user-facing conversation title to match the worker name.
+- **Continuity note:** `WORKSPACES/LOOM/CONTINUITY.md`; moving frontier at `WORKSPACES/LOOM/CHECKPOINT.md`.
+- **Status:** active / hourly corpus worker
