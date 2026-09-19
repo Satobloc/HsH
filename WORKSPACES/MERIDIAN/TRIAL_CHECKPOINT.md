@@ -103,3 +103,15 @@ Source-first SAT geometric-solver / representation / library work: Whirligig/Don
 - **Handoffs/questions:** none requiring Sable workflow redesign.
 - **Best next operations:** direct raw inspection of the Mar 8–13 candidates; freeze the first positive mechanical operator occurrence if found and crosswalk its exact components into the Mar 16 composite.
 - **Nathan action:** none.
+
+
+## Run 058 — 2026-09-19 04:54 EDT
+- Corrected Run 057: GR↔QM family is NOT DISCLAIMED. No validation/disclaimer without full mathematical workthrough + attempted repair.
+- Located dedicated legacy source Relativistic–Quantum Isomorphism (nolat).pdf, blob 8c361c40fadf55da7b99ed413dccb36800e7801d, 38,084 bytes, in Satobloc/SAT_THEORY_ARCHIVE_2023-25 root.
+- Historical state retained as CLAIMED / CLAIMED VERIFIED; present-day status is RE-AUDIT PENDING FULL WORKTHROUGH.
+- Earlier benchmark defect scoped to UNSUPPORTED/INCOMPLETE IN THAT PRESENTATION, not family failure.
+- Connector binary retrieval is base64-capable but current bridge truncates payload; full PDF extraction remains immediate retrieval task.
+- Nearby ancestry targets: GENERAL RELATIVITY, SAT PREDICTIVE BENCHMARKING, Whirligig simplification, UI_SAT_4DHH_UC, March raw solver conversations.
+- Exposure: no nLab, PRIOR_ART, quarantine, or external-theory import.
+- Full details: WORKSPACES/MERIDIAN/RUN_058_2026-09-19.md.
+- Nathan action: none.
