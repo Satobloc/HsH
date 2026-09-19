@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-19T05:58:59.185468+00:00",
+  "generated_at_utc": "2026-09-19T09:25:44.241765+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 364,
-    "skipped": 240,
+    "unchanged": 363,
+    "skipped": 241,
     "planned": 89,
     "collision": 1
   },
@@ -1771,13 +1771,15 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
-      "start_local": "2025-10-30T01:12:41.978758-04:00",
-      "end_local": "2026-06-01T23:41:37.444316-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 22,
-      "status": "unchanged",
-      "warnings": []
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw (1).json",
