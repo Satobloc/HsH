@@ -47,10 +47,12 @@ The NotebookLM answer indicates that the underlying source spans asteroid-mining
 
 The later export gives an explicit underlying-source title: `ASTEROID MINING LLC.txt`. That makes this pair useful for source recovery and crosswalking even though it is not primarily SAT/H(s)H theory material.
 
-- **Ingest status:** `PAIR-RELATIONSHIP-CHECKED`, `TARGETED-READ`, `UNDERLYING-SOURCE-IDENTIFIED`, `UNDERLYING-SOURCE-NOT-YET-CROSSWALKED`.
+A bounded exact-title code search on 2026-09-19 across the accessible `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25` repositories returned no match for `ASTEROID MINING LLC.txt`. This is **not** evidence that the source is absent from all project holdings: the search did not cover every permitted repository/resource surface, title normalization may differ, and GitHub code search is not a complete archive-content guarantee. Treat it as an unresolved source-crosswalk candidate, not a confirmed missing document.
+
+- **Ingest status:** `PAIR-RELATIONSHIP-CHECKED`, `TARGETED-READ`, `UNDERLYING-SOURCE-IDENTIFIED`, `CROSSWALK-SEARCH-PARTIAL`, `UNDERLYING-SOURCE-UNRESOLVED`.
 - **Tentative value:** MEDIUM-HIGH for archive/source recovery, Nathan side-project/intellectual-history context, and NotebookLM extractor-integrity QA; LOW direct SAT/H(s)H theory value on current evidence. These are provisional task-specific judgments.
 - **Tentative priority:** P2 generally; P1 if source-recovery, invention chronology, side-project indexing, or NotebookLM extractor QA is active.
 
 ## Next cursor
 
-Locate `ASTEROID MINING LLC.txt` in the permitted project archives and record whether the underlying source is present, its provenance/authorship, and whether the NotebookLM summary accurately reflects it. Preserve both exports regardless of crosswalk outcome.
+Broaden the source crosswalk beyond exact-title code search: check permitted RESOURCES/other accessible project holdings and title/content variants for `ASTEROID MINING LLC.txt`, then record provenance/authorship and compare the underlying source against the NLM characterization if located. Preserve both exports regardless of crosswalk outcome.
