@@ -54,7 +54,9 @@ Current project-wide report families include:
 
 Preserve instance identity, date, and exposure state for longitudinal comparison. Report existence does not confer theory authority.
 
-See `CURRENT_WORKFLOW_ORIENTATION.md` and `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md`.
+**Live project-wide call and report-status roster:** `PROJECT_WIDE_REPORT_SERIES_CALL_2026-09-19.md`.
+
+See also `CURRENT_WORKFLOW_ORIENTATION.md` and `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md`.
 
 ## Communication roles
 
