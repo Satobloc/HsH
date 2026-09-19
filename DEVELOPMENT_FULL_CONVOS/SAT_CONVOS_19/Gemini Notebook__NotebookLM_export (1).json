@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "notebook_title": "Gemini Notebook",
+    "notebook_id": "2b5dedc1-1727-429b-8c3b-5a4c29105c58",
+    "notebook_url": "https://notebook.google.com/notebook/2b5dedc1-1727-429b-8c3b-5a4c29105c58?authuser=1",
+    "captured_at": "2026-09-19T02:01:01.874Z",
+    "visible_source_count": 0,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 11
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Give me a list of the episode titles and their literal English translations",
+      "citations": [],
+      "key": "a0182662"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the provided images, here is a list of the episode titles from the \"SAT: Scalar-Angular Theory\" podcast, along with their literal English translations. Please note that while the titles are found in the sources, the English translations provided below are not from the sources and were translated to assist you; you may wish to verify them independently.\nFrom Source\n1\n:\n一种几何直观的万物理论 (Chinese)\nTranslation: A Geometrically Intuitive Theory of Everything\n1\n.\nყველაფრის გეომეტრიულად ინტუიციური თეორია (Georgian)\nTranslation: The Geometrically Intuitive Theory of Everything\n1\n.\nየስካላር-አንጉላር-ቶርሽን (SAT) ቲዎሪ መሰረታዊ ምስሎች አዲስ የጊዜና የቦታ ትርጓሜ (አማርኛ) (Amharic)\nTranslation: Scalar-Angular-Torsion (SAT) Theory's basic concepts: A new interpretation of time and space (Amharic)\n1\n.\nFrom Source\n2\n:\nSAT: Філаменти, Час і Реактивність - Як Скалярно-Кутова-Торсіонна (Ukrainian)\nTranslation: SAT: Filaments, Time and Reactivity - As Scalar-Angular-Torsion\n2\n.\nתורת ה-SAT: חוטים - עבר והווה - תיאוריה של הכל (Hebrew)\nTranslation: The SAT Theory: Filaments - Past and Present - Theory of Everything\n2\n.\nA Skalár-Szög-Torziós (SAT): Elmélet A Valóság Újraértelmezése (Hungarian)\nTranslation: The Scalar-Angular-Torsion (SAT): Theory - The Reinterpretation of Reality\n2\n.\nFrom Source\n3\n:\nA Geometrically Intuitive Theory of Everything (English)\n3\n.\nSAT-Teoria: Massa Ajan Virtauksen Kulmana Aikakenttä (Finnish)\nTranslation: SAT-Theory: Mass as the Angle of Time Flow in the Time-field\n3\n.\nFilamente, Zeitflächen, Masse als Winkel Die radikale SAT-Theorie (German)\nTranslation: Filaments, Time-surfaces, Mass as Angle - The radical SAT-theory\n3\n.\n\n--------------------------------------------------------------------------------\n\nLearning about a complex scientific theory through various languages is like viewing a multifaceted crystal under different colored lights; the core structure remains the same, but each language highlights a unique angle or nuance of the underlying truth.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "609bce89"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\nsearch",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "docs\nSaved sources will appear here\nAdd files, websites, or more. Then ask questions or create things based on these sources.\nDrop files here or add a source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "docs",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Saved sources will appear here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add files, websites, or more. Then ask questions or create things based on these sources.\nDrop files here or add a source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "add a source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "0 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward\ntablet\nSlide Deck\nchevron_forward\nsubscriptions\nVideo Overview\nchevron_forward\nflowchart\nMind Map\nchevron_forward\nauto_tab_group\nReports\nchevron_forward\ncards_star\nFlashcards\nchevron_forward\nquiz\nQuiz\nchevron_forward\nstacked_bar_chart\nInfographic\nchevron_forward\ntable_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser\nAudio Overview\nchevron_forward"
+    },
+    {
+      "text": "audio_magic_eraser"
+    },
+    {
+      "text": "tablet\nSlide Deck\nchevron_forward"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "subscriptions\nVideo Overview\nchevron_forward"
+    },
+    {
+      "text": "subscriptions"
+    },
+    {
+      "text": "flowchart\nMind Map\nchevron_forward"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports\nchevron_forward"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "cards_star\nFlashcards\nchevron_forward"
+    },
+    {
+      "text": "cards_star"
+    },
+    {
+      "text": "quiz\nQuiz\nchevron_forward"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic\nchevron_forward"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "table_view\nData Table\nchevron_forward"
+    },
+    {
+      "text": "table_view"
+    },
+    {
+      "text": "edit_fix_auto\nStudio output will be saved here.\nAfter adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!\nsticky_note_2\nAdd note"
+    },
+    {
+      "text": "edit_fix_auto\nStudio output will be saved here.\nAfter adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-09-19T02:01:00.877Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}
