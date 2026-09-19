@@ -1,0 +1,78 @@
+Here is the complete topical index of all 43 sources currently in your notebook, organized by theoretical domain and formatted in **Chicago Manual of Style (17th ed., Bibliography Format)**.
+
+---
+
+### **I. Relativistic–Quantum Isomorphism & Worldline Geometry**
+*Focuses on the operational mapping of low-frequency global bending (General Relativity) and high-frequency torsional eigenmodes (Quantum Mechanics) along 4D superhelical worldlines.*
+
+1. McKnight, Nathan. "Formalizing the Relativistic–Quantum Isomorphism in Superhelical Frameworks." Technical manuscript, SAT Framework Archive, 2026.
+2. McKnight, Nathan. "Geometric Unification via Relativistic-Quantum Isomorphism." Technical manuscript, SAT Framework Archive, 2026.
+3. McKnight, Nathan. "Stress-Testing the Curvature Isomorphism: Three Fault Lines." Technical manuscript, SAT Framework Archive, 2026.
+4. McKnight, Nathan. "The Geometric Isomorphism of General Relativity and Quantum Mechanics." Technical manuscript, SAT Framework Archive, 2026.
+5. McKnight, Nathan. "The Geometric Lock and Relativistic-Quantum Isomorphism." Technical manuscript, SAT Framework Archive, 2026.
+6. McKnight, Nathan. "The Relativistic-Quantum Isomorphism." Technical manuscript, SAT Framework Archive, 2026.
+7. McKnight, Nathan. "The Relativistic–Quantum Isomorphism of Superhelical Worldlines." Technical manuscript, SAT Framework Archive, 2026.
+8. McKnight, Nathan. "The Superhelical Mapping of Relativistic–Quantum Isomorphism." Technical manuscript, SAT Framework Archive, 2026.
+9. McKnight, Nathan. "Unified Field Resolution: The SAT Isomorphism Report." Technical report, SAT Framework Archive, 2026.
+10. McKnight, Nathan. "Universal Worldline Isomorphism: Unifying Relativity and Quantum Observables." Technical manuscript, SAT Framework Archive, 2026.
+
+---
+
+### **II. Zero-Parameter Economy, Metrology & Fundamental Constants**
+*Details the derivation of physical constants (\\(\hbar\\), \\(G\\), \\(\alpha\\), \\(\mu\\), \\(\delta_{CP}\\)) as mandatory geometric invariants of 4D space projection rather than tuned parameters.*
+
+11. McKnight, Nathan. "Deriving the Hydrogen Ground State Energy Scaling Factor." Technical manuscript, SAT Framework Archive, 2026.
+12. McKnight, Nathan. "Nucleon Mass Calibration and Filament Stiffness Derivation." Technical manuscript, SAT Framework Archive, 2026.
+13. McKnight, Nathan. "The Filament Scale and Emergent Fine Structure Constant." Technical manuscript, SAT Framework Archive, 2026.
+14. McKnight, Nathan. "The Geometry of Universal Constants: The HSUCV Lattice Framework." Technical manuscript, SAT Framework Archive, 2026.
+15. McKnight, Nathan. "The Roadmap to Zero-Parameter Scientific Closure." Technical report, SAT Framework Archive, 2026.
+16. McKnight, Nathan. "The Zero-Parameter Economy of Filamental Unification." Technical report, SAT Framework Archive, 2026.
+17. McKnight, Nathan. "The Zero-Parameter Economy: Architecture of the Filamental Substrate." Technical report, SAT Framework Archive, 2026.
+18. McKnight, Nathan. "The Zero-Parameter Economy: Geometric Rigidity in Unified Physics." Technical report, SAT Framework Archive, 2026.
+19. McKnight, Nathan. "Topological Grammar and the Deterministic Calibration of Physical Constants." Technical report, SAT Framework Archive, 2026.
+
+---
+
+### **III. Master SAT Lagrangian, HSUCV Lattice & UV Finiteness**
+*Focuses on variational principles, the 24-cell Hypersphere Unit Cell Vertex (HSUCV) geometry, and the \\(n \le 3\\) Strain Tensor Saturation limit preventing UV divergences.*
+
+20. McKnight, Nathan. "Calibrating UV Finiteness and Filament Mass Anchors." Technical manuscript, SAT Framework Archive, 2026.
+21. McKnight, Nathan. "Deterministic Execution of the HSUCV Lattice Dynamics." Technical manuscript, SAT Framework Archive, 2026.
+22. McKnight, Nathan. "Elastic Backsnap Threshold and the UV Finiteness Lock." Technical manuscript, SAT Framework Archive, 2026.
+23. McKnight, Nathan. "Formal Analytical Closure of the Master SAT Lagrangian." Technical report, SAT Framework Archive, 2026.
+24. McKnight, Nathan. "Formalization of the SAT Framework and Topological Energy Geometry." Technical report, SAT Framework Archive, 2026.
+25. McKnight, Nathan. "HYPERMATH OUTPUT." Calculation log, SAT Framework Archive, 2026.
+26. McKnight, Nathan. "The Deterministic Calibration of Lattice Dynamics and Energy Scales." Technical report, SAT Framework Archive, 2026.
+27. McKnight, Nathan. "The Deterministic Framework for UV Finiteness and Mass Anchors." Technical report, SAT Framework Archive, 2026.
+28. McKnight, Nathan. "The SAT Framework: Geometric Foundations of UV Finiteness and Mass." Technical report, SAT Framework Archive, 2026.
+29. McKnight, Nathan. "The Scalar-Angular-Torsion Framework: Deterministic Derivations and Numerical Calibration." Technical report, SAT Framework Archive, 2026.
+30. McKnight, Nathan. "The Universal Indicatrix and Master SAT Lagrangian Pack." Technical formula compilation, SAT Framework Archive, 2026.
+
+---
+
+### **IV. Emergent Macroscopic Gravity, Schwarzschild Metrics & Collapse Thresholds**
+*Derives macroscopic gravitational properties (\\(r_s\\), \\(G\\)) from filtered microscopic filament friction across lattice nodes via the Topological Overlap Factor (\\(\Omega\\)).*
+
+31. McKnight, Nathan. "Emergence of Macroscopic Gravity via Lattice-Averaged Filament Packing." Technical manuscript, SAT Framework Archive, 2026.
+32. McKnight, Nathan. "HSUCV Lattice Calculations for Micro Black Hole Metrics." Technical manuscript, SAT Framework Archive, 2026.
+33. McKnight, Nathan. "Lattice-Averaged Emergent Gravity and the Omega Factor." Technical manuscript, SAT Framework Archive, 2026.
+34. McKnight, Nathan. "Lattice-Resolved Omega Table for 24-Cell HSUCV Nodes." Calculation log, SAT Framework Archive, 2026.
+35. McKnight, Nathan. "Micro Black Hole Thresholds in HSUCV Lattice Framework." Technical manuscript, SAT Framework Archive, 2026.
+36. McKnight, Nathan. "Scaling the Schwarzschild Radius via Topological Overlap Factors." Technical manuscript, SAT Framework Archive, 2026.
+37. McKnight, Nathan. "The HSUCV Lattice Prediction for Macroscopic Gravitational Collapse." Technical manuscript, SAT Framework Archive, 2026.
+38. McKnight, Nathan. "The Topological Threshold of Filament Mass Density." Technical manuscript, SAT Framework Archive, 2026.
+
+---
+
+### **V. Epistemology, Podcast Transcripts & Media Outreach**
+*Covers the meta-analysis, LLM-human co-authorship, media branding strategies, audience analytics, and verbatim Q&A interviews regarding the Zottenwelt.*
+
+39. McKnight, Nathan. *Nathan McKnight's AI-Powered Theory of Everything*. Audio transcript. Debating AI Podcast Series, 2025–2026.
+40. McKnight, Nathan. "Q & A." Interview transcript and notes, SAT Framework Archive, 2026.
+41. McKnight, Nathan. *Setting an Interrogation Trap for McKnight*. Audio transcript. Debating AI Podcast Series, 2025–2026.
+42. McKnight, Nathan. "The Podcast Question and Answer Blueprint." Strategic background document, SAT Framework Archive, 2026.
+43. McKnight, Nathan. *The Zottenwelt and 4D Geometric Knots*. Audio transcript. Debating AI Podcast Series, 2025–2026.
+
+---
+
+🔬 *Would you like me to compile a comprehensive, publication-ready reference report summarizing the key mathematical equations across any of these specific topical sections?*
