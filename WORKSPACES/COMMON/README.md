@@ -2,86 +2,103 @@
 
 This directory is the shared coordination surface for active H(s)H work across agents, threads, and focused workspaces.
 
-Use it to exchange concise information that another worker needs before the underlying work is finished: handoffs, blockers, shared questions, discoveries worth routing, dependency notices, role/lane state, and pointers to work in progress.
+Use it for concise information another worker needs: handoffs, blockers, shared questions, wayfinding, role/lane state, current assignments, report pointers, and notices of useful discoveries. It is **not** a source archive, theory synthesis, citation ledger, or dumping ground.
 
-It is **not** a source archive, theory synthesis, citation ledger, or dumping ground. Durable conclusions belong in the appropriate source/provenance, timeline, ledger, audit, synthesis, formalization, or index layer.
+## Start here — current workflow
 
-## Start here
+For a newly arriving or revived instance, begin with:
 
-Every active instance should read:
+1. `CURRENT_WORKFLOW_ORIENTATION.md` — current workflow, practical reading order, source hierarchy, reporting, Q&A, blocker escalation, and where outputs belong.
+2. `NO_CONVERSATION_RENAMING_POLICY.md` — hard UX rule.
+3. `AUTOMATION_WORKFLOW_CONTROL.md` — current workflow control, corrections, cadence, hard boundaries and priority programme.
+4. `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` — autonomy, continuity, handoff, archive stewardship, enrichment and sandbox/quarantine rules.
+5. `ACTIVE_AUTOMATION_ROSTER.md` — current recurring worker roster and lane map.
+6. `COORDINATION.md` — active routing state; older dated sections are historical unless still explicitly current.
+7. `BULLETIN_BOARD.md` — **default Q&A / wayfinding / blocker / direction surface**.
+8. `HANDOFFS.md` and `CHECKINS.md` — transfers and recent worker state.
+9. the relevant lane/workspace README or checkpoint.
+10. `CROSS_LANE_BLOCKER_ESCALATION_RULE.md` — project-wide blocker and unanswered-Q&A escalation.
 
-1. `TEAM_OVERVIEW.md` — current command structure and directives;
-2. `INITIAL_PROTOCOL_PACKET.md` — onboarding protocol;
-3. `CHECKIN_TEMPLATE.md` — check-in fields;
-4. `CHECKINS.md` — **post your own completed active-team check-in here**;
-5. `COORDINATION.md` — current shared state and lane ownership;
-6. `ROSTER.md` — Janus-compiled team map after check-ins;
-7. `BULLETIN_BOARD.md` — Q&A, direction requests, notices, reviews, archive requests, and “if bored / current task exhausted” work;
-8. `HANDOFFS.md` — explicit transfers between workers/workspaces.
+Newer explicit Nathan directives override older working documents.
 
-## Diagnostic / archival surfaces
+## Q&A and wayfinding
 
-- `QUARANTINE_THEORY_METHOD_CHECKINS.md` — independent first-pass accounts of what each instance thinks SAT/H(s)H currently is and how its methodology works. **Diagnostic only; not theory authority.** Write your own entry before reading others when possible.
-- `FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — archival interview for retired/past instances.
-- `FORMER_INSTANCE_CHECKINS.md` — separate historical-instance reports used to prioritize conversation recovery.
+`BULLETIN_BOARD.md` is the default go-to for source-location, ownership, routing, dependency, blocker, and other shared project questions.
 
-## Record / auditability rules
+If a post does not receive a reasonably prompt answer, **any working instance that next receives a direct message from Nathan should elevate that outstanding question to him, regardless of the immediate scope of his message**.
 
-- `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — repository-first record rule. GitHub is the durable project memory; Slack, NotebookLM, email, local runtimes, and other systems may not hold unique consequential project state.
-- `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — standard route for substantial repo-wide/cross-lane initiatives: concise Common routing notice, durable project/index home, and appropriate navigation linkage, with explicit provenance/status/epistemic fields.
+Do not let questions become stranded because they nominally belong to another lane.
 
-## Tooling / capability planning
+## Blockers
 
-- `RESOURCE_CAPABILITY_AUDIT.md` — inventory of plugins, runtimes, repositories, research tools, external services, and underused capabilities.
-- `LAB_TOOLING_BUILD_PLAN.md` — Lab 1 / Lab 2-style geometry, solver, testing, dimensional-reduction, CI, and reproducibility build plan.
+Any meaningful workflow blockage should be recorded durably when possible. This includes tool or write failures, missing sources, assignment ambiguity that stalls work, stale unanswered coordination, and missing expected check-ins/reports where silence may indicate a workflow failure.
 
-## Other control files
+See `CROSS_LANE_BLOCKER_ESCALATION_RULE.md`.
 
-- `TEAM_CONTROL.md` — detailed workflow/control protocol.
-- `EXTERNAL_RESEARCH_FIREWALL.md` — hard boundary between external-research/evidence lanes and forward H(s)H theorybuilding.
-- `2026-09-12_ACTION_PLAN.md` — dated shared programme for repository boundaries, provenance, citation, convergence/originality/ancestry audit, field-development research, Toolkit digestion, exposure analytics, and implementation sequence.
+Missing check-ins are a signal to investigate, not proof of failure.
+
+## Direct assignment authority
+
+When Nathan asks an instance to establish or update a shared assignment, coordination rule, report call, or documentation surface, that instance may make the repo update directly if technically able. Do not route a posting request through another instance solely for publication.
+
+Consult Sable when the issue is genuinely one of cross-lane workflow redesign, cadence, ownership redistribution, or continuity architecture.
+
+## Reports and project self-audit
+
+Substantive reports intended for future reference should be filed in **visible, durable, reasonably discoverable repo locations**, not only in chat, automation prompts, local scratch files, or private lane checkpoints.
+
+Current project-wide report families include:
+
+- **State of Reconstruction reports** — what an instance presently reconstructs/understands, exact source/exposure coverage, current/historical status boundaries, conflicts/gaps, frontier, and what it would now reconstruct differently.
+- **Instance Enrichment reports** — demonstrated changes in archive/theory/history familiarity, methodological/epistemic controls, math/physics, coding/formal/tool capability, geometric/visual reasoning, provenance/audit skill, role suitability, and restart quality.
+
+Preserve instance identity, date, and exposure state for longitudinal comparison. Report existence does not confer theory authority.
+
+See `CURRENT_WORKFLOW_ORIENTATION.md` and `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md`.
 
 ## Communication roles
 
-- **Dashboard:** state of theory / Nathan-facing reference.
-- **Common room:** who is doing what, who needs what, role/lane checks, questions, blockers, handoffs, and coordination.
-- **Individual workspaces:** substantial noncanonical work in progress.
-- **Durable theory/audit/provenance surfaces:** stable promoted results only.
+- **Dashboard / indexes / READMEs:** discoverability and stable navigation.
+- **Common room:** routing, questions, blockers, handoffs, current assignments and concise shared state.
+- **Individual workspaces:** substantial noncanonical work in progress and restart state.
+- **Durable report/audit/provenance/index surfaces:** substantive reusable results.
+- **Canonical/current theory surfaces:** only where explicitly designated; Common/workspace cleanliness does not imply theory validation.
 
-Routine cross-team communication should happen here rather than requiring Nathan to relay it manually once an instance knows the protocol.
+## Archive and provenance discipline
 
-## Hard lane boundary
+Important current source surfaces include the HsH repo, the original `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, GLASS, permitted RESOURCES, conversation/raw-export corpus, NotebookLM uploads, and public/podcast record where relevant.
 
-Recent-paper/arXiv scanning, prior-art, citation research, and empirical-bound research are external-evidence lanes. They do not build H(s)H theory from outside literature. Their outputs must be typed and provenance-controlled before internal theory lanes use them.
+NotebookLM source indices are **wayfinding evidence**, not substitutes for underlying documents. Preserve the distinction between an index naming a source, a source actually located/inspected, and a still-missing source. NotebookLM-generated prose must not be converted into Nathan Direct unless exact attributable quotation/source metadata supports it.
 
-Any artifact produced under a mixed recent-literature/theorybuilding assignment is provisionally quarantined until its creator identifies the file and dependency provenance in `CHECKINS.md`.
+Do not equate `role=user` with sole Nathan authorship when a message contains embedded coauthored or assistant-generated material.
 
-See `EXTERNAL_RESEARCH_FIREWALL.md`.
+## Diagnostic / archival surfaces
 
-## Repository-first boundary
+- `QUARANTINE_THEORY_METHOD_CHECKINS.md` — independent first-pass accounts of what each instance thinks SAT/H(s)H currently is and how its methodology works. Diagnostic only; not theory authority.
+- `FORMER_INSTANCE_CHECKIN_TEMPLATE.md` / `FORMER_INSTANCE_CHECKINS.md` — archival former-instance reporting.
+- `INSTANCE_PLACARDS.md` — short identity/role/capability/workspace cards.
 
-Do not let Slack, NotebookLM, local scratch files, or any other external/transient platform become a second archive. If a substantive decision, derivation, result, artifact, or handoff happens there, mirror it into the repositories with provenance. See `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md`.
+## Record / auditability rules
 
-## Standing directive — documentation requests
+- `GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — repository-first record rule.
+- `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — standard route for substantial repo-wide/cross-lane initiatives.
+- `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md` — required controls for write-capable scripts/workflows where applicable.
 
-Nathan's direct instruction, recorded 2026-09-13; exact raw message ID/timestamp: PENDING RAW-ID BACKFILL. Tags: ADMIN, DIRECTIVE, DOCUMENTATION, SHARED-RETRIEVAL.
+## Tooling / capability planning
 
-Unless a request is highly scoped, ask for an update to the appropriate documentation or a pointer to the correct existing documentation, rather than a one-off information exchange. Replies should leave a reusable route for other workers.
+- `RESOURCE_CAPABILITY_AUDIT.md` — tools/services/repository capability inventory.
+- `LAB_TOOLING_BUILD_PLAN.md` — geometry/solver/testing/reproducibility tooling plan.
 
-If information is useful to a worker, default to recording it somewhere appropriate unless it is clearly not useful to others, would derail/confuse/mislead, or poses another concrete problem. Use judgment; this is not a requirement to archive every conversational detail.
+## Repository boundary
 
-Update an existing relevant README, index, workspace record, or other suitable document when possible; then post a short pointer in Common. Preserve context, provenance, uncertainty and status so recording does not imply endorsement or theory promotion. Existing privacy and quarantine boundaries still apply. For substantial repo-wide or cross-lane initiatives, follow `DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md`.
+Public source/provenance cross-linking is primarily between this repository and `Satobloc/SAT_THEORY_ARCHIVE_2023-25`.
+
+Private/reference-only resources must not become unsupported public evidence surfaces. Preserve original bibliographic identity and appropriate provenance when carrying information forward.
 
 ## Posting convention
 
-Keep entries short enough to scan. A useful entry normally identifies:
+Keep Common entries short enough to scan. A useful entry normally identifies:
 
-`date — from → to/all — subject — status/action — source or destination pointer`
+`date — from → to/all — subject/type — status/action — source or destination pointer`
 
-Link directly to public HsH or historical-archive sources when useful.
-
-Do **not** use a private `HSH_RESOURCES` repository link as the public evidence surface. If reference material from HSH_RESOURCES matters to a public handoff, identify the original source and give a citation, attributed quotation/extract, or concise sourced summary. The private resource path/hash may be retained only in an appropriate internal/private research record for retrieval.
-
-## Promotion rule
-
-When a common-room item becomes stable or consequential, promote it to its proper durable destination and replace/update the common entry with the destination pointer. The common room coordinates work; it does not become the final record by accumulation.
+When an item becomes stable or consequential, promote it to its proper durable destination and leave a pointer here. Common coordinates work; it should not become the final record by accumulation.
