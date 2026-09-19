@@ -4,6 +4,28 @@
 **Established:** 2026-09-14  
 **Authority:** operational/workflow authority under Nathan's explicit clearance. Nathan directives control. This workspace does not itself establish SAT/H(s)H theory truth.
 
+## Immediate direction handoff — 2026-09-18
+
+Nathan explicitly authorized the outside-loop control surface to conduct a **one-time cross-lane direction-unification / reprioritization pass with full temporary authority**, followed by immediate handoff to the current active Sable or whoever officially holds master-loop coordination under the newest controlling surface.
+
+The durable integrated directive is:
+
+- [`WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md`](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md)
+
+It is **effective immediately** as the current integrated priority map. The temporary outside-loop cross-lane authority used to create it is now **expired**. Sable resumes/retains workflow-design authority immediately and may reorder tasks, change recurrence emphasis, split or merge work packets, reassign lanes, pause low-yield branches, and otherwise adapt implementation to current worker state and evidence.
+
+The current priority dependency stack is, in brief:
+
+1. **P0 — epistemic/methodological control:** Fundamental Intuitions Extended; reconstruct/certify SAT core-promotion rules; preserve authorship vs SAT-hypothesis membership vs epistemic/core status; coherent-model-first/local-caveats-second calibration; rigor-term mining; terminology, unit, symbol, and source-class hygiene.
+2. **P1 — GR↔QM isomorphism:** recover the exact claim and attempt proof-quality verification, distinguishing analogy/correspondence/homomorphism/equivalence from genuine isomorphism.
+3. **P2 — `H_0+c` cosmology:** preserve the dimensional invalidity of the bare shorthand while reconstructing and dimensionally repairing the underlying two-contribution concept; keep alternate cosmological geometries open in parallel rather than prematurely selecting one.
+4. **P3 — He-3 / Jarlskog / soliton scaling:** He-3 Holotype anchor; ghost-neutrino/Jarlskog material; gluon ↔ neutrino-like timesheet soliton ↔ giant-neutrino-like gravitational soliton scale relation; Majorana/Cooper/parafermion insight candidates.
+5. **P4/P5 feeder lanes:** targeted 2023–25 archive excavation, glossaries, NLM folder-18/19+ ingestion, podcast/public-exposure mining, and historical visual/particle/timesheet/holonomy recovery in service of P0–P3.
+
+When older Common coordination language conflicts with newer control surfaces, apply the newer authority model: current `ACTIVE_AUTOMATION_ROSTER.md` / `AUTOMATION_WORKFLOW_CONTROL.md` place cross-lane workflow redesign, reassignment, cadence, and continuity repair with **Sable continuity/systems** unless Nathan explicitly designates someone else. Older Janus coordination labels remain historical unless a newer directive reactivates them.
+
+Sable should preserve the substantive Nathan-direct constraints in the unification document but is **not** required to preserve its exact task ordering if current check-ins, blockers, duplication, worker capability, or information-gain considerations support a better implementation. The point of the pass is to unify direction, not freeze management.
+
 ## Current assignment
 
 Sable's job is to understand and improve the project as a **knowledge/analysis machine** while preserving sandbox, quarantine, provenance, and useful instance divergence.
@@ -71,6 +93,7 @@ Shared control surfaces:
 - `WORKSPACES/COMMON/RUBRIC_ADMIN_BOOTSTRAP.md`
 - `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md`
 - `WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`
+- `WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md`
 
 ## Duties not owned as routine production
 
