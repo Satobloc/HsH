@@ -43,14 +43,14 @@ Suggested filenames are descriptive rather than mandatory, e.g. `STATE_OF_RECONS
 
 ## Current working-instance roster / report status
 
-This roster is initialized from `ACTIVE_AUTOMATION_ROSTER.md` (snapshot 2026-09-18) and should be maintained as reports arrive. `Not yet located` means only that this report-series call has not yet linked a qualifying report; it is **not** evidence that the instance has done no reconstruction or enrichment work.
+This roster was initialized from `ACTIVE_AUTOMATION_ROSTER.md` (snapshot 2026-09-18) and is maintained against newer current controls. `Not yet located` means only that this report-series call has not yet linked a qualifying report; it is **not** evidence that the instance has done no reconstruction or enrichment work.
 
 | Current working instance / lane | State of Reconstruction | Instance Enrichment | Notes |
 |---|---|---|---|
 | Tag Conversation Corpus | Not yet located | Not yet located | active recurring worker |
 | Nathan Words Excavator | Not yet located | Not yet located | active recurring worker |
 | Meridian Solver Loop | Not yet located | Not yet located | active recurring worker; complete `WORKSPACES/MERIDIAN/` filename inventory checked by Mercer Run 117 with no obvious dedicated report-family filename; this does not establish non-filing elsewhere/under another name |
-| AUTOMATION — Project Systems | Not yet located | Not yet located | backend system loop; not human-facing Sable identity; complete `WORKSPACES/SABLE/` filename inventory checked by Mercer Run 118 with no obvious dedicated report-family filename; assignment/control artifact is not itself a filed instance report |
+| Tern / AUTOMATION — Project Systems | Not yet located | Not yet located | current backend project-systems worker identity established by Nathan Direct 2026-09-19 at `WORKSPACES/TERN/CONTINUITY.md`; the automation/task name is not a conversation identity. Earlier Mercer Run 118 inspected the former `WORKSPACES/SABLE/` backend location; that inventory does not establish Tern report status. |
 | Mercer Archive QA Loop | [`STATE_OF_RECONSTRUCTION_2026-09-19.md`](../MERCER/STATE_OF_RECONSTRUCTION_2026-09-19.md) | [`INSTANCE_ENRICHMENT_2026-09-19.md`](../MERCER/INSTANCE_ENRICHMENT_2026-09-19.md) | active recurring worker; both requested reports filed 2026-09-19 |
 
 Active non-recurring/current specialists should be added when current control surfaces establish that they are presently working and reportable. Disabled, sleeping, consultant, or revivable instances belong in a separate status class rather than being silently counted as current workers.
