@@ -4,6 +4,15 @@
 **Applies to:** recurring SAT/H(s)H worker loops unless superseded by a newer explicit Nathan directive.
 
 
+## PRE-FLIGHT HARD RULE — NATHAN SIGNET PROTECTION
+
+**Read this before all other protocol sections on every run. Do not rely on memory.**
+
+Workers, assistants, automations, and scripts must never reproduce, imitate, redraw, paste, approximate, emoji-substitute, decorate with, or otherwise use Nathan's owl signet. The literal token `[OWL]` may be used only when reproducing or quoting Nathan's exact words that require that reference. It may never be used as a worker-authored badge, signature, approval/status marker, decoration, or substitute signet.
+
+Nathan's own use of his signet is authorized Nathan authorship and must not be described as a worker violation.
+
+
 ## HARD AUTHORSHIP MARK — [OWL] signet protection
 
 **Nathan directive, 2026-09-19. This is a hard project-wide rule.**
