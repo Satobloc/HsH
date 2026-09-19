@@ -1,8 +1,18 @@
 # Active automation roster
 
 **Program:** Hourly SAT/H(s)H worker loops + Sable continuity  
-**Snapshot:** 2026-09-17  
+**Snapshot:** 2026-09-18  
 **Purpose:** operational roster only; newer Nathan directives and Sable continuity may change schedules/roles.
+
+## Current integrated direction — 2026-09-18
+
+Nathan authorized a one-time cross-lane direction-unification pass. The current integrated priority map is:
+
+- [`DIRECTION_UNIFICATION_2026-09-18.md`](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md)
+
+The pass is effective now, but the temporary outside-loop authority used to create it has expired. **Sable continuity/systems resumes/retains workflow-design authority immediately** and may adjust sequencing, recurrence emphasis, task packets, and worker routing according to live state. If Nathan explicitly designates a different master-loop coordinator in a newer directive, route authority there instead.
+
+The current dependency stack is: **P0 epistemic/promotion-method reconstruction → P1 GR↔QM isomorphism proof-quality work → P2 dimensionally repaired `H_0+c` cosmology with alternate geometries preserved → P3 He-3/Jarlskog/cross-scale soliton program**, with targeted archive/NLM/podcast mining feeding those priorities. Existing solver families and infrastructure work remain live as supporting machinery, not deprecated.
 
 Read `AUTOMATION_WORKFLOW_CONTROL.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, current coordination/handoffs, and Sable's `CONTINUITY_CHECKPOINT.md` for current policy/state.
 
