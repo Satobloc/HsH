@@ -5,35 +5,31 @@
 
 ## Current controls / run note
 
-Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs, and Loom durable state. Current controls retain the one-object + one-operation + one-durable-result + one-next-cursor recurrence quantum. No conversation/thread/chat identity was altered.
+Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs/check-ins, and Loom durable state. Newer directives control. No conversation/thread/chat identity was altered.
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with special attention to Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon / neutron-star-trinary / gravitational-soliton provenance.
 
-## This run — timeline-object commit-history check
+## This run — bounded alternate-vocabulary retrieval check
 
-**Primary object:** timeline-named `BORROMEAN_LINK_ILLUSTRATION.txt`.
+**Primary target:** historical archive recovery route for the current soliton/Jarlskog lineage.
 
-**Operation:** query the historical archive repository's commit history directly for that exact path.
+**Operation:** after the prior exact-path lineage was marked `SOURCE-RECOVERY-NEEDED`, run a bounded default-branch code-search check for older vocabulary rather than guessing another timeline filename.
 
-**Result:** GitHub returned an empty commit list for `BORROMEAN_LINK_ILLUSTRATION.txt`. Combined with the prior complete recursive default-branch tree (`truncated:false`) containing neither `BORROMEAN_LINK_ILLUSTRATION` nor `BORROMEAN`, this means the timeline-named object is not recoverable by exact-path current-tree or exact-path commit-history lookup in `Satobloc/SAT_THEORY_ARCHIVE_2023-25`.
-
-This does **not** establish that the underlying content never existed. Rename/move under a different historical path, another repository/export, or an uncommitted/local generation context remain open. No explanation is promoted without evidence.
+**Result:** exact code searches for `soliton`, `gluon`, and `NESTED HOLONOMIES` returned no indexed results in `Satobloc/SAT_THEORY_ARCHIVE_2023-25`. No source body was surfaced/read, so no source-content tags were invented. This reinforces the earlier conclusion that ordinary GitHub code search is low-yield for this lineage and should not be repeatedly sprayed with adjacent vocabulary.
 
 **Status/tags:**
-- `BORROMEAN_LINK_ILLUSTRATION → TIMELINE-POINTER / CURRENT-DEFAULT-TREE-NAME-ABSENT`
-- `BORROMEAN_LINK_ILLUSTRATION → EXACT-PATH-COMMIT-HISTORY-NONE`
-- `TIMELINE-NAMED-OBJECT ≠ CURRENTLY-RECOVERED-SOURCE`
-- `MISSING-BY-NAME/PATH ≠ CONTENT-ABSENT`
-- `UNDERLYING-BORROMEAN-SOURCE → NOT-READ`
-- `SOURCE-LEVEL-AUTHORSHIP → NOT-ESTABLISHED`
-- `TIMELINE-OBJECT-LINEAGE → SOURCE-RECOVERY-NEEDED`
-- `!_ANNOTATED_ARCHIVE_SURVEY.md → QUARANTINED / DO-NOT-USE`
+- `SOLITON/GLUON-LINEAGE → DEFAULT-BRANCH-CODE-SEARCH-NO-HITS`
+- `NESTED-HOLONOMIES → DEFAULT-BRANCH-CODE-SEARCH-NO-HITS`
+- `NO-SEARCH-HIT ≠ CONTENT-ABSENT`
+- `SOURCE-BODY → NOT-SURFACED / NOT-READ`
+- `READ-IT-TAG-IT → NO-FABRICATED-SOURCE-TAGS`
+- `ORDINARY-CODE-SEARCH → LOW-YIELD-FOR-THIS-LINEAGE`
 
-## Prior historical-navigation result retained
+## Prior source-recovery result retained
 
-The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. This remains a plausible older-vocabulary route toward later He-3/Jarlskog/soliton material, not an established genealogy.
+The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. The complete recursive default-branch tree and exact-path commit-history lookup failed to recover `BORROMEAN_LINK_ILLUSTRATION.txt`; that timeline-object lineage remains `SOURCE-RECOVERY-NEEDED`. Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` likewise yielded no indexed historical-archive code-search hits.
 
-Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` yielded no indexed historical-archive code-search hits. Ordinary code search is low-yield for this lineage, not evidence of absence.
+This does not establish absence. Rename/move, another repository/export, non-indexed content, or local/uncommitted generation remain open possibilities.
 
 ## Durable context retained
 
@@ -48,7 +44,7 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-The June 7 timeline-object lineage is now `SOURCE-RECOVERY-NEEDED`; do not spend the next bite on another guessed filename/path. Rotate to a different high-value corpus region. Preferred next bounded operation: inspect one non-quarantined historical source surfaced by current archive navigation that contains older `soliton`, `gluon`, `trinary`, `timesheet`, or `neutrino` vocabulary, then tag only what that source actually says with exact provenance. If navigation offers no clean source, choose a selectivity/coverage or inherited-tag audit instead of forcing this lineage.
+Do **not** continue lexical query-spraying for the Jarlskog/soliton lineage. Next bite should rotate to a recoverable high-value object: inspect one already-addressable non-quarantined historical source from archive navigation/index surfaces, or perform one bounded inherited-tag/selectivity/duplicate audit if no clean source object is available. The unresolved Jarlskog/soliton lineage stays pinned for source recovery when a new wayfinding pointer appears.
 
 ## Workspace identity
 
