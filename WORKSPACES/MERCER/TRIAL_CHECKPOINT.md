@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 142, 2026-09-20
+**Current through:** Run 143, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -271,3 +271,24 @@ Created `tools/query_mersearch_index.py` (commit `501e81d218f57d3eb8f9c9e0d22f56
 **Next cursor:** inspect `35518358342`; if compile reaches builder, capture build and indexed-query/concurrent-reader timings. Repair prototype-specific issues without moving stable ref.
 
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
+
+
+## Run 143 — 2026-09-20 — indexed prototype green; durability gate added
+
+**Indexed prototype result:** workflow `35518358342`, job `106098024130`, completed SUCCESS. Bounded runner build indexed **1,525 files**, **1,240,945 records**, and **284,807,821 source bytes** into a **588,013,568-byte** SQLite/FTS generation. Build timing: `scan_parse_index=51.628977s`, `total=51.924383s`.
+
+**Indexed query smoke:** exact FTS probe for `"star shaped" OR "star-shaped"` reported 247 total results, returned 10 in **5.505 ms**. `holonomy` reported 6,751 total results, returned 10 in **18.993 ms**. These are runner/prototype measurements, not production SLAs.
+
+**Concurrency smoke:** eight independent Python query processes simultaneously queried `holonomy OR derivation`; all read generation `20260920T150339Z-5299bf80`, all returned 10 hits, individual process-inclusive times 173.204–227.113 ms, total wall time **233.058 ms**. This clears the first stated 8-reader prototype gate and exceeds Nathan's stated five-loop baseline, but does not yet establish sustained-load capacity.
+
+**Durability work added:** `tools/build_mersearch_index.py` gained hidden `--fail-before-publish` test hook (commit `f82aed27095f155211dfa42967a25b87f58802c7`). Indexed workflow gained:
+1. continuous read probes while a second generation builds, requiring old generation readability and post-build atomic switch to a distinct new generation;
+2. intentional pre-publication build failure requiring `CURRENT.json` to retain the prior green generation and a successful post-failure query;
+3. existing eight-reader test.
+Workflow update commit `918a84175f46cc58a42b13ec5700857961a49ca1`; run `35518465837` queued at checkpoint-write time.
+
+**Stable release:** 1.0 unchanged. 1.1 remains development-only.
+
+**Next cursor:** inspect `35518465837`; repair durability failures. After green, implement incremental source reuse to eliminate ~52s full rebuild cost for small archive changes, then measure no-change and one-file-change rebuilds.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
