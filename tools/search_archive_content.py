@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transparent multi-format archive search with Boolean/NEAR queries and provenance exports.
+"""Mercer_Searcher_1.0 — transparent multi-format archive search with Boolean/NEAR queries.
 
 Read-only. Default exclusions include QUARANTINE and PRIOR_ART. Search results and
 lexical status signals are discovery aids, never source-authority/currentness judgments.
@@ -275,7 +275,7 @@ def main()->int:
  sort_hits(hits,args.sort,args.descending)
  if args.limit>0:hits=hits[:args.limit]
  args.out.mkdir(parents=True,exist_ok=True);generated=datetime.now(timezone.utc).isoformat()
- manifest={"schema_version":2,"generated_at_utc":generated,"tool":"tools/search_archive_content.py","query":query,
+ manifest={"schema_version":2,"generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
   "sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"hits":len(hits)},
@@ -292,7 +292,7 @@ def main()->int:
    for k,v in list(d.items()):
     if isinstance(v,(list,dict)):d[k]=json.dumps(v,ensure_ascii=False)
    w.writerow(d)
- lines=["# Transparent Archive Search Results","",f"Generated: {generated}",f"Query: `{query}`",
+ lines=[f"# {TOOL_NAME} Results","",f"Generated: {generated}",f"Query: `{query}`",
   f"Coverage: {files:,} files / {records:,} records / {len(hits):,} hits.",
   f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
   "Status labels are lexical retrieval signals only; they do not establish supersession or authority.",""]
@@ -312,7 +312,7 @@ def main()->int:
  lines+=["","## Concept graph",""]
  lines += [f"- `{a}` ↔ `{b}` — {n} co-occurring hit record(s)" for (a,b),n in edges.most_common()] or ["_No configured topic co-occurrences._"]
  (args.out/"SEARCH_RESULTS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
- print(json.dumps({"files_scanned":files,"records_scanned":records,"hits":len(hits),"sort":args.sort,
+ print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"hits":len(hits),"sort":args.sort,
   "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
  return 0
 if __name__=="__main__":raise SystemExit(main())
