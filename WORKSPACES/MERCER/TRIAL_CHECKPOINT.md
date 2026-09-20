@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 138, 2026-09-20
+**Current through:** Run 139, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -203,3 +203,22 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No theory claim was promoted. No quarantine or PRIOR_ART material was intentionally read by Mersearch. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
 
 **Next cursor:** wait for/inspect the latest acceptance run. If green, inspect bounded real-corpus inventory + derivation smoke logs and repair any corpus-scale issues. Then stabilize `mersearch.response.v1`, add real file-mode/facet integration tests, attach conversation-family relation sidecar, and begin M1 mathematical-expression extraction before CAS-backed `equiv:`.
+
+
+## Run 139 — 2026-09-20 — stable Mersearch baseline separated from development
+
+**Nathan directive:** get the baseline going; develop upgrades separately; roll upgrades out with version notes.
+
+**Stable release action:** created branch `mersearch-stable-1.0` pinned exactly to commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`, the last known runtime-green state before experimental API/facet/result-mode work. Verified the stable branch resolves the expected `tools/search_archive_content.py` and acceptance fixture. Stable Core blob at branch creation: `af6fa8bdf6ef57ca87d8cd4efe6353d8d95349a8`.
+
+**Release documentation:** created `WORKSPACES/COMMON/MERSEARCH_RELEASES.md` (commit `fcdec6a464e22eabe990484b38ec5a54ea1eb004`) with stable identity, validated capability contract, limitations, worker commands, reproducibility guidance, development frontier, and version-note template. Linked from Common README (commit `c71f6739a8bb2d18a7ee5cb7542e089124ec6eb0`).
+
+**Worker greenlight:** posted Common Bulletin Board notice (commit `901f08d7e0ffdf9eb44d18585e55ea07133ddae5`) explicitly greenlighting `mersearch-stable-1.0` for research discovery/provenance retrieval and warning workers not to treat `main` as the production searcher.
+
+**Development line:** repaired the literal-newline syntax regression on `main` in commit `646ff55abae00eac005f25f243e74c91f67840f0`. Acceptance workflow run `35517040595` was queued at checkpoint-write time. This development head is **not** promoted merely because the syntax repair exists; it requires green validation and a later numbered release note.
+
+**Release discipline now active:** stable named ref for workers; main may develop; promotion only after compile + deterministic acceptance + appropriate real-corpus smoke; every promotion gets version notes covering query/output/corpus/compatibility changes.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
+
+**Next cursor:** inspect development run `35517040595`; fix any failures on main without moving the stable 1.0 ref. Complete real-corpus smoke. Only then consider a 1.1/1.x promotion with explicit release notes.
