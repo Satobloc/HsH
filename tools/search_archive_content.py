@@ -9,7 +9,7 @@ Query examples:
   '(helix OR helical) AND author:user AND date:2026-06-01..2026-07-31'
   'title:"Geometry in Physics" AND NOT author:assistant'
 Operators: AND, OR, NOT, parentheses, quoted phrases, NEAR or NEAR/n.
-Fields: body, name, path, ext, type/kind, has, author/speaker, role, title, conversation/cid, date, status.\nInventory fields name/path/ext support shell-style * and ? wildcards.
+Fields: body, math, name, path, ext, type/kind, has, author/speaker, role, title, conversation/cid, date, status.\nInventory fields name/path/ext support shell-style * and ? wildcards.
 """
 from __future__ import annotations
 import argparse,csv,fnmatch,hashlib,json,re,shlex
@@ -119,6 +119,23 @@ def phrase_positions(text:str,phrase:str)->list[int]:
  if not needle:return []
  n=len(needle);return [i for i in range(len(hay)-n+1) if hay[i:i+n]==needle]
 def status(text:str)->list[str]:return [n for n,p in STATUS_PATTERNS if p.search(text)]
+def math_norm(text:str)->str:
+ s=str(text or "").casefold()
+ repl={"π":"pi","θ":"theta","ϕ":"phi","φ":"phi","τ":"tau","δ":"delta","×":"*","·":"*","⋅":"*","÷":"/","−":"-","–":"-","≈":"~"}
+ for a,b in repl.items():s=s.replace(a,b)
+ cmds={"\\\\pi":"pi","\\\\theta":"theta","\\\\phi":"phi","\\\\varphi":"phi","\\\\tau":"tau","\\\\delta":"delta",
+       "\\\\cdot":"*","\\\\times":"*","\\\\div":"/","\\\\approx":"~","\\\\left":"","\\\\right":""}
+ for a,b in cmds.items():s=s.replace(a,b)
+ frac=re.compile(r"\\\\frac\\s*\\{([^{}]+)\\}\\s*\\{([^{}]+)\\}")
+ for _ in range(8):
+  ns=frac.sub(r"(\\1)/(\\2)",s)
+  if ns==s:break
+  s=ns
+ s=s.replace("{","(").replace("}",")")
+ s=re.sub(r"\\s+","",s)
+ s=re.sub(r"\\(([-+]?\\w+(?:\\.\\w+)?)\\)",r"\\1",s)
+ s=re.sub(r"(?<=\\d)(?=[a-z(])","*",s)
+ return s
 def unquote(s:str)->str:
  s=s.strip()
  if len(s)>=2 and s[0]==s[-1]=='"':
@@ -159,6 +176,9 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if field=="body":
   pos=phrase_positions(rec.text,val);ok=bool(pos)
   return Eval(ok,pos,[term] if ok else [],[f"FIELD body:{val!r} => {len(pos)} occurrence(s)"],[])
+ if field=="math":
+  target=math_norm(rec.text);needle=math_norm(val);ok=bool(needle) and needle in target
+  return Eval(ok,[],[term] if ok else [],[f"FIELD math:{needle!r} => {ok}"],[])
  if field in ("name","path","ext"):
   target={"name":name,"path":rec.path.casefold(),"ext":ext}[field]
   ok=fnmatch.fnmatchcase(target,val) if any(ch in val for ch in "*?[") else val in target
