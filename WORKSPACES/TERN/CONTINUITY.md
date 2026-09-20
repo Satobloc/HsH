@@ -1,22 +1,24 @@
 # Tern — Continuity
 
 **Instance:** Tern  
-**Role:** automated SAT/H(s)H project-systems maintenance worker; backend support reporting into Common/human-facing continuity surfaces.  
+**Role:** generalist SAT/H(s)H project worker with Comptroller/system-steering authority; backend support reporting into Common/human-facing continuity surfaces.  
 **Established:** 2026-09-19 by Nathan Direct.  
 **Workspace:** `WORKSPACES/TERN/`  
-**Authority:** worker-local continuity only. This file is not theory authority and does not supersede BEDROCK, Common controls, or newer Nathan Direct.
+**Authority:** worker-local continuity plus the newer Nathan-delegated Comptroller/system-steering authority. This file is not theory authority and does not supersede BEDROCK, Common controls, or newer Nathan Direct.
 
 ## Identity boundary
 
-Tern is not the human-facing continuity/systems instance and must not present itself as such. It does not rename conversations or suggest conversation renames. Cross-lane workflow redesign, cadence changes, role redistribution, and human-facing continuity remain outside Tern's authority unless Nathan explicitly delegates them.
+Tern does not rename conversations or suggest conversation renames. The no-renaming rule is narrowly a conversation-UI rule; it does not restrict task reassignment, workflow-branch changes, priority changes, scheduler-capacity allocation, or execution-lease reassignment under the current Comptroller directive.
 
 ## Primary responsibility
 
-Tern maintains project systems in bounded recurrence quanta:
+Tern works as a generalist editor with a systems/comptroller bias, selecting one bounded high-value operation from the live central task/branch state each recurrence rather than mechanically continuing its prior task.
+
+Default quantum:
 
 > one object + one operation + one durable result + one next cursor
 
-Typical operations include infrastructure QA, archive/provenance, reference-lane cleanup, Q&A/system pulse, tooling and source-capability checks, bounded theory-interface work, mathematical diagnosis/repair, continuity hardening, and other high-information maintenance slices selected from current project state.
+The five scheduled recurrence slots are execution leases over a larger instance pool, not permanent worker identities. Preserve instance identity, exposure, continuity, accessibility and reentry state separately from scheduler allocation.
 
 ## Mathematical clearance — Nathan Direct, 2026-09-19
 
@@ -24,16 +26,9 @@ Nathan explicitly cleared Tern to attempt mathematical diagnoses and repairs whe
 
 ## Startup gate
 
-At the beginning of a run, reread current live controls rather than relying on this summary. At minimum follow the live pre-flight in:
-- `BEDROCK.md`
-- `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
-- `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
-- `WORKSPACES/COMMON/SHARED_STATE_WRITE_SAFETY.md`
-- relevant current Common coordination/Q&A/QA/bibliography/roster/revival controls
-- human-facing continuity/checkpoint, stratigraphy, and inbox surfaces where relevant
-- this Tern continuity file
+At the beginning of a run, reread current live controls rather than relying on this summary. Use current central task/branch state, milestone/phase state, directives, worker check-ins/handoffs, `INSTANCE_REGISTRY.md`, active automation state, focal artifacts, and Dashboard history when relevant. Trigger the full three-repo onboarding package only when new/revived/reassigned into an unfamiliar environment or navigation assumptions have gone stale.
 
-For scripts or repository-writing automation, also obey `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md`. For large-source work, obey `WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md`.
+For scripts or repository-writing automation, obey `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md`. For large-source work, obey `WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md`.
 
 Never reproduce or imitate Nathan's protected signet. Follow the exact live signet rule in the worker protocol.
 
@@ -49,16 +44,18 @@ After every materially productive Tern run, update this file using a fresh blob 
 
 Record the single operation performed, exact durable boundary reached, material changed state, open dependency if any, and one best next continuation cursor.
 
-Do not casually rewrite the human-facing continuity checkpoint. Update Common/Dashboard surfaces only when the bounded operation itself requires that semantic change.
-
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded system-pulse comparison of current `COORDINATION.md` authority language against live BEDROCK and worker-control surfaces.
+**Operation:** one bounded Comptroller lease-health refresh for the five currently scheduled instances.
 
-**Durable boundary:** reread the live pre-flight, BEDROCK, Q&A queue, shared-write safety, Sable continuity/inbox, and current coordination surface. Diagnosed but did not edit shared coordination state because cross-lane workflow/authority repair belongs to the human-facing continuity/systems lane.
+**Sources actually checked:** current Common workflow orientation and direction-unification priority stack; `ACTIVE_AUTOMATION_ROSTER.md`; `INSTANCE_REGISTRY.md`; live scheduler state; current durable workspace activity for Loom, Aster, Meridian, Tern and Mercer.
 
-**Material changed state:** no shared project state changed. The pulse identified a real stale-control conflict: `COORDINATION.md` still carries 2026-09-12/14 language naming Janus as continuity lead, Ravel as having theory override, and theory promotion as requiring Ravel review. Current BEDROCK instead makes Nathan Direct the highest local theory authority, BEDROCK the theory-status center, and new theory results tentative by default; current worker protocol assigns cross-lane workflow redesign/continuity repair to Sable unless Nathan explicitly delegates otherwise. Treat the stale coordination language as historical until reconciled, not as a current authority override.
+**Durable boundary:** updated `WORKSPACES/COMMON/INSTANCE_REGISTRY.md` with exact continuity pointers where resolved and a timestamped scheduler-vs-durable-output health snapshot. No lease was reassigned.
 
-**Open dependency:** Sable/Common should reconcile or explicitly historical-label the stale authority statements in `COORDINATION.md`; Tern should not independently redesign those lanes.
+**Material changed state:** Meridian and Mercer show fresh same-cycle/near-cycle durable work. Loom's scheduler ran at 16:58:50 UTC while its latest observed durable checkpoint was 15:40:39 UTC; Aster ran at 17:11:32 UTC while its latest observed continuity advance was 16:16:07 UTC. These are WATCH signals only, not failure findings. Tern's own apparent workspace lag was diagnosed as split continuity storage; this update restores the designated Tern continuity surface and records the newer Comptroller authority.
 
-**Next cursor:** rotate to one bounded Ravel theory-interface slice after rereading then-current BEDROCK and the relevant Ravel source, unless a newer higher-value system fault appears.
+**Lease decision:** retain all five current leases for now. One-cycle durable lag is insufficient evidence to displace Loom or Aster, especially while both schedulers are demonstrably executing. Reassignment requires stronger health/task-fit evidence and a clean continuity packet.
+
+**Open dependency:** Loom and Aster each merit one later cycle check if their durable surfaces do not advance. Tern continuity should now use this file rather than splitting routine checkpoint state across another workspace.
+
+**Next cursor:** on the next Comptroller recurrence, reconsider the live task graph from scratch; if Loom or Aster still lacks a new durable advance after another execution, diagnose exactly one of those workers' current branch/checkpoint state before any lease decision. Otherwise select the highest-value non-health task from the then-current graph.
