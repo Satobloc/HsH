@@ -40,39 +40,15 @@ The export again demonstrates the known NotebookLM serialization hazard: short p
 
 Tentative value: **VERY HIGH for historical SAT reconstruction/source wayfinding; LOW as direct-authorship evidence without crosswalks.**
 
-The generated material is unusually dense in claims/equations attributed to its 50-source panel. Visible topics include:
-
-- claimed classical constraint closure in a unit-timelike `u_mu` sector, Poisson-matrix/second-class-constraint/Dirac-bracket language;
-- a three-field SAT Lagrangian involving `theta_4`, `u_mu`, and `tau`;
-- refractive-index / angle relations and an inverse-RI extraction relation;
-- mass-emergence and angular-tension formulas;
-- `Z_3` / triplet-fusion / torsion-quantization claims;
-- cosmological-redshift, muon-anomaly, and lensing reinterpretations;
-- explicit generated caveats that quantization, tau dynamics, and precise mass hierarchy remained unfinished.
+The generated material is unusually dense in claims/equations attributed to its 50-source panel. Visible topics include constraint closure, a three-field SAT Lagrangian, refractive-index / angle relations, mass-emergence formulas, triplet-fusion/torsion claims, phenomenological reinterpretations, and generated caveats about unfinished quantization, tau dynamics, and mass hierarchy.
 
 None of those generated formulations is promoted here as current SAT/H(s)H, mathematically correct, Nathan-authored, or historically primary. Their immediate provenance value is as a **citation-bearing wayfinding artifact** whose underlying source identities still require recovery.
-
-### Important chronology/currentness caution
-
-This notebook appears to synthesize a substantial historical SAT field-theory phase. It should not be flattened into current H(s)H theory state. In particular, generated claims of `structural closure`, `operational field theory`, or a settled equation chassis are NLM characterizations unless/until matched to attributable underlying documents and later Nathan corrections.
 
 ### Source-panel audit — 2026-09-19
 
 A full blob inspection tested the planned source-first route. The notebook metadata reports `visible_source_count: 50`, but the serialized top-level `sources` array is **empty** (`[]`). The generated answers retain numeric citation labels, but this capture contains no citation-label → source-name mapping and no source IDs/URLs/row metadata from which to reconstruct the 50-source panel.
 
-This is a concrete exporter/capture limitation, not evidence that the notebook lacked sources. Classification for the cited source ancestry is therefore:
-
-- NLM generated claims: present;
-- numeric citation labels: present;
-- notebook-level attestation that 50 sources were visible: present;
-- serialized source identities: absent from this capture;
-- underlying archived sources: unresolved from this export alone.
-
-Do not infer source identity from the equations or generated prose. Do not treat citation number `5`, `6`, etc. as a stable source identity outside this notebook capture.
-
-### Crosswalk status
-
-The planned direct source-panel crosswalk is **BLOCKED BY CAPTURE OMISSION** for this export. The item remains VERY-HIGH tentative reconstruction value because it exposes a dense historical claim/equation cluster, but it cannot itself supply the required source-name ancestry map. A different capture/source index or independent archive search would be required to identify the cited underlying documents.
+Classification: NLM generated claims present; numeric citations present; 50-source notebook-level attestation present; serialized source identities absent; underlying archived sources unresolved from this export alone. Do not infer source identity from equations or generated prose.
 
 ## Semantic/provenance read — `BURNTHROUGH__NotebookLM_export.json`
 
@@ -82,30 +58,48 @@ The planned direct source-panel crosswalk is **BLOCKED BY CAPTURE OMISSION** for
 **Capture:** `2026-09-19T01:41:45.856Z`  
 **Visible source count:** 2  
 **Exporter:** `0.2.2`  
-**Capture completeness:** `reached_top=true`; this supports top-of-visible-chat capture only, not underlying-source completeness.
+**Capture completeness:** `reached_top=true`.
 
 ### Authorship boundary
 
-This export provides an especially clear local demonstration that NotebookLM `role=user` is not an authorship field. The visible sequence alternates short uncited prompt-like turns (for example `What's the Sun's China?`, `Yeah, but is it on th other side of the Sun? Are there Sun's Chinese people?`, and `I Hurd that one befror bobbie`) with long citation-bearing generated responses; all are serialized as `role=user`.
-
-Therefore the short turns are **Nathan-candidate wording only**, not Nathan Direct, until authenticated against an underlying raw conversation or other independent source. The citation-heavy turns are NLM-generated synthesis/style continuation and must not be converted into Nathan-authored prose merely because they imitate or quote source language.
+This export provides an especially clear local demonstration that NotebookLM `role=user` is not an authorship field. Short uncited prompt-like turns and long citation-bearing generated responses are all serialized as `role=user`. Short turns are **Nathan-candidate wording only**, not Nathan Direct, until independently authenticated; citation-heavy turns remain NLM-generated synthesis/style continuation.
 
 ### Semantic routing value
 
-Tentative value: **HIGH for creative/voice/conceptual-source archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.**
+Tentative value: **HIGH for creative/voice/conceptual-source archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.** Preserve its playful/recursive/neologistic material rather than cleaning it away or promoting metaphor into physics claims.
 
-The visible material is highly idiosyncratic, playful/recursive language rather than a normal physics derivation. Recurrent generated motifs include `Sun's China`, inside/outside inversion, scale flips, the crossing of an `8`, witnessing/observer recursion, weave imagery, and deliberately distorted/neologistic language. Preserve this as creative/playful archive material rather than cleaning it away or promoting metaphor into physics claims.
+The notebook metadata attests to **2 visible sources**. Repository code searches for the exact notebook title and `Sun's China` produced no indexed underlying-source match. Classification: **two-source notebook attestation / underlying source identities unresolved in the currently checked route**.
 
-### Source/wayfinding status
+## Semantic/provenance read — `Alberrisch__NotebookLM_export.json`
 
-The notebook metadata attests to **2 visible sources**. The generated responses contain many numeric citation labels, so source-derived wording is clearly being reused, but citation labels alone do not establish source identity. Repository code searches for the exact notebook title and `Sun's China` produced no indexed underlying-source match. That negative result is weak because code-search indexing is incomplete and must not be treated as evidence that the source is absent.
+**Read date:** 2026-09-20  
+**Blob:** `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`  
+**Notebook id:** `68f71fa4-253c-4618-b571-273e750f6b20`  
+**Capture:** `2026-09-19T01:44:21.584Z`  
+**Visible source count:** 15  
+**Exporter:** `0.2.2`  
+**Capture completeness warning:** `reached_top=false`; visible chat is incomplete.
 
-Classification: **two-source notebook attestation / underlying source identities unresolved in the currently checked route**. No Nathan-authored wording from this notebook has been admitted to Nathan Direct in this pass.
+### Authorship boundary
+
+This notebook again serializes both short uncited first-person turns and long citation-bearing NotebookLM answers as `role=user`. The visible first-person turns are highly plausible Nathan utterances but remain **Nathan-candidate**, not Nathan Direct, until independently crosswalked. Examples include statements that the speaker is the artist, learned particular painting techniques mostly from his father, had done little oil painting since his teens, and prefers willow-twig charcoal, smudge stick, and kneaded rubber for fine-art work. Generated responses interpret and elaborate those statements and must not be converted into Nathan-authored biography or artistic doctrine.
+
+### Semantic routing value
+
+Tentative value: **HIGH for personal/creative provenance and artistic-method archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.**
+
+The visible sequence concerns a portrait/oil-painting process rather than SAT theory. Candidate first-person material describes: omission of an underpainting; use of red/yellow/blue; inherited technique lessons from the speaker's father, especially white touches and darkest-next-to-lightest tonal placement; a return to oils after roughly 30–40 years; intermittent acrylic/pastel/chalk/colored-pencil/pen work; an experimental-art orientation; and preference for willow charcoal plus subtractive/blending tools. NotebookLM generated prose proposes art-historical labels and possible painter antecedents; those guesses are NLM interpretation, not source testimony.
+
+The capture is potentially useful for a future Nathan creative/biographical corpus because the short first-person turns contain unusually specific self-report. Do not ingest them into durable Nathan Direct until source/authorship authentication is available.
+
+### Source / crosswalk status
+
+Notebook metadata attests to **15 visible sources**. Current repository code searches for `Alberrisch` and the distinctive phrase cluster `willow twig charcoal smudge stick kneaded rubber` returned no indexed underlying-source match. This is a weak negative because code-search coverage is incomplete. Classification: **15-source notebook attestation / underlying source identities unresolved in the checked route**. No candidate turn was admitted to Nathan Direct in this pass.
 
 ## Extraction / authorship caution
 
-Folder 18/19 NotebookLM exports already establish that `role=user` is not sufficient Nathan-authorship evidence. Folder 20 now independently reinforces the same rule. Apply it consistently. NLM source lists/indices are wayfinding evidence until underlying sources are located and authenticated.
+Folder 18/19 NotebookLM exports already establish that `role=user` is not sufficient Nathan-authorship evidence. Folder 20 independently reinforces the same rule. Apply it consistently. NLM source lists/indices are wayfinding evidence until underlying sources are located and authenticated.
 
 ## Next cursor
 
-`Alberrisch__NotebookLM_export.json` is the next genuinely new visible folder-20 blob for a bounded semantic/provenance read. Do not infer value from its title. Return to `SAT_SoT` or `BURNTHROUGH` source ancestry only when a different capture/index or independent source anchor becomes available.
+Continue folder-20 SHA/inventory differentiation and select one genuinely new, non-duplicate high-information blob for the next bounded semantic/provenance read; do not return to unresolved Alberrisch source ancestry without a different anchor.
