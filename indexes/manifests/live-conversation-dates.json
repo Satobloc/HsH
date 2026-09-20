@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-20T06:31:39.717966+00:00",
+  "generated_at_utc": "2026-09-20T06:49:33.343212+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 1,
-    "planned": 8,
+    "planned": 9,
     "skipped": 4
   },
   "records": [
@@ -97,6 +97,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Meridian Mover Trial — raw.json",
+      "new_path": "LIVE CONVOS/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-13T12:33:01.867994-04:00",
+      "end_local": "2026-09-20T02:41:43.864833-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 348,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "LIVE CONVOS/SAT Daily Action — raw.json",
