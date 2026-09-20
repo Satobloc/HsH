@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-09-20-holy-shit-moments-001",
-  "query": "\"Holy Sh*t Moments\" OR \"Holy Shit Moments\" OR \"Holy Sh!t Moments\" OR \"Holy S*** Moments\" OR \"5Co4HiHM2I9eow6erLQCqt\""
+  "request_id": "2026-09-20-meridian-hagalaz-historical-tuple-001",
+  "query": "Hagalaz AND (offset OR rotation OR scale OR translation OR sphere OR hypersphere OR UI OR \"Three Spheres\" OR superhelix OR superhelical)"
 }
