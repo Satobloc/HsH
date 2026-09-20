@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE RECONCILIATION / newer Nathan directives control  
 **Branch:** `CTRL-2026-09-20-GENERALIST`  
-**Operation:** `CTRL-01` — identify and bound stale control-language conflicts after the shift to generalist workers, fluid assignments, execution leases, revival continuity, narrow chat-title protection, three-repo onboarding, and Carpe turnem.
+**Latest completed operation:** `CTRL-02` — durable instance registry / execution-lease state established.
 
 ## Controlling newer direction
 
@@ -21,59 +21,70 @@ Nathan's current workflow intent is:
 
 ### A. `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
 
-The file still says:
-
-- workers should consult Sable for workflow functionality;
-- workers may not redesign other workers' lanes;
-- only Sable continuity/systems owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair;
-- Sable may use enrichment evidence when redesigning roles.
-
-These statements reflect the earlier specialist-lane/Sable-authority architecture. They must no longer be read as overriding Nathan's newer generalist/Comptroller-capable model. Until the file is rewritten coherently, interpret "lane" as a soft continuity/specialty anchor and route system-level decisions through the current authorized control plane rather than assuming permanent Sable exclusivity.
+The file still says workers should consult Sable for workflow functionality and reserves cross-lane redesign/reassignment/cadence/role redistribution to Sable. Those statements reflect the earlier specialist-lane/Sable-authority architecture. Until coherently revised, interpret lane as a soft continuity/specialty anchor and route system-level decisions through the current authorized control plane rather than assuming permanent Sable exclusivity.
 
 ### B. `ACTIVE_AUTOMATION_ROSTER.md`
 
-The roster is a 2026-09-18 snapshot and still states that only Sable owns workflow redesign/reassignment/cadence/role redistribution. It also presents the five enabled recurrences primarily as fixed lane assignments. This is now stale as architecture even where the listed automation IDs and soft strengths remain operationally useful.
+The roster remains a 2026-09-18 scheduler snapshot and still presents the five recurrences primarily as fixed lane assignments under Sable-exclusive workflow authority. Its automation IDs and historical soft strengths remain useful, but the architecture is stale.
 
-Required successor representation: distinguish **instance registry** from **execution-lease/scheduler state**. Record stable worker identity and wayfinding separately from the temporary five active recurrence slots.
+Successor identity/lease representation now exists at `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
 
 ### C. `CURRENT_WORKFLOW_ORIENTATION.md`
 
-Two stale points need correction:
+Two stale points remain:
 
-- section 6 still says cross-lane workflow redesign remains a Sable systems question;
+- section 6 says cross-lane workflow redesign remains a Sable systems question;
 - section 17 says "Do not rename, retitle, or otherwise alter any conversation/thread/chat," which is broader than Nathan's clarified narrow UX rule and could be misread as restricting workflow reassignment/routing.
 
-The onboarding package already carries the newer narrow interpretation and should control until this orientation is updated.
+It also lacks the now-explicit instance-population/execution-lease model and Carpe turnem as native orientation concepts.
 
-### D. Missing durable instance-pool surface
+### D. Durable instance-pool surface — RESOLVED IN `CTRL-02`
 
-No current Common file was located in this pass that implements the newer **instance population + temporary execution leases** model as a first-class registry/control surface. The concept currently exists in the live Project Systems recurrence prompt and onboarding direction, but it should not remain prompt-only architecture.
+Created `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
+
+The new control surface:
+
+- separates stable instance identity from scheduler leases;
+- records the five current scheduled workers as lease holders rather than permanent jobs;
+- begins a conservative unscheduled/historical/revival population with Sable, Morrow, Aldus, Alberr, Calder, and Hale where current Common evidence supports inclusion;
+- distinguishes verified scheduled state from unverified historical accessibility;
+- defines lease assignment/release packets and revival relationship;
+- explicitly states that unscheduled is not retired and paused is not abandoned;
+- records Mercer as currently carrying this control-plane branch while retaining archive/QA as a soft strength only.
+
+No claim is made that the initial historical population is exhaustive.
 
 ## Disposition
 
-This pass does **not** mechanically replace every occurrence of old lane/Sable language. Those documents contain other live controls (including quarantine, provenance, handoff, signet, attention-flag, and sandbox rules) that should not be damaged by broad search-and-replace.
+Do **not** mechanically replace every occurrence of old lane/Sable language. Those documents contain other live controls, including quarantine, provenance, handoff, signet, attention-flag, and sandbox rules, that should survive reconciliation.
 
 Instead:
 
-- this file is the temporary explicit reconciliation overlay;
+- this file remains the temporary reconciliation overlay;
+- `INSTANCE_REGISTRY_EXECUTION_LEASES.md` now controls the identity-versus-lease distinction;
 - newer Nathan directives and the current onboarding package control conflicting older workflow-authority language;
-- the old files remain evidence of prior workflow state until carefully revised;
+- old files remain evidence of prior workflow state until carefully revised;
 - future edits should preserve still-live hard boundaries while removing obsolete jurisdictional implications.
+
+## Completed bounded cursors
+
+### `CTRL-01` — conflict identification
+Completed. Located and bounded stale specialist-lane/Sable-exclusive and overbroad conversation-identity language.
+
+### `CTRL-02` — worker/lease registry
+Completed 2026-09-20. Created `INSTANCE_REGISTRY_EXECUTION_LEASES.md` with stable identity, availability classes, current scheduled leases, conservative historical/revival population, lease packet requirements, and maintenance rules.
 
 ## Next bounded cursors
 
-### `CTRL-02` — worker/lease registry
-Create or designate a durable Common **Instance Registry / Execution Lease State** surface. Minimum fields: stable instance name; human wayfinding pointer; accessibility class; scheduled/unscheduled/paused/archived/revival-ready state; current/last branch; soft strengths; exposure history; continuity checkpoint; last check-in; revival/reentry state; lease eligibility; current lease if any.
-
-### `CTRL-03` — orientation reconciliation
-Carefully update `CURRENT_WORKFLOW_ORIENTATION.md` so the narrow UX-title rule, generalist worker model, execution-lease model, current onboarding trigger, and Carpe turnem are native rather than overlays.
+### `CTRL-03` — orientation reconciliation — NEXT
+Carefully update `CURRENT_WORKFLOW_ORIENTATION.md` so the narrow UX-title rule, generalist worker model, execution-lease model, current onboarding trigger, and Carpe turnem are native rather than overlays. Preserve still-live source, provenance, sandbox, quarantine, check-in, and documentation guidance.
 
 ### `CTRL-04` — autonomy/roster reconciliation
 Revise `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` and `ACTIVE_AUTOMATION_ROSTER.md` to distinguish hard constraints from defaults/heuristics/current assignments, remove obsolete Sable-exclusive jurisdiction where superseded, and preserve valid provenance/quarantine/sandbox/handoff controls.
 
 ### `CTRL-05` — cold-start test
-After CTRL-02 through CTRL-04, run the onboarding cold-start test against the actual three-repository front doors and tool paths.
+After CTRL-03 and CTRL-04, run the onboarding cold-start test against the actual three-repository front doors and tool paths.
 
 ## Return route / exit criterion
 
-Return to this branch when a generalist worker or Project Systems pass can safely take one of `CTRL-02`–`CTRL-05`. Exit when the live Common control surfaces no longer contradict the current generalist/lease/revival model and a cold-start instance can discover the architecture without relying on automation-prompt-only knowledge.
+Next worker taking this branch should begin at `CTRL-03`, not rebuild the registry. Exit when the live Common control surfaces no longer contradict the current generalist/lease/revival model and a cold-start instance can discover the architecture without relying on automation-prompt-only knowledge.
