@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 140, 2026-09-20
+**Current through:** Run 141, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -241,3 +241,20 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No theory claim was promoted. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
 
 **Next cursor:** inspect workflow triggered by `2aeb8146...`. Once current dev output path is mechanically green, implement timing instrumentation and initial SQLite immutable-generation builder/query prototype rather than expanding expensive query semantics first.
+
+
+## Run 141 — 2026-09-20 — first executable indexed Mersearch 1.1 substrate
+
+**Nathan instruction:** stop merely agreeing and make concrete progress; continue next upgrade batch while preserving stable 1.0.
+
+**Implementation:** created `tools/build_mersearch_index.py` (commit `5a14825a97f51ee015e8d712552579ab223e2604`). This is the first executable build-once/read-many substrate: fresh immutable generation directory; SQLite source/record tables; FTS5 body/title/speaker/role/CID index; source SHA-256, size, mtime and record counts; Core record extraction reuse; normalized math cache; build timing; generation manifest; atomic `CURRENT.json` publication after successful close/manifest write. Active generations are not mutated in place.
+
+Created `tools/query_mersearch_index.py` (commit `501e81d218f57d3eb8f9c9e0d22f56ad370c8fc2`): read-only URI connection to the published generation; FTS MATCH query; optional speaker/role narrowing; total-result count; provenance fields; snippet; generation ID; elapsed milliseconds.
+
+**Performance gate:** created `.github/workflows/mersearch-1-1-index.yml` (commit `4b1f523aeab2658189277e5eda15c23eba7d5874`). It compiles all dev tools, builds a bounded immutable index, runs two indexed latency probes, then launches **eight concurrent read processes** and asserts they all read one generation. Workflow run `35518240922` was in progress / checkout at checkpoint-write time.
+
+**Stable release:** `mersearch-stable-1.0` unchanged. These 1.1 tools are development-only and are not worker production dependencies yet.
+
+**Next cursor:** inspect run `35518240922`; repair prototype failures. Once green, record actual build/query/concurrency timings; then implement incremental generation reuse and reader-during-rebuild/failure-retention tests.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
