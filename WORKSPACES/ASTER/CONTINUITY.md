@@ -46,7 +46,7 @@ Target: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).
 
 Pair identity: base and `(1)` are populated same-notebook/same-source-panel but distinct conversation branches/states; not byte duplicates or established prefix/superset.
 
-Source-first speaker-separated packaging now reaches **index 335**. Full detailed reconstruction and exact keys/selected quotations are in `RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`. Earlier checkpoint text ending at 103 is superseded by the following coverage summary.
+Source-first speaker-separated packaging now reaches **index 425**. Full detailed reconstruction and exact keys/selected quotations are in `RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`. Earlier checkpoint text ending at 103 is superseded by the following coverage summary.
 
 ### Coverage 1–103 — first-principles/minimal-geometry gate
 
@@ -107,7 +107,23 @@ Initial mode remains high-priority best-quotes/backlog harvest; later occasional
 - no direct sandbox theory construction occurred; audit mathematics was preserved as source/audit status rather than independently validated.
 - shared-worker provenance QA lesson was posted to Common.
 
-**Next cursor: index 336 onward in the same SAT RIGOR `(1)` branch.** Continue in large coherent tranches where retrieval permits. Watch for audit conclusions being retracted by later cycles, distinguish pasted audit-package spans from Nathan-authored connective prose, and share any broadly reusable retrieval/provenance lessons to Common. If active runtime cannot retrieve the later large-blob region faithfully, do not invent it; use an executable promoted Mersearch path or another source-faithful route when available.
+**Next cursor: index 426 onward in the same SAT RIGOR `(1)` branch.** Continue in large coherent tranches where retrieval permits. Watch for audit conclusions being retracted by later cycles, distinguish pasted audit-package spans from Nathan-authored connective prose, and share any broadly reusable retrieval/provenance lessons to Common. If active runtime cannot retrieve the later large-blob region faithfully, do not invent it; use an executable promoted Mersearch path or another source-faithful route when available.
+
+### Coverage 336–425 — audit-retraction chains, photoneutrino sharpening, force taxonomy, macro scaling
+
+- Later audit cycles repeatedly overclaim closure and are then rejected or downgraded; index status as assertion→review→retraction/reopening chains, not by cycle number/checkmark.
+- 369/371 is a key discourse false-positive: Nathan's terse “No, it’s not” referred to Studio generation rather than necessarily rejecting the adjacent theory-closure claim.
+- 377 introduces “shelf-cocking” as a comic but semantically serious handle for a proposed flavor/orientation distinction; this is a useful Nathan Voice fingerprint candidate.
+- 381 catches the generated ~0.943 photon/neutrino pseudomass ratio by experimental-detectability sanity check and corrects “luminosity drop” terminology.
+- 383/389 sharpen pseudomass vs persistent relativistic gravity vs cross-time filament-network tension; 389 explicitly self-reverses a gravity/EM formulation and reopens audit architecture.
+- 407 corrects generated force taxonomy: braiding at any scale tracks strong-force analogue; intermeshing/Velcro is tentatively weak-force-associated; vortex interactions belong to electrogravity; two elementary structures/two fundamental actions proposed.
+- 409 makes TX scale-governed Lagrangian configuration a major intended research architecture.
+- 419–423 develop exploratory macro-worldtube morphology; 421 corrects convection-cell matter vs timewave-vortex category error and keeps competing mechanisms open.
+- 90-turn tranche remained tractable. Bulk indexing should preserve status-transition relations such as `closure_claim -> revoked/reopened_by` and `category_error -> Nathan_correction`.
+
+### Standing sub-priority — Nathan Voice fingerprints
+
+By Nathan directive, opportunistically inspect and refine Nathan Voice fingerprint material during excavation without displacing primary provenance work. Treat fingerprints empirically and preserve false-positive hazards. Candidate additions from 336–425: comic technical handles with real semantic load; explicit self-reversal (“actually / reversed / or rather”) as precision behavior; terse corrections requiring referent resolution; magnitude sanity-checks; rhetorical excitement paired with explicit epistemic restraint.
 
 ## Other retained checkpoints
 
