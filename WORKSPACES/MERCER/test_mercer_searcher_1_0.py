@@ -43,6 +43,24 @@ check("title",'title:"SAT成果展望" AND closure',True,r)
 check("date-range","date:2026-06-01..2026-06-30 AND closure",True,r)
 check("date-range-fail","date:2026-07-01..2026-07-31 AND closure",False,r)
 
+
+# Mersearch inventory/body fields and wildcard Boolean combinations.
+ri=m.Record("SAT_CONVOS_20/Derivation Notes 2026.txt","text-line","star shaped derivation reaches closure",
+            "Derivation Notes 2026","","","Nathan","user","2026-06-15T12:00:00+00:00","line:7")
+check("body-field",'body:"star shaped derivation"',True,ri)
+check("quoted-title-spaces",'title:"Derivation Notes 2026" AND closure',True,ri)
+check("name-glob",'name:*2026.txt',True,ri)
+check("name-glob-prefix",'name:Deriv*.txt',True,ri)
+check("name-glob-negative",'name:26*.txt',False,ri)
+check("name-boolean",'name:*26.txt OR name:26*.txt',True,ri)
+check("path-glob",'path:*SAT_CONVOS_20* AND ext:txt',True,ri)
+check("ext-negative",'ext:json',False,ri)
+check("kind",'kind:text-line',True,ri)
+check("has-text",'has:text-source',True,ri)
+check("has-conversation-negative",'has:conversation-source',False,ri)
+rc=rec("closure",speaker="Nathan",role="user")
+check("has-conversation",'has:conversation-source AND has:message-id AND has:conversation-id',True,rc)
+
 # Sorting.
 hs=[
  m.Hit("q","b","k","Z","c","m","Assistant","assistant","2026-07-01","l","e",[],"","s",[],[],[],[]),
