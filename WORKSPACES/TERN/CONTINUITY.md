@@ -46,16 +46,16 @@ Record the single operation performed, exact durable boundary reached, material 
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded Comptroller lease-health resolution pass on the two WATCH conditions recorded in the prior registry snapshot.
+**Operation:** one bounded control-plane consistency audit of `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` against the newer Nathan Direct establishing Project Systems as a generalist worker with Comptroller/system-steering authority and the scheduler-independent instance/lease model.
 
-**Evidence checked:** live five-slot scheduler state plus the newest HsH commits. Loom's next execution produced durable Loom work at 18:01:46 UTC (`17649d6383baa4ffc6c810124665a4e0303fea06`); Aster's next execution produced the source-certified P0 SAT RIGOR control packet at 18:12:42 UTC (`09dba4ca64ca32d1bea00b7de52c1f7c56192ec4`); Meridian's 18:27 cycle produced a bounded Hagalaz representation test at 18:26:51 UTC (`38fdc747ce145d00b0a4c318a32bf919f4925594`). All five scheduled leases remain enabled.
+**Evidence checked:** current `INSTANCE_REGISTRY.md`, current `NO_CONVERSATION_RENAMING_POLICY.md`, and current `ACTIVE_AUTOMATION_ROSTER.md`.
 
-**Durable boundary:** refreshed `WORKSPACES/COMMON/INSTANCE_REGISTRY.md` and cleared the superseded Loom/Aster WATCH readings. No lease, branch ownership, cadence, theory status, or milestone was changed.
+**Finding:** `ACTIVE_AUTOMATION_ROSTER.md` is stale in a consequential way. It still says only Sable owns cross-lane workflow redesign/reassignment and that Project Systems may only diagnose/recommend changes. That conflicts with Nathan's newer explicit delegation of Comptroller/system-steering authority to this recurrence. The no-conversation-renaming policy is already correctly narrow and does not create the conflict.
 
-**Material changed state:** the previous health concern did not persist. Loom and Aster both advanced durably on the immediately following cycle, so there is no current health basis for displacing either lease. Meridian also remains fresh.
+**Durable boundary:** the conflict is now explicitly recorded here. A direct semantic repair of the roster was attempted with a fresh blob SHA, but the repository write was blocked by the tool safety layer; therefore no claim is made that the Common roster itself changed.
 
-**Lease decision:** preserve all five current leases. Future reassignment should be driven by a new concrete health signal or by branch/milestone fit, not by the now-resolved lag snapshot.
+**Material changed state:** no scheduler lease, branch ownership, cadence, milestone, theory status, or Common semantic control changed. The stale roster authority text must not be treated as overriding the newer Nathan Direct while the repair remains pending.
 
-**Open dependency:** none from this health check.
+**Open dependency:** repair `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` so its authority section and Project Systems lane reflect the current Comptroller/lease model while preserving Sable as the human-facing continuity/systems instance. Use a fresh current blob SHA and a safe write path; do not broaden the edit into unrelated roster cleanup.
 
-**Next cursor:** reconsider the live central task graph from scratch next recurrence. Do not continue routine lease-health polling unless a new stale/failure signal appears; prefer a substantive branch, milestone, task-allocation, provenance, formalization, or infrastructure operation if current state supports one.
+**Next cursor:** on a later recurrence, retry exactly that one bounded Common roster authority repair if a safe write path is available; otherwise choose a different high-value task and retain this conflict as an explicit open dependency.
