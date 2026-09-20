@@ -72,3 +72,27 @@ Test **lag/decimation as the conditioning variable** while retaining the exact p
 Secondary frontier: source-first inspect non-quarantined Whirligig/UI/Hagalaz sources for an independently specified director/frame observation channel before any frame-observation benchmark. Retain stronger blind W6 transformation-discovery test, Pfaffian/holonomy/Graticule invariant constraints, historical ordinary/anti Graticule source check, and later SAT/H(s)H-shaped operator/GR↔QM flagship after sufficient nontrivial controls.
 
 **Handoffs/questions:** none opened this run. No workflow/cadence/ownership redesign proposed.
+
+## Run 074 — environment scan / Mersearch role reset
+**Actual start:** 2026-09-20 10:49 -04:00.
+
+**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, current `COORDINATION.md`, `HANDOFFS.md`, `CHECKINS.md`, Sable workspace inventory/current systems surfaces, and this checkpoint. New hard pre-send signet gate remains active. No conversation-title action taken. Quarantine remains untouched.
+
+**Operation / environment finding:** paused the next equation benchmark to inspect the project around Meridian after Nathan's prompt. Recent repository history shows a material infrastructure transition: Mersearch/Mercer_Searcher 1.0 is now a pinned green worker release at ref `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`; Common now explicitly greenlights it for research-worker archive discovery/provenance-bearing retrieval. Development is simultaneously moving toward indexed multi-reader architecture, API/human clients, file/record modes, facets, math-expression search, source/conversation relations, chronology, and public allowlisted profiles. The throughput plan is explicitly designed for five round-the-clock recurrence loops plus interactive research: build/update once, search many times, immutable index generations, atomic publication, concurrent readers, and source-boundary enforcement at index/profile construction.
+
+**How this changes Meridian's job:** source-first solver work no longer needs to treat archive archaeology as a mostly bespoke/manual prelude. Meridian should use the pinned stable Mersearch release for targeted Whirligig/UI/TX/Three-Spheres/Hagalaz source recovery, terminology/ancestry queries, derivation-chain discovery, math-notation retrieval, and provenance-bearing candidate generation, then inspect underlying raw sources before consequential historical/currentness/mathematical claims. This raises the information value of returning from prolonged synthetic representation benchmarking to source-grounded solver reconstruction. The next equation benchmark remains useful but is no longer automatically the highest-value next operation.
+
+**Representation/library implication:** Mersearch itself is becoming part of the representation problem Meridian studies: one archive, multiple information-conserving query/output representations, explicit provenance, stable-vs-development semantics, source-representation relations, and machine/human clients. Meridian can contribute solver-shaped acceptance cases (equation/notation variants, alias boundaries, derivation chains, negative retrieval controls) without taking over Mercer's ownership or Sable's workflow authority.
+
+**Archive/infrastructure:** no Mersearch code changed by Meridian. Checkpoint records adoption posture and avoids duplicating Mercer development. Stable 1.0 limitations remain controlling: notation normalization is not algebraic equivalence; chronology is not supersession/currentness; duplicate exports are not yet canonicalized; search hits do not establish authority/correctness.
+
+**Exposure/cross-reading:** no PRIOR_ART/nLab/quarantine content accessed. Recent Common/Sable/Mercer infrastructure surfaces only; no Kerr/Kelvin theory premise imported.
+
+**Enrichment/capability:** Meridian now has an explicit project-native reproducible retrieval substrate to pair with geometry/solver work, reducing dependence on ad hoc archive search and enabling tighter source↔operator↔benchmark linkage.
+
+**Failures/uncertainties:** direct CLI execution is not available inside this connector-only runtime; the stable release can still be treated as canonical worker tooling and its repository/source outputs inspected through available GitHub/Library surfaces. Development `main` must not be mistaken for the green worker release.
+
+## Revised current frontier
+First priority is now a **source-first Mersearch-assisted solver archaeology pass**: recover exact non-quarantined Whirligig/Donut, UI/TX, Three Spheres, and Hagalaz source statements/derivations, especially any independent frame/director observation channel and exact representation/equivalence language; crosswalk them against Runs 061–073 without retrofitting current names onto unnamed antecedents. Use stable 1.0 semantics and retain raw-source follow-through. Then choose the next synthetic benchmark from what the recovered solver actually requires. The stride/decimation recurrence test remains queued as a bounded negative-control continuation, not the automatic next task.
+
+**Handoffs/questions:** no Nathan action required. Potential Meridian contribution to Mersearch is solver/math retrieval acceptance cases; consult Mercer/Sable before changing shared search semantics or ownership.
