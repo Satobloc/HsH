@@ -31,6 +31,7 @@ GR↔QM remains a flagship target only after simpler machinery can discover usef
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_063_CONNECTION_DECODER_AND_PARITY.md`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_064_NESTED_FRAME_THROUGHPUT_BENCHMARK.md`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_065_NESTED_EQUATION_GEOMETRY_CONTROL.md`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_067_FOUR_MOMENT_DECODER_CONDITIONING.md`
 
 ## Results through Run 060
 - exact orthogonal two-plane composite with projection decoders;
@@ -114,12 +115,28 @@ Five additional `(p,q)` cases recovered `p/2` to numerical precision when frame-
 
 What this establishes: equation → coefficient geometry → nested moving representation → covariant geometric optimization → decoded algebraic transformation can work exactly on a controlled family. It does **not** yet show autonomous discovery of which term should be removed, nonlinear/PDE scaling, or GR↔QM.
 
-## Current frontier
-1. Stronger W6 test: give the solver an admissible transformation family plus an invariant complexity objective (rank/sparsity/symmetry/canonical-stratum distance) and do **not** tell it which coefficient to eliminate.
-2. Use `Pf(A)`, holonomy, and conformal Graticule coordinates as candidate invariant constraints/readouts.
-3. Preserve equal-rate great-circle sector as a positive lower-rank carrier, not an error state.
-4. Express Hagalaz transport in connection/holonomy variables where useful; keep 4D primary and 3D Donut as exact chart.
-5. Source-check historical ordinary/anti Graticule rules before identifying them with the north/south inversion construction.
-6. After another nontrivial blind transformation-discovery control, move toward a genuinely SAT/H(s)H-shaped operator target; only then return to the historical GR↔QM flagship.
+## Run 067 — four-moment decoder conditioning
+**Actual start:** 2026-09-20 04:29:45 -04:00. Artifact commit `9d22312cc3c6e6cbe310c799ba2627bd64f39e16`.
 
-**Exposure for Runs 061–065:** constructive internal math only; no nLab, PRIOR_ART, quarantined external material, or suspended Integration handoff used.
+**Must-reads reread:** current no-renaming policy, autonomy/handoff protocol, automation control, current H(s)H hypothesis status, Common coordination/handoffs, math provenance protocol, and this checkpoint. No newer directive changed the lane. Suspended Integration handoffs were not executed.
+
+**Exact operation:** numerical conditioning stress test of `m_k=A x^k+B y^k`, k=0..3, with exact determinant `D=AB(x-y)^2`. Fixed `A=1.44`, `B=0.4225`, `x=1.21`; 2,000 independent moment-noise trials per rate gap at relative noise `1e-12`.
+
+**Result:** exact algebraic compression becomes numerically unreliable well before exact equal-rate collision. Median squared-frequency-pair relative error rose from `2.07e-9` at `|x-y|=1e-1` to `2.53e-3` at `1e-4` and `2.35e-1` at `1e-5`; 95% error reached `8.44e-1` at `1e-5`. A numeral-by-numeral `1e-4` witness with moment perturbations only `~1e-12` decoded one amplitude negative (`B=-0.0129` instead of `0.4225`) despite the perturbed determinant remaining close to exact. This supports adaptive rank rather than forced two-mode recovery near collision.
+
+**Status:** sandbox / CLAIMED numerical benchmark. Negative/limiting result for high-derivative moment decoding; positive support for adaptive-rank architecture. Threshold is noise/model dependent; no universal condition-number formula claimed.
+
+**Archive/infrastructure:** no archive mutation beyond this sandbox artifact/checkpoint. **Exposure/cross-reading:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration material. **Enrichment/capability:** explicit conditioning/noise analysis added to the representation toolkit; reinforced distinction between exact invertibility and stable recoverability.
+
+**Failures/uncertainties:** determinant magnitude alone is insufficient as a stability certificate; amplitude ratio and moment-noise provenance remain to be incorporated. No blocker and no Nathan action required.
+
+## Current frontier
+1. Derive or numerically map a dimensionless conditioning indicator combining `D`, moment scale, and estimated moment noise; compare against native-connection/SVD recovery under the same synthetic noise budget.
+2. Stronger W6 test: give the solver an admissible transformation family plus an invariant complexity objective (rank/sparsity/symmetry/canonical-stratum distance) and do **not** tell it which coefficient to eliminate.
+3. Use `Pf(A)`, holonomy, and conformal Graticule coordinates as candidate invariant constraints/readouts.
+4. Preserve equal-rate great-circle sector as a positive lower-rank carrier, not an error state.
+5. Express Hagalaz transport in connection/holonomy variables where useful; keep 4D primary and 3D Donut as exact chart.
+6. Source-check historical ordinary/anti Graticule rules before identifying them with the north/south inversion construction.
+7. After another nontrivial blind transformation-discovery control, move toward a genuinely SAT/H(s)H-shaped operator target; only then return to the historical GR↔QM flagship.
+
+**Exposure for Runs 061–067:** constructive internal math only; no nLab, PRIOR_ART, quarantined external material, or suspended Integration handoff used.
