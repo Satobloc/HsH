@@ -115,3 +115,26 @@ No Nathan action required. A deeper full-message diff could determine whether la
 ## Current frontier / next cursor
 
 **Next bounded cursor:** resume `SAT RIGOR__NotebookLM_export (1).json` at the remainder of Nathan index 21 and continue speaker-separated Nathan Direct packaging through the next coherent first-principles conceptual step. Preserve exact message keys/adjacency; do not infer truncated text or import generated expansions.
+## 2026-09-20 continuation — equivalence resolved source-first
+
+Direct blob retrieval continued the same `SAT RIGOR (1)` branch through index 31. This materially resolves the interpretation of index 21 and agrees with Nathan's later direct certification.
+
+Generated index 22 / key `efd81e1f` incorrectly forces a choice between function→curve and curve→function and says SAT leans toward curve primacy. Nathan immediately rejects that forced distinction at index 23 / key `7a56b668`:
+
+> `As pure geometry... the two are indistinguishable, even in principle. They are one in the same.`
+
+This is Nathan Direct and is also a strong quote-workflow candidate. The source sequence itself therefore establishes that index 21's closing question was rhetorical: the next Nathan turn explicitly states equivalence. Nathan's 2026-09-20 certification independently confirms that intended reading. Do not annotate index 21 as an unresolved directionality fork.
+
+The next coherent Nathan Direct progression is:
+
+- **index 25 / key `5185bf3d`**: `Let's consider rectilinear motion, and remain noncommittally pure geometry. Consider the line now at a 45 degree angle to the plane.`
+- generated index 26 identifies the 45° case with c and adds interpretations; retain as adjacency, not Nathan doctrine.
+- **index 27 / key `90bbf440`**: Nathan says they will get to whether the 1:1 relation is a limit, then stipulates a particle with mass without specifying which particle.
+- generated index 28 introduces a claimed mass/c tension and asks how geometry traps/redirects light-speed motion; this is generated interpretation only.
+- **index 29 / key `5bd5c715`**: Nathan again postpones the model's attempted interpretation and says the immediate target is identifying relationships implied by angle→motion plus stipulated mass.
+- generated index 30 proposes “Persistence Tax,” time-dilation, torsion necessity, and mass-as-knot interpretations. These are generated proposals and must not be promoted to Nathan Direct.
+- **index 31 / key `0c1d071b`**: Nathan explicitly demotes those to `possible interpretations`, asks to identify the properties that must be involved without stipulating their precise relation, slows the particle to an ordinary massive-particle velocity, keeps the line straight/slightly off 90°, and asks for an inventory of quantities/properties that must be tracked.
+
+Methodological significance: this sequence gives a clean example of Nathan repeatedly resisting premature model interpretation and returning to a deliberately noncommittal geometric inventory. It is useful both for foundational reconstruction and epistemic-method quote harvesting.
+
+**Next cursor:** generated index 32 and the next Nathan turn(s), specifically the requested inventory and Nathan's correction/refinement of it.
