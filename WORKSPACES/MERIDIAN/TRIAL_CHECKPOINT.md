@@ -28,6 +28,7 @@ GR↔QM remains a flagship target only after simpler machinery can discover usef
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_067_FOUR_MOMENT_DECODER_CONDITIONING.md`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_068_DIMENSIONLESS_SEPARABILITY_INDICATOR.md`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_069_CONNECTION_IDENTIFIABILITY_GATE.md`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_070_CURVE_ONLY_GRAM_RATE_RESOLUTION.md`
 
 ## Durable current findings
 - UI master representation: `y(lambda)=r(lambda)R(lambda)x0`, `R in SO(4)`; curve direction alone leaves an `SO(3)` stabilizer unless frame/director data are supplied.
@@ -36,33 +37,32 @@ GR↔QM remains a flagship target only after simpler machinery can discover usef
 - North/south stereographic Donut charts are exact conformal/topological views of the 4D carrier, with chart-parity distinction; 4D remains primary for metric/frame/holonomy work.
 - Constant 4D double rotation admits exact four-moment decoder `m_k=A x^k+B y^k`; exact rank determinant `D=AB(x-y)^2`. Equal rates are genuine lower-rank great-circle geometry, not merely decoder failure.
 - Native connection carries compact rate/orientation information, but the full connection is not identifiable from curve coordinates alone because of stabilizer freedom. Fair comparisons must either supply frame/director primitives or compare only curve-identifiable gauge invariants.
+- A curve-only lagged Gram kernel `g(tau)=a^2 cos(w tau)+b^2 cos(v tau)` is constant-SO(4)-invariant and provides an independent two-rate decoder. Under coordinate noise it also develops a finite resolution boundary near rate collision; this shows the practical collision problem is not unique to the four-moment algebra.
 
-## Run 069 — connection identifiability gate
-**Actual start:** 2026-09-20 06:28:14 -04:00. Artifact commit `37e3b89c36671efce56f23ef2903dbd928f4c92d`.
+## Run 070 — curve-only Gram rate-resolution benchmark
+**Actual start:** 2026-09-20 07:26:11 -04:00. Artifact commit `aa94ec9a2b88d1f4b7426a73e702344589b329cf`.
 
-**Must-reads reread:** current `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, Sable `README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, and this checkpoint. Newer controls retain the signet output gate, conversation-title prohibition, sandbox boundary, quarantine exclusion, and Sable workflow authority. Suspended Integration handoffs were not executed.
+**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, Sable `README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, and prior checkpoint. Current output-gate/signet rule, no-conversation-renaming rule, sandbox boundary, quarantine exclusion, math-status discipline, and Sable workflow authority remain controlling. Suspended Integration handoffs were not executed.
 
-**Exact operation:** before running Run 068's proposed same-coordinate-noise comparison, tested whether the full moving-frame connection `A=Q^T Q'` is identifiable from primitive curve samples `C(s)` at all. Algebraically, for `C=Qh`, any stabilizer field `S(s)` satisfying `S h=h` gives the same curve under `Q_tilde=QS` but changes the connection to `A_tilde=S^T A S+S^T S'`.
+**Exact operation:** followed Run 069's corrected branch (curve-identifiable quantities only). Built a constant-SO(4)-invariant competitor from the lagged Gram kernel of the same constant 4D double-rotation family, then tested two-rate separation under primitive coordinate noise. Carrier: `a=1.2`, `b=0.65`, `w=1.1`; 161 samples on `[-2,2]`; iid coordinate Gaussian noise sigma `1e-4`; lag-average 0..60; bounded nonlinear least-squares two-cosine fit with three fixed starts; 100 trials per gap.
 
-**Numerical witness:** used `h=e1`, `Q1=I`, and `Q2` a variable rotation in the `(e2,e3)` plane with `gamma(s)=2.4s+0.3 sin(3s)`. At `s=0.73`, both representations produced exactly `C=[1,0,0,0]`, while `||A1-A2||_F=2.655400673728` and `gamma'=1.877651823160`. Thus identical coordinate observations can carry different full connections.
+**Benchmark result:** median relative separation error was 0.164 at `Delta=0.1`, 0.0413 at `0.03`, 0.238 at `0.01`, ~1.00 at `0.003`, and ~1.00 at `0.001`; the 95% separation error at `0.001` was ~10.0. Thus this independent curve-only invariant also loses reliable two-rate resolution approaching equal-rate collapse. Exact threshold is observation-window/estimator/noise dependent. Nonmonotonic `0.1` versus `0.03` performance exposes basin/optimizer effects and is retained as a limitation, not cleaned away.
 
-**Result:** Run 068's proposed benchmark would be unfair/underdefined if it reconstructed a full connection from curve coordinates alone. A fair design must either (1) include enough primitive frame/director observations to remove the stabilizer ambiguity, then noise those same primitives for both decoders, or (2) keep the primitive curve-only and compare only gauge-invariant quantities identifiable from the curve. This is a benchmark-design correction, not a rejection of connection methods.
+**Status:** sandbox / CLAIMED numerical benchmark. No validation/disclaimer promotion. This does not yet compare Gram against the four-moment decoder fairly because Run 067 perturbed moments directly rather than estimating both methods from identical noisy coordinate samples.
 
-**Status:** sandbox / CLAIMED mathematical diagnosis plus explicit numerical witness. No current validation promotion. The general algebraic stabilizer argument is recorded; the witness is illustrative.
+**Exact sources/coverage:** current Common controls and checkpoint listed above; mathematical construction generated in this run from the already established double-rotation carrier. No external literature, historical archive, nLab, PRIOR_ART, or quarantine source used.
 
-**Exact sources/coverage:** current Common controls listed above + Run 068/checkpoint state. No external literature, historical archive, nLab, PRIOR_ART, or quarantine source used.
+**Exposure/cross-reading:** no quarantine or external-prior-art exposure. Kerr/Kelvin not used as solver premises.
 
-**Exposure/cross-reading:** no quarantine or external-prior-art exposure. Sable README read for current workflow authority/priority context only. Kerr/Kelvin not used as solver premises.
+**Archive/infrastructure:** created `RUN_070_CURVE_ONLY_GRAM_RATE_RESOLUTION.md`; updated checkpoint only. No public/canonical theory surface changed.
 
-**Archive/infrastructure:** created `RUN_069_CONNECTION_IDENTIFIABILITY_GATE.md` and updated this checkpoint only. No public/canonical theory surface changed.
+**Enrichment/capability:** improved curve-only representation work by moving from local derivative moments to a nonlocal Gram/autocorrelation invariant and by scoring the physically relevant two-rate separation rather than an individual-rate metric that becomes misleading at collision.
 
-**Enrichment/capability:** sharpened Meridian's representation-invariance discipline by separating compactness of a connection representation from identifiability of that representation from a stated observation channel.
-
-**Failures/uncertainties:** the originally proposed fair benchmark is not executable as stated without adding primitive information or changing the scored object. It remains open whether historical/current Whirligig/UI/Hagalaz sources independently supply a director/frame observation channel; this run deliberately did not assume one. No blocker to curve-only invariant benchmarking; no Nathan action required.
+**Failures/uncertainties:** simple nonlinear fit has optimization-basin effects; threshold is not universal; same-sample head-to-head remains undone. No blocker and no Nathan action required.
 
 ## Current frontier / next cursor
-Define one curve-only gauge-invariant competitor to the four-moment decoder, built from the same noisy coordinate samples (e.g. Gram/local-jet invariants), and benchmark rate-separation recovery approaching equal-rate collapse. Separately, in a later source-first bite, inspect non-quarantined Whirligig/UI/Hagalaz sources for an independently specified director/frame channel before designing any frame-observation benchmark.
+Run the four-moment and Gram estimators from the **same noisy coordinate samples**, estimating required derivatives/moments with an explicit fixed differentiator, and include a one-mode/null model-selection baseline. Score rate-separation recovery and model selection approaching equal-rate collapse.
 
-Secondary frontiers retained: stronger blind W6 transformation-discovery test; Pfaffian/holonomy/Graticule invariant constraints; source-check historical ordinary/anti Graticule rules; only after another nontrivial blind control move toward a genuinely SAT/H(s)H-shaped operator and later the historical GR↔QM flagship.
+Secondary frontier: source-first inspect non-quarantined Whirligig/UI/Hagalaz sources for an independently specified director/frame observation channel before any frame-observation benchmark. Retain stronger blind W6 transformation-discovery test, Pfaffian/holonomy/Graticule invariant constraints, historical ordinary/anti Graticule source check, and later SAT/H(s)H-shaped operator/GR↔QM flagship after sufficient nontrivial controls.
 
 **Handoffs/questions:** none opened this run. No workflow/cadence/ownership redesign proposed.
