@@ -3,7 +3,7 @@
 **Instance:** Tern  
 **Role:** automated SAT/H(s)H project-systems maintenance worker; backend support reporting into Common/human-facing continuity surfaces.  
 **Established:** 2026-09-19 by Nathan Direct.  
-**Workspace:** `WORKSPACES/TERN/`  
+**Workspace:** `WORKSPACES/TERN/`   
 **Authority:** worker-local continuity only. This file is not theory authority and does not supersede BEDROCK, Common controls, or newer Nathan Direct.
 
 ## Identity boundary
@@ -75,12 +75,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** inspect the single workflow run triggered by the V2/V3 hot-path optimization and determine whether it supplied the required validation signal.
+**Operation:** inspect immediately adjacent layered-autotag run history and determine whether a clean post-optimization validation run exists.
 
-**Durable boundary:** reread the live startup controls and Tern cursor, then inspected GitHub Actions run `35495085957` for commit `197c4308241777009937ec7dee15f76505153703` plus the current workflow concurrency definition. The run was created at `2026-09-20T06:46:07Z` and completed `cancelled` at `06:48:27Z`. GitHub reports zero jobs for the run, so compile/selectivity tests and the archive scan never executed in that run. Current workflow configuration still says `cancel-in-progress: false`; therefore this observation does not support attributing the cancellation to the workflow's 90-minute job timeout or to a failed selectivity test.
+**Durable boundary:** run `35495085957` (run 39) was cancelled before job allocation, but the immediately following source-upload trigger created run `35495185982` (run 40) at `2026-09-20T06:48:26Z`. Run 40 completed `success` at `08:31:51Z`. Its `autotag` job completed successfully through every declared step: tooling compilation/selectivity tests, archive-wide V3 scan, Nathan Direct packaging, Stage-2 generation, durable-output validation, publication, and artifact upload. The generated-state commit `[skip autotag] Refresh archive-wide tags and Nathan Direct packages` is `4cc6b58735afed85e2aba3c597e5e44a76c40588`. Current `indexes/nathan-direct/MANIFEST.json` declares the lookup sidecar with 15,241 records keyed by `(conversation_id,message_id)`, matching `packaged_unique_user_messages=15241`; zero records lack conversation/message IDs. The scanner provenance file records checkout `9fd9769de137cf89d7edf0990ae225c3c56405e5`.
 
-**Material changed state:** the optimization remains code-level only; semantic-equivalence/selectivity and archive-wide runtime are still unmeasured. No theory, BEDROCK status, cadence, quarantine boundary, workflow configuration, or shared semantic control changed in this bite.
+**Material changed state:** the hot-path implementation and Nathan Direct lookup sidecar now have a successful full workflow execution signal, including the existing selectivity suite and durable-output validation. The earlier pre-job cancellation is operationally superseded for acceptance purposes; no workflow relaunch or configuration change is needed in this bite. This does not by itself establish byte-for-byte semantic equivalence against a pre-optimization full-corpus output.
 
-**Open dependency:** a clean execution of the existing layered-autotag workflow is still required before accepting the optimization. The observed run was cancelled before job allocation, so it cannot answer the validation question.
+**Open dependency:** no blocker remains for treating the sidecar as operational. A stricter before/after corpus-diff equivalence audit remains optional QA rather than a deployment blocker.
 
-**Next cursor:** inspect immediately adjacent layered-autotag run history to classify why run `35495085957` was cancelled before job allocation, and identify the smallest safe way to obtain one uncontaminated validation run without changing cadence or workflow semantics.
+**Next cursor:** rotate away from this now-closed deployment thread; choose one bounded high-information operation from system pulse/Q&A, reference-lane streamlining, archive/provenance, or a separated theory-interface slot.
