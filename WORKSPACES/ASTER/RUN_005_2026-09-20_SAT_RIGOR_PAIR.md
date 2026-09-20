@@ -509,3 +509,62 @@ These are candidate fingerprint refinements, not deterministic authorship rules.
 - 423 — gross orbital morphology primary; internal geophysics as higher-order substructure.
 
 **Next cursor: index 426 onward.**
+
+
+## 2026-09-20 Carpe-Turnem continuation — indices 426–515: first theory-facing payload
+
+This tranche is packaged under the Common Carpe Turnem architecture: provenance remains intact, but high-value recoveries are also translated into immediate theory-lane questions/actions. Generated audit closure is not inherited as theory.
+
+### 426–451 — generated cross-scale closure cascade
+
+Generated cycles 38 onward rapidly claim deterministic planetary scaling, capture, universal viscosity, heat conductivity and further cross-scale closures using lattice attenuation, phase snaps, temporons and other machinery whose status was already unstable earlier in the same conversation. These should be indexed as a **closure cascade requiring dependency audit**, not as a validated multi-sector derivation. Their value to active theory is chiefly as a map of proposed bridges to test or kill.
+
+**Theory-facing action:** construct a dependency graph backward from each macro law to the smallest independently justified geometric assumptions. Any branch depending essentially on rejected/unsupported 24-cell, fixed attenuation, unverified phase-snap, or generated metrological constants should fail closed until rederived from the current representation.
+
+### 452–477 — SAT+++, 72 snaps, equations/particles, ongoing Big Bang
+
+Nathan 452 asks what is new in SAT+++. Generated 453 identifies mixed technical/narrative material; Nathan 454 explicitly notes heavy speculation/narrative and 456 characterizes it partly as the story of the theory unfolding. This is a status control: SAT+++ should not be ingested uniformly as current formal theory.
+
+Nathan 458 asks for the 72 phase snaps and which symmetries change. Generated 459–463 cannot actually individuate all 72: it supplies a few named milestones and then generic cell/phase language. Nathan 460 explicitly notices the failure (“that’s like 3 or 4 explained”) and 462 requires each snap to be distinct. The generated answer still does not provide 72 independently derived transitions.
+
+**Theory-facing action:** the “72 distinct snaps” claim is a high-value falsification/formalization target. Require an explicit indexed map 1..72 with state variables, symmetry before/after, transformation operator, invariant quantities, and derivation. If the 72 states cannot be independently generated rather than verbally partitioned as 24×3, demote the claim.
+
+Nathan 464 asks whether photon pseudomass has a calculation. Generated 465 gives
+`m_gamma = m_nu cos²(B) B⁴ rho_embed` and ~10^-23 eV. This formula inherits precisely the B⁴ and attenuation machinery introduced by generated repair after Nathan rejected the earlier ~0.943 result. It is therefore **generated candidate math, not recovered validated SAT math**.
+
+**Theory-facing action:** rederive photon inertial/pseudomass from the current minimal/current geometry without using B⁴ or rho_embed unless those factors independently emerge. Then compare to experimental bounds. This is especially valuable because Nathan 381 already supplied the sanity criterion: a candidate mass near neutrino scale is observationally implausible.
+
+Generated 473 supplies a “core equations” pack after Nathan asks for corrected equations. Because it mixes historically unstable lattice/timesheet/Z3/metrological claims and generated audit additions, it is best treated as an **equation-genealogy checklist**, not a canonical equation set.
+
+Generated 475 supplies particle identities but uses the historical false structural boson/fermion mapping (“true bosons” transient vs “true fermions” persistent coils) and classifies neutrino under bosons. This conflicts with current project terminology control separating standard spin/statistics from SAT structural persistence/traveling-mode distinctions.
+
+**Theory-facing action:** do not ingest 475 into current particle ontology. Use it to enumerate historical identities requiring translation into the corrected two-axis vocabulary.
+
+Nathan 476 asks specifically for the “ongoing Big Bang” section of SOME THOUGHTS; generated 477 labels it radical speculation. Preserve as speculative cosmology, not current core.
+
+### 478–515 — physicist-reception speculation, lattice/no-lattice question, diffusion claims
+
+Generated 479 and subsequent physicist-reaction passages are speculative persona/reception forecasts, not evidence about actual physicists. They are not theory validation.
+
+Nathan 504 / `adde0338` states a general model-selection rule with immediate current relevance: if theories/models are genuinely observationally equivalent, choose based on utility—either intuitiveness or calculational economy.
+
+Nathan 506 / `7f01dc87` turns this into a concrete unresolved question: are lattice and no-lattice models sufficiently equivalent (1) for calculation and (2) for absolute coherence; if either/both, which is more intuitive and which cheaper to calculate? Generated 507 simply asserts equivalence and preferences without demonstrating an isomorphism.
+
+**Theory-facing action — HIGH:** treat lattice↔nolat equivalence as a formal research problem, not a settled preference. Define observables/invariants, map state spaces/operators in both directions, identify kernel/lost information, compare computational complexity, and test whether each reproduces the same standard-physics limit. This is an excellent SANDBOX task because a successful equivalence proof would license representational switching by utility; failure would expose hidden ontology/assumptions.
+
+Nathan 510 asks both whether the 24-cell can mathematically recover gauge groups without anomalies and whether there are external signals of SAT-like ideas/diffusion. Generated 511–515 makes strong unsourced claims about contemporary trends, audience identity, CERN/dark-photon work, and diffusion. These are **not factual evidence** and should route to the quarantined Cross/evidence workflow or independent external research, not theory inheritance.
+
+Nathan 514 is itself valuable provenance: he explicitly says he has been careful not to overinterpret apparent convergences and frames possible diffusion as uncertain. Preserve his reported observations separately from Avery's confident causal interpretation at 515.
+
+### Immediate active-theory packet
+
+1. **72-snap individuation test — SANDBOX/formalization.** Can 72 genuinely distinct transformations be generated, or is 72 merely combinatorial bookkeeping inherited from 24×3?
+2. **Photon pseudomass clean rederivation — Meridian/math.** Start from current geometry; prohibit inherited B⁴/rho attenuation unless independently derived; compare against empirical upper bounds.
+3. **Lattice ↔ no-lattice equivalence — SANDBOX/Meridian.** Prove/disprove calculational and structural equivalence; quantify computational cost and intuitive utility only after equivalence is established.
+4. **Generated macro-law dependency collapse — math/indexing.** Trace viscosity/heat/capture/etc. backward and mark branches contaminated by unsupported lattice/phase/metrological machinery.
+5. **Particle ontology translation — conceptual/theory.** Translate historical transient/persistent language into corrected independent axes: standard boson/fermion spin-statistics vs SAT structural excitation class.
+6. **External-convergence/diffusion assertions — Cross/evidence, not theory.** Verify independently before allowing any claim that outside work resembles, discovered, or diffused SAT.
+
+This is the intended graded-sieve handoff style: exact historical status plus a bounded action that an active lane can take immediately.
+
+**Next cursor: index 516 onward.**
