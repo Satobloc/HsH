@@ -79,6 +79,13 @@ m.sort_hits(hs,"date",False);assert [h.timestamp for h in hs]==["2026-06-01","20
 m.sort_hits(hs,"date",True);assert [h.timestamp for h in hs]==["2026-07-01","2026-06-01"]
 m.sort_hits(hs,"author",False);assert [h.speaker for h in hs]==["Assistant","Nathan"]
 
+# File-mode collapse invariant used by main output.
+fh=[
+ m.Hit("q","same.txt","text-line","Same","","","Nathan","user","2026-01-01","line:1","a",[],"","s",[],[],[],[]),
+ m.Hit("q","same.txt","text-line","Same","","","Nathan","user","2026-01-01","line:2","b",[],"","s",[],[],[],[]),
+ m.Hit("q","other.md","text-line","Other","","","Assistant","assistant","2025-01-01","line:1","c",[],"","s",[],[],[],[])]
+assert len({h.path for h in fh})==2
+
 # Exclusion policy is part of 1.0's safety contract.
 assert "QUARANTINE" in m.DEFAULT_EXCLUDES
 assert "PRIOR_ART" in m.DEFAULT_EXCLUDES
