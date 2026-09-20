@@ -70,7 +70,7 @@ Target remained folder-18 `SAT RIGOR__NotebookLM_export (1).json`, blob `7c2a17f
 
 The previously truncated Nathan index 21 was recovered directly from the Git blob via exact response-resource search. Full exact ending after the previously visible text is: `this way: Does a function create a curve, or does a curve create a function?` Full message key: `ef8ec43b`; citations array empty. This completes index 21 without inference. The turn remains Nathan Direct under the conversation-turn provenance rule; no embedded quotation ambiguity was identified. Generated index 20 / key `64492472` remains adjacency only.
 
-Provenance significance only: Nathan explicitly frames the unresolved point-motion/line-shape alternatives as a function↔curve directionality question rather than resolving equivalence at this stage. This is not a correctness/currentness judgment.
+Interpretive correction certified directly by Nathan on 2026-09-20: the closing question `Does a function create a curve, or does a curve create a function?` is rhetorical and expresses curve↔function equivalence; it is NOT an unresolved directionality question. This Nathan-certified intent controls Aster annotation of the passage. Preserve the exact historical wording separately from this later intent certification.
 
 No theory/sandbox work, bibliography expansion, duplicate disposition, or archive-infrastructure change occurred in this bite. No Nathan action required.
 
@@ -99,6 +99,12 @@ Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title and di
 ### 2026-09-19 — folder-20 availability / duplicate checkpoint
 
 Folder 20 is populated. SHA comparison established exact cross-folder duplicate blobs for several visible folder-19/20 items; preserve duplicate paths but do not reread identical blobs. Durable index: `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
+
+## 2026-09-20 — quote-workflow routing directive
+
+Nathan directed that especially strong Nathan Direct quotations/passages should be routed into the developing quote-request workflow. Initial mode should prioritize **best quotes / backlog harvest**, later shifting to lower-priority occasional capture. “Quote” does not imply short: unusually clear passages may be captured at full contiguous length. Collection preserves the full verbatim Nathan passage first; any front/middle/end truncation or editorial excerpting is downstream presentation work. Each candidate should retain Nathan attribution, source/date where recoverable, durable source link/pointer, adjacency/context, and selection rationale. Intent certifications/corrections should be linked when relevant. Workers should not silently edit/truncate candidates during intake.
+
+Aster searched HsH code index for `quote request best quotes` and found no indexed existing control/job surface in that bounded check; do not infer absence from that search alone.
 
 ## End-of-run discipline
 
