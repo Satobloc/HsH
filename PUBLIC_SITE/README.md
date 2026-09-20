@@ -22,6 +22,7 @@ The controlling project record remains the repositories. A polished site renderi
 
 ## Current files
 
+- `SITE_DEVELOPMENT_WORK_LOG.md` — durable continuity/handoff record for design decisions, current site state, asset intake, open work, and publishing events/limitations.
 - `CURRENT_WORK.json` — curated site-facing snapshot of active work, with source pointers and dates.
 - `FEATURED_QUOTES.json` — verified/curated Nathan and LLM quotes eligible for public rotation.
 - `quote_candidates/` — worker quote-nomination lane. Candidate status never implies site eligibility or authorship verification.
@@ -33,6 +34,10 @@ The controlling project record remains the repositories. A polished site renderi
 Shared worker feeder request:
 
 - `WORKSPACES/COMMON/ASSIGNMENT_PUBLIC_SITE_ROTATING_FEATURES_2026-09-20.md`
+
+## Continuity rule
+
+Any instance beginning substantive site development should read `SITE_DEVELOPMENT_WORK_LOG.md` first. Material visual, architecture, asset, content-feed, or publication decisions should be appended there so later site-builder sessions can reconstruct not only the content state but the design and publishing state.
 
 ## Editorial posture
 
@@ -153,4 +158,5 @@ A memorable quotation, news juxtaposition, attractive diagram, or polished page 
 - recover high-value copypasta-news items into source-linked cards;
 - use `CURRENT_WORK.json` as the next Glass Sausage Factory Current Work refresh source;
 - add Nathan-supplied thumbnails/visuals to `ASSET_MANIFEST.json` as they arrive;
-- when the site publisher is available, wire these feeds and the editorial/visual system into the public presentation.
+- when the site publisher is available, wire these feeds and the editorial/visual system into the public presentation;
+- update `SITE_DEVELOPMENT_WORK_LOG.md` after material design, architecture, asset, or publication changes.
