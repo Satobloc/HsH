@@ -39,3 +39,25 @@ jobs:
         run: python -m py_compile tools/search_archive_content.py
       - name: Run synthetic acceptance suite
         run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
+      - name: Bounded real-corpus inventory smoke
+        run: |
+          rm -rf /tmp/mersearch-inventory
+          python tools/search_archive_content.py . --expr 'name:*2026.txt OR name:26*.txt' --limit 25 --out /tmp/mersearch-inventory
+          python - <<'PY'
+          import json
+          p=json.load(open('/tmp/mersearch-inventory/SEARCH_RESULTS.json',encoding='utf-8'))
+          print('MERSEARCH_INVENTORY_SUMMARY='+json.dumps(p['coverage'],sort_keys=True))
+          for h in p['hits'][:10]:
+              print('MERSEARCH_INVENTORY_HIT='+json.dumps({k:h.get(k) for k in ('path','kind','title','locator')},ensure_ascii=False))
+          PY
+      - name: Bounded real-corpus derivation smoke
+        run: |
+          rm -rf /tmp/mersearch-derivation
+          python tools/search_archive_content.py . --expr '("star shaped" OR "star-shaped" OR "derivation star") AND (derivation OR map OR constants OR closure)' --author user --limit 25 --topic-config WORKSPACES/MERCER/search_topics_derivation_chain.json --out /tmp/mersearch-derivation
+          python - <<'PY'
+          import json
+          p=json.load(open('/tmp/mersearch-derivation/SEARCH_RESULTS.json',encoding='utf-8'))
+          print('MERSEARCH_DERIVATION_SUMMARY='+json.dumps(p['coverage'],sort_keys=True))
+          for h in p['hits'][:10]:
+              print('MERSEARCH_DERIVATION_HIT='+json.dumps({k:h.get(k) for k in ('path','title','conversation_id','message_id','speaker','timestamp','locator','excerpt','topic_hits')},ensure_ascii=False))
+          PY
