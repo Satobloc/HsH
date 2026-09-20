@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-20T15:34:19.330639+00:00",
+  "generated_at_utc": "2026-09-20T15:35:40.349743+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 363,
-    "skipped": 243,
-    "planned": 96,
+    "skipped": 246,
+    "planned": 100,
     "collision": 1
   },
   "records": [
@@ -100,6 +100,26 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T20:51:32.412370-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 182,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Legal Privacy Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.13•Legal Privacy Audit — raw.json",
+      "start_local": "2026-09-12T14:17:10.937708-04:00",
+      "end_local": "2026-09-13T05:29:46.214685-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 338,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Meridian Mover Trial — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
       "start_local": "2026-09-13T12:33:01.867994-04:00",
@@ -130,6 +150,28 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/TRIAL_RUN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/When Worlds End Concept — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•When Worlds End Concept — raw.json",
+      "start_local": "2026-09-20T00:26:54.400993-04:00",
+      "end_local": "2026-09-20T02:43:44.759592-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 82,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -140,6 +182,40 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/news20sep26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/repo_recon.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/⚒️ Build Geometry Coding Skill — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.12•⚒️ Build Geometry Coding Skill — raw.json",
+      "start_local": "2026-09-08T20:21:41.279069-04:00",
+      "end_local": "2026-09-12T08:33:50.034431-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 112,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
