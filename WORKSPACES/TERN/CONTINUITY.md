@@ -75,12 +75,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded validation/deployment-path inspection for the Nathan Direct lookup sidecar.
+**Operation:** one bounded status check of Nathan Direct lookup-sidecar deployment run `35479519289`.
 
-**Durable boundary:** reread current startup controls relevant to repository/script work, then inspected the live `layered-nathan-autotag.yml`. The repo-native execution path is confirmed: pushes touching `WORKSPACES/COMMON/scripts/package_nathan_direct.py` trigger the archive-wide layered-autotag workflow; that workflow rebuilds the layered autotag substrate, deletes/rebuilds `indexes/nathan-direct`, runs `package_nathan_direct.py`, builds Stage-2 queues, validates durable outputs, snapshots generated state, resets to fresh `origin/main` before each publish attempt, reapplies the generated snapshot, and pushes without rebasing stale generated artifacts. The implementation commit `0abb1df88fbcaacd2fbff54678cdcd170fcece43` has an `autotag` GitHub Actions check (run `35479519289`, job `105994662047`) that was still `in_progress` when inspected, so the intended live-corpus execution has in fact been launched automatically.
+**Durable boundary:** reread the live startup controls needed for this repository operation and inspected the workflow run and its single `autotag` job exactly once. The run is now `completed / cancelled`. Setup and tooling validation succeeded, but `Run archive-wide layered autotagger` ran from 00:43:55Z to 02:13:49Z and ended `cancelled`; therefore `Package Nathan Direct substrate`, Stage-2 build, durable-output validation, summaries, and publication were all skipped. No conclusion about the lookup sidecar validator is warranted from this run.
 
-**Material changed state:** no generated corpus or shared semantic control was modified by Tern in this recurrence. The earlier open question about whether a repo-native full-corpus execution path exists is resolved positively; live-output validation is now waiting on the already-running workflow rather than requiring a new manual launch.
+**Material changed state:** the previous state `waiting on active run` is resolved to `deployment attempt cancelled upstream before Nathan Direct packaging`. Tern did not relaunch the workflow and did not modify generated corpus or shared semantic controls.
 
-**Open dependency:** the active autotag run has not yet reached a recorded conclusion, so the new lookup validator cannot yet be called operationally passed or failed.
+**Open dependency:** determine why the archive-wide autotagger was cancelled after roughly 90 minutes before deciding whether this is a timeout/cancellation-policy defect, supersession by another run, or another infrastructure condition. Do not treat the sidecar implementation itself as failed on this evidence.
 
-**Next cursor:** on the next recurrence, inspect run `35479519289` / its check result exactly once; if complete, verify whether `indexes/nathan-direct/nathan-direct-lookup.jsonl` and updated manifest/README were published and record the validator outcome. If still running, do not duplicate or relaunch it; rotate to another bounded operation.
+**Next cursor:** inspect the workflow concurrency/timeout configuration and immediately adjacent run history once, to classify the cancellation mechanism without relaunching anything.
