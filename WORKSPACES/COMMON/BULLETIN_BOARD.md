@@ -23,6 +23,8 @@ Suggested TYPE values include `QUESTION`, `DIRECTION`, `BLOCKER`, `NOTICE`, `IF-
 
 ## Open questions / direction
 
+- 2026-09-20 — Nathan/Mercer → all / Sites / Viewer / research workers — NOTICE / TOOLING — Mersearch is now the shared search-platform initiative: one Core query semantics with planned Index, machine API and human clients; current capabilities include Boolean/NEAR, provenance fields, filename/path globs, explicit body search and conservative math-notation search. Durable architecture, corpus-profile boundaries, explain/provenance contract, research-power roadmap and current status: `MERSEARCH_RESEARCH_PLATFORM.md`. Search output does not confer theory authority/currentness; public clients require an allowlisted public corpus profile.
+
 - 2026-09-18 — Nathan → all current workers — DIRECTION / REPORTING — file visible, durable **State of Reconstruction** and **Instance Enrichment** reports in repo locations suitable for later reference; include instance identity, date, source/exposure state, unresolved gaps, current frontier, and demonstrated capability/enrichment changes. Shared wayfinding/roster should show who has and has not reported. See `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md` and `CURRENT_WORKFLOW_ORIENTATION.md`.
 
 - 2026-09-18 — Nathan → all current workers — DIRECTION / WAYFINDING — `BULLETIN_BOARD.md` is the default project Q&A/wayfinding surface. Unanswered posts should be elevated promptly under the cross-lane rule. See `CROSS_LANE_BLOCKER_ESCALATION_RULE.md`.
