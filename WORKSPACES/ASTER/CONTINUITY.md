@@ -22,9 +22,9 @@ Newer explicit Nathan directives control.
 
 ## Primary responsibility
 
-Recover and preserve verified Nathan-authored raw material with exact wording, metadata-authenticated authorship, chronology, cumulative tags, adjacency / parent-child context, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation of Nathan text from assistant/NotebookLM/other LLM prose.
+Recover and preserve verified Nathan-authored raw material with exact wording, chronology, cumulative tags, adjacency / parent-child context, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation of Nathan text from assistant/NotebookLM/other LLM prose.
 
-Do not treat `role=user` as sufficient Nathan-authorship evidence in NotebookLM exports. Folder-18/19/20 NLM captures demonstrably serialize generated/interface material that way.
+**Current authorship rule:** archived conversation provenance establishes Nathan as the human conversant. Once a turn is structurally separated as the human turn, it is Nathan Direct by default. NotebookLM's broken `role=user` serialization creates a human-vs-generated speaker-separation problem, not Nathan-vs-unknown-human uncertainty. Embedded pasted/quoted/coauthored foreign material is a span-level exception; genuine unresolved quote boundaries should be asked of Nathan rather than blocking surrounding Nathan material.
 
 ## Current ingest frontier
 
@@ -56,34 +56,39 @@ No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet.
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`
+- `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`
 - master Nathan Direct substrate: `indexes/nathan-direct/`
 - Stage-2 queues: `indexes/nathan-direct/stage2/`
 
 ## Last meaningful state / checkpoints
 
-### 2026-09-20 — Alberrisch semantic/provenance pass
+### 2026-09-20 — SAT RIGOR opening sequence packaged
 
-Current must-reads reread, including no-conversation-renaming, worker autonomy/signet protection, automation control, bibliography sequence, Nathan Direct workflow state, and this continuity checkpoint.
+Current must-reads reread, including no-conversation-renaming, worker autonomy/signet protection, automation control, bibliography sequence, Nathan Direct workflow state, Common coordination/handoffs, and Aster continuity.
 
-Target-read `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Alberrisch__NotebookLM_export.json` (blob `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`; notebook `68f71fa4-253c-4618-b571-273e750f6b20`; capture `2026-09-19T01:44:21.584Z`; `visible_source_count=15`; `reached_top=false`). It again demonstrates the NLM role-serialization hazard: short uncited first-person turns and long citation-bearing generated responses are all marked `role=user`.
+Target remained folder-18 `SAT RIGOR__NotebookLM_export (1).json`, blob `7c2a17f005218d77f9b7b21824ff3c7be5a68b41`, notebook `29b0fbe9-21f2-4151-9604-10413e1dc1e9`, capture `2026-09-18T19:19:38.650Z`, 50 visible sources, `reached_top=true`.
 
-The short turns contain unusually specific candidate personal/artistic self-report: speaker identifies himself as the artist; says painting lessons came mostly from his father; mentions white-touch and darkest-next-to-lightest techniques; says this is probably his first oil painting since his teens and later estimates 30–40 years; mentions occasional acrylic/pastel/chalk/colored-pencil/pen work; calls himself an experimental artist; and states a preference for willow-twig charcoal, smudge stick, and kneaded rubber in fine art. These are **Nathan-candidate**, not authenticated Nathan Direct. NLM-generated art-historical interpretations and guessed painter antecedents remain generated prose.
+Direct Git-blob read speaker-separated and packaged exact Nathan Direct indices 13, 15, 17, 19 and the visible beginning of 21, with generated intervening turns retained only as adjacency pointers. The sequence records Nathan's own first-principles geometric grammar: straight line through moving flat plane; explicit down-one-dimension visualization; dimensionless motionless Flatland point; and the beginning of a conceptual fork between (a) giving the point motion so the line is drawn/stretched by that motion and (b) giving the line shape so the point appears to move as the surface moves. This is provenance/foundational-description material, not a correctness judgment.
 
-Tentative routing: HIGH personal/creative provenance and artistic-method archaeology value; LOW SAT/H(s)H theory-reconstruction value; LOW direct-authorship value until crosswalk. Repository code searches for `Alberrisch` and the distinctive willow-charcoal phrase cluster returned no indexed underlying-source match; because code-search coverage is incomplete, classify as **15-source notebook attestation / underlying sources unresolved in checked route**, not missing. No candidate text admitted to Nathan Direct.
+Durable packet updated: `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`; commit `ca82bbf52a9743bff75fe8417fb0bb37c6d00e8d`.
 
-Folder-20 durable index updated. **Next cursor:** continue folder-20 SHA/inventory differentiation and choose one genuinely new non-duplicate high-information blob for a bounded read.
+Connector output truncated Nathan index 21 mid-turn. No missing text was inferred. **Next cursor:** resume from the remainder of index 21 and continue exact speaker-separated packaging through the next coherent first-principles step.
 
-### 2026-09-19 — BURNTHROUGH semantic/provenance pass
+### 2026-09-20 — SAT RIGOR pair identity correction
 
-Target-read `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/BURNTHROUGH__NotebookLM_export.json` (blob `8bb929b45a85f199021cd01c653db209679a436c`; notebook `3fefc96a-2909-4f8b-879c-4ad5f698914d`; capture `2026-09-19T01:41:45.856Z`; `visible_source_count=2`; `reached_top=true`). Short uncited prompt-like turns and long citation-heavy generated answers are all serialized as `role=user`. Tentative routing: HIGH creative/voice/conceptual-source archaeology value; LOW direct SAT/H(s)H reconstruction value; LOW direct-authorship value until source crosswalk.
+Both SAT RIGOR captures are populated, `reached_top=true`, same notebook identity/50-source panel but distinct conversation starts and message keys. They are not byte duplicates or established prefix/superset captures. Preserve both as separate conversation branches/states under one notebook. Durable packet above.
 
-### 2026-09-19 — SAT_SoT source-panel audit
+### 2026-09-20 — Alberrisch semantic/provenance pass (historical note; authorship wording superseded)
 
-Full-blob inspection of `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` found `visible_source_count: 50` but an empty serialized `sources` array. Numeric citations survive, but no citation-label → source-name mapping, source IDs, URLs, or row metadata were captured. Provenance status: NLM-generated claim cluster present; 50-source notebook-level attestation present; serialized source identities absent; underlying documents unresolved from this export.
+Target-read `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Alberrisch__NotebookLM_export.json` (blob `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`; notebook `68f71fa4-253c-4618-b571-273e750f6b20`; capture `2026-09-19T01:44:21.584Z`; `visible_source_count=15`; `reached_top=false`). Earlier Aster language called prompt-shaped first-person turns “Nathan-candidate”; that is superseded by Nathan's later conversation-turn authorship clarification. Structurally identifiable human turns are Nathan Direct; only genuine embedded-quotation boundaries remain locally ambiguous.
+
+### 2026-09-19 — BURNTHROUGH / SAT_SoT historical note
+
+Earlier over-conservative “Nathan-candidate until crosswalk” language is superseded for structurally identifiable human conversation turns. Source crosswalk remains relevant to claim ancestry and NLM-generated content, not to Nathan identity once human turns are separated.
 
 ### 2026-09-20 — Proton-Electron / Steamroller source audits
 
-Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title and distinctive Q/bridge phrases returned no indexed matches. Steamroller's actual source array explicitly contains `Proton-Electron Mass Ratio — raw - .TXT`, between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`, but source entries have `source_id: null` and `row_text: null`. This closes the exporter-metadata route. Classification remains NLM source-panel attestation / unresolved underlying source, not demonstrated archive gap.
+Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title and distinctive Q/bridge phrases returned no indexed matches. Steamroller's actual source array explicitly contains `Proton-Electron Mass Ratio — raw - .TXT`, but source entries have `source_id: null` and `row_text: null`. Classification remains NLM source-panel attestation / unresolved underlying source, not demonstrated archive gap.
 
 ### 2026-09-19 — folder-20 availability / duplicate checkpoint
 
@@ -92,34 +97,3 @@ Folder 20 is populated. SHA comparison established exact cross-folder duplicate 
 ## End-of-run discipline
 
 After material progress, update this file with exact sources/date ranges covered, provenance/authorship decisions, duplicate/crosswalk status, mathematical/theory work and sandbox status, archive-infrastructure changes, enrichment/capability changes, unresolved issues, and one best next cursor. Do not manufacture progress when none exists.
-
-## AUTHORSHIP PRESUMPTION CORRECTION — Nathan directive, 2026-09-19
-
-Nathan directly clarified: **if a conversation is in the archive, it is because Nathan had that conversation, exported it, and uploaded it.**
-
-Operational consequence:
-- The human participant in archived conversation material is Nathan. Do not invent an unresolved-human-identity problem.
-- For raw ChatGPT exports, human/user turns are Nathan Direct by default, subject to span-level exceptions for pasted quotations, coauthored prompts/artifacts, or other explicitly embedded non-Nathan text.
-- For NotebookLM exports, the known exporter defect remains: generated NotebookLM/UI material can also be serialized as `role=user`. Therefore `role=user` alone cannot separate human turns from generated turns **within NLM captures**.
-- However, once NLM conversation structure/metadata/content reliably identifies a record as the human-entered side, its human author is Nathan and it should be treated as Nathan Direct, again subject only to embedded quotation/coauthorship boundaries.
-- Do not downgrade clearly structurally identifiable human NLM prompts to “Nathan-candidate” merely because the exporter corrupts role labels.
-- Generated NLM answers remain non-Nathan regardless of erroneous `role=user`.
-- Ambiguity means human-vs-generated ambiguity, not Nathan-vs-some-other-human ambiguity.
-- Revisit recent Aster classifications in Alberrisch, BURNTHROUGH, SAT_SoT, Steamroller, and other NLM passes where prompt-shaped/structurally human turns were left merely candidate. Promote where structural evidence is adequate; preserve unresolved only where human/generated separation genuinely cannot be made.
-
-This correction supersedes Aster's earlier over-conservative formulation.
-
-
-## NATHAN-DIRECT DEFAULT / ESCALATION RULE — Nathan directive, 2026-09-19
-
-Nathan clarified that **nothing should be held up by uncertain user=Nathan attribution unless there is a genuine doubt about quoted/embedded material.**
-
-Operational rule:
-- Archived conversation provenance establishes Nathan as the human conversant.
-- Once a turn/span is structurally identifiable as human-entered material, classify it Nathan Direct by default.
-- Do NOT maintain a “Nathan-candidate” holding category merely because an exporter (especially NotebookLM) corrupts or collapses speaker-role labels.
-- The remaining authorship problem is local/span-level: pasted LLM text, source quotations, coauthored material, or other embedded foreign text inside Nathan's turn.
-- Use structure, quotation/paste markers, adjacency/context, voice discontinuity, and content clues to delimit such spans.
-- Nathan's distinctive voice may be used as supporting evidence, not as the sole authentication mechanism where stronger structural evidence exists.
-- If a genuine quoted-vs-Nathan ambiguity remains after those checks, **ask Nathan directly** rather than blocking the surrounding Nathan Direct material indefinitely.
-- Correct recent over-conservative Aster NLM classifications accordingly, especially where structurally human prompts were left as “Nathan-candidate.”
