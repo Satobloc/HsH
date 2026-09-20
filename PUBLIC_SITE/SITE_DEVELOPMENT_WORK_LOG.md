@@ -528,3 +528,38 @@ Published successfully to the existing production URL.
 - Advanced **Glossary v1** to the next build, followed by the claims and predictions explorer and feed-driven live sections.
 
 Published successfully to the existing production URL.
+
+---
+
+# 2026-09-20 — readable-first Reading Room pass
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 11
+- **Access preserved:** public.
+
+## Recommendation sources applied
+
+- Read `PUBLIC_SITE/GLASS_SAUSAGE_FACTORY_DESIGN_RECOMMENDATIONS.md` and `PUBLIC_SITE/GLASS_SAUSAGE_FACTORY_COPY_REWRITE_NATHAN_VOICE.md` before revising the interface.
+- Applied their reading-room principles: reduce link-wall behavior, retain routes to source, distinguish presentation from authority, and keep the reader oriented to what kind of object is on screen.
+
+## Reading and repository interface
+
+- Made **Readable documents first** the default repository shelf across both public repositories.
+- Prioritized PDF, TXT, and Markdown material ahead of secondary readable formats and repository folders.
+- Added an **Every file type** shelf option and a separate checkbox for architecture, tooling, generated indexes, and workspaces. These materials remain available; they are simply suppressed by default so archive machinery does not dominate reading.
+- Added display-ready plain-text treatment with lightly structured headings and lists, alongside an exact **Source text** view and the controlling repository original.
+- Added file-format badges, visible shown/hidden counts, persistent URL state for shelf settings, and clearer empty-state guidance.
+
+## Search-ready maps and source boundaries
+
+- Surfaced the expanded library map, federated archive map, structural index, and developing conversation-topic index as curated routes.
+- Treated these indexes as wayfinding and search preparation, not as evidence, derivation, or theory authority.
+- Retained the Mercer result-feed adapter and its provenance-preserving display. Direct live search remains dependent on a published query service or result feed.
+
+## Next technical opportunity
+
+- Convert stable topic-index outputs into a compact public search artifact or query endpoint, then connect those results to the existing Mercer display contract without weakening source paths or status labels.
+
+Published successfully to the existing production URL.
