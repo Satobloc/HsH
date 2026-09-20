@@ -9,7 +9,21 @@ Current Common startup/control surfaces were reread this run, including the hard
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
-## This run — recoverable historical source read/tag
+## This run — taxonomy-transition wayfinding
+
+**Operation:** bounded code-search wayfinding for the transition from the December-2025 `boson = ripple on fermionic filament substrate` taxonomy toward later `t-boson` / `f-boson` / timesheet-vs-filament language.
+
+**Queries:**
+- historical archive: `t-boson f-boson temporon`
+- current HsH repo: `t-boson f-boson`
+
+**Result:** no indexed default-branch code-search hits in either repository. This is a negative retrieval result only; it does not establish absence of the vocabulary or transition in raw exports, non-indexed files, other branches, or differently worded sources.
+
+**Tag/provenance consequence:** no new Nathan-authored source item was actually read, so no corpus-source tag was manufactured. Preserve the existing historical-paper tags below. The retrieval state itself is recorded as `T/F-TAXONOMY-TRANSITION → WAYFINDING-NEEDED` and `EXACT-TERM-CODE-SEARCH → LOW-YIELD`.
+
+**Capability/enrichment note:** the prior Jarlskog recovery failure and this taxonomy-transition failure show the same archive-access pattern: GitHub lexical code search is not a sufficient discovery layer for several historically important vocabularies. Future work should prefer known raw-conversation families, timeline/glossary crosswalks, folder indices, and adjacency evidence over repeated exact-term query spraying.
+
+## Prior run — recoverable historical source read/tag
 
 **Source actually read:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/ ..✅ BOSONIC_TIME.txt`, extracted from ` ..✅ BOSONIC_TIME.pdf` (source SHA256 recorded in extraction header; 18 pages; December 28, 2025 paper by Nathan J. Bellomy).
 
@@ -31,8 +45,6 @@ Systematic 2023–25 archive excavation remains a recurrence priority, with the 
 
 **Authorship/provenance caution:** the PDF carries Nathan J. Bellomy as author, but this read did not recover raw conversation-message ancestry for individual formulations. Do not promote individual sentences into the Nathan Verified Words Compendium solely from this paper. Preserve document-level authorship separately from raw-message verification.
 
-**Capability/enrichment gain:** sharpened a reusable distinction between (a) document-level named authorship, (b) raw-message Nathan Direct, and (c) current terminology authority. Historical papers can securely establish that a formulation was publicly/documentarily present at a date while still requiring raw ancestry before quote-level Nathan Direct promotion.
-
 ## Prior source-recovery result retained
 
 The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. The complete recursive default-branch tree and exact-path commit-history lookup failed to recover `BORROMANEAN_LINK_ILLUSTRATION.txt`/`BORROMEAN_LINK_ILLUSTRATION.txt`; that timeline-object lineage remains `SOURCE-RECOVERY-NEEDED`. Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, `holotype`, `soliton`, `gluon`, and `NESTED HOLONOMIES` yielded no indexed historical-archive code-search hits.
@@ -52,7 +64,7 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Continue with one bounded, recoverable source operation rather than lexical spraying. Highest-value next option: inspect a source adjacent to the December-2025 boson/time taxonomy that can clarify the historical transition from `boson = ripple on fermionic filament substrate` toward later timesheet-vs-filament (`t/f`) structural language, while maintaining the raw-message/document authorship distinction. If no clean adjacent source is addressable, rotate to inherited-tag/selectivity/duplicate audit.
+Do not repeat exact-term t/f code-search next run. Inspect one known raw-conversation family or existing conversation-folder/index surface that spans late 2025 through the later boson terminology correction, using chronology/adjacency rather than lexical search. Goal: recover one attributable Nathan message or one exact source pointer bearing on the historical taxonomy transition. If no clean source is addressable within one bite, rotate to inherited-tag/selectivity/duplicate audit.
 
 The unresolved Jarlskog/soliton lineage stays pinned for source recovery when a new wayfinding pointer appears.
 
