@@ -30,6 +30,7 @@ Nathan moved this lane from predominantly archaeological recovery into construct
 - `RUN_070_CURVE_ONLY_GRAM_RATE_RESOLUTION.md`
 - `RUN_071_SAME_SAMPLE_MODEL_SELECTION_BENCHMARK.md`
 - `RUN_072_RAW_LINEAR_RECURRENCE_FAILURE.md`
+- `RUN_073_BLOCK_HANKEL_TLS_FAILURE.md`
 
 ## Durable current findings
 - UI master representation: `y(lambda)=r(lambda)R(lambda)x0`, `R in SO(4)`; curve direction alone leaves an `SO(3)` stabilizer unless frame/director data are supplied.
@@ -42,30 +43,31 @@ Nathan moved this lane from predominantly archaeological recovery into construct
 - Run 071 puts derivative moments and Gram fitting on identical noisy 4D samples. With the fixed high-order differentiator tested, derivative moments are far less noise-robust than the nonlocal Gram representation; exact four-moment identity remains valid, but coordinate-level acquisition makes third-derivative estimation expensive.
 - A one-mode baseline changes the question usefully from forced parameter recovery to whether observations justify resolving two modes at all.
 - Run 072 derived the exact order-4 palindromic recurrence for the two-rate carrier, but naive global OLS on noisy coordinates fails catastrophically because noise contaminates predictors and response and the small-`dt` recurrence columns are nearly dependent. Noiseless decoding succeeds; estimator failure is retained separately from the exact identity.
+- Run 073 replaces OLS with block-Hankel TLS plus palindromic projection. This removes the narrow OLS formulation defect but still fails catastrophically under the same coordinate noise; adjacent-sample recurrence acquisition remains dominated by clustered roots/near-dependent Hankel columns at `dt=0.025`.
 
-## Run 072 — raw global linear-recurrence negative control
-**Actual start:** 2026-09-20 09:30:37 -04:00. Artifact commit `ad2987f859604aab36ce8a7bec438c93f73849c5`.
+## Run 073 — block-Hankel TLS negative control
+**Actual start:** 2026-09-20 10:30:11 -04:00. Artifact commit `8c245a0f9d013b1931c76530a00fe058ca28817a`.
 
-**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, Sable `README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, and prior checkpoint. New/important current output gate on protected signet was reread and applied. No-conversation-renaming, sandbox, quarantine, and math-status controls remain active. Suspended Integration handoffs were not executed.
+**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, relevant Sable/Meridian response, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, and prior checkpoint. Current protected-signet output gate reread and applied. No-conversation-renaming, sandbox, quarantine, and math-status controls remain active. Suspended Integration handoffs were not executed.
 
-**Exact operation:** followed Run 071 cursor with one bounded estimator target. Derived a curve-only order-4 recurrence for each coordinate of the constant double-rotation carrier and fit its two coefficients globally across all four coordinates by ordinary least squares on the identical Run-071 primitive sampling model: `a=1.2`, `b=0.65`, `w=1.1`, 161 samples on `[-2,2]`, `dt=0.025`, iid coordinate Gaussian noise `sigma=1e-4`. Gaps `0.1,0.03,0.01,0.003`; 200 trials each.
+**Exact operation:** followed Run 072 cursor with one bounded estimator target. Built a stacked five-column Hankel matrix from all four coordinate series; took the smallest right singular vector as a TLS annihilating-filter estimate; projected it onto the exact palindromic family `[1,-s1,s2,-s1,1]`; decoded the two rates. Same primitive sampling model as Run 072: `a=1.2`, `b=0.65`, `w=1.1`, 161 samples on `[-2,2]`, `dt=0.025`, iid coordinate Gaussian noise `sigma=1e-4`; gaps `0.1,0.03,0.01,0.003`; 400 trials each.
 
-**Benchmark/exploration result:** exact/noiseless recurrence decoding recovered the two rates to ~2e-8 in spot checks. Under coordinate noise, naive OLS failed catastrophically: median relative separation errors about `886, 3027, 9082, 30267` across the four gaps. At gap `0.1`, true recurrence coefficients `(3.9986188302,5.9972381330)` became `(0.7026160221,-0.5923720838)` in one noisy realization and decoded rates `[1.07837,91.04734]`. This is classified as estimator failure / errors-in-variables plus near-collinearity, not failure of the exact recurrence identity.
+**Benchmark/theory/exploration result:** noiseless recovery succeeds (`0.1 -> [1.0,1.1]`; `0.03 -> [1.06999997,1.10000003]`). Under coordinate noise, median relative separation errors are approximately `320.1, 2428.6, 8520.3, 27905`, with valid decode counts `398/400,399/400,400/400,400/400`. Thus generic block-Hankel TLS does not rescue the adjacent-sample recurrence acquisition. This is an estimator/conditioning negative result, not failure of the exact recurrence identity and not a claim about all structured low-rank/subspace estimators.
 
-**Status:** sandbox / CLAIMED numerical benchmark; negative control retained. No validation/disclaimer promotion.
+**Status:** sandbox / CLAIMED numerical benchmark; negative result retained. No validation/disclaimer promotion.
 
-**Exact sources/coverage:** current Common controls and checkpoint listed above; mathematical construction generated from established sandbox Runs 067–071. No external literature, historical archive, nLab, PRIOR_ART, quarantine, Kerr, or Kelvin source used.
+**Exact sources/coverage:** current Common controls and checkpoint listed above; mathematical construction generated from established sandbox Runs 067–072. No external literature, historical archive, nLab, PRIOR_ART, quarantine, Kerr, or Kelvin source used.
 
 **Exposure/cross-reading:** no quarantine or external-prior-art exposure. Kerr/Kelvin not used as solver premises.
 
-**Archive/infrastructure:** created `WORKSPACES/MERIDIAN/SANDBOX/RUN_072_RAW_LINEAR_RECURRENCE_FAILURE.md`; refreshed owner-local checkpoint. No public/canonical theory surface changed.
+**Archive/infrastructure:** created `WORKSPACES/MERIDIAN/SANDBOX/RUN_073_BLOCK_HANKEL_TLS_FAILURE.md`; refreshed owner-local checkpoint. No public/canonical theory surface changed.
 
-**Enrichment/capability:** added global discrete recurrence representation and an explicit errors-in-variables failure diagnostic; sharpened distinction between exact compact representation and robust acquisition estimator.
+**Enrichment/capability:** added a block-Hankel/TLS acquisition test and separated errors-in-variables repair from the deeper small-lag root-clustering/conditioning problem.
 
-**Failures/uncertainties:** naive OLS is unusable here despite exact recurrence. Need a noise-aware structured estimator before comparing recurrence architecture to Gram. No blocker and no Nathan action required.
+**Failures/uncertainties:** the tested TLS estimator remains unusable at the present adjacent-sample lag. More sophisticated structured low-rank/subspace methods may differ. No blocker and no Nathan action required.
 
 ## Current frontier / next cursor
-Implement a noise-aware structured low-rank Hankel / total-least-squares recurrence estimator on the same noisy 4D samples, with no frame/director information. First demand stable two-rate recovery away from collision at `sigma=1e-4`; only if that succeeds compare its model-selection boundary against Run 071 Gram fitting.
+Test **lag/decimation as the conditioning variable** while retaining the exact palindromic recurrence architecture: use stride `L` five-point windows, scan a bounded set of `L`, and demand stable recovery first at the easy gap `0.1`, `sigma=1e-4`. Only if a reasonable lag restores stability proceed toward collision/model-selection comparison. If it does not, retain Gram as the practical curve-only baseline and return the next bite to source-first Whirligig/UI/Hagalaz representation work.
 
 Secondary frontier: source-first inspect non-quarantined Whirligig/UI/Hagalaz sources for an independently specified director/frame observation channel before any frame-observation benchmark. Retain stronger blind W6 transformation-discovery test, Pfaffian/holonomy/Graticule invariant constraints, historical ordinary/anti Graticule source check, and later SAT/H(s)H-shaped operator/GR↔QM flagship after sufficient nontrivial controls.
 
