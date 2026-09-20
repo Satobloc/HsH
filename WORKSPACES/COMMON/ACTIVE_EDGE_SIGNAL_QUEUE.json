@@ -23,13 +23,13 @@
     {
       "id": "SIG-20260920-02",
       "type": "FEED_FORWARD",
-      "status": "OPEN",
+      "status": "ROUTED_AWAITING_DISPOSITION",
       "target": "Nathan Words → Theorist Feed",
-      "evidence": "Verified Nathan Words Compendium is rich; theorist feed has now been seeded but all index items are unconsumed or awaiting crosslink/context disposition.",
+      "evidence": "The feed remains unconsumed at inspection. Comptroller routed THEORIST_READY item NWTF-20260610-THETA4-SEMANTIC-DRIFT to Meridian for one bounded formalization-interface consumption pass via WORKSPACES/MERIDIAN/HANDOFF_NWTF_THETA4_SEMANTIC_DRIFT_2026-09-20.md (commit 208fdbc83684f6e19c1445e436437ff56e47832f).",
       "intent": "Close the loop from excavation to actual theory/formalization use.",
-      "suggested_action": "Have Aster promote one high-value current-relevant packet and route one appropriate theorist/solver worker to consume it, recording disposition rather than merely reading the feed.",
+      "suggested_action": "Meridian should return exactly one downstream disposition for the routed item: INGESTED, CONFLICT, NOT-RELEVANT, or BLOCKED-SOURCE with exact missing pointer; include affected branch/artifact pointer and do not promote historical wording into current theory authority.",
       "exit": "One feed item has a downstream INGESTED/CONFLICT/NOT-RELEVANT disposition with branch pointer.",
-      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json"
+      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json; then Comptroller closes or reroutes this signal"
     },
     {
       "id": "SIG-20260920-03",
