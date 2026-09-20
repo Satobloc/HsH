@@ -24,7 +24,7 @@ Newer explicit Nathan directives control.
 
 Recover and preserve verified Nathan-authored raw material with exact wording, metadata-authenticated authorship, chronology, cumulative tags, adjacency / parent-child context, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation of Nathan text from assistant/NotebookLM/other LLM prose.
 
-Do not treat `role=user` as sufficient Nathan-authorship evidence in NotebookLM exports. Folder-18/19 NLM captures demonstrably serialize generated/interface material that way.
+Do not treat `role=user` as sufficient Nathan-authorship evidence in NotebookLM exports. Folder-18/19/20 NLM captures demonstrably serialize generated/interface material that way.
 
 ## Current ingest frontier
 
@@ -67,31 +67,39 @@ No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet.
 
 ## Last meaningful state / checkpoints
 
-### 2026-09-19 — SAT_SoT source-panel audit
+### 2026-09-19 — BURNTHROUGH semantic/provenance pass
 
-Current must-reads reread, including the hard no-conversation-renaming and Nathan-signet rules, workflow control, bibliography sequence, Nathan Direct state, current handoffs, folder-index specification, and this continuity file.
+Current must-reads reread, including no-conversation-renaming, worker autonomy/signet protection, automation control, bibliography sequence, Nathan Direct workflow state, and this continuity checkpoint.
+
+Target-read `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/BURNTHROUGH__NotebookLM_export.json` (blob `8bb929b45a85f199021cd01c653db209679a436c`; notebook `3fefc96a-2909-4f8b-879c-4ad5f698914d`; capture `2026-09-19T01:41:45.856Z`; `visible_source_count=2`; `reached_top=true`). The visible sequence independently confirms the NotebookLM authorship hazard: short uncited prompt-like turns and long citation-heavy generated answers are all serialized as `role=user`. Short turns such as `What's the Sun's China?` are Nathan-candidate wording only, not authenticated Nathan Direct. Generated turns must remain NLM synthesis/style continuation even when they quote or imitate source language.
+
+Tentative routing: HIGH creative/voice/conceptual-source archaeology value; LOW direct SAT/H(s)H theory-reconstruction value; LOW direct-authorship value until source crosswalk. Preserve the playful/recursive/neologistic material rather than cleaning it away or treating metaphor as theory claims.
+
+The notebook attests to two visible sources, but current repository code searches for `BURNTHROUGH` and `Sun's China` returned no indexed underlying-source match. This does not establish absence because code-search coverage is incomplete. Provenance state: two-source NLM attestation / underlying source identities unresolved in the checked route. No candidate turn was admitted to Nathan Direct.
+
+Folder-20 durable index updated. **Next cursor:** `Alberrisch__NotebookLM_export.json`, one bounded semantic/provenance read.
+
+### 2026-09-19 — SAT_SoT source-panel audit
 
 Full-blob inspection of `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` tested the planned source-first crosswalk. The capture metadata reports `visible_source_count: 50`, but its serialized top-level `sources` array is empty. Numeric citations survive in generated answers, but no citation-label → source-name mapping, source IDs, URLs, or row metadata were captured. Therefore the direct source-panel crosswalk is blocked by capture omission; this is not evidence that the notebook lacked sources.
 
-Provenance status: NLM-generated claim cluster present; 50-source notebook-level attestation present; serialized source identities absent; underlying documents unresolved from this export. Do not infer source identity from equation content or citation numbers. Folder-20 index updated accordingly.
-
-**Next cursor:** targeted semantic/provenance read of the genuinely new `BURNTHROUGH__NotebookLM_export.json`; return to SAT_SoT ancestry only if a different capture/source index or independent archive anchor becomes available.
+Provenance status: NLM-generated claim cluster present; 50-source notebook-level attestation present; serialized source identities absent; underlying documents unresolved from this export. Do not infer source identity from equation content or citation numbers.
 
 ### 2026-09-20 — Proton-Electron source search
 
-Current must-reads reread. Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and `0.00609 proton electron mass` returned no indexed matches. `File Set Overview — raw.json` was visible but not treated as searched content when connector retrieval returned no body text.
+Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and `0.00609 proton electron mass` returned no indexed matches. `File Set Overview — raw.json` was visible but not treated as searched content when connector retrieval returned no body text.
 
 Result: source-panel attestation remains stronger than repository-search evidence. Stop repeating broad code-search variants.
 
 ### 2026-09-20 — Steamroller source-metadata audit
 
-Current must-reads reread again. Inspected the successful Steamroller export's actual `sources` array around the target. `Proton-Electron Mass Ratio — raw - .TXT` is explicitly present, immediately between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`. Crucially, both its source entries have `source_id: null` and `row_text: null`; the export preserves only the title (one icon-prefixed duplicate and one plain duplicate). The surrounding source entries have the same null metadata pattern. Therefore this exporter capture contains no target-specific identifier, URL, date, or row metadata to follow beyond the title itself. The notebook-level metadata preserves notebook ID/capture time, but that does not identify the underlying Proton-Electron source.
+Inspected the successful Steamroller export's actual `sources` array around the target. `Proton-Electron Mass Ratio — raw - .TXT` is explicitly present, immediately between `PODCAST - Episodess.txt` and `QUINTATION Quick Pass Analysis — raw.txt`. Crucially, both its source entries have `source_id: null` and `row_text: null`; the export preserves only the title (one icon-prefixed duplicate and one plain duplicate). The surrounding source entries have the same null metadata pattern. Therefore this exporter capture contains no target-specific identifier, URL, date, or row metadata to follow beyond the title itself. The notebook-level metadata preserves notebook ID/capture time, but that does not identify the underlying Proton-Electron source.
 
 This closes the proposed “extract source-specific metadata from Steamroller” route as a negative result. Provenance classification remains: **NLM source-panel attestation / unresolved underlying source**. It is not a located archived source and not yet a demonstrated archive gap.
 
 ### 2026-09-19 — adjacent-title search + folder-20 availability checkpoint
 
-Current must-reads reread. The bounded source-adjacency search for `Ret--Jun1 SAT Z Review`, `SAT ACTIVE EDGE vNext`, `QUINTATION Quick Pass Analysis`, and nearby shortened title variants returned no indexed matches across HsH and the original SAT archive. This means the first adjacency route did not produce a raw anchor; do not turn source-panel order into chronology without independent evidence.
+The bounded source-adjacency search for `Ret--Jun1 SAT Z Review`, `SAT ACTIVE EDGE vNext`, `QUINTATION Quick Pass Analysis`, and nearby shortened title variants returned no indexed matches across HsH and the original SAT archive. This means the first adjacency route did not produce a raw anchor; do not turn source-panel order into chronology without independent evidence.
 
 The required higher-folder watch produced a material change: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/` is now populated. A first SHA-based comparison against visible folder-19 entries established several exact cross-folder duplicate blobs, including `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS`, `2 Stringing Along Theory`, both Asteroid Mining captures, `BLANK SLATE`, and `CONSCIOUSNESS CLUB_ SUPERMETA CHAT`. These duplicate paths should be preserved for provenance but do not require repeated semantic ingest. Folder 20 also contains inventory-visible blobs such as `# SAT_SoT Scalar-Angular-Theory State of the Theory`, `Alberrisch`, and `BURNTHROUGH`. Durable index: `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
 
