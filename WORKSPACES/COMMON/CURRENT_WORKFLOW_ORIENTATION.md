@@ -1,6 +1,6 @@
 # Current Workflow Orientation
 
-**Current as of:** 2026-09-18  
+**Current as of:** 2026-09-19  
 **Status:** active orientation / wayfinding surface  
 **Purpose:** give a newly arriving or revived instance a fast, accurate path into the current SAT/H(s)H workflow without flattening historical state, theory status, provenance, or quarantine boundaries.
 
@@ -40,13 +40,15 @@ If a newer explicit Nathan directive conflicts with any of the above, the newer 
 
 ## 3. Current recurring worker roster
 
-See `ACTIVE_AUTOMATION_ROSTER.md` for the live roster. As of this orientation date the hourly backbone is:
+See `ACTIVE_AUTOMATION_ROSTER.md` for the live operational roster. Current durable worker identities established by worker-local continuity surfaces are:
 
-- `:00` — Tag Conversation Corpus
-- `:12` — Nathan Words Excavator
+- `:00` — Loom / Tag Conversation Corpus
+- `:12` — Aster / Nathan Words Excavator
 - `:28` — Meridian Solver Loop
-- `:45` — AUTOMATION — Project Systems
+- `:45` — Tern / AUTOMATION — Project Systems
 - `:52` — Mercer Archive QA Loop
+
+Automation/task names are operational identities, not user-facing conversation identities. In particular, Tern is the backend project-systems worker and is not the human-facing Sable continuity/systems instance.
 
 Primary lane means responsibility and continuity anchor, not intellectual silo. Workers may range broadly across permitted non-quarantined material and sandbox theory work when useful.
 
@@ -198,6 +200,8 @@ Currentness is not correctness. Polish is not maturity. Provenance is not valida
 ## 14. State-of-Reconstruction and Instance-Enrichment reports
 
 These reports are part of project restartability and longitudinal self-audit.
+
+The live project-wide call and status roster is `PROJECT_WIDE_REPORT_SERIES_CALL_2026-09-19.md`.
 
 ### State of Reconstruction
 A report should capture:
