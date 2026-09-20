@@ -255,6 +255,61 @@ def package(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str,
     return packaged, stats
 
 
+def build_lookup_rows(shards: dict[str, list[dict[str, Any]]]) -> list[dict[str, Any]]:
+    """Build a compact deterministic locator without duplicating message text/tags."""
+    lookup: list[dict[str, Any]] = []
+    for year in sorted(shards):
+        shard_name = f"nathan-direct-{year}.jsonl"
+        for ordinal, r in enumerate(shards[year], 1):
+            lookup.append({
+                "conversation_id": r.get("conversation_id"),
+                "message_id": r.get("message_id"),
+                "shard": shard_name,
+                "record_ordinal_1based": ordinal,
+                "canonical_source_path": r.get("canonical_source_path"),
+                "all_source_paths": r.get("all_source_paths") or [],
+            })
+    return lookup
+
+
+def validate_lookup(packaged: list[dict[str, Any]], lookup: list[dict[str, Any]], outdir: Path) -> None:
+    """Fail closed if a locator does not resolve exactly to its emitted shard record."""
+    if len(lookup) != len(packaged):
+        raise RuntimeError(f"lookup count mismatch: {len(lookup)} != {len(packaged)}")
+
+    seen_keys: set[tuple[str, str]] = set()
+    for item in lookup:
+        key = (str(item.get("conversation_id")), str(item.get("message_id")))
+        if key in seen_keys:
+            raise RuntimeError(f"duplicate lookup key: {key!r}")
+        seen_keys.add(key)
+
+    by_shard: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in lookup:
+        by_shard[str(item["shard"])].append(item)
+
+    for shard_name, items in by_shard.items():
+        shard_path = outdir / shard_name
+        with shard_path.open("r", encoding="utf-8") as f:
+            shard_records = [json.loads(line) for line in f if line.strip()]
+        if len(items) != len(shard_records):
+            raise RuntimeError(f"lookup/shard count mismatch for {shard_name}")
+        for item in items:
+            ordinal = int(item["record_ordinal_1based"])
+            if ordinal < 1 or ordinal > len(shard_records):
+                raise RuntimeError(f"invalid ordinal {ordinal} for {shard_name}")
+            target = shard_records[ordinal - 1]
+            if stable_key(item) != stable_key(target):
+                raise RuntimeError(
+                    f"lookup target mismatch for {shard_name}:{ordinal}: "
+                    f"{stable_key(item)!r} != {stable_key(target)!r}"
+                )
+            if item.get("canonical_source_path") != target.get("canonical_source_path"):
+                raise RuntimeError(f"canonical source mismatch for {shard_name}:{ordinal}")
+            if item.get("all_source_paths") != (target.get("all_source_paths") or []):
+                raise RuntimeError(f"source alias mismatch for {shard_name}:{ordinal}")
+
+
 def write_outputs(packaged: list[dict[str, Any]], stats: dict[str, Any], outdir: Path) -> None:
     outdir.mkdir(parents=True, exist_ok=True)
     shards: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -269,12 +324,26 @@ def write_outputs(packaged: list[dict[str, Any]], stats: dict[str, Any], outdir:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
         manifest_shards.append({"year": year, "path": path.as_posix(), "records": len(shards[year])})
 
+    lookup = build_lookup_rows(shards)
+    lookup_path = outdir / "nathan-direct-lookup.jsonl"
+    with lookup_path.open("w", encoding="utf-8") as f:
+        for item in lookup:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+    validate_lookup(packaged, lookup, outdir)
+
     manifest = {
         "generated_by": "WORKSPACES/COMMON/scripts/package_nathan_direct.py",
         "status": "UNSORTED-BUT-TAGGED NATHAN DIRECT SUBSTRATE",
         "authority_note": "Raw user authorship is verified by source role metadata; machine tags are retrieval aids and do not confer theory authority.",
         **stats,
         "shards": manifest_shards,
+        "lookup": {
+            "path": lookup_path.as_posix(),
+            "records": len(lookup),
+            "key": ["conversation_id", "message_id"],
+            "locator": ["shard", "record_ordinal_1based"],
+            "source_aliases_included": True,
+        },
     }
     (outdir / "MANIFEST.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -289,6 +358,10 @@ def write_outputs(packaged: list[dict[str, Any]], stats: dict[str, Any], outdir:
         f.write("\n## Shards\n\n")
         for item in manifest_shards:
             f.write(f"- `{Path(item['path']).name}` — {item['records']} records\n")
+        f.write("\n## Lookup\n\n")
+        f.write("- `nathan-direct-lookup.jsonl` — one compact locator per packaged message. ")
+        f.write("Use `(conversation_id, message_id)` as the stable key and `shard` + `record_ordinal_1based` as the target; ")
+        f.write("`canonical_source_path` and `all_source_paths` support source-path alias lookup without duplicating message text.\n")
         f.write("\n`context_dependent_inherited_tag=true` means at least one adjacency topic tag is not directly present among the message-level topic tags. ")
         f.write("Use the raw chronological, parent/child, and full-conversation pointers for contextual recovery; do not merge assistant text into Nathan wording.\n")
 
