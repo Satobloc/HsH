@@ -9,7 +9,33 @@ Current Common startup/control surfaces were reread this run, including the hard
 
 The hard pre-send/pre-write signet check in `AUTOMATION_WORKFLOW_CONTROL.md` was applied.
 
-Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
+Systematic 2023–25 archive excavation remains a recurrence priority, with the Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage now substantially source-recovered but still open for earlier-source archaeology.
+
+## Current run — photoneutrino substrate correction / Jarlskog crosswalk
+
+**Trigger:** newer direct Nathan clarification in the live conversation, 2026-09-20: photoneutrinos are **f-bosons**; the Jarlskog Shadow appears to be the **timesheet-side equivalent**.
+
+**Current relationship update (additive; older terminology preserved):**
+- `PHOTONEUTRINO → F-BOSON [CURRENT NATHAN-DIRECT CLARIFICATION / LIVE, RAW-ID-PENDING]`
+- `PHOTON-LIKE PHOTONEUTRINO RESOLUTION → FILAMENT-BORNE TRAVELING EXCITATION [CURRENT CROSSWALK]`
+- `NEUTRINO-LIKE PHOTONEUTRINO RESOLUTION → FILAMENT-BORNE TRAVELING EXCITATION [CURRENT CROSSWALK]`
+- `JARLSKOG-SHADOW → TIMESHEET-SIDE ANALOGUE/EQUIVALENT OF PHOTONEUTRINO-LIKE EXCITATION [CURRENT NATHAN-DIRECT, TENTATIVE WORDING: "IT WOULD APPEAR"]`
+- `JARLSKOG-SHADOW → T-SHEET OBJECT / T-BOSON-SIDE CLASSIFICATION [CURRENT INFERENCE FROM DIRECT CLARIFICATION; DO NOT OVERSTATE BEYOND SOURCE WORDING]`
+- `GHOST-NEUTRINO → HISTORICAL NAME FOR JARLSKOG-SHADOW [PRESERVE; NOW TAXONOMICALLY MISLEADING IF READ AS LITERAL PHOTONEUTRINO]`
+- `OLDER T-NEUTRINO / GHOST-NEUTRINO WORDING → REQUIRES HISTORICAL ANNOTATION, NOT SILENT REWRITE`
+
+**Corpus support inspected this bite:**
+- `Homes in Cardinal Order — raw.json` contains an embedded `SAT CORE STACK — CORRECTED / STANDARDIZED / SANS MAXIMAX` block explicitly classifying both neutrino-like and photon-like states as traveling **f-bosons**, and naming an `F-BOSONS / PHOTONEUTRINO KERNEL`. This is useful corroborating project-corpus evidence, but the inspected block is embedded inside a raw conversation and was not authenticated here as Nathan-authored; do not promote it to Nathan Direct from content alone.
+- Existing durable ledger `2026-09-19-T-NEUTRINO-RECLASSIFICATION-CROSSWALK-60.md` records the earlier Nathan-direct state: Jarlskog Shadow = timesheet dimple; historical ghost-neutrino label questioned under newer terminology; neutrino analogue retained tentatively; t/f split = timesheet-vs-filament location. The new live clarification resolves the previously open substrate assignment for the **photoneutrino family** toward f-boson while sharpening the Jarlskog Shadow as the timesheet-side counterpart.
+- Existing March-15 and CALDER ledgers remain historical genealogy evidence and are not rewritten: March 15 particle-like `Jarlskog shadow nutrino` / `ghost nutrino` language and later braid-core/nuclear-vertex soliton language remain visible as development stages.
+
+**Important terminology discipline:** standard-physics boson/fermion remains spin/statistics. `f-boson` and `t-boson` here are SAT/H(s)H substrate/location labels and must not be translated into standard bosonic statistics. The live correction concerns SAT structural taxonomy.
+
+**Authorship/provenance:** the 2026-09-20 clarification is direct Nathan wording in the live thread but does not yet have an archived raw UUID/create_time available to Loom. Status is `NATHAN-DIRECT-LIVE / RAW-ID-PENDING`; capture exact raw provenance when the conversation export becomes addressable.
+
+**Duplicate/source handling:** no new independent occurrence is claimed from the two `Homes in Cardinal Order` Library manifestations; embedded standardized-stack text is corroboration/context until speaker provenance is established.
+
+**Current frontier:** trace the photoneutrino/f-boson assignment backward to the earliest raw Nathan-direct occurrence, while preserving the separate Jarlskog genealogy. Do not search for `t-neutrino` as if it were automatically a literal neutrino species; historical uses may instead be attempts to name the timesheet-side analogue now represented by the Jarlskog Shadow.
 
 ## Current run — indexed raw-corpus retrieval breakthrough
 
@@ -96,9 +122,9 @@ Recent Meridian/Gendarme correction/supersession chains remain durable context: 
 
 ## Next cursor
 
-Perform one bounded addressable provenance/content operation. Preferred next cursor: locate/crosswalk the newly exposed underlying source title `ASTEROID MINING LLC.txt` without assuming its repository location; if located, inspect only enough to establish source identity/provenance and tag what is actually read. If not addressable, record the unresolved pointer and rotate rather than query-spray.
+Perform one bounded addressable provenance/content operation. Preferred next cursor: recover the earliest raw Nathan-direct photoneutrino/f-boson assignment and connect it to the already-recovered June/July substrate grammar without collapsing historical `t-neutrino` language into current taxonomy. If no earlier raw Nathan source is addressable, retain the 2026-09-20 live clarification as current and mark earlier assignment provenance unresolved.
 
-The unresolved Jarlskog/soliton and t/f taxonomy-transition lineages stay pinned for source recovery when a new wayfinding pointer appears.
+The Asteroid Mining underlying-source crosswalk remains a secondary open cursor; the Jarlskog/soliton lineage remains open for earlier-source archaeology rather than basic conceptual recovery.
 
 ## Workspace identity
 
