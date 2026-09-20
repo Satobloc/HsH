@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1",
+  "status": "ACTIVE_SEED",
+  "updated": "2026-09-20",
+  "upstream_compendium": "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md",
+  "purpose": "Topic-indexed downstream routing of verified Nathan-authored material into theory/formalization/solver work without confusing provenance with theory authority.",
+  "readiness_states": [
+    "FOUND",
+    "SOURCE_VERIFIED",
+    "CONTEXT_VERIFIED",
+    "THEORIST_READY",
+    "NEEDS_REVIEW",
+    "SUPERSEDED"
+  ],
+  "items": [
+    {
+      "id": "NWTF-20260608-GEOMETRY-METHOD",
+      "title": "Geometry as a way to approach unfamiliar physics",
+      "readiness": "THEORIST_READY",
+      "source_conversation": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "message_id": "83f9676d-7e18-4328-8dce-fcf9a89e815e",
+      "date": "2026-06-08",
+      "authorship": "RAW USER MESSAGE",
+      "tags": ["METHOD", "4D-THINKING", "GEOMETRY"],
+      "use_class": "methodological intent",
+      "why_useful": "Supports geometry-first reconstruction methodology without treating assistant formalization as the source of intent.",
+      "candidate_consumers": ["formalization", "solver design", "Alberr Hall clean-sheet derivations"],
+      "currentness_caution": "Method/provenance statement; not by itself a theory equation or validation claim.",
+      "disposition": "UNCONSUMED"
+    },
+    {
+      "id": "NWTF-20260610-VOCAB-PROVENANCE",
+      "title": "Early vocabulary: timesheet and world line",
+      "readiness": "THEORIST_READY",
+      "source_conversation": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "message_id": "eeadf9ec-9a18-4139-b40b-6f7b408aecc4",
+      "date": "2026-06-10",
+      "authorship": "RAW USER MESSAGE",
+      "tags": ["TIMESHEET", "WORLDLINE", "4D-THINKING", "HISTORY", "METHOD"],
+      "use_class": "terminology/genealogy control",
+      "why_useful": "Prevents later vocabulary from being projected backward onto the original dimensional construction and helps distinguish worldline/filament/worldtube/timesheet genealogy.",
+      "candidate_consumers": ["theory reconstruction", "glossary", "formalization", "source chronology"],
+      "currentness_caution": "Historical vocabulary provenance; later usage is sharper.",
+      "disposition": "UNCONSUMED"
+    },
+    {
+      "id": "NWTF-20260610-THETA4-SEMANTIC-DRIFT",
+      "title": "θ4 terminology changed with the model",
+      "readiness": "THEORIST_READY",
+      "source_conversation": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "message_id": "7c63153a-c483-496f-8ec6-685d294f0375",
+      "date": "2026-06-10",
+      "authorship": "RAW USER MESSAGE",
+      "tags": ["METHOD", "TIMESHEET", "INTERACTIONS", "NATHAN-CORRECTION", "HISTORY"],
+      "use_class": "semantic-versioning control",
+      "why_useful": "Explicit Nathan instruction that major definitions/naming conventions can change over time and should remain dated rather than flattened into a single timeless definition.",
+      "candidate_consumers": ["glossary", "equation ledger", "historical reconstruction", "formalization"],
+      "currentness_caution": "Do not read either historical θ4 phrase as the current formal definition merely because it is quoted.",
+      "disposition": "UNCONSUMED"
+    },
+    {
+      "id": "NWTF-20260608-ELECTRON-BRAIDS-BOSONS",
+      "title": "Electron, quark braids, and true bosons",
+      "readiness": "CONTEXT_VERIFIED",
+      "source_conversation": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.07•26.06.10•Geometry in Physics — raw.json",
+      "message_id": "0a1829be-9bf1-4801-aba3-da5c0cb67344",
+      "date": "2026-06-08",
+      "authorship": "RAW USER MESSAGE",
+      "tags": ["WORLDLINE", "WORLDTUBE", "NESTED-HELIX", "INTERBRAID", "MODEL-VS-REALITY", "NATHAN-CORRECTION"],
+      "use_class": "historical/current-model relationship candidate",
+      "why_useful": "Provides direct Nathan correction for interpreting older particle-strand documents and identifies long-lived intended distinctions that should be checked against later worldtube/finite-core work.",
+      "candidate_consumers": ["particle-model reconstruction", "braid/interbraid work", "worldtube formalization"],
+      "currentness_caution": "Requires later-worldtube/finite-core crosslink before being treated as current theory; feed status deliberately below THEORIST_READY for current-model use.",
+      "disposition": "NEEDS_LATER_CROSSLINK"
+    },
+    {
+      "id": "NWTF-20240322-HELIX-PLANE-START",
+      "title": "Start with a helix, a straight line, and an intersecting plane",
+      "readiness": "SOURCE_VERIFIED",
+      "source_conversation": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json",
+      "message_id": "aaa28bd9-07f7-4740-b878-b485d4db44d0",
+      "date": "2024-03-22",
+      "authorship": "RAW USER MESSAGE",
+      "tags": ["DIMENSIONALITY", "4D-THINKING", "WORLDLINE", "PROJECTION-READOUT", "HELIX-PITCH-RADIUS-ARCLENGTH", "HISTORY"],
+      "use_class": "early geometric construction anchor",
+      "why_useful": "Earliest currently identified raw construction conversation in the compendium and a natural clean-sheet source for reconstructing the helix/intersection geometry genealogy.",
+      "candidate_consumers": ["Alberr Hall", "solver reconstruction", "geometry genealogy", "projection/readout work"],
+      "currentness_caution": "Historical pre-SAT vocabulary; requires later-correction/context crosswalk before direct current-theory use.",
+      "disposition": "NEEDS_CONTEXT_CROSSWALK"
+    }
+  ]
+}
