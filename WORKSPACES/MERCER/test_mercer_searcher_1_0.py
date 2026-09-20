@@ -2,6 +2,7 @@
 """Deterministic acceptance tests for Mercer_Searcher_1.0 query semantics.\n\nThis fixture is intentionally synthetic: it tests search mechanics without reading archive content.\n"""
 from pathlib import Path
 import importlib.util
+import sys
 
 HERE=Path(__file__).resolve()
 TOOL=HERE.parents[2]/"tools"/"search_archive_content.py"
