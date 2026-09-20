@@ -122,17 +122,17 @@
       "authorship_note": "Exact model/instance identity is not asserted by this record; presented as LLM/project-worker prose, not Nathan wording."
     },
     {
-      "id": "llm-site-signals-worth-testing",
+      "id": "llm-site-pictures-arguments-provenance",
       "speaker_class": "LLM",
       "speaker_label": "LLM / site-builder prose",
-      "text": "Signals worth testing—not victories to announce.",
+      "text": "The pictures are arguments and provenance.",
       "display_status": "featured",
-      "audience_tags": ["lay", "scientist", "epistemic"],
-      "topic_tags": ["news", "convergence", "evidence"],
+      "audience_tags": ["lay", "conceptual", "historical"],
+      "topic_tags": ["visuals", "provenance", "geometry"],
       "source_type": "assistant-generated Glass Sausage Factory site copy",
-      "source_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/#news",
+      "source_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/#visuals",
       "source_record": "Explain Sites_ — raw.json, 2026-09-20 site-build conversation",
-      "context": "Heading for the evidence-disciplined In the News section.",
+      "context": "Heading for the visual-history section, emphasizing that images carry both model content and development history.",
       "authorship_note": "Assistant/site-builder wording; not Nathan wording and not a theory claim."
     }
   ]
