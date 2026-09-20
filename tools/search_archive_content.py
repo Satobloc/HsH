@@ -271,8 +271,7 @@ def main()->int:
  ap.add_argument("--topic-config",type=Path,help="JSON topics/aliases used for enrichment and concept graph")
  ap.add_argument("--out",type=Path,default=Path("indexes/topical/search"));ap.add_argument("--exclude",action="append",default=[])
  ap.add_argument("--max-bytes",type=int,default=25_000_000);ap.add_argument("--excerpt-chars",type=int,default=500)
- ap.add_argument("--viewer-root",type=Path,default=Path("."));ap.add_argument("--limit",type=int,default=0)
- args=ap.parse_args()
+ ap.add_argument("--viewer-root",type=Path,default=Path("."));ap.add_argument("--limit",type=int,default=0)\n ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")\n args=ap.parse_args()
  if args.expr:query=args.expr
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
  else:ap.error("provide --expr or --query")
@@ -313,13 +312,26 @@ def main()->int:
     make_excerpt(rec.text,ev.positions,args.excerpt_chars),status(rec.text),viewer_link(vc or {},rec.message_id),sha(path,cache),
     list(dict.fromkeys(ev.terms)),ev.near,ev.trace,present))
  sort_hits(hits,args.sort,args.descending)
+ raw_match_records=len(hits)
+ if args.result_mode=="files":
+  collapsed=[];seen_paths=set()
+  for h in hits:
+   if h.path in seen_paths:continue
+   seen_paths.add(h.path);collapsed.append(h)
+  hits=collapsed
+ result_total=len(hits)
+ facets={
+  "authors":Counter((h.speaker or h.role or "(unknown)") for h in hits),
+  "roles":Counter((h.role or "(unknown)") for h in hits),
+  "kinds":Counter((h.kind or "(unknown)") for h in hits),
+  "extensions":Counter((Path(h.path).suffix.casefold().lstrip(".") or "(none)") for h in hits),
+  "years":Counter((h.timestamp[:4] if len(h.timestamp)>=4 else "(undated)") for h in hits)}
+ facet_json={k:[{"value":v,"count":n} for v,n in sorted(cnt.items(),key=lambda x:(-x[1],x[0].casefold()))] for k,cnt in facets.items()}
  if args.limit>0:hits=hits[:args.limit]
  args.out.mkdir(parents=True,exist_ok=True);generated=datetime.now(timezone.utc).isoformat()
  manifest={"schema_version":2,"generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
-  "sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
-  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"hits":len(hits)},
-  "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
+  "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],\n  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits)},"facets":facet_json,\n  "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  with (args.out/"SEARCH_RESULTS.jsonl").open("w",encoding="utf-8") as fh:
@@ -333,8 +345,7 @@ def main()->int:
     if isinstance(v,(list,dict)):d[k]=json.dumps(v,ensure_ascii=False)
    w.writerow(d)
  lines=[f"# {TOOL_NAME} Results","",f"Generated: {generated}",f"Query: `{query}`",
-  f"Coverage: {files:,} files / {records:,} records / {len(hits):,} hits.",
-  f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
+  f"Coverage: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",\n  f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
   "Status labels are lexical retrieval signals only; they do not establish supersession or authority.",""]
  last=None
  for h in hits:
@@ -352,7 +363,6 @@ def main()->int:
  lines+=["","## Concept graph",""]
  lines += [f"- `{a}` ↔ `{b}` — {n} co-occurring hit record(s)" for (a,b),n in edges.most_common()] or ["_No configured topic co-occurrences._"]
  (args.out/"SEARCH_RESULTS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
- print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"hits":len(hits),"sort":args.sort,
-  "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
+ print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,\n  "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
  return 0
 if __name__=="__main__":raise SystemExit(main())
