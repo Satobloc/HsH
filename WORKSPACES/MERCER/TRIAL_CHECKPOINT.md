@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 134, 2026-09-20
+**Current through:** Run 135, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -124,3 +124,20 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **Archive/theory boundary:** no source files were modified; default exclusions still include `QUARANTINE` and `PRIOR_ART`; no theory status/currentness/supersession is assigned by search. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.
 
 **Current frontier / best next operation:** obtain an allowed repo-native execution path, run syntax + synthetic truth-table fixtures for precedence, parentheses, NOT, field filters, date ranges, quoted phrases, default NEAR and NEAR/n, then run the derivation-chain config against permitted conversation roots and publish the first durable topical/provenance index. Only after runtime validation consider workflow automation with Sable.
+
+
+## Run 135 — 2026-09-20 — Mercer_Searcher_1.0 christening + acceptance fixture
+
+**Nathan directive:** test-run the new transparent searcher and christen it `Mercer_Searcher_1.0`.
+
+**Artifacts:**
+- `tools/search_archive_content.py` now self-identifies as `Mercer_Searcher_1.0`, version `1.0`, in source/output metadata and Markdown heading. Commit: `6893b510fa0087d7e5494cc2490cefec6c5fa343`.
+- Added deterministic synthetic acceptance suite `WORKSPACES/MERCER/test_mercer_searcher_1_0.py`. Commit: `33ca795b2c1cd5e20fe1ff5e198d7ab50adb9bda`.
+
+**Acceptance coverage encoded:** explicit AND, implicit AND, OR, NOT, parentheses, AND-over-OR precedence, quoted phrase order, `NEAR/n` pass/fail boundaries, default NEAR window, reported closest token distance, author field, role field, Unicode title field (`SAT成果展望` fixture), date-range pass/fail, ascending/descending date sorting, author sorting, and preservation of default `QUARANTINE` + `PRIOR_ART` exclusions.
+
+**Execution state:** the acceptance suite is committed but **NOT YET EXECUTED**. Current GitHub connector exposes file/workflow inspection and rerun operations but no workflow-dispatch/new-run action; the local container cannot retrieve GitHub due DNS/network isolation. Do not call the suite green. This is the same execution-path limitation recorded in Run 134, now narrowed to a concrete one-command acceptance fixture.
+
+**No archive source or conversation identity changed. No quarantine material entered. Tool naming is repository/tool identity only and does not alter any conversation/thread/chat title.**
+
+**Next cursor:** execute `python WORKSPACES/MERCER/test_mercer_searcher_1_0.py` through the first available repo-native checkout/runtime. If green, run the first bounded real-corpus query using `WORKSPACES/MERCER/search_topics_derivation_chain.json`; if red, repair only the failing query semantics before corpus use.
