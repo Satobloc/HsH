@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-20",
+  "status": "active site-asset registry",
+  "guidance": {
+    "purpose": "Register thumbnails, diagrams, notebook scans, podcast art, document covers, generated illustrations, portraits, and external-news visuals used by the public site.",
+    "principles": [
+      "Preserve source identity and credit.",
+      "Do not silently present generated illustration as documentary imagery.",
+      "Do not force diagrams or notebook pages into destructive crops merely for visual uniformity.",
+      "Record alt text and intended role when an asset is admitted to the site.",
+      "Nathan-supplied thumbnails and visuals can be added incrementally as they arrive."
+    ]
+  },
+  "roles": [
+    "hero",
+    "section-anchor",
+    "thumbnail",
+    "diagram",
+    "source-scan",
+    "document-cover",
+    "podcast-art",
+    "portrait",
+    "news-external",
+    "generated-illustration",
+    "decorative"
+  ],
+  "asset_schema": {
+    "id": "stable short identifier",
+    "source_path_or_url": "repository path or stable source URL",
+    "source_type": "Nathan-supplied | archive-source | project-generated | external-source | unknown-needs-check",
+    "title": "short display title",
+    "caption": "site caption",
+    "credit": "authorship/source credit",
+    "date": "YYYY-MM-DD or historical period when known",
+    "alt": "descriptive alt text",
+    "roles": ["thumbnail"],
+    "focal_point": "optional x/y or prose crop note",
+    "crop_policy": "free | preserve-full-frame | no-crop | custom",
+    "status": "candidate | approved | historical-only | retired",
+    "notes": "context or provenance notes"
+  },
+  "assets": []
+}
