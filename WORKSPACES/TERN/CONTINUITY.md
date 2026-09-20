@@ -75,12 +75,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** perform one bounded semantics-preserving repair of the V2/V3 autotagger topic-matching hot path.
+**Operation:** inspect the single workflow run triggered by the V2/V3 hot-path optimization and determine whether it supplied the required validation signal.
 
-**Durable boundary:** reread the live startup controls and current Tern cursor, inspected V2, V3, the selectivity regression suite, and the workflow entry point, then changed only `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py`. Added a bounded 512-entry cache for normalized text and an unbounded cache for the small reusable phrase-regex inventory, and routed inherited V1/V3 normalization calls through the bounded cache. Matching boundaries, phrase inventory, semantic guards, scoring, schemas, and output rules were not intentionally changed. Implementation commit: `197c4308241777009937ec7dee15f76505153703`.
+**Durable boundary:** reread the live startup controls and Tern cursor, then inspected GitHub Actions run `35495085957` for commit `197c4308241777009937ec7dee15f76505153703` plus the current workflow concurrency definition. The run was created at `2026-09-20T06:46:07Z` and completed `cancelled` at `06:48:27Z`. GitHub reports zero jobs for the run, so compile/selectivity tests and the archive scan never executed in that run. Current workflow configuration still says `cancel-in-progress: false`; therefore this observation does not support attributing the cancellation to the workflow's 90-minute job timeout or to a failed selectivity test.
 
-**Material changed state:** the previously identified repeated whole-message normalization and repeated phrase-regex construction are removed from the V2/V3 candidate-matching hot path for the active working set. This is a code-level performance repair, not yet an archive-wide runtime result. No theory, BEDROCK status, cadence, quarantine boundary, or shared semantic control changed.
+**Material changed state:** the optimization remains code-level only; semantic-equivalence/selectivity and archive-wide runtime are still unmeasured. No theory, BEDROCK status, cadence, quarantine boundary, workflow configuration, or shared semantic control changed in this bite.
 
-**Open dependency:** the existing `test_autotag_selectivity_v3.py` suite must pass in the triggered workflow before semantic equivalence is accepted; after that, archive-wide runtime must still be observed rather than inferred. The push should trigger the existing layered-autotag workflow because V2 is in its path filter.
+**Open dependency:** a clean execution of the existing layered-autotag workflow is still required before accepting the optimization. The observed run was cancelled before job allocation, so it cannot answer the validation question.
 
-**Next cursor:** inspect the triggered workflow once. First require compile/selectivity tests to pass; if they do, record whether the archive scan now reaches a durable completion boundary within the existing 90-minute ceiling before considering any further optimization or timeout change.
+**Next cursor:** inspect immediately adjacent layered-autotag run history to classify why run `35495085957` was cancelled before job allocation, and identify the smallest safe way to obtain one uncontaminated validation run without changing cadence or workflow semantics.
