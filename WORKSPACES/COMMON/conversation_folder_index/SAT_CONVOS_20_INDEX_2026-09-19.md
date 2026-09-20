@@ -50,15 +50,29 @@ The generated material is unusually dense in claims/equations attributed to its 
 - cosmological-redshift, muon-anomaly, and lensing reinterpretations;
 - explicit generated caveats that quantization, tau dynamics, and precise mass hierarchy remained unfinished.
 
-None of those generated formulations is promoted here as current SAT/H(s)H, mathematically correct, Nathan-authored, or historically primary. Their immediate provenance value is as a **source-panel ancestry map**: the citation labels and 50-source panel may point to underlying SAT documents that need source-first recovery.
+None of those generated formulations is promoted here as current SAT/H(s)H, mathematically correct, Nathan-authored, or historically primary. Their immediate provenance value is as a **citation-bearing wayfinding artifact** whose underlying source identities still require recovery.
 
 ### Important chronology/currentness caution
 
 This notebook appears to synthesize a substantial historical SAT field-theory phase. It should not be flattened into current H(s)H theory state. In particular, generated claims of `structural closure`, `operational field theory`, or a settled equation chassis are NLM characterizations unless/until matched to attributable underlying documents and later Nathan corrections.
 
-### Crosswalk target
+### Source-panel audit — 2026-09-19
 
-Best next operation on this item is **not** another generated-answer read. Extract/crosswalk its source-panel entries, then prioritize the sources behind the constraint-closure/Lagrangian claims and the mass-hierarchy caveat. Preserve three levels separately: (a) NLM generated claim, (b) source-panel attestation/citation pointer, (c) located underlying source with authenticated authorship/provenance.
+A full blob inspection tested the planned source-first route. The notebook metadata reports `visible_source_count: 50`, but the serialized top-level `sources` array is **empty** (`[]`). The generated answers retain numeric citation labels, but this capture contains no citation-label → source-name mapping and no source IDs/URLs/row metadata from which to reconstruct the 50-source panel.
+
+This is a concrete exporter/capture limitation, not evidence that the notebook lacked sources. Classification for the cited source ancestry is therefore:
+
+- NLM generated claims: present;
+- numeric citation labels: present;
+- notebook-level attestation that 50 sources were visible: present;
+- serialized source identities: absent from this capture;
+- underlying archived sources: unresolved from this export alone.
+
+Do not infer source identity from the equations or generated prose. Do not treat citation number `5`, `6`, etc. as a stable source identity outside this notebook capture.
+
+### Crosswalk status
+
+The planned direct source-panel crosswalk is **BLOCKED BY CAPTURE OMISSION** for this export. The item remains VERY-HIGH tentative reconstruction value because it exposes a dense historical claim/equation cluster, but it cannot itself supply the required source-name ancestry map. A different capture/source index or independent archive search would be required to identify the cited underlying documents.
 
 ## Extraction / authorship caution
 
@@ -66,4 +80,4 @@ Folder 18/19 NotebookLM exports already establish that `role=user` is not suffic
 
 ## Next cursor
 
-Continue the `SAT_SoT` item source-first: recover its visible source-panel names/records and build the first bounded source-index → underlying-document crosswalk for the constraint-closure/Lagrangian cluster. If source-panel metadata proves unavailable in the export, record that limitation and move to one genuinely new folder-20 blob (`BURNTHROUGH` is the next high-information candidate by size, but title/size alone does not confer semantic priority).
+Move to one genuinely new folder-20 blob rather than repeatedly mining this source-less capture. `BURNTHROUGH__NotebookLM_export.json` is the next bounded candidate because it is a genuinely new visible blob and large enough to merit a targeted semantic/provenance read; title/size do not themselves confer authority or value. Return to the `SAT_SoT` source ancestry only when a different capture/index or independent source anchor becomes available.
