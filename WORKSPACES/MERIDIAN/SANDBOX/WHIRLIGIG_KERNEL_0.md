@@ -626,3 +626,67 @@ Measure:
 - numerical conditioning.
 
 A geometry machine earns its keep when these improve on direct expanded handling.
+
+
+## 25. Worthwylie enrichment — moving-frame compression
+
+Enrichment is allowed to be exploratory for the worker, not forced to track the immediate benchmark.
+
+Let a hyperhelical carrier be
+
+C(s)=Q(s)h(s), Q(s)∈SO(4),
+
+and define body-frame angular velocity
+
+A=Q^T Q'.
+
+Then exactly,
+
+C'=Q(h'+Ah)
+
+and
+
+C''=Q[h''+2Ah'+(A'+A²)h].
+
+This separates internal helix motion h from moving-frame motion A. A direct numerical witness using a frame composed of 1-2 and 1-3 rotations plus a two-frequency internal carrier gave:
+- velocity compact/direct residual ~7.92e-11;
+- acceleration residual ~5.35e-6 under crude finite differencing;
+- skew-symmetry residual ||A+A^T|| ~4.42e-11.
+
+The acceleration cross-term 2Ah' explicitly captures interaction between internal and carrier-frame motion.
+
+Status: APPEARS TO WORK / exact identity symbolically; numerical finite-difference witness consistent. Mechanistic usefulness for SAT/H(s)H unresolved.
+
+## 26. Worthwylie enrichment — noncommutativity depth
+
+For standard rotation generators,
+
+[J12,J13]=J23.
+
+Concrete epsilon=0.2 witness:
+- ||exp(eJ12)exp(eJ13)-exp(eJ13)exp(eJ12)|| = 0.0563774315788
+- leading commutator scale e²||[J12,J13]|| = 0.0565685424949.
+
+Thus nested rotations in noncommuting planes cannot generally be compressed to an unordered set of frequencies. Order is information.
+
+Candidate compact hierarchy:
+
+radii/phases
++ frame generators
++ required commutators
++ higher nested commutators only as demanded.
+
+Hypothesis for testing: representation cost may scale more usefully with noncommutativity depth than with fully expanded coordinate-expression size.
+
+This is an exploratory development direction, not yet part of the Whirligig core contract.
+
+## 27. Numerical adjudication rule
+
+Hard methodology update from Nathan:
+
+> No amount of symbolic manipulation can substitute for one numeral-by-numeral calculation.
+
+Operationally, every serious claimed operator/result should receive at least one complete concrete numerical witness:
+input -> encode -> operation -> decode -> output -> independent reference -> residual.
+
+Symbolically derived and numerically demonstrated are separate statuses. Prefer additional random, irrational, near-singular, boundary, and hostile cases when useful.
