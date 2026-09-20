@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "status": "ACTIVE_SEED",
+  "updated": "2026-09-20",
+  "notes": [
+    "Labs are sandbox experiments, not theory authority.",
+    "A successful lab result requires explicit promotion before becoming committed theory/work state.",
+    "Temporary multi-loop participation does not redefine instance identity or permanent role."
+  ],
+  "allowed_status": ["proposed", "design", "ready", "running", "complete", "failed", "parked", "superseded"],
+  "labs": [
+    {
+      "id": "LAB-SBS-001",
+      "title": "Geometric solver vs standard-equation side-by-side pipeline",
+      "class": ["SIDE_BY_SIDE", "TOOL_BENCH", "REPRESENTATION_TEST"],
+      "status": "design",
+      "origin": "Nathan directive / 2026-09-20 exploration-commons discussion",
+      "purpose": "Build a reproducible Python-capable harness that can feed matched cases to a SAT/H(s)H geometric solver representation and a standard/reference equation implementation, normalize outputs, and compare them without hiding target leakage, fit freedom, unit transforms, or representation changes.",
+      "primary_surface": "WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER",
+      "dependencies": [
+        "Inventory current SAT/H(s)H solver code/interfaces before writing adapters",
+        "Select one simple benchmark with a clear reference formulation and a legitimate SAT/H(s)H representation"
+      ],
+      "exposure_constraints": [
+        "Preserve PRIOR_ART/private quarantine boundaries",
+        "Label benchmark values as input/calibration/fit/derived/predicted/blind/post-hoc",
+        "Record target exposure before independent prediction claims"
+      ],
+      "participants": [],
+      "next_cursor": "Inspect existing solver/tool surfaces and choose the smallest viable paired benchmark before implementing Python adapters.",
+      "exit_criterion": "At least one case runs through both sides from a shared case manifest with reproducible environment metadata and an auditable comparison report.",
+      "promotion_criterion": "Only explicitly characterized equivalence/non-equivalence, validated tooling, or reusable benchmark machinery is promoted; numerical resemblance alone is insufficient.",
+      "return_route": "WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json or Watercooler depending on outcome"
+    }
+  ]
+}
