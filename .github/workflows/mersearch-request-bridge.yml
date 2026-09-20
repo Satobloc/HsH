@@ -21,31 +21,47 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: hsh-main
-      - name: Read request
+          fetch-depth: 0
+      - name: Read and validate request
         id: req
         shell: bash
         run: |
           python - <<'PY'
-          import json, os
+          import json, os, re
           p='hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json'
           d=json.load(open(p,encoding='utf-8'))
+          rid=str(d['request_id']).strip()
+          query=str(d['query']).strip()
+          if not re.fullmatch(r'[A-Za-z0-9._-]{1,120}', rid):
+              raise SystemExit('request_id must use only A-Z a-z 0-9 . _ - and be <=120 chars')
+          if not query:
+              raise SystemExit('query must be nonempty')
           with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
-              f.write('request_id='+str(d['request_id'])+'\n')
-              f.write('query<<EOF\n'+d['query']+'\nEOF\n')
+              f.write('request_id='+rid+'\n')
+              f.write('query<<EOF\n'+query+'\nEOF\n')
           PY
       - name: Checkout stable Mersearch
         uses: actions/checkout@v4
         with:
           ref: mersearch-stable-1.0
           path: mersearch
+          fetch-depth: 1
       - name: Checkout original SAT archive
         uses: actions/checkout@v4
         with:
           repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
           path: archive
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Record exact inputs
+        id: inputs
+        shell: bash
+        run: |
+          echo "hsh_sha=$(git -C hsh-main rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "mersearch_sha=$(git -C mersearch rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "archive_sha=$(git -C archive rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Run Mersearch
         shell: bash
         env:
@@ -53,16 +69,62 @@ jobs:
         run: |
           rm -rf /tmp/mersearch-request
           python mersearch/tools/search_archive_content.py archive --expr "$QUERY" --sort date --out /tmp/mersearch-request
-      - name: Publish auditable results
+          test -s /tmp/mersearch-request/SEARCH_RESULTS.json
+          test -s /tmp/mersearch-request/SEARCH_RESULTS.md
+      - name: Build run manifest
         shell: bash
+        env:
+          REQUEST_ID: ${{ steps.req.outputs.request_id }}
+          QUERY: ${{ steps.req.outputs.query }}
+          HSH_SHA: ${{ steps.inputs.outputs.hsh_sha }}
+          MERSEARCH_SHA: ${{ steps.inputs.outputs.mersearch_sha }}
+          ARCHIVE_SHA: ${{ steps.inputs.outputs.archive_sha }}
         run: |
-          mkdir -p hsh-main/indexes/mersearch_requests
-          cp /tmp/mersearch-request/SEARCH_RESULTS.json hsh-main/indexes/mersearch_requests/latest.json
-          cp /tmp/mersearch-request/SEARCH_RESULTS.md hsh-main/indexes/mersearch_requests/latest.md
+          python - <<'PY'
+          import hashlib, json, os, pathlib
+          out=pathlib.Path('/tmp/mersearch-request')
+          def sha256(p): return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+          manifest={
+            'request_id':os.environ['REQUEST_ID'],
+            'query':os.environ['QUERY'],
+            'tool':'Mercer_Searcher_1.0',
+            'mersearch_ref':'mersearch-stable-1.0',
+            'mersearch_commit':os.environ['MERSEARCH_SHA'],
+            'source_repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25',
+            'source_commit':os.environ['ARCHIVE_SHA'],
+            'request_repository':'Satobloc/HsH',
+            'request_commit':os.environ['HSH_SHA'],
+            'read_root':'archive/',
+            'write_root':'indexes/mersearch_requests/<request_id>/',
+            'write_class':'derived/generated output',
+            'default_exclusions':['QUARANTINE','PRIOR_ART'],
+            'outputs':{
+              'SEARCH_RESULTS.json':sha256(out/'SEARCH_RESULTS.json'),
+              'SEARCH_RESULTS.md':sha256(out/'SEARCH_RESULTS.md')
+            }
+          }
+          (out/'RUN_MANIFEST.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+      - name: Publish auditable request-scoped results from fresh main
+        shell: bash
+        env:
+          REQUEST_ID: ${{ steps.req.outputs.request_id }}
+        run: |
           cd hsh-main
+          git fetch origin main
+          git reset --hard origin/main
+          dest="indexes/mersearch_requests/$REQUEST_ID"
+          if [ -e "$dest" ]; then
+            echo "::error::Request output already exists: $dest"
+            exit 1
+          fi
+          mkdir -p "$dest"
+          cp /tmp/mersearch-request/SEARCH_RESULTS.json "$dest/SEARCH_RESULTS.json"
+          cp /tmp/mersearch-request/SEARCH_RESULTS.md "$dest/SEARCH_RESULTS.md"
+          cp /tmp/mersearch-request/RUN_MANIFEST.json "$dest/RUN_MANIFEST.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add indexes/mersearch_requests/latest.json indexes/mersearch_requests/latest.md
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Run Mersearch request [skip mersearch-request]"
+          git add "$dest"
+          test "$(git diff --cached --name-only | grep -vc "^$dest/")" -eq 0
+          git commit -m "Run Mersearch request $REQUEST_ID [skip mersearch-request]"
           git push origin HEAD:main
