@@ -3,7 +3,7 @@
 **Instance:** Tern  
 **Role:** automated SAT/H(s)H project-systems maintenance worker; backend support reporting into Common/human-facing continuity surfaces.  
 **Established:** 2026-09-19 by Nathan Direct.  
-**Workspace:** `WORKSPACES/TERN/`   
+**Workspace:** `WORKSPACES/TERN/`  
 **Authority:** worker-local continuity only. This file is not theory authority and does not supersede BEDROCK, Common controls, or newer Nathan Direct.
 
 ## Identity boundary
@@ -20,16 +20,7 @@ Typical operations include infrastructure QA, archive/provenance, reference-lane
 
 ## Mathematical clearance — Nathan Direct, 2026-09-19
 
-Nathan explicitly cleared Tern to **attempt mathematical diagnoses and repairs wherever Tern judges that it has sufficient context to do so**.
-
-This permission means:
-- Tern may inspect, diagnose, derive, calculate, formalize, test, critique, and repair mathematical work in bounded slices.
-- Tern may use symbolic/computational checks where appropriate.
-- Tern should name exactly what was checked and distinguish mathematical correctness from provenance, theory status, physical/model correctness, maturity, and polish.
-- Insufficient context is a reason to stop at a diagnostic boundary and identify the missing source/definition rather than improvise.
-- Theory-bearing mathematical results remain subject to BEDROCK status discipline. A successful derivation or repair does not automatically promote a proposition to bedrock.
-- New theory-bearing results default to Tentative Findings unless Nathan Direct or the explicit promotion process gives stronger status.
-- Existing quarantine and PRIOR_ART boundaries remain unchanged.
+Nathan explicitly cleared Tern to attempt mathematical diagnoses and repairs wherever Tern judges that it has sufficient context to do so. Theory-bearing mathematical results remain subject to BEDROCK status discipline and default to Tentative Findings unless promoted by Nathan Direct or the explicit promotion process. Existing quarantine and PRIOR_ART boundaries remain unchanged.
 
 ## Startup gate
 
@@ -52,35 +43,22 @@ Never reproduce or imitate Nathan's protected signet. Follow the exact live sign
 
 Keep `synthesis/CURRENT_SYNTHESIS.md` non-controlling/quarantined unless newer Nathan Direct changes that.
 
-## Current inherited state at establishment
-
-- Standard work/document quantum and Large Source Feeder contract are active Common standards.
-- The backend project-systems checkpoint was previously stored under `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_CHECKPOINT.md`; Tern now has its own worker-local continuity surface so future Tern state does not depend on that identity-confusing location.
-- The standing Q&A queue was last observed with no recorded question rows requiring action.
-- Nathan's Dashboard programme remains the central human-facing switchboard.
-- No theory proposition is promoted by establishing this workspace or by the mathematical clearance.
-
 ## Continuity write rule
 
 After every materially productive Tern run, update this file using a fresh blob SHA / compare-and-swap write. Keep it compact and resumable. Preserve detailed history in git rather than allowing this file to grow without bound.
 
-Record:
-1. the single operation performed;
-2. exact durable boundary reached;
-3. material changed state;
-4. open dependency, if any;
-5. **one** best next continuation cursor.
+Record the single operation performed, exact durable boundary reached, material changed state, open dependency if any, and one best next continuation cursor.
 
 Do not casually rewrite the human-facing continuity checkpoint. Update Common/Dashboard surfaces only when the bounded operation itself requires that semantic change.
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded reference-lane/document-centering repair on root `ARCHITECTURE.md`.
+**Operation:** one bounded reference-lane inspection of root `LIBRARY.md`.
 
-**Durable boundary:** reread current controls and inspected `ARCHITECTURE.md`; found a concrete stale authority-routing defect: its layer table still described `synthesis/` as the clean/current H(s)H construction surface and later instructions treated synthesis as an ordinary promotion destination, while current controls explicitly make `BEDROCK.md` the theory center and keep `synthesis/CURRENT_SYNTHESIS.md` quarantined/non-controlling. Updated only `ARCHITECTURE.md` at commit `35254a0cca800d8ba55a602134908f25926039eb` using a fresh blob SHA.
+**Durable boundary:** reread the current pre-flight controls, including the newly strengthened Nathan-signet output gate, and inspected `LIBRARY.md` against `BEDROCK.md`. The library is correctly framed as discovery rather than endorsement, but it retains pre-BEDROCK authority-adjacent language: the main source group is called `Additional core...`, and the closing sentence says entries may be `promoted` from the discovery list into the front-page showcase with vetting panels.
 
-**Material changed state:** root architecture now explicitly routes theory authority through BEDROCK, identifies FIE → SAT → H(s)H ancestry, labels synthesis historical/assembled and currently non-controlling, routes theory-bearing promotions through BEDROCK status discipline, and distinguishes legacy synthesis maturity labels from BEDROCK's `ND/FB/WB/TF/OC/SS` strata. No theory proposition or synthesis content was changed.
+**Material changed state:** diagnosis is now durable in the worker checkpoint. No theory proposition, library entry, or front-door content was changed in this quantum. The defect is specifically terminological/routing: discovery prominence and vetting progression must not be readable as theory-authority promotion. BEDROCK remains the only theory-premise/status center, and front-page featuring or vetting advancement does not itself move a document into `ND/FB/WB/TF/OC/SS` status.
 
-**Open dependency:** other conspicuous front-door/reference documents may still contain stale pre-BEDROCK authority language; none were modified in this quantum.
+**Open dependency:** `LIBRARY.md` still needs the small front-door repair itself. Because it is a high-visibility shared surface, that write should be a separate micro-bite with a fresh blob SHA rather than being bundled into this inspection/checkpoint operation.
 
-**Next cursor:** inspect exactly one additional high-visibility front-door document (prefer `LIBRARY.md` or root/workspace README) for the same BEDROCK/reference-lane ambiguity and either record clean status or make one bounded correction.
+**Next cursor:** make exactly one bounded `LIBRARY.md` routing correction: label the page explicitly as an archive/provenance discovery surface, replace `Additional core...` with authority-neutral wording, and clarify that front-page featuring/vetting does not confer BEDROCK status or theory authority.
