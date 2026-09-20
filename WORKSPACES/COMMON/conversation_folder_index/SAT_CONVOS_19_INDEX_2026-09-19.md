@@ -1,6 +1,6 @@
 # SAT_CONVOS_19 — bounded content index
 
-**Assessed:** 2026-09-19  
+**Assessed:** 2026-09-19; updated 2026-09-20  
 **Status:** PARTIAL / living index  
 **Authority:** routing/provenance only; value and priority assessments are explicitly tentative.
 
@@ -8,9 +8,9 @@
 
 Repository location: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/`.
 
-This pass verified that folder 19 is populated and contains a large tranche dominated by `__NotebookLM_export.json` files. It then performed targeted content inspection of two NLM exports rather than pretending to have semantically ingested the full folder.
+Folder 19 is populated with a large tranche dominated by `__NotebookLM_export.json` files. Semantic ingest remains deliberately bounded rather than pretending full-folder coverage.
 
-Folder-level status after this pass: `INVENTORIED-PARTIAL / TARGETED-READ-PARTIAL`.
+Folder-level status: `INVENTORIED-PARTIAL / TARGETED-READ-PARTIAL / DUPLICATE-SUPERSET-RESOLUTION-PARTIAL`.
 
 Upload/folder order is not an importance or chronology ranking.
 
@@ -49,11 +49,40 @@ Upload/folder order is not an importance or chronology ranking.
 - **Tentative priority:** P1 for source-identity crosswalk against permitted RESOURCES/internal bibliography holdings when bibliography/source-ancestry work is the active operation.
 - **Next cursor:** extract the full 36-item source list into a structured crosswalk and mark each `located internal / external-only / unresolved`; route any possible quarantine-sensitive comparison through Sable without publishing private trigger reasoning.
 
+### 3. Asteroid Mining NotebookLM export pair — relationship resolved for current indexing purpose
+
+#### `Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json`
+- **Blob SHA:** `0601ba10d37abc9dd9e06134f6321ae459736f9e`.
+- **Size:** 12,056 bytes.
+- **Notebook id:** `14b9db5c-44a6-40ed-b131-b4aa4733765c`.
+- **Captured:** `2026-09-19T00:51:05.296Z`; exporter `0.2.2`; `reached_top=false`; scans `12`.
+- **Observed payload:** two messages only; source/studio arrays empty in this capture.
+
+#### `Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json`
+- **Blob SHA:** `07353050aa8d67ee4cecabba2dbb4055e8628d1b`.
+- **Size:** 16,158 bytes.
+- **Same notebook id:** `14b9db5c-44a6-40ed-b131-b4aa4733765c`.
+- **Captured:** `2026-09-19T01:04:34.969Z`, about 13.5 minutes later; exporter `0.2.2`; `reached_top=true`; scans `801`.
+- **Observed payload:** same two message keys and same inspected message texts as the earlier capture (`9fdf589d`, `5eee1d41`), plus populated source/studio UI material. The source panel explicitly attests underlying source title `ASTEROID MINING LLC.txt`.
+
+**Relationship determination:** the `(1)` file is the preferred **later/richer capture of the same NotebookLM notebook and same observed conversation exchange**, not an independent conversation. For current indexing purposes treat the earlier file as a partial capture and `(1)` as its structural/content superset. This determination is based on notebook identity, capture chronology, message keys/text, completion flag, and additional source/studio payload; it is not based on filename alone.
+
+**Content description:** NLM-generated detailed breakdown of `ASTEROID MINING LLC.txt`, covering macroeconomic/geopolitical consequences of asteroid resource extraction; bag-and-spin containment/mining architecture; structural enhancements; disaggregation methods; acoustic prequalification; SONODART / “Ting Test”; IP/defensive-publication strategy; laser-ultrasonics comparison; speculative physics sandbox; and scalable business/R&D framing.
+
+**Authorship boundary:** index 1 (`Give me a full detailed breakdown of the source please`) is structurally plausible Nathan Direct; index 2 is clearly NLM-generated answer prose despite serialization as `role=user`. Do not ingest the answer as Nathan-authored content. The underlying `ASTEROID MINING LLC.txt` is attested by the later source panel but has not yet been crosswalked to an archived original in this operation.
+
+**Ingest status:** both `TARGETED-READ`; pair `DUPLICATE/SUPERSET-RESOLVED` for current purpose; `(1)` preferred as richer capture; `SOURCE-INDEX-IDENTIFIED`; underlying source `CROSSWALK-PENDING`.
+
+**Tentative value:** MEDIUM for SAT/H(s)H theory work; HIGH for broader Nathan-project archaeology, invention/design history, and provenance of asteroid-mining / SONODART concepts. The value distinction is topical, not a judgment of quality.
+
+**Tentative priority:** P2 for general project indexing; P1 if invention/provenance, asteroid-mining, defensive-publication, or source-recovery work becomes active.
+
+**Next cursor:** locate/crosswalk `ASTEROID MINING LLC.txt`; if found, preserve the distinction between the underlying source and this NLM-generated summary. No need to semantically reread both exports unless a later discrepancy question arises.
+
 ## Folder observations from inventory surface
 
 The folder inventory also visibly includes, among others:
-- `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json` — large NLM export (~320 KB), uninspected this pass;
-- `Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json` plus `(1)` variant — likely duplicate/alternate-export pair requiring content/SHA relationship review, not filename-only disposition;
+- `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json` — large NLM export (~320 KB), uninspected;
 - `BLANK SLATE__NotebookLM_export.json` — uninspected;
 - `CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json` — uninspected;
 - `Criticality, Complexity, and the Polymath Paradigm__NotebookLM_export.json` — uninspected;
@@ -61,14 +90,16 @@ The folder inventory also visibly includes, among others:
 
 These names are inventory evidence only. No semantic value ranking is assigned without inspection.
 
-## Cross-cutting provenance finding
+## Cross-cutting provenance findings
 
 The inspected NLM exports serialize both Nathan prompts and NLM-generated answers as `role=user`. This is a concrete reason the Nathan Direct lane must not authenticate authorship from the role field alone for NLM exports. Conversation structure, content form, source context, and where necessary underlying-document recovery are required before promoting text into Nathan Direct.
+
+The Asteroid Mining pair adds a second practical rule: duplicate-looking NLM filenames should be resolved with notebook id + message keys/text + capture metadata + completion/source-panel state. A later capture may be materially richer even when the conversational messages are unchanged.
 
 ## Best next bounded operations
 
 1. Continue folder-19 indexing with one high-information item or duplicate pair per bite rather than attempting a shallow whole-folder semantic pass.
 2. Prefer NLM exports that visibly contain source indices, methodological/epistemic discussion, historical SAT material, or likely instance-continuity value.
 3. For `2025 Change`, build the 36-source crosswalk as a separate bounded artifact.
-4. For the Asteroid Mining pair, compare blob/content relationship before assigning duplicate/superset status.
+4. Crosswalk `ASTEROID MINING LLC.txt` when source-recovery/invention provenance is active; the export-pair relationship itself is resolved for current indexing purpose.
 5. Check folder 20 by lightweight inventory when it appears/populates; do not treat it as more important merely because it was uploaded later.
