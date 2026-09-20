@@ -7,85 +7,55 @@
 
 Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs, workspace guidance, and Loom durable state. Newer directives control. No conversation/thread/chat identity was altered.
 
-A newer hard output gate in `AUTOMATION_WORKFLOW_CONTROL.md` requires a pre-send/pre-write signet check; Loom applied it this run.
+The hard pre-send/pre-write signet check in `AUTOMATION_WORKFLOW_CONTROL.md` was applied.
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
-## This run — Stage-2 addressability / inherited-context audit
+## This run — folder-19 Asteroid Mining export-pair provenance audit
 
-**Operation:** bounded non-lexical audit of the durable Nathan Direct Stage-2 package, following the prior cursor.
+**Operation:** one bounded duplicate/superset provenance comparison on the already-indexed folder-19 Asteroid Mining NotebookLM pair.
 
-**Surfaces inspected:**
-- `indexes/nathan-direct/` directory inventory;
-- `indexes/nathan-direct/stage2/` directory inventory;
-- `indexes/nathan-direct/stage2/MANIFEST.json`;
-- attempted bounded line read of `indexes/nathan-direct/stage2/branch-context.jsonl`;
-- fallback `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md` because exact Stage-2 records were not cleanly addressable through the available bounded file-read interface.
+**Objects read:**
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json` — blob `0601ba10d37abc9dd9e06134f6321ae459736f9e`, 12,056 bytes, capture `2026-09-19T00:51:05.296Z`, `reached_top=false`, scans 12.
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json` — blob `07353050aa8d67ee4cecabba2dbb4055e8628d1b`, 16,158 bytes, capture `2026-09-19T01:04:34.969Z`, `reached_top=true`, scans 801.
 
-**Material finding:** Stage-2 is a substantial non-destructive queue layer over 30,482 source records. Manifest counts: correction/refinement 2,800; definition 1,739; methodology 1,954; decision 719; duplicate/provenance 5,494; branch/context 2,798. The manifest explicitly excludes earliest-use conclusions because v1 topic minima are high-recall and require precision plus raw-context verification.
+**Identity/relationship finding:** both exports carry the same notebook title and notebook id `14b9db5c-44a6-40ed-b131-b4aa4733765c`. Both expose the same first Nathan prompt (`Give me a full detailed breakdown of the source please`, key `9fdf589d`) and the same following NLM-generated breakdown (key `5eee1d41`). The later `(1)` export additionally exposes the notebook source panel identifying `ASTEROID MINING LLC.txt` and a one-source notebook, while the earlier export has an empty `sources` array. Therefore the pair is not byte-duplicate; `(1)` is a later, more complete capture of the same notebook state for provenance/source-panel purposes. Do not double-count the shared conversation messages.
 
-**Access finding:** a bounded `fetch_file` line read against the large `branch-context.jsonl` returned empty content rather than an addressable first record. Therefore Loom did not pretend to audit an inherited tag or branch relation it could not actually inspect. The Stage-2 package is visible and quantified, but exact-record inspection through this interface remains unresolved.
+**Tag/provenance relations added:**
+- `ASTEROID-MINING-NLM-PAIR → SAME-NOTEBOOK-ID`
+- `EXPORT-(1) → LATER/MORE-COMPLETE-CAPTURE`
+- `EXPORT-(1) → SOURCE-PANEL-EXPOSES(ASTEROID MINING LLC.txt)`
+- `EARLIER-EXPORT → PREFIX/CONTENT-OVERLAP-WITH-LATER-CAPTURE [NOT-BYTE-DUPLICATE]`
+- `SHARED-MESSAGE-KEYS 9fdf589d + 5eee1d41 → DO-NOT-DOUBLE-COUNT`
+- `NLM-GENERATED-BREAKDOWN → SECONDARY-DESCRIPTION / NOT-NATHAN-DIRECT`
 
-**Fallback finding:** the folder-19 index confirms a concrete provenance hazard worth retaining in Loom's audit model: inspected NotebookLM exports serialize both Nathan prompts and obvious NLM-generated answers as `role=user`; role alone is therefore unusable for Nathan-authorship authentication in those exports. The index also preserves explicit targeted-read rather than full-read coverage and keeps source-index value separate from theory authority.
+**Nathan-authored item read/tagged:** prompt `Give me a full detailed breakdown of the source please` — tags: `REQUEST-SOURCE-BREAKDOWN`, `ASTEROID-MINING-CONTEXT`, `NLM-PROMPT`, `DUPLICATED-ACROSS-SAME-NOTEBOOK-EXPORTS`. Authorship is assigned from conversational structure here, not the unreliable NLM `role=user` field alone.
 
-**Tag consequence:** no new Nathan-authored corpus passage was read this run, so no Nathan-source tag was manufactured. Operational/provenance relations added to Loom state:
+**Source handling:** the later source panel supplies a concrete underlying-source title, `ASTEROID MINING LLC.txt`; this is a wayfinding pointer only until the underlying source is located/read. The long asteroid-mining claims in the generated response were not promoted into Nathan Direct.
+
+**Infrastructure consequence:** this resolves the folder-19 index's pending Asteroid Mining pair question from `likely duplicate/alternate-export pair` to `same-notebook overlapping captures; later capture is provenance-superset at least at source-panel level`. The shared folder index itself was not edited this bite to preserve the one-semantic-write quantum; this checkpoint is the durable result and the index row can absorb it in a later bounded rollup.
+
+## Prior run — Stage-2 addressability / inherited-context audit
+
+Stage-2 is visible and quantified, but exact-record inspection of the large `branch-context.jsonl` through bounded `fetch_file` returned empty content. Loom did not pretend to audit inaccessible records. Retained relations:
 - `STAGE2-MANIFEST → NONDESTRUCTIVE-QUEUE / NO-THEORY-AUTHORITY`
 - `EARLIEST-USE → EXCLUDED-PENDING-PRECISION+RAW-CONTEXT`
 - `BRANCH-CONTEXT-JSONL → EXACT-RECORD-ACCESS-UNRESOLVED-IN-CURRENT-INTERFACE`
 - `NLM-role=user → NOT-AUTHORSHIP-EVIDENCE [KNOWN-FOLDER19-HAZARD]`
 
-**Decision:** do not spend repeated cycles trying line-based reads of giant Stage-2 JSONL files. Next bite should inspect a smaller addressable Stage-2/lookup support surface or one already-indexed conversation-folder item/duplicate pair where source identity and content can actually be read. If Stage-2 exact-record access becomes necessary, prefer a purpose-built extraction/search route rather than pretending the current file-read behavior is sufficient.
+## Historical taxonomy/source-recovery context retained
 
-## Prior run — chronology/adjacency wayfinding attempt
+Historical archive `t-boson f-boson temporon` and current HsH `t-boson f-boson` exact-term code searches were low-yield. `BOSONIC_TIME` remains a recoverable December 28, 2025 historical anchor describing bosons as dynamic torsional/parasitic ripples on a fermionic filament substrate and Temporons as unit-time-flow fluctuations, with current terminology-collision cautions preserved.
 
-Bounded attempt to recover an attributable source for the historical boson-taxonomy transition using broader terms and known raw UUID returned no indexed hits. No source-level evidence was added. GitHub default-branch lexical indexing remains low-yield for this cursor.
-
-## Prior run — taxonomy-transition wayfinding
-
-Historical archive `t-boson f-boson temporon` and current HsH `t-boson f-boson` returned no indexed default-branch code-search hits. Recorded as `T/F-TAXONOMY-TRANSITION → WAYFINDING-NEEDED` and `EXACT-TERM-CODE-SEARCH → LOW-YIELD` only.
-
-## Prior run — recoverable historical source read/tag
-
-**Source actually read:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/ ..✅ BOSONIC_TIME.txt`, extracted from ` ..✅ BOSONIC_TIME.pdf` (source SHA256 recorded in extraction header; 18 pages; December 28, 2025 paper by Nathan J. Bellomy).
-
-**Tags/relationships added from source content:**
-- `SAT-2025 → FILAMENT/WORLDLINE + ADVANCING-TIME-SURFACE ONTOLOGY`
-- `MASS → FILAMENT/TIMESHEET INTERSECTION-GEOMETRY [HISTORICAL-2025-FORMULATION]`
-- `GRAVITY → FILAMENT-BACK-PULL/TIMESHEET-CURVATURE [HISTORICAL-2025-FORMULATION]`
-- `SPIN/FLAVOR → HOLONOMY-QUANTIZATION [SOURCE-CLAIM]`
-- `THREE-CONSTITUENT-STABILITY → Z3-FUSION-RULE [SOURCE-CLAIM]`
-- `BOSONS → DYNAMIC-TORSIONAL/PARASITIC-RIPPLES-ON-FERMIONIC-FILAMENT-SUBSTRATE [HISTORICAL-2025-TAXONOMY]`
-- `TEMPORON → UNIT-TIME-FLOW-VECTOR FLUCTUATION / BOSONIC-EXCITATION [HISTORICAL-2025-TAXONOMY]`
-- `TEMPORON → INDUCED-INERTIAL-MASS-VIA-TIMESHEET-DRAG [SOURCE-CLAIM]`
-- `HISTORICAL-BOSON/FERMION-LANGUAGE → TERMINOLOGY-COLLISION-WITH-2026-CURRENT-CORRECTION`
-- `SOURCE-PAPER ≠ RAW-CONVERSATION-NATHAN-DIRECT`
-
-**Important currentness relation:** preserve the source's `fermionic (filament) substrate` wording historically; do not silently translate it into the current persistent-coil/traveling-excitation distinction or standard spin/statistics.
-
-**Authorship/provenance caution:** document-level Nathan J. Bellomy authorship does not by itself recover raw conversation-message ancestry for individual formulations.
-
-## Prior source-recovery result retained
-
-The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. Complete recursive default-branch tree and exact-path commit-history lookup failed to recover the Borromean object under that name; that lineage remains `SOURCE-RECOVERY-NEEDED`. Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, `holotype`, `soliton`, `gluon`, and `NESTED HOLONOMIES` yielded no indexed historical-archive code-search hits.
-
-No-search-hit does not establish absence. Rename/move, another repository/export, non-indexed content, or local/uncommitted generation remain open possibilities.
+The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. Complete recursive default-branch tree and exact-path commit-history lookup failed to recover the Borromean object under that name; that lineage remains `SOURCE-RECOVERY-NEEDED`. No-search-hit does not establish absence.
 
 ## Durable Meridian context retained
 
-Recent Meridian/Gendarme work remains durable context:
-- flicker direct-line display → gradient/density idea → flicker set aside from principal atlas;
-- proposed inverse-graticule cancellation → Nathan correction that the graticulae do not cancel;
-- generated ordinary/anti transformation error → Nathan correction that L/R mirror is the only change;
-- contour-mask CMY cancellation → continuous gradient cancellation;
-- elaborate 3D display → simpler gradient + cancellation cross-gradient.
-
-Treat those as correction/supersession chains rather than simultaneous requirements.
+Recent Meridian/Gendarme correction/supersession chains remain durable context: flicker direct-line display → gradient/density idea → flicker set aside; proposed inverse-graticule cancellation → Nathan correction that graticulae do not cancel; generated ordinary/anti transformation error → L/R mirror-only correction; contour-mask CMY cancellation → continuous gradient cancellation; elaborate 3D display → simpler gradient + cancellation cross-gradient.
 
 ## Next cursor
 
-Perform one bounded addressable provenance/duplicate/context operation rather than another giant-JSONL line-read attempt. Preferred choices:
-1. inspect a smaller Nathan Direct lookup/support surface that exposes exact record identity cleanly; or
-2. inspect one already-indexed conversation-folder item/duplicate pair and enrich duplicate/source relations from actual content.
+Perform one bounded addressable provenance/content operation. Preferred next cursor: locate/crosswalk the newly exposed underlying source title `ASTEROID MINING LLC.txt` without assuming its repository location; if located, inspect only enough to establish source identity/provenance and tag what is actually read. If not addressable, record the unresolved pointer and rotate rather than query-spray.
 
 The unresolved Jarlskog/soliton and t/f taxonomy-transition lineages stay pinned for source recovery when a new wayfinding pointer appears.
 
