@@ -4,16 +4,17 @@
 **Date:** 2026-09-20  
 **Task branch:** P0 epistemic/methodological control layer  
 **Primary source:** `SAT RIGOR__NotebookLM_export (1).json`, notebook `29b0fbe9-21f2-4151-9604-10413e1dc1e9`, capture `2026-09-18T19:19:38.650Z`, blob `7c2a17f005218d77f9b7b21824ff3c7be5a68b41`  
+**Independent comparison source added this run:** `SAT PREDICTIONS — ROUNDUP 2.5.5.txt` (Library source; historical conversation compilation)  
 **Source reconstruction:** `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`  
 **Status:** source-certified candidate control packet; not a complete project-wide promotion ladder
 
 ## Purpose
 
-Extract the highest-confidence Nathan Direct control statements already recovered from SAT RIGOR into a compact P0 packet. This packet deliberately does **not** infer a complete promotion protocol from one conversation. It records source-backed gates that later cross-source work can test, extend, revise, or supersede.
+Extract high-confidence Nathan Direct control statements into a compact P0 packet. This packet deliberately does **not** infer a complete promotion protocol from one conversation. Controls 1–7 come from the SAT RIGOR branch; Controls 8–9 add independent historical Nathan Direct evidence from `SAT PREDICTIONS — ROUNDUP 2.5.5.txt`.
 
 ## Control 1 — standard-science-first reconstruction gate
 
-**Source:** message index 103, key `230d24e9`.
+**Source:** SAT RIGOR message index 103, key `230d24e9`.
 
 Nathan Direct:
 
@@ -35,7 +36,7 @@ It does not certify any particular SAT equation, constant, numerical match, mech
 
 ## Control 2 — historical-source non-default authority and supersession
 
-**Source:** message index 145, key `0dbc9286`.
+**Source:** SAT RIGOR message index 145, key `0dbc9286`.
 
 Nathan Direct:
 
@@ -43,93 +44,48 @@ Nathan Direct:
 
 ### What this directly establishes
 
-For this branch:
-
 - older SAT documents are not accepted as givens merely because they are in the archive;
 - specific historical values, identities and status devices are not automatically inherited;
 - newer SAT26/recent interpretations supersede prior versions where the source relation actually applies;
 - older material remains useful as a rough draft of concepts and strategies, but not as automatic authority for specific results/conclusions.
 
-### Provenance consequence
-
-Archive recurrence and historical continuity remain evidence worth preserving, but neither recurrence nor age promotes a claim. A historical source can be highly valuable provenance while having low or superseded current-theory authority.
-
 ## Control 3 — ontological ceiling: isomorphism, not knowable ontology
 
-**Source:** message index 169, key `84078b38`.
+**Source:** SAT RIGOR message index 169, key `84078b38`.
 
 Nathan Direct:
 
 > Correction: We maintain strict ontological agnosticism. Ontology cannot be known. That is an absolute. What can be known, is isomorphism.
 
-### What this directly establishes
-
-This explicitly corrects Avery's immediately preceding `Minkowski Realism` framing. The methodological ceiling in this branch is an isomorphic mapping of observables/structure, not a claim to know what reality is intrinsically made of.
-
-### Promotion consequence
-
-A geometrically successful SAT/H(s)H representation should not be promoted from `maps the observables/structure` to `therefore this geometry is the literal ontology` without a newer Nathan-direct reversal of this rule. Mathematical adequacy, physical correspondence, and ontological assertion remain separate axes.
+This explicitly corrects Avery's immediately preceding `Minkowski Realism` framing. Mathematical adequacy, physical correspondence, and ontological assertion remain separate axes.
 
 ## Control 4 — source directives are not inherited instructions
 
-**Sources:** indices 207 (`ee844b66`), 209 (`1e5c47af`), 225 (`0b2168eb`), 227 (`b8a3eeff`), and 247 (`c5cf895b`).
+**Sources:** SAT RIGOR indices 207 (`ee844b66`), 209 (`1e5c47af`), 225 (`0b2168eb`), 227 (`b8a3eeff`), and 247 (`c5cf895b`).
 
-**Status of wording below:** source-reviewed paraphrase, not presented as verbatim quotation. Exact raw wording should be harvested separately before quote-publication use.
+**Status:** source-reviewed paraphrase, not verbatim quotation.
 
-Nathan explicitly identifies a recurring LLM hazard: uploaded/source conversations can contain imperative language aimed at earlier models, and a current model may mistakenly treat that language as present instruction. He therefore separates designated guidance/directive documents from ordinary source content, builds a staged source-priority scheme, requires reinterpretation/supersession awareness, and later corrects Avery for speaking as if it personally shared discussions that occurred only between Nathan and source-generating LLMs.
-
-### What this directly establishes
-
-- source text and current instruction are distinct authority classes;
-- an imperative sentence in a historical source is not automatically a live directive;
-- current workers/models must not identify themselves with source-generating LLMs;
-- historical LLM guidance can illuminate motivation/context without becoming current guidance;
-- source priority itself is revisable by later framing and supersession.
-
-### Promotion consequence
-
-No claim gains status merely because an older assistant called it validated, required, core, canonical, accepted, or instructed later models to treat it that way. The present authority chain has to be established independently.
+Nathan identifies the hazard that source conversations contain imperative language aimed at earlier models. Current workers/models must not identify themselves with source-generating LLMs or inherit those historical directives. Historical LLM guidance can illuminate motivation/context without becoming present authority.
 
 ## Control 5 — equation recency is not immutable authority; isomorphism must be checked
 
-**Source:** index 239, key `64e511f6`.
+**Source:** SAT RIGOR index 239, key `64e511f6`.
 
-**Status of wording below:** source-reviewed paraphrase, not verbatim quotation.
+**Status:** source-reviewed paraphrase, not verbatim quotation.
 
-Nathan introduces a core equation pack as believed to contain the most up-to-date main equations while explicitly warning that source variants can be either abandoned modifications **or improvements**, and that further modification is expected. In that branch, the 4D Nth-order superhelical formulation is native to the worldline-only model; alternate formulations may be used only where they are verified genuinely isomorphic to the native equation or its state-of-the-art successor.
-
-### What this directly establishes
-
-- `newest located equation` does not mean `final/canonical equation`;
-- `different variant` does not mean `obsolete variant`;
-- alternate mathematical representations require an actual equivalence/isomorphism check rather than visual or terminological resemblance;
-- equation provenance, equation currentness, and mathematical equivalence are separate audit axes.
-
-### Promotion consequence
-
-A later or cleaner-looking equation cannot be promoted solely by chronology or polish. Conversely, an older variant cannot be discarded solely because it differs from a later pack; it may encode a repair that was not carried forward.
+Nathan introduces a core equation pack as believed current while explicitly warning that source variants can be abandoned modifications **or improvements**, and further modification is expected. In that branch, alternate formulations require genuine isomorphism/equivalence to the native 4D Nth-order superhelical formulation or its successor.
 
 ## Control 6 — intent evidence is not mathematical validation
 
-**Sources:** index 249, key `2603d2bf`; index 255, key `31c533cd`.
+**Sources:** SAT RIGOR index 249, key `2603d2bf`; index 255, key `31c533cd`.
 
-**Status of wording below:** source-reviewed paraphrase, not verbatim quotation.
+**Status:** source-reviewed paraphrase, not verbatim quotation.
 
-Nathan gives special weight to particle definitions written in his own informal voice because later LLM formalization may have incompletely adopted or distorted his clarifications. At the same time, he explicitly does **not** treat those informal definitions as mathematically established. Particle identity is slated for formal definition/testing. Likewise, his He-3 three-bundle × three-worldline symmetry idea is presented as a hypothesis whose prior supporting work still has to be verified.
-
-### What this directly establishes
-
-- Nathan Direct can be the strongest evidence of **intended meaning** without being evidence of mathematical correctness;
-- provenance authority and mathematical authority are independent;
-- a historically important intuition can remain live while its purported derivations remain unverified.
-
-### Promotion consequence
-
-The project must not collapse `Nathan clearly meant X` into `X is mathematically established`, nor collapse `an LLM formalized X` into `the formalization faithfully captures Nathan's intended X`.
+Nathan gives special weight to his informal particle definitions as evidence of intended meaning because later LLM formalization may distort them, while explicitly leaving their mathematics open to formal definition/testing. Likewise, the He-3 3×3 symmetry idea is a hypothesis whose purported support still requires verification.
 
 ## Control 7 — anti-shoehorning / interpretation follows rigorous derivation
 
-**Sources:** indices 322 and 324 (Saturn-hexagon aside).
+**Sources:** SAT RIGOR indices 322 and 324.
 
 Nathan Direct at 322:
 
@@ -137,21 +93,55 @@ Nathan Direct at 322:
 
 At 324 Nathan rejects the ease of simply calling Saturn's hexagon a SAT phase-snap-type phenomenon and states that such a claim cannot be made without first running through rigorous mathematics.
 
+## Control 8 — anomaly abundance requires an anti-noise discipline
+
+**Independent source:** `SAT PREDICTIONS — ROUNDUP 2.5.5.txt`, historical conversation around lines 1707–1771 in the recovered Library representation.
+
+Nathan Direct:
+
+> So, here’s the general landscape we’re working with: SAT predicts a wide, even pervasive array of effects across all of science. And of course, anomalies do appear across observations. As would be expected just randomly. So…. How do we make sure we aren’t just chasing “noise ghost”
+
 ### What this directly establishes
 
-A visually or conceptually suggestive fit is not enough. The framework must distinguish a post-hoc explanatory story from a result that follows from the mathematics under independently specified conditions.
+Nathan explicitly recognizes a multiple-comparisons / anomaly-fog problem internal to a theory with broad phenomenological reach. The mere existence of anomalies is not evidence for SAT because anomalies also arise randomly and for unrelated reasons.
 
 ### Promotion consequence
 
-Phenomenological resemblance and numerical/visual fit are candidate-generation signals, not promotion gates. Interpretation comes after derivation, not instead of it.
+Anomaly mining cannot itself promote a SAT claim. A candidate anomaly needs an independently specified SAT reason to be interesting before the anomaly's existence is treated as support. This independently reinforces SAT RIGOR Control 7's anti-shoehorning rule.
+
+**Adjacency caution:** the detailed scoring scheme, null-zone taxonomy and comparative-forecasting rules immediately following this Nathan turn are assistant-generated proposals. They are useful historical methodology candidates, not Nathan Direct merely because they answer Nathan's question.
+
+## Control 9 — actively search for counterfactuals already implied by SAT
+
+**Independent source:** `SAT PREDICTIONS — ROUNDUP 2.5.5.txt`, historical conversation around lines 1888–1908 and following.
+
+Nathan Direct:
+
+> No, I mean… what counterfactual observables are already built into SAT. Let’s find out what SAT predicts that we know to be false. It has to, unless we think we’ve really got everything 100% right. Even if we’re basically right, there’s almost zero likelihood we’re totally right
+
+### What this directly establishes
+
+The falsification program is not limited to designing future flagship tests or finding unexplained anomalies. Nathan explicitly asks for **existing counterfactual observables already entailed by SAT** and expects some to fail.
+
+### Promotion consequence
+
+A serious validation/promotion pass should include a deliberate search for already-known observations that contradict the candidate formulation. Failure-search is a positive requirement, not an embarrassment to be hidden after a successful fit.
+
+**Adjacency caution:** the assistant's subsequent list of supposed already-failed SAT predictions is generated analysis and requires source/math checking before any item can be treated as an actual SAT counterfactual.
+
+## Independent-source findings not yet promoted to Nathan Direct controls
+
+The same historical source contains a Validation Lab / Refinement Lab split and explicit language about blind testing, SAT-naïve models, falsifiability, and keeping theory refinement from contaminating validation. In the currently recovered passages, much of the **specific procedural wording is assistant-generated**, although Nathan clearly participates in and commissions the split. Therefore this packet does **not** yet promote `blind review` or `independent review` as source-certified Nathan Direct requirements.
+
+A separate retrospective survey (`Pasted text(20260912-143704).txt`) explicitly says the simulated Brain Trust was not independent scientific review, Consensus Pro was not independent-expert validation, and labels such as `locked`, `parameter-free`, `prediction`, and `derived` must be traced to their calculation histories before canonical-paper promotion. That survey is itself assistant retrospective synthesis, not Nathan Direct. It is a high-value wayfinding source, not a promotion-control authority.
 
 ## Combined candidate ladder fragment — revised
 
-The controls above support the following **partial**, source-certified sequence:
+The controls above support this **partial** sequence:
 
-`historical/source candidate` → `authority/directive provenance resolved` → `SAT-free minimal/standard-science reconstruction` → `rigorous capture of established behavior` → `candidate SAT interpretation stated` → `derivation checked without shoehorning` → `observable-limit agreement checked` → `equation/formulation equivalence or isomorphism checked where relevant` → `Nathan-intent fidelity checked separately from mathematical correctness` → `current/supersession status checked`
+`historical/source candidate` → `authority/directive provenance resolved` → `SAT-free minimal/standard-science reconstruction` → `rigorous capture of established behavior` → `candidate SAT interpretation stated` → `derivation checked without shoehorning` → `anti-noise/anomaly-fog check` → `active counterfactual/failure search` → `observable-limit agreement checked` → `equation/formulation equivalence or isomorphism checked where relevant` → `Nathan-intent fidelity checked separately from mathematical correctness` → `current/supersession status checked`
 
-Across the entire sequence:
+Across the sequence:
 
 - ontology remains agnostic;
 - successful isomorphism does not become ontological knowledge;
@@ -159,26 +149,24 @@ Across the entire sequence:
 - chronology does not become validation;
 - LLM status language does not become validation;
 - Nathan-intent fidelity does not become mathematical validation;
-- suggestive empirical/visual fit does not become derivation.
+- suggestive empirical/visual fit does not become derivation;
+- anomaly abundance does not become evidence by itself;
+- a theory that looks promising is still expected to be searched for known failures.
 
-This is **not yet the complete SAT promotion ladder**. Still missing are source-certified project-wide rules for independent/blind review, explicit falsification thresholds, replication, numerical/CODATA benchmarking, formal status vocabulary (`tentative`, `accepted`, `core`, `canonical`, etc.), and who/what can confer each status. Those require cross-source recovery rather than extrapolation from SAT RIGOR.
+This is **not yet the complete SAT promotion ladder**. Still missing are source-certified Nathan Direct rules for independent/blind review, explicit replication requirements, numerical/CODATA benchmarking, formal status vocabulary (`tentative`, `accepted`, `core`, `canonical`, etc.), and who/what can confer each status.
 
 ## Authorship / serialization QA
 
-NotebookLM serialized both Nathan and Avery turns as `role=user`. Speaker identity here comes from conversation structure/content, not the role field alone. No model-generated Avery prose has been promoted into the direct quotations above. Elsewhere in the same export, long pasted audit/feedback packages demonstrate that even a Nathan-side human turn can contain non-Nathan embedded spans; those package bodies remain quarantined from Nathan-authored prose unless upstream authorship is independently established.
-
-## Relation to current P0 direction
-
-This packet directly feeds the current P0 deliverable: a source-certified SAT epistemic-status/promotion protocol. It should be treated as one verified component, not as the finished ladder.
+NotebookLM serialized both Nathan and Avery turns as `role=user`; speaker identity in SAT RIGOR comes from conversation structure/content. The independent historical source uses explicit `You said:` / `ChatGPT said:` boundaries, allowing Nathan Direct prompts to be separated from assistant methodology proposals. Long pasted packages elsewhere demonstrate that even a human-side turn can contain non-Nathan spans; turn-level provenance and span-level authorship remain separate.
 
 ## Run update — 2026-09-20
 
-Current Common direction was reread before this expansion. P0 remains the enabling project layer and the first durable target remains the source-certified promotion/validation protocol. This operation deliberately used already source-reviewed SAT RIGOR material rather than forcing a new oversized-blob retrieval past the verified index-335 frontier. No quarantine material was accessed; no sandbox theory construction was performed; no mathematical audit result was independently promoted.
+Current Common direction was reread before this operation. P0 remains the enabling dependency and first durable deliverable. This run deliberately switched from repeatedly extending SAT RIGOR and performed the packet's requested **independent-source comparison** instead.
 
-Stable Mersearch 1.0 remains Common-greenlit; Common also reports active 1.1 work toward build-once/read-many indexing and concurrent-reader support. This runtime did not execute Mersearch against a full local checkout, so no Mersearch hit is claimed here.
+No quarantine material was accessed. No sandbox theory construction was performed. The Library search surfaced one genuinely useful historical conversation compilation and one retrospective survey; their different authorship classes are explicitly preserved above.
 
 ## Next cursor / handoff
 
-Best next P0 operation: recover **independent Nathan Direct** formulations of `blind`, `independent`, `falsification`, `validation`, `accepted`, `core`, `canonical`, `benchmark`, and related status language from a source outside this SAT RIGOR branch, then compare them against Controls 1–7 before expanding the ladder again.
+Best next P0 operation: locate a source with **Nathan Direct** wording on blind/independent review or formal status-conferral vocabulary. Do not promote the assistant-authored `Blind Testing and Objectivity` language from `SAT PREDICTIONS — ROUNDUP 2.5.5.txt` as Nathan Direct unless a Nathan turn explicitly adopts it.
 
-Separately, the sequential SAT RIGOR reconstruction cursor remains **index 336**; this packet does not advance that source cursor.
+Separately, sequential SAT RIGOR reconstruction remains at index 336.
