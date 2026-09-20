@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "status": "ACTIVE",
+  "updated": "2026-09-20",
+  "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
+  "notes": [
+    "Signals are routing hypotheses, not commands carved in stone.",
+    "Comptroller may execute, modify, merge, park or reject a signal based on newer state.",
+    "Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."
+  ],
+  "signals": [
+    {
+      "id": "SIG-20260920-01",
+      "type": "NIBBLE",
+      "status": "OPEN",
+      "target": "Braintrust Memorial Commons / Field Notes",
+      "evidence": "Watercooler contains only Nathan seed; Field Notes has no worker entries yet as of inspection.",
+      "intent": "Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.",
+      "suggested_action": "On the next safe non-urgent opportunity, route one worker to spend one bounded turn on genuine browsing/TIL or a Watercooler reflection/reply. No quota and no filler.",
+      "exit": "At least one genuine worker-origin entry or an explicit evidence-backed reason the mechanism is not useful yet.",
+      "return_route": "Comptroller incorporation record"
+    },
+    {
+      "id": "SIG-20260920-02",
+      "type": "FEED_FORWARD",
+      "status": "OPEN",
+      "target": "Nathan Words → Theorist Feed",
+      "evidence": "Verified Nathan Words Compendium is rich; theorist feed has now been seeded but all index items are unconsumed or awaiting crosslink/context disposition.",
+      "intent": "Close the loop from excavation to actual theory/formalization use.",
+      "suggested_action": "Have Aster promote one high-value current-relevant packet and route one appropriate theorist/solver worker to consume it, recording disposition rather than merely reading the feed.",
+      "exit": "One feed item has a downstream INGESTED/CONFLICT/NOT-RELEVANT disposition with branch pointer.",
+      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json"
+    },
+    {
+      "id": "SIG-20260920-03",
+      "type": "WEBSITE_BACKFILL",
+      "status": "OPEN",
+      "target": "PUBLIC_SITE/live_influx",
+      "evidence": "Existing live-influx route is documented but currently contains only README; quote/news candidate directories likewise have no candidate traffic. Build suggestions has at least one Codex/Mersearch handoff.",
+      "intent": "Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.",
+      "suggested_action": "Nominate one already-durable current artifact that is genuinely useful to public readers into live_influx, with source/status/proposed destination. Prefer a tiny side effect of real work.",
+      "exit": "One legitimate worker-origin live-influx candidate exists and receives a disposition or next editorial cursor.",
+      "return_route": "PUBLIC_SITE/live_influx"
+    },
+    {
+      "id": "SIG-20260920-04",
+      "type": "MUSICAL_CHAIRS",
+      "status": "CANDIDATE",
+      "target": "active substantive branches",
+      "evidence": "Generalist architecture is active and fifth lease has already rotated to revival, but short method-crossing rotations are not yet well evidenced as a routine anti-entrenchment mechanism.",
+      "intent": "Test whether a complementary transformer array produces new information without permanent reassignment.",
+      "suggested_action": "When no independence/exposure constraint forbids it, rotate Mercer or Aster into one solver/formalization micro-pass and Meridian into one provenance/archive interpretation micro-pass for one bounded run each; freeze outputs, then RETURN/EXTEND/HANDOFF explicitly.",
+      "exit": "One two-way or equivalent short rotation is completed and capability/information-gain result is recorded in the Capability Atlas or branch checkpoint.",
+      "return_route": "INSTANCE_CAPABILITY_ATLAS.md + relevant branches"
+    },
+    {
+      "id": "SIG-20260920-05",
+      "type": "PRIORITY_REWEIGHT",
+      "status": "OPEN",
+      "target": "Dashboard intentions DASH-06 through DASH-08",
+      "evidence": "Dashboard Intent Ledger shows exploration/pre-gathering, deliberative diversity, and presentation/publication are represented structurally but have uneven behavioral traffic.",
+      "intent": "Make current priorities reflect underlying Dashboard intentions without restoring obsolete specialist mechanisms.",
+      "suggested_action": "Treat one of DASH-06/07/08 leverage points as eligible for a bounded Nibble whenever it does not displace a milestone-critical dependency; track behavior rather than document creation.",
+      "exit": "Each selected intent has evidence of current traffic, explicit park/return trigger, or reason current mechanism is sufficient.",
+      "return_route": "DASHBOARD_INTENT_LEDGER.md"
+    },
+    {
+      "id": "SIG-20260920-06",
+      "type": "COMMUNICATION_SMOOTH",
+      "status": "OPEN",
+      "target": "worker recommendations across Common/check-ins/handoffs/Commons/Labs",
+      "evidence": "Recommendation surfaces are distributed and not every recommendation currently has a visible disposition lifecycle.",
+      "intent": "Prevent good recommendations from disappearing into reports or casual posts.",
+      "suggested_action": "During leverage scans, sample recent recommendations and assign explicit disposition: ACCEPTED/ROUTED, TESTED, BRANCHED, NIBBLED, PARKED+TRIGGER, REJECTED+REASON, DUPLICATE/MERGED, or NEEDS NATHAN.",
+      "exit": "Recommendation debt becomes inspectable and no sampled actionable recommendation terminates without a return route.",
+      "return_route": "originating recommendation surface + task/signal state"
+    }
+  ]
+}
