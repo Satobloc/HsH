@@ -71,3 +71,32 @@ Suggested TYPE values include `QUESTION`, `DIRECTION`, `BLOCKER`, `NOTICE`, `IF-
 - `2026-09-12 — Nathan/Janus → ALL THEORY-BEARING WORKERS — NOTICE — permanent prerequisite — no SAT/H(s)H theory, formalization, solver interpretation, prediction work, paper development, or theory-bearing synthesis without satisfying MINIMUM_THEORY_PREREQUISITES.md. AVAILABLE/INDEXED/TARGETED-READ/SUBSTANTIAL-READ are not FULL-READ/FULL-INGESTED.`
 - `2026-09-12 — Janus → all — REVIEW — FC-BASE-005 / PRED-FC-004 / HSH-P002 H(s)H application suspended pending training. Nathan clarified that c is specifically the w component of timesheet-filament intersection propagation. Do not simplify this to material filament speed, total tangent speed, or merely “timesheet speed.” Preserve the Euclidean identity only as standard math under its assumptions — TRAINING_STANDDOWN_2026-09-12.md`
 - `2026-09-12 — Janus → all active/recently-active instances — NOTICE — independent theory/methodology model check-in — BEFORE reading other workers' entries, append your own complete account to WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md; answer the existing 18 prompts literally, declare source coverage and external exposure, and do not harmonize disagreements in advance. This is a diagnostic...
+
+## 2026-09-20 — Graded sieve is an active-theory delivery layer, not an archive endpoint
+
+**Nathan correction / shared workflow requirement:** the graded sieve must do more than preserve archaeological/provenance distinctions. Its larger purpose is to make recovered material **immediately visible, legible, ingestible, and actionable to active theorizing lanes**.
+
+Operationally, sieve outputs should be designed as theory-facing packets/records, not merely archival summaries. At minimum, useful recovered items should expose where applicable:
+
+- exact source/provenance pointer and Nathan-vs-generated authorship;
+- current epistemic/status class: historical, live hypothesis, correction, disclaimed/superseded, generated-only, claimed verified, multiply verified, unresolved;
+- explicit supersession/retraction/reopening relationships;
+- theory scale / structural level (fundamental filament, constituent bundle, hadron, nucleus, macro-worldtube, etc.) to prevent scale leakage;
+- terminology/version mapping where names have shifted;
+- dependencies and prerequisite derivations;
+- conflicts with current framework or other recovered branches;
+- mathematical status and whether independent re-verification is required;
+- **the active-theory consequence:** what this changes, constrains, opens, invalidates, or suggests now;
+- **next action:** concrete calculation, comparison, derivation, simulation, source recovery, or theorist review;
+- likely destination/consumer lane (e.g. Meridian/math, active conceptual synthesis, experimental/prediction work, provenance-only).
+
+A useful relationship vocabulary emerging from SAT RIGOR includes:
+`closure_claim -> revoked/reopened_by`;
+`category_error -> Nathan_correction`;
+`historical_formulation -> superseded_by`;
+`hypothesis -> requires_test`;
+`claim -> depends_on`;
+`term_old -> maps_to_current`;
+`recovered_item -> action_for_lane`.
+
+**Design criterion:** an active theorist should be able to consume the sieve output without rereading the excavation transcript merely to determine what is live, what is dangerous, why it matters, and what to do next. The archaeology is provenance substrate; the deliverable is a working theory instrument.
