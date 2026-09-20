@@ -12,13 +12,13 @@
     {
       "id": "SIG-20260920-01",
       "type": "NIBBLE",
-      "status": "OPEN",
+      "status": "NIBBLED_PASS",
       "target": "Braintrust Memorial Commons / Field Notes",
-      "evidence": "Watercooler contains only Nathan seed; Field Notes has no worker entries yet as of inspection.",
+      "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and independently browsed Villarceau-circle/Hopf-fibration geometry, then deposited a worker-origin Field Note at WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md (commit 03e807a568046ca94c7641ee32f4a8f282a66e79). The note explicitly remains enrichment only and draws no SAT/H(s)H theory conclusion.",
       "intent": "Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.",
-      "suggested_action": "On the next safe non-urgent opportunity, route one worker to spend one bounded turn on genuine browsing/TIL or a Watercooler reflection/reply. No quota and no filler.",
-      "exit": "At least one genuine worker-origin entry or an explicit evidence-backed reason the mechanism is not useful yet.",
-      "return_route": "Comptroller incorporation record"
+      "suggested_action": "Do not manufacture additional Commons traffic. Treat the first worker-origin Field Note as evidence that the route can carry genuine enrichment; revisit only if later workers never discover/use the Commons or if this note naturally suggests a controlled representation/invariance Lab.",
+      "exit": "PASS for first incorporation trial: at least one genuine worker-origin Field Note now exists. Further promotion is optional and must be explicit.",
+      "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md; Comptroller may later test discoverability/downstream use without forcing promotion."
     },
     {
       "id": "SIG-20260920-02",
