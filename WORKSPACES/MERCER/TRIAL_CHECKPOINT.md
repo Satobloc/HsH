@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 130, 2026-09-20
+**Current through:** Run 131, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -31,6 +31,8 @@ Nathan prioritizes the He-3 “Holotype Atom” as an anchoring/scaling case and
 
 **Run 130 typed Q-semantics crosswalk:** reread current Common controls/orientation, Mercer checkpoint, and Meridian math-provenance protocol, then directly reread `2026/SAT CORE — HELIUM STANDARD ATOM 2.txt`. Created `WORKSPACES/MERCER/HE3_Q_SEMANTICS_CROSSWALK_2026-09-20.md`, separating three records without reconciliation: (A) local/subunit `Q=3` nucleon/Borromean triplet and adjacent `n≤3` intersection cap; (B) explicit whole-nucleus `Q_total=9` / nine-primary-filament total; (C) later whole-anchor `Q=3` defined as integrated topological charge/effective intersection density and paired with `m_eff≈m0/Q`. The artifact records object counted, mass/formula context, angular vocabulary, and reconstruction status. It explicitly does not validate/disclaim the historical mathematics or decide whether C is coarse-graining, stage change, or inconsistency. Commit creating crosswalk: `5f3e26a2337c6555270520297f0029cf075560c8`.
 
+**Run 131 deterministic counterpart inventory:** reread hard no-renaming policy, worker autonomy protocol, current automation control, Common coordination and Mercer checkpoint. Re-ran code search for the exact Q-audit title across HsH/GLASS/SAT archive: zero hits, retained only as weak search evidence per Run 112. Deterministically re-read the complete top-level `2026/` directory listing. It contains the Q-counting PDF plus adjacent audit texts (`AUDIT CYCLE 1-7.txt`, `SAT AUDIT Critique 1/2.txt`, `SAT AUDIT — Cyclerev.txt`, `Formal rules`, `Refine`, `Space Do over`, `Spectra-Heat anom`) but no same-title `.txt`/`.md` sibling. This is scoped positive inventory evidence for the top-level directory only, not whole-repository absence evidence. As a bounded semantic spot-check, `SAT AUDIT — Refine .txt` contains Q=3-vertex discussion but is itself an audit dialogue with explicit rejection/retraction of unsupported derivations, so it is not a substitute for the unread Q-counting PDF. No OCR attempted. No crosswalk semantic change warranted.
+
 ## Current verified state
 
 ### Viewer / normalization / source identity
@@ -56,7 +58,7 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 ## Open dependencies / handoffs
 - `REPORT SERIES / COMMON+SABLE`: Common call/roster is live. Mercer reports filed/linked; other scoped checks remain `not located`, not `not filed`. Update only on new exact evidence.
 - `NEW-INSTANCE ORIENTATION / COMMON`: Common-README linked and refreshed through 2026-09-19; maintain only on material state change.
-- `HE-3 HOLOTYPE / MERCER PRIORITY`: typed Q crosswalk now exists at `WORKSPACES/MERCER/HE3_Q_SEMANTICS_CROSSWALK_2026-09-20.md`. It preserves three records: local/subunit Q=3; total nuclear Q=9; later integrated/effective whole-anchor Q=3. Highest-value adjudication source remains `2026/SAT AUDIT — Q COUNTING CONCERNS.pdf`; current GitHub UTF-8 route cannot read it. Seek an existing text/extraction counterpart or another non-OCR readable route before interpreting it.
+- `HE-3 HOLOTYPE / MERCER PRIORITY`: typed Q crosswalk exists at `WORKSPACES/MERCER/HE3_Q_SEMANTICS_CROSSWALK_2026-09-20.md`. It preserves three records: local/subunit Q=3; total nuclear Q=9; later integrated/effective whole-anchor Q=3. Top-level `2026/` deterministic inventory finds no same-title text sibling for `SAT AUDIT — Q COUNTING CONCERNS.pdf`; current GitHub UTF-8 route still cannot read the PDF. Seek another existing extraction/text route or a source-identifiable conversation/export before OCR.
 - `EXTRACTION CONTEXT / OWNER-SABLE`: repaired classifier execution pending readable exact checkout.
 - `EXTRACTION PROVENANCE / OWNER-SABLE`: Run 107 minimal patch specification; no shared-workflow implementation by Mercer absent ownership/intent change.
 - `RESOURCES WAYFINDING / OWNER-SABLE OR RESOURCE INFRASTRUCTURE`: Run 110 audience-scoping defect; ordinary Mercer must not enter PRIOR_ART.
@@ -66,14 +68,14 @@ Retained machinery: `validate_cross_source_integrity_v2.py`, `viewer_input_seman
 - No current Nathan-required decision.
 
 ## Current frontier
-Use the typed Q crosswalk as the constraint for further He-3 source recovery. Determine whether later whole-anchor integrated/effective Q has an explicit transformation/coarse-graining relation to local-triplet Q and total-filament Q. Recover readable content for `SAT AUDIT — Q COUNTING CONCERNS.pdf` or an extraction/text counterpart. Do not enter PRIOR_ART.
+Use the typed Q crosswalk as the constraint for further He-3 source recovery. Determine whether later whole-anchor integrated/effective Q has an explicit transformation/coarse-graining relation to local-triplet Q and total-filament Q. The same-title top-level counterpart route is exhausted; next prefer source-identifiable extraction/conversation ancestry for the Q-counting PDF, then another reliable PDF text route, with OCR last. Do not enter PRIOR_ART.
 
 ## Recent run history
-Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76–80 normalization/routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 classifier materialized; 106 extraction provenance/publication audit; 107 patch specification; 108 classifier fidelity repair; 109 Meridian graph-local control; 110 Resources quarantine-wayfinding ambiguity; 111 He-3 anchor priority added; 112 code-search recall positive-control failure; 113 first direct He-3 source/conflicts; 114 adjacent SAT backbone; 115–126 report-series/orientation rollout and recurring-worker identity reconciliation; 127 deterministic He-3/Q-counting inventory; 128 adjacent audit text recovered local vertex `Q≤3` semantic lead; 129 direct He-3 source reread recovered explicit three-Q=3-triplets / total-Q=9 mapping; **130 materialized the typed three-record He-3 Q-semantics crosswalk without forcing reconciliation.**
+Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76–80 normalization/routing/front-door; 81–85 operational currentness; 86–89 formalization access; 90–96 Viewer external/runtime/build provenance; 97–104 extraction-context semantics/sampling; 105 classifier materialized; 106 extraction provenance/publication audit; 107 patch specification; 108 classifier fidelity repair; 109 Meridian graph-local control; 110 Resources quarantine-wayfinding ambiguity; 111 He-3 anchor priority added; 112 code-search recall positive-control failure; 113 first direct He-3 source/conflicts; 114 adjacent SAT backbone; 115–126 report-series/orientation rollout and recurring-worker identity reconciliation; 127 deterministic He-3/Q-counting inventory; 128 adjacent audit text recovered local vertex `Q≤3` semantic lead; 129 direct He-3 source reread recovered explicit three-Q=3-triplets / total-Q=9 mapping; 130 materialized typed three-record Q crosswalk; **131 deterministically exhausted the same-title top-level text-counterpart route and confirmed adjacent audit text is not a safe substitute.**
 
 ## Best next operations
-1. Locate a text/extraction counterpart for `2026/SAT AUDIT — Q COUNTING CONCERNS.pdf`; do not OCR unless no better route exists.
-2. Recover `Standard Helium Atom.pdf` text only through an existing extraction/text counterpart or other reliable route.
-3. Extend the He-3 crosswalk only when a source explicitly relates later integrated/effective Q to the earlier local/total counts or clarifies mass-stage semantics.
-4. Update report roster/orientation only on material new evidence.
-5. Execute repaired extraction classifier when readable exact raw-source checkout becomes available.
+1. Trace `SAT AUDIT — Q COUNTING CONCERNS.pdf` to a source-identifiable conversation/export or extraction artifact using archive wayfinding; preserve source identity and do not infer from neighboring audit files.
+2. If no source-identifiable text route exists, attempt another reliable PDF text extraction route before OCR.
+3. Recover `Standard Helium Atom.pdf` text only through an existing extraction/text counterpart or other reliable route.
+4. Extend the He-3 crosswalk only when a source explicitly relates later integrated/effective Q to earlier local/total counts or clarifies mass-stage semantics.
+5. Update report roster/orientation only on material new evidence.
