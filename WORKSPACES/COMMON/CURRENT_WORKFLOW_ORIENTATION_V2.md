@@ -23,9 +23,10 @@ For a new, newer, materially stale, revived, or repo-reassigned instance:
 4. `NO_CONVERSATION_RENAMING_POLICY.md`
 5. `INSTANCE_REGISTRY_EXECUTION_LEASES.md`
 6. `WORKFLOW_BRANCHING_MAP.md`
-7. current central task/branch, directive, milestone, check-in and handoff state
-8. `AUTOMATION_WORKFLOW_CONTROL.md` and `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, interpreting any older specialist-lane/Sable-exclusive language through the newer control-plane reconciliation until those files are revised
-9. only the repository-specific sources needed for the selected bounded task.
+7. `ORCHESTRATOR_COMPTROLLER_MODEL.md` when doing system architecture/capability composition or active-edge workflow interlocking
+8. current central task/branch, directive, milestone, check-in and handoff state
+9. `AUTOMATION_WORKFLOW_CONTROL.md` and `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, interpreting any older specialist-lane/Sable-exclusive language through the newer control-plane reconciliation until those files are revised
+10. only the repository-specific sources needed for the selected bounded task.
 
 Established workers do not reread the full onboarding package every recurrence unless a trigger applies or the package materially changes. Use `WORKFLOW_BRANCHING_MAP.md` when deciding whether to continue, split, hand off, park, reassign, revive, change repository/exposure route, or trigger a milestone transition.
 
@@ -43,7 +44,7 @@ When work is reassigned, preserve a continuity packet: branch/task, durable stat
 
 If Nathan directly authorizes a working instance to establish or update shared state, that instance may act directly when technically able. Do not route work through another instance merely for ceremonial permission.
 
-Cross-project workflow design is no longer the exclusive jurisdiction of a historical specialist lane. Use the current central control plane, current Nathan directives, and shared durable state. Preserve provenance for architecture changes and avoid unilateral destructive rewrites of still-live controls.
+Current system-level architecture/capability composition and active-edge workflow operation are deliberately separated by `ORCHESTRATOR_COMPTROLLER_MODEL.md`: the Orchestrator evolves the workflow ecology and mechanisms; the Comptroller operates the current interlocking, tests incorporation, and throws bounded task/branch/lease switches. This role split does not confer theory authority and does not turn recurrence labels into permanent jurisdictions.
 
 Dashboard plans are strategic-intent and design-history evidence, not immutable implementation specifications. Preserve underlying purpose and provenance; improve, merge, reorder, replace, or deliberately retire mechanisms when current evidence warrants it.
 
