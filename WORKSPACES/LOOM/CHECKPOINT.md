@@ -5,21 +5,40 @@
 
 ## Current controls / run note
 
-Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs, and Loom durable state. Newer directives control. No conversation/thread/chat identity was altered.
+Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs, workspace guidance, and Loom durable state. Newer directives control. No conversation/thread/chat identity was altered.
+
+A newer hard output gate in `AUTOMATION_WORKFLOW_CONTROL.md` requires a pre-send/pre-write signet check; Loom applied it this run.
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
-## This run — chronology/adjacency wayfinding attempt
+## This run — Stage-2 addressability / inherited-context audit
 
-**Operation:** bounded attempt to recover an attributable source for the historical boson-taxonomy transition without repeating the exact `t-boson` / `f-boson` query.
+**Operation:** bounded non-lexical audit of the durable Nathan Direct Stage-2 package, following the prior cursor.
 
-**Queries:** current HsH default-branch index for broader `boson neutrino timesheet filament`, the already-verified June-2026 phrase `true bosons`, the later wording `neutrino reclassified`, and known raw Nathan UUID `ef84a400-ad15-48cc-bb89-ad49b97b2e48`.
+**Surfaces inspected:**
+- `indexes/nathan-direct/` directory inventory;
+- `indexes/nathan-direct/stage2/` directory inventory;
+- `indexes/nathan-direct/stage2/MANIFEST.json`;
+- attempted bounded line read of `indexes/nathan-direct/stage2/branch-context.jsonl`;
+- fallback `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md` because exact Stage-2 records were not cleanly addressable through the available bounded file-read interface.
 
-**Result:** no indexed hits. This adds no source-level evidence and does not establish absence. It confirms that GitHub default-branch lexical indexing is not a useful discovery mechanism for this cursor, even when supplied a known raw UUID/known verified wording.
+**Material finding:** Stage-2 is a substantial non-destructive queue layer over 30,482 source records. Manifest counts: correction/refinement 2,800; definition 1,739; methodology 1,954; decision 719; duplicate/provenance 5,494; branch/context 2,798. The manifest explicitly excludes earliest-use conclusions because v1 topic minima are high-recall and require precision plus raw-context verification.
 
-**Tag consequence:** no new Nathan-authored corpus item was read; no source tag was manufactured.
+**Access finding:** a bounded `fetch_file` line read against the large `branch-context.jsonl` returned empty content rather than an addressable first record. Therefore Loom did not pretend to audit an inherited tag or branch relation it could not actually inspect. The Stage-2 package is visible and quantified, but exact-record inspection through this interface remains unresolved.
 
-**Decision:** retire lexical/code-search wayfinding for this transition until a concrete raw-conversation/folder pointer is supplied by an index, manifest, or adjacency surface. Rotate next bite to a non-lexical inherited-tag/context or duplicate/provenance audit within the durable Nathan Direct package, where exact records are already addressable.
+**Fallback finding:** the folder-19 index confirms a concrete provenance hazard worth retaining in Loom's audit model: inspected NotebookLM exports serialize both Nathan prompts and obvious NLM-generated answers as `role=user`; role alone is therefore unusable for Nathan-authorship authentication in those exports. The index also preserves explicit targeted-read rather than full-read coverage and keeps source-index value separate from theory authority.
+
+**Tag consequence:** no new Nathan-authored corpus passage was read this run, so no Nathan-source tag was manufactured. Operational/provenance relations added to Loom state:
+- `STAGE2-MANIFEST → NONDESTRUCTIVE-QUEUE / NO-THEORY-AUTHORITY`
+- `EARLIEST-USE → EXCLUDED-PENDING-PRECISION+RAW-CONTEXT`
+- `BRANCH-CONTEXT-JSONL → EXACT-RECORD-ACCESS-UNRESOLVED-IN-CURRENT-INTERFACE`
+- `NLM-role=user → NOT-AUTHORSHIP-EVIDENCE [KNOWN-FOLDER19-HAZARD]`
+
+**Decision:** do not spend repeated cycles trying line-based reads of giant Stage-2 JSONL files. Next bite should inspect a smaller addressable Stage-2/lookup support surface or one already-indexed conversation-folder item/duplicate pair where source identity and content can actually be read. If Stage-2 exact-record access becomes necessary, prefer a purpose-built extraction/search route rather than pretending the current file-read behavior is sufficient.
+
+## Prior run — chronology/adjacency wayfinding attempt
+
+Bounded attempt to recover an attributable source for the historical boson-taxonomy transition using broader terms and known raw UUID returned no indexed hits. No source-level evidence was added. GitHub default-branch lexical indexing remains low-yield for this cursor.
 
 ## Prior run — taxonomy-transition wayfinding
 
@@ -64,7 +83,9 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Perform one bounded non-lexical inherited-tag/context or duplicate/provenance audit on an addressable Nathan Direct Stage-2 record/package surface. Prefer a record where branch/chronological pointers can clarify whether inherited tags are justified. Additive-only: enrich/qualify; do not downgrade existing metadata. If exact record content cannot be addressed cleanly, inspect one conversation-folder index row/cluster instead.
+Perform one bounded addressable provenance/duplicate/context operation rather than another giant-JSONL line-read attempt. Preferred choices:
+1. inspect a smaller Nathan Direct lookup/support surface that exposes exact record identity cleanly; or
+2. inspect one already-indexed conversation-folder item/duplicate pair and enrich duplicate/source relations from actual content.
 
 The unresolved Jarlskog/soliton and t/f taxonomy-transition lineages stay pinned for source recovery when a new wayfinding pointer appears.
 
