@@ -9,25 +9,25 @@ Current Common startup/control surfaces were reread this run, including the hard
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
-## This run — taxonomy-transition wayfinding
+## This run — chronology/adjacency wayfinding attempt
 
-**Operation:** bounded code-search wayfinding for the transition from the December-2025 `boson = ripple on fermionic filament substrate` taxonomy toward later `t-boson` / `f-boson` / timesheet-vs-filament language.
+**Operation:** bounded attempt to recover an attributable source for the historical boson-taxonomy transition without repeating the exact `t-boson` / `f-boson` query.
 
-**Queries:**
-- historical archive: `t-boson f-boson temporon`
-- current HsH repo: `t-boson f-boson`
+**Queries:** current HsH default-branch index for broader `boson neutrino timesheet filament`, the already-verified June-2026 phrase `true bosons`, the later wording `neutrino reclassified`, and known raw Nathan UUID `ef84a400-ad15-48cc-bb89-ad49b97b2e48`.
 
-**Result:** no indexed default-branch code-search hits in either repository. This is a negative retrieval result only; it does not establish absence of the vocabulary or transition in raw exports, non-indexed files, other branches, or differently worded sources.
+**Result:** no indexed hits. This adds no source-level evidence and does not establish absence. It confirms that GitHub default-branch lexical indexing is not a useful discovery mechanism for this cursor, even when supplied a known raw UUID/known verified wording.
 
-**Tag/provenance consequence:** no new Nathan-authored source item was actually read, so no corpus-source tag was manufactured. Preserve the existing historical-paper tags below. The retrieval state itself is recorded as `T/F-TAXONOMY-TRANSITION → WAYFINDING-NEEDED` and `EXACT-TERM-CODE-SEARCH → LOW-YIELD`.
+**Tag consequence:** no new Nathan-authored corpus item was read; no source tag was manufactured.
 
-**Capability/enrichment note:** the prior Jarlskog recovery failure and this taxonomy-transition failure show the same archive-access pattern: GitHub lexical code search is not a sufficient discovery layer for several historically important vocabularies. Future work should prefer known raw-conversation families, timeline/glossary crosswalks, folder indices, and adjacency evidence over repeated exact-term query spraying.
+**Decision:** retire lexical/code-search wayfinding for this transition until a concrete raw-conversation/folder pointer is supplied by an index, manifest, or adjacency surface. Rotate next bite to a non-lexical inherited-tag/context or duplicate/provenance audit within the durable Nathan Direct package, where exact records are already addressable.
+
+## Prior run — taxonomy-transition wayfinding
+
+Historical archive `t-boson f-boson temporon` and current HsH `t-boson f-boson` returned no indexed default-branch code-search hits. Recorded as `T/F-TAXONOMY-TRANSITION → WAYFINDING-NEEDED` and `EXACT-TERM-CODE-SEARCH → LOW-YIELD` only.
 
 ## Prior run — recoverable historical source read/tag
 
 **Source actually read:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/_AUTO_EXTRACTED_TEXT/ ..✅ BOSONIC_TIME.txt`, extracted from ` ..✅ BOSONIC_TIME.pdf` (source SHA256 recorded in extraction header; 18 pages; December 28, 2025 paper by Nathan J. Bellomy).
-
-**Why this object:** after repeated low-yield lexical searches for the unresolved soliton/Jarlskog lineage, rotated to an already-addressable non-quarantined historical source rather than continuing query spray.
 
 **Tags/relationships added from source content:**
 - `SAT-2025 → FILAMENT/WORLDLINE + ADVANCING-TIME-SURFACE ONTOLOGY`
@@ -41,13 +41,13 @@ Systematic 2023–25 archive excavation remains a recurrence priority, with the 
 - `HISTORICAL-BOSON/FERMION-LANGUAGE → TERMINOLOGY-COLLISION-WITH-2026-CURRENT-CORRECTION`
 - `SOURCE-PAPER ≠ RAW-CONVERSATION-NATHAN-DIRECT`
 
-**Important currentness relation:** this source's statement that bosons are ripples on a `fermionic (filament) substrate` is preserved as historical wording, not silently translated into the current SAT/H(s)H structural distinction. Current control explicitly separates persistent localized/coiled excitation from traveling/light-mode excitation and warns that those categories are not automatically standard fermion/boson classes. Therefore this document is useful ancestry for the historical taxonomy but cannot by itself settle current t/f or standard spin/statistics mapping.
+**Important currentness relation:** preserve the source's `fermionic (filament) substrate` wording historically; do not silently translate it into the current persistent-coil/traveling-excitation distinction or standard spin/statistics.
 
-**Authorship/provenance caution:** the PDF carries Nathan J. Bellomy as author, but this read did not recover raw conversation-message ancestry for individual formulations. Do not promote individual sentences into the Nathan Verified Words Compendium solely from this paper. Preserve document-level authorship separately from raw-message verification.
+**Authorship/provenance caution:** document-level Nathan J. Bellomy authorship does not by itself recover raw conversation-message ancestry for individual formulations.
 
 ## Prior source-recovery result retained
 
-The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. The complete recursive default-branch tree and exact-path commit-history lookup failed to recover `BORROMANEAN_LINK_ILLUSTRATION.txt`/`BORROMEAN_LINK_ILLUSTRATION.txt`; that timeline-object lineage remains `SOURCE-RECOVERY-NEEDED`. Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, `holotype`, `soliton`, `gluon`, and `NESTED HOLONOMIES` yielded no indexed historical-archive code-search hits.
+The archive Development Timeline identifies a June 7, 2025 particle/topology cluster including `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`, quark/meson reinterpretations, `HOPF_LINK_ILLUSTRATION.txt`, and `BORROMEAN_LINK_ILLUSTRATION.txt`. Complete recursive default-branch tree and exact-path commit-history lookup failed to recover the Borromean object under that name; that lineage remains `SOURCE-RECOVERY-NEEDED`. Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, `holotype`, `soliton`, `gluon`, and `NESTED HOLONOMIES` yielded no indexed historical-archive code-search hits.
 
 No-search-hit does not establish absence. Rename/move, another repository/export, non-indexed content, or local/uncommitted generation remain open possibilities.
 
@@ -64,9 +64,9 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Do not repeat exact-term t/f code-search next run. Inspect one known raw-conversation family or existing conversation-folder/index surface that spans late 2025 through the later boson terminology correction, using chronology/adjacency rather than lexical search. Goal: recover one attributable Nathan message or one exact source pointer bearing on the historical taxonomy transition. If no clean source is addressable within one bite, rotate to inherited-tag/selectivity/duplicate audit.
+Perform one bounded non-lexical inherited-tag/context or duplicate/provenance audit on an addressable Nathan Direct Stage-2 record/package surface. Prefer a record where branch/chronological pointers can clarify whether inherited tags are justified. Additive-only: enrich/qualify; do not downgrade existing metadata. If exact record content cannot be addressed cleanly, inspect one conversation-folder index row/cluster instead.
 
-The unresolved Jarlskog/soliton lineage stays pinned for source recovery when a new wayfinding pointer appears.
+The unresolved Jarlskog/soliton and t/f taxonomy-transition lineages stay pinned for source recovery when a new wayfinding pointer appears.
 
 ## Workspace identity
 
