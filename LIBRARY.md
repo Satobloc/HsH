@@ -1,6 +1,8 @@
 # SAT/H(s)H Expanded Library
 
-This page extends the curated front-page library with additional SAT/H(s)H archive sources selected for easier discovery. Inclusion here means **linked for reading and future audit**, not endorsed or mathematically validated.
+**Lane:** archive/provenance discovery and reading surface. This page does **not** assign theory authority or BEDROCK status.
+
+This page extends the curated front-page library with additional SAT/H(s)H archive sources selected for easier discovery. Inclusion here means **linked for reading and future audit**, not endorsed, mathematically validated, or promoted into the project's theory-premise register. Theory authority/status is controlled through [BEDROCK.md](BEDROCK.md) and newer Nathan Direct.
 
 Unless a document already has a more advanced vetting panel on the front page, its initial library status is:
 
@@ -8,7 +10,7 @@ Unless a document already has a more advanced vetting panel on the front page, i
 
 Duplicates across the supplied selection batches are listed once, under the first batch in which they occur. Two visibly concatenated URLs in Selection IV have been normalized to their intended individual archive files.
 
-## Additional core, snapshot, calculation, and H(s)H sources
+## Additional snapshot, calculation, historical, and H(s)H sources
 
 - [MILLENIUM PRIZE.txt](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/MILLENIUM%20PRIZE.txt)
 - [METHODOLOGICAL_SNAPSHOT.txt](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/METHODOLOGICAL_SNAPSHOT.txt)
@@ -97,4 +99,4 @@ Duplicates across the supplied selection batches are listed once, under the firs
 
 ---
 
-As the library is curated, individual entries can be promoted from this discovery list into the front-page showcase and given full LLM / human-specialist / formal vetting panels.
+As the library is curated, individual entries can be featured in the front-page showcase and given fuller LLM / human-specialist / formal vetting panels. **Featuring, accessibility, polish, or advancement through those vetting panels does not itself confer BEDROCK status or theory authority.** Any theory-status change is recorded through BEDROCK's explicit status process or newer Nathan Direct.
