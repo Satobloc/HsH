@@ -46,16 +46,16 @@ Record the single operation performed, exact durable boundary reached, material 
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded Comptroller lease-health refresh for the five currently scheduled instances.
+**Operation:** one bounded Comptroller lease-health resolution pass on the two WATCH conditions recorded in the prior registry snapshot.
 
-**Sources actually checked:** current Common workflow orientation and direction-unification priority stack; `ACTIVE_AUTOMATION_ROSTER.md`; `INSTANCE_REGISTRY.md`; live scheduler state; current durable workspace activity for Loom, Aster, Meridian, Tern and Mercer.
+**Evidence checked:** live five-slot scheduler state plus the newest HsH commits. Loom's next execution produced durable Loom work at 18:01:46 UTC (`17649d6383baa4ffc6c810124665a4e0303fea06`); Aster's next execution produced the source-certified P0 SAT RIGOR control packet at 18:12:42 UTC (`09dba4ca64ca32d1bea00b7de52c1f7c56192ec4`); Meridian's 18:27 cycle produced a bounded Hagalaz representation test at 18:26:51 UTC (`38fdc747ce145d00b0a4c318a32bf919f4925594`). All five scheduled leases remain enabled.
 
-**Durable boundary:** updated `WORKSPACES/COMMON/INSTANCE_REGISTRY.md` with exact continuity pointers where resolved and a timestamped scheduler-vs-durable-output health snapshot. No lease was reassigned.
+**Durable boundary:** refreshed `WORKSPACES/COMMON/INSTANCE_REGISTRY.md` and cleared the superseded Loom/Aster WATCH readings. No lease, branch ownership, cadence, theory status, or milestone was changed.
 
-**Material changed state:** Meridian and Mercer show fresh same-cycle/near-cycle durable work. Loom's scheduler ran at 16:58:50 UTC while its latest observed durable checkpoint was 15:40:39 UTC; Aster ran at 17:11:32 UTC while its latest observed continuity advance was 16:16:07 UTC. These are WATCH signals only, not failure findings. Tern's own apparent workspace lag was diagnosed as split continuity storage; this update restores the designated Tern continuity surface and records the newer Comptroller authority.
+**Material changed state:** the previous health concern did not persist. Loom and Aster both advanced durably on the immediately following cycle, so there is no current health basis for displacing either lease. Meridian also remains fresh.
 
-**Lease decision:** retain all five current leases for now. One-cycle durable lag is insufficient evidence to displace Loom or Aster, especially while both schedulers are demonstrably executing. Reassignment requires stronger health/task-fit evidence and a clean continuity packet.
+**Lease decision:** preserve all five current leases. Future reassignment should be driven by a new concrete health signal or by branch/milestone fit, not by the now-resolved lag snapshot.
 
-**Open dependency:** Loom and Aster each merit one later cycle check if their durable surfaces do not advance. Tern continuity should now use this file rather than splitting routine checkpoint state across another workspace.
+**Open dependency:** none from this health check.
 
-**Next cursor:** on the next Comptroller recurrence, reconsider the live task graph from scratch; if Loom or Aster still lacks a new durable advance after another execution, diagnose exactly one of those workers' current branch/checkpoint state before any lease decision. Otherwise select the highest-value non-health task from the then-current graph.
+**Next cursor:** reconsider the live central task graph from scratch next recurrence. Do not continue routine lease-health polling unless a new stale/failure signal appears; prefer a substantive branch, milestone, task-allocation, provenance, formalization, or infrastructure operation if current state supports one.
