@@ -53,12 +53,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded reference-lane inspection of root `LIBRARY.md`.
+**Operation:** one bounded reference-lane repair of root `LIBRARY.md`.
 
-**Durable boundary:** reread the current pre-flight controls, including the newly strengthened Nathan-signet output gate, and inspected `LIBRARY.md` against `BEDROCK.md`. The library is correctly framed as discovery rather than endorsement, but it retains pre-BEDROCK authority-adjacent language: the main source group is called `Additional core...`, and the closing sentence says entries may be `promoted` from the discovery list into the front-page showcase with vetting panels.
+**Durable boundary:** reread current live BEDROCK/pre-flight/write-safety controls, then re-fetched `LIBRARY.md` immediately before a compare-and-swap update. Corrected only the previously diagnosed discovery-versus-authority ambiguity at commit `18ae081aa150263c992950a5890bcfdbc9f471fb`.
 
-**Material changed state:** diagnosis is now durable in the worker checkpoint. No theory proposition, library entry, or front-door content was changed in this quantum. The defect is specifically terminological/routing: discovery prominence and vetting progression must not be readable as theory-authority promotion. BEDROCK remains the only theory-premise/status center, and front-page featuring or vetting advancement does not itself move a document into `ND/FB/WB/TF/OC/SS` status.
+**Material changed state:** `LIBRARY.md` now explicitly identifies itself as an archive/provenance discovery surface; removes `core` from its source-group heading; states that inclusion is not theory-status promotion; and clarifies that front-page featuring, accessibility, polish, or vetting advancement does not itself confer BEDROCK status or theory authority. No library entries, source links, theory propositions, or BEDROCK statuses were changed.
 
-**Open dependency:** `LIBRARY.md` still needs the small front-door repair itself. Because it is a high-visibility shared surface, that write should be a separate micro-bite with a fresh blob SHA rather than being bundled into this inspection/checkpoint operation.
+**Open dependency:** no dependency remains for this micro-repair. Other front-door/reference-lane defects, if any, remain separate future objects.
 
-**Next cursor:** make exactly one bounded `LIBRARY.md` routing correction: label the page explicitly as an archive/provenance discovery surface, replace `Additional core...` with authority-neutral wording, and clarify that front-page featuring/vetting does not confer BEDROCK status or theory authority.
+**Next cursor:** rotate away from consecutive reference-lane cleanup and choose one bounded system-pulse/Q&A or Ravel theory-interface operation after rereading the then-current controls.
