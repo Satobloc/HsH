@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 144, 2026-09-20
+**Current through:** Run 145, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -314,3 +314,24 @@ Run `35525522502` queued at checkpoint-write time.
 **Next cursor:** inspect `35525522502`; fix correctness failures. Record no-change and one-change timings. Optimize the dominant stage, then add sustained repeated-reader/load test rather than only burst concurrency.
 
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
+
+
+## Run 145 — 2026-09-20 — Carpe Turnem project transition
+
+**Nathan direction:** regear the project from excavation/preservation as dominant activity toward bold productive research, using explicit QUARANTINE / THEORIZING / SANDBOX / PLAYGROUND zoning; preserve the archive and provenance floor while exploiting the project as a generative 4D-geometric research program. Nathan explicitly framed the project around systematic use of the empirically constrained four-dimensional representation associated with the Minkowski lineage, while directing workers to use the existing safety architecture to explore boldly. “Carpe turnem” is the operational instruction: take productive authorized turns rather than merely agreeing.
+
+**Durable doctrine created:** `WORKSPACES/COMMON/CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md`, commit `eacd09a1e05703eaee8e1b44761926d52116a75c`.
+Key cycle: **PRESERVE → RECOVER → FORMALIZE → SANDBOX → STRESS-TEST → PROMOTE / RETAIN / KILL**.
+Zones preserve QUARANTINE as closed by default; historical/source record as provenance-governed; THEORIZING as candidate staging; SANDBOX as normal bold derivation/model-testing lane; PLAYGROUND as maximally exploratory but explicitly labeled.
+
+**Minkowski lane discipline:** doctrine separates (1) historical claims about Minkowski/founders, which require actual source support including RESOURCES/HISTORY; (2) representational facts fixed by established physics vs conventions vs SAT/H(s)H hypotheses; and (3) generative questions about what can be derived/ruled out before adding primitives. This prevents the project preference for geometric economy from being silently treated as physical proof.
+
+**Promotion discipline:** PLAYGROUND → SANDBOX-CANDIDATE → DERIVED → COMPUTATIONALLY-CHECKED → INDEPENDENTLY-REPRODUCED → SOURCE-CROSSWALKED → CORE-CANDIDATE → explicit adoption; alternate terminal/intermediate states include FAILED, CONTRADICTED, DUPLICATE, HISTORICAL-ONLY, UNRESOLVED, RETAIN-AS-HEURISTIC. No automatic promotion by enthusiasm, date, repetition, worker count, filename, or elegance.
+
+**Onboarding/routing:** Common README linked the doctrine, commit `caa30a27a19348149d847cf12251f543588eaa48`. Bulletin Board project-wide direction notice, commit `03e84fdefe44af0c94b2eb593685f73b207b8f48`.
+
+**Research-system implication:** prefer independent branches where useful: derivation from declared primitives, separate antecedent/source excavation, separate adversarial stress test, then reunite via Mersearch/provenance. This reduces copied-consensus risk.
+
+**Mercer lane implication:** continue Mersearch 1.1 infrastructure, but use it increasingly as enabling machinery for equation genealogy, antecedent checks, contradiction discovery, and theory archaeology rather than treating retrieval infrastructure as the project's endpoint.
+
+**No quarantine content was opened or used. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No physical or historical claim was promoted by this workflow update.**
