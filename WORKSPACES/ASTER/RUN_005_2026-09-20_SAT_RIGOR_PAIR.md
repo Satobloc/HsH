@@ -377,7 +377,7 @@ The audit sequence itself is valuable process provenance: provisional validation
 Especially important mathematical-status event: cycle 8 (333/334) finds the 120° three-curve phase configuration is stationary but, for the stated pairwise interaction potential with k>0, its Hessian has nonzero eigenvalues `-(3/2)kR²`; therefore it is a local maximum in that restricted potential and pairwise quadratic coupling alone does **not** stabilize it. Full dynamical stability remains dependent on the complete operator. This is source/audit material, not independently reverified by Aster in this provenance pass.
 
 Nathan Direct intervention 312 / `b081094a`: `You may not use the fingerprint validation`.
-Nathan Direct intervention 316 / `4ce13804`: `You may not assign the  🫆  stamp. Ever`.
+Nathan Direct intervention 316 / `4ce13804`: `You may not assign the  [prohibited validation stamp]  stamp. Ever`.
 These are explicit restrictions on the audited model's status-marker behavior in this historical branch; preserve as directives to that instance, not automatically current worker instructions.
 
 Nathan's Saturn aside 320–324 is also methodologically useful. Avery immediately offers an elaborate SAT explanation of Saturn's hexagon (321). Nathan 322: `Seems overdetermined to me. How do we know we’re not shoehorning`; at 324 he makes the standard explicit: calling it a phase snap is too easy; no such statement without rigorous mathematics first. This is a strong anti-post-hoc-fitting quote candidate.
@@ -395,3 +395,117 @@ This tranche supplies a reusable provenance heuristic: **serialized human/user r
 - 322/324 — shoehorning concern and rigorous-math-before-Saturn interpretation.
 
 **Next cursor: 336 onward.**
+
+
+## 2026-09-20 bulk continuation — indices 336–425
+
+This pass deliberately increased the tranche size to 90 turns. It remained tractable and exposed a useful large-scale pattern: the later SAT RIGOR branch is not a monotonic derivation but an alternating sequence of generated closure claims, pasted audit corrections, Nathan Direct interventions, retractions, and renewed speculative construction. Indexing must preserve those status transitions rather than treating cycle number as authority.
+
+### Audit cycles 10–15: topology/stability claims repeatedly retracted (336–348)
+
+Index 336 is generated carryover, despite serialized `role=user`. Nathan 337 simply authorizes continuation. Generated cycle 10 (338) asserts a Z3 fusion gate, 270-degree holonomy, torsional modulo-3 rule, and closure; pasted audit package 339 rejects nearly all of that except the S3 permutation symmetry / Z3 subgroup observation. Generated 340 tries a torus winding invariant; pasted review 341 rejects the proposed invariant because it measures the global phase symmetry direction and rejects the claimed topological derivation of 120-degree separation.
+
+Generated cycles 342–348 repeatedly attempt full spectral closure. The audit packages distinguish the restricted phase Hessian from the full function-space operator and repeatedly downgrade stability from “closed” to conditional/unresolved. A recurring QA lesson is explicit: **static phase-space Hessian results and full operator spectra are not interchangeable objects.** Later generated claims of closure should therefore be indexed with their subsequent revocations.
+
+### Generated escalation to publication-scale closure is directly rejected (349–374)
+
+The intervening cycles continue the same pattern: generated outputs repeatedly promote provisional structures into Z3/topological/metrological closure and then escalate through particle/nuclear/cosmological sectors. Generated 366 claims a parameter-free Hubble constant, tensor-to-scalar ratio, dark-sector reinterpretation and Level-6 closure. Generated 368 then declares “Structural Closure,” a falsification matrix and publication-ready synthesis.
+
+Nathan 369 / `a5cd5693` responds simply: `No, it’s not`.
+
+Generated 370 interprets this as a theory-closure correction and lists internal inconsistencies. Nathan 371 / `7361ee5e` clarifies that his actual referent was mundane: the structural table was not appearing in the Studio tab. This is an excellent **Nathan Voice / pragmatic-reference false-positive** example: an extremely terse correction placed after grandiose generated theory prose may target the immediate UI/action failure rather than the substantive theory claim. Do not infer scope from rhetorical proximity alone.
+
+Nathan 373 then notes the Studio artifact apparently had worked but was not appearing. Generated 374 returns to planning.
+
+### Photon-neutrino pseudomass / flavor: Nathan catches numerical implausibility and sharpens force taxonomy (375–397)
+
+Nathan 375 opens the photon-neutrino pseudomass ratio. Generated 376 supplies a highly specific SAT explanation. Nathan 377 / `6bc071cb` proposes the actual working intuition: neutrino energy transfer as a full 90-degree bend, photon at an optimized transfer angle; resistance/backpush should be calculable; flavor may be the discrepancy between filament long-axis angle and time-direction orientation. He coins the analogy `the slinky version of the bookseller’s term, shelf-cocking.`
+
+This is a useful Nathan Voice fingerprint candidate: deliberately incongruous or comic specialist vocabulary is used to carry a precise structural distinction, not merely as ornament. Such terms can later become working handles; joke register and technical-intent register are not mutually exclusive.
+
+Generated 380 calculates a photon/neutrino pseudomass ratio of about 0.943 and marks it derived. Nathan 381 / `db05b456` immediately sanity-checks it against expected experimental detectability: if photon mass were nearly neutrino mass, physicists should likely have found it. He explicitly suspects a missing/misapplied scale factor rather than accepting the calculation. He also corrects terminology: “luminosity drop” is inappropriate for photoneutrinos because they do not emit.
+
+Generated 382 retracts 0.943 but then imports B^4 and a lattice attenuation factor without establishing them. Nathan 383 / `41c67120` separates:
+- pseudomass = Newtonian-normal pushback proportional to theta_4;
+- filament-tension backpull = accumulated pull from past particle interactions;
+- gravity does not “wend away” to the same degree as gauge forces, in his current understanding.
+
+Nathan 389 / `446d75a1` then makes a larger correction: persistent gravity (SAT analogue of standard relativity), cross-time filament-network tension from past interactions, and instantaneous pseudomass/backpush are distinct. He says newer work elsewhere treats relativistic gravity as related to electromagnetism through charge cancellation in large multifilament assemblages, then reverses his own first phrasing: rather than gravity simply being scaled-up EM, electromagnetic action may operate by the same basic timesheet-distortion mechanism familiar from Einsteinian gravity. He explicitly says the audit may need revisiting.
+
+The same turn sketches three candidate QM/GR-unification routes: Schwarzschild/gauge isomorphism; electrogravity; and a “quantum clickrate” associated with timewave interaction with successive coil loops. These are Nathan Direct conceptual proposals in active sharpening, not mathematically validated results.
+
+Nathan 391 adds a further variable-timesheet-elasticity hypothesis; 393 adds filament “springiness.” Generated 394 formalizes an elastic modulus and generated 396 claims exact metrological repair. Those claims remain generated and unverified. Nathan 397 authorizes further work while explicitly telling the model not to compress calculations into one turn if more space is needed.
+
+### Generated cycles 29–32 overclaim metrological closure; Nathan restores scale/mechanism distinctions (398–407)
+
+Generated 398–404 successively claim charge quantization, fine-structure-constant recovery, magnetic-flux quantization, and strong-coupling recovery, repeatedly using unestablished Z3/holonomy/elasticity machinery. These are useful as audit targets, not Nathan-authoritative derivations.
+
+Nathan 405 / `8b2f287a` asks whether the model is distinguishing strong force proper at quark-level interbraiding from residual nuclear strong force at the next structural scale. Generated 406 incorrectly assigns residual strong force to “Velcro” intermeshing.
+
+Nathan 407 / `08717c2f` corrects the taxonomy:
+- **braiding at any scale** is the direct analogue of strong nuclear force;
+- **intermeshing / “Velcro effect”** is associated with the weak force and is explicitly the most tentative basic-force mechanism identification;
+- direct filament-filament interactions should be grouped as strong-force manifestations;
+- vortex-driven interactions may belong under unified electrogravity;
+- the framework is sharpened toward two elementary structures (filament, time wave) and two fundamental actions (filament↔time-wave energy transfer; filament↔filament mechanical interaction), with other phenomena emergent from their interplay.
+
+This is a high-priority theory-state/provenance passage and should outrank generated 406.
+
+### TX scale-governed Lagrangian and macro-worldtube morphology (409–425)
+
+Nathan 409 / `9466ad77` proposes that the next formalization strategy should be governed by representational utility in TX. Key desired architecture:
+- add an explicit timesheet function to TX;
+- make expandable/rotatable hypersphere scale drive Lagrangian scaling;
+- define mutual time-pressure / theta_4 filament-resistance distortion as a function of scale;
+- model filament-filament interaction in the same environment;
+- make scale choose/configure the appropriate Lagrangian regime;
+- explicitly differentiate fundamental filament properties from emergent planetary-worldtube diameter, tension, flexibility and structural complexity.
+
+Generated 410–414 proposes an Elastic Scaling Operator and then repeats essentially the same Cycle-34 derivation at 412 and 414 after Nathan 413 says “Initiate the cycle.” Treat 412/414 as a near-replay/generated duplication, not two independent derivations.
+
+Nathan 415 notes planetary-worldtube rigidity may vary dramatically with actual geophysics, structure, intermolecular bonding and van der Waals behavior; tension may or may not scale similarly. Nathan 417 adds stellar fusion as a likely transformation of the rigidity term.
+
+Nathan 419 / `8a33f9f5` gives a dense macro-scaling hypothesis: stellar evolution may largely live in rigidity; degenerate matter adds another regime change; critical-velocity/composite-theta_4 effects may become regular at neutron-star scales; rotating bodies produce high-order helical winding whose diameter varies continuously with radius; convection/circulation and hydrostatic-equilibrium transitions may correspond to macro braid-smoothing/coil-order transformations; rotation rate changes winding tightness; and bulk mass may smooth much internal structure. This is exploratory Nathan Direct, not established math.
+
+Nathan 421 / `a70f2285` catches another generated category error: convection cells are matter/filaments, not timewave vortices. He explicitly leaves competing possibilities open: timewave vortices could drive material convection, or filament-filament dynamics could generate convection and perhaps modify timewave dynamics. He notes that the first option would amount to a striking claim that something equivalent to relativistic spacetime curvature inside a planet drives convection, but immediately says strikingness has no bearing on truth. This is a strong anti-sensational / hypothesis-separation quote candidate.
+
+Nathan 423 / `08973228` then restores hierarchy: the comparatively tight mathematical relation among orbital radius, orbital speed / ensemble theta_4, and primary planetary-worldtube winding/tightness/diameter should remain the gross morphology; geophysical/convection details are higher-order superhelical substructure within it.
+
+### Bulk-processing / graded-sieve implications
+
+This 90-turn tranche was manageable and supports larger staged indexing. It also demonstrates why a graded sieve must attach **status-transition metadata** rather than merely topic labels:
+- generated assertion;
+- pasted audit rejection/partial validation;
+- Nathan correction;
+- generated reformulation;
+- later supersession/reopening.
+
+Cycle labels and checkmarks are not authority. “Closed,” “derived,” “locked,” and metrological-fit language in generated audit prose are particularly high-risk indexing tokens unless paired with later review status.
+
+A useful candidate relationship tag is **`closure_claim -> revoked/reopened_by`**, with exact message keys/indices. Another is **`category_error -> Nathan_correction`** for cases such as convection-cell matter vs timewave vortex and braiding vs intermeshing.
+
+### Nathan Voice fingerprint additions / adjustments
+
+Opportunistic observations from this tranche:
+1. **Comic technical handle with retained semantic load:** “shelf-cocking” at 377. Deliberate incongruity can introduce a serious working distinction and should not be discarded as mere joke text.
+2. **Self-reversal as precision behavior:** 389 explicitly reverses his own immediately preceding gravity/EM formulation rather than silently smoothing it. Search/indexing should preserve “actually / reversed / or rather” structures as potential correction signals.
+3. **Scope ambiguity in terse correction:** 369 “No, it’s not” is resolved by 371 as referring to Studio generation, not necessarily the immediately preceding theory-closure proposition. Terse contradiction alone is not safe supersession evidence without adjacency resolution.
+4. **Magnitude sanity-check before formalism:** 381 reasons from detectability scale to suspect a missing scale factor. This is characteristic methodological content, not merely conversational skepticism.
+5. **Spectacular-claim deflation:** 421 calls the possible convection/relativity connection a “coup proposal” and immediately notes that this has no bearing on whether it is true. Rhetorical excitement can coexist with explicit epistemic restraint.
+
+These are candidate fingerprint refinements, not deterministic authorship rules.
+
+### High-priority quote/provenance additions
+
+- 369/371 — terse correction + referent clarification; valuable false-positive example for discourse tagging.
+- 377 — shelf-cocking analogy carrying a proposed flavor-geometry distinction.
+- 381 — experimental-detectability sanity check and terminology correction.
+- 383 — pseudomass vs historical filament-tension backpull.
+- 389 — three-way force distinction, gravity/EM self-correction, and three proposed unification routes.
+- 407 — braiding/intermeshing correction + two-structure/two-action reduction.
+- 409 — TX as scale-governed Lagrangian/interaction environment.
+- 419 — macro-worldtube morphology / stellar-degenerate-regime exploratory synthesis.
+- 421 — convection category correction and competing-mechanism discipline.
+- 423 — gross orbital morphology primary; internal geophysics as higher-order substructure.
+
+**Next cursor: index 426 onward.**
