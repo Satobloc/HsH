@@ -67,6 +67,16 @@ No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet.
 
 ## Last meaningful state / checkpoints
 
+### 2026-09-19 — SAT_SoT source-panel audit
+
+Current must-reads reread, including the hard no-conversation-renaming and Nathan-signet rules, workflow control, bibliography sequence, Nathan Direct state, current handoffs, folder-index specification, and this continuity file.
+
+Full-blob inspection of `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` tested the planned source-first crosswalk. The capture metadata reports `visible_source_count: 50`, but its serialized top-level `sources` array is empty. Numeric citations survive in generated answers, but no citation-label → source-name mapping, source IDs, URLs, or row metadata were captured. Therefore the direct source-panel crosswalk is blocked by capture omission; this is not evidence that the notebook lacked sources.
+
+Provenance status: NLM-generated claim cluster present; 50-source notebook-level attestation present; serialized source identities absent; underlying documents unresolved from this export. Do not infer source identity from equation content or citation numbers. Folder-20 index updated accordingly.
+
+**Next cursor:** targeted semantic/provenance read of the genuinely new `BURNTHROUGH__NotebookLM_export.json`; return to SAT_SoT ancestry only if a different capture/source index or independent archive anchor becomes available.
+
 ### 2026-09-20 — Proton-Electron source search
 
 Current must-reads reread. Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title, `Proton Electron`, `Braid-Smoothing Factor Holonomy Bridge`, and `0.00609 proton electron mass` returned no indexed matches. `File Set Overview — raw.json` was visible but not treated as searched content when connector retrieval returned no body text.
@@ -83,9 +93,7 @@ This closes the proposed “extract source-specific metadata from Steamroller”
 
 Current must-reads reread. The bounded source-adjacency search for `Ret--Jun1 SAT Z Review`, `SAT ACTIVE EDGE vNext`, `QUINTATION Quick Pass Analysis`, and nearby shortened title variants returned no indexed matches across HsH and the original SAT archive. This means the first adjacency route did not produce a raw anchor; do not turn source-panel order into chronology without independent evidence.
 
-The required higher-folder watch produced a material change: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/` is now populated. A first SHA-based comparison against visible folder-19 entries established several exact cross-folder duplicate blobs, including `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS`, `2 Stringing Along Theory`, both Asteroid Mining captures, `BLANK SLATE`, and `CONSCIOUSNESS CLUB_ SUPERMETA CHAT`. These duplicate paths should be preserved for provenance but do not require repeated semantic ingest. Folder 20 also contains inventory-visible blobs such as `# SAT_SoT Scalar-Angular-Theory State of the Theory`, `Alberrisch`, and `BURNTHROUGH` that have not yet been semantically assessed. Durable index started at `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
-
-**Next cursor:** perform one bounded folder-20 novelty pass using filename + blob SHA against folder 19, separating exact duplicate archive copies from genuinely new blobs before selecting one new high-information item for targeted reading. Return to the Q ancestry route when a non-code-search anchor becomes available; do not keep spraying title variants.
+The required higher-folder watch produced a material change: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/` is now populated. A first SHA-based comparison against visible folder-19 entries established several exact cross-folder duplicate blobs, including `! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS`, `2 Stringing Along Theory`, both Asteroid Mining captures, `BLANK SLATE`, and `CONSCIOUSNESS CLUB_ SUPERMETA CHAT`. These duplicate paths should be preserved for provenance but do not require repeated semantic ingest. Folder 20 also contains inventory-visible blobs such as `# SAT_SoT Scalar-Angular-Theory State of the Theory`, `Alberrisch`, and `BURNTHROUGH`. Durable index: `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
 
 ## End-of-run discipline
 
