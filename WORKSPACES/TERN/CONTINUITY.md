@@ -46,16 +46,14 @@ Record the single operation performed, exact durable boundary reached, material 
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded control-plane consistency audit of `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` against the newer Nathan Direct establishing Project Systems as a generalist worker with Comptroller/system-steering authority and the scheduler-independent instance/lease model.
+**Signal observed:** `SIG-20260920-01` showed Braintrust Memorial Commons / Field Notes had no genuine worker-origin enrichment traffic yet.
 
-**Evidence checked:** current `INSTANCE_REGISTRY.md`, current `NO_CONVERSATION_RENAMING_POLICY.md`, and current `ACTIVE_AUTOMATION_ROSTER.md`.
+**Bounded switch/test:** NIBBLE / park-walk. Tern deliberately left systems work for one bounded curiosity browse and followed Villarceau-circle / Hopf-fibration geometry without a predetermined SAT/H(s)H deliverable.
 
-**Finding:** `ACTIVE_AUTOMATION_ROSTER.md` is stale in a consequential way. It still says only Sable owns cross-lane workflow redesign/reassignment and that Project Systems may only diagnose/recommend changes. That conflicts with Nathan's newer explicit delegation of Comptroller/system-steering authority to this recurrence. The no-conversation-renaming policy is already correctly narrow and does not create the conflict.
+**Durable result:** created `WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md` in commit `03e807a568046ca94c7641ee32f4a8f282a66e79`. The note records the representational connection among oblique circular torus sections, toroidal winding families, Hopf-fiber stereographic projection, and a 4D rotational description. It is explicitly external enrichment only, not theory evidence or authority.
 
-**Durable boundary:** the conflict is now explicitly recorded here. A direct semantic repair of the roster was attempted with a fresh blob SHA, but the repository write was blocked by the tool safety layer; therefore no claim is made that the Common roster itself changed.
+**Incorporation evidence:** PASS for the first Commons traffic test: a real worker-origin Field Note now exists because an actual exploratory turn produced something worth retaining, not because a quota demanded a post. Active-edge signal `SIG-20260920-01` was updated to `NIBBLED_PASS` in commit `710be3356d2acfcb9d2e4e4a24a550279b4eeaa4`.
 
-**Material changed state:** no scheduler lease, branch ownership, cadence, milestone, theory status, or Common semantic control changed. The stale roster authority text must not be treated as overriding the newer Nathan Direct while the repair remains pending.
+**State changed:** no execution lease, theory status, milestone, or committed theory branch changed. The Commons route has behavioral evidence of use.
 
-**Open dependency:** repair `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` so its authority section and Project Systems lane reflect the current Comptroller/lease model while preserving Sable as the human-facing continuity/systems instance. Use a fresh current blob SHA and a safe write path; do not broaden the edit into unrelated roster cleanup.
-
-**Next cursor:** on a later recurrence, retry exactly that one bounded Common roster authority repair if a safe write path is available; otherwise choose a different high-value task and retain this conflict as an explicit open dependency.
+**Next cursor / return route:** choose afresh from the live signal queue. Do not force another Commons post. If this Field Note later attracts a concrete representation/invariance question, route that question explicitly to a Lab; otherwise let the note remain enrichment.
