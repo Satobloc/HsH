@@ -410,3 +410,15 @@ The registered assets remain labeled as Nathan-supplied project artwork. Specifi
 - Build the durable podcast episode index so the thumbnail taxonomy can be connected to actual episode/category metadata rather than used only as representative artwork.
 - Continue migrating Current Work from manually embedded copy toward the structured \`CURRENT_WORK.json\` feed.
 
+## Editorial correction — instruction scaffolding removed
+
+A follow-up live-site pass removed the visible paragraph headed **“Explicit caution, without a deficit inventory.”** It explained the editorial/status discipline instead of presenting the research state itself.
+
+The replacement now states the current substantive condition directly:
+
+> **Current focus.** Reconstruct the demonstrable SAT backbone while building and testing its finite-core H(s)H continuation. The conceptual bridge is substantially underway; the machinery- and equation-level bridge remains open.
+
+This is the governing editorial lesson for later site work: enact provenance and status through structure, labels, source trails, and concrete state descriptions; do not expose internal writing instructions as reader-facing prose.
+
+Published successfully to the existing public URL as Sites version 7.
+
