@@ -125,3 +125,53 @@ Do not promote without independent Nathan/source support: “primary reality” 
 ### Current frontier
 
 **Next cursor:** generated index 82 and the Nathan response(s) to the worldtube move. Follow whether adding diameter is treated as the minimal additional complexity, what properties are thereby introduced, and where Nathan again constrains Avery's imported assumptions. Preserve the historical moment of worldtube introduction separately from later H(s)H doctrine/currentness.
+
+## 2026-09-20 continuation — worldtube detour corrected; standard-science gate formalized
+
+Source-first continuation through Nathan index 103.
+
+### Worldtube addition does not become an immediate doctrine
+
+At generated index 82 Avery takes Nathan's index-81 diameter/worldtube suggestion and immediately imports several stronger claims: mandatory curvature from non-overlap, projective resistance/inertia from intersection footprint, and internal coiling/holonomy. These are generated extrapolations, not Nathan Direct.
+
+Nathan instead asks standard physics what forces act in a frictionless vacuum collision (indices 83/85). When Avery again imports coiling/braiding and a manifold-merger picture, Nathan explicitly stops both moves:
+
+- **index 87 / key `d7ecc7d0`**: `Let’s not jump ahead to braiding or coiling yet. That has not risen on its own from the geometry.` Nathan also removes gravity by choosing sufficiently small objects in order to preserve the minimal case.
+- **index 89 / key `cbea7851`** asks why merger entered an inelastic-collision mapping at all.
+- **index 91 / key `91952fb2`** tests the ordinary-physics premise directly: `Does inelastic collision result in the merger of bodies?`
+
+Avery's subsequent answers continue to conflate inelastic with perfectly inelastic collision/merger and then claims inelastic is simpler than elastic. Nathan uses that answer as a methodological self-correction rather than accepting the imported topology.
+
+### Nathan Direct methodological correction
+
+**index 97 / key `0deda95d`** is high-value Nathan Direct and quote-workflow material. Nathan says that introducing inelastic collision was his own error because it did not select the minimal system map. He explicitly reinforces mutual license to correct mistakes and establishes a default rule: begin inquiry with the minimal case, relaxing that rule only for good reason.
+
+This passage is important provenance for the project's correction culture: Nathan applies the same minimality criterion to his own proposal and makes reciprocal correction standard practice.
+
+### Minimal force-model target and equation-labeling protocol
+
+**index 99 / key `8ed0a78a`** states the actual next task: determine whether the minimal geometric grammar needed to capture force is already present and, if not, select the minimal additional complexity informed by established science; to make that decision, map the system in four dimensions using standard equations.
+
+Generated index 100 supplies a purported standard Rindler-motion calculation and then prematurely selects tension rigidity κ as the minimal SAT addition. Treat the equations as generated claims requiring mathematical/source checking; do not promote them simply because Avery labels them standard science.
+
+**index 101 / key `5f357f05`** approves the *labeling protocol*, not Avery's proposed SAT mechanism: Nathan says explicitly labeling calculations as `standard science` is good procedure and says SAT equations should likewise be labeled, including SAT version when known.
+
+Generated index 102 immediately violates the deeper reconstruction boundary by importing a claimed March-2026 SAT equation `T(θ4)=κ sin²(θ4)`, “Projective Resistance Identity,” stiffness, and torsional-work interpretation. These remain generated/imported material until independently traced and vetted.
+
+**index 103 / key `230d24e9`** then states the controlling gate unambiguously:
+
+> `That does not mean we should start doing SAT calculations yet. We are still only working with our minimal model, we are not importing anything from SAT, and we should never import anything from SAT until we have built up everything we can geometrically from the standard model, capturing what is known to science rigorously, then examining and vetting SAT interpretations to verify that they duplicate standard model expectations at least in the observable limit, to verify that those SAT interpretations are themselves built upon rigorously verified derivations`
+
+This is a top-tier epistemic/methodological quote candidate and a direct historical statement of the reconstruction order:
+
+1. minimal geometric model;
+2. standard-science mapping and rigorous capture of known behavior;
+3. only then inspect SAT interpretations;
+4. require observable-limit agreement with standard expectations;
+5. require SAT interpretations themselves to rest on rigorously verified derivations.
+
+### Provenance caution
+
+The sequence also demonstrates why NLM-generated labels cannot be trusted merely because they call themselves `Standard Science` or `SAT Equation [Version...]`. Nathan endorses explicit provenance labeling as a protocol, but index 103 makes clear that labeling is not validation and does not authorize importing SAT content into the first-principles construction.
+
+**Next cursor:** index 104 onward: continue after Nathan's explicit no-SAT-import gate, checking whether Avery actually returns to standard/minimal geometry and how Nathan handles any further drift.
