@@ -75,12 +75,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded status check of Nathan Direct lookup-sidecar deployment run `35479519289`.
+**Operation:** classify the cancellation mechanism for Nathan Direct lookup-sidecar deployment run `35479519289`.
 
-**Durable boundary:** reread the live startup controls needed for this repository operation and inspected the workflow run and its single `autotag` job exactly once. The run is now `completed / cancelled`. Setup and tooling validation succeeded, but `Run archive-wide layered autotagger` ran from 00:43:55Z to 02:13:49Z and ended `cancelled`; therefore `Package Nathan Direct substrate`, Stage-2 build, durable-output validation, summaries, and publication were all skipped. No conclusion about the lookup sidecar validator is warranted from this run.
+**Durable boundary:** reread the live startup controls relevant to this repository operation, inspected the current workflow definition, the cancelled run, and its job timing. The workflow explicitly sets `timeout-minutes: 90`; concurrency is `group: hsh-layered-autotag-main` with `cancel-in-progress: false`. Run `35479519289` began at 00:43:34Z; its archive-wide autotagger step began at 00:43:55Z and was cancelled at 02:13:49Z, essentially the configured 90-minute job ceiling. This classifies the cancellation as the workflow job timeout, not concurrency supersession. The run never reached Nathan Direct packaging or the lookup-sidecar validator.
 
-**Material changed state:** the previous state `waiting on active run` is resolved to `deployment attempt cancelled upstream before Nathan Direct packaging`. Tern did not relaunch the workflow and did not modify generated corpus or shared semantic controls.
+**Material changed state:** the prior open classification (`timeout vs supersession vs other`) is resolved to `90-minute job timeout`. No workflow, generated corpus, theory state, cadence, or shared semantic control was changed.
 
-**Open dependency:** determine why the archive-wide autotagger was cancelled after roughly 90 minutes before deciding whether this is a timeout/cancellation-policy defect, supersession by another run, or another infrastructure condition. Do not treat the sidecar implementation itself as failed on this evidence.
+**Open dependency:** the archive-wide layered autotagger no longer fits within the workflow's configured 90-minute ceiling on the current corpus. Any repair to timeout, performance, or pipeline decomposition is workflow-design/infrastructure work and should be handled as a separate bounded operation under current authority/safety rules.
 
-**Next cursor:** inspect the workflow concurrency/timeout configuration and immediately adjacent run history once, to classify the cancellation mechanism without relaunching anything.
+**Next cursor:** inspect the autotagger's current runtime structure and recent scaling evidence in one bounded diagnostic pass to choose between the smallest safe timeout adjustment and a performance/decomposition repair; do not relaunch before that diagnosis.
