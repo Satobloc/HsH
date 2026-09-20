@@ -344,3 +344,54 @@ This is high-value He-3 holotype provenance and a clean example of Nathan distin
 Indices 199 onward behave as a fresh conversational onboarding state within the same exported NotebookLM capture. Preserve the shared export/notebook provenance while recognizing the internal conversational reset; do not assume continuous shared context merely from serialization adjacency.
 
 **Next cursor: 256 onward.**
+
+## 2026-09-20 large-tranche continuation — indices 256–335
+
+### He-3 comparison program and terminology QA (257–265)
+Nathan 257 / `bc059daa` proposes a future controlled comparison of H-3, He-3, Li-3 and hypothetical neutronium-3 because SAT treats them as geometrically near-identical A=3 systems; the comparison is intended to isolate underlying filament/worldline dynamics. Generated 258 adds many unsupported specifics; do not inherit them.
+
+Nathan 259 / `b886bb97` catches two meaning-drift hazards: do not hybridize old UI with new TX terminology (“Universal Indicatrix (TX)”); and do not say “proton filaments” / “neutron filaments” when proton/neutron are bundles of three constituent/quark worldlines. Nathan explicitly warns that this scale-level conflation can lead to applying mathematics at the wrong structural level and may already occur in sources.
+
+Nathan 261 / `22e3db30` gives a substantial new scaling hypothesis, explicitly marked as newly articulated and not clearly present in sources: structures at different scales can be mathematically similar enough for controlled coarse-grained approximation, but scale/orientation/composition/tension/diameter/spacing/architecture matter. He hypothesizes that much of what standard physics treats as bulk material properties and some inter-object forces may live in SAT's scale factor, possibly with the scale factor itself behaving as a fractal approximation of the main Lagrangian; all explicitly require testing. He also flags α as scale-dependent/asymptotically approaching 1/137 in this hypothesis. Preserve as live hypothesis, not established result.
+
+Nathan 265 / `0cacaed9` says braid smoothing has not yet been clearly internalized into the worldline-only formulation and may not exist in the available source documents. He also sharply narrows “geometric blackout”: the 80% luminosity figure belongs only to contexts where luminosity exists and cannot be transferred wholesale to reflectivity, neutrino behavior, or other systems. Similar-looking effects may be superficial/fractal/other analogies and must remain distinguished.
+
+### UI/TX / Whirligig audit target (267–292)
+Nathan 267 introduces FINDING THE DONUT as raw thinking-out-loud about UI; after Avery initially reads across sources, Nathan 269/271 forces source isolation: look at that document only. Nathan 273 makes Whirligig one of the first intended deep audit targets; 275 introduces its initial formalization. Nathan 277 corrects history: UI was originally used to find the quantum-gravity isomorphism, though probably not as a strict formal derivation, and reiterates the need for terminological policing.
+
+Nathan 279 explains his visualization method: he usually “bumps everything down a dimension” mentally, so formal tools must be checked to ensure they actually handle 4D structures rather than inheriting 3D visualization shortcuts.
+
+Nathan 283 / `9b4ab694` identifies an intended new-theory objective for TX: mathematically track variation of the Lagrangian as a function of scale and pin that variation to TX's scale function, so zooming the indicatrix automatically rescales the Lagrangian correctly.
+
+Nathan 285 / `ac7a3cfd` extends the proposed TX functionality: winding order and zoom level should constrain each other. He sketches a tentative scale ladder O1/Q1 lepton, O2/Q3 hadron, O3/Q9 He-3 nucleus, O4 tentatively molecular-bond scale, while explicitly saying the O4 identification may be wrong. He proposes testing combinations of H-3/He-3/Li-3 three-atom systems to learn where the actual O3→O4 transition occurs. This is explicitly prospective “new science,” with timing relative to full audit left open.
+
+Nathan 287–291 asks for standard-math Clifford-torus background and notices an inversion relationship in his visualization: Clifford torus = torus embedded in S3; Whirligig visualization = sphere embedded in torus. Avery's historical/mathematical claims at 288/290 require independent source checking before reuse.
+
+### Formal audit begins; pasted feedback packages require span-level authorship quarantine (293–335)
+Nathan asks about black-hole mergers (293) and then “Let's calculate explicitly” (295). Avery mistakenly performs O1→O4 mass scaling instead of the requested merger calculation (296), then continues Z3 speculation (297). Nathan 298 explicitly begins assessment.
+
+From 299 onward the export alternates long Avery audit outputs with highly structured `STATUS / ACTION / FEEDBACK PACKAGE` user-side blocks (e.g. 300, 302, 304, 306, 308, 310, 314, 318, 330, 332, 334). These blocks function as external audit feedback pasted into Nathan's turn channel and are stylistically/structurally distinct from Nathan's ordinary prose. **Do not ingest their bodies wholesale as Nathan-authored prose.** Preserve Nathan-as-human-turn provenance while treating the package bodies as embedded quoted/pasted material unless/until upstream authorship is independently established. This is an important concrete example of the conversation-turn rule's span-level quotation exception.
+
+The audit sequence itself is valuable process provenance: provisional validations are repeatedly revoked; undefined recursive notation, unproved resonance, sign conventions, ansatz restrictions, stationarity-vs-stability, and physical interpretation are challenged. Generated Avery cycles repeatedly overclaim closure, while subsequent feedback strips claims back.
+
+Especially important mathematical-status event: cycle 8 (333/334) finds the 120° three-curve phase configuration is stationary but, for the stated pairwise interaction potential with k>0, its Hessian has nonzero eigenvalues `-(3/2)kR²`; therefore it is a local maximum in that restricted potential and pairwise quadratic coupling alone does **not** stabilize it. Full dynamical stability remains dependent on the complete operator. This is source/audit material, not independently reverified by Aster in this provenance pass.
+
+Nathan Direct intervention 312 / `b081094a`: `You may not use the fingerprint validation`.
+Nathan Direct intervention 316 / `4ce13804`: `You may not assign the  🫆  stamp. Ever`.
+These are explicit restrictions on the audited model's status-marker behavior in this historical branch; preserve as directives to that instance, not automatically current worker instructions.
+
+Nathan's Saturn aside 320–324 is also methodologically useful. Avery immediately offers an elaborate SAT explanation of Saturn's hexagon (321). Nathan 322: `Seems overdetermined to me. How do we know we’re not shoehorning`; at 324 he makes the standard explicit: calling it a phase snap is too easy; no such statement without rigorous mathematics first. This is a strong anti-post-hoc-fitting quote candidate.
+
+### Shared-worker lesson
+This tranche supplies a reusable provenance heuristic: **serialized human/user role establishes Nathan as the human conversant, but long inserted “feedback package” / audit-package blocks can be span-level pasted material and should be quarantined from Nathan Direct until authorship is established.** Conversation-level provenance and span-level authorship must coexist.
+
+### High-priority quote/provenance additions
+- 259 — terminology collision + scale-level bundle/filament distinction.
+- 261 — newly articulated scale/coarse-graining/material-property hypothesis, explicitly test-required.
+- 265 — braid-smoothing worldline gap + blackout-context restriction.
+- 273/277/279 — Whirligig audit priority, UI historical purpose, 4D-vs-visualization warning.
+- 283/285 — TX scale-linked Lagrangian and winding-order/zoom research program.
+- 312/316 — historical model-validation-marker prohibitions.
+- 322/324 — shoehorning concern and rigorous-math-before-Saturn interpretation.
+
+**Next cursor: 336 onward.**
