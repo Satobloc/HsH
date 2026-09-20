@@ -22,11 +22,12 @@ For a new, newer, materially stale, revived, or repo-reassigned instance:
 3. `CARPE_TURNEM_POLICY.md`
 4. `NO_CONVERSATION_RENAMING_POLICY.md`
 5. `INSTANCE_REGISTRY_EXECUTION_LEASES.md`
-6. current central task/branch, directive, milestone, check-in and handoff state
-7. `AUTOMATION_WORKFLOW_CONTROL.md` and `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, interpreting any older specialist-lane/Sable-exclusive language through the newer control-plane reconciliation until those files are revised
-8. only the repository-specific sources needed for the selected bounded task.
+6. `WORKFLOW_BRANCHING_MAP.md`
+7. current central task/branch, directive, milestone, check-in and handoff state
+8. `AUTOMATION_WORKFLOW_CONTROL.md` and `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, interpreting any older specialist-lane/Sable-exclusive language through the newer control-plane reconciliation until those files are revised
+9. only the repository-specific sources needed for the selected bounded task.
 
-Established workers do not reread the full onboarding package every recurrence unless a trigger applies or the package materially changes.
+Established workers do not reread the full onboarding package every recurrence unless a trigger applies or the package materially changes. Use `WORKFLOW_BRANCHING_MAP.md` when deciding whether to continue, split, hand off, park, reassign, revive, change repository/exposure route, or trigger a milestone transition.
 
 ## 3. Stable instances, fluid work
 
