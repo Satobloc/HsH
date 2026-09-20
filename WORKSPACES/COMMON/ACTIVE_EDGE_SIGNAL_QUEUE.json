@@ -34,13 +34,13 @@
     {
       "id": "SIG-20260920-03",
       "type": "WEBSITE_BACKFILL",
-      "status": "OPEN",
+      "status": "NOMINATED_AWAITING_EDITORIAL_DISPOSITION",
       "target": "PUBLIC_SITE/live_influx",
-      "evidence": "Existing live-influx route is documented but currently contains only README; quote/news candidate directories likewise have no candidate traffic. Build suggestions has at least one Codex/Mersearch handoff.",
+      "evidence": "Mercer nominated a genuine by-product of substantive work at PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md (commit 281bbe233656850c151b0c5bb8b051b82cf76b17). The candidate points to the durable Hagalaz cross-method QA artifact and proposes a public methodology/current-work treatment while preserving the narrow verification scope and source-dependent UI identification.",
       "intent": "Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.",
-      "suggested_action": "Nominate one already-durable current artifact that is genuinely useful to public readers into live_influx, with source/status/proposed destination. Prefer a tiny side effect of real work.",
-      "exit": "One legitimate worker-origin live-influx candidate exists and receives a disposition or next editorial cursor.",
-      "return_route": "PUBLIC_SITE/live_influx"
+      "suggested_action": "Site curator should disposition the candidate as ACCEPTED, PARKED, REJECTED, or PRESENTATION_NEEDED and record destination/return pointer if accepted. Do not create another candidate merely to satisfy traffic metrics.",
+      "exit": "One legitimate worker-origin live-influx candidate now exists; full signal exit occurs when it receives an editorial disposition or next cursor.",
+      "return_route": "PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"
     },
     {
       "id": "SIG-20260920-04",
