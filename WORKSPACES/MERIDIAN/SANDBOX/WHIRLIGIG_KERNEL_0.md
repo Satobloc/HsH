@@ -297,3 +297,106 @@ The Whirligig architecture should distinguish at least three objects:
 3. representation channels — clock/frame/gauge data required for exact decoding.
 
 The original UI equation->4D-curve ambition appears to have collapsed these layers. Separating them may close the encoder gap without arbitrary coefficient-to-shape decoration.
+
+
+## 17. W6a equation-surface transformation benchmark — PASS
+
+Benchmark family:
+
+E(ω): y'' + ω² y = 0.
+
+Derivative-state equation geometry:
+
+F_ω = y2 + ω² y0 = 0,
+
+with contact/derivative consistency dy0-y1 dx=0 and dy1-y2 dx=0.
+
+Search transformation family:
+
+X=a x, Y0=y0, Y1=y1/a, Y2=y2/a².
+
+This preserves the contact conditions up to nonzero scalar factors and maps
+
+F_ω1 -> Y2 + (ω1²/a²)Y0 = 0.
+
+Matching target E(ω2) requires
+
+a=ω1/ω2.
+
+Numerical blind-to-optimum minimization of surface-coefficient mismatch recovered:
+- ω1=1.7, ω2=3.2: a=0.531250000064 vs exact 0.53125; residual ~6.1e-18.
+- additional positive rational/irrational frequency pairs recovered the analytic scale to numerical tolerance.
+
+This is an explicit structure-preserving equation-to-equation map with an exact inverse.
+
+## 18. W6b term-elimination / normal-form benchmark — PASS
+
+Source family:
+
+y'' + p y' + q y = 0.
+
+Search point-transformation family:
+
+U=e^(c x) y.
+
+Induced derivative map:
+
+U' = e^(cx)(y'+c y)
+U'' = e^(cx)(y''+2c y'+c² y).
+
+Substitution of the source equation leaves a first-derivative component proportional to 2c-p. Minimizing that component discovers
+
+c=p/2,
+
+and yields the canonical reduced equation
+
+U'' + μ U = 0,
+
+where
+
+μ = q - p²/4.
+
+Numerical searches recovered c=p/2 to machine precision for multiple p,q pairs, including irrational coefficients.
+
+If μ≠0, a second discovered/known scale X=sqrt(|μ|)x reduces the family to three normal forms:
+
+μ>0: U_XX + U = 0
+μ=0: U_XX = 0
+μ<0: U_XX - U = 0.
+
+The inverse maps are explicit, so solution-space information is retained.
+
+### Why this matters
+
+This is the first constructive benchmark in which the solver philosophy does more than preserve or visualize an equation. A transformation search:
+- removes a term;
+- exposes the controlling reduced coefficient μ;
+- collapses a two-parameter continuum into three canonical classes;
+- preserves exact reverse mapping.
+
+This is modest but real evidence that geometry/transformation search can reduce equation complexity on a controlled family.
+
+It does NOT establish that the same strategy scales to nonlinear systems, PDEs, SAT/H(s)H, or the historical GR↔QM target.
+
+## 19. Emerging solver architecture
+
+The current constructive architecture is now:
+
+equation/operator
+-> derivative-state constraint geometry
+-> admissible structure-preserving transformation family
+-> invariant geometric/operator mismatch score
+-> optimized transformation
+-> canonical/intermediate equation geometry
+-> decoded algebraic transformation/normal form
+-> exact inverse / round-trip test.
+
+Solution curves are a separate layer and may be used for boundary conditions, observables, or verification, but they are not allowed to stand in for the equation geometry itself.
+
+Whirligig is therefore provisionally better interpreted as a transformation-search engine over equation geometries than as a machine that simply bends arbitrary 4D solution curves together.
+
+Graticule can become a diagnostic coordinate/readout system over invariants and transformation state.
+
+Hagalaz can become a representation-transport layer carrying intrinsic geometry plus required clock/frame/gauge channels.
+
+Three Spheres remains a candidate transition/bifurcation operator family; no forced integration yet.
