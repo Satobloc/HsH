@@ -62,17 +62,23 @@ No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet.
 
 ## Last meaningful state / checkpoints
 
-### 2026-09-20 — SAT RIGOR opening sequence packaged
+### 2026-09-20 — SAT RIGOR turn 21 completed source-first
 
 Current must-reads reread, including no-conversation-renaming, worker autonomy/signet protection, automation control, bibliography sequence, Nathan Direct workflow state, Common coordination/handoffs, and Aster continuity.
 
 Target remained folder-18 `SAT RIGOR__NotebookLM_export (1).json`, blob `7c2a17f005218d77f9b7b21824ff3c7be5a68b41`, notebook `29b0fbe9-21f2-4151-9604-10413e1dc1e9`, capture `2026-09-18T19:19:38.650Z`, 50 visible sources, `reached_top=true`.
 
-Direct Git-blob read speaker-separated and packaged exact Nathan Direct indices 13, 15, 17, 19 and the visible beginning of 21, with generated intervening turns retained only as adjacency pointers. The sequence records Nathan's own first-principles geometric grammar: straight line through moving flat plane; explicit down-one-dimension visualization; dimensionless motionless Flatland point; and the beginning of a conceptual fork between (a) giving the point motion so the line is drawn/stretched by that motion and (b) giving the line shape so the point appears to move as the surface moves. This is provenance/foundational-description material, not a correctness judgment.
+The previously truncated Nathan index 21 was recovered directly from the Git blob via exact response-resource search. Full exact ending after the previously visible text is: `this way: Does a function create a curve, or does a curve create a function?` Full message key: `ef8ec43b`; citations array empty. This completes index 21 without inference. The turn remains Nathan Direct under the conversation-turn provenance rule; no embedded quotation ambiguity was identified. Generated index 20 / key `64492472` remains adjacency only.
 
-Durable packet updated: `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`; commit `ca82bbf52a9743bff75fe8417fb0bb37c6d00e8d`.
+Provenance significance only: Nathan explicitly frames the unresolved point-motion/line-shape alternatives as a function↔curve directionality question rather than resolving equivalence at this stage. This is not a correctness/currentness judgment.
 
-Connector output truncated Nathan index 21 mid-turn. No missing text was inferred. **Next cursor:** resume from the remainder of index 21 and continue exact speaker-separated packaging through the next coherent first-principles step.
+No theory/sandbox work, bibliography expansion, duplicate disposition, or archive-infrastructure change occurred in this bite. No Nathan action required.
+
+**Next cursor:** continue the same source from generated index 22 to the next structurally identifiable Nathan turn and package one coherent first-principles step, preserving exact key/adjacency and stopping rather than inferring if connector coverage truncates.
+
+### 2026-09-20 — SAT RIGOR opening sequence packaged
+
+Target-read and speaker-separated exact Nathan Direct indices 13, 15, 17, 19 and the then-visible beginning of 21, with generated intervening turns retained only as adjacency pointers. Durable packet: `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`. The packet's statement that index 21 was incomplete is now superseded by the checkpoint immediately above; packet body has not yet been rewritten merely for churn.
 
 ### 2026-09-20 — SAT RIGOR pair identity correction
 
