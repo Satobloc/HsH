@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-20",
+  "status": "site-facing derivative; linked controlling sources govern",
+  "headline": "Convergence, reconstruction, and finite-core construction",
+  "summary": "SAT/H(s)H is presently in a translation-and-construction phase: reconstructing the demonstrable SAT backbone from the historical record while building and testing its finite-core H(s)H worldtube continuation. The conceptual bridge is substantially underway; the machinery- and equation-level bridge remains open.",
+  "controlling_sources": [
+    {
+      "path": "BEDROCK.md",
+      "role": "premise and theory-status authority"
+    },
+    {
+      "path": "STATE_OF_THE_THEORY.md",
+      "role": "current descriptive theory map"
+    },
+    {
+      "path": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md",
+      "role": "current integrated operational priorities"
+    },
+    {
+      "path": "!!_RUNNING_COTHEORIST_LOG.md",
+      "role": "live co-theorist intake; not automatic theory authority"
+    }
+  ],
+  "priority_stack": [
+    {
+      "order": "P0",
+      "title": "Epistemic and promotion-method reconstruction",
+      "audience_summary": "Recover how the project decides what counts as a premise, a live hypothesis, a historical artifact, a mathematical result, or an unresolved claim—and make those transitions inspectable.",
+      "status": "current integrated priority",
+      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+    },
+    {
+      "order": "P1",
+      "title": "GR ↔ QM isomorphism / correspondence work",
+      "audience_summary": "Push the proposed structural correspondence between gravitational and quantum descriptions through source-first, high-rigor mathematical work rather than analogy alone.",
+      "status": "current integrated priority; not closed",
+      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+    },
+    {
+      "order": "P2",
+      "title": "Dimensionally repaired H0 + c cosmology",
+      "audience_summary": "Rework the cosmological construction with dimensional consistency while preserving alternate geometric branches instead of forcing an early single answer.",
+      "status": "current integrated priority; active reconstruction",
+      "source": "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+    },
+    {
+      "order": "P3",
+      "title": "He-3 / Jarlskog / cross-scale soliton programme",
+      "audience_summary": "Use the He-3 holotype and Jarlskog-shadow material as anchor cases while recovering the proposed relationship among intra-braid, gluon-like, neutrino-like, neutron-star, and gravitational soliton structures across scale.",
+      "status": "current integrated priority; source-first reconstruction",
+      "source": "WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md"
+    }
+  ],
+  "live_fronts": [
+    {
+      "title": "Finite-core H(s)H construction",
+      "lane": "Ravel / live-theory sandbox",
+      "description": "Kerr/worldtube typing, cross-section and scale separation, null-helix/worldtube kinematics, force-interface questions, and related finite-core construction. Kerr and Kelvin remain live construction lines; live does not mean validated.",
+      "sources": [
+        "STATE_OF_THE_THEORY.md",
+        "WORKSPACES/RAVEL/",
+        "!!_RUNNING_COTHEORIST_LOG.md"
+      ]
+    },
+    {
+      "title": "SAT solver recovery and translation",
+      "lane": "Meridian",
+      "description": "Recover exact historical solver objects before translation: Whirligig/Donut, UI/TX, Three Spheres, and Hagalaz, including what was actually specified or simulated and where historical testing was insufficient.",
+      "sources": [
+        "STATE_OF_THE_THEORY.md",
+        "WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md"
+      ]
+    },
+    {
+      "title": "Archive, provenance, and Nathan-direct reconstruction",
+      "lane": "Nathan Words / tagging / Mercer / project systems",
+      "description": "Excavate the 2023-25 archive and conversation corpus, recover exact wording and derivation ancestry, preserve corrections and contradictions, and keep source identity separate from later reconstruction.",
+      "sources": [
+        "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md",
+        "WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md"
+      ]
+    },
+    {
+      "title": "Public legibility and Glass Sausage Factory",
+      "lane": "documentation / public access",
+      "description": "Turn the public repositories into a readable research record: presentation-ready documents, a usable PDF reader, glossary/crosswalks, podcast guide, current-work feed, visual history, evidence-disciplined news, and rotating source-linked quotation features.",
+      "sources": [
+        "PUBLIC_SITE/README.md",
+        "WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md"
+      ]
+    }
+  ],
+  "display_notes": [
+    "Current work is not a list of confirmed physical claims.",
+    "Sandbox construction, historical reconstruction, workflow priority, mathematical status, and external vetting are distinct dimensions.",
+    "The public site should show this snapshot date and link to the controlling sources rather than presenting this derivative summary as canonical."
+  ]
+}
