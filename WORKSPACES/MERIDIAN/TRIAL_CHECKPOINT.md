@@ -28,8 +28,9 @@ GR↔QM remains a high-value target. Do not assume a global isomorphism in advan
 - `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt` is the durable near-primary Deep-Dive UI/Whirligig witness. Treat strong generated rhetoric as claims, not current mathematical status.
 - Historical GR↔QM family remains CLAIMED / historically CLAIMED VERIFIED; present-day re-audit requires full workthrough and repair attempt. One deficient displayed benchmark does not disclaim the family.
 
-## Current constructive artifact
-`WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md` — NEW CONSTRUCTIVE WORK / SANDBOX ONLY.
+## Current constructive artifacts
+- `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md` — base constructive solver kernel.
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_061_4D_DONUT_STEREOGRAPHIC_BRIDGE.md` — exact 4D carrier ↔ 3D Donut bridge, moving-frame recursion, Sim(4) transport candidate, and decoder conditioning.
 
 Key results through Run 059:
 - exact orthogonal two-plane composite with projection decoders;
@@ -44,20 +45,32 @@ Key results through Run 059:
 - helical throughput, not architecture ceremony, is now central. Positive, hostile, and SAT/H(s)H-shaped tests should run in parallel.
 
 ## Run 060 — 2026-09-20 03:30 EDT — exact double-rotation invariant decoder
-- **Startup/control coverage:** reread current `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, `WORKSPACES/SABLE/README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, this checkpoint, and the current Whirligig sandbox artifact. Newer Nathan directives controlled. No conversation rename/retitle action or suggestion.
-- **Operation chosen:** one bounded SAT/H(s)H-shaped helical-throughput benchmark rather than more architecture verification: ask whether the basic constant 4D double rotation can be compressed to frame-independent scalar invariants and exactly decoded.
+- **Operation chosen:** bounded SAT/H(s)H-shaped helical-throughput benchmark: ask whether the basic constant 4D double rotation can be compressed to frame-independent scalar invariants and exactly decoded.
 - **Artifact changed:** appended H1 benchmark to `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md`; commit `0514c51c4083cb41c097395d3c26f65569c39c42`.
 - **Result:** for `C=(a cos(ωs+φ),a sin(...),b cos(νs+ψ),b sin(...))`, define `m_k=||C^(k)||²`, k=0..3. Then `m_k=a²(ω²)^k+b²(ν²)^k`. With `D=m0 m2-m1²`, nondegenerate carriers satisfy `S=(m0m3-m1m2)/D=ω²+ν²`, `P=(m1m3-m2²)/D=ω²ν²`; squared frequencies are roots of `z²-Sz+P=0`, and squared radii follow linearly. Exact ambiguity is only plane exchange plus phase/orientation channels omitted by unsigned moments.
-- **Failure/conditioning diagnostic:** `D=a²b²(ω²-ν²)²`. The four-scalar decoder degenerates exactly if one radius vanishes or squared frequencies coincide; near this set it should become noise-sensitive. This is useful rather than hidden failure.
+- **Failure/conditioning diagnostic:** `D=a²b²(ω²-ν²)²`. The four-scalar decoder degenerates exactly if one radius vanishes or squared frequencies coincide; near this set it should become noise-sensitive.
 - **Efficiency significance:** many comparison/classification operations on the constant double rotation can use four frame-independent scalars instead of repeatedly expanding four coordinate functions. The packet is invariant under constant SO(4) representation rotations and directly supplies unsigned Graticule tangent ratio and winding-frequency ratio after decoding.
 - **Hagalaz implication:** candidate restricted carrier summary is `M=(m0,m1,m2,m3)` plus explicit orientation/phase/frame channels only where an operation needs them. Do not claim this as a general Hagalaz replacement.
 - **Math status:** NEW sandbox derivation, `CLAIMED`; algebraically checked during this run. No `VALIDATED`/`DISCLAIMED` status assigned.
-- **Exposure/cross-reading:** internal HsH control/checkpoint/sandbox only. No nLab, PRIOR_ART, quarantined material, outside literature, or suspended Integration handoff used. No external-theory import.
-- **Archive/infrastructure:** no archive mutation. One semantic sandbox write plus required checkpoint update only.
-- **Enrichment/capability:** demonstrated a moment-recurrence/invariant-compression route for two-frequency 4D carriers; this provides a concrete bridge among Whirligig carrier compression, Graticule diagnostics, and Hagalaz representation invariance.
-- **Uncertainties:** unsigned scalar moments do not recover winding sign or phase origin; variable radii/pitch and moving/nested frames are outside this result. Efficiency versus direct coordinate computation has not yet been benchmarked quantitatively.
-- **Blockers/dependencies:** none; no Nathan action required.
-- **Current frontier / next operation:** stress-test the exact decoder near `D=0` under controlled perturbation/noise and quantify conditioning. If useful, then attempt a local/windowed extension to slowly varying radius/pitch before moving to a genuinely nested moving-frame carrier.
 
-## Handoff summary
-Read current controls first, then `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md`. The highest-information path is now repeated exercise on actual helical and equation targets, not prolonged architecture certification. Preserve exact round trips and adversarial controls as instrumentation. The newest concrete result is the four-moment exact decoder for the nondegenerate constant double rotation; its next test is conditioning near `D=0`. GR↔QM remains a flagship recovery target once the machines can search useful shared transformations without being hand-fed the answer.
+## Run 061 — 2026-09-20 — 4D/3D separation becomes an exact bridge
+- **Nathan steering:** preserve the distinction between the more-useful 4D carrier and the useful 3D Donut toy; continue calculations rather than collapsing them into one object.
+- **Artifact:** `WORKSPACES/MERIDIAN/SANDBOX/RUN_061_4D_DONUT_STEREOGRAPHIC_BRIDGE.md`; commit `b64c30ea891613b50112da7f3800543094d411ff`.
+- **Exact carrier:** `C=(a cos p,a sin p,b cos q,b sin q)` with `a²+b²=ρ²` lies on S³ and has flat torus metric `ds²=a²dp²+b²dq²`.
+- **Exact Donut map:** north stereographic projection sends this carrier torus to an ordinary 3D ring torus with `R=ρ²/a`, `r=ρb/a`, hence `R²-r²=ρ²`. Equal-radius 4D case gives `R=√2ρ`, `r=ρ`.
+- **Preserved structure:** projection is conformal with factor `Ω=ρ/(ρ-b sin q)`, so the Graticule tangent ratio `tan β=b|q'|/(a|p'|)` is preserved exactly. Rational/irrational closure and winding topology are preserved.
+- **Chart parity:** north meridional coordinate satisfies `dθ_N/dq=-a/(ρ-b sin q)`. Thus the 3D chart carries one fixed meridional sign reversal; this is representational parity, not a dynamical chirality flip.
+- **Inverse chart:** south stereographic projection lands on the same torus and is related to north by exact inversion `X_S=ρ² X_N/||X_N||²`. Because `R²-r²=ρ²`, the torus is self-inversive and inner/outer equators exchange. This is a strong mathematical candidate for the historical ordinary/inverse Graticule pair but is not identified with it pending source comparison.
+- **Metric warning:** the 4D product torus is intrinsically flat, while the 3D ring torus has `K=cosθ/[r(R+r cosθ)]`. Thus lengths/curvatures/bending actions are not preserved. 4D remains the metric/action carrier; 3D is an exact conformal/topological visualization and diagnostic chart.
+- **Old Donut circumference facts recovered:** 3D major-loop circumference `2πρa/(ρ-b sin q)` has unique outer/inner extrema `2π(R±r)`; minor-loop circumference is constant `2πr`. These variations are chart geometry, not intrinsic variation of the two constant-radius 4D circle factors.
+- **Closed-sector ladder:** for integer windings `(m,n)`, `κ²=(a²m⁴+b²n⁴)/(a²m²+b²n²)²`, length `2π√(a²m²+b²n²)`, and intrinsic bending integral `2π(a²m⁴+b²n⁴)/(a²m²+b²n²)^(3/2)`. This is a precise classical discrete winding/closure ladder, not a quantum claim.
+- **Fixed-sector minimizer:** for the reduced second-derivative score with fixed winding endpoints, Jensen plus nonnegative acceleration terms proves uniform phase winding is the exact minimum. Nontrivial derivational search must therefore alter more than phase-speed distribution.
+- **Nested SO(4) compression:** for `Q_k=Q_{k-1}R_k`, body connection `A_k=Q_k^TQ_k'` obeys `A_k=R_k^T A_{k-1}R_k+B_k`, `B_k=R_k^TR_k'`; derivative recursion also closes exactly. Five-level noncommuting variable-angle numerical check matched direct differentiation below `1e-15`. For `C=Qh`, `Q^TC'=h'+Ah` and `Q^TC''=h''+2Ah'+(A'+A²)h`. Arbitrary nested rotational depth can therefore be compressed locally for derivative calculations.
+- **Hagalaz extension candidate:** homogeneous Sim(4) connection `Xi=g^{-1}g'` with 6 rotation + 1 dilation + 4 translation components gives the natural local transport state for 4D framed similarities. Three-level variable scale/rotation/translation recursion matched direct differentiation at ~`1e-16`. This is NEW constructive machinery, not historical attribution.
+- **Why 4D stays primary:** general SO(4) frame rotations become nonlinear conformal/Möbius maps after stereographic projection, not ordinary 3D similarities except special pole-fixing cases. A 3D-only Hagalaz layer would need a conformal extension or would need to retain the 4D frame separately.
+- **Run-060 conditioning sharpened:** full moment-map Jacobian determinant is `-AB(x-y)^4` for `A=a²,B=b²,x=ω²,y=ν²`; controlled `1e-10` moment noise showed rapid frequency-recovery degradation near collision. Adaptive merged/degenerate representation is required near equal frequencies.
+- **Math status:** all Run-061 results NEW sandbox derivations, `CLAIMED`; algebraically/numerically checked. No `VALIDATED` or `DISCLAIMED` status assigned.
+- **Exposure/cross-reading:** internal HsH controls/sandbox only. No nLab, PRIOR_ART, quarantined material, outside literature, or suspended Integration handoff used.
+
+## Handoff summary / current frontier
+Read current controls first, then `WHIRLIGIG_KERNEL_0.md` and `RUN_061_4D_DONUT_STEREOGRAPHIC_BRIDGE.md`. Keep 4D carrier mechanics and 3D Donut visualization distinct. The strongest new route is now to make the invariant decoder moving-frame covariant, then express nested Hagalaz transport directly in connection/holonomy variables. Compare the north/south inversion pair to the historical ordinary/anti Graticule without retrofitting. Continue helical throughput tests on actual equation geometry; do not spend the project indefinitely certifying architecture. GR↔QM remains a flagship recovery target only after the machinery can search useful shared transformations without being hand-fed the answer.
