@@ -64,7 +64,7 @@ This pair should therefore **not** be described as two independent conversations
 
 ### Authorship caution
 
-The populated capture again demonstrates that `role=user` in these NotebookLM exports is not sufficient Nathan-authorship evidence: interface/status text is serialized under that role. Short request-like turns can be candidate Nathan prompts, but promotion still requires structural/contextual authentication. NotebookLM-generated synthesis remains distinct from Nathan Direct.
+The populated capture demonstrates that `role=user` in these NotebookLM exports is not itself a speaker field because interface/status text is serialized under that role. Under Nathan's 2026-09-20 archive-provenance clarification, however, once local conversation structure identifies a turn as the human-entered side, that turn is **Nathan Direct by default**. The remaining attribution problem is speaker separation and any genuinely embedded quoted/pasted span, not uncertainty about which human had the archived conversation. NotebookLM-generated synthesis remains distinct from Nathan Direct.
 
 ### Q / braid-smoothing / holonomy-bridge watch — targeted read 2026-09-19
 
@@ -84,15 +84,17 @@ The same export contains a later NotebookLM-generated five-"proof" layout (messa
 
 Most importantly, a later generated prediction audit (message index 63) calls `Inverse Mass Scaling (1/Q)` "retracted" and says a proportional mass law `m∝Q` replaced it. Under Nathan's newer 2026-09-19 directive, that generated audit is **also insufficient/currently superseded as a resolution claim**: neither Q nor inverse-Q is accepted as the answer. Preserve it as evidence of an intermediate reconstruction state, not as current doctrine.
 
-### Authenticated Nathan correction inside the same export
+### Nathan Direct correction inside the same export — attribution corrected 2026-09-20
 
-The capture contains a short direct correction candidate at message index 46:
+The capture contains a short direct intervention at message index 46:
 
 > `No, the 24-cell lattice is not justified. We reject it until (and it probably will) it is forced by the geomery.`
 
-Its immediate generated response treats the 24-cell, fixed fusion gate, and fixed phase-snap machinery as demoted rather than primitive. This correction is strongly Nathan-like and structurally appears as a direct intervention between generated turns, but because the NotebookLM exporter serializes all visible turns as `role=user`, it should remain **candidate Nathan Direct pending source/conversation cross-authentication**, rather than being promoted solely from the role field.
+Its placement as a short human intervention between generated NotebookLM turns makes the speaker separation structurally clear. Under Nathan's clarified archive provenance, this turn is **Nathan Direct**, not merely a candidate. There is no presently identified embedded quotation in the turn. Preserve the wording exactly, including `geomery`.
 
-This matters to the Q/smoothing lineage because several generated Q/bridge formulas in the same notebook explicitly rely on the 24-cell/HSUCV lattice. Any reconstruction of those formulas must therefore track whether their supporting scaffold had already been rejected/demoted in Nathan's own chronology.
+The immediate generated response treats the 24-cell, fixed fusion gate, and fixed phase-snap machinery as demoted rather than primitive; that response remains NotebookLM-generated interpretation and is not converted into Nathan-authored doctrine.
+
+This correction matters to the Q/smoothing lineage because several generated Q/bridge formulas in the same notebook explicitly rely on the 24-cell/HSUCV lattice. Any reconstruction of those formulas must therefore track whether their supporting scaffold had already been rejected/demoted in Nathan's own chronology.
 
 ### Current-status contradiction inside the same NLM notebook — 2026-09-19 check
 
