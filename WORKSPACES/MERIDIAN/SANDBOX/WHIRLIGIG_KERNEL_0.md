@@ -231,3 +231,69 @@ Design fork:
 5. then test SO(4) representation changes and restricted equation encoders.
 
 This is a constructive repair discovered by adversarial testing, not historical machinery.
+
+
+## 15. W3 common-SO(4) representation adversary — PASS with frame, FAIL without it
+
+Let Q∈SO(4), C_Q=QC, and transport each decoder projector covariantly:
+
+P_i^(Q)=Q P_i Q^T.
+
+Then
+
+P_i^(Q) C_Q = Q H_i
+
+exactly. Intrinsic bending is also unchanged because Q preserves Euclidean inner products.
+
+If Q is discarded and the original fixed coordinate projectors are applied to QC, decoding generally fails.
+
+Conclusion: the kernel does not require a unique absolute SO(4) lift. It requires either:
+- a carried frame/projector channel, or
+- an explicit gauge choice.
+
+Geometric scoring should be gauge/representation invariant; decoding may use the auxiliary frame channel.
+
+## 16. W5 pre-test exposes an encoder problem
+
+For y''+ω²y=0, the normalized phase-plane solution (y,y'/ω) is a circle for every ω. Thus an intrinsic geometric score on that solution trace cannot distinguish the source equations; ω survives only in parameter/clock data.
+
+Therefore an arbitrary equation -> solution curve -> normalized geometry pipeline is not sufficient for equation comparison.
+
+### New encoder requirement
+
+The solver should geometrize the differential equation/operator itself, not merely decorate a selected solution.
+
+For a scalar n-th-order ODE
+
+F(x,y,y',...,y^(n))=0,
+
+introduce derivative-state coordinates (x,y0,y1,...,yn), with yk representing the kth derivative. The equation is the geometric constraint surface
+
+F(x,y0,...,yn)=0.
+
+A lifted solution curve must also satisfy derivative consistency/contact conditions
+
+dy0 - y1 dx = 0,
+dy1 - y2 dx = 0,
+...
+dy_(n-1) - yn dx = 0.
+
+This supplies an exact, non-arbitrary geometric encoding of the equation plus its admissible solution directions.
+
+For the harmonic oscillator,
+
+F = y2 + ω² y0 = 0,
+
+so different ω define genuinely different constraint surfaces even when normalized solution traces look geometrically identical.
+
+This is NEW constructive machinery based on standard differential-geometric derivative-state reasoning; it is not attributed to historical UI/Whirligig.
+
+### Consequence
+
+The Whirligig architecture should distinguish at least three objects:
+
+1. equation geometry — constraint surface/operator structure;
+2. solution geometry — admissible integral curves;
+3. representation channels — clock/frame/gauge data required for exact decoding.
+
+The original UI equation->4D-curve ambition appears to have collapsed these layers. Separating them may close the encoder gap without arbitrary coefficient-to-shape decoration.
