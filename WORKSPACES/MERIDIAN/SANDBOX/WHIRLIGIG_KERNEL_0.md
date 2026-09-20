@@ -170,3 +170,64 @@ W7 — only after W0–W6: historical GR↔QM target.
 - Can Three Spheres supply transition operations/bifurcations useful to the search rather than decorative geometry?
 
 Negative answers are acceptable outcomes.
+
+
+## 12. W1 numerical boundary-value test — PASS at toy level
+
+Parameters: a=b=κ=1, γ=0.2, s∈[0,2π], θ1:0→2π, θ2:0→4π, with θ1''=θ2''=0 at both endpoints.
+
+A numerical fourth-order boundary-value solve converged.
+
+Results:
+- uncoupled linear-seed objective: 54.6637121724624
+- coupled-extremal objective: 54.6522245593226
+- reduction: 0.0114876131398
+- max |θ1-s|: 0.0285673982 rad
+- max |θ2-2s|: 0.00799657863 rad
+- generalized phase momentum P: 18.0028317793926 to 18.0028317815109
+- P peak-to-peak numerical drift: 2.1183e-9.
+
+Interpretation: the reduced kernel supports a nontrivial coupled deformation while preserving imposed winding endpoints, and the independently derived symmetry checksum is conserved to numerical precision. This is not yet evidence that bending energy tracks algebraic derivational simplicity.
+
+## 13. W2 reparameterization adversary — FAIL for current score, yielding a repair
+
+Take the same geometric torus trace with θ1=u, θ2=2u and reparameterize by u(s)=s+0.2 sin s. This is monotone and has u(0)=0, u(2π)=2π, so the geometric image and total windings are unchanged.
+
+Current parameter-dependent bending score:
+- linear parameter: 53.4070751110
+- reparameterized: 60.1621276348
+- difference: 6.75505252375.
+
+Therefore the current bending score is not representation invariant under a clock change.
+
+### Required repair
+
+Separate:
+1. carrier/decoder parameter information, retained because source recovery may depend on it;
+2. intrinsic geometric complexity, scored independently of arbitrary reparameterization.
+
+Candidate geometric score:
+
+B_geo = ∫ ||dT/dℓ||² dℓ.
+
+For C(u)=(cos u,sin u,cos 2u,sin 2u),
+
+B_geo = (17/25) sqrt(5) * 2π ≈ 9.55374803422,
+
+independent of monotone reparameterization covering the same oriented trace once.
+
+Clock/parameter complexity, if physically or algebraically meaningful, should be retained and optionally scored as a separate channel rather than contaminating geometric equivalence.
+
+Design fork:
+- if λ is gauge/representation, quotient it from geometric score;
+- if λ is physical/algebraic information, retain it in decoding but prevent arbitrary clock choice from gaming geometric path ranking.
+
+## 14. Revised immediate frontier
+
+1. implement intrinsic B_geo;
+2. verify numerical invariance under multiple monotone reparameterizations;
+3. define carrier-clock channel and equivalence relation;
+4. rerun W1 with geometric score and clock information separated;
+5. then test SO(4) representation changes and restricted equation encoders.
+
+This is a constructive repair discovered by adversarial testing, not historical machinery.
