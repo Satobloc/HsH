@@ -2,7 +2,8 @@
 
 **Status:** ACTIVE strategic direction  
 **Authority:** direct Nathan instruction, 2026-09-20; newer Nathan directives control  
-**Scope:** project operating posture and workflow emphasis; this document does not itself validate, promote, or prove any SAT/H(s)H physical claim.
+**Scope:** project operating posture and workflow emphasis; this document does not itself validate, promote, or prove any SAT/H(s)H physical claim.  
+**Current routing:** interpret through `CURRENT_WORKFLOW_ORIENTATION_V2.md`, `WORKFLOW_BRANCHING_MAP.md`, `ORCHESTRATOR_COMPTROLLER_MODEL.md`, `ACTIVE_AUTOMATION_ROSTER.md`, and `CARPE_TURNEM_POLICY.md`.
 
 ## The shift
 
@@ -86,7 +87,7 @@ A negative result counts. An honest no-op counts when no safe useful move exists
 
 After the required control/quarantine checks:
 
-1. **Identify the live frontier.** Read the current worker checkpoint, newest Nathan direction, current project priorities, and relevant source packet.
+1. **Identify the live frontier.** Read the current worker checkpoint, newest Nathan direction, current project priorities, branch/milestone state, and relevant source packet.
 2. **Ask whether the blocker is informational or conceptual.** If a missing source, equation, definition, date, or provenance fact prevents forward work, perform targeted excavation to remove that blocker.
 3. **If not blocked, construct.** Choose one bounded Sandbox or Playground operation with high information value.
 4. **Attack the construction.** Look for dimensional failure, coordinate dependence, hidden assumptions, noninvertibility, degeneracy, incorrect limiting behavior, or mismatch with known physics.
@@ -115,11 +116,24 @@ Not every Playground turn needs all nine pieces. But moving toward this packet m
 
 Especially valuable questions are ones where 4D geometry does real work rather than supplying vocabulary after the fact. Prefer constructions that force a result, rule out configurations, expose hidden equivalences, or yield a measurable difference.
 
+## Current control-plane incorporation
+
+This Nathan-direct shift is a **phase/reweighting signal** under the current branching model, not a replacement for the control plane.
+
+The current role split is:
+
+- **Orchestrator:** redesigns and evolves the workflow ecology, capability composition, institutions, recurrence design, and milestone-triggered phase architecture.
+- **Comptroller:** operates the active edge, verifies that new controls are actually incorporated, and throws bounded task/branch/execution-lease switches.
+- **Project Systems / Tern:** currently holds the resident Comptroller execution lease under `ACTIVE_AUTOMATION_ROSTER.md`.
+- **Sable:** remains a distinct human-facing systems/continuity identity and useful systems-analysis resource; do not conflate it with the resident Project Systems recurrence.
+
+Therefore the immediate systems obligation is not merely to file this document. The Comptroller should verify incorporation by watching whether active runs actually begin producing more source-sufficient Sandbox/Playground derivations, calculations, tests, visualizations, counterexamples, and negative results, and should switch routing when the machine keeps defaulting to excavation without a live consumer.
+
+Where the ecology itself needs redesign rather than active-edge switching, route that observation to the Orchestrator function under the current model.
+
 ## Automation posture
 
-The current five-recurring-task ceiling remains in force; do not multiply loops merely to signal activity. Use the existing flexible loops and Sable's rotation authority.
-
-**Requested systems action:** Sable should treat this Nathan-direct shift as authorization to reweight the active automation machine away from excavation-as-default and toward **source-sufficient bold Sandbox/Playground work**, while retaining enough tagging, QA, preservation, provenance, Dashboard, and retrieval support to keep forward work grounded.
+The current five-recurring-task ceiling remains in force; do not multiply loops merely to signal activity. Use the existing flexible execution leases and current branch/task routing.
 
 In practical terms:
 
@@ -127,7 +141,7 @@ In practical terms:
 - Tag Conversation Corpus: bias tags toward structures, equations, assumptions, unresolved branches, and source packets that enable live construction.
 - Meridian Solver Loop: lean hard into mathematics, geometry, solver work, counterexamples, and explicit constructions when source-sufficient.
 - Mercer Archive QA Loop: protect source identity and reproducibility around the material actually feeding live work; continue independent high-value archive QA where it prevents false confidence.
-- Project Systems / Sable: monitor whether the machine is producing derivations/tests/negative results and not merely ever-denser metadata; rotate work accordingly.
+- Project Systems / Tern as resident Comptroller: monitor whether the machine is producing derivations/tests/negative results and not merely ever-denser metadata; rotate branches and execution leases accordingly within current authority.
 - Non-recurring theorists/consultants/revivals: use Playground and Sandbox aggressively within exposure constraints, preserving independence when it has experimental value.
 
 No worker should interpret this as permission to weaken provenance, mathematical rigor, source boundaries, standard-physics comparison, or quarantine discipline. The point is the opposite: those systems now give the project enough structure to take larger intellectual swings safely.
