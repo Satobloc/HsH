@@ -489,3 +489,42 @@ Published successfully to the existing public URL as Sites version 7.
 - The Academia profile remains unlinked until its authoritative URL is established.
 
 Published successfully to the existing production URL.
+
+---
+
+# 2026-09-20 — durable podcast episode index
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 10
+- **Access preserved:** public.
+
+## Source recovery and coverage
+
+- Recovered the complete twelve-part creator episode export attached to the archived site-design conversation.
+- Indexed all **321 published episodes**: 134 from 2025 and 187 from 2026.
+- Excluded 22 scheduled entries and one draft so the public index does not present unpublished items as part of the released chronology.
+- Preserved creator-supplied titles, publication dates, durations, Spotify episode identifiers, and creator-hosted artwork.
+
+## Transcript joins and browse lanes
+
+- Compared normalized episode titles against the public `DEBATING AI PODCAST` archive and exposed **91 exact, unambiguous transcript-file matches**.
+- Did not publish fuzzy or uncertain transcript joins.
+- Added full-title search, year filtering, transcript-availability filtering, broad browse lanes, responsive episode artwork, and direct Spotify routes.
+- The broad lanes—SAT/physics, H(s)H/current, Consciousness/AI, Method/history, and Other/cross-disciplinary—are title-derived navigation aids, not authoritative episode-content classifications.
+- Preserved the historical feed-name sequence without inventing per-episode transition dates.
+
+## Open enrichment work
+
+- Recover and verify transcript joins beyond exact filename matches.
+- Establish historically precise show-name transition dates.
+- Review browse-lane assignments from audio or transcript content.
+- Connect episodes to glossary terms, claims, experiments, and related documents.
+
+## Roadmap state
+
+- Moved the durable podcast index into **Already delivered**.
+- Advanced **Glossary v1** to the next build, followed by the claims and predictions explorer and feed-driven live sections.
+
+Published successfully to the existing production URL.
