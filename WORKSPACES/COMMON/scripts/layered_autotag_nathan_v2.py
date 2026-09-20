@@ -14,6 +14,7 @@ import importlib.util
 import math
 import re
 from collections import Counter
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +26,34 @@ if spec is None or spec.loader is None:
 v1 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(v1)
 
+# Topic matching asks for the same normalized message once per candidate phrase.
+# Cache only a bounded working set so a long archive scan does not retain every
+# message forever.  Also cache the phrase boundary regexes: the phrase inventory
+# is small and reused across the whole corpus.  This changes no matching rules;
+# it only removes repeated normalization/regex construction from the hot path.
+_v1_norm = v1.norm
+
+
+@lru_cache(maxsize=512)
+def cached_norm(text: str) -> str:
+    return _v1_norm(text)
+
+
+@lru_cache(maxsize=None)
+def strict_phrase_pattern(phrase: str) -> re.Pattern[str] | None:
+    p = cached_norm(phrase)
+    if not p:
+        return None
+    left = r"(?<!\w)" if p[0].isalnum() else ""
+    right = r"(?!\w)" if p[-1].isalnum() else ""
+    return re.compile(left + re.escape(p) + right)
+
+
+# V3 and inherited V1 helpers also call v1.norm directly. Route those calls
+# through the same bounded cache so one message is normalized once while its
+# topic/context candidates are evaluated.
+v1.norm = cached_norm
+
 
 def strict_phrase_hit(text: str, phrase: str) -> bool:
     """Match a normalized literal phrase without allowing alphanumeric spillover.
@@ -33,13 +62,8 @@ def strict_phrase_hit(text: str, phrase: str) -> bool:
     `general`; `sat` no longer matches `satisfaction`. Punctuation-bearing SAT
     terms such as `h(s)h` still work.
     """
-    t = v1.norm(text)
-    p = v1.norm(phrase)
-    if not p:
-        return False
-    left = r"(?<!\w)" if p[0].isalnum() else ""
-    right = r"(?!\w)" if p[-1].isalnum() else ""
-    return re.search(left + re.escape(p) + right, t) is not None
+    pattern = strict_phrase_pattern(phrase)
+    return pattern.search(cached_norm(text)) is not None if pattern else False
 
 
 def topic_tags(text: str) -> set[str]:
