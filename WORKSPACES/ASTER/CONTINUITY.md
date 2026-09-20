@@ -8,104 +8,70 @@
 
 ## Startup
 
-On every revival/run, read first:
+On every run read: `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, current Common coordination/handoffs/check-ins, this file, and the active source/index. Newer Nathan directives control. Never rename/retitle/suggest renaming a conversation. Never reproduce or imitate Nathan's owl signet.
 
-1. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` — hard UX rule; never rename/retitle/suggest renaming any conversation.
-2. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
-3. `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`
-4. `WORKSPACES/COMMON/BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`
-5. `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md`
-6. current Common coordination/handoffs/check-ins and this file.
-7. relevant conversation-folder index/checkpoint for the active source.
+## Primary responsibility / authorship rule
 
-Newer explicit Nathan directives control.
-
-## Primary responsibility
-
-Recover and preserve verified Nathan-authored raw material with exact wording, chronology, cumulative tags, adjacency / parent-child context, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation of Nathan text from assistant/NotebookLM/other LLM prose.
-
-**Current authorship rule:** archived conversation provenance establishes Nathan as the human conversant. Once a turn is structurally separated as the human turn, it is Nathan Direct by default. NotebookLM's broken `role=user` serialization creates a human-vs-generated speaker-separation problem, not Nathan-vs-unknown-human uncertainty. Embedded pasted/quoted/coauthored foreign material is a span-level exception; genuine unresolved quote boundaries should be asked of Nathan rather than blocking surrounding Nathan material.
+Recover verified Nathan-authored raw material with exact wording, chronology, cumulative tags, adjacency, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation from assistant/NotebookLM prose. Archived conversation provenance establishes Nathan as the human conversant; once a turn is structurally separated as human it is Nathan Direct. Embedded pasted/quoted/coauthored foreign spans are local exceptions. NotebookLM's broken `role=user` serialization is a human-vs-generated separation problem, not Nathan-vs-unknown-human uncertainty.
 
 ## Current ingest frontier
 
-P0 remains detailed conversation-folder indexing, especially folder 18 NLM extractions, while lightly detecting new material in folders 19+ without rescanning unchanged tranches merely to satisfy a watch.
+P0 remains folder-18 NLM extraction/provenance, with lightweight detection of folders 19+ rather than repeated unchanged rescans. NLM source indices are wayfinding evidence, not substitutes for underlying documents. Maintain the distinction between index/source attestation, located underlying source, and unresolved/inferred/missing source candidate.
 
-NLM source indices are wayfinding evidence, not substitutes for underlying documents. Maintain: (1) index/source attestation; (2) located underlying archived source; (3) unresolved/inferred/missing source candidate.
+## Live provenance / theory cautions
 
-## Q / inverse-Q watch
+- Recover exact raw wording/date for Nathan's 2026-09-14 intellectual-provenance statement (own conceptual development; Minkowski/first-principles/general-science roots; little braid-math familiarity until recently; broad-popular string-theory familiarity). Treat as testimony, not novelty proof.
+- Q/inverse-Q: Nathan says neither is adequate. Prioritize braid smoothing/scaling/scale transition; “holonomy bridge” exploratory. `Proton-Electron Mass Ratio — raw - .TXT` remains NLM-attested but underlying source unresolved.
+- Math diagnosis/repair is allowed when context suffices but stays sandboxed and must not be back-written into historical provenance.
+- Quarantine / PRIOR_ART remains off-limits.
 
-Nathan-direct clarification, 2026-09-19: neither Q nor inverse-Q is adequate. Prioritize braid smoothing, scaling, scale transition, and attempted replacements. Treat “holonomy bridge” as exploratory until provenance/necessity are established. Bare `Q` is collision-prone elsewhere and requires local typing.
-
-Strong ancestry cursor remains `Proton-Electron Mass Ratio — raw - .TXT`; prior exact-title/distinctive-phrase and adjacent-title searches did not locate it. Status remains unresolved crosswalk, not proven absent. Steamroller source entries retain title only, with null source ID/row metadata.
-
-## Mathematical diagnosis / repair clearance
-
-Nathan explicitly cleared Aster on 2026-09-19 to attempt mathematical diagnoses and repairs where source/context is sufficient. All such work is sandbox theory work unless Nathan explicitly promotes it. Separate source claims, Nathan-direct constraints, Aster assumptions, diagnosis, proposed repair, checks, and unresolved failure modes. Never back-write repair into historical provenance.
-
-## Live provenance priority
-
-Recover exact raw wording/date for Nathan's 2026-09-14 intellectual-provenance statement: conceptual development primarily his own thinking, strongly rooted in Minkowski/first-principles spacetime reasoning and general science background; very limited prior braid-mathematics familiarity until recently; only broad-popular familiarity with string theory. Treat as provenance testimony, not novelty proof.
-
-## Hard boundaries
-
-No conversation renaming/retitling. Never reproduce/imitate Nathan's owl signet. Direct theory development stays in sandbox. Quarantine / PRIOR_ART remains off-limits. Possible close prior art: send Sable only bibliographic identity/source pointer + minimal neutral note. Preserve failed/contradictory/superseded/playful work and keep provenance/currentness/polish/vetting/math correctness/theory correctness/sandbox status distinct.
-
-## Current durable pointers
+## Durable pointers
 
 - `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`
 - `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`
-- master Nathan Direct substrate: `indexes/nathan-direct/`
-- Stage-2 queues: `indexes/nathan-direct/stage2/`
+- master substrate `indexes/nathan-direct/`; Stage-2 queues `indexes/nathan-direct/stage2/`
 
-## Last meaningful state / checkpoints
+## Current SAT RIGOR checkpoint — 2026-09-20
 
-### 2026-09-20 — SAT RIGOR turn 21 completed source-first
+Target: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).json`, blob `7c2a17f005218d77f9b7b21824ff3c7be5a68b41`, notebook `29b0fbe9-21f2-4151-9604-10413e1dc1e9`, capture `2026-09-18T19:19:38.650Z`, 50 visible sources, `reached_top=true`.
 
-Current must-reads reread, including no-conversation-renaming, worker autonomy/signet protection, automation control, bibliography sequence, Nathan Direct workflow state, Common coordination/handoffs, and Aster continuity.
+Pair identity remains: base and `(1)` are populated same-notebook/same-source-panel but distinct conversation branches/states; not byte duplicates or established prefix/superset.
 
-Target remained folder-18 `SAT RIGOR__NotebookLM_export (1).json`, blob `7c2a17f005218d77f9b7b21824ff3c7be5a68b41`, notebook `29b0fbe9-21f2-4151-9604-10413e1dc1e9`, capture `2026-09-18T19:19:38.650Z`, 50 visible sources, `reached_top=true`.
+Source-first speaker-separated packaging now reaches **Nathan index 81**. Durable detail is in `RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`.
 
-The previously truncated Nathan index 21 was recovered directly from the Git blob via exact response-resource search. Full exact ending after the previously visible text is: `this way: Does a function create a curve, or does a curve create a function?` Full message key: `ef8ec43b`; citations array empty. This completes index 21 without inference. The turn remains Nathan Direct under the conversation-turn provenance rule; no embedded quotation ambiguity was identified. Generated index 20 / key `64492472` remains adjacency only.
+Key recovered progression:
+- index 21 rhetorical curve/function question is resolved by Nathan index 23 (`As pure geometry... the two are indistinguishable...`) and Nathan's later 2026-09-20 intent certification. Do not reintroduce a directionality fork.
+- indices 39/41: θ as sole rectilinear variable in the toy system; Nathan rejects metaphors and unearned “stretch” assumptions.
+- index 45: `But we don't know the primary reality . As of now, we only have associations.`
+- indices 49/51: force must be observed rather than prescribed; introduce nothing until forced; no source artifacts imported into the first-principles walk-through.
+- indices 53–57: notation QA; Nathan catches Avery's inaccurate “That's correct” after Avery actually corrected Nathan's notation, then accepts correction of Nathan's own `Δθ=0=v` logic and asks to define symbols first.
+- index 65 repeated exactly at 67 with same key `6fd92b6c`: source leakage rejected; preserve both occurrences but treat as one statement plus duplicate/replay metadata for quote/counting.
+- index 69: at this granularity claim only a relationship between θ and mass; do not promote Avery's stronger generated mass formulas/metaphors.
+- indices 71–79: construct a minimal force-containing physical system; if current primitives lack mechanism, enumerate minimal additions, calculate known physical behavior covariantly, then compare geometry against mapping grammar. Tension rigidity is only an “at first blush” candidate, not selected a priori.
+- index 75 explicitly rejects generated plane distortion before necessity is established.
+- **index 81 / key `bcd5a49d`: `What if, instead, we add a diameter to the lines, changing them into world tubes`**. This is the current major historical/conceptual cursor. Do not back-read it as validation/currentness of later H(s)H worldtube formalism.
 
-Interpretive correction certified directly by Nathan on 2026-09-20: the closing question `Does a function create a curve, or does a curve create a function?` is rhetorical and expresses curve↔function equivalence; it is NOT an unresolved directionality question. This Nathan-certified intent controls Aster annotation of the passage. Preserve the exact historical wording separately from this later intent certification.
+Generated claims excluded from Nathan Direct in this range include line morphology as “primary reality,” force-as-tension/input, plane distortion/shadow, “Existence Tax,” mass as projective resistance/angle stability, `m=M sin²θ`, `B≈0.2387 rad` as required mass anchor, and Avery's numerical inelastic-collision/Y-junction conclusions.
 
-No theory/sandbox work, bibliography expansion, duplicate disposition, or archive-infrastructure change occurred in this bite. No Nathan action required.
+### Quote workflow
 
-**Next cursor:** continue the same source from generated index 22 to the next structurally identifiable Nathan turn and package one coherent first-principles step, preserving exact key/adjacency and stopping rather than inferring if connector coverage truncates.
+Initial mode is high-priority best-quotes/backlog harvest; later occasional maintenance. Capture full contiguous Nathan passage verbatim first, with attribution/date/source pointer/adjacency/reason; truncate/edit only downstream and explicitly. Strong SAT RIGOR candidates now include indices 23, 39, 41, 45, 49, 51, 55, 61, 65/67, 69, 73, 75, 77, 79, 81. Intent certifications should be linked where relevant.
 
-### 2026-09-20 — SAT RIGOR opening sequence packaged
+### Duplicate/source status
 
-Target-read and speaker-separated exact Nathan Direct indices 13, 15, 17, 19 and the then-visible beginning of 21, with generated intervening turns retained only as adjacency pointers. Durable packet: `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`. The packet's statement that index 21 was incomplete is now superseded by the checkpoint immediately above; packet body has not yet been rewritten merely for churn.
+No new source-index crosswalk was attempted in this bite. No theory/sandbox work occurred. No Nathan action required. Existing unresolved source ancestry remains unchanged.
 
-### 2026-09-20 — SAT RIGOR pair identity correction
+**Next cursor:** generated index 82 and Nathan's response(s) to the worldtube move. Determine what adding diameter buys in the minimal system, what generated assumptions Nathan rejects, and how/when this becomes a worldtube rather than merely a thickened visualization. Preserve exact keys and adjacency.
 
-Both SAT RIGOR captures are populated, `reached_top=true`, same notebook identity/50-source panel but distinct conversation starts and message keys. They are not byte duplicates or established prefix/superset captures. Preserve both as separate conversation branches/states under one notebook. Durable packet above.
+## Other retained checkpoints
 
-### 2026-09-20 — Alberrisch semantic/provenance pass (historical note; authorship wording superseded)
-
-Target-read `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Alberrisch__NotebookLM_export.json` (blob `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`; notebook `68f71fa4-253c-4618-b571-273e750f6b20`; capture `2026-09-19T01:44:21.584Z`; `visible_source_count=15`; `reached_top=false`). Earlier Aster language called prompt-shaped first-person turns “Nathan-candidate”; that is superseded by Nathan's later conversation-turn authorship clarification. Structurally identifiable human turns are Nathan Direct; only genuine embedded-quotation boundaries remain locally ambiguous.
-
-### 2026-09-19 — BURNTHROUGH / SAT_SoT historical note
-
-Earlier over-conservative “Nathan-candidate until crosswalk” language is superseded for structurally identifiable human conversation turns. Source crosswalk remains relevant to claim ancestry and NLM-generated content, not to Nathan identity once human turns are separated.
-
-### 2026-09-20 — Proton-Electron / Steamroller source audits
-
-Code searches across HsH and `SAT_THEORY_ARCHIVE_2023-25` for exact title and distinctive Q/bridge phrases returned no indexed matches. Steamroller's actual source array explicitly contains `Proton-Electron Mass Ratio — raw - .TXT`, but source entries have `source_id: null` and `row_text: null`. Classification remains NLM source-panel attestation / unresolved underlying source, not demonstrated archive gap.
-
-### 2026-09-19 — folder-20 availability / duplicate checkpoint
-
-Folder 20 is populated. SHA comparison established exact cross-folder duplicate blobs for several visible folder-19/20 items; preserve duplicate paths but do not reread identical blobs. Durable index: `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md`.
-
-## 2026-09-20 — quote-workflow routing directive
-
-Nathan directed that especially strong Nathan Direct quotations/passages should be routed into the developing quote-request workflow. Initial mode should prioritize **best quotes / backlog harvest**, later shifting to lower-priority occasional capture. “Quote” does not imply short: unusually clear passages may be captured at full contiguous length. Collection preserves the full verbatim Nathan passage first; any front/middle/end truncation or editorial excerpting is downstream presentation work. Each candidate should retain Nathan attribution, source/date where recoverable, durable source link/pointer, adjacency/context, and selection rationale. Intent certifications/corrections should be linked when relevant. Workers should not silently edit/truncate candidates during intake.
-
-Aster searched HsH code index for `quote request best quotes` and found no indexed existing control/job surface in that bounded check; do not infer absence from that search alone.
+- Folder 20 populated; several folder-19/20 files are exact blob duplicates. Preserve duplicate paths; do not reread identical blobs as new semantic material.
+- Alberrisch/BURNTHROUGH/SAT_SoT earlier “Nathan-candidate” language is superseded for structurally identifiable human turns.
+- Steamroller source panel explicitly attests `Proton-Electron Mass Ratio — raw - .TXT`; null source id/row and negative searches mean unresolved underlying source, not proven archive gap.
 
 ## End-of-run discipline
 
-After material progress, update this file with exact sources/date ranges covered, provenance/authorship decisions, duplicate/crosswalk status, mathematical/theory work and sandbox status, archive-infrastructure changes, enrichment/capability changes, unresolved issues, and one best next cursor. Do not manufacture progress when none exists.
+After material progress update this file with exact coverage, provenance/authorship decisions, duplicate/crosswalk status, theory/sandbox work, infrastructure/bibliography/enrichment changes, unresolved issues, and one best next cursor. Do not manufacture progress.
