@@ -362,3 +362,51 @@ Before doing substantive site work:
 9. update this work log with any material decision or publication event.
 
 The goal is not merely continuity of prose. It is continuity of **design decisions, source discipline, project history, and publication state**.
+
+---
+
+# 2026-09-20 — live Sites visual-strata pass
+
+## Publication
+
+- **Site opened:** \`glass-sausage-factory\`
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 6
+- **Source state used:** the existing Sites checkout plus the current \`PUBLIC_SITE/\` README, visual system, work log, current-work feed, and asset manifest.
+- **Access preserved:** public.
+
+## Implemented visual decisions
+
+- Replaced the generic CSS orbit/tube hero decoration with Nathan's supplied monochrome H(s)H observer/ring image.
+- Shifted the global site chrome toward austere black, graphite, white, measured gray, and sparse ice-cyan.
+- Restricted strong red-magenta to the historical SAT/public-notebook stratum and historically appropriate listening artwork rather than using it as the default H(s)H interface accent.
+- Rebuilt the SAT/H(s)H visual comparison with supplied, locally served artwork and explicit descriptive alt text.
+- Converted the Current Work card group into quieter full-width research strips so the live program reads as an active research map rather than generic product cards.
+- Brought the Reading Room chrome into the same graphite/paper system without changing its source-rendering or PDF behavior.
+- Updated the podcast-history strip with representative consciousness/dialogue, SAT, and human–AI artwork.
+- Replaced the older defensive In the News heading with the active editorial-system language: “Results, constraints, and curious touchpoints.”
+
+## Asset handling
+
+Eight Nathan-supplied images were admitted to the live presentation and registered in \`ASSET_MANIFEST.json\`. They are served from stable paths beneath:
+
+\`/assets/user-visuals/\`
+
+Three supplied candidates were not used in this pass because their strongest contextual role remains unresolved: the neon cube corridor, the fingerprint/identity composition, and the literal braided-cord image. They should not be inserted merely to exhaust the intake batch.
+
+The registered assets remain labeled as Nathan-supplied project artwork. Specific generator/artist metadata was not present in this intake and has not been invented.
+
+## Validation
+
+- Confirmed all local HTML image/link references resolve inside the packaged site.
+- Confirmed the Reading Room module parses after the theme update.
+- Preserved responsive collapse behavior for the hero, visual strata, Current Work strips, and thumbnail rows.
+- Published successfully to the production URL above.
+
+## Remaining visual work
+
+- Integrate the stronger galaxy/trajectory plate when its durable source asset is available.
+- Continue refining section-level typography and spacing after inspecting the live composition at several viewport sizes.
+- Build the durable podcast episode index so the thumbnail taxonomy can be connected to actual episode/category metadata rather than used only as representative artwork.
+- Continue migrating Current Work from manually embedded copy toward the structured \`CURRENT_WORK.json\` feed.
+
