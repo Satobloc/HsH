@@ -61,6 +61,16 @@ check("has-conversation-negative",'has:conversation-source',False,ri)
 rc=rec("closure",speaker="Nathan",role="user")
 check("has-conversation",'has:conversation-source AND has:message-id AND has:conversation-id',True,rc)
 
+
+# Conservative math normalization: notation variants, not algebraic equivalence.
+rm=m.Record("math_notes.txt","text-line",r"B = \\frac{3}{4\\pi}; theta = θ; x · y = z",
+            "Math Notes","","","Nathan","user","2026-06-15T12:00:00+00:00","line:1")
+check("math-frac-latex",'math:"B=3/(4*pi)"',True,rm)
+check("math-pi-unicode",'math:"4π"',True,rm)
+check("math-theta-alias",'math:"theta=theta"',True,rm)
+check("math-multiply-glyph",'math:"x*y=z"',True,rm)
+check("math-no-false-equivalence",'math:"4*pi*B=3"',False,rm)
+
 # Sorting.
 hs=[
  m.Hit("q","b","k","Z","c","m","Assistant","assistant","2026-07-01","l","e",[],"","s",[],[],[],[]),
