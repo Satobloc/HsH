@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 143, 2026-09-20
+**Current through:** Run 144, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -290,5 +290,27 @@ Workflow update commit `918a84175f46cc58a42b13ec5700857961a49ca1`; run `35518465
 **Stable release:** 1.0 unchanged. 1.1 remains development-only.
 
 **Next cursor:** inspect `35518465837`; repair durability failures. After green, implement incremental source reuse to eliminate ~52s full rebuild cost for small archive changes, then measure no-change and one-file-change rebuilds.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
+
+
+## Run 144 — 2026-09-20 — durability green; incremental immutable updater implemented
+
+**Durability gate:** workflow `35518465837` completed SUCCESS. During a live full rebuild, **377 read probes** completed. The observed generations were only the prior complete generation `20260920T150539Z-d4496054` and the newly published complete generation `20260920T150622Z-929cf5a3`; post-build query resolved to the new generation. An intentional pre-publication failure then returned nonzero and left `CURRENT.json` on `20260920T150622Z-929cf5a3`; post-failure query returned 3 hits from that retained generation. This validates the prototype's atomic publication / prior-green retention behavior under the tested runner conditions.
+
+**Incremental implementation:** created `tools/update_mersearch_index.py` (commit `b15ac293ca2aa47a77a3a8ca495dc2e18a777136`). Correctness-first design: copy current immutable SQLite generation into a fresh generation; inventory/hash current permitted sources; compare path+SHA-256; preserve unchanged source/record rows; delete removed/changed source rows; reparse only changed/new sources; rebuild FTS from the resulting records; write metadata/manifest; atomically publish new `CURRENT.json`. Active generation is never mutated.
+
+**Incremental benchmark gate:** workflow commit `c25f7a694e31cc7b4fedf06a733cd8731432b3c4` adds:
+- no-change incremental rebuild requiring 0 changed/new sources;
+- controlled one-file mutation requiring exactly 1 changed/new source, then repository restoration;
+- timing/reuse output;
+- query after each incremental publication.
+Run `35525522502` queued at checkpoint-write time.
+
+**Expected optimization frontier:** correctness-first updater still hashes all permitted source bytes, copies the full DB, and rebuilds the full FTS index. These may dominate no-change rebuild time. Next optimization should be evidence-led from benchmark timings: Git/tree identity or size/mtime inventory shortcuts where trustworthy; SQLite backup/reflink/copy strategy; targeted FTS maintenance rather than full rebuild.
+
+**Stable 1.0 unchanged. 1.1 remains development-only.**
+
+**Next cursor:** inspect `35525522502`; fix correctness failures. Record no-change and one-change timings. Optimize the dominant stage, then add sustained repeated-reader/load test rather than only burst concurrency.
 
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
