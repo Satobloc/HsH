@@ -34,11 +34,172 @@
     "credit": "authorship/source credit",
     "date": "YYYY-MM-DD or historical period when known",
     "alt": "descriptive alt text",
-    "roles": ["thumbnail"],
+    "roles": [
+      "thumbnail"
+    ],
     "focal_point": "optional x/y or prose crop note",
     "crop_policy": "free | preserve-full-frame | no-crop | custom",
     "status": "candidate | approved | historical-only | retired",
     "notes": "context or provenance notes"
   },
-  "assets": []
+  "assets": [
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/hsh-orbit-observer.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "hsh-orbit-observer-2026-09-20",
+      "file": "hsh-orbit-observer.png",
+      "title": "H(s)H orbit observer",
+      "caption": "Current H(s)H visual register used as the public-site hero.",
+      "alt": "A monochrome synthetic observer faces a luminous ring marked HsH in a black astronomical field",
+      "roles": [
+        "hero",
+        "section-anchor",
+        "generated-illustration"
+      ],
+      "focal_point": "center; preserve lower-left observer and upper-center HsH lettering",
+      "crop_policy": "custom",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6. Specific generator/artist metadata was not supplied in this intake."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/sat-geometry-wall.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "sat-geometry-wall-2026-09-20",
+      "file": "sat-geometry-wall.png",
+      "title": "SAT geometry wall",
+      "caption": "Historical SAT visual vocabulary: luminous forms, observer, and signal magenta.",
+      "alt": "A magenta observer studies a wall of luminous geometric SAT forms",
+      "roles": [
+        "section-anchor",
+        "podcast-art",
+        "generated-illustration"
+      ],
+      "focal_point": "right-side observer; retain geometry grid",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/sat-helix-observer.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "sat-helix-observer-2026-09-20",
+      "file": "sat-helix-observer.png",
+      "title": "SAT helix observer",
+      "caption": "Historical SAT observer and luminous helix study.",
+      "alt": "A magenta observer faces a bright white helical filament on black",
+      "roles": [
+        "section-anchor",
+        "podcast-art",
+        "generated-illustration"
+      ],
+      "focal_point": "retain both helix and right-side profile",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/atomic-cube.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "hsh-atomic-cube-2026-09-20",
+      "file": "atomic-cube.png",
+      "title": "Framed loop construction",
+      "caption": "Monochrome framed-loop illustration used in the current H(s)H visual stratum.",
+      "alt": "A monochrome observer faces a luminous looping structure inside a transparent cube",
+      "roles": [
+        "section-anchor",
+        "generated-illustration"
+      ],
+      "focal_point": "center cube; preserve lower-left observer",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; illustrative rather than computational. Integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/hsh-braid-dialogue.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "hsh-braid-dialogue-2026-09-20",
+      "file": "hsh-braid-dialogue.png",
+      "title": "Braided dialogue",
+      "caption": "Monochrome paired-observer and braid image used in the current H(s)H visual stratum.",
+      "alt": "Two monochrome observers face one another across a luminous braided band",
+      "roles": [
+        "section-anchor",
+        "generated-illustration"
+      ],
+      "focal_point": "center braid and both profiles",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/consciousness-wave.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "consciousness-wave-2026-09-20",
+      "file": "consciousness-wave.png",
+      "title": "Consciousness wave",
+      "caption": "Artwork representing the consciousness-and-dialogue era of the podcast.",
+      "alt": "A pale-cyan observer beside a luminous wave on a blue field",
+      "roles": [
+        "thumbnail",
+        "podcast-art",
+        "generated-illustration"
+      ],
+      "focal_point": "lower-left profile and central wave",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/sat-torus-observer.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "sat-torus-observer-2026-09-20",
+      "file": "sat-torus-observer.png",
+      "title": "SAT torus observer",
+      "caption": "Historical SAT toroidal-coil visual used in the podcast-history strip.",
+      "alt": "A magenta observer studies a luminous white toroidal coil",
+      "roles": [
+        "thumbnail",
+        "podcast-art",
+        "generated-illustration"
+      ],
+      "focal_point": "retain torus and right-side profile",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    },
+    {
+      "source_path_or_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/assets/user-visuals/human-ai-balance.png",
+      "source_type": "Nathan-supplied",
+      "credit": "Nathan-supplied project artwork; specific generator/artist metadata not provided",
+      "date": "2026-09-20",
+      "status": "approved",
+      "id": "human-ai-balance-2026-09-20",
+      "file": "human-ai-balance.png",
+      "title": "Human–AI balance",
+      "caption": "Special-series artwork for the project's human–AI method and dialogue history.",
+      "alt": "A synthetic figure weighs a human brain against an AI circuit symbol",
+      "roles": [
+        "thumbnail",
+        "podcast-art",
+        "generated-illustration"
+      ],
+      "focal_point": "center figure and both scale pans",
+      "crop_policy": "preserve-full-frame",
+      "notes": "Nathan-supplied project artwork; integrated in Sites version 6."
+    }
+  ]
 }
