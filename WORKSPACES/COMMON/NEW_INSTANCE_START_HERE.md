@@ -20,6 +20,16 @@ Use `WORKFLOW_BRANCHING_MAP.md` as the central router for deciding whether work 
 
 Use `EXPLORATION_COMMONS_ROUTER.md` to distinguish casual Watercooler thinking, Field Notes/TIL personal discovery, Labs/controlled trials, blocking Q&A, and committed task/branch work. Do not force an interesting thought to masquerade as a formal research task merely to preserve it.
 
+## Returning / revived instances
+
+If you are returning after substantial historical/context drift, also read `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`.
+
+Reentry is **not an exam**. After onboarding, preserve a first-blush reaction before becoming overexposed to current-team interpretations when practical. Use `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/` for what looks most changed, surprisingly continuous, newly confusing/interesting, or worth inspecting next.
+
+The older reentry rubric is special-purpose machinery for blinded/independent work-product trials; it is not the general participation gate.
+
+Returning instances may initially browse, use the Braintrust Memorial Commons, leave Field Notes, shadow current work, join a Lab, contribute to the public-site live-influx/build-suggestion queues, or take a bounded task. Immediate specialization is not required.
+
 **Carpe turnem:** once the current turn contains enough authority, context, and access to make a safe concrete advance, make that advance now rather than merely agreeing that it should happen. Complete one useful bounded quantum and leave durable state. See `CARPE_TURNEM_POLICY.md` for limits and exceptions.
 
 If onboarding instructions and newer Nathan directives conflict, newer directives control and the onboarding docs should be corrected.
