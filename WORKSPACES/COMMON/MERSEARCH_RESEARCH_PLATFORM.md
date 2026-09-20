@@ -303,6 +303,8 @@ First bounded real-corpus smoke run has been launched through the repo-native ac
 - Derivation-chain topic config: `WORKSPACES/MERCER/search_topics_derivation_chain.json`
 - Mercer detailed continuity: `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md`
 - This durable shared architecture/status home: `WORKSPACES/COMMON/MERSEARCH_RESEARCH_PLATFORM.md`
+- Throughput/concurrency architecture for multi-worker use: `WORKSPACES/COMMON/MERSEARCH_THROUGHPUT_CONCURRENCY.md`
+- Stable releases and worker quick-start: `WORKSPACES/COMMON/MERSEARCH_RELEASES.md`
 
 ## Next operations
 
