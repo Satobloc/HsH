@@ -122,19 +122,19 @@ def status(text:str)->list[str]:return [n for n,p in STATUS_PATTERNS if p.search
 def math_norm(text:str)->str:
  s=str(text or "").casefold()
  repl={"π":"pi","θ":"theta","ϕ":"phi","φ":"phi","τ":"tau","δ":"delta","×":"*","·":"*","⋅":"*","÷":"/","−":"-","–":"-","≈":"~"}
- for a,b in repl.items():s=s.replace(a,b)
- cmds={"\\\\pi":"pi","\\\\theta":"theta","\\\\phi":"phi","\\\\varphi":"phi","\\\\tau":"tau","\\\\delta":"delta",
-       "\\\\cdot":"*","\\\\times":"*","\\\\div":"/","\\\\approx":"~","\\\\left":"","\\\\right":""}
- for a,b in cmds.items():s=s.replace(a,b)
- frac=re.compile(r"\\\\frac\\s*\\{([^{}]+)\\}\\s*\\{([^{}]+)\\}")
+ for x,y in repl.items():s=s.replace(x,y)
+ cmds={"\\pi":"pi","\\theta":"theta","\\phi":"phi","\\varphi":"phi","\\tau":"tau","\\delta":"delta",
+       "\\cdot":"*","\\times":"*","\\div":"/","\\approx":"~","\\left":"","\\right":""}
+ for x,y in cmds.items():s=s.replace(x,y)
+ frac=re.compile(r"\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}")
  for _ in range(8):
-  ns=frac.sub(r"(\\1)/(\\2)",s)
+  ns=frac.sub(r"(\1)/(\2)",s)
   if ns==s:break
   s=ns
  s=s.replace("{","(").replace("}",")")
- s=re.sub(r"\\s+","",s)
- s=re.sub(r"\\(([-+]?\\w+(?:\\.\\w+)?)\\)",r"\\1",s)
- s=re.sub(r"(?<=\\d)(?=[a-z(])","*",s)
+ s=re.sub(r"\s+","",s)
+ s=re.sub(r"\(([-+]?\w+(?:\.\w+)?)\)",r"\1",s)
+ s=re.sub(r"(?<=\d)(?=[a-z(])","*",s)
  return s
 def unquote(s:str)->str:
  s=s.strip()
