@@ -92,3 +92,19 @@ Folder 20 is populated. SHA comparison established exact cross-folder duplicate 
 ## End-of-run discipline
 
 After material progress, update this file with exact sources/date ranges covered, provenance/authorship decisions, duplicate/crosswalk status, mathematical/theory work and sandbox status, archive-infrastructure changes, enrichment/capability changes, unresolved issues, and one best next cursor. Do not manufacture progress when none exists.
+
+## AUTHORSHIP PRESUMPTION CORRECTION — Nathan directive, 2026-09-19
+
+Nathan directly clarified: **if a conversation is in the archive, it is because Nathan had that conversation, exported it, and uploaded it.**
+
+Operational consequence:
+- The human participant in archived conversation material is Nathan. Do not invent an unresolved-human-identity problem.
+- For raw ChatGPT exports, human/user turns are Nathan Direct by default, subject to span-level exceptions for pasted quotations, coauthored prompts/artifacts, or other explicitly embedded non-Nathan text.
+- For NotebookLM exports, the known exporter defect remains: generated NotebookLM/UI material can also be serialized as `role=user`. Therefore `role=user` alone cannot separate human turns from generated turns **within NLM captures**.
+- However, once NLM conversation structure/metadata/content reliably identifies a record as the human-entered side, its human author is Nathan and it should be treated as Nathan Direct, again subject only to embedded quotation/coauthorship boundaries.
+- Do not downgrade clearly structurally identifiable human NLM prompts to “Nathan-candidate” merely because the exporter corrupts role labels.
+- Generated NLM answers remain non-Nathan regardless of erroneous `role=user`.
+- Ambiguity means human-vs-generated ambiguity, not Nathan-vs-some-other-human ambiguity.
+- Revisit recent Aster classifications in Alberrisch, BURNTHROUGH, SAT_SoT, Steamroller, and other NLM passes where prompt-shaped/structurally human turns were left merely candidate. Promote where structural evidence is adequate; preserve unresolved only where human/generated separation genuinely cannot be made.
+
+This correction supersedes Aster's earlier over-conservative formulation.
