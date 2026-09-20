@@ -9,9 +9,19 @@
     "This graph is a machine-readable routing index, not theory authority.",
     "Do not invent missing branches from filenames, worker names, or recurrence labels.",
     "A worker change, method change, repository move, or bounded step does not by itself create a new branch.",
-    "Populate progressively from verified durable branch/task state; unknown fields remain explicit."
+    "Populate progressively from verified durable branch/task state; unknown fields remain explicit.",
+    "Nathan Direct 2026-09-20 reweights the active edge from excavation/preservation as the dominant mode toward bold sandboxed construction and projection/benchmark work. Excavation remains supporting infrastructure. Confidence attaches first to faithful representation/reproduction of accepted physics; it does not automatically transfer to SAT/H(s)H derivation, novelty, or validation."
   ],
-  "allowed_status": ["candidate", "active", "blocked", "handoff_pending", "parked", "completed", "superseded", "rejected"],
+  "allowed_status": [
+    "candidate",
+    "active",
+    "blocked",
+    "handoff_pending",
+    "parked",
+    "completed",
+    "superseded",
+    "rejected"
+  ],
   "branches": [
     {
       "id": "CTRL-2026-09-20-GENERALIST",
@@ -19,14 +29,25 @@
       "kind": "control_plane",
       "status": "active",
       "parent": null,
-      "children": ["CTRL-02", "CTRL-03", "CTRL-04", "CTRL-05"],
+      "children": [
+        "CTRL-02",
+        "CTRL-03",
+        "CTRL-04",
+        "CTRL-05"
+      ],
       "origin": "Nathan workflow directives and 2026-09-20 control-plane reconciliation",
       "intent": "Replace stale fixed-specialist routing with stable-instance/fluid-work generalist routing while preserving live provenance, quarantine, sandbox, continuity, and wayfinding controls.",
       "repository": "Satobloc/HsH",
       "primary_surface": "WORKSPACES/COMMON",
-      "exposure_constraints": ["Preserve PRIOR_ART/private quarantine boundaries", "Do not infer historical-instance accessibility"],
+      "exposure_constraints": [
+        "Preserve PRIOR_ART/private quarantine boundaries",
+        "Do not infer historical-instance accessibility"
+      ],
       "owner_instance": null,
-      "candidate_instances": ["Tern", "Mercer"],
+      "candidate_instances": [
+        "Tern",
+        "Mercer"
+      ],
       "dependencies": [],
       "blockers": [],
       "last_material_state": "Current workflow orientation v2, instance/lease registry, human workflow branching map, and machine-readable task/branch graph established.",
@@ -71,7 +92,10 @@
       "children": [],
       "repository": "Satobloc/HsH",
       "primary_surface": "WORKSPACES/COMMON",
-      "dependencies": ["CTRL-02", "CTRL-03"],
+      "dependencies": [
+        "CTRL-02",
+        "CTRL-03"
+      ],
       "blockers": [],
       "last_material_state": "Older surfaces still contain stale specialist-lane/Sable-exclusive language; live signet, provenance, quarantine, sandbox, handoff, attention-flag, and continuity controls must be retained.",
       "next_cursor": "Inspect and reconcile WORKER_AUTONOMY_HANDOFF_PROTOCOL.md and ACTIVE_AUTOMATION_ROSTER.md against current controls.",
@@ -87,8 +111,12 @@
       "children": [],
       "repository": "Satobloc/HsH",
       "primary_surface": "WORKSPACES/COMMON",
-      "dependencies": ["CTRL-04"],
-      "blockers": ["Wait for control-plane reconciliation so the cold-start test does not validate stale routing."],
+      "dependencies": [
+        "CTRL-04"
+      ],
+      "blockers": [
+        "Wait for control-plane reconciliation so the cold-start test does not validate stale routing."
+      ],
       "last_material_state": "Test defined conceptually but not yet run.",
       "next_cursor": "After CTRL-04, simulate a new/revived instance locating purpose, task state, repo roles, tools, quarantine rules, and a useful next action without oral briefing.",
       "exit_criterion": "Cold-start instance can navigate all three repos and current workflow without contradictory guidance or undocumented critical steps.",
@@ -100,12 +128,18 @@
       "kind": "exploration_commons",
       "status": "active",
       "parent": null,
-      "children": ["LAB-SBS-001"],
+      "children": [
+        "LAB-SBS-001"
+      ],
       "origin": "Nathan directive, 2026-09-20",
       "intent": "Maintain a visible low-stakes intellectual commons where workers can think aloud, post serendipitous learning, identify neglected high-leverage work, and spin promising ideas into controlled Labs or committed branches without forcing every thought into research-report or task language.",
       "repository": "Satobloc/HsH",
       "primary_surface": "WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md",
-      "exposure_constraints": ["No PRIOR_ART/quarantined leakage", "Preserve source/exposure identity where independence matters", "Commons consensus is not theory validation"],
+      "exposure_constraints": [
+        "No PRIOR_ART/quarantined leakage",
+        "Preserve source/exposure identity where independence matters",
+        "Commons consensus is not theory validation"
+      ],
       "owner_instance": null,
       "candidate_instances": [],
       "dependencies": [],
@@ -126,15 +160,28 @@
       "intent": "Build an auditable Python-capable comparison harness for matched SAT/H(s)H geometric-solver and standard/reference-equation cases without hiding target leakage, fit freedom, units, transformations, or representation assumptions.",
       "repository": "Satobloc/HsH",
       "primary_surface": "WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER",
-      "exposure_constraints": ["Preserve PRIOR_ART/private quarantine", "Classify inputs/fits/derived/predicted/blind/post-hoc values", "Do not treat numerical agreement as derivation or validation"],
+      "exposure_constraints": [
+        "Preserve PRIOR_ART/private quarantine",
+        "Classify inputs/fits/derived/predicted/blind/post-hoc values",
+        "Do not treat numerical agreement as derivation or validation"
+      ],
       "owner_instance": null,
-      "candidate_instances": ["Meridian", "Tern"],
-      "dependencies": ["Inventory existing solver/tool interfaces", "Choose smallest viable paired benchmark"],
+      "candidate_instances": [
+        "Meridian",
+        "Tern",
+        "Ravel",
+        "Mercer"
+      ],
+      "dependencies": [
+        "Inventory existing solver/tool interfaces",
+        "Choose smallest viable paired benchmark"
+      ],
       "blockers": [],
-      "last_material_state": "Lab framework and design specification established; implementation intentionally deferred until solver inventory prevents duplicate/reinvented adapters.",
-      "next_cursor": "Inventory existing solver implementations and comparison machinery, then select the smallest legitimate paired benchmark.",
+      "last_material_state": "REWEIGHTED by Nathan Direct 2026-09-20 as a focal active-edge mechanism for the project’s construction phase: use explicit 4D geometric representations against accepted/reference physics in auditable side-by-side cases. Existing Lab guards remain controlling: inputs/fits/derived/predicted values and representation assumptions must stay visible; reproduction/agreement is not theory validation.",
+      "next_cursor": "Run the existing solver/tool inventory, then choose the smallest benchmark where the 4D geometric representation can be tested against a well-established mainstream reference result without target leakage. Record separately: representation correctness, derivational status, fit freedom, and any genuinely novel consequence.",
       "exit_criterion": "One paired case runs through both sides from a shared manifest with reproducible metadata and an auditable comparison report.",
-      "return_route": "WORKSPACES/LABS/LAB_REGISTRY.json"
+      "return_route": "WORKSPACES/LABS/LAB_REGISTRY.json",
+      "priority_note": "FOCAL ACTIVE-EDGE / construction-phase reweight. This does not retire archive/provenance work; it changes excavation from default destination to supporting feeder unless a dependency requires it."
     }
   ]
 }
