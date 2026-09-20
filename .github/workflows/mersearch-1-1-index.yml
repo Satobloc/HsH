@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Compile development tools
-        run: python -m py_compile tools/search_archive_content.py tools/build_mersearch_index.py tools/query_mersearch_index.py
+        run: python -m py_compile tools/search_archive_content.py tools/build_mersearch_index.py tools/update_mersearch_index.py tools/query_mersearch_index.py
       - name: Build bounded immutable index generation
         run: |
           rm -rf /tmp/mersearch-index
@@ -41,6 +41,23 @@ jobs:
         run: |
           python tools/query_mersearch_index.py /tmp/mersearch-index --match '"star shaped" OR "star-shaped"' --limit 10
           python tools/query_mersearch_index.py /tmp/mersearch-index --match 'holonomy' --limit 10
+      - name: Incremental no-change rebuild benchmark
+        run: |
+          python tools/update_mersearch_index.py . --index-root /tmp/mersearch-index --max-bytes 3000000 | tee /tmp/inc-nochange.json
+          python tools/query_mersearch_index.py /tmp/mersearch-index --match 'holonomy' --limit 3
+      - name: Incremental one-file-change benchmark
+        run: |
+          printf '\nMERSEARCH_INCREMENTAL_TEST_SENTINEL\n' >> WORKSPACES/MERCER/search_topics_derivation_chain.json
+          python tools/update_mersearch_index.py . --index-root /tmp/mersearch-index --max-bytes 3000000 | tee /tmp/inc-onechange.json
+          git checkout -- WORKSPACES/MERCER/search_topics_derivation_chain.json
+          python - <<'PY'
+          import json
+          a=json.load(open('/tmp/inc-nochange.json'))
+          b=json.load(open('/tmp/inc-onechange.json'))
+          print(json.dumps({'no_change':a['reuse'],'no_change_timings':a['timings_seconds'],'one_change':b['reuse'],'one_change_timings':b['timings_seconds']},sort_keys=True))
+          assert a['reuse']['changed_or_new_sources']==0,a
+          assert b['reuse']['changed_or_new_sources']==1,b
+          PY
       - name: Reader during rebuild and atomic generation switch
         run: |
           python - <<'PY'
