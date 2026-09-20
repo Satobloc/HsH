@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 566,
-  "conversation_exports_recognized": 423,
-  "nonconversation_json_skipped": 142,
+  "json_files_scanned": 571,
+  "conversation_exports_recognized": 424,
+  "nonconversation_json_skipped": 146,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
@@ -618,8 +618,7 @@
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -661,8 +660,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 71.2162,
       "tagger_version": 2,
       "source_sha256": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
@@ -51903,8 +51902,7 @@
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
         "CONV:WHIRLIGIG-DONUT",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -51943,8 +51941,8 @@
         "SPECULATION",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 66.22,
       "tagger_version": 2,
       "source_sha256": "bc6b3d859f035fda68c1cfcee09e9307adce7e7f6040821ff684afc9ca514309",
@@ -52198,8 +52196,7 @@
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -52241,8 +52238,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 71.2162,
       "tagger_version": 2,
       "source_sha256": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
@@ -52551,8 +52548,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -52599,8 +52595,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "52d0814c39896f502d3f793911f9c53b53a97bead92b8bdf9189688ff8eb8d6d",
@@ -52913,8 +52909,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -52961,8 +52956,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "a2cfbac2023f4cd856b46f273a366f9830256df9c4061dbd7cc528e2fd0e947a",
@@ -52989,14 +52984,13 @@
         "PROVENANCE-HISTORY": 1
       },
       "conversation_tags": [
-        "CONV:TOPIC-DENSE",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:TOPIC-DENSE"
       ],
       "discourse_tags": [
         "SHORT-TURN"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 9.0,
       "tagger_version": 2,
       "source_sha256": "ad605d7e51f1d1ec014b16b27ac24547b6e8b804381fdad0ebefa339c9222433",
@@ -53104,8 +53098,7 @@
         "CONV:QUANTIZATION",
         "CONV:SAT-HSH",
         "CONV:TOPOLOGY",
-        "CONV:WORK-CAREER",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WORK-CAREER"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -53130,8 +53123,8 @@
         "SPECULATION",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 79.0,
       "tagger_version": 2,
       "source_sha256": "41b6ca0bda6297d53860659f5ff4ae8d17d3fd44cd199d14b47b2756ef9a3bcd",
@@ -53336,8 +53329,7 @@
         "CONV:TIMESHEET",
         "CONV:TOPOLOGY",
         "CONV:TOPOLOGY-MORPHOLOGY",
-        "CONV:WORLDLINE",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WORLDLINE"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -53366,8 +53358,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "57adb8712529097f90ba54d126209ad333b8a02e87eb8f65f7ad802a726d9db8",
@@ -53596,8 +53588,7 @@
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -53633,8 +53624,8 @@
         "SPECULATION",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 90.0,
       "tagger_version": 2,
       "source_sha256": "ccb83ea19ef5d8d4abdeec06afdc0a79ec20416b2bafbd7d62fe32ae075804e9",
@@ -53746,8 +53737,7 @@
         "CONV:PHILOSOPHY",
         "CONV:PHYSICS",
         "CONV:SAT-HSH",
-        "CONV:TOPOLOGY",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:TOPOLOGY"
       ],
       "discourse_tags": [
         "EPISTEMOLOGY",
@@ -53762,8 +53752,8 @@
         "REASONING",
         "SELF-CORRECTION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 54.68,
       "tagger_version": 2,
       "source_sha256": "55ef1d9b5d2eaceec6eed23918a6b66dc957312e19f42ea6eeb0ca49baf4d8e3",
@@ -54056,8 +54046,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -54099,8 +54088,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "7a1f22d882f5706593517319dff0e3c8ad4973446d8d8cf53e4db131507748fc",
@@ -54277,8 +54266,7 @@
         "CONV:VISUALIZATION",
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORK-CAREER",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "CHALLENGE",
@@ -54313,8 +54301,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "ea1b9926f47b4c5f474c4e77a0ad39e17ca79eb40ef813bb0d0fd539357be780",
@@ -54410,15 +54398,14 @@
         "CONV:PROBABILITY-STATS",
         "CONV:RELATIVITY",
         "CONV:SAT-HSH",
-        "CONV:TOPOLOGY",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:TOPOLOGY"
       ],
       "discourse_tags": [
         "PRECISION:ELLIPSIS",
         "SHORT-TURN"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 41.9667,
       "tagger_version": 2,
       "source_sha256": "24f22ec5540d55986b2da0de7d41a56b820e33ec64c4383d8ea3904f2dfd010e",
@@ -54495,16 +54482,15 @@
         "CONV:INTERACTIONS",
         "CONV:MATHEMATICS",
         "CONV:OPTICS",
-        "CONV:SAT-HSH",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:SAT-HSH"
       ],
       "discourse_tags": [
         "METHODOLOGY",
         "SHORT-TURN",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 24.34,
       "tagger_version": 2,
       "source_sha256": "bcf664867e374d440587d5cf384890babc857f1d1e9ae91020e74ebf8fe574e2",
@@ -54653,8 +54639,7 @@
         "CONV:QUANTUM",
         "CONV:SAT-HSH",
         "CONV:VISUALIZATION",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "NEGATING",
@@ -54665,8 +54650,8 @@
         "SHORT-TURN",
         "SPECULATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 46.88,
       "tagger_version": 2,
       "source_sha256": "6eb997142ec1140bc7f62498dd34860eec7c0474d5f42e3c9fd9d7e6d926228e",
@@ -54718,16 +54703,15 @@
         "CONV:HIGH-TOPIC-DENSITY",
         "CONV:LAGRANGIAN",
         "CONV:QUANTIZATION",
-        "CONV:QUANTUM",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:QUANTUM"
       ],
       "discourse_tags": [
         "PLANNING",
         "PRECISION:PARENTHETICAL",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 53.06,
       "tagger_version": 2,
       "source_sha256": "ba9abb7762af6791dcd9054f4a3e374c025ba741c5fbe80a46ca5dd826715850",
@@ -55004,8 +54988,7 @@
         "CONV:W-AXIS",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -55048,8 +55031,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "0f8a8e975fac720a2e9e61984b126c344218b8441ea87ad18e09831bec7ff59d",
@@ -55356,8 +55339,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -55400,8 +55382,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "a626df91ce702c03180f2bdeed45f3967efb93508139fd700d37873e38540608",
@@ -55486,8 +55468,7 @@
         "CONV:HIGH-TOPIC-DENSITY",
         "CONV:LEAN-FORMALIZATION",
         "CONV:MATHEMATICS",
-        "CONV:SAT-HSH",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:SAT-HSH"
       ],
       "discourse_tags": [
         "IDEATION",
@@ -55498,8 +55479,8 @@
         "REASONING",
         "REVISION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 43.7633,
       "tagger_version": 2,
       "source_sha256": "56ca9b0bfdf25f4027a9321a87d53dad789804812ee6943143e9037654f41e32",
@@ -55605,8 +55586,7 @@
         "CONV:SAT-HSH",
         "CONV:TOPOLOGY",
         "CONV:VISUALIZATION",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -55618,8 +55598,8 @@
         "SHORT-TURN",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 58.5953,
       "tagger_version": 2,
       "source_sha256": "8d5a7094b2580c0d61bdc25ac72fb33221aa26f6671280ba6a7a1ac9d53c305f",
@@ -55795,8 +55775,7 @@
         "CONV:TOPOLOGY",
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -55823,8 +55802,8 @@
         "SHORT-TURN",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 89.08,
       "tagger_version": 2,
       "source_sha256": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
@@ -56002,8 +55981,7 @@
         "CONV:TOPOLOGY",
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -56030,8 +56008,8 @@
         "SHORT-TURN",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 89.08,
       "tagger_version": 2,
       "source_sha256": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
@@ -56161,8 +56139,7 @@
         "CONV:SAT-HSH",
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -56190,8 +56167,8 @@
         "SHORT-TURN",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 68.16,
       "tagger_version": 2,
       "source_sha256": "83f0b06c30c4ee9c4df34f21689dd47d86276080e462503f42839bc600dfa61e",
@@ -56448,8 +56425,7 @@
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -56490,8 +56466,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "b4823ad63a3b5a7ef3aad9c49f8900f343309b945bc33396c188b845e4255e8a",
@@ -56752,8 +56728,7 @@
         "CONV:VISUALIZATION",
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -56798,8 +56773,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "5a988723e7244793cfa5adb73ba39aa0691fa104e7c10ba0e088e018b5f71646",
@@ -57038,8 +57013,7 @@
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
         "CONV:WORK-CAREER",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -57083,8 +57057,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 85.52,
       "tagger_version": 2,
       "source_sha256": "abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456",
@@ -57343,8 +57317,7 @@
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -57385,8 +57358,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
@@ -57649,8 +57622,7 @@
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORK-CAREER",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -57692,8 +57664,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 81.68,
       "tagger_version": 2,
       "source_sha256": "0275d6d1b26227334359ba70d742e2f4a9efba988e67d6949e3463fb2ec2bf1a",
@@ -58002,8 +57974,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -58047,8 +58018,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
@@ -58365,8 +58336,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -58409,8 +58379,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
@@ -58729,8 +58699,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -58777,8 +58746,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
@@ -59047,8 +59016,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -59090,8 +59058,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58",
@@ -63392,8 +63360,7 @@
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:VISUALIZATION",
         "CONV:WORK-CAREER",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -63437,8 +63404,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 85.52,
       "tagger_version": 2,
       "source_sha256": "abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456",
@@ -63697,8 +63664,7 @@
         "CONV:WHIRLIGIG-DONUT",
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -63739,8 +63705,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
@@ -63935,8 +63901,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -63969,8 +63934,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 92.84,
       "tagger_version": 2,
       "source_sha256": "e2d87d8efd775e58cbff6ad538bcfe6960101a7dbc562c4adafe09ecf9b70937",
@@ -64289,8 +64254,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -64337,8 +64301,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
@@ -89888,8 +89852,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -89927,8 +89890,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 91.44,
       "tagger_version": 2,
       "source_sha256": "866a5f96a7fbe29d378ad8e92ad2f48d187494b2b297c8919c67c9a43e334f85",
@@ -91592,6 +91555,174 @@
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "f9bfb16862da3c2f7ed3e2f3251247f6c52b868a26625faafa2e7f6cd9b124ff",
+      "exact_duplicate_paths": []
+    },
+    {
+      "source_path": "PUBLIC_SITE/Explain Sites_ — raw.json",
+      "title": "Explain Sites\n",
+      "conversation_id": "6aaf8f52-9e18-83ea-9b88-1c7a70c4d401",
+      "message_count": 43,
+      "user_message_count": 12,
+      "first_create_time": 1789890405.964,
+      "last_create_time": 1789894401.795056,
+      "conversation_density": 0.883721,
+      "topic_tags": [
+        "AI-LLM",
+        "ARCHIVE-INDEXING",
+        "ART-DESIGN",
+        "AUTOMATION",
+        "CODING",
+        "FILM-MEDIA",
+        "GEOMETRY",
+        "GITHUB-REPO",
+        "HELIX-GEOMETRY",
+        "HISTORY",
+        "INTERACTIONS",
+        "LANGUAGE",
+        "MATHEMATICS",
+        "MUSIC-AUDIO",
+        "PHYSICS",
+        "PROVENANCE-HISTORY",
+        "SAT-HSH",
+        "UI",
+        "WRITING"
+      ],
+      "topic_tags_all_observed": [
+        "AI-LLM",
+        "ARCHIVE-INDEXING",
+        "ART-DESIGN",
+        "ASTROPHYSICS",
+        "AUTOMATION",
+        "BLACK-HOLES",
+        "BRAIDING",
+        "CODING",
+        "ELECTROGRAVITY",
+        "FILM-MEDIA",
+        "FINITE-CORE",
+        "GEOMETRY",
+        "GITHUB-REPO",
+        "GRATICULE",
+        "HAGALAZ",
+        "HELIX-GEOMETRY",
+        "HISTORY",
+        "IMAGE-PHOTOGRAPHY",
+        "INTERACTIONS",
+        "INTERBRAID",
+        "LANGUAGE",
+        "MATHEMATICS",
+        "METRIC",
+        "MUSIC-AUDIO",
+        "PHOTON-NEUTRINO",
+        "PHYSICS",
+        "PROVENANCE-HISTORY",
+        "RELATIVITY",
+        "SAT-HSH",
+        "SPHERES",
+        "SUPERSESSION-CANDIDATE",
+        "TIMESHEET",
+        "TOPOLOGY",
+        "UI",
+        "VISUALIZATION",
+        "WHIRLIGIG-DONUT",
+        "WORK-CAREER",
+        "WORLDTUBE",
+        "WRITING"
+      ],
+      "topic_message_counts": {
+        "AI-LLM": 5,
+        "ARCHIVE-INDEXING": 13,
+        "ART-DESIGN": 3,
+        "ASTROPHYSICS": 1,
+        "AUTOMATION": 3,
+        "BLACK-HOLES": 1,
+        "BRAIDING": 1,
+        "CODING": 4,
+        "ELECTROGRAVITY": 1,
+        "FILM-MEDIA": 6,
+        "FINITE-CORE": 1,
+        "GEOMETRY": 3,
+        "GITHUB-REPO": 21,
+        "GRATICULE": 1,
+        "HAGALAZ": 1,
+        "HELIX-GEOMETRY": 2,
+        "HISTORY": 9,
+        "IMAGE-PHOTOGRAPHY": 1,
+        "INTERACTIONS": 2,
+        "INTERBRAID": 1,
+        "LANGUAGE": 13,
+        "MATHEMATICS": 4,
+        "METRIC": 1,
+        "MUSIC-AUDIO": 12,
+        "PHOTON-NEUTRINO": 1,
+        "PHYSICS": 3,
+        "PROVENANCE-HISTORY": 15,
+        "RELATIVITY": 1,
+        "SAT-HSH": 26,
+        "SPHERES": 1,
+        "SUPERSESSION-CANDIDATE": 1,
+        "TIMESHEET": 1,
+        "TOPOLOGY": 1,
+        "UI": 2,
+        "VISUALIZATION": 1,
+        "WHIRLIGIG-DONUT": 1,
+        "WORK-CAREER": 1,
+        "WORLDTUBE": 1,
+        "WRITING": 2
+      },
+      "conversation_tags": [
+        "CONV:AI-LLM",
+        "CONV:ARCHIVE-INDEXING",
+        "CONV:ARCHIVE-WORK",
+        "CONV:ART-DESIGN",
+        "CONV:AUTOMATION",
+        "CONV:CODING",
+        "CONV:FILM-MEDIA",
+        "CONV:GEOMETRY",
+        "CONV:GITHUB-REPO",
+        "CONV:HELIX-GEOMETRY",
+        "CONV:HIGH-TOPIC-DENSITY",
+        "CONV:HISTORY",
+        "CONV:INTERACTIONS",
+        "CONV:LANGUAGE",
+        "CONV:MATHEMATICS",
+        "CONV:MUSIC-AUDIO",
+        "CONV:PHYSICS",
+        "CONV:PROVENANCE-HISTORY",
+        "CONV:SAT-HSH",
+        "CONV:UI",
+        "CONV:WRITING"
+      ],
+      "discourse_tags": [
+        "BLUNTNESS",
+        "CORRECTIVE",
+        "COUNTERMANDING",
+        "DEFINITION",
+        "ENTHUSIASTIC-AGREEMENT",
+        "EPISTEMOLOGY",
+        "GENTLE-REDIRECTION",
+        "HESITANCY",
+        "IDEATION",
+        "INSISTENCE",
+        "LOGORRHEA",
+        "LONG-FORM",
+        "METHODOLOGY",
+        "NEGATING",
+        "NUANCE",
+        "PLANNING",
+        "PRECISION:BRACKETING",
+        "PRECISION:ELLIPSIS",
+        "PRECISION:EM-DASH",
+        "PRECISION:NESTED-CLAUSES",
+        "PRECISION:PARENTHETICAL",
+        "REASONING",
+        "SHORT-TURN",
+        "SPECULATION"
+      ],
+      "structural_index_present": true,
+      "index_gap_candidate": false,
+      "top_retrieval_score": 79.3,
+      "tagger_version": 2,
+      "source_sha256": "028782b4a3d731693f21806ad13787fe64fafb8a07503a240d0a911c5ef79297",
       "exact_duplicate_paths": []
     }
   ]

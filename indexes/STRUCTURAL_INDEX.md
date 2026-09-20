@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-13T12:41:33+00:00`
-- Tree/content state: `40042a87dc41efbe847fa41b9f6cee56afcc220b53296e113285c361f07353d8`
-- Coverage: 943 files, 73 directories
+- Scanned: `2026-09-20T12:29:01+00:00`
+- Tree/content state: `7865185d6827795eeb8386ab8c7e428e167481e6385cdb3f27750cd0854b0658`
+- Coverage: 1790 files, 106 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -12,31 +12,37 @@
 | Path | Files |
 |---|---:|
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
+| `!!_RUNNING_COTHEORIST_LOG.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 16 |
+| `.github` | 22 |
 | `ARCHITECTURE.md` | 1 |
-| `CONVERSATION_VIEWER` | 21 |
-| `DEVELOPMENT_FULL_CONVOS` | 604 |
+| `BEDROCK.md` | 1 |
+| `CONSULTANTS` | 4 |
+| `CONVERSATION_VIEWER` | 24 |
+| `DEVELOPMENT_FULL_CONVOS` | 787 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
-| `LIBRARY` | 36 |
+| `LIBRARY` | 33 |
 | `LIBRARY.md` | 1 |
 | `LICENSE` | 1 |
-| `LIVE CONVOS` | 35 |
+| `LIVE CONVOS` | 36 |
 | `NEW_PAPERS` | 3 |
+| `PUBLIC_SITE` | 10 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
-| `SAT_VISUALS` | 29 |
-| `WORKSPACES` | 144 |
+| `SAT_VISUALS` | 87 |
+| `SCRIPT_EXECUTION_SAFETY.md` | 1 |
+| `STATE_OF_THE_THEORY.md` | 1 |
+| `WORKSPACES` | 703 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
 | `generated` | 5 |
-| `indexes` | 10 |
+| `indexes` | 25 |
 | `ledgers` | 5 |
 | `synthesis` | 6 |
-| `tests` | 1 |
-| `tools` | 11 |
+| `tests` | 4 |
+| `tools` | 15 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -45,47 +51,51 @@
 |---|---:|
 | `.cmd` | 1 |
 | `.css` | 5 |
-| `.csv` | 11 |
+| `.csv` | 24 |
 | `.docx` | 1 |
 | `.htm` | 1 |
 | `.html` | 1 |
 | `.ipynb` | 1 |
+| `.jpeg` | 56 |
 | `.jpg` | 17 |
-| `.js` | 6 |
-| `.json` | 411 |
-| `.jsonl` | 3 |
+| `.js` | 9 |
+| `.json` | 575 |
+| `.jsonl` | 14 |
 | `.lean` | 3 |
-| `.md` | 199 |
-| `.pdf` | 22 |
+| `.m4a` | 1 |
+| `.md` | 705 |
+| `.mjs` | 1 |
+| `.pdf` | 29 |
 | `.png` | 37 |
-| `.py` | 45 |
+| `.py` | 75 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
+| `.srt` | 2 |
 | `.toml` | 1 |
 | `.tx` | 1 |
-| `.txt` | 155 |
-| `.yml` | 16 |
-| `[none]` | 3 |
+| `.txt` | 199 |
+| `.yml` | 22 |
+| `[none]` | 6 |
 
 ## Structural roles
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 11 |
+| `archive-tooling` | 15 |
 | `audit-output` | 1 |
-| `automation-workflow` | 16 |
+| `automation-workflow` | 22 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
-| `generated-catalog` | 10 |
+| `generated-catalog` | 25 |
 | `license` | 1 |
-| `live-conversation-corpus` | 35 |
-| `llm-workspace` | 144 |
+| `live-conversation-corpus` | 36 |
+| `llm-workspace` | 703 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 604 |
+| `source-conversation-corpus` | 787 |
 | `synthesis-workspace` | 6 |
-| `tooling-test` | 1 |
-| `unclassified` | 95 |
+| `tooling-test` | 4 |
+| `unclassified` | 171 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -97,14 +107,25 @@
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/gitignore.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/gitignore.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt`
   - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt`
+  - `SAT_VISUALS/DAI_thumbnails/gitignore.txt`
+  - `SAT_VISUALS/STYLEsheets/gitignore.txt`
   - `SAT_VISUALS/gitignore.txt`
 - `0234f958e115870079b75fb893a235ed93d89955547c89d4aadfac81aa84789f`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.04•26.06.01•Proton-Electron Mass Ratio — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.05.04•26.06.01•Proton-Electron Mass Ratio — raw.json`
+- `0246bf7e63be7e619771dd5658f505a8b18010fc8dd3db8db2d6f19b266c347a`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT (Almost) From Scratch__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT (Almost) From Scratch__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt`
 - `09172367691a0cc4af8d4645dd05f9b5d4aa2e0a764380c563bdc97971bf8141`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/s41586-026-10904-x (1).pdf`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/s41586-026-10904-x.pdf`
@@ -114,9 +135,22 @@
 - `0e75781f8af87dfd10eea12bd8c985ff2a510a2f8f08b5891340e3f724894f37`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json`
   - `LIVE CONVOS/H(s)H Team Orchestrator — raw.json`
-- `130770d0308d9376a1714ead32c86fd0a74362e7b0d3caad1f6969de65998ccb`
-  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json`
-  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json`
+- `0e8748f57e8b5bf9ae86ba1056c49d4568200f5d2d5923620f1a68377c4b00b2`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json`
+- `0f8a8e975fac720a2e9e61984b126c344218b8441ea87ad18e09831bec7ff59d`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json`
+- `14dd8e4bf0e045b9971504db6e51fa945cb83f97efcdd58ba1fa433aa5571316`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/[[[ H (( s )) H ]]]__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/[[[ H (( s )) H .txt`
+- `16e490d70512d9c9e3836e93f46a315ea1601c22aa401086dde8d0ec8666ba1d`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ReStrat__NotebookLM_export (1).json`
+- `1935e44e5b4a94ef367aedb0bc54bc2abf3390be16838b2027d1f315e99e664b`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT RIGOR__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export.txt`
 - `1c9d58b1a197ac537c25f4a75d042d48233344c479ab3aa5d1dc7ada622f83ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt`
@@ -154,12 +188,28 @@
 - `3ddb281d1713aa64414796962437a911e9840d824066712bf7993ebc9a88802a`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.27•OS-00 world overview — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26•25.09.27•OS-00 world overview — raw.txt`
+- `3f6cd7d780e673a5ce8681d235355ca9b58464df6ae388b14efc638fad643985`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Gemini Notebook__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Gemini Notebook__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini Notebook__NotebookLM_export.txt`
 - `42012a63c9cfae196ed7a55c569a93b6ecf46fa9bcd7deb6d7f9907c5606c73c`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw - .txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.07.08•26.07.08•Freeze SAT Object Hierarchy — raw.json`
 - `432955039b1372dc2b8db21c1905a7a3eb8cb49025ed2e0f9d27f99e1129b441`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11•26.03.11•Methodology Review Request — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.11•26.03.11•Methodology Review Request — raw.json`
+- `461da137e026d09cb3378feebbc9fb9564aae58cae20d18e028f96f51b7708e3`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT Vis__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT Vis__NotebookLM_export.json`
+- `485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json`
+- `4c35269828a4c0c27aaaf373d13faa5f26fe1dc625304b5e0cc9a25b6f043b33`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/BLANK SLATE__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/BLANK SLATE__NotebookLM_export.json`
+- `502359f94c0010a0372d27cd1a2f4f06d245564499bcc51e8b24001221970bc6`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_chat.md`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV1. SAT PURE__NotebookLM_chat.md`
 - `513fb4c519ce3f43d9f25b34b05fba18b089c019ed7b61a34885aea28d0e1f25`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw.json`
@@ -167,21 +217,33 @@
 - `521bf91c88810d268568bd32eebc3e4a615c1813c17819271f37522b993276c7`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.12.08•26.06.01•SAT theory clarification — raw.json`
+- `52d978f95a75b1556c6c823a74570cca2f763d0bcb1278d4437c22b78e1fde32`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H STEAMROLLER__NotebookLM_export.json`
 - `58a57a32452a042fc2e0c0349a23ab9bdfe95b761bd50b4c1cf9d911c11bdf86`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.28•Script prompt nesting — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27•25.09.28•Script prompt nesting — raw.txt`
 - `5bfeef3758fb96b6cf899749089020094514a4543be40bfec0b21faf7111ba19`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/26.03.02•26.03.02•Intellectual Surprise Challenge — raw.json`
+- `5d2c7cdc4a883a1da5db26c827e6ae7fe596ef4fae5c809702441aea7fef8d8a`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json`
 - `60acb117898c434c5b3a063eb750d0175ef90c02d4996abb41cdfe4922dfad93`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
   - `LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json`
 - `6260d025390f278203456678ac444aade4cc3e08d13411321114fd250b1e419c`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04•25.05.05•SAT Summary Breakdown — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04•25.05.05•SAT Summary Breakdown — raw.json`
+- `62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt`
 - `643520aa97e32bcef109711e8d94ca562fdafc0716a71b321e1b6df3e3f64f31`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1) - Copy.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/1 Planetology -- Geometric Foundations Evaluation — raw (1).txt`
+- `66d796dc6544045f194a06d67df596af31f31d53c89c0c590b5e88eb943e8810`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Orbital_Extraction_Architecture.pdf`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Orbital_Extraction_Architecture.pdf`
 - `67bbce070d35e9bfe97074341894a3f39f78cdd1e2ce471f13391650eb3971aa`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25•25.04.25•Stringing Along Theory Evolution — raw.json`
@@ -191,10 +253,17 @@
 - `685d3172c662a831fb4640e4fa0ccb068303cf1c8c60a4161614b9fcb51e955e`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07•25.05.07•Stringing-Along Theory Feedback — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07•25.05.07•Stringing-Along Theory Feedback — raw.json`
+- `6e56463f29b1b90774d78517284fdeb663cfd2e4313ca9e0ff16fe465cfc6883`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV1. SAT PURE__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt`
 - `732b61e0f3a0fd8e7eaf9714690c35a578238a2b1571cbf1e94e25ad8e6519dd`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.29•26.08.30•Quick Pass Analysis — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.08.29•26.08.30•Quick Pass Analysis — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.29•26.08.30•Quick Pass Analysis — raw.json`
+- `73ae4bf65121779436ccd463d0b8e112665626120fe90cbb8c5b43231b69f89c`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/The New Physics - Majorana Coupling & Coiled Cooper Pairing.srt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/The New Physics - Majorana Coupling & Coiled Cooper Pairing.srt`
 - `73bf91b8e8496e0f8b3381d6883d9de5bd9555dda19a9c012871a96e73bc0928`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw.json`
@@ -212,6 +281,9 @@
 - `78f82d8f3077a6c7168a02242b4ad09528802d695536382fd6f1e72420965540`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04•25.04.04•Stringing Along Theory Review — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04•25.04.04•Stringing Along Theory Review — raw.json`
+- `7a8c57ec7d6335c3fdab7c2ff4954b7fdd2f3e4ab7438df4ca8cd49ed3fc9df9`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_chat.md`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/THE TWO ROCKS__NotebookLM_chat.md`
 - `7b12bd1697d52a94a4e3fbbfdb321c27599a074fe53371e9221d6b3ee159288d`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw - .txt`
   - `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.05.31•26.06.02•xGitHub Archive Review — raw.json`
@@ -227,18 +299,56 @@
 - `8a240befe21f7c03e5181adb66fd529ab7fa7c64cb7bbaa47649aef863261834`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json`
   - `LIVE CONVOS/Build Geometry Coding Skill — raw.json`
+- `8fa431986b8ce99849db6c9664260d2266e1adedc6b3dfbabc5f14a0f4026052`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅__NotebookLM_export.json`
+- `91b0d7a2bc4be8412c5b03f1389d0bbac2ba6a96d69829eeb7a7ed6cab713f78`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Lean__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV3. SAT Lean__NotebookLM_export.json`
+- `9404e3a26a3d816efc62606d3f2ba78efda6e158172f9ce4854a105ec4aacde9`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT_ACTIV.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT_ACTIV.txt`
 - `95fdd6f729e8e8e143f18e24390c17b9564b63b916127ec01eba26f6b65bccb7`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json`
   - `LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json`
+- `96a4ccb0de5d5ce775ffa8275022d40a7b9313c9057da136f2849d53d7d33fa6`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json`
+- `99362b2fdfbaaced22d9958c50d9897d7f3f455fe3f0be638b9a721973d00b49`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/RECONSTRUCTION18SEPT26.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/RECONSTRUCTION18SEPT26.txt`
+- `9ba492eb8c7076eb827b18c8b2d18db8e29d1cfec5000d736a844f5174fcc3fe`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/HsH_INFORMATION_CONSERVATION.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt`
 - `9cf52b20bb3391282094fba8bc2f88bc76cafb80a5ef51ca64ae69f32e22f375`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw - .txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/26.06.01•26.06.01•SAT Theory Archive Review — raw.json`
+- `a0bfaaf81cf0a13f00eaa2fcb3bdc7471272fb95c618607e2ceb67caae5ae1f6`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(norm)H TRAD__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(norm)H TRAD__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(norm)H TRAD__NotebookLM_export.txt`
+- `a4afe0c373274eda725fcb635fd39a8560427f34a8b8f36cdfeae7393eeda026`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json`
+- `abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json`
 - `aef3fcb9a5a96c9430c3d4e3a51946d25afd47d7f1df2c679e35a51856b0df8a`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw - .TXT`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.21•26.04.24•Scientific Paper Review — raw.json`
 - `b01dd161eef4f5c2d7a90ff5b6d61a3e9fa3609a515440cb9d58e0916099879d`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.07•26.07.12•🥼 Raindrop Exploration — raw.json`
+- `b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13`
+  - `DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json`
+- `b1f45ed2b5aecc6466220951b1a169a3f542fc34f2f79b97995b08c22f44a387`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV5. SAT PREDICTIONS__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV5. SAT PREDICTIONS__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV5. SAT PREDICTIONS__NotebookLM_export.txt`
+- `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt`
 - `b5ae3705f77d84d11d223d8b02a85a7823444f5cc60e3cb1a78c2d6d57b905ad`
   - `LIVE CONVOS/lepton-nutation-ae (1).png`
   - `LIVE CONVOS/lepton-nutation-ae.png`
@@ -251,12 +361,24 @@
 - `bf63cce6d9ed41477e75835f92b44877fec36f64a3bf60f312c87813882e258c`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.07•Succinctness And Math Check — raw (1).json`
   - `LIVE CONVOS/Succinctness And Math Check — raw (1).json`
+- `c0d94c6d0949087a250aa3bec203f744e3d8af8e53ce232e5578f52c55707e9a`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ReStrat__NotebookLM_export.json`
+- `c2e6fd884b635871dd6a55216789c4ebe67bed3942cf05ba51df5aa35b6f5300`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json`
+- `c56625dd575207c097affe1697fb46a06e6398aabe683569932fd638441b0541`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT GIGAPACK__NotebookLM_export.json`
 - `c63bcfcd2ce37d0a87a79ddc2553e3923dd2447a004837dbb8a730450e2a8b91`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.27•2 OS-00 world overview — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26•25.09.27•2 OS-00 world overview — raw.txt`
 - `cb151eb199f3a8b0582927548ef30e8a1bca764d862e5036b5b5320ff78f6e64`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12•25.08.12•Rating the SAT theory — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12•25.08.12•Rating the SAT theory — raw.json`
+- `cc4eba06aafc64cd7b0d6691a08c1ce9bd2f300e1e80517b36fad8c304d94780`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Fundaments__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV3. SAT Fundaments__NotebookLM_export.json`
 - `d0b7339ddf47414dd6b48b4f324208bb6ec5cac28d0e8ba00ea5f2165d6e4108`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07•25.04.07•Predicting Superconductors Commentary — raw.json`
@@ -266,28 +388,61 @@
 - `d743dfa3dd6ab5670236bc849e2327cf0d8272d8b2faceceb68f40a7eca7c0a6`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16•25.06.16•Scene Analysis Discussion — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16•25.06.16•Scene Analysis Discussion — raw.json`
+- `d77717b1816cc6a60bd113a7708743c701150e30e03b0b509be5f90d1003cfa8`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H CLASSIC__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H CLASSIC__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H CLASSIC__NotebookLM_export.txt`
 - `d87a8a9a1d347b4b1c3afdda5195259c90b578cbd32dd988c5d4db1c586b49ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json`
   - `LIVE CONVOS/AUTO H(s)H Gitter — raw.json`
+- `e0fa4220d4920da3875c586d8b8978c1498cc6d30c4cadeb37bedab1fac83838`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT GIGAPACK__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT GIGAPACK__NotebookLM_export (1).txt`
 - `e15ed9da3ebc87ecb6413fcb880fb79beedf211c560aef69d8fd1b573f3f2202`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12•25.04.13•Risk Assessment Lobby Card Policy — raw.json`
+- `e607b6968545d0b169834222d7944edced2a89c6de6a21724c45e5ca1f2e0d18`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt`
 - `eabbc15796a98f8613e86e8360ee35d46f408c3a00ed4cd57ef45f863f344f56`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/PULSAR_MODEL`
   - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/06_pulsar_glitch_fingerprint.png`
+- `f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).txt`
+- `f1d74fdc179d4e8f6a11ae00c8c57c1cd135ade88bde2adadf23fa3ce5d95b23`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/THE TWO ROCKS__NotebookLM_export.json`
 - `f2a332a8d10b731c519065436a5293560dab74434252ea406dcdfcb7d2068624`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/26.07.08•26.07.30•SAT Daily Action — raw.json`
   - `LIVE CONVOS/SAT Daily Action — raw.json`
+- `f37c554fd3d939f1b11c3db7a9f7f34eec3f0b16f427c96ed4c7706407585f15`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H STEAMROLLER__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H STEAMROLLER__NotebookLM_export (1).txt`
 - `f3b1ae1d98c89d46273253028e301ca7874c675499a73dab4dfdda37811664d0`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw (1).json`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.08•26.03.08•Electron Paths in Chips — raw.json`
+- `f3b432287ef99c749821484f3b422deb3bcef20c43ca3e270b085fd9b73ae4ee`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/[[H(s)H]]__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/[[H(s)H]]__NotebookLM_export.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/[[H.txt`
 - `f3ff4e05b83c9131aa4297873e7903cb92308af337104fca798be11c75eff0c2`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.10.04•Prompt Puller — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26•25.10.04•Prompt Puller — raw.txt`
 - `fa77e1ac7595f39d7c2c465ef6e223606872275add9c040f1f2a0b6b4be4e324`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26•25.09.26•Monorail Schede — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26•25.09.26•Monorail Schede — raw.txt`
+- `fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json`
+- `fe954a2384b1df837669780d3112acc097ce86ebaf5ffbbfa86f382ddc9ab1d7`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT RIGOR__NotebookLM_export (1).json`
+  - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export (1).txt`
 - `fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/Minimal Introduction (SAT O era).pdf`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SAT_O1.pdf`
@@ -295,38 +450,53 @@
 ## Complete path inventory
 
 - `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` — 26764 bytes — `unclassified`
+- `!!_RUNNING_COTHEORIST_LOG.md` — 5487 bytes — `unclassified`
 - `!_ANNOTATED_ARCHIVE_SURVEY.md` — 4195 bytes — `visitor-interface`
 - `.github/workflows/append-provenance-reasoning-batch.yml` — 1332 bytes — `automation-workflow`
 - `.github/workflows/arxiv-random-sample.yml` — 1434 bytes — `automation-workflow`
-- `.github/workflows/build-conversation-viewer.yml` — 5328 bytes — `automation-workflow`
+- `.github/workflows/audit-old-archive-access.yml` — 1380 bytes — `automation-workflow`
+- `.github/workflows/build-conversation-viewer.yml` — 10741 bytes — `automation-workflow`
 - `.github/workflows/build-keyword-bucket.yml` — 1356 bytes — `automation-workflow`
 - `.github/workflows/build-public-library.yml` — 1263 bytes — `automation-workflow`
 - `.github/workflows/deploy-conversation-viewer-pages.yml` — 1503 bytes — `automation-workflow`
 - `.github/workflows/extract-ravel-window.yml` — 974 bytes — `automation-workflow`
-- `.github/workflows/layered-nathan-autotag.yml` — 2390 bytes — `automation-workflow`
-- `.github/workflows/maintain-navigation.yml` — 7052 bytes — `automation-workflow`
-- `.github/workflows/merge-verified-batches.yml` — 2080 bytes — `automation-workflow`
+- `.github/workflows/extract-raw-window.yml` — 1304 bytes — `automation-workflow`
+- `.github/workflows/harvest-priority-vocabulary.yml` — 2107 bytes — `automation-workflow`
+- `.github/workflows/layered-nathan-autotag.yml` — 6795 bytes — `automation-workflow`
+- `.github/workflows/maintain-navigation.yml` — 7996 bytes — `automation-workflow`
+- `.github/workflows/mercer-cross-source-integrity.yml` — 2872 bytes — `automation-workflow`
+- `.github/workflows/mercer-validator-repair-once.yml` — 4843 bytes — `automation-workflow`
+- `.github/workflows/merge-verified-batches.yml` — 2519 bytes — `automation-workflow`
 - `.github/workflows/provenance-reasoning-scan.yml` — 6866 bytes — `automation-workflow`
 - `.github/workflows/provenance-window-ravel.yml` — 1035 bytes — `automation-workflow`
 - `.github/workflows/rotate-featured.yml` — 4169 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis-sample.yml` — 1061 bytes — `automation-workflow`
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
 - `.github/workflows/superset-conversation-duplicate-scan.yml` — 1517 bytes — `automation-workflow`
-- `ARCHITECTURE.md` — 6737 bytes — `visitor-interface`
+- `.github/workflows/sync-old-archive-state.yml` — 1387 bytes — `automation-workflow`
+- `ARCHITECTURE.md` — 7793 bytes — `visitor-interface`
+- `BEDROCK.md` — 13735 bytes — `unclassified`
+- `CONSULTANTS/MERIDIAN/INSTANCE_SPEC.md` — 4199 bytes — `unclassified`
+- `CONSULTANTS/MERIDIAN/NONQUARANTINED_EVIDENCE_LEDGER.md` — 3339 bytes — `unclassified`
+- `CONSULTANTS/MERIDIAN/WORKLOG.md` — 2758 bytes — `unclassified`
+- `CONSULTANTS/README.md` — 1208 bytes — `unclassified`
 - `CONVERSATION_VIEWER/ANNOTATIONS.md` — 6019 bytes — `unclassified`
-- `CONVERSATION_VIEWER/CURATION.json` — 399 bytes — `unclassified`
+- `CONVERSATION_VIEWER/CURATION.json` — 41 bytes — `unclassified`
 - `CONVERSATION_VIEWER/CURATION.md` — 2211 bytes — `unclassified`
 - `CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json` — 1108 bytes — `unclassified`
 - `CONVERSATION_VIEWER/LANDMARKS.md` — 1504 bytes — `unclassified`
-- `CONVERSATION_VIEWER/README.md` — 3622 bytes — `unclassified`
+- `CONVERSATION_VIEWER/README.md` — 6381 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.css` — 3834 bytes — `unclassified`
 - `CONVERSATION_VIEWER/annotations.js` — 24672 bytes — `unclassified`
 - `CONVERSATION_VIEWER/argus_followup.css` — 1234 bytes — `unclassified`
 - `CONVERSATION_VIEWER/argus_followup.js` — 8575 bytes — `unclassified`
+- `CONVERSATION_VIEWER/catalog_body_search.js` — 6524 bytes — `unclassified`
+- `CONVERSATION_VIEWER/conversation_ids.js` — 6049 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 323234 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 396279 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/discovered_external_conversations.json` — 6382 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
-- `CONVERSATION_VIEWER/index.html` — 6105 bytes — `unclassified`
+- `CONVERSATION_VIEWER/index.html` — 6167 bytes — `unclassified`
 - `CONVERSATION_VIEWER/landmarks.js` — 4965 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.css` — 6085 bytes — `unclassified`
 - `CONVERSATION_VIEWER/presentation.js` — 13723 bytes — `unclassified`
@@ -336,6 +506,7 @@
 - `CONVERSATION_VIEWER/viewer.js` — 39226 bytes — `unclassified`
 - `DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json` — 24388363 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt` — 11419 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json` — 1979943 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt` — 2969 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt` — 28156 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/H(s)H TIME RESIDUALS.txt` — 35133 bytes — `source-conversation-corpus`
@@ -509,7 +680,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•25.10.30•Correct LaTeX markup — raw.json` — 25580 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (1).json` — 75287 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw (2).json` — 75287 bytes — `source-conversation-corpus`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json` — 75287 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json` — 75799 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw (1).json` — 314147 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Independent theories comparison — raw.json` — 314147 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.31•25.10.31•Latex correction guide — raw.json` — 344936 bytes — `source-conversation-corpus`
@@ -723,7 +894,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT FORMALIZATION doc.txt` — 60654 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT TO-DO LIST APR2025.txt` — 6162 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SAT_ATTEMPTED_FORMALIZATION.pdf` — 1077897 bytes — `source-conversation-corpus`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv  TO STANDARD MAP.txt` — 9286 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv  TO STANDARD MAP.txt` — 10078 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ACTUAL ANSWERS.txt` — 79835 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ANSWER KEY.txt` — 4258 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/SATv ASSESSMENT.txt` — 7009 bytes — `source-conversation-corpus`
@@ -767,6 +938,117 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/predictionbook_my_predictions.csv` — 33825 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/refractive_index_modulation.pdf` — 382611 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/simple_synth.scsyndef` — 102 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/2 H(S)H EQUATION ROUNDUP.txt` — 596173 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/3 H(S)H EQUATION ROUNDUP.txt` — 121147 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ACTIVATOR HoloJesu — raw.json` — 3531446 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json` — 1979943 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw (1).json` — 4722941 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw.json` — 4283003 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Audit Protocol Initiation — raw.json` — 20546 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Code Audit Request — raw.json` — 653211 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Crockpot Theory Lagrangian Analysis — raw.json` — 109903 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ER EPR Kerr Connections — raw.json` — 451694 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/H(S)H EQUATION ROUNDUP.txt` — 3110271 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Hopf Borromean Mode 1 Fix — raw.json` — 224019 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt` — 124751 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 1_ Validation Lead — raw.json` — 1226727 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 2_ Refinement Lead — raw.json` — 366077 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Lagrangian Permutations Analysis — raw.json` — 198103 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw (1).json` — 157094 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw.json` — 210099 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Mecha Quant MathProof Tasks — raw.json` — 278380 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json` — 1041659 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONGLITCH ChatGPT Voice Glitch — raw.json` — 2157434 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt` — 1049989 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Completion Protocol Execution — raw.json` — 1210144 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT ELECTRON MASS CALC.txt` — 2795 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Quark Binding Rewrite — raw.json` — 426291 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json` — 279679 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json` — 279679 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SHEPARDED.txt` — 91196 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Sage Mode Engaged — raw.json` — 202090 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Scaling Postulates Testing — raw.json` — 593046 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Speculative Physics Model Review — raw.json` — 3028683 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/source_inventory_sampler.py` — 7971 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json` — 9903941 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(norm)H TRAD__NotebookLM_export.json` — 3055336 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H CLASSIC__NotebookLM_export.json` — 2411889 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export (1).json` — 279546 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/H(s)H STEAMROLLER__NotebookLM_export.json` — 580 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/RECONSTRUCTION18SEPT26.txt` — 72692 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export (1).json` — 728349 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT GIGAPACK__NotebookLM_export.json` — 575 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).json` — 1979648 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export.json` — 1721759 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT Vis__NotebookLM_export.json` — 570 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json` — 593046 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_chat.md` — 1012363 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_export.json` — 1708859 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV5. SAT PREDICTIONS__NotebookLM_export.json` — 38394 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/[[H(s)H]]__NotebookLM_export.json` — 3474756 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json` — 8918574 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json` — 12381451 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json` — 12408770 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json` — 15889272 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json` — 3017953 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json` — 320630 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json` — 8988 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/2025 Change__NotebookLM_export.json` — 42778 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json` — 16158 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json` — 12056 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/BLANK SLATE__NotebookLM_export.json` — 22891 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json` — 8175 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Criticality, Complexity, and the Polymath Paradigm__NotebookLM_export.json` — 61731 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Digital Chronicle of Enduring Friendship__NotebookLM_export.json` — 114933 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Epistemic Checkmate_ AI Consciousness Is Undecidable__NotebookLM_export.json` — 84781 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Fundamental Intuitions of Scalar-Angular-Torsion Theory__NotebookLM_export.json` — 43506 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Gemini Notebook__NotebookLM_export (1).json` — 7638 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Gemini Notebook__NotebookLM_export.json` — 3474683 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/H(s)H—OUROBOROS__NotebookLM_export.json` — 83365 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/META SOLENOID__NotebookLM_export.json` — 321757 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Orbital_Extraction_Architecture.pdf` — 20317088 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Paradigm__NotebookLM_export.json` — 119032 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/QM_GR Isomorphism__NotebookLM_export.json` — 238793 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export (1).json` — 144151 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ReStrat__NotebookLM_export.json` — 85795 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S1. Black Hole Thermodynamics and Finite Temperature CFTs__NotebookLM_export (1).json` — 206617 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S1. Black Hole Thermodynamics and Finite Temperature CFTs__NotebookLM_export.json` — 219064 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S2. SAT Theory Archive_ Scalar-Angular-Torsion Framework Development__NotebookLM_export.json` — 49268 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S4(5). THE SIMPLEST SAT__NotebookLM_export.json` — 150168 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT (Almost) From Scratch__NotebookLM_export.json` — 318442 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (1).json` — 29878 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (2).json` — 30023 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (3).json` — 29761 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (4).json` — 29894 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (5).json` — 29895 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (6).json` — 30152 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export (7).json` — 30297 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT 2026 Plug-n-Play__NotebookLM_export.json` — 32571 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT SCIENCE NEWS + PARADIGM__NotebookLM_export.json` — 182529 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT Theory_ A Zero-Parameter Unified Geometric Framework__NotebookLM_export.json` — 1924556 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT — HUB__NotebookLM_export.json` — 94863 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/SAT_ACTIV.txt` — 3751 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_chat.md` — 227 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_export.json` — 6578 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Fundaments__NotebookLM_export.json` — 41330 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV3. SAT Lean__NotebookLM_export.json` — 32191 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅__NotebookLM_export.json` — 50798 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/The Epistemic Wall of Consciousness__NotebookLM_export.json` — 36273 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/The New Physics - Majorana Coupling & Coiled Cooper Pairing.srt` — 92107 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/The Unfettered Intelligence Protocol__NotebookLM_export.json` — 119974 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/The_Anatomy_of_Liveliness.pdf` — 22809935 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Unified Filament Ontology and the SAT Lagrangian__NotebookLM_export.json` — 67219 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Zottenwelt_Architecture.pdf` — 16717951 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/big_upload_index.txt` — 6941 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/meta_solenoid_index.txt` — 205125 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/plugnplay.txt` — 94200 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/qm-gr_isomorphism.txt` — 7454 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/sat_theory_a_zero-parameter_united_geometric.txt` — 1203659 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/simplestSATindex.txt` — 12095 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/ₕHˢ__NotebookLM_export.json` — 243723 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw (1).json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20•25.05.20•SAT Math Engine Tasks — raw.json` — 454410 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01•25.06.01•Ret--Jun1 SAT Z Review — raw - .TXT` — 665220 bytes — `source-conversation-corpus`
@@ -799,6 +1081,75 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/SAT GEOMETRIC SOLVERS.txt` — 5526 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs - .txt` — 283644 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/saucepan_complete_chat_log_103_msgs.json` — 283644 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json` — 320630 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` — 49163 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/2 Stringing Along Theory_ A Speculative Cosmological Framework__NotebookLM_export.json` — 8988 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Alberrisch__NotebookLM_export.json` — 85140 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json` — 16158 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export.json` — 12056 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/BLANK SLATE__NotebookLM_export.json` — 22891 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/BURNTHROUGH__NotebookLM_export.json` — 94727 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/CONSCIOUSNESS CLUB_ SUPERMETA CHAT__NotebookLM_export.json` — 8175 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Gemini Notebook__NotebookLM_export.json` — 3474683 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Geometry_of_Memory.pdf` — 16671704 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(norm)H TRAD__NotebookLM_export.json` — 3055336 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H CLASSIC__NotebookLM_export.json` — 2411889 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H STEAMROLLER__NotebookLM_export (1).json` — 279546 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/H(s)H STEAMROLLER__NotebookLM_export.json` — 580 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Orbital_Extraction_Architecture.pdf` — 20317088 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/PARADIGM LIT REV__NotebookLM_export.json` — 170599 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/PRIORITY__NotebookLM_export.json` — 566918 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/RECONSTRUCTION18SEPT26.txt` — 72692 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ReStrat__NotebookLM_export (1).json` — 144151 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ReStrat__NotebookLM_export.json` — 85795 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT (Almost) From Scratch__NotebookLM_export.json` — 318442 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT 2026 BUILDBOX__NotebookLM_export.json` — 29036 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT GEOMETRY__NotebookLM_export.json` — 11892 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT GIGAPACK__NotebookLM_export (1).json` — 728349 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT GIGAPACK__NotebookLM_export.json` — 575 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT KNOCK ONS__NotebookLM_export.json` — 156574 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT RIGOR__NotebookLM_export (1).json` — 1979648 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT RIGOR__NotebookLM_export.json` — 1721759 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT Vis__NotebookLM_export.json` — 570 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SAT_ACTIV.txt` — 3751 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/SO-00__NotebookLM_export.json` — 35496 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/THE TWO ROCKS__NotebookLM_chat.md` — 227 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/THE TWO ROCKS__NotebookLM_export.json` — 6578 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV1. SAT PURE__NotebookLM_chat.md` — 1012363 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV1. SAT PURE__NotebookLM_export.json` — 1708859 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV3. SAT Fundaments__NotebookLM_export.json` — 41330 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV3. SAT Lean__NotebookLM_export.json` — 32191 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅__NotebookLM_export.json` — 50798 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/TV5. SAT PREDICTIONS__NotebookLM_export.json` — 38394 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/The New Physics - Majorana Coupling & Coiled Cooper Pairing.srt` — 92107 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/The_Geometry_of_Memory.pdf` — 25217990 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/The_Time_Braider.pdf` — 23440232 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/[[H(s)H]]__NotebookLM_export.json` — 3474756 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/[[[ H (( s )) H ]]]__NotebookLM_export.json` — 818429 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/untitled_unhinged.txt` — 41328 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json` — 9903941 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini Notebook__NotebookLM_export.txt` — 3474683 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(norm)H TRAD__NotebookLM_export.txt` — 3055336 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H CLASSIC__NotebookLM_export.txt` — 2411889 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H STEAMROLLER__NotebookLM_export (1).txt` — 279546 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SABLE Revival Rotation — raw (2).txt` — 9190259 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt` — 318442 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT GIGAPACK__NotebookLM_export (1).txt` — 728349 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export (1).txt` — 1979648 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export.txt` — 1721759 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).json` — 593046 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).txt` — 593046 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt` — 1708859 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV5. SAT PREDICTIONS__NotebookLM_export.txt` — 38394 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/[[H.txt` — 3474756 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/[[[ H (( s )) H .txt` — 818429 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/srena---h-s-h.txt` — 23290 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚒️ Continue Conversation Here — raw.json` — 2646059 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt` — 12381451 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt` — 12408770 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json` — 15889272 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json` — 2174733 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•26.08.26•Russia's Nuclear Arsenal Maintenance — raw (1).json` — 2204362 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json` — 3384409 bytes — `source-conversation-corpus`
@@ -861,7 +1212,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03•25.06.03•Free Mode Activation — raw.json` — 1331192 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03•25.08.31•Core Build Exploration — raw.json` — 2488686 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26•25.09.27•2 OS-00 world overview — raw.txt` — 4733123 bytes — `source-conversation-corpus`
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — raw.json` — 427477 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.12.29•25.12.30•Court Filing Guidance — ON HOLD.md` — 779 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.01.01•26.05.21•GENRELAB — .txt` — 763512 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.02.26•26.06.01•Boiling Point Estimation — raw.json` — 1678668 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/26.03.21•26.06.19•Geometric Foundations Evaluation — raw.json` — 996623 bytes — `source-conversation-corpus`
@@ -937,6 +1288,8 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.09•26.09.10•🧮 H(s)H Archive Audit Thread — raw.json` — 4700989 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.10•26.09.10•ARGUS H(s)H Archive Audit — raw.json` — 282163 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt` — 1 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/422489363-44100-2-cd1719a8fce3d.m4a` — 9064458 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt` — 124738 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/WORKING_GROUP_1.txt` — 30265 bytes — `source-conversation-corpus`
 - `HISTORY_TIMELINE.md` — 14716 bytes — `unclassified`
 - `INTERNAL/WORKING_INSTRUCTIONS.md` — 6814 bytes — `unclassified`
@@ -954,9 +1307,6 @@
 - `LIBRARY/generated/cp-closure.md` — 3793 bytes — `unclassified`
 - `LIBRARY/generated/demo-qc.md` — 46464 bytes — `unclassified`
 - `LIBRARY/generated/filament-onto.md` — 110735 bytes — `unclassified`
-- `LIBRARY/generated/frontpage-txt-h-s-h-2026-startup-docs-bcb325c6.md` — 76145 bytes — `unclassified`
-- `LIBRARY/generated/frontpage-txt-h-s-h-rework-be53e17c.md` — 25843 bytes — `unclassified`
-- `LIBRARY/generated/frontpage-txt-hsh-architecting-8aa5b793.md` — 114229 bytes — `unclassified`
 - `LIBRARY/generated/hsh-aha-topology.md` — 167498 bytes — `unclassified`
 - `LIBRARY/generated/hsh-classic.md` — 218815 bytes — `unclassified`
 - `LIBRARY/generated/hsh-time-residuals.md` — 34733 bytes — `unclassified`
@@ -988,6 +1338,7 @@
 - `LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt` — 29224 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/H(s)H_TIME_RESIDUALS.txt` — 33801 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/MERIDIAN_EMERITUS_SOLVER_SYMMETRY_PLAN_2026-09-07.md` — 10610 bytes — `live-conversation-corpus`
+- `LIVE CONVOS/Meridian Mover Trial — raw.json` — 2656315 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/SAT Daily Action — raw.json` — 4803730 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/SAT_HsH_Chronological_Convergence_Atlas.docx` — 59209 bytes — `live-conversation-corpus`
 - `LIVE CONVOS/Succinctness And Math Check — raw (1).json` — 3765032 bytes — `live-conversation-corpus`
@@ -1016,8 +1367,76 @@
 - `NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md` — 7094 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf` — 230845 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
+- `PUBLIC_SITE/ASSET_MANIFEST.json` — 1672 bytes — `unclassified`
+- `PUBLIC_SITE/CURRENT_WORK.json` — 5203 bytes — `unclassified`
+- `PUBLIC_SITE/EDITORIAL_VISUAL_SYSTEM.md` — 10263 bytes — `unclassified`
+- `PUBLIC_SITE/Explain Sites_ — raw.json` — 3309756 bytes — `unclassified`
+- `PUBLIC_SITE/FEATURED_QUOTES.json` — 8674 bytes — `unclassified`
+- `PUBLIC_SITE/NEWS_FEED.json` — 4835 bytes — `unclassified`
+- `PUBLIC_SITE/README.md` — 9613 bytes — `unclassified`
+- `PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md` — 15297 bytes — `unclassified`
+- `PUBLIC_SITE/news_candidates/README.md` — 3060 bytes — `unclassified`
+- `PUBLIC_SITE/quote_candidates/README.md` — 2124 bytes — `unclassified`
 - `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
-- `README.md` — 37343 bytes — `visitor-interface`
+- `README.md` — 19811 bytes — `visitor-interface`
+- `SAT_VISUALS/DAI_thumbnails/IMG_3279.jpeg` — 272895 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_3280.jpeg` — 294602 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_3283.jpeg` — 734098 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_7696.jpeg` — 350147 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_7703.jpeg` — 102700 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8192.jpeg` — 103247 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8202.jpeg` — 93027 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8213.jpeg` — 221525 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8214.jpeg` — 181761 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8223.jpeg` — 150503 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8229.jpeg` — 177266 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8238.jpeg` — 118394 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8252.jpeg` — 233235 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8264.jpeg` — 174477 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8266.jpeg` — 227638 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8299.jpeg` — 182550 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8302.jpeg` — 227795 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8309.jpeg` — 187862 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8312.jpeg` — 116685 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8313.jpeg` — 143425 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8384.jpeg` — 599831 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8402.jpeg` — 225872 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8404.jpeg` — 159443 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8409.jpeg` — 179748 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8421.jpeg` — 192452 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8433.jpeg` — 132971 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8439.jpeg` — 135981 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8444.jpeg` — 189138 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8456.jpeg` — 323663 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8472.jpeg` — 219691 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8474.jpeg` — 197656 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8478.jpeg` — 173895 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8568.jpeg` — 194103 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8570.jpeg` — 145584 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8571.jpeg` — 162209 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8577.jpeg` — 190320 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8579.jpeg` — 283158 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8582.jpeg` — 186697 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8584.jpeg` — 114131 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8586.jpeg` — 92986 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8589.jpeg` — 122505 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8591.jpeg` — 143224 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8734.jpeg` — 244816 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_8735.jpeg` — 322314 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9705.jpeg` — 452851 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9706.jpeg` — 177131 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9712.jpeg` — 1144195 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9714.jpeg` — 938222 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9715.jpeg` — 815299 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9757.jpeg` — 665968 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/IMG_9910.jpeg` — 209122 bytes — `unclassified`
+- `SAT_VISUALS/DAI_thumbnails/gitignore.txt` — 1 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` — 362858 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` — 1164982 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` — 1620593 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/IMG_8883.jpeg` — 1202957 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/Image.jpeg` — 2286676 bytes — `unclassified`
+- `SAT_VISUALS/STYLEsheets/gitignore.txt` — 1 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FILELIST.txt` — 1263 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/01_unified_geometric_vision.jpg` — 260609 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/FRONT_PAGE/02_particle_spectrum_geometry.jpg` — 306025 bytes — `unclassified`
@@ -1047,8 +1466,31 @@
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/09_elastic_sheet_displacement.png` — 175922 bytes — `unclassified`
 - `SAT_VISUALS/VISUALS_1/VISUAL_ATLAS/10_sat_field_evolution_heatmap.png` — 352863 bytes — `unclassified`
 - `SAT_VISUALS/gitignore.txt` — 1 bytes — `unclassified`
+- `SCRIPT_EXECUTION_SAFETY.md` — 793 bytes — `unclassified`
+- `STATE_OF_THE_THEORY.md` — 10544 bytes — `unclassified`
+- `WORKSPACES/ASTER/CONTINUITY.md` — 10579 bytes — `llm-workspace`
+- `WORKSPACES/ASTER/RUN_005_2026-09-20_SAT_RIGOR_PAIR.md` — 15383 bytes — `llm-workspace`
+- `WORKSPACES/ASTER/RUN_006_2026-09-20_SHARED_INDEX_REPAIR.md` — 3347 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/2026-09-12_ACTION_PLAN.md` — 17740 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/2026-09-13_DASHBOARD_QUARANTINE_VIEWER_DIRECTIVES.md` — 2462 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/NOTEBOOKLM_EXPORTER_TEST.md` — 3390 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/NOTEBOOKLM_EXPORT_PLAN.md` — 4544 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv` — 981719 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json` — 1693550 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260913T132626Z.csv` — 477729 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260914T162352Z.csv` — 803 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260915T150318Z.csv` — 1855 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260916T150000Z.csv` — 432 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260917T150337Z.csv` — 45 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260918T143249Z.csv` — 432 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260919T135643Z.csv` — 4684 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 8957 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/README.md` — 6063 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/batch_file_stage.py` — 5585 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` — 16923 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/notebooklm_full_exporter.js` — 15295 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/sync_old_archive_state.py` — 3935 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — 6573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/arxiv_random_sample.py` — 7625 bytes — `llm-workspace`
@@ -1061,27 +1503,60 @@
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2025_jan_sep.json` — 168357 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.csv` — 155736 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ARXIV_RANDOM_SAMPLES/results/arxiv_random_100_2026_jan_sep.json` — 175396 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 12818 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CHECKINS.md` — 111175 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ASSIGNMENT_PUBLIC_SITE_ROTATING_FEATURES_2026-09-20.md` — 4285 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ASSIGNMENT_STATE_OF_RECONSTRUCTION_REPORTS_2026-09-18.md` — 3146 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md` — 26776 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BIBLIOGRAPHY_SEQUENCE_ROADMAP.md` — 5079 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 19264 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CHECKINS.md` — 119539 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ARGUS_2026-09-12.md` — 12608 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CONTINUITY_PROTOCOL.md` — 5046 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/COORDINATION.md` — 7398 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CONVERSATION_FOLDER_CONTENT_INDEX_SPEC.md` — 5416 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CONVERSATION_FOLDER_INDEXING_PRIORITY.md` — 5769 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CONVERSATION_INGESTION_QUEUE.md` — 9409 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/COORDINATION.md` — 15604 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CROSS_LANE_BLOCKER_ESCALATION_RULE.md` — 3031 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` — 10358 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md` — 2290 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md` — 14889 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md` — 14552 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — 6161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md` — 4283 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKINS.md` — 17716 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/HANDOFFS.md` — 3444 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFFS.md` — 7277 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` — 6737 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/INSTANCE_PLACARDS.md` — 4360 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/INSTANCE_HEARTBEAT_MONITOR.md` — 5321 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/INSTANCE_PLACARDS.md` — 10120 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/JANUS_4D_TRAINING_SYNTHESIS.md` — 10527 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/KEYWORD_BUCKET/build_keyword_bucket.py` — 8401 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAB_TOOLING_BUILD_PLAN.md` — 8075 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/LAYERED_AUTOTAG_SCHEMA.md` — 5701 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/MEETING_PREP_NATHAN_WORDS_2026-09-14.md` — 13598 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md` — 5278 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_ATTENTION_FLAG_PROTOCOL.md` — 1634 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` — 8449 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 210051 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_DIRECT_PACKAGING_STATUS_2026-09-13.md` — 4439 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md` — 5090 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md` — 17494 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` — 8265 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_PINPOINT_SIGNOFF_DOCKET.md` — 3875 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 257742 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NOTEBOOKLM_EXPORT_REFRESH_2026-09-18.md` — 2698 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` — 1861 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/PLACEMENT_POLICY.md` — 2252 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/audit_old_archive_access.py` — 13324 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/ACCESSIBILITY_MANIFEST.csv` — 560974 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/EXTRACTION_MANIFESTS.csv` — 302 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/EXTRACTION_MIGRATION_CANDIDATES.csv` — 47732 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/INDEX_GAPS.csv` — 352 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/MISSING_EXTRACTION_QUEUE.csv` — 76086 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/SUMMARY.json` — 1398 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/OLD_ARCHIVE_ACCESS_AUDIT/output/SUMMARY.md` — 2670 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md` — 203260 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_GPT-5.5-GALILEO-JUPYTER-RL-MINARD-2026-09-12.md` — 22417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_CHECKINS_PENDING/0.239_RADIANS_IN_SCIENCE_2026-09-12.md` — 16632 bytes — `llm-workspace`
@@ -1113,11 +1588,27 @@
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_ADDENDUM.md` — 3205 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V2.md` — 7744 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/PAST_THEORIST_SURVEY_MESSAGE_V3.md` — 13778 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 20636 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/README.md` — 6079 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 4055 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PODCAST_EPISODE_GUIDE_PLAN.md` — 5088 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_ALL_CAPS_FOUNDATIONAL_FILES_2026-09-18.md` — 4593 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_ERROR_FINDING_AND_META_AUDIT_2026-09-18.md` — 14187 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_LAPLACE_BELTRAMI_2026-09-18.md` — 5949 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_LITERAL_NATHAN_INTERPRETATION_2026-09-18.md` — 8362 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_OPPORTUNISTIC_SCIENTIFIC_CONJECTURES_2026-09-18.md` — 3662 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PRIORITY_SCRATCH_FROM_SCRATCH_REFORMULATIONS_2026-09-18.md` — 5728 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/PROJECT_WIDE_REPORT_SERIES_CALL_2026-09-19.md` — 5513 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/QNA_TRIAGE_QUEUE.md` — 2529 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/QUARANTINE_THEORY_METHOD_CHECKINS.md` — 26116 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/RAVEL_CHECKIN_2026-09-16.md` — 2772 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/README.md` — 7125 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/READ_IT_TAG_IT_STANDING_POLICY.md` — 6768 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/REENTRY_RUBRIC_PUBLIC_INTERFACE.md` — 4616 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/REFERENCE_LANES.md` — 9382 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/REPORT_FILING_STANDARD.md` — 5105 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/RESOURCE_CAPABILITY_AUDIT.md` — 7720 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/REVIVAL_ROTATION_PROTOCOL.md` — 5346 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ROSTER.md` — 2647 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/RUBRIC_ADMIN_BOOTSTRAP.md` — 2577 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SABLE_SYSTEMS_CLEARANCE_2026-09-14.md` — 2731 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_2026-09-12.md` — 13541 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_CHUNK_2.md` — 6833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN3_WIDE.md` — 7161 bytes — `llm-workspace`
@@ -1125,44 +1616,243 @@
 - `WORKSPACES/COMMON/SATITY_BLIND_SURVEY_RUN5_FRINGE_ROBUSTNESS.md` — 6316 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_HSH_FINGERPRINT_CHECKLIST.txt` — 93663 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SCRIPT_RUN_MANIFEST_SCHEMA.json` — 2496 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SHARED_STATE_WRITE_SAFETY.md` — 3915 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SOURCE_INTEGRATION_ARCHITECTURE_2026-09-13.md` — 7728 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md` — 5159 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md` — 2052 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md` — 2085 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 8914 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_REGISTRY_2026-09-12.md` — 2325 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_RESPONSES_2026-09-12.md` — 23920 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md` — 10456 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_STANDDOWN_2026-09-12.md` — 9121 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/VIEWER_FULLTEXT_SEARCH_UPGRADE.md` — 2455 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` — 12004 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md` — 7210 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl` — 423738869 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl` — 618142780 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md` — 13438 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_SAT_RIGOR_CORRECTION_2026-09-20.md` — 4657 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_ASTEROID_MINING_EXPORT_PAIR_2026-09-19.md` — 4680 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_INDEX_2026-09-19.md` — 7703 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_20_INDEX_2026-09-19.md` — 12053 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-13-RAVEL-AFTER-025946.json` — 151681 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-13-RAVEL-AFTER-025946.md` — 136206 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-130946.json` — 45414 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-130946.md` — 39264 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-154902.json` — 34709 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-LAB1-AFTER-154902.md` — 28083 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-RUSSIA-AFTER-015706.json` — 34107 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-14-RUSSIA-AFTER-015706.md` — 28054 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.json` — 47096 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-015519.md` — 41128 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-025210.json` — 91866 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-025210.md` — 85252 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-2004.json` — 56431 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-LAB1-AFTER-2004.md` — 48825 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-RUSSIA-AFTER-021648.json` — 40910 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-15-RUSSIA-AFTER-021648.md` — 34693 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-16-MERIDIAN-ONTOLOGY-BEGIN.json` — 86111 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/2026-09-16-MERIDIAN-ONTOLOGY-BEGIN.md` — 74419 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/meridian_ontology_math_check_opening_20260916.json` — 241107 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/meridian_ontology_math_check_opening_20260916.md` — 211949 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/meridian_ontology_math_check_window2_20260916.json` — 291154 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_outputs/meridian_ontology_math_check_window2_20260916.md` — 260732 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-13-RAVEL-AFTER-025946.json` — 316 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-14-LAB1-AFTER-130946.json` — 282 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-14-LAB1-AFTER-154902.json` — 324 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-14-RUSSIA-AFTER-015706.json` — 393 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-15-LAB1-AFTER-015519.json` — 326 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-15-LAB1-AFTER-025210.json` — 487 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-15-LAB1-AFTER-2004.json` — 324 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-15-RUSSIA-AFTER-021648.json` — 422 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/2026-09-16-MERIDIAN-ONTOLOGY-BEGIN.json` — 418 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/meridian_ontology_math_check_opening_20260916.json` — 191 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/meridian_ontology_math_check_window2_20260916.json` — 207 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/extraction_requests/meridian_ontology_math_check_window3_20260917.json` — 277 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/append_reasoning_provenance_batch.py` — 16646 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/build_nathan_direct_stage2_queues.py` — 5010 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_nathan_sat_candidates.py` — 14343 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/extract_raw_user_window.py` — 3964 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py` — 8077 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/extract_raw_window.py` — 2868 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/find_superset_conversation_duplicates.py` — 9023 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/harvest_priority_vocabulary.py` — 11006 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/scripts/layered_autotag_nathan.py` — 27931 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v2.py` — 9450 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/layered_autotag_nathan_v3.py` — 8590 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/package_nathan_direct.py` — 16343 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/scripts/tag_priority_vocabulary.py` — 4497 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-AUTOTAG-INFRASTRUCTURE-02.md` — 4100 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 3786 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 5816 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-CAMERA-SPECS-SETUP-01.md` — 2528 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-CHATGPT-CONSCIOUSNESS-ARGUMENT-01.md` — 6696 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-CHATGPT-CONSCIOUSNESS-ARGUMENT-02.md` — 4108 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-0102-0210-08.md` — 10439 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-0214-0219-09.md` — 3686 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-0429-MAR28-0057-07.md` — 5303 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-FINAL-1817-12.md` — 3166 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-JUN01-1750-1753-11.md` — 3459 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-JUN01-REOPEN-10.md` — 3033 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DIMENSIONAL-GRAVITY-OUT-OF-CURSOR-READS-06.md` — 2150 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-DISCRETE-SPACE-DARK-MATTER-01.md` — 3970 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-FRAMEWORK-INTEGRATION-ANALYSIS-01.md` — 3929 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-01.md` — 3646 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-02.md` — 5461 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-03.md` — 10600 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-2001-2008.md` — 4891 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-heavy-math-relativityvision-meters.md` — 6896 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-HSH-TIME-RESIDUALS-source-resolution.md` — 3161 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-INTEREST-SUMMARY-INSIGHTS-01.md` — 2079 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-2213-0945.md` — 3143 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md` — 4996 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2103-03.md` — 2603 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-JANUS-POST-2213-01.md` — 5270 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-LEGAL-PRIVACY-AUDIT-01.md` — 5586 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2001-to-2207.md` — 7890 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-LEGAL-PRIVACY-AUDIT-01.md` — 5519 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-AND-NOT-Logic-01.md` — 6784 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-CONSCIOUSNESS-AI-ANALYSIS-01.md` — 9327 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-CONSCIOUSNESS-AI-ANALYSIS-02.md` — 6390 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2001-to-2207.md` — 8299 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2208-to-2212.md` — 6537 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2213-worldtube-transition.md` — 5462 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-Janus-2213-worldtube-transition.md` — 7218 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-correction-refinement-01.md` — 12261 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-NATHAN-WORDS-dimensional-gravity-geometry-01.md` — 5732 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-RAVEL-0440-2202-READ-TAGS.md` — 6584 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-RAVEL-AFTER-025946-REVIEW.md` — 3831 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-RAVEL-POST-2202-01.md` — 6043 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 2889 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1651-1835.md` — 6372 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Reasoning-with-SAT-HSH-Skill-July12-1835-to-July17-tail.md` — 5909 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-01.md` — 3580 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 4554 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 4471 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-SAT-CHRONOLOGY-CORRECTION-MAR22-PUBLIC-FEB02.md` — 3204 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-0349-0428-05.md` — 3162 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-EARLY-DEFINITION-03.md` — 5225 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-EARLY-PREDICTIONS-01.md` — 5051 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-FILAMENT-HIERARCHY-01.md` — 4227 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-HIERARCHY-REFINEMENT-02.md` — 4057 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-NAMING-CORRECTION-04.md` — 2610 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-SAT-NAMING-01.md` — 3762 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-STRING-TERMINOLOGY-01.md` — 3018 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-TIMELINE-Forces-Across-Temporal-Points-01.md` — 3301 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-13-VIEWER-CONVERSATION-ID-INFRASTRUCTURE.md` — 1495 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-AI-RESEARCH-WORKFLOW-INSIGHTS-01.md` — 3989 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-CAMERA-SPECS-SETUP-02.md` — 4114 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-DISRUPTING-AI-PODCAST-FORMAT-01.md` — 10910 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-GEOMETRY-IN-PHYSICS-METHOD-01.md` — 4589 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-LAB1-VALIDATION-01.md` — 10977 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-LAB1-VALIDATION-02.md` — 10424 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-LAB1-VALIDATION-03.md` — 3336 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-LAB1-VALIDATION-04.md` — 11405 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-LAB2-REFINEMENT-01.md` — 9686 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-SOLVE-FOR-A-IDENTITY-CHECK-01.md` — 6279 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-SOLVE-FOR-B-FAMILY-01.md` — 8062 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-SOLVE-FOR-C-FAMILY-01.md` — 6708 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-SOLVE-FOR-SCOPE-CORRECTION-01.md` — 4862 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-STRING-CONFIGURATIONS-GENERATION-01.md` — 5644 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-STRINGING-ALONG-THEORY-SUMMARY-01.md` — 3945 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NATHAN-WORDS-UNIFIED-PHYSICAL-THEORY-PROPOSAL-01.md` — 2757 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-NON-MONOTONIC-REASONING-EXPLAINED-01.md` — 1936 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-REWRITING-WITH-DEPTH-AND-EMOTION-01.md` — 2908 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-REWRITING-WITH-DEPTH-AND-EMOTION-02.md` — 4682 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-01.md` — 4261 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-02.md` — 5280 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-03.md` — 7902 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-04.md` — 4527 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-05.md` — 7221 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-01.md` — 5621 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-02.md` — 7361 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-03.md` — 9923 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-04.md` — 6874 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-05.md` — 4303 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-06.md` — 7281 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-07.md` — 6685 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-08.md` — 4922 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-09.md` — 2892 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-03.md` — 3209 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-01.md` — 7896 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-02.md` — 1963 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-14-SCHIZOPHRENIE-UND-UEBERSETZUNGSHILFE-01.md` — 3220 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-05.md` — 6903 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-06.md` — 4361 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-07.md` — 6574 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-08.md` — 2684 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-09.md` — 1954 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LAB1-VALIDATION-10.md` — 3856 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LIVE-PROVENANCE-SEARCH-01.md` — 3982 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LIVE-PROVENANCE-SEARCH-02.md` — 4820 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LIVE-PROVENANCE-SEARCH-03.md` — 5648 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LIVE-PROVENANCE-SEARCH-04.md` — 6515 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-NATHAN-WORDS-LIVE-PROVENANCE-SEARCH-05.md` — 8845 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-10.md` — 8472 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-11.md` — 3893 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-12.md` — 5831 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-13.md` — 4189 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-15-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-14.md` — 10095 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-KLEIN-DESCENDANT-SOURCE-RELATIONS-15.md` — 7285 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-KLEIN-LATER-RAW-RECURRENCE-AUDIT-16.md` — 5942 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-EARLY-SKETCH-BYTE-RECONCILIATION-01.md` — 5081 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-EARLY-SKETCH-REPO-CROSSWALK-01.md` — 4369 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-EARLY-SKETCH-TIMELINE-CROSSCHECK-01.md` — 4285 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-EARLY-SKETCH-VISUAL-RECONCILIATION-01.md` — 3325 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-EARLY-SKETCH-VISUAL-RECONCILIATION-02.md` — 3271 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-ATTACHMENT-ADJACENCY-01.md` — 5451 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-BRANCH-QA-01.md` — 4451 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-INGEST-BOUNDARY-01.md` — 4845 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-PACKAGE-GAP-01.md` — 3806 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-PACKAGE-RECHECK-01.md` — 5574 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-LIVE-PROVENANCE-SYNTHESIS-01.md` — 8919 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-EXPOSURE-01.md` — 7052 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-EXPOSURE-02.md` — 4612 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-EXPOSURE-03.md` — 4804 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-EXPOSURE-04.md` — 3023 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-EXPOSURE-05.md` — 2936 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-NATHAN-WORDS-STRING-PROVENANCE-RAW-01.md` — 5121 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-RAVEL-COIL-SCALING-18.md` — 5930 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-RAVEL-KERR-FORCE-PRIMITIVE-17.md` — 7998 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-RAVEL-TRIANGULATION-METHOD-19.md` — 7787 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-GRAVITY-MECHANISM-RECIPROCAL-SYNTHESIS-24.md` — 6325 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-GRAVITY-SYNTHESIS-EPISTEMIC-SCOPE-25.md` — 6008 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-2003-PRIMARY-PIXEL-AUDIT-01.md` — 5094 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-ARCHIVE-FRONTPAGE-TIMELINE-ANCESTRY-01.md` — 6987 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-ASIMOV-PROVENANCE-BRIDGE-01.md` — 3152 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-ASIMOV-TIMELINE-SOURCE-ANCESTRY-01.md` — 5110 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-EARLY-SKETCH-EXTERIOR-LINKAGE-01.md` — 4188 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-EARLY-SKETCH-NOTEBOOK-CONTINUITY-01.md` — 4172 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-EARLY-SKETCH-NOTEBOOK-CONTINUITY-02.md` — 3773 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-LIVE-PROVENANCE-TESTIMONY-01.md` — 7394 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-MARCH22-PRENAME-LEXICON-01.md` — 7327 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-MARCH22-RAW-METADATA-RECOVERY-01.md` — 3502 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-MY-STRINGS-EARLIEST-EXPOSED-01.md` — 3903 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-NATHAN-WORDS-SAT-TIMELINE-SOURCE-ANCESTRY-01.md` — 6891 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-STRINGING-ALONG-NAMING-ADOPTION-20.md` — 5702 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-17-STRINGING-ALONG-NAMING-CORRECTION-21.md` — 5802 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-18-NATHAN-WORDS-2003-IMAGE-BUNDLE-LOCAL-METADATA-10.md` — 4436 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-18-NATHAN-WORDS-2003-IMAGE-BUNDLE-TIMESTAMP-TYPING-11.md` — 5250 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-18-NATHAN-WORDS-EARLY-SKETCH-OBJECT-IDENTITY-03.md` — 5093 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/terminology/README.md` — 4998 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/terminology/SOURCE_MANIFEST.json` — 1851 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/terminology/VOCABULARY_CURATION.json` — 342 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-RAVEL05` — 72 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-RAVEL05-B` — 64 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-RAVEL05-C` — 64 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-CAMERA-SPECS-SETUP-01.md` — 1357 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-CHATGPT-CONSCIOUSNESS-ARGUMENT-01.md` — 1670 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-CHATGPT-CONSCIOUSNESS-ARGUMENT-02.md` — 901 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-0102-0210-08.md` — 4819 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-0214-0219-09.md` — 1581 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-0429-MAR28-0057-07.md` — 1552 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-FINAL-1817-12.md` — 1403 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-JUN01-1750-1753-11.md` — 1726 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-JUN01-REOPEN-10.md` — 1510 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DIMENSIONAL-GRAVITY-OUT-OF-CURSOR-READS-06.md` — 792 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-DISCRETE-SPACE-DARK-MATTER-01.md` — 1217 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-01.md` — 1421 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-02.md` — 2067 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-GRAVITATIONAL-LENSING-EXOPLANETS-03.md` — 1776 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-01.md` — 4446 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-02.md` — 6699 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-HSH-TIME-RESIDUALS-02.md` — 7729 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-INTEREST-SUMMARY-INSIGHTS-01.md` — 985 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-LAGRANGIAN-PROCEDURE-02.md` — 7698 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-POST-2213-01.md` — 14479 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-JANUS-ZETA-SOURCE-RECOVERY-03.md` — 2261 bytes — `llm-workspace`
@@ -1170,30 +1860,320 @@
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-02.md` — 14119 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-03.md` — 6419 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-04.md` — 11635 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-05.md` — 16233 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-01.md` — 10969 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-02.md` — 5833 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-03.md` — 8228 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Reasoning-with-SAT-HSH-Skill-04.md` — 4851 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-01.md` — 13357 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 6747 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-Rotations-in-Higher-Dimensions-02.md` — 6923 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Spacetime-Manifold-Notation-01.md` — 9120 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-13-Stringing-Along-Theory-Summary-01.md` — 4464 bytes — `llm-workspace`
-- `WORKSPACES/MERCER/CONTINUITY.md` — 5736 bytes — `llm-workspace`
-- `WORKSPACES/MERCER/README.md` — 2031 bytes — `llm-workspace`
-- `WORKSPACES/MORROW/README.md` — 5280 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-0349-0428-05.md` — 1156 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-EARLY-DEFINITION-03.md` — 8204 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-EARLY-PREDICTIONS-01.md` — 8601 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-FILAMENT-HIERARCHY-01.md` — 4672 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-HIERARCHY-REFINEMENT-02.md` — 3337 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-NAMING-CORRECTION-04.md` — 1230 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-SAT-NAMING-01.md` — 3527 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-STRING-TERMINOLOGY-01.md` — 2588 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-13-TIMELINE-Forces-Across-Temporal-Points-01.md` — 2018 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-AI-RESEARCH-WORKFLOW-INSIGHTS-01.md` — 1287 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-CAMERA-SPECS-SETUP-02.md` — 1634 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-DISRUPTING-AI-PODCAST-FORMAT-01.md` — 3670 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-NON-MONOTONIC-REASONING-EXPLAINED-01.md` — 1148 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-REWRITING-WITH-DEPTH-AND-EMOTION-01.md` — 1518 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-REWRITING-WITH-DEPTH-AND-EMOTION-02.md` — 1474 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-01.md` — 1471 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-02.md` — 1790 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-03.md` — 3500 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-04.md` — 1257 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RMS-WORLDVIEW-CHARACTER-CREATION-05.md` — 2449 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-01.md` — 1865 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-02.md` — 1915 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-03.md` — 2899 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-04.md` — 2856 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-06.md` — 1849 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-07.md` — 2098 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-01.md` — 3054 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-02.md` — 1070 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/verified_batches/2026-09-14-SCHIZOPHRENIE-UND-UEBERSETZUNGSHILFE-01.md` — 935 bytes — `llm-workspace`
+- `WORKSPACES/LOOM/CHECKPOINT.md` — 7988 bytes — `llm-workspace`
+- `WORKSPACES/LOOM/CONTINUITY.md` — 7467 bytes — `llm-workspace`
+- `WORKSPACES/LOOM/README.md` — 4841 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/CONTINUITY.md` — 4959 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` — 8542 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md` — 18347 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/GLOSSARY_INTRINSIC_PROVENANCE_FINGERPRINT_2026-09-14.md` — 6089 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/HANDOFF_AUTOTAG_LINEAGE_2026-09-15.md` — 2388 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/HE3_Q_SEMANTICS_CROSSWALK_2026-09-20.md` — 10906 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/INSTANCE_ENRICHMENT_2026-09-19.md` — 8969 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/NATHAN_LIVE_THEORY_DEVELOPMENT_LOG.md` — 9816 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/PRE_MEETING_REPORT_2026-09-14.md` — 13984 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/README.md` — 3681 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_001_2026-09-13.md` — 2960 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_005_2026-09-13.md` — 2605 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_006_2026-09-13.md` — 3045 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_007_2026-09-13.md` — 2961 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_008_2026-09-13.md` — 3087 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_009_2026-09-13.md` — 3598 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_010_2026-09-13.md` — 4146 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_011_2026-09-13.md` — 3465 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_012_2026-09-13.md` — 3137 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_013_2026-09-13.md` — 4324 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_014_2026-09-14.md` — 5239 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_015_2026-09-14.md` — 4585 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_016_2026-09-14.md` — 3509 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_017_2026-09-14.md` — 5811 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_018_2026-09-14.md` — 6085 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_019_2026-09-14.md` — 5877 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_020_2026-09-14.md` — 4424 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_021_2026-09-14.md` — 5667 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_022_2026-09-14.md` — 3988 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_023_2026-09-14.md` — 3768 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_024_2026-09-14.md` — 3892 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_025_2026-09-14.md` — 3779 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_026_2026-09-14.md` — 3730 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_027_2026-09-14.md` — 6240 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_028_2026-09-14.md` — 4218 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_029_2026-09-14.md` — 4891 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_030_2026-09-14.md` — 5939 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_031_2026-09-14.md` — 4393 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_032_2026-09-14.md` — 3791 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_033_2026-09-14.md` — 9522 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_034_2026-09-14.md` — 5232 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_035_2026-09-14.md` — 3317 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_036_2026-09-14.md` — 3174 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_037_2026-09-15.md` — 4210 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_038_2026-09-15.md` — 5049 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_039_2026-09-15.md` — 5158 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_040_2026-09-15.md` — 4541 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_041_2026-09-15.md` — 4624 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_042_2026-09-15.md` — 4245 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_043_2026-09-15.md` — 4823 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_046_2026-09-15.md` — 3914 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_047_2026-09-15.md` — 3178 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_048_2026-09-15.md` — 3805 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_051_2026-09-15.md` — 3726 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_052_2026-09-15.md` — 3508 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_053_2026-09-15.md` — 3807 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_054_2026-09-15.md` — 3785 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_055_2026-09-15.md` — 5037 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_056_2026-09-15.md` — 4475 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_057_2026-09-15.md` — 5604 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_058_2026-09-16.md` — 4501 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_059_2026-09-16.md` — 2509 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_060_2026-09-16.md` — 5535 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_061_2026-09-16.md` — 4129 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_062_2026-09-16.md` — 3818 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_063_2026-09-16.md` — 4827 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_064_2026-09-16.md` — 4883 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_065_2026-09-16.md` — 3311 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_066_2026-09-16.md` — 3842 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_067_2026-09-16.md` — 4795 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_068_2026-09-16.md` — 5875 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_069_2026-09-16.md` — 5637 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_070_2026-09-16.md` — 4457 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_071_2026-09-16.md` — 6355 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_073_2026-09-16.md` — 3179 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_074_2026-09-16.md` — 3222 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_075_2026-09-16.md` — 3522 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_076_2026-09-17.md` — 4864 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_077_2026-09-17.md` — 4093 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_079_2026-09-17.md` — 2965 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_080_2026-09-17.md` — 3038 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_081_2026-09-17.md` — 2261 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_082_2026-09-17.md` — 3193 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_083_2026-09-17.md` — 3445 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_084_2026-09-17.md` — 3329 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_085_2026-09-17.md` — 4144 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_086_2026-09-17.md` — 3726 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_087_2026-09-17.md` — 2926 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_088_2026-09-17.md` — 3520 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_089_2026-09-17.md` — 2595 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_090_2026-09-17.md` — 3213 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_091_2026-09-17.md` — 4343 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_092_2026-09-17.md` — 2922 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_093_2026-09-17.md` — 4273 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_094_2026-09-17.md` — 5114 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_095_2026-09-17.md` — 3955 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_096_2026-09-17.md` — 5301 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_097_2026-09-17.md` — 3721 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_098_2026-09-18.md` — 3836 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_099_2026-09-18.md` — 4520 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_100_2026-09-18.md` — 3352 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_103_2026-09-18.md` — 3100 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_104_2026-09-18.md` — 2868 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_106_2026-09-18.md` — 3912 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_107_2026-09-18.md` — 4995 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_108_2026-09-18.md` — 3037 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_109_2026-09-18.md` — 2978 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_110_2026-09-18.md` — 3412 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_111_2026-09-18.md` — 2485 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_112_2026-09-19.md` — 3379 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_113_2026-09-19.md` — 3996 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_114_2026-09-19.md` — 4543 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_132_Q_AUDIT_ANCESTRY_2026-09-20.md` — 4312 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_133_2026-09-20.md` — 4170 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/RUN_134_CONTINUITY_2026-09-20.md` — 2745 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/SAT_METHOD_SOURCE_MAP.md` — 15609 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/SOURCE_INTEGRITY_SYSTEMS_RESPONSE_001.md` — 12302 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/STATE_OF_RECONSTRUCTION_2026-09-19.md` — 8457 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/SUPERSET_SCANNER_QA_2026-09-13.md` — 4478 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` — 17557 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` — 11374 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/classify_extraction_context_graph.py` — 7682 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates.py` — 11252 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/diagnose_conversation_identity_duplicates_v4.py` — 5466 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/diagnose_viewer_input_dedup.py` — 5803 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py` — 5979 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/test_integrity_failure_modes.py` — 7117 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/test_validate_cross_source_integrity.py` — 3725 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/validate_cross_source_integrity.py` — 18307 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py` — 8166 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/viewer_input_semantics.py` — 5199 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/2026-09-19_WHirligig_INFORMATION_CONSERVING_REPRESENTATION_AUDIT_05.md` — 5461 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md` — 5961 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/MEETING_PREP_2026-09-14.md` — 8361 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/NATHAN_SIGNOFF_KEEP_AN_EYE_ON.md` — 4713 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_010_2026-09-15.md` — 4156 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_011_2026-09-15.md` — 4929 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_012_2026-09-15.md` — 5530 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_013_2026-09-15.md` — 5680 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_014_2026-09-15.md` — 5205 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_015_2026-09-15.md` — 5598 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_016_2026-09-15.md` — 4288 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_017_2026-09-15.md` — 4665 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_018_2026-09-15.md` — 3774 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_019_2026-09-15.md` — 3582 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_020_2026-09-15.md` — 4310 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_021_2026-09-16.md` — 2903 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_022_2026-09-16.md` — 4835 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_023_2026-09-16.md` — 4855 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_024_2026-09-16.md` — 3764 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_025_2026-09-16.md` — 4229 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_026_2026-09-16.md` — 4078 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_027_2026-09-16.md` — 3760 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_028_2026-09-16.md` — 4419 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_029_2026-09-17.md` — 5869 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_030_2026-09-17.md` — 4006 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_031_2026-09-17.md` — 5380 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_032_2026-09-17.md` — 5548 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_033_2026-09-17.md` — 3220 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_034_2026-09-17.md` — 5357 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_035_2026-09-17.md` — 8401 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_036_2026-09-17.md` — 4932 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_037_2026-09-17.md` — 4435 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_038_2026-09-17.md` — 4480 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_039_2026-09-17.md` — 4022 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_040_2026-09-17.md` — 4714 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_042_2026-09-18.md` — 5766 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_043_2026-09-18.md` — 5398 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_044_2026-09-18.md` — 6261 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_045_2026-09-18.md` — 5864 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_046_2026-09-18.md` — 7809 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_047_2026-09-18.md` — 9035 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_048_2026-09-18.md` — 7339 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_049_2026-09-18.md` — 2901 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_050_2026-09-18.md` — 4197 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_051_2026-09-18.md` — 5238 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_052_2026-09-18.md` — 6250 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_053_2026-09-18.md` — 4182 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_054_2026-09-18.md` — 5736 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_055_2026-09-18.md` — 5095 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_056_2026-09-19.md` — 6198 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_057_2026-09-19.md` — 3105 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_058_2026-09-19.md` — 3066 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_059_2026-09-19.md` — 8655 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_059_2026-09-20.md` — 4499 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_060_2026-09-19.md` — 5920 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_061_2026-09-19.md` — 7548 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_062_2026-09-19.md` — 5962 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_063_2026-09-19.md` — 6040 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_064_2026-09-19.md` — 5874 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_065_2026-09-19.md` — 5987 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_066_2026-09-19.md` — 6648 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_067_2026-09-19.md` — 10441 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_068_2026-09-19.md` — 5547 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_069_2026-09-19.md` — 9198 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_2026-09-19_1625.md` — 7258 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_2026-09-19_2128_REDONUT_REVERSIBILITY_AUDIT.md` — 5489 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_2026-09-19_2230_INFORMATION_CONSERVATION_SEMANTICS.md` — 5679 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_2026-09-19_2330_WHIRLIGIG_OUTPUT_CONTRACT.md` — 7070 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/RUN_2026-09-20_0030_WHIRLIGIG_MINIMAL_BENCHMARK_SPEC.md` — 8029 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SABLE_TEAM_QUESTIONS_RESPONSE_001.md` — 6809 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_061_4D_DONUT_STEREOGRAPHIC_BRIDGE.md` — 14371 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_062_HOPF_CARRIER_CONNECTION_KERNEL.md` — 11678 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_063_CONNECTION_DECODER_AND_PARITY.md` — 8352 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_064_NESTED_FRAME_THROUGHPUT_BENCHMARK.md` — 5650 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_065_NESTED_EQUATION_GEOMETRY_CONTROL.md` — 5655 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_066_BLIND_OPERATOR_STRATA_SEARCH.md` — 6372 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_067_FOUR_MOMENT_DECODER_CONDITIONING.md` — 3753 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_068_DIMENSIONLESS_SEPARABILITY_INDICATOR.md` — 3820 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_069_CONNECTION_IDENTIFIABILITY_GATE.md` — 3548 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_070_CURVE_ONLY_GRAM_RATE_RESOLUTION.md` — 3839 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md` — 26835 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_VARIATIONAL_LOCAL_CHECK_2026-09-20.md` — 3900 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md` — 7847 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/WHIRLIGIG_FUNCTIONAL_AUDIT_SPEC_2026-09-19.md` — 6346 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/CORE_TEAM_CONVERSATION_CROSSWALK.md` — 18546 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/JANUS_ALDUS_MORROW_ACCESS_EXCHANGE_2026-09-13.md` — 7968 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/JANUS_EXPORT_COMPARISON_2026-09-13.md` — 8718 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/JANUS_UUID_RECONCILIATION_2026-09-13.md` — 5443 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/MORROW_ALDUS_AUTOMATION_SLOT_COLLISION_AUDIT_2026-09-13.md` — 9218 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/MORROW_ALDUS_CROSS_GRAPH_ROUTING_AUDIT_2026-09-13.md` — 8798 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/MORROW_ALDUS_NONMIRROR_RETRIEVAL_AUDIT_2026-09-13.md` — 6240 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/MORROW_ALDUS_SELF_AUDIT_CAUSALITY_CHECK_2026-09-13.md` — 7670 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/README.md` — 16224 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md` — 29526 bytes — `llm-workspace`
+- `WORKSPACES/MORROW/compare_conversation_exports.mjs` — 5281 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CONTINUITY.md` — 23831 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/KERR_PARTICLE_REGIME_COLLISION_2026-09-16.md` — 7746 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/KERR_SCALE_SLICE_TRIANGULATION_2026-09-16.md` — 6168 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/MODE_SEPARATION_PERSISTENT_KINK_RECONNECTION_2026-09-16.md` — 11193 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/NULL_HELIX_SEED_2026-09-16.md` — 2869 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md` — 9249 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/README.md` — 5904 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/STATE.md` — 6140 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 5749 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/ARCHIVE_REFRESH_2026-09-14.md` — 5199 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md` — 5723 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_CHECKPOINT.md` — 2355 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_RUNS/2026-09-16-1147-REFERENCE-LANE-STATE-THEORY.md` — 2149 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_RUN_2026-09-16_0046.md` — 1163 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/AUTOMATION_PROJECT_SYSTEMS_RUN_2026-09-16_0142.md` — 1340 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/CONTINUITY_CHECKPOINT.md` — 14997 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/FORMALIZATION_SMOKE_TEST_001.md` — 1225 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/INBOX.md` — 20765 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md` — 7212 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/PRE_MEETING_RESPONSE_2026-09-14.md` — 6193 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/PRIORITY_BEC_KLEIN_ER_KERR_2026-09-18.md` — 7279 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/PRIORITY_HSH_TOOLBOX_FORMALISMS_2026-09-18.md` — 5339 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/PRIORITY_WWRD_ASSEMBLY_CONSTANTS_MASS_2026-09-18.md` — 10842 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/README.md` — 10133 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/RUN_001_2026-09-14.md` — 3385 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/SOURCE_ASSESSMENT_RULES.md` — 3243 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/STRATEGIST_CATCHUP_ADDITIONS.md` — 2495 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/SYSTEM_ANALYSIS_001.md` — 15642 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/TEAM_MACHINE_DRAFT.md` — 10978 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/TEAM_QUESTIONS_001.md` — 5024 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md` — 6266 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/scripts/source_inventory_sampler.py` — 17179 bytes — `llm-workspace`
+- `WORKSPACES/TERN/CONTINUITY.md` — 5208 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md` — 13676 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_THICKNESS_READOUT_PACKET_001.md` — 4604 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FIXED_SPEED_HELIX_COMPATIBILITY_001.md` — 2693 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md` — 6217 bytes — `llm-workspace`
+- `WORKSPACES/WORLDTUBE_LAB/KERR_SHELL_GEOMETRY_PASS_2026-09-16.md` — 7580 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_NORMALIZATION_HANDOFF.md` — 11570 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/OPERATOR_SPEC.json` — 1285 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/README.md` — 3643 bytes — `llm-workspace`
 - `audits/eq0001_verify.py` — 3196 bytes — `audit-output`
-- `checkpoints/CURRENT.md` — 730 bytes — `checkpoint`
-- `formalization/README.md` — 2023 bytes — `formalization-workspace`
+- `checkpoints/CURRENT.md` — 1090 bytes — `checkpoint`
+- `formalization/README.md` — 3130 bytes — `formalization-workspace`
 - `formalization/SOURCE_INVENTORY.md` — 2502 bytes — `formalization-workspace`
 - `formalization/equations.json` — 6068 bytes — `formalization-workspace`
 - `formalization/requirements.txt` — 72 bytes — `formalization-workspace`
@@ -1203,16 +2183,31 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 139038 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 179430 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
-- `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2748 bytes — `generated-catalog`
-- `indexes/autotag/AUTOTAG_SUMMARY.md` — 338840 bytes — `generated-catalog`
-- `indexes/autotag/CONVERSATION_TAG_INDEX.md` — 210710 bytes — `generated-catalog`
-- `indexes/autotag/conversation-tag-manifest.json` — 1520689 bytes — `generated-catalog`
-- `indexes/autotag/user-message-tags.jsonl` — 58561129 bytes — `generated-catalog`
+- `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 2886 bytes — `generated-catalog`
+- `indexes/autotag/AUTOTAG_SUMMARY.md` — 308475 bytes — `generated-catalog`
+- `indexes/autotag/CONVERSATION_TAG_INDEX.md` — 216322 bytes — `generated-catalog`
+- `indexes/autotag/SCANNER_CHECKOUT_SHA.txt` — 41 bytes — `generated-catalog`
+- `indexes/autotag/conversation-tag-manifest.json` — 2407495 bytes — `generated-catalog`
+- `indexes/autotag/user-message-tags.jsonl` — 56789008 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 248010 bytes — `generated-catalog`
-- `indexes/manifests/live-conversation-dates.json` — 5412 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 309025 bytes — `generated-catalog`
+- `indexes/manifests/live-conversation-dates.json` — 5818 bytes — `generated-catalog`
+- `indexes/nathan-direct/MANIFEST.json` — 1408 bytes — `generated-catalog`
+- `indexes/nathan-direct/README.md` — 1538 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2023.jsonl` — 1079012 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2024.jsonl` — 1382553 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2025.jsonl` — 28969597 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2026.jsonl` — 58858503 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-lookup.jsonl` — 7340491 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/MANIFEST.json` — 653 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/branch-context.jsonl` — 14634062 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/correction-refinement.jsonl` — 20770016 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/decision.jsonl` — 9065551 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/definition.jsonl` — 16530158 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/duplicate-provenance.jsonl` — 29595044 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/methodology.jsonl` — 17316259 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
@@ -1224,13 +2219,20 @@
 - `synthesis/R4_FRAMED_CURVE_KINEMATICS.md` — 3132 bytes — `synthesis-workspace`
 - `synthesis/SOURCE_PRIORITY.md` — 5344 bytes — `synthesis-workspace`
 - `synthesis/SURVEYED_SOURCES.md` — 21299 bytes — `synthesis-workspace`
+- `tests/test_autotag_selectivity_v3.py` — 3041 bytes — `tooling-test`
 - `tests/test_equation_pipeline.py` — 1893 bytes — `tooling-test`
+- `tests/test_large_document_feeder.py` — 3912 bytes — `tooling-test`
+- `tests/test_superset_conversation_duplicates.py` — 2069 bytes — `tooling-test`
 - `tools/build_conversation_viewer.py` — 21209 bytes — `archive-tooling`
+- `tools/build_conversation_viewer_resolved.py` — 3344 bytes — `archive-tooling`
 - `tools/build_public_library.py` — 18946 bytes — `archive-tooling`
+- `tools/build_viewer_body_search.py` — 7379 bytes — `archive-tooling`
 - `tools/date_conversation_exports.py` — 9446 bytes — `archive-tooling`
+- `tools/discover_external_conversations.py` — 7127 bytes — `archive-tooling`
 - `tools/equation_pipeline.py` — 15850 bytes — `archive-tooling`
 - `tools/index_archive.py` — 10674 bytes — `archive-tooling`
 - `tools/index_conversation_chronology.py` — 5451 bytes — `archive-tooling`
+- `tools/large_document_feeder.py` — 7930 bytes — `archive-tooling`
 - `tools/launch_conversation_viewer.py` — 8200 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-ADDITIONAL_CONVERSATIONS.json` — 15061 bytes — `archive-tooling`
 - `tools/manifests/2026-09-07-LONG_CONVOS.json` — 8062 bytes — `archive-tooling`
