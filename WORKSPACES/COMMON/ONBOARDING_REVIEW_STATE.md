@@ -5,13 +5,19 @@
 
 Purpose: track whether the central onboarding material remains accurate enough for new, newer, reassigned, and revived instances to navigate all three SAT/H(s)H repositories and their tools without relying on oral tradition.
 
-## Required onboarding source
+## Current material-change flag
 
-Primary guide: `WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md`
+`CARPE_TURNEM_POLICY.md` was added on 2026-09-20 and integrated into the onboarding path. This is a material onboarding change. Established workers should absorb it at their next appropriate control/onboarding review; after absorption it does not require full rereading every recurrence.
+
+## Required onboarding sources
+
+Primary guide: `WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md`  
+Execution rule: `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
 
 The guide must cover, and periodically re-check:
 
 - shared project workflow and current-state entry points;
+- Carpe Turnem execution discipline: act on already-authorized safe next steps in the current turn rather than ending on empty agreement;
 - `Satobloc/SAT_THEORY_ARCHIVE_2023-25` purpose, front doors, Dashboard/AI-files orientation, archive indices, admin/tooling conventions;
 - `Satobloc/HsH` purpose, Common/current-state surfaces, conversation/viewer/index tooling, live workflow conventions;
 - `Satobloc/HSH_RESOURCES` purpose, permitted resource/index/extraction/bibliography surfaces, exposure controls, and strict `PRIOR_ART` boundary;
@@ -27,7 +33,8 @@ Review is required when an instance is:
 2. newly connected to the current workflow after substantial project evolution;
 3. revived from an older historical instance;
 4. reassigned into a repository/tooling environment it has not used recently;
-5. showing navigation/tool-use errors that suggest stale orientation.
+5. showing navigation/tool-use errors that suggest stale orientation;
+6. active when a material onboarding change is flagged and has not yet absorbed it.
 
 Routine established workers do not need to reread the entire guide every recurrence. They should reread only when one of the triggers above applies or the guide has materially changed.
 
@@ -43,11 +50,12 @@ An instance is adequately onboarded when it can locate and explain:
 - the repository-specific front doors and relevant tools;
 - quarantine/exposure constraints;
 - how to leave a durable checkpoint/return route;
-- how to discover existing tools before creating new infrastructure.
+- how to discover existing tools before creating new infrastructure;
+- when Carpe Turnem requires immediate safe execution versus when a blocker/decision/freeze legitimately prevents it.
 
 ## Maintenance trigger
 
-Any worker who encounters a stale path, missing tool explanation, changed repository role, confusing front door, or undocumented workflow should open/update an onboarding-documentation task rather than silently working around the defect.
+Any worker who encounters a stale path, missing tool explanation, changed repository role, confusing front door, undocumented workflow, or recurring empty-agreement behavior should open/update an onboarding-documentation or workflow task rather than silently working around the defect.
 
 The Comptroller/generalist workflow should periodically choose a bounded onboarding-review operation when:
 
@@ -55,6 +63,7 @@ The Comptroller/generalist workflow should periodically choose a bounded onboard
 - repository control surfaces change;
 - new tooling is introduced;
 - revived/new instances repeatedly ask the same navigation question;
-- a repo-specific orientation is discovered to be misleading or incomplete.
+- a repo-specific orientation is discovered to be misleading or incomplete;
+- workers repeatedly acknowledge settled actions without executing them despite having authority and tools.
 
 Onboarding is infrastructure, not theory authority. Keep it concise, current, navigational, and explicit about uncertainty/status boundaries.
