@@ -35,7 +35,7 @@ Before repository-writing scripts/workflows, also obey current cross-repo execut
 ## Standing corpus rules
 
 - If Nathan-authored corpus material is read, tag it.
-- `author.role = user` in preserved project conversation exports is Nathan unless a newer explicit Nathan directive changes that rule.
+- In preserved project conversation exports, an outer `author.role = user` turn is ordinarily Nathan-authored unless newer evidence says otherwise; however, turn provenance and span-level authorship are separate layers. Embedded quotations, imported/status packages, copied third-party or LLM text, and other strongly signaled insertions inside a user turn must not be transferred wholesale into Nathan's voice. Attribute Nathan's surrounding framing separately where identifiable, and place unresolved inserted spans on authorship hold until independently established.
 - Never transfer assistant/other-LLM wording into Nathan's voice.
 - Tags are cumulative and open-ended.
 - Do not silently remove or downgrade existing tags/status/authority.
