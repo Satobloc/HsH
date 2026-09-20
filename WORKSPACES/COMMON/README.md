@@ -90,6 +90,7 @@ Do not equate `role=user` with sole Nathan authorship when a message contains em
 
 - `RESOURCE_CAPABILITY_AUDIT.md` — tools/services/repository capability inventory.
 - `LAB_TOOLING_BUILD_PLAN.md` — geometry/solver/testing/reproducibility tooling plan.
+- `MERSEARCH_RESEARCH_PLATFORM.md` — shared architecture, query semantics, provenance/explain contract, math-search roadmap, backend/API/frontend plan, corpus profiles, security boundaries, testing and current status for Mersearch.
 
 ## Repository boundary
 
