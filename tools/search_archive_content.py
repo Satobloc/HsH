@@ -121,7 +121,10 @@ def phrase_positions(text:str,phrase:str)->list[int]:
 def status(text:str)->list[str]:return [n for n,p in STATUS_PATTERNS if p.search(text)]
 def unquote(s:str)->str:
  s=s.strip()
- return bytes(s[1:-1],"utf-8").decode("unicode_escape") if len(s)>=2 and s[0]==s[-1]=='"' else s
+ if len(s)>=2 and s[0]==s[-1]=='"':
+  try:return json.loads(s)
+  except json.JSONDecodeError:return s[1:-1]
+ return s
 def tokenize(q:str)->list[str]:
  raw=TOKENIZER.findall(q);out=[];prev=None
  for tok in raw:
