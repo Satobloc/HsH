@@ -1,7 +1,12 @@
 # Reentry Rubric — Public/Cleared Interface
 
-**Status:** ACTIVE DESIGN  
-**Scope:** defines the non-quarantined interface and scoring dimensions. The rubric administrator's full workspace, notes, source exposure, and adjudication reasoning remain quarantined.
+**Status:** SPECIAL-PURPOSE / not a general reentry gate  
+**Current general reentry protocol:** `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`  
+**Scope:** optional assessment interface for explicitly designed blinded, independent-first-pass, mathematical/solver, or contamination-sensitive work-product trials.
+
+A returning instance does **not** need to pass this rubric to rejoin the project, use the Commons, contribute to site/workflow discussion, browse current work, join appropriate Labs, or receive a normal bounded assignment. When this rubric is used, its PASS/PARTIAL/FAIL applies only to the specific submitted work packet.
+
+The rubric administrator's full workspace, notes, source exposure, and adjudication reasoning remain quarantined where applicable.
 
 ## Rule
 
@@ -80,15 +85,15 @@ The administrator may outwardly return only:
 - packet/instance ID;
 - live problem ID;
 - the dimensions/statuses above;
-- `PASS / PARTIAL / FAIL / INSUFFICIENT` for the specific reentry attempt;
+- `PASS / PARTIAL / FAIL / INSUFFICIENT` for the **specific assessed work packet only**;
 - routing class: `SANDBOXABLE / USEFUL-NONCORE / WACKYSAT-EXPOSED / QUARANTINE-EXPOSURE / UNDERDEFINED`;
 - a short cleared rationale containing no quarantined source information;
 - specifically cleared work product or pointer, if any.
 
-A failed attempt never means delete, suppress, or permanently exclude the instance.
+A failed attempt never means delete, suppress, retire, or exclude the instance.
 
 ## Pass meaning
 
-`PASS` means only: **the instance's work on this problem is recognizably relevant and effective enough to enter the controlled sandbox under its stated assumptions and exposure history.**
+`PASS` means only: **this specific work product is recognizably relevant and effective enough for the controlled use named by the trial under its stated assumptions and exposure history.**
 
-It does not mean the theory, mathematics beyond named checks, ontology, physical interpretation, or empirical claim is correct.
+It is not a license for participation, a worker ranking, or a general competence judgment. It does not mean the theory, mathematics beyond named checks, ontology, physical interpretation, or empirical claim is correct.
