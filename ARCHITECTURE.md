@@ -2,12 +2,14 @@
 
 Status: active scaffold. This document governs archive organization, not theory content.
 
+**Theory-control routing:** `BEDROCK.md` is the central living theory-premise/reference control surface. The Fundamental Intuitions — Extended is the foundational conceptual/doctrinal source, with ancestry **FIE → SAT → H(s)H**. This architecture file does not promote theory. `synthesis/CURRENT_SYNTHESIS.md` is presently non-controlling/quarantined unless newer Nathan Direct changes that status.
+
 ## Layers
 
 | Layer | Intended role | Authority |
 |---|---|---|
 | `DEVELOPMENT_FULL_CONVOS/` | Immutable or minimally altered conversation/source record | Primary developmental evidence; not automatically current |
-| `synthesis/` | Clean, source-linked H(s)H construction | Current statements must carry provenance and maturity |
+| `synthesis/` | Historical/assembled synthesis material | **Non-controlling at present; `synthesis/CURRENT_SYNTHESIS.md` remains quarantined/non-controlling unless newer Nathan Direct changes that status. Theory authority routes through `BEDROCK.md`.** |
 | `ledgers/` | Equation, dependency, terminology, chronology, and claim-status records | Derived catalog layer |
 | `audits/` | Dimensional, algebraic, numerical, source, and benchmark checks | Evaluation layer |
 | `formalization/` | Curated machine-readable equations, assumptions, units, dependencies, and Lean obligations | Formalization input; never raw-source authority |
@@ -15,12 +17,12 @@ Status: active scaffold. This document governs archive organization, not theory 
 | `generated/lean/` | Lean theorem modules emitted from curated records | Formal obligations; accepted only after an actual Lean run |
 | `indexes/` | Generated structural inventories and scan state | Navigation only |
 | `tools/` | Reproducible archive and validation utilities | Archive machinery |
-| `WORKSPACES/` | Agent/user working rooms and cross-agent coordination | Working layer; never source or synthesis authority by itself |
+| `WORKSPACES/` | Agent/user working rooms and cross-agent coordination | Working layer; never theory authority by itself |
 | `staging/` | Incomplete or fragile assembled work | Noncanonical working area |
 
 External evidence lives in the private `Satobloc/HSH_RESOURCES` repository.
-Raw papers and datasets remain separate from conversation sources and from this
-public synthesis. Any imported result must cite an exact resource record and keep
+Raw papers and datasets remain separate from conversation sources and from public
+HsH theory-control surfaces. Any imported result must cite an exact resource record and keep
 standard-source support distinct from H(s)H interpretation.
 
 ## Public cross-link boundary
@@ -44,7 +46,7 @@ not be manufactured merely to resemble a finished project.
 - Each sustained workspace should state its scope, current state, source inputs, and handoff destination.
 - Workspaces may disagree, branch, or contain unfinished reasoning. Their contents do not acquire theory authority merely by being in the repository.
 - Cross-agent information sharing belongs in `WORKSPACES/COMMON/`. Use it for short handoffs, active coordination, blockers, shared questions, and pointers to work in progress.
-- Durable results must be promoted out of the common area to the proper destination: source/provenance records, ledgers, audits, synthesis, formalization, indexes, or timeline documents.
+- Durable results must be promoted out of the common area to the proper destination: source/provenance records, ledgers, audits, formalization, indexes, timeline documents, or the explicit BEDROCK status process for theory-bearing results. Do not treat synthesis as an automatic promotion destination while its current control surface is quarantined/non-controlling.
 - Do not duplicate large source material into workspaces. Link to public project sources; for private HSH_RESOURCES material, use a bibliographic identifier/citation handoff and a public-safe summary rather than making the public workspace depend on a private link.
 - The historical archive's `.[⚙️_AI_FILES]/SHARED_RESOURCES/` remains the archive-side shared-resource area; `HsH/WORKSPACES/COMMON/` is the current-build coordination area.
 
@@ -63,9 +65,11 @@ The current reconstruction keeps these levels distinct:
 7. analytical and solver tools such as the Universal Indicatrix, Donut,
    Whirligig, Scrollsaw, plots, and simulations.
 
+This hierarchy is architectural/reconstructive guidance, not an independent theory-authority surface; where it conflicts with `BEDROCK.md` or newer Nathan Direct, those control.
+
 ## Status vocabulary
 
-Every substantive synthesis entry should record provenance and maturity separately.
+Historical synthesis material may record provenance and maturity separately using the vocabulary below, but those labels do not substitute for BEDROCK's current theory-status strata (`ND`, `FB`, `WB`, `TF`, `OC`, `SS`).
 
 - Provenance: `OBS`, `STD`, `SAT`, `SRC`, `GEN`.
 - Maturity: `FROZEN`, `DERIVED`, `ACTIVE`, `CANDIDATE`, `HISTORICAL`,
@@ -77,7 +81,7 @@ raise an item's status.
 ## Source handling
 
 - Preserve the original conversational record.
-- Prefer additive catalogs and corrected synthesis over destructive source edits.
+- Prefer additive catalogs and explicit status-corrected records over destructive source edits.
 - Record full, partial, sampled, index-only, and inaccessible coverage explicitly.
 - Preserve contradictions and superseded forms with chronology.
 - Do not silently merge distinct meanings of symbols such as archive `theta4` or `Q`.
