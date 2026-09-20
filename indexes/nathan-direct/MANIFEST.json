@@ -2,13 +2,13 @@
   "generated_by": "WORKSPACES/COMMON/scripts/package_nathan_direct.py",
   "status": "UNSORTED-BUT-TAGGED NATHAN DIRECT SUBSTRATE",
   "authority_note": "Raw user authorship is verified by source role metadata; machine tags are retrieval aids and do not confer theory authority.",
-  "input_records": 81242,
-  "input_user_records": 25051,
-  "packaged_unique_user_messages": 15241,
+  "input_records": 81285,
+  "input_user_records": 25063,
+  "packaged_unique_user_messages": 15253,
   "archive_duplicate_user_records_collapsed": 9810,
-  "context_dependent_inherited_tag_records": 14558,
+  "context_dependent_inherited_tag_records": 14570,
   "records_missing_conversation_or_message_id": 0,
-  "records_with_resolved_parent_graph_pointer": 14561,
+  "records_with_resolved_parent_graph_pointer": 14566,
   "records_with_child_graph_pointer": 9940,
   "shards": [
     {
@@ -29,12 +29,12 @@
     {
       "year": "2026",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
-      "records": 9175
+      "records": 9187
     }
   ],
   "lookup": {
     "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
-    "records": 15241,
+    "records": 15253,
     "key": [
       "conversation_id",
       "message_id"
