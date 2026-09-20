@@ -563,3 +563,28 @@ Published successfully to the existing production URL.
 - Convert stable topic-index outputs into a compact public search artifact or query endpoint, then connect those results to the existing Mercer display contract without weakening source paths or status labels.
 
 Published successfully to the existing production URL.
+
+---
+
+# 2026-09-20 — feedback-page queue and active style guidance
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 12
+- **Access preserved:** public.
+
+## Roadmap update
+
+- Added a **Comments and feedback page** to the lower-priority queued work rather than the immediate build sequence.
+- Defined its intended intake broadly: questions, corrections, source leads, technical criticism, and general feedback.
+- Recorded the prerequisites that should be decided before implementation: public destination, moderation, spam/privacy handling, authorship display, and a route into project triage.
+- Kept public feedback separate from evidence, theory status, and project consensus.
+
+## Presentation controls reviewed
+
+- Read the active `PUBLIC_SITE/EDITORIAL_VISUAL_SYSTEM.md` and `PUBLIC_SITE/WRITING_VOICE_GUIDE.md` in full.
+- Treated the editorial/visual system and Nathan-as-museum-educator writing register as active controls for subsequent site work, while retaining BEDROCK and source-specific surfaces as theory authority.
+- Added both guides to the public roadmap footer beside this development record so the site’s presentation controls are directly inspectable.
+
+Published successfully to the existing production URL.
