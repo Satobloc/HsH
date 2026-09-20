@@ -29,7 +29,7 @@ STATUS_PATTERNS=[
  ("unresolved",re.compile(r"\b(unresolved|open question|not sure|unknown|pending|needs? (?:checking|review)|tbd)\b",re.I)),
  ("derivation",re.compile(r"\b(derive|derived|derivation|therefore|implies?|follows? from)\b",re.I)),
  ("proposal",re.compile(r"\b(propose|proposal|hypothesis|maybe|perhaps|could be|let's try|we should try)\b",re.I))]
-TOKENIZER=re.compile(r'[A-Za-z_][\\w-]*:"(?:\\\\.|[^"\\\\])*"|"(?:\\\\.|[^"\\\\])*"|\\(|\\)|\\b(?:AND|OR|NOT)\\b|\\bNEAR(?:/\\d+)?\\b|[^\\s()]+',re.I)
+TOKENIZER=re.compile(r'[A-Za-z_][\w-]*:"(?:\\.|[^"\\])*"|"(?:\\.|[^"\\])*"|\(|\)|\b(?:AND|OR|NOT)\b|\bNEAR(?:/\d+)?\b|[^\s()]+',re.I)
 PRECEDENCE={"OR":1,"AND":2,"NEAR":3,"NOT":4}
 
 @dataclass
