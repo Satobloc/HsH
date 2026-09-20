@@ -588,3 +588,37 @@ Published successfully to the existing production URL.
 - Added both guides to the public roadmap footer beside this development record so the site’s presentation controls are directly inspectable.
 
 Published successfully to the existing production URL.
+
+
+---
+
+# 2026-09-20 — Living Glossary v1
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 13
+- **Access preserved:** public.
+
+## Status-aware term layer
+
+- Added a searchable, filterable **Living Glossary v1** with 15 stable term anchors.
+- Separated entries into four visible status lanes: current control, active analytical scaffold, historical translation, and recovery target.
+- Built each stable entry around current meaning, historical usage, collapse guards, conventional comparison, related terms, and source trails.
+- Added current or translation-controlled entries for SAT, H(s)H, worldtube, worldline, filament, timesheet/resolving surface, the readout map, θ₄, Electrogravity, Interbraid, Universal Indicatrix, Whirligig/Donut, and SAT → H(s)H.
+- Listed He-3 Holotype Atom and Jarlskog Shadow as explicit recovery targets instead of assigning them stronger public definitions before their controlling claim packages are reconstructed.
+
+## Corrections and integration
+
+- Applied the current BEDROCK θ₄ convention: measure from the time normal, with θ₄ = 0 as the null/vacuum orientation; older conflicting uses remain labeled historical.
+- Rewrote the homepage quick definitions for filament, timesheet, θ₄, readout, worldtube, and Universal Indicatrix to match the present control hierarchy.
+- Added the glossary to the homepage translation desk, global navigation, Reading Room, episode guide, roadmap, and sitemap.
+- Retained the historical SAT glossary as a distinct dated source rather than allowing it to control present definitions.
+
+## Roadmap state
+
+- Moved Living Glossary v1 into **Already delivered**.
+- Advanced the **claims and predictions explorer** to P1, followed by feed-driven live sections and deeper document/concept routes.
+- Kept He-3 and Jarlskog reconstruction visible as work to be sourced, typed, reproduced, and status-labeled in that next layer.
+
+Published successfully to the existing production URL.
