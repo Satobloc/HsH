@@ -9,10 +9,10 @@ Query examples:
   '(helix OR helical) AND author:user AND date:2026-06-01..2026-07-31'
   'title:"Geometry in Physics" AND NOT author:assistant'
 Operators: AND, OR, NOT, parentheses, quoted phrases, NEAR or NEAR/n.
-Fields: author/speaker, role, title, path, conversation/cid, date, status.
+Fields: body, name, path, ext, type/kind, has, author/speaker, role, title, conversation/cid, date, status.\nInventory fields name/path/ext support shell-style * and ? wildcards.
 """
 from __future__ import annotations
-import argparse,csv,hashlib,json,re,shlex
+import argparse,csv,fnmatch,hashlib,json,re,shlex
 from collections import Counter,defaultdict
 from dataclasses import asdict,dataclass
 from datetime import datetime,timezone
