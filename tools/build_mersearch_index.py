@@ -31,6 +31,7 @@ def main():
     ap.add_argument("--index-root",type=Path,default=Path("indexes/mersearch"))
     ap.add_argument("--max-bytes",type=int,default=25_000_000)
     ap.add_argument("--exclude",action="append",default=[])
+    ap.add_argument("--fail-before-publish",action="store_true",help=argparse.SUPPRESS)
     args=ap.parse_args()
     repo=args.repo.resolve(); root=(repo/args.index_root).resolve()
     gen_id=datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")+"-"+uuid.uuid4().hex[:8]
@@ -80,6 +81,8 @@ def main():
     con.commit();con.execute("PRAGMA optimize");con.close()
     meta["db_bytes"]=db.stat().st_size;meta["timings_seconds"]["total"]=round(time.perf_counter()-t0,6)
     atomic_json(gen/"manifest.json",meta)
+    if args.fail_before_publish:
+        raise RuntimeError("intentional pre-publication failure for retention testing")
     # Publication is atomic at pointer-file level; old generation remains untouched.
     root.mkdir(parents=True,exist_ok=True)
     atomic_json(root/"CURRENT.json",{"schema_version":SCHEMA_VERSION,"generation_id":gen_id,"manifest":f"generations/{gen_id}/manifest.json","database":f"generations/{gen_id}/mersearch.sqlite"})
