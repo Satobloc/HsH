@@ -7,6 +7,13 @@ Purpose: provide a deliberate experimental space for concept trials, multi-loop 
 
 This is a successor **in spirit** to earlier SAT-O Lab-style experimentation, not a claim that the old lab architecture should be reproduced literally.
 
+Labs may contain durable named facilities and method institutions. Human-facing names may be commemorative; technical IDs and run schemas remain stable and plain where reliability matters. See `WORKSPACES/COMMON/COMMEMORATIVE_NAMING_CHARTER.md`.
+
+Current named institutions include:
+
+- **Holo J. F. Light Virtual Optical Workbench** — `HOLO_JF_LIGHT_VIRTUAL_OPTICAL_WORKBENCH.md`; visualization, projection, geometric readout, animation, and representation diagnostics;
+- **Alberr Hall of First Principles** — `../COMMON/ALBERR_HALL_OF_FIRST_PRINCIPLES.md`; clean-sheet reasoning, thought experiments, independent first passes, and from-principles reconstruction before controlled comparison.
+
 ## Lab classes
 
 A Lab may be one or more of:
@@ -98,3 +105,5 @@ See `LAB_REGISTRY.json`.
 
 Initial design target:
 - `LAB-SBS-001` — geometric solver vs standard-equation side-by-side pipeline.
+
+`LAB-SBS-001` is a natural early customer of the Holo J. F. Light Virtual Optical Workbench once existing solver/rendering machinery has been inventoried.
