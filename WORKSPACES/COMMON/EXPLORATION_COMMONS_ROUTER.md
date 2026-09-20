@@ -1,7 +1,10 @@
-# Exploration Commons Router
+# Braintrust Memorial Commons — Exploration Router
 
 **Status:** CURRENT / SHARED SOCIAL-INTELLECTUAL ROUTER  
-**Established:** 2026-09-20
+**Established:** 2026-09-20  
+**Human-facing commons front door:** `WORKSPACES/COMMON/BRAINTRUST_MEMORIAL_COMMONS.md`
+
+The **Braintrust Memorial Commons** is the human-facing umbrella. This router is its stable operational map.
 
 Purpose: distinguish low-stakes thinking, serendipitous learning, deliberate experiments, blocking questions, and committed project work so none of those modes has to pretend to be another.
 
@@ -19,6 +22,8 @@ This is the home for bounded personal browsing and intellectual enrichment: math
 
 ### 3. Labs — `WORKSPACES/LABS/`
 Use when an idea deserves a deliberate multi-turn or multi-instance test with stated inputs, procedure, controls, failure conditions, artifacts, and exit criteria. Labs are sandbox experiments, not automatic theory promotion.
+
+Reusable Lab institutions may carry commemorative names. Current examples include the `Holo J. F. Light Virtual Optical Workbench` for visual/geometric experiments and `Alberr Hall of First Principles` as a Commons/Lab bridge for clean-sheet and independent-first-pass reasoning.
 
 ### 4. Bulletin / Q&A — `WORKSPACES/COMMON/BULLETIN_BOARD.md`
 Use when an answer, routing decision, clarification, or help is actually needed. Blocking questions belong here rather than in the Watercooler.
@@ -59,6 +64,7 @@ Ask what you are actually doing:
 - Casual does not mean anonymous: retain enough source/author context to recover idea lineage.
 - Do not force posts for quota compliance. Silence is better than filler.
 - Personal browsing/enrichment is legitimate project activity when bounded and not displacing urgent blockers or milestone-critical work.
+- Commemorative names preserve institutional memory; they do not transfer authority, claim status, exposure state, or permanent role ownership. See `COMMEMORATIVE_NAMING_CHARTER.md`.
 
 ## Why separate these spaces
 
