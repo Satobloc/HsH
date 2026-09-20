@@ -22,6 +22,18 @@ These are **cross-folder duplicate archive copies**. Preserve both folder paths 
 
 Folder 20 also visibly contains items not present in the truncated first folder-19 listing, including `# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json` (SHA `50c4ae2b880804d0f4dd7bfb9e1ba7ef08ba19fc`), `Alberrisch__NotebookLM_export.json` (SHA `6e29ff3dea9532c0eaf0cf5b26d58d9b49e75415`), and `BURNTHROUGH__NotebookLM_export.json` (SHA `8bb929b45a85f199021cd01c653db209679a436c`).
 
+## AUTHORSHIP CORRECTION — Nathan directive, 2026-09-20
+
+Nathan clarified the archive-level provenance rule: conversations in the archive are conversations Nathan personally had, exported, and uploaded. Therefore, **at the conversation-turn level, structurally identifiable human/user turns are Nathan Direct unambiguously**. Do not hold such turns in a `Nathan-candidate` state merely because a NotebookLM exporter serializes both sides as `role=user`.
+
+The NotebookLM defect creates a **speaker-separation problem, not a human-identity problem**. Use conversation structure, prompt/response adjacency, citation-bearing generated-answer structure, UI/export metadata, quotation/paste markers, context, and voice discontinuity to distinguish Nathan's human turns from NotebookLM output. Nathan's distinctive voice is valid supporting evidence, though not the sole discriminator where stronger structural evidence exists.
+
+At the span level, a Nathan-entered turn may contain pasted LLM output, source quotation, coauthored text, or other embedded foreign material. Carve out those spans where indicated; do not downgrade the entire turn. If a genuine quoted-material boundary remains consequentially ambiguous, ask Nathan rather than indefinitely withholding the surrounding material.
+
+For non-conversation documents, do not automatically apply the categorical turn-level rule; assess document-specific provenance, metadata, upload ancestry, voice, context, and internal authorship boundaries.
+
+This correction supersedes the over-conservative authorship language in the three reads below. Their generated NotebookLM answers remain non-Nathan.
+
 ## First semantic read — `# SAT_SoT Scalar-Angular-Theory State of the Theory__NotebookLM_export.json`
 
 **Read date:** 2026-09-19  
@@ -34,11 +46,11 @@ Folder 20 also visibly contains items not present in the truncated first folder-
 
 ### Authorship/source boundary
 
-The export again demonstrates the known NotebookLM serialization hazard: short prompt-like turns and long citation-heavy generated answers are both serialized as `role=user`. Therefore `role=user` is **not** Nathan-authorship authentication here. Prompt-like turns such as `Has SAT achieved structural closure` and `Ok, give me all the core equations of SAT` are Nathan-candidate utterances only until recovered against an underlying raw conversation/source or other independent authorship evidence. The long responses are plainly NotebookLM synthesis and must not enter Nathan Direct as Nathan-authored prose.
+The export serializes short prompt-like human turns and long citation-heavy generated answers as `role=user`, so that field alone cannot separate speakers. Under Nathan's 2026-09-20 clarification, **structurally identifiable human prompt turns are Nathan Direct**. Prompt-like turns such as `Has SAT achieved structural closure` and `Ok, give me all the core equations of SAT` should therefore be treated as Nathan Direct where the local prompt/response structure identifies them as human input. The long citation-heavy responses are NotebookLM synthesis and must not enter Nathan Direct as Nathan-authored prose. Any embedded quoted/pasted material inside a Nathan turn requires span-level handling only where actually indicated.
 
 ### Semantic routing value
 
-Tentative value: **VERY HIGH for historical SAT reconstruction/source wayfinding; LOW as direct-authorship evidence without crosswalks.**
+Tentative value: **VERY HIGH for historical SAT reconstruction/source wayfinding; human prompt turns are Nathan Direct where structurally separable; generated answers remain secondary evidence.**
 
 The generated material is unusually dense in claims/equations attributed to its 50-source panel. Visible topics include constraint closure, a three-field SAT Lagrangian, refractive-index / angle relations, mass-emergence formulas, triplet-fusion/torsion claims, phenomenological reinterpretations, and generated caveats about unfinished quantization, tau dynamics, and mass hierarchy.
 
@@ -62,13 +74,13 @@ Classification: NLM generated claims present; numeric citations present; 50-sour
 
 ### Authorship boundary
 
-This export provides an especially clear local demonstration that NotebookLM `role=user` is not an authorship field. Short uncited prompt-like turns and long citation-bearing generated responses are all serialized as `role=user`. Short turns are **Nathan-candidate wording only**, not Nathan Direct, until independently authenticated; citation-heavy turns remain NLM-generated synthesis/style continuation.
+This export provides an especially clear local demonstration that NotebookLM `role=user` is not a speaker field. Short uncited human prompt turns and long citation-bearing generated responses are all serialized as `role=user`. Under Nathan's clarified archive provenance, **the structurally identifiable human prompt turns are Nathan Direct**; citation-heavy generated turns remain NotebookLM synthesis. Only genuinely embedded quoted/pasted spans inside a Nathan turn require separate attribution.
 
 ### Semantic routing value
 
-Tentative value: **HIGH for creative/voice/conceptual-source archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.** Preserve its playful/recursive/neologistic material rather than cleaning it away or promoting metaphor into physics claims.
+Tentative value: **HIGH for creative/voice/conceptual-source archaeology; LOW for SAT/H(s)H theory reconstruction; direct-authorship value is HIGH for structurally identifiable human turns and NONE for generated NotebookLM answers.** Preserve its playful/recursive/neologistic material rather than cleaning it away or promoting metaphor into physics claims.
 
-The notebook metadata attests to **2 visible sources**. Repository code searches for the exact notebook title and `Sun's China` produced no indexed underlying-source match. Classification: **two-source notebook attestation / underlying source identities unresolved in the currently checked route**.
+The notebook metadata attests to **2 visible sources**. Repository code searches for the exact notebook title and `Sun's China` produced no indexed underlying-source match. Classification: **two-source notebook attestation / underlying source identities unresolved in the currently checked route**. This unresolved source ancestry does not block Nathan Direct attribution of identifiable human conversation turns.
 
 ## Semantic/provenance read — `Alberrisch__NotebookLM_export.json`
 
@@ -82,24 +94,22 @@ The notebook metadata attests to **2 visible sources**. Repository code searches
 
 ### Authorship boundary
 
-This notebook again serializes both short uncited first-person turns and long citation-bearing NotebookLM answers as `role=user`. The visible first-person turns are highly plausible Nathan utterances but remain **Nathan-candidate**, not Nathan Direct, until independently crosswalked. Examples include statements that the speaker is the artist, learned particular painting techniques mostly from his father, had done little oil painting since his teens, and prefers willow-twig charcoal, smudge stick, and kneaded rubber for fine-art work. Generated responses interpret and elaborate those statements and must not be converted into Nathan-authored biography or artistic doctrine.
+This notebook serializes both short uncited first-person human turns and long citation-bearing NotebookLM answers as `role=user`. Under Nathan's clarified archive provenance, the **structurally identifiable first-person human turns are Nathan Direct**, not merely candidates. These include statements that Nathan is the artist, learned particular painting techniques mostly from his father, had done little oil painting since his teens, and prefers willow-twig charcoal, smudge stick, and kneaded rubber for fine-art work. Generated responses interpret and elaborate those statements and must not be converted into Nathan-authored biography or artistic doctrine. If a specific human turn contains an actual pasted quotation, delimit that quoted span rather than downgrading the whole turn.
 
 ### Semantic routing value
 
-Tentative value: **HIGH for personal/creative provenance and artistic-method archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.**
+Tentative value: **HIGH for personal/creative provenance and artistic-method archaeology; LOW for SAT/H(s)H theory reconstruction; HIGH direct-authorship value for structurally identifiable human turns.**
 
-The visible sequence concerns a portrait/oil-painting process rather than SAT theory. Candidate first-person material describes: omission of an underpainting; use of red/yellow/blue; inherited technique lessons from the speaker's father, especially white touches and darkest-next-to-lightest tonal placement; a return to oils after roughly 30–40 years; intermittent acrylic/pastel/chalk/colored-pencil/pen work; an experimental-art orientation; and preference for willow charcoal plus subtractive/blending tools. NotebookLM generated prose proposes art-historical labels and possible painter antecedents; those guesses are NLM interpretation, not source testimony.
-
-The capture is potentially useful for a future Nathan creative/biographical corpus because the short first-person turns contain unusually specific self-report. Do not ingest them into durable Nathan Direct until source/authorship authentication is available.
+The visible sequence concerns a portrait/oil-painting process rather than SAT theory. Nathan Direct first-person material describes: omission of an underpainting; use of red/yellow/blue; inherited technique lessons from his father, especially white touches and darkest-next-to-lightest tonal placement; a return to oils after roughly 30–40 years; intermittent acrylic/pastel/chalk/colored-pencil/pen work; an experimental-art orientation; and preference for willow charcoal plus subtractive/blending tools. NotebookLM generated prose proposes art-historical labels and possible painter antecedents; those guesses are NLM interpretation, not source testimony.
 
 ### Source / crosswalk status
 
-Notebook metadata attests to **15 visible sources**. Current repository code searches for `Alberrisch` and the distinctive phrase cluster `willow twig charcoal smudge stick kneaded rubber` returned no indexed underlying-source match. This is a weak negative because code-search coverage is incomplete. Classification: **15-source notebook attestation / underlying source identities unresolved in the checked route**. No candidate turn was admitted to Nathan Direct in this pass.
+Notebook metadata attests to **15 visible sources**. Current repository code searches for `Alberrisch` and the distinctive phrase cluster `willow twig charcoal smudge stick kneaded rubber` returned no indexed underlying-source match. This is a weak negative because code-search coverage is incomplete. Classification: **15-source notebook attestation / underlying source identities unresolved in the checked route**. That unresolved source ancestry is independent of Nathan Direct attribution for structurally identifiable human conversation turns.
 
 ## Extraction / authorship caution
 
-Folder 18/19 NotebookLM exports already establish that `role=user` is not sufficient Nathan-authorship evidence. Folder 20 independently reinforces the same rule. Apply it consistently. NLM source lists/indices are wayfinding evidence until underlying sources are located and authenticated.
+Folder 18/19/20 NotebookLM exports establish that `role=user` alone cannot separate human and generated turns. Do **not** turn that exporter defect into uncertainty about the identity of the human conversant. Archived conversation provenance establishes Nathan as that human. Apply speaker separation first; then treat identifiable human turns as Nathan Direct, with span-level exceptions only for actual pasted/quoted/coauthored material. NLM source lists/indices remain wayfinding evidence until underlying sources are located and authenticated.
 
 ## Next cursor
 
-Continue folder-20 SHA/inventory differentiation and select one genuinely new, non-duplicate high-information blob for the next bounded semantic/provenance read; do not return to unresolved Alberrisch source ancestry without a different anchor.
+Apply this corrected turn-level authorship rule during the next bounded folder-18/19/20 NLM ingest. Where an earlier index entry withheld a structurally identifiable human prompt solely because of the broken `role=user` field, correct it opportunistically when that object is next touched; do not perform a broad churn-only rewrite.
