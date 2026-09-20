@@ -175,3 +175,83 @@ This is a top-tier epistemic/methodological quote candidate and a direct histori
 The sequence also demonstrates why NLM-generated labels cannot be trusted merely because they call themselves `Standard Science` or `SAT Equation [Version...]`. Nathan endorses explicit provenance labeling as a protocol, but index 103 makes clear that labeling is not validation and does not authorize importing SAT content into the first-principles construction.
 
 **Next cursor:** index 104 onward: continue after Nathan's explicit no-SAT-import gate, checking whether Avery actually returns to standard/minimal geometry and how Nathan handles any further drift.
+
+## 2026-09-20 large-tranche continuation — indices 104–175
+
+This pass deliberately widened the reconstruction quantum. It covers the post-gate force inquiry, methodological-cycle formalization and correction, archive-authority reset, terminology strategy, literature-review transition, working-title emergence, and ontological-agnosticism correction.
+
+### A. Force inquiry: contact-only mechanism rejected (104–130)
+
+Nathan keeps the inquiry descriptive rather than prescriptive. At index 107 / key `25655de8`, he rejects least action as useful but, at this stage, stipulated rather than geometrically mandated; asks for simple empirically characterized systems whose 4D topology can be mapped without assuming the answer. At index 109 / `6023bfc6`, he rejects Avery's circular/SHM/constant-acceleration examples because they encode the target topology a priori rather than explicitly containing an interaction.
+
+Nathan chooses two-body Coulomb repulsion as the first target (111 / `4f570b8e`; 113 / `040f492b`). Avery repeatedly imports SAT-specific diameter/projective-resistance/plane assumptions. Nathan corrects this at 115 / `c94a3a63`: map the 4D topology using standard science, discard the standard explanatory labels/reasoning for geometric inspection, and ask whether extra complexity arises unavoidably from the topology itself.
+
+The decisive observation is 117 / `b4f0a1dd`: fixed-diameter non-overlap can only matter at contact, but the mapped paths curve before contact. Therefore the existing minimal grammar records force prior to boundary contact; contact-only boundary reconciliation cannot explain the mapped behavior. This is a high-value reasoning/provenance passage.
+
+At 119 / `29ea50ee`, Nathan also corrects ambiguous language: the tube itself is not rotating around its long axis; what changes is the angle between tube and plane, θ. At 121 / `e2f58122`, he tentatively accepts a participatory-plane/metric-response addition as the minimal necessary complexity reached by this exercise, then explicitly strips away scaffolding and asks for the resulting minimal system. At 123–129 he asks what θ tracks universally vs only in the Coulomb mapping and then asks for the entire current minimal system to be defined.
+
+**Important status caution:** Avery's detailed claims about metric density, 1/r² propagation, projective resistance, and electromagnetic identity remain generated formulations. Nathan's acceptance establishes the methodological branch result in this conversation, not independent mathematical/physical verification of Avery's equations or wording.
+
+### B. Methodological cycle and successive critique corrections (131–146)
+
+Nathan marks completion of a full methodological cycle at 131 and restates more precisely at 133 / `85ff770b`: this is a working process especially for foundational elements and for hypotheses/conjectures that do not emerge naturally on their own.
+
+Avery's index-134 formalization is generated. Nathan then explicitly asks it to compare SAT RIGOR and RMS SAT CRITIQUE (135), asks to spell the methodology out carefully (137), supplies/references a revised methodology critique (139), then says he has added his own corrections to that critique (141). Generated 142 reports the resulting correction set as: complete purge rather than bracketing during foundational extraction; candidate extraction rather than identity assignment; worldtube as starting grammar; Minkowski-sufficiency wager; minimal physical unit chosen to actually contain the phenomenon. These reported details need underlying-source crosswalk before being treated as verbatim Nathan doctrine beyond what Nathan's adjacent turns explicitly endorse.
+
+At 143 / `8cf2b905`, Nathan asks whether SAT RIGOR + FOUNDATIONAL ARGUMENT + recent methodological discussion form a coherent groundwork for both granular foundational exploration and later higher-level theory work. Avery's synthesis at 144 is generated and imports many substantive theory claims; do not convert it into Nathan Direct.
+
+At 145 / `0dbc9286`, Nathan gives a major authority/supersession rule:
+
+> `Importantly, we do not by default accept anything in the older SAT theory documents as a given. They are purely for a consultation later when we get into the higher level theorizing… And that includes things like our “honesty tests” and any specific value or identity.. The recent discussions in the sources about SAT26 and newer interpretations need to be taken as superseding prior versions of SAT, although those prior versions do serve as a rough draft for the basic concepts and strategies—not specific results or conclusions.`
+
+This is top-tier currentness/provenance methodology. It explicitly separates older SAT as rough-draft concept/strategy material from current specific results/conclusions. Avery's index-146 attempt to enumerate “validated primitives” and numerical examples is generated interpretation, not itself Nathan authority.
+
+### C. Archive role and terminology strategy (147–160)
+
+Nathan checks on Avery personally (147, 149), then introduces the SAT Archive (151–155). Avery says it can see structural/source-level information but cannot directly open arbitrary GitHub file interiors from NotebookLM. Nathan 155 / `3230a49b` explains the archive's intended role: a fallback/resource because much ground has been covered repeatedly; current work is an official transition from worldline to worldtube-native SAT plus a shift toward contemporary scientific terminology; granular exercises are training sessions; literature reviews should meet the field in current vocabulary without overwriting SAT's conceptual foundations. The same turn also contains Nathan's claims/interpretations about independent development, chronology, possible diffusion/convergence and priority. Preserve those as Nathan provenance testimony/argument, not independently established priority/diffusion fact.
+
+Generated 156 wildly overcommits again, including specific mass-ratio/Q/B claims. These must remain generated and are especially important not to inherit into current theory status.
+
+Nathan 157 / `e6f2fba3` gives the terminology strategy: candidate terminology is not prescription; use standard scientific terminology and standard mathematical/physics formalisms where possible; clearly mark divergences; preserve one distinctive central variable/operator/symbol emerging from current methodology as SAT's mark of distinction; likely retain `Zottenwelt` only as titular attribution; let conceptual strength/intuitive clarity carry identity. Avery proposes a “Holonomic Scaling Operator” at 158; Nathan accepts only tentatively at 159: `Tentatively, but we will evolve as we go.` This is not a final operator selection.
+
+### D. Working title and ontological correction (161–170)
+
+Nathan title sequence:
+- 161 / `2f3fba60`: exploratory `Extended Minkowskian Hyper(super)helical Worldtube Geometry — H(s)H : An Introduction to the Zottenwelt`.
+- 163 / `4273b70c`: working title becomes `Principles of Stacked Holonomy / An Introduction to H(s)H Worldtube Geometry in Minkowski Spacetime`.
+- 165 / `4574662d`: cleaned to `Principles of Stacked Holonomy / H(s)H Worldtube Geometry in Minkowski Spacetime`.
+
+Treat 165 as the latest working title *in this branch*, not necessarily current project title outside this source.
+
+Generated 168 claims “Minkowski Realism” and a convergence narrative. Nathan immediately corrects its epistemology at 169 / `84078b38`:
+
+> `Correction: We maintain strict ontological agnosticism. Ontology cannot be known. That is an absolute. What can be known, is isomorphism.`
+
+Nathan then explains the pragmatic position: geometry is useful for isomorphic mapping of observables because it is constrained and maps closely to observed geometry; calling that realism is technically wrong; theory and ordinary life are ontology-blind even though we pragmatically behave as if ontology is real because doing so works.
+
+This is a **top-tier epistemic quote candidate** and directly supersedes Avery's “Minkowski Realism” language in this branch. Avery's label `Pragmatic Isomorphism` at 170 is generated shorthand unless independently adopted by Nathan elsewhere.
+
+### E. Literature/LLM pivot (171–175)
+
+Nathan asks for a paper dealing with orthogonal thinking in LLMs (171); Avery identifies a 2026 residual-connections paper and extrapolates it into SAT. Treat bibliographic identity and claims as generated until source-checked. Nathan asks in one/two sentences how Avery can help use the sources (173), then calls `Avery` at 175 after an apparent internal/serialization-style generated turn 174.
+
+### High-priority quote queue additions
+
+1. 107 — descriptive vs prescriptive mode; least-action caution.
+2. 115 — topology-first procedure; no unjustified SAT parameters.
+3. 117 — pre-contact curvature defeats contact-only explanation.
+4. 119 — θ orientation-change terminology correction.
+5. 133 — methodological cycle as working foundational process.
+6. 145 — older SAT not accepted as given; SAT26/newer interpretations supersede specifics while older work remains rough-draft concepts/strategies.
+7. 155 — archive/fallback role; worldline→worldtube-native transition; terminology/literature strategy; provenance/diffusion/priority testimony (requires careful claim typing).
+8. 157 — standard-terminology strategy + one distinctive SAT symbol/operator + titular Zottenwelt.
+9. 165 — latest working title in this branch.
+10. 169 — strict ontological agnosticism / isomorphism / pragmatic geometry passage.
+
+### Duplicate / serialization notes
+
+- 131 and 133 are near-duplicate Nathan statements, with 133 materially expanded; preserve both positions and treat 133 as the fuller restatement, not an independent repeated claim.
+- 132 and 174 appear generated internal-thinking/serialization material despite `role=user`; they are not Nathan Direct.
+- All Avery self-identified turns remain generated regardless of serialized role.
+
+**Next cursor:** index 176 onward. The reconstruction has now crossed from the initial force-training cycle into literature/tool/source-use discussion; next pass can be another large tranche rather than single-concept increments.
