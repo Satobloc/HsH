@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "purpose": "Initial provenance-search topic configuration for reconstructing Nathan's example conceptual chain. Aliases are discovery aids, not equivalence or authority claims.",
+  "topics": [
+    {
+      "topic": "dimensional anchor",
+      "aliases": [
+        "dimensional anchor",
+        "dimension anchor",
+        "dimensional anchoring",
+        "anchor dimension"
+      ]
+    },
+    {
+      "topic": "constants network",
+      "aliases": [
+        "constants network",
+        "constant network",
+        "network of constants",
+        "constants map"
+      ]
+    },
+    {
+      "topic": "star-shaped derivation",
+      "aliases": [
+        "star-shaped derivation",
+        "star shaped derivation",
+        "star-shaped derivation map",
+        "star shaped derivation map",
+        "derivation star",
+        "star map"
+      ]
+    },
+    {
+      "topic": "cross-sector holdout",
+      "aliases": [
+        "cross-sector holdout",
+        "cross sector holdout",
+        "holdout sector",
+        "sector holdout",
+        "cross-sector prediction"
+      ]
+    },
+    {
+      "topic": "closure",
+      "aliases": [
+        "closure",
+        "close the system",
+        "closed derivation",
+        "derivational closure"
+      ]
+    }
+  ],
+  "intended_chain": [
+    "dimensional anchor",
+    "constants network",
+    "star-shaped derivation",
+    "cross-sector holdout",
+    "closure"
+  ],
+  "caution": "Co-occurrence does not establish conceptual dependence. Chronology and supersession require source review."
+}
