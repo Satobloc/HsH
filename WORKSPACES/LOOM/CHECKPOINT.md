@@ -129,3 +129,46 @@ The Asteroid Mining underlying-source crosswalk remains a secondary open cursor;
 ## Workspace identity
 
 Loom is the worker/workspace identity only. Never rename, retitle, or otherwise alter the user-facing conversation/thread/chat and never suggest doing so.
+
+## Nathan correction — photoneutrino / t-sheet taxonomy
+
+**Current Nathan-direct clarification (2026-09-20):**
+- photoneutrinos are **f-bosons**;
+- the Jarlskog Shadow appears to be the **t-sheet equivalent**;
+- therefore the older `ghost neutrino` wording must not be used to classify the Jarlskog Shadow as a literal photoneutrino/f-boson.
+
+**Additive supersession tags:**
+- PHOTONEUTRINO→F-BOSON [CURRENT-NATHAN-DIRECT]
+- PHOTONEUTRINO→FILAMENT/WORLDTUBE-BORNE-EXCITATION [CURRENT-NATHAN-DIRECT]
+- JARLSKOG-SHADOW→T-SHEET-EQUIVALENT-OF-PHOTONEUTRINO [CURRENT-NATHAN-DIRECT / TENTATIVE: “it would appear”]
+- JARLSKOG-SHADOW→T-BOSONIC-INTERPRETATION [CURRENT-NATHAN-DIRECT / TENTATIVE]
+- GHOST-NEUTRINO→HISTORICAL/DESCRIPTIVE-NAME-FOR-JARLSKOG-SHADOW
+- GHOST-NEUTRINO≠CURRENT-LITERAL-PHOTONEUTRINO-CLASSIFICATION
+- HISTORICAL-SYNTHESIS:NEUTRINO→T-BOSON → SUPERSEDED/CONTEXT-DEPENDENT; do not erase source
+- HISTORICAL-SYNTHESIS:PHOTON→T-BOSON → SUPERSEDED for photoneutrino-family reading unless a distinct historical state/context is established
+
+**Genealogy consequence:** the March 15 `Jarlskog shadow nutrino` and `ghost nutrino` wording is now best treated as particle-like historical nomenclature preceding the later substrate taxonomy. The June/July raw Nathan turn already contains the transition signal: it questions literal ghost-neutrino classification under newer t-neutrino terminology while preserving the timesheet-dimple / gluon-mirror relation. Current clarification resolves the outstanding substrate ambiguity in favor of photoneutrino=f-boson and Jarlskog Shadow≈t-sheet analogue.
+
+## Continued backward genealogy check
+
+Raw March 15 source re-landed directly:
+- `Ontology and Math Check — raw.json`
+- UUID `fe91590e-e52a-4461-a526-9c70a13fa5bc`
+- create_time `1773557618.6467261`
+- Nathan says `If the Jarlskog shadow nutrino we’ve proposed in the He3 Borromean knot, is real...`
+- status remains conditional/adopted-as-proposal, not established.
+
+Second March 15 Nathan event remains:
+- UUID `f860547e-5706-4a86-86d4-ce31e54d23fd`
+- create_time `1773561336.923952`
+- `ghost nutrino` at center of He3 9-filament second-order Borromean knot → gluon proposed as hadronic equivalent.
+
+Later CALDER raw source:
+- UUID `329d4d28-51c3-4fc0-8cae-7aa4c2dc0c5a`, sibling/duplicate-context UUID `39530442-0b25-419b-bb18-844664a61ef6`
+- recasts Jarlskog Shadow as nuclear/braid-core soliton and extends scale relation `gluonic soliton + scale == ghost neutrino ++ scale == neutron star gravitational soliton`.
+- current correction means this cross-scale relation should be read structurally/analogically, not as proof all three objects share the same f/t substrate class.
+
+**Current genealogy:**
+March 2026 particle-like nomenclature (`Jarlskog shadow nutrino` / `ghost nutrino`) → explicit gluon hadronic-equivalent proposal → later braid-core/vertex-soliton and cross-scale recasting → June/July timesheet-dimple wording plus explicit doubt about literal ghost-neutrino classification → September/current f/t grammar → 2026-09-20 correction: photoneutrino=f-boson; Jarlskog Shadow≈t-sheet/t-bosonic analogue.
+
+**Remaining target:** find the earliest Nathan-direct photoneutrino lexical/structural source and the point where photon↔neutrino becomes explicitly filament-borne, then connect that branch to this Jarlskog/t-sheet branch without retroactively rewriting historical terminology.
