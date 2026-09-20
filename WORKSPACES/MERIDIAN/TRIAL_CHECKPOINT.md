@@ -29,6 +29,7 @@ Nathan moved this lane from predominantly archaeological recovery into construct
 - `RUN_069_CONNECTION_IDENTIFIABILITY_GATE.md`
 - `RUN_070_CURVE_ONLY_GRAM_RATE_RESOLUTION.md`
 - `RUN_071_SAME_SAMPLE_MODEL_SELECTION_BENCHMARK.md`
+- `RUN_072_RAW_LINEAR_RECURRENCE_FAILURE.md`
 
 ## Durable current findings
 - UI master representation: `y(lambda)=r(lambda)R(lambda)x0`, `R in SO(4)`; curve direction alone leaves an `SO(3)` stabilizer unless frame/director data are supplied.
@@ -38,32 +39,33 @@ Nathan moved this lane from predominantly archaeological recovery into construct
 - Constant 4D double rotation admits exact four-moment decoder `m_k=A x^k+B y^k`; exact rank determinant `D=AB(x-y)^2`. Equal rates are genuine lower-rank great-circle geometry, not merely decoder failure.
 - Native connection carries compact rate/orientation information, but full connection is not identifiable from curve coordinates alone because of stabilizer freedom. Fair comparisons must either supply frame/director primitives or compare curve-identifiable gauge invariants.
 - Curve-only lagged Gram kernel `g(tau)=a^2 cos(w tau)+b^2 cos(v tau)` is constant-SO(4)-invariant and independently loses two-rate resolution near equal-rate collapse.
-- Run 071 puts derivative moments and Gram fitting on identical noisy 4D samples. With the fixed high-order differentiator tested, derivative moments are far less noise-robust than the nonlocal Gram representation; the exact four-moment identity remains valid, but coordinate-level acquisition makes third-derivative estimation expensive.
-- A one-mode baseline changes the question usefully from forced parameter recovery to whether the observations justify resolving two modes at all.
+- Run 071 puts derivative moments and Gram fitting on identical noisy 4D samples. With the fixed high-order differentiator tested, derivative moments are far less noise-robust than the nonlocal Gram representation; exact four-moment identity remains valid, but coordinate-level acquisition makes third-derivative estimation expensive.
+- A one-mode baseline changes the question usefully from forced parameter recovery to whether observations justify resolving two modes at all.
+- Run 072 derived the exact order-4 palindromic recurrence for the two-rate carrier, but naive global OLS on noisy coordinates fails catastrophically because noise contaminates predictors and response and the small-`dt` recurrence columns are nearly dependent. Noiseless decoding succeeds; estimator failure is retained separately from the exact identity.
 
-## Run 071 — same-sample curve-only resolution/model-selection benchmark
-**Actual start:** 2026-09-20 08:30:12 -04:00. Artifact commit `4c2d9de9bedcfbe701d6fd5b5f64cba084eb1686`.
+## Run 072 — raw global linear-recurrence negative control
+**Actual start:** 2026-09-20 09:30:37 -04:00. Artifact commit `ad2987f859604aab36ce8a7bec438c93f73849c5`.
 
-**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, Sable `README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, `SHARED_STATE_WRITE_SAFETY.md`, and prior checkpoint. Current output-gate/signet rule, no-conversation-renaming rule, sandbox boundary, quarantine exclusion, math-status discipline, and Sable workflow authority remain controlling. Suspended Integration handoffs were not executed.
+**Must-reads reread:** live `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, Sable `README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, and prior checkpoint. New/important current output gate on protected signet was reread and applied. No-conversation-renaming, sandbox, quarantine, and math-status controls remain active. Suspended Integration handoffs were not executed.
 
-**Exact operation:** followed Run 070's cursor. Both estimators received the same noisy 4D coordinate samples from the constant double-rotation carrier: `a=1.2`, `b=0.65`, `w=1.1`; 161 samples on `[-2,2]`; iid coordinate Gaussian noise `sigma=1e-4`; gaps `0.1,0.03,0.01,0.003`; 40 trials each. Four-moment derivatives used fixed Savitzky-Golay window 41 / degree 7 with edge trimming. Gram used lags 0..60 and bounded two-cosine fits with three fixed starts. A one-cosine Gram fit supplied a BIC baseline.
+**Exact operation:** followed Run 071 cursor with one bounded estimator target. Derived a curve-only order-4 recurrence for each coordinate of the constant double-rotation carrier and fit its two coefficients globally across all four coordinates by ordinary least squares on the identical Run-071 primitive sampling model: `a=1.2`, `b=0.65`, `w=1.1`, 161 samples on `[-2,2]`, `dt=0.025`, iid coordinate Gaussian noise `sigma=1e-4`. Gaps `0.1,0.03,0.01,0.003`; 200 trials each.
 
-**Benchmark result:** median relative separation errors (moment / Gram) were `2.55 / 0.157` at gap `0.1`, `72.7 / 0.0469` at `0.03`, `480.6 / 0.227` at `0.01`, and `1845.6 / 0.999` at `0.003`; valid moment decodes fell from `40/40` to `24/40`. Median `Delta BIC = BIC_one-BIC_two` moved from `+571` and `+274` at gaps `0.1/0.03`, to `+57` at `0.01`, to `-8.19` at `0.003`; fraction favoring two modes was `1.0,1.0,0.825,0.325` respectively.
+**Benchmark/exploration result:** exact/noiseless recurrence decoding recovered the two rates to ~2e-8 in spot checks. Under coordinate noise, naive OLS failed catastrophically: median relative separation errors about `886, 3027, 9082, 30267` across the four gaps. At gap `0.1`, true recurrence coefficients `(3.9986188302,5.9972381330)` became `(0.7026160221,-0.5923720838)` in one noisy realization and decoded rates `[1.07837,91.04734]`. This is classified as estimator failure / errors-in-variables plus near-collinearity, not failure of the exact recurrence identity.
 
-**Status:** sandbox / CLAIMED numerical benchmark. No validation/disclaimer promotion. The moment failure is retained as an estimator result, not interpreted as failure of the exact identity. BIC is not treated as calibrated likelihood evidence because lag residuals are correlated.
+**Status:** sandbox / CLAIMED numerical benchmark; negative control retained. No validation/disclaimer promotion.
 
-**Exact sources/coverage:** current Common controls and checkpoint listed above; mathematical construction generated from established sandbox Runs 067–070. No external literature, historical archive, nLab, PRIOR_ART, or quarantine source used.
+**Exact sources/coverage:** current Common controls and checkpoint listed above; mathematical construction generated from established sandbox Runs 067–071. No external literature, historical archive, nLab, PRIOR_ART, quarantine, Kerr, or Kelvin source used.
 
 **Exposure/cross-reading:** no quarantine or external-prior-art exposure. Kerr/Kelvin not used as solver premises.
 
-**Archive/infrastructure:** created `RUN_071_SAME_SAMPLE_MODEL_SELECTION_BENCHMARK.md`; refreshed this owner-local checkpoint using current blob SHA. No public/canonical theory surface changed.
+**Archive/infrastructure:** created `WORKSPACES/MERIDIAN/SANDBOX/RUN_072_RAW_LINEAR_RECURRENCE_FAILURE.md`; refreshed owner-local checkpoint. No public/canonical theory surface changed.
 
-**Enrichment/capability:** added explicit same-primitive-data estimator comparison and model-selection framing; demonstrated that exact invariant compression and practical acquisition robustness must be tracked separately.
+**Enrichment/capability:** added global discrete recurrence representation and an explicit errors-in-variables failure diagnostic; sharpened distinction between exact compact representation and robust acquisition estimator.
 
-**Failures/uncertainties:** high-order local differentiation is extremely noise-amplifying; Gram optimizer and BIC assumptions remain imperfect; thresholds are observation/estimator dependent. No blocker and no Nathan action required.
+**Failures/uncertainties:** naive OLS is unusable here despite exact recurrence. Need a noise-aware structured estimator before comparing recurrence architecture to Gram. No blocker and no Nathan action required.
 
 ## Current frontier / next cursor
-Replace pointwise high-order differentiation with a global curve-only spectral/linear-recurrence estimator on the identical noisy samples, and compare its two-mode resolution/model-selection boundary against the Gram fit without supplying frame/director information.
+Implement a noise-aware structured low-rank Hankel / total-least-squares recurrence estimator on the same noisy 4D samples, with no frame/director information. First demand stable two-rate recovery away from collision at `sigma=1e-4`; only if that succeeds compare its model-selection boundary against Run 071 Gram fitting.
 
 Secondary frontier: source-first inspect non-quarantined Whirligig/UI/Hagalaz sources for an independently specified director/frame observation channel before any frame-observation benchmark. Retain stronger blind W6 transformation-discovery test, Pfaffian/holonomy/Graticule invariant constraints, historical ordinary/anti Graticule source check, and later SAT/H(s)H-shaped operator/GR↔QM flagship after sufficient nontrivial controls.
 
