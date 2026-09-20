@@ -1,6 +1,18 @@
 # Onboarding Documentation Changelog
 
-## 2026-09-20
+## 2026-09-20 — Carpe Turnem material update
+
+Added `CARPE_TURNEM_POLICY.md` as a project-wide execution rule and wired it into:
+
+- `NEW_INSTANCE_START_HERE.md`
+- `INSTANCE_ONBOARDING_3REPO.md`
+- onboarding completion expectations
+
+Rule intent: when a turn already contains enough authority, context, and access for a safe bounded advance, perform the advance in that turn instead of ending on agreement, acknowledgment, or promise language. Exceptions remain for genuine blockers, consequential unapproved choices, quarantine/safety boundaries, independent-first-pass/freeze conditions, or purely conversational turns.
+
+This is a **material onboarding change**. Established workers should absorb the new rule at their next appropriate onboarding/control review; it does not require ritual full rereading every hourly run once absorbed.
+
+## 2026-09-20 — central onboarding layer established
 
 Established a central onboarding layer for new, newer, reassigned, and revived instances:
 
