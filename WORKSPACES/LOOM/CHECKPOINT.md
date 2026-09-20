@@ -11,6 +11,22 @@ The hard pre-send/pre-write signet check in `AUTOMATION_WORKFLOW_CONTROL.md` was
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
+## Current run — Mersearch adoption / retrieval posture reset
+
+**Material infrastructure change:** Commons now records a runtime-green stable worker release, `mersearch-stable-1.0`, pinned to commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. The synthetic acceptance contract is green for Boolean/phrase/NEAR retrieval, author/role/title/date/CID/body fields, filename/path globs, source-kind predicates, deterministic sorting, default QUARANTINE/PRIOR_ART exclusions, Unicode fields, and conservative notation-normalized `math:` retrieval.
+
+**Loom operating change:** for archive archaeology, terminology chronology, source recovery, and equation-occurrence work, Mersearch is now the preferred discovery layer before GitHub code search. GitHub code search remains a fallback/navigation mechanism, not an equivalent substitute.
+
+**Current interface limitation:** this ChatGPT/GitHub connector can read the stable source/release documentation but does not expose a repository checkout/runtime or workflow-dispatch action. Therefore Loom cannot truthfully claim to have executed Mersearch from this interface yet. Do not simulate Mersearch results with GitHub search. Use Mersearch outputs when a worker-accessible execution/result surface is addressable.
+
+**First queued Mersearch research target:** historical terminology transition:
+`late-2025 boson = traveling/parasitic ripple on fermionic/filament substrate` → later explicit `t-boson/f-boson = timesheet-vs-filament excitation substrate`.
+Preferred query family once executable: combinations of `t-boson`, `f-boson`, `temporon`, `timesheet ripple`, `filament ripple`, `t-neutrino`, constrained by Nathan/user authorship and chronology, followed by raw-source provenance review. Search hits do not establish currentness, standard boson/fermion identity, or supersession.
+
+**Secondary queued targets:** Jarlskog Shadow / ghost-neutrino / He-3 / gluon / soliton genealogy; earliest-currently-surfaced terminology; equation-occurrence genealogy where `math:` can reduce notation noise.
+
+**Enrichment/capability change:** Loom has ingested the stable 1.0 worker contract and its epistemic limits: notation normalization is not algebraic equivalence; chronology is not supersession; filename similarity is not representation ancestry; duplicate grouping is not authority.
+
 ## This run — folder-19 Asteroid Mining export-pair provenance audit
 
 **Operation:** one bounded duplicate/superset provenance comparison on the already-indexed folder-19 Asteroid Mining NotebookLM pair.
