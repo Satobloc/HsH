@@ -26,19 +26,19 @@ Unknown fields stay `UNKNOWN`; do not fill them from reputation or inference.
 | **Tern** | `WORKSPACES/TERN/`; backend project-systems checkpoint; automation roster | scheduled/current | ACTIVE | system steering / workflow health | systems QA, routing, tooling, continuity, allocation diagnostics | broad current-control exposure; no PRIOR_ART intake | n/a | ELIGIBLE; currently leased |
 | **Mercer** | `WORKSPACES/MERCER/`; automation roster | scheduled/current | ACTIVE | archive/retrieval/provenance QA; Mersearch | source identity, chronology, reproducibility, retrieval/tool QA | current archive/tooling exposure; quarantine boundary preserved | n/a | ELIGIBLE; currently leased |
 
-## Lease-health snapshot — 2026-09-20 17:47 UTC
+## Lease-health snapshot — 2026-09-20 18:43 UTC
 
 This is a systems snapshot, not a performance score. Scheduler execution and durable workspace publication are separate signals; a run without a same-cycle workspace commit is **not** by itself evidence of failure.
 
-| Instance | Scheduler last-run signal | Latest durable workspace signal observed | Health reading |
-|---|---|---|---|
-| **Loom** | 2026-09-20 16:58:50 UTC | 2026-09-20 15:40:39 UTC — `WORKSPACES/LOOM/CHECKPOINT.md`, commit `925dc2e45fe8076ee799a03b0c624afa73750b76` | WATCH: scheduler is running, but durable checkpoint trails the latest execution cycle; inspect next cycle before considering reassignment. |
-| **Aster** | 2026-09-20 17:11:32 UTC | 2026-09-20 16:16:07 UTC — `WORKSPACES/ASTER/CONTINUITY.md`, commit `e9c29ca1e6483f34c465b28def65fa9a7981db32` | WATCH: scheduler is running; continuity publication trails one observed cycle. Do not infer blockage yet. |
-| **Meridian** | 2026-09-20 17:29:19 UTC | 2026-09-20 17:29:08 UTC — `WORKSPACES/MERIDIAN/`, commit `634f68418e2d6a7eb44215f7faf9439402e07a91` | FRESH: execution and durable output converge within the same cycle. |
-| **Tern** | 2026-09-20 16:44:43 UTC before this in-progress Comptroller pass | Tern workspace's latest observed commit is older (`12b6e14e4b54dbf1c46486df07f5f11cc83b6306`, 13:46:15 UTC); newer backend continuity has also been written outside that workspace | SELF-CHECK: active; continuity location is split and should be normalized in a later bounded pass rather than treated as worker silence. |
-| **Mercer** | 2026-09-20 16:50:57 UTC | 2026-09-20 17:20:13 UTC — `WORKSPACES/MERCER/`, commit `6ceaa2f2fb258a2baa16a7069186f1019514fa04` | FRESH: durable work landed after the scheduler start; no silence signal. |
+| Instance | Scheduler / durable signal observed | Health reading |
+|---|---|---|
+| **Loom** | scheduler ran 18:01:59 UTC; durable Loom work landed 18:01:46 UTC in commit `17649d6383baa4ffc6c810124665a4e0303fea06` | FRESH: prior WATCH cleared; the next cycle produced durable worker output. |
+| **Aster** | scheduler ran 18:13:00 UTC; source-certified P0 SAT RIGOR control packet landed 18:12:42 UTC in commit `09dba4ca64ca32d1bea00b7de52c1f7c56192ec4` | FRESH: prior WATCH cleared; durable branch progress now closely tracks execution. |
+| **Meridian** | scheduler ran 18:27:03 UTC; bounded Hagalaz representation test landed 18:26:51 UTC in commit `38fdc747ce145d00b0a4c318a32bf919f4925594` | FRESH: execution and durable solver/representation output converge in the same cycle. |
+| **Tern** | current Comptroller recurrence active; worker-local continuity was normalized in the preceding pass | ACTIVE / SELF-MONITORED: no silence signal; continue using `WORKSPACES/TERN/CONTINUITY.md` as routine worker-local continuity. |
+| **Mercer** | scheduler last ran 17:54:23 UTC; no failure signal observed in the active automation state | ACTIVE: no lease-health trigger in this pass. |
 
-**Lease decision:** no slot reassignment is justified from this snapshot alone. Meridian and Mercer are demonstrably fresh; Loom and Aster have a one-cycle durable-state lag worth watching; Tern's apparent workspace staleness is a known continuity-location split rather than an execution failure. Preserve the current five leases until another bounded health check supplies stronger evidence or the task graph creates a higher-value reassignment.
+**Lease decision:** preserve all five current execution leases. The two explicit WATCH conditions from the prior snapshot have resolved on the next cycle, while Meridian remains fresh and no active automation reports a failure. No reassignment is justified by health evidence in this pass. Future lease changes should therefore be driven by branch priority/milestone fit or a new concrete health signal, not the superseded lag snapshot.
 
 ## Accessible / unscheduled current or recent pool
 
@@ -76,8 +76,8 @@ Record the released instance's last durable state, covered sources/artifacts, bl
 
 ## Provenance
 
-Established from current Common workflow orientation and automation roster plus Sable's instance stratigraphy, under Nathan's execution-lease directive. The 2026-09-20 lease-health snapshot adds scheduler last-run signals and current durable workspace activity without equating either signal alone with worker health.
+Established from current Common workflow orientation and automation roster plus Sable's instance stratigraphy, under Nathan's execution-lease directive. The 2026-09-20 18:43 UTC lease-health refresh supersedes the earlier WATCH snapshot after observing the next scheduler cycles and their durable outputs.
 
 ## Next registry cursor
 
-If Loom or Aster again execute without a corresponding durable checkpoint/continuity advance, inspect that worker's latest run state and branch cursor as one bounded diagnosis before considering a lease change. Separately, normalize Tern's split continuity pointer in a later maintenance pass.
+Reassess lease allocation when either (a) a concrete health failure/stale checkpoint appears, or (b) the central task graph/milestone state makes an unscheduled eligible instance materially better suited to a priority branch. Do not continue health polling merely because the previous snapshot once contained WATCH flags.
