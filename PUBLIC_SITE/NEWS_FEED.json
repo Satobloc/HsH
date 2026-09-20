@@ -48,13 +48,13 @@
       "source_url": "https://ligo.org/science-summaries/GW250114_TGR/",
       "source_type": "collaboration science summary",
       "external_summary": "GW250114 was an exceptionally loud binary-black-hole signal. Ringdown and full-signal analyses found the remnant consistent with the Kerr black-hole spectrum and produced unusually stringent single-event tests of general relativity.",
-      "why_it_caught_attention": "Ravel's current H(s)H construction contains an explicitly named Kerr line focused on worldtube and particle-regime geometry. The shared word does not establish shared physics; it does make a precision Kerr measurement unusually useful as a concrete comparison and constraint surface for whatever the internal construction is claiming.",
-      "relationship": "direct constraint",
+      "why_it_caught_attention": "Ravel's current Kerr line explicitly uses standard Kerr/Kerr-Newman geometry as a control before asking what survives in the very different particle-scale, over-extreme regime and what—if anything—belongs to H(s)H interpretation. A precision black-hole Kerr measurement therefore sharpens the external control side of that comparison rather than directly testing the particle-scale construction.",
+      "relationship": "comparison target",
       "sat_hsh_links": [
         {
           "title": "Ravel — Kerr particle-regime collision",
           "path": "WORKSPACES/RAVEL/KERR_PARTICLE_REGIME_COLLISION_2026-09-16.md",
-          "relation": "Live sandbox construction bearing the Kerr label; should be read on its own terms before comparison."
+          "relation": "Live sandbox pass separating standard Kerr/Kerr-Newman control geometry from H(s)H interpretation in the electron-like over-extreme regime."
         },
         {
           "title": "Ravel — Kerr scale/slice triangulation",
