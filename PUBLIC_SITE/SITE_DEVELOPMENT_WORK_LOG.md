@@ -422,3 +422,37 @@ This is the governing editorial lesson for later site work: enact provenance and
 
 Published successfully to the existing public URL as Sites version 7.
 
+
+
+---
+
+# 2026-09-20 — Reading Room repository browser + Mercer adapter
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 8
+- **Access preserved:** public.
+
+## Implemented
+
+- Upgraded the Reading Room from a curated-document shelf to three explicit modes: **Curated**, **Repos**, and **Mercer**.
+- Added live, on-demand browsing across both public repositories: `Satobloc/HsH` and `Satobloc/SAT_THEORY_ARCHIVE_2023-25`.
+- Added repository selection, breadcrumb navigation, current-folder filtering, sibling navigation, and source-preserving rendering for Markdown, text/code, images, and PDFs.
+- Kept the curated reading routes intact while making the complete public source trees available without pretending a hand-maintained index is exhaustive.
+- Removed the public-facing `PRIOR_ART` / `QUARANTINE` destination. Replaced it with a non-linked note that a source-separated prior-art and citation program is presently being established and that public records will be linked when ready.
+
+## Mercer_Searcher_1.0 boundary
+
+- Confirmed that `tools/search_archive_content.py` is a repository-side, read-only corpus searcher with Boolean, phrase, field, and `NEAR/n` support.
+- Confirmed that the repository currently publishes the searcher and its acceptance workflow, but not a public query API or default `SEARCH_RESULTS.json` feed.
+- Added a reader adapter for Mercer JSON result output. It preserves paths, snippets, provenance fields, and source/viewer links when a public result feed is supplied.
+- The interface states the current boundary directly when the default feed is absent; it does not imply that browser-side live corpus search exists.
+- A future public Mercer result feed at `indexes/topical/search/SEARCH_RESULTS.json` can be consumed without redesigning the Reading Room.
+
+## Validation
+
+- Confirmed both public GitHub Contents API roots respond successfully; the historical archive root currently exposes 581 entries.
+- Confirmed the not-yet-published default Mercer feed returns 404 and is handled as an explicit availability state.
+- Confirmed balanced structural HTML, JavaScript module parsing, clean diff checks, and absence of public `PRIOR_ART` / `QUARANTINE` links.
+- Published successfully to the existing production URL.
