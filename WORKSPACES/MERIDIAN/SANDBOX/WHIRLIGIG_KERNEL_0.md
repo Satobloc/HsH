@@ -531,3 +531,98 @@ This is a concrete efficiency gain for the intended hyper/superhelical use: repe
 **CLAIMED (new sandbox derivation), algebraically checked in this run.** This is not promoted as a general hyperhelical decoder. It covers the constant-radius, constant-frequency two-plane carrier only. Variable pitch/radius and nested moving frames will require local/windowed moments, additional invariants, or explicit transport data.
 
 Immediate next helical cursor: stress-test the decoder numerically near D=0 and under small perturbations/noise, because efficiency is useful only if the compressed representation is adequately conditioned.
+
+## 22. Mixed equation batch begins
+
+The experimental program is now explicitly throughput-first. Architecture validation is retained only as instrumentation needed to distinguish useful output from artifact.
+
+### Exact positive controls verified
+
+1. Euler-Cauchy:
+   x²y'' + axy' + by = 0.
+   With t=ln x and y(x)=Y(t):
+   Y_tt + (a-1)Y_t + bY = 0.
+   This feeds directly into the already-passing constant-coefficient normal-form machinery.
+
+2. Riccati subclass:
+   y' = q(x) + y².
+   With y=-u'/u:
+   u'' + q(x)u = 0.
+   This is an exact nonlinear-to-linear transformation on domains where u is nonzero.
+
+3. Bernoulli:
+   y' + P(x)y = Q(x)y^n.
+   With z=y^(1-n):
+   z' + (1-n)Pz = (1-n)Q.
+   Exact subject to the substitution's ordinary branch/domain qualifications.
+
+These are deliberately heterogeneous transformation types: coordinate logarithm, logarithmic derivative, and nonlinear power substitution.
+
+### Result
+
+Generic derivative-state geometry supplies a common validity/scoring arena but does not by itself reveal these substitutions. Therefore a useful Whirligig requires a transformation proposal mechanism/search grammar rather than a single universal curve trick.
+
+Provisional grammar families:
+- affine/scaling coordinate transforms;
+- logarithmic/exponential coordinate transforms;
+- dependent-variable powers;
+- logarithmic derivatives;
+- gauge-like multiplicative transforms;
+- frame rotations / SO(n) transforms;
+- parameter changes;
+- later contact transformations and problem-specific helical moves.
+
+The grammar proposes; geometric/operator constraints score validity and usefulness.
+
+## 23. Information debt
+
+Every candidate transform now receives separate bookkeeping for:
+- utility / simplification;
+- invertibility;
+- domain/branch restrictions;
+- discarded variables or phases;
+- approximation order;
+- singular sets;
+- gauge/frame dependence.
+
+Call the aggregate non-lossless burden **information debt**.
+
+A useful approximate transform may have nonzero debt. It is not rejected automatically. But debt cannot be silently converted into a claim of exact equivalence/isomorphism.
+
+Early hostile control: nonlinear pendulum θ''+sin θ=0 does not become an exact linear constant-coefficient system under the current cheap grammar without approximation or state-dependent structure. Small-angle linearization therefore carries explicit approximation debt and is not scored as an exact equivalence.
+
+## 24. Helical invariant compression
+
+For the 4D double rotation
+
+C=(a cos ωs,a sin ωs,b cos νs,b sin νs),
+
+define
+
+v²=a²ω²+b²ν²
+
+and contribution fraction
+
+η=a²ω²/v².
+
+Then
+
+κ² = [ηω² + (1-η)ν²]/v².
+
+Five random numerical parameter sets reproduced the direct 4D coordinate calculation to floating-point precision.
+
+This is elementary algebra, but operationally important: the full trigonometric coordinate representation can be replaced by a compact invariant state for this task. The intended hyper/superhelical efficiency program should seek many such sufficient invariant state vectors and composition laws.
+
+### New practical target
+
+For each helical architecture, attempt to construct the smallest state vector sufficient for the requested operations, rather than carrying expanded coordinates by default.
+
+Measure:
+- state dimension;
+- expression complexity;
+- evaluation cost;
+- composition cost;
+- reversibility/information debt;
+- numerical conditioning.
+
+A geometry machine earns its keep when these improve on direct expanded handling.
