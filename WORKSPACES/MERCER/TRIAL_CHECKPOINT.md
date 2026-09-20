@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 139, 2026-09-20
+**Current through:** Run 140, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -222,3 +222,22 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
 
 **Next cursor:** inspect development run `35517040595`; fix any failures on main without moving the stable 1.0 ref. Complete real-corpus smoke. Only then consider a 1.1/1.x promotion with explicit release notes.
+
+
+## Run 140 — 2026-09-20 — concurrency/throughput promoted ahead of feature breadth
+
+**Nathan directive/context:** proceed with next upgrades; five recurrence loops operate generally around the clock plus ad-hoc interactive work, so Mersearch must handle sustained multi-consumer volume without becoming a bottleneck.
+
+**Observed systems evidence:** development workflow run `35517040595` compiled and passed the full synthetic query-semantics suite. Its bounded real-corpus inventory smoke started 14:37:45 UTC and failed 14:39:46 UTC at output assembly due missing `TOOL_NAME`; therefore roughly two minutes were spent in cold corpus processing before output. This does not establish a final benchmark, but it is sufficient to reject independent cold full scans as the intended multi-loop steady-state architecture.
+
+**Priority change:** performance/index substrate now precedes additional fancy query modes. Durable plan created: `WORKSPACES/COMMON/MERSEARCH_THROUGHPUT_CONCURRENCY.md` (commit `fb494434a95329595418b89cf3b55ed4999b2560`), linked from platform architecture (`82c7db5217e6a1d535b4d0af9795208a577248e8`) and Common README (`8af94d8cd84842c256f9f410ea47c893a8aa2b87`). Bulletin notice: `d56e7176c531ed5a82d098fc6e8e33ddfb64e849`.
+
+**Target architecture:** immutable index generations; atomic pointer publication; one logical builder / many lock-free readers; incremental source invalidation; SQLite/FTS candidate substrate; cheap predicate planning before expensive exact/NEAR/math work; separate interactive/batch/index/heavy-math concurrency classes; resource budgets/backpressure; generation-keyed caches; recurrence loops share current green generation and never independently rebuild; failed rebuild leaves prior generation readable.
+
+**1.1 promotion performance gate:** instrument timings; indexed prototype; cold-vs-indexed comparison; at least 8 concurrent readers (exceeds stated five-loop baseline); reader-during-rebuild; failed-rebuild rollback/readability; corpus-profile enforcement; generation ID in outputs.
+
+**Development bug repair:** added development tool identity after prior NameError; first attempt accidentally embedded literal linebreak escapes and failed compile in run `35517552828`. Corrected line breaks in commit `2aeb8146a5239bf7975da6900b2b70060b3ff24b`. Development remains unpromoted pending green gate. Stable `mersearch-stable-1.0` is unchanged and remains worker release.
+
+**No theory claim was promoted. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
+
+**Next cursor:** inspect workflow triggered by `2aeb8146...`. Once current dev output path is mechanically green, implement timing instrumentation and initial SQLite immutable-generation builder/query prototype rather than expanding expensive query semantics first.
