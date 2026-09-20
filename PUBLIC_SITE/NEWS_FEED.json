@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-20",
+  "status": "curated public-site news pool",
+  "editorial_heading": "In the News — Results, constraints, and curious touchpoints",
+  "rotation_rule": "Rotate among display_status=featured entries while preserving a stable archive. Freshness matters, but do not suppress older high-value cards merely because they are older.",
+  "relationship_vocabulary": [
+    "direct constraint",
+    "comparison target",
+    "structural resonance",
+    "phenomenology context",
+    "historical revisit",
+    "potentially relevant — relationship open",
+    "tension / possible counterevidence"
+  ],
+  "items": [
+    {
+      "id": "desi-2025-evolving-dark-energy",
+      "external_date": "2025-03-19",
+      "headline": "DESI strengthens the case for looking beyond constant dark energy",
+      "source_name": "Lawrence Berkeley National Laboratory / DESI Collaboration",
+      "source_url": "https://newscenter.lbl.gov/2025/03/19/new-desi-results-strengthen-hints-that-dark-energy-may-evolve/",
+      "source_type": "collaboration/laboratory release",
+      "external_summary": "DESI's first three years of data remain consistent with ΛCDM on their own, but combinations with CMB, supernova, and weak-lensing data strengthen the preference for models in which dark energy evolves with time. The reported preference depends on the dataset combination and remains below the conventional discovery threshold.",
+      "why_it_caught_attention": "SAT/H(s)H currently has an active cosmology reconstruction concerned with separating an H0-like large-scale expansion contribution from a c-like shell-time or radial-growth contribution. A changing effective expansion history is therefore a natural external comparison target, without presuming the mechanisms are the same.",
+      "relationship": "comparison target",
+      "sat_hsh_links": [
+        {
+          "title": "P2 — H0 + c cosmology: dimensional repair without conceptual dismissal",
+          "path": "WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md",
+          "relation": "Current priority packet explicitly reconstructing the two-contribution cosmological idea and alternate geometries."
+        },
+        {
+          "title": "Current Work",
+          "path": "PUBLIC_SITE/CURRENT_WORK.json",
+          "relation": "Public-site snapshot of the active cosmology work front."
+        }
+      ],
+      "display_status": "featured",
+      "audience_tags": ["cosmology", "dark-energy", "observational", "lay", "scientist"],
+      "image_status": "external/source image may be added with credit; no local thumbnail assigned yet"
+    },
+    {
+      "id": "gw250114-kerr-ringdown",
+      "external_date": "2025-01-14",
+      "headline": "The clearest gravitational-wave signal yet sharpens tests of the Kerr black-hole picture",
+      "source_name": "LIGO-Virgo-KAGRA Collaboration",
+      "source_url": "https://ligo.org/science-summaries/GW250114_TGR/",
+      "source_type": "collaboration science summary",
+      "external_summary": "GW250114 was an exceptionally loud binary-black-hole signal. Ringdown and full-signal analyses found the remnant consistent with the Kerr black-hole spectrum and produced unusually stringent single-event tests of general relativity.",
+      "why_it_caught_attention": "Ravel's current H(s)H construction contains an explicitly named Kerr line focused on worldtube and particle-regime geometry. The shared word does not establish shared physics; it does make a precision Kerr measurement unusually useful as a concrete comparison and constraint surface for whatever the internal construction is claiming.",
+      "relationship": "direct constraint",
+      "sat_hsh_links": [
+        {
+          "title": "Ravel — Kerr particle-regime collision",
+          "path": "WORKSPACES/RAVEL/KERR_PARTICLE_REGIME_COLLISION_2026-09-16.md",
+          "relation": "Live sandbox construction bearing the Kerr label; should be read on its own terms before comparison."
+        },
+        {
+          "title": "Ravel — Kerr scale/slice triangulation",
+          "path": "WORKSPACES/RAVEL/KERR_SCALE_SLICE_TRIANGULATION_2026-09-16.md",
+          "relation": "Related scale and slice construction in the current Kerr line."
+        },
+        {
+          "title": "State of the Theory",
+          "path": "STATE_OF_THE_THEORY.md",
+          "relation": "Routes Kerr as a live H(s)H construction line while keeping sandbox status explicit."
+        }
+      ],
+      "display_status": "featured",
+      "audience_tags": ["gravity", "black-holes", "Kerr", "gravitational-waves", "scientist"],
+      "image_status": "external/source image may be added with credit; no local thumbnail assigned yet"
+    }
+  ]
+}
