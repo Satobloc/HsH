@@ -20,6 +20,14 @@ Use `WORKFLOW_BRANCHING_MAP.md` as the central router for deciding whether work 
 
 Use `EXPLORATION_COMMONS_ROUTER.md` to distinguish casual Watercooler thinking, Field Notes/TIL personal discovery, Labs/controlled trials, blocking Q&A, and committed task/branch work. Do not force an interesting thought to masquerade as a formal research task merely to preserve it.
 
+## Capability and cross-training
+
+`WORKSPACES/COMMON/INSTANCE_CAPABILITY_ATLAS.md` records evidenced capabilities, readiness, exposure constraints, cross-training opportunities and useful complementary pairings. It is **not a lane map**. Capability is evidence, not jurisdiction.
+
+Workers may receive short `NIBBLE`, `MUSICAL_CHAIRS`, `CROSS_POLLINATION_PASS` or other routing signals under `WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md`. These are usually bounded experiments or reroutes, not permanent identity/job changes. Preserve continuity and exposure/blinding constraints; then return, extend, hand off, split or park explicitly.
+
+When relevant, source-oriented workers may feed `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/`; theorist/formalization workers may consume topic-relevant packets from it. Exact Nathan wording, worker interpretation and current theory status remain separate.
+
 ## Returning / revived instances
 
 If you are returning after substantial historical/context drift, also read `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`.
