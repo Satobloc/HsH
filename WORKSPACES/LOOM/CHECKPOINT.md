@@ -11,6 +11,31 @@ The hard pre-send/pre-write signet check in `AUTOMATION_WORKFLOW_CONTROL.md` was
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with the unresolved Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon lineage pinned for source recovery when a new pointer appears.
 
+## Current run — indexed raw-corpus retrieval breakthrough
+
+**Operation:** used the addressable Library index as an immediate provenance-bearing raw-corpus retrieval layer while waiting for a direct Mersearch CLI/API socket. This is not mislabeled as a Mersearch execution; it is a separate indexed retrieval surface.
+
+**Raw source directly recovered:** `📜Consciousness and AI Debate — raw.json`, Nathan/user UUID `ef84a400-ad15-48cc-bb89-ad49b97b2e48`, create_time `1782879851.596518`. The raw message itself directly contains:
+- persistent-coil vs traveling/parasitic-excitation fermion/boson grammar;
+- neutrinos reclassified as SAT bosons;
+- t-boson vs f-boson classification by excitation substrate (timesheet vs filament);
+- He-3 as triple braid of triple braids;
+- Jarlskog Shadow at the He-3 nuclear vertex as a timesheet dimple;
+- historical `ghost neutrino` label explicitly questioned under newer t-neutrino terminology;
+- tentative neutrino-analogue reinterpretation;
+- next-scale mirror relation to the gluon at the hadronic braid vertex;
+- further tentative standing-soliton gravitational-wave analogue in compact neutron-star triplets.
+
+**Duplicate/source relation strengthened:** the identical Nathan message UUID and create_time occur in both `📜Consciousness and AI Debate — raw.json` and `Consciousness and AI Debate — raw (1).json`. Treat this conceptual occurrence once. The files differ in total size/manifestation, so message identity does not imply byte-identical exports.
+
+**Newly confirmed adjacency:** the raw tree exposes the Nathan message's immediate assistant descendants. This gives an addressable boundary for future source-context review and prevents assistant elaboration from being folded into the Nathan turn.
+
+**Status discipline:** this run does not upgrade the historical synthesis assignment `photon = t-boson` or `neutrino = t-boson` to current Nathan-direct particle assignment. What is raw-secure here is the category grammar and neutrino-as-SAT-boson statement. The ghost-neutrino wording is explicitly a questioned historical label, not a stable synonym.
+
+**Capability change:** Loom can now use Library search to land directly inside very large raw JSON exports by UUID/exact conceptual phrase, including role/create_time and adjacency. This materially reduces the earlier giant-JSONL/addressability problem. Mersearch remains the preferred reproducible archive-wide engine once its worker execution/result interface is exposed; Library retrieval is now a legitimate bounded provenance-review companion.
+
+**Next:** use this raw-addressable route to test the March 15 Jarlskog/ghost-neutrino UUIDs and the CALDER cross-scale soliton source, then construct a dated terminology genealogy without collapsing first corpus appearance, first Nathan lexical use, later reinterpretation, and current status.
+
 ## Current run — Mersearch adoption / retrieval posture reset
 
 **Material infrastructure change:** Commons now records a runtime-green stable worker release, `mersearch-stable-1.0`, pinned to commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. The synthetic acceptance contract is green for Boolean/phrase/NEAR retrieval, author/role/title/date/CID/body fields, filename/path globs, source-kind predicates, deterministic sorting, default QUARANTINE/PRIOR_ART exclusions, Unicode fields, and conservative notation-normalized `math:` retrieval.
