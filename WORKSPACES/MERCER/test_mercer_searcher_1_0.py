@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic acceptance tests for Mercer_Searcher_1.0 query semantics."""
+"""Deterministic acceptance tests for Mercer_Searcher_1.0 query semantics.\n\nThis fixture is intentionally synthetic: it tests search mechanics without reading archive content.\n"""
 from pathlib import Path
 import importlib.util
 
