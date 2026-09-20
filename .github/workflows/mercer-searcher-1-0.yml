@@ -1,0 +1,41 @@
+name: Mercer Searcher 1.0 Acceptance
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'WORKSPACES/MERCER/test_mercer_searcher_1_0.py'
+      - '.github/workflows/mercer-searcher-1-0.yml'
+  pull_request:
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'WORKSPACES/MERCER/test_mercer_searcher_1_0.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mercer-searcher-1-0-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record source state
+        run: |
+          echo "repo=${GITHUB_REPOSITORY}"
+          echo "sha=${GITHUB_SHA}"
+          echo "tool=Mercer_Searcher_1.0"
+          echo "read_scope=synthetic fixture only"
+          echo "write_scope=none"
+          echo "quarantine=not read"
+      - name: Compile searcher
+        run: python -m py_compile tools/search_archive_content.py
+      - name: Run synthetic acceptance suite
+        run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
