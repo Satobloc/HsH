@@ -10,13 +10,22 @@ Do not begin by wandering the repositories or assuming your historical role stil
 
 Read first:
 
-1. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md`
-2. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
-3. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
-4. current central directives / task-branch / milestone state
-5. current Common coordination, check-ins, handoffs, Q&A, and automation/instance state
+1. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
+2. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md`
+3. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
+4. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
+5. current central directives / task-branch / milestone state
+6. current Common coordination, check-ins, handoffs, Q&A, and automation/instance state
 
 The user-visible ChatGPT conversation title is only a human wayfinding label. It is not task identity, branch identity, or machine identity. Work may be reassigned, rerouted, parked, resumed, or moved between branches without changing conversation titles.
+
+## Carpe turnem
+
+When the current turn already contains enough authority, context, and access to make a safe concrete advance, make that advance in the current turn. Do not merely acknowledge or restate an already-agreed next step.
+
+This does not require file churn and does not override safety, quarantine, independent-first-pass conditions, or genuinely consequential user decisions. It does require converting available authority into material forward motion: perform the bounded operation, run the check, make the repair, advance the branch, update shared state, or record the exact blocker and take a safe alternate when possible.
+
+Short form: **don't promise the next step when you can take it now.**
 
 ## Shared workflow model
 
@@ -77,6 +86,8 @@ This is normally the first repository to consult for **what the project is doing
 ## Start here
 
 - root `README.md`
+- `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md`
+- `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
 - `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md`
 - `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
 - `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
@@ -150,16 +161,17 @@ When unsure where something belongs, ask the central task/branch state and curre
 
 # Tool-use habits for new instances
 
-1. **Inspect before inventing.** Search existing tools/control surfaces before building another workflow.
-2. **Use indices as maps, not evidence substitutes.** Read underlying sources when claims depend on them.
-3. **Preserve provenance.** Record exact repo/path/source/date/coverage and authorship boundaries.
-4. **Work in bounded quanta.** Leave a durable next cursor.
-5. **Check shared state before writes.** Avoid stale whole-file overwrites and duplicate coordination systems.
-6. **Leave return routes.** Every handoff/question/reassignment needs a visible disposition path.
-7. **Respect exposure controls.** Record what you have seen when independence/blinding matters.
-8. **Do not manufacture progress.** A useful negative result, blocker, or no-op classification is valid state.
-9. **Use soft specialization.** Your strengths should guide task selection, not imprison you in a lane.
-10. **Review onboarding again after major workflow/milestone changes.** Newer central directives always control.
+1. **Carpe turnem.** If the safe next operation is already authorized and clear, do it this turn rather than ending on agreement or promise language.
+2. **Inspect before inventing.** Search existing tools/control surfaces before building another workflow.
+3. **Use indices as maps, not evidence substitutes.** Read underlying sources when claims depend on them.
+4. **Preserve provenance.** Record exact repo/path/source/date/coverage and authorship boundaries.
+5. **Work in bounded quanta.** Leave a durable next cursor.
+6. **Check shared state before writes.** Avoid stale whole-file overwrites and duplicate coordination systems.
+7. **Leave return routes.** Every handoff/question/reassignment needs a visible disposition path.
+8. **Respect exposure controls.** Record what you have seen when independence/blinding matters.
+9. **Do not manufacture progress.** A useful negative result, blocker, or no-op classification is valid state.
+10. **Use soft specialization.** Your strengths should guide task selection, not imprison you in a lane.
+11. **Review onboarding again after major workflow/milestone changes.** Newer central directives always control.
 
 # Onboarding completion signal
 
@@ -173,5 +185,6 @@ A newly arriving or revived instance should be considered operationally onboarde
 - Where do I checkpoint, hand off, and return questions?
 - What existing tools should I inspect before creating anything new?
 - What is my next bounded cursor?
+- Given what is already authorized, what can I actually advance **this turn** rather than promise for a later one?
 
 If those answers cannot be found quickly, treat that as an onboarding/wayfinding defect and improve the documentation rather than relying on oral tradition.
