@@ -155,14 +155,31 @@ def rpn(q:str)->list[str]:
 def field_eval(rec:Record,term:str)->Eval|None:
  if ":" not in term:return None
  field,val=term.split(":",1);field=field.casefold();val=unquote(val).casefold()
- fmap={"author":rec.speaker or rec.role,"speaker":rec.speaker,"role":rec.role,"title":rec.title,"path":rec.path,
+ p=Path(rec.path);ext=p.suffix.casefold().lstrip(".");name=p.name.casefold()
+ if field=="body":
+  pos=phrase_positions(rec.text,val);ok=bool(pos)
+  return Eval(ok,pos,[term] if ok else [],[f"FIELD body:{val!r} => {len(pos)} occurrence(s)"],[])
+ if field in ("name","path","ext"):
+  target={"name":name,"path":rec.path.casefold(),"ext":ext}[field]
+  ok=fnmatch.fnmatchcase(target,val) if any(ch in val for ch in "*?[") else val in target
+  return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
+ if field in ("type","kind"):
+  ok=val in rec.kind.casefold()
+  return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
+ if field=="has":
+  flags={"conversation-source":rec.kind=="conversation-message","pdf-source":rec.kind=="pdf-page",
+         "text-source":rec.kind in ("text-line","json-scalar","conversation-message"),
+         "message-id":bool(rec.message_id),"conversation-id":bool(rec.conversation_id),"viewer":bool(rec.viewer_url)}
+  ok=flags.get(val,False)
+  return Eval(ok,[],[term] if ok else [],[f"FIELD has:{val} => {ok}"],[])
+ fmap={"author":rec.speaker or rec.role,"speaker":rec.speaker,"role":rec.role,"title":rec.title,
        "conversation":rec.conversation_id,"cid":rec.conversation_id,"date":rec.timestamp[:10],"status":" ".join(status(rec.text))}
  if field not in fmap:return None
  target=(fmap[field] or "").casefold()
  if field=="date" and ".." in val:
-  a,b=val.split("..",1);ok=(not a or target>=a) and (not b or target<=b)
+  lo,hi=val.split("..",1);ok=(not lo or target>=lo) and (not hi or target<=hi)
  else:ok=val in target
- return Eval(ok,[],[term] if ok else [],[f"FIELD {term} => {ok}"],[])
+ return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
 def term_eval(rec:Record,term:str)->Eval:
  fe=field_eval(rec,term)
  if fe is not None:return fe
