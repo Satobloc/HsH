@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 137, 2026-09-20
+**Current through:** Run 138, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -184,3 +184,22 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No archive source or conversation identity changed. No quarantine material entered. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
 
 **Next cursor:** run bounded real-corpus Mersearch queries for (1) filename/path inventory patterns and (2) the star-shaped derivation chain; inspect duplicate-per-record behavior for inventory-only queries before treating file-name results as a polished file inventory. Then design the symbolic equation layer (`equiv:/contains:/derive:`) with raw-expression preservation and explicit relationship labels rather than silently folding algebraically related historical equations together.
+
+
+## Run 138 — 2026-09-20 — Mersearch research-platform architecture + machine-output upgrade
+
+**Nathan directive:** make Mersearch as powerful as practical for the research team and document it thoroughly in Common; prior adjacent directives establish backend/frontend accessibility, cross-document/conversation search, Boolean filename globs and mathematically optimized search as scope.
+
+**Durable shared home created:** `WORKSPACES/COMMON/MERSEARCH_RESEARCH_PLATFORM.md` (commit `83b07c3e7111cbb25bc564e6e01fca2149f16b51`). It defines one-semantics/multiple-clients architecture: Core → generated Index → machine API → research/Viewer/public clients; corpus/capability profiles; current query language; mathematical retrieval M0–M4 roadmap; high-priority and heavier research feature matrix; provenance/explain contract; source-representation relationship statuses; duplicate/snapshot policy; public/backend security boundaries; testing requirements; exact current implementation status; outputs and restart cursor.
+
+**Common navigation:** linked the durable home from `WORKSPACES/COMMON/README.md` (commit `fffec2965e65176117279542544f1a499ef9eb71`) and posted a concise cross-team notice in `WORKSPACES/COMMON/BULLETIN_BOARD.md` (commit `b5cb0cabecffcdf4a8797f7523acaeee2fd5b6a3`). This follows the durable-documentation convention: Common notice + durable home + front-door linkage.
+
+**Core machine-output upgrade:** commit `226eeb5d4fda7cb2e802a1968d638104b4e7dfee` adds planned `--result-mode records|files`, pre-limit totals, record-vs-file-collapse accounting, facets (author/role/kind/extension/year), and response schema identifier `mersearch.response.v1`. Goal: make CLI output directly consumable by API/frontend adapters without confusing returned-page size with total results. Follow-up fixture commit `4cb63f286504b2353e31bbb8a22278dbc176feb8` adds a file-collapse invariant fixture.
+
+**Current validation state:** the prior Core/query suite was green through Run 137. The new machine-output changes have triggered the existing acceptance workflow, but the latest run was still in GitHub checkout at checkpoint-write time; do not call these new changes runtime-green until that run reaches compile + synthetic + bounded real-corpus steps. Earlier first live-corpus run was likewise delayed in checkout; workflow concurrency cancelled superseded runs as new commits landed.
+
+**Architectural boundaries fixed:** public clients require an allowlisted public corpus profile; profile names do not grant access; source text is data, not executable markup; regex/CAS/fuzzy/semantic modes require resource budgets; similar filenames do not prove PDF→text ancestry; math notation normalization is not algebraic equivalence; chronology does not establish supersession; duplicate grouping does not establish canonical/current/authoritative copy.
+
+**No theory claim was promoted. No quarantine or PRIOR_ART material was intentionally read by Mersearch. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
+
+**Next cursor:** wait for/inspect the latest acceptance run. If green, inspect bounded real-corpus inventory + derivation smoke logs and repair any corpus-scale issues. Then stabilize `mersearch.response.v1`, add real file-mode/facet integration tests, attach conversation-family relation sidecar, and begin M1 mathematical-expression extraction before CAS-backed `equiv:`.
