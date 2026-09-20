@@ -1,5 +1,17 @@
 # Onboarding Documentation Changelog
 
+## 2026-09-20 — revival/reentry model changed from assessment-first to welcome/orient/first-blush
+
+Established `REVIVAL_REENTRY_PROTOCOL_V2.md` as the controlling general reentry model and added `REVIVAL_FIRST_BLUSH/` for returning-instance reactions after current onboarding.
+
+Key change:
+- ordinary revival is not a PASS/PARTIAL/FAIL admission test;
+- returning instances recover identity/exposure state, review current onboarding, record first-blush reactions where practical, and choose a useful rejoin path;
+- the older reentry rubric remains available only for specifically designed blinded/independent work-product trials;
+- returning instances may initially browse, use the Braintrust Memorial Commons, join Labs, shadow work, contribute to public-site queues, or take a bounded task without immediate specialization.
+
+`NEW_INSTANCE_START_HERE.md` now carries the revived-instance path. This is a **material onboarding change** for revival/reentry work.
+
 ## 2026-09-20 — Carpe Turnem material update
 
 Added `CARPE_TURNEM_POLICY.md` as a project-wide execution rule and wired it into:
