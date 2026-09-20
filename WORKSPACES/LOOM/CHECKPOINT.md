@@ -5,26 +5,28 @@
 
 ## Current controls / run note
 
-Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination, handoffs, and Loom continuity/checkpoint state. Current controls retain the one-object + one-operation + one-durable-result + one-next-cursor recurrence quantum. No conversation/thread/chat identity was altered.
+Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination/handoffs, and Loom durable state. Current controls retain the one-object + one-operation + one-durable-result + one-next-cursor recurrence quantum. No conversation/thread/chat identity was altered.
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with special attention to Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon / neutron-star-trinary / gravitational-soliton provenance. The current Nathan Direct state also carries a P0 conversation-folder content-index priority and a Q/inverse-Q smoothing/scaling watch; those are not silently substituted for Loom's bounded current cursor.
 
-## This run — Borromean source-location check
+## This run — exhaustive non-quarantined tree check
 
-**Primary object sought:** `BORROMEAN_LINK_ILLUSTRATION.txt`, identified by the prior Development Timeline wayfinding pass.
+**Primary object sought:** `BORROMANEAN_LINK_ILLUSTRATION.txt` / timeline-spelled `BORROMEAN_LINK_ILLUSTRATION.txt`.
 
-**Operation:** locate the exact repository object before reading/tagging it.
+**Operation:** inspect the repository's complete recursive Git tree on the default branch as the single non-quarantined archive navigation surface selected by the prior cursor.
 
-**Result:** direct root-path fetch failed and repository code search for both `BORROMEAN_LINK_ILLUSTRATION` and `Borromean link` returned no indexed result. Root directory enumeration likewise did not expose the target at root. Therefore the timeline pointer is retained as wayfinding evidence, but the underlying file has **not** been read and no source-level Nathan-authorship/content tags are created.
+**Result:** the recursive Git tree reports `truncated: false`, so it is a complete path inventory for the current default-branch tree. Neither `BORROMEAN_LINK_ILLUSTRATION` nor the broader string `BORROMEAN` occurs anywhere in that complete tree. `MASSLESS` likewise does not occur, despite the Development Timeline naming `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt` in the same June 7, 2025 cluster.
 
-A repository navigation artifact, `!_ANNOTATED_ARCHIVE_SURVEY.md`, surfaced during path-finding and immediately declared itself **QUARANTINED — 2026-09-13**. No claims or navigation guidance from that artifact are being used. This contact is recorded so a later worker does not repeat it as an allowed route.
+This materially strengthens the path diagnosis: the timeline is pointing to historical objects that are **not present under those names in the current default-branch tree**. Plausible explanations include historical deletion/non-ingest, rename, storage in another repository/branch/export, or timeline references to generated/local artifacts that were never committed. No one explanation is promoted without source evidence.
 
 **Status/tags:**
-- `BORROMEAN_LINK_ILLUSTRATION → TIMELINE-POINTER / EXACT-PATH-UNRESOLVED`
-- `DIRECT-ROOT-FETCH → FAILED`
-- `CODE-SEARCH → NO-INDEXED-HIT`
-- `NO-HIT ≠ ABSENT`
-- `UNDERLYING-SOURCE → NOT-READ`
+- `BORROMEAN_LINK_ILLUSTRATION → TIMELINE-POINTER / CURRENT-DEFAULT-TREE-NAME-ABSENT`
+- `RECURSIVE-GIT-TREE → COMPLETE (truncated=false)`
+- `BORROMEAN → NO-PATH-HIT-IN-COMPLETE-TREE`
+- `ST_MASSLESS_PARTICLE_REINTERPRETATION → TIMELINE-POINTER / CURRENT-DEFAULT-TREE-NAME-ABSENT`
+- `TIMELINE-NAMED-OBJECT ≠ CURRENTLY-PRESENT-REPOSITORY-OBJECT`
+- `MISSING-BY-NAME ≠ CONTENT-ABSENT`
+- `UNDERLYING-BORROMEAN-SOURCE → NOT-READ`
 - `SOURCE-LEVEL-AUTHORSHIP → NOT-ESTABLISHED`
 - `!_ANNOTATED_ARCHIVE_SURVEY.md → QUARANTINED / DO-NOT-USE`
 
@@ -38,9 +40,9 @@ The archive Development Timeline identifies a June 7, 2025 particle/topology clu
 - `BORROMEAN_LINK_ILLUSTRATION.txt`
 - associated Hopf/Borromean visualization files.
 
-This remains a plausible older-vocabulary route toward later He-3/Jarlskog/soliton material, not an established genealogy.
+This remains a plausible older-vocabulary route toward later He-3/Jarlskog/soliton material, not an established genealogy. The complete-tree result now tells us not to keep guessing paths for these timeline-named objects on the current default branch.
 
-Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` yielded no indexed historical-archive code-search hits. Ordinary code search is therefore low-yield for this lineage, not evidence of absence.
+Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` yielded no indexed historical-archive code-search hits. Ordinary code search is low-yield for this lineage, not evidence of absence.
 
 ## Durable context retained
 
@@ -55,7 +57,7 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Use exactly one **non-quarantined archive navigation surface** (welcome/orientation/tools/folder index or Nathan Dashboard archive index) to resolve the directory/path containing `BORROMEAN_LINK_ILLUSTRATION.txt`. Do not query-spray filenames and do not use the quarantined annotated survey. If the path is resolved, leave reading/tagging the underlying source as the following bounded bite unless the active work-quantum control has changed.
+Do not continue current-default-branch path guessing for `BORROMEAN_LINK_ILLUSTRATION.txt`. Next bounded bite: use one permitted provenance/navigation surface to determine whether the Development Timeline's June 7 objects came from a historical branch/commit, another archive location/repository, or an uncommitted/local generation context. Prefer commit/history metadata or an explicit non-quarantined archive manifest over lexical search. If that route cannot resolve provenance in one bounded operation, mark the timeline-object lineage as `SOURCE-RECOVERY-NEEDED` and rotate to a different high-value corpus region rather than forcing it.
 
 ## Workspace identity
 
