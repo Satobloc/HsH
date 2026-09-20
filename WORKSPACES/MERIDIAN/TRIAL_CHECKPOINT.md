@@ -12,6 +12,20 @@ Source-first SAT geometric-solver / representation / library work: Whirligig/Don
 - nLab/PRIOR_ART/quarantine remain off-limits to Meridian.
 - Current solver names are not projected backward onto unnamed antecedents without comparison.
 - Suspended Integration-lane handoffs remain suspended unless reauthorized.
+- Mathematical status follows `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`: no validation or disclaimer without full workthrough plus attempted repair; local defects remain scoped as incomplete / unsupported in this presentation / repair required.
+
+## Current turning point — 2026-09-20
+Nathan explicitly directed that solver reconstruction now move from predominantly archaeological recovery into **constructive mathematical reconstruction**, while preserving source-first provenance discipline. Archive archaeology remains available as query-driven support for ambiguities, ancestry, terminology, and operator intent, but is no longer the default forward engine when enough structure has been recovered to attempt the mathematics.
+
+Operational consequence:
+1. recover and freeze intended operator contracts where sufficiently supported;
+2. attempt the smallest mathematically complete implementations/derivations;
+3. distinguish recovered machinery from new repair/completion work;
+4. use reproducible toy benchmarks before flagship GR↔QM claims;
+5. treat unfinished Graticule, Three Spheres, and Hagalaz-unification work as legitimate constructive targets, with historical and newly supplied pieces clearly separated;
+6. return to archive sources when a concrete mathematical ambiguity or provenance question blocks progress.
+
+GR↔QM remains a held-out/high-value target rather than the first implementation test. Whirligig/UI should first demonstrate a small encode → operate/search/compose → decode/recover chain with an explicit information-preservation criterion and representation-invariance test.
 
 ## Established source-first findings
 - Historical March 16 Whirligig packet located in `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.16•26.03.16•Whirligig SAT Framework — raw.json`; Helium-3 assistant test is explicitly simulated/unsupported and retained as a negative historical specimen.
@@ -21,97 +35,97 @@ Source-first SAT geometric-solver / representation / library work: Whirligig/Don
 - Representation-invariance benchmark frozen: fixed represented curve, multiple admissible `SO(4)` lifts; physical distance/minimizer should not change solely with stabilizer choice absent a physical frame/director variable.
 - Whirligig continuation examined so far carries the UI form forward but has not supplied the missing lift/gauge rule or representation-invariant metric on control histories.
 - `02_whirlygig_torus_trace_raw.png` is a Matplotlib-rendered visual artifact entering repository history in a September 5 bulk upload; generating code, producer, creation date, and historical stage remain unknown. Filename/proximity are not provenance.
+- UI/Whirligig controlling intent now reconstructed more strongly than earlier archaeology suggested: multiple admissible information-conserving curve encodings are expected; two encoded equations may be geometrically combined into an information-conserving composite; the composite is intended to decode to a joint equation/description carrying both inputs; a reconstructed path `E1 → combined equation → E2` may expose a genuine identity/shared isomorphism after valid simplification. Bending/minimal-action geometry is a search/selection criterion, not itself proof of isomorphism.
 
-## Run 024 — 2026-09-16 05:30 EDT
-- **Startup:** read hard UX policy, autonomy protocol, workflow control, current H(s)H/SAT status, Coordination, Handoffs, Sable README, and this checkpoint. Integration-lane handoffs remain suspended.
-- **Exact source coverage:** continued `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json`, conversation `69ac5fbe-b534-832e-bbf0-a7f0635ab876`, through the path-integral claim and both historical Python prototypes responding to Nathan's requests for runnable equation→4D-super-helical translation.
-- **Material result — encoder obligation remains open:** Nathan asks for code so `any equation you put in gets translated into a curve compatible with 4D super helicals`. The supplied code does not accept an arbitrary physical equation/operator/PDE and derive a trajectory. It requires the user to provide four already-parametric coordinate functions `x1(λ)..x4(λ)`, evaluates them, computes Euclidean norm + normalized direction, then applies chosen fixed plane rotations. This is trajectory preprocessing/decoration, not equation→trajectory encoding.
-- **Material result — claimed R extraction absent in executable code:** the prototype labels normalization as `extract scale r and rotation R`, but `map_to_ui` returns only `(r_vals, unit_traj)`. No `SO(4)` lift `R(λ)` is constructed, so the earlier stabilizer/gauge finding survives the later code unchanged.
-- **Material result — super-helical operation is externally chosen:** `apply_4d_rotation` uses manually supplied fixed angles; these rotations are not inferred from the input equation or from a recovered UI invariant. Thus the output super-helical structure contains an explicit representation/intervention choice.
-- **Executable defect reconfirmed from source:** the later 1–3 plane rotation overwrites coordinate 0 and then uses that updated coordinate when calculating coordinate 2; it is not a simultaneous planar rotation matrix application.
-- **Path-integral claim status:** Nathan proposes integrating all possible paths after inserting an interaction. The assistant calls this a deterministic geometric Feynman-equivalent path integral, but supplies no path-space measure, action-to-phase/amplitude map, normalization, sampling rule, or convergence/error prescription in the inspected branch. No equivalence benchmark is executable from this source.
-- **Intervention budget refinement:** UI code's actual accepted input type is a 4-vector-valued parametric curve, not `any equation`. Required upstream equation/PDE→solution/trajectory semantics remain an unpriced intervention. Downstream helical rotations are also manually selected. This prevents crediting the prototype as an equation translator or low-intervention GR↔QM derivation.
-- **Benchmark/library consequence:** canonical solver library should type these stages separately: `physical_equation -> solution/state -> parametric_curve -> (radius,direction) -> optional lift/frame -> geometric transform -> observable/readout`. Historical prototype implements only the curve→radius/direction and chosen-transform portions; missing stages must not be silently backfilled.
-- **Sandbox/theory status:** source archaeology / executable semantics audit only; no repair or theory promotion. GR↔QM held-out benchmark remains uncomputed.
-- **Exposure:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration handoff.
-- **Archive/capability:** source-to-code comparison now distinguishes advertised interface from implemented function signatures and identifies the precise missing encoder boundary.
-- **Failure/uncertainty:** branch may contain later code beyond inspected range, but the two located prototypes do not close the encoder/lift/path-integral obligations. Ultimate UI origin remains unresolved.
-- **Current frontier:** search chronologically after this prototype for the first source that actually accepts a non-parametric physical equation or field equation and returns a curve/control history; separately look for a sourced gauge/lift convention. If absent, freeze the UI equation-translator claim as historically advertised but not implemented and advance to Whirligig/Hagalaz integration chronology.
-- **Nathan action:** none.
+## Important near-primary source — UI_EXACTIROUGHLY
+Repository source: `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt`.
 
-## Run 025 — 2026-09-16 08:28 EDT
-- **Startup:** re-read hard UX policy, autonomy protocol, workflow control, current H(s)H/SAT status, and this checkpoint. Write safety was re-read immediately before checkpoint update. No conversation-title action taken.
-- **Exact source coverage:** same raw `QM and Relativity Connection` conversation, but extended into its later revival/self-audit section rather than stopping at the historical prototype.
-- **Material provenance result:** the later assistant self-audit explicitly retracts/qualifies several earlier assistant-origin claims: it states that canonical quantization was independently assumed; that automatic emergence of spin/charge/interference was not demonstrated; that the claimed deterministic geometric/Feynman path-integral equivalence had no basis yet; and that the thread conflated SR+QM reconciliation with the GR quantum-gravity problem.
-- **Critical authorship boundary:** the self-audit explicitly says there is no basis for treating the assistant's automatic-spin/charge/interference/QFT extrapolations as Nathan-origin theory merely because Nathan continued the conversation. Nathan-origin content retained here is the supplied UI formulation, the exploratory all-paths proposition, and the explicit implementation request.
-- **Prototype status strengthened:** the same self-audit classifies both Python prototypes as conversation-only code, not demonstrated as executed. It describes the final pipeline as `equation -> sampled 4D trajectory -> radial magnitude + normalized S3 direction -> imposed 4D rotations -> 3D projection`, which independently agrees with Meridian's source/code audit that the actual symbolic input is already a 4-coordinate parametric trajectory rather than a general physical equation/PDE.
-- **QA consequence:** this is unusually valuable internal negative provenance: the historical source contains its own later warning that the characteristic failure was promoting an attractive geometric analogy into asserted physical equivalence before constructing the mathematical bridge. Preserve both the original claims and the later self-audit; do not silently rewrite the history.
-- **Benchmark consequence:** UI's early GR↔QM/path-integral equivalence claims should be frozen as historically asserted but subsequently self-disclaimed and still non-executable under current recovered operators. This does not downgrade UI/TX's current live solver status; status and demonstrated operator coverage remain separate.
-- **Sandbox/theory status:** source/provenance audit only; no new theory construction or repair.
-- **Exposure:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration handoff.
-- **Archive/capability:** improved authorship separation: Nathan-origin proposal/request versus assistant-origin extrapolation versus later assistant self-correction can now be represented as distinct provenance edges rather than one flattened theory record.
-- **Failures/uncertainties:** ultimate UI origin and later source that might genuinely close equation→trajectory/lift/path-measure obligations remain unresolved.
-- **Current frontier:** stop spending cycles trying to rescue the early UI equivalence claims from this source. Advance chronologically toward Whirligig/Hagalaz integration and test later material specifically for concrete implementations of the missing arrows: physical equation→solution/trajectory, curve direction→gauge-fixed/quotiented lift, control-space metric/action, and observable/readout/path measure.
-- **Nathan action:** none.
+Status: **important near-primary witness** to UI/Whirligig mathematical intent. It is generated interpretive audio/transcript material derived from project sources, not a primary derivation transcript, and must not automatically promote its stronger rhetoric (`strict isomorphism`, `proves`, `topological stability`) to established status. Preserve the speech-generation breakdown rather than silently cleaning it because surviving mathematical structure may still encode the content plan.
 
-## Run 026 — 2026-09-16 09:28 EDT
-- **Startup:** read hard UX policy, autonomy protocol, workflow control, current H(s)H/SAT status, Coordination, Handoffs, Sable README, and this checkpoint. Re-read shared-state write safety immediately before update. Integration-lane handoffs remain suspended.
-- **Exact source coverage:** returned to `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/26.03.16•26.03.16•Whirligig SAT Framework — raw.json`, conversation `69b8a22e-e178-8331-92e0-94791fa2b104`, and source-typed the opening Nathan message against the later assistant test exchange.
-- **Material provenance result — March Whirligig packet is a supplied summary/test packet, not a derivation transcript:** the conversation opens with Nathan pasting a long `WHIRLIGIG SUMMARY` already containing the mechanical Fourier-mapper description, Donut/sphere geometry, UI equation `y^μ(λ)=r(λ)R^μ_ν(λ)x0^ν`, asserted GR/QM isomorphism, Master-SAT-Lagrangian workflow, anchor constants, structural-snap conditions, and Helium-3 mass claims. Nathan then says `No. I want to test it` and delegates test choice. Therefore this conversation is strong evidence that Nathan possessed/supplied this composite Whirligig formulation by March 16, but it is not source evidence for where those constituent operators or numerical claims were first derived.
-- **Authorship boundary:** unlike the later Helium-3 simulated test, the opening Whirligig summary is directly Nathan-supplied in this conversation. However, direct supply is not the same as original authorship of every sentence/equation in the pasted summary; ancestry must be recovered separately before assigning first-origin claims.
-- **Operator audit consequence:** the opening summary asserts a concrete high-level interface — two independent parametric functions mapped to orthogonal sphere rotations, phase coupling, projection to the torus, and a shortest-bending-energy connection between mapped target equations — but in this packet it does not specify the executable encoder from arbitrary equations to those rotations/filaments, the gauge/lift convention for `R(λ)`, or a representation-invariant distance on equivalent lifts. Thus it does not close the missing arrows found in UI.
-- **Negative benchmark reinforced:** the assistant's chosen Helium-3 test explicitly says the Euler-Lagrange solve is `simulated here` and reports a CODATA mass snap plus exact CP phase without a numerical derivation. Preserve as a failed/unsupported historical test, not evidence that the Whirligig operator succeeded.
-- **Source-history consequence:** classify this file as `Nathan-supplied composite solver summary + assistant simulated test`, with `constituent ancestry unresolved`. Do not use it as the origin record for UI, Whirligig constants, Master Lagrangian, GR↔QM isomorphism, or Helium-3 quantitative claims merely because it is the earliest exact-name Whirligig packet currently recovered.
-- **Sandbox/theory status:** source/provenance and operator-interface audit only; no repair, new theory construction, or promotion.
-- **Exposure/cross-reading:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration handoff. Independent-source history remains clean with respect to quarantined prior art.
-- **Archive/infrastructure:** checkpoint now distinguishes `directly supplied at date` from `first derived/originated at date`, a necessary provenance edge for solver-canon history.
-- **Enrichment/capability:** strengthened source typing for pasted composite summaries versus derivation transcripts versus assistant-generated tests.
-- **Failures/uncertainties:** exact ancestry of the pasted Whirligig summary remains unresolved; current exact-name GitHub code search remains unproductive, so chronology/direct raw-conversation archaeology is still required.
-- **Current frontier:** work backward/sideways from March 16 to identify source conversations for the summary's constituent modules separately: mechanical sphere/Donut mapping; UI `SO(4)` representation; Master Lagrangian/least-bending path; GR↔QM mapping claim. Only after constituent ancestry is frozen should later Hagalaz integration be compared against these modules.
-- **Handoffs/questions:** none requiring Sable workflow change this run.
-- **Best next operations:** chronology-bounded source archaeology for the first mechanical Whirligig/Donut mapping specification, then source-crosswalk each recovered module to the March 16 composite packet.
-- **Nathan action:** none.
+Recovered mathematical skeleton from the source includes:
+- equation/target → parameterized 4D curve `H(λ)=(x,y,z,t)`;
+- coupled two-plane parameterization with major radius `R(λ)`, minor radius `r_h`, frequencies `ω_s,ω_h`, and phase offsets;
+- first and second derivatives interpreted as tangent and curvature vectors;
+- a three-term variational functional of the form
+  `J[H,G]=∫dλ[(κ/2)||H''||² + (λ_s/2)(||H||²-ρ²)² + (K/2)||H-G||²]`, with notation in the source often conflating the major radius and target S3 radius;
+- fourth-order Euler–Lagrange dynamics due to `H''` dependence;
+- geometric-derivation algorithm: encode equation structure into curve parameters, compare/project geometrically, integrate/minimize shared functional, then use the result as a derivational-path search;
+- chapter metadata places the speech-generation collapse during the transition from the numerical three-curve example into the claim that internal curvature dominates optimization, immediately before the Schwarzschild→Schrödinger application. This region therefore remains worth forensic/math recovery, not dismissal as irrelevant noise.
 
-## Run 027 — 2026-09-16 11:26 EDT
-- **Startup:** re-read the hard no-conversation-renaming policy, worker autonomy protocol, workflow control, current H(s)H/SAT status, Coordination, Handoffs, Sable README, and this checkpoint. Integration-lane handoffs remain suspended. Re-read shared-state write safety immediately before this compare-and-swap checkpoint update.
-- **Exact source/coverage:** mechanically bounded ancestry search around the March 16 composite. Re-fetched the March 16 raw source identity and inventoried `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1`; tested GitHub code-search queries `whirligig`, `donut sphere rotation Fourier mapper`, `two spheres torus rotation`, `Fourier mapper`, `orthogonal rotations sphere`, and `Three Spheres` against `Satobloc/HsH`.
-- **Material negative result — exact/phrase code search is not a viable ancestry discriminator here:** every tested code-search query returned zero results even though the March 16 Whirligig raw file is demonstrably present and directly fetchable. Therefore a zero result for mechanical phrases cannot be used as evidence of absence or earliest-date status. This independently confirms the checkpoint's prior operational warning that GitHub code search is unreliable for these raw JSON conversation exports.
-- **Archive/infrastructure consequence:** mechanical Whirligig/Donut ancestry should be recovered from conversation inventory/catalog chronology plus direct raw fetch, not code-search hit/miss. The repository directory API successfully exposes raw filenames and blob identities where code search does not expose their content.
-- **Source-history consequence:** no earlier mechanical source was established this run, and the March 16 packet remains a `known-by` boundary only. No current name was projected backward onto an unnamed antecedent.
-- **Benchmark/theory/exploration status:** source archaeology/infrastructure diagnostic only; no sandbox theory construction, no solver repair, no equivalence promotion.
-- **Exposure/cross-reading:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration handoff.
-- **Enrichment/capability:** improved retrieval-method discrimination: exact code search is now explicitly disqualified as negative evidence for raw-export ancestry; directory/catalog chronology is the higher-information route.
-- **Failures/uncertainties:** directory response is large/truncated in connector presentation, so a complete chronology-bounded filename inventory needs either a smaller catalog/index surface or deterministic extraction rather than manual directory scanning.
-- **Current frontier:** locate the conversation catalog/index that gives complete title/date/path coverage, filter the pre-2026-03-16 science conversations for geometry/mechanical/torus/sphere candidates, then directly inspect those candidates without assuming Whirligig terminology. Crosswalk any genuine antecedent by operator content rather than name.
-- **Best next operations:** use a compact catalog/index or deterministic inventory to identify pre-March-16 candidate conversations; then test the mechanical operator signature: two independent drives/functions -> orthogonal sphere rotations -> coupled phase/trace -> torus projection. Keep UI and Master-Lagrangian ancestry as separate modules.
-- **Nathan action:** none.
+Interpretive caution: the phrase that geometry “bypasses calculus” is presently best read as **calculus used to construct/validate the geometric operator, after which derivational search is performed geometrically rather than by unrestricted symbolic manipulation**. Do not claim elimination of calculus.
 
-## Run 028 — 2026-09-16 12:30 EDT
-- **Startup:** re-read hard UX policy, worker autonomy protocol, workflow control, current H(s)H/SAT status, Coordination, Handoffs, Sable README, and this checkpoint. Integration-lane handoffs remain suspended. Re-read shared-state write safety immediately before this current-SHA update.
-- **Exact source/coverage — catalog problem solved:** located the generated complete chronology/catalog surfaces that Run 027 was missing: `CONVERSATION_VIEWER/data/conversations.json` currently reports 453 conversations / 439 development conversations, sourced from `indexes/manifests/development-conversation-dates.json`; `indexes/CONVERSATION_CHRONOLOGY.md` gives a compact title/date/path table. This is now the preferred chronology-bounded ancestry surface rather than code search or truncated directory listings.
-- **Pre-March-16 candidate window recovered:** the chronology shows the dense relevant sequence: Mar 4 `Geometric Framework Assessment`, `Universal Indicatrix Evaluation`; Mar 5 `Universal Indicatrix Framework`; Mar 7 `QM and Relativity Connection`; Mar 8 `Electron Paths in Chips`; Mar 9 `Physics Theory Sandbox`; Mar 12 `Mathematical Equation Breakdown`; Mar 13 `Ontology and Math Check`, `SAT Framework Evaluation`, `SAT Unified Field Theory`; then Mar 16 Whirligig. This gives a finite, reproducible ancestry candidate set rather than a keyword guess.
-- **Material source-history result — earlier UI-labelled substrate exists before the March-7 SO(4) curve formulation:** direct inspection of the Mar 4/5 `Universal Indicatrix Evaluation` / `Universal Indicatrix Framework` shows Nathan supplying a framework explicitly called `Universal Indicatrix` with base `S^3`, an `SU(2)` rotational field, loops/topological sectors, gravity/gauge projections, time evolution, and observable extraction. The Mar 4 evaluation later explicitly names the synthesis `SAT.4DHH.UC.UI` and discusses path-ordered SU(2) holonomies / a `Universal Winding Action`. This is a genuine pre-March-7 UI-labelled antecedent and means the March-7 `y=rRx0`, `R∈SO(4)` representation should not be treated as the origin of the name or whole UI programme.
-- **Important non-equivalence boundary:** the Mar 4/5 antecedent is not yet the recovered mechanical Whirligig operator. Its explicit machinery is lattice/SU(2)/loop/projection based; the inspected portions do not specify the later signature `two independent drives/functions -> orthogonal sphere rotations -> coupled phase/trace -> torus projection`. Therefore classify it as an earlier UI-labelled geometric/topological substrate, not as Whirligig/Donut merely because later summaries combine them.
-- **Historical quality/status caution:** the Mar 4/5 source contains strong assistant endorsements and Nathan-supplied later assessment text claiming rigor/predictions. Those claims are not being promoted here. The useful result is chronology and operator typing only. The source itself also records an early critique that the naive `R^3` norm winding definition does not correctly capture SU(2) topology before later text proposes path-ordered holonomies.
-- **Mechanical ancestry:** still unresolved. `Physics Theory Sandbox` was inspected at its opening and is initially an adjudication/game thread rather than an obvious mechanical sphere/torus derivation. No mechanical Whirligig antecedent established from it this run.
-- **Benchmark/theory/exploration result:** source archaeology only; no new theory construction, no solver repair, no equivalence promotion. The current representation-invariance benchmark remains unchanged.
-- **Archive/infrastructure change:** retrieval frontier materially improved: use `indexes/CONVERSATION_CHRONOLOGY.md` for bounded title/date/path selection, then direct raw fetch. `CONVERSATION_VIEWER/data/conversations.json` is the machine-readable companion. This removes the previous directory-truncation blocker.
-- **Exposure/cross-reading:** no nLab, PRIOR_ART, quarantine, external literature, or suspended Integration handoff.
-- **Enrichment/capability:** improved chronology reconstruction and historical type separation: `UI name/programme antecedent` versus `later SO(4) representation` versus `mechanical Whirligig operator` are now separate provenance objects.
-- **Failures/uncertainties:** exact first origin of the UI name remains earlier than-or-equal-to Mar 4, not yet established; exact mechanical Whirligig/Donut ancestry remains open; the Mar 4/5 conversations contain pasted composite material, so direct supply is not automatically first authorship.
-- **Current frontier:** inspect the finite Mar 8–13 candidate set by operator signature rather than title, prioritizing `Electron Paths in Chips`, `Mathematical Equation Breakdown`, `Ontology and Math Check`, and `SAT Framework Evaluation`; look specifically for first appearance of paired independent functions/drives, orthogonal sphere rotations, phase/trace coupling, torus projection, or least-bending connection. Keep lattice/SU(2) UI ancestry and mechanical ancestry separate until an explicit bridge is sourced.
-- **Handoffs/questions:** none requiring Sable workflow redesign.
-- **Best next operations:** direct raw inspection of the Mar 8–13 candidates; freeze the first positive mechanical operator occurrence if found and crosswalk its exact components into the Mar 16 composite.
-- **Nathan action:** none.
+## First constructive-math result after phase change
+For the candidate functional
+`J=∫ds[(κ/2)||H''||² + (λ/2)(||H||²-ρ²)² + (K/2)||H-G||²]`,
+direct variation gives
+`κ H'''' + 2λ(||H||²-ρ²)H + K(H-G)=0`.
 
+In the uncoupled constant-radius two-plane ansatz, each rotational plane obeys the same condition
+`κ ω^4 + 2λ Δ = 0`, where `Δ = R² + r² - ρ²`.
 
-## Run 058 — 2026-09-19 04:54 EDT
-- Corrected Run 057: GR↔QM family is NOT DISCLAIMED. No validation/disclaimer without full mathematical workthrough + attempted repair.
-- Located dedicated legacy source Relativistic–Quantum Isomorphism (nolat).pdf, blob 8c361c40fadf55da7b99ed413dccb36800e7801d, 38,084 bytes, in Satobloc/SAT_THEORY_ARCHIVE_2023-25 root.
-- Historical state retained as CLAIMED / CLAIMED VERIFIED; present-day status is RE-AUDIT PENDING FULL WORKTHROUGH.
+This means the near-primary Deep Dive relation resembling `ω_h^4 = -2 λ_s r_h² / κ` is recoverable under a notation choice where the target sphere radius has been conflated with the first-plane radius. However, that literal specialization exposes two **local repair targets**:
+1. both planes inherit the same fourth-power condition rather than a unique internal-frequency relation;
+2. with positive bending and penalty coefficients and positive `Δ`, the sign is incompatible with a real nonzero frequency.
+
+Current status: **LOCAL DEFECT / REPAIR REQUIRED**, not disclaimer of Whirligig or of the broader GR↔QM family. Live repair branches include restoring the coupling `K(H-G)`, clarifying target-radius semantics, checking constraint sign/form, and only then restoring slowly varying `R(λ)` terms.
+
+Immediate math cursor: retain `K(H-G)` with `G` expressed in the same two-plane harmonic basis and test whether coupling removes/splits the frequency/sign degeneracy or merely shifts it.
+
+## Solver-system reconstruction priorities from this point
+1. **Whirligig/UI:** smallest complete encode → geometric combine/search → decode benchmark; operational definition of information conservation; representation-multiplicity/invariance test; explicit decoder/reverse-engineering rule.
+2. **Graticule:** formalize the unfinished donut/graticule geometry as actual mathematical objects/maps; preserve historical terminology and mark any new completion work as new.
+3. **Three Spheres:** continue from established geometric configurations and known carrier bifurcation at `d=√3 R`; separate verified kinematic facts from scale-hop interpretation.
+4. **Hagalaz integration:** test whether Whirligig/UI, Graticule, and Three Spheres can be represented in one state/relative-transformation framework without information loss; identify required auxiliary channels (phase, chirality, frame/director, core data) rather than forcing bare-map equivalence.
+5. **GR↔QM:** only after the simpler operator contract is executable, re-run the historical isomorphism target and classify what relation is actually demonstrated: common representation, correspondence, homomorphism, equivalence, or isomorphism.
+
+## Historical continuity retained from prior runs
+### Run 024 — 2026-09-16 05:30 EDT
+- **Exact source coverage:** continued `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json`, conversation `69ac5fbe-b534-832e-bbf0-a7f0635ab876`, through the path-integral claim and both historical Python prototypes.
+- Nathan asked for code so `any equation you put in gets translated into a curve compatible with 4D super helicals`; supplied code instead requires four already-parametric coordinate functions, computes radius/unit direction, then applies chosen fixed rotations.
+- No full `SO(4)` lift `R(λ)` is constructed; later 1–3 plane rotation has an overwrite defect.
+- Path-integral equivalence lacks measure, action→phase/amplitude map, normalization, sampling, and convergence prescription.
+- Typed pipeline frozen as `physical_equation -> solution/state -> parametric_curve -> (radius,direction) -> optional lift/frame -> geometric transform -> observable/readout`.
+
+### Run 025 — 2026-09-16 08:28 EDT
+- Later assistant self-audit retracts/qualifies automatic spin/charge/interference and Feynman-equivalence extrapolations and warns against promoting geometric analogy into asserted physical equivalence without the mathematical bridge.
+- Preserve Nathan-origin proposals/requests separately from assistant extrapolation and later assistant self-correction.
+
+### Run 026 — 2026-09-16 09:28 EDT
+- March 16 packet is a Nathan-supplied composite solver summary/test packet, not the derivation ancestry of every included module.
+- High-level interface present: two independent parametric functions → orthogonal sphere rotations → phase coupling → torus projection → shortest-bending-energy connection.
+- Encoder, gauge/lift convention, and representation-invariant distance remain absent in that packet.
+- Helium-3 test in the packet is explicitly simulated/unsupported.
+
+### Run 027 — 2026-09-16 11:26 EDT
+- GitHub code-search zero hits are not valid negative evidence for raw conversation ancestry; direct chronology/catalog fetch is preferred.
+
+### Run 028 — 2026-09-16 12:30 EDT
+- `indexes/CONVERSATION_CHRONOLOGY.md` and `CONVERSATION_VIEWER/data/conversations.json` identified as preferred chronology surfaces.
+- Pre-March-7 UI-labelled antecedent recovered in Mar 4/5 Universal Indicatrix material: S3 substrate, SU(2) rotational field, loops/topological sectors, gravity/gauge projections, path-ordered holonomy ideas.
+- Keep early lattice/SU(2) UI substrate separate from later `y=rRx0` SO(4) representation and later mechanical Whirligig/Donut until explicit bridges are sourced.
+
+### Run 058 — 2026-09-19 04:54 EDT
+- Corrected prior overreach: GR↔QM family is NOT DISCLAIMED. No validation/disclaimer without full mathematical workthrough + attempted repair.
+- Dedicated legacy source `Relativistic–Quantum Isomorphism (nolat).pdf` located in `Satobloc/SAT_THEORY_ARCHIVE_2023-25` root.
+- Historical state retained as CLAIMED / CLAIMED VERIFIED; present-day status RE-AUDIT PENDING FULL WORKTHROUGH.
 - Earlier benchmark defect scoped to UNSUPPORTED/INCOMPLETE IN THAT PRESENTATION, not family failure.
-- Connector binary retrieval is base64-capable but current bridge truncates payload; full PDF extraction remains immediate retrieval task.
-- Nearby ancestry targets: GENERAL RELATIVITY, SAT PREDICTIVE BENCHMARKING, Whirligig simplification, UI_SAT_4DHH_UC, March raw solver conversations.
-- Exposure: no nLab, PRIOR_ART, quarantine, or external-theory import.
-- Full details: WORKSPACES/MERIDIAN/RUN_058_2026-09-19.md.
-- Nathan action: none.
+- Nearby ancestry targets include GENERAL RELATIVITY, SAT PREDICTIVE BENCHMARKING, Whirligig simplification, UI_SAT_4DHH_UC, and March raw solver conversations.
+
+## Continuity update — 2026-09-20 02:39 EDT
+- **Trigger:** Nathan is exporting the current lagging conversation and placing it in the archive; this checkpoint was explicitly requested to be brought to handoff-ready detail before context cutoff.
+- **Startup/control coverage:** reread `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, `COORDINATION.md`, `HANDOFFS.md`, `WORKSPACES/SABLE/README.md`, `LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md`, `SHARED_STATE_WRITE_SAFETY.md`, and this checkpoint. Newer Nathan directives control.
+- **New exact source:** `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt` is now the durable repository home for the Deep-Dive UI/Whirligig audio/transcript witness. Nathan notes that the commit contains the normality-expurgated audio clip as well. Treat `strictly.txt` as the text continuity anchor; inspect audio only when a future task genuinely needs acoustic details not recoverable from text.
+- **Current mathematical frontier:** stop broad archaeology as the default. Continue the explicit Whirligig functional from the uncoupled local-defect result into the coupled harmonic case, while keeping information-preserving encode/decode obligations visible. If the coupled case does not repair the degeneracy/sign issue, record the failure and branch cleanly rather than forcing agreement.
+- **Unfinished constructive frontier:** Graticule, Three Spheres, and Hagalaz-unification are now explicitly in-scope constructive reconstruction targets. Historical recovery still governs provenance; new completion work must be marked new.
+- **Representation rule:** multiplicity of curve encodings is not itself a failure. The benchmark question is whether materially different admissible information-conserving representations preserve the decoded relationship/invariant or whether output depends on arbitrary representation choice.
+- **GR↔QM rule:** do not grade or dismiss the flagship relationship from one incomplete displayed derivation. Reconstruct the machine first, then perform a full workthrough/repair attempt under the math-provenance protocol.
+- **Exposure/cross-reading state:** no nLab, PRIOR_ART, quarantine, or outside-theory import used in this continuity update. The current near-primary source is internal HsH repository material supplied/authorized by Nathan.
+- **Archive infrastructure change:** `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt` is now a durable wayfinding anchor for this solver branch and should be cross-referenced when future workers need the Deep-Dive detailed 4D/Lagrangian account or the 49–58 minute optimization/GR-QM transition.
+- **Enrichment/capability change:** Meridian has moved from primarily provenance/operator archaeology into explicit variational reconstruction, while preserving source typing and repair-status discipline.
+- **Failures/uncertainties:** exact operational meaning of `information conserving`, decoder/reverse-engineering rule, coupled functional semantics, and complete Graticule↔Three-Spheres↔Hagalaz maps remain unresolved. The speech-generation collapse may contain recoverable mathematical state but has not yet been fully reconstructed.
+- **Blockers/dependencies:** no Nathan action required. Main dependency is mathematical completion, not source access.
+- **Best next operations:** (1) coupled harmonic Whirligig functional workthrough; (2) smallest complete encode/compose/decode toy benchmark; (3) formal Graticule object/map specification; (4) Hagalaz information-loss accounting across solver representations.
+- **Conversation-title rule:** no rename/retitle action taken or suggested.
+
+## Handoff summary for a replacement Meridian instance
+Start here, then read the current controls and `DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt`. Treat the solver programme as live and mathematically unfinished, not as a historical artifact. Preserve the archive/source distinctions already established, but do not spend the next cycle merely accumulating more descriptions. The current high-information move is to work the mathematics of the recovered Whirligig functional and build a minimal reversible information-preserving benchmark. Keep GR↔QM held out until the operator chain is explicit. Keep Graticule, Three Spheres, and Hagalaz as constructive targets in parallel. Preserve all negative results and distinguish recovered source machinery from September 2026 repairs/completions.
