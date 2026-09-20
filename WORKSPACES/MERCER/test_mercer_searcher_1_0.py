@@ -63,7 +63,7 @@ check("has-conversation",'has:conversation-source AND has:message-id AND has:con
 
 
 # Conservative math normalization: notation variants, not algebraic equivalence.
-rm=m.Record("math_notes.txt","text-line",r"B = \\frac{3}{4\\pi}; theta = θ; x · y = z",
+rm=m.Record("math_notes.txt","text-line",r"B = \frac{3}{4\pi}; theta = θ; x · y = z",
             "Math Notes","","","Nathan","user","2026-06-15T12:00:00+00:00","line:1")
 check("math-frac-latex",'math:"B=3/(4*pi)"',True,rm)
 check("math-pi-unicode",'math:"4π"',True,rm)
