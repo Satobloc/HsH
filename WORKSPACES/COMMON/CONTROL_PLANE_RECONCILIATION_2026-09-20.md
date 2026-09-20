@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE RECONCILIATION / newer Nathan directives control  
 **Branch:** `CTRL-2026-09-20-GENERALIST`  
-**Latest completed operation:** `CTRL-02` — durable instance registry / execution-lease state established.
+**Latest completed operation:** `CTRL-03` — reconciled current workflow orientation established and wired into onboarding.
 
 ## Controlling newer direction
 
@@ -17,74 +17,41 @@ Nathan's current workflow intent is:
 7. **Carpe turnem.** When authority, context, and access already permit a safe bounded advance, make the advance in the current turn rather than merely agreeing to do it later.
 8. **Hard boundaries remain hard:** quarantine/exposure controls, source/provenance discipline, sandbox routing for theory-bearing work, and Nathan's authorship/signet controls.
 
-## Conflicts found in current Common control surfaces
+## Conflict disposition
 
-### A. `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
+### `CURRENT_WORKFLOW_ORIENTATION.md` — superseded for current orientation
 
-The file still says workers should consult Sable for workflow functionality and reserves cross-lane redesign/reassignment/cadence/role redistribution to Sable. Those statements reflect the earlier specialist-lane/Sable-authority architecture. Until coherently revised, interpret lane as a soft continuity/specialty anchor and route system-level decisions through the current authorized control plane rather than assuming permanent Sable exclusivity.
+Rather than perform a risky whole-file rewrite that could erase useful historical workflow state, `CTRL-03` created `CURRENT_WORKFLOW_ORIENTATION_V2.md` as the current controlling front door and updated `NEW_INSTANCE_START_HERE.md` to point to it. The older file remains historical workflow-state evidence.
 
-### B. `ACTIVE_AUTOMATION_ROSTER.md`
+V2 natively incorporates the generalist model, instance-population/execution-lease distinction, current onboarding trigger, Carpe turnem, narrow UX-title rule, direct shared-state authority, Dashboard-as-intent rule, three-repository roles, revival, provenance, sandbox/quarantine, tool discovery, blocker routing, and durable-output expectations.
 
-The roster remains a 2026-09-18 scheduler snapshot and still presents the five recurrences primarily as fixed lane assignments under Sable-exclusive workflow authority. Its automation IDs and historical soft strengths remain useful, but the architecture is stale.
+### `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` — still requires reconciliation
 
-Successor identity/lease representation now exists at `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
+The file still contains earlier specialist-lane/Sable-exclusive workflow-authority language. Preserve its live signet, quarantine, provenance, handoff, attention-flag, sandbox, continuity and archive-stewardship controls while removing obsolete jurisdictional implications.
 
-### C. `CURRENT_WORKFLOW_ORIENTATION.md`
+### `ACTIVE_AUTOMATION_ROSTER.md` — still requires reconciliation
 
-Two stale points remain:
-
-- section 6 says cross-lane workflow redesign remains a Sable systems question;
-- section 17 says "Do not rename, retitle, or otherwise alter any conversation/thread/chat," which is broader than Nathan's clarified narrow UX rule and could be misread as restricting workflow reassignment/routing.
-
-It also lacks the now-explicit instance-population/execution-lease model and Carpe turnem as native orientation concepts.
-
-### D. Durable instance-pool surface — RESOLVED IN `CTRL-02`
-
-Created `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
-
-The new control surface:
-
-- separates stable instance identity from scheduler leases;
-- records the five current scheduled workers as lease holders rather than permanent jobs;
-- begins a conservative unscheduled/historical/revival population with Sable, Morrow, Aldus, Alberr, Calder, and Hale where current Common evidence supports inclusion;
-- distinguishes verified scheduled state from unverified historical accessibility;
-- defines lease assignment/release packets and revival relationship;
-- explicitly states that unscheduled is not retired and paused is not abandoned;
-- records Mercer as currently carrying this control-plane branch while retaining archive/QA as a soft strength only.
-
-No claim is made that the initial historical population is exhaustive.
-
-## Disposition
-
-Do **not** mechanically replace every occurrence of old lane/Sable language. Those documents contain other live controls, including quarantine, provenance, handoff, signet, attention-flag, and sandbox rules, that should survive reconciliation.
-
-Instead:
-
-- this file remains the temporary reconciliation overlay;
-- `INSTANCE_REGISTRY_EXECUTION_LEASES.md` now controls the identity-versus-lease distinction;
-- newer Nathan directives and the current onboarding package control conflicting older workflow-authority language;
-- old files remain evidence of prior workflow state until carefully revised;
-- future edits should preserve still-live hard boundaries while removing obsolete jurisdictional implications.
+The roster remains a useful scheduler snapshot but presents leases primarily as fixed lanes and retains older authority assumptions. Automation IDs and soft strengths remain useful. `INSTANCE_REGISTRY_EXECUTION_LEASES.md` now controls identity-versus-lease architecture.
 
 ## Completed bounded cursors
 
 ### `CTRL-01` — conflict identification
-Completed. Located and bounded stale specialist-lane/Sable-exclusive and overbroad conversation-identity language.
+Completed. Located stale specialist-lane/Sable-exclusive and overbroad conversation-identity language.
 
 ### `CTRL-02` — worker/lease registry
 Completed 2026-09-20. Created `INSTANCE_REGISTRY_EXECUTION_LEASES.md` with stable identity, availability classes, current scheduled leases, conservative historical/revival population, lease packet requirements, and maintenance rules.
 
+### `CTRL-03` — orientation reconciliation
+Completed 2026-09-20. Created `CURRENT_WORKFLOW_ORIENTATION_V2.md` and made `NEW_INSTANCE_START_HERE.md` point to it. The previous orientation is retained as historical workflow-state evidence rather than destructively overwritten.
+
 ## Next bounded cursors
 
-### `CTRL-03` — orientation reconciliation — NEXT
-Carefully update `CURRENT_WORKFLOW_ORIENTATION.md` so the narrow UX-title rule, generalist worker model, execution-lease model, current onboarding trigger, and Carpe turnem are native rather than overlays. Preserve still-live source, provenance, sandbox, quarantine, check-in, and documentation guidance.
-
-### `CTRL-04` — autonomy/roster reconciliation
-Revise `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` and `ACTIVE_AUTOMATION_ROSTER.md` to distinguish hard constraints from defaults/heuristics/current assignments, remove obsolete Sable-exclusive jurisdiction where superseded, and preserve valid provenance/quarantine/sandbox/handoff controls.
+### `CTRL-04` — autonomy/roster reconciliation — NEXT
+Revise or supersede `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` and `ACTIVE_AUTOMATION_ROSTER.md` so hard constraints are distinguished from defaults/heuristics/current lease assignments; remove obsolete Sable-exclusive jurisdiction where superseded; preserve valid signet/provenance/quarantine/sandbox/handoff/attention controls.
 
 ### `CTRL-05` — cold-start test
-After CTRL-03 and CTRL-04, run the onboarding cold-start test against the actual three-repository front doors and tool paths.
+After `CTRL-04`, run the onboarding cold-start test against actual three-repository front doors and tool paths.
 
 ## Return route / exit criterion
 
-Next worker taking this branch should begin at `CTRL-03`, not rebuild the registry. Exit when the live Common control surfaces no longer contradict the current generalist/lease/revival model and a cold-start instance can discover the architecture without relying on automation-prompt-only knowledge.
+Next worker taking this branch should begin at `CTRL-04`, not rebuild the registry or orientation. Exit when live Common front doors no longer contradict the current generalist/lease/revival model and a cold-start instance can discover the architecture without relying on automation-prompt-only knowledge.
