@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-20T12:01:36.749611+00:00",
+  "generated_at_utc": "2026-09-20T15:34:19.330639+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 363,
-    "skipped": 242,
-    "planned": 89,
+    "skipped": 243,
+    "planned": 96,
     "collision": 1
   },
   "records": [
@@ -78,6 +78,88 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Explain Sites_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
+      "start_local": "2026-09-20T03:46:45.964000-04:00",
+      "end_local": "2026-09-20T04:53:21.795056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 369,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/H(s)H Archive Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "start_local": "2026-09-10T11:49:18.426980-04:00",
+      "end_local": "2026-09-12T12:03:41.431286-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 290,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Meridian Mover Trial — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-13T12:33:01.867994-04:00",
+      "end_local": "2026-09-20T04:08:53.512525-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 499,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/SATity Corpus Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
+      "start_local": "2026-09-10T21:36:28.633000-04:00",
+      "end_local": "2026-09-12T21:05:37.346999-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 768,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/THE WAVEFRONT BRAIN TRUST — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "start_local": "2025-05-08T23:52:38.750000-04:00",
+      "end_local": "2026-09-12T19:51:45.997000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 301,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "start_local": "2026-09-07T18:41:11.950000-04:00",
+      "end_local": "2026-09-10T21:25:01.763446-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1243,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🧮 RECENT arXiv PAPERS — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-13T13:25:06.388426-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 207,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
