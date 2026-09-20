@@ -21,7 +21,7 @@ from typing import Any,Iterable
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
-WORD_RE=re.compile(r"\w+(?:['’.-]\w+)*",re.UNICODE)
+TOOL_NAME="Mercer_Searcher_1.1-dev"\nTOOL_VERSION="1.1-dev"\nWORD_RE=re.compile(r"\w+(?:['’.-]\w+)*",re.UNICODE)
 STATUS_PATTERNS=[
  ("correction",re.compile(r"\b(correction|correct(?:ed|ion)?|actually|rather|not quite|that's not|that is not)\b",re.I)),
  ("failed-branch",re.compile(r"\b(fail(?:ed|ure)?|dead end|doesn't work|does not work|reject(?:ed|ion)?|wrong)\b",re.I)),
