@@ -42,11 +42,17 @@ It then preserves the nested He-3 construction as `He3_nuc = B_3^(2)[B_3^(1)[q]]
 
 This is useful **provenance of a later attempted notation repair**, but it is assistant-produced reconstruction rather than a Nathan-authored derivation. Under the standing LLM-math provenance rule, its equations remain historical LLM claims unless separately worked through. Most importantly for the present adjudication target, it does **not** define a transformation such as `Q_eff=f(Q_fund,Q_top,b,...)`, nor does it explicitly identify the earlier whole-anchor `Q=3` with the new `Q_eff`. Therefore it narrows the likely nature of the problem—historical symbol overloading followed by a later namespace split—without repairing record C.
 
+## Scoped origin check — Run 134
+
+A direct reread of the primary helium source confirms that the phrases `integrated topological charge` and `effective intersection density`, together with the inverse relation `m_eff ≈ m0/Q`, occur together inside the later `Technical Data Sheet: SAT Nuclear Topology and Mass Scaling` block. In that block He-3 is tabulated as `Q=3.0`; complex nuclei are described in terms of integrated winding/linking; and the prose explicitly says this Q is not a simple nucleon count. This establishes the **local document context** of record C, but not its authorship ancestry or derivation.
+
+A bounded GitHub code-search pass over `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for `integrated topological charge`, `effective intersection density`, and an inverse-Q mass-expression query returned no indexed matches. Under Mercer's standing search-recall caution, these zeroes are only weak scoped search evidence and are **not** repository-wide absence evidence. No claim is made that the terminology originated in this file. The next useful source-first target is therefore the attributable precursor/conversation segment that generated or supplied this Technical Data Sheet block, rather than additional blind code-search zeroes.
+
 ## What is established by the sources
 
 The source family explicitly supports a multilevel count: first-order `Q=3` Borromean nucleon/triplet units make a second-order He-3 structure with nine primary filaments and `Q_total=9`. The Q-counting audit also explicitly warns that the fundamental-vertex restriction should not simply be carried unchanged into emergent/world-tube counting.
 
-The later isotope-scaling block introduces a separate whole-anchor usage: He-3 is labeled `Q=3`, Q is described as integrated topological charge/effective intersection density, and mass is written inversely in Q. In the source material recovered through Run 133, no explicit transformation/coarse-graining equation has yet been found that maps this later quantity onto first-order Q=3 constituents or second-order Q=9 He-3. A still-later assistant synthesis does explicitly split the overloaded namespace into `Q_fund`, `Q_top`, and `Q_eff`, but does not supply that missing transformation.
+The later isotope-scaling block introduces a separate whole-anchor usage: He-3 is labeled `Q=3`, Q is described as integrated topological charge/effective intersection density, and mass is written inversely in Q. In the source material recovered through Run 134, no explicit transformation/coarse-graining equation has yet been found that maps this later quantity onto first-order Q=3 constituents or second-order Q=9 He-3. A still-later assistant synthesis does explicitly split the overloaded namespace into `Q_fund`, `Q_top`, and `Q_eff`, but does not supply that missing transformation.
 
 ## Do not infer
 
@@ -54,4 +60,4 @@ Do not infer that later whole-anchor `Q=3` is automatically the same variable as
 
 ## Next adjudication target
 
-The same-conversation search has now recovered a later notation cleanup but no explicit A/B→C transformation. Next search the adjacent source family and any attributable precursor to the later isotope-scaling block specifically for the origin of the phrases `integrated topological charge` / `effective intersection density` and the inverse-Q mass expression. Determine whether those terms were introduced as an explicit new variable, inherited from an LLM synthesis, or copied from an earlier source. A negative search is only scoped evidence for the searched corpus, not a global absence claim.
+Recover the attributable precursor/conversation segment for the `Technical Data Sheet: SAT Nuclear Topology and Mass Scaling` block in `SAT CORE — HELIUM STANDARD ATOM 2.txt`. Determine whether `integrated topological charge` / `effective intersection density` and `m_eff ≈ m0/Q` were Nathan-supplied, assistant-generated, inherited from an attachment, or copied from an earlier source. A negative search is only scoped evidence for the searched corpus, not a global absence claim.
