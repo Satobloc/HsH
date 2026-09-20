@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 133, 2026-09-20
+**Current through:** Run 134, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -101,3 +101,26 @@ Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76�
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No quarantine material was entered. No theory validation is implied.**
 
 **Best next operation:** execute `tools/search_archive_content.py` through an allowed repo-native/runtime path on a bounded fixture/query set, repair only if needed, then create a small provenance-bearing topic configuration for Nathan's example chain (`dimensional anchor → constants network → star-shaped derivation → cross-sector holdout → closure`) and generate the first durable `indexes/topical/` JSON+Markdown index. After that, decide with Sable whether it should become a maintained workflow or remain an on-demand worker tool.
+
+
+## Run 134 — 2026-09-20 — transparent corpus-query upgrade
+
+**Nathan directive:** proceed with the robust transparent-search design; add date sorting and the useful bells/whistles discussed after Boolean, adjustable NEAR, and author sorting.
+
+**Artifacts changed/created:**
+- upgraded `tools/search_archive_content.py` at commit `d389e47ef801a884c6073018eb40d4ea85f79a7c`
+- created `WORKSPACES/MERCER/search_topics_derivation_chain.json` at commit `0df617af257d65f53dbe1f268b9305d4c24caa7c`
+
+**Query capability now encoded:** Boolean `AND/OR/NOT`; parentheses; quoted phrases; `NEAR` with configurable default token window and inline `NEAR/n`; field terms for author/speaker, role, title, path, conversation/CID, date and lexical status; independent author/role/date-from/date-to filters; deterministic sort by date/author/title/path with ascending/descending control; grouping by author/conversation/date/title; configurable excerpt context; result limits.
+
+**Transparency/provenance outputs:** JSON manifest records original query, parsed RPN, filters, NEAR default, sort/group state, roots, exclusions and coverage. Every hit retains exact source path, source SHA-256, record kind, title, CID, message ID, speaker/role, timestamp, locator, Viewer pointer where resolvable, excerpt, matched terms, lexical status signals, full Boolean match trace, and each NEAR window plus actual closest token distance. Outputs are JSON, JSONL, CSV and Markdown. Optional topic configuration enriches hits and emits a lightweight co-occurrence graph.
+
+**Initial topic config:** Nathan's example chain is represented as discovery topics/aliases:
+`dimensional anchor → constants network → star-shaped derivation → cross-sector holdout → closure`.
+The config explicitly states that aliases/co-occurrence do not establish equivalence, dependence, authority or supersession.
+
+**Checks / current limit:** query parser is configured to fail malformed expressions before corpus scanning. Direct container retrieval of the committed public GitHub source was attempted for local runtime validation and failed because the execution container cannot resolve external network hosts. Therefore this implementation is **committed but NOT YET runtime-green**. Do not represent syntax/query semantics as validated until executed in a repo-native/runtime path. This is an execution-environment blocker, not evidence of code failure.
+
+**Archive/theory boundary:** no source files were modified; default exclusions still include `QUARANTINE` and `PRIOR_ART`; no theory status/currentness/supersession is assigned by search. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.
+
+**Current frontier / best next operation:** obtain an allowed repo-native execution path, run syntax + synthetic truth-table fixtures for precedence, parentheses, NOT, field filters, date ranges, quoted phrases, default NEAR and NEAR/n, then run the derivation-chain config against permitted conversation roots and publish the first durable topical/provenance index. Only after runtime validation consider workflow automation with Sable.
