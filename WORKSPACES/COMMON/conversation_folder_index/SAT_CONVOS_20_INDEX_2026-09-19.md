@@ -74,10 +74,38 @@ Do not infer source identity from the equations or generated prose. Do not treat
 
 The planned direct source-panel crosswalk is **BLOCKED BY CAPTURE OMISSION** for this export. The item remains VERY-HIGH tentative reconstruction value because it exposes a dense historical claim/equation cluster, but it cannot itself supply the required source-name ancestry map. A different capture/source index or independent archive search would be required to identify the cited underlying documents.
 
+## Semantic/provenance read — `BURNTHROUGH__NotebookLM_export.json`
+
+**Read date:** 2026-09-19  
+**Blob:** `8bb929b45a85f199021cd01c653db209679a436c`  
+**Notebook id:** `3fefc96a-2909-4f8b-879c-4ad5f698914d`  
+**Capture:** `2026-09-19T01:41:45.856Z`  
+**Visible source count:** 2  
+**Exporter:** `0.2.2`  
+**Capture completeness:** `reached_top=true`; this supports top-of-visible-chat capture only, not underlying-source completeness.
+
+### Authorship boundary
+
+This export provides an especially clear local demonstration that NotebookLM `role=user` is not an authorship field. The visible sequence alternates short uncited prompt-like turns (for example `What's the Sun's China?`, `Yeah, but is it on th other side of the Sun? Are there Sun's Chinese people?`, and `I Hurd that one befror bobbie`) with long citation-bearing generated responses; all are serialized as `role=user`.
+
+Therefore the short turns are **Nathan-candidate wording only**, not Nathan Direct, until authenticated against an underlying raw conversation or other independent source. The citation-heavy turns are NLM-generated synthesis/style continuation and must not be converted into Nathan-authored prose merely because they imitate or quote source language.
+
+### Semantic routing value
+
+Tentative value: **HIGH for creative/voice/conceptual-source archaeology; LOW for SAT/H(s)H theory reconstruction; LOW as direct-authorship evidence until crosswalked.**
+
+The visible material is highly idiosyncratic, playful/recursive language rather than a normal physics derivation. Recurrent generated motifs include `Sun's China`, inside/outside inversion, scale flips, the crossing of an `8`, witnessing/observer recursion, weave imagery, and deliberately distorted/neologistic language. Preserve this as creative/playful archive material rather than cleaning it away or promoting metaphor into physics claims.
+
+### Source/wayfinding status
+
+The notebook metadata attests to **2 visible sources**. The generated responses contain many numeric citation labels, so source-derived wording is clearly being reused, but citation labels alone do not establish source identity. Repository code searches for the exact notebook title and `Sun's China` produced no indexed underlying-source match. That negative result is weak because code-search indexing is incomplete and must not be treated as evidence that the source is absent.
+
+Classification: **two-source notebook attestation / underlying source identities unresolved in the currently checked route**. No Nathan-authored wording from this notebook has been admitted to Nathan Direct in this pass.
+
 ## Extraction / authorship caution
 
-Folder 18/19 NotebookLM exports already establish that `role=user` is not sufficient Nathan-authorship evidence. Apply the same rule here. NLM source lists/indices are wayfinding evidence until underlying sources are located and authenticated.
+Folder 18/19 NotebookLM exports already establish that `role=user` is not sufficient Nathan-authorship evidence. Folder 20 now independently reinforces the same rule. Apply it consistently. NLM source lists/indices are wayfinding evidence until underlying sources are located and authenticated.
 
 ## Next cursor
 
-Move to one genuinely new folder-20 blob rather than repeatedly mining this source-less capture. `BURNTHROUGH__NotebookLM_export.json` is the next bounded candidate because it is a genuinely new visible blob and large enough to merit a targeted semantic/provenance read; title/size do not themselves confer authority or value. Return to the `SAT_SoT` source ancestry only when a different capture/index or independent source anchor becomes available.
+`Alberrisch__NotebookLM_export.json` is the next genuinely new visible folder-20 blob for a bounded semantic/provenance read. Do not infer value from its title. Return to `SAT_SoT` or `BURNTHROUGH` source ancestry only when a different capture/index or independent source anchor becomes available.
