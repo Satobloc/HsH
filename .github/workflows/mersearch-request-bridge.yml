@@ -1,0 +1,68 @@
+name: Mersearch Request Bridge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/MERSEARCH_REQUEST.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mersearch-request-bridge
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout HsH main
+        uses: actions/checkout@v4
+        with:
+          path: hsh-main
+      - name: Read request
+        id: req
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          p='hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json'
+          d=json.load(open(p,encoding='utf-8'))
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('request_id='+str(d['request_id'])+'\n')
+              f.write('query<<EOF\n'+d['query']+'\nEOF\n')
+          PY
+      - name: Checkout stable Mersearch
+        uses: actions/checkout@v4
+        with:
+          ref: mersearch-stable-1.0
+          path: mersearch
+      - name: Checkout original SAT archive
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Mersearch
+        shell: bash
+        env:
+          QUERY: ${{ steps.req.outputs.query }}
+        run: |
+          rm -rf /tmp/mersearch-request
+          python mersearch/tools/search_archive_content.py archive --expr "$QUERY" --sort date --out /tmp/mersearch-request
+      - name: Publish auditable results
+        shell: bash
+        run: |
+          mkdir -p hsh-main/indexes/mersearch_requests
+          cp /tmp/mersearch-request/SEARCH_RESULTS.json hsh-main/indexes/mersearch_requests/latest.json
+          cp /tmp/mersearch-request/SEARCH_RESULTS.md hsh-main/indexes/mersearch_requests/latest.md
+          cd hsh-main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add indexes/mersearch_requests/latest.json indexes/mersearch_requests/latest.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Run Mersearch request [skip mersearch-request]"
+          git push origin HEAD:main
