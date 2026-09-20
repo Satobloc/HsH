@@ -108,3 +108,18 @@ Operational consequence:
 - Revisit recent Aster classifications in Alberrisch, BURNTHROUGH, SAT_SoT, Steamroller, and other NLM passes where prompt-shaped/structurally human turns were left merely candidate. Promote where structural evidence is adequate; preserve unresolved only where human/generated separation genuinely cannot be made.
 
 This correction supersedes Aster's earlier over-conservative formulation.
+
+
+## NATHAN-DIRECT DEFAULT / ESCALATION RULE — Nathan directive, 2026-09-19
+
+Nathan clarified that **nothing should be held up by uncertain user=Nathan attribution unless there is a genuine doubt about quoted/embedded material.**
+
+Operational rule:
+- Archived conversation provenance establishes Nathan as the human conversant.
+- Once a turn/span is structurally identifiable as human-entered material, classify it Nathan Direct by default.
+- Do NOT maintain a “Nathan-candidate” holding category merely because an exporter (especially NotebookLM) corrupts or collapses speaker-role labels.
+- The remaining authorship problem is local/span-level: pasted LLM text, source quotations, coauthored material, or other embedded foreign text inside Nathan's turn.
+- Use structure, quotation/paste markers, adjacency/context, voice discontinuity, and content clues to delimit such spans.
+- Nathan's distinctive voice may be used as supporting evidence, not as the sole authentication mechanism where stronger structural evidence exists.
+- If a genuine quoted-vs-Nathan ambiguity remains after those checks, **ask Nathan directly** rather than blocking the surrounding Nathan Direct material indefinitely.
+- Correct recent over-conservative Aster NLM classifications accordingly, especially where structurally human prompts were left as “Nathan-candidate.”
