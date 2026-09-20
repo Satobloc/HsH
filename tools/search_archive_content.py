@@ -133,7 +133,7 @@ def math_norm(text:str)->str:
   s=ns
  s=s.replace("{","(").replace("}",")")
  s=re.sub(r"\s+","",s)
- s=re.sub(r"\(([-+]?\w+(?:\.\w+)?)\)",r"\1",s)
+ s=re.sub(r"\(([-+]?\d+(?:\.\d+)?)\)",r"\1",s)
  s=re.sub(r"(?<=\d)(?=[a-z(])","*",s)
  return s
 def unquote(s:str)->str:
