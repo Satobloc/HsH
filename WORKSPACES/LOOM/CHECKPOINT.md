@@ -172,3 +172,50 @@ Later CALDER raw source:
 March 2026 particle-like nomenclature (`Jarlskog shadow nutrino` / `ghost nutrino`) → explicit gluon hadronic-equivalent proposal → later braid-core/vertex-soliton and cross-scale recasting → June/July timesheet-dimple wording plus explicit doubt about literal ghost-neutrino classification → September/current f/t grammar → 2026-09-20 correction: photoneutrino=f-boson; Jarlskog Shadow≈t-sheet/t-bosonic analogue.
 
 **Remaining target:** find the earliest Nathan-direct photoneutrino lexical/structural source and the point where photon↔neutrino becomes explicitly filament-borne, then connect that branch to this Jarlskog/t-sheet branch without retroactively rewriting historical terminology.
+
+
+## FIE / old-archive photoneutrino correction pass
+
+Nathan directed Loom to search the old archive explicitly and to use FIE as a consolidation source.
+
+### Direct old-archive sources recovered
+
+1. `_AUTO_EXTRACTED_TEXT/THE FUNDAMENTAL INTUITIONS — EXTENDED 2.txt`
+   - source PDF: `THE FUNDAMENTAL INTUITIONS — EXTENDED 2.pdf`
+   - document marks original date `2.FEB.2025`, updated `26.FEB.2026`.
+   - Page 4 Proposition D: light and other force-carrier/boson phenomena are not fundamentally particulate but force-transfer phenomena across the filament network; light is a ripple in the filament network.
+   - Page 5 Extension B: fermions = filament standing waves; bosons = filament vibrations; gravity = large-scale filament distortions; time = coordinated wavefront of filament vibrations.
+   - Page 5 Extension E: photon and neutrino represented as a single-coil helical excitation of the vacuum filament, able to travel along or across filaments.
+   - Pages 5–6 tentative: photon may be identical to a single-coil neutrino helix partially rotated in the fourth dimension.
+   - This is the requested consolidation anchor for early filament-borne boson grammar.
+   - Because FIE is an updated living document, its 2.FEB.2025 header does **not by itself date every later extension to 2.FEB.2025**. Separate raw-source dating is still required for earliest occurrence.
+
+2. `_AUTO_EXTRACTED_TEXT/Photoneutrino Sector (nolat).txt`
+   - source PDF SHA256 `ec27760fa14b854bfc1300c3fa17554fb2766d67897ab7906d07fd2d01b82a54`.
+   - explicitly: same single-coil filament excitation can appear photon/neutrino depending on rotation; later section says photons/neutrinos are single-coil excitations hopping/traveling along filaments.
+   - This is a mature photoneutrino-sector consolidation, not yet established as lexical origin.
+
+### Search-layer finding
+
+GitHub default-branch code search returned no hits for `photoneutrino`, `FIE`, `particle zoo`, or filament-boson query families, while the old archive demonstrably contains both FIE and Photoneutrino Sector extracted texts. Therefore previous GitHub-code-search negatives are retrieval failures, not corpus-absence evidence. Library/indexed wayfinding successfully exposed the exact old-archive paths.
+
+### Taxonomy reconciliation
+
+FIE strongly supports Nathan's 2026-09-20 correction:
+- bosonic/light behavior has an old SAT lineage as **filament vibration/ripple/force-transfer**;
+- photon/neutrino are later consolidated as single-coil filament excitations;
+- current photoneutrino→f-boson assignment is therefore a continuation/consolidation of an old filament-borne branch, not a September invention;
+- Jarlskog Shadow remains a distinct t-sheet analogue branch under current clarification.
+
+Do not equate FIE's structural `fermion/boson` language with the standard spin-statistics classification without explicit translation; current controls preserve that terminology distinction.
+
+### Next provenance task
+
+Search early-2025 raw conversations/documents for the precursors to FIE Proposition D / Extension B:
+- light as ripple / energy-transfer release valve;
+- bosons as filament vibrations;
+- force transfer along/across filament network;
+- photon/neutrino single-coil excitation;
+then separately locate the later Particle Zoo consolidation and establish whether/when `photoneutrino` becomes the explicit lexical label.
+
+Target output: dated chain `EARLY MECHANISM → FIE CONSOLIDATION → PARTICLE-ZOO CLASSIFICATION → PHOTONEUTRINO LEXICAL/MATURE SECTOR → CURRENT f/t SUBSTRATE TAXONOMY`.
