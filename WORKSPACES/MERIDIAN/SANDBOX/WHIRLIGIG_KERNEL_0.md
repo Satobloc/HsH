@@ -47,7 +47,7 @@ Also
 
 For constant a,b the entire admissible family lies exactly on S³ of radius ρ = sqrt(a²+b²). A soft embedding penalty is unnecessary for this restricted kernel.
 
-Important: this does NOT prove a general equation-to-curve encoder. It establishes a reversible composition after the two inputs have been encoded in this restricted class.
+Important: this does NOT establish a general equation-to-curve encoder. It establishes a reversible composition after the two inputs have been encoded in this restricted class.
 
 ## 3. Parameterization is information
 
@@ -136,7 +136,7 @@ The winding ratio ω2/ω1:
 - rational -> closed torus orbit;
 - irrational -> non-closing/dense torus winding.
 
-This supplies a candidate Graticule readout using only existing torus/angle data. It does not by itself prove a chirality flip.
+This supplies a candidate Graticule readout using only existing torus/angle data. It does not by itself establish a chirality flip.
 
 ## 9. Hagalaz consequence
 
@@ -170,7 +170,6 @@ W7 — only after W0–W6: historical GR↔QM target.
 - Can Three Spheres supply transition operations/bifurcations useful to the search rather than decorative geometry?
 
 Negative answers are acceptable outcomes.
-
 
 ## 12. W1 numerical boundary-value test — PASS at toy level
 
@@ -231,7 +230,6 @@ Design fork:
 5. then test SO(4) representation changes and restricted equation encoders.
 
 This is a constructive repair discovered by adversarial testing, not historical machinery.
-
 
 ## 15. W3 common-SO(4) representation adversary — PASS with frame, FAIL without it
 
@@ -297,7 +295,6 @@ The Whirligig architecture should distinguish at least three objects:
 3. representation channels — clock/frame/gauge data required for exact decoding.
 
 The original UI equation->4D-curve ambition appears to have collapsed these layers. Separating them may close the encoder gap without arbitrary coefficient-to-shape decoration.
-
 
 ## 17. W6a equation-surface transformation benchmark — PASS
 
@@ -401,7 +398,6 @@ Hagalaz can become a representation-transport layer carrying intrinsic geometry 
 
 Three Spheres remains a candidate transition/bifurcation operator family; no forced integration yet.
 
-
 ## 20. Experimental emphasis update — throughput over architecture ceremony
 
 Nathan clarified the ultimate purpose: the machines are intended to make handling of (hyper[super])helical architecture more efficient. Do not spend the project indefinitely verifying architecture before exercising it. Run many equations early, including:
@@ -456,3 +452,82 @@ Thus a substantial part of the double-rotation architecture is compressible into
 Research question: can the machines exploit such invariants to compare, simplify, compose, or transform nested/helical descriptions more cheaply than direct coordinate/operator manipulation while retaining exact decoding?
 
 This is now a primary benchmark question, not an eventual application.
+
+## 22. H1 exact invariant decoder for the constant double rotation — PASS algebraically
+
+This run asks the practical helical-throughput question directly: can the four coordinate functions of the basic 4D double rotation be compressed to a small invariant packet and then decoded without knowing the coordinate-plane presentation?
+
+Let
+
+C(s)=(a cos(ωs+φ), a sin(ωs+φ), b cos(νs+ψ), b sin(νs+ψ)).
+
+Define four scalar derivative moments
+
+m0 = ||C||²,
+m1 = ||C'||²,
+m2 = ||C''||²,
+m3 = ||C'''||².
+
+For constant a,b,ω,ν,
+
+m_k = a²(ω²)^k + b²(ν²)^k,   k=0,1,2,3.
+
+Set x=ω² and y=ν². The two-frequency moment sequence obeys
+
+m_{k+2} = S m_{k+1} - P m_k,
+
+where
+
+S=x+y,
+P=xy.
+
+Provided
+
+D = m0 m2 - m1² != 0,
+
+we recover
+
+S = (m0 m3 - m1 m2)/D,
+P = (m1 m3 - m2²)/D.
+
+Therefore x and y are the roots of
+
+z² - S z + P = 0.
+
+After choosing the unordered root pair {x,y}, the squared radii are recovered by
+
+a² = (m1 - m0 y)/(x-y),
+b² = (m0 x - m1)/(x-y),
+
+up to interchange of the two helical planes. Frequencies are then |ω|=sqrt(x), |ν|=sqrt(y). Winding signs and phase origins are not contained in these four unsigned scalar moments and remain orientation/frame channels.
+
+The determinant has a useful exact interpretation:
+
+D = a² b² (x-y)² = a² b²(ω²-ν²)².
+
+Thus decoder failure is not mysterious. D=0 exactly when one component has zero radius or the two squared frequencies coincide. In those cases the scalar invariant packet cannot distinguish a genuine two-mode carrier from a collapsed/degenerate one.
+
+### Why this is useful
+
+For the nondegenerate constant double rotation, the coordinate-expanded carrier can be replaced for many comparison/classification tasks by the four-scalar packet
+
+M(C)=(m0,m1,m2,m3),
+
+with an exact algebraic decoder for the two radii and two frequency magnitudes, modulo plane exchange and the explicitly excluded orientation/phase information.
+
+Because each m_k is a Euclidean norm, M is invariant under a common constant SO(4) representation rotation. This makes it directly compatible with the W3 result: a large part of the helical architecture can be compared without carrying an arbitrary absolute 4D frame, while signed winding/phase can remain in the auxiliary frame/orientation channel.
+
+This is a concrete efficiency gain for the intended hyper/superhelical use: repeated coordinate expansion is unnecessary for recovering the basic two-mode scale/frequency architecture.
+
+### Graticule/Hagalaz implications
+
+- Graticule can compute its unsigned tangent contribution from decoded values: tan β = b|ν|/(a|ω|), without requiring the original coordinate presentation.
+- The frequency ratio magnitude |ν/ω| is likewise decoded directly, so rational/irrational winding tests can operate on the invariant packet.
+- Hagalaz can use M as a candidate frame-independent carrier summary for this restricted family, supplemented by phase/orientation channels only when the operation needs them.
+- D supplies a natural conditioning/degeneracy diagnostic: near D=0, decoding will be noise-sensitive even though the exact formulas exist.
+
+### Status and limit
+
+**CLAIMED (new sandbox derivation), algebraically checked in this run.** This is not promoted as a general hyperhelical decoder. It covers the constant-radius, constant-frequency two-plane carrier only. Variable pitch/radius and nested moving frames will require local/windowed moments, additional invariants, or explicit transport data.
+
+Immediate next helical cursor: stress-test the decoder numerically near D=0 and under small perturbations/noise, because efficiency is useful only if the compressed representation is adequately conditioned.
