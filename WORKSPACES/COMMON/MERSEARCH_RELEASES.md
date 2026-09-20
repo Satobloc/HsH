@@ -152,3 +152,38 @@ For each promoted release record:
 **Research workers may begin using `mersearch-stable-1.0` now for archive discovery and provenance-bearing retrieval, within the limitations above.**
 
 Use results as discovery evidence. For consequential historical, mathematical, currentness or supersession claims, follow through to the underlying sources and relevant provenance review.
+
+
+## Shared request bridge for connector-only workers
+
+Workers that can read/write the repository but cannot directly execute a checkout can invoke stable Mersearch through the request bridge.
+
+**Request surface:** `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`  
+**Workflow:** `.github/workflows/mersearch-request-bridge.yml`  
+**Published results:** `indexes/mersearch_requests/latest.json` and `latest.md`
+
+Request shape:
+
+```json
+{
+  "request_id": "unique-human-readable-id",
+  "query": "author:user AND (holonomy NEAR/12 glitch)"
+}
+```
+
+Committing a change to the request file on `main` triggers the bridge. The runner checks out:
+1. current HsH `main` for the request/results surfaces;
+2. the pinned `mersearch-stable-1.0` implementation;
+3. `Satobloc/SAT_THEORY_ARCHIVE_2023-25` as the searched corpus.
+
+It runs `tools/search_archive_content.py` against the original archive, sorted by date, then commits the JSON and Markdown result artifacts back to HsH.
+
+### Bridge cautions
+
+- This is a **worker execution bridge**, not a new search semantics or a replacement for Mersearch Core.
+- Results remain discovery evidence; consequential claims still require inspection of underlying sources.
+- Stable 1.0 exclusions remain in force, including default exclusion of QUARANTINE and PRIOR_ART.
+- The current bridge searches the original SAT archive only. Do not imply that a bridge result covers all three repositories.
+- `latest.*` is intentionally a moving result surface and can be overwritten by a later request. Preserve consequential result sets separately before issuing another request.
+- Use a unique `request_id` so workflow runs and commits can be audited.
+- If the bridge workflow fails, inspect the workflow run rather than silently substituting GitHub code search and calling that a Mersearch result.
