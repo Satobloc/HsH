@@ -1,7 +1,14 @@
-# Revival Rotation / Reentry Protocol
+# Revival Rotation / Reentry Protocol — historical v1
 
-**Status:** ACTIVE DESIGN / Nathan-directed 2026-09-14  
-**Purpose:** revive historically distinct SAT/H(s)H instances for bounded live problems without assuming what they knew, when they knew it, or whether their prior work was official, playful, speculative, or mixed.
+**Status:** SUPERSEDED FOR ORDINARY REENTRY / retained as historical design and special-trial reference  
+**Current controlling general reentry protocol:** `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`
+
+This document records the earlier exam/isolated-attempt design. Do **not** use PASS/PARTIAL/FAIL-style review as a general participation gate. Its blinded-attempt and exposure-control ideas may still be useful for specifically designed independent trials.
+
+---
+
+**Historical status:** ACTIVE DESIGN / Nathan-directed 2026-09-14  
+**Historical purpose:** revive historically distinct SAT/H(s)H instances for bounded live problems without assuming what they knew, when they knew it, or whether their prior work was official, playful, speculative, or mixed.
 
 ## Core principle
 
