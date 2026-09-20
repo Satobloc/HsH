@@ -16,6 +16,20 @@
 5. Read `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`, current coordination/handoffs/check-ins, relevant Sable workflow notes, and the worker's own checkpoint.
 6. Check for newer Nathan directives and controlling updates before acting.
 
+### HARD pre-send legibility / self-check — Nathan signet
+
+**Added by direct Nathan instruction, 2026-09-20, after a worker reproduced the protected signet despite the rule already being present in startup controls. Reading the rule is not sufficient; every worker must perform this output check immediately before sending or writing.**
+
+Before every user-facing response, repository write, generated artifact, commit message, status marker, or handoff:
+
+1. Inspect the actual outgoing text for Nathan's owl signet or any attempted reproduction, imitation, emoji substitute, approximation, decorative echo, or worker-authored use.
+2. If present in worker-authored output, remove it before transmission. **Do not mirror or echo Nathan's signet merely because Nathan used it in the immediately preceding message.**
+3. When prose must refer to the protected mark, write `[OWL]` only; do not paste or reproduce the signet itself.
+4. The narrow exact-quotation exception in `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md` remains controlling, but workers should avoid reproducing the protected mark unless the quotation genuinely requires that reference.
+5. Treat failure of this check as a control failure, not a cosmetic typo. Correct the durable workflow state when discovered.
+
+This is an **output gate**, not a memory reminder. It applies even when the worker has already reread the must-reads during the same run.
+
 ### Must-read freshness / review rule
 
 - **Every run:** reread the current pre-flight/must-read surfaces above. A worker may not substitute remembered summaries for the live files.
