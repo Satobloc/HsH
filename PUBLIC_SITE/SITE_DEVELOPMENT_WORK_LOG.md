@@ -456,3 +456,36 @@ Published successfully to the existing public URL as Sites version 7.
 - Confirmed the not-yet-published default Mercer feed returns 404 and is handled as an explicit availability state.
 - Confirmed balanced structural HTML, JavaScript module parsing, clean diff checks, and absence of public `PRIOR_ART` / `QUARANTINE` links.
 - Published successfully to the existing production URL.
+
+
+---
+
+# 2026-09-20 — archived-chat roadmap reconciliation
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 9
+- **Access preserved:** public.
+
+## Reconciliation
+
+- Reviewed the complete active message chain of the original `Explain Sites_ — raw.json` site-design conversation and compared its requested work with the live site and this development log.
+- Added a public `roadmap.html` surface and a homepage Roadmap entry.
+- Separated completed foundations, the immediate build sequence, queued work, and source-dependent integrations.
+- Did not carry completed work forward as open tasks, and did not treat unbuilt presentation as evidence that underlying archive material is absent.
+
+## Recommended next sequence
+
+1. Build the durable podcast episode index, joining the full title record to dates, historical show names, artwork, Spotify links, transcripts, topics, and related project sources.
+2. Build glossary v1 with stable term routes, historical usages, conventional comparisons, source trails, and status.
+3. Build a status-aware claims and predictions explorer.
+4. Move Current Work, News, and quote presentation onto their structured repository feeds.
+
+## Source-dependent items
+
+- The Reading Room remains ready for a public Mercer JSON result feed or query service; neither is currently published.
+- Public prior-art/citation records remain unlinked until citation-ready material crosses the private-reference boundary.
+- The Academia profile remains unlinked until its authoritative URL is established.
+
+Published successfully to the existing production URL.
