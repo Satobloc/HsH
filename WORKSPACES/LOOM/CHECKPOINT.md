@@ -9,41 +9,40 @@ Current Common startup/control surfaces were reread this run, including the hard
 
 Systematic 2023–25 archive excavation remains a recurrence priority, with special attention to Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon / neutron-star-trinary / gravitational-soliton provenance. The current Nathan Direct state also carries a P0 conversation-folder content-index priority and a Q/inverse-Q smoothing/scaling watch; those are not silently substituted for Loom's bounded current cursor.
 
-## This run — historical navigation pivot
+## This run — Borromean source-location check
 
-**Primary object:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/README.md` Development Timeline.
+**Primary object sought:** `BORROMEAN_LINK_ILLUSTRATION.txt`, identified by the prior Development Timeline wayfinding pass.
 
-**Operation:** inspect the archive's own timeline/navigation surface for an older vocabulary or source pointer after two low-yield exact/alias code-search passes.
+**Operation:** locate the exact repository object before reading/tagging it.
 
-**Result:** the timeline gives a materially better lineage route than further lexical search. The June 7, 2025 entry identifies a tightly adjacent particle/topology source cluster:
+**Result:** direct root-path fetch failed and repository code search for both `BORROMEAN_LINK_ILLUSTRATION` and `Borromean link` returned no indexed result. Root directory enumeration likewise did not expose the target at root. Therefore the timeline pointer is retained as wayfinding evidence, but the underlying file has **not** been read and no source-level Nathan-authorship/content tags are created.
+
+A repository navigation artifact, `!_ANNOTATED_ARCHIVE_SURVEY.md`, surfaced during path-finding and immediately declared itself **QUARANTINED — 2026-09-13**. No claims or navigation guidance from that artifact are being used. This contact is recorded so a later worker does not repeat it as an allowed route.
+
+**Status/tags:**
+- `BORROMEAN_LINK_ILLUSTRATION → TIMELINE-POINTER / EXACT-PATH-UNRESOLVED`
+- `DIRECT-ROOT-FETCH → FAILED`
+- `CODE-SEARCH → NO-INDEXED-HIT`
+- `NO-HIT ≠ ABSENT`
+- `UNDERLYING-SOURCE → NOT-READ`
+- `SOURCE-LEVEL-AUTHORSHIP → NOT-ESTABLISHED`
+- `!_ANNOTATED_ARCHIVE_SURVEY.md → QUARANTINED / DO-NOT-USE`
+
+## Prior historical-navigation result retained
+
+The archive Development Timeline identifies a June 7, 2025 particle/topology cluster:
 - `ST_MASSLESS_PARTICLE_REINTERPRETATION.txt`
 - `ST_QUARK_REINTERPRETATION.txt`
 - `ST_MESON_REINTERPRETATION.txt`
 - `HOPF_LINK_ILLUSTRATION.txt`
 - `BORROMEAN_LINK_ILLUSTRATION.txt`
-- associated Hopf/Borromean visualization files
+- associated Hopf/Borromean visualization files.
 
-The same timeline characterizes this cluster as massless-particle reinterpretation, quark reinterpretation, meson reinterpretation, Hopf-link model, Borromean-link model, hyperhelical filament model, and 4D-native work. This does **not** establish that the later Jarlskog Shadow / He-3 / ghost-neutrino / scale-soliton package is present there. It does provide an archive-authored historical source pointer to an older vocabulary family plausibly ancestral to the later He-3 Borromean construction.
+This remains a plausible older-vocabulary route toward later He-3/Jarlskog/soliton material, not an established genealogy.
 
-Earlier timeline context also records May 30 `PARTICLE_SAVE.txt` / `PARTICLE_SAVE_FORMUL.txt` as particle-sector mapping work and May 31 `SAT-Y Theta+Helix Particles.txt` / `SAT-Y Theta+Helix Particle Properties.txt` as a theta/helix particle branch. These remain secondary wayfinding candidates, not the next cursor.
+Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` yielded no indexed historical-archive code-search hits. Ordinary code search is therefore low-yield for this lineage, not evidence of absence.
 
-**Tags/status:**
-- `JARLSKOG/HE3-LINEAGE → SOURCE-RECOVERY`
-- `BORROMEAN-LINK → HISTORICAL-ADJACENT-VOCABULARY`
-- `HOPF/BORROMEAN-CLUSTER → 2025-06-07-TIMELINE-ANCHOR`
-- `ST_MASSLESS_PARTICLE_REINTERPRETATION → PARTICLE-ONTOLOGY-ADJACENT`
-- `ST_QUARK_REINTERPRETATION → PARTICLE-ONTOLOGY-ADJACENT`
-- `ST_MESON_REINTERPRETATION → PARTICLE-ONTOLOGY-ADJACENT`
-- `HISTORICAL-TIMELINE → WAYFINDING-EVIDENCE`
-- `TIMELINE-POINTER ≠ RAW-NATHAN-AUTHORSHIP`
-- `BORROMEAN-ANCESTRY-TO-HE3 → PLAUSIBLE/UNVERIFIED`
-- `NO-HIT ≠ ABSENT`
-
-No underlying June 7 source file was read in this bite, so no source-level Nathan-authorship or content claim is created.
-
-## Prior retrieval result retained
-
-Previous exact/alias searches for `Jarlskog`, `ghost neutrino`, `He-3`, `helium-3`, and `holotype` yielded no indexed historical-archive code-search hits. This established ordinary code search as low-yield for this lineage, not absence of the material.
+## Durable context retained
 
 Recent Meridian/Gendarme work remains durable context:
 - flicker direct-line display → gradient/density idea → flicker set aside from principal atlas;
@@ -56,7 +55,7 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Inspect exactly **one** timeline-pointed June 7 source object next: `BORROMEAN_LINK_ILLUSTRATION.txt`. Determine whether it contains source-level particle/nuclear/braid language that can defensibly connect forward toward the later He-3/Jarlskog Shadow lineage. Apply `READ IT, TAG IT` to the source actually read. If it is merely an illustration scaffold with no lineage-bearing content, record that negative result and move to the adjacent particle reinterpretation source in a later bite rather than expanding the current one.
+Use exactly one **non-quarantined archive navigation surface** (welcome/orientation/tools/folder index or Nathan Dashboard archive index) to resolve the directory/path containing `BORROMEAN_LINK_ILLUSTRATION.txt`. Do not query-spray filenames and do not use the quarantined annotated survey. If the path is resolved, leave reading/tagging the underlying source as the following bounded bite unless the active work-quantum control has changed.
 
 ## Workspace identity
 
