@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 132, 2026-09-20
+**Current through:** Run 133, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -81,3 +81,23 @@ Runs 71–74 Viewer relation sidecar/spec/handoff; 75 Nathan Direct lineage; 76�
 3. Recover `Standard Helium Atom.pdf` text only through an existing extraction/text counterpart or other reliable route.
 4. Revisit report roster/orientation only on material new evidence.
 5. Recheck Viewer/normalization blockers only after relevant state change.
+
+## Run 133 — 2026-09-20 — general archive search / topical-index tool
+
+**Directive/source:** Nathan requested a JSON-and-other-file search script plus a durable topical/provenance index usable across workers, with topic aliases, conversation identity/date, speaker, message/turn locator, excerpt/synopsis, proposal/derivation/correction/failed/superseded/unresolved status, related topics, direct raw/Viewer links where possible, chronology/supersession preservation, and a lightweight concept graph.
+
+**Preflight/current-state review:** reread hard no-conversation-renaming policy, worker-autonomy protocol, automation workflow control, Common coordination/handoffs/bulletin material, this checkpoint, cross-repo execution standard, shared-state write safety, Viewer full-text-search upgrade, current Viewer body-search implementation, conversation-folder content-index specification/priority, and durable documentation convention. Deterministic repository-tree inspection confirms substantial infrastructure growth since the earlier Mercer pass: Viewer body search is now implemented via `tools/build_viewer_body_search.py` + `CONVERSATION_VIEWER/catalog_body_search.js`; Common also has raw-window extraction, Nathan candidate extraction, layered autotag v1-v3, priority-vocabulary harvesting/tagging, Nathan Direct packaging, folder-content indexing specs, chronology/structural indexes, and duplicate/superset tooling.
+
+**Gap classification:** the new request is not duplication. Existing Viewer body search is conversation-level token retrieval over the final Viewer catalog; existing Nathan tooling is author/task-specific. There was no general permitted-corpus tool that searches arbitrary conversation JSON + generic JSON + text-like project files and emits reusable hit-level provenance plus a topical/concept index.
+
+**Artifact created:** `tools/search_archive_content.py` at commit `d161b648b0ce5d62a5dcbc41f9d941a782cc0ef2`.
+
+**Implemented behavior:** read-only recursive discovery; default pruning of `.git`, `node_modules`, virtualenv/cache paths, `QUARANTINE`, and `PRIOR_ART`; ChatGPT raw JSON parsed at message granularity; generic JSON indexed at scalar JSON-pointer granularity; TXT/MD/CSV/TSV/YAML/PY/JS/HTML/XML/TEX/RST at line granularity; optional non-OCR PDF text extraction when `pypdf` exists; topic aliases supplied by repeated `--query` or JSON topic config; boundary-aware phrase matching to avoid old substring pathologies; speaker/role/message/CID/timestamp/locator preservation; source SHA-256; Viewer conversation pointer where catalog mapping resolves; short exact excerpts; lexical status signals for correction/failed-branch/supersession/unresolved/derivation/proposal; related-topic co-occurrence; JSON + Markdown outputs; lightweight concept graph; chronological ordering within topic.
+
+**Epistemic limit:** lexical status signals are retrieval aids only. The tool does not adjudicate actual supersession, theory currentness, correctness, or authority. Explicit first-appearance → elaboration → later-use → correction/supersession chains remain a provenance-review layer over the candidate hits.
+
+**Checks performed / limits:** source file creation succeeded on main. Connector/tree inspection established the surrounding infrastructure and nonduplication rationale. A direct container fetch for local `py_compile` was unavailable because the execution container has no network path to GitHub; therefore runtime/syntax execution of the newly committed script remains **NOT YET ESTABLISHED** and must not be called green.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No quarantine material was entered. No theory validation is implied.**
+
+**Best next operation:** execute `tools/search_archive_content.py` through an allowed repo-native/runtime path on a bounded fixture/query set, repair only if needed, then create a small provenance-bearing topic configuration for Nathan's example chain (`dimensional anchor → constants network → star-shaped derivation → cross-sector holdout → closure`) and generate the first durable `indexes/topical/` JSON+Markdown index. After that, decide with Sable whether it should become a maintained workflow or remain an on-demand worker tool.
