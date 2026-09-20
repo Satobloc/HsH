@@ -125,3 +125,45 @@ First priority is now a **source-first Mersearch-assisted solver archaeology pas
 Highest-value next operation: recover the **exact Hagalaz operator/source history** and test whether it acts on relative transformations, transported frames/holonomy, carrier decomposition/event maps, or some other object. In parallel, recover the original Whirligig summary/source behind the relative-holonomy formulation and the exact UI/TX operator statement. Only then formulate a typed solver-stack composition. The recurrence stride test remains queued as a lower-priority representation-conditioning control.
 
 **Handoffs/questions:** no Nathan action required. No workflow/ownership change proposed.
+
+
+## Run 076 — Hagalaz typed composition and loop-closure bridge
+**Actual start:** 2026-09-20, immediately following Run 075.
+
+**Operation:** source-first Hagalaz recovery using indexed Library search/find plus public-repo search. No quarantine/PRIOR_ART/nLab material accessed. Recovered the June `NESTED HOLONOMIES.txt` Hagalaz/Hail-cycle antecedent and a later reconstruction explicitly identifying the September 11 Hagalaz tuple. Tested the natural similarity-transform composition law in a fresh numerical sandbox.
+
+**Recovered source facts:**
+1. June Hagalaz antecedent: `NESTED HOLONOMIES.txt` repeatedly develops the symbolic closed-loop/Hagalaz statement `∮ᚼ→≠∅`, then explicitly translates it into holonomy language: cyclic transport through curvature leaves an invariant remainder; the loop returns transformed; one loop produces a remainder and a family of loops produces organization. This is an antecedent/source-history fact, not by itself the later solver operator.
+2. A September reconstruction states the September 11 Hagalaz formulation explicitly as `H_ij=(Delta c_ij, sigma_ij, Q_ij)`, typed as relative translation, relative scale, and relative frame rotation.
+3. The same reconstruction separately records richer adjacent-order state `C_n=(mu_n,nu_n,xi_n,Delta phi_n,Q_n,chi_n,a_n/D_n)`; phase and frame rotation are distinct coordinates. It proves/argues a gauge non-identifiability for `F=B R_u(phi)`, so bare frame data cannot generally recover discarded phase. A minimally enriched lossless candidate is `H*=(Delta c,sigma,Q; phase/director datum; chi; a/D)`. Treat this enrichment as reconstruction result, not yet original September-11 canon.
+
+**New mathematical result (SANDBOX, CLAIMED VERIFIED for the stated convention):** interpret a Hagalaz triple as an oriented relative similarity transform between local coordinate frames,
+`u_j = t_ji + sigma_ji Q_ji u_i`.
+Then composition is forced by substitution:
+`(t2,s2,Q2) o (t1,s1,Q1) = (t2 + s2 Q2 t1, s2 s1, Q2 Q1)`.
+For absolute frames `x=c_i+s_i R_i u_i`, the induced relative edge is
+`t_ji=R_j^T(c_i-c_j)/s_j`, `sigma_ji=s_i/s_j`, `Q_ji=R_j^T R_i`.
+Therefore every exactly compatible triangle obeys
+`H_20 o H_12 o H_01 = identity`.
+A random 4D numerical witness returned translation residual 9.63e-16, log-scale residual 0, and Frobenius rotation residual 1.85e-15. This is algebraic closure to floating-point precision, not an empirical physics result.
+
+**Key synthesis (SANDBOX):** this gives a concrete candidate architecture for the solver stack:
+- UI/TX: supplies/represents local frames and pairwise relative transforms.
+- Hagalaz: edge label/composition object for those relative transforms.
+- Three Spheres: supplies a natural three-edge carrier graph; its cycle closure becomes a Hagalaz loop-closure test, while gate/bifurcation events determine when graph connectivity/edge identity changes.
+- Whirligig: can act as a richer two-input transport/readout realization of an edge mismatch, preserving information through explicit rolling/contact/connector/Bishop-frame mechanics and torus readout.
+This is the first typed common composition candidate recovered/constructed in Meridian. It is NOT yet claimed to be Nathan's intended exact Hagalaz integration rule.
+
+**Important invariant distinction:** under a change of local frame/gauge, a closed-loop product generally changes by conjugation, so the statement 'loop product = identity' is gauge invariant; individual tuple coordinates of a nonidentity residual need not all be. Future residual scoring should use conjugacy-invariant quantities or an explicitly fixed material/director gauge.
+
+**Relation to June antecedent:** the old Hagalaz motif 'closed traversal leaves a non-empty remainder' now has a precise possible solver analogue: a nonidentity loop product/holonomy residual. This is a striking structural continuity, but provenance does not yet establish that the September operator was deliberately derived from the June symbolic discussion. Record as candidate lineage, not demonstrated derivation.
+
+**Failures/source gaps:** public GitHub text search did not surface the September 11 original definition; current exact tuple is recovered through later reconstruction. Original September-11 conversation/source remains priority. Exact Whirligig relative-holonomy source and exact UI/TX canonical operator also remain to recover. Bare Hagalaz is demonstrably insufficient for lossless phase/director information under the current reconstruction.
+
+## Current frontier after Run 076
+1. Recover the original September 11 Hagalaz definition and determine its orientation/convention and whether a composition law was stated.
+2. Build a **blinded triangle closure benchmark**: generate known UI/TX frames, expose only pairwise solver outputs, compose Hagalaz edges, and test closure; then inject controlled edge mismatch and compare Hagalaz loop residual against Three-Spheres closure/gate metrics.
+3. Test whether Whirligig's transported-frame/torus readout can recover or monotonically encode the same controlled edge mismatch without being handed the Hagalaz residual.
+4. Keep phase/director channel separate; do not silently stuff Delta-phi into Q.
+
+**Handoffs/questions:** no Nathan action required. No workflow/ownership change proposed.
