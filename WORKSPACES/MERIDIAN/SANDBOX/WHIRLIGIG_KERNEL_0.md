@@ -400,3 +400,59 @@ Graticule can become a diagnostic coordinate/readout system over invariants and 
 Hagalaz can become a representation-transport layer carrying intrinsic geometry plus required clock/frame/gauge channels.
 
 Three Spheres remains a candidate transition/bifurcation operator family; no forced integration yet.
+
+
+## 20. Experimental emphasis update — throughput over architecture ceremony
+
+Nathan clarified the ultimate purpose: the machines are intended to make handling of (hyper[super])helical architecture more efficient. Do not spend the project indefinitely verifying architecture before exercising it. Run many equations early, including:
+- positive controls with known useful transforms;
+- negative/hostile controls expected not to simplify under the admitted machinery;
+- genuine SAT/H(s)H-shaped targets.
+
+Architecture checks remain instrumentation, not the research product. Surprises are desirable when reproducible.
+
+### Expanded benchmark populations
+
+**Positive controls**
+- constant-coefficient linear ODEs (already passing);
+- Euler-Cauchy: x²y''+a x y'+by=0, with t=ln x reducing it to constant coefficients;
+- Riccati subclasses, e.g. y'=q(x)+y² with y=-u'/u giving u''+q(x)u=0;
+- other equations with known point/contact/scaling reductions.
+
+**Hostile/negative controls**
+- nonlinear equations outside the current transformation library;
+- equations with deliberately broken symmetry/inhomogeneous structure;
+- cases where a proposed simplification loses source information;
+- same geometry with incompatible clock/operator data;
+- pendulum-type θ''+sin θ=0 as an early guard against spurious linearization.
+
+**SAT/H(s)H-shaped targets**
+- coupled oscillatory/helical systems;
+- double rotations in orthogonal planes;
+- variable radius/pitch carriers;
+- exact S3-constrained 4D curves;
+- relative-phase/twist couplings;
+- nested/superhelical composition;
+- holonomy-like frame transport;
+- bifurcation/transition cases from Three Spheres;
+- later, actual live SAT/H(s)H equations after the machinery has enough breadth to make the comparison informative.
+
+## 21. Helical architecture moves to center of bench
+
+For
+
+C(s)=(a cos(ωs), a sin(ωs), b cos(νs), b sin(νs)),
+
+constant speed squared is
+
+v²=a²ω²+b²ν²,
+
+and because C'·C''=0, intrinsic curvature satisfies
+
+κ_C² = (a²ω⁴+b²ν⁴)/(a²ω²+b²ν²)².
+
+Thus a substantial part of the double-rotation architecture is compressible into direct intrinsic invariants rather than repeated coordinate expansion.
+
+Research question: can the machines exploit such invariants to compare, simplify, compose, or transform nested/helical descriptions more cheaply than direct coordinate/operator manipulation while retaining exact decoding?
+
+This is now a primary benchmark question, not an eventual application.
