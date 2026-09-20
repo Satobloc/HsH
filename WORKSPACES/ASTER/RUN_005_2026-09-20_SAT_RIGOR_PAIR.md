@@ -2,12 +2,12 @@
 
 **Date:** 2026-09-20  
 **Lane:** Nathan Direct corpus / provenance  
-**Scope:** one bounded folder-18 object-family operation  
+**Scope:** bounded folder-18 SAT RIGOR provenance + opening-sequence packaging  
 **Theory status:** provenance/ingest only; no theory promotion
 
 ## Control reread
 
-Reread current `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, current `COORDINATION.md` / `HANDOFFS.md`, Aster continuity, and the folder-18 index before acting. Newer Nathan Direct authorship rule controls: archived conversation human turns are Nathan Direct once structurally separated from model output; pasted/quoted foreign text is a span-level exception, not a reason to withhold the turn.
+Reread current `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, current `COORDINATION.md` / `HANDOFFS.md`, Aster continuity, and the folder-18 context before acting. Newer Nathan Direct authorship rule controls: archived conversation human turns are Nathan Direct once structurally separated from model output; pasted/quoted foreign text is a span-level exception, not a reason to withhold the turn.
 
 ## Target
 
@@ -46,21 +46,57 @@ and:
 
 > `Ok, good. Now, I'm going to ask you to forget all that, and walk with me through the logic of the theory, step by step, starting from the most basic reasoning. I'll talk you through the reasoning, almost as if today were the first time the initial idea came to mind. Because I want you to see the logic, first hand, reasoning along with me.`
 
-and the opening geometric formulation:
+These are provenance-rich methodological/foundational statements, not mathematical validation. The model's adjacent paraphrases/expansions remain generated prose.
+
+## Packaged first-principles opening — exact Nathan turns with adjacency
+
+The following sequence is now speaker-separated directly from the `(1)` blob. Even-numbered intervening turns are generated/model turns and are retained as adjacency pointers only, not Nathan-authored content.
+
+**Nathan index 13 / key `cc4d4c38`** → generated index 14 / key `62aea304`:
 
 > `Ok. It starts, as you infer, with a line. Specifically, a straight line extending through a plane. You'll be familiar with Minkowski, of course. But we're going to dissect the geometric grammar that his worldline diagrams provide. Because that is the core geometric representation that opens up a real understanding.`
-
+>
 > `So, a straight line. And a flat plane. Picture the line vertical, and the plane horizontal, and moving upwards as time progresses.`
 
-These are provenance-rich methodological/foundational statements, not mathematical validation. The model's adjacent paraphrases/expansions remain generated prose.
+**Nathan index 15 / key `4a40050c`** → generated index 16 / key `a58ce6dd`:
+
+> `Yes. Now, note: You (rightly, for this simple model) identified "up" direction as the third. Not the fourth. Because the model "translates everything down a dimension". So, the motion of the plane is moving along the third dimension, time. And what do the other two dimensions represent?`
+
+**Nathan index 17 / key `3acffcc8`** → generated index 18 / key `1ddd3238`:
+
+> `Right. The single dimensionless, motionless point 'lives' in flatland. That flat sheet is its entire universe.`
+
+**Nathan index 19 / key `ef0b0378`** → generated index 20 / key `64492472`:
+
+> `You tell me`
+
+**Nathan index 21** follows generated index 20 and introduces an important fork in the conceptual grammar. Exact visible portion recovered in this bounded pass:
+
+> `If the point is moving across the plane, then the line is no longer straight, and its intersection is no longer at 90 degrees, correct. And, as you imply, the line's length must stretch to accommodate motion relative to the vertical axis. However, we haven't specified a coordinate system, so there is as yet no axis.`
+>
+> `Note: We have a choice here. We can give the point motion, and allow the line to be 'drawn' or 'stretched' according to that motion... or we can give the line a shape that causes the point to appear to move across the surface in various ways as the surface moves. These two frames of reference are important, and may or may not be entirely equivalent to one another... we'll have to decide that together. But for now, let's just think about it...`
+
+The connector response truncates later text within index 21, so this record intentionally does **not** claim the full turn has been packaged. The next pass must resume from the remainder of index 21 rather than infer it.
+
+### Provenance tags for this opening packet
+
+- `NATHAN_DIRECT`
+- `FOUNDATIONAL_GEOMETRIC_GRAMMAR`
+- `MINKOWSKI_LINEAGE_SELF_DESCRIPTION`
+- `DIMENSION_REDUCTION_VISUALIZATION`
+- `WORLDLINE_PLANE_MODEL`
+- `FRAME/INTERPRETATION_FORK`
+- `METHODOLOGICAL_FIRST_PRINCIPLES_RECONSTRUCTION`
+
+These tags are retrieval/provenance descriptors, not correctness/currentness judgments.
+
+## Base-capture methodological value
 
 The base capture independently contains Nathan Direct methodological material about controlling LLM source authority and legacy imperative text. This is high-value for epistemic/methodological-control reconstruction, but the model's claims about its own retrieval/configuration are not converted into Nathan-authored facts about NotebookLM internals.
 
 ## Correction to prior folder-18 index language
 
-The prior index said the `(1)` sibling was merely a candidate metadata-enriched/alternate capture and had not been retrievable. That is now superseded. Direct Git-blob retrieval succeeded for both blobs and establishes the distinct-conversation/same-notebook relation above.
-
-The prior index's broad statement that the first visible SAT RIGOR message was polished generated prose applies to an earlier targeted view, not to the actual first message of either complete blob recovered here. Both complete blobs begin with structurally human Nathan turns.
+The prior index said the `(1)` sibling was merely a candidate metadata-enriched/alternate capture and had not been retrievable. That is superseded. Direct Git-blob retrieval succeeded for both blobs and establishes the distinct-conversation/same-notebook relation above.
 
 ## Provenance / duplicate handling
 
@@ -74,8 +110,8 @@ The prior index's broad statement that the first visible SAT RIGOR message was p
 
 ## Unresolved
 
-No Nathan action required. A deeper full-message diff could determine whether later portions converge/share a suffix or represent wholly separate conversations, but that is a separate operation and not necessary for today's no-collapse disposition.
+No Nathan action required. A deeper full-message diff could determine whether later portions converge/share a suffix or represent wholly separate conversations, but that is a separate operation. Index 21 is only partially visible in the bounded connector response and must be resumed source-first.
 
 ## Current frontier / next cursor
 
-Next bounded cursor: use `SAT RIGOR__NotebookLM_export (1).json` to package the first-principles Nathan Direct sequence beyond the currently inspected opening, preserving exact turn adjacency and excluding generated model expansions; separately tag the base capture's Nathan Direct LLM-source-control discussion as methodological provenance.
+**Next bounded cursor:** resume `SAT RIGOR__NotebookLM_export (1).json` at the remainder of Nathan index 21 and continue speaker-separated Nathan Direct packaging through the next coherent first-principles conceptual step. Preserve exact message keys/adjacency; do not infer truncated text or import generated expansions.
