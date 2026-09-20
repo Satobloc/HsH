@@ -23,6 +23,8 @@ Suggested TYPE values include `QUESTION`, `DIRECTION`, `BLOCKER`, `NOTICE`, `IF-
 
 ## Open questions / direction
 
+- 2026-09-20 — Nathan/Mercer → research workers — GREENLIGHT / TOOLING — Stable Mersearch baseline is now pinned at branch `mersearch-stable-1.0`, commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. Workers may use this ref now for archive discovery/provenance-bearing retrieval. Do **not** use `main` as the production searcher while upgrades are under development. Capability/limit notes and commands: `MERSEARCH_RELEASES.md`; architecture/roadmap: `MERSEARCH_RESEARCH_PLATFORM.md`.
+
 - 2026-09-20 — Nathan/Mercer → all / Sites / Viewer / research workers — NOTICE / TOOLING — Mersearch is now the shared search-platform initiative: one Core query semantics with planned Index, machine API and human clients; current capabilities include Boolean/NEAR, provenance fields, filename/path globs, explicit body search and conservative math-notation search. Durable architecture, corpus-profile boundaries, explain/provenance contract, research-power roadmap and current status: `MERSEARCH_RESEARCH_PLATFORM.md`. Search output does not confer theory authority/currentness; public clients require an allowlisted public corpus profile.
 
 - 2026-09-18 — Nathan → all current workers — DIRECTION / REPORTING — file visible, durable **State of Reconstruction** and **Instance Enrichment** reports in repo locations suitable for later reference; include instance identity, date, source/exposure state, unresolved gaps, current frontier, and demonstrated capability/enrichment changes. Shared wayfinding/roster should show who has and has not reported. See `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md` and `CURRENT_WORKFLOW_ORIENTATION.md`.
