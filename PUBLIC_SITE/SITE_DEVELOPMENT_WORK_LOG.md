@@ -622,3 +622,40 @@ Published successfully to the existing production URL.
 - Kept He-3 and Jarlskog reconstruction visible as work to be sourced, typed, reproduced, and status-labeled in that next layer.
 
 Published successfully to the existing production URL.
+
+---
+
+# 2026-09-20 — cross-repository Index Desk
+
+## Publication
+
+- **Published URL:** https://glass-sausage-factory.nathanmcknight.chatgpt.site
+- **Published Sites version:** 14
+- **Access preserved:** public.
+
+## Onboarding and repository boundary
+
+- Followed `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md`, the three-repository onboarding packet, and `CURRENT_WORKFLOW_ORIENTATION_V2.md` before altering the public interface.
+- Used the federated archive map to keep the public surface to the HsH ↔ SAT archive pair. Private/reference-only resources are not linked.
+- Kept repository maps, generated inventories, topic tags, programme controls, provenance ledgers, and query systems distinct rather than presenting “the index” as one undifferentiated authority.
+
+## Index Desk
+
+- Added a dedicated **Indexes** mode to the Reading Room with repository, function, and keyword filters.
+- Connected 12 public routes across both repositories: the expanded library, federated archive map, HsH structural index, conversation topic index, Conversation Viewer, Mersearch, Nathan Dashboard, SAT archive reading plan, derivation index, full folder index, machine-readable file index, and archive ingestion ledger.
+- Gave every route a concise statement of purpose and a status/caution label, with paths to both the reader route and controlling repository source.
+- Added homepage and roadmap routes into the new desk.
+
+## Mersearch integration boundary
+
+- Updated the search surface to the current **Mersearch** name and architecture.
+- Described the supported Boolean, phrase, proximity, field, path/filename, notation-normalized math, exclusion, and provenance behaviors from the current platform document.
+- Preserved the existing public JSON-result adapter.
+- Did not imply that direct public querying is already deployed: that remains gated on a stable API schema and allowlisted public corpus profile.
+
+## Next build
+
+- The claims and predictions explorer remains the next high-priority construction surface.
+
+Published successfully to the existing production URL.
+
