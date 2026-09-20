@@ -138,3 +138,34 @@ The next coherent Nathan Direct progression is:
 Methodological significance: this sequence gives a clean example of Nathan repeatedly resisting premature model interpretation and returning to a deliberately noncommittal geometric inventory. It is useful both for foundational reconstruction and epistemic-method quote harvesting.
 
 **Next cursor:** generated index 32 and the next Nathan turn(s), specifically the requested inventory and Nathan's correction/refinement of it.
+
+## 2026-09-20 continuation — minimal rectilinear specification
+
+Source-first continuation through index 43 sharpens the methodological pattern and the actual minimal system.
+
+Nathan Direct sequence:
+
+- **index 33 / key `6ddeb237`**: `But, from our real world experience, we know mass entails some things.`
+- generated index 34 proposes inertia, gravity, energy equivalence and asks for geometric representations. These are generated suggestions, not Nathan Direct.
+- **index 35 / key `188c390b`**: `Those are good questions. But, I have a question in return: What is the minimal inventory of things to keep track of that allows us to fully specify the system?`
+- generated index 36 answers with line morphology + plane position and speculates that mass should emerge from their intersection. Generated only.
+- **index 37 / key `34227d60`**: `Good, but we can go one better. In this minimal case, the system is fully defined by a single number.`
+- generated index 38 identifies that number as tilt angle and adds “master variable” / “universal gear” metaphors.
+- **index 39 / key `79033c64`** explicitly corrects the rhetoric: `Let's be careful of metaphors. We want to be wearing our mathematician hats.` Nathan then specifies the primitives line+plane, stipulates plane motion in the time direction at c, and says that for rectilinear motion only θ remains unknown; knowing θ gives the entire system specification.
+- generated index 40 writes `v=ctan(θ)` and again calls worldline length “stretching.” The equation and time-dilation gloss are generated here and must not be attributed to Nathan without independent source support/checking.
+- **index 41 / key `6d823429`** directly corrects the “stretch” language: `Now, caution in presuming stretch. That term is hiding assumptions.` Nathan distinguishes three cases—line drawn by a point, rigid fixed-length/fixed-angle line, and purely abstract geometry—in all of which “stretch” can mislead. He then states that, given the stipulated massive particle, the behaviors associated with mass are captured by the single angle.
+- generated index 42 expands this into “Mass is a trigonometric identity,” persistence/translation ratios, inertia-as-angle-stability, and mass-energy glosses. Those are model extrapolations, not Nathan Direct.
+- **index 43 / key `a14bde8a`** moves the construction to acceleration: `Ok, now let us consider acceleration.`
+
+### Quote-workflow candidates
+
+Two particularly clear Nathan Direct passages should be routed as quote candidates without truncation at intake:
+
+1. index 39, beginning `Let's be careful of metaphors. We want to be wearing our mathematician hats.` and continuing through the one-variable θ specification.
+2. index 41 in full, beginning `Now, caution in presuming stretch. That term is hiding assumptions.` It is unusually explicit about refusing process/ontology assumptions hidden inside geometric vocabulary.
+
+### Reconstruction significance
+
+The source supports a more precise progression than the generated commentary: Nathan is minimizing the rectilinear system to line + moving plane with plane time-direction speed stipulated at c; constants fixed; θ is the sole remaining variable. He repeatedly strips away generated metaphors and causal interpretations. The source at this stage supports the statement that stipulated mass-associated behavior is encoded/captured by θ in the toy geometry; it does **not** by itself license the generated stronger formulations “mass is a trigonometric identity,” “persistence tax,” “mass is a knot,” or “inertia is geometric stability of the angle.”
+
+**Next cursor:** index 44 onward, beginning the acceleration case and Nathan's corrections to the model's first treatment.
