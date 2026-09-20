@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 136, 2026-09-20
+**Current through:** Run 137, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -165,3 +165,22 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No archive source or conversation identity changed. No quarantine material entered. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
 
 **Next cursor:** first bounded real-corpus run using `WORKSPACES/MERCER/search_topics_derivation_chain.json`, beginning with the star-shaped-derivation / dimensional-anchor / constants-network / cross-sector-holdout / closure discovery chain. Preserve raw hit counts and inspect representative hits before publishing any conceptual chronology.
+
+
+## Run 137 — 2026-09-20 — “full Mersearch” inventory/body/math query expansion
+
+**Nathan directives:** add conversation/other-document/text-export-oriented search plus partial filename Boolean search (example: `*2026.txt` and `*26.txt OR 26*.txt`); then give the system the “full Mersearch treatment.” Prior immediately adjacent directive also requested mathematically optimized equation search.
+
+**Searcher expansion:** `Mercer_Searcher_1.0` now supports explicit `body:`, `name:`, `path:`, `ext:`, `type:/kind:`, and `has:` predicates in the same Boolean grammar as ordinary text, author/date/title/CID and NEAR expressions. `name/path/ext` accept shell-style glob syntax (`*`, `?`, character classes) and Boolean composition. Tested examples include `name:*2026.txt`, `name:Deriv*.txt`, `name:*26.txt OR name:26*.txt`, and `path:*SAT_CONVOS_20* AND ext:txt`. `has:` currently exposes mechanically established record/source properties including conversation-source, pdf-source, text-source, message-id, conversation-id and Viewer presence; it does not infer undocumented source ancestry.
+
+**Math layer:** added conservative `math:` notation-normalized retrieval. Current normalization covers Unicode/LaTeX/plain variants for common symbols including pi/theta/phi/tau/delta, multiplication/division glyphs, Unicode minus/approximation, whitespace, and simple LaTeX fractions. Acceptance fixture verifies `B = \\frac{3}{4\\pi}` can be found with `math:"B=3/(4*pi)"`, plus pi/theta/multiplication notation variants. A negative control explicitly verifies that `math:"4*pi*B=3"` does **not** match merely because it is algebraically rearrangeable. Algebraic/symbolic equivalence remains a future specialized layer and must not be implied by notation normalization.
+
+**QA sequence:** initial inventory parser expansion caused a tokenizer escaping regression that broke baseline ordinary-term Boolean search; existing old acceptance tests caught it before corpus use. After repair, inventory/body suite run `35515842298`, job `106091519905`, passed. Initial math fixture/normalizer work then exposed escaping and grouping issues; these were repaired without weakening the intended math tests. Final expanded acceptance run `35516128867`, job `106092267370`, on SHA `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`: **SUCCESS** including compile and full synthetic suite.
+
+**Key commits in this pass:** inventory/body/source predicates `6b1dced35f6835fcb2d3a2b83ec56c1612c2398a`; math-normalization implementation/fixes through `48eae5460fd7fc1f14f577dc4e110f5207d49daa`; corrected acceptance fixture `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
+
+**Important current boundary:** `has:text-source` is a property of the indexed record, not yet a proven document→text-export ancestry relation. Do not label a sibling TXT as an export of a PDF/DOC merely from basename similarity. A future representation-relation layer should use explicit manifests/provenance or clearly label basename-based candidates as heuristic. Likewise `math:` is notation normalization, not CAS-backed equivalence.
+
+**No archive source or conversation identity changed. No quarantine material entered. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
+
+**Next cursor:** run bounded real-corpus Mersearch queries for (1) filename/path inventory patterns and (2) the star-shaped derivation chain; inspect duplicate-per-record behavior for inventory-only queries before treating file-name results as a polished file inventory. Then design the symbolic equation layer (`equiv:/contains:/derive:`) with raw-expression preservation and explicit relationship labels rather than silently folding algebraically related historical equations together.
