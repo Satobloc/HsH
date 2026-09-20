@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-20T06:23:00.677148+00:00",
+  "generated_at_utc": "2026-09-20T06:31:39.368092+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 363,
-    "skipped": 241,
+    "skipped": 242,
     "planned": 89,
     "collision": 1
   },
@@ -7491,6 +7491,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/UI_EXACTIROUGHLY/strictly.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
