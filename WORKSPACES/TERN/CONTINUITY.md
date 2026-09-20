@@ -53,12 +53,12 @@ Do not casually rewrite the human-facing continuity checkpoint. Update Common/Da
 
 ## Current checkpoint — 2026-09-20
 
-**Operation:** one bounded reference-lane repair of root `LIBRARY.md`.
+**Operation:** one bounded system-pulse comparison of current `COORDINATION.md` authority language against live BEDROCK and worker-control surfaces.
 
-**Durable boundary:** reread current live BEDROCK/pre-flight/write-safety controls, then re-fetched `LIBRARY.md` immediately before a compare-and-swap update. Corrected only the previously diagnosed discovery-versus-authority ambiguity at commit `18ae081aa150263c992950a5890bcfdbc9f471fb`.
+**Durable boundary:** reread the live pre-flight, BEDROCK, Q&A queue, shared-write safety, Sable continuity/inbox, and current coordination surface. Diagnosed but did not edit shared coordination state because cross-lane workflow/authority repair belongs to the human-facing continuity/systems lane.
 
-**Material changed state:** `LIBRARY.md` now explicitly identifies itself as an archive/provenance discovery surface; removes `core` from its source-group heading; states that inclusion is not theory-status promotion; and clarifies that front-page featuring, accessibility, polish, or vetting advancement does not itself confer BEDROCK status or theory authority. No library entries, source links, theory propositions, or BEDROCK statuses were changed.
+**Material changed state:** no shared project state changed. The pulse identified a real stale-control conflict: `COORDINATION.md` still carries 2026-09-12/14 language naming Janus as continuity lead, Ravel as having theory override, and theory promotion as requiring Ravel review. Current BEDROCK instead makes Nathan Direct the highest local theory authority, BEDROCK the theory-status center, and new theory results tentative by default; current worker protocol assigns cross-lane workflow redesign/continuity repair to Sable unless Nathan explicitly delegates otherwise. Treat the stale coordination language as historical until reconciled, not as a current authority override.
 
-**Open dependency:** no dependency remains for this micro-repair. Other front-door/reference-lane defects, if any, remain separate future objects.
+**Open dependency:** Sable/Common should reconcile or explicitly historical-label the stale authority statements in `COORDINATION.md`; Tern should not independently redesign those lanes.
 
-**Next cursor:** rotate away from consecutive reference-lane cleanup and choose one bounded system-pulse/Q&A or Ravel theory-interface operation after rereading the then-current controls.
+**Next cursor:** rotate to one bounded Ravel theory-interface slice after rereading then-current BEDROCK and the relevant Ravel source, unless a newer higher-value system fault appears.
