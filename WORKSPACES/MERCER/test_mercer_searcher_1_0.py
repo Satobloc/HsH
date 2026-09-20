@@ -6,7 +6,7 @@ import importlib.util
 HERE=Path(__file__).resolve()
 TOOL=HERE.parents[2]/"tools"/"search_archive_content.py"
 spec=importlib.util.spec_from_file_location("mercer_searcher",TOOL)
-m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+m=importlib.util.module_from_spec(spec);sys.modules[spec.name]=m;spec.loader.exec_module(m)
 
 def rec(text, speaker="user", role="user", date="2026-06-15T12:00:00+00:00", title="Fixture"):
     return m.Record("fixture.json","conversation-message",text,title,"cid-1","mid-1",speaker,role,date,"message:mid-1")
