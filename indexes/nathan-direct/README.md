@@ -2,20 +2,24 @@
 
 Generated from raw ChatGPT conversation metadata plus the archive-wide layered autotag stream. This surface preserves exact `role=user` text, provenance, accumulated machine tags, duplicate-path relationships, chronological neighboring-message pointers, and raw parent/child branch pointers. It is not a curated quote collection and carries no automatic theory authority.
 
-- input records: 78286
-- input user records: 24145
-- packaged unique user messages: 15188
-- archive duplicate user records collapsed: 8957
-- context dependent inherited tag records: 14505
+- input records: 81242
+- input user records: 25051
+- packaged unique user messages: 15241
+- archive duplicate user records collapsed: 9810
+- context dependent inherited tag records: 14558
 - records missing conversation or message id: 0
-- records with resolved parent graph pointer: 14508
-- records with child graph pointer: 9894
+- records with resolved parent graph pointer: 14561
+- records with child graph pointer: 9940
 
 ## Shards
 
 - `nathan-direct-2023.jsonl` — 293 records
 - `nathan-direct-2024.jsonl` — 306 records
 - `nathan-direct-2025.jsonl` — 5467 records
-- `nathan-direct-2026.jsonl` — 9122 records
+- `nathan-direct-2026.jsonl` — 9175 records
+
+## Lookup
+
+- `nathan-direct-lookup.jsonl` — one compact locator per packaged message. Use `(conversation_id, message_id)` as the stable key and `shard` + `record_ordinal_1based` as the target; `canonical_source_path` and `all_source_paths` support source-path alias lookup without duplicating message text.
 
 `context_dependent_inherited_tag=true` means at least one adjacency topic tag is not directly present among the message-level topic tags. Use the raw chronological, parent/child, and full-conversation pointers for contextual recovery; do not merge assistant text into Nathan wording.
