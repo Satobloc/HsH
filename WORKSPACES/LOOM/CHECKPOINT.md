@@ -5,22 +5,26 @@
 
 ## Current controls / run note
 
-Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination, and handoffs. The newer control state materially changes Loom's immediate routing: systematic 2023–25 archive excavation is now a recurrence priority, with special attention to Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon / neutron-star-trinary / gravitational-soliton provenance. The standard recurrence quantum is one object + one operation + one durable result + one next cursor.
+Current Common startup/control surfaces were reread this run, including the hard no-conversation-renaming rule, worker autonomy/handoff protocol, automation control, Nathan Direct state, Read-It-Tag-It policy, training source map, verified-words compendium, coordination, handoffs, and Loom continuity/checkpoint state. Current controls retain the one-object + one-operation + one-durable-result + one-next-cursor recurrence quantum. No conversation/thread/chat identity was altered.
 
-## This run — bounded archive search
+Systematic 2023–25 archive excavation remains a recurrence priority, with special attention to Jarlskog Shadow / ghost-neutrino / He-3 / soliton / gluon / neutron-star-trinary / gravitational-soliton provenance. The current Nathan Direct state also adds a P0 conversation-folder content-index priority and a Q/inverse-Q smoothing/scaling watch; those are not silently substituted for Loom's bounded current cursor.
 
-**Operation:** source-first GitHub code-search probe in `Satobloc/SAT_THEORY_ARCHIVE_2023-25` for the priority Jarlskog/ghost-neutrino cluster.
+## This run — alternate-vocabulary archive wayfinding
+
+**Operation:** bounded alternate-vocabulary GitHub code-search probe in `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, following the prior cursor rather than repeating the exhausted Jarlskog/ghost-neutrino terms.
 
 Queries run:
-- `Jarlskog Shadow ghost neutrino`
-- `ghost neutrino`
-- `Jarlskog`
+- `He-3`
+- `helium-3`
+- `holotype`
 
-**Result:** no indexed code-search hits in the historical archive repository. This is a negative retrieval result only. It does **not** establish absence from the archive: code-search coverage/indexing, alternate wording, generated/extracted text, filenames, or material embedded in formats not surfaced by code search may still contain the lineage.
+**Result:** no indexed code-search hits in the historical archive repository for any of the three adjacent terms.
 
-**Tag/status:** `JARLSKOG-SHADOW → PRIORITY-EXCAVATION`; `GHOST-NEUTRINO → PRIORITY-EXCAVATION`; `HISTORICAL-ARCHIVE-CODE-SEARCH → NO-HIT-2026-09-20`; `NO-HIT ≠ ABSENT`; `SOURCE-RECOVERY → NEEDS-WAYFINDING/ALTERNATE-VOCABULARY`.
+This is a second negative retrieval result only. It does **not** establish absence from the archive. In combination with the prior exact-term failure, it does establish that ordinary repository code search is presently a low-yield route for this lineage and should not be query-sprayed further.
 
-No Nathan-authored historical passage was actually surfaced/read in this bite, so no new Nathan-direct quotation or authorship claim is created.
+**Tag/status:** `HE-3 → PRIORITY-EXCAVATION`; `HELIUM-3 → ALIAS-WAYFINDING`; `HOLOTYPE → ALIAS-WAYFINDING`; `HISTORICAL-ARCHIVE-CODE-SEARCH → NO-HIT-SECOND-PASS-2026-09-20`; `NO-HIT ≠ ABSENT`; `CODE-SEARCH-ROUTE → LOW-YIELD-FOR-THIS-LINEAGE`; `SOURCE-RECOVERY → PIVOT-TO-NAVIGATION/INDEX/TIMELINE`.
+
+No Nathan-authored historical passage was surfaced/read in this bite, so no new Nathan-direct quotation or authorship claim is created.
 
 ## Prior frontier retained
 
@@ -35,7 +39,7 @@ Treat those as correction/supersession chains rather than simultaneous requireme
 
 ## Next cursor
 
-Do **not** repeat the exhausted exact Jarlskog/ghost-neutrino GitHub search next run. Use one bounded alternate-wayfinding object: search the historical archive for adjacent older vocabulary (`He-3`, `helium-3`, `holotype`, or `timesheet soliton`) and inspect at most one high-information source hit. If that also fails, pivot to archive navigation/index/timeline surfaces rather than query spray.
+Do **not** run more free-form GitHub code-search variants for the Jarlskog/ghost-neutrino/He-3 lineage next run. Pivot exactly as the prior cursor specified: inspect **one historical archive navigation/index/timeline surface** for a source pointer or older vocabulary. Prefer an existing archive index/timeline over another lexical search. If it yields a defensible source pointer, inspect at most one source object in the following bite rather than expanding the current quantum.
 
 ## Workspace identity
 
