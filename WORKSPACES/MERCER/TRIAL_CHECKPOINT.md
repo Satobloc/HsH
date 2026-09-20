@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 135, 2026-09-20
+**Current through:** Run 136, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -141,3 +141,27 @@ The config explicitly states that aliases/co-occurrence do not establish equival
 **No archive source or conversation identity changed. No quarantine material entered. Tool naming is repository/tool identity only and does not alter any conversation/thread/chat title.**
 
 **Next cursor:** execute `python WORKSPACES/MERCER/test_mercer_searcher_1_0.py` through the first available repo-native checkout/runtime. If green, run the first bounded real-corpus query using `WORKSPACES/MERCER/search_topics_derivation_chain.json`; if red, repair only the failing query semantics before corpus use.
+
+
+## Run 136 — 2026-09-20 — Mercer_Searcher_1.0 first executable acceptance run
+
+**Nathan directive:** “Slap the proverbial baby” — execute the first real acceptance test of `Mercer_Searcher_1.0`.
+
+**Execution route added:** created narrow read-only GitHub Actions workflow `.github/workflows/mercer-searcher-1-0.yml` at commit `0a49ec98a6df82f15db5592d0a379567070ef4ef`. It runs only on searcher/test changes, checks out the exact source SHA, records repo/SHA/tool/read-write scope, compiles the searcher, and runs the synthetic acceptance fixture. Workflow permissions are contents-read only; fixture reads synthetic data only; quarantine is not read.
+
+**First-run diagnostic sequence:**
+1. Run `35513043066` on SHA `31c6a22259ea060f68a43d84588b71375d51f3d0`: searcher `py_compile` PASS; acceptance fixture failed before semantic tests because dynamic import did not register the module in `sys.modules`.
+2. Fixture loader repaired; follow-up run `35513098541` exposed a missing `sys` import in the fixture itself. This was fixture plumbing, not searcher semantics.
+3. Fixture import repaired at commit `ac7693621e211dd8a4cfee14f3b4dbeaafe5036d`. Run `35513149965`: searcher compile PASS; semantic suite reached and exposed a genuine searcher bug: quoted Unicode field value `title:"SAT成果展望"` failed because `unquote()` used UTF-8 bytes + `unicode_escape`, corrupting non-ASCII text.
+4. Searcher repaired by decoding quoted strings with JSON string semantics (fallback strips quotes) at commit `5575fd2153714a5a9ed208268b411e76b2ef3f46`.
+5. Acceptance run `35513220316`, job `106084682884`: **SUCCESS**. Checkout PASS; Python 3.12 setup PASS; source-state declaration PASS; `python -m py_compile tools/search_archive_content.py` PASS; `python WORKSPACES/MERCER/test_mercer_searcher_1_0.py` PASS.
+
+**What this establishes:** `Mercer_Searcher_1.0` is runtime-green for the current synthetic acceptance contract: Boolean AND/OR/NOT, implicit AND, parentheses/precedence, quoted phrase order, default and inline `NEAR/n` boundaries plus actual distance reporting, author/role fields, quoted Unicode title fields, date-range logic, date ascending/descending sorting, author sorting, and default quarantine/PRIOR_ART exclusions. It also establishes Python 3.12 syntax/runtime importability under the repo-native workflow.
+
+**What this does NOT establish:** real-corpus coverage/completeness, performance on hundreds of conversations, Viewer-link resolution completeness, PDF optional-path behavior, malformed-input exhaustiveness, conceptual alias quality, actual supersession/currentness, or theory correctness.
+
+**Infrastructure/enrichment:** the searcher now has a persistent narrow acceptance gate. The test gate immediately prevented a Unicode provenance/search defect from reaching corpus use, demonstrating concrete QA value.
+
+**No archive source or conversation identity changed. No quarantine material entered. No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
+
+**Next cursor:** first bounded real-corpus run using `WORKSPACES/MERCER/search_topics_derivation_chain.json`, beginning with the star-shaped-derivation / dimensional-anchor / constants-network / cross-sector-holdout / closure discovery chain. Preserve raw hit counts and inspect representative hits before publishing any conceptual chronology.
