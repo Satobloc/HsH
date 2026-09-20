@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 141, 2026-09-20
+**Current through:** Run 142, 2026-09-20
 
 ## Startup / authority
 Every run read `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md` first. Never rename, retitle, alter, or propose renaming a conversation/thread/chat. Then read `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, active `WORKSPACES/COMMON/AUTOMATION_WORKFLOW_CONTROL.md`, current coordination/handoffs/check-ins, relevant Dashboard/wayfinding surfaces, newer Nathan directives, and this checkpoint. Before write-capable scripts/shared generated state, read `CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` and `SHARED_STATE_WRITE_SAFETY.md`. Nathan directives control. Direct theory-bearing work remains sandbox-limited; quarantine is hard/off-limits.
@@ -258,3 +258,16 @@ Created `tools/query_mersearch_index.py` (commit `501e81d218f57d3eb8f9c9e0d22f56
 **Next cursor:** inspect run `35518240922`; repair prototype failures. Once green, record actual build/query/concurrency timings; then implement incremental generation reuse and reader-during-rebuild/failure-retention tests.
 
 **No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming. No theory claim was promoted.**
+
+
+## Run 142 — 2026-09-20 — indexed gate unblocked at source level
+
+**Continuation:** inspected indexed prototype run `35518240922`. It had not exercised index performance: compile failed because the development Core header still physically contained literal `\\n` characters between `TOOL_NAME`, `TOOL_VERSION`, and `WORD_RE`. The previous attempted repair had been visually misleading.
+
+**Repair:** fetched the actual source representation and replaced the literal escape sequence using an explicit regex transformation; commit `506729be2397f9b4f918e6bc91d193394f771d35`. This retriggered both the existing Core acceptance and indexed-prototype workflow. Indexed run `35518358342` was in progress / checkout at checkpoint-write time.
+
+**Interpretation:** no index/concurrency performance result can be inferred from run `35518240922`; it failed before builder execution. Stable 1.0 remains unaffected.
+
+**Next cursor:** inspect `35518358342`; if compile reaches builder, capture build and indexed-query/concurrent-reader timings. Repair prototype-specific issues without moving stable ref.
+
+**No conversation/thread/chat was renamed, retitled, altered, or proposed for renaming.**
