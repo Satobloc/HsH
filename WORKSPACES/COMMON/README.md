@@ -18,6 +18,7 @@ For a newly arriving or revived instance, begin with:
 8. `HANDOFFS.md` and `CHECKINS.md` — transfers and recent worker state.
 9. the relevant lane/workspace README or checkpoint.
 10. `CROSS_LANE_BLOCKER_ESCALATION_RULE.md` — project-wide blocker and unanswered-Q&A escalation.
+11. `CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md` — preserve→recover→formalize→sandbox→stress-test research loop; explicit QUARANTINE/THEORIZING/SANDBOX/PLAYGROUND zoning and promotion discipline.
 
 Newer explicit Nathan directives override older working documents.
 
