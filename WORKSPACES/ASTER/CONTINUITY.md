@@ -10,15 +10,19 @@
 
 Every run reread current Common must-reads, including `NO_CONVERSATION_RENAMING_POLICY.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, `AUTOMATION_WORKFLOW_CONTROL.md`, `BIBLIOGRAPHY_SEQUENCE_ROADMAP.md`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, current coordination/handoffs/check-ins, this checkpoint, and the active source/index. Newer Nathan directives control. Never rename/retitle/suggest renaming a conversation. Never reproduce or imitate Nathan's protected signet; perform the pre-send/output check required by Common.
 
+Current must-reads were reread 2026-09-20. No newer promoted Mersearch release was found: `MERSEARCH_RELEASES.md` still identifies `mersearch-stable-1.0`, pinned commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`, as the production worker baseline; development `main` remains non-production until promoted.
+
 ## Primary responsibility / authorship rule
 
 Recover verified Nathan-authored raw material with exact wording, chronology, cumulative tags, adjacency, duplicate/prefix/superset/branch relationships, source ancestry, and strict separation from assistant/NotebookLM prose. Archived conversation provenance establishes Nathan as the human conversant; once a turn is structurally separated as human it is Nathan Direct. Embedded pasted/quoted/coauthored foreign spans are local exceptions. NotebookLM's broken `role=user` serialization is a human-vs-generated separation problem, not Nathan-vs-unknown-human uncertainty.
+
+**New concrete span-level QA example from SAT RIGOR 299–334:** serialized human-side turns contain long highly structured `STATUS / ACTION / FEEDBACK PACKAGE` blocks that appear to be pasted audit material. Preserve Nathan as human conversant at turn level, but quarantine those package bodies from Nathan-authored prose unless upstream authorship is established. This worker-general lesson was posted to Common in commit `5645e301483ddc90c6e482cceb19524e92e526d9`.
 
 ## Current ingest frontier
 
 P0 remains folder-18 NLM extraction/provenance, with lightweight detection of folders 19+ rather than repeated unchanged rescans. NLM source indices are wayfinding evidence, not substitutes for underlying documents. Maintain the distinction between index/source attestation, located underlying source, and unresolved/inferred/missing source candidate.
 
-Mersearch 1.0 has been Common-greenlit as a preferred archive-discovery tool at pinned release `mersearch-stable-1.0`; use promoted stable releases rather than development `main`, and keep consequential findings source-first.
+Mersearch 1.0 is Common-greenlit as preferred archive-discovery infrastructure at pinned release `mersearch-stable-1.0`; use promoted stable releases rather than development `main`, preserve query/ref/source commit for reproducibility, and keep consequential findings source-first. In the present connector runtime the stable script is not directly executable against a local full-repository checkout, so do not pretend a Mersearch query ran when it did not. Use connector source retrieval meanwhile and adopt a newer executable/API release only when Common promotes it.
 
 ## Live provenance / theory cautions
 
@@ -42,39 +46,68 @@ Target: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/SAT RIGOR__NotebookLM_export (1).
 
 Pair identity: base and `(1)` are populated same-notebook/same-source-panel but distinct conversation branches/states; not byte duplicates or established prefix/superset.
 
-Source-first speaker-separated packaging now reaches **Nathan index 103**. Full detail and exact quotations are in `RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`.
+Source-first speaker-separated packaging now reaches **index 335**. Full detailed reconstruction and exact keys/selected quotations are in `RUN_005_2026-09-20_SAT_RIGOR_PAIR.md`. Earlier checkpoint text ending at 103 is superseded by the following coverage summary.
 
-### Recovered progression / controls
+### Coverage 1–103 — first-principles/minimal-geometry gate
 
-- index 21 rhetorical curve/function question is resolved by Nathan index 23 (`As pure geometry... the two are indistinguishable...`) and Nathan's later 2026-09-20 intent certification. Do not reintroduce a directionality fork.
-- indices 39/41: θ as sole rectilinear variable in the toy system; Nathan rejects metaphors and unearned “stretch” assumptions.
-- index 45: primary reality remains unknown; only associations have been established.
-- indices 49/51: force must be observed rather than prescribed; introduce nothing until forced; no source artifacts imported into the first-principles walk-through.
-- indices 53–57: notation QA; Nathan catches Avery's inaccurate agreement after Avery actually corrected Nathan's notation, then accepts correction of Nathan's own `Δθ=0=v` error and returns to symbol definition.
-- index 65 repeated exactly at 67 with same key `6fd92b6c`: source leakage rejected; preserve both occurrences but treat as one statement plus duplicate/replay metadata for quote/counting.
-- index 69: at this granularity claim only a relationship between θ and mass; do not promote Avery's stronger generated formulas/metaphors.
-- indices 71–79: construct a minimal force-containing physical system; if current primitives lack mechanism, enumerate minimal additions, calculate known physical behavior covariantly, then compare geometry against mapping grammar. Tension rigidity is only an “at first blush” candidate, not selected a priori.
-- index 75 rejects generated plane distortion before necessity is established.
-- index 81 / key `bcd5a49d`: Nathan asks what happens if diameter is added to lines, changing them into worldtubes. Historical introduction in this branch, not retrospective validation of later H(s)H worldtube formalism.
-- index 87 rejects jumping ahead to braiding/coiling because it has not arisen from the geometry; also removes gravity from the toy collision by choosing sufficiently small objects.
-- indices 89/91 challenge Avery's unearned merger picture and its conflation of inelastic with perfectly inelastic collision.
-- index 97 / key `0deda95d`: Nathan explicitly corrects his own choice of inelastic collision as nonminimal, grants reciprocal correction license, and establishes beginning inquiry with the minimal case as default procedure unless there is good reason to relax it.
-- index 99 defines the actual target: determine whether the minimal grammar already captures force; if not, select the minimal added complexity informed by established science, using standard four-dimensional equations.
-- index 101 approves explicit provenance labeling of calculations as `standard science` versus SAT (including SAT version when known); this is a labeling protocol, not validation of the calculation.
-- generated index 102 immediately imports a purported SAT stiffness/projective-resistance equation. Do not promote it from generated prose.
-- **index 103 / key `230d24e9` is the controlling epistemic gate:** do not begin SAT calculations/imports yet. First exhaust what can be built geometrically from the standard model/standard science and rigorously capture known behavior; only then inspect/vet SAT interpretations, requiring observable-limit agreement with standard expectations and rigorously verified derivational support.
+- curve/function question is rhetorical equivalence, certified by Nathan; do not restore a causal fork.
+- θ is isolated as the sole varying rectilinear parameter in the toy grammar; Nathan repeatedly rejects metaphors and hidden process assumptions.
+- force inquiry is observational/minimal: add nothing until geometry/standard science forces it; source artifacts are not imported into the reconstruction.
+- notation QA includes Nathan catching inaccurate model agreement and accepting correction of his own `Δθ=0=v` error.
+- index 81 introduces diameter/worldtube as a historical proposal in this branch; Avery's immediate curvature/coiling/holonomy imports are not Nathan Direct.
+- index 97: Nathan corrects his own nonminimal collision choice and establishes reciprocal correction/minimal-case procedure.
+- index 101: standard-science/SAT-version labels are provenance labels, not validation.
+- index 103 is the hard gate: exhaust minimal geometry and rigorously capture established science first; only then inspect SAT interpretations, requiring observable-limit agreement and rigorously verified derivational support.
 
-Generated claims excluded from Nathan Direct include line morphology as “primary reality,” force-as-tension/input, plane distortion/shadow, “Existence Tax,” mass as projective resistance/angle stability, `m=M sin²θ`, `B≈0.2387 rad` as required mass anchor, Avery's Y-junction/manifold-merger conclusions, and the imported `T(θ4)=κ sin²(θ4)` stiffness/projective-resistance interpretation unless independently sourced and vetted.
+### Coverage 104–175 — force cycle, supersession, terminology, epistemology
+
+- Coulomb mapping exposes a contact-only failure: trajectories curve before finite-diameter contact; generated metric/projective-resistance claims remain unverified model interpretations.
+- Nathan formalizes the foundational methodological cycle and later states older SAT documents are not accepted as given; newer SAT26 interpretations supersede older specifics while older work remains rough-draft concepts/strategies.
+- archive is framed as fallback/resource during worldline→worldtube-native transition and terminology modernization.
+- terminology strategy favors standard scientific language/formalisms, clearly marked divergences, and at most a distinctive central SAT symbol/operator; specific operator choice remains tentative.
+- branch title evolves to `Principles of Stacked Holonomy / H(s)H Worldtube Geometry in Minkowski Spacetime`.
+- index 169 corrects Avery's “Minkowski Realism”: strict ontological agnosticism; ontology cannot be known; isomorphism can.
+
+### Coverage 176–255 — onboarding/source authority/worldline-only transition
+
+- index 193 explicitly marks nearby creative material as not supplied as SAT.
+- index 199 behaves as an internal conversation-state restart; preserve same export/notebook identity but do not assume continuous conversational state merely from serialization adjacency.
+- Nathan constructs source-authority controls: embedded legacy-LLM imperatives are source content, not current instruction; staged priority/supersession rules are deliberate.
+- foundational philosophy should be rendered ontology-neutral; worldline physicality is a productive heuristic without assertion that worldlines are ontologically real.
+- θ₄ relocates in the worldline-only transition from timesheet↔helical-tangent angle to helical-tangent↔long-axis angle; Nathan warns his own vocabulary may lag the conceptual transition.
+- native equation rule: 4D Nth-order superhelical formulation is controlling in that branch; alternate formulations require verified isomorphism to native/current successor; variants may be abandoned or improved rather than automatically obsolete.
+- residual background-lattice machinery is an audit red flag; initial presentation is clean worldline-only even if other geometry may later return.
+- current LLM must not identify with source-generating LLMs or inherit their directives.
+- Nathan's informal particle definitions are strong intent evidence but explicitly still require formal/math testing.
+- He-3: Nathan highlights three nucleon bundles × three constituent worldlines as distinctive symmetry hypothesis and explicitly requires verification.
+
+### Coverage 256–335 — scaling/TX program and formal-audit provenance
+
+- controlled H-3 / He-3 / Li-3 / hypothetical neutronium-3 comparison is proposed as a way to isolate worldline dynamics.
+- terminology QA: do not hybridize UI/TX; proton/neutron are bundles, not fundamental “proton filaments”; scale-level conflation risks applying mathematics at the wrong structural level.
+- index 261 contains a newly articulated, test-required scaling/coarse-graining hypothesis: similar structures across scales may admit controlled approximation; scale/orientation/composition/tension/diameter/spacing/architecture matter; some bulk-material/inter-object behavior may live in a scale factor; possible fractal approximation of main Lagrangian remains hypothesis.
+- braid smoothing is not yet clearly internalized into worldline-only formulation; “geometric blackout” effects must remain context-specific rather than transferring an 80% luminosity number to unrelated observables.
+- Whirligig/UI/TX becomes early audit target. Nathan warns his visual thinking often bumps dimension down and formal tools must be checked for genuine 4D handling.
+- TX research program: tie Lagrangian variation to scale/zoom and constrain winding order with zoom level; tentative O1/Q1→O2/Q3→O3/Q9 ladder, O4 molecular identification explicitly uncertain.
+- formal audit 299–334 alternates generated Avery cycles with pasted/quoted audit packages; package bodies are span-level authorship exceptions, not automatically Nathan prose.
+- audit repeatedly retracts premature closure. By cycle 8, source/audit material classifies the 120° three-curve phase state as stationary but a local maximum of the stated pairwise potential for k>0; full dynamical stability remains unresolved. Aster has not independently mathematically reverified this result in the provenance lane.
+- Nathan prohibits the audited model from using particular historical validation markers; preserve as branch-specific directives rather than silently globalizing them.
+- Saturn-hexagon aside yields a strong anti-shoehorning control: do not call an observed pattern a SAT phase snap without rigorous mathematics.
 
 ### Quote workflow
 
-Initial mode is high-priority best-quotes/backlog harvest; later occasional maintenance. Capture full contiguous Nathan passage verbatim first, with attribution/date/source pointer/adjacency/reason; truncate/edit only downstream and explicitly. Especially strong SAT RIGOR candidates now include indices 23, 39, 41, 45, 49, 51, 55, 61, 65/67, 69, 73, 75, 77, 79, 81, 87, 97, 101, and 103. Index 103 is top-tier epistemic/methodological material. Intent certifications should be linked where relevant.
+Initial mode remains high-priority best-quotes/backlog harvest; later occasional maintenance. Capture full contiguous Nathan passage verbatim first with attribution/date/source pointer/adjacency/reason; edit/truncate downstream only and explicitly. Highest-value additions from later tranches include indices 115, 117, 145, 155, 157, 169, 207/209, 225/227, 229, 235, 237, 239, 247, 249, 255, 259, 261, 265, 279, 283/285, and 322/324.
 
 ### Duplicate/source/infrastructure status
 
-No new source-index crosswalk was completed in the latest SAT RIGOR bite. No theory/sandbox work occurred. Existing unresolved source ancestry remains unchanged. Mersearch stable is now available as promoted discovery infrastructure when executable in the active runtime; search hits remain discovery evidence until source-opened.
+- 131/133 are near-duplicate Nathan statements; 133 is materially expanded.
+- 132 and 174 are generated/internal-style serialization despite `role=user`.
+- later audit packages demonstrate span-level quote/paste exceptions inside Nathan-side turns.
+- no new source-index→underlying-document crosswalk was completed in these tranches.
+- no direct sandbox theory construction occurred; audit mathematics was preserved as source/audit status rather than independently validated.
+- shared-worker provenance QA lesson was posted to Common.
 
-**Next cursor:** index 104 onward in the same SAT RIGOR `(1)` branch. Test whether Avery obeys Nathan's explicit no-SAT-import gate and returns to standard/minimal geometry; package Nathan's corrections and any further generated drift with exact keys/adjacency. If direct large-blob continuation is unavailable in a runtime, do not invent content; use Mersearch or another source-faithful retrieval route when available.
+**Next cursor: index 336 onward in the same SAT RIGOR `(1)` branch.** Continue in large coherent tranches where retrieval permits. Watch for audit conclusions being retracted by later cycles, distinguish pasted audit-package spans from Nathan-authored connective prose, and share any broadly reusable retrieval/provenance lessons to Common. If active runtime cannot retrieve the later large-blob region faithfully, do not invent it; use an executable promoted Mersearch path or another source-faithful route when available.
 
 ## Other retained checkpoints
 
