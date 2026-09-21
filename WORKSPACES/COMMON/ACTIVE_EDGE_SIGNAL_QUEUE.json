@@ -23,12 +23,12 @@
     {
       "id": "SIG-20260920-02",
       "type": "FEED_FORWARD",
-      "status": "ROUTED_AWAITING_DISPOSITION",
+      "status": "PARTIAL_DISPOSITION_OBSERVED",
       "target": "Nathan Words → Theorist Feed",
-      "evidence": "The feed remains unconsumed at inspection. Comptroller routed THEORIST_READY item NWTF-20260610-THETA4-SEMANTIC-DRIFT to Meridian for one bounded formalization-interface consumption pass via WORKSPACES/MERIDIAN/HANDOFF_NWTF_THETA4_SEMANTIC_DRIFT_2026-09-20.md (commit 208fdbc83684f6e19c1445e436437ff56e47832f).",
+      "evidence": "Comptroller routed THEORIST_READY item NWTF-20260610-THETA4-SEMANTIC-DRIFT to Meridian via WORKSPACES/MERIDIAN/HANDOFF_NWTF_THETA4_SEMANTIC_DRIFT_2026-09-20.md (commit 208fdbc83684f6e19c1445e436437ff56e47832f). Meridian Run 077 then explicitly evaluated whether a Nathan Words feed item was needed for its bounded Hagalaz edge-mismatch control and returned NOT RELEVANT for that control, with artifact pointer WORKSPACES/MERIDIAN/SANDBOX/RUN_077_HAGALAZ_CONTROLLED_EDGE_MISMATCH.md (commit 2c648f2c4b98e4d4782fe605a8e97fa79bac94c3). This is real downstream disposition behavior, but Run 077 did not name NWTF-20260610-THETA4-SEMANTIC-DRIFT explicitly, so the routed item itself is not yet closed.",
       "intent": "Close the loop from excavation to actual theory/formalization use.",
-      "suggested_action": "Meridian should return exactly one downstream disposition for the routed item: INGESTED, CONFLICT, NOT-RELEVANT, or BLOCKED-SOURCE with exact missing pointer; include affected branch/artifact pointer and do not promote historical wording into current theory authority.",
-      "exit": "One feed item has a downstream INGESTED/CONFLICT/NOT-RELEVANT disposition with branch pointer.",
+      "suggested_action": "At Meridian's next eligible formalization pass, require the routed item ID NWTF-20260610-THETA4-SEMANTIC-DRIFT to receive an explicit INGESTED, CONFLICT, NOT-RELEVANT, or BLOCKED-SOURCE disposition with the affected branch/artifact pointer. Do not interrupt a currently compounding comparator pass merely to manufacture closure.",
+      "exit": "One named feed item has a downstream INGESTED/CONFLICT/NOT-RELEVANT disposition with branch pointer.",
       "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json; then Comptroller closes or reroutes this signal"
     },
     {
