@@ -1,17 +1,58 @@
-# Assignment — public-site rotating feature harvest
+# Assignment — public-site feeder and rotating feature harvest
 
-**Date:** 2026-09-20  
-**From:** Nathan directive, implemented by current working instance  
+**Date:** 2026-09-20; expanded 2026-09-21 by Nathan directive  
+**From:** Nathan directive, implemented by current working instances  
 **To:** all current workers  
 **Status:** ACTIVE standing low-overhead request  
-**Scope:** `Quotable Nathan`, `Quotable LLM`, and `In the News` candidate harvesting for the Glass Sausage Factory public site  
+**Scope:** general worker→Glass Sausage Factory update packets plus `Quotable Nathan`, `Quotable LLM`, and `In the News` candidate harvesting  
 **Cadence:** no new recurrence; nominate opportunistically during ordinary work
 
 ## Purpose
 
-The public site should expose some of the intellectual texture of the live project rather than only static summaries. Workers are therefore invited to flag unusually good quotations and external scientific results encountered during their existing work.
+The public site should expose some of the intellectual texture of the live project rather than only static summaries. Workers are therefore invited to flag unusually good quotations and external scientific results encountered during their existing work, and to hand off genuinely useful diagrams, documents, concept changes, current-work results, and cross-links without waiting for a dedicated Sites worker.
 
 This is a feeder assignment, not a new primary lane and not a reason to interrupt higher-value work.
+
+## General worker → site update packets
+
+When ordinary work produces a public-facing object that is richer than a quote/news nomination, use the generic live-influx lane:
+
+`PUBLIC_SITE/live_influx/`
+
+For a machine-readable plug-n-play handoff, prefer:
+
+`PUBLIC_SITE/live_influx/packets/`
+
+Packet contract:
+
+`PUBLIC_SITE/live_influx/packets/README.md`
+
+Common collision-safe emitter:
+
+`WORKSPACES/COMMON/scripts/emit_public_site_update_packet.py`
+
+Good packet candidates include:
+
+- Class-P or Class-H geometric/mathematical figures with durable source paths;
+- a bounded solver/formalization result that deserves Current Work visibility;
+- a new or clarified concept that should update several public surfaces;
+- a presentation-ready document, code artifact, historical source, or archive find;
+- a useful cross-link among glossary, Reading Room, claims explorer, podcast, current work, or solver pages;
+- a public-facing workflow/infrastructure development worth exposing.
+
+A packet should preserve exact source pointers, intended site destinations, current/sandbox/historical status, and visual provenance. Packet status such as `ready` means ready for site/editorial intake only; it never promotes theory status.
+
+The active worker housewheel owns **feeding** this lane opportunistically. A dedicated Sites recurrence is not required. Actual live-site editing/publication remains a separate site-builder/editor action and must never be claimed merely because a repository packet exists.
+
+## Visual handoff rule
+
+For project geometry and mathematical visuals, preserve the standing hierarchy:
+
+- `P` — script-drawn / exact precision artifact from explicit geometry or parameters;
+- `H` — controlled hybrid built on P or exact computational output;
+- `I` — illustrative render.
+
+Class I has no geometric authority unless it is explicitly downstream of P or H; otherwise it is only a doodle. Public-site packets should carry the visual class and source ancestry when relevant.
 
 ## Quote harvest
 
@@ -33,6 +74,8 @@ Preserve:
 - historical/current/superseded status when relevant.
 
 `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` is the preferred existing substrate when it already contains the passage. If authorship is not sufficiently verified, mark the candidate `needs-check`; do not promote by style or confidence.
+
+When a Nathan-direct source carries Nathan's reserved signet, preserve that fact in metadata only as `[OWL]`; workers must not reproduce the signet itself.
 
 ### Quotable LLM
 
@@ -96,4 +139,4 @@ See:
 
 ## Worker bite
 
-A nomination should normally be a tiny side-effect of work already being done: one good quote or one good news item, one source check, one candidate record. Do not turn every recurrence into public-site curation.
+A nomination or structured packet should normally be a tiny side-effect of work already being done: one useful public-facing object, exact source pointers, and enough status/presentation metadata for the site builder to act. Do not turn every recurrence into public-site curation.
