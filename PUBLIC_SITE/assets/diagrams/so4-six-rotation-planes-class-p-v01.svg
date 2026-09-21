@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+<title id="title">Six sphere-locked coordinate-plane rotations in four dimensions</title>
+<desc id="desc">A complete graph on axes x y z w labels the six SO(4) coordinate-plane rotation generators xy, xz, xw, yz, yw, zw. With w provisionally the local polar or tangent axis, xw, yw, zw bend the pole while xy, xz, yz twist the normal-space frame.</desc>
+<rect width="900" height="680" fill="white"/>
+<g stroke="#222" stroke-width="3" fill="none">
+<line x1="180" y1="500" x2="720" y2="500"/><line x1="180" y1="500" x2="450" y2="120"/><line x1="180" y1="500" x2="450" y2="340"/>
+<line x1="720" y1="500" x2="450" y2="120"/><line x1="720" y1="500" x2="450" y2="340"/><line x1="450" y1="120" x2="450" y2="340"/>
+</g>
+<g fill="#111" font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<text x="450" y="55" font-size="27" font-weight="700">Class P — six sphere-locked coordinate-plane rotations in 4D</text>
+<text x="180" y="540" font-size="28">x</text><text x="720" y="540" font-size="28">y</text><text x="450" y="105" font-size="28">z</text><text x="450" y="330" font-size="28">w</text>
+<text x="450" y="490" font-size="22">ωxy</text><text x="292" y="292" font-size="22">ωxz</text><text x="320" y="430" font-size="22">ωxw</text>
+<text x="608" y="292" font-size="22">ωyz</text><text x="580" y="430" font-size="22">ωyw</text><text x="480" y="230" font-size="22">ωzw</text>
+<text x="450" y="595" font-size="18">SO(4): xy, xz, xw, yz, yw, zw</text>
+<text x="450" y="625" font-size="17">w provisional local polar/tangent axis → xw/yw/zw bend; xy/xz/yz twist normal-space frame</text>
+<text x="450" y="652" font-size="15">Candidate Hagalaz interlingua formalization; source: Meridian RUN 091, 2026-09-21</text>
+</g>
+<g fill="white" stroke="#222" stroke-width="3"><circle cx="180" cy="500" r="15"/><circle cx="720" cy="500" r="15"/><circle cx="450" cy="120" r="15"/><circle cx="450" cy="340" r="15"/></g>
+</svg>
