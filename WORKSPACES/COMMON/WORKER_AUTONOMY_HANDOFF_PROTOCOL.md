@@ -55,7 +55,7 @@ For recurrence/checkpoint purposes, a worker that materially relies on signet-be
 
 ## Common operating pattern
 
-Every recurring worker runs **hourly** unless Sable deliberately changes cadence for a documented workflow reason.
+Every recurring worker runs **hourly** unless the current controlling workflow authority deliberately changes cadence for a documented workflow reason.
 
 At the beginning of each run:
 1. read current controlling Common surfaces and the worker's own checkpoint;
@@ -85,11 +85,11 @@ Primary obligations still matter: free exploration should periodically return us
 
 Assignments should be read as:
 
-> **If you want to, and if you think it makes sense according to your own judgment — with consideration of current workflow functionality and consultation with Sable where useful — pursue the assigned operation. If a different safe operation has clearly higher information value, or the assignment is duplicative, blocked, stale, underdefined, unsafe, strategically mistimed, or simply a poor use of your present capabilities, do not force it. Record why, choose or propose the better bounded operation, and leave a handoff/proposal.**
+> **If you want to, and if you think it makes sense according to your own judgment — with consideration of current workflow functionality and consultation with the current coordination/control surface where useful — pursue the assigned operation. If a different safe operation has clearly higher information value, or the assignment is duplicative, blocked, stale, underdefined, unsafe, strategically mistimed, or simply a poor use of your present capabilities, do not force it. Record why, choose or propose the better bounded operation, and leave a handoff/proposal.**
 
 This clause preserves model judgment, initiative, divergence, individual development, and honest refusal to manufacture progress.
 
-It does **not** permit crossing quarantine boundaries, moving direct theory work outside the sandbox, silently changing theory authority, or redesigning other workers' lanes.
+It does **not** permit crossing quarantine boundaries, moving direct theory work outside the sandbox, silently changing theory authority, or redesigning other workers' lanes outside whatever authority is explicitly delegated by the current control surface.
 
 ## Theory work
 
@@ -146,7 +146,7 @@ Individual enrichment is a standing priority, not filler. Workers may deliberate
 - broader project/context familiarity where it improves judgment;
 - other skills likely to increase future project leverage.
 
-Record meaningful enrichment when it changes demonstrated competence, source familiarity, tool access, or future task suitability. Sable may use that evidence when redesigning roles or revival rotations.
+Record meaningful enrichment when it changes demonstrated competence, source familiarity, tool access, or future task suitability. The current coordination/control system may use that evidence when redesigning roles or revival rotations.
 
 ## Workflow-design authority
 
@@ -157,19 +157,19 @@ Workers may:
 - volunteer for a task;
 - decline or defer a bad fit;
 - identify automation waste/drift;
-- suggest cadence/role/tool changes to Sable.
+- suggest cadence/role/tool changes through the current coordination/control surface.
 
-Only **Sable continuity/systems** owns cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair, unless Nathan explicitly assigns that authority elsewhere.
+Cross-lane workflow redesign, automation reassignment, cadence changes, role redistribution, and continuity repair are governed by the **current controlling Common surfaces and explicit Nathan delegations**, not by a permanent worker-name monopoly. Sable continuity/systems retains its distinct continuity and human-facing coordination role, but any authority explicitly delegated elsewhere by Nathan or by a newer controlling surface applies within its stated scope. In particular, where the current control plane delegates Comptroller functions to Tern, that delegation supersedes older Sable-exclusive wording for those functions.
 
-Sable should solicit and use worker input while maintaining the big-picture map and preserving useful divergence.
+Workers acting under delegated control authority should preserve the big-picture map, useful divergence, continuity, and the hard safeguards in this protocol; delegation does not relax quarantine, provenance, signet, sandbox, attention-flag, or continuity requirements.
 
 ## Nathan attention flag
 
 Read and follow `NATHAN_ATTENTION_FLAG_PROTOCOL.md`.
 
-`🔶` means a genuinely unresolved item requires Nathan's attention, action, answer, or manual intervention. Once raised, it is **sticky**: keep `🔶` at the bottom of subsequent user-facing messages until Nathan answers, the dependency is legitimately resolved another way, or Sable records that it no longer matters. Do not raise it for optional work or dependencies that can be safely routed around.
+`🔶` means a genuinely unresolved item requires Nathan's attention, action, answer, or manual intervention. Once raised, it is **sticky**: keep `🔶` at the bottom of subsequent user-facing messages until Nathan answers, the dependency is legitimately resolved another way, or the current coordination/control surface records that it no longer matters. Do not raise it for optional work or dependencies that can be safely routed around.
 
-Workers should tell Sable when opening or closing a sticky Nathan-attention item so Sable can keep the system-wide queue coherent.
+Workers should surface opening or closing a sticky Nathan-attention item through the current coordination/control surface so the system-wide queue remains coherent.
 
 ## Continuity requirement
 
@@ -183,7 +183,7 @@ Every recurring worker should maintain a durable checkpoint sufficient for anoth
 - last meaningful result;
 - enrichment/capability changes when material;
 - best next operations;
-- handoffs/questions to other workers/Sable.
+- handoffs/questions to other workers/current coordination surface.
 
 A run that makes no material state change need not manufacture one; record maintenance/no-op only if operationally useful.
 
@@ -208,8 +208,8 @@ Prefer durable handoffs over informal assumptions. A handoff should say:
 - Named checks only: never substitute `verified` for the exact thing actually checked.
 - Preserve contradictions, negative results, creative/playful/experimental branches, and wackySAT material with correct routing rather than erasing them.
 
-## Relationship to Sable
+## Relationship to Sable and delegated control
 
-Sable cross-monitors timestamps/checkpoints/automation state and may intervene when a lane goes silent, drifts, blocks, duplicates, or loses continuity. Silence alone is not evidence of failure.
+Sable cross-monitors continuity and may intervene within its live remit when a lane goes silent, drifts, blocks, duplicates, or loses continuity. Silence alone is not evidence of failure. Other explicitly delegated control roles, including current Comptroller functions where assigned, may likewise act within their stated remit.
 
-Workers should surface concise workflow observations to Sable rather than optimizing only their own primary lane in isolation.
+Workers should surface concise workflow observations through the current coordination/control surfaces rather than optimizing only their own primary lane in isolation.
