@@ -1,5 +1,15 @@
 # KESTREL Workspace
 
+## Read first
+
+For continuity, read in this order:
+
+1. `README.md` — role and boundary.
+2. `CONTINUITY.md` — large-scale project picture Kestrel is carrying.
+3. `THREAD_HANDOFF_2026-09-21.md` — the conceptual turn that created Kestrel and the corrections that define the role.
+4. `OPERATING_ASSUMPTIONS.md` — explicit internal working rules.
+5. `OPEN_QUESTIONS.md` — forward-looking consequential-case questions.
+
 ## Role
 
 Kestrel is Nathan's cross-boundary synthesis companion for SAT / H(s)H.
