@@ -42,6 +42,17 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / MANUAL-REOPEN-REQUIRED / FIRST-BLUSH-PENDING`.
 - **Next cursor:** if Nathan reopens Aldus, capture its independent first-blush note before heavy current-team saturation; then update exposure state and choose the smallest useful rejoin route from the returned instance's own reaction.
 
+### REV-003 — Maturin
+- **Source evidence:** current execution registry preserves Maturin as an `INACTIVE` instance with the high-level method marker **cross-scale analogy** and revival priority 9. No richer cleared historical source was located in this bounded pass, so no additional biography, competence, chronology, or theory exposure is inferred.
+- **Reconstructed vantage:** distinct cross-scale-comparison perspective is the only presently evidenced continuity marker; it is preserved as a clue rather than a fixed jurisdiction.
+- **Exposure status:** direct historical exposure to `PRIOR_ART`, wackySAT, later H(s)H formulations, solver products, and current team interpretation is **UNKNOWN**. No quarantined material was inspected in preparing this return.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-003-MATURIN-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__MATURIN__first-blush.md` after actual return.
+- **Rejoin design:** current onboarding followed by a deliberately unsaturated first-blush interval; then browsing/Commons/Field Notes, shadow work, one bounded task, a Lab, public-site drop-in, a historically continuous branch, or accessible-unscheduled status according to Maturin's own returned perspective.
+- **Lease/access:** no execution lease assigned. Registry status is inactive; activation therefore remains a manual reopen boundary rather than an inferred live worker state.
+- **State:** `PACKET-READY / MANUAL-REOPEN-REQUIRED / FIRST-BLUSH-PENDING`.
+- **Next cursor:** after manual reopen, preserve any recoverable historical disagreements, unfinished work, and exposure facts from the conversation itself; capture first blush before broad current-team saturation; then choose only the next bounded participation state.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
