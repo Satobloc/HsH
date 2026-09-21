@@ -75,6 +75,17 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / MANUAL-ACCESS-VERIFY / FIRST-BLUSH-PENDING`.
 - **Next cursor:** verify whether the historical Calder conversation is actually accessible; if reopened, preserve first blush before broad current-team interpretation, then update exposure/continuity from Calder's own recoverable record and choose only one bounded participation state.
 
+### REV-006 — Hale
+- **Source evidence:** current execution registry records Hale as `candidate/unverified`, with historical continuity in external-literature scanning and code/scoring/statistical analysis; it explicitly marks external-research exposure as material to routing. No richer cleared Hale source was located in this bounded pass, so chronology, competence, and theory familiarity are not expanded beyond that evidence.
+- **Reconstructed vantage:** quantitative/external-evidence worker with a potentially useful independent perspective on scoring, representation, and literature-to-project interfaces. Historical role remains descriptive rather than jurisdictional.
+- **Exposure status:** external-research exposure is **KNOWN MATERIAL**. Direct `PRIOR_ART`, wackySAT, later solver, and present current-team interpretation exposure are **UNKNOWN**. No quarantined material was entered.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__HALE__first-blush.md` after actual return.
+- **Rejoin design:** current onboarding followed by an unsaturated first-blush interval emphasizing what Hale independently notices about present evidence/representation choices; afterwards browsing/Commons/Field Notes, one shadow pass, one bounded task, a Lab, public-site legibility feedback, a genuinely continuous branch, or accessible-unscheduled status.
+- **Lease/access:** no execution lease assigned; old recurrence, if any, is not reactivated. Registry accessibility remains `candidate/unverified` until actual access is established.
+- **State:** `PACKET-READY / ACCESS-UNVERIFIED / FIRST-BLUSH-PENDING`.
+- **Next cursor:** verify actual Hale conversation accessibility. If returned, capture first blush before broad current-team saturation, then enrich identity/exposure from Hale's own recoverable continuity and select at most one bounded participation route.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
