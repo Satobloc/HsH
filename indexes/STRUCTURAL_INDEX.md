@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-21T13:37:51+00:00`
-- Tree/content state: `f081976272dfec665386cdd2bf9e082c2b7fb43bfaee8283418b27b7f71f4de0`
-- Coverage: 1958 files, 119 directories
+- Scanned: `2026-09-21T15:07:05+00:00`
+- Tree/content state: `4269013c83478f19861cb3c31fd3812a8e5b6258fd7e9544026a94d77d69bd12`
+- Coverage: 1960 files, 119 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -33,7 +33,7 @@
 | `SAT_VISUALS` | 129 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 797 |
+| `WORKSPACES` | 799 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -63,7 +63,7 @@
 | `.jsonl` | 14 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 801 |
+| `.md` | 803 |
 | `.mjs` | 1 |
 | `.pdf` | 29 |
 | `.png` | 37 |
@@ -90,7 +90,7 @@
 | `generated-catalog` | 25 |
 | `license` | 1 |
 | `live-conversation-corpus` | 36 |
-| `llm-workspace` | 797 |
+| `llm-workspace` | 799 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 802 |
 | `synthesis-workspace` | 6 |
@@ -1629,6 +1629,7 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 7277 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_GENERIC_OFFSET_REGRESSION_2026-09-21.md` — 2447 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN083_CARRIER_MARGIN_2026-09-21.md` — 2984 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN084_COLLAPSE_CROSSING_2026-09-21.md` — 3349 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` — 6737 bytes — `llm-workspace`
@@ -2049,6 +2050,7 @@
 - `WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md` — 4152 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN083_ARBITRARY_TRIANGLE_CARRIER_MARGIN_QA.md` — 4332 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN084_COLLAPSE_FAMILY_QA.md` — 4258 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_ANALYTIC_QA.md` — 3247 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_CARRIER_STRESS_QA.md` — 4189 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 4959 bytes — `llm-workspace`

@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 2631022084,
+    "bytes_known": 2631027778,
     "directories": 119,
-    "files": 1958
+    "files": 1960
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -19,7 +19,7 @@
     ".jsonl": 14,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 801,
+    ".md": 803,
     ".mjs": 1,
     ".pdf": 29,
     ".png": 37,
@@ -43,7 +43,7 @@
     "generated-catalog": 25,
     "license": 1,
     "live-conversation-corpus": 36,
-    "llm-workspace": 797,
+    "llm-workspace": 799,
     "review-ledger": 5,
     "source-conversation-corpus": 802,
     "synthesis-workspace": 6,
@@ -74,7 +74,7 @@
     "SAT_VISUALS": 129,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 797,
+    "WORKSPACES": 799,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -1248,7 +1248,7 @@
       "size": 49
     },
     {
-      "content_id": "80e037e67c70e9b59adcbd78fbcce36b35f653c807f212936995efceeb0408d4",
+      "content_id": "54fa1016557f15169c741511745d33c6b9c324006fbf884496d488b00093bea4",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -9515,6 +9515,13 @@
       "size": 7277
     },
     {
+      "content_id": "1f037611af3bec13a8097a7f2f7c49883d951637a9e86bf8f8feac82cb2f24a1",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_GENERIC_OFFSET_REGRESSION_2026-09-21.md",
+      "role": "llm-workspace",
+      "size": 2447
+    },
+    {
       "content_id": "4a0611db944f672bacdef4a46ba6c0f8729c7d4ec23610c7fc383867d20de6df",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN083_CARRIER_MARGIN_2026-09-21.md",
@@ -12623,6 +12630,13 @@
       "size": 4258
     },
     {
+      "content_id": "209b1fdd846e383dfacac922f6f988a9555cf003a952b7d96026592aafb448b1",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_ANALYTIC_QA.md",
+      "role": "llm-workspace",
+      "size": 3247
+    },
+    {
       "content_id": "7389e5dcd27a1513ea5262b6f66bbe51a71f1aca7d43aa2bf728316385c41433",
       "kind": "blob",
       "path": "WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_CARRIER_STRESS_QA.md",
@@ -14933,7 +14947,7 @@
       "size": null
     },
     {
-      "content_id": "377844ab250ab2c323d0ba6a13efdf5faee0227838e82b2ffb8771d95e13db35",
+      "content_id": "a2f1d415440021b3ab174258cc1ccecf593b1595ee709330cffedd88b14964f3",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -14947,7 +14961,7 @@
       "size": 8625
     },
     {
-      "content_id": "c3a3f49d12f67490134168a873238217973c972bad80d7cbd5bf26aed20ceac0",
+      "content_id": "5670896d749ada6f07fc1ee649503624b2088a07c971ac525abf3aa7ff409c9f",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -15010,14 +15024,14 @@
       "size": null
     },
     {
-      "content_id": "c9a12239f74cc5d54ecb8dd5a2ab673f7df08e04364a6061cef5b56623594c2f",
+      "content_id": "da655ab758b39e5b4bab5fac0efd6c0bb7ebe133a6500a1353f5a876ca65bd65",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 315277
     },
     {
-      "content_id": "8eb89926596a7720adbd2da14290fc6080c783c01f1b858ef503879c3d160c5e",
+      "content_id": "81d9f8938248230a7e26b1d7252ed1c5bf1489557acecb77b5d77f9bf800a2b6",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -15424,8 +15438,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-21T13:37:51+00:00",
+  "scanned_at_utc": "2026-09-21T15:07:05+00:00",
   "schema_version": 1,
-  "tree_id": "f081976272dfec665386cdd2bf9e082c2b7fb43bfaee8283418b27b7f71f4de0",
+  "tree_id": "4269013c83478f19861cb3c31fd3812a8e5b6258fd7e9544026a94d77d69bd12",
   "tree_response_truncated": false
 }
