@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 583,
+  "json_files_scanned": 588,
   "conversation_exports_recognized": 435,
-  "nonconversation_json_skipped": 147,
+  "nonconversation_json_skipped": 152,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
@@ -802,8 +802,7 @@
         "CONV:PROVENANCE-HISTORY",
         "CONV:SAT-HSH",
         "CONV:UI",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -831,8 +830,8 @@
         "SHORT-TURN",
         "SPECULATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 79.3,
       "tagger_version": 2,
       "source_sha256": "028782b4a3d731693f21806ad13787fe64fafb8a07503a240d0a911c5ef79297",
@@ -1129,8 +1128,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -1172,8 +1170,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 62.66,
       "tagger_version": 2,
       "source_sha256": "8ab0a3cc449f8a96f7d97606f9cdbb35d3e5cf1a3fabf0ba35c5df503b4316a7",
@@ -1466,8 +1464,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -1509,8 +1506,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "e1013e6f81603f95be4b6d41bfe829640bc7ac8106ddc0621ab85de73c41331b",
@@ -1817,8 +1814,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -1850,8 +1846,8 @@
         "SPECULATION",
         "TESTING-VALIDATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 62.0,
       "tagger_version": 2,
       "source_sha256": "12fa524ccc9ce7f8364906fe6770cd286be1490011db5cd965d9a152894e2f7f",
@@ -2154,8 +2150,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -2195,8 +2190,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 91.44,
       "tagger_version": 2,
       "source_sha256": "230d292248a9a0e161256cc06bda0db33ce0032a608dac249a36a0bcc0995443",
@@ -2523,8 +2518,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -2568,8 +2562,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "12ee98a52c1ef45de09de25a9396eca26ad2f60c5b555ef3713b0bc7bcd7ed5c",
@@ -2876,8 +2870,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -2920,8 +2913,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 93.96,
       "tagger_version": 2,
       "source_sha256": "cf69dceffabaaa5115a516efa6b72a105a1d137369e8118a87a8153b146986d5",
@@ -3134,8 +3127,7 @@
         "CONV:TOPOLOGY",
         "CONV:TOPOLOGY-MORPHOLOGY",
         "CONV:WHIRLIGIG-DONUT",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -3158,8 +3150,8 @@
         "SHORT-TURN",
         "SPECULATION"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 42.1382,
       "tagger_version": 2,
       "source_sha256": "a71e5df82ba3de5b14c0f44a7642534c39a9fd71bd142e5f62d6821d606ad1b6",
@@ -3428,8 +3420,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -3469,8 +3460,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 74.0,
       "tagger_version": 2,
       "source_sha256": "cff3a9aa815c019c75f2c2c7d8dc9088c1a9cac235325bb22685c71ea55e5402",
@@ -3787,8 +3778,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "BLUNTNESS",
@@ -3832,8 +3822,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "50904b36da233ba84781a49b0ce98b346f2fb6b39732d292320054b486869149",
@@ -4130,8 +4120,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -4169,8 +4158,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "a29d32cf1de6b3d69a27be0c9bd42a35ac4c09ba94c2508390249901ae3c6f41",
