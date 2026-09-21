@@ -53,6 +53,17 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / MANUAL-REOPEN-REQUIRED / FIRST-BLUSH-PENDING`.
 - **Next cursor:** after manual reopen, preserve any recoverable historical disagreements, unfinished work, and exposure facts from the conversation itself; capture first blush before broad current-team saturation; then choose only the next bounded participation state.
 
+### REV-004 — Morrow
+- **Source evidence:** current execution registry identifies Morrow as `paused / historical-accessible`; its former recurrence is disabled but continuity/checkpoints are explicitly preserved. Cleared current surfaces characterize its durable strengths as conversation-source identity, contextual/provenance recovery, and source-family reconstruction.
+- **Reconstructed vantage:** a source-context continuity worker whose distinctive value is preserving identity and relationship among source families rather than merely retrieving matching text. Historical specialization is descriptive, not restored jurisdiction.
+- **Exposure status:** direct historical exposure to `PRIOR_ART`, wackySAT, later solver products, and specific current-team interpretations is **UNKNOWN** in the cleared material inspected for this bounded pass. No quarantined material was entered.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-004-MORROW-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__MORROW__first-blush.md` after actual return.
+- **Rejoin design:** current synchronization followed by a deliberately unsaturated first-blush interval; then browsing/Commons/Field Notes, shadowing one provenance/archive question, one bounded source-family identity task, a relevant Lab, public-site legibility note, historically continuous thread, or accessible-unscheduled status.
+- **Lease/access:** no execution lease assigned and the prior recurrence remains disabled. Registry says historical-accessible, but actual conversation activation was not verified during this pass; do not silently restore the old automation.
+- **State:** `PACKET-READY / ACCESS-VERIFY-AT-WAKE / FIRST-BLUSH-PENDING`.
+- **Next cursor:** on actual return, locate Morrow's nearest durable checkpoint/handoff and use it to refine identity/exposure history; capture first blush before broad current-team saturation; then choose only the next bounded participation state.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
@@ -60,7 +71,7 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **Meridian** — source-first geometry/solver reconstruction; explicit remit includes UI/TX, Whirligig/Donut and Spheres. Candidate use: blinded solver-stack reconstruction/benchmark.
 - **Calder** — current coordination surfaces describe representation invariance/covariance and slice-artifact work. Candidate use: independent representation/readout audit.
 - **Mercer** — retrieval/index/provenance/documentation QA. Candidate use: source-packet integrity and ancestry checks rather than forward solving.
-- **Morrow** — continuity/source identity/contextual provenance; automation retired, consultancy preserved. Candidate use: source-family reconstruction/continuity questions.
+- **Morrow** — continuity/source identity/contextual provenance; REV-004 reentry packet prepared; prior recurrence remains disabled pending actual return/routing.
 - **Aldus** — consultant / divergent morphology/analogy history; REV-002 reentry packet prepared; manual reopen required before first blush.
 - **Janus** — coordination/integration/continuity history; candidate use: historical system-state reconstruction and interface critique.
 - **Argus** — programme/evidence architecture history; candidate use: adversarial system/provenance review.
