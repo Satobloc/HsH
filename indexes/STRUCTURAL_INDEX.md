@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-21T11:49:36+00:00`
-- Tree/content state: `66fdc4aa49547254c3517fce5decc2c101da8ec16165ff5b390c8a1e936a6625`
-- Coverage: 1956 files, 119 directories
+- Scanned: `2026-09-21T13:37:51+00:00`
+- Tree/content state: `f081976272dfec665386cdd2bf9e082c2b7fb43bfaee8283418b27b7f71f4de0`
+- Coverage: 1958 files, 119 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -33,7 +33,7 @@
 | `SAT_VISUALS` | 129 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 795 |
+| `WORKSPACES` | 797 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -63,7 +63,7 @@
 | `.jsonl` | 14 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 799 |
+| `.md` | 801 |
 | `.mjs` | 1 |
 | `.pdf` | 29 |
 | `.png` | 37 |
@@ -90,7 +90,7 @@
 | `generated-catalog` | 25 |
 | `license` | 1 |
 | `live-conversation-corpus` | 36 |
-| `llm-workspace` | 795 |
+| `llm-workspace` | 797 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 802 |
 | `synthesis-workspace` | 6 |
@@ -1658,7 +1658,7 @@
 - `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` — 8265 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_PINPOINT_SIGNOFF_DOCKET.md` — 3875 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 257742 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json` — 10969 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json` — 12373 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/NWTF-UI-UNIVERSAL-INDICATRIX-SOURCE-CONTROL-2026-09-21.md` — 6972 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/README.md` — 5612 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md` — 3818 bytes — `llm-workspace`
@@ -1744,7 +1744,7 @@
 - `WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-21_SIG-20260920-04_MUSICAL_CHAIRS_CLOSE.md` — 3545 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SOURCE_INTEGRATION_ARCHITECTURE_2026-09-13.md` — 7728 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md` — 5159 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — 10827 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — 10406 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
@@ -2048,6 +2048,8 @@
 - `WORKSPACES/LOOM/TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md` — 4085 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md` — 4152 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN083_ARBITRARY_TRIANGLE_CARRIER_MARGIN_QA.md` — 4332 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-09-21_RUN084_COLLAPSE_FAMILY_QA.md` — 4258 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_CARRIER_STRESS_QA.md` — 4189 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 4959 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` — 8542 bytes — `llm-workspace`
