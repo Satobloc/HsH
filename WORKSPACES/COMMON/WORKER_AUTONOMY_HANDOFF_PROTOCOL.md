@@ -25,6 +25,34 @@ Nathan's own use of his signet is authorized Nathan authorship and must not be d
 
 This rule belongs in startup/control documentation because workers must know it before writing commits or artifacts.
 
+## Nathan-direct signet provenance — rotation metadata
+
+**Nathan directive, 2026-09-21. This is a standing provenance rule for recurring workers and corpus/tooling that carries Nathan-authored material across rotations.**
+
+Nathan's own use of the protected signet is a particularly strong **direct-authorship/provenance marker for the exact accompanying Nathan-authored turn, note, directive, or artifact annotation**. Preserve that information as metadata when it is useful to source identity, reconstruction, correction handling, or theory-state provenance. Do not broaden its meaning beyond the accompanying content.
+
+When a source contains Nathan's signet, worker-side normalized metadata may record fields equivalent to:
+
+- `authorship: Nathan`;
+- `nathan_direct: true`;
+- `signet_present_in_source: true`;
+- `signet_reference: "[OWL]"` — placeholder/reference only, never a reproduced signet;
+- exact source/turn/message/date/path/commit pointer where available;
+- `scope: exact accompanying Nathan-authored content`;
+- `authority_effect: provenance/authorship only unless the accompanying Nathan text explicitly states a stronger effect`.
+
+This provenance should travel with the record through relevant rotations and handoffs — including Nathan Words, corpus/tagging/indexing, solver/source packets, QA, synthesis, and later visual/formal artifacts — rather than being discarded during normalization or repackaging.
+
+Hard interpretation limits:
+
+- signet presence does **not** by itself mean verified, mathematically checked, current, adopted, canonical, promoted, or physically validated;
+- signet absence is **not** negative evidence of Nathan authorship or importance;
+- turn-level intent/authorship rules still apply: a Nathan-authored turn may contain questions, quotations, pasted material, rhetoric, counterfactuals, humor, corrections, or material not endorsed sentence-by-sentence;
+- preserve exact scope and surrounding context rather than extracting a signed fragment into a stronger standalone claim;
+- if worker-visible text or a normalized dataset must refer to the protected mark, use `[OWL]` only. Never reproduce the signet itself.
+
+For recurrence/checkpoint purposes, a worker that materially relies on signet-bearing Nathan-direct content should record that provenance disposition explicitly (for example `NATHAN_DIRECT/[OWL]: INGESTED`, `SOURCE ONLY`, `CONFLICT`, or another precise status) alongside the ordinary source pointer.
+
 ## Common operating pattern
 
 Every recurring worker runs **hourly** unless Sable deliberately changes cadence for a documented workflow reason.
