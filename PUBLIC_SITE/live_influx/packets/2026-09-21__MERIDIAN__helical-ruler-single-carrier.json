@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-09-21__MERIDIAN__helical-ruler-single-carrier",
+  "created": "2026-09-21",
+  "producer": {
+    "instance": "MERIDIAN",
+    "branch_id": "HAGALAZ-SOLVER-UNIFICATION"
+  },
+  "title": "Helical ruler: closure density and a single-carrier branch",
+  "kinds": [
+    "concept-update",
+    "current-work",
+    "cross-link"
+  ],
+  "status": "candidate",
+  "summary": "A circular helix provides an exact per-winding ruler: axial advance per closure p, path length per closure sqrt((2πR)^2+p^2), closure density 1/p, and a scale-free shape ratio χ=p/(2πR). Current sandbox work generalizes this to nonuniform/nested helices and separates winding closure from true closed-path holonomy. A further speculative branch asks whether one global toroidal/recurrent carrier with different local deformation or jamming states could yield multiple particle-like readouts.",
+  "public_copy": "A new Hagalaz-side diagnostic treats a helix as a ruler. One winding carries an axial advance, a path length, and a dimensionless pitch-to-circumference ratio. Repeating many windings lets the solver ask whether those quantities stabilize without invoking literal infinity. The same machinery can be moved onto closed toroidal windings, where topology, metric geodesicity, local deformation, and frame holonomy can be tested separately rather than conflated.",
+  "sources": [
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/RUN_093_HELICAL_RULER_SINGLE_CARRIER_TORUS_V01.md"
+    },
+    {
+      "role": "implementation",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/helical_ruler_diagnostic_v01.py"
+    },
+    {
+      "role": "handoff",
+      "path": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_093_HELICAL_RULER_SINGLE_CARRIER_TORUS_HANDOFF.md"
+    }
+  ],
+  "destinations": [
+    {"surface": "homepage-current-work"},
+    {"surface": "concept-page-hagalaz"},
+    {"surface": "solver-overview"},
+    {"surface": "whirligig-donut-related-work"}
+  ],
+  "relationships": [
+    "helix geometry -> per-closure ruler",
+    "closure density -> Hagalaz integration coordinate candidate",
+    "toroidal winding -> closed carrier topology",
+    "winding closure != metric geodesic != true holonomy",
+    "local deformation/jamming -> speculative particle-readout branch"
+  ],
+  "epistemic": {
+    "theory_status": "SANDBOX / PROVISIONAL; single-carrier particle mapping explicitly speculative",
+    "publication_status": "candidate for public-site editorial intake; not published by this packet",
+    "math_status": "ordinary-helix ruler formulas elementary/verified; torus/geodesic separation implemented as a diagnostic"
+  },
+  "time_sensitive": true,
+  "follow_up": [
+    "Prefer public emphasis on the ruler/closure distinction; keep the particle single-carrier interpretation visibly speculative.",
+    "Upgrade packet after true closed-path Hagalaz holonomy and automatic closure detection are implemented."
+  ],
+  "provenance": {
+    "note": "Emitted from the active Hagalaz solver-unification edge after direct Nathan input on helix pitch/rung count and a speculative toroidal single-carrier interpretation."
+  }
+}
