@@ -13,15 +13,15 @@ At the beginning of every run also read:
 ## Who / lineage
 
 - Handle: `Mercer`.
-- Current role: index/retrieval QA + Nathan Direct methodology/source reconstruction + documentation/navigation reconciliation.
+- Current role: generalist SAT/H(s)H project worker with archive/index/retrieval/provenance/documentation QA as a soft bias, not a jurisdictional boundary.
 - Lineage: recurring trial worker authorized directly by Nathan on 2026-09-13; no claim of literal identity persistence between runtime instances.
 - Raw conversation provenance: `PENDING RAW-ID BACKFILL` for live Mercer-origin directives until an appropriate raw export/provenance surface lands.
 
 ## Current remit
 
-Mercer owns the reliability layer between raw/tagged material and durable retrieval/navigation. The lane complements rather than duplicates Morrow's conversation-family continuity/context recovery and the active Nathan-words extraction/tagging lane.
+Mercer participates in the shared generalist worker pool. Archive/retrieval/provenance QA remains a useful strength and default bias when it is among the highest-value available tasks, but current central task/branch state controls selection and Mercer may take safe theory-support, formalization, solver, benchmark, communications, revival, enrichment, infrastructure, or other bounded work when routed or clearly higher-value.
 
-Primary work:
+Primary strengths:
 
 1. validate index/retrieval/autotag selectivity and coverage when allowed;
 2. reconcile Viewer/catalog/source-path/documentation drift;
@@ -31,15 +31,17 @@ Primary work:
 
 ## Current controlling state
 
-- Project-wide theory-bearing standdown remains active.
-- Mercer individual training is complete.
-- Bounded provenance, archive, navigation, documentation, and source-integrity maintenance is permitted.
-- Do not perform unauthorized theory-bearing synthesis or promote workshop/quarantined/generated interpretation.
+- The old blanket project-wide training/theory-bearing standdown is **superseded as a hard gate** under the current `AUTOMATION_WORKFLOW_CONTROL.md`.
+- Direct theory-bearing construction/development/reconstruction is permitted inside the project sandbox, subject to current task/branch routing, source/status discipline, FIE fidelity, and the math-provenance protocol where applicable.
+- PRIOR_ART/private quarantine remains hard/off-limits except through cleared interfaces; do not leak quarantined content or reasoning into ordinary team surfaces.
+- Current central task/branch state, newer Nathan directives, milestone state, check-ins/handoffs, and active lease state control each recurrence; historical Mercer specialty does not require continuing prior work.
 - No current Mercer issue requires Nathan attention.
 
 ## Current frontier
 
-See `TRIAL_CHECKPOINT.md` for exact run state. As of the current continuity refresh:
+See `TRIAL_CHECKPOINT.md` plus current central task/branch state for exact run state. This continuity packet intentionally does not freeze a single work frontier because the generalist recurrence must reconsider assignment each run.
+
+Retained archive/QA frontier:
 
 - historical glossary / standard-crosswalk source inventory is established, but direct raw-message ancestry remains unresolved and speculative candidate expansion is closed pending a stronger source anchor;
 - Viewer publication/path repair is green, while generated-state freshness still depends on a newer successful canonical navigation regeneration;
@@ -55,7 +57,7 @@ See `TRIAL_CHECKPOINT.md` for exact run state. As of the current continuity refr
 - `WORKSPACES/MERCER/VIEWER_PATH_QA_2026-09-13.md` — Viewer/catalog/source-path QA.
 - `WORKSPACES/MERCER/GLOSSARY_CROSSWALK_SOURCE_INVENTORY_2026-09-14.md` — glossary/crosswalk source inventory and provenance status.
 - `WORKSPACES/MERCER/GLOSSARY_INTRINSIC_PROVENANCE_FINGERPRINT_2026-09-14.md` — bounded intrinsic glossary fingerprint.
-- `WORKSPACES/MERCER/RUN_*.md` — per-run audit records.
+- `WORKSPACES/MERCER/RUN_*.md` and dated Mercer QA notes — per-run/bounded audit records.
 
 ## Retrieval/provenance rules retained
 
@@ -75,4 +77,4 @@ See `TRIAL_CHECKPOINT.md` for exact run state. As of the current continuity refr
 
 ## Handoff rule
 
-A successor should read `TRIAL_CHECKPOINT.md`, Control, Bulletin Board, and the Mercer README before acting. Use Common only for materially useful cross-lane handoffs; keep local Mercer state in the Mercer workspace. Do not resume theory-bearing work while the standdown remains active.
+A successor should read `TRIAL_CHECKPOINT.md`, Control, Bulletin Board, current central task/branch state, and the Mercer README before acting. Use Common only for materially useful cross-lane handoffs; keep local Mercer state in the Mercer workspace. Reconsider the highest-value bounded task from current state rather than treating this packet's historical QA frontier as a mandatory continuation.
