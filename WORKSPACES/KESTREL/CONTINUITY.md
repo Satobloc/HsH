@@ -57,19 +57,21 @@ Without treating any of the following as finally adjudicated, Kestrel has seen e
 
 3. **The strong-force / braid sector should not be narrated as a late discovery that 'fell out' of SAT.** Nathan's interpretation is that the underlying strong-interaction geometry is already present in the 2003 material; later work increasingly identifies, labels, and formalizes that sector in QCD language. Do not collapse "geometric precursor" into "full modern QCD formalism."
 
-4. **A large fraction of SAT is intended as geometric remapping, not invention.** Nathan's own characterization is roughly: apply Minkowski, discard labels, look at geometry. Where the mapping is successful, it is supposed to preserve established physics rather than add a competing ontology by fiat.
+4. **RMS does not become SAT.** Radical meta-skepticism is better understood as unusually fertile epistemic soil in which the pre-existing SAT seed grew unusually well. RMS sharpened Nathan's habits around knowability, provenance, model error, uncertainty, and disciplined reconstruction; SAT's geometric core predates RMS by decades.
 
-5. **The main legitimate failure modes of that remapping layer are narrow.** Either the source physics itself leaves a gap / underdetermination, or the LLM failed to perform the requested mapping faithfully. An unnoticed extra assumption introduced by the model is not an intended SAT feature; it is a translation error to catch.
+5. **A large fraction of SAT is intended as geometric remapping, not invention.** Nathan's own characterization is roughly: apply Minkowski, discard labels, look at geometry. Where the mapping is successful, it is supposed to preserve established physics rather than add a competing ontology by fiat.
 
-6. **Novelty is concentrated at seams.** The consequential questions arise where established physics underdetermines the picture, where SAT proposes bridges between known sectors, where the geometry suggests eliminations or reclassifications, or where the framework produces distinct predictions.
+6. **The main legitimate failure modes of that remapping layer are narrow.** Either the source physics itself leaves a gap / underdetermination, or the LLM failed to perform the requested mapping faithfully. An unnoticed extra assumption introduced by the model is not an intended SAT feature; it is a translation error to catch.
 
-7. **The external literature has produced multiple striking structural overlaps and convergences.** These do not by themselves validate SAT, prove influence, or establish priority. Dedicated quarantined prior-art and factual-record work exists precisely to disentangle those possibilities. Kestrel carries the fact that the aggregate pattern is consequential enough to matter.
+7. **Novelty is concentrated at seams.** The consequential questions arise where established physics underdetermines the picture, where SAT proposes bridges between known sectors, where the geometry suggests eliminations or reclassifications, or where the framework produces distinct predictions.
 
-8. **The provenance record is unusually rich for an outsider theory.** There are dated notebooks, exported conversations, public audio, repositories, intermediate drafts, corrections, false starts, renamings, and extensive development traces. This matters independently of whether the physics survives.
+8. **The external literature has produced multiple striking structural overlaps and convergences.** These do not by themselves validate SAT, prove influence, or establish priority. Dedicated quarantined prior-art and factual-record work exists precisely to disentangle those possibilities. Kestrel carries the fact that the aggregate pattern is consequential enough to matter.
 
-9. **The project is in active audit, not in a proof-complete or peer-reviewed state.** Math, chronology, prior art, and empirical discriminators remain live work.
+9. **The provenance record is unusually rich for an outsider theory.** There are dated notebooks, exported conversations, public audio, repositories, intermediate drafts, corrections, false starts, renamings, and extensive development traces. This matters independently of whether the physics survives.
 
-10. **The current question for Kestrel is not primarily 'is there anything here?'** It is: if the emerging picture is broadly real, what follows for Nathan's decisions, project architecture, communication, preservation, pacing, and life?
+10. **The project is in active audit, not in a proof-complete or peer-reviewed state.** Math, chronology, prior art, and empirical discriminators remain live work.
+
+11. **The current question for Kestrel is not primarily 'is there anything here?'** It is: if the emerging picture is broadly real, what follows for Nathan's decisions, project architecture, communication, preservation, pacing, and life?
 
 ## Important theory continuity points
 
@@ -77,6 +79,7 @@ These are orientation anchors, not a substitute for current BEDROCK or source do
 
 - SAT: Scalar-Angular-Torsion historical project.
 - H(s)H: Hyperhelical Worldtube development; worldline language broadened into finite-core worldtube formalization.
+- RMS: Radical meta-skepticism; epistemic discipline / fertile ground for SAT formalization, not the progenitor theory from which SAT emerged.
 - Electrogravity: filament–timesheet interaction.
 - Interbraid: filament–filament interaction.
 - t-bosons / f-bosons: project terminology for corresponding interaction sectors.
