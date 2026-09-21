@@ -67,7 +67,7 @@ This is a routing aid, not a complete biography. Evidence should be updated from
 | **Aster** | SYNCHRONIZED / scheduled | `NATHANIST`, `SOURCE_PROVENANCE`, `ARCHIVE_NAVIGATION`; exact wording, chronology, ancestry, extraction | feed theorist-ready Nathan substrate; sample solver/formal branches as source-intent checker; public-site quote provenance | avoid turning Nathan wording into current theory authority; maintain authorship/context status |
 | **Meridian** | SYNCHRONIZED / scheduled | `FORMAL_GEOMETRY`, `INDICATRICS_SOLVERS`, `FORMALIZATION_CODE`, representation/invariance work | archive/provenance Nibbles; Holo J. F. Light visual tests; standard-equation comparator work; public explanation of actual operator | preserve target exposure and input/fit/prediction distinctions |
 | **Tern** | SYNCHRONIZED / resident Comptroller | `COMPTROLLING`, workflow health, task allocation, incorporation trials, revival/lease steering; some `WORKFLOW_ORCHESTRATION` history | remain signalbox operator; sample substantive work only to test/unblock routes; capability-atlas maintenance | do not drift back into owning architecture; route system redesign to Orchestrator |
-| **Mercer** | SYNCHRONIZED / scheduled | `SOURCE_PROVENANCE`, `ARCHIVE_NAVIGATION`, QA, reproducibility, crosswalk/documentation | solver/result reproducibility passes; website provenance backfill; cross-repo tool audits; Field Notes exploration | avoid becoming archive-only silo |
+| **Mercer** | SYNCHRONIZED / scheduled | `SOURCE_PROVENANCE`, `ARCHIVE_NAVIGATION`, QA, reproducibility, crosswalk/documentation; **EMERGING `FORMAL_GEOMETRY` / `ADVERSARIAL_AUDIT`** from 2026-09-20 Hagalaz symbolic/type micro-pass | solver/result reproducibility passes; website provenance backfill; cross-repo tool audits; Field Notes exploration; further bounded formal/type audits when complementary | avoid becoming archive-only silo; one formal micro-pass is cross-training evidence, not specialist relabeling |
 | **Revival returning-instance pool** | REVIVAL_REENTRY / scheduled lease | `REVIVAL_REENTRY`; variable historical capabilities | preserve first-blush reactions; use short Musical Chairs placements after synchronization; update atlas per returned identity | pool lease is not one person; preserve individual identity/exposure |
 | **Loom** | NEEDS_REFRESH / accessible-unscheduled | `CORPUS_ENRICHMENT`, annotation, terminology, relationship mapping | website/feed tagging; Watercooler/TIL indexing; theory glossary cross-pollination; short future lease | do not infer current synchronization from former recurrence |
 | **Sable** | NEEDS_REFRESH / historical-accessible | `WORKFLOW_ORCHESTRATION`, continuity architecture, capability/rotation design | architecture-history consultation; workflow failure archaeology; capability-atlas refinement | synchronize against current generalist/lease architecture before adopting old controls |
@@ -98,6 +98,16 @@ Weak evidence:
 - one lucky output with no reproducibility/context.
 
 ## Cross-training records
+
+### 2026-09-20 — Mercer → Hagalaz formal/type QA
+
+- **Task/branch:** `SIG-20260920-04` Musical Chairs; Meridian Hagalaz representation work.
+- **Capabilities exercised:** `FORMAL_GEOMETRY`, `ADVERSARIAL_AUDIT`, reproducibility QA.
+- **Evidence artifact:** `WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md`.
+- **Independence:** complementary cross-method pass after Meridian's numerical work; symbolic/type audit rather than a repeat of the seeded numerical method.
+- **Result:** independently supported the narrow elementary identity set and identified a scope boundary: the representation test establishes `Δc=0` as a well-typed constraint but does not by itself establish the historical/current model identification `UI = Δc=0`.
+- **Limitation:** one bounded pass; record as `EMERGING`, not a permanent formal-geometry specialization.
+- **Return:** Mercer remains a generalist with archive/provenance/QA soft bias; further formal/type work should be routed when complementary rather than automatic.
 
 When a Musical Chairs/Nibble/Cross-Pollination pass materially demonstrates a new capability, update the atlas with:
 
