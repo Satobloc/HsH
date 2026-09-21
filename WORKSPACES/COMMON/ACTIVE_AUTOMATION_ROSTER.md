@@ -20,13 +20,15 @@ Historical direction-unification and Dashboard materials remain provenance/strat
 
 ## Enabled recurring workers
 
+Reconciled against live scheduler state on 2026-09-20 after the revival-lease rotation.
+
 | Hourly phase (EDT) | Worker / task | Automation ID | Current lease bias |
 |---|---|---|---|
-| `:00` | Tag Conversation Corpus / Loom | `6aa61b3b2e4081918927a35b61007acc` | generalist; corpus/annotation bias |
 | `:12` | Nathan Words Excavator / Aster | `6aa5890bd0f081918f528b4f94990653` | generalist; Nathan Direct/provenance bias |
 | `:28` | Meridian Solver Loop / Meridian | `6aa6c3bc02b48191b8a91a30d2a155e0` | generalist; solver/formalization bias |
-| `:45` | AUTOMATION — Project Systems / Tern | `6aa80ddccc888191a6a9b2c073f434b7` | resident Comptroller/system-steering generalist |
+| `:45` | Comptroller — Active Edge Signalbox / Tern | `6aa80ddccc888191a6a9b2c073f434b7` | resident Comptroller/system-steering generalist |
 | `:52` | Mercer Archive QA Loop / Mercer | `6aa6c2792c9c8191ab2c128a80c437cf` | generalist; archive/QA bias |
+| every 3h from `18:00` | Revival Rotation — Reentry Lounge | `6aa89d17296881918f8ad532e476579d` | identity-preserving revival/reentry pool lease |
 
 The five rows are **execution leases over a larger instance population**, not the complete worker population and not permanent jobs. Stable identity, accessibility/revival state, exposure history, and lease eligibility live in `INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
 
@@ -40,7 +42,7 @@ Tasks and branches may be split, merged, parked, resumed, reassigned, superseded
 
 ## Comptroller / system-steering authority
 
-Nathan's newer explicit directive assigns the resident Project Systems recurrence **Comptroller/system-steering authority**. Under that delegation it may, when warranted by current evidence and while preserving continuity/exposure constraints:
+Nathan's newer explicit directive assigns Tern's resident recurrence **Comptroller/system-steering authority**. Under that delegation it may, when warranted by current evidence and while preserving continuity/exposure constraints:
 
 - change task ownership or workflow branch routing;
 - park, split, merge, resume, supersede, or retire tasks/branches;
@@ -49,7 +51,7 @@ Nathan's newer explicit directive assigns the resident Project Systems recurrenc
 - repair control-plane/continuity routing and propagate current directives;
 - revise milestone/task-graph state when current evidence or Nathan directives justify it.
 
-This authority is operational and does **not** make Project Systems the human-facing Sable conversation or identity. The no-conversation-renaming rule is narrow: do not alter or suggest altering user-visible ChatGPT conversation titles. It does not prohibit workflow, branch, task, ownership, priority, or lease changes.
+This authority is operational and does **not** make Tern the human-facing Sable conversation or identity. The no-conversation-renaming rule is narrow: do not alter or suggest altering user-visible ChatGPT conversation titles. It does not prohibit workflow, branch, task, ownership, priority, or lease changes.
 
 Newer explicit Nathan directives remain controlling. Where an older control surface reserves these powers exclusively to Sable, that older reservation is superseded to the extent of the newer Comptroller delegation and should be reconciled rather than used to block authorized work.
 
@@ -74,12 +76,12 @@ Current hard boundaries include:
 
 | Worker/function | Prior automation | Current status |
 |---|---|---|
+| **Loom / Tag Conversation Corpus** | `6aa61b3b2e4081918927a35b61007acc` | lease released/disabled; Loom continuity preserved as paused/accessibile-unscheduled in registry |
 | **Morrow** | `6a9deb436bd0819196ab3ec694e294c2` | disabled lease; instance continuity preserved |
 | **Aldus** | no enabled recurring automation | historical-accessible/unscheduled subject to current registry evidence |
-| **Revival Rotation standalone** | `6aa89d17296881918f8ad532e476579d` | disabled lease; revival remains a live project function |
 | **Alberr** | historical/manual revival | archived/revival-ready; manual/revival controls apply |
 
-Consult `INSTANCE_REGISTRY_EXECUTION_LEASES.md` rather than treating this roster as the complete instance population.
+The **Revival Rotation — Reentry Lounge is active**, not transitioned/unscheduled. Consult `INSTANCE_REGISTRY_EXECUTION_LEASES.md` rather than treating this roster as the complete instance population.
 
 ## Control relationship
 
@@ -88,7 +90,7 @@ Consult `INSTANCE_REGISTRY_EXECUTION_LEASES.md` rather than treating this roster
 - `INSTANCE_REGISTRY_EXECUTION_LEASES.md` controls the identity-versus-lease distinction.
 - Primary ownership prevents collisions; it does not prohibit independent checking or justified reassignment.
 - Cross-lane changes require durable continuity and exposure-state preservation.
-- Project Systems/Tern holds the resident Comptroller lease unless Nathan directs otherwise.
+- Tern holds the resident Comptroller lease unless Nathan directs otherwise.
 - Human-facing Sable continuity remains a distinct identity and should not be conflated with the backend recurrence.
 - `🔶` is reserved for a genuinely unresolved Nathan-only action or decision.
 
