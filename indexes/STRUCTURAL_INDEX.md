@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-21T03:40:10+00:00`
-- Tree/content state: `f3c6286962ffd99c655c66246e498a72b04e7c85494d284b67b3ba14bce1e5f3`
-- Coverage: 1891 files, 117 directories
+- Scanned: `2026-09-21T11:49:36+00:00`
+- Tree/content state: `66fdc4aa49547254c3517fce5decc2c101da8ec16165ff5b390c8a1e936a6625`
+- Coverage: 1956 files, 119 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -30,10 +30,10 @@
 | `PUBLIC_SITE` | 20 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
-| `SAT_VISUALS` | 87 |
+| `SAT_VISUALS` | 129 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 772 |
+| `WORKSPACES` | 795 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -56,14 +56,14 @@
 | `.htm` | 1 |
 | `.html` | 1 |
 | `.ipynb` | 1 |
-| `.jpeg` | 56 |
+| `.jpeg` | 98 |
 | `.jpg` | 17 |
 | `.js` | 9 |
 | `.json` | 592 |
 | `.jsonl` | 14 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 776 |
+| `.md` | 799 |
 | `.mjs` | 1 |
 | `.pdf` | 29 |
 | `.png` | 37 |
@@ -90,12 +90,12 @@
 | `generated-catalog` | 25 |
 | `license` | 1 |
 | `live-conversation-corpus` | 36 |
-| `llm-workspace` | 772 |
+| `llm-workspace` | 795 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 802 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 4 |
-| `unclassified` | 181 |
+| `unclassified` | 223 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -1412,9 +1412,9 @@
 - `PUBLIC_SITE/README.md` — 9613 bytes — `unclassified`
 - `PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md` — 32720 bytes — `unclassified`
 - `PUBLIC_SITE/WRITING_VOICE_GUIDE.md` — 18093 bytes — `unclassified`
-- `PUBLIC_SITE/build_suggestions/2026-09-20__CODEX__index-desk-sync-mersearch-handoff.md` — 2915 bytes — `unclassified`
+- `PUBLIC_SITE/build_suggestions/2026-09-20__CODEX__index-desk-sync-mersearch-handoff.md` — 4416 bytes — `unclassified`
 - `PUBLIC_SITE/build_suggestions/README.md` — 1507 bytes — `unclassified`
-- `PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md` — 2901 bytes — `unclassified`
+- `PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md` — 4309 bytes — `unclassified`
 - `PUBLIC_SITE/live_influx/README.md` — 2074 bytes — `unclassified`
 - `PUBLIC_SITE/news_candidates/README.md` — 3060 bytes — `unclassified`
 - `PUBLIC_SITE/quote_candidates/README.md` — 2124 bytes — `unclassified`
@@ -1472,6 +1472,48 @@
 - `SAT_VISUALS/DAI_thumbnails/IMG_9757.jpeg` — 665968 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_9910.jpeg` — 209122 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/gitignore.txt` — 1 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3305.jpeg` — 4322730 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3306.jpeg` — 3426687 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3307.jpeg` — 3928374 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3308.jpeg` — 3048524 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3309.jpeg` — 3625549 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3310.jpeg` — 2983956 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3311.jpeg` — 3646082 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3312.jpeg` — 2565839 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3313.jpeg` — 2605674 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3314.jpeg` — 2472688 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3315.jpeg` — 2705525 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3316.jpeg` — 3027826 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3317.jpeg` — 2700865 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3318.jpeg` — 2787221 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3319.jpeg` — 2924289 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3320.jpeg` — 3131001 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3321.jpeg` — 2906908 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3322.jpeg` — 3246432 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3323.jpeg` — 2462003 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3324.jpeg` — 3297978 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3325.jpeg` — 2887066 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3326.jpeg` — 2647734 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3327.jpeg` — 2686405 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3328.jpeg` — 2387804 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3329.jpeg` — 2890623 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3330.jpeg` — 3085722 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3332.jpeg` — 3027999 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3333.jpeg` — 2982689 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3334.jpeg` — 2594579 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3338.jpeg` — 2629978 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3339.jpeg` — 2936745 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3340.jpeg` — 2491862 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3352.jpeg` — 3741317 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3353.jpeg` — 3246002 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3354.jpeg` — 4131208 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3355.jpeg` — 3801935 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3356.jpeg` — 3796815 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3357.jpeg` — 3689449 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3358.jpeg` — 3912842 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3359.jpeg` — 3185531 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3360.jpeg` — 3099525 bytes — `unclassified`
+- `SAT_VISUALS/IMG_3361.jpeg` — 3178407 bytes — `unclassified`
 - `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` — 362858 bytes — `unclassified`
 - `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` — 1164982 bytes — `unclassified`
 - `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` — 1620593 bytes — `unclassified`
@@ -1536,7 +1578,7 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/notebooklm_full_exporter.js` — 15295 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/sync_old_archive_state.py` — 3935 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — 6587 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` — 8203 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` — 6770 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALBERR_HALL_OF_FIRST_PRINCIPLES.md` — 2398 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` — 12571 bytes — `llm-workspace`
@@ -1576,7 +1618,7 @@
 - `WORKSPACES/COMMON/CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md` — 2290 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md` — 14889 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md` — 11188 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md` — 6745 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md` — 7381 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/DIRECTION_UNIFICATION_2026-09-18.md` — 14552 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — 6161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md` — 4611 bytes — `llm-workspace`
@@ -1587,6 +1629,8 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 7277 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN083_CARRIER_MARGIN_2026-09-21.md` — 2984 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN084_COLLAPSE_CROSSING_2026-09-21.md` — 3349 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INFRASTRUCTURE_QA_ROTATION.md` — 6737 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md` — 10284 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/INSTANCE_CAPABILITY_ATLAS.md` — 11369 bytes — `llm-workspace`
@@ -1614,7 +1658,8 @@
 - `WORKSPACES/COMMON/NATHAN_LIVE_DEVELOPMENT_NOTES.md` — 8265 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_PINPOINT_SIGNOFF_DOCKET.md` — 3875 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 257742 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json` — 10655 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json` — 10969 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/NWTF-UI-UNIVERSAL-INDICATRIX-SOURCE-CONTROL-2026-09-21.md` — 6972 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/README.md` — 5612 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md` — 3818 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NOTEBOOKLM_EXPORT_REFRESH_2026-09-18.md` — 2698 bytes — `llm-workspace`
@@ -1696,9 +1741,10 @@
 - `WORKSPACES/COMMON/SAT_LOOKUP_FILAMENT_GRAVITY_FORMER_INSTANCE_CHECKIN_2026-09-12.md` — 20630 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SCRIPT_RUN_MANIFEST_SCHEMA.json` — 2496 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SHARED_STATE_WRITE_SAFETY.md` — 3915 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-21_SIG-20260920-04_MUSICAL_CHAIRS_CLOSE.md` — 3545 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/SOURCE_INTEGRATION_ARCHITECTURE_2026-09-13.md` — 7728 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TAGGING_SIGNATURE_SAT_REQUEST_2026-09-13.md` — 5159 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — 10104 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — 10827 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_CONTROL.md` — 8894 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TEAM_OVERVIEW.md` — 5095 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/TRAINING_PASSAROUND_2026-09-12.md` — 3465 bytes — `llm-workspace`
@@ -1983,6 +2029,12 @@
 - `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-01.md` — 3054 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-14-RUSSIA-NUCLEAR-ARSENAL-MAINTENANCE-INCIDENTAL-READ-02.md` — 1070 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/2026-09-14-SCHIZOPHRENIE-UND-UEBERSETZUNGSHILFE-01.md` — 935 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/CONTINUITY.md` — 9683 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/OPEN_QUESTIONS.md` — 5080 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/OPERATING_ASSUMPTIONS.md` — 7524 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/README.md` — 4300 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/THREAD_HANDOFF_2026-09-21.md` — 6176 bytes — `llm-workspace`
+- `WORKSPACES/KESTREL/WORKING_HYPOTHESIS_2026-09-21.md` — 12025 bytes — `llm-workspace`
 - `WORKSPACES/LABS/HOLO_JF_LIGHT_VIRTUAL_OPTICAL_WORKBENCH.md` — 3378 bytes — `llm-workspace`
 - `WORKSPACES/LABS/LAB_REGISTRY.json` — 2301 bytes — `llm-workspace`
 - `WORKSPACES/LABS/README.md` — 4597 bytes — `llm-workspace`
@@ -1995,6 +2047,7 @@
 - `WORKSPACES/LOOM/RUN_2026-09-20_BOLD_EXPLORATION_SHIFT.md` — 3597 bytes — `llm-workspace`
 - `WORKSPACES/LOOM/TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md` — 4085 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md` — 4152 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-09-21_RUN083_ARBITRARY_TRIANGLE_CARRIER_MARGIN_QA.md` — 4332 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 4959 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` — 8542 bytes — `llm-workspace`
@@ -2131,11 +2184,14 @@
 - `WORKSPACES/MERCER/validate_cross_source_integrity_v2.py` — 8166 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/viewer_input_semantics.py` — 5199 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/2026-09-19_WHirligig_INFORMATION_CONSERVING_REPRESENTATION_AUDIT_05.md` — 5461 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md` — 3472 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/HAGALAZ_FRAMED_HYPERSPHERE_NOTE_2026-09-20.md` — 5512 bytes — `llm-workspace`
-- `WORKSPACES/MERIDIAN/HAGALAZ_REPRESENTATION_TEST_2026-09-20.md` — 4220 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/HAGALAZ_REPRESENTATION_TEST_2026-09-20.md` — 5551 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/HAGALAZ_SOURCE_RECOVERY_CURSOR_2026-09-20.md` — 5240 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/HANDOFF_MUSICAL_CHAIRS_UI_PROVENANCE_2026-09-20.md` — 2649 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/HANDOFF_NWTF_CARRIER_READOUT_TO_THREE_SPHERES_2026-09-20.md` — 3057 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/HANDOFF_NWTF_THETA4_SEMANTIC_DRIFT_2026-09-20.md` — 2157 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/HANDOFF_NWTF_UI_UNIVERSAL_INDICATRIX_2026-09-21.md` — 2663 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/LLM_MATH_PROVENANCE_VERIFICATION_PROTOCOL.md` — 5961 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/MEETING_PREP_2026-09-14.md` — 8361 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/NATHAN_SIGNOFF_KEEP_AN_EYE_ON.md` — 4713 bytes — `llm-workspace`
@@ -2222,6 +2278,12 @@
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_077_HAGALAZ_CONTROLLED_EDGE_MISMATCH.md` — 3903 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_077_LITERAL_HAGALAZ_COMPOSITION.md` — 5904 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_078_SIM4_TRANSLATION_GAUGE_GATE.md` — 5121 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_079_CARRIER_READOUT_TYPE_GATE.md` — 4767 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_080_PRIMITIVE_PERTURBATION_GATE.md` — 6089 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_081_HAGALAZ_ADMISSIBILITY_INTERFACE.md` — 4232 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_082_COMPLEMENTARY_CHANNEL_NUMERICAL_CONTROL.md` — 3792 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_083_CARRIER_COLLAPSE_ORTHOGONAL_CHANNEL.md` — 5154 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_084_ARBITRARY_TRIANGLE_CARRIER_MARGIN.md` — 5710 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md` — 26835 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_VARIATIONAL_LOCAL_CHECK_2026-09-20.md` — 3900 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md` — 24586 bytes — `llm-workspace`
@@ -2256,7 +2318,7 @@
 - `WORKSPACES/SABLE/CONTINUITY_CHECKPOINT.md` — 14997 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/FORMALIZATION_SMOKE_TEST_001.md` — 1225 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/INBOX.md` — 20765 bytes — `llm-workspace`
-- `WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md` — 9617 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md` — 15642 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/PRE_MEETING_RESPONSE_2026-09-14.md` — 6193 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/PRIORITY_BEC_KLEIN_ER_KERR_2026-09-18.md` — 7279 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/PRIORITY_HSH_TOOLBOX_FORMALISMS_2026-09-18.md` — 5339 bytes — `llm-workspace`
@@ -2270,6 +2332,9 @@
 - `WORKSPACES/SABLE/TEAM_QUESTIONS_001.md` — 5024 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md` — 6266 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/WAKE_PACKETS/REV-002-ALDUS-REENTRY.md` — 4059 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/WAKE_PACKETS/REV-003-MATURIN-REENTRY.md` — 3533 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/WAKE_PACKETS/REV-004-MORROW-REENTRY.md` — 3988 bytes — `llm-workspace`
+- `WORKSPACES/SABLE/WAKE_PACKETS/REV-005-CALDER-REENTRY.md` — 3486 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/scripts/source_inventory_sampler.py` — 17179 bytes — `llm-workspace`
 - `WORKSPACES/TERN/CONTINUITY.md` — 5088 bytes — `llm-workspace`
 - `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_CROSS_SECTION_PACKET_001.md` — 6433 bytes — `llm-workspace`
