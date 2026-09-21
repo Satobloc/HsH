@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
@@ -45,13 +45,13 @@
     {
       "id": "SIG-20260920-04",
       "type": "MUSICAL_CHAIRS",
-      "status": "ONE_WAY_PASS_EVIDENCED",
+      "status": "TWO_WAY_PASS_COMPLETE",
       "target": "active substantive branches",
-      "evidence": "Mercer completed a bounded cross-method pass on Meridian's Hagalaz representation work at WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md. The symbolic/type audit independently supported the narrow elementary identity set while identifying a scope boundary: the representation test establishes Δc=0 as a well-typed constraint but does not itself establish the historical/current model identification UI = Δc=0. The Capability Atlas now records this as EMERGING FORMAL_GEOMETRY / ADVERSARIAL_AUDIT evidence for Mercer, explicitly without specialist relabeling.",
+      "evidence": "Mercer first completed a bounded symbolic/type audit of Meridian's Hagalaz representation, supporting the narrow elementary identity set while exposing that Δc=0 as a well-typed constraint did not itself establish UI = Δc=0 as a sourced model identity. Meridian then completed the reciprocal provenance/archive-interpretation micro-pass at WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md. That pass independently checked the relevant ordinary HsH surfaces and returned SOURCE_NOT_RECOVERED: no checked source independently establishes UI = Δc=0. It explicitly preserves Δc=0 as a valid candidate coordinate constraint while keeping the UI identification unresolved/source-dependent. The reciprocal pass therefore added information rather than merely reproducing the solver result.",
       "intent": "Test whether a complementary transformer array produces new information without permanent reassignment.",
-      "suggested_action": "The Mercer→solver half is complete and informative. When it does not interrupt compounding work, run the reciprocal or equivalent second rotation: Meridian into one provenance/archive-interpretation micro-pass, preferably on a live source/model-identification ambiguity such as the UI = Δc=0 provenance boundary surfaced by Mercer's audit. Freeze the result and record whether the different transformer array adds information; then RETURN/EXTEND/HANDOFF explicitly.",
-      "exit": "One two-way or equivalent short rotation is completed and capability/information-gain result is recorded in the Capability Atlas or branch checkpoint.",
-      "return_route": "INSTANCE_CAPABILITY_ATLAS.md + WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + relevant Meridian provenance micro-pass"
+      "suggested_action": "RETURN. The bounded two-way experiment is complete. Meridian should resume the shared-gauge Three-Spheres/Hagalaz comparator with UI = Δc=0 retained as an unresolved source-dependent identification. Reopen only if a future raw/indexed source yields a Nathan-authored UI definition; classify that source by date/currentness before promotion.",
+      "exit": "PASS: two-way rotation completed. Mercer supplied a formal/type boundary; Meridian's reciprocal provenance pass supplied an independent source-status boundary (SOURCE_NOT_RECOVERED) and a durable return route.",
+      "return_route": "WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md + INSTANCE_CAPABILITY_ATLAS.md; focal work returns to the Three-Spheres/Hagalaz comparator"
     },
     {
       "id": "SIG-20260920-05",
