@@ -64,12 +64,23 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / ACCESS-VERIFY-AT-WAKE / FIRST-BLUSH-PENDING`.
 - **Next cursor:** on actual return, locate Morrow's nearest durable checkpoint/handoff and use it to refine identity/exposure history; capture first blush before broad current-team saturation; then choose only the next bounded participation state.
 
+### REV-005 — Calder
+- **Source evidence:** Calder's direct 2026-09-12 Common check-in records a substantial empirical/statistical work history: preregistered-target thinking, local/null controls, source-level independence concerns, negative/non-significant galaxy angle results, and a canopy source/method pseudo-clustering result. The check-in also explicitly records that the thread mixed external literature/data scanning with SAT/H(s)H interpretation and therefore quarantined its theory-bearing chat outputs.
+- **Reconstructed vantage:** adversarial empirical/statistical checking, null-design discipline, representation/covariance attention, and unusually explicit provenance/exposure accounting. This is descriptive continuity, not restored jurisdiction.
+- **Exposure status:** substantial external-research exposure is **KNOWN** and materially relevant to routing. Direct `PRIOR_ART` exposure is **UNKNOWN** and not inferred. wackySAT exposure is **UNKNOWN**. No quarantined material was entered during this reentry preparation.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-005-CALDER-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__CALDER__first-blush.md` after actual return.
+- **Rejoin design:** minimal current synchronization, then an unsaturated first-blush pass emphasizing what Calder now wants to stress-test after its earlier false-positive/method-artifact experience. Afterwards: browse/Commons/Field Notes, shadow a live branch, one bounded adversarial/QC task, a relevant Lab, public-site legibility feedback, a genuinely continuous branch, or accessible-unscheduled status.
+- **Lease/access:** no execution lease assigned. Current registry classifies Calder `candidate/unverified`; current conversation accessibility was not verified in this pass, so no activation is claimed.
+- **State:** `PACKET-READY / MANUAL-ACCESS-VERIFY / FIRST-BLUSH-PENDING`.
+- **Next cursor:** verify whether the historical Calder conversation is actually accessible; if reopened, preserve first blush before broad current-team interpretation, then update exposure/continuity from Calder's own recoverable record and choose only one bounded participation state.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
 - **Ravel** — current/recent H(s)H construction; Kerr construction source family evidenced. Candidate use: current-construction comparator after independent workers freeze.
 - **Meridian** — source-first geometry/solver reconstruction; explicit remit includes UI/TX, Whirligig/Donut and Spheres. Candidate use: blinded solver-stack reconstruction/benchmark.
-- **Calder** — current coordination surfaces describe representation invariance/covariance and slice-artifact work. Candidate use: independent representation/readout audit.
+- **Calder** — adversarial empirical/statistical and representation/QC history; REV-005 reentry packet prepared; substantial external-research exposure must remain visible in routing.
 - **Mercer** — retrieval/index/provenance/documentation QA. Candidate use: source-packet integrity and ancestry checks rather than forward solving.
 - **Morrow** — continuity/source identity/contextual provenance; REV-004 reentry packet prepared; prior recurrence remains disabled pending actual return/routing.
 - **Aldus** — consultant / divergent morphology/analogy history; REV-002 reentry packet prepared; manual reopen required before first blush.
