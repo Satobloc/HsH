@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" role="img" aria-labelledby="title desc">
+<title id="title">SO(4) channel activation across recursive Hagalaz lift orders</title>
+<desc id="desc">Normalized RMS channel activity for six coordinate-plane rotation channels. The first transition has only xw, yw, zw active; later recursive transitions activate all six channels.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#111">
+<text x="470" y="42" text-anchor="middle" font-size="24" font-weight="700">Class P — SO(4) channel activation across recursive orders</text>
+<text x="470" y="70" text-anchor="middle" font-size="15">RMF gauge · μ=1 control · RMS normalized within each adjacent-order pair</text>
+</g>
+<text x="240" y="105" text-anchor="middle" font-family="Arial" font-size="16">xy</text>
+<text x="365" y="105" text-anchor="middle" font-family="Arial" font-size="16">xz</text>
+<text x="490" y="105" text-anchor="middle" font-family="Arial" font-size="16">xw</text>
+<text x="615" y="105" text-anchor="middle" font-family="Arial" font-size="16">yz</text>
+<text x="740" y="105" text-anchor="middle" font-family="Arial" font-size="16">yw</text>
+<text x="865" y="105" text-anchor="middle" font-family="Arial" font-size="16">zw</text>
+<text x="22" y="168" font-family="Arial" font-size="17">S1→S2</text>
+<rect x="190" y="218.00" width="70" height="0.00" fill="#222" stroke="#111" stroke-width="1"/><text x="225" y="236" text-anchor="middle" font-family="Arial" font-size="12">0.000</text>
+<rect x="315" y="218.00" width="70" height="0.00" fill="#222" stroke="#111" stroke-width="1"/><text x="350" y="236" text-anchor="middle" font-family="Arial" font-size="12">0.000</text>
+<rect x="440" y="140.00" width="70" height="78.00" fill="#222" stroke="#111" stroke-width="1"/><text x="475" y="236" text-anchor="middle" font-family="Arial" font-size="12">1.000</text>
+<rect x="565" y="218.00" width="70" height="0.00" fill="#222" stroke="#111" stroke-width="1"/><text x="600" y="236" text-anchor="middle" font-family="Arial" font-size="12">0.000</text>
+<rect x="690" y="151.05" width="70" height="66.95" fill="#222" stroke="#111" stroke-width="1"/><text x="725" y="236" text-anchor="middle" font-family="Arial" font-size="12">0.858</text>
+<rect x="815" y="143.69" width="70" height="74.31" fill="#222" stroke="#111" stroke-width="1"/><text x="850" y="236" text-anchor="middle" font-family="Arial" font-size="12">0.953</text>
+<text x="22" y="288" font-family="Arial" font-size="17">S2→S3</text>
+<rect x="190" y="312.74" width="70" height="25.26" fill="#777" stroke="#111" stroke-width="1"/><text x="225" y="356" text-anchor="middle" font-family="Arial" font-size="12">0.324</text>
+<rect x="315" y="315.56" width="70" height="22.44" fill="#777" stroke="#111" stroke-width="1"/><text x="350" y="356" text-anchor="middle" font-family="Arial" font-size="12">0.288</text>
+<rect x="440" y="278.06" width="70" height="59.94" fill="#777" stroke="#111" stroke-width="1"/><text x="475" y="356" text-anchor="middle" font-family="Arial" font-size="12">0.768</text>
+<rect x="565" y="313.79" width="70" height="24.21" fill="#777" stroke="#111" stroke-width="1"/><text x="600" y="356" text-anchor="middle" font-family="Arial" font-size="12">0.310</text>
+<rect x="690" y="277.59" width="70" height="60.41" fill="#777" stroke="#111" stroke-width="1"/><text x="725" y="356" text-anchor="middle" font-family="Arial" font-size="12">0.774</text>
+<rect x="815" y="260.00" width="70" height="78.00" fill="#777" stroke="#111" stroke-width="1"/><text x="850" y="356" text-anchor="middle" font-family="Arial" font-size="12">1.000</text>
+<text x="22" y="408" font-family="Arial" font-size="17">S3→S4</text>
+<rect x="190" y="429.75" width="70" height="28.25" fill="#bbb" stroke="#111" stroke-width="1"/><text x="225" y="476" text-anchor="middle" font-family="Arial" font-size="12">0.362</text>
+<rect x="315" y="425.16" width="70" height="32.84" fill="#bbb" stroke="#111" stroke-width="1"/><text x="350" y="476" text-anchor="middle" font-family="Arial" font-size="12">0.421</text>
+<rect x="440" y="380.41" width="70" height="77.59" fill="#bbb" stroke="#111" stroke-width="1"/><text x="475" y="476" text-anchor="middle" font-family="Arial" font-size="12">0.995</text>
+<rect x="565" y="426.13" width="70" height="31.87" fill="#bbb" stroke="#111" stroke-width="1"/><text x="600" y="476" text-anchor="middle" font-family="Arial" font-size="12">0.409</text>
+<rect x="690" y="380.48" width="70" height="77.52" fill="#bbb" stroke="#111" stroke-width="1"/><text x="725" y="476" text-anchor="middle" font-family="Arial" font-size="12">0.994</text>
+<rect x="815" y="380.00" width="70" height="78.00" fill="#bbb" stroke="#111" stroke-width="1"/><text x="850" y="476" text-anchor="middle" font-family="Arial" font-size="12">1.000</text>
+</svg>
