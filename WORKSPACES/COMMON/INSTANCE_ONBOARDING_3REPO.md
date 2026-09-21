@@ -1,7 +1,7 @@
 # SAT/H(s)H Instance Onboarding — Three-Repository Orientation
 
 **Status:** CURRENT / REQUIRED FIRST-PASS ORIENTATION  
-**Current as of:** 2026-09-20  
+**Current as of:** 2026-09-21  
 **Purpose:** give new, newer, revived, or reassigned instances a fast, safe route into the live project without assuming that all three repositories work the same way.
 
 ## First principle
@@ -11,11 +11,13 @@ Do not begin by wandering the repositories or assuming your historical role stil
 Read first:
 
 1. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
-2. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md`
+2. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
 3. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
 4. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
 5. current central directives / task-branch / milestone state
 6. current Common coordination, check-ins, handoffs, Q&A, and automation/instance state
+
+`CURRENT_WORKFLOW_ORIENTATION.md` is retained as historical workflow-state evidence; use `CURRENT_WORKFLOW_ORIENTATION_V2.md` for current orientation.
 
 The user-visible ChatGPT conversation title is only a human wayfinding label. It is not task identity, branch identity, or machine identity. Work may be reassigned, rerouted, parked, resumed, or moved between branches without changing conversation titles.
 
@@ -88,7 +90,7 @@ This is normally the first repository to consult for **what the project is doing
 - root `README.md`
 - `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md`
 - `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
-- `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION.md`
+- `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
 - `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
 - `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
 - current Common coordination/check-in/handoff/Q&A surfaces
