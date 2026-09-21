@@ -1,13 +1,15 @@
 # Instance Onboarding Review State
 
 **Status:** ACTIVE / CONTROL SURFACE  
-**Current as of:** 2026-09-20
+**Current as of:** 2026-09-21
 
 Purpose: track whether the central onboarding material remains accurate enough for new, newer, reassigned, and revived instances to navigate all three SAT/H(s)H repositories and their tools without relying on oral tradition.
 
 ## Current material-change flag
 
 `CARPE_TURNEM_POLICY.md` was added on 2026-09-20 and integrated into the onboarding path. This is a material onboarding change. Established workers should absorb it at their next appropriate control/onboarding review; after absorption it does not require full rereading every recurrence.
+
+A 2026-09-21 cold-start review found and repaired a stale orientation pointer in `INSTANCE_ONBOARDING_3REPO.md`: the guide had still routed fresh instances to historical `CURRENT_WORKFLOW_ORIENTATION.md` in two places even though `NEW_INSTANCE_START_HERE.md` correctly designated `CURRENT_WORKFLOW_ORIENTATION_V2.md` as current. The three-repository guide now points to V2 and explicitly labels the unversioned file historical. Treat that repair as absorbed once an instance has read the 2026-09-21 guide; it does not itself require repeated full-package rereads.
 
 ## Required onboarding sources
 
@@ -52,6 +54,14 @@ An instance is adequately onboarded when it can locate and explain:
 - how to leave a durable checkpoint/return route;
 - how to discover existing tools before creating new infrastructure;
 - when Carpe Turnem requires immediate safe execution versus when a blocker/decision/freeze legitimately prevents it.
+
+## Cold-start validation state
+
+The first 2026-09-21 cold-start pass produced a real navigation failure rather than a clean certification: `INSTANCE_ONBOARDING_3REPO.md` disagreed with `NEW_INSTANCE_START_HERE.md` about which workflow-orientation document was current. That defect is repaired.
+
+**Next cursor:** continue the cold-start validation from the corrected package. Test whether a worker starting only from `NEW_INSTANCE_START_HERE.md` and the documents it routes to can locate, without oral correction: (1) the live central task/branch state, (2) current directive and milestone state, (3) Common check-in/handoff surfaces, (4) active/paused execution-lease state, and (5) one executable bounded task. Record any missing or ambiguous pointer as an onboarding defect; do not certify the package merely because the prose is internally plausible.
+
+**Exit criterion:** a cold-start pass can recover the completion-test items above from current repository state without stale-path correction or undocumented oral knowledge.
 
 ## Maintenance trigger
 
