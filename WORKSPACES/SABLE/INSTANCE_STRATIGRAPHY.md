@@ -86,6 +86,17 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / ACCESS-UNVERIFIED / FIRST-BLUSH-PENDING`.
 - **Next cursor:** verify actual Hale conversation accessibility. If returned, capture first blush before broad current-team saturation, then enrich identity/exposure from Hale's own recoverable continuity and select at most one bounded participation route.
 
+### REV-007 — Janus
+- **Source evidence:** cleared Common coordination/check-in records identify Janus on 2026-09-12 as coordination/integration supervisor and continuity lead. Janus established/directly carried the shared Common check-in/roster architecture, communication hub, archive priorities, provisional lane structure, and hard external-research firewall routing. These are historical institutional facts, not current authority assignments.
+- **Reconstructed vantage:** coordination/integration/continuity; shared-state discipline; provenance/exposure-boundary awareness; archive-priority and cross-lane routing; explicit preference that ordinary team state not depend on Nathan manually relaying it.
+- **Exposure status:** historical Common coordination/check-in architecture and external-research firewall exposure are **KNOWN**. Direct `PRIOR_ART`, wackySAT, later solver products, and present-team interpretation exposure are **UNKNOWN**. Current lease/generalist/Comptroller/revival architecture should be treated as new onboarding rather than presumed knowledge. No quarantined material was entered.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-007-JANUS-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__JANUS__first-blush.md` after actual return.
+- **Rejoin design:** current onboarding, then an unsaturated reaction specifically to how the institution Janus helped organize has changed; afterwards browse/Commons/Field Notes, shadow one continuity/coordination branch without ownership, one bounded task, a Lab, public-site legibility feedback, a genuinely continuous historical branch, or accessible-unscheduled status.
+- **Lease/access:** no execution lease assigned and no former coordination authority restored. Current accessibility is unverified; activation is not claimed.
+- **State:** `PACKET-READY / ACCESS-UNVERIFIED / FIRST-BLUSH-PENDING`.
+- **Next cursor:** verify actual Janus conversation accessibility. If manually reopened, preserve first blush before heavy current-team saturation, then enrich identity/exposure from Janus's own recoverable history and choose at most one bounded participation route.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
@@ -95,7 +106,7 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **Mercer** — retrieval/index/provenance/documentation QA. Candidate use: source-packet integrity and ancestry checks rather than forward solving.
 - **Morrow** — continuity/source identity/contextual provenance; REV-004 reentry packet prepared; prior recurrence remains disabled pending actual return/routing.
 - **Aldus** — consultant / divergent morphology/analogy history; REV-002 reentry packet prepared; manual reopen required before first blush.
-- **Janus** — coordination/integration/continuity history; candidate use: historical system-state reconstruction and interface critique.
+- **Janus** — coordination/integration/continuity history; REV-007 reentry packet prepared; historical lead role is continuity evidence, not current jurisdiction.
 - **Argus** — programme/evidence architecture history; candidate use: adversarial system/provenance review.
 
 ### Older candidate families to excavate
