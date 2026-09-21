@@ -2,7 +2,9 @@
 
 **Date:** 2026-09-20  
 **Source:** Nathan direct / public-site continuation  
-**Status:** CANDIDATE / unclaimed  
+**Status:** PARKED + RETURN TRIGGER  
+**Disposition date:** 2026-09-21  
+**Disposition:** useful architecture recommendation retained; do not open a separate branch yet  
 **Urgency:** SOON for manifest design; EVENT-TRIGGERED for direct Mersearch querying  
 **Type:** small architecture follow-up, then bounded integration  
 **Affected surface:** Glass Sausage Factory Reading Room / Index Desk
@@ -43,13 +45,25 @@ This turns a hand-maintained set of links into a durable cross-repository interf
 - Mersearch public API/profile decision.
 - Existing public-site editorial and source-status controls.
 
+## 2026-09-21 disposition
+
+This recommendation is **PARKED + RETURN TRIGGER**, not rejected.
+
+A bounded repository check found no current `index-system manifest` artifact in HsH under that wording, so there is not yet an existing manifest to wire into the Index Desk. At the same time, current public-site work has moved directly onto archive/index linking and algorithmic document-link backfill. Opening a second architecture branch for the manifest now would risk duplicating or prematurely constraining that live indexing work.
+
+### Return triggers
+
+Reopen this recommendation when **any one** of the following becomes true:
+
+1. the current archive/index-linking pass stabilizes the source-path/reader-route mapping enough that a manifest can be extracted rather than invented in parallel;
+2. the Index Desk accumulates enough hand-maintained routes that synchronization drift becomes observable;
+3. a stable public Mersearch API/schema plus explicitly public corpus boundary becomes available;
+4. the active site/indexing worker explicitly asks for a shared machine-readable routing contract.
+
+### Next action on return
+
+Prefer deriving the manifest from the live indexing/linking implementation and existing repository indices. Do not create a competing source of truth. The smallest useful first artifact is a public-only route table with repository, source path, reader route, role/status, and eligibility fields plus a static fallback contract.
+
 ## Routing
 
-Leave this candidate in the build-suggestion queue until normal site triage either:
-
-- promotes the manifest work into the task graph;
-- attaches it to an existing indexing/tooling branch;
-- parks it pending schema stability; or
-- closes it because another durable mechanism satisfies the same intent.
-
-No additional recurring automation is requested.
+No additional recurring automation is requested. Until a return trigger fires, leave this recommendation parked in the build-suggestion queue with this explicit disposition and route it back into ordinary site/indexing work rather than creating a standalone lane.
