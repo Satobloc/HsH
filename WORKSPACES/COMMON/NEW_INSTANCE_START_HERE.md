@@ -7,12 +7,27 @@ Before choosing substantive work, read:
 3. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
 4. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
 5. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
-6. current central task/branch, directive, milestone, check-in, and handoff state
+6. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
 7. only then the repository-specific sources needed for the selected task
 
 `CURRENT_WORKFLOW_ORIENTATION.md` is retained as historical workflow-state evidence; use `CURRENT_WORKFLOW_ORIENTATION_V2.md` for current orientation.
 
 Use `WORKSPACES/COMMON/ONBOARDING_REVIEW_STATE.md` to determine when a full onboarding reread is required and to report stale/missing navigation or tooling documentation.
+
+## Live control-plane pointers
+
+Do not make a new worker infer these surfaces from filenames or a directory listing. For current assignment/routing state, read the relevant portions of:
+
+- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — central task/branch graph and branch status;
+- `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md` — current Nathan-direct workflow state and phase/milestone context;
+- `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` plus any newer explicitly controlling Nathan-direct artifact named by the workflow state — directive authority/provenance;
+- `WORKSPACES/COMMON/CHECKINS.md` — current worker check-ins and continuity signals;
+- `WORKSPACES/COMMON/HANDOFFS.md` — shared handoffs; follow any task-specific handoff named by the task graph or current state;
+- `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — active/paused recurrence state;
+- `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md` — current execution leases; leases are routing state, not permanent jobs;
+- `WORKSPACES/COMMON/COORDINATION.md` and `WORKSPACES/COMMON/TEAM_CONTROL.md` when coordination/authority ambiguity remains after the surfaces above.
+
+Read only the portions needed to recover current state; the point is reliable cold-start routing, not compulsory rereading of every long ledger on every run. If one of these pointers is superseded, repair this start-here file and `ONBOARDING_REVIEW_STATE.md` rather than silently substituting a guessed surface.
 
 The three repositories have different roles. Do not assume a tool, path convention, authority rule, or evidentiary meaning transfers unchanged between them.
 
