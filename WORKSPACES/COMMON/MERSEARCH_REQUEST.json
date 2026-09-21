@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-09-20-meridian-hagalaz-historical-tuple-001",
-  "query": "Hagalaz AND (offset OR rotation OR scale OR translation OR sphere OR hypersphere OR UI OR \"Three Spheres\" OR superhelix OR superhelical)"
+  "request_id": "2026-09-21-er-epr-worldline-worldtube-provenance-001",
+  "query": "(entanglement OR entangled OR sticky OR wormhole OR \"Einstein-Rosen\" OR \"ER=EPR\" OR \"ER = EPR\" OR worldline OR worldtube OR \"particle is\" OR \"particles are\")"
 }
