@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -130,10 +130,10 @@
       "exposure_constraints": ["Preserve PRIOR_ART/private quarantine", "Classify inputs/fits/derived/predicted/blind/post-hoc values", "Do not treat numerical agreement as derivation or validation"],
       "owner_instance": null,
       "candidate_instances": ["Meridian", "Tern", "Ravel", "Mercer"],
-      "dependencies": ["Recover or preserve candidate status of the exact Hagalaz operator", "Construct representation-compatible Three-Spheres closure/gate residual", "Control translation gauge before cross-representation comparison"],
+      "dependencies": ["Recover or preserve candidate status of the exact Hagalaz operator", "Construct representation-compatible Three-Spheres closure/gate residual", "Use one declared shared material/director gauge before comparing translation residuals"],
       "blockers": [],
-      "last_material_state": "INCORPORATION PASS after construction-phase reweight: Meridian Run 077 (commit 2c648f2c4b98e4d4782fe605a8e97fa79bac94c3) performed a controlled 4D Hagalaz candidate edge-mismatch benchmark. Rotation loop residual behaved monotonically/approximately linearly under injected mismatch and has a conjugacy-invariant Frobenius score; raw Sim(4)-like translation norm was identified as non-invariant under arbitrary similarity-frame gauge. Hagalaz remains reconstructed/candidate because the exact September-11 source is unrecovered. This is behavioral evidence that the construction/benchmark regear propagated into worker action, not validation of Hagalaz or SAT/H(s)H.",
-      "next_cursor": "Build the Three-Spheres side with a representation-compatible closure/gate residual and apply the same controlled mismatch. Keep translation gauge handling explicit. Do not spend another turn extending epsilon sweeps. In parallel only when independently routed, recover the exact September-11 Hagalaz source so candidate reconstruction is not silently promoted.",
+      "last_material_state": "ACTIVE-EDGE ADVANCE: Meridian Run 078 (commit 1b793334473d72c5887f9c891488931c91f1ed21) formalized the Sim(4) translation-gauge gate exposed by Run 077. Under similarity-frame conjugation, scale is unchanged and rotation class functions remain safe, but translation acquires both origin-dependent and unit-scale terms. Raw translation norms therefore cannot be compared across independently gauged Hagalaz/UI and Three-Spheres representations. A shared primitive material/director gauge is now the preferred first benchmark; otherwise translation must be excluded in favor of conjugacy-safe quantities. Exact September-11 Hagalaz source remains unrecovered and candidate status is unchanged.",
+      "next_cursor": "Build the Three-Spheres comparator from one shared primitive absolute 4D dataset and declared material/director gauge. Freeze R (or R=1), use separate response channels E_t=||t||/R, E_s=|log s|, and E_Q=||Q-I||_F, inject the same bounded mismatch used in Run 077, and report the response curves separately. Do not collapse them into one scalar. Keep exact-Hagalaz-source recovery as an independent provenance dependency; no reconstructed-operator promotion.",
       "exit_criterion": "One paired case runs through both sides from a shared manifest with reproducible metadata and an auditable comparison report.",
       "return_route": "WORKSPACES/LABS/LAB_REGISTRY.json",
       "priority_note": "FOCAL ACTIVE-EDGE / construction-phase reweight. Excavation/provenance now supports construction dependencies rather than serving as the default destination of effort."
