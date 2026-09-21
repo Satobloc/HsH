@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-09-21__MERIDIAN__hagalaz-recursive-lift-run092",
+  "created": "2026-09-21",
+  "producer": {
+    "instance": "MERIDIAN",
+    "branch_id": "HAGALAZ-SOLVER-UNIFICATION"
+  },
+  "title": "Recursive Hagalaz lift activates full SO(4) channel space",
+  "kinds": [
+    "concept-update",
+    "current-work",
+    "diagram",
+    "cross-link"
+  ],
+  "status": "ready",
+  "summary": "RUN 092 implements a constant-radius recursive lift in R4 using an S2 normal-space offset and rotation-minimizing frame transport. First order occupies only the pole-bending SO(4) channels xw/yw/zw; the next superhelical order activates xy/xz/yz as well without arbitrary twist. The run also corrects the earlier reading of the eighth Hagalaz channel: tangent lock belongs to local path advance, while finite center displacement is derived by integration.",
+  "public_copy": "The current Hagalaz work has moved from notation into an executable recursive geometry. A curve in four dimensions has a three-dimensional normal space, so a constant-radius lift naturally moves on a two-sphere of offset directions rather than merely tracing the circle used by an ordinary 3D helix. In the first lift only the three rotations that bend the local pole are needed. One recursive order later, all six 4D coordinate-plane rotation channels are active even though the frame transport was chosen to minimize gratuitous twist. This is a sandbox result, but it gives Hagalaz a sharper role: an eight-channel local transform whose finite sphere-to-sphere relation is obtained by integration rather than stored as eight arbitrary endpoint numbers.",
+  "sources": [
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/RUN_092_HAGALAZ_RECURSIVE_LIFT_BENCHMARK_V01.md"
+    },
+    {
+      "role": "implementation",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/hagalaz_recursive_lift_benchmark_v01.py"
+    },
+    {
+      "role": "source-control",
+      "path": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/NWTF-UI-UNIVERSAL-INDICATRIX-SOURCE-CONTROL-2026-09-21.md"
+    },
+    {
+      "role": "predecessor",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/RUN_091_HAGALAZ_SUPERHELIX_INTERLINGUA_V01.md"
+    }
+  ],
+  "assets": [
+    {
+      "class": "P",
+      "path": "PUBLIC_SITE/assets/diagrams/hagalaz-recursive-channel-activation-v01.svg",
+      "title": "SO(4) channel activation across recursive orders",
+      "alt": "Normalized six-channel SO(4) activity showing only xw, yw and zw at the first lift and all six channels active at later recursive orders."
+    },
+    {
+      "class": "P",
+      "path": "PUBLIC_SITE/assets/diagrams/so4-six-rotation-planes-class-p-v01.svg",
+      "title": "Six sphere-locked coordinate-plane rotations in 4D",
+      "alt": "The six coordinate-plane generators xy, xz, xw, yz, yw and zw in a sphere-locked four-dimensional frame."
+    },
+    {
+      "class": "P",
+      "path": "PUBLIC_SITE/assets/diagrams/hagalaz-8slot-class-p-v01.svg",
+      "title": "Eight-address Hagalaz candidate",
+      "alt": "Candidate eight-address Hagalaz display; RUN 092 changes the interpretation of the tangent-locked nonrotational channel from static endpoint offset to local path advance."
+    }
+  ],
+  "destinations": [
+    {"surface": "homepage-current-work"},
+    {"surface": "concept-page-hagalaz"},
+    {"surface": "solver-overview"},
+    {"surface": "visual-library"},
+    {"surface": "claims-explorer-active-scaffold"}
+  ],
+  "relationships": [
+    "ordinary helix -> reduced sector of 4D recursive lift",
+    "recursive superhelix -> full six-channel SO(4) relation",
+    "Hagalaz -> local 8-channel framed-similarity generator",
+    "finite Hagalaz -> ordered path integration/composition",
+    "UI -> two-frame generator/readout architecture; shared-center comparison is a slice, not the whole UI"
+  ],
+  "epistemic": {
+    "theory_status": "SANDBOX / PROVISIONAL / executable geometric formalization; not canonical",
+    "publication_status": "repository feeder ready; not itself a live-site publication",
+    "visual_status": "Class P precision diagnostic generated from the RUN 092 numerical benchmark"
+  },
+  "time_sensitive": true,
+  "follow_up": [
+    "Next site refresh should distinguish RUN 091's earlier static-rung wording from RUN 092's local-flow correction.",
+    "Do not describe open-path frame return as holonomy.",
+    "Next mathematical step is a genuinely closed-path Hagalaz benchmark and UI/Three-Spheres comparison."
+  ],
+  "provenance": {
+    "note": "Produced on the active Hagalaz solver-unification edge after direct Nathan instruction to run full speed and feed public-site-worthy results through the shared worker packet system."
+  }
+}
