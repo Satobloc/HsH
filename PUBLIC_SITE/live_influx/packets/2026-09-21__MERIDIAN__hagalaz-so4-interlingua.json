@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-09-21__MERIDIAN__hagalaz-so4-interlingua",
+  "created": "2026-09-21",
+  "producer": {
+    "instance": "MERIDIAN",
+    "branch_id": "HAGALAZ-SOLVER-UNIFICATION"
+  },
+  "title": "Hagalaz / SO(4) framed-sphere interlingua",
+  "kinds": ["concept-update", "current-work", "diagram", "cross-link"],
+  "status": "ready",
+  "summary": "Current candidate formalization links recursive helix-to-superhelix framed spheres, UI readout, Three-Spheres composition and the six sphere-locked SO(4) coordinate-plane rotation channels. The compact rung-locked specialization has eight continuous channels: six rotations plus inter-order scale and normalized rung advance.",
+  "public_copy": "A current solver-unification experiment asks whether one repeated framed-sphere operation can describe the jump from helix to superhelix and onward through higher orders. In a sphere-locked 4D frame there are six coordinate-plane rotation channels. Constraining center motion to the local rung/tangent direction adds one advance channel, while inter-order scale adds one more: an eight-channel candidate Hagalaz description. This is active sandbox formalization, not a settled theory definition.",
+  "sources": [
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/RUN_091_HAGALAZ_SUPERHELIX_INTERLINGUA_V01.md"
+    },
+    {
+      "role": "implementation",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/hagalaz_step_reference_v01.py"
+    }
+  ],
+  "assets": [
+    {
+      "class": "P",
+      "path": "PUBLIC_SITE/assets/diagrams/so4-six-rotation-planes-class-p-v01.svg",
+      "title": "Six sphere-locked coordinate-plane rotations in 4D",
+      "alt": "Complete graph on x, y, z and w axes labeling the six SO(4) coordinate-plane rotations xy, xz, xw, yz, yw and zw."
+    },
+    {
+      "class": "P",
+      "path": "PUBLIC_SITE/assets/diagrams/hagalaz-8slot-class-p-v01.svg",
+      "title": "Candidate eight-address Hagalaz local generator",
+      "alt": "Eight addresses around a central Hagalaz rune: three pole-bending rotations above, three normal-space twists below, scale at left and normalized rung advance at right."
+    }
+  ],
+  "destinations": [
+    {"surface": "homepage-current-work"},
+    {"surface": "concept-page-hagalaz"},
+    {"surface": "reading-room-related-work"},
+    {"surface": "claims-explorer-active-scaffold"}
+  ],
+  "relationships": [
+    "Hagalaz -> finite framed-sphere relation (delta-c, mu, Q)",
+    "UI -> recentered readout retaining relative scale and frame orientation",
+    "Three Spheres -> repeated-step composition benchmark",
+    "helix -> superhelix -> higher order -> repeated transported helical lift candidate"
+  ],
+  "epistemic": {
+    "theory_status": "SANDBOX / PROVISIONAL / candidate formalization; no promotion to controlling theory state",
+    "publication_status": "repository feeder ready; not itself a live-site publication",
+    "visual_status": "Class P candidate diagrams derived from explicit mathematical structure in RUN 091"
+  },
+  "time_sensitive": true,
+  "follow_up": [
+    "Site builder should preserve the sandbox/provisional label and link the controlling source rather than presenting the eight-channel assignment as settled.",
+    "When the recursive lift is computationally benchmarked, replace or supplement this packet with exact S1/S2/S3 solver outputs and closure/limit results."
+  ],
+  "provenance": {
+    "note": "Packet emitted as a side effect of active Hagalaz solver-unification work under the standing public-site feeder."
+  }
+}
