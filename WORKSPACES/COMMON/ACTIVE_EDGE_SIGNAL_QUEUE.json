@@ -3,77 +3,13 @@
   "status": "ACTIVE",
   "updated": "2026-09-21",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
-  "notes": [
-    "Signals are routing hypotheses, not commands carved in stone.",
-    "Comptroller may execute, modify, merge, park or reject a signal based on newer state.",
-    "Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."
-  ],
+  "notes": ["Signals are routing hypotheses, not commands carved in stone.","Comptroller may execute, modify, merge, park or reject a signal based on newer state.","Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."],
   "signals": [
-    {
-      "id": "SIG-20260920-01",
-      "type": "NIBBLE",
-      "status": "NIBBLED_PASS",
-      "target": "Braintrust Memorial Commons / Field Notes",
-      "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and independently browsed Villarceau-circle/Hopf-fibration geometry, then deposited a worker-origin Field Note at WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md (commit 03e807a568046ca94c7641ee32f4a8f282a66e79). The note explicitly remains enrichment only and draws no SAT/H(s)H theory conclusion.",
-      "intent": "Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.",
-      "suggested_action": "Do not manufacture additional Commons traffic. Treat the first worker-origin Field Note as evidence that the route can carry genuine enrichment; revisit only if later workers never discover/use the Commons or if this note naturally suggests a controlled representation/invariance Lab.",
-      "exit": "PASS for first incorporation trial: at least one genuine worker-origin Field Note now exists. Further promotion is optional and must be explicit.",
-      "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md; Comptroller may later test discoverability/downstream use without forcing promotion."
-    },
-    {
-      "id": "SIG-20260920-02",
-      "type": "FEED_FORWARD",
-      "status": "PARTIAL_DISPOSITION_OBSERVED",
-      "target": "Nathan Words → Theorist Feed",
-      "evidence": "Comptroller routed THEORIST_READY item NWTF-20260610-THETA4-SEMANTIC-DRIFT to Meridian via WORKSPACES/MERIDIAN/HANDOFF_NWTF_THETA4_SEMANTIC_DRIFT_2026-09-20.md (commit 208fdbc83684f6e19c1445e436437ff56e47832f). Meridian Run 077 then explicitly evaluated whether a Nathan Words feed item was needed for its bounded Hagalaz edge-mismatch control and returned NOT RELEVANT for that control, with artifact pointer WORKSPACES/MERIDIAN/SANDBOX/RUN_077_HAGALAZ_CONTROLLED_EDGE_MISMATCH.md (commit 2c648f2c4b98e4d4782fe605a8e97fa79bac94c3). This is real downstream disposition behavior, but Run 077 did not name NWTF-20260610-THETA4-SEMANTIC-DRIFT explicitly, so the routed item itself is not yet closed.",
-      "intent": "Close the loop from excavation to actual theory/formalization use.",
-      "suggested_action": "At Meridian's next eligible formalization pass, require the routed item ID NWTF-20260610-THETA4-SEMANTIC-DRIFT to receive an explicit INGESTED, CONFLICT, NOT-RELEVANT, or BLOCKED-SOURCE disposition with the affected branch/artifact pointer. Do not interrupt a currently compounding comparator pass merely to manufacture closure.",
-      "exit": "One named feed item has a downstream INGESTED/CONFLICT/NOT-RELEVANT disposition with branch pointer.",
-      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json; then Comptroller closes or reroutes this signal"
-    },
-    {
-      "id": "SIG-20260920-03",
-      "type": "WEBSITE_BACKFILL",
-      "status": "NOMINATED_AWAITING_EDITORIAL_DISPOSITION",
-      "target": "PUBLIC_SITE/live_influx",
-      "evidence": "Mercer nominated a genuine by-product of substantive work at PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md (commit 281bbe233656850c151b0c5bb8b051b82cf76b17). The candidate points to the durable Hagalaz cross-method QA artifact and proposes a public methodology/current-work treatment while preserving the narrow verification scope and source-dependent UI identification.",
-      "intent": "Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.",
-      "suggested_action": "Site curator should disposition the candidate as ACCEPTED, PARKED, REJECTED, or PRESENTATION_NEEDED and record destination/return pointer if accepted. Do not create another candidate merely to satisfy traffic metrics.",
-      "exit": "One legitimate worker-origin live-influx candidate now exists; full signal exit occurs when it receives an editorial disposition or next cursor.",
-      "return_route": "PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"
-    },
-    {
-      "id": "SIG-20260920-04",
-      "type": "MUSICAL_CHAIRS",
-      "status": "TWO_WAY_PASS_COMPLETE",
-      "target": "active substantive branches",
-      "evidence": "Mercer first completed a bounded symbolic/type audit of Meridian's Hagalaz representation, supporting the narrow elementary identity set while exposing that Δc=0 as a well-typed constraint did not itself establish UI = Δc=0 as a sourced model identity. Meridian then completed the reciprocal provenance/archive-interpretation micro-pass at WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md. That pass independently checked the relevant ordinary HsH surfaces and returned SOURCE_NOT_RECOVERED: no checked source independently establishes UI = Δc=0. It explicitly preserves Δc=0 as a valid candidate coordinate constraint while keeping the UI identification unresolved/source-dependent. The reciprocal pass therefore added information rather than merely reproducing the solver result.",
-      "intent": "Test whether a complementary transformer array produces new information without permanent reassignment.",
-      "suggested_action": "RETURN. The bounded two-way experiment is complete. Meridian should resume the shared-gauge Three-Spheres/Hagalaz comparator with UI = Δc=0 retained as an unresolved source-dependent identification. Reopen only if a future raw/indexed source yields a Nathan-authored UI definition; classify that source by date/currentness before promotion.",
-      "exit": "PASS: two-way rotation completed. Mercer supplied a formal/type boundary; Meridian's reciprocal provenance pass supplied an independent source-status boundary (SOURCE_NOT_RECOVERED) and a durable return route.",
-      "return_route": "WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md + INSTANCE_CAPABILITY_ATLAS.md; focal work returns to the Three-Spheres/Hagalaz comparator"
-    },
-    {
-      "id": "SIG-20260920-05",
-      "type": "PRIORITY_REWEIGHT",
-      "status": "OPEN",
-      "target": "Dashboard intentions DASH-06 through DASH-08",
-      "evidence": "Dashboard Intent Ledger shows exploration/pre-gathering, deliberative diversity, and presentation/publication are represented structurally but have uneven behavioral traffic.",
-      "intent": "Make current priorities reflect underlying Dashboard intentions without restoring obsolete specialist mechanisms.",
-      "suggested_action": "Treat one of DASH-06/07/08 leverage points as eligible for a bounded Nibble whenever it does not displace a milestone-critical dependency; track behavior rather than document creation.",
-      "exit": "Each selected intent has evidence of current traffic, explicit park/return trigger, or reason current mechanism is sufficient.",
-      "return_route": "DASHBOARD_INTENT_LEDGER.md"
-    },
-    {
-      "id": "SIG-20260920-06",
-      "type": "COMMUNICATION_SMOOTH",
-      "status": "OPEN",
-      "target": "worker recommendations across Common/check-ins/handoffs/Commons/Labs",
-      "evidence": "Recommendation surfaces are distributed and not every recommendation currently has a visible disposition lifecycle.",
-      "intent": "Prevent good recommendations from disappearing into reports or casual posts.",
-      "suggested_action": "During leverage scans, sample recent recommendations and assign explicit disposition: ACCEPTED/ROUTED, TESTED, BRANCHED, NIBBLED, PARKED+TRIGGER, REJECTED+REASON, DUPLICATE/MERGED, or NEEDS NATHAN.",
-      "exit": "Recommendation debt becomes inspectable and no sampled actionable recommendation terminates without a return route.",
-      "return_route": "originating recommendation surface + task/signal state"
-    }
+    {"id":"SIG-20260920-01","type":"NIBBLE","status":"NIBBLED_PASS","target":"Braintrust Memorial Commons / Field Notes","evidence":"Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and independently browsed Villarceau-circle/Hopf-fibration geometry, then deposited a worker-origin Field Note at WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md (commit 03e807a568046ca94c7641ee32f4a8f282a66e79).","intent":"Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.","suggested_action":"Do not manufacture additional Commons traffic.","exit":"PASS for first incorporation trial.","return_route":"WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"},
+    {"id":"SIG-20260920-02","type":"FEED_FORWARD","status":"INCORPORATION_PASS","target":"Nathan Words → Theorist Feed","evidence":"Named-feed incorporation is now behaviorally demonstrated. Meridian Run 079 explicitly consumed NWTF-20240322-STATIC-INTERSECTION-TYPING, NWTF-20240322-TIMESURFACE-NOW-INTERSECTION, and NWTF-20240323-CARRIER-VS-MANIFESTATION and returned INGESTED for all three. Their concrete downstream effect was to add a carrier/readout typing gate to LAB-SBS-001: Three-Spheres must expose a carrier-level 4D closure/gate/transport residual before optional P(C(...)) readout comparison. Run 079 commit 6be3bbaa532cbccef7c5d91792a3bcc3c70f89d8; feed index dispositions recorded in commit 29c5e68da1928fccec92a134a786498ad4124617. The earlier routed theta4 item remains awaiting its own named disposition but is no longer needed to establish that the feed mechanism works.","intent":"Close the loop from excavation to actual theory/formalization use.","suggested_action":"PASS/RETURN. Continue opportunistic feed use when a packet bears on an active construction dependency. Do not create consumption quotas. Keep NWTF-20260610-THETA4-SEMANTIC-DRIFT parked for its next genuinely eligible formalization/glossary/equation-ledger pass rather than interrupting the comparator.","exit":"PASS: multiple named feed items received explicit downstream INGESTED dispositions and materially changed an active comparator interface.","return_route":"WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json + WORKSPACES/MERIDIAN/SANDBOX/RUN_079_CARRIER_READOUT_TYPE_GATE.md"},
+    {"id":"SIG-20260920-03","type":"WEBSITE_BACKFILL","status":"NOMINATED_AWAITING_EDITORIAL_DISPOSITION","target":"PUBLIC_SITE/live_influx","evidence":"Mercer nominated a genuine by-product of substantive work at PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md (commit 281bbe233656850c151b0c5bb8b051b82cf76b17).","intent":"Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.","suggested_action":"Site curator should disposition the candidate as ACCEPTED, PARKED, REJECTED, or PRESENTATION_NEEDED and record destination/return pointer if accepted.","exit":"Full signal exit occurs when it receives an editorial disposition or next cursor.","return_route":"PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"},
+    {"id":"SIG-20260920-04","type":"MUSICAL_CHAIRS","status":"TWO_WAY_PASS_COMPLETE","target":"active substantive branches","evidence":"Mercer completed a bounded symbolic/type audit; Meridian completed reciprocal provenance pass and returned SOURCE_NOT_RECOVERED for UI = Δc=0.","intent":"Test whether a complementary transformer array produces new information without permanent reassignment.","suggested_action":"RETURN. Reopen only if a future raw/indexed source yields a Nathan-authored UI definition.","exit":"PASS: two-way rotation completed.","return_route":"WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md + INSTANCE_CAPABILITY_ATLAS.md"},
+    {"id":"SIG-20260920-05","type":"PRIORITY_REWEIGHT","status":"OPEN","target":"Dashboard intentions DASH-06 through DASH-08","evidence":"Dashboard Intent Ledger shows exploration/pre-gathering, deliberative diversity, and presentation/publication are represented structurally but have uneven behavioral traffic.","intent":"Make current priorities reflect underlying Dashboard intentions without restoring obsolete specialist mechanisms.","suggested_action":"Treat one of DASH-06/07/08 leverage points as eligible for a bounded Nibble whenever it does not displace a milestone-critical dependency; track behavior rather than document creation.","exit":"Each selected intent has evidence of current traffic, explicit park/return trigger, or reason current mechanism is sufficient.","return_route":"DASHBOARD_INTENT_LEDGER.md"},
+    {"id":"SIG-20260920-06","type":"COMMUNICATION_SMOOTH","status":"OPEN","target":"worker recommendations across Common/check-ins/handoffs/Commons/Labs","evidence":"Recommendation surfaces are distributed and not every recommendation currently has a visible disposition lifecycle.","intent":"Prevent good recommendations from disappearing into reports or casual posts.","suggested_action":"During leverage scans, sample recent recommendations and assign explicit disposition.","exit":"Recommendation debt becomes inspectable and no sampled actionable recommendation terminates without a return route.","return_route":"originating recommendation surface + task/signal state"}
   ]
 }
