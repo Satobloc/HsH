@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-09-21__MERIDIAN__conversation-viewer-tts-ready",
+  "created": "2026-09-21",
+  "producer": {"instance": "MERIDIAN", "branch_id": "conversation-viewer-audio"},
+  "title": "Conversation Viewer per-turn and full-conversation audio playback",
+  "kinds": ["build-suggestion", "current-work", "cross-link"],
+  "status": "ready",
+  "summary": "Browser-side Conversation Viewer TTS is integration-ready: per-turn play buttons, full-conversation queued playback, pause/resume/stop, speed and speaker filters, active-turn highlighting, plus Scientist/Literal/Skip math speech modes that prevent raw Markdown/LaTeX delimiter speech such as 'lambda dollars dollars'.",
+  "sources": [
+    {"role": "implementation", "path": "PUBLIC_SITE/runtime/math-speech.js"},
+    {"role": "implementation", "path": "PUBLIC_SITE/runtime/conversation-tts.js"},
+    {"role": "implementation", "path": "PUBLIC_SITE/runtime/conversation-viewer-tts-bootstrap.js"},
+    {"role": "implementation", "path": "PUBLIC_SITE/runtime/conversation-viewer-tts-entry.js"},
+    {"role": "build-handoff", "path": "PUBLIC_SITE/build_suggestions/2026-09-21__MERIDIAN__conversation-viewer-tts.md"}
+  ],
+  "destinations": [
+    {"surface": "conversation-viewer"},
+    {"surface": "reader"},
+    {"surface": "accessibility"}
+  ],
+  "epistemic": {
+    "theory_status": "not theory-bearing; viewer/runtime tooling",
+    "publication_status": "ready for Sites integration; not live-deployed by this packet"
+  },
+  "time_sensitive": false,
+  "follow_up": [
+    "Load conversation-viewer-tts-entry.js as an ES module in the live Conversation Viewer.",
+    "If auto-detection misses the live turn wrapper, add its stable selector to the bootstrap.",
+    "Run the acceptance test in the build handoff, especially the $$ lambda $$ delimiter regression."
+  ],
+  "provenance": {
+    "note": "Built from Nathan's direct request for per-turn/full-conversation text-to-audio and subsequent preference for scientist-style equation verbalization."
+  }
+}
