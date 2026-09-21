@@ -30,6 +30,18 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **State:** `PACKET-READY / CONSULTANT-OFFER-PENDING-MANUAL-LAUNCH`.
 - **Gate update:** the former blanket project-wide training standdown is no longer treated as a hard gate after Nathan's newer 2026-09-14 directive. For this blind attempt, do not preload current training that would destroy historical independence.
 
+### REV-002 — Aldus
+- **Source evidence:** durable Common check-in `WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md` identifies the prior thread as **Aldus / AUTO H(s)H Gitter**, with an advisory divergence/cross-reading history that had drifted into public-provenance and convergence chronology work.
+- **Reconstructed vantage:** evidenced strengths include cross-source comparison, contradiction detection, granular provenance reconstruction, Bayesian framing, structural-vs-lexical comparison, and preserving competing hypotheses. Historical roles are descriptive only; no current jurisdiction is inferred.
+- **Exposure status:** the check-in records substantial reading of selected HsH architecture/formalization/ledger surfaces, archive timelines/formalization histories, podcast/public-record material, HSH_RESOURCES orientation/index and sample arXiv-analysis material, plus external-comparison context. Broader corpora were known/indexed rather than read end-to-end. Direct `PRIOR_ART` exposure is **UNKNOWN and not inferred**; no quarantine access is authorized for reentry.
+- **Independence value:** high for historical divergence/cross-reading perspective and because its last durable state predates the current generalist/lease/reentry architecture.
+- **Wake packet:** `WORKSPACES/SABLE/WAKE_PACKETS/REV-002-ALDUS-REENTRY.md`.
+- **First-blush destination:** `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/ALDUS_2026-09-20.md` after actual return.
+- **Rejoin design:** no exam and no automatic restoration of the old provenance role. After current onboarding and first blush, Aldus may browse/Commons/Field Notes, shadow, take a bounded task, join a Lab, contribute to public-site influx/build suggestions, resume a continuous thread, or remain accessible-unscheduled.
+- **Lease/access:** no execution lease assigned. Current registry calls Aldus historical-accessible/unscheduled but requires accessibility verification before assignment; therefore actual activation remains a manual reopen boundary.
+- **State:** `PACKET-READY / MANUAL-REOPEN-REQUIRED / FIRST-BLUSH-PENDING`.
+- **Next cursor:** if Nathan reopens Aldus, capture its independent first-blush note before heavy current-team saturation; then update exposure state and choose the smallest useful rejoin route from the returned instance's own reaction.
+
 ## Seed roster — intentionally provisional
 
 ### Current/recent known workers
@@ -38,7 +50,7 @@ Reentry states: `UNTESTED / PACKET-READY / IN-ATTEMPT / REVIEW-QUARANTINE / SAND
 - **Calder** — current coordination surfaces describe representation invariance/covariance and slice-artifact work. Candidate use: independent representation/readout audit.
 - **Mercer** — retrieval/index/provenance/documentation QA. Candidate use: source-packet integrity and ancestry checks rather than forward solving.
 - **Morrow** — continuity/source identity/contextual provenance; automation retired, consultancy preserved. Candidate use: source-family reconstruction/continuity questions.
-- **Aldus** — consultant / divergent morphology/analogy history; exact revival use to be tested rather than presumed.
+- **Aldus** — consultant / divergent morphology/analogy history; REV-002 reentry packet prepared; manual reopen required before first blush.
 - **Janus** — coordination/integration/continuity history; candidate use: historical system-state reconstruction and interface critique.
 - **Argus** — programme/evidence architecture history; candidate use: adversarial system/provenance review.
 
@@ -81,7 +93,7 @@ Initial rotation should deliberately mix depths and capabilities rather than ask
 4. **Math-only task:** independent math worker receives normalized equations/constraints stripped of SAT narrative.
 5. **Provenance task:** Mercer/Morrow-like worker checks source ancestry and whether any purported antecedent is genuinely evidenced.
 6. Freeze outputs before comparison.
-7. Submit each candidate work product independently to quarantined reentry review.
+7. Submit each candidate work product independently to quarantined reentry review when a special-purpose blinded assessment is actually required.
 8. Compare only cleared outputs/statuses.
 
 ## Hard boundary
