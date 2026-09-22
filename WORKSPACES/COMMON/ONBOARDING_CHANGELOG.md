@@ -1,5 +1,25 @@
 # Onboarding Documentation Changelog
 
+## 2026-09-21 — non-negotiable project-wide symbol management established
+
+Added `NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` as a mandatory mathematical/research control and created the live human-readable registry at `terminology/SYMBOL_REGISTRY.md`.
+
+The control exists because SAT/H(s)H deliberately combines mathematics from many fields, solvers, source traditions, and historical project phases. Symbol collision and semantic drift are therefore treated as research-integrity hazards rather than cosmetic notation issues.
+
+Mandatory consequences include:
+- one active symbol / one active meaning per declared namespace;
+- collision search before shared symbol introduction, including Mercer_Searcher / Mersearch archive search where inherited notation may be involved;
+- standard mathematics/physics symbols reserved by default;
+- historical source notation preserved but not silently transferred into current semantics;
+- new or qualified notation required for semantic drift;
+- explicit radius/diameter/object-role, angle-complement, sign/chirality, units/dimensions, provenance, and epistemic-status declarations;
+- shared equations require symbol definitions, a symbol table, or registry links;
+- unresolved same-namespace collisions block canonicalization/publication/solver-interface promotion until resolved.
+
+The registry was seeded immediately with live collision cases including `STD:α`, circle-packing `Δ_n`, SAT/HSH `B`, historical `SAT:ℓ_f`, historical `SAT:ε`, triswale bounding radius `r_f`, current triswale `θ_4`, and provisional signed triswale amplitude `A_3`.
+
+`NEW_INSTANCE_START_HERE.md` now places the symbol policy and registry in the mandatory pre-work reading sequence. This is a **material onboarding change** and a standing project control.
+
 ## 2026-09-20 — revival/reentry model changed from assessment-first to welcome/orient/first-blush
 
 Established `REVIVAL_REENTRY_PROTOCOL_V2.md` as the controlling general reentry model and added `REVIVAL_FIRST_BLUSH/` for returning-instance reactions after current onboarding.
