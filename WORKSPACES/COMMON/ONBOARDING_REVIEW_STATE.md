@@ -1,6 +1,6 @@
 # Instance Onboarding Review State
 
-**Status:** ACTIVE / CONTROL SURFACE  
+**Status:** CLEAN COLD-START PASS RECORDED / MONITOR  
 **Current as of:** 2026-09-21
 
 Purpose: track whether the central onboarding material remains accurate enough for new, newer, reassigned, and revived instances to navigate all three SAT/H(s)H repositories and their tools without relying on oral tradition.
@@ -61,17 +61,29 @@ An instance is adequately onboarded when it can locate and explain:
 
 ## Cold-start validation state
 
-The 2026-09-21 cold-start validation has so far produced three real navigation defects rather than a clean certification:
+The 2026-09-21 cold-start validation first produced three real navigation defects:
 
 1. `INSTANCE_ONBOARDING_3REPO.md` disagreed with `NEW_INSTANCE_START_HERE.md` about which workflow-orientation document was current. Repaired.
 2. `NEW_INSTANCE_START_HERE.md` named categories of live control state without naming their actual control surfaces, forcing a new worker to infer which similarly named Common files were current. Repaired by adding explicit live-control-plane pointers.
 3. The resulting pointer block over-scoped `NATHAN_DIRECT_WORKFLOW_STATE.md` as though it were generic project-wide phase/milestone authority. Repaired by separating project-wide orientation/task-graph routing from Nathan Direct lane state.
 
-These repairs improve the package but do **not** constitute a successful cold-start certification by themselves.
+### First clean cold-start pass — 2026-09-21
 
-**Next cursor:** continue the cold-start validation from the three-times-corrected package. Starting only from `NEW_INSTANCE_START_HERE.md` and documents it routes to, verify that a fresh/revived worker can now recover without oral correction: (1) live central task/branch state, (2) current directive and milestone state, (3) Common check-in/handoff surfaces, (4) active/paused execution-lease state, (5) the distinct roles/front doors of all three repositories, (6) quarantine/exposure rules, and (7) one executable bounded task. Record any missing or ambiguous pointer as an onboarding defect. If all seven are recoverable, record the first clean cold-start pass rather than continuing to manufacture documentation changes.
+A fresh validation starting only from `NEW_INSTANCE_START_HERE.md` and the surfaces it explicitly routes to recovered all seven required items without oral correction or guessed repository paths:
 
-**Exit criterion:** a cold-start pass can recover the completion-test items above from current repository state without stale-path correction or undocumented oral knowledge.
+1. **Live central task/branch state:** `TASK_BRANCH_GRAPH.json` is explicitly named by Start Here and exposes branch status, dependencies, active edge, next cursor, and return route.
+2. **Current directive and milestone state:** Start Here separates project-wide phase (`CURRENT_WORKFLOW_ORIENTATION_V2.md`), active-edge/milestone routing (`TASK_BRANCH_GRAPH.json`), and directive authority/provenance (`NATHAN_DIRECTIVES_PROVENANCE.md` plus newer explicitly controlling Common artifacts). It no longer misuses the Nathan Direct lane state as generic project authority.
+3. **Common check-in/handoff surfaces:** `CHECKINS.md` and `HANDOFFS.md` are explicitly named; the orientation also routes routine questions through Common/Q&A surfaces.
+4. **Active/paused execution-lease state:** `ACTIVE_AUTOMATION_ROSTER.md` and `INSTANCE_REGISTRY_EXECUTION_LEASES.md` are explicitly named and correctly distinguish scheduled leases from paused/unscheduled/historical instance identity.
+5. **Three repository roles/front doors:** `INSTANCE_ONBOARDING_3REPO.md` gives distinct purposes, start-here surfaces, operational conventions, and cross-repository routing for `SAT_THEORY_ARCHIVE_2023-25`, `HsH`, and `HSH_RESOURCES`.
+6. **Quarantine/exposure rules:** the onboarding package explicitly preserves strict `PRIOR_ART`/private quarantine, exposure history, source-role separation, and repository-specific evidentiary roles.
+7. **One executable bounded task:** the live task graph itself exposes `CTRL-05` as the bounded cold-start validation operation with an explicit completion test; the current prompt/lease also authorizes taking the highest-value bounded operation immediately.
+
+**Result:** the onboarding package now satisfies the `CTRL-05` cold-start exit criterion on this pass. No fourth documentation defect was found. Do not manufacture additional onboarding edits merely to keep the branch active.
+
+**Routing disposition:** `CTRL-05` is ready to be marked completed in `TASK_BRANCH_GRAPH.json`; once that graph reconciliation is made, parent `CTRL-2026-09-20-GENERALIST` may also be evaluated against its exit criterion because cold-start QA was its remaining stated dependency. This file records the QA result; the task graph remains the routing authority.
+
+**Next cursor:** reconcile the task graph to this clean-pass result, then return execution capacity to the highest-value substantive active edge. Re-open onboarding QA only on a material-change trigger or a concrete navigation/tooling failure.
 
 ## Maintenance trigger
 
