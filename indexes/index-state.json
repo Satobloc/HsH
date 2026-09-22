@@ -1,13 +1,13 @@
 {
   "counts": {
-    "bytes_known": 2653034187,
-    "directories": 127,
-    "files": 2033
+    "bytes_known": 2653072840,
+    "directories": 129,
+    "files": 2039
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
-    ".csv": 26,
+    ".csv": 27,
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
@@ -19,7 +19,7 @@
     ".jsonl": 14,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 855,
+    ".md": 859,
     ".mjs": 1,
     ".pdf": 29,
     ".png": 37,
@@ -28,7 +28,7 @@
     ".scsyndef": 1,
     ".srt": 2,
     ".svg": 3,
-    ".tex": 1,
+    ".tex": 2,
     ".toml": 1,
     ".tx": 1,
     ".txt": 203,
@@ -45,7 +45,7 @@
     "generated-catalog": 25,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 855,
+    "llm-workspace": 861,
     "review-ledger": 5,
     "source-conversation-corpus": 802,
     "synthesis-workspace": 6,
@@ -76,7 +76,7 @@
     "SAT_VISUALS": 129,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 855,
+    "WORKSPACES": 861,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -196,7 +196,8 @@
       "content_id": "1bd09d0f6253de1e84f1ab7b3283f66d75c38e482c5b643ece63967146573d4f",
       "paths": [
         "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260917T150337Z.csv",
-        "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260920T141552Z.csv"
+        "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260920T141552Z.csv",
+        "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260922T145851Z.csv"
       ]
     },
     {
@@ -1250,7 +1251,7 @@
       "size": 49
     },
     {
-      "content_id": "e248dc5225fc48d3844e082710320653f70b258b83d3c2348c0be16fabb2b47a",
+      "content_id": "7a88460bd4677e3980c2058c2c1314652535df78e29ba374a0f6fd9cab11ef74",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -1264,7 +1265,7 @@
       "size": null
     },
     {
-      "content_id": "6e50422ebce260da376e84755830823846a4f4174a6c3466173f5feb0f6241e1",
+      "content_id": "01330316a0a348b009fd1fccbf719ee0b3b5604552d8edeb83ea38ee26ff9d3c",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -8089,11 +8090,11 @@
       "size": 4269
     },
     {
-      "content_id": "8b4da986ae8ab4aa3811c8ccb7464d5c875f578bc7355323b540114520308755",
+      "content_id": "0ea72aca42794d32c54a766b40da68f92816c362f6c94ad35d3fc4ad806709e9",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 19811
+      "size": 19823
     },
     {
       "content_id": null,
@@ -9167,14 +9168,14 @@
       "size": null
     },
     {
-      "content_id": "cbda613ebafad472eb9fd17361a4cb8604c79f08c661fccf539c7ba28b77be82",
+      "content_id": "485ee9e3ff4908528ce365c00cacf6dc4257ac7f21d24e10f91205f2312e6c36",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv",
       "role": "llm-workspace",
       "size": 981956
     },
     {
-      "content_id": "e62487483fefe31d65cbd111b812b00e33cc98cdf47cdc1a2dd58015e5e80a09",
+      "content_id": "634e7d5173fadebc3d851edf5a4d3ace571f76e171365630d670e46865344064",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json",
       "role": "llm-workspace",
@@ -9244,11 +9245,18 @@
       "size": 432
     },
     {
-      "content_id": "12bd8a9b2c13ec49cb17c423906e01ad84be6b35d33741b9c92f157afb22d8be",
+      "content_id": "1bd09d0f6253de1e84f1ab7b3283f66d75c38e482c5b643ece63967146573d4f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260922T145851Z.csv",
+      "role": "llm-workspace",
+      "size": 45
+    },
+    {
+      "content_id": "2d712cbb9c34b26f33476167fff9d792116f89ae966eff8dd5c7a9c6172ac683",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json",
       "role": "llm-workspace",
-      "size": 865
+      "size": 137
     },
     {
       "content_id": "a4a968c6c8f5cb5e55f2d903bdef289b98bcefb1f1178a981e93c1e2459bdad6",
@@ -9699,6 +9707,13 @@
       "size": 3438
     },
     {
+      "content_id": "2a0a07143bc29b5b64054547a22b0d587150d6e9b04d4dc01250d77524aa3046",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/GRURPLE_RETRIEVAL_ROUTING_2026-09-22.md",
+      "role": "llm-workspace",
+      "size": 3334
+    },
+    {
       "content_id": "1efbe7c96fa99ee78ce4c8ee7fef6ec53b73a9bb32485dc580d5ff0547395cb5",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFFS.md",
@@ -9851,6 +9866,13 @@
       "path": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/COMPTROLLER_RUN_099_FRAME_ROTATION_INTERFACE_INVARIANCE.md",
       "role": "llm-workspace",
       "size": 4564
+    },
+    {
+      "content_id": "c68b076cced4c2141aeb31050ae9ee1d370e06cc86e4fd60643c07e25c98a874",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/GRURPLE_A_R0_RELEASE_2026-09-22.md",
+      "role": "llm-workspace",
+      "size": 2054
     },
     {
       "content_id": "d2f8602403f2c3eeb3517f0fa9ea35133b2d2a7b5670d95b592ab03136d03e71",
@@ -14944,6 +14966,41 @@
     {
       "content_id": null,
       "kind": "tree",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "98b245f0e2174cf1cd3308b28c5e03195d819490cde1ca10c7af37021b4a4c67",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R0.tex",
+      "role": "llm-workspace",
+      "size": 21031
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEWS",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "fed436fb25fb03f623a74c5c3941289d27241a35ec98edb39ad172910d5861ef",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEWS/TERN_R0_INDEPENDENT_REVIEW.md",
+      "role": "llm-workspace",
+      "size": 8734
+    },
+    {
+      "content_id": "650a6306cf9212136b310c3124f1d6e1c8801780dca9e00df6d8baa9c9a7ea43",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEW_PACKET.md",
+      "role": "llm-workspace",
+      "size": 4171
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
       "path": "WORKSPACES/PODCAST_LAB",
       "role": "llm-workspace",
       "size": null
@@ -15516,7 +15573,7 @@
       "size": null
     },
     {
-      "content_id": "fe1e71854438e45a11477c39b9395e316b7718e5df2467d8fb628ceb252eafe7",
+      "content_id": "29133e7f36d6db17982eccf61bfb0d652b82ebf4414739825adb15bb67831b69",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -15530,7 +15587,7 @@
       "size": 8625
     },
     {
-      "content_id": "7a689486d80398eeb9ff6023d7f35349ba5f7a786e917700079d54523a8b7c5f",
+      "content_id": "0ba55212a02f6c44b0b81d245d64bd0bb6344fc3c7974abf91b18a47d381403b",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -15593,14 +15650,14 @@
       "size": null
     },
     {
-      "content_id": "be722f8d5ccbffdbe7184581cfe4e1c6677f28c31cf137e7ad3d4bdf7eb56ae4",
+      "content_id": "98ed65ecf24f9aa2e1bf8f6d2750d9ea1972cea3d1b33ca85f779c4b68a4b7fe",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 315277
     },
     {
-      "content_id": "0abab22d89a012d50d9a1570d49d388ed6c495ffdd6b0735126a03aaccae749b",
+      "content_id": "23a1002c6dd2db46181c7a408f469eb61c926d22d8db6bc4809dc98f1fe24eb7",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -16007,8 +16064,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-22T13:33:18+00:00",
+  "scanned_at_utc": "2026-09-22T17:57:42+00:00",
   "schema_version": 1,
-  "tree_id": "4cbf5f0d6c22b7cd60b61bcba829f48dda3763a75cca6b94a2723c0b65e7964d",
+  "tree_id": "5f9252350979854c766aa7e4a59a38bc8f2f4f442cf7162490992ac3d173e422",
   "tree_response_truncated": false
 }

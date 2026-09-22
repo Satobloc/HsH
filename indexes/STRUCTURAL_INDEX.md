@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-22T13:33:18+00:00`
-- Tree/content state: `4cbf5f0d6c22b7cd60b61bcba829f48dda3763a75cca6b94a2723c0b65e7964d`
-- Coverage: 2033 files, 127 directories
+- Scanned: `2026-09-22T17:57:42+00:00`
+- Tree/content state: `5f9252350979854c766aa7e4a59a38bc8f2f4f442cf7162490992ac3d173e422`
+- Coverage: 2039 files, 129 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -33,7 +33,7 @@
 | `SAT_VISUALS` | 129 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 855 |
+| `WORKSPACES` | 861 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -51,7 +51,7 @@
 |---|---:|
 | `.cmd` | 1 |
 | `.css` | 5 |
-| `.csv` | 26 |
+| `.csv` | 27 |
 | `.docx` | 1 |
 | `.htm` | 1 |
 | `.html` | 1 |
@@ -63,7 +63,7 @@
 | `.jsonl` | 14 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 855 |
+| `.md` | 859 |
 | `.mjs` | 1 |
 | `.pdf` | 29 |
 | `.png` | 37 |
@@ -72,7 +72,7 @@
 | `.scsyndef` | 1 |
 | `.srt` | 2 |
 | `.svg` | 3 |
-| `.tex` | 1 |
+| `.tex` | 2 |
 | `.toml` | 1 |
 | `.tx` | 1 |
 | `.txt` | 203 |
@@ -92,7 +92,7 @@
 | `generated-catalog` | 25 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 855 |
+| `llm-workspace` | 861 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 802 |
 | `synthesis-workspace` | 6 |
@@ -160,6 +160,7 @@
 - `1bd09d0f6253de1e84f1ab7b3283f66d75c38e482c5b643ece63967146573d4f`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260917T150337Z.csv`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260920T141552Z.csv`
+  - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260922T145851Z.csv`
 - `1c9d58b1a197ac537c25f4a75d042d48233344c479ab3aa5d1dc7ada622f83ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt`
@@ -1438,7 +1439,7 @@
 - `PUBLIC_SITE/runtime/math-speech.js` — 5556 bytes — `unclassified`
 - `PUBLIC_SITE/runtime/site-update-packets.js` — 4324 bytes — `unclassified`
 - `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
-- `README.md` — 19811 bytes — `visitor-interface`
+- `README.md` — 19823 bytes — `visitor-interface`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3279.jpeg` — 272895 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3280.jpeg` — 294602 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3283.jpeg` — 734098 bytes — `unclassified`
@@ -1591,7 +1592,8 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260919T135643Z.csv` — 4684 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260920T141552Z.csv` — 45 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260921T163026Z.csv` — 432 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 865 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260922T145851Z.csv` — 45 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 137 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/README.md` — 6063 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/batch_file_stage.py` — 5585 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` — 16923 bytes — `llm-workspace`
@@ -1653,6 +1655,7 @@
 - `WORKSPACES/COMMON/FORMER_INSTANCE_CHECKIN_TEMPLATE.md` — 4573 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_RECORD_POLICY.md` — 4242 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_VOICE_ROUTER.md` — 3438 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/GRURPLE_RETRIEVAL_ROUTING_2026-09-22.md` — 3334 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFFS.md` — 7277 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_GENERIC_OFFSET_REGRESSION_2026-09-21.md` — 2447 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/HANDOFF_COMPTROLLER_TO_MERIDIAN_RUN083_CARRIER_MARGIN_2026-09-21.md` — 2984 bytes — `llm-workspace`
@@ -1673,6 +1676,7 @@
 - `WORKSPACES/COMMON/LIVE_PAPER_PROPOSALS.md` — 1031 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MEETING_PREP_NATHAN_WORDS_2026-09-14.md` — 13598 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/COMPTROLLER_RUN_099_FRAME_ROTATION_INTERFACE_INVARIANCE.md` — 4564 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/GRURPLE_A_R0_RELEASE_2026-09-22.md` — 2054 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/MERCER_RUN_100_ACTIVE_EDGE_RECONCILIATION.md` — 3391 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_085_TYPED_CARRIER_NUMERIC_STATUS_MACHINE.md` — 1840 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_086_TYPED_CARRIER_IMPLEMENTATION.md` — 3011 bytes — `llm-workspace`
@@ -2371,6 +2375,9 @@
 - `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md` — 29526 bytes — `llm-workspace`
 - `WORKSPACES/MORROW/compare_conversation_exports.mjs` — 5281 bytes — `llm-workspace`
 - `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R0.md` — 17360 bytes — `llm-workspace`
+- `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R0.tex` — 21031 bytes — `llm-workspace`
+- `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEWS/TERN_R0_INDEPENDENT_REVIEW.md` — 8734 bytes — `llm-workspace`
+- `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEW_PACKET.md` — 4171 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/CONTINUITY.md` — 23831 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/KERR_PARTICLE_REGIME_COLLISION_2026-09-16.md` — 7746 bytes — `llm-workspace`
