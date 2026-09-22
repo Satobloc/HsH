@@ -164,6 +164,16 @@ Scavenged material remains provenance-bound evidence; novelty is not authority.
 
 For each paper maintain one canonical packet/location containing or pointing to: current Originator draft/version; source/provenance bundle; each frozen independent review; post-freeze cross-review synthesis; contradiction/duplicate ledger; Originator disposition ledger; revised draft; Nathan review state; and final sandbox artifact/website pointer. Do not proliferate parallel review ledgers when the canonical packet can carry the state.
 
+### Handoff-link portability rule
+
+Any link that is intended for handoff to Nathan, another instance, another thread, or any context where copy/paste is likely must include the **complete literal URL in visible text**, even when a clickable hyperlink is also provided. Do not rely on anchor text, rich-link rendering, or an embedded citation alone for handoff-critical links.
+
+Preferred form:
+
+`Canonical review packet: https://github.com/Satobloc/HsH/...`
+
+This rule applies to repository files, commits, issues, pull requests, public-site artifacts, source documents, and other handoff-critical destinations. It is acceptable to provide both a clickable link and the full URL, but the full URL must remain visible and copyable.
+
 ### Nathan-ready alert
 
 The moment any worker knows a paper is ready for Nathan’s review, every subsequent reply from that worker must visibly include this alert until Nathan acknowledges/responds:
