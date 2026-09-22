@@ -208,3 +208,19 @@ Beginning now, workers should tend toward **citation by construction**:
 - publish → expand resolvers into conventional bibliography.
 
 The desired endpoint is that uncited imported machinery looks unfinished in the same way an undefined symbol now looks unfinished.
+
+---
+
+## 13. User-facing file references must be linked
+
+**Nathan Direct, 2026-09-21 — standing all-worker rule.**
+
+Whenever a worker references a specific file/artifact in a user-facing message, provide a usable link to that file alongside the first reference whenever a link exists or can be resolved. A bare repository path or filename is not sufficient by itself.
+
+- Repository file → provide its direct repository/blob link.
+- Generated conversation artifact → provide the valid sandbox/download link only after the exact path is established.
+- Library/connector file → provide the connector/file navigation link or supported file reference when available.
+- If no direct file link is presently resolvable, say so explicitly and provide the nearest usable navigable parent/folder/source pointer rather than inventing a link.
+- Internal durable-state documents may still use paths/keys compactly; the mandatory-link rule applies when workers surface those files to Nathan or another user.
+
+Citation and linking are complementary: a citation establishes evidentiary ancestry; the link makes the referenced artifact directly reachable.
