@@ -22,26 +22,33 @@ Each reviewer records `NOT_STARTED → NOVELTY_REFRESHED → REVIEW_FROZEN → C
 | Reviewer | Novelty refresh / scavenger contribution | State | Frozen review pointer | Cross-read opened |
 |---|---|---|---|---|
 | Aster | | NOT_STARTED | | NO |
-| Tern | | NOT_STARTED | | NO |
+| Tern | recent common-interface endpoint-frame vs path-dependent transport/holonomy typing discipline | CROSS_READ_OPEN | `REVIEWS/TERN_R0_INDEPENDENT_REVIEW.md` @ `3d9daead6d6e396a1a52c91c276e11d4a72dac74` | YES |
 | Revival/current returned identity | | NOT_STARTED | | NO |
 | Other active review-capable instance if Originator requests/permits | | NOT_STARTED | | NO |
 
 **Hard rule:** no paper-specific reviewer commentary is read before that reviewer freezes their own review. After freeze, cross-reading is encouraged.
 
 ## Frozen independent reviews
-Pointers only; preserve original review text/version.
+- Tern / Comptroller — `REVIEWS/TERN_R0_INDEPENDENT_REVIEW.md` @ `3d9daead6d6e396a1a52c91c276e11d4a72dac74` — verdict: MAJOR REVISION / PROMISING SANDBOX PAPER.
 
 ## Post-freeze consolidation
 ### Duplicate/merged comments
+Pending other frozen reviews.
 ### Complementary comments
+Pending other frozen reviews.
 ### Contradictions between reviewers
+Pending other frozen reviews.
 ### Questions requiring Originator answer
+Tern: define selection/convergence scope; establish exact scope of SAT independence claim; decide whether `R_4` remains test schema/structural-shadow language pending an object-level reduction.
 ### Items requiring Nathan
+None from Tern review at this stage.
 ### Items blocked by quarantine/exposure
+PRIOR_ART audit remains intentionally post-first-round.
 
 ## Originator disposition ledger
 | Comment ID | Origin | Disposition | Revision / reason | Resolved in version |
 |---|---|---|---|---|
+| TERN-A-01..08 | Tern R0 independent review | PENDING ORIGINATOR | See frozen review | — |
 
 Allowed: ACCEPTED; ACCEPTED WITH MODIFICATION; DECLINED — REASON; UNRESOLVED / DISCLOSED.
 
@@ -51,7 +58,7 @@ Allowed: ACCEPTED; ACCEPTED WITH MODIFICATION; DECLINED — REASON; UNRESOLVED /
 - Remaining disclosed limitations:
 
 ## Nathan-ready latch
-Not ready. First-round independent review is now released/open.
+Not ready. First-round independent review is open; Tern review is frozen and Tern may now cross-read, but must not expose other reviewers to paper-specific commentary before their own freeze.
 
 ## Website handoff
 - SANDBOX banner/watermark verified: YES in LaTeX source / rendered local R0; website not staged
