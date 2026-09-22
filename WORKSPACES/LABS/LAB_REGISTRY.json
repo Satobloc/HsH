@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "notes": [
     "Labs are sandbox experiments, not theory authority.",
     "A successful lab result requires explicit promotion before becoming committed theory/work state.",
@@ -31,6 +31,33 @@
       "exit_criterion": "At least one case runs through both sides from a shared case manifest with reproducible environment metadata and an auditable comparison report.",
       "promotion_criterion": "Only explicitly characterized equivalence/non-equivalence, validated tooling, or reusable benchmark machinery is promoted; numerical resemblance alone is insufficient.",
       "return_route": "WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json or Watercooler depending on outcome"
+    },
+    {
+      "id": "LAB-FOREST-001",
+      "title": "The Forest: physical information and worldtube locality",
+      "class": ["FOUNDATIONAL_MODEL", "INFORMATION_GEOMETRY", "HAGALAZ_BRIDGE", "LOCAL_TO_GLOBAL"],
+      "status": "running",
+      "origin": "Nathan-direct correction and continuation of The Trees Themselves discussion, 2026-09-21",
+      "purpose": "Formalize the hard physical-information ancestry principle, define locality relative to SAT/H(s)H worldtube connectivity, and test whether Hagalaz relation geometry plus threefold circle/triswale geometry can provide a rigorous bridge from local B/twist/chirality structure to global toroidal holonomy/closure.",
+      "primary_surface": "WORKSPACES/LABS/THE_FOREST",
+      "dependencies": [
+        "Recover or define the actual SAT/H(s)H worldtube-transverse information/interaction channel",
+        "Keep Hagalaz relation coordinates distinct from unestablished Hagalaz dynamics",
+        "Resolve B genealogy and derive or reject the factor-of-two tangent normalization",
+        "Solve finite-thickness triswale/helix contact geometry",
+        "Preserve Bell/CHSH and operational no-signalling as explicit benchmarks"
+      ],
+      "exposure_constraints": [
+        "Lab status only; no automatic theory authority",
+        "Do not treat exact algebraic identities as physical derivations without the missing geometric/dynamical bridge",
+        "Keep uud/udd and particle-count mappings explicitly provisional",
+        "Follow project symbol-management and citation-as-default controls"
+      ],
+      "participants": [],
+      "next_cursor": "Define the native worldtube adjacency/channel and identify which Hagalaz state variable or transport law carries a physical difference; in parallel derive or kill the factor-of-two in B=1/(2 Delta_3) and solve the signed triswale response A_3(s).",
+      "exit_criterion": "Produce an explicit, source-controlled model in which the physical information path, Hagalaz transport, threefold B geometry, signed chirality variable, and toroidal closure law are either mathematically connected by derived maps or cleanly separated/rejected, with Bell/CHSH behavior addressed.",
+      "promotion_criterion": "Promote only individually derived/verified bridges; conceptual coherence or numerical resemblance alone is insufficient.",
+      "return_route": "Hagalaz active edge / WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
     }
   ]
 }
