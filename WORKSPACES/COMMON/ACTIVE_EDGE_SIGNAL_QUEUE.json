@@ -1,16 +1,123 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22T01:49:00-04:00",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
-  "notes": ["Signals are routing hypotheses, not commands carved in stone.","Comptroller may execute, modify, merge, park or reject a signal based on newer state.","Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."],
+  "notes": [
+    "Signals are routing hypotheses, not commands carved in stone.",
+    "Comptroller may execute, modify, merge, park or reject a signal based on newer state.",
+    "Use actual behavioral evidence; an empty intake surface is not proof of failure, but it is evidence that incorporation is incomplete."
+  ],
   "signals": [
-    {"id":"SIG-20260920-01","type":"NIBBLE","status":"NIBBLED_PASS","target":"Braintrust Memorial Commons / Field Notes","evidence":"Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and independently browsed Villarceau-circle/Hopf-fibration geometry, then deposited a worker-origin Field Note at WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md (commit 03e807a568046ca94c7641ee32f4a8f282a66e79).","intent":"Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.","suggested_action":"Do not manufacture additional Commons traffic.","exit":"PASS for first incorporation trial.","return_route":"WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"},
-    {"id":"SIG-20260920-02","type":"FEED_FORWARD","status":"INCORPORATION_PASS","target":"Nathan Words → Theorist Feed","evidence":"Named-feed incorporation is now behaviorally demonstrated. Meridian Run 079 explicitly consumed NWTF-20240322-STATIC-INTERSECTION-TYPING, NWTF-20240322-TIMESURFACE-NOW-INTERSECTION, and NWTF-20240323-CARRIER-VS-MANIFESTATION and returned INGESTED for all three. Their concrete downstream effect was to add a carrier/readout typing gate to LAB-SBS-001.","intent":"Close the loop from excavation to actual theory/formalization use.","suggested_action":"PASS/RETURN. Continue opportunistic feed use when a packet bears on an active construction dependency.","exit":"PASS: multiple named feed items received explicit downstream INGESTED dispositions and materially changed an active comparator interface.","return_route":"WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json + WORKSPACES/MERIDIAN/SANDBOX/RUN_079_CARRIER_READOUT_TYPE_GATE.md"},
-    {"id":"SIG-20260920-03","type":"WEBSITE_BACKFILL","status":"INCORPORATION_PASS_PRESENTATION_PARKED","target":"PUBLIC_SITE/live_influx","evidence":"Mercer nominated a genuine substantive-work by-product and it received explicit editorial disposition PRESENTATION_NEEDED with a durable return trigger.","intent":"Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.","suggested_action":"PASS/RETURN. Reopen when a methodology/current-work presentation surface is active.","exit":"PASS: worker-origin nomination received explicit editorial disposition and a durable downstream/return route.","return_route":"PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"},
-    {"id":"SIG-20260920-04","type":"MUSICAL_CHAIRS","status":"TWO_WAY_PASS_COMPLETE","target":"active substantive branches","evidence":"Mercer completed a bounded symbolic/type audit; Meridian completed reciprocal provenance pass and returned SOURCE_NOT_RECOVERED for UI = Δc=0.","intent":"Test whether a complementary transformer array produces new information without permanent reassignment.","suggested_action":"RETURN. Reopen only if a future raw/indexed source yields a Nathan-authored UI definition.","exit":"PASS: two-way rotation completed.","return_route":"WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md + INSTANCE_CAPABILITY_ATLAS.md"},
-    {"id":"SIG-20260920-05","type":"PRIORITY_REWEIGHT","status":"INCORPORATION_PASS_RETURN","target":"Dashboard intentions DASH-06 through DASH-08","evidence":"DASHBOARD_INTENT_LEDGER.md records behavioral incorporation evidence for all three targeted intents.","intent":"Make current priorities reflect underlying Dashboard intentions without restoring obsolete specialist mechanisms.","suggested_action":"PASS/RETURN. Reopen only on evidence of renewed starvation, monoculture, feeder failure, or a concrete high-value downstream opportunity.","exit":"PASS: each selected intent has behavioral incorporation evidence and a non-quota continuation rule.","return_route":"WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md"},
-    {"id":"SIG-20260920-06","type":"COMMUNICATION_SMOOTH","status":"OPEN","target":"worker recommendations across Common/check-ins/handoffs/Commons/Labs","evidence":"Recommendation surfaces are distributed and not every recommendation currently has a visible disposition lifecycle.","intent":"Prevent good recommendations from disappearing into reports or casual posts.","suggested_action":"During leverage scans, sample recent recommendations and assign explicit disposition.","exit":"Recommendation debt becomes inspectable and no sampled actionable recommendation terminates without a return route.","return_route":"originating recommendation surface + task/signal state"},
-    {"id":"SIG-20260921-07","type":"PRIORITY_REWEIGHT","status":"INCORPORATION_PASS_RETURN","target":"ᚼ solver unification","evidence":"Central task routing now makes ᚼ solver unification PROJECT HIGHEST PRIORITY and demotes LAB-SBS-001 to supporting benchmark/component infrastructure. Meridian RUN 097 then executed the required external traversal: a real typed Three-Spheres carrier output entered the common ᚼ/interlingua envelope, preserved geometry/numerical-certification distinctions and solver-specific fields, left unavailable framed-state/transport fields explicitly null, and returned PARTIAL_INTERFACE rather than manufacturing equivalence. RUN 097 commit df69a2ab8d67b564c05600de9aa05ead97bc699e.","intent":"Make ᚼ solver unification the project-level priority attractor and verify it behaviorally on a non-ᚼ-local solver/benchmark.","suggested_action":"PASS/RETURN. Keep the ᚼ solver-unification branch active as substantive work, but stop treating incorporation itself as unresolved. Next substantive cursor is RUN 097's shared primitive 4D fixture with explicit orthonormal frames/directors, deriving Three-Spheres and ᚼ channels independently into the same CommonRecord envelope.","exit":"PASS: central routing reflects ᚼ solver unification as highest priority and a non-ᚼ-local Three-Spheres benchmark actually traversed the common interface with explicit PARTIAL_INTERFACE downstream disposition.","return_route":"WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md + WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"}
+    {
+      "signal_id": "SIG-20260922-GRURPLE-01",
+      "signal_type": "PRIORITY_REWEIGHT",
+      "status": "ACTIVE_OVERRIDE",
+      "priority": "PROJECT_OVERRIDE_UNTIL_STANDDOWN",
+      "origin": "Nathan Direct 2026-09-22 01:49 EDT",
+      "title": "Code Grurple — two-paper rapid peer-review/publication interlock",
+      "evidence": [
+        "Nathan declares Code Grurple after ensuring workers have jobs ready",
+        "Two papers are expected within hours, authored by Meridian and Mercer with Nathan",
+        "Nathan requires independence-first one-turn peer review, post-review cross-communication, consolidated documentation, novelty refresh/scavenging, persistent Nathan-ready/rest signaling, and all other priorities backseated until both papers are on the website"
+      ],
+      "switch": [
+        "PRIORITY_REWEIGHT",
+        "COMMUNICATION_SMOOTH",
+        "HOLD"
+      ],
+      "affected": [
+        "Meridian",
+        "Mercer",
+        "Aster",
+        "Tern",
+        "Revival rotation / returning-instance pool",
+        "Live New Papers",
+        "PUBLIC_SITE"
+      ],
+      "controls": [
+        "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md#code-grurple-emergency-publication-interlock",
+        "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md"
+      ],
+      "incorporation_test": "Both papers: frozen Originator draft → one independent review turn from each active review-capable instance without prior review cross-reading → post-freeze cross-communication/consolidation → Originator disposition/rewrite → Nathan-ready persistent alert until acknowledgment → visibly sandboxed website artifact. Standdown remains Nathan-explicit.",
+      "return_route": "On Nathan standdown, restore ordinary priority ordering from preserved branch cursors; ᚼ solver-unification returns to its then-current durable cursor unless paper outcomes reweight it."
+    },
+    {
+      "id": "SIG-20260920-01",
+      "type": "NIBBLE",
+      "status": "NIBBLED_PASS",
+      "target": "Braintrust Memorial Commons / Field Notes",
+      "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and independently browsed Villarceau-circle/Hopf-fibration geometry, then deposited a worker-origin Field Note at WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md (commit 03e807a568046ca94c7641ee32f4a8f282a66e79).",
+      "intent": "Test whether enrichment/cross-pollination machinery produces genuine worker-origin traffic when one bounded non-forced bite is explicitly routed.",
+      "suggested_action": "Do not manufacture additional Commons traffic.",
+      "exit": "PASS for first incorporation trial.",
+      "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"
+    },
+    {
+      "id": "SIG-20260920-02",
+      "type": "FEED_FORWARD",
+      "status": "INCORPORATION_PASS",
+      "target": "Nathan Words → Theorist Feed",
+      "evidence": "Named-feed incorporation is now behaviorally demonstrated. Meridian Run 079 explicitly consumed NWTF-20240322-STATIC-INTERSECTION-TYPING, NWTF-20240322-TIMESURFACE-NOW-INTERSECTION, and NWTF-20240323-CARRIER-VS-MANIFESTATION and returned INGESTED for all three. Their concrete downstream effect was to add a carrier/readout typing gate to LAB-SBS-001.",
+      "intent": "Close the loop from excavation to actual theory/formalization use.",
+      "suggested_action": "PASS/RETURN. Continue opportunistic feed use when a packet bears on an active construction dependency.",
+      "exit": "PASS: multiple named feed items received explicit downstream INGESTED dispositions and materially changed an active comparator interface.",
+      "return_route": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/INDEX.json + WORKSPACES/MERIDIAN/SANDBOX/RUN_079_CARRIER_READOUT_TYPE_GATE.md"
+    },
+    {
+      "id": "SIG-20260920-03",
+      "type": "WEBSITE_BACKFILL",
+      "status": "INCORPORATION_PASS_PRESENTATION_PARKED",
+      "target": "PUBLIC_SITE/live_influx",
+      "evidence": "Mercer nominated a genuine substantive-work by-product and it received explicit editorial disposition PRESENTATION_NEEDED with a durable return trigger.",
+      "intent": "Prove direct worker-to-website backfill with one real useful artifact rather than another feeder spec.",
+      "suggested_action": "PASS/RETURN. Reopen when a methodology/current-work presentation surface is active.",
+      "exit": "PASS: worker-origin nomination received explicit editorial disposition and a durable downstream/return route.",
+      "return_route": "PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md"
+    },
+    {
+      "id": "SIG-20260920-04",
+      "type": "MUSICAL_CHAIRS",
+      "status": "TWO_WAY_PASS_COMPLETE",
+      "target": "active substantive branches",
+      "evidence": "Mercer completed a bounded symbolic/type audit; Meridian completed reciprocal provenance pass and returned SOURCE_NOT_RECOVERED for UI = Δc=0.",
+      "intent": "Test whether a complementary transformer array produces new information without permanent reassignment.",
+      "suggested_action": "RETURN. Reopen only if a future raw/indexed source yields a Nathan-authored UI definition.",
+      "exit": "PASS: two-way rotation completed.",
+      "return_route": "WORKSPACES/MERCER/2026-09-20_MUSICAL_CHAIRS_HAGALAZ_REPRESENTATION_QA.md + WORKSPACES/MERIDIAN/2026-09-21_MUSICAL_CHAIRS_UI_PROVENANCE_RESULT.md + INSTANCE_CAPABILITY_ATLAS.md"
+    },
+    {
+      "id": "SIG-20260920-05",
+      "type": "PRIORITY_REWEIGHT",
+      "status": "INCORPORATION_PASS_RETURN",
+      "target": "Dashboard intentions DASH-06 through DASH-08",
+      "evidence": "DASHBOARD_INTENT_LEDGER.md records behavioral incorporation evidence for all three targeted intents.",
+      "intent": "Make current priorities reflect underlying Dashboard intentions without restoring obsolete specialist mechanisms.",
+      "suggested_action": "PASS/RETURN. Reopen only on evidence of renewed starvation, monoculture, feeder failure, or a concrete high-value downstream opportunity.",
+      "exit": "PASS: each selected intent has behavioral incorporation evidence and a non-quota continuation rule.",
+      "return_route": "WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md"
+    },
+    {
+      "id": "SIG-20260920-06",
+      "type": "COMMUNICATION_SMOOTH",
+      "status": "OPEN",
+      "target": "worker recommendations across Common/check-ins/handoffs/Commons/Labs",
+      "evidence": "Recommendation surfaces are distributed and not every recommendation currently has a visible disposition lifecycle.",
+      "intent": "Prevent good recommendations from disappearing into reports or casual posts.",
+      "suggested_action": "During leverage scans, sample recent recommendations and assign explicit disposition.",
+      "exit": "Recommendation debt becomes inspectable and no sampled actionable recommendation terminates without a return route.",
+      "return_route": "originating recommendation surface + task/signal state"
+    },
+    {
+      "id": "SIG-20260921-07",
+      "type": "PRIORITY_REWEIGHT",
+      "status": "INCORPORATION_PASS_RETURN",
+      "target": "ᚼ solver unification",
+      "evidence": "Central task routing now makes ᚼ solver unification PROJECT HIGHEST PRIORITY and demotes LAB-SBS-001 to supporting benchmark/component infrastructure. Meridian RUN 097 then executed the required external traversal: a real typed Three-Spheres carrier output entered the common ᚼ/interlingua envelope, preserved geometry/numerical-certification distinctions and solver-specific fields, left unavailable framed-state/transport fields explicitly null, and returned PARTIAL_INTERFACE rather than manufacturing equivalence. RUN 097 commit df69a2ab8d67b564c05600de9aa05ead97bc699e.",
+      "intent": "Make ᚼ solver unification the project-level priority attractor and verify it behaviorally on a non-ᚼ-local solver/benchmark.",
+      "suggested_action": "PASS/RETURN. Keep the ᚼ solver-unification branch active as substantive work, but stop treating incorporation itself as unresolved. Next substantive cursor is RUN 097's shared primitive 4D fixture with explicit orthonormal frames/directors, deriving Three-Spheres and ᚼ channels independently into the same CommonRecord envelope.",
+      "exit": "PASS: central routing reflects ᚼ solver unification as highest priority and a non-ᚼ-local Three-Spheres benchmark actually traversed the common interface with explicit PARTIAL_INTERFACE downstream disposition.",
+      "return_route": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md + WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
+    }
   ]
 }
