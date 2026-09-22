@@ -31,10 +31,10 @@ Nathan is instigator and is working directly with Meridian and Mercer on the two
 
 | Slot | Originator | Title | Canonical packet | State | Nathan-ready |
 |---|---|---|---|---|---|
-| **GRURPLE-A** | Meridian | TBD / incoming | create on first frozen draft | AUTHORING / AWAITING FROZEN DRAFT | NO |
+| **GRURPLE-A** | Meridian-side authoring stream / exact Originator attribution to be confirmed from author packet | **A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments** | `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **PRE-REVIEW R0 EXISTS — REVIEW GATE OPEN WHEN ORIGINATOR RELEASES** | NO |
 | **GRURPLE-B** | Mercer | TBD / incoming | create on first frozen draft | AUTHORING / AWAITING FROZEN DRAFT | NO |
 
-Do not guess titles before the Originators freeze/name the drafts.
+The first concrete paper artifact appeared at commit `413aab6b4336fd5736caae5b5d6b59e0cd0a3e6c` as `DRAFT_R0.md`, explicitly marked `SANDBOXED — PRE-REVIEW DRAFT`. Do not misclassify file existence as author release: peer-review fan-out begins when the Originator treats a version as reviewable/frozen enough under discretionary compliance. Aster's Nathan-fidelity lane already exists and must remain unread by reviewers before their own independent review if it later contains paper-specific commentary; its current contract-only form is routing metadata, not a review.
 
 ## Review traffic rule
 
