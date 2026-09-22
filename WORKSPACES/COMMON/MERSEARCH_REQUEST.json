@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-09-21-er-epr-worldline-worldtube-provenance-001",
-  "query": "(entanglement OR entangled OR sticky OR wormhole OR \"Einstein-Rosen\" OR \"ER=EPR\" OR \"ER = EPR\" OR worldline OR worldtube OR \"particle is\" OR \"particles are\")"
+  "request_id": "2026-09-22-mira-boundary-weak-emission-provenance-001",
+  "query": "author:user AND ((boundary OR slit OR grating OR aperture OR wall OR edge) AND (neutrino OR \"weak emission\" OR \"secondary radiation\" OR \"transient mode\" OR detachable OR \"t-boson\" OR \"f-boson\" OR substrate OR filament))"
 }
