@@ -1,0 +1,88 @@
+{
+  "schema": "hsh.shared_primitive_fixture.v0.1",
+  "run": 101,
+  "branch": "HAGALAZ-SOLVER-UNIFICATION",
+  "status": "DECLARED_CONTROL_FIXTURE",
+  "date": "2026-09-22",
+  "quarantine_consulted": false,
+  "purpose": "Machine-readable three-member C3 framed control family requested by the Meridian reply in issue #4. This is a deliberately declared benchmark fixture, not a recovered historical SAT/H(s)H geometry and not a physical claim.",
+  "source_boundary": {
+    "derived_from": [
+      "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_098_SHARED_4D_PRIMITIVE_FIXTURE.md",
+      "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/COMPTROLLER_RUN_099_FRAME_ROTATION_INTERFACE_INVARIANCE.md",
+      "WORKSPACES/MERIDIAN/HANDOFF_VISIBLE_DIALOGUE_TRISWALE_TO_HAGALAZ_2026-09-22.md",
+      "https://github.com/Satobloc/HsH/issues/4"
+    ],
+    "fixture_semantics": "synthetic control geometry for interface discrimination",
+    "not_asserted": [
+      "historical provenance of this exact parameterization",
+      "physical interpretation",
+      "identity of the triswale readout with helix pitch",
+      "identity of 3/(4*pi) with historical B",
+      "intrinsic Levi-Civita holonomy"
+    ]
+  },
+  "ambient": {
+    "dimension": 4,
+    "metric": "euclidean_identity",
+    "orientation": ["e_x", "e_y", "e_z", "e_w"],
+    "control_plane": ["e_x", "e_y"]
+  },
+  "family": {
+    "control_name": "triswale_control",
+    "control_values": [0.2617993877991494, 0.0, -0.2617993877991494],
+    "control_labels": ["plus_epsilon", "midpoint", "minus_epsilon"],
+    "epsilon_definition": "pi/12",
+    "path_parameter": "lambda",
+    "path_domain": [0.0, 6.283185307179586],
+    "cyclic_element_order": [1, 2, 3],
+    "c3_phase_offsets": [0.0, 2.0943951023931953, 4.1887902047863905],
+    "mirror_map": "triswale_control -> -triswale_control; e_w -> -e_w; centers fixed",
+    "c3_map": "element i -> i+1 mod 3 by R_xy(2*pi/3)"
+  },
+  "primitive_geometry": {
+    "equal_radius": 1.0,
+    "centers": [
+      [-0.5, 0.0, 0.0, 0.0],
+      [0.5, 0.0, 0.0, 0.0],
+      [0.0, 0.8660254037844386, 0.0, 0.0]
+    ],
+    "center_policy": "held fixed across plus/midpoint/minus controls so Three-Spheres center-only output is an invariance control",
+    "director_contract": {
+      "representation": "oriented orthonormal 2-plane U_i=(u_i,v_i), with any full SO(4) completion explicitly downstream gauge/convention",
+      "u_i": "unit radial vector in the xy control plane from the equilateral-triangle circumcenter to center i",
+      "t_i": "R_xy(+pi/2) u_i",
+      "v_i(lambda,q)": "cos(q*sin(lambda))*e_z + sin(q*sin(lambda))*e_w",
+      "orthogonality_note": "u_i lies in xy while v_i lies in zw, hence u_i dot v_i = 0 identically",
+      "orientation_note": "ordered pair (u_i,v_i) is primitive; do not silently identify an arbitrary SO(4) completion with primitive geometry"
+    }
+  },
+  "requested_downstream_derivations": {
+    "three_spheres": [
+      "project centers to xy control plane",
+      "verify carrier payload invariant across all three control values"
+    ],
+    "hagalaz": [
+      "choose and record one deterministic full-frame completion rule from each oriented director pair",
+      "compute Omega_i = F_i^{-1} dF_i/dlambda",
+      "serialize all six antisymmetric omega_ab channels",
+      "compute ordered transport Q_gamma around the declared lambda loop",
+      "report SO(4) conjugacy invariants such as the two principal rotation angles"
+    ],
+    "symmetry_controls": [
+      "verify plus/minus mirror relation under declared e_w reflection",
+      "verify C3-related element channels obey the derived conjugation relation rather than an imposed equality",
+      "repeat with lambda refinement",
+      "change only the arbitrary frame-completion gauge and distinguish raw-component changes from declared gauge-invariant transport observables"
+    ],
+    "midpoint_classification": [
+      "classify visible triswale readout independently",
+      "classify helix/chiral readout independently if supplied by a separate derived map",
+      "test whether instantaneous connection vanishes",
+      "test whether closed ordered transport is identity",
+      "do not infer one result from another"
+    ]
+  },
+  "important_limitation": "This control activates a closed lambda-dependent director excursion through the zw plane while preserving the equilateral center geometry. It is suitable for testing the endpoint-frame-versus-history interface distinction. It does not yet establish that this director law is the unique or intended geometric realization of the triswale/Graticule construction.",
+  "next_cursor": "Meridian: consume this manifest as a declared control, choose an explicit deterministic SO(4) frame-completion gauge, derive the six omega_ab(lambda) channels and ordered Q_gamma for plus/midpoint/minus, and classify whether the interface preserves static endpoint relations separately from path-dependent transport. If the control passes, replace the synthetic director law with a recovered/derived triswale geometry before making stronger unification claims."
+}
