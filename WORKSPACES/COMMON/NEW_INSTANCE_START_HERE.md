@@ -3,12 +3,15 @@
 Before choosing substantive work, read:
 
 1. `WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md`
-2. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
-3. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
-4. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
-5. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
-6. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
-7. only then the repository-specific sources needed for the selected task
+2. `WORKSPACES/COMMON/NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` and `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
+3. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
+4. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
+5. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
+6. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
+7. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
+8. only then the repository-specific sources needed for the selected task
+
+**Symbol management is a project-wide research control, not a style preference.** Before introducing shared mathematical notation, collision-check the live symbol registry and use Mercer_Searcher / Mersearch for inherited/archive notation when relevant. Preserve source notation for provenance, but never silently transfer a symbol's meaning across namespaces. Standard physics/mathematics symbols are reserved by default; semantic drift requires a new or qualified symbol.
 
 `CURRENT_WORKFLOW_ORIENTATION.md` is retained as historical workflow-state evidence; use `CURRENT_WORKFLOW_ORIENTATION_V2.md` for current orientation.
 
