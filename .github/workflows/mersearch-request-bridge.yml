@@ -62,13 +62,34 @@ jobs:
           echo "hsh_sha=$(git -C hsh-main rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "mersearch_sha=$(git -C mersearch rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "archive_sha=$(git -C archive rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "mersearch_script_sha256=$(sha256sum mersearch/tools/search_archive_content.py | awk '{print $1}')" >> "$GITHUB_OUTPUT"
       - name: Run Mersearch
+        id: run_mersearch
         shell: bash
         env:
           QUERY: ${{ steps.req.outputs.query }}
         run: |
           rm -rf /tmp/mersearch-request
-          python mersearch/tools/search_archive_content.py archive --expr "$QUERY" --sort date --out /tmp/mersearch-request
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, re, os
+          src_path=Path('mersearch/tools/search_archive_content.py')
+          src=src_path.read_text(encoding='utf-8')
+          hotfix=False
+          if not re.search(r'^TOOL_NAME\s*=', src, flags=re.M):
+              marker='TEXT_EXTS='
+              if marker not in src:
+                  raise SystemExit('Cannot apply Mersearch identity hotfix: TEXT_EXTS marker missing')
+              src=src.replace(marker, 'TOOL_NAME="Mercer_Searcher_1.0"\nTOOL_VERSION="1.0"\n'+marker, 1)
+              hotfix=True
+          runtime=Path('/tmp/mersearch-runtime.py')
+          runtime.write_text(src,encoding='utf-8')
+          digest=hashlib.sha256(runtime.read_bytes()).hexdigest()
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as f:
+              f.write('runtime_script_sha256='+digest+'\n')
+              f.write('identity_hotfix_applied='+str(hotfix).lower()+'\n')
+          PY
+          python /tmp/mersearch-runtime.py archive --expr "$QUERY" --sort date --out /tmp/mersearch-request
           test -s /tmp/mersearch-request/SEARCH_RESULTS.json
           test -s /tmp/mersearch-request/SEARCH_RESULTS.md
       - name: Build run manifest
@@ -79,6 +100,9 @@ jobs:
           HSH_SHA: ${{ steps.inputs.outputs.hsh_sha }}
           MERSEARCH_SHA: ${{ steps.inputs.outputs.mersearch_sha }}
           ARCHIVE_SHA: ${{ steps.inputs.outputs.archive_sha }}
+          MERSEARCH_SCRIPT_SHA256: ${{ steps.inputs.outputs.mersearch_script_sha256 }}
+          RUNTIME_SCRIPT_SHA256: ${{ steps.run_mersearch.outputs.runtime_script_sha256 }}
+          IDENTITY_HOTFIX_APPLIED: ${{ steps.run_mersearch.outputs.identity_hotfix_applied }}
         run: |
           python - <<'PY'
           import hashlib, json, os, pathlib
@@ -98,6 +122,14 @@ jobs:
             'write_root':'indexes/mersearch_requests/<request_id>/',
             'write_class':'derived/generated output',
             'default_exclusions':['QUARANTINE','PRIOR_ART'],
+            'bridge_runtime_hotfix':{
+              'applied':os.environ['IDENTITY_HOTFIX_APPLIED'].lower()=='true',
+              'reason':'mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them',
+              'scope':'runtime copy only; mersearch-stable-1.0 branch is unchanged',
+              'injected_definitions':{'TOOL_NAME':'Mercer_Searcher_1.0','TOOL_VERSION':'1.0'},
+              'stable_script_sha256':os.environ['MERSEARCH_SCRIPT_SHA256'],
+              'runtime_script_sha256':os.environ['RUNTIME_SCRIPT_SHA256']
+            },
             'outputs':{
               'SEARCH_RESULTS.json':sha256(out/'SEARCH_RESULTS.json'),
               'SEARCH_RESULTS.md':sha256(out/'SEARCH_RESULTS.md')
