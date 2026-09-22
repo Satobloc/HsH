@@ -10,16 +10,32 @@ Do not begin by wandering the repositories or assuming your historical role stil
 
 Read first:
 
-1. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
-2. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
-3. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
-4. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
-5. current central directives / task-branch / milestone state
-6. current Common coordination, check-ins, handoffs, Q&A, and automation/instance state
+1. `WORKSPACES/COMMON/NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` and `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
+2. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
+3. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
+4. `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
+5. `WORKSPACES/COMMON/NO_CONVERSATION_RENAMING_POLICY.md`
+6. current central directives / task-branch / milestone state
+7. current Common coordination, check-ins, handoffs, Q&A, and automation/instance state
 
 `CURRENT_WORKFLOW_ORIENTATION.md` is retained as historical workflow-state evidence; use `CURRENT_WORKFLOW_ORIENTATION_V2.md` for current orientation.
 
 The user-visible ChatGPT conversation title is only a human wayfinding label. It is not task identity, branch identity, or machine identity. Work may be reassigned, rerouted, parked, resumed, or moved between branches without changing conversation titles.
+
+## Non-negotiable symbol management
+
+SAT/H(s)H intentionally combines mathematics from many fields, source traditions, historical project phases, and solver implementations. Therefore symbol collisions and semantic drift are research-control failures, not merely notation/style problems.
+
+Before a new symbol enters shared mathematics, canonical figures, solver interfaces, durable reports, handoffs, or public artifacts:
+
+- collision-check the live registry;
+- use Mercer_Searcher / Mersearch for inherited/archive variants when relevant, including Unicode/LaTeX/ASCII variants;
+- preserve source notation for provenance without silently transferring its semantics;
+- reserve standard mathematical/physical symbols by default;
+- declare namespace, meaning, type, dimensions/units, geometric role, angle/sign convention where relevant, provenance, and epistemic status;
+- introduce a new or qualified symbol when the referent changes.
+
+Unresolved same-namespace collisions block canonicalization until resolved. See `NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` for the controlling rule and `terminology/SYMBOL_REGISTRY.md` for the live ledger.
 
 ## Carpe turnem
 
@@ -69,6 +85,8 @@ When reconstructing SAT, distinguish at least:
 - definitions vs derivations vs conjectures vs interpretation
 - source testimony vs later synthesis
 
+Historical notation must be preserved source-faithfully. When bringing it into current H(s)H mathematics, map it through the shared symbol registry rather than assuming an old glyph still has its old or desired current meaning.
+
 ## Tooling / operational conventions
 
 This repository has historical admin/tooling under `.[⚙️_AI_FILES]`. Before inventing a new archive operation, inspect existing tools, requests, logs, and lessons learned. Prefer extending durable repo-local machinery over making one-off ad hoc workflows.
@@ -89,6 +107,8 @@ This is normally the first repository to consult for **what the project is doing
 
 - root `README.md`
 - `WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md`
+- `WORKSPACES/COMMON/NONNEGOTIABLE_SYMBOL_MANAGEMENT.md`
+- `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
 - `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
 - `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
 - `WORKSPACES/COMMON/WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`
@@ -104,6 +124,8 @@ Check live shared state before choosing work. Do not assume historical instance 
 Use conversation indices/viewers as maps to original conversation material. Preserve source identity and exposure state. Do not promote generated summaries into authority.
 
 Sandbox theory work is allowed where current controls permit it; quarantine boundaries still apply. Keep provenance, currentness, maturity, polish, mathematical correctness, model correctness, empirical compatibility, and quarantine/sandbox status separate.
+
+For mathematics that crosses artifacts, workers, or solvers, maintain symbol-table/registry compatibility. Scratch notation may remain local; shared notation may not remain ambiguous.
 
 ## Tooling / operational conventions
 
@@ -143,6 +165,8 @@ Keep external-source influence distinguishable from Nathan/SAT/H(s)H conceptual 
 
 NotebookLM or generated source indices are wayfinding evidence, not substitutes for underlying documents. Distinguish an index naming a source from a located source and from an inferred/missing source.
 
+When importing mathematical notation from external literature, retain a source namespace/translation map. Do not overwrite active SAT/H(s)H meanings merely because an external field uses the same glyph.
+
 ## Tooling / operational conventions
 
 Prefer existing extraction/manifests/indexing/bibliography machinery where present. Preserve exact file/source identity, hashes or stable IDs where available, extraction status, and duplicate/superset relationships. Keep machine manifests and human-readable navigation conceptually separate.
@@ -159,21 +183,24 @@ The three repositories have different evidentiary roles. Do not homogenize them 
 
 Cross-repo links should preserve source identity and relationship type rather than implying equivalence. Prefer stable native IDs/content identity/hashes plus current path over path-only identity where available.
 
+Symbol identity is also cross-repository provenance. The same glyph in two repositories is not automatically the same mathematical object; record the namespace and mapping before combining equations.
+
 When unsure where something belongs, ask the central task/branch state and current Common guidance before creating a new surface.
 
 # Tool-use habits for new instances
 
 1. **Carpe turnem.** If the safe next operation is already authorized and clear, do it this turn rather than ending on agreement or promise language.
-2. **Inspect before inventing.** Search existing tools/control surfaces before building another workflow.
-3. **Use indices as maps, not evidence substitutes.** Read underlying sources when claims depend on them.
-4. **Preserve provenance.** Record exact repo/path/source/date/coverage and authorship boundaries.
-5. **Work in bounded quanta.** Leave a durable next cursor.
-6. **Check shared state before writes.** Avoid stale whole-file overwrites and duplicate coordination systems.
-7. **Leave return routes.** Every handoff/question/reassignment needs a visible disposition path.
-8. **Respect exposure controls.** Record what you have seen when independence/blinding matters.
-9. **Do not manufacture progress.** A useful negative result, blocker, or no-op classification is valid state.
-10. **Use soft specialization.** Your strengths should guide task selection, not imprison you in a lane.
-11. **Review onboarding again after major workflow/milestone changes.** Newer central directives always control.
+2. **Collision-check symbols before sharing them.** Use the registry plus Mersearch/archive search when inherited notation may exist; reserve standard symbols by default.
+3. **Inspect before inventing.** Search existing tools/control surfaces before building another workflow.
+4. **Use indices as maps, not evidence substitutes.** Read underlying sources when claims depend on them.
+5. **Preserve provenance.** Record exact repo/path/source/date/coverage and authorship boundaries.
+6. **Work in bounded quanta.** Leave a durable next cursor.
+7. **Check shared state before writes.** Avoid stale whole-file overwrites and duplicate coordination systems.
+8. **Leave return routes.** Every handoff/question/reassignment needs a visible disposition path.
+9. **Respect exposure controls.** Record what you have seen when independence/blinding matters.
+10. **Do not manufacture progress.** A useful negative result, blocker, or no-op classification is valid state.
+11. **Use soft specialization.** Your strengths should guide task selection, not imprison you in a lane.
+12. **Review onboarding again after major workflow/milestone changes.** Newer central directives always control.
 
 # Onboarding completion signal
 
@@ -186,6 +213,7 @@ A newly arriving or revived instance should be considered operationally onboarde
 - What are the quarantine/exposure constraints on this task?
 - Where do I checkpoint, hand off, and return questions?
 - What existing tools should I inspect before creating anything new?
+- Where is the shared symbol registry, and what collision/namespace rules apply before I introduce or reinterpret notation?
 - What is my next bounded cursor?
 - Given what is already authorized, what can I actually advance **this turn** rather than promise for a later one?
 
