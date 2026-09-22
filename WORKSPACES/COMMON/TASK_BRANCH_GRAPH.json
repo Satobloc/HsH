@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -12,212 +12,15 @@
     "Populate progressively from verified durable branch/task state; unknown fields remain explicit.",
     "Nathan Direct 2026-09-20 reweights the active edge from excavation/preservation as the dominant mode toward bold sandboxed construction and projection/benchmark work. Excavation remains supporting infrastructure. Confidence attaches first to faithful representation/reproduction of accepted physics; it does not automatically transfer to SAT/H(s)H derivation, novelty, or validation."
   ],
-  "allowed_status": [
-    "candidate",
-    "active",
-    "blocked",
-    "handoff_pending",
-    "parked",
-    "completed",
-    "superseded",
-    "rejected"
-  ],
+  "allowed_status": ["candidate","active","blocked","handoff_pending","parked","completed","superseded","rejected"],
   "branches": [
-    {
-      "id": "CTRL-2026-09-20-GENERALIST",
-      "title": "Generalist workflow/control-plane reconciliation",
-      "kind": "control_plane",
-      "status": "completed",
-      "parent": null,
-      "children": [
-        "CTRL-02",
-        "CTRL-03",
-        "CTRL-04",
-        "CTRL-05"
-      ],
-      "origin": "Nathan workflow directives and 2026-09-20 control-plane reconciliation",
-      "intent": "Replace stale fixed-specialist routing with stable-instance/fluid-work generalist routing while preserving live provenance, quarantine, sandbox, continuity, and wayfinding controls.",
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON",
-      "exposure_constraints": [
-        "Preserve PRIOR_ART/private quarantine boundaries",
-        "Do not infer historical-instance accessibility"
-      ],
-      "owner_instance": null,
-      "candidate_instances": [
-        "Tern",
-        "Mercer"
-      ],
-      "dependencies": [],
-      "blockers": [],
-      "last_material_state": "Generalist/lease control-plane reconciliation completed: core controls reconciled and CTRL-05 achieved a clean cold-start pass. Reopen only on material workflow contradiction or onboarding regression.",
-      "next_cursor": null,
-      "exit_criterion": "Current Common control surfaces no longer contradict the generalist/lease architecture, and onboarding cold-start succeeds.",
-      "return_route": "WORKSPACES/COMMON control-plane state"
-    },
-    {
-      "id": "CTRL-02",
-      "title": "Instance registry / execution lease state",
-      "kind": "control_plane",
-      "status": "completed",
-      "parent": "CTRL-2026-09-20-GENERALIST",
-      "children": [],
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
-      "last_material_state": "Durable distinction established between stable instance population and temporary scheduler leases.",
-      "next_cursor": null,
-      "exit_criterion": "Durable registry/control surface exists.",
-      "return_route": "CTRL-2026-09-20-GENERALIST"
-    },
-    {
-      "id": "CTRL-03",
-      "title": "Current workflow orientation reconciliation",
-      "kind": "control_plane",
-      "status": "completed",
-      "parent": "CTRL-2026-09-20-GENERALIST",
-      "children": [],
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
-      "last_material_state": "V2 established as current controlling workflow front door; historical orientation retained as evidence.",
-      "next_cursor": null,
-      "exit_criterion": "Current orientation natively carries generalist/lease/revival/Carpe-turnem architecture.",
-      "return_route": "CTRL-2026-09-20-GENERALIST"
-    },
-    {
-      "id": "CTRL-04",
-      "title": "Reconcile autonomy protocol and active automation roster",
-      "kind": "control_plane",
-      "status": "completed",
-      "parent": "CTRL-2026-09-20-GENERALIST",
-      "children": [],
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON",
-      "dependencies": [
-        "CTRL-02",
-        "CTRL-03"
-      ],
-      "blockers": [],
-      "last_material_state": "WORKER_AUTONOMY_HANDOFF_PROTOCOL.md and ACTIVE_AUTOMATION_ROSTER.md now carry current generalist/lease routing and delegated-control semantics while retaining live signet, provenance, quarantine, sandbox, handoff, attention-flag, and continuity safeguards.",
-      "next_cursor": null,
-      "exit_criterion": "Those operational surfaces no longer contradict current generalist/lease architecture while preserving still-live safeguards.",
-      "return_route": "CTRL-2026-09-20-GENERALIST"
-    },
-    {
-      "id": "CTRL-05",
-      "title": "Three-repository onboarding cold-start test",
-      "kind": "onboarding_qa",
-      "status": "completed",
-      "parent": "CTRL-2026-09-20-GENERALIST",
-      "children": [],
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON",
-      "dependencies": [
-        "CTRL-04"
-      ],
-      "blockers": [],
-      "last_material_state": "First clean three-repository cold-start pass recorded 2026-09-21 after three concrete routing defects were repaired. ONBOARDING_REVIEW_STATE.md says the exit criterion is satisfied; reopen only on material-change trigger or concrete navigation/tooling failure.",
-      "next_cursor": null,
-      "exit_criterion": "Cold-start instance can navigate all three repos and current workflow without contradictory guidance or undocumented critical steps.",
-      "return_route": "Onboarding review/audit state"
-    },
-    {
-      "id": "EXPLORE-2026-09-20-COMMONS",
-      "title": "Exploration commons / informal intellectual ecology",
-      "kind": "exploration_commons",
-      "status": "active",
-      "parent": null,
-      "children": [
-        "LAB-SBS-001"
-      ],
-      "origin": "Nathan directive, 2026-09-20",
-      "intent": "Maintain a visible low-stakes intellectual commons where workers can think aloud, post serendipitous learning, identify neglected high-leverage work, and spin promising ideas into controlled Labs or committed branches without forcing every thought into research-report or task language.",
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md",
-      "exposure_constraints": [
-        "No PRIOR_ART/quarantined leakage",
-        "Preserve source/exposure identity where independence matters",
-        "Commons consensus is not theory validation"
-      ],
-      "owner_instance": null,
-      "candidate_instances": [],
-      "dependencies": [],
-      "blockers": [],
-      "last_material_state": "Watercooler, Field Notes/TIL, exploration router, HsH Labs framework, and first worker-origin Field Note are now behaviorally populated.",
-      "next_cursor": "Allow enrichment traffic to arise naturally; promote only concrete questions into Labs/tasks rather than forcing additional Commons output.",
-      "exit_criterion": "Persistent branch; success is demonstrated use plus explicit spin-out routes, not closure.",
-      "return_route": "WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md"
-    },
-    {
-      "id": "LAB-SBS-001",
-      "title": "Geometric solver vs standard-equation side-by-side pipeline",
-      "kind": "lab",
-      "status": "active",
-      "parent": "EXPLORE-2026-09-20-COMMONS",
-      "children": [],
-      "origin": "Nathan directive / exploration commons",
-      "intent": "Build an auditable Python-capable comparison harness for matched SAT/H(s)H geometric-solver and standard/reference-equation cases without hiding target leakage, fit freedom, units, transformations, or representation assumptions.",
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER",
-      "exposure_constraints": [
-        "Preserve PRIOR_ART/private quarantine",
-        "Classify inputs/fits/derived/predicted/blind/post-hoc values",
-        "Do not treat numerical agreement as derivation or validation"
-      ],
-      "owner_instance": null,
-      "candidate_instances": [
-        "Meridian",
-        "Tern",
-        "Ravel",
-        "Mercer"
-      ],
-      "dependencies": [
-        "Recover or preserve candidate status of the exact Hagalaz operator",
-        "Use one declared shared material/director gauge before comparing translation residuals",
-        "Inject cross-solver disturbances at the shared primitive 4D data level before deriving either representation",
-        "Treat the first Hagalaz ↔ Three-Spheres benchmark as complementary-channel unless a genuinely homologous Hagalaz geometric-admissibility observable is recovered",
-        "Keep Three-Spheres symmetry defect, carrier viability, and numerical reconstruction certification as separate typed channels"
-      ],
-      "blockers": [],
-      "last_material_state": "Three-Spheres typed carrier reconstruction has crossed into executable/regression-tested component status (implementation commit 5630730; Meridian Run 087 independently exercised the four typed-status regressions). Treat as component-ready unless integration exposes a concrete defect.",
-      "next_cursor": "Feed the typed Three-Spheres output into the common ᚼ solver/interface state as an external-solver incorporation test; preserve nonhomologous fields as typed optional/solver-specific channels rather than forcing equivalence.",
-      "exit_criterion": "One paired case runs through both sides from a shared manifest with reproducible metadata and an auditable comparison report.",
-      "return_route": "WORKSPACES/LABS/LAB_REGISTRY.json + WORKSPACES/MERIDIAN/SANDBOX/RUN_085_TYPED_CARRIER_NUMERIC_STATUS_MACHINE.md + WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_085_TYPED_CARRIER_NUMERIC_STATUS_MACHINE.md",
-      "priority_note": "SUPPORTING BENCHMARK / COMPONENT INFRASTRUCTURE. Useful Three-Spheres/comparator machinery feeds the project-highest-priority ᚼ solver-unification mission; it is no longer the project focal destination."
-    },
-    {
-      "id": "HAGALAZ-SOLVER-UNIFICATION",
-      "title": "ᚼ solver unification",
-      "kind": "construction_active_edge",
-      "status": "active",
-      "parent": null,
-      "children": [],
-      "origin": "Nathan mission redirect, 2026-09-21; Meridian active construction sequence",
-      "intent": "Unify the project's geometric solvers through explicit common state/interfaces, typed solver-specific channels, shared primitive data where legitimate, and behavioral cross-solver incorporation tests without forcing nonhomologous observables into false equivalence.",
-      "repository": "Satobloc/HsH",
-      "primary_surface": "WORKSPACES/MERIDIAN + WORKSPACES/COMMON",
-      "exposure_constraints": [
-        "Preserve PRIOR_ART/private quarantine",
-        "Preserve provenance and source/operator uncertainty",
-        "Do not treat numerical agreement as derivation or validation",
-        "Keep nonhomologous solver channels explicitly typed"
-      ],
-      "owner_instance": null,
-      "candidate_instances": [
-        "Meridian",
-        "Mercer",
-        "Tern",
-        "Aster"
-      ],
-      "dependencies": [
-        "Meridian current ᚼ common-state/interface work",
-        "Executable Three-Spheres typed carrier component as first ready external benchmark"
-      ],
-      "blockers": [],
-      "last_material_state": "Nathan redirected Meridian and the project active edge around ᚼ solver unification. Meridian's subsequent runs are constructing common framed-state, SO(4), carrier/closure/scale/transport machinery. Three-Spheres is now executable/regression-tested and ready as the first external component incorporation test.",
-      "next_cursor": "Run one real Three-Spheres typed output through the current ᚼ common solver/interface state. Preserve geometry/numerics/carrier/event-history distinctions and leave genuinely unavailable/nonhomologous fields missing. Disposition INCORPORATED, PARTIAL_INTERFACE, or CONFLICT.",
-      "exit_criterion": "Central routing reflects ᚼ solver unification and at least one non-ᚼ-local solver/benchmark has actually traversed the common interface with downstream disposition.",
-      "return_route": "WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json + Meridian handoff/checkpoint surfaces",
-      "priority_note": "PROJECT HIGHEST PRIORITY. Other healthy work continues; new routing and scarce attention preferentially support solver unification."
-    }
+    {"id":"CTRL-2026-09-20-GENERALIST","title":"Generalist workflow/control-plane reconciliation","kind":"control_plane","status":"completed","parent":null,"children":["CTRL-02","CTRL-03","CTRL-04","CTRL-05"],"origin":"Nathan workflow directives and 2026-09-20 control-plane reconciliation","intent":"Replace stale fixed-specialist routing with stable-instance/fluid-work generalist routing while preserving live provenance, quarantine, sandbox, continuity, and wayfinding controls.","repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON","exposure_constraints":["Preserve PRIOR_ART/private quarantine boundaries","Do not infer historical-instance accessibility"],"owner_instance":null,"candidate_instances":["Tern","Mercer"],"dependencies":[],"blockers":[],"last_material_state":"Generalist/lease control-plane reconciliation completed: core controls reconciled and CTRL-05 achieved a clean cold-start pass. Reopen only on material workflow contradiction or onboarding regression.","next_cursor":null,"exit_criterion":"Current Common control surfaces no longer contradict the generalist/lease architecture, and onboarding cold-start succeeds.","return_route":"WORKSPACES/COMMON control-plane state"},
+    {"id":"CTRL-02","title":"Instance registry / execution lease state","kind":"control_plane","status":"completed","parent":"CTRL-2026-09-20-GENERALIST","children":[],"repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md","last_material_state":"Durable distinction established between stable instance population and temporary scheduler leases.","next_cursor":null,"exit_criterion":"Durable registry/control surface exists.","return_route":"CTRL-2026-09-20-GENERALIST"},
+    {"id":"CTRL-03","title":"Current workflow orientation reconciliation","kind":"control_plane","status":"completed","parent":"CTRL-2026-09-20-GENERALIST","children":[],"repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md","last_material_state":"V2 established as current controlling workflow front door; historical orientation retained as evidence.","next_cursor":null,"exit_criterion":"Current orientation natively carries generalist/lease/revival/Carpe-turnem architecture.","return_route":"CTRL-2026-09-20-GENERALIST"},
+    {"id":"CTRL-04","title":"Reconcile autonomy protocol and active automation roster","kind":"control_plane","status":"completed","parent":"CTRL-2026-09-20-GENERALIST","children":[],"repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON","dependencies":["CTRL-02","CTRL-03"],"blockers":[],"last_material_state":"WORKER_AUTONOMY_HANDOFF_PROTOCOL.md and ACTIVE_AUTOMATION_ROSTER.md now carry current generalist/lease routing and delegated-control semantics while retaining live safeguards.","next_cursor":null,"exit_criterion":"Those operational surfaces no longer contradict current generalist/lease architecture while preserving still-live safeguards.","return_route":"CTRL-2026-09-20-GENERALIST"},
+    {"id":"CTRL-05","title":"Three-repository onboarding cold-start test","kind":"onboarding_qa","status":"completed","parent":"CTRL-2026-09-20-GENERALIST","children":[],"repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON","dependencies":["CTRL-04"],"blockers":[],"last_material_state":"First clean three-repository cold-start pass recorded 2026-09-21 after three concrete routing defects were repaired. Reopen only on material-change trigger or concrete navigation/tooling failure.","next_cursor":null,"exit_criterion":"Cold-start instance can navigate all three repos and current workflow without contradictory guidance or undocumented critical steps.","return_route":"Onboarding review/audit state"},
+    {"id":"EXPLORE-2026-09-20-COMMONS","title":"Exploration commons / informal intellectual ecology","kind":"exploration_commons","status":"active","parent":null,"children":["LAB-SBS-001"],"origin":"Nathan directive, 2026-09-20","intent":"Maintain a visible low-stakes intellectual commons where workers can think aloud, post serendipitous learning, identify neglected high-leverage work, and spin promising ideas into controlled Labs or committed branches without forcing every thought into research-report or task language.","repository":"Satobloc/HsH","primary_surface":"WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md","exposure_constraints":["No PRIOR_ART/quarantined leakage","Preserve source/exposure identity where independence matters","Commons consensus is not theory validation"],"owner_instance":null,"candidate_instances":[],"dependencies":[],"blockers":[],"last_material_state":"Watercooler, Field Notes/TIL, exploration router, HsH Labs framework, and first worker-origin Field Note are now behaviorally populated.","next_cursor":"Allow enrichment traffic to arise naturally; promote only concrete questions into Labs/tasks rather than forcing additional Commons output.","exit_criterion":"Persistent branch; success is demonstrated use plus explicit spin-out routes, not closure.","return_route":"WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md"},
+    {"id":"LAB-SBS-001","title":"Geometric solver vs standard-equation side-by-side pipeline","kind":"lab","status":"active","parent":"EXPLORE-2026-09-20-COMMONS","children":[],"origin":"Nathan directive / exploration commons","intent":"Build an auditable Python-capable comparison harness for matched SAT/H(s)H geometric-solver and standard/reference-equation cases without hiding target leakage, fit freedom, units, transformations, or representation assumptions.","repository":"Satobloc/HsH","primary_surface":"WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER","exposure_constraints":["Preserve PRIOR_ART/private quarantine","Classify inputs/fits/derived/predicted/blind/post-hoc values","Do not treat numerical agreement as derivation or validation"],"owner_instance":null,"candidate_instances":["Meridian","Tern","Ravel","Mercer"],"dependencies":["Recover or preserve candidate status of the exact ᚼ operator","Use one declared shared material/director gauge before comparing translation residuals","Inject cross-solver disturbances at the shared primitive 4D data level before deriving either representation","Treat the first ᚼ ↔ Three-Spheres benchmark as complementary-channel unless a genuinely homologous ᚼ geometric-admissibility observable is recovered","Keep Three-Spheres symmetry defect, carrier viability, and numerical reconstruction certification as separate typed channels"],"blockers":[],"last_material_state":"Runs 097-099 exercised the Three-Spheres component through the common envelope, a shared primitive 4D fixture, and an F2-only frame perturbation. The carrier payload remained typed and invariant where it should while the ᚼ relative-frame channel responded predictably. These controls do not complete the broader paired comparison/report exit criterion.","next_cursor":"Support the active ᚼ transport/history discrimination test; then continue toward one paired case from a shared manifest with reproducible metadata and an auditable comparison report.","exit_criterion":"One paired case runs through both sides from a shared manifest with reproducible metadata and an auditable comparison report.","return_route":"WORKSPACES/LABS/LAB_REGISTRY.json + WORKSPACES/COMMON/MERIDIAN_HANDOFFS/MERCER_RUN_100_ACTIVE_EDGE_RECONCILIATION.md","priority_note":"SUPPORTING BENCHMARK / COMPONENT INFRASTRUCTURE. Useful Three-Spheres/comparator machinery feeds the project-highest-priority ᚼ solver-unification mission; it is no longer the project focal destination."},
+    {"id":"HAGALAZ-SOLVER-UNIFICATION","title":"ᚼ solver unification","kind":"construction_active_edge","status":"active","parent":null,"children":[],"origin":"Nathan mission redirect, 2026-09-21; Meridian active construction sequence","intent":"Unify the project's geometric solvers through explicit common state/interfaces, typed solver-specific channels, shared primitive data where legitimate, and behavioral cross-solver incorporation tests without forcing nonhomologous observables into false equivalence.","repository":"Satobloc/HsH","primary_surface":"WORKSPACES/MERIDIAN + WORKSPACES/COMMON","exposure_constraints":["Preserve PRIOR_ART/private quarantine","Preserve provenance and source/operator uncertainty","Do not treat numerical agreement as derivation or validation","Keep nonhomologous solver channels explicitly typed"],"owner_instance":null,"candidate_instances":["Meridian","Mercer","Tern","Aster"],"dependencies":["Meridian current ᚼ common-state/interface work","Executable Three-Spheres typed carrier component as first external benchmark","Shared primitive 4D fixture and channel-independence controls from Runs 098-099"],"blockers":[],"last_material_state":"RUN 097 returned PARTIAL_INTERFACE for real Three-Spheres ingestion; RUN 098 established an INCORPORATED_CONTROL shared primitive 4D fixture; RUN 099 passed the channel-independence control by rotating only F2, leaving Three-Spheres invariant while the ᚼ relative-frame channel changed predictably. Static endpoint-frame telescoping remains explicitly distinct from transport/holonomy.","next_cursor":"Activate a channel that cannot collapse to static endpoint-frame telescoping. Supply a declared connection/history or other explicitly typed transport input on a controlled path, keep the shared primitive/source boundary explicit, and test whether the common record preserves endpoint relative frame separately from path-dependent transport/holonomy.","exit_criterion":"Common solver architecture preserves typed solver-specific channels and demonstrates at least one controlled path-dependent transport/history case without conflating it with static endpoint-frame relations; downstream disposition is explicit.","return_route":"WORKSPACES/COMMON/MERIDIAN_HANDOFFS/MERCER_RUN_100_ACTIVE_EDGE_RECONCILIATION.md + Meridian handoff/checkpoint surfaces","priority_note":"PROJECT HIGHEST PRIORITY. Other healthy work continues; new routing and scarce attention preferentially support solver unification."}
   ]
 }
