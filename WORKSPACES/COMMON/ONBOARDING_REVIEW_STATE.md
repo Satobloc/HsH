@@ -11,7 +11,9 @@ Purpose: track whether the central onboarding material remains accurate enough f
 
 A 2026-09-21 cold-start review found and repaired a stale orientation pointer in `INSTANCE_ONBOARDING_3REPO.md`: the guide had still routed fresh instances to historical `CURRENT_WORKFLOW_ORIENTATION.md` in two places even though `NEW_INSTANCE_START_HERE.md` correctly designated `CURRENT_WORKFLOW_ORIENTATION_V2.md` as current. The three-repository guide now points to V2 and explicitly labels the unversioned file historical. Treat that repair as absorbed once an instance has read the 2026-09-21 guide; it does not itself require repeated full-package rereads.
 
-A second 2026-09-21 cold-start pass found that `NEW_INSTANCE_START_HERE.md` told a fresh worker to inspect the current task/branch, directive, milestone, check-in, handoff, and lease state without naming the live files. That ambiguity is now repaired: the start-here surface explicitly names `TASK_BRANCH_GRAPH.json`, `NATHAN_DIRECT_WORKFLOW_STATE.md`, `CHECKINS.md`, `HANDOFFS.md`, `ACTIVE_AUTOMATION_ROSTER.md`, and `INSTANCE_REGISTRY_EXECUTION_LEASES.md`, while retaining the instruction to read only the portions needed for the immediate bounded task.
+A second 2026-09-21 cold-start pass found that `NEW_INSTANCE_START_HERE.md` told a fresh worker to inspect the current task/branch, directive, milestone, check-in, handoff, and lease state without naming the live files. That ambiguity is now repaired: the start-here surface explicitly names the live control-plane files while retaining the instruction to read only the portions needed for the immediate bounded task.
+
+A third 2026-09-21 cold-start pass found a scope/authority ambiguity in the new pointer block: `NATHAN_DIRECT_WORKFLOW_STATE.md` had been presented as if it supplied generic project-wide phase/milestone state, although it is specifically the Nathan Direct corpus/provenance lane state. `NEW_INSTANCE_START_HERE.md` now routes project-wide purpose/phase through `CURRENT_WORKFLOW_ORIENTATION_V2.md`, active-edge/milestone routing through `TASK_BRANCH_GRAPH.json`, directive authority through the current provenance/Common surfaces, and `NATHAN_DIRECT_WORKFLOW_STATE.md` only when the selected work actually enters that lane. This repair is also QA history, not a cold-start certification.
 
 ## Required onboarding sources
 
@@ -59,14 +61,15 @@ An instance is adequately onboarded when it can locate and explain:
 
 ## Cold-start validation state
 
-The 2026-09-21 cold-start validation has so far produced two real navigation defects rather than a clean certification:
+The 2026-09-21 cold-start validation has so far produced three real navigation defects rather than a clean certification:
 
 1. `INSTANCE_ONBOARDING_3REPO.md` disagreed with `NEW_INSTANCE_START_HERE.md` about which workflow-orientation document was current. Repaired.
 2. `NEW_INSTANCE_START_HERE.md` named categories of live control state without naming their actual control surfaces, forcing a new worker to infer which similarly named Common files were current. Repaired by adding explicit live-control-plane pointers.
+3. The resulting pointer block over-scoped `NATHAN_DIRECT_WORKFLOW_STATE.md` as though it were generic project-wide phase/milestone authority. Repaired by separating project-wide orientation/task-graph routing from Nathan Direct lane state.
 
 These repairs improve the package but do **not** constitute a successful cold-start certification by themselves.
 
-**Next cursor:** continue the cold-start validation from the twice-corrected package. Starting only from `NEW_INSTANCE_START_HERE.md` and documents it routes to, verify that a fresh/revived worker can now recover without oral correction: (1) live central task/branch state, (2) current directive and milestone state, (3) Common check-in/handoff surfaces, (4) active/paused execution-lease state, (5) the distinct roles/front doors of all three repositories, (6) quarantine/exposure rules, and (7) one executable bounded task. Record any missing or ambiguous pointer as an onboarding defect. If all seven are recoverable, record the first clean cold-start pass rather than continuing to manufacture documentation changes.
+**Next cursor:** continue the cold-start validation from the three-times-corrected package. Starting only from `NEW_INSTANCE_START_HERE.md` and documents it routes to, verify that a fresh/revived worker can now recover without oral correction: (1) live central task/branch state, (2) current directive and milestone state, (3) Common check-in/handoff surfaces, (4) active/paused execution-lease state, (5) the distinct roles/front doors of all three repositories, (6) quarantine/exposure rules, and (7) one executable bounded task. Record any missing or ambiguous pointer as an onboarding defect. If all seven are recoverable, record the first clean cold-start pass rather than continuing to manufacture documentation changes.
 
 **Exit criterion:** a cold-start pass can recover the completion-test items above from current repository state without stale-path correction or undocumented oral knowledge.
 
