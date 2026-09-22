@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 593,
+  "json_files_scanned": 594,
   "conversation_exports_recognized": 436,
-  "nonconversation_json_skipped": 156,
+  "nonconversation_json_skipped": 157,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
@@ -94048,8 +94048,7 @@
         "CONV:WORK-CAREER",
         "CONV:WORLDLINE",
         "CONV:WORLDTUBE",
-        "CONV:WRITING",
-        "INDEX-GAP-CANDIDATE"
+        "CONV:WRITING"
       ],
       "discourse_tags": [
         "ADVERSARIALISM",
@@ -94096,8 +94095,8 @@
         "TESTING-VALIDATION",
         "URGENCY"
       ],
-      "structural_index_present": false,
-      "index_gap_candidate": true,
+      "structural_index_present": true,
+      "index_gap_candidate": false,
       "top_retrieval_score": 94.0,
       "tagger_version": 2,
       "source_sha256": "a12ce6c6cb65a850d90740329825a37087004af2420ae9847dca3c692f3329e1",

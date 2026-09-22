@@ -2,11 +2,11 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 593
+- JSON files scanned: 594
 - conversation exports recognized: 436
-- non-conversation JSON skipped: 156
+- non-conversation JSON skipped: 157
 - parse errors: 1
-- structural-index gap candidates: 1
+- structural-index gap candidates: 0
 
 ## Topic coverage
 
@@ -3102,7 +3102,7 @@
 - density: 0.91958; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `C-TYPING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `ELECTROGRAVITY`, `ELECTROMAGNETISM`, `FINITE-CORE`, `GEOMETRY`
 
-### `LIVE CONVOS/Science Made Stupid — raw.json` **INDEX-GAP-CANDIDATE**
+### `LIVE CONVOS/Science Made Stupid — raw.json`
 
 - title: Science Made Stupid
 - messages/user: 862/222

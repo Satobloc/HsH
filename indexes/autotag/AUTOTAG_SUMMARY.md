@@ -2,14 +2,14 @@
 
 Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 
-- JSON files scanned: 593
+- JSON files scanned: 594
 - conversation exports recognized: 436
-- non-conversation JSON skipped: 156
+- non-conversation JSON skipped: 157
 - message records: 85727
 - user messages: 25950
 - bulk winnow: 25911
 - parse errors: 1
-- structural-index gap candidates: 1
+- structural-index gap candidates: 0
 - buckets: `{'WINNOW:A-DIRECT-MESSAGE': 13342, 'WINNOW:C-CONVERSATION-DISCOURSE': 123, 'WINNOW:B-ADJACENCY-RESCUE': 11610, 'WINNOW:D-DISCOURSE-ONLY': 836, 'DROP-FOR-NOW': 39}`
 - relevance layers: `{'MESSAGE': 13342, 'ADJACENCY': 25297, 'CONVERSATION': 25921}`
 

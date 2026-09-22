@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-21T14:26:54.417521+00:00`
+- Generated: `2026-09-22T07:56:41.695887+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **10**
+- Dated conversation exports: **11**
 - Skipped non-conversation or unparseable files: **4**
 - Exact duplicate-content groups: **0**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -23,6 +23,7 @@
 | 2026-09-08 | 2026-09-08 | [Build Geometry Coding Skill](../LIVE%20CONVOS/Build%20Geometry%20Coding%20Skill%20%E2%80%94%20raw.json) | `.` | 70 |  |  |
 | 2026-09-09 | 2026-09-10 | [🧮 H(s)H Archive Audit](../LIVE%20CONVOS/%F0%9F%A7%AE%20H%28s%29H%20Archive%20Audit%20%E2%80%94%20raw.json) | `.` | 311 |  |  |
 | 2026-09-13 | 2026-09-20 | [Meridian Mover Trial](../LIVE%20CONVOS/Meridian%20Mover%20Trial%20%E2%80%94%20raw.json) | `.` | 348 |  |  |
+| 2026-09-20 | 2026-09-21 | [Science Made Stupid](../LIVE%20CONVOS/Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `.` | 979 |  |  |
 
 ## Skipped files
 
