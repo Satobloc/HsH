@@ -1,5 +1,23 @@
 # Onboarding Documentation Changelog
 
+## 2026-09-21 — citation-as-default and toolbox ingestion/namespacification priority
+
+Established `CITATION_AS_DEFAULT_POLICY.md`, `TOOLBOX_INGESTION_NAMESPACE_PRIORITY.md`, and `terminology/TOOLBOX_NAMESPACE_LEDGER.md` under a Nathan-direct priority.
+
+The new controls require imported mathematical machinery to carry separate records for:
+- external/source mathematical identity;
+- historical SAT/H(s)H project provenance;
+- symbol/namespace mapping;
+- current adoption decision (`UNREVIEWED`, `CANDIDATE`, `ADOPT`, `ADAPT`, `DEFER`, `REJECT`, `HISTORICAL-ONLY`);
+- source-verification status and assumptions/conventions;
+- the exact solver/project job being proposed.
+
+Citation is now expected by construction when a substantive claim, equation, numerical value, definition, or imported method depends on a source. Compact working microcites use the resolvable form `⟦TYPE:KEY·LOC⟧`; public outputs must also expose conventional resolvable bibliography/source metadata.
+
+The active ingestion targets are historical `H(s)H TOOLKIT.txt`, `H(s)H HEAVY TOOLBOX.txt`, and `[[SAT26 TOOLBOX]]`. The observed `H(s)H HEAVY TOOLBOX.txt` blob is currently empty and is treated as a source-recovery problem rather than inferred content. The first source-verified candidate tranche covers SO(4), higher-dimensional/R4 Frenet machinery, and the Bouma et al. geometric-constraint-solver approach, each with a concrete Hagalaz-facing test rather than automatic adoption.
+
+`NEW_INSTANCE_START_HERE.md` now makes citation-as-default mandatory and routes mathematical/solver workers through the toolbox priority/ledger. This is a **material onboarding change** and a parallel supporting priority for the Hagalaz/geometric-solver-unification active edge.
+
 ## 2026-09-21 — non-negotiable project-wide symbol management established
 
 Added `NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` as a mandatory mathematical/research control and created the live human-readable registry at `terminology/SYMBOL_REGISTRY.md`.
