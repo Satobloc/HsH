@@ -4,14 +4,20 @@ Before choosing substantive work, read:
 
 1. `WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md`
 2. `WORKSPACES/COMMON/NONNEGOTIABLE_SYMBOL_MANAGEMENT.md` and `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md`
-3. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
-4. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
-5. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
-6. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
-7. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
-8. only then the repository-specific sources needed for the selected task
+3. `WORKSPACES/COMMON/CITATION_AS_DEFAULT_POLICY.md`
+4. `WORKSPACES/COMMON/TOOLBOX_INGESTION_NAMESPACE_PRIORITY.md` and `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md` when doing mathematical/formalization/solver work
+5. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
+6. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
+7. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
+8. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
+9. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
+10. only then the repository-specific sources needed for the selected task
 
 **Symbol management is a project-wide research control, not a style preference.** Before introducing shared mathematical notation, collision-check the live symbol registry and use Mercer_Searcher / Mersearch for inherited/archive notation when relevant. Preserve source notation for provenance, but never silently transfer a symbol's meaning across namespaces. Standard physics/mathematics symbols are reserved by default; semantic drift requires a new or qualified symbol.
+
+**Citation is now a construction default.** When a claim, equation, numerical value, imported method, or definition materially depends on a source, cite it where used. For imported mathematics, keep project provenance separate from the underlying mathematical source and from the current project decision to adopt/adapt/defer/reject it. Compact working microcites use `⟦TYPE:KEY·LOC⟧` and must resolve to durable source metadata.
+
+**Nathan-direct toolbox priority (2026-09-21):** ingest and namespace `H(s)H TOOLKIT.txt`, the historical `H(s)H HEAVY TOOLBOX.txt` path, and `[[SAT26 TOOLBOX]]`; recover/cite underlying sources; then make active use decisions rather than building a passive catalog. This is a parallel supporting priority for the Hagalaz/geometric-solver-unification active edge, not a reason to halt it. The historical heavy-toolbox file is presently empty and is a source-recovery target, not presumed content.
 
 `CURRENT_WORKFLOW_ORIENTATION.md` is retained as historical workflow-state evidence; use `CURRENT_WORKFLOW_ORIENTATION_V2.md` for current orientation.
 
