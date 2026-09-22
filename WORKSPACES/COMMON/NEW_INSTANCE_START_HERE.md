@@ -18,14 +18,17 @@ Use `WORKSPACES/COMMON/ONBOARDING_REVIEW_STATE.md` to determine when a full onbo
 
 Do not make a new worker infer these surfaces from filenames or a directory listing. For current assignment/routing state, read the relevant portions of:
 
-- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — central task/branch graph and branch status;
-- `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md` — current Nathan-direct workflow state and phase/milestone context;
-- `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` plus any newer explicitly controlling Nathan-direct artifact named by the workflow state — directive authority/provenance;
+- `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md` — current project-wide purpose/phase framing and controlling workflow orientation;
+- `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` — central task/branch graph, active edge, branch status, dependencies, and bounded next cursors;
+- `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` plus any newer explicitly controlling Nathan-direct artifact named by current Common state — directive authority/provenance;
+- `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md` — **Nathan Direct corpus/provenance lane state only**. It is not the project-wide milestone/phase authority; use it when the selected task touches Nathan Direct/reconstruction work;
 - `WORKSPACES/COMMON/CHECKINS.md` — current worker check-ins and continuity signals;
 - `WORKSPACES/COMMON/HANDOFFS.md` — shared handoffs; follow any task-specific handoff named by the task graph or current state;
 - `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — active/paused recurrence state;
 - `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md` — current execution leases; leases are routing state, not permanent jobs;
 - `WORKSPACES/COMMON/COORDINATION.md` and `WORKSPACES/COMMON/TEAM_CONTROL.md` when coordination/authority ambiguity remains after the surfaces above.
+
+There is not presently a single generic `NATHAN_DIRECT_WORKFLOW_STATE.md`-style file that should be assumed to represent every project milestone. Recover project-wide current purpose from the controlling orientation plus the active task/branch graph, then follow branch-specific milestone/status artifacts named there. If a newer explicit Nathan directive conflicts, it controls and should be propagated into the live Common surfaces.
 
 Read only the portions needed to recover current state; the point is reliable cold-start routing, not compulsory rereading of every long ledger on every run. If one of these pointers is superseded, repair this start-here file and `ONBOARDING_REVIEW_STATE.md` rather than silently substituting a guessed surface.
 
