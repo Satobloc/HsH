@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-22T08:39:05+00:00`
-- Tree/content state: `f177b12ba27041e889493ccacd0ec407cd1df9103cd4fb538e58014c8872270e`
-- Coverage: 2031 files, 127 directories
+- Scanned: `2026-09-22T11:27:46+00:00`
+- Tree/content state: `988b86429d8b14408b32e4d94ecec39c0e9ff6a80d5a501be740ab32398a926e`
+- Coverage: 2032 files, 127 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -33,7 +33,7 @@
 | `SAT_VISUALS` | 129 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 853 |
+| `WORKSPACES` | 854 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -63,7 +63,7 @@
 | `.jsonl` | 14 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 853 |
+| `.md` | 854 |
 | `.mjs` | 1 |
 | `.pdf` | 29 |
 | `.png` | 37 |
@@ -92,7 +92,7 @@
 | `generated-catalog` | 25 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 853 |
+| `llm-workspace` | 854 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 802 |
 | `synthesis-workspace` | 6 |
@@ -2103,6 +2103,7 @@
 - `WORKSPACES/MERCER/2026-09-21_RUN084_COLLAPSE_FAMILY_QA.md` — 4258 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_ANALYTIC_QA.md` — 3247 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-21_RUN086_GENERIC_OFFSET_CARRIER_STRESS_QA.md` — 4189 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-09-22_GRURPLE_B_PROVENANCE_TRANCHE_01.md` — 3248 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 5946 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` — 8542 bytes — `llm-workspace`
