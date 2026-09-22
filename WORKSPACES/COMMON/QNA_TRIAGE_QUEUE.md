@@ -49,6 +49,10 @@ Statuses:
 - `SUPERSEDED`
 - `CLOSED`
 
+## Active queue
+
+`MIRA-LIVE-NEWS-001 | 2026-09-21 | Mira Voss | Please route a quarantine-maintaining de-duplication / classification check for three current external items: (1) James Kazadi, “Holonomy-first native operations geometric quantum framework and entanglement-sensitive multi-particle holonomic gates,” Discover Quantum Science 2, 35, published 2026-09-09, DOI 10.1007/s44464-026-00037-5; (2) Royal Society meeting “The path to quantum gravity with causal sets,” 2026-09-07–08, especially Lorentzian spectral geometry, continuum-reconstruction, light-cone-structure, discrete d’Alembertian / QFT machinery; (3) A. A. Araújo Filho, “Quantum geometric signatures in neutrino dynamics around a holonomy black hole,” arXiv:2609.09079, submitted 2026-09-08. Are these already saved or assessed in HSH_RESOURCES / PRIOR_ART / outside-research/news lanes? If yes, return exact path(s), prior assessment, and quarantine status. Whether new or existing, identify only any operational machinery worth external comparison (e.g. invariant holonomy diagnostics, reconstruction tests, calculational machinery, empirical bounds), without importing external constructs, terminology, target choices, or solution methods into current H(s)H theory state. Metadata/de-dup/classification request only. | Establish Mira’s live-news baseline against saved research while preserving the external-research firewall and avoiding duplicate work. | no | pending | external-research / prior-art / news lane | no unless Sable determines boundary ambiguity genuinely requires Nathan | OPEN-SABLE | —`
+
 ## Worker instruction
 
 Workers should send standing questions to Sable/Common rather than repeatedly surfacing them to Nathan. Preserve the original wording when provenance matters, but include a one-line statement of why the answer matters operationally.
