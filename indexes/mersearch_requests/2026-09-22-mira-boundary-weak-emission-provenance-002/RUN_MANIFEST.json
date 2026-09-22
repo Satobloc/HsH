@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-09-22-mira-boundary-weak-emission-provenance-002",
+  "query": "author:user AND ((boundary OR slit OR grating OR aperture OR wall OR edge) AND (neutrino OR \"weak emission\" OR \"secondary radiation\" OR \"transient mode\" OR detachable OR \"t-boson\" OR \"f-boson\" OR substrate OR filament))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "8051f8ed64272f4065b7c4998c786d00660abf3c",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "9bffa4a81b26d1d8affee88d9c9927a3bc5b72cb",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "12ef704a2fbf72c86e6e024f8301894f8b56108ea525e6a31d5bb458642b91a8",
+    "SEARCH_RESULTS.md": "83ec3676062f6ea3f85f74d3f9ff5b9692305615e15773fc13c962ec34554dc9"
+  }
+}
