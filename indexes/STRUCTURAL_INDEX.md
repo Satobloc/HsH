@@ -2,8 +2,8 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-22T11:27:46+00:00`
-- Tree/content state: `988b86429d8b14408b32e4d94ecec39c0e9ff6a80d5a501be740ab32398a926e`
+- Scanned: `2026-09-22T12:30:48+00:00`
+- Tree/content state: `1713502d63dc3416541f3b60fdbb181e580285b1c0c9b682b74337998a1431b0`
 - Coverage: 2032 files, 127 directories
 - GitHub tree response truncated: `false`
 
@@ -1628,7 +1628,7 @@
 - `WORKSPACES/COMMON/CHECKIN_TEMPLATE.md` — 2609 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CITATION_AS_DEFAULT_POLICY.md` — 9292 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CODE_GRURPLE_REVIEW_PACKET_TEMPLATE.md` — 2300 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md` — 6646 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md` — 7706 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COMMEMORATIVE_NAMING_CHARTER.md` — 2926 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/COMPTROLLER_INCORPORATION_PACKET_2026-09-20.md` — 3064 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CONTINUITY_PROTOCOL.md` — 5046 bytes — `llm-workspace`
