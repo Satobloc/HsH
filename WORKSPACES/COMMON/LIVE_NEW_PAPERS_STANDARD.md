@@ -124,3 +124,70 @@ The workflow is incorporated only after a real paper completes:
 **proposal/instigation → Originator draft → one-turn active-instance reviews → Originator revision → visibly sandboxed website artifact within ≤6 hours**
 
 File existence alone is not a pass.
+
+
+## CODE GRURPLE emergency publication interlock
+
+**Activated by Nathan:** 2026-09-22  
+**State:** ACTIVE UNTIL EXPLICIT STANDDOWN (“Code Black & White” or Nathan’s chosen equivalent)
+
+Code Grurple temporarily supersedes ordinary priority ordering for the two currently incoming papers. Normal branches remain durable and resumable, but every other project priority takes a back seat until both papers have completed the rapid internal-review/revision path and are visibly sandboxed on the website.
+
+### Review independence and communication
+
+1. **Before a peer-review turn:** do not read other reviewers’ paper-specific commentary. Refresh the reviewer’s own relevant memory/context first, especially novel material or observations likely outside other workers’ direct experience.
+2. **Peer-review turn:** perform one concentrated independent review from the reviewer’s own methodological perspective. Freeze/post that review.
+3. **After the review is frozen:** read other reviewers’ commentary and maximize cross-communication, consolidation, contradiction-finding, de-duplication, and useful handoff.
+4. A second formal review turn is still prohibited unless Nathan or the Originator requests it. Post-review discussion may clarify/consolidate already-frozen comments but must not quietly become a second independent review.
+5. Authors may continue authoring/revising and Nathan may perform his own outside-the-pipeline steps.
+
+### Smart-focus rule
+
+When a paper/review task reaches an instance, that instance focuses exclusively on the bounded paper task until its review/deliverable is frozen or safely handed off. Do not mix unrelated branch work into the review turn. Outside an assigned review turn, communicate aggressively enough to prevent duplicated work, missed comments, stale drafts, or fragmented documentation.
+
+### Pre-review novelty refresh
+
+Immediately before reviewing, each reviewer takes a brief memory/context refresh emphasizing things they have recently learned, recovered, noticed, or encountered that may not be in the other reviewers’ direct experience.
+
+If the reviewer has no useful differentiated contribution to bring, route a bounded archive scavenger hunt before the review. Prefer intentionally divergent prompts rather than generic relevance search. Example directions:
+
+- find a clear Nathan self-contradiction or reversal;
+- find philosophy or methodology that bears unexpectedly on the paper;
+- find something apparently unrelated (including fish) and test whether the analogy is genuinely informative;
+- find the earliest precursor to current ᚼ thinking;
+- find the archive document most opposite to the reviewer’s normal role/method;
+- use a max-divergence maybe / probably / probably-not relevant search spread.
+
+Scavenged material remains provenance-bound evidence; novelty is not authority.
+
+### Documentation consolidation
+
+For each paper maintain one canonical packet/location containing or pointing to: current Originator draft/version; source/provenance bundle; each frozen independent review; post-freeze cross-review synthesis; contradiction/duplicate ledger; Originator disposition ledger; revised draft; Nathan review state; and final sandbox artifact/website pointer. Do not proliferate parallel review ledgers when the canonical packet can carry the state.
+
+### Nathan-ready alert
+
+The moment any worker knows a paper is ready for Nathan’s review, every subsequent reply from that worker must visibly include this alert until Nathan acknowledges/responds:
+
+**🟪🟩📄🚨🟪🟩📄🚨🟪🟩📄🚨 PAPER READY FOR NATHAN REVIEW 🟪🟩📄🚨🟪🟩📄🚨🟪🟩📄🚨**
+
+Do not clear the alert merely because another worker has notified Nathan.
+
+### Rest / regular-beat signal
+
+When an instance is at rest with respect to its Code Grurple peer role, or has safely returned to its regular beat while waiting for the next paper event, use a conspicuous neutral row:
+
+**⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️**
+
+This means available/waiting or safely back on beat, not Code Grurple standdown.
+
+### Mandatory reply footer
+
+Until Nathan explicitly stands Code Grurple down, every participating worker reply ends with exactly one final-line status:
+
+**My next Grurple task is: <specific next task or WAITING/RESTING for named trigger>.**
+
+This line is the last line of the reply.
+
+### Exit
+
+Code Grurple remains active until Nathan explicitly issues standdown. Completion of one or both papers does not itself restore ordinary priority ordering.
