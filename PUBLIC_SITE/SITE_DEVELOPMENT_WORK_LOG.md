@@ -659,3 +659,25 @@ Published successfully to the existing production URL.
 
 Published successfully to the existing production URL.
 
+---
+
+# 2026-09-22 — Nathan's other projects, type control, and FLC separation
+
+## Publication
+
+- **Glass Sausage Factory:** published Sites version 27 at https://glass-sausage-factory.nathanmcknight.chatgpt.site/ from Sites source commit `328cf5e2784e6934aa2521d3929b1c8af633c485`. Audience remained public.
+- **Floating Liars' Club:** separate public Site version 1 at https://floating-liars-club.nathanmcknight.chatgpt.site/ from Sites source commit `32354af6587369673f5e081a10749b6443970895`.
+- The old `/flc.html` route on Glass Sausage Factory now hands readers to the new site.
+
+## Decisions
+
+- Reduced the default display heading and lead scales across the SAT/H(s)H site while retaining a 16px body baseline. A quiet fixed **Large text** control persists the larger preference across the physics pages.
+- Added a dedicated **Nathan's other projects** section: Floating Liars' Club first, Music second. The Music project links Nathan's two supplied album routes and artist route. A dedicated music Site remains queued in the roadmap. Satobloc's `n,n-dimethylmcfuqueroiserie`, `OS-00`, and related material are candidates for a sourced future embed/background layer.
+- The FLC Site presents a page atlas and source PDF reader from the 138-record first-draft page batch in archive PR [#6](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/pull/6). It tries the public archive main feed first, then the provisional PR branch, then a packaged dated snapshot. Story text, printed order, piece boundaries, and individual credits remain unreviewed. The original scans remain the source.
+- The archive's proposed `SITE_WORK_HOME/` coordinates public source-to-Site routing. Private cross-site scratch now lives under `HSH_RESOURCES/PRIVATE_WORKSPACE/SITES/`; public pages do not depend on private repository URLs. An owner-only workshop Site is a later option.
+
+## Follow-up
+
+- Review the FLC page batch and draft PR, then merge when the archive-side contract and sample pages are accepted. The FLC Site will automatically prefer the main-branch feed after merge.
+- Source-check Music release metadata and artwork before making named release cards or launching the music Site.
+- Review the large-text control on several devices when visual preview is available. This pass checked HTML assets and JavaScript syntax, but local headless Chromium was not installed.
