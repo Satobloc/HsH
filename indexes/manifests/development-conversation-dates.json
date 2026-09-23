@@ -1,16 +1,25 @@
 {
-  "generated_at_utc": "2026-09-23T11:46:45.547005+00:00",
+  "generated_at_utc": "2026-09-23T15:59:21.668117+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 363,
+    "unchanged": 473,
     "skipped": 249,
-    "planned": 110,
     "collision": 1
   },
   "records": [
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "start_local": "2025-05-11T04:18:40.496000-04:00",
+      "end_local": "2026-06-07T20:34:23.660085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "unchanged",
+      "warnings": []
+    },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json",
@@ -32,16 +41,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
-      "start_local": "2025-05-11T04:18:40.496000-04:00",
-      "end_local": "2026-06-07T20:34:23.660085-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 43,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt",
@@ -80,73 +79,113 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Explain Sites_ — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
-      "start_local": "2026-09-20T03:46:45.964000-04:00",
-      "end_local": "2026-09-20T04:53:21.795056-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 369,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/H(s)H Archive Audit — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
-      "start_local": "2026-09-10T11:49:18.426980-04:00",
-      "end_local": "2026-09-12T12:03:41.431286-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 290,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/LAB 1_ Validation Lead — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
-      "start_local": "2025-05-09T02:37:02.990000-04:00",
-      "end_local": "2026-09-12T20:51:32.412370-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 182,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Legal Privacy Audit — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.13•Legal Privacy Audit — raw.json",
-      "start_local": "2026-09-12T14:17:10.937708-04:00",
-      "end_local": "2026-09-13T05:29:46.214685-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 338,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Meridian Mover Trial — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
-      "start_local": "2026-09-13T12:33:01.867994-04:00",
-      "end_local": "2026-09-20T04:08:53.512525-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 499,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/SATity Corpus Audit — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
-      "start_local": "2026-09-10T21:36:28.633000-04:00",
-      "end_local": "2026-09-12T21:05:37.346999-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 768,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/THE WAVEFRONT BRAIN TRUST — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
       "start_local": "2025-05-08T23:52:38.750000-04:00",
       "end_local": "2026-09-12T19:51:45.997000-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 301,
-      "status": "planned",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T20:51:32.412370-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 182,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "start_local": "2026-09-07T18:41:11.950000-04:00",
+      "end_local": "2026-09-10T21:25:01.763446-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1243,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.12•⚒️ Build Geometry Coding Skill — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.12•⚒️ Build Geometry Coding Skill — raw.json",
+      "start_local": "2026-09-08T20:21:41.279069-04:00",
+      "end_local": "2026-09-12T08:33:50.034431-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 112,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-13T13:25:06.388426-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 207,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "start_local": "2026-09-10T11:49:18.426980-04:00",
+      "end_local": "2026-09-12T12:03:41.431286-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 290,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
+      "start_local": "2026-09-10T21:36:28.633000-04:00",
+      "end_local": "2026-09-12T21:05:37.346999-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 768,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.13•Legal Privacy Audit — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.13•Legal Privacy Audit — raw.json",
+      "start_local": "2026-09-12T14:17:10.937708-04:00",
+      "end_local": "2026-09-13T05:29:46.214685-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 338,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-13T12:33:01.867994-04:00",
+      "end_local": "2026-09-20T04:08:53.512525-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 499,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
+      "start_local": "2026-09-20T03:46:45.964000-04:00",
+      "end_local": "2026-09-20T04:53:21.795056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 369,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•When Worlds End Concept — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•When Worlds End Concept — raw.json",
+      "start_local": "2026-09-20T00:26:54.400993-04:00",
+      "end_local": "2026-09-20T02:43:44.759592-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 82,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -160,16 +199,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/When Worlds End Concept — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•When Worlds End Concept — raw.json",
-      "start_local": "2026-09-20T00:26:54.400993-04:00",
-      "end_local": "2026-09-20T02:43:44.759592-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 82,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/gitignore.txt",
@@ -206,36 +235,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/⚒️ Build Geometry Coding Skill — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.12•⚒️ Build Geometry Coding Skill — raw.json",
-      "start_local": "2026-09-08T20:21:41.279069-04:00",
-      "end_local": "2026-09-12T08:33:50.034431-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 112,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
-      "start_local": "2026-09-07T18:41:11.950000-04:00",
-      "end_local": "2026-09-10T21:25:01.763446-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1243,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🧮 RECENT arXiv PAPERS — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
-      "start_local": "2026-09-08T07:18:24.071268-04:00",
-      "end_local": "2026-09-13T13:25:06.388426-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 207,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
@@ -2776,6 +2775,176 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "start_local": "2025-05-08T13:55:08.002000-04:00",
+      "end_local": "2026-06-13T21:24:08.087651-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 479,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
+      "start_local": "2025-12-29T23:21:17.233000-05:00",
+      "end_local": "2026-09-12T11:18:08.645639-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 745,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "start_local": "2026-02-24T17:55:32.778746-05:00",
+      "end_local": "2026-09-12T11:18:02.606999-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 243,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
+      "start_local": "2026-03-02T19:51:29.075468-05:00",
+      "end_local": "2026-09-12T11:02:33.070063-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 477,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13•26.09.12•SAT Unified Field Theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13•26.09.12•SAT Unified Field Theory — raw.json",
+      "start_local": "2026-03-13T18:11:50.698000-04:00",
+      "end_local": "2026-09-12T10:51:37.093411-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 18,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.25•26.09.12•Paper Proposal Evaluation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.25•26.09.12•Paper Proposal Evaluation — raw.json",
+      "start_local": "2026-03-25T16:20:04.913532-04:00",
+      "end_local": "2026-09-12T10:48:37.742242-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 333,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.04.03•26.09.12•Radical Meta-Skepticism Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.04.03•26.09.12•Radical Meta-Skepticism Overview — raw.json",
+      "start_local": "2026-04-03T19:22:26.110802-04:00",
+      "end_local": "2026-09-12T10:38:46.622000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 113,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.04•26.09.12•Proton Electron Mass Ratio — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.04•26.09.12•Proton Electron Mass Ratio — raw.json",
+      "start_local": "2026-05-04T14:26:28.911896-04:00",
+      "end_local": "2026-09-12T11:18:55.337799-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 25,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw (1).json",
+      "start_local": "2026-05-05T09:20:14.473547-04:00",
+      "end_local": "2026-09-12T11:19:17.030162-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw.json",
+      "start_local": "2026-05-05T09:20:14.473547-04:00",
+      "end_local": "2026-09-12T11:19:17.030162-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•Geometric Glass Thumbnails — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•Geometric Glass Thumbnails — raw.json",
+      "start_local": "2026-06-11T05:20:00.269414-04:00",
+      "end_local": "2026-09-12T11:21:56.532789-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 25,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•KAR-HNN Translation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•KAR-HNN Translation — raw.json",
+      "start_local": "2026-06-11T15:57:51.708454-04:00",
+      "end_local": "2026-09-12T10:46:10.243682-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.16•26.09.12•Where is Velserbroek — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.16•26.09.12•Where is Velserbroek — raw.json",
+      "start_local": "2026-06-16T07:37:47.570563-04:00",
+      "end_local": "2026-09-12T10:25:37.682101-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 356,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "start_local": "2026-06-20T20:56:09.067215-04:00",
+      "end_local": "2026-09-12T09:58:14.562000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 29,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER=EPR Conjecture — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER=EPR Conjecture — raw.json",
+      "start_local": "2026-06-20T19:47:01.116225-04:00",
+      "end_local": "2026-09-12T10:21:26.146602-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 28,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•EM Fields and Gravity — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•EM Fields and Gravity — raw.json",
+      "start_local": "2026-06-21T15:05:48.456238-04:00",
+      "end_local": "2026-09-12T09:56:49.626646-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
+      "start_local": "2026-06-21T17:07:53.153947-04:00",
+      "end_local": "2026-09-12T09:51:49.299434-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "start_local": "2026-06-22T09:49:04.744587-04:00",
@@ -2786,33 +2955,13 @@
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw (1).json",
-      "start_local": "2026-05-05T09:20:14.473547-04:00",
-      "end_local": "2026-09-12T11:19:17.030162-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.08.10•26.08.10•Token Prediction and Compression — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.08.10•26.08.10•Token Prediction and Compression — raw.json",
+      "start_local": "2026-08-10T12:11:28.847337-04:00",
+      "end_local": "2026-08-10T15:41:04.419202-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 43,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw.json",
-      "start_local": "2026-05-05T09:20:14.473547-04:00",
-      "end_local": "2026-09-12T11:19:17.030162-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 43,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Casual Check-in — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
-      "start_local": "2026-02-24T17:55:32.778746-05:00",
-      "end_local": "2026-09-12T11:18:02.606999-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 243,
-      "status": "planned",
+      "message_count": 81,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -2826,156 +2975,6 @@
       "warnings": [
         "Target path already exists"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•EM Fields and Gravity — raw.json",
-      "start_local": "2026-06-21T15:05:48.456238-04:00",
-      "end_local": "2026-09-12T09:56:49.626646-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
-      "start_local": "2026-06-20T20:56:09.067215-04:00",
-      "end_local": "2026-09-12T09:58:14.562000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 29,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER=EPR Conjecture — raw.json",
-      "start_local": "2026-06-20T19:47:01.116225-04:00",
-      "end_local": "2026-09-12T10:21:26.146602-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 28,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Geometric Glass Thumbnails — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•Geometric Glass Thumbnails — raw.json",
-      "start_local": "2026-06-11T05:20:00.269414-04:00",
-      "end_local": "2026-09-12T11:21:56.532789-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 25,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
-      "start_local": "2026-06-21T17:07:53.153947-04:00",
-      "end_local": "2026-09-12T09:51:49.299434-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 141,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•KAR-HNN Translation — raw.json",
-      "start_local": "2026-06-11T15:57:51.708454-04:00",
-      "end_local": "2026-09-12T10:46:10.243682-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 22,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.25•26.09.12•Paper Proposal Evaluation — raw.json",
-      "start_local": "2026-03-25T16:20:04.913532-04:00",
-      "end_local": "2026-09-12T10:48:37.742242-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 333,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Pet Theory Discussion — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
-      "start_local": "2025-12-29T23:21:17.233000-05:00",
-      "end_local": "2026-09-12T11:18:08.645639-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 745,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Proton Electron Mass Ratio — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.04•26.09.12•Proton Electron Mass Ratio — raw.json",
-      "start_local": "2026-05-04T14:26:28.911896-04:00",
-      "end_local": "2026-09-12T11:18:55.337799-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 25,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.04.03•26.09.12•Radical Meta-Skepticism Overview — raw.json",
-      "start_local": "2026-04-03T19:22:26.110802-04:00",
-      "end_local": "2026-09-12T10:38:46.622000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 113,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
-      "start_local": "2025-05-08T13:55:08.002000-04:00",
-      "end_local": "2026-06-13T21:24:08.087651-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 479,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13•26.09.12•SAT Unified Field Theory — raw.json",
-      "start_local": "2026-03-13T18:11:50.698000-04:00",
-      "end_local": "2026-09-12T10:51:37.093411-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 18,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Testing a Theory of Everything — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
-      "start_local": "2026-03-02T19:51:29.075468-05:00",
-      "end_local": "2026-09-12T11:02:33.070063-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 477,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.08.10•26.08.10•Token Prediction and Compression — raw.json",
-      "start_local": "2026-08-10T12:11:28.847337-04:00",
-      "end_local": "2026-08-10T15:41:04.419202-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 81,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.16•26.09.12•Where is Velserbroek — raw.json",
-      "start_local": "2026-06-16T07:37:47.570563-04:00",
-      "end_local": "2026-09-12T10:25:37.682101-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 356,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/gitignore.txt",
@@ -3002,83 +3001,303 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Clarify TOE meaning — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•25.09.14•Clarify TOE meaning — raw.json",
-      "start_local": "2025-09-14T22:36:17.445353-04:00",
-      "end_local": "2025-09-14T22:39:07.072617-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "start_local": "2025-05-08T23:52:38.750000-04:00",
+      "end_local": "2026-09-12T18:22:14.364381-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 7,
-      "status": "planned",
+      "message_count": 217,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Concise Persona Guidelines — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T18:04:36.764577-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 149,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json",
       "start_local": "2025-07-25T17:08:31.651000-04:00",
       "end_local": "2026-09-12T18:00:46.557921-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 26,
-      "status": "planned",
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Credulity meter placement — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07•26.09.12•Prediction validation search — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07•26.09.12•Prediction validation search — raw.json",
+      "start_local": "2025-09-07T20:35:24.736739-04:00",
+      "end_local": "2026-09-12T17:55:10.202765-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10•26.09.12•Optical setup breakdown — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10•26.09.12•Optical setup breakdown — raw.json",
+      "start_local": "2025-09-10T11:24:34.672326-04:00",
+      "end_local": "2026-09-12T17:50:49.955814-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 20,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13•26.09.12•Credulity meter placement — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13•26.09.12•Credulity meter placement — raw.json",
       "start_local": "2025-09-13T02:02:21.699306-04:00",
       "end_local": "2026-09-12T17:48:39.302979-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 22,
-      "status": "planned",
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Electron Paths in Chips — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
-      "start_local": "2026-03-08T09:32:42.660236-04:00",
-      "end_local": "2026-09-12T16:52:02.192653-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•25.09.14•Clarify TOE meaning — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•25.09.14•Clarify TOE meaning — raw.json",
+      "start_local": "2025-09-14T22:36:17.445353-04:00",
+      "end_local": "2025-09-14T22:39:07.072617-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 91,
-      "status": "planned",
+      "message_count": 7,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
-      "start_local": "2026-02-24T16:29:54.904123-05:00",
-      "end_local": "2026-09-12T17:10:08.737069-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 87,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Functional equivalence principle — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Functional equivalence principle — raw.json",
-      "start_local": "2025-11-16T15:05:08.185559-05:00",
-      "end_local": "2026-09-12T17:28:13.576000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 54,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Geometric Framework Assessment — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.04•Geometric Framework Assessment — raw.json",
-      "start_local": "2026-03-04T18:46:02.048613-05:00",
-      "end_local": "2026-03-04T22:58:44.117099-05:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 93,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Grade ΛCDM rubric — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•26.09.12•Grade ΛCDM rubric — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•26.09.12•Grade ΛCDM rubric — raw.json",
       "start_local": "2025-09-14T22:47:10.317960-04:00",
       "end_local": "2026-09-12T17:39:32.204709-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 48,
-      "status": "planned",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "start_local": "2025-10-07T16:22:44.478693-04:00",
+      "end_local": "2026-09-12T17:36:41.955000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 160,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29•26.09.12•Lean 4 path fix — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29•26.09.12•Lean 4 path fix — raw.json",
+      "start_local": "2025-10-29T19:02:14.716000-04:00",
+      "end_local": "2026-09-12T17:31:07.884920-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 51,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Functional equivalence principle — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Functional equivalence principle — raw.json",
+      "start_local": "2025-11-16T15:05:08.185559-05:00",
+      "end_local": "2026-09-12T17:28:13.576000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 54,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Morsefish meaning exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Morsefish meaning exploration — raw.json",
+      "start_local": "2025-11-16T10:38:21.359945-05:00",
+      "end_local": "2026-09-12T17:24:15.390861-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 83,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
+      "start_local": "2025-12-29T19:52:53.360734-05:00",
+      "end_local": "2026-09-12T17:18:57.536833-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
+      "start_local": "2025-12-30T00:31:34.043090-05:00",
+      "end_local": "2026-09-12T17:19:31.784831-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 73,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
+      "start_local": "2025-12-30T00:31:34.043090-05:00",
+      "end_local": "2026-09-12T17:19:31.784831-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 73,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.01.20•26.09.12•SAT Lookup Framework — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.01.20•26.09.12•SAT Lookup Framework — raw.json",
+      "start_local": "2026-01-20T05:38:51.239096-05:00",
+      "end_local": "2026-09-12T17:06:05.432567-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 23,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.23•26.09.12•Worldlines and Unification — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.23•26.09.12•Worldlines and Unification — raw.json",
+      "start_local": "2026-02-23T07:57:36.902000-05:00",
+      "end_local": "2026-09-12T17:15:28.650453-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 37,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
+      "start_local": "2026-02-24T16:29:54.904123-05:00",
+      "end_local": "2026-09-12T17:10:08.737069-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 87,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Memory Status 확인 — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Memory Status 확인 — raw.json",
+      "start_local": "2026-02-24T15:34:25.856647-05:00",
+      "end_local": "2026-09-12T17:03:54.386574-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 61,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.04•Geometric Framework Assessment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.04•Geometric Framework Assessment — raw.json",
+      "start_local": "2026-03-04T18:46:02.048613-05:00",
+      "end_local": "2026-03-04T22:58:44.117099-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 93,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.05•Universal Indicatrix Evaluation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.05•Universal Indicatrix Evaluation — raw.json",
+      "start_local": "2026-03-04T23:09:12.789579-05:00",
+      "end_local": "2026-03-05T21:46:26.821218-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 34,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw (1).json",
+      "start_local": "2026-03-04T18:18:59.520473-05:00",
+      "end_local": "2026-09-12T16:57:22.158497-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 6,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw.json",
+      "start_local": "2026-03-04T18:18:59.520473-05:00",
+      "end_local": "2026-09-12T16:55:55.057488-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LaTeX Formatting for Paper — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LaTeX Formatting for Paper — raw.json",
+      "start_local": "2026-03-04T22:55:14.790877-05:00",
+      "end_local": "2026-09-12T16:48:09.251409-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•Universal Indicatrix Evaluation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•Universal Indicatrix Evaluation — raw (1).json",
+      "start_local": "2026-03-04T23:09:12.789579-05:00",
+      "end_local": "2026-09-12T16:46:55.374454-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 44,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.05•26.09.12•Universal Indicatrix Framework — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.05•26.09.12•Universal Indicatrix Framework — raw.json",
+      "start_local": "2026-03-05T21:47:34.386754-05:00",
+      "end_local": "2026-09-12T16:47:30.947129-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 20,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•QM and Relativity Connection — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•QM and Relativity Connection — raw.json",
+      "start_local": "2026-03-07T12:26:24.014739-05:00",
+      "end_local": "2026-09-12T16:51:01.920583-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Sensorium Inversion Thought Experiment — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Sensorium Inversion Thought Experiment — raw.json",
+      "start_local": "2026-03-07T15:45:16.501000-05:00",
+      "end_local": "2026-09-12T16:52:04.254958-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 25,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Universal Indicatrix Framework — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Universal Indicatrix Framework — raw (1).json",
+      "start_local": "2026-03-07T09:18:29.964800-05:00",
+      "end_local": "2026-09-12T16:48:01.246533-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 19,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
+      "start_local": "2026-03-08T09:32:42.660236-04:00",
+      "end_local": "2026-09-12T16:52:02.192653-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 91,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -3154,86 +3373,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Interstellar object A11pl3Z — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
-      "start_local": "2025-10-07T16:22:44.478693-04:00",
-      "end_local": "2026-09-12T17:36:41.955000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 160,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB 1_ Validation Lead — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
-      "start_local": "2025-05-09T02:37:02.990000-04:00",
-      "end_local": "2026-09-12T18:04:36.764577-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 149,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw (1).json",
-      "start_local": "2026-03-04T18:18:59.520473-05:00",
-      "end_local": "2026-09-12T16:57:22.158497-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 6,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw.json",
-      "start_local": "2026-03-04T18:18:59.520473-05:00",
-      "end_local": "2026-09-12T16:55:55.057488-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LaTeX Formatting for Paper — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LaTeX Formatting for Paper — raw.json",
-      "start_local": "2026-03-04T22:55:14.790877-05:00",
-      "end_local": "2026-09-12T16:48:09.251409-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 12,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Lean 4 path fix — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29•26.09.12•Lean 4 path fix — raw.json",
-      "start_local": "2025-10-29T19:02:14.716000-04:00",
-      "end_local": "2026-09-12T17:31:07.884920-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 51,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Memory Status 확인 — raw.json",
-      "start_local": "2026-02-24T15:34:25.856647-05:00",
-      "end_local": "2026-09-12T17:03:54.386574-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 61,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Morsefish meaning exploration — raw.json",
-      "start_local": "2025-11-16T10:38:21.359945-05:00",
-      "end_local": "2026-09-12T17:24:15.390861-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 83,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/AUDITOR README.txt",
       "new_path": null,
       "start_local": null,
@@ -3292,46 +3431,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10•26.09.12•Optical setup breakdown — raw.json",
-      "start_local": "2025-09-10T11:24:34.672326-04:00",
-      "end_local": "2026-09-12T17:50:49.955814-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 20,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07•26.09.12•Prediction validation search — raw.json",
-      "start_local": "2025-09-07T20:35:24.736739-04:00",
-      "end_local": "2026-09-12T17:55:10.202765-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 22,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•QM and Relativity Connection — raw.json",
-      "start_local": "2026-03-07T12:26:24.014739-05:00",
-      "end_local": "2026-09-12T16:51:01.920583-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 35,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
-      "start_local": "2025-12-29T19:52:53.360734-05:00",
-      "end_local": "2026-09-12T17:18:57.536833-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 12,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/Questions.txt",
@@ -3548,16 +3647,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.01.20•26.09.12•SAT Lookup Framework — raw.json",
-      "start_local": "2026-01-20T05:38:51.239096-05:00",
-      "end_local": "2026-09-12T17:06:05.432567-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 23,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Mark V/A DOZEN THEORY STUBS.txt",
@@ -3980,96 +4069,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Sensorium Inversion Thought Experiment — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Sensorium Inversion Thought Experiment — raw.json",
-      "start_local": "2026-03-07T15:45:16.501000-05:00",
-      "end_local": "2026-09-12T16:52:04.254958-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 25,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
-      "start_local": "2025-12-30T00:31:34.043090-05:00",
-      "end_local": "2026-09-12T17:19:31.784831-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 73,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
-      "start_local": "2025-12-30T00:31:34.043090-05:00",
-      "end_local": "2026-09-12T17:19:31.784831-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 73,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
-      "start_local": "2025-05-08T23:52:38.750000-04:00",
-      "end_local": "2026-09-12T18:22:14.364381-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 217,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•Universal Indicatrix Evaluation — raw (1).json",
-      "start_local": "2026-03-04T23:09:12.789579-05:00",
-      "end_local": "2026-09-12T16:46:55.374454-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 44,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.05•Universal Indicatrix Evaluation — raw.json",
-      "start_local": "2026-03-04T23:09:12.789579-05:00",
-      "end_local": "2026-03-05T21:46:26.821218-05:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 34,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Universal Indicatrix Framework — raw (1).json",
-      "start_local": "2026-03-07T09:18:29.964800-05:00",
-      "end_local": "2026-09-12T16:48:01.246533-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 19,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.05•26.09.12•Universal Indicatrix Framework — raw.json",
-      "start_local": "2026-03-05T21:47:34.386754-05:00",
-      "end_local": "2026-09-12T16:47:30.947129-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 20,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Worldlines and Unification — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.23•26.09.12•Worldlines and Unification — raw.json",
-      "start_local": "2026-02-23T07:57:36.902000-05:00",
-      "end_local": "2026-09-12T17:15:28.650453-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 37,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt",
       "new_path": null,
       "start_local": null,
@@ -4094,6 +4093,256 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "start_local": "2025-05-09T02:39:32.860000-04:00",
+      "end_local": "2025-05-09T16:00:20.326928-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 56,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T20:51:32.412370-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 182,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "start_local": "2025-05-11T04:18:40.496000-04:00",
+      "end_local": "2026-06-07T20:34:23.660085-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 43,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28•25.08.11•ACTIVATOR HoloJesu — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28•25.08.11•ACTIVATOR HoloJesu — raw.json",
+      "start_local": "2025-05-28T08:22:04.751000-04:00",
+      "end_local": "2025-08-11T19:40:28.446948-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 230,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30•25.05.30•Mecha Quant MathProof Tasks — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30•25.05.30•Mecha Quant MathProof Tasks — raw.json",
+      "start_local": "2025-05-30T01:54:00.158000-04:00",
+      "end_local": "2025-05-30T01:54:01.033688-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
+      "start_local": "2025-06-18T21:18:10.315906-04:00",
+      "end_local": "2025-06-18T21:25:47.355527-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
+      "start_local": "2025-06-19T21:23:38.492603-04:00",
+      "end_local": "2025-06-19T21:46:42.553428-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 53,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20•25.06.20•SAT Completion Protocol Execution — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20•25.06.20•SAT Completion Protocol Execution — raw.json",
+      "start_local": "2025-06-20T04:23:33.643000-04:00",
+      "end_local": "2025-06-20T04:24:46.113116-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 15,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•Hopf Borromean Mode 1 Fix — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•Hopf Borromean Mode 1 Fix — raw.json",
+      "start_local": "2025-06-22T11:58:14.017059-04:00",
+      "end_local": "2025-06-22T12:14:38.278050-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw (1).json",
+      "start_local": "2025-06-22T22:46:52.467000-04:00",
+      "end_local": "2025-06-22T22:50:02.656650-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 33,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw.json",
+      "start_local": "2025-06-22T22:55:32.606000-04:00",
+      "end_local": "2025-06-22T23:20:22.676409-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 50,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.24•Speculative Physics Model Review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.24•Speculative Physics Model Review — raw.json",
+      "start_local": "2025-06-22T18:50:17.898000-04:00",
+      "end_local": "2025-06-24T18:18:28.941253-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 461,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.08.31•Sage Mode Engaged — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.08.31•Sage Mode Engaged — raw.json",
+      "start_local": "2025-06-22T05:56:56.733278-04:00",
+      "end_local": "2025-08-31T18:45:37.170978-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 51,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Audit Protocol Initiation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Audit Protocol Initiation — raw.json",
+      "start_local": "2025-06-23T14:13:20.491311-04:00",
+      "end_local": "2025-06-23T14:13:21.916362-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Code Audit Request — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Code Audit Request — raw.json",
+      "start_local": "2025-06-23T14:09:33.810000-04:00",
+      "end_local": "2025-06-23T14:41:05.543493-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 70,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
+      "start_local": "2025-06-29T15:26:03.275367-04:00",
+      "end_local": "2025-08-31T18:59:30.328087-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json",
+      "start_local": "2025-06-29T15:26:03.275367-04:00",
+      "end_local": "2025-08-31T18:59:30.328087-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 35,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.04•26.09.12•Crockpot Theory Lagrangian Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.04•26.09.12•Crockpot Theory Lagrangian Analysis — raw.json",
+      "start_local": "2026-03-04T13:32:35.413361-05:00",
+      "end_local": "2026-09-12T16:55:32.273684-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 17,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "start_local": "2026-06-20T20:56:09.067215-04:00",
+      "end_local": "2026-09-12T10:08:50.120823-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 68,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-01T18:26:35.993985-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 122,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-01T18:33:48.728630-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 124,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-02T02:46:03.626111-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 300,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "start_local": "2026-09-13T19:33:46.070000-04:00",
+      "end_local": "2026-09-14T08:25:36.224958-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 259,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "start_local": "2026-09-13T19:33:46.070000-04:00",
+      "end_local": "2026-09-14T07:57:47.377961-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 302,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/3 H(S)H EQUATION ROUNDUP.txt",
       "new_path": null,
       "start_local": null,
@@ -4104,86 +4353,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ACTIVATOR HoloJesu — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28•25.08.11•ACTIVATOR HoloJesu — raw.json",
-      "start_local": "2025-05-28T08:22:04.751000-04:00",
-      "end_local": "2025-08-11T19:40:28.446948-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 230,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
-      "start_local": "2025-05-11T04:18:40.496000-04:00",
-      "end_local": "2026-06-07T20:34:23.660085-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 43,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
-      "start_local": "2026-09-13T19:33:46.070000-04:00",
-      "end_local": "2026-09-14T08:25:36.224958-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 259,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
-      "start_local": "2026-09-13T19:33:46.070000-04:00",
-      "end_local": "2026-09-14T07:57:47.377961-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 302,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Audit Protocol Initiation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Audit Protocol Initiation — raw.json",
-      "start_local": "2025-06-23T14:13:20.491311-04:00",
-      "end_local": "2025-06-23T14:13:21.916362-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Code Audit Request — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Code Audit Request — raw.json",
-      "start_local": "2025-06-23T14:09:33.810000-04:00",
-      "end_local": "2025-06-23T14:41:05.543493-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 70,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Crockpot Theory Lagrangian Analysis — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.04•26.09.12•Crockpot Theory Lagrangian Analysis — raw.json",
-      "start_local": "2026-03-04T13:32:35.413361-05:00",
-      "end_local": "2026-09-12T16:55:32.273684-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 17,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ER EPR Kerr Connections — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
-      "start_local": "2026-06-20T20:56:09.067215-04:00",
-      "end_local": "2026-09-12T10:08:50.120823-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 68,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/H(S)H EQUATION ROUNDUP.txt",
@@ -4198,16 +4367,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Hopf Borromean Mode 1 Fix — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•Hopf Borromean Mode 1 Fix — raw.json",
-      "start_local": "2025-06-22T11:58:14.017059-04:00",
-      "end_local": "2025-06-22T12:14:38.278050-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt",
       "new_path": null,
       "start_local": null,
@@ -4218,106 +4377,6 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 1_ Validation Lead — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
-      "start_local": "2025-05-09T02:37:02.990000-04:00",
-      "end_local": "2026-09-12T20:51:32.412370-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 182,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 2_ Refinement Lead — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
-      "start_local": "2025-05-09T02:39:32.860000-04:00",
-      "end_local": "2025-05-09T16:00:20.326928-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 56,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Lagrangian Permutations Analysis — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
-      "start_local": "2025-06-18T21:18:10.315906-04:00",
-      "end_local": "2025-06-18T21:25:47.355527-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 8,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw (1).json",
-      "start_local": "2025-06-22T22:46:52.467000-04:00",
-      "end_local": "2025-06-22T22:50:02.656650-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 33,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw.json",
-      "start_local": "2025-06-22T22:55:32.606000-04:00",
-      "end_local": "2025-06-22T23:20:22.676409-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 50,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Mecha Quant MathProof Tasks — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30•25.05.30•Mecha Quant MathProof Tasks — raw.json",
-      "start_local": "2025-05-30T01:54:00.158000-04:00",
-      "end_local": "2025-05-30T01:54:01.033688-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
-      "start_local": "2026-08-31T10:22:57.840886-04:00",
-      "end_local": "2026-09-01T18:26:35.993985-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 122,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
-      "start_local": "2026-08-31T10:22:57.840886-04:00",
-      "end_local": "2026-09-02T02:46:03.626111-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 300,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
-      "start_local": "2026-08-31T10:22:57.840886-04:00",
-      "end_local": "2026-09-01T18:33:48.728630-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 124,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Completion Protocol Execution — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20•25.06.20•SAT Completion Protocol Execution — raw.json",
-      "start_local": "2025-06-20T04:23:33.643000-04:00",
-      "end_local": "2025-06-20T04:24:46.113116-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 15,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT ELECTRON MASS CALC.txt",
@@ -4332,36 +4391,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Quark Binding Rewrite — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
-      "start_local": "2025-06-19T21:23:38.492603-04:00",
-      "end_local": "2025-06-19T21:46:42.553428-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 53,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
-      "start_local": "2025-06-29T15:26:03.275367-04:00",
-      "end_local": "2025-08-31T18:59:30.328087-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 35,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json",
-      "start_local": "2025-06-29T15:26:03.275367-04:00",
-      "end_local": "2025-08-31T18:59:30.328087-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 35,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SHEPARDED.txt",
       "new_path": null,
       "start_local": null,
@@ -4372,36 +4401,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Sage Mode Engaged — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.08.31•Sage Mode Engaged — raw.json",
-      "start_local": "2025-06-22T05:56:56.733278-04:00",
-      "end_local": "2025-08-31T18:45:37.170978-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 51,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Scaling Postulates Testing — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
-      "start_local": "2026-03-01T14:32:29.036001-05:00",
-      "end_local": "2026-09-12T11:05:32.597298-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 141,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Speculative Physics Model Review — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.24•Speculative Physics Model Review — raw.json",
-      "start_local": "2025-06-22T18:50:17.898000-04:00",
-      "end_local": "2025-06-24T18:18:28.941253-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 461,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/gitignore.txt",
@@ -4416,13 +4415,73 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "start_local": "2026-06-23T01:13:02.548000-04:00",
+      "end_local": "2026-09-12T08:26:10.150514-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1847,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json",
       "start_local": "2026-08-19T05:06:07.842000-04:00",
       "end_local": "2026-08-20T20:41:34.467801-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1237,
-      "status": "planned",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-12T07:08:06.886290-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 282,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "start_local": "2026-09-06T18:33:31.020000-04:00",
+      "end_local": "2026-09-13T11:27:43.869763-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1325,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-16T01:17:06.744000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1192,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "start_local": "2026-09-07T12:43:39.943884-04:00",
+      "end_local": "2026-09-13T23:46:51.862524-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 463,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -4546,16 +4605,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
-      "start_local": "2026-03-01T14:32:29.036001-05:00",
-      "end_local": "2026-09-12T11:05:32.597298-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 141,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -4604,56 +4653,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
-      "start_local": "2026-09-06T18:33:31.020000-04:00",
-      "end_local": "2026-09-13T11:27:43.869763-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1325,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
-      "start_local": "2026-08-26T05:11:22.113566-04:00",
-      "end_local": "2026-09-12T07:08:06.886290-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 282,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
-      "start_local": "2026-09-06T03:46:03.438933-04:00",
-      "end_local": "2026-09-16T01:17:06.744000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1192,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
-      "start_local": "2026-06-23T01:13:02.548000-04:00",
-      "end_local": "2026-09-12T08:26:10.150514-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1847,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
-      "start_local": "2026-09-07T12:43:39.943884-04:00",
-      "end_local": "2026-09-13T23:46:51.862524-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 463,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -4688,6 +4687,66 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23•24.09.23•Song Lyrics Interpretation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23•24.09.23•Song Lyrics Interpretation — raw.json",
+      "start_local": "2024-09-23T22:44:22.765566-04:00",
+      "end_local": "2024-09-23T22:45:11.923557-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-21T23:03:56.171158-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1312,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw (1).json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T21:28:20.496136-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 75,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T05:58:17.973215-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 23,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-21T07:09:21.748438-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 979,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "start_local": "2026-09-20T12:16:08.508784-04:00",
+      "end_local": "2026-09-22T15:19:34.012239-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 385,
+      "status": "unchanged",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Asteroid Mining_ From Bagging to Acoustic Ore Assessment__NotebookLM_export (1).json",
@@ -4834,16 +4893,6 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Mercer Archive Mover — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
-      "start_local": "2026-09-12T21:37:57.274539-04:00",
-      "end_local": "2026-09-21T23:03:56.171158-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1312,
-      "status": "planned",
-      "warnings": []
-    },
-    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/NEWS_21SEP26.txt",
       "new_path": null,
       "start_local": null,
@@ -4854,16 +4903,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Nathan Words Excavator — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
-      "start_local": "2026-09-20T12:16:08.508784-04:00",
-      "end_local": "2026-09-22T15:19:34.012239-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 385,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Paradigm__NotebookLM_export.json",
@@ -4912,26 +4951,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Revival Rotation — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw (1).json",
-      "start_local": "2026-09-14T21:43:07.129784-04:00",
-      "end_local": "2026-09-22T21:28:20.496136-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 75,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Revival Rotation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json",
-      "start_local": "2026-09-14T21:43:07.129784-04:00",
-      "end_local": "2026-09-22T05:58:17.973215-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 23,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S1. Black Hole Thermodynamics and Finite Temperature CFTs__NotebookLM_export (1).json",
@@ -5136,26 +5155,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Science Made Stupid — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
-      "start_local": "2026-09-20T19:52:22.997694-04:00",
-      "end_local": "2026-09-21T07:09:21.748438-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 979,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Song Lyrics Interpretation — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23•24.09.23•Song Lyrics Interpretation — raw.json",
-      "start_local": "2024-09-23T22:44:22.765566-04:00",
-      "end_local": "2024-09-23T22:45:11.923557-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 2,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_export.json",
@@ -6174,23 +6173,123 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/ARIADNE — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
-      "start_local": "2026-09-22T22:31:01.791000-04:00",
-      "end_local": "2026-09-23T01:25:20.766036-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 537,
-      "status": "planned",
+      "message_count": 141,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt",
+      "start_local": "2026-03-01T14:32:29.036001-05:00",
+      "end_local": "2026-09-12T11:05:32.597298-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 141,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "start_local": "2026-06-23T01:13:02.548000-04:00",
+      "end_local": "2026-09-12T08:26:10.150514-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1847,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.01•26.08.04•Suno Song Hook Ideas — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.01•26.08.04•Suno Song Hook Ideas — raw.json",
+      "start_local": "2026-08-01T21:24:18.554092-04:00",
+      "end_local": "2026-08-04T17:52:15.263270-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 372,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json",
       "start_local": "2026-08-19T05:06:07.842000-04:00",
       "end_local": "2026-08-20T20:41:34.467801-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1237,
-      "status": "planned",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-12T07:08:06.886290-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 282,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json",
+      "start_local": "2026-09-05T04:46:48.900000-04:00",
+      "end_local": "2026-09-07T18:25:43.845020-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 529,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-16T01:17:06.744000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1192,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt",
+      "start_local": "2026-09-13T05:42:26.860526-04:00",
+      "end_local": "2026-09-15T07:12:47.189056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 976,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T22:14:00.015674-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 197,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "start_local": "2026-09-22T22:31:01.791000-04:00",
+      "end_local": "2026-09-23T01:25:20.766036-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 537,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json",
+      "start_local": "2026-09-22T22:41:26.805000-04:00",
+      "end_local": "2026-09-23T00:20:58.350176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 266,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -6204,16 +6303,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/GitHub search results — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json",
-      "start_local": "2026-09-22T22:41:26.805000-04:00",
-      "end_local": "2026-09-23T00:20:58.350176-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 266,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(norm)H TRAD__NotebookLM_export.txt",
@@ -6250,26 +6339,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Revival Rotation — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
-      "start_local": "2026-09-14T21:43:07.129784-04:00",
-      "end_local": "2026-09-22T22:14:00.015674-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 197,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SABLE Revival Rotation — raw (2).txt",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt",
-      "start_local": "2026-09-13T05:42:26.860526-04:00",
-      "end_local": "2026-09-15T07:12:47.189056-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 976,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
@@ -6318,36 +6387,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
-      "start_local": "2026-03-01T14:32:29.036001-05:00",
-      "end_local": "2026-09-12T11:05:32.597298-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 141,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).txt",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt",
-      "start_local": "2026-03-01T14:32:29.036001-05:00",
-      "end_local": "2026-09-12T11:05:32.597298-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 141,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Suno Song Hook Ideas — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.01•26.08.04•Suno Song Hook Ideas — raw.json",
-      "start_local": "2026-08-01T21:24:18.554092-04:00",
-      "end_local": "2026-08-04T17:52:15.263270-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 372,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt",
@@ -6420,46 +6459,6 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚒️ Continue Conversation Here — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json",
-      "start_local": "2026-09-05T04:46:48.900000-04:00",
-      "end_local": "2026-09-07T18:25:43.845020-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 529,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
-      "start_local": "2026-08-26T05:11:22.113566-04:00",
-      "end_local": "2026-09-12T07:08:06.886290-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 282,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
-      "start_local": "2026-09-06T03:46:03.438933-04:00",
-      "end_local": "2026-09-16T01:17:06.744000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1192,
-      "status": "planned",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
-      "start_local": "2026-06-23T01:13:02.548000-04:00",
-      "end_local": "2026-09-12T08:26:10.150514-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1847,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json",

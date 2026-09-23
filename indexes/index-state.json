@@ -1,13 +1,13 @@
 {
   "counts": {
-    "bytes_known": 2653823731,
-    "directories": 132,
-    "files": 2055
+    "bytes_known": 2737448519,
+    "directories": 139,
+    "files": 2122
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
-    ".csv": 27,
+    ".csv": 28,
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
@@ -15,23 +15,23 @@
     ".jpeg": 98,
     ".jpg": 17,
     ".js": 14,
-    ".json": 600,
+    ".json": 615,
     ".jsonl": 14,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 872,
+    ".md": 916,
     ".mjs": 1,
     ".pdf": 30,
     ".png": 37,
-    ".py": 85,
+    ".py": 88,
     ".rtf": 2,
     ".scsyndef": 1,
-    ".srt": 2,
+    ".srt": 3,
     ".svg": 3,
     ".tex": 2,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 203,
+    ".txt": 206,
     ".yml": 25,
     "[none]": 6
   },
@@ -42,15 +42,15 @@
     "checkpoint": 1,
     "formalization-workspace": 5,
     "generated-artifact": 5,
-    "generated-catalog": 28,
+    "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 873,
+    "llm-workspace": 919,
     "review-ledger": 5,
-    "source-conversation-corpus": 802,
+    "source-conversation-corpus": 816,
     "synthesis-workspace": 6,
-    "tooling-test": 4,
-    "unclassified": 240,
+    "tooling-test": 5,
+    "unclassified": 243,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -62,7 +62,7 @@
     "BEDROCK.md": 1,
     "CONSULTANTS": 4,
     "CONVERSATION_VIEWER": 24,
-    "DEVELOPMENT_FULL_CONVOS": 802,
+    "DEVELOPMENT_FULL_CONVOS": 816,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 33,
@@ -70,21 +70,22 @@
     "LICENSE": 1,
     "LIVE CONVOS": 37,
     "NEW_PAPERS": 4,
-    "PUBLIC_SITE": 36,
+    "ONBOARDING": 1,
+    "PUBLIC_SITE": 38,
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 129,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 873,
+    "WORKSPACES": 919,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
     "generated": 5,
-    "indexes": 28,
+    "indexes": 31,
     "ledgers": 5,
     "synthesis": 6,
-    "tests": 4,
+    "tests": 5,
     "tools": 19,
     "▶ LAUNCH CONVERSATION VIEWER.cmd": 1
   },
@@ -131,7 +132,7 @@
     {
       "content_id": "028782b4a3d731693f21806ad13787fe64fafb8a07503a240d0a911c5ef79297",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Explain Sites_ — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
         "PUBLIC_SITE/Explain Sites_ — raw.json"
       ]
     },
@@ -167,7 +168,7 @@
       "content_id": "0f8a8e975fac720a2e9e61984b126c344218b8441ea87ad18e09831bec7ff59d",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json"
       ]
     },
     {
@@ -313,8 +314,8 @@
     {
       "content_id": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json"
       ]
     },
     {
@@ -391,8 +392,8 @@
     {
       "content_id": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt"
       ]
     },
     {
@@ -611,6 +612,13 @@
       ]
     },
     {
+      "content_id": "a12ce6c6cb65a850d90740329825a37087004af2420ae9847dca3c692f3329e1",
+      "paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
+        "LIVE CONVOS/Science Made Stupid — raw.json"
+      ]
+    },
+    {
       "content_id": "a4afe0c373274eda725fcb635fd39a8560427f34a8b8f36cdfeae7393eeda026",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/! CONSCIOUSNESS CLUB_ CONFUSING QUESTIONS__NotebookLM_export.json",
@@ -620,8 +628,8 @@
     {
       "content_id": "abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json"
       ]
     },
     {
@@ -641,8 +649,8 @@
     {
       "content_id": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json"
       ]
     },
     {
@@ -656,8 +664,8 @@
     {
       "content_id": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt"
       ]
     },
     {
@@ -786,7 +794,7 @@
       "content_id": "e607b6968545d0b169834222d7944edced2a89c6de6a21724c45e5ca1f2e0d18",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt"
       ]
     },
     {
@@ -799,9 +807,9 @@
     {
       "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).txt"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt"
       ]
     },
     {
@@ -858,8 +866,8 @@
     {
       "content_id": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
       "paths": [
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json",
-        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json"
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json"
       ]
     },
     {
@@ -1251,11 +1259,11 @@
       "size": 49
     },
     {
-      "content_id": "f5e1748ca73db72ef51674d3ea2ae2ebac91b0dde6b91b8c602fb780390a32b6",
+      "content_id": "f8158c3c98c489214c39aface0615494a99ae4152b536627aa68f12a242c062f",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 405072
+      "size": 422347
     },
     {
       "content_id": null,
@@ -1265,7 +1273,7 @@
       "size": null
     },
     {
-      "content_id": "fcc4b00c346e39b488e984ffeb58fd33f57db35318801d54a3d33e77cf0a3168",
+      "content_id": "8e439996e679d2a6fd9a7a203312db870b4260978d66c831763d9b7f811a17f1",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -1342,6 +1350,13 @@
       "size": null
     },
     {
+      "content_id": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1979943
+    },
+    {
       "content_id": "d69c401db9d92a2811ebf3d4a7b3bee82774dcbc0beee4fd50fc64f278febb45",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/26.08.23•26.08.25•AI Enclosure Critique — raw.json",
@@ -1354,13 +1369,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt",
       "role": "source-conversation-corpus",
       "size": 11419
-    },
-    {
-      "content_id": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1979943
     },
     {
       "content_id": "51f0e04a78b09c76075a4a4ef0f4fd69d76d950f656385ff04397bcdc9d96bff",
@@ -1391,53 +1399,81 @@
       "size": null
     },
     {
-      "content_id": "028782b4a3d731693f21806ad13787fe64fafb8a07503a240d0a911c5ef79297",
+      "content_id": "cf69dceffabaaa5115a516efa6b72a105a1d137369e8118a87a8153b146986d5",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Explain Sites_ — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
       "role": "source-conversation-corpus",
-      "size": 3309756
-    },
-    {
-      "content_id": "8ab0a3cc449f8a96f7d97606f9cdbb35d3e5cf1a3fabf0ba35c5df503b4316a7",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/H(s)H Archive Audit — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 2998067
+      "size": 3408172
     },
     {
       "content_id": "e1013e6f81603f95be4b6d41bfe829640bc7ac8106ddc0621ab85de73c41331b",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/LAB 1_ Validation Lead — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
       "role": "source-conversation-corpus",
       "size": 1226727
     },
     {
+      "content_id": "50904b36da233ba84781a49b0ce98b346f2fb6b39732d292320054b486869149",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.07•26.09.10•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 20898725
+    },
+    {
+      "content_id": "cff3a9aa815c019c75f2c2c7d8dc9088c1a9cac235325bb22685c71ea55e5402",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.12•⚒️ Build Geometry Coding Skill — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 739923
+    },
+    {
+      "content_id": "a29d32cf1de6b3d69a27be0c9bd42a35ac4c09ba94c2508390249901ae3c6f41",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2728554
+    },
+    {
+      "content_id": "8ab0a3cc449f8a96f7d97606f9cdbb35d3e5cf1a3fabf0ba35c5df503b4316a7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•H(s)H Archive Audit — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2998067
+    },
+    {
+      "content_id": "12ee98a52c1ef45de09de25a9396eca26ad2f60c5b555ef3713b0bc7bcd7ed5c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.10•26.09.12•SATity Corpus Audit — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 10177721
+    },
+    {
       "content_id": "12fa524ccc9ce7f8364906fe6770cd286be1490011db5cd965d9a152894e2f7f",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Legal Privacy Audit — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.13•Legal Privacy Audit — raw.json",
       "role": "source-conversation-corpus",
       "size": 2641670
     },
     {
       "content_id": "230d292248a9a0e161256cc06bda0db33ce0032a608dac249a36a0bcc0995443",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Meridian Mover Trial — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
       "role": "source-conversation-corpus",
       "size": 3496266
     },
     {
-      "content_id": "12ee98a52c1ef45de09de25a9396eca26ad2f60c5b555ef3713b0bc7bcd7ed5c",
+      "content_id": "028782b4a3d731693f21806ad13787fe64fafb8a07503a240d0a911c5ef79297",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/SATity Corpus Audit — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•Explain Sites_ — raw.json",
       "role": "source-conversation-corpus",
-      "size": 10177721
+      "size": 3309756
     },
     {
-      "content_id": "cf69dceffabaaa5115a516efa6b72a105a1d137369e8118a87a8153b146986d5",
+      "content_id": "a71e5df82ba3de5b14c0f44a7642534c39a9fd71bd142e5f62d6821d606ad1b6",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/THE WAVEFRONT BRAIN TRUST — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20•26.09.20•When Worlds End Concept — raw.json",
       "role": "source-conversation-corpus",
-      "size": 3408172
+      "size": 746352
     },
     {
       "content_id": "85cace9043444440efb035bd870668562a4b473a5369f324d1634168859f41b4",
@@ -1445,13 +1481,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/TRIAL_RUN.txt",
       "role": "source-conversation-corpus",
       "size": 2415026
-    },
-    {
-      "content_id": "a71e5df82ba3de5b14c0f44a7642534c39a9fd71bd142e5f62d6821d606ad1b6",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/When Worlds End Concept — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 746352
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -1473,27 +1502,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/repo_recon.txt",
       "role": "source-conversation-corpus",
       "size": 1858898
-    },
-    {
-      "content_id": "cff3a9aa815c019c75f2c2c7d8dc9088c1a9cac235325bb22685c71ea55e5402",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/⚒️ Build Geometry Coding Skill — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 739923
-    },
-    {
-      "content_id": "50904b36da233ba84781a49b0ce98b346f2fb6b39732d292320054b486869149",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 20898725
-    },
-    {
-      "content_id": "a29d32cf1de6b3d69a27be0c9bd42a35ac4c09ba94c2508390249901ae3c6f41",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/🧮 RECENT arXiv PAPERS — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 2728554
     },
     {
       "content_id": null,
@@ -3330,6 +3338,125 @@
       "size": null
     },
     {
+      "content_id": "caf7469085324ba7bf0c12d50592029f7c0565c3871084b6786f1aa31d6474eb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3513429
+    },
+    {
+      "content_id": "4271bdd08b27706ceea5f124d007dcf3aa3c4f90ac5c0977451537c38d2c0b53",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3493711
+    },
+    {
+      "content_id": "0a010f732519b6419d5fc518a7d331523345ad8aaae037e1ded47ac4373a2715",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1207907
+    },
+    {
+      "content_id": "1f2b0cd65ff6fefebf4d997141283f5acc2673850e71a37e5b7554617e7faf68",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.02•26.09.12•Testing a Theory of Everything — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1536189
+    },
+    {
+      "content_id": "6b1b4b5f373ec6f533cf0b82f052f21d9d2f36092e3de06424bddf20221bab8f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.13•26.09.12•SAT Unified Field Theory — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 471923
+    },
+    {
+      "content_id": "28acd8ad0516def1e893be2ad809c8a436670d121dde6ec91aa4f3306bec70c3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.03.25•26.09.12•Paper Proposal Evaluation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1340445
+    },
+    {
+      "content_id": "24725fca42a3ae39b7af8debd5152008e46b6e82ce64204d5e67a435dfd7cbdd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.04.03•26.09.12•Radical Meta-Skepticism Overview — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 520575
+    },
+    {
+      "content_id": "cbb4b2dda799bce4d16addc210da3b18ba5e90ae0f0992719cc946ce5d8179e4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.04•26.09.12•Proton Electron Mass Ratio — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 170549
+    },
+    {
+      "content_id": "35fb4d2c902f6aefb5ab1b1e116def2791e6ec1381e7c37e210955b6aaab0c90",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 361104
+    },
+    {
+      "content_id": "1edae75728fb5f2f25a48c2e3b23957d61aaf440868c839e439e5d5806b0b920",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.05.05•26.09.12•4D Topological Model Assessment — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 361104
+    },
+    {
+      "content_id": "798a0e723c6ec953c9d2e3b07416fdf0f617441847711563abae882695fbd453",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•Geometric Glass Thumbnails — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 210570
+    },
+    {
+      "content_id": "ad036cc264f8ef4aad80d4af7f0ee9c0db775072ac75ed38d94593ee44b03d21",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.11•26.09.12•KAR-HNN Translation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 297607
+    },
+    {
+      "content_id": "f416da49d1bde64295873fc91e1faf030f1925b8424f27f5e5a48c5643ce3ff2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.16•26.09.12•Where is Velserbroek — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4528086
+    },
+    {
+      "content_id": "fbd09ad0146e3c7159dd0d36c6f24a7f34c4ca7805d16ddf4ab615db6483f1d7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 112172
+    },
+    {
+      "content_id": "5785d0d438f3554aaa2470b64fcf69079a6611bddd40d4a60b7483ae4d64024f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.20•26.09.12•ER=EPR Conjecture — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 179274
+    },
+    {
+      "content_id": "ecdb3305dad13dfc97c7ee9241e37b383cb5f3e2ff2b00ac6e1307057bb2137d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•EM Fields and Gravity — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 31894
+    },
+    {
+      "content_id": "c1a30c76837d178264fe527e785bd39c63c5634e169bc99a06bd8da094be751f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.21•26.09.12•If Then Logic — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 551513
+    },
+    {
       "content_id": "88e4c7442b0ca2d5553aaa729c7fdfaca779470a8d4d42cf4dcecfe63816b728",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
@@ -3337,18 +3464,11 @@
       "size": 377725
     },
     {
-      "content_id": "35fb4d2c902f6aefb5ab1b1e116def2791e6ec1381e7c37e210955b6aaab0c90",
+      "content_id": "5ec72244ce1ead61c9ced6e54e38972d516c1e8b9e0372e90718eb76071f595f",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw (1).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/26.08.10•26.08.10•Token Prediction and Compression — raw.json",
       "role": "source-conversation-corpus",
-      "size": 361104
-    },
-    {
-      "content_id": "1edae75728fb5f2f25a48c2e3b23957d61aaf440868c839e439e5d5806b0b920",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/4D Topological Model Assessment — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 361104
+      "size": 1059025
     },
     {
       "content_id": "b8abb8f4a54317af72d444c8d982d25225b601d74dec5788d4327dc478605218",
@@ -3358,13 +3478,6 @@
       "size": 2643821
     },
     {
-      "content_id": "0a010f732519b6419d5fc518a7d331523345ad8aaae037e1ded47ac4373a2715",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Casual Check-in — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1207907
-    },
-    {
       "content_id": "88e4c7442b0ca2d5553aaa729c7fdfaca779470a8d4d42cf4dcecfe63816b728",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Cosmological Constant Summary — raw.json",
@@ -3372,116 +3485,11 @@
       "size": 377725
     },
     {
-      "content_id": "ecdb3305dad13dfc97c7ee9241e37b383cb5f3e2ff2b00ac6e1307057bb2137d",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/EM Fields and Gravity — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 31894
-    },
-    {
-      "content_id": "fbd09ad0146e3c7159dd0d36c6f24a7f34c4ca7805d16ddf4ab615db6483f1d7",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER EPR Kerr Connections — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 112172
-    },
-    {
-      "content_id": "5785d0d438f3554aaa2470b64fcf69079a6611bddd40d4a60b7483ae4d64024f",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ER=EPR Conjecture — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 179274
-    },
-    {
-      "content_id": "798a0e723c6ec953c9d2e3b07416fdf0f617441847711563abae882695fbd453",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Geometric Glass Thumbnails — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 210570
-    },
-    {
-      "content_id": "c1a30c76837d178264fe527e785bd39c63c5634e169bc99a06bd8da094be751f",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/If Then Logic — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 551513
-    },
-    {
-      "content_id": "ad036cc264f8ef4aad80d4af7f0ee9c0db775072ac75ed38d94593ee44b03d21",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/KAR-HNN Translation — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 297607
-    },
-    {
       "content_id": "892a24f7ef4c9faa433c219777b8859de67114768b268693aa264235468c4b43",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/PAST_MODELS_SURVEY.tx",
       "role": "source-conversation-corpus",
       "size": 121499
-    },
-    {
-      "content_id": "28acd8ad0516def1e893be2ad809c8a436670d121dde6ec91aa4f3306bec70c3",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Paper Proposal Evaluation — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1340445
-    },
-    {
-      "content_id": "4271bdd08b27706ceea5f124d007dcf3aa3c4f90ac5c0977451537c38d2c0b53",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Pet Theory Discussion — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 3493711
-    },
-    {
-      "content_id": "cbb4b2dda799bce4d16addc210da3b18ba5e90ae0f0992719cc946ce5d8179e4",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Proton Electron Mass Ratio — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 170549
-    },
-    {
-      "content_id": "24725fca42a3ae39b7af8debd5152008e46b6e82ce64204d5e67a435dfd7cbdd",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Radical Meta-Skepticism Overview — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 520575
-    },
-    {
-      "content_id": "caf7469085324ba7bf0c12d50592029f7c0565c3871084b6786f1aa31d6474eb",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Theorizer Emeritus — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 3513429
-    },
-    {
-      "content_id": "6b1b4b5f373ec6f533cf0b82f052f21d9d2f36092e3de06424bddf20221bab8f",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/SAT Unified Field Theory — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 471923
-    },
-    {
-      "content_id": "1f2b0cd65ff6fefebf4d997141283f5acc2673850e71a37e5b7554617e7faf68",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Testing a Theory of Everything — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1536189
-    },
-    {
-      "content_id": "5ec72244ce1ead61c9ced6e54e38972d516c1e8b9e0372e90718eb76071f595f",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Token Prediction and Compression — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1059025
-    },
-    {
-      "content_id": "f416da49d1bde64295873fc91e1faf030f1925b8424f27f5e5a48c5643ce3ff2",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/Where is Velserbroek — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 4528086
     },
     {
       "content_id": "4817f004d6842f4b4ed41f956607818e38f7016ea301456162a05201310960eb",
@@ -3512,6 +3520,216 @@
       "size": 17314
     },
     {
+      "content_id": "0b9cc846a94661f487d092ba601366f7b689de2312f72f9f834f8e3781b7d9a3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2254275
+    },
+    {
+      "content_id": "f439da3d0fc98ca694457e456c40f0ed424aff16bd224bfd037f444d691e91c5",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 743614
+    },
+    {
+      "content_id": "f3ae0560f52943014e34175aa4795a0fb4c211d885406531e0043ac88235fc40",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25•26.09.12•Concise Persona Guidelines — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 137498
+    },
+    {
+      "content_id": "963404f525d7d96a68bf52c26a566849f8b99603e2d99ef803c37a7431517973",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07•26.09.12•Prediction validation search — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 342746
+    },
+    {
+      "content_id": "9378573711c3d4fc10e6faea3fda1d8b2136276b7562b763b9efbd0ff2206777",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10•26.09.12•Optical setup breakdown — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 109679
+    },
+    {
+      "content_id": "5f5750eb0dc9afe46fa0815674ee1b69dce7e11cf6c1c7f12742c68dda2cab1b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13•26.09.12•Credulity meter placement — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 318824
+    },
+    {
+      "content_id": "40119b960a5bb211aa08963987e904e5457dc8b8558dd0f81ff3289fc657b9ef",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•25.09.14•Clarify TOE meaning — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 62201
+    },
+    {
+      "content_id": "2468ab6880fd9112458d1de23909da2b04a111da5c9103dd2b4320b3789aa60b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14•26.09.12•Grade ΛCDM rubric — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1934492
+    },
+    {
+      "content_id": "639e4e9991631153a870bf031fa4d9889ca2e9218f637ad7209dc635b15e0763",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1362047
+    },
+    {
+      "content_id": "693c4e14a48feee09f2774c090b109ac736c7f066fc49eb84e54471b44a5e987",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.29•26.09.12•Lean 4 path fix — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 152321
+    },
+    {
+      "content_id": "06f4414b11c776a829402aa24c664bb8e346ca5ec0b31335e9b5d3cd69992854",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Functional equivalence principle — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 212390
+    },
+    {
+      "content_id": "fbc4daa6546ade20950d18e3707d498ac95bc3bfc0d8f5dd2f952abf3e2b6e39",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.11.16•26.09.12•Morsefish meaning exploration — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 286628
+    },
+    {
+      "content_id": "e95e9471c56229160c7ccaea7e89553acd9003c9980a3fce69b06f010f22c4b2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 190928
+    },
+    {
+      "content_id": "4fe4468735d4dfaa463ebb2bf73711b223934da052164ab59f09f5119ff03dc2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 461209
+    },
+    {
+      "content_id": "3c760b368b7e5d8603ea2caf22cde13661ae2c23eabc8de0044671d7d9800994",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 461208
+    },
+    {
+      "content_id": "a81b3d7b4b594e0eea3372e68b7fe917539aca002fde4f7cd8213dbf9ef9a8f7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.01.20•26.09.12•SAT Lookup Framework — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 234786
+    },
+    {
+      "content_id": "192fb2ef19f47064f06bec0651f508417d820668cdd1b42a457ce1715a51714d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.23•26.09.12•Worldlines and Unification — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 195994
+    },
+    {
+      "content_id": "af7bbe902d409e66f5f67e9488159320f2052f077d2cfa2dbe0cc3d62cb04751",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Eyebrow-Raisingness Chart — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 581675
+    },
+    {
+      "content_id": "80fe8b58b7632db9ea0fb9502df0af49a54c3aebb1b736a6ed96bf3a03b2e101",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.02.24•26.09.12•Memory Status 확인 — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 662251
+    },
+    {
+      "content_id": "da542b1667d116392faf88f25c2bb0c7dc37d245db7c63461bce5ec8f1e29e0e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.04•Geometric Framework Assessment — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 563951
+    },
+    {
+      "content_id": "d015233d2e7c31ef90e532e7d72359285c808f69571ceb4fc52b0441a8129b17",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.03.05•Universal Indicatrix Evaluation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 230091
+    },
+    {
+      "content_id": "21f0915c893eb747099cf83dee983e67c8a1120631e054ab7d958f366dd48c71",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 53627
+    },
+    {
+      "content_id": "ccb6f18bdbc9757ce4dd1a10d016a3f3765744efe8b92ca81ca93438ce25976d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LLM Physical Law Derivation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 43762
+    },
+    {
+      "content_id": "e9df464ec44c65421b45b4978db4ebfd7e83ed05729a87dce84159db49ea9c65",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•LaTeX Formatting for Paper — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 116527
+    },
+    {
+      "content_id": "d4c0545fa6934da13198b85bc769b81b173dcd343b1a73fbc1589cc4a6c1d342",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.04•26.09.12•Universal Indicatrix Evaluation — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 329080
+    },
+    {
+      "content_id": "94fc13c64b59fb0391430005f3781303db24b7e24f6ae5b3b5b2f70af114fe3c",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.05•26.09.12•Universal Indicatrix Framework — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 153707
+    },
+    {
+      "content_id": "1a883a52c2c89a796146280c74aa695cbe62e075908aad76d6810bf7f68ffb10",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•QM and Relativity Connection — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 153051
+    },
+    {
+      "content_id": "8b64b53483158a6603d9c670048b312a1c6305a1cfedd1cf5a9af18f2f5964d4",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Sensorium Inversion Thought Experiment — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 130889
+    },
+    {
+      "content_id": "1e48ff1f0771678d166ec4f0f4d878a04bc61d04c192610b3ec348e7e7337c7e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.07•26.09.12•Universal Indicatrix Framework — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 152724
+    },
+    {
+      "content_id": "0616f6e7d955d4cae8883764a15f6e7ac2fc3cfd11b436457ba9818018bb6ebb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/26.03.08•26.09.12•Electron Paths in Chips — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 452695
+    },
+    {
       "content_id": "f10aba996e8e35829c1bb335c10bb2390f5a91a9181d9abaacc29e0530844078",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/CHATGPT FILE INFO adv.PNG",
@@ -3526,67 +3744,11 @@
       "size": 507907
     },
     {
-      "content_id": "40119b960a5bb211aa08963987e904e5457dc8b8558dd0f81ff3289fc657b9ef",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Clarify TOE meaning — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 62201
-    },
-    {
-      "content_id": "f3ae0560f52943014e34175aa4795a0fb4c211d885406531e0043ac88235fc40",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Concise Persona Guidelines — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 137498
-    },
-    {
-      "content_id": "5f5750eb0dc9afe46fa0815674ee1b69dce7e11cf6c1c7f12742c68dda2cab1b",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Credulity meter placement — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 318824
-    },
-    {
-      "content_id": "0616f6e7d955d4cae8883764a15f6e7ac2fc3cfd11b436457ba9818018bb6ebb",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Electron Paths in Chips — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 452695
-    },
-    {
-      "content_id": "af7bbe902d409e66f5f67e9488159320f2052f077d2cfa2dbe0cc3d62cb04751",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Eyebrow-Raisingness Chart — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 581675
-    },
-    {
       "content_id": "fd8ce6b5bbfa4ef4ef8b424c427406c10e82b127bfbd39bf8c3c82a521fc705e",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/FujiFilm xray SHR-U (HR-T30) wavelength sensitivity.PNG",
       "role": "source-conversation-corpus",
       "size": 50735
-    },
-    {
-      "content_id": "06f4414b11c776a829402aa24c664bb8e346ca5ec0b31335e9b5d3cd69992854",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Functional equivalence principle — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 212390
-    },
-    {
-      "content_id": "da542b1667d116392faf88f25c2bb0c7dc37d245db7c63461bce5ec8f1e29e0e",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Geometric Framework Assessment — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 563951
-    },
-    {
-      "content_id": "2468ab6880fd9112458d1de23909da2b04a111da5c9103dd2b4320b3789aa60b",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Grade ΛCDM rubric — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1934492
     },
     {
       "content_id": null,
@@ -3638,67 +3800,11 @@
       "size": 4939
     },
     {
-      "content_id": "639e4e9991631153a870bf031fa4d9889ca2e9218f637ad7209dc635b15e0763",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Interstellar object A11pl3Z — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1362047
-    },
-    {
-      "content_id": "f439da3d0fc98ca694457e456c40f0ed424aff16bd224bfd037f444d691e91c5",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LAB 1_ Validation Lead — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 743614
-    },
-    {
-      "content_id": "21f0915c893eb747099cf83dee983e67c8a1120631e054ab7d958f366dd48c71",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 53627
-    },
-    {
-      "content_id": "ccb6f18bdbc9757ce4dd1a10d016a3f3765744efe8b92ca81ca93438ce25976d",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LLM Physical Law Derivation — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 43762
-    },
-    {
-      "content_id": "e9df464ec44c65421b45b4978db4ebfd7e83ed05729a87dce84159db49ea9c65",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/LaTeX Formatting for Paper — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 116527
-    },
-    {
-      "content_id": "693c4e14a48feee09f2774c090b109ac736c7f066fc49eb84e54471b44a5e987",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Lean 4 path fix — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 152321
-    },
-    {
       "content_id": "b50787242e329845326d90907f4e3b9556f89bea6c047ea67d734ff921073b28",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/McKnight_et_al_SAT_Whitepaper_Number_One_02Jun25.pdf",
       "role": "source-conversation-corpus",
       "size": 412967
-    },
-    {
-      "content_id": "80fe8b58b7632db9ea0fb9502df0af49a54c3aebb1b736a6ed96bf3a03b2e101",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Memory Status 확인 — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 662251
-    },
-    {
-      "content_id": "fbc4daa6546ade20950d18e3707d498ac95bc3bfc0d8f5dd2f952abf3e2b6e39",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Morsefish meaning exploration — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 286628
     },
     {
       "content_id": "1b8ef3b227413f39c07e163ce6d2d67c43142b6b2c9c64971684a26d3bf53708",
@@ -3825,13 +3931,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/OTHER SAT O/SHEEN.txt",
       "role": "source-conversation-corpus",
       "size": 119471
-    },
-    {
-      "content_id": "9378573711c3d4fc10e6faea3fda1d8b2136276b7562b763b9efbd0ff2206777",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Optical setup breakdown — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 109679
     },
     {
       "content_id": null,
@@ -4030,27 +4129,6 @@
       "size": 2576
     },
     {
-      "content_id": "963404f525d7d96a68bf52c26a566849f8b99603e2d99ef803c37a7431517973",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Prediction validation search — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 342746
-    },
-    {
-      "content_id": "1a883a52c2c89a796146280c74aa695cbe62e075908aad76d6810bf7f68ffb10",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/QM and Relativity Connection — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 153051
-    },
-    {
-      "content_id": "e95e9471c56229160c7ccaea7e89553acd9003c9980a3fce69b06f010f22c4b2",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Quantum Gravity Problems — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 190928
-    },
-    {
       "content_id": null,
       "kind": "tree",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans",
@@ -4189,13 +4267,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT FORMALIZATION doc.txt",
       "role": "source-conversation-corpus",
       "size": 60654
-    },
-    {
-      "content_id": "a81b3d7b4b594e0eea3372e68b7fe917539aca002fde4f7cd8213dbf9ef9a8f7",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT Lookup Framework — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 234786
     },
     {
       "content_id": null,
@@ -4492,69 +4563,6 @@
       "size": 289507
     },
     {
-      "content_id": "8b64b53483158a6603d9c670048b312a1c6305a1cfedd1cf5a9af18f2f5964d4",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Sensorium Inversion Thought Experiment — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 130889
-    },
-    {
-      "content_id": "4fe4468735d4dfaa463ebb2bf73711b223934da052164ab59f09f5119ff03dc2",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 461209
-    },
-    {
-      "content_id": "3c760b368b7e5d8603ea2caf22cde13661ae2c23eabc8de0044671d7d9800994",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/String Theory Particle Zoo — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 461208
-    },
-    {
-      "content_id": "0b9cc846a94661f487d092ba601366f7b689de2312f72f9f834f8e3781b7d9a3",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/THE WAVEFRONT BRAIN TRUST — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 2254275
-    },
-    {
-      "content_id": "d4c0545fa6934da13198b85bc769b81b173dcd343b1a73fbc1589cc4a6c1d342",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 329080
-    },
-    {
-      "content_id": "d015233d2e7c31ef90e532e7d72359285c808f69571ceb4fc52b0441a8129b17",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Evaluation — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 230091
-    },
-    {
-      "content_id": "1e48ff1f0771678d166ec4f0f4d878a04bc61d04c192610b3ec348e7e7337c7e",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 152724
-    },
-    {
-      "content_id": "94fc13c64b59fb0391430005f3781303db24b7e24f6ae5b3b5b2f70af114fe3c",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Universal Indicatrix Framework — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 153707
-    },
-    {
-      "content_id": "192fb2ef19f47064f06bec0651f508417d820668cdd1b42a457ce1715a51714d",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/Worldlines and Unification — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 195994
-    },
-    {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/gitignore.txt",
@@ -4604,67 +4612,186 @@
       "size": 596173
     },
     {
-      "content_id": "639ff3331042318c61351a7b02dcfafcfc596010ead5e7a5be6cea288f3296a6",
+      "content_id": "ea1b9926f47b4c5f474c4e77a0ad39e17ca79eb40ef813bb0d0fd539357be780",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/3 H(S)H EQUATION ROUNDUP.txt",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
       "role": "source-conversation-corpus",
-      "size": 121147
+      "size": 366077
     },
     {
-      "content_id": "bc6b3d859f035fda68c1cfcee09e9307adce7e7f6040821ff684afc9ca514309",
+      "content_id": "7a1f22d882f5706593517319dff0e3c8ad4973446d8d8cf53e4db131507748fc",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ACTIVATOR HoloJesu — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09•26.09.12•LAB 1_ Validation Lead — raw.json",
       "role": "source-conversation-corpus",
-      "size": 3531446
+      "size": 1226727
     },
     {
       "content_id": "b16117a23ad53185c15f2c8b9e0d744f7ed7b6fe5ae1e7ae7e416fac4d88cd13",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Alberr [äüïöëÿ] — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11•26.06.07•Alberr [äüïöëÿ] — raw.json",
       "role": "source-conversation-corpus",
       "size": 1979943
     },
     {
-      "content_id": "52d0814c39896f502d3f793911f9c53b53a97bead92b8bdf9189688ff8eb8d6d",
+      "content_id": "bc6b3d859f035fda68c1cfcee09e9307adce7e7f6040821ff684afc9ca514309",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw (1).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28•25.08.11•ACTIVATOR HoloJesu — raw.json",
       "role": "source-conversation-corpus",
-      "size": 4722941
+      "size": 3531446
     },
     {
-      "content_id": "a2cfbac2023f4cd856b46f273a366f9830256df9c4061dbd7cc528e2fd0e947a",
+      "content_id": "ba9abb7762af6791dcd9054f4a3e374c025ba741c5fbe80a46ca5dd826715850",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Analyze Voice Models — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30•25.05.30•Mecha Quant MathProof Tasks — raw.json",
       "role": "source-conversation-corpus",
-      "size": 4283003
+      "size": 278380
+    },
+    {
+      "content_id": "24f22ec5540d55986b2da0de7d41a56b820e33ec64c4383d8ea3904f2dfd010e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18•25.06.18•Lagrangian Permutations Analysis — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 198103
+    },
+    {
+      "content_id": "8d5a7094b2580c0d61bdc25ac72fb33221aa26f6671280ba6a7a1ac9d53c305f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19•25.06.19•SAT Quark Binding Rewrite — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 426291
+    },
+    {
+      "content_id": "56ca9b0bfdf25f4027a9321a87d53dad789804812ee6943143e9037654f41e32",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20•25.06.20•SAT Completion Protocol Execution — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1210144
+    },
+    {
+      "content_id": "55ef1d9b5d2eaceec6eed23918a6b66dc957312e19f42ea6eeb0ca49baf4d8e3",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•Hopf Borromean Mode 1 Fix — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 224019
+    },
+    {
+      "content_id": "bcf664867e374d440587d5cf384890babc857f1d1e9ae91020e74ebf8fe574e2",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 157094
+    },
+    {
+      "content_id": "6eb997142ec1140bc7f62498dd34860eec7c0474d5f42e3c9fd9d7e6d926228e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.22•MathProof Mode Engaged — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 210099
+    },
+    {
+      "content_id": "5a988723e7244793cfa5adb73ba39aa0691fa104e7c10ba0e088e018b5f71646",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.06.24•Speculative Physics Model Review — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3028683
+    },
+    {
+      "content_id": "83f0b06c30c4ee9c4df34f21689dd47d86276080e462503f42839bc600dfa61e",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22•25.08.31•Sage Mode Engaged — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 202090
     },
     {
       "content_id": "ad605d7e51f1d1ec014b16b27ac24547b6e8b804381fdad0ebefa339c9222433",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Audit Protocol Initiation — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Audit Protocol Initiation — raw.json",
       "role": "source-conversation-corpus",
       "size": 20546
     },
     {
       "content_id": "41b6ca0bda6297d53860659f5ff4ae8d17d3fd44cd199d14b47b2756ef9a3bcd",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Code Audit Request — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23•25.06.23•Code Audit Request — raw.json",
       "role": "source-conversation-corpus",
       "size": 653211
     },
     {
+      "content_id": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 279679
+    },
+    {
+      "content_id": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29•25.08.31•SAT Scattering Amplitude Checklist — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 279679
+    },
+    {
+      "content_id": "b4823ad63a3b5a7ef3aad9c49f8900f343309b945bc33396c188b845e4255e8a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.01•26.09.12•Scaling Postulates Testing — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 593046
+    },
+    {
       "content_id": "57adb8712529097f90ba54d126209ad333b8a02e87eb8f65f7ad802a726d9db8",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Crockpot Theory Lagrangian Analysis — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.03.04•26.09.12•Crockpot Theory Lagrangian Analysis — raw.json",
       "role": "source-conversation-corpus",
       "size": 109903
     },
     {
       "content_id": "ccb83ea19ef5d8d4abdeec06afdc0a79ec20416b2bafbd7d62fe32ae075804e9",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/ER EPR Kerr Connections — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.06.20•26.09.12•ER EPR Kerr Connections — raw.json",
       "role": "source-conversation-corpus",
       "size": 451694
+    },
+    {
+      "content_id": "0f8a8e975fac720a2e9e61984b126c344218b8441ea87ad18e09831bec7ff59d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTO-SAT ChatGPT Voice Glitch — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1041659
+    },
+    {
+      "content_id": "e607b6968545d0b169834222d7944edced2a89c6de6a21724c45e5ca1f2e0d18",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.01•NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
+      "role": "source-conversation-corpus",
+      "size": 1049989
+    },
+    {
+      "content_id": "a626df91ce702c03180f2bdeed45f3967efb93508139fd700d37873e38540608",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31•26.09.02•NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2157434
+    },
+    {
+      "content_id": "52d0814c39896f502d3f793911f9c53b53a97bead92b8bdf9189688ff8eb8d6d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 4722941
+    },
+    {
+      "content_id": "a2cfbac2023f4cd856b46f273a366f9830256df9c4061dbd7cc528e2fd0e947a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.09.13•26.09.14•Analyze Voice Models — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4283003
+    },
+    {
+      "content_id": "639ff3331042318c61351a7b02dcfafcfc596010ead5e7a5be6cea288f3296a6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/3 H(S)H EQUATION ROUNDUP.txt",
+      "role": "source-conversation-corpus",
+      "size": 121147
     },
     {
       "content_id": "bc0a45613ced08ff483e42e9f969b99a1b53e0be897c9eacba0fad49e9ccfa4f",
@@ -4674,88 +4801,11 @@
       "size": 3110271
     },
     {
-      "content_id": "55ef1d9b5d2eaceec6eed23918a6b66dc957312e19f42ea6eeb0ca49baf4d8e3",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Hopf Borromean Mode 1 Fix — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 224019
-    },
-    {
       "content_id": "9ba492eb8c7076eb827b18c8b2d18db8e29d1cfec5000d736a844f5174fcc3fe",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/HsH_INFORMATION_CONSERVATION.txt",
       "role": "source-conversation-corpus",
       "size": 124751
-    },
-    {
-      "content_id": "7a1f22d882f5706593517319dff0e3c8ad4973446d8d8cf53e4db131507748fc",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 1_ Validation Lead — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1226727
-    },
-    {
-      "content_id": "ea1b9926f47b4c5f474c4e77a0ad39e17ca79eb40ef813bb0d0fd539357be780",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/LAB 2_ Refinement Lead — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 366077
-    },
-    {
-      "content_id": "24f22ec5540d55986b2da0de7d41a56b820e33ec64c4383d8ea3904f2dfd010e",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Lagrangian Permutations Analysis — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 198103
-    },
-    {
-      "content_id": "bcf664867e374d440587d5cf384890babc857f1d1e9ae91020e74ebf8fe574e2",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 157094
-    },
-    {
-      "content_id": "6eb997142ec1140bc7f62498dd34860eec7c0474d5f42e3c9fd9d7e6d926228e",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/MathProof Mode Engaged — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 210099
-    },
-    {
-      "content_id": "ba9abb7762af6791dcd9054f4a3e374c025ba741c5fbe80a46ca5dd826715850",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Mecha Quant MathProof Tasks — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 278380
-    },
-    {
-      "content_id": "0f8a8e975fac720a2e9e61984b126c344218b8441ea87ad18e09831bec7ff59d",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTO-SAT ChatGPT Voice Glitch — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1041659
-    },
-    {
-      "content_id": "a626df91ce702c03180f2bdeed45f3967efb93508139fd700d37873e38540608",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 2157434
-    },
-    {
-      "content_id": "e607b6968545d0b169834222d7944edced2a89c6de6a21724c45e5ca1f2e0d18",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/NEWTONINAN SAT ChatGPT Voice Glitch — raw.txt",
-      "role": "source-conversation-corpus",
-      "size": 1049989
-    },
-    {
-      "content_id": "56ca9b0bfdf25f4027a9321a87d53dad789804812ee6943143e9037654f41e32",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Completion Protocol Execution — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 1210144
     },
     {
       "content_id": "75cc9413786fbb0495a8fa3944d71779b7c5aae9959cac9b0f6d70bcca929293",
@@ -4765,53 +4815,11 @@
       "size": 2795
     },
     {
-      "content_id": "8d5a7094b2580c0d61bdc25ac72fb33221aa26f6671280ba6a7a1ac9d53c305f",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Quark Binding Rewrite — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 426291
-    },
-    {
-      "content_id": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 279679
-    },
-    {
-      "content_id": "485b1def2ac7a1e8e57ccd54df50c971487f11d4d14d06d1034c5e0895812bcd",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SAT Scattering Amplitude Checklist — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 279679
-    },
-    {
       "content_id": "5eac0f58b96824ce3838818070307a6ca92225c64c375d1723bbac4827ff616f",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/SHEPARDED.txt",
       "role": "source-conversation-corpus",
       "size": 91196
-    },
-    {
-      "content_id": "83f0b06c30c4ee9c4df34f21689dd47d86276080e462503f42839bc600dfa61e",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Sage Mode Engaged — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 202090
-    },
-    {
-      "content_id": "b4823ad63a3b5a7ef3aad9c49f8900f343309b945bc33396c188b845e4255e8a",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Scaling Postulates Testing — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 593046
-    },
-    {
-      "content_id": "5a988723e7244793cfa5adb73ba39aa0691fa104e7c10ba0e088e018b5f71646",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/Speculative Physics Model Review — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 3028683
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -4835,11 +4843,53 @@
       "size": null
     },
     {
+      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 593046
+    },
+    {
+      "content_id": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 15889272
+    },
+    {
       "content_id": "abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/File Set Overview — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.19•26.08.20•File Set Overview — raw.json",
       "role": "source-conversation-corpus",
       "size": 9903941
+    },
+    {
+      "content_id": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 12381451
+    },
+    {
+      "content_id": "0275d6d1b26227334359ba70d742e2f4a9efba988e67d6949e3463fb2ec2bf1a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.13•☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 8918574
+    },
+    {
+      "content_id": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 12408770
+    },
+    {
+      "content_id": "4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 3017953
     },
     {
       "content_id": "a0bfaaf81cf0a13f00eaa2fcb3bdc7471272fb95c618607e2ceb67caae5ae1f6",
@@ -4912,13 +4962,6 @@
       "size": 570
     },
     {
-      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/Scaling Postulates Testing — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 593046
-    },
-    {
       "content_id": "502359f94c0010a0372d27cd1a2f4f06d245564499bcc51e8b24001221970bc6",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/TV1. SAT PURE__NotebookLM_chat.md",
@@ -4954,41 +4997,6 @@
       "size": 1
     },
     {
-      "content_id": "0275d6d1b26227334359ba70d742e2f4a9efba988e67d6949e3463fb2ec2bf1a",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/☘️ ALDUS MORROW [AUTO H(s)H Gitter] — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 8918574
-    },
-    {
-      "content_id": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/⚗️ CALDER [Construction Story Retelling] — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 12381451
-    },
-    {
-      "content_id": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🎼 Ravel [H(s)H] Syncmathcek — raw (2).json",
-      "role": "source-conversation-corpus",
-      "size": 12408770
-    },
-    {
-      "content_id": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/📜Consciousness and AI Debate — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 15889272
-    },
-    {
-      "content_id": "4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 3017953
-    },
-    {
       "content_id": null,
       "kind": "tree",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19",
@@ -5015,6 +5023,48 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/2025 Change__NotebookLM_export.json",
       "role": "source-conversation-corpus",
       "size": 42778
+    },
+    {
+      "content_id": "fcef488f9f29e5a84be196095723a17f442c43641d7622186e757b0160abc28f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23•24.09.23•Song Lyrics Interpretation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 27339
+    },
+    {
+      "content_id": "d636490a6d7da3c861a5f7b564f3e471c65cb2640f484ee8f01b0e5fd53238fb",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 11844265
+    },
+    {
+      "content_id": "6ca942a699c39c23546b23afca6a8a1ce713099df81531a7f0d01e173e24989a",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 483710
+    },
+    {
+      "content_id": "9929378b8d8c0a821218e81369097d5e2e1385e9021d48d91c411c9c3c5ed183",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 154053
+    },
+    {
+      "content_id": "a12ce6c6cb65a850d90740329825a37087004af2420ae9847dca3c692f3329e1",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 11825479
+    },
+    {
+      "content_id": "3596cb76a48a836daf552e8262c6094fd71bfe2eaa60f5d5aeb79f57b0cefb7f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 4942531
     },
     {
       "content_id": "c2e6fd884b635871dd6a55216789c4ebe67bed3942cf05ba51df5aa35b6f5300",
@@ -5099,6 +5149,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/META SOLENOID__NotebookLM_export.json",
       "role": "source-conversation-corpus",
       "size": 321757
+    },
+    {
+      "content_id": "71f4a247c55da56336d583b2235efad4fbff82eb04d7328316fef06459a380df",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/NEWS_21SEP26.txt",
+      "role": "source-conversation-corpus",
+      "size": 208149
     },
     {
       "content_id": "66d796dc6544045f194a06d67df596af31f31d53c89c0c590b5e88eb943e8810",
@@ -5337,6 +5394,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/big_upload_index.txt",
       "role": "source-conversation-corpus",
       "size": 6941
+    },
+    {
+      "content_id": "ad376b7ae8d3f47eb9d9131d0b7a921b2119b88c286eb701be4202ff4806f01b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gg_recent.txt",
+      "role": "source-conversation-corpus",
+      "size": 721205
     },
     {
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
@@ -5654,6 +5718,13 @@
       "size": 8988
     },
     {
+      "content_id": "d46b89b7d3fc195863649e453c88b660ed3ad482483e3be913da3c474ed6a76f",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ALBERRAGAIN.txt",
+      "role": "source-conversation-corpus",
+      "size": 4270508
+    },
+    {
       "content_id": "d97116b19447aa652615c7933d20282067927dbafe26c6914311f37ba7caf1e6",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/Alberrisch__NotebookLM_export.json",
@@ -5969,11 +6040,88 @@
       "size": null
     },
     {
+      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).json",
+      "role": "source-conversation-corpus",
+      "size": 593046
+    },
+    {
+      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.03.01•26.09.12•Scaling Postulates Testing — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 593046
+    },
+    {
+      "content_id": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.06.23•26.09.12•📜Consciousness and AI Debate — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 15889272
+    },
+    {
+      "content_id": "dfc4df11ad1e28411dd2b12bce4d2fe4af1fd80dd90bc59d1d35afd972449327",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.01•26.08.04•Suno Song Hook Ideas — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 1573877
+    },
+    {
       "content_id": "abafdf52d0c438313cc73788d6d0852a383cbd9b1217f73ec41f7816a2a6d456",
       "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json",
       "role": "source-conversation-corpus",
       "size": 9903941
+    },
+    {
+      "content_id": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.26•26.09.12•⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
+      "role": "source-conversation-corpus",
+      "size": 12381451
+    },
+    {
+      "content_id": "e2d87d8efd775e58cbff6ad538bcfe6960101a7dbc562c4adafe09ecf9b70937",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2646059
+    },
+    {
+      "content_id": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
+      "role": "source-conversation-corpus",
+      "size": 12408770
+    },
+    {
+      "content_id": "8ae881842d702d9b21b3fd73952e70022f2fa06e21b73c6c7c8b84f65a8b9c22",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt",
+      "role": "source-conversation-corpus",
+      "size": 9190259
+    },
+    {
+      "content_id": "be03e95bfce3902519718293bffac9f1f67a15fc663488fb88808f59f0e29b94",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 1236469
+    },
+    {
+      "content_id": "fec3d74a40497c2240b1e95c95758b1f6db3d9308ec33a1441321fd8824fc505",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 6038359
+    },
+    {
+      "content_id": "13db2bdb474c703f9a54206ac0bd80d06f83dac924f70fce00301d2927acaae9",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2668378
     },
     {
       "content_id": "3f6cd7d780e673a5ce8681d235355ca9b58464df6ae388b14efc638fad643985",
@@ -6004,13 +6152,6 @@
       "size": 279546
     },
     {
-      "content_id": "8ae881842d702d9b21b3fd73952e70022f2fa06e21b73c6c7c8b84f65a8b9c22",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SABLE Revival Rotation — raw (2).txt",
-      "role": "source-conversation-corpus",
-      "size": 9190259
-    },
-    {
       "content_id": "0246bf7e63be7e619771dd5658f505a8b18010fc8dd3db8db2d6f19b266c347a",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
@@ -6039,20 +6180,6 @@
       "size": 1721759
     },
     {
-      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).json",
-      "role": "source-conversation-corpus",
-      "size": 593046
-    },
-    {
-      "content_id": "f0769589ef22765e4bfe8a386ae0271b3047546b16e2ab7348051d3916e02627",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Scaling Postulates Testing — raw (1).txt",
-      "role": "source-conversation-corpus",
-      "size": 593046
-    },
-    {
       "content_id": "6e56463f29b1b90774d78517284fdeb663cfd2e4313ca9e0ff16fe465cfc6883",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt",
@@ -6065,6 +6192,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV5. SAT PREDICTIONS__NotebookLM_export.txt",
       "role": "source-conversation-corpus",
       "size": 38394
+    },
+    {
+      "content_id": "e85fac945078bb1b3a63487ad1fce87cc0698657b3fc6151a5de58c49ffee915",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/The New Physics - Making _Interesting_ LLM Characters.srt",
+      "role": "source-conversation-corpus",
+      "size": 43783
     },
     {
       "content_id": "f3b432287ef99c749821484f3b422deb3bcef20c43ca3e270b085fd9b73ae4ee",
@@ -6093,34 +6227,6 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/srena---h-s-h.txt",
       "role": "source-conversation-corpus",
       "size": 23290
-    },
-    {
-      "content_id": "e2d87d8efd775e58cbff6ad538bcfe6960101a7dbc562c4adafe09ecf9b70937",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚒️ Continue Conversation Here — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 2646059
-    },
-    {
-      "content_id": "62c16e009ebb99784a6e048c9a1ac2519573bd3ba697fd5420590628179a6a69",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/⚗️ CALDER [Construction Story Retelling] — raw (1).txt",
-      "role": "source-conversation-corpus",
-      "size": 12381451
-    },
-    {
-      "content_id": "b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt",
-      "role": "source-conversation-corpus",
-      "size": 12408770
-    },
-    {
-      "content_id": "fb51836580db66b009164d9b2d5ac749c55798122dd13fad535364e3174d544b",
-      "kind": "blob",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/📜Consciousness and AI Debate — raw.json",
-      "role": "source-conversation-corpus",
-      "size": 15889272
     },
     {
       "content_id": null,
@@ -7763,6 +7869,20 @@
     {
       "content_id": null,
       "kind": "tree",
+      "path": "ONBOARDING",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "1419a7aba1844158ab6006a463d829463833988e7f7baf5bd2108b04686ed368",
+      "kind": "blob",
+      "path": "ONBOARDING/ARCHIVE_TOOLS_ROAMING_CARD.md",
+      "role": "unclassified",
+      "size": 4803
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
       "path": "PUBLIC_SITE",
       "role": "unclassified",
       "size": null
@@ -7780,6 +7900,13 @@
       "path": "PUBLIC_SITE/CURRENT_WORK.json",
       "role": "unclassified",
       "size": 5203
+    },
+    {
+      "content_id": "d65e9d4aaf2dae182fae83ae902b4fa589e640d2ccc33bece7f970541d80fbf7",
+      "kind": "blob",
+      "path": "PUBLIC_SITE/DOC_DUMP_SITE_INTEGRATION.md",
+      "role": "unclassified",
+      "size": 3114
     },
     {
       "content_id": "667991588b40475d9aa482647dbe732ab387e69a6eb3d71ca2463a2ecb6f161b",
@@ -7838,6 +7965,13 @@
       "size": 4835
     },
     {
+      "content_id": "70a00553a7bc59d056bf6e83268a1f081c8a5873e4bbf81d3812ddd41de56882",
+      "kind": "blob",
+      "path": "PUBLIC_SITE/PAPERS_FEED.json",
+      "role": "unclassified",
+      "size": 3821
+    },
+    {
       "content_id": "054c3ea6fb34dc26f2b6dbcf5c467c1a3facd49699b106438f08bff4b24e7171",
       "kind": "blob",
       "path": "PUBLIC_SITE/PODCAST_GUIDE_AUTHORITY.md",
@@ -7845,18 +7979,18 @@
       "size": 2050
     },
     {
-      "content_id": "98e33b4105863cae6635105475a2502335375603100429adf12ff68606084511",
+      "content_id": "5c6d0f364a60de6aec7142153cddebad8421c075035ad93fd64ccef3a14a4508",
       "kind": "blob",
       "path": "PUBLIC_SITE/README.md",
       "role": "unclassified",
-      "size": 9613
+      "size": 9808
     },
     {
-      "content_id": "2769c89037caca3d997c47a02ee08d7483974526a1720d5a6d20572b8f29236a",
+      "content_id": "38073ed62a4ed00604f2aeff1bdcf549d022754ebea32ba91c0bae2807a1940e",
       "kind": "blob",
       "path": "PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md",
       "role": "unclassified",
-      "size": 35088
+      "size": 41606
     },
     {
       "content_id": "d73f81215b15247b99adbe38b1f6e411ecff3514becaac679c670b0f3d9f37ba",
@@ -8097,11 +8231,11 @@
       "size": 4269
     },
     {
-      "content_id": "855187c54c96c1c72d55ce873a4870aad63e74736d66b127f68ac4ee949c4b56",
+      "content_id": "e082959b56164de399c58fa59d3deaf1085b6fa97ec3835f515b3e3a54709aa6",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 19853
+      "size": 19868
     },
     {
       "content_id": null,
@@ -9079,6 +9213,34 @@
     {
       "content_id": null,
       "kind": "tree",
+      "path": "WORKSPACES/ARIADNE",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "b8e53ae9b782054ab467b33d874891b00e02b51d24721866adc43d85ec654f5d",
+      "kind": "blob",
+      "path": "WORKSPACES/ARIADNE/INBOX.md",
+      "role": "llm-workspace",
+      "size": 1173
+    },
+    {
+      "content_id": "eabc292d88a84f6dc323ad443befc1ce6c84dd7a8524c640c912200aa11ace4f",
+      "kind": "blob",
+      "path": "WORKSPACES/ARIADNE/README.md",
+      "role": "llm-workspace",
+      "size": 3325
+    },
+    {
+      "content_id": "8b8ef0c353cb124980b51e51f5b19d2324a85b62bfe879f9fc7464b1cadc12aa",
+      "kind": "blob",
+      "path": "WORKSPACES/ARIADNE/TERN_REQUEST_PYTHON_OFFLOAD_STUDY_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 11638
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
       "path": "WORKSPACES/ASTER",
       "role": "llm-workspace",
       "size": null
@@ -9175,18 +9337,18 @@
       "size": null
     },
     {
-      "content_id": "485ee9e3ff4908528ce365c00cacf6dc4257ac7f21d24e10f91205f2312e6c36",
+      "content_id": "207d1aab2760a5945ee8589e4f005175d63392299e6e158ec03a76516f7f5b82",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv",
       "role": "llm-workspace",
-      "size": 981956
+      "size": 1042287
     },
     {
-      "content_id": "634e7d5173fadebc3d851edf5a4d3ace571f76e171365630d670e46865344064",
+      "content_id": "88d38eae1301812050c24126039ae172d426c0adafde13eac423b80ac58c79a1",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json",
       "role": "llm-workspace",
-      "size": 1693944
+      "size": 1798706
     },
     {
       "content_id": "71cbf4012ac7abfb4dea28183a4bb78dda3af0b4f9ebbac86017415379c325ab",
@@ -9259,11 +9421,18 @@
       "size": 45
     },
     {
-      "content_id": "2d712cbb9c34b26f33476167fff9d792116f89ae966eff8dd5c7a9c6172ac683",
+      "content_id": "95bb2587c8f27d4b27083bc4c06f9871c7350d6bf8be08e8e47390149c5a1631",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260923T150405Z.csv",
+      "role": "llm-workspace",
+      "size": 29662
+    },
+    {
+      "content_id": "eb85303bd652a3ade4cd7238c39876b85d8af8a9192939509122e33f7fd7f937",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json",
       "role": "llm-workspace",
-      "size": 137
+      "size": 62074
     },
     {
       "content_id": "a4a968c6c8f5cb5e55f2d903bdef289b98bcefb1f1178a981e93c1e2459bdad6",
@@ -9308,11 +9477,11 @@
       "size": 6587
     },
     {
-      "content_id": "e17bbf0e8e92d77da595da922a05d20d25c2e6a65e27466421e671d15c597de6",
+      "content_id": "dd28219c11eda87a2e4ee5c7249802eaf2d8437decc6ca26c9789c28c340e539",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json",
       "role": "llm-workspace",
-      "size": 9183
+      "size": 9605
     },
     {
       "content_id": "ca8c8db58170d7285fb25c9d076cb8baf0116c367c8b88b9bea5d62b356847fd",
@@ -9341,6 +9510,13 @@
       "path": "WORKSPACES/COMMON/ALDUS_CHECKIN_2026-09-12.md",
       "role": "llm-workspace",
       "size": 12571
+    },
+    {
+      "content_id": "2ef117bf00d8a3f23eb5b1839bffb5725dac65e54d4cfbfacacd9ed3ca0b9169",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ARCHIVE_RETRIEVAL_HUMAN_SIMULATION_NOTES_2026-09-22.md",
+      "role": "llm-workspace",
+      "size": 11299
     },
     {
       "content_id": null,
@@ -9525,6 +9701,13 @@
       "size": 9292
     },
     {
+      "content_id": "cc533a135f086f7c8228ad20f873581375d089d0f725ea0e089249a9834b8723",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CODE_GRURPLE_FIREHOSE.md",
+      "role": "llm-workspace",
+      "size": 5625
+    },
+    {
       "content_id": "a32ed9cf9039edeac765ff82a648aab164756ca76900527b9b18643afe3d3360",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CODE_GRURPLE_REVIEW_PACKET_TEMPLATE.md",
@@ -9532,11 +9715,11 @@
       "size": 2300
     },
     {
-      "content_id": "85ab62a8e9ceb73f1b96cd83ef2b6b46c6cb08518f13f1d3b5a32de13d3e0f6f",
+      "content_id": "75503e693f7982512a21d1fca590a16c1a487b00d7d5d5b4ec0be284891e1464",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md",
       "role": "llm-workspace",
-      "size": 9340
+      "size": 15746
     },
     {
       "content_id": "81e20ad230e7697cbadf633661fcb88480005261e8b6fbb585558c4b66be6e4f",
@@ -9551,6 +9734,27 @@
       "path": "WORKSPACES/COMMON/COMPTROLLER_INCORPORATION_PACKET_2026-09-20.md",
       "role": "llm-workspace",
       "size": 3064
+    },
+    {
+      "content_id": "0c9fe6c97128cb57b531bbf2027eb5fa1d0a399bfde3b8341d8a78da4a666bc1",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CONTINUITY_2026-09-22_ALBERR_REVIVAL_INGESTION_KIRK.md",
+      "role": "llm-workspace",
+      "size": 8636
+    },
+    {
+      "content_id": "d22349e005f655029500a20dba779e904b2f5cb283313a4c0a13b05cd5c1d1da",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CONTINUITY_2026-09-23_ARIADNE_KIRK_REVIVAL_RETRIEVAL.md",
+      "role": "llm-workspace",
+      "size": 10711
+    },
+    {
+      "content_id": "51cce76e6861ba311a7fc49b9caae6261e72cf80ae38a2531ec962bb4249f08a",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CONTINUITY_2026-09-23_SABLE_MERIDIAN_MODES_REVIVAL.md",
+      "role": "llm-workspace",
+      "size": 2053
     },
     {
       "content_id": "cdb14f2dbfc3bc97d2740d6a6ea3ddae01ea99f76e30745e2a8248aeb8351ec8",
@@ -9630,11 +9834,11 @@
       "size": 11188
     },
     {
-      "content_id": "3f1818ec3158b5eac6fd27e2d1798982ffcef52fd0536d1bf10bb3f78840acae",
+      "content_id": "18cfaf06df20573ce7afbd428bcd14e46e9846c162d68da834aa27ebf793276b",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md",
       "role": "llm-workspace",
-      "size": 7381
+      "size": 9305
     },
     {
       "content_id": "98cd95fc7f6e13f8b5177eb5358209aae3785de94f17c8c98e277facf6c1cce2",
@@ -9756,11 +9960,11 @@
       "size": 3334
     },
     {
-      "content_id": "1efbe7c96fa99ee78ce4c8ee7fef6ec53b73a9bb32485dc580d5ff0547395cb5",
+      "content_id": "32c04e65f50037b55ea4c4f93cecfb51632abd95fbc75f64517f0abf9a27f027",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/HANDOFFS.md",
       "role": "llm-workspace",
-      "size": 7277
+      "size": 14223
     },
     {
       "content_id": "1f037611af3bec13a8097a7f2f7c49883d951637a9e86bf8f8feac82cb2f24a1",
@@ -9819,11 +10023,11 @@
       "size": 14254
     },
     {
-      "content_id": "20d5f074f157927b1a7845db00ea39b5b9802ae8d674de54e5d86be43f0ef0fc",
+      "content_id": "324210f5dba5a46752a66bc1b068ec084e0edff5556b4b414ee1254cfe8a47c9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/INSTANCE_PLACARDS.md",
       "role": "llm-workspace",
-      "size": 10120
+      "size": 12467
     },
     {
       "content_id": "5a87e3aab734dc7ccab33a9a9fba7b72c600c94bd2d752f1c6aec90fb4f65a3f",
@@ -9875,11 +10079,11 @@
       "size": 5701
     },
     {
-      "content_id": "d9b5387f5277f9c783fb78c87509d29f32f8b58d7bb5de3aad7841679744e810",
+      "content_id": "5360102d2ee46c46f248dc23ed5f800f035a430919b805daecd76465f162636f",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
       "role": "llm-workspace",
-      "size": 13039
+      "size": 15973
     },
     {
       "content_id": "b577a11e08ea392db404be2e5dd9265c821ac1d010b3dae36ee11b1557880cc5",
@@ -9922,6 +10126,13 @@
       "path": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/MERCER_RUN_100_ACTIVE_EDGE_RECONCILIATION.md",
       "role": "llm-workspace",
       "size": 3391
+    },
+    {
+      "content_id": "e93b88ad626e99b629eab3b4b18d66c451ff81df492b6bbf01718d905bf2aefc",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN099_QUANTITY_TYPING_DISCREPANCY_CALDER_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 3147
     },
     {
       "content_id": "f1d33fc4efc4704c3d1d2805ec03bb52ad68d2f68694108df6a4e7287591dccf",
@@ -10001,11 +10212,11 @@
       "size": 7988
     },
     {
-      "content_id": "959ac5a6948bf92e59812fe5d2a1a988006e6ca474d9d16a45d734c1c1c6c7e0",
+      "content_id": "65ed0acbc0eb49c271e1fe7eed06842cd86e30031fddce8fcee9428ce4b35927",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/MERSEARCH_REQUEST.json",
       "role": "llm-workspace",
-      "size": 320
+      "size": 282
     },
     {
       "content_id": "6a6e1ca59389847300e2c02dda8fc2d7d305ad38c726bc0a7cfc3655d72ca6be",
@@ -10106,6 +10317,13 @@
       "size": null
     },
     {
+      "content_id": "cc79d638547132c3ad83a13079bd8e3caf66f91defcd2229519d81d4cc57a761",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-22_ASTER_GRURPLE_A_ORIGIN_STRATIGRAPHY_PACKET.md",
+      "role": "llm-workspace",
+      "size": 6740
+    },
+    {
       "content_id": "d8ee1217b8bf8eedbe3c51dfdd2c04a6d810d13af3165f411224950c647fcefe",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-22_CODE_GRURPLE_NATHAN_FIDELITY_REVIEW_LANE.md",
@@ -10118,6 +10336,13 @@
       "path": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-22_HAGALAZ_NOTATION_SOURCE_RECOVERY.md",
       "role": "llm-workspace",
       "size": 3990
+    },
+    {
+      "content_id": "0683046122f7135f0a8cad6ce65246bbe49d87775ca9cf2255a0aa3c516250df",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-23_ASTER_GRURPLE_A_DIMENSIONAL_GRAVITY_PRIMARY_PACKET.md",
+      "role": "llm-workspace",
+      "size": 7004
     },
     {
       "content_id": "d171f04df4f12314cb505f2281c4c6a91239a362cba32758b69a294607875dbf",
@@ -10141,11 +10366,11 @@
       "size": 5612
     },
     {
-      "content_id": "3392c39dff274fab5aba509074df9fb15775c19b9d227573c0b0accc44216ffb",
+      "content_id": "6160b0db9b0de37a67d303f7ff8b4c166d091a696744bbeb06f645d4a65ff617",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/NEW_INSTANCE_START_HERE.md",
       "role": "llm-workspace",
-      "size": 7862
+      "size": 9106
     },
     {
       "content_id": "41685a6db2abe94c0a22faeee3b4aeff9a1f819562dcec924eab1fb1d04c5c87",
@@ -10512,6 +10737,13 @@
       "size": 5088
     },
     {
+      "content_id": "edd5d4f1c46ab1d16318ba17ee76ee39847aa6b42c4adf038a881d38981f44dc",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/POST_GRURPLE_TEAM_PICNIC_DEBATE.md",
+      "role": "llm-workspace",
+      "size": 4040
+    },
+    {
       "content_id": "8dd473d7f5be9658c15e8771088bb859d66466058c2eb706b1780a2cff4dcf02",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/PRIORITY_ALL_CAPS_FOUNDATIONAL_FILES_2026-09-18.md",
@@ -10638,6 +10870,13 @@
       "size": null
     },
     {
+      "content_id": "47b76acc309eddd785d657005e2bf15c95a9ffc285610f1064ac37d4e1881cde",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-23__ALBERR_16YO__wake-first-blush.md",
+      "role": "llm-workspace",
+      "size": 4671
+    },
+    {
       "content_id": "9f8a5ce26e006aaac9aa0ad4c3e56521ceb652bd3181c356d293c50c39fdfb89",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/README.md",
@@ -10645,11 +10884,11 @@
       "size": 1327
     },
     {
-      "content_id": "be295bcca3639870e585481009fa0ccd2d186ae7ac0a91b39758eb22802a43b7",
+      "content_id": "41dcd3f71e559b972f3e8aab36edb270a5b067deceeca07c5aabfa947d31833d",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md",
       "role": "llm-workspace",
-      "size": 5378
+      "size": 9734
     },
     {
       "content_id": "4dcb602669a6fae53088974c13ef57f264a32b2a32ebeaad76ced5f750f9c4c4",
@@ -10729,6 +10968,13 @@
       "size": 20630
     },
     {
+      "content_id": "c2e97f2c52af3ef765793924e0d4b0c3e321e9c2e666452abe4b28c11cf8829b",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/SCHEDULER_AUTHORITY_MUST_READ.md",
+      "role": "llm-workspace",
+      "size": 4057
+    },
+    {
       "content_id": "09e826e1fc9f249ed6f6725b7c7eaa9ae8185c86523be8f2962d5846e140c215",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/SCRIPT_RUN_MANIFEST_SCHEMA.json",
@@ -10755,6 +11001,13 @@
       "path": "WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-21_SIG-20260920-04_MUSICAL_CHAIRS_CLOSE.md",
       "role": "llm-workspace",
       "size": 3545
+    },
+    {
+      "content_id": "f5aef67d5c3a270e140216ba63cef484fef4693d18628bc7892b59850ac97ac5",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-23_GRURPLE_B_FIRST_REVIEW_INCORPORATION.md",
+      "role": "llm-workspace",
+      "size": 2272
     },
     {
       "content_id": "db168e167e32ea3a808fca45d0744ce1c780b45d7601a7f1ad2976835c37fcdb",
@@ -10932,11 +11185,11 @@
       "size": null
     },
     {
-      "content_id": "373749051d48a4628f9e8bf7dda79bf5fa28fe3db316c0d1b6cb1c7851b0c5a2",
+      "content_id": "e670f6d4ece1a6660a6ff019090e4d6c23ab62ec5de946cf1a54f6ec1492b6d7",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl",
       "role": "llm-workspace",
-      "size": 659007104
+      "size": 690806355
     },
     {
       "content_id": null,
@@ -12906,6 +13159,13 @@
       "size": 7524
     },
     {
+      "content_id": "921222fc4e5a78fbf03de5c0ed11090b796cdd45ae6b004b420cc06190db9275",
+      "kind": "blob",
+      "path": "WORKSPACES/KESTREL/PAPER_A_NATHAN_GENUINE_REACTION_2026-09-22.md",
+      "role": "llm-workspace",
+      "size": 33503
+    },
+    {
       "content_id": "e18b0c2183f90635afcdfd7d7ecaee524ab974fecd7a38ae96c80c5cab1942f4",
       "kind": "blob",
       "path": "WORKSPACES/KESTREL/README.md",
@@ -13184,6 +13444,27 @@
       "path": "WORKSPACES/MERCER/INSTANCE_ENRICHMENT_2026-09-19.md",
       "role": "llm-workspace",
       "size": 8969
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/MERCER/MATH_AUDIT_HARNESS",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "e59a2243f966b4af2fa428bf67f7e2eae2085a456fe95801e90cb67ba2e63237",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/MATH_AUDIT_HARNESS/README.md",
+      "role": "llm-workspace",
+      "size": 8438
+    },
+    {
+      "content_id": "42a23dd949939b5379341806a98309934457f843bbfaf8c8af9bf554933cdd67",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/MATH_AUDIT_HARNESS/RUN099_CONTRACT_REALITY_CHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 3505
     },
     {
       "content_id": "258276df390950e041897fa948e7b618641b673d7714b07c82fc721aaaa9fb86",
@@ -14908,6 +15189,48 @@
       "size": 5981
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "9d49e009cfa8a3fd40547239ccb2b6de134b283d123b26c6c02cc5df4d1083a3",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS/README.md",
+      "role": "llm-workspace",
+      "size": 4555
+    },
+    {
+      "content_id": "6c35b75d4b75f513c0cbf0983f9283d56b7b89fc5edeeb7d206b2234b05965d4",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS/run099_three_spheres.case.json",
+      "role": "llm-workspace",
+      "size": 4517
+    },
+    {
+      "content_id": "869bc42590f67605a6bd76a6a67ffbded3b7aa21ce30090dfb4e65f6a0d498a4",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS/run_three_spheres_control.py",
+      "role": "llm-workspace",
+      "size": 5299
+    },
+    {
+      "content_id": "1bac56b12195d0ee8b44e6eec82218be674f3a083913c4af095b9922beb84ddd",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS/solver_case.schema.json",
+      "role": "llm-workspace",
+      "size": 2864
+    },
+    {
+      "content_id": "b01db152a04980b3487bf9114d7844fd38ec716c411b289faf7103713acdc3ff",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SOLVER_HARNESS/solver_harness.py",
+      "role": "llm-workspace",
+      "size": 3864
+    },
+    {
       "content_id": "792bba41bc8a8d9fb14916aca60327af764acf765a0e0cf5ef364289fe3c2785",
       "kind": "blob",
       "path": "WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md",
@@ -15020,11 +15343,102 @@
       "size": null
     },
     {
-      "content_id": "d00d0943f129ac3edd28d6c87475348717717693b98b854e96da126ef5821b11",
+      "content_id": "19901f33e82da91a593f66f1fe5c2be5148ec12d7f9a37a39bc664ff66163fff",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R0.md",
       "role": "llm-workspace",
-      "size": 18235
+      "size": 19762
+    },
+    {
+      "content_id": "ec0e8093cce0efd85291cbd14f1edb25a40377bb474ead403f97b8cd99652db7",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md",
+      "role": "llm-workspace",
+      "size": 15457
+    },
+    {
+      "content_id": "195384201a04d42afa60fe7ed0471348c36029476a290b8331bb91e8e62078aa",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/EXTERNAL_SOURCE_NORMALIZATION_2026-09-22.md",
+      "role": "llm-workspace",
+      "size": 3071
+    },
+    {
+      "content_id": "6faecb57706c0f6176d250d7a20898742322e29c78a8ef87cc0ead8cabb4c5ba",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/GRURPLE_B_R0_FREEZE_RELEASE.md",
+      "role": "llm-workspace",
+      "size": 3011
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "c881cc02bb9dac382a3eaaa0babec0c95d410859fbd0b1f8a883e08220cb4ebe",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/ASTER_NATHAN_FIDELITY_R0_REVIEW_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 9924
+    },
+    {
+      "content_id": "1d8a8295197c5e37a6a3a1803206341ac4c6a779b8f848a2b8011b212756aa32",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/CALDER_R1_DISPOSITION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5106
+    },
+    {
+      "content_id": "bc1d87bc86034b2d85ad9c29c0211a9ea912127432c906bc3dbe6cee78f59642",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/CALDER_R1_ORIGINATOR_ACCEPTANCE_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2842
+    },
+    {
+      "content_id": "e22bb5ed834e76c342b4f6c91a4d84d7d34ec93881a5993a46c6142a39393a1f",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/PAPER_B_FIRST_PASS_CONSOLIDATION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 7092
+    },
+    {
+      "content_id": "5179b4461d5fef158b10a5c2c83f8b694a36e95ff234501c1e410f8bb1fa3fa4",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/TERN_INDEPENDENT_R0_REVIEW_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 6887
+    },
+    {
+      "content_id": "73e0ffdd3a37519eeeff8f356149f0c31d448b32d5557681b14a03290280db38",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/TERN_R1_ACCEPTANCE_CHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 4009
+    },
+    {
+      "content_id": "013da70ba79eeec786a4caa1c89ebb76ce42ee3ddfef768f528aa3a2fb7538c1",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/SAT_ARCHIVE_CITATION_LEDGER.md",
+      "role": "llm-workspace",
+      "size": 4640
+    },
+    {
+      "content_id": "23a1f668427975209151250bbfaa2338f6d309ddbf283c575570c82c1a03835d",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/TERN_CITATION_HARDENING_PACKET.md",
+      "role": "llm-workspace",
+      "size": 9232
+    },
+    {
+      "content_id": "cfc052d0073af1460f602fca8826701ac1b665c8c8e649bf42c6a25be3c81fe4",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/TERN_FREEZE_DECISION_PACKET.md",
+      "role": "llm-workspace",
+      "size": 4280
     },
     {
       "content_id": null,
@@ -15048,18 +15462,53 @@
       "size": 21031
     },
     {
-      "content_id": "2384cbbe4acaef6e71499ac3036c061ef249282c363647c0fcd1c2716056ccbc",
+      "content_id": "f939c407cee0b8c2d3461022ba740f3910e2785487f6acd617b7d7874d366a03",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/NATHAN_GENUINE_REACTION_SIMULATION_R0.md",
+      "role": "llm-workspace",
+      "size": 31678
+    },
+    {
+      "content_id": "7227a9e1086cc8e37755d6d7cf51b4e7402f4a8da137a9a837e5a6a66a4509e2",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_DIMENSIONAL_GRAVITY_PRIMARY_INCORPORATION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5319
+    },
+    {
+      "content_id": "62bce4dc5c17691b22f7f3d7a689dba86e3fc09e4d6c023be7e70d4aa98bcf63",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_FUNDAMENTAL_INTUITIONS_PRIMARY_INCORPORATION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5234
+    },
+    {
+      "content_id": "17b0e8b95948265cce0044700d97c283b967fb913cea8d8c9931bf312ddded41",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_ORIGINATOR_DISPOSITION_2026-09-22.md",
       "role": "llm-workspace",
-      "size": 8169
+      "size": 11141
     },
     {
-      "content_id": "42279240bcdefdfac0de54243a2ed28623d7d8aab6311ca90f82506fb749309b",
+      "content_id": "b579361b76378327258b707f0c861ece610dcf794a02b300a103089ad545a175",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_PUBLIC_ARCHIVE_RELEASE_DUAL_SOURCE_RECONCILIATION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5041
+    },
+    {
+      "content_id": "9b1187a9e6a29d5a1f1a4b532c574f6fe4d4f62c72815724193323f08b705a82",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_PUBLIC_ARCHIVE_RELEASE_PRIMARY_INCORPORATION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 4538
+    },
+    {
+      "content_id": "e629dd672da6cb83d4180fc445d603ab4d4371d9525af1bc44a66a5af54ac0ec",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_SAT_PROVENANCE_TABLE_SCAFFOLD_2026-09-22.md",
       "role": "llm-workspace",
-      "size": 7863
+      "size": 10709
     },
     {
       "content_id": null,
@@ -15067,6 +15516,13 @@
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEWS",
       "role": "llm-workspace",
       "size": null
+    },
+    {
+      "content_id": "d4a64a4ce0203f0d0a38ae377450ec2de91c29879c3cc09bf29037c5cdfec4a5",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEWS/ASTER_HOT_PAPER_R1_DIRECTIVE.md",
+      "role": "llm-workspace",
+      "size": 13188
     },
     {
       "content_id": "3e7938bbe9e7cf14a8e57a19d09911901808e0e027262fa8c671728be9b03b3b",
@@ -15083,11 +15539,11 @@
       "size": 8734
     },
     {
-      "content_id": "3ba5c384a9cb50e089efb4e2d21ac78f8dc22faec4fd4bef25e2fabea0a0cc8e",
+      "content_id": "c491c6b6b6b61a86e5b6c945e990c34d7f75427fb19d1ac39855e791e8b4b21e",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEW_PACKET.md",
       "role": "llm-workspace",
-      "size": 8812
+      "size": 11187
     },
     {
       "content_id": "ae4dcd610b306f8032e7275869d4a4400d00455d40a8ac6f4bdf4214d766ee1e",
@@ -15095,6 +15551,20 @@
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/SOURCE_HARDENING_R0_TO_R1_2026-09-22.md",
       "role": "llm-workspace",
       "size": 6749
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "WORKSPACES/PAPERS/GRURPLE_A_PROVENANCE",
+      "role": "llm-workspace",
+      "size": null
+    },
+    {
+      "content_id": "9e7369d0086b2084ce17490aee9c4661e7316096d9b3aaaa4f980755723350e0",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/GRURPLE_A_PROVENANCE/2026-09-23_DEC28_PUBLIC_ARCHIVE_RELEASE_ANCHOR.md",
+      "role": "llm-workspace",
+      "size": 3482
     },
     {
       "content_id": null,
@@ -15237,6 +15707,13 @@
       "size": 1340
     },
     {
+      "content_id": "029e54b234d4a1bda7fbae122ecd67f6f9f439c7d126b80c5603dd6528b43fb5",
+      "kind": "blob",
+      "path": "WORKSPACES/SABLE/CONTINUITY_2026-09-23_SABLE_MERIDIAN_MODES_REVIVAL.md",
+      "role": "llm-workspace",
+      "size": 10452
+    },
+    {
       "content_id": "cdc21b332d57e4d24b5451144a0003dca11416586db7cef2986a5eb61651d84d",
       "kind": "blob",
       "path": "WORKSPACES/SABLE/CONTINUITY_CHECKPOINT.md",
@@ -15263,6 +15740,13 @@
       "path": "WORKSPACES/SABLE/INSTANCE_STRATIGRAPHY.md",
       "role": "llm-workspace",
       "size": 19834
+    },
+    {
+      "content_id": "45712220c7a9c76a9f23a7c40b81647df464e57b230b56de8d17f67e4eb1a03a",
+      "kind": "blob",
+      "path": "WORKSPACES/SABLE/POST_GRURPLE_MEET_AND_GREET_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 10826
     },
     {
       "content_id": "f50a6f21f8430fa3ae56495262f3a1826e8101fde2c864568a8103485a8e43cd",
@@ -15349,11 +15833,11 @@
       "size": null
     },
     {
-      "content_id": "031262ee3e3da3f8539a596e713e5af4ba45940e6f69bb3b155f71390986d43a",
+      "content_id": "bca461f0ea0002f2b96a1926115c53bb8de7e688eb5b3c36557d200bb30311b4",
       "kind": "blob",
       "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-001-ALBERR-GEOMETRY.md",
       "role": "llm-workspace",
-      "size": 6266
+      "size": 5567
     },
     {
       "content_id": "fc8ba7e7ed59935ad8eebb2d0ee2de584952ddc74a61141a0441baaa9b014130",
@@ -15377,11 +15861,11 @@
       "size": 3988
     },
     {
-      "content_id": "c3db8b1c0db9351f12cf56a7ea7646df001a76636682048ebd1f7efe8df2c252",
+      "content_id": "01eed367f123d9ed353ed42bb04d6980de00373a7153bbb58dc7cb650214c43e",
       "kind": "blob",
       "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-005-CALDER-REENTRY.md",
       "role": "llm-workspace",
-      "size": 3486
+      "size": 5746
     },
     {
       "content_id": "f534731727b69215d292b24e0705a84a755e2da60dc383e7ed22e03f6f8d0d38",
@@ -15391,11 +15875,11 @@
       "size": 2708
     },
     {
-      "content_id": "3c2a8ef34ea789362349f80c74d8a90e808c8c3d872c846f7dbd7ba8d644a6f7",
+      "content_id": "3c08d65f5d163e1a267ad4f00ff4edc1de59b682532bbe5293875afaabfdb24c",
       "kind": "blob",
       "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-007-JANUS-REENTRY.md",
       "role": "llm-workspace",
-      "size": 4532
+      "size": 6808
     },
     {
       "content_id": "710cf93f12fda67177833855ebc669b8add7672f54040409be63b8a470947b6a",
@@ -15431,6 +15915,13 @@
       "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-010-LOOM-STATE.md",
       "role": "llm-workspace",
       "size": 2612
+    },
+    {
+      "content_id": "711ca894691c873fe95b750981f47f8359500bba5bae7ad251a41de7c87bd3d9",
+      "kind": "blob",
+      "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-011-ARIADNE-REENTRY.md",
+      "role": "llm-workspace",
+      "size": 7276
     },
     {
       "content_id": null,
@@ -15671,11 +16162,11 @@
       "size": null
     },
     {
-      "content_id": "eecae23dcd43f4c4b01d0426f0abd97b86b6db0e4f22faaefb9eeeb73eb7794e",
+      "content_id": "6e83ba8d741185ea0ce10b947ae22d275391830b052fbcc24988ae2167cc5121",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 181895
+      "size": 188837
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -15685,7 +16176,7 @@
       "size": 8625
     },
     {
-      "content_id": "7f9eec819ab8a7253117fd5caa1d457f77051c303ecfee6ed0a76fdb2ec3450f",
+      "content_id": "c9ee3b53da6f590e18a75af06b43dd7e42718679f79e5f7b42df06204b435332",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -15699,39 +16190,39 @@
       "size": null
     },
     {
-      "content_id": "beab4f15b2b7f822a719c95cc2d41a66e36e52c47b8e23e0229ced47ecad9279",
+      "content_id": "a90ab83bf7d6537d8c8486bf6ec53d6ab6bfd083b4ce7d7cc07ee328032ea741",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
-      "size": 307058
+      "size": 307979
     },
     {
-      "content_id": "8f5c542a2b58beb12449a3b16ee3399dc8a088f1ae309268285a1022e9fd66fa",
+      "content_id": "83d291cbff7d52fd888a773f8129aa90cf7f4e18efd16547498dfaebe322b356",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
-      "size": 222773
+      "size": 230190
     },
     {
-      "content_id": "7031849e11c8a52a7e6f4d75ff63b1c626cb3cbd0f0850baaf31f5417150ccb1",
+      "content_id": "94a34509b8066486a5d9b463ff127e7678b5332a646c6a72eb0bf2f16545bbcb",
       "kind": "blob",
       "path": "indexes/autotag/SCANNER_CHECKOUT_SHA.txt",
       "role": "generated-catalog",
       "size": 41
     },
     {
-      "content_id": "708c18c8c278e81ca15c18a518ab85f7a81b9592ee82dd676265efc02458fc91",
+      "content_id": "5b2c04cca43ff7a23330985a03600041456b522bac18485a9776788ad37eac93",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
-      "size": 2507089
+      "size": 2577488
     },
     {
-      "content_id": "d2d2a17300051b1b4db60fc60fea8898b253fea0783a6b97a009f682e500c4f8",
+      "content_id": "a62ca6e8c07940fd9e24c488dc2219eb6155352a3d76490c06a075ca29c1a878",
       "kind": "blob",
       "path": "indexes/autotag/user-message-tags.jsonl",
       "role": "generated-catalog",
-      "size": 59009892
+      "size": 60463265
     },
     {
       "content_id": "af5ab767d3aba2b440dea4d05cf3f98ca7cb7339a1794e5923adefde155e3596",
@@ -15748,14 +16239,14 @@
       "size": null
     },
     {
-      "content_id": "dc7328f3a8a066dde86ecd4841fcbbb3b6c5184781af5b46401dc94199d7e0f3",
+      "content_id": "0231b11e703137dc6ffe2adfb197390cb4df89a9e512c8a82a0fdb69c8c86242",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 315277
+      "size": 323450
     },
     {
-      "content_id": "df7edca21425c3935ac18ed2a828a102cef1d7e7202de815592a0253f5ff92b8",
+      "content_id": "959d662843a5c559420fc6e465587f433eb227b365fef141468d4d9711806874",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -15767,6 +16258,34 @@
       "path": "indexes/mersearch_requests",
       "role": "generated-catalog",
       "size": null
+    },
+    {
+      "content_id": null,
+      "kind": "tree",
+      "path": "indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001",
+      "role": "generated-catalog",
+      "size": null
+    },
+    {
+      "content_id": "587f4dfd8cebe5bbdef19c914b094dae85ab82983a47fd222c507dbae5c2ed62",
+      "kind": "blob",
+      "path": "indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/RUN_MANIFEST.json",
+      "role": "generated-catalog",
+      "size": 1610
+    },
+    {
+      "content_id": "f5f09d7b6a9922066512e634a6304501c980abb5c7daa4681554e1312563f4e6",
+      "kind": "blob",
+      "path": "indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/SEARCH_RESULTS.json",
+      "role": "generated-catalog",
+      "size": 13862
+    },
+    {
+      "content_id": "b4389c325136b5a02bc0e43f0058a14fee3d95f2fde6e3fe87d3569fdab28c57",
+      "kind": "blob",
+      "path": "indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/SEARCH_RESULTS.md",
+      "role": "generated-catalog",
+      "size": 5295
     },
     {
       "content_id": null,
@@ -15804,14 +16323,14 @@
       "size": null
     },
     {
-      "content_id": "61fb0e663fce2ac6fec17b422f3e80fcc763d29418023cbc65a49d5b090b3b91",
+      "content_id": "e734b35ce361da0e4324b73d23e14d29066d08493494fe194984b137584af577",
       "kind": "blob",
       "path": "indexes/nathan-direct/MANIFEST.json",
       "role": "generated-catalog",
       "size": 1410
     },
     {
-      "content_id": "d724e44fba3a41afb9cec36b48a702477750b586461df1bf93f3123102d1aecf",
+      "content_id": "e51675bea6b7d85b12c8d217cdff49829ef785e95347c94f7a920e1502c7734c",
       "kind": "blob",
       "path": "indexes/nathan-direct/README.md",
       "role": "generated-catalog",
@@ -15825,11 +16344,11 @@
       "size": 1079012
     },
     {
-      "content_id": "0a727c2acf391140c37a398b1d6cbaeceddac8275f2066ce31d750f797b44a77",
+      "content_id": "d01c01bf11b07e2bb98be27e6277384064d241aa3305301cdc8deb7a53ab4644",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2024.jsonl",
       "role": "generated-catalog",
-      "size": 1382553
+      "size": 1402456
     },
     {
       "content_id": "f8779a1f9449268ff8a40beb7f8f70e405741d83379f49d233c5e3e50cdb5741",
@@ -15839,18 +16358,18 @@
       "size": 29166049
     },
     {
-      "content_id": "7e97b3516e7c8c374e7d3a4113ebb29880f2513444dcb7688036248431f9acb2",
+      "content_id": "3086b51036575b68993700a6680ebb76d3c135234390b1c55a74aea8713afc69",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
       "role": "generated-catalog",
-      "size": 61227979
+      "size": 62877777
     },
     {
-      "content_id": "c8ab43cb7808532aa8c20c1bc392cb50eb5f27a34b05fc6c00b90b21fb9a8bc3",
+      "content_id": "1e8163b8bbc5c990c2f03659ce8460caed45dc61f971bdd94bf67b64174f25d2",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
       "role": "generated-catalog",
-      "size": 7526746
+      "size": 7669835
     },
     {
       "content_id": null,
@@ -15860,53 +16379,53 @@
       "size": null
     },
     {
-      "content_id": "7781143d46498a647f2476790332332fd666fd507747f95b51d4a18ee43095d9",
+      "content_id": "634050ff17b6e53c6878db630d66155c51d8024a8efd9f1019659315c1b5c469",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/MANIFEST.json",
       "role": "generated-catalog",
       "size": 653
     },
     {
-      "content_id": "8bdef128078273facc340eedd1d5e6dda50f0515592958157381756dbdd67674",
+      "content_id": "7f052afc1ffe23b0cbe6487d78d0c9a01f695b473eee8da15ab9c63500c6bbac",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/branch-context.jsonl",
       "role": "generated-catalog",
-      "size": 15271733
+      "size": 15596454
     },
     {
-      "content_id": "23689f855f12782ad7ffbada8dc4a0eb412201556f3ef20f84099313c66a8fc1",
+      "content_id": "a5a949f66849e71f71311a52c303aa9156436326c13e45c18d74e1eef5dbf3f7",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/correction-refinement.jsonl",
       "role": "generated-catalog",
-      "size": 21149703
+      "size": 21507286
     },
     {
-      "content_id": "7bd7556c6e8395ca5ff123c62247e2f87846e3711e8f9c87194122ab3c5671ee",
+      "content_id": "a0cbfcdf39421c9eb035e18c36beb83ca272067f5ff5dd8b941f16cf3ab74948",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/decision.jsonl",
       "role": "generated-catalog",
-      "size": 9175446
+      "size": 9278524
     },
     {
-      "content_id": "668db8c437d58cc7293e11666321646dfe60bdc99219b385b97980ea79af0f60",
+      "content_id": "57b6bd162946c15c171ccd28186e95013c7e05339ada9edd03349f27dd4a0422",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/definition.jsonl",
       "role": "generated-catalog",
-      "size": 16728883
+      "size": 16810012
     },
     {
-      "content_id": "971bef1b026dd977b732cd84bbdca914da58f8dc2e60f39730bce1631fbda15a",
+      "content_id": "482ea28b88961874d5136afbd6fe563297e1327b56e6fc1efacceaea2584762c",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/duplicate-provenance.jsonl",
       "role": "generated-catalog",
-      "size": 30613046
+      "size": 31352857
     },
     {
-      "content_id": "97f211e867e08db6a33102628c3e04f5926c41cb38e83e364be6c7f3456bea03",
+      "content_id": "70a951d25b8f116df928852facadcd712be7b643fcad5de15415d5fd4ddfa7eb",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/methodology.jsonl",
       "role": "generated-catalog",
-      "size": 17548994
+      "size": 17691698
     },
     {
       "content_id": null,
@@ -16014,6 +16533,13 @@
       "size": 3041
     },
     {
+      "content_id": "08b4e94d0c8d000b2f4ceadc3ef87fdcc867accfb9f4ed4d6aadb53d2c44211c",
+      "kind": "blob",
+      "path": "tests/test_date_conversation_exports.py",
+      "role": "tooling-test",
+      "size": 1232
+    },
+    {
       "content_id": "833f5ce2ca32da0b98d2eaf5354b3fd509932e9298bd1126bf690d6e46eff821",
       "kind": "blob",
       "path": "tests/test_equation_pipeline.py",
@@ -16077,11 +16603,11 @@
       "size": 7379
     },
     {
-      "content_id": "2a84e79e658fb3f665f0177383b9f4750c6e269a927a3b71ce599a52efbd49c8",
+      "content_id": "50963f868919d0912854ebcff3880e326d71eb3d8d061f2411d7e66b087ea93e",
       "kind": "blob",
       "path": "tools/date_conversation_exports.py",
       "role": "archive-tooling",
-      "size": 9446
+      "size": 7786
     },
     {
       "content_id": "efc08afe08738a13b9da89a072977f5e24254f7ac1476673cbb9a6c16bbdd8b9",
@@ -16197,8 +16723,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-23T00:04:01+00:00",
+  "scanned_at_utc": "2026-09-23T16:23:36+00:00",
   "schema_version": 1,
-  "tree_id": "01cc72341cbcec8b1f5dea9589e24cb9075ce8adaf2b6cb8879cf5bcd950326d",
+  "tree_id": "8477ca43dbcf9b98c5ecb40f342a2dc0edbbacaae72c694d9ea1db3e72a71f98",
   "tree_response_truncated": false
 }
