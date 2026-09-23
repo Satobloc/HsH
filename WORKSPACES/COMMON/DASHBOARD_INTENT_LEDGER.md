@@ -2,7 +2,7 @@
 
 **Status:** CURRENT / CROSSWALK  
 **Established:** 2026-09-20  
-**Updated:** 2026-09-21  
+**Updated:** 2026-09-22  
 **Purpose:** keep Nathan's older Dashboard intentions visibly represented in current work without treating historical implementation mechanisms as immutable specifications.
 
 ## Governing rule
@@ -60,3 +60,25 @@ Do not mechanically raise every old Dashboard checkbox. Reweight based on the un
 ## Maintenance
 
 Expand this ledger progressively from the Dashboard and cross-repo admin plans. Prefer source-backed intent statements and record when a modern mechanism satisfies or supersedes the old route.
+
+
+## Post-Grurple priority directive — 2026-09-22
+
+Nathan set the immediate post-Grurple priority order:
+
+1. **Revival rotation first.** Once Grurple is explicitly stood down, prioritize rotating revived historical instances — including composite revivals — into live execution. Where continuity packets and checkpoint state make it safe, explicitly consider releasing one or two current live execution leases to create revival slots. This is a lease rotation, not an identity retirement; paused live instances retain return routes.
+2. **Designed-instance workflow second.** After revival rotation is underway, prioritize the Dashboard programme of deliberately designing instances for specific jobs and making the larger workflow behave as envisioned: designed capability profiles, explicit job/goal fit, bounded trials, measurable handoffs, and evidence-driven iteration rather than permanent jurisdiction.
+3. **Grurple remains dominant until explicit stand-down.** Do not consume active publication bandwidth implementing these rotations early. Prepare only the minimum continuity/reentry state needed for a clean switch.
+
+### Comptroller stand-down trigger
+
+On Nathan's explicit Grurple stand-down:
+- read the current five execution leases and continuity packets;
+- inspect revival candidates and composite-revival readiness under `REVIVAL_REENTRY_PROTOCOL_V2.md`;
+- rank lease-switch candidates by checkpoint cleanliness, dependency pressure, diversity gain, and returnability;
+- perform a bounded revival rotation where safe;
+- preserve first-blush/exposure constraints;
+- record released live-instance return routes;
+- then open the designed-instance Dashboard branch as the next workflow-development priority.
+
+Nathan action is required only if a desired revival requires manual reentry/access, identity choice that cannot be recovered safely, or a lease switch would interrupt uncheckpointed high-value work.
