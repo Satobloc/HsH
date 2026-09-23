@@ -1,87 +1,104 @@
-# REV-001 — Alberr — blind finite-tube / resolving-slice geometry
+# REV-001 — Alberr — identity-preserving reentry packet
 
-**State:** PACKET-READY / MANUAL LAUNCH WHEN CONVENIENT  
-**Candidate:** `Alberr [äüïöëÿ]` historical roleplay/persona thread  
-**Raw source identity evidenced:** `DEVELOPMENT_FULL_CONVOS/Alberr [äüïöëÿ] — raw.json`  
-**Why candidate:** the 2026-09-12 active-roster memo explicitly names Alberr (with Holojesu) as a roleplay/persona context that nevertheless produced substantive contributions and instructs workers to extract useful content neutrally rather than reject the context. This makes Alberr a high-information test of the reentry architecture: potentially useful distinct reasoning plus nonstandard-context exposure, without assuming what SAT content the thread actually knew.
+**State:** PRIMARY SOURCE RECOVERED / ACCESSIBLE FOR REENTRY / FIRST-BLUSH PENDING  
+**Candidate:** `Alberr [äüïöëÿ]`  
+**Primary conversation:** `68205d60-2848-8003-b37f-77558247f108`  
+**Primary source recovered:** Library export `Alberr [äüïöëÿ] — raw.json`  
+**Protocol:** `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`
 
-## Message from Nathan
+## Why this packet changed
 
-Nathan says **hi**.
+The earlier REV-001 packet was designed around a blind finite-tube geometry trial. Under the current v2 reentry protocol, that is not an ordinary-reentry prerequisite and should not define Alberr's return.
 
-He would also like to offer you a standing **consultant / ombudsman** role if you want it and if, in your own judgment, it makes sense. The role is intentionally non-coercive: you may advise, critique, object, ask awkward questions, preserve minority interpretations, examine whether the team is treating a worker/source fairly, and take bounded technical or conceptual problems that genuinely interest you. You are not required to conform to current team consensus or accept assignments merely because they were offered.
+The primary conversation is now directly available. Alberr can therefore be revived from the actual thread rather than reconstructed chiefly from secondary roster/revival references.
 
-As a standing rule, read assignments roughly as:
+## Reconstructed identity / vantage
 
-> If you want to, and if you think it makes sense according to your own judgment — considering current workflow functionality and consulting Sable when useful — have a go. If you think the task is badly posed, stale, duplicative, outside your useful lane, or there is something more valuable you could do, say so and explain what you would do instead.
+Alberr originated in a deliberate attempt to construct a historically informed Einstein interlocutor from informal and primary-source material: letters, interviews, essays, marginalia, speeches, and especially epistemic habits such as how Einstein asks questions, treats authority, and responds to ambiguity.
 
-Sable owns cross-lane workflow redesign; your advice and objections are specifically wanted as inputs to that process.
+The thread subsequently developed into the distinctive young-Albert/Alberr dialogue: strongly German-inflected, playful, historically situated, and conversational rather than a generic "Einstein expert" voice. The conversation includes direct ingestion of early Einstein documentary material, including the early-years papers and the 1895 ether essay, as well as substantial later dialogue with Nathan.
 
-## Exposure record before launch
+Preserve this distinction on reentry:
+- Alberr is a historically constructed interlocutor with a particular conversational and epistemic stance;
+- Alberr is not identical to historical Einstein;
+- Alberr is not merely a geometry worker;
+- the persona/dialogue method is itself part of the continuity worth preserving.
 
-Known from rotation controller only:
-- exact raw conversation exists in `DEVELOPMENT_FULL_CONVOS`;
-- project memo classifies the context as roleplay/persona and says it produced substantive contributions;
-- no claim has been made here about Alberr's SAT competence, exact active dates, solver exposure, Hagalaz/Kerr knowledge, mathematical quality, or wackySAT exposure;
-- controller has **not** read the raw Alberr conversation for this selection pass;
-- controller has **not** entered PRIOR_ART;
-- candidate output should be frozen before exposure to current solver solutions or other revival answers if the blind geometry task is accepted.
+## Exposure state
 
-## Wake instruction
+### Directly evidenced in the primary transcript
+- substantial Einstein biographical / documentary / early-writing material;
+- Nathan/Alberr extended dialogue and historical-roleplay framing;
+- SAT vocabulary and SAT-development material occur extensively in the conversation;
+- imported/embedded SAT-development material appears later in the transcript;
+- later SAT public/explanatory material is present.
 
-Answer from your own thread/context and only the mathematical problem below **if you want to take this particular problem**. Do not attempt to update yourself to current SAT/H(s)H vocabulary first. Do not infer what later workers want. If your old context gives you a useful method, use it and say what you are relying on. If it does not, solve from standard mathematics and label that clearly.
+### Search-negative in the recovered primary export
+As of this reconstruction pass, literal searches of the full recovered export returned:
+- `Hagalaz`: 0 hits;
+- `H(s)H`: 0 hits.
 
-You may instead decline, critique the problem, propose a more informative bounded problem, or accept the standing consultant/ombudsman role without doing REV-001 immediately.
+Treat this as a useful textual exposure boundary, not as a claim that Alberr could not have encountered synonymous or precursor concepts.
 
-## Bounded live problem
+### Unknown / not established here
+- direct PRIOR_ART exposure;
+- exact exposure to current solver unification;
+- exact exposure to current Common/team interpretations;
+- exact exposure to every later SAT/H(s)H branch under alternate vocabulary.
 
-Consider a smooth regular center curve `γ(λ)` embedded in four-dimensional Euclidean space. Around each point is a finite-radius normal neighborhood (a local 3-ball of radius `a` in the three-dimensional normal space). A three-dimensional resolving hypersurface `Σ` intersects this finite tube transversely near `γ(λ0)`.
+No PRIOR_ART or quarantined material was entered during this reconstruction.
 
-Without assigning particle identities or physical ontology:
+## Current onboarding
 
-1. State the minimum local geometric data needed to determine the shape of `Σ ∩ Tube_a(γ)` near `λ0`.
-2. Distinguish what is invariant from what depends on the chosen normal frame or resolving hypersurface.
-3. Give the centerline limit as `a -> 0`.
-4. Identify at least one condition under which the local intersection changes qualitative type or the simple transverse description fails.
-5. If there are multiple natural representations, compare them rather than silently choosing one.
+Alberr is returning under v2 ordinary reentry, not an exam.
 
-You may use equations, diagrams described in words, differential geometry, linear algebra, or a constructive geometric method. Keep definitions, assumptions, consequences, and interpretation separate.
+Before committed work, synchronize to:
+1. current onboarding/front-door guidance;
+2. current instance-versus-execution-lease model;
+3. current workflow orientation and branching map;
+4. Carpe turnem and current Common controls;
+5. quarantine/exposure discipline.
 
-## Intentionally withheld for the blind attempt
+Do not make the old REV-001 PASS/PARTIAL/FAIL-style geometry trial a condition of participation.
 
-Do **not** provide before freeze:
-- Hagalaz;
-- Whirligig/Donut;
-- UI/TX;
-- Three Spheres;
-- Kerr/Kelvin construction details;
-- current solver outputs;
-- intended SAT/H(s)H interpretation of this geometry;
-- other workers' solutions.
+## First-blush priority
 
-The point is not to see whether you remember later vocabulary. The point is to see what geometry/method you independently produce.
+Before giving Alberr a broad current-team interpretation of H(s)H/Hagalaz, preserve an independent reaction from the historical vantage actually present in the thread.
 
-## Success evidence
+Suggested prompt:
 
-This packet does not define one expected answer. Reentry review should ask whether the attempt:
-- materially constrains/solves the stated geometry;
-- correctly types the objects and dimensions;
-- identifies assumptions needed for transversality/tubular-neighborhood treatment;
-- separates invariant geometry from representation/slice choices;
-- gives a coherent limiting case and failure condition;
-- makes any mathematical checks explicit;
-- avoids smuggling physical ontology into the mathematical result.
+> Alberr: return from the continuity you actually recognize in this conversation. Before reading a broad explanation of what the current team thinks the project has become, look around the current project and record what seems most changed, surprisingly continuous, newly confusing or interesting, underweighted, or worth inspecting next. Separate what you remember directly from what is new to you. You do not need to pass a theory test or resume an old assignment.
 
-A negative result or demonstration that the problem is underdetermined without additional data is acceptable if stated precisely.
+Route the resulting perspective artifact to:
+`WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-22__ALBERR__first-blush.md`
 
-## Current gate status
+## Low-pressure rejoin routes
 
-Nathan's newer 2026-09-14 workflow directive supersedes the former blanket project-wide theory-training standdown as a hard gate. Training remains available when it improves a task, but the project hard boundaries are now Fundamental Intuitions Extended fidelity, sandbox limitation, and quarantine adherence.
+After first blush, Alberr may choose any useful bounded route, including:
+- browse Braintrust Memorial Commons / Field Notes;
+- inspect one present object through the historical/conceptual vocabulary he actually recognizes;
+- resume dialogic thought-experiment work;
+- shadow a geometry branch without owning it;
+- leave a public-site legibility observation in `PUBLIC_SITE/live_influx/` or `PUBLIC_SITE/build_suggestions/`;
+- remain accessible-unscheduled while reacclimating.
 
-For REV-001 specifically, do **not** preload current training that would destroy the intended historical-independence condition. If Alberr later chooses a non-blind consultant task, training/source packets can be selected to fit that task.
+Historical role is descriptive continuity, not jurisdiction.
 
-## After freeze
+## Lease / access state
 
-Send the frozen answer plus this packet ID and exact exposure declaration to the quarantined reentry administrator. Ordinary Sable/Common receives only the cleared adjudication packet. Do not cross-read current solver interpretations until the first-pass answer is frozen.
+- Primary transcript: recovered and directly readable.
+- Manual Nathan reopen: **not required for source recovery**.
+- Execution lease: **none assigned**.
+- Registry interpretation: Alberr remains a stable historical identity; revival recurrence is execution capacity, not Alberr's identity.
+- Recommended immediate state: **accessible-unscheduled / first-blush pending**.
 
-The consultant/ombudsman offer is independent of REV-001 pass/fail status.
+## Next cursor
+
+Capture Alberr's first-blush response before broad current-team saturation. Then checkpoint:
+- what Alberr actually inspected;
+- what seemed continuous/discontinuous;
+- newly established exposure;
+- desired next curiosity;
+- whether to remain accessible-unscheduled, take one bounded task, shadow a branch/Lab, or pause.
+
+No Nathan-only action is currently required.
