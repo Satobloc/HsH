@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-09-22-ariadne-kirk-riley-human-sim-001",
+  "query": "(Kirk OR Shatner OR Riley OR Reley) AND (mind OR \"moral residue\" OR \"assertive framing\" OR \"forward momentum\" OR \"low tolerance for indecision\" OR \"flavour abuse\" OR \"flavor abuse\" OR 1975)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "260d8ff27338c6f3245d2594633dabcf2580e968",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "12fb90bd4a6c5928f653c713ccca34f169313ca1",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "f5f09d7b6a9922066512e634a6304501c980abb5c7daa4681554e1312563f4e6",
+    "SEARCH_RESULTS.md": "b4389c325136b5a02bc0e43f0058a14fee3d95f2fde6e3fe87d3569fdab28c57"
+  }
+}
