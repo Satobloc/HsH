@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://satobloc.invalid/schemas/solver_case.v1.json",
+  "title": "SAT/H(s)H solver_case.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "case_id", "solver_contract", "primitive_fixture",
+    "namespaces", "assumptions", "expected_invariants", "failure_conditions",
+    "requested_evidence_lanes", "silo"
+  ],
+  "properties": {
+    "schema_version": {"const": "solver_case.v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "branch_id": {"type": ["string", "null"]},
+    "solver_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["solver_id", "input_objects", "output_objects", "claim_boundary"],
+      "properties": {
+        "solver_id": {"type": "string", "minLength": 1},
+        "input_objects": {"type": "array", "items": {"type": "string"}},
+        "output_objects": {"type": "array", "items": {"type": "string"}},
+        "claim_boundary": {"type": "string", "minLength": 1}
+      }
+    },
+    "primitive_fixture": {"type": "object"},
+    "namespaces": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^(STD|EXT:|SAT-HIST|HSH|HAG|SOLVER:|LOCAL:)"}
+    },
+    "units_dimensions": {"type": "object"},
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "input_classes": {
+      "type": "object",
+      "description": "Declare calibration/fit/blind/post-hoc status where relevant."
+    },
+    "expected_invariants": {"type": "array", "items": {"type": "string"}},
+    "failure_conditions": {"type": "array", "items": {"type": "string"}},
+    "requested_evidence_lanes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "SOURCE_TYPED", "SCHEMA_TYPED", "DIMENSIONAL", "EXACT_CONTROL",
+          "SYMBOLIC", "FORMAL_PROOF", "NUMERICAL", "STRESS_LIMITS",
+          "REPRESENTATION", "INDEPENDENT_IMPL", "VISUAL_DIAGNOSTIC",
+          "NATHAN_INTENT_CHECK", "BIG_PICTURE", "FORGOT_CHECK"
+        ]
+      }
+    },
+    "visual_contract": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["projection", "hidden_channels", "question_for_nathan"],
+      "properties": {
+        "projection": {"type": "string"},
+        "hidden_channels": {"type": "array", "items": {"type": "string"}},
+        "question_for_nathan": {"type": "string"}
+      }
+    },
+    "silo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["shared_before_freeze", "withheld_until_freeze"],
+      "properties": {
+        "shared_before_freeze": {"type": "array", "items": {"type": "string"}},
+        "withheld_until_freeze": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "provenance": {"type": "array", "items": {"type": "string"}}
+  }
+}
