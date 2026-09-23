@@ -23,3 +23,11 @@ No additional first-pass scientific review gate is requested by the Originator b
 ## Next cursor
 
 Route this exact R1 blob through the existing sandbox-site staging workflow. If staging requires a format/render conversion, preserve the manuscript text and status boundary; substantive edits require a new revision identity rather than silent mutation.
+
+## Website staging record — 2026-09-23
+
+The accepted R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb` is displayed under the required sandbox status on Glass Sausage Factory Sites version 34. The public reader checks this exact Git blob before rendering the pinned manuscript and links the first-pass review and Originator acceptance records. This website step changes presentation state only; it does not assert formal publication, experimental validation, external peer review, or completion of Paper A.
+
+Current sandbox manuscript: https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=boundary-weak-emission-r1
+
+Presentation feed: https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/PAPERS_FEED.json
