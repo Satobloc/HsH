@@ -39,6 +39,10 @@ Recovered episode-by-episode additions include:
 - **Tomorrow Is Yesterday:** historical stewardship; morally ugly action may remain morally ugly even when necessary; some decisions are carried rather than cleansed; added **Acceptance of Moral Residue**.
 - **This Side of Paradise:** Kirk’s desire for rest is acknowledged rather than erased, but painless stasis is rejected as loss of striving / meaning / identity; added **Identity Anchoring** and **Rejection of Stasis**.
 
+A later recovery pass narrowed the chronology further: Nathan explicitly requested “the accumulative Kirk theory of mind” on **2026-01-22 at about 17:55 UTC**, after choosing the episode sequence 15 → 17 → 22. The Squire / Tomorrow / Paradise integrations follow in that same direct-history layer.
+
+Important provenance boundary: this direct Kirk working thread does **not yet establish** that the Riley / Bruce Hyde / Nathan-from-1975 material was in that exact same conversation. The later podcast combines them, but until the raw stack is recovered, treat Riley/Hyde/Nathan-1975 as a potentially later or adjacent source layer rather than silently merging them backward into the Kirk v1.0 thread.
+
 This layer is closer to the generative source than the later podcast summary, but its exact archive file / conversation export path has not yet been resolved. Preserve that distinction.
 
 ### B. Folder 21 derivative synthesis — read end-to-end
@@ -76,18 +80,60 @@ The podcast explicitly says it was built from a stack of `.TXT` files, README ma
 
 The actual underlying file bundle remains the priority retrieval target.
 
-## Retrieval state at this checkpoint
+## Retrieval state at the 2026-09-23 conversation boundary
 
-A provenance-bearing Mersearch request has been launched through the stable `Mercer_Searcher_1.0` bridge against `Satobloc/SAT_THEORY_ARCHIVE_2023-25`:
+### Mersearch against the old SAT archive — completed, cleanly negative for this target
+
+A provenance-bearing Mersearch request was run through stable `Mercer_Searcher_1.0` against `Satobloc/SAT_THEORY_ARCHIVE_2023-25`:
 
 - request id: `2026-09-22-ariadne-kirk-riley-human-sim-001`
 - request commit: `12fb90bd4a6c5928f653c713ccca34f169313ca1`
-- query targets Kirk / Shatner / Riley / Reley together with distinctive human-simulation fingerprints;
-- default `PRIOR_ART` / quarantine exclusions remain in force.
+- workflow run: `35811937272`
+- job: `107025215827`
+- query targeted Kirk / Shatner / Riley / Reley together with distinctive human-simulation fingerprints;
+- default `PRIOR_ART` / quarantine exclusions remained in force.
 
-At the time of this note update, the workflow had successfully completed setup, request validation, stable-Mersearch checkout, archive checkout, Python setup, and exact-input recording, and was still executing the corpus search. **No result or absence claim should be inferred until that run publishes its request-scoped outputs.**
+The run completed successfully. It searched roughly **3,694 files / 6.54 million records** and produced only five lexical hits, none corresponding to the Kirk/Riley/Nathan human-simulation stack.
 
-Direct Library / ordinary GitHub searches for the distinctive phrases have been noisy or negative. Those are weak retrieval surfaces for this corpus and do not establish source absence.
+Interpret this narrowly: the target was not found in the older 2023–25 SAT corpus under those fingerprints. Do **not** generalize this to “Kirk is absent from the archives.”
+
+### Current HsH + HSH_RESOURCES tree/path archaeology
+
+Recursive path inspection across the current `Satobloc/HsH` and `Satobloc/HSH_RESOURCES` trees found no filename/path containing obvious `Kirk`, `Riley`, `Shatner`, or `Hyde` markers. This rules out the easy obvious-filename case only; it does not rule out content inside semantically unrelated large conversation exports.
+
+The later `HSH_RESOURCES/PDF_SPECS/NATHAN_VOICE_MODEL/` lineage is methodologically compatible with the Kirk-derived approach (production cause, performed-character voice, inference/source separation), but no literal backward Kirk trail has yet been established. Do not infer ancestry from resemblance alone.
+
+### Ruled-out large candidate
+
+A Folder-21 / Library artifact titled **`Consciousness and AI Debate`** (about 15.9 MB) was materialized and scanned locally because it was chronologically/semantically plausible. Full-file searching produced:
+- 0 `Kirk`;
+- 0 `Shatner`;
+- 0 `Hyde`;
+- 0 relevant episode-title hits;
+- 0 `moral residue` / `Refusal of False Stakes` / `Human Relic` hits;
+- its lone `Riley` occurrence was unrelated (a knot-polynomial context).
+
+Treat this artifact as **ruled out** for the Kirk/Riley/Nathan source stack.
+
+### Newer conversation-tranche hunt
+
+Title/path inspection across `SAT_CONVOS_15` through `SAT_CONVOS_20` did not surface an obvious Kirk/Riley filename. A semantically plausible title-level candidate exists at:
+
+`SAT_CONVOS_16/Concise Persona Guidelines — raw.json`
+
+but it has **not yet been established** as the source stack and should remain only a candidate until content-level evidence is checked.
+
+### Date-ingestion machinery as provenance map
+
+`tools/date_conversation_exports.py` scans all `.json` / `.txt` under `DEVELOPMENT_FULL_CONVOS`, derives active-branch human-message date ranges, and feeds `indexes/manifests/development-conversation-dates.json` through the maintenance workflow.
+
+Using that date map identified a Jan. 22-spanning raw export:
+
+`SAT_CONVOS_3/25.10.24•26.01.22•Mass in SAT framework — raw.json`
+
+It was inspected for Kirk fingerprints and did **not** resolve the target. This rules out that obvious date-spanning candidate; it does not identify the actual Kirk export.
+
+The correct next retrieval move is now to recover the exact **Jan. 22 Kirk conversation identity** (title and ideally conversation id) from conversation history, then use that identity as the archive key rather than continuing broad semantic title guesses.
 
 ## Candidate methodology deltas — HOLD pending raw-source recovery
 
