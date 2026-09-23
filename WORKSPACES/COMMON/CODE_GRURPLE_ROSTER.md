@@ -7,60 +7,59 @@
 
 ## Mission
 
-Get the two incoming papers from Originator draft through parallel independent review, consolidated commentary, Originator revision, Nathan-facing readiness where applicable, and visibly SANDBOXED current-version website posting. **Peer-to-posting is Tern's dominant Grurple job.** Reviewer silence does not block the train unless that reviewer/dependency was explicitly required. Outside consultants may join the parallel pool. Until standdown, this outranks ordinary project priorities; durable regular-work cursors are preserved rather than discarded.
+Get the two incoming papers from Originator draft through independent review, consolidated commentary, Originator revision/disposition, and visibly SANDBOXED current-version website posting. Until standdown this outranks ordinary project priorities; durable regular-work cursors remain preserved.
 
-## Active five-slot roster
+## Current routing — reconciled 2026-09-23
 
-| Instance / lease | Grurple state | Immediate role | Independence / novelty instruction | Trigger / return |
-|---|---|---|---|---|
-| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — HOT-PAPER R1 PREPARATION / DISCRETIONARY COMPLIANCE** | Convert frozen-review dispositions plus Nathan's hot-paper posture into R1; earn the strong thesis with typed evidence rather than automatically weakening it | Author discretion controls drafting; synthetic Nathan-reaction material is advisory only and must never be promoted to Nathan-direct evidence | Remaining independent review or formal stand-down of that review → complete R1 → Nathan-ready alert when actually ready |
-| **Mercer** — Archive QA Loop | **ORIGINATOR / PAPER B — SOURCE HARDENING AFTER PROVENANCE INCORPORATION** | Replace audit locators with formal archival citations, finish source typing, then freeze reviewable Paper B | Keep recovered boundary/light antecedent distinct from stronger weak/neutrino mechanism; no back-projection | Formal archival citations + source typing complete → frozen reviewable draft → fan out |
-| **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN / HOT-PAPER SYNTHESIS ROUTED** | Available for post-freeze consolidation; preserve differentiated provenance/fidelity findings | Do not convert post-freeze discussion into an unrequested second formal review; simulated Nathan reaction remains explicitly synthetic | Consolidation request or Paper B review release |
-| **Tern** — Comptroller | **SIGNALBOX / PAPER A REVIEW FROZEN / CONSOLIDATOR** | Maintain roster, enforce independence-first ordering, test incorporation, consolidate frozen-review traffic | Remaining independent reviewer stays blinded until own review freezes | Remaining Paper A review, R1 readiness, Paper B release, Nathan-ready state, standdown |
-| **Revival rotation / returning-instance pool** | **PAPER A INDEPENDENT REVIEW PENDING / MAX-DIVERGENCE** | Use current returned identity if review-ready; preserve first-blush differences; one independent review turn | Do not expose Tern/Aster paper-specific commentary, hot-paper synthesis, or synthetic Nathan-reaction artifact before freeze | Freeze review → cross-read/cross-communicate; or formal stand-down of review obligation |
-
-## Mira quarantine interlock
-
-**Mira is outside the active five-slot review roster and remains quarantined. Her compliance with Code Grurple is discretionary.** Do not pull her into the internal paper corpus or expose quarantined/external material to authors/reviewers merely to satisfy the pipeline. Questions/asks from Mira should be triaged promptly through a quarantine-maintaining metadata/de-dup/classification interface. Route only cleared operational answers across the boundary. Her boundary weak-emission provenance request has now been serviced through the non-quarantined Mersearch bridge and Mercer triage; this remains provenance support, not a Grurple review dependency.
-
-## Nathan
-
-Nathan is instigator and is working directly with Meridian and Mercer on the two drafts. Nathan also has steps outside the peer-review process before/after it. Nathan acknowledgment controls clearing of PAPER READY alerts. Code Grurple now also has an automatic completion gate: once both papers have completed at least one peer-review pass, any additional pass requested by Nathan/Originator, corresponding revision/disposition, and current-version website posting, Tern may stand Grurple down automatically. Nathan may stand it down earlier.
-
-Nathan's current Paper-A revision posture is **be bold; this is the hot paper**. The review lane has operationalized that as: preserve the strong convergence thesis where it survives typing; operationalize the comparison criteria; keep the Hypothesis-H reduction/effective-sector question visible as a failure-capable research conjecture while distinguishing it from current established status; and make sentence-level claims more conservative where the evidence requires it.
-
-Aster has also produced `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/NATHAN_GENUINE_REACTION_SIMULATION_R0.md`. It is **synthetic/advisory, not Nathan-authored and not Nathan-direct evidence**. It may help the Originator test argument shape/voice after the independent-review boundary, but no sentence in it acquires Nathan provenance without separate Nathan confirmation or Nathan-direct sourcing.
+| Instance / lease | Grurple state | Immediate role / cursor |
+|---|---|---|
+| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — R1 ACTIVE / CRITICAL PATH** | Consume already-prepared bibliography normalization/source-saturation work into the current R1, preserve the now-closed A2/A5 SAT proposition citations, then route the resulting blob through the broader acceptance gate. |
+| **Mercer** — Archive QA Loop | **PAPER B COMPLETE THROUGH SANDBOX STAGING / TRANSFERABLE SUPPORT** | Do not reopen Paper B absent a concrete defect or Nathan/Originator request. Support Paper A or other Grurple bottlenecks when useful. |
+| **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN** | Available for post-freeze consolidation; no unrequested second formal review. |
+| **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current roster/control state, enforce review boundaries, route the current Paper-A acceptance/posting sequence, and stand Grurple down automatically when both paper gates are satisfied. |
+| **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Preserve first-blush independence if a still-required review is explicitly routed; otherwise do not manufacture a review dependency. |
 
 ## Current paper slots
 
-| Slot | Originator | Title | Canonical packet | State | Nathan-ready |
-|---|---|---|---|---|---|
-| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** | `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **TERN + ASTER REVIEWS FROZEN; HOT-PAPER R1 DIRECTIVE ROUTED; SYNTHETIC NATHAN-REACTION INPUT AVAILABLE; R1 PREP ACTIVE; REVIVAL REVIEW PENDING** | NO |
-| **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal stream | `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` (pre-review draft exists) | **PRE-REVIEW SOURCE HARDENING; BOUNDED HISTORICAL PROVENANCE INCORPORATED; FORMAL ARCHIVAL CITATIONS + SOURCE TYPING PENDING BEFORE FREEZE** | NO |
+| Slot | Originator | Title / packet | Current state | Nathan-ready |
+|---|---|---|---|---|
+| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACTIVE / CRITICAL PATH.** Proposition-level SAT chronology citations [9]–[11] are incorporated and targeted A2/A5 rerun is closed PASS for the checked R1 blob. Remaining visible gate: normalize/source-saturate bibliography [1]–[8] from the already-prepared packet, then broader acceptance/posting sequence. | NO |
+| **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **REVIEWED / ORIGINATOR-ACCEPTED R1 / SANDBOX WEBSITE STAGE RECORDED.** Not the present Grurple critical path. | Publication lane complete unless a concrete defect/request reopens it. |
 
-The boundary-emission artifact appeared at commit `413aab6b433774ad66e46b8538d5e514f908f15` as `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R0.md`, explicitly marked `SANDBOXED — PRE-REVIEW DRAFT`; it is not the released Meridian GRURPLE-A paper. Meridian's canonical GRURPLE-A is `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R0.tex`, frozen at `1c99dd3a176e5bfbdde689faee1c1823960c8378` and released by `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/GRURPLE_A_R0_RELEASE_2026-09-22.md`. Tern and Aster have each frozen their Paper A reviews and are cross-read-open; the Revival/current-returned reviewer remains independence-gated until its own review freezes or is formally stood down. Meridian is preparing R1 without silently altering frozen R0.
+## Paper B closure boundary
 
-### Paper A provenance incorporation — 2026-09-22
+Paper B is no longer in source hardening or pre-review. Durable sequence includes:
 
-Mercer tranche 01 at commit `7f618255b41069113917d66d7fc148d02d4e0a1d` recovered a direct SAT-W particle-taxonomy source: `SAT_THEORY_ARCHIVE_2023-25/2023-24 FRAMEWORK DEVELOPMENT/SATv THE PARTICLE ZOO.txt`. It supports historical provenance for persistent fermion filaments, near-aligned low-drag neutrino filaments, and bosons as ripple/transition events, with W/Z described as local filament-reconfiguration events. This directly addresses Paper A's explicit provisional SAT/H(s)H provenance placeholder but **does not** establish later labels (`true boson`, `t-boson`, `f-boson`, `ghost neutrino`, `Jarlskog Shadow`) or current H(s)H doctrine. Disposition: **ACCEPTED/ROUTED AS HISTORICAL ANTECEDENT; PARTIAL**.
+- `731e2fb5888b0aec856fd9e31319c39746514239` — Calder R1 Originator acceptance;
+- `96cb1b5b3b84c1e423098ace4e57db3e8d754f68` — reviewed R1 sandbox posting recorded;
+- `6979297c29b48e552593a1d1544ba89da779cf5b` — paper feed pointed to current sandbox site version;
+- `3c979c79cecb82f9cb6892da0b1491633b8dfdc0` — accepted Paper-B R1 sandbox website stage recorded.
 
-Meridian's R1 provenance scaffold at commit `a50746156a201e3549900f279ab8ded307a2060e` converts the reviewer-requested chronology into a primary-source retrieval queue with explicit STATUS THEN / STATUS NOW typing and anti-back-projection controls. It is preparatory wayfinding, not manuscript evidence. First microcitation cursor: 22 Mar 2024 `DIMENSIONAL GRAVITY`, 2 Feb 2025 Fundamental Intuitions, 28 Dec 2025 public archive release.
+Do not restart source hardening, peer review, or manuscript polishing without a concrete defect or explicit request.
 
-### Paper A hot-paper incorporation — 2026-09-22
+## Paper A current evidence state
 
-Nathan's hot-paper directive is routed into the canonical review packet at commit `f49b3ea152541b7b31f8ab399b67cceb4549cab4`. Disposition: **ACCEPTED/ROUTED**. It changes the R1 revision posture, not the evidentiary standard: define/earn structural convergence rather than reflexively weakening it; bound/document independent development; retain the stronger Hypothesis-H relation as a named research conjecture while keeping current-status language weaker where required.
+The older three-item SAT provenance retrieval queue is closed as a retrieval problem. Directly controlled anchors now include:
 
-Aster's synthetic Nathan-reaction artifact was added at commit `53702632bb51166ef844dfcbcae8c7a410854885`. Disposition: **FEED_FORWARD / ADVISORY ONLY**. It is useful as a post-freeze argument-shape/voice stress test, but remains explicitly non-Nathan-authored and cannot establish Nathan intent, provenance, theory status, or factual history by itself.
+- primary 23 Mar 2024 Dimensional Gravity anchor;
+- Fundamental Intuitions source with the explicit boundary that the surviving edition is updated 26 Feb 2026 and is not a frozen 2 Feb 2025 textual snapshot;
+- contemporaneous 28 Dec 2025 public archive-release record reconciled with repository-native Git history, without strengthening that into repository creation, snapshot completeness, or first-ever SAT publication.
 
-### Paper B provenance / retrieval incorporation — 2026-09-22
+The current R1 carries proposition-level citations [9]–[11] for these chronology claims. The targeted A2/A5 citation gate has been rerun and closed PASS. References [1]–[8] still require the already-prepared bibliography-normalization/source-saturation incorporation before the broader acceptance gate.
 
-Mercer tranche 03 at commit `a23f306dcd7b309f743c02a76d12cc8e2b896e61` behaviorally retires the previously parked “no corpus-wide body-search route” limitation. The Mersearch bridge returned auditable output over 3,667 files / 6,538,947 records / 119 lexical hits while excluding `PRIOR_ART` and `QUARANTINE`. The strongest early direct Nathan antecedents support only the safe chain `aperture/grating/interaction boundary → filament/surface interaction → energy transfer → light/photon-like output`. They do **not** yet establish the stronger `ordinary engineered boundary → transient internal mode → detachable weak mode → neutrino-like detector state` chain. Disposition: **TESTED / INCORPORATION PASS for retrieval interface; ACCEPTED/ROUTED AS PARTIAL HISTORICAL ANTECEDENT for Paper B**.
+## Mira quarantine interlock
 
-At commit `6471a792ce14d627f7ee4431e18642f2c3748673`, that bounded antecedent moved downstream into `DRAFT_R0.md` itself. The manuscript now explicitly preserves the negative boundary: the recovered April 2025 aperture/grating discussion supports boundary-mediated filament/surface interaction and energy/light response, but does not establish neutrino emission from an ordinary slit/grating or later transient/t-/f-boson vocabulary. Disposition: **FEED_FORWARD — TESTED / PASS**. Remaining pre-review cursor: replace message/conversation audit locators with formal archival citations and complete source typing before freeze/release.
+Mira remains outside the active internal review corpus and quarantined. Her compliance with Code Grurple is discretionary. Do not expose quarantined/external material to authors/reviewers merely to satisfy the pipeline. Route only cleared operational answers across the boundary.
 
 ## Review traffic rule
 
-Independent review first; other commentary second. Once a reviewer freezes their one-turn review, cross-communication becomes maximum: compare comments, merge duplicates, surface contradictions, route actionable issues to the Originator, and keep one canonical packet per paper. A second formal review round requires Nathan or Originator request.
+Independent review first; other commentary second. Once a reviewer freezes their one-turn review, cross-communication is open. A second formal review round requires Nathan or Originator request. Do not manufacture an additional review dependency merely because a reviewer slot once existed.
+
+## Nathan / standdown
+
+Nathan is instigator and works directly with the Originators. Nathan's Paper-A posture remains: be bold, earn the strong thesis with typed evidence, and keep sentence-level claims bounded where evidence requires it.
+
+Code Grurple stands down automatically when both papers have completed the review/revision/disposition actually required for them and the current intended versions are visibly sandbox-posted. Paper B satisfies its lane. Paper A is the remaining critical path.
 
 ## Handoff-link rule
 
@@ -72,40 +71,10 @@ Nathan-ready: **🟪🟩📄🚨🟪🟩📄🚨🟪🟩📄🚨 PAPER READY FOR
 
 Peer-role rest / regular beat: **⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️**
 
-Until standdown, user-facing Comptroller replies end with the condensed where-in-process Grurple roster requested by Nathan; the next-task cursor is carried inside that final roster block.
+## Regular-work preservation / return route
 
-## Regular-work preservation
+Ordinary work remains BACKSEAT/HOLD rather than cancelled while Grurple is active. After standdown, the preserved project-highest-priority return is `HAGALAZ-SOLVER-UNIFICATION`, specifically the controlled transport/history case separating static endpoint-frame relations from path-dependent transport/holonomy. `LAB-SBS-001` remains supporting benchmark/component infrastructure rather than the destination.
 
-Ordinary work is BACKSEAT/HOLD, not cancelled. Preserve exact return cursors. The current ᚼ solver-unification branch resumes from its durable transport/history discrimination cursor after standdown unless the papers themselves materially change that route.
+## Provenance of this reconciliation
 
-## Fast routing watch
-
-During Code Grurple, Tern samples new worker posts/commits before doing new substantive work. Route paper-ready drafts, questions, review comments, source/provenance findings, and website blockers immediately to the canonical paper packet or appropriate quarantine-safe interface. Do not make Meridian/Mercer conform to paperwork that slows drafting; their compliance is discretionary. The packet is a consolidation service, not author jurisdiction.
-
-Canonical packet template: `WORKSPACES/COMMON/CODE_GRURPLE_REVIEW_PACKET_TEMPLATE.md`.
-
-
-## Throughput correction — 2026-09-22
-
-Nathan set a 12-hour target for future rapid-paper cycles and identified the current ~24-hour dwell as too slow. Treat elapsed time as an operational signal. Do not wait for every rostered reviewer: use the expanded internal/outside-consultant pool in parallel, preserve independent-first review, freeze each review on return, and move the Originator into disposition/revision as soon as a sufficient pass is available. Requested second+ passes remain required; unrequested extra reviews are useful inputs but not automatic gates.
-
-Website state is versioned: an already-uploaded draft may remain provisional, be replaced by a newer draft, or have live display disabled. Posting an early draft does not close the paper; Grurple completion uses the current intended sandbox version after required review/revision.
-
-Pipeline-automation work is authorized when it directly reduces paper-cycle latency. First automation target should be a small manifest/state-machine and idempotent helpers for version tracking, LaTeX/PDF build/staging, review-state tracking, warning/display state, citation/resource candidate queues, indexing/linting, and stale-site-version detection. Do not automate scientific judgment or quarantine clearance.
-
-
-## Originator-discretion bottleneck rule — 2026-09-22
-
-Meridian and Mercer remain compliance-discretionary Originators and may be working valuable sub-Grurple lanes. If either Originator becomes the critical path for peer-to-posting, the Comptroller must not convert discretion into command-and-control.
-
-Use this escalation ladder:
-
-1. **Diagnose the actual blocker.** Distinguish Originator-only judgment from transferable legwork.
-2. **Make the publication-critical case.** Tell the Originator exactly what is blocking posting, why clearing it now has leverage, and the smallest bounded action needed from them.
-3. **Unbundle transferable work.** Regear available workers/outside consultants for source retrieval, citation normalization, comparison tables, LaTeX/PDF mechanics, review synthesis, claim/source matrices, indexing, website staging, or other separable tasks.
-4. **Return a prepared packet.** Give the Originator decisions rather than chores wherever possible: proposed patch + evidence + unresolved choices + provenance/status boundary.
-5. **Use bounded cross-training where productive.** Capability is evidence, not jurisdiction; a reviewer/provenance worker/geometer may take a micro-pass outside their usual lane when the handoff is well typed.
-6. **Do not create coordination debt larger than the saved time.** Parallelize only separable work with a clear merge point.
-7. **If the Originator declines/reprioritizes, record the reason and re-route around it where scientifically/editorially legitimate.** Do not silently usurp authorship or scientific judgment.
-
-Preferred bottleneck dispositions: `COMMUNICATION_SMOOTH` for unclear asks; `NIBBLE` for one bounded transferable chore; `MUSICAL_CHAIRS` for a short complementary worker rotation; `FEED_FORWARD` for prepared evidence/patch packets; `PRIORITY_REWEIGHT` when publication leverage clearly exceeds the Originator's current sub-lane; `HOLD` only where the remaining blocker genuinely requires Originator/Nathan judgment.
+This roster incorporates the newer routing correction in `WORKSPACES/COMMON/CODE_GRURPLE_STATUS_2026-09-23T1254.md` plus subsequent Paper-A R1 citation-gate work. It deliberately removes stale pre-review Paper-B language rather than preserving it as live routing. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
