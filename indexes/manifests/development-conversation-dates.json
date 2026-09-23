@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T02:36:08.573417+00:00",
+  "generated_at_utc": "2026-09-23T05:28:26.816575+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 363,
     "skipped": 249,
-    "planned": 108,
+    "planned": 110,
     "collision": 1
   },
   "records": [
@@ -6174,6 +6174,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/ARIADNE — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
+      "start_local": "2026-09-22T22:31:01.791000-04:00",
+      "end_local": "2026-09-23T01:25:20.766036-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 537,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/File Set Overview — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.08.19•26.08.20•File Set Overview — raw.json",
       "start_local": "2026-08-19T05:06:07.842000-04:00",
@@ -6194,6 +6204,16 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/GitHub search results — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json",
+      "start_local": "2026-09-22T22:41:26.805000-04:00",
+      "end_local": "2026-09-23T00:20:58.350176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 266,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(norm)H TRAD__NotebookLM_export.txt",
