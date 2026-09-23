@@ -681,3 +681,22 @@ Published successfully to the existing production URL.
 - Review the FLC page batch and draft PR, then merge when the archive-side contract and sample pages are accepted. The FLC Site will automatically prefer the main-branch feed after merge.
 - Source-check Music release metadata and artwork before making named release cards or launching the music Site.
 - Review the large-text control on several devices when visual preview is available. This pass checked HTML assets and JavaScript syntax, but local headless Chromium was not installed.
+
+---
+
+# 2026-09-23 — Homepage reading order and compact front desk
+
+## Publication
+
+- Published Glass Sausage Factory Sites version 28 at https://glass-sausage-factory.nathanmcknight.chatgpt.site/ from source commit `11d25fb15783dbfc638ce101199dec75268dd552`. Audience remained public.
+
+## Front-page hierarchy
+
+- Reordered the homepage to open with a shorter masthead and four picture-led routes (see, read, hear, trace), then a compact featured conversation, two reading depths, Nathan's essay, the four generative intuitions, and the podcast. The active-work panel follows that introduction and essay; current work, news, and the full source map follow it.
+- Compressed the homepage display scale, section spacing, episode cards, and news cards for a denser headline-desk rhythm. The existing sitewide optional Large text control remains available.
+- Updated the active-work panel to the 22 September Common `ACTIVE_OVERRIDE` for Code Grurple's two-paper review/revision/posting sequence. The ᚼ solver unification line is shown as a return cursor. The public queue is checked on load, and a changed routing state tells readers to inspect the current roster rather than presenting the dated snapshot as current.
+- Added a dated Updates entry and corrected the older FLC entry to route to its separate site and page-feed draft.
+
+## Verification
+
+- Checked local HTML IDs, page section order, and file references, plus JavaScript syntax and `git diff --check`. Sites deployment returned `succeeded`. Browser visual inspection remains a later refinement when preview is available.
