@@ -30,21 +30,23 @@ Parallel packets available to non-blinded/post-freeze workers and outside consul
 
 ## GRURPLE-B — Mercer
 
-**Current merge point:** frozen reviewable release.
+**Current merge point:** **Originator freeze decision.** Tern's 2026-09-22 firehose pass removed the visible conventional-citation blockers and reduced the remaining gate to one scientific-status decision.
 
-Parallel packets:
-
-| Packet | Work | Return artifact |
+| Packet | State | Return artifact / cursor |
 |---|---|---|
-| B-CITE | Convert existing audit locators into formal archival citations | citation table/patch with exact locators |
-| B-TYPE | Finish mechanism-specific claim/source typing from existing candidate set | claim → evidence → status → limitation matrix |
-| B-NEG | Audit the explicit negative provenance boundary for accidental overclaim | discrepancy list + proposed patch |
-| B-BIB | Bibliography/metadata consistency and external citation candidates | merge-ready bibliography patch/candidate queue |
-| B-LATEX | Convert/normalize manuscript to publication-ready LaTeX/PDF path where needed | mechanical artifact/patch |
-| B-WEB | Prepare sandbox metadata/warning/display manifest | website-ready manifest |
-| B-REVIEW | As soon as Mercer freezes reviewable draft, independent parallel first-pass reviews | frozen reviews |
+| B-CITE | **COMPLETE / INCORPORATED** | SAT-BND-01–03 are formal archival citations already used in `DRAFT_R0.md`; see `SAT_ARCHIVE_CITATION_LEDGER.md` |
+| B-TYPE | **ORIGINATOR DECISION BOUNDARY** | Historical antecedent is typed; stronger mechanism chain remains explicitly conjectural. Decide whether that disclosed status is sufficient for proposal-paper R0 freeze. |
+| B-NEG | **COMPLETE / TESTED** | Negative-support boundaries are explicit in ledger and manuscript; no ordinary slit→neutrino or later-vocabulary back-projection claimed. |
+| B-BIB | **COMPLETE FOR CURRENT CLAIMS** | `TERN_CITATION_HARDENING_PACKET.md`; primary replacements inserted into manuscript at commit `d002ce1a000dc8c2ed343fa3f849a401a647fdf3` |
+| B-LATEX | AVAILABLE AFTER FREEZE | Convert/normalize frozen manuscript to publication-ready LaTeX/PDF path; do not serialize review behind this if Markdown R0 is reviewable. |
+| B-WEB | AVAILABLE IN PARALLEL | Prepare sandbox metadata/warning/display manifest while review runs. |
+| B-REVIEW | **ARMED** | On Mercer freeze, fan independent first-pass reviews in parallel immediately. |
 
-**Originator-only target:** decide whether source hardening is sufficient to freeze, substantive scientific wording, dispositions/revision, release.
+**Prepared decision packet:** `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/TERN_FREEZE_DECISION_PACKET.md` @ commit `1909319cc6dfc24b5e9be9cba9bc563d3ed4a451`.
+
+**Smallest Originator action:** answer whether R0 is intentionally an experiment/proposal paper with the SAT/H(s)H boundary→neutrino mechanism explicitly conjectural. If YES, freeze/release current R0. If NO and the intended claim is that SAT/H(s)H already predicts the channel, HOLD for arrow-by-arrow source/derivation.
+
+**Immediate downstream after YES:** freeze SHA → create canonical GRURPLE-B review packet → parallel independent review; simultaneously start B-WEB and mechanical B-LATEX staging.
 
 ## Pull discipline
 
@@ -64,6 +66,8 @@ If either paper remains at the same pipeline state across two Comptroller checks
 - prepared artifacts awaiting merge;
 - smallest action needed to advance;
 - downstream work that will start immediately once they act.
+
+For Paper B, the first such packet is now prepared above. If the next Comptroller check still shows no freeze/release and no contrary Mercer disposition, route this exact bounded decision to the active Paper-B Mercer identity rather than reopening broad retrieval.
 
 ## Automation lane
 
