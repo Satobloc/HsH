@@ -700,3 +700,29 @@ Published successfully to the existing production URL.
 ## Verification
 
 - Checked local HTML IDs, page section order, and file references, plus JavaScript syntax and `git diff --check`. Sites deployment returned `succeeded`. Browser visual inspection remains a later refinement when preview is available.
+
+
+---
+
+# 2026-09-23 — Editorial density and live repository desk
+
+## Publication
+
+- Published Glass Sausage Factory Sites version 32 at https://glass-sausage-factory.nathanmcknight.chatgpt.site/ from Sites source commit `fd79fe775611dba62314eafd3364d2df327b4e06`. Audience remained public.
+
+## Presentation
+
+- Reduced default type and spacing across the homepage, Reading Room, papers, glossary, claims, podcast, roadmap, origin essay, and Updates page. The existing large-text preference remains available.
+- Kept the four visitor entry routes before the live desk, as compact image-and-text modules. Square artwork retains its proportions without wide letterboxed frames; gallery images follow their native ratios in responsive columns, including the tall Gendarme figure.
+- Added a shared horizontal headline strip and compact research desk. The Updates page also shows the live desk above dated publication notes.
+
+## Feed wiring and boundaries
+
+- On launch, the browser reads `PUBLIC_SITE/NEWS_FEED.json`, `CURRENT_WORK.json`, `FEATURED_QUOTES.json`, and Common's `ACTIVE_EDGE_SIGNAL_QUEUE.json` from public HsH main. It also consumes the repository's structured `live_influx/packets` module. The dated work snapshot and routing update are labeled separately.
+- Curated science headlines and verified Nathan quotes retain source links. Worker packets marked ready/candidate appear only in the explicitly labeled Factory floor intake, with producer, status and epistemic label; they are not promoted to controlling theory or polished current-work state.
+- Source links and fallback states remain visible when a live request fails. The Reading Room continues its on-demand public repository browsing. The static explanatory pages and site publication notes still require a Sites edit/deployment to change; a repository update alone does not republish those pages.
+
+## Verification and next cursor
+
+- Verified public feeds and packet directory respond, checked JavaScript syntax, HTML IDs/local image paths, and site diff. After deployment, browser inspection confirmed loaded feed counts (two curated headlines, four worker submissions), dated routing/current-work labels, and no desktop horizontal overflow. Mobile visual inspection and a broader editorial review of the other pages remain open.
+- Next: add stable site-facing feed contracts for further source types where the archive workflow creates them; avoid treating unreviewed archive changes as automatic public theory statements.
