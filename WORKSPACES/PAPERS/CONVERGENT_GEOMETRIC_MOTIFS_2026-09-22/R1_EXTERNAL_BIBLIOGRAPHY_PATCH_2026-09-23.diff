@@ -1,0 +1,27 @@
+--- DRAFT_R1.tex
++++ DRAFT_R1.tex
+@@ References [1]-[8] @@
+-\item B. Greene, D. Kabat, J. Levin and M. Porrati, ``Non-orientable compactifications and discrete symmetry breaking,'' 2026.
+-\item B. Greene, D. Kabat, J. Levin and M. Porrati, ``Klein bottle cosmology,'' 2026.
+-\item J. Oppenheim and Z. Sajjad, ``Stochastic modes in postquantum classical gravity,'' 2026.
+-\item S. M. Carroll, M. Diachenko and M. Dulani, ``Cyclic quantum systems: a periodicity analysis,'' 2026.
+-\item L. Susskind, ``Time reversal as a spontaneously broken gauge symmetry in de Sitter space,'' 2026.
+-\item D. Fiorenza, H. Sati and U. Schreiber, ``Super Lie $n$-algebra extensions, higher WZW models, and super $p$-branes with tensor multiplet fields,'' 2015.
+-\item H. Sati and U. Schreiber, ``Proper orbifold cohomology,'' 2020.
+-\item H. Sati and U. Schreiber, ``Hypothesis H,'' higher-geometric/cohomotopical M-theory program; see associated primary literature on cohomotopical charge quantization, branes and dimensional reduction.
++\item B. Greene, D. Kabat, J. Levin and M. Porrati, ``Compactification Without Orientation, or a Topological Scenario for CP Violation,'' arXiv:2510.05270 (2025).
++\item B. Greene, D. Kabat, J. Levin and M. Porrati, ``Klein Bottle Cosmology,'' arXiv:2511.23447 (2025).
++\item J. Oppenheim and M. Sajjad, ``Stochastic modes in postquantum classical gravity,'' arXiv:2605.05375 (2026).
++\item S. M. Carroll, N. Diachenko and S. Dulani, ``Toward a Phenomenologically Acceptable Quantum Cyclic Universe,'' arXiv:2605.30405 (2026).
++\item L. Susskind, ``Is Time Reversal in de Sitter Space a Spontaneously Broken Gauge Symmetry?,'' arXiv:2603.12434 (2026).
++\item D. Fiorenza, H. Sati and U. Schreiber, ``Twisted Cohomotopy implies M-Theory anomaly cancellation on 8-manifolds,'' Commun. Math. Phys. 377 (2020) 1961--2025; arXiv:1904.10207; doi:10.1007/s00220-020-03707-2.
++\item D. Fiorenza, H. Sati and U. Schreiber, ``Twisted Cohomotopy implies M5 WZ term level quantization,'' Commun. Math. Phys. 384 (2021) 403--432; arXiv:1906.07417; doi:10.1007/s00220-021-03951-0.
++\item H. Sati and U. Schreiber, ``M/F-Theory as Mf-Theory,'' Rev. Math. Phys. 35 (2023) 2350028; arXiv:2103.01877; doi:10.1142/S0129055X23500289.
+
+# Scope
+# Exact bounded replacement of bibliography rows [1]-[8] from
+# R1_BIBLIOGRAPHY_NORMALIZATION_PASS_2026-09-23.md.
+# Does not alter [9]-[11], manuscript prose, claim strength, or PRIOR_ART state.
+# If stronger M5 anomaly language is retained/introduced, add the proposition-specific
+# Sati--Schreiber 2021 anomaly-cancellation paper at the sentence that needs it rather
+# than treating it as a generic Hypothesis-H citation.
