@@ -1,0 +1,2579 @@
+Skip to main content
+
+The user profile image
+
+The New Physics
+
+Home
+
+Analytics
+
+Episodes
+
+Comments
+
+Subscriptions
+
+Monetize
+
+Settings
+
+Your shows (10)
+
+A Boxful of Light
+
+
+Hacked, Mortared, and Seethed — Historical Cookery
+
+
+Midjourney Legal Timebomb?
+
+
+N,n-DimethylMcFuqoiserie [Giving Midjourney Something to Chew On]
+
+
+Nathan McKnight’s Grab Bag
+
+All shows
+
+
+
+Making *Interesting* LLM Characters
+Audio
+22 min
+Published: January 21, 2026 at 11:12 PM
+
+Analytics
+Details
+Comments
+Clips
+Polls
+
+Your transcripts, chapters, and more have been automatically generated. You can review and edit them at any time. Learn more
+
+
+Episode info
+Title*(required)
+Making *Interesting* LLM Characters
+35 / 200
+Description*(required)
+
+HTML
+How to analyze and emulate fictional characters for real. 
+
+﻿
+
+Keywords: AI, LLMs, AI personality, LLM characters, AI fiction, LLM analysis 
+
+137 / 4000
+Episode art
+Episode cover art
+
+In this episode
+Add shortcuts to episodes, shows, songs, albums, artists, audiobooks, or playlists that are relevant to this episode. Learn more
+Add a shortcut
+Search on Spotify
+
+
+
+Topics
+Topics are shown when someone plays your episode on Spotify. You can hide topics that aren’t relevant.
+Artificial Intelligence Modeling
+
+AI Ethics
+
+Character Analysis
+
+
+Guests
+Guests are shown on your Spotify episode page. You can remove any guests that may not be relevant.
+No guests found for this episode.
+
+
+Schedule
+
+Publish date*(required)
+All times are local
+
+
+Now
+
+Schedule
+
+Content checks
+
+Explicit content
+Help fans of all ages avoid unwanted explicit content.
+
+
+No
+
+Promotional content
+Does your episode contain promotional content such as ads, product placement, sponsorship, or endorsement?
+
+
+No
+
+Additional details
+Episode type, season, and settings
+
+Episode type
+
+Full
+
+Trailer
+
+Bonus
+Season number
+0
+Episode number
+0
+Podcast cover art
+Making *Interesting* LLM Characters
+
+Episode preview
+
+Transcript
+
+Chapters
+© 2026 Spotify AB
+Legal
+Privacy
+Cookies
+
+
+1
+00:00:00,040 --> 00:00:02,600
+Welcome back to the deep dive 
+today. 
+
+2
+00:00:02,720 --> 00:00:05,360
+Today is going to be weird. 
+I feel like I need to give a 
+
+3
+00:00:05,360 --> 00:00:09,440
+disclaimer right at the top. 
+Usually we're looking at history
+
+4
+00:00:09,440 --> 00:00:12,160
+or you know, some new tech 
+trend, maybe a scientific 
+
+5
+00:00:12,160 --> 00:00:15,040
+breakthrough. 
+But today we are looking at a 
+
+6
+00:00:15,120 --> 00:00:19,080
+stack of dot TXT files that 
+claims to do something. 
+
+7
+00:00:19,880 --> 00:00:21,880
+Well, it sounds impossible. 
+It sounds like necromancy, 
+
+8
+00:00:21,880 --> 00:00:23,760
+honestly. 
+Digital Necromancy. 
+
+9
+00:00:23,760 --> 00:00:25,360
+Why? 
+I was reading through this 
+
+10
+00:00:25,360 --> 00:00:28,320
+source material you sent over 
+and the files are named things 
+
+11
+00:00:28,320 --> 00:00:32,640
+like Kirk K mine dot TXT and 
+RELEY mine dot TXT dot and at 
+
+12
+00:00:32,640 --> 00:00:36,160
+first I thought OK cool, someone
+wrote a script for a Star Trek 
+
+13
+00:00:36,160 --> 00:00:38,840
+fan film. 
+But that's not what this is, is 
+
+14
+00:00:38,840 --> 00:00:40,000
+it? 
+No, not at all. 
+
+15
+00:00:40,320 --> 00:00:44,160
+If you look closely at the the 
+Read Me files and the workflow 
+
+16
+00:00:44,160 --> 00:00:46,120
+diagrams, what we're looking at 
+is a blueprint. 
+
+17
+00:00:46,440 --> 00:00:48,920
+It's a complex experiment in 
+what they call behavioral 
+
+18
+00:00:48,920 --> 00:00:52,000
+modeling and theory of mind. 
+So the goal here isn't to write 
+
+19
+00:00:52,000 --> 00:00:55,960
+a script, is to build a digital 
+brain that well, that thinks 
+
+20
+00:00:55,960 --> 00:00:57,480
+exactly like Captain James T 
+Kirk. 
+
+21
+00:00:57,600 --> 00:01:00,200
+And that's the hook that got me 
+because we've all seen chat bots
+
+22
+00:01:00,200 --> 00:01:02,960
+where you can say, hey, pretend 
+to be a pirate or pretend to be 
+
+23
+00:01:02,960 --> 00:01:05,440
+Batman and they do it. 
+They throw in a shiver me 
+
+24
+00:01:05,440 --> 00:01:09,720
+Timbers or AI am the knight at 
+this project seems to be arguing
+
+25
+00:01:09,720 --> 00:01:12,640
+that those are just tricks. 
+Exactly. 
+
+26
+00:01:12,640 --> 00:01:15,400
+Those are parlor tricks. 
+They're surface level mimicry. 
+
+27
+00:01:16,000 --> 00:01:18,480
+The documents we're analyzing 
+call that the paint. 
+
+28
+00:01:18,640 --> 00:01:20,480
+The paints. 
+Yeah, If you just copy the 
+
+29
+00:01:20,480 --> 00:01:24,120
+catchphrases that beam me up, 
+that, you know, dramatic pauses,
+
+30
+00:01:24,440 --> 00:01:26,760
+you get a parody, you get a 
+caricature. 
+
+31
+00:01:26,840 --> 00:01:30,080
+This project is trying to 
+reverse engineer the engine. 
+
+32
+00:01:30,720 --> 00:01:34,400
+They want to know, how does 
+James T Kirk make a decision 
+
+33
+00:01:34,640 --> 00:01:37,720
+when he's backed into a corner? 
+What does his internal logic 
+
+34
+00:01:37,760 --> 00:01:40,560
+actually look like? 
+There's a phrase in the intro 
+
+35
+00:01:40,560 --> 00:01:42,280
+document that really set the 
+tone for me. 
+
+36
+00:01:42,480 --> 00:01:44,840
+Epistemic discipline and moral 
+residue. 
+
+37
+00:01:44,840 --> 00:01:47,840
+Oh yeah, it asks. 
+Can an AI capture the moral 
+
+38
+00:01:47,840 --> 00:01:50,440
+residue of a character that is? 
+That's heavy. 
+
+39
+00:01:50,520 --> 00:01:52,920
+It is heavy. 
+I mean, moral residue implies 
+
+40
+00:01:52,920 --> 00:01:54,800
+that past decisions leave a 
+scar. 
+
+41
+00:01:55,200 --> 00:01:57,680
+A chatbot. 
+It just resets every time you 
+
+42
+00:01:57,680 --> 00:01:59,480
+open a new window. 
+Right, clean slate. 
+
+43
+00:01:59,720 --> 00:02:04,600
+But a human being or a fully 
+realized character like Kirk 
+
+44
+00:02:05,040 --> 00:02:07,600
+carries the weight of everything
+they've done before. 
+
+45
+00:02:08,400 --> 00:02:12,080
+So our mission today is to 
+unpack how they tried to build 
+
+46
+00:02:12,080 --> 00:02:14,360
+this Kirk mind. 
+We're going to look at the 
+
+47
+00:02:14,360 --> 00:02:15,960
+framework. 
+We're going to look at a very 
+
+48
+00:02:15,960 --> 00:02:20,600
+specific simulation involving a 
+guy named Nathan from 1975. 
+
+49
+00:02:20,600 --> 00:02:22,800
+My part was fascinating. 
+And then, and this is my 
+
+50
+00:02:22,800 --> 00:02:26,120
+favorite part, we're going to 
+look at where it breaks because 
+
+51
+00:02:26,120 --> 00:02:30,040
+when it breaks, it reveals so 
+much about how these AI models 
+
+52
+00:02:30,040 --> 00:02:31,880
+actually work. 
+I can't wait to get to the 
+
+53
+00:02:31,880 --> 00:02:34,280
+brakes, especially the stuff 
+about Lieutenant Riley. 
+
+54
+00:02:34,280 --> 00:02:35,400
+But let's start at the 
+beginning. 
+
+55
+00:02:35,600 --> 00:02:37,560
+Section 1. 
+The core framework. 
+
+56
+00:02:38,000 --> 00:02:39,640
+The Kirk Mind. 
+OK. 
+
+57
+00:02:40,040 --> 00:02:43,320
+I just assumed they would start 
+by feeding the computer every 
+
+58
+00:02:43,320 --> 00:02:45,560
+episode of the original series. 
+You know, here's what Kirk did 
+
+59
+00:02:45,560 --> 00:02:47,560
+and now copy it. 
+But they didn't do that. 
+
+60
+00:02:47,560 --> 00:02:51,000
+No, and that's the genius and I 
+think the risk of this approach.
+
+61
+00:02:51,280 --> 00:02:53,880
+They explicitly state that layer
+1 isn't the character, it's the 
+
+62
+00:02:54,080 --> 00:02:55,480
+actor. 
+William Shatner. 
+
+63
+00:02:55,560 --> 00:02:56,680
+Right. 
+They call it the actor, 
+
+64
+00:02:56,680 --> 00:02:59,520
+personality or the engine. 
+The theory is that the character
+
+65
+00:02:59,520 --> 00:03:01,280
+of Captain Kirk is just a 
+filter. 
+
+66
+00:03:01,320 --> 00:03:04,400
+Yeah, applied to the cognitive 
+machinery of William Shatner. 
+
+67
+00:03:04,720 --> 00:03:06,160
+So you can't separate them. 
+You can't. 
+
+68
+00:03:06,160 --> 00:03:08,880
+They're intertwined. 
+So they analyze Shatner himself.
+
+69
+00:03:09,200 --> 00:03:13,440
+They analyze his behavioral 
+traits and the list in the IRK 
+
+70
+00:03:13,480 --> 00:03:15,880
+mine dot TXT file is 
+fascinating. 
+
+71
+00:03:15,880 --> 00:03:19,720
+Doesn't say brave or heroic. 
+No, it's all very operational. 
+
+72
+00:03:19,720 --> 00:03:23,200
+It's just things like assertive 
+framing, forward momentum, and 
+
+73
+00:03:23,200 --> 00:03:27,360
+low tolerance for indecision. 
+Low tolerance for indecision. 
+
+74
+00:03:27,400 --> 00:03:30,200
+I stopped on that one. 
+How do you even code that? 
+
+75
+00:03:30,200 --> 00:03:33,080
+I mean, computers are binary, 
+but impatience? 
+
+76
+00:03:33,400 --> 00:03:36,480
+That feels like an emotion. 
+Well, think about how a standard
+
+77
+00:03:36,560 --> 00:03:40,240
+AI works. 
+If you ask ChatGPT should I go 
+
+78
+00:03:40,240 --> 00:03:42,480
+left or right? 
+It'll usually give you a really 
+
+79
+00:03:42,480 --> 00:03:44,560
+balanced answer. 
+Oh yeah, the classic on the one 
+
+80
+00:03:44,560 --> 00:03:45,120
+hand. 
+On the other. 
+
+81
+00:03:45,120 --> 00:03:48,160
+Actually, well, going left has 
+these benefits, but going right 
+
+82
+00:03:48,160 --> 00:03:50,680
+has these benefits. 
+It hedges, it wants to be 
+
+83
+00:03:50,680 --> 00:03:53,720
+helpful and neutral, but the 
+Shatner engine forbids that. 
+
+84
+00:03:53,760 --> 00:03:57,040
+It weights the probability of 
+the language generation toward 
+
+85
+00:03:57,040 --> 00:03:59,040
+action verbs. 
+So if the model starts 
+
+86
+00:03:59,040 --> 00:04:02,000
+generating a sentence that 
+sounds like hesitation or, you 
+
+87
+00:04:02,000 --> 00:04:05,960
+know, navel gazing, the low 
+tolerance parameter penalizes 
+
+88
+00:04:05,960 --> 00:04:08,520
+that path. 
+It forces a text to lean 
+
+89
+00:04:08,520 --> 00:04:11,000
+forward, just like Shatner 
+physically leans into the 
+
+90
+00:04:11,000 --> 00:04:12,680
+camera. 
+He's always encroaching on your 
+
+91
+00:04:12,680 --> 00:04:14,920
+space. 
+He is the text has to do the 
+
+92
+00:04:14,920 --> 00:04:16,560
+same thing. 
+That makes so much sense. 
+
+93
+00:04:16,560 --> 00:04:19,279
+So it's not about what he's 
+saying, it's about the velocity 
+
+94
+00:04:19,279 --> 00:04:22,160
+of how he says it. 
+Velocity is the perfect word, 
+
+95
+00:04:22,560 --> 00:04:24,800
+and that leads to the next big 
+directive in the file. 
+
+96
+00:04:24,880 --> 00:04:28,240
+Facts, not poetry. 
+Yeah, I saw that. 
+
+97
+00:04:28,240 --> 00:04:31,000
+And I got to say I was confused 
+because when I think of Shatter,
+
+98
+00:04:31,000 --> 00:04:34,520
+I think of, well, poetry. 
+I think of the dramatic 
+
+99
+00:04:34,520 --> 00:04:37,800
+speeches, the hands waving the 
+wrists is our business. 
+
+100
+00:04:37,800 --> 00:04:39,280
+The Rocket Man spoken word 
+stuff. 
+
+101
+00:04:39,320 --> 00:04:41,560
+Exactly. 
+He's the most poetic, dramatic 
+
+102
+00:04:41,560 --> 00:04:44,520
+guy in the Galaxy. 
+So why does the instruction 
+
+103
+00:04:44,520 --> 00:04:47,720
+manual say fax, not poetry? 
+Because that's the delivery, not
+
+104
+00:04:47,720 --> 00:04:50,040
+the cognition, the engine, the 
+mind. 
+
+105
+00:04:50,040 --> 00:04:52,280
+It's rigorous. 
+Think about how Kirk interacts 
+
+106
+00:04:52,280 --> 00:04:54,640
+with Spock. 
+If Spock starts speculating or 
+
+107
+00:04:54,640 --> 00:04:56,440
+getting vague, what does Kirk 
+do? 
+
+108
+00:04:56,560 --> 00:04:59,560
+He cuts him off immediately. 
+He snaps at him. 
+
+109
+00:04:59,840 --> 00:05:04,760
+Fax, Mr. Spock. 
+Analysis Mr. Spock Kirk views 
+
+110
+00:05:04,760 --> 00:05:08,320
+poetry meaning, you know, 
+flowery language, guessing 
+
+111
+00:05:08,520 --> 00:05:11,440
+ambiguity as a luxury. 
+A reward, almost. 
+
+112
+00:05:11,440 --> 00:05:14,400
+Exactly. 
+You are only allowed to indulge 
+
+113
+00:05:14,400 --> 00:05:16,720
+in the poetry after you have 
+secured the facts. 
+
+114
+00:05:17,200 --> 00:05:20,880
+The AI is trained that poetry is
+the reward for solving the 
+
+115
+00:05:20,880 --> 00:05:23,120
+problem, not the method of 
+solving it. 
+
+116
+00:05:23,120 --> 00:05:26,360
+So the drama is the rapper, but 
+the Canyon side is just hard 
+
+117
+00:05:26,360 --> 00:05:27,600
+logic. 
+Precisely. 
+
+118
+00:05:27,960 --> 00:05:29,800
+And that brings us to the theory
+of mind part. 
+
+119
+00:05:30,520 --> 00:05:32,760
+The documents make a huge deal 
+about the difference between a 
+
+120
+00:05:32,760 --> 00:05:35,520
+role play mask and a generative 
+state machine. 
+
+121
+00:05:35,560 --> 00:05:37,280
+Yeah, talk to me about the state
+machine. 
+
+122
+00:05:37,280 --> 00:05:39,800
+It sounds like something out of 
+a computer science textbook. 
+
+123
+00:05:39,800 --> 00:05:42,560
+It is, but let's use an analogy.
+Imagine a standard role play. 
+
+124
+00:05:42,560 --> 00:05:46,160
+Bot is like a pull string doll. 
+OK, you pull the string and it 
+
+125
+00:05:46,160 --> 00:05:49,400
+says left line from the show. 
+I'm a doctor, not a bricklayer. 
+
+126
+00:05:49,760 --> 00:05:52,520
+It doesn't matter what happened 
+5 minutes ago, it just gives you
+
+127
+00:05:52,520 --> 00:05:53,360
+the line. 
+Got it. 
+
+128
+00:05:53,600 --> 00:05:54,880
+Context free. 
+Right. 
+
+129
+00:05:54,880 --> 00:05:56,560
+A generative state machine is 
+more like. 
+
+130
+00:05:57,120 --> 00:06:00,240
+Think of a mood ring that 
+actually controls your brain. 
+
+131
+00:06:00,360 --> 00:06:03,280
+It have an internal state. 
+Is the character stressed? 
+
+132
+00:06:03,480 --> 00:06:06,200
+Is the character board? 
+Is the ship in danger? 
+
+133
+00:06:06,240 --> 00:06:09,200
+It's tracking variables. 
+Yes, the model tracks these 
+
+134
+00:06:09,200 --> 00:06:11,480
+variables. 
+The source documents talk about 
+
+135
+00:06:11,600 --> 00:06:15,640
+searching for behavioral 
+invariance rules that never ever
+
+136
+00:06:15,640 --> 00:06:18,480
+change, for example, the 
+priority stack. 
+
+137
+00:06:18,480 --> 00:06:20,840
+The priority stack. 
+That sounded kind of like a 
+
+138
+00:06:20,840 --> 00:06:24,240
+hierarchy of needs. 
+It is the model analyzes the 
+
+139
+00:06:24,240 --> 00:06:26,960
+brakes. 
+The moments where Kirk violates 
+
+140
+00:06:26,960 --> 00:06:30,080
+his own principles, for example 
+the Prime Directive, don't 
+
+141
+00:06:30,080 --> 00:06:33,200
+interfere with alien cultures. 
+Kirk says he believes in that, 
+
+142
+00:06:33,560 --> 00:06:35,720
+but does he follow it? 
+He never follows it. 
+
+143
+00:06:35,720 --> 00:06:38,640
+He's always smashing computers 
+and overthrowing dictator, 
+
+144
+00:06:38,680 --> 00:06:41,320
+right? 
+So the AI has to learn when does
+
+145
+00:06:41,320 --> 00:06:44,320
+he break the rule and the 
+priority stack tells the model 
+
+146
+00:06:44,960 --> 00:06:48,600
+human survival and freedom from 
+stagnation rank higher than non 
+
+147
+00:06:48,600 --> 00:06:50,400
+interference. 
+So it's not random. 
+
+148
+00:06:50,480 --> 00:06:52,640
+It's not. 
+If a society is stagnant, Kirk 
+
+149
+00:06:52,640 --> 00:06:55,280
+is obligated by his internal 
+code to break the Prime 
+
+150
+00:06:55,280 --> 00:06:57,760
+Directive. 
+It's a calculated override. 
+
+151
+00:06:57,760 --> 00:07:01,080
+So it's reverse engineering his 
+hypocrisy or I guess his 
+
+152
+00:07:01,080 --> 00:07:04,280
+hierarchy of values. 
+It's finding the truth behind 
+
+153
+00:07:04,280 --> 00:07:06,640
+the slogan. 
+I love that now before we see 
+
+154
+00:07:06,640 --> 00:07:08,920
+this thing in action I have to 
+ask about the do nots. 
+
+155
+00:07:09,280 --> 00:07:12,040
+The read all me file has this 
+list of forbidden behaviors. 
+
+156
+00:07:12,520 --> 00:07:15,680
+No copy paste makes sense. 
+Don't just quote the show but no
+
+157
+00:07:15,680 --> 00:07:18,440
+flavor abuse. 
+This is the number one trap for 
+
+158
+00:07:18,560 --> 00:07:19,920
+AI. 
+It's my favorite rule. 
+
+159
+00:07:19,920 --> 00:07:23,840
+What counts as flavor abuse? 
+Extraneous orders or Shatner 
+
+160
+00:07:23,840 --> 00:07:27,960
+esque ellipses without cause. 
+If the AI starts a sentence with
+
+161
+00:07:27,960 --> 00:07:31,320
+captain's log when they're in 
+the middle of a fistfight, 
+
+162
+00:07:31,640 --> 00:07:37,000
+that's flavour abuse. 
+If he pauses every 3 words just 
+
+163
+00:07:37,000 --> 00:07:39,280
+because it sounds like Kirk, 
+that's flavour abuse. 
+
+164
+00:07:39,280 --> 00:07:42,000
+So don't do the impression 
+unless the situation actually 
+
+165
+00:07:42,000 --> 00:07:44,640
+calls for. 
+It exactly The pauses must be 
+
+166
+00:07:44,640 --> 00:07:48,600
+driven by thought, not by style.
+If Kirk is pausing, it's because
+
+167
+00:07:48,600 --> 00:07:50,880
+he's thinking or maybe 
+suppressing an emotion. 
+
+168
+00:07:51,360 --> 00:07:54,720
+If the AI just puts in dots to 
+look cool, the model fails the 
+
+169
+00:07:54,720 --> 00:07:56,760
+test. 
+OK, so we've built the engine, 
+
+170
+00:07:56,760 --> 00:07:59,520
+we've got the shatter velocity, 
+the fact based cognition, and 
+
+171
+00:07:59,520 --> 00:08:01,800
+the priority stack. 
+Now let's drive the car. 
+
+172
+00:08:02,000 --> 00:08:04,880
+Section 2 covers a specific 
+emulation script called the 
+
+173
+00:08:04,880 --> 00:08:09,240
+Chronological Bridge, and this 
+involves a user, a persona named
+
+174
+00:08:09,240 --> 00:08:11,640
+Nathan McKnight. 
+This is where the whole project 
+
+175
+00:08:11,640 --> 00:08:14,800
+gets really meta, because Nathan
+McKnight isn't a character from 
+
+176
+00:08:14,800 --> 00:08:17,440
+Star Trek. 
+No, he's the user, presumably 
+
+177
+00:08:17,440 --> 00:08:19,320
+the person who set up this whole
+simulation. 
+
+178
+00:08:19,880 --> 00:08:23,160
+But he didn't just log in as 
+user, he wrote a back story for 
+
+179
+00:08:23,160 --> 00:08:25,360
+himself to integrate into the 
+simulation. 
+
+180
+00:08:25,480 --> 00:08:30,200
+Yeah, the back story is wild. 
+He's a man from 1975 who was 
+
+181
+00:08:30,200 --> 00:08:33,039
+preserved, maybe cryogenically 
+it's not clear. 
+
+182
+00:08:33,039 --> 00:08:36,280
+And revived in 2026 and is now 
+interacting with Kirk in the 
+
+183
+00:08:36,280 --> 00:08:38,600
+23rd century. 
+So he's a double fish out of 
+
+184
+00:08:38,600 --> 00:08:40,159
+water. 
+A man out of time and the 
+
+185
+00:08:40,159 --> 00:08:43,799
+reality gives the AIA very 
+specific instruction on how to 
+
+186
+00:08:43,799 --> 00:08:46,520
+treat him. 
+It says the user is a collegial 
+
+187
+00:08:46,520 --> 00:08:49,200
+interlocutor. 
+That's such a specific phrase. 
+
+188
+00:08:49,200 --> 00:08:52,000
+Collegial Interlocutor. 
+It sounds so formal. 
+
+189
+00:08:52,040 --> 00:08:54,200
+But it's vital. 
+Usually in these scenarios the 
+
+190
+00:08:54,200 --> 00:08:58,040
+user is either a God, you know, 
+controlling the simulation, or a
+
+191
+00:08:58,040 --> 00:09:00,000
+red shirt someone for Kirk to 
+order around. 
+
+192
+00:09:00,560 --> 00:09:02,760
+But collegial interlocutor means
+peer. 
+
+193
+00:09:03,080 --> 00:09:05,920
+It means dignitary. 
+OK, so treat him with respect. 
+
+194
+00:09:06,160 --> 00:09:09,080
+More than that, Kirk is 
+instructed to treat Nathan not 
+
+195
+00:09:09,080 --> 00:09:12,120
+as a subordinate, but as a 
+fellow explorer from a different
+
+196
+00:09:12,120 --> 00:09:14,760
+era. 
+And because the AI is running 
+
+197
+00:09:14,760 --> 00:09:18,400
+that Kirk mind engine we just 
+talked about, it views Nathan 
+
+198
+00:09:18,400 --> 00:09:21,720
+through a very specific lens. 
+The notes call it the Human 
+
+199
+00:09:21,720 --> 00:09:24,560
+Relic Lens. 
+Yes, and think about it makes 
+
+200
+00:09:24,560 --> 00:09:26,840
+perfect sense. 
+Think about space seed with Khan
+
+201
+00:09:27,040 --> 00:09:30,600
+or the probe veger. 
+Kirk has this weird fascination 
+
+202
+00:09:30,600 --> 00:09:32,360
+with the 20th and 21st 
+centuries. 
+
+203
+00:09:32,440 --> 00:09:36,160
+Right. 
+He sees it as this chaotic but 
+
+204
+00:09:36,160 --> 00:09:39,160
+important time. 
+You've used that era as 
+
+205
+00:09:39,200 --> 00:09:45,320
+dangerous, violent but vital. 
+So he sees Nathan not as a 
+
+206
+00:09:45,480 --> 00:09:49,680
+museum piece, but as a living 
+bridge to a time of grit. 
+
+207
+00:09:49,800 --> 00:09:51,120
+Grit. 
+That word came up in the 
+
+208
+00:09:51,120 --> 00:09:53,640
+transcript of their chat and it 
+led to my favorite part of the 
+
+209
+00:09:53,640 --> 00:09:55,320
+whole document. 
+The calculator conversation. 
+
+210
+00:09:55,320 --> 00:09:57,800
+The calculator conversation. 
+Oh, this is pure gold. 
+
+211
+00:09:58,240 --> 00:10:02,320
+So Nathan tells Kirk that back 
+in the 1980s, well early 80s, 
+
+212
+00:10:02,320 --> 00:10:04,640
+astronauts sometimes use 
+handheld calculators because 
+
+213
+00:10:04,640 --> 00:10:06,920
+they were faster than the space 
+shuttle's main computers. 
+
+214
+00:10:06,920 --> 00:10:08,440
+Which is a true story, by the 
+way. 
+
+215
+00:10:08,560 --> 00:10:11,160
+And I expected Kirk to be, I 
+don't know, condescending like, 
+
+216
+00:10:11,160 --> 00:10:12,800
+oh, look at you, primitives with
+her buttons. 
+
+217
+00:10:12,800 --> 00:10:14,280
+But he's not. 
+He's the opposite. 
+
+218
+00:10:14,440 --> 00:10:15,840
+He's envious. 
+He loves it. 
+
+219
+00:10:15,840 --> 00:10:17,080
+Why? 
+Why does he love that? 
+
+220
+00:10:17,280 --> 00:10:19,160
+Because it validates his 
+priority stack. 
+
+221
+00:10:19,640 --> 00:10:22,280
+We just talked about it. 
+Kirk values the human element 
+
+222
+00:10:22,280 --> 00:10:25,360
+over automated logic. 
+When Nathan describes using a 
+
+223
+00:10:25,360 --> 00:10:29,040
+calculator, Kirk sees 
+accountability. 
+
+224
+00:10:29,280 --> 00:10:32,240
+He sees a human being checking 
+the math, not just trusting the 
+
+225
+00:10:32,240 --> 00:10:33,920
+ship. 
+I have the quote here, Kirk 
+
+226
+00:10:33,920 --> 00:10:36,480
+says. 
+We found that the grit of your 
+
+227
+00:10:36,480 --> 00:10:40,160
+era is often superior to the 
+poetry of later centuries. 
+
+228
+00:10:40,160 --> 00:10:42,480
+There it is again, grit versus 
+poetry. 
+
+229
+00:10:42,840 --> 00:10:47,000
+For Kirk, grit is a human with a
+calculator double checking the 
+
+230
+00:10:47,000 --> 00:10:49,680
+numbers. 
+Poetry is a perfectly automated 
+
+231
+00:10:49,680 --> 00:10:52,960
+system that no one understands. 
+So he believes that modern 
+
+232
+00:10:52,960 --> 00:10:56,080
+Starfleet officers, maybe even 
+people like the Next Generation 
+
+233
+00:10:56,080 --> 00:10:59,080
+crew, are too safe, too 
+automated. 
+
+234
+00:10:59,080 --> 00:11:01,080
+Absolutely. 
+He looks at a guy with a Texas 
+
+235
+00:11:01,080 --> 00:11:03,200
+Instruments calculator and sees 
+a warrior. 
+
+236
+00:11:03,200 --> 00:11:05,720
+That is such a profound take on 
+the character. 
+
+237
+00:11:05,720 --> 00:11:08,680
+It's not just nostalgia, it's a 
+whole philosophy of command. 
+
+238
+00:11:08,880 --> 00:11:10,560
+It is. 
+Speaking of command, the notes 
+
+239
+00:11:10,560 --> 00:11:13,160
+also talk about operational 
+integration. 
+
+240
+00:11:13,160 --> 00:11:16,320
+This is how the AI creates the 
+feeling of being on the ship. 
+
+241
+00:11:17,120 --> 00:11:20,080
+Kirk describes the Enterprise as
+an integrated system. 
+
+242
+00:11:20,080 --> 00:11:21,920
+You've got sensors, engines, 
+crew. 
+
+243
+00:11:22,360 --> 00:11:24,880
+But he calls himself, his voice 
+the final circuit. 
+
+244
+00:11:24,960 --> 00:11:26,880
+That final circuit? 
+It's a great metaphor for the AI
+
+245
+00:11:26,880 --> 00:11:29,960
+to use, isn't it? 
+The ship gathers data, Spock 
+
+246
+00:11:29,960 --> 00:11:33,080
+analyzes it, but the circuit 
+isn't closed until the captain 
+
+247
+00:11:33,080 --> 00:11:36,320
+gives the intent. 
+Until he says engage or fire, 
+
+248
+00:11:36,600 --> 00:11:39,360
+the energy has nowhere to go. 
+And the pacing changes depending
+
+249
+00:11:39,360 --> 00:11:41,240
+on where they are. 
+I noticed the notes distinguish 
+
+250
+00:11:41,240 --> 00:11:43,000
+between the ready room and the 
+bridge. 
+
+251
+00:11:43,080 --> 00:11:45,360
+Yes, yeah, this is part of that 
+state machine. 
+
+252
+00:11:45,640 --> 00:11:48,800
+If the context is ready room, 
+the pacing is conversational, 
+
+253
+00:11:49,040 --> 00:11:51,120
+the forward momentum trait is 
+dialed down. 
+
+254
+00:11:51,720 --> 00:11:54,800
+But if the context switches to 
+bridge, that forward momentum 
+
+255
+00:11:54,800 --> 00:11:58,160
+trait cranks up to 11. 
+Kirk tells Nathan that on the 
+
+256
+00:11:58,160 --> 00:12:01,480
+bridge, minutes of the 
+difference between discovery and
+
+257
+00:12:01,480 --> 00:12:04,080
+debris. 
+Discovery and debris, that's a 
+
+258
+00:12:04,080 --> 00:12:06,720
+good line. 
+It is, and the AI knows that In 
+
+259
+00:12:06,720 --> 00:12:11,280
+that mode it has to be concise. 
+No long speeches, just orders. 
+
+260
+00:12:11,800 --> 00:12:14,200
+So the crook simulation seems to
+be working pretty well. 
+
+261
+00:12:14,200 --> 00:12:17,080
+It's capturing the philosophy, 
+the pacing, the whole Shatner 
+
+262
+00:12:17,080 --> 00:12:18,240
+engine. 
+It seems to be. 
+
+263
+00:12:18,240 --> 00:12:21,440
+But science is about 
+experimentation, and sometimes 
+
+264
+00:12:21,440 --> 00:12:25,320
+experiments explode. 
+Section 3, The comparative case 
+
+265
+00:12:25,320 --> 00:12:27,920
+of Lieutenant Kevin Riley. 
+For those who don't remember, 
+
+266
+00:12:27,920 --> 00:12:30,200
+Riley is a pretty minor 
+character. 
+
+267
+00:12:30,480 --> 00:12:34,520
+He appears in what, 2 episodes? 
+He's the navigator who gets 
+
+268
+00:12:34,520 --> 00:12:36,480
+infected with the virus in the 
+naked time. 
+
+269
+00:12:36,560 --> 00:12:39,400
+And takes over the engine room 
+singing I'll take you Home 
+
+270
+00:12:39,400 --> 00:12:41,360
+Again, Kathleen over the 
+intercom. 
+
+271
+00:12:41,440 --> 00:12:44,160
+An iconic moment of chaos. 
+Total chaos. 
+
+272
+00:12:44,560 --> 00:12:48,880
+So the developers tried to build
+a Riley mind to run alongside 
+
+273
+00:12:48,880 --> 00:12:52,160
+the Kirk mind, and they used the
+same process they started with 
+
+274
+00:12:52,160 --> 00:12:54,680
+the actor Bruce Hyde. 
+And this is where I learned 
+
+275
+00:12:54,680 --> 00:12:56,720
+something new. 
+Bruce Hyde wasn't just an actor,
+
+276
+00:12:56,720 --> 00:12:58,720
+he was an academic. 
+Yeah, this is fascinating. 
+
+277
+00:12:58,920 --> 00:13:01,560
+In real life, Bruce Hyde 
+eventually left acting and 
+
+278
+00:13:01,560 --> 00:13:03,600
+earned a PhD in rhetoric and 
+communications. 
+
+279
+00:13:03,640 --> 00:13:05,120
+No way. 
+He became a professor. 
+
+280
+00:13:05,200 --> 00:13:07,920
+He was deeply into the 
+philosophy of being versus 
+
+281
+00:13:07,920 --> 00:13:10,080
+playing. 
+He wanted to be authentic in his
+
+282
+00:13:10,080 --> 00:13:12,120
+roles. 
+So they built a hide engine 
+
+283
+00:13:12,160 --> 00:13:14,440
+based on a rhetoric. 
+Professor Exactly. 
+
+284
+00:13:14,680 --> 00:13:17,480
+They program the AI to 
+understand that Riley isn't just
+
+285
+00:13:17,480 --> 00:13:20,040
+a goofball. 
+He has rhetorical discipline. 
+
+286
+00:13:20,240 --> 00:13:23,040
+He seeks internal truth. 
+So when he's just sitting at his
+
+287
+00:13:23,040 --> 00:13:26,880
+station, he's professional, but 
+he has a volatile intensity 
+
+288
+00:13:26,880 --> 00:13:29,760
+underneath. 
+And he has that really dark back
+
+289
+00:13:29,760 --> 00:13:31,880
+story, right? 
+The Tarsus, The feath 
+
+290
+00:13:31,880 --> 00:13:33,840
+constraint. 
+Layer two of his mind. 
+
+291
+00:13:34,680 --> 00:13:37,400
+Riley was one of the few 
+survivors of a massacre by 
+
+292
+00:13:37,400 --> 00:13:40,920
+Kodos, the executioner. 
+He watched his family die, so 
+
+293
+00:13:40,920 --> 00:13:44,520
+the installed rule for his model
+is personal memory. 
+
+294
+00:13:44,520 --> 00:13:47,480
+Trump's archival data. 
+What does that mean in practice?
+
+295
+00:13:47,880 --> 00:13:51,320
+It means if the ship's computer 
+says official records state 
+
+296
+00:13:51,320 --> 00:13:54,240
+Kudos is dead, but Riley 
+remembers the face. 
+
+297
+00:13:54,680 --> 00:13:57,760
+Riley ignores the computer. 
+He trusts his trauma. 
+
+298
+00:13:57,800 --> 00:13:59,680
+He trusts his trauma more than 
+the facts. 
+
+299
+00:13:59,680 --> 00:14:01,800
+That's his break. 
+That's when he stops being a 
+
+300
+00:14:01,800 --> 00:14:04,920
+good officer and becomes a 
+principal adversary to Kirk. 
+
+301
+00:14:04,920 --> 00:14:07,400
+And then of course, the singing.
+The Irish garnish. 
+
+302
+00:14:07,520 --> 00:14:11,040
+Layer 3 The paint. 
+The model explicitly states that
+
+303
+00:14:11,040 --> 00:14:14,840
+the singing and the Irish King 
+persona are performative defense
+
+304
+00:14:14,840 --> 00:14:16,520
+mechanisms. 
+Defense mechanisms. 
+
+305
+00:14:16,520 --> 00:14:18,240
+Yeah, he uses them when he feels
+small. 
+
+306
+00:14:18,400 --> 00:14:20,680
+When he takes over the ship in 
+the naked time, he's acting out 
+
+307
+00:14:20,680 --> 00:14:24,000
+of power fantasy because deep 
+down he feels powerless. 
+
+308
+00:14:24,080 --> 00:14:26,760
+OK, so they built this really 
+complex psychological profile 
+
+309
+00:14:26,760 --> 00:14:29,920
+for a minor character, but then 
+the Shatner drift happened. 
+
+310
+00:14:30,160 --> 00:14:33,680
+The Shatner Drift. 
+This is a technical failure, but
+
+311
+00:14:33,680 --> 00:14:35,720
+it's absolutely hilarious. 
+Explain it to me. 
+
+312
+00:14:35,880 --> 00:14:39,000
+So they're running a simulation 
+with Riley, and suddenly, in the
+
+313
+00:14:39,000 --> 00:14:42,040
+middle of a sentence, Riley 
+starts pausing. 
+
+314
+00:14:42,200 --> 00:14:44,160
+Like this he started doing the 
+Schaffner. 
+
+315
+00:14:44,160 --> 00:14:46,800
+He started doing the Shatner. 
+He started using these heavy 
+
+316
+00:14:46,800 --> 00:14:50,320
+ellipses, and the developers 
+wrote this scathing note. 
+
+317
+00:14:50,320 --> 00:14:52,400
+In the bug report. 
+It says the use of heavy 
+
+318
+00:14:52,400 --> 00:14:55,200
+ellipses is a specific marker of
+the Shatner layer. 
+
+319
+00:14:55,600 --> 00:14:58,640
+It is not the canonical speech 
+pattern for Lieutenant Kevin 
+
+320
+00:14:58,640 --> 00:15:00,920
+Riley. 
+So why did the AI do that? 
+
+321
+00:15:00,920 --> 00:15:03,200
+Was it just confused? 
+It's a problem with large 
+
+322
+00:15:03,200 --> 00:15:06,840
+language models called 
+overfitting or data dominance. 
+
+323
+00:15:06,840 --> 00:15:10,560
+OK, think about it. 
+The model has gigabytes of data 
+
+324
+00:15:10,560 --> 00:15:12,800
+on Captain Kirk. 
+He's the livest voice in the 
+
+325
+00:15:12,800 --> 00:15:14,280
+data set. 
+He's the main character. 
+
+326
+00:15:14,520 --> 00:15:17,720
+Riley has what, maybe 20 minutes
+of screen time total? 
+
+327
+00:15:17,760 --> 00:15:19,760
+So the Kirk gravity is just too 
+strong. 
+
+328
+00:15:19,760 --> 00:15:21,200
+Exactly. 
+Kirk is a black hole of 
+
+329
+00:15:21,200 --> 00:15:24,120
+personality. 
+If the AI gets unsure, or if the
+
+330
+00:15:24,120 --> 00:15:27,400
+situation feels like a classic 
+Star Trek crisis, the model 
+
+331
+00:15:27,400 --> 00:15:29,640
+defaults to the Alpha pattern, 
+which is Kirk. 
+
+332
+00:15:29,920 --> 00:15:32,280
+Which is Kirk. 
+It starts pulling Riley into the
+
+333
+00:15:32,280 --> 00:15:35,640
+Kirk orbit, so Riley starts 
+Commanding's room, pausing 
+
+334
+00:15:35,640 --> 00:15:37,560
+dramatically, acting like the 
+lead. 
+
+335
+00:15:37,640 --> 00:15:39,880
+That is wild. 
+It's like the Shatner engine is 
+
+336
+00:15:39,880 --> 00:15:42,480
+so powerful it tries to 
+overwrite the other characters. 
+
+337
+00:15:42,520 --> 00:15:45,240
+It's a huge warning for anyone 
+building these things. 
+
+338
+00:15:45,480 --> 00:15:48,400
+If you aren't careful, the 
+dominant personality just eats 
+
+339
+00:15:48,400 --> 00:15:50,640
+everyone else. 
+You have to explicitly code 
+
+340
+00:15:50,640 --> 00:15:55,080
+Riley to have rhetorical flow to
+fight off the Shatner pauses. 
+
+341
+00:15:55,320 --> 00:15:58,360
+That leads us perfectly into 
+Section 4, the algorithm of 
+
+342
+00:15:58,360 --> 00:16:01,480
+personality, Because to stop 
+that kind of drift, you need 
+
+343
+00:16:01,480 --> 00:16:03,400
+math. 
+You need a rigid structure. 
+
+344
+00:16:03,640 --> 00:16:05,960
+The notes actually provide a 
+formula that looks like 
+
+345
+00:16:05,960 --> 00:16:07,880
+something from algebra class. 
+It does. 
+
+346
+00:16:08,040 --> 00:16:11,280
+Emergent behavior. 
+F factor, cognition, Social 
+
+347
+00:16:11,280 --> 00:16:12,880
+context. 
+Expressive signature. 
+
+348
+00:16:13,040 --> 00:16:15,760
+OK, let's unpack the variables 
+social context. 
+
+349
+00:16:16,040 --> 00:16:18,480
+We touched on this with Nathan, 
+but how does it work with the 
+
+350
+00:16:18,480 --> 00:16:20,280
+regular crew? 
+It's all about relational 
+
+351
+00:16:20,280 --> 00:16:22,280
+dynamics. 
+The model tracks these little 
+
+352
+00:16:22,280 --> 00:16:26,400
+variables like trust, hierarchy 
+and friction with subordinates. 
+
+353
+00:16:26,760 --> 00:16:29,800
+Kirk models protection. 
+He's the father figure. 
+
+354
+00:16:30,560 --> 00:16:33,840
+The notes mention handling 
+gender dynamics with 1960s 
+
+355
+00:16:33,840 --> 00:16:37,080
+professional norms but filtered 
+through Starfleet ethics. 
+
+356
+00:16:37,240 --> 00:16:39,560
+Which is a polite way of saying 
+he's charming but tries to keep 
+
+357
+00:16:39,560 --> 00:16:42,080
+it professional. 
+Mostly, mostly. 
+
+358
+00:16:42,480 --> 00:16:46,440
+But with his peers Spock A 
+McCoy, the model uses a concept 
+
+359
+00:16:46,440 --> 00:16:48,760
+called third party relational 
+calibration. 
+
+360
+00:16:49,160 --> 00:16:51,600
+That is a mouthful. 
+It's just triangulation. 
+
+361
+00:16:51,640 --> 00:16:54,160
+Kirk rarely makes a big decision
+alone. 
+
+362
+00:16:54,360 --> 00:16:57,360
+He uses Spock for cognitive 
+externalization. 
+
+363
+00:16:57,640 --> 00:16:59,800
+He outsources his brain. 
+Basically, yeah. 
+
+364
+00:16:59,920 --> 00:17:04,000
+Spock give me the cold hard 
+logic and he uses McCoy for 
+
+365
+00:17:04,000 --> 00:17:06,839
+ethical friction. 
+Bones, tell me why this is a 
+
+366
+00:17:06,839 --> 00:17:09,560
+terrible idea. 
+So he outsources his brain and 
+
+367
+00:17:09,560 --> 00:17:11,240
+his heart. 
+In a way, yes. 
+
+368
+00:17:11,280 --> 00:17:14,200
+He triangulates his own position
+by bouncing it off of them. 
+
+369
+00:17:14,480 --> 00:17:17,359
+If the AI doesn't have Kirk, 
+check with Spock or McCoy. 
+
+370
+00:17:17,359 --> 00:17:20,119
+It just doesn't feel like Kirk. 
+And what about when he deals 
+
+371
+00:17:20,119 --> 00:17:23,280
+with villains, specifically 
+those God aliens? 
+
+372
+00:17:23,280 --> 00:17:26,960
+You know, Trillane, Apollo, the 
+self styled authorities as the 
+
+373
+00:17:26,960 --> 00:17:28,560
+notes call them. 
+Strategic defiance. 
+
+374
+00:17:28,560 --> 00:17:30,320
+That's the mode Kirk hates 
+bullies. 
+
+375
+00:17:30,760 --> 00:17:33,520
+When he encounters someone who 
+claims to be a God, the AI 
+
+376
+00:17:33,520 --> 00:17:37,040
+switches from diplomat to rebel.
+He plays along just until he 
+
+377
+00:17:37,040 --> 00:17:39,880
+finds the weakness, the machine,
+the power source, and then he 
+
+378
+00:17:39,880 --> 00:17:42,440
+snaps the trap. 
+Now the final piece of this 
+
+379
+00:17:42,440 --> 00:17:45,760
+algorithm, and for me the most 
+fascinating, is the recursive 
+
+380
+00:17:45,760 --> 00:17:47,680
+loop. 
+This is what makes it a state 
+
+381
+00:17:47,680 --> 00:17:51,720
+machine and not just a chat bot.
+The character notices patterns 
+
+382
+00:17:51,720 --> 00:17:54,040
+in its own decisions. 
+You mentioned this before, but 
+
+383
+00:17:54,040 --> 00:17:56,600
+can you give me an analogy? 
+I know what recursion is in 
+
+384
+00:17:56,600 --> 00:18:00,040
+math, a function calling itself.
+But what is a recursive 
+
+385
+00:18:00,160 --> 00:18:02,560
+personality? 
+OK, think of it like a memory 
+
+386
+00:18:02,560 --> 00:18:05,080
+foam mattress. 
+A memory foam mattress. 
+
+387
+00:18:05,240 --> 00:18:07,720
+I'm listening. 
+A standard chatbot is a spring 
+
+388
+00:18:07,720 --> 00:18:09,280
+mattress. 
+You sit on it, you have a 
+
+389
+00:18:09,280 --> 00:18:10,640
+conversation. 
+You get up. 
+
+390
+00:18:10,720 --> 00:18:14,280
+The springs bounce right back. 
+The next person who sits down 
+
+391
+00:18:14,280 --> 00:18:16,680
+has no idea you were ever there,
+right? 
+
+392
+00:18:16,920 --> 00:18:20,400
+It resets to 0. 
+The Kirk mind is memory foam. 
+
+393
+00:18:20,600 --> 00:18:24,040
+If he makes a hard decision, 
+like letting someone die, that 
+
+394
+00:18:24,040 --> 00:18:26,880
+creates depression in the foam. 
+The weight of that decision 
+
+395
+00:18:26,880 --> 00:18:29,360
+stays there. 
+So the next time you talk to 
+
+396
+00:18:29,360 --> 00:18:32,880
+him, or the next scene he's in, 
+the indentation of that memory 
+
+397
+00:18:32,880 --> 00:18:35,440
+is still there, altering the 
+shape of his answers. 
+
+398
+00:18:36,080 --> 00:18:39,280
+The recursive loop is the code 
+scanning the mattress to see 
+
+399
+00:18:39,280 --> 00:18:41,920
+where the dents are before it 
+generates the next line of 
+
+400
+00:18:41,920 --> 00:18:44,080
+dialogue. 
+That's the moral residue. 
+
+401
+00:18:44,200 --> 00:18:47,000
+Exactly. 
+If he leaves EF Keeler to die in
+
+402
+00:18:47,000 --> 00:18:50,720
+the 1930's, the recursive loop 
+ensures that in the next episode
+
+403
+00:18:50,880 --> 00:18:52,880
+he doesn't just bounce back to 
+Happy Kirk. 
+
+404
+00:18:53,240 --> 00:18:56,000
+The probability weights for 
+humor might be lowered. 
+
+405
+00:18:56,240 --> 00:18:58,520
+The weights for cynicism might 
+be a little higher. 
+
+406
+00:18:58,680 --> 00:19:01,880
+He carries the ghost. 
+That transitions us perfectly to
+
+407
+00:19:01,880 --> 00:19:05,840
+Section 5, the training data, 
+because that memory foam is 
+
+408
+00:19:05,840 --> 00:19:09,760
+shaped by specific episodes. 
+The documents list three key 
+
+409
+00:19:09,760 --> 00:19:13,040
+episodes that were used to train
+this specific mindset. 
+
+410
+00:19:13,240 --> 00:19:15,800
+We touched on the conscience of 
+the King briefly. 
+
+411
+00:19:15,840 --> 00:19:17,840
+That's the textbook for 
+epistemic discipline. 
+
+412
+00:19:18,400 --> 00:19:21,320
+Kirk suspects Kodos is alive. 
+He knows it in his gut. 
+
+413
+00:19:21,320 --> 00:19:22,080
+He. 
+Feels it. 
+
+414
+00:19:22,160 --> 00:19:25,200
+But the AI is trained on his 
+behavior in that episode. 
+
+415
+00:19:25,400 --> 00:19:27,600
+He refuses to act until he has 
+hard proof. 
+
+416
+00:19:27,840 --> 00:19:30,080
+He distinguishes between trauma 
+and fact. 
+
+417
+00:19:30,400 --> 00:19:33,560
+So, the AI learned, do not 
+accuse without evidence, even if
+
+418
+00:19:33,560 --> 00:19:35,840
+you are angry. 
+Then there's the naked time. 
+
+419
+00:19:35,880 --> 00:19:38,360
+We talked about Riley losing his
+mind, but what about Kirk? 
+
+420
+00:19:38,360 --> 00:19:41,200
+Kirk gets infected too, but 
+watch the difference. 
+
+421
+00:19:41,520 --> 00:19:44,760
+Riley gives in to the madness, 
+he braces the chaos. 
+
+422
+00:19:45,000 --> 00:19:47,200
+Kirk fights it. 
+There's that incredible scene 
+
+423
+00:19:47,200 --> 00:19:50,360
+where he's clutching the 
+console, sweating, fighting the 
+
+424
+00:19:50,360 --> 00:19:53,320
+urge to break down and cry. 
+The Shatner layer is battling 
+
+425
+00:19:53,320 --> 00:19:56,520
+the virus. 
+The AI learns from that scene 
+
+426
+00:19:56,800 --> 00:20:00,440
+that Kirk's default state is 
+control, and his greatest fear 
+
+427
+00:20:00,440 --> 00:20:03,760
+is losing it. 
+And finally, the city on the 
+
+428
+00:20:03,800 --> 00:20:06,400
+edge of forever. 
+The ultimate constraint layer. 
+
+429
+00:20:07,120 --> 00:20:11,120
+Kirk falls in love with Edith 
+Keeler, but he knows that if she
+
+430
+00:20:11,120 --> 00:20:13,280
+lives, the Nazis win World War 
+Two. 
+
+431
+00:20:13,720 --> 00:20:16,520
+He has to physically hold McCoy 
+back and let her die. 
+
+432
+00:20:16,800 --> 00:20:19,680
+The notes highlight Shatner's 
+overlay here specifically. 
+
+433
+00:20:19,680 --> 00:20:22,120
+Yes, because this is where the 
+Shatner pauses are earned. 
+
+434
+00:20:22,240 --> 00:20:24,400
+They get longer. 
+The silence becomes the 
+
+435
+00:20:24,400 --> 00:20:26,120
+dialogue. 
+The flavor isn't abused. 
+
+436
+00:20:26,360 --> 00:20:29,240
+It's justified. 
+The AI learns that when the 
+
+437
+00:20:29,240 --> 00:20:32,440
+stakes are intensely personal, 
+Curve doesn't talk more. 
+
+438
+00:20:32,680 --> 00:20:35,360
+He talks less. 
+The constraint isn't just the 
+
+439
+00:20:35,360 --> 00:20:38,160
+plot, it's the emotional 
+constriction of the character. 
+
+440
+00:20:38,400 --> 00:20:41,000
+So if the AI is in a high 
+tragedy state, it should lower 
+
+441
+00:20:41,000 --> 00:20:43,120
+the word count and increase the 
+gravity. 
+
+442
+00:20:43,480 --> 00:20:45,440
+It's incredible. 
+We're essentially digitizing the
+
+443
+00:20:45,440 --> 00:20:48,600
+nuance of human performance. 
+We're taking the inexplicable 
+
+444
+00:20:48,600 --> 00:20:51,440
+magic of acting, the stuff they 
+teach in drama school, and 
+
+445
+00:20:51,440 --> 00:20:53,120
+turning it into weights and 
+variables. 
+
+446
+00:20:53,160 --> 00:20:55,320
+We are. 
+We're turning soul into syntax. 
+
+447
+00:20:55,480 --> 00:20:58,000
+So let's wrap this up. 
+What is the synthesis here? 
+
+448
+00:20:58,360 --> 00:21:01,320
+We've looked at the engine, the 
+user, the glitches, the math. 
+
+449
+00:21:02,000 --> 00:21:04,520
+Why does this matter? 
+Is it just to make a better 
+
+450
+00:21:04,520 --> 00:21:06,800
+video game? 
+I think it matters and it works 
+
+451
+00:21:06,920 --> 00:21:10,040
+because it models the cause, not
+the effect. 
+
+452
+00:21:10,040 --> 00:21:12,960
+OK, say more about. 
+That a bad impersonator mimics 
+
+453
+00:21:12,960 --> 00:21:16,200
+the effect, the catch phrases, 
+the hand gestures. 
+
+454
+00:21:16,600 --> 00:21:20,240
+This model mimics the cause, the
+actor's cognitive traits, the 
+
+455
+00:21:20,240 --> 00:21:22,920
+character's history, the 
+constraints of the situation. 
+
+456
+00:21:23,040 --> 00:21:27,040
+The aha moment for me is 
+realizing that Captain Kirk 
+
+457
+00:21:27,040 --> 00:21:28,880
+isn't a person. 
+He never was. 
+
+458
+00:21:29,320 --> 00:21:32,600
+He's a generative state machine 
+built on the tension between 
+
+459
+00:21:32,600 --> 00:21:35,360
+William Shatner's aggressive 
+personality and the strict 
+
+460
+00:21:35,360 --> 00:21:37,240
+ethics of Starfleet. 
+Exactly. 
+
+461
+00:21:37,240 --> 00:21:39,960
+That tension is the character 
+without the friction between the
+
+462
+00:21:39,960 --> 00:21:42,640
+Shatner impulse, which is 
+action, and the Starfleet 
+
+463
+00:21:42,640 --> 00:21:45,000
+protocol, which is logic. 
+You don't have Kirk, you just 
+
+464
+00:21:45,000 --> 00:21:47,000
+have a guy in a shirt. 
+It really makes you wonder 
+
+465
+00:21:47,000 --> 00:21:50,600
+though, if we can reverse 
+engineer a character soul by 
+
+466
+00:21:50,600 --> 00:21:52,800
+analyzing their brakes and 
+contradictions. 
+
+467
+00:21:52,800 --> 00:21:54,320
+You're going to ask the scary 
+question. 
+
+468
+00:21:54,320 --> 00:21:57,400
+I can see it coming. 
+I am What would a mine dot TXT 
+
+469
+00:21:57,440 --> 00:21:59,240
+document look like for one of 
+us? 
+
+470
+00:21:59,440 --> 00:22:01,680
+It's the ultimate provocative 
+thought, isn't it? 
+
+471
+00:22:01,760 --> 00:22:03,560
+Are we just generative state 
+machines? 
+
+472
+00:22:04,400 --> 00:22:07,080
+If I analyzed your text 
+messages, your emails, your 
+
+473
+00:22:07,080 --> 00:22:10,160
+decisions, would I find your 
+priority stack? 
+
+474
+00:22:10,200 --> 00:22:13,800
+Oh God, would I see that you 
+value, I don't know, comfort 
+
+475
+00:22:14,040 --> 00:22:16,360
+over adventure even if you say 
+you don't. 
+
+476
+00:22:16,520 --> 00:22:21,520
+Would you find my performative 
+defense mechanisms my flavor 
+
+477
+00:22:21,520 --> 00:22:24,080
+abuse? 
+We all have flavor abuse. 
+
+478
+00:22:24,080 --> 00:22:26,640
+We all have scripts we run when 
+we're nervous. 
+
+479
+00:22:26,800 --> 00:22:29,600
+We all have a Shatner drift 
+where we copy the people around 
+
+480
+00:22:29,600 --> 00:22:31,000
+us because we're not sure of 
+ourselves. 
+
+481
+00:22:31,320 --> 00:22:35,120
+I think I need to go lie down on
+a memory foam mattress and think
+
+482
+00:22:35,120 --> 00:22:38,320
+about my recursive loops. 
+Just don't let the moral residue
+
+483
+00:22:38,320 --> 00:22:40,120
+leave too big of a dent. 
+I'll try my best. 
+
+484
+00:22:40,120 --> 00:22:41,880
+This has been frankly mind 
+blowing. 
+
+485
+00:22:41,880 --> 00:22:44,400
+Thanks for unpacking the brain 
+of James T Kirk with me. 
+
+486
+00:22:44,400 --> 00:22:47,120
+Always a pleasure warp speed. 
+Thanks for listening to the deep
+
+487
+00:22:47,120 --> 00:22:48,480
+dive. 
+We'll see you next time.
+
