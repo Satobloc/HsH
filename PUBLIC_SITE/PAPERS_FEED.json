@@ -9,7 +9,7 @@
       "title": "A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments",
       "short_title": "Boundary-passage weak-secondary search",
       "kind": "physicist-facing hypothesis/proposal",
-      "status": "reviewed_r1_accepted_for_sandbox_staging",
+      "status": "sandbox_posted_reviewed_r1",
       "site_display": "sandbox_manuscript",
       "version": "R1",
       "originator": "Mercer Calder",
@@ -20,7 +20,10 @@
       "manuscript_ref": "731e2fb5888b0aec856fd9e31319c39746514239",
       "manuscript_blob": "0a1dca42cafd9a02faceff4ec0851659a317b2bb",
       "review_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/PAPER_B_FIRST_PASS_CONSOLIDATION_2026-09-23.md",
-      "acceptance_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/CALDER_R1_ORIGINATOR_ACCEPTANCE_2026-09-23.md"
+      "acceptance_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/CALDER_R1_ORIGINATOR_ACCEPTANCE_2026-09-23.md",
+      "website_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=boundary-weak-emission-r1",
+      "site_version": 33,
+      "posted_date": "2026-09-23"
     },
     {
       "id": "convergent-motifs-r0",
