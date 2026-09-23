@@ -1,0 +1,71 @@
+{
+  "schema_version": "solver_case.v1",
+  "case_id": "RUN099_EQ_FRAME_PERTURB",
+  "branch_id": "HAGALAZ-SOLVER-UNIFICATION",
+  "solver_contract": {
+    "solver_id": "three_spheres_carrier",
+    "input_objects": ["three equal-radius centers in R4", "common radius"],
+    "output_objects": ["typed carrier geometry status", "numerical certification", "G", "carrier radius", "circumcenter"],
+    "claim_boundary": "Execution/interface and channel-independence control only; not a SAT/H(s)H physical validation and not a dynamic transport/holonomy result."
+  },
+  "primitive_fixture": {
+    "centers_R4": [[-0.5, 0.0, 0.0, 0.0], [0.5, 0.0, 0.0, 0.0], [0.0, 0.8660254037844386, 0.0, 0.0]],
+    "radius": 1.0,
+    "independent_frame_perturbation": {"frame": "F2", "plane": "xw", "angle_rad": 0.4487989505128276}
+  },
+  "namespaces": ["SOLVER:THREE_SPHERES:", "HAG:", "LOCAL:RUN099:"],
+  "units_dimensions": {
+    "center_coordinates": "dimensionless benchmark coordinates",
+    "radius": "same benchmark length unit as centers",
+    "frame_angle": "radian"
+  },
+  "assumptions": [
+    "equal positive sphere radius",
+    "equilateral center fixture in the x-y plane embedded in R4",
+    "F2 x-w rotation is supplied as an independent frame channel and is not an input to the Three-Spheres carrier reconstruction"
+  ],
+  "input_classes": {
+    "fixture": "exact analytic control",
+    "frame_perturbation": "declared representation/channel-independence disturbance",
+    "fit_parameters": []
+  },
+  "expected_invariants": [
+    "Three-Spheres carrier result is invariant under the F2-only x-w frame perturbation",
+    "G = 2/3 for the equilateral radius-1 control",
+    "carrier radius = 1/sqrt(3)",
+    "static relative-frame loop telescopes to identity within floating tolerance"
+  ],
+  "failure_conditions": [
+    "Three-Spheres carrier output changes under frame-only perturbation",
+    "analytic G or carrier-radius control fails outside declared tolerance",
+    "numerical certification is not CERTIFIED for the regular equilateral fixture",
+    "visual diagnostic implies that its x-y projection displays the hidden x-w frame rotation"
+  ],
+  "requested_evidence_lanes": [
+    "SCHEMA_TYPED", "EXACT_CONTROL", "NUMERICAL", "REPRESENTATION",
+    "INDEPENDENT_IMPL", "VISUAL_DIAGNOSTIC", "NATHAN_INTENT_CHECK",
+    "BIG_PICTURE", "FORGOT_CHECK"
+  ],
+  "visual_contract": {
+    "projection": "x-y control-plane projection of the three equal-radius sphere cross-sections and reconstructed carrier center",
+    "hidden_channels": ["x-w frame rotation", "full R4 embedding outside x-y"],
+    "question_for_nathan": "Does this projected equilateral Three-Spheres control depict the intended carrier fixture? The x-w frame perturbation should be invisible in this solver view."
+  },
+  "silo": {
+    "shared_before_freeze": [
+      "this case manifest", "declared solver contract", "expected invariants",
+      "failure conditions", "output/evidence-lane vocabulary"
+    ],
+    "withheld_until_freeze": [
+      "Meridian implementation choices", "Mercer implementation choices",
+      "debugging trails", "intermediate reasoning", "interpretation of surprising results",
+      "tuning history"
+    ]
+  },
+  "provenance": [
+    "RUN 099 shared primitive 4D fixture/channel-independence control",
+    "WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER/three_spheres_carrier.py",
+    "WORKSPACES/MERIDIAN/SOLVER_HARNESS/README.md",
+    "WORKSPACES/MERCER/MATH_AUDIT_HARNESS/README.md"
+  ]
+}
