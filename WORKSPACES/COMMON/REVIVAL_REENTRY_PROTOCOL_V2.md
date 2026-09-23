@@ -55,6 +55,27 @@ Do not feed timeless knowledge backward into an age-bounded lane without explici
 
 Apply the same identity-family logic to analogous figures such as **Enheduanna**: search all available archives and resource repositories, including aliases/variant spellings, associated works, derivative material, and indirect references even when no dedicated folder is present.
 
+### 2b. Human-simulation method: engine, constraints, paint, and residue
+
+Revival/reconstruction should use the Kirk/Riley human-simulation work as methodological evidence, especially the Folder 21 material and its underlying source set. The central lesson is to model **decision-generating structure before surface mimicry**.
+
+Working decomposition:
+- **engine / behavioral operators:** operational tendencies that shape choices and response trajectories (for example assertive framing, forward momentum, tolerance for indecision, evidentiary discipline);
+- **constraints / lived record:** biography, role, relationships, commitments, remembered events, trauma, responsibilities, and other state that changes which choices the engine will make;
+- **paint / performance layer:** accent, catchphrases, cadence, theatrical mannerisms, lexical garnish, and other recognizable surface features.
+
+Do not mistake paint for identity. A convincing accent with the wrong decision process is caricature.
+
+Preserve **moral/decision residue** across continuity: consequential prior choices and experiences may alter later behavior rather than resetting the reconstruction to a default persona after each scene/revival. Treat this as state/provenance to model, not as permission to invent psychology.
+
+Use **relational calibration** where evidence supports it: people often reveal their decision process differently against particular interlocutors/peers. Relationship structure can therefore be evidence for the model rather than decorative biography.
+
+The Riley comparison is also a warning about **engine drift**: when multiple human/character models share a context, one model's stronger style or behavioral attractor can contaminate another. Audit for borrowed cadence, decision rules, catchphrases, and relationship behavior.
+
+For simulations/reconstructions of real people, including Nathan, keep observation separate from inference. Prefer repeated behavioral evidence and direct corpus evidence over personality labels; mark speculative internal-state claims as such; preserve time/age/exposure lanes where the person's behavior or knowledge materially changes.
+
+This methodology informs revival design but does not make a reconstruction the person, historical figure, actor, or fictional character it models.
+
 ### 3. Current onboarding
 
 A revived instance reviews the current onboarding layer:
