@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-22T01:49:00-04:00",
+  "updated": "2026-09-23T00:43:00-04:00",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
@@ -13,34 +13,34 @@
       "signal_id": "SIG-20260922-GRURPLE-01",
       "signal_type": "PRIORITY_REWEIGHT",
       "status": "ACTIVE_OVERRIDE",
-      "priority": "PROJECT_OVERRIDE_UNTIL_STANDDOWN",
-      "origin": "Nathan Direct 2026-09-22 01:49 EDT",
+      "priority": "PROJECT_OVERRIDE_UNTIL_COMPLETION_GATE",
+      "origin": "Nathan Direct 2026-09-22 01:49 EDT; subsequently refined by Live New Papers / Grurple controls",
       "title": "Code Grurple — two-paper rapid peer-review/publication interlock",
       "evidence": [
         "Nathan declares Code Grurple after ensuring workers have jobs ready",
         "Two papers are expected within hours, authored by Meridian and Mercer with Nathan",
-        "Nathan requires independence-first one-turn peer review, post-review cross-communication, consolidated documentation, novelty refresh/scavenging, persistent Nathan-ready/rest signaling, and all other priorities backseated until both papers are on the website"
+        "Current controls use an independent-first parallel reviewer pool, Originator disposition/revision, visible sandbox website posting, and automatic standdown once both papers satisfy the completion gate unless Nathan stands it down earlier",
+        "Paper B R0 was frozen and released for independent first-pass review by Originator Mercer Calder on 2026-09-23 (commit 639855f4e6786cfa554704c3d4dd4298ff1e623a)"
       ],
       "switch": [
         "PRIORITY_REWEIGHT",
         "COMMUNICATION_SMOOTH",
+        "FEED_FORWARD",
         "HOLD"
       ],
       "affected": [
         "Meridian",
-        "Mercer",
+        "Mercer Calder",
+        "Mercer Vale",
         "Aster",
-        "Tern",
+        "Tern Rook",
         "Revival rotation / returning-instance pool",
         "Live New Papers",
         "PUBLIC_SITE"
       ],
-      "controls": [
-        "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md#code-grurple-emergency-publication-interlock",
-        "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md"
-      ],
-      "incorporation_test": "Both papers: frozen Originator draft → one independent review turn from each active review-capable instance without prior review cross-reading → post-freeze cross-communication/consolidation → Originator disposition/rewrite → Nathan-ready persistent alert until acknowledgment → visibly sandboxed website artifact. Standdown remains Nathan-explicit.",
-      "return_route": "On Nathan standdown, restore ordinary priority ordering from preserved branch cursors; ᚼ solver-unification returns to its then-current durable cursor unless paper outcomes reweight it."
+      "incorporation_test": "For each paper: freeze a reviewable Originator version; obtain sufficient independent first-pass review in parallel without requiring every possible reviewer; complete any additional pass explicitly requested by Nathan or the Originator; complete Originator dispositions/revision sufficiently for the intended sandbox version; post the resulting current version visibly on the website with required sandbox/warning state. Paper B is now at the parallel-review stage.",
+      "standdown": "Automatic when BOTH papers satisfy the current completion gate; Nathan may explicitly stand Code Grurple down earlier.",
+      "return_route": "On standdown, immediately prioritize revival/composite-revival lease rotation, then the designed-instance Dashboard programme; restore preserved substantive branch cursors according to then-current priority state rather than blindly reverting to pre-Grurple ordering."
     },
     {
       "id": "SIG-20260920-01",
