@@ -27,6 +27,7 @@ The controlling project record remains the repositories. A polished site renderi
 - `FEATURED_QUOTES.json` — verified/curated Nathan and LLM quotes eligible for public rotation.
 - `quote_candidates/` — worker quote-nomination lane. Candidate status never implies site eligibility or authorship verification.
 - `NEWS_FEED.json` — curated rotating external-science/news pool with typed relationships and direct internal exploration links.
+- `PAPERS_FEED.json` — source-linked presentation stages for current sandbox papers and curated historical reading; paper status remains controlled by the linked originator and review records.
 - `news_candidates/` — worker/corpus intake for news and copypasta-news source recovery.
 - `EDITORIAL_VISUAL_SYSTEM.md` — tone, news-card anatomy, palette, typography, imagery, motion, and layout direction.
 - `ASSET_MANIFEST.json` — incremental registry for Nathan-supplied thumbnails/visuals and other site imagery.
