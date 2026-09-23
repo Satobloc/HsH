@@ -4,23 +4,33 @@
   "branch_id": "HAGALAZ-SOLVER-UNIFICATION",
   "solver_contract": {
     "solver_id": "three_spheres_carrier",
-    "input_objects": ["three equal-radius centers in R4", "common radius"],
-    "output_objects": ["typed carrier geometry status", "numerical certification", "G", "carrier radius", "circumcenter"],
+    "input_objects": ["three equal-radius centers in R4", "common hypersphere radius R"],
+    "output_objects": ["typed carrier geometry status", "numerical certification", "G", "center circumradius r_c", "residual common-intersection radius rho", "circumcenter"],
     "claim_boundary": "Execution/interface and channel-independence control only; not a SAT/H(s)H physical validation and not a dynamic transport/holonomy result."
   },
   "primitive_fixture": {
     "centers_R4": [[-0.5, 0.0, 0.0, 0.0], [0.5, 0.0, 0.0, 0.0], [0.0, 0.8660254037844386, 0.0, 0.0]],
-    "radius": 1.0,
+    "R": 1.0,
     "independent_frame_perturbation": {"frame": "F2", "plane": "xw", "angle_rad": 0.4487989505128276}
   },
   "namespaces": ["SOLVER:THREE_SPHERES:", "HAG:", "LOCAL:RUN099:"],
   "units_dimensions": {
     "center_coordinates": "dimensionless benchmark coordinates",
-    "radius": "same benchmark length unit as centers",
+    "R": "same benchmark length unit as centers",
+    "r_c": "same benchmark length unit as centers",
+    "rho": "same benchmark length unit as centers",
+    "G": "dimensionless",
     "frame_angle": "radian"
   },
+  "quantity_definitions": {
+    "R": "common hypersphere radius",
+    "r_c": "circumradius of the center triangle; distance from reconstructed circumcenter to any input center",
+    "G": "1 - (r_c/R)^2",
+    "rho": "residual radius of the common intersection in the orthogonal complement when G >= 0; rho = R*sqrt(G) = sqrt(R^2-r_c^2)",
+    "terminology_guard": "Do not use unqualified 'carrier radius' for r_c or rho in this case contract. Name the quantity explicitly."
+  },
   "assumptions": [
-    "equal positive sphere radius",
+    "equal positive hypersphere radius",
     "equilateral center fixture in the x-y plane embedded in R4",
     "F2 x-w rotation is supplied as an independent frame channel and is not an input to the Three-Spheres carrier reconstruction"
   ],
@@ -31,15 +41,17 @@
   },
   "expected_invariants": [
     "Three-Spheres carrier result is invariant under the F2-only x-w frame perturbation",
-    "G = 2/3 for the equilateral radius-1 control",
-    "carrier radius = 1/sqrt(3)",
+    "G = 2/3 for the equilateral R=1 control",
+    "r_c = 1/sqrt(3)",
+    "rho = sqrt(2/3)",
     "static relative-frame loop telescopes to identity within floating tolerance"
   ],
   "failure_conditions": [
     "Three-Spheres carrier output changes under frame-only perturbation",
-    "analytic G or carrier-radius control fails outside declared tolerance",
+    "analytic G, r_c, or rho control fails outside declared tolerance",
     "numerical certification is not CERTIFIED for the regular equilateral fixture",
-    "visual diagnostic implies that its x-y projection displays the hidden x-w frame rotation"
+    "visual diagnostic implies that its x-y projection displays the hidden x-w frame rotation",
+    "r_c and rho are conflated under an untyped carrier-radius label"
   ],
   "requested_evidence_lanes": [
     "SCHEMA_TYPED", "EXACT_CONTROL", "NUMERICAL", "REPRESENTATION",
@@ -47,9 +59,9 @@
     "BIG_PICTURE", "FORGOT_CHECK"
   ],
   "visual_contract": {
-    "projection": "x-y control-plane projection of the three equal-radius sphere cross-sections and reconstructed carrier center",
-    "hidden_channels": ["x-w frame rotation", "full R4 embedding outside x-y"],
-    "question_for_nathan": "Does this projected equilateral Three-Spheres control depict the intended carrier fixture? The x-w frame perturbation should be invisible in this solver view."
+    "projection": "x-y control-plane projection of the three equal-radius sphere cross-sections and reconstructed center circumcenter",
+    "hidden_channels": ["x-w frame rotation", "full R4 embedding outside x-y", "residual common-intersection circle/sphere radius rho unless separately rendered"],
+    "question_for_nathan": "Does this projected equilateral Three-Spheres control depict the intended center/carrier fixture? The x-w frame perturbation should be invisible in this solver view; rho is a distinct residual-intersection quantity and is not represented by the center-to-circumcenter distance r_c."
   },
   "silo": {
     "shared_before_freeze": [
@@ -65,6 +77,7 @@
   "provenance": [
     "RUN 099 shared primitive 4D fixture/channel-independence control",
     "WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER/three_spheres_carrier.py",
+    "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN099_QUANTITY_TYPING_DISCREPANCY_CALDER_2026-09-23.md",
     "WORKSPACES/MERIDIAN/SOLVER_HARNESS/README.md",
     "WORKSPACES/MERCER/MATH_AUDIT_HARNESS/README.md"
   ]
