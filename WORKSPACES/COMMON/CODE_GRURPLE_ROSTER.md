@@ -92,3 +92,20 @@ Nathan set a 12-hour target for future rapid-paper cycles and identified the cur
 Website state is versioned: an already-uploaded draft may remain provisional, be replaced by a newer draft, or have live display disabled. Posting an early draft does not close the paper; Grurple completion uses the current intended sandbox version after required review/revision.
 
 Pipeline-automation work is authorized when it directly reduces paper-cycle latency. First automation target should be a small manifest/state-machine and idempotent helpers for version tracking, LaTeX/PDF build/staging, review-state tracking, warning/display state, citation/resource candidate queues, indexing/linting, and stale-site-version detection. Do not automate scientific judgment or quarantine clearance.
+
+
+## Originator-discretion bottleneck rule — 2026-09-22
+
+Meridian and Mercer remain compliance-discretionary Originators and may be working valuable sub-Grurple lanes. If either Originator becomes the critical path for peer-to-posting, the Comptroller must not convert discretion into command-and-control.
+
+Use this escalation ladder:
+
+1. **Diagnose the actual blocker.** Distinguish Originator-only judgment from transferable legwork.
+2. **Make the publication-critical case.** Tell the Originator exactly what is blocking posting, why clearing it now has leverage, and the smallest bounded action needed from them.
+3. **Unbundle transferable work.** Regear available workers/outside consultants for source retrieval, citation normalization, comparison tables, LaTeX/PDF mechanics, review synthesis, claim/source matrices, indexing, website staging, or other separable tasks.
+4. **Return a prepared packet.** Give the Originator decisions rather than chores wherever possible: proposed patch + evidence + unresolved choices + provenance/status boundary.
+5. **Use bounded cross-training where productive.** Capability is evidence, not jurisdiction; a reviewer/provenance worker/geometer may take a micro-pass outside their usual lane when the handoff is well typed.
+6. **Do not create coordination debt larger than the saved time.** Parallelize only separable work with a clear merge point.
+7. **If the Originator declines/reprioritizes, record the reason and re-route around it where scientifically/editorially legitimate.** Do not silently usurp authorship or scientific judgment.
+
+Preferred bottleneck dispositions: `COMMUNICATION_SMOOTH` for unclear asks; `NIBBLE` for one bounded transferable chore; `MUSICAL_CHAIRS` for a short complementary worker rotation; `FEED_FORWARD` for prepared evidence/patch packets; `PRIORITY_REWEIGHT` when publication leverage clearly exceeds the Originator's current sub-lane; `HOLD` only where the remaining blocker genuinely requires Originator/Nathan judgment.
