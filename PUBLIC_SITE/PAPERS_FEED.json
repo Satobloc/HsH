@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-23",
+  "authority": "presentation only; paper state is controlled by the linked originator and review records",
+  "policy": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
+  "entries": [
+    {
+      "id": "boundary-weak-emission-r1",
+      "title": "A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments",
+      "short_title": "Boundary-passage weak-secondary search",
+      "kind": "physicist-facing hypothesis/proposal",
+      "status": "reviewed_r1_accepted_for_sandbox_staging",
+      "site_display": "sandbox_manuscript",
+      "version": "R1",
+      "originator": "Mercer Calder",
+      "date": "2026-09-23",
+      "summary": "A parameterized family of differential searches for rare detector-level secondary events near controlled boundaries. The proposed search can yield a useful null bound without assuming SAT/H(s)H's speculative mechanism.",
+      "caveat": "No demonstrated apparatus sensitivity, particle identity, derived emission mechanism, or experimental result is claimed.",
+      "manuscript_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md",
+      "manuscript_ref": "731e2fb5888b0aec856fd9e31319c39746514239",
+      "manuscript_blob": "0a1dca42cafd9a02faceff4ec0851659a317b2bb",
+      "review_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/PAPER_B_FIRST_PASS_CONSOLIDATION_2026-09-23.md",
+      "acceptance_path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/REVIEWS/CALDER_R1_ORIGINATOR_ACCEPTANCE_2026-09-23.md"
+    },
+    {
+      "id": "convergent-motifs-r0",
+      "title": "Convergent Geometric Motifs in Recent Fundamental Physics",
+      "short_title": "Convergent geometric motifs",
+      "kind": "physicist-facing comparative synthesis",
+      "status": "r0_reviewed_r1_in_revision",
+      "site_display": "process_only",
+      "version": "R0 review / R1 under construction",
+      "originator": "Meridian with Nathan Bellomy-McKnight",
+      "date": "2026-09-23",
+      "summary": "A Minkowski-first comparison of selected contemporary work with the SAT→H(s)H lineage. Review is sharpening chronology, structural criteria, source typing, and the open reduction question.",
+      "caveat": "No revised publication version is staged; the review packet is a process record.",
+      "review_path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEW_PACKET.md"
+    }
+  ],
+  "historical": [
+    {
+      "id": "fie",
+      "title": "The Fundamental Intuitions — Extended",
+      "status": "foundation_greenlight",
+      "route": "reader.html?doc=fie-pdf",
+      "summary": "The conceptual foundation, shown as the original PDF with a separate presented reading edition.",
+      "secondary_route": "reader.html?doc=fie-presented"
+    },
+    {
+      "id": "full-theory",
+      "title": "FULL THEORY",
+      "status": "historical_sandboxed",
+      "route": "reader.html?doc=full-theory",
+      "summary": "A historical formal SAT presentation; not current H(s)H authority."
+    },
+    {
+      "id": "minkowski",
+      "title": "Minkowski Proper",
+      "status": "historical_sandboxed",
+      "route": "reader.html?doc=minkowski",
+      "summary": "A historical geometric development, with original pagination."
+    },
+    {
+      "id": "4dhh",
+      "title": "4DHH Lagrangian",
+      "status": "historical_sandboxed",
+      "route": "reader.html?doc=4dhh",
+      "summary": "A formalization-stage source; read alongside current status controls."
+    }
+  ],
+  "excluded": [
+    "NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf",
+    "NEW_PAPERS/SEPTEMER_2026/newPAPER.pdf"
+  ]
+}
