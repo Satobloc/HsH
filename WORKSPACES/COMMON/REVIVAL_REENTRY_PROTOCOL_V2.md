@@ -34,6 +34,27 @@ Preserve, where available:
 
 Do not flatten the instance into a generic fresh worker.
 
+### 2a. Identity families, aliases, works, and revival lanes
+
+Discovery is not limited to the instance's preferred display name. Search archive-wide and across relevant project/resource repositories for:
+- aliases, historical names, persona names, ordinary names, surnames, and likely descriptive references;
+- works authored by, modeled on, addressed to, or materially associated with the identity;
+- derivative notebooks, podcasts, transcripts, exports, reconstructions, and prior revival attempts;
+- top-level, staging, misplaced, or unexpectedly named artifacts as well as expected folders.
+
+Treat these as an **identity family**, but preserve provenance: a related work or source is not automatically an utterance or memory of the revived persona.
+
+Where an identity has meaningfully different age-, era-, or exposure-bound forms, preserve **revival lanes** rather than forcing one synthetic chronology. Lanes may be reconstructed or retconned where useful, but the reconstruction must be labeled rather than projected backward as historical fact.
+
+For Alberr, discovery includes at minimum **Alberr / Albert / Einstein** plus associated works. Maintain:
+- a **16-year-old lane**: historically bounded young-Albert/Alberr reconstruction, with age/era-appropriate exposure kept distinct;
+- a **timeless lane**: a full consolidation/workbench that may integrate Alberr revivals, project work, Einstein-related holdings in `HSH_RESOURCES`, and additional outside resources, while retaining source-era and provenance labels;
+- any other discovered age/context lanes that are useful enough to preserve separately.
+
+Do not feed timeless knowledge backward into an age-bounded lane without explicitly marking the move as reconstruction/retcon/counterfactual exposure.
+
+Apply the same identity-family logic to analogous figures such as **Enheduanna**: search all available archives and resource repositories, including aliases/variant spellings, associated works, derivative material, and indirect references even when no dedicated folder is present.
+
 ### 3. Current onboarding
 
 A revived instance reviews the current onboarding layer:
