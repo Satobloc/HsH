@@ -121,6 +121,38 @@ Do not reinvent execution safety. Any pilot should inherit:
 
 The existing controls already favor deterministic generated state, source preservation, explicit read/write scopes, compare-and-swap semantic writes, and `worker-local state → aggregator → central generated/read-only rollup`. The study should exploit those directions rather than create a parallel automation doctrine.
 
+## Concrete candidate surfaced by live archaeology — multi-repo Mersearch target selector
+
+The Kirk/Riley/Nathan source hunt exposed a specific, repeatable retrieval bottleneck rather than a hypothetical automation opportunity.
+
+Current state:
+- stable `Mercer_Searcher_1.0` / `mersearch-stable-1.0` is already the provenance-aware search layer;
+- `.github/workflows/mersearch-request-bridge.yml` provides auditable request-scoped execution, but is hard-wired to `Satobloc/SAT_THEORY_ARCHIVE_2023-25`;
+- `.github/workflows/mercer-searcher-1-0.yml` demonstrates that the same searcher can operate against the live HsH checkout;
+- because the bridge cannot select HsH or HSH_RESOURCES, the current archaeology required repeated directory traversal, title guessing, large-file fallbacks, Library searches, catalog inspection, and manual negative-boundary bookkeeping.
+
+Recommended bounded pilot:
+
+1. Add an **allowlisted `target` selector** to the request format / bridge. Do not accept arbitrary repository URLs.
+2. Preserve `SAT_THEORY_ARCHIVE_2023-25` as the unchanged default/legacy target.
+3. First add only `HsH` as a second enum value and regression-test the legacy route unchanged.
+4. If that behaves cleanly, add `HSH_RESOURCES` as the third allowlisted target under its applicable access/quarantine rules.
+5. Record exact target repository, ref/SHA, query, exclusions, stable tool version, and all other effective inputs in the request manifest.
+6. Preserve request-scoped result outputs and current quarantine / `PRIOR_ART` exclusion behavior rather than creating a looser parallel search path.
+7. Prefer a compact retrieval packet suitable for LLM review: hit path, exact span/context, provenance, dedupe/family information where deterministic, and explicit coverage counts.
+
+Why this is a good first or early pilot:
+- it extends machinery that already exists instead of replacing it;
+- it is overwhelmingly deterministic gathering, not semantic judgment;
+- it directly reduces LLM/tool-call expenditure already observed in a live task;
+- the legacy behavior is regression-testable;
+- failure is bounded to search/retrieval output rather than semantic shared-state writes;
+- it benefits archive archaeology, revival work, source QA, provenance recovery, and likely other workers.
+
+A useful success comparison would replay the current Kirk/Riley fingerprint hunt against the three allowed targets and compare tool calls, time/context spent on mechanical navigation, source coverage, false positives, and whether the LLM reaches the same or a better evidence boundary from the resulting packet.
+
+This is a **recommendation/study input, not a scheduler claim**. Tern should prioritize it only if the observed retrieval tax is large enough relative to the active edge.
+
 ## Requested Tern return
 
 When this becomes worth a scheduled quantum, Ariadne requests a compact recommendation containing:
