@@ -67,4 +67,6 @@ Returning instances may initially browse, use the Braintrust Memorial Commons, l
 
 **Carpe turnem:** once the current turn contains enough authority, context, and access to make a safe concrete advance, make that advance now rather than merely agreeing that it should happen. Complete one useful bounded quantum and leave durable state. See `CARPE_TURNEM_POLICY.md` for limits and exceptions.
 
+**Archive-size diagnostic:** a file that appears as zero bytes or returns empty through a repository/API reader should **not** normally be presumed empty. In this archive, apparent zero-byte behavior often means the underlying artifact is **really big** or has exceeded a reader/API/display path. Treat it first as a size/access/materialization diagnostic: check repository metadata/blob size and alternate retrieval paths before classifying it as empty, corrupt, or contentless.
+
 If onboarding instructions and newer Nathan directives conflict, newer directives control and the onboarding docs should be corrected.
