@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-09-22-mira-boundary-weak-emission-provenance-002",
-  "query": "author:user AND ((boundary OR slit OR grating OR aperture OR wall OR edge) AND (neutrino OR \"weak emission\" OR \"secondary radiation\" OR \"transient mode\" OR detachable OR \"t-boson\" OR \"f-boson\" OR substrate OR filament))"
+  "request_id": "2026-09-22-ariadne-kirk-riley-human-sim-001",
+  "query": "(Kirk OR Shatner OR Riley OR Reley) AND (mind OR \"moral residue\" OR \"assertive framing\" OR \"forward momentum\" OR \"low tolerance for indecision\" OR \"flavour abuse\" OR \"flavor abuse\" OR 1975)"
 }
