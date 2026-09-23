@@ -176,6 +176,38 @@ stateDiagram-v2
     Rejected --> [*]
 ```
 
+### Pruning-event log
+
+A **pruning event** is any deliberate operation that reduces, consolidates, or removes active workflow topology without silently erasing its history. This includes at minimum:
+
+- merge / duplicate consolidation;
+- park or standdown that removes work from the active graph;
+- supersession;
+- retirement;
+- branch closure after completion when successor/return state matters;
+- lease release or reassignment when it materially changes active branch coverage;
+- deletion/removal of a routing mechanism or obsolete control path;
+- other deliberate branch-pressure reductions judged materially equivalent.
+
+Every material pruning event must be logged durably. The log entry should preserve, where applicable:
+
+- date/time and operator;
+- affected branch/task/signal/lease IDs;
+- operation type;
+- evidence/reason for pruning;
+- predecessor state and resulting state;
+- artifacts/history preserved;
+- continuity packet or durable checkpoint pointer;
+- successor/merged-into branch, if any;
+- return/revival trigger and route, if any;
+- exposure/quarantine constraints;
+- whether the event is direct pruning, soft pruning (attention/lease/topology only), or historical reconstruction;
+- source evidence when the event is reconstructed retrospectively.
+
+Do **not** retroactively classify every pause, completed step, stale document, or missing check-in as pruning. Historical reconstructions should distinguish **direct evidence**, **strong inference**, and **possible analogue**.
+
+A pruning log records topology changes; it is not authorization to delete epistemic/provenance history. Default practice remains aggressive reduction of unnecessary active routing with conservative preservation of artifacts, provenance, identity continuity, and revival paths.
+
 ### Minimum branch record
 
 Every meaningful live branch should carry, where applicable:
