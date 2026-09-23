@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "status": "ACTIVE_RECONCILIATION_OVERLAY",
+  "date": "2026-09-23",
+  "base_surface": "WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json",
+  "base_blob_sha_checked": "80e267cdd7dd3a4c61044357cd346ff49c805e23",
+  "authority_surface": "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md",
+  "authority_blob_sha_checked": "cbbe72794a63a6e0068a2d5d878b3e297732d196",
+  "reason": "Canonical task graph still carries launch-era Code Grurple routing while the live roster records later verified Paper-A and Paper-B state. This overlay is a bounded compare-and-swap-safe reconciliation record; it does not overwrite unrelated graph branches.",
+  "branch_updates": {
+    "CODE-GRURPLE-20260922": {
+      "status": "active",
+      "last_material_state": "Paper B has completed required review/revision disposition through sandbox website staging. Paper A is the sole remaining Grurple critical path; its proposition-level SAT chronology citations [9]-[11] are incorporated and targeted A2/A5 rerun is closed PASS. References [1]-[8] remain the visible bibliography-normalization/source-saturation gate before broader acceptance/posting.",
+      "next_cursor": "Route Paper A through the already-prepared bibliography normalization/source-saturation incorporation, then broader acceptance and current-version sandbox posting. Do not reopen Paper B absent a concrete defect or explicit Nathan/Originator request.",
+      "exit_criterion": "Both papers complete the review/revision/disposition actually required for them and the intended current versions are visibly sandbox-posted; then stand Code Grurple down automatically unless Nathan has already done so.",
+      "priority_note": "PROJECT OVERRIDE remains active only because Paper A is incomplete. Paper B is not a current work queue."
+    },
+    "GRURPLE-A": {
+      "status": "active",
+      "primary_surface": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/",
+      "last_material_state": "R1 active / critical path. SAT chronology proposition citations [9]-[11] are incorporated; targeted A2/A5 rerun is closed PASS. Remaining visible gate is incorporation of prepared bibliography normalization/source saturation for references [1]-[8], followed by broader acceptance/posting sequence.",
+      "next_cursor": "Consume the prepared bibliography-normalization/source-saturation packet into the current R1 while preserving the closed A2/A5 chronology-citation state; then run the broader acceptance gate and posting sequence.",
+      "exit_criterion": "Required review/revision/disposition complete and intended current version visibly SANDBOXED on website."
+    },
+    "GRURPLE-B": {
+      "status": "completed",
+      "primary_surface": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/",
+      "last_material_state": "Reviewed, Originator-accepted R1, sandbox website stage recorded and current paper feed advanced. Publication lane complete unless a concrete defect/request reopens it.",
+      "next_cursor": null,
+      "exit_criterion": "Satisfied for current Grurple lane: required review/revision disposition and sandbox website staging recorded.",
+      "return_route": "No active Paper-B queue; transferable support may route to GRURPLE-A or other current bottlenecks."
+    }
+  },
+  "merge_instruction": "On the next safe whole-file TASK_BRANCH_GRAPH.json update, merge only these named branch fields after re-reading the then-current graph and CODE_GRURPLE_ROSTER.md. Preserve all unrelated branch state and any newer conflicting state. After successful merge, mark or remove this overlay as superseded rather than treating it as a second authority.",
+  "quarantine_note": "No PRIOR_ART/private-quarantine material was opened or used."
+}
