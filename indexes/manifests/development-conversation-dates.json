@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-23T00:39:58.091740+00:00",
+  "generated_at_utc": "2026-09-23T01:54:47.404045+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 363,
-    "skipped": 246,
-    "planned": 100,
+    "skipped": 249,
+    "planned": 106,
     "collision": 1
   },
   "records": [
@@ -4834,6 +4834,38 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Mercer Archive Mover — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.12•26.09.21•Mercer Archive Mover — raw (2).json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-21T23:03:56.171158-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1312,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/NEWS_21SEP26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Nathan Words Excavator — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "start_local": "2026-09-20T12:16:08.508784-04:00",
+      "end_local": "2026-09-22T15:19:34.012239-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 385,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Paradigm__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -4880,6 +4912,26 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Revival Rotation — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw (1).json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T21:28:20.496136-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 75,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Revival Rotation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.14•26.09.22•Revival Rotation — raw.json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T05:58:17.973215-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 23,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/S1. Black Hole Thermodynamics and Finite Temperature CFTs__NotebookLM_export (1).json",
@@ -5086,6 +5138,26 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Science Made Stupid — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-21T07:09:21.748438-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 979,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/Song Lyrics Interpretation — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23•24.09.23•Song Lyrics Interpretation — raw.json",
+      "start_local": "2024-09-23T22:44:22.765566-04:00",
+      "end_local": "2024-09-23T22:45:11.923557-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/THE TWO ROCKS__NotebookLM_export.json",
       "new_path": null,
       "start_local": null,
@@ -5171,6 +5243,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/big_upload_index.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/gg_recent.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -5631,6 +5715,18 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/ALBERRAGAIN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
