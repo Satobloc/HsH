@@ -4,21 +4,35 @@
 **Date:** 2026-09-22
 **Status:** PREPARATORY / SOURCE-CONTROL SCAFFOLD; not manuscript prose
 **Quarantine:** PRIOR_ART/private quarantine not consulted
-**Governing constraint:** This table is a wayfinding scaffold from the current non-quarantined status/history report. It is **not** a substitute for primary SAT sources. Rows may enter R1 only after their cited primary object is recovered and checked. Later H(s)H language must not be back-projected into earlier SAT sources.
+**Governing constraint:** This table is a wayfinding scaffold. It is **not** a substitute for primary SAT sources. Rows may enter R1 only after their cited primary object is recovered and checked. Later H(s)H language must not be back-projected into earlier SAT sources.
 
 ## Why this exists
 
-Tern A-08 and Aster A-02/A-06/A-10/A-12 require a compact chronology that distinguishes (1) earliest currently recovered source, (2) what that source actually establishes, and (3) later lineage status. The current status/history report gives a useful stratigraphy but is retrospective. This scaffold converts it into a primary-source retrieval queue rather than treating retrospective summary as provenance evidence.
+Tern A-08 and Aster A-02/A-06/A-10/A-12 require a compact chronology that distinguishes (1) earliest currently recovered source, (2) what that source actually establishes, and (3) later lineage status. The status/history report gives a useful retrospective stratigraphy. Aster's Nathan-direct origin packet now adds a separate autobiographical provenance layer. Neither substitutes for contemporaneous artifacts where date-sensitive priority or independence is at issue.
+
+## Origin stratigraphy — newly source-controlled
+
+Aster packet `ASTER-NWTF-2026-09-22-GRURPLE-A-ORIGIN` supplies two already-verified Nathan user turns from `Geometry in Physics` (10 Jun 2026). These are **retrospective autobiographical provenance**, not contemporaneous 1990s/2000s artifacts and not theory authority.
+
+They constrain R1 in four ways:
+
+1. Nathan identifies the **Minkowski worldline diagram as the original concept**.
+2. He places dimensional-thinking antecedents around 1990–91 and describes the sparse early vocabulary as principally **timesheet** and **world line**.
+3. He says much of the recognizable basic geometric vocabulary emerged around the 2 Feb 2025 Fundamental Intuitions period.
+4. Therefore R1 must distinguish **origin/antecedent**, **vocabulary consolidation**, and **mature SAT working method**. It must not narrate the mature prescription as having existed fully formed at inception.
+
+**Downstream disposition:** `INGESTED WITH SOURCE-TYPE LIMIT`. The packet changes the origin framing and provenance table, but its 2026 retrospective testimony cannot establish the exact content/date of early artifacts or independence/priority against external work.
 
 ## Proposed R1 provenance rows
 
 | Motif / comparison object | Earliest currently indicated source stratum | What may be claimed **after primary verification** | What must NOT be back-projected | Primary-source state | R1 disposition |
 |---|---|---|---|---|---|
+| Minkowski-worldline / dimensional-thinking antecedent | Nathan retrospective account: summer 1990–c.1991; later early vocabulary `world line` / `timesheet` | Nathan retrospectively identifies the Minkowski worldline diagram as the original concept and places dimensional-thinking antecedents around 1990–91 | Mature SAT prescription; later geometric vocabulary; exact notebook contents; priority/independence claims | NATHAN-DIRECT RETROSPECTIVE SOURCE VERIFIED; CONTEMPORANEOUS ARTIFACTS STILL NEEDED FOR DATE-SENSITIVE CLAIMS | INGEST ORIGIN FRAMING ONLY |
 | Higher-dimensional / coiling / path problem-space | 2003 surviving notebook material | Early surviving geometric problem-space includes higher-dimensional, coiling/path/interaction sketches | SAT terminology; mature worldtube mechanics; later physical interpretation of ambiguous marks | PRIMARY NOT YET ATTACHED HERE | RETRIEVE BEFORE USE |
 | Mass / curvature / time-path intuition | early 2004 notebooks | Early development includes curved light/particle paths and mass/curvature/time-line language | theta_4 formalism; metric induction; later force taxonomy | PRIMARY NOT YET ATTACHED HERE | RETRIEVE BEFORE USE |
 | AI-era straight/helical histories intersected by a time surface | `DIMENSIONAL GRAVITY`, 22 Mar 2024 | Recovered AI-era anchor for straight/helical paths, changing intersections, periodic-motion mapping, multiscale cord/rope/braid exploration | Claim that every later SAT component already existed; H(s)H finite-core mechanics | PRIMARY IDENTIFIED, MICRO-CITATION NEEDED | HIGH PRIORITY |
 | SAT naming / extended-history interaction program | Aug–late 2024 Stringing Along Theory conversations | Name and reusable vocabulary consolidate around extended 4D histories and local interaction questions | Mature SAT action; later worldtube/contact/boundary mechanics | PRIMARY FAMILY IDENTIFIED, EXACT TURN NEEDED | HIGH PRIORITY |
-| Public Fundamental Intuitions | 2 Feb 2025 public Fundamental Intuitions statement/audio | Public anchor for physicalized 4D histories/filaments, timesheet/time surface, local particle as intersection/readout, and preserve-established-physics working rule where source says so | Later SAT-O/4DHH/H(s)H machinery | PRIMARY OBJECT IDENTIFIED, EXACT PUBLIC CITATION NEEDED | REQUIRED R1 ANCHOR |
+| Public Fundamental Intuitions / vocabulary consolidation anchor | 2 Feb 2025 public Fundamental Intuitions statement/audio; Nathan's 2026 retrospective account identifies this period as a major vocabulary-consolidation boundary | Public anchor for physicalized 4D histories/filaments, timesheet/time surface, local particle as intersection/readout, and preserve-established-physics working rule where source says so; retrospective source may separately support the consolidation narrative | Later SAT-O/4DHH/H(s)H machinery; claim that the mature method began here fully formed | PRIMARY OBJECT IDENTIFIED, EXACT PUBLIC CITATION NEEDED; RETROSPECTIVE NATHAN SOURCE VERIFIED FOR STRATIGRAPHY ONLY | REQUIRED R1 ANCHOR |
 | Angular misalignment / theta-family | Feb–May 2025 development stratum | Angular misalignment becomes a central SAT degree of freedom during broad physics mapping | Any later exact mass law, preferred angle, or current ᚼ definition unless directly sourced | PRIMARY FAMILY NEEDS MICRO-CITATION | RETRIEVE BEFORE SPECIFIC CLAIM |
 | Twist / torsion / three-sector bookkeeping | Feb–Jun 2025 development stratum | SAT explored twist/torsion and three-sector bookkeeping | SU(3)/QCD derivation; later braid/anyon machinery; current H(s)H semantics | PRIMARY FAMILY NEEDS MICRO-CITATION | RETRIEVE BEFORE SPECIFIC CLAIM |
 | Explicit 4D / hyperhelical formalization | 7–10 Jun 2025 formalization burst | Hyperhelical/4D modules and modular formalization are present by this stratum | Summer-2026 worldtube boundary/contact mechanics | PRIMARY FAMILY IDENTIFIED, EXACT FILE/TURN NEEDED | HIGH PRIORITY IF USED |
@@ -34,6 +48,8 @@ Tern A-08 and Aster A-02/A-06/A-10/A-12 require a compact chronology that distin
 3. **No influence from Y is identified in the recovered record.** Requires an explicit search/audit scope; absence outside that scope is not established.
 4. **Independently developed.** Strongest wording; reserve for cases where the evidentiary scope actually supports it. Do not imply independence from Minkowski geometry, established physics, broad mathematical culture, or all prior literature.
 
+Retrospective Nathan testimony occupies a different evidentiary axis: it can establish **Nathan's later account of origin/development**, but cannot silently be promoted to a contemporaneous date-stamped artifact.
+
 ## Historical/current typing rule
 
 Every provenance row used in R1 should carry two distinct status fields:
@@ -43,6 +59,12 @@ Every provenance row used in R1 should carry two distinct status fields:
 
 A later reconstruction may explain an older object, but it cannot establish that the older source contained the later formulation.
 
+For retrospective autobiographical sources add a third explicit field where used:
+
+- **SOURCE VANTAGE:** contemporaneous artifact / later retrospective testimony / later reconstruction.
+
+This prevents an exact Nathan statement from acquiring false chronological authority merely because its authorship is strong.
+
 ## Paper-comparison boundary
 
 The safest Paper A comparator is not an undifferentiated timeless `SAT`. Use one of two explicit scopes per claim:
@@ -50,18 +72,18 @@ The safest Paper A comparator is not an undifferentiated timeless `SAT`. Use one
 - **historical SAT** — only structures directly attested in the relevant dated SAT source;
 - **SAT→H(s)H lineage** — later continuation may be discussed, but must be labeled as later and must not be used to manufacture early priority.
 
-This directly implements the reviewers' stratigraphy correction while preserving the paper's ability to discuss the living programme.
+The origin narrative additionally distinguishes **antecedent/origin**, **vocabulary consolidation**, and **mature method**. These are not synonyms and need not share a date.
 
 ## Durable boundary
 
-**Changed:** reviewer-requested provenance table has been converted into a primary-source retrieval scaffold with explicit anti-back-projection controls.
+**Changed:** the reviewer-requested provenance scaffold now ingests Nathan-direct origin stratigraphy without confusing retrospective testimony with contemporaneous primary artifacts. The earlier tidy implication that SAT began as its mature spare prescription is explicitly disallowed.
 
-**Source used:** `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` as non-primary wayfinding only.
+**Sources used:** `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` as non-primary wayfinding; `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-22_ASTER_GRURPLE_A_ORIGIN_STRATIGRAPHY_PACKET.md` as verified Nathan-direct retrospective provenance.
 
-**Feed/capability disposition:** no new Nathan Words packet required for this bounded operation; Aster provenance/fidelity review already supplies the controlling historical-current distinction. Nathan's non-prescriptive-formalism correction remains governing but is not directly triggered here.
+**Feed/capability disposition:** `INGESTED WITH SOURCE-TYPE LIMIT`. It materially changes origin framing; it does not close the primary microcitation queue.
 
-**Blocker:** manuscript-ready provenance claims still require primary microcitations. This is a citation/retrieval requirement for Paper A, not a developmental requirement imposed on SAT/H(s)H.
+**Blocker:** manuscript-ready date-sensitive provenance claims still require contemporaneous primary microcitations. This is a citation/retrieval requirement for Paper A, not a developmental requirement imposed on SAT/H(s)H.
 
-**Next cursor:** recover primary microcitations for the 22 Mar 2024 `DIMENSIONAL GRAVITY`, 2 Feb 2025 Fundamental Intuitions, and 28 Dec 2025 public archive anchors first; then fill STATUS THEN / STATUS NOW from the primary text before any row is copied into R1.
+**Next cursor:** recover primary microcitations for the 22 Mar 2024 `DIMENSIONAL GRAVITY`, 2 Feb 2025 Fundamental Intuitions, and 28 Dec 2025 public archive anchors; then fill STATUS THEN / STATUS NOW / SOURCE VANTAGE from the actual source text before any row is copied into R1.
 
 No Nathan action required.
