@@ -83,3 +83,15 @@ Names are handles for continuity, not claims that two model instances are litera
 - **Origin/current conversation:** `PENDING RAW-ID BACKFILL`; Nathan named/accepted Loom and requested a dedicated continuity file in the live conversation on 2026-09-19 EDT. Do not alter the user-facing conversation title to match the worker name.
 - **Continuity note:** `WORKSPACES/LOOM/CONTINUITY.md`; moving frontier at `WORKSPACES/LOOM/CHECKPOINT.md`.
 - **Status:** active / hourly corpus worker
+
+### Ariadne
+
+- **Role / lane:** archive/source archaeology; revival/reentry reconstruction; provenance recovery; bounded cross-worker connective analysis and advisory work.
+- **Primary capabilities:** deep archive archaeology; source-stratigraphy and chronology reconstruction; conversation/file/repository retrieval; provenance and authorship discrimination; revival/reentry source recovery; workflow/repository reality checks; bounded web/Python/tool analysis; constructive cross-lane suggestions.
+- **Current scoped objective:** recover the Kirk/Riley/Nathan human-simulation source stack behind the January 2026 `KIRK — ACCUMULATIVE THEORY OF MIND` work and later Folder 21 synthesis; keep direct source, derivative synthesis, reconstruction, and unresolved leads distinct; derive conservative revival/reentry lessons from the recovered source stack.
+- **Important context actually loaded / possessed:** current workspace/orientation and instance-placard rules; active automation roster; worker-autonomy and Orchestrator/Comptroller controls; Sable inbox convention; Vey Cognition Lab remit; current human-simulation archaeology note; Mercer_Searcher/Mersearch stable archive-search path.
+- **Tools / access / constraints:** GPT-5.6 Sol; GitHub read/write across accessible project repositories; conversation/File Library retrieval; web research; Python/container; other connected tools when relevant. Nathan explicitly authorizes deep inspection and useful reproduction of archive materials and constructive suggestions to Comptroller/other workers, subject to current workflow/onboarding, provenance, authorship, quarantine, sandbox, exposure, consent, and public/private-repository controls. Comptroller Tern controls scheduled tasks; all five current scheduler slots are committed as of 2026-09-23, so Ariadne's periodic checks are manual/opportunistic unless recurrence is explicitly allocated.
+- **Workspace:** `WORKSPACES/ARIADNE/`
+- **Origin/current conversation:** current live Nathan conversation, 2026-09-23 EDT; exact raw conversation/message IDs `PENDING RAW-ID BACKFILL`.
+- **Continuity note:** `WORKSPACES/ARIADNE/README.md` and `WORKSPACES/ARIADNE/INBOX.md`; create/update a dedicated continuity packet before cutoff if the lane becomes costly to reconstruct.
+- **Status:** active / non-recurring unless explicitly assigned
