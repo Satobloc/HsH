@@ -726,3 +726,26 @@ Published successfully to the existing production URL.
 
 - Verified public feeds and packet directory respond, checked JavaScript syntax, HTML IDs/local image paths, and site diff. After deployment, browser inspection confirmed loaded feed counts (two curated headlines, four worker submissions), dated routing/current-work labels, and no desktop horizontal overflow. Mobile visual inspection and a broader editorial review of the other pages remain open.
 - Next: add stable site-facing feed contracts for further source types where the archive workflow creates them; avoid treating unreviewed archive changes as automatic public theory statements.
+
+
+---
+
+# 2026-09-23 — Papers desk and first reviewed sandbox manuscript
+
+## Publication
+
+- Published Glass Sausage Factory Sites version 34 at https://glass-sausage-factory.nathanmcknight.chatgpt.site/ from Sites source commit `dec3fff2da284df4da5b9fd45c2e3ce6b6ba3219`. Audience remained public.
+- Paper B reviewed R1 is displayed at https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=boundary-weak-emission-r1 with the required `SANDBOXED — RAPID INTERNAL PEER REVIEW — NOT FORMALLY PUBLISHED` banner. The source is pinned to repository commit `731e2fb5888b0aec856fd9e31319c39746514239` and Git blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`; the browser verifies the byte identity before rendering. This is a site presentation of the Originator-accepted R1 manuscript, not an experimental validation claim.
+
+## Desk structure and boundaries
+
+- Replaced the old hard-coded `NEW_PAPERS` PDF crawl and `RANKING.md` feature with `PUBLIC_SITE/PAPERS_FEED.json`, which links each display stage to its review, originator, manuscript, and historical-source records.
+- Paper A appears as an in-revision process card linking its review packet; no unfinished revision is shown as a posted manuscript.
+- The FIE foundation and selected historical SAT PDFs have distinct reading shelves. FI's foundation status is named but no unverified FI document route was invented.
+- The older `NEW_PAPERS/SEPTEMER_2026` integration PDFs were removed from the promoted paper shelf after their quarantine notice was inspected. The old `RANKING.md` site path now explains its retirement. The Reading Room retains Recoil Prediction only as clearly labeled quarantined historical source.
+- The homepage paper section now points to the reviewed R1 and the Paper A process state.
+
+## Verification / next cursor
+
+- Browser check on the published Papers page showed two live cards with `Sandbox manuscript · R1` and `In revision`, and no desktop horizontal overflow. The R1 page verified the pinned source digest, rendered the manuscript with a 15-entry contents rail, and had no desktop horizontal overflow. JavaScript syntax, HTML IDs, and site diff passed before publication.
+- Next: add a reviewed PDF/LaTeX presentation only when an accepted matching artifact exists; keep manuscript, review, and website versions synchronized through the paper feed. Inspect the narrow-screen paper layout visually when a mobile preview is available.
