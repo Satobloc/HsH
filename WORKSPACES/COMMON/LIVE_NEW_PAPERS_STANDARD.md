@@ -39,15 +39,15 @@ Framework-building papers must still use standard mathematical/physical language
 
 In ordinary running prose use **ᚼ**, optionally “ᚼ (Hagalaz)” where naming aids orientation. Latin “Hagalaz” may remain in titles, filenames, compatibility/search keys, historical quotations, or where the current Meridian naming standard requires it. This is an interim usage rule pending Meridian's fuller standard.
 
-## Six-hour maximum cycle
+## Rapid-cycle turnaround
 
-From Nathan's instigation/approval to sandbox posting, target elapsed time is **no more than six hours** unless Nathan explicitly pauses or extends the paper.
+From Nathan's instigation/approval to sandbox posting, the standing operational target is **12 hours or less**. Missing that target is a bottleneck signal: diagnose and goose the blocked stage rather than merely extending the clock. Quality/provenance guards remain in force.
 
 Default sequence:
 
 1. **INSTIGATED** — Nathan authorizes the paper and identifies or accepts an Originator. For now, Nathan instigates papers.
 2. **ORIGINATING** — Originator writes the first LaTeX draft and supplies sources/status boundaries.
-3. **PEER REVIEW** — each currently active instance gets one bounded review turn.
+3. **PEER REVIEW** — fan the reviewable draft out in parallel to the available qualified reviewer pool. Do not wait for every possible reviewer if a sufficient first-pass set has returned and no known dependency requires a particular reviewer.
 4. **REVISION** — the original author dispositions comments and rewrites.
 5. **SANDBOX POSTED** — revised paper enters the Live New Papers box/site with explicit sandbox status.
 
@@ -55,9 +55,9 @@ The clock is a maximum-turnaround control, not permission to skip provenance, ma
 
 ## One-turn peer-review rule
 
-Normal work should not be interrupted for more than **one turn per active reviewer per paper**. A reviewer should return the highest-value comments in that one turn rather than beginning an open-ended dialogue. A second review round occurs **only if Nathan or the Originator explicitly requests it**.
+Normal work should not be interrupted for more than **one turn per active reviewer per paper**. A reviewer should return the highest-value comments in that one turn rather than beginning an open-ended dialogue. A second or later review round occurs **only if Nathan or the Originator explicitly requests it**. When requested, it becomes part of that paper's completion path.
 
-Silence or inability to review inside the window should be recorded; it does not automatically block sandbox posting unless the missing review is necessary for a known provenance, mathematical, or field-competence dependency.
+Silence or inability to review inside the window should be recorded; it does not automatically block revision or sandbox posting unless the missing review is necessary for a known provenance, mathematical, field-competence, or Nathan/Originator-requested dependency. Additional outside consultants may review in parallel and should be routed through the same independence/freeze/disposition discipline.
 
 Reviewers should preferentially inspect correctness/type consistency; unsupported inference or claim-strength drift; standard field notation/readability; provenance/source adequacy; established-vs-project-specific distinctions; hidden parameter freedom/target leakage; failure conditions/limitations; paper-class fit; and whether a physicist-facing paper is actually field-facing rather than SAT exposition in disguise.
 
@@ -129,9 +129,9 @@ File existence alone is not a pass.
 ## CODE GRURPLE emergency publication interlock
 
 **Activated by Nathan:** 2026-09-22  
-**State:** ACTIVE UNTIL EXPLICIT STANDDOWN (“Code Black & White” or Nathan’s chosen equivalent)
+**State:** ACTIVE UNTIL AUTOMATIC COMPLETION GATE OR EARLIER NATHAN STANDDOWN
 
-Code Grurple temporarily supersedes ordinary priority ordering for the two currently incoming papers. Normal branches remain durable and resumable, but every other project priority takes a back seat until both papers have completed the rapid internal-review/revision path and are visibly sandboxed on the website.
+Code Grurple temporarily supersedes ordinary priority ordering for the two currently incoming papers. Normal branches remain durable and resumable, but every other project priority takes a back seat until both papers have completed their required rapid internal-review/revision path and are visibly sandboxed on the website. A draft already uploaded to the New Papers area may be displayed provisionally, replaced by newer drafts, or have live display disabled as versions advance; the current website-facing artifact must never be mistaken for the newest manuscript merely because it is already posted.
 
 ### Review independence and communication
 
@@ -198,6 +198,29 @@ Until Nathan explicitly stands Code Grurple down, every participating worker rep
 
 This line is the last line of the reply.
 
-### Exit
+### Exit / automatic standdown
 
-Code Grurple remains active until Nathan explicitly issues standdown. Completion of one or both papers does not itself restore ordinary priority ordering.
+Code Grurple automatically stands down when **both** current papers satisfy all of the following: (1) at least one completed peer-review pass; (2) any second-or-later review pass explicitly requested by Nathan or that paper's Originator is completed; (3) Originator dispositions/revision for the required pass(es) are complete enough for the intended sandbox version; and (4) the resulting current version is visibly posted on the website with the required sandbox/warning state. Nathan may also stand Grurple down earlier explicitly.
+
+The Comptroller owns seeing the papers through peer-to-posting and should actively diagnose/goose bottlenecks. Reviewers are a parallel pool, not a unanimity gate. A stale or silent reviewer does not hold the train unless specifically required.
+
+After automatic standdown, execute the recorded post-Grurple revival/composite-revival rotation priority, followed by the designed-instance Dashboard programme.
+
+
+## Paper-factory automation direction — 2026-09-22
+
+Treat proposal → website draft → peer review → revised website draft as an automation target, not a permanently manual ritual. Build bounded tooling where it removes legwork without laundering judgment. High-value automation candidates include:
+
+- manuscript/version manifest and state-machine tracking;
+- LaTeX compile → PDF → artifact staging/post handoff;
+- warning-header/watermark/display-state toggles;
+- reviewer fan-out packets, timestamps, freeze-state and disposition collection;
+- source/resource gathering and citation-candidate queues (human/source verification still required);
+- bibliography consistency, DOI/metadata checks where available, keyword/index generation and citation-gap linting;
+- comparison matrices and claim/source typing scaffolds;
+- archive/Mersearch retrieval packets;
+- relevant-news/literature candidate gathering;
+- website replacement/deactivation of stale displayed drafts;
+- elapsed-time/bottleneck detection and escalation.
+
+Prefer a manifest/state-machine plus idempotent Python utilities over one monolithic script. Automation may gather, transform, lint, compile, stage and route; it must not silently decide scientific correctness, provenance adequacy, reviewer dispositions, theory status, or quarantine clearance.
