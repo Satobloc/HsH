@@ -2,12 +2,12 @@
 
 **Status:** ACTIVE EMERGENCY PUBLICATION INTERLOCK  
 **Activated:** 2026-09-22 01:49 EDT by Nathan  
-**Standdown:** Nathan only; expected phrase may be “Code Black & White” or later chosen equivalent  
+**Standdown:** automatic when both papers complete all required review pass(es), revision/disposition, and current website posting; Nathan may stand down earlier  
 **Controlling standard:** `WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md`
 
 ## Mission
 
-Get the two incoming papers from Originator draft through independent active-instance review, consolidated commentary, Originator revision, Nathan-facing readiness, and visibly SANDBOXED website posting. Until standdown, this outranks ordinary project priorities; durable regular-work cursors are preserved rather than discarded.
+Get the two incoming papers from Originator draft through parallel independent review, consolidated commentary, Originator revision, Nathan-facing readiness where applicable, and visibly SANDBOXED current-version website posting. **Peer-to-posting is Tern's dominant Grurple job.** Reviewer silence does not block the train unless that reviewer/dependency was explicitly required. Outside consultants may join the parallel pool. Until standdown, this outranks ordinary project priorities; durable regular-work cursors are preserved rather than discarded.
 
 ## Active five-slot roster
 
@@ -25,7 +25,7 @@ Get the two incoming papers from Originator draft through independent active-ins
 
 ## Nathan
 
-Nathan is instigator and is working directly with Meridian and Mercer on the two drafts. Nathan also has steps outside the peer-review process before/after it. Nathan acknowledgment controls clearing of PAPER READY alerts. Nathan alone stands Code Grurple down.
+Nathan is instigator and is working directly with Meridian and Mercer on the two drafts. Nathan also has steps outside the peer-review process before/after it. Nathan acknowledgment controls clearing of PAPER READY alerts. Code Grurple now also has an automatic completion gate: once both papers have completed at least one peer-review pass, any additional pass requested by Nathan/Originator, corresponding revision/disposition, and current-version website posting, Tern may stand Grurple down automatically. Nathan may stand it down earlier.
 
 Nathan's current Paper-A revision posture is **be bold; this is the hot paper**. The review lane has operationalized that as: preserve the strong convergence thesis where it survives typing; operationalize the comparison criteria; keep the Hypothesis-H reduction/effective-sector question visible as a failure-capable research conjecture while distinguishing it from current established status; and make sentence-level claims more conservative where the evidence requires it.
 
@@ -83,3 +83,12 @@ Ordinary work is BACKSEAT/HOLD, not cancelled. Preserve exact return cursors. Th
 During Code Grurple, Tern samples new worker posts/commits before doing new substantive work. Route paper-ready drafts, questions, review comments, source/provenance findings, and website blockers immediately to the canonical paper packet or appropriate quarantine-safe interface. Do not make Meridian/Mercer conform to paperwork that slows drafting; their compliance is discretionary. The packet is a consolidation service, not author jurisdiction.
 
 Canonical packet template: `WORKSPACES/COMMON/CODE_GRURPLE_REVIEW_PACKET_TEMPLATE.md`.
+
+
+## Throughput correction — 2026-09-22
+
+Nathan set a 12-hour target for future rapid-paper cycles and identified the current ~24-hour dwell as too slow. Treat elapsed time as an operational signal. Do not wait for every rostered reviewer: use the expanded internal/outside-consultant pool in parallel, preserve independent-first review, freeze each review on return, and move the Originator into disposition/revision as soon as a sufficient pass is available. Requested second+ passes remain required; unrequested extra reviews are useful inputs but not automatic gates.
+
+Website state is versioned: an already-uploaded draft may remain provisional, be replaced by a newer draft, or have live display disabled. Posting an early draft does not close the paper; Grurple completion uses the current intended sandbox version after required review/revision.
+
+Pipeline-automation work is authorized when it directly reduces paper-cycle latency. First automation target should be a small manifest/state-machine and idempotent helpers for version tracking, LaTeX/PDF build/staging, review-state tracking, warning/display state, citation/resource candidate queues, indexing/linting, and stale-site-version detection. Do not automate scientific judgment or quarantine clearance.
