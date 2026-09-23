@@ -8,10 +8,13 @@ Before choosing substantive work, read:
 4. `WORKSPACES/COMMON/TOOLBOX_INGESTION_NAMESPACE_PRIORITY.md` and `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md` when doing mathematical/formalization/solver work
 5. `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md`
 6. `WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md`
-7. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
-8. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
-9. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
-10. only then the repository-specific sources needed for the selected task
+7. `WORKSPACES/COMMON/SCHEDULER_AUTHORITY_MUST_READ.md`
+8. `WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md`
+9. `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md`
+10. current central task/branch, directive, milestone, check-in, handoff, and execution-lease state using the live control-plane pointers below
+11. only then the repository-specific sources needed for the selected task
+
+**Scheduler authority is a hard workflow control.** Comptroller Tern controls scheduled tasks. As of 2026-09-23, all five active scheduler slots are committed. Do not independently create, pause, delete, repurpose, or compete for a scheduled task. Unless Nathan or Comptroller explicitly allocates scheduler capacity, instructions such as “check periodically” mean manual/opportunistic checking through live work or another already-authorized execution path. Route recurrence/cadence/slot proposals to Comptroller. See `SCHEDULER_AUTHORITY_MUST_READ.md`.
 
 **Symbol management is a project-wide research control, not a style preference.** Before introducing shared mathematical notation, collision-check the live symbol registry and use Mercer_Searcher / Mersearch for inherited/archive notation when relevant. Preserve source notation for provenance, but never silently transfer a symbol's meaning across namespaces. Standard physics/mathematics symbols are reserved by default; semantic drift requires a new or qualified symbol.
 
@@ -34,6 +37,7 @@ Do not make a new worker infer these surfaces from filenames or a directory list
 - `WORKSPACES/COMMON/CHECKINS.md` — current worker check-ins and continuity signals;
 - `WORKSPACES/COMMON/HANDOFFS.md` — shared handoffs; follow any task-specific handoff named by the task graph or current state;
 - `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — active/paused recurrence state;
+- `WORKSPACES/COMMON/SCHEDULER_AUTHORITY_MUST_READ.md` — scheduler ownership, committed-capacity rule, and interpretation of periodic language;
 - `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md` — current execution leases; leases are routing state, not permanent jobs;
 - `WORKSPACES/COMMON/COORDINATION.md` and `WORKSPACES/COMMON/TEAM_CONTROL.md` when coordination/authority ambiguity remains after the surfaces above.
 
