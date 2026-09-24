@@ -1,14 +1,13 @@
 {
-  "generated_at_utc": "2026-09-24T12:12:16.406725+00:00",
+  "generated_at_utc": "2026-09-24T14:17:53.677888+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 476,
+    "unchanged": 477,
     "skipped": 252,
-    "collision": 1,
-    "planned": 1
+    "collision": 1
   },
   "records": [
     {
@@ -6274,6 +6273,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-22T21:39:51.236000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1202,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
       "start_local": "2026-09-22T22:31:01.791000-04:00",
@@ -6454,16 +6463,6 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Science Made Stupid — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
-      "start_local": "2026-09-20T19:52:22.997694-04:00",
-      "end_local": "2026-09-22T21:39:51.236000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1202,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt",

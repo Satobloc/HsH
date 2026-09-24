@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-24T09:30:08+00:00`
-- Tree/content state: `59e5167ce28a5c0df45abead2a68e429ff08f648983870036772afd0bef94966`
-- Coverage: 2170 files, 140 directories
+- Scanned: `2026-09-24T14:41:59+00:00`
+- Tree/content state: `715436a4445ae43b139b0e9c4b0bdc80ee459cae26ea8995691c43275f305ac9`
+- Coverage: 2174 files, 140 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -19,7 +19,7 @@
 | `BEDROCK.md` | 1 |
 | `CONSULTANTS` | 4 |
 | `CONVERSATION_VIEWER` | 24 |
-| `DEVELOPMENT_FULL_CONVOS` | 822 |
+| `DEVELOPMENT_FULL_CONVOS` | 823 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 33 |
@@ -28,13 +28,13 @@
 | `LIVE CONVOS` | 37 |
 | `NEW_PAPERS` | 4 |
 | `ONBOARDING` | 1 |
-| `PUBLIC_SITE` | 38 |
+| `PUBLIC_SITE` | 39 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 952 |
+| `WORKSPACES` | 954 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -61,11 +61,11 @@
 | `.jpeg` | 98 |
 | `.jpg` | 25 |
 | `.js` | 14 |
-| `.json` | 619 |
+| `.json` | 620 |
 | `.jsonl` | 15 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 942 |
+| `.md` | 945 |
 | `.mjs` | 1 |
 | `.pdf` | 30 |
 | `.png` | 37 |
@@ -94,12 +94,12 @@
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 952 |
+| `llm-workspace` | 954 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 822 |
+| `source-conversation-corpus` | 823 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 5 |
-| `unclassified` | 252 |
+| `unclassified` | 253 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -518,7 +518,7 @@
 - `CONVERSATION_VIEWER/catalog_body_search.js` — 6524 bytes — `unclassified`
 - `CONVERSATION_VIEWER/conversation_ids.js` — 6049 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/annotations.json` — 49 bytes — `unclassified`
-- `CONVERSATION_VIEWER/data/conversations.json` — 424764 bytes — `unclassified`
+- `CONVERSATION_VIEWER/data/conversations.json` — 425614 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/discovered_external_conversations.json` — 6382 bytes — `unclassified`
 - `CONVERSATION_VIEWER/data/landmarks.json` — 45 bytes — `unclassified`
 - `CONVERSATION_VIEWER/index.html` — 6167 bytes — `unclassified`
@@ -1187,6 +1187,7 @@
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).txt` — 12408770 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.13•26.09.15•SABLE Revival Rotation — raw (2).txt` — 9190259 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.14•26.09.22•Revival Rotation — raw (2).json` — 1236469 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json` — 13525969 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json` — 6038359 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•GitHub search results — raw.json` — 2668378 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•MIRA — raw.json` — 2668364 bytes — `source-conversation-corpus`
@@ -1441,7 +1442,7 @@
 - `PUBLIC_SITE/Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md` — 37931 bytes — `unclassified`
 - `PUBLIC_SITE/Glass_Sausage_Factory_design_recommendations.md` — 6853 bytes — `unclassified`
 - `PUBLIC_SITE/NEWS_FEED.json` — 4835 bytes — `unclassified`
-- `PUBLIC_SITE/PAPERS_FEED.json` — 3821 bytes — `unclassified`
+- `PUBLIC_SITE/PAPERS_FEED.json` — 4529 bytes — `unclassified`
 - `PUBLIC_SITE/PODCAST_GUIDE_AUTHORITY.md` — 2050 bytes — `unclassified`
 - `PUBLIC_SITE/README.md` — 9808 bytes — `unclassified`
 - `PUBLIC_SITE/SITE_DEVELOPMENT_WORK_LOG.md` — 41606 bytes — `unclassified`
@@ -1453,6 +1454,7 @@
 - `PUBLIC_SITE/build_suggestions/2026-09-21__MERIDIAN__conversation-viewer-tts.md` — 4423 bytes — `unclassified`
 - `PUBLIC_SITE/build_suggestions/2026-09-21__MERIDIAN__structured-worker-site-update-consumer.md` — 2559 bytes — `unclassified`
 - `PUBLIC_SITE/build_suggestions/2026-09-21__TERN__live-new-papers-sandbox-workflow.md` — 1914 bytes — `unclassified`
+- `PUBLIC_SITE/build_suggestions/2026-09-24__MARLOWE__paper-rendering-shared-defect.md` — 4702 bytes — `unclassified`
 - `PUBLIC_SITE/build_suggestions/README.md` — 1507 bytes — `unclassified`
 - `PUBLIC_SITE/live_influx/2026-09-20__MERCER__hagalaz-representation-qa.md` — 4309 bytes — `unclassified`
 - `PUBLIC_SITE/live_influx/README.md` — 3514 bytes — `unclassified`
@@ -1643,7 +1645,7 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/notebooklm_full_exporter.js` — 15295 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/sync_old_archive_state.py` — 3935 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` — 6587 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` — 7145 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` — 6750 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ADDENDUM_4D_TOPOLOGICAL_MODEL_CLOSURE_AUDIT_2026-09-12.md` — 12259 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALBERR_DIRECT_REENTRY_SIGNAL_2026-09-22.md` — 2572 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ALBERR_HALL_OF_FIRST_PRINCIPLES.md` — 2398 bytes — `llm-workspace`
@@ -1668,6 +1670,8 @@
 - `WORKSPACES/COMMON/BULLETIN_BOARD.md` — 26067 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md` — 2193 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CALDER_GRURPLE_A_PATCH_REGRESSION_ALERT_2026-09-24.md` — 2667 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CALDER_GRURPLE_A_POSTING_OBSERVABILITY_CHECK_2026-09-24.md` — 2601 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CALDER_GRURPLE_SHARED_RENDERING_DEFECT_STATE_2026-09-24.md` — 3601 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md` — 8007 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md` — 4294 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 119539 bytes — `llm-workspace`
@@ -1884,7 +1888,7 @@
 - `WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md` — 9703 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORK_QUANTUM_AND_LARGE_SOURCE_FEEDER_STANDARD.md` — 7210 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/WORLDLINE_PULSAR_PAPER_CHECKIN_2026-09-12.md` — 19490 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl` — 693158902 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl` — 702964237 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_INDEX_2026-09-19.md` — 13438 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_18_SAT_RIGOR_CORRECTION_2026-09-20.md` — 4657 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/conversation_folder_index/SAT_CONVOS_19_ASTEROID_MINING_EXPORT_PAIR_2026-09-19.md` — 4680 bytes — `llm-workspace`
@@ -2574,16 +2578,16 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 189926 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 190159 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 3021 bytes — `generated-catalog`
-- `indexes/autotag/AUTOTAG_SUMMARY.md` — 307979 bytes — `generated-catalog`
-- `indexes/autotag/CONVERSATION_TAG_INDEX.md` — 231858 bytes — `generated-catalog`
+- `indexes/autotag/AUTOTAG_SUMMARY.md` — 307980 bytes — `generated-catalog`
+- `indexes/autotag/CONVERSATION_TAG_INDEX.md` — 232429 bytes — `generated-catalog`
 - `indexes/autotag/SCANNER_CHECKOUT_SHA.txt` — 41 bytes — `generated-catalog`
-- `indexes/autotag/conversation-tag-manifest.json` — 2597295 bytes — `generated-catalog`
-- `indexes/autotag/user-message-tags.jsonl` — 60545968 bytes — `generated-catalog`
+- `indexes/autotag/conversation-tag-manifest.json` — 2606897 bytes — `generated-catalog`
+- `indexes/autotag/user-message-tags.jsonl` — 61230566 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 325859 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 326348 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 6223 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/RUN_MANIFEST.json` — 1610 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/SEARCH_RESULTS.json` — 13862 bytes — `generated-catalog`
@@ -2591,20 +2595,20 @@
 - `indexes/mersearch_requests/2026-09-22-mira-boundary-weak-emission-provenance-002/RUN_MANIFEST.json` — 1648 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-mira-boundary-weak-emission-provenance-002/SEARCH_RESULTS.json` — 324041 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-mira-boundary-weak-emission-provenance-002/SEARCH_RESULTS.md` — 110003 bytes — `generated-catalog`
-- `indexes/nathan-direct/MANIFEST.json` — 1410 bytes — `generated-catalog`
-- `indexes/nathan-direct/README.md` — 1540 bytes — `generated-catalog`
+- `indexes/nathan-direct/MANIFEST.json` — 1411 bytes — `generated-catalog`
+- `indexes/nathan-direct/README.md` — 1541 bytes — `generated-catalog`
 - `indexes/nathan-direct/nathan-direct-2023.jsonl` — 1079012 bytes — `generated-catalog`
 - `indexes/nathan-direct/nathan-direct-2024.jsonl` — 1402650 bytes — `generated-catalog`
 - `indexes/nathan-direct/nathan-direct-2025.jsonl` — 29417817 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-2026.jsonl` — 63778470 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-lookup.jsonl` — 7936896 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2026.jsonl` — 64237771 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-lookup.jsonl` — 7972124 bytes — `generated-catalog`
 - `indexes/nathan-direct/stage2/MANIFEST.json` — 653 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/branch-context.jsonl` — 15986142 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/correction-refinement.jsonl` — 21752449 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/decision.jsonl` — 9361777 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/definition.jsonl` — 16964426 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/duplicate-provenance.jsonl` — 32023595 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/methodology.jsonl` — 17908758 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/branch-context.jsonl` — 16092577 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/correction-refinement.jsonl` — 21810148 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/decision.jsonl` — 9370216 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/definition.jsonl` — 16978361 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/duplicate-provenance.jsonl` — 32248631 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/methodology.jsonl` — 17919319 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`

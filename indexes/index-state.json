@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 2748586005,
+    "bytes_known": 2773541506,
     "directories": 140,
-    "files": 2170
+    "files": 2174
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -16,11 +16,11 @@
     ".jpeg": 98,
     ".jpg": 25,
     ".js": 14,
-    ".json": 619,
+    ".json": 620,
     ".jsonl": 15,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 942,
+    ".md": 945,
     ".mjs": 1,
     ".pdf": 30,
     ".png": 37,
@@ -46,12 +46,12 @@
     "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 952,
+    "llm-workspace": 954,
     "review-ledger": 5,
-    "source-conversation-corpus": 822,
+    "source-conversation-corpus": 823,
     "synthesis-workspace": 6,
     "tooling-test": 5,
-    "unclassified": 252,
+    "unclassified": 253,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -63,7 +63,7 @@
     "BEDROCK.md": 1,
     "CONSULTANTS": 4,
     "CONVERSATION_VIEWER": 24,
-    "DEVELOPMENT_FULL_CONVOS": 822,
+    "DEVELOPMENT_FULL_CONVOS": 823,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 33,
@@ -72,13 +72,13 @@
     "LIVE CONVOS": 37,
     "NEW_PAPERS": 4,
     "ONBOARDING": 1,
-    "PUBLIC_SITE": 38,
+    "PUBLIC_SITE": 39,
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 138,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 952,
+    "WORKSPACES": 954,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -1261,11 +1261,11 @@
       "size": 49
     },
     {
-      "content_id": "dd0d7c247f3761ab02055ec64788b14c55114679f6778593bb96ba00594e17b7",
+      "content_id": "74f28ffdd208a5b972c6d04c20b444b6857089fd7fdb772be514f58ee8f01ed0",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 424764
+      "size": 425614
     },
     {
       "content_id": null,
@@ -1275,7 +1275,7 @@
       "size": null
     },
     {
-      "content_id": "39aa22ad092312b0020d50053e7ba7cd0244e0663ffee991ca317508e20411cf",
+      "content_id": "6af87ce32ad502adb1f1624d8d11985d8212c665bff55da7c1db751dc76770c2",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -6112,6 +6112,13 @@
       "size": 1236469
     },
     {
+      "content_id": "f5b49770eb67a4c92121bf2aa06545fe099b10d4511adaf614a902a85277daa6",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
+      "role": "source-conversation-corpus",
+      "size": 13525969
+    },
+    {
       "content_id": "fec3d74a40497c2240b1e95c95758b1f6db3d9308ec33a1441321fd8824fc505",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•ARIADNE — raw.json",
@@ -8009,11 +8016,11 @@
       "size": 4835
     },
     {
-      "content_id": "70a00553a7bc59d056bf6e83268a1f081c8a5873e4bbf81d3812ddd41de56882",
+      "content_id": "2b2971b28f82462d4ba04214847417f7fafd341d80d1c58282196e7a9e7f81de",
       "kind": "blob",
       "path": "PUBLIC_SITE/PAPERS_FEED.json",
       "role": "unclassified",
-      "size": 3821
+      "size": 4529
     },
     {
       "content_id": "054c3ea6fb34dc26f2b6dbcf5c467c1a3facd49699b106438f08bff4b24e7171",
@@ -8112,6 +8119,13 @@
       "path": "PUBLIC_SITE/build_suggestions/2026-09-21__TERN__live-new-papers-sandbox-workflow.md",
       "role": "unclassified",
       "size": 1914
+    },
+    {
+      "content_id": "0f2a1b6f7a72b52a3500e828ccfdf59e768f8bff753ea5455151b0128410d413",
+      "kind": "blob",
+      "path": "PUBLIC_SITE/build_suggestions/2026-09-24__MARLOWE__paper-rendering-shared-defect.md",
+      "role": "unclassified",
+      "size": 4702
     },
     {
       "content_id": "e95ae3c6ada0e8e558ae91d428b0cdbfb2d2cc7b1a6109f0458a8c012bd1b006",
@@ -9591,11 +9605,11 @@
       "size": 6587
     },
     {
-      "content_id": "bdde1f3d3dee237311c3b9345c2e34418a5cad5093264dec063e777b9d4b7b37",
+      "content_id": "0d0f809768c61c64ea03b3743ebe71ed2270f8478715839456d6bb3cab33874c",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json",
       "role": "llm-workspace",
-      "size": 7145
+      "size": 6750
     },
     {
       "content_id": "ca8c8db58170d7285fb25c9d076cb8baf0116c367c8b88b9bea5d62b356847fd",
@@ -9778,6 +9792,20 @@
       "path": "WORKSPACES/COMMON/CALDER_GRURPLE_A_PATCH_REGRESSION_ALERT_2026-09-24.md",
       "role": "llm-workspace",
       "size": 2667
+    },
+    {
+      "content_id": "888f3b87b5f6022fd1bb0fcc06e19383879a1896283ec5364916f42ae2eb79a5",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CALDER_GRURPLE_A_POSTING_OBSERVABILITY_CHECK_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 2601
+    },
+    {
+      "content_id": "2072182dc9e102a2315f7854bed7e60129ba3bb673eb7c7c3ef1da9adec94558",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CALDER_GRURPLE_SHARED_RENDERING_DEFECT_STATE_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 3601
     },
     {
       "content_id": "ff0e66064ad76a1adb7b62c86c8729c597515cd8be5c216c3aca69e0770b4c7a",
@@ -11390,11 +11418,11 @@
       "size": null
     },
     {
-      "content_id": "5e024332810235624f2606202e3f0f4e50f90ca6b296a10900e206be5dfd0bcd",
+      "content_id": "50a017f25caa1b1ad18500ae6f574f6299d68e64e735e0ecc221d602b53b8803",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl",
       "role": "llm-workspace",
-      "size": 693158902
+      "size": 702964237
     },
     {
       "content_id": null,
@@ -16507,11 +16535,11 @@
       "size": null
     },
     {
-      "content_id": "14837ed86feb9a2835b23675b866d71369dd920e24c626eb09fa7fd490c183b0",
+      "content_id": "64fbe093674ca486e1442b49ba77167b46fd4c6130744b0a898483c800994556",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 189926
+      "size": 190159
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -16521,7 +16549,7 @@
       "size": 8625
     },
     {
-      "content_id": "17867ffa66013ceefadc67f93f5d16262146a281d17471a238a786ed689f4382",
+      "content_id": "a579b81734fddf1a1f0e847d47c0ff017fafc17711b88de1f4dee8d76a260a07",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16535,39 +16563,39 @@
       "size": null
     },
     {
-      "content_id": "5e9f9208185588a0639a7498ba41ab32b2de7186cdb06145ff4c1e044235e3b1",
+      "content_id": "0c822671f7b7f4bc55c7a6b8de7685c54b751d771a368d31c051a02212dc9256",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
-      "size": 307979
+      "size": 307980
     },
     {
-      "content_id": "fb0e6b9559fe3d45697aa8993b71ff0a4c66dd24a95e4319f1bc213ce471d1a7",
+      "content_id": "c1709033160a7a4f0cf7af86dd26366aeb302e377c085c5f9532cad6be25fd16",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
-      "size": 231858
+      "size": 232429
     },
     {
-      "content_id": "2f5766f69bb8940dc111edb404356abc38d33994bbe8d8f29113d8df2212ac22",
+      "content_id": "22ee149d93cb08a90087210f42a084ee60e1ad360d650226e2f675c7134ca4b0",
       "kind": "blob",
       "path": "indexes/autotag/SCANNER_CHECKOUT_SHA.txt",
       "role": "generated-catalog",
       "size": 41
     },
     {
-      "content_id": "93db342f670a692088f5f13c66e476fc0cd152c4aa920eab1d7bb0c86c205779",
+      "content_id": "c5557527fbb8ef1d7d0c2c3aa35688c8e52b08a4d5c648cd566766639eb4c580",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
-      "size": 2597295
+      "size": 2606897
     },
     {
-      "content_id": "70de154403454bb52472d97d77506ebb0624acce936c5ef45284e7ddfdfac745",
+      "content_id": "23e43312e56bc5230d64b2d10f20f4a36199cdeff85f5b8c1087adf1f78a2d7c",
       "kind": "blob",
       "path": "indexes/autotag/user-message-tags.jsonl",
       "role": "generated-catalog",
-      "size": 60545968
+      "size": 61230566
     },
     {
       "content_id": "af5ab767d3aba2b440dea4d05cf3f98ca7cb7339a1794e5923adefde155e3596",
@@ -16584,14 +16612,14 @@
       "size": null
     },
     {
-      "content_id": "dd89642d8ff5465eb991988cf62c57ce2735d83cadbd8a93b0b8cdc4b4439079",
+      "content_id": "2e730fb9841e6f220164d764572e852373e0bcbdd7fa037ad49664a19d50a7f0",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 325859
+      "size": 326348
     },
     {
-      "content_id": "089d432ccd609d84da89cdc25c6a75057b68cfe07d6957a468c660521074fbbe",
+      "content_id": "a64fb6b0cb7eeb3dc99441b1274ff894491d6a57f06cb7ef785ffd7eaae41597",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -16668,18 +16696,18 @@
       "size": null
     },
     {
-      "content_id": "e6c3bda18e4f6c93395ada2c0d1c9d0bd087a2f2470bdee02a034121ac448cb9",
+      "content_id": "15974145335a2630d9daa66e5cd35b1247a9b61efe2c74881ec5aa2567a3799c",
       "kind": "blob",
       "path": "indexes/nathan-direct/MANIFEST.json",
       "role": "generated-catalog",
-      "size": 1410
+      "size": 1411
     },
     {
-      "content_id": "d942f6049df543c04c9f2b691a8506f71f358b3f23f747697355776a6387e20f",
+      "content_id": "4698da2dd6e33751871b753df6f1437f2b832fbc2a89b1003c5cd9c074ecb8bc",
       "kind": "blob",
       "path": "indexes/nathan-direct/README.md",
       "role": "generated-catalog",
-      "size": 1540
+      "size": 1541
     },
     {
       "content_id": "74e22888e33aabe5f8ca4259bff048c829f18f71135b51486bfc22dccf898a9a",
@@ -16703,18 +16731,18 @@
       "size": 29417817
     },
     {
-      "content_id": "8dae63ef30fc38b8d15493e86464cadc3c14f7d503fc858ea710e4f317c4209f",
+      "content_id": "8e5905b10bff56ced3d90e53c05eddbb3fc78b91201c72edf4ac5875dbabff8b",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
       "role": "generated-catalog",
-      "size": 63778470
+      "size": 64237771
     },
     {
-      "content_id": "7375d5e4f74edc71b2999effa0735492ad09e970dfdc5653e14bb59826301065",
+      "content_id": "118d85d4dc0c94640b91282e650142c28ee4e5a4640e6cacd304377adccb2348",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
       "role": "generated-catalog",
-      "size": 7936896
+      "size": 7972124
     },
     {
       "content_id": null,
@@ -16724,53 +16752,53 @@
       "size": null
     },
     {
-      "content_id": "e89220ba587c4b52a84a9b4e8acc0651f05420bf2b3932a504f84752b14d048c",
+      "content_id": "55fab36169bf34cd602bcbdb9f20080659376a51cce025380bc5a6cac2666a83",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/MANIFEST.json",
       "role": "generated-catalog",
       "size": 653
     },
     {
-      "content_id": "f1f5985eae511d7631700b61168df677869ee03fc54aa4e6070c2123e83945f3",
+      "content_id": "d0884e39c86064ade2c7e0c10958502078eb02ff943375e399023cc73d743a84",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/branch-context.jsonl",
       "role": "generated-catalog",
-      "size": 15986142
+      "size": 16092577
     },
     {
-      "content_id": "e865fd5e0399eb355d39f91e37bfd0bab2f5c22f5e940ae2aa9d80bac86d8022",
+      "content_id": "3ffa05d224189560a98def6378da12bf0f9fc74a38c03a303bbc2b3fc7895771",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/correction-refinement.jsonl",
       "role": "generated-catalog",
-      "size": 21752449
+      "size": 21810148
     },
     {
-      "content_id": "dd57722e0e0dfb39e60d92a60bf9466380e11508b95561d14dd069993f9811af",
+      "content_id": "767504c4d2418e3c30c6350ca29f5a572282059528b8fb7e3ea28a0cb880151c",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/decision.jsonl",
       "role": "generated-catalog",
-      "size": 9361777
+      "size": 9370216
     },
     {
-      "content_id": "dcb280897205453056fe9a5fbd563d131cf41c9b49527d8454d86d9c8244d2d1",
+      "content_id": "9452691a00206d5def1663b5959cc2e8f3611c5f925b840d68e393a9facc3d90",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/definition.jsonl",
       "role": "generated-catalog",
-      "size": 16964426
+      "size": 16978361
     },
     {
-      "content_id": "e7441249d9623517fc4beb12dedc16da72b9b311bb2b189c58c313ec46725389",
+      "content_id": "bdb5547d0515d0aa8b8427b1001023d44a69ebe392803c36f50a71c101e6a6dc",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/duplicate-provenance.jsonl",
       "role": "generated-catalog",
-      "size": 32023595
+      "size": 32248631
     },
     {
-      "content_id": "7e2e2f45cd1ee2818507dfb77747060a881b1fa0255c24ae7937d42e6121eb44",
+      "content_id": "f87ec51443656e2a256147e55c00067f6605e2deddd1c571e0628c8a3fe7ae69",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/methodology.jsonl",
       "role": "generated-catalog",
-      "size": 17908758
+      "size": 17919319
     },
     {
       "content_id": null,
@@ -17068,8 +17096,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-24T09:30:08+00:00",
+  "scanned_at_utc": "2026-09-24T14:41:59+00:00",
   "schema_version": 1,
-  "tree_id": "59e5167ce28a5c0df45abead2a68e429ff08f648983870036772afd0bef94966",
+  "tree_id": "715436a4445ae43b139b0e9c4b0bdc80ee459cae26ea8995691c43275f305ac9",
   "tree_response_truncated": false
 }

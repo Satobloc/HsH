@@ -9,7 +9,7 @@ Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 - user messages: 26799
 - bulk winnow: 26759
 - parse errors: 1
-- structural-index gap candidates: 1
+- structural-index gap candidates: 0
 - buckets: `{'WINNOW:A-DIRECT-MESSAGE': 13749, 'WINNOW:B-ADJACENCY-RESCUE': 12026, 'WINNOW:D-DISCOURSE-ONLY': 850, 'DROP-FOR-NOW': 40, 'WINNOW:C-CONVERSATION-DISCOURSE': 134}`
 - relevance layers: `{'MESSAGE': 13749, 'ADJACENCY': 26138, 'CONVERSATION': 26770}`
 

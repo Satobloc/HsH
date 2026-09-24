@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-24T08:53:18.484092+00:00`
+- Generated: `2026-09-24T14:18:01.061584+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **477**
+- Dated conversation exports: **478**
 - Skipped non-conversation or unparseable files: **252**
 - Exact duplicate-content groups: **52**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -497,6 +497,7 @@
 | 2026-09-20 | 2026-09-20 | [Explain Sites_](../DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.20%E2%80%A226.09.20%E2%80%A2Explain%20Sites_%20%E2%80%94%20raw.json) | `HAGALAZ` | 369 |  |  |
 | 2026-09-20 | 2026-09-22 | [Nathan Words Excavator](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.22%E2%80%A2Nathan%20Words%20Excavator%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 385 |  |  |
 | 2026-09-20 | 2026-09-21 | [Science Made Stupid](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.21%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 979 |  |  |
+| 2026-09-20 | 2026-09-22 | [Science Made Stupid — raw (2).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20%E2%80%A226.09.22%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw%20%282%29.json) | `SAT_CONVOS_21` | 1202 |  |  |
 | 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 537 |  |  |
 | 2026-09-22 | 2026-09-23 | [GitHub search results](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2GitHub%20search%20results%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 |  |  |
 | 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 |  |  |
