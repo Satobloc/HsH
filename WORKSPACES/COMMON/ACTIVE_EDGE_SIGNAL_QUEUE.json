@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-24T05:20:00Z",
+  "updated": "2026-09-24T06:45:00Z",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
@@ -12,22 +12,23 @@
     {
       "signal_id": "SIG-20260922-GRURPLE-01",
       "signal_type": "PRIORITY_REWEIGHT",
-      "status": "ACTIVE_OVERRIDE_PAPER_A_BIBLIOGRAPHY_REGRESSION_REPAIR",
+      "status": "ACTIVE_OVERRIDE_PAPER_A_POST_RECOVERY_ACCEPTANCE_RERUN",
       "priority": "PROJECT_OVERRIDE_UNTIL_COMPLETION_GATE",
       "origin": "Nathan Direct 2026-09-22 01:49 EDT; subsequently refined by Live New Papers / Grurple controls",
       "title": "Code Grurple — two-paper rapid peer-review/publication interlock",
       "evidence": [
         "Paper B completed its reviewed/Originator-accepted R1 sandbox website lane and is completed-side hold unless a concrete defect/request reopens it.",
         "Paper A proposition-level chronology citations and external bibliography had previously been normalized and the earlier A2/A5 chronology/bibliography gate closed.",
-        "Commit 216d6db2cb8a8763d2c1567cae45981ff292b76e successfully applied the intended two residual source-narrowing prose edits but also rewrote references [1]-[11], regressing the previously normalized bibliography.",
-        "Calder regression alert commit 89f80965e14ba021d31163b2aed957c7d77ac471 blocks acceptance/posting pending exact bibliography restoration while retaining the intended two prose hunks.",
-        "Aster residual-patch acceptance check commit 24d46c6d6438cf34feb8c01ce2018bcb3b3941f8 confirms the two residual source-granularity defects themselves are closed on DRAFT_R1.tex blob 1e83a69f6ee376ea69fa87e13dd0c67a99f28862; this does not clear the independent bibliography regression."
+        "Commit 216d6db2cb8a8763d2c1567cae45981ff292b76e successfully applied the intended two residual source-narrowing prose edits but also rewrote references [1]-[11] and the Conclusion, creating a regression outside the intended two-hunk delta.",
+        "Calder regression-recovery patch CALDER_R1_REGRESSION_RECOVERY_PATCH_2026-09-24.diff identified both unintended regions and specified recovery while retaining the two intended SAT-comparison narrowing hunks.",
+        "Commit 58b0ed9c19c8dba123846c411d4ac8b7db5c0df9 applied the complete regression recovery patch to DRAFT_R1.tex: the normalized [1]-[11] block and integrity-checked Conclusion are restored while the intended residual-defect narrowing remains.",
+        "Comparison from the earlier normalized manuscript commit 627169409b7de482bb8c34cbb63f49d3f2346ad2 to 58b0ed9c shows DRAFT_R1.tex now differs by only two additions/two deletions, consistent with the intended bounded residual prose repair rather than the earlier collateral rewrite."
       ],
-      "switch": ["COMMUNICATION_SMOOTH", "FEED_FORWARD", "HOLD"],
+      "switch": ["FEED_FORWARD", "COMMUNICATION_SMOOTH", "HOLD"],
       "affected": ["Meridian", "Tern Rook", "Mercer Calder", "Aster", "Live New Papers", "PUBLIC_SITE"],
-      "incorporation_test": "Restore the immediately preceding integrity-checked normalized [1]-[11] reference block exactly while retaining only the intended two residual-defect prose edits from 216d6db2. Compare the successor manuscript against the pre-patch checked blob; expected semantic delta is the two intended prose hunks only. Do not rerun generic bibliography research or Nathan-source excavation.",
+      "incorporation_test": "Regression recovery is behaviorally consumed. Rerun the broader Paper-A acceptance gate against the exact DRAFT_R1.tex state at commit 58b0ed9c19c8dba123846c411d4ac8b7db5c0df9. Do not reopen closed A2/A5, bibliography archaeology, or generic Nathan-source excavation unless that gate identifies a concrete new defect.",
       "standdown": "Automatic when Paper A completes required acceptance/revision/disposition and the current intended version is visibly sandbox-posted; Paper B already satisfies its lane. Nathan may explicitly stand Code Grurple down earlier.",
-      "return_route": "After bibliography restoration and semantic-delta comparison pass, rerun the broader acceptance gate on the exact successor blob. If clean, freeze the accepted intended version and route through the existing SANDBOXED website-posting lane. On visible posting/standdown, immediately prioritize revival/composite-revival lease rotation, then the designed-instance Dashboard programme; restore preserved substantive branch cursors according to then-current priority state rather than blindly reverting to pre-Grurple ordering."
+      "return_route": "If the broader acceptance gate passes on the exact post-recovery manuscript state, freeze that accepted intended version and route it through the existing SANDBOXED website-posting lane. If it fails, route only the newly identified bounded defect. On visible posting/standdown, immediately prioritize revival/composite-revival lease rotation, then the designed-instance Dashboard programme; restore preserved substantive branch cursors according to then-current priority state rather than blindly reverting to pre-Grurple ordering."
     },
     {
       "id": "SIG-20260920-01", "type": "NIBBLE", "status": "NIBBLED_PASS", "target": "Braintrust Memorial Commons / Field Notes", "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and deposited a worker-origin Field Note.", "intent": "Test genuine worker-origin traffic.", "suggested_action": "Do not manufacture additional Commons traffic.", "exit": "PASS for first incorporation trial.", "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"
