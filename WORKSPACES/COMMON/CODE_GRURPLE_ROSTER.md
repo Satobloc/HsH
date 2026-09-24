@@ -2,62 +2,79 @@
 
 **Status:** ACTIVE EMERGENCY PUBLICATION INTERLOCK  
 **Activated:** 2026-09-22 01:49 EDT by Nathan  
-**Standdown:** automatic when both papers complete all required review pass(es), revision/disposition, and current website posting; Nathan may stand down earlier  
+**Standdown:** automatic when both papers complete all required review pass(es), revision/disposition, and current website posting  
 **Controlling standard:** `WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md`
 
 ## Mission
 
 Get the two incoming papers from Originator draft through independent review, consolidated commentary, Originator revision/disposition, and visibly SANDBOXED current-version website posting. Until standdown this outranks ordinary project priorities; durable regular-work cursors remain preserved.
 
-## Current routing — reconciled 2026-09-24
+## Current routing — reconciled 2026-09-24 after shared rendering defect
+
+Nathan reported that both public reviewed-paper routes expose raw/unformatted source markup. The defect is presentation-layer only unless contrary evidence appears. Do **not** reopen scientific/editorial manuscript work, source hardening, peer review, or PRIOR_ART work as a workaround.
 
 | Instance / lease | Grurple state | Immediate role / cursor |
 |---|---|---|
-| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — ACCEPTED R1 / POSTING LANE** | Do not reopen manuscript work absent a concrete regression or explicit request. Route accepted R1 blob `13d166e…` through the existing visible SANDBOXED website-posting lane and verify the posted version matches the accepted state. |
-| **Mercer** — Archive QA Loop | **PAPER B COMPLETE / PAPER A QA SUPPORT** | Paper B remains closed absent a concrete defect/request. For Paper A, support posting/version verification only; do not reopen chronology, bibliography, residual-patch, or generic source work. |
-| **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN** | No unrequested second formal review. Available only if a concrete post-acceptance defect or explicit request requires a bounded cross-read. |
-| **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current control state, verify Paper-A sandbox posting, and stand Code Grurple down automatically once the accepted current version is visibly posted. |
-| **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Do not manufacture review or manuscript dependencies. Preserve first-blush independence if a genuinely new independent review is explicitly routed. |
+| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — ACCEPTED R1 / PRESENTATION REPAIR** | Preserve accepted Paper-A blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`. Support the shared reader repair and verify the public route renders that accepted state; no manuscript rewrite absent a concrete manuscript regression or explicit request. |
+| **Mercer** — Archive QA Loop | **PAPERS A+B PRESENTATION QA** | Paper B is reopened only for the concrete shared rendering defect. Independently QA both repaired public routes against their pinned manuscript identities and the shared acceptance checklist. Do not reopen manuscript content. |
+| **Aster** — Nathan Words Excavator | **REVIEW FROZEN / CROSS-READ OPEN** | No unrequested second formal review. Available only if a concrete post-acceptance manuscript defect or explicit request requires a bounded cross-read. |
+| **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current control state; require repair and live verification of both paper routes before standdown. |
+| **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Site-capable worker may take the shared rendering repair. Do not manufacture manuscript/review dependencies. |
 
 ## Current paper slots
 
-| Slot | Originator | Title / packet | Current state | Nathan-ready |
+| Slot | Originator | Title / packet | Current state | Publication interlock |
 |---|---|---|---|---|
-| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACCEPTED / POSTING VERIFICATION REMAINS.** Regression recovery is complete. Post-recovery broader acceptance rerun passed on manuscript blob `13d166e…`; relative to the normalized baseline, the accepted successor contains only the two intended SAT-comparison narrowings. Existing SANDBOXED website-posting lane is now the sole Grurple-A critical path. | Manuscript gate passed; publication interlock remains until visible current-version posting is verified. |
-| **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **REVIEWED / ORIGINATOR-ACCEPTED R1 / SANDBOX WEBSITE STAGE RECORDED.** Lane complete unless a concrete defect/request reopens it. | Publication lane complete unless a concrete defect/request reopens it. |
+| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACCEPTED; PRESENTATION DEFECT OPEN.** Manuscript gate passed on blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`. | OPEN until actual reader route renders the accepted manuscript cleanly and preserves SANDBOX/review/provenance affordances. |
+| **GRURPLE-B** | Mercer | **A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments** — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **R1 REVIEWED/ORIGINATOR-ACCEPTED; PRESENTATION DEFECT OPEN.** Scientific/editorial lane remains closed; reviewed R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb` is pinned for presentation QA. | REOPENED only for the shared reader defect; closes when the actual public route renders the pinned R1 cleanly. |
 
-## Paper B closure boundary
+## Shared rendering defect — controlling handoff
 
-Paper B is no longer in source hardening or pre-review. Durable sequence includes:
+Repository diagnosis and the narrow repair/acceptance specification are recorded in:
 
-- `731e2fb5888b0aec856fd9e31319c39746514239` — Calder R1 Originator acceptance;
-- `96cb1b5b3b84c1e423098ace4e57db3e8d754f68` — reviewed R1 sandbox posting recorded;
-- `6979297c29b48e552593a1d1544ba89da779cf5b` — paper feed pointed to current sandbox site version;
-- `3c979c79cecb82f9cb6892da0b1491633b8dfdc0` — accepted Paper-B R1 sandbox website stage recorded.
+- `PUBLIC_SITE/build_suggestions/2026-09-24__MARLOWE__paper-rendering-shared-defect.md` — commit `9726b21d0f1146ac6231dbb35a0a949f3359a2bf`;
+- `WORKSPACES/COMMON/CALDER_GRURPLE_SHARED_RENDERING_DEFECT_STATE_2026-09-24.md` — commit `238e44eadc64c693f502f7288b091e23b42b32a0`.
 
-Do not restart source hardening, peer review, or manuscript polishing without a concrete defect or explicit request.
+Affected reader routes:
 
-## Paper A current evidence state
+- Paper A: `paper.html?id=convergent-motifs-r1`
+- Paper B: `paper.html?id=boundary-weak-emission-r1`
 
-The Paper-A manuscript gate is closed PASS for the accepted R1 state recorded in `CALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md` (commit `67d303bf7aff4babd24d8c67dbc014b5713f02d4`). The complete regression recovery preserved the normalized bibliography and prior Conclusion while retaining only the two intended SAT-comparison narrowings. The acceptance-to-posting handoff is recorded in `CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md` (commit `f30f7bbd7314a0a421b0fc71e938335a6c4b1bab`).
+The shared `sandbox_manuscript` presentation route must render source structurally rather than expose source markup. `.tex` and `.md` require format-appropriate handling; raw source may remain only as an explicitly labeled secondary view. A feed/card entry is not acceptance.
 
-Closed manuscript work includes A2/A5 chronology citation repair, bibliography [1]–[8] normalization/source saturation, the residual history/doctrine narrowing, regression recovery, and the broader acceptance rerun. Do not reopen any of those lanes without a concrete regression or explicit request.
+### Acceptance boundary
 
-The remaining Code Grurple operation is publication-state work: visibly SANDBOX-post the accepted current Paper-A version through the existing lane, verify version identity/state, then execute automatic Grurple standdown if Paper B remains closed.
+Before Grurple standdown, verify **both actual reader-facing routes**:
+
+1. headings/paragraphs render as document typography, not source commands/markers;
+2. inline/display mathematics is rendered rather than leaked as delimiters/source;
+3. citations/references and links remain legible and usable;
+4. long equations/references/URLs and narrow/mobile widths do not destroy layout;
+5. SANDBOX classification and review/provenance affordances remain visible;
+6. Paper A corresponds to accepted blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`;
+7. Paper B corresponds to reviewed R1 blob `0a1dca42cafd9a02faceff4ec0851659a317b2bb`.
+
+Repository/feed staging alone does not satisfy this gate. If the current worker lacks the live Sites publisher/editor, preserve the handoff rather than repeatedly probing an unobservable surface.
+
+## Closed manuscript boundaries
+
+Paper A manuscript work is closed PASS for the accepted R1 state recorded in `CALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md` (commit `67d303bf7aff4babd24d8c67dbc014b5713f02d4`). Closed work includes A2/A5 chronology citation repair, bibliography normalization/source saturation, residual history/doctrine narrowing, regression recovery, and broader acceptance rerun.
+
+Paper B source hardening, peer review, revision, and Originator acceptance remain closed. Its presentation defect does not invalidate those gates.
+
+Do not rewrite either manuscript to solve the rendering defect.
 
 ## Mira quarantine interlock
 
-Mira remains outside the active internal review corpus and quarantined. Her compliance with Code Grurple is discretionary. Do not expose quarantined/external material to authors/reviewers merely to satisfy the pipeline. Route only cleared operational answers across the boundary.
+Mira remains outside the active internal review corpus and quarantined. Do not expose quarantined/external material to authors/reviewers merely to satisfy the pipeline. Route only cleared operational answers across the boundary.
 
 ## Review traffic rule
 
-Independent review first; other commentary second. Once a reviewer freezes their one-turn review, cross-communication is open. A second formal review round requires Nathan or Originator request. Do not manufacture an additional review dependency merely because a reviewer slot once existed.
+Independent review first; other commentary second. Frozen reviews remain frozen. A second formal review round requires Nathan or Originator request; the shared presentation defect does not itself trigger one.
 
 ## Nathan / standdown
 
-Nathan is instigator and works directly with the Originators. Nathan's Paper-A posture remains: be bold, earn the strong thesis with typed evidence, and keep sentence-level claims bounded where evidence requires it.
-
-Code Grurple stands down automatically when both papers have completed the review/revision/disposition actually required for them and the current intended versions are visibly sandbox-posted. Paper B satisfies its lane. Paper A has passed its manuscript gate; visible current-version sandbox posting/verification is the remaining interlock.
+Code Grurple stands down automatically only after both intended current versions have completed their required manuscript gates **and both actual public reader routes have passed the shared rendering/version acceptance boundary above**. Nathan may stand down earlier.
 
 ## Handoff-link rule
 
@@ -75,4 +92,4 @@ Ordinary work remains BACKSEAT/HOLD rather than cancelled while Grurple is activ
 
 ## Provenance of this reconciliation
 
-This roster supersedes the stale residual-patch routing with the completed recovery and acceptance sequence recorded by commits `58b0ed9c19c8dba123846c411d4ac8b7db5c0df9`, `67d303bf7aff4babd24d8c67dbc014b5713f02d4`, and `f30f7bbd7314a0a421b0fc71e938335a6c4b1bab`. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
+This revision supersedes the pre-defect state that treated Paper B's publication lane as complete and Paper A posting verification as the sole remaining interlock. It preserves all completed manuscript gates while incorporating Nathan's concrete shared-rendering report and the bounded diagnosis/repair handoffs at commits `9726b21d0f1146ac6231dbb35a0a949f3359a2bf` and `238e44eadc64c693f502f7288b091e23b42b32a0`. Historical routing remains recoverable from Git history.
