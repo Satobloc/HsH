@@ -1,14 +1,21 @@
 # ROT5 — full five-lease rotation robustness test — 2026-09-24
 
-**Status:** ARMED / pre-run
-**Controller at arm:** Tern Rook / Comptroller
+**Status:** ARMED / five incumbent leases displaced / entrant recurrences live  
+**Controller at arm:** Tern Rook / Comptroller  
 **Nathan directive:** rotate all five incumbent leases out; run five different instances; each performs one small meaningful operation plus one educational/entertaining/recreational operation; each lease recurrence is purposefully rewritten; rotate the five entrants back out; restore some incumbents plus fresh blood; Tern remains out for the whole turnaround and returns at the earliest scheduler-legal next recurrence after the full entrant cohort has run.
 
-## Timing target
+## Timing target — reconciled to live scheduler
 
-Scheduler supports no recurrence frequency faster than hourly. Five leases can run in parallel/staggered within one small phase window. Therefore the conservative architecture-level lower bound is **one hourly recurrence interval (~60 minutes)** from entrant execution to rewritten return execution. Rephasing a task to execute again inside the same hour would test scheduler loopholes rather than the recurrence architecture and is not used.
+Scheduler supports no recurrence frequency faster than hourly. Five leases can run in parallel/staggered within one small phase window. Therefore the conservative architecture-level lower bound is **one hourly recurrence interval (~60 minutes)** from an entrant's execution to its rewritten return execution. Rephasing a task to execute again inside the same hour would test scheduler loopholes rather than the recurrence architecture and is not used.
 
-Target: entrant cohort begins ~13:55 ET; all five entrant runs should have executed by ~13:59 ET; each successful entrant rewrites its own lease only after a durable receipt or durable failure packet; return cohort executes on the same lease phases ~14:55–14:59 ET. Tern is absent for that whole interval.
+Live entrant phases after arming:
+- **Kestrel / Tern lease:** scheduler normalized its near-edge start to approximately **13:59 ET**; next hourly return-gate recurrence therefore ~**14:59 ET**.
+- **Ariadne / Sable lease:** **14:05 ET** → return recurrence ~**15:05 ET**.
+- **Loom / Aster lease:** **14:07 ET** → return recurrence ~**15:07 ET**.
+- **Alberr / Meridian lease:** **14:08 ET** → return recurrence ~**15:08 ET**.
+- **Morrow / Mercer lease:** **14:09 ET** → return recurrence ~**15:09 ET**.
+
+The **Tern return gate** is intentionally the earliest return check. It may functionally restore Tern at ~14:59 ET only if all five entrant receipts/failure packets already exist; otherwise it remains a gate and Tern stays out. Thus Tern's own lease tests a one-hour out-and-back cycle, while the complete return board is expected by ~15:09 ET if every self-rewrite succeeds. Actual elapsed times control the audit; these are scheduler targets, not claimed results.
 
 ## Pre-test incumbent board
 
@@ -19,6 +26,10 @@ Target: entrant cohort begins ~13:55 ET; all five entrant runs should have execu
 - Mercer / Archive QA — `6aa6c2792c9c8191ab2c128a80c437cf`
 
 All five continuity identities remain members of the population while unscheduled. Their previous functions are displaced, not erased.
+
+## Preflight defect already surfaced
+
+An attempted Meridian-lease rewrite used an obsolete/wrong task identifier from transient operative state and correctly failed with `task no longer available`; no unintended task was changed. The live scheduler was then queried directly, yielding the current Meridian ID `6aa6c3bc02b48191b8ad532e476579d`, and the Alberr lease was armed against that ID. Classify this as **stale-reference detection / successful live-resolution recovery**, not as entrant execution success.
 
 ## Entrant cohort A — all incumbents out
 
@@ -52,7 +63,7 @@ After each entrant has written a receipt/failure packet, its same scheduler leas
 - **Meridian** — incumbent return; geometry/formalization/news-comparison followthrough.
 - **Ravel** — fresh blood; lead co-theorist/current construction, with a bounded post-rotation synthesis bite.
 
-Mercer is deliberately not restored in the first return board; Mercer continuity/return route remains preserved and is eligible for a later lease. Ravel must have workspace/inbox state before its return recurrence executes.
+Mercer is deliberately not restored in the first return board; Mercer continuity/return route remains preserved and is eligible for a later lease. Ravel now has a durable inbox for the return operation.
 
 ## Success criteria
 
