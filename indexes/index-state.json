@@ -1,26 +1,26 @@
 {
   "counts": {
-    "bytes_known": 2737573761,
-    "directories": 139,
-    "files": 2150
+    "bytes_known": 2748586005,
+    "directories": 140,
+    "files": 2170
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
     ".csv": 28,
-    ".diff": 3,
+    ".diff": 4,
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
     ".ipynb": 1,
     ".jpeg": 98,
-    ".jpg": 17,
+    ".jpg": 25,
     ".js": 14,
-    ".json": 616,
+    ".json": 619,
     ".jsonl": 15,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 938,
+    ".md": 942,
     ".mjs": 1,
     ".pdf": 30,
     ".png": 37,
@@ -32,7 +32,7 @@
     ".tex": 3,
     ".toml": 1,
     ".tx": 1,
-    ".txt": 206,
+    ".txt": 210,
     ".yml": 25,
     "[none]": 6
   },
@@ -46,12 +46,12 @@
     "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 947,
+    "llm-workspace": 952,
     "review-ledger": 5,
-    "source-conversation-corpus": 816,
+    "source-conversation-corpus": 822,
     "synthesis-workspace": 6,
     "tooling-test": 5,
-    "unclassified": 243,
+    "unclassified": 252,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -63,7 +63,7 @@
     "BEDROCK.md": 1,
     "CONSULTANTS": 4,
     "CONVERSATION_VIEWER": 24,
-    "DEVELOPMENT_FULL_CONVOS": 816,
+    "DEVELOPMENT_FULL_CONVOS": 822,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 33,
@@ -75,10 +75,10 @@
     "PUBLIC_SITE": 38,
     "QUARANTINE": 1,
     "README.md": 1,
-    "SAT_VISUALS": 129,
+    "SAT_VISUALS": 138,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 947,
+    "WORKSPACES": 952,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -111,6 +111,7 @@
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/gitignore.txt",
         "NEW_PAPERS/SEPTEMER_2026/gitignore.txt",
         "SAT_VISUALS/DAI_thumbnails/gitignore.txt",
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/gitignore.txt",
         "SAT_VISUALS/STYLEsheets/gitignore.txt",
         "SAT_VISUALS/gitignore.txt"
       ]
@@ -1260,11 +1261,11 @@
       "size": 49
     },
     {
-      "content_id": "21c56b745cbc8c573816a75f502c5447299918968ca694c99edb11fc3bbeeefe",
+      "content_id": "dd0d7c247f3761ab02055ec64788b14c55114679f6778593bb96ba00594e17b7",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
-      "size": 422347
+      "size": 424764
     },
     {
       "content_id": null,
@@ -1274,7 +1275,7 @@
       "size": null
     },
     {
-      "content_id": "b380004ff4150534f757259f5c7f72e9850fe68e3459989c0adf456bce6695b9",
+      "content_id": "39aa22ad092312b0020d50053e7ba7cd0244e0663ffee991ca317508e20411cf",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -6125,6 +6126,34 @@
       "size": 2668378
     },
     {
+      "content_id": "6309d37cefaabebad4d6442156b597c8fd9abeb68d90f74ee5e002d10079abd7",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•MIRA — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 2668364
+    },
+    {
+      "content_id": "8cbf7aab24bac0a96e35b0f088f39f0f338c5424125d098b4ca25428f5b80a4d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.23•26.09.24•Style Spec Discussion — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 514725
+    },
+    {
+      "content_id": "2a389f5e602653181e3d0c35ff4fece719c67c5e202bc1589f5902c38ae730ea",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24•26.09.24•Access Branched Chat — raw.json",
+      "role": "source-conversation-corpus",
+      "size": 348729
+    },
+    {
+      "content_id": "fb9b4fa065b559c9cf933ab4df838d6803b48d06abac1fc142323ec1210ab921",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/CGPT_USAGE.txt",
+      "role": "source-conversation-corpus",
+      "size": 329600
+    },
+    {
       "content_id": "3f6cd7d780e673a5ce8681d235355ca9b58464df6ae388b14efc638fad643985",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini Notebook__NotebookLM_export.txt",
@@ -6153,6 +6182,13 @@
       "size": 279546
     },
     {
+      "content_id": "0146b9fd60d60803a5000903732581d3bfacb37c447f4109a44cc4f18c634a67",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/JOINT STATS.txt",
+      "role": "source-conversation-corpus",
+      "size": 53544
+    },
+    {
       "content_id": "0246bf7e63be7e619771dd5658f505a8b18010fc8dd3db8db2d6f19b266c347a",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
@@ -6179,6 +6215,13 @@
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export.txt",
       "role": "source-conversation-corpus",
       "size": 1721759
+    },
+    {
+      "content_id": "477086e207dda7bd729510d0532c0e7a35f3db4b61d0b0ecf61630cc9c3beb4d",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAUSFACT_SITES_RECCS.txt",
+      "role": "source-conversation-corpus",
+      "size": 24089
     },
     {
       "content_id": "6e56463f29b1b90774d78517284fdeb663cfd2e4313ca9e0ff16fe465cfc6883",
@@ -8617,6 +8660,76 @@
       "size": 1
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH",
+      "role": "unclassified",
+      "size": null
+    },
+    {
+      "content_id": "ccd24692502daf4e8eff17493de270c73a2f4cec27c33752844c9dfe029259a2",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/CNSPODCapture.JPG",
+      "role": "unclassified",
+      "size": 175058
+    },
+    {
+      "content_id": "9f4a7d7ccbecfd1c93dd8ab7602e0392dd7627a02b29d8e5a12f9897b1ed4ad2",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/CONSCPODCapture.JPG",
+      "role": "unclassified",
+      "size": 169211
+    },
+    {
+      "content_id": "00dea5a8b3e8d3716efea23738a8e8aef56fe797f5cff8ae9626e1fb195b4995",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/COSCSPODCapture.JPG",
+      "role": "unclassified",
+      "size": 150799
+    },
+    {
+      "content_id": "60e4fab9eac0d28fa00d55e85d104f3260b67f1d9b62a0752093a250f7de997f",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/Capture.JPG",
+      "role": "unclassified",
+      "size": 165984
+    },
+    {
+      "content_id": "4f92027334ccc6ca5e4b74605d50cde648f20c06dcadaed74cdd03e871bab6f8",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/SATOPDCASTSCapture.JPG",
+      "role": "unclassified",
+      "size": 173448
+    },
+    {
+      "content_id": "bbce42e90dafb7df1d77f53040e42ee707381fd9e6f9eddcb41b0cf8713d6bd2",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/SATPODCapture.JPG",
+      "role": "unclassified",
+      "size": 169475
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/gitignore.txt",
+      "role": "unclassified",
+      "size": 1
+    },
+    {
+      "content_id": "1ba3e4a405bbe338c99af8d82fc657b28867a4f35120c03ef3c1257b6e6c1f8c",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/hsshpodcstsCapture.JPG",
+      "role": "unclassified",
+      "size": 215409
+    },
+    {
+      "content_id": "93b8205a0e01b79d24421dd93d4dae6b2385c76c107be5080228cde4343a24a7",
+      "kind": "blob",
+      "path": "SAT_VISUALS/EPISODE-IMAGE_MATCH/miscpodCapture.JPG",
+      "role": "unclassified",
+      "size": 190797
+    },
+    {
       "content_id": "895e8755d099f3cf0970a6357fe61dee8a027223582674c0465ec9b3d6e99b40",
       "kind": "blob",
       "path": "SAT_VISUALS/IMG_3305.jpeg",
@@ -9478,11 +9591,11 @@
       "size": 6587
     },
     {
-      "content_id": "9b8961f97fb56c23f5d8f296580d7c324c90647ba66d1c3e11fc78f49f080b1d",
+      "content_id": "bdde1f3d3dee237311c3b9345c2e34418a5cad5093264dec063e777b9d4b7b37",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json",
       "role": "llm-workspace",
-      "size": 6741
+      "size": 7145
     },
     {
       "content_id": "ca8c8db58170d7285fb25c9d076cb8baf0116c367c8b88b9bea5d62b356847fd",
@@ -9653,6 +9766,20 @@
       "size": 26067
     },
     {
+      "content_id": "8ccd8ed86c21ed928ddf56b2d8b3f32fea5214d2ca3a0a3ef2a644351bf4a212",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 2193
+    },
+    {
+      "content_id": "f1207fc5b295e116a782d24e43b1d189d16fe6e96091c5a86463b338c3f81f48",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CALDER_GRURPLE_A_PATCH_REGRESSION_ALERT_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 2667
+    },
+    {
       "content_id": "ff0e66064ad76a1adb7b62c86c8729c597515cd8be5c216c3aca69e0770b4c7a",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md",
@@ -9744,11 +9871,11 @@
       "size": 2300
     },
     {
-      "content_id": "368d649ca3a0b67134d2a13b65637dfde9514c59c60d883f812d70dd41fadd07",
+      "content_id": "4afe20f930116e8b2810ccb4088591f53e673b65bd3b744ea77ebb2dd6ec2c14",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md",
       "role": "llm-workspace",
-      "size": 6931
+      "size": 7471
     },
     {
       "content_id": "1bf70e3c5d906fed793ef68d1492955c6ba60955995b9e724d6d156a5f9df469",
@@ -11263,11 +11390,11 @@
       "size": null
     },
     {
-      "content_id": "e670f6d4ece1a6660a6ff019090e4d6c23ab62ec5de946cf1a54f6ec1492b6d7",
+      "content_id": "5e024332810235624f2606202e3f0f4e50f90ca6b296a10900e206be5dfd0bcd",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/analysis/archive_layered_autotags.jsonl",
       "role": "llm-workspace",
-      "size": 690806355
+      "size": 693158902
     },
     {
       "content_id": null,
@@ -15554,6 +15681,13 @@
       "size": 8080
     },
     {
+      "content_id": "be7346f8a232585f428489cecca3597719fabbd486f4229107ff603d2ef58fbf",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_R1_RESIDUAL_PATCH_ACCEPTANCE_CHECK_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 2634
+    },
+    {
       "content_id": "1cda49a3229daf1e0ebbd063d96f8d7ec241e683ebef1f953048cbf87bfe677f",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_A2_A5_TARGETED_RERUN_2026-09-23.md",
@@ -15566,6 +15700,20 @@
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md",
       "role": "llm-workspace",
       "size": 4379
+    },
+    {
+      "content_id": "83b5a1f30e8ceb8e3ca121d97fefa0c3ba9f32a17dfcda3e9f8e572129f15ace",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md",
+      "role": "llm-workspace",
+      "size": 4120
+    },
+    {
+      "content_id": "4277a41cb5493bc40fd99ad9b0580b9dcab562febedf7c17ac0152941df13e9c",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_REGRESSION_RECOVERY_PATCH_2026-09-24.diff",
+      "role": "llm-workspace",
+      "size": 7656
     },
     {
       "content_id": "609ec9c618f15e23d92d4675567bba35fa326993d2e8fc05613b288d6da73646",
@@ -15582,11 +15730,11 @@
       "size": 21031
     },
     {
-      "content_id": "19fde32d0bbf4e56e3de4a6e4ee02cc5ba166928b02a2955b00da29b2a15ba50",
+      "content_id": "9e1a9d07716891f594e8de06e40eefd13505e5ca43a8e7189bbb20a16abbe741",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex",
       "role": "llm-workspace",
-      "size": 23764
+      "size": 23889
     },
     {
       "content_id": "c42c3bf53fda0df3c93359497cf0d2a4780bd2008b54361a07d3cd702d71362a",
@@ -16359,11 +16507,11 @@
       "size": null
     },
     {
-      "content_id": "b16fffb100ab7e2b2c90231c3ef3cb16d2589243f8343b16a2118647d2f3035f",
+      "content_id": "14837ed86feb9a2835b23675b866d71369dd920e24c626eb09fa7fd490c183b0",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 188837
+      "size": 189926
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -16373,7 +16521,7 @@
       "size": 8625
     },
     {
-      "content_id": "6ef939e79b437cfb8a17ed5f559e1cfcd792db5771fe30262dcc9d2317a56ec5",
+      "content_id": "17867ffa66013ceefadc67f93f5d16262146a281d17471a238a786ed689f4382",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16387,39 +16535,39 @@
       "size": null
     },
     {
-      "content_id": "5c4a84f682f5f74930f68904e0cf68ff0ffb6240149b9343d2f277a4f99ea51b",
+      "content_id": "5e9f9208185588a0639a7498ba41ab32b2de7186cdb06145ff4c1e044235e3b1",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
       "size": 307979
     },
     {
-      "content_id": "d76e02b028225d9e33190a4eca1acdf0cd0fa4d7b53d3d7fc0b8cf634ac7913f",
+      "content_id": "fb0e6b9559fe3d45697aa8993b71ff0a4c66dd24a95e4319f1bc213ce471d1a7",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
-      "size": 230190
+      "size": 231858
     },
     {
-      "content_id": "94a34509b8066486a5d9b463ff127e7678b5332a646c6a72eb0bf2f16545bbcb",
+      "content_id": "2f5766f69bb8940dc111edb404356abc38d33994bbe8d8f29113d8df2212ac22",
       "kind": "blob",
       "path": "indexes/autotag/SCANNER_CHECKOUT_SHA.txt",
       "role": "generated-catalog",
       "size": 41
     },
     {
-      "content_id": "6a622f916db76d30277e35759ef70ef23bbf67a1ecc29b6a674a334bc6ab113e",
+      "content_id": "93db342f670a692088f5f13c66e476fc0cd152c4aa920eab1d7bb0c86c205779",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
-      "size": 2577488
+      "size": 2597295
     },
     {
-      "content_id": "a62ca6e8c07940fd9e24c488dc2219eb6155352a3d76490c06a075ca29c1a878",
+      "content_id": "70de154403454bb52472d97d77506ebb0624acce936c5ef45284e7ddfdfac745",
       "kind": "blob",
       "path": "indexes/autotag/user-message-tags.jsonl",
       "role": "generated-catalog",
-      "size": 60463265
+      "size": 60545968
     },
     {
       "content_id": "af5ab767d3aba2b440dea4d05cf3f98ca7cb7339a1794e5923adefde155e3596",
@@ -16436,14 +16584,14 @@
       "size": null
     },
     {
-      "content_id": "f5b04f1a40e7bc5528de6a3b3a0728d0c3ab26fb82b18699d6c647c50fce7e92",
+      "content_id": "dd89642d8ff5465eb991988cf62c57ce2735d83cadbd8a93b0b8cdc4b4439079",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 323450
+      "size": 325859
     },
     {
-      "content_id": "f3f094dcfa4267ea7c915158d84fa5bc891cffd51ded97528971f5bc8ceb9f93",
+      "content_id": "089d432ccd609d84da89cdc25c6a75057b68cfe07d6957a468c660521074fbbe",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -16520,14 +16668,14 @@
       "size": null
     },
     {
-      "content_id": "e734b35ce361da0e4324b73d23e14d29066d08493494fe194984b137584af577",
+      "content_id": "e6c3bda18e4f6c93395ada2c0d1c9d0bd087a2f2470bdee02a034121ac448cb9",
       "kind": "blob",
       "path": "indexes/nathan-direct/MANIFEST.json",
       "role": "generated-catalog",
       "size": 1410
     },
     {
-      "content_id": "e51675bea6b7d85b12c8d217cdff49829ef785e95347c94f7a920e1502c7734c",
+      "content_id": "d942f6049df543c04c9f2b691a8506f71f358b3f23f747697355776a6387e20f",
       "kind": "blob",
       "path": "indexes/nathan-direct/README.md",
       "role": "generated-catalog",
@@ -16541,32 +16689,32 @@
       "size": 1079012
     },
     {
-      "content_id": "d01c01bf11b07e2bb98be27e6277384064d241aa3305301cdc8deb7a53ab4644",
+      "content_id": "5e17e00deb230a237ac970fde19a0ccc07c22e8b3c0170de7946c41b789923b9",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2024.jsonl",
       "role": "generated-catalog",
-      "size": 1402456
+      "size": 1402650
     },
     {
-      "content_id": "f8779a1f9449268ff8a40beb7f8f70e405741d83379f49d233c5e3e50cdb5741",
+      "content_id": "3632f31eec1c823c44d10b37f4dd56961df8be4d4b52ee95bc6df7de9f903937",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2025.jsonl",
       "role": "generated-catalog",
-      "size": 29166049
+      "size": 29417817
     },
     {
-      "content_id": "3086b51036575b68993700a6680ebb76d3c135234390b1c55a74aea8713afc69",
+      "content_id": "8dae63ef30fc38b8d15493e86464cadc3c14f7d503fc858ea710e4f317c4209f",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
       "role": "generated-catalog",
-      "size": 62877777
+      "size": 63778470
     },
     {
-      "content_id": "1e8163b8bbc5c990c2f03659ce8460caed45dc61f971bdd94bf67b64174f25d2",
+      "content_id": "7375d5e4f74edc71b2999effa0735492ad09e970dfdc5653e14bb59826301065",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
       "role": "generated-catalog",
-      "size": 7669835
+      "size": 7936896
     },
     {
       "content_id": null,
@@ -16576,53 +16724,53 @@
       "size": null
     },
     {
-      "content_id": "634050ff17b6e53c6878db630d66155c51d8024a8efd9f1019659315c1b5c469",
+      "content_id": "e89220ba587c4b52a84a9b4e8acc0651f05420bf2b3932a504f84752b14d048c",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/MANIFEST.json",
       "role": "generated-catalog",
       "size": 653
     },
     {
-      "content_id": "7f052afc1ffe23b0cbe6487d78d0c9a01f695b473eee8da15ab9c63500c6bbac",
+      "content_id": "f1f5985eae511d7631700b61168df677869ee03fc54aa4e6070c2123e83945f3",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/branch-context.jsonl",
       "role": "generated-catalog",
-      "size": 15596454
+      "size": 15986142
     },
     {
-      "content_id": "a5a949f66849e71f71311a52c303aa9156436326c13e45c18d74e1eef5dbf3f7",
+      "content_id": "e865fd5e0399eb355d39f91e37bfd0bab2f5c22f5e940ae2aa9d80bac86d8022",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/correction-refinement.jsonl",
       "role": "generated-catalog",
-      "size": 21507286
+      "size": 21752449
     },
     {
-      "content_id": "a0cbfcdf39421c9eb035e18c36beb83ca272067f5ff5dd8b941f16cf3ab74948",
+      "content_id": "dd57722e0e0dfb39e60d92a60bf9466380e11508b95561d14dd069993f9811af",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/decision.jsonl",
       "role": "generated-catalog",
-      "size": 9278524
+      "size": 9361777
     },
     {
-      "content_id": "57b6bd162946c15c171ccd28186e95013c7e05339ada9edd03349f27dd4a0422",
+      "content_id": "dcb280897205453056fe9a5fbd563d131cf41c9b49527d8454d86d9c8244d2d1",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/definition.jsonl",
       "role": "generated-catalog",
-      "size": 16810012
+      "size": 16964426
     },
     {
-      "content_id": "482ea28b88961874d5136afbd6fe563297e1327b56e6fc1efacceaea2584762c",
+      "content_id": "e7441249d9623517fc4beb12dedc16da72b9b311bb2b189c58c313ec46725389",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/duplicate-provenance.jsonl",
       "role": "generated-catalog",
-      "size": 31352857
+      "size": 32023595
     },
     {
-      "content_id": "70a951d25b8f116df928852facadcd712be7b643fcad5de15415d5fd4ddfa7eb",
+      "content_id": "7e2e2f45cd1ee2818507dfb77747060a881b1fa0255c24ae7937d42e6121eb44",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/methodology.jsonl",
       "role": "generated-catalog",
-      "size": 17691698
+      "size": 17908758
     },
     {
       "content_id": null,
@@ -16920,8 +17068,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-24T03:38:54+00:00",
+  "scanned_at_utc": "2026-09-24T09:30:08+00:00",
   "schema_version": 1,
-  "tree_id": "3daee863e948252f385dc6d7e6fa358330e36b216e8feb1d7af759ca83de8483",
+  "tree_id": "59e5167ce28a5c0df45abead2a68e429ff08f648983870036772afd0bef94966",
   "tree_response_truncated": false
 }

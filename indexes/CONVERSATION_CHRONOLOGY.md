@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-24T03:02:06.481157+00:00`
+- Generated: `2026-09-24T08:53:18.484092+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **474**
-- Skipped non-conversation or unparseable files: **249**
+- Dated conversation exports: **477**
+- Skipped non-conversation or unparseable files: **252**
 - Exact duplicate-content groups: **52**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -499,6 +499,9 @@
 | 2026-09-20 | 2026-09-21 | [Science Made Stupid](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/26.09.20%E2%80%A226.09.21%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `SAT_CONVOS_19` | 979 |  |  |
 | 2026-09-22 | 2026-09-23 | [ARIADNE](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2ARIADNE%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 537 |  |  |
 | 2026-09-22 | 2026-09-23 | [GitHub search results](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2GitHub%20search%20results%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 |  |  |
+| 2026-09-22 | 2026-09-23 | [MIRA](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22%E2%80%A226.09.23%E2%80%A2MIRA%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 266 |  |  |
+| 2026-09-23 | 2026-09-24 | [Style Spec Discussion](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.23%E2%80%A226.09.24%E2%80%A2Style%20Spec%20Discussion%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 75 |  |  |
+| 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_21` | 47 |  |  |
 
 ## Exact duplicate-content groups
 
@@ -992,14 +995,17 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/[[[ H (( s )) H ]]]__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/%5B%5B%5B%20H%20%28%28%20s%20%29%29%20H%20%5D%5D%5D__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/untitled_unhinged.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_20/untitled_unhinged.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/CGPT_USAGE.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/CGPT_USAGE.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini Notebook__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini%20Notebook__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(norm)H TRAD__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H%28norm%29H%20TRAD__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H CLASSIC__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H%28s%29H%20CLASSIC__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H(s)H STEAMROLLER__NotebookLM_export (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/H%28s%29H%20STEAMROLLER__NotebookLM_export%20%281%29.txt) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/JOINT STATS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/JOINT%20STATS.txt) — Expecting value: line 3 column 1 (char 2)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT%20%28Almost%29%20From%20Scratch__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT GIGAPACK__NotebookLM_export (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT%20GIGAPACK__NotebookLM_export%20%281%29.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export (1).txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT%20RIGOR__NotebookLM_export%20%281%29.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT RIGOR__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT%20RIGOR__NotebookLM_export.txt) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAUSFACT_SITES_RECCS.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAUSFACT_SITES_RECCS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1.%20SAT%20PURE__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV5. SAT PREDICTIONS__NotebookLM_export.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV5.%20SAT%20PREDICTIONS__NotebookLM_export.txt) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/[[H.txt](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/%5B%5BH.txt) — no usable conversation or message timestamps
