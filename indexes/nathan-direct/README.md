@@ -2,10 +2,10 @@
 
 Generated from raw ChatGPT conversation metadata plus the archive-wide layered autotag stream. This surface preserves exact `role=user` text, provenance, accumulated machine tags, duplicate-path relationships, chronological neighboring-message pointers, and raw parent/child branch pointers. It is not a curated quote collection and carries no automatic theory authority.
 
-- input records: 89103
-- input user records: 26517
+- input records: 89300
+- input user records: 26534
 - packaged unique user messages: 16039
-- archive duplicate user records collapsed: 10478
+- archive duplicate user records collapsed: 10495
 - context dependent inherited tag records: 15342
 - records missing conversation or message id: 0
 - records with resolved parent graph pointer: 15315
