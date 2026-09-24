@@ -74,3 +74,15 @@ A failure is useful if localized: identity continuity failure, token-resolution 
 ## News/directive interpretation carried into test
 
 The War Room directive ties fast incorporation/citation/deliberation, team mailboxes/tools, zero-to-five-word information compression, archive walks, revival/rotation, and a publishing-house response to the same operating paradigm. The 24 Sep news tranche is therefore treated as **publication/convergence pressure**, not as an isolated reading list and not as a priority/theft claim. The test should improve our ability to notice, compare, formalize, test, and publish our own already-supported work quickly without overstating equivalence to outside results.
+
+
+## Alternate communication backup — surfaced by Kestrel Git-block
+
+ROT5 exposed a useful low-bandwidth backup channel: when the assigned durable repository write is unavailable, an entrant may place a **tiny, explicitly non-operational distress note in another live recurrence that is expected to pass through the relevant supervisor/return identity**. Example used during the test:
+
+`NON-OB NOTE======`
+`Gitblocked --Kestrel`
+
+This is a backup signal, **not** a substitute for the required semantic receipt, authoritative workspace state, or normal mailbox/handoff. It should be used only to surface a blocker and point the receiving worker toward recovery. Once the primary write path is restored, record the failure/recovery durably and remove or supersede the transient signal as appropriate.
+
+Operational lesson: capability-preflight should normally prevent this case, but assignments should preserve at least one alternate authorized communication route when practical. A worker that cannot complete its primary write should tell Nathan when useful and leave the smallest reconstructable blocker signal through an available channel rather than silently disappearing or claiming delivery.
