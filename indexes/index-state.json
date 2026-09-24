@@ -1,13 +1,14 @@
 {
   "counts": {
-    "bytes_known": 2737448519,
+    "bytes_known": 2737573761,
     "directories": 139,
-    "files": 2122
+    "files": 2150
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
     ".csv": 28,
+    ".diff": 3,
     ".docx": 1,
     ".htm": 1,
     ".html": 1,
@@ -15,11 +16,11 @@
     ".jpeg": 98,
     ".jpg": 17,
     ".js": 14,
-    ".json": 615,
-    ".jsonl": 14,
+    ".json": 616,
+    ".jsonl": 15,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 916,
+    ".md": 938,
     ".mjs": 1,
     ".pdf": 30,
     ".png": 37,
@@ -28,7 +29,7 @@
     ".scsyndef": 1,
     ".srt": 3,
     ".svg": 3,
-    ".tex": 2,
+    ".tex": 3,
     ".toml": 1,
     ".tx": 1,
     ".txt": 206,
@@ -45,7 +46,7 @@
     "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 919,
+    "llm-workspace": 947,
     "review-ledger": 5,
     "source-conversation-corpus": 816,
     "synthesis-workspace": 6,
@@ -77,7 +78,7 @@
     "SAT_VISUALS": 129,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 919,
+    "WORKSPACES": 947,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -1259,7 +1260,7 @@
       "size": 49
     },
     {
-      "content_id": "f8158c3c98c489214c39aface0615494a99ae4152b536627aa68f12a242c062f",
+      "content_id": "21c56b745cbc8c573816a75f502c5447299918968ca694c99edb11fc3bbeeefe",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -1273,7 +1274,7 @@
       "size": null
     },
     {
-      "content_id": "8e439996e679d2a6fd9a7a203312db870b4260978d66c831763d9b7f811a17f1",
+      "content_id": "b380004ff4150534f757259f5c7f72e9850fe68e3459989c0adf456bce6695b9",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -9477,11 +9478,11 @@
       "size": 6587
     },
     {
-      "content_id": "dd28219c11eda87a2e4ee5c7249802eaf2d8437decc6ca26c9789c28c340e539",
+      "content_id": "9b8961f97fb56c23f5d8f296580d7c324c90647ba66d1c3e11fc78f49f080b1d",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json",
       "role": "llm-workspace",
-      "size": 9605
+      "size": 6741
     },
     {
       "content_id": "ca8c8db58170d7285fb25c9d076cb8baf0116c367c8b88b9bea5d62b356847fd",
@@ -9701,6 +9702,34 @@
       "size": 9292
     },
     {
+      "content_id": "dce1079ce76e4583ed850ea3e41f6ddcab994aedb2a6be434ab2df484c201209",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CLONE_FORENSICS_SAMPLE_DATE_RECON_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5230
+    },
+    {
+      "content_id": "8f67de371e2ba29d269475ab1f00b335fadb85dd31d299722a7bf348130f4b7f",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CLONE_LEDGER.jsonl",
+      "role": "llm-workspace",
+      "size": 6995
+    },
+    {
+      "content_id": "5ae3e07d6e1518042526c8f6e749b7da5420283e8df1d1f933bb72f9cb4c9726",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md",
+      "role": "llm-workspace",
+      "size": 2071
+    },
+    {
+      "content_id": "7bf41440d068e87853e138ed5be1b51d9b49c9f35994b9b2736740afe3b04278",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CODE_GRURPLE_ASTER_HANDOFF_2026-09-23T2211.md",
+      "role": "llm-workspace",
+      "size": 2417
+    },
+    {
       "content_id": "cc533a135f086f7c8228ad20f873581375d089d0f725ea0e089249a9834b8723",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CODE_GRURPLE_FIREHOSE.md",
@@ -9715,11 +9744,18 @@
       "size": 2300
     },
     {
-      "content_id": "75503e693f7982512a21d1fca590a16c1a487b00d7d5d5b4ec0be284891e1464",
+      "content_id": "368d649ca3a0b67134d2a13b65637dfde9514c59c60d883f812d70dd41fadd07",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md",
       "role": "llm-workspace",
-      "size": 15746
+      "size": 6931
+    },
+    {
+      "content_id": "1bf70e3c5d906fed793ef68d1492955c6ba60955995b9e724d6d156a5f9df469",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/CODE_GRURPLE_STATUS_2026-09-23T1254.md",
+      "role": "llm-workspace",
+      "size": 3483
     },
     {
       "content_id": "81e20ad230e7697cbadf633661fcb88480005261e8b6fbb585558c4b66be6e4f",
@@ -9951,6 +9987,13 @@
       "path": "WORKSPACES/COMMON/GLASS_SAUSAGE_FACTORY_VOICE_ROUTER.md",
       "role": "llm-workspace",
       "size": 3438
+    },
+    {
+      "content_id": "be370591e98511e0295bd83e082173492cd8327ef536a0977b6655a4d5828ae7",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/GRURPLE_A_POST_BIBLIOGRAPHY_ROUTING_CORRECTION_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2568
     },
     {
       "content_id": "2a0a07143bc29b5b64054547a22b0d587150d6e9b04d4dc01250d77524aa3046",
@@ -10245,6 +10288,13 @@
       "path": "WORKSPACES/COMMON/MINIMUM_THEORY_PREREQUISITES.md",
       "role": "llm-workspace",
       "size": 5278
+    },
+    {
+      "content_id": "8951352c040f16ec48d1956dd56d8e8af09f835e2490aa0d135f007b14b0a4ab",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/MIRA_LICENSE_PROVENANCE_ADVICE_REQUEST_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 6710
     },
     {
       "content_id": "8b919c2c8c586449d3871ef10d92e06f182d21a50c5888c31c4e20acfdcad99b",
@@ -10793,6 +10843,13 @@
       "size": 5513
     },
     {
+      "content_id": "826d7e5e70a9d525e7e3d6630663eb3f13b2ba76e731211a9c528247434921d2",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/PRUNING_EVENT_LOG.md",
+      "role": "llm-workspace",
+      "size": 4852
+    },
+    {
       "content_id": "88657c45d8422c8f489b9ec8929a6dc8f7475463b0c68a69188eb5a77e4ab34d",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/QNA_TRIAGE_QUEUE.md",
@@ -11003,6 +11060,20 @@
       "size": 3545
     },
     {
+      "content_id": "b6763534d40ae29d1da40c575a34727f535f47e00b85fd32f8638419232c0b96",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-23_GRURPLE_A_EXTERNAL_BIBLIOGRAPHY_APPLICATION_GATE.md",
+      "role": "llm-workspace",
+      "size": 2154
+    },
+    {
+      "content_id": "edf026b827028e30e76f3056dfccc6a1817bd1493a1097b84f4ee0617a32c1b4",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-23_GRURPLE_A_P3_PATCH_APPLICATION_GATE.md",
+      "role": "llm-workspace",
+      "size": 2115
+    },
+    {
       "content_id": "f5aef67d5c3a270e140216ba63cef484fef4693d18628bc7892b59850ac97ac5",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/SIGNAL_DISPOSITIONS/2026-09-23_GRURPLE_B_FIRST_REVIEW_INCORPORATION.md",
@@ -11036,6 +11107,13 @@
       "path": "WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json",
       "role": "llm-workspace",
       "size": 16939
+    },
+    {
+      "content_id": "6f1e8d5fd5ed9b83e4da4656afdfff027053c23253073f45bcdb8088111252b8",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/TASK_BRANCH_GRAPH_GRURPLE_RECONCILIATION_2026-09-23.json",
+      "role": "llm-workspace",
+      "size": 3721
     },
     {
       "content_id": "73610a9648fb16bcf9519a54ba3631c2060c785c497bef5283baf81ccb91c7c0",
@@ -11143,11 +11221,11 @@
       "size": 2218
     },
     {
-      "content_id": "d87394efa4e5f1c3b4e7b63555419be1cb47b281d7aaad154cf0f9155c07b03b",
+      "content_id": "2a7cea03f2ab6ead60ab4060b8f73ac5433292ab58e031ba15ac388c0c653e64",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
       "role": "llm-workspace",
-      "size": 15449
+      "size": 17224
     },
     {
       "content_id": "a8f908fde06dc5b3cea3115b04912358bbcb03790aa7eea134b950bb9185ee15",
@@ -15455,11 +15533,81 @@
       "size": 10318
     },
     {
+      "content_id": "94567db184f35af9c4cd9e54ab7a0285fa4faf817c506d3ac5d2f00adb9b4564",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_P1_PRIMARY_TARGET_SPOTCHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2509
+    },
+    {
+      "content_id": "f39c406f9ba3c068f20c96d34a49eeff40589f57d97f60f4cedbebd0260af023",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_POST_PATCH_INTEGRITY_CHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2310
+    },
+    {
+      "content_id": "bd8f956b6134a944e0ecb391bc1c05ae8a0b907e9c265ae7aa30fc61b7087564",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_R1_LOCAL_CLAIM_TYPING_PASS_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 8080
+    },
+    {
+      "content_id": "1cda49a3229daf1e0ebbd063d96f8d7ec241e683ebef1f953048cbf87bfe677f",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_A2_A5_TARGETED_RERUN_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2445
+    },
+    {
+      "content_id": "6d66b0acad08126cf2d16a73b00e8a70b3840d26e51cd1310a212a16b39f8973",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 4379
+    },
+    {
+      "content_id": "609ec9c618f15e23d92d4675567bba35fa326993d2e8fc05613b288d6da73646",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_RESIDUAL_DEFECT_NARROWING_PATCH_2026-09-23.diff",
+      "role": "llm-workspace",
+      "size": 4146
+    },
+    {
       "content_id": "98b245f0e2174cf1cd3308b28c5e03195d819490cde1ca10c7af37021b4a4c67",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R0.tex",
       "role": "llm-workspace",
       "size": 21031
+    },
+    {
+      "content_id": "19fde32d0bbf4e56e3de4a6e4ee02cc5ba166928b02a2955b00da29b2a15ba50",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex",
+      "role": "llm-workspace",
+      "size": 23764
+    },
+    {
+      "content_id": "c42c3bf53fda0df3c93359497cf0d2a4780bd2008b54361a07d3cd702d71362a",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/MERIDIAN_P2_PRIMARY_TARGET_SPOTCHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2946
+    },
+    {
+      "content_id": "37b86f5a13582b3410fac27e03a41164b333e158ed09ae744dc6dde2a62499d6",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/MERIDIAN_P3_PRIMARY_TARGET_SPOTCHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2242
+    },
+    {
+      "content_id": "cab9d5df1cd2dfd42e9b6d532188719fff84952850cd3cdf031bbfa20729f213",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/MERIDIAN_R1_BIBLIOGRAPHY_HANDOFF_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 2066
     },
     {
       "content_id": "f939c407cee0b8c2d3461022ba740f3910e2785487f6acd617b7d7874d366a03",
@@ -15469,11 +15617,39 @@
       "size": 31678
     },
     {
+      "content_id": "a6249065e46f1db4e721251b843189be50f6135357c405e5327180db71e61fb4",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_A2_A5_CITATION_PATCH_2026-09-23.diff",
+      "role": "llm-workspace",
+      "size": 4711
+    },
+    {
+      "content_id": "361113ae2603a9e8c337f8802ba0164c7a56d5af3a61e1235181fdaac0d688e5",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_ASSEMBLY_CHECKPOINT_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 3054
+    },
+    {
+      "content_id": "3d1661f0a517c3dd2d7735c21605bce87484831300978a8319a6c752ed0f785a",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_BIBLIOGRAPHY_NORMALIZATION_PASS_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 6801
+    },
+    {
       "content_id": "7227a9e1086cc8e37755d6d7cf51b4e7402f4a8da137a9a837e5a6a66a4509e2",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_DIMENSIONAL_GRAVITY_PRIMARY_INCORPORATION_2026-09-23.md",
       "role": "llm-workspace",
       "size": 5319
+    },
+    {
+      "content_id": "34b4c4a29bb42054a8227e835bd7950b23cb9b7c0de3c00f5e44e7834b1a83bb",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_EXTERNAL_BIBLIOGRAPHY_PATCH_2026-09-23.diff",
+      "role": "llm-workspace",
+      "size": 2668
     },
     {
       "content_id": "62bce4dc5c17691b22f7f3d7a689dba86e3fc09e4d6c023be7e70d4aa98bcf63",
@@ -15490,6 +15666,13 @@
       "size": 11141
     },
     {
+      "content_id": "73ba4747c29e1fd023286f94764d4d6db2a211ff7785dc75bbfae70bfe089657",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_PROVENANCE_ASSEMBLY_PACKET_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5337
+    },
+    {
       "content_id": "b579361b76378327258b707f0c861ece610dcf794a02b300a103089ad545a175",
       "kind": "blob",
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_PUBLIC_ARCHIVE_RELEASE_DUAL_SOURCE_RECONCILIATION_2026-09-23.md",
@@ -15502,6 +15685,13 @@
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_PUBLIC_ARCHIVE_RELEASE_PRIMARY_INCORPORATION_2026-09-23.md",
       "role": "llm-workspace",
       "size": 4538
+    },
+    {
+      "content_id": "ce0ed46afec425dd33e452ab68dc36cce630e0b84afb01713f9be5ae4f0ee93c",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/R1_SAT_PROPOSITION_CITATION_NORMALIZATION_PACKET_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5811
     },
     {
       "content_id": "e629dd672da6cb83d4180fc445d603ab4d4371d9525af1bc44a66a5af54ac0ec",
@@ -15551,6 +15741,13 @@
       "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/SOURCE_HARDENING_R0_TO_R1_2026-09-22.md",
       "role": "llm-workspace",
       "size": 6749
+    },
+    {
+      "content_id": "9551d82edeccd55babf41bf7e82a0be9813324c9d9ddf922efadff5b5f8d229f",
+      "kind": "blob",
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/TERN_R1_INCORPORATION_FIDELITY_CHECK_2026-09-23.md",
+      "role": "llm-workspace",
+      "size": 5097
     },
     {
       "content_id": null,
@@ -15868,11 +16065,11 @@
       "size": 5746
     },
     {
-      "content_id": "f534731727b69215d292b24e0705a84a755e2da60dc383e7ed22e03f6f8d0d38",
+      "content_id": "730353446412ac8405c1bb6e88137583a47688c9798ff828e3fe0cbbc1cdb11f",
       "kind": "blob",
       "path": "WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md",
       "role": "llm-workspace",
-      "size": 2708
+      "size": 7172
     },
     {
       "content_id": "3c08d65f5d163e1a267ad4f00ff4edc1de59b682532bbe5293875afaabfdb24c",
@@ -16162,7 +16359,7 @@
       "size": null
     },
     {
-      "content_id": "6e83ba8d741185ea0ce10b947ae22d275391830b052fbcc24988ae2167cc5121",
+      "content_id": "b16fffb100ab7e2b2c90231c3ef3cb16d2589243f8343b16a2118647d2f3035f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16176,7 +16373,7 @@
       "size": 8625
     },
     {
-      "content_id": "c9ee3b53da6f590e18a75af06b43dd7e42718679f79e5f7b42df06204b435332",
+      "content_id": "6ef939e79b437cfb8a17ed5f559e1cfcd792db5771fe30262dcc9d2317a56ec5",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16190,14 +16387,14 @@
       "size": null
     },
     {
-      "content_id": "a90ab83bf7d6537d8c8486bf6ec53d6ab6bfd083b4ce7d7cc07ee328032ea741",
+      "content_id": "5c4a84f682f5f74930f68904e0cf68ff0ffb6240149b9343d2f277a4f99ea51b",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
       "size": 307979
     },
     {
-      "content_id": "83d291cbff7d52fd888a773f8129aa90cf7f4e18efd16547498dfaebe322b356",
+      "content_id": "d76e02b028225d9e33190a4eca1acdf0cd0fa4d7b53d3d7fc0b8cf634ac7913f",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
@@ -16211,7 +16408,7 @@
       "size": 41
     },
     {
-      "content_id": "5b2c04cca43ff7a23330985a03600041456b522bac18485a9776788ad37eac93",
+      "content_id": "6a622f916db76d30277e35759ef70ef23bbf67a1ecc29b6a674a334bc6ab113e",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
@@ -16239,14 +16436,14 @@
       "size": null
     },
     {
-      "content_id": "0231b11e703137dc6ffe2adfb197390cb4df89a9e512c8a82a0fdb69c8c86242",
+      "content_id": "f5b04f1a40e7bc5528de6a3b3a0728d0c3ab26fb82b18699d6c647c50fce7e92",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 323450
     },
     {
-      "content_id": "959d662843a5c559420fc6e465587f433eb227b365fef141468d4d9711806874",
+      "content_id": "f3f094dcfa4267ea7c915158d84fa5bc891cffd51ded97528971f5bc8ceb9f93",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -16723,8 +16920,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-23T16:23:36+00:00",
+  "scanned_at_utc": "2026-09-24T03:38:54+00:00",
   "schema_version": 1,
-  "tree_id": "8477ca43dbcf9b98c5ecb40f342a2dc0edbbacaae72c694d9ea1db3e72a71f98",
+  "tree_id": "3daee863e948252f385dc6d7e6fa358330e36b216e8feb1d7af759ca83de8483",
   "tree_response_truncated": false
 }
