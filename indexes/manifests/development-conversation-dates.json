@@ -1,13 +1,14 @@
 {
-  "generated_at_utc": "2026-09-24T04:59:56.648896+00:00",
+  "generated_at_utc": "2026-09-24T07:15:47.775204+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 473,
-    "skipped": 249,
-    "collision": 1
+    "skipped": 252,
+    "collision": 1,
+    "planned": 3
   },
   "records": [
     {
@@ -6293,6 +6294,28 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Access Branched Chat — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.24•26.09.24•Access Branched Chat — raw.json",
+      "start_local": "2026-09-24T02:30:40.154000-04:00",
+      "end_local": "2026-09-24T03:01:59.480073-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 47,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/CGPT_USAGE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Gemini Notebook__NotebookLM_export.txt",
       "new_path": null,
       "start_local": null,
@@ -6341,6 +6364,28 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/JOINT STATS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/MIRA — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.22•26.09.23•MIRA — raw.json",
+      "start_local": "2026-09-22T22:41:26.805000-04:00",
+      "end_local": "2026-09-23T00:20:58.350176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 266,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
       "new_path": null,
       "start_local": null,
@@ -6387,6 +6432,28 @@
       "warnings": [
         "no usable conversation or message timestamps"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAUSFACT_SITES_RECCS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Style Spec Discussion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.23•26.09.24•Style Spec Discussion — raw.json",
+      "start_local": "2026-09-23T23:48:33.673000-04:00",
+      "end_local": "2026-09-24T02:28:11.668317-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 75,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt",
