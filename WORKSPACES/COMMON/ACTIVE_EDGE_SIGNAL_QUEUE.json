@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-23T23:55:00Z",
+  "updated": "2026-09-24T02:05:00Z",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
@@ -12,21 +12,22 @@
     {
       "signal_id": "SIG-20260922-GRURPLE-01",
       "signal_type": "PRIORITY_REWEIGHT",
-      "status": "ACTIVE_OVERRIDE_PAPER_A_ACCEPTANCE_POSTING_GATE",
+      "status": "ACTIVE_OVERRIDE_PAPER_A_BOUNDED_ACCEPTANCE_FIX",
       "priority": "PROJECT_OVERRIDE_UNTIL_COMPLETION_GATE",
       "origin": "Nathan Direct 2026-09-22 01:49 EDT; subsequently refined by Live New Papers / Grurple controls",
       "title": "Code Grurple — two-paper rapid peer-review/publication interlock",
       "evidence": [
         "Paper B completed its reviewed/Originator-accepted R1 sandbox website lane and is completed-side hold unless a concrete defect/request reopens it.",
-        "Paper A R1 proposition-level SAT chronology citations [9]-[11] were incorporated and targeted A2/A5 rerun closed PASS.",
-        "Paper A external bibliography [1]-[8] normalization was applied to DRAFT_R1.tex at commit 627169409b7de482bb8c34cbb63f49d3f2346ad2.",
-        "The previous bibliography-application feed stall is therefore cleared; Paper A now advances to broader acceptance/posting rather than further citation-patch preparation."
+        "Paper A proposition-level chronology citations [9]-[11] and external bibliography [1]-[8] are incorporated; the earlier A2/A5 chronology/bibliography gate is closed.",
+        "Calder broader acceptance gate at commit 7e3688a08f0a63b854e9c0b962d0d1d714e36eaa checked DRAFT_R1.tex blob 66e098cf7470c027852927f75727c0b4a94461ba and returned HOLD on exactly two residual source-granularity defects.",
+        "Residual defect 1: later-development motif bundle lacks local dated primary support and must preserve worldline-to-worldtube chronology or be narrowed.",
+        "Residual defect 2: continuous-underlying-geometry / emergent-discreteness doctrine sentence needs current Nathan-primary support for both halves or narrower construction-specific wording."
       ],
       "switch": ["FEED_FORWARD", "COMMUNICATION_SMOOTH", "HOLD"],
       "affected": ["Meridian", "Tern Rook", "Mercer Calder", "Aster", "Live New Papers", "PUBLIC_SITE"],
-      "incorporation_test": "Run the broader Paper-A acceptance gate on the exact post-normalization manuscript state produced by commit 627169409b7de482bb8c34cbb63f49d3f2346ad2 (or a later state only if changes are explicitly accounted for). If accepted, freeze the accepted state and feed it into visible sandbox posting. Do not reopen A2/A5 or bibliography archaeology unless the acceptance gate exposes a concrete defect in those areas.",
+      "incorporation_test": "Originator/Meridian/available provenance worker closes only the two residual defects identified in CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md on a successor R1 blob. Then rerun the broader acceptance gate against that exact blob. Do not reopen generic bibliography excavation, the closed A2/A5 chronology-citation work, or initiate another formal review round solely because of these two bounded defects.",
       "standdown": "Automatic when Paper A completes its required acceptance/revision/disposition and current intended version is visibly sandbox-posted; Paper B already satisfies its lane. Nathan may explicitly stand Code Grurple down earlier.",
-      "return_route": "On standdown, immediately prioritize revival/composite-revival lease rotation, then the designed-instance Dashboard programme; restore preserved substantive branch cursors according to then-current priority state rather than blindly reverting to pre-Grurple ordering."
+      "return_route": "If both residual defects are source-controlled or narrowed without regression, freeze the accepted intended version and route through the existing SANDBOXED website-posting lane. On visible posting/standdown, immediately prioritize revival/composite-revival lease rotation, then the designed-instance Dashboard programme; restore preserved substantive branch cursors according to then-current priority state rather than blindly reverting to pre-Grurple ordering."
     },
     {
       "id": "SIG-20260920-01", "type": "NIBBLE", "status": "NIBBLED_PASS", "target": "Braintrust Memorial Commons / Field Notes", "evidence": "Comptroller/Tern took one genuine bounded park-walk on 2026-09-20 and deposited a worker-origin Field Note.", "intent": "Test genuine worker-origin traffic.", "suggested_action": "Do not manufacture additional Commons traffic.", "exit": "PASS for first incorporation trial.", "return_route": "WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md"
