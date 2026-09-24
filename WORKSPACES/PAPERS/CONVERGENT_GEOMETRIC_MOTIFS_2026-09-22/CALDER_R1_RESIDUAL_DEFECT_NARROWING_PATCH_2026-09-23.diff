@@ -1,0 +1,30 @@
+# GRURPLE-A — bounded residual-defect narrowing patch
+# Branch/task: CODE-GRURPLE-20260922 / GRURPLE-A / R1 acceptance
+# Base manuscript blob: 66e098cf7470c027852927f75727c0b4a94461ba
+# Purpose: close only the two residual source-granularity defects identified in
+# CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md by narrowing unsupported
+# historical/doctrinal generalizations. No new historical claim is introduced.
+# Exposure: ordinary HsH/public project surfaces only; no PRIOR_ART/private quarantine.
+
+--- a/WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex
++++ b/WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex
+@@
+-Across later development, recurring elements have included extended four-dimensional histories, worldlines and later finite-core worldtubes; angular misalignment; twist and torsion; recursive coiling and braiding; slice/intersection readout; and discrete sectors associated with closure, winding, holonomy or recurrent modes. This history is not a completed derivation of the Standard Model, general relativity or quantum field theory. Several historical SAT numerical and formal claims have subsequently been downgraded or reopened under audit. The relevant comparison is therefore architectural, not evidentiary.
++For the present comparison, the documented early lineage supports extended paths and lower-dimensional intersection/readout constructions [9], while the surviving Fundamental Intuitions source supports a later filament/time-surface/intersection formulation [10]. We do not use those sources to assign mature worldtube, braiding, holonomy, or recurrent-sector language to the earlier strata. This history is not a completed derivation of the Standard Model, general relativity or quantum field theory. Several historical SAT numerical and formal claims have subsequently been downgraded or reopened under audit. The relevant comparison is therefore architectural, not evidentiary.
+@@
+-At that architectural level, the overlap with the SAT-free synthesis is direct enough to merit explicit study. SAT repeatedly asks whether distinctions normally introduced as separate physical labels can instead be represented as differences of geometric state, orientation, transport, closure class or observer/readout intersection. Its later development increasingly favors continuous underlying geometry with discrete observable sectors emerging through topological or recurrent restrictions. This is structurally close to the boxed synthesis even though the component mathematics and physical commitments differ.
++At that architectural level, the overlap with the SAT-free synthesis is direct enough to merit explicit study. The documented constructions used here motivate asking whether some distinctions normally introduced as separate physical labels can instead be represented through geometric state or observer/readout intersection. The stronger possibilities involving orientation, transport, closure, holonomy, or emergent discrete sectors are treated below as comparison targets and tests, not as historical or current-doctrine claims established by [9]--[10]. This is structurally close to the boxed synthesis even though the component mathematics and physical commitments differ.
+
+# Acceptance intent
+# - Defect 1: removes the unsourced later-development motif bundle and replaces it
+#   with claims bounded to the already-local [9] and [10] source envelopes.
+# - Defect 2: removes the unsourced continuous-geometry/emergent-discreteness doctrine
+#   sentence and explicitly demotes the stronger motifs to comparison targets/tests.
+# - Preserve the existing later table/test language as authorial research targets;
+#   do not read this patch as establishing those motifs as SAT historical doctrine.
+#
+# Next cursor: apply only if DRAFT_R1.tex still has base blob 66e098cf... or after
+# explicit three-way reconciliation; verify no unrelated manuscript changes; rerun
+# CALDER broader acceptance gate against the exact successor blob. If PASS, route
+# through the existing SANDBOXED website-posting lane. Do not reopen A2/A5 chronology
+# or generic bibliography work.
