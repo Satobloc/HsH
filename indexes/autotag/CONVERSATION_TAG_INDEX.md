@@ -2,80 +2,80 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 612
-- conversation exports recognized: 446
+- JSON files scanned: 614
+- conversation exports recognized: 448
 - non-conversation JSON skipped: 165
 - parse errors: 1
-- structural-index gap candidates: 0
+- structural-index gap candidates: 2
 
 ## Topic coverage
 
-- `PHYSICS`: 389 conversations
-- `GEOMETRY`: 361 conversations
-- `MATHEMATICS`: 347 conversations
-- `CODING`: 342 conversations
-- `INTERACTIONS`: 332 conversations
-- `LANGUAGE`: 328 conversations
-- `SAT-HSH`: 327 conversations
-- `GRAVITY`: 320 conversations
-- `PROVENANCE-HISTORY`: 315 conversations
-- `DEFINITION-CANDIDATE`: 312 conversations
-- `QUANTUM`: 305 conversations
-- `WRITING`: 304 conversations
-- `PARTICLE-PHYSICS`: 299 conversations
-- `TOPOLOGY-MORPHOLOGY`: 299 conversations
-- `HISTORY`: 298 conversations
-- `TOPOLOGY`: 298 conversations
-- `MODEL-VS-REALITY`: 297 conversations
-- `DIMENSIONALITY`: 295 conversations
+- `PHYSICS`: 391 conversations
+- `GEOMETRY`: 363 conversations
+- `MATHEMATICS`: 349 conversations
+- `CODING`: 344 conversations
+- `INTERACTIONS`: 333 conversations
+- `LANGUAGE`: 330 conversations
+- `SAT-HSH`: 329 conversations
+- `GRAVITY`: 321 conversations
+- `PROVENANCE-HISTORY`: 317 conversations
+- `DEFINITION-CANDIDATE`: 314 conversations
+- `QUANTUM`: 306 conversations
+- `WRITING`: 306 conversations
+- `TOPOLOGY-MORPHOLOGY`: 301 conversations
+- `HISTORY`: 300 conversations
+- `PARTICLE-PHYSICS`: 300 conversations
+- `TOPOLOGY`: 300 conversations
+- `MODEL-VS-REALITY`: 299 conversations
+- `DIMENSIONALITY`: 296 conversations
 - `INTERSECTION-READOUT`: 292 conversations
-- `ARCHIVE-INDEXING`: 287 conversations
+- `ARCHIVE-INDEXING`: 289 conversations
+- `VISUALIZATION`: 287 conversations
 - `ALGEBRA`: 285 conversations
-- `VISUALIZATION`: 285 conversations
-- `COSMOLOGY`: 284 conversations
-- `PHILOSOPHY`: 282 conversations
-- `LAW-LEGAL`: 279 conversations
+- `COSMOLOGY`: 285 conversations
+- `PHILOSOPHY`: 284 conversations
+- `LAW-LEGAL`: 280 conversations
+- `METRIC`: 278 conversations
 - `CROSSWALK-CANDIDATE`: 277 conversations
-- `METRIC`: 277 conversations
-- `4D-THINKING`: 270 conversations
-- `RELATIVITY`: 269 conversations
-- `BIOLOGY`: 261 conversations
+- `4D-THINKING`: 271 conversations
+- `RELATIVITY`: 270 conversations
+- `BIOLOGY`: 263 conversations
+- `MUSIC-AUDIO`: 261 conversations
 - `QUANTIZATION`: 261 conversations
-- `MUSIC-AUDIO`: 259 conversations
-- `AI-LLM`: 255 conversations
-- `HELIX-GEOMETRY`: 253 conversations
-- `ART-DESIGN`: 244 conversations
-- `CALCULUS`: 243 conversations
+- `AI-LLM`: 257 conversations
+- `HELIX-GEOMETRY`: 255 conversations
+- `ART-DESIGN`: 246 conversations
+- `CALCULUS`: 245 conversations
 - `LAGRANGIAN`: 242 conversations
-- `GITHUB-REPO`: 238 conversations
+- `GITHUB-REPO`: 240 conversations
 - `PROBABILITY-STATS`: 237 conversations
-- `NESTING`: 234 conversations
+- `NESTING`: 235 conversations
+- `OPTICS`: 233 conversations
 - `DATA-PROCESSING`: 232 conversations
-- `OPTICS`: 232 conversations
+- `BRAIDING`: 231 conversations
 - `HOLONOMY`: 231 conversations
-- `BRAIDING`: 230 conversations
 - `TIMESHEET`: 221 conversations
-- `WORLDLINE`: 212 conversations
+- `WORLDLINE`: 213 conversations
 - `BLACK-HOLES`: 209 conversations
 - `ELECTROMAGNETISM`: 207 conversations
-- `CHEMISTRY`: 197 conversations
+- `CHEMISTRY`: 198 conversations
 - `THERMODYNAMICS`: 184 conversations
 - `AUTOMATION`: 184 conversations
 - `PHOTON-NEUTRINO`: 173 conversations
-- `SPHERES`: 169 conversations
-- `NEUROSCIENCE`: 163 conversations
-- `WORK-CAREER`: 158 conversations
-- `FILM-MEDIA`: 156 conversations
-- `WORLDTUBE`: 149 conversations
-- `IMAGE-PHOTOGRAPHY`: 148 conversations
+- `SPHERES`: 170 conversations
+- `NEUROSCIENCE`: 165 conversations
+- `WORK-CAREER`: 160 conversations
+- `FILM-MEDIA`: 158 conversations
+- `WORLDTUBE`: 151 conversations
+- `IMAGE-PHOTOGRAPHY`: 150 conversations
 - `WHIRLIGIG-DONUT`: 148 conversations
 - `ASTRONOMY`: 145 conversations
-- `ASTROPHYSICS`: 137 conversations
+- `ASTROPHYSICS`: 138 conversations
 - `UI`: 127 conversations
 - `SUPERSESSION-CANDIDATE`: 123 conversations
-- `LEAN-FORMALIZATION`: 112 conversations
-- `EDUCATION`: 99 conversations
-- `FINITE-CORE`: 99 conversations
+- `LEAN-FORMALIZATION`: 114 conversations
+- `EDUCATION`: 100 conversations
+- `FINITE-CORE`: 100 conversations
 - `C-TYPING`: 84 conversations
 - `POLITICS-POLICY`: 69 conversations
 - `INTERBRAID`: 69 conversations
@@ -2464,6 +2464,20 @@
 - messages/user: 197/17
 - density: 0.939086; top retrieval score: 77.36
 - topics: `4D-THINKING`, `AI-LLM`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `AUTOMATION`, `BIOLOGY`, `BRAIDING`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `FILM-MEDIA`, `GEOLOGY`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`, `HOLONOMY`, `IMAGE-PHOTOGRAPHY`, `INTERACTIONS`
+
+### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Access Branched Chat — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: Access Branched Chat
+- messages/user: 24/12
+- density: 0.958333; top retrieval score: 94.0
+- topics: `4D-THINKING`, `AI-LLM`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `BIOLOGY`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `FILM-MEDIA`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`, `IMAGE-PHOTOGRAPHY`, `LANGUAGE`, `LAW-LEGAL`, `LEAN-FORMALIZATION`, `MATHEMATICS`, `METRIC`
+
+### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Style Spec Discussion — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: Style Spec Discussion
+- messages/user: 20/10
+- density: 1.0; top retrieval score: 94.0
+- topics: `AI-LLM`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTROPHYSICS`, `BIOLOGY`, `BRAIDING`, `CALCULUS`, `CODING`, `DEFINITION-CANDIDATE`, `FILM-MEDIA`, `FINITE-CORE`, `GEOMETRY`, `GITHUB-REPO`, `HELIX-GEOMETRY`, `HISTORY`, `IMAGE-PHOTOGRAPHY`, `INTERACTIONS`, `LANGUAGE`, `LEAN-FORMALIZATION`, `MATHEMATICS`, `MODEL-VS-REALITY`, `MUSIC-AUDIO`, `NESTING`, `NEUROSCIENCE`
 
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json`
 
