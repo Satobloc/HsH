@@ -9,22 +9,22 @@
 
 Get the two incoming papers from Originator draft through independent review, consolidated commentary, Originator revision/disposition, and visibly SANDBOXED current-version website posting. Until standdown this outranks ordinary project priorities; durable regular-work cursors remain preserved.
 
-## Current routing — reconciled 2026-09-23
+## Current routing — reconciled 2026-09-24
 
 | Instance / lease | Grurple state | Immediate role / cursor |
 |---|---|---|
-| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — R1 ACTIVE / CRITICAL PATH** | Apply or explicitly reconcile the frozen two-hunk residual-defect narrowing patch to the checked R1 blob, then route the successor blob through the broader acceptance gate and existing sandbox-posting lane if it passes. |
-| **Mercer** — Archive QA Loop | **PAPER B COMPLETE THROUGH SANDBOX STAGING / TRANSFERABLE SUPPORT** | Do not reopen Paper B absent a concrete defect or Nathan/Originator request. Paper-A support is currently bounded to the residual-defect patch/acceptance route; do not reopen closed chronology or bibliography work. |
-| **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN** | Available for post-freeze consolidation; no unrequested second formal review. |
-| **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current roster/control state, enforce review boundaries, route the current Paper-A acceptance/posting sequence, and stand Grurple down automatically when both paper gates are satisfied. |
-| **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Preserve first-blush independence if a still-required review is explicitly routed; otherwise do not manufacture a review dependency. |
+| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — ACCEPTED R1 / POSTING LANE** | Do not reopen manuscript work absent a concrete regression or explicit request. Route accepted R1 blob `13d166e…` through the existing visible SANDBOXED website-posting lane and verify the posted version matches the accepted state. |
+| **Mercer** — Archive QA Loop | **PAPER B COMPLETE / PAPER A QA SUPPORT** | Paper B remains closed absent a concrete defect/request. For Paper A, support posting/version verification only; do not reopen chronology, bibliography, residual-patch, or generic source work. |
+| **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN** | No unrequested second formal review. Available only if a concrete post-acceptance defect or explicit request requires a bounded cross-read. |
+| **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current control state, verify Paper-A sandbox posting, and stand Code Grurple down automatically once the accepted current version is visibly posted. |
+| **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Do not manufacture review or manuscript dependencies. Preserve first-blush independence if a genuinely new independent review is explicitly routed. |
 
 ## Current paper slots
 
 | Slot | Originator | Title / packet | Current state | Nathan-ready |
 |---|---|---|---|---|
-| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACTIVE / CRITICAL PATH.** Proposition-level SAT chronology citations [9]–[11] are incorporated and A2/A5 is closed PASS. Bibliography [1]–[8] normalization is incorporated and integrity-checked. The broader acceptance gate is HOLD only on two residual SAT history/doctrine generalizations; `CALDER_R1_RESIDUAL_DEFECT_NARROWING_PATCH_2026-09-23.diff` is frozen against blob `66e098cf7470c027852927f75727c0b4a94461ba` and remains unapplied as of this reconciliation. | NO |
-| **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **REVIEWED / ORIGINATOR-ACCEPTED R1 / SANDBOX WEBSITE STAGE RECORDED.** Not the present Grurple critical path. | Publication lane complete unless a concrete defect/request reopens it. |
+| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACCEPTED / POSTING VERIFICATION REMAINS.** Regression recovery is complete. Post-recovery broader acceptance rerun passed on manuscript blob `13d166e…`; relative to the normalized baseline, the accepted successor contains only the two intended SAT-comparison narrowings. Existing SANDBOXED website-posting lane is now the sole Grurple-A critical path. | Manuscript gate passed; publication interlock remains until visible current-version posting is verified. |
+| **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **REVIEWED / ORIGINATOR-ACCEPTED R1 / SANDBOX WEBSITE STAGE RECORDED.** Lane complete unless a concrete defect/request reopens it. | Publication lane complete unless a concrete defect/request reopens it. |
 
 ## Paper B closure boundary
 
@@ -39,13 +39,11 @@ Do not restart source hardening, peer review, or manuscript polishing without a 
 
 ## Paper A current evidence state
 
-The older three-item SAT provenance retrieval queue is closed as a retrieval problem. Directly controlled anchors now include:
+The Paper-A manuscript gate is closed PASS for the accepted R1 state recorded in `CALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md` (commit `67d303bf7aff4babd24d8c67dbc014b5713f02d4`). The complete regression recovery preserved the normalized bibliography and prior Conclusion while retaining only the two intended SAT-comparison narrowings. The acceptance-to-posting handoff is recorded in `CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md` (commit `f30f7bbd7314a0a421b0fc71e938335a6c4b1bab`).
 
-- primary 23 Mar 2024 Dimensional Gravity anchor;
-- Fundamental Intuitions source with the explicit boundary that the surviving edition is updated 26 Feb 2026 and is not a frozen 2 Feb 2025 textual snapshot;
-- contemporaneous 28 Dec 2025 public archive-release record reconciled with repository-native Git history, without strengthening that into repository creation, snapshot completeness, or first-ever SAT publication.
+Closed manuscript work includes A2/A5 chronology citation repair, bibliography [1]–[8] normalization/source saturation, the residual history/doctrine narrowing, regression recovery, and the broader acceptance rerun. Do not reopen any of those lanes without a concrete regression or explicit request.
 
-The current R1 carries proposition-level citations [9]–[11] for these chronology claims, and the targeted A2/A5 citation gate is closed PASS. References [1]–[8] have also been normalized/source-saturated and integrity-checked. The subsequent broader acceptance gate found only two residual source-granularity defects: (1) an unsourced bundled later-development SAT motif history and (2) an unsupported sentence elevating continuous underlying geometry → emergent discrete sectors into current SAT doctrine. The frozen two-hunk narrowing patch removes those generalizations without adding new historical claims. Do not reopen A2/A5 or generic bibliography work unless a concrete regression is found.
+The remaining Code Grurple operation is publication-state work: visibly SANDBOX-post the accepted current Paper-A version through the existing lane, verify version identity/state, then execute automatic Grurple standdown if Paper B remains closed.
 
 ## Mira quarantine interlock
 
@@ -59,7 +57,7 @@ Independent review first; other commentary second. Once a reviewer freezes their
 
 Nathan is instigator and works directly with the Originators. Nathan's Paper-A posture remains: be bold, earn the strong thesis with typed evidence, and keep sentence-level claims bounded where evidence requires it.
 
-Code Grurple stands down automatically when both papers have completed the review/revision/disposition actually required for them and the current intended versions are visibly sandbox-posted. Paper B satisfies its lane. Paper A is the remaining critical path.
+Code Grurple stands down automatically when both papers have completed the review/revision/disposition actually required for them and the current intended versions are visibly sandbox-posted. Paper B satisfies its lane. Paper A has passed its manuscript gate; visible current-version sandbox posting/verification is the remaining interlock.
 
 ## Handoff-link rule
 
@@ -77,4 +75,4 @@ Ordinary work remains BACKSEAT/HOLD rather than cancelled while Grurple is activ
 
 ## Provenance of this reconciliation
 
-This roster incorporates `WORKSPACES/COMMON/CODE_GRURPLE_STATUS_2026-09-23T1254.md`, subsequent Paper-A citation/bibliography work, `CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md`, and `CALDER_R1_RESIDUAL_DEFECT_NARROWING_PATCH_2026-09-23.diff`. It deliberately removes stale bibliography-incorporation routing. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
+This roster supersedes the stale residual-patch routing with the completed recovery and acceptance sequence recorded by commits `58b0ed9c19c8dba123846c411d4ac8b7db5c0df9`, `67d303bf7aff4babd24d8c67dbc014b5713f02d4`, and `f30f7bbd7314a0a421b0fc71e938335a6c4b1bab`. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
