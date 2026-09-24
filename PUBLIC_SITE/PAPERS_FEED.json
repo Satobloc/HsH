@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "authority": "presentation only; paper state is controlled by the linked originator and review records",
   "policy": "WORKSPACES/COMMON/LIVE_NEW_PAPERS_STANDARD.md",
   "entries": [
@@ -26,18 +26,24 @@
       "posted_date": "2026-09-23"
     },
     {
-      "id": "convergent-motifs-r0",
-      "title": "Convergent Geometric Motifs in Recent Fundamental Physics",
+      "id": "convergent-motifs-r1",
+      "title": "Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)",
       "short_title": "Convergent geometric motifs",
       "kind": "physicist-facing comparative synthesis",
-      "status": "r0_reviewed_r1_in_revision",
-      "site_display": "process_only",
-      "version": "R0 review / R1 under construction",
-      "originator": "Meridian with Nathan Bellomy-McKnight",
-      "date": "2026-09-23",
-      "summary": "A Minkowski-first comparison of selected contemporary work with the SAT→H(s)H lineage. Review is sharpening chronology, structural criteria, source typing, and the open reduction question.",
-      "caveat": "No revised publication version is staged; the review packet is a process record.",
-      "review_path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/REVIEW_PACKET.md"
+      "status": "sandbox_staged_accepted_r1",
+      "site_display": "sandbox_manuscript",
+      "version": "R1",
+      "originator": "Meridian with Nathan McKnight",
+      "date": "2026-09-24",
+      "summary": "A provenance-sensitive Minkowski-first comparison of selected contemporary geometric motifs with the documented SAT lineage, including explicit tests for object-level correspondence, dimensional reduction, holonomy, emergent discreteness, and benchmark failure.",
+      "caveat": "Accepted under the current internal Grurple review/provenance gates; not scientific validation, novelty clearance, PRIOR_ART clearance, or external peer review.",
+      "manuscript_path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex",
+      "manuscript_ref": "58b0ed9c19c8dba123846c411d4ac8b7db5c0df9",
+      "manuscript_blob": "13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa",
+      "review_path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/CALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md",
+      "acceptance_path": "WORKSPACES/COMMON/CALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md",
+      "website_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=convergent-motifs-r1",
+      "posted_date": null
     }
   ],
   "historical": [
