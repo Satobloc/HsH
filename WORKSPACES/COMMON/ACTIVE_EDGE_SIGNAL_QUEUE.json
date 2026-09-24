@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE",
-  "updated": "2026-09-24T09:43:00Z",
+  "updated": "2026-09-24T15:07:00Z",
   "protocol": "WORKSPACES/COMMON/WORKFLOW_LEVERAGE_SIGNAL_PROTOCOL.md",
   "notes": [
     "Signals are routing hypotheses, not commands carved in stone.",
@@ -50,6 +50,18 @@
     },
     {
       "id": "SIG-20260921-07", "type": "PRIORITY_REWEIGHT", "status": "INCORPORATION_PASS_RETURN", "target": "ᚼ solver unification", "evidence": "Central routing and a Three-Spheres traversal behaviorally demonstrated common-interface incorporation.", "intent": "Verify solver-unification incorporation.", "suggested_action": "PASS/RETURN; substantive branch remains preserved under Grurple override.", "exit": "PASS.", "return_route": "WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md + WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
+    },
+    {
+      "id": "SIG-20260924-TOOLS-01",
+      "type": "FEED_FORWARD",
+      "status": "OPEN",
+      "target": "Comptroller / shared workflow infrastructure",
+      "origin": "Nathan Direct 2026-09-24 11:07 EDT",
+      "intent": "Establish or reconcile a vetted point-of-use Tools Library available selectively to any workflow instance.",
+      "evidence": "Nathan is now formalizing reusable epistemology, logic, mathematics, geometry, bridge, and domain modules; multiple older toolboxes/toolkits and vetted computational/formal tools already exist across the project and should be mined rather than dumped wholesale.",
+      "suggested_action": "Check whether an equivalent Tools Library already exists. If not, create one. Organize it for smart point-of-use access to common tool packs rather than as a document dump; e.g. LogicTools; MathTools with nested WorldtubePack and HighEnergyPack (including Nuclear and CondensedMatter where appropriate); GeometryTools with SAT and Standard branches; plus other domain packs as the inventory warrants. Any tool already built and vetted should be placed there or linked from there. Older toolboxes/toolkits are source mines only: selectively extract, review, normalize, namespace, and incorporate useful tools. Keep provenance, version/status, dependencies, intended use, and validation state visible so workflow instances can load only the pack they need.",
+      "exit": "A discoverable Tools Library or reconciled equivalent exists, with a compact index/manifest, point-of-use pack structure, and an intake path for vetted tools; legacy toolbox/toolkit material remains selectively mined rather than bulk-ingested.",
+      "return_route": "Comptroller should report the chosen canonical location, existing-equivalent finding if any, and the shortest migration/intake plan."
     }
   ]
 }
