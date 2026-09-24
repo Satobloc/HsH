@@ -2,91 +2,91 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 615
-- conversation exports recognized: 449
+- JSON files scanned: 616
+- conversation exports recognized: 450
 - non-conversation JSON skipped: 165
 - parse errors: 1
-- structural-index gap candidates: 0
+- structural-index gap candidates: 1
 
 ## Topic coverage
 
-- `PHYSICS`: 392 conversations
-- `GEOMETRY`: 364 conversations
-- `MATHEMATICS`: 350 conversations
-- `CODING`: 345 conversations
-- `INTERACTIONS`: 334 conversations
-- `LANGUAGE`: 331 conversations
-- `SAT-HSH`: 330 conversations
-- `GRAVITY`: 322 conversations
-- `PROVENANCE-HISTORY`: 318 conversations
-- `DEFINITION-CANDIDATE`: 315 conversations
-- `QUANTUM`: 307 conversations
-- `WRITING`: 307 conversations
-- `TOPOLOGY-MORPHOLOGY`: 302 conversations
-- `HISTORY`: 301 conversations
-- `PARTICLE-PHYSICS`: 301 conversations
-- `TOPOLOGY`: 301 conversations
-- `MODEL-VS-REALITY`: 300 conversations
-- `DIMENSIONALITY`: 297 conversations
-- `INTERSECTION-READOUT`: 293 conversations
-- `ARCHIVE-INDEXING`: 290 conversations
-- `VISUALIZATION`: 288 conversations
-- `COSMOLOGY`: 286 conversations
-- `ALGEBRA`: 285 conversations
-- `PHILOSOPHY`: 285 conversations
-- `LAW-LEGAL`: 281 conversations
-- `METRIC`: 279 conversations
-- `CROSSWALK-CANDIDATE`: 278 conversations
-- `4D-THINKING`: 272 conversations
-- `RELATIVITY`: 271 conversations
-- `BIOLOGY`: 264 conversations
-- `MUSIC-AUDIO`: 262 conversations
-- `QUANTIZATION`: 261 conversations
-- `AI-LLM`: 258 conversations
-- `HELIX-GEOMETRY`: 256 conversations
-- `ART-DESIGN`: 247 conversations
-- `CALCULUS`: 245 conversations
-- `LAGRANGIAN`: 243 conversations
-- `GITHUB-REPO`: 241 conversations
-- `PROBABILITY-STATS`: 237 conversations
-- `NESTING`: 236 conversations
-- `OPTICS`: 234 conversations
-- `DATA-PROCESSING`: 233 conversations
-- `BRAIDING`: 232 conversations
-- `HOLONOMY`: 232 conversations
-- `TIMESHEET`: 222 conversations
-- `WORLDLINE`: 214 conversations
-- `BLACK-HOLES`: 209 conversations
-- `ELECTROMAGNETISM`: 207 conversations
-- `CHEMISTRY`: 198 conversations
-- `AUTOMATION`: 185 conversations
-- `THERMODYNAMICS`: 184 conversations
-- `PHOTON-NEUTRINO`: 173 conversations
-- `SPHERES`: 170 conversations
-- `NEUROSCIENCE`: 166 conversations
-- `WORK-CAREER`: 161 conversations
-- `FILM-MEDIA`: 159 conversations
-- `IMAGE-PHOTOGRAPHY`: 151 conversations
-- `WORLDTUBE`: 151 conversations
-- `WHIRLIGIG-DONUT`: 148 conversations
-- `ASTRONOMY`: 145 conversations
-- `ASTROPHYSICS`: 138 conversations
-- `UI`: 128 conversations
-- `SUPERSESSION-CANDIDATE`: 124 conversations
-- `LEAN-FORMALIZATION`: 114 conversations
-- `EDUCATION`: 101 conversations
-- `FINITE-CORE`: 100 conversations
+- `PHYSICS`: 393 conversations
+- `GEOMETRY`: 365 conversations
+- `MATHEMATICS`: 351 conversations
+- `CODING`: 346 conversations
+- `INTERACTIONS`: 335 conversations
+- `LANGUAGE`: 332 conversations
+- `SAT-HSH`: 331 conversations
+- `GRAVITY`: 323 conversations
+- `PROVENANCE-HISTORY`: 319 conversations
+- `DEFINITION-CANDIDATE`: 316 conversations
+- `QUANTUM`: 308 conversations
+- `WRITING`: 308 conversations
+- `TOPOLOGY-MORPHOLOGY`: 303 conversations
+- `HISTORY`: 302 conversations
+- `PARTICLE-PHYSICS`: 302 conversations
+- `TOPOLOGY`: 302 conversations
+- `MODEL-VS-REALITY`: 301 conversations
+- `DIMENSIONALITY`: 298 conversations
+- `INTERSECTION-READOUT`: 294 conversations
+- `ARCHIVE-INDEXING`: 291 conversations
+- `VISUALIZATION`: 289 conversations
+- `COSMOLOGY`: 287 conversations
+- `ALGEBRA`: 286 conversations
+- `PHILOSOPHY`: 286 conversations
+- `LAW-LEGAL`: 282 conversations
+- `METRIC`: 280 conversations
+- `CROSSWALK-CANDIDATE`: 279 conversations
+- `4D-THINKING`: 273 conversations
+- `RELATIVITY`: 272 conversations
+- `BIOLOGY`: 265 conversations
+- `MUSIC-AUDIO`: 263 conversations
+- `QUANTIZATION`: 262 conversations
+- `AI-LLM`: 259 conversations
+- `HELIX-GEOMETRY`: 257 conversations
+- `ART-DESIGN`: 248 conversations
+- `CALCULUS`: 246 conversations
+- `LAGRANGIAN`: 244 conversations
+- `GITHUB-REPO`: 242 conversations
+- `PROBABILITY-STATS`: 238 conversations
+- `NESTING`: 237 conversations
+- `OPTICS`: 235 conversations
+- `DATA-PROCESSING`: 234 conversations
+- `BRAIDING`: 233 conversations
+- `HOLONOMY`: 233 conversations
+- `TIMESHEET`: 223 conversations
+- `WORLDLINE`: 215 conversations
+- `BLACK-HOLES`: 210 conversations
+- `ELECTROMAGNETISM`: 208 conversations
+- `CHEMISTRY`: 199 conversations
+- `AUTOMATION`: 186 conversations
+- `THERMODYNAMICS`: 185 conversations
+- `PHOTON-NEUTRINO`: 174 conversations
+- `SPHERES`: 171 conversations
+- `NEUROSCIENCE`: 167 conversations
+- `WORK-CAREER`: 162 conversations
+- `FILM-MEDIA`: 160 conversations
+- `IMAGE-PHOTOGRAPHY`: 152 conversations
+- `WORLDTUBE`: 152 conversations
+- `WHIRLIGIG-DONUT`: 149 conversations
+- `ASTRONOMY`: 146 conversations
+- `ASTROPHYSICS`: 139 conversations
+- `UI`: 129 conversations
+- `SUPERSESSION-CANDIDATE`: 125 conversations
+- `LEAN-FORMALIZATION`: 115 conversations
+- `EDUCATION`: 102 conversations
+- `FINITE-CORE`: 101 conversations
 - `C-TYPING`: 84 conversations
-- `POLITICS-POLICY`: 70 conversations
-- `GEOLOGY`: 69 conversations
+- `POLITICS-POLICY`: 71 conversations
+- `GEOLOGY`: 70 conversations
 - `INTERBRAID`: 69 conversations
 - `ELECTROGRAVITY`: 66 conversations
-- `MEDICINE-HEALTH`: 50 conversations
+- `MEDICINE-HEALTH`: 51 conversations
 - `GRATICULE`: 30 conversations
 - `SPEED-OF-TIME`: 24 conversations
-- `PERSONAL-BIOGRAPHICAL`: 22 conversations
-- `PALEONTOLOGY`: 19 conversations
-- `HAGALAZ`: 11 conversations
+- `PERSONAL-BIOGRAPHICAL`: 23 conversations
+- `PALEONTOLOGY`: 20 conversations
+- `HAGALAZ`: 12 conversations
 - `W-AXIS`: 10 conversations
 
 ## Conversation inventory
@@ -2485,6 +2485,13 @@
 - messages/user: 24/12
 - density: 0.958333; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `BIOLOGY`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `FILM-MEDIA`, `GEOMETRY`, `GITHUB-REPO`, `GRAVITY`, `HELIX-GEOMETRY`, `HISTORY`, `IMAGE-PHOTOGRAPHY`, `LANGUAGE`, `LAW-LEGAL`, `LEAN-FORMALIZATION`, `MATHEMATICS`, `METRIC`
+
+### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Science Made Stupid — raw (2).json` **INDEX-GAP-CANDIDATE**
+
+- title: Science Made Stupid
+- messages/user: 1055/265
+- density: 0.70237; top retrieval score: 94.0
+- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `FINITE-CORE`, `GEOLOGY`
 
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json`
 
