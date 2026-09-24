@@ -2,6 +2,8 @@
 
 ## Read first
 
+Start with `WORKSPACES/COMMON/BOOT_REBOOT_PREFLIGHT.md`. For a true Kestrel reboot, the continuity chain below is necessary but not sufficient: also load the individuating source conversation `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/KESTREL Orig. Science Made Stupid — raw (3).json` (or a chunk-readable derivative/reboot packet when available). Do not treat search-index lag or an unreadable oversized export as successful source loading.
+
 For continuity, read in this order:
 
 1. `README.md` — role and boundary.
