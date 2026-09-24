@@ -1,2008 +1,748 @@
 {
-  "source_commit": "d3972d374325a4bed9a6c133717659b24f644c52",
-  "observed_utc": "2026-09-23T15:04:05.555806+00:00",
+  "source_commit": "afdc1851f07df89ca60f608a0626eb13e7ddd0d3",
+  "observed_utc": "2026-09-24T15:11:17.134723+00:00",
   "changes": [
     {
-      "change": "CHANGED",
-      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "32f031823927f2fdd3201e871b0869735fe511f4",
-      "new_blob_sha": "e47590d711e9b4acfa14d6ed89865608a78ef758",
-      "bytes": 1744372
-    },
-    {
-      "change": "CHANGED",
-      "path": "..findex.txt",
-      "old_blob_sha": "924406f7d7da78b89bd457a97f79d07e70f73d9c",
-      "new_blob_sha": "f9a81a5591cda68cbe5d4b6b4009606d49c20267",
-      "bytes": 207251
-    },
-    {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_204352.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_182147.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "9c0fefe3d80093d08839306e93b55a9dbb0e55f2",
+      "new_blob_sha": "500655c89fc81acfb1ef5f75eed45624ca603de7",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_204516.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_185612.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "14175b68fb16d54146a7a20499b9e0b68e439c36",
+      "new_blob_sha": "50bc626acd3c32721b29941572670601c46b5702",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_204607.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_191644.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "d56be8c515ad75358a967b753cdd8dc55cc495ae",
+      "new_blob_sha": "de3434dc6e7b824bf4e9028457e8c59597f48c5b",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_204907.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_191858.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "f7148f7923ec9fd2acf1633f8474eb805792fa60",
+      "new_blob_sha": "56498e0c0cd0e0ae8e7a81396b654cd264f8328f",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_213849.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_192214.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "20cfe78259d2dd97fdbccb14362e8ec02704afd2",
+      "new_blob_sha": "e485a0b11eeb00398674381a61a8900376f73f66",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_224849.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_192722.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "216798eb6cb9aa09eced1423f91affdcc94e72ff",
+      "new_blob_sha": "244dede25b25a08e8ab65c004ab9cf8bf7070d60",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260922_232330.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_202202.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "d615e47b49fcfba41fa3851cd31accf462908d24",
+      "new_blob_sha": "d4f9b04fc7b1a1654ddfe5c6e2ec0c7c0a3b8468",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_003339.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_202330.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "d125c6f627f2906a908fd23495f1baa57cdccf96",
+      "new_blob_sha": "3fa5fb8ba89b19dca9a5693156fee68736734814",
       "bytes": 1669
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_003433.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_202514.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "720db8abc5031bf85c59e278b3c653b3b22c5fc2",
+      "new_blob_sha": "3da91b9e3f381e58ee4a3cc43b1cded17e4e9e8b",
       "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_024128.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a08f8fb595221fbd178b071f2572d0f6bcc3ab38",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_024508.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d45e95f14ebece64fe6356faba2b07b5061b8269",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_024948.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "4764c6f6e1af804e4382e5e9b1d10ad90ac2cf46",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_025054.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b159152e2da890acccf6f7ea0126765b037e56f8",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_053504.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "0bee25fba4e01cf23c12055ddf77d144faa1e747",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_053543.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "1584821e588ba1bd3e6a73fe0cca4411a2d1cc2f",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_053619.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c49c4f26db5179d871923b7e43fbc14879e3f6e5",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_053656.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "1e7c68c29bff62e63307b2cfe0e699a504288ac4",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_120459.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "bb284ffa44546d86a1448d2eb15c5a120ac05432",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_121003.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "70e8365f5037445bae5886e1199171491d0dd869",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_121205.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ffe123b42d4c2df8ed0e07c839ddd8da30dda3c2",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_121952.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c7f78edaa03255ec892e3c15479dac4837adb340",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_122035.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "51a931b39fee7b10f56e116e02182e66564ae350",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_122305.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b8705a807fe0d4192ac15f74b943098390444f47",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_122339.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "66f98f1129e20cfdec49e58be6c6b8278dd63025",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_122623.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a1821db1a7d83372907a3672293ef5fa9df15747",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_122753.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e05f69ac8c9ccd562b198b3d54fbab9bffae0601",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_125247.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "638d011c6dd628025c489c4d187527b62c00e8ce",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_125456.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "f9b10d9969593a2114095e039319657fd1246a7d",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_125530.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "953e8dfbddba22eecf0f55a30e27248db9fecae4",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_125615.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "2dc133efe715d42c3b4bd2a81c5e74d96d050829",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_130157.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3658f11658b9513757ad66c6775695ee4dba95d9",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_130458.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "01d7c5ce8cf2c8da42f74226a0924db2dbc381bf",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_131216.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "5c060e8e64f26aabf1eacdea2a7d1692f4e9fff4",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_131305.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "48051ad14dc1feedc43383eb7e148dac0c6cf682",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_131413.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "615d38522f2bd66cfdb2fe72bc488d0834bf2658",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_131453.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "66089cd967be3b6bca2caf13127c4e07ebc0be7b",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20260923_131559.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "61ee56e2c435884b32a9b7e0f5e1899e8293fb92",
-      "bytes": 1669
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20260923_141723.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "53e09e47f32e7d4681b57f2365ad05e241ab8555",
-      "bytes": 301
     },
     {
       "change": "CHANGED",
       "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
-      "old_blob_sha": "c83650a827164ab05370272d632a6519d4bc8e97",
-      "new_blob_sha": "6383df8d466a772d591dcca3c11faa248c5ee684",
+      "old_blob_sha": "6383df8d466a772d591dcca3c11faa248c5ee684",
+      "new_blob_sha": "cbb7e2050a0c1946da4c66a5f577696f4723012b",
       "bytes": 174
     },
     {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/TOOLS/build_flc_story_text_feed.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "fcde1f8c0cd98c53a7ec7bcbe413ae544405441b",
-      "bytes": 8661
-    },
-    {
-      "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/TOOLS/flc_auto_digitize.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "acdbe8a5a8665ec096d00df04753885a63fe003d",
-      "bytes": 11282
-    },
-    {
-      "change": "ADDED",
-      "path": ".github/workflows/flc-auto-digitize-test.yml",
-      "old_blob_sha": "",
-      "new_blob_sha": "674011b9e86b9f67b2826f07e06144b2c646443d",
-      "bytes": 2904
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": ".github/workflows/flc-story-feed.yml",
-      "old_blob_sha": "",
-      "new_blob_sha": "3defca2549ca47c07367d15a05b2d0c0c8c5b433",
-      "bytes": 4963
+      "old_blob_sha": "3defca2549ca47c07367d15a05b2d0c0c8c5b433",
+      "new_blob_sha": "38d432ed1ffe092734a04b86570cc1d15b570ba3",
+      "bytes": 5553
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/HERE_IS_WHAT_THERE_IS.md",
+      "path": "PHONE_DUMP_23SEP26/02Mwc48AQij8PusRRruB-runway-o4ug6.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "1f8c3b3b64d7978a45e556a18a985573426f51ae",
-      "bytes": 970
+      "new_blob_sha": "774439814a012aade5ced039f30fede7855ec188",
+      "bytes": 8261475
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/carrier_normalized.pdf",
+      "path": "PHONE_DUMP_23SEP26/02Mwc48AQij8PusRRruB-runway-pe9gj 2.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "cfd0e9474b000c81267e2a621f66744719456737",
-      "bytes": 16760584
+      "new_blob_sha": "e2df3a67fda6dd0aa358fc3ec3492f1c21f02a3e",
+      "bytes": 5906733
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/embedded_text.txt",
+      "path": "PHONE_DUMP_23SEP26/1.SEP04 to 1.JAN.05.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "da63aa046859559947c7dc5410e20b6a29a7fe3e",
-      "bytes": 352613
+      "new_blob_sha": "d1f0cf3d4638fb6252f74e307a95b5623729b468",
+      "bytes": 71710
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/manifest.json",
+      "path": "PHONE_DUMP_23SEP26/12Rst1mzMEuGBZjA3Dwu-SVD-eo67j.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "5dc99e4348fd8caebca99f1211bea46c99c2ae09",
-      "bytes": 5595
+      "new_blob_sha": "83507c9b24639b54ef67aee5293c2185746e99f4",
+      "bytes": 1622427
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/routine_normalized.pdf",
+      "path": "PHONE_DUMP_23SEP26/ChkTcbNpcD2bhQQynnAr-SVD-lzwa1.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "48e93d6330ef941f0e88a252d22ce51d347b53d4",
-      "bytes": 9908005
+      "new_blob_sha": "1b1f0f5f3012b43c1e9b69596edd841cedc4207a",
+      "bytes": 1847419
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc1_lo/run_summary.json",
+      "path": "PHONE_DUMP_23SEP26/CslOOr1t2qUsR7BzlDD8-runway-ow84m.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "f0ec093340bb55f15015a7b24606d3e3d0d69f6c",
-      "bytes": 315
+      "new_blob_sha": "de2efd86a20112a019257a18c62684c6aaf021ec",
+      "bytes": 4935485
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc2_lo/embedded_text.txt",
+      "path": "PHONE_DUMP_23SEP26/Hashbrown_Chaos_Menu_Guide.png",
       "old_blob_sha": "",
-      "new_blob_sha": "c2686f96f6a7be72e237338d6372a54010f69363",
-      "bytes": 143354
+      "new_blob_sha": "c1a1f0bac7e5e469f895ca1c7a93001593282bcc",
+      "bytes": 6276443
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc2_lo/manifest.json",
+      "path": "PHONE_DUMP_23SEP26/JZBxSrR8CzBq9W5ZGxxZ-SVD-ufkhm.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "5abcd71f27152c151b3d84cbf3f2a5dd8d906b66",
-      "bytes": 372
+      "new_blob_sha": "79fff1e16949b58add6212b7f5ae87cdf77a19c6",
+      "bytes": 860378
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc3_lo/embedded_text.txt",
+      "path": "PHONE_DUMP_23SEP26/LZXHE62vmwldZlMOb6hG-SVD-h59g3 2.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "16e8c3e377f859a4c251aae68be7248610f28b69",
-      "bytes": 132062
+      "new_blob_sha": "52b258846be3d0c1ecbaf75a8730ebb1097665bb",
+      "bytes": 1105994
     },
     {
       "change": "ADDED",
-      "path": "flc/_AUTO_DIGITIZE_TEST/flc3_lo/manifest.json",
+      "path": "PHONE_DUMP_23SEP26/Rfy6zMy5Ur3TlIs6r8gh-kling-2-1-std-o5zcm.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "d9c3b78a8a654df1064891749bc352953b76bc97",
-      "bytes": 372
+      "new_blob_sha": "67c739605718970d153b1a4919b7fcb007e55034",
+      "bytes": 3625931
     },
     {
       "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/PARSE_REPORT.md",
+      "path": "PHONE_DUMP_23SEP26/TrjBVIG1FyeZGd1P3Vuc-runway-m140l.mp4",
       "old_blob_sha": "",
-      "new_blob_sha": "9e24cd77fad6c20789152dc2c6d7460a53d6f182",
-      "bytes": 850
+      "new_blob_sha": "8d8bd0dda0c69485adf730e6825ec8997a4f45b6",
+      "bytes": 8937456
     },
     {
       "change": "ADDED",
+      "path": "PHONE_DUMP_23SEP26/gFTBJYDfIwr9MUO4wiEL-SVD-nefp8.mp4",
+      "old_blob_sha": "",
+      "new_blob_sha": "9c6879f4f2ec377834db09c6e0217e092534ff8f",
+      "bytes": 1297547
+    },
+    {
+      "change": "ADDED",
+      "path": "PHONE_DUMP_23SEP26/gitignore.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "bytes": 1
+    },
+    {
+      "change": "ADDED",
+      "path": "PHONE_DUMP_23SEP26/nk3HHiqrAE43Mmhi2HOj-SVD-yk6vk 2.mp4",
+      "old_blob_sha": "",
+      "new_blob_sha": "875f86942b40d733b26e133ccbc007731c994053",
+      "bytes": 684428
+    },
+    {
+      "change": "ADDED",
+      "path": "flc/_PARSED_TEXT/flc1_lo/PAGE_ORDER_SOLVER_REPORT.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "e374635dfa94de66f63fa65287d59fac588fef2e",
+      "bytes": 725
+    },
+    {
+      "change": "ADDED",
+      "path": "flc/_PARSED_TEXT/flc1_lo/TEXT_REFLOW_REPORT.md",
+      "old_blob_sha": "",
+      "new_blob_sha": "fb230c6fd70b4e019dd76efdb55c5ffceca70a3f",
+      "bytes": 696
+    },
+    {
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/manifest.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "56536dff5c281f6bd79ed47f098ec1f1a4403b1e",
-      "bytes": 699
+      "old_blob_sha": "56536dff5c281f6bd79ed47f098ec1f1a4403b1e",
+      "new_blob_sha": "acd1c44d6e3dabcce97c0339827b6839fbbfa1f9",
+      "bytes": 1282
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/page-number-conflicts.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "562f20078029dfcbce8d4aa9353ce70bde496f9e",
-      "bytes": 138
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/page-records.jsonl",
-      "old_blob_sha": "",
-      "new_blob_sha": "c88457ff0080a8d746e89c99d258f9343aa72096",
-      "bytes": 222911
+      "old_blob_sha": "c88457ff0080a8d746e89c99d258f9343aa72096",
+      "new_blob_sha": "7e9d696703e1529160deeeb294601d7b4d16d302",
+      "bytes": 232616
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-001.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "55f5e4a26a220435c0811920a2d45b4fa167548f",
-      "bytes": 258
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-002.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "743a3eb39d12be46cb443e6ba145deafbfabffbd",
-      "bytes": 825
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-003.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "51bd7b4550ea4ba3342b927e50b25a848ea5ea3c",
-      "bytes": 4471
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-004.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "0d01b91e11c7fc1868d8271352c62f2266b92986",
-      "bytes": 2447
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-005.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "40a2479d5009406c811b204161f002c3a48f76ab",
-      "bytes": 3643
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-006.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-007.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "963d92a8a2754dcc8dc837c242343af5658d2f27",
-      "bytes": 882
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-008.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c924329d28d4e46f4eb66b420e5c7a93f4268115",
-      "bytes": 3613
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-009.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "02f88f2edd7e342d8801bffeb9cb1b2959045987",
-      "bytes": 4176
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-010.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3b55ba32f87b002ff0d9cb1eba5f146af54b2677",
-      "bytes": 2327
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-011.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3931f14ef74c85ab8e861b7f54dba1058e2936ce",
-      "bytes": 2703
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-012.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e15d47f85f5a2cf27b0dcaa9f3dc0a58e10de929",
-      "bytes": 5315
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-013.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "056a6716ef085368fde1cb24a423d5d90da3e9f6",
-      "bytes": 4198
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-014.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b2be6d002287e33aea4ebcb8084c6f1779b7e16f",
-      "bytes": 5046
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-015.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3a24711efe12ee29928cd187e6506243d05a5290",
-      "bytes": 5640
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-016.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "cc5f003461ae10a773c8c77050bc5eb3eeb86acd",
-      "bytes": 4758
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-017.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e69db1b14235368399212a6206cdad1eecd6308e",
-      "bytes": 4808
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-018.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "663fe97a7d3a7ed7665b52efe9b34d471b408f37",
-      "bytes": 5216
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-019.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "95243c29dec4618f998d161356639b862c8cb256",
-      "bytes": 4364
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-020.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "db734f702298cec878ccbb8a4627f55f8008a0a2",
-      "bytes": 2331
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-021.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "59192d67dc29e9138ae3a1573196aa086b99a061",
-      "bytes": 3729
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-022.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "149f7e13bd1da28c683ba74e245e50c3b758f6db",
-      "bytes": 4032
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-023.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "833a4e7f37b8582fcd5a8967a7f66cab070c5de1",
-      "bytes": 1854
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-024.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "1aadcc7c426e528aaa1de549705f8d0968be7d45",
-      "bytes": 1247
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-025.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8d1e9d720b6f0403f53f99c8d21cd670da2b81b1",
-      "bytes": 5548
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-026.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "5b96dfad59d388635b72a2cbb56be38c37c0cde5",
-      "bytes": 4358
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-027.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ad4ac47af844778778e5e3c675b0d2ac20b1dcaf",
-      "bytes": 4986
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-028.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "707b875e96ba5f8539e9aee2e3dd9c7e3d70c4a2",
-      "bytes": 4061
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-029.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e55836d5481def57ce929b478b2cef8b253fb39b",
-      "bytes": 4579
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-030.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8c14951b91c056fa2f6ed2a42fcfed290117ddee",
-      "bytes": 5482
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-031.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3137275056c6160076e5bb9e6e925fd7fe801672",
-      "bytes": 5057
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-032.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c7384617f62f8636522c0afec9a832cf3d571181",
-      "bytes": 4577
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-033.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a5b1d9b335b61409d86635df727dbbfc9922e9d4",
-      "bytes": 2904
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-034.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e1c6e63d0570cc9713ea26279415da96568b1b1d",
-      "bytes": 2016
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-035.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8f40b611b99830da87cef0d7acd83faae7163b0d",
-      "bytes": 3585
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-036.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "473c08310e1e6c5d2088d020c8bf455176cdf59b",
-      "bytes": 5371
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-037.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "1e838f0944908ef1601767adcb98f10e48ac7fa4",
-      "bytes": 3936
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-038.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "68f6ca5a14f1283ba265e50be1845c6403e8f74d",
-      "bytes": 5878
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-039.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "becbc066aa2f8791ab13de56cddc5be26cf1c1d4",
-      "bytes": 5983
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-040.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "fbc89f3979a87e7fa313a72199cf27f298d42272",
-      "bytes": 4285
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-041.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "2f720f0746a834d46dc5aef021180132708b0e51",
-      "bytes": 2933
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-042.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "08cbb508da568ff4646b260cd6617adc63d24dc7",
-      "bytes": 4758
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-043.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d27a55f175c79ddb4abd16f58b8efd3ca9acb721",
-      "bytes": 4700
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-044.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e25e18eaf238ee29f71c1991da810fd7141e7cf4",
-      "bytes": 1691
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-045.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "2a53bc1e17feb60141d004d3eb724da9d0d2adc0",
-      "bytes": 3282
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-046.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "50b3c33f2b74853683dd751471e840be956fbfe3",
-      "bytes": 3736
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-047.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "eb7b76b7600c4aabdecdceb3600c0840dc858f5e",
-      "bytes": 5903
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc1_lo/pages/pdf-048.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/eye-of-the-angry-god.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "e29a9fbac8a95c1ab4b2ae7b37442bbeb3300d7b",
-      "bytes": 20137
+      "old_blob_sha": "e29a9fbac8a95c1ab4b2ae7b37442bbeb3300d7b",
+      "new_blob_sha": "a3c9b3b383bf1674447d33ebc6a8bf3da1ece89c",
+      "bytes": 18680
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/eye-of-the-angry-god.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a3a01d15190a4cbf2e18ea6f8a3eb71942f26ba5",
-      "bytes": 16722
+      "old_blob_sha": "a3a01d15190a4cbf2e18ea6f8a3eb71942f26ba5",
+      "new_blob_sha": "6fde1d89630d87009898f1f97e57b1d8028cb277",
+      "bytes": 15493
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/eyesores.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "ee4c8a857d7178da6180288921ea652f0e4d04ad",
-      "bytes": 4624
+      "old_blob_sha": "ee4c8a857d7178da6180288921ea652f0e4d04ad",
+      "new_blob_sha": "3fab8005b365475f1e394d2ef04d10b7b5c7f37d",
+      "bytes": 4741
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/eyesores.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a5b1d9b335b61409d86635df727dbbfc9922e9d4",
-      "bytes": 2904
+      "old_blob_sha": "a5b1d9b335b61409d86635df727dbbfc9922e9d4",
+      "new_blob_sha": "f05679fe137e45ef7b1d77baafe2f2f3e938c82f",
+      "bytes": 2910
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/spytown.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c7ace7cb42990e3a1253a9a73971d223d3e7aa35",
-      "bytes": 9370
+      "old_blob_sha": "c7ace7cb42990e3a1253a9a73971d223d3e7aa35",
+      "new_blob_sha": "2fcb77520364ef655e64d74408cfe758477545d9",
+      "bytes": 7584
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/spytown.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3629980f033fe9a0802232ccb88ba8a4b854bf69",
-      "bytes": 7019
+      "old_blob_sha": "3629980f033fe9a0802232ccb88ba8a4b854bf69",
+      "new_blob_sha": "295027112d9e4034de99f3d0cf92420d9dd42b05",
+      "bytes": 5384
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-dark-continent-episodes.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "d304fec5ca1d8f45d4072d23b0daa346ddef7318",
-      "bytes": 5562
+      "old_blob_sha": "d304fec5ca1d8f45d4072d23b0daa346ddef7318",
+      "new_blob_sha": "a21db55e68c360171104d8e922eb9b2636c63759",
+      "bytes": 5115
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-dark-continent-episodes.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c924329d28d4e46f4eb66b420e5c7a93f4268115",
-      "bytes": 3613
+      "old_blob_sha": "c924329d28d4e46f4eb66b420e5c7a93f4268115",
+      "new_blob_sha": "f71d66b4bb2ca81f758473588be60a4653e1294c",
+      "bytes": 3236
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-lion-in-the-parking-lot.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "8e1e2a108d928a175332b80b871959c2ae2d22dc",
-      "bytes": 10900
+      "old_blob_sha": "8e1e2a108d928a175332b80b871959c2ae2d22dc",
+      "new_blob_sha": "e883894073f2f7ffd466a5a2473c1592ecd58344",
+      "bytes": 5294
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-lion-in-the-parking-lot.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "89f55cf34611c280897c73ec443b84d04da7d0d7",
-      "bytes": 8701
+      "old_blob_sha": "89f55cf34611c280897c73ec443b84d04da7d0d7",
+      "new_blob_sha": "4277d6ecaaecb9ac0dc6da9bf053e3749aa75310",
+      "bytes": 3620
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-money-pig.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "94e0e11eca8abde76ca797ffa37d685e73e9caee",
-      "bytes": 9262
+      "old_blob_sha": "94e0e11eca8abde76ca797ffa37d685e73e9caee",
+      "new_blob_sha": "25984a0e83dedd71a4cf577b9f1966250f366914",
+      "bytes": 7082
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/the-money-pig.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "889755e4eb7a96c3e9addf892cd0c4cc6f1649d8",
-      "bytes": 6796
+      "old_blob_sha": "889755e4eb7a96c3e9addf892cd0c4cc6f1649d8",
+      "new_blob_sha": "3881698141c41ea37755ae95e19d06fecc68aca2",
+      "bytes": 4698
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/walking-along-the-mobius-strip.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "be539273e5dac318e5f7466c33dd96eb88413633",
-      "bytes": 12129
+      "old_blob_sha": "be539273e5dac318e5f7466c33dd96eb88413633",
+      "new_blob_sha": "ab632c48b93a3acde33751e4d253bd20eec55731",
+      "bytes": 11999
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/stories/walking-along-the-mobius-strip.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "846fd49f61db28ee5e353f2fc0d105a5eafffeb8",
-      "bytes": 9617
+      "old_blob_sha": "846fd49f61db28ee5e353f2fc0d105a5eafffeb8",
+      "new_blob_sha": "6dc7f60588c40dbf018cf8c017efeb3ab8e7a3be",
+      "bytes": 9612
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc1_lo/story-text-index.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c389aeac2c8c6349a48348a9fb1e9c244aa2f6a9",
-      "bytes": 5535
+      "old_blob_sha": "c389aeac2c8c6349a48348a9fb1e9c244aa2f6a9",
+      "new_blob_sha": "c0d28755ec1f3272083c8017b3c72dc983301eb1",
+      "bytes": 5552
     },
     {
       "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/PARSE_REPORT.md",
+      "path": "flc/_PARSED_TEXT/flc2_lo/PAGE_ORDER_SOLVER_REPORT.json",
       "old_blob_sha": "",
-      "new_blob_sha": "194bdf888fcb0e6b5e287c5acdf5c2dcdac0cf6d",
-      "bytes": 831
+      "new_blob_sha": "0adec09c441593975dbd1c3f83d1190e6770dbad",
+      "bytes": 1106
     },
     {
       "change": "ADDED",
+      "path": "flc/_PARSED_TEXT/flc2_lo/TEXT_REFLOW_REPORT.md",
+      "old_blob_sha": "",
+      "new_blob_sha": "4a66fc2595f6c22a2ee94f65e7b65761901329be",
+      "bytes": 697
+    },
+    {
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/manifest.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "7c975e83d5c52d1a6892ce68294888c4411e4165",
-      "bytes": 699
+      "old_blob_sha": "7c975e83d5c52d1a6892ce68294888c4411e4165",
+      "new_blob_sha": "e6ac2a8357d9f692d20d4f2d3ba9b30fa2532ae1",
+      "bytes": 1284
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/page-number-conflicts.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "ee2c57f892c53332c6265a3df864d157657c76cd",
-      "bytes": 129
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/page-records.jsonl",
-      "old_blob_sha": "",
-      "new_blob_sha": "9d65707ff3bd4d1957b1c53a44d6e472a382a0e2",
-      "bytes": 176517
+      "old_blob_sha": "9d65707ff3bd4d1957b1c53a44d6e472a382a0e2",
+      "new_blob_sha": "fd2d47a421fe14f426d2f11267b98babc0519588",
+      "bytes": 196408
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-001.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "09a17c73a794f296ce93a3c93191c06c287ddb54",
-      "bytes": 29
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-002.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b41786ac3c8682c812bd09e7ef3aac85a792b7f5",
-      "bytes": 122
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-003.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "47ad8dd049bc23ad1ac61effe30ac9fc5dd8bc08",
-      "bytes": 2626
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-004.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a5305fa55a39736a3aef866837861ee81c5c78fb",
-      "bytes": 911
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-005.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c100c5325ac1bed6e29b9e38d889d390c395d3e0",
-      "bytes": 5587
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-006.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ea6d308d57b43c4785e5b24aec9610524981cf80",
-      "bytes": 4236
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-007.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c1ecff8ceba7bdcc59d1b8c27260ce7d01f64332",
-      "bytes": 4116
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-008.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "19310bc4f4f523784407ffa67886ae97b478c51b",
-      "bytes": 2912
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-009.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "75dc1c260ccdb40830716324585e3db88d5af3c5",
-      "bytes": 1990
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-010.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d522fd59273b0cd1742d7688297479e70042a388",
-      "bytes": 5839
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-011.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-012.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "dbcb9d3ceeee3384236dc86ae20cbf95f759e917",
-      "bytes": 3295
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-013.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b7acbdd789099ac94b9ca7dd2d9128fea6ccf4c",
-      "bytes": 5875
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-014.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3750a0ee85b1e3cbd12ffb1e1b750311d4a68ce1",
-      "bytes": 4181
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-015.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e36c9b18c3391494a8f3c923e7eefd54194a7087",
-      "bytes": 692
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-016.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "259b3302612ad56a5f7f6e7b1b7a73e9dfa7abbe",
-      "bytes": 5087
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-017.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d23830a2dd56efced57974713ea54939b6a00035",
-      "bytes": 5544
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-018.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-019.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "bd5036c3318164c6daf1a3de591fb9b326aa3159",
-      "bytes": 5936
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-020.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ee58715e4082384ce2ce8dcb7cc598f8b24b2000",
-      "bytes": 5399
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-021.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "af58a44f9d959b98b9163f1dfcd00a4e633e2a20",
-      "bytes": 5663
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-022.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "f4f025b1fdf1e1e610d904e8922ee775bcdb6c75",
-      "bytes": 5809
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-023.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "7ca60db572872751245468de9c8a1c59d18c32c0",
-      "bytes": 5458
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-024.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "281cfc1c64217abcb705d71d45cd11b398ca6de6",
-      "bytes": 6115
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-025.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "76085919f9c57d07bf93ad7a7b987839dd329369",
-      "bytes": 3151
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-026.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "17cc181e9c343e24572ea2e21909bc74ba4cf817",
-      "bytes": 5174
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-027.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "7d90afe7bd40573ef63c24c782e5d967633dd960",
-      "bytes": 4952
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-028.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "afef73a89fd69299fb0c2bccee9bdbfff1bf4cf9",
-      "bytes": 4014
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-029.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "506d5cc4026650c6c23d381a675c82756143a8ce",
-      "bytes": 4352
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-030.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a6b6a78178054b125dc83d1c3732d1d80541ae82",
-      "bytes": 5784
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-031.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "c655d92f5e16b5922c6ccfdb6df71fed7ba60ef1",
-      "bytes": 2969
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-032.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "f9bbef60615a49ca98b8243964b7f9b2483cac0f",
-      "bytes": 5713
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-033.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "09751094ea8c4c0f1fbf38e943ee08af138b11bf",
-      "bytes": 2033
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-034.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3b85e8168945b14dadc812a38f30159a1a60af0b",
-      "bytes": 1264
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-035.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "35f964f90085f80b8a6cfbe9325fd47cd3ed4e9b",
-      "bytes": 6178
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-036.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d5fcce7f4a3686f7126b4319a510a7969d625007",
-      "bytes": 3946
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-037.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "712703fa8b44644b5376e662818a1bb15dfeef53",
-      "bytes": 21
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-038.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "38285cfbd35c5c8ff55b73f8f39e019600cf8d90",
-      "bytes": 3710
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-039.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ea2fbaf31081e97ff89a8c79f56248d6fdc3f4eb",
-      "bytes": 7
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-040.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/pages/pdf-041.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "dd271fc85934d921aa61d147f530f866f7cba50a",
-      "bytes": 1516
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/stories/a-cover-letter.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c7b9c48f1532384eb39d7192c4ac05c437a35e00",
-      "bytes": 1116
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/concrete-afternoon.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "936a43c03640343cb9bfecc87691bf4be465f9ca",
-      "bytes": 5416
+      "old_blob_sha": "936a43c03640343cb9bfecc87691bf4be465f9ca",
+      "new_blob_sha": "04e7d7089380b9411e46bdb5190f994dfd9b5494",
+      "bytes": 5018
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/concrete-afternoon.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "38285cfbd35c5c8ff55b73f8f39e019600cf8d90",
-      "bytes": 3710
+      "old_blob_sha": "38285cfbd35c5c8ff55b73f8f39e019600cf8d90",
+      "new_blob_sha": "e22529bc785dd680029fa3928a7b9fd49d9edcb2",
+      "bytes": 3058
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/elders-in-the-love-garden.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "ab3fb796edab5aaed33b644363eb4030aed9e1fd",
-      "bytes": 12122
+      "old_blob_sha": "ab3fb796edab5aaed33b644363eb4030aed9e1fd",
+      "new_blob_sha": "8dc1b82e0f8a1807b5c68452fea780c6dff953fc",
+      "bytes": 12118
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/elders-in-the-love-garden.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "f07324e2f947622e61202035e6d32667c0fa6484",
-      "bytes": 9769
+      "old_blob_sha": "f07324e2f947622e61202035e6d32667c0fa6484",
+      "new_blob_sha": "b459522b9d5ce4b2ab2b433aa45a83f89c342e01",
+      "bytes": 9881
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-dreams-a-sleeping-lion.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "4597d9eeab6268891d0532a9290a86b65dcc2695",
-      "bytes": 37398
+      "old_blob_sha": "4597d9eeab6268891d0532a9290a86b65dcc2695",
+      "new_blob_sha": "2241d202615304a41d4d7276ca41ff27daaf8549",
+      "bytes": 31260
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-dreams-a-sleeping-lion.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "6407b7d064056d6eb4b20303449aa69ad8a0f0cf",
-      "bytes": 33444
+      "old_blob_sha": "6407b7d064056d6eb4b20303449aa69ad8a0f0cf",
+      "new_blob_sha": "cee49114fc9af8c9e3e3e6d84db83c0d254f2dbc",
+      "bytes": 27727
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-memory-of-flesh.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "8d8ab09dee3732851216f3f4768d9cda23f1ffc5",
-      "bytes": 21257
+      "old_blob_sha": "8d8ab09dee3732851216f3f4768d9cda23f1ffc5",
+      "new_blob_sha": "5473303ced05737f4d3c840b6950d753bad551be",
+      "bytes": 20018
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-memory-of-flesh.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "5dc241728349bc97c72b65f9c92ec986e398e3b1",
-      "bytes": 18235
+      "old_blob_sha": "5dc241728349bc97c72b65f9c92ec986e398e3b1",
+      "new_blob_sha": "8b1f97c80333abd75f476b9238fdaf497cbf918d",
+      "bytes": 17309
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-recovery-of-sunken-vessels.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "65248224cce0f83d6d4e298b6658689a11fbfdb6",
-      "bytes": 14348
+      "old_blob_sha": "65248224cce0f83d6d4e298b6658689a11fbfdb6",
+      "new_blob_sha": "73fed150f436698400c50a9565677ae710efc4bd",
+      "bytes": 13367
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/the-recovery-of-sunken-vessels.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "de2960906169865b25222f3e0e0df7fc0f8f8b46",
-      "bytes": 11963
+      "old_blob_sha": "de2960906169865b25222f3e0e0df7fc0f8f8b46",
+      "new_blob_sha": "f048d69939d76ca1c92996ceb987f80084454574",
+      "bytes": 11257
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/stories/timothy.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "a697a2dfe6ac8f8714f0ddd64c1e1385a784f760",
-      "bytes": 1429
+      "old_blob_sha": "a697a2dfe6ac8f8714f0ddd64c1e1385a784f760",
+      "new_blob_sha": "677dc0507d0e3caa70538a7d25a76349c66a0340",
+      "bytes": 13040
     },
     {
       "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc2_lo/stories/two-skirmishes-in-the-never-ending-war-in-rural-ohio.json",
+      "path": "flc/_PARSED_TEXT/flc2_lo/stories/timothy.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "1fadcc4b58e09caee1c55e6a5a35210108e7baa7",
-      "bytes": 1223
+      "new_blob_sha": "d86632567f4134e5b76a0f6801e3cd6247bb8da4",
+      "bytes": 10924
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc2_lo/story-text-index.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "cada243cc56f52c67032f8f7bf82291f10c4e95b",
-      "bytes": 6122
+      "old_blob_sha": "cada243cc56f52c67032f8f7bf82291f10c4e95b",
+      "new_blob_sha": "edcb37de258638e3e4b125028631c353fcc2dd83",
+      "bytes": 6116
     },
     {
       "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/PARSE_REPORT.md",
+      "path": "flc/_PARSED_TEXT/flc3_lo/PAGE_ORDER_SOLVER_REPORT.json",
       "old_blob_sha": "",
-      "new_blob_sha": "15e92faaadfc53d373f75a616923563bc1785333",
-      "bytes": 843
+      "new_blob_sha": "9a74b253ef8b0708d6c5801c96d2943d6750df0e",
+      "bytes": 2595
     },
     {
       "change": "ADDED",
+      "path": "flc/_PARSED_TEXT/flc3_lo/TEXT_REFLOW_REPORT.md",
+      "old_blob_sha": "",
+      "new_blob_sha": "a9836f05f506eee19194b831872542496a92574d",
+      "bytes": 697
+    },
+    {
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/manifest.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "a96234456cc5ec270b44370474e64937509c75b4",
-      "bytes": 699
+      "old_blob_sha": "a96234456cc5ec270b44370474e64937509c75b4",
+      "new_blob_sha": "f296ce45807867a2df38b983a98d2821ee230b96",
+      "bytes": 1285
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/page-number-conflicts.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c48c8809230fc8dffe57b985400330c5736a8d3b",
-      "bytes": 509
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/page-records.jsonl",
-      "old_blob_sha": "",
-      "new_blob_sha": "e455ab00ad40cb25a9a036d58e908f3e961dcd3c",
-      "bytes": 179041
+      "old_blob_sha": "e455ab00ad40cb25a9a036d58e908f3e961dcd3c",
+      "new_blob_sha": "eddde5837f438b59dcf1a381a4198789d4a48966",
+      "bytes": 181549
     },
     {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-001.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a881a2f5306702939c3fa8a8a80ed41e88ea7449",
-      "bytes": 111
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-002.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "51ce5722de02023a39d7689b7286faca69998144",
-      "bytes": 2106
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-003.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "db8ec450e393bc23f4fdb471bbed6388f7506431",
-      "bytes": 238
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-004.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "9b950e2cfcc8084ee8b1e5d0404c8f0dc33b5895",
-      "bytes": 1128
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-005.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e26291015d3c681f73abb87c5a6fbf719786e755",
-      "bytes": 1881
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-006.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ffd8a099e93574a53a8310865fa28b8e4cb28f5a",
-      "bytes": 2435
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-007.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "4a72f7dcd873e321569542a5ef1fac30978cbb1e",
-      "bytes": 5801
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-008.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "4a8b923d7ea3ecffb58ba2b31d96352b89d06abf",
-      "bytes": 3413
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-009.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8d1854bbae3f3374820848b2af504835b805ea69",
-      "bytes": 4999
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-010.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "011a05232aa59c03e905199441eea24f3cffda67",
-      "bytes": 820
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-011.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "5ae03f84135c0f67bbdd479cc77594c4d4f8f51d",
-      "bytes": 4783
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-012.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "fe82745e12014f6e8a1af90d753bffeb77c43179",
-      "bytes": 4641
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-013.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b458612ac9358dbc1ed66364d711762f5d0eb0af",
-      "bytes": 3171
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-014.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "eb41a81c9ffadc8b98f9636f5281d69e705bd36f",
-      "bytes": 4227
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-015.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "0ea86ec4e83e1f134b598a88d470d721ec35853c",
-      "bytes": 4126
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-016.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "7b86bf9e013b8cabff79745590fd796807b60de7",
-      "bytes": 4107
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-017.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "e4d1c6b3c2abd016671ab00cdeaf0b1f65db47a0",
-      "bytes": 4397
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-018.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "313dad6b863cd41b0dbe7375db267d00797077e1",
-      "bytes": 4482
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-019.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "ea6bbb57e0fd0f163920d5343218817a3f1b22bc",
-      "bytes": 1298
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-020.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "004c31be7b5540f89e815263de2f57d3d97d5045",
-      "bytes": 1888
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-021.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "5b7a15b3b974ad2a55eaa6144ad0a987b0d5bde0",
-      "bytes": 520
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-022.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "68282b6f00e065164a48d3f45ec144f1209415cd",
-      "bytes": 1412
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-023.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "4fb232a4bdbb41fcce844be275b8ead878ed6b72",
-      "bytes": 4149
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-024.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "30d646895e968cd9037583a6bd5274beb4812310",
-      "bytes": 3852
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-025.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "83fcb4bfeda0f710268b2ffa2e5d69ec1b97738e",
-      "bytes": 3830
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-026.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "1adc9c0896ce49d38521aa462469d7573957c604",
-      "bytes": 4031
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-027.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "02f65b60a3bf3b56b97878de66376cc8d6785e03",
-      "bytes": 4275
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-028.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "593afff7838759c060be79c3c1cacaa5eb7b22cd",
-      "bytes": 1413
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-029.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "7f1022d2f5aa9c3b070e86b376b316cd7b875365",
-      "bytes": 3824
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-030.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "00a5488aa55985375811e2a19913db6147328959",
-      "bytes": 5308
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-031.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "dca3e6ff88faf79c0a1ee4f383d87c700feb5651",
-      "bytes": 4180
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-032.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a1394d895a710d9f5cc9ec062d8d4da58f315759",
-      "bytes": 5828
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-033.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "824b16189397cbc8c68ebd042bf760c32cb4db51",
-      "bytes": 2642
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-034.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "f0401019be6c42bcf127c566d08c8d3ce6a275c8",
-      "bytes": 2236
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-035.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "a594d56a8e0d5b8f9113df15795154b99362bf63",
-      "bytes": 5037
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-036.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "10b9acb16a8bbe111c5ff0661984e7d1d90f824b",
-      "bytes": 2286
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-037.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b5029ff304467a15fa4f6d501e5a40ab980eaa27",
-      "bytes": 4291
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-038.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "0781b4ccd6c6e979eb45ec319d921c3cc974bd08",
-      "bytes": 5071
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-039.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "35d941c536e48dea4df266ab9f8a31815e6b9544",
-      "bytes": 627
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-040.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d4b00dc6976fcaca8a7d9a65419ed2a2f53fb396",
-      "bytes": 2130
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-041.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "dc8e1a84c8e0ccaa086a80bd67eb3abda9039998",
-      "bytes": 1594
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-042.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "54a2d1d6e19e2e00bebcf67a70c0747349dcb8f2",
-      "bytes": 609
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-043.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "d1cb26453bfdc64643b3e43e9327f88c57716a59",
-      "bytes": 2019
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-044.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "af9da0d1868f369741c3dc30f2547eb740b43060",
-      "bytes": 914
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-045.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "43266678cfdd1f6c4f573aa7170b0b58067727e9",
-      "bytes": 542
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-046.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "21990e029fc3ec96bfb8695cf000f98caef68bff",
-      "bytes": 549
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-047.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "cd772189f16ed071d3bd68f13932a8c4565d450c",
-      "bytes": 1885
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-048.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/pages/pdf-049.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "50ca9e1999b1523e3099dcce3f08c516314b3d81",
-      "bytes": 25
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/a-buried-mystery.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "a8d9c86774f0f467af2906ab8ac1bb9e2d19da9e",
-      "bytes": 15360
+      "old_blob_sha": "a8d9c86774f0f467af2906ab8ac1bb9e2d19da9e",
+      "new_blob_sha": "79a3651adff100cef503b533062daf5dbf742c39",
+      "bytes": 12593
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/a-buried-mystery.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "b1fa2ad45aba44887de27d0100814913f972e395",
-      "bytes": 12705
+      "old_blob_sha": "b1fa2ad45aba44887de27d0100814913f972e395",
+      "new_blob_sha": "779df01b8ac453a755ec6e73026fd5eda9bba5ea",
+      "bytes": 9905
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/save-the-kildans.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "a260931fe54125dd2b7c3c1e69ffa4eecc96512e",
-      "bytes": 11332
+      "old_blob_sha": "a260931fe54125dd2b7c3c1e69ffa4eecc96512e",
+      "new_blob_sha": "b67e20cc4ba5c7a902e5cf748edcc7ea75c9a7e0",
+      "bytes": 9137
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/save-the-kildans.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "3727120cc31739fe0b881b320634f19dd27278f6",
-      "bytes": 8241
+      "old_blob_sha": "3727120cc31739fe0b881b320634f19dd27278f6",
+      "new_blob_sha": "8a634cf180195015fcca5cfe8e47868e85069b2d",
+      "bytes": 6097
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/strange-forms-of-the-surfacing-dead.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "0bccdf11542787555a8ea8ac8d4ed3835d054d81",
-      "bytes": 30898
+      "old_blob_sha": "0bccdf11542787555a8ea8ac8d4ed3835d054d81",
+      "new_blob_sha": "38eed98d9964f63f3d5a0f1e74d0364e288dfd9c",
+      "bytes": 29941
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/strange-forms-of-the-surfacing-dead.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "cce9cdb314b971ed3bf93e39d8211c573f6d2eaa",
-      "bytes": 26858
+      "old_blob_sha": "cce9cdb314b971ed3bf93e39d8211c573f6d2eaa",
+      "new_blob_sha": "9ea9264507db1df603a9d49221de2ee877bef14b",
+      "bytes": 26088
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/the-gilgamesh-golem.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "65f3d17cf45b56bae4f5fbdb8d52cf9f92f51c9c",
-      "bytes": 1207
+      "old_blob_sha": "65f3d17cf45b56bae4f5fbdb8d52cf9f92f51c9c",
+      "new_blob_sha": "9106fe7cca551001f243df62c10e0b90a82d36d9",
+      "bytes": 22942
     },
     {
       "change": "ADDED",
-      "path": "flc/_PARSED_TEXT/flc3_lo/stories/the-man-who-died-a-thousand-deaths.json",
+      "path": "flc/_PARSED_TEXT/flc3_lo/stories/the-gilgamesh-golem.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "ea7574b6fce0fdf2ee07ff3537d911330024c374",
-      "bytes": 1176
+      "new_blob_sha": "7f467d050770a5af2d8d5333d65579d1ab01c634",
+      "bytes": 19175
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/the-nature-of-fireflies.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "954e04312f44a8ca5643a9c3ee86078489d82c22",
-      "bytes": 13857
+      "old_blob_sha": "954e04312f44a8ca5643a9c3ee86078489d82c22",
+      "new_blob_sha": "151b8be47e0c41121523801fe7311eb78dc877ad",
+      "bytes": 12621
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/the-nature-of-fireflies.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "354eb2223e10fbe9934747dd8d7e5c4f815c1a04",
-      "bytes": 10644
+      "old_blob_sha": "354eb2223e10fbe9934747dd8d7e5c4f815c1a04",
+      "new_blob_sha": "4f27e512f59ee16071dd4cdd6001762461b1ae72",
+      "bytes": 9683
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/work-and-play.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "94ca7c59e2e0b4956e1811de0ede27e46922d55e",
-      "bytes": 7744
+      "old_blob_sha": "94ca7c59e2e0b4956e1811de0ede27e46922d55e",
+      "new_blob_sha": "0546aaeb6746b834feea4cc3d13a3d6268bda7af",
+      "bytes": 18729
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/stories/work-and-play.txt",
-      "old_blob_sha": "",
-      "new_blob_sha": "75d4afd76ef38fc5ff3085b71f280ebc23bbcc42",
-      "bytes": 5562
+      "old_blob_sha": "75d4afd76ef38fc5ff3085b71f280ebc23bbcc42",
+      "new_blob_sha": "cf4a9a06440f12135d75ea00cd333310219af89b",
+      "bytes": 15595
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_PARSED_TEXT/flc3_lo/story-text-index.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "36e83ed36cb69935aa9fe137c2de3670b667f1a6",
-      "bytes": 5454
+      "old_blob_sha": "36e83ed36cb69935aa9fe137c2de3670b667f1a6",
+      "new_blob_sha": "54c484e7978ceede9f40054d381fec800146eb82",
+      "bytes": 5439
     },
     {
-      "change": "ADDED",
-      "path": "flc/_SITE_FEED/README.md",
-      "old_blob_sha": "",
-      "new_blob_sha": "a38eb0144c4f37e4d5d922de4928bb9cc57bc3ed",
-      "bytes": 818
-    },
-    {
-      "change": "ADDED",
-      "path": "flc/_SITE_FEED/frontend-consumer-reference.js",
-      "old_blob_sha": "",
-      "new_blob_sha": "7aae4a44678ce2fe9ca8cf090726476d96e9eba6",
-      "bytes": 2459
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/latest.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "8e2a88abe8d687d95067321d1f6e58d31847b61e",
+      "old_blob_sha": "8e2a88abe8d687d95067321d1f6e58d31847b61e",
+      "new_blob_sha": "dd7f74f85f6de5731d9fe1a21a618d600f48e017",
       "bytes": 1221
     },
     {
       "change": "ADDED",
-      "path": "flc/_SITE_FEED/site-bundle.json",
+      "path": "flc/_SITE_FEED/page-anchors.json",
       "old_blob_sha": "",
-      "new_blob_sha": "c80fe8d01b51b504b8c778369b38edd6c4016e49",
-      "bytes": 3808
+      "new_blob_sha": "a532b33f56b5e6f8f175531a72b3a5ca978d74bd",
+      "bytes": 1339
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/a-buried-mystery.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "8081816c3c81cdc6c1120dc1570dfa382c8dac2a",
-      "bytes": 16105
+      "old_blob_sha": "8081816c3c81cdc6c1120dc1570dfa382c8dac2a",
+      "new_blob_sha": "85076a30d0a9de28c007dda57086861e6a89d8e8",
+      "bytes": 13332
     },
     {
-      "change": "ADDED",
-      "path": "flc/_SITE_FEED/stories/a-cover-letter.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "4f772d642fc9bd98a9e0e660a798474e67dbfd4c",
-      "bytes": 9562
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/concrete-afternoon.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "4b4da5758346a354b3e6be9780654f62b7c33f0d",
-      "bytes": 6180
+      "old_blob_sha": "4b4da5758346a354b3e6be9780654f62b7c33f0d",
+      "new_blob_sha": "46717eed30a6ee844baa796b377e1ba8980193e5",
+      "bytes": 5775
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/elders-in-the-love-garden.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "fc8ab148efdf6ceb88407c4cc4348d24663735db",
-      "bytes": 12882
+      "old_blob_sha": "fc8ab148efdf6ceb88407c4cc4348d24663735db",
+      "new_blob_sha": "d454e2c88d646d484c5a8911092e8a5854f7920d",
+      "bytes": 12878
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/eye-of-the-angry-god.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "9e3fb9a4107b62deb5c250dd61f076ca63e7e782",
-      "bytes": 20846
+      "old_blob_sha": "9e3fb9a4107b62deb5c250dd61f076ca63e7e782",
+      "new_blob_sha": "068dcf5adc0953c5b14a60caca485887113d58e2",
+      "bytes": 19389
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/eyesores.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "2f647da27d361b898d3682bae2e67f7f3cb44f07",
-      "bytes": 5345
+      "old_blob_sha": "2f647da27d361b898d3682bae2e67f7f3cb44f07",
+      "new_blob_sha": "f16332dcb2736970896700f1ce6509c4defcbecd",
+      "bytes": 5462
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/save-the-kildans.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "73191fbdc14909ccea75c9aa8975f40e3e381dca",
-      "bytes": 12084
+      "old_blob_sha": "73191fbdc14909ccea75c9aa8975f40e3e381dca",
+      "new_blob_sha": "54d368448ee5f475c005834cb0e36f6e424e3884",
+      "bytes": 9889
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/spytown.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c1078047c166e062428ed331335fc955f5b31984",
-      "bytes": 10064
+      "old_blob_sha": "c1078047c166e062428ed331335fc955f5b31984",
+      "new_blob_sha": "2f60a765ec119314d939cd37fbe0c1cfb0229ef0",
+      "bytes": 8278
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/strange-forms-of-the-surfacing-dead.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "d59b933c7ad9a529bb9eb6aa64d1f73fb85187e0",
-      "bytes": 31645
+      "old_blob_sha": "d59b933c7ad9a529bb9eb6aa64d1f73fb85187e0",
+      "new_blob_sha": "5b697965524998da6741d173f459670d8241a524",
+      "bytes": 30681
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-dark-continent-episodes.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "0358be58d813242bbb9f3b91a992b84c017c3122",
-      "bytes": 6344
+      "old_blob_sha": "0358be58d813242bbb9f3b91a992b84c017c3122",
+      "new_blob_sha": "fa70db1f9c445eaf72262cb2c5dff1e699dd047f",
+      "bytes": 5897
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-dreams-a-sleeping-lion.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "4e35ddb8be38a9ec02e895c7ae7a8ca8b5adb4fd",
-      "bytes": 38106
+      "old_blob_sha": "4e35ddb8be38a9ec02e895c7ae7a8ca8b5adb4fd",
+      "new_blob_sha": "f556324d88c8517f1c342fef5f01ac783c41bd68",
+      "bytes": 31968
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-gilgamesh-golem.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "c91b765e968212bcf20a41c24d02129efdf5ab1b",
-      "bytes": 14506
+      "old_blob_sha": "c91b765e968212bcf20a41c24d02129efdf5ab1b",
+      "new_blob_sha": "5d8e69b35b8d2592f076c5efc7187201a0229bc2",
+      "bytes": 23637
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-lion-in-the-parking-lot.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "fb9efb26f671bbd3f8f07247f8e56c293ece5447",
-      "bytes": 11708
+      "old_blob_sha": "fb9efb26f671bbd3f8f07247f8e56c293ece5447",
+      "new_blob_sha": "ee83d79d2f521b83cfbb5a315291505f5a88577a",
+      "bytes": 6107
     },
     {
-      "change": "ADDED",
-      "path": "flc/_SITE_FEED/stories/the-man-who-died-a-thousand-deaths.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "584665b77197265b9928d7fdec2c6860203e4f8c",
-      "bytes": 7355
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-memory-of-flesh.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "3263565db5a0184b501f544c646aa5bca72019fd",
-      "bytes": 21985
+      "old_blob_sha": "3263565db5a0184b501f544c646aa5bca72019fd",
+      "new_blob_sha": "76241d4a733089cf167ea1d469752848189a0e70",
+      "bytes": 20746
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-money-pig.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "36178b9e4ebf6ab1b7e7b2de4b0a68f55cdbf537",
-      "bytes": 9966
+      "old_blob_sha": "36178b9e4ebf6ab1b7e7b2de4b0a68f55cdbf537",
+      "new_blob_sha": "5070aa9a0454023f1bee1fe2e09bc00004ab71d5",
+      "bytes": 7786
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-nature-of-fireflies.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "adab004672b1b5c2a5f61d2283cc2a9e60854074",
-      "bytes": 14584
+      "old_blob_sha": "adab004672b1b5c2a5f61d2283cc2a9e60854074",
+      "new_blob_sha": "b8805a2cd1d96bcb59f4395b1259586019c3077f",
+      "bytes": 13348
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/the-recovery-of-sunken-vessels.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "27620f4779b08847c6933cea865ccd640434f5d4",
-      "bytes": 15108
+      "old_blob_sha": "27620f4779b08847c6933cea865ccd640434f5d4",
+      "new_blob_sha": "390c678d264786c08c908de79df101cce18facc3",
+      "bytes": 14127
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/timothy.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "3fc53787b427645d569fb8d063c255509734e0ef",
-      "bytes": 21646
+      "old_blob_sha": "3fc53787b427645d569fb8d063c255509734e0ef",
+      "new_blob_sha": "fcf70c43546bfe7174bf5e9953d5c572376c46c1",
+      "bytes": 13739
     },
     {
-      "change": "ADDED",
-      "path": "flc/_SITE_FEED/stories/two-skirmishes-in-the-never-ending-war-in-rural-ohio.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "410ce28c1a079df2a7e32ccd9f898b52d7a61c88",
-      "bytes": 1733
-    },
-    {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/walking-along-the-mobius-strip.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "7c55488c087a177d967a76de6f896c0195c31492",
-      "bytes": 12925
+      "old_blob_sha": "7c55488c087a177d967a76de6f896c0195c31492",
+      "new_blob_sha": "b8355cecd8ce86cf915c4d6294ae48db7907b65d",
+      "bytes": 12795
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/stories/work-and-play.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "97894e0eeca9b965397bbcec5c4aad9ddc96c966",
-      "bytes": 8457
+      "old_blob_sha": "97894e0eeca9b965397bbcec5c4aad9ddc96c966",
+      "new_blob_sha": "4638583b11e7a0dc05c1833edb2ca931a99b4614",
+      "bytes": 19418
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/story-index.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "b37fc32d42e80d82009266403bdfebf46d9108ff",
-      "bytes": 24574
+      "old_blob_sha": "b37fc32d42e80d82009266403bdfebf46d9108ff",
+      "new_blob_sha": "fe21061c10f968108a5d7183e9a0c7855fb4dc8d",
+      "bytes": 24353
     },
     {
-      "change": "ADDED",
+      "change": "CHANGED",
       "path": "flc/_SITE_FEED/story_catalog.json",
-      "old_blob_sha": "",
-      "new_blob_sha": "02037d91b022402f2b2560cbc3b6f7651887ff4c",
-      "bytes": 4975
+      "old_blob_sha": "02037d91b022402f2b2560cbc3b6f7651887ff4c",
+      "new_blob_sha": "ac607a30ef5aea6389de9e1feeeb5976049ac4bf",
+      "bytes": 6288
     },
     {
       "change": "ADDED",
-      "path": "flc/_SITE_FEED/tunnel.json",
+      "path": "tools/audit_flc_story_feed.py",
       "old_blob_sha": "",
-      "new_blob_sha": "e84c7f92322b66c4a4f928093b949977bd2231cb",
-      "bytes": 3543
+      "new_blob_sha": "d61c552371373a0a974d14f01eed7bb1c31a7bad",
+      "bytes": 5785
     },
     {
       "change": "ADDED",
-      "path": "flc/flc1_lo.pdf",
+      "path": "tools/refine_flc_folios.py",
       "old_blob_sha": "",
-      "new_blob_sha": "feda98fb3ca15ce5130b279c08dcfac05f424e70",
-      "bytes": 16759865
+      "new_blob_sha": "9ad9af5c895293f679e48f73eef835eb0568939f",
+      "bytes": 8010
     },
     {
       "change": "ADDED",
-      "path": "flc/flc2_lo.pdf",
+      "path": "tools/reflow_flc_pages.py",
       "old_blob_sha": "",
-      "new_blob_sha": "cfee7275dcf70a2ca828b2da7a285e02788e48b0",
-      "bytes": 15406157
+      "new_blob_sha": "0497e3f30fafbafb6ac4c77707a61f36dbb2c3da",
+      "bytes": 13831
     },
     {
       "change": "ADDED",
-      "path": "flc/flc3_lo.pdf",
+      "path": "tools/reflow_flc_pages_v2.py",
       "old_blob_sha": "",
-      "new_blob_sha": "20b1b3e5ee98bff1744a35400c6490e93ad0f75f",
-      "bytes": 15383584
+      "new_blob_sha": "80839193dbba4e0f5e5a8638ead6a917273d133c",
+      "bytes": 12448
     },
     {
       "change": "ADDED",
-      "path": "flc/gitignore.txt",
+      "path": "tools/solve_flc_page_order.py",
       "old_blob_sha": "",
-      "new_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
-      "bytes": 1
-    },
-    {
-      "change": "ADDED",
-      "path": "florx.md",
-      "old_blob_sha": "",
-      "new_blob_sha": "0298033d2f6ba8aaa151109f49d6d04dcf6b3254",
-      "bytes": 668
-    },
-    {
-      "change": "ADDED",
-      "path": "newPAPER.pdf",
-      "old_blob_sha": "",
-      "new_blob_sha": "be2731f387b55ad91a10d81301b1b4a24fa04b73",
-      "bytes": 227905
-    },
-    {
-      "change": "ADDED",
-      "path": "tools/apply_flc_story_ranges.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "2bbeb74eead45df88c90c7fd6ec886af5cde541a",
-      "bytes": 8616
-    },
-    {
-      "change": "ADDED",
-      "path": "tools/build_flc_story_text_feed.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "1654c47b74a842f6a6846f11e987226a797d623e",
-      "bytes": 14283
-    },
-    {
-      "change": "ADDED",
-      "path": "tools/parse_flc_pages.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "9d4beb5569e2bb7a04680b84aaeae8eb0900e7f0",
-      "bytes": 18562
-    },
-    {
-      "change": "ADDED",
-      "path": "tools/parse_flc_spreads.py",
-      "old_blob_sha": "",
-      "new_blob_sha": "d796832a05857d54d96579cf2bd526a558773d08",
-      "bytes": 28898
+      "new_blob_sha": "834884328e38bced40bc80d225ba9eb9352bc5c2",
+      "bytes": 16017
     }
   ]
 }
