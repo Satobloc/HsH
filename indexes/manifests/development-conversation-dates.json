@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T10:08:14.999731+00:00",
+  "generated_at_utc": "2026-09-24T12:12:16.406725+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,8 @@
   "summary": {
     "unchanged": 476,
     "skipped": 252,
-    "collision": 1
+    "collision": 1,
+    "planned": 1
   },
   "records": [
     {
@@ -6453,6 +6454,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/Science Made Stupid — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-22T21:39:51.236000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1202,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/TV1. SAT PURE__NotebookLM_export.txt",
