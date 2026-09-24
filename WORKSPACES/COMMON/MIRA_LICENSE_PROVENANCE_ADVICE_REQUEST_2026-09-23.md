@@ -13,6 +13,21 @@ Nathan is reconsidering the SAT/H(s)H public-license architecture in light of tw
 
 Nathan is **not** making a conclusive claim about influence on any specific contemporary research programme. The question here is narrower and forward-looking: while you develop citation lineages, provenance, priority boundaries, and the history of the relevant scientific undercurrent, do you see licensing/provenance design choices that would materially improve our ability to reconstruct future diffusion without distorting ordinary scientific use?
 
+## Nathan's clarified historical framing
+
+Please treat the following as Nathan's current working interpretation to investigate, not as an established project conclusion:
+
+- The relevant comparison is not "SAT versus ideas that did not previously exist." Many component ideas clearly have prior art, often deep prior art.
+- Nathan's historical suspicion is that late-19th-century higher-spatial / Hintonian thinking became culturally entangled with spiritualism and occultism, after which explicit popular association with that lineage became scientifically disfavored, while technically rigorous descendants or structurally related lines continued inside mainstream mathematics and physics.
+- From a non-specialist viewpoint, areas such as ER/EPR, Cartan/torsion and gauge-gravity traditions, Yang-Mills, Cauchy-surface/global-structure work, knot/braid/anyon theory, higher gauge theory, higher category theory, higher homotopy/cohomology, and adjacent mathematical-physics programs do not obviously present themselves as one intellectual family. Nathan's active question is how much genuine historical/structural interrelation exists once specialist citation lineages are reconstructed.
+- He therefore wants special care distinguishing **true genealogy**, **later mathematical unification**, **structural analogy**, and **retrospective family resemblance**. The existence of a modern formalism that unifies two older subjects does not by itself prove a continuous historical lineage between them.
+- SAT's claimed distinctiveness is not that it invented each ingredient. Nathan describes its starting point as minimalist Minkowski-based reconstruction: take standard 20th/21st-century physics as bedrock, remove inherited interpretive labels where possible, and ask what a line/worldline-worldtube plus a plane/rotational structure can geometrically encode in four dimensions without adding extra dimensional machinery unless forced.
+- Nathan sees this as in some sense independently recapitulating aspects of older higher-dimensional geometric thinking while deliberately stopping at a minimal 4D representational grammar. Whether that historical analogy is exact, loose, or misleading is part of the inquiry.
+- Nathan presently suspects that Schreiber and adjacent "higher" mathematical-physics work represent an unusually self-aware modern synthesis of several of these streams. This should be tested from bibliographic lineage rather than assumed.
+- Any proposed relation between SAT/H(s)H and Hypothesis H should remain explicitly provisional until the mathematical comparison is independently established. In particular, claims such as SAT being a 4D compactification/reduction of Hypothesis H should not be promoted from analogy or model comparison into fact without derivation.
+
+This clarification matters for licensing/provenance because a future influence audit must not treat ordinary use of long-established braid, knot, gauge, homotopy, category, or higher-dimensional ideas as evidence of SAT/H(s)H transmission. The useful signal would instead be chronology plus unusually specific structural conjunctions, project-specific representations, copied/adapted protected material, or an identifiable exposure/transmission path.
+
 Current licensing direction under discussion:
 
 - preserve all valid historical MIT / CC / earlier-license grants for the versions to which they applied;
