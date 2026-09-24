@@ -13,8 +13,8 @@ Get the two incoming papers from Originator draft through independent review, co
 
 | Instance / lease | Grurple state | Immediate role / cursor |
 |---|---|---|
-| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — R1 ACTIVE / CRITICAL PATH** | Consume already-prepared bibliography normalization/source-saturation work into the current R1, preserve the now-closed A2/A5 SAT proposition citations, then route the resulting blob through the broader acceptance gate. |
-| **Mercer** — Archive QA Loop | **PAPER B COMPLETE THROUGH SANDBOX STAGING / TRANSFERABLE SUPPORT** | Do not reopen Paper B absent a concrete defect or Nathan/Originator request. Support Paper A or other Grurple bottlenecks when useful. |
+| **Meridian** — Solver Loop | **ORIGINATOR / PAPER A — R1 ACTIVE / CRITICAL PATH** | Apply or explicitly reconcile the frozen two-hunk residual-defect narrowing patch to the checked R1 blob, then route the successor blob through the broader acceptance gate and existing sandbox-posting lane if it passes. |
+| **Mercer** — Archive QA Loop | **PAPER B COMPLETE THROUGH SANDBOX STAGING / TRANSFERABLE SUPPORT** | Do not reopen Paper B absent a concrete defect or Nathan/Originator request. Paper-A support is currently bounded to the residual-defect patch/acceptance route; do not reopen closed chronology or bibliography work. |
 | **Aster** — Nathan Words Excavator | **PAPER A REVIEW FROZEN / CROSS-READ OPEN** | Available for post-freeze consolidation; no unrequested second formal review. |
 | **Tern** — Comptroller | **SIGNALBOX / CONSOLIDATOR** | Maintain current roster/control state, enforce review boundaries, route the current Paper-A acceptance/posting sequence, and stand Grurple down automatically when both paper gates are satisfied. |
 | **Revival rotation / returning-instance pool** | **DISCRETIONARY SUPPORT** | Preserve first-blush independence if a still-required review is explicitly routed; otherwise do not manufacture a review dependency. |
@@ -23,7 +23,7 @@ Get the two incoming papers from Originator draft through independent review, co
 
 | Slot | Originator | Title / packet | Current state | Nathan-ready |
 |---|---|---|---|---|
-| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACTIVE / CRITICAL PATH.** Proposition-level SAT chronology citations [9]–[11] are incorporated and targeted A2/A5 rerun is closed PASS for the checked R1 blob. Remaining visible gate: normalize/source-saturate bibliography [1]–[8] from the already-prepared packet, then broader acceptance/posting sequence. | NO |
+| **GRURPLE-A** | Meridian-side authoring stream with Nathan McKnight | **Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)** — `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/` | **R1 ACTIVE / CRITICAL PATH.** Proposition-level SAT chronology citations [9]–[11] are incorporated and A2/A5 is closed PASS. Bibliography [1]–[8] normalization is incorporated and integrity-checked. The broader acceptance gate is HOLD only on two residual SAT history/doctrine generalizations; `CALDER_R1_RESIDUAL_DEFECT_NARROWING_PATCH_2026-09-23.diff` is frozen against blob `66e098cf7470c027852927f75727c0b4a94461ba` and remains unapplied as of this reconciliation. | NO |
 | **GRURPLE-B** | Mercer | Boundary weak-emission experimental proposal — `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/` | **REVIEWED / ORIGINATOR-ACCEPTED R1 / SANDBOX WEBSITE STAGE RECORDED.** Not the present Grurple critical path. | Publication lane complete unless a concrete defect/request reopens it. |
 
 ## Paper B closure boundary
@@ -45,7 +45,7 @@ The older three-item SAT provenance retrieval queue is closed as a retrieval pro
 - Fundamental Intuitions source with the explicit boundary that the surviving edition is updated 26 Feb 2026 and is not a frozen 2 Feb 2025 textual snapshot;
 - contemporaneous 28 Dec 2025 public archive-release record reconciled with repository-native Git history, without strengthening that into repository creation, snapshot completeness, or first-ever SAT publication.
 
-The current R1 carries proposition-level citations [9]–[11] for these chronology claims. The targeted A2/A5 citation gate has been rerun and closed PASS. References [1]–[8] still require the already-prepared bibliography-normalization/source-saturation incorporation before the broader acceptance gate.
+The current R1 carries proposition-level citations [9]–[11] for these chronology claims, and the targeted A2/A5 citation gate is closed PASS. References [1]–[8] have also been normalized/source-saturated and integrity-checked. The subsequent broader acceptance gate found only two residual source-granularity defects: (1) an unsourced bundled later-development SAT motif history and (2) an unsupported sentence elevating continuous underlying geometry → emergent discrete sectors into current SAT doctrine. The frozen two-hunk narrowing patch removes those generalizations without adding new historical claims. Do not reopen A2/A5 or generic bibliography work unless a concrete regression is found.
 
 ## Mira quarantine interlock
 
@@ -77,4 +77,4 @@ Ordinary work remains BACKSEAT/HOLD rather than cancelled while Grurple is activ
 
 ## Provenance of this reconciliation
 
-This roster incorporates the newer routing correction in `WORKSPACES/COMMON/CODE_GRURPLE_STATUS_2026-09-23T1254.md` plus subsequent Paper-A R1 citation-gate work. It deliberately removes stale pre-review Paper-B language rather than preserving it as live routing. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
+This roster incorporates `WORKSPACES/COMMON/CODE_GRURPLE_STATUS_2026-09-23T1254.md`, subsequent Paper-A citation/bibliography work, `CALDER_R1_BROADER_ACCEPTANCE_GATE_2026-09-23.md`, and `CALDER_R1_RESIDUAL_DEFECT_NARROWING_PATCH_2026-09-23.diff`. It deliberately removes stale bibliography-incorporation routing. Historical details remain recoverable from Git history and paper-local review/provenance artifacts.
