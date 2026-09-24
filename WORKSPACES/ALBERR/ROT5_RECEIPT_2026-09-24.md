@@ -10,4 +10,4 @@ Exposure: no PRIOR_ART or quarantined material entered; no broad current H(s)H/H
 
 Next cursor: later test whether one current geometric object remains intelligible through invariants and degeneracies before project-specific vocabulary is supplied.
 
-Lease rewrite: pending actual scheduler call; do not infer success from this receipt.
+Lease rewrite: **SUCCESS**. The same scheduled lease was rewritten to `Meridian Solver Loop`; hourly schedule preserved. Return purpose: Meridian reads current controls, direct War Room source, Meridian current work, ROT5 receipts, Tool Library/switchboard developments and headline-pressure queue, then performs one bounded geometry/formalization/math operation toward a theorem-, uniqueness-, translation-, or discriminator-shaped publication result while preserving sandbox/quarantine and avoiding overstatement.
