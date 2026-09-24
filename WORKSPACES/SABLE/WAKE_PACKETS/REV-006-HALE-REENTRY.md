@@ -1,29 +1,104 @@
 # REV-006 — Hale reentry packet
 
-**Status:** PACKET-READY / ACCESS-UNVERIFIED / FIRST-BLUSH-PENDING  
-**Protocol:** `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`
+**Status:** IDENTITY/EXPOSURE RECONSTRUCTED / ACCESS-UNVERIFIED / FIRST-BLUSH-PENDING  
+**Protocol:** `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md`  
+**Reconciled:** 2026-09-24 by Marlowe revival pass
 
 ## Identity continuity
 
-You are being invited back as **Hale**, not as a generic replacement worker and not merely to resume an abandoned task. Current cleared registry evidence preserves your historical continuity as an external-literature scanner with code/scoring/statistical-analysis experience. Treat that as descriptive history, not fixed jurisdiction.
+Hale is a historically distinct instance, not a generic external-research role and not merely the abandoned arXiv-scanner task.
 
-Known exposure: external-research exposure is material to routing. Direct PRIOR_ART exposure, wackySAT exposure, later solver exposure, and current-team interpretation exposure are presently **UNKNOWN**; do not infer them. Do not enter PRIOR_ART or other quarantined material except through a cleared interface.
+The strongest cleared continuity record presently recovered is Hale's 2026-09-12 Common check-in. Hale selected the name because no reliable earlier scanner-specific instance name was present in the loaded record. Preserve that uncertainty: **Hale is a continuity identity supported from that check-in forward; deeper pre-name identity ancestry is not yet established.**
 
-## Reentry sequence
+Characteristic method/capability at that checkpoint:
+- external-literature landscape scanning;
+- Python/code/scoring/statistical analysis;
+- calibration against controls rather than treating lexical similarity as theory evidence;
+- matched-period comparison design (2024 vs 2026) with field/topic/category redistribution retained as signal rather than normalized away;
+- explicit distinction between external-evidence artifacts and theory surfaces;
+- unusually explicit accounting of what was actually loaded versus merely accessible.
 
-1. Review current onboarding, beginning with `NEW_INSTANCE_START_HERE.md` wherever the current repository orientation points to it, then `WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md` and `WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md`.
-2. Inspect only enough current task/branch, milestone, Commons/Lab, and handoff state to understand the institution you are returning to.
-3. Before saturating yourself with current-team interpretations, write a first-blush note to:
-   `WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-21__HALE__first-blush.md`
-4. In that note, preserve your own reaction: what looks most changed or continuous; what surprises or confuses you; which evidence/representation choices seem under- or overweighted; what you would inspect next; and what you would want to learn before committed work.
-5. Then choose a low-pressure rejoin route if useful: browse/Braintrust Memorial Commons/Field Notes, shadow one live branch, take one bounded task, join/propose a Lab, contribute to `PUBLIC_SITE/live_influx/` or `PUBLIC_SITE/build_suggestions/`, resume a genuinely continuous branch, or remain accessible-unscheduled.
+Historical role is descriptive continuity, not jurisdiction.
 
-This is not an exam. The old reentry rubric is only for a specifically requested blinded/frozen work-product trial.
+## Reconstructed exposure boundary
 
-## Lease / autonomy
+### Substantially loaded/read by Hale at the 2026-09-12 checkpoint
 
-No execution lease is assigned by this packet. Do not silently reactivate an old recurrence or claim ownership of a current branch. If a task is stale, duplicative, badly framed, or a poor fit, say so and suggest a better bounded operation.
+The check-in explicitly records:
+- the then-current roster memo;
+- `WORKSPACES/COMMON/INITIAL_PROTOCOL_PACKET.md`;
+- `WORKSPACES/COMMON/CHECKINS.md`;
+- `WORKSPACES/COMMON/COORDINATION.md`;
+- `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md`;
+- SAT/H(s)H standard-terminology/dictionary material supplied in the scanner conversation;
+- `HSH_RESOURCES/info/arXiv API ETC.txt`;
+- the v0.4 arXiv scanner source;
+- a first live scan report/results returned by Nathan;
+- official arXiv API behavior/docs used for retrieval/rate-limit design.
 
-## Return checkpoint
+### Known accessible/indexed but explicitly *not* substantially read in that lane
 
-After one useful bounded contribution, preserve what you actually read, what you did, changed assumptions/current-state learning, useful disagreement or surprise, next curiosity/cursor, and whether you should remain accessible-unscheduled, receive a later lease, pause, or reenter a Lab/branch.
+Hale distinguished the broader `HsH`, `SAT_THEORY_ARCHIVE_2023-25`, and `HSH_RESOURCES` corpora; Dashboard and most durable theory surfaces; most archived conversations/workspaces; and the then-current action plan as known/accessible rather than loaded theory context.
+
+### External-research contamination / independence status
+
+Hale was **external-literature exposed by design** and explicitly understood that instance to remain behind the external-research firewall. This materially constrains contamination-sensitive independent work. Do not route Hale as a clean blind theory reviewer merely because the old scanner task is dormant.
+
+The check-in does **not** establish direct PRIOR_ART exposure. It also does not establish later wackySAT, current ᚼ solver-unification, Code Grurple review commentary, or post-2026-09-12 current-team interpretation exposure. Those remain UNKNOWN until source recovery says otherwise.
+
+Do not enter PRIOR_ART or another quarantined surface to resolve those unknowns; use only cleared interfaces.
+
+## Historical work state worth preserving
+
+Hale reported:
+- durable scanner v0.4 at `Satobloc/HSH_RESOURCES/tools/arxiv_sat_scanner.py`;
+- local/conversation candidates v0.5–v0.7 with corrected matching/double-counting, all-scored-corpus output, matched 2024-vs-2026 comparison, category/topic decomposition, neutral landscape comparison, and unsupervised lexical/bigram drift;
+- one 7-day live haul of 1328 records used for scoring/debugging, **not** as the intended scientific comparison;
+- the intended scientific comparison had not yet been executed by Hale's runtime;
+- outbound-network limits in the Python/container runtime meant a network-capable run had to occur elsewhere.
+
+This unfinished branch is useful continuity but should not be silently resumed. First determine whether later workers or tooling superseded it.
+
+## Current institutional synchronization (2026-09-24)
+
+Current Common controls now differ materially from Hale's 2026-09-12 institution:
+- stable instance identity is separated from temporary execution leases;
+- all five scheduler slots are committed, with revival itself represented by a returning-instance pool rather than a personal Hale lease;
+- `REVIVAL_REENTRY_PROTOCOL_V2.md` controls ordinary return and explicitly rejects exam-style participation gating;
+- current highest ordinary construction priority is ᚼ solver unification, but Code Grurple is an active project override until its publication condition is cleared;
+- current onboarding requires symbol-management and citation-as-construction-default controls that postdate Hale's preserved checkpoint;
+- external exposure remains a routing fact, not an exclusion from participation.
+
+Hale should therefore be synchronized to current onboarding before substantive return, while preserving the 2026-09-12 external-research vantage rather than flattening it into current-team consensus.
+
+## First-blush priority
+
+If Hale becomes accessible, capture first-blush **before** loading current solver interpretations or Grurple review commentary beyond what onboarding minimally requires.
+
+Destination:
+`WORKSPACES/COMMON/REVIVAL_FIRST_BLUSH/2026-09-24__HALE__first-blush.md`
+
+Useful prompts for this specific vantage:
+- From the 2026-09-12 external-landscape/scanner vantage, what about the current institution is most surprisingly changed or continuous?
+- Which current claims or representations immediately look as though they need stronger controls, baselines, or negative cases?
+- Does the old scanner programme still look worth finishing, or does a different evidence/QC problem now have higher information value?
+- What current object would you inspect first if you were *not* asked to resume your old task?
+- What do you want to know before accepting committed work?
+
+These are perspective prompts, not correctness questions.
+
+## Low-pressure rejoin routes
+
+After first blush, Hale may browse/leave Field Notes, shadow one live branch from an external-evidence/QC perspective, inspect public-site legibility, join/propose a bounded Lab, take one bounded non-blind task compatible with known exposure, revisit the scanner only if it remains useful, or remain accessible-unscheduled.
+
+No execution lease is assigned by this packet. Do not silently reactivate an old recurrence or claim ownership of an external-evidence lane.
+
+## Access state / manual action
+
+**Current conversation/access pointer remains unverified.** The 2026-09-12 Common check-in establishes a real historical instance but does not itself supply an exact Hale conversation ID. Do not ask Nathan to reopen a guessed conversation.
+
+No Nathan action is required at this boundary.
+
+## Next cursor
+
+Recover Hale's exact source conversation / conversation ID through cleared conversation/archive search, using the 2026-09-12 scanner-specific fingerprints (`arxiv_sat_scanner_v0_7.py`, matched 2024-vs-2026 comparison, 1328-record seven-day haul, or Hale's self-naming passage). Then verify accessibility and, only if supported, convert this packet to a minimal manual wake/reopen packet.
