@@ -92,3 +92,14 @@ Read with `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md`.
 **Interpretation:** This is not a general anti-conversation rule. It is a robustness rule for maintaining project continuity under direct conversational derailment.
 **Implementation:** WfCHRp / derailroad continuity practice; active test on 2026-09-24 with Sable handoff.
 **Return trigger:** future crunch-time dialogue and post-test review of whether work stayed live without making conversation bureaucratic.
+
+---
+
+## 2026-09-24 — full-project transparency breadboard / moving dependency field
+
+**Status:** NEW — PROTOTYPE / ASSESS FOR ADOPTION
+**Trigger:** Nathan asked for a `TRUE FULL-PROJECT transparency snapshot` and proposed a matrix/heatmap whose axes can be workers, jobs, time, edits, subject matter, calculations, physics sectors, folders, workflow stages, or other compact dimensions; later, dependency paths could move across the field like `snakes`/breadboard signals and trigger switchboard actions at edge conditions.
+**Proposal:** Build a project-wide machine-readable transparency surface with interchangeable saved matrix views. Encode at least two independent channels per cell: semantic state/type and depth/strength/evidence/coverage. Preserve unknown as unknown. Add dependency/path views where tasks move through explicit stages, loopbacks, blockers, thresholds, lane changes, handoffs, and completion conditions. Eventually auto-generate from task graph, scheduler/lease-run events, receipts, repo deltas, controls, and current project state; support both visual and non-sight-readable forms.
+**Prototype rule:** do not automate the display semantics before testing which axes and encodings are actually informative. Begin with a simple state × evidence matrix plus dependency tracks; compare views such as project lanes × control state, workers × readiness, repositories × function, and theory sectors × maturity.
+**Implementation:** first prototype generated 2026-09-24 as `project_transparency_breadboard_2026-09-24.html` + machine-readable JSON + static matrix image.
+**Return trigger:** Nathan/use review of v0.1; then decide canonical cell vocabulary, event sources, axis registry, edge rules, update cadence, accessibility output, and whether this becomes a Roderick/switchboard live surface.
