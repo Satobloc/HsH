@@ -97,9 +97,20 @@ Read with `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md`.
 
 ## 2026-09-24 — full-project transparency breadboard / moving dependency field
 
-**Status:** NEW — PROTOTYPE / ASSESS FOR ADOPTION
+**Status:** PROTOTYPE / ASSESS FOR ADOPTION
 **Trigger:** Nathan asked for a `TRUE FULL-PROJECT transparency snapshot` and proposed a matrix/heatmap whose axes can be workers, jobs, time, edits, subject matter, calculations, physics sectors, folders, workflow stages, or other compact dimensions; later, dependency paths could move across the field like `snakes`/breadboard signals and trigger switchboard actions at edge conditions.
 **Proposal:** Build a project-wide machine-readable transparency surface with interchangeable saved matrix views. Encode at least two independent channels per cell: semantic state/type and depth/strength/evidence/coverage. Preserve unknown as unknown. Add dependency/path views where tasks move through explicit stages, loopbacks, blockers, thresholds, lane changes, handoffs, and completion conditions. Eventually auto-generate from task graph, scheduler/lease-run events, receipts, repo deltas, controls, and current project state; support both visual and non-sight-readable forms.
 **Prototype rule:** do not automate the display semantics before testing which axes and encodings are actually informative. Begin with a simple state × evidence matrix plus dependency tracks; compare views such as project lanes × control state, workers × readiness, repositories × function, and theory sectors × maturity.
-**Implementation:** first prototype generated 2026-09-24 as `project_transparency_breadboard_2026-09-24.html` + machine-readable JSON + static matrix image.
-**Return trigger:** Nathan/use review of v0.1; then decide canonical cell vocabulary, event sources, axis registry, edge rules, update cadence, accessibility output, and whether this becomes a Roderick/switchboard live surface.
+**Implementation:** first prototype generated 2026-09-24; live web prototype now added under `CONVERSATION_VIEWER/desk.html`.
+**Return trigger:** use review; then settle canonical cell vocabulary, event sources, axis registry, edge rules, update cadence and accessibility output.
+
+---
+
+## 2026-09-24 — Project Desk straight-to-the-issue controls
+
+**Status:** PROTOTYPE / ACTIVE TEST
+**Trigger:** Nathan asked to put the transparency breadboard `on my desk, as a live website`, then make it a control surface for priorities, assignment/reassignment, bottlenecks, adding/removing assignments, issue navigation, worker contact, and recurrence/switchboard changes.
+**Proposal:** Give every matrix cell four destination ports with invariant meanings: `⚡ EDGE`, `⚠ TROUBLE`, `👤 OWNER`, `✎ INTERVENE`. State/color and evidence depth remain separate from destination semantics. Workers should eventually expose up to four current anchors with urgency, or explicitly signal all-clear; do not infer perfection from silence before that reporting contract is adopted.
+**Control path:** initially use a safe static-site drawer producing compact `PRIORITY / ASSIGN_REASSIGN / BLOCKER / ADD_REMOVE / NOTE` packets into a central intervention queue or issue. Later allow authenticated routing into Comptroller/Sable, recurrence rewrite, priority controls, and other workflow actions with receipts.
+**Implementation:** `WORKSPACES/COMMON/PROJECT_DESK_CONTROL_CONTRACT.md`, `PROJECT_DESK_INTERVENTIONS.md`, and live `CONVERSATION_VIEWER/desk.html` prototype.
+**Return trigger:** Nathan live-use feedback; then wire auto-refresh, worker status packets, bottleneck detection, per-cell/per-lane link overrides, assignment mutation, recurrence control, and icon/status unification.
