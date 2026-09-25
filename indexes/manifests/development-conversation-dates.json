@@ -1,14 +1,13 @@
 {
-  "generated_at_utc": "2026-09-25T01:36:32.362116+00:00",
+  "generated_at_utc": "2026-09-25T01:56:24.508603+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 477,
+    "unchanged": 478,
     "skipped": 252,
-    "collision": 1,
-    "planned": 1
+    "collision": 1
   },
   "records": [
     {
@@ -6274,6 +6273,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-22T21:39:51.236000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1202,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•Science Made Stupid — raw (2).json",
       "start_local": "2026-09-20T19:52:22.997694-04:00",
@@ -6404,16 +6413,6 @@
       "warnings": [
         "Expecting value: line 3 column 1 (char 2)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/KESTREL Orig. Science Made Stupid — raw (3).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json",
-      "start_local": "2026-09-20T19:52:22.997694-04:00",
-      "end_local": "2026-09-22T21:39:51.236000-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 1202,
-      "status": "planned",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/SAT (Almost) From Scratch__NotebookLM_export.txt",
