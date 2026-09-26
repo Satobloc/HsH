@@ -1,13 +1,13 @@
 {
   "counts": {
-    "bytes_known": 2798856614,
+    "bytes_known": 2798838474,
     "directories": 144,
-    "files": 2219
+    "files": 2223
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
-    ".csv": 29,
+    ".csv": 30,
     ".diff": 4,
     ".docx": 1,
     ".htm": 1,
@@ -20,7 +20,7 @@
     ".jsonl": 15,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 986,
+    ".md": 989,
     ".mjs": 1,
     ".pdf": 30,
     ".png": 37,
@@ -46,7 +46,7 @@
     "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 996,
+    "llm-workspace": 1000,
     "review-ledger": 5,
     "source-conversation-corpus": 824,
     "synthesis-workspace": 6,
@@ -78,7 +78,7 @@
     "SAT_VISUALS": 138,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 996,
+    "WORKSPACES": 1000,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -1261,7 +1261,7 @@
       "size": 49
     },
     {
-      "content_id": "7792fa2967d4e0caf624d7b66c56843aaff32aeb8ca2e5a7b10d04779b052ffd",
+      "content_id": "a7c79d25ee474ac9ae3b50265adfea761c438073abeea9ed27cc8c7516c107a7",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -1275,7 +1275,7 @@
       "size": null
     },
     {
-      "content_id": "810a75e7f2afec1196ce35bf4b5c61d70eeda9c38dc3f7bb7de15c72e86b2d76",
+      "content_id": "51c182d151a31637d41bcdebe101deeb0894679c8cc2258393702e2dab13aebc",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -8310,11 +8310,11 @@
       "size": 4269
     },
     {
-      "content_id": "2fb8489ff779287d92f8d2ec8458f937fd7787a354ff7a10a34d403c1961361f",
+      "content_id": "855187c54c96c1c72d55ce873a4870aad63e74736d66b127f68ac4ee949c4b56",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 19880
+      "size": 19853
     },
     {
       "content_id": null,
@@ -9514,18 +9514,18 @@
       "size": null
     },
     {
-      "content_id": "95b1aecfb30eb07193461e956ee21ad545a83bb27e06646b6589542679299837",
+      "content_id": "3445e75f200fa9e81025de07c8d335c5191bbf3ce223ba575d68a5610aab5fd7",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv",
       "role": "llm-workspace",
-      "size": 1050368
+      "size": 1050605
     },
     {
-      "content_id": "1663f17790781946fbd9f8a6798f77bb48b591a57cd5d0087b5cc19119a2b4ad",
+      "content_id": "f8d097bfdada1ec59a3b531cafa71673fa7e768562cdf100e18157f59fc9d3fe",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json",
       "role": "llm-workspace",
-      "size": 1812596
+      "size": 1812990
     },
     {
       "content_id": "71cbf4012ac7abfb4dea28183a4bb78dda3af0b4f9ebbac86017415379c325ab",
@@ -9612,11 +9612,18 @@
       "size": 14345
     },
     {
-      "content_id": "967a0fa584189b5fb785b68112cb6d3603c1bea22d30e6faca07ff6852a5a292",
+      "content_id": "9dd44ce74df96e1635c99a2773989b4e1e4d6a01946747ea41e8a50d452630e0",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260925T151903Z.csv",
+      "role": "llm-workspace",
+      "size": 432
+    },
+    {
+      "content_id": "825a2c75da3a049bb56d8f33591d24a2c4b3336cd570befa73b69c0ee75c9dc9",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json",
       "role": "llm-workspace",
-      "size": 26417
+      "size": 865
     },
     {
       "content_id": "a4a968c6c8f5cb5e55f2d903bdef289b98bcefb1f1178a981e93c1e2459bdad6",
@@ -10114,6 +10121,13 @@
       "path": "WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md",
       "role": "llm-workspace",
       "size": 19251
+    },
+    {
+      "content_id": "c3e53bcf32ddbb9b9bf88cbfa38a131f7418917ef5ae8725453efbffda1cfe24",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/DEDRIFT_DIRECTIVE_2026-09-26.md",
+      "role": "llm-workspace",
+      "size": 2967
     },
     {
       "content_id": "98cd95fc7f6e13f8b5177eb5358209aae3785de94f17c8c98e277facf6c1cce2",
@@ -14918,6 +14932,13 @@
       "size": 4239
     },
     {
+      "content_id": "45aec43808e58547861f73abfa30d95890d0ce7d9e1b3c38ccfa5cb6e6ef6f09",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/2026-09-25_RUN_103_THIN_SLAB_IDENTIFIABILITY_DISCRIMINATOR.md",
+      "role": "llm-workspace",
+      "size": 2078
+    },
+    {
       "content_id": "9a62bc8308bbc8295beac97a00cf045c32d1158b44cc85255cd7c893a233b5de",
       "kind": "blob",
       "path": "WORKSPACES/MERIDIAN/HAGALAZ_FRAMED_HYPERSPHERE_NOTE_2026-09-20.md",
@@ -16668,6 +16689,13 @@
       "size": 4233
     },
     {
+      "content_id": "b3dfa1ec3444e62586957bb4b6a0f6adebb867256592382134535371c2fe9fc1",
+      "kind": "blob",
+      "path": "WORKSPACES/TERN/INBOX_DEDRIFT_2026-09-26.md",
+      "role": "llm-workspace",
+      "size": 1331
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/WORLDTUBE_LAB",
@@ -16878,7 +16906,7 @@
       "size": null
     },
     {
-      "content_id": "207f5fb02d5544973aa218fa85982bcef41978269332de07c1665c33dea77773",
+      "content_id": "3b242b720440396512d462e9151a7571616015a9879f4917e4ef75b3ea571029",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16892,7 +16920,7 @@
       "size": 8625
     },
     {
-      "content_id": "0d8d673f8bfe66eab38b922c812a10cc09ff9c9de6456d9f4500084ffad1980e",
+      "content_id": "55245922b3998f6bd43e37f39dd5a82a48b4ac01a56a7e783d97b1f485d47719",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -16955,14 +16983,14 @@
       "size": null
     },
     {
-      "content_id": "5fd89e909655934a0b2a1d246350b3314eb91351b92361e4fcd358761f49a02c",
+      "content_id": "c214776c09cd5d4639efff666f31786b8879886d3b355dfaccf7f8a0f30024f5",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 326865
     },
     {
-      "content_id": "bb6a896e7371b85b316ca396c0e0ced7792e59deba83707a21601c627ff2f903",
+      "content_id": "c91b1a81cb9228f772b4dc9615da863a256e85d9355ae9de6571e84f67945747",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -17439,8 +17467,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-25T09:09:14+00:00",
+  "scanned_at_utc": "2026-09-26T13:51:26+00:00",
   "schema_version": 1,
-  "tree_id": "c57287dc004bf3497b6d2eefcd62a2983b1503e5301d81f458dc248084e6101f",
+  "tree_id": "47344b279f8308fd6b8ac2e9457c9c270249d4a738caa9af7152eedb58458c2e",
   "tree_response_truncated": false
 }
