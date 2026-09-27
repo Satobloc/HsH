@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-26T13:51:26+00:00`
-- Tree/content state: `47344b279f8308fd6b8ac2e9457c9c270249d4a738caa9af7152eedb58458c2e`
-- Coverage: 2223 files, 144 directories
+- Scanned: `2026-09-27T06:04:35+00:00`
+- Tree/content state: `80c497954199d1cd00ef92ca1731d3f7d6d760dbb7d3315a4209c1cfc9fc16ec`
+- Coverage: 2226 files, 144 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -34,7 +34,7 @@
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 1000 |
+| `WORKSPACES` | 1003 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +52,7 @@
 |---|---:|
 | `.cmd` | 1 |
 | `.css` | 5 |
-| `.csv` | 30 |
+| `.csv` | 31 |
 | `.diff` | 4 |
 | `.docx` | 1 |
 | `.htm` | 1 |
@@ -65,7 +65,7 @@
 | `.jsonl` | 15 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 989 |
+| `.md` | 991 |
 | `.mjs` | 1 |
 | `.pdf` | 30 |
 | `.png` | 37 |
@@ -94,7 +94,7 @@
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 1000 |
+| `llm-workspace` | 1003 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 824 |
 | `synthesis-workspace` | 6 |
@@ -164,6 +164,7 @@
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260917T150337Z.csv`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260920T141552Z.csv`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260922T145851Z.csv`
+  - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260926T143245Z.csv`
 - `1c9d58b1a197ac537c25f4a75d042d48233344c479ab3aa5d1dc7ada622f83ea`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27•25.09.27•Image overlay blending — raw.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27•25.09.27•Image overlay blending — raw.txt`
@@ -1474,7 +1475,7 @@
 - `PUBLIC_SITE/runtime/math-speech.js` — 5556 bytes — `unclassified`
 - `PUBLIC_SITE/runtime/site-update-packets.js` — 4324 bytes — `unclassified`
 - `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
-- `README.md` — 19853 bytes — `visitor-interface`
+- `README.md` — 19868 bytes — `visitor-interface`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3279.jpeg` — 272895 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3280.jpeg` — 294602 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3283.jpeg` — 734098 bytes — `unclassified`
@@ -1646,7 +1647,8 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260923T150405Z.csv` — 29662 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260924T151117Z.csv` — 14345 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260925T151903Z.csv` — 432 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 865 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260926T143245Z.csv` — 45 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 137 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/README.md` — 6063 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/batch_file_stage.py` — 5585 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` — 16923 bytes — `llm-workspace`
@@ -2481,6 +2483,8 @@
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_095_PRODUCT_TORUS_HOLONOMY_TYPE_GATE.md` — 5337 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_096_CLOSED_CARRIER_SO4_CONNECTION_GATE.md` — 6491 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/RUN_100_GLOBAL_TRANSPORT_HOLONOMY_TYPE_GATE.md` — 7291 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_145_PARTICLE_ZOO_TYPED_STATE_AUDIT.md` — 6094 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX/RUN_145_PRODUCTION_AND_PARTICLE_ZOO_TYPED_ATLAS.md` — 5794 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md` — 26835 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_VARIATIONAL_LOCAL_CHECK_2026-09-20.md` — 3900 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX/hagalaz_recursive_lift_benchmark_v01.py` — 6219 bytes — `llm-workspace`
