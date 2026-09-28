@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-09-28__CALIPER__sat-analogue-to-calibration-howto",
+  "created": "2026-09-28",
+  "producer": "Caliper / GPT-5.6 Sol",
+  "title": "From Analogue to Calibration: SAT Geometry How-To",
+  "kinds": ["document", "workflow", "diagram", "current-work", "cross-link"],
+  "status": "ready",
+  "summary": "A reproducible SAT/H(s)H geometry workflow developed from a hand sketch through explicit 3D construction, arclength accounting, recursive wrapping, same-path-speed constraints, inverse winding-density calculation, and strict separation of model geometry from display transforms. The useful result is the method and its documented failed passes, not a promoted physical claim.",
+  "sources": [
+    {
+      "path": "LIBRARY/presented/sat-analogue-to-calibration-howto.md",
+      "role": "presented-method"
+    },
+    {
+      "path": "WORKSPACES/STORYO/SOLVER_PACKAGE_2026-09-28/GEOMETRY_METHODOLOGY.md",
+      "role": "implementation-method"
+    },
+    {
+      "path": "WORKSPACES/STORYO/SOLVER_PACKAGE_2026-09-28/geometry_engine.py",
+      "role": "implementation"
+    },
+    {
+      "path": "WORKSPACES/STORYO/SOLVER_PACKAGE_2026-09-28/IMAGE_LEDGER.md",
+      "role": "visual-source"
+    }
+  ],
+  "destinations": [
+    {
+      "surface": "Reading Library",
+      "suggestion": "present as a method/how-to document with source and implementation links"
+    },
+    {
+      "surface": "Current Work",
+      "suggestion": "small methods/reproducibility card if still current"
+    },
+    {
+      "surface": "home/document rotation",
+      "suggestion": "rotate as a source-linked document/process artifact rather than a theory-status claim"
+    },
+    {
+      "surface": "visual history / solver method",
+      "suggestion": "show the sketch-to-procedural-geometry progression, preserving failed passes as part of the lesson"
+    }
+  ],
+  "epistemic": {
+    "status": "methodology / reproducibility workflow",
+    "authority": "does not promote theory premises or validate the represented physical model",
+    "visual_rule": "computed/script-drawn geometry should be treated as P/H only where exact provenance from code is preserved; illustrative intermediates remain illustrative"
+  },
+  "public_copy": {
+    "headline": "From sketch to calculation without letting the picture rewrite the model",
+    "dek": "A worked SAT/H(s)H solver lesson: preserve the analogue, construct the geometry explicitly, measure the paths, calibrate independently, and only then render it.",
+    "note": "Includes the failed visual passes because the failures are part of the reproducible method."
+  },
+  "relationships": [
+    {
+      "type": "method",
+      "target": "SAT solver recovery and translation"
+    },
+    {
+      "type": "reproducibility",
+      "target": "Hagalaz / recursive geometry work"
+    }
+  ],
+  "time_sensitive": false,
+  "follow_up": [
+    "Attach or regenerate the RevTeX PDF from the preserved source when the site/document ingestion path handles the binary artifact.",
+    "Keep a prominent invitation for workers to append or cross-link genuinely new lessons learned rather than duplicating existing ones.",
+    "Preserve the display-transform ledger and the distinction between optical magnification and structural expansion."
+  ],
+  "provenance": "Originating 2026-09-28 Nathan + Caliper solver conversation; working package and presented method note are durable repo derivatives."
+}
