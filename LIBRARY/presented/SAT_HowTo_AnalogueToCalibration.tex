@@ -1,0 +1,382 @@
+\documentclass[aps,preprint,onecolumn,nofootinbib]{revtex4-2}
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+\newfontfamily\runicfont{DejaVu Sans}
+\newcommand{\hagalaz}{{\runicfont ᚼ}}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\graphicspath{{images/}}
+\setlist{nosep,leftmargin=1.5em}
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  columns=fullflexible,
+  showstringspaces=false,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  xleftmargin=0.5em,
+  xrightmargin=0.5em
+}
+\newcommand{\shoprule}[1]{\par\medskip\noindent\fbox{\parbox{0.95\linewidth}{\textbf{#1}}}\medskip\par}
+
+\begin{document}
+
+\title{From Analogue to Calibration: A Reproducible SAT Geometry Workflow}
+\author{Nathan McKnight}
+\affiliation{SAT/H(s)H research archive}
+\author{Caliper}
+\affiliation{STORYO Precision Office --- Keeper of the Analogue Ledger}
+\date{September 28, 2026}
+
+\begin{abstract}
+This note documents a working method for turning a rough SAT/H(s)H geometric sketch into a reproducible, inspectable, and eventually calibratable computational object. The method deliberately separates source analogue, model geometry, path-length accounting, physical normalization, and display. The central rule is simple: compute the undistorted object first; distort only the observation map, and record the map. The present build uses an arc-length-parameterized backbone, a parallel-transport frame, one or more rotating transverse tracers, recursive wrapping, explicit path-length ratios, and a same-path-speed constraint. The procedure is presented as a how-to and derivation ledger, not as evidence that the current geometry is a validated physical model.
+\end{abstract}
+
+\maketitle
+
+\section{What worked}
+
+The successful part of the build was not a particular rendering style. It was the change in method.
+
+We began with a hand-drawn analogue containing only a few geometric commitments: a backbone/worldtube, a localized curl, a helical continuation, an axis/view relation, and a transverse end view. Figure~\ref{fig:sketch} is useful precisely because it is under-specified. It does not pretend to know more than the geometric idea.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.72\linewidth]{01_original_sketch.jpeg}
+\caption{Source analogue. The working rule was to extract constraints from the sketch rather than replace it with an illustrative interpretation.}
+\label{fig:sketch}
+\end{figure}
+
+An early cleaned line drawing, Fig.~\ref{fig:clean}, was visually clearer but taught an important lesson: cleanliness is not the same as fidelity. A polished image can silently add geometry. The useful transition was therefore from image interpretation to explicit construction.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.62\linewidth]{02_clean_line.png}
+\caption{Cleaned reconstruction. It clarified some spatial relations, but also demonstrated why the source image cannot be allowed to determine unrecorded geometry.}
+\label{fig:clean}
+\end{figure}
+
+\shoprule{NO METAPHORS: ONLY ANALOGUES. An analogue earns its place by preserving a relation that matters: topology, ordering, symmetry, scale, constraint, transition, or dependency.}
+
+\section{Method in one line}
+
+\begin{equation}
+\boxed{\text{analogue} \rightarrow \text{backbone} \rightarrow \text{frame} \rightarrow \text{wrap} \rightarrow \text{measure} \rightarrow \text{calibrate} \rightarrow \text{display}}
+\end{equation}
+
+The order matters. In particular, display is last.
+
+\section{Step 1: preserve the source and isolate primitives}
+
+Do not begin by asking what the object ``looks like.'' Ask which distinctions the source actually commits to. For the present build those primitives were:
+
+\begin{itemize}
+\item a parent centerline $\mathbf C(s)$;
+\item a local tangent direction $\mathbf T(s)$;
+\item a local plane normal to $\mathbf T$;
+\item a transverse radius $R(s)$;
+\item an angular phase $\theta(s)$;
+\item one or more nested tracer paths;
+\item an observation direction that is not part of the object itself.
+\end{itemize}
+
+Everything else --- glow, opacity, apparent line width, black core, perspective compression, and magnification --- belongs to the observation map unless separately promoted to the model.
+
+\section{Step 2: parameterize by arc length}
+
+Given sampled points $\mathbf P_i$, define cumulative path length
+\begin{equation}
+s_0=0,\qquad s_i=s_{i-1}+\lVert \mathbf P_i-\mathbf P_{i-1}\rVert .
+\end{equation}
+Then resample all three coordinates on a uniform $s$ grid. This avoids confusing arbitrary drawing/sample density with physical or geometric density.
+
+\begin{lstlisting}[language=Python,caption={Arc-length resampling.}]
+def cumulative_arclength(P):
+    d = np.linalg.norm(np.diff(P, axis=0), axis=1)
+    return np.concatenate([[0.0], np.cumsum(d)])
+
+def resample_by_arclength(P, n):
+    s = cumulative_arclength(P)
+    t = np.linspace(0.0, s[-1], int(n))
+    return np.column_stack([
+        np.interp(t, s, P[:, i]) for i in range(3)
+    ])
+\end{lstlisting}
+
+\section{Step 3: transport a local frame}
+
+A curved backbone requires a transverse plane at every $s$. A naive Frenet frame can flip or become unstable near low curvature. We therefore transport an initial normal as minimally as possible from tangent to tangent.
+
+Let $\mathbf N_1(s)$ and $\mathbf N_2(s)$ span the plane orthogonal to $\mathbf T(s)$. Between adjacent samples, rotate the old normal by the minimal Rodrigues rotation that takes $\mathbf T_i$ to $\mathbf T_{i+1}$, then re-orthogonalize.
+
+This makes the rotating arm a genuine three-dimensional local object rather than a screen-space stamp.
+
+\section{Step 4: trace the rotating arm}
+
+The central construction is
+\begin{equation}
+\mathbf X(s)=\mathbf C(s)+R(s)\left[\mathbf N_1(s)\cos\theta(s)+\mathbf N_2(s)\sin\theta(s)\right].
+\label{eq:wrap}
+\end{equation}
+
+For $N$ turns distributed over backbone length $L$,
+\begin{equation}
+\theta(s)=\theta_0+2\pi N\frac{s}{L}.
+\end{equation}
+
+If a loop packet is localized, do not fake it by bending the render. Localize the phase law itself: plateau before, smooth rotation interval, plateau after.
+
+\begin{lstlisting}[language=Python,caption={Core wrap operator.}]
+def wrap_curve(spine, turns, radius, phase0=0.0):
+    _, N1, N2 = parallel_transport_frame(spine)
+    s = cumulative_arclength(spine)
+    u = s / s[-1]
+    phi = phase0 + 2*np.pi*turns*u
+    return spine + radius*(
+        N1*np.cos(phi)[:,None] +
+        N2*np.sin(phi)[:,None]
+    )
+\end{lstlisting}
+
+\section{Step 5: recurse with the same operator}
+
+The first wrapped curve can itself become the next spine. No new geometric trick is required. The same operation is simply reapplied:
+
+\begin{equation}
+\mathbf C_0 \xrightarrow{\hagalaz} \mathbf C_1 \xrightarrow{\hagalaz} \mathbf C_2 \xrightarrow{\hagalaz}\cdots
+\end{equation}
+
+Here \hagalaz{} denotes the current recursive helix-to-superhelix operation. The essential discipline is that each order is built from the previous order's actual coordinates and local frame, not drawn around its projection.
+
+Figure~\ref{fig:single} shows the resulting high-density regime. What looks like a luminous tube is a densely sampled continuous path around a darker parent trajectory.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.53\linewidth]{03_dense_single.png}
+\caption{Dense nested path. The apparent tube is an unresolved winding envelope at this display scale; it is not a replacement primitive.}
+\label{fig:single}
+\end{figure}
+
+\section{Step 6: keep multiple paths genuinely independent}
+
+A second path must receive its own backbone, transported frame, phase, radius, and path-length ledger. Merely offsetting or duplicating screen geometry is not sufficient. Figure~\ref{fig:dual} shows the two-path test used in this build.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.53\linewidth]{04_dual_path.png}
+\caption{Two independently constructed dense paths. Their geometry can later be coupled dynamically; in the present stage the important point is that they are not one rendered tube copied twice.}
+\label{fig:dual}
+\end{figure}
+
+\section{Step 7: measure path length before assigning scale}
+
+For any sampled curve $\mathbf X_i$, compute
+\begin{equation}
+L[\mathbf X]\approx \sum_i \lVert \mathbf X_{i+1}-\mathbf X_i\rVert .
+\end{equation}
+
+The current dual-path build gave a macro-path/backbone ratio of approximately $7.72$ and a fully nested path/backbone ratio of approximately $10.11$. That immediately showed that the visual object was still far from the hypothesized dense-path regime.
+
+The correction was not to ``make it look denser.'' We solved the inverse problem: with backbone and macro radius fixed, how many turns produce a requested path-length ratio?
+
+\section{Step 8: solve winding density, do not choose it}
+
+For a straight ideal helix of radius $R$ and axial pitch $p$ per turn,
+\begin{equation}
+\eta = \frac{\ell_{\rm helix}}{\ell_{\rm axis}}
+      = \sqrt{1+\left(\frac{2\pi R}{p}\right)^2}.
+\end{equation}
+
+For the curved numerical object we use direct arc-length integration and bisection instead of relying on the straight-helix approximation.
+
+\begin{table}[h]
+\caption{Current inverse solutions with macro radius fixed at $0.20$ model units.}
+\centering
+\begin{tabular}{ccc}
+\toprule
+Target ratio & Required turns & Same-path-speed parent advance \\
+\midrule
+20:1  & 391.53  & 5.0\% \\
+50:1  & 982.00  & 2.0\% \\
+100:1 & 1979.00 & 1.0\% \\
+200:1 & 4086.58 & 0.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figure~\ref{fig:sweep} is the crucial visual lesson: above moderate winding density the cases become hard to distinguish by eye at this scale. That is a resolution fact, not evidence that the ratios are interchangeable.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.90\linewidth]{05_ratio_sweep.jpeg}
+\caption{20:1, 50:1, 100:1, and 200:1 path-ratio sweep. High-density structures converge visually toward a tube at ordinary display resolution. The computed ratios remain distinct.}
+\label{fig:sweep}
+\end{figure}
+\clearpage
+
+\section{Step 9: enforce equal path speed explicitly}
+
+If two tracers each move at path speed $c$, a tracer traveling the longer wrapped path cannot occupy the same parent parameter $s$ at the same elapsed time. The simultaneous parent-coordinate advance fraction is
+\begin{equation}
+f=\frac{L_{\rm parent}}{L_{\rm child}}.
+\end{equation}
+
+Thus a 20:1 path ratio implies $f=0.05$; a 200:1 ratio implies $f=0.005$. The resulting ``unsheathing'' is therefore a consequence of path geometry plus the equal-speed rule, not an artistic offset.
+
+This is also why a static picture is insufficient for the precision pass: the calculation must retain both spatial coordinates and the chosen temporal/proper-time parameterization.
+
+\section{Step 10: separate the object from the observation map}
+
+The model should produce coordinates first:
+\begin{equation}
+\mathbf X = \mathbf X(s,t;\,\text{model parameters}).
+\end{equation}
+Only then should a display transformation $\mathcal V$ be applied:
+\begin{equation}
+\text{pixels}=\mathcal V[\mathbf X].
+\end{equation}
+
+A figure should therefore carry a compact display ledger:
+
+\begin{verbatim}
+MODEL / PHYSICAL
+  length scale      = ...
+  time scale        = ...
+  transverse radius = ...
+  phase rate        = ...
+  path speed        = c
+
+DISPLAY
+  axial expansion   = 1.000x
+  radial expansion  = 1.000x
+  time expansion    = 1.000x
+  phase decimation  = none
+\end{verbatim}
+
+If the physical/model object is too dense to inspect, use one of the following without changing the stored geometry:
+\begin{itemize}
+\item higher sampling resolution;
+\item an optical magnifier registered to the same model coordinates;
+\item an explicitly declared axial or time expansion;
+\item an unwrapped $(s,\theta)$ companion view.
+\end{itemize}
+
+\section{The magnifier rule}
+
+The magnifier should behave like a real lens over a higher-resolution master render. If the master is rendered at scale factor $k$ and the lens center is $(x_d,y_d)$ in display coordinates, the exact source center is
+\begin{equation}
+(x_m,y_m)=k(x_d,y_d).
+\end{equation}
+
+The lens reveals a crop around that coordinate. It does not change phase, radius, pitch, or time. Optical zoom and structural expansion must therefore be separate controls.
+
+\section{What the failed passes taught us}
+
+The rejected stages are part of the method, not clutter to be erased.
+
+\begin{enumerate}
+\item \textbf{Illustration drift.} Cleaning the wrong generated geometry made it prettier but less faithful.
+\item \textbf{Ribbon drift.} Turning the tracer into a ribbon added an unsupported primitive.
+\item \textbf{Tooltip drift.} Screen-space stamps made three-dimensional local structure look flatter and changed apparent scale.
+\item \textbf{Pearl drift.} Discrete luminous markers made a continuous dense path read as beads instead of a tube-like envelope.
+\item \textbf{Aesthetic density.} Choosing winding by appearance concealed the path-length ratio. Solving the ratio removed that freedom.
+\item \textbf{Resolution equivalence.} Once 50:1--200:1 look similar, the render alone cannot tell them apart. The ledger must.
+\end{enumerate}
+
+\shoprule{Beauty is a compression of Truth. A clean figure is useful only if the compression preserves the distinctions the calculation needs.}
+
+\section{Precision pass against SAT and measured scale}
+
+The next pass should be deliberately blind with respect to the desired visual answer.
+
+\begin{enumerate}
+\item Select one SAT-defined identity in a precise $ct=w$-style coordinate convention.
+\item Translate each primitive in the present geometry into that formalism: parent path, transverse radius, phase, recursion order, and time parameter.
+\item Apply the Hagalaz operation \hagalaz{} only through its declared mathematical definition; no hand-adjustment of the render.
+\item Select independent measured constants and benchmark quantities (CODATA or experiment-specific values as appropriate).
+\item Perform dimensional normalization before inspecting the rendered result.
+\item Calculate all coordinates and path lengths.
+\item Compare the result against the other SAT/4DHH Lagrangians and selected outside formalisms as separate checks, not as tuning targets.
+\item Write every transformation, assumption, unit conversion, and residual to a running ticker-tape ledger.
+\item Send the same ledger and result directly to the website/review surface so the public presentation cannot silently diverge from the calculation.
+\end{enumerate}
+
+The useful outcome is not necessarily agreement. A failed normalization, incompatible path ratio, or inconsistent mapping is a result because it constrains the model without requiring a visual interpretation.
+
+\section{Shop-floor rules}
+
+\begin{itemize}
+\item \textbf{Unclench. Divide. Sort.}
+\item \textbf{Truth before algebra.}
+\item \textbf{Geometry before notation.}
+\item \textbf{Math only after the relation is actually there.}
+\item \textbf{Do not clog the theory. Keep it GeomeTidy.}
+\item \textbf{If a distinction can be represented with less added structure, use less.}
+\end{itemize}
+
+A concise version of the workflow is therefore:
+\begin{equation}
+\boxed{\text{observe} \rightarrow \text{separate} \rightarrow \text{braid} \rightarrow \text{check} \rightarrow \text{math} \rightarrow \text{shape}.}
+\end{equation}
+
+\appendix
+\section{Reference implementation}
+
+The separate file \texttt{geometry\_engine.py} distributed with this note contains the complete minimal engine used by the current methodology: arc-length resampling, tangent calculation, parallel transport, localized phase, recursive wrapping, path metrics, same-path-speed accounting, and numerical inversion for target path ratios.
+
+The essential inverse routine is:
+
+\begin{lstlisting}[language=Python]
+def solve_turns_for_length_ratio(backbone, radius,
+                                 target_ratio,
+                                 lo=1.0, hi=10000.0,
+                                 iterations=40):
+    Lb = cumulative_arclength(backbone)[-1]
+
+    def ratio(turns):
+        n = int(max(30000, turns*350))
+        b = resample_by_arclength(backbone, n)
+        h = wrap_curve(b, turns, radius)
+        return cumulative_arclength(h)[-1] / Lb
+
+    for _ in range(iterations):
+        mid = 0.5*(lo+hi)
+        if ratio(mid) < target_ratio:
+            lo = mid
+        else:
+            hi = mid
+
+    turns = 0.5*(lo+hi)
+    return turns, ratio(turns)
+\end{lstlisting}
+
+\section{Reproducibility checklist}
+
+Before treating any new render as a model result, verify:
+
+\begin{enumerate}
+\item source analogue preserved;
+\item coordinate convention stated;
+\item parent path sampled by arc length;
+\item local frame construction stated;
+\item phase law stated;
+\item all recursion orders separately recoverable;
+\item actual path lengths reported;
+\item path-speed rule stated;
+\item unit normalization reported;
+\item display transforms reported;
+\item magnification distinguished from structural expansion;
+\item failed/blocked alternatives retained in the ledger.
+\end{enumerate}
+
+\end{document}
