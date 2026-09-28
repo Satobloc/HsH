@@ -14,6 +14,10 @@ A compact statement of the early SAT construction: worldlines as filaments, a mo
 *2026-07-03 · Late SAT / transition toward H(s)H*
 A selected opening passage in Nathan McKnight's own explanatory voice, emphasizing geometric constraint, Minkowski worldlines/timesheets, and minimal additions to the problem space.
 
+### [From Analogue to Calibration: SAT Geometry How-To](presented/sat-analogue-to-calibration-howto.md)
+*2026-09-28 · Reproducible solver/method note*
+A worked method for taking a rough geometric analogue through explicit 3D construction, recursive wrapping, arclength accounting, equal-path-speed constraints, inverse winding-density calculation, and a documented observation map. Includes failed visual passes as part of the reproducibility record and invites future workers to append or cross-link genuinely new lessons learned.
+
 ## Candidate showcase — layout trial
 
 These tiers are provisional editorial selections being displayed so we can judge the library presentation. A tier is not a scientific-confidence rating and does not make a historical document current theory.
