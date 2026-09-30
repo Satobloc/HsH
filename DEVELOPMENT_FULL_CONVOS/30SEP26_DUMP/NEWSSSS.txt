@@ -1,0 +1,542 @@
+Does universe’s oldest light carry hidden twist? Scientists build clever new way to find out
+Does universe’s oldest light carry hidden twist? Scientists build clever new way to find out
+The cosmic microwave background is the oldest light in the universe, leftover radiation from roughly 380,000 years after the Big Bang. Maps of this light offer scientists a picture of the “baby universe” as it looked 13.8 billion years ago.
+
+Researchers have found hints that this ancient light’s polarization may have twisted slightly on its long journey to Earth, a phenomenon known as cosmic birefringence. If confirmed, the effect could point to physics beyond the Standard Model and offer new clues about dark matter and dark energy.
+
+A tricky illusion
+There is a catch. Even a tiny error in how a telescope’s polarization detectors are oriented can produce almost exactly the same signal as genuine cosmic birefringence. Looking at the light alone, scientists cannot tell whether they are seeing a real twist in the universe or simply a miscalibrated instrument.
+
+Researchers at the University of California, San Diego built a new method to address that uncertainty. The team, led by postdoctoral fellow Anto I. Lonappan alongside professors Brian Keating and Kam Arnold, published its findings in the Astrophysical Journal Letters.
+
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+Perlego
+Perlego
+·
+Sponsored
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+Comparing the detectors
+The approach compares maps built from different groups of detectors within the same telescope. A genuine cosmic rotation would show up identically across every map, so when the maps are compared against each other, that shared rotation cancels out, leaving behind only the differences in how each detector group was calibrated.
+
+“The signal we are looking for is incredibly small,” Lonappan said, adding that the team wanted certainty they were observing the universe rather than an instrument.
+
+The researchers tested their method on eight polarization maps from the European Space Agency’s Planck satellite and compared the results against an existing approach called the Minami-Komatsu analysis. The two methods agreed closely, despite relying on different underlying assumptions.
+
+Still missing a reference point
+The new technique cannot determine the absolute cosmic birefringence angle on its own, since it is deliberately insensitive to rotation shared across every map. As a demonstration, the team anchored their results to the existing analysis’s calibration and reproduced a birefringence angle of 0.37 degrees, plus or minus 0.12 degrees, matching prior findings.
+
+The work also carries implications for detecting primordial B-mode polarization, a curl-like pattern in the CMB that would offer strong evidence for gravitational waves generated during the earliest moments of cosmic inflation. Calibration errors of the kind this method detects can mimic those same B-mode signals, making independent checks increasingly important as instruments grow more sensitive.
+
+“This is ultimately about knowing when we can trust a measurement,” Keating said, noting that any future detection of primordial B modes would need to survive exactly this kind of scrutiny.
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+What If
+What If
+There could be infinite versions of Earth, each with a different reality
+Story by Filip
+Sep 28 • 3 min read • Updated 5h ago
+
+
+Key takeaways
+InfoIcon
+Report an issue
+Parallel Universes: The Universe might not be unique—there could be infinite Earths and versions of you, shaped by different choices, outcomes, and physical conditions.
+Physics & Experiments: Theories suggest mirror particles and hidden dimensions; experiments with neutrons aim to detect unusual behaviors hinting at hidden structures beyond our Universe.
+Challenges & Speculations: Even if parallel universes exist, identical copies of Earth are astronomically improbable, and accessing them would require microscopic or atomic-level changes, far beyond current technology.
+
+There Could Be Infinite Versions of Earth, Each With a Different Reality
+There Could Be Infinite Versions of Earth, Each With a Different Reality
+The idea that our Universe might not be alone is one of the most fascinating possibilities in modern physics. What if reality is not singular, but instead just one layer in an endless stack of universes? And what if somewhere out there, versions of you are living completely different lives?
+
+In this scenario, the cosmos would not contain just one Earth, but potentially infinite Earths, each shaped by different outcomes, choices, and physical conditions. Some might be almost identical to our own world, while others could be so different they are barely recognizable.
+
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+The concept of a multiverse comes from attempts to understand how space and time behave on the largest scales. Our Universe began with the Big Bang around 13.7 billion years ago, emerging from an extremely hot and dense state. But some theories suggest that this event may not have been unique.
+
+Instead, space time itself could stretch far beyond what we can observe, forming a vast structure where countless universes exist independently of one another.
+
+In this framework, reality becomes something like a cosmic pattern. If the number of ways particles can arrange themselves is finite, then over immense scales, those arrangements could eventually repeat. That means somewhere far beyond our observable horizon, a version of you might exist living a life almost identical to your own.
+
+Some interpretations of physics even suggest that these universes could be incredibly close in a higher dimensional sense, possibly separated by distances far smaller than anything we can perceive.
+
+Modern Physics: The Quantum Physics Of Atoms, Solids, And Nuclei: Third Edition (Dover Books On Physics)
+Amazon.com
+Amazon.com
+·
+Sponsored
+Modern Physics: The Quantum Physics Of Atoms, Solids, And Nuclei: Third Edition (Dover Books On Physics)
+But even if parallel universes exist, reaching them is a completely different challenge.
+
+One speculative idea involves using high energy particle experiments to test whether “mirror versions” of particles exist. In some theories, neutrons could transform into mirror counterparts under very specific conditions. Because of this, researchers have proposed experiments using powerful neutron beams and dense shielding materials to detect unusual behavior.
+
+These experiments are extremely complex and remain purely theoretical in terms of interuniversal travel. However, they raise an interesting question. If particles can behave differently than expected, could it hint at hidden structures beyond our own Universe?
+
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+Some experimental observations in particle physics have shown small inconsistencies in neutron decay times depending on how they are measured. While these differences are still being studied and debated, they have sparked curiosity about whether unknown factors or hidden dimensions could be influencing results.
+
+However, even if a mirror universe exists, it would not necessarily resemble ours in any meaningful way. The probability of finding an identical copy of Earth, or even an identical version of yourself, becomes astronomically small when you consider the number of particles and interactions required to replicate a single moment in time.
+
+Every atom in the Universe has undergone billions of years of interactions since the Big Bang. Reproducing that exact history elsewhere would require conditions so precise that it may be practically impossible.
+
+Still, the idea of a mirror universe remains open in theory. Some scientists even speculate that dark matter, which makes up most of the mass in the Universe, could be linked to hidden or parallel sectors of reality that we cannot directly observe.
+
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+What Would Happen If We Could Open a Portal to a Parallel Universe?
+Dark matter interacts through gravity, shaping galaxies and holding cosmic structures together, yet it remains invisible to every instrument we have built. If it is connected to another layer of reality, it could mean that what we call empty space is actually far more complex than it appears.
+
+Even if a portal to another universe were ever discovered, it would likely not resemble science fiction gateways. Instead, it might exist on a microscopic scale, limited to particle level interactions that are far too small for a human to pass through.
+
+In that sense, entering another universe might require more than technology. It might require changing what we fundamentally are, down to the scale of atoms themselves.
+
+For now, the idea remains one of the most intriguing mysteries in physics, sitting at the edge of imagination and science.
+
+Sponsored
+
+What If
+Visit What If
+A giant artificial moon could make Earth’s nights bright again
+Earth grows 11 times larger, and 70 kg suddenly feels like 770 kg
+Humanity could build the world’s largest power plant on the moon
+Sponsored
+
+
+
+Mathematical Methods For Physics And Engineering: A Comprehensive Guide By Riley, K. F. By Thriftbooks, Paperback
+Thriftbooks.com
+Thriftbooks.com
+·
+Sponsored
+Mathematical Methods For Physics And Engineering: A Comprehensive Guide By Riley, K. F. By Thriftbooks, Paperback
+Introduction To Quantum Mechanics
+Amazon.com
+Amazon.com
+·
+Sponsored
+Introduction To Quantum Mechanics
+
+Profile Picture
+Community guidelines
+More for you
+12:37
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+1w
+Solar system and universe scale - how small Earth really is
+
+Phys.org
+Phys.org
+6h
+Mapping one atom's interaction with light uncovers an unbounded network of quantum states
+
+IEEE Spectrum
+IEEE Spectrum
+Detect dark matter’s mark from your backyard
+
+Fodor's Travel
+Fodor's Travel
+Everyone Is Lying to You About What Space Really Looks Like
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+
+The Brighterside of News
+The Brighterside of News
+Scientists reveal Theia’s origins before it struck early Earth and formed the Moon
+
+What If
+What If
+The moon would vanish, and life on Earth would never be the same
+11:08
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+How Far Can We Go Into the Smallest World Imaginable
+16:11
+Keep Watching
+
+Celestium
+Celestium
+The big bang explained everything — now it's being questioned
+13:23
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+3d
+Gravity has been pulling for 13.8 billion years without losing strength
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+17:39
+Keep Watching
+
+Sideprojects
+Sideprojects
+The famous paradoxes that still puzzle scientists and philosophers
+00:53
+Keep Watching
+
+Arvin Ash
+Arvin Ash
+1w
+You think particles are in two places?
+13:48
+Keep Watching
+
+Funny Olde World
+Funny Olde World
+1w
+They thought India’s Barabar Caves were 2,300 years old... then they looked closely at the walls
+26:16
+Keep Watching
+
+Astrum
+Astrum
+An 84-foot wave hit an oil platform - then a laser proved the sailors weren’t lying
+24:00
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+This might be the greatest modern trad climb ever created
+
+Snopes
+Snopes
+5d
+Did prices rise more under Biden than Trump? We checked the data
+10:06
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+They tested Formula 1 rubber on real rock - the results were shocking
+28:05
+Keep Watching
+
+list25
+list25
+Experiments whose researchers definitely did not expect the building to require evacuation afterward
+06:06
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+3d
+This forgotten 500-foot route pushes trad climbers to their limit
+23:52
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+5d
+They tried climbing 10 massive domes in one day - 7 hours in, his knees started hurting
+
+Snopes
+Snopes
+5d
+Did 35 Pennsylvania Republicans vote against bill that guaranteed daily recess for kids?
+
+Snopes
+Snopes
+3d
+Did Newsom 'forcing' closure of California refineries cause US gas prices to spike?
+15:50
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+They climbed El Capitan in just 7 hours - it almost didn't happen
+31:05
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+They chased a 20-year climbing record - then everything changed
+
+Snopes
+Snopes
+5d
+Did Obama ban Fox News from White House briefings? Claim distorts the facts
+09:09
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+They took on the world's first 5.13 - the route still breaks elite climbers
+23:40
+Keep Watching
+
+Gravity Lab
+Gravity Lab
+5d
+They needed a 50-meter rappel... but only had a 40-meter rope
+
+Feedback
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+
+ebsco.comlearnchemist.comflexbooks.ck12.org
++3
+•
+Curated by Copilot
+•
+10h ago
+Inside the proton’s hidden world of quarks and gluons
+Why it matters: Protons define an element’s identity and underpin the structure of all matter, making their internal dynamics key to physics and chemistry.
+
+What’s new: High-energy collision experiments indicate gluons, not just quarks, may carry the proton’s baryon number — challenging decades of scientific assumptions.
+
+Big picture: These insights could help explain why matter is stable, why there’s more matter than antimatter, and refine our models of the universe.
+
+
+
+Inside the proton’s hidden world of quarks and gluons
+Protons are more than three quarks
+Protons are often described as two up quarks and one down quark bound by gluons, but modern research shows a richer internal structure. Alongside the valence quarks are gluons, fleeting quark–antiquark pairs, and complex quantum interactions that generate most of the proton’s mass and properties. Quantum chromodynamics, the theory of the strong force, describes this dynamic environment where particles constantly interact and transform. ebsco.com +2
+Property
+Value
+Subatomic Composition
+Notes
+Charge
++1 elementary charge
+2 up quarks, 1 down quark
+Gluons mediate strong force between quarks
+Mass
+≈1.673 × 10⁻²⁷ kg (≈1 u)
+Quarks + gluon energy
+Mass mostly arises from internal forces, not quark masses alone
+Location
+Atomic nucleus
+Nucleons (protons and neutrons)
+Protons contribute to element identity and nuclear stability
+learnchemist.com +3
+The gluon junction surprise
+Data from the STAR detector at the Relativistic Heavy Ion Collider point to a Y-shaped 'baryon junction' of gluons that may carry the proton’s baryon number — a property once attributed solely to its three quarks. In high-energy collisions, this gluon structure appears easier to stop than the quarks, producing new baryons in unexpected directions. The finding challenges the traditional model and could explain unusual patterns in baryon production. Phys.org +1
+Traditionally, scientists have assumed that each of the three main ‘valence’ quarks inside a proton or neutron carries one-third of the baryon number.
+Zhangbu Xu,Professor at Kent State University
+scitechdaily.com
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+Perlego
+Perlego
+·
+Sponsored
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+Why baryon number matters
+Baryon number conservation — the principle that the total number of baryons remains constant — is central to matter’s stability. It is linked to why protons do not decay under normal conditions and to the imbalance between matter and antimatter in the universe. Evidence that gluons can transport baryon number reframes how this conservation operates, with implications for nuclear stability and cosmology. Phys.org +1
+Since the Big Bang, the number of protons and neutrons all together never changes as a function of time. The reasons for this conservation are not well understood. It’s one of the mysteries of the universe, related to why we have more matter than antimatter.
+Nicole Lewis,STAR physicist at Rice University
+scitechdaily.com
+From Rutherford to quantum complexity
+The proton’s story began with early 20th-century experiments by Ernest Rutherford, which revealed a dense, positively charged nucleus and identified the hydrogen nucleus as a proton. Over a century later, advances in accelerator experiments and quantum theory have replaced that simple image with one of extraordinary complexity — showing that the proton’s identity emerges from a shifting interplay of quarks, gluons, and the strong force. learnchemist.com +1
+Era / Experiment
+Key Finding
+Impact on Proton Understanding
+1886 - Goldstein
+Canal rays observed; positive particles detected
+First evidence of positively charged subatomic particle
+1917 - Rutherford Gold Foil
+Hydrogen nucleus identified as proton
+Established proton as fundamental part of atomic nucleus
+2026 - Accelerator & QCD studies
+Quark-gluon interactions mapped
+Revealed proton’s complex internal structure beyond three quarks
+geeksforgeeks.org +1
+Quantum Computing Platform - Scalable Quantum Power - Book a Quantum Briefing
+dwavequantum.com
+dwavequantum.com
+·
+Sponsored
+Quantum Computing Platform - Scalable Quantum Power - Book a Quantum Briefing
+What people are saying
+
+
+
+
+
+
+6 references
+1
+
+ebsco.com
+·
+
+Protons | Physics | Research Starters | EBSCOhost
+2
+
+learnchemist.com
+·
+1mo
+
+Proton Definition: Discovery, Properties, Charge, and Mass
+
+Show all
+Modern Physics: The Quantum Physics Of Atoms, Solids, And Nuclei: Third Edition (Dover Books On Physics)
+Amazon.com
+Amazon.com
+·
+Sponsored
+Modern Physics: The Quantum Physics Of Atoms, Solids, And Nuclei: Third Edition (Dover Books On Physics)
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+Perlego
+Perlego
+·
+Sponsored
+Quantum Theory Books - Stop Overpaying for Textbooks - 1M+ Books Across 1000+ Topics
+More for you
+
+Phys.org
+Phys.org
+6h
+Mapping one atom's interaction with light uncovers an unbounded network of quantum states
+13:34
+Keep Watching
+
+SciManDan
+SciManDan
+4d
+You were shown the solar system as neat circles around a motionless sun. Almost every part of that picture is simplified
+
+IEEE Spectrum
+IEEE Spectrum
+Detect dark matter’s mark from your backyard
+15:40
+Keep Watching
+
+ReligionForBreakfast
+ReligionForBreakfast
+5d
+Why do people become atheists? - Researchers found rational thinking may not be the main reason after all
+11:08
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+How Far Can We Go Into the Smallest World Imaginable
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+16:11
+Keep Watching
+
+Celestium
+Celestium
+The big bang explained everything — now it's being questioned
+00:58
+Keep Watching
+
+Crushin' It
+Crushin' It
+How scientists know the age of Earth, stars, and universe
+07:24
+Keep Watching
+
+StarTalk
+StarTalk
+5d
+Did another universe collapse to create ours?
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+13:23
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+3d
+Gravity has been pulling for 13.8 billion years without losing strength
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+00:53
+Keep Watching
+
+Arvin Ash
+Arvin Ash
+1w
+You think particles are in two places?
+14:18
+Keep Watching
+
+FORGOTTEN HISTORY
+FORGOTTEN HISTORY
+4d
+Thousands of American inventions sit behind classification - the strangest part is we don't know what we're missing
+14:33
+Keep Watching
+
+The Tesla Space
+The Tesla Space
+How SpaceX and Elon Musk will colonize Mars
+26:16
+Keep Watching
+
+Astrum
+Astrum
+An 84-foot wave hit an oil platform - then a laser proved the sailors weren’t lying
+22:05
+Keep Watching
+
+Business Insider
+Business Insider
+1w
+Why electric planes are almost impossible
+
+Profile Picture
+Community guidelines
+
+Feedback
+Sponsored
+
+Related Stories
+
+ebsco.com
+Protons | Physics | Research Starters | EBSCOhost
+
+learnchemist.com
+Proton Definition: Discovery, Properties, Charge, and Mass
+
+flexbooks.ck12.org
+Proton | CK-12 Foundation
+Sponsored

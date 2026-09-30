@@ -1,0 +1,1953 @@
+Schematic. Credit: arXiv DOI: 10.48550/arxiv.2506.18978
+Schematic. Credit: arXiv DOI: 10.48550/arxiv.2506.18978
+Most magnets have two poles: north and south, or positive and negative, in a familiar arrangement called a "dipole." But researchers are increasingly uncovering more complex forms of magnetism.
+
+Subscribe to our newsletter for the latest sci-tech news updates.
+
+Recent advances in quantum mechanics have revealed higher orders of magnetism, including an "octupolar order" in which a pattern of particles arranged in a crystalline structure within a material behaves as if it has eight magnetic poles rather than the familiar two. However, detecting and controlling these elusive magnetic states is a significant challenge.
+
+Now, a team led by quantum physicists at the University of Toronto has established a new method for observing quantum magnetic states using light to probe the atomic vibrations produced as electrons spin. The work is a critical first step toward harnessing multipolar magnetism for practical technologies, including next-generation data storage and computing devices.
+
+"We identified new signatures of a hidden type of magnetic state which cannot be detected using ordinary probes," says Arun Paramekanti, a professor in the Department of Physics and the Center for Quantum Information & Quantum Control in the Faculty of Arts & Science at the University of Toronto, and senior author of a study published in Physical Review Letters that describes the findings.
+
+Physical AI Data Collection - Humanoid Robot Training Data - 3D Motion Capture Lab
+Innodata
+Innodata
+·
+Sponsored
+Physical AI Data Collection - Humanoid Robot Training Data - 3D Motion Capture Lab
+"Our research opens up the possibility for using higher-order magnets in several applications including controllable read-write memory elements found in everyday computers."
+
+Atomic vibrations reveal hidden magnetic order
+The researchers discovered that shining light on a crystalline material and triggering tiny vibrations within its atomic structure reveals magnetic patterns that are normally invisible to conventional techniques. They focused on packets of vibrational energy moving through a solid's crystal lattice, known as phonons. Specifically, they looked for chiral phonons—ones that don't match their own mirror image.
+
+"Just as a left hand cannot fit cleanly over a right hand even though they are mirror images, chiral phonons have a 'handedness' and exist in distinct, non-matching forms," says Department of Physics Ph.D. candidate and lead author Rory Sutcliffe.
+
+That handedness turned out to be key. The researchers found that hidden octupolar magnetic states leave a unique signature in these vibrations that can be detected with light. By directing a special type of rotating light at magnetic materials, the team observed a clear optical fingerprint of the otherwise hidden magnetic order.
+
+"We found that the onset of octupolar order can impart a distinct handedness to certain phonon modes," says Swati Chaudhary, a University of Tokyo project research associate and study co-author. "These vibrations behave differently from those found in conventional magnets, so we call them 'pseudo-chiral' phonons, and they provide a new way of identifying and studying hidden magnetic states."
+
+Toward control of octupolar magnetism
+Department of Physics Ph.D. candidate and study co-author Kathleen Hart explains, "Our work offers a new optical probe of hidden magnetic orders that are difficult to detect by standard techniques and lays the foundation for how such octupolar magnetism might eventually be controlled through atomic vibrations within a material."
+
+Reveal the Hidden Realms - Eminent Book Recommendations - Shop Physics For Poets Robert March
+amazon.com
+amazon.com
+·
+Sponsored
+Reveal the Hidden Realms - Eminent Book Recommendations - Shop Physics For Poets Robert March
+The findings offer a new tool for uncovering and manipulating previously inaccessible forms of magnetism, opening new avenues for quantum technology development.
+
+More information: Ruairidh Sutcliffe et al, Pseudochiral Phonons from Octupolar Magnetic Order, Physical Review Letters (2026). DOI: 10.1103/n11w-csdh On arXiv DOI: 10.48550/arxiv.2506.18978
+
+Provided by University of Toronto
+
+This story was originally published on Phys.org.
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+Popular Science
+Popular Science
+Mathematician creates new shape with 8 sides, 26 edges, and 3 holes
+Story by Andrew Paul
+Sep 29 • 2 min read • Updated 18h ago
+
+
+
+The genus-3 polyhedron is what's known as a toroidal polytope.
+The genus-3 polyhedron is what's known as a toroidal polytope.
+It may be hard to believe, but mathematicians are still discovering shapes. The latest three-dimensional example is far stranger than your standard cube or pyramid. Dubbed the genus-3 polyhedron by Ruslan Mizhaev, the independent researcher’s newly identified shape features eight faces arranged so that every pair shares at least one edge. The end result is an oddity with 26 edges and 24 vertices, with 20 face pairs sharing a single edge while eight others share two faces. And as if the concept wasn’t headspinning enough, three faces meet at every vertex.
+
+While Mizhaev explains the genus-3 polyhedron’s geometry in a pre-print study detailed by New Scientist, it’s probably easiest to look at an example yourself. Pre-prints like these are research papers that have not been formally peer reviewed or published in a scientific journal. 
+
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+In geometry, the polyhedron is a foundational concept that follows a few basic rules. A three-dimensional shape simply needs to feature straight edges and angled vertices connected along flat faces. The dodecahedron (12 faces shaped as a five-pointed pentagram) is likely the most complex anyone regularly sees in daily life. Even then, dodecahedrons usually show up once a year as the geometric star atop a Christmas tree.
+
+The subject matter gets even more complex when toroidal polytopes enter the mix. These are polyhedrons that are also toruses—figures with holes in their center. The Császár and Szilassi polyhedrons illustrate this concept, although you’d be forgiven for not instantly recognizing them. While they are important concepts, Mizhaev explained they are mostly useful in studying relationships between “combinatorial topology, graph theory, and three-dimensional geometry.”
+
+Regardless, the genus-3 polyhedron is easily replicated (by other mathematicians) using simple integer coordinates, and forms a shape with three separate holes. It’s unclear if such a shape ever occurs in nature,but if Mizhaev’s study checks out, then it’s certainly possible.
+
+Sponsored
+
+Popular Science
+Visit Popular Science
+How to watch Jackie the bald eagle’s memorial service
+October skygazing: Two meteor showers and two planets at full opposition
+Bear #89 (Backpack) wins Fat Bear Week 2026
+Sponsored
+
+
+
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+Innodata
+Innodata
+·
+Sponsored
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+
+
+More for you
+ReutersForbescmu.edu
++4
+·
+Curated by Copilot
+·
+2h
+Ken Griffin gives $3B to Carnegie Mellon for Miami campus
+
+
+
+
+TimeAxios AI+Yahoo Finance
++3
+Curated by Copilot
+18h
+OpenAI and Google push AI deeper into daily life
+
+ESPNClutchPointsWRTV Indianapolis
++5
+Curated by Copilot
+1h
+Clark's historic night lifts Fever past Aces to force Game 3
+
+Feedback
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+IFLScience
+IFLScience
+Scientists found an atmosphere on a hellishly hot planet that shouldn't have one
+Story by Stephen Luntz
+Sep 27 • 3 min read • Updated 3d ago
+
+
+
+An artist's impression of a lava planet, such as HD 3167 b, although without the clouds we suspect might explain its relatively cool temperatures - Image Credit: NASA
+An artist's impression of a lava planet, such as HD 3167 b, although without the clouds we suspect might explain its relatively cool temperatures - Image Credit: NASA
+© IFL Science
+Astronomers have been surprised to discover a class of very hot planets with thick atmospheres.
+
+How these atmospheres survive is major mystery, and solving it may offer insight into the prospects for worlds cool enough to support life, so the discovery of the coldest member of this class yet to be found is significant.
+
+Planets that orbit close enough to their stars to become extremely hot are thought to tidally lock quickly, meaning one side always faces the star. That makes the day side becomes even hotter, taking many of them past the point above about 800°C (1,500°F) where silicate rocks melt to lava. Meanwhile the night side could be very cold.
+
+However, observations indicate that for some of these “lava worlds” have day sides with temperatures cooler than their proximity to their star would suggest. That indicates heat is either being reflected by clouds, or redistributed by an atmosphere to the night side, or both. HD 3167 b is the coolest example yet.
+
+The existence of lava planets with atmospheres is a puzzle in itself. A hot planet means a hot atmosphere, giving gas molecules more energy to escape.
+
+Moreover, Dr Edwin Kite of the University of Chicago noted in a statement; “The closer a rocky planet orbits its star, the harder it should be to have an atmosphere, because it’s bombarded by stellar wind and gets more high-energy photons from the star. But it seems that many of these lava worlds do.”
+
+4x Faster Than Typing - Wispr Flow: AI Dictation - The Most Accurate Dictation
+Wispr Flow
+Wispr Flow
+·
+Sponsored
+4x Faster Than Typing - Wispr Flow: AI Dictation - The Most Accurate Dictation
+Kite has had PhD students looking at known ultra-hot rocky planets to see which ones show signs of an atmosphere. Against all expectations, rather than the cooler lava planets being the ones to retain an atmosphere, so far it’s been some of the hottest.
+
+That makes HD 3167 b particularly intriguing, as the coolest example yet found. Either there is a temperature threshold where atmosphere survives, and HD 3167 b is just above it, or something has allowed it to hold onto an atmosphere when planets at similar temperatures have not. Both would have very interesting implications.
+
+HD 3167 b has a radius 60 percent larger than Earth’s and orbits its star in 23 Earth hours. Using the brightness of HD 3167, Kite’s team calculate with thick atmospheres the planet’s day side should have a temperature of exceeding 2,200°C (4,000°F). Yet the light reflected is more consistent with 1,500°C (2,700°F): still staggeringly hot, but indicating either much of HD 3167’s light is being reflected or distributed. It’s possible it has a very white surface, but the team considers an atmosphere much more plausible.
+
+Team member Brandon Coy noted that we don’t know the composition of HD 3167 b’s – or any lava world’s - atmosphere. “Before this study, we expected that any atmosphere on these ultra-hot planets would be composed of vaporized rock, but we’re starting to see evidence that some might have heavier gases like carbon dioxide, carbon monoxide, or water in their atmospheres,” Coy said.
+
+These ultra-hot planets get most of their heat from their stars. Earth, at a vastly greater distance, never received anything like that much Sunlight. Nevertheless, it is thought our home went through a similar stage, when the energy from being bombarded by giant asteroids created a magma ocean. Anything we learn about planets like HD 3167 b could prove relevant for reconstructing the early Earth.
+
+The study is open access in The Astrophysical Journal Letters.
+
+Support Science Journalism. Subscribe Today!
+
+Sponsored
+
+IFLScience
+Visit IFLScience
+If primordial black holes exist, they might be 5D objects formed from collapsing cosmic strings
+People spotted a shape-shifting object during a SpaceX livestream, and of course they think it is aliens
+The world's rainforests could contain a staggering $714 billion worth of undescribed drugs
+Sponsored
+
+
+
+Degrees in Physics - Physics Degrees - Associate & Bachelors Programs
+GuidetoSchools.com
+GuidetoSchools.com
+·
+Sponsored
+Degrees in Physics - Physics Degrees - Associate & Bachelors Programs
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+
+
+More for you
+Knowridgetechexplorist.comarxiv.org
++12
+·
+Curated by Copilot
+·
+9h
+CHIME and JWST findings challenge models of cosmic expansion and early structures
+
+
+
+Degrees in Physics - Physics Degrees - Associate & Bachelors Programs
+GuidetoSchools.com
+GuidetoSchools.com
+·
+Sponsored
+Degrees in Physics - Physics Degrees - Associate & Bachelors Programs
+Learn More
+
+Yahoo FinanceFortuneBenzinga
++6
+Curated by Copilot
+3h
+Robinhood launches AI trading agents to all 29M users
+16:11
+Keep Watching
+
+Celestium
+Celestium
+A radical alternative to the Big Bang is raising alarming questions
+14:48
+Keep Watching
+
+The Space Race
+The Space Race
+1w
+NASA finally looked inside Uranus... and what it found shouldn't exist
+
+Interesting Engineering
+Interesting Engineering
+3d
+Two labs independently measure quarter-electron charge in a rare quantum state
+10:26
+Keep Watching
+
+Sciencephile the AI
+Sciencephile the AI
+What the universe looks like when almost everything is gone
+
+Daily Galaxy
+Daily Galaxy
+1d
+A giant planet around a tiny star should not exist, Webb just revealed why scientists are confused
+
+The Brighterside of News
+The Brighterside of News
+3h
+Physicists finally discover the elusive glueball, a particle made entirely of nuclear force
+10:54
+Keep Watching
+
+Celestium
+Celestium
+5h
+This is why the universe isn’t glowing at night
+09:06
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+2d
+Universe scale - how big is the cosmos really?
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+
+Futura-sciences
+Futura-sciences
+3d
+A mysterious galaxy near Andromeda is rewriting everything we thought we knew
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+
+Phys.org
+Phys.org
+How dark energy changed cosmology forever
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+
+Feedback
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+
+Armed robbery in RevesbyquantumzeitgeistMedicine Buffalo
++5
+•
+Curated by Copilot
+•
+1d ago
+Physicists link spin glasses to black hole dynamics for quantum information gains
+Mathematical link found: Physicists identified equations connecting spin glasses to black hole dynamics through the Sachdev-Ye-Kitaev model.
+
+Quantum shift mechanism: The study shows that low-temperature quantum fluctuations can convert slow spin glass states into fast SYK-like dynamics.
+
+Information control potential: The unification may enhance methods for storing and transferring quantum information across different physics domains.
+
+
+
+Physicists link spin glasses to black hole dynamics for quantum information gains
+UB team connects spin glasses to black hole dynamics
+University at Buffalo physicists have found a mathematical solution linking spin glasses to the fast, entangled dynamics described by the Sachdev-Ye-Kitaev model used in black hole physics. Using quantum field theory techniques and an unconventional spin representation, the team showed how increasing quantum fluctuations at extremely low temperatures can transform a spin glass into SYK-like dynamics. This transition reveals how matter can shift from among the slowest states in quantum dynamics to among the fastest, offering insights into controlling information flow in quantum technologies.
+
+A spin glass can transition to SYK-model dynamics, linking ultraslow quantum magnetism to black hole-like fast entanglement.
+Armed robbery in Revesby +2
+Understanding spin glasses and black hole horizons
+This context helps explain the physical systems involved. Spin glasses are frustrated quantum magnets where atomic spins point in disordered directions and become effectively frozen in place. Their geometry and disorder make them respond to disturbances extremely slowly, allowing information to remain trapped for long periods. Black hole horizons mark regions from which nothing can escape, characterized by a thermal emission spectrum known as Hawking radiation. The Hawking temperature is tied to the condition of maximal absorption consistent with unitary time evolution.
+
+arxiv.org +2
+Key properties
+•
+Spin glasses have disordered frozen spins that resist reconfiguration.
+•
+They respond to disturbances extremely slowly.
+•
+They can trap information for long periods.
+•
+Black hole horizons emit a thermal spectrum known as Hawking radiation.
+•
+Hawking temperature is related to the condition of maximal absorption consistent with unitarity.
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+Cross-disciplinary bridge offers quantum information benefits
+The implications of this link extend across disciplines. The discovery offers a rare mathematical bridge between spin glasses and black hole physics, uniting fields once thought unrelated. By using the same Sachdev-Ye-Kitaev model, it aligns condensed matter theory with tools traditionally reserved for astrophysics. This cross-disciplinary link could improve control over quantum information storage and transfer.
+
+quantumnews.in +4
+We’ve essentially found the math that describes how matter can go from among the slowest states in quantum dynamics to among the fastest.
+Jamir Marino,Assistant professor of physics
+8 references
+1
+
+Armed robbery in Revesby
+·
+1w
+
+Physicists Link Quantum Magnetism to Black-Hole Physics | Mirage News
+2
+
+quantumzeitgeist
+·
+1w
+
+Quantum Magnets Link Slow Data Storage To Black Hole Physics
+
+Show all
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+Degrees in Physics - Physics Degree Programs - Associate & Bachelors Programs
+GuidetoSchools.com
+GuidetoSchools.com
+·
+Sponsored
+Degrees in Physics - Physics Degree Programs - Associate & Bachelors Programs
+More for you
+Timebiomednexus.cominvestor.lilly.com
++5
+·
+Curated by Copilot
+·
+2h
+Lilly's retatrutide cuts weight 20.8% in diabetes trial
+
+
+
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+Learn More
+
+CBS SportsBringMeTheSportsClutchPoints
++2
+Curated by Copilot
+1h
+Liberty sweep Lynx in historic playoff upset
+
+Reuterspharmexec.commarketscreener.com
++2
+Curated by Copilot
+50m
+Wegovy pill shows weight loss gains after injection switch
+16:11
+Keep Watching
+
+Celestium
+Celestium
+A radical alternative to the Big Bang is raising alarming questions
+
+The Brighterside of News
+The Brighterside of News
+3h
+Physicists finally discover the elusive glueball, a particle made entirely of nuclear force
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+
+Phys.org
+Phys.org
+3h
+New simulations connect the first stars to cosmic fingerprints still visible today
+
+Daily Galaxy
+Daily Galaxy
+1d
+A giant planet around a tiny star should not exist, Webb just revealed why scientists are confused
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+10:26
+Keep Watching
+
+Sciencephile the AI
+Sciencephile the AI
+What the universe looks like when almost everything is gone
+
+Phys.org
+Phys.org
+How dark energy changed cosmology forever
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+
+Phys.org
+Phys.org
+2d
+Waves find order in the chaos of an oddly shaped cavity
+
+StarsInsider
+StarsInsider
+Scientists discover a universal limit to life’s growth
+
+Morning Overview
+Morning Overview
+Astronomers say most “normal matter” is missing from galaxies and here’s where
+03:58
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+Why the universe looks completely dark even though it’s filled with stars
+
+The Brighterside of News
+The Brighterside of News
+4d
+JWST finds early galaxies were already spreading the ingredients for planets and life
+14:56
+Keep Watching
+
+AstroKobi
+AstroKobi
+The real reason we’re alone in the universe
+
+Feedback
+Sponsored
+
+Related Stories
+
+Armed robbery in Revesby
+Physicists Link Quantum Magnetism to Black-Hole Physics | Mirage News
+
+quantumzeitgeist
+Quantum Magnets Link Slow Data Storage To Black Hole Physics
+
+Medicine Buffalo
+Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics - University at Buffalo
+Sponsored
+
+Sponsored
+
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+Interesting Engineering
+Interesting Engineering
+Scientists discover way to guide bouncing light, sound waves in complex spaces
+Story by Mrigakshi Dixit
+Sep 28 • 3 min read • Updated 2d ago
+
+
+Key takeaways
+InfoIcon
+Wave organization breakthrough: Researchers at CUNY ASRC discovered that passing light and sound waves through hyperbolic synthetic media prevents chaotic scattering, forming stable geometric loops instead.
+Applications potential: This method could revolutionize nanophotonic circuits, wireless signal routing, biosensors, and wave-based analog computing by precisely controlling wave behavior.
+Ocean-inspired physics: The approach mimics underwater wave reflections, translating fluid-dynamics principles into mechanical metamaterials to guide vibrations and energy efficiently.
+
+See more
+ExpandIcon
+
+Scientists discover way to guide bouncing light, sound waves in complex spaces
+Scientists discover way to guide bouncing light, sound waves in complex spaces
+Scientists found a way to stop light and sound waves from scattering chaotically inside complex, oddly shaped spaces.
+
+Shout into an irregularly shaped room, and your voice shatters into a chaotic mess of echoes. The incoming wave hits a slanted wall, bounces off at an angle, and rapidly spirals into complete unpredictability. Physicists call this non-linear mess a “dynamical billiard.” It is the bane of optical engineers and acoustic designers. Now, scientists have found a way to stop the madness.
+
+Researchers at the Advanced Science Research Center at the CUNY Graduate Center (CUNY ASRC) have discovered that passing waves through a special class of synthetic media forces them to abandon chaotic scattering entirely. Instead of splintering, the waves naturally organize themselves into repeating geometric loops.
+
+The discovery could reshape how engineers route light on computer chips, direct wireless signals, and build biological sensors.
+
+“This work shows how geometry and the properties of a material can work together to produce wave behavior that is both surprising and useful,” said Andrea Alù, the study’s principal investigator.
+
+“By understanding how waves organize themselves in these hyperbolic media, we can begin to explore new approaches to controlling energy, information, and communication signals in complex environments,” Alù added.
+
+The geometry of order
+The research team aimed to investigate how combining these non-standard reflection properties with an asymmetrical cavity reshapes wave dynamics.
+
+In everyday materials, reflection obeys a simple rule: the angle of incidence equals the angle of reflection. Throw light into an oddly shaped box, and those reflections quickly turn messy.
+
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+Standard materials send reflecting waves outward at equal angles, creating unpredictable chaotic patterns inside irregular containers.
+
+Hyperbolic materials overcome this limitation by restricting wave propagation along narrow, highly directed paths and altering reflection behavior off slanted surfaces. Inside these specialized cavities, waves progressively organize into stable, scale-invariant closed loops as broken mirror symmetry and shrinking wavelengths collapse chaotic scattering into structured trajectories.
+
+This unique propagation gives rise to wave trajectories with directional rotation, or handedness, which dictates whether paths rotate clockwise or counterclockwise.
+
+Researchers experimentally validated this self-organizing behavior by controlling vibrations within an engineered mechanical metamaterial.
+
+“The most exciting aspect of these results is that they connect a simple geometric idea with a rich set of wave phenomena,” said Enrico Renzi, a doctoral student in Alù’s lab. “We can observe how the waves become organized, and we can connect that organization to properties such as stability and handedness. This gives us a framework for designing wave behavior rather than simply observing it.”
+
+Ocean roots
+The physics behind this tabletop development shares surprising roots with deep-sea oceanography.
+
+In the ocean, underwater waves travel through layers of water with differing densities. When these internal waves hit underwater slopes, they reflect in unusual ways, often locking into closed trajectories that concentrate energy beneath the surface.
+
+The CUNY team translated this fluid-dynamics concept into a solid-state platform using a mechanical metamaterial — a custom-designed structure with miniature pillars that guide elastic vibrations.
+
+4x Faster Than Typing - Wispr Flow: AI Dictation - Download Wispr Flow Free
+Wispr Flow
+Wispr Flow
+·
+Sponsored
+4x Faster Than Typing - Wispr Flow: AI Dictation - Download Wispr Flow Free
+The usage could go beyond mechanical vibrations. The same mathematical framework applies to 2D materials like hexagonal boron nitride and molybdenum trioxide, which host hybrid light-matter excitations called hyperbolic phonon polaritons.
+
+Researchers aim to harness wave attractors to construct low-loss nanophotonic circuits, engineer highly sensitive biosensors, manipulate microscopic particles using light, and create wave-based analog computing systems.
+
+The study was published in the journal Nature Physics. 
+
+Sponsored
+
+
+TOP STORIES
+Tel Aviv flight diverted to Saudi Arabia after pilot 'stabbed the other': Officials
+US troops complete Iraq exit, as Iran and its allies celebrate
+Trump AI deal rebrands 'artificial intelligence' as 'superintelligence'
+Sponsored
+
+
+
+Mathematical Methods For Physics Problems And Solutions | Science Client Lines
+Routledge
+Routledge
+·
+Sponsored
+Mathematical Methods For Physics Problems And Solutions | Science Client Lines
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+Innodata
+Innodata
+·
+Sponsored
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+
+
+More for you
+CBS SportsBringMeTheSportsClutchPoints
++5
+·
+Curated by Copilot
+·
+1h
+Liberty sweep Lynx in historic playoff upset
+
+
+
+13:23
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+5d
+Gravity has been pulling for 13.8 billion years without losing strength
+22:18
+Keep Watching
+
+Celestium
+Celestium
+Gravity bends light, warps time, and still does not add up
+
+Phys.org
+Phys.org
+3h
+New simulations connect the first stars to cosmic fingerprints still visible today
+10:26
+Keep Watching
+
+Sciencephile the AI
+Sciencephile the AI
+What the universe looks like when almost everything is gone
+
+Interesting Engineering
+Interesting Engineering
+Chinese scientists explain one-way flow of time and why past travel is impossible
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+14:48
+Keep Watching
+
+The Space Race
+The Space Race
+1w
+NASA finally looked inside Uranus... and what it found shouldn't exist
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+
+Daily Galaxy
+Daily Galaxy
+1d
+A giant planet around a tiny star should not exist, Webb just revealed why scientists are confused
+
+Phys.org
+Phys.org
+How dark energy changed cosmology forever
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+
+Futura-sciences
+Futura-sciences
+3d
+A mysterious galaxy near Andromeda is rewriting everything we thought we knew
+09:06
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+2d
+Universe scale - how big is the cosmos really?
+
+Geek Spin
+Geek Spin
+4d
+Astronomers detect direct radio signals from a distant planet
+
+Feedback
+
+Skip to content
+Innodata Inc.
+AI Solutions
+Enterprise AI
+Agentic AI
+
+
+Physical AI
+Federal
+Platforms
+
+
+Resources
+Investor relations
+Contact Us
+Search
+Search...
+
+
+
+
+Physical AI Data Collection
+
+Physical AI Data Collection Services for Robotics and Embodied AI
+Collect real-world training data for robotics, VLA models, world models, wearables, and embodied AI.
+
+Request a Custom Data Collection Plan
+Talk to an Expert
+Illustration of secured data storage connecting devices and documents, representing trusted physical AI training datasets.
+Why Innodata
+
+Build Physical AI Models with Data You Can Trust
+Physical AI teams need real-world data that reflects how people, objects, devices, and environments actually interact.
+
+Innodata helps teams move from raw visual, sensor, and interaction data to validated, model-ready datasets for training, evaluation, retraining, and deployment.
+
+Talk to an Expert
+Capabilities
+
+Robotics Training Data and What We Collect for Physical AI Models
+Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.
+
+Aperture icon representing egocentric video and wearable capture for physical AI training.
+Egocentric Video and Wearable Capture
+First-person video captured through body-worn cameras, AR/VR headsets, wearable devices, and real-world task environments.
+
+Use Cases Include
+Robotics
+Wearable AI
+Spatial Computing
+Autonomous Systems
+Navigation
+Human-Object Interaction
+Sensor icon representing synchronized IMU, depth, RGB, and LiDAR data capture.
+Sensor, IMU, Depth, RGB, and Multimodal Capture
+Synchronized sensor data including IMU, depth, RGB, IR, LiDAR, aerial, egocentric, and wearable capture.
+
+Use Cases Include
+Sensor Fusion
+World Model Training
+Computer Vision
+Autonomous Systems
+Multimodal AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+* All sensitive data types — including biometric, facial, and healthcare-adjacent data — are collected through consent-managed, privacy-compliant workflows with GDPR, HIPAA, and client-specific data governance requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Innodata wordmark with a blue chip-like icon on the left, placed on a white background with black text.
+Innodata (Nasdaq: INOD) is a global data engineering company. We believe that data and Artificial Intelligence (AI) are inextricably linked. Our mission is to enable the responsible advancement of artificial intelligence by providing the data, evaluation frameworks, and human expertise required to build AI systems that can be trusted at scale. We provide a range of transferable solutions, platforms, and services for Generative AI / AI builders and adopters. In every relationship, we honor our 36+ year legacy delivering the highest quality data and outstanding outcomes for our customers.
+
+About
+Executive Management
+Board of Directors
+Investor Relations
+Company
+Careers
+Privacy Policy
+Data Privacy Framework
+Cookie Notice
+Contact
+55 Challenger Road
+Suite 202
+Ridgefield Park, New Jersey 07660
+201-371-8000
+info@innodata.com
+Facebook Instagram X-twitter Linkedin
+By clicking “Accept,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. To find out more about the cookies we use, see our Privacy Policy.
+AcceptCookie Settings
+
+Naomi, AI Agent
+
+
+Naomi
+Naomi
+Innodata AI Ambassador
+I can help your team scale secure, compliant data annotation for complex physical AI projects. What challenges do you face in managing data quality and compliance for your models?
+
+Message input
+Chat with us
+Message Naomi
+Ask Naomi a question
+
+
+This chat may be recorded. You can view our privacy policy here: Privacy Policy.
+Skip to content
+Innodata Inc.
+AI Solutions
+Enterprise AI
+Agentic AI
+
+
+Physical AI
+Federal
+Platforms
+
+
+Resources
+Investor relations
+Contact Us
+Search
+Search...
+
+
+
+
+Physical AI Data Collection
+
+Physical AI Data Collection Services for Robotics and Embodied AI
+Collect real-world training data for robotics, VLA models, world models, wearables, and embodied AI.
+
+Request a Custom Data Collection Plan
+Talk to an Expert
+Illustration of secured data storage connecting devices and documents, representing trusted physical AI training datasets.
+Why Innodata
+
+Build Physical AI Models with Data You Can Trust
+Physical AI teams need real-world data that reflects how people, objects, devices, and environments actually interact.
+
+Innodata helps teams move from raw visual, sensor, and interaction data to validated, model-ready datasets for training, evaluation, retraining, and deployment.
+
+Talk to an Expert
+Capabilities
+
+Robotics Training Data and What We Collect for Physical AI Models
+Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.
+
+Aperture icon representing egocentric video and wearable capture for physical AI training.
+Egocentric Video and Wearable Capture
+First-person video captured through body-worn cameras, AR/VR headsets, wearable devices, and real-world task environments.
+
+Use Cases Include
+Robotics
+Wearable AI
+Spatial Computing
+Autonomous Systems
+Navigation
+Human-Object Interaction
+Sensor icon representing synchronized IMU, depth, RGB, and LiDAR data capture.
+Sensor, IMU, Depth, RGB, and Multimodal Capture
+Synchronized sensor data including IMU, depth, RGB, IR, LiDAR, aerial, egocentric, and wearable capture.
+
+Use Cases Include
+Sensor Fusion
+World Model Training
+Computer Vision
+Autonomous Systems
+Multimodal AI
+Microchip icon representing robotics teleoperation and real-world interaction data.
+Robotics and Real-World Interaction Data
+Teacher-follower demonstrations, teleoperation logs, task completion sequences, hand-object interaction, household workflows, workplace workflows, and environment metadata.
+
+Use Cases Include
+Manipulation
+Navigation
+Robotic Workflows
+VLA Models
+Embodied AI Systems
+Image stack icon representing computer vision data collection and video labeling.
+Image, Video, and Computer Vision Data
+Image and video capture, object detection and tracking, action and motion labeling, scene understanding, small-object detection, geospatial imagery, aerial imagery, and egocentric video labeling.
+
+Use Cases Include
+Computer Vision
+Robotics
+Sports Kinematics
+Agriculture
+Livestock Monitoring
+Geospatial AI
+Autonomous Systems
+From Collection Design to Model-Ready Robotics Training Data
+Every program is scoped around your model requirements, collection environment, contributor needs, quality thresholds, and delivery format.
+
+Request a Custom Data Collection Plan
+synthetic data generation
+01
+
+Design the dataset
+Define modalities, task taxonomy, collection environments, metadata schema, quality thresholds, and delivery format including capture environments (in-home, in-facility, lab teleoperation rigs) and sensor synchronization requirements.
+
+02
+
+Provide the right contributors
+Utilize SMEs, voice talent, operators, trained data specialists, or domain experts based on language, geography, demographics, expertise, and task requirements including trained operators for teleoperation and demonstration capture.
+
+03
+
+Execute the collection program
+Manage studio, remote, lab, onsite, hybrid, and in-the-wild workflows with moderation, support, and protocol adherence across household, workplace, and in-the-wild environments.
+
+04
+
+Enrich and validate the data
+Add transcripts, labels, timestamps, metadata, QA scores, preference data, evaluation outputs, and validation reports with motion analytics and kinematic checks for motion-heavy data.
+
+
+
+* All sensitive data types — including biometric, facial, and healthcare-adjacent data — are collected through consent-managed, privacy-compliant workflows with GDPR, HIPAA, and client-specific data governance requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Innodata wordmark with a blue chip-like icon on the left, placed on a white background with black text.
+Innodata (Nasdaq: INOD) is a global data engineering company. We believe that data and Artificial Intelligence (AI) are inextricably linked. Our mission is to enable the responsible advancement of artificial intelligence by providing the data, evaluation frameworks, and human expertise required to build AI systems that can be trusted at scale. We provide a range of transferable solutions, platforms, and services for Generative AI / AI builders and adopters. In every relationship, we honor our 36+ year legacy delivering the highest quality data and outstanding outcomes for our customers.
+
+About
+Executive Management
+Board of Directors
+Investor Relations
+Company
+Careers
+Privacy Policy
+Data Privacy Framework
+Cookie Notice
+Contact
+55 Challenger Road
+Suite 202
+Ridgefield Park, New Jersey 07660
+201-371-8000
+info@innodata.com
+Facebook Instagram X-twitter Linkedin
+By clicking “Accept,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. To find out more about the cookies we use, see our Privacy Policy.
+AcceptCookie Settings
+
+Naomi, AI Agent
+
+
+Naomi
+Naomi
+Innodata AI Ambassador
+I can help your team scale secure, compliant data annotation for complex physical AI projects. What challenges do you face in managing data quality and compliance for your models?
+
+Message input
+Chat with us
+Message Naomi
+Ask Naomi a question
+
+
+This chat may be recorded. You can view our privacy policy here: Privacy Policy.
+Skip to content
+Innodata Inc.
+AI Solutions
+Enterprise AI
+Agentic AI
+
+
+Physical AI
+Federal
+Platforms
+
+
+Resources
+Investor relations
+Contact Us
+Search
+Search...
+
+
+
+
+Physical AI Data Collection
+
+Physical AI Data Collection Services for Robotics and Embodied AI
+Collect real-world training data for robotics, VLA models, world models, wearables, and embodied AI.
+
+Request a Custom Data Collection Plan
+Talk to an Expert
+Illustration of secured data storage connecting devices and documents, representing trusted physical AI training datasets.
+Why Innodata
+
+Build Physical AI Models with Data You Can Trust
+Physical AI teams need real-world data that reflects how people, objects, devices, and environments actually interact.
+
+Innodata helps teams move from raw visual, sensor, and interaction data to validated, model-ready datasets for training, evaluation, retraining, and deployment.
+
+Talk to an Expert
+Capabilities
+
+Robotics Training Data and What We Collect for Physical AI Models
+Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.
+
+Aperture icon representing egocentric video and wearable capture for physical AI training.
+Egocentric Video and Wearable Capture
+First-person video captured through body-worn cameras, AR/VR headsets, wearable devices, and real-world task environments.
+
+Use Cases Include
+Robotics
+Wearable AI
+Spatial Computing
+Autonomous Systems
+Navigation
+Human-Object Interaction
+Sensor icon representing synchronized IMU, depth, RGB, and LiDAR data capture.
+Sensor, IMU, Depth, RGB, and Multimodal Capture
+Synchronized sensor data including IMU, depth, RGB, IR, LiDAR, aerial, egocentric, and wearable capture.
+
+Use Cases Include
+Sensor Fusion
+World Model Training
+Computer Vision
+Autonomous Systems
+Multimodal AI
+Microchip icon representing robotics teleoperation and real-world interaction data.
+Robotics and Real-World Interaction Data
+Teacher-follower demonstrations, teleoperation logs, task completion sequences, hand-object interaction, household workflows, workplace workflows, and environment metadata.
+
+Use Cases Include
+Manipulation
+Navigation
+Robotic Workflows
+VLA Models
+Embodied AI Systems
+Image stack icon representing computer vision data collection and video labeling.
+Image, Video, and Computer Vision Data
+Image and video capture, object detection and tracking, action and motion labeling, scene understanding, small-object detection, geospatial imagery, aerial imagery, and egocentric video labeling.
+
+Use Cases Include
+Computer Vision
+Robotics
+Sports Kinematics
+Agriculture
+Livestock Monitoring
+Geospatial AI
+Autonomous Systems
+From Collection Design to Model-Ready Robotics Training Data
+Every program is scoped around your model requirements, collection environment, contributor needs, quality thresholds, and delivery format.
+
+Request a Custom Data Collection Plan
+synthetic data generation
+01
+
+Design the dataset
+Define modalities, task taxonomy, collection environments, metadata schema, quality thresholds, and delivery format including capture environments (in-home, in-facility, lab teleoperation rigs) and sensor synchronization requirements.
+
+02
+
+Provide the right contributors
+Utilize SMEs, voice talent, operators, trained data specialists, or domain experts based on language, geography, demographics, expertise, and task requirements including trained operators for teleoperation and demonstration capture.
+
+03
+
+Execute the collection program
+Manage studio, remote, lab, onsite, hybrid, and in-the-wild workflows with moderation, support, and protocol adherence across household, workplace, and in-the-wild environments.
+
+04
+
+Enrich and validate the data
+Add transcripts, labels, timestamps, metadata, QA scores, preference data, evaluation outputs, and validation reports with motion analytics and kinematic checks for motion-heavy data.
+
+05
+
+Deliver training-ready datasets
+Provide structured, secure, ingestion-ready data aligned to your model pipeline aligned to VLA and world model training pipelines.
+
+* All sensitive data types — including biometric, facial, and healthcare-adjacent data — are collected through consent-managed, privacy-compliant workflows with GDPR, HIPAA, and client-specific data governance requirements.
+
+Why Innodata
+
+Why AI Teams Choose Innodata
+Quality-Controlled Labels
+We deliver precisely annotated frames, custom keypoints and skeletal models, QA scores, metadata, and validation reports ready for model training and evaluation.
+
+Human-in-the-Loop Workflows
+Our workflows combine automation, expert human annotators, pre-labeling models, custom automation pipelines, and multi-layer QA.
+
+Motion-Aware Quality Controls
+For motion-heavy Physical AI data, Innodata uses motion analytics and kinematic modeling to track skeletal movement, identify abrupt or impossible motion patterns, flag potential labeling anomalies, and improve dataset consistency before training begins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Innodata wordmark with a blue chip-like icon on the left, placed on a white background with black text.
+Innodata (Nasdaq: INOD) is a global data engineering company. We believe that data and Artificial Intelligence (AI) are inextricably linked. Our mission is to enable the responsible advancement of artificial intelligence by providing the data, evaluation frameworks, and human expertise required to build AI systems that can be trusted at scale. We provide a range of transferable solutions, platforms, and services for Generative AI / AI builders and adopters. In every relationship, we honor our 36+ year legacy delivering the highest quality data and outstanding outcomes for our customers.
+
+About
+Executive Management
+Board of Directors
+Investor Relations
+Company
+Careers
+Privacy Policy
+Data Privacy Framework
+Cookie Notice
+Contact
+55 Challenger Road
+Suite 202
+Ridgefield Park, New Jersey 07660
+201-371-8000
+info@innodata.com
+Facebook Instagram X-twitter Linkedin
+By clicking “Accept,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. To find out more about the cookies we use, see our Privacy Policy.
+AcceptCookie Settings
+
+Naomi, AI Agent
+
+
+Naomi
+Naomi
+Innodata AI Ambassador
+I can help your team scale secure, compliant data annotation for complex physical AI projects. What challenges do you face in managing data quality and compliance for your models?
+
+Message input
+Chat with us
+Message Naomi
+Ask Naomi a question
+
+
+This chat may be recorded. You can view our privacy policy here: Privacy Policy.
+Skip to content
+Innodata Inc.
+AI Solutions
+Enterprise AI
+Agentic AI
+
+
+Physical AI
+Federal
+Platforms
+
+
+Resources
+Investor relations
+Contact Us
+Search
+Search...
+
+
+
+
+Physical AI Data Collection
+
+Physical AI Data Collection Services for Robotics and Embodied AI
+Collect real-world training data for robotics, VLA models, world models, wearables, and embodied AI.
+
+Request a Custom Data Collection Plan
+Talk to an Expert
+Illustration of secured data storage connecting devices and documents, representing trusted physical AI training datasets.
+Why Innodata
+
+Build Physical AI Models with Data You Can Trust
+Physical AI teams need real-world data that reflects how people, objects, devices, and environments actually interact.
+
+Innodata helps teams move from raw visual, sensor, and interaction data to validated, model-ready datasets for training, evaluation, retraining, and deployment.
+
+Talk to an Expert
+Capabilities
+
+Robotics Training Data and What We Collect for Physical AI Models
+Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.
+
+Aperture icon representing egocentric video and wearable capture for physical AI training.
+Egocentric Video and Wearable Capture
+First-person video captured through body-worn cameras, AR/VR headsets, wearable devices, and real-world task environments.
+
+Use Cases Include
+Robotics
+Wearable AI
+Spatial Computing
+Autonomous Systems
+Navigation
+Human-Object Interaction
+Sensor icon representing synchronized IMU, depth, RGB, and LiDAR data capture.
+Sensor, IMU, Depth, RGB, and Multimodal Capture
+Synchronized sensor data including IMU, depth, RGB, IR, LiDAR, aerial, egocentric, and wearable capture.
+
+Use Cases Include
+Sensor Fusion
+World Model Training
+Computer Vision
+Autonomous Systems
+Multimodal AI
+Microchip icon representing robotics teleoperation and real-world interaction data.
+Robotics and Real-World Interaction Data
+Teacher-follower demonstrations, teleoperation logs, task completion sequences, hand-object interaction, household workflows, workplace workflows, and environment metadata.
+
+Use Cases Include
+Manipulation
+Navigation
+Robotic Workflows
+VLA Models
+Embodied AI Systems
+Image stack icon representing computer vision data collection and video labeling.
+Image, Video, and Computer Vision Data
+Image and video capture, object detection and tracking, action and motion labeling, scene understanding, small-object detection, geospatial imagery, aerial imagery, and egocentric video labeling.
+
+Use Cases Include
+Computer Vision
+Robotics
+Sports Kinematics
+Agriculture
+Livestock Monitoring
+Geospatial AI
+Autonomous Systems
+From Collection Design to Model-Ready Robotics Training Data
+Every program is scoped around your model requirements, collection environment, contributor needs, quality thresholds, and delivery format.
+
+Request a Custom Data Collection Plan
+synthetic data generation
+01
+
+Design the dataset
+Define modalities, task taxonomy, collection environments, metadata schema, quality thresholds, and delivery format including capture environments (in-home, in-facility, lab teleoperation rigs) and sensor synchronization requirements.
+
+02
+
+Provide the right contributors
+Utilize SMEs, voice talent, operators, trained data specialists, or domain experts based on language, geography, demographics, expertise, and task requirements including trained operators for teleoperation and demonstration capture.
+
+03
+
+Execute the collection program
+Manage studio, remote, lab, onsite, hybrid, and in-the-wild workflows with moderation, support, and protocol adherence across household, workplace, and in-the-wild environments.
+
+04
+
+Enrich and validate the data
+Add transcripts, labels, timestamps, metadata, QA scores, preference data, evaluation outputs, and validation reports with motion analytics and kinematic checks for motion-heavy data.
+
+05
+
+Deliver training-ready datasets
+Provide structured, secure, ingestion-ready data aligned to your model pipeline aligned to VLA and world model training pipelines.
+
+* All sensitive data types — including biometric, facial, and healthcare-adjacent data — are collected through consent-managed, privacy-compliant workflows with GDPR, HIPAA, and client-specific data governance requirements.
+
+Why Innodata
+
+Why AI Teams Choose Innodata
+Quality-Controlled Labels
+We deliver precisely annotated frames, custom keypoints and skeletal models, QA scores, metadata, and validation reports ready for model training and evaluation.
+
+Human-in-the-Loop Workflows
+Our workflows combine automation, expert human annotators, pre-labeling models, custom automation pipelines, and multi-layer QA.
+
+Motion-Aware Quality Controls
+For motion-heavy Physical AI data, Innodata uses motion analytics and kinematic modeling to track skeletal movement, identify abrupt or impossible motion patterns, flag potential labeling anomalies, and improve dataset consistency before training begins.
+
+Scale and Speed
+Innodata supports large, continuous annotation campaigns, processes thousands of frames per night, and provides turnaround measured in hours for annotation workflows.
+
+Trusted AI Data Partner
+Innodata supports advanced AI teams, including leading hyperscalers and frontier AI organizations, across high-volume training data, evaluation, and quality assurance workloads.
+
+Programs
+
+Physical AI Data Collection Programs We Support
+Robotics and Embodied AI
+Robotics data collection, humanoid and embodied AI data collection, VLA model training data, world model training data, teleoperation datasets, teacher-follower demonstration datasets, manipulation data, navigation data, robotic workflow data, and other real-world interaction datasets.
+
+VLA Models
+World Models
+Teleoperation
+Manipulation
+Navigation
+Wearables and Real-World AI
+Egocentric video data collection, wearable AI data collection, first-person video datasets, human-object interaction datasets, task completion sequences, household workflows, workplace workflows, environment metadata, and other in-the-wild data collection programs.
+
+Egocentric Video
+Wearables
+HOI Data
+Task Sequences
+Computer Vision and Sensor AI
+Computer vision data collection, sensor fusion datasets, image and video annotation, geospatial and aerial imagery annotation, autonomous systems data, sports kinematics analysis, agriculture datasets, livestock monitoring datasets, and other domain-specific image, video, and sensor datasets.
+
+Sensor Fusion
+Geospatial
+Autonomous Systems
+Agriculture
+Need something more specific? Innodata can design a custom collection program around your model requirements, modalities, task taxonomy, collection environment, contributor needs, quality thresholds, and delivery format.
+
+
+
+
+
+
+
+
+
+Innodata wordmark with a blue chip-like icon on the left, placed on a white background with black text.
+Innodata (Nasdaq: INOD) is a global data engineering company. We believe that data and Artificial Intelligence (AI) are inextricably linked. Our mission is to enable the responsible advancement of artificial intelligence by providing the data, evaluation frameworks, and human expertise required to build AI systems that can be trusted at scale. We provide a range of transferable solutions, platforms, and services for Generative AI / AI builders and adopters. In every relationship, we honor our 36+ year legacy delivering the highest quality data and outstanding outcomes for our customers.
+
+About
+Executive Management
+Board of Directors
+Investor Relations
+Company
+Careers
+Privacy Policy
+Data Privacy Framework
+Cookie Notice
+Contact
+55 Challenger Road
+Suite 202
+Ridgefield Park, New Jersey 07660
+201-371-8000
+info@innodata.com
+Facebook Instagram X-twitter Linkedin
+By clicking “Accept,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. To find out more about the cookies we use, see our Privacy Policy.
+AcceptCookie Settings
+
+Naomi, AI Agent
+
+
+Naomi
+Naomi
+Innodata AI Ambassador
+I can help your team scale secure, compliant data annotation for complex physical AI projects. What challenges do you face in managing data quality and compliance for your models?
+
+Message input
+Chat with us
+Message Naomi
+Ask Naomi a question
+
+
+This chat may be recorded. You can view our privacy policy here: Privacy Policy.
+Skip to content
+Innodata Inc.
+AI Solutions
+Enterprise AI
+Agentic AI
+
+
+Physical AI
+Federal
+Platforms
+
+
+Resources
+Investor relations
+Contact Us
+Search
+Search...
+
+
+
+
+Physical AI Data Collection
+
+Physical AI Data Collection Services for Robotics and Embodied AI
+Collect real-world training data for robotics, VLA models, world models, wearables, and embodied AI.
+
+Request a Custom Data Collection Plan
+Talk to an Expert
+Illustration of secured data storage connecting devices and documents, representing trusted physical AI training datasets.
+Why Innodata
+
+Build Physical AI Models with Data You Can Trust
+Physical AI teams need real-world data that reflects how people, objects, devices, and environments actually interact.
+
+Innodata helps teams move from raw visual, sensor, and interaction data to validated, model-ready datasets for training, evaluation, retraining, and deployment.
+
+Talk to an Expert
+Capabilities
+
+Robotics Training Data and What We Collect for Physical AI Models
+Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.Innodata provides custom robotics training data and physical AI data collection – image, video, sensor, egocentric, and real-world interaction data designed around your model’s exact requirements.
+
+Aperture icon representing egocentric video and wearable capture for physical AI training.
+Egocentric Video and Wearable Capture
+First-person video captured through body-worn cameras, AR/VR headsets, wearable devices, and real-world task environments.
+
+Use Cases Include
+Robotics
+Wearable AI
+Spatial Computing
+Autonomous Systems
+Navigation
+Human-Object Interaction
+Sensor icon representing synchronized IMU, depth, RGB, and LiDAR data capture.
+Sensor, IMU, Depth, RGB, and Multimodal Capture
+Synchronized sensor data including IMU, depth, RGB, IR, LiDAR, aerial, egocentric, and wearable capture.
+
+Use Cases Include
+Sensor Fusion
+World Model Training
+Computer Vision
+Autonomous Systems
+Multimodal AI
+Microchip icon representing robotics teleoperation and real-world interaction data.
+Robotics and Real-World Interaction Data
+Teacher-follower demonstrations, teleoperation logs, task completion sequences, hand-object interaction, household workflows, workplace workflows, and environment metadata.
+
+Use Cases Include
+Manipulation
+Navigation
+Robotic Workflows
+VLA Models
+Embodied AI Systems
+Image stack icon representing computer vision data collection and video labeling.
+Image, Video, and Computer Vision Data
+Image and video capture, object detection and tracking, action and motion labeling, scene understanding, small-object detection, geospatial imagery, aerial imagery, and egocentric video labeling.
+
+Use Cases Include
+Computer Vision
+Robotics
+Sports Kinematics
+Agriculture
+Livestock Monitoring
+Geospatial AI
+Autonomous Systems
+From Collection Design to Model-Ready Robotics Training Data
+Every program is scoped around your model requirements, collection environment, contributor needs, quality thresholds, and delivery format.
+
+Request a Custom Data Collection Plan
+synthetic data generation
+01
+
+Design the dataset
+Define modalities, task taxonomy, collection environments, metadata schema, quality thresholds, and delivery format including capture environments (in-home, in-facility, lab teleoperation rigs) and sensor synchronization requirements.
+
+02
+
+Provide the right contributors
+Utilize SMEs, voice talent, operators, trained data specialists, or domain experts based on language, geography, demographics, expertise, and task requirements including trained operators for teleoperation and demonstration capture.
+
+03
+
+Execute the collection program
+Manage studio, remote, lab, onsite, hybrid, and in-the-wild workflows with moderation, support, and protocol adherence across household, workplace, and in-the-wild environments.
+
+04
+
+Enrich and validate the data
+Add transcripts, labels, timestamps, metadata, QA scores, preference data, evaluation outputs, and validation reports with motion analytics and kinematic checks for motion-heavy data.
+
+05
+
+Deliver training-ready datasets
+Provide structured, secure, ingestion-ready data aligned to your model pipeline aligned to VLA and world model training pipelines.
+
+* All sensitive data types — including biometric, facial, and healthcare-adjacent data — are collected through consent-managed, privacy-compliant workflows with GDPR, HIPAA, and client-specific data governance requirements.
+
+Why Innodata
+
+Why AI Teams Choose Innodata
+Quality-Controlled Labels
+We deliver precisely annotated frames, custom keypoints and skeletal models, QA scores, metadata, and validation reports ready for model training and evaluation.
+
+Human-in-the-Loop Workflows
+Our workflows combine automation, expert human annotators, pre-labeling models, custom automation pipelines, and multi-layer QA.
+
+Motion-Aware Quality Controls
+For motion-heavy Physical AI data, Innodata uses motion analytics and kinematic modeling to track skeletal movement, identify abrupt or impossible motion patterns, flag potential labeling anomalies, and improve dataset consistency before training begins.
+
+Scale and Speed
+Innodata supports large, continuous annotation campaigns, processes thousands of frames per night, and provides turnaround measured in hours for annotation workflows.
+
+Trusted AI Data Partner
+Innodata supports advanced AI teams, including leading hyperscalers and frontier AI organizations, across high-volume training data, evaluation, and quality assurance workloads.
+
+Programs
+
+Physical AI Data Collection Programs We Support
+Robotics and Embodied AI
+Robotics data collection, humanoid and embodied AI data collection, VLA model training data, world model training data, teleoperation datasets, teacher-follower demonstration datasets, manipulation data, navigation data, robotic workflow data, and other real-world interaction datasets.
+
+VLA Models
+World Models
+Teleoperation
+Manipulation
+Navigation
+Wearables and Real-World AI
+Egocentric video data collection, wearable AI data collection, first-person video datasets, human-object interaction datasets, task completion sequences, household workflows, workplace workflows, environment metadata, and other in-the-wild data collection programs.
+
+Egocentric Video
+Wearables
+HOI Data
+Task Sequences
+Computer Vision and Sensor AI
+Computer vision data collection, sensor fusion datasets, image and video annotation, geospatial and aerial imagery annotation, autonomous systems data, sports kinematics analysis, agriculture datasets, livestock monitoring datasets, and other domain-specific image, video, and sensor datasets.
+
+Sensor Fusion
+Geospatial
+Autonomous Systems
+Agriculture
+Need something more specific? Innodata can design a custom collection program around your model requirements, modalities, task taxonomy, collection environment, contributor needs, quality thresholds, and delivery format.
+
+Need Data Faster? Explore Off-the-Shelf Datasets
+Skip the collection timeline. Innodata offers pre-built, fully consented datasets available for immediate licensing, collected to the same quality standards as our custom programs.
+
+Every OTS dataset ships with full provenance documentation, consent records, and metadata schemas. Custom extensions available when off-the-shelf coverage isn’t enough.
+
+Browse Sample Datasets
+Request the Dataset Catalog
+video
+Egocentric Video Datasets
+First-person capture across Household, Blue Collar, and Hobbyist & Craft task domains, with synchronized IMU sensor data, task annotations, and environment metadata.
+
+audio
+Multilingual Speech and Audio
+Studio-quality recordings across 120+ languages and dialects for ASR, TTS, and voice AI training.
+
+Shiny document icon with horizontal lines, centered against a dark background with a soft blue glow and subtle light reflection.
+Text and Document Collections
+Structured documents, expert Q&A, and domain-specific corpora.
+
+Get Started
+
+Book a Meeting to Scope Your Physical AI Dataset
+Tell us what you are building, what data your model needs, and where your current datasets are falling short. Innodata can help you scope a pilot, design the collection workflow, and scale the program into production.
+
+First Name(Required)
+First Name
+Last Name(Required)
+Last Name
+Company(Required)
+Company
+Job Title(Required)
+Job Title
+Email(Required)
+Company Email
+Please describe your data needs
+Please describe your data needs
+
+Submit Request
+Frequently Asked Questions About Physical AI Data Collection
+What is Physical AI data collection?
+What types of robotics training data can Innodata collect?
+Can Innodata collect data for VLA models and world models?
+Does Innodata provide annotation and QA?
+Can Innodata support custom Physical AI data collection?
+Should we use off-the-shelf datasets or custom data collection?
+Innodata wordmark with a blue chip-like icon on the left, placed on a white background with black text.
+Innodata (Nasdaq: INOD) is a global data engineering company. We believe that data and Artificial Intelligence (AI) are inextricably linked. Our mission is to enable the responsible advancement of artificial intelligence by providing the data, evaluation frameworks, and human expertise required to build AI systems that can be trusted at scale. We provide a range of transferable solutions, platforms, and services for Generative AI / AI builders and adopters. In every relationship, we honor our 36+ year legacy delivering the highest quality data and outstanding outcomes for our customers.
+
+About
+Executive Management
+Board of Directors
+Investor Relations
+Company
+Careers
+Privacy Policy
+Data Privacy Framework
+Cookie Notice
+Contact
+55 Challenger Road
+Suite 202
+Ridgefield Park, New Jersey 07660
+201-371-8000
+info@innodata.com
+Facebook Instagram X-twitter Linkedin
+By clicking “Accept,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. To find out more about the cookies we use, see our Privacy Policy.
+AcceptCookie Settings
+
+Naomi, AI Agent
+
+
+Naomi
+Naomi
+Innodata AI Ambassador
+I can help your team scale secure, compliant data annotation for complex physical AI projects. What challenges do you face in managing data quality and compliance for your models?
+
+Message input
+Chat with us
+Message Naomi
+Ask Naomi a question
+
+
+This chat may be recorded. You can view our privacy policy here: Privacy Policy.
+Credit: AI-generated image
+Credit: AI-generated image
+It's a plot device beloved by science fiction: our entire universe might be a simulation running on some advanced civilization's supercomputer. But new research from UBC Okanagan has mathematically proven this isn't just unlikely—it's impossible.
+
+Subscribe to our newsletter for the latest sci-tech news updates.
+
+Dr. Mir Faizal, Adjunct Professor with UBC Okanagan's Irving K. Barber Faculty of Science, and his international colleagues, Drs. Lawrence M. Krauss, Arshid Shabir and Francesco Marino have shown that the fundamental nature of reality operates in a way that no computer could ever simulate.
+
+Their findings, published in the Journal of Holography Applications in Physics, go beyond simply suggesting that we're not living in a simulated world like The Matrix. They prove something far more profound: the universe is built on a type of understanding that exists beyond the reach of any algorithm.
+
+"It has been suggested that the universe could be simulated. If such a simulation were possible, the simulated universe could itself give rise to life, which in turn might create its own simulation. This recursive possibility makes it seem highly unlikely that our universe is the original one, rather than a simulation nested within another simulation," says Dr. Faizal. "This idea was once thought to lie beyond the reach of scientific inquiry. However, our recent research has demonstrated that it can, in fact, be scientifically addressed."
+
+Credit: AI-generated image
+Credit: AI-generated image
+The research hinges on a fascinating property of reality itself. Modern physics has moved far beyond Newton's tangible "stuff" bouncing around in space. Einstein's theory of relativity replaced Newtonian mechanics. Quantum mechanics transformed our understanding again. Today's cutting-edge theory—quantum gravity—suggests that even space and time aren't fundamental. They emerge from something deeper: pure information.
+
+This information exists in what physicists call a Platonic realm—a mathematical foundation more real than the physical universe we experience. It's from this realm that space and time themselves emerge.
+
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+Innodata
+Innodata
+·
+Sponsored
+Physical AI Data Collection - 3D Motion Capture Lab - Humanoid Robot Training Data
+Here's where it gets interesting. The team demonstrated that even this information-based foundation cannot fully describe reality using computation alone. They used powerful mathematical theorems—including Gödel's incompleteness theorem—to prove that a complete and consistent description of everything requires what they call "non-algorithmic understanding."
+
+Think of it this way. A computer follows recipes, step by step, no matter how complex. But some truths can only be grasped through non-algorithmic understanding—understanding that doesn't follow from any sequence of logical steps. These "Gödelian truths" are real, yet impossible to prove through computation.
+
+Here's a basic example using the statement, "This true statement is not provable." If it were provable, it would be false, making logic inconsistent. If it's not provable, then it's true, but that makes any system trying to prove it incomplete. Either way, pure computation fails.
+
+"We have demonstrated that it is impossible to describe all aspects of physical reality using a computational theory of quantum gravity," says Dr. Faizal. "Therefore, no physically complete and consistent theory of everything can be derived from computation alone. Rather, it requires a non-algorithmic understanding, which is more fundamental than the computational laws of quantum gravity and therefore more fundamental than spacetime itself."
+
+Since the computational rules in the Platonic realm could, in principle, resemble those of a computer simulation, couldn't that realm itself be simulated?
+
+No, say the researchers. Their work reveals something deeper.
+
+"Drawing on mathematical theorems related to incompleteness and indefinability, we demonstrate that a fully consistent and complete description of reality cannot be achieved through computation alone," Dr. Faizal explains. "It requires non-algorithmic understanding, which by definition is beyond algorithmic computation and therefore cannot be simulated. Hence, this universe cannot be a simulation."
+
+Books For Science Lover - Fuel Your Curiosity - Paperback, Hardcover & More
+amazon.com
+amazon.com
+·
+Sponsored
+Books For Science Lover - Fuel Your Curiosity - Paperback, Hardcover & More
+Co-author Dr. Lawrence M. Krauss says this research has profound implications. "The fundamental laws of physics cannot be contained within space and time, because they generate them. It has long been hoped, however, that a truly fundamental theory of everything could eventually describe all physical phenomena through computations grounded in these laws. Yet we have demonstrated that this is not possible. A complete and consistent description of reality requires something deeper—a form of understanding known as non-algorithmic understanding."
+
+The team's conclusion is clear and marks an important scientific achievement, says Dr. Faizal.
+
+"Any simulation is inherently algorithmic—it must follow programmed rules," he says. "But since the fundamental level of reality is based on non-algorithmic understanding, the universe cannot be, and could never be, a simulation."
+
+The simulation hypothesis was long considered untestable, relegated to philosophy and even science fiction, rather than science. This research brings it firmly into the domain of mathematics and physics, and provides a definitive answer.
+
+More information: Mir Faizal et al, Consequences of Undecidability in Physics on the Theory of Everything, Journal of Holography Applications in Physics (2025). DOI: 10.22128/jhap.2025.1024.1118. On arXiv: DOI: 10.48550/arxiv.2507.22950
+
+Provided by University of British Columbia
+
+This story was originally published on Phys.org.
+
+
+Skip to content
+
+Skip to footer
+
+
+Back to feed
+
+
+eurekalert.orgscitechdaily.comFuturism
++10
+•
+Curated by Copilot
+•
+22h ago
+Why early black holes grew so fast and reshaped young galaxies
+Simulated rapid growth: Supercomputer models indicate early black holes could expand dozens of times faster than those in the modern universe.
+
+Radiation-driven collapse: Nearby galaxies' far-ultraviolet radiation may have triggered direct collapse into massive stars that became black hole seeds.
+
+Impact on galaxies: Accelerated black hole growth may have produced overmassive cores, reshaping the structure and dynamics of early galaxies.
+
+
+
+Why early black holes grew so fast and reshaped young galaxies
+JWST spots 'Little Red Dots' growing at extreme rates
+JWST's first deep-field images in December 2021 revealed tiny, unexplained red points scattered among distant stars and galaxies. Researchers later determined these Little Red Dots were young black holes, far less massive than expected, enshrouded in dense gas cocoons. Simulations using the ATERUI III supercomputer showed these black holes could grow at rates dozens of times faster than possible in today's universe.
+
+Dec 2021
+JWST captures its first deep-field images, revealing unexplained tiny red points among distant stars and galaxies.
+Jan 14 2026
+Study in Nature identifies the Little Red Dots as young black holes enshrouded in dense gas cocoons.
+Sep 16 2026
+Simulations using ATERUI III show these black holes can grow dozens of times faster than modern counterparts.
+eurekalert.org +4
+Traditional models of black hole seed formation
+To understand this anomaly, it's useful to review traditional growth models. Traditional models propose that early supermassive black holes began as seeds formed either from the remnants of the first stars or from the collapse of massive gas clouds. These seeds, once formed, could grow into billion-solar-mass black holes within the first thousand million years after the Big Bang. Light seeds follow a path from stellar collapse to gradual mass increase, while heavy seeds start with a larger initial mass, shortening the growth period.
+
+Black hole accretion: the process of matter falling into a black hole, increasing its mass.
+Knowridge +1
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Quantum Mechanics 2 Wave-Corpuscle, Quantization And Schrodinger's Equation 1st Edition A€" Pdf/Epub Version Downloadable
+Simulations reveal radiation-driven rapid growth pathways
+New simulations offer alternative pathways for such rapid development. Simulations show that massive black hole seeds can form in dense early galaxy groups and then grow rapidly through super-Eddington accretion. Intense far-ultraviolet radiation from nearby galaxies prevents gas clouds from fragmenting, leading to direct collapse into supermassive stars and then black hole seeds. Once formed, these seeds are surrounded by dense gas disks that trap radiation, allowing accretion rates dozens of times faster than in the modern universe. Additional models propose that supercritical accretion drives optically thick outflows, creating scattering regions that shape observed spectra. Dense, compressionally heated, collisionally ionized accretion flows can also fuel long-lived, rapid black hole growth phases.
+
+eurekalert.org +3
+Model type
+Seed formation process
+Growth environment
+Accretion rate
+Traditional slow-growth
+Collapse of smaller stellar remnants
+Less dense gas, radiation escapes
+Limited by Eddington rate
+New simulation rapid-growth
+Direct collapse via FUV radiation suppression
+Dense gas disks trap radiation
+Super-Eddington, dozens of times faster
+Supercritical outflow model
+Supercritical accretion onto seed
+Thick scattering region beyond photosphere
+Sustained high rates with spectral modification
+Accelerated growth altered early galaxy structure
+These mechanisms also had significant effects on the galaxies themselves. In the early universe, intense far-ultraviolet radiation from nearby galaxies suppressed star formation in gas clouds, enabling the creation of single supermassive stars that collapsed into black hole seeds. Once formed, these seeds were surrounded by dense gas disks that trapped radiation, allowing black holes to grow dozens of times faster than in the modern universe. Such rapid growth could make black holes overmassive compared to their host galaxies, altering the balance of mass and gravitational influence in early systems. In smaller galaxies, the presence of a central black hole often coincided with halted star formation, while active star-forming systems tended to host wandering black holes. In some cases, supermassive black holes emerged before significantly massive host galaxies, potentially dominating their subsequent structural and dynamical evolution.
+
+eurekalert.org +3
+Key impacts of rapid black hole growth
+•
+Intense far-ultraviolet radiation suppressed star formation in early gas clouds.
+•
+Gas formed single supermassive stars that collapsed into black hole seeds.
+•
+Dense gas disks trapped radiation and enabled accelerated black hole growth.
+•
+Overmassive black holes altered the mass balance of young galaxies.
+•
+Central black holes in small galaxies often coincided with halted star formation.
+•
+Some black holes formed before their host galaxies, shaping later evolution.
+Future observations may redefine black hole origins
+The findings point toward a broader rethinking of cosmic evolution. JWST observations of unexpectedly massive early black holes have upended long-standing formation theories. Some researchers argue this requires a fundamental rethink of classical growth scenarios. Future progress may hinge on identifying more Little Red Dots that are definitively powered by supermassive black holes. Continued JWST surveys and targeted simulations promise to refine these emerging models.
+
+eurekalert.org +2
+It’s a total revisiting of the classical scenarios of how black holes form and grow.
+Professor Roberto Maiolino,University of Cambridge
+13 references
+1
+
+eurekalert.org
+·
+
+Japanese supercomputer explains Webb's Little Red Dots | EurekAlert!
+2
+
+scitechdaily.com
+·
+6d
+
+Scientists May Have Uncovered the Mystery Behind Webb's Strange Little Red Dots
+
+Show all
+Quantum Mechanics An Introduction | Physics
+Routledge
+Routledge
+·
+Sponsored
+Quantum Mechanics An Introduction | Physics
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+EnjoiyShopping
+EnjoiyShopping
+·
+Sponsored
+Introduction To Computational Physics For Undergraduates (Second Edition) 2nd Edition A€" Pdf/Epub Version Downloadable
+More for you
+sciencedaily.comalmaobservatory.orgClimate Compass
+·
+Curated by Copilot
+·
+15h
+Astronomers map Milky Way’s turbulent core in record detail
+
+
+
+
+Yahoo FinanceFortuneBenzinga
++6
+Curated by Copilot
+3h
+Robinhood launches AI trading agents to all 29M users
+13:23
+Keep Watching
+
+Insane Curiosity
+Insane Curiosity
+5d
+Gravity has been pulling for 13.8 billion years without losing strength
+16:11
+Keep Watching
+
+Celestium
+Celestium
+A radical alternative to the Big Bang is raising alarming questions
+
+Daily Galaxy
+Daily Galaxy
+1d
+A giant planet around a tiny star should not exist, Webb just revealed why scientists are confused
+16:57
+Keep Watching
+
+Celestium
+Celestium
+1w
+The discovery that could rewrite stellar physics
+
+Phys.org
+Phys.org
+3h
+New simulations connect the first stars to cosmic fingerprints still visible today
+10:26
+Keep Watching
+
+Sciencephile the AI
+Sciencephile the AI
+What the universe looks like when almost everything is gone
+
+Tech Xplore
+Tech Xplore
+19h
+Patterned plate uses surface vibrations to move and spin objects without complex electronics
+
+Sciencing
+Sciencing
+The bizarre phenomenon that can happen if you stare into mirrors too long
+
+The Brighterside of News
+The Brighterside of News
+3h
+Physicists finally discover the elusive glueball, a particle made entirely of nuclear force
+
+Phys.org
+Phys.org
+2d
+Waves find order in the chaos of an oddly shaped cavity
+
+Morning Overview
+Morning Overview
+New life forms found inside humans that defy classification
+00:58
+Keep Watching
+
+StarTalk
+StarTalk
+1w
+A surprising fact about the universe
+03:58
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+Why the universe looks completely dark even though it’s filled with stars
+
+Morning Overview
+Morning Overview
+Astronomers say most “normal matter” is missing from galaxies and here’s where
+09:06
+Keep Watching
+
+Today In The Space World
+Today In The Space World
+2d
+Universe scale - how big is the cosmos really?
+
+Go2Tutors
+Go2Tutors
+Planet Truths Scientists Rarely Share
+
+Feedback
+Sponsored
+
+Related Stories
+
+eurekalert.org
+Japanese supercomputer explains Webb's Little Red Dots | EurekAlert!
+
+scitechdaily.com
+Scientists May Have Uncovered the Mystery Behind Webb's Strange Little Red Dots
+
+Futurism
+Strange seeds appear to be growing into massive black holes
+Sponsored
+
+Sponsored
