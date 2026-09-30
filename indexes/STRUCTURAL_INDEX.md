@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-30T20:40:16+00:00`
-- Tree/content state: `e78f9644dad6a3780cd68d8e37acbd81c9531c9e7d7420f753a1eac2216f0e38`
-- Coverage: 2835 files, 195 directories
+- Scanned: `2026-09-30T22:05:02+00:00`
+- Tree/content state: `8c6295ae147f4452470e3db761d5991a20ced264e1701d26243ff82fc3f33dc5`
+- Coverage: 2838 files, 196 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -43,7 +43,7 @@
 | `ledgers` | 5 |
 | `synthesis` | 6 |
 | `tests` | 5 |
-| `tools` | 19 |
+| `tools` | 22 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -62,18 +62,18 @@
 | `.jpeg` | 102 |
 | `.jpg` | 49 |
 | `.js` | 16 |
-| `.json` | 724 |
+| `.json` | 725 |
 | `.jsonl` | 15 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 1049 |
+| `.md` | 1050 |
 | `.mhtml` | 3 |
 | `.mjs` | 1 |
 | `.nb` | 3 |
 | `.npz` | 3 |
 | `.pdf` | 43 |
 | `.png` | 190 |
-| `.py` | 154 |
+| `.py` | 155 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.srt` | 4 |
@@ -91,7 +91,7 @@
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 19 |
+| `archive-tooling` | 22 |
 | `audit-output` | 1 |
 | `automation-workflow` | 25 |
 | `checkpoint` | 1 |
@@ -3895,6 +3895,9 @@
 - `tools/query_mersearch_index.py` — 1892 bytes — `archive-tooling`
 - `tools/search_archive_content.py` — 21675 bytes — `archive-tooling`
 - `tools/update_mersearch_index.py` — 5137 bytes — `archive-tooling`
+- `tools/visual_archaeology/README.md` — 4132 bytes — `archive-tooling`
+- `tools/visual_archaeology/calibration.schema.json` — 368 bytes — `archive-tooling`
+- `tools/visual_archaeology/visual_analyzer.py` — 3993 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 
 ## Limitations

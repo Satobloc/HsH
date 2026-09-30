@@ -1,8 +1,8 @@
 {
   "counts": {
-    "bytes_known": 3219549513,
-    "directories": 195,
-    "files": 2835
+    "bytes_known": 3219558006,
+    "directories": 196,
+    "files": 2838
   },
   "counts_by_extension": {
     ".cmd": 1,
@@ -17,18 +17,18 @@
     ".jpeg": 102,
     ".jpg": 49,
     ".js": 16,
-    ".json": 724,
+    ".json": 725,
     ".jsonl": 15,
     ".lean": 3,
     ".m4a": 1,
-    ".md": 1049,
+    ".md": 1050,
     ".mhtml": 3,
     ".mjs": 1,
     ".nb": 3,
     ".npz": 3,
     ".pdf": 43,
     ".png": 190,
-    ".py": 154,
+    ".py": 155,
     ".rtf": 2,
     ".scsyndef": 1,
     ".srt": 4,
@@ -43,7 +43,7 @@
     "[none]": 6
   },
   "counts_by_role": {
-    "archive-tooling": 19,
+    "archive-tooling": 22,
     "audit-output": 1,
     "automation-workflow": 25,
     "checkpoint": 1,
@@ -93,7 +93,7 @@
     "ledgers": 5,
     "synthesis": 6,
     "tests": 5,
-    "tools": 19,
+    "tools": 22,
     "▶ LAUNCH CONVERSATION VIEWER.cmd": 1
   },
   "duplicates": [
@@ -2531,7 +2531,7 @@
       "size": 49
     },
     {
-      "content_id": "b7a056299c14aa9ef0686ff9a8325a8e8a19a2eea1b6568529858ab066375468",
+      "content_id": "d068fe4c1b7c7d685f823994cd2e2762049d96afb59d4b47c0486cf74861db94",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -22817,7 +22817,7 @@
       "size": null
     },
     {
-      "content_id": "da7d57c294e44b6b662841299af286c62a78c205aaf9bbb8e1a74df796aeae26",
+      "content_id": "fc361858d758a1004f6eeb5f1877359118a17ad23f4fbc42a244e3202fca765a",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -22831,7 +22831,7 @@
       "size": 8625
     },
     {
-      "content_id": "53d9d1ef89b6fc5c9ee5eb2e2fcabdc5d51c47bf05099ab01e7345407ba95e83",
+      "content_id": "821fde72756d61ed34ad67c1a48ba496de08d13c03d0767b79df937ae17814b2",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -22845,14 +22845,14 @@
       "size": null
     },
     {
-      "content_id": "e9a11c7fdf0e232fd53fb8729f2826259d91fcd8740a6005850599ef706a7d0b",
+      "content_id": "6c67c4598b498339e694eee67039f77a94d0e6487802ec24cba58273d7cb11f8",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
       "size": 302533
     },
     {
-      "content_id": "e33cc2f1a913ee8a0eccfeea7ec15799602c7be4662065eb9b6f826e9c5052df",
+      "content_id": "4dfa32e14ed81dc2b652360c00e4dd0d1d39d6c2dc164d08e8750be35a30dc8d",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
@@ -22866,7 +22866,7 @@
       "size": 41
     },
     {
-      "content_id": "a541108b2c69a986320d032d6eb02536029394ae9a1bbbcb6a22460a5930a091",
+      "content_id": "ac0d4854156074e8b807ffb8976d1c82e26a0a5a04a6726432d512d9d4f2bcb8",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
@@ -22894,14 +22894,14 @@
       "size": null
     },
     {
-      "content_id": "c48f559599ab84b56f0ed93ec0425a709ae0ce4000b5e85ef51279464d127ac7",
+      "content_id": "dc0fcd9f3d85086c3bbd2dc87cdd2f7ac4757d9ff93c7b95927071174aaa5c73",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
       "size": 411768
     },
     {
-      "content_id": "14c3a3f70d730c2a4c524565f0c4e0fe2933f0213e93c2197a3426cde897429b",
+      "content_id": "edaff2d2c58b38da9491bdb04fe8f64e4f018b76eb49c29ca00d3548f93cad43",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -23363,6 +23363,34 @@
       "size": 5137
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "tools/visual_archaeology",
+      "role": "archive-tooling",
+      "size": null
+    },
+    {
+      "content_id": "564fb79d94c8a39cab1c5d7b8549d65635b44b98c4fbcb61019ecb07a36e2016",
+      "kind": "blob",
+      "path": "tools/visual_archaeology/README.md",
+      "role": "archive-tooling",
+      "size": 4132
+    },
+    {
+      "content_id": "e862a129accfc5667c3075a87cc102b496b43ce77eb778ac18696d8e2781a29c",
+      "kind": "blob",
+      "path": "tools/visual_archaeology/calibration.schema.json",
+      "role": "archive-tooling",
+      "size": 368
+    },
+    {
+      "content_id": "e00d75c776d5be38cc9607f73970143e027d425ed92a1733e779a7a54321114b",
+      "kind": "blob",
+      "path": "tools/visual_archaeology/visual_analyzer.py",
+      "role": "archive-tooling",
+      "size": 3993
+    },
+    {
       "content_id": "9c34b061f89d878e38fc0e0d20862a01c9cf453d68a40c79004fc83bedcb22ac",
       "kind": "blob",
       "path": "▶ LAUNCH CONVERSATION VIEWER.cmd",
@@ -23378,8 +23406,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-09-30T20:40:16+00:00",
+  "scanned_at_utc": "2026-09-30T22:05:02+00:00",
   "schema_version": 1,
-  "tree_id": "e78f9644dad6a3780cd68d8e37acbd81c9531c9e7d7420f753a1eac2216f0e38",
+  "tree_id": "8c6295ae147f4452470e3db761d5991a20ced264e1701d26243ff82fc3f33dc5",
   "tree_response_truncated": false
 }
