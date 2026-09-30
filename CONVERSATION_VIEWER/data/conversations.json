@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-09-30T17:59:42.889514+00:00",
+  "source_state_at_utc": "2026-09-30T18:17:49.070656+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -13,7 +13,7 @@
   },
   "counts": {
     "conversations": 563,
-    "development": 547,
+    "development": 548,
     "live": 11,
     "source_conversations_before_curation": 563
   },
@@ -22,9 +22,9 @@
       "path": "indexes/manifests/development-conversation-dates.json",
       "corpus": "development",
       "status": "loaded",
-      "records": 879,
-      "accepted_json_conversations": 547,
-      "source_generated_at_utc": "2026-09-30T17:59:42.415341+00:00"
+      "records": 887,
+      "accepted_json_conversations": 548,
+      "source_generated_at_utc": "2026-09-30T18:17:48.690303+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,14 +32,14 @@
       "status": "loaded",
       "records": 15,
       "accepted_json_conversations": 11,
-      "source_generated_at_utc": "2026-09-30T17:59:42.889514+00:00"
+      "source_generated_at_utc": "2026-09-30T18:17:49.070656+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "corpus": "registered-external",
       "status": "loaded",
-      "records": 6,
-      "accepted_conversations": 6
+      "records": 5,
+      "accepted_conversations": 5
     }
   ],
   "conversations": [
@@ -1752,25 +1752,6 @@
       "order": 121
     },
     {
-      "id": "de5eb14d94c8",
-      "title": "ChatGPT Voice Glitch",
-      "path": "SAT_THEORY_ARCHIVE_2023-25/ChatGPT Voice Glitch — raw.txt",
-      "corpus": "glass-public",
-      "start_local": "2026-08-31T10:22:57.840886-04:00",
-      "end_local": "2026-09-02T05:02:00.011159-04:00",
-      "message_count": 378,
-      "timestamp_source": "message.create_time",
-      "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-      "source_path": "ChatGPT Voice Glitch — raw.txt",
-      "source_sha256": "08911e2e244eb700c8a39107a0ebb5c89fbd3c654c0ff84111ec970007cd16f6",
-      "discovery": "public-cross-repo-structural-scan",
-      "external": true,
-      "order": 122
-    },
-    {
       "id": "d4cf0a724732",
       "title": "ChatGPT Voice Glitch",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.31•26.09.05•ChatGPT Voice Glitch — raw (2).json",
@@ -1782,7 +1763,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw%20%282%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw%20%282%29.json",
-      "order": 123
+      "order": 122
     },
     {
       "id": "41d9289e67d3",
@@ -1796,7 +1777,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
-      "order": 124
+      "order": 123
     },
     {
       "id": "122f7a612d97",
@@ -1810,7 +1791,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.08.31%E2%80%A226.09.05%E2%80%A2ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw%20%281%29.json",
-      "order": 125
+      "order": 124
     },
     {
       "id": "4ba56037a18b",
@@ -1824,7 +1805,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.02%E2%80%A2NEWTONGLITCH%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.02%E2%80%A2NEWTONGLITCH%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
-      "order": 126
+      "order": 125
     },
     {
       "id": "8bbcd1ab4b22",
@@ -1838,7 +1819,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "order": 127
+      "order": 126
     },
     {
       "id": "7db346e4b829",
@@ -1852,7 +1833,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
-      "order": 128
+      "order": 127
     },
     {
       "id": "4e97603c4358",
@@ -1866,7 +1847,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTONINAN%20SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "order": 129
+      "order": 128
     },
     {
       "id": "ff81d97ca67a",
@@ -1880,7 +1861,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.08.31%E2%80%A226.09.01%E2%80%A2NEWTO-SAT%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
-      "order": 130
+      "order": 129
     },
     {
       "id": "b327dd50c2ce",
@@ -1894,6 +1875,20 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31%E2%80%A226.09.05%E2%80%A2SAT%20Decon%20%2B%20Prior%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.08.31%E2%80%A226.09.05%E2%80%A2SAT%20Decon%20%2B%20Prior%20ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.json",
+      "order": 130
+    },
+    {
+      "id": "0c9d4ca18fdd",
+      "title": "ChatGPT Voice Glitch",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Voice Glitch — raw.txt",
+      "corpus": "development",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-02T05:02:00.011159-04:00",
+      "message_count": 378,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
       "order": 131
     },
     {

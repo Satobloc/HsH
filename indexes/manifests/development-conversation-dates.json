@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T17:59:42.415341+00:00",
+  "generated_at_utc": "2026-09-30T18:17:48.690303+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 332,
-    "planned": 68,
+    "skipped": 339,
+    "planned": 69,
     "collision": 1
   },
   "records": [
@@ -30,6 +30,30 @@
       "message_count": 1565,
       "status": "unchanged",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/2024 ASSESSMENTS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 1 column 6 (char 5)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/2025 ASSESSMENTS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 1 column 6 (char 5)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/23swp42.txt",
@@ -232,6 +256,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Voice Glitch — raw.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.31•26.09.02•ChatGPT Voice Glitch — raw.txt",
+      "start_local": "2026-08-31T10:22:57.840886-04:00",
+      "end_local": "2026-09-02T05:02:00.011159-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 378,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Circle degree radian equality — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20•26.09.12•Circle degree radian equality — raw.json",
       "start_local": "2025-11-20T11:33:06.429851-05:00",
@@ -270,6 +304,18 @@
       "message_count": 2,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Creating lab elf in nLab.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Explain Sites_ — raw.json",
@@ -448,6 +494,18 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/H(s)H STEAMROLLER - Gemini Notebook.mhtml.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HAGALAZ_DEF+.txt",
       "new_path": null,
       "start_local": null,
@@ -461,6 +519,30 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HELIX_GENERATOR.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HOLONOMY DRAFT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH ACTIVITY.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -497,6 +579,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH_TRAFFIC_23SEP26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH_commits.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,

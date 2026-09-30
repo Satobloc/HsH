@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-30T17:59:29.468964+00:00",
+  "generated_at_utc": "2026-09-30T18:17:38.503825+00:00",
   "design": "manual registrations plus structurally discovered public cross-repo conversations; private resources excluded",
   "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
   "source_branch": "main",
   "stats": {
     "candidates": 2968,
-    "recognized": 5,
-    "duplicate_hash": 194,
-    "not_conversation": 2769,
+    "recognized": 4,
+    "duplicate_hash": 196,
+    "not_conversation": 2768,
     "manual": 1,
-    "discovered_added": 5,
-    "merged": 6
+    "discovered_added": 4,
+    "merged": 5
   },
   "conversations": [
     {
@@ -33,23 +33,6 @@
       "raw_url": "https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/SRENA%20SAT2.txt",
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SRENA%20SAT2.txt",
       "note": "Historical non-ChatGPT companion conversation retained in the SAT archive; registered here without copying the canonical source."
-    },
-    {
-      "id": "de5eb14d94c8",
-      "title": "ChatGPT Voice Glitch",
-      "path": "SAT_THEORY_ARCHIVE_2023-25/ChatGPT Voice Glitch — raw.txt",
-      "corpus": "glass-public",
-      "start_local": "2026-08-31T10:22:57.840886-04:00",
-      "end_local": "2026-09-02T05:02:00.011159-04:00",
-      "message_count": 378,
-      "timestamp_source": "message.create_time",
-      "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/main/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/ChatGPT%20Voice%20Glitch%20%E2%80%94%20raw.txt",
-      "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-      "source_path": "ChatGPT Voice Glitch — raw.txt",
-      "source_sha256": "08911e2e244eb700c8a39107a0ebb5c89fbd3c654c0ff84111ec970007cd16f6",
-      "discovery": "public-cross-repo-structural-scan"
     },
     {
       "id": "f7f989d96565",
