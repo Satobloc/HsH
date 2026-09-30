@@ -5,6 +5,14 @@
 
 This continues the image-method work documented in [the 2026-09-12 image-processing/operator thread](../../WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_IMAGE_PROCESSING_OPERATOR_THREAD_2026-09-12.md) and [visual contact-sheet thread](../../WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_VISUAL_CONTACT_SHEET_GPT55_THINKING_2026-09-12.md), but it is a separate instrument. The earlier operator playground was for transformations; this package is for **measurement, motif recognition, archive context and human-calibrated tagging**.
 
+## Current seed material
+
+- [Seed visual catalog — 2026-09-30](SEED_VISUAL_CATALOG_2026-09-30.md) — page-by-page/grouped inspection of Nathan-supplied `VISUAL_INSP` and `SAT_VISUAL_HIST`, standalone-figure page matches, duplicate/variant findings, provenance anchors, and podcast semiotics seeds.
+- [Seed calibration records](seed_calibration.jsonl) — machine-readable descriptive examples with source, decision, family and epistemic scope kept explicit.
+- [Known visual families](known_families.json) — duplicate, near-duplicate, minimal-pair and family relationships.
+- [Controlled tag vocabulary](tag_vocabulary.json) — geometry, composition, palette, role, status and provenance tags.
+- [Analyzer](visual_analyzer.py) — deterministic first-pass feature extraction and candidate scoring.
+
 ## Funnel
 
 `archive/path priors -> measurable image features -> motif hypotheses -> semiotic/theme hypotheses -> source-text cross-check -> human decision -> calibration record`
@@ -57,9 +65,32 @@ Minimal pairs are especially useful because they isolate a feature:
 
 The tool should learn **feature discriminators**, not a single opaque “style score.”
 
-## Public-site boundary
+## Recovered visual-language anchors
 
-This analyzer may propose gallery tags/captions, but it does not override [gallery policy](../../PUBLIC_SITE/GALLERY_FEED.json), quarantine, explicit NO/GO decisions, or provenance requirements. PRIOR_ART remains quarantined.
+The archive now supplies at least one strong source-backed podcast-style fact: Nathan describes the podcast imagery as beginning with **black-and-white-and-red thumbnails** in the [public-record transcript](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/__SAT_Public_Record_Transcripts/FULL_Scalar-Angular%20Theory_%20Field%20Notes%20-%20Full%20Unification%20GR-QM-ST.txt). This can seed `red_bw` as an early podcast palette lineage.
+
+By contrast, the exact thematic meanings of **profile-left/profile-right, magenta/cyan, two facing profiles, split fields, and special-series overlays** remain uncalibrated until Nathan supplies exemplars or archive text makes the mapping explicit.
+
+The supplied `VISUAL_INSP` set is useful for **shape vocabulary**—helix, paired helix, coiled coil, recursive coil, linked rings, toroidal coil, braid—but remains external inspiration, not SAT/H(s)H evidence.
+
+## Family/variant model
+
+Do not force every visual into a flat independent class. Prefer:
+
+`family_id -> variant_id -> duplicate/near-duplicate relationship -> visible features -> semantic labels`
+
+This lets the system identify that two images belong to the same four-panel pitch-comparison family, for example, even when the changed member labels are the scientifically interesting difference.
+
+## Public-site and archive boundaries
+
+This analyzer may propose gallery tags/captions, but it does not override [gallery policy](../../PUBLIC_SITE/GALLERY_FEED.json), quarantine, explicit NO/GO decisions, or provenance requirements.
+
+- `PRIOR_ART/**` remains quarantined and cannot be promoted by this tool.
+- WEIRD/WACKY/4D-organism material remains excluded under the standing visual policy.
+- `thumbnail` in a filename/path remains a default GO only when no stronger exclusion/quarantine applies.
+- exact-square + clearly project-related may be a thumbnail heuristic, never an override.
+- external inspiration may train descriptive shape recognition but must not be recast as project evidence.
+- random/mock/synthetic figures retain those roles; attractive structure is not evidence of a physical result.
 
 ## Run
 
