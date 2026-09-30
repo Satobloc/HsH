@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T17:33:20.751749+00:00",
+  "generated_at_utc": "2026-09-30T17:35:44.907628+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 321,
-    "planned": 42,
+    "skipped": 325,
+    "planned": 45,
     "collision": 1
   },
   "records": [
@@ -252,6 +252,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Explain Sites_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.20•Explain Sites_ — raw.json",
+      "start_local": "2026-09-20T03:46:45.964000-04:00",
+      "end_local": "2026-09-20T04:53:21.795056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 369,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Exploring inspiration together — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.30•Exploring inspiration together — raw.json",
       "start_local": "2025-10-29T22:07:57.085000-04:00",
@@ -344,6 +354,16 @@
       "end_local": "2026-06-01T19:31:40.558512-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 8,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/GitHub search results — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•GitHub search results — raw.json",
+      "start_local": "2026-09-22T22:41:26.805000-04:00",
+      "end_local": "2026-09-23T00:20:58.350176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 266,
       "status": "planned",
       "warnings": []
     },
@@ -630,6 +650,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWS_SEPT20-2026.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Nathan Words Excavator — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
       "start_local": "2026-09-20T12:16:08.508784-04:00",
@@ -894,6 +926,18 @@
       "message_count": 75,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TRIAL_RUN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Theory discussion response — raw.json",
@@ -1172,6 +1216,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/news20sep26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/news24s26.txt",
       "new_path": null,
       "start_local": null,
@@ -1232,6 +1288,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/repo_recon.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/simple_helix_proj.txt",
       "new_path": null,
       "start_local": null,
@@ -1278,6 +1346,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/🧮 RECENT arXiv PAPERS — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-13T13:25:06.388426-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 207,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt",
