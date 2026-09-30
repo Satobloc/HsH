@@ -749,3 +749,15 @@ Published successfully to the existing production URL.
 
 - Browser check on the published Papers page showed two live cards with `Sandbox manuscript · R1` and `In revision`, and no desktop horizontal overflow. The R1 page verified the pinned source digest, rendered the manuscript with a 15-entry contents rail, and had no desktop horizontal overflow. JavaScript syntax, HTML IDs, and site diff passed before publication.
 - Next: add a reviewed PDF/LaTeX presentation only when an accepted matching artifact exists; keep manuscript, review, and website versions synchronized through the paper feed. Inspect the narrow-screen paper layout visually when a mobile preview is available.
+
+
+## 2026-09-30 — backend presentation-gate hardening
+
+Nathan reported a live reader regression in which a machine JSON live-influx packet was displayed as an ordinary reading page. Bounded audit confirmed the packet already points to a human-facing presented method source; the generic reader is bypassing the repository presentation contract. The existing reviewed-paper raw-Markdown/raw-TeX defect remains the same class of presentation failure.
+
+Added:
+- `PUBLIC_SITE/READER_ROUTING_REGISTRY.md` — default-deny public reader routing; machine/control/raw objects never become ordinary reader pages by generic path fallback.
+- `PUBLIC_SITE/BACKEND_PRESENTATION_AUDIT_2026-09-30.md` — bounded HsH/Common/SAT-archive presentation audit and live-update contract.
+- `PUBLIC_SITE/assets/STAGING/README.md` — pointer-based staging for newly uploaded images, including new Class-P ᚼ material, SPHERES run plots, provenance scans, metrics graphics and unclassified/generated imagery.
+
+Required live-builder behavior: route eligible source documents through audience-prefaced RevTeX -> accepted PDF; if no derivative exists, show PRESENTATION PENDING or omit from ordinary browse. Never raw-fallback JSON/Markdown/TeX/control files. The CALIPER packet must resolve to its presented method / compiled derivative, not the packet JSON. Repository changes alone do not prove the live Sites frontend has incorporated the repair.
