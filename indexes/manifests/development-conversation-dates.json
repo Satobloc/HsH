@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-30T17:35:44.907628+00:00",
+  "generated_at_utc": "2026-09-30T17:40:10.549549+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 478,
     "skipped": 325,
-    "planned": 45,
+    "planned": 52,
     "collision": 1
   },
   "records": [
@@ -1382,6 +1382,16 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/Circle degree radian equality — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/25.11.20•26.09.12•Circle degree radian equality — raw.json",
+      "start_local": "2025-11-20T11:33:06.429851-05:00",
+      "end_local": "2026-09-12T08:39:54.055127-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 334,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
       "new_path": null,
       "start_local": null,
@@ -1562,6 +1572,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/Homes in Cardinal Order — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.06.22•26.06.23•Homes in Cardinal Order — raw.json",
+      "start_local": "2026-06-22T14:51:11.858847-04:00",
+      "end_local": "2026-06-23T02:17:16.681170-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1271,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08•25.08.31•Coherency Master OMNI — raw (1).json",
@@ -1784,6 +1804,36 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/MIRA Reignite Onboarding Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json",
+      "start_local": "2026-09-20T19:16:30.243000-04:00",
+      "end_local": "2026-09-22T14:57:55.047000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 412,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/Nathan Words Excavator — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "start_local": "2026-09-20T12:16:08.508784-04:00",
+      "end_local": "2026-09-22T15:19:34.012239-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 385,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/New chat — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.09.20•26.09.20•New chat — raw.json",
+      "start_local": "2026-09-20T17:09:11.309000-04:00",
+      "end_local": "2026-09-20T17:12:49.521511-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 9,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/PRIOR SAT ROSTER SURVEY.txt",
       "new_path": null,
       "start_local": null,
@@ -1794,6 +1844,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/Reinitiate Document Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.09.19•26.09.19•Reinitiate Document Analysis — raw.json",
+      "start_local": "2026-09-19T01:10:47.707000-04:00",
+      "end_local": "2026-09-19T16:40:19.322572-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 216,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json",
@@ -9222,6 +9282,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/🧮 RECENT arXiv PAPERS — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/26.09.08•26.09.13•🧮 RECENT arXiv PAPERS — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-13T13:25:06.388426-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 207,
+      "status": "planned",
+      "warnings": []
     }
   ]
 }
