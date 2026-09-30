@@ -1,0 +1,1424 @@
+{
+  "schema_version": 1,
+  "intake_date": "2026-09-30",
+  "source_repository": "Satobloc/HsH",
+  "source_commit": "b36aabc14681c8f32cfe6d0a5a42f29d7cb3cd97",
+  "source_file_count": 91,
+  "unique_blob_count": 89,
+  "entries": [
+    {
+      "sha": "9cfb528490a199bc73a29b14eb12004e937dc77b",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9cfb528490a199bc73a29b14eb12004e937dc77b.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/0F367CDB-0EBE-4258-890B-C096EADA813D.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "78cb0cb89e288de1b65ad6a4b132f51145bd772c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/78cb0cb89e288de1b65ad6a4b132f51145bd772c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/0bee60c6-76fd-4db0-bb46-d02834eb64d9.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "600d717d30688d5667ecaabe9473b1b856bf2f6e",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/600d717d30688d5667ecaabe9473b1b856bf2f6e.jpeg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/442CDA95-35D4-4A93-B502-E139BB28FE47.jpeg"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1b4d2783de2b7b78a078cf994f110ab14d45db48",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1b4d2783de2b7b78a078cf994f110ab14d45db48.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/5AF22827-92C0-4D8E-979A-97BC144A0B23.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "51f34ddb26c2f85b52ae17b1c4b1c8d8b8251566",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/51f34ddb26c2f85b52ae17b1c4b1c8d8b8251566.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/6C97896D-4DC0-4C6B-BA3A-3A8CF50C424D.png",
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "e416090e0f22d4c149b1ad17cb66f3f0f71a8a41",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/e416090e0f22d4c149b1ad17cb66f3f0f71a8a41.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/7e7bc25e-8457-4550-bee3-765a966e4988.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/7e7bc25e-8457-4550-bee3-765a966e4988.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "b54feab611a0ab9622fdbfc5748390a04f20f794",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/b54feab611a0ab9622fdbfc5748390a04f20f794.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_HAGALAZ_CHANNEL_ACTIVATION_v01.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/CLASS_P_HAGALAZ_CHANNEL_ACTIVATION_v01.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "f1544ac9065e0715ada07b8083e153a7fee5338a",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/f1544ac9065e0715ada07b8083e153a7fee5338a.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_HAGALAZ_MU_CLEARANCE_SWEEP_v01.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "aa79e5121082aa711d80c10e6de687bc6986c97c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/aa79e5121082aa711d80c10e6de687bc6986c97c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_HAGALAZ_RECURSIVE_LIFT_XYW_v01.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/CLASS_P_HAGALAZ_RECURSIVE_LIFT_XYW_v01.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "97fa3d60c41c03b2cbe8a580539977aaa191d044",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/97fa3d60c41c03b2cbe8a580539977aaa191d044.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_HAGALAZ_RECURSIVE_LIFT_XZW_v01.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/CLASS_P_HAGALAZ_RECURSIVE_LIFT_XZW_v01.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "49f720e7f629edfcf87dd7e382b05db8e8d80775",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/49f720e7f629edfcf87dd7e382b05db8e8d80775.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_UI_HAGALAZ_TRANSFORM_v01.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/CLASS_P_UI_HAGALAZ_TRANSFORM_v01.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "29a782eb02ba3b100f8ded625f5cf773beac95a8",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/29a782eb02ba3b100f8ded625f5cf773beac95a8.svg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLASS_P_UI_HAGALAZ_TRANSFORM_v01.svg"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/CLASS_P_UI_HAGALAZ_TRANSFORM_v01.svg"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "02b3bee29a873d86de8f1b735c8bd4d5f575c03b",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/02b3bee29a873d86de8f1b735c8bd4d5f575c03b.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CNSPODCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/CNSPODCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "b950a9f63364358e34bb8d57828a57c1023ffece",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/b950a9f63364358e34bb8d57828a57c1023ffece.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CONSCPODCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/CONSCPODCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "c983487ca00fb456bc073a5bcc11cb0943907d2c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/c983487ca00fb456bc073a5bcc11cb0943907d2c.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/COSCSPODCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/COSCSPODCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "96c4945619e4cbc5f1b4ac609f14c18d7be96edf",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/96c4945619e4cbc5f1b4ac609f14c18d7be96edf.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Capture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/Capture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "c47275f28107f8b41a4e6717b5111f77e2a43b5c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/c47275f28107f8b41a4e6717b5111f77e2a43b5c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "84c5ba2d153ff56df2a5da4730baf4ed95968bae",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/84c5ba2d153ff56df2a5da4730baf4ed95968bae.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "a1c4627573688a0dfd283bcb320d387cae954607",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/a1c4627573688a0dfd283bcb320d387cae954607.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "9c99e325f912ebcc7f079627fcb1ad0aecfc024f",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9c99e325f912ebcc7f079627fcb1ad0aecfc024f.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "166fcd557b6f84050d3e1ab0b18eac54dbcf8f26",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/166fcd557b6f84050d3e1ab0b18eac54dbcf8f26.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_16 AM.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "73a855954611685a09d9a3a2a99fa56735c3ddb5",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/73a855954611685a09d9a3a2a99fa56735c3ddb5.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_25 AM.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "256a39a9c88e0650833431b241688bbbc9526a73",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/256a39a9c88e0650833431b241688bbbc9526a73.jpeg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/F137DDEB-0EFA-491F-8A95-1343D493A631.jpeg"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "3559c9c38acbac39cd0ae4854dc6848f746841c8",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/3559c9c38acbac39cd0ae4854dc6848f746841c8.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Line Chart (1).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "5de6839f72f2ca65ccef18b4936e672599bfa33c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/5de6839f72f2ca65ccef18b4936e672599bfa33c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Line Chart (2).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "8b28809df2d063f7f302b3d736863102d7ebb2e0",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/8b28809df2d063f7f302b3d736863102d7ebb2e0.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Line Chart (3).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "ffe736f4f1f462ccfa9d0cb93581c47cbcab3469",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/ffe736f4f1f462ccfa9d0cb93581c47cbcab3469.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Line Chart.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "947eefaf5ef182777c8035e2607ebc319934ca8a",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/947eefaf5ef182777c8035e2607ebc319934ca8a.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (2).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1471cae21043d6abd23cd6388013f2b639e40c1c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1471cae21043d6abd23cd6388013f2b639e40c1c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "dde15cf11388a4a2ecc76ec4e57717d41cbfa238",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/dde15cf11388a4a2ecc76ec4e57717d41cbfa238.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "e326dc5652350599652a8b3c06673708895158c9",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/e326dc5652350599652a8b3c06673708895158c9.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/NotebookLM Mind Map.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "5d799e8e9cc5543957dfc69cb07bbe0977b68f6a",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/5d799e8e9cc5543957dfc69cb07bbe0977b68f6a.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROVENANCE/01_worldlines_notecard.jpg"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/VISUALS_1/PROVENANCE/01_worldlines_notecard.jpg"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "bf67a37637fba14d38a2b962886e806510d94c05",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/bf67a37637fba14d38a2b962886e806510d94c05.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROVENANCE/02_sat_notebook_2025-04-15.jpg"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/VISUALS_1/PROVENANCE/02_sat_notebook_2025-04-15.jpg"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "55fd7fc2e673716c3c0d5eb58064709f0e789196",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/55fd7fc2e673716c3c0d5eb58064709f0e789196.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROVENANCE/03_early_coil_plane_notebook.jpg"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/VISUALS_1/PROVENANCE/03_early_coil_plane_notebook.jpg"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "26ab5b39cd9c23937f076108011ec677545e6061",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/26ab5b39cd9c23937f076108011ec677545e6061.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_cropped.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "efdea1fa51ff194684fc49d22bb6f5a5b77e7071",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/efdea1fa51ff194684fc49d22bb6f5a5b77e7071.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROVENANCE/04_sat_notebook_2025-04-25_original_screenshot.png"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_original_screenshot.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "f38543749f3bb3017f00b87e43bc52decc7e01ab",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/f38543749f3bb3017f00b87e43bc52decc7e01ab.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SATOPDCASTSCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/SATOPDCASTSCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "8f625ef18de392f3f3eee60dcea6c53d3d12dcae",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/8f625ef18de392f3f3eee60dcea6c53d3d12dcae.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SATPODCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/SATPODCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1fc0ed96da289461074b78a10e526a78f3cbd0bc",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1fc0ed96da289461074b78a10e526a78f3cbd0bc.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SO4_SIX_ROTATION_PLANES_CLASS_P.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/SO4_SIX_ROTATION_PLANES_CLASS_P.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "d187cfbe41b1d25db789b11321d9936fcced6ea1",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/d187cfbe41b1d25db789b11321d9936fcced6ea1.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Total views in last 14 days.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "845a9155db4392caeddec86931ec5114eaa9ba18",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/845a9155db4392caeddec86931ec5114eaa9ba18.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/SPHERES4/seismic_mapdrawing (1).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "c7eb81a2de17cbee9790883200a5727af671952b",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/c7eb81a2de17cbee9790883200a5727af671952b.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/SPHERES4/seismic_mapdrawing (2).png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "d1c069c3dd51d4dae8206a5cd8846b00cf95cbc0",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/d1c069c3dd51d4dae8206a5cd8846b00cf95cbc0.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/SPHERES4/seismic_mapdrawing.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "33a5da457bd4d3ccfc9397652f4e9b30d9d7657e",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/33a5da457bd4d3ccfc9397652f4e9b30d9d7657e.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/01_sphere_state_curves.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "6f74049b587ccd50acceed7b32ce93b2d03f4595",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/6f74049b587ccd50acceed7b32ce93b2d03f4595.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/02_whirlygig_torus_trace_limited.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "aae1465b622c7f6081dd487b45b2dccef3f2acbd",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/aae1465b622c7f6081dd487b45b2dccef3f2acbd.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/02_whirlygig_torus_trace_raw.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "9b759868baf6154f092986c4ab03012a04023fc4",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9b759868baf6154f092986c4ab03012a04023fc4.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/03_residual_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "d20d340927ea6c7917734e23467b5b07fa715f1b",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/d20d340927ea6c7917734e23467b5b07fa715f1b.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/04_limiter_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "42646abaf73b65c3e6f88b05ac8d112249c4ff87",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/42646abaf73b65c3e6f88b05ac8d112249c4ff87.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/eps005/01_sphere_state_curves.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "2329a8281add956c05cbd8b418dc9635aaaadd05",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/2329a8281add956c05cbd8b418dc9635aaaadd05.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/eps005/02_whirlygig_torus_trace_limited.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "334c785f433c86107f40bb5834c4bc72e27c527f",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/334c785f433c86107f40bb5834c4bc72e27c527f.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/eps005/03_residual_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "5e561895bb5a1a4ba5bc8765b29b62facbfe102e",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/5e561895bb5a1a4ba5bc8765b29b62facbfe102e.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/eps005/04_limiter_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "37ce79d83fc2b472c41904fbf8f6bc4e501dda78",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/37ce79d83fc2b472c41904fbf8f6bc4e501dda78.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/smoke/01_sphere_state_curves.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1a48a820802a0d886af3ca84be4fa8b60ca6199c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1a48a820802a0d886af3ca84be4fa8b60ca6199c.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/smoke/02_whirlygig_torus_trace_limited.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "3d84ab424d1c08ffb44777ca3e6008f0f443370a",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/3d84ab424d1c08ffb44777ca3e6008f0f443370a.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/smoke/03_residual_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "8ff7f48192721f614e09cebbf94e79d936f96d3e",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/8ff7f48192721f614e09cebbf94e79d936f96d3e.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/smoke/04_limiter_profile.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "cc2cc4bfc37e2dc3b77bcbb9e5feaf1595398396",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/cc2cc4bfc37e2dc3b77bcbb9e5feaf1595398396.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/badaskitryCapture.JPG"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "e94f8b0ce99511e220606da63798c38fc32239d1",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/e94f8b0ce99511e220606da63798c38fc32239d1.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/bounded_high_curvature_segment.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "ca99ba498fa904391551ae44a688965369f7cbba",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/ca99ba498fa904391551ae44a688965369f7cbba.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ckm-comparison-bar.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/ckm-comparison-bar.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "13407960ee3381ad3d2832bd795aef5d803b9c40",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/13407960ee3381ad3d2832bd795aef5d803b9c40.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ckm-error-heatmap.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/ckm-error-heatmap.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "115ef00182eacefbb6bf237a91f9af1d5174f4a3",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/115ef00182eacefbb6bf237a91f9af1d5174f4a3.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/cmy_gradient_cancellation_atlas.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/cmy_gradient_cancellation_atlas.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "68dbc51b28bd09dbe9d300806653a161fa591e25",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/68dbc51b28bd09dbe9d300806653a161fa591e25.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png"
+      ],
+      "other_repository_paths": [
+        "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "53e162fbdbb4d3ae1b2858036450a8e9463c34d7",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/53e162fbdbb4d3ae1b2858036450a8e9463c34d7.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gendarme_exact_mirror_color_atlas.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/gendarme_exact_mirror_color_atlas.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "c231fd3b04ed81e6f30605461c48281b958e738b",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/c231fd3b04ed81e6f30605461c48281b958e738b.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/he3-charge-radius.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/he3-charge-radius.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1eb2d9138fa1ff0a5924c4c4b77324cc767fb817",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1eb2d9138fa1ff0a5924c4c4b77324cc767fb817.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/higgs-analogue-lock.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/higgs-analogue-lock.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "1ab37bf8831033541e451d646dea6c63aa7884e6",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/1ab37bf8831033541e451d646dea6c63aa7884e6.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/hsshpodcstsCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/hsshpodcstsCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "e6983d97e840cf62eb307c92432443048c990e05",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/e6983d97e840cf62eb307c92432443048c990e05.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/hydrogen-rydberg-spectrum.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/hydrogen-rydberg-spectrum.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "e520460e0ec8f3cbc2f59b0cccdb0985c0098c89",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/e520460e0ec8f3cbc2f59b0cccdb0985c0098c89.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/lepton-generational-coupling.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/lepton-generational-coupling.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "fce1a64e1869ab6647a64350131738cf89027ae9",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/fce1a64e1869ab6647a64350131738cf89027ae9.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/lepton-nutation-ae (1).png",
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/lepton-nutation-ae.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/lepton-nutation-ae (1).png",
+        "LIVE CONVOS/lepton-nutation-ae.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "b4cc7da0eb22dbad4d14dc4fc7b6d4d9599be5d4",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/b4cc7da0eb22dbad4d14dc4fc7b6d4d9599be5d4.jpg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/miscpodCapture.JPG"
+      ],
+      "other_repository_paths": [
+        "SAT_VISUALS/EPISODE-IMAGE_MATCH/miscpodCapture.JPG"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "9903f2d302a975e69efb6ff6a67674dd564f9c91",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9903f2d302a975e69efb6ff6a67674dd564f9c91.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/near_aligned_filament_family.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "4128569e821c65aa19ba7259e51ca72dcd23ea0f",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/4128569e821c65aa19ba7259e51ca72dcd23ea0f.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/optimized_cleaner_sketch_black_core_white_ribbon.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "f3270cf656bac10f339c1b2717209c324d9ffdbf",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/f3270cf656bac10f339c1b2717209c324d9ffdbf.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/particle_zoo_archetypes.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "5f57a13f0952673dc78a00ee312ef1703b688c4c",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/5f57a13f0952673dc78a00ee312ef1703b688c4c.svg",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/particle_zoo_archetypes.svg"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "473c5d93d4a9d32543c02fbb4975c9e88a166b11",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/473c5d93d4a9d32543c02fbb4975c9e88a166b11.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/phase_field_on_fixed_carrier.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "301965e53b6a87b52f0ea8fb579a957d3ddfadf6",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/301965e53b6a87b52f0ea8fb579a957d3ddfadf6.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/planetary-ring-spacing.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/planetary-ring-spacing.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "71bcc147506915789b71b6901bda39a97d10f2ba",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/71bcc147506915789b71b6901bda39a97d10f2ba.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/pmns-mass-spectrum.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "9e26ae45a6b482ee19a88893f4cb34dc6c733de4",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9e26ae45a6b482ee19a88893f4cb34dc6c733de4.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/project_transparency_matrix_2026-09-24.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "6d1eac6f51dff32c20b1d4371fadf1ee99eb47f0",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/6d1eac6f51dff32c20b1d4371fadf1ee99eb47f0.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/pulsar_cascade_plot.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/pulsar_cascade_plot.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "09718c35ea98b81f1fbc331bef08fc3a1b648e61",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/09718c35ea98b81f1fbc331bef08fc3a1b648e61.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/pulsar_density_comparison.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "4d15e7d3b7024959af03787cf3a32bb3d892fdad",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/4d15e7d3b7024959af03787cf3a32bb3d892fdad.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/pulsar_recovery_curve.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/pulsar_recovery_curve.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "9b5c4cfe5a4247e5fcf66d57b04d0e9502f9334e",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/9b5c4cfe5a4247e5fcf66d57b04d0e9502f9334e.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/recurrence_resolution_frontier.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "b2d0b208ea1edc3e2a3762adbcfd615eba2bcf23",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/b2d0b208ea1edc3e2a3762adbcfd615eba2bcf23.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/uranus-obliquity-lock.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/uranus-obliquity-lock.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "b1a5afc7b509f783f87ca2bb2588e7bee9a092d3",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/b1a5afc7b509f783f87ca2bb2588e7bee9a092d3.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/venus-obliquity-lock.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/venus-obliquity-lock.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "611d7821b076ba86a86db7a71f4d7ac15838273d",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/611d7821b076ba86a86db7a71f4d7ac15838273d.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/worldline_phases.png"
+      ],
+      "other_repository_paths": [
+        "LIVE CONVOS/worldline_phases.png"
+      ],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "fd104ec4b568bda8ffa52e819b008b460a3ec373",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/fd104ec4b568bda8ffa52e819b008b460a3ec373.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/zitter_tooltip_dense_3d_white_on_black.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "470c282226cf540234f3486bccee72887cb2c494",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/470c282226cf540234f3486bccee72887cb2c494.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/zoo_same_topology_different_geometry.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "2ea5fc7eab184c84d9332aaa3feec7e43e712c9f",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/2ea5fc7eab184c84d9332aaa3feec7e43e712c9f.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/zoo_three_strand_braid.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    },
+    {
+      "sha": "7f33326ae3c5713e36d69f4021e8c59b7b01524a",
+      "staged_path": "PUBLIC_SITE/STAGING/images/2026-09-30/7f33326ae3c5713e36d69f4021e8c59b7b01524a.png",
+      "source_paths": [
+        "DEVELOPMENT_FULL_CONVOS/HAGALAZ/NotebookLM Mind Map.png"
+      ],
+      "other_repository_paths": [],
+      "status": "needs_visual_review",
+      "uploaded_intake_date": "2026-09-30",
+      "creation_date": null,
+      "alt_text": null,
+      "credit": null,
+      "gallery_approved": false,
+      "thumbnail_approved": false
+    }
+  ]
+}

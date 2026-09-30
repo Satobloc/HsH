@@ -761,3 +761,8 @@ Added:
 - `PUBLIC_SITE/assets/STAGING/README.md` — pointer-based staging for newly uploaded images, including new Class-P ᚼ material, SPHERES run plots, provenance scans, metrics graphics and unclassified/generated imagery.
 
 Required live-builder behavior: route eligible source documents through audience-prefaced RevTeX -> accepted PDF; if no derivative exists, show PRESENTATION PENDING or omit from ordinary browse. Never raw-fallback JSON/Markdown/TeX/control files. The CALIPER packet must resolve to its presented method / compiled derivative, not the packet JSON. Repository changes alone do not prove the live Sites frontend has incorporated the repair.
+
+
+## 2026-09-30 — Presentation audit and image staging (Mercer Calder)
+
+Repository review identified packet-to-raw-JSON routing, unresolved RevTeX figure dependencies and stale current-work state. See build_suggestions/2026-09-30__CALDER__presentation-pipeline-audit.md and PRESENTATION_CONTRACT.md. Created STAGING with 89 unique image blobs from 91 September 30 intake paths, preserving originals and marking all as unreviewed candidates. Original SAT archive comparison found no changed images since September 24. Sites API reports version 36; no browser verification, PDF compilation, source implementation or deployment was possible in this session. These repository additions do not change the live site.
