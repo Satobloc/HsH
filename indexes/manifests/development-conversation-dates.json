@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-30T17:53:35.134927+00:00",
+  "generated_at_utc": "2026-09-30T17:57:42.367624+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -7,7 +7,7 @@
   "summary": {
     "unchanged": 478,
     "skipped": 332,
-    "planned": 59,
+    "planned": 68,
     "collision": 1
   },
   "records": [
@@ -1680,6 +1680,86 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/All-Worker Standards Read — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.19•All-Worker Standards Read — raw.json",
+      "start_local": "2026-09-15T00:46:02.686872-04:00",
+      "end_local": "2026-09-19T16:21:30.846402-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 339,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Continuity Check Setup — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.15•26.09.18•Continuity Check Setup — raw.json",
+      "start_local": "2026-09-15T20:06:45.703000-04:00",
+      "end_local": "2026-09-18T22:35:52.472226-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 737,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Mercer Archive Mover — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.12•26.09.16•Mercer Archive Mover — raw.json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-16T19:54:10.020319-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 374,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Mercer Archive QA Loop — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.16•26.09.19•Mercer Archive QA Loop — raw.json",
+      "start_local": "2026-09-16T20:50:59.920392-04:00",
+      "end_local": "2026-09-19T15:53:02.249113-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 58,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Meridian Mover Trial — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-13T12:33:01.867994-04:00",
+      "end_local": "2026-09-19T15:54:54.254700-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 292,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Nathan Words Excavator — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw (1).json",
+      "start_local": "2026-09-14T12:21:24.602108-04:00",
+      "end_local": "2026-09-19T16:16:50.071679-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 248,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Nathan Words Excavator — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw (2).json",
+      "start_local": "2026-09-14T12:21:24.602108-04:00",
+      "end_local": "2026-09-19T16:16:50.071679-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 248,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Nathan Words Excavator — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.14•26.09.19•Nathan Words Excavator — raw.json",
+      "start_local": "2026-09-14T12:21:24.602108-04:00",
+      "end_local": "2026-09-19T16:15:41.277985-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 245,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/TRIAL_RUN.txt",
       "new_path": null,
       "start_local": null,
@@ -1690,6 +1770,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/Tag Conversation Corpus — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/26.09.13•26.09.19•Tag Conversation Corpus — raw.json",
+      "start_local": "2026-09-13T06:01:15.048900-04:00",
+      "end_local": "2026-09-19T16:02:51.460966-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 342,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/HAGALAZ/gitignore.txt",
