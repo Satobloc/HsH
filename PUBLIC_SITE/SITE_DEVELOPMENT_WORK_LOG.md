@@ -766,3 +766,14 @@ Required live-builder behavior: route eligible source documents through audience
 ## 2026-09-30 — Presentation audit and image staging (Mercer Calder)
 
 Repository review identified packet-to-raw-JSON routing, unresolved RevTeX figure dependencies and stale current-work state. See build_suggestions/2026-09-30__CALDER__presentation-pipeline-audit.md and PRESENTATION_CONTRACT.md. Created STAGING with 89 unique image blobs from 91 September 30 intake paths, preserving originals and marking all as unreviewed candidates. Original SAT archive comparison found no changed images since September 24. Sites API reports version 36; no browser verification, PDF compilation, source implementation or deployment was possible in this session. These repository additions do not change the live site.
+
+
+## 2026-09-30 — visual-atlas and public-copy pass
+
+Added `PUBLIC_SITE/GALLERY_FEED.json` as the cross-repository thumbnail/gallery source of truth. It currently groups clearly identifiable assets into Geometry & visual models, Debating A.I. / podcast, Historical SAT, Sketchbooks & provenance, Solver & result figures, and Project history. Sources span HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES.
+
+Added `PUBLIC_SITE/PUBLIC_COPY_STANDARD.md`: public pages summarize the research and its status rather than exposing worker names, packets, queues, scheduler/handoff mechanics or backend filenames as ordinary audience copy. Provenance/process views may retain those details.
+
+Added `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` with direct GitHub links for ambiguous HsH images whose filenames do not support automatic gallery placement.
+
+**Frontend requirement:** the main-menu “Start with pictures” action should load the gallery feed into a thumbnail-first Visual Atlas landing page. It must not route to generic repository browse. Thumbnail clicks should open a lightbox/detail/presented destination, with source provenance available secondarily.
