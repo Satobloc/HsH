@@ -1,0 +1,980 @@
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Classical Mechanics
+/
+Communicating Vessels & Manometer
+Communicating Vessels & Manometer
+Hydrostatic balance, U-tube ΔP = ρgΔh, and inclined-tube vertical head.
+
+Setup
+Mode
+U-tube manometer
+Fluid ρ (kg/m³)
+1000
+
+ΔP (gauge)
+2.5 kPa
+
+Hydrostatic balance: p + ρgh = const along a continuous fluid. Manometer uses Δh = ΔP/(ρg); inclined gauges stretch the scale by 1/sin θ.
+
+Measured values
+p_atm (ref.)
+101.3 kPa
+Δh
+25.48 cm
+
+About this model
+Communicating vessels and manometers demonstrate the fundamental principles of hydrostatics, the study of fluids at rest. At its core, this simulation visualizes Pascal's principle, which states that pressure applied to an enclosed fluid is transmitted undiminished to every portion of the fluid and the walls of its container. When two or more vessels are connected at the bottom, they form a system of communicating vessels. In a uniform gravitational field and with the same fluid in all arms, the hydrostatic pressure at the bottom must equalize. This leads to the classic result that the free liquid surfaces will settle at the same vertical height, regardless of the vessels' shape or cross-sectional area. The simulator models this equilibrium condition using the hydrostatic pressure formula P = P₀ + ρgh, where P is the pressure at a depth h, P₀ is the reference pressure (often atmospheric), ρ is the fluid density, and g is gravitational acceleration. A key application is the U-tube manometer, used to measure pressure differences. For a U-tube containing a dense manometric fluid (like mercury) with one side connected to a pressure source and the other open to the atmosphere, the pressure difference ΔP is directly proportional to the vertical height difference Δh between the two columns: ΔP = ρgΔh. The simulator also explores an inclined-tube manometer, where the same pressure difference causes a larger liquid displacement along the tube's length, enhancing sensitivity; however, it is the vertical component of this height (the 'vertical head') that determines the pressure via ρgΔh_vertical. Simplifications in this model include assuming incompressible, non-viscous fluids, a constant gravitational field, and no capillary effects. By interacting with the simulator, students can directly observe how fluid levels respond to changes in pressure, fluid density, and tube geometry, solidifying their understanding of hydrostatic balance and manometry principles.
+
+Who it's for: High school and introductory college physics students studying fluid mechanics, as well as engineering students learning pressure measurement techniques.
+
+Key terms
+
+Hydrostatics
+Pascal's Principle
+Communicating Vessels
+Manometer
+Hydrostatic Pressure
+Pressure Head
+Fluid Equilibrium
+U-tube
+How it works
+Open-tube manometers compare pressures; mercury (high ρ) shortens the column. Communicating vessels equalize level when the fluid is continuous and at rest.
+
+Frequently asked questions
+Why do the fluid levels equalize in communicating vessels, even if the shapes are completely different?
+The levels equalize because hydrostatic pressure depends only on vertical depth and fluid density, not on the container's shape. For the system to be in equilibrium, the pressure at the connecting point must be the same from all arms. Since pressure is given by P = P₀ + ρgh, and P₀ (atmospheric pressure) is the same on all open surfaces, the heights h of the fluid columns above the connection must be identical. The total volume of fluid and the cross-sectional area affect how much fluid moves to achieve this, but not the final equilibrium height.
+In a U-tube manometer, why do we use the vertical height difference Δh, and not the length of fluid along the tube?
+Pressure is defined as force per unit area, and the weight of a fluid column depends on its vertical extent. The component of the fluid's weight that balances the pressure difference acts vertically. In an inclined tube, the fluid must move a greater distance along the slope to produce the same change in vertical height. Therefore, only the vertical height difference (the 'head') matters in the equation ΔP = ρgΔh_vertical. Using the slanted length would incorrectly overestimate the pressure difference.
+Can this simulator model what happens if I use two different fluids in the U-tube?
+This specific model assumes a single, uniform fluid for simplicity. In reality, a differential manometer often uses two different fluids (e.g., water and mercury). The analysis then requires applying the hydrostatic pressure formula step-by-step through each fluid, accounting for their different densities. The equilibrium condition is that pressure at the same horizontal level within the connecting tube must be equal. The simulator's limitation here highlights the importance of clearly defining the system boundaries when solving real manometer problems.
+How does atmospheric pressure affect the manometer reading?
+In a common open-ended U-tube manometer, one side is exposed to the atmosphere. The height difference Δh directly measures the gauge pressure—the pressure relative to atmospheric pressure. If the pressure on the measured side equals atmospheric pressure, Δh is zero. To find the absolute pressure, you would add the atmospheric pressure to the calculated ρgΔh. The simulator typically shows the effect of an applied pressure difference, with atmospheric pressure as the implicit reference on the open side.
+Related simulators
+Continue with similar topics in this category — or all 85 in Classical Mechanics.
+
+View category →
+New
+School
+Hydraulic Press
+Launch Simulator
+Pascal: same pressure, large piston → large force. F₂ = F₁·A₂/A₁.
+
+New
+School
+Fluid Surface (Accel / Spin)
+Launch Simulator
+Linear tank: tan α = a/g; rotating bucket: paraboloid sketch vs rpm.
+
+School
+Torque & Balance
+Launch Simulator
+Beam on a fulcrum. Place weights to balance or tip.
+
+New
+School
+Bernoulli Flow
+Launch Simulator
+Pipe narrows: speed up, pressure down. Continuity + Bernoulli.
+
+New
+School
+Rising Bubble (Archimedes)
+Launch Simulator
+Ideal-gas bubble expands as it rises (p = p_atm + ρgy); buoyancy vs weight + Stokes drag — depth and velocity graphs.
+
+Kids
+Buoyancy Simulator
+Launch Simulator
+Drop objects in water. Float or sink based on density.
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+
+
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Waves & Sound
+/
+Resonance Tube
+Resonance Tube
+Open vs closed pipe harmonics. Hear fₙ and see standing pressure wave.
+
+Play fₙ
+Tube
+Ends
+Open at both ends (organ pipe)
+Length L
+0.85 m
+
+Speed of sound v
+343 m/s
+
+Harmonic n
+1
+
+Sound
+Browsers require a click to start audio.
+
+Measured values
+fₙ
+201.76 Hz
+λₙ
+1.700 m
+
+Live graphs
+About this model
+Resonance in air columns is a fundamental phenomenon in acoustics, governed by the interference of sound waves. This simulator visualizes and sonifies the standing pressure waves that form within a cylindrical tube, depending on whether it is open at both ends or closed at one end. The core principle is that resonance occurs when the length of the tube equals an integer or half-integer multiple of the sound wavelength, creating constructive interference. For an open-open pipe, the resonant frequencies are given by f_n = n(v / 2L), where n = 1, 2, 3,... and v is the speed of sound. For a closed-open pipe, only odd harmonics are present: f_n = n(v / 4L), where n = 1, 3, 5,... The model plots the spatial variation of acoustic pressure (antinodes at open ends, nodes at closed ends) and allows you to hear the corresponding pure tone. Key simplifications include assuming a perfectly rigid tube with no thermal or viscous losses, a point source of sound at one end, and a constant speed of sound. By adjusting the tube length, selecting the boundary condition, and stepping through harmonics, students directly explore the relationship between boundary conditions, allowed wavelengths, harmonic series, and the resulting timbre.
+
+Who it's for: High school and introductory undergraduate physics students studying wave mechanics, sound, and harmonics, as well as music students learning about the acoustics of wind instruments.
+
+Key terms
+
+Standing Wave
+Harmonic Series
+Resonant Frequency
+Fundamental Frequency
+Acoustic Pressure Node
+Acoustic Pressure Antinode
+Boundary Condition
+Wavelength
+How it works
+Standing sound waves in a tube: allowed frequencies depend on boundary conditions. Open–open: fₙ = n·v/(2L). Open–closed (one closed end): odd quarter-wave modes, fₙ = (2n−1)·v/(4L). The animation shows a pressure-like pattern (schematic). Use Play to hear the selected harmonic.
+
+Key equations
+Open–open: fₙ = n v / (2L) · Open–closed: fₙ = (2n−1) v / (4L)
+Frequently asked questions
+Why does a closed-open pipe only produce odd harmonics?
+The boundary condition requires a pressure node (zero pressure variation) at the open end and a pressure antinode (maximum pressure variation) at the closed end. This constraint means only a quarter-wavelength or odd multiples thereof can fit into the tube length. This results in the harmonic series f, 3f, 5f, etc., unlike the full integer series of an open-open pipe.
+Is the speed of sound really constant in the simulator?
+Yes, for simplicity, the model uses a fixed speed of sound (typically ~343 m/s at 20°C). In reality, the speed of sound in air depends on temperature. This simplification allows students to focus on the core relationship f ∝ 1/L without the added variable of temperature.
+How does this relate to real musical instruments?
+Wind instruments like flutes (approximately open-open) and clarinets (approximately closed-open) operate on these principles. The harmonic series determines the instrument's natural notes and timbre. However, real instruments have tone holes, bell flares, and player's embouchure that modify the ideal resonance, which this basic model does not include.
+What exactly is being visualized—the displacement of air molecules or the pressure?
+The graph shows the variation in acoustic pressure along the tube. At an open end, the pressure must equal atmospheric pressure, creating a pressure node. At a closed end, the pressure can oscillate maximally, creating a pressure antinode. This is the inverse of a displacement wave: where pressure is a node, displacement is an antinode, and vice versa.
+Related simulators
+Continue with similar topics in this category — or all 37 in Waves & Sound.
+
+View category →
+New
+School
+Organ Pipe (harmonic series)
+Launch Simulator
+Open–open vs stopped: f_n formulas; pressure shape; table of modes; Web Audio.
+
+School
+Standing Waves
+Launch Simulator
+Find harmonics on a string. Nodes and antinodes highlighted.
+
+New
+School
+Monochord / Sonometer
+Launch Simulator
+f₁ = (1/2L)√(T/μ), harmonics, note label, Pluck; vs Standing Waves shapes.
+
+New
+School
+Acoustic Levitation (Schematic)
+Launch Simulator
+Standing wave cos(kx)cos(ωt); pressure nodes marked; bead cartoon near a node.
+
+Featured
+School
+Wave on a String
+Launch Simulator
+Shake one end, adjust frequency and amplitude. Standing waves and reflections.
+
+New
+School
+Chladni Figures
+Launch Simulator
+Plate mode sin(mπx)sin(nπy); nodal contrast + grains drift to nodes (model).
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+
+
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Electricity & Magnetism
+/
+Eddy Current Tube
+Eddy Current Tube
+Magnet fall: dv/dt = g in air vs g − k v in copper pipe (toy drag model).
+
+Run
+Reset
+1D toy model
+g
+9.8 m/s²
+
+Drag k (tube)
+14 1/s
+
+Moving magnet induces currents in the conductor; Lenz’s law opposes the motion. Here we use dv/dt = g − k v in the tube (terminal speed g/k) and dv/dt = g in air — a schematic, not a full field solve.
+
+Measured values
+v (air)
+0.000 m/s
+v (tube)
+0.000 m/s
+y (air)
+0.000 m
+y (tube)
+0.000 m
+t
+0.00 s
+
+About this model
+The Eddy Current Tube simulator visualizes the dramatic difference in how a magnet falls through a non-conductive pipe versus a conductive one, such as copper. At its core, this is a demonstration of Faraday's Law of Induction and Lenz's Law. When a magnet moves near a conductor, its changing magnetic field induces circulating electric currents—eddy currents—within the conductor. Lenz's Law dictates that these currents flow in a direction to create their own magnetic field that opposes the change that produced them. In the case of a falling magnet, this induced field exerts an upward magnetic drag force, slowing the magnet's descent. The simulator models this motion with two distinct force equations. In air (or a non-conductive pipe), the only force is gravity, leading to constant acceleration: dv/dt = g. Inside the conductive pipe, the model adds a velocity-dependent drag force: dv/dt = g − k v. This 'toy drag model' is a simplification, assuming the drag is linearly proportional to velocity, which is a reasonable approximation for relatively low speeds. Students can manipulate parameters like the magnet's strength or the pipe's conductivity (affecting the constant 'k') and observe the resulting position-time and velocity-time graphs. By interacting, they learn to connect the macroscopic motion to the underlying electromagnetic principles, analyze the transition from acceleration to terminal velocity, and understand how energy is conserved—the magnet's lost kinetic energy is dissipated as heat in the pipe via electrical resistance.
+
+Who it's for: High school and introductory undergraduate physics students studying electromagnetism, specifically electromagnetic induction and damping forces. It is also valuable for educators seeking a dynamic demonstration of Lenz's Law.
+
+Key terms
+
+Eddy Currents
+Lenz's Law
+Faraday's Law of Induction
+Magnetic Drag
+Terminal Velocity
+Damping Force
+Electromagnetic Induction
+Velocity-Dependent Drag
+How it works
+Compare free fall with strong velocity-dependent drag that mimics eddy-current braking in a thick conducting pipe.
+
+Frequently asked questions
+Why doesn't the magnet just get stuck or fall extremely slowly? I thought eddy currents always oppose motion.
+Eddy currents do oppose motion, creating an upward drag force. However, gravity provides a constant downward force. The magnet accelerates until the upward magnetic drag force grows to equal the downward gravitational force. At this point, the net force is zero and the magnet falls at a constant terminal velocity. It doesn't stop because the opposing force only exists while the magnet is moving.
+Is the linear drag model (dv/dt = g - k v) realistic for a real copper pipe?
+It is a simplified, first-order model. In reality, the drag force on a magnet in a pipe is more complex and not perfectly linear with velocity, especially at higher speeds. The linear model is an excellent teaching tool that captures the essential physics—velocity-dependent damping leading to terminal velocity—without overly complicated math, making the core concept clear.
+Where do eddy currents get the energy to create the opposing magnetic field?
+The energy comes directly from the kinetic energy of the falling magnet. The work done by the drag force against the magnet's motion converts its kinetic energy into electrical energy in the eddy currents. This electrical energy is then dissipated as thermal energy (heat) in the resistance of the conductive pipe. This is a direct illustration of energy conservation.
+Could this principle be used for anything practical?
+Absolutely. Electromagnetic braking, used in some trains and roller coasters, operates on this exact principle. Applying a strong magnetic field to a conducting rail induces eddy currents that create a drag force without physical contact, providing smooth, wear-free braking. Conversely, eddy currents are minimized in transformer cores by using laminated sheets to prevent energy loss.
+Related simulators
+Continue with similar topics in this category — or all 65 in Electricity & Magnetism.
+
+View category →
+School
+Electromagnetic Induction
+Launch Simulator
+Move magnet through coil. Faraday's law visualized.
+
+Featured
+School
+Circuit Builder
+Launch Simulator
+Drag and drop components: battery, resistor, bulb, switch. See current flow.
+
+New
+School
+Biot–Savart Law
+Launch Simulator
+Infinite wire B ∝ 1/r; ring via segment sum; heatmap + probe.
+
+New
+School
+DC Motor & Generator
+Launch Simulator
+Coil in B: motor V = IR + kω, generator E = kω into a load — same k, two modes.
+
+New
+School
+Kirchhoff's Laws (KCL & KVL)
+Launch Simulator
+3-node DC: junction divider + optional R∥V; hints, KCL/KVL, solved currents.
+
+School
+Magnetic Field
+Launch Simulator
+Bar magnets and current-carrying wires with field line visualization.
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+
+
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Engineering
+🔧
+Engineering
+Logic gates, bridge building, gears, and structural analysis
+
+48 simulators
+Start here: hand-picked entry points that match this category.
+
+Logic Gate Simulator
+Euler Column Buckling
+Mohr Circle & Stress Transformation
+Fracture Mechanics: Griffith / K_IC
+Thin-Walled Pressure Vessel Stress
+Jeffcott Rotor Critical Speed
+All
+Kids
+School
+University / research
+School
+Gear Train
+Connect gears, adjust teeth count, see speed and torque ratios.
+
+New
+School
+Bridge Builder
+Place beams and joints. Apply load. See stress distribution.
+
+Featured
+School
+Logic Gate Simulator
+AND, OR, NOT, NAND, XOR. Drag, drop, connect, see output.
+
+New
+School
+Planetary Gear Set
+Sun, planets, internal ring: Willis equation, hold Sun/ring/carrier and compare speed ratios.
+
+New
+School
+Four-Bar Linkage
+Crank–rocker geometry with coupler-curve trace; link lengths and crank speed.
+
+New
+University / research
+AM / FM Modulation
+Carrier + message: AM envelope vs FM phase; waveform and DFT spectrum snapshot.
+
+New
+University / research
+PID Controller (1D)
+Cart on a track: Kp, Ki, Kd and random velocity impulses toward set-point x = 0.
+
+New
+University / research
+PID Tuning Sandbox
+Second-order plant step response: overshoot, rise/settling time, Ziegler–Nichols Ku/Pu hints, actuator saturation, and disturbance reject…
+
+New
+University / research
+de Laval Nozzle Mach Number
+Quasi-1D converging-diverging nozzle: area-Mach relation, choking pressure ratio, subsonic/supersonic branches, and a qualitative normal-…
+
+New
+School
+Finite State Machine
+Traffic-light Moore machine: timed green–yellow–red cycle or manual step; state graph.
+
+New
+University / research
+Euler Column Buckling
+Elastic column stability with P_cr = π²EI/(KL)²: choose end conditions, effective length factor K, first mode shape, and load ratio P/P_cr.
+
+New
+School
+Planar Truss (triangle)
+Symmetric 3-bar truss: bar forces and reactions vs span, height, and apex load.
+
+New
+University / research
+ADC / DAC (Sampling)
+Sine → samples → quantization → ZOH; Nyquist and optional aliasing demo.
+
+School
+Truth Table Generator
+Build a circuit, auto-generate the truth table.
+
+New
+School
+Cam & Follower
+Eccentric circular cam and knife-edge follower: lift and estimated velocity.
+
+New
+School
+Thin-Walled Pressure Vessel Stress
+Cylinder vs sphere membrane stresses: hoop σθ, longitudinal σz, von Mises stress, r/t thin-wall check, and yield safety factor.
+
+New
+School
+Quadcopter 2D (Pitch)
+Side view: two rotors, PD on thrust split vs pitch — whiteboard quad slice.
+
+New
+School
+Stepper Motor (4-phase)
+Full-step vs half-step commutation; rotor snaps as coils A–B–A′–B′ sequence.
+
+New
+University / research
+Fatigue S-N Curve + Miner Rule
+Basquin S-N curve with optional endurance limit, three cyclic load blocks, and Palmgren-Miner cumulative damage D = Σ n_i/N_i.
+
+New
+University / research
+3-Link 3D Arm Inverse Kinematics (CCD)
+Continuation of two-link-arm-ik into 3D: 3 revolute joints (yaw + 2 pitches) solved with constrained Cyclic Coordinate Descent. Drag targ…
+
+New
+School
+Stress–Strain & Hooke’s Law
+Qualitative σ–ε curve: elastic Hooke region, yield, strain hardening, necking, and fracture. Drag strain and tune E, σ_y, σ_u.
+
+New
+School
+Watt Governor (schematic)
+Flyballs and sleeve vs RPM; steam throttle gap — speed feedback cartoon.
+
+New
+School
+Mohr Circle & Stress Transformation
+Plane stress σx, σy, τxy: Mohr circle, transformed stresses on a rotated element, principal stresses, τmax, and θp.
+
+New
+School
+Maze Generators + A* (Grid)
+Perfect mazes on the same 40×28 cell lattice as the pathfinding lab: recursive backtracker, Wilson, Eller, or randomized Prim; then solve…
+
+New
+University / research
+Thermostat vs PID
+First-order room: on/off hysteresis vs continuous PID heater power.
+
+New
+University / research
+Hertzian Contact Stress
+Sphere or cylinder on a flat: effective modulus, contact patch, peak pressure p0, elastic approach, and subsurface shear estimate.
+
+New
+University / research
+Vibration Isolation Transmissibility
+SDOF base-excitation isolator: transmissibility T(r,ζ), resonance peak, phase lag, and the isolation region above r = √2.
+
+New
+University / research
+Cart–Pole: LQR vs MPC vs PID
+Nonlinear cart inverted pendulum: linearize about upright φ = θ, discrete-time LQR from DARE (Q, R → K), finite-horizon LQ MPC with DARE…
+
+New
+School
+Two-Link Arm IK (2R)
+Planar 2R manipulator: mouse goal, elbow-up / elbow-down inverse kinematics; joint angles live.
+
+New
+School
+Differential Drive Odometry
+ω_L, ω_R → v, ω with two-wheel kinematics; integrate pose and watch dead-reckoning drift from biased wheel radii / track and noisy rate r…
+
+New
+School
+Beam Q, M & N Diagrams
+Simply supported beam: point load + UDL; shear, bending moment, and uniform axial diagrams.
+
+New
+University / research
+Fracture Mechanics: Griffith / K_IC
+Mode-I crack: K_I = Yσ√(πa), compare with K_IC, critical crack size, critical stress, and safe/unstable crack growth.
+
+New
+University / research
+Holonomic 2D Hovercraft MPC (MPPI)
+Planar double integrator with ‖u‖₂ thrust cap: sampling-based MPPI steers to a draggable goal while soft-penalizing circular obstacles —…
+
+New
+University / research
+Digital Modulation Eye Diagram
+NRZ / PAM-4 eye diagram with raised-cosine shaping, ISI, AWGN, timing jitter, and vertical opening estimate.
+
+New
+School
+A* / Dijkstra Pathfinding (Grid)
+Interactive 40×28 grid pathfinder: A* (f=g+h), Dijkstra, or greedy best-first; Manhattan / octile / Euclidean heuristics, 4- vs 8-connect…
+
+New
+University / research
+Bicycle Model & Stanley Controller
+Kinematic bicycle (rear-axle): δ = θ_e + atan2(k_e·e, v) Stanley path-following law. Pick oval, race-track, lemniscate, sine-road or S-cu…
+
+New
+University / research
+Heat Exchanger ε-NTU
+Parallel and counter-flow heat exchanger calculator: NTU = UA/Cmin, capacity ratio Cr, effectiveness, heat transfer, and outlet temperatu…
+
+New
+University / research
+Torsional Drivetrain Resonance
+Two-inertia torsional drivetrain: shaft stiffness and damping, twist angle, first natural mode, resonance response, and optional backlash…
+
+New
+University / research
+EKF SLAM (toy)
+Augmented state [x,y,θ, landmarks…]: noisy planar odometry predict, range & bearing updates with known IDs, map–robot covariance coupling…
+
+New
+School
+Minimum Spanning Tree (Prim & Kruskal)
+Random planar points, complete Euclidean-weighted graph: step through Prim from a root or Kruskal with union–find; compare total MST weight.
+
+New
+University / research
+Bode & Nyquist from Pole–Zero Map
+Click the s-plane to place real or complex-conjugate poles (●) and zeros (×); G(s)=K∏(s−z)/∏(s−p). Live Bode magnitude/phase and Nyquist…
+
+New
+University / research
+Particle Filter Localization (MCL)
+1D or 2D toy robot with fixed range beacons: predict with noisy odometry, update with Gaussian range likelihood, systematic resample on l…
+
+New
+University / research
+Jeffcott Rotor Critical Speed
+Single disk on a flexible shaft: ω_n = √(k/m), unbalance response, whirl orbit, phase lag, and critical-speed crossing.
+
+New
+School
+Beam Deflection: Unit Load Method
+Simply supported Euler-Bernoulli beam with point load P and UDL w: closed-form deflection vs virtual-work unit-load integral.
+
+New
+University / research
+MPC Pendulum Swing-Up (MPPI)
+Sampling-based Model Predictive Control: K candidate torque rollouts over horizon H, MPPI cost-weighted update, bounded torque |u|≤u_max…
+
+New
+University / research
+Root Locus: 1 + K·G(s) = 0
+Same pole–zero plant editor as the Bode/Nyquist map: trace closed-loop poles as K sweeps log-spaced, asymptotes and real-axis locus sketc…
+
+New
+University / research
+OFDM Subcarriers
+IFFT subcarriers with cyclic prefix, multipath delay tap, one-tap ZF, and constellation distortion when CP is too short.
+
+New
+School
+RRT Path Planner (grid)
+Same 40×28 wall map as A*: random samples, nearest-neighbor steer, goal bias, collision-checked edges; grow an RRT and compare summary st…
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+Engineering Simulators | PhysSandbox
+
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Engineering
+/
+Planar Truss (triangle)
+Planar Truss (triangle)
+Symmetric 3-bar truss: bar forces and reactions vs span, height, and apex load.
+
+Geometry & load
+Base span L
+2.4
+
+Height h
+1.35
+
+Load P at apex
+8
+
+Statically determinate 3-bar triangle: method of joints gives equal forces in the sloping members; the base chord is unloaded for this symmetric vertical load. Pin at B, roller at C — reactions split P/2 each.
+
+Measured values
+Force AB
+C 5.35
+Force AC
+C 5.35
+Force BC
+T 0.00
+R_By
+4.00
+R_Cy
+4.00
+
+About this model
+A planar truss is a fundamental structural system in engineering, composed of slender members connected at pin joints. This simulator focuses on the simplest stable configuration: a symmetric three-bar triangular truss, often called a 'simple truss' or 'triangle truss.' It is loaded by a single downward force at its apex. The model calculates and visualizes the internal axial forces within each member and the support reactions at the two base pins. The core physics is governed by static equilibrium, applying Newton's First Law: for the entire structure to be stationary, the sum of all forces in any direction and the sum of all moments must equal zero. By isolating the apex joint as a free body, we can use the equations ΣFx = 0 and ΣFy = 0 to solve for the forces in the two sloping members. The geometry, defined by the span (horizontal distance between supports) and height (vertical distance from the supports to the apex), directly influences these forces through trigonometric relationships. For example, the force in a sloping member is proportional to the applied load and inversely proportional to the sine of its angle from the horizontal (F = P / (2 sin θ)). The horizontal base member (the tie) experiences a compressive or tensile force found from horizontal equilibrium. Key simplifications include assuming weightless members, perfect pin joints (which cannot transmit moments), and a structure that is initially stress-free and perfectly rigid. Interacting with this simulator teaches core concepts of static determinacy, force resolution, and how structural geometry dictates load paths, providing an intuitive foundation for more complex truss analysis.
+
+Who it's for: High school physics and introductory undergraduate engineering students (e.g., statics, civil engineering, or architecture) learning the principles of static equilibrium and truss analysis.
+
+Key terms
+
+Static Equilibrium
+Truss
+Axial Force
+Reaction Force
+Free Body Diagram
+Pin Joint
+Determinate Structure
+Resolution of Forces
+How it works
+A minimal introduction to bar axial forces before larger trusses and Cremona diagrams. Sloping members here carry compression for a downward apex load (C = compression, T = tension magnitude).
+
+Frequently asked questions
+Why are the members assumed to be connected by 'pin joints'?
+Pin joints are a standard simplification in basic truss analysis. They allow members to rotate freely, meaning they can only transmit force along their axis (tension or compression), not bending moments. This assumption turns each member into a 'two-force member,' greatly simplifying the calculations. Real-world connections (like welded or bolted joints) are more rigid but are often modeled as pins for initial design analysis.
+What happens to the forces in the bars if I make the truss very flat (small height)?
+As the truss becomes flatter, the angle of the sloping bars decreases. Since the internal force is inversely proportional to the sine of this angle, the forces become very large. This demonstrates a critical engineering principle: shallow trusses require much stronger (and often heavier) members to carry the same load, which is why bridges and roofs have significant height for their span.
+Is the bottom horizontal member always in tension?
+For the symmetric downward load at the apex shown, yes. The sloping members push inward and downward on the apex. Their horizontal components push outward on the supports. The horizontal tie member is needed to pull the supports back together, placing it in tension. If the load direction or position changed, this member could go into compression.
+Can this truss support a load placed somewhere other than the apex?
+This specific three-bar, simply supported triangular truss is statically determinate only for loads applied at the joints. The model simplifies by only allowing a load at the apex joint. A load applied elsewhere along a member would introduce bending, violating the 'two-force member' assumption and requiring a more advanced analysis (treating the member as a beam).
+Related simulators
+Similar topics nearby (including related fields) — or browse all 48 in Engineering.
+
+View category →
+New
+School
+Bridge Builder
+Launch Simulator
+Place beams and joints. Apply load. See stress distribution.
+
+New
+School
+Beam Q, M & N Diagrams
+Launch Simulator
+Simply supported beam: point load + UDL; shear, bending moment, and uniform axial diagrams.
+
+School
+Friction Simulator
+Launch Simulator
+Static vs kinetic friction with adjustable coefficient.
+
+New
+School
+Two-Link Arm IK (2R)
+Launch Simulator
+Planar 2R manipulator: mouse goal, elbow-up / elbow-down inverse kinematics; joint angles live.
+
+New
+School
+Watt Governor (schematic)
+Launch Simulator
+Flyballs and sleeve vs RPM; steam throttle gap — speed feedback cartoon.
+
+New
+School
+Four-Bar Linkage
+Launch Simulator
+Crank–rocker geometry with coupler-curve trace; link lengths and crank speed.
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+Planar Truss (triangle) — Simulator | PhysSandbox
+
+PhysSandbox
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Optics & Light
+Gravity & Orbits
+Labs
+More ▾
+EN
+RU
+ES
+PT
+FR
+DE
+
+Home
+/
+Engineering
+/
+Beam Q, M & N Diagrams
+Beam Q, M & N Diagrams
+Simply supported beam: point load + UDL; shear, bending moment, and uniform axial diagrams.
+
+Loads & span
+Hinged–roller beam, span L = 6 m. Downward point load P and full-span UDL w. Sagging bending moment M is positive. Axial N is uniform (tension positive); vertical loads do not change N — shown for superposition practice.
+
+Point load P
+24 kN
+
+Load position x/L
+42 %
+
+UDL w (full span)
+4 kN/m
+
+Uniform axial N
+0 kN
+
+Measured values
+Span L
+6 m
+Reaction R_A (vertical)
+25.92 kN
+Reaction R_B (vertical)
+22.08 kN
+Max positive M (sagging)
+52.613 kN·m
+x at M_max (approx.)
+2.52 m
+
+About this model
+Internal force diagrams (shear Q, bending moment M, axial force N) are the standard way to read how a straight beam carries loads to supports. This page uses a simply supported beam (pin at A, roller at B) of fixed span L = 6 m with a downward point load at a user-chosen position and a uniformly distributed load (UDL) over the full span. Reactions follow from static equilibrium; Q(x) is built from vertical forces to the left of a cut (with a step at the point load); M(x) integrates the shear pattern—parabolic under UDL, kinked under a point force—with sagging moment taken positive. N is modeled as a uniform axial term you set separately: vertical loads alone do not induce axial force in a horizontal beam, but the flat N diagram illustrates superposition when axial effects from columns or temperature are added in a larger model. The sketch is schematic (no deflection shape, shear deformation, or beam width).
+
+Who it's for: Introductory statics and strength-of-materials students learning to sketch SFD/BMD and to separate flexural and axial resultants.
+
+Key terms
+
+Shear force diagram
+Bending moment diagram
+Axial force
+Simply supported beam
+Point load
+Uniformly distributed load (UDL)
+Static equilibrium
+Sagging moment sign
+How it works
+For a straight beam, internal shear Q (here V), bending moment M, and axial force N describe section resultants. This page uses a simply supported span with a point load at a chosen position and a uniform distributed load over the whole span. Q jumps down at the point force; under UDL it slopes linearly. M is parabolic under UDL and piecewise between kinks; we take sagging M > 0. N is independent of vertical loads in this model and appears as a flat line for a uniform axial term (useful when superposing with a truss or column action).
+
+Key equations
+ΣF_y = 0, ΣM_A = 0 → R_A, R_B
+Q(x) from vertical forces to the left of the cut
+dM/dx = Q (with sign convention used here)
+Frequently asked questions
+Why does Q jump at the point load?
+Across an infinitesimal segment carrying a concentrated downward force, equilibrium of the left segment requires the internal shear to drop by P so vertical forces still balance.
+Why is M a parabola under UDL?
+With w constant, Q decreases linearly along the span. Since dM/dx = Q in this sign convention, integrating gives M as a quadratic (parabola).
+Does changing axial N affect Q or M here?
+No. For a straight horizontal beam with vertical loads only, flexural resultants decouple from a uniform axial term in this linear model. The axial slider is for conceptual practice stacking effects.
+Why might my textbook use opposite signs for M or V?
+Sign conventions differ by country and author. Here sagging M is positive and Q is chosen to match that derivative relation. Always state your convention when comparing numbers.
+Related simulators
+Continue with similar topics in this category — or all 48 in Engineering.
+
+View category →
+New
+School
+Beam Deflection: Unit Load Method
+Launch Simulator
+Simply supported Euler-Bernoulli beam with point load P and UDL w: closed-form deflection vs virtual-work unit-load integral.
+
+New
+School
+Bridge Builder
+Launch Simulator
+Place beams and joints. Apply load. See stress distribution.
+
+New
+School
+Planar Truss (triangle)
+Launch Simulator
+Symmetric 3-bar truss: bar forces and reactions vs span, height, and apex load.
+
+New
+School
+Watt Governor (schematic)
+Launch Simulator
+Flyballs and sleeve vs RPM; steam throttle gap — speed feedback cartoon.
+
+New
+School
+Mohr Circle & Stress Transformation
+Launch Simulator
+Plane stress σx, σy, τxy: Mohr circle, transformed stresses on a rotated element, principal stresses, τmax, and θp.
+
+New
+University / research
+Euler Column Buckling
+Launch Simulator
+Elastic column stability with P_cr = π²EI/(KL)²: choose end conditions, effective length factor K, first mode shape, and load ratio P/P_cr.
+
+PhysSandbox
+Interactive physics, chemistry, and engineering simulators for students, teachers, and curious minds.
+
+Physics
+Classical Mechanics
+Waves & Sound
+Electricity & Magnetism
+Science
+Optics & Light
+Gravity & Orbits
+Astronomy & The Sky
+More
+Thermodynamics
+Biophysics, Fluids & Geoscience
+Math Visualization
+Engineering
+Chemistry
+© 2026 PhysSandbox. Free interactive science simulators.
+
+Privacy
+Terms
+Contact
+Beam Q, M & N Diagrams — Simulator | PhysSandbox
