@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-30T18:31:54.394972+00:00",
+  "generated_at_utc": "2026-09-30T18:34:29.169672+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 364,
+    "skipped": 369,
     "planned": 69,
     "collision": 1
   },
@@ -1548,6 +1548,54 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/Spherestest tests/Spherestest build/equal_s3_mapping_result.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/Spherestest tests/Spherestest examples/equal_s3_packet.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/Spherestest tests/Spherestest schemas/equation_packet.schema.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/Spherestest tests/Spherestest schemas/mapping_result.schema.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[H(s)H THREE SPHERES first runs - init]]/baseline/run_report.json",
       "new_path": null,
       "start_local": null,
@@ -1653,6 +1701,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[THE_SPHERES dev - init]]/DEMO_QC.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 117 column 1 (char 3398)"
       ]
     },
     {
