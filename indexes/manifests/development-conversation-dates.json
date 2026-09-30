@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T15:52:54.576113+00:00",
+  "generated_at_utc": "2026-09-30T15:55:31.034743+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 262,
+    "skipped": 264,
+    "planned": 4,
     "collision": 1
   },
   "records": [
@@ -55,6 +56,58 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MERIDIAN_LOOP_ROUNDUP_NOTES.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MERIDIAN_SOLVER_CONVO.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 510,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Mover Trial — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.04•26.09.13•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 510,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Solver Loop — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:30:39.520505-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 342,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Solver Loop — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:02:50.645400-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 289,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NATHANWORDS.txt",
       "new_path": null,
       "start_local": null,
@@ -88,6 +141,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PRECLOSE_NOTE_ROUNDUP.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 1 column 6 (char 5)"
       ]
     },
     {
