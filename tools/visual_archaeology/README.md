@@ -11,6 +11,7 @@ This continues the image-method work documented in [the 2026-09-12 image-process
 - [Seed calibration records](seed_calibration.jsonl) — machine-readable descriptive examples with source, decision, family and epistemic scope kept explicit.
 - [Known visual families](known_families.json) — duplicate, near-duplicate, minimal-pair and family relationships.
 - [Controlled tag vocabulary](tag_vocabulary.json) — geometry, composition, palette, role, status and provenance tags.
+- [First measured seed run](seed_measurements_2026-09-30.json) — deterministic color/layout measurements on Nathan’s standalone figure tranche, including a successful split-field positive control.
 - [Analyzer](visual_analyzer.py) — deterministic first-pass feature extraction and candidate scoring.
 
 ## Funnel
@@ -33,6 +34,8 @@ Every stage remains inspectable. A candidate tag is never silently promoted to g
 - explicit evidence contributions for every candidate tag.
 
 This deliberately starts cheap. It can answer questions such as “is this approximately half cyan/blue and half magenta?”, “which side carries which field?”, “is it mostly monochrome?”, and “does the path itself make thumbnail status likely?”
+
+A useful first positive control is now in the seed run: `SATy_output2.png` measures about **90.6% cyan/blue occupancy on the left** and **90.1% red/magenta occupancy on the right** under the coarse current bins, while the unrelated quadrupolar `SATy_viz_output.png` has nearly identical left/right distributions. That is exactly the kind of cheap hypothesis → test discrimination this lane is intended to accumulate.
 
 ## Next detectors
 
