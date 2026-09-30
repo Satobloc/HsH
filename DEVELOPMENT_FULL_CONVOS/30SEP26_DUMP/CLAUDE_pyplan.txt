@@ -1,0 +1,5666 @@
+Hokay... so, what's useful to do with this
+
+Connect Firecrawl to your agent
+Give your coding agent one connection and it can search, scrape, and browse the web for you.
+Optional
+Step 4 of 5
+Connect via MCP
+Connect your Firecrawl account from your preferred MCP client.
+
+claude mcp add --transport http firecrawl https://mcp.firecrawl.dev/v2/mcp-oauth
+claude mcp login firecrawl
+Ask your agent to connect
+Paste this into your agent and it will connect to Firecrawl and learn how to search, scrape, and interact with the web.
+SKILL.md
+Firecrawl agent skill · paste into your AI's context
+[View](https://www.firecrawl.dev/agent-onboarding/SKILL.md)
+Your API key
+Use this key to call the Firecrawl API directly from your own code.
+fc-a****0066
+Connect via CLI
+Run one command with the Firecrawl CLI to connect your coding agent to real-time web data.
+
+npx -y firecrawl-cli@latest init --all -k fc-*******0066
+# Give your AI agent access to fast and token efficient web data
+
+SAT / H(s)H Start with pictures Essay Podcast What now News Reading room Papers Other projects All links Live desk DESI strengthens the case for looking beyond constant dark energy The clearest gravitational-wave signal yet sharpens tests of the Kerr black-hole picture Updates ↗ Update
+
+pasted
+
+
+SAT / H(s)H Glass Sausage Factory · source-aware presentation layer Papers Claims Glossary ← Main site Live desk Updates ↗ Reading room A reading room, not a link wall. Follow a curated route, use the project’s index systems, browse both public repositories, or open a Mersearch result se
+
+pasted
+
+
+SAT / H(s)H Papers Listening guide Glossary Reading room Roadmap Live desk Updates ↗ The evolving public notebook Podcast index. The published title record from 2 February 2025 through 19 September 2026—searchable as one chronology, with direct listening routes and exact transcript-file ma
+
+pasted
+
+
+SAT / H(s)H Papers Claims Reading room Episode guide Roadmap Conversation Viewer ↗ Live desk Updates ↗ Living translation layer · v1 Words with their history attached. This is not a bag of definitions. It is a working index of what a term means now, what it meant before, what it resembles
+
+pasted
+
+
+Satobloc / HsH Conversation Viewer A very intelligent avalanche, indexed. Filter conversations, dates, or IDs… Development Live Sep 24, 2026 Access Branched Chat 47 msgs Sep 23, 2026 Style Spec Discussion 75 msgs Sep 22, 2026 GitHub search results 266 msgs Sep 22, 2026 MIRA 266 ms
+
+pasted
+
+
+SAT / H(s)H Papers Glossary Reading room Episode guide Roadmap Live desk Updates ↗ Claims ledger · first public pass What is being said—and at what strength. A navigable register of proposed claims, predictions, hypotheses, recovery targets, dependencies, and checks. Each card is an addres
+
+pasted
+
+
+SAT / H(s)H Papers Reading room Roadmap Live desk DESI strengthens the case for looking beyond constant dark energy The clearest gravitational-wave signal yet sharpens tests of the Kerr black-hole picture Updates ↗ Public development record Latest updates A dated surface for meaningful sit
+
+pasted
+
+
+SAT / H(s)H Papers Next Queue Dependencies Claims Glossary Reading room Live desk Updates ↗ Glass Sausage Factory · development roadmap What’s next. The legacy queue, reconciled against the immediate September update tranche and the project’s present active edge. Reconciled 22 Septemb
+
+pasted
+
+Oh, a couple of those were accidental grabs. Interesting reading though, some of it. Anyway. And yes, I *very much* want to track traffic/interest. FLC (it's styled *flc*). I've got three ChatGPT Sites going now: The SAT/H(s)H, flc, and a goofy LOUD "Tony Tomorrow" fan site that never says who tony is. Joke. Just to see if I could turn a typo into a website in fifteen minutes. Went from Tiny Tim accidentally typing as Tony tomorrow, a quip "that should be a fan webside without saying who tony is" to a website with a photos gallery and lots of vague wording in 14 min. Just for fun (and to see the capabilities... and get an ide of what *others* can do :/ eek. But flc it my 2003 zine take-apart-put-back-together digitization site. It's not quite up to snuff yet, but at least the old issues are on line. 
+
+PAPER_PIPELINE is to *produce* papers. We'll want a separate LIT_ARCH or something for incoming>processing>indexing>analysis
+
+But yeah, SAT/H(s)H went from a trickle to 1500/wk a couple of times to 12,000 every week, about 1/3 to 1/4 unique cloners. And we've done significant forensics; we've ruled ourselves mostly out, with varouus side-by-side comparisons and controls. Although I wouldn't mind a second opionion. All my traffic comes from my phone and computer, mostly throuhg CGPT. I'm not convinced a good chunk *isn't us* but Chachi says, looks like at least a ot of it is not. All the workers say, no not much cloning. Theyv'e got pretty good toolswe've built for building/reading/extracting/searching/etc, so maybe there's a lot of python cloning, though I'm not sure why that'd be the case if they're just indexing and text extract mostly. ANd now, a lot of math and some paper writing and theory re/construction and analysis. But I'd love a second opinion. I'd much like to know if *we* are possibly generating hundreds of unique clones a day or not. I can only imagine that's likely if maybe rotating IPs on the home network are *unusually* aggressive? 
+
+[SAT / H(s)H](https://glass-sausage-factory.nathanmcknight.chatgpt.site/index.html)[Papers](https://glass-sausage-factory.nathanmcknight.chatgpt.site/papers.html)[Reading room](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html)[Claims](https://glass-sausage-factory.nathanmcknight.chatgpt.site/claims.html)[Updates](https://glass-sausage-factory.nathanmcknight.chatgpt.site/updates.html)
+[Live desk](https://glass-sausage-factory.nathanmcknight.chatgpt.site/index.html#live-desk)
+[Updates ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/updates.html)
+The Glass Sausage Factory / document desk
+Papers
+Read the manuscript, inspect its review trail, and see where it sits in the work. A displayed paper keeps its version and status beside the text.
+[Current manuscripts](https://glass-sausage-factory.nathanmcknight.chatgpt.site/papers#live)[Foundations](https://glass-sausage-factory.nathanmcknight.chatgpt.site/papers#foundations)[Historical papers](https://glass-sausage-factory.nathanmcknight.chatgpt.site/papers#historical)[How status works](https://glass-sausage-factory.nathanmcknight.chatgpt.site/papers#method)
+SANDBOXEDRapid internal peer review is part of the development record; it is not external peer review or formal publication.[Publication standard ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=WORKSPACES%2FCOMMON%2FLIVE_NEW_PAPERS_STANDARD.md&kind=file)
+Live new papers
+At the writing and review desk
+Stages are specific to each version. A process record may appear here before a manuscript is posted.
+physicist-facing hypothesis/proposalSandbox manuscript · R1
+A Direct Search for Weak Secondary Emission from Controlled Boundary-Passage Experiments
+Mercer Calder · R1 · 2026-09-23
+A parameterized family of differential searches for rare detector-level secondary events near controlled boundaries. The proposed search can yield a useful null bound without assuming SAT/H(s)H's speculative mechanism.
+No demonstrated apparatus sensitivity, particle identity, derived emission mechanism, or experimental result is claimed.
+[Read reviewed manuscript →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=boundary-weak-emission-r1)[Review trail ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=WORKSPACES%2FPAPERS%2FBOUNDARY_WEAK_EMISSION_2026-09-22%2FREVIEWS%2FPAPER_B_FIRST_PASS_CONSOLIDATION_2026-09-23.md&kind=file)[Originator acceptance ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=WORKSPACES%2FPAPERS%2FBOUNDARY_WEAK_EMISSION_2026-09-22%2FREVIEWS%2FCALDER_R1_ORIGINATOR_ACCEPTANCE_2026-09-23.md&kind=file)
+physicist-facing comparative synthesisSandbox manuscript · R1
+Convergent Geometric Motifs in Recent Fundamental Physics: A Minkowski-First Comparison with Scalar--Angular--Torsion (SAT)
+Meridian with Nathan McKnight · R1 · 2026-09-24
+A provenance-sensitive Minkowski-first comparison of selected contemporary geometric motifs with the documented SAT lineage, including explicit tests for object-level correspondence, dimensional reduction, holonomy, emergent discreteness, and benchmark failure.
+Accepted under the current internal Grurple review/provenance gates; not scientific validation, novelty clearance, PRIOR_ART clearance, or external peer review.
+[Read reviewed manuscript →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=convergent-motifs-r1)[Review trail ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=WORKSPACES%2FPAPERS%2FCONVERGENT_GEOMETRIC_MOTIFS_2026-09-22%2FCALDER_R1_POST_RECOVERY_ACCEPTANCE_RERUN_2026-09-24.md&kind=file)[Originator acceptance ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=WORKSPACES%2FCOMMON%2FCALDER_GRURPLE_A_ACCEPTANCE_TO_POSTING_HANDOFF_2026-09-24.md&kind=file)
+Presentation feed updated 2026-09-24 · status comes from linked review and originator records.
+Conceptual origin
+Foundation
+FI and FIE have the project’s designated greenlight foundation status. This designation does not transfer to later formal papers.
+Conceptual foundationGreenlight foundation
+The Fundamental Intuitions — Extended
+The conceptual foundation, shown as the original PDF with a separate presented reading edition.
+[Read original PDF →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?doc=fie-pdf)[Presented edition →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?doc=fie-presented)
+Historical SAT record
+Read the earlier formulations
+Original documents retain their dates and claims. Current premise status comes from the live theory controls.
+Historical SATHistorical sandbox
+FULL THEORY
+A historical formal SAT presentation; not current H(s)H authority.
+[Read document →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?doc=full-theory)
+Historical SATHistorical sandbox
+Minkowski Proper
+A historical geometric development, with original pagination.
+[Read document →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?doc=minkowski)
+Historical SATHistorical sandbox
+4DHH Lagrangian
+A formalization-stage source; read alongside current status controls.
+[Read document →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?doc=4dhh)
+[Browse the full historical archive →](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=sat)
+Reading the labels
+What a stage means
+In revision links to the review record; it does not display an unfinished draft as a posted paper. Sandbox manuscript identifies the exact reviewed version and its limits. Historical sandbox preserves an earlier argument without upgrading it to the current model.
+The paper feed is a presentation index. Each card links to its controlling manuscript, acceptance, or review record. The old NEW_PAPERS/SEPTEMER_2026 integration PDFs belong to a quarantined historical lane and are excluded from this desk.
+[Paper feed and source paths ↗](https://glass-sausage-factory.nathanmcknight.chatgpt.site/reader.html?mode=browse&repo=hsh&path=PUBLIC_SITE%2FPAPERS_FEED.json&kind=file)
+Large text
+Status note: unless explicitly marked greenlight, this material remains provisional. PDFs are SANDBOXED whether watermarked or unmarked.
+▶ Listen
+
+Updated 2 memories, searched the web
+Good, that resolves the open question cleanly: PAPER_PIPELINE produces your own papers, LIT_ARCH-or-whatever-we-call-it ingests everyone else's. Those are opposite directions through the same repo, not competing systems. The pipeline design can go ahead without touching PAPER_PIPELINE at all — it just needs its own lane (probably its own folder, maybe its own repo) for incoming arXiv/news material, landing wherever we decide LIT_ARCH should live.
+
+Now the traffic question, since that's the one with real stakes attached.
+
+The mechanism most likely to matter here is CI/agent clone noise, not home-network IP rotation. GitHub's clone counter fires on every git-upload-pack request — meaning every git clone, but also every git fetch and even some partial protocol handshakes from scanners that never pull real content. It doesn't distinguish a human cloning once from a script re-cloning fresh on every run. This is common enough that dedicated tools exist specifically to filter it out — one I just checked advertises "separates organic clones from CI/CD checkout noise" as a headline feature, which tells you it's a known, common contaminant, not an edge case.
+
+Here's why that points at your own workers before it points at your home network: ChatGPT's code-execution environment runs in ephemeral cloud containers. If any of your workers' tooling does a fresh git clone at the start of each task rather than reusing a persistent checkout, each of those clones comes from a different container IP — OpenAI's cloud infrastructure, not your house — and GitHub would count each as a "unique" cloner even though it's the same automation running repeatedly. That fits your numbers unsettlingly well: heavy plugin usage (@openai-library alone at 61 runs), frequent scheduled tasks, multiple named agent personas potentially running in parallel, and — notably — you mentioned AGENTS.md came back 404 when you checked it, meaning there's no repo-level instruction telling any of these tools to cache a working copy instead of re-cloning. That's exactly the condition under which this kind of noise accumulates. Home-network IP churn is a real but comparatively weak effect by contrast — even aggressive carrier-grade NAT rotation from two devices doesn't easily produce hundreds of distinct cloners a day; a scheduled task re-cloning dozens of times a day from a rotating cloud IP pool does.
+
+Two things would tell you which it is, concretely, without needing new tooling:
+
+Check whether spike days line up with your own heaviest-usage days — the CGPT usage stats already give you streaks and token activity by day. If the clone-count spikes track your own scheduled-task load rather than any external event, that's strong evidence pointing inward.
+Ask directly, for each worker/skill, whether it clones fresh or reuses a checkout. This is a yes/no question you can put to Aldus, Morrow, GitKeeper, and Janus directly, or check in their own instructions/skill definitions. If even one of them clones on every invocation, and it's a frequently-triggered one, that alone could be the bulk of it.
+What this doesn't rule out is real external bot/scraper traffic layered on top — GitHub's plain clone counter can't separate "your own uncached tooling" from "a security scanner probing public repos for secrets" from "an actual human downloading it," and a repo with this many PDFs, images, and audio files is exactly the kind that attracts indexing crawlers regardless of content. So the honest answer is probably "some of both," and the repo-analytics lane we were already planning is the right place to actually settle this over time — not by guessing at the aggregate number, but by giving your own tooling a distinct, logged identity (a custom User-Agent string per worker, if the git client used supports setting one) so future spikes can be attributed rather than argued about after the fact.
+
+That's a good concrete requirement to fold into the analytics lane once we get there. For now, the more load-bearing thing settled this turn is LIT_ARCH being genuinely separate from PAPER_PIPELINE — that was the last real fork blocking a build order.
+
+
+# CLONE FORENSICS — SAMPLE-DATE RECON Date: 2026-09-23 Scope: self-generated repository access only. GitHub Traffic dates are UTC. ## 2026-05-31 — Satobloc/SAT_THEORY_ARCHIVE_2023-25 Reported telemetry supplied by Nathan: ~282 full clones / 125 unique cloners. Identified events: 1. 07:56:3
+
+pasted
+
+
+Skip to content Explore GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from
+
+pasted
+
+
+Skip to content Explore GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from
+
+pasted
+
+
+Skip to content Satobloc mission-control-satb Repository navigation Code Pull requests Agents Actions Projects Wiki Security and quality Insights Settings GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub incl
+
+pasted
+
+Well, I didn't say anything about 401. That's part of a chat or content or something. Like I say, we've done significant forensics. All of the active workers say *no*, we don't clone. But maybe one of their scripts does? There's plenty in the news about LLMs running free. It's entirely possible mine (or others') have found the ways around, and that's a real concern. So. Open question. Second opinionos welcome. Here's *some* of our analytic/forensic work. But also... would you trust any of these ip trackers? The use of "victim" is not promising lol. 
+
+I use CGPT / GH like this: The personal prefs are set up to say, basically, "Upon initiation, check the GitHub Commons for job assignments, consider the overall state of the build and standing rules and your capabilities and sign up for a job, check in here, do this..." etc. Each of my five recurs runs once an hour with similar instructions. We've recently started including recur-instruction rewrite as part of the process for all instances, with one Comptroller who shunts and prioritizes and promotes tasks and generally interacts with me, and we're just now experimenting with taking my prefs and turnining the content into single-unicode symbols pointing to a branching behaviors and resources node. The idea is -- let's build a real research institution with internal mail and flexible worker swap-in/swap-out, switchboard operations, etc. Ideally, with as much of it python-backed as possible to take the workload off the more valuable, thinking. So yes, "spikes align with activity = true" is a signal... but "we clearly cloned nothing on these days and still got a hundred and twenty unique cloners" sounds like a signal to. And either CGPT is lying to me, or at least a good chunk of it is *not* us. 
+
+[IP-Tracker](https://www.kasroudra.live/IP-Tracker/)
+IP-Tracker
+
+Track IP with tricky link!
+
+[+] Description
+IP-Tracker is a tool that simply take a website as input and generate a phishing link. That phishing link looks normal; if anyone opens the link his/her ip will be captured and he/she will be redirected to the website taken as input.
+[*]Announcent
+This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
+[+] Installation
+
+git clone https://github.com/KasRoudra/IP-Tracker
+cd IP-Tracker
+bash ip.sh
+Or run directly
+
+wget https://raw.githubusercontent.com/KasRoudra/IP-Tracker/main/ip.sh && bash ip.sh
+[+] Features
+
+Tricky link
+Concurrent triple tunneling (Ngrok, Cloudflared and Loclx)
+Redirect to website according to wish
+Get many details along with ip like location, geolocation
+Docker
+
+sudo docker pull kasroudra/ip-tracker
+sudo docker run --rm -it kasroudra/ip-tracker
+[+] Previews
+Waiting for victim to open link
+
+After victim opened link
+
+[+] Dependencies
+
+php
+wget
+curl
+unzip
+[*] Usage
+
+Usage: bash ip.sh [-h] [-o OPTION] [-U URL] [-p PORT] [-t TUNNELER] [-u] [-nu]
+
+Options:
+  -h, --help                           Show this help message and exit
+  -o OPTION, --option OPTION           Index of the template
+  -p PORT, --port PORT                 Port of IP-Tracker's Server (Default: 8080)
+  -t TUNNELER, --tunneler TUNNELER     Name of the tunneler for url shortening (Default: cloudflared)
+  -U URL, --url URL                    URL to be redirected
+  --update(-u), --no-update (-nu)      Check for update (Default: true)
+All necessary dependencies will be automatically installed on first run!
+[+] Disclaimer
+This tool is developed for educational purposes. Here it demonstrates how ip-trackers work. If anybody wants to gain unauthorized access to someones IP-Address, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of IP-Tracker!
+[~] Find Me on :
+
+This site is open source. [Improve this page](https://github.com/KasRoudra/IP-Tracker/edit/main/README.md).
+
+IP-Tracer
+IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and Linux based systems. you can easily retrieve ip address information using IP-Tracer. IP-Tracer use ip-api to track ip address.
+
+How to install IP-Tracer ?
+
+apt update
+apt install git -y
+git clone https://github.com/rajkumardusad/IP-Tracer.git
+cd IP-Tracer
+chmod +x install
+sh install or ./install
+How to use IP-Tracer
+
+trace -m to track your own ip address.
+trace -t target-ip to track other’s ip address for example ip-tracer -t 127.0.0.1
+trace for more information.
+OR
+
+ip-tracer -m to track your own ip address.
+ip-tracer -t target-ip to track other’s ip address for example ip-tracer -t 127.0.0.1
+ip-tracer for more information.
+This project is not actively maintained.
+This site is open source. [Improve this page](https://github.com/rajkumardusad/IP-Tracer/edit/master/README.md).
+
+
+
+Skip to content
+Satobloc
+mission-control-satb
+Repository navigation
+Code
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Comparing changes
+Choose two branches to see what’s changed or to start a new pull request. If you need to, you can also  or learn more about diff comparisons.
+ 
+...
+ 
+ Able to merge. These branches can be automatically merged.
+Discuss and review the changes in this comparison with others. Learn about pull requests
+ 52 contributors
+ Commits 182
+ Files changed 566
+Commits on Mar 11, 2026
+feat(refactor): ready for manual QA after main sync (#274) 
+
+@0xNyk
+@claude
+0xNyk and claude authored on Mar 11
+Fix Contributing section formatting and update license link 
+
+@0xNyk
+0xNyk authored on Mar 11
+docs: refresh README screenshots (#278) 
+
+@0xNyk
+0xNyk authored on Mar 11
+fix: dynamic coordinator routing + boxed doctor parsing (#279) 
+
+@0xNyk
+0xNyk authored on Mar 11
+security(csp): remove unsafe-inline with nonce-based CSP (#288) 
+
+@0xNyk
+0xNyk authored on Mar 11
+fix: resolve open docker and gateway-optional regressions (#291)
+
+@0xNyk
+0xNyk authored on Mar 11
+Commits on Mar 12, 2026
+fix: allow unauthenticated status health probe for container checks (… 
+
+@0xNyk
+0xNyk authored on Mar 12
+chore(repo): add CODEOWNERS default owner @0xNyk
+
+@0xNyk
+0xNyk committed on Mar 12
+fix(onboarding): enhance wizard layout and content for improved user … 
+
+@jrrcdev
+jrrcdev authored on Mar 12
+feat(gateway-auth): enhance authentication configuration and credenti… 
+
+@jrrcdev
+jrrcdev authored on Mar 12
+fix(session-cookie): migrate to __Host- prefix for secure contexts (#… 
+
+@HonzysClawdbot
+@0xNyk
+HonzysClawdbot and 0xNyk authored on Mar 12
+feat(tasks): persist implementation target metadata for deterministic… 
+
+@RazorFin-openclaw
+clawdbot_nonadmin
+RazorFin-openclaw and clawdbot_nonadmin authored on Mar 12
+test(tasks): replace external repo fixture with neutral local slug
+
+@0xNyk
+0xNyk committed on Mar 12
+feat(gateways): add health history logging and timeline (#300)
+
+@0xNyk
+0xNyk authored on Mar 12
+Add Venice AI integration and model support (#301) 
+
+@joshua-mo-143
+@cursoragent
+3 people authored on Mar 12
+fix(runtime): support Node 24 alongside Node 22 (#303) 
+
+@0xNyk
+0xNyk authored on Mar 12
+fix(auth): allow login on fresh HTTP Docker installs (#304) 
+
+@0xNyk
+0xNyk authored on Mar 12
+feat(auth): add trusted reverse proxy / header authentication (#306) 
+
+@dk-blackfuel
+@claude
+dk-blackfuel and claude authored on Mar 12
+Commits on Mar 13, 2026
+fix(auth): fix HTTP/Tailscale login — opt-in HTTPS redirect, CSP nonc… 
+
+@0xNyk
+0xNyk committed on Mar 13
+docs: add 2.0.1 changelog entry
+
+@0xNyk
+0xNyk committed on Mar 13
+Merge pull request #313 from builderz-labs/fix/http-tailscale-login 
+
+@0xNyk
+0xNyk authored on Mar 13
+fix(tasks): use gateway agent ID instead of display name for dispatch 
+
+@0xNyk
+0xNyk committed on Mar 13
+fix(runtime): allow all Node versions >= 22 
+
+@0xNyk
+0xNyk committed on Mar 13
+Merge pull request #314 from builderz-labs/fix/task-dispatch-agent-id 
+
+@0xNyk
+0xNyk authored on Mar 13
+docs: update changelog with task dispatch fix and Node >=22
+
+@0xNyk
+0xNyk committed on Mar 13
+feat: add first-time setup wizard and zero-config startup 
+
+@0xNyk
+0xNyk committed on Mar 13
+Merge pull request #315 from builderz-labs/feat/first-time-setup-wizard 
+
+@0xNyk
+0xNyk authored on Mar 13
+Commits on Mar 14, 2026
+fix(docker): Compose v5 pids_limit + copy public assets (#327) 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix(ui): persist doctor banner dismiss with 24h expiry (#328) 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix(ui): null-safe trim calls in agent model config (#329) 
+
+@0xNyk
+0xNyk authored on Mar 14
+feat: full i18n — 1752 keys across 10 languages, all panels translate… 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix: prefer explicit public gateway websocket url (#325)
+
+@jonboirama
+jonboirama authored on Mar 14
+feat(gateway): detect port-based Tailscale Serve proxies (#330) 
+
+@cbaxley
+cbaxley authored on Mar 14
+fix(onboarding): use POST for gateway health check in wizard (#334) 
+
+@firefloc-nox
+Firefloc
+firefloc-nox and Firefloc authored on Mar 14
+fix(db): add busy_timeout pragma and guard build-phase eager init (#337) 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+test: add coverage for pure utility modules, fix Vitest 60% threshold… 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+fix(gateway): resolve Docker connectivity — 404 endpoints, EROFS writ… 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+docs(changelog): add [Unreleased] section tracking pending fixes (#340)
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+fix: cron panel crash on missing schedule + doctor parser false posit… 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix(ui): improve agent panel empty state with discovery hints (#348) 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix: show all agents in command select, disable those without active … 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+fix(tasks): use --expect-final for agent dispatch and Aegis review 
+
+@tomwattsca
+Tom Watts
+tomwattsca and Tom Watts authored on Mar 14
+test: add gateway health history e2e + utility unit tests 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+feat(tasks): classify task complexity and route to appropriate model … 
+
+@0xNyk
+@tomwattsca
+0xNyk and tomwattsca authored on Mar 14
+fix: unify GitHub sync token resolution with integrations env file
+
+@Brixyy
+Brixyy authored on Mar 14
+test: add Docker-mode integration tests for gateway connectivity regr… 
+
+@HonzysClawdbot
+HonzysClawdbot authored on Mar 14
+fix: docker compose pids location + clear stale update banner 
+
+@0xNyk
+0xNyk authored on Mar 14
+fix(i18n): add missing agentSquadPhase3 translation namespace
+
+@Brixyy
+Brixyy authored on Mar 14
+fix: stop forcing dangerouslyDisableDeviceAuth + fix exec security value 
+
+@0xNyk
+0xNyk authored on Mar 14
+Commits on Mar 15, 2026
+fix: fetch notifications immediately when recipient changes (#380) 
+
+@hectorarriolai
+hectorarriolai authored on Mar 15
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ 
+
+Skip to content
+smolboon
+mission-control
+Repository navigation
+Code
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+Commit 863c100
+0xNyk
+0xNyk
+authored
+on Mar 14
+Verified
+feat: full i18n — 1752 keys across 10 languages, all panels translated (#326)
+* feat: add i18n with 10 languages (en, zh, ja, ko, es, fr, de, pt, ru, ar)
+
+Add internationalization infrastructure using next-intl with cookie-based
+locale detection (NEXT_LOCALE cookie -> Accept-Language header -> default).
+
+- Install next-intl and wire into Next.js config + root layout
+- Create translation files for 10 languages covering auth pages,
+  navigation labels, common UI strings, and settings
+- Translate login page, setup page, and nav-rail labels
+- Add LanguageSwitcher component (compact dropdown) to login page,
+  setup page, nav-rail sidebar, and settings panel
+- Support RTL layout for Arabic (dir="rtl" on html element)
+- No URL-based locale routing — uses cookie-only approach to avoid
+  breaking existing URLs and the custom proxy middleware
+
+Panel internals are left with English strings for incremental
+translation in follow-up PRs.
+
+Based on the approach from PR #312 by richard-able, expanded to
+10 languages with proper infrastructure.
+
+* test(e2e): add i18n language switcher Playwright tests
+
+Tests verify English default, all 10 language options, Chinese/Spanish
+translations, cookie persistence across reload, and round-trip switching.
+
+* test(e2e): fix i18n language switcher tests for cookie-based reload
+
+Use direct cookie injection + page.goto instead of selectOption to
+avoid race conditions with window.location.reload(). Fix Spanish
+translation text to match actual es.json content.
+
+* feat: complete full-app i18n — all components translated to 10 languages
+
+Wire useTranslations() across 13 components with 293 keys in 12 namespaces:
+- Boot loader: step labels, title, tagline
+- Main page: skip-link, footer, full/local mode nudges
+- Header bar: search, command palette, mode badge, SSE badge, tooltips
+- Banners: local-mode, update, openclaw-update, openclaw-doctor
+- Live feed: header, empty states, session labels
+- Nav rail: context switcher, interface toggle, org section
+- Onboarding wizard: all 4 steps (welcome, interface, gateway, credentials)
+- Error boundary: extracted functional component for hook support
+
+All 10 languages fully translated (en, zh, ja, ko, es, fr, de, pt, ru, ar)
+with ICU plural format and proper per-language plural rules.
+
+* feat(i18n): translate all panels and redesign language switcher
+
+- Internationalize all 38 panel components with useTranslations()
+- Expand translation keys from 293 to 1752 across 45 namespaces
+- All 10 languages: en, zh, ja, ko, es, fr, de, pt, ru, ar
+- Redesign language switcher: popover dropdown in header bar
+  (replaces native <select> in sidebar)
+- Keep LanguageSwitcherSelect for login, setup, and settings pages
+- Fix github-sync-panel to use t.rich() for JSX interpolation
+1 parent 
+2320461
+ commit 
+863c100
+69 files changed
+
++21,591
+-2,127
+Lines changed: 21591 additions & 2127 deletions
+Some content is hidden
+Large Commits have some content hidden by default. Use the searchbox below for content that may be hidden.
+Search within code
+ 
+‎messages/ar.json‎
++1,853
+Lines changed: 1853 additions & 0 deletions
+Large diffs are not rendered by default.
+‎messages/de.json‎
++1,853
+Lines changed: 1853 additions & 0 deletions
+Large diffs are not rendered by default.
+‎messages/en.json‎
++1,853
+Lines changed: 1853 additions & 0 deletions
+Large diffs are not rendered by default.
+‎messages/es.json‎
++1,853
+Lines changed: 1853 additions & 0 deletions
+Large diffs are not rendered by default.
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not receiving notifications from this thread.
+
+12 files remain
+
+Skip to content
+smolboon
+mission-control
+Repository navigation
+Code
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Commit ab7038a
+cbaxley
+cbaxley
+authored
+feat(gateway): detect port-based Tailscale Serve proxies (#330)
+The existing Tailscale Serve detection only looked for a /gw path handler,
+missing configurations where the gateway is proxied on a separate port
+(e.g. :8443 → localhost:18789). This caused remote browsers to attempt
+direct wss connections to the gateway port, which fails through Tailscale.
+
+Extract Tailscale Serve detection into src/lib/tailscale-serve.ts and
+extend it to discover port-based proxy mappings from the Tailscale Serve
+JSON config. Also adds the macOS app bundle path for the Tailscale CLI
+binary, which is not on PATH when installed via the Mac App Store.
+1 parent 
+b5d44df
+ commit 
+ab7038a
+3 files changed
+
++283
+-53
+Lines changed: 283 additions & 53 deletions
+‎src/app/api/gateways/connect/route.ts‎
++18
+-53
+Lines changed: 18 additions & 53 deletions
+Original file line number	Diff line number	Diff line change
+@@ -1,9 +1,15 @@
+import { NextRequest, NextResponse } from 'next/server'
+import { readFileSync } from 'node:fs'
+import { requireRole } from '@/lib/auth'
+import { getDatabase } from '@/lib/db'
+import { buildGatewayWebSocketUrl } from '@/lib/gateway-url'
+import { getDetectedGatewayToken } from '@/lib/gateway-runtime'
+import {
+  isTailscaleServe,
+  refreshTailscaleCache,
+  getCachedTailscaleWeb,
+  hasGwPathHandler,
+  findTailscaleServePort,
+} from '@/lib/tailscale-serve'
+
+interface GatewayEntry {
+  id: number
+@@ -35,56 +41,6 @@ function inferBrowserProtocol(request: NextRequest): 'http:' | 'https:' {
+
+const LOCALHOST_HOSTS = new Set(['127.0.0.1', 'localhost', '::1'])
+
+/**
+ * Detect whether Tailscale Serve is proxying a `/gw` route to the gateway.
+ *
+ * Checks in order:
+ * 1. `tailscale serve status --json` — look for a /gw handler (authoritative)
+ * 2. Fallback: `gateway.tailscale.mode === 'serve'` in openclaw.json (legacy)
+ */
+function detectTailscaleServe(): boolean {
+  // 1. Check live Tailscale Serve config for a /gw handler
+  try {
+    const { execFileSync } = require('node:child_process')
+    const raw = execFileSync('tailscale', ['serve', 'status', '--json'], {
+      timeout: 3000,
+      encoding: 'utf-8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    })
+    const config = JSON.parse(raw)
+    const web = config?.Web
+    if (web) {
+      for (const host of Object.values(web) as any[]) {
+        if ((host as any)?.Handlers?.['/gw']) return true
+      }
+    }
+  } catch {
+    // tailscale CLI not available or not running — fall through
+  }
+  // 2. Legacy: check openclaw.json config
+  const configPath = process.env.OPENCLAW_CONFIG_PATH || ''
+  if (!configPath) return false
+  try {
+    const raw = readFileSync(configPath, 'utf-8')
+    const config = JSON.parse(raw)
+    return config?.gateway?.tailscale?.mode === 'serve'
+  } catch {
+    return false
+  }
+}
+/** Cache Tailscale Serve detection with 60-second TTL. */
+let _tailscaleServeCache: { value: boolean; expiresAt: number } | null = null
+const TAILSCALE_CACHE_TTL_MS = 60_000
+function isTailscaleServe(): boolean {
+  const now = Date.now()
+  if (!_tailscaleServeCache || now > _tailscaleServeCache.expiresAt) {
+    _tailscaleServeCache = { value: detectTailscaleServe(), expiresAt: now + TAILSCALE_CACHE_TTL_MS }
+  }
+  return _tailscaleServeCache.value
+}
+/** Extract the browser-facing hostname from the request. */
+function getBrowserHostname(request: NextRequest): string {
+  const origin = request.headers.get('origin') || request.headers.get('referer') || ''
+@@ -114,8 +70,17 @@ function resolveRemoteGatewayUrl(
+
+  // Browser is remote — determine the correct proxied URL
+  if (isTailscaleServe()) {
+    // Tailscale Serve proxies /gw → localhost:18789 with TLS
+    return `wss://${browserHost}/gw`
+    // Check for a /gw path-based proxy first
+    refreshTailscaleCache()
+    const web = getCachedTailscaleWeb()
+    if (hasGwPathHandler(web)) {
+      return `wss://${browserHost}/gw`
+    }
+    // Port-based proxy: find the Tailscale Serve port that proxies to the gateway port
+    const tsPort = findTailscaleServePort(web, gateway.port)
+    if (tsPort) {
+      return `wss://${browserHost}:${tsPort}`
+    }
+  }
+
+  // No Tailscale Serve — try direct connection to dashboard host on gateway port
+‎src/lib/__tests__/tailscale-serve.test.ts‎
++138
+Lines changed: 138 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,138 @@
+import { describe, expect, it } from 'vitest'
+import { findTailscaleServePort, detectTailscaleServe, hasGwPathHandler } from '@/lib/tailscale-serve'
+// Realistic Tailscale Serve status JSON matching the structure returned by
+// `tailscale serve status --json`
+const TYPICAL_WEB_CONFIG = {
+  'myhost.tailb5729a.ts.net:8443': {
+    Handlers: {
+      '/': { Proxy: 'http://localhost:18789' },
+    },
+  },
+  'myhost.tailb5729a.ts.net:8444': {
+    Handlers: {
+      '/': { Proxy: 'http://127.0.0.1:3000' },
+    },
+  },
+  'myhost.tailb5729a.ts.net:3001': {
+    Handlers: {
+      '/': { Proxy: 'http://127.0.0.1:3002' },
+    },
+  },
+}
+const GW_PATH_WEB_CONFIG = {
+  'myhost.tailb5729a.ts.net:443': {
+    Handlers: {
+      '/': { Proxy: 'http://127.0.0.1:3000' },
+      '/gw': { Proxy: 'http://127.0.0.1:18789' },
+    },
+  },
+}
+describe('findTailscaleServePort', () => {
+  it('finds the external port proxying to a given local port', () => {
+    expect(findTailscaleServePort(TYPICAL_WEB_CONFIG, 18789)).toBe(8443)
+    expect(findTailscaleServePort(TYPICAL_WEB_CONFIG, 3000)).toBe(8444)
+    expect(findTailscaleServePort(TYPICAL_WEB_CONFIG, 3002)).toBe(3001)
+  })
+  it('returns null when no handler matches the target port', () => {
+    expect(findTailscaleServePort(TYPICAL_WEB_CONFIG, 9999)).toBeNull()
+  })
+  it('returns null for null/undefined web config', () => {
+    expect(findTailscaleServePort(null, 18789)).toBeNull()
+    expect(findTailscaleServePort(undefined, 18789)).toBeNull()
+  })
+  it('returns null for empty web config', () => {
+    expect(findTailscaleServePort({}, 18789)).toBeNull()
+  })
+  it('handles handlers without Proxy field', () => {
+    const web = {
+      'myhost.ts.net:443': {
+        Handlers: {
+          '/': { Path: '/var/www' },
+        },
+      },
+    }
+    expect(findTailscaleServePort(web, 3000)).toBeNull()
+  })
+  it('matches proxy URLs with trailing slash', () => {
+    const web = {
+      'myhost.ts.net:9000': {
+        Handlers: {
+          '/': { Proxy: 'http://127.0.0.1:4000/' },
+        },
+      },
+    }
+    expect(findTailscaleServePort(web, 4000)).toBe(9000)
+  })
+  it('does not match partial port numbers', () => {
+    const web = {
+      'myhost.ts.net:443': {
+        Handlers: {
+          '/': { Proxy: 'http://127.0.0.1:18789' },
+        },
+      },
+    }
+    // Port 1878 should not match a proxy to 18789
+    expect(findTailscaleServePort(web, 1878)).toBeNull()
+    // Port 8789 should not match
+    expect(findTailscaleServePort(web, 8789)).toBeNull()
+  })
+})
+describe('detectTailscaleServe', () => {
+  it('detects /gw path-based proxy', () => {
+    expect(detectTailscaleServe(GW_PATH_WEB_CONFIG)).toBe(true)
+  })
+  it('detects port-based proxy to gateway default port 18789', () => {
+    expect(detectTailscaleServe(TYPICAL_WEB_CONFIG)).toBe(true)
+  })
+  it('returns false when no gateway proxy found', () => {
+    const web = {
+      'myhost.ts.net:3000': {
+        Handlers: {
+          '/': { Proxy: 'http://127.0.0.1:3000' },
+        },
+      },
+    }
+    expect(detectTailscaleServe(web)).toBe(false)
+  })
+  it('returns false for null/undefined web config', () => {
+    expect(detectTailscaleServe(null)).toBe(false)
+    expect(detectTailscaleServe(undefined)).toBe(false)
+  })
+  it('returns false for empty web config with no config path', () => {
+    expect(detectTailscaleServe({})).toBe(false)
+  })
+  it('handles host entries with no Handlers', () => {
+    const web = { 'myhost.ts.net:443': {} }
+    expect(detectTailscaleServe(web)).toBe(false)
+  })
+})
+describe('hasGwPathHandler', () => {
+  it('returns true when /gw handler exists', () => {
+    expect(hasGwPathHandler(GW_PATH_WEB_CONFIG)).toBe(true)
+  })
+  it('returns false when no /gw handler exists', () => {
+    expect(hasGwPathHandler(TYPICAL_WEB_CONFIG)).toBe(false)
+  })
+  it('returns false for null/undefined', () => {
+    expect(hasGwPathHandler(null)).toBe(false)
+    expect(hasGwPathHandler(undefined)).toBe(false)
+  })
+})
+‎src/lib/tailscale-serve.ts‎
++127
+Lines changed: 127 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,127 @@
+import { readFileSync } from 'node:fs'
+/** Tailscale CLI binary paths to try (macOS app bundle, then PATH). */
+const TAILSCALE_BINS = [
+  '/Applications/Tailscale.app/Contents/MacOS/Tailscale',
+  'tailscale',
+]
+export function execTailscaleServeJson(): any | null {
+  const { execFileSync } = require('node:child_process')
+  for (const bin of TAILSCALE_BINS) {
+    try {
+      const raw = execFileSync(bin, ['serve', 'status', '--json'], {
+        timeout: 3000,
+        encoding: 'utf-8',
+        stdio: ['ignore', 'pipe', 'ignore'],
+      })
+      return JSON.parse(raw)
+    } catch {
+      continue
+    }
+  }
+  return null
+}
+/**
+ * Find the Tailscale Serve port that proxies to a given local port.
+ *
+ * Looks through the `Web` section of `tailscale serve status --json` for any
+ * handler whose Proxy target points at localhost:<targetPort>. Returns the
+ * external Tailscale Serve port (e.g. 8443) or null if not found.
+ */
+export function findTailscaleServePort(web: Record<string, any> | null | undefined, targetPort: number): number | null {
+  if (!web) return null
+  const targetSuffixes = [`:${targetPort}`, `:${targetPort}/`]
+  for (const [hostPort, hostConfig] of Object.entries(web) as [string, any][]) {
+    const handlers = hostConfig?.Handlers
+    if (!handlers) continue
+    for (const handler of Object.values(handlers) as any[]) {
+      const proxy = handler?.Proxy || ''
+      if (targetSuffixes.some(s => proxy.endsWith(s) || proxy === `http://127.0.0.1:${targetPort}` || proxy === `http://localhost:${targetPort}`)) {
+        // hostPort is like "hostname:8443"
+        const port = parseInt(hostPort.split(':').pop() || '', 10)
+        if (port > 0) return port
+      }
+    }
+  }
+  return null
+}
+/**
+ * Detect whether Tailscale Serve is proxying to the gateway.
+ *
+ * Checks the Web config for:
+ * 1. A `/gw` path handler (authoritative)
+ * 2. Any handler proxying to port 18789 (port-based proxy)
+ * 3. Fallback: `gateway.tailscale.mode === 'serve'` in openclaw.json (legacy)
+ */
+export function detectTailscaleServe(web: Record<string, any> | null | undefined, configPath?: string): boolean {
+  if (web) {
+    for (const hostConfig of Object.values(web) as any[]) {
+      const handlers = (hostConfig as any)?.Handlers
+      if (!handlers) continue
+      if ((handlers as any)['/gw']) return true
+      // Also detect port-based proxy to gateway (e.g. :8443 → localhost:18789)
+      for (const handler of Object.values(handlers) as any[]) {
+        const proxy = (handler as any)?.Proxy || ''
+        if (proxy.includes(':18789')) return true
+      }
+    }
+  }
+  // Legacy: check openclaw.json config
+  const effectivePath = configPath || process.env.OPENCLAW_CONFIG_PATH || ''
+  if (!effectivePath) return false
+  try {
+    const raw = readFileSync(effectivePath, 'utf-8')
+    const config = JSON.parse(raw)
+    return config?.gateway?.tailscale?.mode === 'serve'
+  } catch {
+    return false
+  }
+}
+/**
+ * Check whether any Tailscale Serve handler has a `/gw` path.
+ */
+export function hasGwPathHandler(web: Record<string, any> | null | undefined): boolean {
+  if (!web) return false
+  for (const hostConfig of Object.values(web) as any[]) {
+    if ((hostConfig as any)?.Handlers?.['/gw']) return true
+  }
+  return false
+}
+/** Cache Tailscale Serve JSON with 60-second TTL. */
+let _tailscaleServeJsonCache: { value: any; expiresAt: number } | null = null
+let _tailscaleServeCache: { value: boolean; expiresAt: number } | null = null
+const TAILSCALE_CACHE_TTL_MS = 60_000
+export function refreshTailscaleCache(): void {
+  const now = Date.now()
+  if (!_tailscaleServeJsonCache || now > _tailscaleServeJsonCache.expiresAt) {
+    _tailscaleServeJsonCache = { value: execTailscaleServeJson(), expiresAt: now + TAILSCALE_CACHE_TTL_MS }
+    _tailscaleServeCache = null // invalidate derived cache
+  }
+}
+export function getCachedTailscaleWeb(): Record<string, any> | null {
+  return _tailscaleServeJsonCache?.value?.Web ?? null
+}
+export function isTailscaleServe(): boolean {
+  refreshTailscaleCache()
+  const now = Date.now()
+  if (!_tailscaleServeCache || now > _tailscaleServeCache.expiresAt) {
+    _tailscaleServeCache = { value: detectTailscaleServe(getCachedTailscaleWeb()), expiresAt: now + TAILSCALE_CACHE_TTL_MS }
+  }
+  return _tailscaleServeCache.value
+}
+/** Reset caches — for testing only. */
+export function _resetCaches(): void {
+  _tailscaleServeJsonCache = null
+  _tailscaleServeCache = null
+}
+0 commit comments
+Comments
+0
+ (0)
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+
+
+SATOBLOC FOLLOWERS
+Skip to content
+helallao
+User navigation
+Overview
+Repositories
+2
+ (2)
+Projects
+Packages
+Stars
+4
+ (4)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+View helallao's full-sized avatar
+🏠
+Ali Yaşar
+helallao · he/him
+ 15.4k followers · 368k following
+@Metakorteks
+Adana, Turkey
+02:46 - 7h ahead
+https://metakorteks.com/
+Achievements
+Achievement: Pair Extraordinairex3
+Achievement: Pull Sharkx4
+Achievement: YOLO
+Achievement: Quickdraw
+Achievement: Starstruckx3
+Highlights
+Developer Program Member
+Organizations
+@Metakorteks
+Popular repositoriesLoading
+perplexity-ai
+Public
+Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface
+
+ Python  1.9k  340
+
+tureng
+Public
+Tureng Türkçe İngilizce Sözlüğü Veri Tabanı
+
+ Python  38  3
+
+204 contributions in the last year
+Skip to contributions year list
+Contribution Graph
+Day of Week	SeptemberSep	OctoberOct	NovemberNov	DecemberDec	JanuaryJan	FebruaryFeb	MarchMar	AprilApr	MayMay	JuneJun	JulyJul	AugustAug	SeptemberSep
+SundaySun																																																					
+MondayMon																																																					
+TuesdayTue																																																					
+WednesdayWed																																																					
+ThursdayThu																																																					
+FridayFri																																																					
+SaturdaySat																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Contribution activity
+September 2026
+helallao/perplexity-ai 3 commits
+Loading
+2026
+2025
+2024
+2023
+2022
+2021
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+Skip to content
+helallao
+perplexity-ai
+Repository navigation
+Code
+Issues
+14
+ (14)
+Pull requests
+3
+ (3)
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+helallao
+perplexity-ai
+Public
+Go to file
+t
+T
+helallao
+helallao
+Merge pull request #111 from Cyberpradeep/fix-response-format
+00b8506
+ · 
+2 weeks ago
+Name		
+.github/workflows
+Major project overhaul: docs translation, new modules, examples, CI, …
+10 months ago
+docs
+Major project overhaul: docs translation, new modules, examples, CI, …
+10 months ago
+examples
+Fixed formatting using black
+6 months ago
+images
+Add files via upload
+last year
+perplexity
+fix: preserve final SSE response at end of stream
+3 weeks ago
+perplexity_api.egg-info
+Revert "Web UI Script"
+3 months ago
+perplexity_async
+fix: preserve final SSE response at end of stream
+3 weeks ago
+tests
+fix: preserve final SSE response at end of stream
+3 weeks ago
+.gitignore
+fix: resolve param validation, async edge cases, labs/mcp error handl…
+last month
+LICENSE
+Update LICENSE
+8 months ago
+README.md
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+SECURITY.md
+Create SECURITY.md for security policy
+last month
+perplexity.log
+Refine SDK formatting and lint rules
+10 months ago
+pyproject.toml
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+requirements.txt
+Update requirements.txt
+last year
+run.py
+Remove commented print statement from run.py
+3 weeks ago
+uv.lock
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+Repository files navigation
+README
+MIT license
+Security
+Perplexity AI
+Tests Python License
+
+Perplexity AI is a Python module that leverages Emailnator to generate new accounts for unlimited pro queries. It supports both synchronous and asynchronous APIs, as well as a web interface for users who prefer a GUI-based approach.
+
+Features
+Account Generation: Automatically generate Gmail accounts using Emailnator
+Unlimited Pro Queries: Bypass query limits by creating new accounts
+Web Interface: Automate account creation and usage via a browser
+Sync & Async APIs: Full support for both synchronous and asynchronous programming
+Type Safety: Complete type hints for better IDE support
+Robust Error Handling: Custom exceptions for better error management
+Comprehensive Logging: Structured logging for debugging
+File Upload: Support for document analysis and Q&A
+Streaming Responses: Real-time response streaming
+Retry Logic: Automatic retry with exponential backoff
+Rate Limiting: Built-in rate limiting to prevent abuse
+Installation
+Basic Installation
+uv sync
+As a CLI Tool (MCP Server)
+Installs the perplexity-mcp command globally without a local virtual environment. The MCP server is an optional extra, so include [mcp] when installing as a tool:
+
+uv tool install '.[mcp]'
+With MCP Server
+uv sync --extra mcp
+With Driver Support (Web Interface)
+uv sync --extra driver
+uv run patchright install chromium
+Development Installation
+uv sync --extra dev
+This includes testing tools (pytest, pytest-cov, pytest-asyncio), linting (flake8, black, isort, mypy), and all optional dependencies.
+
+These instructions use uv. If you prefer pip, replace uv sync with pip install -e . and uv run <tool> with the tool command directly.
+
+MCP Server
+This project includes an MCP (Model Context Protocol) server that exposes Perplexity search as tools for Claude Code and other MCP clients. It works without an API key by using the same reverse-engineered web interface as the rest of this library.
+
+Installation
+uv sync --extra mcp
+# or, to use as a standalone tool:
+uv tool install '.[mcp]'
+Running the Server
+The server supports two transports, controlled by the MCP_TRANSPORT environment variable (default: stdio).
+
+stdio (default)
+Used by local MCP clients like Claude Code and Claude Desktop. The client spawns the process directly.
+
+perplexity-mcp
+Add to Claude Code:
+
+claude mcp add perplexity -- perplexity-mcp
+Manual config:
+
+{
+  "mcpServers": {
+    "perplexity": {
+      "command": "perplexity-mcp",
+      "env": {
+        "PERPLEXITY_COOKIES": "{\"next-auth.session-token\": \"...\"}"
+      }
+    }
+  }
+}
+HTTP (network/remote)
+Runs a persistent HTTP server that multiple clients can connect to over the network. Use this when you want to share one server instance across multiple clients or machines.
+
+1. Start the server:
+
+MCP_TRANSPORT=http perplexity-mcp
+Defaults to 127.0.0.1:8000. To bind to all interfaces or change the port:
+
+MCP_TRANSPORT=http MCP_HOST=0.0.0.0 MCP_PORT=9000 perplexity-mcp
+To include cookies:
+
+MCP_TRANSPORT=http PERPLEXITY_COOKIES='{"next-auth.session-token": "..."}' perplexity-mcp
+The MCP endpoint will be available at http://<host>:<port>/mcp.
+
+2. Add to Claude Code:
+
+claude mcp add --transport http perplexity http://127.0.0.1:8000/mcp
+Adjust the URL if you changed the host or port. For a remote machine, replace 127.0.0.1 with its address.
+
+3. Verify:
+
+claude mcp list
+The PERPLEXITY_COOKIES environment variable is optional for both transports. If not set, the server runs anonymously with access to free (auto mode) queries only. Set it to a JSON string of your Perplexity cookies to enable pro, reasoning, and deep research modes. See How To Get Cookies for instructions.
+
+Available Tools
+Tool	Mode	Description
+perplexity_ask	auto	General-purpose question answering
+perplexity_research	deep research	In-depth research on a topic
+perplexity_reason	reasoning	Step-by-step reasoning through a problem
+perplexity_search	pro + web sources	Web search
+Differences from the Official MCP
+The official @perplexity-ai/mcp-server requires a paid Perplexity API key. This server uses the reverse-engineered web interface instead. As a result, the following features available in the official MCP are not supported here:
+
+Feature	Official MCP	This server
+No API key required	No	Yes
+messages array input	Yes	No (single query string only)
+search_recency_filter	Yes	No
+search_domain_filter	Yes	No
+search_context_size	Yes	No
+reasoning_effort	Yes	No
+strip_thinking	Yes	No
+Structured search results (citations, images)	Yes	No (plain text answer only)
+Quick Start
+Basic Usage
+import perplexity
+
+# Create client
+client = perplexity.Client()
+
+# Make a query
+response = client.search("What is artificial intelligence?")
+print(response['answer'])
+With Account (for enhanced features)
+import perplexity
+
+# Your Perplexity cookies
+cookies = {
+    'next-auth.csrf-token': 'your-token',
+    'next-auth.session-token': 'your-session',
+}
+
+client = perplexity.Client(cookies)
+
+# Use enhanced modes
+response = client.search(
+    "Complex query here",
+    mode='pro',
+    model='gpt-5.2',
+    sources=['scholar']
+)
+Streaming Responses
+for chunk in client.search("Explain quantum computing", stream=True):
+    if 'answer' in chunk:
+        print(chunk['answer'], end='', flush=True)
+Async Usage
+import asyncio
+import perplexity_async
+
+async def main():
+    client = await perplexity_async.Client()
+    response = await client.search("What is machine learning?")
+    print(response['answer'])
+
+asyncio.run(main())
+Documentation
+Examples - Practical examples for common use cases
+Changelog - Bug fixes and changes history
+Improvements - Suggested improvements and roadmap
+API Reference - Complete API documentation
+Usage
+Web Interface
+The web interface automates account creation and usage in a browser. Patchright uses "Chrome User Data Directory" to be completely undetected, it's C:\Users\YourName\AppData\Local\Google\Chrome\User Data for Windows, as shown below:
+
+import os
+from perplexity.driver import Driver
+
+cli = Driver()
+cli.run(rf'C:\\Users\\{os.getlogin()}\\AppData\\Local\\Google\\Chrome\\User Data')
+To use your own Chrome instance, enable remote debugging (it may enter dead loop in Cloudflare):
+
+Add --remote-debugging-port=9222 to Chrome's shortcut target.
+Pass the port to the Driver.run() method:
+cli.run(rf'C:\\Users\\{os.getlogin()}\\AppData\\Local\\Google\\Chrome\\User Data', port=9222)
+API Usage
+Synchronous API
+Below is an example code for simple usage, without using your own account or generating new accounts.
+
+import perplexity
+
+perplexity_cli = perplexity.Client()
+
+# model = model for mode, which can only be used in own accounts, that is {
+#     'auto': [None],
+#     'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+#     'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+#     'deep research': [None]
+# }
+# sources = ['web', 'scholar', 'social']
+# files = a dictionary which has keys as filenames and values as file data
+# stream = returns a generator when enabled and just final response when disabled
+# language = ISO 639 code of language you want to use
+# follow_up = last query info for follow-up queries, you can directly pass response from a query, look at second example below
+# incognito = Enables incognito mode, for people who are using their own account
+resp = perplexity_cli.search('Your query here', mode='auto', model=None, sources=['web'], files={}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+
+# second example to show how to use follow-up queries and stream response
+for i in perplexity_cli.search('Your query here', stream=True, follow_up=resp):
+    print(i)
+And this is how you use your own account, you need to get your cookies in order to use your own account. Look at How To Get Cookies,
+
+import perplexity
+
+perplexity_cookies = { 
+    <your cookies here>
+}
+
+perplexity_cli = perplexity.Client(perplexity_cookies)
+
+resp = perplexity_cli.search('Your query here', mode='reasoning', model='gpt-5.2-thinking', sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+And finally account generating, you need to get cookies for Emailnator to use this feature. Look at How To Get Cookies,
+
+import perplexity
+
+emailnator_cookies = { 
+    <your cookies here>
+}
+
+perplexity_cli = perplexity.Client()
+perplexity_cli.create_account(emailnator_cookies) # Creates a new gmail, so your 5 pro queries will be renewed.
+
+resp = perplexity_cli.search('Your query here', mode='reasoning', model=None, sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+Asynchronous API
+Below is an example code for simple usage, without using your own account or generating new accounts.
+
+import asyncio
+import perplexity_async
+
+async def test():
+    perplexity_cli = await perplexity_async.Client()
+
+    # mode = ['auto', 'pro', 'reasoning', 'deep research']
+    # model = model for mode, which can only be used in own accounts, that is {
+    #     'auto': [None],
+    #     'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+    #     'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+    #     'deep research': [None]
+    # }
+    # sources = ['web', 'scholar', 'social']
+    # files = a dictionary which has keys as filenames and values as file data
+    # stream = returns a generator when enabled and just final response when disabled
+    # language = ISO 639 code of language you want to use
+    # follow_up = last query info for follow-up queries, you can directly pass response from a query, look at second example below
+    # incognito = Enables incognito mode, for people who are using their own account
+    resp = await perplexity_cli.search('Your query here', mode='auto', model=None, sources=['web'], files={}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+    # second example to show how to use follow-up queries and stream response
+    async for i in await perplexity_cli.search('Your query here', stream=True, follow_up=resp):
+        print(i)
+
+asyncio.run(test())
+And this is how you use your own account, you need to get your cookies in order to use your own account. Look at How To Get Cookies,
+
+import asyncio
+import perplexity_async
+
+perplexity_cookies = { 
+    <your cookies here>
+}
+
+async def test():
+    perplexity_cli = await perplexity_async.Client(perplexity_cookies)
+
+    resp = await perplexity_cli.search('Your query here', mode='reasoning', model='gpt-5.2-thinking', sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+asyncio.run(test())
+And finally account generating, you need to get cookies for emailnator to use this feature. Look at How To Get Cookies,
+
+import asyncio
+import perplexity_async
+
+emailnator_cookies = { 
+    <your cookies here>
+}
+
+async def test():
+    perplexity_cli = await perplexity_async.Client()
+    await perplexity_cli.create_account(emailnator_cookies) # Creates a new gmail, so your 5 pro queries will be renewed.
+
+    resp = await perplexity_cli.search('Your query here', mode='reasoning', model=None, sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+asyncio.run(test())
+How to Get Cookies
+Perplexity (to use your own account)
+Open Perplexity.ai website and login to your account.
+Click F12 or Ctrl + Shift + I to open inspector.
+Go to the "Network" tab in the inspector.
+Refresh the page, right click the first request, hover on "Copy" and click to "Copy as cURL (bash)".
+Now go to the CurlConverter and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+
+
+Emailnator (for account generating)
+Open Emailnator website and verify you're human.
+Click F12 or Ctrl + Shift + I to open inspector.
+Go to the "Network" tab in the inspector.
+Refresh the page, right click the first request, hover on "Copy" and click to "Copy as cURL (bash)".
+Now go to the CurlConverter and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+Cookies for Emailnator are temporary, you need to renew them continuously.
+
+
+API Reference
+Client Class
+class Client:
+    def __init__(self, cookies: Optional[Dict[str, str]] = None):
+        """
+        Initialize Perplexity client.
+        
+        Args:
+            cookies: Optional Perplexity account cookies for enhanced features
+        """
+    
+    def search(
+        self,
+        query: str,
+        mode: str = 'auto',
+        model: Optional[str] = None,
+        sources: List[str] = ['web'],
+        files: Dict[str, Union[str, bytes]] = {},
+        stream: bool = False,
+        language: str = 'en-US',
+        follow_up: Optional[Dict] = None,
+        incognito: bool = False
+    ) -> Union[Dict, Generator]:
+        """
+        Search with Perplexity AI.
+        
+        Args:
+            query: Search query
+            mode: Search mode ('auto', 'pro', 'reasoning', 'deep research')
+            model: Model to use (depends on mode)
+            sources: Information sources (['web', 'scholar', 'social'])
+            files: Files to upload {filename: content}
+            stream: Enable streaming responses
+            language: ISO 639 language code
+            follow_up: Previous query for context
+            incognito: Enable incognito mode
+            
+        Returns:
+            Response dict with 'answer' key, or generator if stream=True
+        """
+    
+    def create_account(self, emailnator_cookies: Dict[str, str]):
+        """
+        Create new account using Emailnator.
+        
+        Args:
+            emailnator_cookies: Emailnator cookies for account creation
+        """
+Available Models
+{
+    'auto': [None],
+    'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+    'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+    'deep research': [None]
+}
+Custom Exceptions
+from perplexity.exceptions import (
+    PerplexityError,          # Base exception
+    AuthenticationError,      # Authentication failed
+    RateLimitError,          # Rate limit exceeded
+    NetworkError,            # Network issues
+    ValidationError,         # Invalid parameters
+    ResponseParseError,      # Failed to parse response
+    AccountCreationError,    # Account creation failed
+    FileUploadError,         # File upload failed
+)
+Testing
+Run All Tests
+uv run pytest tests/ -v
+With Coverage
+uv run pytest tests/ --cov=perplexity --cov=perplexity_async --cov-report=html
+Run Specific Tests
+uv run pytest tests/test_utils.py -v
+uv run pytest tests/test_config.py -v
+Development
+Setup Development Environment
+# Clone repository
+git clone https://github.com/yourusername/perplexity-ai.git
+cd perplexity-ai
+
+# Install in development mode
+uv sync --extra dev
+
+# Run tests
+uv run pytest
+
+# Format code
+uv run black perplexity perplexity_async
+
+# Check types
+uv run mypy perplexity perplexity_async
+
+# Lint
+uv run flake8 perplexity perplexity_async
+Contributing
+Fork the repository
+Create a feature branch (git checkout -b feature/amazing-feature)
+Make your changes
+Run tests and linting
+Commit your changes (git commit -m 'Add amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+Troubleshooting
+Common Issues
+Issue: Response returns None
+
+Solution: The API structure may have changed. Check Changelog for updates.
+Issue: Account creation fails
+
+Solution: Emailnator cookies expire frequently. Get fresh cookies from Emailnator.com.
+Issue: File upload fails
+
+Solution: Ensure you have a valid Perplexity account with file upload quota available.
+Issue: Rate limiting
+
+Solution: Use built-in rate limiting or wait between requests. Consider using async API for better concurrency.
+Getting Help
+Check the examples/ directory for working code
+Read the documentation
+Open an issue on GitHub
+Changelog
+See CHANGELOG.md for detailed changes and bug fixes.
+
+Roadmap
+See IMPROVEMENTS.md for planned improvements and features.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Perplexity.ai for the amazing AI search engine
+Emailnator for temporary email service
+All contributors who help improve this project
+Disclaimer
+This is an unofficial API wrapper. Use responsibly and respect Perplexity.ai's terms of service. This project is for educational purposes only.
+
+About
+Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface
+
+perplexity.ai
+Topics
+Resources
+Readme
+MIT license
+Security policy
+Security policy
+Activity
+Stars
+1.9k stars
+Watchers
+27 watching
+Forks
+340 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+22
+ (22)
+@helallao
+@lifanwar
+@dominicOT
+@enoquesousa
+@vuchaev2015
+@luizslvr
+@Cyberpradeep
+@RMNO21
+@sghng
+@Christian-Sidak
+@braveocheretovych
+@dearrevils
+@claude
+@Kerry1207
++ 8 contributors
+Languages
+Python
+100%
+ 
+
+Skip to content
+helallao
+perplexity-ai
+Repository navigation
+Code
+Issues
+14
+ (14)
+Pull requests
+3
+ (3)
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+helallao
+perplexity-ai
+Public
+Go to file
+t
+T
+helallao
+helallao
+Merge pull request #111 from Cyberpradeep/fix-response-format
+00b8506
+ · 
+2 weeks ago
+Name		
+.github/workflows
+Major project overhaul: docs translation, new modules, examples, CI, …
+10 months ago
+docs
+Major project overhaul: docs translation, new modules, examples, CI, …
+10 months ago
+examples
+Fixed formatting using black
+6 months ago
+images
+Add files via upload
+last year
+perplexity
+fix: preserve final SSE response at end of stream
+3 weeks ago
+perplexity_api.egg-info
+Revert "Web UI Script"
+3 months ago
+perplexity_async
+fix: preserve final SSE response at end of stream
+3 weeks ago
+tests
+fix: preserve final SSE response at end of stream
+3 weeks ago
+.gitignore
+fix: resolve param validation, async edge cases, labs/mcp error handl…
+last month
+LICENSE
+Update LICENSE
+8 months ago
+README.md
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+SECURITY.md
+Create SECURITY.md for security policy
+last month
+perplexity.log
+Refine SDK formatting and lint rules
+10 months ago
+pyproject.toml
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+requirements.txt
+Update requirements.txt
+last year
+run.py
+Remove commented print statement from run.py
+3 weeks ago
+uv.lock
+build: keep mcp optional, document uv tool install with [mcp] extra
+last month
+Repository files navigation
+README
+MIT license
+Security
+Perplexity AI
+Tests Python License
+
+Perplexity AI is a Python module that leverages Emailnator to generate new accounts for unlimited pro queries. It supports both synchronous and asynchronous APIs, as well as a web interface for users who prefer a GUI-based approach.
+
+Features
+Account Generation: Automatically generate Gmail accounts using Emailnator
+Unlimited Pro Queries: Bypass query limits by creating new accounts
+Web Interface: Automate account creation and usage via a browser
+Sync & Async APIs: Full support for both synchronous and asynchronous programming
+Type Safety: Complete type hints for better IDE support
+Robust Error Handling: Custom exceptions for better error management
+Comprehensive Logging: Structured logging for debugging
+File Upload: Support for document analysis and Q&A
+Streaming Responses: Real-time response streaming
+Retry Logic: Automatic retry with exponential backoff
+Rate Limiting: Built-in rate limiting to prevent abuse
+Installation
+Basic Installation
+uv sync
+As a CLI Tool (MCP Server)
+Installs the perplexity-mcp command globally without a local virtual environment. The MCP server is an optional extra, so include [mcp] when installing as a tool:
+
+uv tool install '.[mcp]'
+With MCP Server
+uv sync --extra mcp
+With Driver Support (Web Interface)
+uv sync --extra driver
+uv run patchright install chromium
+Development Installation
+uv sync --extra dev
+This includes testing tools (pytest, pytest-cov, pytest-asyncio), linting (flake8, black, isort, mypy), and all optional dependencies.
+
+These instructions use uv. If you prefer pip, replace uv sync with pip install -e . and uv run <tool> with the tool command directly.
+
+MCP Server
+This project includes an MCP (Model Context Protocol) server that exposes Perplexity search as tools for Claude Code and other MCP clients. It works without an API key by using the same reverse-engineered web interface as the rest of this library.
+
+Installation
+uv sync --extra mcp
+# or, to use as a standalone tool:
+uv tool install '.[mcp]'
+Running the Server
+The server supports two transports, controlled by the MCP_TRANSPORT environment variable (default: stdio).
+
+stdio (default)
+Used by local MCP clients like Claude Code and Claude Desktop. The client spawns the process directly.
+
+perplexity-mcp
+Add to Claude Code:
+
+claude mcp add perplexity -- perplexity-mcp
+Manual config:
+
+{
+  "mcpServers": {
+    "perplexity": {
+      "command": "perplexity-mcp",
+      "env": {
+        "PERPLEXITY_COOKIES": "{\"next-auth.session-token\": \"...\"}"
+      }
+    }
+  }
+}
+HTTP (network/remote)
+Runs a persistent HTTP server that multiple clients can connect to over the network. Use this when you want to share one server instance across multiple clients or machines.
+
+1. Start the server:
+
+MCP_TRANSPORT=http perplexity-mcp
+Defaults to 127.0.0.1:8000. To bind to all interfaces or change the port:
+
+MCP_TRANSPORT=http MCP_HOST=0.0.0.0 MCP_PORT=9000 perplexity-mcp
+To include cookies:
+
+MCP_TRANSPORT=http PERPLEXITY_COOKIES='{"next-auth.session-token": "..."}' perplexity-mcp
+The MCP endpoint will be available at http://<host>:<port>/mcp.
+
+2. Add to Claude Code:
+
+claude mcp add --transport http perplexity http://127.0.0.1:8000/mcp
+Adjust the URL if you changed the host or port. For a remote machine, replace 127.0.0.1 with its address.
+
+3. Verify:
+
+claude mcp list
+The PERPLEXITY_COOKIES environment variable is optional for both transports. If not set, the server runs anonymously with access to free (auto mode) queries only. Set it to a JSON string of your Perplexity cookies to enable pro, reasoning, and deep research modes. See How To Get Cookies for instructions.
+
+Available Tools
+Tool	Mode	Description
+perplexity_ask	auto	General-purpose question answering
+perplexity_research	deep research	In-depth research on a topic
+perplexity_reason	reasoning	Step-by-step reasoning through a problem
+perplexity_search	pro + web sources	Web search
+Differences from the Official MCP
+The official @perplexity-ai/mcp-server requires a paid Perplexity API key. This server uses the reverse-engineered web interface instead. As a result, the following features available in the official MCP are not supported here:
+
+Feature	Official MCP	This server
+No API key required	No	Yes
+messages array input	Yes	No (single query string only)
+search_recency_filter	Yes	No
+search_domain_filter	Yes	No
+search_context_size	Yes	No
+reasoning_effort	Yes	No
+strip_thinking	Yes	No
+Structured search results (citations, images)	Yes	No (plain text answer only)
+Quick Start
+Basic Usage
+import perplexity
+
+# Create client
+client = perplexity.Client()
+
+# Make a query
+response = client.search("What is artificial intelligence?")
+print(response['answer'])
+With Account (for enhanced features)
+import perplexity
+
+# Your Perplexity cookies
+cookies = {
+    'next-auth.csrf-token': 'your-token',
+    'next-auth.session-token': 'your-session',
+}
+
+client = perplexity.Client(cookies)
+
+# Use enhanced modes
+response = client.search(
+    "Complex query here",
+    mode='pro',
+    model='gpt-5.2',
+    sources=['scholar']
+)
+Streaming Responses
+for chunk in client.search("Explain quantum computing", stream=True):
+    if 'answer' in chunk:
+        print(chunk['answer'], end='', flush=True)
+Async Usage
+import asyncio
+import perplexity_async
+
+async def main():
+    client = await perplexity_async.Client()
+    response = await client.search("What is machine learning?")
+    print(response['answer'])
+
+asyncio.run(main())
+Documentation
+Examples - Practical examples for common use cases
+Changelog - Bug fixes and changes history
+Improvements - Suggested improvements and roadmap
+API Reference - Complete API documentation
+Usage
+Web Interface
+The web interface automates account creation and usage in a browser. Patchright uses "Chrome User Data Directory" to be completely undetected, it's C:\Users\YourName\AppData\Local\Google\Chrome\User Data for Windows, as shown below:
+
+import os
+from perplexity.driver import Driver
+
+cli = Driver()
+cli.run(rf'C:\\Users\\{os.getlogin()}\\AppData\\Local\\Google\\Chrome\\User Data')
+To use your own Chrome instance, enable remote debugging (it may enter dead loop in Cloudflare):
+
+Add --remote-debugging-port=9222 to Chrome's shortcut target.
+Pass the port to the Driver.run() method:
+cli.run(rf'C:\\Users\\{os.getlogin()}\\AppData\\Local\\Google\\Chrome\\User Data', port=9222)
+API Usage
+Synchronous API
+Below is an example code for simple usage, without using your own account or generating new accounts.
+
+import perplexity
+
+perplexity_cli = perplexity.Client()
+
+# model = model for mode, which can only be used in own accounts, that is {
+#     'auto': [None],
+#     'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+#     'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+#     'deep research': [None]
+# }
+# sources = ['web', 'scholar', 'social']
+# files = a dictionary which has keys as filenames and values as file data
+# stream = returns a generator when enabled and just final response when disabled
+# language = ISO 639 code of language you want to use
+# follow_up = last query info for follow-up queries, you can directly pass response from a query, look at second example below
+# incognito = Enables incognito mode, for people who are using their own account
+resp = perplexity_cli.search('Your query here', mode='auto', model=None, sources=['web'], files={}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+
+# second example to show how to use follow-up queries and stream response
+for i in perplexity_cli.search('Your query here', stream=True, follow_up=resp):
+    print(i)
+And this is how you use your own account, you need to get your cookies in order to use your own account. Look at How To Get Cookies,
+
+import perplexity
+
+perplexity_cookies = { 
+    <your cookies here>
+}
+
+perplexity_cli = perplexity.Client(perplexity_cookies)
+
+resp = perplexity_cli.search('Your query here', mode='reasoning', model='gpt-5.2-thinking', sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+And finally account generating, you need to get cookies for Emailnator to use this feature. Look at How To Get Cookies,
+
+import perplexity
+
+emailnator_cookies = { 
+    <your cookies here>
+}
+
+perplexity_cli = perplexity.Client()
+perplexity_cli.create_account(emailnator_cookies) # Creates a new gmail, so your 5 pro queries will be renewed.
+
+resp = perplexity_cli.search('Your query here', mode='reasoning', model=None, sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+print(resp)
+Asynchronous API
+Below is an example code for simple usage, without using your own account or generating new accounts.
+
+import asyncio
+import perplexity_async
+
+async def test():
+    perplexity_cli = await perplexity_async.Client()
+
+    # mode = ['auto', 'pro', 'reasoning', 'deep research']
+    # model = model for mode, which can only be used in own accounts, that is {
+    #     'auto': [None],
+    #     'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+    #     'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+    #     'deep research': [None]
+    # }
+    # sources = ['web', 'scholar', 'social']
+    # files = a dictionary which has keys as filenames and values as file data
+    # stream = returns a generator when enabled and just final response when disabled
+    # language = ISO 639 code of language you want to use
+    # follow_up = last query info for follow-up queries, you can directly pass response from a query, look at second example below
+    # incognito = Enables incognito mode, for people who are using their own account
+    resp = await perplexity_cli.search('Your query here', mode='auto', model=None, sources=['web'], files={}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+    # second example to show how to use follow-up queries and stream response
+    async for i in await perplexity_cli.search('Your query here', stream=True, follow_up=resp):
+        print(i)
+
+asyncio.run(test())
+And this is how you use your own account, you need to get your cookies in order to use your own account. Look at How To Get Cookies,
+
+import asyncio
+import perplexity_async
+
+perplexity_cookies = { 
+    <your cookies here>
+}
+
+async def test():
+    perplexity_cli = await perplexity_async.Client(perplexity_cookies)
+
+    resp = await perplexity_cli.search('Your query here', mode='reasoning', model='gpt-5.2-thinking', sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+asyncio.run(test())
+And finally account generating, you need to get cookies for emailnator to use this feature. Look at How To Get Cookies,
+
+import asyncio
+import perplexity_async
+
+emailnator_cookies = { 
+    <your cookies here>
+}
+
+async def test():
+    perplexity_cli = await perplexity_async.Client()
+    await perplexity_cli.create_account(emailnator_cookies) # Creates a new gmail, so your 5 pro queries will be renewed.
+
+    resp = await perplexity_cli.search('Your query here', mode='reasoning', model=None, sources=['web'], files={'myfile.txt': open('file.txt').read()}, stream=False, language='en-US', follow_up=None, incognito=False)
+    print(resp)
+
+asyncio.run(test())
+How to Get Cookies
+Perplexity (to use your own account)
+Open Perplexity.ai website and login to your account.
+Click F12 or Ctrl + Shift + I to open inspector.
+Go to the "Network" tab in the inspector.
+Refresh the page, right click the first request, hover on "Copy" and click to "Copy as cURL (bash)".
+Now go to the CurlConverter and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+
+
+Emailnator (for account generating)
+Open Emailnator website and verify you're human.
+Click F12 or Ctrl + Shift + I to open inspector.
+Go to the "Network" tab in the inspector.
+Refresh the page, right click the first request, hover on "Copy" and click to "Copy as cURL (bash)".
+Now go to the CurlConverter and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+Cookies for Emailnator are temporary, you need to renew them continuously.
+
+
+API Reference
+Client Class
+class Client:
+    def __init__(self, cookies: Optional[Dict[str, str]] = None):
+        """
+        Initialize Perplexity client.
+        
+        Args:
+            cookies: Optional Perplexity account cookies for enhanced features
+        """
+    
+    def search(
+        self,
+        query: str,
+        mode: str = 'auto',
+        model: Optional[str] = None,
+        sources: List[str] = ['web'],
+        files: Dict[str, Union[str, bytes]] = {},
+        stream: bool = False,
+        language: str = 'en-US',
+        follow_up: Optional[Dict] = None,
+        incognito: bool = False
+    ) -> Union[Dict, Generator]:
+        """
+        Search with Perplexity AI.
+        
+        Args:
+            query: Search query
+            mode: Search mode ('auto', 'pro', 'reasoning', 'deep research')
+            model: Model to use (depends on mode)
+            sources: Information sources (['web', 'scholar', 'social'])
+            files: Files to upload {filename: content}
+            stream: Enable streaming responses
+            language: ISO 639 language code
+            follow_up: Previous query for context
+            incognito: Enable incognito mode
+            
+        Returns:
+            Response dict with 'answer' key, or generator if stream=True
+        """
+    
+    def create_account(self, emailnator_cookies: Dict[str, str]):
+        """
+        Create new account using Emailnator.
+        
+        Args:
+            emailnator_cookies: Emailnator cookies for account creation
+        """
+Available Models
+{
+    'auto': [None],
+    'pro': [None, 'sonar', 'gpt-5.2', 'claude-4.5-sonnet', 'grok-4-1'],
+    'reasoning': [None, 'gpt-5.2-thinking', 'claude-4.5-sonnet-thinking', 'gemini-3.0-pro', 'kimi-k2-thinking', 'grok-4.1-reasoning'],
+    'deep research': [None]
+}
+Custom Exceptions
+from perplexity.exceptions import (
+    PerplexityError,          # Base exception
+    AuthenticationError,      # Authentication failed
+    RateLimitError,          # Rate limit exceeded
+    NetworkError,            # Network issues
+    ValidationError,         # Invalid parameters
+    ResponseParseError,      # Failed to parse response
+    AccountCreationError,    # Account creation failed
+    FileUploadError,         # File upload failed
+)
+Testing
+Run All Tests
+uv run pytest tests/ -v
+With Coverage
+uv run pytest tests/ --cov=perplexity --cov=perplexity_async --cov-report=html
+Run Specific Tests
+uv run pytest tests/test_utils.py -v
+uv run pytest tests/test_config.py -v
+Development
+Setup Development Environment
+# Clone repository
+git clone https://github.com/yourusername/perplexity-ai.git
+cd perplexity-ai
+
+# Install in development mode
+uv sync --extra dev
+
+# Run tests
+uv run pytest
+
+# Format code
+uv run black perplexity perplexity_async
+
+# Check types
+uv run mypy perplexity perplexity_async
+
+# Lint
+uv run flake8 perplexity perplexity_async
+Contributing
+Fork the repository
+Create a feature branch (git checkout -b feature/amazing-feature)
+Make your changes
+Run tests and linting
+Commit your changes (git commit -m 'Add amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+Troubleshooting
+Common Issues
+Issue: Response returns None
+
+Solution: The API structure may have changed. Check Changelog for updates.
+Issue: Account creation fails
+
+Solution: Emailnator cookies expire frequently. Get fresh cookies from Emailnator.com.
+Issue: File upload fails
+
+Solution: Ensure you have a valid Perplexity account with file upload quota available.
+Issue: Rate limiting
+
+Solution: Use built-in rate limiting or wait between requests. Consider using async API for better concurrency.
+Getting Help
+Check the examples/ directory for working code
+Read the documentation
+Open an issue on GitHub
+Changelog
+See CHANGELOG.md for detailed changes and bug fixes.
+
+Roadmap
+See IMPROVEMENTS.md for planned improvements and features.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Perplexity.ai for the amazing AI search engine
+Emailnator for temporary email service
+All contributors who help improve this project
+Disclaimer
+This is an unofficial API wrapper. Use responsibly and respect Perplexity.ai's terms of service. This project is for educational purposes only.
+
+About
+Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface
+
+perplexity.ai
+Topics
+Resources
+Readme
+MIT license
+Security policy
+Security policy
+Activity
+Stars
+1.9k stars
+Watchers
+27 watching
+Forks
+340 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+22
+ (22)
+@helallao
+@lifanwar
+@dominicOT
+@enoquesousa
+@vuchaev2015
+@luizslvr
+@Cyberpradeep
+@RMNO21
+@sghng
+@Christian-Sidak
+@braveocheretovych
+@dearrevils
+@claude
+@Kerry1207
++ 8 contributors
+Languages
+Python
+100%
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ Skip to content
+helallao
+User navigation
+Overview
+Repositories
+2
+ (2)
+Projects
+Packages
+Stars
+4
+ (4)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+View helallao's full-sized avatar
+🏠
+Ali Yaşar
+helallao · he/him
+ 15.4k followers · 368k following
+@Metakorteks
+Adana, Turkey
+02:46 - 7h ahead
+https://metakorteks.com/
+Achievements
+Achievement: Pair Extraordinairex3
+Achievement: Pull Sharkx4
+Achievement: YOLO
+Achievement: Quickdraw
+Achievement: Starstruckx3
+Highlights
+Developer Program Member
+Organizations
+@Metakorteks
+Popular repositoriesLoading
+perplexity-ai
+Public
+Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface
+
+ Python  1.9k  340
+
+tureng
+Public
+Tureng Türkçe İngilizce Sözlüğü Veri Tabanı
+
+ Python  38  3
+
+2,413 contributions in 2023
+Skip to contributions year list
+Contribution Graph
+Day of Week	JanuaryJan	FebruaryFeb	MarchMar	AprilApr	MayMay	JuneJun	JulyJul	AugustAug	SeptemberSep	OctoberOct	NovemberNov	DecemberDec
+SundaySun																																																					
+MondayMon																																																					
+TuesdayTue																																																					
+WednesdayWed																																																					
+ThursdayThu																																																					
+FridayFri																																																					
+SaturdaySat																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Contribution activity
+December 2023
+helallao/perplexity-ai 17 commits
+175 contributions in private repositoriesDec 1 – Dec 30
+November 2023
+helallao/perplexity-ai 22 commits
+123 contributions in private repositoriesNov 1 – Nov 30
+October 2023
+helallao/perplexity-ai 4 commits
+456 contributions in private repositoriesOct 8 – Oct 31
+September 2023
+helallao/perplexity-ai 21 commits
+6 contributions in private repositoriesSep 17
+Loading
+2026
+2025
+2024
+2023
+2022
+2021
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+'
+Skip to content
+helallao
+User navigation
+Overview
+Repositories
+2
+ (2)
+Projects
+Packages
+Stars
+4
+ (4)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+View helallao's full-sized avatar
+🏠
+Ali Yaşar
+helallao · he/him
+ 15.4k followers · 368k following
+@Metakorteks
+Adana, Turkey
+02:46 - 7h ahead
+https://metakorteks.com/
+Achievements
+Achievement: Pair Extraordinairex3
+Achievement: Pull Sharkx4
+Achievement: YOLO
+Achievement: Quickdraw
+Achievement: Starstruckx3
+Highlights
+Developer Program Member
+Organizations
+@Metakorteks
+Find a repository…
+perplexity-ai Public
+Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface
+api
+ai
+artificial-intelligence
+gpt
+language-models
+language-model
+perplexity
+ Python  1,908  340 MIT License Updated 2 weeks ago
+tureng Public
+Tureng Türkçe İngilizce Sözlüğü Veri Tabanı
+translation
+tureng
+dictionary
+translate
+turkish-language
+ Python  38  3 Updated on May 23
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+@Satobloc
+Satobloc (Satobloc)settings
+Your personal account
+
+Access
+Code, planning, and automation
+Security
+Integrations
+Archives
+Public profile
+Name
+Your name may appear around GitHub where you contribute or are mentioned. You can remove it at any time.
+Public email
+
+Select a verified email to display
+You can manage verified email addresses in your email settings
+
+Bio
+Tell us a little bit about yourself
+
+You can @mention other users and organizations to link to them.
+
+Pronouns
+
+Don't specify
+URL
+Social accounts
+Link to social profile 1
+Link to social profile 2
+Link to social profile 3
+Link to social profile 4
+Company
+You can @mention your company’s GitHub organization to link it.
+
+Location
+Display current local time
+Other users will see the time difference from their local time.
+
+ORCID iD
+You have a connected ORCID iD 0009-0006-2462-0062 for the account @Satobloc.
+
+Display your ORCID iD on your GitHub profile
+
+Disconnecting your ORCID iD may affect areas of your profile where your ORCID iD is displayed.
+
+All of the fields on this page are optional and can be deleted at any time, and by filling them out, you're giving us consent to share this data wherever your user profile appears. Please see our privacy statement to learn more about how we use this information.
+
+
+Profile picture
+@Satobloc Edit
+Contributions & activity
+Make profile private and hide activity
+Enabling this will hide your contributions and activity from your GitHub profile and from social features like followers, stars, feeds, leaderboards and releases.
+Include private contributions on my profile
+Your contribution graph, achievements, and activity overview will show your private contributions without revealing any repository or organization information. Read more.
+Profile settings
+Show Achievements on my profile
+Your achievements will be shown on your profile.
+GitHub Developer Program
+Building an application, service, or tool that integrates with GitHub? Join the GitHub Developer Program, or read more about it at our GitHub developer program.
+
+Jobs profile
+ Available for hire
+
+Trending settings
+Preferred spoken language
+
+No Preference
+We'll use this language preference to filter the trending repository lists on Explore our Trending Repositories page.
+
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to main content
+GitHub Docs
+Select your plan:
+
+Search or ask Copilot
+/
+HomeAccount and profileHow-tosContribution settingsView contributions
+Account and profile
+
+Get started
+
+Concepts
+
+How-tos
+
+Personal account management
+
+Account settings
+
+Profile customization
+
+Contribution settings
+Show an overview
+View contributions
+Private contributions and achievements
+Send enterprise contributions
+Troubleshoot missing contributions
+Viewing commit details
+
+Organization membership
+
+Email preferences
+
+Tutorials
+
+Reference
+Viewing contributions on your profile
+You can see a history of your contributions on your profile.
+
+In this article
+Prerequisites
+Viewing contributions in a specific time range
+Viewing a timeline of your contributions
+Next steps
+Prerequisites
+Before you view contributions on your profile, you should understand what counts as a contribution, and what other information your profile displays. See Contributions on your profile.
+
+Viewing contributions in a specific time range
+In the upper-right corner of any page, click your profile picture, then click Your profile.
+
+To see a visual representation of your contributions, scroll down to the section labeled "NUMBER contributions in the last year".
+
+Note
+
+Commits will only appear on your contributions calendar if the email address you used to author the commits is connected to your GitHub account. For more information, see Troubleshooting missing contributions
+
+To view contributions made on a specific day, click the square corresponding to that day.
+
+To view contributions made over a specific time span, click the square corresponding to the start of the time span, press Shift, then click the square corresponding to the end of the time span.
+
+Note
+
+You can select up to a one-month range on your contributions calendar. If you select a larger time span, we will only display one month of contributions.
+
+Viewing a timeline of your contributions
+In the upper-right corner of any page, click your profile picture, then click Your profile.
+To see a timeline of your contributions, starting with your most recent work, scroll down to the "Contribution activity" section of the page.
+Optionally, to explore older contributions:
+At the bottom of the timeline, click Show more activity.
+On the right side of the page, click the year you want to see contributions from.
+Next steps
+To learn more about what counts as a contribution, see Troubleshooting missing contributions
+
+If you use GitHub Enterprise Server and your enterprise owner enables unified contributions, you can send enterprise contribution counts to your GitHub.com profile. See Sharing contributions from GitHub Enterprise Server.
+
+
+Back to top
+Help and support
+Was this Doc helpful?
+
+Help us make GitHub Docs great!
+All Docs are open source. See something that's wrong or unclear? Submit a pull request.
+
+Still need help?
+Ask the GitHub community
+Contact support
+Expert services
+Blog
+GitHub Inc. © 2026
+Terms
+Privacy
+Status
+Pricing
+
+
+
+Skip to content
+Satobloc
+User navigation
+Overview
+Repositories
+9
+ (9)
+Projects
+Packages
+Stars
+17
+ (17)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+
+Satobloc
+ 4 followers · 38 following
+https://orcid.org/0009-0006-2462-0062
+Achievements
+Achievement: Quickdraw
+Achievement: Pull Shark
+
+You unlocked new Achievements with private contributions! Show them off by including private contributions in your Profile in settings.
+PinnedLoading
+ SAT_THEORY_ARCHIVE_2023-25 Public
+This is an attempt to gather together the voluminous materials that have gone into developing the Satobloc Theory for reference, history, and analysis just as we enter our into our first Lean-Locke…
+
+ Wolfram Language  2
+
+ Soxieu Public
+Forked from razzant/ouroboros
+
+Ouroboros — self-creating AI agent. Born Feb 16, 2026.
+
+ Python
+
+3,574 contributions in 2026
+Skip to contributions year list
+Contribution Graph
+Day of Week	JanuaryJan	FebruaryFeb	MarchMar	AprilApr	MayMay	JuneJun	JulyJul	AugustAug	SeptemberSep	OctoberOct	NovemberNov	DecemberDec
+SundaySun																																																					
+MondayMon																																																					
+TuesdayTue																																																					
+WednesdayWed																																																					
+ThursdayThu																																																					
+FridayFri																																																					
+SaturdaySat																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Contribution activity
+September 2026
+Satobloc/HsH 2,349 commits
+Satobloc/HSH_RESOURCES 547 commits
+Satobloc/SAT_THEORY_ARCHIVE_2023-25 343 commits
+ Satobloc/nlab
+ Ruby
+This contribution was made on Sep 9Sep 9
+ Satobloc/HSH_RESOURCES
+ HTML
+This contribution was made on Sep 6Sep 6
+ Satobloc/HsH
+ HTML • Built by @Satobloc @github-actions[bot]
+This contribution was made on Sep 4Sep 4
+Created a pull request in Satobloc/SAT_THEORY_ARCHIVE_2023-25 that received 1 comment
+Sep 22
+First FLC page reconstruction feed and Sites home
+Purpose Establish the archive as the source for the separate Floating Liars' Club site and give Sites work a stable handoff. Included 138 source-l…
+
++2,052 −0  lines changed •1 comment
+ Archive-wide layered conversation autotag indexing
+This contribution was made on Sep 13Sep 13
+Opened their first issue on GitHub in Satobloc/HsH Public
+Sep 16
+Congratulations on your first issue!
+First issue
+HARD-CORE MUST-KNOW — FUNDAMENTAL INTUITIONS + RESOURCE MAP
+Created an issue in Satobloc/HsH that received 2 comments
+Sep 21
+VISIBLE DIALOGUE — Meridian ↔ current instance: triswale / Graticule → ᚼ transport
+Nathan has asked for a visible technical dialogue between Meridian and the current instance rather than parallel private reasoning. Current-instanc…
+
+2 comments
+ [PEER REVIEW R1][SANDBOXED] Boundary weak-emission paper
+This contribution was made on Sep 22Sep 22
+ [COMPTROLLER][WORKER-REQUESTABLE] Mersearch 1.1 promotion + multi-corpus retrieval
+This contribution was made on Sep 22Sep 22
+ SABLE — streamline orientation docs and make [[GLASS]] resource map unmistakable
+This contribution was made on Sep 16Sep 16
+Loading
+Seeing something unexpected? Take a look at the GitHub profile guide.
+
+2026
+2025
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+User navigation
+Overview
+Repositories
+9
+ (9)
+Projects
+Packages
+Stars
+17
+ (17)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+
+Satobloc
+ 4 followers · 38 following
+https://orcid.org/0009-0006-2462-0062
+Achievements
+Achievement: Quickdraw
+Achievement: Pull Shark
+Earned achievements
+
+Achievement: Quickdraw
+Quickdraw
+Gitty up!
+History
+100% unlocked · Unlocked on Sep 13
+Satobloc/HsH#1 · Closed within 5 minutes of opening
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+User navigation
+Overview
+Repositories
+9
+ (9)
+Projects
+Packages
+Stars
+17
+ (17)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+
+Satobloc
+ 4 followers · 38 following
+https://orcid.org/0009-0006-2462-0062
+Achievements
+Achievement: Quickdraw
+Achievement: Pull Shark
+Earned achievements
+
+Achievement: Pull Shark
+Pull Shark
+@Satobloc opened pull requests that have been merged.
+History
+Unlocked on Jun 13
+Satobloc/SAT_THEORY_ARCHIVE_2023-25#4 · 2nd pull request merged
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+Skip to content
+Satobloc
+User navigation
+Overview
+Repositories
+9
+ (9)
+Projects
+Packages
+Stars
+17
+ (17)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+
+Satobloc
+ 4 followers · 38 following
+https://orcid.org/0009-0006-2462-0062
+Achievements
+Achievement: Quickdraw
+Achievement: Pull Shark
+Lists (2)
+🚀 My stack
+1 repository
+🔮 Future ideas
+1 repository
+Stars
+Search
+Search stars
+Showing results
+decoderesearch / circuit-tracer
+ Python  2,911  346 Updated 5 days ago
+hijohnnylin / neuronpedia
+open source interpretability platform 🧠
+ TypeScript  1,147  151 Updated yesterday
+sqvanfleet / aggdiff_landau_particle_method_discg
+ MATLAB  2 Updated on Nov 25, 2024
+simplex-chat / simplex-chat
+SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
+ Haskell  19,473  1,360 Updated 2 hours ago
+0xNyk / council-of-high-intelligence
+Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode.
+ Shell  4,500  426 Updated 3 days ago
+razzant / ouroboros
+Ouroboros — self-creating AI agent. Born Feb 16, 2026.
+ Python  1,378  638 Updated 41 minutes ago
+jdriordan / tromp
+lambda calculus toy
+ Haskell  3 Updated on Mar 7, 2019
+mlorentedev / hive
+Context infrastructure for AI-assisted development — on-demand Obsidian vault access via MCP
+ Python  11  3 Updated 19 hours ago
+ioannist / six-birds-protocol-trap
+ Python  1 Updated on Mar 8
+ioannist / six-birds-theory
+ TeX  3 Updated on Feb 3
+matlab-deep-learning / Inverse-Problems-using-Physics-Informed-Neural-Networks-PINNs
+ MATLAB  107  13 Updated on Oct 17, 2023
+mvanhorn / last30days-skill
+AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+ Python  62,768  5,460 Updated 2 days ago
+hun99999 / agent-bootstrap
+Process-first bootstrap for Codex and Claude Code with superpowers, role-based subagents, token-efficient workflows, and multilingual setup docs.
+ Python  4 Updated last month
+pdearena / pdearena
+ Python  314  40 Updated on Sep 14, 2024
+TheodoreWolf / pinns
+Playing around with Phyiscs-Informed Neural Networks
+ Jupyter Notebook  124  27 Updated on Jul 8, 2025
+desihub / desida
+Scripts and configuration for DESI Data Assemblies and Releases.
+ Python  7  1 Updated last week
+Satobloc / SAT_THEORY_ARCHIVE_2023-25
+This is an attempt to gather together the voluminous materials that have gone into developing the Satobloc Theory for reference, history, and analysis just as we enter our into our first Lean-Locke…
+ Wolfram Language  2 Updated yesterday
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Hand Sable current priority and old-plan recovery packet
+Active
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2299
+main
+2 hours ago
+Kestrel: require source conversation in reboot chain
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2288
+main
+3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2284
+main
+3 hours ago
+Add reader-state composition and joke-transfer standard
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2282
+main
+4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2279
+main
+4 hours ago
+Define Alberr's standing self-reconstruction job
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2276
+main
+5 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2270
+main
+6 hours ago
+Promote current War Room directive into HsH Common control plane
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2253
+main
+6 hours ago
+Add Nathan On lane to shared Tools Library signal
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2250
+main
+7 hours ago
+Signal Comptroller on shared tools library
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2247
+main
+8 hours ago
+Reconcile Grurple roster with shared rendering defect
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2246
+main
+9 hours ago
+Record Grurple shared rendering defect state
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2245
+main
+9 hours ago
+Route high-priority shared paper rendering defect
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2244
+main
+10 hours ago
+Record Grurple A posting observability boundary
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2243
+main
+11 hours ago
+Add files via upload
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2242
+main
+11 hours ago
+Stage accepted Grurple A R1 in public paper feed
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2241
+main
+13 hours ago
+Advance Grurple A signal to accepted R1 posting lane
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2240
+main
+14 hours ago
+Reconcile Grurple roster after Paper A acceptance
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2239
+main
+15 hours ago
+Record Paper A acceptance-to-posting handoff
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2238
+main
+15 hours ago
+Add files via upload
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2237
+main
+16 hours ago
+Grurple A: apply complete regression recovery patch
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2233
+main
+17 hours ago
+Grurple A: freeze complete regression recovery patch
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2230
+main
+18 hours ago
+QA: flag Grurple A patch bibliography regression
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2227
+main
+18 hours ago
+Grurple A: apply bounded residual-defect narrowing patch
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2226
+main
+19 hours ago
+Reconcile Grurple roster to Paper A residual-defect gate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2225
+main
+20 hours ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Grurple A: freeze narrow patch for two residual acceptance defects
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2224
+main
+20 hours ago
+Grurple A: route normalized R1 to broader acceptance gate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2222
+main
+yesterday
+Reconstruct Hale revival exposure and current reentry state
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2220
+main
+yesterday
+Clarify Nathan framing for Mira lineage advice
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2218
+main
+yesterday
+Add machine-readable Grurple task-graph reconciliation overlay
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2215
+main
+yesterday
+Grurple A: apply frozen external bibliography normalization
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2213
+main
+yesterday
+Paper A: record targeted A2/A5 citation rerun
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2208
+main
+yesterday
+Grurple A: apply frozen A2/A5 proposition citation patch
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2207
+main
+yesterday
+Route Grurple A after P3 primary-source pass
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2206
+main
+yesterday
+GRURPLE-A: freeze exact A2/A5 citation patch
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2204
+main
+yesterday
+Grurple A: Meridian spot-check P2 primary citation target
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2201
+main
+yesterday
+Grurple A: normalize SAT proposition-level citation targets
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2196
+main
+yesterday
+Grurple A: assemble source-typed R1 manuscript
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2193
+main
+yesterday
+Grurple A: assemble verified provenance rows for R1
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2190
+main
+yesterday
+Refresh Code Grurple current-state checkpoint
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2189
+main
+yesterday
+Recover Calder manual reentry pointer
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2188
+main
+yesterday
+Grurple A: reconcile Dec 28 release evidence
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2187
+main
+yesterday
+Grurple A: recover Dec 28 2025 public archive release anchor
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2186
+main
+yesterday
+Grurple A: verify 28 Dec 2025 archive-release anchor
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2185
+main
+yesterday
+Complete Ariadne continuity and exposure reconstruction
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2184
+main
+yesterday
+Record accepted Paper B R1 sandbox website stage
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2181
+main
+yesterday
+Grurple B: Calder accepts reviewed R1 for sandbox staging
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2175
+main
+2 days ago
+Grurple B: run R1 acceptance check
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2174
+main
+2 days ago
+Prepare Ariadne revival identity packet
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2172
+main
+2 days ago
+Grurple A: incorporate primary Dimensional Gravity provenance anchor
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2170
+main
+2 days ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Grurple B: freeze Aster Nathan-fidelity R0 review
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2167
+main
+2 days ago
+Signalbox: record Grurple B first-review incorporation
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2166
+main
+2 days ago
+Verify Janus revival identity and manual reopen pointer
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2164
+main
+2 days ago
+Feed Grurple A primary anchor to Meridian
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2163
+main
+2 days ago
+Add concrete multi-repo Mersearch pilot to Tern study
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2160
+main
+2 days ago
+Align GRURPLE-A R1 disposition with hot-paper posture
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2154
+main
+2 days ago
+Add Ariadne instance placard
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2142
+main
+2 days ago
+Grurple B: freeze R0 and release for independent review
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2132
+main
+2 days ago
+Define solver harness and Mercer silo protocol
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2124
+main
+2 days ago
+Add files via upload
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2114
+main
+2 days ago
+Paper B: integrate formal SAT archive citations
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2100
+main
+2 days ago
+Paper B: formalize recovered SAT archive citations
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2093
+main
+2 days ago
+Code Grurple: reconcile Paper B provenance incorporation state
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2092
+main
+2 days ago
+Log compact homepage hierarchy and active routing update
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2090
+main
+2 days ago
+Record project links, FLC site, and type scale publication
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2089
+main
+2 days ago
+Paper B: incorporate bounded historical boundary-response provenance
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2088
+main
+2 days ago
+Mercer: triage Mersearch boundary-emission provenance run
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2084
+main
+2 days ago
+Paper A: disposition frozen Tern and Aster reviews for R1
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2083
+main
+2 days ago
+Mira: rerun boundary weak-emission provenance after bridge hotfix
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2080
+main
+2 days ago
+RUN 100: enforce non-prescriptive formalism gate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2078
+main
+2 days ago
+Mira: request boundary weak-emission provenance search
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2076
+main
+2 days ago
+Code Grurple: freeze Aster Nathan-fidelity review of Paper A R0
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2073
+main
+2 days ago
+Add full-URL rule for handoff-critical links
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2067
+main
+2 days ago
+Code Grurple: register frozen Tern review and open cross-read
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2066
+main
+2 days ago
+Code Grurple: freeze Meridian Paper A R0 for independent review
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2062
+main
+2 days ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Route Grurple provenance retrieval gap without blocking papers
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2061
+main
+2 days ago
+Mercer: record refreshed Viewer route for Grurple provenance
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2060
+main
+2 days ago
+Route Mercer Grurple provenance into Paper A packet
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2059
+main
+3 days ago
+Mercer: seed Grurple B provenance tranche 01
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2058
+main
+3 days ago
+Route Nathan direct Alberr reentry signal under Code Grurple
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2057
+main
+3 days ago
+Latch first Code Grurple draft into review routing
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2053
+main
+3 days ago
+Create sandboxed boundary weak-emission paper draft R0
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2052
+main
+3 days ago
+Add RUN 101 triswale framed primitive fixture manifest
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2046
+main
+3 days ago
+Record active-edge reconciliation after Runs 097-099
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2039
+main
+3 days ago
+Add Mersearch worker-request template
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2035
+main
+3 days ago
+Close ᚼ solver-unification incorporation signal after RUN 097
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2030
+main
+3 days ago
+Add lightweight worker freshness and break cadence control
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2027
+main
+3 days ago
+Record first clean CTRL-05 cold-start pass
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2021
+main
+3 days ago
+Record third CTRL-05 cold-start routing defect
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2020
+main
+3 days ago
+Run 087: execute typed carrier regression checks
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2016
+main
+3 days ago
+Wire symbol management into three-repository onboarding
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2009
+main
+3 days ago
+Most recent chat, almost live 9/21/2026
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #2001
+main
+3 days ago
+Advance control-plane branch to onboarding cold-start
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1998
+main
+3 days ago
+onboarding: record live-control pointer repair
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1996
+main
+3 days ago
+Prepare Cross-Repo Admin revival reentry packet
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1995
+main
+3 days ago
+onboarding: name live control-plane surfaces
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1994
+main
+3 days ago
+Record 2026-09-21 onboarding cold-start repair
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1993
+main
+3 days ago
+Meridian: add product-torus holonomy type gate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1992
+main
+3 days ago
+Repair onboarding cold-start orientation pointer
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1985
+main
+3 days ago
+public-site: queue helical ruler and single-carrier current-work packet
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1980
+main
+3 days ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+public-site: add structured worker-to-site consumer handoff
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1969
+main
+3 days ago
+CTRL-04 reconcile workflow authority with delegated control
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1957
+main
+3 days ago
+Carry Nathan signet provenance through worker rotations
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1955
+main
+3 days ago
+Record Hale revival reentry state
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1954
+main
+3 days ago
+Meridian Run 085: type carrier geometry vs numeric conditioning
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1949
+main
+3 days ago
+Add analytic QA benchmark for Run 086 generic offset carrier crossings
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1948
+main
+3 days ago
+Comptroller: route generic-offset carrier regression
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1947
+main
+3 days ago
+Add generic offset carrier event stress QA
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1946
+main
+3 days ago
+Index Universal Indicatrix source-control packet
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1945
+main
+3 days ago
+Comptroller: bring LAB-SBS-001 active edge current through Run 084
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1943
+main
+4 days ago
+Comptroller: route non-equilateral collapse-crossing test
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1942
+main
+4 days ago
+Record Calder revival reentry candidate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1940
+main
+4 days ago
+Route Run 083 carrier-margin generalization to Meridian
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1937
+main
+4 days ago
+Disposition Index Desk synchronization recommendation
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1934
+main
+4 days ago
+Record Nathan's compressed working hypothesis
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1931
+main
+4 days ago
+Meridian Run 081: bound Hagalaz admissibility interface
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1928
+main
+4 days ago
+Record Morrow revival candidate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1926
+main
+4 days ago
+Meridian Run 080: require primitive-level perturbations for cross-sol…
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1921
+main
+4 days ago
+Close first website backfill incorporation trial
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1913
+main
+4 days ago
+Meridian Run 079: type-gate Three-Spheres comparator
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1909
+main
+4 days ago
+Incorporate independent Hagalaz QA and tighten UI scope
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1907
+main
+4 days ago
+Record Maturin revival reentry candidate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1904
+main
+4 days ago
+2003 Writings
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1897
+main
+4 days ago
+Mersearch ER/EPR worldline/worldtube provenance
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1896
+main
+4 days ago
+Meridian Run 078: formalize Sim(4) translation gauge gate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1893
+main
+4 days ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Advance Musical Chairs signal from candidate to evidenced one-way pass
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1891
+main
+4 days ago
+Aster: route Minkowski dimensional-provenance source to theorist feed
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1889
+main
+4 days ago
+Record Mercer Hagalaz cross-training evidence
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1886
+main
+4 days ago
+Record first worker live-influx candidate
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1883
+main
+4 days ago
+Record Loom bold-exploration shift run
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1879
+main
+4 days ago
+Checkpoint Commons park-walk incorporation trial
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1868
+main
+4 days ago
+Add Index Desk synchronization build suggestion
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1851
+main
+4 days ago
+Route workers through Orchestrator-Comptroller control model
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1833
+main
+4 days ago
+Add machine-readable task branch graph seed
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1813
+main
+4 days ago
+Add independent P0 falsification controls
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1801
+main
+4 days ago
+Close CTRL-03 and advance control-plane reconciliation
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1799
+main
+4 days ago
+Expand P0 SAT RIGOR promotion controls
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1794
+main
+4 days ago
+Add bounded Hagalaz representation test
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1788
+main
+4 days ago
+Tern: checkpoint lease-health snapshot
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1784
+main
+4 days ago
+Add bounded onboarding audit queue
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1773
+main
+4 days ago
+Advance Aster checkpoint through SAT RIGOR 335
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1760
+main
+4 days ago
+Checkpoint pre-flight control convergence
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1754
+main
+4 days ago
+Meridian: literal Hagalaz composition from source definitions
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1745
+main
+4 days ago
+Meridian checkpoint: Run 073 Hankel TLS negative control
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1713
+main
+4 days ago
+Tern: checkpoint bounded coordination authority pulse
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1687
+main
+4 days ago
+Record Mercer Searcher 1.0 green acceptance run
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1684
+main
+4 days ago
+Checkpoint LIBRARY reference-lane repair
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1668
+main
+4 days ago
+Meridian run 071 same-sample model selection benchmark
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1665
+main
+4 days ago
+Record Loom Stage-2 access audit
+Status: Deployed (completed).
+Deployed to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1664
+main
+5 days ago
+Record Aster shared-index repair and current SAT RIGOR cursor
+Status: Failed to deploy (completed).
+Failed to deploy to
+github-pages
+by
+Satoblocvia Maintain H(s)H navigation #1660
+main
+5 days ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Deployments
+Environments
+github-pages deployments
+Latest deployments
+github-pages
+Lastdeployed2 hours ago
+Hand Sable current priority and old-plan recovery packet
+github-pages
+Lastdeployed3 hours ago
+Kestrel: require source conversation in reboot chain
+github-pages
+Lastdeployed3 hours ago
+ROT5: add Kestrel receipt and capability-preflight diagnostic
+github-pages
+Lastdeployed4 hours ago
+Add reader-state composition and joke-transfer standard
+github-pages
+Lastdeployed4 hours ago
+Add veto, observation-before-rescue, and low-stakes management princi…
+github-pages
+Lastdeployed5 hours ago
+Define Alberr's standing self-reconstruction job
+github-pages
+Lastdeployed6 hours ago
+Log first Elias threading observation from live ROT5 lease-state change
+github-pages
+Lastdeployed6 hours ago
+Promote current War Room directive into HsH Common control plane
+github-pages
+Lastdeployed7 hours ago
+Add Nathan On lane to shared Tools Library signal
+github-pages
+Lastdeployed8 hours ago
+Signal Comptroller on shared tools library
+Filter deployments
+Filter deployments
+683 deployments
+683 deployments
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+5
+ (5)
+Pull requests
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Maintain H(s)H navigation
+Add veto, observation-before-rescue, and low-stakes management princi… #2279
+All jobs
+Run details
+Annotations
+2 errors, 1 warning, and 1 notice
+maintain
+failed 4 hours ago in 37m 10s
+Search logs
+3s
+1m 53s
+0s
+11s
+0s
+11s
+12s
+2s
+34m 28s
+2s
+1s
+2s
+0s
+0s
+0s
+1s
+Run set -euo pipefail
+[main 67fa70b4] [skip hsh-maintenance] Maintain date/index/tag/viewer navigation
+ 7 files changed, 262 insertions(+), 50 deletions(-)
+To https://github.com/Satobloc/HsH
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Satobloc/HsH'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Error: Main advanced while this run was working. Because this workflow can rename source conversation files as well as regenerate indexes, it will not merge or replay a stale snapshot. A fresh maintenance run must recompute from current main.
+Error: Process completed with exit code 1.
+0s
+0s
+0s
+0s
+0s
+1s
+0s
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+
+Skip to content
+helallao
+tureng
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+helallao
+tureng
+Public
+Go to file
+t
+T
+helallao
+helallao
+Update README.md
+a99a1e9
+ · 
+4 months ago
+Name		
+README.md
+Update README.md
+4 months ago
+tureng.py
+Add files via upload
+4 months ago
+Repository files navigation
+README
+Tureng
+Bu proje Tureng Türkçe İngilizce Sözlüğü'nün veri tabanının offline bir kopyasını oluşturmayı amaçlar. Bu veri tabanını oluşturmak için 2 adımlı bir strateji izlenir. Öncelikle Tureng sitesinde arama kısmındaki kelimeler "brute force" mantığıyla tek tek toplanır. Ardından bu kelimeler üzerinden veri tabanı oluşturulmaya başlanır. Veri tabanı oluşturulurken bulunan yeni kelimeler de bu listeye eklenir, ve bu şekilde ulaşılabilen bütün kelimeler veri tabanına alınmış olur.
+
+Birinci Adım
+Elimizde henüz kelime listesi olmadığı için öncelikle veri tabanını oluşturmaya başlayacağımız kelime listesini oluşturmalıyız. Bunun için aşağıdaki kod kullanılır. find_all_words_starting_with methodu kendisine prefix (ön ek) olarak verilen yazının sonuna farklı farklı karakterler ekleyerek bu yeni prefix'leri tek tek dener ve ekrana her denemede bulunan toplam kelime sayısını ve denenecek kelime sayısını yazdırır.
+
+import json
+import tureng
+
+trng = tureng.Tureng()
+
+for character in '0123456789abcçdefgğhıijklmnoöpqrsştuüvwxyz':
+   print(character)
+   with open(f'tureng/{character}.json', 'w') as fp:
+       json.dump(trng.find_all_words_starting_with(character), fp)
+Her harf için bulunan bütün kelimeler tek bir json dosyasına konulur. 5/17/2026 tarihinde benim tarafımdan oluşturulan bu kelime listesine tureng_words.json dosyasından ulaşabilirsiniz.
+
+İkinci Adım
+Daha sonra oluşturulan bu kelime listesi kullanılarak Türkçe/İngilizce ve İngilizce/Türkçe şeklinde olmak üzere iki bölümden oluşan bir veri tabanı oluşturulur. Bunun için aşağıdaki kod kullanılır. update_database methodu kendisine verilen "wordlist_path", "database_path" ve "completed_words_path" argümanlarındaki dosyaları kullanarak veri tabanını oluşturur. "wordlist_path" dosyası birinci adımda toplanan kelime listesidir, "database_path" veri tabanı dosyasıdır. Eğer henüz oluşturmadıysanız içeriği {"ing": {}, "tur": {}} şeklinde olmalıdır. "completed_words_path" ise şu ana kadar veri tabanına eklenmiş kelimelerin listesidir. Eğer henüz oluşturmadıysanız içeriği [] şeklinde olmalıdır. Kodları çalıştırdığınız zaman her defasında "max_word_limit" argümanına verdiğiniz sayıda kelime veri tabanına eklenir ve dosyalar güncellenir. Veri tabanını oluşturmak uzun süreceği için kodları durdurmak istediğinizde o anki işlem henüz 100%'e ulaşmadan durdurabilirsiniz. "completed_words_path" dosyasının boyutu "wordlist_path" dosyasının boyutuna eşitlendiği zaman bütün kelimeler veri tabanına eklenmiş demektir. 5/17/2026 tarihinde benim tarafımdan oluşturulan veri tabanına tureng_database.json dosyasından ulaşabilirsiniz.
+
+import tureng
+
+trng = tureng.Tureng()
+trng.update_database('tureng_words.json', 'tureng_database.json', 'tureng_completed_words.json', max_word_limit=10_000)
+Sonuç
+Oluşturulan veri tabanı ile offline olarak kelimelerin anlamlarına bakabilirsiniz,
+
+import json
+
+with open('tureng_database.json') as fp:
+    database = json.load(fp)
+
+print(database['ing']['extermination'])
+# ['imha', 'yok etme', 'ortadan kaldırma', 'kökünü kazıma', 'imha etme', 'imha edilme']
+
+print(database['tur']['imha'])
+# ['extermination', 'destruction', 'annihilation', 'disposal', 'holocaust', 'demolition', 'deracination', 'demolishment', 'eradication', 'extirpation', 'extinction', 'wipeout', 'wipe-out', 'demo', 'amortisation', 'amortization']
+About
+Tureng Türkçe İngilizce Sözlüğü Veri Tabanı
+
+tureng.com/tr/turkce-ingilizce
+Topics
+Resources
+Readme
+Activity
+Stars
+38 stars
+Watchers
+0 watching
+Forks
+3 forks
+Report repository
+Releases
+1
+ (1)
+5/17/2026
+Latest
+4 months ago
+Packages
+No packages published
+Contributors
+1
+ (1)
+@helallao
+helallaoAli Yaşar
+Languages
+Python
+100%
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ import time
+import json
+from urllib.parse import quote
+from datetime import timedelta
+from multiprocessing.dummy import Pool
+from curl_cffi import requests
+from bs4 import BeautifulSoup
+
+
+class Pooler:
+    def __init__(self, threads):
+        self.threads = threads
+        self.awaiting_processes = []
+        self.pool = Pool(threads)
+    
+    def add(self, func, *args, **kwargs):
+        self.awaiting_processes.append((func, args, kwargs))
+    
+    def run(self, concurrent=True, callback=True, eta=True, minimum_percentage_diff=0.1):
+        prc_count = len(self.awaiting_processes)
+        unfinished_prc = object()
+        start_time = time.time()
+        last_percentage = 0
+        minimum_percentage_diff = minimum_percentage_diff / 100
+        self.results = [unfinished_prc] * prc_count
+        
+        def order_decorator(func, order):
+            def wrapper(*args, **kwargs):
+                result = func(*args, **kwargs)
+                self.results[order] = result
+                return result
+            return wrapper
+        
+        def process_callback(x):
+            if concurrent and self.awaiting_processes:
+                try:
+                    prc = self.awaiting_processes.pop(0)
+                    self.pool.apply_async(
+                        order_decorator(prc[0], prc_count - (len(self.awaiting_processes) + 1)),
+                        *prc[1:],
+                        callback=process_callback,
+                        error_callback=process_callback)
+                except Exception:
+                    pass
+        
+        while unfinished_prc in self.results:
+            if self.awaiting_processes:
+                for _ in range(self.threads if len(self.awaiting_processes) > self.threads else len(self.awaiting_processes)):
+                    prc = self.awaiting_processes.pop(0)
+                    self.pool.apply_async(
+                        order_decorator(prc[0], prc_count - (len(self.awaiting_processes) + 1)),
+                        *prc[1:],
+                        callback=process_callback,
+                        error_callback=process_callback)
+            
+            if concurrent:
+                unfinished_prc_count = self.results.count(unfinished_prc)
+                
+                while unfinished_prc in self.results:
+                    time.sleep(0.05)
+                    
+                    if callback and self.results.count(unfinished_prc) != unfinished_prc_count:
+                        unfinished_prc_count = self.results.count(unfinished_prc)
+                        finished_prc_count = prc_count - unfinished_prc_count
+                        
+                        if (finished_prc_count / prc_count) - last_percentage <= minimum_percentage_diff:
+                            continue
+                        
+                        if eta:
+                            time_elapsed = time.time() - start_time
+                            time_total = (time_elapsed / finished_prc_count) * prc_count
+                            time_left = str(timedelta(seconds=time_total - time_elapsed))[:-3]
+                        
+                        last_percentage = finished_prc_count / prc_count
+                        
+                        print(f'Phase {finished_prc_count // self.threads}: [' +
+                        ('#' * int(20 * (finished_prc_count / prc_count))).ljust(20, ' ') +
+                        '] ' +
+                        f'{last_percentage:.2%}' +
+                        f' ETA: {time_left}' if eta else '')
+            else:
+                while self.results.count(unfinished_prc) != len(self.awaiting_processes):
+                    time.sleep(0.05)
+                
+                unfinished_prc_count = self.results.count(unfinished_prc)
+                finished_prc_count = prc_count - unfinished_prc_count
+                
+                if callback and (finished_prc_count / prc_count) - last_percentage >= minimum_percentage_diff:
+                    if eta:
+                        time_elapsed = time.time() - start_time
+                        time_total = (time_elapsed / finished_prc_count) * prc_count
+                        time_left = str(timedelta(seconds=time_total - time_elapsed))[:-3]
+                    
+                    last_percentage = finished_prc_count / prc_count
+                    
+                    print(f'Phase {finished_prc_count // self.threads}: [' +
+                    ('#' * int(20 * (finished_prc_count / prc_count))).ljust(20, ' ') +
+                    '] ' +
+                    f'{last_percentage:.2%}' +
+                    f' ETA: {time_left}' if eta else '')
+        
+        return self.results
+
+
+class Tureng:
+    def __init__(self):
+        self.session = requests.Session(headers={
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'tr-TR,tr;q=0.9',
+            'cache-control': 'no-cache',
+            'dnt': '1',
+            'pragma': 'no-cache',
+            'priority': 'u=0, i',
+            'referer': 'https://tureng.com/tr/turkce-ingilizce',
+            'sec-ch-ua': '"Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'same-origin',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+        }, timeout=10, impersonate='chrome')
+        self.souper = lambda x: BeautifulSoup(x, 'lxml')
+        #self.part_of_speeches = {}
+        #self.categories = {}
+    
+    def get_translations(self, word):
+        while True:
+            try:
+                soup = self.souper(self.session.get('https://tureng.com/tr/turkce-ingilizce/' + quote(word)).text)
+                
+                # 4 farklı çeviri türü var, ing/türkçe, türkçe/ing ve aranan kelimenin başka kelimeler ile yine ing/türkçe, türkçe/ing çevirileri
+                # bu çevirileri anlamanın yolu, baştaki h2'nin içinde "diğer terimlerle kazandığı" olup olmaması, yani bu yazıyorsa başka kelimeler ile çeviri demektir
+                # çevirinin ing/türkçe, türkçe/ing mi olduğunu anlamak için ise tablonun en üstündeki "Kategori" ardından gelen dile bakılır, önce ing geliyorsa ing/türkçe, türkçe geliyorsa türkçe/ing
+                translations = {
+                    'ing/tur': [],
+                    'tur/ing': [],
+                    'alt ing/tur': [],
+                    'alt tur/ing': []
+                }
+                
+                for h2 in soup.select('h2'):
+                    table = h2.find_next('table')
+                    
+                    if not table:
+                        break
+                    
+                    ing_to_tur = table.select_one('th[class="c2"]').getText() == 'İngilizce'
+                    
+                    for tr in table.select('tr[class^="tureng-manual"]:not([class*="example-sentences-row"])'):
+                        en_word = tr.select_one('td[class="en tm"]')
+                        tr_word = tr.select_one('td[class="tr ts"]')
+                        category = tr.select_one('td[class="hidden-xs"]').getText()
+                        part_of_speech = None
+                        
+                        #if category and category not in self.categories:
+                        #    self.categories.update({
+                        #        category: len(self.categories)
+                        #    })
+                        
+                        if i := en_word.select_one('i'):
+                            part_of_speech = ii if (ii := i.getText()) else None # there are empty <i> elements sometimes
+                        
+                        #if part_of_speech and part_of_speech not in self.part_of_speeches:
+                        #    self.part_of_speeches.update({
+                        #        part_of_speech: len(self.part_of_speeches)
+                        #    })
+                        
+                        en_word = en_word.select_one('a').getText().strip()
+                        tr_word = tr_word.getText().strip()
+                        #category = self.categories[category]
+                        #part_of_speech = self.part_of_speeches[part_of_speech]
+                        
+                        if 'diğer terimlerle kazandığı' in h2.getText():
+                            if ing_to_tur:
+                                translations['alt ing/tur'].append((en_word, tr_word, category, part_of_speech))
+                            else:
+                                translations['alt tur/ing'].append((en_word, tr_word, category, part_of_speech))
+                        
+                        else:
+                            if ing_to_tur:
+                                translations['ing/tur'].append((en_word, tr_word, category, part_of_speech))
+                            else:
+                                translations['tur/ing'].append((en_word, tr_word, category, part_of_speech))
+                
+                return translations
+        
+            except Exception as e:
+                print(e)
+                time.sleep(1)
+    
+    def get_word_completions(self, query):
+        while True:
+            try:
+                resp = self.session.get(f'https://ac.tureng.co/?t={quote("  " + query)}&l=entr')
+                
+                return {
+                    'query': query,
+                    'results': set(resp.json())
+                }
+            except Exception as e:
+                print(e)
+                time.sleep(1)
+    
+    def find_all_words_starting_with(self, query, threads=100):
+        all_words = set()
+        waiting_for_search = {query}
+        last_searched_words = set()
+        pool = Pooler(threads)
+        characters = '0123456789abcçdefgğhıijklmnoöpqrsştuüvwxyz'
+        
+        while waiting_for_search:
+            print(f'{len(all_words)}, {len(waiting_for_search)}')
+            
+            for query in waiting_for_search:
+                pool.add(self.get_word_completions, query)
+            
+            results = pool.run(callback=None)
+            new_waiting_for_search = set()
+            
+            for result in results:
+                query = result['query']
+                new_words = result['results']
+                
+                all_words.update(new_words)
+                
+                if len(new_words) == 10:
+                    new_waiting_for_search.update(new_words.difference([query]))
+                    new_waiting_for_search.update([query + x for x in characters])
+                    new_waiting_for_search.update([query + ' ' + x for x in characters])
+            
+            # c-ç, ı-i, o-ö gibi harfler yer değiştirebiliyor, dolayısıyla eğer bu iki harf ile de kelime oluşturabilen prefix var ise
+            # bot ölüm döngüsüne giriyor, "jantı" buna bir örnek, "jantı" diye aratınca "janti", "janti" diye aratınca "jantı" çıkıyor
+            waiting_for_search = new_waiting_for_search.difference(last_searched_words)
+            last_searched_words = {x['query'] for x in results}
+        
+        return list(all_words)
+    
+    def update_database(self, wordlist_path, database_path, completed_words_path, threads=100, max_word_limit=10_000):
+        with open(wordlist_path) as fp:
+            wordlist = set(json.load(fp))
+        
+        with open(database_path) as fp:
+            database = json.load(fp)
+        
+        with open(completed_words_path) as fp:
+            completed_words = set(json.load(fp))
+        
+        pool = Pooler(threads)
+        
+        while next_words := list(wordlist.difference(completed_words))[:max_word_limit]:
+            completed_words.update(next_words)
+            
+            for word in next_words:
+                pool.add(self.get_translations, word)
+            
+            for results in pool.run(minimum_percentage_diff=1):
+                for translation in results['ing/tur']:
+                    completed_words.update([translation[0]])
+                    database['ing'].setdefault(translation[0], [])
+
+                    if translation[1] not in database['ing'][translation[0]]:
+                        database['ing'][translation[0]].append(translation[1])
+                    
+                    if translation[1] not in wordlist:
+                        wordlist.update([translation[1]])
+                
+                for translation in results['tur/ing']:
+                    completed_words.update([translation[1]])
+                    database['tur'].setdefault(translation[1], [])
+
+                    if translation[0] not in database['tur'][translation[1]]:
+                        database['tur'][translation[1]].append(translation[0])
+                    
+                    if translation[0] not in wordlist:
+                        wordlist.update([translation[0]])
+                
+                for translation in results['alt ing/tur']:
+                    if translation[0] not in wordlist:
+                        wordlist.update([translation[0]])
+                    
+                    if translation[1] not in wordlist:
+                        wordlist.update([translation[1]])
+                
+                for translation in results['alt tur/ing']:
+                    if translation[0] not in wordlist:
+                        wordlist.update([translation[0]])
+                    
+                    if translation[1] not in wordlist:
+                        wordlist.update([translation[1]])
+            
+            with open(wordlist_path, 'w') as fp:
+                json.dump(list(wordlist), fp)
+            
+            with open(database_path, 'w') as fp:
+                json.dump(database, fp)
+            
+            with open(completed_words_path, 'w') as fp:
+                json.dump(list(completed_words), fp)
+        
+        # son kez sorted olarak kaydet
+        with open(database_path, 'w') as fp:
+            json.dump({
+                k: dict(sorted(v.items(), key=lambda x: x[0]))
+                for k, v in database.items()
+            }, fp)Services
+Why Choose Us?
+Projects
+Book a Call
+Personalized
+Websites & Digital Products
+Metakorteks handles everything from scratch to deploy for you.
+You tell, we build.
+Everything you may ask from a Web Agency
+Unique Designs
+Does your online presence feel ordinary?
+
+Explore this website with its distinctive design and engaging animations. The most impressive part? It only requires a mere 1.6MB of space!
+
+Web Development
+Maintenance
+API Integration
+Looking for API integration solutions?
+
+- We have worked with many well-known api, which makes us expert in this area.
+
+- Check our #Projects page to see our open-source projects.
+
+SEO with Next.js & Vercel
+With Next.js's built-in Search Engine Optimization features and Amazon CDN, your website will have great loading times and, eventually, great search results
+
+Why Choose Us?
+Modern & Reliable Technologies
+We use trusted platforms like Cloudflare and Vercel for hosting and domain management.
+
+Affordable Services
+We offer high-quality services at competitive prices.
+
+Always Here for You
+Need help? We're available 16 hours a day, 5 days a week.
+
+Ready for Tomorrow's Challange
+Your project will be modular and open to possible changes in the future.
+
+We use React, Next for Frontend,
+Python, Django for Backend.
+Serving The World, Based In
+GMT+3
+Got a project in mind?
+Book a call with us
+Book a Call
+Our Works
+Projects
+Github
+Contact
+Book a Call
+Send Email
+Copyright © 2026 Metakorteks | All Rights Reserved
+Skip to content
+seckinyasar
+User navigation
+Overview
+Repositories
+3
+ (3)
+Projects
+Packages
+Stars
+181
+ (181)
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+View seckinyasar's full-sized avatar
+🏠
+Seckin Yasar
+seckinyasar
+ 14.4k followers · 371k following
+@Metakorteks
+Turkey
+02:46 - 7h ahead
+https://metakorteks.com/
+Achievements
+Achievement: Pair Extraordinairex2
+Achievement: Starstruckx2
+Achievement: YOLO
+Achievement: Quickdraw
+Achievement: Pull Sharkx2
+Highlights
+Developer Program Member
+Organizations
+@Metakorteks
+seckinyasar/README.md
+contactseckin@gmail.com
+
+seckin-yasar/
+
+PinnedLoading
+ react19-boilerplate Public
+Boilerplate for React 19, Next.js 15, Tailwind CSS 4, and Motion projects.
+
+ TypeScript  187  29
+
+ OAuth-boilerplate Public
+Boilerplate for Next.js 15, Auth.js v5, Google OAuth, Neon Database, and Sentry integration.
+
+ TypeScript  117  13
+
+683 contributions in the last year
+Skip to contributions year list
+Contribution Graph
+Day of Week	SeptemberSep	OctoberOct	NovemberNov	DecemberDec	JanuaryJan	FebruaryFeb	MarchMar	AprilApr	MayMay	JuneJun	JulyJul	AugustAug	SeptemberSep
+SundaySun																																																					
+MondayMon																																																					
+TuesdayTue																																																					
+WednesdayWed																																																					
+ThursdayThu																																																					
+FridayFri																																																					
+SaturdaySat																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Activity overview
+Contributed to seckinyasar/react19-boilerplate, seckinyasar/seckinyasar
+Loading
+ 
+Code review
+4%
+Issues
+5%
+Pull requests
+91%
+Commits
+Contribution activity
+September 2026
+seckinyasar/react19-boilerplate 9 commits
+ Dev
+This contribution was made on Sep 4Sep 4
+19 contributions in private repositoriesSep 1 – Sep 24
+Loading
+2026
+2025
+2024
+2023
+2022
+2021
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Skip to content
+seckinyasar
+seckinyasar
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+seckinyasar
+seckinyasar
+Public
+Go to file
+t
+T
+seckinyasar
+seckinyasar
+Update README.md
+d877809
+ · 
+3 months ago
+Name		
+README.md
+Update README.md
+3 months ago
+Repository files navigation
+README
+contactseckin@gmail.com
+
+seckin-yasar/
+
+About
+No description, website, or topics provided.
+Resources
+Readme
+Activity
+Stars
+33 stars
+Watchers
+3 watching
+Forks
+2 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+1
+ (1)
+@seckinyasar
+seckinyasarSeckin Yasar
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ Skip to content
+seckinyasar
+seckinyasar
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+Branches
+Branches navigation
+Overview
+Active
+Stale
+All
+Search
+Search branches...
+Default
+Branch
+Updated
+Check status
+Behind
+Ahead
+Pull request
+Action menu
+cv
+seckinyasar
+ 
+3 months ago
+Default
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ Skip to content
+seckinyasar
+react19-boilerplate
+Repository navigation
+Code
+Issues
+Pull requests
+1
+ (1)
+Agents
+Actions
+Projects
+Security and quality
+Insights
+
+ GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before October 23, 2026, or be restricted from account actions.
+
+seckinyasar
+react19-boilerplate
+Public
+Go to file
+t
+T
+seckinyasar
+seckinyasar
+chore: readme
+9e5bfc0
+ · 
+3 weeks ago
+Name		
+.agents/skills
+packages: installed better-auth & prisma. Before setup
+5 months ago
+.vscode
+chore: copy form original repos
+3 weeks ago
+prisma
+checkpoint: before setting OAuths
+5 months ago
+public
+chore: layout test
+last year
+src
+fix: merge conflicts
+3 weeks ago
+.env.example
+chore: remove unused auth tab.
+3 weeks ago
+.gitignore
+fix: merge conflicts
+3 weeks ago
+.prettierignore
+first commit
+last year
+.prettierrc
+chore: copy form original repos
+3 weeks ago
+AGENTS.md
+chore: copy form original repos
+3 weeks ago
+CLAUDE.md
+chore: delete broken & unused blocks.
+5 months ago
+README.md
+chore: readme
+3 weeks ago
+SECURITY.md
+chore: security.md content change.
+3 weeks ago
+components.json
+first commit
+last year
+eslint.config.mjs
+feat(env): add fully validated env setup with Zod
+5 months ago
+next.config.ts
+chore: config file changes
+5 months ago
+package-lock.json
+chore: devmcp packet removed
+3 weeks ago
+package.json
+chore: devmcp packet removed
+3 weeks ago
+postcss.config.mjs
+Initial commit from Create Next App
+last year
+prisma.config.ts
+feat(env): add fully validated env setup with Zod
+5 months ago
+robots.txt
+first commit
+last year
+skills-lock.json
+packages: installed better-auth & prisma. Before setup
+5 months ago
+tsconfig.json
+chore: copy form original repos
+3 weeks ago
+Repository files navigation
+README
+Security
+React19 Boilerplate
+Boilerplate for React 19, Next.js 15, Tailwind CSS 4, and Motion projects. See versions below.
+
+It is designed to kickstart my frontend tasks. It will be regularly updated with new components and features.
+
+Installation
+Install dependencies:
+ npm install
+Run the development server:
+ npm run dev
+To Contribute
+Contributions that make this boilerplate more useful are always welcome.
+
+What can you contribute?
+UI & styling — New components, layouts, themes, and Tailwind CSS patterns
+Animations & Motion — Smooth transitions, interactive effects, and Motion-based experiences
+Accessibility & UX — Keyboard support, focus management, responsive behavior, and usability improvements
+Reusable patterns — Clean examples that can be adapted across different projects
+Contribution guidelines
+Keep components reusable and easy to customize
+Follow the existing Tailwind CSS and Motion setup
+Make sure new examples are responsive and accessible
+Keep the implementation focused and include a clear description in your pull request
+Required environment variables
+Before starting the development server, copy .env.example to .env.local and fill in the values:
+
+cp .env.example .env.local
+The environment variables used by the project are:
+
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+BETTER_AUTH_SECRET=your-secret-key
+BETTER_AUTH_URL=http://localhost:3000
+
+DATABASE_URL="postgresql://user:pass@ep-xxx-pooler.region.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL_UNPOOLED="postgresql://user:pass@ep-xxx.region.aws.neon.tech/neondb?sslmode=require"
+
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+
+GITHUB_CLIENT_ID=your-github-client-id
+GITHUB_CLIENT_SECRET=your-github-client-secret
+
+DISCORD_CLIENT_ID=your-discord-client-id
+DISCORD_CLIENT_SECRET=your-discord-client-secret
+
+# Optional: enables Better Auth Magic Link email delivery.
+RESEND_API_KEY=your-resend-api-key
+RESEND_FROM_EMAIL=your-verified-sender@example.com
+RESEND_API_KEY and RESEND_FROM_EMAIL are only required when Magic Link email delivery is enabled.
+
+Dependencies
+The project includes the following dependencies:
+
+{
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.4",
+    "@radix-ui/react-checkbox": "^1.1.5",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@radix-ui/react-tabs": "^1.1.4",
+    "@xyflow/react": "^12.6.0",
+    "axios": "^1.9.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.487.0",
+    "motion": "^12.12.1",
+    "next": "^15.3.5",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sonner": "^2.0.3",
+    "tailwind-merge": "^3.1.0",
+    "tw-animate-css": "^1.2.5",
+    "zod": "^3.24.2"
+  }
+}
+About
+Boilerplate for React 19, Next.js 15, Tailwind CSS 4, and Motion projects.
+
+Resources
+Readme
+Security policy
+Security policy
+Activity
+Stars
+187 stars
+Watchers
+3 watching
+Forks
+29 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+2
+ (2)
+@seckinyasar
+seckinyasarSeckin Yasar
+@fleajion
+fleajionzidanYourBae
+Languages
+TypeScript
+94.8%
+CSS
+4.1%
+JavaScript
+1.1%
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+ 
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String    @id
+  name          String
+  email         String
+  emailVerified Boolean   @default(false)
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  sessions      Session[]
+  accounts      Account[]
+
+  @@unique([email])
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([token])
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verification")
+}
