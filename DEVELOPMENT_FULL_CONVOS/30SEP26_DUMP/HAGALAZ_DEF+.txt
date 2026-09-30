@@ -1,0 +1,745 @@
+SOLVER RECONSTRUCTIONS 26SEPT2026
+
+MERIDIAN SOLVER ECOLOGY — CONDENSED WORKING MAP
+Status: SANDBOXED / reconstruction + integration state
+Scope: SAT/H(s)H geometric/formal solver family as currently reconstructed.
+Note: “solver” is used broadly: some are mature computational objects, some are
+analytic discriminators, and some are partially reconstructed operator families.
+
+===============================================================================
+1. ᚼ / HAGALAZ TRANSFORM SOLVER
+===============================================================================
+
+INTRO
+A recursive geometric transform intended to map one structured helix/frame state
+into another and provide a common language for nested/superhelical constructions.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Structured states S_i and transforms H_ji.
+• Current candidate representation: oriented similarity
+      H = (t, σ, Q),  u' = t + σQu,   Q ∈ SO(4), σ > 0.
+• Composition, inversion, relative transforms.
+• Six SO(4) rotation channels / parameter grid a–f in broader ᚼ work.
+• Triangle/cycle composition:
+      H20 H12 H01 = e.
+• Exact two-edge → third-edge completion.
+• Gauge/conjugacy treatment of closure residuals.
+• Recursive application S1 → S2 → S3... for superhelices.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: formalize “apply the same kind of geometric operation again” when a
+helix becomes a superhelix/higher-order structure.
+Other: solver translation layer; compare geometric constructions; closure tests;
+recursive-scale bookkeeping; potential common interface between otherwise
+different SAT/H(s)H geometry engines.
+
+USABILITY / CERTAINTY
+• Algebra of the current similarity-transform candidate: usable.
+• Triangle completion/residual mathematics: usable conditional on representation.
+• Canonical identification with Nathan's original/intended ᚼ: NOT YET LOCKED.
+• Six-channel/operator semantics: partly reconstructed.
+• Treat current implementation as candidate formalization, not canonical definition.
+
+SOLVER ECOLOGY / INTEGRATION
+Highest-priority prospective unifier.
+Can receive transforms extracted from other geometry solvers and compare them
+without requiring those solvers to be identical.
+Run 140–142 machinery supplies closure/comparison infrastructure.
+Needs explicit mapping from Three-Spheres, Whirligig, UI/TX and hyperhelix outputs.
+
+OUTWARD-FACING SPEC
+“ᚼ is a recursive geometric-transform framework for representing how one
+oriented, scaled and positioned geometric state becomes another. It supports
+composition, inversion and closed-loop consistency tests, making it useful for
+comparing nested geometric constructions. The current similarity-transform
+implementation is a sandboxed candidate formalization rather than a claim that
+all participating solvers are equivalent.”
+
+
+===============================================================================
+2. DOUBLE-ROTATION / TWO-RATE RECURRENCE SOLVER
+===============================================================================
+
+INTRO
+Recovers the two rotational rates underlying a sampled 4D double-rotation orbit.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Two planar frequencies ω, ν.
+• SO(4)-type double rotation / two orthogonal rotation planes.
+• Sample sequence obeying an order-4 palindromic recurrence.
+• Characteristic roots:
+      e^(±iωτ), e^(±iντ).
+• Recurrence coefficients → cosine roots:
+      x = cos(ωτ), y = cos(ντ).
+• Exact discriminant:
+      Δq = 4 sin²[(ω+ν)τ/2] sin²[(ω−ν)τ/2].
+• Block-Hankel/TLS numerical recovery.
+• Lag/decimation τ = L dt as explicit conditioning variable.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: determine whether two hidden rotational rates can be reconstructed
+from sampled geometric trajectories.
+Other: chirality/rotation diagnostics; parameter recovery; benchmark for
+solver identifiability; possible input to ᚼ relative-transform reconstruction.
+
+USABILITY / CERTAINTY
+• Exact recurrence mathematics: strong.
+• Lag-conditioned discriminant: analytic.
+• Numerical recovery: working on tested easy-gap benchmark.
+• Adjacent sampling can be catastrophically ill-conditioned.
+• Moderate decimation produced <1% median gap error in current easy-gap test.
+• Small-gap resolution boundary still being measured.
+
+SOLVER ECOLOGY / INTEGRATION
+Provides parameter extraction rather than complete geometry generation.
+Natural upstream feeder to ᚼ and rotational-state comparison.
+Needs fixed, answer-blind lag-selection rule and standardized output schema.
+
+OUTWARD-FACING SPEC
+“This solver estimates two underlying rotational rates from sampled 4D
+trajectory data. It uses an exact palindromic recurrence and explicitly accounts
+for sampling-lag conditioning. It is intended for controlled reconstruction and
+comparison of double-rotation geometries, with resolution limits reported rather
+than assumed.”
+
+
+===============================================================================
+3. THREE-SPHERES / CARRIER GEOMETRY SOLVER
+===============================================================================
+
+INTRO
+Computes the common carrier geometry produced by intersections/constraints among
+three spherical structures.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Sphere centers and radii.
+• Gram/K-matrix geometry.
+• Circumcenter/carrier radius.
+• Intersection circle S¹ and collapse cases.
+• Conditioning:
+      κ₂(K), σ_min(K).
+• Residual certification.
+• Known geometric transition:
+      d = √3 R
+  in the relevant symmetric construction, where the S¹ carrier collapses.
+• Status classes:
+      CARRIER_PRESENT / CARRIER_COLLAPSE / UNRESOLVED.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: formalize sphere-intersection constructions used in H(s)H shell,
+carrier and particle-like geometry.
+Other: controlled topology-change benchmark; geometry fixture; independent
+comparison target for ᚼ transformations; degeneracy/conditioning study.
+
+USABILITY / CERTAINTY
+• Core Euclidean geometry: operational.
+• Equilateral fixture independently reconstructed/certified.
+• Conditioning safeguards explicitly defined.
+• Near-zero geometric quantities are NOT automatically classified as collapse.
+• Physical interpretation remains separate from geometric certification.
+
+SOLVER ECOLOGY / INTEGRATION
+One of the strongest exact-geometry anchors in the ecology.
+Shared 4D primitive fixture exists in the working program.
+Planned comparison: hold sphere geometry fixed while altering frame orientation,
+then ask which ᚼ quantities change and which remain invariant.
+
+OUTWARD-FACING SPEC
+“The Three-Spheres solver computes and certifies common carrier geometry for
+three spherical constraints. It distinguishes genuine carrier collapse from
+numerical or rank-conditioning failure and exposes exact geometric quantities
+for use as independent benchmarks by other solvers.”
+
+
+===============================================================================
+4. FINITE-CORE / TANGENCY SOLVER
+===============================================================================
+
+INTRO
+Calculates how finite-radius or finite-thickness structures meet near tangent
+contact and how observable measures scale through the tangent-to-secant crossover.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Local quadratic contact:
+      z + αs + (Krel/2)s² = 0.
+• Effective radius/thickness scales.
+• Dimensionless crossover:
+      Λ = |α| / √(K ρeff).
+• Exact contact-span formulas.
+• B³ volume, S² area and tilted-B² area branches.
+• Universal tangency measure:
+      M_p ∝ K^(-1/2) ε^(p+1/2).
+• Finite-slab crossover function H(r).
+• Unique fold and two-branch inverse reconstruction.
+• Scale-free observables.
+• Connected ↔ split contact-set transition.
+• Vertex-centering and incidence reconstruction.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: replace idealized zero-thickness/tangent intersections with finite-core
+geometry and determine which scaling laws survive.
+Other: classify carrier dimensionality; inverse reconstruction; distinguish
+incidence from thickness; generate publication-ready analytic discriminators.
+
+USABILITY / CERTAINTY
+• Large analytic portion now exact within declared local model.
+• Multiple uniqueness/fold/inverse results derived.
+• Dimensional typing repaired after earlier object-type mismatch.
+• Some coefficients/branches tied specifically to Packet-002 definitions.
+• Remains local quadratic finite-core geometry, not a universal interaction law.
+
+SOLVER ECOLOGY / INTEGRATION
+Currently the richest analytic discriminator family.
+Can provide independent geometric observables against which larger solvers are
+tested.
+Not yet fully wired into ᚼ.
+Excellent candidate for common benchmark/API because inputs and outputs are
+low-dimensional and strongly typed.
+
+OUTWARD-FACING SPEC
+“The finite-core tangency solver models contact between finite-sized geometric
+structures near tangency. It predicts contact spans, areas, volumes, topology
+changes and inverse parameter reconstructions while explicitly distinguishing
+tangent, crossover and secant regimes.”
+
+
+===============================================================================
+5. B³ / S² / B² CARRIER-TYPE DISCRIMINATOR
+===============================================================================
+
+INTRO
+A specialized tangency subsolver that distinguishes candidate carrier dimensions
+and geometries from their leading contact observables.
+
+MATHEMATICAL STRUCTURE / PIECES
+B³:
+      VΣ ~ (π/80) K²ℓ⁵.
+
+S²:
+      AΣ ~ (π C4/4) Kℓ³.
+
+Generic tilted B²:
+      AΣ ~ (C4/4β) Kℓ³,
+      C4 = ∫₀¹ √(1-u⁴) du.
+
+• Dimensionless observable phase diagram.
+• Explicit S²/B² degeneracy at:
+      β = 1/π.
+• Independent radius reconstruction breaks that leading degeneracy.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: determine whether different proposed contact/carrier objects produce
+distinguishable observable scaling.
+Other: dimensional/type checking; experimental-design logic; identify exactly
+which additional measurement is needed when leading observables coincide.
+
+USABILITY / CERTAINTY
+Analytic leading-order discriminator is usable.
+Known degeneracy is explicit rather than hidden.
+Higher-order corrections/general geometries remain incomplete.
+
+SOLVER ECOLOGY / INTEGRATION
+Lives inside finite-core solver but should expose its own typed interface.
+Useful as a downstream classifier for geometry generated elsewhere.
+
+OUTWARD-FACING SPEC
+“This discriminator uses contact-span and measure scaling to classify several
+candidate carrier geometries. It also reports when the available observables
+cannot uniquely distinguish two geometries and specifies the additional datum
+required to resolve the ambiguity.”
+
+
+===============================================================================
+6. FINITE-SLAB INVERSE / FOLD SOLVER
+===============================================================================
+
+INTRO
+Reconstructs finite thickness versus carrier radius from contact observables and
+identifies the exact two-branch ambiguity of that inverse problem.
+
+MATHEMATICAL STRUCTURE / PIECES
+• r = h/ε.
+• Exact normalized observable:
+      Y = H(r).
+• Unique fold:
+      r* ≈ 0.3686624731.
+• Maximum:
+      H* ≈ 1.6984077447.
+• Intrinsic fold polynomial:
+      Q(r)=2r⁵+10r⁴+5r³−15r²+45r−15.
+• Scale-free observable:
+      C = M4/(K³ℓ⁷).
+• Exact ceiling:
+      C* ≈ 0.00117280824.
+• Below ceiling: two inverse branches.
+• At ceiling: coalescence.
+• Above ceiling: no solution within model.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: determine whether finite-thickness measurements uniquely reconstruct
+the underlying geometric decomposition.
+Other: identifiability analysis; conditioning; model-consistency test; curvature
+floor; thin-slab and thin-carrier asymptotics.
+
+USABILITY / CERTAINTY
+Analytically mature within its stated finite-slab model.
+Branch ambiguity is intrinsic, not treated as numerical failure.
+Needs consolidation into a single clean implementation/API.
+
+SOLVER ECOLOGY / INTEGRATION
+Subsolver of finite-core tangency but publication-worthy independently.
+Provides a model-consistency discriminator other solvers can query.
+
+OUTWARD-FACING SPEC
+“This inverse solver determines which finite-core geometries are compatible
+with a measured contact span and volume. It explicitly reports the model's
+two-solution region, unique fold point and impossible region rather than
+forcing a single reconstruction.”
+
+
+===============================================================================
+7. EXACT QUADRATIC CROSSOVER / CONTACT-TOPOLOGY SOLVER
+===============================================================================
+
+INTRO
+Tracks the exact transition from one connected contact region to two separated
+contact regions as incidence departs from tangency.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Symmetric support condition:
+      |½Ks² + αs| ≤ ρ.
+• Λ = |α|/√(Kρ).
+• Exact normalized contact span:
+      F(Λ)
+      = [√(Λ²+2) − √((Λ²−2)_+)]/√2.
+• Unique maximum:
+      Λ = √2,
+      F = √2.
+• Same point is connected→split topology transition.
+• Vertex:
+      sv = −α/K.
+• Threshold equivalence:
+      |sv| = L0/2.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: make Packet-002's tangent/secant crossover geometrically explicit.
+Other: infer incidence from contact position; topology-based classification;
+generate exact benchmark cases for numerical contact solvers.
+
+USABILITY / CERTAINTY
+Exact for the declared quadratic symmetric-support model.
+Cubic/higher-order contact terms can break the reflection symmetry.
+
+SOLVER ECOLOGY / INTEGRATION
+Natural local-contact primitive for finite-core solver.
+Could become a common low-level library function used by several geometry engines.
+
+OUTWARD-FACING SPEC
+“This solver computes the exact size and topology of a quadratic finite contact
+region. It identifies the unique point where total contact is maximal and where
+one connected contact interval splits into two.”
+
+
+===============================================================================
+8. TORUS / WINDING / FRAME-HISTORY SOLVER
+===============================================================================
+
+INTRO
+Separates torus-path closure, intrinsic torus holonomy and embedded 4D frame
+history so they cannot be accidentally treated as the same quantity.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Product torus:
+      ds² = a²dp² + b²dq².
+• Closed winding classes (m,n).
+• Intrinsic Levi-Civita connection: flat.
+• For closed integer winding:
+      Hol^LC = I.
+• Embedded SO(4) frame history.
+• Rotation generators in orthogonal planes.
+• Path-ordered exponential:
+      Qγ = P exp ∫A.
+• Commuting and noncommuting generator cases.
+• Magnus-expansion commutator structure.
+• Rational/irrational winding and closure structure.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: formalize toroidal/null/winding constructions and determine what
+“holonomy” could legitimately mean in them.
+Other: prevent false inference from path closure; distinguish intrinsic from
+extrinsic/frame effects; study ordered rotational history.
+
+USABILITY / CERTAINTY
+Key distinctions are established and usable.
+Intrinsic product-torus LC holonomy is trivial for the closed paths studied.
+Noncommuting frame-history machinery is mathematically available but its exact
+role in canonical H(s)H remains under development.
+
+SOLVER ECOLOGY / INTEGRATION
+Important semantic/type-checking solver.
+Potential feeder into ᚼ because both manipulate SO(4) frame histories.
+Must preserve:
+      path closure ≠ intrinsic LC holonomy ≠ frame/bundle history.
+
+OUTWARD-FACING SPEC
+“This solver analyzes paths on and around toroidal geometries while keeping
+three different notions separate: whether a path closes, what intrinsic parallel
+transport does, and how an embedded 4D frame rotates along the path.”
+
+
+===============================================================================
+9. NONCOMMUTING SO(4) / HOLONOMY ENGINE
+===============================================================================
+
+INTRO
+Computes ordered rotational history when multiple SO(4) rotation channels do not
+commute.
+
+MATHEMATICAL STRUCTURE / PIECES
+• so(4) generators J_ab.
+• Connection/history:
+      A_t = Σ ω_ab(t) J_ab.
+• Ordered exponential:
+      Q = P exp ∫A_t dt.
+• Magnus expansion.
+• Pairwise commutators.
+• Six rotational channels.
+• Scale-normalized versus physical-arclength parameterizations.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: test whether closed/cancelled-looking rotational histories can retain
+ordered information.
+Other: ᚼ implementation; frame transport; distinguish integrated angle from
+ordered operator history.
+
+USABILITY / CERTAINTY
+Standard mathematical machinery is usable.
+Specific assignment of six channels to canonical ᚼ remains under reconstruction.
+
+SOLVER ECOLOGY / INTEGRATION
+Likely low-level engine beneath ᚼ rather than an independent high-level solver.
+Critical for preventing commuting approximations from silently erasing structure.
+
+OUTWARD-FACING SPEC
+“This engine composes time-ordered rotations in four dimensions. It is used
+when the order of rotations matters and simple addition of rotation angles would
+lose information.”
+
+
+===============================================================================
+10. METRIC-INDUCTION SOLVER
+===============================================================================
+
+INTRO
+Constructs a Lorentz-signature effective metric from Euclidean 4-space plus a
+distinguished unit flow direction.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Background δ_AB on R⁴.
+• Unit field u^A.
+• Effective metric:
+      g = δ − 2u⊗u.
+• Signature:
+      (−,+,+,+).
+• Coordinates x⁰=cτ.
+• Effective interval:
+      ds²_eff = dσ² − c²dτ².
+• Expansion/radial constructions in associated model work.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: determine whether Lorentzian metric structure can be induced rather
+than installed as the starting ambient metric.
+Other: provide translation between Euclidean 4D construction space and an
+effective spacetime description.
+
+USABILITY / CERTAINTY
+Algebraic metric construction is straightforward.
+Its status as a physical/emergent spacetime mechanism is sandboxed and requires
+substantially more derivation and comparison.
+
+SOLVER ECOLOGY / INTEGRATION
+Potential bridge between geometry generators and conventional spacetime notation.
+Needs clear separation from purely Euclidean construction solvers.
+
+OUTWARD-FACING SPEC
+“This construction converts a Euclidean four-dimensional geometry plus a chosen
+unit direction into a Lorentz-signature effective metric. It is presently a
+mathematical translation device within the sandboxed model.”
+
+
+===============================================================================
+11. HYPERHELIX / RECURSIVE-SCALING ENGINE
+===============================================================================
+
+INTRO
+Generates and evaluates helices recursively coiled into higher-order helices or
+worldtube structures.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Parametric helices H_i,o(λ).
+• Recursive nesting.
+• Curvature and higher-derivative/jerk penalties.
+• Scale order N.
+• Coiling complexity n.
+• Material/kinematic parity terms.
+• Radius/pitch/phase/frame parameters.
+• Candidate Lagrangian/energy functionals.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: provide an explicit mathematical generator for H(s)H's recursively
+coiled worldtube geometry.
+Other: particle-family geometry exploration; optimization; scaling; input states
+for ᚼ and visualization.
+
+USABILITY / CERTAINTY
+Geometric generation is substantially more definite than physical interpretation.
+Unified canonical parameter schema and solver implementation still need locking.
+Energy/Lagrangian choices remain model-building assumptions unless independently
+derived or constrained.
+
+SOLVER ECOLOGY / INTEGRATION
+Should be a principal geometry generator feeding ᚼ, visualization and geometric
+measurement solvers.
+Needs direct integration with the six-channel SO(4) representation.
+
+OUTWARD-FACING SPEC
+“The hyperhelix engine generates recursively coiled curves and finite-core
+worldtubes with explicit radius, pitch, phase, scale and frame parameters. It
+provides controlled geometric objects for measurement and comparison without
+requiring a physical interpretation.”
+
+
+===============================================================================
+12. SPHERE/SHELL KINEMATICS
+===============================================================================
+
+INTRO
+Studies the allowed relative configurations and transitions of two or more
+3-spherical/spherical shell structures in the larger 4D construction.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Sphere/shell centers and radii.
+• Relative offsets.
+• Intersection circles and degeneracies.
+• Tangent vectors.
+• Collinear/vertex cases.
+• Both-wobble constraints.
+• Angular configuration variables.
+• Energy/minimum candidates where explicitly supplied.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: explore 3+3 shell and particle-like constructions.
+Other: source geometries for Three-Spheres; identify bifurcations; test candidate
+symmetries and allowed configuration spaces.
+
+USABILITY / CERTAINTY
+Individual geometric results are usable.
+Full shell model remains exploratory and contains historical/current variants
+that require provenance control.
+
+SOLVER ECOLOGY / INTEGRATION
+Three-Spheres is the best-certified subsolver.
+Broader shell kinematics should increasingly call certified primitives rather
+than independently reimplementing them.
+
+OUTWARD-FACING SPEC
+“This solver explores the geometry of interacting spherical structures in four
+dimensions, including their intersections, tangent configurations, degeneracies
+and allowed relative motions.”
+
+
+===============================================================================
+13. VISUAL / CLASS-P GEOMETRY SOLVER LAYER
+===============================================================================
+
+INTRO
+Produces exact script-drawn representations directly from solver geometry rather
+than using illustrative drawings as mathematical evidence.
+
+MATHEMATICAL STRUCTURE / PIECES
+• Explicit coordinates and parametric curves/surfaces.
+• Projection from ≤4D into inspectable views.
+• Class P: exact/script-generated.
+• Class H: annotated/hybrid built on exact output.
+• Class I: illustrative only, downstream of P/H.
+• Parameter grids and invariant-view comparisons.
+
+ORIGINAL PURPOSE / OTHER PURPOSES
+Original: let Nathan inspect whether formalized geometry actually looks like the
+intended construction.
+Other: debugging; human geometric validation; publication figures; cross-solver
+comparison; Holo J. F. Light optical-workbench use.
+
+USABILITY / CERTAINTY
+Methodological standard is clear.
+Coverage is incomplete: not every solver yet has a canonical Class-P renderer.
+
+SOLVER ECOLOGY / INTEGRATION
+Should become mandatory human-facing output for geometrically meaningful solver
+changes where visualization can expose implementation mistakes.
+
+OUTWARD-FACING SPEC
+“The visualization layer renders solver-defined geometry directly from its
+coordinates and parameters. Exact computational figures are kept distinct from
+illustrative artwork so visual intuition can assist validation without replacing
+the mathematics.”
+
+
+===============================================================================
+HISTORICAL USES — CONDENSED
+===============================================================================
+
+The solver family, its predecessors and associated hand calculations have been
+used or attempted for:
+
+• reconstructing SAT angular/torsional and later H(s)H hyperhelical geometry;
+• exploring worldline → worldtube and recursive-coiling representations;
+• modeling particle-like, photon-like and neutrino-like geometric modes;
+• exploring precession/clipping and rotated-out-of-readout constructions;
+• examining candidate characteristic angular values including ~0.246 rad;
+• pulsar-glitch / “Quantized Holonomy Transition” model attempts;
+• He-3 / “Holotype Atom” geometric constructions;
+• shell, sphere and carrier-intersection studies;
+• toroidal winding, chirality, flip/flicker and reconnection constructions;
+• emergent-metric / metric-induction attempts;
+• finite-core corrections to idealized intersections;
+• closure, recurrence, rotational-rate and holonomy reconstruction;
+• searching for scale-invariant or dimensionless discriminators;
+• determining whether apparently different geometric representations give the
+  same, different, degenerate or presently incomparable outputs.
+
+Some historical calculations were judged promising or internally consistent at
+the time; some were subsequently downgraded, corrected or retyped. External
+comparisons have identified structural similarities in selected mathematical
+motifs, but no blanket equivalence between SAT/H(s)H and external theories—or
+among the internal solvers themselves—is currently assumed.
+
+
+===============================================================================
+PLANNED / PROMISING USES
+===============================================================================
+
+• Make ᚼ the translation/composition layer rather than forcing one monolithic
+  solver.
+
+• Feed independently generated Three-Spheres, hyperhelix, torus and shell states
+  into ᚼ and ask which quantities agree, transform, or conflict.
+
+• Run blinded cross-solver tests: predict a withheld geometric object/transform
+  before revealing the independent solver output.
+
+• Establish actual numerical resolution limits of the two-rate recurrence solver
+  across Δω = .03, .01, .003 and beyond.
+
+• Build a common benchmark suite of exact fixtures, degeneracies, folds,
+  bifurcations, topology changes and deliberately adversarial cases.
+
+• Use finite-core discriminators to determine which observables genuinely
+  distinguish proposed carrier geometries.
+
+• Build canonical Class-P visualizations for every important solver.
+
+• Convert analytic results into reusable Python primitives with explicit units,
+  domains, conditioning flags and provenance.
+
+• Use solver disagreements productively: disagreement should identify which
+  assumption, representation or measurement differs rather than being averaged
+  away.
+
+• Eventually expose stable solver components as independently usable mathematical
+  tools rather than requiring adoption of SAT/H(s)H interpretation.
+
+
+===============================================================================
+ENTIRE TOOLSET — SHORT OVERVIEW
+===============================================================================
+
+The emerging architecture is less “one giant SAT solver” than a TOOLCHAIN:
+
+  GEOMETRY GENERATORS
+      Hyperhelix / shells / spheres / torus
+                    │
+                    ▼
+  EXACT LOCAL PRIMITIVES
+      Three-Spheres / finite-core / contact topology
+                    │
+                    ▼
+  MEASUREMENT + INVERSE SOLVERS
+      recurrence / carrier classifier / finite-slab inverse
+                    │
+                    ▼
+  TRANSFORM + COMPOSITION LAYER
+                         ᚼ
+                    │
+                    ▼
+  ORDERED FRAME ENGINE
+      SO(4) / noncommuting history / closure residuals
+                    │
+                    ▼
+  TRANSLATION LAYERS
+      metric induction / conventional mathematical representations
+                    │
+                    ▼
+  HUMAN + MACHINE VALIDATION
+      Class-P visuals / fixtures / blind tests / dimensional checks
+
+
+The strongest current direction is therefore not to declare the solvers
+equivalent. It is to make them INDEPENDENT ENOUGH TO TEST ONE ANOTHER while
+giving them a sufficiently precise common interface to exchange geometric data.
+
+
+===============================================================================
+WORK STILL REQUIRED
+===============================================================================
+
+1. Recover and lock the canonical intended ᚼ definition against the original
+   source material; distinguish it from the current similarity-transform
+   candidate.
+
+2. Finish the answer-blind recurrence resolution study and establish numerical
+   conditioning/error envelopes.
+
+3. Define one common typed geometry/state schema:
+      coordinates, frames, scale, units, orientation, parameterization,
+      provenance and uncertainty/conditioning.
+
+4. Implement explicit adapters:
+      Hyperhelix → ᚼ
+      Three-Spheres → ᚼ
+      Torus/frame-history → ᚼ
+      Shell solver → certified Three-Spheres primitives
+      ᚼ → Class-P renderer.
+
+5. Complete blinded triangle/cycle tests using independently generated edges.
+
+6. Consolidate finite-core Runs into one tested library rather than a chain of
+   notebook/run-specific formulas.
+
+7. Add automated dimensional, symmetry, limit, inverse and degeneracy tests.
+
+8. Standardize PASS / FAIL / UNRESOLVED / OUT-OF-DOMAIN semantics so numerical
+   failure cannot masquerade as geometric collapse.
+
+9. Produce canonical Class-P fixtures for every major geometry and ask Nathan
+   whether each reconstruction matches the intended object.
+
+10. Separate:
+       exact mathematics
+       numerical result
+       model assumption
+       historical SAT/H(s)H interpretation
+       current hypothesis
+       external comparison
+    at the API/documentation level.
+
+11. Benchmark cross-solver invariants before attempting stronger unification.
+
+12. Turn the stable subset into a small documented solver library with reproducible
+    examples, tests and publication-facing mathematical specifications.
+
+CURRENT BOTTLENECK IN ONE LINE:
+We now possess several individually useful geometric engines and discriminators;
+the remaining central job is to lock ᚼ's intended semantics and make the engines
+exchange independently generated, typed objects so genuine agreement,
+disagreement and degeneracy become mechanically testable.
