@@ -1,0 +1,955 @@
+# SAT/H(s)H coupled filament–timesheet model v0.1
+
+**Status:** SANDBOXED / derivational spec, not a physical claim  
+**Authoring lane:** Meridian  
+**Date:** 2026-09-27  
+**Purpose:** test the minimal geometric consequences of (i) a hypersuperhelical or vibrating filament, (ii) a moving Minkowskian/SAT resolving timesheet, (iii) reciprocal coil↔sheet coupling, and (iv) possible string-worldsheet correspondences.
+
+---
+
+## 0. Source constraints actually used
+
+### Direct/internal
+- Nathan's July 2026 `SAT ALL TOGETHER SYNTHESIS.txt`: minimal primitives are worldline/filament + timesheet; angle encodes kinematics; reciprocal force on sheet is an explicit SAT hypothesis.
+- `MORE_PYTHON/timesheet_proj.py`: existing "guitar-string with timesheet motion" implementation.
+- `🧱SAT ST.txt`: prior SAT↔string oscillator dictionary; useful precursor but not controlling because some boundary-condition statements need repair.
+- `WORKSPACES/WORLDTUBE_LAB/FINITE_CORE_TANGENCY_PACKET_002.md`: current local finite-core contact law and the incidence/curvature crossover parameter.
+- `CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14.md`: ᚼ is live SAT solver machinery; Kerr/Kelvin remain live H(s)H hypotheses, but neither is assumed here.
+
+### External comparison
+- Akama (1988), *Induced String Action*, DOI 10.1143/PTP.80.935: induced worldsheet actions with intrinsic/extrinsic curvature.
+- Battye & Carter (1995), *Gravitational Perturbations of Relativistic Membranes and Strings*, DOI 10.1016/0370-2693(95)00752-7: covariant perturbation/backreaction machinery for strings and membranes.
+- Capovilla & Guven (1998), *Deformations of extended objects with edges*, arXiv:math-ph/9804002: coupled bulk/edge fluctuations.
+- Ishibashi (2023), closed-string field theory using pants decompositions, DOI 10.1093/ptep/ptad014: pair-of-pants worldsheet topology is standard string-interaction language.
+- de Vega & Sanchez (1995), *Classical splitting of fundamental strings*, arXiv:hep-th/9502049: exact classical string splitting solutions.
+
+No external source is being claimed equivalent to SAT/H(s)H.
+
+---
+
+# 1. Minimal geometry
+
+Work in a four-coordinate premetric representation
+
+\[
+X^A=(x^1,x^2,x^3,q),
+\]
+
+where \(q\) is the SAT propagation coordinate which becomes the Minkowski time-normal direction in the flat readout.
+
+Let the resolving timesheet be the graph
+
+\[
+\Sigma_\tau:\qquad
+F(X,\tau)=q-c_\Sigma \tau-h(\mathbf x,\tau)=0,
+\]
+
+with \(\mathbf x=(x^1,x^2,x^3)\).
+
+The flat Minkowski limit is
+
+\[
+h=0,\qquad q=c_\Sigma\tau.
+\]
+
+A filament/tube center carrier is
+
+\[
+\Gamma(s,\tau)=\bigl(\mathbf u(s,\tau),\,q(s,\tau)\bigr),
+\]
+
+with long axis approximately parallel to \(q\).  
+A finite-core carrier thickens this by a normal fiber \(K_s\subset N_s\Gamma\).
+
+The observed/readout intersection is the operator
+
+\[
+\mathcal I_{\Sigma_\tau}[\Gamma]
+=
+\Gamma(s_\star,\tau),
+\qquad
+F(\Gamma(s_\star,\tau),\tau)=0.
+\]
+
+This is deliberately separate from the ontology of \(\Gamma\): the trace can be helical even when the material carrier is not.
+
+---
+
+# 2. Hypersuperhelix operator and its relation to a string-mode expansion
+
+A minimal explicit version of one ᚼ nesting step is
+
+\[
+\mathcal H_{r,k,\phi,\Pi}[\Gamma](s)
+=
+\Gamma(s)
++
+r\Big[
+\cos(ks+\phi)\,N_1(s)
++
+\sin(ks+\phi)\,N_2(s)
+\Big],
+\]
+
+where \(N_1,N_2\) span a selected transported normal plane \(\Pi(s)\).
+
+Recursive hypersuperhelices are
+
+\[
+\Gamma_{j+1}=\mathcal H_j[\Gamma_j].
+\]
+
+This separates:
+
+- **carrier geometry**: the actual recursively nested path;
+- **normal-frame choice**: how each new coil is attached to the previous one;
+- **topology/closure**: integer/rational relations among phases and boundary conditions;
+- **metric data**: radii, pitches, curvature, torsion.
+
+For small nested amplitudes,
+
+\[
+N_a^{(j)}(s)=e_a+O(r_{<j}k_{<j}),
+\]
+
+so
+
+\[
+\Gamma_N
+=
+\Gamma_0
++
+\sum_j
+r_j
+\big[
+\cos\phi_j\,e_{a_j}
++
+\sin\phi_j\,e_{b_j}
+\big]
++
+O(r_i r_j k_i k_j).
+\]
+
+Therefore:
+
+> **Free string-mode superposition is naturally the linearized limit of recursive hypersuperhelix geometry.**
+
+The first nonlinear distinction appears in the moving normal frame. This is the cleanest place to put genuinely H(s)H-specific mode coupling rather than pretending a free Fourier sum and a recursively nested superhelix are exactly the same object.
+
+---
+
+# 3. Exact "guitar-string → helix trace" theorem
+
+Take an almost straight material filament with circularly polarized transverse vibration
+
+\[
+u_x(s,\tau)=A\cos(ks-\omega\tau),
+\]
+
+\[
+u_y(s,\tau)=A\sin(ks-\omega\tau),
+\]
+
+\[
+q=s.
+\]
+
+A flat moving timesheet \(q=v_\Sigma\tau\) samples
+
+\[
+s_\star=v_\Sigma\tau.
+\]
+
+Hence its intersection trace is
+
+\[
+\gamma(\tau)=
+\left(
+A\cos\Omega\tau,\,
+A\sin\Omega\tau,\,
+v_\Sigma\tau
+\right),
+\]
+
+with
+
+\[
+\boxed{\Omega=k v_\Sigma-\omega}.
+\]
+
+This is exactly a circular helix when \(\Omega\neq0\).
+
+Its pitch per turn is
+
+\[
+\boxed{
+P_{\rm trace}
+=
+\frac{2\pi v_\Sigma}{|\Omega|}
+=
+\frac{2\pi v_\Sigma}{|kv_\Sigma-\omega|}
+}.
+\]
+
+So a helical particle worldline/readout does **not** logically require a materially helical filament. It can be the moving intersection of a straight vibrating filament with the timesheet.
+
+Generalization:
+
+\[
+u_x+i u_y
+=
+\sum_j A_j
+e^{i(k_j s-\omega_j\tau+\phi_j)}
+\]
+
+gives
+
+\[
+u_{\rm trace}(\tau)
+=
+\sum_j A_j
+e^{i[(k_j v_\Sigma-\omega_j)\tau+\phi_j]}.
+\]
+
+Thus the trace frequencies are
+
+\[
+\boxed{\Omega_j=k_jv_\Sigma-\omega_j}.
+\]
+
+Commensurate \(\Omega_j\) give closed/repeating trace geometry; irrational ratios give quasiperiodic/nonclosing traces.
+
+---
+
+# 4. Does slicing commute with ᚼ?
+
+In general,
+
+\[
+\mathcal I_\Sigma\circ\mathcal H
+\neq
+\mathcal H\circ\mathcal I_\Sigma.
+\]
+
+But there is an exact minimal commuting case:
+
+1. flat sheet \(q=v_\Sigma\tau\);
+2. ᚼ adds only transverse displacement;
+3. ᚼ leaves the longitudinal coordinate \(q=s\) unchanged.
+
+Then \(s_\star=v_\Sigma\tau\) is unchanged by the transform, so slicing and transverse ᚼ mode addition commute.
+
+If ᚼ has a longitudinal component \(\delta q\), or the sheet tilts/flexes, the intersection parameter shifts. Linearizing
+
+\[
+F(\Gamma+\delta\Gamma,\tau)=0
+\]
+
+gives
+
+\[
+\boxed{
+\delta s_\star
+=
+-
+\frac{n\cdot\delta\Gamma}
+{n\cdot\partial_s\Gamma}
+}
+\]
+
+for sheet normal \(n\).
+
+This denominator is exactly the incidence factor. It becomes ill-conditioned near tangency and is replaced by the finite-core quadratic-contact law.
+
+This provides the formal bridge between:
+- ᚼ nesting,
+- timesheet slicing,
+- and the existing finite-core tangency program.
+
+---
+
+# 5. Minimal angular coupling
+
+Let \(T\) be the local unit filament tangent and \(n\) the unit timesheet normal.
+
+Define
+
+\[
+\mu=n\cdot T=\cos\theta,
+\]
+
+where \(\theta=0\) is normal incidence / filament tangent parallel to the sheet normal.
+
+The smallest even, sign-independent resistance function with a minimum at normal incidence is
+
+\[
+\boxed{f(\theta)=\sin^2\theta=1-(n\cdot T)^2}.
+\]
+
+A local angular interaction energy can therefore begin as
+
+\[
+U_\theta
+=
+\frac{K_\theta}{2}\sin^2\theta.
+\]
+
+Its orientational restoring torque has magnitude
+
+\[
+\boxed{
+|\tau_\theta|
+=
+K_\theta|\sin\theta\cos\theta|
+=
+\frac{K_\theta}{2}|\sin2\theta|
+}.
+\]
+
+Important consequence:
+
+> An angle-only interaction on an exactly flat, homogeneous sheet creates alignment torque, but by itself it does not create a long-range translational force.
+
+A gravitational/Newtonian branch therefore needs an actual sheet deformation field or another nonuniform mediator.
+
+---
+
+# 6. Helix orientation relative to the sheet
+
+For a helix whose local tangent makes internal pitch angle \(\beta\) with its long axis, and whose long axis is tilted by \(\psi\) relative to the sheet normal,
+
+\[
+T(\phi)
+=
+\cos\beta\,a
++
+\sin\beta\,e_\perp(\phi).
+\]
+
+Averaging around one turn gives
+
+\[
+\left\langle(n\cdot T)^2\right\rangle
+=
+\cos^2\beta\cos^2\psi
++
+\frac12\sin^2\beta\sin^2\psi,
+\]
+
+hence
+
+\[
+\boxed{
+\bar f(\beta,\psi)
+=
+1
+-
+\cos^2\beta\cos^2\psi
+-
+\frac12\sin^2\beta\sin^2\psi
+}.
+\]
+
+Special cases:
+
+\[
+\bar f(\beta,0)=\sin^2\beta,
+\]
+
+\[
+\bar f(\beta,\pi/2)
+=
+1-\frac12\sin^2\beta.
+\]
+
+So both **internal coil pitch** and **axis-to-sheet orientation** influence the mean load.
+
+If a Newtonian/gravitational limit is intended, this orientation dependence cannot remain arbitrary: in the low-velocity weak-field limit it must either be absorbed into the particle's fixed inertial/rest state or average away sufficiently to preserve universality of free fall.
+
+---
+
+# 7. Coil-squash parameter
+
+Use the simple helix
+
+\[
+\Gamma(\phi)
+=
+(R\cos\phi,\,
+R\sin\phi,\,
+p\phi).
+\]
+
+Arc length per radian is
+
+\[
+\ell=\sqrt{R^2+p^2}.
+\]
+
+If the filament material is approximately inextensible on the squash time scale,
+
+\[
+R^2+p^2=\ell^2,
+\]
+
+so
+
+\[
+\boxed{
+R\,\delta R+p\,\delta p=0
+}
+\]
+
+and therefore
+
+\[
+\boxed{
+\delta R
+=
+-\frac{p}{R}\delta p
+}.
+\]
+
+Axial compression \(\delta p<0\) widens the coil \(\delta R>0\).
+
+Let \(K_{\rm sq}\) be the effective axial pitch stiffness and \(P_c\) the local compressive generalized load from the timesheet. Define
+
+\[
+\Pi_{\rm sq}
+=
+\frac{P_c}{K_{\rm sq}p_0}.
+\]
+
+In the small-deformation regime,
+
+\[
+\boxed{
+S_{\rm coil}
+:=
+-\frac{\delta p}{p_0}
+\approx
+\Pi_{\rm sq}\,f(\theta)
+}
+\]
+
+for the simplest angular loading choice.
+
+This is a **parameterization**, not yet a prediction, because \(K_{\rm sq}\) and the absolute coupling scale have not been derived.
+
+The linear regime requires
+
+\[
+\Pi_{\rm sq} f(\theta)\ll1.
+\]
+
+Outside it, one must solve the coupled elastic geometry rather than extrapolate the linear squash law.
+
+---
+
+# 8. Sheet flex and the Newtonian limit
+
+Let the timesheet have scalar normal displacement \(h(\mathbf x,t)\).  
+Use the smallest isotropic quadratic energy with tension and bending:
+
+\[
+E_\Sigma
+=
+\frac12
+\int d^3x
+\left[
+\rho_\Sigma \dot h^2
++
+T_\Sigma|\nabla h|^2
++
+B_\Sigma(\nabla^2h)^2
+\right].
+\]
+
+Add optional damping \(\eta_\Sigma\dot h\) only as a separate constitutive term.
+
+Let one coil apply integrated normal load \(q_i\) at \(\mathbf x_i\). Then
+
+\[
+\rho_\Sigma\ddot h
++
+\eta_\Sigma\dot h
+-
+T_\Sigma\nabla^2 h
++
+B_\Sigma\nabla^4h
+=
+\sum_i q_i\delta^3(\mathbf x-\mathbf x_i).
+\]
+
+At long wavelength and in the static limit,
+
+\[
+-T_\Sigma\nabla^2h
+=
+q_i\delta^3(\mathbf x-\mathbf x_i),
+\]
+
+so in three spatial dimensions
+
+\[
+\boxed{
+h_i(r)
+=
+\frac{q_i}{4\pi T_\Sigma r}
+}.
+\]
+
+If another coil couples by \(U_j=-q_j h\), then
+
+\[
+\boxed{
+\mathbf F_{ij}
+=
+-
+\frac{q_iq_j}{4\pi T_\Sigma}
+\frac{\hat{\mathbf r}}{r^2}
+}.
+\]
+
+This inverse-square law is not inserted manually; it is the Green function of a tension-dominated scalar displacement field living on a **3-dimensional** sheet.
+
+To reproduce Newtonian gravity in the weak-field limit one needs
+
+\[
+q_i=\alpha m_i
+\]
+
+for the same proportionality \(\alpha\) for all low-velocity test bodies. Then
+
+\[
+\boxed{
+G
+=
+\frac{\alpha^2}{4\pi T_\Sigma}
+}.
+\]
+
+This is a hard consistency condition, not merely a calibration convenience.
+
+It also explains what must be true for the "heavy shock absorber in syrup" intuition to become gravity-like:
+
+- the heavy coil must source a proportionally larger sheet deformation;
+- the test coil must also couple proportionally to its inertial mass;
+- then \(F\propto m_{\rm source}m_{\rm test}\), so acceleration is independent of the test mass.
+
+A drag force with a fixed friction coefficient does **not** by itself reproduce this.
+
+---
+
+# 9. Short-scale regularization / finite-core limit
+
+With bending stiffness,
+
+\[
+\ell_b=\sqrt{\frac{B_\Sigma}{T_\Sigma}}
+\]
+
+is the sheet bending crossover scale.
+
+The static Green function becomes
+
+\[
+\boxed{
+h(r)
+=
+\frac{q}{4\pi T_\Sigma r}
+\left(1-e^{-r/\ell_b}\right)
+}.
+\]
+
+The force magnitude is
+
+\[
+\boxed{
+F(r)
+=
+\frac{|q_1q_2|}{4\pi T_\Sigma r^2}
+\left[
+1-
+\left(1+\frac{r}{\ell_b}\right)e^{-r/\ell_b}
+\right]
+}.
+\]
+
+Thus:
+
+- \(r\gg\ell_b\): ordinary \(1/r^2\);
+- \(r\sim\ell_b\): crossover;
+- \(r\ll\ell_b\): the point-source divergence is softened;
+- a finite \(B^3/B^2/S^2\) carrier smears the source further.
+
+The dynamic long-wave sheet speed is
+
+\[
+\boxed{
+c_\Sigma=\sqrt{\frac{T_\Sigma}{\rho_\Sigma}}
+}.
+\]
+
+If this field is intended to represent the gravitational/time-sheet disturbance, the minimal calibration is
+
+\[
+c_\Sigma=c,
+\]
+
+while \(B_\Sigma\) must be small enough that its \(k^4\) dispersion is below observational limits over tested gravitational-wave scales.
+
+A literal viscosity term \(\eta_\Sigma\) would attenuate waves and define a preferred dissipative medium. That is much harder to reconcile with GR/Lorentz constraints. The syrup analogy is therefore safer as an intuition for **response/damping**, while the Newtonian branch comes from **elastic/tension backreaction**.
+
+---
+
+# 10. Tilted sheet: exact single-trace / multi-trace threshold
+
+Take a static helix
+
+\[
+\Gamma(\phi)
+=
+(R\cos\phi,\,
+R\sin\phi,\,
+p\phi)
+\]
+
+and a tilted moving plane
+
+\[
+q-a x=v_\Sigma t,
+\qquad
+a=\tan\psi.
+\]
+
+Intersection requires
+
+\[
+p\phi-aR\cos\phi=v_\Sigma t.
+\]
+
+The left side is globally monotone if
+
+\[
+p>|a|R.
+\]
+
+Therefore the moving sheet has exactly one centerline intersection at each time if
+
+\[
+\boxed{
+|\tan\psi|\frac{R}{p}<1
+}.
+\]
+
+Since \(R/p=\tan\beta\),
+
+\[
+\boxed{
+|\tan\psi\,\tan\beta|<1
+}
+\]
+
+is the exact single-trace condition for this simple helix/plane model.
+
+At
+
+\[
+|\tan\psi\,\tan\beta|=1
+\]
+
+a fold/tangency appears.
+
+Beyond it, the same sheet can intersect the helix in multiple places.
+
+This is not automatically particle creation; it is a **readout multiplicity transition**.
+
+Near the fold,
+
+\[
+\frac{d\phi}{dt}
+=
+\frac{v_\Sigma}
+{p+aR\sin\phi}
+\]
+
+becomes large because the intersection point is a kinematic locus rather than a material signal.
+
+For a finite tube/slab, the current finite-core result replaces this singularity by the quadratic contact equation
+
+\[
+n\cdot y+\alpha s+\frac12A_{\rm rel}s^2=0
+\]
+
+and crossover parameter
+
+\[
+\boxed{
+\Lambda
+=
+\frac{|\alpha|}
+{\sqrt{|A_{\rm rel}|\rho_{\rm eff}}}
+}.
+\]
+
+So the exact centerline tilt threshold and the existing finite-core tangency machinery are consistent pieces of the same picture.
+
+---
+
+# 11. Closed-string conjecture: four distinct assignments
+
+## Assignment A — free-string-like vibration field on an almost straight filament
+
+This is the cleanest version of the "guitar string" model.
+
+Require
+
+\[
+\partial_\tau^2 u^i
+-
+c_f^2\partial_s^2u^i
+=
+0.
+\]
+
+For periodic \(s\sim s+L\),
+
+\[
+u^i(s,\tau)
+=
+u_L^i(s-c_f\tau)
++
+u_R^i(s+c_f\tau),
+\]
+
+which has the same classical left/right decomposition as a free closed-string transverse field after coordinate rescaling.
+
+**What is corresponding:** mode kinematics / wave equation / periodicity.
+
+**What is not yet corresponding:** Polyakov/Nambu-Goto constraints, target-space dimension, quantization, mass-shell relation, gauge charges.
+
+This is a defensible **structural correspondence**, not yet string theory identity.
+
+---
+
+## Assignment B — timesheet intersection trace is "the string"
+
+A moving sheet samples
+
+\[
+\gamma(\tau)
+=
+u(s_\star(\tau),\tau).
+\]
+
+If \(\gamma\) closes, one can reparameterize its period as a circle.
+
+But a one-parameter trace cannot generally reconstruct the two-parameter worldsheet \(u(s,\tau)\).
+
+Therefore:
+
+\[
+\boxed{
+\text{closed trace}
+\not\Rightarrow
+\text{closed string state}
+}
+\]
+
+without an additional injectivity/reconstruction assumption.
+
+This is the mathematically weakest literal ST identification.
+
+It can still be useful as an observational projection.
+
+---
+
+## Assignment C — finite tube/support is primary; its sheet section is \(S^1\)
+
+This is the strongest version of "pants, but the spiral on the leg may just be a marking."
+
+For a closed string, a constant-worldsheet-time section is topologically \(S^1\).
+
+A full H(s)H \(B^3\) core intersected by a 3D timesheet generically yields a 3D bulk section (or \(S^2\) boundary section), **not \(S^1\)**.
+
+Therefore an \(S^1\) string-like section requires extra selected structure, for example:
+
+- a rank-two \(B^2\) material support with boundary \(S^1\);
+- a distinguished 2D cylindrical sub-surface \(S^1\times I\);
+- or an effective boundary mode living on such a sub-support.
+
+This is a powerful discriminator:
+
+> If the closed-string conjecture is literally correct at the intersection level, the H(s)H carrier cannot be only an undifferentiated isotropic \(B^3\) core. It needs a selected string-supporting substructure.
+
+When an \(S^1\) evolves into two \(S^1\) components, the corresponding 2D history has pair-of-pants topology—the standard topological picture of closed-string splitting/joining.
+
+That is a genuine topology match. Dynamics still need to be checked.
+
+---
+
+## Assignment D — material hypersuperhelix itself is the string
+
+Here \(\Gamma_N\) is taken literally as the string embedding.
+
+This requires the strongest conditions:
+
+1. a 2D worldsheet \(X^\mu(\sigma,\tau)\), not only a 1D historical curve;
+2. periodic \(\sigma\) for closed strings;
+3. Polyakov/Nambu-Goto equations (or a declared effective-string replacement);
+4. Virasoro constraints in conformal gauge,
+   \[
+   (\partial_\tau X\pm\partial_\sigma X)^2=0;
+   \]
+5. closed-string level matching after quantization;
+6. a physically fixed string tension
+   \[
+   T_s=\frac{1}{2\pi\alpha'};
+   \]
+7. a target metric/signature map from SAT's premetric or induced geometry to the Lorentzian metric used by the string action.
+
+Without these, "looks like a string vibration" is not the same claim as "is a string-theory state."
+
+---
+
+# 12. Repair to the old SAT↔ST dictionary
+
+The old archive dictionary correctly recognized the usefulness of Fourier mode extraction, but one statement should not be retained:
+
+> Neumann \(\leftrightarrow\cos(n\sigma)\) and Dirichlet \(\leftrightarrow\sin(n\sigma)\) are not interchangeable by an ordinary time-phase shift.
+
+They encode different endpoint conditions.
+
+Also, standard string-theory gauge charges are not obtained merely by declaring the holonomy of an arbitrary projected loop to be \(U(1)\), \(SU(2)\), or \(SU(3)\) charge. Any such SAT assignment requires a separate bundle/compactification/gauge derivation.
+
+---
+
+# 13. Moving timesheet as a chirality-selective sampler
+
+For a free-string-like mode with \(\omega=c_fk\),
+
+co-propagating wave:
+\[
+u_L\sim e^{i(ks-\omega\tau)}
+\]
+
+gives sampled frequency
+
+\[
+\Omega_L=k v_\Sigma-\omega,
+\]
+
+while the counter-propagating wave
+
+\[
+u_R\sim e^{i(ks+\omega\tau)}
+\]
+
+gives
+
+\[
+\Omega_R=k v_\Sigma+\omega.
+\]
+
+If
+
+\[
+v_\Sigma=c_f,
+\]
+
+then
+
+\[
+\boxed{
+\Omega_L=0,\qquad
+\Omega_R=2\omega
+}.
+\]
+
+So a sheet moving at the filament wave speed freezes the co-propagating phase and doubles the sampled frequency of the counter-propagating phase.
+
+This is an exact kinematic property of the sampling map.
+
+It is **not yet** an explanation of physical chirality/helicity, but it is important enough to test because a moving SAT timesheet is not a neutral observer of left/right string modes.
+
+---
+
+# 14. What currently survives
+
+## Green
+- 🟢 A straight vibrating filament plus moving timesheet exactly produces a helix trace.
+- 🟢 Multimode vibration produces a generalized helical/quasiperiodic trace with exact sampled frequencies \(\Omega_j=k_jv_\Sigma-\omega_j\).
+- 🟢 ᚼ nesting and timesheet slicing commute in the special flat/transverse case and fail predictably outside it.
+- 🟢 Minimal angular coupling gives a clean \(\sin^2\theta\) factor and reciprocal alignment torque.
+- 🟢 A 3D sheet-tension field gives a \(1/r\) flex Green function and therefore a \(1/r^2\) two-body force.
+- 🟢 Bending stiffness gives a natural short-scale crossover.
+- 🟢 Tilted sheet + helix has an exact fold threshold \( |\tan\psi\tan\beta|=1 \).
+- 🟢 Finite-core tangency machinery supplies the regularized contact regime near that threshold.
+- 🟢 Pair-of-pants topology becomes literal if the primary readout support is an evolving \(S^1\).
+
+## Yellow
+- 🟡 Absolute coil squash depends on an un-derived pitch stiffness \(K_{\rm sq}\) and coupling scale.
+- 🟡 Newtonian normalization requires a source/load map \(q=\alpha m\) that is not yet derived.
+- 🟡 An actual ST correspondence requires a selected \(S^1\) support or a full 2D worldsheet and the string constraints.
+- 🟡 Recursive hypersuperhelix geometry agrees with free mode superposition only at linear order unless the operator is specially defined.
+- 🟡 "viscosity" is a possible damping analogy, not yet a viable GR replacement.
+
+## Red / do not promote
+- ❌ Do not identify a closed one-parameter intersection trace with a complete closed-string state.
+- ❌ Do not import ST mass formulas before the Virasoro/level-matching/gauge structure is actually present.
+- ❌ Do not claim the scalar sheet-flex model is GR; it currently reproduces only a Newtonian-like Green-function structure.
+- ❌ Do not make angle-dependent gravitational mass arbitrary; weak-field universality constrains it severely.
+
+---
+
+# 15. Highest-value next questions
+
+1. **Mass/load map:** Is the SAT inertial quantity derived from coil geometry proportional to the integrated sheet load \(q\)? If yes, Newtonian universality may follow with one coupling constant.
+2. **Carrier dimension:** Is the physically privileged finite carrier \(B^3\), \(S^2\), \(B^2\), or layered? Literal closed-string sections strongly prefer an \(S^1\)-supporting substructure.
+3. **Constitutive law:** What fixes \(K_{\rm sq}\), \(T_\Sigma\), \(\rho_\Sigma\), and \(B_\Sigma\) from existing SAT/H(s)H geometry rather than by fit?
+4. **Metric map:** Can the same \(h\) that gives the Newtonian weak-field potential induce the previously proposed effective Lorentzian metric without contradiction?
+5. **Covariance:** Can the sheet equations be written geometrically enough that the preferred resolving foliation is representation/readout rather than an observable Lorentz-violating medium?
+6. **String constraints:** Does any current ᚼ-generated two-parameter surface satisfy the Polyakov/Nambu-Goto equations and Virasoro constraints?
+7. **Interaction topology:** Can a Three-Spheres / braid / finite-core event generate an \(S^1\to S^1\sqcup S^1\) pair-of-pants history without inserting topology change by hand?
+8. **Kerr/ER branch:** Only after the tube/string support is fixed should Kerr/ER be tested as a possible realization; it should not be used to define the geometry retroactively.
+
+---
+
+# 16. Numeric diagnostics from this run
+
+For the demonstration values \(A=k=\omega=1\), \(v_\Sigma=0.72\):
+
+\[
+\Omega=-0.28,
+\qquad
+P_{\rm trace}=16.156762.
+\]
+
+For the tension+bending sheet at \(r=\ell_b\), the force is about \(0.264\) of the asymptotic pure \(1/r^2\) value.
+
+The helix/tilted-sheet centerline fold occurs at the dimensionless threshold
+
+\[
+\mu=\frac{|\tan\psi|R}{p}=1.
+\]
+
+For a free mode sampled at \(v_\Sigma=c_f\),
+
+\[
+|\Omega_{\rm co}|=0,
+\qquad
+|\Omega_{\rm counter}|=2\omega.
+\]
+
+---
+
+# 17. Visuals
+
+- `guitar_string_timesheet_trace.*` — **A: evidence of successful run**.
+- `sheet_flex_inverse_square_crossover.*` — **A: evidence of successful run**.
+- `helix_sheet_angle_coupling.*` — **A: evidence of successful run**.
+- `tilted_sheet_intersection_multiplicity.*` — **A: evidence of successful run**.
+- `moving_sheet_chiral_sampling.*` — **A: evidence of successful run**.
+
+All are exact plots of the equations above for declared parameter choices; none are empirical fits.
