@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-30",
+  "principle": "Visible features, source role, semantic meaning, archive provenance, and theory status are independent dimensions.",
+  "categories": {
+    "geometry": {
+      "helix": "single helical path or ribbon",
+      "coil": "coiled or spring-like path",
+      "coiled_coil": "one helical/coiled structure wound around another carrier or paired coil",
+      "paired_helix": "two visibly paired helical strands",
+      "triple_helix": "three visibly associated helical strands",
+      "braid": "multiple strands with repeated over/under or intertwined ordering",
+      "triplet": "three visually grouped strands/components without asserting braid topology",
+      "linked_rings": "two or more closed linked loops",
+      "hopf_like": "two-ring visual resembling a Hopf link; descriptive resemblance only unless topology is established",
+      "borromean_like": "three-ring visual resembling a Borromean arrangement; descriptive resemblance only unless topology is established",
+      "torus": "toroidal carrier/body",
+      "toroidal_coil": "coil arranged around a toroidal or annular carrier",
+      "recursive_coil": "coil/spring whose carrier is itself curved/coiled",
+      "superhelix_like": "visually higher-order helical wrapping; does not by itself establish project ᚼ semantics",
+      "plane_intersection": "curve/strand visibly meets, crosses, or passes through a plane/sheet",
+      "curved_sheet": "curved surface/sheet is a major object",
+      "sphere_wireframe": "wireframe or meshed spherical surface",
+      "field_map": "scalar/vector/contour field visualization"
+    },
+    "composition": {
+      "profile_left": "profile/face motif occupies or faces from left side; requires face/profile detector or human label",
+      "profile_right": "profile/face motif occupies or faces from right side; requires face/profile detector or human label",
+      "facing_pair": "two face/profile motifs oriented toward one another",
+      "split_field_vertical": "image field divides principally left/right into distinct visual populations",
+      "split_field_horizontal": "image field divides principally top/bottom into distinct visual populations",
+      "center_axis": "dominant central vertical/horizontal axis",
+      "multi_panel": "multiple distinct panels/axes in one image",
+      "single_panel": "single dominant visual panel",
+      "symmetry_bilateral": "approximate mirror organization about one axis",
+      "symmetry_quadrupolar": "four-lobed or fourfold field organization",
+      "crop_variant": "cropped view of a larger/source image"
+    },
+    "palette": {
+      "bw": "predominantly black/white/grayscale",
+      "red_bw": "predominantly grayscale with red accent; source-backed early podcast palette lineage",
+      "rgb_triplet": "red/green/blue used to distinguish three strands/components",
+      "cyan_blue": "cyan/blue-dominant palette",
+      "magenta_red": "magenta/red-dominant palette",
+      "cyan_magenta_split": "spatially segregated cyan/blue and magenta/red fields",
+      "viridis_like": "purple/teal/green/yellow scientific colormap family",
+      "glass_plasma_dark": "dark-field luminous/glass/plasma rendering family",
+      "warm_orange_plot": "orange/yellow linework dominates technical plot",
+      "white_background_technical": "white/light technical-figure background"
+    },
+    "role": {
+      "provenance_notebook": "photograph/scan of source notebook or handwritten provenance",
+      "early_sketch": "early hand-drawn project sketch",
+      "model_diagram": "diagram illustrating a project model or construction",
+      "parameter_plot": "quantitative parameter/relationship plot",
+      "comparison_plot": "plot whose primary role is comparison between quantities/models/states",
+      "simulation_random": "explicitly random or Monte Carlo simulation display",
+      "mock_method_demo": "explicitly mock/synthetic demonstration of a method",
+      "external_inspiration": "outside reference supplied as shape/style inspiration, not project evidence",
+      "podcast_thumbnail": "podcast episode/series visual",
+      "ui_screenshot": "software/browser/interface capture",
+      "research_process": "visual record of research/search/coding/document workflow",
+      "project_infographic": "designed explanatory project graphic",
+      "generated_visualization": "generated/rendered project visual rather than documentary source image",
+      "gallery_art": "art/display-oriented project visual",
+      "biomolecular_reference": "external molecular/protein/biological structural reference"
+    },
+    "status": {
+      "historical": "historical project material",
+      "current": "current project material at catalog time",
+      "superseded": "retained for history but replaced by later formulation",
+      "illustrative": "illustrative rather than evidentiary",
+      "method_demo": "demonstrates a method rather than a physical result",
+      "simulation": "simulation output",
+      "unknown": "status unresolved",
+      "semantic_label_unknown": "visible class is clear but intended thematic meaning is unresolved"
+    },
+    "provenance": {
+      "source_backed": "tag/meaning directly supported by source text, caption, or Nathan label",
+      "visible_fact": "descriptive fact visible in the image",
+      "machine_measured": "feature produced by deterministic image measurement",
+      "inferred": "interpretive hypothesis requiring confirmation",
+      "duplicate_verified": "pixel/perceptual comparison supports duplicate relation",
+      "archive_neighbor": "relationship inferred from directory/page adjacency only"
+    }
+  },
+  "precedence": [
+    "explicit Nathan NO/GO decision",
+    "quarantine/exclusion policy",
+    "source-backed semantic label",
+    "visible/descriptive tag",
+    "machine measurement",
+    "archive/path prior",
+    "inference"
+  ],
+  "hard_boundaries": {
+    "PRIOR_ART": "quarantined; analyzer cannot promote",
+    "WEIRD_WACKY_4D_ORGANISM": "excluded from public gallery under standing policy",
+    "external_inspiration": "may train shape vocabulary but must not become project evidence",
+    "thumbnail_path": "GO by default only subject to stronger explicit exclusion/quarantine",
+    "square_heuristic": "square + clearly project-related may suggest thumbnail role, never overrides stronger policy"
+  }
+}
