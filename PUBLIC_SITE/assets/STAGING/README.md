@@ -1,9 +1,14 @@
 # Gallery / Thumbnail STAGING
 
-**Status:** ACTIVE intake; NOT an automatically public gallery
+**Status:** ACTIVE intake; NOT an automatically public gallery  
 **Date:** 2026-09-30
 
 Newly landed visual material is staged here by **pointer**, preserving the original archive path and provenance. Do not duplicate binaries merely to curate them.
+
+## Review queue
+
+- [Images needing a human call](https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md)
+- [Public Visual Atlas feed](https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/GALLERY_FEED.json)
 
 ## Admission rule
 
