@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T17:23:27.702941+00:00",
+  "generated_at_utc": "2026-09-30T17:25:48.789885+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 298,
-    "planned": 33,
+    "skipped": 308,
+    "planned": 34,
     "collision": 1
   },
   "records": [
@@ -33,6 +33,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/23swp42.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24SEPNEWS.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -116,6 +128,18 @@
       "message_count": 74,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLAUDE_pyplan.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLOSED_STRING_VIZ.txt",
@@ -282,6 +306,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH_INTERNAL_ACT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HYPERFLIRTSPECS.txt",
       "new_path": null,
       "start_local": null,
@@ -304,12 +340,34 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsHTRACKING.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Independent theories comparison — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•26.06.01•Independent theories comparison — raw.json",
       "start_local": "2025-10-30T02:06:01.267087-04:00",
       "end_local": "2026-06-01T23:42:14.946933-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 59,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/KESTREL Orig. Science Made Stupid — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-22T21:39:51.236000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1202,
       "status": "planned",
       "warnings": []
     },
@@ -379,6 +437,30 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NCOMM_SCHEDULE_PRIVATE_TAB.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWS24SEP26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWS24SSP26.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -548,6 +630,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SCINEWS_24SEP26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SCI_NEWS_SEP.txt",
       "new_path": null,
       "start_local": null,
@@ -561,6 +655,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SEPSCINEWS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -818,6 +924,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/memories+preferences24sep26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/multiharmonic.py.txt",
       "new_path": null,
       "start_local": null,
@@ -851,6 +969,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/news24s26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
       ]
     },
     {
