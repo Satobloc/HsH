@@ -375,6 +375,233 @@
       ]
     },
     {
+      "id": "historical-sat",
+      "title": "Historical SAT",
+      "summary": "Figures, screenshots and early records from the 2023–25 SAT archive, shown as historical development rather than current H(s)H formulation.",
+      "items": [
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/160bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/20bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/30bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/35bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/37bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/38bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/40bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/43.33.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/60bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/70bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/80bpm.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/Index1.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT - BEFORE SAT PREDICTIONBOOK - 2012.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT EARLY - CHATGPT MEMORY SAVED - 2024.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT EARLY EARLY - 2023.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT EARLY SYSTEMATICS 2.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT EARLY SYSTEMATICS.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRST - 2024.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRST DIMGRAV - 2024.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRST Forces Temporal.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRST MENTIONS 2.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRST MENTIONS.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT FIRSTS - PT.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST - 2025.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST - FILE LIBRARY  (ONEDRIVE).png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST - FILE LIBRARY 2 (ONEDRIVE).png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST - FILE LIBRARY 3 (ONEDRIVE).png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST 4-7-2025.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT HIST.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT PREHIST 2.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT PREHIST 2025.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT PREHISTORY - CHAT 1.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT SYNTHESIS 2025-4-4.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT SYSTEM - NAUT - 2025.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT VERYFIRST 2024-3-13.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/SAT_CALC_GOOGLE.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/early_google_docs.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/january2025.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/sat 2025.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "000 Earliest SAT_RMS/sat histy.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT EARLY EARLY - 2023-5-28.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT FIRST - 2024-3-24.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT FIRST DIMGRAV - 2024.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT FIRST Forces Temporal 2024-8-8.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT PREHIST 2024-11-12.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT PREHISTORY - CHAT 1.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT SYSTEM - NAUT - 2025-4-6.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2003 SKETCHES/SAT VERYFIRST 2024-3-13.PNG"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT2.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT3.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT4.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT5.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT-NaiveGPT6.png"
+        },
+        {
+          "repo": "SAT_THEORY_ARCHIVE_2023-25",
+          "source_path": "2023-24 FRAMEWORK DEVELOPMENT/SAT_theta4_kink_retardance.png"
+        }
+      ]
+    },
+    {
       "id": "provenance",
       "title": "Sketchbooks & provenance",
       "summary": "Selected notebooks, cards and source images showing how the geometric vocabulary developed over time.",
@@ -398,6 +625,248 @@
         {
           "repo": "HsH",
           "source_path": "SAT_VISUALS/VISUALS_1/PROVENANCE/04_sat_notebook_2025-04-25_original_screenshot.png"
+        }
+      ]
+    },
+    {
+      "id": "solver-results",
+      "title": "Solver & result figures",
+      "summary": "Plots and comparison figures produced while testing calculations and geometric models. Captions should distinguish mathematical output, calibration, comparison and physical interpretation.",
+      "items": [
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/7e7bc25e-8457-4550-bee3-765a966e4988.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/CLASS_P_UI_HAGALAZ_TRANSFORM_v01.svg"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/NotebookLM Mind Map.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/Total views in last 14 days.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/ckm-comparison-bar.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/ckm-error-heatmap.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/cmy_gradient_cancellation_atlas.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/ec446656-68c2-48e1-b5f3-d600b8cd0f65.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/gendarme_exact_mirror_color_atlas.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/he3-charge-radius.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/higgs-analogue-lock.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/hydrogen-rydberg-spectrum.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/lepton-generational-coupling.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/lepton-nutation-ae (1).png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/lepton-nutation-ae.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/planetary-ring-spacing.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/pmns-mass-spectrum.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/pulsar_cascade_plot.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/pulsar_density_comparison.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/pulsar_recovery_curve.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/uranus-obliquity-lock.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/venus-obliquity-lock.png"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "30SEP_PAPER_DUMP/worldline_phases.png"
+        }
+      ]
+    },
+    {
+      "id": "project-history",
+      "title": "Project history",
+      "summary": "Selected public-facing records of the podcast, archive and project’s public development.",
+      "items": [
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/34gtretCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/34qffsdf.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/34tferfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/34trefadCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/34yt45tCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/43t3fewfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/43tgerCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/4yt43tCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/5trgsCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/aeergaerCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/af4a34trfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/asdasdsCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/asdasvCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/asfasdfasfweCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/asv3e4erfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/asvasdasdCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/atefraaefdCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/atwer3aCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/awfesdcdsfcCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/awvwe4Capture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/f3etg345tCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/fawsfasdfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/fre4tCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/fwfwefaweCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/htsfgsdfgCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/sdasvasddvCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/sfasfsadfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/sfasfvasdvCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/sfsadfdsfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/wafwsfasdcCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/we4gaersfCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/SAT — PODCAST STATS/wfaedcdefrCapture.JPG"
+        },
+        {
+          "repo": "HSH_RESOURCES",
+          "source_path": "EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Total views in last 14 days.png"
         }
       ]
     }
