@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T18:37:29.335863+00:00",
+  "generated_at_utc": "2026-09-30T18:39:24.119965+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 379,
-    "planned": 69,
+    "skipped": 394,
+    "planned": 71,
     "collision": 1
   },
   "records": [
@@ -824,6 +824,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Mover Trial — raw.json.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.04•26.09.27•Meridian Mover Trial — raw.json.txt",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-27T03:17:15.846465-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 578,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Solver Loop — raw (1).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
       "start_local": "2026-09-21T16:30:14.579439-04:00",
@@ -1028,12 +1038,46 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/README.md.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/README_UI_MAPPER_BASIC.md.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Redshift and Effective Mass — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Redshift and Effective Mass — raw.json",
       "start_local": "2025-05-04T06:34:09.558560-04:00",
       "end_local": "2025-05-04T08:34:46.083702-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 25,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Repurposeable narrative skeleton — raw.txt.txt",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.08•26.09.28•Repurposeable narrative skeleton — raw.txt.txt",
+      "start_local": "2025-10-08T18:22:42.185938-04:00",
+      "end_local": "2026-09-28T03:02:51.476789-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 41,
       "status": "planned",
       "warnings": []
     },
@@ -1173,6 +1217,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SEPSCINEWS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SPEC_COUPLED_FILAMENT_TIMESHEET_STRING_BRIDGE_V01.md.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -1788,6 +1844,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/coupled_filament_timesheet_bridge.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance (1).txt",
       "new_path": null,
       "start_local": null,
@@ -1896,6 +1964,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/guitar_string_timesheet_trace.png.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/memories+preferences24sep26.txt",
       "new_path": null,
       "start_local": null,
@@ -1929,6 +2009,30 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/nellibeth_micro_model_v0_2.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/nellibeth_micro_model_v0_2.json.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
       ]
     },
     {
@@ -2028,7 +2132,103 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_readable.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "expected one conversation object"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_readable.json.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "expected one conversation object"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_records.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "expected one conversation object"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_records.json.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "expected one conversation object"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_summary.json",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run20_summary.json.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/run_20.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/simple_helix_proj.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/story_morph_v0_2.py.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
