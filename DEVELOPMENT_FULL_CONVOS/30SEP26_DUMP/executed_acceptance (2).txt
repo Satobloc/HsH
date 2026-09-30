@@ -1,0 +1,21 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.
+test_absolute_under_and_outside_root (__main__.Commit1Acceptance.test_absolute_under_and_outside_root) ... ok
+test_backslash_rejection_is_cli_only (__main__.Commit1Acceptance.test_backslash_rejection_is_cli_only) ... ok
+test_derived_is_normal_extraction_exclusion (__main__.Commit1Acceptance.test_derived_is_normal_extraction_exclusion) ... ok
+test_github_tree_semantics_are_blob_only (__main__.Commit1Acceptance.test_github_tree_semantics_are_blob_only) ... ok
+test_local_symlink_aliases_rejected (__main__.Commit1Acceptance.test_local_symlink_aliases_rejected) ... ok
+test_pdf_case_and_location (__main__.Commit1Acceptance.test_pdf_case_and_location) ... ok
+test_prior_art_is_strong_lexical_quarantine (__main__.Commit1Acceptance.test_prior_art_is_strong_lexical_quarantine) ... ok
+test_structural_universe_preserved (__main__.Commit1Acceptance.test_structural_universe_preserved) ... ok
+test_supplied_normalization_and_escape (__main__.Commit1Acceptance.test_supplied_normalization_and_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+OK
