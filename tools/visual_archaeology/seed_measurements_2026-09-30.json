@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "feature_version": "visual_analyzer.py@2026-09-30",
+  "note": "Measured from Nathan-supplied standalone figures. Descriptive measurements only; candidates are not semantic ground truth.",
+  "items": [
+    {"image":"output (1).png","width":1180,"height":1180,"square":true,"lr_color_distance":0.0165,"gray_fraction":0.8755,"red_magenta":0.0410,"cyan_blue":0.0312,"candidates":["thumbnail","mostly_bw"]},
+    {"image":"output (3)(1).png","width":1158,"height":1180,"square":false,"lr_color_distance":0.0080,"gray_fraction":0.8782,"red_magenta":0.0310,"cyan_blue":0.0349,"candidates":["mostly_bw"]},
+    {"image":"output (7).png","width":2048,"height":556,"square":false,"lr_color_distance":0.0020,"gray_fraction":0.8901,"red_magenta":0.0,"cyan_blue":0.0,"candidates":["mostly_bw"]},
+    {"image":"output (9).png","width":2048,"height":556,"square":false,"lr_color_distance":0.0020,"gray_fraction":0.8894,"red_magenta":0.0,"cyan_blue":0.0,"candidates":["mostly_bw"]},
+    {"image":"output (13).png","width":2048,"height":1187,"square":false,"lr_color_distance":0.0028,"gray_fraction":0.9961,"red_magenta":0.0,"cyan_blue":0.0002,"candidates":["mostly_bw"]},
+    {"image":"output (15).png","width":1979,"height":1180,"square":false,"lr_color_distance":0.0033,"gray_fraction":0.9866,"red_magenta":0.0,"cyan_blue":0.0,"candidates":["mostly_bw"]},
+    {"image":"output (17).png","width":1793,"height":1101,"square":false,"lr_color_distance":0.0022,"gray_fraction":0.9844,"red_magenta":0.0,"cyan_blue":0.0,"candidates":["mostly_bw"]},
+    {"image":"output (20).png","width":963,"height":656,"square":false,"lr_color_distance":0.0045,"gray_fraction":0.9724,"red_magenta":0.0039,"cyan_blue":0.0154,"candidates":["mostly_bw"]},
+    {"image":"output (21)(1).png","width":963,"height":964,"square":true,"lr_color_distance":0.0070,"gray_fraction":0.9375,"red_magenta":0.0024,"cyan_blue":0.0227,"candidates":["thumbnail","mostly_bw"]},
+    {"image":"output (22).png","width":1555,"height":1579,"square":false,"lr_color_distance":0.0552,"gray_fraction":0.3916,"red_magenta":0.0220,"cyan_blue":0.0598,"candidates":[]},
+    {"image":"output (24).png","width":1980,"height":1180,"square":false,"lr_color_distance":0.0066,"gray_fraction":0.8789,"red_magenta":0.0,"cyan_blue":0.0461,"candidates":["mostly_bw"]},
+    {"image":"saty_output(1).png","width":1180,"height":1180,"square":true,"lr_color_distance":0.0208,"gray_fraction":0.8689,"red_magenta":0.0039,"cyan_blue":0.1116,"candidates":["thumbnail","mostly_bw"]},
+    {"image":"SATy_output2.png","width":810,"height":810,"square":true,"lr_color_distance":0.2658,"gray_fraction":0.0640,"red_magenta":0.4514,"cyan_blue":0.4536,"left_cyan_blue":0.9060,"right_red_magenta":0.9006,"candidates":["thumbnail","split_field_candidate","cyan_left_magenta_right","red_magenta_dominant","cyan_blue_dominant"]},
+    {"image":"SATy_viz_output.png","width":1180,"height":1180,"square":true,"lr_color_distance":0.0005,"gray_fraction":0.0615,"red_magenta":0.0,"cyan_blue":0.5066,"candidates":["thumbnail","cyan_blue_dominant"]}
+  ],
+  "diagnostic_note": "SATy_output2.png is a useful positive control for the proposed split-field test: ~90.6% cyan/blue occupancy on the left and ~90.1% red/magenta occupancy on the right under the current coarse HSV bins. By contrast SATy_viz_output.png has nearly identical left/right color distributions, so the same palette logic does not misclassify it as a split field."
+}
