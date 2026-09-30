@@ -1,0 +1,1 @@
+{"schema_version":1,"record_type":"visual-semiotics-calibration","fields":{"image":"repo-relative path or stable source","labels":"human-approved tags","source":"Nathan|archive-description|other named source","decision":"approved|rejected|partial|unknown","notes":"free text","prediction":"optional preserved machine candidates","feature_version":"analyzer version"}}
