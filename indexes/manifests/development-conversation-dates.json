@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T17:29:53.834165+00:00",
+  "generated_at_utc": "2026-09-30T17:33:20.751749+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "skipped": 319,
-    "planned": 36,
+    "skipped": 321,
+    "planned": 42,
     "collision": 1
   },
   "records": [
@@ -106,6 +106,16 @@
       "end_local": "2024-11-15T03:33:48.101614-05:00",
       "timestamp_source": "message.create_time",
       "message_count": 14,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ARIADNE — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•ARIADNE — raw.json",
+      "start_local": "2026-09-22T22:31:01.791000-04:00",
+      "end_local": "2026-09-23T01:25:20.766036-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 537,
       "status": "planned",
       "warnings": []
     },
@@ -210,6 +220,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Circle degree radian equality — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.20•26.09.12•Circle degree radian equality — raw.json",
+      "start_local": "2025-11-20T11:33:06.429851-05:00",
+      "end_local": "2026-09-12T08:39:54.055127-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 334,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Conversation topics suggestions — raw.json",
@@ -476,6 +496,16 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MIRA Reignite Onboarding Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•MIRA Reignite Onboarding Analysis — raw.json",
+      "start_local": "2026-09-20T19:16:30.243000-04:00",
+      "end_local": "2026-09-22T14:57:55.047000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 412,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MIRA — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.22•26.09.23•MIRA — raw.json",
       "start_local": "2026-09-22T22:41:26.805000-04:00",
@@ -588,6 +618,28 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWS_21SEP26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Nathan Words Excavator — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•Nathan Words Excavator — raw.json",
+      "start_local": "2026-09-20T12:16:08.508784-04:00",
+      "end_local": "2026-09-22T15:19:34.012239-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 385,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PAPERADRAFT.txt",
       "new_path": null,
       "start_local": null,
@@ -672,6 +724,26 @@
       "end_local": "2026-02-07T01:06:15.820690-05:00",
       "timestamp_source": "message.create_time",
       "message_count": 16,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Revival Rotation — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (2).json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T22:14:00.015674-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 197,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Revival Rotation — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.14•26.09.22•Revival Rotation — raw (3).json",
+      "start_local": "2026-09-14T21:43:07.129784-04:00",
+      "end_local": "2026-09-22T22:14:00.015674-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 197,
       "status": "planned",
       "warnings": []
     },
@@ -993,6 +1065,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[[SPHERES H_UNIVERSES -- NON-SAT NON-HSH playground - init]]/WOLFRAM_MISC_.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gg_recent.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
