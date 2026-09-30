@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-30",
+  "source_bundle": "Nathan-supplied SAT_VISUAL_HIST + standalone figures",
+  "families": [
+    {
+      "family_id": "early_notebook_2003_bundle",
+      "members": ["SAT_VISUAL_HIST:p1", "SAT_VISUAL_HIST:p2", "SAT_VISUAL_HIST:p3", "SAT_VISUAL_HIST:p4", "SAT_VISUAL_HIST:p5", "SAT_VISUAL_HIST:p6", "SAT_VISUAL_HIST:p7", "SAT_VISUAL_HIST:p8"],
+      "archive_anchor": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/tree/main/2003%20SKETCHES",
+      "relationship": "appears to correspond to canonical eight-file early-sketch/notebook bundle; exact file-to-page mapping should be hash-checked before canonicalization"
+    },
+    {
+      "family_id": "rgb_three_filament_coil",
+      "members": ["SAT_VISUAL_HIST:p33", "standalone:output (1).png", "SAT_VISUAL_HIST:p35", "standalone:output (3)(1).png", "SAT_VISUAL_HIST:p37"],
+      "relationship": "related RGB triplet/helical construction family; standalone mappings are near-exact to indicated pages"
+    },
+    {
+      "family_id": "particle_pitch_four_panel",
+      "members": ["SAT_VISUAL_HIST:p39", "standalone:output (7).png", "SAT_VISUAL_HIST:p40", "SAT_VISUAL_HIST:p41", "standalone:output (9).png", "SAT_VISUAL_HIST:p42"],
+      "minimal_pairs": [["SAT_VISUAL_HIST:p39", "SAT_VISUAL_HIST:p41"], ["SAT_VISUAL_HIST:p40", "SAT_VISUAL_HIST:p42"]],
+      "relationship": "same four-panel visual grammar with differing Up/Down member configuration; p40/p42 are compressed/deformed counterparts"
+    },
+    {
+      "family_id": "mass_theta4_plot_family",
+      "members": ["SAT_VISUAL_HIST:p44", "SAT_VISUAL_HIST:p45", "standalone:output (13).png", "SAT_VISUAL_HIST:p46", "SAT_VISUAL_HIST:p47", "standalone:output (15).png"],
+      "relationship": "same mass/misalignment visual-analysis neighborhood with zoomed and particle-selection variants"
+    },
+    {
+      "family_id": "filament_rotation_intersection_plot",
+      "members": ["SAT_VISUAL_HIST:p48", "SAT_VISUAL_HIST:p49", "standalone:output (17).png"],
+      "duplicates": [{"a":"SAT_VISUAL_HIST:p48","b":"SAT_VISUAL_HIST:p49","relation":"pixel-identical in audit"}],
+      "relationship": "p48/p49 exact duplicate; standalone image near-exact to both"
+    },
+    {
+      "family_id": "mind_map_duplicate",
+      "members": ["SAT_VISUAL_HIST:p29", "SAT_VISUAL_HIST:p31"],
+      "duplicates": [{"a":"SAT_VISUAL_HIST:p29","b":"SAT_VISUAL_HIST:p31","relation":"pixel-identical in audit"}]
+    },
+    {
+      "family_id": "tau_field_method_demo",
+      "members": ["SAT_VISUAL_HIST:p54", "standalone:output (22).png", "SAT_VISUAL_HIST:p55", "SAT_VISUAL_HIST:p56", "standalone:output (24).png", "SAT_VISUAL_HIST:p57"],
+      "relationship": "random/synthetic/method neighborhood; p54 explicitly Random Monte Carlo, p56 explicitly Mock persistent homology"
+    },
+    {
+      "family_id": "saty_visualization_trio",
+      "members": ["SAT_VISUAL_HIST:p85", "standalone:saty_output(1).png", "SAT_VISUAL_HIST:p86", "standalone:SATy_output2.png", "SAT_VISUAL_HIST:p87", "standalone:SATy_viz_output.png"],
+      "relationship": "three distinct outputs co-located as a historical visualization family: curved-sheet RGB geometry, split-field refraction, quadrupolar field map"
+    },
+    {
+      "family_id": "glass_light_plasma",
+      "members": ["SAT_VISUAL_HIST:p114", "SAT_VISUAL_HIST:p115", "SAT_VISUAL_HIST:p116", "SAT_VISUAL_HIST:p117", "SAT_VISUAL_HIST:p118", "SAT_VISUAL_HIST:p119", "SAT_VISUAL_HIST:p120"],
+      "archive_anchor": "https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PAST_THEORIST_CHECKIN_VISUAL_CONTACT_SHEET_GPT55_THINKING_2026-09-12.md",
+      "relationship": "coherent glass/light/plasma rendering lane"
+    }
+  ]
+}
