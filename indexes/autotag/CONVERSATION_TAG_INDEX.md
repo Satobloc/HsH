@@ -2,91 +2,91 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 618
-- conversation exports recognized: 451
+- JSON files scanned: 621
+- conversation exports recognized: 454
 - non-conversation JSON skipped: 166
 - parse errors: 1
-- structural-index gap candidates: 0
+- structural-index gap candidates: 3
 
 ## Topic coverage
 
-- `PHYSICS`: 394 conversations
-- `GEOMETRY`: 366 conversations
-- `MATHEMATICS`: 352 conversations
-- `CODING`: 347 conversations
-- `INTERACTIONS`: 336 conversations
-- `LANGUAGE`: 333 conversations
-- `SAT-HSH`: 332 conversations
-- `GRAVITY`: 324 conversations
-- `PROVENANCE-HISTORY`: 320 conversations
-- `DEFINITION-CANDIDATE`: 317 conversations
-- `QUANTUM`: 309 conversations
-- `WRITING`: 309 conversations
-- `TOPOLOGY-MORPHOLOGY`: 304 conversations
-- `HISTORY`: 303 conversations
-- `PARTICLE-PHYSICS`: 303 conversations
-- `TOPOLOGY`: 303 conversations
-- `MODEL-VS-REALITY`: 302 conversations
-- `DIMENSIONALITY`: 299 conversations
-- `INTERSECTION-READOUT`: 295 conversations
-- `ARCHIVE-INDEXING`: 292 conversations
-- `VISUALIZATION`: 290 conversations
-- `COSMOLOGY`: 288 conversations
-- `ALGEBRA`: 287 conversations
-- `PHILOSOPHY`: 287 conversations
-- `LAW-LEGAL`: 283 conversations
-- `METRIC`: 281 conversations
-- `CROSSWALK-CANDIDATE`: 280 conversations
-- `4D-THINKING`: 274 conversations
-- `RELATIVITY`: 273 conversations
-- `BIOLOGY`: 266 conversations
-- `MUSIC-AUDIO`: 264 conversations
-- `QUANTIZATION`: 263 conversations
-- `AI-LLM`: 260 conversations
-- `HELIX-GEOMETRY`: 258 conversations
-- `ART-DESIGN`: 249 conversations
-- `CALCULUS`: 247 conversations
-- `LAGRANGIAN`: 245 conversations
-- `GITHUB-REPO`: 243 conversations
-- `PROBABILITY-STATS`: 239 conversations
-- `NESTING`: 238 conversations
-- `OPTICS`: 236 conversations
-- `DATA-PROCESSING`: 235 conversations
-- `BRAIDING`: 234 conversations
-- `HOLONOMY`: 234 conversations
-- `TIMESHEET`: 224 conversations
-- `WORLDLINE`: 216 conversations
-- `BLACK-HOLES`: 211 conversations
-- `ELECTROMAGNETISM`: 209 conversations
-- `CHEMISTRY`: 200 conversations
-- `AUTOMATION`: 187 conversations
+- `PHYSICS`: 397 conversations
+- `GEOMETRY`: 369 conversations
+- `MATHEMATICS`: 355 conversations
+- `CODING`: 350 conversations
+- `INTERACTIONS`: 339 conversations
+- `LANGUAGE`: 336 conversations
+- `SAT-HSH`: 335 conversations
+- `GRAVITY`: 327 conversations
+- `PROVENANCE-HISTORY`: 323 conversations
+- `DEFINITION-CANDIDATE`: 320 conversations
+- `QUANTUM`: 312 conversations
+- `WRITING`: 312 conversations
+- `TOPOLOGY-MORPHOLOGY`: 307 conversations
+- `HISTORY`: 306 conversations
+- `PARTICLE-PHYSICS`: 306 conversations
+- `TOPOLOGY`: 306 conversations
+- `MODEL-VS-REALITY`: 305 conversations
+- `DIMENSIONALITY`: 302 conversations
+- `INTERSECTION-READOUT`: 298 conversations
+- `ARCHIVE-INDEXING`: 295 conversations
+- `VISUALIZATION`: 293 conversations
+- `COSMOLOGY`: 291 conversations
+- `ALGEBRA`: 290 conversations
+- `PHILOSOPHY`: 290 conversations
+- `LAW-LEGAL`: 286 conversations
+- `METRIC`: 284 conversations
+- `CROSSWALK-CANDIDATE`: 283 conversations
+- `4D-THINKING`: 277 conversations
+- `RELATIVITY`: 276 conversations
+- `BIOLOGY`: 269 conversations
+- `MUSIC-AUDIO`: 267 conversations
+- `QUANTIZATION`: 266 conversations
+- `AI-LLM`: 263 conversations
+- `HELIX-GEOMETRY`: 261 conversations
+- `ART-DESIGN`: 252 conversations
+- `CALCULUS`: 250 conversations
+- `LAGRANGIAN`: 248 conversations
+- `GITHUB-REPO`: 246 conversations
+- `PROBABILITY-STATS`: 242 conversations
+- `NESTING`: 241 conversations
+- `DATA-PROCESSING`: 238 conversations
+- `OPTICS`: 238 conversations
+- `BRAIDING`: 237 conversations
+- `HOLONOMY`: 237 conversations
+- `TIMESHEET`: 227 conversations
+- `WORLDLINE`: 219 conversations
+- `BLACK-HOLES`: 214 conversations
+- `ELECTROMAGNETISM`: 211 conversations
+- `CHEMISTRY`: 202 conversations
+- `AUTOMATION`: 190 conversations
 - `THERMODYNAMICS`: 186 conversations
-- `PHOTON-NEUTRINO`: 175 conversations
-- `SPHERES`: 172 conversations
-- `NEUROSCIENCE`: 168 conversations
-- `WORK-CAREER`: 163 conversations
+- `PHOTON-NEUTRINO`: 178 conversations
+- `SPHERES`: 175 conversations
+- `NEUROSCIENCE`: 169 conversations
+- `WORK-CAREER`: 166 conversations
 - `FILM-MEDIA`: 161 conversations
-- `IMAGE-PHOTOGRAPHY`: 153 conversations
-- `WORLDTUBE`: 153 conversations
-- `WHIRLIGIG-DONUT`: 150 conversations
-- `ASTRONOMY`: 147 conversations
-- `ASTROPHYSICS`: 140 conversations
-- `UI`: 130 conversations
-- `SUPERSESSION-CANDIDATE`: 126 conversations
+- `IMAGE-PHOTOGRAPHY`: 156 conversations
+- `WORLDTUBE`: 156 conversations
+- `WHIRLIGIG-DONUT`: 153 conversations
+- `ASTRONOMY`: 150 conversations
+- `ASTROPHYSICS`: 143 conversations
+- `UI`: 133 conversations
+- `SUPERSESSION-CANDIDATE`: 129 conversations
 - `LEAN-FORMALIZATION`: 116 conversations
-- `EDUCATION`: 103 conversations
-- `FINITE-CORE`: 102 conversations
+- `EDUCATION`: 105 conversations
+- `FINITE-CORE`: 105 conversations
 - `C-TYPING`: 84 conversations
-- `POLITICS-POLICY`: 72 conversations
-- `GEOLOGY`: 71 conversations
-- `INTERBRAID`: 69 conversations
+- `POLITICS-POLICY`: 74 conversations
+- `GEOLOGY`: 73 conversations
+- `INTERBRAID`: 70 conversations
 - `ELECTROGRAVITY`: 66 conversations
-- `MEDICINE-HEALTH`: 52 conversations
-- `GRATICULE`: 30 conversations
+- `MEDICINE-HEALTH`: 54 conversations
+- `GRATICULE`: 33 conversations
 - `PERSONAL-BIOGRAPHICAL`: 24 conversations
 - `SPEED-OF-TIME`: 24 conversations
 - `PALEONTOLOGY`: 21 conversations
-- `HAGALAZ`: 13 conversations
+- `HAGALAZ`: 15 conversations
 - `W-AXIS`: 10 conversations
 
 ## Conversation inventory
@@ -104,6 +104,27 @@
 - messages/user: 2605/285
 - density: 0.908637; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROGRAVITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `GEOLOGY`
+
+### `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Mover Trial — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: Meridian Mover Trial
+- messages/user: 413/68
+- density: 0.946731; top retrieval score: 82.0
+- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROMAGNETISM`, `FINITE-CORE`, `GEOMETRY`, `GITHUB-REPO`, `GRATICULE`
+
+### `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Solver Loop — raw (1).json` **INDEX-GAP-CANDIDATE**
+
+- title: Meridian Solver Loop
+- messages/user: 247/27
+- density: 0.919028; top retrieval score: 85.96
+- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROMAGNETISM`, `FINITE-CORE`, `GEOLOGY`, `GEOMETRY`
+
+### `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Meridian Solver Loop — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: Meridian Solver Loop
+- messages/user: 196/26
+- density: 0.897959; top retrieval score: 58.72
+- topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `FINITE-CORE`, `GEOLOGY`, `GEOMETRY`, `GITHUB-REPO`, `GRATICULE`
 
 ### `DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08•26.09.12•THE WAVEFRONT BRAIN TRUST — raw.json`
 
