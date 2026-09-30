@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-30T17:19:46.638956+00:00",
+  "generated_at_utc": "2026-09-30T17:23:27.702941+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 478,
-    "planned": 5,
-    "skipped": 290,
+    "skipped": 298,
+    "planned": 33,
     "collision": 1
   },
   "records": [
@@ -32,6 +32,18 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/23swp42.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26R QUINTATION Quick Pass Analysis — raw.txt",
       "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.08.29•26.08.30•26R QUINTATION Quick Pass Analysis — raw.txt",
       "start_local": "2026-08-29T15:50:53.291000-04:00",
@@ -40,6 +52,28 @@
       "message_count": 75,
       "status": "planned",
       "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/4D Worldline Unification — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•4D Worldline Unification — raw.json",
+      "start_local": "2025-12-22T18:11:16.396126-05:00",
+      "end_local": "2026-06-01T23:39:53.051656-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 32,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ABOUT HINTON.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ACTIVE ROSTER SEPT 12 2026.txt",
@@ -52,6 +86,36 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/AND NOT Logic — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15•24.11.15•AND NOT Logic — raw.json",
+      "start_local": "2024-11-15T03:08:34.791517-05:00",
+      "end_local": "2024-11-15T03:33:48.101614-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 14,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Access Branched Chat — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24•26.09.24•Access Branched Chat — raw.json",
+      "start_local": "2026-09-24T02:30:40.154000-04:00",
+      "end_local": "2026-09-24T03:01:59.480073-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 47,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Alien math possibilities — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.11.05•25.11.05•Alien math possibilities — raw.json",
+      "start_local": "2025-11-05T11:27:42.351233-05:00",
+      "end_local": "2025-11-05T16:55:42.944124-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 74,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CLOSED_STRING_VIZ.txt",
@@ -90,6 +154,66 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Conversation topics suggestions — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.21•26.06.01•Conversation topics suggestions — raw.json",
+      "start_local": "2025-12-21T19:49:08.320000-05:00",
+      "end_local": "2026-06-01T23:41:02.497408-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 144,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Correct LaTeX markup — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•25.10.30•Correct LaTeX markup — raw.json",
+      "start_local": "2025-10-30T07:07:53.874000-04:00",
+      "end_local": "2025-10-30T07:07:55.053348-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Exploring inspiration together — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.30•Exploring inspiration together — raw.json",
+      "start_local": "2025-10-29T22:07:57.085000-04:00",
+      "end_local": "2025-10-30T00:24:50.834731-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 131,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Exposure Settings for DIY Cameras — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.01.22•25.03.18•Exposure Settings for DIY Cameras — raw.json",
+      "start_local": "2025-01-22T05:41:04.512248-05:00",
+      "end_local": "2025-03-18T20:36:35.331766-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 27,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Fundamental Intuitions of SAT — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
+      "start_local": "2025-10-30T01:12:41.978758-04:00",
+      "end_local": "2026-06-01T23:41:37.444316-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 22,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Fundamental Physics Explanations — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03•25.05.04•Fundamental Physics Explanations — raw.json",
+      "start_local": "2025-05-03T23:48:40.764000-04:00",
+      "end_local": "2025-05-04T00:49:38.008000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 69,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/GENRES-BOXED.txt",
       "new_path": null,
       "start_local": null,
@@ -100,6 +224,38 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/GN-z11 Redshift and Electron Mass — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•GN-z11 Redshift and Electron Mass — raw.json",
+      "start_local": "2025-05-04T04:44:41.714466-04:00",
+      "end_local": "2025-05-04T06:21:09.273176-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 9,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/GROETHNIK.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Geometric Unity Theory — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•26.06.01•Geometric Unity Theory — raw.json",
+      "start_local": "2025-05-04T02:11:52.183000-04:00",
+      "end_local": "2026-06-01T19:31:40.558512-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 8,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HAGALAZ_DEF+.txt",
@@ -136,6 +292,26 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Holonomy and physics compatibility — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Holonomy and physics compatibility — raw.json",
+      "start_local": "2025-12-22T17:44:52.542492-05:00",
+      "end_local": "2026-06-01T23:40:18.126647-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 32,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Independent theories comparison — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.30•26.06.01•Independent theories comparison — raw.json",
+      "start_local": "2025-10-30T02:06:01.267087-04:00",
+      "end_local": "2026-06-01T23:42:14.946933-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 59,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MERIDIAN_LOOP_ROUNDUP_NOTES.txt",
@@ -214,6 +390,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWSS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NEWSSSS.txt",
       "new_path": null,
       "start_local": null,
@@ -260,6 +448,56 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Proof Consistency Check — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.06.01•25.06.01•Proof Consistency Check — raw.json",
+      "start_local": "2025-06-01T14:41:30.939000-04:00",
+      "end_local": "2025-06-01T14:41:31.313436-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Redshift and Effective Mass — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Redshift and Effective Mass — raw.json",
+      "start_local": "2025-05-04T06:34:09.558560-04:00",
+      "end_local": "2025-05-04T08:34:46.083702-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 25,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Response Framework Agreement — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.02.07•26.02.07•Response Framework Agreement — raw (1).json",
+      "start_local": "2026-02-07T00:53:15.646948-05:00",
+      "end_local": "2026-02-07T01:06:15.820690-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Response Framework Agreement — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.02.07•26.02.07•Response Framework Agreement — raw.json",
+      "start_local": "2026-02-07T00:53:15.646948-05:00",
+      "end_local": "2026-02-07T01:06:15.820690-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Rewriting with Depth and Emotion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14•25.02.14•Rewriting with Depth and Emotion — raw.json",
+      "start_local": "2025-02-14T23:07:05.916487-05:00",
+      "end_local": "2025-02-14T23:27:03.502628-05:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 14,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SATO-BLOCK-INT.txt",
@@ -334,6 +572,86 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Significance of 1.002×10⁻²⁷ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Significance of 1.002×10⁻²⁷ — raw.json",
+      "start_local": "2025-05-04T06:37:03.807308-04:00",
+      "end_local": "2025-05-04T06:37:28.901000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/String SAT filament model — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.29•String SAT filament model — raw.json",
+      "start_local": "2025-10-29T14:13:43.343000-04:00",
+      "end_local": "2025-10-29T14:37:36.666584-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Style Spec Discussion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.23•26.09.24•Style Spec Discussion — raw.json",
+      "start_local": "2026-09-23T23:48:33.673000-04:00",
+      "end_local": "2026-09-24T02:28:11.668317-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 75,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Theory discussion response — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.12.22•26.06.01•Theory discussion response — raw.json",
+      "start_local": "2025-12-22T16:59:24.644189-05:00",
+      "end_local": "2026-06-01T23:40:36.520564-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 42,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Theory of Everything_ — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.29•Theory of Everything_ — raw.json",
+      "start_local": "2025-10-29T14:41:47.425000-04:00",
+      "end_local": "2025-10-29T14:54:53.416209-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 11,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Unified Physical Theory Proposal — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Unified Physical Theory Proposal — raw.json",
+      "start_local": "2025-05-04T01:16:51.872698-04:00",
+      "end_local": "2025-05-04T01:18:55.036000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Unifying Physics Theories — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04•25.05.04•Unifying Physics Theories — raw.json",
+      "start_local": "2025-05-04T02:45:04.401086-04:00",
+      "end_local": "2025-05-04T02:45:04.795000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Vetting document review — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.29•25.10.29•Vetting document review — raw.json",
+      "start_local": "2025-10-29T12:07:55.484000-04:00",
+      "end_local": "2025-10-29T12:30:33.370685-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 16,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WIGGLESPRING.ph.txt",
       "new_path": null,
       "start_local": null,
@@ -368,6 +686,16 @@
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Website Design Direction — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24•26.09.24•Website Design Direction — raw.json",
+      "start_local": "2026-09-24T03:03:03.394000-04:00",
+      "end_local": "2026-09-24T03:03:04.709429-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 2,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[NODECHECK.archshare.contractapprove].txt",
@@ -454,6 +782,30 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/googs.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gt.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gtss.txt",
       "new_path": null,
       "start_local": null,
@@ -479,6 +831,18 @@
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/multiharmonic_proj.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/neoos.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -523,6 +887,18 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/superhelical.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 3 column 1 (char 2)"
       ]
     },
     {
