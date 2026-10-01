@@ -1,6 +1,6 @@
 # Visual archaeology — human review
 
-**Run 6 · 2026-10-01T08:04:17.048661+00:00**  
+**Run 7 · 2026-10-01T13:55:05.235729+00:00**  
 Primary human-review surface. Machine confidence is heuristic; repeated pseudo-label stability is not empirical accuracy.
 
 > Review marks in this repository file are display/edit aids. A human choice becomes empirical validation only when it is explicitly ingested into the calibration record.
