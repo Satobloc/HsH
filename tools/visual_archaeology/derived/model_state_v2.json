@@ -1,0 +1,2524 @@
+{
+  "guess_changes": 0,
+  "notes": [
+    "Machine probabilities are heuristic working scores, not empirical accuracy estimates.",
+    "Stylesheet controls are source-validated but non-display.",
+    "No OCR dependency: existing text sidecars or manifest text evidence are consumed when present."
+  ],
+  "predictions": {
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png": {
+      "best_guess": "general_flavor_graphic",
+      "evidence": {
+        "conceptual_illustration": [
+          {
+            "family": "path_metadata",
+            "rule": "H08",
+            "weight": 1.8
+          },
+          {
+            "family": "source_role",
+            "rule": "H15C",
+            "weight": 0.8
+          }
+        ],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [
+          {
+            "family": "source_role",
+            "rule": "H15A",
+            "weight": 3.0
+          }
+        ],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [
+          {
+            "family": "source_role",
+            "rule": "H15B",
+            "weight": 2.5
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "source_role"
+      ],
+      "matched_rules": [
+        "H08",
+        "H10",
+        "H11",
+        "H15A",
+        "H15B",
+        "H15C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.69,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.7311,
+        "hsh_podcast_thumbnail": 0.063,
+        "podcast_stylesheet": 0.0739,
+        "podcast_thumbnail": 0.063,
+        "podcast_thumbnail_background": 0.6225,
+        "sat_podcast_thumbnail": 0.063,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.475
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png": {
+      "best_guess": "cosmology_concept",
+      "evidence": {
+        "conceptual_illustration": [
+          {
+            "family": "path_metadata",
+            "rule": "H08",
+            "weight": 1.8
+          },
+          {
+            "family": "source_role",
+            "rule": "H17",
+            "weight": 0.7
+          }
+        ],
+        "cosmology_concept": [
+          {
+            "family": "source_role",
+            "rule": "H16",
+            "weight": 3.4
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H01",
+        "H08",
+        "H10",
+        "H11",
+        "H16",
+        "H17"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.6682,
+        "cosmology_concept": 0.7408,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0871,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0871,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0871,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.4871
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png": {
+      "best_guess": "cosmology_concept",
+      "evidence": {
+        "conceptual_illustration": [
+          {
+            "family": "path_metadata",
+            "rule": "H08",
+            "weight": 1.8
+          },
+          {
+            "family": "source_role",
+            "rule": "H17",
+            "weight": 0.7
+          }
+        ],
+        "cosmology_concept": [
+          {
+            "family": "source_role",
+            "rule": "H16",
+            "weight": 3.4
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "source_role"
+      ],
+      "matched_rules": [
+        "H08",
+        "H10",
+        "H11",
+        "H16",
+        "H17"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.6682,
+        "cosmology_concept": 0.7311,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.063,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.063,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.063,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.475
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png": {
+      "best_guess": "conceptual_illustration",
+      "evidence": {
+        "conceptual_illustration": [
+          {
+            "family": "path_metadata",
+            "rule": "H08",
+            "weight": 1.8
+          }
+        ],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H08",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.5,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.063,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.063,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.063,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.475
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0171,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0171,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0171,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8808
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [
+          {
+            "family": "palette",
+            "rule": "H04B",
+            "weight": 0.75
+          }
+        ],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "palette",
+            "rule": "H02",
+            "weight": 0.3
+          },
+          {
+            "family": "palette",
+            "rule": "H04A",
+            "weight": 0.3
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H02",
+        "H04A",
+        "H04B",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0431,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0431,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0431,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8858
+      }
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H09",
+            "weight": 1.4
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H09",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.063,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.063,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.063,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7858
+      }
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg": {
+      "best_guess": "podcast_stylesheet",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "source_role",
+            "rule": "H12A",
+            "weight": 5.3667
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H12B",
+            "weight": 3.5778
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "source_role",
+            "rule": "H12C",
+            "weight": -1.3
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": []
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H12A",
+        "H12B",
+        "H12C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0522,
+        "podcast_stylesheet": 0.9984,
+        "podcast_thumbnail": 0.0522,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0522,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.2689
+      }
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg": {
+      "best_guess": "podcast_stylesheet",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "source_role",
+            "rule": "H12A",
+            "weight": 5.3667
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H12B",
+            "weight": 3.5778
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "source_role",
+            "rule": "H12C",
+            "weight": -1.3
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": []
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H12A",
+        "H12B",
+        "H12C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0522,
+        "podcast_stylesheet": 0.9984,
+        "podcast_thumbnail": 0.0522,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0522,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.2689
+      }
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg": {
+      "best_guess": "podcast_stylesheet",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "source_role",
+            "rule": "H12A",
+            "weight": 5.3667
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H12B",
+            "weight": 3.5778
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "source_role",
+            "rule": "H12C",
+            "weight": -1.3
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": []
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H12A",
+        "H12B",
+        "H12C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0522,
+        "podcast_stylesheet": 0.9984,
+        "podcast_thumbnail": 0.0522,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0522,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.2689
+      }
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg": {
+      "best_guess": "podcast_stylesheet",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "source_role",
+            "rule": "H12A",
+            "weight": 5.3667
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H12B",
+            "weight": 3.5778
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "source_role",
+            "rule": "H12C",
+            "weight": -1.3
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": []
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H12A",
+        "H12B",
+        "H12C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0522,
+        "podcast_stylesheet": 0.9984,
+        "podcast_thumbnail": 0.0522,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0522,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.2689
+      }
+    },
+    "SAT_VISUALS/STYLEsheets/Image.jpeg": {
+      "best_guess": "podcast_stylesheet",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "source_role",
+            "rule": "H12A",
+            "weight": 5.3667
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H12B",
+            "weight": 3.5778
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "source_role",
+            "rule": "H12C",
+            "weight": -1.3
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": []
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation",
+        "source_role"
+      ],
+      "matched_rules": [
+        "H12A",
+        "H12B",
+        "H12C"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0522,
+        "podcast_stylesheet": 0.9984,
+        "podcast_thumbnail": 0.0522,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0522,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.2689
+      }
+    },
+    "standalone:SATy_output2.png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [
+          {
+            "family": "layout",
+            "rule": "H07",
+            "weight": 2.2
+          }
+        ],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B",
+        "H07",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0241,
+        "podcast_stylesheet": 0.0739,
+        "podcast_thumbnail": 0.0241,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0241,
+        "split_field_visual": 0.5498,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8858
+      }
+    },
+    "standalone:SATy_viz_output.png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0691,
+        "podcast_stylesheet": 0.0739,
+        "podcast_thumbnail": 0.0691,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0691,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7592
+      }
+    },
+    "standalone:output (1).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "palette",
+            "rule": "H03A",
+            "weight": 0.35
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [
+          {
+            "family": "palette",
+            "rule": "H03B",
+            "weight": 0.8
+          }
+        ],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H03A",
+        "H03B",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0339,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0339,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0339,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8858
+      }
+    },
+    "standalone:output (13).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0171,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0171,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0171,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8808
+      }
+    },
+    "standalone:output (15).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (17).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (20).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (21)(1).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [
+          {
+            "family": "palette",
+            "rule": "H04B",
+            "weight": 0.75
+          }
+        ],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "palette",
+            "rule": "H04A",
+            "weight": 0.3
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H04A",
+        "H04B",
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0911,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0911,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0911,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7592
+      }
+    },
+    "standalone:output (22).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "gray",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0723
+          }
+        ],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0739,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (24).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (3)(1).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          }
+        ]
+      },
+      "evidence_family_count": 2,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0171,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0171,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0171,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8808
+      }
+    },
+    "standalone:output (7).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:output (9).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          }
+        ]
+      },
+      "evidence_family_count": 1,
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0832,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0497,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0497,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0497,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.7503
+      }
+    },
+    "standalone:saty_output(1).png": {
+      "best_guess": "technical_figure",
+      "evidence": {
+        "conceptual_illustration": [],
+        "cosmology_concept": [
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.05
+          }
+        ],
+        "general_flavor_graphic": [],
+        "hsh_podcast_thumbnail": [],
+        "podcast_stylesheet": [],
+        "podcast_thumbnail": [
+          {
+            "family": "geometry",
+            "rule": "H01",
+            "weight": 0.35
+          },
+          {
+            "family": "path_metadata",
+            "rule": "H06B",
+            "weight": -1.35
+          },
+          {
+            "family": "known_role",
+            "rule": "H11",
+            "weight": -1.1
+          }
+        ],
+        "podcast_thumbnail_background": [],
+        "sat_podcast_thumbnail": [],
+        "split_field_visual": [],
+        "spotify_creators_screenshot": [],
+        "spotify_screenshot": [],
+        "technical_figure": [
+          {
+            "family": "path_metadata",
+            "rule": "H06A",
+            "weight": 2.1
+          },
+          {
+            "family": "known_role",
+            "rule": "H10",
+            "weight": 0.9
+          },
+          {
+            "family": "pseudo-correlation",
+            "feature": "square_num",
+            "rule": "SELF_CONSISTENCY",
+            "weight": 0.0484
+          }
+        ]
+      },
+      "evidence_family_count": 3,
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata",
+        "pseudo-correlation"
+      ],
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "probabilities": {
+        "conceptual_illustration": 0.1419,
+        "cosmology_concept": 0.0871,
+        "general_flavor_graphic": 0.1192,
+        "hsh_podcast_thumbnail": 0.0241,
+        "podcast_stylesheet": 0.0691,
+        "podcast_thumbnail": 0.0241,
+        "podcast_thumbnail_background": 0.1192,
+        "sat_podcast_thumbnail": 0.0241,
+        "split_field_visual": 0.1192,
+        "spotify_creators_screenshot": 0.0573,
+        "spotify_screenshot": 0.0573,
+        "technical_figure": 0.8858
+      }
+    }
+  },
+  "pseudo_correlation_signals": [
+    {
+      "cut": 0.6059,
+      "direction": "low",
+      "epistemic_status": "self-consistency only; not validation",
+      "feature": "gray",
+      "high_n": 5,
+      "mean_delta": -0.3613,
+      "rest_n": 21,
+      "target": "podcast_stylesheet",
+      "weight": 0.0723
+    },
+    {
+      "cut": 0.232,
+      "direction": "high",
+      "epistemic_status": "self-consistency only; not validation",
+      "feature": "square_num",
+      "high_n": 17,
+      "mean_delta": 0.2418,
+      "rest_n": 9,
+      "target": "technical_figure",
+      "weight": 0.0484
+    },
+    {
+      "cut": 0.375,
+      "direction": "high",
+      "epistemic_status": "self-consistency only; not validation",
+      "feature": "square_num",
+      "high_n": 2,
+      "mean_delta": 0.25,
+      "rest_n": 24,
+      "target": "cosmology_concept",
+      "weight": 0.05
+    }
+  ],
+  "resource_admission": {
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png": {
+      "reasons": [
+        "role p=0.690",
+        "evidence families=1",
+        "stable=False"
+      ],
+      "status": "STAGING_CANDIDATE"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png": {
+      "reasons": [
+        "photographic-palette risk 1.000 >= 0.72"
+      ],
+      "status": "REVIEW_HOLD"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png": {
+      "reasons": [
+        "photographic-palette risk 0.987 >= 0.72"
+      ],
+      "status": "REVIEW_HOLD"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg": {
+      "reasons": [
+        "human/source display policy"
+      ],
+      "status": "NO_DISPLAY"
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg": {
+      "reasons": [
+        "human/source display policy"
+      ],
+      "status": "NO_DISPLAY"
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg": {
+      "reasons": [
+        "human/source display policy"
+      ],
+      "status": "NO_DISPLAY"
+    },
+    "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg": {
+      "reasons": [
+        "human/source display policy"
+      ],
+      "status": "NO_DISPLAY"
+    },
+    "SAT_VISUALS/STYLEsheets/Image.jpeg": {
+      "reasons": [
+        "human/source display policy"
+      ],
+      "status": "NO_DISPLAY"
+    },
+    "standalone:SATy_output2.png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:SATy_viz_output.png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (1).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (13).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (15).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (17).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (20).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (21)(1).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (22).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (24).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (3)(1).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (7).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:output (9).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    },
+    "standalone:saty_output(1).png": {
+      "reasons": [
+        "not marked as a resource candidate"
+      ],
+      "status": "NOT_REQUESTED"
+    }
+  },
+  "round_log": [
+    {
+      "changed_best_guess": 0,
+      "round": 1,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "changed_best_guess": 0,
+      "round": 2,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "changed_best_guess": 0,
+      "round": 3,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "changed_best_guess": 0,
+      "round": 4,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "changed_best_guess": 0,
+      "round": 5,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "changed_best_guess": 0,
+      "round": 6,
+      "signals": [
+        {
+          "cut": 0.6059,
+          "direction": "low",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "gray",
+          "high_n": 5,
+          "mean_delta": -0.3613,
+          "rest_n": 21,
+          "target": "podcast_stylesheet",
+          "weight": 0.0723
+        },
+        {
+          "cut": 0.232,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 17,
+          "mean_delta": 0.2418,
+          "rest_n": 9,
+          "target": "technical_figure",
+          "weight": 0.0484
+        },
+        {
+          "cut": 0.375,
+          "direction": "high",
+          "epistemic_status": "self-consistency only; not validation",
+          "feature": "square_num",
+          "high_n": 2,
+          "mean_delta": 0.25,
+          "rest_n": 24,
+          "target": "cosmology_concept",
+          "weight": 0.05
+        }
+      ]
+    }
+  ],
+  "rule_reliability": {
+    "H01": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H02": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H03A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H03B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H04A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H04B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H05": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H06A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H06B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H07": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H08": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H09": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H10": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H11": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H12A": {
+      "alpha": 7.0,
+      "beta": 2.0
+    },
+    "H12B": {
+      "alpha": 7.0,
+      "beta": 2.0
+    },
+    "H12C": {
+      "alpha": 2.0,
+      "beta": 7.0
+    },
+    "H13A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H13B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H13C": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H14A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H14B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H14C": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H15A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H15B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H15C": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H16": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H17": {
+      "alpha": 2.0,
+      "beta": 2.0
+    }
+  },
+  "run_number": 1,
+  "run_utc": "2026-10-01T00:33:08.176564+00:00",
+  "sampling_subsets": {
+    "all": [
+      "standalone:output (1).png",
+      "standalone:output (3)(1).png",
+      "standalone:output (7).png",
+      "standalone:output (9).png",
+      "standalone:output (13).png",
+      "standalone:output (15).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:output (24).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png",
+      "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "SAT_VISUALS/STYLEsheets/Image.jpeg"
+    ],
+    "family_blocked": [
+      "standalone:output (1).png",
+      "standalone:output (7).png",
+      "standalone:output (13).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:saty_output(1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg"
+    ],
+    "metadata_positive": [],
+    "new_or_unstable": [
+      "standalone:output (1).png",
+      "standalone:output (3)(1).png",
+      "standalone:output (7).png",
+      "standalone:output (9).png",
+      "standalone:output (13).png",
+      "standalone:output (15).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:output (24).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png",
+      "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "SAT_VISUALS/STYLEsheets/Image.jpeg"
+    ],
+    "palette_lineage": [
+      "standalone:output (1).png"
+    ],
+    "resource_review_holds": [
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png"
+    ],
+    "square_technical_adversarial": [
+      "standalone:output (1).png",
+      "standalone:output (21)(1).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png"
+    ],
+    "stylesheet_controls": [
+      "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "SAT_VISUALS/STYLEsheets/Image.jpeg"
+    ],
+    "uncertain_margin": [
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+    ]
+  },
+  "schema_version": "0.2",
+  "stable_guesses": 0,
+  "validation_updates": [
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "rule": "H12A",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "rule": "H12C",
+      "verdict": "contradict"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "rule": "H12B",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "rule": "H12A",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "rule": "H12C",
+      "verdict": "contradict"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "rule": "H12B",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "rule": "H12A",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "rule": "H12C",
+      "verdict": "contradict"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "rule": "H12B",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "rule": "H12A",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "rule": "H12C",
+      "verdict": "contradict"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "rule": "H12B",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "rule": "H12A",
+      "verdict": "support"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "rule": "H12C",
+      "verdict": "contradict"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "rule": "H12B",
+      "verdict": "support"
+    }
+  ]
+}

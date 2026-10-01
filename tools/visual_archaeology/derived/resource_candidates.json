@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-10-01T00:33:08.176564+00:00",
+  "items": [
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
+      "reasons": [
+        "role p=0.690",
+        "evidence families=1",
+        "stable=False"
+      ],
+      "status": "STAGING_CANDIDATE"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "reasons": [
+        "photographic-palette risk 1.000 >= 0.72"
+      ],
+      "status": "REVIEW_HOLD"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png",
+      "reasons": [
+        "photographic-palette risk 0.987 >= 0.72"
+      ],
+      "status": "REVIEW_HOLD"
+    }
+  ],
+  "policy": "staging candidates only; no automatic publication"
+}
