@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "updated": "2026-09-30",
+  "purpose": "Transparent nested hypotheses for iterative visual-archaeology guesses. Weights are working priors, not learned truth.",
+  "classes": {
+    "podcast_thumbnail": {"base_logit": -1.6, "kind": "role"},
+    "sat_podcast_thumbnail": {"base_logit": -2.0, "kind": "role", "parent": "podcast_thumbnail"},
+    "hsh_podcast_thumbnail": {"base_logit": -2.0, "kind": "role", "parent": "podcast_thumbnail"},
+    "technical_figure": {"base_logit": -1.0, "kind": "role"},
+    "conceptual_illustration": {"base_logit": -1.8, "kind": "role"},
+    "split_field_visual": {"base_logit": -2.0, "kind": "composition"}
+  },
+  "rules": [
+    {"id":"H01","target":"podcast_thumbnail","weight":0.35,"evidence_family":"geometry","all":[["square","eq",true]],"hypothesis":"A square project image is weakly more likely to be a podcast thumbnail.","status":"Nathan-direct working hypothesis"},
+    {"id":"H02","target":"podcast_thumbnail","weight":0.30,"evidence_family":"palette","requires":["H01"],"all":[["dark","gte",0.35]],"hypothesis":"Square plus predominantly dark raises the podcast-thumbnail prior.","status":"Nathan-direct working hypothesis"},
+    {"id":"H03A","target":"podcast_thumbnail","weight":0.35,"evidence_family":"palette","requires":["H01"],"all":[["gray","gte",0.60],["red_magenta","between",[0.01,0.30]]],"hypothesis":"Square grayscale with a red signal is compatible with the source-backed early black/white/red podcast lineage.","status":"mixed: Nathan hypothesis + source-backed lineage"},
+    {"id":"H03B","target":"sat_podcast_thumbnail","weight":0.80,"evidence_family":"palette","requires":["H03A"],"all":[["gray","gte",0.60],["red_magenta","between",[0.01,0.30]]],"hypothesis":"Within podcast candidates, grayscale plus signal red raises the historical SAT-thumbnail prior.","status":"source-backed palette lineage; per-image semantics unvalidated"},
+    {"id":"H04A","target":"podcast_thumbnail","weight":0.30,"evidence_family":"palette","requires":["H01"],"all":[["gray","gte",0.78],["red_magenta","lt",0.03],["cyan_blue","lt",0.05],["green","lt",0.03],["warm","lt",0.03]],"hypothesis":"Square high-grayscale low-chroma images are candidate H(s)H-era thumbnails.","status":"Nathan-direct working hypothesis"},
+    {"id":"H04B","target":"hsh_podcast_thumbnail","weight":0.75,"evidence_family":"palette","requires":["H04A"],"all":[["gray","gte",0.78],["red_magenta","lt",0.03],["cyan_blue","lt",0.05]],"hypothesis":"Within podcast candidates, nearly monochrome high-contrast presentation may indicate H(s)H-specific thumbnail lineage.","status":"Nathan-direct working hypothesis; unvalidated"},
+    {"id":"H05","target":"podcast_thumbnail","weight":2.20,"evidence_family":"path_metadata","all":[["path","contains_any",["podcast","episode","thumbnail","field notes"]]],"hypothesis":"Explicit podcast/episode/thumbnail metadata is strong role evidence.","status":"metadata rule"},
+    {"id":"H06A","target":"technical_figure","weight":2.10,"evidence_family":"path_metadata","all":[["path","contains_any",["output","chart","plot","viz","matplotlib","figure","simulation","mapdrawing"]]],"hypothesis":"Technical-generator/file tokens strongly predict technical-figure role.","status":"adversarial false-positive control"},
+    {"id":"H06B","target":"podcast_thumbnail","weight":-1.35,"evidence_family":"path_metadata","requires":["H06A"],"all":[["path","contains_any",["output","chart","plot","viz","matplotlib","figure","simulation","mapdrawing"]]],"hypothesis":"Technical metadata should suppress square-is-thumbnail false positives.","status":"adversarial false-positive control"},
+    {"id":"H07","target":"split_field_visual","weight":2.20,"evidence_family":"layout","all":[["lr_color_distance","gte",0.13]],"hypothesis":"Large left/right palette separation predicts a vertical split-field visual.","status":"measured positive control exists"},
+    {"id":"H08","target":"conceptual_illustration","weight":1.60,"evidence_family":"path_metadata","all":[["path","contains_any",["chatgpt image","generated image"]]],"hypothesis":"Generator-labelled image files are more likely conceptual/generated illustration than measurement output.","status":"metadata rule"},
+    {"id":"H09","target":"technical_figure","weight":1.40,"evidence_family":"path_metadata","all":[["path","contains_any",["mind map","notebooklm"]]],"hypothesis":"Mind-map-labelled images are research-process/diagram artifacts, not podcast thumbnails by default.","status":"metadata rule"},
+    {"id":"H10","target":"technical_figure","weight":0.90,"evidence_family":"known_role","all":[["known_technical","eq",true]],"hypothesis":"Source-backed descriptive labels such as parameter_plot/model_diagram/field_map are independent technical-role evidence.","status":"calibration-backed"},
+    {"id":"H11","target":"podcast_thumbnail","weight":-1.10,"evidence_family":"known_role","requires":["H10"],"all":[["known_technical","eq",true]],"hypothesis":"Known technical figures are adversarial negatives for the square-thumbnail heuristic unless explicit podcast metadata overrides.","status":"calibration-backed negative control"}
+  ],
+  "sampling_strategies": [
+    "all",
+    "uncertain_margin",
+    "square_technical_adversarial",
+    "metadata_positive",
+    "palette_lineage",
+    "family_blocked",
+    "new_or_unstable"
+  ],
+  "confidence_policy": {
+    "pseudo_labels_never_become_ground_truth": true,
+    "self_consistency_updates_are_capped": 0.12,
+    "child_role_probability_cannot_exceed_parent": true,
+    "gold_or_source_backed_labels_are_required_for_rule_accuracy_updates": true,
+    "stable_repeated_guess_is_reported_separately_from_empirical_accuracy": true
+  }
+}
