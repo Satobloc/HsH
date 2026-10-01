@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2",
-  "updated": "2026-09-30T20:22:00-04:00",
+  "updated": "2026-09-30T20:34:00-04:00",
   "launch_anchor": "2026-09-30T19:48:00-04:00",
   "principle": "Nathan/source labels are preserved separately from machine guesses. Descriptive role labels may guide checks but do not establish theory meaning. Display/resource eligibility is a separate gate.",
   "items": [
@@ -32,7 +32,6 @@
       "human_note": "Nathan: lightly processed notebook sketch; worldtube with single loop/coil plus inset helical-indicatrix/~ᚼ sphere. Use as structural prompt, not metrological evidence.",
       "display_policy": "review"
     },
-
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
       "family_id": "unused_podcast_background_general_flavor",
@@ -41,7 +40,6 @@
       "resource_candidate": true,
       "display_policy": "review"
     },
-
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
       "family_id": "klein_fabric_wrapping_2026_09_27",
@@ -58,13 +56,12 @@
       "provenance_check": "Compare earliest internal Klein/Klein-fabric appearance and earliest Levin/Greene exposure record against externally verified publication/broadcast dates before any influence/convergence claim.",
       "display_policy": "review"
     },
-
     {
       "path": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
       "family_id": "podcast_stylesheets_closed_set",
       "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
       "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
-      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "validation": {"podcast_stylesheet": true},
       "display_policy": "never_display"
     },
     {
@@ -72,7 +69,7 @@
       "family_id": "podcast_stylesheets_closed_set",
       "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
       "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
-      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "validation": {"podcast_stylesheet": true},
       "display_policy": "never_display"
     },
     {
@@ -80,7 +77,7 @@
       "family_id": "podcast_stylesheets_closed_set",
       "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
       "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
-      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "validation": {"podcast_stylesheet": true},
       "display_policy": "never_display"
     },
     {
@@ -88,7 +85,7 @@
       "family_id": "podcast_stylesheets_closed_set",
       "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
       "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
-      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "validation": {"podcast_stylesheet": true},
       "display_policy": "never_display"
     },
     {
@@ -96,7 +93,7 @@
       "family_id": "podcast_stylesheets_closed_set",
       "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
       "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
-      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "validation": {"podcast_stylesheet": true},
       "display_policy": "never_display"
     }
   ],
