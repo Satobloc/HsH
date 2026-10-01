@@ -1,13 +1,19 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "updated": "2026-09-30",
-  "purpose": "Transparent nested hypotheses for iterative visual-archaeology guesses. Weights are working priors, not learned truth.",
+  "purpose": "Transparent nested hypotheses for iterative visual-archaeology guesses. Weights are working priors, not learned truth. Explicit source validation is kept separate from machine confidence.",
   "classes": {
     "podcast_thumbnail": {"base_logit": -1.6, "kind": "role"},
     "sat_podcast_thumbnail": {"base_logit": -2.0, "kind": "role", "parent": "podcast_thumbnail"},
     "hsh_podcast_thumbnail": {"base_logit": -2.0, "kind": "role", "parent": "podcast_thumbnail"},
+    "podcast_thumbnail_background": {"base_logit": -2.0, "kind": "role"},
+    "general_flavor_graphic": {"base_logit": -2.0, "kind": "role"},
+    "podcast_stylesheet": {"base_logit": -2.6, "kind": "control_role"},
+    "spotify_screenshot": {"base_logit": -2.8, "kind": "control_role"},
+    "spotify_creators_screenshot": {"base_logit": -2.8, "kind": "control_role"},
     "technical_figure": {"base_logit": -1.0, "kind": "role"},
     "conceptual_illustration": {"base_logit": -1.8, "kind": "role"},
+    "cosmology_concept": {"base_logit": -2.4, "kind": "topic_role"},
     "split_field_visual": {"base_logit": -2.0, "kind": "composition"}
   },
   "rules": [
@@ -21,10 +27,29 @@
     {"id":"H06A","target":"technical_figure","weight":2.10,"evidence_family":"path_metadata","all":[["path","contains_any",["output","chart","plot","viz","matplotlib","figure","simulation","mapdrawing"]]],"hypothesis":"Technical-generator/file tokens strongly predict technical-figure role.","status":"adversarial false-positive control"},
     {"id":"H06B","target":"podcast_thumbnail","weight":-1.35,"evidence_family":"path_metadata","requires":["H06A"],"all":[["path","contains_any",["output","chart","plot","viz","matplotlib","figure","simulation","mapdrawing"]]],"hypothesis":"Technical metadata should suppress square-is-thumbnail false positives.","status":"adversarial false-positive control"},
     {"id":"H07","target":"split_field_visual","weight":2.20,"evidence_family":"layout","all":[["lr_color_distance","gte",0.13]],"hypothesis":"Large left/right palette separation predicts a vertical split-field visual.","status":"measured positive control exists"},
-    {"id":"H08","target":"conceptual_illustration","weight":1.60,"evidence_family":"path_metadata","all":[["path","contains_any",["chatgpt image","generated image"]]],"hypothesis":"Generator-labelled image files are more likely conceptual/generated illustration than measurement output.","status":"metadata rule"},
+    {"id":"H08","target":"conceptual_illustration","weight":1.80,"evidence_family":"path_metadata","all":[["path","contains_any",["chatgpt image","generated image"]]],"hypothesis":"Generator-labelled image files are more likely conceptual/generated illustration than measurement output.","status":"metadata rule"},
     {"id":"H09","target":"technical_figure","weight":1.40,"evidence_family":"path_metadata","all":[["path","contains_any",["mind map","notebooklm"]]],"hypothesis":"Mind-map-labelled images are research-process/diagram artifacts, not podcast thumbnails by default.","status":"metadata rule"},
     {"id":"H10","target":"technical_figure","weight":0.90,"evidence_family":"known_role","all":[["known_technical","eq",true]],"hypothesis":"Source-backed descriptive labels such as parameter_plot/model_diagram/field_map are independent technical-role evidence.","status":"calibration-backed"},
-    {"id":"H11","target":"podcast_thumbnail","weight":-1.10,"evidence_family":"known_role","requires":["H10"],"all":[["known_technical","eq",true]],"hypothesis":"Known technical figures are adversarial negatives for the square-thumbnail heuristic unless explicit podcast metadata overrides.","status":"calibration-backed negative control"}
+    {"id":"H11","target":"podcast_thumbnail","weight":-1.10,"evidence_family":"known_role","requires":["H10"],"all":[["known_technical","eq",true]],"hypothesis":"Known technical figures are adversarial negatives for the square-thumbnail heuristic unless explicit podcast metadata overrides.","status":"calibration-backed negative control"},
+
+    {"id":"H12A","target":"podcast_stylesheet","weight":4.20,"evidence_family":"source_role","all":[["known_stylesheet","eq",true]],"hypothesis":"Nathan/source identification of the closed stylesheet set is direct role evidence.","status":"source-validated control"},
+    {"id":"H12B","target":"podcast_stylesheet","weight":2.80,"evidence_family":"path_metadata","all":[["path","contains_any",["stylesheets","stylesheet"]]],"hypothesis":"Stylesheet directory/name is a strong stylesheet prior, including duplicate copies elsewhere with equivalent source identity.","status":"metadata rule; closed-set anchored"},
+    {"id":"H12C","target":"podcast_thumbnail","weight":-1.80,"evidence_family":"source_role","requires":["H12A"],"all":[["known_stylesheet","eq",true]],"hypothesis":"A stylesheet is a training/control object, not an episode thumbnail for display.","status":"source-validated negative control"},
+
+    {"id":"H13A","target":"spotify_screenshot","weight":1.35,"evidence_family":"text","all":[["text_evidence","contains_any",["debating","new physics","spotify"]]],"hypothesis":"Extracted/sidecar text containing podcast-lineage terms raises a Spotify/podcast screenshot prior.","status":"working text rule; no OCR dependency"},
+    {"id":"H13B","target":"spotify_screenshot","weight":0.80,"evidence_family":"palette","requires":["H13A"],"all":[["spotify_green","gte",0.003],["dark","gte",0.20]],"hypothesis":"Podcast text plus Spotify-green occupancy on a dark UI raises the Spotify screenshot prior.","status":"Nathan-direct working hypothesis"},
+    {"id":"H13C","target":"spotify_screenshot","weight":0.55,"evidence_family":"layout","requires":["H13A"],"all":[["text_density_proxy","gte",0.08]],"hypothesis":"Podcast text plus dense edge/text-like structure adds screenshot evidence.","status":"weak layout proxy; not OCR"},
+
+    {"id":"H14A","target":"spotify_creators_screenshot","weight":1.35,"evidence_family":"text","all":[["text_evidence","contains_any",["spotify creators","episodes","episode list"]]],"hypothesis":"Creators/episode-list text is direct metadata evidence for a Spotify Creators screenshot.","status":"working text rule"},
+    {"id":"H14B","target":"spotify_creators_screenshot","weight":0.75,"evidence_family":"layout","requires":["H14A"],"all":[["light","gte",0.40],["left_third_band_score","gte",0.15]],"hypothesis":"White UI plus repeated left-third color/white banding is compatible with an episode-list screenshot.","status":"Nathan-direct working hypothesis"},
+    {"id":"H14C","target":"spotify_creators_screenshot","weight":0.55,"evidence_family":"palette","requires":["H14A"],"all":[["spotify_purple","gte",0.002]],"hypothesis":"Creators-like purple is supporting evidence only when text evidence is already present.","status":"Nathan-direct working hypothesis"},
+
+    {"id":"H15A","target":"general_flavor_graphic","weight":3.00,"evidence_family":"source_role","all":[["known_general_flavor","eq",true]],"hypothesis":"Nathan's explicit general-purpose flavor-graphic designation is strong candidate-role evidence.","status":"Nathan-direct source role"},
+    {"id":"H15B","target":"podcast_thumbnail_background","weight":2.50,"evidence_family":"source_role","all":[["known_general_flavor","eq",true]],"hypothesis":"Nathan's explicit designation also raises the unused podcast-background role prior.","status":"Nathan-direct source role"},
+    {"id":"H15C","target":"conceptual_illustration","weight":0.80,"evidence_family":"source_role","all":[["known_general_flavor","eq",true]],"hypothesis":"General-purpose flavor graphics may serve conceptual-sketch illustration roles.","status":"Nathan-direct source role"},
+
+    {"id":"H16","target":"cosmology_concept","weight":3.40,"evidence_family":"source_role","all":[["known_cosmology_concept","eq",true]],"hypothesis":"Nathan's explicit cosmology-concept designation is strong topical evidence but says nothing about physical correctness.","status":"Nathan-direct source role"},
+    {"id":"H17","target":"conceptual_illustration","weight":0.70,"evidence_family":"source_role","all":[["known_cosmology_concept","eq",true]],"hypothesis":"The supplied Klein-fabric images are conceptual/model illustrations rather than established metrological figures.","status":"Nathan-direct bounded role"}
   ],
   "sampling_strategies": [
     "all",
@@ -33,13 +58,19 @@
     "metadata_positive",
     "palette_lineage",
     "family_blocked",
-    "new_or_unstable"
+    "new_or_unstable",
+    "stylesheet_controls",
+    "resource_review_holds"
   ],
   "confidence_policy": {
     "pseudo_labels_never_become_ground_truth": true,
     "self_consistency_updates_are_capped": 0.12,
     "child_role_probability_cannot_exceed_parent": true,
     "gold_or_source_backed_labels_are_required_for_rule_accuracy_updates": true,
-    "stable_repeated_guess_is_reported_separately_from_empirical_accuracy": true
+    "stable_repeated_guess_is_reported_separately_from_empirical_accuracy": true,
+    "website_auto_candidate_is_not_publication": true,
+    "skin_tone_like_fraction_review_threshold": 0.05,
+    "notebook_photo_exception_requires_source_label": true,
+    "stylesheets_never_display": true
   }
 }
