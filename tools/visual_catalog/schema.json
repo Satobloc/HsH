@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SAT/H(s)H visual catalog record",
+  "type": "object",
+  "required": ["id", "repo", "path", "filename", "sha256", "review"],
+  "properties": {
+    "id": {"type": "string"},
+    "repo": {"type": "string"},
+    "path": {"type": "string"},
+    "filename": {"type": "string"},
+    "bytes": {"type": "integer", "minimum": 0},
+    "width": {"type": ["integer", "null"]},
+    "height": {"type": ["integer", "null"]},
+    "shape": {"enum": ["square", "landscape", "portrait", "unknown"]},
+    "sha256": {"type": "string"},
+    "dhash": {"type": ["string", "null"]},
+    "exact_family": {"type": ["string", "null"]},
+    "near_family": {"type": ["string", "null"]},
+    "suggestions": {
+      "type": "object",
+      "properties": {
+        "what": {"type": "array", "items": {"type": "string"}},
+        "topic": {"type": "array", "items": {"type": "string"}},
+        "role": {"type": "array", "items": {"type": "string"}},
+        "style": {"type": "array", "items": {"type": "string"}},
+        "provenance": {"type": "string"}
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["unreviewed", "accepted", "corrected", "unsure"]},
+        "what": {"type": "array", "items": {"type": "string"}},
+        "topic": {"type": "array", "items": {"type": "string"}},
+        "role": {"type": "array", "items": {"type": "string"}},
+        "style": {"type": "array", "items": {"type": "string"}},
+        "display": {"enum": ["unreviewed", "publish", "candidate", "hold", "private", "duplicate", "junk"]},
+        "note": {"type": "string"},
+        "reviewer": {"type": "string"},
+        "reviewed_utc": {"type": ["string", "null"]}
+      }
+    }
+  }
+}
