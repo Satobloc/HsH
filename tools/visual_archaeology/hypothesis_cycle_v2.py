@@ -24,6 +24,7 @@ DERIVED = HERE / "derived"
 STATE_PATH = DERIVED / "model_state_v2.json"
 REPORT_PATH = DERIVED / "latest_report_v2.md"
 RESOURCE_PATH = DERIVED / "resource_candidates.json"
+REVIEW_PATH = DERIVED / "review_sheet.html"
 
 
 def load_manifest():
@@ -235,6 +236,81 @@ def report(state, observations, errors, admissions):
     return "\n".join(lines) + "\n"
 
 
+
+def review_sheet(state, admissions):
+    """Human-review surface: tiny thumbnails left, concise controls/stats right."""
+    import html
+    import urllib.parse
+
+    subsets = state.get("sampling_subsets", {})
+    priority = set(subsets.get("uncertain_margin", [])) | set(subsets.get("new_or_unstable", [])) | set(subsets.get("resource_review_holds", []))
+    collision = set(subsets.get("square_technical_adversarial", []))
+    controls = set(subsets.get("stylesheet_controls", []))
+
+    def bucket(image):
+        if image in priority: return (0, "NEEDS REVIEW")
+        if image in collision: return (1, "COLLISION TEST")
+        if image in controls: return (3, "STABLE CONTROL")
+        return (2, "STABLE / OTHER")
+
+    rows = []
+    for image, pred in state["predictions"].items():
+        # standalone: records are not repo paths and therefore cannot be rendered
+        # from GitHub raw; retain their controls/stats without inventing a URL.
+        repo_path = image if not image.startswith("standalone:") else None
+        thumb = ""
+        if repo_path:
+            raw = "https://raw.githubusercontent.com/Satobloc/HsH/main/" + urllib.parse.quote(repo_path, safe="/")
+            thumb = f'<a href="{html.escape(raw)}"><img loading="lazy" src="{html.escape(raw)}" alt=""></a>'
+        else:
+            thumb = '<span class="noimg">no repo preview</span>'
+        guess = pred["best_guess"]
+        p = float(pred["probabilities"].get(guess, 0.0))
+        gate = admissions.get(image, {}).get("status", "—")
+        group = bucket(image)
+        rows.append((group, image, f"""<tr data-group="{group[1]}">
+<td class="thumb">{thumb}</td>
+<td><div class="name">{html.escape(image)}</div>
+<div class="stats"><b>{html.escape(guess)}</b> · {p:.3f} · {pred.get("evidence_family_count", 0)} families · {html.escape(gate)}</div>
+<div class="checks">
+<label><input type="radio" name="accuracy:{html.escape(image)}"> correct</label>
+<label><input type="radio" name="accuracy:{html.escape(image)}"> wrong</label>
+<label><input type="radio" name="accuracy:{html.escape(image)}"> unsure</label><br>
+<label><input type="radio" name="resource:{html.escape(image)}"> approve</label>
+<label><input type="radio" name="resource:{html.escape(image)}"> hold</label>
+<label><input type="radio" name="resource:{html.escape(image)}"> reject</label>
+</div></td></tr>"""))
+
+    rows.sort(key=lambda x: (x[0][0], -float(state["predictions"][x[1]]["probabilities"].get(state["predictions"][x[1]]["best_guess"], 0))))
+    body = []
+    last = None
+    for group, image, row in rows:
+        if group[1] != last:
+            body.append(f'<tr class="section"><th colspan="2">{group[1]}</th></tr>')
+            last = group[1]
+        body.append(row)
+
+    return """<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HsH visual archaeology review</title>
+<style>
+body{font:14px system-ui,sans-serif;max-width:900px;margin:20px auto;padding:0 12px;color:#171717}
+h1{font-size:20px;margin-bottom:4px}.note{font-size:12px;color:#555;margin-bottom:12px}
+table{width:100%;border-collapse:collapse}td,th{border:1px solid #ccc;padding:7px;vertical-align:top}
+.thumb{width:96px;text-align:center}.thumb img{width:88px;height:70px;object-fit:contain;display:block;margin:auto}
+.noimg{font-size:10px;color:#888}.name{font:11px ui-monospace,monospace;overflow-wrap:anywhere}
+.stats{margin:4px 0}.checks{line-height:1.7}.checks label{white-space:nowrap;margin-right:9px}
+.section th{text-align:left;background:#eee;font-size:11px;letter-spacing:.06em}
+@media(max-width:500px){.thumb{width:68px}.thumb img{width:60px;height:55px}body{font-size:12px}}
+</style>
+<h1>Visual archaeology — human review</h1>
+<div class="note">Run """ + str(state["run_number"]) + """ · """ + html.escape(state["run_utc"]) + """ · Checkboxes are a review aid only until explicitly ingested; machine stability is not empirical accuracy.</div>
+<table><tbody>""" + "\n".join(body) + """</tbody></table>
+<script>
+// Preserve an in-progress review locally without converting it into classifier evidence.
+for(const el of document.querySelectorAll('input')){const k='hsh-va:'+el.name+':'+el.parentElement.textContent.trim();el.checked=localStorage.getItem(k)==='1';el.addEventListener('change',()=>{for(const peer of document.querySelectorAll('input[name="'+CSS.escape(el.name)+'"]')){const pk='hsh-va:'+peer.name+':'+peer.parentElement.textContent.trim();localStorage.setItem(pk,peer.checked?'1':'0')}})}
+</script>"""
+
+
 def main():
     config = base.load_json(HERE / "hypothesis_rules.json", {})
     manifest = load_manifest()
@@ -300,6 +376,7 @@ def main():
     DERIVED.mkdir(exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     REPORT_PATH.write_text(report(state, observations, errors, admissions), encoding="utf-8")
+    REVIEW_PATH.write_text(review_sheet(state, admissions), encoding="utf-8")
     RESOURCE_PATH.write_text(json.dumps({
         "generated_utc": state["run_utc"],
         "policy": "staging candidates only; no automatic publication",
