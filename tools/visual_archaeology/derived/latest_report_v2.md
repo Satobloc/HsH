@@ -1,7 +1,7 @@
 # Visual hypothesis-cycle v2 report
 
-**Run:** 5  
-**UTC:** 2026-10-01T07:07:49.620409+00:00  
+**Run:** 6  
+**UTC:** 2026-10-01T08:04:17.048661+00:00  
 **Status:** experimental; source labels and machine guesses are separate
 
 ## Recon
@@ -16,11 +16,11 @@
 
 | image | best guess | p | evidence families | resource gate |
 |---|---:|---:|---:|---|
-| `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8883.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/Image.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` | podcast_stylesheet | 1.000 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` | podcast_stylesheet | 1.000 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` | podcast_stylesheet | 1.000 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8883.jpeg` | podcast_stylesheet | 1.000 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/Image.jpeg` | podcast_stylesheet | 1.000 | 3 | NO_DISPLAY |
 | `standalone:output (1).png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
 | `standalone:saty_output(1).png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
 | `standalone:SATy_output2.png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
