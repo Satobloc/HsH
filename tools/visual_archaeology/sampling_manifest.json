@@ -1,33 +1,112 @@
 {
-  "schema_version": "0.1",
-  "updated": "2026-09-30T19:48:00-04:00",
+  "schema_version": "0.2",
+  "updated": "2026-09-30T20:22:00-04:00",
   "launch_anchor": "2026-09-30T19:48:00-04:00",
-  "first_hour_check": "2026-09-30T20:48:00-04:00",
-  "principle": "Nathan/source labels are preserved separately from machine guesses. Descriptive role labels may guide checks but do not establish theory meaning.",
+  "principle": "Nathan/source labels are preserved separately from machine guesses. Descriptive role labels may guide checks but do not establish theory meaning. Display/resource eligibility is a separate gate.",
   "items": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
       "family_id": "mind_map_2025_current",
       "human_labels": ["research_process", "mind_map", "historical_2025", "mostly_still_live"],
-      "human_note": "Nathan: historical 2025 material but mostly still live. Orientation artifact, not physical evidence."
+      "human_note": "Nathan: historical 2025 material but mostly still live. Orientation artifact, not physical evidence.",
+      "display_policy": "review"
     },
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
       "family_id": "finite_core_conceptual",
       "human_labels": ["generated_visualization", "model_diagram", "single_coil", "finite_core", "conceptual_not_metrologically_fitted"],
-      "human_note": "Nathan: conceptual finite-core single-coil visualization; e.g. electron/other massive-particle structural idea; not metrologically theory-fitted."
+      "human_note": "Nathan: conceptual finite-core single-coil visualization; e.g. electron/other massive-particle structural idea; not metrologically theory-fitted.",
+      "display_policy": "review"
     },
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
       "family_id": "finite_core_conceptual",
       "human_labels": ["generated_visualization", "model_diagram", "dual_intercoil", "finite_core", "conceptual_not_metrologically_fitted"],
-      "human_note": "Nathan: dual-intercoil approximation; rough muon-model concept; not metrologically theory-fitted."
+      "human_note": "Nathan: dual-intercoil approximation; rough muon-model concept; not metrologically theory-fitted.",
+      "display_policy": "review"
     },
     {
       "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
       "family_id": "worldtube_coil_notebook_derivative",
       "human_labels": ["generated_visualization", "model_diagram", "notebook_derivative", "worldtube", "single_loop", "helical_indicatrix", "illustrative"],
-      "human_note": "Nathan: lightly processed notebook sketch; worldtube with single loop/coil plus inset helical-indicatrix/~ᚼ sphere. Use as structural prompt, not metrological evidence."
+      "human_note": "Nathan: lightly processed notebook sketch; worldtube with single loop/coil plus inset helical-indicatrix/~ᚼ sphere. Use as structural prompt, not metrological evidence.",
+      "display_policy": "review"
+    },
+
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
+      "family_id": "unused_podcast_background_general_flavor",
+      "human_labels": ["generated_visualization", "conceptual_illustration", "general_flavor_candidate", "potential_podcast_thumbnail_background", "not_yet_used"],
+      "human_note": "Nathan: potential podcast-thumbnail background not yet used; also useful for conceptual-sketch illustration, website icons/insets, or general-purpose flavor graphics. Resource use remains subject to the conservative photographic/skin-tone review backstop.",
+      "resource_candidate": true,
+      "display_policy": "review"
+    },
+
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 08_59_15 PM.png",
+      "family_id": "klein_fabric_wrapping_2026_09_27",
+      "human_labels": ["generated_visualization", "conceptual_illustration", "cosmology_concept", "klein_fabric_wrapping", "tentative_model", "wrapping_angle_first_guess"],
+      "human_note": "Nathan: tentative Klein-fabric cosmological wrapping calculation/model; first-guess wrapping-angle universal viability/productivity/consistency/complexity exploration. Theory candidate only.",
+      "provenance_check": "Compare earliest internal Klein/Klein-fabric appearance and earliest Levin/Greene exposure record against externally verified publication/broadcast dates before any influence/convergence claim.",
+      "display_policy": "review"
+    },
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 27, 2026, 09_07_50 PM.png",
+      "family_id": "klein_fabric_wrapping_2026_09_27",
+      "human_labels": ["generated_visualization", "conceptual_illustration", "cosmology_concept", "klein_fabric_wrapping", "tentative_model", "wrapping_angle_first_guess"],
+      "human_note": "Nathan: companion tentative Klein-fabric cosmological wrapping calculation/model; first-guess wrapping-angle universal viability/productivity/consistency/complexity exploration. Theory candidate only.",
+      "provenance_check": "Compare earliest internal Klein/Klein-fabric appearance and earliest Levin/Greene exposure record against externally verified publication/broadcast dates before any influence/convergence claim.",
+      "display_policy": "review"
+    },
+
+    {
+      "path": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
+      "family_id": "podcast_stylesheets_closed_set",
+      "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
+      "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
+      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "display_policy": "never_display"
+    },
+    {
+      "path": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
+      "family_id": "podcast_stylesheets_closed_set",
+      "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
+      "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
+      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "display_policy": "never_display"
+    },
+    {
+      "path": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "family_id": "podcast_stylesheets_closed_set",
+      "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
+      "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
+      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "display_policy": "never_display"
+    },
+    {
+      "path": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "family_id": "podcast_stylesheets_closed_set",
+      "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
+      "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
+      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "display_policy": "never_display"
+    },
+    {
+      "path": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "family_id": "podcast_stylesheets_closed_set",
+      "human_labels": ["podcast_stylesheet", "closed_set_control", "style_history", "training_only"],
+      "human_note": "Nathan: one of the only podcast stylesheets in the archive. Use for palette/layout/keyword association; do not display as a public illustration.",
+      "validation": {"podcast_stylesheet": true, "podcast_thumbnail": false},
+      "display_policy": "never_display"
     }
-  ]
+  ],
+  "closed_sets": {
+    "podcast_stylesheets": {
+      "family_id": "podcast_stylesheets_closed_set",
+      "count": 5,
+      "identity_rule": "These five source objects define the closed stylesheet set. Exact duplicate copies elsewhere inherit the same role only after source/hash identity is established.",
+      "display_policy": "never_display",
+      "uses": ["palette statistics", "layout statistics", "style-history reconstruction", "keyword-association refinement", "Spotify/Creators screenshot discrimination"]
+    }
+  }
 }
