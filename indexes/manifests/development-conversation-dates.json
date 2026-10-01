@@ -1,13 +1,14 @@
 {
-  "generated_at_utc": "2026-10-01T19:43:10.766239+00:00",
+  "generated_at_utc": "2026-10-01T19:46:16.616151+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 549,
-    "skipped": 397,
-    "collision": 1
+    "skipped": 398,
+    "collision": 1,
+    "planned": 8
   },
   "records": [
     {
@@ -8994,6 +8995,98 @@
       "status": "skipped",
       "warnings": [
         "no usable conversation or message timestamps"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Analyze Voice Models — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13•26.09.20•Analyze Voice Models — raw.json",
+      "start_local": "2026-09-13T19:33:46.070000-04:00",
+      "end_local": "2026-09-20T16:47:39.706671-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 339,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Brownian motion and molecular mass — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.13•26.09.12•Brownian motion and molecular mass — raw.json",
+      "start_local": "2026-07-13T04:53:15.271059-04:00",
+      "end_local": "2026-09-12T09:00:03.363669-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 110,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Conga Ledger — Kestrel VI — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
+      "start_local": "2026-09-30T13:13:12.685781-04:00",
+      "end_local": "2026-10-01T15:30:35.606038-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 124,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Establish factual record — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.16•26.09.17•Establish factual record — raw.json",
+      "start_local": "2026-09-16T17:15:57.698000-04:00",
+      "end_local": "2026-09-17T03:53:10.402421-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 635,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/File Set Overview — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19•26.09.22•File Set Overview — raw.json",
+      "start_local": "2026-08-19T05:06:07.842000-04:00",
+      "end_local": "2026-09-22T17:25:36.962022-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1259,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB 2_ Refinement Lead — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
+      "start_local": "2025-05-09T02:39:32.860000-04:00",
+      "end_local": "2025-05-09T16:00:20.326928-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 56,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Mercer Archive Mover — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.22•Mercer Archive Mover — raw (3).json",
+      "start_local": "2026-09-12T21:37:57.274539-04:00",
+      "end_local": "2026-09-22T23:29:38.717714-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1568,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/String Theory Particle Zoo — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
+      "start_local": "2025-12-30T00:31:34.043090-05:00",
+      "end_local": "2026-09-12T22:46:20.219060-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 283,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/gitignore.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
       ]
     },
     {
