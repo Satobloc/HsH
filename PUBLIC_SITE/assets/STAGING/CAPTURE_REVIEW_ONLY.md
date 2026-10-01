@@ -2,6 +2,7 @@
 
 **Default:** DO NOT DISPLAY on the public site. Any filename containing `capture` (case-insensitive) stays here unless Nathan explicitly promotes it. Podcast statistics, GitHub analytics, traffic/exposure statistics remain non-public even if later reviewed.
 
+<img src="https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CNSPODCapture.JPG"></img>
 - [HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CNSPODCapture.JPG](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CNSPODCapture.JPG)
 - [HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CONSCPODCapture.JPG](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/CONSCPODCapture.JPG)
 - [HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/COSCSPODCapture.JPG](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/COSCSPODCapture.JPG)
