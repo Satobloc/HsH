@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1",
+  "updated": "2026-09-30T19:48:00-04:00",
+  "launch_anchor": "2026-09-30T19:48:00-04:00",
+  "first_hour_check": "2026-09-30T20:48:00-04:00",
+  "principle": "Nathan/source labels are preserved separately from machine guesses. Descriptive role labels may guide checks but do not establish theory meaning.",
+  "items": [
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "family_id": "mind_map_2025_current",
+      "human_labels": ["research_process", "mind_map", "historical_2025", "mostly_still_live"],
+      "human_note": "Nathan: historical 2025 material but mostly still live. Orientation artifact, not physical evidence."
+    },
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "family_id": "finite_core_conceptual",
+      "human_labels": ["generated_visualization", "model_diagram", "single_coil", "finite_core", "conceptual_not_metrologically_fitted"],
+      "human_note": "Nathan: conceptual finite-core single-coil visualization; e.g. electron/other massive-particle structural idea; not metrologically theory-fitted."
+    },
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "family_id": "finite_core_conceptual",
+      "human_labels": ["generated_visualization", "model_diagram", "dual_intercoil", "finite_core", "conceptual_not_metrologically_fitted"],
+      "human_note": "Nathan: dual-intercoil approximation; rough muon-model concept; not metrologically theory-fitted."
+    },
+    {
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "family_id": "worldtube_coil_notebook_derivative",
+      "human_labels": ["generated_visualization", "model_diagram", "notebook_derivative", "worldtube", "single_loop", "helical_indicatrix", "illustrative"],
+      "human_note": "Nathan: lightly processed notebook sketch; worldtube with single loop/coil plus inset helical-indicatrix/~ᚼ sphere. Use as structural prompt, not metrological evidence."
+    }
+  ]
+}
