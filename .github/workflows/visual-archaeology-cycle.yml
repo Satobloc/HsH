@@ -3,8 +3,17 @@ name: Visual archaeology hypothesis cycle
 on:
   workflow_dispatch:
   push:
+    # Source/config changes rerun immediately. Derived bot commits are intentionally
+    # absent from this list, preventing a self-trigger loop.
     paths:
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.png'
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.jpg'
+      - 'DEVELOPMENT_FULL_CONVOS/**/*.jpeg'
+      - 'SAT_VISUALS/**/*.png'
+      - 'SAT_VISUALS/**/*.jpg'
+      - 'SAT_VISUALS/**/*.jpeg'
       - 'tools/visual_archaeology/hypothesis_cycle.py'
+      - 'tools/visual_archaeology/hypothesis_cycle_v2.py'
       - 'tools/visual_archaeology/hypothesis_rules.json'
       - 'tools/visual_archaeology/sampling_manifest.json'
       - 'tools/visual_archaeology/visual_analyzer.py'
@@ -12,11 +21,7 @@ on:
       - 'tools/visual_archaeology/seed_measurements_2026-09-30.json'
       - '.github/workflows/visual-archaeology-cycle.yml'
   schedule:
-    # One-hour accelerated trial launched 2026-09-30 19:48 EDT (=23:48Z).
-    # These date-shaped crons recur annually, but the gate below allows them only in 2026.
-    - cron: '50 23 30 9 *'
-    - cron: '0,10,20,30,40 0 1 10 *'
-    # Persistent hourly checkpoint at :48.
+    # Hard-coded repo-local checkpoint. GitHub scheduled Actions may start late.
     - cron: '48 * * * *'
 
 permissions:
@@ -30,38 +35,21 @@ jobs:
   cycle:
     runs-on: ubuntu-latest
     steps:
-      - name: Gate accelerated trial window
-        id: gate
-        shell: bash
-        run: |
-          RUN=true
-          if [[ "${{ github.event_name }}" == "schedule" && "${{ github.event.schedule }}" != "48 * * * *" ]]; then
-            if [[ "$(date -u +%Y)" != "2026" ]] || [[ "$(date -u +%s)" -gt "$(date -u -d '2026-10-01T00:48:00Z' +%s)" ]]; then
-              RUN=false
-            fi
-          fi
-          echo "run=$RUN" >> "$GITHUB_OUTPUT"
-
       - name: Checkout
-        if: steps.gate.outputs.run == 'true'
         uses: actions/checkout@v4
 
       - name: Set up Python
-        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install image dependency
-        if: steps.gate.outputs.run == 'true'
         run: python -m pip install --quiet pillow
 
       - name: Run nested hypothesis/check cycles
-        if: steps.gate.outputs.run == 'true'
-        run: python tools/visual_archaeology/hypothesis_cycle.py
+        run: python tools/visual_archaeology/hypothesis_cycle_v2.py
 
       - name: Commit durable state
-        if: steps.gate.outputs.run == 'true'
         shell: bash
         run: |
           git config user.name "visual archaeology bot"
