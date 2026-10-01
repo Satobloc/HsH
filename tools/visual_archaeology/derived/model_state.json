@@ -1,0 +1,1502 @@
+{
+  "schema_version": "0.1",
+  "run_number": 1,
+  "run_utc": "2026-10-01T00:06:18.208230+00:00",
+  "model": "transparent nested priors + bounded pseudo-correlation + explicit-validation beta updates",
+  "prediction_semantics": "heuristic probability, not calibrated posterior probability",
+  "observations": [
+    {
+      "image": "standalone:output (1).png",
+      "path": "output (1).png",
+      "width": 1180,
+      "height": 1180,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.8755,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.041,
+      "cyan_blue": 0.0312,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0165,
+      "known_technical": true,
+      "human_labels": [
+        "model_diagram",
+        "plane_intersection",
+        "rgb_triplet",
+        "triple_helix"
+      ],
+      "human_note": "near-exact match to SAT_VISUAL_HIST p33",
+      "family_id": "rgb_three_filament_coil",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (3)(1).png",
+      "path": "output (3)(1).png",
+      "width": 1158,
+      "height": 1180,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.8782,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.031,
+      "cyan_blue": 0.0349,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.008,
+      "known_technical": true,
+      "human_labels": [
+        "model_diagram",
+        "parameterized_geometry",
+        "rgb_triplet",
+        "triple_helix"
+      ],
+      "human_note": "near-exact match to SAT_VISUAL_HIST p35",
+      "family_id": "rgb_three_filament_coil",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (7).png",
+      "path": "output (7).png",
+      "width": 2048,
+      "height": 556,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.8901,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.002,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "particle_pitch_four_panel",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (9).png",
+      "path": "output (9).png",
+      "width": 2048,
+      "height": 556,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.8894,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.002,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "particle_pitch_four_panel",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (13).png",
+      "path": "output (13).png",
+      "width": 2048,
+      "height": 1187,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.9961,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0002,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0028,
+      "known_technical": true,
+      "human_labels": [
+        "comparison_plot",
+        "parameter_plot",
+        "white_background_technical"
+      ],
+      "human_note": "near-exact match to SAT_VISUAL_HIST p45",
+      "family_id": "mass_theta4_plot_family",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (15).png",
+      "path": "output (15).png",
+      "width": 1979,
+      "height": 1180,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.9866,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0033,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "mass_theta4_plot_family",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (17).png",
+      "path": "output (17).png",
+      "width": 1793,
+      "height": 1101,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.9844,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0022,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "filament_rotation_intersection_plot",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (20).png",
+      "path": "output (20).png",
+      "width": 963,
+      "height": 656,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.9724,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0039,
+      "cyan_blue": 0.0154,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0045,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": null,
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (21)(1).png",
+      "path": "output (21)(1).png",
+      "width": 963,
+      "height": 964,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.9375,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0024,
+      "cyan_blue": 0.0227,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.007,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": null,
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (22).png",
+      "path": "output (22).png",
+      "width": 1555,
+      "height": 1579,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.3916,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.022,
+      "cyan_blue": 0.0598,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0552,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "tau_field_method_demo",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:output (24).png",
+      "path": "output (24).png",
+      "width": 1980,
+      "height": 1180,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.8789,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0461,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0066,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "tau_field_method_demo",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:saty_output(1).png",
+      "path": "saty_output(1).png",
+      "width": 1180,
+      "height": 1180,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.8689,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0039,
+      "cyan_blue": 0.1116,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0208,
+      "known_technical": true,
+      "human_labels": [
+        "curved_sheet",
+        "generated_visualization",
+        "rgb_triplet",
+        "triple_helix"
+      ],
+      "human_note": "near-exact match to SAT_VISUAL_HIST p85",
+      "family_id": "saty_visualization_trio",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:SATy_output2.png",
+      "path": "SATy_output2.png",
+      "width": 810,
+      "height": 810,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.064,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.4514,
+      "cyan_blue": 0.4536,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.2658,
+      "known_technical": true,
+      "human_labels": [
+        "cyan_blue",
+        "magenta_red",
+        "model_diagram",
+        "split_field_vertical"
+      ],
+      "human_note": "near-exact match to SAT_VISUAL_HIST p86",
+      "family_id": "saty_visualization_trio",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "standalone:SATy_viz_output.png",
+      "path": "SATy_viz_output.png",
+      "width": 1180,
+      "height": 1180,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.0615,
+      "dark": 0.0,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.5066,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0005,
+      "known_technical": false,
+      "human_labels": [],
+      "human_note": null,
+      "family_id": "saty_visualization_trio",
+      "measurement_source": "fixed_seed_2026-09-30"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "sha256": "1b8ef3b227413f39c07e163ce6d2d67c43142b6b2c9c64971684a26d3bf53708",
+      "width": 6826,
+      "height": 19736,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 0.8662,
+      "dark": 0.8611,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0435,
+      "warm": 0.0,
+      "lr_color_distance": 0.0802,
+      "known_technical": true,
+      "human_labels": [
+        "historical_2025",
+        "mind_map",
+        "mostly_still_live",
+        "research_process"
+      ],
+      "human_note": "Nathan: historical 2025 material but mostly still live. Orientation artifact, not physical evidence.",
+      "family_id": "mind_map_2025_current",
+      "measurement_source": "live_file"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "sha256": "70b8a16509af4dbb01dc3c8f10d2fc1df3372180c68805311d71d4fa32973fd5",
+      "width": 819,
+      "height": 819,
+      "square": true,
+      "square_num": 1.0,
+      "gray": 0.9988,
+      "dark": 0.9963,
+      "light": 0.0,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.001,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0012,
+      "known_technical": true,
+      "human_labels": [
+        "conceptual_not_metrologically_fitted",
+        "finite_core",
+        "generated_visualization",
+        "model_diagram",
+        "single_coil"
+      ],
+      "human_note": "Nathan: conceptual finite-core single-coil visualization; e.g. electron/other massive-particle structural idea; not metrologically theory-fitted.",
+      "family_id": "finite_core_conceptual",
+      "measurement_source": "live_file"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "sha256": "e55dd56f2f129b9591d5673fd9becf6d5032ab3ed258051587e70641673925cf",
+      "width": 819,
+      "height": 1110,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 1.0,
+      "dark": 0.873,
+      "light": 0.0012,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0014,
+      "known_technical": true,
+      "human_labels": [
+        "conceptual_not_metrologically_fitted",
+        "dual_intercoil",
+        "finite_core",
+        "generated_visualization",
+        "model_diagram"
+      ],
+      "human_note": "Nathan: dual-intercoil approximation; rough muon-model concept; not metrologically theory-fitted.",
+      "family_id": "finite_core_conceptual",
+      "measurement_source": "live_file"
+    },
+    {
+      "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png",
+      "sha256": "f4780396d00a33bae3c7fb00834b700e22ec7df4811b88e19eb29e5c48248974",
+      "width": 1060,
+      "height": 1484,
+      "square": false,
+      "square_num": 0.0,
+      "gray": 1.0,
+      "dark": 0.0002,
+      "light": 0.8726,
+      "red_magenta": 0.0,
+      "cyan_blue": 0.0,
+      "green": 0.0,
+      "warm": 0.0,
+      "lr_color_distance": 0.0057,
+      "known_technical": true,
+      "human_labels": [
+        "generated_visualization",
+        "helical_indicatrix",
+        "illustrative",
+        "model_diagram",
+        "notebook_derivative",
+        "single_loop",
+        "worldtube"
+      ],
+      "human_note": "Nathan: lightly processed notebook sketch; worldtube with single loop/coil plus inset helical-indicatrix/~ᚼ sphere. Use as structural prompt, not metrological evidence.",
+      "family_id": "worldtube_coil_notebook_derivative",
+      "measurement_source": "live_file"
+    }
+  ],
+  "predictions": {
+    "standalone:output (1).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0339,
+        "sat_podcast_thumbnail": 0.0339,
+        "hsh_podcast_thumbnail": 0.0339,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H01",
+        "H03A",
+        "H03B",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H03A",
+            "weight": 0.35,
+            "family": "palette"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [
+          {
+            "rule": "H03B",
+            "weight": 0.8,
+            "family": "palette"
+          }
+        ],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "standalone:output (3)(1).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0171,
+        "sat_podcast_thumbnail": 0.0171,
+        "hsh_podcast_thumbnail": 0.0171,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "standalone:output (7).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (9).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (13).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0171,
+        "sat_podcast_thumbnail": 0.0171,
+        "hsh_podcast_thumbnail": 0.0171,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "standalone:output (15).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (17).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (20).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (21)(1).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0911,
+        "sat_podcast_thumbnail": 0.0911,
+        "hsh_podcast_thumbnail": 0.0911,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H01",
+        "H04A",
+        "H04B",
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H04A",
+            "weight": 0.3,
+            "family": "palette"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [
+          {
+            "rule": "H04B",
+            "weight": 0.75,
+            "family": "palette"
+          }
+        ],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (22).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:output (24).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0497,
+        "sat_podcast_thumbnail": 0.0497,
+        "hsh_podcast_thumbnail": 0.0497,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "standalone:saty_output(1).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0241,
+        "sat_podcast_thumbnail": 0.0241,
+        "hsh_podcast_thumbnail": 0.0241,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "standalone:SATy_output2.png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0241,
+        "sat_podcast_thumbnail": 0.0241,
+        "hsh_podcast_thumbnail": 0.0241,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.5498
+      },
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B",
+        "H07",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": [
+          {
+            "rule": "H07",
+            "weight": 2.2,
+            "family": "layout"
+          }
+        ]
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "standalone:SATy_viz_output.png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0691,
+        "sat_podcast_thumbnail": 0.0691,
+        "hsh_podcast_thumbnail": 0.0691,
+        "technical_figure": 0.7503,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H01",
+        "H06A",
+        "H06B"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "path_metadata"
+      ],
+      "evidence_family_count": 1
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.063,
+        "sat_podcast_thumbnail": 0.063,
+        "hsh_podcast_thumbnail": 0.063,
+        "technical_figure": 0.7858,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H09",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H09",
+            "weight": 1.4,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0431,
+        "sat_podcast_thumbnail": 0.0431,
+        "hsh_podcast_thumbnail": 0.0431,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H01",
+        "H02",
+        "H04A",
+        "H04B",
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H01",
+            "weight": 0.35,
+            "family": "geometry"
+          },
+          {
+            "rule": "H02",
+            "weight": 0.3,
+            "family": "palette"
+          },
+          {
+            "rule": "H04A",
+            "weight": 0.3,
+            "family": "palette"
+          },
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [
+          {
+            "rule": "H04B",
+            "weight": 0.75,
+            "family": "palette"
+          }
+        ],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.0171,
+        "sat_podcast_thumbnail": 0.0171,
+        "hsh_podcast_thumbnail": 0.0171,
+        "technical_figure": 0.8808,
+        "conceptual_illustration": 0.1419,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H06A",
+        "H06B",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H06B",
+            "weight": -1.35,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H06A",
+            "weight": 2.1,
+            "family": "path_metadata"
+          },
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role",
+        "path_metadata"
+      ],
+      "evidence_family_count": 2
+    },
+    "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png": {
+      "best_guess": "technical_figure",
+      "probabilities": {
+        "podcast_thumbnail": 0.063,
+        "sat_podcast_thumbnail": 0.063,
+        "hsh_podcast_thumbnail": 0.063,
+        "technical_figure": 0.475,
+        "conceptual_illustration": 0.4502,
+        "split_field_visual": 0.1192
+      },
+      "matched_rules": [
+        "H08",
+        "H10",
+        "H11"
+      ],
+      "evidence": {
+        "podcast_thumbnail": [
+          {
+            "rule": "H11",
+            "weight": -1.1,
+            "family": "known_role"
+          }
+        ],
+        "sat_podcast_thumbnail": [],
+        "hsh_podcast_thumbnail": [],
+        "technical_figure": [
+          {
+            "rule": "H10",
+            "weight": 0.9,
+            "family": "known_role"
+          }
+        ],
+        "conceptual_illustration": [
+          {
+            "rule": "H08",
+            "weight": 1.6,
+            "family": "path_metadata"
+          }
+        ],
+        "split_field_visual": []
+      },
+      "independent_evidence_families": [
+        "known_role"
+      ],
+      "evidence_family_count": 1
+    }
+  },
+  "rule_reliability": {
+    "H01": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H02": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H03A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H03B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H04A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H04B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H05": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H06A": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H06B": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H07": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H08": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H09": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H10": {
+      "alpha": 2.0,
+      "beta": 2.0
+    },
+    "H11": {
+      "alpha": 2.0,
+      "beta": 2.0
+    }
+  },
+  "validation_updates": [],
+  "pseudo_correlation_signals": [],
+  "round_log": [
+    {
+      "round": 1,
+      "changed_best_guess": 0,
+      "signals": []
+    },
+    {
+      "round": 2,
+      "changed_best_guess": 0,
+      "signals": []
+    },
+    {
+      "round": 3,
+      "changed_best_guess": 0,
+      "signals": []
+    },
+    {
+      "round": 4,
+      "changed_best_guess": 0,
+      "signals": []
+    },
+    {
+      "round": 5,
+      "changed_best_guess": 0,
+      "signals": []
+    },
+    {
+      "round": 6,
+      "changed_best_guess": 0,
+      "signals": []
+    }
+  ],
+  "sampling_subsets": {
+    "all": [
+      "standalone:output (1).png",
+      "standalone:output (3)(1).png",
+      "standalone:output (7).png",
+      "standalone:output (9).png",
+      "standalone:output (13).png",
+      "standalone:output (15).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:output (24).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+    ],
+    "uncertain_margin": [
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+    ],
+    "square_technical_adversarial": [
+      "standalone:output (1).png",
+      "standalone:output (21)(1).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png"
+    ],
+    "metadata_positive": [],
+    "palette_lineage": [
+      "standalone:output (1).png"
+    ],
+    "family_blocked": [
+      "standalone:output (1).png",
+      "standalone:output (7).png",
+      "standalone:output (13).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:saty_output(1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+    ],
+    "new_or_unstable": [
+      "standalone:output (1).png",
+      "standalone:output (3)(1).png",
+      "standalone:output (7).png",
+      "standalone:output (9).png",
+      "standalone:output (13).png",
+      "standalone:output (15).png",
+      "standalone:output (17).png",
+      "standalone:output (20).png",
+      "standalone:output (21)(1).png",
+      "standalone:output (22).png",
+      "standalone:output (24).png",
+      "standalone:saty_output(1).png",
+      "standalone:SATy_output2.png",
+      "standalone:SATy_viz_output.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NotebookLM Mind Map.png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (3).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Matplotlib Chart (1).png",
+      "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 28, 2026, 11_46_03 AM.png"
+    ]
+  },
+  "guess_changes": 0,
+  "stable_guesses": 0,
+  "measurement_errors": []
+}
