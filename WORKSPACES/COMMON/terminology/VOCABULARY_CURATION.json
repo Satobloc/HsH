@@ -1,10 +1,16 @@
 {
   "description": "Manual controls applied after frequency/provenance harvesting and before vocabulary enters the conversation tagger.",
-  "force_include": [],
+  "force_include": [
+    "bosonic wave",
+    "coil-let"
+  ],
   "force_exclude": [],
   "canonicalize": {},
   "aliases": {},
-  "notes": {},
+  "notes": {
+    "bosonic wave": "Nathan-direct term coined 2026-09-30 for a candidate SAT/H(s)H traveling excitation/packet represented as holonomic coil(s). Candidate terminology only; does not by itself establish particle-wave duality or bosonic quantum numbers.",
+    "coil-let": "Nathan-direct term coined 2026-09-30 for a candidate fundamental-scale single traveling coil/packet. Candidate terminology only; scale and physical interpretation remain to be derived/tested."
+  },
   "minimums": {
     "unigram_frequency": 3,
     "ngram_frequency": 2,
