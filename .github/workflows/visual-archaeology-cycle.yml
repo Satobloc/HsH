@@ -14,6 +14,7 @@ on:
       - 'SAT_VISUALS/**/*.jpeg'
       - 'tools/visual_archaeology/hypothesis_cycle.py'
       - 'tools/visual_archaeology/hypothesis_cycle_v2.py'
+      - 'tools/visual_archaeology/run_visual_cycle.py'
       - 'tools/visual_archaeology/hypothesis_rules.json'
       - 'tools/visual_archaeology/sampling_manifest.json'
       - 'tools/visual_archaeology/visual_analyzer.py'
@@ -47,7 +48,7 @@ jobs:
         run: python -m pip install --quiet pillow
 
       - name: Run nested hypothesis/check cycles
-        run: python tools/visual_archaeology/hypothesis_cycle_v2.py
+        run: python tools/visual_archaeology/run_visual_cycle.py
 
       - name: Commit durable state
         shell: bash
