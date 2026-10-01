@@ -1,0 +1,24 @@
+
+POTENTIAL PODCAST THUMBNAIL BACKGROUND(S) NOT YET USED: 
+These are great for other illustration purposes as well (eg conceptual sketch illos, other website icons or inset graphics, etc), since they don't contain any of the podcast branding look (and a certain level of best guess accuracy should probably count as verification enough to put into website resources that can be picked up and used readilly or put into rotation as general purpose flavor graphics to be adjusted later -- probably with a backstop like "must not contain human skintones" lol... or rather <<<5% human skintones without strong evidence of notebook sketch photo [b/c my literal thumbs are in some lol] or any color pallette consistent with a photograph of anything other than a notebook page] = full no go until reviewed):
+
+https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT%20Image%20Sep%2012%2C%202026%2C%2008_46_02%20AM.png
+
+
+TENTATIVE KLEIN FABRIC COSMOLOGICAL WRAPPING CALCULATION MODEL FIRST GUESS WRAPPING ANGLE:UNIVERSAL VIABILITY/PRODUCTIVITY/CONSISTENCY/COMPLEXITY MODEL (anything regarding Klein twist should be checked for earliest internal citation appearence against the Janna Levin/Brian Greene paper publication dates because I'm not sure if I saw those headlines before proposing the Klein fabric model):
+
+https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT%20Image%20Sep%2027%2C%202026%2C%2008_59_15%20PM.png
+https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT%20Image%20Sep%2027%2C%202026%2C%2009_07_50%20PM.png
+
+
+STYLESHEETS:
+Exaxtly what they say, stylesheets for the podcast thumbnails -- not something to display, but possibly useful for statistical sample (eg "(esp if labeled stylesheet, obviously) excluding white background, pallet average likely ~ pallet average for some class of episodes == new stats for what constitutes a thumbnail of a particular class" or "presence of 2 to ~12 square images plus text) = likely stylesheet or Spotify podcast screenshot" ...and a first algorithmic step should be extract or refer to previously extracted text and use them for identification or updating of keywords lists... black background w/ lots of gray and lots of text, esp "Debating" or "New Physics" and esp presence of Spotify green == Spotify screenshot and maybe the text updates correlation with particular episode classes and/or text statistics generate further keyword refinement and guess-weighting). Similarly, white background with lots of text and square images (all on the left, therefore a white/color/white/color/white/color pattern in the left third likely indcates Spotify Creators screenshots of episode lists which are functionally equivalent to Spotify podcast screenshots which would be black/color banding and presence of "Spotify Creators purple" or "Spotify Green" adds almost a lock) ...
+
+And these are the only stylesheets in the archives (except insofar as spotify/creators screenshots can be used as stylesheet ..or at least style history/keyword association refinement), so that's already a bit of a closed set whether or not they recur elsewhere; same name and properties = this closed set even if not in this directory: 
+
+SAT_VISUALS/STYLEsheets/IMG_8875.jpeg
+SAT_VISUALS/STYLEsheets/IMG_8877.jpeg
+SAT_VISUALS/STYLEsheets/IMG_8878.jpeg
+SAT_VISUALS/STYLEsheets/IMG_8883.jpeg
+SAT_VISUALS/STYLEsheets/Image.jpeg
+
