@@ -1,26 +1,26 @@
 # Visual hypothesis-cycle v2 report
 
-**Run:** 1  
-**UTC:** 2026-10-01T00:33:08.176564+00:00  
+**Run:** 2  
+**UTC:** 2026-10-01T00:34:55.897176+00:00  
 **Status:** experimental; source labels and machine guesses are separate
 
 ## Recon
 
 - Images evaluated: **26**
-- Explicit validation updates: **15**
+- Explicit validation updates: **10**
 - Guess changes versus prior v2 run: **0**
-- Stable repeated guesses: **0**
+- Stable repeated guesses: **26**
 - Measurement skips/errors: **0**
 
 ## Current best guesses
 
 | image | best guess | p | evidence families | resource gate |
 |---|---:|---:|---:|---|
-| `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` | podcast_stylesheet | 0.998 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` | podcast_stylesheet | 0.998 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` | podcast_stylesheet | 0.998 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/IMG_8883.jpeg` | podcast_stylesheet | 0.998 | 3 | NO_DISPLAY |
-| `SAT_VISUALS/STYLEsheets/Image.jpeg` | podcast_stylesheet | 0.998 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8875.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8877.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8878.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/IMG_8883.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
+| `SAT_VISUALS/STYLEsheets/Image.jpeg` | podcast_stylesheet | 0.999 | 3 | NO_DISPLAY |
 | `standalone:output (1).png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
 | `standalone:saty_output(1).png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
 | `standalone:SATy_output2.png` | technical_figure | 0.886 | 3 | NOT_REQUESTED |
@@ -51,7 +51,7 @@
 - `metadata_positive`: 0
 - `palette_lineage`: 1
 - `family_blocked`: 14
-- `new_or_unstable`: 26
+- `new_or_unstable`: 0
 - `stylesheet_controls`: 5
 - `resource_review_holds`: 2
 

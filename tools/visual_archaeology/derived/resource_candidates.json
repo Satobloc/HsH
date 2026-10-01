@@ -1,12 +1,12 @@
 {
-  "generated_utc": "2026-10-01T00:33:08.176564+00:00",
+  "generated_utc": "2026-10-01T00:34:55.897176+00:00",
   "items": [
     {
       "image": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ChatGPT Image Sep 12, 2026, 08_46_02 AM.png",
       "reasons": [
         "role p=0.690",
         "evidence families=1",
-        "stable=False"
+        "stable=True"
       ],
       "status": "STAGING_CANDIDATE"
     },
