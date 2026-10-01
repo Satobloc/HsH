@@ -1,0 +1,68 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAT/H(s)H Visual Triage</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#171717;background:#f5f5f5}
+body{margin:0}.bar{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid #ccc;padding:10px 12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.bar strong{margin-right:8px}.bar input,.bar select,.bar button{font:inherit;padding:6px}.meta{margin-left:auto;font-size:12px;color:#555}
+main{max-width:1050px;margin:0 auto;padding:12px}.card{display:grid;grid-template-columns:190px 1fr;gap:14px;background:#fff;border:1px solid #c8c8c8;border-radius:14px;padding:12px;margin:10px 0;box-shadow:0 1px 2px #0001}
+.thumb{width:190px;height:190px;background:#ddd;border-radius:12px;display:flex;align-items:center;justify-content:center;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:contain;background:#eee}
+.title{font-weight:700;overflow-wrap:anywhere}.path{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;color:#555;overflow-wrap:anywhere}.facts{font-size:13px;margin:6px 0;color:#333}.chips{display:flex;gap:5px;flex-wrap:wrap;margin:5px 0}.chip{font-size:11px;background:#eee;border-radius:999px;padding:3px 7px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}.grid label{font-size:12px;color:#555}.grid select,.grid input{width:100%;box-sizing:border-box;margin-top:3px;padding:6px;font:inherit}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.actions button{font:inherit;padding:8px 11px}.accept{font-weight:700}.danger{border-color:#8b0000}.reviewed{opacity:.66}.empty{padding:40px;text-align:center;color:#666}.help{font-size:12px;color:#666;margin:8px 0 14px}
+@media(max-width:650px){.card{grid-template-columns:108px 1fr;padding:8px;gap:10px}.thumb{width:108px;height:108px}.grid{grid-template-columns:1fr}.meta{margin-left:0;width:100%}}
+</style>
+<div class="bar">
+  <strong>Visual Triage</strong>
+  <input id="search" placeholder="search path / name" size="22">
+  <select id="repo"><option value="">all repos</option></select>
+  <select id="view"><option value="unreviewed">unreviewed</option><option value="all">all</option><option value="reviewed">reviewed</option><option value="candidate">web candidates</option><option value="hold">holds</option><option value="duplicate">duplicates</option></select>
+  <button id="export">Export review JSON</button>
+  <label><button id="importBtn" type="button">Import review JSON</button><input id="importFile" type="file" accept="application/json" hidden></label>
+  <span class="meta" id="progress"></span>
+</div>
+<main>
+  <div class="help">Keys: <b>A</b> accept suggestions · <b>U</b> unsure · <b>N</b> no display · <b>J/K</b> next/previous visible card. Decisions stay in this browser until exported.</div>
+  <div id="cards"></div>
+</main>
+<script>
+const DATA_URL='../derived/review_data.json';
+const WHAT=['','diagram','photograph','notebook','generated_art','screenshot','podcast_art','chart','ui','document_scan','other','unknown'];
+const TOPIC=['','SAT','H(s)H','ᚼ','torus','cosmology','particle','podcast','archive_process','other','unknown'];
+const ROLE=['','explanatory','historical','source_evidence','decorative','website_flavor','thumbnail_candidate','gallery','internal_only','unknown'];
+const STYLE=['','technical','hand_drawn','photoreal','infographic','schematic','abstract','text_heavy','other','unknown'];
+const DISPLAY=['unreviewed','publish','candidate','hold','private','duplicate','junk'];
+let items=[], visible=[], cursor=0;
+const $=s=>document.querySelector(s);
+const storeKey=id=>'visual-review:'+id;
+function rawUrl(r){return 'https://raw.githubusercontent.com/'+r.repo_full_name+'/main/'+r.path.split('/').map(encodeURIComponent).join('/');}
+function saved(r){try{return JSON.parse(localStorage.getItem(storeKey(r.id))||'null')}catch{return null}}
+function suggestion(r,k){return (r.suggestions?.[k]||[])[0]||''}
+function state(r){return saved(r)||{status:'unreviewed',what:[],topic:[],role:[],style:[],display:'unreviewed',note:'',reviewer:'Nathan',reviewed_utc:null}}
+function setState(r,s){s.reviewed_utc=new Date().toISOString();localStorage.setItem(storeKey(r.id),JSON.stringify(s));render()}
+function select(name,vals,val){return `<label>${name}<select data-field="${name}">${vals.map(x=>`<option ${x===val?'selected':''}>${x}</option>`).join('')}</select></label>`}
+function card(r,i){const s=state(r), sug=r.suggestions||{}; const exact=r.exact_family?`exact ${r.exact_family}`:''; const near=r.near_family?`near ${r.near_family}`:'';
+ const cls=s.status!=='unreviewed'?'card reviewed':'card';
+ return `<article class="${cls}" data-index="${i}" data-id="${r.id}">
+ <div class="thumb"><a href="${rawUrl(r)}" target="_blank"><img loading="lazy" src="${rawUrl(r)}" alt=""></a></div>
+ <div><div class="title">${escapeHtml(r.filename)} <span class="chip">${escapeHtml(r.repo)}</span></div>
+ <div class="path">${escapeHtml(r.path)}</div>
+ <div class="facts">${r.width||'?'}×${r.height||'?'} · ${r.shape||'unknown'} · ${(r.bytes/1024).toFixed(0)} KB</div>
+ <div class="chips">${[...new Set([...(sug.what||[]),...(sug.topic||[]),...(sug.role||[]),...(sug.style||[])])].slice(0,8).map(x=>`<span class="chip">suggest: ${escapeHtml(x)}</span>`).join('')}${exact?`<span class="chip">${exact}</span>`:''}${near?`<span class="chip">${near}</span>`:''}</div>
+ <div class="grid">${select('what',WHAT,(s.what&&s.what[0])||suggestion(r,'what'))}${select('topic',TOPIC,(s.topic&&s.topic[0])||suggestion(r,'topic'))}${select('role',ROLE,(s.role&&s.role[0])||suggestion(r,'role'))}${select('style',STYLE,(s.style&&s.style[0])||suggestion(r,'style'))}${select('display',DISPLAY,s.display||'unreviewed')}<label>note<input data-field="note" value="${escapeAttr(s.note||'')}" placeholder="optional"></label></div>
+ <div class="actions"><button class="accept" data-action="accept">✓ accept / save</button><button data-action="unsure">? unsure</button><button data-action="nodisplay" class="danger">× no display</button><button data-action="next">next →</button></div>
+ </div></article>`}
+function escapeHtml(s){return String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function escapeAttr(s){return escapeHtml(s).replace(/"/g,'&quot;')}
+function matches(r){const q=$('#search').value.toLowerCase(), repo=$('#repo').value, view=$('#view').value, s=state(r); if(repo&&r.repo!==repo)return false;if(q&&!(`${r.filename} ${r.path}`.toLowerCase().includes(q)))return false;if(view==='unreviewed'&&s.status!=='unreviewed')return false;if(view==='reviewed'&&s.status==='unreviewed')return false;if(view==='candidate'&&s.display!=='candidate'&&s.display!=='publish')return false;if(view==='hold'&&s.display!=='hold')return false;if(view==='duplicate'&&!r.exact_family&&!r.near_family)return false;return true}
+function render(){visible=items.filter(matches);$('#cards').innerHTML=visible.length?visible.map(card).join(''):'<div class="empty">No images in this view.</div>'; const reviewed=items.filter(r=>state(r).status!=='unreviewed').length;$('#progress').textContent=`${reviewed}/${items.length} reviewed · ${visible.length} shown`;bindCards();}
+function readCard(article,r){const s=state(r);article.querySelectorAll('[data-field]').forEach(el=>{const k=el.dataset.field,v=el.value;if(['what','topic','role','style'].includes(k))s[k]=v?[v]:[];else s[k]=v});return s}
+function act(article,action){const r=visible[Number(article.dataset.index)],s=readCard(article,r);if(action==='accept'){s.status='accepted';if(!s.display||s.display==='unreviewed')s.display='candidate'}if(action==='unsure'){s.status='unsure';if(!s.display)s.display='hold'}if(action==='nodisplay'){s.status='corrected';s.display='junk'}setState(r,s);if(action!=='nodisplay')scrollNext()}
+function bindCards(){document.querySelectorAll('.card').forEach(a=>{a.querySelectorAll('button[data-action]').forEach(b=>b.onclick=()=>{if(b.dataset.action==='next')scrollNext();else act(a,b.dataset.action)});a.querySelectorAll('[data-field]').forEach(el=>el.onchange=()=>{const r=visible[Number(a.dataset.index)],s=readCard(a,r);localStorage.setItem(storeKey(r.id),JSON.stringify(s))})})}
+function scrollNext(dir=1){const cards=[...document.querySelectorAll('.card')];if(!cards.length)return;cursor=Math.max(0,Math.min(cards.length-1,cursor+dir));cards[cursor].scrollIntoView({behavior:'smooth',block:'center'})}
+async function load(){let data;try{data=await fetch(DATA_URL).then(r=>{if(!r.ok)throw Error(r.status);return r.json()})}catch(e){$('#cards').innerHTML='<div class="empty">Catalog data could not be loaded. Run the catalog workflow or serve this directory through GitHub Pages/a local web server.</div>';return}items=data.items||[];const repos=[...new Set(items.map(x=>x.repo))].sort();$('#repo').innerHTML='<option value="">all repos</option>'+repos.map(x=>`<option>${escapeHtml(x)}</option>`).join('');render()}
+$('#search').oninput=render;$('#repo').onchange=render;$('#view').onchange=render;
+$('#export').onclick=()=>{const decisions={schema_version:'0.1',exported_utc:new Date().toISOString(),reviewer:'Nathan',decisions:{}};for(const r of items){const s=saved(r);if(s)decisions.decisions[r.id]={repo:r.repo,path:r.path,...s}}const blob=new Blob([JSON.stringify(decisions,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='visual_review_'+new Date().toISOString().slice(0,10)+'.json';a.click();URL.revokeObjectURL(a.href)};
+$('#importBtn').onclick=()=>$('#importFile').click();$('#importFile').onchange=async e=>{const f=e.target.files[0];if(!f)return;const data=JSON.parse(await f.text());for(const [id,s] of Object.entries(data.decisions||{}))localStorage.setItem(storeKey(id),JSON.stringify(s));render()};
+document.addEventListener('keydown',e=>{if(/input|select|textarea/i.test(document.activeElement.tagName))return;const a=[...document.querySelectorAll('.card')][cursor];if(!a)return;if(e.key.toLowerCase()==='a')act(a,'accept');if(e.key.toLowerCase()==='u')act(a,'unsure');if(e.key.toLowerCase()==='n')act(a,'nodisplay');if(e.key.toLowerCase()==='j')scrollNext(1);if(e.key.toLowerCase()==='k')scrollNext(-1)});
+load();
+</script>
