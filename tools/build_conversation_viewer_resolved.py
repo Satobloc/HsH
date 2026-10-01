@@ -26,8 +26,12 @@ from tempfile import TemporaryDirectory
 from typing import Any
 from zoneinfo import ZoneInfo
 
-import build_conversation_viewer as base
-import date_conversation_exports as dater
+try:
+    from . import build_conversation_viewer as base
+    from . import date_conversation_exports as dater
+except ImportError:  # direct script execution: python tools/build_conversation_viewer_resolved.py
+    import build_conversation_viewer as base
+    import date_conversation_exports as dater
 
 
 _original_normalize_record = base.normalize_record
