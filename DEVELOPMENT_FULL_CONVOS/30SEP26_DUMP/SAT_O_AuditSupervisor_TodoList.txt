@@ -1,0 +1,72 @@
+
+SAT_O Redevelopment Phase: Audit Supervisor To-Do Lists
+
+General Instructions for Supervisor:
+
+You will be provided with:
+- The current version of the SAT_O module (O2, O3, O6, O_X, O7, O8, O3.1, etc.).
+- The specific To-Do List for the module.
+
+Your task:
+1. Interpret the To-Do List carefully.
+2. Prepare detailed, task-specific instructions for an assigned Analyst GPT instance.
+3. Provide the instructions to the user in two formats:
+   - A LaTeX code block.
+   - A downloadable TXT document.
+4. If non-SAT_O content is detected (i.e., structures or assumptions not in SAT_O formalism), flag it.
+5. Provide detailed instructions to the Analyst GPTs on:
+   - How to isolate non-SAT_O structures.
+   - How to rigorously test if they can be reinterpreted within SAT_O's framework.
+   - If they cannot be salvaged, flag but do not automatically reject — report back to Supervisor.
+
+Flexibility Instructions:
+- The redevelopment phase permits limited flexibility.
+- Equation modifications are allowed but must be:
+  - Fully justified.
+  - Rigorously derived.
+  - Tied clearly to the module’s intended structure and principles.
+- Any unjustified or loosely related modifications should be flagged for Supervisor review.
+
+Module To-Do Lists:
+
+O2 — Emergent Gravitational Action:
+- Re-derive the emergent Einstein-Hilbert term with no hidden parameters.
+- Provide a rigorous derivation or justification for the area density A from filament configurations.
+- Analyze cosmological constant emergence:
+  - Quantify fine-tuning.
+  - Provide alternative mechanisms if fine-tuning exceeds acceptable bounds.
+- Rigorously define operational measurement pathways for emergent gravity signatures.
+
+O3 — Emergent Gauge Algebras:
+- Reassess topological linking structures for U(1), SU(2), SU(3) gauge groups.
+- Derive or justify the robustness of integer quantization under quantum corrections.
+- Validate that Massey product structures survive quantum fluctuations statistically.
+- Rigorously document and justify any algebraic modifications.
+
+O6 — Unified Gravity + Gauge Action:
+- Derive the full unified action:
+  - Gravity sector from filament ensemble averages.
+  - Gauge sectors from topological linking invariants.
+- Provide a complete 1-loop quantum correction model.
+- Analyze the RG flow of gauge couplings — provide graphical/numerical representations.
+
+O_X — Filament Worldline Action:
+- Derive the canonical momenta and Hamiltonian structure rigorously.
+- Perform full path integral quantization of the filament worldline.
+- Justify the emergence of filament tension T from intrinsic properties — no free parameter insertions.
+
+O7 — Emergent Time from Relational Drift (tentative):
+- Formalize the definition of the relational strain tensor S_{mu nu}.
+- Define the sheen scalar S(x) with operational meaning and units.
+- Derive the dynamics of the sheen field from the filament action — no postulated dynamics.
+- Rigorously link entropy growth rate to the relational drift.
+
+O8 — Topological Mass Suppression:
+- Formalize the mass suppression factor Q in topological terms.
+- Derive the hierarchy of particle masses from topological quantities explicitly.
+- Analyze the robustness of mass suppression against topological fluctuations.
+
+O3.1 — Revised Emergent Gauge Algebras:
+- Validate the improved linking-winding-triple linking mapping to U(1), SU(2), SU(3).
+- Check mass hierarchy structure consistency with updated algebraic framework.
+- Rigorously justify any newly introduced terms or structures.
