@@ -15,6 +15,7 @@ from pathlib import Path
 from PIL import Image
 
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tif", ".tiff"}
+SKIP_PARTS = {".git", "_catalog_sources", "node_modules", "derived"}
 
 REPOS = {
     "HsH": "Satobloc/HsH",
@@ -105,7 +106,10 @@ def scan_repo(name: str, root: Path) -> list[dict]:
     for path in root.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in IMAGE_SUFFIXES:
             continue
-        rel = path.relative_to(root).as_posix()
+        rel_path = path.relative_to(root)
+        if any(part in SKIP_PARTS for part in rel_path.parts):
+            continue
+        rel = rel_path.as_posix()
         digest = sha256(path)
         width, height = image_meta(path)
         records.append({
@@ -143,7 +147,6 @@ def assign_families(records: list[dict], near_distance: int = 6) -> None:
             for r in members:
                 r["exact_family"] = family
 
-    # Greedy dHash clustering. Transparent and deliberately conservative.
     reps: list[tuple[str, str]] = []
     family_num = 0
     for r in sorted(records, key=lambda x: (x["dhash"] or "", x["repo"], x["path"])):
@@ -166,25 +169,12 @@ def write_outputs(records: list[dict], outdir: Path) -> None:
     outdir.mkdir(parents=True, exist_ok=True)
     records.sort(key=lambda r: (r["repo"], r["path"].lower()))
     (outdir / "visual_catalog.jsonl").write_text(
-        "".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in records),
-        encoding="utf-8",
-    )
-    compact = []
-    for r in records:
-        compact.append({
-            "id": r["id"], "repo": r["repo"], "repo_full_name": r["repo_full_name"],
-            "path": r["path"], "filename": r["filename"], "width": r["width"], "height": r["height"],
-            "shape": r["shape"], "bytes": r["bytes"], "sha256": r["sha256"], "dhash": r["dhash"],
-            "exact_family": r["exact_family"], "near_family": r["near_family"],
-            "suggestions": r["suggestions"], "review": r["review"],
-        })
+        "".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in records), encoding="utf-8")
+    compact = [{k: r[k] for k in ["id","repo","repo_full_name","path","filename","bytes","width","height","shape","sha256","dhash","exact_family","near_family","suggestions","review"]} for r in records]
     (outdir / "review_data.json").write_text(
-        json.dumps({"schema_version": "0.1", "count": len(compact), "items": compact}, ensure_ascii=False),
-        encoding="utf-8",
-    )
+        json.dumps({"schema_version": "0.1", "count": len(compact), "items": compact}, ensure_ascii=False), encoding="utf-8")
     summary = defaultdict(int)
-    for r in records:
-        summary[r["repo"]] += 1
+    for r in records: summary[r["repo"]] += 1
     exact_groups = len({r["exact_family"] for r in records if r["exact_family"]})
     near_groups = len({r["near_family"] for r in records if r["near_family"]})
     (outdir / "summary.json").write_text(json.dumps({
@@ -201,7 +191,6 @@ def main() -> None:
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--near-distance", type=int, default=6)
     args = ap.parse_args()
-
     records = []
     records += scan_repo("HsH", args.hsh)
     records += scan_repo("SAT_THEORY_ARCHIVE_2023-25", args.sat)
