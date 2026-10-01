@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-21",
+  "updated": "2026-09-30",
   "notes": [
     "Labs are sandbox experiments, not theory authority.",
     "A successful lab result requires explicit promotion before becoming committed theory/work state.",
@@ -58,6 +58,35 @@
       "exit_criterion": "Produce an explicit, source-controlled model in which the physical information path, Hagalaz transport, threefold B geometry, signed chirality variable, and toroidal closure law are either mathematically connected by derived maps or cleanly separated/rejected, with Bell/CHSH behavior addressed.",
       "promotion_criterion": "Promote only individually derived/verified bridges; conceptual coherence or numerical resemblance alone is insufficient.",
       "return_route": "Hagalaz active edge / WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json"
+    },
+    {
+      "id": "LAB-COILLET-001",
+      "title": "Coil-let / bosonic-wave structural candidate",
+      "class": ["FOUNDATIONAL_MODEL", "FINITE_CORE", "PARTICLE_WAVE", "PHOTONEUTRINO", "HAGALAZ_BRIDGE", "CHIRALITY"],
+      "status": "running",
+      "origin": "Nathan Direct / 2026-09-30 image-description and structural synthesis pass",
+      "purpose": "Formalize and stress-test the candidate mapping from persistent first-order worldtube coils and traveling higher-order coil packets to closure, particle/wave registration, transparency, photon/neutrino differentiation, three-sphere generation, ᚼ indexing/scale relations and selected BH::BB/vacuum branches.",
+      "primary_surface": "WORKSPACES/LABS/COILLET_WAVE_PACKET",
+      "dependencies": [
+        "Define a coordinate- and display-independent closure invariant",
+        "Define a geometry-to-observation/probability map rather than treating visual closure as quantum collapse",
+        "Recover photon/neutrino spin-statistics and interaction-sector distinctions",
+        "Derive compatible dispersion and propagation speeds",
+        "Define chirality state and transition operator",
+        "Separate calibration values from held-out predictions for three-sphere/ᚼ scale tests"
+      ],
+      "exposure_constraints": [
+        "Top-contender structural candidate is not BEDROCK authority",
+        "Conceptual images are not metrological evidence",
+        "Pseudo-fit or numerical resemblance does not establish particle-wave duality",
+        "Preserve PRIOR_ART quarantine and source boundaries",
+        "Factory Floor promotion remains a separate staging decision"
+      ],
+      "participants": ["Meridian", "Ravel", "Kestrel", "Mira", "Mercer", "Sable"],
+      "next_cursor": "Define the smallest explicit closure invariant and two-path observation map; independently derive three-sphere/ᚼ coil-index candidates and identify one held-out photon/neutrino or chirality observable capable of falsifying the mapping.",
+      "exit_criterion": "Either obtain a small explicit geometric model that maps carrier/coil/closure/chirality states to independently checkable observables, or identify the first unavoidable inconsistency and record the branch as killed/restricted.",
+      "promotion_criterion": "Promote only separately derived and tested relations; the ontology does not graduate as a package.",
+      "return_route": "WORKSPACES/COMMON/NATHAN_DIRECT_NOTICE_2026-09-30_COILLET_BOSONIC_WAVE.md"
     }
   ]
 }
