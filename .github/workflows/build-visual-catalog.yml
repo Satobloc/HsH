@@ -53,6 +53,9 @@ jobs:
             --resources HSH_RESOURCES \
             --out HsH/tools/visual_catalog/derived
 
+      - name: Apply assistant context-review tags
+        run: python HsH/tools/visual_catalog/apply_assistant_seed_tags.py
+
       - name: Render all-thumbnail index
         run: python HsH/tools/visual_catalog/render_thumbnail_index.py
 
