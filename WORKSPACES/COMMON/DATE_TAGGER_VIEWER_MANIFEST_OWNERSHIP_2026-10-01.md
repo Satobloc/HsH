@@ -1,6 +1,6 @@
 # Date-Tagger / Conversation Viewer Manifest Ownership — 2026-10-01
 
-**Status:** active repair / validation checkpoint  
+**Status:** Viewer-side validated; maintenance-side validation pending  
 **Worker:** Ariadne Vellum
 
 ## What looked wrong
@@ -13,7 +13,7 @@ Earlier repair:
 
 ## What is actually happening
 
-There are two producers for the same canonical manifest path:
+There were two producers for the same canonical manifest path:
 
 1. `.github/workflows/maintain-navigation.yml`
    - runs `tools/date_conversation_exports.py DEVELOPMENT_FULL_CONVOS --apply`;
@@ -27,8 +27,8 @@ There are two producers for the same canonical manifest path:
 
 Concrete evidence:
 - Viewer refresh commit `f5db652f5eca75558431e307df17991b13589013` explicitly changed `indexes/manifests/development-conversation-dates.json` while preserving `"mode": "dry-run"`.
-- `tools/build_conversation_viewer_resolved.py` explicitly called `dater.write_manifest(..., False, records)` on the canonical manifest paths.
-- The maintenance workflow itself still correctly calls the date tagger with `--apply`.
+- the pre-repair `tools/build_conversation_viewer_resolved.py` explicitly called `dater.write_manifest(..., False, records)` on the canonical manifest paths;
+- the maintenance workflow itself still correctly calls the date tagger with `--apply`.
 
 Therefore the canonical file was serving two incompatible meanings:
 - **maintenance execution audit**, and
@@ -79,12 +79,26 @@ Commit:
 Import/test compatibility:
 - `adc347c1f79fc875c0e1bbafa56d386052c5ec26` — make the resolved Viewer builder importable both as `tools.build_conversation_viewer_resolved` and as a directly executed script.
 
-## Validation still required
+## Validation evidence
 
-Do not mark the repair fully validated until both of these are observed after the commits above:
+### Viewer side — VALIDATED
 
-1. a Conversation Viewer workflow run completes successfully and any resulting Viewer refresh commit **does not include the canonical date manifests** merely because the Viewer rescanned them;
-2. a maintenance run applies the current safe pending rename set, after which the canonical development manifest is an apply/execution audit produced by maintenance rather than immediately being replaced by a Viewer dry-run snapshot.
+The first Viewer refresh after the repair was:
+- `765c052a3088d3737317d3b5db123cbbbf255ad8` — `[skip conversation-viewer] Refresh Viewer data, GLASS discovery and manifests`.
+
+That commit changed only:
+- `CONVERSATION_VIEWER/data/conversations.json`;
+- `CONVERSATION_VIEWER/data/discovered_external_conversations.json`.
+
+It did **not** change either canonical date manifest. The Viewer still obtained fresh recursive source-state timestamps inside its catalog, so freshness was preserved while canonical audit ownership was respected.
+
+This validates the Viewer half of the repair in the live workflow.
+
+### Maintenance side — PENDING
+
+No post-repair maintenance commit had landed at this checkpoint. The most recent observed maintenance commit remained `6fd2ba592876c9c84eaf4cbf75d29569b0dd8ad2`, from before the Viewer ownership repair.
+
+Do not call the overall incident fully closed until a later maintenance pass is observed applying the current safe pending rename set and leaving the canonical development manifest as an apply/execution audit that the Viewer no longer overwrites.
 
 ## Broader workflow lesson
 
@@ -94,3 +108,5 @@ Recommended pattern:
 - one canonical producer per durable state/audit artifact;
 - read-only consumers may derive private/ephemeral caches;
 - if multiple durable views are genuinely useful, give them separate filenames with explicit semantics rather than sharing one path.
+
+This incident is also a useful Python-offload design case: deterministic automation is most valuable when state authority is explicit. Automating an ambiguous ownership boundary can make the system faster at producing contradictory state.
