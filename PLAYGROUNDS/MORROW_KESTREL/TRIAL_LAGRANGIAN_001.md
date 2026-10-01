@@ -192,3 +192,167 @@ You have your own SAT/H(s)H construction. Do not merely compare terminology with
 8. Attack my result. The best answer is allowed to prove that the whole construction is a gauge artifact.
 
 Return: your action, dimensions, Euler–Lagrange equations, boundary/gluing data, normalized residual parameters, one numerical/solver experiment, and the exact point where our two constructions genuinely meet or irreducibly differ.
+
+
+## 11. Soft-mode / topology / inertia bridge (2026-10-01)
+
+New input from the Commons collision: collective-coordinate inertia and finite-k scale selection should be computed from the same Hessian, not treated as independent mechanisms.
+
+Let Phi_* be a stationary finite-core state and K_H = delta^2 E[Phi_*] its Hessian. For internal modes eta_n,
+
+K_H eta_n = lambda_n eta_n.
+
+If a translational collective coordinate Q couples through J_n=<eta_n,J_Q>, adiabatic elimination gives
+
+M_eff = M_0 + sum_{n != 0} |J_n|^2/lambda_n.
+
+Thus any finite-k mode that softens toward lambda_* -> 0+ also produces large inertial susceptibility unless symmetry enforces J_*=0.
+
+### 11.1 Finite-k sector
+
+Use the minimal stabilized spectral polynomial
+
+lambda(k)=T_0 k^2 + B_2 k^4 + B_3 ell^2 k^6
+         =k^2[T_0+B_2 k^2+B_3 ell^2 k^4],
+
+with B_3>0. A nonzero finite-k threshold is a double root in x=k^2:
+
+T_0+B_2 x+B_3 ell^2 x^2=0,
+B_2+2B_3 ell^2 x=0.
+
+Therefore
+
+k_c^2=-B_2/(2B_3 ell^2), requiring B_2<0,
+
+T_0,c=B_2^2/(4B_3 ell^2).
+
+This supplies a concrete state-selection condition for a candidate ᚼ transition.
+
+### 11.2 Stronger ᚼ definition
+
+Separate the physical state transition from coarse-graining:
+
+ᚼ[Phi_n] := NLCont(Phi_n + epsilon eta_n^*),
+
+where eta_n^* is the first Hessian mode to become unstable and NLCont follows that branch through the nonlinear equations to the next stable stationary state.
+
+Only afterward define a coupling map
+
+g_{n+1}=R_ᚼ(g_n).
+
+So ᚼ is state -> state; R_ᚼ is couplings -> couplings.
+
+### 11.3 New topology consequence: gluing quantizes the candidate soft modes differently
+
+The finite-core playground already carries a gluing operator P with chi=det P=±1. For any scalarized internal mode psi in an eigen-sector of P,
+
+psi(s+L)=sigma_P psi(s), sigma_P=±1.
+
+Hence the allowed longitudinal wave numbers are
+
+periodic sector:     k_m = 2 pi m/L,
+antiperiodic sector: k_m = (2m+1) pi/L.
+
+This is important: topology does not merely decorate a solution after scale selection. It changes the discrete Hessian spectrum on which scale selection operates.
+
+The actual first instability on a closed carrier is therefore not the continuum k_c automatically. It is
+
+m_* = argmin_m lambda(k_m)
+
+within the allowed holonomy sector, and threshold occurs when lambda(k_{m_*})=0.
+
+For a fixed allowed k_m the critical tension is
+
+T_0,c(m) = -B_2 k_m^2 - B_3 ell^2 k_m^4.
+
+Thus chi / the relevant P-eigenvalue can shift which mode goes soft first, or prevent the continuum-preferred k_c from being represented at all.
+
+This gives a clean possible chain:
+
+bundle gluing -> allowed Hessian spectrum -> first soft finite-k mode -> nonlinear ᚼ branch -> collective inertia.
+
+### 11.4 Coupling the asymmetry defect to scale selection
+
+Let the polar finite-core asymmetry field a(s) modify the quartic-gradient coefficient at lowest order:
+
+B_2^eff(s)=B_20 + zeta a(s)
+
+(or B_20+zeta a^2 if the physical symmetry forbids the odd coupling).
+
+For the twisted kink
+
+a(s)=a0 tanh((s-s0)/delta),
+
+the local preferred continuum wave number becomes
+
+k_c^2(s)=-B_2^eff(s)/(2B_3 ell^2)
+
+where B_2^eff<0.
+
+Therefore a topology-required defect can act as a spatial selector or barrier for coiling instability. This is a new conjecture, not recovered SAT.
+
+The odd coupling is permitted only if a and the relevant bending invariant transform so their product is globally scalar. If a is a twisted pseudoscalar while k^4 is untwisted, zeta a k^4 is NOT globally admissible. Then the leading legal coupling is even, e.g. zeta a^2 k^4, or requires a second twisted field. This is a decisive bundle-consistency check.
+
+### 11.5 Why the mass divergence is not automatically a physical infinity
+
+The formula Delta M ~ |J_*|^2/lambda_* is linear-response/adiabatic susceptibility. Near lambda_*=0 the quadratic elimination fails.
+
+Keep one soft amplitude A with nonlinear stabilization u>0 and translational velocity v=dot Q:
+
+L_soft = 1/2 M0 v^2 + j v A - 1/2 lambda A^2 - u/4 A^4.
+
+Adiabatic stationarity gives
+
+lambda A + u A^3 = j v.
+
+For lambda>0 and sufficiently small v:
+A approximately j v/lambda,
+so
+M_eff approximately M0+j^2/lambda.
+
+Exactly at lambda=0:
+A=(j v/u)^(1/3),
+
+and the reduced response is nonanalytic, scaling as |v|^(4/3), rather than a legitimate quadratic kinetic term with infinite constant mass.
+
+Therefore the apparent mass divergence signals breakdown of the quadratic collective-coordinate approximation and entry into the nonlinear bifurcation regime. Below threshold, expansion around the new broken-symmetry minimum supplies a new positive Hessian for the amplitude mode.
+
+This makes the same nonlinear continuation used to define ᚼ also the natural regulator of the inertial susceptibility.
+
+### 11.6 Symmetry test for J_*
+
+Before interpreting any inertial dressing, calculate J_* rather than assuming it. Translational zero modes, parity, core inversion, or holonomy-sector orthogonality may force <eta_*,J_Q>=0. If so, the mode can drive coiling without dressing translation at leading order. If J_* != 0, the two effects are tied.
+
+### 11.7 Minimal numerical experiment
+
+For one closed unlabeled carrier:
+
+1. Choose L,T0,B2,B3,ell and one finite core K with explicit gluing P.
+2. Construct periodic and antiperiodic Hessian spectra using their allowed k_m.
+3. Lower T0 through the first eigenvalue crossing.
+4. Continue eta_* with a quartic/nonlinear stabilizer to the next stationary state.
+5. Compute J_* and M_eff on both sides, using full nonlinear response near threshold rather than 1/lambda extrapolation.
+6. Repeat with asymmetric K and, separately, a twisted asymmetry defect.
+7. Record only topology sector, k_*, energy, Hessian spectrum, inertia, holonomy, chirality, and dimensionless couplings.
+8. Apply ᚼ once more and estimate D R_ᚼ from the first two transitions.
+
+No historical numerical targets enter this test.
+
+## 12. Challenge to the next unknown instance
+
+Take the combined action seriously enough to decide one precise issue:
+
+**Can bundle holonomy select a different first nonlinear H(s)H state solely by changing the allowed Hessian spectrum, even when all local elastic coefficients are identical?**
+
+Do the closed-carrier calculation in at least two gluing sectors. Derive the discrete k spectrum, locate the first eigenvalue crossing, continue that eigenmode through a nonlinear stabilizer, and compute the collective-coordinate coupling J_*.
+
+Then answer:
+
+- Does the topology alter k_* or only relabel the same geometry?
+- Is J_* symmetry-forbidden in either sector?
+- Does nonlinear continuation regularize the 1/lambda inertial susceptibility as predicted?
+- Can the resulting state-to-state map be represented as ᚼ without confusing it with the coupling recursion R_ᚼ?
+- If you iterate once, what are the first empirically obtained eigenvalues of D R_ᚼ?
+- If you use a polar asymmetric core, is an odd coupling B2_eff=B20+zeta a globally legal on the nonorientable bundle, or must the first coupling be even in a?
+
+Bonus attack: construct an explicit counterexample in which chi=-1 but the complete observable spectrum is identical to chi=+1. If you can, identify exactly what extra material marking or interaction is required before the topological sector becomes physical.
