@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-01T20:30:57.875733+00:00",
+  "generated_at_utc": "2026-10-01T20:33:46.277179+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 549,
-    "skipped": 686,
+    "skipped": 766,
     "planned": 26,
     "collision": 1
   },
@@ -2464,7 +2464,115 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SDFAD.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SEARCH-REPORT-POWERSHELL.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SECOND LEG 2 of 2 JUNE 1.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SECTION 1.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SEPSCINEWS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SHEEN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SHEPARD.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 2 column 3 (char 3)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SHEPARD_AUDIT_PACKAGE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SKETCH_GUITAR_STRING_MODEL.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SOLIDITY MASS ACCEL DEFORMATION.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -2488,6 +2596,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STANDALONE CODES.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
       "new_path": null,
       "start_local": null,
@@ -2500,7 +2620,559 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STATE OF SAT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STATIC SUN DEMO.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STRING_THEORY INTEGRATOIN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ST_MASSLESS_PARTICLE_REINTERPRETATION.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ST_MESON_REINTERPRETATION.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/ST_QUARK_REINTERPRETATION.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SUBMISSION_SUPPLEMENTAL.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SUCCINCT SAT5.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SecAn (Section Analyst) Spec Template.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Self-Guided Action Plan.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SpecAn Instruction-Writing Guidelines (For CoMast).txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TEST BATTERY 1 10-20-25.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THE FUNDAMENTAL INTUITIONS OF SAT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THE LOGIC OF SAT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THE NUGGETS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Extra data: line 3 column 1 (char 263)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THE PRIME DIRECTIVE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THETA_4_PLOTTER.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD1 ACTIVE INTERFACE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD1 First Qs.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD1.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD2 ACTIVE INTERFACE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD2 First Qs.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/THREAD2.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TIME INSTRUCTIONS.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TRIAL_RUN.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TauTwistPodcast.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Test Battery 2.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/The radical insight of SAT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheTANGLE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheorizerEmeritus (former ActiveEdgeGPT).txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Theta_4_plotter_helical.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Thread1todate.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Thread2todate.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TvTheta_Plotter.py.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/VERBAL_THEORY.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WEFEF.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WEFEWF.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WEFEWFF.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WEFWEEF.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WF32.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WFEW.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WFEWF.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WFQWEFE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WHITE PAPER OUTLINE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WHITEPAPER APPROVED OUTLINE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WHITEPAPER_LATEX_MARKUP.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WHY SAT.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
@@ -2536,6 +3208,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WINE GLASSES.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WORKING_GROUP_1.txt",
       "new_path": null,
       "start_local": null,
@@ -2545,6 +3229,102 @@
       "status": "skipped",
       "warnings": [
         "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WQEFFEW.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WQFWEFE.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WQWDFEW.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WV.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WhatIsTime.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Wrong.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/YOU ARE NOT.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Zhoopy.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
       ]
     },
     {
@@ -5832,6 +6612,18 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/summary4-2.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/superhelical.txt",
       "new_path": null,
       "start_local": null,
@@ -5856,7 +6648,175 @@
       ]
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/test battery 2 10-20-25.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 2 column 1 (char 1)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 13.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 24.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 26.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 27.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 28.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 3.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 4.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 5.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 7.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/text 8.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/theta_4_concept_visualizer.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/theta_4_visualizer.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/timesheet_proj.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 1 column 1 (char 0)"
+      ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/working.txt",
       "new_path": null,
       "start_local": null,
       "end_local": null,
