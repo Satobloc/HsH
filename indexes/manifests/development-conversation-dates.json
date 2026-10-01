@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-01T19:46:16.616151+00:00",
+  "generated_at_utc": "2026-10-01T19:49:53.268361+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "dry-run",
@@ -8,7 +8,7 @@
     "unchanged": 549,
     "skipped": 398,
     "collision": 1,
-    "planned": 8
+    "planned": 24
   },
   "records": [
     {
@@ -9018,12 +9018,32 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Casual Check-in — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.02.24•26.09.12•Casual Check-in — raw.json",
+      "start_local": "2026-02-24T17:55:32.778746-05:00",
+      "end_local": "2026-09-12T11:18:02.606999-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 243,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Conga Ledger — Kestrel VI — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
       "start_local": "2026-09-30T13:13:12.685781-04:00",
       "end_local": "2026-10-01T15:30:35.606038-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 124,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Cosmological Constant Summary — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
+      "start_local": "2026-06-22T09:49:04.744587-04:00",
+      "end_local": "2026-09-12T09:43:33.086238-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
       "status": "planned",
       "warnings": []
     },
@@ -9048,6 +9068,36 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Image Prompt Construction — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28•26.09.28•Image Prompt Construction — raw.json",
+      "start_local": "2026-09-28T03:45:49.492928-04:00",
+      "end_local": "2026-09-28T15:22:13.096945-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 305,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Interstellar object A11pl3Z — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
+      "start_local": "2025-10-07T16:22:44.478693-04:00",
+      "end_local": "2026-09-12T17:36:41.955000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 160,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB 1_ Validation Lead — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•26.09.12•LAB 1_ Validation Lead — raw (1).json",
+      "start_local": "2025-05-09T02:37:02.990000-04:00",
+      "end_local": "2026-09-12T20:51:32.412370-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 182,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB 2_ Refinement Lead — raw.json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
       "start_local": "2025-05-09T02:39:32.860000-04:00",
@@ -9058,12 +9108,102 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Least Interesting Pope — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.15•26.08.15•Least Interesting Pope — raw.json",
+      "start_local": "2026-08-15T01:54:12.341281-04:00",
+      "end_local": "2026-08-15T02:55:18.043056-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 129,
+      "status": "planned",
+      "warnings": []
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Mercer Archive Mover — raw (3).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.22•Mercer Archive Mover — raw (3).json",
       "start_local": "2026-09-12T21:37:57.274539-04:00",
       "end_local": "2026-09-22T23:29:38.717714-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 1568,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Meridian Solver Loop — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T08:07:27.130927-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 452,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Pet Theory Discussion — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
+      "start_local": "2025-12-29T23:21:17.233000-05:00",
+      "end_local": "2026-09-12T11:18:08.645639-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 745,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Physics Beyond Mathematics — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "start_local": "2025-04-13T13:11:45.625000-04:00",
+      "end_local": "2026-06-15T12:31:02.291550-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 489,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Population Social Thresholds — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.23•26.08.24•Population Social Thresholds — raw.json",
+      "start_local": "2026-08-23T23:23:11.227000-04:00",
+      "end_local": "2026-08-24T02:39:21.650359-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 442,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Quantum Gravity Problems — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
+      "start_local": "2025-12-29T19:52:53.360734-05:00",
+      "end_local": "2026-09-12T17:18:57.536833-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 12,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATity Corpus Audit — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10•26.09.12•SATity Corpus Audit — raw (1).json",
+      "start_local": "2026-09-10T21:36:28.633000-04:00",
+      "end_local": "2026-09-12T21:05:37.346999-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 768,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Science Made Stupid — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20•26.09.22•Science Made Stupid — raw (3).json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-22T21:39:51.236000-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 1202,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Spacetime Curvature and Rigidity — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07•26.09.12•Spacetime Curvature and Rigidity — raw.json",
+      "start_local": "2023-07-07T05:22:46.754909-04:00",
+      "end_local": "2026-09-12T11:54:38.052117-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 32,
       "status": "planned",
       "warnings": []
     },
@@ -9088,6 +9228,26 @@
       "warnings": [
         "Expecting value: line 2 column 1 (char 1)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "start_local": "2026-08-26T05:11:22.113566-04:00",
+      "end_local": "2026-09-16T01:27:51.776406-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 317,
+      "status": "planned",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🥼 Raindrop Exploration — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.07•26.09.12•🥼 Raindrop Exploration — raw.json",
+      "start_local": "2026-07-07T15:22:15.828080-04:00",
+      "end_local": "2026-09-12T08:23:39.168070-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 473,
+      "status": "planned",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json",
