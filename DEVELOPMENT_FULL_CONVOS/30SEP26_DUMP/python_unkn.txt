@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""
+freeze_index.py  •  v1.0  •  2025-07-21
+
+Usage:
+    python freeze_index.py <evidence_folder_1> <evidence_folder_2> ...
+
+Outputs for each folder:
+    <foldername>_v1.zip            (no-compression, original bytes)
+    <foldername>_v1.sha256.txt     (64-char hash)
+    <foldername>_index.csv         (only if .eml /.mbox found)
+
+Plus one manifest_* timestamp file in the cwd.
+"""
+
+import argparse, hashlib, os, shutil, sys, zipfile, datetime, getpass, csv, mailbox, email, tempfile
+from pathlib import Path
+from subprocess import run, PIPE
+
+# ——————————————————————————— utility helpers
+def sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, 'rb', buffering=1024 * 1024) as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+def zip_no_compress(src: Path, dest_zip: Path):
+    with zipfile.ZipFile(dest_zip, 'w', compression=zipfile.ZIP_STORED) as z:
+        for p in src.rglob('*'):
+            z.write(p, p.relative_to(src))
+
+def aes_encrypt_zip(zip_path: Path, password: str) -> Path:
+    enc_zip = zip_path.with_suffix('.aes.zip')
+    cmd = ['zip', '-ejP', password, str(enc_zip), str(zip_path)]
+    # -e = encrypt, -j = junk paths, -P = pwd (unsafe echo but simpler)
+    run(cmd, check=True)
+    return enc_zip
+
+def index_email(folder: Path, out_csv: Path):
+    rows = []
+    # walk *.eml
+    for eml in folder.rglob('*.eml'):
+        with open(eml, 'rb') as f:
+            msg = email.message_from_binary_file(f)
+        rows.append([
+            msg.get('Message-ID', '').strip(),
+            msg.get('Date', '').strip(),
+            msg.get('From', '').strip(),
+            msg.get('To', '').strip(),
+            msg.get('Subject', '').strip(),
+            len(msg.get_payload(decode=True) or b'')
+        ])
+
+    # walk *.mbox
+    for mbox_path in folder.rglob('*.mbox'):
+        mbox = mailbox.mbox(mbox_path)
+        for msg in mbox:
+            rows.append([
+                msg.get('Message-ID', '').strip(),
+                msg.get('Date', '').strip(),
+                msg.get('From', '').strip(),
+                msg.get('To', '').strip(),
+                msg.get('Subject', '').strip(),
+                len(msg.get_payload(decode=True) or b'')
+            ])
+    if not rows:
+        return False
+    with open(out_csv, 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['Message-ID', 'Date', 'From', 'To', 'Subject', 'SizeBytes'])
+        w.writerows(rows)
+    return True
+
+# ——————————————————————————— main workflow
+def process_folder(folder: Path, manifest_lines: list):
+    ts_tag = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+    zip_path = folder.parent / f"{folder.name}_v1.zip"
+    print(f"[+] Zipping (no compression) → {zip_path.name}")
+    zip_no_compress(folder, zip_path)
+
+    sha = sha256_file(zip_path)
+    (zip_path.parent / f"{zip_path.stem}.sha256.txt").write_text(sha + '\n')
+    print(f"    SHA-256: {sha}")
+
+    # Optional encryption
+    pwd = getpass.getpass(f"    Optional AES password for {zip_path.name} (Enter to skip): ")
+    if pwd:
+        enc_path = aes_encrypt_zip(zip_path, pwd)
+        enc_sha = sha256_file(enc_path)
+        print(f"    Encrypted copy → {enc_path.name}")
+        print(f"    Enc SHA-256   : {enc_sha}")
+        enc_flag = f"encrypted→{enc_path.name}:{enc_sha}"
+    else:
+        enc_flag = "unencrypted"
+
+    manifest_lines.append(f"{zip_path.name}:{sha}:{enc_flag}")
+
+    # E-mail indexing
+    idx_path = folder.parent / f"{folder.name}_index.csv"
+    if index_email(folder, idx_path):
+        print(f"    E-mail index  → {idx_path.name}")
+    else:
+        print("    (no .eml /.mbox found – index skipped)")
+
+# ——————————————————————————— CLI
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('folders', nargs='+', help='One or more evidence folders')
+    args = ap.parse_args()
+
+    manifest_lines = []
+    for fol in args.folders:
+        fol_path = Path(fol).expanduser().resolve()
+        if not fol_path.is_dir():
+            print(f"[-] {fol} is not a folder, skipping.", file=sys.stderr)
+            continue
+        process_folder(fol_path, manifest_lines)
+
+    stamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+    manifest_name = f"manifest_{stamp}.txt"
+    Path(manifest_name).write_text('\n'.join(manifest_lines) + '\n')
+    print(f"\n[✓] Manifest written → {manifest_name}")
+
+if __name__ == '__main__':
+    main()
