@@ -546,12 +546,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 5.7
+            "weight": 5.8579
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 3.8
+            "weight": 3.9053
           },
           {
             "family": "pseudo-correlation",
@@ -564,7 +564,7 @@
           {
             "family": "source_role",
             "rule": "H12C",
-            "weight": -1.3
+            "weight": -1.8
           }
         ],
         "podcast_thumbnail_background": [],
@@ -589,11 +589,11 @@
         "conceptual_illustration": 0.1419,
         "cosmology_concept": 0.0832,
         "general_flavor_graphic": 0.1192,
-        "hsh_podcast_thumbnail": 0.0522,
-        "podcast_stylesheet": 0.9991,
-        "podcast_thumbnail": 0.0522,
+        "hsh_podcast_thumbnail": 0.0323,
+        "podcast_stylesheet": 0.9993,
+        "podcast_thumbnail": 0.0323,
         "podcast_thumbnail_background": 0.1192,
-        "sat_podcast_thumbnail": 0.0522,
+        "sat_podcast_thumbnail": 0.0323,
         "split_field_visual": 0.1192,
         "spotify_creators_screenshot": 0.0573,
         "spotify_screenshot": 0.0573,
@@ -611,12 +611,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 5.7
+            "weight": 5.8579
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 3.8
+            "weight": 3.9053
           },
           {
             "family": "pseudo-correlation",
@@ -629,7 +629,7 @@
           {
             "family": "source_role",
             "rule": "H12C",
-            "weight": -1.3
+            "weight": -1.8
           }
         ],
         "podcast_thumbnail_background": [],
@@ -654,11 +654,11 @@
         "conceptual_illustration": 0.1419,
         "cosmology_concept": 0.0832,
         "general_flavor_graphic": 0.1192,
-        "hsh_podcast_thumbnail": 0.0522,
-        "podcast_stylesheet": 0.9991,
-        "podcast_thumbnail": 0.0522,
+        "hsh_podcast_thumbnail": 0.0323,
+        "podcast_stylesheet": 0.9993,
+        "podcast_thumbnail": 0.0323,
         "podcast_thumbnail_background": 0.1192,
-        "sat_podcast_thumbnail": 0.0522,
+        "sat_podcast_thumbnail": 0.0323,
         "split_field_visual": 0.1192,
         "spotify_creators_screenshot": 0.0573,
         "spotify_screenshot": 0.0573,
@@ -676,12 +676,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 5.7
+            "weight": 5.8579
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 3.8
+            "weight": 3.9053
           },
           {
             "family": "pseudo-correlation",
@@ -694,7 +694,7 @@
           {
             "family": "source_role",
             "rule": "H12C",
-            "weight": -1.3
+            "weight": -1.8
           }
         ],
         "podcast_thumbnail_background": [],
@@ -719,11 +719,11 @@
         "conceptual_illustration": 0.1419,
         "cosmology_concept": 0.0832,
         "general_flavor_graphic": 0.1192,
-        "hsh_podcast_thumbnail": 0.0522,
-        "podcast_stylesheet": 0.9991,
-        "podcast_thumbnail": 0.0522,
+        "hsh_podcast_thumbnail": 0.0323,
+        "podcast_stylesheet": 0.9993,
+        "podcast_thumbnail": 0.0323,
         "podcast_thumbnail_background": 0.1192,
-        "sat_podcast_thumbnail": 0.0522,
+        "sat_podcast_thumbnail": 0.0323,
         "split_field_visual": 0.1192,
         "spotify_creators_screenshot": 0.0573,
         "spotify_screenshot": 0.0573,
@@ -741,12 +741,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 5.7
+            "weight": 5.8579
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 3.8
+            "weight": 3.9053
           },
           {
             "family": "pseudo-correlation",
@@ -759,7 +759,7 @@
           {
             "family": "source_role",
             "rule": "H12C",
-            "weight": -1.3
+            "weight": -1.8
           }
         ],
         "podcast_thumbnail_background": [],
@@ -784,11 +784,11 @@
         "conceptual_illustration": 0.1419,
         "cosmology_concept": 0.0832,
         "general_flavor_graphic": 0.1192,
-        "hsh_podcast_thumbnail": 0.0522,
-        "podcast_stylesheet": 0.9991,
-        "podcast_thumbnail": 0.0522,
+        "hsh_podcast_thumbnail": 0.0323,
+        "podcast_stylesheet": 0.9993,
+        "podcast_thumbnail": 0.0323,
         "podcast_thumbnail_background": 0.1192,
-        "sat_podcast_thumbnail": 0.0522,
+        "sat_podcast_thumbnail": 0.0323,
         "split_field_visual": 0.1192,
         "spotify_creators_screenshot": 0.0573,
         "spotify_screenshot": 0.0573,
@@ -806,12 +806,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 5.7
+            "weight": 5.8579
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 3.8
+            "weight": 3.9053
           },
           {
             "family": "pseudo-correlation",
@@ -824,7 +824,7 @@
           {
             "family": "source_role",
             "rule": "H12C",
-            "weight": -1.3
+            "weight": -1.8
           }
         ],
         "podcast_thumbnail_background": [],
@@ -849,11 +849,11 @@
         "conceptual_illustration": 0.1419,
         "cosmology_concept": 0.0832,
         "general_flavor_graphic": 0.1192,
-        "hsh_podcast_thumbnail": 0.0522,
-        "podcast_stylesheet": 0.9991,
-        "podcast_thumbnail": 0.0522,
+        "hsh_podcast_thumbnail": 0.0323,
+        "podcast_stylesheet": 0.9993,
+        "podcast_thumbnail": 0.0323,
         "podcast_thumbnail_background": 0.1192,
-        "sat_podcast_thumbnail": 0.0522,
+        "sat_podcast_thumbnail": 0.0323,
         "split_field_visual": 0.1192,
         "spotify_creators_screenshot": 0.0573,
         "spotify_screenshot": 0.0573,
@@ -2283,16 +2283,16 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 12.0,
+      "alpha": 17.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 12.0,
+      "alpha": 17.0,
       "beta": 2.0
     },
     "H12C": {
       "alpha": 2.0,
-      "beta": 7.0
+      "beta": 2.0
     },
     "H13A": {
       "alpha": 2.0,
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 2,
-  "run_utc": "2026-10-01T00:34:55.897176+00:00",
+  "run_number": 3,
+  "run_utc": "2026-10-01T00:36:22.187391+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
@@ -2421,52 +2421,82 @@
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
       "rule": "H12A",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
       "rule": "H12B",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12A",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12B",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
       "rule": "H12A",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
       "rule": "H12B",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
       "rule": "H12A",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
       "rule": "H12B",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
       "rule": "H12A",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
       "rule": "H12B",
-      "verdict": "support"
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
     }
   ]
 }
