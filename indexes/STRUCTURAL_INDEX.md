@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-09-30T22:05:02+00:00`
-- Tree/content state: `8c6295ae147f4452470e3db761d5991a20ced264e1701d26243ff82fc3f33dc5`
-- Coverage: 2838 files, 196 directories
+- Scanned: `2026-10-01T09:26:22+00:00`
+- Tree/content state: `8d9ea6723d28deb2057676280892ec97db08076d4fbf9c812f4afedcb4e2c87b`
+- Coverage: 2867 files, 198 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -14,12 +14,12 @@
 | `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` | 1 |
 | `!!_RUNNING_COTHEORIST_LOG.md` | 1 |
 | `!_ANNOTATED_ARCHIVE_SURVEY.md` | 1 |
-| `.github` | 25 |
+| `.github` | 26 |
 | `ARCHITECTURE.md` | 1 |
 | `BEDROCK.md` | 1 |
 | `CONSULTANTS` | 4 |
 | `CONVERSATION_VIEWER` | 26 |
-| `DEVELOPMENT_FULL_CONVOS` | 1314 |
+| `DEVELOPMENT_FULL_CONVOS` | 1318 |
 | `HISTORY_TIMELINE.md` | 1 |
 | `INTERNAL` | 1 |
 | `LIBRARY` | 35 |
@@ -34,7 +34,7 @@
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 1015 |
+| `WORKSPACES` | 1017 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -43,7 +43,7 @@
 | `ledgers` | 5 |
 | `synthesis` | 6 |
 | `tests` | 5 |
-| `tools` | 22 |
+| `tools` | 44 |
 | `▶ LAUNCH CONVERSATION VIEWER.cmd` | 1 |
 
 ## File types
@@ -56,24 +56,25 @@
 | `.diff` | 4 |
 | `.docx` | 1 |
 | `.htm` | 1 |
-| `.html` | 2 |
+| `.html` | 3 |
 | `.ipynb` | 1 |
 | `.jfif` | 2 |
 | `.jpeg` | 102 |
 | `.jpg` | 49 |
 | `.js` | 16 |
-| `.json` | 725 |
-| `.jsonl` | 15 |
+| `.json` | 733 |
+| `.jsonl` | 17 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
-| `.md` | 1050 |
+| `.marker` | 1 |
+| `.md` | 1057 |
 | `.mhtml` | 3 |
 | `.mjs` | 1 |
 | `.nb` | 3 |
 | `.npz` | 3 |
-| `.pdf` | 43 |
+| `.pdf` | 44 |
 | `.png` | 190 |
-| `.py` | 155 |
+| `.py` | 160 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.srt` | 4 |
@@ -81,9 +82,9 @@
 | `.tex` | 6 |
 | `.toml` | 5 |
 | `.tx` | 1 |
-| `.txt` | 323 |
+| `.txt` | 326 |
 | `.yaml` | 1 |
-| `.yml` | 25 |
+| `.yml` | 26 |
 | `.zip` | 3 |
 | `[none]` | 6 |
 
@@ -91,18 +92,18 @@
 
 | Role | Files |
 |---|---:|
-| `archive-tooling` | 22 |
+| `archive-tooling` | 44 |
 | `audit-output` | 1 |
-| `automation-workflow` | 25 |
+| `automation-workflow` | 26 |
 | `checkpoint` | 1 |
 | `formalization-workspace` | 5 |
 | `generated-artifact` | 5 |
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 1015 |
+| `llm-workspace` | 1017 |
 | `review-ledger` | 5 |
-| `source-conversation-corpus` | 1314 |
+| `source-conversation-corpus` | 1318 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 5 |
 | `unclassified` | 362 |
@@ -1089,6 +1090,7 @@
 - `.github/workflows/sat-candidate-analysis.yml` — 1037 bytes — `automation-workflow`
 - `.github/workflows/superset-conversation-duplicate-scan.yml` — 1517 bytes — `automation-workflow`
 - `.github/workflows/sync-old-archive-state.yml` — 1387 bytes — `automation-workflow`
+- `.github/workflows/visual-archaeology-cycle.yml` — 2325 bytes — `automation-workflow`
 - `ARCHITECTURE.md` — 7793 bytes — `visitor-interface`
 - `BEDROCK.md` — 13735 bytes — `unclassified`
 - `CONSULTANTS/MERIDIAN/INSTANCE_SPEC.md` — 4199 bytes — `unclassified`
@@ -1281,6 +1283,8 @@
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/H_UNIVERSES.py` — 5929 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Hrandoverses.py` — 13277 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsHTRACKING.txt` — 6696 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGES_to_UNIVERSES.txt` — 14715 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGE_IDENTIFICATION.txt` — 3469 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/JOINT STATS.txt` — 53544 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/KESTREL_V_EXECUTABLE_INSTALL_CLOSURE_6_5.md` — 4399 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/LOOKSIE.txt` — 1448 bytes — `source-conversation-corpus`
@@ -1368,6 +1372,7 @@
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WIGGLESPRING.txt` — 5365 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/WORKING_GROUP_1.txt` — 30265 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[NODECHECK.archshare.contractapprove].txt` — 26411 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[VISUAL_INSP].pdf` — 2566917 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/ZX-calculus - Wikipedia.pdf` — 846440 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/HSH-SAT MISC - init/SAT to H(s)H TRANSITION.txt` — 1282636 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/[SAT26 PRE-ROUNDUP - init]/PAPERS TO LOOK UP.txt` — 2425 bytes — `source-conversation-corpus`
@@ -1515,6 +1520,7 @@
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance.txt` — 2178 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_tests.txt` — 1183 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/f348a07e-1c61-4ac9-b5f5-5989a7d76941.nb` — 10509 bytes — `source-conversation-corpus`
+- `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/factory_fresh.txt` — 1734 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gendarme_exact_mirror_color_atlas.png` — 1632902 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gg_recent.txt` — 721205 bytes — `source-conversation-corpus`
 - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/github-actions[bot]'s Commits (2).csv` — 87 bytes — `source-conversation-corpus`
@@ -2630,7 +2636,7 @@
 - `PUBLIC_SITE/STAGING/images/2026-09-30/fd104ec4b568bda8ffa52e819b008b460a3ec373.png` — 98189 bytes — `unclassified`
 - `PUBLIC_SITE/STAGING/images/2026-09-30/ffe736f4f1f462ccfa9d0cb93581c47cbcab3469.png` — 78186 bytes — `unclassified`
 - `PUBLIC_SITE/WRITING_VOICE_GUIDE.md` — 18093 bytes — `unclassified`
-- `PUBLIC_SITE/assets/STAGING/CAPTURE_REVIEW_ONLY.md` — 10416 bytes — `unclassified`
+- `PUBLIC_SITE/assets/STAGING/CAPTURE_REVIEW_ONLY.md` — 10543 bytes — `unclassified`
 - `PUBLIC_SITE/assets/STAGING/NEEDS_HUMAN_REVIEW.md` — 7447 bytes — `unclassified`
 - `PUBLIC_SITE/assets/STAGING/README.md` — 3378 bytes — `unclassified`
 - `PUBLIC_SITE/assets/STAGING/REMAINING_VISUAL_REVIEW.md` — 2800 bytes — `unclassified`
@@ -2970,6 +2976,7 @@
 - `WORKSPACES/COMMON/NATHAN_ATTENTION_FLAG_PROTOCOL.md` — 1634 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECTIVES_PROVENANCE.md` — 8449 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECT_BOLD_EXPLORATION_SHIFT_2026-09-20.md` — 11726 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_DIRECT_NOTICE_2026-09-30_COILLET_BOSONIC_WAVE.md` — 2562 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECT_PACKAGING_STATUS_2026-09-13.md` — 4439 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECT_STAGE2_READINESS_2026-09-13.md` — 5090 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_DIRECT_WORKFLOW_STATE.md` — 17494 bytes — `llm-workspace`
@@ -3319,7 +3326,7 @@
 - `WORKSPACES/COMMON/terminology/SOURCE_MANIFEST.json` — 1851 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/terminology/SYMBOL_REGISTRY.md` — 10357 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md` — 10715 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/terminology/VOCABULARY_CURATION.json` — 342 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/terminology/VOCABULARY_CURATION.json` — 848 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-A` — 77 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-RAVEL05` — 72 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/verified_batches/.merge-trigger-2026-09-13-RAVEL05-B` — 64 bytes — `llm-workspace`
@@ -3399,8 +3406,9 @@
 - `WORKSPACES/KESTREL/ROT5_RECEIPT_2026-09-24.md` — 4608 bytes — `llm-workspace`
 - `WORKSPACES/KESTREL/THREAD_HANDOFF_2026-09-21.md` — 6176 bytes — `llm-workspace`
 - `WORKSPACES/KESTREL/WORKING_HYPOTHESIS_2026-09-21.md` — 12025 bytes — `llm-workspace`
+- `WORKSPACES/LABS/COILLET_WAVE_PACKET/README.md` — 11733 bytes — `llm-workspace`
 - `WORKSPACES/LABS/HOLO_JF_LIGHT_VIRTUAL_OPTICAL_WORKBENCH.md` — 3378 bytes — `llm-workspace`
-- `WORKSPACES/LABS/LAB_REGISTRY.json` — 4737 bytes — `llm-workspace`
+- `WORKSPACES/LABS/LAB_REGISTRY.json` — 7226 bytes — `llm-workspace`
 - `WORKSPACES/LABS/README.md` — 4597 bytes — `llm-workspace`
 - `WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER/README.md` — 5289 bytes — `llm-workspace`
 - `WORKSPACES/LABS/SIDE_BY_SIDE_SOLVER/three_spheres_carrier.py` — 7138 bytes — `llm-workspace`
@@ -3829,7 +3837,7 @@
 - `generated/lean/EQ_0001_Carrier.lean` — 507 bytes — `generated-artifact`
 - `generated/lean/EQ_0002_Deformation.lean` — 527 bytes — `generated-artifact`
 - `generated/lean/EQ_0003_Dispersion.lean` — 589 bytes — `generated-artifact`
-- `indexes/CONVERSATION_CHRONOLOGY.md` — 252462 bytes — `generated-catalog`
+- `indexes/CONVERSATION_CHRONOLOGY.md` — 252980 bytes — `generated-catalog`
 - `indexes/FEDERATED_ARCHIVE_MAP.md` — 8625 bytes — `generated-catalog`
 - `indexes/LIVE_CONVERSATION_CHRONOLOGY.md` — 3021 bytes — `generated-catalog`
 - `indexes/autotag/AUTOTAG_SUMMARY.md` — 302533 bytes — `generated-catalog`
@@ -3838,7 +3846,7 @@
 - `indexes/autotag/conversation-tag-manifest.json` — 3028833 bytes — `generated-catalog`
 - `indexes/autotag/user-message-tags.jsonl` — 66735169 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 411768 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 412771 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 6223 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/RUN_MANIFEST.json` — 1610 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/SEARCH_RESULTS.json` — 13862 bytes — `generated-catalog`
@@ -3849,17 +3857,17 @@
 - `indexes/nathan-direct/MANIFEST.json` — 1412 bytes — `generated-catalog`
 - `indexes/nathan-direct/README.md` — 1542 bytes — `generated-catalog`
 - `indexes/nathan-direct/nathan-direct-2023.jsonl` — 1079012 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-2024.jsonl` — 1409991 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-2025.jsonl` — 31209483 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-2026.jsonl` — 66908842 bytes — `generated-catalog`
-- `indexes/nathan-direct/nathan-direct-lookup.jsonl` — 8276226 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2024.jsonl` — 1410801 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2025.jsonl` — 31279425 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-2026.jsonl` — 67069370 bytes — `generated-catalog`
+- `indexes/nathan-direct/nathan-direct-lookup.jsonl` — 8350582 bytes — `generated-catalog`
 - `indexes/nathan-direct/stage2/MANIFEST.json` — 653 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/branch-context.jsonl` — 18705560 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/correction-refinement.jsonl` — 22757150 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/decision.jsonl` — 9799202 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/definition.jsonl` — 17774337 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/duplicate-provenance.jsonl` — 37000983 bytes — `generated-catalog`
-- `indexes/nathan-direct/stage2/methodology.jsonl` — 18725920 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/branch-context.jsonl` — 18848555 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/correction-refinement.jsonl` — 22796900 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/decision.jsonl` — 9808447 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/definition.jsonl` — 17795016 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/duplicate-provenance.jsonl` — 37259611 bytes — `generated-catalog`
+- `indexes/nathan-direct/stage2/methodology.jsonl` — 18753444 bytes — `generated-catalog`
 - `ledgers/CITATION_LEDGER.md` — 5550 bytes — `review-ledger`
 - `ledgers/DEPENDENCY_GRAPH.md` — 3522 bytes — `review-ledger`
 - `ledgers/EQUATION_LEDGER.md` — 9310 bytes — `review-ledger`
@@ -3895,8 +3903,30 @@
 - `tools/query_mersearch_index.py` — 1892 bytes — `archive-tooling`
 - `tools/search_archive_content.py` — 21675 bytes — `archive-tooling`
 - `tools/update_mersearch_index.py` — 5137 bytes — `archive-tooling`
-- `tools/visual_archaeology/README.md` — 4132 bytes — `archive-tooling`
+- `tools/visual_archaeology/FIRST_RUN_RECON_2026-09-30.md` — 7407 bytes — `archive-tooling`
+- `tools/visual_archaeology/README.md` — 7466 bytes — `archive-tooling`
+- `tools/visual_archaeology/SEED_VISUAL_CATALOG_2026-09-30.md` — 19223 bytes — `archive-tooling`
 - `tools/visual_archaeology/calibration.schema.json` — 368 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/latest_report.md` — 2339 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/latest_report_v2.md` — 3702 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/model_state.json` — 39576 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/model_state_v2.json` — 68997 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/resource_candidates.json` — 833 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/review_sheet.html` — 28287 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/review_sheet.md` — 9284 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/run_history.jsonl` — 170 bytes — `archive-tooling`
+- `tools/visual_archaeology/derived/signed_validation_v1.marker` — 95 bytes — `archive-tooling`
+- `tools/visual_archaeology/hypothesis_cycle.py` — 14903 bytes — `archive-tooling`
+- `tools/visual_archaeology/hypothesis_cycle_v2.py` — 18451 bytes — `archive-tooling`
+- `tools/visual_archaeology/hypothesis_rules.json` — 10763 bytes — `archive-tooling`
+- `tools/visual_archaeology/known_families.json` — 3713 bytes — `archive-tooling`
+- `tools/visual_archaeology/render_review_markdown.py` — 3481 bytes — `archive-tooling`
+- `tools/visual_archaeology/run_visual_cycle.py` — 3389 bytes — `archive-tooling`
+- `tools/visual_archaeology/sampling_manifest.json` — 7443 bytes — `archive-tooling`
+- `tools/visual_archaeology/seed_calibration.jsonl` — 9435 bytes — `archive-tooling`
+- `tools/visual_archaeology/seed_measurements_2026-09-30.json` — 3454 bytes — `archive-tooling`
+- `tools/visual_archaeology/similarity_scan.py` — 3915 bytes — `archive-tooling`
+- `tools/visual_archaeology/tag_vocabulary.json` — 6368 bytes — `archive-tooling`
 - `tools/visual_archaeology/visual_analyzer.py` — 3993 bytes — `archive-tooling`
 - `▶ LAUNCH CONVERSATION VIEWER.cmd` — 431 bytes — `unclassified`
 

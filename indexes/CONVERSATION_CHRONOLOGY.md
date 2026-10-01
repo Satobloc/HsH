@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-09-30T21:37:54.537576+00:00`
+- Generated: `2026-10-01T08:45:00.770308+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **550**
-- Skipped non-conversation or unparseable files: **394**
+- Skipped non-conversation or unparseable files: **397**
 - Exact duplicate-content groups: **82**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -1042,6 +1042,8 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH_commits.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HSH_commits.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HYPERFLIRTSPECS.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HYPERFLIRTSPECS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsHTRACKING.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsHTRACKING.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGES_to_UNIVERSES.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGES_to_UNIVERSES.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGE_IDENTIFICATION.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/IMAGE_IDENTIFICATION.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/JOINT STATS.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/JOINT%20STATS.txt) — Expecting value: line 3 column 1 (char 2)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/LOOKSIE.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/LOOKSIE.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MERIDIAN_LOOP_ROUNDUP_NOTES.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/MERIDIAN_LOOP_ROUNDUP_NOTES.txt) — Expecting value: line 1 column 1 (char 0)
@@ -1115,6 +1117,7 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance (2).txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance%20%282%29.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_acceptance.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_tests.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/executed_tests.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/factory_fresh.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/factory_fresh.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gg_recent.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/gg_recent.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/github_traffic_readme.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/github_traffic_readme.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/googs.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/googs.txt) — Expecting value: line 1 column 1 (char 0)
