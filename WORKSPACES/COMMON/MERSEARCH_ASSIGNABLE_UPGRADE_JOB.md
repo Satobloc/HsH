@@ -53,6 +53,19 @@ The connector-worker request bridge is deliberately pinned to stable 1.0 and cur
 
 That means workers needing HsH-main or cross-repository retrieval either need another route or must fall back to less capable repository search. This is now a concrete project-wide bottleneck.
 
+## Nathan-direct search completeness requirement — 2026-10-02
+
+Search infrastructure must support the project-wide rule that one-repository or one-interface lookup does not count as a complete archive search.
+
+Required target behavior:
+- routine SAT/H(s)H archive search spans `SAT_THEORY_ARCHIVE_2023-25` + `HsH`;
+- authorized research/reference search adds `HSH_RESOURCES`;
+- results declare exact corpus, refs/commits, exclusions, query mode and coverage limitations;
+- GitHub code search is treated as a supplementary lexical layer, never as proof of absence;
+- external literature/web search is required for prior-art/current-literature questions when available.
+
+**Equation search is now a high-priority Mersearch tranche.** Promote M1 extraction and practical notation-normalized equation retrieval ahead of lower-leverage UI polish. The system should support exact raw equation text, Unicode/LaTeX normalization, structural subexpression search where safely implementable, source locator/provenance, and explicit `UNPARSED` retention. The near-term acceptance target is to recover the same equation written with common notation variants across all authorized corpora without silently asserting algebraic equivalence.
+
 ## Priority tranches
 
 ### A. 1.1 promotion gate — highest infrastructure priority
