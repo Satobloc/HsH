@@ -1,3 +1,10 @@
+> **AUTHORITY MOVED — 2026-10-02**
+>
+> The authoritative Factory Floor / Floorroom control surface is now:
+> https://github.com/Satobloc/FACTORY_FLOOR/blob/main/FLOORROOM_TODO.md
+>
+> This HsH file is retained only as a feeder/reference note from the SAT>H(s)H side. Do not treat it as the Factory Floor task authority.
+
 # Factory Floorroom — working to-do
 
 Date: 2026-10-02
