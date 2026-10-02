@@ -9,7 +9,7 @@ Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 - user messages: 31732
 - bulk winnow: 31681
 - parse errors: 1
-- structural-index gap candidates: 25
+- structural-index gap candidates: 0
 - buckets: `{'WINNOW:A-DIRECT-MESSAGE': 16120, 'WINNOW:B-ADJACENCY-RESCUE': 14441, 'WINNOW:D-DISCOURSE-ONLY': 952, 'DROP-FOR-NOW': 51, 'WINNOW:C-CONVERSATION-DISCOURSE': 168}`
 - relevance layers: `{'MESSAGE': 16120, 'ADJACENCY': 31018, 'CONVERSATION': 31703}`
 
@@ -366,7 +366,7 @@ Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 > Ok. Here I've got two takes on website design. Tell me what you think we do.    NATHAN DIRECT: First and foremost... if we can just make the backend totally editable from the backend by me or assistants, that would be ideal since I only get a small allotment of "work" (and Sites is automatically "work") per *week*. If we can have live flow from the backe...
 
 ### Succinctness And Math Check — `b9b626b6-b107-452b-80eb-47cf247c40cb`
-- source: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/Succinctness And Math Check — raw.json`
+- source: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/26.09.06•26.09.07•Succinctness And Math Check — raw.json`
 - `WINNOW:A-DIRECT-MESSAGE` score `94.0` layers `MESSAGE, ADJACENCY, CONVERSATION`
 - message: `MSG:4D-THINKING, MSG:BLACK-HOLES, MSG:CALCULUS, MSG:COSMOLOGY, MSG:CROSSWALK-CANDIDATE, MSG:DEFINITION-CANDIDATE, MSG:DIMENSIONALITY, MSG:GEOMETRY, MSG:GRAVITY, MSG:HELIX-GEOMETRY, MSG:INTERSECTION-READOUT, MSG:LAGRANGIAN, MSG:MATHEMATICS, MSG:METRIC, MSG:MODEL-VS-REALITY, MSG:NESTING, MSG:PHYSICS, MSG:QUANTIZATION, MSG:QUANTUM, MSG:RELATIVITY, MSG:SAT-HSH, MSG:TOPOLOGY, MSG:VISUALIZATION, MSG:WORLDLINE`
 - adjacency: `ADJ:ALGEBRA, ADJ:BLACK-HOLES, ADJ:CALCULUS, ADJ:DIMENSIONALITY, ADJ:GEOMETRY, ADJ:GRAVITY, ADJ:INTERACTIONS, ADJ:LAGRANGIAN, ADJ:MATHEMATICS, ADJ:METRIC, ADJ:MUSIC-AUDIO, ADJ:PHYSICS, ADJ:PROVENANCE-HISTORY, ADJ:QUANTIZATION, ADJ:QUANTUM, ADJ:RELATIVITY, ADJ:VISUALIZATION, ADJ:WRITING`
@@ -374,7 +374,7 @@ Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 > Can you make this more succinct and check the math and reasoning?  Relativistic–Quantum Isomorphism as it appears in your framework, organized carefully and step by step. I’ll treat it as a rigorous conceptual and mathematical chain rather than a mere narrative.  ⸻  1. Core Idea  The Relativistic–Quantum Isomorphism asserts that General Relativity (GR) an...
 
 ### Succinctness And Math Check — `59a38049-e410-455d-afe9-87fcbc6f5264`
-- source: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/Succinctness And Math Check — raw.json`
+- source: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/26.09.06•26.09.07•Succinctness And Math Check — raw.json`
 - `WINNOW:A-DIRECT-MESSAGE` score `94.0` layers `MESSAGE, ADJACENCY, CONVERSATION`
 - message: `MSG:4D-THINKING, MSG:ASTRONOMY, MSG:BLACK-HOLES, MSG:CODING, MSG:DIMENSIONALITY, MSG:ELECTROMAGNETISM, MSG:FINITE-CORE, MSG:GEOMETRY, MSG:GRAVITY, MSG:HELIX-GEOMETRY, MSG:INTERSECTION-READOUT, MSG:LAW-LEGAL, MSG:METRIC, MSG:MUSIC-AUDIO, MSG:PARTICLE-PHYSICS, MSG:PHYSICS, MSG:RELATIVITY, MSG:SAT-HSH, MSG:TIMESHEET, MSG:WHIRLIGIG-DONUT, MSG:WORLDTUBE`
 - adjacency: `ADJ:4D-THINKING, ADJ:BLACK-HOLES, ADJ:CROSSWALK-CANDIDATE, ADJ:DEFINITION-CANDIDATE, ADJ:DIMENSIONALITY, ADJ:ELECTROMAGNETISM, ADJ:FINITE-CORE, ADJ:GEOMETRY, ADJ:HELIX-GEOMETRY, ADJ:INTERSECTION-READOUT, ADJ:PARTICLE-PHYSICS, ADJ:PHYSICS, ADJ:PROVENANCE-HISTORY, ADJ:QUANTIZATION, ADJ:RELATIVITY, ADJ:SAT-HSH, ADJ:TOPOLOGY-MORPHOLOGY, ADJ:WORLDTUBE`

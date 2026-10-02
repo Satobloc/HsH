@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-10-02T08:35:55.280680+00:00",
+  "source_state_at_utc": "2026-10-02T11:55:02.717101+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -24,7 +24,7 @@
       "status": "loaded",
       "records": 2036,
       "accepted_json_conversations": 576,
-      "source_generated_at_utc": "2026-10-02T08:35:54.796088+00:00"
+      "source_generated_at_utc": "2026-10-02T11:55:02.444143+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 15,
       "accepted_json_conversations": 11,
-      "source_generated_at_utc": "2026-10-02T08:35:55.280680+00:00"
+      "source_generated_at_utc": "2026-10-02T11:55:02.717101+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
@@ -44,31 +44,31 @@
   ],
   "conversations": [
     {
-      "id": "fe75dfe1475a",
+      "id": "6fea909e92d5",
       "title": "Conga Ledger — Kestrel VI",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Conga Ledger — Kestrel VI — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30•26.10.01•Conga Ledger — Kestrel VI — raw.json",
       "corpus": "development",
       "start_local": "2026-09-30T13:13:12.685781-04:00",
       "end_local": "2026-10-01T15:30:35.606038-04:00",
       "message_count": 124,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json",
       "order": 0
     },
     {
-      "id": "022db47127bb",
+      "id": "46d86310d4af",
       "title": "Image Prompt Construction",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Image Prompt Construction — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28•26.09.28•Image Prompt Construction — raw.json",
       "corpus": "development",
       "start_local": "2026-09-28T03:45:49.492928-04:00",
       "end_local": "2026-09-28T15:22:13.096945-04:00",
       "message_count": 305,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Image%20Prompt%20Construction%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Image%20Prompt%20Construction%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28%E2%80%A226.09.28%E2%80%A2Image%20Prompt%20Construction%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28%E2%80%A226.09.28%E2%80%A2Image%20Prompt%20Construction%20%E2%80%94%20raw.json",
       "order": 1
     },
     {
@@ -240,17 +240,17 @@
       "order": 13
     },
     {
-      "id": "c32e35a1cdc6",
+      "id": "f3a858f26f11",
       "title": "Meridian Solver Loop",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Meridian Solver Loop — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
       "corpus": "development",
       "start_local": "2026-09-21T16:30:14.579439-04:00",
       "end_local": "2026-09-27T08:07:27.130927-04:00",
       "message_count": 452,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Meridian%20Solver%20Loop%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Meridian%20Solver%20Loop%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json",
       "order": 14
     },
     {
@@ -296,17 +296,17 @@
       "order": 17
     },
     {
-      "id": "54dc7c15d3e7",
+      "id": "07313dec87ea",
       "title": "Science Made Stupid",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Science Made Stupid — raw (3).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20•26.09.22•Science Made Stupid — raw (3).json",
       "corpus": "development",
       "start_local": "2026-09-20T19:52:22.997694-04:00",
       "end_local": "2026-09-22T21:39:51.236000-04:00",
       "message_count": 1202,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.20%E2%80%A226.09.22%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw%20%283%29.json",
       "order": 18
     },
     {
@@ -520,17 +520,17 @@
       "order": 33
     },
     {
-      "id": "ddf925b3e7c4",
+      "id": "20667b8ffa72",
       "title": "Establish factual record",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Establish factual record — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.16•26.09.17•Establish factual record — raw.json",
       "corpus": "development",
       "start_local": "2026-09-16T17:15:57.698000-04:00",
       "end_local": "2026-09-17T03:53:10.402421-04:00",
       "message_count": 635,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Establish%20factual%20record%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Establish%20factual%20record%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.16%E2%80%A226.09.17%E2%80%A2Establish%20factual%20record%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.16%E2%80%A226.09.17%E2%80%A2Establish%20factual%20record%20%E2%80%94%20raw.json",
       "order": 34
     },
     {
@@ -744,17 +744,17 @@
       "order": 49
     },
     {
-      "id": "9a8ab620a40a",
+      "id": "0d0c43c308ad",
       "title": "Analyze Voice Models",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Analyze Voice Models — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13•26.09.20•Analyze Voice Models — raw.json",
       "corpus": "development",
       "start_local": "2026-09-13T19:33:46.070000-04:00",
       "end_local": "2026-09-20T16:47:39.706671-04:00",
       "message_count": 339,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Analyze%20Voice%20Models%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Analyze%20Voice%20Models%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13%E2%80%A226.09.20%E2%80%A2Analyze%20Voice%20Models%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.13%E2%80%A226.09.20%E2%80%A2Analyze%20Voice%20Models%20%E2%80%94%20raw.json",
       "order": 50
     },
     {
@@ -884,17 +884,17 @@
       "order": 59
     },
     {
-      "id": "5c9b44b88ae8",
+      "id": "6f833ce83200",
       "title": "Mercer Archive Mover",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Mercer Archive Mover — raw (3).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12•26.09.22•Mercer Archive Mover — raw (3).json",
       "corpus": "development",
       "start_local": "2026-09-12T21:37:57.274539-04:00",
       "end_local": "2026-09-22T23:29:38.717714-04:00",
       "message_count": 1568,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%283%29.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%283%29.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12%E2%80%A226.09.22%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%283%29.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.12%E2%80%A226.09.22%E2%80%A2Mercer%20Archive%20Mover%20%E2%80%94%20raw%20%283%29.json",
       "order": 60
     },
     {
@@ -954,17 +954,17 @@
       "order": 64
     },
     {
-      "id": "d0b0313c968d",
+      "id": "90c3120ca56d",
       "title": "SATity Corpus Audit",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATity Corpus Audit — raw (1).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10•26.09.12•SATity Corpus Audit — raw (1).json",
       "corpus": "development",
       "start_local": "2026-09-10T21:36:28.633000-04:00",
       "end_local": "2026-09-12T21:05:37.346999-04:00",
       "message_count": 768,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATity%20Corpus%20Audit%20%E2%80%94%20raw%20%281%29.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/SATity%20Corpus%20Audit%20%E2%80%94%20raw%20%281%29.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10%E2%80%A226.09.12%E2%80%A2SATity%20Corpus%20Audit%20%E2%80%94%20raw%20%281%29.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.10%E2%80%A226.09.12%E2%80%A2SATity%20Corpus%20Audit%20%E2%80%94%20raw%20%281%29.json",
       "order": 65
     },
     {
@@ -1654,31 +1654,31 @@
       "order": 114
     },
     {
-      "id": "73decb8cba31",
+      "id": "76fec0a92708",
       "title": "Succinctness And Math Check",
-      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/Succinctness And Math Check — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/26.09.06•26.09.07•Succinctness And Math Check — raw.json",
       "corpus": "development",
       "start_local": "2026-09-06T03:46:03.438933-04:00",
       "end_local": "2026-09-07T06:06:45.368833-04:00",
       "message_count": 417,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/26.09.06%E2%80%A226.09.07%E2%80%A2Succinctness%20And%20Math%20Check%20%E2%80%94%20raw.json",
       "order": 115
     },
     {
-      "id": "be1659e4b8d8",
+      "id": "5087d82840db",
       "title": "Cooper Slinky",
-      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/Cooper Slinky.txt",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[HSH REFORMULATION - INIT]]]/H(SAT)H - init/26.09.06•26.09.06•Cooper Slinky.txt",
       "corpus": "development",
       "start_local": "2026-09-06T03:46:03.438933-04:00",
       "end_local": "2026-09-06T16:57:26.023445-04:00",
       "message_count": 101,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/Cooper%20Slinky.txt",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/Cooper%20Slinky.txt",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/26.09.06%E2%80%A226.09.06%E2%80%A2Cooper%20Slinky.txt",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/%5B%5B%5BHSH%20REFORMULATION%20-%20INIT%5D%5D%5D/H%28SAT%29H%20-%20init/26.09.06%E2%80%A226.09.06%E2%80%A2Cooper%20Slinky.txt",
       "order": 116
     },
     {
@@ -2196,17 +2196,17 @@
       "order": 152
     },
     {
-      "id": "ade0877a4909",
+      "id": "e96f4734a889",
       "title": "⚗️ CALDER [Construction Story Retelling]",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/⚗️ CALDER [Construction Story Retelling] — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26•26.09.16•⚗️ CALDER [Construction Story Retelling] — raw.json",
       "corpus": "development",
       "start_local": "2026-08-26T05:11:22.113566-04:00",
       "end_local": "2026-09-16T01:27:51.776406-04:00",
       "message_count": 317,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.26%E2%80%A226.09.16%E2%80%A2%E2%9A%97%EF%B8%8F%20CALDER%20%5BConstruction%20Story%20Retelling%5D%20%E2%80%94%20raw.json",
       "order": 153
     },
     {
@@ -2336,17 +2336,17 @@
       "order": 162
     },
     {
-      "id": "f258e8be6a56",
+      "id": "ef4d14c5acbe",
       "title": "Population Social Thresholds",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Population Social Thresholds — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.23•26.08.24•Population Social Thresholds — raw.json",
       "corpus": "development",
       "start_local": "2026-08-23T23:23:11.227000-04:00",
       "end_local": "2026-08-24T02:39:21.650359-04:00",
       "message_count": 442,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Population%20Social%20Thresholds%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Population%20Social%20Thresholds%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.23%E2%80%A226.08.24%E2%80%A2Population%20Social%20Thresholds%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.23%E2%80%A226.08.24%E2%80%A2Population%20Social%20Thresholds%20%E2%80%94%20raw.json",
       "order": 163
     },
     {
@@ -2434,17 +2434,17 @@
       "order": 169
     },
     {
-      "id": "1792ac03941c",
+      "id": "3d3586255d77",
       "title": "File Set Overview",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/File Set Overview — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19•26.09.22•File Set Overview — raw.json",
       "corpus": "development",
       "start_local": "2026-08-19T05:06:07.842000-04:00",
       "end_local": "2026-09-22T17:25:36.962022-04:00",
       "message_count": 1259,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/File%20Set%20Overview%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/File%20Set%20Overview%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.19%E2%80%A226.09.22%E2%80%A2File%20Set%20Overview%20%E2%80%94%20raw.json",
       "order": 170
     },
     {
@@ -2476,17 +2476,17 @@
       "order": 172
     },
     {
-      "id": "231fae99b600",
+      "id": "90dacdbd4aaf",
       "title": "Least Interesting Pope",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Least Interesting Pope — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.15•26.08.15•Least Interesting Pope — raw.json",
       "corpus": "development",
       "start_local": "2026-08-15T01:54:12.341281-04:00",
       "end_local": "2026-08-15T02:55:18.043056-04:00",
       "message_count": 129,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Least%20Interesting%20Pope%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Least%20Interesting%20Pope%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.15%E2%80%A226.08.15%E2%80%A2Least%20Interesting%20Pope%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.08.15%E2%80%A226.08.15%E2%80%A2Least%20Interesting%20Pope%20%E2%80%94%20raw.json",
       "order": 173
     },
     {
@@ -2708,17 +2708,17 @@
       "order": 188
     },
     {
-      "id": "d18d65e6d3f7",
+      "id": "4a54e672d1cf",
       "title": "Brownian motion and molecular mass",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Brownian motion and molecular mass — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.13•26.09.12•Brownian motion and molecular mass — raw.json",
       "corpus": "development",
       "start_local": "2026-07-13T04:53:15.271059-04:00",
       "end_local": "2026-09-12T09:00:03.363669-04:00",
       "message_count": 110,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.13%E2%80%A226.09.12%E2%80%A2Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.13%E2%80%A226.09.12%E2%80%A2Brownian%20motion%20and%20molecular%20mass%20%E2%80%94%20raw.json",
       "order": 189
     },
     {
@@ -2983,17 +2983,17 @@
       "order": 207
     },
     {
-      "id": "59e7a8841136",
+      "id": "00d6981479f4",
       "title": "🥼 Raindrop Exploration",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/🥼 Raindrop Exploration — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.07•26.09.12•🥼 Raindrop Exploration — raw.json",
       "corpus": "development",
       "start_local": "2026-07-07T15:22:15.828080-04:00",
       "end_local": "2026-09-12T08:23:39.168070-04:00",
       "message_count": 473,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.07%E2%80%A226.09.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.07.07%E2%80%A226.09.12%E2%80%A2%F0%9F%A5%BC%20Raindrop%20Exploration%20%E2%80%94%20raw.json",
       "order": 208
     },
     {
@@ -3225,17 +3225,17 @@
       "order": 224
     },
     {
-      "id": "127a1ec03ca0",
+      "id": "fa4d1862002c",
       "title": "Cosmological Constant Summary",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Cosmological Constant Summary — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.06.22•26.09.12•Cosmological Constant Summary — raw.json",
       "corpus": "development",
       "start_local": "2026-06-22T09:49:04.744587-04:00",
       "end_local": "2026-09-12T09:43:33.086238-04:00",
       "message_count": 55,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.06.22%E2%80%A226.09.12%E2%80%A2Cosmological%20Constant%20Summary%20%E2%80%94%20raw.json",
       "order": 225
     },
     {
@@ -4688,17 +4688,17 @@
       "order": 325
     },
     {
-      "id": "26afba262a5e",
+      "id": "ab7588ab81bb",
       "title": "Casual Check-in",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Casual Check-in — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.02.24•26.09.12•Casual Check-in — raw.json",
       "corpus": "development",
       "start_local": "2026-02-24T17:55:32.778746-05:00",
       "end_local": "2026-09-12T11:18:02.606999-04:00",
       "message_count": 243,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Casual%20Check-in%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Casual%20Check-in%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.02.24%E2%80%A226.09.12%E2%80%A2Casual%20Check-in%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.02.24%E2%80%A226.09.12%E2%80%A2Casual%20Check-in%20%E2%80%94%20raw.json",
       "order": 326
     },
     {
@@ -4856,17 +4856,17 @@
       "order": 337
     },
     {
-      "id": "ca5594efe2a3",
+      "id": "5ca1416c7d03",
       "title": "String Theory Particle Zoo",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/String Theory Particle Zoo — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.30•26.09.12•String Theory Particle Zoo — raw.json",
       "corpus": "development",
       "start_local": "2025-12-30T00:31:34.043090-05:00",
       "end_local": "2026-09-12T22:46:20.219060-04:00",
       "message_count": 283,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/String%20Theory%20Particle%20Zoo%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/String%20Theory%20Particle%20Zoo%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.30%E2%80%A226.09.12%E2%80%A2String%20Theory%20Particle%20Zoo%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.30%E2%80%A226.09.12%E2%80%A2String%20Theory%20Particle%20Zoo%20%E2%80%94%20raw.json",
       "order": 338
     },
     {
@@ -4898,17 +4898,17 @@
       "order": 340
     },
     {
-      "id": "8710f770a4b4",
+      "id": "3bac48b42204",
       "title": "Pet Theory Discussion",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Pet Theory Discussion — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29•26.09.12•Pet Theory Discussion — raw.json",
       "corpus": "development",
       "start_local": "2025-12-29T23:21:17.233000-05:00",
       "end_local": "2026-09-12T11:18:08.645639-04:00",
       "message_count": 745,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Pet%20Theory%20Discussion%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Pet%20Theory%20Discussion%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29%E2%80%A226.09.12%E2%80%A2Pet%20Theory%20Discussion%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29%E2%80%A226.09.12%E2%80%A2Pet%20Theory%20Discussion%20%E2%80%94%20raw.json",
       "order": 341
     },
     {
@@ -4926,17 +4926,17 @@
       "order": 342
     },
     {
-      "id": "adab3a873327",
+      "id": "784761de926f",
       "title": "Quantum Gravity Problems",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Quantum Gravity Problems — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29•26.09.12•Quantum Gravity Problems — raw.json",
       "corpus": "development",
       "start_local": "2025-12-29T19:52:53.360734-05:00",
       "end_local": "2026-09-12T17:18:57.536833-04:00",
       "message_count": 12,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Quantum%20Gravity%20Problems%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Quantum%20Gravity%20Problems%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29%E2%80%A226.09.12%E2%80%A2Quantum%20Gravity%20Problems%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.12.29%E2%80%A226.09.12%E2%80%A2Quantum%20Gravity%20Problems%20%E2%80%94%20raw.json",
       "order": 343
     },
     {
@@ -5660,17 +5660,17 @@
       "order": 394
     },
     {
-      "id": "83dddb894aca",
+      "id": "ef8cb355f81f",
       "title": "Interstellar object A11pl3Z",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Interstellar object A11pl3Z — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07•26.09.12•Interstellar object A11pl3Z — raw.json",
       "corpus": "development",
       "start_local": "2025-10-07T16:22:44.478693-04:00",
       "end_local": "2026-09-12T17:36:41.955000-04:00",
       "message_count": 160,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
       "order": 395
     },
     {
@@ -6692,17 +6692,17 @@
       "order": 467
     },
     {
-      "id": "18ea7f3045ab",
+      "id": "9f618064b74c",
       "title": "LAB 2_ Refinement Lead",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB 2_ Refinement Lead — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•25.05.09•LAB 2_ Refinement Lead — raw.json",
       "corpus": "development",
       "start_local": "2025-05-09T02:39:32.860000-04:00",
       "end_local": "2025-05-09T16:00:20.326928-04:00",
       "message_count": 56,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
       "order": 468
     },
     {
@@ -6720,17 +6720,17 @@
       "order": 469
     },
     {
-      "id": "209f3eada904",
+      "id": "62341eacdbb8",
       "title": "LAB 1_ Validation Lead",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB 1_ Validation Lead — raw (1).json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09•26.09.12•LAB 1_ Validation Lead — raw (1).json",
       "corpus": "development",
       "start_local": "2025-05-09T02:37:02.990000-04:00",
       "end_local": "2026-09-12T20:51:32.412370-04:00",
       "message_count": 182,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
       "order": 470
     },
     {
@@ -7352,17 +7352,17 @@
       "order": 514
     },
     {
-      "id": "a77c67276b3f",
+      "id": "b9a1d20c57e8",
       "title": "Physics Beyond Mathematics",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Physics Beyond Mathematics — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
       "corpus": "development",
       "start_local": "2025-04-13T13:11:45.625000-04:00",
       "end_local": "2026-06-15T12:31:02.291550-04:00",
       "message_count": 489,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
       "order": 515
     },
     {
@@ -8306,17 +8306,17 @@
       "order": 582
     },
     {
-      "id": "8cd4ba7e507c",
+      "id": "bc704ee76471",
       "title": "Spacetime Curvature and Rigidity",
-      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Spacetime Curvature and Rigidity — raw.json",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07•26.09.12•Spacetime Curvature and Rigidity — raw.json",
       "corpus": "development",
       "start_local": "2023-07-07T05:22:46.754909-04:00",
       "end_local": "2026-09-12T11:54:38.052117-04:00",
       "message_count": 32,
       "timestamp_source": "message.create_time",
       "warnings": [],
-      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
-      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07%E2%80%A226.09.12%E2%80%A2Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07%E2%80%A226.09.12%E2%80%A2Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
       "order": 583
     },
     {
