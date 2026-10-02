@@ -1,10 +1,10 @@
 {
-  "total": 994,
+  "total": 1006,
   "by_repo": {
     "HSH_RESOURCES": 89,
-    "HsH": 341,
+    "HsH": 353,
     "SAT_THEORY_ARCHIVE_2023-25": 564
   },
-  "exact_duplicate_families": 189,
+  "exact_duplicate_families": 201,
   "near_duplicate_families": 528
 }
