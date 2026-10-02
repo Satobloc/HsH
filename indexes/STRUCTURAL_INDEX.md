@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-10-02T12:26:34+00:00`
-- Tree/content state: `57d673a94722bf801565b6ad73ec9280e5ca30fbb653dc63aac81c87f04cd10a`
-- Coverage: 4109 files, 220 directories
+- Scanned: `2026-10-02T20:24:19+00:00`
+- Tree/content state: `4c50313ebde9d2b74df68a5623df7db17c7b3699885fd68eed7ff996d0268ae9`
+- Coverage: 4136 files, 224 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -28,13 +28,14 @@
 | `LIVE CONVOS` | 37 |
 | `NEW_PAPERS` | 4 |
 | `ONBOARDING` | 1 |
+| `PLAYGROUNDS` | 2 |
 | `PUBLIC_SITE` | 144 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 1059 |
+| `WORKSPACES` | 1084 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -52,7 +53,7 @@
 |---|---:|
 | `.cmd` | 1 |
 | `.css` | 5 |
-| `.csv` | 98 |
+| `.csv` | 99 |
 | `.diff` | 4 |
 | `.docx` | 1 |
 | `.gif` | 1 |
@@ -68,18 +69,18 @@
 | `.lean` | 3 |
 | `.m4a` | 1 |
 | `.marker` | 1 |
-| `.md` | 1104 |
+| `.md` | 1121 |
 | `.mhtml` | 3 |
 | `.mjs` | 1 |
 | `.nb` | 3 |
 | `.npz` | 3 |
 | `.pdf` | 92 |
 | `.png` | 201 |
-| `.py` | 172 |
+| `.py` | 177 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.srt` | 4 |
-| `.svg` | 8 |
+| `.svg` | 12 |
 | `.tex` | 6 |
 | `.text` | 1 |
 | `.toml` | 5 |
@@ -103,12 +104,12 @@
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 1059 |
+| `llm-workspace` | 1084 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 2499 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 5 |
-| `unclassified` | 362 |
+| `unclassified` | 364 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -4575,6 +4576,8 @@
 - `NEW_PAPERS/SEPTEMER_2026/gitignore.txt` — 1 bytes — `unclassified`
 - `NEW_PAPERS/SEPTEMER_2026/newPAPER.pdf` — 227905 bytes — `unclassified`
 - `ONBOARDING/ARCHIVE_TOOLS_ROAMING_CARD.md` — 4803 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_020_OFFSET_CHIRAL_CONTACT_CAUSTIC.md` — 3171 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_021_INCOMMENSURATE_CONTACT_RECURRENCE.md` — 3477 bytes — `unclassified`
 - `PUBLIC_SITE/ASSET_MANIFEST.json` — 9217 bytes — `unclassified`
 - `PUBLIC_SITE/BACKEND_PRESENTATION_AUDIT_2026-09-30.md` — 2690 bytes — `unclassified`
 - `PUBLIC_SITE/CURRENT_WORK.json` — 5203 bytes — `unclassified`
@@ -4720,7 +4723,7 @@
 - `PUBLIC_SITE/runtime/page-listen.js` — 5831 bytes — `unclassified`
 - `PUBLIC_SITE/runtime/site-update-packets.js` — 4324 bytes — `unclassified`
 - `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
-- `README.md` — 19853 bytes — `visitor-interface`
+- `README.md` — 19868 bytes — `visitor-interface`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3279.jpeg` — 272895 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3280.jpeg` — 294602 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3283.jpeg` — 734098 bytes — `unclassified`
@@ -4879,8 +4882,8 @@
 - `WORKSPACES/COMMON/30SEP26_INTAKE_ROUTING.md` — 5000 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/NOTEBOOKLM_EXPORTER_TEST.md` — 3390 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/NOTEBOOKLM_EXPORT_PLAN.md` — 4544 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv` — 1052259 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json` — 1815743 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv` — 1052496 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json` — 1816137 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260913T132626Z.csv` — 477729 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260914T162352Z.csv` — 803 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260915T150318Z.csv` — 1855 bytes — `llm-workspace`
@@ -4900,7 +4903,8 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260929T163242Z.csv` — 45 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260930T162605Z.csv` — 432 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261001T170326Z.csv` — 45 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 137 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261002T161757Z.csv` — 432 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 865 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/README.md` — 6063 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/batch_file_stage.py` — 5585 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` — 16923 bytes — `llm-workspace`
@@ -4936,7 +4940,7 @@
 - `WORKSPACES/COMMON/CALDER_GRURPLE_A_POSTING_OBSERVABILITY_CHECK_2026-09-24.md` — 2601 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CALDER_GRURPLE_SHARED_RENDERING_DEFECT_STATE_2026-09-24.md` — 3601 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CALDER_TOOLS_LIBRARY_RECON_2026-09-24.md` — 29232 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md` — 8007 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/CARPE_TURNEM_BOLD_RESEARCH_ARCHITECTURE.md` — 11699 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CARPE_TURNEM_POLICY.md` — 4294 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS.md` — 119539 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/CHECKINS_ALDUS_2026-09-12.md` — 10857 bytes — `llm-workspace`
@@ -4976,6 +4980,7 @@
 - `WORKSPACES/COMMON/DURABLE_PROJECT_DOCUMENTATION_CONVENTION.md` — 6161 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXPLORATION_COMMONS_ROUTER.md` — 4611 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/EXTERNAL_RESEARCH_FIREWALL.md` — 4283 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/FACTORY_FLOORROOM_TODO_2026-10-02.md` — 10639 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FIELD_NOTES/2026-09-20_TERN_VILLARCEAU_HOPF_PARK_WALK.md` — 1715 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FIELD_NOTES/ENTRIES/20260922-1449_MERCER_ruin-gameboards.md` — 2417 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/FIELD_NOTES/ENTRIES/20260922-1452_MERIDIAN_scribal-uncertainty.md` — 1618 bytes — `llm-workspace`
@@ -5020,7 +5025,7 @@
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_097_THREE_SPHERES_COMMON_INTERFACE_INCORPORATION.md` — 5510 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_098_SHARED_4D_PRIMITIVE_FIXTURE.md` — 6689 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN_101_T3_PRIMITIVE_FIXTURE_MANIFEST.json` — 5065 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/MERSEARCH_ASSIGNABLE_UPGRADE_JOB.md` — 9234 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/MERSEARCH_ASSIGNABLE_UPGRADE_JOB.md` — 10462 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERSEARCH_RELEASES.md` — 7988 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` — 282 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/MERSEARCH_RESEARCH_PLATFORM.md` — 14619 bytes — `llm-workspace`
@@ -5503,6 +5508,7 @@
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_B_PROVENANCE_TRANCHE_01.md` — 3248 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_B_PROVENANCE_TRANCHE_03_MERSEARCH_TRIAGE.md` — 5118 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_PROVENANCE_TRANCHE_02_VIEWER_ROUTE.md` — 2955 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-02_IMPEDANCE_TO_CURVATURE_CONSTITUTIVE_BRIDGE.md` — 6571 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-02_NESTED_BRAID_CONFINEMENT_THRESHOLD.md` — 2774 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 5946 bytes — `llm-workspace`
@@ -5770,11 +5776,13 @@
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-01_HELIX_CONTACT_DUTY_CYCLE.md` — 3164 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_CURVATURE_NULL_STRAIN_TOMOGRAPHY.md` — 3405 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_FINITE_CORE_SCALE_SELECTION.md` — 2757 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_LONGITUDINAL_WORLDTUBE_TRANSFER_KERNEL.md` — 5579 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SOLVER_HARNESS/README.md` — 4555 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SOLVER_HARNESS/run099_three_spheres.case.json` — 4517 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SOLVER_HARNESS/run_three_spheres_control.py` — 5299 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SOLVER_HARNESS/solver_case.schema.json` — 2864 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SOLVER_HARNESS/solver_harness.py` — 3864 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SOURCE_BOUNDARY_2026-10-02_ROTATION_EXPANSION_MATTER.md` — 1229 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/TRIAL_CHECKPOINT.md` — 24586 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/WHIRLIGIG_FUNCTIONAL_AUDIT_SPEC_2026-09-19.md` — 6346 bytes — `llm-workspace`
 - `WORKSPACES/MORROW/CORE_TEAM_CONVERSATION_CROSSWALK.md` — 18546 bytes — `llm-workspace`
@@ -5854,14 +5862,34 @@
 - `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md` — 9249 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/README.md` — 5904 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_AMBIENT_BEND_COMMUTATOR_NORMAL_HOLONOMY.md` — 5566 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_BLIND_COMPLEX_POLE_MEMORY_SWEEP.md` — 2088 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_BLIND_MEMORY_TOMOGRAPHY.md` — 5996 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_CAUSAL_MEMORY_KERNEL_EXPONENT_CONTAMINATION.md` — 3474 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_COLLAPSE_ASSISTED_COMPACT_PHASE_SLIP.md` — 7375 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_COMPACT_C3_PHASE_SLIP.md` — 5528 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_CONTACT_OVERLAP_CUSP_LOCKING.md` — 4270 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_CORRELATED_PREDICTIVE_MEMORY_MODEL_SELECTION.md` — 6462 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_DAMPED_HYBRID_MODE_RESOLVABILITY.md` — 8010 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_PARTIAL_COLLAPSE_PHASE_SLIP_SADDLE.md` — 7894 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_PRESYMPLECTIC_FINITE_CORE_GAUGE_REDUCTION.md` — 9079 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_REPEATED_COVARIANCE_SPECTRUM_SELECTION.md` — 6489 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_STABILIZER_PROJECTED_HOLONOMY_CLOSURE_ENERGY.md` — 6041 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_STATIC_DYNAMIC_SUPPORT_INVERSION.md` — 8221 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_SUPPORT_DIMENSION_HOLONOMY_STIFFNESS_SCALING.md` — 7601 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_TRANSPORT_BEFORE_QUOTIENT_FINITE_CORE.md` — 8327 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_TWO_POLE_MEMORY_REJECTION_BOUNDARY.md` — 6108 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_WORLDTUBE_MEDIUM_HYBRID_MODE_SPLITTING.md` — 7643 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_ZERO_RADIUS_PLATEAU_NO_GO.md` — 7851 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/correlated_cv_memory.py` — 6030 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/damped_hybrid_modes.py` — 3843 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/repeated_covariance_spectrum_selection.py` — 8089 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/two_pole_rejection_map.py` — 5088 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/STATE.md` — 6140 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/correlated_cv_memory.svg` — 119029 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/damped_hybrid_mode_regimes.svg` — 189889 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/repeated_covariance_spectrum_selection.svg` — 140220 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/two_pole_rejection_map.svg` — 137582 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/blind_memory_tomography.py` — 4609 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 5749 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/ARCHIVE_REFRESH_2026-09-14.md` — 5199 bytes — `llm-workspace`
 - `WORKSPACES/SABLE/ASSIGNMENT_INSTANCE_ENRICHMENT_STATE_2026-09-18.md` — 5723 bytes — `llm-workspace`
@@ -5941,7 +5969,7 @@
 - `indexes/autotag/conversation-tag-manifest.json` — 3222222 bytes — `generated-catalog`
 - `indexes/autotag/user-message-tags.jsonl` — 72894169 bytes — `generated-catalog`
 - `indexes/change-state.json` — 5411 bytes — `generated-catalog`
-- `indexes/manifests/development-conversation-dates.json` — 795983 bytes — `generated-catalog`
+- `indexes/manifests/development-conversation-dates.json` — 796588 bytes — `generated-catalog`
 - `indexes/manifests/live-conversation-dates.json` — 6223 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/RUN_MANIFEST.json` — 1610 bytes — `generated-catalog`
 - `indexes/mersearch_requests/2026-09-22-ariadne-kirk-riley-human-sim-001/SEARCH_RESULTS.json` — 13862 bytes — `generated-catalog`
