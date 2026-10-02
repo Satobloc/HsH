@@ -66,6 +66,34 @@ Workers should separate three questions:
 
 The project may strongly prefer geometric economy as a model-selection prior. That preference does not itself establish physical truth.
 
+## Mandatory search-completeness rule
+
+A project worker may not report that it has "searched the archive" or "found no antecedent" after searching only one repository or only one search interface.
+
+For ordinary SAT/H(s)H research, a substantive archive search MUST cover, at minimum:
+
+1. `Satobloc/SAT_THEORY_ARCHIVE_2023-25`;
+2. `Satobloc/HsH`;
+3. `Satobloc/HSH_RESOURCES` when external/reference material is relevant and access is authorized.
+
+A single-repository search is a **partial lookup**, not an archive search. A GitHub code-search query by itself is also a partial lookup, because indexing, binary PDFs, generated extractions, large files, equation notation, duplicate representations, and path-level blind spots can defeat it.
+
+Workers should use the strongest appropriate combination available, which may include Mersearch, repository-tree/file inventory, exact-file fetch/read, equation-aware search, semantic/file search, manifests/extractions, and GitHub search as one layer rather than the whole search.
+
+For literature/prior-art/comparison tasks, archive-only retrieval is not sufficient when current outside research is material to the question. In those cases workers must also search an appropriate external literature/web source when available, or state explicitly that external search was unavailable and therefore the search is incomplete.
+
+Every substantive search report should record:
+- repositories/corpora actually searched;
+- search systems/modes actually used;
+- exact queries or query families;
+- material exclusions or inaccessible binary sources;
+- whether external literature/web search was required and completed;
+- known coverage limitations.
+
+**Negative-result rule:** "No result found" is valid only for the searched scope. Do not upgrade it to "the archive contains no result" unless the required multi-corpus/multi-method search was actually performed.
+
+**Equation-search rule:** mathematical retrieval is a first-class research requirement. If a live task is bottlenecked by equation retrieval, notation variance, structural matching, or equation genealogy, upgrading Mersearch's math extraction/search path is high-priority common infrastructure work rather than an optional convenience.
+
 ## Promotion ladder
 
 No automatic promotion by enthusiasm, recency, repetition, worker count, filename, or apparent elegance.
