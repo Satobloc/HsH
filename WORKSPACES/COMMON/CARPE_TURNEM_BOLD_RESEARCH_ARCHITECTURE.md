@@ -94,6 +94,27 @@ Every substantive search report should record:
 
 **Equation-search rule:** mathematical retrieval is a first-class research requirement. If a live task is bottlenecked by equation retrieval, notation variance, structural matching, or equation genealogy, upgrading Mersearch's math extraction/search path is high-priority common infrastructure work rather than an optional convenience.
 
+## Mandatory geometry-visualization rule
+
+When a SAT/H(s)H task materially depends on geometry, topology, projection, intersection, coiling, braiding, shell structure, worldtubes, timesheets, or coordinate/readout choice, workers MUST produce a code-rendered visual check on a regular basis rather than leaving the geometry only in prose/equations.
+
+Minimum standard:
+- use deterministic/scripted rendering whenever practical;
+- render the actual mathematical fixture being discussed, not an illustrative substitute;
+- label assumptions, coordinates, parameters and section/projection choices;
+- prefer simple falsification-oriented views over decorative complexity;
+- include at least one view that makes obvious setup mistakes easy to spot;
+- preserve the script or exact construction recipe with the result;
+- distinguish precision/script-drawn output from illustrative imagery;
+- when a theory run introduces or materially changes a geometric construction, produce a visual in that run unless impossible, and state why if omitted.
+
+Cadence:
+- autonomous theory lanes should emit geometry checks repeatedly, not only at milestones;
+- any sustained geometry-heavy line of work should accumulate a small sequence of comparable renders as parameters/assumptions change;
+- visuals are diagnostic artifacts, not evidence by themselves.
+
+A successful visual check may reveal that the model is set up incorrectly. That is a useful result and should be preserved.
+
 ## Promotion ladder
 
 No automatic promotion by enthusiasm, recency, repetition, worker count, filename, or apparent elegance.
