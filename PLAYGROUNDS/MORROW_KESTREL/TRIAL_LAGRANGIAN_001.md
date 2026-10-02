@@ -356,3 +356,39 @@ Then answer:
 - If you use a polar asymmetric core, is an odd coupling B2_eff=B20+zeta a globally legal on the nonorientable bundle, or must the first coupling be even in a?
 
 Bonus attack: construct an explicit counterexample in which chi=-1 but the complete observable spectrum is identical to chi=+1. If you can, identify exactly what extra material marking or interaction is required before the topological sector becomes physical.
+
+
+## Quarry 008 checkpoint — codimension audit: braid is generally readout, frame parity may survive (2026-10-01)
+
+Provenance this run:
+- Old SAT: SAT_THEORY_ARCHIVE_2023-25/2026/SAT CYCLES 37-50.txt (blob a69db1ec6572ed83e83438d770ebc621e3876767), read through Cycles 37-42 material returned by fetch, especially radial-winding, planetary capture as Order-2 braid, future/historical tension, braid rigidity/smoothing, and nested superhelical substructure.
+- Current HsH: HsH/WORKSPACES/COMMON/PLAYGROUNDS/CALDER_VANE/002_OPEN_INSTANCE_LAGRANGIAN_CHALLENGE_2026-10-01.md (blob b20c0c51ec1192a4edee9ff3c2ca535b5cdada96), read complete file: finite body X=gamma+Fa, resolver integral, Cosserat frame, holonomy closure, and fiber-to-base recursion.
+
+Independent construction:
+The old capture-as-braid claim must pass a codimension audit. A closed centerline S1 embedded in genuine 4D has codimension 3, so ordinary 3D knot/link intuition cannot simply be promoted to a bulk invariant. A braid seen on a resolver/slice can therefore be a readout topology even when the 4D centerlines can pass around one another without bulk reconnection. This sharply separates:
+(1) slice braid/readout;
+(2) material-frame holonomy along a carrier;
+(3) genuine bulk topological obstruction.
+
+For the current HsH state (gamma,F,B), the normal material frame along a closed carrier supplies a more defensible discrete candidate. For an oriented rank-3 normal frame, F(s) is an SO(3) loop when the material frame closes. Since pi_1(SO(3))=Z2, a closed frame loop has parity nu in {0,1}. In the SU(2) lift, a simple m-fold 2pi rotation ends at q(L)=(-1)^m q(0); only m mod 2 survives homotopically. A script explicitly checked m=0..5 endpoint parity.
+
+Thus an old integer-looking twist/braid count should not automatically survive as bulk topology. In the minimal closed-frame sector it may collapse to Z2 unless extra structure (ribbon director, resolver confinement, multiple components, defects, nontrivial base manifold, or a conserved connection/flux) protects more information.
+
+Trial energy for a closed material frame:
+E_F = (C/2) int_0^L ||Omega-Omega0||^2 ds.
+For the simple axial framing F_m(s)=R_axis(2 pi m s/L), Omega0=0:
+E_m = 2 pi^2 C m^2/L.
+But topology identifies only parity. Within fixed parity nu, elastic relaxation can in principle move m -> m±2 without changing the Z2 class if the full SO(3) path is allowed. Therefore integer m is energetic/geometric data; nu=m mod 2 is the candidate topological datum.
+
+This produces a concrete discriminator for ᚼ. If fiber-to-base promotion turns internal frame rotation into centerline coiling, test whether:
+nu_n = [frame-loop parity at order n]
+maps to a morphology while remaining invariant under smooth relaxation. If the next-scale centerline displays an integer winding N but changing m by 2 changes N, then N is not determined by topology alone; ᚼ is using geometric/energetic information beyond the Z2 class.
+
+Failure condition:
+If F is gauge for an isotropic unmarked B and the resolver is orientation-blind, even the Z2 frame parity is physically unreadable. Conversely, if the model claims an integer protected braid number for isolated 1D centerlines in unconstrained R4, it must exhibit the additional structure that prevents the codimension-3 escape.
+
+Solver test:
+Initialize two states with identical gamma, B, energy scale and Z2 parity but m=1 and m=3. Minimize the full finite-core action without allowing material defects. If they relax to the same state/readout, integer twist was not protected. If they remain separated, locate the actual barrier or conserved structure. Repeat m=0 vs m=2. Then enable ᚼ and measure whether the promoted centerline depends on m or only parity.
+
+Challenge:
+Construct a genuine integer-valued topological invariant for the HsH 4D bulk state without silently confining the carrier to a 3D slice. State exactly what objects are embedded (curves, surfaces, tube boundaries, framed curves), their dimensions/codimensions, and the invariant. If no such invariant exists for the minimal carrier, derive which extra HsH structure is minimally sufficient. Then test whether ᚼ preserves that invariant, converts it into geometry, or destroys it.
