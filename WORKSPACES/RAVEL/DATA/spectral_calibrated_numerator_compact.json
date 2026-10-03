@@ -1,0 +1,29 @@
+{
+  "status": "sandbox_identifiability_result_not_physical_prediction",
+  "numerator": "exp(c0 + ca log(a) + cnu log(nu))",
+  "calibration": {
+    "probe_multipliers": [0.45, 1.65],
+    "assumption": "known tared reference denominator",
+    "repeats": 192,
+    "seed_count": 50,
+    "relative_noise": 0.0003,
+    "gain_relative_error_median": 0.0000523176,
+    "gain_relative_error_seed_q975_median": 0.000188371,
+    "gain_relative_error_max": 0.000521431
+  },
+  "blind_width_summary": [
+    {"interval": [0.04, 12.0], "bins": 25, "fast_width_median": 0.115934, "fast_width_u95": 0.117348, "endpoint_mass_u95": 0.0},
+    {"interval": [0.04, 12.0], "bins": 49, "fast_width_median": 0.057769, "fast_width_u95": 0.058550, "endpoint_mass_u95": 0.0},
+    {"interval": [0.04, 12.0], "bins": 97, "fast_width_median": 0.027292, "fast_width_u95": 0.034683, "endpoint_mass_u95": 0.0},
+    {"interval": [0.01, 48.0], "bins": 25, "fast_width_median": 0.105212, "fast_width_u95": 0.106721, "endpoint_mass_u95": 0.0},
+    {"interval": [0.01, 48.0], "bins": 49, "fast_width_median": 0.073185, "fast_width_u95": 0.097225, "endpoint_mass_u95": 0.003156},
+    {"interval": [0.01, 48.0], "bins": 97, "fast_width_median": 0.046863, "fast_width_u95": 0.162459, "endpoint_mass_u95": 0.005087}
+  ],
+  "live_medium_calibration_contamination": {
+    "median_range": [0.000633, 0.002316],
+    "maximum_range": [0.263605, 0.867269],
+    "maximum_phase_rad": 0.987637
+  },
+  "conclusion": "known-load tare preserves native-support contraction but not interval-robust atomicity",
+  "next_test": "add one causal instrumental zero to the numerator and marginalize its calibration uncertainty"
+}
