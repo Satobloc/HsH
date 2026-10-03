@@ -1,0 +1,48 @@
+{
+  "status": "GEN/CANDIDATE conditional inverse-problem result; not a physical prediction",
+  "question": "Does calibrated-zero atomicity survive fourfold-expanded relaxation support?",
+  "only_changed_input": {"support": [0.01, 48.0]},
+  "inherited_protocol": {
+    "seeds": 50,
+    "repeats_per_seed": 192,
+    "bins": [25, 49, 97],
+    "radii": 41,
+    "carrier_frequencies": [0.65, 1.0, 1.55],
+    "relative_complex_noise": 0.0003,
+    "numerator": "exp(c0+ca*log(a)+cnu*log(nu))*(1-i*z*tau_N)",
+    "tau_N_posthoc_truth": 0.4
+  },
+  "results": {
+    "25": {
+      "fast_centroid_median": 0.2486777435292154,
+      "slow_centroid_median": 1.9998414581562396,
+      "fast_mass_median": 0.6000917030565487,
+      "fast_width_median": 0.10543982446846056,
+      "fast_width_q975": 0.10644278714899057,
+      "endpoint_mass_median": 0.0,
+      "endpoint_mass_q975": 0.0
+    },
+    "49": {
+      "fast_centroid_median": 0.24939856313042497,
+      "slow_centroid_median": 1.9998806209685474,
+      "fast_mass_median": 0.6000170236146424,
+      "fast_width_median": 0.07339322524157804,
+      "fast_width_q975": 0.09718313053264155,
+      "endpoint_mass_median": 0.0,
+      "endpoint_mass_q975": 0.003989287469237425
+    },
+    "97": {
+      "fast_centroid_median": 0.24975319177490723,
+      "slow_centroid_median": 1.9999682230422429,
+      "fast_mass_median": 0.5999842382510185,
+      "fast_width_median": 0.04680791381841479,
+      "fast_width_q975": 0.17026654319489332,
+      "endpoint_mass_median": 0.0,
+      "endpoint_mass_q975": 0.005860395307982139
+    }
+  },
+  "decision": "Interval-robust atomicity fails: central centroids, masses, and median width converge, but the fast-width q975 rebounds at 97 bins and endpoint-mass q975 grows under refinement.",
+  "geometric_interpretation": "The exact squared-resolvent residue kernel has weak sensitivity at large tau over much of the radius range, so the rare boundary branch is a candidate measurement-null direction rather than evidence for an additional relaxation channel.",
+  "failure_condition": "A discrete fast channel cannot be claimed interval-robust for this measurement class unless the tail displacement is shown to lie entirely outside the identifiable Jacobian subspace or an independent observable removes it.",
+  "next_dependency": "Construct the calibration-marginalized whitened joint pole/residue Jacobian on the 97-bin wide grid, perform an SVD, and decompose every tail solution into identifiable and null-space components. Add no constitutive mode."
+}
