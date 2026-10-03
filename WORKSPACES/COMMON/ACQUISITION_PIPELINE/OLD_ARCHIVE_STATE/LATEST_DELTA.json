@@ -1,27 +1,27 @@
 {
-  "source_commit": "00f7fb1b9dd5bbcb1004157adb1f381476927df9",
-  "observed_utc": "2026-10-02T16:17:57.250711+00:00",
+  "source_commit": "71c445a1ad96cf74243dcc640e29393aa5fb1bbb",
+  "observed_utc": "2026-10-03T14:45:44.298249+00:00",
   "changes": [
     {
-      "change": "CHANGED",
-      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "88d575f90499fa1cd6350fa9df9034e0276ed34c",
-      "new_blob_sha": "768dbddc467d36202971e4620fd419d160709d2b",
-      "bytes": 2578716
-    },
-    {
-      "change": "CHANGED",
-      "path": "..findex.txt",
-      "old_blob_sha": "daf66565da3856ff1ea41154476454a23d747dab",
-      "new_blob_sha": "ab0d839b3bfc0804fee616d817f20fc9467d381a",
-      "bytes": 208641
-    },
-    {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261002_155317.txt",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261003_034738.txt",
       "old_blob_sha": "",
-      "new_blob_sha": "f2d525015cfd432ad33988d4109a7da58118f142",
-      "bytes": 301
+      "new_blob_sha": "9b4f70f4bfe7e194d4ce9a630eded5d4da21deb0",
+      "bytes": 1669
+    },
+    {
+      "change": "CHANGED",
+      "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
+      "old_blob_sha": "113e811e9ac4377d1ee7fccecc6ef12b27e5eb62",
+      "new_blob_sha": "a5db6c8a29a387cdb4685fac1c0e664f12e37292",
+      "bytes": 174
+    },
+    {
+      "change": "CHANGED",
+      "path": "NATHAN VOICE MODEL.txt",
+      "old_blob_sha": "5e77682d57c4e74ed54468b557c7e7e0ff4f27e9",
+      "new_blob_sha": "bc400a801af810442b470295a3ced32c0f832c38",
+      "bytes": 103517
     }
   ]
 }
