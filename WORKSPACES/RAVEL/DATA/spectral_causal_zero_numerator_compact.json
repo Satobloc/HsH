@@ -1,0 +1,43 @@
+{
+  "status": "sandbox conditional readout-identifiability result; not canonical theory or a physical prediction",
+  "question": "Does native-support spectral atomicity survive per-repeat calibration of one causal instrumental zero?",
+  "model": {
+    "transfer": "H(z;a,nu)=N(z;a,nu)/D(z;a,nu)",
+    "numerator": "N(z;a,nu)=exp(c0+ca*log(a)+cnu*log(nu))*(1-i*z*tau_N)",
+    "tau_N_truth_posthoc": 0.4,
+    "native_support": [0.04, 12.0],
+    "bins": [25, 49, 97],
+    "seeds": 50,
+    "repeats_per_seed": 192,
+    "radii": 41,
+    "nu": [0.65, 1.0, 1.55],
+    "relative_complex_noise": 0.0003
+  },
+  "calibration_recovery": {
+    "coefficient_error": {
+      "c0": {"median": -2.773047625137526e-07, "q025": -7.289187922202012e-06, "q975": 5.1048546419886485e-06},
+      "ca": {"median": -4.0507049633986547e-07, "q025": -1.1995015628725459e-05, "q975": 1.4203453292906116e-05},
+      "cnu": {"median": 4.074976559423349e-06, "q025": -3.6122090577004465e-05, "q975": 3.939393743773305e-05}
+    },
+    "tau_N_error": {"median": -1.7778204634277817e-06, "q025": -1.2384808184219553e-05, "q975": 1.3019996633870101e-05},
+    "median_seed_median_abs_tau_N_repeat_error": 8.248649079514725e-05,
+    "median_seed_q975_abs_tau_N_repeat_error": 0.00027398088679838196,
+    "numerator_relative_error": {"median_of_seed_medians": 0.00023266903260951634, "median_seed_q975": 0.0007078940708690444, "global_max": 0.0016050722604473966}
+  },
+  "native_spectrum": {
+    "25": {"fast_centroid": 0.23149696, "slow_centroid": 1.94909746, "fast_mass": 0.58413115, "slow_mass": 0.41586885, "fast_width_median": 0.1157798123, "fast_width_q025": 0.1145096243, "fast_width_q975": 0.1170611522, "endpoint_mass": 0.0},
+    "49": {"fast_centroid": 0.24839509, "slow_centroid": 1.99552281, "fast_mass": 0.59878693, "slow_mass": 0.40121307, "fast_width_median": 0.0578103571, "fast_width_q025": 0.0572983483, "fast_width_q975": 0.0584373881, "endpoint_mass": 0.0},
+    "97": {"fast_centroid": 0.24937254, "slow_centroid": 1.99808774, "fast_mass": 0.59944967, "slow_mass": 0.40055033, "fast_width_median": 0.0276023599, "fast_width_q025": 0.0256582030, "fast_width_q975": 0.0368147926, "endpoint_mass": 0.0}
+  },
+  "gain_only_contamination": [
+    {"nu": 0.65, "beta": 0.45, "median_abs_error": 0.21361, "max_abs_error": 1.17, "max_phase_rad": 0.86358},
+    {"nu": 0.65, "beta": 1.65, "median_abs_error": 0.78324, "max_abs_error": 4.29, "max_phase_rad": 1.34179},
+    {"nu": 1.0, "beta": 0.45, "median_abs_error": 0.32863, "max_abs_error": 1.8, "max_phase_rad": 1.06370},
+    {"nu": 1.0, "beta": 1.65, "median_abs_error": 1.20499, "max_abs_error": 6.6, "max_phase_rad": 1.42042},
+    {"nu": 1.55, "beta": 0.45, "median_abs_error": 0.50938, "max_abs_error": 2.79, "max_phase_rad": 1.22664},
+    {"nu": 1.55, "beta": 1.65, "median_abs_error": 1.86773, "max_abs_error": 10.23, "max_phase_rad": 1.47335}
+  ],
+  "result": "Native-support atomicity survives calibrated causal-zero marginalization: both median and q975 fast-sector log-width contract monotonically and endpoint leakage is zero at all three resolutions.",
+  "failure_condition": "The interval-robust claim fails if the unchanged expanded support [0.01,48] restores noncontracting q975 width or endpoint leakage, or if calibration and live measurements do not share the same numerator transfer.",
+  "next_dependency": "Run only expanded-support 25/49/97 grids with the same 50 seeds and calibrated zero; add no readout or material mode."
+}
