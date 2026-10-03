@@ -1,0 +1,86 @@
+{
+  "status": "STD/DERIVED for declared measures and top-hat readout; SAT/CANDIDATE as finite-core discriminator",
+  "question": "How much independent centering error can the covariance-matched B3/S2 aperture test tolerate, and when do two displaced views help?",
+  "covariance_matched_s2_radius_over_b3_radius": 0.7745966692414834,
+  "control_zero_error_joint_u95": 0.019029522168779844,
+  "single_setting_robust_rule": "t=h/R=sqrt(3/5)+delta makes S2 occupancy one for every |u|<=delta",
+  "single_192_delta_boundary": 0.03627891648365222,
+  "single_boundary_kind": "analytic full-S2-capture rule",
+  "single_boundary_pass": {
+    "delta": 0.03627891648365222,
+    "t": 0.8108755857251356,
+    "p_b_range": [
+      0.9310740005275059,
+      0.9326139359713815
+    ],
+    "p_s_range": [
+      0.9809704778312202,
+      0.9809704778312202
+    ],
+    "max_error": 0.049999999999996714,
+    "threshold": 185,
+    "error_if_b3": 0.049999999999996714,
+    "error_if_s2": 0.031701536894557944
+  },
+  "single_boundary_fail": {
+    "delta": 0.036278916483654486,
+    "t": 0.8108755857251378,
+    "p_b_range": [
+      0.9310740005275068,
+      0.9326139359713825
+    ],
+    "p_s_range": [
+      0.9809704778312202,
+      0.9809704778312202
+    ],
+    "max_error": 0.05000000000000202,
+    "threshold": 185,
+    "error_if_b3": 0.05000000000000202,
+    "error_if_s2": 0.031701536894557944
+  },
+  "single_dense_grid_candidate": {
+    "delta": 0.03891441226005554,
+    "t": 0.8105,
+    "p_b_range": [
+      0.9306571880085961,
+      0.9324281679608459
+    ],
+    "p_s_range": [
+      0.9791008063414084,
+      0.9809704778312202
+    ],
+    "max_error": 0.04999999007514722,
+    "threshold": 185,
+    "error_if_b3": 0.04902243039171529,
+    "error_if_s2": 0.04999999007514722
+  },
+  "two_view_frozen_design": {
+    "delta": 0.08,
+    "t": 0.8025,
+    "centers": [
+      -0.0525,
+      0.0525
+    ]
+  },
+  "two_view_same_total_192": {
+    "delta": 0.08,
+    "t": 0.8025,
+    "command_offset": 0.0525,
+    "repeats_each_setting": 96,
+    "max_error": 0.13836354835591647,
+    "error_if_b3": 0.13836354835591647,
+    "error_if_s2": 0.11973105934953088,
+    "profile_score_threshold": 0.8740529806765593
+  },
+  "two_view_expanded_total_384": {
+    "delta": 0.08,
+    "t": 0.8025,
+    "command_offset": 0.0525,
+    "repeats_each_setting": 192,
+    "max_error": 0.04891632018047185,
+    "error_if_b3": 0.04800947341100237,
+    "error_if_s2": 0.04891632018047185,
+    "profile_score_threshold": 0.9018870739179548
+  },
+  "failure_condition": "No guarantee if the independently certified centering bound is exceeded, the response is not a linear top-hat, or measured control errors exceed the inserted guard."
+}
