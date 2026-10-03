@@ -61,6 +61,8 @@ The added frequency axis materially improves the inverse but does **not** earn a
 
 The orthogonal frequency coordinate is informative: it sharply suppresses boundary leakage and improves sector location. It still does not distinguish a narrow continuous band from an atom in the worst 2.5% of noise realizations. The surviving noncontraction is a property of this pole-location readout/inverse pair, not evidence that the underlying worldtube morphology itself is broad.
 
+**Unresolved design choice:** only one untuned three-frequency placement was tested. The multipliers are known controls, not fitted parameters, but their placement is still an intervention choice; no claim of optimal frequency design is made.
+
 **Failure condition:** declare atom recovery unsupported whenever the physical-width upper bound fails to decrease under grid refinement, even if centroid and mass are accurate. This run fails that condition on both intervals.
 
 ## Discriminator / experiment candidate
