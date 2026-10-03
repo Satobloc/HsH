@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-10-02T20:24:19+00:00`
-- Tree/content state: `4c50313ebde9d2b74df68a5623df7db17c7b3699885fd68eed7ff996d0268ae9`
-- Coverage: 4136 files, 224 directories
+- Scanned: `2026-10-03T11:03:24+00:00`
+- Tree/content state: `6e8fb364c0760145d4727e54f80a4632236b0d67607a47ca058a1b52252c33f4`
+- Coverage: 4188 files, 227 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -28,14 +28,14 @@
 | `LIVE CONVOS` | 37 |
 | `NEW_PAPERS` | 4 |
 | `ONBOARDING` | 1 |
-| `PLAYGROUNDS` | 2 |
+| `PLAYGROUNDS` | 5 |
 | `PUBLIC_SITE` | 144 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 1084 |
+| `WORKSPACES` | 1133 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -64,23 +64,23 @@
 | `.jpeg` | 102 |
 | `.jpg` | 49 |
 | `.js` | 16 |
-| `.json` | 762 |
+| `.json` | 771 |
 | `.jsonl` | 19 |
 | `.lean` | 3 |
 | `.m4a` | 1 |
 | `.marker` | 1 |
-| `.md` | 1121 |
+| `.md` | 1148 |
 | `.mhtml` | 3 |
 | `.mjs` | 1 |
 | `.nb` | 3 |
 | `.npz` | 3 |
 | `.pdf` | 92 |
 | `.png` | 201 |
-| `.py` | 177 |
+| `.py` | 186 |
 | `.rtf` | 2 |
 | `.scsyndef` | 1 |
 | `.srt` | 4 |
-| `.svg` | 12 |
+| `.svg` | 19 |
 | `.tex` | 6 |
 | `.text` | 1 |
 | `.toml` | 5 |
@@ -104,12 +104,12 @@
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 1084 |
+| `llm-workspace` | 1133 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 2499 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 5 |
-| `unclassified` | 364 |
+| `unclassified` | 367 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -4578,6 +4578,9 @@
 - `ONBOARDING/ARCHIVE_TOOLS_ROAMING_CARD.md` — 4803 bytes — `unclassified`
 - `PLAYGROUNDS/MORROW_KESTREL/QUARRY_020_OFFSET_CHIRAL_CONTACT_CAUSTIC.md` — 3171 bytes — `unclassified`
 - `PLAYGROUNDS/MORROW_KESTREL/QUARRY_021_INCOMMENSURATE_CONTACT_RECURRENCE.md` — 3477 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_026_LOCALIZED_HOLONOMY_DEFECT.md` — 2307 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_036_EXACT_JACOBIAN_BALANCED_POINT.md` — 3560 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_039_FRAMED_TOPOLOGY_BOOKKEEPING_REPAIR.md` — 2241 bytes — `unclassified`
 - `PUBLIC_SITE/ASSET_MANIFEST.json` — 9217 bytes — `unclassified`
 - `PUBLIC_SITE/BACKEND_PRESENTATION_AUDIT_2026-09-30.md` — 2690 bytes — `unclassified`
 - `PUBLIC_SITE/CURRENT_WORK.json` — 5203 bytes — `unclassified`
@@ -5046,7 +5049,7 @@
 - `WORKSPACES/COMMON/NATHAN_ON_TOOLS_LIBRARY_DIRECTIVE_2026-09-24.md` — 2821 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_PINPOINT_SIGNOFF_DOCKET.md` — 3875 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_TOKEN_SEMANTIC_HOLD_RULE.md` — 1517 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 257742 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md` — 259629 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WANTS_INTAKE_STANDARD.md` — 3883 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WANTS_LEDGER.md` — 10274 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/NATHAN_WORDS_THEORIST_FEED/2026-09-22_ASTER_GRURPLE_A_ORIGIN_STRATIGRAPHY_PACKET.md` — 6740 bytes — `llm-workspace`
@@ -5508,8 +5511,18 @@
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_B_PROVENANCE_TRANCHE_01.md` — 3248 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_B_PROVENANCE_TRANCHE_03_MERSEARCH_TRIAGE.md` — 5118 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-09-22_GRURPLE_PROVENANCE_TRANCHE_02_VIEWER_ROUTE.md` — 2955 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-02_DYNAMIC_SKIN_DEPTH_INVERSE_MAP.md` — 7454 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-02_FOLD_LOCK_BACKREACTION_LAW.md` — 5127 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-02_HELIX_SIMILARITY_RENORMALIZATION_CONDITION.md` — 6078 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-02_IMPEDANCE_TO_CURVATURE_CONSTITUTIVE_BRIDGE.md` — 6571 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-02_NESTED_BRAID_CONFINEMENT_THRESHOLD.md` — 2774 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_DIMENSIONAL_STRESS_CARRIER_GREEN_FUNCTIONS.md` — 10337 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_GRAPH_LAPLACIAN_INTERBRAID_SPECTROSCOPY.md` — 5071 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_MASS_ELASTICITY_SOFT_MODE_CONSTRAINT.md` — 4910 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_PHASE_MATCHED_FINITE_WAVELENGTH_SELECTION.md` — 4246 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_RECIPROCAL_FILAMENT_TIMESHEET_NORMAL_MODES.md` — 6181 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_SYMMETRY_SEPARATION_ELECTROGRAVITY_INTERBRAID_MODES.md` — 4423 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-03_TENSION_BENDING_TIMESHEET_FLAT_CURVE_KERNEL.md` — 4338 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CONTINUITY.md` — 5946 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/CROSS_SOURCE_INTEGRITY_VALIDATOR_FEASIBILITY_2026-09-14.md` — 8542 bytes — `llm-workspace`
@@ -5804,6 +5817,11 @@
 - `WORKSPACES/NADIR_VOSS/README.md` — 3588 bytes — `llm-workspace`
 - `WORKSPACES/NADIR_VOSS/sim4_and_carrier_probe.py` — 3779 bytes — `llm-workspace`
 - `WORKSPACES/NADIR_VOSS/stacked_holonomy_commutator_probe.py` — 1910 bytes — `llm-workspace`
+- `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-02_CONSTITUTIVE_IDENTITY_RECURSIVE_AGGREGATION.md` — 5763 bytes — `llm-workspace`
+- `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-02_FOLD_CAUSTIC_READOUT_STATISTICS.md` — 2488 bytes — `llm-workspace`
+- `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-02_READOUT_ENTROPY_SINGULAR_VALUE_FLOW.md` — 4716 bytes — `llm-workspace`
+- `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-02_READOUT_NULLSPACE_MINIMAL_APPARATUS.md` — 3898 bytes — `llm-workspace`
+- `WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_FINITE_CORE_DEFORMATION_CLOCK.md` — 3532 bytes — `llm-workspace`
 - `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R0.md` — 19762 bytes — `llm-workspace`
 - `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md` — 15457 bytes — `llm-workspace`
 - `WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/EXTERNAL_SOURCE_NORMALIZATION_2026-09-22.md` — 3071 bytes — `llm-workspace`
@@ -5853,7 +5871,21 @@
 - `WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/TERN_R1_INCORPORATION_FIDELITY_CHECK_2026-09-23.md` — 5097 bytes — `llm-workspace`
 - `WORKSPACES/PAPERS/GRURPLE_A_PROVENANCE/2026-09-23_DEC28_PUBLIC_ARCHIVE_RELEASE_ANCHOR.md` — 3482 bytes — `llm-workspace`
 - `WORKSPACES/PODCAST_LAB/README.md` — 6488 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CODE/spectral_calibrated_numerator.py` — 9049 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CODE/spectral_causal_zero_expanded_support.py` — 6022 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CODE/spectral_causal_zero_numerator.py` — 10494 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CODE/spectral_joint_location_residue.py` — 9335 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/CODE/spectral_joint_radius_frequency.py` — 10672 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/CONTINUITY.md` — 23831 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/nonparametric_positive_spectrum_cv.json` — 10892 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/repeat_count_identifiability_boundary.json` — 78752 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_calibrated_numerator_compact.json` — 1665 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_causal_zero_expanded_support_compact.json` — 2531 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_causal_zero_numerator_compact.json` — 3471 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_grid_refinement_stability.json` — 34292 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_joint_location_residue_compact.json` — 2058 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_joint_radius_frequency_summary.json` — 54137 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/DATA/spectral_lambda_path_ensemble_summary.json` — 28302 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/INBOX.md` — 621 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/KERR_PARTICLE_REGIME_COLLISION_2026-09-16.md` — 7746 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/KERR_SCALE_SLICE_TRIANGULATION_2026-09-16.md` — 6168 bytes — `llm-workspace`
@@ -5870,24 +5902,44 @@
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_CONTACT_OVERLAP_CUSP_LOCKING.md` — 4270 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_CORRELATED_PREDICTIVE_MEMORY_MODEL_SELECTION.md` — 6462 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_DAMPED_HYBRID_MODE_RESOLVABILITY.md` — 8010 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_LAMBDA_PATH_ENSEMBLE_IDENTIFIABILITY.md` — 7555 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_NONPARAMETRIC_POSITIVE_SPECTRUM_COLLAPSE.md` — 7180 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_ORTHOGONAL_FREQUENCY_AUGMENTATION.md` — 5755 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_PARTIAL_COLLAPSE_PHASE_SLIP_SADDLE.md` — 7894 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_POLE_RESIDUE_SPECTRAL_IDENTIFIABILITY.md` — 7002 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_PRESYMPLECTIC_FINITE_CORE_GAUGE_REDUCTION.md` — 9079 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_REPEATED_COVARIANCE_SPECTRUM_SELECTION.md` — 6489 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_REPEAT_COUNT_IDENTIFIABILITY_BOUNDARY.md` — 6902 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_SPECTRAL_GRID_REFINEMENT_STABILITY.md` — 6409 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_STABILIZER_PROJECTED_HOLONOMY_CLOSURE_ENERGY.md` — 6041 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_STATIC_DYNAMIC_SUPPORT_INVERSION.md` — 8221 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_SUPPORT_DIMENSION_HOLONOMY_STIFFNESS_SCALING.md` — 7601 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-02_TARED_NUMERATOR_CALIBRATION.md` — 6820 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_TRANSPORT_BEFORE_QUOTIENT_FINITE_CORE.md` — 8327 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_TWO_POLE_MEMORY_REJECTION_BOUNDARY.md` — 6108 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_WORLDTUBE_MEDIUM_HYBRID_MODE_SPLITTING.md` — 7643 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SANDBOX_2026-10-02_ZERO_RADIUS_PLATEAU_NO_GO.md` — 7851 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-03_CAUSAL_ZERO_EXPANDED_SUPPORT.md` — 5260 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SANDBOX_2026-10-03_CAUSAL_ZERO_NATIVE_ATOMICITY.md` — 5078 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SCRIPTS/correlated_cv_memory.py` — 6030 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SCRIPTS/damped_hybrid_modes.py` — 3843 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/nonparametric_positive_spectrum_cv.py` — 7790 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/repeat_count_identifiability_boundary.py` — 6675 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SCRIPTS/repeated_covariance_spectrum_selection.py` — 8089 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/spectral_grid_refinement_stability.py` — 10616 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/SCRIPTS/spectral_lambda_path_ensemble.py` — 11294 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/SCRIPTS/two_pole_rejection_map.py` — 5088 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/STATE.md` — 6140 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/VISUALS/correlated_cv_memory.svg` — 119029 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/VISUALS/damped_hybrid_mode_regimes.svg` — 189889 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/nonparametric_positive_spectrum_cv.svg` — 105328 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/repeat_count_identifiability_boundary.svg` — 85424 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/VISUALS/repeated_covariance_spectrum_selection.svg` — 140220 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/spectral_causal_zero_expanded_support.svg` — 148448 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/spectral_causal_zero_numerator.svg` — 125891 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/spectral_grid_refinement_stability.svg` — 170205 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/spectral_joint_radius_frequency.svg` — 137054 bytes — `llm-workspace`
+- `WORKSPACES/RAVEL/VISUALS/spectral_lambda_path_ensemble.svg` — 157121 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/VISUALS/two_pole_rejection_map.svg` — 137582 bytes — `llm-workspace`
 - `WORKSPACES/RAVEL/blind_memory_tomography.py` — 4609 bytes — `llm-workspace`
 - `WORKSPACES/README.md` — 5749 bytes — `llm-workspace`
