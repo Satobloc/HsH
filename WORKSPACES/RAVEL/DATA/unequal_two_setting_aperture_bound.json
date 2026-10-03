@@ -1,0 +1,120 @@
+{
+  "status": "STD/DERIVED conditional on declared measures/readout; SAT/CANDIDATE as carrier discriminator",
+  "question": "Can any fully unequal two-setting design reach 5% composite error at delta/R=0.08 with total N=192?",
+  "constants": {
+    "total_N": 192,
+    "delta_over_R": 0.08,
+    "s2_radius_over_b3_radius": 0.7745966692414834,
+    "control_guard_e": 0.019029522168779844
+  },
+  "search_box": {
+    "t": [
+      0.08,
+      1.12
+    ],
+    "c_over_R": [
+      -0.3,
+      0.3
+    ],
+    "allocation_fraction": [
+      0.05,
+      0.95
+    ],
+    "de_seeds": 6
+  },
+  "surrogate_multistart": [
+    {
+      "worst_log_affinity": -0.8349270122639043,
+      "design": [
+        0.8029425478231239,
+        0.05165411695132348,
+        0.8036943950706572,
+        -0.050902268881014984,
+        0.49712621299715243
+      ]
+    },
+    {
+      "worst_log_affinity": -0.8349268820643998,
+      "design": [
+        0.8029427125571578,
+        0.05165395604890869,
+        0.803694237365091,
+        -0.050902446013298026,
+        0.497127322496883
+      ]
+    },
+    {
+      "worst_log_affinity": -0.8349268335461174,
+      "design": [
+        0.8029430708437245,
+        0.051653592856645544,
+        0.8036938858154118,
+        -0.050902778981398125,
+        0.49713010468468527
+      ]
+    },
+    {
+      "worst_log_affinity": -0.8349186475795355,
+      "design": [
+        0.802947240987982,
+        0.051650024698776796,
+        0.80369093472083,
+        -0.05090721524379995,
+        0.4971577585546054
+      ]
+    },
+    {
+      "worst_log_affinity": -0.6561374708557131,
+      "design": [
+        0.8545966534349566,
+        3.726920531805104e-08,
+        0.8545966678803931,
+        -1.3383855664133824e-09,
+        0.055675691123290176
+      ]
+    },
+    {
+      "worst_log_affinity": -0.6353650080374356,
+      "design": [
+        0.37554557984739256,
+        0.00023833748760622163,
+        0.8545966694734857,
+        3.176848117902864e-10,
+        0.05000000351150835
+      ]
+    }
+  ],
+  "best_design": {
+    "t1": 0.8545966694250458,
+    "c1": 2.4092194905733775e-11,
+    "t2": 0.8545966696034846,
+    "c2": -4.063071212812019e-10,
+    "n1": 92,
+    "n2": 100
+  },
+  "architecture_note": "The exact-risk winner collapsed to coincident equal-thickness settings; the nominal split survives only as an ancillary randomization device, not a second geometric view.",
+  "exact_profile_minimax": {
+    "n1": 92,
+    "n2": 100,
+    "max_error": 0.12883547386390615,
+    "error_if_b3": 0.12872635508194186,
+    "error_if_s2": 0.12883547386390615,
+    "profile_score_threshold": 0.028555098435559145
+  },
+  "simple_pair_information_lower_bound": {
+    "affinity": 0.5188515112478878,
+    "bayes_error_lower_bound": 0.07256780968328352,
+    "worst_pair_u_b3": 0.0,
+    "worst_pair_u_s2": -0.08
+  },
+  "symmetric_previous_design": {
+    "n1": 96,
+    "n2": 96,
+    "max_error": 0.13836358763464607,
+    "error_if_b3": 0.13836358763464607,
+    "error_if_s2": 0.11973105934953089,
+    "profile_score_threshold": 0.8740465485051638
+  },
+  "numerical_closure": "No passing design if exact risk exceeds 0.05; this is a multistart numerical closure over the declared box, not an analytic global impossibility theorem.",
+  "failure_condition": "Closure fails outside the design box, for non-top-hat response, drifting offsets, unguarded controls, or carriers other than the declared uniform B3/S2 measures."
+}
