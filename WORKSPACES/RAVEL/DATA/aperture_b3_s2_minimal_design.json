@@ -1,0 +1,84 @@
+{
+  "status": "STD/DERIVED for declared uniform measures and binary top-hat readout; SAT/CANDIDATE as finite-core discriminator",
+  "question": "What is the smallest preregistered resolver-thickness set that discriminates covariance-matched B3 and S2 carriers at 95% with 192 repeats?",
+  "b3_radius": 1.0,
+  "s2_covariance_matched_radius": 0.7745966692414834,
+  "covariance_identity": "R_B3^2/5 = r_S2^2/3",
+  "occupancy_b3": "M_B3(t)=3t/2-t^3/2 for 0<=t<=1",
+  "occupancy_s2": "M_S2(t)=min(1,t/sqrt(3/5))",
+  "forced_single_thickness": "t=h/(|a|R_B3)=sqrt(3/5)",
+  "sampling_budget": {
+    "specimen_at_forced_thickness": 192,
+    "empty_tare": 192,
+    "full_capture_control": 192
+  },
+  "alpha_each_hypothesis": 0.05,
+  "zero_error_control_bonferroni_joint_u95": 0.019029522168779844,
+  "control_guard_model": "p_obs=beta+(1-beta-eta)M with beta=eta=zero-error U95",
+  "at_forced_thickness": {
+    "t": 0.7745966692414834,
+    "m_b3": 0.9295160030897801,
+    "m_s2": 1.0,
+    "occupancy_gap": 0.07048399691021989,
+    "ideal": {
+      "max_error": 8.041170634214617e-07,
+      "threshold_count": 192,
+      "error_if_b3": 8.041170634214617e-07,
+      "error_if_s2": 0.0
+    },
+    "p_b3_guarded": 0.9131690344844947,
+    "p_s2_guarded": 0.9809704778312202,
+    "guarded": {
+      "max_error": 0.012086209083160264,
+      "threshold_count": 184,
+      "error_if_b3": 0.012086209083160264,
+      "error_if_s2": 0.011894058964299696
+    }
+  },
+  "grid_best_ideal": {
+    "t": 0.7746145992853497,
+    "m_b3": 0.9295267607425634,
+    "m_s2": 1.0,
+    "gap": 0.07047323925743665,
+    "ideal": {
+      "max_error": 8.059058612237058e-07,
+      "threshold_count": 192,
+      "error_if_b3": 8.059058612237058e-07,
+      "error_if_s2": 0.0
+    },
+    "guarded": {
+      "max_error": 0.012100895063671863,
+      "threshold_count": 184,
+      "error_if_b3": 0.012100895063671863,
+      "error_if_s2": 0.011894058964299696
+    },
+    "p_b3_guarded": 0.9131793827112937,
+    "p_s2_guarded": 0.9809704778312202
+  },
+  "grid_best_guarded": {
+    "t": 0.7746145992853497,
+    "m_b3": 0.9295267607425634,
+    "m_s2": 1.0,
+    "gap": 0.07047323925743665,
+    "ideal": {
+      "max_error": 8.059058612237058e-07,
+      "threshold_count": 192,
+      "error_if_b3": 8.059058612237058e-07,
+      "error_if_s2": 0.0
+    },
+    "guarded": {
+      "max_error": 0.012100895063671863,
+      "threshold_count": 184,
+      "error_if_b3": 0.012100895063671863,
+      "error_if_s2": 0.011894058964299696
+    },
+    "p_b3_guarded": 0.9131793827112937,
+    "p_s2_guarded": 0.9809704778312202
+  },
+  "guarded_passing_interval": [
+    0.7606217457886677,
+    0.8105962225625319
+  ],
+  "minimum_discriminating_thickness_count": 1,
+  "failure_condition": "the preregistered single setting fails if either exact error exceeds 0.05 after control-calibrated beta/eta are inserted, or if the resolver is not a centered linear top-hat"
+}
