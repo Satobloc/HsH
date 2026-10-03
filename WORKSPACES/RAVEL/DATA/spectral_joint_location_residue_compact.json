@@ -1,0 +1,28 @@
+{
+  "status": "sandbox_identifiability_result_not_physical_prediction",
+  "observable": "joint_pole_location_and_unit_forcing_complex_residue",
+  "residue_identity": "-R^-1-2z = i a^q integral[dmu(tau)/(1-i z tau)^2]",
+  "identity_max_abs_error": 5.75e-15,
+  "fixture": {
+    "q": 2.4,
+    "frequency_multipliers": [0.65, 1.0, 1.55],
+    "radii": 41,
+    "repeats": 192,
+    "seeds": [740000, 740049],
+    "seed_count": 50,
+    "relative_noise": 0.0003,
+    "true_tau_posthoc": [0.25, 2.0],
+    "true_mass_split_posthoc": [0.6, 0.4]
+  },
+  "blind_summary": [
+    {"interval": [0.04, 12.0], "bins": 25, "fast_width_median": 0.116166, "fast_width_u95": 0.117298, "slow_width_median": 0.113702, "slow_width_u95": 0.113853, "endpoint_mass_u95": 0.0},
+    {"interval": [0.04, 12.0], "bins": 49, "fast_width_median": 0.057681, "fast_width_u95": 0.058370, "slow_width_median": 0.035153, "slow_width_u95": 0.035417, "endpoint_mass_u95": 0.0},
+    {"interval": [0.04, 12.0], "bins": 97, "fast_width_median": 0.027296, "fast_width_u95": 0.032170, "slow_width_median": 0.022451, "slow_width_u95": 0.022588, "endpoint_mass_u95": 0.0},
+    {"interval": [0.01, 48.0], "bins": 25, "fast_width_median": 0.104994, "fast_width_u95": 0.106525, "slow_width_median": 0.013404, "slow_width_u95": 0.014622, "endpoint_mass_u95": 0.0},
+    {"interval": [0.01, 48.0], "bins": 49, "fast_width_median": 0.072842, "fast_width_u95": 0.099021, "slow_width_median": 0.009657, "slow_width_u95": 0.307081, "endpoint_mass_u95": 0.003821},
+    {"interval": [0.01, 48.0], "bins": 97, "fast_width_median": 0.046425, "fast_width_u95": 0.188537, "slow_width_median": 0.007259, "slow_width_u95": 0.390578, "endpoint_mass_u95": 0.006208}
+  ],
+  "conclusion": "first clean native-interval atomicity pass; no interval-robust atomicity",
+  "earliest_unsupported_edge": "unknown transfer-function numerator N(a,nu,z)",
+  "next_test": "fit a preregistered separable numerator calibrated by two off-resonance complex samples per channel; rerun identical seeds and grids before adding constitutive modes"
+}
