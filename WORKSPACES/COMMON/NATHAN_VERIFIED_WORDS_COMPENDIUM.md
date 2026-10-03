@@ -2797,3 +2797,22 @@ All passages below are standalone raw mapping messages with `message.author.role
 ---
 
 **Next cursor:** strictly after `aaa20385-4291-4096-94f5-881e1e975a0d` (2024-03-23 03:44:11.958 EDT).
+
+
+---
+
+## Voice-model exemplar harvesting rule — 2026-10-02
+
+The verified-word corpus is also an upstream source for Nathan voice-model calibration.
+
+**Standing rule:** when a passage is unusually diagnostic of a Nathan register, cadence, reasoning mode, correction pattern, tonal collision, or sustained flow-state, flag it as a **VOICE EXEMPLAR CANDIDATE** and route/reference it to the current Nathan voice-model exemplar set.
+
+This is not limited to polished or flattering passages. Preserve representative failures, reversals, vulgarity, technical explanation, self-correction, mock rigor, reflective monologue, abrupt register shifts, and other high-diagnosticity material when authorship/provenance is secure.
+
+**Use rule:** substantial Nathan-voice generation should not rely on an abstract style description alone. Before use, review the applicable voice model plus **3–6 direct Nathan-authored exemplar passages**, including at least one sustained passage. Whole turns/exchanges are preferred when setup and cadence matter.
+
+**Provenance rule:** keep the original wording intact. Voice-model annotations are separate from source text. Record source path/message ID/date where available, authorship confidence, register tags, and any public/private/quarantine constraint.
+
+**Quarantine rule:** material may be indexed as a candidate from quarantined/private sources only under the permissions and privacy rules governing that source. Candidate status does not authorize publication or public reuse.
+
+**Current inaugural new exemplar family:** `Experimental protocol / recursive mock-rigor` (2026-10-02), characterized by a real conceptual problem being instantiated into a physical protocol whose controls recursively generate further controls while the geometry remains operative inside the joke. The voice-model record holds the current register note and excerpt anchors.
