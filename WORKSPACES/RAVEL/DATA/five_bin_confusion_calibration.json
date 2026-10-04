@@ -1,0 +1,135 @@
+{
+  "status": "STD/DERIVED conditional Monte Carlo; SAT/CANDIDATE detector protocol",
+  "question": "How many labelled calibration events per true bin preserve the five-bin B3/S2 discriminator at eta=0.016?",
+  "protocol": {
+    "true_matrix": [
+      [
+        0.99048523891561,
+        0.009514761084389922,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.009514761084389922,
+        0.9809704778312202,
+        0.009514761084389922,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.009514761084389922,
+        0.9809704778312202,
+        0.009514761084389922,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.009514761084389922,
+        0.9809704778312202,
+        0.009514761084389922
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.009514761084389922,
+        0.99048523891561
+      ]
+    ],
+    "row_estimator": "Jeffreys posterior mean (n_ij+1/2)/(m+5/2)",
+    "N_test": 192,
+    "eta": 0.016,
+    "offset_bound": 0.08,
+    "profile_grid": [
+      41,
+      17
+    ],
+    "audited_cells": {
+      "B3": [
+        0.0,
+        1.016
+      ],
+      "S2": [
+        0.08,
+        0.984
+      ]
+    },
+    "calibration_matrices_for_threshold": 180,
+    "test_repeats_per_matrix_for_threshold": 120,
+    "validation_matrices": 400,
+    "test_repeats_per_matrix_validation": 250
+  },
+  "results": [
+    {
+      "m_per_row": 250,
+      "total_calibration_events": 1250,
+      "threshold": -1.9808290077772455,
+      "calibration_joint_max_error": 0.06523148148148149,
+      "validation_b3_error": 0.06727999999999999,
+      "validation_s2_error": 0.06846000000000001,
+      "validation_max_error": 0.06846000000000001,
+      "cluster_95_upper": 0.07211663329460695,
+      "validation_trials_per_candidate": 100000
+    },
+    {
+      "m_per_row": 500,
+      "total_calibration_events": 2500,
+      "threshold": -1.456099079051711,
+      "calibration_joint_max_error": 0.05439814814814815,
+      "validation_b3_error": 0.056760000000000005,
+      "validation_s2_error": 0.056690000000000004,
+      "validation_max_error": 0.056760000000000005,
+      "cluster_95_upper": 0.05909183098401813,
+      "validation_trials_per_candidate": 100000
+    },
+    {
+      "m_per_row": 1000,
+      "total_calibration_events": 5000,
+      "threshold": -1.1566101898361296,
+      "calibration_joint_max_error": 0.05018518518518519,
+      "validation_b3_error": 0.04926,
+      "validation_s2_error": 0.05188000000000001,
+      "validation_max_error": 0.05188000000000001,
+      "cluster_95_upper": 0.05381634113856839,
+      "validation_trials_per_candidate": 100000
+    },
+    {
+      "m_per_row": 2500,
+      "total_calibration_events": 12500,
+      "threshold": -0.8116312075684178,
+      "calibration_joint_max_error": 0.04546296296296296,
+      "validation_b3_error": 0.04715,
+      "validation_s2_error": 0.04444000000000001,
+      "validation_max_error": 0.04715,
+      "cluster_95_upper": 0.048442382893673405,
+      "validation_trials_per_candidate": 100000
+    },
+    {
+      "m_per_row": 5000,
+      "total_calibration_events": 25000,
+      "threshold": -0.8230442132610776,
+      "calibration_joint_max_error": 0.046481481481481485,
+      "validation_b3_error": 0.045739999999999996,
+      "validation_s2_error": 0.04632,
+      "validation_max_error": 0.04632,
+      "cluster_95_upper": 0.04774888258931064,
+      "validation_trials_per_candidate": 100000
+    },
+    {
+      "m_per_row": 10000,
+      "total_calibration_events": 50000,
+      "threshold": -0.807406442967519,
+      "calibration_joint_max_error": 0.0450462962962963,
+      "validation_b3_error": 0.0441,
+      "validation_s2_error": 0.04641,
+      "validation_max_error": 0.04641,
+      "cluster_95_upper": 0.04770816001176294,
+      "validation_trials_per_candidate": 100000
+    }
+  ],
+  "first_passing_grid_value": 2500,
+  "conclusion": "Selected-cell joint Monte Carlo only; not a continuum nuisance guarantee or a substitute for a measured detector matrix."
+}
