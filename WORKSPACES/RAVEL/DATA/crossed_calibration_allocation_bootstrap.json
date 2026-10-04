@@ -1,0 +1,164 @@
+{
+  "status": "STD/DERIVED finite-multinomial design; SAT/CANDIDATE application",
+  "target_opposed_drift": 0.00047514872444755717,
+  "row_information": [
+    {
+      "row": 0,
+      "information_per_label_per_condition": 1.5998591127212702e-05,
+      "m_per_condition_for_80pct": 746021.0554042754
+    },
+    {
+      "row": 1,
+      "information_per_label_per_condition": 2.7033579066202158e-05,
+      "m_per_condition_for_80pct": 441498.5455117332
+    },
+    {
+      "row": 2,
+      "information_per_label_per_condition": 3.133981776524421e-05,
+      "m_per_condition_for_80pct": 380834.5641033337
+    },
+    {
+      "row": 3,
+      "information_per_label_per_condition": 2.7033579066202077e-05,
+      "m_per_condition_for_80pct": 441498.5455117346
+    },
+    {
+      "row": 4,
+      "information_per_label_per_condition": 1.5998591127212702e-05,
+      "m_per_condition_for_80pct": 746021.0554042754
+    }
+  ],
+  "information_order": [
+    2,
+    1,
+    3,
+    4,
+    0
+  ],
+  "uniform_asymptotic": {
+    "m_per_row_per_condition": 178535.34460468884,
+    "total_labels_both_conditions": 1785353.4460468884
+  },
+  "targeted_asymptotic": {
+    "row": 2,
+    "m_per_condition": 380834.5641033337,
+    "total_labels_both_conditions": 761669.1282066674
+  },
+  "bootstrap": {
+    "uniform_current": {
+      "allocation_per_condition": [
+        2500,
+        2500,
+        2500,
+        2500,
+        2500
+      ],
+      "total_labels_both_conditions": 25000,
+      "critical_g2": 15.820941463452824,
+      "null_rejection": 0.04998,
+      "power": 0.05634,
+      "nsim": 50000
+    },
+    "uniform_asymptotic": {
+      "allocation_per_condition": [
+        178535,
+        178535,
+        178535,
+        178535,
+        178535
+      ],
+      "total_labels_both_conditions": 1785350,
+      "critical_g2": 20.91191226738254,
+      "null_rejection": 0.04998,
+      "power": 0.85622,
+      "nsim": 50000
+    },
+    "best_row_asymptotic": {
+      "allocation_per_condition": [
+        0,
+        0,
+        380835,
+        0,
+        0
+      ],
+      "total_labels_both_conditions": 761670,
+      "critical_g2": 9.169663875154065,
+      "null_rejection": 0.04998,
+      "power": 0.82032,
+      "nsim": 50000
+    },
+    "best_row_guarded": {
+      "allocation_per_condition": [
+        0,
+        0,
+        457002,
+        0,
+        0
+      ],
+      "total_labels_both_conditions": 914004,
+      "critical_g2": 9.427866544895398,
+      "null_rejection": 0.04998,
+      "power": 0.8978,
+      "nsim": 50000
+    }
+  },
+  "finite_bootstrap_power_brackets": {
+    "uniform_150000": {
+      "allocation_per_condition": [
+        150000,
+        150000,
+        150000,
+        150000,
+        150000
+      ],
+      "total_labels_both_conditions": 1500000,
+      "critical_g2": 20.386863108933767,
+      "null_rejection": 0.049975,
+      "power": 0.7737,
+      "nsim": 40000
+    },
+    "uniform_160000": {
+      "allocation_per_condition": [
+        160000,
+        160000,
+        160000,
+        160000,
+        160000
+      ],
+      "total_labels_both_conditions": 1600000,
+      "critical_g2": 20.520699739665556,
+      "null_rejection": 0.049975,
+      "power": 0.8052,
+      "nsim": 40000
+    },
+    "row2_360000": {
+      "allocation_per_condition": [
+        0,
+        0,
+        360000,
+        0,
+        0
+      ],
+      "total_labels_both_conditions": 720000,
+      "critical_g2": 9.068488177684852,
+      "null_rejection": 0.049975,
+      "power": 0.79415,
+      "nsim": 40000
+    },
+    "row2_380000": {
+      "allocation_per_condition": [
+        0,
+        0,
+        380000,
+        0,
+        0
+      ],
+      "total_labels_both_conditions": 760000,
+      "critical_g2": 9.122537864024668,
+      "null_rejection": 0.049975,
+      "power": 0.81845,
+      "nsim": 40000
+    }
+  },
+  "scope_failure": "Row-targeted allocation has power only for the preregistered opposed coherent-drift family; it cannot certify shared-channel stationarity against carrier dependence confined to an unmeasured true row."
+}
