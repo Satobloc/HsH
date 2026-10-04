@@ -1,0 +1,46 @@
+{
+  "status": "joint calibrated dense-mesh audit",
+  "m_per_true_bin": 2500,
+  "threshold": -0.7990585579482143,
+  "threshold_calibration_max_error": 0.04555,
+  "threshold_cells": {
+    "B3": [
+      -0.013333333333333336,
+      1.016
+    ],
+    "S2": [
+      -0.08,
+      0.984
+    ]
+  },
+  "train_calibration_matrices": 400,
+  "train_repeats_per_matrix": 250,
+  "audit_grid": [
+    25,
+    17
+  ],
+  "validation_calibration_matrices": 240,
+  "validation_repeats_per_cell_per_matrix": 40,
+  "B3_max_error": 0.04781250000000005,
+  "B3_worst_cell": [
+    0.026666666666666672,
+    1.016
+  ],
+  "B3_max_cluster95": 0.051981199286293,
+  "B3_upper_cell": [
+    0.026666666666666672,
+    1.016
+  ],
+  "S2_max_error": 0.04708333333333338,
+  "S2_worst_cell": [
+    -0.08,
+    0.984
+  ],
+  "S2_max_cluster95": 0.051329487416763714,
+  "S2_upper_cell": [
+    -0.08,
+    0.984
+  ],
+  "max_error": 0.04781250000000005,
+  "max_cluster95": 0.051981199286293
+}
