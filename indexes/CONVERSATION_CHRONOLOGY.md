@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-03T10:29:59.004043+00:00`
+- Generated: `2026-10-04T13:53:24.294753+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **576**
-- Skipped non-conversation or unparseable files: **1460**
+- Skipped non-conversation or unparseable files: **1461**
 - Exact duplicate-content groups: **83**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -2242,6 +2242,7 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/theta_4_visualizer.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/theta_4_visualizer.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/timesheet_proj.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/timesheet_proj.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/working.txt](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/working.txt) — Expecting value: line 1 column 1 (char 0)
+- [DEVELOPMENT_FULL_CONVOS/4Oct2026/gitignore.txt](../DEVELOPMENT_FULL_CONVOS/4Oct2026/gitignore.txt) — Expecting value: line 2 column 1 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt](../DEVELOPMENT_FULL_CONVOS/ACTIVE%20ROSTER%20SEPT%2012%202026.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/CONVO DOWNLOAD TARGETS.txt](../DEVELOPMENT_FULL_CONVOS/CONVO%20DOWNLOAD%20TARGETS.txt) — Expecting value: line 1 column 1 (char 0)
 - [DEVELOPMENT_FULL_CONVOS/H(s)H TEMPORAL ISOTROPY.txt](../DEVELOPMENT_FULL_CONVOS/H%28s%29H%20TEMPORAL%20ISOTROPY.txt) — Expecting value: line 1 column 1 (char 0)

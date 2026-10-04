@@ -1,13 +1,13 @@
 {
   "counts": {
-    "bytes_known": 3771200904,
-    "directories": 227,
-    "files": 4188
+    "bytes_known": 3773705592,
+    "directories": 228,
+    "files": 4275
   },
   "counts_by_extension": {
     ".cmd": 1,
     ".css": 5,
-    ".csv": 99,
+    ".csv": 100,
     ".diff": 4,
     ".docx": 1,
     ".gif": 1,
@@ -18,28 +18,28 @@
     ".jpeg": 102,
     ".jpg": 49,
     ".js": 16,
-    ".json": 771,
+    ".json": 789,
     ".jsonl": 19,
     ".lean": 3,
     ".m4a": 1,
     ".marker": 1,
-    ".md": 1148,
+    ".md": 1189,
     ".mhtml": 3,
     ".mjs": 1,
     ".nb": 3,
     ".npz": 3,
     ".pdf": 92,
     ".png": 201,
-    ".py": 186,
+    ".py": 204,
     ".rtf": 2,
     ".scsyndef": 1,
     ".srt": 4,
-    ".svg": 19,
+    ".svg": 27,
     ".tex": 6,
     ".text": 1,
     ".toml": 5,
     ".tx": 1,
-    ".txt": 1390,
+    ".txt": 1391,
     ".yaml": 1,
     ".yml": 27,
     ".zip": 7,
@@ -55,12 +55,12 @@
     "generated-catalog": 31,
     "license": 1,
     "live-conversation-corpus": 37,
-    "llm-workspace": 1133,
+    "llm-workspace": 1215,
     "review-ledger": 5,
-    "source-conversation-corpus": 2499,
+    "source-conversation-corpus": 2500,
     "synthesis-workspace": 6,
     "tooling-test": 5,
-    "unclassified": 367,
+    "unclassified": 371,
     "visitor-interface": 3
   },
   "counts_by_top_level": {
@@ -72,7 +72,7 @@
     "BEDROCK.md": 1,
     "CONSULTANTS": 4,
     "CONVERSATION_VIEWER": 26,
-    "DEVELOPMENT_FULL_CONVOS": 2499,
+    "DEVELOPMENT_FULL_CONVOS": 2500,
     "HISTORY_TIMELINE.md": 1,
     "INTERNAL": 1,
     "LIBRARY": 35,
@@ -81,14 +81,14 @@
     "LIVE CONVOS": 37,
     "NEW_PAPERS": 4,
     "ONBOARDING": 1,
-    "PLAYGROUNDS": 5,
+    "PLAYGROUNDS": 9,
     "PUBLIC_SITE": 144,
     "QUARANTINE": 1,
     "README.md": 1,
     "SAT_VISUALS": 138,
     "SCRIPT_EXECUTION_SAFETY.md": 1,
     "STATE_OF_THE_THEORY.md": 1,
-    "WORKSPACES": 1133,
+    "WORKSPACES": 1215,
     "audits": 1,
     "checkpoints": 1,
     "formalization": 5,
@@ -134,6 +134,7 @@
       "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "paths": [
         "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/blank.md",
+        "DEVELOPMENT_FULL_CONVOS/4Oct2026/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/HAGALAZ/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/gitignore.txt",
         "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/gitignore.txt",
@@ -4530,7 +4531,7 @@
       "size": 49
     },
     {
-      "content_id": "d7cc5cda3458952095f1f0990dac9b59b0c04b7ad7d069a7a80bb5d705b29e0e",
+      "content_id": "8defb3dc02404216c3c9bcfd506a38ffd46a89ca45bc3295348535cf947e13fd",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/conversations.json",
       "role": "unclassified",
@@ -4544,7 +4545,7 @@
       "size": null
     },
     {
-      "content_id": "6679cc48c2b69ff2ba716026a48969b1a3991fdd08ceeba7f283e995ec7ea102",
+      "content_id": "b9460b719cd7cac1e9650d6ea86f06bbb2b32ed9ae6b980b8b3e19bb80088068",
       "kind": "blob",
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
       "role": "unclassified",
@@ -16451,6 +16452,20 @@
       "size": 2679
     },
     {
+      "content_id": null,
+      "kind": "tree",
+      "path": "DEVELOPMENT_FULL_CONVOS/4Oct2026",
+      "role": "source-conversation-corpus",
+      "size": null
+    },
+    {
+      "content_id": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "blob",
+      "path": "DEVELOPMENT_FULL_CONVOS/4Oct2026/gitignore.txt",
+      "role": "source-conversation-corpus",
+      "size": 1
+    },
+    {
       "content_id": "5b309f349b739270dd8cbd16c38085f616f9ddeedacf5981554818ccabdbfd57",
       "kind": "blob",
       "path": "DEVELOPMENT_FULL_CONVOS/ACTIVE ROSTER SEPT 12 2026.txt",
@@ -23416,6 +23431,34 @@
       "size": 2241
     },
     {
+      "content_id": "137f083c56ba67d6e07ada9f43b8fcf6ffb33b8f8022517dc7b70bccc30ce709",
+      "kind": "blob",
+      "path": "PLAYGROUNDS/MORROW_KESTREL/QUARRY_044_FINITE_CORE_TOPOLOGY_GEOMETRIC_COST.md",
+      "role": "unclassified",
+      "size": 2582
+    },
+    {
+      "content_id": "cd8cf0eeb1dbf9bf3170fb2459e99d395ab036b9c973db97fc4a9f9a78679adb",
+      "kind": "blob",
+      "path": "PLAYGROUNDS/MORROW_KESTREL/QUARRY_049_B3_FULL_TWIST_Z3_CLOSURE.md",
+      "role": "unclassified",
+      "size": 4023
+    },
+    {
+      "content_id": "3acaa2d39d4740f2bde2b27a957d60ee609998f4346f7eccf16256ad4f80ab4b",
+      "kind": "blob",
+      "path": "PLAYGROUNDS/MORROW_KESTREL/QUARRY_058_ROTATIONAL_SUPPORT_FINITE_CORE_GATE.md",
+      "role": "unclassified",
+      "size": 3867
+    },
+    {
+      "content_id": "47b7f6f6fa411c2e808e401169a4d5ce67434b05a1a89b209d76c849b19c2b48",
+      "kind": "blob",
+      "path": "PLAYGROUNDS/MORROW_KESTREL/QUARRY_059_4D_BYPASS_FINITE_CORE_BRAID_PROTECTION.md",
+      "role": "unclassified",
+      "size": 2988
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "PUBLIC_SITE",
@@ -24536,11 +24579,11 @@
       "size": 4269
     },
     {
-      "content_id": "e082959b56164de399c58fa59d3deaf1085b6fa97ec3835f515b3e3a54709aa6",
+      "content_id": "855187c54c96c1c72d55ce873a4870aad63e74736d66b127f68ac4ee949c4b56",
       "kind": "blob",
       "path": "README.md",
       "role": "visitor-interface",
-      "size": 19868
+      "size": 19853
     },
     {
       "content_id": null,
@@ -25754,18 +25797,18 @@
       "size": null
     },
     {
-      "content_id": "9a95a27403c6bd509d0376450dffdc3b4a6394162ad1bf4f7f59d2461aa96463",
+      "content_id": "685ab40534abac2c359445c5f4b2d77143ab3c4a455e73c621c3a292ec8b355b",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.csv",
       "role": "llm-workspace",
-      "size": 1052496
+      "size": 1052732
     },
     {
-      "content_id": "9537928438075d83fce3f2e8107c424b798d85807c655ebc22553b1a9cb61ca8",
+      "content_id": "15df35017c7e14dabb5fb7c94658326214e1beaabbe25887bb08abc3ae011c16",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/CURRENT_STATE.json",
       "role": "llm-workspace",
-      "size": 1816137
+      "size": 1816530
     },
     {
       "content_id": "71cbf4012ac7abfb4dea28183a4bb78dda3af0b4f9ebbac86017415379c325ab",
@@ -25908,11 +25951,18 @@
       "size": 432
     },
     {
-      "content_id": "ca9eca83b4884fd97309ed3a62babeaa6108b78139ec765ba8efc68882aeed37",
+      "content_id": "7b8f4c7f825ecf671704bb651ea45ea8948a8509738f9d1c255a643caf092262",
+      "kind": "blob",
+      "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261003T144544Z.csv",
+      "role": "llm-workspace",
+      "size": 448
+    },
+    {
+      "content_id": "43f4b56255a05440138851d5724c15226a536719af5e6d762db4088197a43327",
       "kind": "blob",
       "path": "WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json",
       "role": "llm-workspace",
-      "size": 865
+      "size": 881
     },
     {
       "content_id": "a4a968c6c8f5cb5e55f2d903bdef289b98bcefb1f1178a981e93c1e2459bdad6",
@@ -30437,6 +30487,13 @@
       "size": 2774
     },
     {
+      "content_id": "7775b24282a1edc67196d6efa4919bea25b44212b894d855a4cc19bee28be54e",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-03_CHIRAL_CONSTITUTIVE_TERM_HOLONOMY_SPECTRUM.md",
+      "role": "llm-workspace",
+      "size": 4206
+    },
+    {
       "content_id": "3306013e2f551f55ffcf75a815a2d0900d5658d2ca94e987520d05506a33b289",
       "kind": "blob",
       "path": "WORKSPACES/MERCER/2026-10-03_DIMENSIONAL_STRESS_CARRIER_GREEN_FUNCTIONS.md",
@@ -30444,11 +30501,32 @@
       "size": 10337
     },
     {
+      "content_id": "1e9f4ec734534713e9db85e23337bfcfdbbea64360c5ac000491934373fcffcc",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-03_DYNAMIC_TIMESHEET_SUSCEPTIBILITY.md",
+      "role": "llm-workspace",
+      "size": 1849
+    },
+    {
+      "content_id": "85c7c78a2555c59b0fec1aa72250f7bd5f561f90c4a150ef391ef357cc635b93",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-03_FINITE_CORE_INTERBRAID_CONTACT_SCALING.md",
+      "role": "llm-workspace",
+      "size": 2375
+    },
+    {
       "content_id": "337e0216688f763e61d3215cc3e3c78b769cda1270c2610cc4defcaf42286f27",
       "kind": "blob",
       "path": "WORKSPACES/MERCER/2026-10-03_GRAPH_LAPLACIAN_INTERBRAID_SPECTROSCOPY.md",
       "role": "llm-workspace",
       "size": 5071
+    },
+    {
+      "content_id": "a9e682c72563c70b80018ecd705e06faa81fbc8fe06a602f692dbc3cfab8a77e",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-03_LOCAL_PROPAGATION_VS_CROSS_TEMPORAL_FORCE.md",
+      "role": "llm-workspace",
+      "size": 2281
     },
     {
       "content_id": "8aefdecbc05c9d7c3a3514d268e1d6b2b1920cb8d601fde8e8d91b723493a4ff",
@@ -30484,6 +30562,20 @@
       "path": "WORKSPACES/MERCER/2026-10-03_TENSION_BENDING_TIMESHEET_FLAT_CURVE_KERNEL.md",
       "role": "llm-workspace",
       "size": 4338
+    },
+    {
+      "content_id": "fd820cd61090c21472ccb3b566ce767e222bed0cac710580877ac18a4421b8a0",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-04_SCREENED_MEDIUM_POISSON_FORK.md",
+      "role": "llm-workspace",
+      "size": 1959
+    },
+    {
+      "content_id": "474f16b9ee2c499b83081ab4b691a47a0ce8731e3c8c77211db0e208d36adeed",
+      "kind": "blob",
+      "path": "WORKSPACES/MERCER/2026-10-04_TORQUE_FREE_ROTATIONAL_EXPANSION_WINDING_BUDGET.md",
+      "role": "llm-workspace",
+      "size": 2222
     },
     {
       "content_id": "ea7b7c4abafb5ced4e01832eee971a27bf86c5ca8e53e5ae38dbfc2516a2232d",
@@ -32292,6 +32384,27 @@
       "size": 5794
     },
     {
+      "content_id": "1d05be770d2502a9de3a09d3615269f2e9e4bfaee13604729e0c26429fe92e0a",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/SANDBOX_2026-10-03_EXACT_FINITE_STRAIN_ROTATION_LAW.md",
+      "role": "llm-workspace",
+      "size": 1747
+    },
+    {
+      "content_id": "6e6a8544d8a66a9c96e36f671d852b7c90182c86c410b3e2764388758ad3c59c",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/SANDBOX_2026-10-03_PROJECTOR_GRADIENT_CURVATURE.md",
+      "role": "llm-workspace",
+      "size": 2567
+    },
+    {
+      "content_id": "fc9bd2a9ae5025f6e6ada45649a6d2d5e7aacd39da3016ec67c7397148523c01",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/SANDBOX_2026-10-03_SO4_LORENTZ_COMPATIBILITY_GATE.md",
+      "role": "llm-workspace",
+      "size": 2834
+    },
+    {
       "content_id": "bb427eaf2cef3a7c207292adbb9955f9e296a8bdbbc1acac72d3230de1b027fe",
       "kind": "blob",
       "path": "WORKSPACES/MERIDIAN/SANDBOX/WHIRLIGIG_KERNEL_0.md",
@@ -32374,6 +32487,41 @@
       "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_LONGITUDINAL_WORLDTUBE_TRANSFER_KERNEL.md",
       "role": "llm-workspace",
       "size": 5579
+    },
+    {
+      "content_id": "880823ddd193fa955cd5843bbc88e695f646ef77a2b3dbc9d2f80309fd1f9f31",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_AREA_TO_SO4_CONTROLLABILITY.md",
+      "role": "llm-workspace",
+      "size": 2518
+    },
+    {
+      "content_id": "363f8ae3e3ab76dc513e69db709a5a9f448c95be2ea05487ae60d70a287ded21",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_FINITE_CORE_HELIX_INDUCED_HOLONOMY.md",
+      "role": "llm-workspace",
+      "size": 3699
+    },
+    {
+      "content_id": "ec227f53238c75f90255358284fbb8080b1b52de920981423689bf839ecb0332",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_PREFERRED_FLOW_RANK_GATE.md",
+      "role": "llm-workspace",
+      "size": 2092
+    },
+    {
+      "content_id": "bf1a379914c1a1f90abbe4d3a5f082da09de3c92a94b8d4604c7ecee95dad487",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_SO4_3PLUS3_CHIRAL_FACTORIZATION.md",
+      "role": "llm-workspace",
+      "size": 2740
+    },
+    {
+      "content_id": "3f1fb0c2acec958a12fe4ef71b98f5facb2f0a856268a45b3b5c5bc1004ea805",
+      "kind": "blob",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_STRETCH_COMMUTATOR_ROTATION.md",
+      "role": "llm-workspace",
+      "size": 2730
     },
     {
       "content_id": null,
@@ -32621,11 +32769,60 @@
       "size": 3898
     },
     {
+      "content_id": "c0bf4b455bd0b035f91239267ac3245143ae8c34aa00152a69b2b5cb00b61529",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_BROWNIAN_GEOMETRY_FINITE_SAMPLE_NOISE.md",
+      "role": "llm-workspace",
+      "size": 3173
+    },
+    {
+      "content_id": "1fc7cb77488ebc69af3f6aa86d420ab27f8e897f510a79bd4eef709eefdd57e8",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_COVARIANCE_SURVIVES_COARSEGRAINING.md",
+      "role": "llm-workspace",
+      "size": 3584
+    },
+    {
       "content_id": "87fbdc94eefbeb35e563e150d166154d523301571efa2fc339de86650de0ec5d",
       "kind": "blob",
       "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_FINITE_CORE_DEFORMATION_CLOCK.md",
       "role": "llm-workspace",
       "size": 3532
+    },
+    {
+      "content_id": "8c287d88a38e81d0d33604670e26244d957e74cb49a2fe4bd310457bffbba8cb",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_PERSISTENT_READOUT_PARTITIONS.md",
+      "role": "llm-workspace",
+      "size": 3262
+    },
+    {
+      "content_id": "a5f2b2a39b2496438650139fca5285cbf2e0657da8488d8b755610da28574311",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_READOUT_JACOBIAN_APPARENT_DYNAMICS.md",
+      "role": "llm-workspace",
+      "size": 2690
+    },
+    {
+      "content_id": "ca20e12552a289051d1cee303f367c65c11d4b4ca5ff45187eeb1e66c22aef70",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-03_READOUT_NULLSPACE_RESOLVER_TOMOGRAPHY.md",
+      "role": "llm-workspace",
+      "size": 2467
+    },
+    {
+      "content_id": "6e7655a7c146d7d38f3ba854e8410c88ea86f0075253990d5e11eaf9c36bb289",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-04_COAREA_SLICE_COMPENSATION.md",
+      "role": "llm-workspace",
+      "size": 3503
+    },
+    {
+      "content_id": "9c55a3d2d3680b1ee37c96ad2f96dff74995bf73d3ef020a259b344f8ffcb69f",
+      "kind": "blob",
+      "path": "WORKSPACES/ORSON_VAY/SANDBOX_2026-10-04_FOLD_INFORMATION_BLINDSPOT.md",
+      "role": "llm-workspace",
+      "size": 2331
     },
     {
       "content_id": null,
@@ -33034,6 +33231,118 @@
       "size": null
     },
     {
+      "content_id": "ae232d8d2aba2b06e5c21474714ba89aceb5075c5c22d1adbfec540fc3504cfb",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/aperture_b3_s2_minimal_design.py",
+      "role": "llm-workspace",
+      "size": 8137
+    },
+    {
+      "content_id": "3ccadebab507ffc72e9245ef1d71134c90540c2e688889047e6347f8841be56a",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/continuous_zero_dc_readout.py",
+      "role": "llm-workspace",
+      "size": 11164
+    },
+    {
+      "content_id": "ac8c34a3018b9fc359fc411246bf597bfa0d4da8889f4b1985f7e91d42709501",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/continuous_zero_dc_sensitivity.py",
+      "role": "llm-workspace",
+      "size": 3231
+    },
+    {
+      "content_id": "75fac581fc77a6ba42fbf5ea9ce4390197c498ae692e6fe8ac024008ea138415",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/crossed_calibration_allocation_bootstrap.py",
+      "role": "llm-workspace",
+      "size": 5905
+    },
+    {
+      "content_id": "f22fe6a3d4dd879f90cff24f580ee7b029a10db1223f2ba5ed5d318d6958eb3b",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/five_bin_boundary_confirmation.py",
+      "role": "llm-workspace",
+      "size": 1287
+    },
+    {
+      "content_id": "551ad2c604d6c748055ccbb0128224213c620921852a78adf6a327ba193af21c",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/five_bin_calibrated_continuum_critical.py",
+      "role": "llm-workspace",
+      "size": 3658
+    },
+    {
+      "content_id": "c51c4a05707b7392c1664f96532eed6b664983cdc329a1e3ee561494c1887847",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/five_bin_confusion_calibration.py",
+      "role": "llm-workspace",
+      "size": 6110
+    },
+    {
+      "content_id": "f86844cb8b8128508c7c2085537ea682d2127c97669910869fbe2826a287187a",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/five_bin_postfactor_diagnostic.py",
+      "role": "llm-workspace",
+      "size": 5984
+    },
+    {
+      "content_id": "d3f3ed8048b2bdf90610e29bafd4f71f91dbbf9f3870a21a965956e419827ac0",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/five_bin_scale_uncertainty.py",
+      "role": "llm-workspace",
+      "size": 7437
+    },
+    {
+      "content_id": "165d58326b9b4ad4ee8cb888af4c245e94b8c1040364ff23ee2b4f8bf1179b9f",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/frozen_gate_bank_matched_filter.py",
+      "role": "llm-workspace",
+      "size": 8297
+    },
+    {
+      "content_id": "8668d8d1c176089e1838a585ad5f7dbcfe87ffa818df4ffd1e42ed981c072d8c",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/frozen_late_gate_precision.py",
+      "role": "llm-workspace",
+      "size": 6437
+    },
+    {
+      "content_id": "3ed04ba8fa5e82bd9e5e36aa5c1881dc6b048e81143fd1f2a6bbca2731239817",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/joint_terminal_pole_covariance.py",
+      "role": "llm-workspace",
+      "size": 9072
+    },
+    {
+      "content_id": "e566bd60c4cacb6436b01f026d005e010def00e384559be10f6c527cfd43ba89",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/nonlinear_first_passage_readout.py",
+      "role": "llm-workspace",
+      "size": 11184
+    },
+    {
+      "content_id": "1c40a9dee94c0495cda1a7aa836fe8ecb3d97174e028cd80e34442a66409e199",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/offset_robust_aperture_design.py",
+      "role": "llm-workspace",
+      "size": 10269
+    },
+    {
+      "content_id": "4c4a89b2a247a74ca2e3b34928f1696ea48fd7d1212df49a02d2e7916ceec461",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/orthogonal_readout_design.py",
+      "role": "llm-workspace",
+      "size": 7723
+    },
+    {
+      "content_id": "bc6b0bda3080f28f0076e3825dfa5861ea1419c519ad04743482914a3aca754d",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/signed_coordinate_multibin_readout.py",
+      "role": "llm-workspace",
+      "size": 9498
+    },
+    {
       "content_id": "0afdfc08102142e7603483264c28c28722f9373d4f09d4ff81b4bb8d2c44f279",
       "kind": "blob",
       "path": "WORKSPACES/RAVEL/CODE/spectral_calibrated_numerator.py",
@@ -33069,6 +33378,13 @@
       "size": 10672
     },
     {
+      "content_id": "5f25fbd3fd64c9f6a74af00b1b2f944cabc7be29262aa077600f36f0e99aa8c8",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/CODE/unequal_two_setting_aperture_bound.py",
+      "role": "llm-workspace",
+      "size": 9712
+    },
+    {
       "content_id": "94e9b4c81f1bb8d7bc2a746ab5d23f8cf9a67d501638ae69bc3323e401fd1572",
       "kind": "blob",
       "path": "WORKSPACES/RAVEL/CONTINUITY.md",
@@ -33083,6 +33399,97 @@
       "size": null
     },
     {
+      "content_id": "a9838d6a45d325dded17759e649f83412b12c5f5a9172e805832897f2944ad30",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/aperture_b3_s2_minimal_design.json",
+      "role": "llm-workspace",
+      "size": 2898
+    },
+    {
+      "content_id": "123b4a7200c785aa11bebe93f08d3103a988775f30da29fce999543b25c5bca0",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/continuous_zero_dc_readout.json",
+      "role": "llm-workspace",
+      "size": 47984
+    },
+    {
+      "content_id": "d42497c8ed6dff8eff430b710aa26df6208b372f7742eb9e0e3d4f5557445a2b",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/continuous_zero_dc_sensitivity.json",
+      "role": "llm-workspace",
+      "size": 12999
+    },
+    {
+      "content_id": "de24f312d80973b687c9b150fabc1afa11c2482d9d094e40f8655d6babc60d12",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/crossed_calibration_allocation_bootstrap.json",
+      "role": "llm-workspace",
+      "size": 4009
+    },
+    {
+      "content_id": "b57290b45940d675295becf240425c946c55e307731b309d99e2759ee023295a",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/five_bin_boundary_confirmation_m2500.json",
+      "role": "llm-workspace",
+      "size": 481
+    },
+    {
+      "content_id": "381ccfc954857fd152b1d4cab44979803a7e0b07337dc7574cc51389e1968a03",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/five_bin_calibrated_continuum_critical.json",
+      "role": "llm-workspace",
+      "size": 945
+    },
+    {
+      "content_id": "1feb7c41c79e5b9c6812f7e1b0a48f044d6767992073a6aaa4fe9fa895c1073b",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/five_bin_confusion_calibration.json",
+      "role": "llm-workspace",
+      "size": 3987
+    },
+    {
+      "content_id": "600c3a9ba66931fa2d37bbe9ebdfb2e37daed9b7297f9998b4350d07aa97d565",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/five_bin_postfactor_diagnostic.json",
+      "role": "llm-workspace",
+      "size": 13656
+    },
+    {
+      "content_id": "bbefb170956036589e958c37465545ce23f5a22fa46bd026f7767a105657ae25",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/five_bin_scale_uncertainty.json",
+      "role": "llm-workspace",
+      "size": 2428
+    },
+    {
+      "content_id": "9b9873744a939dd09f703e41e7992560a6efa5f576f56af2124f84c59a5acf7d",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/frozen_gate_bank_matched_filter.json",
+      "role": "llm-workspace",
+      "size": 21178
+    },
+    {
+      "content_id": "aa43e3b3387ba98b9efc81f287a11feecc1a8b2a62ea105b69ddd95be598b788",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/frozen_late_gate_precision.json",
+      "role": "llm-workspace",
+      "size": 13013
+    },
+    {
+      "content_id": "588219e713ba91b45889535dbe5e5e919a1a7539bf4b64653268b3f0aa8f948a",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/joint_terminal_pole_covariance.json",
+      "role": "llm-workspace",
+      "size": 14264
+    },
+    {
+      "content_id": "7a608bf9476dca618f778336c6fd1eadafe1e871fca09e91c150fa08173b951f",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/nonlinear_first_passage_readout.json",
+      "role": "llm-workspace",
+      "size": 200116
+    },
+    {
       "content_id": "f0331f96250a991f1f17f5039f1cd3d1d2332213869771e4221abdb777f60e35",
       "kind": "blob",
       "path": "WORKSPACES/RAVEL/DATA/nonparametric_positive_spectrum_cv.json",
@@ -33090,11 +33497,32 @@
       "size": 10892
     },
     {
+      "content_id": "81e5b721399b145e80d02902d313650ad822321c5b1a5dd1177f20e172b95529",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/offset_robust_aperture_design.json",
+      "role": "llm-workspace",
+      "size": 2690
+    },
+    {
+      "content_id": "b3827b293c1548520a86ee21e2c735c121a3d39b029cdc7c58c4782b515bb7aa",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/orthogonal_readout_design.json",
+      "role": "llm-workspace",
+      "size": 15888
+    },
+    {
       "content_id": "573a5a06524ab7a459f1511899f82a9150d850f77749c95370b16511b5be2d09",
       "kind": "blob",
       "path": "WORKSPACES/RAVEL/DATA/repeat_count_identifiability_boundary.json",
       "role": "llm-workspace",
       "size": 78752
+    },
+    {
+      "content_id": "3b1be4bf2a51213920c5f61ac159a1a7da28e63b2d9b53c8f0fc0e6e12c27553",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/signed_coordinate_multibin_readout.json",
+      "role": "llm-workspace",
+      "size": 5435
     },
     {
       "content_id": "40022996fd839fc1dad7504109e3b64c2f443d9160aec0c12f06622eb9aad908",
@@ -33144,6 +33572,13 @@
       "path": "WORKSPACES/RAVEL/DATA/spectral_lambda_path_ensemble_summary.json",
       "role": "llm-workspace",
       "size": 28302
+    },
+    {
+      "content_id": "9e16f1fe4f2fc60b1a79fd85a8b91c61ff580afb53010381ff71ab4993aeef4c",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/DATA/unequal_two_setting_aperture_bound.json",
+      "role": "llm-workspace",
+      "size": 3411
     },
     {
       "content_id": "0acf458aacaa4a2b278d200033118b6ff95fb2e3921f2982f4ee70e8a7b1c4a1",
@@ -33391,6 +33826,118 @@
       "size": 5078
     },
     {
+      "content_id": "f60a3ceeddd1d3ad6f2e6c7f92a77f8aa011eff784a68ad22d2390a811802fdf",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_CONTINUOUS_ZERO_DC_READOUT_NULL.md",
+      "role": "llm-workspace",
+      "size": 5969
+    },
+    {
+      "content_id": "74e6e128612b80fedb58759a454c1c0fb1d53a61052d89ff8fecd7bf45b78fbb",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_FIVE_BIN_CONFUSION_CALIBRATION.md",
+      "role": "llm-workspace",
+      "size": 5982
+    },
+    {
+      "content_id": "2bc09cb1bfe6af8a713c41a5f6db3c419798b8c1de82dceecaa8662f28fb6c51",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_FIVE_BIN_SCALE_UNCERTAINTY.md",
+      "role": "llm-workspace",
+      "size": 7041
+    },
+    {
+      "content_id": "3285edea230bd862b197690940f530936d8dd5fbd13d14bad3b1955b298f4efe",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_FROZEN_GATE_BANK_MATCHED_FILTER.md",
+      "role": "llm-workspace",
+      "size": 7019
+    },
+    {
+      "content_id": "4e690924206b6121a9f15ab40fca4c6df98115ea2fd7365bbb200cf4c1ae911c",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_FROZEN_LATE_GATE_PRECISION.md",
+      "role": "llm-workspace",
+      "size": 6455
+    },
+    {
+      "content_id": "536f73146d6b32f310d09243865f47981db05abf5d936c2c933286cb808f5e05",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_MINIMAL_APERTURE_B3_S2.md",
+      "role": "llm-workspace",
+      "size": 7568
+    },
+    {
+      "content_id": "5627dc4d2b46daa8a26c7550fa32693440850c0dfe4ae69318af630b7e232306",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_NONLINEAR_FIRST_PASSAGE_READOUT.md",
+      "role": "llm-workspace",
+      "size": 5440
+    },
+    {
+      "content_id": "0400ee4e6ab1b6064d8ec4d39163765da919fe3a3bea913d2b683ee9f63b7479",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_OFFSET_ROBUST_APERTURE.md",
+      "role": "llm-workspace",
+      "size": 7185
+    },
+    {
+      "content_id": "0f7da2a4792c591a1ae134f752400f3d4756c0e5f5d61096af4d1b6fc68ebb0d",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_ORTHOGONAL_READOUT_DESIGN.md",
+      "role": "llm-workspace",
+      "size": 6022
+    },
+    {
+      "content_id": "eb7a1172324af39af58118b0b26a6e685412f29471529edfbcf7d0ee3bd5113c",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_SIGNED_COORDINATE_MULTIBIN.md",
+      "role": "llm-workspace",
+      "size": 7256
+    },
+    {
+      "content_id": "167a2b6e2c80d8df7f48d73b0aa63020744e9a0bbd8dd9376fb53019d7bfc1bc",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_TERMINAL_OCCUPANCY_COVARIANCE_CLOSURE.md",
+      "role": "llm-workspace",
+      "size": 6010
+    },
+    {
+      "content_id": "3644a5181eefe60b8da8ebfb90546b12418ae1349eeffb6df87acaf62dc485b6",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-03_UNEQUAL_TWO_SETTING_BOUND.md",
+      "role": "llm-workspace",
+      "size": 8240
+    },
+    {
+      "content_id": "4aab0992c8126392e5ef0f1c69d58ad011a4dd56e379dbfb3e10f18b57827d5e",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-04_CROSSED_CALIBRATION_ALLOCATION.md",
+      "role": "llm-workspace",
+      "size": 6603
+    },
+    {
+      "content_id": "187d8ec95cb83fb6a3042e50e7815b1a4257c1e878784452f858b17b227c5029",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-04_JOINT_OFFSET_SCALE_CONFUSION_AUDIT.md",
+      "role": "llm-workspace",
+      "size": 6637
+    },
+    {
+      "content_id": "cd56263060f892e542d50597859a684cd5b14938d5b5abb4d5824145652144dd",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-04_POSTFACTOR_STATIONARITY_DIAGNOSTIC.md",
+      "role": "llm-workspace",
+      "size": 6246
+    },
+    {
+      "content_id": "2e54a28ee1735413ae66821784cbe9b139963f591e49c17fe516639419a4af49",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/SANDBOX_2026-10-04_SYSTEMATIC_CALIBRATION_DRIFT.md",
+      "role": "llm-workspace",
+      "size": 5392
+    },
+    {
       "content_id": null,
       "kind": "tree",
       "path": "WORKSPACES/RAVEL/SCRIPTS",
@@ -33468,6 +34015,13 @@
       "size": null
     },
     {
+      "content_id": "12644c7774adbcde9e719d41d5543f41cbf698af963a4fd1c59541a58993e278",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/continuous_zero_dc_readout.svg",
+      "role": "llm-workspace",
+      "size": 117003
+    },
+    {
       "content_id": "b6412edc67a90e2aab0803bc0e0b91ed67233486704b04ad2d2dbf6ac18b8240",
       "kind": "blob",
       "path": "WORKSPACES/RAVEL/VISUALS/correlated_cv_memory.svg",
@@ -33480,6 +34034,48 @@
       "path": "WORKSPACES/RAVEL/VISUALS/damped_hybrid_mode_regimes.svg",
       "role": "llm-workspace",
       "size": 189889
+    },
+    {
+      "content_id": "cfe93c87741154007350c2ccc0e664a14c67d1e98cf38a8b4c759d5fbaefaf2d",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/five_bin_calibrated_continuum_critical.svg",
+      "role": "llm-workspace",
+      "size": 126190
+    },
+    {
+      "content_id": "7ac2f6b91eca246ccf15cde86507c1b1896a0e64a012581c3609359cd18846d9",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/five_bin_confusion_calibration.svg",
+      "role": "llm-workspace",
+      "size": 82940
+    },
+    {
+      "content_id": "875a9b617249f24e97030edd0184c9e03f4b7e029a7e5296c1404e5b20666cba",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/five_bin_postfactor_diagnostic.svg",
+      "role": "llm-workspace",
+      "size": 87751
+    },
+    {
+      "content_id": "5a0473a544075bb46fb80bd0efaed70d72193163589943a4ca706c740fdedcfe",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/five_bin_scale_uncertainty.svg",
+      "role": "llm-workspace",
+      "size": 111277
+    },
+    {
+      "content_id": "9aff1f5545c286804eb8eef9e7cb1ca6939f093cf96355eb26e7a942326ed1fa",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/joint_terminal_pole_covariance.svg",
+      "role": "llm-workspace",
+      "size": 126326
+    },
+    {
+      "content_id": "678a86d6f618ed292a7e185f5efb8a7c4d9476ccbb94d9388ad35d6a5f772c4b",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/VISUALS/nonlinear_first_passage_readout.svg",
+      "role": "llm-workspace",
+      "size": 133496
     },
     {
       "content_id": "5b8ea220ba56b39130738a1f40e30bde4ac9354fbdb8020e1965b1e85b22f7df",
@@ -33550,6 +34146,27 @@
       "path": "WORKSPACES/RAVEL/blind_memory_tomography.py",
       "role": "llm-workspace",
       "size": 4609
+    },
+    {
+      "content_id": "b0e8a7c626ba9a3af46384e81e5f4f6b5e64188a94de4cf238b0e527e2b6ca2b",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/five_bin_systematic_drift_audit.json",
+      "role": "llm-workspace",
+      "size": 30267
+    },
+    {
+      "content_id": "dd1d1692c30057f0635385957018143059bc0431970b870ef189f1e4e246d510",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/five_bin_systematic_drift_audit.py",
+      "role": "llm-workspace",
+      "size": 8298
+    },
+    {
+      "content_id": "f8b26f007ebfb6893624cc6e8b2173af1584beb94cde0fbade82dc258bde8ea2",
+      "kind": "blob",
+      "path": "WORKSPACES/RAVEL/five_bin_systematic_drift_audit.svg",
+      "role": "llm-workspace",
+      "size": 62117
     },
     {
       "content_id": "10343ce5be974e12b90eeda6d6473fd4826b7e437afcb13114ae2c96ea901c3d",
@@ -34154,11 +34771,11 @@
       "size": null
     },
     {
-      "content_id": "760381487acf485fcb7e12d35b4abcde014be3c43f76f93a64fb402d440c00e6",
+      "content_id": "b922cfcfc64cd5e9a41e0191e7c254acd0923ff33393b61f3e6fdad12de7446f",
       "kind": "blob",
       "path": "indexes/CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
-      "size": 483476
+      "size": 483624
     },
     {
       "content_id": "47ff9ba91529b7d7345420dcaaa04e646a80ac1cd6bdf800d487a18c97627bc9",
@@ -34168,7 +34785,7 @@
       "size": 8625
     },
     {
-      "content_id": "1636452d781d44cc90d8d94e575f8b7db516ecc9d3d1345df8ec37736ce07e2a",
+      "content_id": "946f1496229122c13abb226fa84d1ae10eacb288f068ab753cc46e44d4ee90aa",
       "kind": "blob",
       "path": "indexes/LIVE_CONVERSATION_CHRONOLOGY.md",
       "role": "generated-catalog",
@@ -34182,32 +34799,32 @@
       "size": null
     },
     {
-      "content_id": "7364acc0650191d29831febba0f040532252d933aff8cadca8752d6828de24c1",
+      "content_id": "dd5cc812f67423cb00b912bd99bac4df1fe55ba2ca82fdeea1914986880c4573",
       "kind": "blob",
       "path": "indexes/autotag/AUTOTAG_SUMMARY.md",
       "role": "generated-catalog",
-      "size": 302464
+      "size": 302594
     },
     {
-      "content_id": "304164bbb62298873e1659ff223743424baac48ac9deec17725724e2f84ec5c2",
+      "content_id": "6c83f816a728bb1b870954db06d11be5801a4d40d635a9071f36c24bf7f36fd8",
       "kind": "blob",
       "path": "indexes/autotag/CONVERSATION_TAG_INDEX.md",
       "role": "generated-catalog",
-      "size": 281187
+      "size": 281317
     },
     {
-      "content_id": "4d3da3334433cfce6cb25017d3843da777c05455adb1f333101631eda36ecb31",
+      "content_id": "024ca090cb58ac51ec85d6deee1644f844f83155adc4f61417ead728a958ab50",
       "kind": "blob",
       "path": "indexes/autotag/SCANNER_CHECKOUT_SHA.txt",
       "role": "generated-catalog",
       "size": 41
     },
     {
-      "content_id": "ed58e85a15a98d08df314180803b33fede75b1ba3515e1af9bbd84d485a4421c",
+      "content_id": "872930c09ba8036a51a7a52aaba344b1c836b6879fac43f3aafba04cf123e925",
       "kind": "blob",
       "path": "indexes/autotag/conversation-tag-manifest.json",
       "role": "generated-catalog",
-      "size": 3222222
+      "size": 3222389
     },
     {
       "content_id": "1d8763bbc2705a4dfc63764204a400798a7ca6fa6643d947c35cd50bac6d1717",
@@ -34231,14 +34848,14 @@
       "size": null
     },
     {
-      "content_id": "70a7fc5263a45356347ef3439a5e5e833bea673f8f55b83a85e37925a8a294c7",
+      "content_id": "f8fa0680f2f340b63711b9aa37de182e0f48313e0fde5d8588be85bc3cb57085",
       "kind": "blob",
       "path": "indexes/manifests/development-conversation-dates.json",
       "role": "generated-catalog",
-      "size": 796588
+      "size": 796910
     },
     {
-      "content_id": "ac374ca3fab96f48b253a0bbc53fcc1236e39df6e6511cf1795484713f82a4e8",
+      "content_id": "bb86a719a8e8dff8791ed67742d0c84d6d6443d33a96ca82c4bafa9e0e84af69",
       "kind": "blob",
       "path": "indexes/manifests/live-conversation-dates.json",
       "role": "generated-catalog",
@@ -34329,11 +34946,11 @@
       "size": 1542
     },
     {
-      "content_id": "c447b466dc5f0190e897b2847adca99639d48c39a7e34756a019158c5f828ed7",
+      "content_id": "81c096cf108ca7f9d894144bf70a0931bce8638ae66fefc8fac44aacb8958466",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2023.jsonl",
       "role": "generated-catalog",
-      "size": 1120194
+      "size": 1121710
     },
     {
       "content_id": "d2fba56d8d960fcf98ca7ccb049645cfa2b01e650874bd3917b4042200f9dd3e",
@@ -34343,25 +34960,25 @@
       "size": 1410801
     },
     {
-      "content_id": "14baf5e011663ff44266314a1fb0bcd6361f82ee352f6909b3f38f3c0e318c98",
+      "content_id": "39865991cc11ddf82a4fe1916fb3196574814653c1b39858f10b4a0e86b4c5d2",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2025.jsonl",
       "role": "generated-catalog",
-      "size": 31877821
+      "size": 31929593
     },
     {
-      "content_id": "28b4c764e7e9e1c42221924227f405c2824f131b35fa95f53a6fd9d992165751",
+      "content_id": "83e5b5277a1a5f65ed85ac4c45509ddce07abbe30e5052fdd84032dfa2da3718",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
       "role": "generated-catalog",
-      "size": 70314984
+      "size": 70511958
     },
     {
-      "content_id": "806a963fc4fdbb06b7a4d514a623e49f750634c34f5cda35ec048579a54f402d",
+      "content_id": "f01c13696321ed92096d6946b0bb72edf25cef8e8bdb195fc4c5d67bcafbb2d7",
       "kind": "blob",
       "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
       "role": "generated-catalog",
-      "size": 8631673
+      "size": 8702425
     },
     {
       "content_id": null,
@@ -34378,46 +34995,46 @@
       "size": 653
     },
     {
-      "content_id": "991bea1407a39a56f3b722f019f1626b1760a32d94bc0d5d3f398a8c98e1eaa3",
+      "content_id": "1c768508196b0efd2e43736425b35ec40eab827f6cca7baeaac51d303f84a7e3",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/branch-context.jsonl",
       "role": "generated-catalog",
-      "size": 23933254
+      "size": 24115898
     },
     {
-      "content_id": "ae2dce30dd2de1187b03ad3af1aa110dc273312383b4eeaae143b9b550926d78",
+      "content_id": "1f1ff34c22344c3aab6f1d68ab1921e89dc63b093fbebe6cc0df5ac7ea633cfa",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/correction-refinement.jsonl",
       "role": "generated-catalog",
-      "size": 23466446
+      "size": 23528266
     },
     {
-      "content_id": "0348d5e92b1d3b73d5e531623e528386156cc9ab1c30353124e4ebd8124b399c",
+      "content_id": "c59e040f41b00fd9d3eb032512f3d4018475f379f2668eae79750cbe9b82b1ea",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/decision.jsonl",
       "role": "generated-catalog",
-      "size": 9965494
+      "size": 9979332
     },
     {
-      "content_id": "a0f2a86dd7f2aac3c6e95cfca4c20ee93abd4be1b268e2b7918967e637b74a23",
+      "content_id": "873acb7caa2ca0a8efed688fedd04d25c550066fba4fa0e5f30125a68603074a",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/definition.jsonl",
       "role": "generated-catalog",
-      "size": 18222940
+      "size": 18261506
     },
     {
-      "content_id": "a94c3730d164c518ddaf25a3f7a596757f27f4399df5a69aecf7dbe147ab644e",
+      "content_id": "76bd4d258866b625cb215f734224d3ea07a645f74667ea74c1a41af5cdb3b63f",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/duplicate-provenance.jsonl",
       "role": "generated-catalog",
-      "size": 43898957
+      "size": 44200423
     },
     {
-      "content_id": "a765af10e5774781cc90a7c7951f4f136c356f375dc9761df4a61c0593eb5e64",
+      "content_id": "df32d8ebbc1133159e2089ef5d3f3fb6a667d9df0eb7ca5a74640ccb5b6f8fca",
       "kind": "blob",
       "path": "indexes/nathan-direct/stage2/methodology.jsonl",
       "role": "generated-catalog",
-      "size": 19131139
+      "size": 19162995
     },
     {
       "content_id": null,
@@ -34749,7 +35366,7 @@
       "size": 2339
     },
     {
-      "content_id": "b73d3e3d1477cc2b1e1cbd9ab0b5848bcd742edb06cd27fe6cbb866bf43721e6",
+      "content_id": "aac51a90a3de01af4c35c65c710b65979f37f867ce6eee679d61eb75e89d1bcc",
       "kind": "blob",
       "path": "tools/visual_archaeology/derived/latest_report_v2.md",
       "role": "archive-tooling",
@@ -34763,28 +35380,28 @@
       "size": 39576
     },
     {
-      "content_id": "6be21859bcc32871610ab11d6aa9a85bf9e9b6fae99a7ba7160fda0edd18c2f8",
+      "content_id": "eeddbe75b89fef71ed89235e4b20975abc848ba7a11e6709062216d101eebcf6",
       "kind": "blob",
       "path": "tools/visual_archaeology/derived/model_state_v2.json",
       "role": "archive-tooling",
-      "size": 68998
+      "size": 69000
     },
     {
-      "content_id": "bbc60484e0d1a9549f81cc161aed62a2b810f3d8f9f64c223cd2d658bd6248c4",
+      "content_id": "d8e87ff66d8d45ce4c9ab6ddfbaaadb3d40982384d326abd94e59d176ee81156",
       "kind": "blob",
       "path": "tools/visual_archaeology/derived/resource_candidates.json",
       "role": "archive-tooling",
       "size": 833
     },
     {
-      "content_id": "732fc78b4563656ae78c9b046e63a6c13c91816caa5f81a154cfe77225bb164b",
+      "content_id": "571983fed8248dbeaa2841e80e1b4c26f3e181acfbd1de8749ce37bf3d6aa662",
       "kind": "blob",
       "path": "tools/visual_archaeology/derived/review_sheet.html",
       "role": "archive-tooling",
       "size": 28288
     },
     {
-      "content_id": "b5d95023fd8750f3b2a4b951dc2938faa2b9ab412fc0d7e11aa2202d16087dab",
+      "content_id": "fd366cbee1e73e9d7de3ee017822713dec4c7015ac8746133d824a40f87f38db",
       "kind": "blob",
       "path": "tools/visual_archaeology/derived/review_sheet.md",
       "role": "archive-tooling",
@@ -35058,8 +35675,8 @@
   ],
   "scan_kind": "structural",
   "scan_scope": "repository tree excluding generated index outputs and cache metadata",
-  "scanned_at_utc": "2026-10-03T11:03:24+00:00",
+  "scanned_at_utc": "2026-10-04T14:25:10+00:00",
   "schema_version": 1,
-  "tree_id": "6e8fb364c0760145d4727e54f80a4632236b0d67607a47ca058a1b52252c33f4",
+  "tree_id": "6517690accc7a882619b429a2e57dacd9e7762868d9c263c59fb9c42ea20b4c3",
   "tree_response_truncated": false
 }
