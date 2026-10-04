@@ -1,0 +1,22 @@
+{
+  "m_per_true_bin": 2500,
+  "threshold": -0.7990585579482143,
+  "confirmation_cells": {
+    "B3": [
+      0.026666666666666672,
+      1.016
+    ],
+    "S2": [
+      0.08,
+      0.984
+    ]
+  },
+  "calibration_matrix_clusters": 400,
+  "repeats_per_cluster": 250,
+  "B3_error": 0.04303,
+  "B3_cluster95": 0.044299008413006276,
+  "S2_error": 0.044689999999999994,
+  "S2_cluster95": 0.046129309948697995,
+  "max_error": 0.044689999999999994,
+  "max_cluster95": 0.046129309948697995
+}
