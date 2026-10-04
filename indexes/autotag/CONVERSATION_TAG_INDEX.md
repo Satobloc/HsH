@@ -2,10 +2,10 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 767
+- JSON files scanned: 783
 - conversation exports recognized: 541
-- non-conversation JSON skipped: 225
-- parse errors: 1
+- non-conversation JSON skipped: 240
+- parse errors: 2
 - structural-index gap candidates: 0
 
 ## Topic coverage
@@ -3884,3 +3884,4 @@
 ## Parse errors
 
 - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json` — `JSONDecodeError('Expecting property name enclosed in double quotes: line 1 column 2 (char 1)')`
+- `WORKSPACES/RAVEL/DATA/nonlinear_first_passage_readout.json` — `JSONDecodeError('Expecting value: line 1 column 1 (char 0)')`

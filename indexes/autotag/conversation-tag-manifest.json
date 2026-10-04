@@ -3,13 +3,17 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 767,
+  "json_files_scanned": 783,
   "conversation_exports_recognized": 541,
-  "nonconversation_json_skipped": 225,
+  "nonconversation_json_skipped": 240,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
       "error": "JSONDecodeError('Expecting property name enclosed in double quotes: line 1 column 2 (char 1)')"
+    },
+    {
+      "path": "WORKSPACES/RAVEL/DATA/nonlinear_first_passage_readout.json",
+      "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
     }
   ],
   "conversations": [
