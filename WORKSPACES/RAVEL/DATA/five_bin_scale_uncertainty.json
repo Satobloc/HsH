@@ -1,0 +1,79 @@
+{
+  "status": "STD/DERIVED conditional numerical bracket; SAT/CANDIDATE readout robustness",
+  "question": "How much independent scale uncertainty can the frozen five-bin readout tolerate?",
+  "model": {
+    "N": 192,
+    "offset_bound": 0.08,
+    "assignment_error": 0.019029522168779844,
+    "rho_definition": "Rhat/R",
+    "probability_law": "p_H,j(u,rho)=F_H(rho e_{j+1}-u)-F_H(rho e_j-u), then K_assignment"
+  },
+  "cases": [
+    {
+      "eta": 0.016,
+      "profile_grid": [
+        61,
+        25
+      ],
+      "calibration_repeats_per_cell": 30000,
+      "validation_repeats_per_cell": 100000,
+      "audited_cells_per_candidate": 8,
+      "threshold": -0.6786090782760965,
+      "calibrated_max_error": 0.045766666666666664,
+      "validation_b3_max": 0.0447,
+      "worst_b3_cell": [
+        -1.0972135347575573e-06,
+        1.0159999999612543
+      ],
+      "validation_s2_max": 0.04445,
+      "worst_s2_cell": [
+        0.08,
+        0.984
+      ],
+      "validation_max_error": 0.0447,
+      "simultaneous_95_upper_selected_cells": 0.046516179230884774,
+      "worst_pair": [
+        -1.0972135347575573e-06,
+        1.0159999999612543,
+        -5.253419598449937e-07,
+        0.9996083569883519
+      ],
+      "single_specimen_affinity": 0.9915970979500917,
+      "N_product_affinity": 0.19786429775506317
+    },
+    {
+      "eta": 0.018,
+      "profile_grid": [
+        61,
+        25
+      ],
+      "calibration_repeats_per_cell": 30000,
+      "validation_repeats_per_cell": 100000,
+      "audited_cells_per_candidate": 8,
+      "threshold": -0.5527718497451417,
+      "calibrated_max_error": 0.0516,
+      "validation_b3_max": 0.05015,
+      "worst_b3_cell": [
+        0.0,
+        1.018
+      ],
+      "validation_s2_max": 0.0499,
+      "worst_s2_cell": [
+        -0.08,
+        0.982
+      ],
+      "validation_max_error": 0.05015,
+      "simultaneous_95_upper_selected_cells": 0.05206626386995082,
+      "worst_pair": [
+        1.630560609875431e-06,
+        1.0179999999242182,
+        -6.982775469843717e-08,
+        1.0003142451032767
+      ],
+      "single_specimen_affinity": 0.991841907732908,
+      "N_product_affinity": 0.20746805403102073
+    }
+  ],
+  "conclusion": "1.6% passes the selected-cell simultaneous 95% audit; 1.8% fails nominally. Transition bracket only, not continuum certification.",
+  "missing_dependency": "measured full 5x5 confusion matrix and continuum nuisance certification"
+}
