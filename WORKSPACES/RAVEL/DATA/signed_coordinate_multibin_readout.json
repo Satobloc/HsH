@@ -1,0 +1,141 @@
+{
+  "status": "STD/DERIVED conditional multinomial readout; SAT/CANDIDATE as finite-core discriminator",
+  "question": "Does support-stratified signed-coordinate binning beat binary capture at N=192 and |u|/R<=0.08?",
+  "constants": {
+    "N": 192,
+    "delta_over_R": 0.08,
+    "s2_radius_over_b3_radius": 0.7745966692414834,
+    "guarded_adjacent_bin_error": 0.019029522168779844
+  },
+  "dimensionless_bin_edges": [
+    "-inf",
+    -0.8545966692414834,
+    -0.6945966692414834,
+    0.0,
+    0.6945966692414834,
+    0.8545966692414834,
+    "inf"
+  ],
+  "edge_rule": "union boundary, intersection boundary, center, reflected; fixed from S2 support and nuisance bound before outcomes",
+  "ideal_six_bin_assignment": {
+    "calibrated_max_error": 0.0030666666666666668,
+    "threshold": -5.048737084486189,
+    "calibrated_b3_error": 0.0030666666666666668,
+    "calibrated_s2_error": 0.0025333333333333874,
+    "assignment_error": 0.0,
+    "validation_repeats_per_cell": 100000,
+    "validation_b3_error": 0.00293,
+    "worst_b3_u": 0.0,
+    "validation_s2_error": 0.00244,
+    "worst_s2_u": 0.003333333333333341,
+    "validation_max_error": 0.00293,
+    "simultaneous_95_upper": 0.0035349793756865814
+  },
+  "guarded_minimal_assignment": {
+    "calibrated_max_error": 0.018466666666666666,
+    "threshold": -1.8309606463865058,
+    "calibrated_b3_error": 0.018466666666666666,
+    "calibrated_s2_error": 0.016900000000000026,
+    "assignment_error": 0.019029522168779844,
+    "validation_repeats_per_cell": 100000,
+    "validation_b3_error": 0.01805,
+    "worst_b3_u": -0.006666666666666668,
+    "validation_s2_error": 0.01622,
+    "worst_s2_u": 0.006666666666666668,
+    "validation_max_error": 0.01805,
+    "simultaneous_95_upper": 0.019474596613116277
+  },
+  "guarded_six_bin_assignment": {
+    "calibrated_max_error": 0.018100000000000005,
+    "threshold": -1.6053597900334755,
+    "calibrated_b3_error": 0.017966666666666666,
+    "calibrated_s2_error": 0.018100000000000005,
+    "assignment_error": 0.019029522168779844,
+    "validation_repeats_per_cell": 100000,
+    "validation_b3_error": 0.0178,
+    "worst_b3_u": 0.0,
+    "validation_s2_error": 0.0177,
+    "worst_s2_u": 0.003333333333333341,
+    "validation_max_error": 0.0178,
+    "simultaneous_95_upper": 0.019215183496646027
+  },
+  "nested_guarded_bin_families": {
+    "3_union": {
+      "calibrated_max_error": 0.14736666666666665,
+      "threshold": -0.048923170778277125,
+      "calibrated_b3_error": 0.11873333333333333,
+      "calibrated_s2_error": 0.14736666666666665,
+      "assignment_error": 0.019029522168779844,
+      "validation_repeats_per_cell": 100000,
+      "validation_b3_error": 0.1172,
+      "worst_b3_u": -0.003333333333333327,
+      "validation_s2_error": 0.14565,
+      "worst_s2_u": 0.06000000000000001,
+      "validation_max_error": 0.14565,
+      "simultaneous_95_upper": 0.14934593396930834
+    },
+    "4_union_sign": {
+      "calibrated_max_error": 0.08643333333333333,
+      "threshold": -0.17259609914648877,
+      "calibrated_b3_error": 0.08643333333333333,
+      "calibrated_s2_error": 0.08499999999999996,
+      "assignment_error": 0.019029522168779844,
+      "validation_repeats_per_cell": 100000,
+      "validation_b3_error": 0.08569,
+      "worst_b3_u": 0.003333333333333341,
+      "validation_s2_error": 0.08295,
+      "worst_s2_u": 0.010000000000000009,
+      "validation_max_error": 0.08569,
+      "simultaneous_95_upper": 0.08863380490905404
+    },
+    "5_support": {
+      "calibrated_max_error": 0.018466666666666666,
+      "threshold": -1.8309606463865058,
+      "calibrated_b3_error": 0.018466666666666666,
+      "calibrated_s2_error": 0.016900000000000026,
+      "assignment_error": 0.019029522168779844,
+      "validation_repeats_per_cell": 100000,
+      "validation_b3_error": 0.01805,
+      "worst_b3_u": -0.006666666666666668,
+      "validation_s2_error": 0.01622,
+      "worst_s2_u": 0.006666666666666668,
+      "validation_max_error": 0.01805,
+      "simultaneous_95_upper": 0.019474596613116277
+    },
+    "6_support_sign": {
+      "calibrated_max_error": 0.018100000000000005,
+      "threshold": -1.6053597900334755,
+      "calibrated_b3_error": 0.017966666666666666,
+      "calibrated_s2_error": 0.018100000000000005,
+      "assignment_error": 0.019029522168779844,
+      "validation_repeats_per_cell": 100000,
+      "validation_b3_error": 0.0178,
+      "worst_b3_u": 0.0,
+      "validation_s2_error": 0.0177,
+      "worst_s2_u": 0.003333333333333341,
+      "validation_max_error": 0.0178,
+      "simultaneous_95_upper": 0.019215183496646027
+    }
+  },
+  "minimal_passing_family": {
+    "bins": 5,
+    "name": "5_support",
+    "simultaneous_95_upper": 0.019474596613116277
+  },
+  "ideal_six_bin_affinity": {
+    "worst_product_affinity": 0.05246199434551075,
+    "u_b3": 0.0,
+    "u_s2": 0.0,
+    "simple_pair_bayes_upper": 0.026230997172755375,
+    "simple_pair_bayes_lower": 0.0006885392990434447
+  },
+  "guarded_minimal_affinity": {
+    "worst_product_affinity": 0.13114370158370814,
+    "u_b3": 0.0,
+    "u_s2": 0.0,
+    "simple_pair_bayes_upper": 0.06557185079185407,
+    "simple_pair_bayes_lower": 0.004318315464722056
+  },
+  "binary_capture_best_audited_error": 0.12883547386390615,
+  "failure_condition": "Fails if signed-coordinate bins are outcome-tuned, offset exceeds 0.08R, adjacent-bin confusion exceeds the guard/model, R is circularly estimated, or carrier measures differ from declared uniform B3/S2."
+}
