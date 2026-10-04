@@ -1,0 +1,357 @@
+{
+  "status": "STD/DERIVED channel-factor diagnostic; SAT/CANDIDATE application",
+  "question": "Can test-time change be represented by one stationary stochastic post-factor, and what calibration burden detects carrier-dependent drift?",
+  "theorem": {
+    "unique_factor": "D*=K_cal^{-1}K_test when K_cal is nonsingular",
+    "existence": "D*>=0 and D*1=1",
+    "shared_stationarity": "all carrier classes must have the same D*"
+  },
+  "nominal": {
+    "condition_number": 1.035652040842388,
+    "determinant": 0.9257658689967193
+  },
+  "target": {
+    "d": 0.00047514872444755717,
+    "opposed_shared_residual": 0.0003373938888487548,
+    "m_per_true_bin_for_80pct_power": 178535.34460468887,
+    "power_at_m2500": 0.05575464775455752,
+    "opposed_d_for_80pct_power_at_m2500": 0.00497652377717348,
+    "one_sided_d_for_80pct_power_at_m2500": 0.007459688127921458
+  },
+  "rows": [
+    {
+      "d": 0.0,
+      "shared_residual_opposed": 5.043236015984534e-17,
+      "shared_residual_one_sided": 5.043236015984534e-17,
+      "m80_opposed": Infinity,
+      "m80_one_sided": Infinity,
+      "direct_min_D_entry": -1.751550722947267e-18,
+      "direct_clipped_residual": 7.877611327722517e-19
+    },
+    {
+      "d": 0.0001,
+      "shared_residual_opposed": 7.098722699696822e-05,
+      "shared_residual_one_sided": 6.269712569474853e-05,
+      "m80_opposed": 2142517.9903644784,
+      "m80_one_sided": 4306706.09995619,
+      "direct_min_D_entry": -9.890271387569253e-07,
+      "direct_clipped_residual": 8.812394980345021e-07
+    },
+    {
+      "d": 0.0002,
+      "shared_residual_opposed": 0.00014198555973125892,
+      "shared_residual_one_sided": 0.00012539915510616803,
+      "m80_opposed": 758527.3645279872,
+      "m80_one_sided": 1527897.7591744745,
+      "direct_min_D_entry": -1.978054277512625e-06,
+      "direct_clipped_residual": 1.7625137660425016e-06
+    },
+    {
+      "d": 0.00030000000000000003,
+      "shared_residual_opposed": 0.00021299499876238062,
+      "shared_residual_one_sided": 0.00018810608761812722,
+      "m80_opposed": 392303.404354735,
+      "m80_one_sided": 791113.4217747109,
+      "direct_min_D_entry": -2.967081416269007e-06,
+      "direct_clipped_residual": 2.6438227962372024e-06
+    },
+    {
+      "d": 0.0004,
+      "shared_residual_opposed": 0.00028401554464874097,
+      "shared_residual_one_sided": 0.00025081792261414244,
+      "m80_opposed": 240778.03225834586,
+      "m80_one_sided": 485898.7054847648,
+      "direct_min_D_entry": -3.956108555025933e-06,
+      "direct_clipped_residual": 3.52516658100501e-06
+    },
+    {
+      "d": 0.0005,
+      "shared_residual_opposed": 0.0003550471979476359,
+      "shared_residual_one_sided": 0.00031353465947712625,
+      "m80_opposed": 163258.00755494318,
+      "m80_one_sided": 329624.280631858,
+      "direct_min_D_entry": -4.945135693781562e-06,
+      "direct_clipped_residual": 4.4065451125802695e-06
+    },
+    {
+      "d": 0.0006000000000000001,
+      "shared_residual_opposed": 0.0004260899592152739,
+      "shared_residual_one_sided": 0.00037625629758969166,
+      "m80_opposed": 118205.63623742957,
+      "m80_one_sided": 238748.88810802725,
+      "direct_min_D_entry": -5.934162832537875e-06,
+      "direct_clipped_residual": 5.287958383294586e-06
+    },
+    {
+      "d": 0.0007,
+      "shared_residual_opposed": 0.0004971438290067048,
+      "shared_residual_one_sided": 0.0004389828363337606,
+      "m80_opposed": 89673.5420440942,
+      "m80_one_sided": 181171.15158679898,
+      "direct_min_D_entry": -6.9231899712941875e-06,
+      "direct_clipped_residual": 6.169406385326685e-06
+    },
+    {
+      "d": 0.0008,
+      "shared_residual_opposed": 0.0005682088078759157,
+      "shared_residual_one_sided": 0.0005017142750909976,
+      "m80_opposed": 70446.14657664613,
+      "m80_one_sided": 142356.83341870323,
+      "direct_min_D_entry": -7.9122171100505e-06,
+      "direct_clipped_residual": 7.050889111055473e-06
+    },
+    {
+      "d": 0.0009000000000000001,
+      "shared_residual_opposed": 0.00063928489637577,
+      "shared_residual_one_sided": 0.0005644506132424565,
+      "m80_opposed": 56864.202462888104,
+      "m80_one_sided": 114931.32449787973,
+      "direct_min_D_entry": -8.901244248806813e-06,
+      "direct_clipped_residual": 7.932406552856169e-06
+    },
+    {
+      "d": 0.001,
+      "shared_residual_opposed": 0.0007103720950580184,
+      "shared_residual_one_sided": 0.0006271918501688366,
+      "m80_opposed": 46908.513824993024,
+      "m80_one_sided": 94823.55319312264,
+      "direct_min_D_entry": -9.890271387563123e-06,
+      "direct_clipped_residual": 8.8139587027002e-06
+    },
+    {
+      "d": 0.0011,
+      "shared_residual_opposed": 0.000781470404473299,
+      "shared_residual_one_sided": 0.0006899379852502343,
+      "m80_opposed": 39389.73106603845,
+      "m80_one_sided": 79634.73550469686,
+      "direct_min_D_entry": -1.0879298526319438e-05,
+      "direct_clipped_residual": 9.695545553109943e-06
+    },
+    {
+      "d": 0.0012000000000000001,
+      "shared_residual_opposed": 0.0008525798251711389,
+      "shared_residual_one_sided": 0.0007526890178664102,
+      "m80_opposed": 33569.84656642827,
+      "m80_one_sided": 67875.9570924367,
+      "direct_min_D_entry": -1.186832566507575e-05,
+      "direct_clipped_residual": 1.0577167096328333e-05
+    },
+    {
+      "d": 0.0013000000000000002,
+      "shared_residual_opposed": 0.0009237003576999473,
+      "shared_residual_one_sided": 0.000815444947396538,
+      "m80_opposed": 28970.988799669252,
+      "m80_one_sided": 58582.881501900745,
+      "direct_min_D_entry": -1.2857352803832065e-05,
+      "direct_clipped_residual": 1.1458823324497135e-05
+    },
+    {
+      "d": 0.0014,
+      "shared_residual_opposed": 0.0009948320026070237,
+      "shared_residual_one_sided": 0.0008782057732194296,
+      "m80_opposed": 25272.540309177908,
+      "m80_one_sided": 51108.36857434107,
+      "direct_min_D_entry": -1.3846379942588375e-05,
+      "direct_clipped_residual": 1.2340514230056066e-05
+    },
+    {
+      "d": 0.0015,
+      "shared_residual_opposed": 0.0010659747604385482,
+      "shared_residual_one_sided": 0.0009409714947133193,
+      "m80_opposed": 22252.818289667222,
+      "m80_one_sided": 45004.88535631296,
+      "direct_min_D_entry": -1.4835407081344687e-05,
+      "direct_clipped_residual": 1.3222239805090849e-05
+    },
+    {
+      "d": 0.0016,
+      "shared_residual_opposed": 0.0011371286317396017,
+      "shared_residual_one_sided": 0.0010037421112561232,
+      "m80_opposed": 19754.5344509984,
+      "m80_one_sided": 39954.84576010653,
+      "direct_min_D_entry": -1.5824434220101e-05,
+      "direct_clipped_residual": 1.4104000042012803e-05
+    },
+    {
+      "d": 0.0017000000000000001,
+      "shared_residual_opposed": 0.0012082936170540982,
+      "shared_residual_one_sided": 0.0010665176222250463,
+      "m80_opposed": 17663.55840313112,
+      "m80_one_sided": 35727.771314302576,
+      "direct_min_D_entry": -1.6813461358858885e-05,
+      "direct_clipped_residual": 1.4985794933079313e-05
+    },
+    {
+      "d": 0.0018000000000000002,
+      "shared_residual_opposed": 0.0012794697169248826,
+      "shared_residual_one_sided": 0.0011292980269970634,
+      "m80_opposed": 15895.431415978883,
+      "m80_one_sided": 32153.080951955268,
+      "direct_min_D_entry": -1.7802488497613627e-05,
+      "direct_clipped_residual": 1.5867624470445642e-05
+    },
+    {
+      "d": 0.0019,
+      "shared_residual_opposed": 0.0013506569318936644,
+      "shared_residual_one_sided": 0.0011920833249485286,
+      "m80_opposed": 14386.556694348692,
+      "m80_one_sided": 29102.313170100046,
+      "direct_min_D_entry": -1.8791515636369937e-05,
+      "direct_clipped_residual": 1.6749488646363876e-05
+    },
+    {
+      "d": 0.002,
+      "shared_residual_opposed": 0.0014218552625010334,
+      "shared_residual_one_sided": 0.0012548735154554315,
+      "m80_opposed": 13088.299492402835,
+      "m80_one_sided": 26477.2183173797,
+      "direct_min_D_entry": -1.9780542775126246e-05,
+      "direct_clipped_residual": 1.7631387453188092e-05
+    },
+    {
+      "d": 0.0025,
+      "shared_residual_opposed": 0.0017780136689587661,
+      "shared_residual_one_sided": 0.001568897834445876,
+      "m80_opposed": 8681.519527122366,
+      "m80_one_sided": 17565.31232885187,
+      "direct_min_D_entry": -2.472567846890781e-05,
+      "direct_clipped_residual": 2.2041400678856303e-05
+    },
+    {
+      "d": 0.003,
+      "shared_residual_opposed": 0.0021344500468238655,
+      "shared_residual_one_sided": 0.001883044373441464,
+      "m80_opposed": 6218.705632800707,
+      "m80_one_sided": 12583.652093937786,
+      "direct_min_D_entry": -2.967081416269007e-05,
+      "direct_clipped_residual": 2.6452278512741648e-05
+    },
+    {
+      "d": 0.0035,
+      "shared_residual_opposed": 0.0024911644624043424,
+      "shared_residual_one_sided": 0.002197313053904333,
+      "m80_opposed": 4698.864562904373,
+      "m80_one_sided": 9508.904742771027,
+      "direct_min_D_entry": -3.4615949856470936e-05,
+      "direct_clipped_residual": 3.086401998417155e-05
+    },
+    {
+      "d": 0.004,
+      "shared_residual_opposed": 0.0028481569813014317,
+      "shared_residual_one_sided": 0.002511703797002182,
+      "m80_opposed": 3692.4839937263896,
+      "m80_one_sided": 7472.672625003132,
+      "direct_min_D_entry": -3.956108555025249e-05,
+      "direct_clipped_residual": 3.5276624120901884e-05
+    },
+    {
+      "d": 0.0045000000000000005,
+      "shared_residual_opposed": 0.0032054276684066463,
+      "shared_residual_one_sided": 0.0028262165236074862,
+      "m80_opposed": 2990.0353112616685,
+      "m80_one_sided": 6051.248907263019,
+      "direct_min_D_entry": -4.450622124403406e-05,
+      "direct_clipped_residual": 3.969008994957391e-05
+    },
+    {
+      "d": 0.005,
+      "shared_residual_opposed": 0.003562976587899102,
+      "shared_residual_one_sided": 0.00314085115429777,
+      "m80_opposed": 2479.24420614736,
+      "m80_one_sided": 5017.561285769673,
+      "direct_min_D_entry": -4.945135693781562e-05,
+      "direct_clipped_residual": 4.41044164952551e-05
+    },
+    {
+      "d": 0.0055,
+      "shared_residual_opposed": 0.003920803803242557,
+      "shared_residual_one_sided": 0.0034556076093547835,
+      "m80_opposed": 2095.465651363443,
+      "m80_one_sided": 4240.8516176694375,
+      "direct_min_D_entry": -5.4396492631597285e-05,
+      "direct_clipped_residual": 4.851960278164976e-05
+    },
+    {
+      "d": 0.006,
+      "shared_residual_opposed": 0.00427890937718273,
+      "shared_residual_one_sided": 0.0037704858087647696,
+      "m80_opposed": 1799.2988730375037,
+      "m80_one_sided": 3641.415952318188,
+      "direct_min_D_entry": -5.9341628325378746e-05,
+      "direct_clipped_residual": 5.293564783129079e-05
+    },
+    {
+      "d": 0.006500000000000001,
+      "shared_residual_opposed": 0.004637293371744334,
+      "shared_residual_one_sided": 0.004085485672217692,
+      "m80_opposed": 1565.5932270233614,
+      "m80_one_sided": 3168.372836630333,
+      "direct_min_D_entry": -6.428676401916032e-05,
+      "direct_clipped_residual": 5.735255066519736e-05
+    },
+    {
+      "d": 0.007000000000000001,
+      "shared_residual_opposed": 0.004995955848228367,
+      "shared_residual_one_sided": 0.004400607119107467,
+      "m80_opposed": 1377.6672235064098,
+      "m80_one_sided": 2787.972111419399,
+      "direct_min_D_entry": -6.923189971294232e-05,
+      "direct_clipped_residual": 6.177031030291586e-05
+    },
+    {
+      "d": 0.0075,
+      "shared_residual_opposed": 0.0053548968672091505,
+      "shared_residual_one_sided": 0.00471585006853119,
+      "m80_opposed": 1224.093475689007,
+      "m80_one_sided": 2477.0923380896693,
+      "direct_min_D_entry": -7.417703540672343e-05,
+      "direct_clipped_residual": 6.618892576288197e-05
+    },
+    {
+      "d": 0.008,
+      "shared_residual_opposed": 0.005714116488531618,
+      "shared_residual_one_sided": 0.00503121443928939,
+      "m80_opposed": 1096.8247610456972,
+      "m80_one_sided": 2219.4503844097335,
+      "direct_min_D_entry": -7.912217110050499e-05,
+      "direct_clipped_residual": 7.06083960619101e-05
+    },
+    {
+      "d": 0.0085,
+      "shared_residual_opposed": 0.0060736147713083225,
+      "shared_residual_one_sided": 0.00534670014988533,
+      "m80_opposed": 990.0573138002505,
+      "m80_one_sided": 2003.3020496835773,
+      "direct_min_D_entry": -8.406730679428654e-05,
+      "direct_clipped_residual": 7.502872021575276e-05
+    },
+    {
+      "d": 0.009000000000000001,
+      "shared_residual_opposed": 0.006433391773916726,
+      "shared_residual_one_sided": 0.005662307118525005,
+      "m80_opposed": 899.5172143406205,
+      "m80_one_sided": 1819.998458600972,
+      "direct_min_D_entry": -8.901244248806845e-05,
+      "direct_clipped_residual": 7.944989723849221e-05
+    },
+    {
+      "d": 0.0095,
+      "shared_residual_opposed": 0.006793447553996193,
+      "shared_residual_one_sided": 0.00597803526311676,
+      "m80_opposed": 821.9987940927671,
+      "m80_one_sided": 1663.05222156709,
+      "direct_min_D_entry": -9.395757818184968e-05,
+      "direct_clipped_residual": 8.387192614294781e-05
+    },
+    {
+      "d": 0.01,
+      "shared_residual_opposed": 0.007153782168445278,
+      "shared_residual_one_sided": 0.0062938845012710945,
+      "m80_opposed": 755.0581054716395,
+      "m80_one_sided": 1527.5172721211209,
+      "direct_min_D_entry": -9.890271387563124e-05,
+      "direct_clipped_residual": 8.829480594062304e-05
+    }
+  ],
+  "failure_condition": "Reject stationary post-drift if any inferred factor has a materially negative entry or if a shared-factor goodness-of-fit test rejects after multiplicity and calibration uncertainty are included."
+}
