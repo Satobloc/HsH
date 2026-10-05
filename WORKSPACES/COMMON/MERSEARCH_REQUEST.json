@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-05-morrow-kestrel-normal-bundle-reconnection-001",
-  "query": "((\"normal bundle\" OR framing OR holonomy OR twist OR writhe OR self-linking) NEAR/30 (reconnection OR finite-core OR filament OR worldtube)) OR ((braid OR knot) NEAR/20 (four-dimensional OR 4D OR R4))"
+  "request_id": "2026-10-05-morrow-kestrel-twist-writhe-holonomy-002",
+  "query": "((\"twist\" OR \"writhe\" OR \"self-linking\" OR \"Călugăreanu\" OR \"Calugareanu\") NEAR/40 (filament OR braid OR helix OR reconnection)) OR ((\"phase twist\" OR \"framing\") NEAR/30 (holonomy OR topology OR particle))"
 }
