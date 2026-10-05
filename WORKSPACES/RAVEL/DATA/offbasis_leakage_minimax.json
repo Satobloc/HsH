@@ -1,0 +1,145 @@
+{
+  "status": "STD/DERIVED design calculation; SAT/CANDIDATE metrology application",
+  "declared_offbasis_fault": {
+    "type": "one true row transfers q from diagonal report to adjacent report bins",
+    "amplitude_q": 0.00047514872444755717,
+    "reason_for_scale": "same per-event amplitude as the already consequential coherent drift crossing"
+  },
+  "alternatives": [
+    "coherent",
+    "blur",
+    "local_row_0",
+    "local_row_1",
+    "local_row_2",
+    "local_row_3",
+    "local_row_4"
+  ],
+  "information_vectors": {
+    "coherent": [
+      1.1864274211438231e-05,
+      2.305560138537463e-05,
+      2.2833533444605813e-05,
+      2.305560138537453e-05,
+      1.1864274211438236e-05
+    ],
+    "blur": [
+      1.6216041100156978e-05,
+      3.232323917411416e-05,
+      3.2216864439794795e-05,
+      3.2323239174114164e-05,
+      1.621604110015704e-05
+    ],
+    "local_row_0": [
+      1.1977970646964754e-05,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "local_row_1": [
+      0.0,
+      6.047074497192008e-06,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "local_row_2": [
+      0.0,
+      0.0,
+      6.047074497192008e-06,
+      0.0,
+      0.0
+    ],
+    "local_row_3": [
+      0.0,
+      0.0,
+      0.0,
+      6.047074497192008e-06,
+      0.0
+    ],
+    "local_row_4": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.1977970646964759e-05
+    ]
+  },
+  "minimax_weights": [
+    0.12590711303837424,
+    0.2493952579744172,
+    0.2493952579744172,
+    0.24939525797441722,
+    0.12590711303837418
+  ],
+  "min_information_per_label_condition": 1.50811170421772e-06,
+  "bootstrap": {
+    "8000000": {
+      "allocation_per_condition": [
+        1007257,
+        1995162,
+        1995162,
+        1995162,
+        1007257
+      ],
+      "total_labels_both_conditions": 16000000,
+      "critical_max_score": 7.134492332058261,
+      "null_rejection": 0.04988,
+      "power": {
+        "coherent": 1.0,
+        "blur": 1.0,
+        "local_row_0": 0.79694,
+        "local_row_1": 0.80208,
+        "local_row_2": 0.80158,
+        "local_row_3": 0.80182,
+        "local_row_4": 0.79738
+      },
+      "min_power": 0.79694
+    },
+    "8200000": {
+      "allocation_per_condition": [
+        1032439,
+        2045041,
+        2045041,
+        2045041,
+        1032438
+      ],
+      "total_labels_both_conditions": 16400000,
+      "critical_max_score": 7.114086473420107,
+      "null_rejection": 0.04998,
+      "power": {
+        "coherent": 1.0,
+        "blur": 1.0,
+        "local_row_0": 0.8111,
+        "local_row_1": 0.81174,
+        "local_row_2": 0.81402,
+        "local_row_3": 0.81612,
+        "local_row_4": 0.81064
+      },
+      "min_power": 0.81064
+    },
+    "8400000": {
+      "allocation_per_condition": [
+        1057620,
+        2094920,
+        2094920,
+        2094920,
+        1057620
+      ],
+      "total_labels_both_conditions": 16800000,
+      "critical_max_score": 7.039252619285989,
+      "null_rejection": 0.04994,
+      "power": {
+        "coherent": 1.0,
+        "blur": 1.0,
+        "local_row_0": 0.82588,
+        "local_row_1": 0.83148,
+        "local_row_2": 0.8284,
+        "local_row_3": 0.82892,
+        "local_row_4": 0.82512
+      },
+      "min_power": 0.82512
+    }
+  },
+  "scope_failure": "Does not cover non-adjacent, nonlinear, state-dependent, or multi-row coordinated faults."
+}
