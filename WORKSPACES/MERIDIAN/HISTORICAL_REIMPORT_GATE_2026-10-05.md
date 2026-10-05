@@ -106,3 +106,18 @@ The default question is:
 - Large historical conversations containing abandoned geometric solvers or assumptions that may now map naturally into (F), (A), Frenet, finite-core, or readout language.
 
 Nothing in this note promotes any historical physical claim.
+
+
+## Core-concept continuity presumption
+
+Current correction: most historical SAT/H(s)H core concepts remain part of the live theory unless there is affirmative evidence that a concept itself was abandoned or replaced. What changed most often was the **formalism, notation, solver representation, or derivational machinery**, not the underlying conceptual commitment.
+
+Therefore:
+
+- do not downgrade a concept to ancestry-only merely because an old equation, constant, notation, or implementation around it was superseded;
+- distinguish **concept retirement** from **formalism replacement**;
+- when old and current sources differ, first ask whether they are alternative mathematical representations of the same continuing concept;
+- only mark a core concept abandoned when a source or later construction actually rejects it, or when a current exact gate makes it untenable;
+- prefer recovering an older live concept with a cleaner current formalism over inventing an extra mechanism to fill the same role.
+
+This presumption does not protect old numerical targets, fudge factors, or unsupported identifications from audit.
