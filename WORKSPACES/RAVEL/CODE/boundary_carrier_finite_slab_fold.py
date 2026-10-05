@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact finite-slab overlap for a quadratic tangency and isotropic B^3 core."""
+"""Exact finite-slab folds for isotropic B^3 bulk and S^2 boundary carriers."""
 
 from __future__ import annotations
 
