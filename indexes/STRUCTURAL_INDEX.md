@@ -2,9 +2,9 @@
 
 > Generated catalog, not primary theory material.
 
-- Scanned: `2026-10-04T14:25:10+00:00`
-- Tree/content state: `6517690accc7a882619b429a2e57dacd9e7762868d9c263c59fb9c42ea20b4c3`
-- Coverage: 4275 files, 228 directories
+- Scanned: `2026-10-05T02:05:09+00:00`
+- Tree/content state: `a4f8bc66be4266f9fe60bd36d23feaef65fe0b2e3714165019c9e83b829fa7e5`
+- Coverage: 4283 files, 228 directories
 - GitHub tree response truncated: `false`
 
 ## Top-level coverage
@@ -28,14 +28,14 @@
 | `LIVE CONVOS` | 37 |
 | `NEW_PAPERS` | 4 |
 | `ONBOARDING` | 1 |
-| `PLAYGROUNDS` | 9 |
+| `PLAYGROUNDS` | 12 |
 | `PUBLIC_SITE` | 144 |
 | `QUARANTINE` | 1 |
 | `README.md` | 1 |
 | `SAT_VISUALS` | 138 |
 | `SCRIPT_EXECUTION_SAFETY.md` | 1 |
 | `STATE_OF_THE_THEORY.md` | 1 |
-| `WORKSPACES` | 1215 |
+| `WORKSPACES` | 1220 |
 | `audits` | 1 |
 | `checkpoints` | 1 |
 | `formalization` | 5 |
@@ -53,7 +53,7 @@
 |---|---:|
 | `.cmd` | 1 |
 | `.css` | 5 |
-| `.csv` | 100 |
+| `.csv` | 101 |
 | `.diff` | 4 |
 | `.docx` | 1 |
 | `.gif` | 1 |
@@ -69,7 +69,7 @@
 | `.lean` | 3 |
 | `.m4a` | 1 |
 | `.marker` | 1 |
-| `.md` | 1189 |
+| `.md` | 1196 |
 | `.mhtml` | 3 |
 | `.mjs` | 1 |
 | `.nb` | 3 |
@@ -104,12 +104,12 @@
 | `generated-catalog` | 31 |
 | `license` | 1 |
 | `live-conversation-corpus` | 37 |
-| `llm-workspace` | 1215 |
+| `llm-workspace` | 1220 |
 | `review-ledger` | 5 |
 | `source-conversation-corpus` | 2500 |
 | `synthesis-workspace` | 6 |
 | `tooling-test` | 5 |
-| `unclassified` | 371 |
+| `unclassified` | 374 |
 | `visitor-interface` | 3 |
 
 ## Duplicate-content groups
@@ -344,6 +344,7 @@
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260927T151144Z.csv`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20260929T163242Z.csv`
   - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261001T170326Z.csv`
+  - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261004T152412Z.csv`
 - `1bfeecef894802cb913003749a6402790365328026dd6dc59a2b322434edd084`
   - `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT20_Emergent_Filament_Surface_Theory_Neutral.txt`
   - `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/SAT 20 Build Plans/SAT20_Emergent_Filament_Surface_Theory_Neutral.txt`
@@ -4587,6 +4588,9 @@
 - `PLAYGROUNDS/MORROW_KESTREL/QUARRY_049_B3_FULL_TWIST_Z3_CLOSURE.md` — 4023 bytes — `unclassified`
 - `PLAYGROUNDS/MORROW_KESTREL/QUARRY_058_ROTATIONAL_SUPPORT_FINITE_CORE_GATE.md` — 3867 bytes — `unclassified`
 - `PLAYGROUNDS/MORROW_KESTREL/QUARRY_059_4D_BYPASS_FINITE_CORE_BRAID_PROTECTION.md` — 2988 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_068_TOPOLOGY_AS_TWIST_WRITHE_BUDGET.md` — 2152 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_070_RECONNECTION_AS_FRAME_REGISTRY_GLUING.md` — 3709 bytes — `unclassified`
+- `PLAYGROUNDS/MORROW_KESTREL/QUARRY_077_THREE_COIL_FULL_TWIST_LINK_BUDGET.md` — 2768 bytes — `unclassified`
 - `PUBLIC_SITE/ASSET_MANIFEST.json` — 9217 bytes — `unclassified`
 - `PUBLIC_SITE/BACKEND_PRESENTATION_AUDIT_2026-09-30.md` — 2690 bytes — `unclassified`
 - `PUBLIC_SITE/CURRENT_WORK.json` — 5203 bytes — `unclassified`
@@ -4732,7 +4736,7 @@
 - `PUBLIC_SITE/runtime/page-listen.js` — 5831 bytes — `unclassified`
 - `PUBLIC_SITE/runtime/site-update-packets.js` — 4324 bytes — `unclassified`
 - `QUARANTINE/2026-09-13_INTEGRATION_HALT/README.md` — 4269 bytes — `unclassified`
-- `README.md` — 19853 bytes — `visitor-interface`
+- `README.md` — 19868 bytes — `visitor-interface`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3279.jpeg` — 272895 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3280.jpeg` — 294602 bytes — `unclassified`
 - `SAT_VISUALS/DAI_thumbnails/IMG_3283.jpeg` — 734098 bytes — `unclassified`
@@ -4914,7 +4918,8 @@
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261001T170326Z.csv` — 45 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261002T161757Z.csv` — 432 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261003T144544Z.csv` — 448 bytes — `llm-workspace`
-- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 881 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/DELTA_20261004T152412Z.csv` — 45 bytes — `llm-workspace`
+- `WORKSPACES/COMMON/ACQUISITION_PIPELINE/OLD_ARCHIVE_STATE/LATEST_DELTA.json` — 137 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/README.md` — 6063 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/batch_file_stage.py` — 5585 bytes — `llm-workspace`
 - `WORKSPACES/COMMON/ACQUISITION_PIPELINE/chatgpt_export_picker.py` — 16923 bytes — `llm-workspace`
@@ -5534,6 +5539,8 @@
 - `WORKSPACES/MERCER/2026-10-03_RECIPROCAL_FILAMENT_TIMESHEET_NORMAL_MODES.md` — 6181 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-03_SYMMETRY_SEPARATION_ELECTROGRAVITY_INTERBRAID_MODES.md` — 4423 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-03_TENSION_BENDING_TIMESHEET_FLAT_CURVE_KERNEL.md` — 4338 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-04_CP_ORIENTED_THREE_MODE_MIXING.md` — 2007 bytes — `llm-workspace`
+- `WORKSPACES/MERCER/2026-10-04_CURVATURE_WAVE_INCIDENCE_GATE.md` — 3776 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-04_SCREENED_MEDIUM_POISSON_FORK.md` — 1959 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/2026-10-04_TORQUE_FREE_ROTATIONAL_EXPANSION_WINDING_BUDGET.md` — 2222 bytes — `llm-workspace`
 - `WORKSPACES/MERCER/AUTOTAG_LINEAGE_QA_2026-09-15.md` — 3993 bytes — `llm-workspace`
@@ -5807,7 +5814,9 @@
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_FINITE_CORE_SCALE_SELECTION.md` — 2757 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-02_LONGITUDINAL_WORLDTUBE_TRANSFER_KERNEL.md` — 5579 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_AREA_TO_SO4_CONTROLLABILITY.md` — 2518 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_CONE_CURVATURE_GATE.md` — 2198 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_FINITE_CORE_HELIX_INDUCED_HOLONOMY.md` — 3699 bytes — `llm-workspace`
+- `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_HOPF_FIBER_EQUIVALENCE.md` — 2935 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_PREFERRED_FLOW_RANK_GATE.md` — 2092 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_SO4_3PLUS3_CHIRAL_FACTORIZATION.md` — 2740 bytes — `llm-workspace`
 - `WORKSPACES/MERIDIAN/SANDBOX_2026-10-04_STRETCH_COMMUTATOR_ROTATION.md` — 2730 bytes — `llm-workspace`
