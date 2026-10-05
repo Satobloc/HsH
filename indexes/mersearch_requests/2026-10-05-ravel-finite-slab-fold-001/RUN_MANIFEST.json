@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-05-ravel-finite-slab-fold-001",
+  "query": "(\"slab thickness\" OR \"finite slab\" OR \"resolving thickness\" OR timesheet) AND (flow OR intersection OR particle OR worldtube)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "09c1ed1cf921103ca79175c203d48efc8d2b68ad",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "de75f9a57f4a3bb6a3feb38e47740d3e003efa46",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "5466310a4033c020bb6153e67f85b04f6fa96c6d3b9a8aee2bd2c85b2111c9d1",
+    "SEARCH_RESULTS.md": "371f20f9a9b4afb3bd94c5581c8d24aff7d3456587d1d87d1d12e270dd8462be"
+  }
+}
