@@ -1,0 +1,47 @@
+{
+  "bulk_occupancy_at_lambda_star": 0.49546166226715344,
+  "definition": "mean admitted carrier fraction over the full contact-support interval",
+  "grid_bulk_min_increment": 1.5206675918476627e-10,
+  "grid_min_bulk_minus_surface": 1.6665813173943889e-10,
+  "grid_surface_min_increment": 1.2672228767371936e-10,
+  "lambda_star_max_separation": 0.5469469697056074,
+  "large_lambda_bulk": 0.9999995000003503,
+  "large_lambda_surface": 0.9999995000003332,
+  "maximum_absolute_separation": 0.061539490635808325,
+  "maximum_relative_to_surface": 0.14182149394313853,
+  "numerical_optimizer_delta": 0.06153949063580827,
+  "numerical_optimizer_lambda": 0.5469469767776909,
+  "quadrature_minus_closed_form": {
+    "0.01": {
+      "bulk": -1.375635716449608e-15,
+      "surface": 4.430483757644765e-15
+    },
+    "0.1": {
+      "bulk": -2.275957200481571e-15,
+      "surface": -4.08006961549745e-15
+    },
+    "0.5469469697056074": {
+      "bulk": 6.161737786669619e-15,
+      "surface": 3.885780586188048e-16
+    },
+    "0.9": {
+      "bulk": -3.3306690738754696e-16,
+      "surface": 6.661338147750939e-16
+    },
+    "1.0": {
+      "bulk": 0.0,
+      "surface": 0.0
+    },
+    "1.5": {
+      "bulk": 2.220446049250313e-16,
+      "surface": 1.3322676295501878e-15
+    },
+    "5.0": {
+      "bulk": -4.6629367034256575e-15,
+      "surface": 9.2148511043888e-15
+    }
+  },
+  "stationary_polynomial_residual": -2.842170943040401e-14,
+  "surface_occupancy_at_lambda_star": 0.4339221716313451,
+  "t_star": 0.541173854752178
+}
