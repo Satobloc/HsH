@@ -1,0 +1,197 @@
+{
+  "status": "STD/DERIVED local-channel basis; SAT/CANDIDATE metrology application",
+  "basis": {
+    "formula": "D(b,v)=I+b[-I+(R+L)/2]+v(R-L)/2",
+    "constraints": "0<=|v|<=b<=1",
+    "interpretation": {
+      "b": "parity-even adjacent blur",
+      "v": "parity-odd signed drift"
+    },
+    "minimality_scope": "smallest first-order family under one-step locality, interior translation homogeneity, and mirror covariance"
+  },
+  "risk_boundary": {
+    "coherent_d": 0.00047514872444755717,
+    "diffuse_d": 0.00113265
+  },
+  "row_information": {
+    "coherent": [
+      1.5998591127212756e-05,
+      2.7033579066202158e-05,
+      3.133981776524421e-05,
+      2.7033579066202077e-05,
+      1.5998591127212756e-05
+    ],
+    "diffuse": [
+      2.100295031769994e-05,
+      3.6626049189240996e-05,
+      4.1717337187672966e-05,
+      3.6626049189240996e-05,
+      2.1002950317700034e-05
+    ]
+  },
+  "sentinel_tradeoff": [
+    {
+      "sentinel_fraction_each_noncenter_row": 0,
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "min_information_per_label_condition": 3.133981776524421e-05,
+      "asymptotic_total_per_condition_80pct": 307426.4483648364
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.001,
+      "weights": [
+        0.001,
+        0.001,
+        0.996,
+        0.001,
+        0.001
+      ],
+      "min_information_per_label_condition": 3.130052283457007e-05,
+      "asymptotic_total_per_condition_80pct": 307812.3940258639
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.005,
+      "weights": [
+        0.005,
+        0.005,
+        0.98,
+        0.005,
+        0.005
+      ],
+      "min_information_per_label_condition": 3.114334311187348e-05,
+      "asymptotic_total_per_condition_80pct": 309365.9159634979
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.01,
+      "weights": [
+        0.01,
+        0.01,
+        0.96,
+        0.01,
+        0.01
+      ],
+      "min_information_per_label_condition": 3.094686845850274e-05,
+      "asymptotic_total_per_condition_80pct": 311330.0100425209
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.02,
+      "weights": [
+        0.02,
+        0.02,
+        0.92,
+        0.02,
+        0.02
+      ],
+      "min_information_per_label_condition": 3.055391915176127e-05,
+      "asymptotic_total_per_condition_80pct": 315333.9779461596
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.05,
+      "weights": [
+        0.05,
+        0.05,
+        0.8,
+        0.05,
+        0.05
+      ],
+      "min_information_per_label_condition": 2.937507123153686e-05,
+      "asymptotic_total_per_condition_80pct": 327988.6129306301
+    },
+    {
+      "sentinel_fraction_each_noncenter_row": 0.1,
+      "weights": [
+        0.1,
+        0.1,
+        0.6,
+        0.1,
+        0.1
+      ],
+      "min_information_per_label_condition": 2.74103246978295e-05,
+      "asymptotic_total_per_condition_80pct": 351498.5310893876
+    }
+  ],
+  "declared_one_percent_design": {
+    "weights": [
+      0.01,
+      0.01,
+      0.96,
+      0.01,
+      0.01
+    ],
+    "asymptotic_total_per_condition": 311330.0100425209,
+    "bootstrap": {
+      "295764": {
+        "allocation_per_condition": [
+          2957,
+          2957,
+          283936,
+          2957,
+          2957
+        ],
+        "total_labels_both_conditions": 591528,
+        "directions": {
+          "coherent": {
+            "critical_score": 6.019011665433757,
+            "null_rejection": 0.04998,
+            "power": 0.7678
+          },
+          "blur": {
+            "critical_score": 6.020772638242842,
+            "null_rejection": 0.04998,
+            "power": 0.88388
+          }
+        }
+      },
+      "311331": {
+        "allocation_per_condition": [
+          3113,
+          3113,
+          298879,
+          3113,
+          3113
+        ],
+        "total_labels_both_conditions": 622662,
+        "directions": {
+          "coherent": {
+            "critical_score": 5.964231707476355,
+            "null_rejection": 0.04998,
+            "power": 0.79798
+          },
+          "blur": {
+            "critical_score": 6.054985094600653,
+            "null_rejection": 0.04998,
+            "power": 0.90144
+          }
+        }
+      },
+      "326898": {
+        "allocation_per_condition": [
+          3268,
+          3268,
+          313826,
+          3268,
+          3268
+        ],
+        "total_labels_both_conditions": 653796,
+        "directions": {
+          "coherent": {
+            "critical_score": 6.040216124756398,
+            "null_rejection": 0.04998,
+            "power": 0.81172
+          },
+          "blur": {
+            "critical_score": 6.056863295544087,
+            "null_rejection": 0.04998,
+            "power": 0.91474
+          }
+        }
+      }
+    }
+  },
+  "failure": "No unique minimax allocation exists under the open constraint w_i>0 alone; a quantitative sentinel floor or an omnibus alternative class must be declared before optimization."
+}
