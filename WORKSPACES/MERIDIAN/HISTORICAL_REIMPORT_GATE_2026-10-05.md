@@ -15,6 +15,27 @@ Historical material is neither:
 
 Treat it as a **candidate import reservoir**.
 
+## Substantial-reading requirement
+
+Historical reconstruction must not be driven by isolated snippets, search hits, filenames, or remembered summaries when the underlying source is available.
+
+For any old source used materially in a derivation or import decision:
+
+- read a substantial contiguous portion of the source, not just the matching passage;
+- for short files, prefer the full file;
+- for long conversations/documents, read enough sequential context to recover the problem setup, reversals, corrections, abandoned branches, and nearby constructions;
+- record the exact path and what span/portion was actually read;
+- if an older construction looks odd or incomplete, search nearby context for the missing setup before inventing a repair;
+- when a current gap appears, search the archive for earlier attempts before adding new primitives.
+
+The archive is therefore treated as **working technical memory with provenance**, not merely a citation store.
+
+The practical bias is:
+
+> Recover first; invent second.
+
+This is especially important because discarded or sidelined SAT machinery often becomes useful again after later geometric structure clarifies what the older construction was trying to do.
+
 ## Re-import pipeline
 
 For any old construction:
