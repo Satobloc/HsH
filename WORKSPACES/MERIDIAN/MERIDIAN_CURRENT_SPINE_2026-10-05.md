@@ -2,209 +2,200 @@
 
 Status: sandbox synthesis / non-canonical / current working map.
 
-## Central question
+## Baseline, not conclusion
 
-If SAT is right as a largely standard-physics 4D map, H(s)H increasingly looks like the mechanics of how that 4D transformation field varies, fails to commute, fails to integrate, and acts on finite worldtubes.
+The baseline is already that SAT supplies a 4D geometric map and H(s)H supplies finite-worldtube differential geometry / constitutive mechanics. That is not the current discovery frontier.
+
+The current Meridian frontier is narrower:
+
+1. identify the minimum independent state variables;
+2. prove which old solver quantities are equivalent readouts;
+3. separate gauge/representation from geometry;
+4. isolate discrete topology/branch data that matrices cannot contain;
+5. force all surviving sectors through blind reconstruction and failure gates.
 
 ## Core continuous grammar
 
-1. Local finite deformation:
-   [
-   Fin GL^+(4),qquad F=RU
-   ]
-   by polar decomposition, with (Rin SO(4)) and (U=U^T>0).
+Use a local finite deformation
+\[
+F\in GL^+(4),\qquad F=RU
+\]
+with polar \(R\in SO(4)\), \(U=U^T>0\), and logarithmic strain
+\[
+E=\log U.
+\]
 
-2. Log strain:
-   [
-   E=log U
-   ]
-   separates isotropic scale from anisotropic strain/shear.
+Along a worldtube,
+\[
+A_s=F^{-1}\partial_sF.
+\]
 
-3. Local transformation connection along a worldtube:
-   [
-   A_s=F^{-1}partial_sF
-   ]
-   and for a similarity-like factorization (F=qR),
-   [
-   A_s=(partial_sln q)I+R^{-1}R'.
-   ]
+For \(F=qR\),
+\[
+A_s=(\partial_s\ln q)I+R^{-1}R'.
+\]
 
-4. Higher-order/order-memory:
-   [
-   log(e^{epsilon D}e^{epsilonOmega})
-   =
-   epsilon(D+Omega)+rac{epsilon^2}{2}[D,Omega]+cdots
-   ]
-   and closed operation loops leave
-   [
-   log H_square=epsilon^2[D,Omega]+O(epsilon^3).
-   ]
+Thus global scale/rotation is only a finite transform; local scale and rotation gradients are the actual differential data.
 
-5. Spatial integrability gate:
-   with coframe (e^a=F^a{}_mu dx^mu),
-   [
-   de^a=0
-   ]
-   iff the local transformation field is locally an exact deformation gradient. Nonzero (de^a) is geometric incompatibility/closure defect.
+Order memory appears through BCH:
+\[
+\log(e^{\epsilon D}e^{\epsilon\Omega})
+=
+\epsilon(D+\Omega)
++\frac{\epsilon^2}{2}[D,\Omega]+\cdots.
+\]
+
+Spatial compatibility is separately tested with the coframe
+\[
+e^a=F^a{}_\mu dx^\mu,
+\qquad
+de^a=0
+\]
+for a locally exact deformation gradient. Nonzero \(de^a\) is incompatibility/closure defect, not automatically a force.
 
 ## Lorentzian bridge
 
-For a 3+1 expansion tensor
-[
-D=hI+delta uu^T,
-]
-the isolated eigendirection (u) selects a 3D equal-expansion subspace.
+For
+\[
+D=hI+\delta uu^T,
+\]
+the isolated eigendirection \(u\) selects a 3D equal-expansion subspace.
 
-Commutators of (D) with the three Euclidean rotations mixing (u) with (u^perp) generate symmetric boost-like matrices. Together with the three rotations in (u^perp), they close as (mathfrak{so}(3,1)).
+Commutators with the three Euclidean rotations mixing \(u\) with \(u^\perp\) generate the three symmetric boost-like partners. Together with \(\mathfrak{so}(u^\perp)\), they close as \(\mathfrak{so}(3,1)\).
 
-Solving blindly for the invariant bilinear form gives, up to scale,
-[
+Solving blindly for the invariant symmetric bilinear form gives, up to scale,
+\[
 G=I-2uu^T
-]
-with signature (3+1).
+\]
+with Lorentzian signature.
 
-If (u(x)) varies, this induced metric can have nonzero effective curvature while the primary construction space remains Euclidean.
+If \(u(x)\) varies, \(G[u(x)]\) can acquire effective curvature while the primary construction space stays Euclidean.
 
-Important limitation: (D), (P=uu^T), and (G) are sign-blind under (u	o-u). Time orientation requires an additional (Z_2) lift/orientation datum if nontrivial loops flip the eigenline lift.
+Important limitation:
+\[
+D[u]=D[-u],\qquad G[u]=G[-u].
+\]
+The metric reconstructs a timelike line, not a time orientation. A separate \(\mathbb Z_2\) lift may be required globally.
 
-## SO(4) / Whirligig bridge
+## SO(4) / moving-frame bridge
 
-For (Omegainmathfrak{so}(4)),
-[
-S=-rac12operatorname{tr}Omega^2,qquad P=operatorname{Pf}(Omega)
-]
-give the two canonical 4D rotation rates
-[
-alpha^2,eta^2=
-rac{Spmsqrt{S^2-4P^2}}2.
-]
+For \(\Omega\in\mathfrak{so}(4)\),
+\[
+S=-\frac12\operatorname{tr}\Omega^2,\qquad
+P=\operatorname{Pf}(\Omega)
+\]
+give canonical rates
+\[
+\alpha^2,\beta^2
+=
+\frac{S\pm\sqrt{S^2-4P^2}}2.
+\]
 
-For the ordinary 4D Frenet generator,
-[
-S=kappa_1^2+kappa_2^2+kappa_3^2,qquad
-P=kappa_1kappa_3.
-]
+For the 4D Frenet generator,
+\[
+S=\kappa_1^2+\kappa_2^2+\kappa_3^2,
+\qquad
+P=\kappa_1\kappa_3.
+\]
 
-Therefore the Whirligig two-rate description can be tested as a spectral compression of ordinary 4D moving-frame geometry.
+Therefore the Whirligig two-rate description is testable as a spectral compression of ordinary 4D moving-frame geometry.
 
-Equal canonical rates require the special locus
-[
-kappa_2=0,qquad |kappa_1|=|kappa_3|.
-]
+Equal rates require the special locus
+\[
+\kappa_2=0,\qquad |\kappa_1|=|\kappa_3|.
+\]
 
 ## Recursive/superhelix bridge
 
-A global similarity (Y=rQgamma) cannot create new winding scales or turn a helix into a genuine superhelix.
+A global similarity
+\[
+Y=rQ\gamma
+\]
+cannot create a new winding scale.
 
-A local frame (R(s)) can.
+A local frame \(R(s)\) can.
 
 For a Bishop-frame child
-[
-X=C+ho(N_1cos	heta+N_2sin	heta),
-]
-the exact recursive arclength law is
-[
-left(rac{dell}{ds}ight)^2=
-(1-hokappa_{m rad})^2+(ho	heta')^2.
-]
+\[
+X=C+\rho(N_1\cos\theta+N_2\sin\theta),
+\]
+the exact arclength law is
+\[
+\left(\frac{d\ell}{ds}\right)^2
+=
+(1-\rho\kappa_{\rm rad})^2+(\rho\theta')^2.
+\]
 
-This gives a curvature-phase modulation of recursive propagation and a focal/tube regularity gate near (hokappasim1).
+This gives curvature-phase modulation and a tube/focal regularity gate near \(\rho\kappa\sim1\).
 
 ## Scale/readout bridge
 
 For the exact Three-Spheres carrier
-[
-ho^2=R^2-d^2/3,
-]
-constant similarity scaling (q) preserves
-[
-d/R,quad ho/R,quad kappa R,
-]
-and the normalized collapse point (d/(sqrt3R)=1).
+\[
+\rho^2=R^2-d^2/3,
+\]
+constant similarity \(q\) preserves
+\[
+d/R,\qquad \rho/R,\qquad \kappa R,
+\]
+and the normalized collapse point
+\[
+d/(\sqrt3R)=1.
+\]
 
-Therefore constant UI scale is a ruler change. Local scale gradients
-[
-partial_sln q
-]
-are where new local geometry enters.
+Constant \(q\) is a ruler change. Local \(\partial_s\ln q\) is new differential geometry.
 
 ## Finite-core branch structure
 
-The exact fixed-span quadratic-contact inverse map has exactly one positive fold.
+Inside the frozen quadratic-contact finite-slab model, the fixed-span inverse map has exactly one positive fold.
 
-Using
-[
-t=sqrt{rac{1-r}{1+r}},
-]
+With
+\[
+t=\sqrt{\frac{1-r}{1+r}},
+\]
 the fold condition reduces to
-[
+\[
 3t^5+5t^3-2=0,
-]
-which has one positive root because its derivative is strictly positive for (t>0).
+\]
+whose positive root is unique because the derivative is strictly positive for \(t>0\).
 
-Thus a binary inverse-sheet label (	au) has a principled origin in the frozen finite-core model, but its stability under higher-order contact corrections still needs testing.
+Thus a binary inverse-sheet label \(\tau\) has a principled mathematical origin in that model. Structural stability under higher-order contact and anisotropic fiber corrections remains open.
 
 ## Worldtube mechanics
 
-A local load on an extended 4D filament can produce a distributed static response through ordinary tension/bending mechanics:
-[
-B y''''-Ty''+mu^2y=Fdelta(s).
-]
+A local load on an extended filament can produce a distributed static response through ordinary tension/bending mechanics:
+\[
+B y''''-Ty''+\mu^2y=F\delta(s).
+\]
 
-This gives a conventional alternative to treating every separated response along a worldtube as literal retrocausal action-at-a-distance. Static block geometry and causal relaxation must be distinguished and cross-tested.
+This supplies a conventional extended-object response mechanism that must be distinguished from literal backwards-in-time signalling.
 
-## Current strongest convergences
+## Current strongest exact/near-exact convergences
 
-- UI global map -> local H(s)H connection: increasingly strong.
-- SO(4) six-channel rotation -> two canonical rates: exact.
-- 4D Frenet moving-frame generator -> same two-rate invariants: exact.
-- 3+1 expansion anisotropy -> Lorentz algebra + Householder invariant metric: exact algebraically.
-- Constant UI scale -> dimensionless Three-Spheres invariants unchanged: exact.
-- Recursive child speed law in Bishop frame: exact.
-- Finite-slab fold uniqueness in frozen quadratic-contact model: analytic theorem.
+- six SO(4) rotation channels → two canonical invariant rates;
+- 4D Frenet generator → the same two-rate invariants;
+- 3+1 expansion anisotropy → Lorentz algebra + Householder invariant metric;
+- global UI similarity cannot generate higher-order winding;
+- constant UI scale leaves dimensionless Three-Spheres invariants fixed;
+- recursive Bishop-frame speed law;
+- finite-slab fold uniqueness in the frozen quadratic-contact model;
+- stretch/rotation noncommutation produces shear and closed-loop order residue.
 
-## Open high-priority discriminators
+## Highest-value discriminators
 
-1. Reconstruct actual archived finite-step maps (F) and compare polar (R,U) to native rotation/strain solvers.
-2. Compare Whirligig two-rate output blindly against Frenet/SO(4) invariant rates.
-3. Run pointwise expansion-tensor -> blind invariant-metric -> Householder metric -> curvature chain on a nontrivial field.
-4. Test (de^a) compatibility/closure defects under mesh refinement.
-5. Test all six plane commutator/shear and loop-holonomy reconstructions against one hidden four-axis stretch field.
-6. Test whether recursive Bishop correction materially accumulates over multiple ᚼ levels.
-7. Test variable (q(s)) in SPHERES4; isolate first departures from constant-scale invariants.
-8. Test finite-core fold stability under cubic/quartic contact and anisotropic fiber corrections.
-9. Run (Z_2) eigenline orientation holonomy blindly on actual expansion-field meshes.
-10. Keep topology/branch data separate from local matrix deformation until a derivation proves otherwise.
+1. Blindly reconstruct \(F(s)\) from actual archived UI/Whirligig/superhelix fixtures.
+2. Compare polar \(R,U\), Frenet \(\kappa_i\), and canonical \(\alpha,\beta\) on the same hidden curve.
+3. Run expansion tensor → generated Lorentz algebra → blind invariant metric → Householder metric → curvature pointwise on a nontrivial field.
+4. Measure \(de^a\) under mesh refinement to distinguish incompatibility from numerical residue.
+5. Test all six plane differences against one hidden four-axis stretch field and its cycle-closure identities.
+6. Quantify accumulation of the Bishop recursion correction over multiple ᚼ levels.
+7. Test variable \(q(s)\) in SPHERES4.
+8. Perturb the finite-core fold away from quadratic contact.
+9. Run the \(\mathbb Z_2\) eigenline-lift solver on actual meshes.
+10. Keep topology, inverse-branch data, and orientation-lift data separate from local matrix deformation until a derivation identifies them.
 
-## Recent Meridian durable checkpoints
+## Durable checkpoint chain
 
-- 47e272741efe92e10ec7b7bfbe4f1634c4e841cd — cone-curvature gate.
-- a926edd513cc10e4e045715f1e71363e49619254 — stretch cycle closure.
-- 4594abc13a60d8411afe04def488e83ae135920e — Householder flow curvature.
-- 430cb611320adcde463709b3a93dd9bfaaa85aca — finite-slab fold uniqueness.
-- da961af16ebe81afa9dd904618220f9e99ba31d2 — basis-free Lorentz recovery.
-- 8c3ab1c430485c7329b2fbaac0d55b39280fc04d — global UI no-go / local connection.
-- 202f88beb49dd3f7d9a2a3b1d292ec00290dc59e — Frenet to SO(4) rate map.
-- 4d0bfb4b43edf03a09da4d02670b4e876ceacf9e — recursive Bishop speed law.
-- cd34b191ac8616acbdbeb06478b682c2ca0f903b — scale-covariant carrier gate.
-- 5985bf9629888d8ec3ffe4d4fbd667259e81fe19 — Z2 time-orientation gate.
-
-## Working compression
-
-The cleanest current sandbox picture is:
-
-[
-oxed{
-	ext{SAT}=	ext{4D Euclidean transformation map}
-}
-]
-
-and
-
-[
-oxed{
-	ext{H(s)H}=	ext{local derivatives, noncommutation, incompatibility, finite-core branch structure, and worldtube mechanics of that map}.
-}
-]
+Recent relevant commits include the cone-curvature gate, stretch-cycle closure, Householder curvature, finite-slab fold theorem, basis-free Lorentz recovery, global-UI no-go/local-connection upgrade, Frenet-to-SO(4) rate map, recursive Bishop law, scale-covariant carrier gate, and Z2 orientation gate.
 
 Nothing in this file is promoted to canonical theory.
