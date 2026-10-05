@@ -1,0 +1,119 @@
+{
+  "status": "STD/DERIVED generalized least-squares operator; SAT/CANDIDATE readout discriminator",
+  "operator": {
+    "delta": "K_test-K_cal",
+    "design_columns": [
+      "vec(K_cal B)",
+      "vec(K_cal V)"
+    ],
+    "covariance_per_row": "C(p_cal)/n_cal + C(p_test)/n_test",
+    "fit": "theta_hat=(G^T W G)^+ G^T W vec(delta)",
+    "residual": "R_perp=delta-K_cal(theta_b B+theta_v V)",
+    "statistic": "T_perp=vec(R_perp)^T W vec(R_perp)"
+  },
+  "fixtures": {
+    "common_bv": {
+      "theta_b_v": [
+        0.0010000000000000135,
+        0.00029999999999993384
+      ],
+      "total_norm2": 0.00013456682625946119,
+      "residual_norm2": 2.110209097486129e-29,
+      "explained_fraction": 1.0,
+      "row_covariance_ranks": [
+        2,
+        3,
+        4,
+        3,
+        2
+      ],
+      "observable_rank": 14,
+      "basis_rank": 2,
+      "residual_rank": 12,
+      "cone_admissible": true
+    },
+    "terminal_row0_leak": {
+      "theta_b_v": [
+        0.00011987695065838742,
+        0.00012002626525617109
+      ],
+      "total_norm2": 1.168905010159267e-05,
+      "residual_norm2": 8.780240023708532e-06,
+      "explained_fraction": 0.24884914108527978,
+      "row_covariance_ranks": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "observable_rank": 8,
+      "basis_rank": 2,
+      "residual_rank": 6,
+      "cone_admissible": false
+    },
+    "interior_row2_leak": {
+      "theta_b_v": [
+        0.00012115883035942755,
+        1.434636200594884e-20
+      ],
+      "total_norm2": 5.97397523177047e-06,
+      "residual_norm2": 4.498976197969117e-06,
+      "explained_fraction": 0.24690410933696094,
+      "row_covariance_ranks": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "observable_rank": 8,
+      "basis_rank": 2,
+      "residual_rank": 6,
+      "cone_admissible": true
+    },
+    "mixture": {
+      "theta_b_v": [
+        0.0011000613145305553,
+        0.0003999913274081118
+      ],
+      "total_norm2": 0.00017587304557341524,
+      "residual_norm2": 8.922310540972437e-06,
+      "explained_fraction": 0.9492684594624367,
+      "row_covariance_ranks": [
+        2,
+        3,
+        4,
+        3,
+        2
+      ],
+      "observable_rank": 14,
+      "basis_rank": 2,
+      "residual_rank": 12,
+      "cone_admissible": true
+    }
+  },
+  "mirror_covariance_checks": {
+    "common_bv": {
+      "b_difference": -3.165870343657673e-17,
+      "v_sum_should_zero": 2.482822974991805e-17,
+      "residual_norm2_difference": 1.461526344320381e-31
+    },
+    "terminal_row0_leak": {
+      "b_difference": -6.776263578034403e-20,
+      "v_sum_should_zero": 9.486769009248164e-20,
+      "residual_norm2_difference": -3.3881317890172014e-21
+    },
+    "interior_row2_leak": {
+      "b_difference": 0.0,
+      "v_sum_should_zero": 2.869272401189768e-20,
+      "residual_norm2_difference": 0.0
+    },
+    "mixture": {
+      "b_difference": -2.970713952610282e-17,
+      "v_sum_should_zero": 1.1817803680091998e-17,
+      "residual_norm2_difference": -4.658681209898652e-19
+    }
+  },
+  "failure": "A fixed chi-square reference is not justified at structural-zero or cone boundaries; calibrate T_perp by a parametric bootstrap from the fitted common-channel model. Rank deficiency of G^T W G also makes b,v non-identifiable."
+}
