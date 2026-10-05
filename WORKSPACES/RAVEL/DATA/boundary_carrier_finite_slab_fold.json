@@ -1,0 +1,19 @@
+{
+  "boundary_S2_continuity_at_one": -5.026556948450889e-09,
+  "boundary_S2_fixed_span_measure_max": 6.482636829748697,
+  "boundary_S2_fold_polynomial_residual": -4.440892098500626e-16,
+  "boundary_S2_lambda_star": 0.6241059479219366,
+  "boundary_S2_small_lambda_relative_error": 1.1389786891413678e-09,
+  "boundary_S2_thin_slope": 35.54306350526693,
+  "boundary_minus_bulk_fold": 0.2554434748534538,
+  "bulk_B3_F_at_lambda_star": 5.094237872622269,
+  "bulk_B3_continuity_at_one": -1.3404140020156774e-09,
+  "bulk_B3_fixed_span_measure_max": 1.6984077446590944,
+  "bulk_B3_fold_shift_from_thin": -0.0313375269315172,
+  "bulk_B3_lambda_star": 0.3686624730684828,
+  "bulk_B3_large_lambda_scaled": 11.84765821633348,
+  "bulk_B3_small_lambda_ratio_F_over_lambda": 14.217225409421225,
+  "bulk_B3_small_lambda_relative_error": 5.144782377897172e-10,
+  "bulk_B3_thin_slope": 14.217225402106772,
+  "thin_prediction_lambda": 0.4
+}
