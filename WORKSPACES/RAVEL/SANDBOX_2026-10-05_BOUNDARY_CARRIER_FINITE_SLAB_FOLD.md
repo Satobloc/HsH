@@ -14,7 +14,7 @@
 
 ### Search and comparison coverage
 
-- Front-door and current Common control surfaces were read before the construction resumed. Mersearch 1.0 request `2026-10-05-ravel-finite-slab-fold-001` was submitted with query `("slab thickness" OR "finite slab" OR "resolving thickness" OR timesheet) AND (flow OR intersection OR particle OR worldtube)` against the SAT archive; the request bridge had not yet published a result at checkpoint drafting time, so no Mersearch hit is treated as evidence here.
+- Front-door and current Common control surfaces were read before the construction resumed. Mersearch 1.0 request `2026-10-05-ravel-finite-slab-fold-001` was submitted with query `("slab thickness" OR "finite slab" OR "resolving thickness" OR timesheet) AND (flow OR intersection OR particle OR worldtube)` against the SAT archive. [Bridge run 37384300257](https://github.com/Satobloc/HsH/actions/runs/37384300257) had completed checkout, input capture, and validation and was still executing the pinned search at checkpoint close; no Mersearch hit is treated as evidence here.
 - Google Drive targeted search `finite slab tangency resolving thickness identifiability`: zero results.
 - Public Slack search in `#all-hsh-working-group-one`, after 2026-09-24: exact phrase `finite slab` returned zero; `tangency AND fold` exposed prior Ravel messages that cited Runs 104/105. This collision check is why the independently reconstructed `B^3` fold is treated as regression, not novelty.
 
