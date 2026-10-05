@@ -1,0 +1,61 @@
+{
+  "status": "STD/DERIVED nonregular support test; SAT/CANDIDATE readout discriminator",
+  "nominal_adjacent_assignment": 0.019029522168779844,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "cases": {
+    "coherent": {
+      "cells": 3,
+      "signal_per_open_cell": 4.520926592671127e-06,
+      "rows": [
+        {
+          "floor_probability_per_cell": 0.0,
+          "labels_per_affected_row": 118666,
+          "aggregate_critical_count": 1,
+          "power": 0.8000013101550114
+        },
+        {
+          "floor_probability_per_cell": 1e-08,
+          "labels_per_affected_row": 118404,
+          "aggregate_critical_count": 1,
+          "power": 0.8000010461050476
+        },
+        {
+          "floor_probability_per_cell": 1e-07,
+          "labels_per_affected_row": 116098,
+          "aggregate_critical_count": 1,
+          "power": 0.8000013625552638
+        },
+        {
+          "floor_probability_per_cell": 1e-06,
+          "labels_per_affected_row": 258352,
+          "aggregate_critical_count": 3,
+          "power": 0.8000004709143269
+        },
+        {
+          "floor_probability_per_cell": 1e-05,
+          "labels_per_affected_row": 1281675,
+          "aggregate_critical_count": 50,
+          "power": 0.8000006916340306
+        },
+        {
+          "floor_probability_per_cell": 0.0001,
+          "labels_per_affected_row": 10305394,
+          "aggregate_critical_count": 3184,
+          "power": 0.8000011387516773
+        }
+      ]
+    }
+  },
+  "exact_zero_blur": {
+    "signal_per_open_cell": 5.388447071117123e-06,
+    "opened_cells": 6,
+    "labels_per_affected_row": 49781,
+    "power": 0.800004314175919
+  },
+  "scaling": {
+    "exact_zero": "local opened-cell probability h/n gives O(1) Poisson counts; detection is O(1/n)",
+    "positive_floor": "regular local change is O(1/sqrt(n)); burden depends on the measured floor"
+  },
+  "failure": "If nominal zeros are only unmeasured tails, treating them as structural makes the zero-false-positive gate anti-conservative. Measure or upper-bound every opened-cell floor before using this branch."
+}
