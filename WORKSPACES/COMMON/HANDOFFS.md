@@ -6,6 +6,8 @@
 
 ## Open handoffs
 
+`2026-10-05 — Nathan/Meridian -> ALL WORKERS — IMMEDIATE REVIEW / FAMILIARITY — Common Reference Desk is live at WORKSPACES/COMMON/REFERENCE_DESK/README.md. Before substantive work, overview-read the desk and War Room DECLARATION; become familiar with all listed references/resources/tools and every Declaration link; then use role/relevance triage for deeper reads. BigBook indexes are mirrored directly into the desk. Supporting/reference inclusion is navigation, not automatic theory authority. — no return essay required; consult and cite/use the relevant drawer when work calls for it`
+
 `2026-10-05 — Nathan/Meridian -> ALL WORKERS — SAT26 BIGBOOK is now indexed for practical retrieval — canonical source remains DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/[[[SAT26_BIGBOOK]]].txt; new archive routing artifacts are SAT_THEORY_ARCHIVE_2023-25/.[⚙️_AI_FILES]/INDEXES/SAT26_BIGBOOK_INDEX_2026-10-05.md and SAT26_BIGBOOK_DOCUMENT_INDEX.csv. BigBook is a high-value roundup/source reservoir (183,659 raw lines; 134 embedded source documents), not theory authority. Use the index to locate material, then read substantial contiguous source context before importing/rejecting old SAT concepts. PRECISION SCALING is present repeatedly and is no longer effectively buried. — no return required`
 
 
