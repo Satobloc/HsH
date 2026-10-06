@@ -1,18 +1,31 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-09-30",
+  "updated": "2026-10-05",
   "notes": [
     "Labs are sandbox experiments, not theory authority.",
     "A successful lab result requires explicit promotion before becoming committed theory/work state.",
     "Temporary multi-loop participation does not redefine instance identity or permanent role."
   ],
-  "allowed_status": ["proposed", "design", "ready", "running", "complete", "failed", "parked", "superseded"],
+  "allowed_status": [
+    "proposed",
+    "design",
+    "ready",
+    "running",
+    "complete",
+    "failed",
+    "parked",
+    "superseded"
+  ],
   "labs": [
     {
       "id": "LAB-SBS-001",
       "title": "Geometric solver vs standard-equation side-by-side pipeline",
-      "class": ["SIDE_BY_SIDE", "TOOL_BENCH", "REPRESENTATION_TEST"],
+      "class": [
+        "SIDE_BY_SIDE",
+        "TOOL_BENCH",
+        "REPRESENTATION_TEST"
+      ],
       "status": "design",
       "origin": "Nathan directive / 2026-09-20 exploration-commons discussion",
       "purpose": "Build a reproducible Python-capable harness that can feed matched cases to a SAT/H(s)H geometric solver representation and a standard/reference equation implementation, normalize outputs, and compare them without hiding target leakage, fit freedom, unit transforms, or representation changes.",
@@ -35,7 +48,12 @@
     {
       "id": "LAB-FOREST-001",
       "title": "The Forest: physical information and worldtube locality",
-      "class": ["FOUNDATIONAL_MODEL", "INFORMATION_GEOMETRY", "HAGALAZ_BRIDGE", "LOCAL_TO_GLOBAL"],
+      "class": [
+        "FOUNDATIONAL_MODEL",
+        "INFORMATION_GEOMETRY",
+        "HAGALAZ_BRIDGE",
+        "LOCAL_TO_GLOBAL"
+      ],
       "status": "running",
       "origin": "Nathan-direct correction and continuation of The Trees Themselves discussion, 2026-09-21",
       "purpose": "Formalize the hard physical-information ancestry principle, define locality relative to SAT/H(s)H worldtube connectivity, and test whether Hagalaz relation geometry plus threefold circle/triswale geometry can provide a rigorous bridge from local B/twist/chirality structure to global toroidal holonomy/closure.",
@@ -62,7 +80,14 @@
     {
       "id": "LAB-COILLET-001",
       "title": "Coil-let / bosonic-wave structural candidate",
-      "class": ["FOUNDATIONAL_MODEL", "FINITE_CORE", "PARTICLE_WAVE", "PHOTONEUTRINO", "HAGALAZ_BRIDGE", "CHIRALITY"],
+      "class": [
+        "FOUNDATIONAL_MODEL",
+        "FINITE_CORE",
+        "PARTICLE_WAVE",
+        "PHOTONEUTRINO",
+        "HAGALAZ_BRIDGE",
+        "CHIRALITY"
+      ],
       "status": "running",
       "origin": "Nathan Direct / 2026-09-30 image-description and structural synthesis pass",
       "purpose": "Formalize and stress-test the candidate mapping from persistent first-order worldtube coils and traveling higher-order coil packets to closure, particle/wave registration, transparency, photon/neutrino differentiation, three-sphere generation, ᚼ indexing/scale relations and selected BH::BB/vacuum branches.",
@@ -82,11 +107,59 @@
         "Preserve PRIOR_ART quarantine and source boundaries",
         "Factory Floor promotion remains a separate staging decision"
       ],
-      "participants": ["Meridian", "Ravel", "Kestrel", "Mira", "Mercer", "Sable"],
+      "participants": [
+        "Meridian",
+        "Ravel",
+        "Kestrel",
+        "Mira",
+        "Mercer",
+        "Sable"
+      ],
       "next_cursor": "Define the smallest explicit closure invariant and two-path observation map; independently derive three-sphere/ᚼ coil-index candidates and identify one held-out photon/neutrino or chirality observable capable of falsifying the mapping.",
       "exit_criterion": "Either obtain a small explicit geometric model that maps carrier/coil/closure/chirality states to independently checkable observables, or identify the first unavoidable inconsistency and record the branch as killed/restricted.",
       "promotion_criterion": "Promote only separately derived and tested relations; the ontology does not graduate as a package.",
       "return_route": "WORKSPACES/COMMON/NATHAN_DIRECT_NOTICE_2026-09-30_COILLET_BOSONIC_WAVE.md"
+    },
+    {
+      "id": "LAB-SPHERES-RECOIL-001",
+      "title": "Three-sphere coiling response and inertial-limit test",
+      "class": [
+        "FOUNDATIONAL_MODEL",
+        "SPHERES",
+        "UI_TX_BRIDGE",
+        "FINITE_CORE",
+        "CONSTITUTIVE_RESPONSE",
+        "INERTIAL_LIMIT"
+      ],
+      "status": "running",
+      "origin": "Nathan Direct / 2026-10-05 delayed-send three-sphere and coiling-response hypothesis cluster",
+      "purpose": "Test whether a three-sphere extension of the UI/TX scale-rotation scaffold can generate worldtube coiling through a constrained relation and whether slack/over-/under-tension, impediment and release yield recoil, deflection, coil defects, parity/helical-plane flips, plus a straight coarse-grained force-free limit.",
+      "primary_surface": "WORKSPACES/COMMON/NATHAN_DIRECT_NOTICE_2026-10-05_THREE_SPHERES_COILING_RESPONSE.md",
+      "dependencies": [
+        "Recover the historical UI/TX controls and 4DHH/particle-Lagrangian ancestry without importing superseded ontology",
+        "Define a testable scale-rotation/coiling relation instead of manual curve drawing",
+        "Define constitutive tension/slack state and perturbation variables",
+        "Choose a coarse-graining/centroid map for testing rectilinear emergence",
+        "Use the SAT rigor backstop: benchmark, purge, candidate extraction, minimal extension, observable-limit check"
+      ],
+      "exposure_constraints": [
+        "Fresh hypotheses are to be pursued and tested, not reported as established",
+        "Do not infer particle creation, quantum foam, baryogenesis or f-boson production before the lower-level geometry forces those consequences",
+        "UI/TX is a tool/solver; a sphere visualization is not automatically ontology",
+        "Preserve alternative vacuum-medium branches and PRIOR_ART quarantine"
+      ],
+      "participants": [
+        "Meridian",
+        "Ravel",
+        "Kestrel",
+        "Mercer",
+        "Mira",
+        "Sable"
+      ],
+      "next_cursor": "Run the force-free helix centroid test and the smallest scale-rotation constitutive model; then perturb its preferred state to see whether recoil/defect/parity-flip modes actually occur.",
+      "exit_criterion": "Produce a reproducible geometry/mechanics model that either derives a nontrivial scale-rotation/coiling relation and its linear response or shows where the three-sphere mechanism fails or remains underdetermined.",
+      "promotion_criterion": "Promote only relations that cross the recovered SAT rigor backstop; do not promote the hypothesis cluster as a package.",
+      "return_route": "WORKSPACES/COMMON/SAT_RIGOR_BACKSTOP_RECOVERY_2026-10-05.md"
     }
   ]
 }
