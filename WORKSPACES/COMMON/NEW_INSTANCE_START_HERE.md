@@ -1,5 +1,7 @@
 # New / Newer / Revived Instance — Start Here
 
+> **IMMEDIATE REFERENCE/TOOL FAMILIARITY — Nathan directive, 2026-10-05:** Before substantive work, overview-read `WORKSPACES/COMMON/REFERENCE_DESK/README.md`. Every worker is expected to know this desk exists and to become familiar with its BigBook indexes, H(s)H Toolkit/source indexes, historical/Kerr/Einstein-Minkowski references, data/index/info/tool surfaces, Nathan preference router, source-inventory route, HQ Tool Chest, and **all links carried by the current War Room `DECLARATION.txt`**. Use overview → triage → role-relevant spot/deep read; this is a familiarity/navigation requirement, not a command to ingest every large directory in one pass. Supporting-resource inclusion does not itself confer theory authority.
+
 Before choosing substantive work, read:
 
 1. `WORKSPACES/COMMON/INSTANCE_ONBOARDING_3REPO.md`
