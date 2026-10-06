@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Resolve the P9 local-response zero on each side of one contact stratum.
+"""Probe smaller P9 moment amplitudes on each side of a contact stratum.
 
-The coarse audit used amplitudes larger than the +/-1e-4 offset from the
-base16 contact threshold.  Those probes crossed the kink and therefore could
-not establish a true same-stratum delta->0 limit.  This script uses amplitudes
-strictly smaller than that offset.
+Important type correction: delta perturbs the ninth morphology moment; it
+does not perturb support asymmetry a. No delta probe crosses the contact
+threshold. This script only diagnosed the subtractive numerical floor of the
+paired-norm quotient at two fixed, separately stratified support settings.
 """
 from __future__ import annotations
 
