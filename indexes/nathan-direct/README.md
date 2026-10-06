@@ -2,21 +2,21 @@
 
 Generated from raw ChatGPT conversation metadata plus the archive-wide layered autotag stream. This surface preserves exact `role=user` text, provenance, accumulated machine tags, duplicate-path relationships, chronological neighboring-message pointers, and raw parent/child branch pointers. It is not a curated quote collection and carries no automatic theory authority.
 
-- input records: 111746
-- input user records: 31732
-- packaged unique user messages: 16741
-- archive duplicate user records collapsed: 14991
-- context dependent inherited tag records: 16039
+- input records: 112898
+- input user records: 32198
+- packaged unique user messages: 16925
+- archive duplicate user records collapsed: 15273
+- context dependent inherited tag records: 16223
 - records missing conversation or message id: 0
-- records with resolved parent graph pointer: 15990
-- records with child graph pointer: 10838
+- records with resolved parent graph pointer: 16174
+- records with child graph pointer: 10894
 
 ## Shards
 
 - `nathan-direct-2023.jsonl` — 305 records
 - `nathan-direct-2024.jsonl` — 308 records
 - `nathan-direct-2025.jsonl` — 5668 records
-- `nathan-direct-2026.jsonl` — 10460 records
+- `nathan-direct-2026.jsonl` — 10644 records
 
 ## Lookup
 
