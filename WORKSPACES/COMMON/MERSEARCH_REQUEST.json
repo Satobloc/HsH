@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-06-meridian-transport-history-holonomy-001",
-  "query": "((transport OR \"path ordered\" OR \"path-ordered\" OR connection OR holonomy OR \"frame history\") NEAR/40 (SO(4) OR rotation OR \"Universal Indicatrix\" OR superhelix OR worldline OR filament))"
+  "request_id": "2026-10-06-orson-whirligig-isomorphism-archaeology-001",
+  "query": "(Whirligig OR whirligig OR \"one drop\" OR onedrop OR unodrop OR \"uno drop\" OR standalone) AND (GR OR gravity OR relativistic OR quantum OR QM OR isomorphism OR hydrogen OR perihelion OR spectrum)"
 }
