@@ -41,7 +41,7 @@ def card(image,pred,gate,rec,review_only=False):
     detail=(f'<div class="source-note">{html.escape(note)}</div>' if note else '')
     tags=(f'<div class="labels">{html.escape(labels)}</div>' if labels else '')
     ro='<span class="ro">review-only sample</span>' if review_only else ''
-    return f'''<tr data-image="{key}">
+    return f'''<tr data-image="{key}" data-guess="{html.escape(guess,quote=True)}">
 <td class="thumb">{thumb}</td>
 <td class="review">
 <div class="path">{html.escape(short(image))} {ro}</div>
@@ -120,7 +120,7 @@ for(const row of document.querySelectorAll('tr[data-image]')){{try{{loadRow(row,
 document.getElementById('save').onclick=()=>{{for(const row of document.querySelectorAll('tr[data-image]'))saveRow(row);const t=new Date().toISOString();localStorage.setItem(PREFIX+'saved',t);status.textContent='✓ saved locally · '+t;status.style.color='#166534'}};
 function packet(){{
  const items=[];
- for(const row of document.querySelectorAll('tr[data-image]')){{let d;try{{d=JSON.parse(localStorage.getItem(keyFor(row,'data'))||'null')}}catch(e){{}};if(!d){{d={{}};for(const r of row.querySelectorAll('input[type=radio]'))if(r.checked)d[r.name.startsWith('accuracy:')?'accuracy':'resource']=r.value;d.keywords=row.querySelector('.keywords').value;d.comments=row.querySelector('.comments').value}};if(d.accuracy||d.resource||d.keywords||d.comments)items.push({{image:row.dataset.image,...d}})}}
+ for(const row of document.querySelectorAll('tr[data-image]')){{let d;try{{d=JSON.parse(localStorage.getItem(keyFor(row,'data'))||'null')}}catch(e){{}};if(!d){{d={{}};for(const r of row.querySelectorAll('input[type=radio]'))if(r.checked)d[r.name.startsWith('accuracy:')?'accuracy':'resource']=r.value;d.keywords=row.querySelector('.keywords').value;d.comments=row.querySelector('.comments').value}};if(d.accuracy||d.resource||d.keywords||d.comments)items.push({{image:row.dataset.image,reviewed_guess:row.dataset.guess,...d}})}}
  return {{schema_version:'0.2',source:'Nathan visual-review UI',run_number:{int(state.get("run_number",0))},exported_utc:new Date().toISOString(),items}};
 }}
 document.getElementById('export').onclick=()=>{{document.getElementById('save').click();const blob=new Blob([JSON.stringify(packet(),null,2)+'\n'],{{type:'application/json'}});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='visual_review_run_{int(state.get("run_number",0))}.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}};
