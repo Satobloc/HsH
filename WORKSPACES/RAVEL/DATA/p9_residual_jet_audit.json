@@ -1,0 +1,757 @@
+{
+  "status": "sandbox optimized-residual jet audit; not canonical theory",
+  "definition": {
+    "residual_jet": "e(delta)=c1 delta+c2 delta^2+c3 delta^3+c4 delta^4",
+    "local_response": "F0=SCALE*2<c1,c2>/<c1,c1>",
+    "important_type_note": "delta perturbs the P9 moment; it does not perturb support a or cross a contact stratum"
+  },
+  "amplitudes": [
+    0.00035,
+    0.0007,
+    0.00105,
+    0.0014,
+    0.0021,
+    0.0028
+  ],
+  "windows": {
+    "narrow": 0.0014,
+    "wide": 0.0028
+  },
+  "base_contact_threshold": 0.06125742185040761,
+  "evaluations": [
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "o": -0.02272090410538863,
+      "coarse_root": -0.021720904105388628,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9091983.349743284,
+          "B_delta3": -153335.19230114925,
+          "F_B_over_A": -4.2162195640591096e-05,
+          "residual_jet_rmse_sigma": 1.2744432093663954e-07,
+          "max_residual_jet_error_sigma": 6.746205234442471e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9091655.592719503,
+          "B_delta3": -357085.3720283287,
+          "F_B_over_A": -9.819041438235923e-05,
+          "residual_jet_rmse_sigma": 0.00012447601168182073,
+          "max_residual_jet_error_sigma": 0.0013071003138012127
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 12099.58170593366,
+        "max_hessian_condition": 3684.924473940287,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.4224732503009818e-16,
+        "max_fit_cost": 28.728205291321906
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "o": -0.021720904105388628,
+      "coarse_root": -0.021720904105388628,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9086390.861980945,
+          "B_delta3": -315.3864095939789,
+          "F_B_over_A": -8.677438995982746e-08,
+          "residual_jet_rmse_sigma": 1.825221842029874e-07,
+          "max_residual_jet_error_sigma": 1.4089280285234373e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9086105.280951578,
+          "B_delta3": -157604.24444652488,
+          "F_B_over_A": -4.3364081631579765e-05,
+          "residual_jet_rmse_sigma": 8.415269576161728e-05,
+          "max_residual_jet_error_sigma": 0.0007893144752538772
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 12358.610867096584,
+        "max_hessian_condition": 3602.7033503675925,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 2.0122792321330962e-16,
+        "max_fit_cost": 28.730228966815964
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "o": -0.020720904105388627,
+      "coarse_root": -0.021720904105388628,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9081541.829339057,
+          "B_delta3": 144175.67594880657,
+          "F_B_over_A": 3.9689206595687585e-05,
+          "residual_jet_rmse_sigma": 1.227761628766576e-07,
+          "max_residual_jet_error_sigma": 9.462148725103425e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9081297.473885067,
+          "B_delta3": 28515.132410240825,
+          "F_B_over_A": 7.849961002885685e-06,
+          "residual_jet_rmse_sigma": 5.1930178588366384e-05,
+          "max_residual_jet_error_sigma": 0.0003637095529557266
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 12608.586066372389,
+        "max_hessian_condition": 3526.520466803562,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 4.85722573273506e-17,
+        "max_fit_cost": 28.733909074063742
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "o": -0.014083973413683372,
+      "coarse_root": -0.013083973413683371,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9068618.476848878,
+          "B_delta3": -119962.89787520608,
+          "F_B_over_A": -3.3070885654043484e-05,
+          "residual_jet_rmse_sigma": 3.339849281515153e-07,
+          "max_residual_jet_error_sigma": 2.4524288478877665e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9068802.110318936,
+          "B_delta3": 116017.4767060047,
+          "F_B_over_A": 3.1982580305174546e-05,
+          "residual_jet_rmse_sigma": 0.00022454307613684578,
+          "max_residual_jet_error_sigma": 0.002245650367448948
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 13923.364966360137,
+        "max_hessian_condition": 3175.117120159597,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.0755285551056204e-16,
+        "max_fit_cost": 28.79066215959564
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "o": -0.013083973413683371,
+      "coarse_root": -0.013083973413683371,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9069043.47963268,
+          "B_delta3": -9314.321449415758,
+          "F_B_over_A": -2.5676140682129064e-06,
+          "residual_jet_rmse_sigma": 1.7802525685498294e-07,
+          "max_residual_jet_error_sigma": 1.0653468910382102e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9069228.352667868,
+          "B_delta3": 230222.58389416523,
+          "F_B_over_A": 6.34625612405165e-05,
+          "residual_jet_rmse_sigma": 0.00022803478849001536,
+          "max_residual_jet_error_sigma": 0.0022750395786524935
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14049.49858875902,
+        "max_hessian_condition": 3142.963477335422,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 6.086537523986024e-13,
+        "max_fit_cost": 28.80773006936344
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "o": -0.01208397341368337,
+      "coarse_root": -0.013083973413683371,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9070120.08816063,
+          "B_delta3": 99342.20358379581,
+          "F_B_over_A": 2.7381722242428947e-05,
+          "residual_jet_rmse_sigma": 1.79152984549833e-07,
+          "max_residual_jet_error_sigma": 1.1876148778289242e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9070305.066049058,
+          "B_delta3": 343925.642017493,
+          "F_B_over_A": 9.479439762859704e-05,
+          "residual_jet_rmse_sigma": 0.000231715978015568,
+          "max_residual_jet_error_sigma": 0.002303677041814778
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14153.41935828256,
+        "max_hessian_condition": 3116.3907289874805,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 5.790784518566738e-13,
+        "max_fit_cost": 28.826258108979115
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "o": -0.015409098040040554,
+      "coarse_root": -0.014409098040040553,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9002078.944218557,
+          "B_delta3": -119996.0932529245,
+          "F_B_over_A": -3.3324550361222424e-05,
+          "residual_jet_rmse_sigma": 1.1368612154562067e-07,
+          "max_residual_jet_error_sigma": 7.89984508794972e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9002078.803651584,
+          "B_delta3": -119500.15403456171,
+          "F_B_over_A": -3.318682180000688e-05,
+          "residual_jet_rmse_sigma": 2.3596900364838167e-07,
+          "max_residual_jet_error_sigma": 2.0901992274224845e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14317.973177303313,
+        "max_hessian_condition": 3040.868916177995,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 8.326672684688674e-17,
+        "max_fit_cost": 27.9604545558091
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "o": -0.014409098040040553,
+      "coarse_root": -0.014409098040040553,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9001495.394857798,
+          "B_delta3": 337.73446246935055,
+          "F_B_over_A": 9.379954320208981e-08,
+          "residual_jet_rmse_sigma": 1.1566336877733397e-07,
+          "max_residual_jet_error_sigma": 7.037519799690806e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9001494.496006243,
+          "B_delta3": 142.27262470521964,
+          "F_B_over_A": 3.951361209195394e-08,
+          "residual_jet_rmse_sigma": 1.793264815275786e-07,
+          "max_residual_jet_error_sigma": 1.2848605968063254e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14475.889935576995,
+        "max_hessian_condition": 3005.353117473382,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.196959198423997e-16,
+        "max_fit_cost": 27.976556978182092
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "o": -0.013409098040040552,
+      "coarse_root": -0.014409098040040553,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 9001597.753473938,
+          "B_delta3": 116233.48857118166,
+          "F_B_over_A": 3.228134930999453e-05,
+          "residual_jet_rmse_sigma": 1.541391032504699e-07,
+          "max_residual_jet_error_sigma": 1.1652009226925664e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 9001598.479651906,
+          "B_delta3": 116012.8852390605,
+          "F_B_over_A": 3.2220078884130246e-05,
+          "residual_jet_rmse_sigma": 2.1222177602818795e-07,
+          "max_residual_jet_error_sigma": 1.5231550287153617e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14607.355251463101,
+        "max_hessian_condition": 2976.06983791228,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.8041124150158794e-16,
+        "max_fit_cost": 27.994116984639668
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "o": -0.015486249199304223,
+      "coarse_root": -0.014486249199304224,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8999091.003977997,
+          "B_delta3": -119927.7654672442,
+          "F_B_over_A": -3.3316633150567874e-05,
+          "residual_jet_rmse_sigma": 1.6875896875711362e-07,
+          "max_residual_jet_error_sigma": 1.0392119084157159e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8999091.439804137,
+          "B_delta3": -118569.64676906914,
+          "F_B_over_A": -3.293933825492104e-05,
+          "residual_jet_rmse_sigma": 3.467727354134054e-07,
+          "max_residual_jet_error_sigma": 3.4000988486937445e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14309.293957659764,
+        "max_hessian_condition": 3043.9311043016382,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.1449174941446927e-16,
+        "max_fit_cost": 27.941166103992092
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "o": -0.014486249199304224,
+      "coarse_root": -0.014486249199304224,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8998454.911793884,
+          "B_delta3": 600.0337667807471,
+          "F_B_over_A": 1.6670466559606498e-07,
+          "residual_jet_rmse_sigma": 1.4139571317546906e-07,
+          "max_residual_jet_error_sigma": 6.022093945456941e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8998454.560397113,
+          "B_delta3": -59.056106792762876,
+          "F_B_over_A": -1.640729149555117e-08,
+          "residual_jet_rmse_sigma": 2.89966379348753e-07,
+          "max_residual_jet_error_sigma": 1.7836454502262455e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14469.853563711033,
+        "max_hessian_condition": 3007.777475122401,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 7.632783294297951e-17,
+        "max_fit_cost": 27.95712996995327
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "o": -0.013486249199304225,
+      "coarse_root": -0.014486249199304224,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8998509.1610174,
+          "B_delta3": 116335.20215486968,
+          "F_B_over_A": 3.2320687814279133e-05,
+          "residual_jet_rmse_sigma": 2.4683257885006207e-07,
+          "max_residual_jet_error_sigma": 1.7168574295012284e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8998508.095286023,
+          "B_delta3": 116262.3579972547,
+          "F_B_over_A": 3.230045379915815e-05,
+          "residual_jet_rmse_sigma": 2.922567762704615e-07,
+          "max_residual_jet_error_sigma": 1.566387755697063e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14603.42482628491,
+        "max_hessian_condition": 2977.9978120492106,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.5959455978986625e-16,
+        "max_fit_cost": 27.974552711910228
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "o": -0.009962322703285186,
+      "coarse_root": -0.008962322703285185,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8793406.697123969,
+          "B_delta3": -107860.09028114716,
+          "F_B_over_A": -3.0665046550281986e-05,
+          "residual_jet_rmse_sigma": 1.1130577066633053e-07,
+          "max_residual_jet_error_sigma": 8.504621944044333e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8793406.188419681,
+          "B_delta3": -108586.95052899735,
+          "F_B_over_A": -3.087169755446956e-05,
+          "residual_jet_rmse_sigma": 2.970358638238379e-07,
+          "max_residual_jet_error_sigma": 1.997324208802276e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14787.739490527667,
+        "max_hessian_condition": 4107.941104547602,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 3.137524962060212e-13,
+        "max_fit_cost": 27.41139442168894
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "o": -0.008962322703285185,
+      "coarse_root": -0.008962322703285185,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8793142.30990869,
+          "B_delta3": 89.42523077130318,
+          "F_B_over_A": 2.5424708147431253e-08,
+          "residual_jet_rmse_sigma": 2.432109774147503e-07,
+          "max_residual_jet_error_sigma": 1.8801513183008822e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8793141.183790758,
+          "B_delta3": 342.391434924677,
+          "F_B_over_A": 9.734616667927499e-08,
+          "residual_jet_rmse_sigma": 4.053354460002545e-07,
+          "max_residual_jet_error_sigma": 2.6985098812160047e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14831.885530755097,
+        "max_hessian_condition": 4095.3280715525225,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.2986139941162378e-13,
+        "max_fit_cost": 27.41766556460827
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "o": -0.007962322703285184,
+      "coarse_root": -0.008962322703285185,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8793549.82209063,
+          "B_delta3": 107744.07034494088,
+          "F_B_over_A": 3.0631563056102975e-05,
+          "residual_jet_rmse_sigma": 1.9618066976658143e-07,
+          "max_residual_jet_error_sigma": 1.1251419644864313e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8793549.71492356,
+          "B_delta3": 108273.17985103058,
+          "F_B_over_A": 3.078198888990183e-05,
+          "residual_jet_rmse_sigma": 2.3130910740164054e-07,
+          "max_residual_jet_error_sigma": 1.405455722247595e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14827.382718430796,
+        "max_hessian_condition": 4096.264613282265,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 8.301345721939413e-14,
+        "max_fit_cost": 27.425695497586666
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "o": -0.010005745149126846,
+      "coarse_root": -0.009005745149126847,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8790925.97300936,
+          "B_delta3": -108373.42021670763,
+          "F_B_over_A": -3.08196828608968e-05,
+          "residual_jet_rmse_sigma": 1.0061522134461369e-07,
+          "max_residual_jet_error_sigma": 6.173229342154585e-07
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8790925.382388193,
+          "B_delta3": -108647.60597171169,
+          "F_B_over_A": -3.089765901931585e-05,
+          "residual_jet_rmse_sigma": 3.5394202380618974e-07,
+          "max_residual_jet_error_sigma": 2.731279042045287e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14794.576121187336,
+        "max_hessian_condition": 4106.134736161777,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 3.687935373752893e-13,
+        "max_fit_cost": 27.399445670820665
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "o": -0.009005745149126847,
+      "coarse_root": -0.009005745149126847,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8790641.31586287,
+          "B_delta3": -706.22919719934,
+          "F_B_over_A": -2.0084689268487633e-07,
+          "residual_jet_rmse_sigma": 2.2266824455986538e-07,
+          "max_residual_jet_error_sigma": 1.2982113050258315e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8790640.590194482,
+          "B_delta3": -503.9343188563362,
+          "F_B_over_A": -1.433155848216709e-07,
+          "residual_jet_rmse_sigma": 3.4931770245732345e-07,
+          "max_residual_jet_error_sigma": 2.5571897554060863e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14840.125164630459,
+        "max_hessian_condition": 4093.132580449138,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 1.5561336941249948e-13,
+        "max_fit_cost": 27.40566837395556
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "o": -0.008005745149126848,
+      "coarse_root": -0.009005745149126847,
+      "jets": {
+        "narrow": {
+          "max_amplitude": 0.0014,
+          "n_signed_samples": 8,
+          "A_delta2": 8791028.413647808,
+          "B_delta3": 108924.45123694977,
+          "F_B_over_A": 3.097602638499263e-05,
+          "residual_jet_rmse_sigma": 2.2274803448627785e-07,
+          "max_residual_jet_error_sigma": 1.2889775395930059e-06
+        },
+        "wide": {
+          "max_amplitude": 0.0028,
+          "n_signed_samples": 12,
+          "A_delta2": 8791029.370782554,
+          "B_delta3": 107777.55945681629,
+          "F_B_over_A": 3.0649869005960965e-05,
+          "residual_jet_rmse_sigma": 3.427849562251284e-07,
+          "max_residual_jet_error_sigma": 2.664115528627775e-06
+        }
+      },
+      "diagnostics": {
+        "min_hessian_eigenvalue": 14837.031237826548,
+        "max_hessian_condition": 4093.6654613104274,
+        "max_distinct_solutions": 1,
+        "max_lower_moment_drift": 7.407095770073369e-14,
+        "max_fit_cost": 27.413648236141793
+      }
+    }
+  ],
+  "recovered_roots": [
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "coarse_root": -0.021720904105388628,
+      "narrow": {
+        "root_o": -0.021700055238906793,
+        "slope_dF_do": 0.04092570111813919,
+        "linear_fit_rmse": 5.419832681011334e-07,
+        "root_shift_from_coarse": 2.0848866481834594e-05
+      },
+      "wide": {
+        "root_o": -0.020880315260335947,
+        "slope_dF_do": 0.05302018769262224,
+        "linear_fit_rmse": 8.514249456195943e-07,
+        "root_shift_from_coarse": 0.0008405888450526804
+      },
+      "window_root_difference": -0.0008197399785708458
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "coarse_root": -0.013083973413683371,
+      "narrow": {
+        "root_o": -0.012992918312647667,
+        "slope_dF_do": 0.030226303948236194,
+        "linear_fit_rmse": 1.3056379647480734e-07,
+        "root_shift_from_coarse": 9.105510103570372e-05
+      },
+      "wide": {
+        "root_o": -0.015103121479348905,
+        "slope_dF_do": 0.03140590866171123,
+        "linear_fit_rmse": 3.491800465477285e-08,
+        "root_shift_from_coarse": -0.002019148065665534
+      },
+      "window_root_difference": 0.0021102031667012376
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "coarse_root": -0.014409098040040553,
+      "narrow": {
+        "root_o": -0.014399450518371678,
+        "slope_dF_do": 0.03280294983560853,
+        "linear_fit_rmse": 2.9010237453497925e-07,
+        "root_shift_from_coarse": 9.647521668874545e-06
+      },
+      "wide": {
+        "root_o": -0.014399647158516979,
+        "slope_dF_do": 0.03270345034206861,
+        "linear_fit_rmse": 2.464903858664306e-07,
+        "root_shift_from_coarse": 9.450881523574012e-06
+      },
+      "window_root_difference": 1.9664014530053342e-07
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "coarse_root": -0.014486249199304224,
+      "narrow": {
+        "root_o": -0.01447782674839262,
+        "slope_dF_do": 0.03281866048242353,
+        "linear_fit_rmse": 3.1333189999257064e-07,
+        "root_shift_from_coarse": 8.422450911604179e-06
+      },
+      "wide": {
+        "root_o": -0.014479552961454827,
+        "slope_dF_do": 0.032619896027039616,
+        "linear_fit_rmse": 1.4285203896993313e-07,
+        "root_shift_from_coarse": 6.696237849396908e-06
+      },
+      "window_root_difference": 1.7262130622072713e-06
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "coarse_root": -0.008962322703285185,
+      "narrow": {
+        "root_o": -0.008962235055305055,
+        "slope_dF_do": 0.03064830480319241,
+        "linear_fit_rmse": 1.987745762443093e-08,
+        "root_shift_from_coarse": 8.764798013066732e-08
+      },
+      "wide": {
+        "root_o": -0.0089624052882589,
+        "slope_dF_do": 0.030826843222185627,
+        "linear_fit_rmse": 6.7033958069964e-08,
+        "root_shift_from_coarse": -8.258497371550766e-08
+      },
+      "window_root_difference": 1.7023295384617498e-07
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "coarse_root": -0.009005745149126847,
+      "narrow": {
+        "root_o": -0.009005265036304212,
+        "slope_dF_do": 0.03089785462294474,
+        "linear_fit_rmse": 1.315306552260699e-07,
+        "root_shift_from_coarse": 4.801128226355339e-07
+      },
+      "wide": {
+        "root_o": -0.00900150879595692,
+        "slope_dF_do": 0.030773764012638424,
+        "linear_fit_rmse": 9.154948333552135e-09,
+        "root_shift_from_coarse": 4.236353169926807e-06
+      },
+      "window_root_difference": -3.756240347291273e-06
+    }
+  ],
+  "resolver_spread": [
+    {
+      "a": 0.06115742185040761,
+      "min": -0.021700055238906793,
+      "max": -0.008962235055305055,
+      "resolver_spread": 0.012737820183601738
+    },
+    {
+      "a": 0.061357421850407615,
+      "min": -0.01447782674839262,
+      "max": -0.009005265036304212,
+      "resolver_spread": 0.005472561712088408
+    }
+  ],
+  "sided_root_difference": {
+    "base16": 0.008707136926259126,
+    "jitter16": -7.837623002094132e-05,
+    "dense24": -4.302998099915689e-05
+  },
+  "summary": {
+    "max_abs_window_root_difference": 0.0021102031667012376,
+    "max_abs_shift_from_coarse": 9.105510103570372e-05,
+    "max_resolver_spread": 0.012737820183601738,
+    "min_abs_transverse_slope": 0.030226303948236194,
+    "max_narrow_jet_rmse_sigma": 3.339849281515153e-07,
+    "min_hessian_eigenvalue": 12099.58170593366,
+    "max_hessian_condition": 4107.941104547602,
+    "max_distinct_nuisance_solutions": 1,
+    "max_lower_moment_drift": 6.086537523986024e-13
+  }
+}
