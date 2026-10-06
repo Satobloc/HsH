@@ -546,12 +546,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2472
+            "weight": 6.2488
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1648
+            "weight": 4.1659
           },
           {
             "family": "pseudo-correlation",
@@ -611,12 +611,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2472
+            "weight": 6.2488
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1648
+            "weight": 4.1659
           },
           {
             "family": "pseudo-correlation",
@@ -676,12 +676,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2472
+            "weight": 6.2488
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1648
+            "weight": 4.1659
           },
           {
             "family": "pseudo-correlation",
@@ -741,12 +741,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2472
+            "weight": 6.2488
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1648
+            "weight": 4.1659
           },
           {
             "family": "pseudo-correlation",
@@ -806,12 +806,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2472
+            "weight": 6.2488
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.1648
+            "weight": 4.1659
           },
           {
             "family": "pseudo-correlation",
@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 157.0,
+      "alpha": 162.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 157.0,
+      "alpha": 162.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 31,
-  "run_utc": "2026-10-05T22:55:42.419269+00:00",
+  "run_number": 32,
+  "run_utc": "2026-10-06T02:20:29.245307+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
@@ -2420,7 +2420,7 @@
   "validation_updates": [
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
-      "rule": "H12B",
+      "rule": "H12A",
       "target": "podcast_stylesheet",
       "truth": true,
       "verdict": "support",
@@ -2428,14 +2428,6 @@
     },
     {
       "image": "SAT_VISUALS/STYLEsheets/IMG_8875.jpeg",
-      "rule": "H12A",
-      "target": "podcast_stylesheet",
-      "truth": true,
-      "verdict": "support",
-      "weight_sign": "positive"
-    },
-    {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2451,7 +2443,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8877.jpeg",
       "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2467,7 +2459,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8878.jpeg",
       "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2483,7 +2475,7 @@
       "weight_sign": "positive"
     },
     {
-      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "image": "SAT_VISUALS/STYLEsheets/IMG_8883.jpeg",
       "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
@@ -2493,6 +2485,14 @@
     {
       "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
       "rule": "H12A",
+      "target": "podcast_stylesheet",
+      "truth": true,
+      "verdict": "support",
+      "weight_sign": "positive"
+    },
+    {
+      "image": "SAT_VISUALS/STYLEsheets/Image.jpeg",
+      "rule": "H12B",
       "target": "podcast_stylesheet",
       "truth": true,
       "verdict": "support",
