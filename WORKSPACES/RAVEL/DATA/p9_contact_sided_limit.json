@@ -1,0 +1,143 @@
+{
+  "status": "sandbox same-stratum sided-limit audit; not canonical theory",
+  "base_contact_threshold": 0.06125742185040761,
+  "offset_from_threshold": 0.0001,
+  "deltas": [
+    8e-05,
+    4e-05,
+    2e-05,
+    1e-05
+  ],
+  "roots": [
+    {
+      "a": 0.06115742185040761,
+      "delta": 8e-05,
+      "root_o": -0.021719235797299445,
+      "F_at_root": 2.1944518945642443e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.8041124150158794e-16,
+        "min_hessian_eigenvalue": 12437.315578070642,
+        "max_hessian_condition": 3586.788242154677,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.06115742185040761,
+      "delta": 4e-05,
+      "root_o": -0.021591810745270657,
+      "F_at_root": -4.3322268282386195e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.336808689942018e-17,
+        "min_hessian_eigenvalue": 12470.474672641842,
+        "max_hessian_condition": 3576.723154236768,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.06115742185040761,
+      "delta": 2e-05,
+      "root_o": -0.02240003791100279,
+      "F_at_root": 2.6978235748124857e-05,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.163336342344337e-17,
+        "min_hessian_eigenvalue": 12265.563547551727,
+        "max_hessian_condition": 3640.717743571455,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.06115742185040761,
+      "delta": 1e-05,
+      "root_o": -0.02164095024663138,
+      "F_at_root": -1.9564430135666794e-05,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.204170427930421e-17,
+        "min_hessian_eigenvalue": 12458.969932195418,
+        "max_hessian_condition": 3580.3594517018896,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.061357421850407615,
+      "delta": 8e-05,
+      "root_o": -0.01302030616949893,
+      "F_at_root": -1.0369659057360186e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.418476861114186e-17,
+        "min_hessian_eigenvalue": 14284.729787490816,
+        "max_hessian_condition": 3091.4608314301736,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.061357421850407615,
+      "delta": 4e-05,
+      "root_o": -0.013137815934773471,
+      "F_at_root": 3.233020049697225e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.71445146547012e-17,
+        "min_hessian_eigenvalue": 14272.632102500447,
+        "max_hessian_condition": 3094.4144680880354,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.061357421850407615,
+      "delta": 2e-05,
+      "root_o": -0.013281205273143798,
+      "F_at_root": 2.4237090433372124e-05,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.204170427930421e-17,
+        "min_hessian_eigenvalue": 14255.855590307041,
+        "max_hessian_condition": 3098.516386696094,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "a": 0.061357421850407615,
+      "delta": 1e-05,
+      "root_o": -0.0114828248213546,
+      "F_at_root": -9.403102070910122e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.774253908879089e-13,
+        "min_hessian_eigenvalue": 14449.067815091994,
+        "max_hessian_condition": 3051.123599523859,
+        "max_distinct_solutions": 1
+      }
+    }
+  ],
+  "extrapolations": [
+    {
+      "a": 0.06115742185040761,
+      "side": "below",
+      "o_delta0": -0.021916695014497195,
+      "coeff_delta2_constant": [
+        37028.86562170789,
+        -0.021916695014497195
+      ],
+      "fit_rmse": 0.00031396277357535524,
+      "last_step_change": 0.0007590876643714106
+    },
+    {
+      "a": 0.061357421850407615,
+      "side": "above",
+      "o_delta0": -0.01251481200081743,
+      "coeff_delta2_constant": [
+        -101518.14064718474,
+        -0.01251481200081743
+      ],
+      "fit_rmse": 0.0006792915859907105,
+      "last_step_change": 0.0017983804517891985
+    }
+  ],
+  "jump_in_sided_delta0_roots": 0.009401883013679765,
+  "summary": {
+    "max_abs_root_residual": 2.6978235748124857e-05,
+    "max_last_step_root_change": 0.0017983804517891985,
+    "max_fit_rmse": 0.0006792915859907105,
+    "min_hessian_eigenvalue": 12265.563547551727,
+    "max_hessian_condition": 3640.717743571455,
+    "max_distinct_nuisance_solutions": 1,
+    "max_lower_moment_drift": 4.774253908879089e-13
+  }
+}
