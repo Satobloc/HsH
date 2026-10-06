@@ -64,6 +64,10 @@ At the beginning of each run:
 4. choose a bounded useful operation or safe alternate;
 5. preserve exact source/exposure state and update continuity before ending a materially productive run.
 
+### Current source-refresh notice
+
+Before the next substantive operation after Nathan's 2026-10-05 source-review directive, read `SOURCE_REFRESH_2026-10-05.md`. Use it as a routing/familiarity map for the supplied HSH_RESOURCES and GLASS entry points, including the War Room declaration link graph. Do not treat routing-level review as deep source comprehension, and do not cross quarantine boundaries while following linked material.
+
 ## Primary lane is responsibility, not a silo
 
 A worker's lane defines its **primary responsibility, continuity obligation, and expected expertise**, not the outer boundary of what it may think about or explore.
