@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-05-morrow-kestrel-twist-writhe-holonomy-002",
-  "query": "((\"twist\" OR \"writhe\" OR \"self-linking\" OR \"Călugăreanu\" OR \"Calugareanu\") NEAR/40 (filament OR braid OR helix OR reconnection)) OR ((\"phase twist\" OR \"framing\") NEAR/30 (holonomy OR topology OR particle))"
+  "request_id": "2026-10-05-meridian-symplectic-physical-vs-phase-001",
+  "query": "((symplectic OR \"two-form\" OR \"2-form\" OR \"phase space\") NEAR/50 (4D OR \"four-dimensional\" OR holonomy OR Whirligig OR \"Universal Indicatrix\" OR filament OR timesheet))"
 }
