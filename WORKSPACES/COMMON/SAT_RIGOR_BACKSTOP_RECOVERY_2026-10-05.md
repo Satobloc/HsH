@@ -73,3 +73,14 @@ For fresh H(s)H work, preserve both orthogonal axes:
 `epistemic tier/status` **and** `methodological hurdle reached`.
 
 An idea can be highly speculative yet actively worked. "Not established" never means "do not pursue."
+
+
+## Additional literal `tiered` hit
+
+A separate historical document, [ChatNoteGMPT.txt](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/ChatNoteGMPT.txt), literally proposes a **three-tiered forensic audit**:
+
+1. Metric Induction Pass;
+2. 3+3 Dimensional Mapping;
+3. Assembly Barrier Calculation.
+
+This is useful corroboration for Nathan's memory of the word `tiered`, but it is a later problem-specific audit plan, not the foundational hypothesis-to-core promotion cycle. Keep the two separate.
