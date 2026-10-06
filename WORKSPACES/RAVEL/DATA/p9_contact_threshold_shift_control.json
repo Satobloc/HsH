@@ -1,0 +1,212 @@
+{
+  "status": "sandbox readout-grid discriminator; not canonical theory",
+  "height_ladders": [
+    1.3,
+    1.31
+  ],
+  "crossing_height_index_zero_based": 11,
+  "predicted_thresholds": {
+    "1.3": {
+      "a_star": 0.06125742185040761,
+      "h_star": 1.0612574218504076
+    },
+    "1.31": {
+      "a_star": 0.06942094048002612,
+      "h_star": 1.0694209404800261
+    }
+  },
+  "predicted_threshold_shift": 0.008163518629618505,
+  "offsets": [
+    -0.003,
+    -0.0015,
+    -0.0005,
+    -0.0001,
+    0.0,
+    0.0001,
+    0.0005,
+    0.0015,
+    0.003
+  ],
+  "rows": [
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": -0.003,
+      "a": 0.05825742185040761,
+      "root_o": -0.014649849821087987,
+      "F_at_root": 1.986384756647267e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": -0.0015,
+      "a": 0.05975742185040761,
+      "root_o": -0.015873371691500392,
+      "F_at_root": -2.325640877148395e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": -0.0005,
+      "a": 0.06075742185040761,
+      "root_o": -0.01810507645294168,
+      "F_at_root": -1.719455550536534e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": -0.0001,
+      "a": 0.06115742185040761,
+      "root_o": -0.02284475405985266,
+      "F_at_root": 8.003738143001864e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": 0.0,
+      "a": 0.06125742185040761,
+      "root_o": -0.021397319554143954,
+      "F_at_root": -3.79345110951654e-09
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": 0.0001,
+      "a": 0.061357421850407615,
+      "root_o": -0.018557654289218004,
+      "F_at_root": 2.002314908856842e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": 0.0005,
+      "a": 0.06175742185040761,
+      "root_o": -0.013040400605965922,
+      "F_at_root": 2.7229786333185294e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": 0.0015,
+      "a": 0.06275742185040761,
+      "root_o": -0.013131214780654937,
+      "F_at_root": -2.8850629566162882e-08
+    },
+    {
+      "href": 1.3,
+      "critical_a": 0.06125742185040761,
+      "critical_height": 1.0612574218504076,
+      "offset_from_critical_a": 0.003,
+      "a": 0.06425742185040761,
+      "root_o": -0.013304791034017042,
+      "F_at_root": -3.259433526329941e-08
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": -0.003,
+      "a": 0.06642094048002611,
+      "root_o": -0.010043152578869218,
+      "F_at_root": -4.498749954907787e-08
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": -0.0015,
+      "a": 0.06792094048002612,
+      "root_o": -0.010820748244920589,
+      "F_at_root": 3.8225772507103996e-10
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": -0.0005,
+      "a": 0.06892094048002612,
+      "root_o": -0.01298742409656875,
+      "F_at_root": -2.0037658908544892e-09
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": -0.0001,
+      "a": 0.06932094048002611,
+      "root_o": -0.014983351366178371,
+      "F_at_root": -3.1246265236437576e-08
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": 0.0,
+      "a": 0.06942094048002612,
+      "root_o": -0.014164877515752065,
+      "F_at_root": 1.6413021564403384e-08
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": 0.0001,
+      "a": 0.06952094048002612,
+      "root_o": -0.013210690697661401,
+      "F_at_root": -3.535409592757344e-09
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": 0.0005,
+      "a": 0.06992094048002612,
+      "root_o": -0.009161080856576154,
+      "F_at_root": 2.33470350798487e-09
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": 0.0015,
+      "a": 0.07092094048002612,
+      "root_o": -0.009161481682081498,
+      "F_at_root": -2.8232639711898306e-08
+    },
+    {
+      "href": 1.31,
+      "critical_a": 0.06942094048002612,
+      "critical_height": 1.0694209404800261,
+      "offset_from_critical_a": 0.003,
+      "a": 0.07242094048002612,
+      "root_o": -0.009174095218390676,
+      "F_at_root": 1.923233947200159e-08
+    }
+  ],
+  "summary": {
+    "feature_locations": {
+      "1.3": {
+        "a": 0.06115742185040761,
+        "offset_from_predicted_threshold": -0.0001
+      },
+      "1.31": {
+        "a": 0.06932094048002611,
+        "offset_from_predicted_threshold": -0.0001
+      }
+    },
+    "observed_feature_shift": 0.008163518629618505,
+    "absolute_shift_prediction_error": 0.0,
+    "max_root_difference_after_threshold_alignment": 0.007861402693674288,
+    "rms_root_difference_after_threshold_alignment": 0.00541101211654397,
+    "feature_location_tracks_shifted_height_ladder": true,
+    "full_curve_shape_invariant_under_ladder_shift": false
+  }
+}
