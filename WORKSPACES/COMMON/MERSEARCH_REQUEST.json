@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-06-ravel-support-aware-conditioning-001",
-  "query": "(\"finite thickness\" OR \"finite core\" OR support) AND (noise OR conditioning OR inverse)"
+  "request_id": "2026-10-06-meridian-transport-history-holonomy-001",
+  "query": "((transport OR \"path ordered\" OR \"path-ordered\" OR connection OR holonomy OR \"frame history\") NEAR/40 (SO(4) OR rotation OR \"Universal Indicatrix\" OR superhelix OR worldline OR filament))"
 }
