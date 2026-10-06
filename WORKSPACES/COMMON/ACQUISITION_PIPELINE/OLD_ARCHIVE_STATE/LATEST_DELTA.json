@@ -1,27 +1,41 @@
 {
-  "source_commit": "09c1ed1cf921103ca79175c203d48efc8d2b68ad",
-  "observed_utc": "2026-10-05T19:29:20.372032+00:00",
+  "source_commit": "203a1be43af1b7f6b62ae4d0c22ec7de4b423fe5",
+  "observed_utc": "2026-10-06T16:50:54.427051+00:00",
   "changes": [
     {
-      "change": "CHANGED",
-      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "768dbddc467d36202971e4620fd419d160709d2b",
-      "new_blob_sha": "307f995ba34dc8c0f18c869bee4f40a4c6fed9bd",
-      "bytes": 2787302
-    },
-    {
-      "change": "CHANGED",
-      "path": "..findex.txt",
-      "old_blob_sha": "ab0d839b3bfc0804fee616d817f20fc9467d381a",
-      "new_blob_sha": "94b641674081aa5dfb213a6c3f72cba8a1662ce0",
-      "bytes": 208641
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/INDEXES/SAT26_BIGBOOK_DOCUMENT_INDEX.csv",
+      "old_blob_sha": "",
+      "new_blob_sha": "028ce6531841514dd0c5c277d6b8ef9d3be211d3",
+      "bytes": 66284
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261005_183528.txt",
+      "path": ".[⚙️_AI_FILES]/INDEXES/SAT26_BIGBOOK_INDEX_2026-10-05.md",
       "old_blob_sha": "",
-      "new_blob_sha": "b76ba546d56386eaef1fc4f85b9430fd104e4bd4",
-      "bytes": 301
+      "new_blob_sha": "55f914f19b260b50fa4032f8f5bbfde0561e3c33",
+      "bytes": 80805
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261006_014956.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "d2d07106242ad44c845545fe079a5ed987447c48",
+      "bytes": 1669
+    },
+    {
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261006_015030.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "1902cef30e927b09c2a8e81e6e48cb0a81eeabeb",
+      "bytes": 1669
+    },
+    {
+      "change": "CHANGED",
+      "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
+      "old_blob_sha": "a5db6c8a29a387cdb4685fac1c0e664f12e37292",
+      "new_blob_sha": "7aa65dbab0172ee23a04023975889b85d9e1353b",
+      "bytes": 174
     }
   ]
 }
