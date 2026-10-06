@@ -28,7 +28,57 @@ REVIEW_PATH = DERIVED / "review_sheet.html"
 
 
 def load_manifest():
-    return base.load_json(HERE / "sampling_manifest.json", {"items": []})
+    """Load seed manifest plus committed Nathan review packets.
+
+    Review packets are additive overlays. They never mutate the source manifest and
+    only become classifier evidence after a packet is deliberately committed under
+    tools/visual_archaeology/human_reviews/.
+    """
+    data = base.load_json(HERE / "sampling_manifest.json", {"items": []}) or {"items": []}
+    by_path = {x.get("path", ""): dict(x) for x in data.get("items", []) if x.get("path")}
+    review_dir = HERE / "human_reviews"
+    if review_dir.exists():
+        for packet_path in sorted(review_dir.glob("*.json")):
+            try:
+                packet = json.loads(packet_path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            for item in packet.get("items", []):
+                image = str(item.get("image", ""))
+                if not image or image.startswith("standalone:"):
+                    continue
+                rec = by_path.setdefault(image, {"path": image, "family_id": "human_review_added", "human_labels": []})
+                labels = set(rec.get("human_labels", []))
+                raw_kw = str(item.get("keywords", ""))
+                for kw in raw_kw.replace(";", ",").split(","):
+                    kw = kw.strip()
+                    if kw:
+                        labels.add(kw)
+                rec["human_labels"] = sorted(labels)
+                guess = item.get("reviewed_guess")
+                accuracy = item.get("accuracy")
+                if guess and accuracy in {"correct", "wrong"}:
+                    val = dict(rec.get("validation", {}))
+                    val[str(guess)] = accuracy == "correct"
+                    rec["validation"] = val
+                resource = item.get("resource")
+                if resource == "approve":
+                    rec["resource_candidate"] = True
+                    rec["display_policy"] = "approved_for_staging"
+                elif resource == "reject":
+                    rec["display_policy"] = "never_display"
+                elif resource == "hold":
+                    rec["display_policy"] = "review"
+                comment = " ".join(str(item.get("comments", "")).split())
+                if comment:
+                    old_note = " ".join(str(rec.get("human_note", "")).split())
+                    rec["human_note"] = (old_note + " | " if old_note else "") + "Nathan review: " + comment
+                rec.setdefault("review_provenance", []).append({
+                    "packet": packet_path.name,
+                    "exported_utc": packet.get("exported_utc"),
+                    "run_number": packet.get("run_number"),
+                })
+    return {"schema_version": data.get("schema_version", "0.1"), "items": list(by_path.values())}
 
 
 def _rgb_hsv(rgb):
