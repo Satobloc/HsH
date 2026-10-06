@@ -1,0 +1,240 @@
+{
+  "status": "sandbox implicit-normal-equation jet; not canonical theory",
+  "definition": {
+    "normal_equation": "g(theta,delta)=J(theta)^T R(theta,delta)=0",
+    "local_response": "F0=SCALE*<e1,e2>/<e1,e1>",
+    "derivative_note": "nuisance optimum differentiated implicitly; forward/truth partials remain centered finite differences"
+  },
+  "steps": {
+    "jacobian": [
+      8e-05,
+      4e-05,
+      2e-05
+    ],
+    "truth": [
+      0.0004,
+      0.0002,
+      0.0001
+    ],
+    "directional": [
+      8e-05,
+      4e-05,
+      2e-05
+    ]
+  },
+  "base_contact_threshold": 0.06125742185040761,
+  "recovered_roots": [
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "root_o": -0.01744140135937906,
+      "prior_residual_jet_root": -0.021700055238906793,
+      "root_shift": 0.004258653879527733,
+      "bracket": [
+        -0.026613055238906794,
+        -0.016787055238906792
+      ],
+      "F_at_root": -1.024803988532577e-09,
+      "local_line_slope_dF_do": 0.04115653031974211,
+      "local_line_fit_rmse": 2.854084791619873e-07,
+      "root_step_change": 8.387213529027189e-07
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "root_o": -0.012497210199459683,
+      "prior_residual_jet_root": -0.012992918312647667,
+      "root_shift": 0.0004957081131879842,
+      "bracket": [
+        -0.013992918312647668,
+        -0.011992918312647666
+      ],
+      "F_at_root": -1.1414569175619377e-10,
+      "local_line_slope_dF_do": 0.03179357032081029,
+      "local_line_fit_rmse": 1.4061504915438963e-07,
+      "root_step_change": 3.846392776501635e-08
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "root_o": -0.012934936615929364,
+      "prior_residual_jet_root": -0.014399450518371678,
+      "root_shift": 0.0014645139024423142,
+      "bracket": [
+        -0.016099450518371677,
+        -0.012699450518371678
+      ],
+      "F_at_root": 9.2463344401427e-12,
+      "local_line_slope_dF_do": 0.03365894741144517,
+      "local_line_fit_rmse": 1.524231511647338e-07,
+      "root_step_change": 5.205829256035278e-10
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "root_o": -0.012983225909648795,
+      "prior_residual_jet_root": -0.01447782674839262,
+      "root_shift": 0.0014946008387438248,
+      "bracket": [
+        -0.016177826748392618,
+        -0.01277782674839262
+      ],
+      "F_at_root": 1.365287767007664e-09,
+      "local_line_slope_dF_do": 0.03371366435741784,
+      "local_line_fit_rmse": 1.582560892237654e-07,
+      "root_step_change": 1.7469627209941566e-09
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "root_o": -0.008987571022231636,
+      "prior_residual_jet_root": -0.008962235055305055,
+      "root_shift": -2.53359669265818e-05,
+      "bracket": [
+        -0.009962235055305056,
+        -0.007962235055305054
+      ],
+      "F_at_root": -2.3438751285542914e-09,
+      "local_line_slope_dF_do": 0.03083000353598202,
+      "local_line_fit_rmse": 4.728847725979332e-08,
+      "root_step_change": 1.8492855020432252e-09
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "root_o": -0.009021519279725294,
+      "prior_residual_jet_root": -0.009005265036304212,
+      "root_shift": -1.625424342108217e-05,
+      "bracket": [
+        -0.010005265036304212,
+        -0.00800526503630421
+      ],
+      "F_at_root": 3.7175766114427356e-09,
+      "local_line_slope_dF_do": 0.030820098825195184,
+      "local_line_fit_rmse": 5.2875999726687406e-08,
+      "root_step_change": 8.885848690020126e-09
+    }
+  ],
+  "root_step_convergence": [
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "root_o": -0.01744140135937906,
+      "F_by_step": [
+        4.383332013986056e-06,
+        8.376965489141863e-07,
+        -1.024803988532577e-09
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "root_o": -0.012497210199459683,
+      "F_by_step": [
+        -2.8802466788076434e-07,
+        -3.857807345677254e-08,
+        -1.1414569175619377e-10
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "root_o": -0.012934936615929364,
+      "F_by_step": [
+        7.506092069938887e-10,
+        -5.113365911633851e-10,
+        9.2463344401427e-12
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "root_o": -0.012983225909648795,
+      "F_by_step": [
+        5.505123373762149e-10,
+        -3.8167495398649265e-10,
+        1.365287767007664e-09
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "root_o": -0.008987571022231636,
+      "F_by_step": [
+        -1.8398036620089938e-09,
+        -4.945896265110662e-10,
+        -2.3438751285542914e-09
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "root_o": -0.009021519279725294,
+      "F_by_step": [
+        -6.068951896705977e-09,
+        -5.16827207857739e-09,
+        3.7175766114427356e-09
+      ],
+      "contact_crossing_by_step": [
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "sided_root_difference": {
+    "base16": 0.004944191159919377,
+    "jitter16": -4.828929371943069e-05,
+    "dense24": -3.3948257493657263e-05
+  },
+  "resolver_spread": [
+    {
+      "a": 0.06115742185040761,
+      "resolver_spread": 0.008453830337147424,
+      "min": -0.01744140135937906,
+      "max": -0.008987571022231636
+    },
+    {
+      "a": 0.061357421850407615,
+      "resolver_spread": 0.003961706629923501,
+      "min": -0.012983225909648795,
+      "max": -0.009021519279725294
+    }
+  ],
+  "summary": {
+    "max_abs_root_shift_from_residual_jet": 0.004258653879527733,
+    "max_last_step_change": 8.072692536527338e-07,
+    "max_normal_residual": 1.0093137709215203e-08,
+    "max_second_normal_residual": 5.180004641133674e-08,
+    "min_hessian_eigenvalue": 12188.204717052975,
+    "max_hessian_condition": 4086.6605975086713,
+    "max_directional_support_shift": 1.8632934525466374e-05,
+    "any_contact_stratum_crossing": false,
+    "max_resolver_spread": 0.008453830337147424
+  }
+}
