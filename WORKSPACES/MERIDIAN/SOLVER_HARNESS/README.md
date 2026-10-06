@@ -81,3 +81,10 @@ Run the committed adapter in an environment with numpy/matplotlib and the reposi
 After that, add a second adapter whose output should visibly respond to the frame perturbation, giving the first paired geometric silo test.
 
 No Nathan action is required until a trustworthy diagnostic image is available for the intended-geometry check.
+
+
+## UI mapper
+
+Basic interactive UI mapper: [UI_MAPPER/](UI_MAPPER/)
+
+Status: SANDBOX / executable scaffold. It maps a standard Minkowski-coordinate fixture into the basic `y(lambda)=r(lambda)R(lambda)x0` representation and keeps unresolved spin/color/flavor scaling as normalization-only. Runtime validation remains a separate harness step.
