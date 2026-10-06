@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-05-meridian-symplectic-physical-vs-phase-001",
-  "query": "((symplectic OR \"two-form\" OR \"2-form\" OR \"phase space\") NEAR/50 (4D OR \"four-dimensional\" OR holonomy OR Whirligig OR \"Universal Indicatrix\" OR filament OR timesheet))"
+  "request_id": "2026-10-06-ravel-support-aware-conditioning-001",
+  "query": "(\"finite thickness\" OR \"finite core\" OR support) AND (noise OR conditioning OR inverse)"
 }
