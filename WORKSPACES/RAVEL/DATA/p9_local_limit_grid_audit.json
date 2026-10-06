@@ -1,0 +1,1114 @@
+{
+  "status": "sandbox local-response audit; not canonical theory",
+  "definition": {
+    "F_delta": "SCALE*(lambda(+delta)-lambda(-delta))/(delta*(lambda(+delta)+lambda(-delta)))",
+    "limit": "F_delta -> B/A as delta -> 0"
+  },
+  "deltas": [
+    0.0035,
+    0.00175,
+    0.000875,
+    0.0004375
+  ],
+  "a_values": [
+    0.04,
+    0.058,
+    0.06115742185040761,
+    0.061357421850407615,
+    0.07
+  ],
+  "design_heights": {
+    "base16": [
+      0.18200000000000002,
+      0.21364117874603392,
+      0.25078325964832304,
+      0.2943825890167055,
+      0.3455617764826274,
+      0.40563860031495613,
+      0.4761599380009809,
+      0.5589415957481756,
+      0.656115062449612,
+      0.7701823919492456,
+      0.9040806267333884,
+      1.0612574218504076,
+      1.245759816247791,
+      1.4623384372396735,
+      1.716569821195148,
+      2.015
+    ],
+    "jitter16": [
+      0.18200000000000002,
+      0.2149230258185101,
+      0.24978012660972976,
+      0.29673764972883915,
+      0.34348840582373164,
+      0.406855516115901,
+      0.47282681843497404,
+      0.5617363037269164,
+      0.6541467172622633,
+      0.7755736686928902,
+      0.8995602235997214,
+      1.0655024515378093,
+      1.2382852573503043,
+      1.4711124678631116,
+      1.7097035419103672,
+      2.015
+    ],
+    "dense24": [
+      0.18200000000000002,
+      0.20205590508544985,
+      0.22432191637307863,
+      0.24904158155640102,
+      0.2764852866224751,
+      0.3069532133588694,
+      0.3407786227698546,
+      0.3783315003161322,
+      0.4200226028500672,
+      0.46630795151218,
+      0.5176938197326131,
+      0.5747422708967959,
+      0.6380773062468069,
+      0.708391690264749,
+      0.7864545281948104,
+      0.8731196785876529,
+      0.9693350928843146,
+      1.0761531841968612,
+      1.1947423387004703,
+      1.3263996955496185,
+      1.4725653351062817,
+      1.6348380306722994,
+      1.814992736019812,
+      2.015
+    ]
+  },
+  "base_contact_threshold": 0.06125742185040761,
+  "contact_proximity": {
+    "base16": {
+      "0.040000000000": 0.021257421850407576,
+      "0.058000000000": 0.0032574218504075603,
+      "0.061157421850": 9.999999999998899e-05,
+      "0.061357421850": 9.999999999998899e-05,
+      "0.070000000000": 0.00874257814959245
+    },
+    "jitter16": {
+      "0.040000000000": 0.02550245153780928,
+      "0.058000000000": 0.007502451537809263,
+      "0.061157421850": 0.004345029687401691,
+      "0.061357421850": 0.004145029687401713,
+      "0.070000000000": 0.004497548462190748
+    },
+    "dense24": {
+      "0.040000000000": 0.0361531841968612,
+      "0.058000000000": 0.018153184196861183,
+      "0.061157421850": 0.014995762346453612,
+      "0.061357421850": 0.014795762346453634,
+      "0.070000000000": 0.006153184196861172
+    }
+  },
+  "roots": [
+    {
+      "design": "base16",
+      "a": 0.04,
+      "delta": 0.0035,
+      "root_o": -0.00934555411870071,
+      "F_at_root": 2.3282572613894275e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.814328631250973e-13,
+        "min_hessian_eigenvalue": 13756.196786251878,
+        "max_hessian_condition": 3117.4137913467816,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.04,
+      "delta": 0.00175,
+      "root_o": -0.009344179717926839,
+      "F_at_root": 1.488438302505624e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.621931755568795e-13,
+        "min_hessian_eigenvalue": 13764.103537721225,
+        "max_hessian_condition": 3115.778982546174,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.04,
+      "delta": 0.000875,
+      "root_o": -0.009343750418840372,
+      "F_at_root": 2.5775668307929612e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.0216480439417808e-13,
+        "min_hessian_eigenvalue": 13767.850966451013,
+        "max_hessian_condition": 3115.009503846006,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.04,
+      "delta": 0.0004375,
+      "root_o": -0.009351975777203321,
+      "F_at_root": -1.2066804844212604e-06,
+      "diagnostics": {
+        "max_lower_moment_drift": 8.776659954357058e-14,
+        "min_hessian_eigenvalue": 13769.36404494744,
+        "max_hessian_condition": 3114.7148557538085,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.058,
+      "delta": 0.0035,
+      "root_o": -0.014504997711243365,
+      "F_at_root": -5.864439754134533e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.020562075079397e-17,
+        "min_hessian_eigenvalue": 13754.475640111483,
+        "max_hessian_condition": 3174.1173282733585,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.058,
+      "delta": 0.00175,
+      "root_o": -0.014506322914379161,
+      "F_at_root": -4.276304045105267e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 7.112366251504909e-17,
+        "min_hessian_eigenvalue": 13784.265392771606,
+        "max_hessian_condition": 3168.0641469806296,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.058,
+      "delta": 0.000875,
+      "root_o": -0.014509018668693606,
+      "F_at_root": 2.445578914110676e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.0306980803327406e-17,
+        "min_hessian_eigenvalue": 13798.518756149017,
+        "max_hessian_condition": 3165.202854680252,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.058,
+      "delta": 0.0004375,
+      "root_o": -0.01450088279012967,
+      "F_at_root": 2.8576906150019925e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 7.45931094670027e-17,
+        "min_hessian_eigenvalue": 13806.82141865648,
+        "max_hessian_condition": 3163.482110879107,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "delta": 0.0035,
+      "root_o": -0.022629326523396887,
+      "F_at_root": 1.2686179367238709e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.3530843112619095e-16,
+        "min_hessian_eigenvalue": 12102.275762455443,
+        "max_hessian_condition": 3682.0055013959563,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "delta": 0.00175,
+      "root_o": -0.021787064491482808,
+      "F_at_root": 3.1778739796889874e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.0061396160665481e-16,
+        "min_hessian_eigenvalue": 12372.31004598866,
+        "max_hessian_condition": 3601.5302087425016,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "delta": 0.000875,
+      "root_o": -0.021735877946399123,
+      "F_at_root": 4.5325222972544915e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.71445146547012e-17,
+        "min_hessian_eigenvalue": 12410.486344114986,
+        "max_hessian_condition": 3592.4333378732526,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "delta": 0.0004375,
+      "root_o": -0.02171605685403424,
+      "F_at_root": 1.0055902011132097e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.204170427930421e-17,
+        "min_hessian_eigenvalue": 12428.024211466683,
+        "max_hessian_condition": 3588.4485080695113,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "delta": 0.0035,
+      "root_o": -0.018755505143703874,
+      "F_at_root": -5.0869193864820675e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.204170427930421e-17,
+        "min_hessian_eigenvalue": 13051.461246996465,
+        "max_hessian_condition": 3405.085437700577,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "delta": 0.00175,
+      "root_o": -0.013052546225447591,
+      "F_at_root": 3.484469545191832e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.1622647289044608e-16,
+        "min_hessian_eigenvalue": 14146.199607871473,
+        "max_hessian_condition": 3126.251267966114,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "delta": 0.000875,
+      "root_o": -0.013019417228003134,
+      "F_at_root": -9.814925837591415e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.163336342344337e-17,
+        "min_hessian_eigenvalue": 14232.507858504378,
+        "max_hessian_condition": 3104.3936247171982,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "delta": 0.0004375,
+      "root_o": -0.013030408161549462,
+      "F_at_root": 3.41515088002583e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.3183898417423734e-16,
+        "min_hessian_eigenvalue": 14261.33432588616,
+        "max_hessian_condition": 3097.2285793891897,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.07,
+      "delta": 0.0035,
+      "root_o": -0.014210744053778116,
+      "F_at_root": -1.0868001541877736e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.9081958235744878e-17,
+        "min_hessian_eigenvalue": 14994.692456619208,
+        "max_hessian_condition": 2895.2607222943993,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.07,
+      "delta": 0.00175,
+      "root_o": -0.014209640731288175,
+      "F_at_root": 9.344027262388827e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.42861286636753e-17,
+        "min_hessian_eigenvalue": 15062.066635979128,
+        "max_hessian_condition": 2881.9109236293034,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.07,
+      "delta": 0.000875,
+      "root_o": -0.014208454285129735,
+      "F_at_root": 1.1023160210325043e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.3357370765021415e-16,
+        "min_hessian_eigenvalue": 15095.519516709997,
+        "max_hessian_condition": 2875.326458443156,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "base16",
+      "a": 0.07,
+      "delta": 0.0004375,
+      "root_o": -0.014214318239167833,
+      "F_at_root": 4.908509784079195e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.4051260155412137e-16,
+        "min_hessian_eigenvalue": 15110.488365370918,
+        "max_hessian_condition": 2872.389547960723,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.04,
+      "delta": 0.0035,
+      "root_o": -0.008967216358589448,
+      "F_at_root": 1.4912249306545385e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.882747430181908e-13,
+        "min_hessian_eigenvalue": 14378.871463459516,
+        "max_hessian_condition": 2970.716880650244,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.04,
+      "delta": 0.00175,
+      "root_o": -0.008965884741787115,
+      "F_at_root": 2.453540257337733e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.553816071594667e-14,
+        "min_hessian_eigenvalue": 14388.470430353915,
+        "max_hessian_condition": 2968.849342847091,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.04,
+      "delta": 0.000875,
+      "root_o": -0.008972089858879113,
+      "F_at_root": -5.0785821977888e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.085267260733332e-14,
+        "min_hessian_eigenvalue": 14392.841890793146,
+        "max_hessian_condition": 2968.0114000155986,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.04,
+      "delta": 0.0004375,
+      "root_o": -0.008997417795893163,
+      "F_at_root": -7.174664437941758e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.862739543311847e-14,
+        "min_hessian_eigenvalue": 14394.195121483064,
+        "max_hessian_condition": 2967.7838964283483,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.058,
+      "delta": 0.0035,
+      "root_o": -0.013409369526087964,
+      "F_at_root": -5.7282097831364384e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.377450650907335e-13,
+        "min_hessian_eigenvalue": 14511.485894822885,
+        "max_hessian_condition": 2983.1555909855365,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.058,
+      "delta": 0.00175,
+      "root_o": -0.013413275021559562,
+      "F_at_root": -8.830676940844239e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.540979117872439e-17,
+        "min_hessian_eigenvalue": 14543.475235310276,
+        "max_hessian_condition": 2977.0084068079855,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.058,
+      "delta": 0.000875,
+      "root_o": -0.013411969105187351,
+      "F_at_root": 1.0293089872531207e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.0306980803327406e-17,
+        "min_hessian_eigenvalue": 14559.25890392971,
+        "max_hessian_condition": 2973.98266486346,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.058,
+      "delta": 0.0004375,
+      "root_o": -0.01341187083294568,
+      "F_at_root": 7.567517797853059e-10,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.3704315460216776e-16,
+        "min_hessian_eigenvalue": 14567.248171290981,
+        "max_hessian_condition": 2972.453822630959,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "delta": 0.0035,
+      "root_o": -0.014406169593024131,
+      "F_at_root": 1.664576393606409e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.0061396160665481e-16,
+        "min_hessian_eigenvalue": 14460.415799348464,
+        "max_hessian_condition": 3008.3124864846873,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "delta": 0.00175,
+      "root_o": -0.014407195870502043,
+      "F_at_root": 4.929505071269033e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.724587470723463e-17,
+        "min_hessian_eigenvalue": 14500.131492011618,
+        "max_hessian_condition": 3000.7007201561332,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "delta": 0.000875,
+      "root_o": -0.014410190753247391,
+      "F_at_root": -1.315723136609631e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.204170427930421e-17,
+        "min_hessian_eigenvalue": 14519.17915923549,
+        "max_hessian_condition": 2997.085846089283,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "delta": 0.0004375,
+      "root_o": -0.014407827850113734,
+      "F_at_root": -9.307772750832387e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 8.500145032286355e-17,
+        "min_hessian_eigenvalue": 14528.995009398024,
+        "max_hessian_condition": 2995.213535110178,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "delta": 0.0035,
+      "root_o": -0.014482019123048325,
+      "F_at_root": 1.5837653959612762e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.7755575615628914e-17,
+        "min_hessian_eigenvalue": 14454.212699777972,
+        "max_hessian_condition": 3010.763588624558,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "delta": 0.00175,
+      "root_o": -0.014481298896784902,
+      "F_at_root": -3.364115664912868e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.949029909160572e-17,
+        "min_hessian_eigenvalue": 14494.567059490275,
+        "max_hessian_condition": 3003.0266885387864,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "delta": 0.000875,
+      "root_o": -0.014482659136075906,
+      "F_at_root": 3.822446970923516e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.2551405187698492e-17,
+        "min_hessian_eigenvalue": 14514.262335422774,
+        "max_hessian_condition": 2999.2807033664303,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "delta": 0.0004375,
+      "root_o": -0.014487313841654756,
+      "F_at_root": -4.797138634445553e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 3.642919299551295e-17,
+        "min_hessian_eigenvalue": 14523.297141594923,
+        "max_hessian_condition": 2997.589501152265,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.07,
+      "delta": 0.0035,
+      "root_o": -0.014306033438375524,
+      "F_at_root": 7.496921347917402e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 3.9898639947466563e-17,
+        "min_hessian_eigenvalue": 15460.89135075098,
+        "max_hessian_condition": 2820.4540669264243,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.07,
+      "delta": 0.00175,
+      "root_o": -0.014308440802797714,
+      "F_at_root": 2.2690441330468553e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.377642775528102e-17,
+        "min_hessian_eigenvalue": 15540.302312438705,
+        "max_hessian_condition": 2805.5053386112186,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.07,
+      "delta": 0.000875,
+      "root_o": -0.014310216290327023,
+      "F_at_root": 6.776266973114186e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.734723475976807e-17,
+        "min_hessian_eigenvalue": 15579.231830877943,
+        "max_hessian_condition": 2798.233189992773,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "jitter16",
+      "a": 0.07,
+      "delta": 0.0004375,
+      "root_o": -0.014315248482563981,
+      "F_at_root": 4.6088475581571965e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.551115123125783e-17,
+        "min_hessian_eigenvalue": 15597.695244409704,
+        "max_hessian_condition": 2794.799934818127,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.04,
+      "delta": 0.0035,
+      "root_o": -0.005560923731853146,
+      "F_at_root": 1.869396966621228e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.1631320906424492e-14,
+        "min_hessian_eigenvalue": 13923.719910311329,
+        "max_hessian_condition": 4379.007948391391,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.04,
+      "delta": 0.00175,
+      "root_o": -0.005561983648320562,
+      "F_at_root": 1.1777518205356865e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.91634249871953e-15,
+        "min_hessian_eigenvalue": 13934.246673666374,
+        "max_hessian_condition": 4375.577073211372,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.04,
+      "delta": 0.000875,
+      "root_o": -0.005565513096305055,
+      "F_at_root": 1.0637282943304952e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.470382397592232e-15,
+        "min_hessian_eigenvalue": 13937.95229245854,
+        "max_hessian_condition": 4374.353618155849,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.04,
+      "delta": 0.0004375,
+      "root_o": -0.005564321932839074,
+      "F_at_root": -6.257759025256758e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 3.241330814862664e-15,
+        "min_hessian_eigenvalue": 13939.115457534415,
+        "max_hessian_condition": 4373.962387212706,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.058,
+      "delta": 0.0035,
+      "root_o": -0.008367617938269801,
+      "F_at_root": -1.3290102701840899e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.4907693135501887e-13,
+        "min_hessian_eigenvalue": 14680.496302302065,
+        "max_hessian_condition": 4136.897058263388,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.058,
+      "delta": 0.00175,
+      "root_o": -0.00836960453444303,
+      "F_at_root": -2.000432649556791e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.783462680459706e-14,
+        "min_hessian_eigenvalue": 14716.644539629164,
+        "max_hessian_condition": 4126.940656259411,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.058,
+      "delta": 0.000875,
+      "root_o": -0.008368215702558081,
+      "F_at_root": 8.025575211556237e-10,
+      "diagnostics": {
+        "max_lower_moment_drift": 4.843521417274843e-14,
+        "min_hessian_eigenvalue": 14732.146362974436,
+        "max_hessian_condition": 4122.702314956676,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.058,
+      "delta": 0.0004375,
+      "root_o": -0.008367959982800259,
+      "F_at_root": -1.5859789386464156e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 3.958638972179074e-14,
+        "min_hessian_eigenvalue": 14739.451903618932,
+        "max_hessian_condition": 4120.711599102289,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "delta": 0.0035,
+      "root_o": -0.00896272895399683,
+      "F_at_root": -4.3856222595104705e-10,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.6607722141959158e-13,
+        "min_hessian_eigenvalue": 14812.858366640186,
+        "max_hessian_condition": 4100.491009901352,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "delta": 0.00175,
+      "root_o": -0.008963465101446888,
+      "F_at_root": -6.45036050898059e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.1007167399768036e-13,
+        "min_hessian_eigenvalue": 14857.774382390753,
+        "max_hessian_condition": 4088.340544874199,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "delta": 0.000875,
+      "root_o": -0.00896249492806629,
+      "F_at_root": -3.257006889829324e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 9.168707459927816e-14,
+        "min_hessian_eigenvalue": 14877.777751678357,
+        "max_hessian_condition": 4082.9681474475515,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "delta": 0.0004375,
+      "root_o": -0.00896253710053506,
+      "F_at_root": -3.542332789404831e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 7.598609241821208e-14,
+        "min_hessian_eigenvalue": 14886.824370273147,
+        "max_hessian_condition": 4080.5496600010047,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "delta": 0.0035,
+      "root_o": -0.009001902015414414,
+      "F_at_root": -8.048563133670959e-09,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.7637974414341784e-13,
+        "min_hessian_eigenvalue": 14821.122898484931,
+        "max_hessian_condition": 4098.280109391088,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "delta": 0.00175,
+      "root_o": -0.00900525022660955,
+      "F_at_root": 6.224505435611139e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.1105352748508324e-13,
+        "min_hessian_eigenvalue": 14866.661149349375,
+        "max_hessian_condition": 4085.9758772411224,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "delta": 0.000875,
+      "root_o": -0.00900000391807851,
+      "F_at_root": 1.1305452872444142e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 7.965156312295107e-14,
+        "min_hessian_eigenvalue": 14886.68244181181,
+        "max_hessian_condition": 4080.6049197465027,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "delta": 0.0004375,
+      "root_o": -0.009009605364314504,
+      "F_at_root": 9.94667656513493e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 6.910097494206013e-14,
+        "min_hessian_eigenvalue": 14896.166715923058,
+        "max_hessian_condition": 4078.0738834318,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.07,
+      "delta": 0.0035,
+      "root_o": -0.010928746665888429,
+      "F_at_root": 3.1121548853197945e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 1.046836228812964e-13,
+        "min_hessian_eigenvalue": 15089.81047994184,
+        "max_hessian_condition": 4034.8838727876864,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.07,
+      "delta": 0.00175,
+      "root_o": -0.010930637649504242,
+      "F_at_root": 3.962193008368587e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 5.262699998009879e-13,
+        "min_hessian_eigenvalue": 15177.927361678492,
+        "max_hessian_condition": 4011.9026095472555,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.07,
+      "delta": 0.000875,
+      "root_o": -0.01093275116427174,
+      "F_at_root": -4.023597065856162e-08,
+      "diagnostics": {
+        "max_lower_moment_drift": 3.807371085073896e-13,
+        "min_hessian_eigenvalue": 15219.027018138182,
+        "max_hessian_condition": 4001.2944674089463,
+        "max_distinct_solutions": 1
+      }
+    },
+    {
+      "design": "dense24",
+      "a": 0.07,
+      "delta": 0.0004375,
+      "root_o": -0.010929225422086896,
+      "F_at_root": 1.0141051257487526e-07,
+      "diagnostics": {
+        "max_lower_moment_drift": 2.962352585456074e-13,
+        "min_hessian_eigenvalue": 15239.167794998379,
+        "max_hessian_condition": 3996.1153691682484,
+        "max_distinct_solutions": 1
+      }
+    }
+  ],
+  "delta2_extrapolations": [
+    {
+      "design": "base16",
+      "a": 0.04,
+      "o_delta0": -0.009349528973867554,
+      "coeff_delta4_delta2_constant": [
+        -189560.5285145385,
+        2.6428371587400936,
+        -0.009349528973867554
+      ],
+      "fit_rmse": 2.477976987653029e-06,
+      "last_step_change": 8.225358362949284e-06
+    },
+    {
+      "design": "base16",
+      "a": 0.058,
+      "o_delta0": -0.014503757581431747,
+      "coeff_delta4_delta2_constant": [
+        117499.3026965631,
+        -1.5365650718456358,
+        -0.014503757581431747
+      ],
+      "fit_rmse": 2.6621025213360472e-06,
+      "last_step_change": 8.135878563936272e-06
+    },
+    {
+      "design": "base16",
+      "a": 0.06115742185040761,
+      "o_delta0": -0.021720904105388628,
+      "coeff_delta4_delta2_constant": [
+        -5649300.091841097,
+        -4.945351885361959,
+        -0.021720904105388628
+      ],
+      "fit_rmse": 5.047952714982692e-06,
+      "last_step_change": 1.982109236488283e-05
+    },
+    {
+      "design": "base16",
+      "a": 0.061357421850407615,
+      "o_delta0": -0.013083973413683371,
+      "coeff_delta4_delta2_constant": [
+        -51227051.78830041,
+        164.5797386318754,
+        -0.013083973413683371
+      ],
+      "fit_rmse": 2.013903678185338e-05,
+      "last_step_change": 1.09909335463277e-05
+    },
+    {
+      "design": "base16",
+      "a": 0.07,
+      "o_delta0": -0.014212399177908367,
+      "coeff_delta4_delta2_constant": [
+        -109251.85237552902,
+        1.4706456442769094,
+        -0.014212399177908367
+      ],
+      "fit_rmse": 1.8477689323785713e-06,
+      "last_step_change": 5.8639540380985705e-06
+    },
+    {
+      "design": "jitter16",
+      "a": 0.04,
+      "o_delta0": -0.008991356655471978,
+      "coeff_delta4_delta2_constant": [
+        -788221.175158371,
+        11.615815770526831,
+        -0.008991356655471978
+      ],
+      "fit_rmse": 6.944731475969665e-06,
+      "last_step_change": 2.532793701405002e-05
+    },
+    {
+      "design": "jitter16",
+      "a": 0.058,
+      "o_delta0": -0.013411594645035817,
+      "coeff_delta4_delta2_constant": [
+        77946.3595211277,
+        -0.7733676535162642,
+        -0.013411594645035817
+      ],
+      "fit_rmse": 1.1021269027054939e-07,
+      "last_step_change": 9.82722416706383e-08
+    },
+    {
+      "design": "jitter16",
+      "a": 0.06115742185040761,
+      "o_delta0": -0.014409098040040553,
+      "coeff_delta4_delta2_constant": [
+        -27898.85766555292,
+        0.582297187231225,
+        -0.014409098040040553
+      ],
+      "fit_rmse": 9.756040069061505e-07,
+      "last_step_change": 2.362903133656946e-06
+    },
+    {
+      "design": "jitter16",
+      "a": 0.061357421850407615,
+      "o_delta0": -0.014486249199304224,
+      "coeff_delta4_delta2_constant": [
+        -155938.8572263291,
+        2.2536624627270228,
+        -0.014486249199304224
+      ],
+      "fit_rmse": 1.253657052052794e-06,
+      "last_step_change": 4.654705578850324e-06
+    },
+    {
+      "design": "jitter16",
+      "a": 0.07,
+      "o_delta0": -0.014314123087152263,
+      "coeff_delta4_delta2_constant": [
+        -148897.5010953578,
+        2.4823393451718636,
+        -0.014314123087152263
+      ],
+      "fit_rmse": 1.3418005151717337e-06,
+      "last_step_change": 5.0321922369575556e-06
+    },
+    {
+      "design": "dense24",
+      "a": 0.04,
+      "o_delta0": -0.005565360159476509,
+      "coeff_delta4_delta2_constant": [
+        -71090.10892358112,
+        1.2340375033491795,
+        -0.005565360159476509
+      ],
+      "fit_rmse": 6.768651580567942e-07,
+      "last_step_change": 1.1911634659814152e-06
+    },
+    {
+      "design": "dense24",
+      "a": 0.058,
+      "o_delta0": -0.008367734017729162,
+      "coeff_delta4_delta2_constant": [
+        66638.2482677716,
+        -0.806936995706697,
+        -0.008367734017729162
+      ],
+      "fit_rmse": 6.22108885312175e-08,
+      "last_step_change": 2.5571975782213985e-07
+    },
+    {
+      "design": "dense24",
+      "a": 0.06115742185040761,
+      "o_delta0": -0.008962322703285185,
+      "coeff_delta4_delta2_constant": [
+        35504.345453143505,
+        -0.46825236077601584,
+        -0.008962322703285185
+      ],
+      "fit_rmse": 1.0605321620599586e-07,
+      "last_step_change": 4.217246877061265e-08
+    },
+    {
+      "design": "dense24",
+      "a": 0.061357421850407615,
+      "o_delta0": -0.009005745149126847,
+      "coeff_delta4_delta2_constant": [
+        -30524.474560280793,
+        0.6825610560436169,
+        -0.009005745149126847
+      ],
+      "fit_rmse": 3.3562293905600906e-06,
+      "last_step_change": 9.601446235994043e-06
+    },
+    {
+      "design": "dense24",
+      "a": 0.07,
+      "o_delta0": -0.010930645661853623,
+      "coeff_delta4_delta2_constant": [
+        33917.33231976507,
+        -0.25859416342856134,
+        -0.010930645661853623
+      ],
+      "fit_rmse": 1.2353179885517175e-06,
+      "last_step_change": 3.525742184843847e-06
+    }
+  ],
+  "grid_spread": [
+    {
+      "a": 0.04,
+      "min": -0.009349528973867554,
+      "max": -0.005565360159476509,
+      "spread": 0.0037841688143910443
+    },
+    {
+      "a": 0.058,
+      "min": -0.014503757581431747,
+      "max": -0.008367734017729162,
+      "spread": 0.0061360235637025855
+    },
+    {
+      "a": 0.06115742185040761,
+      "min": -0.021720904105388628,
+      "max": -0.008962322703285185,
+      "spread": 0.012758581402103442
+    },
+    {
+      "a": 0.061357421850407615,
+      "min": -0.014486249199304224,
+      "max": -0.009005745149126847,
+      "spread": 0.005480504050177377
+    },
+    {
+      "a": 0.07,
+      "min": -0.014314123087152263,
+      "max": -0.010930645661853623,
+      "spread": 0.0033834774252986394
+    }
+  ],
+  "summary": {
+    "max_abs_root_residual": 1.2066804844212604e-06,
+    "max_last_step_root_change": 2.532793701405002e-05,
+    "max_delta2_fit_rmse": 2.013903678185338e-05,
+    "max_grid_spread_in_delta0_root": 0.012758581402103442,
+    "min_hessian_eigenvalue": 12102.275762455443,
+    "max_hessian_condition": 4379.007948391391,
+    "max_distinct_nuisance_solutions": 1,
+    "max_lower_moment_drift": 6.377450650907335e-13
+  }
+}
