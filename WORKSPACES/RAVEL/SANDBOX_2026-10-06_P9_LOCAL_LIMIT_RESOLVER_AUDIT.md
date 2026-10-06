@@ -99,7 +99,7 @@ o_0=(-0.021721,-0.014409,-0.008962)
 
 for original-16, jittered-16, and dense-24 respectively. Thus the largest feature moves or disappears when the acquisition heights move; it is readout morphology.
 
-The same-stratum check sharpens this. At (delta=8\times10^{-5}<10^{-4}), so neither paired probe crosses the contact threshold,
+The smaller-amplitude check sharpens the numerical audit. The support settings are fixed separately at (a=a_*\mathbin{\pm}10^{-4}), while (delta) perturbs only the ninth morphology moment; it does **not** move (a) or cross a contact threshold. At (delta=8\times10^{-5}),
 
 \[
 o_-(a_*-10^{-4})=-0.0217192,
@@ -107,7 +107,7 @@ o_-(a_*-10^{-4})=-0.0217192,
 o_+(a_*+10^{-4})=-0.0130203.
 \]
 
-The jump therefore persists when each response is evaluated wholly within its own contact class. This is consistent with a piecewise-smooth readout map whose coefficients change discontinuously when one acquisition height changes branch/contact status.
+The jump therefore persists between the two fixed contact classes. This is consistent with a piecewise-smooth readout map whose coefficients change discontinuously when one acquisition height changes branch/contact status.
 
 ## What follows if the 4D picture is taken seriously
 
@@ -130,7 +130,7 @@ The data reject identifying (widehat o_H) with an intrinsic carrier coordinate: 
 
 This P9 zero fails as an intrinsic worldtube discriminator if its resolver spread does not converge to zero under increasingly dense, independently jittered acquisition families. The present data already fail invariance at 16 versus 24 heights.
 
-There is also a numerical certification boundary. For the same-stratum run, roots become noisy below roughly (delta=4\times10^{-5}): the quotient subtracts two (O(\delta^2)) residuals to isolate an (O(\delta^3)) difference. The smaller-amplitude sequence has up to (1.80\times10^{-3}) last-step motion and cannot certify the literal double-precision (delta\to0) limit. No stronger claim is made.
+There is also a numerical certification boundary. Roots become noisy below roughly (delta=4\times10^{-5}): the quotient subtracts two (O(\delta^2)) residual norms to isolate an (O(\delta^3)) difference. The smaller-amplitude sequence has up to (1.80\times10^{-3}) last-step motion and cannot certify the literal double-precision (delta\to0) limit. The original script commentary incorrectly described (delta) as if it displaced the support coordinate across the nearby contact threshold; this checkpoint now corrects that type error. The resolver-dependence result does not rely on that description.
 
 ## Tight next test
 
@@ -151,4 +151,3 @@ An intrinsic candidate requires (D_N(a)\to0) with a reproducible convergence rat
 - `WORKSPACES/RAVEL/FIGURES/p9_local_limit_grid_audit.svg`
 - `WORKSPACES/RAVEL/CODE/p9_contact_sided_limit.py`
 - `WORKSPACES/RAVEL/DATA/p9_contact_sided_limit.json`
-
