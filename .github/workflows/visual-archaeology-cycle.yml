@@ -22,6 +22,7 @@ on:
       - 'tools/visual_archaeology/visual_analyzer.py'
       - 'tools/visual_archaeology/seed_calibration.jsonl'
       - 'tools/visual_archaeology/seed_measurements_2026-09-30.json'
+      - 'tools/visual_archaeology/human_reviews/**/*.json'
       - '.github/workflows/visual-archaeology-cycle.yml'
   schedule:
     # Hard-coded repo-local checkpoint. GitHub scheduled Actions may start late.
