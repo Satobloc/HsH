@@ -48,7 +48,7 @@ Say it without SAT vocabulary.
 
 Name the curve, tube, bend, angle, rotation, intersection, braid, instantiation, truncation, cobordism, surface, or transport involved.
 
-**WWRD checkpoint:** before adding a new primitive, ask what an ordinary rope, tube, sheet, fluid, or other successful (O_{mathrm{eff}}) object would do.
+**WWRD checkpoint:** before adding a new primitive, ask what an ordinary rope, tube, sheet, fluid, or other successful O_eff object would do.
 
 ### 3. What does ordinary physics call the measurable behavior?
 
@@ -81,17 +81,17 @@ These are debugging prompts, not immutable theory claims. Revise them when the g
 - **Standard physics is an anchor and an enormous reverse-engineering dataset, not an adversary.**
 - **A symbol that is constant inside one calculation is not automatically a universal fundamental constant.**
 - **"Related by construction" is not the same criticism as "has no transferable predictive content." Test transfer to new cases.**
-- **Before inventing a new force, field, particle, memory mechanism, or representational layer, ask whether the effect is already ordinary (O_{mathrm{eff}}) geometry, mechanics, transport, instantiation, or standard physics expressed in the 4D map.**
+- **Before inventing a new force, field, particle, memory mechanism, or representational layer, ask whether the effect is already ordinary O_eff geometry, mechanics, transport, instantiation, or standard physics expressed in the 4D map.**
 - **Do not demote instantiation to a passive readout unless a readout map is actually the model.**
 - **Do not confuse endpoint frame difference, transport, holonomy, and curvature.**
 - **Do not promote a useful analogy into a physical mechanism without deriving the map.**
 - **Historical constants and particle labels are clues, not fitting targets, unless independently regenerated.**
 - **Nothing becomes true because Nathan said it, an earlier LLM said it, or a document labels it "core." Geometry, mathematical closure, and sufficiently clean empirical evidence arbitrate.**
-- **STANDARD SCIENCE IS RIGHT means its successful effective ontology counts too. Use (O_{mathrm{eff}}); do not pretend it has crossed into (O_{mathrm{abs}}).**
-- **Under RMS, (O_{mathrm{abs}}) has no epistemically determinate referent. Do not turn it into a hidden substrate by wording alone.**
+- **STANDARD SCIENCE IS RIGHT means its successful effective ontology counts too. Use O_eff; do not pretend it has crossed into O_abs.**
+- **Under RMS, O_abs has no epistemically determinate referent. Do not turn it into a hidden substrate by wording alone.**
 - **WWRD FIRST. Use the minimal ordinary physical picture until a calculation demonstrates that it is insufficient.**
 - **TORSION MEANS TWIST UNTIL TWIST IS NOT ENOUGH. Do not proliferate torsion ontologies before a concrete failure requires the distinction.**
-- **(H_0) versus (c) need not mean two expansion speeds: with (R_H=c/H_0), the Hubble-law difference across one Hubble length is (H_0R_H=c). Do not invent a dual shell merely to manufacture the second term.**
+- **H_0 versus c need not mean two expansion speeds: with R_H=c/H_0, the Hubble-law difference across one Hubble length is H_0R_H=c. Do not invent a dual shell merely to manufacture the second term.**
 
 ---
 
@@ -185,11 +185,11 @@ Add entries when a model makes a mistake that is likely to recur.
 
 ---
 
-## Recommendation 006 — Do not manufacture (O_{mathrm{abs}})
+## Recommendation 006 — Do not manufacture O_abs
 
 **Failure mode:** A useful effective object or geometric model is either banned as "mere ontology" or silently promoted into a claim about reality-in-itself.
 
-**Countermeasure:** Use (O_{mathrm{eff}}) freely when it earns its keep in coherent perception and successful science. Under RMS, do not claim that this identifies an epistemically determinate (O_{mathrm{abs}}).
+**Countermeasure:** Use O_eff freely when it earns its keep in coherent perception and successful science. Under RMS, do not claim that this identifies an epistemically determinate O_abs.
 
 ---
 
@@ -245,7 +245,7 @@ Add entries when a model makes a mistake that is likely to recur.
 
 **Failure mode:** The model encounters one ordinary physical behavior and immediately splits it into several named SAT/H(s)H mechanisms, currents, ontologies, or bookkeeping layers.
 
-**Countermeasure:** Start with the minimal successful (O_{mathrm{eff}}) object. For a twistable worldtube, begin with "rope twists." Introduce separate mathematical structures only when one unsplit representation fails a stated calculation, observation, or standard-physics limit.
+**Countermeasure:** Start with the minimal successful O_eff object. For a twistable worldtube, begin with "rope twists." Introduce separate mathematical structures only when one unsplit representation fails a stated calculation, observation, or standard-physics limit.
 
 ---
 
