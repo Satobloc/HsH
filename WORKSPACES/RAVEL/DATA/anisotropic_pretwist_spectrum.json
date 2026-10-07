@@ -1,0 +1,70 @@
+{
+  "status": "GEN/CANDIDATE",
+  "parameters": {
+    "length": 1.2,
+    "c0": 0.06,
+    "anisotropy_epsilon": 0.02,
+    "elements": 180,
+    "mode_n": 1,
+    "q_n": 2.6179938779914944,
+    "isotropic_mode_stiffness": 0.41123351671205666
+  },
+  "coherence_formula": "|n^2*pi^2*sin(x)/(x*(n^2*pi^2-x^2))| with limits F(0)=1 and F(n*pi)=1/2",
+  "checkpoints": [
+    {
+      "twist_total_x": 0.0,
+      "x_over_pi": 0.0,
+      "lambda_low": 0.40301907677448057,
+      "lambda_high": 0.4194688350086555,
+      "normalized_split_fem": 1.000025384950138,
+      "normalized_split_first_order": 1.0
+    },
+    {
+      "twist_total_x": 3.141592653589793,
+      "x_over_pi": 1.0,
+      "lambda_low": 0.40697958630416087,
+      "lambda_high": 0.41519986113095375,
+      "normalized_split_fem": 0.4997327851895808,
+      "normalized_split_first_order": 0.5
+    },
+    {
+      "twist_total_x": 6.283185307179586,
+      "x_over_pi": 2.0,
+      "lambda_low": 0.4110657496776736,
+      "lambda_high": 0.41106577251322624,
+      "normalized_split_fem": 1.3882351320780755e-06,
+      "normalized_split_first_order": 1.299390610839792e-17
+    },
+    {
+      "twist_total_x": 9.42477796076938,
+      "x_over_pi": 3.0,
+      "lambda_low": 0.4110743235337121,
+      "lambda_high": 0.41107432496106155,
+      "normalized_split_fem": 8.677244210658903e-08,
+      "normalized_split_first_order": 4.872714790649219e-18
+    }
+  ],
+  "max_abs_normalized_error_scan": 0.0002847920084588784,
+  "max_isotropic_pair_split": 3.1536995237502197e-12,
+  "magic_twist_epsilon_scan": [
+    {
+      "epsilon": 0.04,
+      "normalized_residual": 5.542666905682381e-06
+    },
+    {
+      "epsilon": 0.02,
+      "normalized_residual": 1.3882351320780755e-06
+    },
+    {
+      "epsilon": 0.01,
+      "normalized_residual": 3.4713324771752514e-07
+    },
+    {
+      "epsilon": 0.005,
+      "normalized_residual": 8.711597710212031e-08
+    }
+  ],
+  "magic_twist_normalized_residual_power": 1.997418798554903,
+  "null_prediction": "isotropic constitutive tensor epsilon=0 makes uniform open-segment pre-twist gauge-removable",
+  "anisotropic_prediction": "weak anisotropy exposes pre-twist through mode splitting weighted by the coherence factor"
+}
