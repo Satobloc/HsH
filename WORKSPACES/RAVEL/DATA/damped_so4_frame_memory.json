@@ -1,0 +1,323 @@
+{
+  "model": "instantaneous noncommuting kicks with exact overdamped geodesic relaxation",
+  "equation": "dF/dt = -(1/tau_r) Log(F) F between kicks",
+  "eps_reference": 0.12,
+  "rows": [
+    {
+      "mu": 0.0,
+      "retention": 1.0,
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.014331137868603301,
+      "memory_excess_angle": 0.007217654539081838,
+      "support_rms": 0.0005215561230336675,
+      "support_max": 0.0012899673759705355,
+      "isotropic_support_rms": 7.063541790191507e-17
+    },
+    {
+      "mu": 0.2,
+      "retention": 0.8187307530779818,
+      "normal_mismatch_after": 2.242025235105681e-16,
+      "residual_angle": 0.014113156212375418,
+      "memory_excess_angle": 0.006966739304538071,
+      "support_rms": 0.0005033981254910001,
+      "support_max": 0.001247580859038644,
+      "isotropic_support_rms": 1.0514771318006862e-16
+    },
+    {
+      "mu": 0.4,
+      "retention": 0.6703200460356393,
+      "normal_mismatch_after": 1.1188630228279524e-16,
+      "residual_angle": 0.013582280712266796,
+      "memory_excess_angle": 0.006414600929053463,
+      "support_rms": 0.00046348818059361804,
+      "support_max": 0.0011490806969551848,
+      "isotropic_support_rms": 6.767645195336333e-17
+    },
+    {
+      "mu": 0.6000000000000001,
+      "retention": 0.5488116360940264,
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.012911167118976026,
+      "memory_excess_angle": 0.0057292505038795275,
+      "support_rms": 0.000413960327500655,
+      "support_max": 0.0010258883956644205,
+      "isotropic_support_rms": 1.0752487245935066e-16
+    },
+    {
+      "mu": 0.8,
+      "retention": 0.44932896411722156,
+      "normal_mismatch_after": 1.5515838457795457e-17,
+      "residual_angle": 0.01220298272871584,
+      "memory_excess_angle": 0.005011305394003248,
+      "support_rms": 0.0003620815345790706,
+      "support_max": 0.0008966811141566389,
+      "isotropic_support_rms": 4.918789985999062e-17
+    },
+    {
+      "mu": 1.0,
+      "retention": 0.36787944117144233,
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.01151662285516012,
+      "memory_excess_angle": 0.004318132859484866,
+      "support_rms": 0.00031199506172169776,
+      "support_max": 0.0007732278148616656,
+      "isotropic_support_rms": 7.156654208395712e-17
+    },
+    {
+      "mu": 1.2000000000000002,
+      "retention": 0.301194211912202,
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.010883158434412444,
+      "memory_excess_angle": 0.0036798413526197824,
+      "support_rms": 0.0002658753357861166,
+      "support_max": 0.0006593724196070072,
+      "isotropic_support_rms": 1.123961597607544e-16
+    },
+    {
+      "mu": 1.4000000000000001,
+      "retention": 0.24659696394160643,
+      "normal_mismatch_after": 1.1449174941446927e-16,
+      "residual_angle": 0.010316518217484959,
+      "memory_excess_angle": 0.0031097342709472393,
+      "support_rms": 0.00022468297005491037,
+      "support_max": 0.0005574604848744835,
+      "isotropic_support_rms": 9.090348270356029e-17
+    },
+    {
+      "mu": 1.6,
+      "retention": 0.20189651799465538,
+      "normal_mismatch_after": 1.734723475976807e-17,
+      "residual_angle": 0.009820377653652679,
+      "memory_excess_angle": 0.0026110720225225293,
+      "support_rms": 0.0001886531781256186,
+      "support_max": 0.00046820221183263566,
+      "isotropic_support_rms": 1.7690777709386487e-17
+    },
+    {
+      "mu": 1.8,
+      "retention": 0.16529888822158653,
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.009392556062248064,
+      "memory_excess_angle": 0.0021813940122568398,
+      "support_rms": 0.0001576079557466932,
+      "support_max": 0.00039122803862912114,
+      "isotropic_support_rms": 6.678122136852315e-17
+    },
+    {
+      "mu": 2.0,
+      "retention": 0.1353352832366127,
+      "normal_mismatch_after": 4.718958039861916e-17,
+      "residual_angle": 0.009027783060669013,
+      "memory_excess_angle": 0.0018152385574047385,
+      "support_rms": 0.0001311525476315056,
+      "support_max": 0.00032559890799654934,
+      "isotropic_support_rms": 8.095789240088215e-17
+    },
+    {
+      "mu": 2.2,
+      "retention": 0.11080315836233387,
+      "normal_mismatch_after": 0.0,
+      "residual_angle": 0.008719403772456764,
+      "memory_excess_angle": 0.0015058184892793951,
+      "support_rms": 0.00010879648170056277,
+      "support_max": 0.0002701201105419493,
+      "isotropic_support_rms": 5.1401703692156345e-17
+    },
+    {
+      "mu": 2.4000000000000004,
+      "retention": 0.09071795328941247,
+      "normal_mismatch_after": 1.5612511283791264e-17,
+      "residual_angle": 0.00846039891727552,
+      "memory_excess_angle": 0.0012460220175187862,
+      "support_rms": 9.002586434245673e-05,
+      "support_max": 0.00022352855553742224,
+      "isotropic_support_rms": 1.011508913927959e-17
+    },
+    {
+      "mu": 2.6,
+      "retention": 0.07427357821433388,
+      "normal_mismatch_after": 1.120072677479456e-16,
+      "residual_angle": 0.008243967364536031,
+      "memory_excess_angle": 0.0010289826124109565,
+      "support_rms": 7.434454353400974e-05,
+      "support_max": 0.00018459944236892678,
+      "isotropic_support_rms": 9.925893094203641e-17
+    },
+    {
+      "mu": 2.8000000000000003,
+      "retention": 0.060810062625217945,
+      "normal_mismatch_after": 2.2247786310271853e-16,
+      "residual_angle": 0.008063833373149172,
+      "memory_excess_angle": 0.0008483777947003155,
+      "support_rms": 6.129568934202139e-05,
+      "support_max": 0.00015220238453161894,
+      "isotropic_support_rms": 1.4359487270475865e-16
+    },
+    {
+      "mu": 3.0,
+      "retention": 0.049787068367863944,
+      "normal_mismatch_after": 3.344115402366441e-16,
+      "residual_angle": 0.007914384142246645,
+      "memory_excess_angle": 0.0006985609952639162,
+      "support_rms": 5.0471316112392235e-05,
+      "support_max": 0.0001253264859030212,
+      "isotropic_support_rms": 1.9597001504642674e-16
+    },
+    {
+      "mu": 3.2,
+      "retention": 0.040762203978366204,
+      "normal_mismatch_after": 1.1538519427102117e-16,
+      "residual_angle": 0.007790705874661003,
+      "memory_excess_angle": 0.0005745937512586164,
+      "support_rms": 4.1514605510738916e-05,
+      "support_max": 0.00010308691131566405,
+      "isotropic_support_rms": 7.097542187819572e-17
+    },
+    {
+      "mu": 3.4000000000000004,
+      "retention": 0.033373269960326066,
+      "normal_mismatch_after": 1.1178203268234443e-16,
+      "residual_angle": 0.007688561905693644,
+      "memory_excess_angle": 0.0004722211844033505,
+      "support_rms": 3.411813271230446e-05,
+      "support_max": 8.472092885580818e-05,
+      "isotropic_support_rms": 6.004248591330856e-17
+    },
+    {
+      "mu": 3.6,
+      "retention": 0.02732372244729256,
+      "normal_mismatch_after": 1.1315746967714126e-16,
+      "residual_angle": 0.007604340296150331,
+      "memory_excess_angle": 0.0003878177620903972,
+      "support_rms": 2.8019946205908636e-05,
+      "support_max": 6.957842319843532e-05,
+      "isotropic_support_rms": 1.0405449248399606e-16
+    },
+    {
+      "mu": 3.8000000000000003,
+      "retention": 0.02237077185616559,
+      "normal_mismatch_after": 1.1467886779133992e-16,
+      "residual_angle": 0.0075349877717225035,
+      "memory_excess_angle": 0.0003183199596126889,
+      "support_rms": 2.2998701661806384e-05,
+      "support_max": 5.7109948989331194e-05,
+      "isotropic_support_rms": 8.423685736571445e-17
+    },
+    {
+      "mu": 4.0,
+      "retention": 0.01831563888873418,
+      "normal_mismatch_after": 3.3473533629150685e-16,
+      "residual_angle": 0.007477940101504104,
+      "memory_excess_angle": 0.00026115574028226637,
+      "support_rms": 1.886856620355414e-05,
+      "support_max": 4.685415248650848e-05,
+      "isotropic_support_rms": 2.0600160829070608e-16
+    },
+    {
+      "mu": 4.2,
+      "retention": 0.014995576820477703,
+      "normal_mismatch_after": 1.1339427898225145e-16,
+      "residual_angle": 0.007431054674228135,
+      "memory_excess_angle": 0.00021417649374094253,
+      "support_rms": 1.547430049651223e-05,
+      "support_max": 3.842560070088652e-05,
+      "isotropic_support_rms": 4.470069705610593e-17
+    },
+    {
+      "mu": 4.4,
+      "retention": 0.012277339903068436,
+      "normal_mismatch_after": 2.220717083251841e-16,
+      "residual_angle": 0.007392548305073179,
+      "memory_excess_angle": 0.00017559438535241794,
+      "support_rms": 1.26867319307231e-05,
+      "support_max": 3.150356295844592e-05,
+      "isotropic_support_rms": 8.645817252667881e-17
+    },
+    {
+      "mu": 4.6000000000000005,
+      "retention": 0.010051835744633576,
+      "normal_mismatch_after": 1.1131182198998155e-16,
+      "residual_angle": 0.007360941627071053,
+      "memory_excess_angle": 0.00014392641629378704,
+      "support_rms": 1.0398712751089309e-05,
+      "support_max": 2.5821986392782215e-05,
+      "isotropic_support_rms": 7.628839722195754e-17
+    },
+    {
+      "mu": 4.800000000000001,
+      "retention": 0.008229747049020023,
+      "normal_mismatch_after": 1.1497226645627525e-16,
+      "residual_angle": 0.007335010417927586,
+      "memory_excess_angle": 0.00011794550790190697,
+      "support_rms": 8.521585756300672e-06,
+      "support_max": 2.116072621238807e-05,
+      "isotropic_support_rms": 1.050331731535001e-16
+    },
+    {
+      "mu": 5.0,
+      "retention": 0.006737946999085467,
+      "normal_mismatch_after": 2.226468755882386e-16,
+      "residual_angle": 0.007313743640992169,
+      "memory_excess_angle": 9.663836332813726e-05,
+      "support_rms": 6.98213970438362e-06,
+      "support_max": 1.7337988944987615e-05,
+      "isotropic_support_rms": 7.750157426825401e-17
+    }
+  ],
+  "epsilon_scalings": {
+    "0.0": {
+      "angle_prefactor": 0.5040961520409444,
+      "angle_power": 2.002189393198308,
+      "signal_prefactor": 0.03643877742587816,
+      "signal_power": 2.002326038986297
+    },
+    "1.0": {
+      "angle_prefactor": 0.2991066432374196,
+      "angle_power": 1.9990121174890905,
+      "signal_prefactor": 0.021613477305895943,
+      "signal_power": 1.999055939902077
+    },
+    "3.0": {
+      "angle_prefactor": 0.04842663749543346,
+      "angle_power": 1.9993302212897608,
+      "signal_prefactor": 0.003499066765274817,
+      "signal_power": 1.9993553830565638
+    }
+  },
+  "memory_fit_mu_0p4_to_4": {
+    "angle_prefactor": 0.010594783583554439,
+    "angle_decay_exponent": 0.9090693434941751,
+    "signal_prefactor": 0.0007655113328260736,
+    "signal_decay_exponent": 0.9090837682994627
+  },
+  "representative": {
+    "mu_0": {
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.014331137868603301,
+      "memory_excess_angle": 0.007217654539081838,
+      "support_rms": 0.0005215561230336675,
+      "support_max": 0.0012899673759705355
+    },
+    "mu_1": {
+      "normal_mismatch_after": 1.1274368112207335e-16,
+      "residual_angle": 0.01151662285516012,
+      "memory_excess_angle": 0.004318132859484866,
+      "support_rms": 0.00031199506172169776,
+      "support_max": 0.0007732278148616656
+    },
+    "mu_3": {
+      "normal_mismatch_after": 3.344115402366441e-16,
+      "residual_angle": 0.007914384142246645,
+      "memory_excess_angle": 0.0006985609952639162,
+      "support_rms": 5.0471316112392235e-05,
+      "support_max": 0.0001253264859030212
+    },
+    "mu_5": {
+      "normal_mismatch_after": 2.226468755882386e-16,
+      "residual_angle": 0.007313743640992169,
+      "memory_excess_angle": 9.663836332813726e-05,
+      "support_rms": 6.98213970438362e-06,
+      "support_max": 1.7337988944987615e-05
+    }
+  }
+}
