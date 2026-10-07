@@ -1,0 +1,1318 @@
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+Stars, black holes, and neutron stars, we've all heard of
+Current Time 
+0:03
+/
+Duration 
+17:04
+•Intro
+95
+
+Sciencephile the AI
+2mo2 months ago, 8/3/2026, 4:01 AM
+A star made of iron could form in the far future - if protons never decay
+The video explores some of the strangest possible stellar objects, from future blue dwarfs and dead black dwarfs to iron stars, frozen stars, quark stars, strange stars, and stars that may hide black holes inside them. Some of these objects may not exist yet because the universe is not old enough, while others could already be hiding in plain sight because they look almost identical to regular neutron stars or black holes. The most bizarre ideas include quasi-stars that may have helped form supermassive black holes, mirror stars made from dark matter-like particles, and Planck stars that could solve the mystery of information loss inside black holes. 
+
+share
+more
+placeholder
+
+Arvin Ash
+2d2 days ago, 10/4/2026, 11:00 AM
+Did the W boson just break physics? The mass anomaly
+In April 2022, a Fermilab team reported a W‑boson mass of 80.4335 ± 0.0094 GeV, differing from the Standard Model prediction of 80.357 ± 0.006 GeV. The 0.1 GeV (0.3%) difference, given the reported precision, corresponds to a 7σ deviation, which would normally indicate a discovery. The video explains what the W boson does (it, along with the Z boson, mediates the weak force), how electroweak theory links the W and Z masses via the Weinberg angle, and how quantum corrections—particularly from the top quark and the Higgs—affect the W mass. A mismatch could point to inaccuracies in those inputs or to additional, unknown particles contributing to the corrections. Three broad possibilities are discussed: an error in the theoretical calculation (considered unlikely), an experimental or analysis mistake (more likely), or new physics beyond the Standard Model. Independent measurements (for example from CERN) will be crucial to confirm or refute the Fermilab result. Chapters: 0:00 What is the W Boson Anomaly? 1:30 What does the W boson do? 2:16 Electroweak theory prediction 6:40 What does new W boson mass result mean? 8:57 What could be causing the mass anomaly? 11:23 College level course on the Standard Model #WBoson #electroweaktheory
+
+share
+more
+placeholder
+
+Thomas Mulligan
+2mo2 months ago, 7/24/2026, 12:00 AM
+The space nuclear test that almost destroyed Earth
+Thomas Mulligan investigates Starfish Prime, the high-altitude nuclear test that inadvertently created an artificial radiation belt and threatened global infrastructure.
+
+share
+more
+placeholder
+
+Reuters
+12h12 hours ago, 10/6/2026, 1:04 PM
+Nobel physics prize wasn't the motivation for Francis Halzen's work
+The Belgian-American Francis Halzen on Tuesday (October 6) won the 2026 Nobel Prize in Physics for his work creating an Antarctic observatory of ice to detect high-energy neutrinos, elusive subatomic particles that can reveal otherwise inaccessible information about the cosmos.
+
+share
+more
+placeholder
+
+The Other Side NDE
+1w1 week ago, 9/25/2026, 5:14 AM
+Woman dies and meets council of beings - what she saw is unsettling
+A woman was declared clinically dead and later described an experience that felt beyond human understanding. She claims she encountered what she calls a “council of beings,” entities that seemed aware of her presence. The experience was vivid, intense, and deeply unsettling. It changed how she views life, death, and what may exist beyond it. This is a near death experience that raises questions no one can fully answer.
+
+share
+more
+placeholder
+
+White Shark Ocean
+3h3 hours ago, 10/6/2026, 10:25 PM
+Great white launches through the surface
+Great White Launches Through The Surface
+
+share
+more
+
+Sponsored
+Top Stories
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+
+Sponsored
+
+Profile Picture
+
+Feedback
+
+
+(sakkmesterke/iStock/Getty Images Plus)
+(sakkmesterke/iStock/Getty Images Plus)
+Under certain conditions – such as bone-brittling temperatures lower than that of deep space – superconductors can conduct electricity without resistance and resultant energy loss.
+
+Though they vary in their chemical composition, operational temperature ranges, and magnetic properties, superconductors come in two groupings. 
+
+Physics-Grounded 3D Data - Data Robots Can Train On - Physical AI Datasets
+Physics-Grounded 3D Data - Data Robots Can Train On - Physical AI Datasets
+physicl.ai
+·
+Sponsored
+call to action icon
+
+First, conventional and unconventional superconductors differ in how their electrons become entangled in tandems called Cooper pairs, an identity-sharing state that allows them to gracefully glide through the atomic jumble of their materials to facilitate uninterrupted electric flow. 
+
+Secondly, type I and type II superconductors respond differently to magnetic fields, with distinct types of thresholds at which they abruptly stop operating as superconductors and start acting like regular conductors. 
+
+Unconventional and type II varieties are generally considered more exotic; the Lamborghinis of their domain, pushing physical boundaries because they require bespoke engineering. 
+
+They may also be more suited as workhorses used in technologies like MRIs, much as Lamborghinis used to be tractors.
+
+But perhaps no longer. Because, for the first time, physicists have created a type I superconductor material that can seemingly break the mathematical symmetry of time – a hallmark of unconventional, type II superconductors. 
+
+Related video: Scientists have chased unlimited fusion energy for nearly a century - now they’re closer than ever (Megaprojects)
+View on Watch
+View on Watch
+
+Megaprojects
+Scientists have chased unlimited fusion energy for nearly a century - now they’re closer than ever
+Current Time 
+0:02
+/
+Duration 
+18:12
+0
+Known as time-reversal symmetry, this comprises a curious observation that most of the laws of physics work equally well whether time mathematically flows forward or backward 
+
+In a study recently published in Physical Review Letters, an international team of physicists led by the Indian Institute of Science Education and Research (IISER) Bhopal analyzed and described this material's unique electrical and quantum qualities, suggesting that it may eventually improve quantum computing designs.
+
+The researchers synthesized single crystals of a material called ytterbium diantimonide (YbSb2) and used X-rays to determine its chemical purity and complex crystal structure – a structure common in conventional and unconventional superconductors because it allows quantum behaviors to emerge.
+
+
+A graphical abstract of this work. At center, the teal spheres represent the element ytterbium (Yb) and the bronze spheres represent antimony (Sb). ((IISER Bhopal))
+A graphical abstract of this work. At center, the teal spheres represent the element ytterbium (Yb) and the bronze spheres represent antimony (Sb). ((IISER Bhopal))
+They determined that its electrical resistance dropped to zero and it abruptly became superconducting at a temperature of around -272 degrees Celsius (-457.6 degrees Fahrenheit), which is just a smidge above absolute zero (-273.15 degrees Celsius).
+
+Combined with specific heat measurements of how its electrons respond to heat, the researchers confirmed that their material exhibited type I superconducting properties. 
+
+Books For Science Lover - Evoke a Sense Of Wonder - As Fast as Same-Day with Prime
+Books For Science Lover - Evoke a Sense Of Wonder - As Fast as Same-Day with Prime
+amazon.com
+·
+Sponsored
+call to action icon
+
+This measure also helped confirm its "fully gapped" state, meaning it features an energy barrier that makes it harder to disentangle its paired electrons, and therefore knock it out of a superconducting state.
+
+The researchers also used two types of muon spin spectroscopy, a quantum probing technique that reveals the magnetic fields inside a material by zapping it with muons, or fundamental subatomic particles that act like little bar magnets. 
+
+When they did so without applying an external magnetic field, they revealed that, once the material entered the superconducting phase, tiny internal magnetic fields spontaneously appeared within it.
+
+
+( Oak Ridge National Laboratory )
+( Oak Ridge National Laboratory )
+This provided the key evidence that YbSb2 could break time-reversal symmetry, since magnetic fields reverse their direction when time is mathematically reversed – if they didn't, they would preserve, rather than break, this curious property of time. 
+
+In another version of this quantum probing technique, the researchers applied external magnetic fields while beaming the material with muons. 
+
+Additionally, when in a bulk superconducting state, the electrons in YbSb2 do not pair up in a traditional way. 
+
+Instead, they come together in an unconventional "spin triplet," which is a Cooper pair but called a triplet due to the possible combinations of the electrons' spins.
+
+Importantly, this is more mouth-twistingly called an "internally antisymmetric non-unitary triplet (INT) state," so it displays a net magnetic moment – its magnetic forces do not cancel out. 
+
+This pairing allows YbSb2 to break the time-reversal symmetry on its own, without requiring an external magnetic field to do so. 
+
+To find out how triplets form, the researchers modeled their material based on fundamental physical qualities, revealing that each of the paired electrons comes from different energy orbitals.
+
+As a result, its combined properties may make YbSb2 able to host "gapless Majorana surface modes," which is not a top-selling Zelda game.
+
+It means that, at low temperatures, while its bulk acts like a superconductor through which electrons flow unimpeded, its surface may manifest Majorana modes, or quantum excitations that act as their own antiparticles. (Possibly comparable to a delicious Red Vine, which transmits air through its bulk and sugar through its edges)
+
+This could represent more than a theoretical breakthrough.
+
+Such "topological quantum materials" may be better able to protect quantum information by making it less vulnerable to external conditions like heat or electromagnetic noise – sources of interference that knock quantum systems out of their entangled (and therefore useful) states and relegate them to the computing powers of, well, regular computers.
+
+The research has been published in Physical Review Letters.
+
+ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+Morning Overview
+59.7K Followers
+Physicists found spin-splitting evidence for a third kind of magnetism
+Story by BeckhamLangford • 12h • 4 min read
+
+
+Physicists found spin-splitting evidence for a third kind of magnetism
+Physicists found spin-splitting evidence for a third kind of magnetism
+© brechtcorbeel/Unsplash
+Cobalt atoms wedged between layers of tantalum diselenide produce an electronic signature that physicists at the University of Central Florida read as altermagnetism, the magnetic order now ranked beside ferromagnetism and antiferromagnetism. The compound, Co1/4TaSe2, orders magnetically at 178 kelvins, far below room temperature, so it is a laboratory test case and not a device material.
+
+The Physical AI Data Layer - Data Robots Can Train On - Beyond One-Off Datasets
+The Physical AI Data Layer - Data Robots Can Train On - Beyond One-Off Datasets
+physicl.ai
+·
+Sponsored
+call to action icon
+
+The team led by UCF professor Madhab Neupane, with first author Milo Sprague, published the measurements in Nature Communications on August 20, 2026. UCF followed with its own announcement on September 18.
+
+Co1/4TaSe2 and the ARPES measurements
+The paper, titled “Observation of Altermagnetic Spin-Splitting in an Intercalated Transition Metal Dichalcogenide,” lists ten authors, among them theorist Igor Mazin and Nirmal Ghimire alongside Neupane and Sprague. Its abstract reports “clear signatures of altermagnetic spin splitting at the Fermi surface,” drawn from angle-resolved photoemission spectroscopy, which maps the energy and momentum of electrons knocked out of a crystal, and from density functional theory calculations. Magnetic measurements put the antiferromagnetic ordering temperature at 178 K.
+
+UCF’s release adds that the group used spin-resolved measurements to tell spin-up from spin-down electrons. Neupane said that seeing the independent pieces of evidence converge gave the group confidence that it had identified a genuine layered altermagnet. An earlier preprint version of the work reports data taken at beamline 5-2 of the Stanford Synchrotron Radiation Lightsource and a momentum splitting of about 0.09 inverse angstroms between opposite-spin Fermi surfaces, visible in one slice of the crystal’s momentum space and absent in another.
+
+Related video: If magnetic monopoles exist, atoms may stop being the limit of matter (Isaac Arthur)
+View on Watch
+View on Watch
+
+Isaac Arthur
+If magnetic monopoles exist, atoms may stop being the limit of matter
+Current Time 
+0:00
+/
+Duration 
+26:01
+0
+Mainz and the Europhysics Prize behind the “third kind” label
+The Nature Communications paper calls altermagnetism a novel magnetic phase that combines features of antiferromagnetism and ferromagnetic ordering. UCF’s release is titled “new type of magnetism” and its text says altermagnets combine desirable traits of both older kinds. Neither uses the words “third kind.”
+
+The ranking comes from the theorists who classified the order, and the three physicists named below hold the prize for it. In July 2026, Johannes Gutenberg University Mainz announced that the 2026 Europhysics Prize went to Jairo Sinova of Mainz, Libor Šmejkal of the Max Planck institutes and the Czech Academy of Sciences, and Tomas Jungwirth of the Czech Academy and the University of Nottingham. The award, according to the release, recognizes that altermagnetism is “a third elementary form of collinear magnetism in addition to ferromagnetism and antiferromagnetism.” Sinova said that finding a new magnetic phase hidden for more than a hundred years shows that mature fields can still hold surprises.
+
+Physics-Grounded 3D Data - Data Robots Can Train On - Talk to Our Data Team
+Physics-Grounded 3D Data - Data Robots Can Train On - Talk to Our Data Team
+physicl.ai
+·
+Sponsored
+call to action icon
+
+The wording matters for the claim of a third kind. The UCF work did not discover the third class; it supplies one more material in which the predicted spin pattern shows up. The Mainz release says the symmetry classification arrived in 2022, that hundreds of candidate materials have been proposed, and that experimental confirmations followed worldwide.
+
+Layered crystal, stray fields and the distance to devices
+A ferromagnet has net magnetization, which is why it can store bits but also spills stray magnetic fields onto its neighbors. An ordinary antiferromagnet has no net magnetization, so it leaks no field, but its electrons are hard to read out. Altermagnets cancel net magnetization while still splitting electron bands by spin, so they could, in principle, carry spin currents without the stray fields. Neupane put it in UCF’s release as the ability to generate and detect spin currents without the negative effect of producing stray fields.
+
+Physics-Grounded 3D Data - The Physical AI Data Layer - Physical AI Datasets
+Physics-Grounded 3D Data - The Physical AI Data Layer - Physical AI Datasets
+physicl.ai
+·
+Sponsored
+call to action icon
+
+Two measurements anchor the case for this particular compound. One is the six-fold alternation of spin polarization across momentum space, which The Brighter Side of News reports swinging from roughly negative 13 percent to positive 13 percent, matching the pattern theory predicts for the crystal’s symmetry. The other is the temperature dependence in the paper’s abstract, where the band structure reconstructs on heating above the ordering temperature, consistent with the magnetic order being switched off. Each is a check that the splitting follows the magnetic order and not an unrelated feature of the sample, though the preprint’s note that the surface-versus-bulk question is unaddressed still applies.
+
+The layered structure is the compound’s selling point. According to Sci.News, earlier altermagnet candidates such as manganese telluride and chromium antimonide are not van der Waals crystals, whereas Co1/4TaSe2 can in principle be stacked with other exotic materials.
+
+The preprint carries its own caveat: spin splitting seen in photoemission does not by itself establish altermagnetism, and the interpretation also relies on the magnetic structure fitting the symmetry criteria. At 178 K, no memory chip is close. What the measurements add is a layered material in which the splitting can be studied, with the next steps being cleaner spin-resolved data and tests at device-relevant temperatures.
+
+This article was produced with the assistance of AI and reviewed by Morning Overview editors prior to publication.
+
+More from Morning Overview
+
+NTSB report details how a family of four died when their plane’s nose suddenly pitched up
+Doctors warn a silent liver disease now affects one in three American adults
+Common allergy, bladder and sleep pills tied to sharply higher dementia odds
+The second-largest U.S. reservoir just fell to its lowest level ever recorded
+
+Sponsored
+Morning Overview
+Visit Morning Overview
+Xbox Cloud Gaming stops working on 2020 Samsung TVs on November 3
+Apple says Apple Intelligence can occupy up to 14GB on a Mac, and a free tool strips it out
+Google froze its open-source bug bounty after a flood of automated reports
+
+Sponsored
+Sponsored Content
+Physical AI Datasets - Physics-Grounded 3D Data - Millions of 3D Assets
+physicl.ai
+Physical AI Datasets - Physics-Grounded 3D Data - Millions of 3D Assets
+Sponsored
+
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+cpl.thalesgroup.com
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+Sponsored
+
+Become a Digital Artist - Design Without Boundaries - Become a Graphic Designer
+Los Angeles Film School
+Los Angeles Film School
+Become a Digital Artist - Design Without Boundaries - Become a Graphic Designer
+Sponsored
+
+MDs Now Tied This 1 Boxed Cereal to 89% of Forgetfulness Cases
+Hummann
+MDs Now Tied This 1 Boxed Cereal to 89% of Forgetfulness Cases
+Sponsored
+
+More for You
+
+
+After 25 years, physicists can finally measure the 'other' kind of quantum entanglement
+ScienceAlert
+ScienceAlert
+·
+2d
+After 25 years, physicists can finally measure the 'other' kind of quantum entanglement
+
+
+Every active federal judge in Nashville recuses from Jack Smith case
+Newsweek
+Newsweek
+·
+13h
+Every active federal judge in Nashville recuses from Jack Smith case
+
+
+
+Gravity Lab
+Gravity Lab
+The hardest climb of his life turned into a personal nightmare, "I can't let it go"
+
+
+
+Gravity Lab
+Gravity Lab
+Failure only exists once you stop trying
+
+
+Was Christa Pike's execution team all women? We investigated
+Snopes
+Snopes
+·
+4d
+Was Christa Pike's execution team all women? We investigated
+
+
+9 times we've debunked fake Trump quotes
+Snopes
+Snopes
+·
+1w
+9 times we've debunked fake Trump quotes
+
+
+
+Aperture
+Aperture
+·
+4d
+Scientists send particles through 2 slits one at a time - the pattern wrecks the tiny-bullet picture of matter
+
+
+Become a Digital Artist - The Los Angeles Film School - Become a Graphic Designer
+Los Angeles Film School
+Los Angeles Film School
+Become a Digital Artist - The Los Angeles Film School - Become a Graphic Designer
+Sponsored
+
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+cpl.thalesgroup.com
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+Sponsored
+
+share
+more
+
+Gravity Lab
+How to train for hard crack climbs
+3mo
+View on Watch
+View on Watch
+
+Gravity Lab
+How to train for hard crack climbs
+Current Time 
+0:00
+/
+Duration 
+15:31
+0
+We sat down with Pete Whitaker of the Wide Boyz to talk crack climbing, rope soloing, and how to actually train for hard objectives. From building crack replicas to preparing for El Cap rope solos, Pete breaks down what works — and what doesn’t. We discuss crack cellars, training steep hands for vertical routes, finger crack preparation, and why replicas are one of the most effective ways to build strength. If you want to get better at crack climbing, this is insight from someone who’s done it at the highest level.
+
+TOP STORIES
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+ Eva Marie Saint
+NewsweekNewsweek
+Oscar-winner Eva Marie Saint dies at 102
+Sponsored Content
+More for You
+
+Feedback
+
+Profile Picture
+	
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+Phys.org
+47.5K Followers
+Can a passing black hole disturbance leave a trace in Hawking radiation?
+Story by Mehmet Baran Ökten • 15h • 5 min read
+
+
+A schematic showing how opposite points are defined on a distorted horizon. The horizon geometry is related to a round sphere, where antipodal points are easy to identify, and the comparison is then carried back to the original surface. Credit: M. Baran Ökten and Aslı Seda Turan
+A schematic showing how opposite points are defined on a distorted horizon. The horizon geometry is related to a round sphere, where antipodal points are easy to identify, and the comparison is then carried back to the original surface. Credit: M. Baran Ökten and Aslı Seda Turan
+Black holes, despite their extreme nature, are described by surprisingly few basic parameters: their mass, charge and spin. Two black holes may have formed for completely different reasons and passed through very different histories, yet still end up in the same final state. John Wheeler summarized this idea with the famous phrase "black holes have no hair."
+
+
+A schematic showing a black hole horizon before, during and after a temporary asymmetric disturbance. The horizon begins in a quiet state, becomes directionally distorted for a finite interval, and later settles down again. Credit: M. Baran Ökten and Aslı Seda Turan
+A schematic showing a black hole horizon before, during and after a temporary asymmetric disturbance. The horizon begins in a quiet state, becomes directionally distorted for a finite interval, and later settles down again. Credit: M. Baran Ökten and Aslı Seda Turan
+Subscribe to our newsletter for the latest sci-tech news updates.
+
+Once quantum physics enters the picture, things become more complicated. As Stephen Hawking showed in the 1970s, black holes have a temperature and produce what we now call Hawking radiation. For a stationary black hole, this radiation has a characteristic temperature related to the surface gravity.
+
+Start Your Story Here
+Start Your Story Here
+over40connections.com
+over40connections.com
+·
+Sponsored
+call to action icon
+
+The real universe is much less ideal. Finding a completely isolated black hole is not easy. Matter may fall toward it, a nearby companion may disturb the surrounding spacetime, or external fields may change. For some period of time, the black hole can therefore be away from its quiet stationary state.
+
+Our paper, published in the journal Classical and Quantum Gravity, focuses on exactly that situation.
+
+We begin with an ideal, quiet black hole. Then, for some finite period, it is disturbed in a preferred direction. Once the disturbance has passed, the black hole settles down again. Much later, we look at the system once more and ask a simple question: Can the Hawking radiation tell us something about what happened during the disturbance?
+
+Tracing the disturbance through redshift
+A useful way to study Hawking radiation is to follow outgoing light rays backward through spacetime. As we trace them toward the black hole, they undergo a very large redshift. The history of that redshift is one of the main ingredients in the Hawking calculation.
+
+For a stationary black hole, the redshift follows a regular pattern. During a disturbance, it can change with time and can also depend on direction. Light traveling away in one direction may therefore have a different redshift history from light traveling away in another.
+
+Related video: That black hole photo: How event horizons bend time, space, and light (Big Think)
+View on Watch
+View on Watch
+
+Big Think
+That black hole photo: How event horizons bend time, space, and light
+Current Time 
+0:02
+/
+Duration 
+6:25
+0
+We describe that behavior using a quantity called the peeling field. It tells us how the redshift of the outgoing rays changes. In the part of the Hawking radiation problem that we study, changes in the peeling field are directly connected to changes in the outgoing quantum flux.
+
+Now imagine that the peeling field becomes temporarily asymmetric. Opposite directions agree before the disturbance, differ for a while and later agree again.
+
+Finding opposite points on a disturbed horizon
+Before comparing those directions, however, we need to decide what "opposite" means.
+
+For a round sphere, every point has an obvious antipode. A disturbed black hole horizon can have a more general geometry. We therefore use a balanced form of uniformization to relate the intrinsic geometry of the horizon cross section to a round sphere. We define opposite points on that sphere and then carry the comparison back to the original horizon.
+
+Best AI Music Video Generator - Free AI Music Video Maker - Create Music Videos Free
+Best AI Music Video Generator - Free AI Music Video Maker - Create Music Videos Free
+FlyuAI
+FlyuAI
+·
+Sponsored
+call to action icon
+
+The Borsuk–Ulam theorem becomes useful here. A familiar example uses Earth. Imagine measuring temperature and air pressure everywhere on its surface. If both vary continuously, then at any given moment there must be two opposite points with the same temperature and the same pressure.
+
+In our calculation, temperature and pressure are replaced by the peeling field and its rate of change. At each moment, the theorem guarantees an antipodal pair where both agree.
+
+We then compare the peeling field with its antipodal image across the whole reference surface and combine those differences into a measure of the directional imbalance.
+
+Suppose that imbalance begins at zero. During the disturbance, it grows, reaches a maximum and finally returns to zero. The beginning and the end agree, but the field has still gone through a finite excursion in between.
+
+A minimum response to temporary imbalance
+We perform the calculation in a massless conformal channel. In practical terms, this is a controlled part of the Hawking radiation problem where the relation between ray tracing and quantum flux can be treated exactly.
+
+To isolate the effect of the time dependence, we compare the exact flux with a reference flux built from the instantaneous value of the peeling field. The reference itself can change during the disturbance. What matters is how far the exact flux moves away from that reference.
+
+Physics-Grounded 3D Data - Physical AI Datasets - Millions of 3D Assets
+Physics-Grounded 3D Data - Physical AI Datasets - Millions of 3D Assets
+physicl.ai
+·
+Sponsored
+call to action icon
+
+Our main result is a lower bound on the accumulated size of that departure. The largest antipodal imbalance reached during the episode sets the scale of the minimum response.
+
+The detailed shape of the disturbance does not need to be known. Once the imbalance reaches a certain size and later disappears, some amount of variation has already become unavoidable.
+
+Positive and negative deviations can still cancel. In one of our examples, they cancel exactly over the whole episode. The signed result is zero, but the accumulated response remains finite. Looking only at the final balance would therefore hide what happened in between.
+
+The simplest example is a dipole. On a round horizon, one side changes in one direction while the opposite side changes in the other. A compact dipole pulse reaches our bound exactly.
+
+Accounting for scattering beyond the horizon
+Our calculation describes only one part of the full Hawking radiation problem. In four dimensions, radiation traveling away from the black hole can also be scattered by the surrounding spacetime. Different frequencies can behave differently, and the mass and spin of the quantum field can matter. We collect these effects into a separate correction whose size has to be calculated independently.
+
+A concrete model of asymmetric infall or tidal forcing would allow all of these ingredients to be studied together. For now, our result gives a one-way constraint: once a temporary antipodal imbalance reaches a certain size, the accumulated departure of the radiation from its reference behavior cannot be arbitrarily small.
+
+This story is part of Science X Dialog, where researchers can report findings from their published research articles. Visit this page for information about Science X Dialog and how to participate.
+
+More information: M Baran Ökten et al, Antipodal constraints on transient Hawking radiation in a conformal channel, Classical and Quantum Gravity (2026). DOI: 10.1088/1361-6382/ae99a5
+
+M. Baran Ökten is a theoretical physicist currently at Istanbul Technical University and undertaking a research visit at the University of Amsterdam. His research focuses on black hole physics, semiclassical gravity and strong gravity observables. He is particularly interested in Hawking radiation, relativistic polarimetry and geometric methods for understanding how information about black hole spacetimes can appear in observable radiation.
+
+This story was originally published on Phys.org.
+
+Sponsored
+Phys.org
+Visit Phys.org
+The world's oyster reefs could add $12 trillion to planetary health each year—if they were better managed
+Linguists find Madonna's voice defies age-related expectations
+Nearly 10,000 mapped reactions reveal overlooked steps in CO₂-to-fuel conversion
+
+Sponsored
+Sponsored Content
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+cpl.thalesgroup.com
+Thales Luna Cloud HSM - Download the eBook - Secure Encryption Keys & Data
+Sponsored
+
+The Mindtickle Replacement - Trusted by Fortune 1000 - First AI-Native Platform
+Showpad®
+Showpad®
+The Mindtickle Replacement - Trusted by Fortune 1000 - First AI-Native Platform
+Sponsored
+
+The Physical AI Data Layer - Talk to Our Data Team - See the Asset Library
+physicl.ai
+The Physical AI Data Layer - Talk to Our Data Team - See the Asset Library
+Sponsored
+
+MDs Now Eye This 1 Boxed Cereal For Memory
+Memory Health Journal
+MDs Now Eye This 1 Boxed Cereal For Memory
+Sponsored
+
+More for You
+
+
+Cosmic gamma rays test the limits of Einstein’s speed of light rule
+The Brighterside of News
+The Brighterside of News
+·
+1d
+Cosmic gamma rays test the limits of Einstein’s speed of light rule
+
+
+A black hole could spit itself out of its own hair, leaving a boson star in its wake
+ScienceAlert
+ScienceAlert
+·
+1w
+A black hole could spit itself out of its own hair, leaving a boson star in its wake
+
+
+A strange signal could reveal the Milky Way’s black hole losing energy
+Daily Galaxy
+Daily Galaxy
+·
+13h
+A strange signal could reveal the Milky Way’s black hole losing energy
+
+
+
+StarTalk
+StarTalk
+·
+1d
+Is our universe inside a black hole?
+
+
+
+Gravity Lab
+Gravity Lab
+·
+3d
+Climber takes on the challenging Peter Principle at Donner Summit
+
+
+'Cornell 7' gang rape lawsuit: What we know about the allegations so far
+Snopes
+Snopes
+·
+1w
+'Cornell 7' gang rape lawsuit: What we know about the allegations so far
+
+
+Was Trump's 'super intelligence' order a ploy to profit off .si domain names?
+Snopes
+Snopes
+·
+5d
+Was Trump's 'super intelligence' order a ploy to profit off .si domain names?
+
+
+Physics-Grounded 3D Data - Data Robots Can Train On - Sim-to-Real That Transfers
+physicl.ai
+Physics-Grounded 3D Data - Data Robots Can Train On - Sim-to-Real That Transfers
+Sponsored
+
+Georgia Tech - MA in Systems Engineering - Collaborative Cohort of Peers
+info.pe.gatech.edu
+Georgia Tech - MA in Systems Engineering - Collaborative Cohort of Peers
+Sponsored
+
+share
+more
+
+Astrum
+59.7K Followers
+An 84-foot wave hit an oil platform - then a laser proved the sailors weren’t lying
+21h
+View on Watch
+View on Watch
+
+Astrum
+An 84-foot wave hit an oil platform - then a laser proved the sailors weren’t lying
+Current Time 
+0:00
+/
+Duration 
+26:16
+0
+For centuries, sailors warned about rogue waves, but scientists dismissed them as ocean folklore. That changed after a laser on the Draupner oil platform recorded an 84-foot wave on New Year’s Day 1995, proving the impossible was real. The danger had already been written in disasters like the MS München, a 787-foot cargo ship that sent one final SOS before vanishing in the North Atlantic. Months later, a recovered lifeboat showed steel hinges bent backward, pointing to a wave powerful enough to tear equipment from 66 feet above the waterline.
+
+TOP STORIES
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+ Eva Marie Saint
+NewsweekNewsweek
+Oscar-winner Eva Marie Saint dies at 102
+Sponsored Content
+More for You
+
+Feedback
+
+Profile Picture
+
+
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+The 1970s were a time of scientificVideo Player is loading.
+
+Ranker - Video
+2w2 weeks ago, 9/22/2026, 5:12 AM
+The strange algorithm people used to run their lives
+The 1970s were a decade packed with real scientific breakthroughs; NASA launched Voyager 1, Intel revolutionized computing with the first microprocessor, and JVC introduced the VHS. At the same time, some more -- shall we say -- outside-the-box ideas also started quietly gaining traction, ideas like biorhythms. Promoted as a scientific way to predict your physical, emotional, and intellectual highs and lows, biorhythms captured the public's imagination... but were they really all that? 
+
+share
+more
+placeholder
+
+Arvin Ash
+2d2 days ago, 10/4/2026, 11:00 AM
+Did the W boson just break physics? The mass anomaly
+In April 2022, a Fermilab team reported a W‑boson mass of 80.4335 ± 0.0094 GeV, differing from the Standard Model prediction of 80.357 ± 0.006 GeV. The 0.1 GeV (0.3%) difference, given the reported precision, corresponds to a 7σ deviation, which would normally indicate a discovery. The video explains what the W boson does (it, along with the Z boson, mediates the weak force), how electroweak theory links the W and Z masses via the Weinberg angle, and how quantum corrections—particularly from the top quark and the Higgs—affect the W mass. A mismatch could point to inaccuracies in those inputs or to additional, unknown particles contributing to the corrections. Three broad possibilities are discussed: an error in the theoretical calculation (considered unlikely), an experimental or analysis mistake (more likely), or new physics beyond the Standard Model. Independent measurements (for example from CERN) will be crucial to confirm or refute the Fermilab result. Chapters: 0:00 What is the W Boson Anomaly? 1:30 What does the W boson do? 2:16 Electroweak theory prediction 6:40 What does new W boson mass result mean? 8:57 What could be causing the mass anomaly? 11:23 College level course on the Standard Model #WBoson #electroweaktheory
+
+share
+more
+placeholder
+
+Thomas Mulligan
+2mo2 months ago, 7/24/2026, 12:00 AM
+The space nuclear test that almost destroyed Earth
+Thomas Mulligan investigates Starfish Prime, the high-altitude nuclear test that inadvertently created an artificial radiation belt and threatened global infrastructure.
+
+share
+more
+placeholder
+
+XPLNR
+1w1 week ago, 9/29/2026, 7:21 AM
+Can anyone overrule the Supreme Court?
+Is the Supreme Court really that powerful? No person, the president, or government body can overrule or directly reverse a Supreme Court decision. It is the highest court in the US, and its decisions are final. However, a Supreme Court ruling can sometimes be altered through specific constitutional or legislative processes. The Supreme Court can overrule past decisions if a new, relevant case comes before it. If the majority of justices vote to set a new rule, the older ruling is officially replaced. Congress can create a new law or clarify the existing law to override the court's interpretation of statutory rulings, but not constitutional rulings. Finally, if the Court rules under the Constitution, Congress can overturn the decision by passing a constitutional amendment. This requires a two-thirds majority from both the House of Representatives and the Senate and approval from at least 38 states.
+
+share
+more
+placeholder
+
+AstroKobi
+3mo3 months ago, 7/8/2026, 3:00 PM
+Scientists reveal a black hole on the move!
+Scientists are observing a Black Hole that is becoming active. The video explores the implications of this cosmic activity, including the changes in its environment and the potential insights it provides into the behavior of black holes in general.
+
+share
+more
+placeholder
+
+Family Feud
+2w2 weeks ago, 9/22/2026, 5:36 PM
+Name the best live female singer of all time
+Name the best live female singer of all time.
+
+share
+more
+
+Sponsored
+Top Stories
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+
+Sponsored
+
+Profile Picture
+
+Feedback
+
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+Click to unmute
+Click to unmute
+
+Current Time 
+0:00
+/
+Duration 
+6:25
+•Intro
+0
+
+Big Think
+2mo2 months ago, 7/30/2026, 4:01 AM
+That black hole photo: How event horizons bend time, space, and light
+Black holes are usually surrounded by disks of very, very bright, very hot material. And that's how we find them. Black holes themselves give off no radiation at all. Any light gets absorbed into the black hole — all forms of light, from gamma rays to radio waves. A black hole's gravity is so strong it actually bends space itself. What does this mean? There's no way to get out of the black hole — out of the event horizon — because space and time themselves are bent into the black hole. 
+
+share
+more
+placeholder
+Current Time 
+0:03
+/
+Duration 
+6:42
+•Intro
+0
+
+Big Think
+2w2 weeks ago, 9/18/2026, 11:13 AM
+A 7-minute guide to the relationship between quantum mechanics and black holes
+“You’re not meant to understand what I just said, because I don’t understand what I just said…” Physicist Brian Cox on one of the most complex theories in space science. 
+
+share
+more
+placeholder
+Click to unmute
+Click to unmute
+You see this right here?
+Current Time 
+0:00
+/
+Duration 
+0:56
+0
+
+Thomas Mulligan
+2mo2 months ago, 7/24/2026, 12:00 AM
+The space nuclear test that almost destroyed Earth
+Thomas Mulligan investigates Starfish Prime, the high-altitude nuclear test that inadvertently created an artificial radiation belt and threatened global infrastructure.
+
+share
+more
+placeholder
+
+The Space Community
+11h11 hours ago, 10/6/2026, 2:12 PM
+Blue Origin’s New Glenn reached orbit, opening a new SpaceX rivalry
+Blue Origin’s New Glenn reached orbit on its first flight from Cape Canaveral on January 16, 2025, while its first-stage booster was lost during descent. Elon Musk congratulated Jeff Bezos, and NASA outlined two landing strategies for Mars Sample Return.
+
+share
+more
+placeholder
+
+The Other Side NDE
+1w1 week ago, 9/25/2026, 5:14 AM
+Woman dies and meets council of beings - what she saw is unsettling
+A woman was declared clinically dead and later described an experience that felt beyond human understanding. She claims she encountered what she calls a “council of beings,” entities that seemed aware of her presence. The experience was vivid, intense, and deeply unsettling. It changed how she views life, death, and what may exist beyond it. This is a near death experience that raises questions no one can fully answer.
+
+share
+more
+placeholder
+
+StarTalk
+2w2 weeks ago, 9/22/2026, 2:00 PM
+Why math was actually invented
+A brief look at the origins of math and why it was developed.
+
+share
+more
+
+Sponsored
+Top Stories
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+
+Sponsored
+
+Profile Picture
+
+Feedback
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+Morning Overview
+59.7K Followers
+A superfluid helium qubit could cut quantum errors roughly a hundredfold
+Story by BeckhamLangford • 12h • 4 min read
+
+
+A superfluid helium qubit could cut quantum errors roughly a hundredfold
+A superfluid helium qubit could cut quantum errors roughly a hundredfold
+© Image credit: GettyImages
+Error rates around 100 times lower than those of today’s superconducting qubits: that is the prediction attached to a proposed quantum bit built from superfluid helium-3 at the University of Surrey. Dr Priya Sharma, a Daphne Jackson Fellow in hybrid quantum systems, and Dr Eran Ginossar, an associate professor of physics, designed the device with Prof Jens Koch of Northwestern University, and no one has built it yet. The team’s pitch is that a charge-neutral fluid sidesteps the electromagnetic noise that limits the superconducting qubits in use now.
+
+Physics-Grounded 3D Data - Training Data for Physical AI - See the Asset Library
+Physics-Grounded 3D Data - Training Data for Physical AI - See the Asset Library
+physicl.ai
+·
+Sponsored
+call to action icon
+
+The figure comes from calculation and modelling, which Sharma is open about, saying the mathematics indicates the design should work and that the prototype is the next step toward testing it.
+
+The SHOQ device and its charge-neutral fluid
+The design is called the Superfluid Helium Oscillator Quantum device, or SHOQ. Surrey’s announcement of the work, also carried by Newswise, says it uses superfluid helium-3, a liquid that flows without friction and, crucially, carries no electrical charge. Superconducting qubits, the type used in most large quantum processors today, are charged circuits, so stray electromagnetic noise couples into them and scrambles the fragile quantum state. A neutral fluid should shrug off much of that interference, and that shielding is the mechanism behind the predicted hundredfold reduction. The team frames the advantage as one of principle rather than engineering polish: if the qubit has no charge to couple to, the dominant noise source in superconducting designs has far less to grip.
+
+The Physical AI Data Layer - Training Data for Physical AI - Physical AI Datasets
+The Physical AI Data Layer - Training Data for Physical AI - Physical AI Datasets
+physicl.ai
+·
+Sponsored
+call to action icon
+
+The team’s earlier preprint of the proposal describes the hardware: a cylindrical cell with a Josephson weak link, a nanoaperture through which the superfluid flows between two helium reservoirs, and an elastic plate that responds to pressure changes. Energy sloshes between the weak link and the plate, and the quantized oscillations form the qubit’s discrete states. The preprint places the operating point near half a millikelvin, below the superfluid transition of helium-3-B, with micron-sized dimensions.
+
+The npj Quantum Information abstract and the 100-fold figure
+The peer-reviewed version, titled “Towards a micromechanical qubit based on quantized oscillations in superfluid helium,” appeared in npj Quantum Information with Sharma, Koch and Ginossar as authors. Its abstract calls the device a charge-neutral alternative to superconducting qubits, micron-sized, with millisecond-scale coherence time and operation in the millikelvin range needed to maintain superfluidity. The abstract as read does not itself print the 100-fold comparison; that number is attached to the work in Surrey’s announcement, which states that the calculations predict error rates around 100 times lower than conventional superconducting qubits.
+
+That distinction decides how the figure should be read. The comparison is against superconducting qubits, it is a prediction from theory, and the baseline is whatever error rate those devices show, not a measurement taken on a SHOQ chip. Quantum Zeitgeist’s account likewise frames the design as theoretical predictions that still need experimental validation.
+
+Hybrid role, Northwestern’s Koch and the prototype stage
+Ginossar does not describe the device as a replacement for superconducting hardware. A single qubit type does not have to do everything, he said, and combining different quantum technologies could let a machine take advantage of each type’s strengths. Surrey’s announcement points to two uses for the device, neither of which depends on beating superconducting hardware everywhere: integration alongside existing superconducting circuits, and quantum memory.
+
+The component ideas existed separately before this work, in earlier helium-3 and superconducting-circuit research, and the Surrey contribution is the assembly. Sharma said that what the team has done for the first time is bring them together in a microfluidic device and work out the specifics needed for operation, which gave Surrey a specification a laboratory can build to. The next step, in her words, is to make a prototype and put the predictions to the test.
+
+Money for that step is already in place. An IAA Commercialisation Fellowship awarded to Sharma supports prototype development, according to the university. Koch’s involvement matters for credibility with the superconducting community, because Surrey’s announcement notes that he helped develop the transmon superconducting qubit, the standard design the SHOQ is measured against.
+
+The cold is not a new obstacle in this proposal. Surrey says the temperatures the device needs have already been reached in earlier helium-3 research, so the experimental challenge lies in fabricating the nanoscale weak link and plate and reading out their quantum states, not in reaching an unprecedented temperature. Coherence is the other test: the abstract’s millisecond-scale target is long enough to run gate operations, but the proposal describes the device on paper, so fabrication defects and readout electronics have yet to be tested against the predicted figures.
+
+A built SHOQ qubit, measured against a superconducting qubit on the same task, would have to show something close to a hundredfold drop in errors to confirm the prediction, and only the prototype Sharma’s team is now building can supply that measurement.
+
+This article was produced with the assistance of AI and reviewed by Morning Overview editors prior to publication.
+
+More from Morning Overview
+
+Common allergy, bladder and sleep pills tied to sharply higher dementia odds
+The second-largest U.S. reservoir just fell to its lowest level ever recorded
+Security experts still urge phone owners to switch off one location-tracking setting
+The FBI warns a new phishing trick can hijack your account without your password
+
+Sponsored
+Morning Overview
+Visit Morning Overview
+Xbox Cloud Gaming stops working on 2020 Samsung TVs on November 3
+Apple says Apple Intelligence can occupy up to 14GB on a Mac, and a free tool strips it out
+Google froze its open-source bug bounty after a flood of automated reports
+
+Sponsored
+Sponsored Content
+Data In Motion Encryption - Thales High-speed Encryptors - Encrypt From Edge To Core
+engage-cybersec.thalesgroup.com
+Data In Motion Encryption - Thales High-speed Encryptors - Encrypt From Edge To Core
+Sponsored
+
+Become a Digital Artist - The Los Angeles Film School - Become a Graphic Designer
+Los Angeles Film School
+Los Angeles Film School
+Become a Digital Artist - The Los Angeles Film School - Become a Graphic Designer
+Sponsored
+
+Freebeat - Free AI Music Video Generator - Song To Video AI
+FlyuAI
+FlyuAI
+Freebeat - Free AI Music Video Generator - Song To Video AI
+Sponsored
+
+Georgia Tech - Top-10 Ranked University - 2-Year Degree Program
+info.pe.gatech.edu
+Georgia Tech - Top-10 Ranked University - 2-Year Degree Program
+Sponsored
+
+More for You
+
+
+After 25 years, physicists can finally measure the 'other' kind of quantum entanglement
+ScienceAlert
+ScienceAlert
+·
+2d
+After 25 years, physicists can finally measure the 'other' kind of quantum entanglement
+
+
+The silent electronic battleground shaping the future of warfare
+The Wall Street Journal
+The Wall Street Journal
+·
+12h
+The silent electronic battleground shaping the future of warfare
+
+
+Did Biden revoke more than 400 press passes? How changes compare to Trump's media ban
+Snopes
+Snopes
+·
+2w
+Did Biden revoke more than 400 press passes? How changes compare to Trump's media ban
+
+
+Did Walmart give employees this commemorative 9/11 pin? What we know
+Snopes
+Snopes
+·
+2w
+Did Walmart give employees this commemorative 9/11 pin? What we know
+
+
+Trump admin will cut student loan eligibility for some degrees. How will they choose?
+Snopes
+Snopes
+·
+6d
+Trump admin will cut student loan eligibility for some degrees. How will they choose?
+
+
+Unpacking allegations FCC chair Brendan Carr was in 'sex trafficking cult'
+Snopes
+Snopes
+·
+1w
+Unpacking allegations FCC chair Brendan Carr was in 'sex trafficking cult'
+
+
+Physicists found spin-splitting evidence for a third kind of magnetism
+Morning Overview
+Morning Overview
+·
+12h
+Physicists found spin-splitting evidence for a third kind of magnetism
+
+
+Topology For Beginners: A Rigorous Introduction To Set Theory, Topological Spaces, Continuity, Separation, Countability, Metrizability, Compactness, .
+Amazon.com
+Topology For Beginners: A Rigorous Introduction To Set Theory, Topological Spaces, Continuity, Separation, Countability, Metrizability, Compactness, .
+Sponsored
+
+The Mindtickle Replacement - First AI-Native Platform - Trusted by Fortune 1000
+Showpad®
+Showpad®
+The Mindtickle Replacement - First AI-Native Platform - Trusted by Fortune 1000
+Sponsored
+
+headphone stoped
+share
+more
+
+Snopes
+118K Followers
+'Cornell 7' gang rape lawsuit: What we know about the allegations so far
+Story by Joey Esposito • 1w • 8 min read
+
+
+Matt Burkhartt/Getty Images
+Matt Burkhartt/Getty Images
+
+Rumors spread widely in September 2026 about the details of a lawsuit that alleged seven male students at Cornell University drugged and raped a 20-year-old female student in 2024. 
+In particular, social media users shared a claim that some of the accused students were allowed to write essays in lieu of punishment.
+Cornell said the essay claim was false, but Snopes was unable to independently verify that, nor what specific punitive measures were or were not given to the male students.
+Snopes readers also sought information about why no one had faced criminal charges. After the lawsuit was filed, the Tompkins County district attorney issued a statement saying that he was reopening the investigation and explaining what had led his office to close it in the first place.
+Snopes has reached out to multiple parties involved in the case and will update this report if we learn more.
+Rumors swirled online in September 2026 that a lawsuit brought against an Ivy League university and seven of its male students alleged the seven drugged and raped a 20-year-old female student in October 2024. 
+
+The story spread rapidly on social media along with the claim that the college in question, Cornell University, located in Ithaca, New York, gave some of the accused students an opportunity to write essays in order to mitigate their punishment. 
+
+The popularity of these rumors led to an influx of email in the Snopes inbox, seeking clarity on the sequence of events, whether the claim the male students were allowed to write essays in lieu of punishment was true and why no one was charged with a crime.
+
+" data-instgrm-version="14">
+
+     
+View this post on Instagram
+
+Expand article logo  Continue reading
+
+           
+A post shared by India Today Global (@indiatodayglobal)
+
+Cornell University said the essay claim was false, but Snopes was unable to independently verify that, nor what specific punitive measures were or were not doled out. Here's a breakdown of what we know:
+
+The 'Jane Doe' lawsuit
+
+
+Leadgen logo
+Snopes
+Join our fight against online misinformation.
+$5.00 per month
+Join
+Snopes
+Visit Snopes
+Did Trump say of Iran, 'Let 'em take out' LA and San Diego?
+Did Trump say he has an IQ of 1,775?
+PETA euthanized 67% of animals it took in during 2024, data shows
+Sponsored Content
+More for You
+© 2026 Microsoft
+Your Privacy Choices 
+Consumer Health Privacy
+Privacy and Cookies
+Terms of Use
+Advertise
+threeDotsSVG
+
+Feedback
+
+Profile Picture
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+2
+Columbus
+Clear
+‎47‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+
+Current Time 
+0:00
+/
+Duration 
+13:13
+•Intro
+50
+
+Ranker - Video
+2w2 weeks ago, 9/22/2026, 5:12 AM
+The strange algorithm people used to run their lives
+The 1970s were a decade packed with real scientific breakthroughs; NASA launched Voyager 1, Intel revolutionized computing with the first microprocessor, and JVC introduced the VHS. At the same time, some more -- shall we say -- outside-the-box ideas also started quietly gaining traction, ideas like biorhythms. Promoted as a scientific way to predict your physical, emotional, and intellectual highs and lows, biorhythms captured the public's imagination... but were they really all that? 
+
+share
+more
+placeholder
+Video Player is loading.
+Current Time 
+0:00
+/
+Duration 
+13:13
+•Intro
+50
+
+Arvin Ash
+2d2 days ago, 10/4/2026, 11:00 AM
+Did the W boson just break physics? The mass anomaly
+In April 2022, a Fermilab team reported a W‑boson mass of 80.4335 ± 0.0094 GeV, differing from the Standard Model prediction of 80.357 ± 0.006 GeV. The 0.1 GeV (0.3%) difference, given the reported precision, corresponds to a 7σ deviation, which would normally indicate a discovery. The video explains what the W boson does (it, along with the Z boson, mediates the weak force), how electroweak theory links the W and Z masses via the Weinberg angle, and how quantum corrections—particularly from the top quark and the Higgs—affect the W mass. A mismatch could point to inaccuracies in those inputs or to additional, unknown particles contributing to the corrections. Three broad possibilities are discussed: an error in the theoretical calculation (considered unlikely), an experimental or analysis mistake (more likely), or new physics beyond the Standard Model. Independent measurements (for example from CERN) will be crucial to confirm or refute the Fermilab result. Chapters: 0:00 What is the W Boson Anomaly? 1:30 What does the W boson do? 2:16 Electroweak theory prediction 6:40 What does new W boson mass result mean? 8:57 What could be causing the mass anomaly? 11:23 College level course on the Standard Model #WBoson #electroweaktheory 
+
+share
+more
+placeholder
+For centuries, we've looked out to the stars and wondered,
+Current Time 
+0:00
+/
+Duration 
+14:33
+•Intro
+50
+
+The Infographics Show
+3mo3 months ago, 7/8/2026, 2:12 PM
+Scientist freaking out over new planet that proves we are not alone
+Something strange is coming from deep space, and scientists are paying attention. A mysterious signal from a distant planet has raised some very big questions about what’s really out there. In this new video, you'll find out why this discovery could change everything we thought we knew about life in the universe.
+
+share
+more
+placeholder
+
+Current Time 
+0:00
+/
+Duration 
+4:58
+•Intro
+50
+
+StarTalk
+1d1 day ago, 10/5/2026, 4:30 PM
+Is our universe inside a black hole?
+A look at the idea that our universe could exist inside a black hole.
+
+share
+more
+placeholder
+You see this right here?
+Current Time 
+0:00
+/
+Duration 
+0:56
+50
+
+Thomas Mulligan
+2mo2 months ago, 7/24/2026, 12:00 AM
+The space nuclear test that almost destroyed Earth
+Thomas Mulligan investigates Starfish Prime, the high-altitude nuclear test that inadvertently created an artificial radiation belt and threatened global infrastructure.
+
+share
+more
+placeholder
+
+XPLNR
+1w1 week ago, 9/29/2026, 7:21 AM
+Can anyone overrule the Supreme Court?
+Is the Supreme Court really that powerful? No person, the president, or government body can overrule or directly reverse a Supreme Court decision. It is the highest court in the US, and its decisions are final. However, a Supreme Court ruling can sometimes be altered through specific constitutional or legislative processes. The Supreme Court can overrule past decisions if a new, relevant case comes before it. If the majority of justices vote to set a new rule, the older ruling is officially replaced. Congress can create a new law or clarify the existing law to override the court's interpretation of statutory rulings, but not constitutional rulings. Finally, if the Court rules under the Constitution, Congress can overturn the decision by passing a constitutional amendment. This requires a two-thirds majority from both the House of Representatives and the Senate and approval from at least 38 states.
+
+share
+more
+placeholder
+
+AstroKobi
+3mo3 months ago, 7/8/2026, 3:00 PM
+Scientists reveal a black hole on the move!
+Scientists are observing a Black Hole that is becoming active. The video explores the implications of this cosmic activity, including the changes in its environment and the potential insights it provides into the behavior of black holes in general.
+
+share
+more
+placeholder
+
+Family Feud
+2w2 weeks ago, 9/22/2026, 5:36 PM
+Name the best live female singer of all time
+Name the best live female singer of all time.
+
+share
+more
+placeholder
+
+Sciencephile the AI
+3mo3 months ago, 6/26/2026, 3:33 AM
+Scientists found a limit beneath reality - then black holes made it worse
+Physics may have a hard limit: the Planck scale, a distance so tiny that measuring below it could be impossible. The problem is that seeing smaller things requires more energy, but past a certain point that energy may collapse into a micro black hole and hide the answer. Even the Large Hadron Collider is nowhere close, with the transcript saying a Planck-scale accelerator would need to be about 4,000 light-years across. Yet black holes and the Big Bang still seem to force scientists into this forbidden zone, where our current understanding of reality starts to fail.
+
+share
+more
+placeholder
+
+The Other Side NDE
+1w1 week ago, 9/28/2026, 9:07 AM
+Watch a dying man enter heaven - then discover a chilling truth about souls
+After dying during a near-death experience, this man claims he was taken into heaven where disturbing truths about the human soul reportedly began unfolding. The experience allegedly felt more vivid and real than ordinary life itself as overwhelming awareness and terrifying clarity emerged beyond death. Strange revelations about consciousness, existence, and what happens after death reportedly became impossible to ignore the deeper the experience continued. What was shown there allegedly changed everything afterward. And the memories of what was seen beyond death still feel haunting and deeply unsettling.
+
+share
+more
+placeholder
+
+The Space Community
+11h11 hours ago, 10/6/2026, 2:12 PM
+Blue Origin’s New Glenn reached orbit, opening a new SpaceX rivalry
+Blue Origin’s New Glenn reached orbit on its first flight from Cape Canaveral on January 16, 2025, while its first-stage booster was lost during descent. Elon Musk congratulated Jeff Bezos, and NASA outlined two landing strategies for Mars Sample Return.
+
+share
+more
+placeholder
+
+Veritasium
+1w1 week ago, 9/24/2026, 7:40 AM
+Watch what happens when a penny falls 1,453 feet from a helicopter
+A penny dropped from the 1,453-foot Empire State Building sounds deadly, so the test used pennies dropped from a helicopter to see what really happens. The surprise is that a penny reaches terminal velocity after only about 49 feet, so extra height does not keep making it faster. It hits at roughly 50 mph and may sting, but it will not strike like a bullet. The real danger starts with heavier falling objects, because around 68 joules can fracture a human skull, and even a measuring tape dropped from 50 stories has killed someone.
+
+share
+more
+placeholder
+
+Devin Graham
+16h16 hours ago, 10/6/2026, 9:01 AM
+Will the giant ball knock down every pin?
+This short takes a familiar game of bowling and increases it to a much larger scale. A giant bowling ball is released from the top of a steep ski jump with oversized inflatable pins waiting at the bottom. Gravity quickly takes over as the ball begins rolling down the long slope. The steep ramp allows it to build more speed as it approaches the target. Wide camera angles reveal just how large the course is compared with ordinary bowling. The giant pins remain directly in the ball’s path as it reaches the bottom. After gaining momentum across the entire ramp, the ball finally reaches the oversized target. It crashes into the pins and sends them falling in different directions. The final impact provides the payoff to the unusual setup. The result transforms a simple bowling challenge into a large-scale experiment involving speed, gravity, and one enormous attempt at a strike.
+
+share
+more
+
+Sponsored
+Top Stories
+George Walker IV Tennessee Execution
+The Associated PressThe Associated Press
+Christa Pike is awake after failed execution as her attorneys seek more information
+ Combo file: Maine GOP Sen. Susan Collins, Maine Democratic candidate Troy Jackson
+CBS NewsCBS News
+In Maine Senate debate, Collins and Jackson both criticize Trump — but spar over how
+
+Sponsored
+
+Profile Picture
+
+Feedback
+
+are we really alone?Video Player is loading.
+
+The Infographics Show
+3mo3 months ago, 7/8/2026, 2:12 PM
+Scientist freaking out over new planet that proves we are not alone
+Something strange is coming from deep space, and scientists are paying attention. A mysterious signal from a distant planet has raised some very big questions about what’s really out there. In this new video, you'll find out why this discovery could change everything we thought we knew about life in the universe. 
