@@ -1,0 +1,699 @@
+{
+  "status": "GEN/CANDIDATE",
+  "symbol_namespace": "LOCAL:so4_commutator_finite_core",
+  "assumptions": {
+    "generators": "J01 and J02",
+    "commutator_frobenius_norm": 1.4142135623730951,
+    "slab_half_width": 0.022,
+    "profile_edge_parameter_nu_perp": 0.65,
+    "anisotropic_material_radii": [
+      0.06,
+      0.082,
+      0.047,
+      0.069
+    ],
+    "isotropic_control_radii": [
+      0.06,
+      0.066,
+      0.066,
+      0.066
+    ],
+    "readout_channels": 8
+  },
+  "scaling": {
+    "small_epsilon_max": 0.09,
+    "stabilizer_holonomy_power": 1.999272097913354,
+    "stabilizer_holonomy_coefficient": 0.9967367640854278,
+    "anisotropic_signal_power": 1.9929463638666107,
+    "anisotropic_signal_coefficient": 0.07725590312027984
+  },
+  "controls": {
+    "max_postclosure_normal_separation": 1.1107649934270853e-16,
+    "max_isotropic_channel_rms": 1.4288057044435644e-16,
+    "max_single_normal_difference": 2.220446049250313e-16,
+    "probe_epsilon": 0.11467609275475228,
+    "residual_generator_commutator_alignment": 0.9999999999999999
+  },
+  "representative": {
+    "epsilon": 0.11467609275475228,
+    "preclosure_normal_separation": 0.0010628583411868774,
+    "postclosure_normal_separation": 1.3877787807814457e-17,
+    "stabilizer_holonomy_angle": 0.013093156456298126,
+    "anisotropic_channel_rms": 0.001016942373147879,
+    "anisotropic_channel_max": 0.0017100465631850192,
+    "isotropic_channel_rms": 0.0,
+    "single_normal_difference": 0.0,
+    "signed_channel_difference": [
+      -1.2111132684178294e-05,
+      -0.00047157708433498424,
+      -0.00046203424594593034,
+      0.0006992175367719899,
+      -0.0013090792030182596,
+      -0.0008451269145284823,
+      0.0017100465631850192,
+      0.0014128958838399153
+    ]
+  },
+  "series": [
+    {
+      "epsilon": 0.006,
+      "preclosure_normal_separation": 1.5273369012581813e-07,
+      "postclosure_normal_separation": 8.673617379884035e-19,
+      "stabilizer_holonomy_angle": 3.599956480091703e-05,
+      "anisotropic_channel_rms": 2.873271779368365e-06,
+      "anisotropic_channel_max": 4.306310348478615e-06,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        6.207696381932415e-07,
+        -1.7725884998154307e-06,
+        -1.8990409640928796e-06,
+        2.8406914412970607e-06,
+        -3.322464779520473e-06,
+        -1.9279446361597508e-06,
+        4.188336759969324e-06,
+        4.306310348478615e-06
+      ]
+    },
+    {
+      "epsilon": 0.0068212016237714865,
+      "preclosure_normal_separation": 2.2442054394678858e-07,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 4.6528068728465104e-05,
+      "anisotropic_channel_rms": 3.71304085024084e-06,
+      "anisotropic_channel_max": 5.56235191295773e-06,
+      "isotropic_channel_rms": 1.962615573354719e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        7.948194788998109e-07,
+        -2.2874898339964034e-06,
+        -2.4502455086561348e-06,
+        3.6626274341755582e-06,
+        -4.298308246775129e-06,
+        -2.4957512160250772e-06,
+        5.419086787028515e-06,
+        5.56235191295773e-06
+      ]
+    },
+    {
+      "epsilon": 0.007754798598690449,
+      "preclosure_normal_separation": 3.29753977209833e-07,
+      "postclosure_normal_separation": 1.1102569054260746e-16,
+      "stabilizer_holonomy_angle": 6.013569593569459e-05,
+      "anisotropic_channel_rms": 4.798140039325089e-06,
+      "anisotropic_channel_max": 7.184120952297146e-06,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 5.551115123125783e-17,
+      "signed_channel_difference": [
+        1.0162711829297955e-06,
+        -2.9512956278288094e-06,
+        -3.160639736543569e-06,
+        4.720779471001357e-06,
+        -5.5614548407634246e-06,
+        -3.2314726896021106e-06,
+        7.012491553715083e-06,
+        7.184120952297146e-06
+      ]
+    },
+    {
+      "epsilon": 0.008816174132234686,
+      "preclosure_normal_separation": 4.845259501724725e-07,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 7.772291410979715e-05,
+      "anisotropic_channel_rms": 6.2001859864374715e-06,
+      "anisotropic_channel_max": 9.277804119467437e-06,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 1.1102230246251565e-16,
+      "signed_channel_difference": [
+        1.2973585340469995e-06,
+        -3.8067410437769844e-06,
+        -4.075801835812243e-06,
+        6.082268508511568e-06,
+        -7.196797721764625e-06,
+        -4.185085483776607e-06,
+        9.075868858843261e-06,
+        9.277804119467437e-06
+      ]
+    },
+    {
+      "epsilon": 0.010022816884375226,
+      "preclosure_normal_separation": 7.119401454096189e-07,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.00010045349453791002,
+      "anisotropic_channel_rms": 8.011674148189589e-06,
+      "anisotropic_channel_max": 1.1980269819411582e-05,
+      "isotropic_channel_rms": 1.1775693440128312e-16,
+      "single_normal_difference": 5.551115123125783e-17,
+      "signed_channel_difference": [
+        1.6531380094275683e-06,
+        -4.908662659230956e-06,
+        -5.254159042900053e-06,
+        7.83292043227135e-06,
+        -9.314447844133156e-06,
+        -5.42158821131844e-06,
+        1.174850181118181e-05,
+        1.1980269819411582e-05
+      ]
+    },
+    {
+      "epsilon": 0.011394609134410748,
+      "preclosure_normal_separation": 1.0460903652692558e-06,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.0001298314993470445,
+      "anisotropic_channel_rms": 1.0352051435845973e-05,
+      "anisotropic_channel_max": 1.5467859331763645e-05,
+      "isotropic_channel_rms": 4.3885418357208765e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        2.1019664995236553e-06,
+        -6.32734149180747e-06,
+        -6.770505437792007e-06,
+        1.0082299794267335e-05,
+        -1.2057280447619334e-05,
+        -7.025584756015224e-06,
+        1.521125240194765e-05,
+        1.5467859331763645e-05
+      ]
+    },
+    {
+      "epsilon": 0.01295415438831399,
+      "preclosure_normal_separation": 1.5370712110650387e-06,
+      "postclosure_normal_separation": 1.1103585416259206e-16,
+      "stabilizer_holonomy_angle": 0.0001678007292294303,
+      "anisotropic_channel_rms": 1.337554746949672e-05,
+      "anisotropic_channel_max": 1.996765911305154e-05,
+      "isotropic_channel_rms": 1.2098374922832816e-16,
+      "single_normal_difference": 5.551115123125783e-17,
+      "signed_channel_difference": [
+        2.6659601806700017e-06,
+        -8.152725251509008e-06,
+        -8.720426233344014e-06,
+        1.2970009292789797e-05,
+        -1.5610761186168887e-05,
+        -9.107296115473673e-06,
+        1.9699106467319094e-05,
+        1.996765911305154e-05
+      ]
+    },
+    {
+      "epsilon": 0.014727149824692302,
+      "preclosure_normal_separation": 2.258486863660595e-06,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.00021687326350852383,
+      "anisotropic_channel_rms": 1.7281269545469162e-05,
+      "anisotropic_channel_max": 2.577193482500295e-05,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        3.3713579236094304e-06,
+        -1.049973662581305e-05,
+        -1.1225829766259299e-05,
+        1.667352747297679e-05,
+        -2.021574744170973e-05,
+        -1.1810459855432498e-05,
+        2.5517560419907603e-05,
+        2.577193482500295e-05
+      ]
+    },
+    {
+      "epsilon": 0.016742809716286174,
+      "preclosure_normal_separation": 3.318482951382347e-06,
+      "postclosure_normal_separation": 1.1102230246251565e-16,
+      "stabilizer_holonomy_angle": 0.0002802954867741228,
+      "anisotropic_channel_rms": 2.2326209129325456e-05,
+      "anisotropic_channel_max": 3.325658359176753e-05,
+      "isotropic_channel_rms": 1.3311106448512297e-16,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        4.248659219718842e-06,
+        -1.3514908636824696e-05,
+        -1.4441812871912596e-05,
+        2.14178904854867e-05,
+        -2.6185173902293357e-05,
+        -1.532272909293697e-05,
+        3.3064049190068e-05,
+        3.325658359176753e-05
+      ]
+    },
+    {
+      "epsilon": 0.019034346803871352,
+      "preclosure_normal_separation": 4.875953984694153e-06,
+      "postclosure_normal_separation": 4.9065389333867974e-18,
+      "stabilizer_holonomy_angle": 0.00036226260709843524,
+      "anisotropic_channel_rms": 2.8841989335469936e-05,
+      "anisotropic_channel_max": 4.2904676292254695e-05,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        5.332324852114212e-06,
+        -1.7384618459626022e-05,
+        -1.856509791192673e-05,
+        2.7487545017856885e-05,
+        -3.392580978966997e-05,
+        -1.9889389306082528e-05,
+        4.285599756298497e-05,
+        4.2904676292254695e-05
+      ]
+    },
+    {
+      "epsilon": 0.0216395195543328,
+      "preclosure_normal_separation": 7.164353437070165e-06,
+      "postclosure_normal_separation": 3.469446951953614e-18,
+      "stabilizer_holonomy_angle": 0.0004681957239511397,
+      "anisotropic_channel_rms": 3.725641326811689e-05,
+      "anisotropic_channel_max": 5.55675842771608e-05,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        6.6597053036687726e-06,
+        -2.234520886484903e-05,
+        -2.3844265985950575e-05,
+        3.5240694740423795e-05,
+        -4.396663696981662e-05,
+        -2.583149033602572e-05,
+        5.55675842771608e-05,
+        5.5336421413754167e-05
+      ]
+    },
+    {
+      "epsilon": 0.02460125432027493,
+      "preclosure_normal_separation": 1.052667081062863e-05,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.000605099636001316,
+      "anisotropic_channel_rms": 4.81211640345826e-05,
+      "anisotropic_channel_max": 7.207798035607782e-05,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        8.268679291989489e-06,
+        -2.8695276505230627e-05,
+        -3.059194573801216e-05,
+        4.512640920129041e-05,
+        -5.69958662027803e-05,
+        -3.356986928571004e-05,
+        7.207798035607782e-05,
+        7.134718902440662e-05
+      ]
+    },
+    {
+      "epsilon": 0.027968352652712414,
+      "preclosure_normal_separation": 1.546680934413103e-05,
+      "postclosure_normal_separation": 1.1107649934270853e-16,
+      "stabilizer_holonomy_angle": 0.0007820248310977693,
+      "anisotropic_channel_rms": 6.214737252642658e-05,
+      "anisotropic_channel_max": 9.353471314227368e-05,
+      "isotropic_channel_rms": 1.3738309013483032e-16,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        1.0193218474396915e-05,
+        -3.68103426495181e-05,
+        -3.919895799564532e-05,
+        5.770462589732572e-05,
+        -7.390921031469322e-05,
+        -4.365705412073817e-05,
+        9.353471314227368e-05,
+        9.195558603108944e-05
+      ]
+    },
+    {
+      "epsilon": 0.031796295421482566,
+      "preclosure_normal_separation": 2.2725047578145054e-05,
+      "postclosure_normal_separation": 6.938893903907228e-18,
+      "stabilizer_holonomy_angle": 0.001010663781831614,
+      "anisotropic_channel_rms": 8.02512243457972e-05,
+      "anisotropic_channel_max": 0.00012143698407612868,
+      "isotropic_channel_rms": 2.7755575615628914e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        1.2455712780301553e-05,
+        -4.7159961922005333e-05,
+        -5.0150091334577596e-05,
+        7.366889679771838e-05,
+        -9.58727984890495e-05,
+        -5.6819737623170496e-05,
+        0.00012143698407612868,
+        0.00011846396114933988
+      ]
+    },
+    {
+      "epsilon": 0.03614815699315574,
+      "preclosure_normal_separation": 3.338886105599844e-05,
+      "postclosure_normal_separation": 9.813077866773595e-18,
+      "stabilizer_holonomy_angle": 0.0013061203003169443,
+      "anisotropic_channel_rms": 0.00010361233938374047,
+      "anisotropic_channel_max": 0.00015774531874773734,
+      "isotropic_channel_rms": 1.0569008315563939e-16,
+      "single_normal_difference": 5.551115123125783e-17,
+      "signed_channel_difference": [
+        1.5054355578691947e-05,
+        -6.032699829233712e-05,
+        -6.404057303649457e-05,
+        9.387122324588937e-05,
+        -0.0001244050764590554,
+        -7.401546496810241e-05,
+        0.00015774531874773734,
+        0.00015253411224097624
+      ]
+    },
+    {
+      "epsilon": 0.041095644529676734,
+      "preclosure_normal_separation": 4.905564813919096e-05,
+      "postclosure_normal_separation": 1.1102230246251565e-16,
+      "stabilizer_holonomy_angle": 0.0016879016739705772,
+      "anisotropic_channel_rms": 0.00013374834319650973,
+      "anisotropic_channel_max": 0.00020502596055554934,
+      "isotropic_channel_rms": 5.551115123125783e-17,
+      "single_normal_difference": 1.1102230246251565e-16,
+      "signed_channel_difference": [
+        1.794315712433381e-05,
+        -7.702819357990887e-05,
+        -8.159120612649673e-05,
+        0.00011934745740893593,
+        -0.0001614832184114734,
+        -9.650847758274628e-05,
+        0.00020502596055554934,
+        0.00019628131313492725
+      ]
+    },
+    {
+      "epsilon": 0.046720279532627744,
+      "preclosure_normal_separation": 7.207162165354022e-05,
+      "postclosure_normal_separation": 6.938893903907228e-18,
+      "stabilizer_holonomy_angle": 0.0021811972328569106,
+      "anisotropic_channel_rms": 0.00017260987238500806,
+      "anisotropic_channel_max": 0.00026664106361001805,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 1.1102230246251565e-16,
+      "signed_channel_difference": [
+        2.1001193777459015e-05,
+        -9.813409665970774e-05,
+        -0.00010365824173286242,
+        0.000151340331012495,
+        -0.0002096809846701686,
+        -0.00012597142365750047,
+        0.00026664106361001805,
+        0.00025238996554360904
+      ]
+    },
+    {
+      "epsilon": 0.053114741101836296,
+      "preclosure_normal_separation": 0.0001058824256827316,
+      "postclosure_normal_separation": 6.938893903907228e-18,
+      "stabilizer_holonomy_angle": 0.0028185246462380034,
+      "anisotropic_channel_rms": 0.00022270122360256028,
+      "anisotropic_channel_max": 0.00034699913947466854,
+      "isotropic_channel_rms": 1.3738309013483032e-16,
+      "single_normal_difference": 2.220446049250313e-16,
+      "signed_channel_difference": [
+        2.398650744162012e-05,
+        -0.00012468463936532448,
+        -0.00013123081647647972,
+        0.00019131492346635692,
+        -0.0002723465586856877,
+        -0.00016462204138723013,
+        0.00034699913947466854,
+        0.0003242540264223326
+      ]
+    },
+    {
+      "epsilon": 0.06038439304167459,
+      "preclosure_normal_separation": 0.00015554755635283372,
+      "postclosure_normal_separation": 9.813077866773595e-18,
+      "stabilizer_holonomy_angle": 0.0036418473270097376,
+      "anisotropic_channel_rms": 0.00028723296174600245,
+      "anisotropic_channel_max": 0.0004518845041410202,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        2.6468730643880445e-05,
+        -0.00015789372409003022,
+        -0.00016540334540060542,
+        0.0002409579087664926,
+        -0.00035383056600896134,
+        -0.00021540714538248462,
+        0.0004518845041410202,
+        0.0004161445415050702
+      ]
+    },
+    {
+      "epsilon": 0.06864901997772102,
+      "preclosure_normal_separation": 0.00022849478546207164,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.004705293822891788,
+      "anisotropic_channel_rms": 0.00037031402119347553,
+      "anisotropic_channel_max": 0.0005888897444307206,
+      "isotropic_channel_rms": 1.962615573354719e-17,
+      "single_normal_difference": 1.1102230246251565e-16,
+      "signed_channel_difference": [
+        2.7733315011713167e-05,
+        -0.00019913151115152905,
+        -0.00020730123099133024,
+        0.0003021466937010997,
+        -0.0004597759359828424,
+        -0.00028225053558195157,
+        0.0005888897444307206,
+        0.0005334045994542236
+      ]
+    },
+    {
+      "epsilon": 0.0780448010903919,
+      "preclosure_normal_separation": 0.00033562593640683796,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.006078643736716197,
+      "anisotropic_channel_rms": 0.00047719211317038103,
+      "anisotropic_channel_max": 0.0007679814243069516,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        2.6649895866204254e-05,
+        -0.00024986576610303013,
+        -0.00025792340184199736,
+        0.0003768669105132516,
+        -0.0005974819524434682,
+        -0.0003703870440374679,
+        0.0007679814243069516,
+        0.0006826679438289296
+      ]
+    },
+    {
+      "epsilon": 0.08872655398745057,
+      "preclosure_normal_separation": 0.0004929364603005261,
+      "postclosure_normal_separation": 1.3877787807814457e-17,
+      "stabilizer_holonomy_angle": 0.007851785227703918,
+      "anisotropic_channel_rms": 0.0006145525214259605,
+      "anisotropic_channel_max": 0.0010022360134785968,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        2.149939366929976e-05,
+        -0.0003115323971006889,
+        -0.00031784101019372013,
+        0.00046704591077906255,
+        -0.0007763537167335688,
+        -0.00048681200663225344,
+        0.0010022360134785968,
+        0.0008720899688789974
+      ]
+    },
+    {
+      "epsilon": 0.10087028568847427,
+      "preclosure_normal_separation": 0.0007238852994050024,
+      "postclosure_normal_separation": 1.3877787807814457e-17,
+      "stabilizer_holonomy_angle": 0.0101403964774289,
+      "anisotropic_channel_rms": 0.0007908865785408565,
+      "anisotropic_channel_max": 0.00130878934120926,
+      "isotropic_channel_rms": 8.993834424997155e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        9.76213639836132e-06,
+        -0.0003852885248273319,
+        -0.0003866526294047934,
+        0.0005742553258596961,
+        -0.0010084435103480116,
+        -0.0006408838974682474,
+        0.00130878934120926,
+        0.0011115667482854419
+      ]
+    },
+    {
+      "epsilon": 0.11467609275475228,
+      "preclosure_normal_separation": 0.0010628583411868774,
+      "postclosure_normal_separation": 1.3877787807814457e-17,
+      "stabilizer_holonomy_angle": 0.013093156456298126,
+      "anisotropic_channel_rms": 0.001016942373147879,
+      "anisotropic_channel_max": 0.0017100465631850192,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -1.2111132684178294e-05,
+        -0.00047157708433498424,
+        -0.00046203424594593034,
+        0.0006992175367719899,
+        -0.0013090792030182596,
+        -0.0008451269145284823,
+        0.0017100465631850192,
+        0.0014128958838399153
+      ]
+    },
+    {
+      "epsilon": 0.13037145835108085,
+      "preclosure_normal_separation": 0.001560221984205183,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.016900845274751865,
+      "anisotropic_channel_rms": 0.0013062721551135945,
+      "anisotropic_channel_max": 0.002235196352276092,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 5.551115123125783e-17,
+      "signed_channel_difference": [
+        -4.888013084730636e-05,
+        -0.0005693980541143229,
+        -0.0005381253341336656,
+        0.0008410312042727575,
+        -0.0016975521864120435,
+        -0.0011162876279606215,
+        0.002235196352276092,
+        0.0017897976270027094
+      ]
+    },
+    {
+      "epsilon": 0.14821500056630818,
+      "preclosure_normal_separation": 0.0022896814167899563,
+      "postclosure_normal_separation": 1.1102230246251565e-16,
+      "stabilizer_holonomy_angle": 0.021807743492921028,
+      "anisotropic_channel_rms": 0.0016758954100236287,
+      "anisotropic_channel_max": 0.002922054820583886,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.00010649366418130635,
+        -0.0006751368591425555,
+        -0.0006028445428521989,
+        0.000996016904326269,
+        -0.002197796320623835,
+        -0.001476699776006396,
+        0.002922054820583886,
+        0.0022576594599650335
+      ]
+    },
+    {
+      "epsilon": 0.16850073375503202,
+      "preclosure_normal_separation": 0.0033589653465959032,
+      "postclosure_normal_separation": 2.7755575615628914e-17,
+      "stabilizer_holonomy_angle": 0.02812576786991851,
+      "anisotropic_channel_rms": 0.002147108654452878,
+      "anisotropic_channel_max": 0.0038192176800543876,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.0001915391846081249,
+        -0.0007807472186120434,
+        -0.0006335124967968842,
+        0.0011560931043048117,
+        -0.0028389205228498415,
+        -0.001955991596740092,
+        0.0038192176800543876,
+        0.0028327840042908226
+      ]
+    },
+    {
+      "epsilon": 0.19156291311608503,
+      "preclosure_normal_separation": 0.004925285182328777,
+      "postclosure_normal_separation": 3.925231146709438e-17,
+      "stabilizer_holonomy_angle": 0.03625176113831563,
+      "anisotropic_channel_rms": 0.002746504096253142,
+      "anisotropic_channel_max": 0.004988400473142307,
+      "isotropic_channel_rms": 1.4288057044435644e-16,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.00030951614827257057,
+        -0.0008710327105610483,
+        -0.0005898647071671537,
+        0.0013066647261097963,
+        -0.0036553497172195915,
+        -0.002593105229514503,
+        0.004988400473142307,
+        0.0035308003527236287
+      ]
+    },
+    {
+      "epsilon": 0.217781542333639,
+      "preclosure_normal_separation": 0.007217596020713001,
+      "postclosure_normal_separation": 1.1102230246251565e-16,
+      "stabilizer_holonomy_angle": 0.04668823991744173,
+      "anisotropic_channel_rms": 0.0035073329692871967,
+      "anisotropic_channel_max": 0.006506660873981884,
+      "isotropic_channel_rms": 3.925231146709438e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.00046072046215317464,
+        -0.0009197418246220668,
+        -0.000403187545395145,
+        0.0014242230431617542,
+        -0.004686172864257876,
+        -0.0034384372501704563,
+        0.006506660873981884,
+        0.004363738540732909
+      ]
+    },
+    {
+      "epsilon": 0.24758863503227926,
+      "preclosure_normal_separation": 0.010568450199807062,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.06006762501386853,
+      "anisotropic_channel_rms": 0.00447150790283753,
+      "anisotropic_channel_max": 0.00846787325437115,
+      "isotropic_channel_rms": 0.0,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.0006315906491849432,
+        -0.0008842332817023957,
+        3.9976536633345994e-05,
+        0.001474374076146423,
+        -0.005973095921648797,
+        -0.0045555576025016475,
+        0.00846787325437115,
+        0.005335077666312249
+      ]
+    },
+    {
+      "epsilon": 0.2814753332182581,
+      "preclosure_normal_separation": 0.015459192333471303,
+      "postclosure_normal_separation": 0.0,
+      "stabilizer_holonomy_angle": 0.07717942327576141,
+      "anisotropic_channel_rms": 0.005692840753015663,
+      "anisotropic_channel_max": 0.010982298925585277,
+      "isotropic_channel_rms": 7.850462293418876e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.00077796518216805,
+        -0.0006986659695820685,
+        0.0009209842096830068,
+        0.0014121114310959304,
+        -0.00755618922631035,
+        -0.006021249043338395,
+        0.010982298925585277,
+        0.00643191470612825
+      ]
+    },
+    {
+      "epsilon": 0.32,
+      "preclosure_normal_separation": 0.022583350011331448,
+      "postclosure_normal_separation": 5.551115123125783e-17,
+      "stabilizer_holonomy_angle": 0.09899885272104846,
+      "anisotropic_channel_rms": 0.007242584667080954,
+      "anisotropic_channel_max": 0.014172296258235406,
+      "isotropic_channel_rms": 4.3885418357208765e-17,
+      "single_normal_difference": 0.0,
+      "signed_channel_difference": [
+        -0.000794992418013063,
+        -0.00026614060687474295,
+        0.0025191870041826325,
+        0.001188254501714947,
+        -0.009466514356001599,
+        -0.007921247295159528,
+        0.014172296258235406,
+        0.007613417865441563
+      ]
+    }
+  ]
+}
