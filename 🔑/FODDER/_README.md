@@ -1,0 +1,1 @@
+This folder is where we should dump conversations that lead to important new understandings and "oh duh" moments. That way we're not dumping a ton of irrelevant material directly into 🔑, and we can extract the relevant portion [which is typically going to be towards the end of the saved conversation, which presumably is where one decides "this goes in the duh folder"]
