@@ -19,13 +19,11 @@ SAT/H(s)H may use the successful ordinary objects of human science and intuition
 - twisting
 - ropes, tubes, fluids and other ordinary mechanical pictures
 
-Call this (O_{mathrm{eff}}): the effective ontology that earns its use by organizing coherent perception and successful science.
+Call this **O_eff**: the effective ontology that earns its use by organizing coherent perception and successful science.
 
-Under RMS, (O_{mathrm{abs}}) is not "the hidden thing underneath." It has **no epistemically determinate referent**. Do not smuggle structure into it.
+Under RMS, **O_abs** is not "the hidden thing underneath." It has **no epistemically determinate referent**. Do not smuggle structure into it.
 
-[
-oxed{	ext{Build }O_{mathrm{eff}}	ext{ as well as possible. Do not pretend it crossed into }O_{mathrm{abs}}.}
-]
+**Build O_eff as well as possible. Do not pretend it crossed into O_abs.**
 
 ## WWRD FIRST
 
@@ -37,9 +35,7 @@ A rope or finite tube can bend, twist, coil, pull, store strain, transfer torque
 
 For the current torsion discussion:
 
-[
-oxed{	ext{TORSION MEANS TWIST UNTIL TWIST IS NOT ENOUGH.}}
-]
+**TORSION MEANS TWIST UNTIL TWIST IS NOT ENOUGH.**
 
 Do **not** begin by splitting torsion into separate Frenet-torsion, frame-twist, writhe, conserved-current and timesheet-exchange ontologies. Those distinctions may become useful mathematical bookkeeping later, but they are not representational primitives unless a concrete calculation or observation requires them.
 
@@ -64,13 +60,7 @@ The instantiated / intersectional 3D world is not a degraded report of something
 
 Start:
 
-[
-	ext{ordinary }O_{mathrm{eff}}
-ightarrow
-	ext{standard physics}
-ightarrow
-	ext{4D SAT/H(s)H map}.
-]
+`ordinary O_eff → standard physics → 4D SAT/H(s)H map`
 
 Add another layer only after the simpler representation fails a stated test.
 
@@ -80,4 +70,4 @@ Split a simple effective object into multiple distinct structures only when the 
 
 ## PROVENANCE
 
-Lifted from `🔑/FODDER/Orson Free Build — raw.json`, near the end, plus Nathan's direct follow-up clarification that the torsion discussion should follow (O_{mathrm{eff}}) and WWRD rather than proliferating representational layers.
+Lifted from `🔑/FODDER/Orson Free Build — raw.json`, near the end, plus Nathan's direct follow-up clarification that the torsion discussion should follow O_eff and WWRD rather than proliferating representational layers.
