@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-07-ravel-anisotropic-core-spectrum-002",
+  "query": "(\"anisotropic stiffness\" OR \"bending stiffness\" OR \"torsional stiffness\" OR \"elliptical cross-section\" OR \"material axes\") AND (twist OR torsion OR filament OR worldline OR worldtube)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "203a1be43af1b7f6b62ae4d0c22ec7de4b423fe5",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "57b56d2a9b64658a53268e83169fd805e7891182",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "60d73b1cda4befb08889e2843435583bd66bd1e65bd8cc9951ce7161ae13fdd8",
+    "SEARCH_RESULTS.md": "60165aff99c895327f73b398d1eaeb4e76e68af99cdbcb0ae01c90d3428642fa"
+  }
+}
