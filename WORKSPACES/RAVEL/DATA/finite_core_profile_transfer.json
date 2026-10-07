@@ -1,0 +1,132 @@
+{
+  "status": "GEN/CANDIDATE synthetic profile-transfer discriminator",
+  "seed": 20261007,
+  "hidden_profile": "S2_shell",
+  "true_widths": {
+    "dSigma": 0.08,
+    "rCore": 0.06,
+    "aEff": 0.1
+  },
+  "training_tilts_deg": [
+    20.0,
+    35.0,
+    55.0,
+    80.0
+  ],
+  "withheld_contact_tilts_deg": [
+    5.76,
+    5.88,
+    6.0,
+    6.12,
+    6.24,
+    6.359999999999999,
+    6.4799999999999995,
+    6.6,
+    6.72,
+    6.84,
+    6.96,
+    7.08,
+    7.2,
+    7.32,
+    7.4399999999999995,
+    7.56,
+    7.68,
+    7.8,
+    7.92,
+    8.04,
+    8.16,
+    8.28,
+    8.4,
+    8.52,
+    8.64,
+    8.76,
+    8.879999999999999,
+    9.0,
+    9.5,
+    10.0,
+    10.5,
+    11.0,
+    11.5,
+    12.0,
+    12.5,
+    13.0,
+    13.5,
+    14.0,
+    14.5,
+    15.0,
+    15.5,
+    16.0,
+    16.5,
+    17.0,
+    17.5,
+    18.0
+  ],
+  "noise_scales": {
+    "sigma_f": 0.0006,
+    "sigma_S": 0.0003
+  },
+  "fits": [
+    {
+      "profile": "B3_bulk",
+      "dSigma": 0.07993044714150979,
+      "rCore": 0.05975811575349463,
+      "chi2_train": 2.445166580507509,
+      "max_multistart_spread": 2.3961874151545715e-12,
+      "success_all_starts": true,
+      "relative_d_error": -0.0008694107311276247,
+      "relative_rc_error": -0.004031404108422824,
+      "contact_rms_z": 12.690705335598887,
+      "contact_signal_rms_z": 16.947324105412303,
+      "contact_max_abs_signal_z": 49.18014548813965,
+      "gate_passed": false
+    },
+    {
+      "profile": "B2_disk",
+      "dSigma": 0.07988570909609495,
+      "rCore": 0.05978050434737932,
+      "chi2_train": 2.35209384351256,
+      "max_multistart_spread": 3.864186748359089e-12,
+      "success_all_starts": true,
+      "relative_d_error": -0.001428636298813138,
+      "relative_rc_error": -0.0036582608770113307,
+      "contact_rms_z": 9.150559608291807,
+      "contact_signal_rms_z": 11.514071993367185,
+      "contact_max_abs_signal_z": 33.53262897341984,
+      "gate_passed": false
+    },
+    {
+      "profile": "S2_shell",
+      "dSigma": 0.07981095563960071,
+      "rCore": 0.059817703803574394,
+      "chi2_train": 2.2348798891787838,
+      "max_multistart_spread": 1.2480988464957932e-12,
+      "success_all_starts": true,
+      "relative_d_error": -0.0023630545049911633,
+      "relative_rc_error": -0.0030382699404267236,
+      "contact_rms_z": 4.381481224324332,
+      "contact_signal_rms_z": 1.8605437165644398,
+      "contact_max_abs_signal_z": 3.962370152347609,
+      "gate_passed": true
+    }
+  ],
+  "selected_by_sparse_training": "S2_shell",
+  "selected_by_dense_contact_transfer": "S2_shell",
+  "high_tilt_universal_area_law": {
+    "B3_bulk": {
+      "S90": 0.02548078647143972,
+      "d_over_pi_R": 0.025464790894703257,
+      "relative_difference": 0.0006281448295650086
+    },
+    "B2_disk": {
+      "S90": 0.025483088861173044,
+      "d_over_pi_R": 0.025464790894703257,
+      "relative_difference": 0.0007185594629639242
+    },
+    "S2_shell": {
+      "S90": 0.025486929310948446,
+      "d_over_pi_R": 0.025464790894703257,
+      "relative_difference": 0.0008693735729749847
+    }
+  },
+  "registered_gate": "profile passes only if width errors <10%, withheld contact-signal RMS <2 sigma, and all multistarts agree within 1e-5; binary support is reported but excluded because its square-root onset is ill-conditioned"
+}
