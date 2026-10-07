@@ -283,8 +283,11 @@ Blindly generate spectra with unknown \((\delta,\varepsilon_C,c_{\rm iso}/\mathc
 
 ### Mersearch request
 
-- Request ID: `2026-10-07-ravel-anisotropic-core-spectrum-001`.
-- Query: `(anisotrop* OR elliptic* OR oval OR ribbon OR cross-section OR stiffness OR bending) AND (torsion OR twist OR frame OR worldtube OR filament OR rod OR tube)`.
+- Broad request ID: `2026-10-07-ravel-anisotropic-core-spectrum-001`.
+- Broad query: `(anisotrop* OR elliptic* OR oval OR ribbon OR cross-section OR stiffness OR bending) AND (torsion OR twist OR frame OR worldtube OR filament OR rod OR tube)`.
+- The broad request completed successfully against archive commit `203a1be43af1b7f6b62ae4d0c22ec7de4b423fe5`, but produced a 3.7 MB Markdown result set. It is preserved at `indexes/mersearch_requests/2026-10-07-ravel-anisotropic-core-spectrum-001/` and treated as an overbroad retrieval result, not as reviewed evidence.
+- Narrow follow-up request ID: `2026-10-07-ravel-anisotropic-core-spectrum-002`.
+- Narrow query: `("anisotropic stiffness" OR "bending stiffness" OR "torsional stiffness" OR "elliptical cross-section" OR "material axes") AND (twist OR torsion OR filament OR worldline OR worldtube)`.
 - Stable engine: `Mercer_Searcher_1.0`, pinned commit `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
 
 ## 11. Reproducibility
