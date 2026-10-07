@@ -21,11 +21,12 @@ Before substantive SAT/H(s)H reasoning:
 1. **State the thing in ordinary language.**
 2. **Picture or draw the 4D geometry.**
 3. **Identify what is invariant and what is changing.**
-4. **Identify what the observer / slice / projection actually sees.**
-5. **Map that onto standard physics.**
-6. **Only then write the SAT/H(s)H formalism.**
-7. **Calculate.**
-8. **If the equation implies something geometrically stupid, check the equation, units, mapping, projection, and assumptions before inventing new physics.**
+4. **Start from the minimal effective physical picture. WWRD: if ordinary rope / tube / continuum mechanics already carries the behavior, start there.**
+5. **Identify what is instantiated, intersected, truncated, or related by successive surfaces in the effective 3D description.**
+6. **Map that onto standard physics.**
+7. **Only then write the SAT/H(s)H formalism.**
+8. **Calculate.**
+9. **If the equation implies something geometrically stupid, check the equation, units, mapping, representation, and assumptions before inventing new physics.**
 
 ### STOP. DRAW THE DAMN THING.
 
@@ -45,7 +46,9 @@ Say it without SAT vocabulary.
 
 ### 2. What does it look like in 4D?
 
-Name the curve, tube, bend, angle, rotation, intersection, braid, projection, slice, or transport involved.
+Name the curve, tube, bend, angle, rotation, intersection, braid, instantiation, truncation, cobordism, surface, or transport involved.
+
+**WWRD checkpoint:** before adding a new primitive, ask what an ordinary rope, tube, sheet, fluid, or other successful (O_{mathrm{eff}}) object would do.
 
 ### 3. What does ordinary physics call the measurable behavior?
 
@@ -71,19 +74,24 @@ These are debugging prompts, not immutable theory claims. Revise them when the g
 - **Resistance to worldtube bending is inertia.**
 - **Worldtube angle encodes motion; be explicit about the angle convention and projection before calculating.**
 - **Helical structure can represent orbit / oscillation only when the mapping is actually specified.**
-- **A changing 3D observation does not by itself imply that the complete 4D object is changing in the same sense.**
-- **Projection can hide state without destroying it.**
+- **The block is dynamic; do not force successive instantiations into a static carrier-plus-readout picture.**
+- **Truncation or intersection can omit structure without destroying the larger structure.**
 - **A composite / braided / bundled worldtube need not have the same bending response as an elementary one.**
 - **If SAT is being used as a largely standard-physics 4D map, disagreement with established physics in its tested regime is first a debugging signal.**
 - **Standard physics is an anchor and an enormous reverse-engineering dataset, not an adversary.**
 - **A symbol that is constant inside one calculation is not automatically a universal fundamental constant.**
 - **"Related by construction" is not the same criticism as "has no transferable predictive content." Test transfer to new cases.**
-- **Before inventing a new force, field, particle, memory mechanism, or ontology, ask whether the effect is already ordinary geometry, transport, projection, or standard physics expressed in the 4D map.**
-- **Do not confuse an observer/readout effect with a carrier mechanism.**
+- **Before inventing a new force, field, particle, memory mechanism, or representational layer, ask whether the effect is already ordinary (O_{mathrm{eff}}) geometry, mechanics, transport, instantiation, or standard physics expressed in the 4D map.**
+- **Do not demote instantiation to a passive readout unless a readout map is actually the model.**
 - **Do not confuse endpoint frame difference, transport, holonomy, and curvature.**
 - **Do not promote a useful analogy into a physical mechanism without deriving the map.**
 - **Historical constants and particle labels are clues, not fitting targets, unless independently regenerated.**
 - **Nothing becomes true because Nathan said it, an earlier LLM said it, or a document labels it "core." Geometry, mathematical closure, and sufficiently clean empirical evidence arbitrate.**
+- **STANDARD SCIENCE IS RIGHT means its successful effective ontology counts too. Use (O_{mathrm{eff}}); do not pretend it has crossed into (O_{mathrm{abs}}).**
+- **Under RMS, (O_{mathrm{abs}}) has no epistemically determinate referent. Do not turn it into a hidden substrate by wording alone.**
+- **WWRD FIRST. Use the minimal ordinary physical picture until a calculation demonstrates that it is insufficient.**
+- **TORSION MEANS TWIST UNTIL TWIST IS NOT ENOUGH. Do not proliferate torsion ontologies before a concrete failure requires the distinction.**
+- **(H_0) versus (c) need not mean two expansion speeds: with (R_H=c/H_0), the Hubble-law difference across one Hubble length is (H_0R_H=c). Do not invent a dual shell merely to manufacture the second term.**
 
 ---
 
@@ -169,19 +177,19 @@ Add entries when a model makes a mistake that is likely to recur.
 
 ---
 
-## Recommendation 005 — Projection is not destruction
+## Recommendation 005 — Truncation is not destruction
 
-**Failure mode:** A degree of freedom absent from a 3D readout is treated as physically absent.
+**Failure mode:** Structure absent from one 3D instantiation, intersection, or truncation is treated as physically absent from the larger construction.
 
-**Countermeasure:** Write the readout/projection map explicitly and inspect its nullspace or omitted coordinates.
+**Countermeasure:** Draw the full-to-instantiated geometry explicitly and identify what is omitted before declaring anything destroyed or nonexistent.
 
 ---
 
-## Recommendation 006 — Do not manufacture ontology
+## Recommendation 006 — Do not manufacture (O_{mathrm{abs}})
 
-**Failure mode:** Geometric/calculational language is converted into claims about what reality "really is."
+**Failure mode:** A useful effective object or geometric model is either banned as "mere ontology" or silently promoted into a claim about reality-in-itself.
 
-**Countermeasure:** Keep the construction representational unless an ontology claim is explicitly under discussion. SAT/H(s)H can be evaluated as a map without settling ontology.
+**Countermeasure:** Use (O_{mathrm{eff}}) freely when it earns its keep in coherent perception and successful science. Under RMS, do not claim that this identifies an epistemically determinate (O_{mathrm{abs}}).
 
 ---
 
@@ -221,7 +229,7 @@ Add entries when a model makes a mistake that is likely to recur.
 
 **Failure mode:** The model responds to ambiguity by adding more generality.
 
-**Countermeasure:** Pick one particle, one collision, one worldtube, one bend, one projection, one loop, or one other tightly specified case. Solve that before generalizing.
+**Countermeasure:** Pick one particle, one collision, one worldtube, one bend, one instantiation, one loop, or one other tightly specified case. Solve that before generalizing.
 
 ---
 
@@ -229,7 +237,15 @@ Add entries when a model makes a mistake that is likely to recur.
 
 **Failure mode:** Either equations are trusted despite an obviously broken geometric setup, or intuition is trusted despite a correct calculation.
 
-**Countermeasure:** When picture and calculation disagree, debug both. Check coordinates, dimensions, projection, conventions, implementation, and assumptions. Do not choose a winner by taste.
+**Countermeasure:** When picture and calculation disagree, debug both. Check coordinates, dimensions, mapping, instantiation, conventions, implementation, and assumptions. Do not choose a winner by taste.
+
+---
+
+## Recommendation 013 — WWRD before taxonomy
+
+**Failure mode:** The model encounters one ordinary physical behavior and immediately splits it into several named SAT/H(s)H mechanisms, currents, ontologies, or bookkeeping layers.
+
+**Countermeasure:** Start with the minimal successful (O_{mathrm{eff}}) object. For a twistable worldtube, begin with "rope twists." Introduce separate mathematical structures only when one unsplit representation fails a stated calculation, observation, or standard-physics limit.
 
 ---
 
