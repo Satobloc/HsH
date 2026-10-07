@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-orson-torsion-conservation-cosmic-gradient-002",
-  "query": "(torsion OR twist OR writhe OR helicity) AND (conservation OR conserved OR transfer OR residual OR gravity OR Hubble OR timesheet OR timewave OR metric)"
+  "request_id": "2026-10-07-ravel-material-director-frame-001",
+  "query": "(\"material frame\" OR \"director frame\" OR \"moving frame\" OR \"local frame\" OR \"body frame\") AND (torsion OR twist OR rotation OR filament OR worldline OR worldtube)"
 }
