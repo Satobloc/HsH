@@ -89,18 +89,27 @@ def composite_rule(hs, rp, rm, order):
     return np.concatenate(nodes), np.concatenate(weights)
 
 
-def kernel(hs, z, support):
+def _positive_part(x, scale, contact_width):
+    if contact_width <= 0:
+        return np.maximum(x, 0)
+    # LOCAL:P9_SMOOTH_CONTACT.  Dimensionless width is approximately a
+    # log-height width; scale*width converts it to the local h coordinate.
+    width = scale*contact_width
+    return width*np.logaddexp(0.0, x/width)
+
+
+def kernel(hs, z, support, contact_width=0.0):
     hh = hs[:, None]
-    return (np.sqrt(np.maximum(hh-z[None, :], 0))
-            - np.sqrt(np.maximum(-hh-z[None, :], 0))) / np.sqrt(hh+support)
+    return (np.sqrt(_positive_part(hh-z[None, :],hh,contact_width))
+            - np.sqrt(_positive_part(-hh-z[None, :],hh,contact_width))) / np.sqrt(hh+support)
 
 
-def observe(hs, rp, rm, eta, qorder=CONTACT_ORDER):
+def observe(hs, rp, rm, eta, qorder=CONTACT_ORDER, contact_width=0.0):
     uq, wq = composite_rule(hs, rp, rm, qorder)
     p = density_at(uq, eta)
     z = np.where(uq >= 0, rp*uq, rm*uq)
-    return np.r_[kernel(hs, z, rp) @ (wq*p),
-                 kernel(hs, -z, rm) @ (wq*p)]
+    return np.r_[kernel(hs, z, rp, contact_width) @ (wq*p),
+                 kernel(hs, -z, rm, contact_width) @ (wq*p)]
 
 
 def covariance(n):
