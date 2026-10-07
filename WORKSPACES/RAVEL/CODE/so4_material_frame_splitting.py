@@ -17,6 +17,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+plt.rcParams["svg.fonttype"] = "none"
+
+
 OUT_JSON = Path("so4_material_frame_splitting.json")
 OUT_SVG = Path("so4_material_frame_splitting.svg")
 OUT_PNG = Path("so4_material_frame_splitting.png")
@@ -87,6 +90,7 @@ def main() -> None:
             "delta_recovered": recovered,
         }
 
+    # Noise test: 0.2% independent Gaussian noise on each measured omega^2.
     rng = np.random.default_rng(20261007)
     draws = 5000
     recovered_ab = np.empty((draws, 2))
@@ -138,7 +142,9 @@ def main() -> None:
     ax.grid(alpha=0.25)
 
     ax = axes[1]
-    ax.scatter(recovered_ab[:, 0], recovered_ab[:, 1], s=4, alpha=0.12, color="#3b73b9")
+    # Plot a deterministic 500-point subset so the SVG stays lightweight;
+    # the statistics above still use all 5000 Monte Carlo draws.
+    ax.scatter(recovered_ab[::10, 0], recovered_ab[::10, 1], s=5, alpha=0.18, color="#3b73b9")
     ax.axvline(a, color="black", lw=1)
     ax.axhline(b, color="black", lw=1)
     ax.set_xlabel("recovered a")
