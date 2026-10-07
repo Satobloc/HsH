@@ -1,0 +1,200 @@
+{
+  "status": "sandbox resolver-refinement audit; not canonical theory",
+  "geometry": {
+    "h_min": 0.18200000000000002,
+    "h_max": 2.015,
+    "bulk_a": 0.055,
+    "sided_epsilon": 0.0001
+  },
+  "clarification": "16/24/32/48 is matched-domain refinement, not strict nesting; 16/31/61 is the strict log-grid nesting sequence.",
+  "matched_domain": [
+    {
+      "channels": 16,
+      "a": 0.055,
+      "max_log_gap": 0.16029118582026608,
+      "root_o": -0.012488698883022759,
+      "coarse_root_o": -0.012488590102663089,
+      "step_root_shift": -1.0878035966964406e-07,
+      "F_at_root": 1.1844351738998759e-09,
+      "hessian_condition": 3111.8872502531262,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 24,
+      "a": 0.055,
+      "max_log_gap": 0.1045377298827822,
+      "root_o": -0.007977394698944798,
+      "coarse_root_o": -0.007977410028758828,
+      "step_root_shift": 1.5329814029296784e-08,
+      "F_at_root": 4.702621385479363e-10,
+      "hessian_condition": 4158.142686841366,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 32,
+      "a": 0.055,
+      "max_log_gap": 0.07756025120335486,
+      "root_o": -0.008110085128585498,
+      "coarse_root_o": -0.008110012775650172,
+      "step_root_shift": -7.235293532532883e-08,
+      "F_at_root": 5.376138336694139e-10,
+      "hessian_condition": 5199.056260902609,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 48,
+      "a": 0.055,
+      "max_log_gap": 0.0511567614320001,
+      "root_o": -0.006902930543738,
+      "coarse_root_o": -0.006903000321444033,
+      "step_root_shift": 6.977770603336375e-08,
+      "F_at_root": -6.653340884965541e-09,
+      "hessian_condition": 6884.848525369206,
+      "crosses_train_contact_stratum": false
+    }
+  ],
+  "matched_limit_fits": {
+    "linear_gap_limit": -0.003942417168995053,
+    "quadratic_gap_limit": -0.008206147900970753,
+    "last_increment": 0.001207154584847498,
+    "range": 0.005585768339284759
+  },
+  "strict_nested": [
+    {
+      "channels": 16,
+      "a": 0.055,
+      "max_log_gap": 0.16029118582026608,
+      "root_o": -0.012488698883022759,
+      "F_at_root": 1.1844351738998759e-09,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 31,
+      "a": 0.055,
+      "max_log_gap": 0.08014559291013316,
+      "root_o": -0.008403574705909292,
+      "F_at_root": 1.963626653819018e-09,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 61,
+      "a": 0.055,
+      "max_log_gap": 0.040072796455066784,
+      "root_o": -0.005926359129576196,
+      "F_at_root": -1.6684163798647091e-09,
+      "crosses_train_contact_stratum": false
+    },
+    {
+      "channels": 121,
+      "a": 0.055,
+      "max_log_gap": 0.02003639822753356,
+      "root_o": -0.005511972017274668,
+      "F_at_root": -5.062600398661645e-09,
+      "crosses_train_contact_stratum": false
+    }
+  ],
+  "strict_nested_limit_fits": {
+    "linear_gap_limit": -0.0042154147832856636,
+    "quadratic_gap_limit": -0.004403219958470989,
+    "last_increment": 0.0004143871123015279,
+    "range": 0.00697672686574809
+  },
+  "strict_nested_inherited_contact": [
+    {
+      "channels": 16,
+      "contact_a": 0.06125742185040761,
+      "max_log_gap": 0.16029118582026608,
+      "root_below": -0.017441471418019282,
+      "root_above": -0.01249718619942133,
+      "sided_jump": 0.004944285218597952,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 31,
+      "contact_a": 0.06125742185040761,
+      "max_log_gap": 0.08014559291013316,
+      "root_below": -0.013923290765919503,
+      "root_above": -0.003511275253962212,
+      "sided_jump": 0.010412015511957291,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 61,
+      "contact_a": 0.06125742185040761,
+      "max_log_gap": 0.040072796455066784,
+      "root_below": 0.005960860546326534,
+      "root_above": -0.02456441528642885,
+      "sided_jump": -0.030525275832755383,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 121,
+      "contact_a": 0.06125742185040761,
+      "max_log_gap": 0.02003639822753356,
+      "root_below": 0.008544664461677213,
+      "root_above": -0.04514513153264322,
+      "sided_jump": -0.05368979599432043,
+      "crossing_below": false,
+      "crossing_above": false
+    }
+  ],
+  "contact_sided": [
+    {
+      "channels": 16,
+      "contact_a": 0.06125742185040761,
+      "epsilon": 0.0001,
+      "max_log_gap": 0.16029118582026608,
+      "root_below": -0.017441471418019282,
+      "root_above": -0.01249718619942133,
+      "sided_jump": 0.004944285218597952,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 24,
+      "contact_a": 0.07615318419686123,
+      "epsilon": 0.0001,
+      "max_log_gap": 0.1045377298827822,
+      "root_below": -0.014489313639071865,
+      "root_above": -0.007100319959042051,
+      "sided_jump": 0.007388993680029814,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 32,
+      "contact_a": 0.08343568944159285,
+      "epsilon": 0.0001,
+      "max_log_gap": 0.07756025120335486,
+      "root_below": -0.01327595047705839,
+      "root_above": -0.007252841557029749,
+      "sided_jump": 0.00602310892002864,
+      "crossing_below": false,
+      "crossing_above": false
+    },
+    {
+      "channels": 48,
+      "contact_a": 0.03622188620933575,
+      "epsilon": 0.0001,
+      "max_log_gap": 0.0511567614320001,
+      "root_below": -0.003281154779677273,
+      "root_above": -0.0043267993022779476,
+      "sided_jump": -0.0010456445226006746,
+      "crossing_below": false,
+      "crossing_above": false
+    }
+  ],
+  "contact_jump_linear_gap_intercept": 0.002189964781451251,
+  "summary": {
+    "matched_last_increment": 0.001207154584847498,
+    "nested_last_increment": 0.0004143871123015279,
+    "max_abs_step_root_shift": 1.0878035966964406e-07,
+    "max_abs_contact_jump": 0.007388993680029814,
+    "last_abs_contact_jump": 0.0010456445226006746,
+    "nested_last_abs_contact_jump": 0.05368979599432043,
+    "any_contact_crossing": false
+  }
+}
