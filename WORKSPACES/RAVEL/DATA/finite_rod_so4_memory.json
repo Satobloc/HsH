@@ -1,0 +1,214 @@
+{
+  "model": {
+    "pde": "gamma*d_t X = C*d_s^2 X - K*X + T(s,t)",
+    "boundary_condition": "Neumann/free ends",
+    "rates": "lambda_n=(K+C*(n*pi/L)^2)/gamma",
+    "kernel": "r(Delta)=sum_n w_n exp(-lambda_n Delta)",
+    "memory_law": "M(Delta)=2*r-r^2 (quadratic SO(4) limit)"
+  },
+  "parameters": {
+    "torsional_stiffness_C": 0.06,
+    "local_pinning_K": 0.25,
+    "drag_gamma": 1.0,
+    "n_modes": 80,
+    "actuation_location_fraction": 0.31,
+    "resolver_width_fraction": 0.07,
+    "lengths": [
+      1.0,
+      1.6
+    ],
+    "epsilon": 0.08
+  },
+  "results": {
+    "L=1": {
+      "lowest_rate": 0.25,
+      "initial_effective_rate": 6.372448250146521,
+      "effective_rate_t1": 0.4550940363067874,
+      "effective_rate_t4": 0.2816283371549588,
+      "fitted_single_rate_window_0.35_8": 0.5015311827243217,
+      "rms_single_memory_residual": 0.15476076748192089,
+      "max_abs_exact_SO4_vs_quadratic_memory": 0.0011771203203206904,
+      "top_modes": [
+        {
+          "n": 3,
+          "weight": 0.30586659008125205,
+          "rate": 5.579586376588253
+        },
+        {
+          "n": 0,
+          "weight": 0.2481435383730467,
+          "rate": 0.25
+        },
+        {
+          "n": 1,
+          "weight": 0.14939343355748286,
+          "rate": 0.8421762640653615
+        },
+        {
+          "n": 4,
+          "weight": 0.1216476062931526,
+          "rate": 9.724820225045784
+        },
+        {
+          "n": 6,
+          "weight": 0.0712456250972848,
+          "rate": 21.568345506353012
+        },
+        {
+          "n": 2,
+          "weight": 0.05542564636472451,
+          "rate": 2.618705056261446
+        },
+        {
+          "n": 7,
+          "weight": 0.034382291403388776,
+          "rate": 29.266636939202712
+        },
+        {
+          "n": 9,
+          "weight": 0.006164803650979579,
+          "rate": 48.21627738929428
+        }
+      ],
+      "samples": [
+        {
+          "time": 0.0,
+          "retained_kernel_r": 1.0,
+          "normalized_memory_M": 1.0,
+          "effective_rate": 6.372448250146521
+        },
+        {
+          "time": 0.5,
+          "retained_kernel_r": 0.3517368543411591,
+          "normalized_memory_M": 0.5797548939805044,
+          "effective_rate": 0.8260817364757349
+        },
+        {
+          "time": 1.0,
+          "retained_kernel_r": 0.2628109213234941,
+          "normalized_memory_M": 0.4565522622800844,
+          "effective_rate": 0.4550940363067874
+        },
+        {
+          "time": 2.0,
+          "retained_kernel_r": 0.1785276771287715,
+          "normalized_memory_M": 0.3251832227565481,
+          "effective_rate": 0.3459922144668117
+        },
+        {
+          "time": 4.0,
+          "retained_kernel_r": 0.09643271462825118,
+          "normalized_memory_M": 0.18356616080592864,
+          "effective_rate": 0.2816283371549588
+        },
+        {
+          "time": 8.0,
+          "retained_kernel_r": 0.03375971398630859,
+          "normalized_memory_M": 0.06637970968417982,
+          "effective_rate": 0.25310716377720965
+        },
+        {
+          "time": 12.0,
+          "retained_kernel_r": 0.012360438911454639,
+          "normalized_memory_M": 0.024568097372825476,
+          "effective_rate": 0.25029222580334215
+        }
+      ]
+    },
+    "L=1.6": {
+      "lowest_rate": 0.25,
+      "initial_effective_rate": 2.641581347713484,
+      "effective_rate_t1": 0.572188358476063,
+      "effective_rate_t4": 0.2989623343397006,
+      "fitted_single_rate_window_0.35_8": 0.47606193619114817,
+      "rms_single_memory_residual": 0.12081438975694765,
+      "max_abs_exact_SO4_vs_quadratic_memory": 0.0011781594203200685,
+      "top_modes": [
+        {
+          "n": 3,
+          "weight": 0.30586659008125205,
+          "rate": 2.331869678354786
+        },
+        {
+          "n": 0,
+          "weight": 0.24814353837304676,
+          "rate": 0.25
+        },
+        {
+          "n": 1,
+          "weight": 0.14939343355748286,
+          "rate": 0.4813188531505318
+        },
+        {
+          "n": 4,
+          "weight": 0.12164760629315263,
+          "rate": 3.9511016504085092
+        },
+        {
+          "n": 6,
+          "weight": 0.07124562509728483,
+          "rate": 8.577478713419143
+        },
+        {
+          "n": 2,
+          "weight": 0.055425646364724517,
+          "rate": 1.1752754126021272
+        },
+        {
+          "n": 7,
+          "weight": 0.03438229140338878,
+          "rate": 11.584623804376058
+        },
+        {
+          "n": 9,
+          "weight": 0.006164803650979575,
+          "rate": 18.986827105193075
+        }
+      ],
+      "samples": [
+        {
+          "time": 0.0,
+          "retained_kernel_r": 1.0,
+          "normalized_memory_M": 1.0,
+          "effective_rate": 2.641581347713484
+        },
+        {
+          "time": 0.5,
+          "retained_kernel_r": 0.48067096574875123,
+          "normalized_memory_M": 0.7302973541836653,
+          "effective_rate": 0.9301062206434051
+        },
+        {
+          "time": 1.0,
+          "retained_kernel_r": 0.33475256736682824,
+          "normalized_memory_M": 0.5574458533749735,
+          "effective_rate": 0.572188358476063
+        },
+        {
+          "time": 2.0,
+          "retained_kernel_r": 0.21577034295132255,
+          "normalized_memory_M": 0.38498384500531374,
+          "effective_rate": 0.36242224260324907
+        },
+        {
+          "time": 4.0,
+          "retained_kernel_r": 0.11360456409457369,
+          "normalized_memory_M": 0.21430313120602928,
+          "effective_rate": 0.2989623343397006
+        },
+        {
+          "time": 8.0,
+          "retained_kernel_r": 0.03676445568406519,
+          "normalized_memory_M": 0.07217728616638479,
+          "effective_rate": 0.2701065954745503
+        },
+        {
+          "time": 12.0,
+          "retained_kernel_r": 0.012817744614624925,
+          "normalized_memory_M": 0.0254711946522441,
+          "effective_rate": 0.25836521800283313
+        }
+      ]
+    }
+  }
+}
