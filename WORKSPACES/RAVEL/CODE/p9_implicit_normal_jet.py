@@ -23,7 +23,8 @@ TRUTH_STEPS = [4e-4, 2e-4, 1e-4]
 DIR_STEPS = [8e-5, 4e-5, 2e-5]
 
 
-def setup(a, o, train_h, qorder=sm.CONTACT_ORDER, covariance_builder=None):
+def setup(a, o, train_h, qorder=sm.CONTACT_ORDER, covariance_builder=None,
+          contact_width=0.0):
     rp0, rm0 = supports(a)
     low = np.array([o, EVEN_BASE, o, EVEN_BASE, o, EVEN_BASE])
     eta_low = sm.eta_for_moments(low)
@@ -41,13 +42,15 @@ def setup(a, o, train_h, qorder=sm.CONTACT_ORDER, covariance_builder=None):
 
     def model(x, hs, chol, priors=False):
         rp, rm, eta = unpack(x)
-        z = solve_triangular(chol, sm.observe(hs, rp, rm, eta, qorder=qorder),
+        z = solve_triangular(chol, sm.observe(hs, rp, rm, eta, qorder=qorder,
+                                             contact_width=contact_width),
                              lower=True, check_finite=False)
         return np.r_[z, x[0]/sm.SUPPORT_PRIOR, x[1]/sm.SUPPORT_PRIOR] if priors else z
 
     def truth(delta, hs, chol):
         et = sm.individual_truth(base_m, 9, float(delta))
-        y = sm.observe(hs, rp0, rm0, et, qorder=qorder)
+        y = sm.observe(hs, rp0, rm0, et, qorder=qorder,
+                       contact_width=contact_width)
         return solve_triangular(chol, y, lower=True, check_finite=False)
 
     return dict(rp0=rp0, rm0=rm0, eta_low=eta_low, base_m=base_m,
@@ -70,8 +73,8 @@ def contact_signature(hs, rp, rm):
 
 
 def implicit_response(a, o, train_h, hj, ht, hd, qorder=sm.CONTACT_ORDER,
-                      covariance_builder=None):
-    s=setup(a,o,train_h,qorder,covariance_builder)
+                      covariance_builder=None, contact_width=0.0):
+    s=setup(a,o,train_h,qorder,covariance_builder,contact_width)
     x0=s["x0"]
     mt=lambda x:s["model"](x,s["train_h"],s["Lt"],True)
     mh=lambda x:s["model"](x,s["hold_h"],s["Lh"],False)
