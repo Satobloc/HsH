@@ -1,0 +1,1093 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] SAT Vis",
+    "notebook_id": "857d5196-4a82-49a0-96b3-d1567315280a",
+    "notebook_url": "https://notebook.google.com/notebook/857d5196-4a82-49a0-96b3-d1567315280a",
+    "captured_at": "2026-10-07T16:36:56.987Z",
+    "visible_source_count": 38,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 40
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "How do you describe the style?",
+      "citations": [],
+      "key": "722d97fc"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The style of these images can be described as minimalist abstract light art, characterized by several key visual elements:\nHigh-Contrast Monochromatic Aesthetic: Each image features a brilliant, glowing white subject set against a deep, stark black background\nlock\nmore_horiz\n. This creates a powerful visual impact by stripping away color and focusing entirely on the interaction between light and shadow.\nLight Painting or Long-Exposure Photography: The visuals strongly resemble \"light painting,\" a technique where a light source is moved through a dark space while a camera captures its trail over time\nlock\nmore_horiz\n. This results in smooth, continuous lines that feel like a physical record of motion.\nEthereal and Luminescent Quality: The lines have a soft, radiant glow, giving them an electrical or energy-like appearance\nlock\nmore_horiz\n. They do not appear to be solid, tangible objects, but rather ghostly traces or \"filaments\" of light.\nDynamic and Geometric Forms: The subjects range from a rhythmic, zigzagging wave\nlock\n to a complex, looping knot-like structure\nlock\n and a simple, elegant arc\nlock\n. These forms suggest a blend of mathematical precision and fluid, organic movement.\nOverall, the style is sophisticated and modern, using pure light to create a sense of motion and energy within a void.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "aef4bca3"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "OK… How do you write a prompt to explain how to render all of the other pictures in this collection in the style of the",
+      "citations": [],
+      "key": "6203d7e9"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "To render the more complex diagrams and 3D models in this collection (such as the helical filaments or topological manifolds) in the minimalist abstract light art style of the white-on-black images, you should use a prompt that emphasizes high contrast and motion-based lighting\nlock\n.\nThe Master Style Prompt\nYou can use the following template, replacing the bracketed text with the specific geometry you want to capture from the other images:\n\"Minimalist abstract light art featuring [INSERT GEOMETRIC SUBJECT, e.g., 'a triple helical coil' or 'a complex topological knot']. The image must use a high-contrast monochromatic aesthetic with a brilliant, glowing white subject set against a deep, stark black background\nlock\n. The rendering should simulate light painting or long-exposure photography, capturing smooth, continuous lines that feel like a physical record of motion\nlock\n. The lines should have an ethereal and luminescent quality, appearing as ghostly filaments of light with a soft, radiant glow\nlock\n. The final result should be sophisticated and modern, representing pure energy and motion within a void\nlock\nlock\n.\"\nHow to Apply This to Specific Images\nTo translate the \"other\" images into this style, you must strip away all labels, mathematical notation, and realistic materials (like the brass axes in image\nlock\n or the glass blocks in image\nlock\n) and focus only on the core \"light\" paths:\nFor the \"Quark\" (Image\nlock\n): Instead of rendering solid colored ropes and a plastic plane, prompt for \"a tightly braided triple-helix of glowing light filaments intersecting a central point\"\nlock\nlock\n.\nFor the \"Torus\" (Image\nlock\n): Instead of a purple glass ring with mechanical parts, prompt for \"a rhythmic, intersecting series of light trails following the path of a large torus\"\nlock\nlock\n.\nFor the \"Universal Indicatrix\" (Image\nlock\n): Instead of green grids and brass spheres, prompt for \"a minimalist dual-sphere geometry made of thin, glowing white filaments of light\"\nlock\nlock\n.\nFor the \"Filament Intersection\" (Image\nlock\n): Prompt for \"a central brilliant point of light with dozens of fine, radiating organic filaments spreading outward into a dark void\"\nlock\nlock\n.\nBy focusing on the interaction between light and shadow and removing all \"tangible\" objects, you can maintain the mathematical precision of the diagrams while achieving the fluid, organic movement of the light art style\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "552a0317"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Ok, describe the black and white style",
+      "citations": [],
+      "key": "d8130446"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "The black and white style in this collection is best described as minimalist abstract light art\nlock\n. It is defined by several distinct visual characteristics that emphasize the interplay between mathematical precision and fluid energy\nlock\n.\nKey elements of this style include:\nHigh-Contrast Monochromatic Aesthetic: The images feature brilliant, glowing white subjects set against deep, stark black backgrounds\nlock\n. This monochromatic approach strips away color to focus entirely on the interaction of light and shadow\nlock\n.\nLight Painting Influence: The visuals simulate the effect of long-exposure photography or \"light painting,\" where a moving light source leaves behind a continuous trail\nlock\n. This gives the forms the appearance of being a physical record of motion through a void\nlock\nlock\n.\nEthereal and Luminescent Quality: Rather than appearing as solid, tangible objects, the subjects look like ghostly filaments or traces of pure energy\nlock\n. They possess a soft, radiant glow that gives them a sophisticated, modern, and electrical feel\nlock\nlock\n.\nDynamic Geometric Forms: The subjects range from simple arcs and zigzagging waves to highly complex, braided helical structures and topological knots\nlock\n. These forms often represent abstract physics concepts, such as string modes or 4D projections, rendered as fluid, organic light trails\nlock\nmore_horiz\n.\nHumanoid Integration: Many of the images in this specific style also incorporate a side profile of a detailed, glowing humanoid head\nlock\nmore_horiz\n. This figure is often depicted observing or interacting with the abstract geometric light forms, suggesting a connection between human consciousness and complex mathematical or physical phenomena\nlock\nmore_horiz\n.\nOverall, the style uses pure light to create a sense of energy and motion within a void, resulting in a look that is both mathematically precise and artistically fluid\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "d8fc984c"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Write a prompt to develop a detailed, beautiful and elegant set of thumbnails in the style of the pieces,!",
+      "citations": [],
+      "key": "441eee32"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "To develop a set of detailed and elegant thumbnails in this specific style, you should focus on the minimalist abstract light art aesthetic that emphasizes mathematical precision through fluid, luminescent forms\nlock\nlock\n.\nThe Master Prompt for the Collection\nUse the following prompt to generate thumbnails that capture the \"energy within a void\" look found in the sources:\n\"Minimalist abstract light art featuring [INSERT GEOMETRIC FORM, e.g., a complex topological knot, a triple helical braid, or a radiating sphere of filaments]. The aesthetic must be a high-contrast monochromatic composition with a brilliant, glowing white subject set against a deep, stark black background\nlock\n. The rendering should simulate long-exposure photography or light painting, showing smooth, continuous lines that represent a physical record of motion\nlock\n. The light should have an ethereal and luminescent quality, appearing as ghostly, radiant filaments rather than solid objects\nlock\n. Ensure a blend of mathematical precision and fluid, organic movement for a sophisticated and modern feel\nlock\nlock\n.\"\nStyle Modifiers for Variety\nTo create a cohesive set of thumbnails that reflects different aspects of the collection, you can add these specific modifiers to the bracketed section above:\nThe \"Observer\" Series: Add \"...accompanied by a detailed, glowing humanoid head in side profile at the edge of the frame, observing the light geometry\"\nlock\nmore_horiz\n.\nThe \"Contained Energy\" Series: Add \"...the light forms are encapsulated within a translucent, ghostly glass sphere that subtly reflects the internal glow\"\nlock\nmore_horiz\n.\nThe \"Filamentary Burst\" Series: Add \"...hundreds of fine, radiating organic filaments spreading outward from a central brilliant point of light\"\nlock\nlock\n.\nThe \"Waveform\" Series: Add \"...a rhythmic, zigzagging wave or a singular oscillating line cutting perfectly across the void\"\nlock\nlock\n.\nKey Visual Principles to Maintain\nAvoid Color: Stick to white, silver, and subtle grey tones to maintain the powerful visual impact of the monochromatic style\nlock\n.\nFocus on Flow: Each line should feel like a \"trail\" left behind by a moving particle, giving the thumbnails a sense of dynamic energy\nlock\nlock\n.\nHigh Contrast: Ensure the background is \"true black\" to make the luminescent filaments pop with maximum clarity\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "4613183c"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "text": "Ok, I wrote a rambling prompt because although some of the slide deck generated images were very good, most weren't really ideal, and I didn't get the amount or variety I had hoped for. Can you take a look at this and see if you can 1) Try to understand my intentions and thought process for why I've identified the parameters I've laid out, and 2) See if you can write a prompt that communicates what I'm trying to communicate in a way the LLM might have an easier time understanding, and 3) To refine and modify the vision I'm trying to communicate to better achieve the goals I've tried to communicate.\n\nYou should now see the draft prompt attempt at the bottom of the GEOMETRIC FUNDAMENTALS document in the sources. Let me know if you don't.",
+      "citations": [],
+      "key": "6c98d24f"
+    },
+    {
+      "index": 10,
+      "role": "user",
+      "text": "I’ve reviewed the current list of sources provided in our session, and I do not see a document titled \"GEOMETRIC FUNDAMENTALS\" or the draft prompt you described.\nCurrently, my available sources consist of 49 image files, including mathematical diagrams, 3D models of helical filaments, and the minimalist black-and-white light art we discussed previously\nlock\nmore_horiz\n. There is no text document or \"rambling prompt\" included in these excerpts.\nTo help you with your three goals—understanding your intentions, rewriting the prompt for the LLM, and refining the vision—could you please paste the draft prompt here in the chat or ensure the \"GEOMETRIC FUNDAMENTALS\" document is added as a source for this conversation?\nOnce I have the text, I will be able to:\nDeconstruct your parameters to identify the core physics or artistic concepts you are trying to prioritize.\nOptimize the language to be more \"LLM-friendly\" by using clear structural hierarchies and specific technical descriptors.\nPropose refinements to the visual style or geometric constraints to ensure you get the high-quality variety you are looking for.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "8cb901f4"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "text": "Hmmm... it must still be loading. I'll give you the prompt in two parts. Here's the first:\n\nDESIGN STRATEGY DRAFT PROMPT\n\nTASK: Create a contact-sheet style selection of square images for use as podcast episode thumbnails, following the rules below—create as many as you can in the space that you have, full bleed, omitting decorative elements in the margin (should be about 5 x 3).\n\nTHE SOURCES ARE YOUR INSPIRATION, NOT YOUR ASSETS\n\nABSOLUTELY NO TEXT OR LABELS WHATSOEVER AND ABSOLUTELY NO REPRODUCTION OF THE IMAGES IN THE ROUGH DRAFTS—YOU MUST USE THE DRAFT IMAGES IN THE SOURCES AS CONCEPTUAL GUIDES ONLY, GENERATING ALL ORIGINAL ART THAT AIMS FOR A MORE ELEGANT AND COHESIVE STYLE (WHICH THE EXAMPLE IMAGES FAIL TO ACHIEVE) 2) Use the GEOMETRIC FUNDAMENTALS document as your starting point for the geometric/topological goals. 3) use the black and white example images as VERY LOOSE approximations meant to communicate the style you must aim for; remember that the examples are low-skill sketches only; your final thumbnails should be much more elegant and cohesive. 4) use the color image examples as very rough, low-skill attempts to communicate some of the basic geometry described in the fundamentals; the examples fail to achieve sufficient artistic and design merit, your goal is to re-imagine and expand upon these design sketches to represent or evoke the geometry as described in the fundamentals, using design principles that maximize diversity of form within brand-cohesive unity of aesthetics, to create original artwork meant to be viewed as small thumbnails on a mobile device screen (in short, design with spotify-style episode thumbnails in mind).\n\nSTANDBY FOR SECOND PART",
+      "citations": [],
+      "key": "29a3efb5"
+    },
+    {
+      "index": 12,
+      "role": "user",
+      "text": "I have processed the first part of your Design Strategy Draft Prompt and analyzed the sources to understand your vision. Here is a breakdown of your intentions and my initial thoughts on how to optimize this for an LLM, while I stand by for the second part.\n1) Understanding Your Intentions\nBased on your draft and the provided images, your goal is to transition from \"Technical Educational Diagram\" to \"Fine Art Brand Identity.\"\nThe \"Why\" behind your parameters: You have identified that while the source images\nlock\nmore_horiz\n contain the necessary \"DNA\" (helices, manifolds, 4D projections), they lack the artistic gravitas required for a professional podcast. By forbidding text and labels, you are forcing the AI to communicate complex physics through pure form and light, which aligns with a high-end, \"Spotify-style\" aesthetic that needs to be legible at very small scales\nlock\nmore_horiz\n.\nThe Style Paradox: You are asking for \"Cohesive Diversity.\" This means every thumbnail should look like it belongs to the same \"world\" (the B&W minimalist light style\nlock\nmore_horiz\n), but each must represent a unique geometric concept from your fundamentals so the audience can distinguish episodes at a glance.\n2) Initial LLM Communication Strategy\nLLMs often struggle with \"contact sheets\" and \"as many as you can\" because they tend to lose detail or hallucinate borders. To make this easier for the model:\nAvoid Negatives: Instead of \"No Reproduction,\" use \"Create entirely original interpretations.\"\nStructural Hierarchy: We should define the \"Global Style\" (the B&W light art) first, then the \"Variable Geometry\" (the specific shapes) second. This ensures the \"brand-cohesive unity\" you requested.\nScale Optimization: Since these are for mobile thumbnails, I will focus the prompt on macro-composition and bold silhouettes to ensure they don't become a \"messy\" tangle of thin lines that disappear on a small screen.\n3) Refining the Vision\nTo achieve your goal of \"elegant and cohesive\" art, we should lean into a specific visual metaphor. Instead of just \"light painting,\" we might describe these as \"Luminescent Mathematical Sculptures in a Void.\"\nBy treating the geometric forms as physical objects made of \"trapped light\" or \"fiber-optic filaments\"\nlock\nmore_horiz\n, we give the AI a better sense of texture, depth, and elegance than a \"sketch\" would provide.\nI am standing by for Part 2 of your prompt. Once I have the geometric/topological goals from that section, I will synthesize everything into a final, optimized Master Prompt for you.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "f34e97f4"
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "text": "Here's the 2nd Part\n\nYOUR OUTPUT SHOULD BE ORIGINAL AND SHOULD LEVERAGE AWARD-WINNING ARTISTIC-SCIENTIFIC DESIGN PRINCIPLES\n\nOther suggestions/requests/guidance: Try to create a mix of very accurate and more impressionistic thumbnails, including some with a combination of artistic/precision representation. The more diagrammatic and apparatus-like design sketch examples in the sources are mostly my attempts to represent theory-metrological analytics and abstract geometric manifolds and phase spaces for curve projection, but my attempts are too cluttered, too 'graph-papery', and too cluttered with lab-hardware—your designs should reimagine to correct these issues, evoking abstract geometric curves, surfaces, and volumes using similar glasslike materiality for purely geometric constructs (like toroidal and spherical projection manifolds) with some frosted/etched glass elements to help create depth and contrast and to provide structure upon/within/around which particle worldlines (and/or world-tubes, vortices, manifolds, or string-theory-like vibrational modes/probability clouds) can be projected, contained, wrapped, guided, and seen through. Use varying dimensionality and artistic license in particle representations, sometimes showing them as extended forms, sometimes intertwined, sometimes interacting, sometimes represented more similarly to electron clouds and quantum wave functions, and sometimes as discrete convoluted manifolds-of-dimensional-intersection of varying complexity, but mostly they should be represented as modernized, three-dimensional, artistic/naturalistic Minkowski-diagram style extended forms, using the aesthetics of light-painting, smoke vortices, wind-tunnel streamers, glowing 'spirit photography', laser projection, incandescent filaments, plasma streamers, bubble chamber traces and cloud chamber traces, abstract filgree-tendril structures, and similar artistry, with varying degrees of depth and foreshortening, differing viewing angles, and varied precision, abstraction, and gestural/naturalistic styles. Draw from any or all of these traditions, and/or come up with some of your own—whatever you can do to make them varied in structure but cohesive in palette and 'vibe'. In short: Make abstract structure come to life with materiality and artistry, and maybe a touch of ethereal/otherworldly flavor.\n\nTWO FINAL NOTES\n\nOne is that some of the geometry described is macroscopic and large-scale; use your judgement on how to represent, but my suggestion is something like: \"What if breathtaking astronomical photography and illustration, but with extended 4D / timelapse-like world-tubes...\" The other is that some of our episodes deal with epistemology, philosophy of mind, and human and AI consciousness (the faces in profile you may encounter in the source sketches are meant to be representative of ai-mind, and this is the one element you may use without significantly reimagining); you're welcome to include a small number of thumbnails for these if you have any good ideas for them.\n\nEND",
+      "citations": [],
+      "key": "83cb022c"
+    },
+    {
+      "index": 14,
+      "role": "user",
+      "text": "Your draft prompt is a deep and articulate \"creative brief\" that aims to bridge the gap between complex mathematical theory and high-end brand aesthetics. Below is an analysis of your vision, followed by a restructured, LLM-optimized version of your prompt.\n1. Understanding Your Intentions and Parameters\nBased on your draft and the provided images, your goal is to move from Technical Illustration to Conceptual Fine Art.\nThe \"Why\" of Your Constraints: By forbidding text, labels, and \"lab hardware,\" you are forcing the AI to communicate physics through pure form and light [Part 1, 2]. You want to strip away the \"how\" (metrology, apparatus) to focus on the \"what\" (the underlying geometric essence) [Part 2].\nAesthetic Cohesion vs. Diversity: You've identified that the current \"low-skill\" sketches are too cluttered with \"graph-paper\" and realistic materials [Part 2, 33, 49]. You want to replace this with a unified \"Brand World\" of high-contrast monochromatic light—likely to ensure that when these thumbnails are seen together on a platform like Spotify, they are immediately recognizable as part of a single \"collection\" while each representing a distinct episode topic [Part 1, 39, 41, 43].\nThe Intersection of Mind and Math: Your inclusion of the humanoid/AI profile\nlock\nmore_horiz\n suggests a recurring motif of \"Observation,\" linking the abstract geometry of the universe to the consciousness of the viewer [Part 2].\n2. LLM-Optimized Master Prompt\nLLMs respond best to structural hierarchy (defining the \"Global Style\" first, then the \"Subject\"). I have translated your narrative into a precise technical prompt.\nPrompt Template:\n\"Global Aesthetic Style: Minimalist abstract light art. High-contrast monochromatic chiaroscuro (brilliant white on stark black). The render must simulate long-exposure light painting and kinetic light photography\nlock\nlock\n. ABSOLUTELY NO TEXT, GRIDS, OR LABELS.\nMateriality & Light: Use refractive glasslike materiality for geometric manifolds (toroids, spheres) with frosted and etched glass textures to create depth and contrast [Part 2]. Particle world-lines should be rendered as incandescent filaments, plasma streamers, and luminescent vortices that wrap around and through the glass structures [Part 2, 10, 12, 48].\nGeometric Subject (Variable): [INSERT SPECIFIC GEOMETRY HERE, e.g., 'A complex triple-braided helical knot intersecting a frosted glass plane' or 'A 4D world-tube manifesting as a swirling smoke vortex'].\nArtistic Influence: Award-winning scientific design. Evoke the aesthetics of bubble chamber traces, wind-tunnel streamers, and spirit photography [Part 2]. The composition should feel sophisticated, modern, and ethereal, representing pure energy within a void.\nOptional Motif: For consciousness-themed episodes, include a detailed, glowing humanoid head in side profile, integrated into the light-geometry as a silent observer\nlock\nmore_horiz\n.\"\n3. Refining the Vision to Achieve Your Goals\nTo further improve the quality and variety of your results, I suggest these refinements:\nMove from \"Contact Sheets\" to \"Series Generation\": Current image-gen models often lose significant detail and \"elegance\" when trying to render 15 thumbnails at once (the \"contact sheet\" approach) [Part 1]. You will likely get much better results by asking the LLM to generate four distinct variations of a single concept at a time, maintaining the same \"Global Style\" across each generation.\nThe \"Luminous Glass\" Metaphor: In your \"Universal Indicatrix\"\nlock\n or \"Wobbler\"\nlock\n sketches, the brass and mechanical parts distract from the math. In the refined vision, the glass itself should be the structure. Imagine the \"Coordinate Engine\"\nlock\n not as brass axes, but as thin, glowing filaments of light \"etched\" into a floating glass sphere.\nDimensionality as Depth: To avoid the \"cluttered\" feeling you mentioned, encourage the AI to use extreme foreshortening and varied viewing angles. Instead of a flat \"diagrammatic\" side-view of a helix\nlock\nlock\n, ask for a \"Macro-lens, low-angle perspective looking up through the center of a glowing helical vortex,\" which creates a more \"award-winning\" photographic feel.\nAveraging Precision and Impressionism: For \"metrological\" episodes, emphasize the etched glass and laser-precision lines\nlock\nlock\n. For philosophical/epistemological episodes, emphasize the smoke vortices and plasma streamers [Part 2], which feel more fluid and \"mind-like.\"\nThis refined approach preserves your technical \"Geometric Fundamentals\" while elevating the \"vibe\" to the professional, ethereal level you are seeking.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "4aa2d1d2"
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "text": "Describe what all of the images have in common",
+      "citations": [],
+      "key": "d3f1e5d4"
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "text": "The images in this collection share a cohesive identity centered on minimalist abstract light art and the representation of complex mathematical and physical concepts. While they vary in complexity—from simple light trails to detailed mechanical diagrams—they are unified by the following key characteristics:\n1. Luminescent and Ethereal Lighting\nNearly every image features glowing filaments, radiant lines, or incandescent plasma streamers\nlock\nmore_horiz\n. These light forms often simulate the effect of long-exposure photography or \"light painting,\" creating the appearance of a physical record of motion through a dark space\nlock\nmore_horiz\n. Even in the more technical, colored renders, the primary focus is on how light interacts with and defines the shapes\nlock\nmore_horiz\n.\n2. High-Contrast, Void-Based Compositions\nThe vast majority of the images utilize a stark, dark background (often a deep black void) to make the luminescent subjects pop with maximum clarity\nlock\nmore_horiz\n. This high-contrast aesthetic strips away environmental distractions, forcing the viewer to focus entirely on the interplay of light and shadow\nlock\nmore_horiz\n.\n3. Recurring Geometric and Topological Motifs\nThe collection repeatedly explores a specific set of geometric forms:\nTori (Doughnut Shapes): These appear as glass-like structures or rhythmic, intersecting light trails\nlock\nmore_horiz\n.\nSpheres and Manifolds: Many images feature transparent or glowing spheres, sometimes used as containers for energy or as central metrological instruments\nlock\nmore_horiz\n.\nHelices and Coils: Helical filaments and spring-like structures are a constant, representing vibrational modes, world-lines, or particles\nlock\nmore_horiz\n.\nIntertwining World-Lines: The path of motion is often depicted as intersecting, braided, or knotted filaments\nlock\nmore_horiz\n.\n4. Glass-like and Refractive Materiality\nA significant number of the \"other\" images (the colored diagrams) introduce translucent, refractive materials like glass tubes, frosted spheres, or etched manifolds\nlock\nmore_horiz\n. These structures serve to contain, wrap, or guide the glowing filaments, adding a sense of physical depth and three-dimensionality to the abstract math\nlock\nmore_horiz\n.\n5. Scientific and Mathematical Underpinnings\nCollectively, the images feel like artistic interpretations of theory-metrological analytics\nlock\nmore_horiz\n. They draw from scientific traditions such as bubble chamber traces, Minkowski diagrams, and string-theory-inspired vibrational modes to visualize abstract concepts like phase spaces and probability clouds\nlock\nmore_horiz\n.\n6. Recurring Iconic Elements\nThere are specific symbols that bridge the different styles:\nThe Glowing Sphere with Intersecting Rings: A small, brilliant sphere featuring white orbital rings is a frequent mascot throughout the collection\nlock\nmore_horiz\n.\nThe Dial/Gauge Interface: Several images feature a technical, circular metrological dial, suggesting the measurement of these abstract geometric phenomena\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "cb8c43db"
+    },
+    {
+      "index": 17,
+      "role": "user",
+      "text": "What is the core geometry that all of the images have in common",
+      "citations": [],
+      "key": "c9d38930"
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "text": "The core geometry that all of the images have in common is the interaction between a spherical object and a circular or toroidal manifold. While the visual style ranges from minimalist light art to complex technical diagrams, they are unified by three primary geometric pillars:\n1. The Spherical Focal Point\nVirtually every image features a central or focal sphere, which often acts as a \"carrier\" for internal geometric data\nlock\nmore_horiz\n. This sphere appears in several recurring states:\nThe \"Orbital\" Sphere: Featuring two or more intersecting elliptical rings, resembling a classic atomic model\nlock\nmore_horiz\n.\nThe \"Vibrational\" Sphere: Containing internal helical coils or zig-zagging filaments\nlock\nmore_horiz\n.\nThe \"Refractive\" Sphere: A glass-like orb that contains laser beams, point-cloud filaments, or nested geometric structures\nlock\nmore_horiz\n.\n2. The Toroidal or Circular \"Stage\"\nThe images almost universally utilize a torus (doughnut shape) or a circular path as the primary environment for the sphere\nlock\nmore_horiz\n. This is represented in several ways:\nSolid/Translucent Tori: Glass or dark-matter rings that the focal sphere travels along or sits within\nlock\nmore_horiz\n.\nAbstract Circular Trails: Long-exposure light arcs or \"world-lines\" that suggest a circular orbit\nlock\nmore_horiz\n.\nCircular Dials: Metrological or gauge-like interfaces that represent the circular path through measurement scales\nlock\nmore_horiz\n.\n3. Helical and Oscillatory Filaments\nA third, very common geometric element is the helix or coil, which often represents \"vibrational modes\" or the path of a particle\nlock\n. These coils are frequently found:\nInside the Sphere: As a core energy source or data point\nlock\nmore_horiz\n.\nWrapped around the Torus: Creating a \"world-tube\" effect where light trails spiral around the primary circular path\nlock\nmore_horiz\n.\nIn essence, the entire collection is a study of curvilinear symmetry, specifically focusing on how spheres, circles, and helices can be combined to visualize abstract concepts like 4D world-lines, phase spaces, and particle probability clouds\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "90359da4"
+    },
+    {
+      "index": 19,
+      "role": "user",
+      "text": "OK. Now, every single one of these images is a representation of a device called the ‘Whirligig’. I created many images with similar geometry so that when I try to generate another version of it, I get the right geometry because the LLM tends to want to put the sphere in the middle of the donut hole… But, in reality, the whirlygig is a pure geometric object which you can find described in the texts I just uploaded. Based on those texts, and the images that I created to try to visualize it, I’d like you to clearly describe only the core geometry and essential components of the whirligig, concisely, using just enough description to explain its structure and construction, and the way in which it projects curves. Omit any extraneous background information including particular uses, the theoretical underpinning, or interpretation of what it does… Just describe its form and structure and the way in which curves are displayed on its surface",
+      "citations": [],
+      "key": "72cf17b0"
+    },
+    {
+      "index": 20,
+      "role": "user",
+      "text": "The Whirligig is a mechanical derivation engine whose physical form consists of three primary structural components designed to visualize and map four-dimensional geometric data:\nThe Toroidal Manifold (S\n3\n Stage): The primary structure is a translucent, glass-like torus (donut-shaped manifold) that represents a unit 3-sphere background\nlock\nmore_horiz\n. This serves as the \"track\" or embedding space for all geometric operations\nlock\nlock\n.\nThe Focal Indicatrix (The Sphere): A smaller focal sphere is situated on or within the circular path of the torus\nlock\nmore_horiz\n. Crucially, the sphere is not located in the center of the torus hole; rather, it sits directly on the worldline path, often acting as a localized \"scanner\" or container for internal geometric configurations like orbital rings and vibrational coils\nlock\nmore_horiz\n.\nSuperhelical Filaments (The \"Wires\"): The active elements of the device are 4D superhelical filaments, visually represented as glowing, incandescent traces or \"wire sculptures\"\nlock\nlock\n. These filaments are recursive harmonic structures that encode curvature and torsion\nlock\nlock\n.\nCurve Projection and Display\nThe Whirligig displays curves by projecting abstract mathematical equations into physical, luminescent trajectories on its surfaces:\nEmbedding and Wrapping: Curves are displayed as luminous world-lines that wrap around the toroidal manifold or weave through its volume\nlock\nlock\n. These paths represent \"derivation distances,\" where the physical gap between two filaments illustrates logical consistency\nlock\nlock\n.\nSurface Interaction: The filaments often follow the curvature of the torus, creating helical vortices or \"world-tubes\" [Part 2 of prompt, 113, 114].\nIndicatrix Mapping: As these filaments pass through or intersect the focal sphere, they are displayed as high-frequency vibrational modes or \"Laplacian modes,\" allowing the device to map different mathematical regimes onto a single, cohesive geometric object\nlock\nlock\n.\nMetrological Interface: In some configurations, the device incorporates a circular dial or gauge aligned with the toroidal path to provide precise measurements of the projected curves' angular and torsional values\nlock\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "caac7f25"
+    },
+    {
+      "index": 21,
+      "role": "user",
+      "text": "OK, that’s a good start but too much interpretation and explanation. I want you to describe only its appearance and structure.",
+      "citations": [],
+      "key": "5bb83c8d"
+    },
+    {
+      "index": 22,
+      "role": "user",
+      "text": "The Whirligig is a mechanical device with a structure defined by the following physical components:\nToroidal Manifold: The primary frame is a large, translucent donut-shaped manifold (torus) that acts as the embedding stage\nlock\nmore_horiz\n.\nFocal Sphere: A smaller sphere (Universal Indicatrix) is situated directly on the circular track of the torus\nlock\nmore_horiz\n. It is notably not located in the central hole of the torus\nlock\nmore_horiz\n.\nSuperhelical Filaments: The device contains luminous 4D filaments, which appear as glowing wires, plasma streamers, or incandescent traces embedded within the toroidal volume\nlock\nmore_horiz\n.\nMetrological Interface: A circular, calibrated dial or gauge is often integrated into the assembly, aligned with the path of the toroidal ring\nlock\nmore_horiz\n.\nDisplay of Curves: Curves are displayed on the Whirligig as incandescent world-lines that project onto the surface of the toroidal manifold\nlock\nmore_horiz\n. These filaments wrap around the torus in helical patterns (world-tubes) and intersect the focal sphere\nlock\nmore_horiz\n. Within the sphere itself, the curves manifest as high-frequency vibrational modes or internal orbital rings\nlock\nmore_horiz\n. The physical distance or \"gap\" between these interwoven filaments represents the geometric relationship between different projected configurations\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "9a1cac65"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}

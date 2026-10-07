@@ -1,0 +1,688 @@
+{
+  "metadata": {
+    "notebook_title": "TV4. SAT Strategist ⚛️ Physics Review D 🌌 ³¹𝙾𝙲𝚃₂₅",
+    "notebook_id": "d14ba646-db5e-46ef-96a6-a3e75e5e3d7f",
+    "notebook_url": "https://notebook.google.com/notebook/d14ba646-db5e-46ef-96a6-a3e75e5e3d7f",
+    "captured_at": "2026-10-07T15:45:12.751Z",
+    "visible_source_count": 37,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 17
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Do we have: Complete derivations for all forces (weak, strong, EM, gravity) in all limits.\n•\tA fully quantized version compatible with renormalization or lattice computations.\n•\tA systematic procedure for arbitrary excited states, scattering amplitudes, or multi-particle entanglement.\n•\tA full map from SAT parameters to every known experimental constant.",
+      "citations": [],
+      "key": "b715a043"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The current status of the SAT-X (Scalar–Angular–Twist) framework regarding your specific query is summarized below:\n1. Complete Derivations for All Forces\nGravity: The derivation of gravity is essentially complete; SAT-X recovers General Relativity (GR) as a limiting case by deriving the effective Einstein-like tensor from foliation strain (u\nμ\n) and misalignment tension (θ\n4\n\t​\n\n)\n1\nmore_horiz\n. It reproduces classical GR predictions—including light bending, time dilation, and the Newtonian limit—using teleparallel geometry where gravity is encoded in torsion rather than fundamental curvature\n4\nmore_horiz\n.\nGauge Forces (Strong, Weak, EM): These forces are reconstructed as emergent collective excitations of the filament network rather than fundamental fields\n8\nmore_horiz\n.\nStrong Force: Derived from τ fusion rules (Z\n3\n\t​\n\n logic) that reproduce color confinement and the stability of three-constituent baryons\n12\nmore_horiz\n.\nWeak Force: Modeled via ψ–θ\n4\n\t​\n\n doublets and phase-flipping domain walls that emulate chiral interactions\n8\nmore_horiz\n.\nElectromagnetism: Emerges as massless ψ-phase waves (photons) in aligned vacuum regions, with charge mapped to quantized circulation\n12\nmore_horiz\n.\nLimits: While the geometric mapping is broad, the formal lifting of these discrete structures into continuous Lie groups (SU(3) × SU(2) × U(1)) remains a \"high priority\" task that is not yet fully formalized\n20\nmore_horiz\n.\n2. Full Quantization and Renormalization\nQuantization: A fully defined Hilbert space (H\nSAT\n\t​\n\n) has been constructed, featuring canonical quantization for the continuous θ\n4\n\t​\n\n and ψ sectors and a lattice Hamiltonian/BF path integral for the discrete τ sector\n24\nmore_horiz\n.\nRenormalization and Lattice Computations: The theory is claimed to be UV-finite and renormalization-safe because the intrinsic curvature of filaments suppresses high-frequency contributions, potentially eliminating the need for standard regularization\n28\nmore_horiz\n.\nGaps: A unified operator formalism and S-matrix for the full coupled u\nμ\n–θ\n4\n\t​\n\n–ψ–τ system in 3+1D is currently identified as a \"hard enrichment area\" that is missing\n20\nmore_horiz\n.\n3. Systematic Procedures for States and Amplitudes\nExcited States: There is a systematic procedure for generating particle mass spectra using the \"oscillator level\" (N) and \"Topological Charge\" (Q)\n4\nmore_horiz\n. The framework predicts specific effective masses for ground states (N=0) and excited resonances (N≥1) across allowed topologies\n37\n38\n.\nScattering Amplitudes: While transition amplitudes have been defined based on field overlap integrals and τ fusion coefficients, a complete, systematic procedure for arbitrary scattering remains an active development target\n32\nmore_horiz\n.\nMulti-particle Entanglement: Entanglement is reinterpreted as shared filament linkage or history, and the theory's Hilbert space supports superpositions of these topological states, though a step-by-step procedural manual for complex entanglement remains a future frontier\n42\nmore_horiz\n.\n4. Full Map from SAT Parameters to Experimental Constants\nZero-Parameter Economy: The framework strictly adheres to a Normalization Principle, claiming that zero numerical parameters are inserted axiomatically\n47\nmore_horiz\n.\nDimensional Anchor: Once a single physical anchor (e.g., standard meter or filament tension) is specified to set the SI scale, all other fundamental constants are retrodicted as calculated outputs\n50\nmore_horiz\n.\nAchieved Mappings: An iterative calibration process has already converged SAT parameters to match the hadronic mass scale (≈1.0073×10\n−27\n kg) and the fine-structure constant (R≈0.007304) with high precision\n54\nmore_horiz\n. This mapping includes structural derivations for c,ℏ,e,G, and the W-to-Z boson mass ratio\n51\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "50",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "54",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "6e694e5a"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Can you give me the relevant math",
+      "citations": [],
+      "key": "a3e6427e"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The mathematical framework of the Scalar–Angular–Twist (SAT-X) theory is built upon a unified geometric ontology where spacetime, matter, and forces emerge from the interaction of 1D filaments with a dynamical 3D time surface\n1\nmore_horiz\n.\nBelow is the relevant mathematics categorized by sector, drawing directly from the provided sources.\n1. The Unified Action and Lagrangian\nThe comprehensive dynamics are governed by the Total Covariant Action (S\nSAT\n\t​\n\n), which integrates geometric, topological, and matter sectors into a single structure\n4\n5\n:\nS\nSAT\n\t​\n\n=∫d\n4\nx\n−g\n\t​\n\n[L\nBGT\n\t​\n\n+L\nGrav\n\t​\n\n+L\nMatter\n\t​\n\n+L\nτ\n\t​\n\n+…]\n5\n6\nThe Bosonic and Geometric Tension (BGT) Lagrangian density, L\nBGT\n\t​\n\n, drives the core dynamics of the fields T (time), θ\n4\n\t​\n\n (misalignment), and ψ (internal phase)\n7\n:\nL\nBGT\n\t​\n\n=L\nT\n\t​\n\n+L\nθψ\n\t​\n\n+L\nrig\n\t​\n\n+L\ncoup\n\t​\n\n−V(θ\n4\n\t​\n\n,ψ)\n7\nTime Constraint (L\nT\n\t​\n\n): λ(x)[(∂\nμ\n\t​\n\nT)(∂\nμ\nT)+1] (where λ is a Lagrange multiplier enforcing the unit timelike vector u\nμ\n=∂\nμ\nT)\n8\nmore_horiz\n.\nScalar Kinetic (L\nθψ\n\t​\n\n):\n2\nf\nθ\n2\n\t​\n\n\t​\n\n(∂\nμ\n\t​\n\nθ\n4\n\t​\n\n)\n2\n+\n2\nf\nψ\n2\n\t​\n\n\t​\n\n(∂\nμ\n\t​\n\nψ)\n2\n8\n.\nFilament Rigidity (L\nrig\n\t​\n\n): −κ\nθ\n\t​\n\n(□θ\n4\n\t​\n\n)\n2\n−κ\nψ\n\t​\n\n(□ψ)\n2\n8\nmore_horiz\n.\nGeometric Coupling (L\ncoup\n\t​\n\n): ξ(∂\nμ\n\t​\n\nT)(∂\nμ\nθ\n4\n\t​\n\n)+η(∂\nμ\n\t​\n\nT)(∂\nμ\nψ)\n8\nmore_horiz\n.\nPotential (V): V(θ\n4\n\t​\n\n,ψ)=−μ\n2\ncos(3θ\n4\n\t​\n\n)+V\nψ\n\t​\n\n(1−cosψ)\n7\nmore_horiz\n.\n2. Constraint Algebra and Ghost-Free Dynamics\nTo ensure ghost-free dynamics and classical stability, the theory employs the Projector Formalism to isolate the true degrees of freedom for the time-flow vector u\nμ\n17\nmore_horiz\n:\nPrimary Constraint (ϕ\n1\n\t​\n\n): u\nμ\nu\nμ\n\t​\n\n+1=0\n19\n20\n.\nSecondary Constraint (ϕ\n2\n\t​\n\n): u\nμ\n∂\n0\n\t​\n\nu\nμ\n\t​\n\n≈0\n21\n22\n.\nSpatial Projector (P\nμν\n\t​\n\n): P\nμν\n\t​\n\n=g\nμν\n\t​\n\n+u\nμ\n\t​\n\nu\nν\n\t​\n\n (projects orthogonal to u\nμ\n)\n23\n24\n.\nProjected Kinetic Term: L\nu,proj\n\t​\n\n=αP\nμρ\n\t​\n\nP\nνσ\n\t​\n\n(∇\nμ\nu\nν\n)(∇\nρ\nu\nσ\n)\n19\n25\n.\n3. Mass Generation Mechanism\nIn SAT-X, mass is an emergent property of the intersectional geometry between filaments and the time surface\n26\n27\n.\nMisalignment Angle (θ\n4\n\t​\n\n): Defined as the observable angle between the filament's tangent and the normal of the time surface\n28\n29\n:\ncosθ\n4\n\t​\n\n(x)=−\n(∂\nν\n\t​\n\nθ)(∂\nν\nθ)\n\t​\n\n∂\nμ\n\t​\n\nθ∂\nμ\nT\n\t​\n\n30\nmore_horiz\nEffective Mass (m\neff\n\t​\n\n): Calculated as the sum of topological and induced components\n27\nmore_horiz\n:\nm\neff\n\t​\n\n=m\ntopo\n\t​\n\n+m\nind\n\t​\n\n=\nQ\nm\n0\n\t​\n\n\t​\n\n+C\nM\n2\ng\n1\n2\n\t​\n\n\t​\n\nE\noverlap\n\t​\n\n34\n35\nm\n0\n\t​\n\n: Bare mass scale derived from filament tension T and length ℓ\nf\n\t​\n\n (m\n0\n\t​\n\n=Tℓ\nf\n\t​\n\n/c\n2\n)\n33\n35\n.\nQ: Topological Charge (sum of linking, winding, and writhe)\n34\n36\n.\nGeometric Mass-Squared Relation: m\n2\n(θ\n4\n\t​\n\n)=m\n0\n2\n\t​\n\n+αθ\n4\n2\n\t​\n\n32\nmore_horiz\n.\nClick Rate (f\nclick\n\t​\n\n): The local inertial rhythm is given by:\nf\nclick\n\t​\n\n(x)=ηsin\n2\n(θ\n4\n\t​\n\n(x))f(ψ(x))\n39\nmore_horiz\n4. Quantum Formalism and Internal Phase (ψ)\nSAT-X reinterprets quantum behavior and spin through the internal phase field ψ and its holonomy\n42\nmore_horiz\n.\nSAT Dirac-like Equation: A phase-modulated scalar wavefunction Ψ(x)=e\niψ(x)\nϕ(x) satisfies\n45\nmore_horiz\n:\n(iu\nμ\n∂\nμ\n\t​\n\n−m\neff\n\t​\n\n(x))Ψ(x)=0\n40\n46\nSpin/Statistics: Spin-½ behavior is derived from ψ holonomy over a closed loop (Δψ=π⟹Ψ→−Ψ)\n48\n49\n.\nHilbert Space Decomposition: The total Hilbert space is a tensor bundle decomposition over discrete topological sectors\n50\nmore_horiz\n:\nH\nSAT\n\t​\n\n=\nτ∈Z\n3\n\t​\n\n⨁\n\t​\n\nH\n(τ)\n=\nτ\n⨁\n\t​\n\nH\nθ\n4\n\t​\n\n(τ)\n\t​\n\n⊗H\nψ\n(τ)\n\t​\n\n⊗H\nu\n(τ)\n\t​\n\n50\n51\n5. Discrete Topological Sector (τ)\nThe twist variable τ encodes identity and color/flavor logic via its Z\n3\n\t​\n\n fusion rules\n53\nmore_horiz\n.\nFusion Rule: τ\n1\n\t​\n\n+τ\n2\n\t​\n\n+τ\n3\n\t​\n\n≡0(mod3)\n53\nmore_horiz\n.\nLattice Hamiltonian: Enforces trimer-only binding and color confinement\n53\n58\n:\nH\nτ\n\t​\n\n=\n△\nijk\n\t​\n\n∑\n\t​\n\nϵ\nf\n\t​\n\n[1−δ\n(τ\ni\n\t​\n\n+τ\nj\n\t​\n\n+τ\nk\n\t​\n\n)(mod3),0\n\t​\n\n]\n53\n58\nBF Action: For a discrete Z\n3\n\t​\n\n gauge field A and 2-form B\n59\nmore_horiz\n:\nS\nBF\n\t​\n\n=\n2π\n3\n\t​\n\n∫B∪δA\n59\n62\n6. Emergent Gravity and General Relativity\nGravity arises as the effective back-reaction of massive filaments on the foliation field u\nμ\n63\nmore_horiz\n.\nEmergent Metric (g\nμν\n\t​\n\n): Derived statistically from the filament ensemble average\n1\nmore_horiz\n:\ng\nμν\n\t​\n\n(x)=(⟨v\nμ\n\t​\n\nv\nν\n\t​\n\n⟩\nF\n\t​\n\n(x))\n−1\n67\nmore_horiz\nEmergent Einstein Tensor (G\nμν\nSAT\n\t​\n\n): Defined via foliation strain and expansion\n71\nmore_horiz\n:\nG\nμν\nSAT\n\t​\n\n:=∇\n(μ\n\t​\n\nu\nν)\n\t​\n\n−g\nμν\n\t​\n\n∇\nα\n\t​\n\nu\nα\n72\n73\nPoisson-like Equation for Time: □T∼α(∂θ)\n2\n64\nmore_horiz\n.\nEffective Potential: Φ\nSAT\n\t​\n\n(x):=sin\n2\n(θ\n4\n\t​\n\n(x))\n75\nmore_horiz\n.\nGravitational Constant (G): Parametrically derived from microscopic properties\n26\n78\n:\nG\nind\n\t​\n\n∼\n16πAκ\nc\n4\nℓ\nf\n2\n\t​\n\n\t​\n\n78\n7. Quantitative Results\nCoupling Ratios (R): The ratio m\nind\n\t​\n\n/m\ntopo\n\t​\n\n is calibrated to match the fine-structure constant (α≈0.007304)\n36\nmore_horiz\n.\nGauge Coupling Unification: g\nG\n−2\n\t​\n\n(x)∼ρ\nG\n\t​\n\n(x)⋅ℓ\nf\n2\n\t​\n\n yields unification within 4.5% accuracy at μ\nU\n\t​\n\n≈3.1×10\n17\n GeV\n81\nmore_horiz\n.\nHadronic Accuracy: The topological suppression mechanism achieves a residual error of 0.55% in the light hadron sector\n82\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "50",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "50",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "58",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "58",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "59",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "59",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "62",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "63",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "67",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "71",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "72",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "73",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "64",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "75",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "78",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "78",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "81",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "82",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "4a48c711"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}
