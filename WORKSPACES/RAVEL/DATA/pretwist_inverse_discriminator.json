@@ -1,0 +1,69 @@
+{
+  "status": "GEN/CANDIDATE",
+  "truth_used_only_by_generator": {
+    "c_iso": 0.06,
+    "epsilon": 0.018,
+    "delta": 2.2
+  },
+  "finite_elements": 120,
+  "relative_pole_noise_sigma": 0.0002,
+  "training_lengths": [
+    0.72,
+    0.96,
+    1.23,
+    1.55,
+    1.91,
+    2.25
+  ],
+  "training_modes": [
+    1,
+    2
+  ],
+  "fit": {
+    "c_iso_hat": 0.06000760840486444,
+    "delta_hat": 2.1828964511639724,
+    "epsilon_hat": 0.017907967748418227,
+    "rss_coherence": 1.293780414292883e-06,
+    "null_normalized_amplitude": 0.010513369747314863,
+    "rss_constant_null": 0.0012249869533453488,
+    "aic_coherence": -188.51418465637852,
+    "aic_constant_null": -108.27678082192587,
+    "delta_aic_null_minus_coherence": 80.23740383445265
+  },
+  "profile_alias_minima": [
+    {
+      "delta": 2.179977753058955,
+      "epsilon": 0.017885182209066017,
+      "rss_ratio_to_best": 1.0
+    },
+    {
+      "delta": 6.946273637374861,
+      "epsilon": 0.022721415260485257,
+      "rss_ratio_to_best": 1092.0957468824154
+    },
+    {
+      "delta": 3.3082313681868745,
+      "epsilon": 0.028940774176485662,
+      "rss_ratio_to_best": 2574.85526856719
+    }
+  ],
+  "withheld_magic_test": {
+    "length": 2.855993321445266,
+    "condition": "delta_true*L=2*pi for n=1",
+    "fem_split": 2.938688375975218e-09,
+    "coherence_prediction": 6.932495810831422e-06,
+    "constant_null_prediction": 0.0015267348630460538,
+    "fem_split_over_isotropic_lambda": 4.0477801321972694e-08,
+    "coherence_abs_error": 6.929557122455447e-06,
+    "null_abs_error": 0.0015267319243576778,
+    "null_to_coherence_abs_error_ratio": 220.3217171571117
+  },
+  "identifiability": {
+    "mean_ladder_identifies": "c_iso (and any additive baseline if included)",
+    "splitting_after_ladder_identifies": "epsilon and delta, subject to finite-length alias minima",
+    "splitting_without_mean_ladder_identifies_only": "product c_iso*epsilon plus delta"
+  },
+  "strict_detector_null": "a readout tensor can change modal weights but not generalized-eigenvalue pole locations",
+  "generous_null": "length-independent normalized splitting, representing extrinsic boundary or fitting bias",
+  "failure_gate": "reject discriminator if profile minima are not isolated or withheld magic suppression is absent above FE/noise remainder"
+}
