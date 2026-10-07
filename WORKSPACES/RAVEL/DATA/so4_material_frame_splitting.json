@@ -1,0 +1,56 @@
+{
+  "status": "GEN/CANDIDATE",
+  "parameters": {
+    "inertia": 0.1,
+    "damping": 0.2,
+    "stiffness": 0.06,
+    "pinning": 0.25,
+    "length": 1.2,
+    "a": 0.85,
+    "b": 0.3,
+    "relative_omega2_noise": 0.002,
+    "monte_carlo_draws": 5000
+  },
+  "adjoint_shifts_numeric": [
+    -1.15,
+    -0.55,
+    0.0,
+    0.0,
+    0.55,
+    1.15
+  ],
+  "adjoint_shifts_expected": [
+    -1.15,
+    -0.55,
+    0.0,
+    0.0,
+    0.55,
+    1.15
+  ],
+  "adjoint_max_abs_error": 0.0,
+  "n1_q": 5.235987755982989,
+  "paired_splittings": {
+    "difference_root": {
+      "delta_true": 0.55,
+      "omega2_minus": 13.675088749533494,
+      "omega2_plus": 20.58659258743104,
+      "delta_recovered": 0.55
+    },
+    "sum_root": {
+      "delta_true": 1.15,
+      "omega2_minus": 10.517177565225742,
+      "omega2_plus": 24.968503771738785,
+      "delta_recovered": 1.1499999999999997
+    }
+  },
+  "recovered_a_mean_std": [
+    0.8499038794502413,
+    0.0029509588381442884
+  ],
+  "recovered_b_mean_std": [
+    0.30004746905820606,
+    0.002934571902021436
+  ],
+  "open_covariant_segment_prediction": "no pre-twist pole splitting for isotropic coefficients; D_s is gauge-equivalent to partial_s",
+  "closed_loop_prediction": "holonomy-twisted boundary conditions split roots by 0, ±(a-b), ±(a+b), modulo 2π/L relabeling"
+}
