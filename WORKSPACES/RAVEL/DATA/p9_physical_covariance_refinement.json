@@ -1,0 +1,113 @@
+{
+  "status": "sandbox fixed-physics resolver audit; not canonical theory",
+  "parameters": {
+    "lambda_log_h": 0.3137884600199603,
+    "reference_channels": 16,
+    "ar_phi_matched_at_reference": 0.6,
+    "contact_a": 0.06125742185040761,
+    "side_epsilon": 0.0001,
+    "budget_rule": "C_eff=D C_phys D, D_ii=sqrt((1/16)/w_i), trapezoid w sums to 1"
+  },
+  "schemes": {
+    "physical_gp": {
+      "rows": [
+        {
+          "channels": 16,
+          "gap": 0.16029118582026608,
+          "bulk_root": -0.013006057401668608,
+          "root_below": -0.018853617585496685,
+          "root_above": -0.01298151442982308,
+          "contact_jump": 0.005872103155673606,
+          "bulk_condition": 3123.4120513816583,
+          "crossing": false
+        },
+        {
+          "channels": 31,
+          "gap": 0.08014559291013316,
+          "bulk_root": -0.01344319073229176,
+          "root_below": -0.007636765551031651,
+          "root_above": -0.02593531265842203,
+          "contact_jump": -0.01829854710739038,
+          "bulk_condition": 2535.239519735455,
+          "crossing": false
+        },
+        {
+          "channels": 61,
+          "gap": 0.040072796455066784,
+          "bulk_root": -0.013385770817675861,
+          "root_below": -0.020359070241890678,
+          "root_above": -0.02012840270430137,
+          "contact_jump": 0.00023066753758930678,
+          "bulk_condition": 2353.5815486004785,
+          "crossing": false
+        },
+        {
+          "channels": 121,
+          "gap": 0.02003639822753356,
+          "bulk_root": -0.015151562528606657,
+          "root_below": -0.029237092422901304,
+          "root_above": -0.012851049994510118,
+          "contact_jump": 0.016386042428391187,
+          "bulk_condition": 2369.733152482498,
+          "crossing": false
+        }
+      ],
+      "fit": {
+        "linear_limit": -0.014588648097595922,
+        "quadratic_limit": -0.015629024267402484,
+        "last_bulk_increment": -0.001765791710930796,
+        "last_contact_jump": 0.016386042428391187
+      }
+    },
+    "physical_gp_fixed_budget": {
+      "rows": [
+        {
+          "channels": 16,
+          "gap": 0.16029118582026608,
+          "bulk_root": -0.01334463226631319,
+          "root_below": -0.016363069854384658,
+          "root_above": -0.013793272018261141,
+          "contact_jump": 0.0025697978361235163,
+          "bulk_condition": 3191.281275593437,
+          "crossing": false
+        },
+        {
+          "channels": 31,
+          "gap": 0.08014559291013316,
+          "bulk_root": -0.013396175055633636,
+          "root_below": -0.007437538638225114,
+          "root_above": -0.026753059768199083,
+          "contact_jump": -0.01931552112997397,
+          "bulk_condition": 2550.0460246496264,
+          "crossing": false
+        },
+        {
+          "channels": 61,
+          "gap": 0.040072796455066784,
+          "bulk_root": -0.013040176097452946,
+          "root_below": -0.018207823630171788,
+          "root_above": -0.0196274899723476,
+          "contact_jump": -0.001419666342175812,
+          "bulk_condition": 2366.306557733252,
+          "crossing": false
+        },
+        {
+          "channels": 121,
+          "gap": 0.02003639822753356,
+          "bulk_root": -0.01352122958424197,
+          "root_below": -0.0201269371038022,
+          "root_above": -0.01409916624279573,
+          "contact_jump": 0.006027770861006471,
+          "bulk_condition": 2356.8714513329924,
+          "crossing": false
+        }
+      ],
+      "fit": {
+        "linear_limit": -0.013317721768058509,
+        "quadratic_limit": -0.013435657642831111,
+        "last_bulk_increment": -0.0004810534867890244,
+        "last_contact_jump": 0.006027770861006471
+      }
+    }
+  }
+}
