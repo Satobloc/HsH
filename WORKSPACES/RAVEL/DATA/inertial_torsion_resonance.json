@@ -1,0 +1,178 @@
+{
+  "status": "GEN/CANDIDATE",
+  "model": {
+    "pde": "I*d_tt X + gamma*d_t X = C*d_ss X - K*X + T(s,t)",
+    "modal_stiffness": "k_n=K+C*(n*pi/L)^2",
+    "free_poles": "s_n^pm=(-gamma +/- sqrt(gamma^2-4*I*k_n))/(2*I)",
+    "driven_peak_dispersion": "omega_peak,n^2=K/I+(C/I)*(n*pi/L)^2-gamma^2/(2*I^2)",
+    "signed_memory": "M_signed=2*r-r^2+O(epsilon)"
+  },
+  "parameters": {
+    "torsional_inertia_I": 0.1,
+    "drag_gamma": 0.2,
+    "torsional_stiffness_C": 0.06,
+    "local_pinning_K": 0.25,
+    "n_modes": 80,
+    "actuation_location_fraction": 0.31,
+    "resolver_width_fraction": 0.07,
+    "lengths": [
+      1.0,
+      1.6
+    ],
+    "epsilon": 0.04
+  },
+  "dispersion_fit": {
+    "fitted_slope": 0.5999999999999999,
+    "expected_slope_C_over_I": 0.6,
+    "fitted_intercept": 0.5000000000000026,
+    "expected_intercept": 0.5
+  },
+  "results": {
+    "L=1": {
+      "first_kernel_zero": 1.144696976691513,
+      "first_signed_SO4_memory_zero": 1.1446945972735434,
+      "minimum_kernel": -0.037044411268655854,
+      "minimum_signed_memory": -0.07566651419941724,
+      "max_abs_exact_SO4_vs_reduced_memory": 0.0013037773525529373,
+      "top_modes": [
+        {
+          "n": 3,
+          "weight": 0.30586659008125205,
+          "q_squared": 88.82643960980423,
+          "damping_ratio": 0.1338748500499167,
+          "damped_frequency": 7.402422830795505,
+          "driven_peak_frequency": 7.3345663652245
+        },
+        {
+          "n": 0,
+          "weight": 0.2481435383730467,
+          "q_squared": 0.0,
+          "damping_ratio": 0.6324555320336759,
+          "damped_frequency": 1.224744871391589,
+          "driven_peak_frequency": 0.7071067811865476
+        },
+        {
+          "n": 1,
+          "weight": 0.14939343355748286,
+          "q_squared": 9.869604401089358,
+          "damping_ratio": 0.34458669244002216,
+          "damped_frequency": 2.7242912180333465,
+          "driven_peak_frequency": 2.534119697380851
+        },
+        {
+          "n": 4,
+          "weight": 0.1216476062931526,
+          "q_squared": 157.91367041742973,
+          "damping_ratio": 0.10140496259580259,
+          "damped_frequency": 9.810616812945954,
+          "driven_peak_frequency": 9.759518546037906
+        },
+        {
+          "n": 6,
+          "weight": 0.0712456250972848,
+          "q_squared": 355.3057584392169,
+          "damping_ratio": 0.06809129344931095,
+          "damped_frequency": 14.652080229903538,
+          "driven_peak_frequency": 14.617915551251832
+        },
+        {
+          "n": 2,
+          "weight": 0.05542564636472451,
+          "q_squared": 39.47841760435743,
+          "damping_ratio": 0.19541446438514865,
+          "damped_frequency": 5.018670198629758,
+          "driven_peak_frequency": 4.918033200641743
+        },
+        {
+          "n": 7,
+          "weight": 0.034382291403388776,
+          "q_squared": 483.61061565337855,
+          "damping_ratio": 0.05845391315117417,
+          "damped_frequency": 17.07824257328684,
+          "driven_peak_frequency": 17.048940418454958
+        },
+        {
+          "n": 9,
+          "weight": 0.006164803650979579,
+          "q_squared": 799.437956488238,
+          "damping_ratio": 0.04554106279031001,
+          "damped_frequency": 21.935422810899787,
+          "driven_peak_frequency": 21.912616774199808
+        }
+      ]
+    },
+    "L=1.6": {
+      "first_kernel_zero": 1.5710813502825345,
+      "first_signed_SO4_memory_zero": 1.5710796674855092,
+      "minimum_kernel": -0.04459271144014115,
+      "minimum_signed_memory": -0.09142297516354764,
+      "max_abs_exact_SO4_vs_reduced_memory": 0.0013037209316349996,
+      "top_modes": [
+        {
+          "n": 3,
+          "weight": 0.30586659008125205,
+          "q_squared": 34.697827972579766,
+          "damping_ratio": 0.20708462808714767,
+          "damped_frequency": 4.72426679851465,
+          "driven_peak_frequency": 4.617217428662837
+        },
+        {
+          "n": 0,
+          "weight": 0.24814353837304676,
+          "q_squared": 0.0,
+          "damping_ratio": 0.6324555320336759,
+          "damped_frequency": 1.224744871391589,
+          "driven_peak_frequency": 0.7071067811865476
+        },
+        {
+          "n": 1,
+          "weight": 0.14939343355748286,
+          "q_squared": 3.8553142191755305,
+          "damping_ratio": 0.4558097003201582,
+          "damped_frequency": 1.9527387258681888,
+          "driven_peak_frequency": 1.6772562509960478
+        },
+        {
+          "n": 4,
+          "weight": 0.12164760629315263,
+          "q_squared": 61.68502750680849,
+          "damping_ratio": 0.15908927347504334,
+          "damped_frequency": 6.205724494697222,
+          "driven_peak_frequency": 6.124623784697725
+        },
+        {
+          "n": 6,
+          "weight": 0.07124562509728483,
+          "q_squared": 138.79131189031907,
+          "damping_ratio": 0.10797424489059336,
+          "damped_frequency": 9.207322473672322,
+          "driven_peak_frequency": 9.152856774482567
+        },
+        {
+          "n": 2,
+          "weight": 0.055425646364724517,
+          "q_squared": 15.421256876702122,
+          "damping_ratio": 0.2916957991693949,
+          "damped_frequency": 3.2791392355344215,
+          "driven_peak_frequency": 3.122939981174994
+        },
+        {
+          "n": 7,
+          "weight": 0.03438229140338878,
+          "q_squared": 188.91039673960097,
+          "damping_ratio": 0.09290926670860153,
+          "damped_frequency": 10.716633708574749,
+          "driven_peak_frequency": 10.669875259053434
+        },
+        {
+          "n": 9,
+          "weight": 0.006164803650979575,
+          "q_squared": 312.28045175321796,
+          "damping_ratio": 0.0725727871017343,
+          "damped_frequency": 13.74293531425986,
+          "driven_peak_frequency": 13.706504698570338
+        }
+      ]
+    }
+  }
+}
