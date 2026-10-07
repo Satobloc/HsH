@@ -52,5 +52,5 @@
     0.002934571902021436
   ],
   "open_covariant_segment_prediction": "no pre-twist pole splitting for isotropic coefficients; D_s is gauge-equivalent to partial_s",
-  "closed_loop_prediction": "holonomy-twisted boundary conditions split roots by 0, ±(a-b), ±(a+b), modulo 2π/L relabeling"
+  "closed_loop_prediction": "holonomy-twisted boundary conditions split roots by 0, \u00b1(a-b), \u00b1(a+b), modulo 2\u03c0/L relabeling"
 }
