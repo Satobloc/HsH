@@ -14,25 +14,25 @@ class MathMatch:
 
 def extract_math(text):
     """Yield (start,end,raw) preserving source offsets."""
-    patterns = [r'\\\\\[(.*?)\\\\\]', r'\$\$(.*?)\$\$', r'\$(?!\$)(.+?)\$(?!\$)', r'\\\\\((.*?)\\\\\)']
+    patterns = [r'\\\[(.*?)\\\]', r'\$\$(.*?)\$\$', r'\$(?!\$)(.+?)\$(?!\$)', r'\\\((.*?)\\\)']
     spans = []
     for pat in patterns:
         for m in re.finditer(pat, text, re.S):
             spans.append((m.start(), m.end(), m.group(1)))
-    for m in re.finditer(r'(?m)^.{0,200}(?:=|≈|\\\\frac|\\\\sqrt|√|\^).{0,200}$', text):
+    for m in re.finditer(r'(?m)^.{0,200}(?:=|≈|\\frac|\\sqrt|√|\^).{0,200}$', text):
         if not any(m.start() >= a and m.end() <= b for a,b,_ in spans):
             spans.append((m.start(), m.end(), m.group()))
     return sorted(spans)
 
 def _prepare(s):
     s=s.strip().replace('−','-').replace('π','pi').replace('√','sqrt')
-    s=re.sub(r'\\\\(?:left|right)', '', s)
+    s=re.sub(r'\\(?:left|right)', '', s)
     for _ in range(8):
-        t=re.sub(r'\\\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}',r'(\1)/(\2)',s)
+        t=re.sub(r'\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}',r'(\1)/(\2)',s)
         if t==s:break
         s=t
-    s=re.sub(r'\\\\sqrt\s*\{([^{}]+)\}',r'sqrt(\1)',s)
-    s=s.replace('\\\\pi','pi').replace('\\\\cdot','*').replace('{','(').replace('}',')')
+    s=re.sub(r'\\sqrt\s*\{([^{}]+)\}',r'sqrt(\1)',s)
+    s=s.replace('\\pi','pi').replace('\\cdot','*').replace('{','(').replace('}',')')
     return s
 
 def _parse(s):
