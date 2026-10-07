@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-ravel-material-director-frame-001",
-  "query": "(\"material frame\" OR \"director frame\" OR \"moving frame\" OR \"local frame\" OR \"body frame\") AND (torsion OR twist OR rotation OR filament OR worldline OR worldtube)"
+  "request_id": "2026-10-07-ravel-anisotropic-core-spectrum-001",
+  "query": "(anisotrop* OR elliptic* OR oval OR ribbon OR cross-section OR stiffness OR bending) AND (torsion OR twist OR frame OR worldtube OR filament OR rod OR tube)"
 }
