@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-ravel-anisotropic-core-spectrum-002",
-  "query": "(\"anisotropic stiffness\" OR \"bending stiffness\" OR \"torsional stiffness\" OR \"elliptical cross-section\" OR \"material axes\") AND (twist OR torsion OR filament OR worldline OR worldtube)"
+  "request_id": "2026-10-07-ravel-twist-profile-tomography-001",
+  "query": "(\"twist density\" OR \"distributed twist\" OR \"torsion gradient\" OR \"material frame\" OR \"director field\") AND (mode OR spectrum OR holonomy OR filament OR worldtube)"
 }
