@@ -1,0 +1,81 @@
+{
+  "status": "GEN/CANDIDATE blind synthetic inverse test",
+  "seed": 20261007,
+  "true_hidden_parameters": {
+    "dSigma": 0.08,
+    "rCore": 0.06,
+    "aEff": 0.1
+  },
+  "noise": {
+    "sigma_incidence_fraction": 0.0006,
+    "sigma_weighted_signal": 0.0003
+  },
+  "training_tilts_deg": [
+    8.0,
+    12.0,
+    20.0,
+    35.0,
+    55.0,
+    80.0
+  ],
+  "withheld_tilts_deg": [
+    6.0,
+    10.0,
+    15.0,
+    27.0,
+    45.0,
+    65.0,
+    90.0
+  ],
+  "fit": {
+    "d": 0.07996399004129387,
+    "rc": 0.059904791505051715,
+    "chi2": 4.163828435658284,
+    "max_start_parameter_spread": 4.064248937396542e-13,
+    "jacobian_singular_values": [
+      1125.5841117207167,
+      572.2129693957853
+    ],
+    "jacobian_condition_number": 1.9670720027706652,
+    "success_all_starts": true
+  },
+  "relative_parameter_errors": {
+    "dSigma": -0.00045012448382664855,
+    "rCore": -0.0015868082491380525
+  },
+  "withheld": {
+    "rms_normalized_error": 1.100582513578578,
+    "max_abs_incidence_z": 3.9232446452362275,
+    "max_abs_signal_z": 0.6005175228921782,
+    "largest_pointwise_residual_tilt_deg": 6.0
+  },
+  "critical_tilt": {
+    "true_deg": 5.739170477266787,
+    "fit_deg": 5.732651181701575,
+    "shift_deg": -0.006519295565211358
+  },
+  "zero_core_null": {
+    "d": 0.12004513938556582,
+    "rc": 0.0,
+    "chi2": 383466.20641626057
+  },
+  "delta_chi2_null_minus_two_width": 383462.0425878249,
+  "monte_carlo_160": {
+    "median": {
+      "dSigma": 0.08001438834706676,
+      "rCore": 0.060005588784116035
+    },
+    "p16": {
+      "dSigma": 0.07989725847454167,
+      "rCore": 0.05992483151466828
+    },
+    "p84": {
+      "dSigma": 0.08011177672392121,
+      "rCore": 0.06009314958353944
+    },
+    "correlation": -0.5574669280418298
+  },
+  "failure_gate": "fail if either width error exceeds 10%, withheld RMS exceeds 2 noise sigma, or multistart solutions disagree by >1e-5",
+  "failure_gate_passed": true,
+  "posthoc_pointwise_warning": "The 6-degree support prediction is 3.92 sigma off despite aggregate transfer passing; topology classification is ill-conditioned near theta_c."
+}
