@@ -1,0 +1,33 @@
+{
+  "status": "GEN/CANDIDATE",
+  "seed": 2026100716,
+  "profile": "theta(s)=delta_mat*s+eta_mat*(L*s-s^2)",
+  "hidden": {
+    "delta_mat": -1.18,
+    "eta_mat": 0.245,
+    "epsilon_C": 0.068,
+    "detector_axis": 0.27
+  },
+  "recovered": {
+    "delta_mat": -1.1785051130957465,
+    "eta_mat": 0.24233693077827903,
+    "epsilon_C": 0.06790255880356072,
+    "detector_axis": 0.269194990483604
+  },
+  "uniform_null": {
+    "delta_mat": -1.0488233984283368,
+    "eta_mat": 0.0,
+    "epsilon_C": 0.06372872933028399,
+    "detector_axis": 0.2768005806208049
+  },
+  "delta_AIC_uniform_minus_profile": 174.45866056303288,
+  "withheld_length": 2.27,
+  "withheld_relative_error_profile": 0.006349845710150286,
+  "withheld_relative_error_uniform": 0.4298720671327554,
+  "jacobian_condition_number": 4.9415058917346935,
+  "zero_background_first_order": {
+    "d_absG_d_eta": 0.0,
+    "d_argG_d_eta": 0.7345661336889475
+  },
+  "noise_sigma_per_component": 0.0006
+}
