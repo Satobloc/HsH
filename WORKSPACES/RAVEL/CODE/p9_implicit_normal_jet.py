@@ -23,15 +23,17 @@ TRUTH_STEPS = [4e-4, 2e-4, 1e-4]
 DIR_STEPS = [8e-5, 4e-5, 2e-5]
 
 
-def setup(a, o, train_h, qorder=sm.CONTACT_ORDER):
+def setup(a, o, train_h, qorder=sm.CONTACT_ORDER, covariance_builder=None):
     rp0, rm0 = supports(a)
     low = np.array([o, EVEN_BASE, o, EVEN_BASE, o, EVEN_BASE])
     eta_low = sm.eta_for_moments(low)
     eta_base = np.r_[eta_low, np.zeros(sm.N_TRUE-sm.N_FIT)]
     base_m = sm.moments(eta_base)
     hold_h = HREF*np.geomspace(.055, 3.20, 24)
-    Lt = np.linalg.cholesky(sm.covariance(len(train_h)))
-    Lh = np.linalg.cholesky(sm.covariance(len(hold_h)))
+    if covariance_builder is None:
+        covariance_builder = lambda hs: sm.covariance(len(hs))
+    Lt = np.linalg.cholesky(covariance_builder(np.asarray(train_h)))
+    Lh = np.linalg.cholesky(covariance_builder(np.asarray(hold_h)))
     x0 = np.r_[0., 0., eta_low]
 
     def unpack(x):
@@ -67,8 +69,9 @@ def contact_signature(hs, rp, rm):
     return tuple(np.r_[np.asarray(hs) < rp, np.asarray(hs) < rm].astype(int))
 
 
-def implicit_response(a, o, train_h, hj, ht, hd, qorder=sm.CONTACT_ORDER):
-    s=setup(a,o,train_h,qorder)
+def implicit_response(a, o, train_h, hj, ht, hd, qorder=sm.CONTACT_ORDER,
+                      covariance_builder=None):
+    s=setup(a,o,train_h,qorder,covariance_builder)
     x0=s["x0"]
     mt=lambda x:s["model"](x,s["train_h"],s["Lt"],True)
     mh=lambda x:s["model"](x,s["hold_h"],s["Lh"],False)
