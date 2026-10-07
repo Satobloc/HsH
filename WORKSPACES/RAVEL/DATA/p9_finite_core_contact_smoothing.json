@@ -1,0 +1,17 @@
+{
+  "status": "sandbox finite-core smoothing discriminator; run interrupted after the two most informative epsilon points to avoid redundant 121-channel recomputation",
+  "definition": "x_+ -> h sigma_c log(1+exp(x/(h sigma_c)))",
+  "contact_a": 0.06125742185040761,
+  "rows": [
+    {"contact_width":0.02,"channels":31,"gap":0.08014559291013316,"gap_over_width":4.007279645506658,"bulk_root":-0.00645513,"jump":-0.00001385},
+    {"contact_width":0.02,"channels":61,"gap":0.040072796455066784,"gap_over_width":2.003639822753339,"bulk_root":-0.00570703,"jump":-0.00001350},
+    {"contact_width":0.02,"channels":121,"gap":0.02003639822753356,"gap_over_width":1.001819911376678,"bulk_root":-0.00491290,"jump":-0.00001219},
+    {"contact_width":0.08,"channels":31,"gap":0.08014559291013316,"gap_over_width":1.0018199113766645,"bulk_root":-0.04346691,"jump":0.000003211},
+    {"contact_width":0.08,"channels":61,"gap":0.040072796455066784,"gap_over_width":0.5009099556883348,"bulk_root":-0.04285730,"jump":0.000003270},
+    {"contact_width":0.08,"channels":121,"gap":0.02003639822753356,"gap_over_width":0.2504549778441695,"bulk_root":-0.04185151,"jump":0.000003135}
+  ],
+  "epsilon_scaling": [
+    {"contact_width":0.08,"channels":121,"epsilon":0.0002,"jump":0.000005698308014036313,"jump_over_2epsilon":0.014245770035090783},
+    {"contact_width":0.08,"channels":121,"epsilon":0.0001,"jump":0.000003135,"jump_over_2epsilon":0.015675}
+  ]
+}
