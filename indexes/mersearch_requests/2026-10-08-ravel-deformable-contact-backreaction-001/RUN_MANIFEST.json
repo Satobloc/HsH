@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-08-ravel-deformable-contact-backreaction-001",
+  "query": "((deformable contact OR compliant sleeve OR elastic pad OR contact edge OR contact backreaction) AND (director OR twist OR domain wall OR kink OR finite core)) OR ((worldtube pressure OR nesting OR contact boundary) AND (deformation OR force balance OR coupled field))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "f3c4dfd996b4622d548fb8889ac2b793018bb26a",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "6613bb591c7a7b26c0a5d4e4437048dae717a8f3",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "d1ea97c578e8c8b2a3d0425e5e5c64fa60b307671b896ef595332ce50f5c2ea2",
+    "SEARCH_RESULTS.md": "bc23aa967af74b29bafa22a882daa7d8c1992d8bbae20b69c5a7f5a99f56aa76"
+  }
+}
