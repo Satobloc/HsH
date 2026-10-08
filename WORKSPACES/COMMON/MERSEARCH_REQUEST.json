@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-ravel-twist-profile-tomography-001",
-  "query": "(\"twist density\" OR \"distributed twist\" OR \"torsion gradient\" OR \"material frame\" OR \"director field\") AND (mode OR spectrum OR holonomy OR filament OR worldtube)"
+  "request_id": "2026-10-07-ravel-temporal-memory-apparatus-001",
+  "query": "((apparatus OR experiment OR ring OR rotor OR coil) AND (history OR memory OR hysteresis OR relaxation OR retarded OR temporal)) OR ((\"temporal points\" OR \"across time\") AND (force OR deformation OR interaction))"
 }
