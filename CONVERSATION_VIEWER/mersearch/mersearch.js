@@ -371,7 +371,11 @@
     const {hits,total,start}=pageInfo();
     $('viewLabel').textContent=state.view==='timeline'?'CHRONOLOGY':'RESULTS';
     $('timelinePanel').hidden=state.view!=='timeline';
-    $('resultHeading').textContent=state.result?total.toLocaleString()+' result'+(total===1?'':'s')+' in the record':'Your research starts here.';
+    const reported=state.result?.pagination?.total_hits??state.result?.coverage?.total_results_before_limit??total;
+    $('resultHeading').textContent=state.result?
+      (state.imported&&reported>total?total.toLocaleString()+' loaded of '+reported.toLocaleString()+' matches':
+        total.toLocaleString()+' result'+(total===1?'':'s')+' in the record'):
+      'Your research starts here.';
     $('resultSubheading').textContent=state.result?
       (state.imported?'Imported results':'Live search')+' · '+(state.result.coverage_status||'scope unknown')+
       ' · '+(total?'Showing '+(start+1)+'–'+Math.min(total,start+hits.length):'No matching passages')
@@ -461,6 +465,19 @@
     [$('helpDialog'),$('aboutDialog')].forEach(d=>d.addEventListener('click',e=>{if(e.target===d)d.close();}));
     const save=E('button','outline-button','☆ Save search');save.type='button';save.addEventListener('click',saveQuery);
     document.querySelector('.result-actions').insertBefore(save,$('exportButton'));
+    const share=E('button','outline-button','↗ Share query');share.type='button';
+    share.addEventListener('click',async()=>{
+      const q=$('searchQuery').value.trim();
+      if(!q){notify('warning','No query yet','Enter some search terms before sharing.');return;}
+      const url=new URL(location.href);url.searchParams.set('q',q);
+      try{
+        await navigator.clipboard.writeText(url.toString());
+        notify('success','Query link copied','The link stores the search terms, not a copy of the search results.');
+      }catch{
+        notify('warning','Unable to access clipboard','Copy this page address after searching, or use your browser’s Share command.');
+      }
+    });
+    document.querySelector('.result-actions').insertBefore(share,$('exportButton'));
     window.addEventListener('keydown',e=>{
       const tag=e.target?.tagName?.toLowerCase()||'';
       if((e.key==='/'&&!['input','textarea','select'].includes(tag))||((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k')){
