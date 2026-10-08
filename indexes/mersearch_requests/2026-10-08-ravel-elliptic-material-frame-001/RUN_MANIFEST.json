@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-08-ravel-elliptic-material-frame-001",
+  "query": "((elliptic OR elliptical OR anisotropic) AND (cross-section OR core OR tube) AND (material frame OR director OR Bishop frame OR Frenet frame OR twist angle OR normal bundle) AND (traction OR torque OR parity OR harmonic OR holonomy)) OR ((ribbon OR rod OR framed curve) AND (twist OR director) AND (finite core OR worldtube OR helix))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "b33eddb21f3469848c77c4a62019fa9d18f3a528",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "7a552ffeea896ef5025b78b383d8b164f2af6fd3",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "c0942c93c6ae1acb56ac304cc75b49fe50af9dbbdce233f612d29057ac556cd5",
+    "SEARCH_RESULTS.md": "fcd87690aa5cc39e6b454d4e88e1cffe24c4647bd04795e60af484fb05614710"
+  }
+}
