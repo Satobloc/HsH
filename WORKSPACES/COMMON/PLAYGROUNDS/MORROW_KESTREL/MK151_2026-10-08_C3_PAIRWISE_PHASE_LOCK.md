@@ -11,6 +11,7 @@ Nine isotropic pair interactions between two equilateral triads:
 For f(u)=g/sqrt(u): **A3=(45/8)g R^6/D^7**.
 Harmonic/quartic distance potentials produce zero C3 locking.
 At R/D=.6: A3=.04736721959; U(0)-U(pi/3)=.09474071842.
-No Borromean closure or chirality follows.
-Kink requires *assumed* stiffness; no causal law derived.
-Full script, provenance, numerical results and precision figures: conversation bundle.
+
+**Independent finite-core selector:** Two physical core radii r require minimum pair separation >=2r. Aligned triads have min distance d; staggered have sqrt(d²+R²). For R=1,d=.8,r=.5, aligned is forbidden (.8<1) but staggered is allowed (1.2806>1). Exact admissible phase fraction is 0.41808. This exclusion effect needs no smooth force law, but supplies no attraction or long-range transmission.
+
+No Borromean closure or chirality follows. Kink requires assumed stiffness; no causal law derived. Full script, provenance, numerical results and seven precision figures: conversation bundle.
