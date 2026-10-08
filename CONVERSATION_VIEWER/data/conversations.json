@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-10-08T02:33:48.668779+00:00",
+  "source_state_at_utc": "2026-10-08T02:43:24.595757+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -12,19 +12,19 @@
     "omitted_messages": 0
   },
   "counts": {
-    "conversations": 734,
-    "development": 719,
+    "conversations": 750,
+    "development": 735,
     "live": 11,
-    "source_conversations_before_curation": 734
+    "source_conversations_before_curation": 750
   },
   "inputs": [
     {
       "path": "indexes/manifests/development-conversation-dates.json",
       "corpus": "development",
       "status": "loaded",
-      "records": 2329,
-      "accepted_json_conversations": 719,
-      "source_generated_at_utc": "2026-10-08T02:33:48.200112+00:00"
+      "records": 2359,
+      "accepted_json_conversations": 735,
+      "source_generated_at_utc": "2026-10-08T02:43:24.084932+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 15,
       "accepted_json_conversations": 11,
-      "source_generated_at_utc": "2026-10-08T02:33:48.668779+00:00"
+      "source_generated_at_utc": "2026-10-08T02:43:24.595757+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
@@ -6612,6 +6612,174 @@
       "order": 462
     },
     {
+      "id": "8e331e48eab0",
+      "title": "Index project folder",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Index project folder — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-22T10:23:59.744131-04:00",
+      "end_local": "2025-10-22T10:28:47.010377-04:00",
+      "message_count": 5,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Index%20project%20folder%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Index%20project%20folder%20%E2%80%94%20raw.json",
+      "order": 463
+    },
+    {
+      "id": "b356c665fe0f",
+      "title": "Mind as core sample continuation",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Mind as core sample continuation — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-22T08:47:16.162000-04:00",
+      "end_local": "2025-10-22T08:49:05.583479-04:00",
+      "message_count": 4,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Mind%20as%20core%20sample%20continuation%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Mind%20as%20core%20sample%20continuation%20%E2%80%94%20raw.json",
+      "order": 464
+    },
+    {
+      "id": "ec834222eb7f",
+      "title": "Explaining constants verbally",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Explaining constants verbally — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-22T08:00:03.245000-04:00",
+      "end_local": "2025-10-22T08:37:55.180803-04:00",
+      "message_count": 46,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Explaining%20constants%20verbally%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Explaining%20constants%20verbally%20%E2%80%94%20raw.json",
+      "order": 465
+    },
+    {
+      "id": "11a3380f9a6e",
+      "title": "Consciousness as geometry",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Consciousness as geometry — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-22T07:03:35.138000-04:00",
+      "end_local": "2025-10-22T07:46:06.135955-04:00",
+      "message_count": 6,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Consciousness%20as%20geometry%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Consciousness%20as%20geometry%20%E2%80%94%20raw.json",
+      "order": 466
+    },
+    {
+      "id": "36e2ba2add86",
+      "title": "Project folder index",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project folder index — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T14:04:57.305384-04:00",
+      "end_local": "2025-10-19T16:02:45.399166-04:00",
+      "message_count": 27,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20index%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20index%20%E2%80%94%20raw.json",
+      "order": 467
+    },
+    {
+      "id": "3549aa20a0dd",
+      "title": "Blockwave Lagrangian formula",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave Lagrangian formula — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T13:14:01.973583-04:00",
+      "end_local": "2025-10-22T13:01:16.940744-04:00",
+      "message_count": 77,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Lagrangian%20formula%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Lagrangian%20formula%20%E2%80%94%20raw.json",
+      "order": 468
+    },
+    {
+      "id": "ee5807403d26",
+      "title": "SAT and ST comparison",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT and ST comparison — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T13:11:37.997458-04:00",
+      "end_local": "2025-10-19T13:11:42.359360-04:00",
+      "message_count": 2,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20and%20ST%20comparison%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20and%20ST%20comparison%20%E2%80%94%20raw.json",
+      "order": 469
+    },
+    {
+      "id": "0f3843fbcbc7",
+      "title": "Particle geometry analysis",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Particle geometry analysis — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T12:08:16.211497-04:00",
+      "end_local": "2025-10-19T13:10:52.990600-04:00",
+      "message_count": 28,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Particle%20geometry%20analysis%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Particle%20geometry%20analysis%20%E2%80%94%20raw.json",
+      "order": 470
+    },
+    {
+      "id": "b82da0a04aa9",
+      "title": "SAT features overview",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT features overview — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T09:37:50.007665-04:00",
+      "end_local": "2025-10-19T09:42:31.159838-04:00",
+      "message_count": 10,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20features%20overview%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20features%20overview%20%E2%80%94%20raw.json",
+      "order": 471
+    },
+    {
+      "id": "abe2fb296663",
+      "title": "Blockwave to relativity proof",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave to relativity proof — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T09:15:37.472154-04:00",
+      "end_local": "2025-10-19T09:29:41.079199-04:00",
+      "message_count": 12,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20to%20relativity%20proof%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20to%20relativity%20proof%20%E2%80%94%20raw.json",
+      "order": 472
+    },
+    {
+      "id": "e702d43ff809",
+      "title": "Blockwave UV Completeness",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave UV Completeness — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T08:49:30.696533-04:00",
+      "end_local": "2025-10-19T08:49:34.087291-04:00",
+      "message_count": 2,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20UV%20Completeness%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20UV%20Completeness%20%E2%80%94%20raw.json",
+      "order": 473
+    },
+    {
+      "id": "1154cc23f172",
+      "title": "Full action definitions",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Full action definitions — raw.json",
+      "corpus": "development",
+      "start_local": "2025-10-19T08:29:41.119443-04:00",
+      "end_local": "2025-10-19T14:00:41.714371-04:00",
+      "message_count": 29,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Full%20action%20definitions%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Full%20action%20definitions%20%E2%80%94%20raw.json",
+      "order": 474
+    },
+    {
       "id": "b1c3db221b39",
       "title": "Corpus overview",
       "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Corpus overview — raw.json",
@@ -6623,7 +6791,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Corpus%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Corpus%20overview%20%E2%80%94%20raw.json",
-      "order": 463
+      "order": 475
     },
     {
       "id": "8b9b23ad88ba",
@@ -6637,7 +6805,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/New%20chat%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/New%20chat%20%E2%80%94%20raw.json",
-      "order": 464
+      "order": 476
     },
     {
       "id": "e796dc34e036",
@@ -6651,7 +6819,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Vignette%20expansion%20process%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Vignette%20expansion%20process%20%E2%80%94%20raw.json",
-      "order": 465
+      "order": 477
     },
     {
       "id": "5e19e93defae",
@@ -6665,7 +6833,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Vignette%20to%20modular%20plan%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Vignette%20to%20modular%20plan%20%E2%80%94%20raw.json",
-      "order": 466
+      "order": 478
     },
     {
       "id": "fa000b8cf222",
@@ -6679,7 +6847,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.json",
-      "order": 467
+      "order": 479
     },
     {
       "id": "1f03d52107fd",
@@ -6693,7 +6861,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.08%E2%80%A226.09.28%E2%80%A2Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.txt.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.10.08%E2%80%A226.09.28%E2%80%A2Repurposeable%20narrative%20skeleton%20%E2%80%94%20raw.txt.txt",
-      "order": 468
+      "order": 480
     },
     {
       "id": "ef8cb355f81f",
@@ -6707,7 +6875,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
-      "order": 469
+      "order": 481
     },
     {
       "id": "df01456ecadc",
@@ -6721,7 +6889,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.10.07%E2%80%A226.09.12%E2%80%A2Interstellar%20object%20A11pl3Z%20%E2%80%94%20raw.json",
-      "order": 470
+      "order": 482
     },
     {
       "id": "ee1dea99a884",
@@ -6735,7 +6903,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06%E2%80%A225.10.06%E2%80%A2Resume%20cleanup%20and%20formatting%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.06%E2%80%A225.10.06%E2%80%A2Resume%20cleanup%20and%20formatting%20%E2%80%94%20raw.json",
-      "order": 471
+      "order": 483
     },
     {
       "id": "78d893877b3d",
@@ -6749,7 +6917,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Spec%20sheet%20for%20cameras%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Spec%20sheet%20for%20cameras%20%E2%80%94%20raw.json",
-      "order": 472
+      "order": 484
     },
     {
       "id": "9fc67f5d1082",
@@ -6763,7 +6931,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt",
-      "order": 473
+      "order": 485
     },
     {
       "id": "2d04165aa754",
@@ -6777,7 +6945,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.28%E2%80%A2Script%20prompt%20nesting%20%E2%80%94%20raw.txt",
-      "order": 474
+      "order": 486
     },
     {
       "id": "9b6c92b0c5fa",
@@ -6791,7 +6959,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt",
-      "order": 475
+      "order": 487
     },
     {
       "id": "8ec000fbba9b",
@@ -6805,7 +6973,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.27%E2%80%A225.09.27%E2%80%A2Image%20overlay%20blending%20%E2%80%94%20raw.txt",
-      "order": 476
+      "order": 488
     },
     {
       "id": "5f27f6946528",
@@ -6819,7 +6987,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt",
-      "order": 477
+      "order": 489
     },
     {
       "id": "398fea539a18",
@@ -6833,7 +7001,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.26%E2%80%A2Monorail%20Schede%20%E2%80%94%20raw.txt",
-      "order": 478
+      "order": 490
     },
     {
       "id": "701060961d0a",
@@ -6847,7 +7015,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Monorail%20Schede%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Monorail%20Schede%20%E2%80%94%20raw.json",
-      "order": 479
+      "order": 491
     },
     {
       "id": "4965fbce4f7b",
@@ -6861,7 +7029,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt",
-      "order": 480
+      "order": 492
     },
     {
       "id": "9d75b50976f8",
@@ -6875,7 +7043,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.10.04%E2%80%A2Prompt%20Puller%20%E2%80%94%20raw.txt",
-      "order": 481
+      "order": 493
     },
     {
       "id": "bb6e4d6f51e9",
@@ -6889,7 +7057,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt",
-      "order": 482
+      "order": 494
     },
     {
       "id": "eff96d80bfa1",
@@ -6903,7 +7071,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt",
-      "order": 483
+      "order": 495
     },
     {
       "id": "38f50494d9a3",
@@ -6917,7 +7085,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A2OS-00%20world%20overview%20%E2%80%94%20raw.txt",
-      "order": 484
+      "order": 496
     },
     {
       "id": "67dac92bd09f",
@@ -6931,7 +7099,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/OS-00/25.09.26%E2%80%A225.09.27%E2%80%A22%20OS-00%20world%20overview%20%E2%80%94%20raw.txt",
-      "order": 485
+      "order": 497
     },
     {
       "id": "1e838a27cdff",
@@ -6945,7 +7113,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Write%20about%20epistemology%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Write%20about%20epistemology%20%E2%80%94%20raw.json",
-      "order": 486
+      "order": 498
     },
     {
       "id": "203ecb108666",
@@ -6959,7 +7127,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Annotating%20intuitions%20with%20math%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Annotating%20intuitions%20with%20math%20%E2%80%94%20raw.json",
-      "order": 487
+      "order": 499
     },
     {
       "id": "a30fd5c09111",
@@ -6973,7 +7141,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Modes%20menu%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Modes%20menu%20overview%20%E2%80%94%20raw.json",
-      "order": 488
+      "order": 500
     },
     {
       "id": "05877717a378",
@@ -6987,7 +7155,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Fundamental%20intuitions%20recap%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Fundamental%20intuitions%20recap%20%E2%80%94%20raw.json",
-      "order": 489
+      "order": 501
     },
     {
       "id": "fdeddc16d11b",
@@ -7001,7 +7169,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Quantum%20discreteness%20explanation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Quantum%20discreteness%20explanation%20%E2%80%94%20raw.json",
-      "order": 490
+      "order": 502
     },
     {
       "id": "02d56660787d",
@@ -7015,7 +7183,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%F0%9F%A7%B1Project%20folder%20chapter%20check%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%F0%9F%A7%B1Project%20folder%20chapter%20check%20%E2%80%94%20raw.json",
-      "order": 491
+      "order": 503
     },
     {
       "id": "a6b47444b12a",
@@ -7031,7 +7199,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17%E2%80%A226.06.01%E2%80%A2%F0%9F%AA%A1%20The%20Tourist%20Tailor%20%5Be-%5D%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.17%E2%80%A226.06.01%E2%80%A2%F0%9F%AA%A1%20The%20Tourist%20Tailor%20%5Be-%5D%20%E2%80%94%20raw.json",
-      "order": 492
+      "order": 504
     },
     {
       "id": "c34a280bbb93",
@@ -7045,7 +7213,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20tour%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20tour%20%E2%80%94%20raw%20%281%29.json",
-      "order": 493
+      "order": 505
     },
     {
       "id": "6b5fcfddb91b",
@@ -7059,7 +7227,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20tour%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20tour%20%E2%80%94%20raw.json",
-      "order": 494
+      "order": 506
     },
     {
       "id": "2cb0b278bb13",
@@ -7073,7 +7241,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20and%20actions%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20and%20actions%20%E2%80%94%20raw.json",
-      "order": 495
+      "order": 507
     },
     {
       "id": "babf9abcf072",
@@ -7087,7 +7255,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20details%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20details%20%E2%80%94%20raw.json",
-      "order": 496
+      "order": 508
     },
     {
       "id": "f182bd581ae8",
@@ -7101,7 +7269,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Math%20checking%20request%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Math%20checking%20request%20%E2%80%94%20raw.json",
-      "order": 497
+      "order": 509
     },
     {
       "id": "aeb22a0e60c0",
@@ -7115,7 +7283,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16%E2%80%A226.06.20%E2%80%A2%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16%E2%80%A226.06.20%E2%80%A2%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json",
-      "order": 498
+      "order": 510
     },
     {
       "id": "0eb50eac2d7b",
@@ -7129,7 +7297,21 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20%F0%9F%A7%B6%F0%9F%A7%B1SAT%20%E2%80%94%20raw.json",
-      "order": 499
+      "order": 511
+    },
+    {
+      "id": "05883547ba1b",
+      "title": "Document access confirmation",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document access confirmation — raw.json",
+      "corpus": "development",
+      "start_local": "2025-09-16T12:30:28.418233-04:00",
+      "end_local": "2025-09-16T12:30:31.736641-04:00",
+      "message_count": 2,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20access%20confirmation%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20access%20confirmation%20%E2%80%94%20raw.json",
+      "order": 512
     },
     {
       "id": "ad8ec3cdf524",
@@ -7143,7 +7325,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SEAN%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SEAN%20%E2%80%94%20raw.json",
-      "order": 500
+      "order": 513
     },
     {
       "id": "212e18cc098d",
@@ -7157,7 +7339,49 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Core%20Lagrangian%20naming%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Core%20Lagrangian%20naming%20%E2%80%94%20raw.json",
-      "order": 501
+      "order": 514
+    },
+    {
+      "id": "63039793454a",
+      "title": "SAT Lagrangian formula",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT Lagrangian formula — raw.json",
+      "corpus": "development",
+      "start_local": "2025-09-15T21:13:30.918981-04:00",
+      "end_local": "2025-09-15T21:16:16.265368-04:00",
+      "message_count": 7,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20Lagrangian%20formula%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20Lagrangian%20formula%20%E2%80%94%20raw.json",
+      "order": 515
+    },
+    {
+      "id": "a80e705dc4ca",
+      "title": "SAT Lagrangian explanation",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT Lagrangian explanation — raw.json",
+      "corpus": "development",
+      "start_local": "2025-09-15T20:59:34.867850-04:00",
+      "end_local": "2025-09-15T20:59:36.864374-04:00",
+      "message_count": 2,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20Lagrangian%20explanation%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20Lagrangian%20explanation%20%E2%80%94%20raw.json",
+      "order": 516
+    },
+    {
+      "id": "9a6734fb88b4",
+      "title": "Lagrangian derivations explained",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Lagrangian derivations explained — raw.json",
+      "corpus": "development",
+      "start_local": "2025-09-15T20:26:14.537476-04:00",
+      "end_local": "2025-09-15T20:58:16.210693-04:00",
+      "message_count": 7,
+      "timestamp_source": "message.create_time",
+      "warnings": [],
+      "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Lagrangian%20derivations%20explained%20%E2%80%94%20raw.json",
+      "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Lagrangian%20derivations%20explained%20%E2%80%94%20raw.json",
+      "order": 517
     },
     {
       "id": "28445e7eb2b9",
@@ -7171,7 +7395,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20confirmation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/File%20access%20confirmation%20%E2%80%94%20raw.json",
-      "order": 502
+      "order": 518
     },
     {
       "id": "0839b27be660",
@@ -7185,7 +7409,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Request%20for%20document%20analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Request%20for%20document%20analysis%20%E2%80%94%20raw.json",
-      "order": 503
+      "order": 519
     },
     {
       "id": "950b626ac47a",
@@ -7199,7 +7423,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A226.09.12%E2%80%A2Grade%20%CE%9BCDM%20rubric%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A226.09.12%E2%80%A2Grade%20%CE%9BCDM%20rubric%20%E2%80%94%20raw.json",
-      "order": 504
+      "order": 520
     },
     {
       "id": "c6228a93b1c3",
@@ -7213,7 +7437,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A225.09.14%E2%80%A2Clarify%20TOE%20meaning%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.14%E2%80%A225.09.14%E2%80%A2Clarify%20TOE%20meaning%20%E2%80%94%20raw.json",
-      "order": 505
+      "order": 521
     },
     {
       "id": "edc27b09779d",
@@ -7227,7 +7451,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.13%E2%80%A225.09.14%E2%80%A2SAT%20and%20Blockwave%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.09.13%E2%80%A225.09.14%E2%80%A2SAT%20and%20Blockwave%20overview%20%E2%80%94%20raw.json",
-      "order": 506
+      "order": 522
     },
     {
       "id": "938ac2fcc932",
@@ -7241,7 +7465,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Jargon%20removal%20request%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Jargon%20removal%20request%20%E2%80%94%20raw.json",
-      "order": 507
+      "order": 523
     },
     {
       "id": "069389be2a41",
@@ -7255,7 +7479,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assessment%20of%20SAT%20model%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assessment%20of%20SAT%20model%20%E2%80%94%20raw.json",
-      "order": 508
+      "order": 524
     },
     {
       "id": "b27a8afd4ff7",
@@ -7269,7 +7493,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Next%20steps%20in%20model-building%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Next%20steps%20in%20model-building%20%E2%80%94%20raw.json",
-      "order": 509
+      "order": 525
     },
     {
       "id": "45930c219225",
@@ -7283,7 +7507,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Next%20steps%20in%20model-building%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Next%20steps%20in%20model-building%20%E2%80%94%20raw%20%281%29.json",
-      "order": 510
+      "order": 526
     },
     {
       "id": "1e0de675cb12",
@@ -7297,7 +7521,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Lagrangian%20definitions%20summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Lagrangian%20definitions%20summary%20%E2%80%94%20raw.json",
-      "order": 511
+      "order": 527
     },
     {
       "id": "f6149c489fd9",
@@ -7311,7 +7535,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13%E2%80%A226.09.12%E2%80%A2Credulity%20meter%20placement%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.13%E2%80%A226.09.12%E2%80%A2Credulity%20meter%20placement%20%E2%80%94%20raw.json",
-      "order": 512
+      "order": 528
     },
     {
       "id": "30add2f0db16",
@@ -7325,7 +7549,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Finalize%20Module%209%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Finalize%20Module%209%20%E2%80%94%20raw.json",
-      "order": 513
+      "order": 529
     },
     {
       "id": "0e9dbc6c9ca0",
@@ -7339,7 +7563,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Progress%20update%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Progress%20update%20%E2%80%94%20raw.json",
-      "order": 514
+      "order": 530
     },
     {
       "id": "e4b6f656d95d",
@@ -7353,7 +7577,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%208%20Overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%208%20Overview%20%E2%80%94%20raw.json",
-      "order": 515
+      "order": 531
     },
     {
       "id": "9a81bd54bb47",
@@ -7367,7 +7591,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%207%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%207%20overview%20%E2%80%94%20raw.json",
-      "order": 516
+      "order": 532
     },
     {
       "id": "a97b22965fe1",
@@ -7381,7 +7605,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%206%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%206%20overview%20%E2%80%94%20raw.json",
-      "order": 517
+      "order": 533
     },
     {
       "id": "0b201bb10b8c",
@@ -7395,7 +7619,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%205%20planning%20guide%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%205%20planning%20guide%20%E2%80%94%20raw.json",
-      "order": 518
+      "order": 534
     },
     {
       "id": "cb2959014c41",
@@ -7409,7 +7633,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%204%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%204%20overview%20%E2%80%94%20raw.json",
-      "order": 519
+      "order": 535
     },
     {
       "id": "7499b64ee5fd",
@@ -7423,7 +7647,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%203%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%203%20overview%20%E2%80%94%20raw.json",
-      "order": 520
+      "order": 536
     },
     {
       "id": "06720026c5c6",
@@ -7437,7 +7661,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%202%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%202%20overview%20%E2%80%94%20raw.json",
-      "order": 521
+      "order": 537
     },
     {
       "id": "eb1156c6ac57",
@@ -7451,7 +7675,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%201%20Overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Module%201%20Overview%20%E2%80%94%20raw.json",
-      "order": 522
+      "order": 538
     },
     {
       "id": "1994ab12fd82",
@@ -7465,7 +7689,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Theory%20overview%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Theory%20overview%20%E2%80%94%20raw.json",
-      "order": 523
+      "order": 539
     },
     {
       "id": "9b28479b5739",
@@ -7479,7 +7703,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw.json",
-      "order": 524
+      "order": 540
     },
     {
       "id": "bd9b53855e8b",
@@ -7493,7 +7717,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Theory%20Redubbed%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Blockwave%20Theory%20Redubbed%20%E2%80%94%20raw.json",
-      "order": 525
+      "order": 541
     },
     {
       "id": "b3bd572d07b5",
@@ -7507,7 +7731,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Theory%20name%20suggestions%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Theory%20name%20suggestions%20%E2%80%94%20raw.json",
-      "order": 526
+      "order": 542
     },
     {
       "id": "2dcc00e396e7",
@@ -7521,7 +7745,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Build%20completion%20summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Build%20completion%20summary%20%E2%80%94%20raw.json",
-      "order": 527
+      "order": 543
     },
     {
       "id": "33c7c7f4ef0a",
@@ -7535,7 +7759,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw%20%281%29.json",
-      "order": 528
+      "order": 544
     },
     {
       "id": "43197084369b",
@@ -7549,7 +7773,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Field%20theory%20breakdown%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Field%20theory%20breakdown%20%E2%80%94%20raw.json",
-      "order": 529
+      "order": 545
     },
     {
       "id": "ba5e7d8b34c3",
@@ -7563,7 +7787,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Current%20model%20progress%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Current%20model%20progress%20%E2%80%94%20raw.json",
-      "order": 530
+      "order": 546
     },
     {
       "id": "fc522cc5966d",
@@ -7577,7 +7801,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20review%20%E2%80%94%20raw.json",
-      "order": 531
+      "order": 547
     },
     {
       "id": "699592d73113",
@@ -7591,7 +7815,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw%20%282%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Red%20team%20assessment%20%E2%80%94%20raw%20%282%29.json",
-      "order": 532
+      "order": 548
     },
     {
       "id": "63b08a492853",
@@ -7605,7 +7829,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20%E2%80%94%20raw.json",
-      "order": 533
+      "order": 549
     },
     {
       "id": "60e237c32095",
@@ -7619,7 +7843,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20%E2%80%94%20raw%20%281%29.json",
-      "order": 534
+      "order": 550
     },
     {
       "id": "c673af3bb46d",
@@ -7633,7 +7857,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20review%20%E2%80%94%20raw.json",
-      "order": 535
+      "order": 551
     },
     {
       "id": "abc4dd1fe4e5",
@@ -7647,7 +7871,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Document%20assessment%20summary%20%E2%80%94%20raw.json",
-      "order": 536
+      "order": 552
     },
     {
       "id": "c345700aea80",
@@ -7661,7 +7885,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Translate%20scientific%20equation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Translate%20scientific%20equation%20%E2%80%94%20raw.json",
-      "order": 537
+      "order": 553
     },
     {
       "id": "8f295bd6722d",
@@ -7675,7 +7899,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Narration%20of%20Alberr%27s%20Arrival%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Narration%20of%20Alberr%27s%20Arrival%20%E2%80%94%20raw.json",
-      "order": 538
+      "order": 554
     },
     {
       "id": "6c1f196c3733",
@@ -7689,7 +7913,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Conversation%20continuation%20options%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Conversation%20continuation%20options%20%E2%80%94%20raw.json",
-      "order": 539
+      "order": 555
     },
     {
       "id": "ef1a7a1546d6",
@@ -7703,7 +7927,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10%E2%80%A226.09.12%E2%80%A2Optical%20setup%20breakdown%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.10%E2%80%A226.09.12%E2%80%A2Optical%20setup%20breakdown%20%E2%80%94%20raw.json",
-      "order": 540
+      "order": 556
     },
     {
       "id": "23dd87e1858a",
@@ -7717,7 +7941,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw.json",
-      "order": 541
+      "order": 557
     },
     {
       "id": "6f9873c1aec4",
@@ -7731,7 +7955,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Analysis%20of%20baseline%20metrics%20%E2%80%94%20raw%20%281%29.json",
-      "order": 542
+      "order": 558
     },
     {
       "id": "6ecbc7ec20e7",
@@ -7745,7 +7969,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw.json",
-      "order": 543
+      "order": 559
     },
     {
       "id": "66d38f50f712",
@@ -7759,7 +7983,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw%20.txt",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.09.09%E2%80%A226.06.01%E2%80%A2Assignment%20queue%20creation%20%E2%80%94%20raw%20.txt",
-      "order": 544
+      "order": 560
     },
     {
       "id": "4049ae3f17e0",
@@ -7773,7 +7997,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20queue%20creation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20queue%20creation%20%E2%80%94%20raw.json",
-      "order": 545
+      "order": 561
     },
     {
       "id": "e7a8bf82c185",
@@ -7787,7 +8011,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20iteration%20plan%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20iteration%20plan%20%E2%80%94%20raw.json",
-      "order": 546
+      "order": 562
     },
     {
       "id": "2dbf246ec61d",
@@ -7801,7 +8025,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20iteration%20plan%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assignment%20iteration%20plan%20%E2%80%94%20raw%20%281%29.json",
-      "order": 547
+      "order": 563
     },
     {
       "id": "ef22ac7f8b82",
@@ -7815,7 +8039,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Initiate%20overseer%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Initiate%20overseer%20%E2%80%94%20raw.json",
-      "order": 548
+      "order": 564
     },
     {
       "id": "b76f8da6032c",
@@ -7829,7 +8053,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Mission%20in%20LEAN%20environment%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Mission%20in%20LEAN%20environment%20%E2%80%94%20raw.json",
-      "order": 549
+      "order": 565
     },
     {
       "id": "f7d5b02931fd",
@@ -7843,7 +8067,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assistant%27s%20goal%20explanation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Assistant%27s%20goal%20explanation%20%E2%80%94%20raw.json",
-      "order": 550
+      "order": 566
     },
     {
       "id": "0e47f2a187ce",
@@ -7857,7 +8081,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20test%20battery%20setup%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20test%20battery%20setup%20%E2%80%94%20raw.json",
-      "order": 551
+      "order": 567
     },
     {
       "id": "681d86e03dcf",
@@ -7871,7 +8095,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20test%20battery%20setup%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/SAT%20test%20battery%20setup%20%E2%80%94%20raw%20%281%29.json",
-      "order": 552
+      "order": 568
     },
     {
       "id": "752c0ef522de",
@@ -7885,7 +8109,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Testing%20SAT%20Reformulation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Testing%20SAT%20Reformulation%20%E2%80%94%20raw.json",
-      "order": 553
+      "order": 569
     },
     {
       "id": "3ee5a7298104",
@@ -7899,7 +8123,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20goal%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Project%20folder%20goal%20%E2%80%94%20raw.json",
-      "order": 554
+      "order": 570
     },
     {
       "id": "81ee4b5eb308",
@@ -7913,7 +8137,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07%E2%80%A226.09.12%E2%80%A2Prediction%20validation%20search%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.09.07%E2%80%A226.09.12%E2%80%A2Prediction%20validation%20search%20%E2%80%94%20raw.json",
-      "order": 555
+      "order": 571
     },
     {
       "id": "466c73be372b",
@@ -7927,7 +8151,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Money-making%20plan%20options%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Money-making%20plan%20options%20%E2%80%94%20raw.json",
-      "order": 556
+      "order": 572
     },
     {
       "id": "2138bd67a0e7",
@@ -7941,7 +8165,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
-      "order": 557
+      "order": 573
     },
     {
       "id": "a3c217506cdf",
@@ -7955,7 +8179,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
-      "order": 558
+      "order": 574
     },
     {
       "id": "3c8ca84c9a3b",
@@ -7969,7 +8193,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json",
-      "order": 559
+      "order": 575
     },
     {
       "id": "baed4f9a6797",
@@ -7983,7 +8207,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25%E2%80%A226.09.12%E2%80%A2Concise%20Persona%20Guidelines%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25%E2%80%A226.09.12%E2%80%A2Concise%20Persona%20Guidelines%20%E2%80%94%20raw.json",
-      "order": 560
+      "order": 576
     },
     {
       "id": "0c538b711e1b",
@@ -7997,7 +8221,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.07.11%E2%80%A225.07.12%E2%80%A2Capital%20de%20Colombia%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.07.11%E2%80%A225.07.12%E2%80%A2Capital%20de%20Colombia%20%E2%80%94%20raw.json",
-      "order": 561
+      "order": 577
     },
     {
       "id": "c3f8f9fdf1d7",
@@ -8011,7 +8235,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/25.07.03%E2%80%A226.07.21%E2%80%A2Museum%20Anecdote%20Network%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/25.07.03%E2%80%A226.07.21%E2%80%A2Museum%20Anecdote%20Network%20%E2%80%94%20raw.json",
-      "order": 562
+      "order": 578
     },
     {
       "id": "0d4d13e5117d",
@@ -8027,7 +8251,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.07.01%E2%80%A226.06.01%E2%80%A2Podcast%20Analysis%20Summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.07.01%E2%80%A226.06.01%E2%80%A2Podcast%20Analysis%20Summary%20%E2%80%94%20raw.json",
-      "order": 563
+      "order": 579
     },
     {
       "id": "a9232c249e3a",
@@ -8041,7 +8265,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw.json",
-      "order": 564
+      "order": 580
     },
     {
       "id": "22136a7195b7",
@@ -8055,7 +8279,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.29%E2%80%A225.08.31%E2%80%A2SAT%20Scattering%20Amplitude%20Checklist%20%E2%80%94%20raw%20%281%29.json",
-      "order": 565
+      "order": 581
     },
     {
       "id": "9c3d0bbea80f",
@@ -8069,7 +8293,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.06.27%E2%80%A225.09.17%E2%80%A2%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.06.27%E2%80%A225.09.17%E2%80%A2%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json",
-      "order": 566
+      "order": 582
     },
     {
       "id": "cee449320fc7",
@@ -8083,7 +8307,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%F0%9F%8F%94%EF%B8%8FInteresting%20discovery%20shared%20%F0%9F%97%BB%20%E2%80%94%20raw.json",
-      "order": 567
+      "order": 583
     },
     {
       "id": "f72977eb7ef3",
@@ -8097,7 +8321,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23%E2%80%A225.06.23%E2%80%A2Audit%20Protocol%20Initiation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23%E2%80%A225.06.23%E2%80%A2Audit%20Protocol%20Initiation%20%E2%80%94%20raw.json",
-      "order": 568
+      "order": 584
     },
     {
       "id": "a13cf047cd35",
@@ -8111,7 +8335,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23%E2%80%A225.06.23%E2%80%A2Code%20Audit%20Request%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.23%E2%80%A225.06.23%E2%80%A2Code%20Audit%20Request%20%E2%80%94%20raw.json",
-      "order": 569
+      "order": 585
     },
     {
       "id": "86c45f4c6b5c",
@@ -8125,7 +8349,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2MathProof%20Mode%20Engaged%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2MathProof%20Mode%20Engaged%20%E2%80%94%20raw.json",
-      "order": 570
+      "order": 586
     },
     {
       "id": "d8fe1abc7495",
@@ -8139,7 +8363,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2MathProof%20Mode%20Engaged%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2MathProof%20Mode%20Engaged%20%E2%80%94%20raw%20%281%29.json",
-      "order": 571
+      "order": 587
     },
     {
       "id": "16f9897162ae",
@@ -8153,7 +8377,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.24%E2%80%A2Speculative%20Physics%20Model%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.24%E2%80%A2Speculative%20Physics%20Model%20Review%20%E2%80%94%20raw.json",
-      "order": 572
+      "order": 588
     },
     {
       "id": "2584bc7bb9b3",
@@ -8167,7 +8391,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2Hopf%20Borromean%20Mode%201%20Fix%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.06.22%E2%80%A2Hopf%20Borromean%20Mode%201%20Fix%20%E2%80%94%20raw.json",
-      "order": 573
+      "order": 589
     },
     {
       "id": "3bc174b6fb9e",
@@ -8181,7 +8405,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.08.31%E2%80%A2Sage%20Mode%20Engaged%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.22%E2%80%A225.08.31%E2%80%A2Sage%20Mode%20Engaged%20%E2%80%94%20raw.json",
-      "order": 574
+      "order": 590
     },
     {
       "id": "36fa5b624d46",
@@ -8195,7 +8419,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20%E2%80%A225.06.20%E2%80%A2SAT%20Completion%20Protocol%20Execution%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.20%E2%80%A225.06.20%E2%80%A2SAT%20Completion%20Protocol%20Execution%20%E2%80%94%20raw.json",
-      "order": 575
+      "order": 591
     },
     {
       "id": "3cb8a9e00c7e",
@@ -8209,7 +8433,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19%E2%80%A225.06.19%E2%80%A2SAT%20Quark%20Binding%20Rewrite%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.19%E2%80%A225.06.19%E2%80%A2SAT%20Quark%20Binding%20Rewrite%20%E2%80%94%20raw.json",
-      "order": 576
+      "order": 592
     },
     {
       "id": "9668c1153e07",
@@ -8223,7 +8447,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18%E2%80%A225.06.18%E2%80%A2Lagrangian%20Permutations%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.06.18%E2%80%A225.06.18%E2%80%A2Lagrangian%20Permutations%20Analysis%20%E2%80%94%20raw.json",
-      "order": 577
+      "order": 593
     },
     {
       "id": "77dae39dbd72",
@@ -8237,7 +8461,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json",
-      "order": 578
+      "order": 594
     },
     {
       "id": "5a7a90134542",
@@ -8251,7 +8475,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.16%E2%80%A225.06.16%E2%80%A2Scene%20Analysis%20Discussion%20%E2%80%94%20raw.json",
-      "order": 579
+      "order": 595
     },
     {
       "id": "aea18a4eef4e",
@@ -8265,7 +8489,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json",
-      "order": 580
+      "order": 596
     },
     {
       "id": "e4b1acda9e23",
@@ -8279,7 +8503,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw.json",
-      "order": 581
+      "order": 597
     },
     {
       "id": "866abb2b8876",
@@ -8293,7 +8517,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.06.08%E2%80%A225.08.31%E2%80%A2Coherency%20Master%20OMNI%20%E2%80%94%20raw%20%281%29.json",
-      "order": 582
+      "order": 598
     },
     {
       "id": "bfd813a73417",
@@ -8309,7 +8533,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07%E2%80%A225.06.08%E2%80%A2Document%20Comparison%20and%20Integration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.06.07%E2%80%A225.06.08%E2%80%A2Document%20Comparison%20and%20Integration%20%E2%80%94%20raw.json",
-      "order": 583
+      "order": 599
     },
     {
       "id": "9dd40e650f6b",
@@ -8323,7 +8547,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06%E2%80%A226.06.15%E2%80%A2%F0%9F%A4%96%20SAT%20O%20REWRITE%20SUPERVISOR%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.06.06%E2%80%A226.06.15%E2%80%A2%F0%9F%A4%96%20SAT%20O%20REWRITE%20SUPERVISOR%20%E2%80%94%20raw.json",
-      "order": 584
+      "order": 600
     },
     {
       "id": "bca3962d19ee",
@@ -8337,7 +8561,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03%E2%80%A225.06.03%E2%80%A2Free%20Mode%20Activation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03%E2%80%A225.06.03%E2%80%A2Free%20Mode%20Activation%20%E2%80%94%20raw.json",
-      "order": 585
+      "order": 601
     },
     {
       "id": "271c3545a5c1",
@@ -8351,7 +8575,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03%E2%80%A225.08.31%E2%80%A2Core%20Build%20Exploration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.03%E2%80%A225.08.31%E2%80%A2Core%20Build%20Exploration%20%E2%80%94%20raw.json",
-      "order": 586
+      "order": 602
     },
     {
       "id": "bd412f78d652",
@@ -8365,7 +8589,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01%E2%80%A225.09.13%E2%80%A2%E2%99%BE%EF%B8%8F%20SAT_O%20METASUPERVISOR%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_6/25.06.01%E2%80%A225.09.13%E2%80%A2%E2%99%BE%EF%B8%8F%20SAT_O%20METASUPERVISOR%20%E2%80%94%20raw.json",
-      "order": 587
+      "order": 603
     },
     {
       "id": "c189c07a9f4e",
@@ -8379,7 +8603,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Proof%20Consistency%20Check%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Proof%20Consistency%20Check%20%E2%80%94%20raw.json",
-      "order": 588
+      "order": 604
     },
     {
       "id": "7312a94832c6",
@@ -8393,7 +8617,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.06.01%E2%80%A225.06.01%E2%80%A2Proof%20Consistency%20Check%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.06.01%E2%80%A225.06.01%E2%80%A2Proof%20Consistency%20Check%20%E2%80%94%20raw.json",
-      "order": 589
+      "order": 605
     },
     {
       "id": "5ba10fca7e5b",
@@ -8407,7 +8631,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2What%20is%20SAT%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2What%20is%20SAT%20%E2%80%94%20raw.json",
-      "order": 590
+      "order": 606
     },
     {
       "id": "d1e9ec5f7702",
@@ -8421,7 +8645,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Data%20Search%20and%20Prediction%20Assessment%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.06.01%E2%80%A225.06.01%E2%80%A2Data%20Search%20and%20Prediction%20Assessment%20%E2%80%94%20raw.json",
-      "order": 591
+      "order": 607
     },
     {
       "id": "3f91a8eb1358",
@@ -8435,7 +8659,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw.json",
-      "order": 592
+      "order": 608
     },
     {
       "id": "c4968bf332a2",
@@ -8449,7 +8673,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.06.01%E2%80%A225.06.01%E2%80%A2Ret--Jun1%20SAT%20Z%20Review%20%E2%80%94%20raw%20-%20.TXT",
-      "order": 593
+      "order": 609
     },
     {
       "id": "84b08fc0cac1",
@@ -8463,7 +8687,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.30%E2%80%A225.05.30%E2%80%A2Activator%20Modes%20Overhaul%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.30%E2%80%A225.05.30%E2%80%A2Activator%20Modes%20Overhaul%20%E2%80%94%20raw.json",
-      "order": 594
+      "order": 610
     },
     {
       "id": "4a62f1306c70",
@@ -8477,7 +8701,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30%E2%80%A225.05.30%E2%80%A2Mecha%20Quant%20MathProof%20Tasks%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.30%E2%80%A225.05.30%E2%80%A2Mecha%20Quant%20MathProof%20Tasks%20%E2%80%94%20raw.json",
-      "order": 595
+      "order": 611
     },
     {
       "id": "f43fbf810d31",
@@ -8491,7 +8715,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.28%E2%80%A225.05.31%E2%80%A2Slow%20Walker%20Exploration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.28%E2%80%A225.05.31%E2%80%A2Slow%20Walker%20Exploration%20%E2%80%94%20raw.json",
-      "order": 596
+      "order": 612
     },
     {
       "id": "c37b002948b6",
@@ -8505,7 +8729,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28%E2%80%A225.08.11%E2%80%A2ACTIVATOR%20HoloJesu%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.28%E2%80%A225.08.11%E2%80%A2ACTIVATOR%20HoloJesu%20%E2%80%94%20raw.json",
-      "order": 597
+      "order": 613
     },
     {
       "id": "36ac9c388eb8",
@@ -8519,7 +8743,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw.json",
-      "order": 598
+      "order": 614
     },
     {
       "id": "377e005557d2",
@@ -8533,7 +8757,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.05.20%E2%80%A225.05.20%E2%80%A2SAT%20Math%20Engine%20Tasks%20%E2%80%94%20raw%20%281%29.json",
-      "order": 599
+      "order": 615
     },
     {
       "id": "6e5098622aba",
@@ -8547,7 +8771,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11%E2%80%A225.05.11%E2%80%A2Symbolic%20Expression%20Interpretation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.11%E2%80%A225.05.11%E2%80%A2Symbolic%20Expression%20Interpretation%20%E2%80%94%20raw.json",
-      "order": 600
+      "order": 616
     },
     {
       "id": "66356ac47e7e",
@@ -8561,7 +8785,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json",
-      "order": 601
+      "order": 617
     },
     {
       "id": "6a59a85e239d",
@@ -8575,7 +8799,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/25.05.11%E2%80%A226.06.07%E2%80%A2Alberr%20%5B%C3%A4%C3%BC%C3%AF%C3%B6%C3%AB%C3%BF%5D%20%E2%80%94%20raw.json",
-      "order": 602
+      "order": 618
     },
     {
       "id": "7571f6004f4d",
@@ -8589,7 +8813,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09%E2%80%A225.05.09%E2%80%A2Fusion%20Constraints%20and%20Domain%20Walls%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.09%E2%80%A225.05.09%E2%80%A2Fusion%20Constraints%20and%20Domain%20Walls%20%E2%80%94%20raw.json",
-      "order": 603
+      "order": 619
     },
     {
       "id": "ff23c17ccf81",
@@ -8605,7 +8829,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json",
-      "order": 604
+      "order": 620
     },
     {
       "id": "5cc6de86a1c9",
@@ -8621,7 +8845,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.05.09%E2%80%A226.06.16%E2%80%A2SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw%20-%20.TXT",
-      "order": 605
+      "order": 621
     },
     {
       "id": "c4ef2b186d32",
@@ -8635,7 +8859,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20SAT%20ACTIVE%20EDGE%20vNext%20%E2%80%94%20raw.json",
-      "order": 606
+      "order": 622
     },
     {
       "id": "9f618064b74c",
@@ -8649,7 +8873,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
-      "order": 607
+      "order": 623
     },
     {
       "id": "a86a8577314a",
@@ -8663,7 +8887,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09%E2%80%A225.05.09%E2%80%A2LAB%202_%20Refinement%20Lead%20%E2%80%94%20raw.json",
-      "order": 608
+      "order": 624
     },
     {
       "id": "62341eacdbb8",
@@ -8677,7 +8901,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw%20%281%29.json",
-      "order": 609
+      "order": 625
     },
     {
       "id": "eab93b604def",
@@ -8691,7 +8915,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_17/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
-      "order": 610
+      "order": 626
     },
     {
       "id": "7585f1d427fb",
@@ -8705,7 +8929,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
-      "order": 611
+      "order": 627
     },
     {
       "id": "d90577788b0b",
@@ -8719,7 +8943,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.09%E2%80%A226.09.12%E2%80%A2LAB%201_%20Validation%20Lead%20%E2%80%94%20raw.json",
-      "order": 612
+      "order": 628
     },
     {
       "id": "ae8a12d50b5a",
@@ -8733,7 +8957,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08%E2%80%A226.09.12%E2%80%A2THE%20WAVEFRONT%20BRAIN%20TRUST%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.05.08%E2%80%A226.09.12%E2%80%A2THE%20WAVEFRONT%20BRAIN%20TRUST%20%E2%80%94%20raw.json",
-      "order": 613
+      "order": 629
     },
     {
       "id": "52e2adbef2c0",
@@ -8747,7 +8971,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08%E2%80%A226.09.12%E2%80%A2THE%20WAVEFRONT%20BRAIN%20TRUST%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/HAGALAZ/25.05.08%E2%80%A226.09.12%E2%80%A2THE%20WAVEFRONT%20BRAIN%20TRUST%20%E2%80%94%20raw.json",
-      "order": 614
+      "order": 630
     },
     {
       "id": "4e829f80da4a",
@@ -8761,7 +8985,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json",
-      "order": 615
+      "order": 631
     },
     {
       "id": "a1438f21cfd6",
@@ -8775,7 +8999,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw%20%281%29.json",
-      "order": 616
+      "order": 632
     },
     {
       "id": "158c1ea375b8",
@@ -8789,7 +9013,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08%E2%80%A226.06.13%E2%80%A2SAT%20Theorizer%20Emeritus%20%E2%80%94%20raw.json",
-      "order": 617
+      "order": 633
     },
     {
       "id": "6510ca035072",
@@ -8803,7 +9027,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A226.06.01%E2%80%A2XXX%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A226.06.01%E2%80%A2XXX%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json",
-      "order": 618
+      "order": 634
     },
     {
       "id": "5dd2225a392f",
@@ -8817,7 +9041,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BA%5D%20SAT%20Theory%20Synthesis%20%E2%80%94%20raw.json",
-      "order": 619
+      "order": 635
     },
     {
       "id": "12c68177839f",
@@ -8831,7 +9055,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json",
-      "order": 620
+      "order": 636
     },
     {
       "id": "3745d82e2971",
@@ -8845,7 +9069,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2SAT%20Logical%20Analysis%20%E2%80%94%20raw.json",
-      "order": 621
+      "order": 637
     },
     {
       "id": "108e8ab9f85c",
@@ -8859,7 +9083,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json",
-      "order": 622
+      "order": 638
     },
     {
       "id": "5a77b92d6d48",
@@ -8873,7 +9097,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.07%E2%80%A225.05.07%E2%80%A2Stringing-Along%20Theory%20Feedback%20%E2%80%94%20raw.json",
-      "order": 623
+      "order": 639
     },
     {
       "id": "9e1434fc2200",
@@ -8887,7 +9111,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20Percent%20Difference%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20Percent%20Difference%20%E2%80%94%20raw.json",
-      "order": 624
+      "order": 640
     },
     {
       "id": "982eeb9caefa",
@@ -8901,7 +9125,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json",
-      "order": 625
+      "order": 641
     },
     {
       "id": "4d73b8bfce68",
@@ -8915,7 +9139,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Significance%20of%201.002%C3%9710%E2%81%BB%C2%B2%E2%81%B7%20%E2%80%94%20raw.json",
-      "order": 626
+      "order": 642
     },
     {
       "id": "ef761529cd8f",
@@ -8929,7 +9153,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json",
-      "order": 627
+      "order": 643
     },
     {
       "id": "744202f999a3",
@@ -8943,7 +9167,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Redshift%20and%20Effective%20Mass%20%E2%80%94%20raw.json",
-      "order": 628
+      "order": 644
     },
     {
       "id": "a4e9629417f5",
@@ -8957,7 +9181,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw.json",
-      "order": 629
+      "order": 645
     },
     {
       "id": "9f3784ed96a4",
@@ -8971,7 +9195,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw.json",
-      "order": 630
+      "order": 646
     },
     {
       "id": "f84f45353f7b",
@@ -8985,7 +9209,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw.json",
-      "order": 631
+      "order": 647
     },
     {
       "id": "56bc4a9a1859",
@@ -8999,7 +9223,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20equation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20equation%20%E2%80%94%20raw.json",
-      "order": 632
+      "order": 648
     },
     {
       "id": "588791079e78",
@@ -9013,7 +9237,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20C%20%E2%80%94%20raw%20%281%29.json",
-      "order": 633
+      "order": 649
     },
     {
       "id": "a90959b16ea5",
@@ -9027,7 +9251,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%281%29.json",
-      "order": 634
+      "order": 650
     },
     {
       "id": "59b75db36d0a",
@@ -9041,7 +9265,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20A%20%E2%80%94%20raw%20%281%29.json",
-      "order": 635
+      "order": 651
     },
     {
       "id": "73ef10059dea",
@@ -9055,7 +9279,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%282%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Solve%20for%20B%20%E2%80%94%20raw%20%282%29.json",
-      "order": 636
+      "order": 652
     },
     {
       "id": "c1ae168531c5",
@@ -9069,7 +9293,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json",
-      "order": 637
+      "order": 653
     },
     {
       "id": "692519b52a62",
@@ -9083,7 +9307,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2GN-z11%20Redshift%20and%20Electron%20Mass%20%E2%80%94%20raw.json",
-      "order": 638
+      "order": 654
     },
     {
       "id": "4cb73b08b607",
@@ -9097,7 +9321,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json",
-      "order": 639
+      "order": 655
     },
     {
       "id": "1c8e1f618de8",
@@ -9111,7 +9335,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unifying%20Physics%20Theories%20%E2%80%94%20raw.json",
-      "order": 640
+      "order": 656
     },
     {
       "id": "ecfd9a1ca553",
@@ -9125,7 +9349,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json",
-      "order": 641
+      "order": 657
     },
     {
       "id": "2cdd3b9a65b2",
@@ -9139,7 +9363,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.05.04%E2%80%A225.05.05%E2%80%A2SAT%20Summary%20Breakdown%20%E2%80%94%20raw.json",
-      "order": 642
+      "order": 658
     },
     {
       "id": "e68d312b35d2",
@@ -9153,7 +9377,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json",
-      "order": 643
+      "order": 659
     },
     {
       "id": "8edad8a379ab",
@@ -9167,7 +9391,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A226.06.01%E2%80%A2Geometric%20Unity%20Theory%20%E2%80%94%20raw.json",
-      "order": 644
+      "order": 660
     },
     {
       "id": "363de3817958",
@@ -9181,7 +9405,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json",
-      "order": 645
+      "order": 661
     },
     {
       "id": "8cdf106764cf",
@@ -9195,7 +9419,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.04%E2%80%A225.05.04%E2%80%A2Unified%20Physical%20Theory%20Proposal%20%E2%80%94%20raw.json",
-      "order": 646
+      "order": 662
     },
     {
       "id": "c2360a703740",
@@ -9209,7 +9433,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json",
-      "order": 647
+      "order": 663
     },
     {
       "id": "5898e90c6e17",
@@ -9223,7 +9447,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.05.03%E2%80%A225.05.04%E2%80%A2Fundamental%20Physics%20Explanations%20%E2%80%94%20raw.json",
-      "order": 648
+      "order": 664
     },
     {
       "id": "de1ccb2d9af4",
@@ -9237,7 +9461,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.02%E2%80%A225.05.02%E2%80%A2Script%20Debugging%20Assistance%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.05.02%E2%80%A225.05.02%E2%80%A2Script%20Debugging%20Assistance%20%E2%80%94%20raw.json",
-      "order": 649
+      "order": 665
     },
     {
       "id": "e6ed2f91bc8b",
@@ -9251,7 +9475,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json",
-      "order": 650
+      "order": 666
     },
     {
       "id": "af07a9461aa0",
@@ -9265,7 +9489,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.29%E2%80%A225.04.30%E2%80%A2Model%20Framework%20Evaluation%20%E2%80%94%20raw.json",
-      "order": 651
+      "order": 667
     },
     {
       "id": "44ad22704df4",
@@ -9279,7 +9503,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json",
-      "order": 652
+      "order": 668
     },
     {
       "id": "39ef462f33bc",
@@ -9293,7 +9517,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.25%E2%80%A225.04.25%E2%80%A2Stringing%20Along%20Theory%20Evolution%20%E2%80%94%20raw.json",
-      "order": 653
+      "order": 669
     },
     {
       "id": "fd5fd5b15ce7",
@@ -9309,7 +9533,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
-      "order": 654
+      "order": 670
     },
     {
       "id": "b9a1d20c57e8",
@@ -9323,7 +9547,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13%E2%80%A226.06.15%E2%80%A2Physics%20Beyond%20Mathematics%20%E2%80%94%20raw.json",
-      "order": 655
+      "order": 671
     },
     {
       "id": "5fdfca580793",
@@ -9337,7 +9561,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json",
-      "order": 656
+      "order": 672
     },
     {
       "id": "851d5034b12d",
@@ -9351,7 +9575,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.12%E2%80%A225.04.13%E2%80%A2Risk%20Assessment%20Lobby%20Card%20Policy%20%E2%80%94%20raw.json",
-      "order": 657
+      "order": 673
     },
     {
       "id": "6993fbc84d00",
@@ -9365,7 +9589,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A2Patentability%20Analysis%20of%20Dart%20System%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A2Patentability%20Analysis%20of%20Dart%20System%20%E2%80%94%20raw.json",
-      "order": 658
+      "order": 674
     },
     {
       "id": "0145f41c0b19",
@@ -9379,7 +9603,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A21-n%20Dart%20System%20Patent%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.04.10%E2%80%A225.04.10%E2%80%A21-n%20Dart%20System%20Patent%20%E2%80%94%20raw.json",
-      "order": 659
+      "order": 675
     },
     {
       "id": "a8b7373d5050",
@@ -9393,7 +9617,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/G%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/G%20%E2%80%94%20raw.json",
-      "order": 660
+      "order": 676
     },
     {
       "id": "34a94696095b",
@@ -9407,7 +9631,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json",
-      "order": 661
+      "order": 677
     },
     {
       "id": "bd7ef61d04c8",
@@ -9421,7 +9645,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.07%E2%80%A225.04.07%E2%80%A2Predicting%20Superconductors%20Commentary%20%E2%80%94%20raw.json",
-      "order": 662
+      "order": 678
     },
     {
       "id": "66ef493fbc77",
@@ -9435,7 +9659,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json",
-      "order": 663
+      "order": 679
     },
     {
       "id": "f5b5f2b14f37",
@@ -9449,7 +9673,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json",
-      "order": 664
+      "order": 680
     },
     {
       "id": "f390a6f03351",
@@ -9463,7 +9687,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw.json",
-      "order": 665
+      "order": 681
     },
     {
       "id": "82201ca4e479",
@@ -9477,7 +9701,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.06%E2%80%A225.04.06%E2%80%A2Theoretical%20Physicist%27s%20Article%20Review%20%E2%80%94%20raw%20%281%29.json",
-      "order": 666
+      "order": 682
     },
     {
       "id": "064547a1d58d",
@@ -9493,7 +9717,7 @@
       ],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04%E2%80%A226.06.01%E2%80%A2SAT%20Framework%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04%E2%80%A226.06.01%E2%80%A2SAT%20Framework%20Analysis%20%E2%80%94%20raw.json",
-      "order": 667
+      "order": 683
     },
     {
       "id": "4ffbb9264ab7",
@@ -9507,7 +9731,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json",
-      "order": 668
+      "order": 684
     },
     {
       "id": "ada22eef37f9",
@@ -9521,7 +9745,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2Stringing%20Along%20Theory%20Review%20%E2%80%94%20raw.json",
-      "order": 669
+      "order": 685
     },
     {
       "id": "e3891898aea1",
@@ -9535,7 +9759,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json",
-      "order": 670
+      "order": 686
     },
     {
       "id": "946a0294f220",
@@ -9549,7 +9773,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.04%E2%80%A225.04.04%E2%80%A2SAT%20Theory%20Exploration%20%E2%80%94%20raw.json",
-      "order": 671
+      "order": 687
     },
     {
       "id": "e961df6113fa",
@@ -9563,7 +9787,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json",
-      "order": 672
+      "order": 688
     },
     {
       "id": "d982e42dcae3",
@@ -9577,7 +9801,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.04.03%E2%80%A225.04.03%E2%80%A2Weinstein%27s%20Physics%20Critique%20%E2%80%94%20raw.json",
-      "order": 673
+      "order": 689
     },
     {
       "id": "7476daae6e99",
@@ -9591,7 +9815,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json",
-      "order": 674
+      "order": 690
     },
     {
       "id": "4bfafb98f502",
@@ -9605,7 +9829,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.03.20%E2%80%A225.03.20%E2%80%A2Filament%20Intersections%20and%20Thought%20%E2%80%94%20raw.json",
-      "order": 675
+      "order": 691
     },
     {
       "id": "d44fd8c33334",
@@ -9619,7 +9843,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A226.08.26%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A226.08.26%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw%20%281%29.json",
-      "order": 676
+      "order": 692
     },
     {
       "id": "0e001992dae6",
@@ -9633,7 +9857,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A225.03.14%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11%E2%80%A225.03.14%E2%80%A2Russia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json",
-      "order": 677
+      "order": 693
     },
     {
       "id": "9270bec010bc",
@@ -9647,7 +9871,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BB%5D%20%F0%9F%93%9CRussia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BB%5D%20%F0%9F%93%9CRussia%27s%20Nuclear%20Arsenal%20Maintenance%20%E2%80%94%20raw.json",
-      "order": 678
+      "order": 694
     },
     {
       "id": "c4d86fea1ce1",
@@ -9661,7 +9885,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.18%E2%80%A225.02.20%E2%80%A2RMS%20Worldview%20Character%20Creation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.18%E2%80%A225.02.20%E2%80%A2RMS%20Worldview%20Character%20Creation%20%E2%80%94%20raw.json",
-      "order": 679
+      "order": 695
     },
     {
       "id": "a7aba6f222af",
@@ -9675,7 +9899,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.17%E2%80%A225.02.17%E2%80%A2Schizophrenie%20und%20%C3%9Cbersetzungshilfe%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.17%E2%80%A225.02.17%E2%80%A2Schizophrenie%20und%20%C3%9Cbersetzungshilfe%20%E2%80%94%20raw.json",
-      "order": 680
+      "order": 696
     },
     {
       "id": "dda7c8fa4e96",
@@ -9689,7 +9913,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json",
-      "order": 681
+      "order": 697
     },
     {
       "id": "1dee808350fb",
@@ -9703,7 +9927,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.02.14%E2%80%A225.02.14%E2%80%A2Rewriting%20with%20Depth%20and%20Emotion%20%E2%80%94%20raw.json",
-      "order": 682
+      "order": 698
     },
     {
       "id": "cd6f3c49789c",
@@ -9717,7 +9941,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.12%E2%80%A225.02.12%E2%80%A2Disrupting%20AI%20Podcast%20Format%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.02.12%E2%80%A225.02.12%E2%80%A2Disrupting%20AI%20Podcast%20Format%20%E2%80%94%20raw.json",
-      "order": 683
+      "order": 699
     },
     {
       "id": "0eaf45a48a82",
@@ -9731,7 +9955,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.29%E2%80%A225.01.29%E2%80%A2Non-monotonic%20Reasoning%20Explained%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.29%E2%80%A225.01.29%E2%80%A2Non-monotonic%20Reasoning%20Explained%20%E2%80%94%20raw.json",
-      "order": 684
+      "order": 700
     },
     {
       "id": "5fe68c7b4365",
@@ -9745,7 +9969,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.28%E2%80%A225.01.28%E2%80%A2AI%20Research%20Workflow%20Insights%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.28%E2%80%A225.01.28%E2%80%A2AI%20Research%20Workflow%20Insights%20%E2%80%94%20raw.json",
-      "order": 685
+      "order": 701
     },
     {
       "id": "54d372370849",
@@ -9759,7 +9983,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.22%E2%80%A225.01.22%E2%80%A2Camera%20Specs%20and%20Setup%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.01.22%E2%80%A225.01.22%E2%80%A2Camera%20Specs%20and%20Setup%20%E2%80%94%20raw.json",
-      "order": 686
+      "order": 702
     },
     {
       "id": "55d6fd3ba7b8",
@@ -9773,7 +9997,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.01.22%E2%80%A225.03.18%E2%80%A2Exposure%20Settings%20for%20DIY%20Cameras%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/25.01.22%E2%80%A225.03.18%E2%80%A2Exposure%20Settings%20for%20DIY%20Cameras%20%E2%80%94%20raw.json",
-      "order": 687
+      "order": 703
     },
     {
       "id": "1a98799e8150",
@@ -9787,7 +10011,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23%E2%80%A224.12.23%E2%80%A2String%20Configurations%20Generation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.12.23%E2%80%A224.12.23%E2%80%A2String%20Configurations%20Generation%20%E2%80%94%20raw.json",
-      "order": 688
+      "order": 704
     },
     {
       "id": "fa9a3534f7e5",
@@ -9801,7 +10025,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.12.02%E2%80%A224.12.02%E2%80%A2Interest%20Summary%20and%20Insights%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.12.02%E2%80%A224.12.02%E2%80%A2Interest%20Summary%20and%20Insights%20%E2%80%94%20raw.json",
-      "order": 689
+      "order": 705
     },
     {
       "id": "62a5230e1369",
@@ -9815,7 +10039,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Framework%20Integration%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Framework%20Integration%20Analysis%20%E2%80%94%20raw.json",
-      "order": 690
+      "order": 706
     },
     {
       "id": "3d95bb68cf4a",
@@ -9829,7 +10053,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15%E2%80%A224.11.15%E2%80%A2Stringing-Along%20Theory%20Summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.11.15%E2%80%A224.11.15%E2%80%A2Stringing-Along%20Theory%20Summary%20%E2%80%94%20raw.json",
-      "order": 691
+      "order": 707
     },
     {
       "id": "37f41b7eb9a2",
@@ -9843,7 +10067,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json",
-      "order": 692
+      "order": 708
     },
     {
       "id": "efde01e15320",
@@ -9857,7 +10081,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/24.11.15%E2%80%A224.11.15%E2%80%A2AND%20NOT%20Logic%20%E2%80%94%20raw.json",
-      "order": 693
+      "order": 709
     },
     {
       "id": "cafa070b4a81",
@@ -9871,7 +10095,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Consciousness%20AI%20Analysis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.11.15%E2%80%A224.11.15%E2%80%A2Consciousness%20AI%20Analysis%20%E2%80%94%20raw.json",
-      "order": 694
+      "order": 710
     },
     {
       "id": "f95fb7def42c",
@@ -9885,7 +10109,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23%E2%80%A224.09.23%E2%80%A2Song%20Lyrics%20Interpretation%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_19/24.09.23%E2%80%A224.09.23%E2%80%A2Song%20Lyrics%20Interpretation%20%E2%80%94%20raw.json",
-      "order": 695
+      "order": 711
     },
     {
       "id": "5848619ff2c4",
@@ -9899,7 +10123,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06%E2%80%A224.09.06%E2%80%A2ChatGPT%20Consciousness%20Argument%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.06%E2%80%A224.09.06%E2%80%A2ChatGPT%20Consciousness%20Argument%20%E2%80%94%20raw.json",
-      "order": 696
+      "order": 712
     },
     {
       "id": "38304f2a876e",
@@ -9913,7 +10137,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02%E2%80%A224.09.02%E2%80%A2Discrete%20Space%20and%20Dark%20Matter%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.02%E2%80%A224.09.02%E2%80%A2Discrete%20Space%20and%20Dark%20Matter%20%E2%80%94%20raw.json",
-      "order": 697
+      "order": 713
     },
     {
       "id": "51a8fffb7965",
@@ -9927,7 +10151,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01%E2%80%A224.09.02%E2%80%A2Gravitational%20Lensing%20Exoplanets%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.09.01%E2%80%A224.09.02%E2%80%A2Gravitational%20Lensing%20Exoplanets%20%E2%80%94%20raw.json",
-      "order": 698
+      "order": 714
     },
     {
       "id": "71c2703eb2a3",
@@ -9941,7 +10165,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.31%E2%80%A224.08.31%E2%80%A2Personality%20Test%20Summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.31%E2%80%A224.08.31%E2%80%A2Personality%20Test%20Summary%20%E2%80%94%20raw.json",
-      "order": 699
+      "order": 715
     },
     {
       "id": "2a27eacebee8",
@@ -9955,7 +10179,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.23%E2%80%A224.08.23%E2%80%A2Conlang%20Creation%20Worksheet%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.23%E2%80%A224.08.23%E2%80%A2Conlang%20Creation%20Worksheet%20%E2%80%94%20raw.json",
-      "order": 700
+      "order": 716
     },
     {
       "id": "98940fdb371d",
@@ -9969,7 +10193,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08%E2%80%A224.08.08%E2%80%A2Forces%20Across%20Temporal%20Points%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08%E2%80%A224.08.08%E2%80%A2Forces%20Across%20Temporal%20Points%20%E2%80%94%20raw.json",
-      "order": 701
+      "order": 717
     },
     {
       "id": "ecd3245dfc36",
@@ -9983,7 +10207,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.27%E2%80%A224.07.27%E2%80%A2Future%20of%20AI%20Music%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.27%E2%80%A224.07.27%E2%80%A2Future%20of%20AI%20Music%20%E2%80%94%20raw.json",
-      "order": 702
+      "order": 718
     },
     {
       "id": "3a8806832ae5",
@@ -9997,7 +10221,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.25%E2%80%A224.07.25%E2%80%A2Neo-Riemannian%20Cube%20Dance%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.07.25%E2%80%A224.07.25%E2%80%A2Neo-Riemannian%20Cube%20Dance%20%E2%80%94%20raw.json",
-      "order": 703
+      "order": 719
     },
     {
       "id": "571aa136d37e",
@@ -10011,7 +10235,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04%E2%80%A224.07.04%E2%80%A2CTMU_%20Mind-Reality%20Integration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.07.04%E2%80%A224.07.04%E2%80%A2CTMU_%20Mind-Reality%20Integration%20%E2%80%94%20raw.json",
-      "order": 704
+      "order": 720
     },
     {
       "id": "dc58b716e3af",
@@ -10025,7 +10249,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json",
-      "order": 705
+      "order": 721
     },
     {
       "id": "2d374ee6ba21",
@@ -10039,7 +10263,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json",
-      "order": 706
+      "order": 722
     },
     {
       "id": "acfe0b2483fe",
@@ -10053,7 +10277,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw.json",
-      "order": 707
+      "order": 723
     },
     {
       "id": "e53965959c36",
@@ -10067,7 +10291,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.04.01%E2%80%A224.04.01%E2%80%A2String%20Theory%20Synthesis%20%E2%80%94%20raw%20%281%29.json",
-      "order": 708
+      "order": 724
     },
     {
       "id": "c42b81e74a1a",
@@ -10081,7 +10305,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29%E2%80%A224.03.30%E2%80%A2Maya%20%26%20Aiden%20Episodes%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.29%E2%80%A224.03.30%E2%80%A2Maya%20%26%20Aiden%20Episodes%20%E2%80%94%20raw.json",
-      "order": 709
+      "order": 725
     },
     {
       "id": "02464ebc8b94",
@@ -10095,7 +10319,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json",
-      "order": 710
+      "order": 726
     },
     {
       "id": "e332f383d010",
@@ -10109,7 +10333,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28%E2%80%A224.03.28%E2%80%A2Tletlegomega%20Speculation%20Summary%20%E2%80%94%20raw.json",
-      "order": 711
+      "order": 727
     },
     {
       "id": "971cf397671e",
@@ -10123,7 +10347,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22%E2%80%A226.06.01%E2%80%A2DIMENSIONAL%20GRAVITY%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22%E2%80%A226.06.01%E2%80%A2DIMENSIONAL%20GRAVITY%20%E2%80%94%20raw.json",
-      "order": 712
+      "order": 728
     },
     {
       "id": "93e26df35239",
@@ -10137,7 +10361,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2RMS%20Taxonomy%20and%20Truth%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2RMS%20Taxonomy%20and%20Truth%20%E2%80%94%20raw.json",
-      "order": 713
+      "order": 729
     },
     {
       "id": "6d43e236935d",
@@ -10151,7 +10375,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw%20%281%29.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2Radical%20Meta-Skepticism%20Overview%20%E2%80%94%20raw%20%281%29.json",
-      "order": 714
+      "order": 730
     },
     {
       "id": "f088df59c386",
@@ -10165,7 +10389,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2A%3DA%20Identity%20Principle%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.08%E2%80%A224.03.08%E2%80%A2A%3DA%20Identity%20Principle%20%E2%80%94%20raw.json",
-      "order": 715
+      "order": 731
     },
     {
       "id": "91693278bdb3",
@@ -10179,7 +10403,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04%E2%80%A224.03.04%E2%80%A2Up%20in%20Science%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/24.03.04%E2%80%A224.03.04%E2%80%A2Up%20in%20Science%20%E2%80%94%20raw.json",
-      "order": 716
+      "order": 732
     },
     {
       "id": "5d700f1c114a",
@@ -10193,7 +10417,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.28%E2%80%A223.11.28%E2%80%A2Gothic-Slavic%20Fusion%20Kingdom%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.28%E2%80%A223.11.28%E2%80%A2Gothic-Slavic%20Fusion%20Kingdom%20%E2%80%94%20raw.json",
-      "order": 717
+      "order": 733
     },
     {
       "id": "465eb0e5300f",
@@ -10207,7 +10431,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.15%E2%80%A223.11.15%E2%80%A2Intelligence%2C%20Perception%2C%20Experience_%20Future%20Exploration%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.11.15%E2%80%A223.11.15%E2%80%A2Intelligence%2C%20Perception%2C%20Experience_%20Future%20Exploration%20%E2%80%94%20raw.json",
-      "order": 718
+      "order": 734
     },
     {
       "id": "766ea85ed3cb",
@@ -10221,7 +10445,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.26%E2%80%A223.10.26%E2%80%A2Darkroom%20Mastery%20Unleashed%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.26%E2%80%A223.10.26%E2%80%A2Darkroom%20Mastery%20Unleashed%20%E2%80%94%20raw.json",
-      "order": 719
+      "order": 735
     },
     {
       "id": "fa25c930df77",
@@ -10235,7 +10459,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.20%E2%80%A223.10.20%E2%80%A2RPI%20Heliotelescope%20at%20Rensselaer%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.20%E2%80%A223.10.20%E2%80%A2RPI%20Heliotelescope%20at%20Rensselaer%20%E2%80%94%20raw.json",
-      "order": 720
+      "order": 736
     },
     {
       "id": "b7bb1ae980c8",
@@ -10249,7 +10473,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.18%E2%80%A223.10.24%E2%80%A2Arctic%20Bridge%20Chaos%20Showdown%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.10.18%E2%80%A223.10.24%E2%80%A2Arctic%20Bridge%20Chaos%20Showdown%20%E2%80%94%20raw.json",
-      "order": 721
+      "order": 737
     },
     {
       "id": "7e12b94a0ec0",
@@ -10263,7 +10487,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15%E2%80%A223.09.30%E2%80%A2Asteroid%20Mining%20Workshop%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.09.15%E2%80%A223.09.30%E2%80%A2Asteroid%20Mining%20Workshop%20%E2%80%94%20raw.json",
-      "order": 722
+      "order": 738
     },
     {
       "id": "63efa60757d8",
@@ -10277,7 +10501,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.08.15%E2%80%A223.08.15%E2%80%A2Quirky%20Life%20Journey%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.08.15%E2%80%A223.08.15%E2%80%A2Quirky%20Life%20Journey%20%E2%80%94%20raw.json",
-      "order": 723
+      "order": 739
     },
     {
       "id": "c06e286b1d74",
@@ -10291,7 +10515,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.07.22%E2%80%A223.07.22%E2%80%A2Data%20Ends_%20Sep%202021%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.07.22%E2%80%A223.07.22%E2%80%A2Data%20Ends_%20Sep%202021%20%E2%80%94%20raw.json",
-      "order": 724
+      "order": 740
     },
     {
       "id": "bc704ee76471",
@@ -10305,7 +10529,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07%E2%80%A226.09.12%E2%80%A2Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/23.07.07%E2%80%A226.09.12%E2%80%A2Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
-      "order": 725
+      "order": 741
     },
     {
       "id": "267eb48239bb",
@@ -10319,7 +10543,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BB%5D%20Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/%5BB%5D%20Spacetime%20Curvature%20and%20Rigidity%20%E2%80%94%20raw.json",
-      "order": 726
+      "order": 742
     },
     {
       "id": "c14b7c1238ba",
@@ -10333,7 +10557,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.22%E2%80%A223.05.22%E2%80%A2Russian%20Grammar%20Help%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.22%E2%80%A223.05.22%E2%80%A2Russian%20Grammar%20Help%20%E2%80%94%20raw.json",
-      "order": 727
+      "order": 743
     },
     {
       "id": "23d5f40eed11",
@@ -10347,7 +10571,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21%E2%80%A223.05.21%E2%80%A2ExoWorld%20Creation%20Journey%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.21%E2%80%A223.05.21%E2%80%A2ExoWorld%20Creation%20Journey%20%E2%80%94%20raw.json",
-      "order": 728
+      "order": 744
     },
     {
       "id": "2bef4ea8cbdc",
@@ -10361,7 +10585,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.15%E2%80%A223.05.15%E2%80%A2AI%20Ethics%20%26%20Future%20Implications%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.05.15%E2%80%A223.05.15%E2%80%A2AI%20Ethics%20%26%20Future%20Implications%20%E2%80%94%20raw.json",
-      "order": 729
+      "order": 745
     },
     {
       "id": "20e6aa77c32b",
@@ -10375,7 +10599,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25%E2%80%A223.04.25%E2%80%A2Notation%20for%20Set%20Theory.%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25%E2%80%A223.04.25%E2%80%A2Notation%20for%20Set%20Theory.%20%E2%80%94%20raw.json",
-      "order": 730
+      "order": 746
     },
     {
       "id": "694f83706de7",
@@ -10389,7 +10613,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.24%E2%80%A223.04.24%E2%80%A2RESUME_%20EDUCATION%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.24%E2%80%A223.04.24%E2%80%A2RESUME_%20EDUCATION%20%E2%80%94%20raw.json",
-      "order": 731
+      "order": 747
     },
     {
       "id": "fb9e2ea6fd8c",
@@ -10403,7 +10627,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12%E2%80%A223.04.12%E2%80%A2Epistemology%20of%20the%20World%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.12%E2%80%A223.04.12%E2%80%A2Epistemology%20of%20the%20World%20%E2%80%94%20raw.json",
-      "order": 732
+      "order": 748
     },
     {
       "id": "8ceb4702612d",
@@ -10417,7 +10641,7 @@
       "warnings": [],
       "raw_url": "https://raw.githubusercontent.com/Satobloc/HsH/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.07%E2%80%A223.04.08%E2%80%A2Logic%20Characters%20Usage%20%E2%80%94%20raw.json",
       "github_url": "https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.07%E2%80%A223.04.08%E2%80%A2Logic%20Characters%20Usage%20%E2%80%94%20raw.json",
-      "order": 733
+      "order": 749
     }
   ]
 }
