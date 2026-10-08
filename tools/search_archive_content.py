@@ -591,6 +591,7 @@ def main()->int:
   "content_coverage_gaps":content_gaps,
   "coverage_by_repository":{name:dict(per_repo_stats.get(name,{})) for name in ARCHIVE_ALIASES},
   "inventory_limitations":dict(scan_stats),
+  "coverage_reconciliation":{"files_match":sum(v.get("files_scanned",0) for v in per_repo_stats.values())==files,"records_match":sum(v.get("records_scanned",0) for v in per_repo_stats.values())==records,"matches_match":sum(v.get("matching_records",0) for v in per_repo_stats.values())==raw_match_records},
   "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
   "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
   "pagination":{"offset":args.offset,"limit":args.limit,"total_hits":result_total,"returned_hits":len(hits)},
