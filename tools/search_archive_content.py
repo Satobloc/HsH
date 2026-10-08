@@ -525,11 +525,22 @@ def main()->int:
  coverage_repos=sorted({repo_for(root, args.roots) for root in args.roots})
  missing_repos=[name for name in ARCHIVE_ALIASES if name not in coverage_repos]
  coverage_status="complete" if not missing_repos else "partial"
+ # Checkout presence and searchable-content coverage are different claims.
+ # A present checkout can contain skipped, oversized or unparsed sources.
+ content_gap_keys=("excluded_by_policy","unsupported_extension","oversized_files_skipped","inaccessible_files_skipped","files_without_readable_records")
+ content_gaps={k:int(scan_stats.get(k,0)) for k in content_gap_keys if scan_stats.get(k,0)}
+ content_coverage_status="unverified" if not missing_repos and not content_gaps else "partial"
+ content_coverage_warning=("Searchable content is not verified complete; inspect inventory_limitations and per-source extraction outcomes. "
+  "Repository presence does not establish full-text coverage.")
  manifest={"schema_version":3,"capabilities":describe_capabilities(),
   "archives_requested":list(ARCHIVE_ALIASES),
   "archives_searched":coverage_repos,
   "missing_archives":missing_repos,
   "coverage_status":coverage_status,
+  "coverage_status_scope":"repository_checkout_presence_only",
+  "content_coverage_status":content_coverage_status,
+  "content_coverage_warning":content_coverage_warning,
+  "content_coverage_gaps":content_gaps,
   "inventory_limitations":dict(scan_stats),
   "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
   "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
@@ -577,7 +588,7 @@ def main()->int:
  lines+=["","## Concept graph",""]
  lines += [f"- `{a}` ↔ `{b}` — {n} co-occurring hit record(s)" for (a,b),n in edges.most_common()] or ["_No configured topic co-occurrences._"]
  (args.out/"SEARCH_RESULTS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
- print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,"coverage_status":coverage_status,"missing_archives":missing_repos,
+ print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,"coverage_status":coverage_status,"coverage_status_scope":"repository_checkout_presence_only","content_coverage_status":content_coverage_status,"content_coverage_gaps":content_gaps,"missing_archives":missing_repos,
   "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
  return 0
 if __name__=="__main__":raise SystemExit(main())
