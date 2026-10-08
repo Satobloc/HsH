@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-ravel-orientation-load-coupling-001",
-  "query": "((chirality OR handedness OR orientation OR frame OR spin) AND (filament OR worldtube OR helix) AND (timesheet OR interface OR intersection OR drag OR coupling)) OR ((counterrotating OR reversal) AND (force OR torque OR wake OR deformation))"
+  "request_id": "2026-10-07-morrow-gr-qm-isomorphism-origin-001",
+  "query": "(\"isomorphism\" OR \"Schwarzschild\" OR \"Laplace-Beltrami\" OR \"SO(4)\" OR \"SU(2)\") AND (\"quantum\" OR \"QM\" OR \"relativity\" OR \"GR\" OR \"worldline\")"
 }
