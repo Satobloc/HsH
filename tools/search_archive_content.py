@@ -14,15 +14,16 @@ Fields: body, math, name, path, ext, type/kind, has, author/speaker, role, title
 from __future__ import annotations
 import argparse,csv,fnmatch,hashlib,json,re,shlex
 from collections import Counter,defaultdict
-from dataclasses import asdict,dataclass
+from dataclasses import asdict,dataclass,field
+from mersearch_chronology import Chronology, VERSIONS
 from datetime import datetime,timezone
 from pathlib import Path
 from typing import Any,Iterable
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
-TOOL_NAME="Mercer_Searcher_1.1-dev"
-TOOL_VERSION="1.1-dev"
+TOOL_NAME="Mercer_Searcher_1.2-chronology-dev"
+TOOL_VERSION="1.2-chronology-dev"
 WORD_RE=re.compile(r"\w+(?:['’.-]\w+)*",re.UNICODE)
 STATUS_PATTERNS=[
  ("correction",re.compile(r"\b(correction|correct(?:ed|ion)?|actually|rather|not quite|that's not|that is not)\b",re.I)),
@@ -38,6 +39,7 @@ PRECEDENCE={"OR":1,"AND":2,"NEAR":3,"NOT":4}
 class Record:
  path:str;kind:str;text:str;title:str="";conversation_id:str="";message_id:str=""
  speaker:str="";role:str="";timestamp:str="";locator:str="";viewer_url:str=""
+ chronology:dict[str,Any]=field(default_factory=dict);repository:str=""
 @dataclass
 class Eval:
  ok:bool; positions:list[int]; terms:list[str]; trace:list[str]; near:list[dict[str,Any]]
@@ -46,6 +48,7 @@ class Hit:
  query:str;path:str;kind:str;title:str;conversation_id:str;message_id:str;speaker:str;role:str
  timestamp:str;locator:str;excerpt:str;status_signals:list[str];viewer_url:str;source_sha256:str
  matched_terms:list[str];near_matches:list[dict[str,Any]];match_trace:list[str];topic_hits:list[str]
+ chronology:dict[str,Any]=field(default_factory=dict);repository:str="";source_url:str=""
 
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
