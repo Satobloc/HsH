@@ -93,6 +93,12 @@ class SearchTests(unittest.TestCase):
         self.run_cli("--expr",expr,"--out",str(self.out),*extra)
         return json.loads((self.out/"SEARCH_RESULTS.json").read_text(encoding="utf-8"))
 
+    def test_default_discovery_from_checkout_cwd(self):
+        proc=subprocess.run([sys.executable,str(SCRIPT),"--coverage"],
+                            capture_output=True,text=True,cwd=self.hsh,check=False)
+        self.assertEqual(proc.returncode,0,proc.stderr)
+        self.assertEqual(json.loads(proc.stdout)["coverage_status"],"complete")
+
     def test_capabilities_no_query_or_roots(self):
         p=self.run_cli("--capabilities")
         spec=json.loads(p.stdout)
