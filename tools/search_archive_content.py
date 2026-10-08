@@ -18,7 +18,7 @@ from collections import Counter,defaultdict
 from dataclasses import asdict,dataclass,field
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
-from mersearch_chronology import Chronology, VERSIONS
+from mersearch_chronology import Chronology, VERSIONS, eras, message_date
 from datetime import datetime,timezone
 from pathlib import Path
 from typing import Any,Iterable
@@ -53,6 +53,7 @@ class Hit:
  timestamp:str;locator:str;excerpt:str;status_signals:list[str];viewer_url:str;source_sha256:str
  matched_terms:list[str];near_matches:list[dict[str,Any]];match_trace:list[str];topic_hits:list[str]
  chronology:dict[str,Any]=field(default_factory=dict);repository:str="";source_url:str=""
+ passage_chronology:dict[str,Any]=field(default_factory=dict)
 
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
@@ -204,10 +205,14 @@ def field_eval(rec:Record,term:str)->Eval|None:
  p=Path(rec.path);ext=p.suffix.casefold().lstrip(".");name=p.name.casefold()
  if field in ("era","version","archive_date","origin","date_confidence","document_type","retrospective","date_mentioned","repo","repository"):
   meta=rec.chronology or {}
-  if field=="era":target=" ".join(meta.get("era_labels",[]))
+  if field=="era":
+   direct=message_date(rec.timestamp) if rec.kind in ("conversation-message","notebooklm-message") else ""
+   target=" ".join(eras(direct,direct) if direct else meta.get("era_labels",[]))
   elif field=="version":target=" ".join(v["name"] for v in meta.get("version_evidence",[]));val=val.replace(" ","-")
   elif field=="archive_date":target=meta.get("archive_date","")
-  elif field=="origin":target=meta.get("estimated_origin_start","")
+  elif field=="origin":
+   direct=message_date(rec.timestamp) if rec.kind in ("conversation-message","notebooklm-message") else ""
+   target=direct or meta.get("estimated_origin_start","")
   elif field=="date_mentioned":target=" ".join(e["value"] for e in meta.get("date_evidence",[]) if e["kind"]=="date_mentioned")
   elif field=="date_confidence":target=meta.get("date_confidence","")
   elif field=="document_type":target=meta.get("document_type","")
@@ -308,7 +313,7 @@ def make_excerpt(text:str,positions:list[int],chars:int)->str:
 def sort_hits(hits:list[Hit],key:str,desc:bool)->None:
  def k(h:Hit):
   if key=="date":return (h.timestamp or "9999",h.speaker.casefold(),h.path,h.locator)
-  if key=="origin":return (h.chronology.get("estimated_origin_start") or "9999",h.path,h.locator)
+  if key=="origin":return (h.passage_chronology.get("estimated_origin_start") or h.chronology.get("estimated_origin_start") or "9999",h.path,h.locator)
   if key=="author":return ((h.speaker or h.role).casefold(),h.timestamp or "9999",h.path,h.locator)
   if key=="title":return (h.title.casefold(),h.timestamp or "9999",h.locator)
   if key=="path":return (h.path.casefold(),h.locator)
@@ -461,6 +466,9 @@ def main()->int:
    hits.append(Hit(query,rel,rec.kind,rec.title,rec.conversation_id,rec.message_id,rec.speaker,rec.role,rec.timestamp,rec.locator,
     make_excerpt(rec.text,ev.positions,args.excerpt_chars),status(rec.text),viewer_link(vc or {},rec.message_id),sha(path,cache),
     list(dict.fromkeys(ev.terms)),ev.near,ev.trace,present))
+   passage=Chronology(rel)
+   passage.observe(rec.text,rec.locator,rec.kind,rec.timestamp,rec.capture_timestamp)
+   hits[-1].passage_chronology=passage.result()
   if records==record_start:scan_stats["files_without_readable_records"]+=1
   if len(hits)>hit_start:
    if not requires_chrono:
