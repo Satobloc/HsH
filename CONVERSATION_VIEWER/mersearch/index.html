@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#132631">
+  <meta name="description" content="Mersearch, a provenance-first search atlas of the SAT and H(s)H research archives.">
+  <title>Mersearch | The Glass Archive</title>
+  <link rel="stylesheet" href="./mersearch.css?v=1">
+  <script defer src="./mersearch.js?v=1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#searchQuery">Skip to search</a>
+  <div class="shell">
+    <aside class="rail" aria-label="Mersearch navigation">
+      <div class="rail-top">
+        <a class="brand" href="./" aria-label="Mersearch home">
+          <span class="brand-emblem" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17.5" stroke="currentColor" stroke-width="1.1"/><ellipse cx="24" cy="24" rx="17" ry="6.5" transform="rotate(-30 24 24)" stroke="currentColor" stroke-width="1.3"/><path d="M7 24h34M24 6.5v35" stroke="currentColor" stroke-width=".75" opacity=".55"/><circle cx="24" cy="24" r="3" fill="currentColor"/></svg></span>
+          <span><strong>MERSEARCH</strong><small>The Glass Archive</small></span>
+        </a>
+        <div class="rail-section">EXPLORE</div>
+        <nav class="rail-nav" aria-label="Views">
+          <button class="nav-item is-active" data-view="results"><span aria-hidden="true">⌕</span> Search <span class="nav-key">/</span></button>
+          <button class="nav-item" data-view="timeline"><span aria-hidden="true">◷</span> Chronology</button>
+          <button class="nav-item" data-view="saved"><span aria-hidden="true">▤</span> Saved searches</button>
+          <a class="nav-item" href="../" rel="noopener"><span aria-hidden="true">↗</span> Conversation Viewer</a>
+        </nav>
+        <div class="rail-section with-gap">YOUR ARCHIVES <span id="scopeHeadline" class="rail-count">CHECKING</span></div>
+        <div class="archive-rows" id="archiveRows" aria-live="polite">
+          <div class="archive-row"><span class="archive-light pending"></span><span>Original SAT archive</span><small>…</small></div>
+          <div class="archive-row"><span class="archive-light pending"></span><span>H(s)H workspace</span><small>…</small></div>
+          <div class="archive-row"><span class="archive-light pending"></span><span>Research resources</span><small>…</small></div>
+        </div>
+        <p id="scopeNote" class="rail-caption">Archive availability will appear here when a search service or results file is connected.</p>
+      </div>
+      <div class="rail-bottom">
+        <div class="rail-info"><span class="tiny-orbit">◎</span> Built for following evidence, not just finding words.</div>
+        <div class="rail-links"><a href="https://github.com/Satobloc/HsH" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#" id="aboutLink">About Mersearch</a></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="breadcrumb">SAT / H(s)H <span>›</span> Research archive <span>›</span> <strong>Search</strong></div>
+        <div class="topbar-right">
+          <span id="connectionState" class="connection" role="status"><i></i> Checking search service</span>
+          <button id="importOpen" class="text-button" type="button" title="Open an existing Mersearch JSON export">↑ Import results</button>
+          <input id="importFile" type="file" accept=".json,application/json" hidden>
+          <button id="helpOpen" class="help-button" type="button" aria-label="Help and search tips">?</button>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="eyebrow"><span class="pulse-dot"></span> THE RESEARCH ATLAS <span class="hero-index">01 / SEARCH</span></div>
+        <h1>Find the <em>first time</em><br>we said it.</h1>
+        <p>Three archives. Thousands of conversations. One thread back to the source.<br class="desktop-break"> Search a phrase, an equation, or the history of an idea.</p>
+      </section>
+
+      <section class="search-frame" aria-label="Search the archives">
+        <form id="searchForm">
+          <div class="search-composer">
+            <span class="search-glyph" aria-hidden="true">⌕</span>
+            <label class="sr-only" for="searchQuery">Search query</label>
+            <input id="searchQuery" type="search" autocomplete="off" spellcheck="false" placeholder="A phrase, number, equation, or question…">
+            <button id="clearQuery" type="button" aria-label="Clear search" hidden>×</button>
+            <button id="searchButton" class="search-submit" type="submit">Search <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="search-toolbar">
+            <div class="mode-switch" role="group" aria-label="Search mode">
+              <button type="button" data-querymode="text" class="selected" aria-pressed="true">Text</button>
+              <button type="button" data-querymode="exact" aria-pressed="false">Exact phrase</button>
+              <button type="button" data-querymode="math" aria-pressed="false">Equation</button>
+              <button type="button" data-querymode="advanced" aria-pressed="false">Advanced</button>
+            </div>
+            <button type="button" id="advancedToggle" class="filter-toggle" aria-expanded="false" aria-controls="advancedPanel">⚑ Filters <span id="filterCount"></span><span aria-hidden="true">⌄</span></button>
+          </div>
+          <div id="advancedPanel" class="advanced-panel" hidden>
+            <div class="field-grid">
+              <label>Historical era
+                <select id="eraFilter">
+                  <option value="">Any era</option>
+                  <option value="early-2024">Early 2024</option><option value="mid-2024">Mid 2024</option><option value="late-2024">Late 2024</option>
+                  <option value="early-2025">Early 2025</option><option value="mid-2025">Mid 2025</option><option value="late-2025">Late 2025</option>
+                  <option value="early-2026">Early 2026</option><option value="mid-2026">Mid 2026</option><option value="late-2026">Late 2026</option>
+                </select>
+              </label>
+              <label>Version / name
+                <select id="versionFilter">
+                  <option value="">Any version</option>
+                  <option value="stringing-along">Stringing Along Theory</option>
+                  <option value="toy-theory">Toy theory</option>
+                  <option value="sat-2">SAT 2.0</option>
+                  <option value="sat-mark-iv">Mark IV</option><option value="sat-mark-iv-2">Mark IV.2</option>
+                  <option value="sat-mark-v">Mark V</option><option value="sat-x">SAT X</option>
+                  <option value="sat-xy">SAT XY</option><option value="sat-z">SAT Z</option><option value="sat-o">SAT O</option>
+                  <option value="chronophysical">Chronophysical</option>
+                  <option value="sato-blockwave">SATO / Blockwave</option><option value="hsh">H(s)H</option>
+                </select>
+              </label>
+              <label>Speaker
+                <select id="authorFilter"><option value="">Anyone</option><option value="user">Nathan / user</option><option value="assistant">Assistant</option></select>
+              </label>
+              <label>Source
+                <select id="repoFilter">
+                  <option value="">All available archives</option>
+                  <option value="Satobloc/SAT_THEORY_ARCHIVE_2023-25">Original SAT</option>
+                  <option value="Satobloc/HsH">H(s)H</option>
+                  <option value="Satobloc/HSH_RESOURCES">Research resources</option>
+                </select>
+              </label>
+              <label>Match location
+                <select id="fieldFilter"><option value="">Anywhere in the text</option><option value="name">Filename only</option><option value="title">Document title</option><option value="path">Archive path</option></select>
+              </label>
+              <label>Date confidence
+                <select id="confidenceFilter"><option value="">Any confidence</option><option value="direct-message-timestamps">Timestamped messages</option><option value="low-version-inference">Version-era estimate</option><option value="undetermined">Undated / uncertain</option></select>
+              </label>
+            </div>
+            <label class="check-inline"><input id="retrospectiveFilter" type="checkbox"> Exclude likely retrospective material</label>
+            <div class="advanced-foot"><span>Dates and version eras are clues. Each result keeps its underlying evidence.</span><button id="resetFilters" type="button">Reset filters</button></div>
+          </div>
+        </form>
+        <div class="suggestions"><span>TRY A TRAIL</span>
+          <button data-example="0.24">0.24 rad <span>↗</span></button>
+          <button data-example="refractive index">refractive index <span>↗</span></button>
+          <button data-example="Chronophysical">Chronophysical <span>↗</span></button>
+          <button data-example="math:B=3/(4*pi)">B = 3 / (4π) <span>↗</span></button>
+        </div>
+      </section>
+
+      <section id="notice" class="notice" role="status" aria-live="polite">
+        <span id="noticeIcon" class="notice-symbol">◎</span>
+        <div><strong id="noticeTitle">Finding your archives</strong><p id="noticeText">Checking for a live Mersearch service. You can also open a saved JSON result file.</p></div>
+        <button id="noticeDismiss" type="button" aria-label="Dismiss notification">×</button>
+      </section>
+
+      <section id="resultsSection" class="results-section" aria-label="Search results">
+        <div class="results-heading">
+          <div><div class="section-eyebrow">DISCOVERY / <span id="viewLabel">RESULTS</span></div><h2 id="resultHeading">Your research starts here.</h2><p id="resultSubheading">Search across the archive, or import a saved Mersearch result set.</p></div>
+          <div class="result-actions">
+            <label class="sort-select">Sort
+              <select id="sortSelect"><option value="date">Message date</option><option value="origin">Likely earliest</option><option value="title">Title</option><option value="path">File path</option></select>
+            </label>
+            <label class="sort-select">Show
+              <select id="resultMode"><option value="records">Passages</option><option value="files">Files</option></select>
+            </label>
+            <button id="exportButton" type="button" class="outline-button" disabled>↓ Export</button>
+          </div>
+        </div>
+        <div id="timelinePanel" class="timeline-panel" hidden>
+          <div class="timeline-head"><strong>Occurrences over time</strong><small>Bars count results with dated evidence. Dates inferred from version names are separated.</small></div>
+          <div id="timelineChart" class="timeline-chart"></div>
+          <div class="timeline-legend"><span><i class="legend-direct"></i> Timestamped</span><span><i class="legend-inferred"></i> Estimated</span><span id="timelineUndated"></span></div>
+        </div>
+        <div id="resultsBody" class="results-body">
+          <div class="empty-state">
+            <div class="empty-graphic" aria-hidden="true"><svg viewBox="0 0 180 120" fill="none"><ellipse cx="90" cy="60" rx="78" ry="31" stroke="currentColor" stroke-width="1.3" transform="rotate(-26 90 60)"/><ellipse cx="90" cy="60" rx="49" ry="49" stroke="currentColor" stroke-width=".9" stroke-dasharray="3 5"/><path d="M28 60h124M90 4v112" stroke="currentColor" stroke-width=".75" opacity=".5"/><circle cx="90" cy="60" r="6" fill="currentColor"/><circle cx="154" cy="36" r="4" fill="currentColor"/></svg></div>
+            <h3>A good question leaves a trail.</h3>
+            <p>Try <button type="button" class="inline-link" data-example="0.24">0.24 radians</button>, trace a theory name, or search an equation. Every hit leads back to its source.</p>
+          </div>
+        </div>
+        <nav id="pager" class="pager" aria-label="Search result pages" hidden><button id="prevPage" type="button">← Previous</button><span id="pageLabel">1 / 1</span><button id="nextPage" type="button">Next →</button></nav>
+      </section>
+      <footer class="main-footer"><span>MERSEARCH · SOURCE FIRST</span><span>Built for the Glass Sausage Factory <span class="footer-mark">◇</span> <a href="https://github.com/Satobloc/HsH" target="_blank" rel="noopener noreferrer">Satobloc / H(s)H</a></span></footer>
+    </main>
+  </div>
+
+  <dialog id="helpDialog" class="help-dialog" aria-labelledby="helpTitle">
+    <div class="dialog-top"><div><span class="section-eyebrow">FIELD GUIDE</span><h2 id="helpTitle">Search the record.</h2></div><button class="dialog-close" data-close-dialog type="button" aria-label="Close help">×</button></div>
+    <p>Search just as you would on the web, or switch to <strong>Advanced</strong> to use Mersearch's full query language.</p>
+    <div class="guide-grid">
+      <div><strong>Exact words</strong><code>"optical phase shift"</code><span>Find words together, in that order.</span></div>
+      <div><strong>Nearby ideas</strong><code>light NEAR/12 helix</code><span>Find words within twelve tokens.</span></div>
+      <div><strong>Either term</strong><code>glitch OR anomaly</code><span>Include alternative terminology.</span></div>
+      <div><strong>Exclude terms</strong><code>holonomy AND NOT draft</code><span>Restrict a search.</span></div>
+      <div><strong>Math notation</strong><code>math:"B=3/(4*pi)"</code><span>Symbol matching, not algebraic equivalence.</span></div>
+      <div><strong>History</strong><code>era:early-2025</code><span>Use estimated dates without losing provenance.</span></div>
+    </div>
+    <p class="guide-caution">A dated quotation is not necessarily a dated conversation. Mersearch separates message timestamps, archive-folder dates, and estimated eras. Private or quarantined material is never made public by this page.</p>
+    <div class="dialog-actions"><a href="https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/MERSEARCH_RESEARCH_PLATFORM.md" target="_blank" rel="noopener noreferrer">Technical documentation ↗</a><button data-close-dialog class="search-submit" type="button">Got it</button></div>
+  </dialog>
+  <dialog id="aboutDialog" class="help-dialog" aria-labelledby="aboutTitle">
+    <div class="dialog-top"><div><span class="section-eyebrow">ABOUT THE ARCHIVE</span><h2 id="aboutTitle">An idea has a history.</h2></div><button class="dialog-close" data-close-dialog type="button" aria-label="Close about">×</button></div>
+    <p>Mersearch is a provenance-first research interface for the public SAT/H(s)H development record. It is designed to find original calculations, conversations, revisions, and the mathematical paths connecting them.</p>
+    <p>The historical record includes experimental work, speculations, dead ends and corrections. Search is evidence discovery, not endorsement of any theoretical claim.</p>
+    <p class="guide-caution">The public site requires a separately deployed, explicitly allowlisted search service. Without one, this page can open and inspect exported Mersearch JSON result sets. It will never label that offline mode as live search.</p>
+    <div class="dialog-actions"><a href="../" rel="noopener">Open Conversation Viewer ↗</a><button data-close-dialog class="search-submit" type="button">Close</button></div>
+  </dialog>
+</body>
+</html>
