@@ -26,8 +26,12 @@
     catch{return '';}
   };
   function link(parent,url,label,css=''){
-    const adjusted=typeof url==='string'&&url.startsWith('CONVERSATION_VIEWER/')
+    let adjusted=typeof url==='string'&&url.startsWith('CONVERSATION_VIEWER/')
       ?'../'+url.slice('CONVERSATION_VIEWER/'.length):url;
+    if(typeof adjusted==='string'&&adjusted.startsWith('../')&&
+       ['127.0.0.1','localhost'].includes(location.hostname)){
+      adjusted='https://satobloc.github.io/HsH/'+adjusted.slice(3);
+    }
     const href=safeUrl(adjusted);
     if(!href)return null;
     const a=E('a',css,label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);return a;
@@ -424,6 +428,9 @@
     $('resultsSection').scrollIntoView({behavior:'smooth',block:'start'});
   }
   function initialize(){
+    if(['127.0.0.1','localhost'].includes(location.hostname)){
+      document.querySelectorAll('a[href="../"]').forEach(a=>a.href='https://satobloc.github.io/HsH/');
+    }
     try{
       const stored=JSON.parse(localStorage.getItem('mersearch.saved.1')||'[]');
       if(Array.isArray(stored))state.saved=stored.filter(x=>x&&typeof x.query==='string').slice(0,40);
