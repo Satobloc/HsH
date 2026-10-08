@@ -49,7 +49,8 @@ class ChronologyTests(unittest.TestCase):
         row=c.result()
         self.assertEqual(row["archive_date"],"2025-04-15")
         self.assertTrue(any("chronophysical" in w for w in row["warnings"]))
-        self.assertTrue(row["version_transition_possible"])
+        self.assertFalse(row["version_transition_possible"])
+        self.assertTrue(row["mixed_era_compilation_possible"])
         self.assertEqual(row["date_confidence"],"low-version-inference")
 
     def test_named_dates_and_recent_capture(self):
