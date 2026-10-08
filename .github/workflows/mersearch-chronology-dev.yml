@@ -1,0 +1,31 @@
+name: Mersearch Chronology Development Acceptance
+on:
+  push:
+    branches:
+      - mersearch-chronology-20261007
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
+      - '.github/workflows/mersearch-chronology-dev.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile search and chronology modules
+        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py
+      - name: Historical 1.0 semantics acceptance
+        run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
+      - name: Chronology and three-archive acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_chronology_20261007.py' -v
+      - name: Capability discovery smoke check
+        run: python tools/search_archive_content.py --capabilities
