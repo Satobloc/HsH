@@ -1,0 +1,3 @@
+# Meridian sandbox checkpoint, 2026-10-08
+
+Exact Euclidean R4 calculation: three independent 3-sphere constraints intersect in a circle. For equal radii R and centers 0, (d,0,0,0), (0,d*u), the circle has radius squared R^2-d^2/2. A driver direction u following a latitude loop on S2 produces parallel-transport holonomy 2*pi*(1-cos(theta)) modulo 2*pi. This is a geometric calculation, not a physical mechanism. Collinear equal-radius triple centers do not yield a common carrier. Sources read: SAT archive [[SAT26 TOOLBOX]]/THE SPHERES.txt and HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT Math Extension.txt. Next: test ellipsoidal deformation and SO(4) covariance. SANDBOXED.
