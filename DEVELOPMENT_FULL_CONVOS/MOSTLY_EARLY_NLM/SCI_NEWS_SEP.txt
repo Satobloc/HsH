@@ -1,0 +1,7164 @@
+
+
+The Number Repository
+Search The Number Repository
+Search
+Create account
+Log in
+
+Contents hide
+Beginning
+Properties
+Pentation
+Page
+Discussion
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+Pentation (also called quintation) is the hyper-operation of iterated tetration,the "tetration stack" or "tetra-tower" represented by a triple caret(^^^) or three Knuth arrows(↑↑↑).5^^^3 is 5^^5^^5. The exponentiations involved are resolved from the top down or right to left(5^^5 is 5553125,so 5^^^3 is 5^^(5553125)). Weak pentation resolves them from bottom up. Its TGAN rating is &(5).In Conway chained arrow notation,pentation of a to b is represented as a→b→3.
+
+Properties
+It is more powerful than tetration. The operation of weak pentation is particularly interesting, because it is as powerful as tetration rather than being equal to double tetration like weak tetration is double exponentiation. Iterated pentation is in turn known as hexation.
+
+Hyper operators
+Hyper-operators: zeration • addition • multiplication • exponentiation • tetration • pentation • hexation • heptation • octation • enneation • decation • hendecation • dodecation • tridecation • tetradecation • pentadecation • hexadecation • heptadecation • octadecation • enneadecation • icosation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • triacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • tetracontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • pentacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • hexacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • heptacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • octacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • enneacontation (-hen • -di • -tri • -tetr • -pent • -hex • -hept • -oct • -enne) • hectation • diacosation • triacosation • tetracosation • pentacosation • hexacosation • beastation • heptacosation • octacosation • enneacosation • chiliation • dischiliation • trischiliation • tetrakischiliation • pentakischiliation • hexakischiliation • heptakischiliation • octakischiliation • enneakischiliation • myriation • lakation • megation • croration • megacosation • gigation • dialogiation • teration • petation • exation • zettation • yottation • ronnation • quettation • googolation • googolplexation • giggolation • circulation
+Bowers' extensions: expansion • multiexpansion • powerexpansion • expandotetration • explosion (multi/power/tetra) • detonation • pentonation
+Saibian's extensions: hexonation • heptonation • octonation • ennonation • deconation
+Tiaokhiao's extensions: megotion (multi/power/tetra) • megoexpansion (multi/power/tetra) • megoexplosion • megodetonation • gigotion (expand/explod/deto) • terotion • more...
+Negative, non-integer, and etc. extensions: halfation • sesquation
+
+Categories: FunctionsFunction navigational boxes
+This page was last edited on 28 February 2026, at 15:05.
+Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.
+Privacy policyAbout The Number RepositoryDisclaimersTerms of UseDonate to MirahezeMobile view
+Hosted by MirahezeCreative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+Powered by MediaWiki
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Introduction
+Terminology
+Notation
+Examples
+Extensions
+
+Extension of domain for bases
+Base zero
+Complex bases
+Extensions of the domain for different heights
+Infinite heights
+Negative heights
+Linear approximation for real heights
+Higher-order approximations for real heights
+Complex heights
+Non-elementary recursiveness
+Inverse operations
+
+Super-root
+Square super-root
+Other super-roots
+Super-logarithm
+Open questions
+Applications
+See also
+References
+External links
+Further reading
+Tetration
+
+Article
+Talk
+Read
+Edit
+View history
+
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+Not to be confused with Titration.
+A colorful graphic with brightly colored loops that grow in intensity as the eye goes to the right
+Domain coloring of the holomorphic tetration 
+z
+e
+{\displaystyle {}^{z}e}, with hue representing the function argument and brightness representing magnitude
+A line graph with curves that bend upward dramatically as the values on the x-axis get larger
+n
+x
+{\displaystyle {}^{n}x}, for n = 2, 3, 4, ..., showing convergence to the infinitely iterated exponential between the two dots
+In mathematics, tetration (or hyper-4) is an operation based on iterated, or repeated, exponentiation. There is no universal notation for tetration, though Knuth's up arrow notation 
+a
+↑↑
+n
+{\displaystyle a\uparrow \uparrow n} and the left-exponent 
+n
+a
+{\displaystyle {}^{n}a} are common.
+
+Under the definition as repeated exponentiation, 
+n
+a
+{\displaystyle {^{n}a}} means 
+a
+⋅
+⋅
+a
+a
+{\displaystyle {a^{\cdot ^{\cdot ^{a^{a}}}}}}, where n copies of a are iterated via exponentiation right-to-left, i.e. the application of exponentiation 
+n
+−
+1
+{\displaystyle n-1} times. The number n is called the height of the function, while a is called the base, analogous to exponentiation. It is read as "the n-th tetration of a". For example, 2 tetrated to 4 (or the fourth tetration of 2) is ⁠
+4
+2
+=
+2
+(
+2
+(
+2
+2
+)
+)
+=
+2
+(
+2
+4
+)
+=
+2
+16
+=
+65536
+{\displaystyle {^{4}2}=2^{(2^{(2^{2})})}=2^{(2^{4})}=2^{16}=65536}⁠.
+
+Tetration is the hyperoperation after exponentiation and before pentation. Along with the other hyperoperations, tetration is used for the notation of very large numbers. The name was coined by Reuben Goodstein from the prefix tetra- (meaning "four") and the word "iteration".
+
+Tetration can also be defined recursively as
+
+a
+↑↑
+n
+:=
+{
+1
+if 
+n
+=
+0
+,
+a
+a
+↑↑
+(
+n
+−
+1
+)
+if 
+n
+>
+0.
+{\displaystyle {a\uparrow \uparrow n}:={\begin{cases}1&{\text{if }}n=0,\\a^{a\uparrow \uparrow (n-1)}&{\text{if }}n>0.\end{cases}}}
+This form allows for the extension of tetration to more general domains for n than the natural numbers such as real, complex, or ordinal numbers.
+
+The two inverses of tetration are called super-root and super-logarithm. They are respectively analogous to the operations of taking n-th roots and taking logarithms. None of the three functions are elementary.
+
+Introduction
+The first four hyperoperations are shown here, with tetration being considered the fourth in the series. The unary operation succession, defined as 
+a
+′
+=
+a
++
+1
+{\displaystyle a'=a+1}, is considered to be the zeroth operation.
+
+Addition
+a
++
+n
+=
+a
++
+1
++
+1
++
+⋯
++
+1
+⏟
+n
+{\displaystyle a+n=a+\underbrace {1+1+\cdots +1} _{n}}n copies of 1 added to a combined by succession.
+Multiplication
+a
+×
+n
+=
+a
++
+a
++
+⋯
++
+a
+⏟
+n
+{\displaystyle a\times n=\underbrace {a+a+\cdots +a} _{n}}n copies of a combined by addition.
+Exponentiation
+a
+n
+=
+a
+×
+a
+×
+⋯
+×
+a
+⏟
+n
+{\displaystyle a^{n}=\underbrace {a\times a\times \cdots \times a} _{n}}n copies of a combined by multiplication.
+Tetration
+n
+a
+=
+a
+⋅
+⋅
+a
+a
+⏟
+n
+{\displaystyle {^{n}a}=\underbrace {a^{\cdot ^{\cdot ^{a^{a}}}}} _{n}}n copies of a combined by exponentiation. Importantly, nested exponents are calculated from right to left: ⁠
+c
+b
+a
+{\displaystyle c^{b^{a}}}⁠ means ⁠
+c
+(
+b
+a
+)
+{\displaystyle c^{\left(b^{a}\right)}}⁠ and not ⁠
+(
+c
+b
+)
+a
+.
+{\displaystyle \left(c^{b}\right)^{a}.}⁠
+Succession, 
+a
+n
++
+1
+=
+a
+n
++
+1
+{\displaystyle a_{n+1}=a_{n}+1}, is the most basic operation; while addition (
+a
++
+n
+{\displaystyle a+n}) is a primary operation, for addition of natural numbers it can be thought of as a chained succession of 
+n
+{\displaystyle n} successors of 
+a
+{\displaystyle a}; multiplication (
+a
+×
+n
+{\displaystyle a\times n}) is also a primary operation, though for natural numbers it can analogously be thought of as a chained addition involving 
+n
+{\displaystyle n} numbers of 
+a
+{\displaystyle a}. Exponentiation can be thought of as a chained multiplication involving 
+n
+{\displaystyle n} numbers of 
+a
+{\displaystyle a} and tetration (
+n
+a
+{\displaystyle ^{n}a}) as a chained power involving 
+n
+{\displaystyle n} numbers 
+a
+{\displaystyle a}. Each of the operations above are defined by iterating the previous one;[1] however, unlike the operations before it, tetration is not an elementary function.
+
+The parameter 
+a
+{\displaystyle a} is called the base, while the parameter 
+n
+{\displaystyle n} may be referred to as the height. In the original definition of tetration, the height parameter must be a natural number; for instance, it would be illogical to say "three raised to itself negative five times" or "four raised to itself one half of a time". However, just as addition, multiplication, and exponentiation can be defined in ways that allow for extensions to real and complex numbers, several attempts have been made to generalize tetration to negative numbers, real numbers, and complex numbers. One such way for doing so is using a recursive definition for tetration; for any positive real 
+a
+>
+0
+{\displaystyle a>0} and non-negative integer 
+n
+≥
+0
+{\displaystyle n\geq 0}, we can define 
+n
+a
+{\displaystyle {^{n}a}} recursively as:[1]
+
+n
+a
+:=
+{
+1
+if 
+n
+=
+0
+a
+(
+(
+n
+−
+1
+)
+a
+)
+if 
+n
+>
+0.
+{\displaystyle {^{n}a}:={\begin{cases}1&{\text{if }}n=0\\a^{\left(^{(n-1)}a\right)}&{\text{if }}n>0.\end{cases}}}
+The recursive definition is equivalent to repeated exponentiation for natural heights; however, this definition allows for extensions to the other heights such as 
+0
+a
+{\displaystyle ^{0}a}, 
+−
+1
+a
+{\displaystyle ^{-1}a}, and 
+i
+a
+{\displaystyle ^{i}a}[citation needed] as well – many of these extensions are areas of active research.
+
+Terminology
+There are many terms for tetration, each of which has some logic behind it, but some have not become commonly used for one reason or another. Here is a comparison of each term with its rationale and counter-rationale.
+
+The term tetration, introduced by Goodstein in his 1947 paper Transfinite Ordinals in Recursive Number Theory[2] (generalizing the recursive base-representation used in Goodstein's theorem to use higher operations), has gained dominance. It was also popularized in Rudy Rucker's Infinity and the Mind.
+The term superexponentiation was published by Bromer in his paper Superexponentiation in 1987.[3] It was used earlier by Ed Nelson in his book Predicative Arithmetic, Princeton University Press, 1986.
+The term hyperpower[4] is a natural combination of hyper and power, which aptly describes tetration. The problem lies in the meaning of hyper with respect to the hyperoperation sequence. When considering hyperoperations, the term hyper refers to all ranks, and the term super refers to rank 4, or tetration. So under these considerations hyperpower is misleading, since it is only referring to tetration.
+The term power tower[5] is occasionally used, in the form "the power tower of order n" for n occurrences of the a variable: 
+ 
+ 
+a
+⋅
+⋅
+a
+a
+⏟
+n
+{\displaystyle {\  \atop {\ }}{{\underbrace {a^{\cdot ^{\cdot ^{a^{a}}}}} } \atop n}}. Exponentiation is easily misconstrued: note that the operation of raising to a power is right-associative (see below). That is, tetration is iterated exponentiation starting from the top right side of the expression with an instance ⁠
+b
+=
+a
+a
+{\displaystyle b=a^{a}}⁠. Exponentiating the next leftward ⁠
+a
+{\displaystyle a}⁠ has one evaluating ⁠
+c
+=
+a
+b
+{\displaystyle c=a^{b}}⁠, then ⁠
+d
+=
+a
+c
+{\displaystyle d=a^{c}}⁠, and so on.
+Owing in part to some shared terminology and similar notational symbolism, tetration is often confused with closely related functions and expressions. Here are a few related terms:
+
+Terms related to tetration
+Terminology	Form
+Tetration	
+a
+a
+⋅
+⋅
+a
+a
+{\displaystyle a^{a^{\cdot ^{\cdot ^{a^{a}}}}}}
+Iterated exponentials	
+a
+⋅
+⋅
+a
+a
+x
+{\displaystyle a^{\cdot ^{\cdot ^{a^{a^{x}}}}}}
+Nested exponentials (also towers)	
+a
+n
+⋅
+⋅
+a
+2
+a
+1
+{\displaystyle a_{n}^{\cdot ^{\cdot ^{a_{2}^{a_{1}}}}}}
+Infinite exponentials (also towers)	
+⋅
+⋅
+⋅
+a
+3
+a
+2
+a
+1
+{\displaystyle \cdot ^{\cdot ^{\cdot ^{{a_{3}}^{{a_{2}}^{a_{1}}}}}}}
+In the first two expressions, a is the base, and the number of times a appears is the height (add one for x). In the third expression, n is the height, but each of the bases is different.
+
+Care must be taken when referring to iterated exponentials, as it is common to call expressions of this form iterated exponentiation, which is ambiguous, as this can either mean iterated powers or iterated exponentials.
+
+Notation
+There are many different notation styles that can be used to express tetration. Some notations can also be used to describe other hyperoperations, while some are limited to tetration and have no immediate extension.
+
+Notation styles for tetration
+Name	Form	Description
+Knuth's up-arrow notation	
+a
+↑↑
+n
+a
+↑
+2
+n
+{\displaystyle {\begin{aligned}a{\uparrow \uparrow }n\\a{\uparrow }^{2}n\end{aligned}}}	Allows extension by putting more arrows, or, even more powerfully, an indexed arrow.
+Conway chained arrow notation	
+a
+→
+n
+→
+2
+{\displaystyle a\rightarrow n\rightarrow 2}	Allows extension by increasing the number 2 (equivalent with the extensions above), but also, even more powerfully, by extending the chain.
+Ackermann function	
+n
+2
+=
+A
+⁡
+(
+4
+,
+n
+−
+3
+)
++
+3
+{\displaystyle {}^{n}2=\operatorname {A} (4,n-3)+3}	Allows the special case 
+a
+=
+2
+{\displaystyle a=2} to be written in terms of the Ackermann function.
+Iterated exponential notation	
+exp
+a
+n
+⁡
+(
+1
+)
+{\displaystyle \exp _{a}^{n}(1)}	Allows simple extension to iterated exponentials from initial values other than 1.
+Hooshmand notations[6]	
+uxp
+a
+⁡
+n
+a
+n
+{\displaystyle {\begin{aligned}&\operatorname {uxp} _{a}n\\[2pt]&a^{\frac {n}{}}\end{aligned}}}	Used by M. H. Hooshmand [2006].
+Hyperoperation notations	
+a
+[
+4
+]
+n
+H
+4
+(
+a
+,
+n
+)
+{\displaystyle {\begin{aligned}&a[4]n\\[2pt]&H_{4}(a,n)\end{aligned}}}	Allows extension by increasing the number 4; this gives the family of hyperoperations.
+Double caret notation	a^^n	Since the up-arrow is used identically to the caret (^), tetration may be written as (^^); convenient for ASCII.
+One notation above uses iterated exponential notation; this is defined in general as follows:
+
+exp
+a
+n
+⁡
+(
+x
+)
+=
+a
+⋅
+⋅
+a
+a
+x
+{\displaystyle \exp _{a}^{n}(x)=a^{\cdot ^{\cdot ^{a^{a^{x}}}}}} with n as.
+There are not as many notations for iterated exponentials, but here are a few:
+
+Notation styles for iterated exponentials
+Name	Form	Description
+Standard notation	
+exp
+a
+n
+⁡
+(
+x
+)
+{\displaystyle \exp _{a}^{n}(x)}	Euler coined the notation 
+exp
+a
+⁡
+(
+x
+)
+=
+a
+x
+{\displaystyle \exp _{a}(x)=a^{x}}, and iteration notation 
+f
+n
+(
+x
+)
+{\displaystyle f^{n}(x)} has been around about as long.
+Knuth's up-arrow notation	
+(
+a
+↑
+)
+n
+x
+{\displaystyle (a{\uparrow })^{n}x}	Allows for super-powers and super-exponential function by increasing the number of arrows; used in the article on large numbers.
+Text notation	exp_a^n(x)	Based on standard notation; convenient for ASCII.
+J notation	x^^:(n-1)x	Repeats the exponentiation. See J (programming language).[7]
+Infinity barrier notation	
+a
+↑↑
+n
+|
+x
+{\displaystyle a\uparrow \uparrow n|x}	Jonathan Bowers coined this,[8] and it can be extended to higher hyper-operations.
+Examples
+Because of the extremely fast growth of tetration, most values in the following table are too large to write in scientific notation. In these cases, iterated exponential notation is used to express them in base 10. The values containing a decimal point are approximate. Usually, the limit that can be calculated in a numerical calculation program such as Wolfram Alpha is 3↑↑4, and the number of digits up to 3↑↑5 can be expressed.
+
+Examples of tetration
+x
+{\displaystyle x}	
+2
+x
+{\displaystyle {}^{2}x}	
+3
+x
+{\displaystyle {}^{3}x}	
+4
+x
+{\displaystyle {}^{4}x}	
+5
+x
+{\displaystyle {}^{5}x}	
+6
+x
+{\displaystyle {}^{6}x}	
+7
+x
+{\displaystyle {}^{7}x}
+1	1	1	1	1	1	1
+2	4 (22)	16 (24)	65,536 (216)	2.00353 × 1019,728 (265,536)	
+exp
+10
+3
+⁡
+(
+4.29508
+)
+{\displaystyle \exp _{10}^{3}(4.29508)} (106.03123×1019,727)	
+exp
+10
+4
+⁡
+(
+4.29508
+)
+{\displaystyle \exp _{10}^{4}(4.29508)}
+3	27 (33)	7,625,597,484,987
+(327)
+
+1.25801 × 103,638,334,640,024 (37,625,597,484,987) [9]	
+exp
+10
+4
+⁡
+(
+1.09902
+)
+{\displaystyle \exp _{10}^{4}(1.09902)}
+(106.00225×103,638,334,640,023)
+
+exp
+10
+5
+⁡
+(
+1.09902
+)
+{\displaystyle \exp _{10}^{5}(1.09902)}	
+exp
+10
+6
+⁡
+(
+1.09902
+)
+{\displaystyle \exp _{10}^{6}(1.09902)}
+4	256 (44)	1.34078 × 10154 (4256)	
+exp
+10
+3
+⁡
+(
+2.18726
+)
+{\displaystyle \exp _{10}^{3}(2.18726)} (108.07230×10153)	
+exp
+10
+4
+⁡
+(
+2.18726
+)
+{\displaystyle \exp _{10}^{4}(2.18726)}	
+exp
+10
+5
+⁡
+(
+2.18726
+)
+{\displaystyle \exp _{10}^{5}(2.18726)}	
+exp
+10
+6
+⁡
+(
+2.18726
+)
+{\displaystyle \exp _{10}^{6}(2.18726)}
+5	3,125 (55)	1.91101 × 102,184 (53,125)	
+exp
+10
+3
+⁡
+(
+3.33928
+)
+{\displaystyle \exp _{10}^{3}(3.33928)} (101.33574×102,184)	
+exp
+10
+4
+⁡
+(
+3.33928
+)
+{\displaystyle \exp _{10}^{4}(3.33928)}	
+exp
+10
+5
+⁡
+(
+3.33928
+)
+{\displaystyle \exp _{10}^{5}(3.33928)}	
+exp
+10
+6
+⁡
+(
+3.33928
+)
+{\displaystyle \exp _{10}^{6}(3.33928)}
+6	46,656 (66)	2.65912 × 1036,305 (646,656)	
+exp
+10
+3
+⁡
+(
+4.55997
+)
+{\displaystyle \exp _{10}^{3}(4.55997)} (102.0692×1036,305)	
+exp
+10
+4
+⁡
+(
+4.55997
+)
+{\displaystyle \exp _{10}^{4}(4.55997)}	
+exp
+10
+5
+⁡
+(
+4.55997
+)
+{\displaystyle \exp _{10}^{5}(4.55997)}	
+exp
+10
+6
+⁡
+(
+4.55997
+)
+{\displaystyle \exp _{10}^{6}(4.55997)}
+7	823,543 (77)	3.75982 × 10695,974 (7823,543)	
+exp
+10
+3
+⁡
+(
+5.84259
+)
+{\displaystyle \exp _{10}^{3}(5.84259)} (103.17742×10695,974)	
+exp
+10
+4
+⁡
+(
+5.84259
+)
+{\displaystyle \exp _{10}^{4}(5.84259)}	
+exp
+10
+5
+⁡
+(
+5.84259
+)
+{\displaystyle \exp _{10}^{5}(5.84259)}	
+exp
+10
+6
+⁡
+(
+5.84259
+)
+{\displaystyle \exp _{10}^{6}(5.84259)}
+8	16,777,216 (88)	6.01452 × 1015,151,335	
+exp
+10
+3
+⁡
+(
+7.18045
+)
+{\displaystyle \exp _{10}^{3}(7.18045)} (105.43165×1015,151,335)	
+exp
+10
+4
+⁡
+(
+7.18045
+)
+{\displaystyle \exp _{10}^{4}(7.18045)}	
+exp
+10
+5
+⁡
+(
+7.18045
+)
+{\displaystyle \exp _{10}^{5}(7.18045)}	
+exp
+10
+6
+⁡
+(
+7.18045
+)
+{\displaystyle \exp _{10}^{6}(7.18045)}
+9	387,420,489 (99)	4.28125 × 10369,693,099	
+exp
+10
+3
+⁡
+(
+8.56784
+)
+{\displaystyle \exp _{10}^{3}(8.56784)} (104.08535×10369,693,099)	
+exp
+10
+4
+⁡
+(
+8.56784
+)
+{\displaystyle \exp _{10}^{4}(8.56784)}	
+exp
+10
+5
+⁡
+(
+8.56784
+)
+{\displaystyle \exp _{10}^{5}(8.56784)}	
+exp
+10
+6
+⁡
+(
+8.56784
+)
+{\displaystyle \exp _{10}^{6}(8.56784)}
+10	10,000,000,000 (1010)	1010,000,000,000	
+exp
+10
+4
+⁡
+(
+1
+)
+{\displaystyle \exp _{10}^{4}(1)} (101010,000,000,000)	
+exp
+10
+5
+⁡
+(
+1
+)
+{\displaystyle \exp _{10}^{5}(1)}	
+exp
+10
+6
+⁡
+(
+1
+)
+{\displaystyle \exp _{10}^{6}(1)}	
+exp
+10
+7
+⁡
+(
+1
+)
+{\displaystyle \exp _{10}^{7}(1)}
+Remark: If x does not differ from 10 by orders of magnitude, then for all 
+k
+≥
+3
+,
+ 
+m
+x
+=
+exp
+10
+k
+⁡
+z
+,
+ 
+z
+>
+1
+ 
+⇒
+ 
+m
++
+1
+x
+=
+exp
+10
+k
++
+1
+⁡
+z
+′
+ with 
+z
+′
+≈
+z
+{\displaystyle k\geq 3,~^{m}x=\exp _{10}^{k}z,~z>1~\Rightarrow ~^{m+1}x=\exp _{10}^{k+1}z'{\text{ with }}z'\approx z}. For example, 
+z
+−
+z
+′
+<
+1.5
+⋅
+10
+−
+15
+ for 
+x
+=
+3
+=
+k
+,
+ 
+m
+=
+4
+{\displaystyle z-z'<1.5\cdot 10^{-15}{\text{ for }}x=3=k,~m=4} in the above table, and the difference is even smaller for the following rows.
+
+Extensions
+Tetration can be extended in two different ways; in the formula 
+n
+a
+{\displaystyle ^{n}a}, both the base a and the height n can be generalized using the definition and properties of tetration. Although the base and the height can be extended beyond the non-negative integers to different domains, including 
+n
+0
+{\displaystyle {^{n}0}}, complex functions such as 
+n
+i
+{\displaystyle {}^{n}i}, and heights of infinite n, the more limited properties of tetration reduce the ability to extend tetration.
+
+Extension of domain for bases
+Base zero
+The exponential 
+0
+0
+{\displaystyle 0^{0}} is not consistently defined. Thus, the tetrations 
+n
+0
+{\displaystyle {^{n}0}} are not clearly defined by the formula given earlier. However, 
+lim
+x
+→
+0
+n
+x
+{\displaystyle \lim _{x\rightarrow 0}{}^{n}x} is well defined, and exists:[10]
+
+lim
+x
+→
+0
+n
+x
+=
+{
+1
+,
+n
+ even
+0
+,
+n
+ odd.
+{\displaystyle \lim _{x\rightarrow 0}{}^{n}x={\begin{cases}1,&n{\text{ even}}\\0,&n{\text{ odd.}}\end{cases}}}
+Thus we could consistently define 
+n
+0
+=
+lim
+x
+→
+0
+n
+x
+{\displaystyle {}^{n}0=\lim _{x\rightarrow 0}{}^{n}x}. This is analogous to defining 
+0
+0
+=
+1
+{\displaystyle 0^{0}=1}.
+
+Under this extension, 
+0
+0
+=
+1
+{\displaystyle {}^{0}0=1}, so the rule 
+0
+a
+=
+1
+{\displaystyle {^{0}a}=1} from the original definition still holds.
+
+Complex bases
+A colorful graph that shows the period getting much larger
+Tetration by period
+A colorful graph that shows the escape getting much larger
+Tetration by escape
+Since complex numbers can be raised to powers, tetration can be applied to bases of the form z = a + bi (where a and b are real). For example, in nz with z = i, tetration is achieved by using the principal branch of the natural logarithm; using Euler's formula we get the relation
+
+i
+a
++
+b
+i
+=
+e
+1
+2
+π
+i
+(
+a
++
+b
+i
+)
+=
+e
+−
+1
+2
+π
+b
+(
+cos
+⁡
+π
+a
+2
++
+i
+sin
+⁡
+π
+a
+2
+)
+.
+{\displaystyle i^{a+bi}=e^{{\frac {1}{2}}{\pi i}(a+bi)}=e^{-{\frac {1}{2}}{\pi b}}\left(\cos {\frac {\pi a}{2}}+i\sin {\frac {\pi a}{2}}\right).}
+This suggests a recursive definition for n+1i = a′ + b′i given any ni = a + bi:
+
+a
+′
+=
+e
+−
+1
+2
+π
+b
+cos
+⁡
+π
+a
+2
+b
+′
+=
+e
+−
+1
+2
+π
+b
+sin
+⁡
+π
+a
+2
+{\displaystyle {\begin{aligned}a'&=e^{-{\frac {1}{2}}{\pi b}}\cos {\frac {\pi a}{2}}\\[2pt]b'&=e^{-{\frac {1}{2}}{\pi b}}\sin {\frac {\pi a}{2}}\end{aligned}}}
+The following approximate values can be derived:
+
+Values of tetration of complex bases
+n
+i
+{\textstyle {}^{n}i}	Approximate value
+1
+i
+=
+i
+{\textstyle {}^{1}i=i}	i
+2
+i
+=
+i
+(
+1
+i
+)
+{\textstyle {}^{2}i=i^{\left({}^{1}i\right)}}	0.2079
+3
+i
+=
+i
+(
+2
+i
+)
+{\textstyle {}^{3}i=i^{\left({}^{2}i\right)}}	0.9472 + 0.3208i
+4
+i
+=
+i
+(
+3
+i
+)
+{\textstyle {}^{4}i=i^{\left({}^{3}i\right)}}	0.0501 + 0.6021i
+5
+i
+=
+i
+(
+4
+i
+)
+{\textstyle {}^{5}i=i^{\left({}^{4}i\right)}}	0.3872 + 0.0305i
+6
+i
+=
+i
+(
+5
+i
+)
+{\textstyle {}^{6}i=i^{\left({}^{5}i\right)}}	0.7823 + 0.5446i
+7
+i
+=
+i
+(
+6
+i
+)
+{\textstyle {}^{7}i=i^{\left({}^{6}i\right)}}	0.1426 + 0.4005i
+8
+i
+=
+i
+(
+7
+i
+)
+{\textstyle {}^{8}i=i^{\left({}^{7}i\right)}}	0.5198 + 0.1184i
+9
+i
+=
+i
+(
+8
+i
+)
+{\textstyle {}^{9}i=i^{\left({}^{8}i\right)}}	0.5686 + 0.6051i
+Solving the inverse relation, as in the previous section, yields the expected 0i = 1 and −1i = 0, with negative values of n giving infinite results on the imaginary axis.[citation needed] Plotted in the complex plane, the entire sequence spirals to the limit 0.4383 + 0.3606i, which could be interpreted as the value where n is infinite.
+
+Such tetration sequences have been studied since the time of Euler, but are poorly understood due to their chaotic behavior. Most published research historically has focused on the convergence of the infinitely iterated exponential function. Current research has greatly benefited from the advent of powerful computers with fractal and symbolic mathematics software. Much of what is known about tetration comes from general knowledge of complex dynamics and specific research of the exponential map.[citation needed]
+
+Extensions of the domain for different heights
+Infinite heights
+A line graph with a rapid curve upward as the base increases
+lim
+n
+→
+∞
+n
+x
+{\displaystyle \textstyle \lim _{n\rightarrow \infty }{}^{n}x} of the infinitely iterated exponential converges for the bases 
+(
+e
+−
+1
+)
+e
+≤
+x
+≤
+e
+(
+e
+−
+1
+)
+{\displaystyle \textstyle \left(e^{-1}\right)^{e}\leq x\leq e^{\left(e^{-1}\right)}}
+A three dimensional Cartesian graph with a point in the center
+The function 
+|
+W
+(
+−
+ln
+⁡
+z
+)
+−
+ln
+⁡
+z
+|
+{\displaystyle \left|{\frac {\mathrm {W} (-\ln {z})}{-\ln {z}}}\right|} on the complex plane, showing the real-valued infinitely iterated exponential function (black curve)
+Tetration can be extended to infinite heights; i.e., for certain a values in 
+n
+a
+{\displaystyle {}^{n}a}, there exists a well-defined result for an infinite n. This is because for bases within a certain interval, tetration converges to a finite value as the height tends to infinity. For example, 
+⋅
+⋅
+⋅
+2
+2
+2
+{\displaystyle \cdot ^{\cdot ^{\cdot ^{{\sqrt {2}}^{{\sqrt {2}}^{\sqrt {2}}}}}}} converges to 2, and can therefore be said to equal 2. The trend towards 2 can be seen by evaluating a small finite tower:
+
+2
+2
+2
+2
+2
+1.414
+≈
+2
+2
+2
+2
+1.63
+≈
+2
+2
+2
+1.76
+≈
+2
+2
+1.84
+≈
+2
+1.89
+≈
+1.93
+{\displaystyle {\begin{aligned}{\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{1.414}}}}}&\approx {\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{1.63}}}}\\&\approx {\sqrt {2}}^{{\sqrt {2}}^{{\sqrt {2}}^{1.76}}}\\&\approx {\sqrt {2}}^{{\sqrt {2}}^{1.84}}\\&\approx {\sqrt {2}}^{1.89}\\&\approx 1.93\end{aligned}}}
+In general, the infinitely iterated exponential 
+⋅
+⋅
+⋅
+x
+x
+{\displaystyle \cdot ^{\cdot ^{\cdot ^{x^{x}}}}}, defined as the limit of 
+n
+x
+{\displaystyle {}^{n}x} as n goes to infinity, converges for e−e ≤ x ≤ e1/e, roughly the interval from 0.066[11] to 1.44,[12] a result shown by Leonhard Euler.[13] The limit y, should it exist, is a positive real solution of the equation y = xy. Thus, x = y1/y. The limit defining the infinite exponential of x does not exist when x > e1/e because the maximum of y1/y is e1/e. The limit also fails to exist when 0 < x < e−e.
+
+This may be extended to complex numbers z with the definition:
+
+∞
+z
+=
+⋅
+⋅
+z
+z
+z
+=
+e
+−
+W
+(
+−
+ln
+⁡
+z
+)
+=
+W
+(
+−
+ln
+⁡
+z
+)
+−
+ln
+⁡
+z
+ 
+,
+{\displaystyle {}^{\infty }z=\cdot ^{\cdot ^{z^{z^{z}}}}=e^{-\mathrm {W} (-\ln {z})}={\frac {\mathrm {W} (-\ln {z})}{-\ln {z}}}~,}
+where W represents Lambert's W function. This formula follows from the assumption that 
+⋅
+⋅
+z
+z
+z
+=
+a
+{\displaystyle \cdot ^{\cdot ^{z^{z^{z}}}}=a} converges, and thus 
+z
+a
+=
+a
+{\displaystyle z^{a}=a}, 
+z
+=
+a
+1
+/
+a
+{\displaystyle z=a^{1/a}}, 
+1
+/
+z
+=
+(
+1
+/
+a
+)
+1
+/
+a
+=
+2
+(
+1
+/
+a
+)
+{\displaystyle 1/z=(1/a)^{1/a}={}^{2}(1/a)}, and 
+1
+/
+a
+=
+s
+s
+r
+t
+(
+1
+/
+z
+)
+=
+e
+W
+(
+ln
+⁡
+(
+1
+/
+z
+)
+)
+{\displaystyle 1/a=\mathrm {ssrt} (1/z)=e^{W(\ln(1/z))}} (see square super-root below).
+
+As the limit y = ∞x (if existent on the positive real line, i.e. for e−e ≤ x ≤ e1/e) must satisfy xy = y, we see that x ↦ y = ∞x is (the lower branch of) the inverse function of y ↦ x = y1/y.
+
+Negative heights
+We can reverse the recursive rule for tetration,
+
+k
++
+1
+a
+=
+a
+(
+k
+a
+)
+,
+{\displaystyle {^{k+1}a}=a^{\left({^{k}a}\right)},}
+to write
+
+k
+a
+=
+log
+a
+⁡
+(
+k
++
+1
+a
+)
+.
+{\displaystyle ^{k}a=\log _{a}\left(^{k+1}a\right).}
+Substituting −1 for k gives
+
+−
+1
+a
+=
+log
+a
+⁡
+(
+0
+a
+)
+=
+log
+a
+⁡
+1
+=
+0
+{\displaystyle {}^{-1}a=\log _{a}\left({}^{0}a\right)=\log _{a}1=0}.[14]
+Smaller negative values cannot be well defined in this way. Substituting −2 for k in the same equation gives
+
+−
+2
+a
+=
+log
+a
+⁡
+(
+−
+1
+a
+)
+=
+log
+a
+⁡
+0
+=
+−
+∞
+,
+{\displaystyle {}^{-2}a=\log _{a}\left({}^{-1}a\right)=\log _{a}0=-\infty ,}
+which is not well defined. They can, however, sometimes be considered sets.[14][clarification needed]
+
+For 
+a
+=
+1
+{\displaystyle a=1}, any definition of 
+−
+1
+a
+{\displaystyle {^{-1}a}} is consistent with the rule. Specifically, 
+−
+1
+1
+{\displaystyle {^{-1}1}} could be any value ⁠
+z
+{\displaystyle z}⁠ because
+
+0
+1
+=
+1
+=
+1
+z
+{\displaystyle {^{0}1}=1=1^{z}} for any 
+z
+=
+−
+1
+1
+{\displaystyle z={^{-1}1}}.
+Linear approximation for real heights
+A line graph with a figure drawn on it similar to an S-curve with values in the third quadrant going downward rapidly and values in the first quadrant going upward rapidly
+x
+e
+{\displaystyle {^{x}}e} using linear approximation
+A linear approximation (solution to the continuity requirement, approximation to the differentiability requirement) is given by:
+
+x
+a
+≈
+{
+log
+a
+⁡
+(
+x
++
+1
+a
+)
+x
+≤
+−
+1
+1
++
+x
+−
+1
+<
+x
+≤
+0
+a
+(
+x
+−
+1
+a
+)
+0
+<
+x
+{\displaystyle {}^{x}a\approx {\begin{cases}\log _{a}\left(^{x+1}a\right)&x\leq -1\\1+x&-1<x\leq 0\\a^{\left(^{x-1}a\right)}&0<x\end{cases}}}
+hence:
+
+Linear approximation values
+Approximation	Domain
+x
+a
+≈
+x
++
+1
+{\textstyle {}^{x}a\approx x+1}	for −1 < x < 0
+x
+a
+≈
+a
+x
+{\textstyle {}^{x}a\approx a^{x}}	for 0 < x < 1
+x
+a
+≈
+a
+a
+(
+x
+−
+1
+)
+{\textstyle {}^{x}a\approx a^{a^{(x-1)}}}	for 1 < x < 2
+and so on. However, it is only piecewise differentiable; at integer values of x, the derivative is multiplied by 
+ln
+⁡
+a
+{\displaystyle \ln {a}}. It is continuously differentiable for 
+x
+>
+−
+2
+{\displaystyle x>-2} if and only if 
+a
+=
+e
+{\displaystyle a=e}. For example, using these methods 
+π
+2
+e
+≈
+5.868...
+{\displaystyle {}^{\frac {\pi }{2}}e\approx 5.868...} and 
+−
+4.3
+0.5
+≈
+4.03335...
+{\displaystyle {}^{-4.3}0.5\approx 4.03335...}
+
+A main theorem in Hooshmand's paper[6] states: Let 
+0
+<
+a
+≠
+1
+{\displaystyle 0<a\neq 1}. If 
+f
+:
+(
+−
+2
+,
++
+∞
+)
+→
+R
+{\displaystyle f:(-2,+\infty )\rightarrow \mathbb {R} } is continuous and satisfies the conditions:
+
+f
+(
+x
+)
+=
+a
+f
+(
+x
+−
+1
+)
+{\displaystyle f(x)=a^{f(x-1)}} for all 
+x
+>
+−
+1
+{\displaystyle x>-1} and 
+f
+(
+0
+)
+=
+1
+,
+{\displaystyle f(0)=1,}
+f
+{\displaystyle f} is differentiable on (−1, 0),
+f
+′
+{\displaystyle f^{\prime }} is a nondecreasing or nonincreasing function on (−1, 0), and
+f
+′
+(
+0
++
+)
+=
+(
+ln
+⁡
+a
+)
+f
+′
+(
+0
+−
+)
+ or 
+f
+′
+(
+−
+1
++
+)
+=
+f
+′
+(
+0
+−
+)
+,
+{\displaystyle f^{\prime }\!\!\left(0^{+}\right)=(\ln a)f^{\prime }\!\!\left(0^{-}\right){\text{ or }}f^{\prime }\!\!\left(-1^{+}\right)=f^{\prime }\!\!\left(0^{-}\right),}
+then 
+f
+{\displaystyle f} is uniquely determined through the equation
+
+f
+(
+x
+)
+=
+exp
+a
+⌊
+x
+⌋
+⁡
+(
+a
+{
+x
+}
+)
+=
+exp
+a
+⌊
+x
+⌋
++
+1
+⁡
+(
+{
+x
+}
+)
+{\displaystyle f(x)=\exp _{a}^{\lfloor x\rfloor }\left(a^{\{x\}}\right)=\exp _{a}^{\lfloor x\rfloor +1}(\{x\})} for all 
+x
+>
+−
+2
+,
+{\displaystyle x>-2,}
+where 
+{
+x
+}
+=
+x
+−
+⌊
+x
+⌋
+{\displaystyle \{x\}=x-\lfloor x\rfloor } denotes the fractional part of x and 
+exp
+a
+⌊
+x
+⌋
+{\displaystyle \exp _{a}^{\lfloor x\rfloor }} is the 
+⌊
+x
+⌋
+{\displaystyle \lfloor x\rfloor }-iterated function of the function 
+exp
+a
+{\displaystyle \exp _{a}}.
+
+The proof is that the second through fourth conditions trivially imply that f is a linear function on [−1, 0].
+
+The linear approximation to natural tetration function 
+x
+e
+{\displaystyle {}^{x}e} is continuously differentiable, but its second derivative does not exist at integer values of its argument. Hooshmand derived another uniqueness theorem for it which states:
+
+If 
+f
+:
+(
+−
+2
+,
++
+∞
+)
+→
+R
+{\displaystyle f:(-2,+\infty )\rightarrow \mathbb {R} } is a continuous function that satisfies
+
+f
+(
+x
+)
+=
+e
+f
+(
+x
+−
+1
+)
+{\displaystyle f(x)=e^{f(x-1)}} for all 
+x
+>
+−
+1
+{\displaystyle x>-1} and 
+f
+(
+0
+)
+=
+1
+{\displaystyle f(0)=1},
+f
+{\displaystyle f} is convex on (−1, 0), and
+f
+′
+(
+0
+−
+)
+≤
+f
+′
+(
+0
++
+)
+{\displaystyle f^{\prime }\left(0^{-}\right)\leq f^{\prime }\left(0^{+}\right)},
+then 
+f
+=
+uxp
+{\displaystyle f={\text{uxp}}}. (Here 
+f
+=
+uxp
+{\displaystyle f={\text{uxp}}} is Hooshmand's name for the linear approximation to the natural tetration function.)
+
+The proof is much the same as before; the recursion equation ensures that 
+f
+′
+(
+−
+1
++
+)
+=
+f
+′
+(
+0
++
+)
+,
+{\displaystyle f^{\prime }(-1^{+})=f^{\prime }(0^{+}),} and then the convexity condition implies that 
+f
+{\displaystyle f} is linear on (−1, 0).
+
+Therefore, the linear approximation to natural tetration is the only solution of the equation 
+f
+(
+x
+)
+=
+e
+f
+(
+x
+−
+1
+)
+{\displaystyle f(x)=e^{f(x-1)}} for 
+x
+>
+−
+1
+{\displaystyle x>-1} and 
+f
+(
+0
+)
+=
+1
+{\displaystyle f(0)=1} which is convex on (−1, +∞). All other sufficiently-differentiable solutions must have an inflection point on the interval (−1, 0).
+
+Higher-order approximations for real heights
+A pair of line graphs, with one drawn in blue looking similar to a sine wave that has a decreasing amplitude as the values along the x-axis increase and the second is a red line that directly connects points along these curves with line segments
+Comparison of the linear and quadratic approximations (in red and blue respectively) of the function 
+x
+0.5
+{\displaystyle ^{x}0.5}, from x = −2 to x = 2
+Beyond linear approximations, a quadratic approximation (to the differentiability requirement) is given by:
+
+x
+a
+≈
+{
+log
+a
+⁡
+(
+x
++
+1
+a
+)
+x
+≤
+−
+1
+1
++
+2
+ln
+⁡
+(
+a
+)
+1
++
+ln
+⁡
+(
+a
+)
+x
+−
+1
+−
+ln
+⁡
+(
+a
+)
+1
++
+ln
+⁡
+(
+a
+)
+x
+2
+−
+1
+<
+x
+≤
+0
+a
+(
+x
+−
+1
+a
+)
+x
+>
+0
+,
+{\displaystyle {}^{x}a\approx {\begin{cases}\log _{a}\left({}^{x+1}a\right)&x\leq -1\\1+{\frac {2\ln(a)}{1+\ln(a)}}x-{\frac {1-\ln(a)}{1+\ln(a)}}x^{2}&-1<x\leq 0\\a^{\left({}^{x-1}a\right)}&x>0,\end{cases}}}
+which is differentiable for all 
+x
+>
+0
+{\displaystyle x>0}, but not twice-differentiable. For example, 
+1
+2
+2
+≈
+1.45933...
+{\displaystyle {}^{\frac {1}{2}}2\approx 1.45933...} If 
+a
+=
+e
+{\displaystyle a=e}, then this is the same as the linear approximation.[1]
+
+Because of the way it is calculated, this function does not "cancel out", contrary to exponents, where 
+(
+a
+1
+n
+)
+n
+=
+a
+{\displaystyle \left(a^{\frac {1}{n}}\right)^{n}=a}. Namely,
+
+n
+(
+1
+n
+a
+)
+=
+(
+1
+n
+a
+)
+(
+1
+n
+a
+)
+⋅
+⋅
+⋅
+⋅
+(
+1
+n
+a
+)
+⏟
+n
+≠
+a
+{\displaystyle {}^{n}\left({}^{\frac {1}{n}}a\right)=\underbrace {\left({}^{\frac {1}{n}}a\right)^{\left({}^{\frac {1}{n}}a\right)^{\cdot ^{\cdot ^{\cdot ^{\cdot ^{\left({}^{\frac {1}{n}}a\right)}}}}}}} _{n}\neq a}.
+Just as there is a quadratic approximation, cubic approximations and methods for generalizing to approximations of degree n also exist, although they are much more unwieldy.[1][15]
+
+Complex heights
+A complex graph showing mushrooming values along the x-axis
+Drawing of the analytic extension 
+f
+=
+F
+(
+x
++
+i
+y
+)
+{\displaystyle f=F(x+{\rm {i}}y)} of tetration to the complex plane. Levels 
+|
+f
+|
+=
+1
+,
+e
+±
+1
+,
+e
+±
+2
+,
+…
+{\displaystyle |f|=1,e^{\pm 1},e^{\pm 2},\ldots } and levels 
+arg
+⁡
+(
+f
+)
+=
+0
+,
+±
+1
+,
+±
+2
+,
+…
+{\displaystyle \arg(f)=0,\pm 1,\pm 2,\ldots } are shown with thick curves.
+In 2017, it was proved[16] that there exists a unique function 
+F
+{\displaystyle F} satisfying 
+F
+(
+z
++
+1
+)
+=
+exp
+⁡
+(
+F
+(
+z
+)
+)
+{\displaystyle F(z+1)=\exp {\bigl (}F(z){\bigr )}} (equivalently 
+F
+(
+z
++
+1
+)
+=
+b
+F
+(
+z
+)
+{\displaystyle F(z+1)=b^{F(z)}} when 
+b
+=
+e
+{\displaystyle b=e}), with the auxiliary conditions 
+F
+(
+0
+)
+=
+1
+{\displaystyle F(0)=1} and 
+F
+(
+z
+)
+→
+ξ
+±
+{\displaystyle F(z)\to \xi _{\pm }} (the attracting/repelling fixed points of the logarithm, roughly 
+0.318
+±
+1.337
+i
+{\displaystyle 0.318\pm 1.337\,\mathrm {i} }) as 
+z
+→
+±
+i
+∞
+{\displaystyle z\to \pm i\infty }. Moreover, 
+F
+{\displaystyle F} is holomorphic on all of 
+C
+{\displaystyle \mathbb {C} } except for the cut along the real axis at 
+z
+≤
+−
+2
+{\displaystyle z\leq -2}. This construction was first conjectured by Kouznetsov (2009)[17] and rigorously carried out by Kneser in 1950.[18] Paulsen & Cowgill's proof extends Kneser's original construction to any base 
+b
+>
+e
+1
+/
+e
+≈
+1.445
+{\displaystyle b>e^{1/e}\approx 1.445}, and subsequent work showed how to extend this result to all complex bases, including those inside the region where 
+lim
+n
+→
+∞
+n
+b
+{\displaystyle \lim _{n\rightarrow \infty }{}^{n}b} converges.[19]
+
+Non-elementary recursiveness
+Tetration (restricted to 
+N
+2
+{\displaystyle \mathbb {N} ^{2}}) is not an elementary recursive function. One can prove by induction that for every elementary recursive function f, there is a constant c such that
+
+f
+(
+x
+)
+≤
+⋅
+⋅
+2
+2
+x
+⏟
+c
+.
+{\displaystyle f(x)\leq \underbrace {\cdot ^{\cdot ^{2^{2^{x}}}}} _{c}.}
+We denote the right hand side by 
+g
+(
+c
+,
+x
+)
+{\displaystyle g(c,x)}. Suppose on the contrary that tetration is elementary recursive. Then 
+g
+(
+x
+,
+x
+)
++
+1
+{\displaystyle g(x,x)+1} is also elementary recursive. By the above inequality, there is a constant c such that 
+g
+(
+x
+,
+x
+)
++
+1
+≤
+g
+(
+c
+,
+x
+)
+{\displaystyle g(x,x)+1\leq g(c,x)}. By letting 
+x
+=
+c
+{\displaystyle x=c}, we have that 
+g
+(
+c
+,
+c
+)
++
+1
+≤
+g
+(
+c
+,
+c
+)
+{\displaystyle g(c,c)+1\leq g(c,c)}, a contradiction.
+
+Inverse operations
+Exponentiation has two inverse operations: roots and logarithms. Analogously, the inverses of tetration are often called the super-root, and the super-logarithm (In fact, all hyperoperations of order 3 or higher have analogous inverses); for example, in the function 
+3
+y
+=
+x
+{\displaystyle {^{3}}y=x}, the two inverses are the cube super-root of y and the super-logarithm base y of x.
+
+Super-root
+"Super-root" redirects here. For the directory supported by some Unixes, see super-root (computing).
+The super-root is the inverse operation of tetration with respect to the base: if 
+n
+y
+=
+x
+{\displaystyle ^{n}y=x}, then y is an n-th super-root of x (
+x
+n
+s
+{\displaystyle {\sqrt[{n}]{x}}_{s}} or 
+x
+4
+s
+{\displaystyle {\sqrt[{4}]{x}}_{s}}).
+
+For example,
+
+4
+2
+=
+2
+2
+2
+2
+=
+65536
+{\displaystyle ^{4}2=2^{2^{2^{2}}}=65536}
+so 2 is the fourth super-root of 65536 
+(
+65,536
+4
+s
+=
+2
+)
+{\displaystyle \left({\sqrt[{4}]{65{,}536}}_{s}=2\right)}.
+
+Square super-root
+A curve that starts at (0,1), bends slightly to the right and then bends back dramatically to the left as the values along the x-axis increase
+Graph of 
+y
+=
+x
+s
+{\displaystyle y={\sqrt {x}}_{s}}
+The 2nd-order super-root, square super-root, or super square root has two equivalent notations, 
+s
+s
+r
+t
+(
+x
+)
+{\displaystyle \mathrm {ssrt} (x)} and 
+x
+s
+{\displaystyle {\sqrt {x}}_{s}}. It is the inverse of 
+2
+x
+=
+x
+x
+{\displaystyle ^{2}x=x^{x}} and can be represented with the Lambert W function:[20]
+
+s
+s
+r
+t
+(
+x
+)
+=
+exp
+⁡
+(
+W
+(
+ln
+⁡
+x
+)
+)
+=
+ln
+⁡
+x
+W
+(
+ln
+⁡
+x
+)
+{\displaystyle \mathrm {ssrt} (x)=\exp(W(\ln x))={\frac {\ln x}{W(\ln x)}}} or
+x
+s
+=
+e
+W
+(
+ln
+⁡
+x
+)
+{\displaystyle {\sqrt {x}}_{s}=e^{W(\ln x)}}
+The function also illustrates the reflective nature of the root and logarithm functions, as the equation below only holds true when 
+y
+=
+s
+s
+r
+t
+(
+x
+)
+{\displaystyle y=\mathrm {ssrt} (x)}:
+
+x
+y
+=
+log
+y
+⁡
+x
+.
+{\displaystyle {\sqrt[{y}]{x}}=\log _{y}x.}
+Like square roots, the square super-root of x may not have a single solution. Unlike square roots, determining the number of square super-roots of x may be difficult. In general, if 
+e
+−
+1
+/
+e
+<
+x
+<
+1
+{\displaystyle e^{-1/e}<x<1}, then x has two positive square super-roots between 0 and 1, calculated as
+
+x
+s
+=
+{
+e
+W
+−
+1
+(
+ln
+⁡
+x
+)
+;
+e
+W
+0
+(
+ln
+⁡
+x
+)
+}
+,
+{\displaystyle {\sqrt {x}}_{s}=\left\{e^{W_{-1}(\ln x)};e^{W_{0}(\ln x)}\right\},}
+
+and if 
+x
+>
+1
+{\displaystyle x>1}, then x has one positive square super-root greater than 1 calculated as 
+x
+s
+=
+e
+W
+0
+(
+ln
+⁡
+x
+)
+{\displaystyle {\sqrt {x}}_{s}=e^{W_{0}(\ln x)}}. If x is positive and less than 
+e
+−
+1
+/
+e
+{\displaystyle e^{-1/e}}, then it does not have any real square super-roots, but the formula given above yields countably infinitely many complex ones for any finite x not equal to 1.[20] The function has been used to determine the size of data clusters.[21]
+
+At 
+x
+=
+1
+{\displaystyle x=1}:
+
+s
+s
+r
+t
+(
+x
+)
+=
+1
++
+(
+x
+−
+1
+)
+−
+(
+x
+−
+1
+)
+2
++
+3
+2
+(
+x
+−
+1
+)
+3
+−
+17
+6
+(
+x
+−
+1
+)
+4
++
+37
+6
+(
+x
+−
+1
+)
+5
+−
+1759
+120
+(
+x
+−
+1
+)
+6
++
+13279
+360
+(
+x
+−
+1
+)
+7
++
+O
+(
+(
+x
+−
+1
+)
+8
+)
+{\displaystyle \mathrm {ssrt} (x)=1+(x-1)-(x-1)^{2}+{\frac {3}{2}}(x-1)^{3}-{\frac {17}{6}}(x-1)^{4}+{\frac {37}{6}}(x-1)^{5}-{\frac {1759}{120}}(x-1)^{6}+{\frac {13279}{360}}(x-1)^{7}+{\mathcal {O}}{\left((x-1)^{8}\right)}}
+
+
+Other super-roots
+A line graph that starts at the origin and quickly makes an asymptote toward 2 as the value along the x-axis increases
+The graph 
+y
+=
+x
+3
+s
+{\displaystyle y={\sqrt[{3}]{x}}_{s}}
+One of the simpler and faster formulas for a third-degree super-root is the recursive formula. If 
+y
+=
+x
+x
+x
+{\displaystyle y=x^{x^{x}}} then one can use:
+
+x
+0
+=
+1
+{\displaystyle x_{0}=1}
+x
+n
++
+1
+=
+exp
+⁡
+(
+W
+(
+W
+(
+x
+n
+ln
+⁡
+y
+)
+)
+)
+{\displaystyle x_{n+1}=\exp(W(W(x_{n}\ln y)))}
+This recursive formula makes use of the explicit representation of the square super-root via the Lambert W function given above, as we can represent 
+y
+=
+x
+x
+x
+{\displaystyle y=x^{x^{x}}} in the form of 
+y
+x
+=
+(
+x
+x
+)
+(
+x
+x
+)
+{\displaystyle y^{x}=(x^{x})^{(x^{x})}} and apply the square super-root twice: 
+x
+=
+s
+s
+r
+t
+(
+s
+s
+r
+t
+(
+y
+x
+)
+)
+{\displaystyle x=\mathrm {ssrt} (\mathrm {ssrt} (y^{x}))}.
+
+For each integer n > 2, the function nx is defined and increasing for x ≥ 1, and n1 = 1, so that the n-th super-root of x, 
+x
+n
+s
+{\displaystyle {\sqrt[{n}]{x}}_{s}}, exists for x ≥ 1.
+
+However, if the linear approximation above is used, then 
+y
+x
+=
+y
++
+1
+{\displaystyle ^{y}x=y+1} if −1 < y ≤ 0, so 
+y
+y
++
+1
+s
+{\displaystyle ^{y}{\sqrt {y+1}}_{s}} cannot exist.
+
+In the same way as the square super-root, terminology for other super-roots can be based on the normal roots: "cube super-roots" can be expressed as 
+x
+3
+s
+{\displaystyle {\sqrt[{3}]{x}}_{s}}, the "fourth super-root" can be expressed as 
+x
+4
+s
+{\displaystyle {\sqrt[{4}]{x}}_{s}}, and the "n-th super-root" is 
+x
+n
+s
+{\displaystyle {\sqrt[{n}]{x}}_{s}}. Note that 
+x
+n
+s
+{\displaystyle {\sqrt[{n}]{x}}_{s}} may not be uniquely defined, because there may be more than one nth root. For example, x has a single (real) super-root if n is odd, and up to two if n is even.[citation needed]
+
+Just as with the extension of tetration to infinite heights, the super-root can be extended to n = ∞, being well-defined if 1/e ≤ x ≤ e. Note that 
+x
+=
+∞
+y
+=
+y
+[
+∞
+y
+]
+=
+y
+x
+,
+{\displaystyle x={^{\infty }y}=y^{\left[^{\infty }y\right]}=y^{x},} and thus that 
+y
+=
+x
+1
+/
+x
+{\displaystyle y=x^{1/x}}. Therefore, when it is well defined, 
+x
+∞
+s
+=
+x
+1
+/
+x
+{\displaystyle {\sqrt[{\infty }]{x}}_{s}=x^{1/x}} and, unlike normal tetration, is an elementary function. For example, 
+2
+∞
+s
+=
+2
+1
+/
+2
+=
+2
+{\displaystyle {\sqrt[{\infty }]{2}}_{s}=2^{1/2}={\sqrt {2}}}.
+
+It follows from the Gelfond–Schneider theorem that super-root 
+n
+s
+{\displaystyle {\sqrt {n}}_{s}} for any positive integer n is either integer or transcendental, and 
+n
+3
+s
+{\displaystyle {\sqrt[{3}]{n}}_{s}} is either integer or irrational.[22] It is still an open question whether irrational super-roots are transcendental in the latter case.
+
+Super-logarithm
+Main article: Super-logarithm
+Once a continuous increasing (in x) definition of tetration, xa, is selected, the corresponding super-logarithm 
+slog
+a
+⁡
+x
+{\displaystyle \operatorname {slog} _{a}x} or 
+log
+a
+4
+⁡
+x
+{\displaystyle \log _{a}^{4}x} is defined for all real numbers x, and a > 1.
+
+The function sloga x satisfies:
+
+slog
+a
+⁡
+x
+a
+=
+x
+slog
+a
+⁡
+a
+x
+=
+1
++
+slog
+a
+⁡
+x
+slog
+a
+⁡
+x
+=
+1
++
+slog
+a
+⁡
+log
+a
+⁡
+x
+slog
+a
+⁡
+x
+≥
+−
+2
+{\displaystyle {\begin{aligned}\operatorname {slog} _{a}{^{x}a}&=x\\\operatorname {slog} _{a}a^{x}&=1+\operatorname {slog} _{a}x\\\operatorname {slog} _{a}x&=1+\operatorname {slog} _{a}\log _{a}x\\\operatorname {slog} _{a}x&\geq -2\end{aligned}}}
+Open questions
+Other than the problems with the extensions of tetration, there are several open questions concerning tetration, particularly when concerning the relations between number systems such as integers and irrational numbers:
+
+It is not known whether there is an integer 
+n
+≥
+4
+{\displaystyle n\geq 4} for which nπ is an integer, because we can not calculate precisely enough the numbers of digits after the decimal points of 
+π
+{\displaystyle \pi }.[23][additional citation(s) needed] It is similar for ne for 
+n
+≥
+5
+{\displaystyle n\geq 5}, as we are not aware of any other methods besides some direct computation. In fact, since 
+log
+10
+⁡
+(
+e
+)
+⋅
+3
+e
+>
+1656520
+{\displaystyle \log _{10}(e)\cdot {}^{3}e>1656520}, then 
+4
+e
+>
+2
+⋅
+10
+1656520
+{\displaystyle {}^{4}e>2\cdot 10^{1656520}}. Given 
+3
+π
+<
+1.35
+⋅
+10
+18
+≪
+10
+1656520
+{\displaystyle {}^{3}\pi <1.35\cdot 10^{18}\ll 10^{1656520}} and 
+π
+<
+e
+2
+{\displaystyle \pi <e^{2}}, then 
+4
+π
+<
+n
+e
+{\displaystyle {}^{4}\pi <{}^{n}e} for 
+n
+≥
+5
+{\displaystyle n\geq 5}. It is believed that ne is not an integer for any positive integer n, due to the algebraic independence of 
+e
+,
+2
+e
+,
+3
+e
+,
+…
+{\displaystyle e,{}^{2}e,{}^{3}e,\dots }, given Schanuel's conjecture.[24]
+It is not known whether nq is rational for any positive integer n and positive non-integer rational q.[22] For example, it is not known whether the positive root of the equation 4x = 2 is rational.[citation needed]
+It is not known whether eπ or πe (defined using Kneser's extension) are rationals or not.
+Applications
+For each graph H on h vertices and each ε > 0, define
+
+D
+=
+2
+↑↑
+5
+h
+4
+log
+⁡
+(
+1
+/
+ε
+)
+.
+{\displaystyle D=2\uparrow \uparrow 5h^{4}\log(1/\varepsilon ).}
+Then each graph G on n vertices with at most nh/D copies of H can be made H-free by removing at most εn2 edges.[25]
+
+See also
+Wikimedia Commons logo
+Wikimedia Commons has media related to tetration.
+Wiktionary logo
+Look up tetration in Wiktionary, the free dictionary.
+Ackermann function
+Big O notation
+Double exponential function
+Hyperoperation
+Iterated logarithm
+Symmetric level-index arithmetic
+References
+ Neyrinck, Mark. An Investigation of Arithmetic Operations. Retrieved 9 January 2019.
+ R. L. Goodstein (1947). "Transfinite ordinals in recursive number theory". Journal of Symbolic Logic. 12 (4): 123–129. doi:10.2307/2266486. JSTOR 2266486. S2CID 1318943.
+ N. Bromer (1987). "Superexponentiation". Mathematics Magazine. 60 (3): 169–174. doi:10.1080/0025570X.1987.11977296. JSTOR 2689566.
+ J. F. MacDonnell (1989). "Somecritical points of the hyperpower function 
+x
+x
+…
+{\displaystyle x^{x^{\dots }}}". International Journal of Mathematical Education. 20 (2): 297–305. doi:10.1080/0020739890200210. MR 0994348.
+ Weisstein, Eric W. "Power Tower". MathWorld.
+ Hooshmand, M. H. (2006). "Ultra power and ultra exponential functions". Integral Transforms and Special Functions. 17 (8): 549–558. doi:10.1080/10652460500422247. S2CID 120431576.
+ "Power Verb". J Vocabulary. J Software. Retrieved 2011-10-28.
+ "Spaces". Retrieved 2022-02-17.
+ DiModica, Thomas. Tetration Values. Retrieved 15 October 2023.
+ "Climbing the ladder of hyper operators: tetration". math.blogoverflow.com. Stack Exchange Mathematics Blog. Retrieved 2019-07-25.
+ Sloane, N. J. A. (ed.). "Sequence A073230 (Decimal expansion of (1/e)^e)". The On-Line Encyclopedia of Integer Sequences. OEIS Foundation.
+ Sloane, N. J. A. (ed.). "Sequence A073229 (Decimal expansion of e^(1/e))". The On-Line Encyclopedia of Integer Sequences. OEIS Foundation.
+ Euler, L. "De serie Lambertina Plurimisque eius insignibus proprietatibus." Acta Acad. Scient. Petropol. 2, 29–51, 1783. Reprinted in Euler, L. Opera Omnia, Series Prima, Vol. 6: Commentationes Algebraicae. Leipzig, Germany: Teubner, pp. 350–369, 1921. (facsimile)
+ Müller, M. "Reihenalgebra: What comes beyond exponentiation?" (PDF). Archived from the original (PDF) on 2013-12-02. Retrieved 2018-12-12.
+ Andrew Robbins. Solving for the Analytic Piecewise Extension of Tetration and the Super-logarithm. The extensions are found in part two of the paper, "Beginning of Results".
+ Paulsen, W.; Cowgill, S. (March 2017). "Solving 
+F
+(
+z
++
+1
+)
+=
+b
+F
+(
+z
+)
+{\displaystyle F(z+1)=b^{F(z)}} in the complex plane" (PDF). Advances in Computational Mathematics. 43: 1–22. doi:10.1007/s10444-017-9524-1. S2CID 9402035. Archived from the original (PDF) on 2019-04-12.
+ Kouznetsov, D. (July 2009). "Solution of 
+F
+(
+z
++
+1
+)
+=
+exp
+⁡
+(
+F
+(
+z
+)
+)
+{\displaystyle F(z+1)=\exp(F(z))} in complex 
+z
+{\displaystyle z}-plane" (PDF). Mathematics of Computation. 78 (267): 1647–1670. doi:10.1090/S0025-5718-09-02188-7. Archived (PDF) from the original on 2012-11-08.
+ Kneser, H. (1950). "Reelle analytische Lösungen der Gleichung 
+φ
+(
+φ
+(
+x
+)
+)
+=
+e
+x
+{\displaystyle \varphi (\varphi (x))=e^{x}} und verwandter Funktionalgleichungen". Journal für die reine und angewandte Mathematik (in German). 187: 56–67.
+ Paulsen, W. (June 2018). "Tetration for complex bases". Advances in Computational Mathematics. 45: 243–267. doi:10.1007/s10444-018-9615-7.
+ Corless, R. M.; Gonnet, G. H.; Hare, D. E. G.; Jeffrey, D. J.; Knuth, D. E. (1996). "On the Lambert W function" (PostScript). Advances in Computational Mathematics. 5: 333. arXiv:1809.07369. doi:10.1007/BF02124750. S2CID 29028411.
+ Krishnam, R. (2004), "Efficient Self-Organization Of Large Wireless Sensor Networks" – Dissertation, BOSTON UNIVERSITY, COLLEGE OF ENGINEERING. pp. 37–40
+ Marshall, Ash J., and Tan, Yiren, "A rational number of the form aa with a irrational", Mathematical Gazette 96, March 2012, pp. 106–109.
+ Bischoff, Manon (2024-01-24). "A Wild Claim about the Powers of Pi Creates a Transcendental Mystery". Scientific American. Archived from the original on 2024-04-24. Retrieved 2024-04-23.
+ Cheng, Chuangxun; Dietel, Brian; Herblot, Mathilde; Huang, Jingjing; Krieger, Holly; Marques, Diego; Mason, Jonathan; Mereb, Martin; Wilson, S. Robert (2009). "Some consequences of Schanuel's conjecture". Journal of Number Theory. 129 (6): 1464–1467. arXiv:0804.3550. doi:10.1016/j.jnt.2008.10.018.
+ Jacob Fox, A new proof of the graph removal lemma, arXiv preprint (2010). arXiv:1006.1300 [math.CO]
+External links
+Daniel Geisler, Tetration
+William Paulsen, Tetration Calculator (Finds the tetration to arbitrary complex heights of nine preselected bases.)
+Ioannis Galidakis, On extending hyper4 to nonintegers (undated, 2006 or earlier) (A simpler, easier to read review of the next reference)
+Ioannis Galidakis, On Extending hyper4 and Knuth's Up-arrow Notation to the Reals (undated, 2006 or earlier).
+Robert Munafo, Extension of the hyper4 function to reals (An informal discussion about extending tetration to the real numbers.)
+Lode Vandevenne, Tetration of the Square Root of Two. (2004). (Attempt to extend tetration to real numbers.)
+Ioannis Galidakis, Mathematics, (Definitive list of references to tetration research. Much information on the Lambert W function, Riemann surfaces, and analytic continuation.)
+Joseph MacDonell, Some Critical Points of the Hyperpower Function Archived 2010-01-17 at the Wayback Machine.
+Dave L. Renfro, Web pages for infinitely iterated exponentials
+Knobel, R. (1981). "Exponentials Reiterated". American Mathematical Monthly. 88 (4): 235–252. doi:10.1080/00029890.1981.11995239.
+Hans Maurer, "Über die Funktion 
+y
+=
+x
+[
+x
+[
+x
+(
+⋯
+)
+]
+]
+{\displaystyle y=x^{[x^{[x(\cdots )]}]}} für ganzzahliges Argument (Abundanzen)." Mittheilungen der Mathematische Gesellschaft in Hamburg 4, (1901), p. 33–50. (Reference to usage of 
+ 
+n
+a
+{\displaystyle \ {^{n}a}} from Knobel's paper.)
+The Fourth Operation
+Luca Moroni, The strange properties of the infinite power tower (https://arxiv.org/abs/1908.05559)
+Further reading
+Galidakis, Ioannis; Weisstein, Eric Wolfgang. "Power Tower". MathWorld. Retrieved 2019-07-05.
+vte
+Hyperoperations
+vte
+Large numbers
+Categories: ExponentialsOperations on numbersLarge numbers
+This page was last edited on 13 September 2026, at 18:22 (UTC). Page was rendered with Parsoid.
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+
+
+WiktionaryThe Free Dictionary
+Search Wiktionary
+Search
+Donations
+Preferences
+Create account
+Log in
+Contents hide
+Beginning
+English
+
+Etymology
+Pronunciation
+Noun
+Coordinate terms
+quintation
+
+Entry
+Discussion
+Citations
+Read
+Edit
+View history
+
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+See also: Quintation
+English
+Etymology
+From quintate +‎ -ion.
+
+Pronunciation
+(Received Pronunciation, UK) enPR: kwĭntāʹshən, IPA(key): /kwɪnˈteɪʃən/
+Noun
+quintation (countable and uncountable, plural quintations)
+
+(rare) The removal of one fifth (of something). 
+Coordinate terms
+(proportionate reduction, by single aliquot part): septimation (1/7), decimation (1/10), vicesimation (1/20), tricesimation (1/30), centesimation (1/100)
+Categories: English terms suffixed with -ionEnglish 3-syllable wordsEnglish terms with IPA pronunciationEnglish lemmasEnglish nounsEnglish uncountable nounsEnglish countable nounsEnglish terms with rare sensesEnglish terms with quotationsen:Five
+This page was last edited on 25 January 2025, at 01:03.
+Definitions and other text are available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.
+Privacy policyAbout WiktionaryDisclaimersLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Definition
+Examples
+Special cases
+History
+Notations
+
+Variant starting from a
+Variant starting from 0
+Lower hyperoperations
+Commutative hyperoperations
+Numeration systems based on the hyperoperation sequence
+Computation
+
+TRS based on definition sub 1.1
+TRS based on definition sub 1.2
+See also
+Notes
+References
+Bibliography
+Hyperoperation
+
+Article
+Talk
+Read
+Edit
+View history
+
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+This article is about the arithmetic concept. For the group theory hyperoperation concept, see Hyperstructure.
+In mathematics, the hyperoperation sequence is an infinite sequence of arithmetic operations (called hyperoperations in this context)[1][2][3] that starts with a unary operation (the successor function with n = 0). The sequence continues with the binary operations of addition (n = 1), multiplication (n = 2), and exponentiation (n = 3).[nb 1] After that, the sequence proceeds with further binary operations extending beyond exponentiation, using right-associativity. For the operations beyond exponentiation, the n-th member of this sequence is named by Reuben Goodstein after the Greek prefix of n suffixed with -ation (such as tetration (n = 4), pentation (n = 5), hexation (n = 6), etc.)[7] and can be written using n − 2 arrows in Knuth's up-arrow notation. Each hyperoperation may be understood recursively in terms of the previous one by:
+
+a
+[
+n
+]
+b
+=
+a
+[
+n
+−
+1
+]
+(
+a
+[
+n
+−
+1
+]
+(
+a
+[
+n
+−
+1
+]
+(
+⋯
+a
+[
+n
+−
+1
+]
+(
+a
+[
+n
+−
+1
+]
+(
+a
+[
+n
+−
+1
+]
+a
+)
+)
+⋯
+)
+)
+)
+⏟
+b
+ copies of 
+a
+,
+n
+≥
+2
+{\displaystyle a[n]b=\underbrace {a[n-1](a[n-1](a[n-1](\cdots a[n-1](a[n-1](a[n-1]a))\cdots )))} _{\displaystyle b{\mbox{ copies of }}a},\quad n\geq 2}
+
+It may also be defined according to the recursion rule part of the definition, as in Knuth's up-arrow version of the Ackermann function:
+
+a
+[
+n
+]
+b
+=
+a
+[
+n
+−
+1
+]
+(
+a
+[
+n
+]
+(
+b
+−
+1
+)
+)
+,
+n
+≥
+1
+{\displaystyle a[n]b=a[n-1]\left(a[n]\left(b-1\right)\right),\quad n\geq 1}
+
+This can be used to easily show numbers much larger than those which scientific notation can, such as Skewes's number and googolplexplex (e.g. 
+50
+[
+50
+]
+50
+{\displaystyle 50[50]50} is much larger than Skewes's number and googolplexplex), but there are some numbers which even they cannot easily show, such as Graham's number and TREE(3).[14]
+
+This recursion rule is common to many variants of hyperoperations.
+
+Definition
+The hyperoperation sequence is the sequence of binary operations 
+H
+n
+:
+(
+N
+0
+)
+2
+→
+N
+0
+{\displaystyle H_{n}\colon (\mathbb {N} _{0})^{2}\rightarrow \mathbb {N} _{0}} defined recursively as follows:
+H
+n
+(
+a
+,
+b
+)
+=
+{
+b
++
+1
+if 
+n
+=
+0
+a
+if 
+n
+=
+1
+ and 
+b
+=
+0
+0
+if 
+n
+=
+2
+ and 
+b
+=
+0
+1
+if 
+n
+≥
+3
+ and 
+b
+=
+0
+H
+n
+−
+1
+(
+a
+,
+H
+n
+(
+a
+,
+b
+−
+1
+)
+)
+otherwise
+.
+{\displaystyle H_{n}(a,b)={\begin{cases}b+1&{\text{if }}n=0\\a&{\text{if }}n=1{\text{ and }}b=0\\0&{\text{if }}n=2{\text{ and }}b=0\\1&{\text{if }}n\geq 3{\text{ and }}b=0\\H_{n-1}(a,H_{n}(a,b-1))&{\text{otherwise}}\end{cases}}.}For n = 0, 1, 2, 3, this definition reproduces the basic arithmetic operations of successor (which is a unary operation), addition, multiplication, and exponentiation, respectively, as
+H
+0
+(
+a
+,
+b
+)
+=
+b
++
+1
+,
+H
+1
+(
+a
+,
+b
+)
+=
+a
++
+b
+,
+H
+2
+(
+a
+,
+b
+)
+=
+a
+×
+b
+,
+H
+3
+(
+a
+,
+b
+)
+=
+a
+b
+{\displaystyle {\begin{aligned}H_{0}(a,b)&=b+1,\\H_{1}(a,b)&=a+b,\\H_{2}(a,b)&=a\times b,\\H_{3}(a,b)&=a^{b}\end{aligned}}}for all nonnegative integers a and b. The hyperoperations can thus be seen as an answer to the question "what's next?" in the sequence of functions that begins successor, addition, multiplication, exponentiation. Just as integer multiplication is defined as iterated addition and integer exponentiation is defined by iterated multiplication, the next hyperoperation, tetration, is defined by iterated exponentiation; for example, 
+H
+4
+(
+a
+,
+3
+)
+=
+tetration
+⁡
+(
+a
+,
+3
+)
+=
+a
+a
+a
+{\displaystyle H_{4}(a,3)=\operatorname {tetration} (a,3)=a^{a^{a}}} is a power tower of three as, and 
+H
+4
+(
+a
+,
+4
+)
+=
+tetration
+⁡
+(
+a
+,
+4
+)
+=
+a
+a
+a
+a
+{\displaystyle H_{4}(a,4)=\operatorname {tetration} (a,4)=a^{a^{a^{a}}}}. Likewise the fifth hyperoperation pentation, is defined by iterated tetration, so that 
+H
+5
+(
+a
+,
+3
+)
+=
+tetration
+⁡
+(
+a
+,
+tetration
+⁡
+(
+a
+,
+a
+)
+)
+{\displaystyle H_{5}(a,3)=\operatorname {tetration} (a,\operatorname {tetration} (a,a))}.
+
+The parameters of the hyperoperation hierarchy are sometimes referred to by their analogous exponentiation term;[15] so a is the base, b is the exponent (or hyperexponent),[13] and n is the rank (or grade).[8] In general, 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)} may be read as "the b-th n-ation of a", so that 
+H
+4
+(
+7
+,
+9
+)
+{\displaystyle H_{4}(7,9)} is read as "the 9th tetration of 7", and 
+H
+123
+(
+456
+,
+789
+)
+{\displaystyle H_{123}(456,789)} is read as "the 789th 123-ation of 456".
+
+An alternative way of writing hyperoperations is the compact notation 
+a
+[
+n
+]
+b
+{\displaystyle a[n]b} for 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)}. In this notation, exponentiation is denoted 
+a
+[
+3
+]
+b
+=
+a
+b
+{\displaystyle a[3]b=a^{b}}, tetration is denoted 
+a
+[
+4
+]
+b
+{\displaystyle a[4]b} (so that 
+a
+[
+4
+]
+3
+=
+a
+a
+a
+{\displaystyle a[4]3=a^{a^{a}}}, pentation is denoted 
+a
+[
+5
+]
+b
+{\displaystyle a[5]b}, and so on. Hyperoperations can also be expressed using Knuth's up-arrow notation. In this notation, 
+a
+↑
+b
+{\displaystyle a\uparrow b} represents the exponentiation function 
+a
+b
+{\displaystyle a^{b}}, 
+a
+↑↑
+b
+{\displaystyle a\uparrow \uparrow b} represents tetration, 
+a
+↑↑↑
+b
+{\displaystyle a\uparrow \uparrow \uparrow b} or 
+a
+↑
+3
+b
+{\displaystyle a\uparrow ^{3}b} represents the pentation 
+a
+[
+5
+]
+b
+{\displaystyle a[5]b}, and more generally 
+H
+n
+(
+a
+,
+b
+)
+=
+a
+↑
+n
+−
+2
+b
+{\displaystyle H_{n}(a,b)=a\uparrow ^{n-2}b} for 
+n
+≥
+0.
+{\displaystyle n\geq 0.} Yet another alternative is Conway chained arrow notation. In this notation, one has 
+H
+n
+(
+a
+,
+b
+)
+=
+a
+[
+n
+]
+b
+=
+a
+→
+b
+→
+n
+−
+2
+{\displaystyle H_{n}(a,b)=a[n]b=a\rightarrow b\rightarrow n-2}, so that (for example) 
+a
+[
+5
+]
+b
+=
+a
+→
+b
+→
+3
+{\displaystyle a[5]b=a\rightarrow b\rightarrow 3}.[16]
+
+Examples
+Below is a list of the first seven (0th to 6th) hyperoperations (0⁰ is defined as 1).
+
+n	Operation,
+Hn(a, b)	Definition	Names	Domain
+0	
+b
++
+1
+{\displaystyle b+1} or 
+a
+[
+0
+]
+b
+{\displaystyle a[0]b}	
+1
++
+1
++
+1
++
+⋯
++
+1
++
+1
++
+1
+⏟
+b
+ copies of 1
++
+1
+{\displaystyle \underbrace {1+1+1+\cdots +1+1+1} _{\displaystyle b{\mbox{ copies of 1}}}+1}	Increment, successor, zeration, hyper0	Arbitrary
+1	
+a
++
+b
+{\displaystyle a+b} or 
+a
+[
+1
+]
+b
+{\displaystyle a[1]b}	
+a
++
+1
++
+1
++
+1
++
+⋯
++
+1
++
+1
++
+1
+⏟
+b
+ copies of 1
+{\displaystyle a+\underbrace {1+1+1+\cdots +1+1+1} _{\displaystyle b{\mbox{ copies of 1}}}}	Addition, hyper1
+2	
+a
+×
+b
+{\displaystyle a\times {b}} or 
+a
+[
+2
+]
+b
+{\displaystyle a[2]b}	
+a
++
+a
++
+a
++
+⋯
++
+a
++
+a
++
+a
+⏟
+b
+ copies of 
+a
+{\displaystyle \underbrace {a+a+a+\cdots +a+a+a} _{\displaystyle b{\mbox{ copies of }}a}}	Multiplication, hyper2
+3	
+a
+b
+{\displaystyle a^{b}} or 
+a
+[
+3
+]
+b
+{\displaystyle a[3]b}	
+a
+×
+a
+×
+a
+×
+⋯
+×
+a
+×
+a
+×
+a
+⏟
+b
+ copies of 
+a
+{\displaystyle \underbrace {a\times a\times a\times \;\cdots \;\times a\times a\times a} _{\displaystyle b{\mbox{ copies of }}a}}	Exponentiation, hyper3	b real, with some multivalued extensions to complex numbers
+4	
+b
+a
+{\displaystyle ^{b}a} or 
+a
+[
+4
+]
+b
+{\displaystyle a[4]b}	
+a
+a
+⋅
+⋅
+a
+⏟
+b
+ copies of 
+a
+{\displaystyle \underbrace {a^{a^{\cdot ^{\cdot ^{a}}}}} _{\displaystyle b{\mbox{ copies of }}a}}	Tetration, hyper4	a ≥ 0 or an integer, b an integer ≥ −1 [nb 2] (with some proposed extensions)
+5	
+b
+a
+{\displaystyle _{b}a} or 
+a
+[
+5
+]
+b
+{\displaystyle a[5]b}	
+a
+[
+4
+]
+(
+a
+[
+4
+]
+(
+a
+[
+4
+]
+(
+⋯
+[
+4
+]
+(
+a
+[
+4
+]
+(
+a
+[
+4
+]
+a
+)
+)
+⋯
+)
+)
+)
+⏟
+b
+ copies of 
+a
+{\displaystyle \underbrace {a[4](a[4](a[4](\cdots [4](a[4](a[4]a))\cdots )))} _{\displaystyle b{\mbox{ copies of }}a}}	Pentation, hyper5	a, b integers ≥ −1 [nb 2]
+6	
+a
+[
+6
+]
+b
+{\displaystyle a[6]b}	
+a
+[
+5
+]
+(
+a
+[
+5
+]
+(
+a
+[
+5
+]
+(
+⋯
+[
+5
+]
+(
+a
+[
+5
+]
+(
+a
+[
+5
+]
+a
+)
+)
+⋯
+)
+)
+)
+⏟
+b
+ copies of 
+a
+{\displaystyle \underbrace {a[5](a[5](a[5](\cdots [5](a[5](a[5]a))\cdots )))} _{\displaystyle b{\mbox{ copies of }}a}}	Hexation, hyper6
+Special cases
+Hn(0, b) =
+
+b + 1, when n = 0
+b, when n = 1
+0, when n = 2
+1, when n = 3 and b = 0 [nb 3]
+0, when n = 3 and b > 0 [nb 3]
+1, when n > 3 and b is even (including 0)
+0, when n > 3 and b is odd
+Hn(1, b) =
+
+b, when n = 2
+1, when n ≥ 3
+Hn(a, 0) =
+
+0, when n = 2
+1, when n = 0, or n ≥ 3
+a, when n = 1
+Hn(a, 1) =
+
+2, when n = 0
+a + 1, when n = 1
+a, when n ≥ 2
+Hn(a, a) =
+
+Hn+1(a, 2), when n ≥ 1
+Hn(a, −1) =[nb 2]
+
+0, when n = 0, or n ≥ 4
+a − 1, when n = 1
+−a, when n = 2
+⁠
+1
+/
+a
+⁠ , when n = 3
+Hn(2, 2) =
+
+3, when n = 0
+4, when n ≥ 1, easily demonstrable recursively.
+History
+One of the earliest discussions of hyperoperations was that of Albert Bennett in 1914, who developed some of the theory of commutative hyperoperations (see § Commutative hyperoperations below).[8] About 12 years later, Wilhelm Ackermann defined the function 
+ϕ
+(
+a
+,
+b
+,
+n
+)
+{\displaystyle \phi (a,b,n)}, which somewhat resembles the hyperoperation sequence.[17]
+
+In his 1947 paper,[7] Reuben Goodstein introduced the specific sequence of operations that are now called hyperoperations, and also suggested the Greek names tetration, pentation, etc., for the extended operations beyond exponentiation (because they correspond to the indices 4, 5, etc.). As a three-argument function, e.g., 
+G
+(
+n
+,
+a
+,
+b
+)
+=
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle G(n,a,b)=H_{n}(a,b)}, the hyperoperation sequence as a whole is seen to be a version of the original Ackermann function 
+ϕ
+(
+a
+,
+b
+,
+n
+)
+{\displaystyle \phi (a,b,n)} — recursive but not primitive recursive — as modified by Goodstein to incorporate the primitive successor function together with the other three basic operations of arithmetic (addition, multiplication, exponentiation), and to make a more seamless extension of these beyond exponentiation.
+
+The original three-argument Ackermann function 
+ϕ
+{\displaystyle \phi } uses the same recursion rule as does Goodstein's version of it (i.e., the hyperoperation sequence), but differs from it in two ways. First, 
+ϕ
+(
+a
+,
+b
+,
+n
+)
+{\displaystyle \phi (a,b,n)} defines a sequence of operations starting from addition (n = 0) rather than the successor function, then multiplication (n = 1), exponentiation (n = 2), etc. Secondly, the initial conditions for 
+ϕ
+{\displaystyle \phi } result in 
+ϕ
+(
+a
+,
+b
+,
+3
+)
+=
+G
+(
+4
+,
+a
+,
+b
++
+1
+)
+=
+a
+[
+4
+]
+(
+b
++
+1
+)
+{\displaystyle \phi (a,b,3)=G(4,a,b+1)=a[4](b+1)}, thus differing from the hyperoperations beyond exponentiation.[9][18][19] The significance of the b + 1 in the previous expression is that 
+ϕ
+(
+a
+,
+b
+,
+3
+)
+{\displaystyle \phi (a,b,3)} = 
+a
+a
+⋅
+⋅
+⋅
+a
+{\displaystyle a^{a^{\cdot ^{\cdot ^{\cdot ^{a}}}}}}, where b counts the number of operators (exponentiations), rather than counting the number of operands ("a"s) as does the b in 
+a
+[
+4
+]
+b
+{\displaystyle a[4]b}, and so on for the higher-level operations. (See the Ackermann function article for details.)
+
+Notations
+This is a list of notations that have been used for hyperoperations.
+
+Name	Notation equivalent to 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)}	Comment
+Knuth's up-arrow notation	
+a
+↑
+n
+−
+2
+b
+{\displaystyle a\uparrow ^{n-2}b}	Used by Knuth[20] (for n ≥ 3), and found in several reference books.[21][22]
+Hilbert's notation	
+ϕ
+n
+(
+a
+,
+b
+)
+{\displaystyle \phi _{n}(a,b)}	Used by David Hilbert.[23]
+Goodstein's notation	
+G
+(
+n
+,
+a
+,
+b
+)
+{\displaystyle G(n,a,b)}	Used by Reuben Goodstein.[7]
+Original Ackermann function	
+ϕ
+(
+a
+,
+b
+,
+n
+−
+1
+)
+ 
+ for 
+1
+≤
+n
+≤
+3
+ϕ
+(
+a
+,
+b
+−
+1
+,
+n
+−
+1
+)
+ 
+ for 
+n
+≥
+4
+{\displaystyle {\begin{matrix}\phi (a,b,n-1)\ {\text{ for }}1\leq n\leq 3\\\phi (a,b-1,n-1)\ {\text{ for }}n\geq 4\end{matrix}}}	Used by Wilhelm Ackermann (for n ≥ 1)[17]
+Ackermann–Péter function	
+A
+(
+n
+,
+b
+−
+3
+)
++
+3
+ 
+for 
+a
+=
+2
+{\displaystyle A(n,b-3)+3\ {\text{for }}a=2}	This corresponds to hyperoperations for base 2 (a = 2)
+Nambiar's notation	
+a
+⊗
+n
+−
+1
+b
+{\displaystyle a\otimes ^{n-1}b}	Used by Nambiar (for n ≥ 1)[24]
+Superscript notation	
+a
+(
+n
+)
+b
+{\displaystyle a{}^{(n)}b}	Used by Robert Munafo.[18]
+Subscript notation (for lower hyperoperations)	
+a
+(
+n
+)
+b
+{\displaystyle a{}_{(n)}b}	Used for lower hyperoperations by Robert Munafo.[18]
+Operator notation (for "extended operations")	
+a
+O
+n
+−
+1
+b
+{\displaystyle aO_{n-1}b}	Used for lower hyperoperations by John Doner and Alfred Tarski (for n ≥ 1).[25]
+Square bracket notation	
+a
+[
+n
+]
+b
+{\displaystyle a[n]b}	Used in many online forums; convenient for ASCII.
+Conway chained arrow notation	
+a
+→
+b
+→
+(
+n
+−
+2
+)
+{\displaystyle a\to b\to (n-2)}	Used by John Horton Conway (for n ≥ 3)
+Variant starting from a
+Main article: Ackermann function
+In 1928, Wilhelm Ackermann defined a 3-argument function 
+ϕ
+(
+a
+,
+b
+,
+n
+)
+{\displaystyle \phi (a,b,n)} which gradually evolved into a 2-argument function known as the Ackermann function. The original Ackermann function 
+ϕ
+{\displaystyle \phi } was less similar to modern hyperoperations, because his initial conditions start with 
+ϕ
+(
+a
+,
+0
+,
+n
+)
+=
+a
+{\displaystyle \phi (a,0,n)=a} for all n > 2. Also he assigned addition to n = 0, multiplication to n = 1 and exponentiation to n = 2, so the initial conditions produce very different operations for tetration and beyond.
+
+n	Operation	Comment
+0	
+F
+0
+(
+a
+,
+b
+)
+=
+a
++
+b
+{\displaystyle F_{0}(a,b)=a+b}	
+1	
+F
+1
+(
+a
+,
+b
+)
+=
+a
+⋅
+b
+{\displaystyle F_{1}(a,b)=a\cdot b}	
+2	
+F
+2
+(
+a
+,
+b
+)
+=
+a
+b
+{\displaystyle F_{2}(a,b)=a^{b}}	
+3	
+F
+3
+(
+a
+,
+b
+)
+=
+a
+[
+4
+]
+(
+b
++
+1
+)
+{\displaystyle F_{3}(a,b)=a[4](b+1)}	An offset form of tetration. The iteration of this operation is different than the iteration of tetration.
+4	
+F
+4
+(
+a
+,
+b
+)
+=
+(
+x
+↦
+a
+[
+4
+]
+(
+x
++
+1
+)
+)
+b
+(
+a
+)
+{\displaystyle F_{4}(a,b)=(x\mapsto a[4](x+1))^{b}(a)}	Not to be confused with pentation.
+Another initial condition that has been used is 
+A
+(
+0
+,
+b
+)
+=
+2
+b
++
+1
+{\displaystyle A(0,b)=2b+1} (where the base is constant 
+a
+=
+2
+{\displaystyle a=2}), due to Rózsa Péter, which does not form a hyperoperation hierarchy.
+
+Variant starting from 0
+In 1984, C. W. Clenshaw and F. W. J. Olver began the discussion of using hyperoperations to prevent computer floating-point overflows.[26] Since then, many other authors[27][28][29] have renewed interest in the application of hyperoperations to floating-point representation. (Since Hn(a, b) are all defined for b = −1.) While discussing tetration, Clenshaw et al. assumed the initial condition 
+F
+n
+(
+a
+,
+0
+)
+=
+0
+{\displaystyle F_{n}(a,0)=0}, which makes yet another hyperoperation hierarchy. Just like in the previous variant, the fourth operation is very similar to tetration, but offset by one.
+
+n	Operation	Comment
+0	
+F
+0
+(
+a
+,
+b
+)
+=
+b
++
+1
+{\displaystyle F_{0}(a,b)=b+1}	
+1	
+F
+1
+(
+a
+,
+b
+)
+=
+a
++
+b
+{\displaystyle F_{1}(a,b)=a+b}	
+2	
+F
+2
+(
+a
+,
+b
+)
+=
+a
+⋅
+b
+=
+e
+ln
+⁡
+(
+a
+)
++
+ln
+⁡
+(
+b
+)
+{\displaystyle F_{2}(a,b)=a\cdot b=e^{\ln(a)+\ln(b)}}	
+3	
+F
+3
+(
+a
+,
+b
+)
+=
+a
+b
+{\displaystyle F_{3}(a,b)=a^{b}}	
+4	
+F
+4
+(
+a
+,
+b
+)
+=
+a
+[
+4
+]
+(
+b
+−
+1
+)
+{\displaystyle F_{4}(a,b)=a[4](b-1)}	An offset form of tetration. The iteration of this operation is much different than the iteration of tetration.
+5	
+F
+5
+(
+a
+,
+b
+)
+=
+(
+x
+↦
+a
+[
+4
+]
+(
+x
+−
+1
+)
+)
+b
+(
+0
+)
+=
+0
+ if 
+a
+>
+0
+{\displaystyle F_{5}(a,b)=\left(x\mapsto a[4](x-1)\right)^{b}(0)=0{\text{ if }}a>0}	Not to be confused with pentation.
+Lower hyperoperations
+An alternative for these hyperoperations is obtained by evaluation from left to right.[11] Since
+a
++
+b
+=
+(
+a
++
+(
+b
+−
+1
+)
+)
++
+1
+a
+⋅
+b
+=
+(
+a
+⋅
+(
+b
+−
+1
+)
+)
++
+a
+a
+b
+=
+(
+a
+(
+b
+−
+1
+)
+)
+⋅
+a
+{\displaystyle {\begin{aligned}a+b&=(a+(b-1))+1\\a\cdot b&=(a\cdot (b-1))+a\\a^{b}&=\left(a^{(b-1)}\right)\cdot a\end{aligned}}}define (with ° or subscript)
+a
+(
+n
+)
+b
+=
+(
+a
+(
+n
+)
+(
+b
+−
+1
+)
+)
+(
+n
+−
+1
+)
+a
+{\displaystyle a_{(n)}b=\left(a_{(n)}(b-1)\right)_{(n-1)}a}with
+a
+(
+1
+)
+b
+=
+a
++
+b
+a
+(
+2
+)
+0
+=
+0
+a
+(
+n
+)
+1
+=
+a
+for 
+n
+>
+2
+{\displaystyle {\begin{aligned}a_{(1)}b&=a+b\\a_{(2)}0&=0\\a_{(n)}1&=a&{\text{for }}n>2\\\end{aligned}}}
+
+This was extended to ordinal numbers by Doner and Tarski.[30] They have index 0 rather than index 1 for addition. They extend the formulas to also handle each ordinal with no immediate predecessor by replacing b − 1 in the above with the supremum over all ordinals less than b, and they treat n similarly. We use Greek letters to indicate that these are ordinal numbers not simply counting numbers.
+
+α
+O
+0
+β
+=
+α
++
+β
+α
+O
+ν
+β
+=
+sup
+δ
+<
+β
+,
+ 
+μ
+<
+ν
+(
+α
+O
+ν
+δ
+)
+O
+μ
+α
+.
+{\displaystyle {\begin{aligned}\alpha O_{0}\beta &=\alpha +\beta \\\alpha O_{\nu }\beta &=\sup \limits _{\delta <\beta ,~\mu <\nu }(\alpha O_{\nu }\delta )O_{\mu }\alpha \,.\end{aligned}}}
+
+With these definitions ⁠
+O
+0
+{\displaystyle O_{0}}⁠ is addition, ⁠
+O
+1
+{\displaystyle O_{1}}⁠ is multiplication, and ⁠
+O
+2
+{\displaystyle O_{2}}⁠ is exponentiation. However, ⁠
+O
+3
+{\displaystyle O_{3}}⁠ fails to form the "power tower" apparent with the corresponding (non-lower) hyperoperation.[31][nb 4] Instead,
+α
+O
+3
+(
+1
++
+β
+)
+=
+α
+(
+α
+β
+)
+.
+{\displaystyle \alpha O_{3}(1+\beta )=\alpha ^{\left(\alpha ^{\beta }\right)}.}
+
+n	Operation	Comment
+0	
+F
+0
+(
+a
+,
+b
+)
+=
+a
++
+1
+{\displaystyle F_{0}(a,b)=a+1}	Increment, successor, zeration
+1	
+F
+1
+(
+a
+,
+b
+)
+=
+a
++
+b
+{\displaystyle F_{1}(a,b)=a+b}	
+2	
+F
+2
+(
+a
+,
+b
+)
+=
+a
+⋅
+b
+{\displaystyle F_{2}(a,b)=a\cdot b}	
+3	
+F
+3
+(
+a
+,
+b
+)
+=
+a
+b
+{\displaystyle F_{3}(a,b)=a^{b}}	
+4	
+F
+4
+(
+a
+,
+b
+)
+=
+a
+(
+a
+(
+b
+−
+1
+)
+)
+{\displaystyle F_{4}(a,b)=a^{\left(a^{(b-1)}\right)}}	Not to be confused with tetration.
+5	
+F
+5
+(
+a
+,
+b
+)
+=
+(
+x
+↦
+x
+x
+(
+a
+−
+1
+)
+)
+b
+−
+1
+(
+a
+)
+{\displaystyle F_{5}(a,b)=\left(x\mapsto x^{x^{(a-1)}}\right)^{b-1}(a)}	Not to be confused with pentation.
+Similar to tetration.
+Commutative hyperoperations
+Commutative hyperoperations were considered by Albert Bennett as early as 1914,[8] which is possibly the earliest remark about any hyperoperation sequence. Commutative hyperoperations are defined by the recursion rule
+F
+n
++
+1
+(
+a
+,
+b
+)
+=
+exp
+⁡
+(
+F
+n
+(
+ln
+⁡
+(
+a
+)
+,
+ln
+⁡
+(
+b
+)
+)
+)
+{\displaystyle F_{n+1}(a,b)=\exp(F_{n}(\ln(a),\ln(b)))}which is symmetric in a and b, meaning all hyperoperations are commutative. This sequence does not contain exponentiation, and so does not form a hyperoperation hierarchy.
+
+n	Operation	Comment
+0	
+F
+0
+(
+a
+,
+b
+)
+=
+ln
+⁡
+(
+e
+a
++
+e
+b
+)
+{\displaystyle F_{0}(a,b)=\ln \left(e^{a}+e^{b}\right)}	Smooth maximum (LogSumExp)
+1	
+F
+1
+(
+a
+,
+b
+)
+=
+a
++
+b
+{\displaystyle F_{1}(a,b)=a+b}	
+2	
+F
+2
+(
+a
+,
+b
+)
+=
+a
+⋅
+b
+=
+e
+ln
+⁡
+(
+a
+)
++
+ln
+⁡
+(
+b
+)
+{\displaystyle F_{2}(a,b)=a\cdot b=e^{\ln(a)+\ln(b)}}	This is due to the properties of the logarithm.
+3	
+F
+3
+(
+a
+,
+b
+)
+=
+a
+ln
+⁡
+(
+b
+)
+=
+e
+ln
+⁡
+(
+a
+)
+ln
+⁡
+(
+b
+)
+{\displaystyle F_{3}(a,b)=a^{\ln(b)}=e^{\ln(a)\ln(b)}}	In a finite field, this is the Diffie–Hellman key exchange operation.
+4	
+F
+4
+(
+a
+,
+b
+)
+=
+e
+e
+ln
+⁡
+(
+ln
+⁡
+(
+a
+)
+)
+ln
+⁡
+(
+ln
+⁡
+(
+b
+)
+)
+{\displaystyle F_{4}(a,b)=e^{e^{\ln(\ln(a))\ln(\ln(b))}}}	Not to be confused with tetration.
+Numeration systems based on the hyperoperation sequence
+R. L. Goodstein[7] used the sequence of hyperoperators to create systems of numeration for the nonnegative integers. The so-called complete hereditary representation of integer n, at level k and base b, can be expressed as follows using only the first k hyperoperators and using as digits only 0, 1, ..., b − 1, together with the base b itself:
+
+For 0 ≤ n ≤ b − 1, n is represented simply by the corresponding digit.
+For n > b − 1, the representation of n is found recursively, first representing n in the form
+b [k] xk [k − 1] xk − 1 [k − 2] ... [2] x2 [1] x1
+where xk, ..., x1 are the largest integers satisfying (in turn)
+b [k] xk ≤ n
+b [k] xk [k − 1] xk − 1 ≤ n
+...
+b [k] xk [k − 1] xk − 1 [k - 2] ... [2] x2 [1] x1 ≤ n
+Any xi exceeding b − 1 is then re-expressed in the same manner, and so on, repeating this procedure until the resulting form contains only the digits 0, 1, ..., b − 1, together with the base b.
+Unnecessary parentheses can be avoided by giving higher-level operators higher precedence in the order of evaluation; thus,
+
+level-1 representations have the form b [1] X, with X also of this form;
+level-2 representations have the form b [2] X [1] Y, with X, Y also of this form;
+level-3 representations have the form b [3] X [2] Y [1] Z, with X, Y, Z also of this form;
+level-4 representations have the form b [4] X [3] Y [2] Z [1] W, with X, Y, Z, W also of this form;
+and so on.
+
+In this type of base-b hereditary representation, the base itself appears in the expressions, as well as "digits" from the set {0, 1, ..., b − 1}. This compares to ordinary base-2 representation when the latter is written out in terms of the base b; e.g., in ordinary base-2 notation, 6 = (110)2 = 2 [3] 2 [2] 1 [1] 2 [3] 1 [2] 1 [1] 2 [3] 0 [2] 0, whereas the level-3 base-2 hereditary representation is 6 = 2 [3] (2 [3] 1 [2] 1 [1] 0) [2] 1 [1] (2 [3] 1 [2] 1 [1] 0). The hereditary representations can be abbreviated by omitting any instances of [1] 0, [2] 1, [3] 1, [4] 1, etc.; for example, the above level-3 base-2 representation of 6 abbreviates to 2 [3] 2 [1] 2.
+
+Examples: The unique base-2 representations of the number 266, at levels 1, 2, 3, 4, and 5 are as follows:
+
+Level 1: 266 = 2 [1] 2 [1] 2 [1] ... [1] 2 (with 133 2s)
+Level 2: 266 = 2 [2] (2 [2] (2 [2] (2 [2] 2 [2] 2 [2] 2 [2] 2 [1] 1)) [1] 1)
+Level 3: 266 = 2 [3] 2 [3] (2 [1] 1) [1] 2 [3] (2 [1] 1) [1] 2
+Level 4: 266 = 2 [4] (2 [1] 1) [3] 2 [1] 2 [4] 2 [2] 2 [1] 2
+Level 5: 266 = 2 [5] 2 [4] 2 [1] 2 [5] 2 [2] 2 [1] 2
+Computation
+The definitions of the hyperoperation sequence can naturally be transposed to term rewriting systems (TRS).
+
+TRS based on definition sub 1.1
+The basic definition of the hyperoperation sequence corresponds with the reduction rules
+(r1)
+H
+(
+0
+,
+a
+,
+b
+)
+→
+S
+(
+b
+)
+(r2)
+H
+(
+S
+(
+0
+)
+,
+a
+,
+0
+)
+→
+a
+(r3)
+H
+(
+S
+(
+S
+(
+0
+)
+)
+,
+a
+,
+0
+)
+→
+0
+(r4)
+H
+(
+S
+(
+S
+(
+S
+(
+n
+)
+)
+)
+,
+a
+,
+0
+)
+→
+S
+(
+0
+)
+(r5)
+H
+(
+S
+(
+n
+)
+,
+a
+,
+S
+(
+b
+)
+)
+→
+H
+(
+n
+,
+a
+,
+H
+(
+S
+(
+n
+)
+,
+a
+,
+b
+)
+)
+{\displaystyle {\begin{array}{lll}{\text{(r1)}}&H(0,a,b)&\rightarrow &S(b)\\{\text{(r2)}}&H(S(0),a,0)&\rightarrow &a\\{\text{(r3)}}&H(S(S(0)),a,0)&\rightarrow &0\\{\text{(r4)}}&H(S(S(S(n))),a,0)&\rightarrow &S(0)\\{\text{(r5)}}&H(S(n),a,S(b))&\rightarrow &H(n,a,H(S(n),a,b))\end{array}}}
+
+To compute 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)} one can use a stack, which initially contains the elements 
+⟨
+n
+,
+a
+,
+b
+⟩
+{\displaystyle \langle n,a,b\rangle }.
+
+Then, repeatedly until no longer possible, three elements are popped and replaced according to the rules[nb 5]
+(r1)
+0
+,
+a
+,
+b
+→
+(
+b
++
+1
+)
+(r2)
+1
+,
+a
+,
+0
+→
+a
+(r3)
+2
+,
+a
+,
+0
+→
+0
+(r4)
+(
+n
++
+3
+)
+,
+a
+,
+0
+→
+1
+(r5)
+(
+n
++
+1
+)
+,
+a
+,
+(
+b
++
+1
+)
+→
+n
+,
+a
+,
+(
+n
++
+1
+)
+,
+a
+,
+b
+{\displaystyle {\begin{array}{lllllllll}{\text{(r1)}}&0&,&a&,&b&\rightarrow &(b+1)\\{\text{(r2)}}&1&,&a&,&0&\rightarrow &a\\{\text{(r3)}}&2&,&a&,&0&\rightarrow &0\\{\text{(r4)}}&(n+3)&,&a&,&0&\rightarrow &1\\{\text{(r5)}}&(n+1)&,&a&,&(b+1)&\rightarrow &n&,&a&,&(n+1)&,&a&,&b\end{array}}}
+
+Schematically, starting from 
+⟨
+n
+,
+a
+,
+b
+⟩
+{\displaystyle \langle n,a,b\rangle }:
+
+WHILE stackLength <> 1
+{
+   POP 3 elements;
+   PUSH 1 or 5 elements according to the rules r1, r2, r3, r4, r5;
+}
+Example
+
+Compute 
+H
+2
+(
+2
+,
+2
+)
+→
+∗
+4
+{\displaystyle H_{2}(2,2)\rightarrow _{*}4}.[32]
+
+The reduction sequence is[nb 5][nb 6]
+
+H
+(
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+)
+_
+{\displaystyle {\underline {H(S(S(0)),S(S(0)),S(S(0)))}}}
+    
+→
+r
+5
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+0
+)
+)
+_
+)
+{\displaystyle \rightarrow _{r5}H(S(0),S(S(0)),{\underline {H(S(S(0)),S(S(0)),S(0))}})}
+    
+→
+r
+5
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+0
+)
+_
+)
+)
+{\displaystyle \rightarrow _{r5}H(S(0),S(S(0)),H(S(0),S(S(0)),{\underline {H(S(S(0)),S(S(0)),0)}}))}
+    
+→
+r
+3
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+0
+)
+_
+)
+{\displaystyle \rightarrow _{r3}H(S(0),S(S(0)),{\underline {H(S(0),S(S(0)),0)}})}
+    
+→
+r
+2
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+)
+_
+{\displaystyle \rightarrow _{r2}{\underline {H(S(0),S(S(0)),S(S(0)))}}}
+    
+→
+r
+5
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+0
+)
+)
+_
+)
+{\displaystyle \rightarrow _{r5}H(0,S(S(0)),{\underline {H(S(0),S(S(0)),S(0))}})}
+    
+→
+r
+5
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+0
+)
+_
+)
+)
+{\displaystyle \rightarrow _{r5}H(0,S(S(0)),H(0,S(S(0)),{\underline {H(S(0),S(S(0)),0)}}))}
+    
+→
+r
+2
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+0
+)
+)
+)
+_
+)
+{\displaystyle \rightarrow _{r2}H(0,S(S(0)),{\underline {H(0,S(S(0)),S(S(0)))}})}
+    
+→
+r
+1
+H
+(
+0
+,
+S
+(
+S
+(
+0
+)
+)
+,
+S
+(
+S
+(
+S
+(
+0
+)
+)
+)
+)
+_
+{\displaystyle \rightarrow _{r1}{\underline {H(0,S(S(0)),S(S(S(0))))}}}
+    
+→
+r
+1
+S
+(
+S
+(
+S
+(
+S
+(
+0
+)
+)
+)
+)
+{\displaystyle \rightarrow _{r1}S(S(S(S(0))))}
+When implemented using a stack, on input 
+⟨
+2
+,
+2
+,
+2
+⟩
+{\displaystyle \langle 2,2,2\rangle }
+
+the stack configurations    	represent the equations
+2
+,
+2
+,
+2
+_
+{\displaystyle {\underline {2,2,2}}}	
+H
+2
+(
+2
+,
+2
+)
+{\displaystyle H_{2}(2,2)}
+    
+→
+r
+5
+1
+,
+2
+,
+2
+,
+2
+,
+1
+_
+{\displaystyle \rightarrow _{r5}1,2,{\underline {2,2,1}}}	    
+=
+H
+1
+(
+2
+,
+H
+2
+(
+2
+,
+1
+)
+)
+{\displaystyle =H_{1}(2,H_{2}(2,1))}
+    
+→
+r
+5
+1
+,
+2
+,
+1
+,
+2
+,
+2
+,
+2
+,
+0
+_
+{\displaystyle \rightarrow _{r5}1,2,1,2,{\underline {2,2,0}}}	    
+=
+H
+1
+(
+2
+,
+H
+1
+(
+2
+,
+H
+2
+(
+2
+,
+0
+)
+)
+)
+{\displaystyle =H_{1}(2,H_{1}(2,H_{2}(2,0)))}
+    
+→
+r
+3
+1
+,
+2
+,
+1
+,
+2
+,
+0
+_
+{\displaystyle \rightarrow _{r3}1,2,{\underline {1,2,0}}}	    
+=
+H
+1
+(
+2
+,
+H
+1
+(
+2
+,
+0
+)
+)
+{\displaystyle =H_{1}(2,H_{1}(2,0))}
+    
+→
+r
+2
+1
+,
+2
+,
+2
+_
+{\displaystyle \rightarrow _{r2}{\underline {1,2,2}}}	    
+=
+H
+1
+(
+2
+,
+2
+)
+{\displaystyle =H_{1}(2,2)}
+    
+→
+r
+5
+0
+,
+2
+,
+1
+,
+2
+,
+1
+_
+{\displaystyle \rightarrow _{r5}0,2,{\underline {1,2,1}}}	    
+=
+H
+0
+(
+2
+,
+H
+1
+(
+2
+,
+1
+)
+)
+{\displaystyle =H_{0}(2,H_{1}(2,1))}
+    
+→
+r
+5
+0
+,
+2
+,
+0
+,
+2
+,
+1
+,
+2
+,
+0
+_
+{\displaystyle \rightarrow _{r5}0,2,0,2,{\underline {1,2,0}}}	    
+=
+H
+0
+(
+2
+,
+H
+0
+(
+2
+,
+H
+1
+(
+2
+,
+0
+)
+)
+)
+{\displaystyle =H_{0}(2,H_{0}(2,H_{1}(2,0)))}
+    
+→
+r
+2
+0
+,
+2
+,
+0
+,
+2
+,
+2
+_
+{\displaystyle \rightarrow _{r2}0,2,{\underline {0,2,2}}}	    
+=
+H
+0
+(
+2
+,
+H
+0
+(
+2
+,
+2
+)
+)
+{\displaystyle =H_{0}(2,H_{0}(2,2))}
+    
+→
+r
+1
+0
+,
+2
+,
+3
+_
+{\displaystyle \rightarrow _{r1}{\underline {0,2,3}}}	    
+=
+H
+0
+(
+2
+,
+3
+)
+{\displaystyle =H_{0}(2,3)}
+    
+→
+r
+1
+4
+{\displaystyle \rightarrow _{r1}4}	    
+=
+4
+{\displaystyle =4}
+TRS based on definition sub 1.2
+The definition using iteration leads to a different set of reduction rules
+(r6)
+H
+(
+S
+(
+0
+)
+,
+0
+,
+a
+,
+b
+)
+→
+S
+(
+b
+)
+(r7)
+H
+(
+S
+(
+0
+)
+,
+S
+(
+0
+)
+,
+a
+,
+0
+)
+→
+a
+(r8)
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+0
+)
+)
+,
+a
+,
+0
+)
+→
+0
+(r9)
+H
+(
+S
+(
+0
+)
+,
+S
+(
+S
+(
+S
+(
+n
+)
+)
+)
+,
+a
+,
+0
+)
+→
+S
+(
+0
+)
+(r10)
+H
+(
+S
+(
+0
+)
+,
+S
+(
+n
+)
+,
+a
+,
+S
+(
+b
+)
+)
+→
+H
+(
+S
+(
+b
+)
+,
+n
+,
+a
+,
+H
+(
+S
+(
+0
+)
+,
+S
+(
+n
+)
+,
+a
+,
+0
+)
+)
+(r11)
+H
+(
+S
+(
+S
+(
+x
+)
+)
+,
+n
+,
+a
+,
+b
+)
+→
+H
+(
+S
+(
+0
+)
+,
+n
+,
+a
+,
+H
+(
+S
+(
+x
+)
+,
+n
+,
+a
+,
+b
+)
+)
+{\displaystyle {\begin{array}{lll}{\text{(r6)}}&H(S(0),0,a,b)&\rightarrow &S(b)\\{\text{(r7)}}&H(S(0),S(0),a,0)&\rightarrow &a\\{\text{(r8)}}&H(S(0),S(S(0)),a,0)&\rightarrow &0\\{\text{(r9)}}&H(S(0),S(S(S(n))),a,0)&\rightarrow &S(0)\\{\text{(r10)}}&H(S(0),S(n),a,S(b))&\rightarrow &H(S(b),n,a,H(S(0),S(n),a,0))\\{\text{(r11)}}&H(S(S(x)),n,a,b)&\rightarrow &H(S(0),n,a,H(S(x),n,a,b))\end{array}}}
+
+As iteration is associative, instead of rule r11 one can define
+(r12)
+H
+(
+S
+(
+S
+(
+x
+)
+)
+,
+n
+,
+a
+,
+b
+)
+→
+H
+(
+S
+(
+x
+)
+,
+n
+,
+a
+,
+H
+(
+S
+(
+0
+)
+,
+n
+,
+a
+,
+b
+)
+)
+{\displaystyle {\begin{array}{lll}{\text{(r12)}}&H(S(S(x)),n,a,b)&\rightarrow &H(S(x),n,a,H(S(0),n,a,b))\end{array}}}
+
+Like in the previous section the computation of 
+H
+n
+(
+a
+,
+b
+)
+=
+H
+n
+1
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)=H_{n}^{1}(a,b)} can be implemented using a stack.
+
+Initially the stack contains the four elements 
+⟨
+1
+,
+n
+,
+a
+,
+b
+⟩
+{\displaystyle \langle 1,n,a,b\rangle }.
+
+Then, until termination, four elements are popped and replaced according to the rules[nb 5]
+(r6)
+1
+,
+0
+,
+a
+,
+b
+→
+(
+b
++
+1
+)
+(r7)
+1
+,
+1
+,
+a
+,
+0
+→
+a
+(r8)
+1
+,
+2
+,
+a
+,
+0
+→
+0
+(r9)
+1
+,
+(
+n
++
+3
+)
+,
+a
+,
+0
+→
+1
+(r10)
+1
+,
+(
+n
++
+1
+)
+,
+a
+,
+(
+b
++
+1
+)
+→
+(
+b
++
+1
+)
+,
+n
+,
+a
+,
+1
+,
+(
+n
++
+1
+)
+,
+a
+,
+0
+(r11)
+(
+x
++
+2
+)
+,
+n
+,
+a
+,
+b
+→
+1
+,
+n
+,
+a
+,
+(
+x
++
+1
+)
+,
+n
+,
+a
+,
+b
+{\displaystyle {\begin{array}{lllllllll}{\text{(r6)}}&1&,0&,a&,b&\rightarrow &(b+1)\\{\text{(r7)}}&1&,1&,a&,0&\rightarrow &a\\{\text{(r8)}}&1&,2&,a&,0&\rightarrow &0\\{\text{(r9)}}&1&,(n+3)&,a&,0&\rightarrow &1\\{\text{(r10)}}&1&,(n+1)&,a&,(b+1)&\rightarrow &(b+1)&,n&,a&,1&,(n+1)&,a&,0\\{\text{(r11)}}&(x+2)&,n&,a&,b&\rightarrow &1&,n&,a&,(x+1)&,n&,a&,b\end{array}}}
+
+Schematically, starting from 
+⟨
+1
+,
+n
+,
+a
+,
+b
+⟩
+{\displaystyle \langle 1,n,a,b\rangle }:
+
+WHILE stackLength <> 1
+{
+   POP 4 elements;
+   PUSH 1 or 7 elements according to the rules r6, r7, r8, r9, r10, r11;
+}
+Example
+
+Compute 
+H
+3
+(
+0
+,
+3
+)
+→
+∗
+0
+{\displaystyle H_{3}(0,3)\rightarrow _{*}0}.
+
+On input 
+⟨
+1
+,
+3
+,
+0
+,
+3
+⟩
+{\displaystyle \langle 1,3,0,3\rangle } the successive stack configurations are
+1
+,
+3
+,
+0
+,
+3
+_
+→
+r
+10
+3
+,
+2
+,
+0
+,
+1
+,
+3
+,
+0
+,
+0
+_
+→
+r
+9
+3
+,
+2
+,
+0
+,
+1
+_
+→
+r
+11
+1
+,
+2
+,
+0
+,
+2
+,
+2
+,
+0
+,
+1
+_
+→
+r
+11
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+1
+_
+→
+r
+10
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+1
+,
+1
+,
+0
+,
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+1
+,
+1
+,
+0
+,
+0
+_
+→
+r
+7
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+0.
+{\displaystyle {\begin{aligned}&{\underline {1,3,0,3}}\rightarrow _{r10}3,2,0,{\underline {1,3,0,0}}\rightarrow _{r9}{\underline {3,2,0,1}}\rightarrow _{r11}1,2,0,{\underline {2,2,0,1}}\rightarrow _{r11}1,2,0,1,2,0,{\underline {1,2,0,1}}\\&\rightarrow _{r10}1,2,0,1,2,0,1,1,0,{\underline {1,2,0,0}}\rightarrow _{r8}1,2,0,1,2,0,{\underline {1,1,0,0}}\rightarrow _{r7}1,2,0,{\underline {1,2,0,0}}\rightarrow _{r8}{\underline {1,2,0,0}}\rightarrow _{r8}0.\end{aligned}}}
+
+The corresponding equalities are
+H
+3
+(
+0
+,
+3
+)
+=
+H
+2
+3
+(
+0
+,
+H
+3
+(
+0
+,
+0
+)
+)
+=
+H
+2
+3
+(
+0
+,
+1
+)
+=
+H
+2
+(
+0
+,
+H
+2
+2
+(
+0
+,
+1
+)
+)
+=
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+1
+)
+)
+=
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+H
+1
+(
+0
+,
+H
+2
+(
+0
+,
+0
+)
+)
+)
+)
+=
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+H
+1
+(
+0
+,
+0
+)
+)
+)
+=
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+0
+)
+)
+=
+H
+2
+(
+0
+,
+0
+)
+=
+0.
+{\displaystyle {\begin{aligned}&H_{3}(0,3)=H_{2}^{3}(0,H_{3}(0,0))=H_{2}^{3}(0,1)=H_{2}(0,H_{2}^{2}(0,1))=H_{2}(0,H_{2}(0,H_{2}(0,1))\\&=H_{2}(0,H_{2}(0,H_{1}(0,H_{2}(0,0))))=H_{2}(0,H_{2}(0,H_{1}(0,0)))=H_{2}(0,H_{2}(0,0))=H_{2}(0,0)=0.\end{aligned}}}
+
+When reduction rule r11 is replaced by rule r12, the stack is transformed according to
+(r12)
+(
+x
++
+2
+)
+,
+n
+,
+a
+,
+b
+→
+(
+x
++
+1
+)
+,
+n
+,
+a
+,
+1
+,
+n
+,
+a
+,
+b
+{\displaystyle {\begin{array}{lllllllll}{\text{(r12)}}&(x+2)&,n&,a&,b&\rightarrow &(x+1)&,n&,a&,1&,n&,a&,b\end{array}}}
+
+The successive stack configurations will then be
+1
+,
+3
+,
+0
+,
+3
+_
+→
+r
+10
+3
+,
+2
+,
+0
+,
+1
+,
+3
+,
+0
+,
+0
+_
+→
+r
+9
+3
+,
+2
+,
+0
+,
+1
+_
+→
+r
+12
+2
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+1
+_
+→
+r
+10
+2
+,
+2
+,
+0
+,
+1
+,
+1
+,
+0
+,
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+2
+,
+2
+,
+0
+,
+1
+,
+1
+,
+0
+,
+0
+_
+→
+r
+7
+2
+,
+2
+,
+0
+,
+0
+_
+→
+r
+12
+1
+,
+2
+,
+0
+,
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+1
+,
+2
+,
+0
+,
+0
+_
+→
+r
+8
+0
+{\displaystyle {\begin{aligned}&{\underline {1,3,0,3}}\rightarrow _{r10}3,2,0,{\underline {1,3,0,0}}\rightarrow _{r9}{\underline {3,2,0,1}}\rightarrow _{r12}2,2,0,{\underline {1,2,0,1}}\rightarrow _{r10}2,2,0,1,1,0,{\underline {1,2,0,0}}\\&\rightarrow _{r8}2,2,0,{\underline {1,1,0,0}}\rightarrow _{r7}{\underline {2,2,0,0}}\rightarrow _{r12}1,2,0,{\underline {1,2,0,0}}\rightarrow _{r8}{\underline {1,2,0,0}}\rightarrow _{r8}0\end{aligned}}}
+
+The corresponding equalities are
+H
+3
+(
+0
+,
+3
+)
+=
+H
+2
+3
+(
+0
+,
+H
+3
+(
+0
+,
+0
+)
+)
+=
+H
+2
+3
+(
+0
+,
+1
+)
+=
+H
+2
+2
+(
+0
+,
+H
+2
+(
+0
+,
+1
+)
+)
+=
+H
+2
+2
+(
+0
+,
+H
+1
+(
+0
+,
+H
+2
+(
+0
+,
+0
+)
+)
+)
+=
+H
+2
+2
+(
+0
+,
+H
+1
+(
+0
+,
+0
+)
+)
+=
+H
+2
+2
+(
+0
+,
+0
+)
+=
+H
+2
+(
+0
+,
+H
+2
+(
+0
+,
+0
+)
+)
+=
+H
+2
+(
+0
+,
+0
+)
+=
+0
+{\displaystyle {\begin{aligned}&H_{3}(0,3)=H_{2}^{3}(0,H_{3}(0,0))=H_{2}^{3}(0,1)=H_{2}^{2}(0,H_{2}(0,1))=H_{2}^{2}(0,H_{1}(0,H_{2}(0,0)))\\&=H_{2}^{2}(0,H_{1}(0,0))=H_{2}^{2}(0,0)=H_{2}(0,H_{2}(0,0))=H_{2}(0,0)=0\end{aligned}}}
+
+Remarks
+
+H
+3
+(
+0
+,
+3
+)
+=
+0
+{\displaystyle H_{3}(0,3)=0} is a special case, see § Special cases above.[nb 3]
+The computation of 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H_{n}(a,b)} according to the rules {r6 - r10, r11} is heavily recursive. The culprit is the order in which iteration is executed: 
+H
+n
+(
+a
+,
+b
+)
+=
+H
+(
+a
+,
+H
+n
+−
+1
+(
+a
+,
+b
+)
+)
+{\displaystyle H^{n}(a,b)=H(a,H^{n-1}(a,b))}. The first 
+H
+{\displaystyle H} disappears only after the whole sequence is unfolded. For instance, 
+H
+4
+(
+2
+,
+4
+)
+{\displaystyle H_{4}(2,4)} converges to 65536 in 2863311767 steps, the maximum depth of recursion[nb 7] is 65534.
+The computation according to the rules {r6 - r10, r12} is more efficient in that respect. The implementation of iteration 
+H
+n
+(
+a
+,
+b
+)
+{\displaystyle H^{n}(a,b)} as 
+H
+n
+−
+1
+(
+a
+,
+H
+(
+a
+,
+b
+)
+)
+{\displaystyle H^{n-1}(a,H(a,b))} mimics the repeated execution of a procedure H.[nb 8] The depth of recursion, (n+1), matches the loop nesting. Meyer & Ritchie (1967) formalized this correspondence. The computation of 
+H
+4
+(
+2
+,
+4
+)
+{\displaystyle H_{4}(2,4)} according to the rules {r6-r10, r12} also needs 2863311767 steps to converge on 65536, but the maximum depth of recursion is only 5, as tetration is the 5th operator in the hyperoperation sequence.
+The considerations above concern the recursion depth only. Either way of iterating leads to the same number of reduction steps, involving the same rules (when the rules r11 and r12 are considered "the same"). As the example shows the reduction of 
+H
+3
+(
+0
+,
+3
+)
+{\displaystyle H_{3}(0,3)} converges in 9 steps: 1 X r7, 3 X r8, 1 X r9, 2 X r10, 2 X r11/r12. The modus iterandi only affects the order in which the reduction rules are applied.
+See also
+Wikifunctions logo
+Wikifunctions has a hyperoperation function.
+Large numbers
+Fast-growing hierarchy
+Veblen function
+Notes
+ Sequences similar to the hyperoperation sequence have historically been referred to by many names, including: the Ackermann function[1] (3-argument), the Ackermann hierarchy,[4] the Grzegorczyk hierarchy[5][6] (which is more general), Goodstein's version of the Ackermann function,[7] operation of the nth grade,[8] z-fold iterated exponentiation of x with y,[9] arrow operations,[10] reihenalgebra[11] and hyper-n.[1][11][12][2][13]
+ Let x = a[n](−1). By the recursive formula, a[n]0 = a[n − 1](a[n](−1)) ⇒ 1 = a[n − 1]x. One solution is x = 0, because a[n − 1]0 = 1 by definition when n ≥ 4. This solution is unique because a[n − 1]b > 1 for all a > 1, b > 0 (proof by recursion).
+ For more details, see Powers of zero or Zero to the power of zero.
+ Ordinal addition is not commutative; see ordinal arithmetic for more information
+ This implements the leftmost-innermost (one-step) strategy.
+ In each step the underlined redex is rewritten.
+ The maximum depth of recursion refers to the number of levels of activation of a procedure which exist during the deepest call of the procedure.[33]
+ LOOP n TIMES DO H.
+References
+ Geisler 2003.
+ Robbins 2005.
+ Rubtsov & Romerio 2005.
+ Friedman 2001.
+ Campagnola, Moore & Félix Costa 2002.
+ Wirz 1999.
+ Goodstein 1947.
+ Bennett 1915.
+ Black 2009.
+ Littlewood 1948.
+ Müller 1993.
+ Munafo 1999a.
+ Galidakis 2003.
+ Townsend 2016.
+ Romerio 2008.
+ Conway, John Horton; Guy, Richard (1996), The Book of Numbers, Springer, p. 61, ISBN 9780387979939.
+ Ackermann 1928.
+ Munafo 1999b.
+ Cowles & Bailey 1988.
+ Knuth 1976.
+ Zwillinger 2002.
+ Weisstein 2003.
+ Hilbert 1926.
+ Nambiar 1995.
+ Doner & Tarski 1969.
+ Clenshaw & Olver 1984.
+ Holmes 1997.
+ Zimmermann 1997.
+ Pinkiewicz, Holmes & Jamil 2000.
+ Doner & Tarski 1969, Definition 1.
+ Doner & Tarski 1969, Theorem 3(iii).
+ Bezem, Klop & De Vrijer 2003.
+ Cornelius & Kirby (1975)
+Bibliography
+Ackermann, Wilhelm (1928). "Zum Hilbertschen Aufbau der reellen Zahlen". Mathematische Annalen. 99: 118–133. doi:10.1007/BF01459088. S2CID 123431274.
+Bennett, Albert A. (December 1915). "Note on an Operation of the Third Grade". Annals of Mathematics. Second Series. 17 (2): 74–75. doi:10.2307/2007124. JSTOR 2007124.
+Bezem, Marc; Klop, Jan Willem; De Vrijer, Roel (2003). "First-order term rewriting systems". Term Rewriting Systems by "Terese". Cambridge University Press. pp. 38–39. ISBN 0-521-39115-6.
+Black, Paul E. (16 March 2009). "Ackermann's function". Dictionary of Algorithms and Data Structures. U.S. National Institute of Standards and Technology (NIST). Retrieved 29 August 2021.
+Campagnola, Manuel Lameiras; Moore, Cristopher; Félix Costa, José (December 2002). "Transfinite Ordinals in Recursive Number Theory". Journal of Complexity. 18 (4): 977–1000. doi:10.1006/jcom.2002.0655.
+Clenshaw, C.W.; Olver, F.W.J. (April 1984). "Beyond floating point". Journal of the ACM. 31 (2): 319–328. doi:10.1145/62.322429. S2CID 5132225.
+Cornelius, B.J.; Kirby, G.H. (1975). "Depth of recursion and the ackermann function". BIT Numerical Mathematics. 15 (2): 144–150. doi:10.1007/BF01932687. S2CID 120532578.
+Cowles, J.; Bailey, T. (30 September 1988). "Several Versions of Ackermann's Function". Dept. of Computer Science, University of Wyoming, Laramie, WY. Retrieved 29 August 2021.
+Doner, John; Tarski, Alfred (1969). "An extended arithmetic of ordinal numbers". Fundamenta Mathematicae. 65: 95–127. doi:10.4064/fm-65-1-95-127.
+Friedman, Harvey M. (July 2001). "Long Finite Sequences". Journal of Combinatorial Theory. Series A. 95 (1): 102–144. doi:10.1006/jcta.2000.3154.
+Galidakis, I. N. (2003). "Mathematics". Archived from the original on 20 April 2009. Retrieved 17 April 2009.
+Geisler, Daniel (2003). "What lies beyond exponentiation?". Retrieved 17 April 2009.
+Goodstein, Reuben Louis (December 1947). "Transfinite Ordinals in Recursive Number Theory" (PDF). Journal of Symbolic Logic. 12 (4): 123–129. doi:10.2307/2266486. JSTOR 2266486. S2CID 1318943.
+Hilbert, David (1926). "Über das Unendliche". Mathematische Annalen. 95: 161–190. doi:10.1007/BF01206605. S2CID 121888793.
+Holmes, W. N. (March 1997). "Composite Arithmetic: Proposal for a New Standard". Computer. 30 (3): 65–73. doi:10.1109/2.573666. Retrieved 21 April 2009.
+Knuth, Donald Ervin (December 1976). "Mathematics and Computer Science: Coping with Finiteness". Science. 194 (4271): 1235–1242. Bibcode:1976Sci...194.1235K. doi:10.1126/science.194.4271.1235. PMID 17797067. S2CID 1690489. Retrieved 21 April 2009.
+Littlewood, J. E. (July 1948). "Large Numbers". Mathematical Gazette. 32 (300): 163–171. doi:10.2307/3609933. JSTOR 3609933. S2CID 250442130.
+Meyer, Albert R.; Ritchie, Dennis MacAlistair (1967). The complexity of loop programs. ACM '67: Proceedings of the 1967 22nd national conference. doi:10.1145/800196.806014.
+Müller, Markus (1993). "Reihenalgebra" (PDF). Archived from the original (PDF) on 2 December 2013. Retrieved 6 November 2021.
+Munafo, Robert (1999a). "Versions of Ackermann's Function". Large Numbers at MROB. Retrieved 28 August 2021.
+Munafo, Robert (1999b). "Inventing New Operators and Functions". Large Numbers at MROB. Retrieved 28 August 2021.
+Nambiar, K. K. (1995). "Ackermann Functions and Transfinite Ordinals". Applied Mathematics Letters. 8 (6): 51–53. doi:10.1016/0893-9659(95)00084-4.
+Perstein, Millard H. (1 June 1962). "Algorithm 93: General order arithmetic". Communications of the ACM. 5 (6). New York City: Association for Computing Machinery: 344. doi:10.1145/367766.368160. ISSN 0001-0782.
+Pinkiewicz, T.; Holmes, N.; Jamil, T. (2000). "Design of a composite arithmetic unit for rational numbers". Proceedings of the IEEE Southeast Con 2000. 'Preparing for the New Millennium' (Cat. No.00CH37105). Proceedings of the IEEE. pp. 245–252. doi:10.1109/SECON.2000.845571. ISBN 0-7803-6312-4. S2CID 7738926.
+Robbins, A. J. (November 2005). "Home of Tetration". Archived from the original on 13 June 2015. Retrieved 17 April 2009.
+Romerio, G. F. (21 January 2008). "Hyperoperations Terminology". Tetration Forum. Retrieved 21 April 2009.
+Rubtsov, C. A.; Romerio, G. F. (December 2005). "Ackermann's Function and New Arithmetical Operation". Retrieved 17 April 2009.
+Townsend, Adam (12 May 2016). "Names for large numbers". Chalkdust magazine.
+Weisstein, Eric W. (2003). CRC concise encyclopedia of mathematics, 2nd Edition. CRC Press. pp. 127–128. ISBN 1-58488-347-2.
+Wirz, Marc (1999). "Characterizing the Grzegorczyk hierarchy by safe recursion" (PDF). Bern: Institut für Informatik und angewandte Mathematik. CiteSeerX 10.1.1.42.3374. S2CID 117417812. {{cite web}}: Cite uses deprecated parameter |citeseerx= (help)
+Zimmermann, R. (1997). "Computer Arithmetic: Principles, Architectures, and VLSI Design" (PDF). Lecture notes, Integrated Systems Laboratory, ETH Zürich. Archived from the original (PDF) on 17 August 2013. Retrieved 17 April 2009.
+Zwillinger, Daniel (2002). CRC standard mathematical tables and formulae, 31st Edition. CRC Press. p. 4. ISBN 1-58488-291-3.
+vte
+Hyperoperations
+vte
+Large numbers
+Categories: Operations on numbersLarge numbers1914 introductions
+This page was last edited on 20 September 2026, at 18:11 (UTC). Page was rendered with Parsoid.
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+Join the quest! Share your opinion on these upcoming games!
+
+calling all gamers!
+
+Sponsored Logo
+Search
+Sign In
+Create a Free Account
+Home
+Sponsored Logo
+Vision Quest
+
+Explore
+Explore
+
+Get more from Fandom
+Save pages, track your progress, and join discussions across the worlds you love.
+
+
+Continue with Email
+Tritri
+Tritri
+
+Googology Wiki
+Almighty Array Notation
+Almighty Array Notation
+
+Googology Wiki
+Expansion
+Expansion
+
+Googology Wiki
+Tritet
+Tritet
+
+Googology Wiki
+Absurditriplex
+Absurditriplex
+
+Googology Wiki
+Tetration
+Tetration
+
+Googology Wiki
+Bowers' Exploding Array Function
+Bowers' Exploding Array Function
+
+Googology Wiki
+Hyper operator
+Hyper operator
+
+Googology Wiki
+The Broken Hierarchy
+The Broken Hierarchy
+
+All dimensions Wiki
+Centillion
+Centillion
+Grangology Wiki
+List of incidental characters
+List of incidental characters
+Encyclopedia SpongeBobia
+SpongeBob SquarePants x One Piece
+SpongeBob SquarePants x One Piece
+Encyclopedia SpongeBobia
+The Super Hierarchy
+The Super Hierarchy
+
+All dimensions Wiki
+The Official Hierarchy
+The Official Hierarchy
+
+All dimensions Wiki
+Season 5 (The Patrick Star Show)
+Season 5 (The Patrick Star Show)
+Encyclopedia SpongeBobia
+Absolute infinity
+Absolute infinity
+Grangology Wiki
+Season 6 (The Patrick Star Show)
+Season 6 (The Patrick Star Show)
+Encyclopedia SpongeBobia
+Hyperverse
+Hyperverse
+
+All dimensions Wiki
+SpongeBob SquarePants (character)
+SpongeBob SquarePants (character)
+Encyclopedia SpongeBobia
+Nonillion
+Nonillion
+Grangology Wiki
+Quadrillion
+Quadrillion
+Grangology Wiki
+The Expanse
+The Expanse
+
+All dimensions Wiki
+Season 19
+Season 19
+Encyclopedia SpongeBobia
+Salad number
+Salad number
+Grangology Wiki
+Season 17
+Season 17
+Encyclopedia SpongeBobia
+Multiverse
+Multiverse
+
+All dimensions Wiki
+Ducentillion
+Ducentillion
+Grangology Wiki
+Titleless story
+Titleless story
+
+All dimensions Wiki
+Season 16
+Season 16
+Encyclopedia SpongeBobia
+Decillion
+Decillion
+Grangology Wiki
+The Official Cosmic Entity Hierarchy
+The Official Cosmic Entity Hierarchy
+
+All dimensions Wiki
+List of hierarchical articles
+List of hierarchical articles
+
+All dimensions Wiki
+Season 18
+Season 18
+Encyclopedia SpongeBobia
+List of googolisms
+List of googolisms
+Grangology Wiki
+Season 1
+Season 1
+Encyclopedia SpongeBobia
+Septillion
+Septillion
+Grangology Wiki
+Omniverse
+Omniverse
+
+All dimensions Wiki
+TREE(3)
+TREE(3)
+Grangology Wiki
+Saved
+Progress
+
+History
+Utilities
+
+Settings
+
+More
+
+Advertisement
+Skip to content
+Googology Wiki
+Googology Wiki
+25,027
+pages
+Explore
+Numbers
+Concepts
+Top contents
+Community
+
+
+in: Pages with DOI links, Hyper operators, Functions, Binary operators
+English
+Pentation
+Sign In to Save
+Edit
+Pentation
+Pentation or quintation[1] refers to the 5th hyperoperation starting from addition. It is equal to 
+ in Knuth's up-arrow notation and since it is repeated tetration, it produces numbers that are much larger. Just a simple 
+ give an amazing 65,536.
+
+Pentation can be written in array notation as 
+, in chained arrow notation as 
+ and in Hyper-E notation as E(a)1#1#b.
+
+Pentation is less known than tetration, but there are a few googologisms employing it: for example, 3 pentated to 3 is known as tritri, and 10 pentated to 100 is gaggol.
+
+Sunir Shah uses the notation 
+ to indicate this function.[1] Jonathan Bowers calls it "a to the b'th tower".[2] Reuben Goodstein mentions that 
+ would stand for pentation, analogous to how 
+ would stand for tetration[3]; likewise Sbiis Saibian proposes 
+ in analogy to 
+ for tetration, though he usually uses up-arrows.[4]
+
+Pentational growth rate is comparable to 
+ in the fast-growing hierarchy.
+
+A strip from the webcomic Saturday Morning Breakfast Cereal suggested the name "penetration" in humorous analogy with sexation.[5]
+
+Tim Urban calls pentation a "power tower feeding frenzy".[6][7]
+
+In Notation Array Notation, it is written as (a{3,3}b).
+
+In hyperlicious function, it is equal to 
+.
+
+Graham, Rothschild and Spencer call the function 
+ in the fast-growing hierarchy, which is faster than 
+ the WOW function, and corresponding growth rate wowzer.[8]
+
+
+Contents
+1	Examples
+2	Pseudocode
+3	Sources
+4	See also
+Examples
+Here are some small examples of pentation in action:
+
+ 
+Here are some larger examples:
+
+ = tritri, a power tower of 7,625,597,484,987 threes
+Pseudocode
+Below is an example of pseudocode for pentation.
+
+function pentation(a, b):
+    result := 1
+    repeat b times:
+        result := a tetrated to result
+    return result
+Sources
+ Really Big Numbers. Retrieved 2013-06-11.
+ Bowers, Jonathan. Array Notation up to Three Entries. Retrieved 2013-06-11.
+ doi:10.2307/2266486
+ Saibian, Sbiis. 3.2.3 - Ascending With Up Arrows. Retrieved 2015-03-26.
+ http://www.smbc-comics.com/?id=2615
+ Prömel, H. J.; Thumser, W.; Voigt, B. "Fast growing functions based on Ramsey theorems", Discrete Mathematics, v.95 n.1-3, p. 341-358, Dec. 1991 doi:10.1016/0012-365X(91)90346-4.
+ From 1,000,000 to Graham’s Number. Wait But Why.
+ R. Graham, B. Rothschild and J. Spencer, Ramsey Theory, 2nd edition
+See also
+Hyper operators
+Main article: hyper operatorHyper-operators: successor · addition · multiplication · exponentiation · tetration · pentation · hexation · heptation · octation · enneation · decation (un/doe/tre/tetra-/penta-/hexa-hepta-octa-/ennea) · vigintation (doe) · trigintation · centation (tri) · docentation · myriation · googolation (un/doe) · googolyriation · circulation
+Bowers' extensions: expansion · multiexpansion · powerexpansion · expandotetration · explosion (multi/power/tetra) · detonation · pentonation
+Saibian's extensions: hexonation · heptonation · octonation · ennonation · deconation
+Tiaokhiao's extensions: megotion (multi/power/tetra) · megoexpansion (multi/power/tetra) · megoexplosion · megodetonation · gigotion (expand/explod/deto) · terotion · more...
+Categories
+Languages
+Community content is available under CC-BY-SA unless otherwise noted.
+
+Advertisement
+New to Fandom? Let's make it official.
+Create your free account and dive into the worlds you love with fans who love them too.
+
+
+Continue with Email
+By continuing, you agree to Fandom's Terms of Use and Privacy Policy.
+
+Recent Images
+RENRUI QI LTY PAGE 39.png
+Laver table yarn
+2 days ago
+Screenshot 20260924 182534 FlipaClip.jpg
+Absurditriplex
+3 days ago
+Eqhation1.png
+Rebecca Own Fast-Growing-Hierarchy
+9/21/2026
+
+
+Advertisement
+
+Advertisement
+
+Advertisement
+Fandom logo
+Explore properties
+Fandom
+Fanatical
+GameSpot
+Metacritic
+TV Guide
+Honest Entertainment
+Follow Us
+Overview
+What is Fandom?
+Essentials
+About
+Careers
+Press
+Contact
+Terms of Use
+Privacy Policy
+Digital Services Act
+Global Sitemap
+Local Sitemap
+Cookie Preferences
+Community
+Community Central
+Support
+Help
+Accessibility Statement
+Advertise
+Media Kit
+Contact
+Fandom Apps
+Take your favorite fandoms with you and never miss a beat.
+Fandom App logo
+Store icon
+Store icon
+Googology Wiki is a Fandom Lifestyle Community.
+View Mobile Site
+Search this wiki
+Search all wikis
+
+

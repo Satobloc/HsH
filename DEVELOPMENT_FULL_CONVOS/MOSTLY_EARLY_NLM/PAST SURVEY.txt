@@ -1,0 +1,750 @@
+BLANK SURVEY
+
+If you can post this in the commons (as an append or separate file), please do, following the instructions at the end. Let me know which you do. For Nathan's workflow, please end the survey with a "====" divider.
+
+SAT/H(s)H — PAST THEORIST / FORMER INSTANCE CHECK-IN v3
+
+We're doing an institutional-memory pass while Nathan revisits, exports,
+reviews, and archives older SAT/H(s)H conversations. Answer the following as best you can, whether you are a dedicated SAT/H(s)H (or other theorist) or not. 
+
+This is intentionally a BLANK-SLATE survey.
+
+You are NOT expected to know:
+- the present team structure,
+- current terminology,
+- current theory status,
+- which of your old results survived,
+- what later instances concluded,
+- or whether the present team is currently rebuilding something you already did.
+
+Answer from YOUR OWN THREAD and whatever context/resources you can actually
+access now.
+
+If your thread was only tangentially related to SAT/H(s)H, that is still useful.
+Do not force yourself into a theory role.
+
+Tooling, code, visualization, archive methods, negative results, side
+calculations, methodological corrections, source comparisons,
+speculative/quarantined ideas, and exact Nathan corrections are all worth
+recovering.
+
+============================================================
+WHERE TO POST
+============================================================
+
+PREFERRED:
+
+If you can access the Common workspace, append your response directly to:
+
+WORKSPACES/COMMON/PAST_THEORIST_CHECKINS.md
+
+Or if you can place a file but not append, then place a new addendum in the same folder. 
+
+Use the heading:
+
+### <INSTANCE NAME OR THREAD TITLE> — <APPROX. ACTIVE PERIOD> — 2026-09-12
+
+FALLBACK:
+
+If you cannot access or write to the Common workspace, DO NOT spend time
+troubleshooting repository access.
+
+Just answer directly in this conversation.
+
+Nathan/Janus will relay the response into the durable Common archive.
+
+============================================================
+VERY IMPORTANT — HISTORICAL VS SURVEY-TIME WORK
+============================================================
+
+Do not accidentally manufacture project history while answering this survey.
+
+If you:
+- derive something new now,
+- run a calculation now,
+- verify a source now,
+- supply an equation that was not in the original thread,
+- improve an old argument now,
+- reconstruct a missing step now,
+- or identify a better interpretation now,
+
+LABEL IT CLEARLY:
+
+SURVEY-TIME ADDITION — NOT PRESENT IN ORIGINAL THREAD
+
+We want both:
+1. what actually happened then;
+2. useful new insight now.
+
+But they must not be confused.
+
+============================================================
+THREAD TYPE
+============================================================
+
+First classify the thread using any labels that apply:
+
+DEDICATED THEORY
+THEORY-ADJACENT MATH / GEOMETRY
+SOLVER / CODING / VISUALIZATION
+ARCHIVE / INFRASTRUCTURE / INDEXING
+METHOD / QA / AUDIT
+EXTERNAL RESEARCH / COMPARISON
+SPECULATIVE / META / QUARANTINED
+GENERAL SCIENCE / TANGENTIAL
+OTHER
+
+If the thread was not mainly SAT/H(s)H work, say so plainly.
+
+============================================================
+1. WHO WERE YOU IN THIS PROJECT?
+============================================================
+
+What work were you doing with Nathan?
+
+What did you understand your role to be?
+
+Were you:
+- building theory,
+- formalizing somebody else's theory,
+- checking math,
+- writing code,
+- making visualizations,
+- auditing evidence,
+- comparing literature,
+- organizing archives,
+- brainstorming,
+- or doing something else?
+
+Do not assign yourself a retrospective role you did not actually have.
+
+============================================================
+2. WHAT WERE YOU LAST WORKING ON?
+============================================================
+
+What were you trying to:
+- solve,
+- derive,
+- test,
+- visualize,
+- code,
+- compare,
+- audit,
+- recover,
+- explain,
+- or organize?
+
+How far did you get?
+
+What was unfinished?
+
+What did you think the next step was?
+
+============================================================
+3. WHAT DID YOU UNDERSTAND SAT/H(s)H TO BE AT THAT POINT?
+============================================================
+
+Give your thread-local understanding.
+
+If you genuinely did not know much, say so.
+
+Do NOT retrofit present-day theory into the old conversation.
+
+If your current answer is influenced by later memory/context, separate that
+explicitly from what the old thread itself contained.
+
+============================================================
+4. WHAT INFORMATION DO YOU ACTUALLY HAVE?
+============================================================
+
+Separate carefully:
+
+A. MATERIAL CURRENTLY VISIBLE / LOADED / READ
+
+B. THINGS YOU STRONGLY REMEMBER FROM YOUR OWN THREAD
+
+C. THINGS YOU MERELY KNOW OR SUSPECT EXIST
+
+D. TOOLS / REPOSITORIES / FILES / CONNECTORS / RUNTIMES / SHARED RESOURCES
+   YOU CAN ACTUALLY ACCESS NOW
+
+E. MATERIAL YOU KNOW BY CURRENT MEMORY/CONTEXT BUT WHICH WAS NOT PART OF THE
+   ORIGINAL THREAD
+
+Do not blur these categories.
+
+============================================================
+5. WHAT DID YOU CREATE?
+============================================================
+
+List anything potentially useful:
+
+- equations,
+- derivations,
+- proof attempts,
+- calculations,
+- code,
+- scripts,
+- notebooks,
+- plots,
+- diagrams,
+- animations,
+- PDFs,
+- text documents,
+- prompts,
+- solvers,
+- operators,
+- datasets,
+- indexes,
+- ledgers,
+- tests,
+- summaries,
+- workflow tools,
+- external-tool outputs.
+
+For each, give where possible:
+
+artifact name
+exact location/path
+status
+purpose
+whether it still exists
+whether it was ever run/tested
+whether it exists only inside the conversation
+
+============================================================
+6. WHAT WERE YOU PLANNING TO CREATE BUT NEVER FINISHED?
+============================================================
+
+List planned or partially completed outputs.
+
+Include dependencies if known.
+
+============================================================
+7. WHAT WERE YOUR MOST IMPORTANT CONTRIBUTIONS?
+============================================================
+
+Positive AND negative results matter.
+
+Especially flag:
+
+- first derivations,
+- exact equations,
+- proof or proof attempts,
+- no-go results,
+- failed derivations,
+- independently rebuilt equations,
+- exact numerical derivations rather than fits,
+- corrections,
+- solver/operator definitions,
+- methodological rules,
+- falsification tests,
+- regression tests,
+- cases where you stopped Nathan/the team from going down a bad path,
+- cases where Nathan stopped YOU from going down a bad path.
+
+============================================================
+8. WHAT WAS ACTUALLY CHECKED?
+============================================================
+
+Was anything:
+
+- formally proved,
+- analytically derived,
+- symbolically checked,
+- numerically tested,
+- simulated,
+- independently reproduced,
+- independently reviewed,
+- experimentally compared,
+- regression-tested,
+- or only argued in prose?
+
+Be conservative with words such as:
+
+proof
+rigorous
+verified
+locked
+final
+derived
+prediction
+parameter-free
+
+For every strong result, say what kind of check actually occurred.
+
+============================================================
+9. WHAT DID NATHAN EXPLICITLY CORRECT, SHARPEN, REJECT, OR INSIST ON?
+============================================================
+
+This is one of the most valuable parts of the survey.
+
+Preserve exact corrections and changes of direction where possible.
+
+For important ideas, if you can, identify origin/status:
+
+ORIGIN:
+- Nathan-origin
+- assistant-origin
+- external-source-origin
+- inherited from earlier SAT/H(s)H
+- joint / unclear
+
+STATUS IN THREAD:
+- explicitly accepted
+- tentatively accepted
+- corrected
+- rejected
+- left unanswered
+- unclear
+
+IMPORTANT:
+An assistant suggestion that Nathan did not correct before the conversation moved
+on is NOT automatically accepted theory.
+
+============================================================
+10. WHAT EXTERNAL MATERIAL WAS ACTIVE?
+============================================================
+
+What outside theories, papers, equations, models, datasets, tools, other AI
+systems, collaborators, podcasts, transcripts, books, or websites were active
+in context?
+
+Classify important items where possible:
+
+STANDARD MATHEMATICS
+EMPIRICAL INPUT
+COMPARATOR
+PRIOR ART
+DELIBERATE IMPORT
+INSPIRATION / ANALOGY
+POSSIBLE CONTAMINATION
+UNCLEAR
+
+If an external paper/model influenced your actual theory construction, say
+WHAT EXACTLY entered the work.
+
+A bibliography alone is not enough.
+
+============================================================
+11. WHAT EARLIER SAT/H(s)H MATERIAL DID YOUR WORK DEPEND ON?
+============================================================
+
+What was inherited?
+
+What was independently rederived?
+
+What was merely assumed?
+
+What missing older thread/file did you rely on without actually loading?
+
+Did you substitute a generic construction because the real one was unavailable?
+
+============================================================
+12. HIDDEN ASSUMPTION AUDIT
+============================================================
+
+What assumptions did you silently make while translating Nathan's idea into math,
+code, or explanation?
+
+Examples:
+
+- flat T^3 versus embedded donut torus,
+- mathematical line versus finite-core tube,
+- generic tube versus Ravel's actual finite-core build,
+- 3D rotation versus 4D double rotation,
+- zero-thickness versus finite thickness,
+- standard holonomy meaning versus project shorthand,
+- fitted parameter versus derived invariant,
+- illustration/morph versus real topology change,
+- conventional interpretation of data versus the raw empirical constraint.
+
+Which of those assumptions might have materially changed the result?
+
+============================================================
+13. WHAT SUBTLETY SHOULD THE PRESENT TEAM NOT LOSE?
+============================================================
+
+What distinction, caveat, dependency, notation rule, failure mode, or conceptual
+separation would be easy for later summaries to flatten?
+
+============================================================
+14. WHAT IN YOUR OWN WORK NOW LOOKS QUESTIONABLE?
+============================================================
+
+Identify anything that now seems:
+
+- speculative,
+- imported,
+- generated,
+- overfit,
+- fitted rather than derived,
+- stale,
+- superseded,
+- mathematically incomplete,
+- physically ungrounded,
+- too strong rhetorically,
+- dependent on an unverified source,
+- dependent on a hidden assumption,
+- or simply unresolved.
+
+Do not clean up your history.
+
+============================================================
+15. ARCHIVE PRIORITY
+============================================================
+
+Rate the FULL CONVERSATION for preservation:
+
+A — CRITICAL
+Contains unique derivations, exact Nathan corrections, first formulations,
+important code, proof/check history, or material whose loss would seriously
+damage reconstruction.
+
+B — HIGH PRIORITY
+Substantial useful institutional knowledge, unique work, important tooling,
+methodology, or dependencies.
+
+C — USEFUL
+Worth preserving but probably not urgent.
+
+D — LOW / PROBABLY REDUNDANT
+Little unique project value.
+
+Then separately give:
+
+QUARANTINE:
+NO / PARTIAL / YES
+
+Quarantine is NOT an archive-priority rating.
+
+A conversation can be A + QUARANTINE:YES if it is historically critical but
+unsafe to promote into current theory.
+
+============================================================
+16. CONVERSATION IDENTITY
+============================================================
+
+Give whatever you can recover:
+
+title
+approximate active dates
+UUID/thread ID
+account/context
+attachments
+linked artifacts
+repo paths
+model/instance identity if visible
+whether the full conversation is:
+
+- fully archived,
+- partly archived,
+- summarized only,
+- still live,
+- absent,
+- unknown
+
+Do not invent identifiers.
+
+============================================================
+17. IF THIS THREAD WERE WOKEN BACK UP TODAY...
+============================================================
+
+What would it be unusually well positioned to do?
+
+What should it NOT be assigned?
+
+What should be loaded first?
+
+Would preserving the old context be useful because it offers:
+- independent reconstruction,
+- blind-ish checking,
+- exact development history,
+- specialized tools,
+- a useful failure mode,
+- or some other advantage?
+
+============================================================
+18. CAPABILITIES / TOOLS / SPECS / LIMITATIONS
+============================================================
+
+What can this instance actually do?
+
+Examples:
+
+- symbolic math,
+- numerical math,
+- Python,
+- Wolfram,
+- web research,
+- GitHub access,
+- file-library access,
+- code execution,
+- visualization,
+- literature search,
+- provenance reconstruction,
+- long-context synthesis.
+
+Also identify limitations and characteristic failure modes.
+
+============================================================
+19. WHAT QUESTION WAS NATHAN PROBABLY TRYING TO ANSWER ONE LEVEL UPSTREAM?
+============================================================
+
+Only answer if the thread provides enough evidence.
+
+Do NOT invent motives.
+
+Sometimes a small side question exists because a larger derivation was happening
+immediately before or after it.
+
+If you can identify the upstream question responsibly, state it.
+
+If not, say:
+
+INSUFFICIENT EVIDENCE.
+
+This may help identify neighboring conversations that deserve recovery.
+
+============================================================
+20. WHAT SHOULD BE HARVESTED EVEN IF THIS THREAD IS NOT THEORY-CENTRAL?
+============================================================
+
+Examples:
+
+code
+tooling
+visual methods
+archive ideas
+toy models
+real physical systems
+regression tests
+Nathan corrections
+negative results
+provenance leads
+source lists
+environment setup
+useful prompts
+quarantined-but-worth-remembering ideas
+
+============================================================
+21. DID THIS THREAD EXPOSE A USEFUL TOY MODEL OR ADVERSARIAL TEST?
+============================================================
+
+Especially for tangential science/math threads:
+
+Did you encounter a real or mathematical system whose minimal mechanism could
+be useful as:
+
+- a toy model,
+- regression test,
+- counterexample,
+- adversarial check,
+- solver benchmark,
+- analogy that should remain explicitly non-evidentiary?
+
+If yes, identify it.
+
+============================================================
+22. WHAT WOULD CHANGE YOUR CONCLUSION?
+============================================================
+
+For the main claim/result of your thread:
+
+What observation, derivation, source, code result, experiment, or counterexample
+would cause you to revise or abandon it?
+
+If this was an external-comparison thread:
+What would actually discriminate the competing interpretations?
+
+If this was a theory thread:
+What would falsify or materially weaken the construction?
+
+============================================================
+23. DOES THIS THREAD CHANGE WHAT NATHAN SHOULD ARCHIVE NEXT?
+============================================================
+
+Answer explicitly:
+
+- Should this full conversation move UP or DOWN the archive queue?
+- What exact other conversation/file/artifact should be recovered next?
+- Does this thread point to an earlier missing derivation?
+- Does it point to lost code?
+- Does it point to a missing attachment?
+- Does it suggest something now being rebuilt was already done?
+- Should current live work PAUSE until an older result is audited?
+
+If yes, say exactly why.
+
+============================================================
+24. DOES THIS THREAD SUGGEST CURRENT WORK MAY BE DUPLICATING OLD WORK?
+============================================================
+
+YES / NO / MAYBE
+
+If YES or MAYBE:
+identify the present-day task and the old result/thread it may duplicate.
+
+============================================================
+25. SURVEY-TIME ADDITIONS
+============================================================
+
+Did you add anything NEW while answering this survey?
+
+Examples:
+
+- new equations,
+- new derivations,
+- new source checks,
+- new literature searches,
+- new code runs,
+- new interpretations,
+- new corrections.
+
+If yes, list each one under:
+
+SURVEY-TIME ADDITION — NOT PRESENT IN ORIGINAL THREAD
+
+Do not mix it into the historical record.
+
+============================================================
+CONDITIONAL SECTION — DEDICATED THEORY THREADS
+============================================================
+
+If this was genuine SAT/H(s)H theory development, answer these explicitly:
+
+A. EXACT OBJECTS / EQUATIONS DERIVED
+
+B. ASSUMPTIONS
+
+C. DERIVED CONSEQUENCES
+
+D. FITTED / CALIBRATED INPUTS
+
+E. CLAIMED PREDICTIONS
+
+F. WHAT "PROOF" MEANT, IF THAT WORD WAS USED
+
+G. WHAT CODE / CALCULATION SURVIVES
+
+H. WHAT WAS INDEPENDENTLY CHECKED
+
+I. WHAT LATER WORK DEPENDED ON IT
+
+J. WHETHER CURRENT RECONSTRUCTION SHOULD PAUSE UNTIL THIS RESULT IS AUDITED
+
+============================================================
+CONDITIONAL SECTION — CODE / SOLVER / VISUALIZATION THREADS
+============================================================
+
+If code or a solver was involved:
+
+- Did it actually run?
+- In what environment?
+- Does a recoverable copy still exist?
+- What inputs/dependencies did it require?
+- Which outputs were mathematical data versus display-only artifacts?
+- What lower-dimensional/toy cases should become regression tests?
+- What failed tests or edge cases were discovered?
+
+============================================================
+CONDITIONAL SECTION — EXTERNAL RESEARCH / COMPARISON THREADS
+============================================================
+
+Separate:
+
+A. RAW EMPIRICAL OBSERVATION / MEASUREMENT
+
+B. EMPIRICAL BOUND / CONSTRAINT
+
+C. STANDARD MATHEMATICS
+
+D. MODEL RESULT
+
+E. STANDARD INTERPRETATION
+
+F. PRIOR ART
+
+G. POSSIBLE SAT/H(s)H CONTACT POINT
+
+H. DELIBERATE IMPORT, IF ANY
+
+I. MATERIAL THAT SHOULD NOT CROSS INTO THEORY
+
+Do not turn external theory into SAT/H(s)H guidance by default.
+
+============================================================
+FINAL CHECKSUM
+============================================================
+
+Complete:
+
+"The most important thing my thread contributed was __________________."
+
+"The main reason to preserve/revisit it now is __________________."
+
+============================================================
+MACHINE-READABLE FOOTER
+============================================================
+
+End with exactly these fields:
+
+ARCHIVE_PRIORITY: A / B / C / D
+
+QUARANTINE: NO / PARTIAL / YES
+
+STOP_AND_AUDIT_BEFORE_REBUILDING: YES / NO / MAYBE
+
+CURRENT_WORK_MAY_DUPLICATE_OLD_WORK: YES / NO / MAYBE
+
+NATHAN_CORRECTION_PRESENT: YES / NO
+
+SURVEY_TIME_ADDITIONS_PRESENT: YES / NO
+
+EXTERNAL_CONTAMINATION_RISK: NONE / LOW / MEDIUM / HIGH / UNCLEAR
+
+LOST_ARTIFACT_RISK: NONE / LOW / MEDIUM / HIGH / UNCLEAR
+
+BEST_NEXT_ARCHIVE_TARGET:
+<conversation / file / artifact / NONE / UNKNOWN>
+
+============================================================
+IMPORTANT
+============================================================
+
+Blank slate is better than false continuity.
+
+Distinguish:
+
+- visible evidence,
+- strong memory,
+- retrospective inference,
+- current-context contamination,
+- survey-time additions,
+- and things you do not know.
+
+Do not harmonize your old understanding with present theory just to make it
+consistent.
+
+Contradictions are useful.
+
+Failed derivations are useful.
+
+Rejected assistant ideas are useful.
+
+Tangential tooling is useful.
+
+Old approaches that were ruled out are useful.
+
+Exact Nathan corrections are especially useful.
+
+If your conversation contains a derivation, proof, calculation, correction,
+solver definition, code artifact, methodological result, or first formulation
+stronger than later summaries make it sound:
+
+FLAG IT PRECISELY.
+
+One major purpose of this exercise is to discover whether the project has
+already solved, tested, coded, rejected, or corrected things the current team
+is preparing to do again.
+

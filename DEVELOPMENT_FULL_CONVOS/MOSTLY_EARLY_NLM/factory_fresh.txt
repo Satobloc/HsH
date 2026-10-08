@@ -1,0 +1,89 @@
+Skip to content
+Satobloc
+FACTORY_FLOOR
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+Insights: Satobloc/FACTORY_FLOOR
+Pulse
+Contributors
+Community
+Community standards
+Traffic
+Commits
+Code frequency
+Dependency graph
+Network
+Forks
+Actions usage metrics
+Actions performance metrics
+Git clones
+Clones in last 14 days
+13 Clones
+Line chart with 14 data points.
+View as data table, Chart
+The chart has 1 X axis displaying categories.
+The chart has 1 Y axis displaying Clones. Data ranges from 0 to 11.
+End of interactive chart.
+Unique cloners in last 14 days
+11 Unique cloners
+Line chart with 14 data points.
+View as data table, Chart
+The chart has 1 X axis displaying categories.
+The chart has 1 Y axis displaying Cloners. Data ranges from 0 to 9.
+End of interactive chart.
+Visitors
+Total views in last 14 days
+9 Views
+Line chart with 14 data points.
+View as data table, Chart
+The chart has 1 X axis displaying categories.
+The chart has 1 Y axis displaying Total views. Data ranges from 0 to 5.
+End of interactive chart.
+Unique visitors in last 14 days
+1 Unique visitors
+Line chart with 14 data points.
+View as data table, Chart
+The chart has 1 X axis displaying categories.
+The chart has 1 Y axis displaying Unique visitors. Data ranges from 0 to 1.
+End of interactive chart.
+Referring sites
+Site
+Views
+Unique Visitors
+github.com
+6
+1
+Popular content
+Content
+Views
+Unique Visitors
+Overview
+7
+1
+/blob/main/README.md
+1
+1
+/pulse
+1
+1
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information

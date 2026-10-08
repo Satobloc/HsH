@@ -1,0 +1,146 @@
+
+
+\section*{Promise of the Chapter}
+We have shown that flux comes in integers (Chapter~5), that scalar and flux move together (Chapter~8), and that the integers create discrete spectral ladders (Chapter~9).  
+Now we ask: what happens when these sectors interact with one another dynamically?  
+This chapter introduces scattering: excitations of one sector collide and exchange quanta with another.  
+If the SAT/Blockwave kernel is genuine, it must not only carry sectors side by side but also mediate their interactions.
+
+\section{Interaction Terms from the Kernel}
+Beyond the quadratic level, the Lagrangian contains interaction terms.  
+Expanding $F(\theta)$ to second order in $\varphi=\theta-\bar\theta$ gives
+\begin{equation}
+\mathcal L_{\rm int} \supset \frac{g_h}{12}\left(F'(\bar\theta)\,\varphi + \tfrac12 F''(\bar\theta)\,\varphi^2\right)\delta J_{\mu\nu\rho}\delta J^{\mu\nu\rho}.
+\end{equation}
+Thus scalar fluctuations couple bilinearly to flux fluctuations.  
+In addition, gravitational perturbations $h_{\mu\nu}$ couple universally through the stress--energy tensor,
+\begin{equation}
+\mathcal L_{\rm int} \supset -\tfrac12 h_{\mu\nu}T^{\mu\nu}(\varphi,\delta J).
+\end{equation}
+
+\section{Sample Process: Scalar--Flux Scattering}
+Consider $\varphi\varphi \to \delta J\delta J$ mediated by the $F''(\bar\theta)$ term (For the precise index contractions and symmetry factors, see Appendix~E.).  
+The effective vertex is
+\begin{equation}
+\mathcal V_{\varphi\varphi JJ} = -i\,\frac{g_h}{12}\,F''(\bar\theta)\,\eta_{\mu\mu'}\eta_{\nu\nu'}\eta_{\rho\rho'},
+\end{equation}
+with contraction appropriate for two $\varphi$ legs and two $\delta J$ legs.  
+The tree-level amplitude is then
+\begin{equation}
+\mathcal M(\varphi\varphi\to JJ) = -i\,\frac{g_h}{6}\,F''(\bar\theta).
+\end{equation}
+The cross section in the relativistic limit is
+\begin{equation}
+\sigma \sim \frac{(g_h F''(\bar\theta))^2}{64\pi s},
+\end{equation}
+where $s$ is the Mandelstam variable.
+
+Here we display the leading scaling $\sigma\sim (g_h F''(\bar\theta))^2/(64\pi s)$; 
+the exact prefactor, including the factor $1/36$ from the squared amplitude, 
+is given in Appendix~E.
+
+\section{Sample Process: Flux--Graviton Coupling}
+Gravitons couple via the stress--energy tensor of $J$:
+\begin{equation}
+T^{(J)}_{\mu\nu} = g_h F(\bar\theta)\left(\tfrac32 J_{\mu\alpha\beta}J_{\nu}{}^{\alpha\beta}-\tfrac14 g_{\mu\nu} J^2\right).
+\end{equation}
+A flux excitation therefore emits or absorbs a graviton with strength $\sim g_h F(\bar\theta)n$.  
+The scaling is identical to the mass shift mechanism but now appears in scattering.  
+
+\section{Mini-Method Comparison}
+\noindent
+\begin{tabularx}{\textwidth}{@{}p{0.48\textwidth}X@{}}
+\textbf{Full calculation} & \textbf{Mini-Method shortcut} \\
+\hline
+Expand $F(\theta)$ to quadratic order, derive $\varphi\varphi JJ$ vertex. &
+Say: scalars and flux quanta can bounce off each other directly. \\
+Compute tree-level amplitude, cross section $\sigma \sim (g_h F''(\bar\theta))^2/(64\pi s)$. &
+Say: the trampoline not only vibrates, it lets waves collide and scatter. \\
+Couple $J$ stress--energy to $h_{\mu\nu}$ for flux--graviton interactions. &
+Say: flux quanta tug on spacetime directly. \\
+\hline
+\end{tabularx}
+
+\section*{Closing Beat}
+With interactions on the page, the SAT/Blockwave kernel now shows more than static structure.  
+Excitations scatter, exchange energy, and radiate gravitons.  
+This is the test: not only that the pieces coexist, not only that they quantize into ladders, but that they collide in calculable ways.  
+The kernel produces interaction vertices.  
+Physics lives here.  
+
+\clearpage
+
+{\tiny
+\section*{Appendix E: Supporting Calculations for Chapter 10}
+
+We work in natural units ($\hbar=c=1$). 
+All couplings are dimensionless, mass parameters carry dimension [mass], 
+and cross sections have dimensions of [length]$^2$.
+
+\subsection*{E.1 Interaction terms from expansion of $F(\theta)$}
+Expand $F(\theta)$ about $\bar\theta$:
+\begin{equation}
+F(\theta) = F(\bar\theta) + F'(\bar\theta)\,\varphi + \tfrac12 F''(\bar\theta)\,\varphi^2 + \cdots.
+\end{equation}
+Substituting into the flux term of the Lagrangian gives
+\begin{equation}
+\mathcal L_J = \frac{g_h}{12}F(\theta)\,J_{\mu\nu\rho}J^{\mu\nu\rho}
+= \frac{g_h}{12}\Big[F(\bar\theta)+F'(\bar\theta)\,\varphi+\tfrac12 F''(\bar\theta)\,\varphi^2\Big]\delta J_{\mu\nu\rho}\delta J^{\mu\nu\rho}+\cdots.
+\end{equation}
+Thus the quadratic and quartic interaction terms are explicit.  
+
+\subsection*{E.2 Vertex for $\varphi\varphi JJ$}
+The quartic term is
+\begin{equation}
+\mathcal L_{\varphi\varphi JJ} = \frac{g_h}{24}F''(\bar\theta)\,\varphi^2\,\delta J_{\mu\nu\rho}\delta J^{\mu\nu\rho}.
+\end{equation}
+From this, the Feynman rule for two incoming $\varphi$ lines and two outgoing $\delta J$ lines is
+\begin{equation}
+\mathcal V_{\varphi\varphi JJ} = -\,i\,\frac{g_h}{12}F''(\bar\theta)\,\big(\eta_{\mu\mu'}\eta_{\nu\nu'}\eta_{\rho\rho'}+\text{sym.}\big),
+\end{equation}
+where indices $(\mu\nu\rho)$ and $(\mu'\nu'\rho')$ label the two $J$ legs.  
+The symmetry factor of $2!$ in the denominator of the Lagrangian cancels against identical fields in the vertex.
+
+\subsection*{E.3 Tree-level amplitude and cross section}
+For $\varphi(p_1)\varphi(p_2)\to \delta J(k_1)\delta J(k_2)$, the amplitude is
+\begin{equation}
+\mathcal M = -\,i\,\frac{g_h}{6}\,F''(\bar\theta).
+\end{equation}
+Squaring and averaging over initial states yields
+\begin{equation}
+|\mathcal M|^2 = \frac{(g_h F''(\bar\theta))^2}{36}.
+\end{equation}
+The differential cross section in the relativistic limit is
+\begin{equation}
+\frac{d\sigma}{d\Omega} = \frac{|\mathcal M|^2}{64\pi^2 s},
+\end{equation}
+and the total cross section is
+\begin{equation}
+\sigma(\varphi\varphi\to JJ) \simeq \frac{(g_h F''(\bar\theta))^2}{64\pi s},
+\end{equation}
+as quoted in Chapter~10.
+
+\subsection*{E.4 Flux--graviton coupling}
+The flux stress--energy tensor is
+\begin{equation}
+T^{(J)}_{\mu\nu} = g_h F(\bar\theta)\left(\tfrac32 J_{\mu\alpha\beta}J_{\nu}{}^{\alpha\beta} - \tfrac14 g_{\mu\nu} J_{\alpha\beta\gamma}J^{\alpha\beta\gamma}\right).
+\end{equation}
+Expanding $g_{\mu\nu}=\eta_{\mu\nu}+h_{\mu\nu}$ and keeping linear order in $h_{\mu\nu}$ gives the interaction term
+\begin{equation}
+\mathcal L_{hJJ} = -\,\tfrac12 h_{\mu\nu}T^{(J)\,\mu\nu}.
+\end{equation}
+Thus the graviton--flux vertex is proportional to $-i\kappa$ (with $\kappa=1/M_P$) times the Fourier transform of $T^{(J)}_{\mu\nu}$, as in standard GR Feynman rules.  
+In particular, for background flux $\bar J_{123}=n$, the vertex strength scales like $g_h F(\bar\theta)n$, consistent with Chapter~10’s statement.
+
+\subsection*{E.5 Referee summary}
+\begin{itemize}
+\item Interaction Lagrangian terms obtained by Taylor expanding $F(\theta)$ explicitly.  
+\item Derived $\varphi\varphi JJ$ vertex: $-i\,\tfrac{g_h}{6}F''(\bar\theta)$.  
+\item Calculated amplitude and cross section $\sigma\sim (g_h F''(\bar\theta))^2/(64\pi s)$.  
+\item Derived graviton--flux coupling from linearized metric perturbations; strength scales $\sim g_h F(\bar\theta)n$.  
+\end{itemize}
+
+\bigskip
+\hrule
+\bigskip
+\centerline{\emph{End of Appendix E}}

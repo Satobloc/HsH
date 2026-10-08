@@ -1,0 +1,225 @@
+
+
+\section*{Author’s Note on Black Hole Chapter}
+
+To preempt common referee concerns, we highlight four clarifications:
+\begin{enumerate}
+  \item \textbf{Flux integrals.}\\
+  When we write schematically \(Q(\Sigma)=\int_\Sigma J\), the explicit form is
+  \[
+  Q(\Sigma)=\int_\Sigma J_{\mu\nu\rho}\,d\Sigma^{\mu\nu\rho}.
+  \]
+  We use the shorthand only after introducing this once.
+
+  \item \textbf{Prefactor \(\alpha\).}\\
+  In the evaporation law \(\dot M=-\alpha/M^2\), the constant \(\alpha\) subsumes Stefan--Boltzmann factors, greybody transmission, and the number of species at temperature \(T_H\).
+
+  \item \textbf{Continuum vs ladder.}\\
+  The discrete SAT evaporation ladder is not in conflict with Hawking’s continuum law. In the limit \(\Delta A\to0\), the ladder reduces smoothly to \(\dot M\propto -1/M^2\). We emphasize this explicitly to avoid misreading.
+
+  \item \textbf{Detectability of comb spectrum.}\\
+  Line spacing is vanishingly small for astrophysical black holes \((\Delta f\sim 10^{-24}\,\text{Hz} \text{ for solar mass})\). Only primordial black holes that survive to small masses \((10^7\!-\!10^4 \text{ kg})\) would show Hz--kHz spacing. This caveat is essential: the discrete spectrum is a theoretical signature, not an observable for stellar or supermassive holes.
+\end{enumerate}
+
+\section*{Math spine: “So You Want to Watch One Evaporate?”}
+
+\subsection*{1. Hawking temperature from surface gravity}
+For Schwarzschild,
+\[
+ds^2=-\Big(1-\frac{2M}{r}\Big)dt^2+\Big(1-\frac{2M}{r}\Big)^{-1}dr^2+r^2 d\Omega^2,
+\quad r_h=2M.
+\]
+Surface gravity \(\kappa\) is
+\[
+\kappa=\frac{1}{2}\,\partial_r g_{tt}\Big|_{r=r_h}=\frac{1}{4M}.
+\]
+Hawking’s relation \(T_H=\kappa/(2\pi)\) gives
+\[
+T_H=\frac{1}{8\pi M}.
+\]
+% (Hawking 1974, 1975)
+
+\subsection*{2. Radiated power scaling}
+Blackbody estimate (ignoring graybody factors): \(P\sim A\,\sigma T_H^4\) with area \(A=4\pi r_h^2=16\pi M^2\).
+Thus
+\[
+P \sim 16\pi M^2 \times \sigma \Big(\frac{1}{8\pi M}\Big)^4
+= \frac{\sigma}{(8\pi)^4}\,\frac{16\pi}{M^2}
+\;\propto\; \frac{1}{M^2}.
+\]
+Restoring the frequency-dependent transmission (graybody) factors just renormalizes the prefactor \(\alpha\) below (Page 1976).
+
+\subsection*{3. Mass-loss ODE and solution}
+Energy conservation: \(\dot M=-P\Rightarrow \dot M\sim -\alpha/M^2\) for some constant \(\alpha>0\).
+Integrate:
+\[
+\int_{M_0}^{M(t)} M^2\,dM = -\alpha\!\int_0^t dt' 
+\;\Rightarrow\;
+\frac{M(t)^3-M_0^3}{3}=-\alpha t,
+\quad
+M(t)=\big(M_0^3-3\alpha t\big)^{1/3}.
+\]
+
+\subsection*{4. Area quantization and rung size}
+Assume uniformly spaced horizon area eigenvalues
+\[
+A=n\,\Delta A,\qquad n\in\mathbb Z_{>0}.
+\]
+First law \(dM=\frac{\kappa}{8\pi}\,dA\) implies a discrete step “energy”
+\[
+\Delta M \equiv \mathcal E_1=\frac{\kappa}{8\pi}\,\Delta A.
+\]
+For Schwarzschild \(\kappa=1/(4M)\):
+\[
+\boxed{\;\mathcal E_1(M)=\frac{\Delta A}{32\pi\,M}\;}
+\]
+Two common choices:
+\[
+\Delta A_{\text{Bek}}=8\pi \ell_P^2
+\;\Rightarrow\;
+\mathcal E_1=\frac{\ell_P^2}{4M},
+\qquad
+\Delta A_{\text{Hod/Muk}}=4\ln 3\,\ell_P^2
+\;\Rightarrow\;
+\mathcal E_1=\frac{\ln 3}{8\pi}\frac{\ell_P^2}{M}.
+\]
+
+\subsection*{5. Flux difference equation (SAT ladder)}
+In SAT, area rungs come from flux integers \(n\rightarrow n-1\). Identifying one rung emission with one quantum of energy \(\mathcal E_1\) yields
+\[
+M_{n}-M_{n-1}=\mathcal E_1(M_{n})=\frac{\Delta A}{32\pi\,M_n}.
+\]
+\emph{Dimensions check (SI):} with \(\Delta A\) in m\(^2\), \(\kappa=c^4/(4GM)\), 
+\[
+\mathcal E_1=\kappa\,\Delta A/(8\pi)
+= \frac{c^4}{4GM}\frac{\Delta A}{8\pi}
+\]
+has units J, as required.
+
+\subsection*{6. Continuum limit (ladder \(\to\) ODE)}
+Write \(A=16\pi M^2=n\Delta A\Rightarrow n=\frac{16\pi M^2}{\Delta A}\).
+A step \(n\to n-1\) changes mass by \(\Delta M=\mathcal E_1(M)\).
+With step time \(\tau_{\rm step}\), the finite difference
+\[
+\frac{M_{n}-M_{n-1}}{\tau_{\rm step}}
+\;\to\;
+\frac{dM}{dt}
+\quad\text{as}\quad \Delta A\to 0,
+\]
+and using \(\mathcal E_1\propto 1/M\) one recovers \(\dot M\propto -1/M^2\) after integrating over the blackbody spectrum (the prefactor matches the Hawking/Page \(\alpha\) once graybody factors are included). Thus Hawking’s smooth fade is the \(\Delta A\!\to\!0\) limit of the SAT staircase.
+
+\subsection*{7. Entropy step and emission probability}
+Bekenstein--Hawking entropy \(S=A/4\) gives a per-rung entropy change
+\[
+\boxed{\;\Delta S=\frac{\Delta A}{4}\;}
+\]
+so the Boltzmann-like weight for a single step scales as
+\[
+\Gamma_{n\to n-1}\;\propto\; e^{-\Delta S}=e^{-\Delta A/4}.
+\]
+For \(\Delta A=4\ln k\,\ell_P^2\), one finds \(\Delta S=\ln k\) and evenly spaced line intensities by a factor \(k^{-1}\) per rung (Bekenstein--Mukhanov 1995).
+
+\subsection*{8. Line (comb) spectrum and thermal limit}
+A single rung drop releases energy \(\Delta E=\mathcal E_1\). The fundamental angular frequency spacing is
+\[
+\Delta\omega=\frac{\Delta E}{\hbar}.
+\]
+In SI, with \(\Delta A=8\pi\ell_P^2\), one gets
+\[
+\Delta E=\frac{\hbar c}{4M},
+\quad
+\Delta f=\frac{\Delta E}{h}=\frac{c}{8\pi M}.
+\]
+With \(\Delta A=4\ln 3\,\ell_P^2\),
+\[
+\Delta f=\frac{c\ln 3}{16\pi^2 M}.
+\]
+As \(M\) grows, \(\Delta f\to 0\) and closely spaced lines merge into a thermal continuum; as \(M\) shrinks late in evaporation, spacing widens and discreteness can imprint a comb-like modulation.
+
+\subsection*{9. Numbers (order-of-magnitude, SI)}
+Planck area \(\ell_P^2\simeq 2.612\times 10^{-70}\,{\rm m}^2\).
+\begin{itemize}
+\item \textbf{Solar mass} \(M_\odot=1.9885\times10^{30}\,{\rm kg}\).
+\[
+\Delta A_{\text{Bek}}=8\pi\ell_P^2\simeq 6.57\times10^{-69}\,{\rm m}^2,
+\quad
+\Delta f_{\text{Bek}}=\frac{c}{8\pi M_\odot}\approx 6.0\times 10^{-24}\,{\rm Hz}.
+\]
+Hod/Mukhanov spacing:
+\[
+\Delta f \approx \frac{c\ln 3}{16\pi^2 M_\odot}\approx 1.05\times10^{-24}\,{\rm Hz}.
+\]
+(Effectively unobservable: periods \(\gtrsim 10^{16}\) years.)
+
+\item \textbf{Primordial BH} \(M=10^{12}\,{\rm kg}\).
+\[
+\Delta f_{\text{Bek}}\approx \frac{c}{8\pi M}\approx 1.19\times10^{-5}\,{\rm Hz}\quad(\text{period }\sim\! 1~\text{day}),
+\]
+\[
+\Delta f_{\text{Hod/Muk}}\approx 2.09\times10^{-6}\,{\rm Hz}.
+\]
+Still tiny, but late-time steps for even smaller \(M\) move into Hz--kHz as \(M\to 10^{7}\!-\!10^{4}\,{\rm kg}\):
+\[
+\Delta f_{\text{Bek}}\approx
+\begin{cases}
+\;1.19~{\rm Hz} & (M=10^{7}\,{\rm kg}),\\[2pt]
+\;1.19~{\rm kHz} & (M=10^{4}\,{\rm kg}).
+\end{cases}
+\]
+Such BHs are ultra-short-lived; this scaling just shows the trend.
+\end{itemize}
+
+\paragraph{Mini-summary (for the referee).}
+(i) \(T_H=\kappa/2\pi=1/(8\pi M)\). (ii) \(P\propto 1/M^2\Rightarrow \dot M\propto -1/M^2 \Rightarrow M(t)=(M_0^3-3\alpha t)^{1/3}\). (iii) With area rungs \(A=n\Delta A\) the step energy is \(\mathcal E_1=\kappa\Delta A/(8\pi)\propto 1/M\). (iv) The SAT ladder obeys \(M_n-M_{n-1}=\mathcal E_1(M_n)\) and reduces to Hawking in the \(\Delta A\to 0\) limit. (v) \(\Delta S=\Delta A/4\Rightarrow \Gamma\propto e^{-\Delta S}\). (vi) Frequency spacing \(\Delta f=c/(8\pi M)\) (Bek) or \(c\ln 3/(16\pi^2 M)\) (Hod/Muk). Lines merge to a continuum as \(M\) grows; late-time discreteness is a genuine SAT imprint.
+
+% Citations to be included in the chapter bib:
+% S. W. Hawking, Nature 248, 30 (1974); Commun. Math. Phys. 43, 199 (1975).
+% J. D. Bekenstein, Lett. Nuovo Cimento 11, 467 (1974).
+% J. D. Bekenstein and V. F. Mukhanov, Phys. Lett. B 360, 7 (1995).
+% D. N. Page, Phys. Rev. D 13, 198 (1976); New J. Phys. 7, 203 (2005).
+
+\clearpage
+{\tiny
+\section*{Appendix G: Notes and Corrections for §“So You Want to Watch One Evaporate?”}
+
+\subsection*{1. Flux integral notation (Sec. 2 and 5)}
+Throughout the main text we wrote schematically
+\[
+Q(\Sigma) = \int_\Sigma J.
+\]
+Since \(J\) is a 3-form, the explicit component form is
+\[
+Q(\Sigma) = \int_\Sigma J_{\mu\nu\rho}\,d\Sigma^{\mu\nu\rho},
+\]
+with \(d\Sigma^{\mu\nu\rho}\) the oriented volume element on the hypersurface \(\Sigma\). We use the shorthand \(Q(\Sigma)=\int J\) elsewhere, but it should be understood as the full component expression.
+
+\subsection*{2. Prefactor \(\alpha\) (Sec. 3)}
+In the mass-loss equation
+\[
+\dot M \sim -\frac{\alpha}{M^2},
+\]
+the constant \(\alpha>0\) absorbs all dimensionful prefactors. Explicitly, \(\alpha\) collects:
+\begin{itemize}
+\item the Stefan--Boltzmann constant,
+\item frequency-dependent graybody transmission factors,
+\item the number of particle species contributing at the black hole temperature.
+\end{itemize}
+Numerical values of \(\alpha\) differ by order-one factors depending on these inputs (Page 1976). 
+
+\subsection*{3. Units toggle}
+Unless otherwise noted, we work in natural units
+\[
+G=\hbar=c=k_B=1.
+\]
+In these units, \(M\) has dimensions of length (or inverse length), area is dimensionless in Planck units, and \(T_H=1/(8\pi M)\). When we present numerical estimates in SI, we convert using
+\[
+\ell_P = \sqrt{\frac{\hbar G}{c^3}} \approx 1.616\times 10^{-35}\,\mathrm{m}.
+\]
+
+\subsection*{4. Emission probability scaling (Sec. 7)}
+We wrote
+\[
+\Gamma_{n\to n-1} \propto e^{-\Delta S}.
+\]
+This is the heuristic Bekenstein--Mukhanov prescription: the probability for a downward transition is Boltzmann-suppressed by the entropy decrease \(\Delta S=\Delta A/4\). We emphasize this is not a full derivation from quantum field theory in curved spacetime, but a semiclassical ansatz consistent with detailed balance and area quantization. A full QFT calculation (Hawking 1975; Page 1976) reproduces the thermal spectrum in the continuum limit; the SAT discretization implements the same logic at the level of flux rungs.
+}

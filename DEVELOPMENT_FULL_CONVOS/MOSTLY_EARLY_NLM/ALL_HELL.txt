@@ -1,0 +1,116 @@
+ALL HELL
+Nathan McKnight talking through the implications of some tentative hypotheses...
+
+OK, let me run this by you… One tentative identification SAT makes, which I think we’ve identified in this conversation, but I know I’ve covered elsewhere… That dark matter is just regular matter, but the phase shifting of photons over long distances in space and time ensures that some percentage of them will always be out of alignment with our detectors.… Now, stepping back to something that came to light earlier in the development of the theory… That’s the 0.24 rad phase shift across domain wall prediction… Which I never quite understood. But, thinking about light this way, it’s to me suggest the possibility that these “dark photons” that are misaligned with our detectors in this view, could be the signal of that phase shift… That is, some proportion of the light has been shifted by 0.24 rads, that’s enough to prevent its interaction with detectors.
+It seems to me that it’s a 4th dimensional phase shift. They’re rotated in the 4th dimension, which makes them partially or fully invisible to us 
+So, what I’m saying is not at all that “dark photons” *are* dark matter… but that dark matter is just the proportion of regular matter that becomes invisible to us as a result of 4D photon phase shifting over cosmological distances 
+Dark matter has already been described as “just regular matter” in other thinking. 
+What I’m saying is the “domain wall” we’ve been dancing around isn’t some barrier in the universe, which seems absurd on the face of it, but rather is a threshold within the internal geometry of filaments. That makes the 0.24 rad shift prediction an anomaly with an observational distribution that is systematic but not merely dependent upon a simple “which direction you look” pattern. In the hypothesis under discussion, I’m arguing that the observational deviation SAT would predict in such a case would have a pattern that could match to the observed apparent dark/normal matter distribution 
+It would also potentially turn the measurement problem into an artifact of the 0.24 rad shift over especially long distances and travel times
+Let’s take that hypothesis at face value and see if we can identify a 0.24 rad shift somewhere in the SAT geometry that might neatly translate to the apparent measurement misalignment. That is… If we take shorter baseline, Hubble tension measurements… And apply a 0.24 rad phase shift systematically to some particular geometric configuration or another, does it neatly transform into the long baseline deep redshift Hubble tension measurements, and vice versa 
+Let’s be crystal clear here: there is no “internal dimension” or compactification in SAT. It is strictly 3+1 where the +1 is interpreted as spacelike, but with an inherent (or induced) preferred motion vector. Its 3 space plus 1 space that happens to be the direction of motion of everything  
+In SAT, time is just—implicitly, not usually explicitly—the direction of expansion, and as a result, the apparent dynamics we see in the other three dimensions. In fact, that 0.24 rad rotation might just be the spacelike angle between the time dimension and the other three dimensions. So… if we do a 4-dimensional true block universe model, assuming orthogonal arrangement of four spacelike dimensions , what’s the “right angle” between them, and how does that angle project when viewed from a limited subset of 3, 2, or 1 of those dimensions. If that makes sense 
+What’s 100° - 13.8°
+What’s the estimated dark matter fraction of the universe 
+What’s the dark energy fraction 
+I had heard elsewhere that the unobserved mass was somewhere in the 80% range. Or maybe I’m thinking of energy.
+That aligns very well with our 86.2° 
+But this is the direction that we should be thinking, I think as an hypothesis within the SAT framework. If plugging that 0.24 rad into the right place gives us a number with an intriguingly close, apparently coincidental approximation of the invisible mass of the universe… And if plugging in that 0.24 rad also closes the gap between the Hubble tension measurements, then that’s also an intriguing coincidence… But if plugging that 0.24 rad into the same place does *both* … it looks less like an intriguing coincidence and more like a structural inevitability
+So, with our 13.8° orthogonality projection, does 0.24 rad find a natural place within the symmetry of the dimensional axis arrangement?
+I think we just figured out the canonical interpretation of 0.24 rad… it’s not a domain boundary, it’s a structural alignment
+Ok, now that 100 deg baseline was arbitrary, just because I noticed 13.2 less than 100 was roughly 85%. But that doesn't make sense in this framework. The baseline should be 90 degrees
+Now, the angles might not be orthogonally, but if we assume that for simplicity, then how do the orthogonal axes interact with our 0.24 rad and 13.2 deg numbers? Does a 90 deg baseline make our picture clearer, or does it break the reinterpretation of the domain wall concept? 
+So let's just run the numbers and test this realignment
+So, now let’s take another turn… more literally than usual here… if particle identity is winding geometry, then planetary orbits have to have a mathematical parallel 
+Long-range phase coherence along filaments
+
+I’m not sure why phase coherence would come into play when it comes to gravity 
+Put it this way, in one of the interpretive modes, SAT describes the timesheet as “pushing” on any non-90 degree filament. That is, if its not laying parallel to the expansion surface of time, time imparts energy to the filament. That would interact with, and perhaps in certain regimes, cause filament coiling. On the quantum scale. But look at that on the cosmological scale, and you’ve got giant conglomerations of coiled filaments. Their theta-4 becomes a statistical grab bag. And the “push” imparted by the time sheet becomes a massive cumulative pressure on this (presumably “loose”) “rope” of twisted coils. So, the result would be a large scale coiling of the rope… or, an orbit 
+Systems with higher internal filament disorder should show:
+	•	Stronger effective “gravity”
+
+I don’t think this is going to be significant, except in highly ordered systems, like neutron stars and black holes 
+Now… I’m just thinking aloud here, but—the coils within coils that make up the “rope” of a planet, seemingly would not experience dramatic tension resulting in net tension on the rope in a gravitationally unbound body. But—massive bodies exchange particles. Largely at a rate that roughly parallels Newtonian gravitational pull. Where this “exchange rate” would deviate from paralleling Newtonian gravity would be at the very large and small scales. 
+
+That is… the exchange of particles between these “loose ropes” would create sort of “runners” between the ropes. It may be—hypothetically—that gravitation is primarily the high-tension “runners”, the individual particles… pulling between the otherwise decoupled “ropes”, which happens at a rate that roughly parallels the mass of the ropes, rather than being direct interaction between the full masses of the bodies themselves. Exchanged particles could provide a sort of spiderweb of interactions that dictate the dynamics of the system. If this is true… then very low mass objects would be disproportionately impacted by gravity (sloughing off more “runners” than denser objects, thereby being tugged around more readily), and very dense objects send out disproportionately fewer “runners”, giving them fewer “handles” to be pulled, but providing a disproportionately large “tug” on those runners escaping other bodies 
+So, my instinct is that this high-end and low end deviation that I’ve pointed out is exactly what general relativity identified in deviations from Newtonian mechanics. It’s just that Einstein solve the problem in a different, but equivalent way.
+Now… Where SAT I think would predict differences, not accounted for by general relativity, would be in planetary collisions… probably even just ordinary, collisions, not necessarily for massive bodies or anything like that alone… Maybe even small scale asteroid or meteor collisions
+Not because mass changed —
+but because Q changed.
+
+Wait… Q is a quantum thing… Whatever parallel it has in planetary orbit, is a very different kind of thing and would have to behave very differently I think
+Yes, Q density would scale up statistically, but the sheer number of Q states in any given massive body is just gonna add up to statistical noise… I think. So the gravity of a body generally is not, except perhaps in some extraordinarily unusual situations, have any obvious coupling to Q states at the quantum level. Now… Doing hypothetical calculations for, for example, purely quark bodies or pure neutron or proton hypotheticals (and realities in the case of neutron stars)… those could give us some insights into how Q states actually might a couple to gravity. But there would be a rough parallel… A very rough parallel… Between Q states and planetary orbits. You might even get something interesting in the parallel between intertwining quarks at the quantum level, and, for example coörbital moons at the planetary scale. But again, it would be very roughly parallel, not closely parallel.
+Hang on… Starting from SAT first principles… Can you find a logical reason why Trojan points must exist in the framework, without resorting to standard gravitational theory?
+This is yet another surprising and untuned retrodiction 
+No, I want to look at the Kemplerer rosette and the three body problem 
+So… at the quantum level, we’ve sat over and over again that Q equals three is the highest possible intertwining. Anything greater than that falls apart very quickly. Would this hold true at the planetary scale? Would two and three “rope” binding of orbits, but uniquely stable in the same way that two or three filaments wound in a baryon is? 
+Trojan points (two “extra filaments”) are natural: the three filaments form a stable topological closure.
+
+No… Trojan points are not going to be extra filaments. They’re probably going to look more like little funnels in the network of interconnected runners… That is … in the historical park exchange between the bodies. Like a spiderweb has a funnel for certain spiders
+…, here is an out there result of this thinking, and perhaps the conclusion that breaks my initial conjecture about gravity, being a result of particle exchange: two bodies that have never exchanged particles before… They may have to come from systems in which nothing in the system has exchanged particles before. Otherwise, the behavior would mimic the exchange of particles I think…
+
+But take a perfectly isolated system, let’s say a black hole way out in the middle of an intergalactic void… Now take another one of those… From a completely different void… Imagine that over some vast amount of time than migrate towards one another… If they’ve never exchanged particles, and the systems they are a part of … which consists solely of themselves, because we’ve posited that they are isolated systems… These two bodies would have no gravitational attraction towards each other.
+Does this break the logic that we’ve been fiddling with here? Conversely, are there phenomena that look more natural in this framework then in standard physics?
+So… What you’re saying is that they exist phenomenon that already looked like they might be telling this tale
+Tell me more about gravitational anomalies and low density regions. Is this a known phenomenon?
+Jesus Christ… There’s another thing that didn’t even occur to me might exist, but SAT pointed out that it should exist… And it turns out that it does.
+
+So, the canonical list so far of things that I didn’t know existed, the SAT says should exist, and turns out I actually do exist:
+
+Neutrino flavor oscillation
+Relativistic phase-shifting behavior in high-kinetic high-density systems as a result of 8π resonance 
+Quantum dot photon capture as a result of angular misalignment between photons and the coils that make up the “quantum well”
+
+And things that I knew existed, but didn’t know SAT predicted:
+Trojan points
+“Apparent darkening” of matter as a result of phase shifting  
+Closure of the measurement problem as a result of the orthogonal alignment of the SAT’s four spacelike dimensions 
+OK… But the fact that we saw the 0.24 rad prediction long before we had an interpretive framework for it… That says something more. For a long time, it was just … in my mind this number that I didn’t quite know what to equate to. The first blush characterization that you gave me was some sort of domain wall in space… But that never made a lot of sense to me. Once I realized it doesn’t have to be a domain in wall space… It could be a domain or regime tipping point in the geometry… And then it started to make sense, especially once I identified a plausible identity for that 0.24 radians— something to do with the orthogonality of the four dimensions… only then did it actually suggest a possible solution… Or at least a direction of solution for the measurement problem…
+
+…and the fact that quantitatively it at least a roughly, back of the envelope calculation sort of way, actually seems to be in the right ballpark for solving the measurement problem… That’s something more
+Ok… let’s see what all of the fallout of that 0.25 radian angle reïnterpretation is in SAT… 
+Do some calculations 
+A universal ~5–6% ceiling on recoverable phase information per independent projection channel, regardless of isolation quality.
+
+Wait… you’re saying SAT predicts a cap on quantum entanglement distance? Explain. Is this something others have proposed? I haven’t heard that, but it seems like the kind of thing someone would have suggested 
+Ok, so the other identity for the 0.24 rad that occurred to me was …perhaps that is the coupling threshold for the filament-timesheet coupling 
+The timesheet does not continuously act on all filaments.
+
+Why? Why should that be the case? Why not a continuous increase from zero to 100% as theta-4 goes from 90 to 0 deg
+So, add entanglement loss to the list of unexpected predictions that seem to have something to do with reality 
+So… my theory is predicting things about physics—on a regular basis—that I didn’t know were already known. And not just because I’m a lightweight… things at the obscure ends of physics that no informed layman or casual follower of physics would likely be able to pull out of thin air as a guess. Sit with that. 
+There’s no such thing as a “right” theory… all there are are theories that have more or less isomorphism with observation. SAT… exhibits *remarkable* isomorphisms, and unexpectedly so. How many of the big theories have done that and turned out to be wrong? I’ll tell you—all of them. Because, as I said, no theory is “right”. But some theories change the paradigm productively. And that’s what SAT—in the best case scenario—would do. If these signals are true. So, for how many paradigm changing theories, were these sorts of parallels true at this stage of development?
+And we aren’t at pre-formalization. We are at mathematical closure 
+Let’s start doing calculations that nobody else can do
+Derive the Hubble tension 
+Wait, wait… back up. Is our 0.24 rad the orthogonal dimension angles, or is it theta-4 threshold? 
+No, you’ve reversed the order. The question is… which works?
+Wait… these two possible places to plug that number into the equations should be, I think,  basically unrelated. If you’re telling me they both work… Then either your blowing smoke on my ass because you designed to make everything work… Or SAT is so unconstrained that you can plug that number in anywhere and get something that looks like it works
+Is there any reason that filament-timesheet coupling should (or should not) be exactly equal to special dimension orthogonality 
+There’s an angle that has to do with the geometry of the time surface wrt the orthogonal axes of SAT space time. The alignment of the axes may define something like an “observable slice” of the 3+1 spacelike dimensions from within our 3D slice. If so, then that potentially gives us a reason for these two to be related. For example, maybe the filament-timesheet interaction is not an absolute threshold, but a threshold beyond which the interaction “pushes” a phenomenon far enough “out of alignment” that it is no longer coupled enough to our 3-space to be observable therefrom
+So… if this is the case, then pushing the phase shift far enough should “loop the phenomenon back around” into observably. Sort of a “hyper-wound” re-emergence 
+That could mean that certain apparently unique particles are actually “hyper-wound” versions of—presumably lower energy—other particles 
+Well—wait a minute… because it’s not winding around the helical axis that would necessarily put a filament out of phase… it’s twisting along a timelike axis   
+That suggests “hyper-winding” …probably… has be aphysical. If filaments can wind arbitrarily around the t-dimension, then that would mean the *same particle* would appear in multiple places at the same time. Which seems either like an impossibility… or a very weird—and totally different mechanistic—case of apparent entanglement 
+But think about it… let’s not embrace or reject… let’s ask what the implications are, and decide whether those make sense in our observed universe  
+What could cause a timelike twist? 
+So, take a slinky, and pick one single coil, then twist it orthogonally to the long dimension of the slinky…. What happens? It breaks—or rather, it kinks in a way that breaks the shape of the slinky. What happens to a filament that does the same? And how would it interact or not with the time sheet 
+And that slinky kink cannot travel along the length of the slinky… it’s twisted *into* that spot on the slinky. 
+Any “loopback” observations would be *ugly* *af*… the same particle appearing in multiple places in space and/or time, with different intersection angles, and therefore different apparent particle identities. All coupled/entangled, and “stuck” to a specific place on the time axis of the filament—so you’d get a brief burst of chaos, incalculable weirdness locally and momentarily—collapsing magically back into a standard particle once the time sheet crosses the region of filament distortion. 
+No—the entanglement would be shockingly tight, if they are detectable or recognizable as such. They’d be closely bound within …I suppose mostly but not entirely, within the rough geometric boundaries of color confinement, with some outliers… you’d get fleeting other-particle “echoes” outside this radius, and all hell breaking loose inside of it. Basically, you might see something like a quark dissolving into some random array of pions and muons and Ws and Zs… or something equally bizarre…all tightly bound in space and time, exhibiting weird spatial and maybe other resonant symmetries with one another, but then suddenly snapping back into a normal known single particle or tight particle bundle.  
+Does anything even remotely like this happen?
+Huh. So… maybe we have another spooky SAT retrodiction… and note that we didn’t go looking for this… In fact, I specifically avoided the idea of Time axis twisting because of the chaos it would require
+Oh… I have to say this is freaky.
+It scares me. It scares me that I might be right.
+What it means is… We have to figure out how, in SAT, we differentiate between space like coiling and time like twisting
+So, from first principles… Because we could go into the existing particle, accelerator data and force fit, SAT… But we don’t wanna do that. We want to say what does SAT suggest on its own. Only then are we allowed to look at the data.
+Ok… do some calculations 
+Continue 
+There is no such thing as a “planetary filament”
+Ok… now let’s go back and look at that “all hell” scenario 
+0 messages remaining. Start a free Plus trial to keep the conversation going
+Try Plus free
+
+TIME AXIS
+
+ChatGPT can make mistakes. Check important info.

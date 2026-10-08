@@ -1,0 +1,77 @@
+
+
+\section*{Promise of the Chapter}
+The same action that gave you a trampoline bounce (Ch.~1) and Newtonian gravity (Ch.~2) also gives you a working quantum field theory sector. Today we turn on the \emph{compact scalar} and watch it reduce to a massive scalar with self-interactions. That means: a mass term, a quartic coupling, and a scattering amplitude. We do it long-form (textbook Taylor series) and short-form (your \textbf{Mini-Method}). Both routes land on the same physics.
+
+\section{Switch On the Compact Sector}
+From the full SAT/Blockwave action, isolate
+\begin{equation}
+\mathcal{L}_\theta = \frac{f_\theta}{2}(\partial\theta)^2 - \Lambda_\theta^4 \bigl(1-\cos\theta\bigr).
+\end{equation}
+Here $\theta$ is a compact angle variable, periodic under $\theta\to\theta+2\pi$. The prefactor $f_\theta$ sets the stiffness; $\Lambda_\theta$ sets the potential scale. All other sectors (gravity, elasticity, two-form) remain dormant.
+
+\section{Canonical Normalization}
+Define the canonically normalized field
+\begin{equation}
+\varphi \equiv \sqrt{f_\theta}\,\theta,
+\end{equation}
+so the kinetic term becomes $\frac{1}{2}(\partial\varphi)^2$. In terms of $\varphi$, the potential is
+\begin{equation}
+V(\varphi) = \Lambda_\theta^4 \left(1-\cos\!\frac{\varphi}{\sqrt{f_\theta}}\right).
+\end{equation}
+
+\section{Textbook Expansion: Mass and Coupling}
+Expand $V(\varphi)$ in a Taylor series around $\varphi=0$:
+\begin{align}
+V(\varphi) &= \Lambda_\theta^4\left[\tfrac{1}{2}\Bigl(\frac{\varphi}{\sqrt{f_\theta}}\Bigr)^2 - \tfrac{1}{4!}\Bigl(\frac{\varphi}{\sqrt{f_\theta}}\Bigr)^4 + \cdots\right] \\
+&= \frac{1}{2}\frac{\Lambda_\theta^4}{f_\theta}\,\varphi^2 - \frac{1}{4!}\frac{\Lambda_\theta^4}{f_\theta^2}\,\varphi^4 + \cdots
+\end{align}
+Thus the scalar Lagrangian becomes
+\begin{equation}
+\mathcal{L}_\varphi = \frac{1}{2}(\partial\varphi)^2 - \frac{1}{2}m_\varphi^2\,\varphi^2 - \frac{\lambda}{4!}\varphi^4 + \cdots
+\end{equation}
+with parameters
+\begin{equation}
+m_\varphi^2 = \frac{\Lambda_\theta^4}{f_\theta}, \qquad \lambda = \frac{\Lambda_\theta^4}{f_\theta^2}.
+\end{equation}
+\noindent
+\textit{Note:} Minus signs appear because we define the potential $V(\varphi)$ as positive and write the Lagrangian as $\mathcal L = \text{kinetic} - V$. \\
+\textit{Compactness caveat:} This expansion is valid for small fluctuations about $\theta=0$. The full periodicity of $\theta$ becomes crucial for nonperturbative/topological effects (treated in Ch.~4--5).
+
+\section{Tree-Level $2\to 2$ Scattering}
+The quartic term produces a contact Feynman vertex. At tree level, the amplitude is
+\begin{equation}
+\mathcal{M}_{\rm tree} = -i\lambda.
+\end{equation}
+For center-of-mass energy $\sqrt{s}$, the differential cross section is
+\begin{equation}
+\frac{d\sigma}{d\Omega} = \frac{|\mathcal{M}|^2}{64\pi^2 s}, \qquad
+\Rightarrow\quad \sigma_{\rm tot}(s)=\frac{\lambda^2}{32\pi s},
+\end{equation}
+for identical scalars (symmetry factor included). \\
+\textbf{Units check:} $[\lambda]=1$ (dimensionless in 4D), $[\sigma]={\rm m}^2$ as required. \\
+\textit{Threshold caveat:} This form is valid at high energy. Near threshold, set $s\simeq 4m_\varphi^2$, giving $\sigma\simeq \lambda^2/(64\pi m_\varphi^2)$.
+
+\section{Side-by-Side: Textbook vs. \texttt{Mini-Method}}
+\noindent
+\begin{tabularx}{\textwidth}{@{}p{0.48\textwidth}X@{}}
+\textbf{Textbook Route (sketch)} &
+\textbf{Mini-Method (from \texttt{��MINI-METHOD.txt.txt})} \\
+\hline
+1.\; Canonical field $\varphi=\sqrt{f_\theta}\theta$. &
+1.\; Treat small oscillations: $\theta\simeq\varphi/\sqrt{f_\theta}$. \\
+2.\; Expand $\cos(\varphi/\sqrt{f_\theta})\approx 1 - \tfrac12(\varphi^2/f_\theta)+\tfrac1{24}(\varphi^4/f_\theta^2)+\cdots$. &
+2.\; Note: quadratic term $\propto \varphi^2/f_\theta$, quartic $\propto \varphi^4/f_\theta^2$. \\
+3.\; Identify mass $m_\varphi^2=\Lambda_\theta^4/f_\theta$, coupling $\lambda=\Lambda_\theta^4/f_\theta^2$. &
+3.\; Read off same: $m_\varphi^2=\Lambda_\theta^4/f_\theta$, $\lambda=\Lambda_\theta^4/f_\theta^2$. \\
+4.\; Write $\mathcal{L}=\tfrac12(\partial\varphi)^2 - \tfrac12 m_\varphi^2\varphi^2 - \tfrac{\lambda}{4!}\varphi^4$. &
+4.\; Use stock scalar-QFT form; constants drop straight in. \\
+5.\; Tree amplitude $\mathcal M=-i\lambda$; cross section $\sigma=\lambda^2/(32\pi s)$. &
+5.\; Same: $\mathcal M=-i\lambda$, $\sigma=\lambda^2/(32\pi s)$. \\
+\hline
+\multicolumn{2}{@{}l}{\textbf{Conclusion:} both routes give the same scalar mass and quartic coupling. Mini-Method skips Taylor bookkeeping, preserves rigor.}
+\end{tabularx}
+
+\section*{Closing Beat}
+From one compact cosine potential, we extracted a full-fledged QFT: a massive scalar with quartic interaction and calculable scattering cross section. We did it long and short; the results matched. \\
+Next we switch on the conserved two-form $J^{\mu\nu}$ and its holonomy coupling (Ch.~4--5) to show how topology turns into quantized ``memory'' labels.
