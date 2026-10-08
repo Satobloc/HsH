@@ -317,6 +317,9 @@ def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None
   cand=[root] if root.is_file() else root.rglob("*")
   for p in cand:
    if not p.is_file():continue
+   if p.is_symlink():
+    stats["symlinks_skipped"]+=1
+    continue
    repo=repo_for(p,roots)
    local=per_repository.setdefault(repo,Counter()) if per_repository is not None else Counter()
    local["files_discovered"]+=1
@@ -389,13 +392,24 @@ def discover_archives(base:Path)->tuple[list[Path],list[str]]:
  return found,missing
 
 def repo_for(path:Path,roots:list[Path])->str:
+ # Recognize archive checkout ancestors when search roots are allowlisted subpaths.
+ for candidate in (path,*path.parents):
+  for repo,names in ARCHIVE_ALIASES.items():
+   if candidate.name in names:return repo
  for root in sorted(roots,key=lambda p:len(p.parts),reverse=True):
   try:path.relative_to(root)
   except ValueError:continue
-  for repo,names in ARCHIVE_ALIASES.items():
-   if root.name in names:return repo
   return root.name
  return "(unknown)"
+
+def repository_relative_source(path:Path,repo:str,roots:list[Path])->str:
+ for ancestor in (path,*path.parents):
+  if ancestor.name in ARCHIVE_ALIASES.get(repo,()):
+   try:return path.relative_to(ancestor).as_posix()
+   except ValueError:pass
+ root=next((rt for rt in sorted(roots,key=lambda p:len(p.parts),reverse=True)
+            if rt==path or rt in path.parents),None)
+ return path.relative_to(root).as_posix() if root and root.is_dir() else path.name
 
 def describe_capabilities()->dict[str,Any]:
  return {"tool":TOOL_NAME,"version":TOOL_VERSION,
@@ -528,8 +542,7 @@ def main()->int:
     for original in iter_records(path):
      chrono.observe(original.text,original.locator,original.kind,original.timestamp,original.capture_timestamp)
    meta=chrono.result()
-   root=next((rt for rt in sorted(args.roots,key=lambda p:len(p.parts),reverse=True) if path==rt or rt in path.parents),None)
-   source_path=path.relative_to(root).as_posix() if root and root.is_dir() else path.name
+   source_path=repository_relative_source(path,repository,args.roots)
    url=f"https://github.com/{repository}/blob/main/{quote(source_path,safe='/')}" if repository.startswith("Satobloc/") else ""
    for h in hits[hit_start:]:
     h.chronology=meta;h.repository=repository;h.source_url=url
