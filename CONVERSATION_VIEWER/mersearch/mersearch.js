@@ -26,7 +26,9 @@
     catch{return '';}
   };
   function link(parent,url,label,css=''){
-    const href=safeUrl(url);
+    const adjusted=typeof url==='string'&&url.startsWith('CONVERSATION_VIEWER/')
+      ?'../'+url.slice('CONVERSATION_VIEWER/'.length):url;
+    const href=safeUrl(adjusted);
     if(!href)return null;
     const a=E('a',css,label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';parent.append(a);return a;
   }
@@ -46,7 +48,7 @@
   function connection(online,label){
     state.online=online;const n=$('connectionState');
     n.className='connection '+(online?'online':'offline');
-    put(n.replaceChildren()||n,E('i'),document.createTextNode(' '+label));
+    clean(n);put(n,E('i'),document.createTextNode(' '+label));
   }
   function coverage(data={}){
     const active=new Set(data.archives_searched||data.archives_discovered||[]);
@@ -264,6 +266,24 @@
     }
     return box;
   }
+  function highlightExcerpt(container,excerpt){
+    const source=txt(excerpt,1300);
+    const raw=$('searchQuery').value.trim();
+    const terms=(raw.match(/[A-Za-z0-9_.-]{3,}/g)||[])
+       .filter(x=>!['AND','NOT','NEAR','MATH','ROLE','VERSION','ERA','REPO'].includes(x.toUpperCase()))
+       .slice(0,5);
+    if(!terms.length){container.textContent=source;return;}
+    const escapeRegex=s=>Array.from(s).map(c=>'.*+?^$[]{}()|\\'.includes(c)?'\\'+c:c).join('');
+    const re=new RegExp('('+[...new Set(terms)].map(escapeRegex).join('|')+')','ig');
+    let index=0,match;
+    while((match=re.exec(source))!==null){
+      if(match.index>index)container.append(document.createTextNode(source.slice(index,match.index)));
+      container.append(E('mark','',match[0]));
+      index=re.lastIndex;
+      if(!match[0].length)break;
+    }
+    if(index<source.length)container.append(document.createTextNode(source.slice(index)));
+  }
   function card(h,i){
     const art=E('article','result-card');art.style.animationDelay=Math.min(i,8)*18+'ms';
     const glyph=E('div','result-glyph',['conversation-message','notebooklm-message'].includes(h.kind)?'≋':'▤');
@@ -277,7 +297,7 @@
     if(!link(title,h.source_url||h.viewer_url,txt(h.title||h.path||'Untitled record',180)))
       title.textContent=txt(h.title||h.path||'Untitled record',180);
     const excerpt=E('p','result-excerpt');
-    excerpt.textContent=txt(h.excerpt||'',1300);
+    highlightExcerpt(excerpt,h.excerpt||'');
     const foot=E('div','result-foot');
     put(foot,E('span','',h.speaker||h.role||'Speaker not identified'));
     if(h.locator)foot.append(E('span','',h.locator));
