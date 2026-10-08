@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-contact-derived-director-memory-001",
+  "request_id": "2026-10-08-ravel-contact-wall-action-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((director OR material frame OR twist field) AND (contact potential OR asymmetric contact OR polar anchoring OR sleeve) AND (hysteresis OR metastable OR kink OR domain wall)) OR ((nested core OR off-axis core OR seam OR eccentric filament) AND (memory OR phase slip OR retained state))",
-  "purpose": "Recover prior constructions relevant to replacing the phenomenological Gaussian pin with a contact-derived angular potential and testing continuum-stable retained director states against an annular null.",
+  "query": "((domain wall OR kink OR phase boundary OR interface) AND (contact OR sleeve OR nesting OR asymmetric pad) AND (wall energy OR action OR threshold OR Maxwell point OR nucleation)) OR ((finite core OR worldtube OR material frame) AND (transition layer OR retained orientation OR moving boundary))",
+  "purpose": "Recover prior constructions relevant to a contact-dependent wall action that predicts the energetic crossing of a retained finite-core director domain, with annular contact as the compulsory null.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
