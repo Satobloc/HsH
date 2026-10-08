@@ -43,6 +43,17 @@ class ChronologyTests(unittest.TestCase):
         self.assertEqual(message_date("2025-02-01"), "")
         self.assertEqual(archive_date("2025-13-46/file.txt"), "")
 
+    def test_named_dates_and_recent_capture(self):
+        c=Chronology("DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/notebook.json")
+        c.observe("The result was noted February 2, 2025", "messages[0]",
+                  "notebooklm-message", capture_timestamp="2026-09-19T00:43:32Z")
+        row=c.result()
+        self.assertEqual(row["archive_date"],"2026-09-30")
+        self.assertEqual(row["earliest_date_mentioned"],"2025-02-02")
+        self.assertEqual(row["captured_at"],"2026-09-19")
+        self.assertEqual(row["date_confidence"],"undetermined")
+        self.assertEqual(row["document_type"],"secondary-structured-export")
+
     def test_no_false_generic_sat_version(self):
         c=Chronology("notes.txt")
         c.observe("SAT 0.24 phase shift", "line:1", "text-line")
@@ -98,6 +109,7 @@ class SearchTests(unittest.TestCase):
         self.assertTrue(all(h["source_url"].startswith("https://github.com/Satobloc/")
                             for h in doc["hits"]))
         self.assertTrue(all("PRIOR_ART" not in h["path"] for h in doc["hits"]))
+        self.assertGreaterEqual(doc["coverage"]["inventory_limitations"]["excluded_by_policy"],1)
 
     def test_date_origin_and_version_queries(self):
         doc=self.search('version:sat-mark-v AND "phase shift"')
