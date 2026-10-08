@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-morrow-three-repo-backbone-001",
-  "query": "(\"SAT4D_MATHEMATICAL_BACKBONE\" OR \"SATO-BLOCK\" OR \"superhelical\" OR \"Universal Indicatrix\" OR \"Projection Constant\" OR \"Chronostructure\")"
+  "request_id": "2026-10-07-ravel-moving-intersection-wake-001",
+  "query": "((filament OR worldline OR worldtube) AND (crossing OR interface OR moving OR sweep) AND (drag OR wake OR scar OR relaxation OR friction)) OR ((timesheet OR \"time surface\") AND (wake OR healing OR motion OR propagation))"
 }
