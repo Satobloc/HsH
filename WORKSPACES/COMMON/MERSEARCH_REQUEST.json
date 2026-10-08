@@ -1,4 +1,18 @@
 {
-  "request_id": "2026-10-08-ravel-finite-radius-traction-001",
-  "query": "((finite radius OR tube surface OR tubular neighborhood OR cross-section) AND (traction OR drag OR contact pressure OR torque) AND (helix OR helical OR braid OR worldtube)) OR ((surface integration OR boundary traction) AND (chirality OR handedness OR threefold) AND (cancellation OR correction OR parity))"
+  "request_id": "2026-10-08-ravel-transported-helical-tube-001",
+  "requester": "Ravel",
+  "requested_at": "2026-10-08",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH"
+  ],
+  "query": "((helix OR helical) AND (Frenet frame OR transported frame OR normal bundle OR tube surface OR tubular neighborhood) AND (surface Jacobian OR area element OR traction OR torque OR curvature OR torsion OR pitch)) OR ((finite core OR worldtube) AND (cross-section OR surface) AND (parallel transport OR material frame OR chirality OR handedness))",
+  "purpose": "Locate exact prior corpus treatments of transported finite-radius helical tube geometry, surface measure, and torque parity before deriving a pitch-dependent H(s)H discriminator.",
+  "preferred_outputs": [
+    "exact file paths",
+    "line ranges",
+    "short excerpts",
+    "provenance labels"
+  ],
+  "status": "requested"
 }
