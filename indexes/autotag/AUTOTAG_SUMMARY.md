@@ -2,9 +2,9 @@
 
 Machine pre-tags only. Nothing here is automatically promoted to VERIFIED.
 
-- JSON files scanned: 1064
+- JSON files scanned: 1069
 - conversation exports recognized: 708
-- non-conversation JSON skipped: 354
+- non-conversation JSON skipped: 359
 - message records: 132964
 - user messages: 38711
 - bulk winnow: 38657

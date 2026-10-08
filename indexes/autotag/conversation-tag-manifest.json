@@ -3,9 +3,9 @@
   "scope": [
     "."
   ],
-  "json_files_scanned": 1064,
+  "json_files_scanned": 1069,
   "conversation_exports_recognized": 708,
-  "nonconversation_json_skipped": 354,
+  "nonconversation_json_skipped": 359,
   "parse_errors": [
     {
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/25.10.30•26.06.01•Fundamental Intuitions of SAT — raw.json",
