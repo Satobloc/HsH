@@ -149,6 +149,7 @@
     try{
       const d=normal(JSON.parse(await file.text()));
       state.result=d;state.imported=true;state.page=0;state.query=d.query||'';
+      view('results');
       if(d.query){$('searchQuery').value=d.query;updateClear();}
       if(d.result_mode==='files')$('resultMode').value='files';
       coverage(d);render();
@@ -169,6 +170,7 @@
       return;
     }
     state.imported=false;state.query=expr;state.page=0;
+    view('results');
     const u=new URL(location.href);u.searchParams.set('q',$('searchQuery').value.trim());
     history.replaceState(null,'',u);
     await loadPage(0);
