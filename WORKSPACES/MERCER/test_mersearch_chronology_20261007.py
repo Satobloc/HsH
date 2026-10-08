@@ -170,6 +170,11 @@ class SearchTests(unittest.TestCase):
                                 local.get("pdf_parser_unavailable",0),1)
         self.assertEqual(doc["content_coverage_status"],"partial")
 
+    def test_repository_totals_reconcile(self):
+        doc=self.search('"0.24"')
+        checks=doc["coverage_reconciliation"]
+        self.assertTrue(all(checks.values()),checks)
+
     def test_date_origin_and_version_queries(self):
         doc=self.search('version:sat-mark-v AND "phase shift"')
         self.assertEqual(len(doc["hits"]),1)
