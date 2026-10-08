@@ -1,6 +1,9 @@
 name: Mersearch Three-Repository Corpus Audit
 on:
   workflow_dispatch:
+  push:
+    branches: [mersearch-chronology-20261007]
+    paths: ['.github/workflows/mersearch-corpus-audit.yml']
 permissions:
   contents: read
 jobs:
