@@ -63,6 +63,7 @@ class Chronology:
  kind:str=""
  dates:set[str]=field(default_factory=set)
  messages:set[str]=field(default_factory=set)
+ captures:set[str]=field(default_factory=set)
  versions:dict[str,dict[str,Any]]=field(default_factory=dict)
  evidence:list[dict[str,str]]=field(default_factory=list)
  retrospective:bool=False
@@ -70,9 +71,12 @@ class Chronology:
  def mark(self,kind,value,locator,excerpt="",confidence="contextual"):
   if len(self.evidence)<36:self.evidence.append(dict(kind=kind,value=value,locator=locator,excerpt=excerpt[:160],confidence=confidence))
 
- def observe(self,text,locator="",kind="",timestamp=""):
+ def observe(self,text,locator="",kind="",timestamp="",capture_timestamp=""):
   if kind:self.kind=kind
-  if kind=="conversation-message":
+  if capture_timestamp:
+   d=message_date(capture_timestamp)
+   if d:self.captures.add(d);self.mark("capture_timestamp",d,locator,confidence="snapshot-only")
+  if kind in ("conversation-message","notebooklm-message"):
    d=message_date(timestamp)
    if d:self.messages.add(d);self.mark("message_timestamp",d,locator,confidence="direct")
   retro=bool(RETRO.search(text));self.retrospective |= retro
@@ -89,6 +93,7 @@ class Chronology:
   mentioned=sorted(self.versions.values(),key=lambda v:(v["era_start"],v["name"]))
   active=[v for v in mentioned if v["active_mentions"]]
   dtype=("structured-conversation" if self.kind=="conversation-message" else
+         "secondary-structured-export" if self.kind=="notebooklm-message" else
          "retrospective-or-compilation" if COMPILATION.search(self.path) else "unclassified-text")
   archived=archive_date(self.path)
   if self.messages:
@@ -104,6 +109,7 @@ class Chronology:
   return dict(document_type=dtype,archive_date=archived,
    earliest_date_mentioned=min(self.dates) if self.dates else "",
    latest_date_mentioned=max(self.dates) if self.dates else "",
+   captured_at=min(self.captures) if self.captures else "",
    earliest_message_at=min(self.messages) if self.messages else "",
    latest_message_at=max(self.messages) if self.messages else "",
    earliest_version_mentioned=mentioned[0]["name"] if mentioned else "",
