@@ -72,3 +72,21 @@ Executable reproducibility exists in accompanying generated conversation artifac
 **Mercer:** compare with published Jiho Noh et al. research on “Braiding photonic topological zero modes,” *Nature Physics* **16** (2020) 989–993, https://doi.org/10.1038/s41567-020-1007-5. HSH_RESOURCES contains a secondary report; the comparator is the original journal article.
 
 **Same mandatory reviewer question:** “Better or worse than the published paper? Why or why not?” Specify whether comparison is of mathematical correctness, model discrimination, experimental execution, novelty, clarity, or scope. Provide a fatal-flaw check, smallest possible repaired theorem, and a proposed hostile replication test. Judge the draft independently; no collaboration/consensus before submitting first review.
+
+
+## NEW: post-submission extension (v0.2): symmetry-enforced cross-plane sidebands
+This revision strengthens the paper beyond the classical beam equivalence. Let G_* be the exact fixed target above, perturb it by f=δG, and solve H=H_0+h to first order. The tangent equation is
+
+`[κ D_s^4 + k I + 4 λ_s H_0(s) H_0(s)^T] h(s) = k f(s)`.
+
+The rank-one, s-dependent shell coupling generates harmonic conversion between the two UI rotational planes. The uncoupled Winkler-beam operator corresponds to λ_s=0 and **cannot** produce cross-plane response from a forcing confined to the first plane.
+
+**Exact half-turn selection theorem.** For m even, n odd, P=diag(+1,+1,−1,−1), H_0(s+π)=P H_0(s). The above operator commutes with the involution `Th(s)=P h(s+π)`. Under `f(s)=cos(s)e_1`, `Tf=−f`. Positivity/uniqueness of the linearized inverse implies `Th=−h`. Therefore:
+- first plane h1,h2 has **odd** harmonics only;
+- second plane h3,h4 has **even** harmonics only.
+
+**Numerical synthetic test** at m=2,n=3,a=b=1/√2, κ=.02,k=1,λ_s=5, forcing cos(s)e1, N=128 Fourier differentiation and preconditioned conjugate gradient: relative equation residual **1.24×10⁻¹¹**. First coordinate: harmonic 1 amplitude **0.577131**, harmonic 3 **0.075350**, harmonic 5 **0.015845**. Third coordinate: constant term **0.213909**, harmonic 2 **0.149559**, harmonic 4 **0.032258**, harmonic 6 **0.007946**. Uncoupled beam predicts zero everywhere in the third coordinate. The structural parity selection agrees exactly with the theorem.
+
+**New proposed discriminator:** In an instrument with genuinely independent four-component drive and an established sphere-restoring coupling, drive an odd first-plane mode, and look for even second-plane sidebands. This is a mathematical model prediction, not an experimentally established new physical effect. The primary paper now includes this result; reviews should examine it too.
+
+**Execution provenance:** local program `whirligig_sideband_test.py`; `sideband_results.json`; precision figure `sideband_selection.png`. The first run at N=512 had an inflated fourth-derivative cancellation residual (3.96e−9) and was rejected in favor of the well-conditioned N=128 computation (1.24e−11). This numerical correction is retained for transparency.
