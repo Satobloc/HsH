@@ -220,7 +220,9 @@ def field_eval(rec:Record,term:str)->Eval|None:
   elif field=="retrospective":target=str(meta.get("retrospective_possible",False)).lower()
   else:target=rec.repository
   target=target.casefold()
-  if field in ("archive_date","origin") and ".." in val:
+  if field in ("repo","repository"):
+   ok=val==target  # exact: HsH must not also match HSH_RESOURCES
+  elif field in ("archive_date","origin") and ".." in val:
    lo,hi=val.split("..",1)
    ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
   else:ok=bool(target) and val in target
