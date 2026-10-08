@@ -155,6 +155,21 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(doc["coverage_by_repository"]["Satobloc/HSH_RESOURCES"],{})
         self.assertEqual(doc["coverage_status"],"partial")
 
+    def test_malformed_json_is_visible_per_repository(self):
+        (self.hsh/"broken.json").write_text("{invalid json",encoding="utf-8")
+        doc=self.search('"0.24"')
+        self.assertGreaterEqual(doc["coverage_by_repository"]["Satobloc/HsH"]["json_decode_failures"],1)
+        self.assertGreaterEqual(doc["inventory_limitations"]["json_decode_failures"],1)
+        self.assertEqual(doc["content_coverage_status"],"partial")
+
+    def test_unextractable_pdf_is_not_silent(self):
+        (self.resources/"empty.pdf").write_bytes(b"%PDF-1.4\\ninvalid pdf")
+        doc=self.search('"0.24"')
+        local=doc["coverage_by_repository"]["Satobloc/HSH_RESOURCES"]
+        self.assertGreaterEqual(local.get("pdf_parse_failures",0)+
+                                local.get("pdf_parser_unavailable",0),1)
+        self.assertEqual(doc["content_coverage_status"],"partial")
+
     def test_date_origin_and_version_queries(self):
         doc=self.search('version:sat-mark-v AND "phase shift"')
         self.assertEqual(len(doc["hits"]),1)
