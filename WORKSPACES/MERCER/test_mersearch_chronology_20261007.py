@@ -43,6 +43,15 @@ class ChronologyTests(unittest.TestCase):
         self.assertEqual(message_date("2025-02-01"), "")
         self.assertEqual(archive_date("2025-13-46/file.txt"), "")
 
+    def test_later_version_than_archive_is_not_silently_redated(self):
+        c=Chronology("2025-04-15/notes.txt")
+        c.observe("SAT Mark V and Chronophysical revisions", "line:1","text-line")
+        row=c.result()
+        self.assertEqual(row["archive_date"],"2025-04-15")
+        self.assertTrue(any("chronophysical" in w for w in row["warnings"]))
+        self.assertTrue(row["version_transition_possible"])
+        self.assertEqual(row["date_confidence"],"low-version-inference")
+
     def test_named_dates_and_recent_capture(self):
         c=Chronology("DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/notebook.json")
         c.observe("The result was noted February 2, 2025", "messages[0]",
