@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-contact-wall-action-001",
+  "request_id": "2026-10-08-ravel-deformable-contact-backreaction-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((domain wall OR kink OR phase boundary OR interface) AND (contact OR sleeve OR nesting OR asymmetric pad) AND (wall energy OR action OR threshold OR Maxwell point OR nucleation)) OR ((finite core OR worldtube OR material frame) AND (transition layer OR retained orientation OR moving boundary))",
-  "purpose": "Recover prior constructions relevant to a contact-dependent wall action that predicts the energetic crossing of a retained finite-core director domain, with annular contact as the compulsory null.",
+  "query": "((deformable contact OR compliant sleeve OR elastic pad OR contact edge OR contact backreaction) AND (director OR twist OR domain wall OR kink OR finite core)) OR ((worldtube pressure OR nesting OR contact boundary) AND (deformation OR force balance OR coupled field))",
+  "purpose": "Recover prior constructions relevant to deriving a contact window from deformable-pad force balance and testing contact/director backreaction against the annular-contact null.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
