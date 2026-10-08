@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-nested-elliptic-contact-001",
+  "request_id": "2026-10-08-ravel-contact-derived-director-memory-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((nested OR sleeve OR annular OR core-shell) AND (elliptic OR anisotropic) AND (tube OR rod OR worldtube) AND (contact pressure OR normal contact OR confinement OR anchoring OR torque)) OR ((finite core OR filament) AND (nesting OR interface) AND (director OR material frame OR phase slip))",
-  "purpose": "Recover prior corpus constructions about explicit nested finite-core contact and torque anchoring before deriving whether sleeve contact can supply a physical polar pin without hand insertion.",
+  "query": "((director OR material frame OR twist field) AND (contact potential OR asymmetric contact OR polar anchoring OR sleeve) AND (hysteresis OR metastable OR kink OR domain wall)) OR ((nested core OR off-axis core OR seam OR eccentric filament) AND (memory OR phase slip OR retained state))",
+  "purpose": "Recover prior constructions relevant to replacing the phenomenological Gaussian pin with a contact-derived angular potential and testing continuum-stable retained director states against an annular null.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
