@@ -137,6 +137,18 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(len(doc["hits"]),1)
         self.assertEqual(doc["hits"][0]["chronology"]["date_confidence"],"direct-message-timestamps")
 
+    def test_identical_file_mirrors_are_explained_not_lost(self):
+        original=(self.sat/"10-31-2025 SAT FULL THEORY"/"ANSWER.txt")
+        (self.resources/"COPY.txt").write_bytes(original.read_bytes())
+        doc=self.search('"0.24"',"--result-mode","files")
+        original_hit=next(h for h in doc["hits"] if h["path"].endswith("ANSWER.txt"))
+        self.assertEqual(len(original_hit["identical_file_sources"]),2)
+        self.assertEqual(doc["pagination"]["total_hits"],5)
+        doc=self.search('"0.24"',"--result-mode","files","--collapse-identical-files")
+        self.assertEqual(doc["pagination"]["total_hits"],4)
+        retained=next(h for h in doc["hits"] if h["identical_file_sources"])
+        self.assertEqual(len(retained["identical_file_sources"]),2)
+
     def test_pagination_total_and_missing_archive(self):
         doc=self.search('"0.24"',"--limit","1","--offset","2")
         self.assertEqual(doc["pagination"]["total_hits"],4)
