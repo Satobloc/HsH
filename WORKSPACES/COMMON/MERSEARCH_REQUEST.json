@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-morrow-early-B-conversation-chronology-001",
-  "query": "(\"projection constant\" OR \"optical kink\" OR \"3/(4*pi)\" OR \"0.2387\" OR \"0.239\" OR \"14.1\")"
+  "request_id": "2026-10-07-ravel-orientation-load-coupling-001",
+  "query": "((chirality OR handedness OR orientation OR frame OR spin) AND (filament OR worldtube OR helix) AND (timesheet OR interface OR intersection OR drag OR coupling)) OR ((counterrotating OR reversal) AND (force OR torque OR wake OR deformation))"
 }
