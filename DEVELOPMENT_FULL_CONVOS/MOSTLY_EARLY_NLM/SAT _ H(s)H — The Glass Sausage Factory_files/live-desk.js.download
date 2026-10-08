@@ -1,0 +1,160 @@
+import { loadSiteUpdatePackets, workerStream } from './site-update-packets.js';
+
+const ROOT = 'https://raw.githubusercontent.com/Satobloc/HsH/main/';
+const REPO = 'https://github.com/Satobloc/HsH/blob/main/';
+const feeds = {
+  work: 'PUBLIC_SITE/CURRENT_WORK.json',
+  news: 'PUBLIC_SITE/NEWS_FEED.json',
+  quotes: 'PUBLIC_SITE/FEATURED_QUOTES.json',
+  routing: 'WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json'
+};
+const $ = (selector) => document.querySelector(selector);
+const repoLink = (path) => REPO + path.split('/').map(encodeURIComponent).join('/');
+const el = (name, className, content) => {
+  const node = document.createElement(name);
+  if (className) node.className = className;
+  if (content != null) node.textContent = content;
+  return node;
+};
+const anchor = (label, url, className) => {
+  const node = el('a', className, label);
+  node.href = url;
+  return node;
+};
+const dateLabel = (date) => {
+  if (!date) return 'date unlisted';
+  const parsed = new Date(date.length === 10 ? date + 'T12:00:00Z' : date);
+  return Number.isNaN(parsed.getTime()) ? String(date) : new Intl.DateTimeFormat('en', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(parsed);
+};
+const recent = date => {const time=Date.parse(/^\d{4}-\d{2}-\d{2}$/.test(date||'')?date+'T00:00:00Z':date);const age=Date.now()-time;return Number.isFinite(time)&&age>=0&&age<5*86400000};
+function flagNew(node,date){if(!recent(date))return;node.classList.add('recent-content');const badge=el('span','new-badge','New');badge.setAttribute('aria-label','Published within the last five days');node.prepend(badge)}
+async function readFeed(path) {
+  const response = await fetch(ROOT + path, {cache:'no-cache',signal:AbortSignal.timeout(15000)});
+  if (!response.ok) throw new Error('Feed unavailable');
+  return response.json();
+}
+function setFeedState(node, text, isError = false) {
+  if (!node) return;
+  node.textContent = text;
+  node.classList.toggle('feed-error', isError);
+}
+function renderNews(data) {
+  const list = $('#live-news-list');
+  if (!list) return;
+  const entries = (data.items || []).filter(item => item.display_status === 'featured');
+  list.replaceChildren();
+  entries.forEach(item => {
+    const row = el('article', 'desk-story');
+    flagNew(row,item.external_date);
+    row.append(el('span', 'desk-meta', `${item.source_name || 'External source'} · ${dateLabel(item.external_date)}`));
+    row.append(anchor(item.headline, item.source_url, 'desk-headline'));
+    row.append(el('span', 'desk-relation', item.relationship || 'relationship open'));
+    const related = (item.sat_hsh_links || []).find(link => link.path);
+    if (related) row.append(anchor('Related exploration ↗', repoLink(related.path), 'desk-source'));
+    list.append(row);
+  });
+  setFeedState($('#news-feed-state'), `${entries.length} curated headlines · feed ${dateLabel(data.updated)}`);
+  const ribbon = $('#live-ribbon-items');
+  if (ribbon) entries.forEach(item => ribbon.append(anchor(item.headline, item.source_url)));
+}
+function renderWork(data, routing) {
+  const list = $('#live-work-list');
+  if (!list) return;
+  list.replaceChildren();
+  const active = (routing.signals || []).find(s => String(s.status).startsWith('ACTIVE_OVERRIDE'));
+  if (active) {
+    const row = el('article', 'desk-story priority');
+    flagNew(row,routing.updated);
+    row.append(el('span', 'desk-meta', `Active routing · ${dateLabel(routing.updated)}`));
+    row.append(anchor(active.title, repoLink(feeds.routing), 'desk-headline'));
+    row.append(el('span', 'desk-relation', 'Operational priority · source linked'));
+    list.append(row);
+  }
+  (data.live_fronts || []).slice(0, 5).forEach(front => {
+    const row = el('article', 'desk-story');
+    flagNew(row,front.updated || front.created);
+    row.append(el('span', 'desk-meta', front.lane || 'Current work'));
+    const path = (front.sources || []).find(p => typeof p === 'string' && !p.endsWith('/'));
+    row.append(anchor(front.title, path ? repoLink(path) : repoLink(feeds.work), 'desk-headline'));
+    row.append(el('span', 'desk-relation', front.description));
+    list.append(row);
+  });
+  setFeedState($('#work-feed-state'), `Routing ${dateLabel(routing.updated)} · work snapshot ${dateLabel(data.snapshot_date)}`);
+}
+function renderQuotes(data) {
+  const slot = $('#live-quote');
+  if (!slot) return;
+  const quotes = (data.quotes || []).filter(q => q.display_status === 'featured' && q.speaker_class === 'Nathan');
+  if (!quotes.length) return;
+  const pick = quotes[Math.floor(Date.now() / 86400000) % quotes.length];
+  slot.replaceChildren();
+  slot.append(el('span', 'desk-meta', 'From the archive · Nathan'));
+  const q = el('blockquote', '', `“${pick.text}”`);
+  slot.append(q);
+  if (pick.source_path) slot.append(anchor(`${pick.speaker_label} · source ↗`, repoLink(pick.source_path), 'desk-source'));
+}
+function renderPackets(packets) {
+  const list = $('#live-worker-list');
+  if (!list) return;
+  const entries = workerStream(packets).slice(0, 6);
+  list.replaceChildren();
+  entries.forEach(item => {
+    const row = el('article', 'desk-story');
+    flagNew(row,item.created);
+    row.append(el('span', 'desk-meta', `${item.producer || 'Project worker'} · ${dateLabel(item.created)} · ${item.status}`));
+    row.append(anchor(item.title, item._packet_url, 'desk-headline'));
+    row.append(el('span', 'desk-relation', (item.epistemic && (item.epistemic.status || item.epistemic.label)) || 'Worker submission · editorial intake'));
+    list.append(row);
+  });
+  if (!entries.length) list.append(el('p', 'desk-empty', 'No worker submissions in editorial intake.'));
+  setFeedState($('#packet-feed-state'), `${entries.length} worker submissions · candidate / ready`);
+}
+function insertRibbon() {
+  const header = document.querySelector('body > header');
+  if (!header) return;
+  const ribbon = el('div', 'live-ribbon');
+  ribbon.setAttribute('aria-label', 'Current science and project updates');
+  const inner = el('div', 'live-ribbon-inner');
+  inner.append(anchor('Live desk', 'index.html#live-desk', 'live-ribbon-label'));
+  inner.append(el('div', 'live-ribbon-items', 'Loading current headlines…'));
+  inner.lastChild.id = 'live-ribbon-items';
+  inner.append(anchor('Updates ↗', 'updates.html', 'live-ribbon-end'));
+  ribbon.append(inner);
+  header.insertAdjacentElement('afterend', ribbon);
+}
+insertRibbon();
+document.querySelectorAll('.update time[datetime]').forEach(time=>flagNew(time.closest('.update'),time.dateTime));
+async function refreshDesk(){
+const positions=[...document.querySelectorAll('.desk-scroll')].map(node=>[node,node.scrollTop]);
+const results = await Promise.allSettled([
+  readFeed(feeds.news), readFeed(feeds.work), readFeed(feeds.quotes), readFeed(feeds.routing), loadSiteUpdatePackets()
+]);
+const value = i => results[i].status === 'fulfilled' ? results[i].value : null;
+const ribbonItems = $('#live-ribbon-items');
+if (ribbonItems) ribbonItems.textContent = '';
+if (value(0)) renderNews(value(0));
+else {
+  setFeedState($('#news-feed-state'), 'Live news unavailable · source archive linked below', true);
+  $('#live-news-list')?.replaceChildren(anchor('Open the curated news feed ↗', repoLink(feeds.news), 'desk-empty'));
+  if (ribbonItems) ribbonItems.append(anchor('Open source news feed ↗', repoLink(feeds.news)));
+}
+if (value(1) && value(3)) renderWork(value(1), value(3));
+else {
+  setFeedState($('#work-feed-state'), 'Live work feed unavailable · dated page content below', true);
+  $('#live-work-list')?.replaceChildren(anchor('Open the current work source ↗', repoLink(feeds.work), 'desk-empty'));
+}
+if (value(2)) renderQuotes(value(2));
+if (value(4)) renderPackets(value(4));
+else {
+  setFeedState($('#packet-feed-state'), 'Worker feed unavailable · repository intake linked below', true);
+  $('#live-worker-list')?.replaceChildren(anchor('Open worker intake ↗', 'https://github.com/Satobloc/HsH/tree/main/PUBLIC_SITE/live_influx/packets', 'desk-empty'));
+}
+if (ribbonItems && value(3)) {
+  const active = (value(3).signals || []).find(s => String(s.status).startsWith('ACTIVE_OVERRIDE'));
+  if (active) ribbonItems.prepend(anchor(active.title, repoLink(feeds.routing)));
+}
+
+for(const [node,top]of positions)node.scrollTop=top;
+}
+await refreshDesk();
+setInterval(()=>{if(!document.hidden)refreshDesk()},5*60*1000);

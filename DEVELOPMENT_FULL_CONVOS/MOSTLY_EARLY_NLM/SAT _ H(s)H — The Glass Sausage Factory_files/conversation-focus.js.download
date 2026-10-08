@@ -1,0 +1,21 @@
+import {loadConversations,conversationUrl,resolveStart} from './conversation-catalog.js';
+let conversations=(await loadConversations()).items;
+let previous = -1;
+try { previous = Number(sessionStorage.getItem('gsf.conversation-focus') ?? -1); } catch {}
+const early=conversations.map((x,i)=>x.featured?i:-1).filter(i=>i>=0);
+let index=Math.random()<.7&&early.length?early[Math.floor(Math.random()*early.length)]:Math.floor(Math.random()*conversations.length);
+let displayToken=0;
+if(index === previous) index=(index+1)%conversations.length;
+function show(){
+  const item=conversations[index];
+  document.querySelector('#latest-chat-title').textContent=item.title;
+  const token=++displayToken,date=document.querySelector('#conversation-start');date.textContent='Start date being checked';date.removeAttribute('datetime');
+  resolveStart(item).then(start=>{if(token!==displayToken)return;date.textContent=start?'Started '+new Intl.DateTimeFormat('en-US',{day:'numeric',month:'long',year:'numeric',timeZone:'America/New_York'}).format(new Date(start)):'Start date not recorded';if(start)date.dateTime=start});
+  document.querySelector('#conversation-position').textContent=`${index+1} of ${conversations.length}`;
+  document.querySelector('#conversation-read').href=conversationUrl(item);
+  try { sessionStorage.setItem('gsf.conversation-focus',String(index)); } catch {}
+}
+show();
+document.querySelector('#conversation-next').addEventListener('click',()=>{index=(index+1)%conversations.length;show()});
+
+setInterval(async()=>{if(!document.hidden){const current=conversations[index];conversations=(await loadConversations()).items;index=Math.max(0,conversations.findIndex(x=>x.repo===current.repo&&x.path===current.path));show()}},300000);

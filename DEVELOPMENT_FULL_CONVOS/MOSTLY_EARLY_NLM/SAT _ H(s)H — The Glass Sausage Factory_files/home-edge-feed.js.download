@@ -1,0 +1,31 @@
+(() => {
+  const state = document.querySelector('#edge-feed-state');
+  const url = 'https://raw.githubusercontent.com/Satobloc/HsH/main/WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json';
+  fetch(url, {cache:'no-cache'})
+    .then(response => {
+      if (!response.ok) throw new Error('Routing feed returned ' + response.status);
+      return response.json();
+    })
+    .then(data => {
+      const current = (data.signals || []).find(signal =>
+        signal.status === 'ACTIVE_OVERRIDE' && /Code Grurple/i.test(signal.title || '')
+      );
+      if (!current) {
+        state.className = 'edge-error';
+        state.textContent = 'Routing changed since this snapshot · check the current roster';
+        document.querySelector('#edge-state').textContent = 'Check current state';
+        return;
+      }
+      state.className = 'edge-updated';
+      state.textContent = 'Active routing confirmed · ' + current.signal_id;
+      document.querySelector('#edge-target').textContent = 'Code Grurple';
+      document.querySelector('#edge-state').textContent = 'Active priority override';
+      const date = document.querySelector('#edge-date');
+      date.dateTime = data.updated || '';
+      date.textContent = 'Routing feed updated · ' + (data.updated || 'date unavailable');
+    })
+    .catch(() => {
+      state.className = 'edge-error';
+      state.textContent = 'Live routing feed unavailable · showing the dated snapshot';
+    });
+})();
