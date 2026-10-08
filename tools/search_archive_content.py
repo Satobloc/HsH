@@ -54,6 +54,7 @@ class Hit:
  matched_terms:list[str];near_matches:list[dict[str,Any]];match_trace:list[str];topic_hits:list[str]
  chronology:dict[str,Any]=field(default_factory=dict);repository:str="";source_url:str=""
  passage_chronology:dict[str,Any]=field(default_factory=dict)
+ identical_file_sources:list[dict[str,str]]=field(default_factory=list)
 
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
@@ -375,7 +376,8 @@ def describe_capabilities()->dict[str,Any]:
      "archive_date","origin","date_confidence","document_type",
      "retrospective","date_mentioned","repo"],
    "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md"],
-   "result_modes":["records","files"],"sorts":["date","origin","author","title","path"],
+   "result_modes":["records","files"],"optional_collapse":"--collapse-identical-files (file mode only, byte SHA-256 identity)",
+   "sorts":["date","origin","author","title","path"],
    "cautions":["math normalization is not algebraic equivalence",
      "chronology/version estimates are not hard dates",
      "PRIOR_ART and QUARANTINE excluded by default",
@@ -400,6 +402,7 @@ def main()->int:
  ap.add_argument("--max-bytes",type=int,default=25_000_000);ap.add_argument("--excerpt-chars",type=int,default=500)
  ap.add_argument("--viewer-root",type=Path,default=Path("."));ap.add_argument("--limit",type=int,default=0)
  ap.add_argument("--offset",type=int,default=0,help="0-based offset after deterministic sorting")
+ ap.add_argument("--collapse-identical-files",action="store_true",help="group byte-identical files in file mode; retain all source locations in each representative")
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
  args=ap.parse_args()
  if args.capabilities:
@@ -481,6 +484,16 @@ def main()->int:
    for h in hits[hit_start:]:
     h.chronology=meta;h.repository=repository;h.source_url=url
  sort_hits(hits,args.sort,args.descending)
+ # Byte-identical sources may be collapsed on request, but each location remains
+ # visible in identical_file_sources. Similar titles or converted formats are
+ # NOT assumed to be the same work.
+ mirrors=defaultdict(dict)
+ for h in hits:
+  if h.source_sha256:
+   mirrors[h.source_sha256][h.repository+"|"+h.path]=dict(repository=h.repository,path=h.path,source_url=h.source_url)
+ for h in hits:
+  if h.source_sha256 and len(mirrors[h.source_sha256])>1:
+   h.identical_file_sources=sorted(mirrors[h.source_sha256].values(),key=lambda v:(v["repository"],v["path"]))
  raw_match_records=len(hits)
  if args.result_mode=="files":
   collapsed=[];seen_paths=set()
@@ -488,6 +501,14 @@ def main()->int:
    if h.path in seen_paths:continue
    seen_paths.add(h.path);collapsed.append(h)
   hits=collapsed
+ if args.collapse_identical_files:
+  if args.result_mode!="files":ap.error("--collapse-identical-files requires --result-mode files")
+  uniques=[];seen_sha=set()
+  for h in hits:
+   if h.source_sha256 and h.source_sha256 in seen_sha:continue
+   if h.source_sha256:seen_sha.add(h.source_sha256)
+   uniques.append(h)
+  hits=uniques
  result_total=len(hits)
  facets={
   "authors":Counter((h.speaker or h.role or "(unknown)") for h in hits),
@@ -513,7 +534,7 @@ def main()->int:
   "pagination":{"offset":args.offset,"limit":args.limit,"total_hits":result_total,"returned_hits":len(hits)},
   "generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
-  "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
+  "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"collapse_identical_files":args.collapse_identical_files,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
