@@ -331,6 +331,7 @@ EXAMPLES=[
  'python tools/search_archive_content.py --archives-root /work --coverage',
 ]
 def discover_archives(base:Path)->tuple[list[Path],list[str]]:
+ base=base.resolve()  # Path('.').parent is still '.', not its actual parent
  found=[];missing=[]
  for repo,names in ARCHIVE_ALIASES.items():
   hit=next((p for folder in (base,base.parent) for name in names
