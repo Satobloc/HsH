@@ -1,0 +1,45 @@
+BACK HALLWAYS
+This supersedes any contradictory use of the term “back hallway” or “hallway” elsewhere.
+
+got it — by “back hallways” you mean the explicit translation maps between the big frameworks (QM/QFT, GR/cosmology, condensed matter/EM, etc.) that SAT claims to unify.
+
+Here’s a tight way to test those translations, SAT-style:
+
+Back-Hallway Test Harness (concise plan)
+
+0) Objects.
+	•	Let P be SAT’s primitive parameter set (angles/overlaps/exponential ladder, etc.).
+	•	Each big theory T_i (e.g., QFT, GR, Cosmology) has a projection \pi_i: P \to \mathcal{O}_i taking SAT primitives to that theory’s observables.
+
+1) Define each hallway as a functorial map.
+A “back hallway” from T_i to T_j is the composition
+H_{i\to j} := \pi_j \circ \pi_i^{-1}
+restricted to the shared domain where \pi_i is invertible (or pseudo-inverse if many-to-one). In words: infer SAT primitives from theory i and re-emit predictions in theory j.
+
+2) Unit tests for a hallway H.
+	•	Round-trip consistency: \pi_i \approx \pi_i \circ \pi_j^{-1} \circ \pi_j (noisy identity).
+	•	Cross-prediction accuracy: Use data only from T_i to predict observables in T_j; score errors vs. current measurements.
+	•	Sensitivity & degeneracy: Vary each SAT primitive; chart which T_j observables move (Jacobian, condition number).
+	•	Robustness: Stress with uncertainty in T_i inputs; verify predictions in T_j remain within experimental tolerances.
+
+3) Minimal hallway kit (repeat per pair).
+	•	Inputs: A small, clean set of T_i observables (with uncertainties).
+	•	Inversion: Solve/fit for \hat P (MAP or least-squares with priors that respect SAT structure).
+	•	Forward map: Compute \pi_j(\hat P) and uncertainties (via linear error propagation or bootstrap).
+	•	Metrics: χ² / log-likelihood against T_j data; round-trip residuals; Shapley/gradient attributions to see which SAT primitives carry the translation.
+
+Concrete hallways to start with
+	1.	QFT → Cosmology (Particle ↔ Early-Universe):
+Use lepton/quark mass & mixing inputs → translate via SAT primitives → predict cosmology-facing quantities (e.g., neutrino mass sum, effective relativistic dof, any polarization-rotation angle if SAT links a pseudo-scalar). Score against CMB/LSS constraints.
+	2.	QFT → Atomic/Condensed (Low-energy precision):
+Infer SAT primitives from flavor data → predict magnetic moments, EDM scaling, or isotope-shift King-plot curvature patterns (if SAT prescribes them). Compare to precision-spectroscopy bounds.
+	3.	GR/Cosmology → QFT (Curvature ↔ Spectra):
+Start from late-time background parameters (e.g., \Omega set, H_0, any birefringence angle) → invert to \hat P → predict selected particle-sector ratios (mass ladders/mixings). This tests the reverse hallway.
+
+What I can do immediately
+	•	Stand up a lightweight Back-Hallway Test Harness (one notebook/script) with:
+	•	A clean interface for \pi_i and \pi_i^{-1} (placeholders where SAT gives closed forms; numerical solve otherwise).
+	•	Error propagation and χ² metrics.
+	•	Pluggable hallway definitions so we can add pairs quickly.
+
+If you want me to just pick one and go, I’ll start with QFT → Cosmology, since it’s the clearest “translation” (flavor inputs → neutrino-sector & polarization-rotation style outputs) and immediately falsifiable against external datasets.

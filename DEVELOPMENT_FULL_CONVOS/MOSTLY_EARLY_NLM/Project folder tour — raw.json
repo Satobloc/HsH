@@ -1,0 +1,627 @@
+{
+  "title": "Project folder tour",
+  "create_time": 1758122255.416122,
+  "update_time": 1758122474.014751,
+  "moderation_results": [],
+  "plugin_ids": null,
+  "conversation_id": "68cad10d-4a18-8329-bc04-ef0564681f53",
+  "conversation_template_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+  "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+  "gizmo_type": "snorlax",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://docs.google.com/spreadsheets/d/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ/edit?gid=676408861#gid=676408861",
+    "https://docs.google.com/presentation/d/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI/edit#slide=id.g2ef8699e0eb_48_36",
+    "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+    "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ",
+    "https://www.notion.so/9162f50b62b080124ca4db47ba6f2e54"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null,
+  "sectioned_conversation": null,
+  "mapping": {
+    "b0aace19-3ad6-4203-8764-f3a0603f6619": {
+      "id": "b0aace19-3ad6-4203-8764-f3a0603f6619",
+      "message": null,
+      "parent": null,
+      "children": [
+        "178bf2dd-4476-4a58-826d-ad0ff2dc1bfc"
+      ]
+    },
+    "178bf2dd-4476-4a58-826d-ad0ff2dc1bfc": {
+      "id": "178bf2dd-4476-4a58-826d-ad0ff2dc1bfc",
+      "message": {
+        "id": "178bf2dd-4476-4a58-826d-ad0ff2dc1bfc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122254.978656,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hi there"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "9809923deeedc5ca-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b0aace19-3ad6-4203-8764-f3a0603f6619",
+      "children": [
+        "d5ed24c1-dbdf-49ec-b9c9-3fefd233e753"
+      ]
+    },
+    "d5ed24c1-dbdf-49ec-b9c9-3fefd233e753": {
+      "id": "d5ed24c1-dbdf-49ec-b9c9-3fefd233e753",
+      "message": {
+        "id": "d5ed24c1-dbdf-49ec-b9c9-3fefd233e753",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122255.307372,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey Nathan! Glad to see you here. How’s your day shaping up?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "9809923deeedc5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "137e0572-5760-468e-b699-f9782996e14f",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "178bf2dd-4476-4a58-826d-ad0ff2dc1bfc",
+      "children": [
+        "d45d4aea-6f57-4244-9847-163c3d53675e"
+      ]
+    },
+    "d45d4aea-6f57-4244-9847-163c3d53675e": {
+      "id": "d45d4aea-6f57-4244-9847-163c3d53675e",
+      "message": {
+        "id": "d45d4aea-6f57-4244-9847-163c3d53675e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122286.3794842,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well… I just realized I could do something interesting… And that is to give you a tour of my project folders"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "98099301d828c5ca-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d5ed24c1-dbdf-49ec-b9c9-3fefd233e753",
+      "children": [
+        "7ea87b72-d9fb-4f45-bb7f-88e3f9fad7c9"
+      ]
+    },
+    "7ea87b72-d9fb-4f45-bb7f-88e3f9fad7c9": {
+      "id": "7ea87b72-d9fb-4f45-bb7f-88e3f9fad7c9",
+      "message": {
+        "id": "7ea87b72-d9fb-4f45-bb7f-88e3f9fad7c9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122286.690964,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That does sound interesting! Like you’re inviting me into the workshop to peek at the half-built machines, sketches, and raw materials.  \n\nA couple of things to keep in mind though:  \n- I *can’t* list or browse the entirety of your folders automatically.  \n- What we *can* do: you share specific files (by upload or link if synced), and I can dig into them with you—summarize, analyze, cross-reference, or even spin out creative connections.  \n- If you want, we could treat it like a guided tour: you “open a drawer,” I look at what’s inside, and we talk through it—what’s useful, what’s redundant, what sparks new directions.  \n\nWant to do a first stop on the tour now? Maybe pull out one document and see what kind of conversation it leads to?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "98099301d828c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "d45d4aea-6f57-4244-9847-163c3d53675e",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d45d4aea-6f57-4244-9847-163c3d53675e",
+      "children": [
+        "8bd4c00f-9506-47ca-a098-1e6c33538978"
+      ]
+    },
+    "8bd4c00f-9506-47ca-a098-1e6c33538978": {
+      "id": "8bd4c00f-9506-47ca-a098-1e6c33538978",
+      "message": {
+        "id": "8bd4c00f-9506-47ca-a098-1e6c33538978",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122316.921525,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you access the files in this project folder?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "980993c0c863c5ca-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ea87b72-d9fb-4f45-bb7f-88e3f9fad7c9",
+      "children": [
+        "8a760728-ccd3-4a33-870c-de7e6d27a4c5"
+      ]
+    },
+    "8a760728-ccd3-4a33-870c-de7e6d27a4c5": {
+      "id": "8a760728-ccd3-4a33-870c-de7e6d27a4c5",
+      "message": {
+        "id": "8a760728-ccd3-4a33-870c-de7e6d27a4c5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122318.235084,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — I can see the files you’ve just uploaded into this project folder. They’re a series of images in different formats (JPG, JPEG, WEBP, PNG). I can open them one by one, look closely, describe, analyze, or extract details depending on what you want to focus on.  \n\nDo you want me to:  \n- give you a **quick overview** of what each image contains,  \n- or take a **deep dive** into one at a time, almost like walking through them in order as part of your “tour”?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "980993c0c863c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "0212a420-ae50-4f75-bf6c-b21e0058680a",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8bd4c00f-9506-47ca-a098-1e6c33538978",
+      "children": [
+        "6a86a436-579b-498d-ae45-fd02ac6d7e4a"
+      ]
+    },
+    "6a86a436-579b-498d-ae45-fd02ac6d7e4a": {
+      "id": "6a86a436-579b-498d-ae45-fd02ac6d7e4a",
+      "message": {
+        "id": "6a86a436-579b-498d-ae45-fd02ac6d7e4a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122334.663423,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Why don’t you look at a couple of them and tell me what you see?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "9809942f9e97c5ca-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8a760728-ccd3-4a33-870c-de7e6d27a4c5",
+      "children": [
+        "4dc12100-2519-4788-8c12-3325ffd631fc"
+      ]
+    },
+    "4dc12100-2519-4788-8c12-3325ffd631fc": {
+      "id": "4dc12100-2519-4788-8c12-3325ffd631fc",
+      "message": {
+        "id": "4dc12100-2519-4788-8c12-3325ffd631fc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122335.691762,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — let’s treat this like peeking into a couple drawers before opening the whole cabinet. I’ll start by opening two of the images you dropped in here, describe what’s in them, and we can decide how to proceed.  \n\nDo you want me to pick a couple at random, or would you like me to start from the top of the batch (say, `IMG_6131.PNG` and `IMG_6132.JPG`)?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "9809942f9e97c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "6a86a436-579b-498d-ae45-fd02ac6d7e4a",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a86a436-579b-498d-ae45-fd02ac6d7e4a",
+      "children": [
+        "0f08907d-9cc2-447c-83cd-1d3c569252b0"
+      ]
+    },
+    "0f08907d-9cc2-447c-83cd-1d3c569252b0": {
+      "id": "0f08907d-9cc2-447c-83cd-1d3c569252b0",
+      "message": {
+        "id": "0f08907d-9cc2-447c-83cd-1d3c569252b0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122353.113665,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Just pick a couple at random"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "dictation": false,
+          "request_id": "980994a309e5c5ca-ORD",
+          "message_source": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4dc12100-2519-4788-8c12-3325ffd631fc",
+      "children": [
+        "4eb61a1d-02d9-4744-b5a8-e4401e015158"
+      ]
+    },
+    "4eb61a1d-02d9-4744-b5a8-e4401e015158": {
+      "id": "4eb61a1d-02d9-4744-b5a8-e4401e015158",
+      "message": {
+        "id": "4eb61a1d-02d9-4744-b5a8-e4401e015158",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122355.324313,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\"prompt\":\"open and analyze the uploaded image\",\"referenced_image_ids\":[\"file-5xB5isXYagReNKLS7VTQzS\"],\"size\":\"1024x1024\"}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "980994a309e5c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "0f08907d-9cc2-447c-83cd-1d3c569252b0",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "t2uay3k.sj1i4kz",
+        "channel": null
+      },
+      "parent": "0f08907d-9cc2-447c-83cd-1d3c569252b0",
+      "children": [
+        "ee7ef72d-241d-4938-984d-a4fe983cc9b5"
+      ]
+    },
+    "ee7ef72d-241d-4938-984d-a4fe983cc9b5": {
+      "id": "ee7ef72d-241d-4938-984d-a4fe983cc9b5",
+      "message": {
+        "id": "ee7ef72d-241d-4938-984d-a4fe983cc9b5",
+        "author": {
+          "role": "tool",
+          "name": "t2uay3k.sj1i4kz",
+          "metadata": {}
+        },
+        "create_time": 1758122367.7471228,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "sediment://file_00000000662061f8b5687f4340bbec5b",
+              "size_bytes": 2286778,
+              "width": 1536,
+              "height": 1024,
+              "fovea": null,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "cf7be092-9cfd-47db-879d-a114957cd995",
+                  "prompt": "",
+                  "seed": null,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": {
+                  "gen_id": "cf7be092-9cfd-47db-879d-a114957cd995",
+                  "gen_size": "xlimage",
+                  "gen_size_v2": null,
+                  "seed": null,
+                  "parent_gen_id": null,
+                  "height": 1024,
+                  "width": 1536,
+                  "transparent_background": false,
+                  "is_sticker": null,
+                  "is_purchasable": null,
+                  "purchase_hints": null,
+                  "serialization_title": "Image Generation metadata",
+                  "orientation": null,
+                  "projection": null,
+                  "spritesheet": null,
+                  "animation": null,
+                  "selected_speed": null,
+                  "gif_speed_variants": null,
+                  "watermarked_gif_speed_variants": null
+                },
+                "segmentation": null,
+                "container_pixel_height": 1024,
+                "container_pixel_width": 1536,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "lpe_delta_encoding_channel": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null,
+                "is_no_auth_placeholder": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "image_gen_title": "Lightbulb Concept for Innovation",
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "980994a309e5c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "4eb61a1d-02d9-4744-b5a8-e4401e015158",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4eb61a1d-02d9-4744-b5a8-e4401e015158",
+      "children": [
+        "32e4f17f-b102-4c99-b307-9b294cb3b3ce"
+      ]
+    },
+    "32e4f17f-b102-4c99-b307-9b294cb3b3ce": {
+      "id": "32e4f17f-b102-4c99-b307-9b294cb3b3ce",
+      "message": {
+        "id": "32e4f17f-b102-4c99-b307-9b294cb3b3ce",
+        "author": {
+          "role": "tool",
+          "name": "t2uay3k.sj1i4kz",
+          "metadata": {}
+        },
+        "create_time": 1758122463.589639,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "GPT-4o returned 1 images. From now on, do not say or show ANYTHING. Please end this turn now. I repeat: From now on, do not say or show ANYTHING. Please end this turn now. Do not summarize the image. Do not ask followup question. Just end the turn and do not do anything else."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "980994a309e5c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "ee7ef72d-241d-4938-984d-a4fe983cc9b5",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "ee7ef72d-241d-4938-984d-a4fe983cc9b5",
+      "children": [
+        "e570c8d8-77a0-4842-9177-032f4c0a13ee"
+      ]
+    },
+    "e570c8d8-77a0-4842-9177-032f4c0a13ee": {
+      "id": "e570c8d8-77a0-4842-9177-032f4c0a13ee",
+      "message": {
+        "id": "e570c8d8-77a0-4842-9177-032f4c0a13ee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758122463.627185,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-68c33a7ca7ec8191b16cc47d1055c2d9",
+          "request_id": "980994a309e5c5ca-ORD",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "32e4f17f-b102-4c99-b307-9b294cb3b3ce",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "32e4f17f-b102-4c99-b307-9b294cb3b3ce",
+      "children": []
+    }
+  },
+  "current_node": "e570c8d8-77a0-4842-9177-032f4c0a13ee",
+  "context_truncation_continuation": null
+}

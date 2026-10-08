@@ -1,0 +1,132 @@
+Got it. Here’s a HOW-TO guide written for a ChatGPT workflow: you can drop this into your project folder as a “use-note” so any instance knows exactly how to run and report on system_m0f.py.
+
+⸻
+
+Using system_m0f.py
+
+This script implements an examinable simulation system (M₀-F).
+It defines a filament walker with local fields (ψ, τ, θ), assembly memory, a self-model loop, and a Levin-style repair sheet.
+It outputs descriptive metrics, never pass/fail thresholds.
+
+⸻
+
+1. Ways to run it
+
+A. As a script (CLI)
+
+When called directly:
+
+python system_m0f.py
+
+…it will:
+	•	Run a demo set of protocols (baseline, control, jitter sweep, downward, history order, criticality sweep, assembly repair).
+	•	Save all run records in a timestamped JSONL file, e.g.:
+
+/mnt/data/system_m0f_runs_1694123456.jsonl
+
+
+	•	Each line is one run record in JSON.
+
+B. As a module (inside ChatGPT)
+
+Import and call protocol functions:
+
+import system_m0f as m
+
+# Run baseline
+rec = m.run_baseline(seed=42)
+
+# Compare to control
+ctrl = m.run_control(seed=42)
+
+# Sweep jitter
+sweep = m.run_jitter_sweep(sigmas=[0.0, 0.2, 0.4], seeds=[0,1,2])
+
+# Downward causation protocol
+drift = m.run_downward(seed=99)
+
+# Assembly/repair with ablations
+repairs = m.run_assembly_repair(ablate_fracs=[0.0, 0.25, 0.5], seed=7)
+
+
+⸻
+
+2. Inputs
+
+All knobs are defined in the Params dataclass:
+	•	L: lattice size (default 12).
+	•	steps: number of steps (default 2000).
+	•	beta: inverse temperature (softmax sharpness).
+	•	alpha1..alpha4: field/assembly weights.
+	•	eta: assembly learning rate.
+	•	gamma: memory-height increment factor.
+	•	lam: self-model update rate.
+	•	kappa, rho: repair sheet diffusion & attraction.
+	•	Vshape: shape of the repair grid (default 32×32).
+	•	seed: RNG seed.
+	•	jitter: noise strength (for jitter sweeps).
+	•	lesion_time_frac: when to lesion the repair grid.
+	•	inject_time_frac: when to nudge the self-model.
+	•	record_every: sampling interval for loopness.
+
+Use Params() to customize, or just rely on defaults.
+
+⸻
+
+3. Outputs
+
+Every run returns a Python dict. Main keys:
+	•	protocol: which protocol was run.
+	•	params: all parameters used (copied from Params).
+	•	control: whether this was a control run (no assembly/self-model).
+	•	loopness: recurrence frequency of the walker.
+	•	assembly_depth: number of distinct 2-move motifs seen.
+	•	repair_IoU: similarity between repaired sheet and target after lesion.
+	•	policy_TV, policy_KL: drift of move distributions before vs. after mid-run injection.
+	•	MI_proxy: crude mutual information proxy between past and next moves.
+	•	anisotropy: unevenness of directional counts.
+	•	Sigma_final: final self-model vector.
+
+When saved as JSONL, each line is one such dictionary.
+
+⸻
+
+4. How to interpret metrics
+	•	Loopness: high values = recurrent paths; low = open wandering.
+	•	Assembly depth: how rich the walker’s path motifs are.
+	•	Repair IoU: how well the damaged repair sheet returned to target.
+	•	Policy drift (TV/KL): how strongly the injected self-model shifted moves.
+	•	MI proxy: whether history leaks into next-step predictions.
+	•	Anisotropy: whether exploration is evenly spread or direction-biased.
+	•	Sigma final: where the self-model ended up (goal/style/error).
+
+⸻
+
+5. Recommended workflows in ChatGPT
+	1.	Baseline vs Control
+Run both with same seed; compare metrics (especially assembly depth, MI proxy, repair IoU).
+	2.	Jitter sweep
+Run with different jitter values; plot MI proxy vs. jitter for model vs. control.
+	3.	Downward causation
+Inspect policy_TV/KL values to describe how strong and persistent drift is after the Σ nudge.
+	4.	Assembly repair
+Ablate fractions of assembly weights and compare repair IoU curves.
+	5.	History order
+Run the two order variants; compare anisotropy and loopness.
+	6.	Criticality sweep
+Sweep β; plot loopness, MI proxy, entropy; look for co-elevation regions.
+
+⸻
+
+6. Style of reporting (for ChatGPT)
+	•	Always show plots or tables; no binary judgments.
+	•	Compare model vs. control, or across conditions.
+	•	Use descriptive language:
+	•	“Loopness climbed steadily through the run, with MI proxy staying above control across all jitter levels.”
+	•	“Policy drift peaked mid-run, then decayed within ~500 steps.”
+	•	“Repair IoU recovered robustly after lesions, even with 25% ablation.”
+	•	Highlight patterns, gaps, co-elevations, not thresholds.
+
+⸻
+
+Would you like me to also draft a ready-to-paste METHODS.md companion file that describes this usage in a standardized, paper-like format (sections: Inputs, Protocols, Metrics, Reporting)?
