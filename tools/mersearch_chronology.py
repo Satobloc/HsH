@@ -125,6 +125,13 @@ class Chronology:
   warnings=[]
   if archived and start and archived<start:warnings.append("archive date precedes inferred origin")
   if dtype=="retrospective-or-compilation" and mentioned:warnings.append("historical compilation; version mentions may span eras")
+  for v in mentioned:
+   if archived and archived<v["era_start"]:
+    warnings.append("designation "+v["name"]+" is provisionally later than archive path date; inspect possible edits")
+  transition_possible=len(active)>1 and any(
+   max(a["era_start"],b["era_start"])<=min(a["era_end"],b["era_end"])
+   for i,a in enumerate(active) for b in active[i+1:])
+  mixed_nonoverlap=len(active)>1 and not transition_possible
   return dict(document_type=dtype,archive_date=archived,
    dates_mentioned=sorted(self.dates),
    earliest_date_mentioned=min(self.dates) if self.dates else "",
@@ -138,5 +145,7 @@ class Chronology:
    latest_version_active=active[-1]["name"] if active else "",
    version_evidence=mentioned,estimated_origin_start=start,estimated_origin_end=end,
    date_confidence=confidence,era_labels=eras(start,end),
+   version_transition_possible=transition_possible,
+   mixed_era_compilation_possible=mixed_nonoverlap or dtype=="retrospective-or-compilation",
    retrospective_possible=self.retrospective or dtype=="retrospective-or-compilation",
    warnings=warnings,date_evidence=self.evidence)
