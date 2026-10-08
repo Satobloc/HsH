@@ -26,6 +26,13 @@ VERSIONS = [
 RULES = [(n,re.compile(p,re.I),lo,hi) for n,p,lo,hi in VERSIONS]
 ISO_DATE = re.compile(r"(?<!\d)((?:19|20)\d\d)[-/]([01]?\d)[-/]([0-3]?\d)(?!\d)")
 US_DATE = re.compile(r"(?<!\d)([01]?\d)[-_]([0-3]?\d)[-_]((?:19|20)\d\d)(?!\d)")
+MONTH_NAMES={name.lower():i for i,name in enumerate(
+ "January February March April May June July August September October November December".split(),1)}
+MONTH_TEXT=re.compile(
+ r"\b(January|February|March|April|May|June|July|August|September|October|November|December)"
+ r"\s+([0-3]?\d)(?:st|nd|rd|th)?,?\s+((?:19|20)\d\d)\b",re.I)
+COMPACT_PATH=re.compile(r"(?<!\d)([0-3]?\d)(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)((?:19|20)?\d\d)(?!\d)",re.I)
+MONTH_SHORT={name[:3].lower():number for name,number in MONTH_NAMES.items()}
 RETRO = re.compile(r"\b(previously|earlier|historical|history|timeline|roundup|retrospective|originally|renamed|back in|used to call)\b",re.I)
 COMPILATION = re.compile(r"history|roundup|timeline|versioning|compilation|archive[_ -]?index",re.I)
 
@@ -40,6 +47,10 @@ def archive_date(path):
   for m in US_DATE.finditer(part):
    a,b,c=m.groups()
    if valid(c,a,b):return valid(c,a,b)
+  for m in COMPACT_PATH.finditer(part):
+   d,mon,y=m.groups()
+   if len(y)==2:y="20"+y if int(y)<70 else "19"+y
+   if valid(y,MONTH_SHORT[mon.lower()],d):return valid(y,MONTH_SHORT[mon.lower()],d)
  return ""
 
 def message_date(timestamp):
@@ -82,6 +93,14 @@ class Chronology:
   retro=bool(RETRO.search(text));self.retrospective |= retro
   for m in ISO_DATE.finditer(text):
    d=valid(*m.groups())
+   if d:self.dates.add(d);self.mark("date_mentioned",d,locator,text[max(0,m.start()-36):m.end()+36])
+  for m in US_DATE.finditer(text):
+   month,day,year=m.groups()
+   d=valid(year,month,day)
+   if d:self.dates.add(d);self.mark("date_mentioned",d,locator,text[max(0,m.start()-36):m.end()+36])
+  for m in MONTH_TEXT.finditer(text):
+   month,day,year=m.groups()
+   d=valid(year,MONTH_NAMES[month.lower()],day)
    if d:self.dates.add(d);self.mark("date_mentioned",d,locator,text[max(0,m.start()-36):m.end()+36])
   for name,pat,lo,hi in RULES:
    for m in pat.finditer(text):
