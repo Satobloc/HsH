@@ -272,20 +272,28 @@ def evaluate(rec:Record,query:str,default_near:int)->Eval:
   st.append(term_eval(rec,tok))
  if len(st)!=1:raise ValueError("invalid query expression")
  return st[0]
-def permitted(roots:list[Path],ex:set[str],max_bytes:int)->Iterable[Path]:
+def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None=None)->Iterable[Path]:
+ """Inventory exclusions are counted, not silently treated as full coverage."""
+ stats=scan_stats if scan_stats is not None else Counter()
  seen=set()
  for root in roots:
   cand=[root] if root.is_file() else root.rglob("*")
   for p in cand:
    if not p.is_file():continue
    try:key=p.resolve()
-   except:key=p
-   if key in seen:continue
+   except OSError:key=p
+   if key in seen:stats["duplicate_paths"]+=1;continue
    seen.add(key)
-   if any(x in ex for x in p.parts) or p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:continue
+   if any(x in ex for x in p.parts):stats["excluded_by_policy"]+=1;continue
+   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:stats["unsupported_extension"]+=1;continue
    try:
-    if p.stat().st_size>max_bytes:continue
-   except:continue
+    if max_bytes and p.stat().st_size>max_bytes:
+     stats["oversized_files_skipped"]+=1
+     continue
+   except OSError:
+    stats["inaccessible_files_skipped"]+=1
+    continue
+   stats["eligible_files"]+=1
    yield p
 def sha(path:Path,cache:dict[str,str])->str:
  k=str(path)
@@ -407,9 +415,9 @@ def main()->int:
   elif isinstance(row,dict):
    name=norm(row.get("topic") or row.get("name"));aliases=[name]+[norm(x) for x in row.get("aliases",[]) if norm(x)]
    if name:topics.append((name,list(dict.fromkeys(aliases))))
- viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter()
+ viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter()
  authors={x.casefold() for x in args.author};roles={x.casefold() for x in args.role}
- for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes):
+ for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats):
   files+=1
   try:rel=path.relative_to(args.viewer_root).as_posix()
   except:rel=path.as_posix()
@@ -479,12 +487,14 @@ def main()->int:
   "archives_searched":coverage_repos,
   "missing_archives":missing_repos,
   "coverage_status":coverage_status,
+  "inventory_limitations":dict(scan_stats),
+  "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
   "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
   "pagination":{"offset":args.offset,"limit":args.limit,"total_hits":result_total,"returned_hits":len(hits)},
   "generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
   "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
-  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits)},"facets":facet_json,
+  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
@@ -501,6 +511,7 @@ def main()->int:
  lines=[f"# {TOOL_NAME} Results","",f"Generated: {generated}",f"Query: `{query}`",
   f"Coverage: {coverage_status.upper()}: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",
  f"Archives: searched={', '.join(coverage_repos)}; missing={', '.join(missing_repos) or 'none'}.",
+ f"Unindexed (policy/extension/size/access): {sum(scan_stats[x] for x in ('excluded_by_policy','unsupported_extension','oversized_files_skipped','inaccessible_files_skipped')):,} files. Root coverage does not imply complete indexing.",
   f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
   "Status labels are lexical retrieval signals only; they do not establish supersession or authority.",""]
  last=None
