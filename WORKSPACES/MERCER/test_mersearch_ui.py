@@ -46,6 +46,35 @@ class PolicyTests(unittest.TestCase):
             local=ui.SearchService("research",home)
             self.assertIn("Satobloc/HSH_RESOURCES",local.repositories)
 
+    def test_real_engine_public_search_excludes_private_sources(self):
+        # Runs the actual search executable against a small three-repo fixture.
+        # Patch only the known installation root, never HTTP request parameters.
+        with tempfile.TemporaryDirectory() as d:
+            home=Path(d)
+            sat=home/"SAT_THEORY_ARCHIVE_2023-25"
+            hsh=home/"HsH"
+            resources=home/"HSH_RESOURCES"
+            for folder in (sat,hsh,resources):folder.mkdir()
+            (sat/"phase.txt").write_text("SAT Mark V optical phase shift 0.24",encoding="utf-8")
+            (hsh/"README.md").write_text("Public research note: 0.24",encoding="utf-8")
+            (hsh/"WORKSPACES"/"PRIVATE").mkdir(parents=True)
+            (hsh/"WORKSPACES"/"PRIVATE"/"secret.txt").write_text("Hidden 0.24",encoding="utf-8")
+            (resources/"secret.txt").write_text("Private calculation 0.24",encoding="utf-8")
+            previous=ui.REPO
+            try:
+                ui.REPO=hsh
+                service=ui.SearchService("public",home)
+                data=service.search({"expr":'"0.24"',"limit":20})
+                self.assertEqual(data["pagination"]["total_hits"],2)
+                self.assertEqual(len(data["hits"]),2)
+                self.assertTrue(all("secret.txt" not in hit["path"] for hit in data["hits"]))
+                self.assertEqual(set(hit["repository"] for hit in data["hits"]),
+                    {"Satobloc/SAT_THEORY_ARCHIVE_2023-25","Satobloc/HsH"})
+                self.assertTrue(all("github.com/Satobloc/" in hit["source_url"] for hit in data["hits"]))
+                self.assertTrue(any(hit["source_url"].endswith("/README.md") for hit in data["hits"]))
+            finally:
+                ui.REPO=previous
+
     def test_cached_pagination_and_provenance(self):
         with tempfile.TemporaryDirectory() as d:
             service=ui.SearchService("research",Path(d))
