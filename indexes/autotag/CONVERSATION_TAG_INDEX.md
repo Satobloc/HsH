@@ -2,9 +2,9 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 1096
+- JSON files scanned: 1098
 - conversation exports recognized: 715
-- non-conversation JSON skipped: 379
+- non-conversation JSON skipped: 381
 - parse errors: 2
 - structural-index gap candidates: 174
 
