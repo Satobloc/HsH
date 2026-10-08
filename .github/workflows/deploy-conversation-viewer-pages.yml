@@ -8,6 +8,7 @@ on:
       - 'CONVERSATION_VIEWER/index.html'
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.css'
+      - 'CONVERSATION_VIEWER/mersearch/**'
       - 'CONVERSATION_VIEWER/data/**'
       - 'tools/build_conversation_viewer.py'
       - 'indexes/manifests/development-conversation-dates.json'
