@@ -178,6 +178,23 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if ":" not in term:return None
  field,val=term.split(":",1);field=field.casefold();val=unquote(val).casefold()
  p=Path(rec.path);ext=p.suffix.casefold().lstrip(".");name=p.name.casefold()
+ if field in ("era","version","archive_date","origin","date_confidence","document_type","retrospective","date_mentioned","repo","repository"):
+  meta=rec.chronology or {}
+  if field=="era":target=" ".join(meta.get("era_labels",[]))
+  elif field=="version":target=" ".join(v["name"] for v in meta.get("version_evidence",[]))
+  elif field=="archive_date":target=meta.get("archive_date","")
+  elif field=="origin":target=meta.get("estimated_origin_start","")
+  elif field=="date_mentioned":target=" ".join(x for x in (meta.get("earliest_date_mentioned",""),meta.get("latest_date_mentioned","")) if x)
+  elif field=="date_confidence":target=meta.get("date_confidence","")
+  elif field=="document_type":target=meta.get("document_type","")
+  elif field=="retrospective":target=str(meta.get("retrospective_possible",False)).lower()
+  else:target=rec.repository
+  target=target.casefold()
+  if field in ("archive_date","origin") and ".." in val:
+   lo,hi=val.split("..",1)
+   ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
+  else:ok=bool(target) and val in target
+  return Eval(ok,[],[term] if ok else [],[f"CHRONOLOGY FIELD {field}:{val!r} => {ok}"],[])
  if field=="body":
   pos=phrase_positions(rec.text,val);ok=bool(pos)
   return Eval(ok,pos,[term] if ok else [],[f"FIELD body:{val!r} => {len(pos)} occurrence(s)"],[])
@@ -202,7 +219,7 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if field not in fmap:return None
  target=(fmap[field] or "").casefold()
  if field=="date" and ".." in val:
-  lo,hi=val.split("..",1);ok=(not lo or target>=lo) and (not hi or target<=hi)
+  lo,hi=val.split("..",1);ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
  else:ok=val in target
  return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
 def term_eval(rec:Record,term:str)->Eval:
