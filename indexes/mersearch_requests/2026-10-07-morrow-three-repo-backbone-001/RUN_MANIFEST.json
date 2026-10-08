@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-07-morrow-three-repo-backbone-001",
+  "query": "(\"SAT4D_MATHEMATICAL_BACKBONE\" OR \"SATO-BLOCK\" OR \"superhelical\" OR \"Universal Indicatrix\" OR \"Projection Constant\" OR \"Chronostructure\")",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "b33eddb21f3469848c77c4a62019fa9d18f3a528",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "53ce91fe34030db836413c66aab80a33426d0e4b",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "c4ca3aac4cd7065eef69114bb68e7601454a8d7d0a5d508a722dd006ba981f84",
+    "SEARCH_RESULTS.md": "77f0cbae9147d47c74fffee762f0289fa19ae28e4ae65997db337767e959e09e"
+  }
+}
