@@ -1,0 +1,48 @@
+name: Mersearch Human Interface Acceptance
+
+on:
+  push:
+    branches: [mersearch-chronology-20261007]
+    paths:
+      - 'CONVERSATION_VIEWER/mersearch/**'
+      - 'tools/serve_mersearch_ui.py'
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - '.github/workflows/mersearch-ui-dev.yml'
+  pull_request:
+    paths:
+      - 'CONVERSATION_VIEWER/mersearch/**'
+      - 'tools/serve_mersearch_ui.py'
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - '.github/workflows/mersearch-ui-dev.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  interface:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /CONVERSATION_VIEWER/mersearch/
+            /tools/serve_mersearch_ui.py
+            /tools/search_archive_content.py
+            /tools/mersearch_chronology.py
+            /WORKSPACES/MERCER/test_mersearch_ui.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python syntax
+        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py
+      - name: Validate browser JavaScript syntax
+        run: node --check CONVERSATION_VIEWER/mersearch/mersearch.js
+      - name: Exercise public allowlist, local API and import-facing shell
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_ui.py' -v
