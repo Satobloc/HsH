@@ -351,6 +351,15 @@ def repo_for(path:Path,roots:list[Path])->str:
 def describe_capabilities()->dict[str,Any]:
  return {"tool":TOOL_NAME,"version":TOOL_VERSION,
    "help":"python tools/search_archive_content.py --help",
+   "tool_surfaces":{
+     "cli":"tools/search_archive_content.py (this interface; all archives when discovered)",
+     "chronology":"tools/mersearch_chronology.py (integrated evidence enrichment)",
+     "request_bridge":"WORKSPACES/COMMON/MERSEARCH_REQUEST.json + .github/workflows/mersearch-request-bridge.yml (connector-only workers; stable semantics until engine promotion)",
+     "viewer":"CONVERSATION_VIEWER/ (navigation; do not assume identical search semantics)",
+     "legacy_test":"WORKSPACES/MERCER/test_mercer_searcher_1_0.py",
+     "chronology_test":"WORKSPACES/MERCER/test_mersearch_chronology_20261007.py",
+     "release_registry":"WORKSPACES/COMMON/MERSEARCH_RELEASES.md"
+   },
    "examples":EXAMPLES,
    "archives_default":list(ARCHIVE_ALIASES),
    "archives_policy":"All discoverable archives searched by default; missing ones always reported.",
@@ -369,7 +378,7 @@ def describe_capabilities()->dict[str,Any]:
      "no semantic/vector or CAS retrieval in this development version"]}
 
 def main()->int:
- ap=argparse.ArgumentParser(description=__doc__)
+ ap=argparse.ArgumentParser(description=__doc__,epilog="Start with --capabilities or --examples. By default Mersearch looks for ALL THREE archives and warns if any are absent.")
  ap.add_argument("roots",nargs="*",type=Path,help="optional explicit corpus roots; absent means ALL discovered archives");ap.add_argument("--expr",help="Boolean/NEAR expression")
  ap.add_argument("--archives-root",type=Path,default=Path("."),help="parent directory containing the three SAT/HsH archive checkouts")
  ap.add_argument("--capabilities",action="store_true",help="print machine-readable commands, fields, modes, defaults and examples")
