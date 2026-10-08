@@ -1,0 +1,151 @@
+
+SAT — Route C: Lattice Holonomy UV Completion (Standalone Spec)
+================================================================
+
+Goal
+----
+Define SAT as a microscopic, manifestly UV-finite 4D theory on a lattice where:
+• Holonomy and compactness are exact (θ is a compact angle; loop windings are integers).
+• The time-flow field u^μ remains unit-timelike at every site (constraint enforced exactly).
+• Gravity is realized as teleparallel/Regge holonomies; diffeomorphism/Lorentz symmetry emerge in the IR.
+• The continuum SAT L_min is recovered by tuning to a critical surface (ξ/a → ∞).
+
+Lattice Geometry
+----------------
+Choice C1 (minimal, fast to implement): 4D hypercubic lattice Λ = a⋅Z^4 with spacing a, size (N_t × N_x × N_y × N_z).
+Choice C2 (geometric): 4D simplicial (Regge) triangulation; hinges are 2-simplices; deficit angles encode curvature.
+
+We start with C1 and keep C2 as a cross-check path once C1 is working.
+
+Field Content and Domains
+-------------------------
+• θ_x ∈ (−π, π] at sites x ∈ Λ  (compact scalar, supports topological defects).
+• u_x^μ at sites with Minkowski norm u_x·u_x = g_{μν} u_x^μ u_x^ν = −1 and u_x^0 > 0 (unit timelike, enforced by projection).
+• Tetrad/frame e^a_μ(x) in Weitzenböck gauge (teleparallel): put on links or at sites with forward differences; spin connection set to zero.
+  - Discrete torsion on a plaquette (x, μν):  T^a_{μν}(x) = Δ_μ e^a_ν(x) − Δ_ν e^a_μ(x),  with Δ_μ f(x) = f(x+μ̂) − f(x).
+• Metric: g_{μν}(x) = η_{ab} e^a_μ(x) e^b_ν(x) (used locally for index moves).
+
+Discrete Actions
+----------------
+Let Σ_x sum over sites; Σ_{x,μ} sum over directed links; Σ_{x,μ<ν} over plaquettes.
+
+(1) θ-sector (compact XY + cosine potential):
+  S_θ = −K_θ Σ_{x,μ} cos(θ_{x+μ̂} − θ_x) + Σ_x a^4 μ^4 [1 − cos θ_x].
+  • In the small-angle, small-a limit: K_θ ≈ a^2 f^2 / 2 and m_θ^2 = μ^4 / f^2.
+
+(2) u-sector (elastic strain of the congruence):
+  S_u = (ρ/2) Σ_{x,μ,ν} a^2 [Δ_μ u_{x,ν}]^2  with post-update projection u_x ← Proj_timelike(u_x).
+  • Optional shear/expansion/vorticity split if needed (same continuum limit).
+
+(3) Gravity sector — teleparallel (TEGR) on the lattice (pure tetrad):
+  Define lattice torsion:
+    T^a_{μν}(x) = Δ_μ e^a_ν(x) − Δ_ν e^a_μ(x).
+  Define discrete torsion vector: T_μ(x) = T^ν_{νμ}(x) with local index moves via η_{ab} and g_{μν}(x).
+  Lattice TEGR scalar at x:
+    T_lat(x) = 1/4 T^a_{μν} T_a^{μν} + 1/2 T^a_{μν} T^{νμ}_a − T_μ T^μ   (discrete contractions at x).
+  Action:
+    S_g = (M_P^2/2) Σ_x a^4 T_lat(x).
+  Remark: This is a standard teleparallel discretization; C2/Regge alternative uses S_g^Regge = M_P^2 Σ_h A_h ε_h.
+
+(4) Intrinsic mixings (single-medium nonlinearity), discretized locally:
+  S_mix = (α1/M_*^2) Σ_x [(Δ u)^2]_x [(Δ θ)^2]_x
+        + (α2/M_*^2) Σ_{x,μ,ν} [Δ_μ u_{x,ν}] [Δ_μ θ_x] [Δ_ν θ_x]
+        + (β/M_*^2) Σ_x (Δ θ)^4_x
+  where (Δ θ)^2_x ≡ Σ_μ (θ_{x+μ̂} − θ_x)^2 / a^2 and (Δ u)^2_x ≡ Σ_{μ,ν} (u_{x+μ̂,ν} − u_{x,ν})^2 / a^2.
+
+Total action:
+  S_tot = S_g + S_u + S_θ + S_mix.
+
+Partition Function
+------------------
+Z = ∫ [De] [Du] [Dθ]  exp{ − S_tot / ħ_eff,latt }   with
+• θ integrated over (−π,π] at each site;
+• u integrated over R^4 at each site followed by exact projection to u·u = −1, u^0 > 0;
+• e integrated over frame components (with mild gauge fixing, e.g., time-gauge e^0_i=0 if desired).
+
+Exact Holonomy / Topology
+-------------------------
+• θ-holonomy on a closed loop C:  U[C] = exp(i Σ_{links∈C} (θ_{x+μ̂} − θ_x)) = exp(i 2π N_C), N_C ∈ Z (exact on the lattice).
+• Gravity/tetrad holonomy (teleparallel): parallel transport around a plaquette is encoded by torsion T^a_{μν}; in the Regge variant it is the deficit angle ε_h at hinge h.
+• Loop–flux algebra for θ is exact: U[C] Π[Σ] = exp(i ħ_eff I(C,Σ)) Π[Σ] U[C], with intersection number I(C,Σ) computed combinatorially.
+
+Update Algorithms (Monte Carlo / HMC)
+-------------------------------------
+Recommended hybrid scheme per sweep:
+1) θ-update (compact variable):
+   • Metropolis or heat-bath on each site: propose θ_x' = θ_x + δ, δ ∈ (−δ_max, δ_max), accept with min{1, e^{−ΔS/ħ_eff,latt}}.
+   • Overrelaxation (microcanonical) steps to reduce critical slowing down.
+
+2) u-update (constrained vector field):
+   • Momentum-assisted (HMC-lite): propose u_x' = u_x + ε ξ_x with ξ Gaussian, compute ΔS, accept/reject; then PROJECT: u_x' ← Proj_timelike(u_x'), i.e., normalize to g(u,u)=−1 and flip sign to ensure u^0>0.
+
+3) e/tetrad update (gravity):
+   • Local Gaussian proposals for e^a_μ(x) with mild gauge-fixing; accept/reject using ΔS from S_g + affected terms.
+   • (Alternative C2/Regge): edge lengths squared ℓ^2 updated with triangle inequalities enforced, deficit angles ε_h computed per hinge.
+
+4) Constraint maintenance and stability:
+   • After each sweep, enforce u·u=−1 at machine precision.
+   • Monitor T_lat(x) and action densities to detect runaway modes; tune proposal widths for ~50% acceptance.
+
+Observables and Matching
+------------------------
+Continuum matching strategy: measure lattice observables; fit to continuum predictions of L_min to extract renormalized couplings {M_P^R, ρ_R, f_R, μ_R, α1_R, α2_R, β_R}.
+
+Key observables:
+• Two-point function G_θ(r) = ⟨θ(x) θ(x+r)⟩ and small-k dispersion ω_k^2 = c_θ^2 k^2 + m_θ^2 → get f_R, m_θ (with m_θ^2 = μ_R^4 / f_R^2).
+• Kink (domain wall) tension σ via interface free-energy difference; check σ ≈ 8 f_R^2 m_θ (sine-Gordon limit).
+• Long-wave (u) elastic modulus from correlators of u and response to homogeneous twist → ρ_R and mode speed c_u.
+• Gravitational sector: measure linearized graviton dispersion (TT correlator) and effective Newton coupling from lattice Poisson problem; in Regge variant, check A_h ε_h scaling.
+• Holonomy: distribution of integer windings N_C and their scaling with loop size; verify exact integer values (sanity check).
+
+Continuum Limit & UV Completeness
+---------------------------------
+• Tune bare couplings {K_θ, ρ, μ, M_P, α1, α2, β} along a critical trajectory where the correlation length ξ/a → ∞ (measured from G_θ or u-correlators).
+• Finite-size scaling: verify universal exponents (where applicable) and restoration of 4D rotational/Lorentz symmetry in IR (mode speeds isotropic, light-cone alignment).
+• Ward checks: approximate lattice diffeomorphism/energy-momentum conservation (numerical identities) tighten as a → 0.
+• UV completeness criteria (pass/fail):
+  1) All energy densities remain finite as a → 0 when expressed in renormalized units.
+  2) No unphysical poles in measured propagators (unitarity proxy).
+  3) Universal continuum couplings (M_P^R, etc.) stabilize under a→0 extrapolation (predictive continuum).
+
+Minimal Parameterization (bare → renormalized hints)
+----------------------------------------------------
+• K_θ ≈ (a^2 f_R^2)/2 (tree-level); calibrate f_R and m_θ from θ-dispersion.
+• ρ ≈ ρ_R (up to Z_u); obtain from u-mode dispersion.
+• M_P from static potential or TT correlator normalization.
+• α1, α2, β small; extract from controlled mixing observables (e.g., θ response to imposed u strain).
+
+Practical Run Plan (prototype)
+------------------------------
+1) Start with gravity OFF (S_g=0), test θ+u system: map phase diagram, measure σ, ω_k, c_u; validate holonomy integer checks.
+2) Switch on S_g with small fluctuations (near-flat frames), re-measure dispersions and check GR-limit behavior (graviton speed≈1).
+3) Add mixings (α1, α2, β) one at a time; quantify GW→θ pumping in a driven setup (imposed long-wave u-pattern, measure θ power growth).
+4) Scaling study: a ∈ {a0, a0/2, a0/4}, volumes scaled so L/ξ ≥ 8; extract renormalized couplings; check stability of extrapolation.
+5) Cross-check (C2 Regge): run a small triangulation with Regge S_g; compare renormalized couplings and IR spectra.
+
+Code-Lock Hints
+---------------
+• Data structures: ndarray for θ (float), u (4-vector), e (4×4 per site). Use NumPy or JAX for vectorization; C++/CUDA for speed later.
+• Deterministic tests: build unit loops and verify U[C] = exp(i Σ Δθ) = 1 when no defects; seed a single kink sheet and get U[C] = e^{i 2π}.
+• Projection utility: Proj_timelike(v) ≡ normalize v by √(−g(v,v)) and flip sign if v^0<0.
+• Profiling: track acceptance rates, autocorrelation times, ξ extraction with standard binning/Γ-method.
+
+Deliverables
+------------
+• RouteC_Config.txt — lattice size, a, bare couplings, seeds.
+• RouteC_Observables.csv — measured spectra, tensions, holonomy stats (per run).
+• RouteC_Scaling.pdf — plots of renormalized couplings vs a → 0.
+• RouteC_Readme.md — run instructions and sanity checks.
+
+Success Conditions (Route C accepted)
+------------------------------------
+• Exact integer holonomies at all a (θ loop test passes).
+• Stable, finite renormalized couplings as a → 0 with consistent IR spectra (GR + compact θ + elastic u).
+• No signal of ghosts or lattice instabilities; mode speeds physical and isotropic in the IR.
+• GW→θ transfer visible when mixings on, vanishing as α’s → 0.
+• Consistency with continuum SAT L_min within statistical errors.
+
+Notes
+-----
+• If TEGR discretization proves noisy, switch gravity to Regge (C2) for clean deficit-angle control, then translate back to teleparallel in the continuum fit.
+• The lattice definition is the UV completion; FRG (Route A) and soft form factors (Route B) are optional cross-checks/continuum regulators.

@@ -1,0 +1,74 @@
+IDEALIZED QM SECTOR
+
+Activator Modes: Rapid Synthesis • Deep Derivation • Code-Lock • Predictions • Experiment Planner
+
+Here’s a minimal, holonomy-generated QM sector for SAT that you can drop straight into the build. I’m giving you (A) a clean, readable specification right here (no LaTeX markup required to read), and (B) a fully-typeset LaTeX handout you can download.
+
+⸻
+
+A) Minimal SAT–QM (holonomy version): spec you can read now
+
+Kinematics (single medium).
+Fields: metric g_{\mu\nu}, unit time-flow u^\mu with u^\mu u_\mu=-1, compact phase \theta\equiv\theta+2\pi.
+For the minimal QM sector, treat g_{\mu\nu},u^\mu as fixed background (semiclassical) and quantize (\theta,\pi_\theta).
+
+Canonical variables and commutator.
+Canonical momentum: \pi_\theta = \sqrt{-g}\,f^2\,g^{0\nu}\partial_\nu \theta.
+Equal-time commutator:
+[\hat\theta(t,\mathbf x),\hat\pi_\theta(t,\mathbf y)] = i\,\hbar_{\text{eff}}\,\delta^{(3)}(\mathbf x-\mathbf y).
+(\hbar_{\text{eff}} is an emergent medium constant to be fixed by SAT microphysics; keep explicit.)
+
+Holonomy & flux operators (topology drives discreteness).
+For a closed loop C and an oriented surface \Sigma,
+	•	Phase holonomy: \hat U[C] := \exp(i\oint_C d\hat\theta).
+	•	Momentum flux: \hat\Pi[\Sigma] := \int_\Sigma \hat\pi_\theta\, n_i\, d\Sigma^i.
+
+In the presence of \theta-defects, the loop integral detects an integer winding N(C)=(2\pi)^{-1}\oint_C d\theta\in\mathbb Z. The basic loop–flux algebra is
+\hat U[C]\;\hat\Pi[\Sigma] \;=\; e^{\,i\,\hbar_{\text{eff}}\,I(C,\Sigma)}\;\hat\Pi[\Sigma]\;\hat U[C],
+with I(C,\Sigma)\in\mathbb Z the oriented intersection number.
+→ This is the minimal holonomy-generated quantization: integers from topology + a single \hbar_{\text{eff}}.
+
+Hilbert space (kinematical → physical).
+In a finite region, choose basis loops \{C_b\} and surfaces \{\Sigma_a\}.
+	•	Kinematical space: direct sum over topological sectors,
+\mathcal H_{\text{kin}}=\bigoplus_{\mathbf N\in\mathbb Z^{b_1}} \mathcal H_{\mathbf N},\qquad
+\hat U[C_b]\ket{\mathbf N,\psi}=e^{i\,2\pi N_b}\ket{\mathbf N,\psi}.
+Within \mathcal H_{\mathbf N}, states are periodic functionals \psi[\theta] or (equivalently) functionals of the fluxes (GNS of the loop–flux algebra).
+	•	Physical space: impose diffeomorphism invariance (group averaging). The u^\mu unit-constraint is already solved by the background choice.
+
+Minimal Hamiltonian (FRW background).
+On ds^2=-dt^2+a^2 d\mathbf x^2, u^\mu=(1,0,0,0),
+\hat H_\theta=\int d^3x\left[
+\frac{\hat\pi_\theta^2}{2 a^3 f^2}+\frac{a f^2}{2}(\nabla\hat\theta)^2+a^3\,\mu^4(1-\cos\hat\theta)
+\right].
+Small oscillations (no defects) give \omega_k^2=k^2+m_\theta^2 with m_\theta=\mu^2/f.
+Topological sectors add soliton bands: kinks have a center-of-mass zero mode and shape modes; multi-kink sectors are labeled by the integer windings and linkings.
+
+Path integral form (sum over sectors).
+\mathcal Z=\sum_{[N]}\int \mathcal D\theta_{[N]}\,
+\exp\!\left\{\frac{i}{\hbar_{\text{eff}}}\int d^4x\sqrt{-g}\,\mathcal L_{\min}(\theta,u,g)\right\},
+a sum over topological sectors [N] (inequivalent boundary conditions/defect content). Intrinsic elastic terms couple long-wave strain to \theta fluctuations, enabling mode conversion inside the same medium.
+
+Holonomy-driven quantization rules (useful shortcuts).
+	•	Topological charge operator \hat N[C]=(2\pi)^{-1}\oint_C d\hat\theta has integer spectrum.
+	•	Loop–flux uncertainty: \Delta N\,\Delta\Pi \gtrsim \tfrac12 |I(C,\Sigma)|\,\hbar_{\text{eff}}.
+	•	Action holonomy (Bohr–Sommerfeld): for a collective coordinate q, \oint p\,dq=2\pi n\,\hbar_{\text{eff}}.
+	•	Berry/holonomy phases from adiabatic transport classify spin/statistics tags of defect composites.
+
+Consistency & limits.
+No higher time derivatives (no Ostrogradsky). Stability for f^2>0,\ \rho>0. Diffeomorphism invariance gives \nabla_\mu T^{\mu\nu}=0. GR is recovered at leading order; \hbar_{\text{eff}} is fixed by matching to a SAT calibration (e.g., a single interferometric observable).
+
+Minimal predictions (observable fingerprints).
+	1.	Achromatic, integer phase steps along lines of sight that pierce topological sheets.
+	2.	Loop–flux shot-noise/uncertainty with coefficient \hbar_{\text{eff}}.
+	3.	Discrete zero-mode ladders for kink composites; absence of stable high-multiplicity exotics consistent with allowed holonomy classes.
+
+⸻
+
+B) Downloadable LaTeX handout (typeset, with equations)
+	•	SAT_QM_min_holonomy.tex — ready for your project folder
+Download
+
+⸻
+
+If you want, I can Code-Lock a tiny solver that: (i) constructs a loop–flux basis in a finite box, (ii) enforces the holonomy algebra, and (iii) diagonalizes \hat H_\theta in a few topological sectors to show the discrete spectra and the loop–flux uncertainty numerically.

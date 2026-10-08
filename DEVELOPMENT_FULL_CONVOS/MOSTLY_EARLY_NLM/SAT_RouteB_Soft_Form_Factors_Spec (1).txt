@@ -1,0 +1,133 @@
+
+SAT — Route B: Ghost‑Free Soft Form Factors (Continuum UV Completion)
+=====================================================================
+
+Purpose
+-------
+Make the minimal 4D single‑medium SAT model UV‑complete in the continuum by replacing local quadratic
+kinetic terms with covariant, entire (non‑polynomial) “soft form factors” that exponentially suppress
+ultraviolet momenta, introduce **no extra poles** (unitarity), and preserve diffeomorphism invariance,
+compactness, and holonomy structure.
+
+Core Idea
+---------
+For each quadratic kinetic operator K(□) in the Lagrangian, replace
+    K(□)  →  K(□) · F(□/M_s^2),
+with a matrix‑valued **entire** function F normalized by F(0)=1 and with UV damping F(ζ) ~ e^{+ζ}
+so the corresponding propagator is multiplied by e^{−p^2/M_s^2} at large Euclidean momenta.
+This yields loop finiteness without adding ghost poles.
+
+Design Principles for F
+-----------------------
+P1) Entire function (no singularities in the finite complex plane).  
+P2) F(0)=1 so the IR matches the local theory.  
+P3) UV softness: for Euclidean momenta, F(−p_E^2/M_s^2) = e^{+p_E^2/M_s^2} (or similar), so propagators get e^{−p_E^2/M_s^2}.  
+P4) No zeros of F on the physical sheet to avoid additional poles in 1/[K·F].  
+P5) Covariance: F built from the covariant □ ≡ g^{μν}∇_μ∇_ν (or its minimal-tensor generalization).  
+P6) Locality in the IR: expandible as a convergent derivative series around □=0.
+
+Minimal Softened Action (Einstein–Hilbert presentation)
+-------------------------------------------------------
+Start from the minimal Lagrangian L_min (fields: metric g_{μν}, unit timelike u^μ with u·u=−1, compact θ ≡ θ+2π):
+  L_min = (M_P^2/2) R + λ(u·u+1) + (ρ/2)(∇u)^2 + (f^2/2)(∂θ)^2 − μ^4(1−cos θ)
+          + (α1/M_*^2)(∇u)^2(∂θ)^2 + (α2/M_*^2)(∇_μ u_ν)∂^μθ ∂^νθ + (β/M_*^2)(∂θ)^4 .
+
+Replace the **quadratic kinetic bilinears** by their softened counterparts:
+
+(Scalar θ sector)
+  (f^2/2)(∂θ)^2   →   (f^2/2) ∂_μ θ · F_θ(□/M_s^2) · ∂^μ θ,
+  with F_θ(ζ) = e^{−ζ}  ⇒  Propagator D_θ(p) = e^{−p^2/M_s^2} / (p^2 + m_θ^2).
+
+(Time‑flow u sector)
+  (ρ/2)(∇u)^2   →   (ρ/2) (∇_μ u_ν) · F_u(□/M_s^2) · (∇^μ u^ν),
+  with F_u(ζ) = e^{−ζ} on each tensor index structure (choose minimal covariant lift).
+
+(Gravity sector — keep GR in the IR)
+  L_g = (M_P^2/2) R + (M_P^2/2) G_{μν} · F_g(□/M_s^2) · R^{μν},
+  with F_g(ζ) = (e^{−ζ} − 1)/ζ  (so the extra term vanishes at □→0 and does **not** shift the IR pole).
+  Linearized around flat space, the graviton propagator acquires e^{−p^2/M_s^2} suppression while keeping the
+  **same** massless pole and residue (ghost‑free if F_g is entire and no extra zeros).
+
+(Interactions)
+  Keep the intrinsic mixings α1, α2, β **local** at leading order. Optionally, dress them with one soft factor on a
+  single □ acting on θ to reduce spurious high‑k feed‑through:
+    (α2/M_*^2)(∇_μ u_ν) ∂^μθ ∂^νθ  →  (α2/M_*^2)(∇_μ u_ν) [F_mix(□/M_s^2) ∂^μθ] ∂^νθ.
+  Use F_mix ≡ e^{−□/M_s^2} for consistency.
+
+Summary of Propagators (flat background, momentum space)
+--------------------------------------------------------
+θ:      D_θ(p)     =  e^{−p^2/M_s^2} / (p^2 + m_θ^2).  
+u:      D_u(p)     =  e^{−p^2/M_s^2} · D_u^{(local)}(p)  (projected to physical modes).  
+graviton: D_g(p)   =  e^{−p^2/M_s^2} · D_g^{(GR)}(p)   (same pole structure as GR).
+
+Loop Finiteness & Renormalization
+---------------------------------
+• Any L‑loop integral gets a product of e^{−(p_1^2+…+p_L^2)/M_s^2}, rendering it UV finite.  
+• Define a minimal subtraction‑like scheme at a reference scale μ_R; soft factors eliminate power divergences and
+  convert logs into entire, finite functions.  
+• Wave‑function renormalizations Z_θ, Z_u, Z_g stay finite and near 1 when M_s ≫ μ_R; couplings {ρ, f, μ, α’s} run mildly.  
+• β‑functions can be computed with background‑field and heat‑kernel methods adapted to entire form factors.
+
+Unitarity & Causality
+---------------------
+• No extra poles: F entire without zeros ⇒ propagators have the **same** poles as local theory.  
+• Optical theorem: cutting rules go through since soft factors appear symmetrically in numerators/denominators and do not
+  introduce negative‑norm states. Check at 2→2 in θ‑sector as a unit test.  
+• Retarded kernels: define F(□) by analytic continuation with the **retarded** □; in practice, use Schwinger parameter
+  representation e^{−□/M_s^2} = ∫_0^∞ ds e^{−s} e^{−s□/M_s^2} and pick the retarded heat kernel. Microcausality violations are
+  exponentially suppressed on scales ≲ M_s^{-1} and vanish in the IR.
+
+Holonomy & Compactness (preserved)
+----------------------------------
+• θ remains compact; winding N[C]=(2π)^{-1}∮ dθ ∈ Z is a property of field configurations and is **unchanged** by F(□).  
+• Loop–flux algebra and Noether data are identical to the local case; only correlators are UV‑softened.
+
+Calibration & Matching
+----------------------
+• Choose M_s (single softness scale) by matching one short‑distance observable (e.g., high‑k tail of θ 2‑point, or first non‑trivial
+  correction to a GW→θ pumping rate).  
+• Keep M_s ≥ 10× the largest momentum scale probed in current tests to guarantee agreement with GR/QFT in the IR.  
+• Refit {f, μ, ρ} in the softened theory if needed (tiny shifts only).
+
+Computation Workflow (practical)
+--------------------------------
+1) Backgrounds: Minkowski / FRW. Replace □→ −ω^2 + k^2/a^2 in Fourier space; insert F(□) accordingly.  
+2) Spectra: recompute dispersion relations; IR unchanged, UV tails suppressed.  
+3) Loops: do 1‑loop θ self‑energy and 4‑point in Euclidean space to confirm finiteness; repeat for u‑sector.  
+4) Gravity: linearized gauge fixing (de Donder); verify graviton 2‑point has only the GR pole and gets e^{−p^2/M_s^2} damping.  
+5) Pumping: include α2 term with F_mix; compute GW→θ conversion probability P(k_long→k_short) and show it is finite and regulator‑stable.  
+6) Observables: reassess PPN, GW speed, birefringence constraints—should match local theory up to O((E/M_s)^2) corrections.
+
+Pass/Fail UV Criteria (Route B Acceptance)
+------------------------------------------
+✓ All 1‑ and 2‑loop amplitudes finite in θ/u sectors; graviton self‑energy finite and analytic.  
+✓ No new poles in any 2‑point function; residues positive (spectral positivity).  
+✓ Diffeomorphism Ward identities satisfied (background‑field check).  
+✓ IR recovery: local‑theory limits recovered as p/M_s → 0 to within chosen tolerance.  
+✓ Regulator independence: modest deformations of F leave IR predictions invariant after parameter matching.
+
+Minimal Edits to Project Files
+------------------------------
+• Replace kinetic terms in the SAT minimal Lagrangian with the F‑dressed forms above.  
+• Add a short “Softness Appendix” documenting the choice of F and M_s, and the proof‑of‑principle loop calculation.  
+• Keep the holonomy/QM sector unchanged (θ compactness and loop–flux algebra).
+
+Deliverables
+------------
+• RouteB_Action_Softened.tex — the explicit softened action and linearized propagators.  
+• RouteB_1Loop_Report.pdf — sample 1‑loop finite calculations (θ‑sector, u‑sector).  
+• RouteB_Gravity_Linear.pdf — linearized gravity with F_g, pole analysis, Ward checks.  
+• RouteB_Config.txt — chosen M_s, F choices, and calibration target.  
+• RouteB_Summary.md — pass/fail audit checklist results.
+
+Quick Reference (Example Choices)
+---------------------------------
+F_θ(ζ)  = e^{−ζ}  
+F_u(ζ)  = e^{−ζ} (on each index structure)  
+F_g(ζ)  = (e^{−ζ} − 1)/ζ
+F_mix(ζ)= e^{−ζ}
+
+Notes
+-----
+• If you later adopt Route C (lattice) as fundamental, set M_s ≈ π/a and verify softened‑continuum predictions match lattice data.
+• If you also pursue Route A (asymptotic safety), use the softened theory as a practical regulator while mapping the FRG flow.

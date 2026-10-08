@@ -1,0 +1,130 @@
+
+SAT — Route A: 4D Continuum UV Completion via Asymptotic Safety (FRG)
+=====================================================================
+
+Purpose
+-------
+Provide a strictly 4D, single‑medium, diffeomorphism‑invariant UV completion of SAT by exhibiting a
+non‑Gaussian UV fixed point of the Functional Renormalization Group (FRG) flow of the effective average
+action Γ_k[g,u,θ]. This ensures finite, predictive continuum behavior as k→∞ without adding new fields.
+
+Core Setup
+---------
+• Effective average action Γ_k with IR scale k; Wetterich equation:
+    ∂_t Γ_k = 1/2 Tr[(Γ_k^(2) + R_k)^{-1} ∂_t R_k] − Tr_ghost[(Γ_k,gh^(2) + R_k,gh)^{-1} ∂_t R_k,gh],
+  where t = ln(k/k_0), Γ_k^(2) is the Hessian w.r.t. fluctuating fields.
+• Background field method: split g = ḡ + h (metric or tetrad), u = ū + v with ū^2=−1, and θ = θ̄ + ϑ.
+• Gauge fixing: de Donder (gravity), covariant background gauge for u, and standard Faddeev–Popov ghosts.
+• Regulator: covariant Litim‑type R_k(Δ) = Z_k (k^2 − Δ) Θ(k^2 − Δ) for each spin sector (scalar/vector/tensor).
+
+Minimal Truncation (Level‑0)
+----------------------------
+Retain the operators of the minimal SAT Lagrangian, allowing k‑dependent couplings:
+  Γ_k = ∫ d^4x √−g [
+    (Z_R,k/2) R − Z_Λ,k Λ_k
+    + λ_k (u·u + 1)
+    + (Z_u,k/2) (∇_μ u_ν)(∇^μ u^ν)
+    + (Z_θ,k/2) ∂_μ θ ∂^μ θ + U_k(θ)
+    + (α1_k/M_*^2) (∇u)^2 (∂θ)^2
+    + (α2_k/M_*^2) (∇_μ u_ν) ∂^μ θ ∂^ν θ
+    + (β_k/M_*^2) (∂θ)^4
+  ] + S_gf + S_gh .
+
+Notes:
+• U_k(θ) = μ_k^4 (1 − cos θ); around a minimum θ=0, U_k ≈ (m_{θ,k}^2/2) θ^2 + … with m_{θ,k}^2 = μ_k^4/Z_θ,k.
+• Optional (equivalent) kinematic split of (∇u)^2 into expansion/shear/vorticity with Z_{θu,k}, Z_{σu,k}, Z_{ωu,k} (positive).
+
+Dimensionless Couplings
+-----------------------
+Define:
+  g_k = k^2 G_k = k^2 / (8π Z_R,k) ,    λ̂_k = Λ_k / k^2 ,
+  z_u = Z_u,k / Z_u,k0 ,    z_θ = Z_θ,k / Z_θ,k0 ,
+  m̂_{θ}^2 = m_{θ,k}^2 / k^2 ,    α̂1 = α1_k k^2 / M_*^2 ,    α̂2 = α2_k k^2 / M_*^2 ,    β̂ = β_k k^2 / M_*^2 ,
+and treat λ_k (constraint multiplier) as non‑running at Level‑0 (or eliminate u^0 with the constraint).
+
+Hessians and Projectors
+-----------------------
+• Decompose h_{μν} into TT tensor, vector, and scalar blocks; use York decomposition. Project onto TT for the graviton.
+• For u: define projectors parallel/orthogonal to ū_μ: P_{⊥μν} = ḡ_{μν} + ū_μ ū_ν. Work in background with ū^μ = (1,0,0,0).
+• For θ: scalar block with periodic potential expanded to quadratic order for flows; keep full periodic U_k in a separate local potential approximation if desired.
+
+Regulator Choice
+----------------
+Use Litim regulators per sector:
+  R_k^tensor = Z_R,k (k^2 − Δ_2) Θ(k^2 − Δ_2),
+  R_k^vector = Z_u,k (k^2 − Δ_1) Θ(k^2 − Δ_1),
+  R_k^scalar = Z_θ,k (k^2 − Δ_0) Θ(k^2 − Δ_0),
+with Δ_s the appropriate Laplace‑type operator on spin‑s fields (including background curvature terms).
+
+Beta Functions (Strategy)
+-------------------------
+• Insert the Hessians + R_k into the Wetterich equation; evaluate traces via heat‑kernel expansion with threshold functions Q_n[W] adapted to Litim regulators.
+• Extract flows for (g_k, λ̂_k) from TT and scalar blocks (gravity), for z_u from the u‑block, for z_θ and m̂_{θ}^2 from θ‑block, and for α̂1, α̂2, β̂ from mixed diagrams.
+• Structure (schematic):
+  ∂_t g_k = (2 + η_R) g_k ,   ∂_t λ̂_k = −2 λ̂_k + A_g(g_k,λ̂_k) + A_m(m̂_{θ}^2, z_θ, …),
+  ∂_t z_u = η_u z_u ,   ∂_t z_θ = η_θ z_θ ,   ∂_t m̂_{θ}^2 = (η_θ − 2) m̂_{θ}^2 + B_θ(g_k, …),
+  ∂_t α̂i = (2 + η_mix,i) α̂i + C_i(g_k, z_u, z_θ, …),   ∂_t β̂ = (2 + η_β) β̂ + C_β(…),
+  where anomalous dimensions η_* = −∂_t ln Z_* and A,B,C are thresholded polynomials of the couplings.
+• Expectation: (g_k, λ̂_k) admit a non‑Gaussian fixed point (g*, λ̂*). The matter/elastic sector (z_u, z_θ, m̂_{θ}^2, α̂’s, β̂) flows to finite fixed points with a small number of relevant directions (predictivity).
+
+Ward/Nielsen Identities
+-----------------------
+Check modified Ward identities due to regulator breaking; ensure background independence via bimetric flows or the split‑symmetry Ward identity at leading order. Gauge‑parameter independence of physical critical exponents is used as a stability test.
+
+Fixed‑Point Search & Critical Exponents
+---------------------------------------
+1) Solve β_i({g}) = 0 for the set {g*, λ̂*, z_u*, z_θ*, m̂_{θ}^2*, α̂1*, α̂2*, β̂*}.  
+2) Linearize: M_{ij} = ∂β_i/∂g_j |_* ; eigenvalues −θ_I are critical exponents.  
+3) Predictivity criterion: number of positive θ_I (relevant directions) is small (e.g., 2–5). Those define the finite set of UV boundary data to be fixed by experiment; all other couplings are predictions.
+
+Consistency/Unitarity Checks
+----------------------------
+• Propagator poles: ensure all Z_* > 0 and no wrong‑sign residues in TT/u/θ sectors.  
+• Spectral positivity: Källén‑Lehmann densities non‑negative in each sector at fixed point (check via 2‑pt).  
+• Causality: standard FRG analytic continuation; IR limit reproduces GR + compact θ + elastic u.
+
+Holonomy/Compactness
+--------------------
+• θ remains compact; FRG is performed on the local fluctuations around each topological sector.  
+• Global sum over sectors is handled at the path‑integral level; local flows do not spoil integer winding labels or loop–flux algebra.
+
+Practical Computation Plan
+--------------------------
+P1) Flat/Minkowski background (ḡ=η, ū=(1,0,0,0), θ̄=0). Compute Level‑0 β‑functions in this background to get first fixed point.  
+P2) FRW background cross‑check (small curvature): verify stability of fixed‑point values and exponents.  
+P3) Add minimal bimetric correction to enforce split symmetry (background independence).  
+P4) Switch on one mixing at a time (α̂2 first), confirm it is irrelevant or weakly relevant with small dimension.  
+P5) Global scan over regulators (Litim vs exponential) and gauges (de Donder parameter) to test scheme‑stability.
+
+Pass/Fail UV Criteria (Route A Acceptance)
+------------------------------------------
+✓ Existence of a non‑Gaussian fixed point with finite g*, λ̂* and finite matter/elastic fixed‑point values.  
+✓ Small number of relevant directions (predictive UV critical surface).  
+✓ Stability under regulator/gauge changes (exponents vary mildly).  
+✓ Positivity/causality checks pass (no ghost poles, positive residues).  
+✓ IR recovery: running couplings flow to values consistent with GR tests and SAT phenomenology.
+
+Matching to SAT Parameters
+--------------------------
+• Identify Z_R,k → 1/(8π G_k); fit G_{k→0} to Newton’s constant.  
+• m_{θ,k} and f_k matched to the observed (or targeted) SAT phase sector scale; ρ_k from u‑mode speed.  
+• α̂’s and β̂ matched (or bounded) by mixing observables (e.g., GW→θ pumping, birefringence limits).
+
+Deliverables
+------------
+• RouteA_FRG_Truncation.txt — explicit Γ_k truncation and operator bases.  
+• RouteA_Betas.txt — closed‑form β‑functions for the Level‑0 truncation (symbolic + numerical evaluation hooks).  
+• RouteA_FixedPoint_Report.pdf — fixed‑point tables, critical exponents, scheme‑dependence study.  
+• RouteA_Config.txt — regulator, gauge, and background choices used in the runs.
+
+Code‑Lock Hints
+---------------
+• Use xAct/Mathematica or PyFRG‑style Python (sympy + numpy) for Hessians and traces.  
+• Heat‑kernel coefficients a_0,a_1,a_2 for scalar/vector/tensor Laplacians on flat background suffice at Level‑0.  
+• Implement Litim threshold integrals once and reuse across sectors.  
+• Unit tests: reproduce known Einstein‑Hilbert β‑functions in the pure‑gravity limit; reproduce scalar‑only flows when decoupling gravity/u.
+
+Notes
+-----
+• If Route C (lattice) is also developed, use lattice‑measured correlators to cross‑calibrate FRG anomalous dimensions.  
+• Route B (soft form factors) can be used as a practical regulator for perturbative checks while FRG nonperturbative flows are computed.
