@@ -1,27 +1,188 @@
 {
-  "source_commit": "b33eddb21f3469848c77c4a62019fa9d18f3a528",
-  "observed_utc": "2026-10-07T17:28:36.105602+00:00",
+  "source_commit": "f3c4dfd996b4622d548fb8889ac2b793018bb26a",
+  "observed_utc": "2026-10-08T17:34:01.715899+00:00",
   "changes": [
     {
-      "change": "CHANGED",
-      "path": "..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt",
-      "old_blob_sha": "307f995ba34dc8c0f18c869bee4f40a4c6fed9bd",
-      "new_blob_sha": "ed6df5d758c47082a8d7c90cf3e335ce187bd27d",
-      "bytes": 2995888
+      "change": "ADDED",
+      "path": ".[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261008_081046.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "94b246319e17c5b74d3a5fd99aa4c6b5b1589961",
+      "bytes": 1669
     },
     {
       "change": "CHANGED",
-      "path": "..findex.txt",
-      "old_blob_sha": "94b641674081aa5dfb213a6c3f72cba8a1662ce0",
-      "new_blob_sha": "47ec0ae5564a3aac33dc9e39845db29385178f02",
-      "bytes": 208641
+      "path": ".[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt",
+      "old_blob_sha": "7aa65dbab0172ee23a04023975889b85d9e1353b",
+      "new_blob_sha": "8bcadd1c9934eb1df6909e457e7c186879a2cb67",
+      "bytes": 174
     },
     {
       "change": "ADDED",
-      "path": ".[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261007_163929.txt",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/9th century letter creation — raw.json",
       "old_blob_sha": "",
-      "new_blob_sha": "25f6779746d338e56bf9b2b81ecef91dadda2ff0",
-      "bytes": 301
+      "new_blob_sha": "b34e34432b35e37293c59064c944703714194446",
+      "bytes": 426604
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Accordioncam overview — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "5dc0ac95f6a5e7bf0b6e9b50d87e3e5b8258f376",
+      "bytes": 398662
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothia regions analysis — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "898933fa2d4a6f365ef6eb130af5199c4aa55be3",
+      "bytes": 448557
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothian language and history — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "80c359ea1fe92e0fc0e6bd3882412fc17185b42d",
+      "bytes": 1044332
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothian perspective analysis — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "2f98cd9710070c7af4a7df6e943571f641dd108d",
+      "bytes": 222081
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Boxful of Light Ep2 — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "1002fb0864064957fc9abe7195e1ceff92301a82",
+      "bytes": 1323034
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Cleaned-up inventory list — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "51c9ed6e603497245725c7e096e5530d8fa9e249",
+      "bytes": 95965
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Collection rundown — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "632f4307c591ff88a49faddef018aa8babadb8db",
+      "bytes": 1281458
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Condensed Chemistry_Emulsion Specs.txt",
+      "old_blob_sha": "",
+      "new_blob_sha": "992a989742d5852950753911b24bc693454e1950",
+      "bytes": 5157
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Developer Inventory Index — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "bf2cb18b109f098e1f34d404bc2cad89d8d45ee0",
+      "bytes": 423433
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Edit for McKnight's style — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "68038dfe0ca3fd9b0ab18d47e6bf998e5a8ac79f",
+      "bytes": 564026
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Game idea feedback — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "fcd070adda586cc314eec94b0a1abf5bb0904f9d",
+      "bytes": 1003137
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Gothic compound order comparison — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "0ea26c76576833ba234534488b202ca59a05330b",
+      "bytes": 823918
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Image Prompt Construction — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "4251f33b277529d3804af2b4445f1079bfb84c70",
+      "bytes": 1946601
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Inventory list consolidation — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "e2340cd895a40f0c633e5db0eb8aee0626ed18d1",
+      "bytes": 614547
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Kodacolor VR film info — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "0ef46172cdbe6f88e2ccb022b3d66e191bddb7fd",
+      "bytes": 271014
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Kodak Hawkeye 2A details — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "a4847cc51495b6ee6ea3f9a0e3366b1de155ed8e",
+      "bytes": 256506
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Koine merchant language 800 CE — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "b5b5de9cc334a37ad1ffd701ab4416425c72b5f1",
+      "bytes": 2370933
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Meridian Free Build — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "4c51b52ce841bf690025a905c4a6922b4bce8a2d",
+      "bytes": 362454
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Middle English response — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "69c00579ae058d862e561c8d185f29d2f1a99db7",
+      "bytes": 297095
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Orson Free Build — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "82728359936875fd0d78a68122356a9c7b95c790",
+      "bytes": 1719754
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Random prompt analysis — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "2f7deba3a0b2ffbfcb461fb6b7aaa6773a36f9ae",
+      "bytes": 4732358
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/ReStrat__NotebookLM_export.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "04b192046d402c582911b6aaead8f60b76b1e799",
+      "bytes": 110864
+    },
+    {
+      "change": "ADDED",
+      "path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Wilfrid Voynich biography — raw.json",
+      "old_blob_sha": "",
+      "new_blob_sha": "9104e5a3e7c9add4cab17641f8803baeaeea7295",
+      "bytes": 569372
     }
   ]
 }
