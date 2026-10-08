@@ -127,6 +127,19 @@ class SearchTests(unittest.TestCase):
         self.assertTrue(all("PRIOR_ART" not in h["path"] for h in doc["hits"]))
         self.assertGreaterEqual(doc["coverage"]["inventory_limitations"]["excluded_by_policy"],1)
 
+    def test_content_coverage_never_claims_full_searchability(self):
+        doc=self.search('"0.24"',"--result-mode","files")
+        self.assertEqual(doc["coverage_status"],"complete")
+        self.assertEqual(doc["coverage_status_scope"],"repository_checkout_presence_only")
+        self.assertEqual(doc["content_coverage_status"],"partial")
+        self.assertGreater(doc["content_coverage_gaps"]["excluded_by_policy"],0)
+        self.assertIn("not verified complete",doc["content_coverage_warning"])
+        (self.resources/"huge.txt").write_text("0.24 "*1000,encoding="utf-8")
+        doc=self.search('"0.24"',"--max-bytes","100")
+        self.assertEqual(doc["coverage_status"],"complete")
+        self.assertEqual(doc["content_coverage_status"],"partial")
+        self.assertGreater(doc["content_coverage_gaps"]["oversized_files_skipped"],0)
+
     def test_date_origin_and_version_queries(self):
         doc=self.search('version:sat-mark-v AND "phase shift"')
         self.assertEqual(len(doc["hits"]),1)
