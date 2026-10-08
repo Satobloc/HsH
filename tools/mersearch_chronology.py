@@ -126,6 +126,7 @@ class Chronology:
   if archived and start and archived<start:warnings.append("archive date precedes inferred origin")
   if dtype=="retrospective-or-compilation" and mentioned:warnings.append("historical compilation; version mentions may span eras")
   return dict(document_type=dtype,archive_date=archived,
+   dates_mentioned=sorted(self.dates),
    earliest_date_mentioned=min(self.dates) if self.dates else "",
    latest_date_mentioned=max(self.dates) if self.dates else "",
    captured_at=min(self.captures) if self.captures else "",
