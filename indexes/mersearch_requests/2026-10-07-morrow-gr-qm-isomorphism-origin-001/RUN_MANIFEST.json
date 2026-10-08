@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-07-morrow-gr-qm-isomorphism-origin-001",
+  "query": "(\"isomorphism\" OR \"Schwarzschild\" OR \"Laplace-Beltrami\" OR \"SO(4)\" OR \"SU(2)\") AND (\"quantum\" OR \"QM\" OR \"relativity\" OR \"GR\" OR \"worldline\")",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "b33eddb21f3469848c77c4a62019fa9d18f3a528",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "9669bffce531c414e7db8828cc7f12d5b6d80390",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "681a056fc4a80cc4bfafd06913732204932d46833e5dbd62d14c9c933841e0b4",
+    "SEARCH_RESULTS.md": "889c43bb9480d82a49a116a8f805096d9b1543ac5a9c0e31f434db5442a4db2e"
+  }
+}
