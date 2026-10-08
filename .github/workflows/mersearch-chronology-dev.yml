@@ -8,6 +8,12 @@ on:
       - 'tools/mersearch_chronology.py'
       - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
       - '.github/workflows/mersearch-chronology-dev.yml'
+  pull_request:
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
+      - '.github/workflows/mersearch-chronology-dev.yml'
   workflow_dispatch:
 
 permissions:
@@ -18,6 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /tools/search_archive_content.py
+            /tools/mersearch_chronology.py
+            /WORKSPACES/MERCER/test_mercer_searcher_1_0.py
+            /WORKSPACES/MERCER/test_mersearch_chronology_20261007.py
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
