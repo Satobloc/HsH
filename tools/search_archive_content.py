@@ -213,7 +213,7 @@ def field_eval(rec:Record,term:str)->Eval|None:
   elif field=="origin":
    direct=message_date(rec.timestamp) if rec.kind in ("conversation-message","notebooklm-message") else ""
    target=direct or meta.get("estimated_origin_start","")
-  elif field=="date_mentioned":target=" ".join(e["value"] for e in meta.get("date_evidence",[]) if e["kind"]=="date_mentioned")
+  elif field=="date_mentioned":target=" ".join(meta.get("dates_mentioned",[]))
   elif field=="date_confidence":target=meta.get("date_confidence","")
   elif field=="document_type":target=meta.get("document_type","")
   elif field=="retrospective":target=str(meta.get("retrospective_possible",False)).lower()
