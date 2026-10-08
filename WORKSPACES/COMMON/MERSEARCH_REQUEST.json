@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-elliptic-material-frame-001",
+  "request_id": "2026-10-08-ravel-dynamic-director-hysteresis-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((elliptic OR elliptical OR anisotropic) AND (cross-section OR core OR tube) AND (material frame OR director OR Bishop frame OR Frenet frame OR twist angle OR normal bundle) AND (traction OR torque OR parity OR harmonic OR holonomy)) OR ((ribbon OR rod OR framed curve) AND (twist OR director) AND (finite core OR worldtube OR helix))",
-  "purpose": "Recover prior corpus constructions relevant to an elliptic finite core transported by an independent material frame, before deriving its torque harmonics and parity conditions.",
+  "query": "((elastic rod OR Kirchhoff rod OR Cosserat rod OR ribbon OR framed curve) AND (director OR material frame OR twist angle) AND (bifurcation OR hysteresis OR phase slip OR end rotation OR torque)) OR ((worldtube OR finite core OR filament) AND (twist energy OR torsional stiffness OR director dynamics OR metastability))",
+  "purpose": "Recover prior corpus constructions relevant to promoting the elliptic-core material angle into an elastic director field and testing stability, bifurcation, and hysteresis under imposed end rotation.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
