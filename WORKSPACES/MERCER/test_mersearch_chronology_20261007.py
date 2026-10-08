@@ -140,6 +140,21 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(doc["content_coverage_status"],"partial")
         self.assertGreater(doc["content_coverage_gaps"]["oversized_files_skipped"],0)
 
+    def test_per_repository_inventory_and_missing_repo(self):
+        doc=self.search('"0.24"',"--result-mode","files")
+        by=doc["coverage_by_repository"]
+        self.assertEqual(set(by),{
+            "Satobloc/SAT_THEORY_ARCHIVE_2023-25","Satobloc/HsH","Satobloc/HSH_RESOURCES"})
+        self.assertGreaterEqual(by["Satobloc/SAT_THEORY_ARCHIVE_2023-25"]["files_scanned"],2)
+        self.assertEqual(by["Satobloc/HsH"]["matching_records"],1)
+        self.assertGreaterEqual(by["Satobloc/HSH_RESOURCES"]["excluded_by_policy"],1)
+        self.assertEqual(sum(v.get("records_scanned",0) for v in by.values()),
+                         doc["coverage"]["records_scanned"])
+        self.resources.rename(self.base/"not-an-archive")
+        doc=self.search('"0.24"')
+        self.assertEqual(doc["coverage_by_repository"]["Satobloc/HSH_RESOURCES"],{})
+        self.assertEqual(doc["coverage_status"],"partial")
+
     def test_date_origin_and_version_queries(self):
         doc=self.search('version:sat-mark-v AND "phase shift"')
         self.assertEqual(len(doc["hits"]),1)
