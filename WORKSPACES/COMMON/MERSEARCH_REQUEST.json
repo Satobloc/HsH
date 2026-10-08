@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-dynamic-director-hysteresis-001",
+  "request_id": "2026-10-08-ravel-nested-elliptic-contact-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((elastic rod OR Kirchhoff rod OR Cosserat rod OR ribbon OR framed curve) AND (director OR material frame OR twist angle) AND (bifurcation OR hysteresis OR phase slip OR end rotation OR torque)) OR ((worldtube OR finite core OR filament) AND (twist energy OR torsional stiffness OR director dynamics OR metastability))",
-  "purpose": "Recover prior corpus constructions relevant to promoting the elliptic-core material angle into an elastic director field and testing stability, bifurcation, and hysteresis under imposed end rotation.",
+  "query": "((nested OR sleeve OR annular OR core-shell) AND (elliptic OR anisotropic) AND (tube OR rod OR worldtube) AND (contact pressure OR normal contact OR confinement OR anchoring OR torque)) OR ((finite core OR filament) AND (nesting OR interface) AND (director OR material frame OR phase slip))",
+  "purpose": "Recover prior corpus constructions about explicit nested finite-core contact and torque anchoring before deriving whether sleeve contact can supply a physical polar pin without hand insertion.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
