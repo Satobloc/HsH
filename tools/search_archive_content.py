@@ -448,7 +448,17 @@ def main()->int:
  if args.limit>0:hits=hits[args.offset:args.offset+args.limit]
  elif args.offset:hits=hits[args.offset:]
  args.out.mkdir(parents=True,exist_ok=True);generated=datetime.now(timezone.utc).isoformat()
- manifest={"schema_version":2,"generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
+ coverage_repos=sorted({repo_for(root, args.roots) for root in args.roots})
+ missing_repos=[name for name in ARCHIVE_ALIASES if name not in coverage_repos]
+ coverage_status="complete" if not missing_repos else "partial"
+ manifest={"schema_version":3,"capabilities":describe_capabilities(),
+  "archives_requested":list(ARCHIVE_ALIASES),
+  "archives_searched":coverage_repos,
+  "missing_archives":missing_repos,
+  "coverage_status":coverage_status,
+  "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
+  "pagination":{"offset":args.offset,"limit":args.limit,"total_hits":result_total,"returned_hits":len(hits)},
+  "generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
   "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits)},"facets":facet_json,
@@ -466,7 +476,8 @@ def main()->int:
     if isinstance(v,(list,dict)):d[k]=json.dumps(v,ensure_ascii=False)
    w.writerow(d)
  lines=[f"# {TOOL_NAME} Results","",f"Generated: {generated}",f"Query: `{query}`",
-  f"Coverage: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",
+  f"Coverage: {coverage_status.upper()}: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",
+ f"Archives: searched={', '.join(coverage_repos)}; missing={', '.join(missing_repos) or 'none'}.",
   f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
   "Status labels are lexical retrieval signals only; they do not establish supersession or authority.",""]
  last=None
@@ -476,6 +487,10 @@ def main()->int:
   lines.append(f"- **{h.title or Path(h.path).name}** — {h.timestamp or 'undated'} — {h.speaker or h.role or 'unknown speaker'}")
   lines.append(f"  - Source: `{h.path}` · `{h.locator}`"+(f" · CID `{h.conversation_id}`" if h.conversation_id else ""))
   if h.message_id:lines.append(f"  - Message: `{h.message_id}`")
+  if h.source_url:lines.append(f"  - Source link: {h.source_url}")
+  if h.chronology:
+   c=h.chronology
+   lines.append(f"  - Chronology: origin={c.get('estimated_origin_start') or 'unknown'}..{c.get('estimated_origin_end') or 'unknown'} ({c.get('date_confidence')}); archived={c.get('archive_date') or 'unknown'}; versions={c.get('earliest_version_mentioned') or 'unknown'}..{c.get('latest_version_mentioned') or 'unknown'}")
   if h.viewer_url:lines.append(f"  - Viewer: `{h.viewer_url}`")
   lines.append(f"  - Matched: {', '.join(h.matched_terms) or '(field/Boolean match)'}")
   for n in h.near_matches:lines.append(f"  - NEAR: distance={n.get('distance_tokens')} tokens; window={n.get('window')}")
@@ -485,7 +500,7 @@ def main()->int:
  lines+=["","## Concept graph",""]
  lines += [f"- `{a}` ↔ `{b}` — {n} co-occurring hit record(s)" for (a,b),n in edges.most_common()] or ["_No configured topic co-occurrences._"]
  (args.out/"SEARCH_RESULTS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
- print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,
+ print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,"coverage_status":coverage_status,"missing_archives":missing_repos,
   "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
  return 0
 if __name__=="__main__":raise SystemExit(main())
