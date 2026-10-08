@@ -364,7 +364,7 @@ def describe_capabilities()->dict[str,Any]:
    "cautions":["math normalization is not algebraic equivalence",
      "chronology/version estimates are not hard dates",
      "PRIOR_ART and QUARANTINE excluded by default",
-     "large files beyond --max-bytes skipped by legacy scanner",
+     "large files beyond --max-bytes skipped with explicit count; use --max-bytes 0 to disable limit",
      "structured timestamps apply to messages, not quoted excerpts",
      "no semantic/vector or CAS retrieval in this development version"]}
 
@@ -423,6 +423,7 @@ def main()->int:
   except:rel=path.as_posix()
   vc=viewer.get(rel) or viewer.get(path.as_posix())
   repository=repo_for(path,args.roots)
+  record_start=records
   chrono=Chronology(rel)
   requires_chrono=bool(CHRONO_FIELDS.search(query))
   if requires_chrono:
@@ -450,6 +451,7 @@ def main()->int:
    hits.append(Hit(query,rel,rec.kind,rec.title,rec.conversation_id,rec.message_id,rec.speaker,rec.role,rec.timestamp,rec.locator,
     make_excerpt(rec.text,ev.positions,args.excerpt_chars),status(rec.text),viewer_link(vc or {},rec.message_id),sha(path,cache),
     list(dict.fromkeys(ev.terms)),ev.near,ev.trace,present))
+  if records==record_start:scan_stats["files_without_readable_records"]+=1
   if len(hits)>hit_start:
    if not requires_chrono:
     for original in iter_records(path):
