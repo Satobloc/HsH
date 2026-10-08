@@ -455,7 +455,7 @@ def main()->int:
     for original in iter_records(path):
      chrono.observe(original.text,original.locator,original.kind,original.timestamp,original.capture_timestamp)
    meta=chrono.result()
-   root=next((rt for rt in args.roots if path==rt or rt in path.parents),None)
+   root=next((rt for rt in sorted(args.roots,key=lambda p:len(p.parts),reverse=True) if path==rt or rt in path.parents),None)
    source_path=path.relative_to(root).as_posix() if root and root.is_dir() else path.name
    url=f"https://github.com/{repository}/blob/main/{quote(source_path,safe='/')}" if repository.startswith("Satobloc/") else ""
    for h in hits[hit_start:]:
