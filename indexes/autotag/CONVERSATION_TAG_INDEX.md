@@ -2,43 +2,43 @@
 
 **Machine-generated retrieval/indexing redundancy.** Tags are discovery aids, not verified authorship or theory status.
 
-- JSON files scanned: 930
-- conversation exports recognized: 606
-- non-conversation JSON skipped: 322
+- JSON files scanned: 937
+- conversation exports recognized: 607
+- non-conversation JSON skipped: 328
 - parse errors: 2
-- structural-index gap candidates: 65
+- structural-index gap candidates: 66
 
 ## Topic coverage
 
-- `PHYSICS`: 542 conversations
-- `GEOMETRY`: 508 conversations
-- `MATHEMATICS`: 489 conversations
-- `CODING`: 475 conversations
-- `INTERACTIONS`: 464 conversations
-- `SAT-HSH`: 464 conversations
-- `GRAVITY`: 457 conversations
+- `PHYSICS`: 543 conversations
+- `GEOMETRY`: 509 conversations
+- `MATHEMATICS`: 490 conversations
+- `CODING`: 476 conversations
+- `INTERACTIONS`: 465 conversations
+- `SAT-HSH`: 465 conversations
+- `GRAVITY`: 458 conversations
 - `LANGUAGE`: 456 conversations
-- `PROVENANCE-HISTORY`: 451 conversations
-- `DEFINITION-CANDIDATE`: 441 conversations
-- `QUANTUM`: 440 conversations
+- `PROVENANCE-HISTORY`: 452 conversations
+- `DEFINITION-CANDIDATE`: 442 conversations
+- `QUANTUM`: 441 conversations
 - `WRITING`: 438 conversations
-- `PARTICLE-PHYSICS`: 427 conversations
+- `PARTICLE-PHYSICS`: 428 conversations
 - `HISTORY`: 426 conversations
-- `TOPOLOGY-MORPHOLOGY`: 425 conversations
-- `TOPOLOGY`: 424 conversations
+- `TOPOLOGY-MORPHOLOGY`: 426 conversations
+- `TOPOLOGY`: 425 conversations
 - `MODEL-VS-REALITY`: 421 conversations
 - `ARCHIVE-INDEXING`: 419 conversations
 - `COSMOLOGY`: 417 conversations
+- `INTERSECTION-READOUT`: 416 conversations
 - `VISUALIZATION`: 416 conversations
-- `INTERSECTION-READOUT`: 415 conversations
-- `DIMENSIONALITY`: 412 conversations
-- `ALGEBRA`: 406 conversations
+- `DIMENSIONALITY`: 413 conversations
+- `ALGEBRA`: 407 conversations
 - `PHILOSOPHY`: 404 conversations
 - `METRIC`: 403 conversations
 - `LAW-LEGAL`: 396 conversations
 - `RELATIVITY`: 395 conversations
 - `CROSSWALK-CANDIDATE`: 390 conversations
-- `4D-THINKING`: 388 conversations
+- `4D-THINKING`: 389 conversations
 - `HELIX-GEOMETRY`: 374 conversations
 - `BIOLOGY`: 373 conversations
 - `MUSIC-AUDIO`: 373 conversations
@@ -48,17 +48,17 @@
 - `ART-DESIGN`: 355 conversations
 - `CALCULUS`: 349 conversations
 - `PROBABILITY-STATS`: 348 conversations
-- `LAGRANGIAN`: 341 conversations
+- `LAGRANGIAN`: 342 conversations
 - `OPTICS`: 341 conversations
-- `DATA-PROCESSING`: 339 conversations
+- `DATA-PROCESSING`: 340 conversations
 - `HOLONOMY`: 337 conversations
 - `NESTING`: 337 conversations
-- `BRAIDING`: 329 conversations
+- `BRAIDING`: 330 conversations
 - `TIMESHEET`: 321 conversations
 - `WORLDLINE`: 318 conversations
 - `BLACK-HOLES`: 304 conversations
 - `CHEMISTRY`: 283 conversations
-- `ELECTROMAGNETISM`: 281 conversations
+- `ELECTROMAGNETISM`: 282 conversations
 - `AUTOMATION`: 270 conversations
 - `PHOTON-NEUTRINO`: 263 conversations
 - `SPHERES`: 262 conversations
@@ -1170,6 +1170,13 @@
 - messages/user: 1289/171
 - density: 0.825446; top retrieval score: 94.0
 - topics: `4D-THINKING`, `AI-LLM`, `ALGEBRA`, `ARCHIVE-INDEXING`, `ART-DESIGN`, `ASTRONOMY`, `ASTROPHYSICS`, `AUTOMATION`, `BIOLOGY`, `BLACK-HOLES`, `BRAIDING`, `CALCULUS`, `CHEMISTRY`, `CODING`, `COSMOLOGY`, `CROSSWALK-CANDIDATE`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `EDUCATION`, `ELECTROGRAVITY`, `ELECTROMAGNETISM`, `FILM-MEDIA`, `FINITE-CORE`
+
+### `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/Check mass ratio calculation — raw.json` **INDEX-GAP-CANDIDATE**
+
+- title: Check mass ratio calculation
+- messages/user: 26/12
+- density: 0.846154; top retrieval score: 92.64
+- topics: `4D-THINKING`, `ALGEBRA`, `BRAIDING`, `CODING`, `DATA-PROCESSING`, `DEFINITION-CANDIDATE`, `DIMENSIONALITY`, `ELECTROMAGNETISM`, `GEOMETRY`, `GRAVITY`, `INTERACTIONS`, `INTERSECTION-READOUT`, `LAGRANGIAN`, `MATHEMATICS`, `PARTICLE-PHYSICS`, `PHYSICS`, `PROVENANCE-HISTORY`, `QUANTUM`, `SAT-HSH`, `TOPOLOGY`, `TOPOLOGY-MORPHOLOGY`
 
 ### `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/24.03.28•24.03.28•Tletlegomega Speculation Summary — raw.json`
 
