@@ -1,0 +1,53 @@
+
+\documentclass[preview]{standalone}
+\usepackage{amsmath, amssymb}
+\begin{document}
+\section*{SM embedding in foliation + axion framework (flat spacetime)}
+\noindent
+IR limit assumes approximate Lorentz invariance: $c_1 + c_3 \!=\! 0$, $|c_2|,|c_4|\!\ll\!1$; set $\zeta_F/M_F^2,\ \varepsilon_a/M_\psi \to 0$.
+\\[4pt]
+\textbf{Field content:} Standard Model gauge group $G_{\rm SM}=SU(3)_c\times SU(2)_L\times U(1)_Y$, chiral fermions $q_L,u_R,d_R,\ell_L,e_R$ (and $\nu_R$ optional), Higgs doublet $H$ (hypercharge $+1/2$), plus foliation clock $T$ and periodic scalar $\theta_4$ (period $2\pi/3$).
+\\[6pt]
+\textbf{Lagrangian:}
+\begin{align}
+\mathcal{L} &\;=\; \mathcal{L}_{\text{fol}} + \mathcal{L}_{\theta} + \mathcal{L}_{\text{gauge}}^{\rm SM} + \mathcal{L}_{\text{ferm}}^{\rm SM} + \mathcal{L}_{H} + \mathcal{L}_{Y} + \mathcal{L}_{\text{top}}^{\rm SM}\,.
+\\[4pt]
+\mathcal{L}_{\text{fol}} &\;=\; \lambda\!\left((\partial T)^2+1\right)
++ c_1(\partial_\mu u_\nu)(\partial^\mu u^\nu)
++ c_2(\partial_\mu u^\mu)^2
++ \frac{\tilde c_3}{M_u^2}\!\left(\Delta^{\alpha\beta}\partial_\alpha\partial_\beta u_\mu\right)^2 ,
+\\
+\mathcal{L}_{\theta} &\;=\; \frac{Z_\perp}{2}\Delta^{\mu\nu}\partial_\mu\theta_4\partial_\nu\theta_4
+- \frac{Z_\parallel}{2}(u^\mu\partial_\mu\theta_4)^2
+- \mu^2\cos(3\theta_4)
++ \frac{1}{2M_\theta^2}\!\left(\Delta^{\mu\nu}\partial_\mu\partial_\nu\theta_4\right)^2 ,
+\\
+\mathcal{L}_{\text{gauge}}^{\rm SM} &\;=\; -\frac14 G^A_{\mu\nu}G^{A\mu\nu}
+- \frac14 W^I_{\mu\nu}W^{I\mu\nu}
+- \frac14 B_{\mu\nu}B^{\mu\nu},
+\\
+\mathcal{L}_{\text{ferm}}^{\rm SM} &\;=\; \sum_{\text{gen}}\Big[\,
+\bar q_L i\slashed{D} q_L + \bar u_R i\slashed{D} u_R + \bar d_R i\slashed{D} d_R
++ \bar\ell_L i\slashed{D} \ell_L + \bar e_R i\slashed{D} e_R
++ \bar\nu_R i\slashed{D}\nu_R \Big] ,
+\\
+\mathcal{L}_H &\;=\; (D_\mu H)^\dagger(D^\mu H) - \lambda_H\!\left(H^\dagger H - \tfrac{v^2}{2}\right)^2 ,
+\\
+\mathcal{L}_Y &\;=\; - \bar q_L Y_u \tilde H u_R - \bar q_L Y_d H d_R - \bar \ell_L Y_e H e_R
+- \tfrac12\, \bar \nu_R^c M_R \nu_R - \bar \ell_L Y_\nu \tilde H \nu_R + \text{h.c.}\,,
+\\
+\mathcal{L}_{\text{top}}^{\rm SM} &\;=\; \frac{\kappa_3}{32\pi^2}\,\theta_4\, G^A_{\mu\nu}\tilde G^{A\mu\nu}
++ \frac{\kappa_2}{32\pi^2}\,\theta_4\, W^I_{\mu\nu}\tilde W^{I\mu\nu}
++ \frac{\kappa_1}{32\pi^2}\,\theta_4\, B_{\mu\nu}\tilde B^{\mu\nu}\,.
+\end{align}
+\textbf{Definitions:} $u_\mu = -\partial_\mu T / \sqrt{-(\partial T)^2}$, $\Delta^{\mu\nu}=\eta^{\mu\nu}+u^\mu u^\nu$, $\tilde X^{\mu\nu}=\tfrac12\epsilon^{\mu\nu\rho\sigma}X_{\rho\sigma}$, $\tilde H = i\sigma^2 H^*$.
+\\[6pt]
+\textbf{IR matching conditions (``Known Physics''):}
+\begin{itemize}
+\item $\langle H\rangle = v/\sqrt{2}$ with $v \simeq 246\ \text{GeV}$; reproduce $m_W = \tfrac12 g_2 v$, $m_Z = \tfrac12 \sqrt{g_1^2+g_2^2}\, v$, photon massless.
+\item Choose $Y_{u,d,e,\nu}$ to match observed fermion masses and mixings (CKM, PMNS); $M_R$ large gives see-saw if desired.
+\item Set $\zeta_F/M_F^2,\ \varepsilon_a/M_\psi \to 0$ at/near the weak scale; keep $c_1{+}c_3\!=\!0$ and $|c_{2,4}|\!\ll\!1$ so Lorentz tests are satisfied.
+\item Either (A) decouple $\theta_4$ from QCD/electroweak ($\kappa_i\!\to\!0$) to make it a spectator, or (B) identify $\theta_4$ as an axion-like field: choose $\kappa_3\neq0$ to address strong CP and ensure domain-wall number $N_{\rm DW}=3$ issues are controlled (e.g.\ by biasing or inflationary history).
+\end{itemize}
+\textbf{Notes:} Gauge group and chiral content exactly match the SM; foliation operators are irrelevant in the IR if their coefficients satisfy experimental bounds; higher-spatial-derivative terms regulate the UV but do not affect IR observables.
+\end{document}

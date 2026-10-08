@@ -1,0 +1,93 @@
+OPERATORS MANUAL — MASTER LAGRANGIAN (FOLIATION + AXION + YM + FERMIONS + TOPOLOGY)
+==================================================================================
+
+Central Clean Lagrangian
+------------------------
+We work in flat spacetime (η = diag(−,+,+,+)). The preferred foliation is defined
+by a scalar T(x), with unit-timelike vector u^μ = −∂^μ T / sqrt(−(∂T)^2).
+Projector onto spatial slices: Δ^{μν} = η^{μν} + u^μ u^ν.
+
+The clean Lagrangian is:
+
+  L = L_fol + L_theta + L_gauge + L_ferm + L_top
+
+with components:
+
+  L_fol =
+    λ ((∂T)^2 + 1)
+    + c1 (∂_μ u_ν)(∂^μ u^ν)
+    + c2 (∂_μ u^μ)^2
+    + (tilde c3 / M_u^2)(Δ^{αβ} ∂_α ∂_β u_μ)^2
+
+  L_theta =
+    (Z_⊥/2) Δ^{μν} ∂_μ θ4 ∂_ν θ4
+    − (Z_∥/2)(u^μ ∂_μ θ4)^2
+    − μ^2 cos(3 θ4)
+    + (1 / (2 M_θ^2)) (Δ^{μν} ∂_μ ∂_ν θ4)^2
+
+  L_gauge =
+    − 1/4 Σ_I F^I_{μν} F^{I μν}
+    + (ζ_F / 2M_F^2) Σ_I (Δ^{μα} Δ^{νβ} F^I_{μν} F^I_{αβ})
+
+  L_ferm =
+    Σ_a ψ̄_a (i γ^μ ∂_μ − m_a(θ4)) ψ_a
+    − Σ_{a,I} g_I ψ̄_a γ^μ A^I_μ T^I ψ_a
+    + Σ_a (ε_a / M_ψ) u_μ ψ̄_a γ^μ ψ_a
+
+  L_top =
+    (κ / 32π^2) θ4 Σ_I F^I_{μν} ˜F^{I μν}
+
+Definitions
+-----------
+- u_μ: preferred timelike unit vector, derived from T.
+- Δ^{μν}: spatial projector orthogonal to u^μ.
+- θ4: periodic scalar (periodicity 2π/3), potential V(θ4) = μ^2 cos(3θ4).
+- m_a(θ4): fermion mass function, respecting discrete symmetry, e.g. m0a + y sin^2 θ4.
+- F^I_{μν}: gauge field strengths, with ˜F^I the dual tensor.
+- κ: quantized coefficient for axion-like topological term.
+- M_•: suppression scales for higher-spatial-derivative operators.
+
+Operator Levels
+---------------
+We classify operators into levels:
+
+- A (Core): required by symmetries and IR viability (foliation basis, scalar θ4 kinetic & potential, YM, fermion kinetic/gauge, topological axion term).
+- B (Soft/technically natural): spurionic Lorentz-violating terms (e.g., u·J for fermions). Allowed, but numerically small; radiatively stable if symmetry protected.
+- C (UV regulators): higher-spatial-derivative operators, suppressed by heavy scales. Important for UV stability but negligible in IR.
+- D (Topological/discrete): quantized or cohomological terms (axion F ˜F, lattice/BF structures). Invisible in perturbation theory but crucial for global consistency.
+
+Constraint Anchors
+------------------
+- GW170817: gravitational-wave speed matched to c = 1 → imposes c1 + c3 ≈ 0 (|cT − 1| < 10^-15).
+- Solar-System & Pulsars: constrain c2, c4 to |c| ≲ 10^-5–10^-7.
+- SME Photon LIV: birefringence bounds |δc/c| down to 10^-15–10^-32 → ζ_F/M_F^2 suppressed.
+- SME Fermion LIV: atomic clocks/comagnetometers bound LV currents at 10^-20–10^-30 → ε_a tiny.
+- Axion-photon coupling: CAST, PDG: g_{aγγ} ≲ few × 10^-11 GeV^-1 for light axions.
+- EDMs: electron EDM |d_e| < 1.1 × 10^-29 e·cm; neutron EDM |d_n| < 1.8 × 10^-26 e·cm.
+
+Usage Guidelines
+----------------
+- Always enforce u^2 = −1 via λ term.
+- Keep Core (A) operators active; include Soft (B) with small coefficients; include UV (C) with large suppression scales; always retain Topological (D).
+- When adding gravity, promote η → g, ∂ → ∇, and use Einstein–Æther/Hořava basis (c1–c4 with c13=0).
+
+Baseline Settings
+-----------------
+- Foliation: c1 + c3 = 0; scan c2, c4 in allowed wedge.
+- Scalar θ4: Z_⊥ ≈ Z_∥ in IR; μ set by axion mass or defect tension.
+- Gauge: ζ_F → 0 in IR (set M_F large).
+- Fermion: ε_a ≈ 0 in IR (set small at matching scale).
+- Topological: κ quantized, consistent with anomaly cancellation.
+
+Operator Catalog
+----------------
+(see constraint_table_master_expanded.csv for full detail: sector, operator, symmetry,
+dimensionality, phenomenology, bounds, and baseline setting).
+
+--------------------------------------------------------------------------------
+This manual is a living document. Update experimental anchors regularly (PDG,
+SME tables, GW observations, EDM bounds, CAST/helioscopes). Keep all symmetry-
+allowed operators in the basis; prune only true redundancies (via IBP, EOM, or
+constraints).
+
+Date generated: 2025-09-13

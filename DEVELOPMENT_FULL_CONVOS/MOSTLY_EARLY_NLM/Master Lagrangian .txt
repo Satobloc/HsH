@@ -1,0 +1,42 @@
+Here’s the clean master Lagrangian in flat spacetime (η = diag(−,+,+,+)) for the foliation-based route, with only spatial higher derivatives (projected by Δ) and one preferred structure u^\mu defined by T.
+
+\boxed{
+\begin{aligned}
+\mathcal{L}
+&= \mathcal{L}{\text{fol}}+\mathcal{L}{\theta}+\mathcal{L}{\text{gauge}}+\mathcal{L}{\text{ferm}}+\mathcal{L}{\text{top}}
+\\[4pt]
+\mathcal{L}{\text{fol}}
+&= \lambda\!\left((\partial T)^2+1\right)
+	•	c_1\,(\partial_\mu u_\nu)(\partial^\mu u^\nu)
+	•	c_2\,(\partial_\mu u^\mu)^2
+	•	\frac{\tilde c_3}{M_u^{2}}\!\left(\Delta^{\alpha\beta}\partial_\alpha\partial_\beta u_\mu\right)^2
+\\[4pt]
+\mathcal{L}{\theta}
+&= \frac{Z\perp}{2}\,\Delta^{\mu\nu}\partial_\mu\theta_4\,\partial_\nu\theta_4
+
+	•	\frac{Z_\parallel}{2}\,(u^\mu\partial_\mu\theta_4)^2
+	•	\mu^2\cos\!\big(3\theta_4\big)
+
+	•	\frac{1}{2M_{\theta}^{2}}\!\left(\Delta^{\mu\nu}\partial_\mu\partial_\nu\theta_4\right)^2
+\\[4pt]
+\mathcal{L}{\text{gauge}}
+&= -\frac{1}{4}\sum_I F^I{\mu\nu}F^{I\,\mu\nu}
+	•	\frac{\zeta_F}{2M_F^{2}}\sum_I
+\big(\Delta^{\mu\alpha}\Delta^{\nu\beta}F^I_{\mu\nu}F^I_{\alpha\beta}\big)
+\\[4pt]
+\mathcal{L}{\text{ferm}}
+&= \sum_a \bar\psi_a\!\left(i\gamma^\mu\partial\mu - m_a(\theta_4)\right)\!\psi_a
+
+	•	\sum_{a,I} g_I\,\bar\psi_a\gamma^\mu A^I_\mu T^I\psi_a
+
+	•	\sum_a \frac{\varepsilon_a}{M_\psi}\,u_\mu\,\bar\psi_a\gamma^\mu\psi_a
+\\[4pt]
+\mathcal{L}{\text{top}}
+&= \frac{\kappa}{32\pi^2}\,\theta_4 \sum_I F^I{\mu\nu}\tilde F^{I\,\mu\nu}
+\end{aligned}}
+
+Definitions (minimal):
+u_\mu \equiv -\frac{\partial_\mu T}{\sqrt{-(\partial T)^2}},\qquad
+\Delta^{\mu\nu}\equiv \eta^{\mu\nu}+u^\mu u^\nu,\qquad
+\tilde F^{\mu\nu}\equiv \tfrac12 \epsilon^{\mu\nu\rho\sigma}F_{\rho\sigma}.
+\theta_4 is 2\pi/3-periodic; choose m_a(\theta_4) to respect this (e.g. m_{0a}+y_a’\sin^2\theta_4). All M_{\bullet} are high suppression scales.
