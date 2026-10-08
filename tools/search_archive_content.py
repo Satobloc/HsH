@@ -282,20 +282,93 @@ def sort_hits(hits:list[Hit],key:str,desc:bool)->None:
   return (h.timestamp or "9999",h.path,h.locator)
  hits.sort(key=k,reverse=desc)
 
+ARCHIVE_ALIASES={
+ "Satobloc/SAT_THEORY_ARCHIVE_2023-25":("SAT_THEORY_ARCHIVE_2023-25","archive"),
+ "Satobloc/HsH":("HsH","hsh-main","hsh"),
+ "Satobloc/HSH_RESOURCES":("HSH_RESOURCES","resources")
+}
+CHRONO_FIELDS=re.compile(r"\b(?:era|version|archive_date|origin|date_confidence|document_type|retrospective|date_mentioned|repo|repository):",re.I)
+EXAMPLES=[
+ 'python tools/search_archive_content.py --capabilities',
+ 'python tools/search_archive_content.py --expr \'"0.24" OR "optical phase"\' --result-mode files',
+ 'python tools/search_archive_content.py --expr \'("refractive index" NEAR/12 "phase shift")\'',
+ 'python tools/search_archive_content.py --expr \'era:early-2025 AND "phase shift"\' --sort origin',
+ 'python tools/search_archive_content.py --expr \'version:sat-mark-v AND "phase shift"\'',
+ 'python tools/search_archive_content.py --expr \'math:"B=3/(4*pi)"\'',
+ 'python tools/search_archive_content.py --archives-root /work --coverage',
+]
+def discover_archives(base:Path)->tuple[list[Path],list[str]]:
+ found=[];missing=[]
+ for repo,names in ARCHIVE_ALIASES.items():
+  hit=next((p for folder in (base,base.parent) for name in names
+            if (p:=folder/name).is_dir()),None)
+  if hit:found.append(hit)
+  else:missing.append(repo)
+ return found,missing
+
+def repo_for(path:Path,roots:list[Path])->str:
+ for root in sorted(roots,key=lambda p:len(p.parts),reverse=True):
+  try:path.relative_to(root)
+  except ValueError:continue
+  for repo,names in ARCHIVE_ALIASES.items():
+   if root.name in names:return repo
+  return root.name
+ return "(unknown)"
+
+def describe_capabilities()->dict[str,Any]:
+ return {"tool":TOOL_NAME,"version":TOOL_VERSION,
+   "help":"python tools/search_archive_content.py --help",
+   "examples":EXAMPLES,
+   "archives_default":list(ARCHIVE_ALIASES),
+   "archives_policy":"All discoverable archives searched by default; missing ones always reported.",
+   "query_operators":["AND","OR","NOT","NEAR/n","()",'"phrase"',"implicit AND"],
+   "fields":["body","math","name","path","ext","kind","has","author","speaker",
+     "role","title","conversation","cid","date","status","era","version",
+     "archive_date","origin","date_confidence","document_type",
+     "retrospective","date_mentioned","repo"],
+   "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md"],
+   "result_modes":["records","files"],"sorts":["date","origin","author","title","path"],
+   "cautions":["math normalization is not algebraic equivalence",
+     "chronology/version estimates are not hard dates",
+     "PRIOR_ART and QUARANTINE excluded by default",
+     "large files beyond --max-bytes skipped by legacy scanner",
+     "structured timestamps apply to messages, not quoted excerpts",
+     "no semantic/vector or CAS retrieval in this development version"]}
+
 def main()->int:
  ap=argparse.ArgumentParser(description=__doc__)
- ap.add_argument("roots",nargs="+",type=Path);ap.add_argument("--expr",help="Boolean/NEAR expression")
+ ap.add_argument("roots",nargs="*",type=Path,help="optional explicit corpus roots; absent means ALL discovered archives");ap.add_argument("--expr",help="Boolean/NEAR expression")
+ ap.add_argument("--archives-root",type=Path,default=Path("."),help="parent directory containing the three SAT/HsH archive checkouts")
+ ap.add_argument("--capabilities",action="store_true",help="print machine-readable commands, fields, modes, defaults and examples")
+ ap.add_argument("--examples",action="store_true",help="show working query examples")
+ ap.add_argument("--coverage",action="store_true",help="show available and missing default archives without running a search")
  ap.add_argument("--query",action="append",default=[],help="simple term/phrase; repeated values OR together")
  ap.add_argument("--near",type=int,default=10,help="default NEAR token window")
  ap.add_argument("--author",action="append",default=[]);ap.add_argument("--role",action="append",default=[])
- ap.add_argument("--date-from");ap.add_argument("--date-to");ap.add_argument("--sort",choices=["date","author","title","path"],default="date")
+ ap.add_argument("--date-from");ap.add_argument("--date-to");ap.add_argument("--sort",choices=["date","origin","author","title","path"],default="date")
  ap.add_argument("--descending",action="store_true");ap.add_argument("--group-by",choices=["none","author","conversation","date","title"],default="none")
  ap.add_argument("--topic-config",type=Path,help="JSON topics/aliases used for enrichment and concept graph")
  ap.add_argument("--out",type=Path,default=Path("indexes/topical/search"));ap.add_argument("--exclude",action="append",default=[])
  ap.add_argument("--max-bytes",type=int,default=25_000_000);ap.add_argument("--excerpt-chars",type=int,default=500)
  ap.add_argument("--viewer-root",type=Path,default=Path("."));ap.add_argument("--limit",type=int,default=0)
+ ap.add_argument("--offset",type=int,default=0,help="0-based offset after deterministic sorting")
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
  args=ap.parse_args()
+ if args.capabilities:
+  print(json.dumps(describe_capabilities(),ensure_ascii=False,indent=2));return 0
+ if args.examples:
+  print("\n".join(EXAMPLES));return 0
+ discovered,missing=discover_archives(args.archives_root)
+ if args.coverage:
+  print(json.dumps({"archives_requested":list(ARCHIVE_ALIASES),
+    "archives_discovered":[repo_for(p,discovered) for p in discovered],
+    "missing_archives":missing,"coverage_status":"complete" if not missing else "partial"},
+    ensure_ascii=False,indent=2));return 0
+ if not args.roots:
+  args.roots=discovered
+  if not args.roots:ap.error("No archive checkout found. Clone the three repositories beside HsH or provide explicit roots.")
+ if args.offset<0 or args.limit<0:ap.error("--offset and --limit must be nonnegative")
+ explicit_roots=bool(args.roots) and args.roots is not discovered
  if args.expr:query=args.expr
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
  else:ap.error("provide --expr or --query")
