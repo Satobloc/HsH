@@ -280,28 +280,40 @@ def evaluate(rec:Record,query:str,default_near:int)->Eval:
   st.append(term_eval(rec,tok))
  if len(st)!=1:raise ValueError("invalid query expression")
  return st[0]
-def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None=None)->Iterable[Path]:
- """Inventory exclusions are counted, not silently treated as full coverage."""
+def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None=None,
+              per_repository:dict[str,Counter]|None=None)->Iterable[Path]:
+ """Count exclusions per repository as well as globally; never silently imply full coverage."""
  stats=scan_stats if scan_stats is not None else Counter()
  seen=set()
  for root in roots:
   cand=[root] if root.is_file() else root.rglob("*")
   for p in cand:
    if not p.is_file():continue
+   repo=repo_for(p,roots)
+   local=per_repository.setdefault(repo,Counter()) if per_repository is not None else Counter()
+   local["files_discovered"]+=1
+   stats["files_discovered"]+=1
    try:key=p.resolve()
    except OSError:key=p
-   if key in seen:stats["duplicate_paths"]+=1;continue
+   if key in seen:
+    stats["duplicate_paths"]+=1;local["duplicate_paths"]+=1;continue
    seen.add(key)
-   if any(x in ex for x in p.parts):stats["excluded_by_policy"]+=1;continue
-   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:stats["unsupported_extension"]+=1;continue
+   if any(x in ex for x in p.parts):
+    stats["excluded_by_policy"]+=1;local["excluded_by_policy"]+=1;continue
+   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:
+    stats["unsupported_extension"]+=1;local["unsupported_extension"]+=1;continue
    try:
-    if max_bytes and p.stat().st_size>max_bytes:
-     stats["oversized_files_skipped"]+=1
+    size=p.stat().st_size
+    local["bytes_discovered"]+=size
+    if max_bytes and size>max_bytes:
+     stats["oversized_files_skipped"]+=1;local["oversized_files_skipped"]+=1
+     local["oversized_bytes_skipped"]+=size
      continue
    except OSError:
-    stats["inaccessible_files_skipped"]+=1
+    stats["inaccessible_files_skipped"]+=1;local["inaccessible_files_skipped"]+=1
     continue
-   stats["eligible_files"]+=1
+   stats["eligible_files"]+=1;local["eligible_files"]+=1
+   local["eligible_bytes"]+=size
    yield p
 def sha(path:Path,cache:dict[str,str])->str:
  k=str(path)
@@ -435,14 +447,15 @@ def main()->int:
   elif isinstance(row,dict):
    name=norm(row.get("topic") or row.get("name"));aliases=[name]+[norm(x) for x in row.get("aliases",[]) if norm(x)]
    if name:topics.append((name,list(dict.fromkeys(aliases))))
- viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter()
+ viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter();per_repo_stats={}
  authors={x.casefold() for x in args.author};roles={x.casefold() for x in args.role}
- for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats):
+ for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats,per_repo_stats):
   files+=1
   try:rel=path.relative_to(args.viewer_root).as_posix()
   except:rel=path.as_posix()
   vc=viewer.get(rel) or viewer.get(path.as_posix())
   repository=repo_for(path,args.roots)
+  per_repo_stats.setdefault(repository,Counter())["files_scanned"]+=1
   record_start=records
   chrono=Chronology(rel)
   requires_chrono=bool(CHRONO_FIELDS.search(query))
@@ -474,7 +487,11 @@ def main()->int:
    passage=Chronology(rel)
    passage.observe(rec.text,rec.locator,rec.kind,rec.timestamp,rec.capture_timestamp)
    hits[-1].passage_chronology=passage.result()
-  if records==record_start:scan_stats["files_without_readable_records"]+=1
+  per_repo_stats[repository]["records_scanned"]+=records-record_start
+  if records==record_start:
+   scan_stats["files_without_readable_records"]+=1
+   per_repo_stats[repository]["files_without_readable_records"]+=1
+  per_repo_stats[repository]["matching_records"]+=len(hits)-hit_start
   if len(hits)>hit_start:
    if not requires_chrono:
     for original in iter_records(path):
@@ -541,6 +558,7 @@ def main()->int:
   "content_coverage_status":content_coverage_status,
   "content_coverage_warning":content_coverage_warning,
   "content_coverage_gaps":content_gaps,
+  "coverage_by_repository":{name:dict(per_repo_stats.get(name,{})) for name in ARCHIVE_ALIASES},
   "inventory_limitations":dict(scan_stats),
   "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
   "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
