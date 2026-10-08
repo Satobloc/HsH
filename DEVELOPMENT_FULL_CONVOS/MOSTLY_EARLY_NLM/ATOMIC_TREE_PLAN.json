@@ -1,0 +1,17 @@
+{
+  "base_commit": "296fd66e0ded7b3017748b4d17b2c75be3c134d6",
+  "target_branch": "review/rook-iv-bibliography-policy",
+  "paths": [
+    "tools/archive_source_policy.py",
+    "tools/index_papers.py",
+    "tools/extract_papers.py",
+    "tests/test_tools.py",
+    "tests/test_archive_source_policy.py",
+    ".github/workflows/extract-papers.yml"
+  ],
+  "mode": "100644",
+  "type": "blob",
+  "pre_ref_gate": "python -m unittest discover -s tests -v + normalized index-state equivalence",
+  "commit2_allowed": false,
+  "bibliography_regeneration_allowed": false
+}

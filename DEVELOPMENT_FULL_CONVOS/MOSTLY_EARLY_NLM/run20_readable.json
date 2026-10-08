@@ -1,0 +1,362 @@
+[
+  {
+    "generation": 1,
+    "mutation": "F_LAB_ID: 'Nellibeth-2' -> 'unknown_other_project'",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "historical scaffold survives provisionally",
+      "logic": "endangered",
+      "function": "endangered",
+      "meaning": "deeply changed",
+      "surface": "source conflict / replacement required",
+      "note": "World truth changed, but v0.2 does not yet validate all dependent beliefs, revelations, or prose against changed facts."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 2,
+    "mutation": "R_N2_REINT: corrects -> fails_to_correct",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_N2_REINT",
+        "severity": "hard",
+        "message": "required relation changed corrects -> fails_to_correct"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 3,
+    "mutation": "R_ND_N2: sets_up -> unrelated_to",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_ND_N2",
+        "severity": "hard",
+        "message": "required relation changed sets_up -> unrelated_to"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 4,
+    "mutation": "R_LAB_MIS: causes -> does_not_cause",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_LAB_MIS",
+        "severity": "hard",
+        "message": "required relation changed causes -> does_not_cause"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 5,
+    "mutation": "R_PAT_SALE: reduces_expected_offer -> does_not_affect",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_PAT_SALE",
+        "severity": "hard",
+        "message": "required relation changed reduces_expected_offer -> does_not_affect"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 6,
+    "mutation": "R_DEBT_JOB: motivates -> background_only",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_DEBT_JOB",
+        "severity": "hard",
+        "message": "required relation changed motivates -> background_only"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 7,
+    "mutation": "R_DOUG_MIS: reinforces -> does_not_reinforce",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_DOUG_MIS",
+        "severity": "hard",
+        "message": "required relation changed reinforces -> does_not_reinforce"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 8,
+    "mutation": "F_PATENT: True -> False",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "historical scaffold survives provisionally",
+      "logic": "endangered",
+      "function": "endangered",
+      "meaning": "deeply changed",
+      "surface": "source conflict / replacement required",
+      "note": "World truth changed, but v0.2 does not yet validate all dependent beliefs, revelations, or prose against changed facts."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 9,
+    "mutation": "R_LIE_TRUTH: later_contradicted_by -> unrelated_to",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_LIE_TRUTH",
+        "severity": "hard",
+        "message": "required relation changed later_contradicted_by -> unrelated_to"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 10,
+    "mutation": "R_POULA_JOB: supplies_reputational_value -> irrelevant_to",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "survives",
+      "logic": "survives provisionally",
+      "function": "changed or weakened",
+      "meaning": "may change",
+      "surface": "often reusable",
+      "note": "Committed relation change exposes a missing functional dependency if the ending/arc no longer performs the same job."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 11,
+    "mutation": "R_N_N2: replaces_with_difference -> echoes_but_does_not_replace",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_N_N2",
+        "severity": "hard",
+        "message": "required relation changed replaces_with_difference -> echoes_but_does_not_replace"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 12,
+    "mutation": "B_READER_RAYNE (reader about F_RAYNE_DRANK): believes_true/medium -> suspects/low",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "unchanged",
+      "logic": "survives",
+      "function": "epistemic function altered",
+      "meaning": "changed for belief-holder",
+      "surface": "may remain verbatim until a later action depends on belief",
+      "note": "A belief-state mutation can alter suspense/misdirection without changing world truth."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 13,
+    "mutation": "B_MAC_DOUG (MAC about F_POULA_DOUG): believes_true/high -> suspects/low",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "unchanged",
+      "logic": "survives",
+      "function": "epistemic function altered",
+      "meaning": "changed for belief-holder",
+      "surface": "may remain verbatim until a later action depends on belief",
+      "note": "A belief-state mutation can alter suspense/misdirection without changing world truth."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 14,
+    "mutation": "Poula reveals Nellibeth-2 and true identity of concealed project: story_order 17 -> 13",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "survives, moved in telling",
+      "logic": "survives provisionally",
+      "function": "potentially altered by reveal timing",
+      "meaning": "reader interpretation timing changes",
+      "surface": "reordering required",
+      "note": "Current engine has no chronology/reveal-order validator, so this commits even when it may expose information too early."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 15,
+    "mutation": "B_READER_DOUG (reader about F_POULA_DOUG): suspects/medium -> believes_true/high",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "unchanged",
+      "logic": "survives",
+      "function": "epistemic function altered",
+      "meaning": "changed for belief-holder",
+      "surface": "may remain verbatim until a later action depends on belief",
+      "note": "A belief-state mutation can alter suspense/misdirection without changing world truth."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 16,
+    "mutation": "R_DOUG_REINT: corrects -> fails_to_correct",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_DOUG_REINT",
+        "severity": "hard",
+        "message": "required relation changed corrects -> fails_to_correct"
+      }
+    ],
+    "buds": 1
+  },
+  {
+    "generation": 17,
+    "mutation": "B_POULA_RAYNE (POULA about F_RAYNE_DRANK): believes_true/high -> suspects/low",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "unchanged",
+      "logic": "survives",
+      "function": "epistemic function altered",
+      "meaning": "changed for belief-holder",
+      "surface": "may remain verbatim until a later action depends on belief",
+      "note": "A belief-state mutation can alter suspense/misdirection without changing world truth."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 18,
+    "mutation": "Doug reveals he modified himself: story_order 16 -> 12",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "survives, moved in telling",
+      "logic": "survives provisionally",
+      "function": "potentially altered by reveal timing",
+      "meaning": "reader interpretation timing changes",
+      "surface": "reordering required",
+      "note": "Current engine has no chronology/reveal-order validator, so this commits even when it may expose information too early."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 19,
+    "mutation": "F_RAYNE_DRANK: False -> True",
+    "outcome": "committed",
+    "diagnostic": {
+      "event": "historical scaffold survives provisionally",
+      "logic": "endangered",
+      "function": "endangered",
+      "meaning": "deeply changed",
+      "surface": "source conflict / replacement required",
+      "note": "World truth changed, but v0.2 does not yet validate all dependent beliefs, revelations, or prose against changed facts."
+    },
+    "issues": [],
+    "buds": 0
+  },
+  {
+    "generation": 20,
+    "mutation": "R_CLASS_JOB: supplies_qualification -> irrelevant_to",
+    "outcome": "blocked",
+    "diagnostic": {
+      "event": "preserved (mutation rejected)",
+      "logic": "protected",
+      "function": "protected",
+      "meaning": "unchanged",
+      "surface": "unchanged",
+      "note": "Hard invariant rejected the mutation; repair requirement recorded as a latent bud."
+    },
+    "issues": [
+      {
+        "dependency": "R_CLASS_JOB",
+        "severity": "hard",
+        "message": "required relation changed supplies_qualification -> irrelevant_to"
+      }
+    ],
+    "buds": 1
+  }
+]
