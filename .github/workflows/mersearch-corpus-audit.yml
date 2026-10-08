@@ -1,0 +1,42 @@
+name: Mersearch Three-Repository Corpus Audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: engine
+          filter: blob:none
+          sparse-checkout: |
+            tools/search_archive_content.py
+            tools/mersearch_chronology.py
+      - uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+      - uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HsH
+          path: hsh-main
+      - uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: resources
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inventory and bounded search
+        run: |
+          mkdir -p audit
+          python engine/tools/search_archive_content.py --archives-root . --coverage > audit/checkouts.json
+          python engine/tools/search_archive_content.py archive hsh-main resources --expr '"holonomy"' --max-bytes 1000000 --limit 5 --out audit/search
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mersearch-corpus-audit
+          path: audit
