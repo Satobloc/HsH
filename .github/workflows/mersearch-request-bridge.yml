@@ -52,6 +52,12 @@ jobs:
           repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
           path: archive
           fetch-depth: 1
+      - name: Checkout HSH_RESOURCES
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: resources
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -62,6 +68,7 @@ jobs:
           echo "hsh_sha=$(git -C hsh-main rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "mersearch_sha=$(git -C mersearch rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "archive_sha=$(git -C archive rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "resources_sha=$(git -C resources rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "mersearch_script_sha256=$(sha256sum mersearch/tools/search_archive_content.py | awk '{print $1}')" >> "$GITHUB_OUTPUT"
       - name: Run Mersearch
         id: run_mersearch
@@ -89,7 +96,7 @@ jobs:
               f.write('runtime_script_sha256='+digest+'\n')
               f.write('identity_hotfix_applied='+str(hotfix).lower()+'\n')
           PY
-          python /tmp/mersearch-runtime.py archive --expr "$QUERY" --sort date --out /tmp/mersearch-request
+          python /tmp/mersearch-runtime.py archive hsh-main resources --expr "$QUERY" --sort date --out /tmp/mersearch-request
           test -s /tmp/mersearch-request/SEARCH_RESULTS.json
           test -s /tmp/mersearch-request/SEARCH_RESULTS.md
       - name: Build run manifest
@@ -100,6 +107,7 @@ jobs:
           HSH_SHA: ${{ steps.inputs.outputs.hsh_sha }}
           MERSEARCH_SHA: ${{ steps.inputs.outputs.mersearch_sha }}
           ARCHIVE_SHA: ${{ steps.inputs.outputs.archive_sha }}
+          RESOURCES_SHA: ${{ steps.inputs.outputs.resources_sha }}
           MERSEARCH_SCRIPT_SHA256: ${{ steps.inputs.outputs.mersearch_script_sha256 }}
           RUNTIME_SCRIPT_SHA256: ${{ steps.run_mersearch.outputs.runtime_script_sha256 }}
           IDENTITY_HOTFIX_APPLIED: ${{ steps.run_mersearch.outputs.identity_hotfix_applied }}
@@ -115,10 +123,18 @@ jobs:
             'mersearch_ref':'mersearch-stable-1.0',
             'mersearch_commit':os.environ['MERSEARCH_SHA'],
             'source_repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25',
+            'source_repositories':[
+              {'repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25','commit':os.environ['ARCHIVE_SHA'],'root':'archive/'},
+              {'repository':'Satobloc/HsH','commit':os.environ['HSH_SHA'],'root':'hsh-main/'},
+              {'repository':'Satobloc/HSH_RESOURCES','commit':os.environ['RESOURCES_SHA'],'root':'resources/'}
+            ],
+            'archives_requested':['Satobloc/SAT_THEORY_ARCHIVE_2023-25','Satobloc/HsH','Satobloc/HSH_RESOURCES'],
+            'scope_note':'All three checked-out repositories searched; extension, size and policy exclusions still apply.',
             'source_commit':os.environ['ARCHIVE_SHA'],
             'request_repository':'Satobloc/HsH',
             'request_commit':os.environ['HSH_SHA'],
-            'read_root':'archive/',
+            'read_root':'archive/ hsh-main/ resources/',
+            'read_roots':['archive/','hsh-main/','resources/'],
             'write_root':'indexes/mersearch_requests/<request_id>/',
             'write_class':'derived/generated output',
             'default_exclusions':['QUARANTINE','PRIOR_ART'],
