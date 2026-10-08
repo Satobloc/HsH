@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-08T02:25:15.363629+00:00",
+  "generated_at_utc": "2026-10-08T02:27:45.266143+00:00",
   "design": "manual registrations plus structurally discovered public cross-repo conversations; private resources excluded",
   "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
   "source_branch": "main",
