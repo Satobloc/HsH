@@ -57,7 +57,10 @@ class Hit:
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
  if x in (None,""):return ""
- try:return datetime.fromtimestamp(float(x),timezone.utc).isoformat()
+ try:
+  v=float(x)
+  if abs(v)>1e11:v/=1000  # millisecond Unix epoch
+  return datetime.fromtimestamp(v,timezone.utc).isoformat()
  except:return norm(x)
 def content_text(c:Any)->str:
  if isinstance(c,str):return c
@@ -202,10 +205,10 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if field in ("era","version","archive_date","origin","date_confidence","document_type","retrospective","date_mentioned","repo","repository"):
   meta=rec.chronology or {}
   if field=="era":target=" ".join(meta.get("era_labels",[]))
-  elif field=="version":target=" ".join(v["name"] for v in meta.get("version_evidence",[]))
+  elif field=="version":target=" ".join(v["name"] for v in meta.get("version_evidence",[]));val=val.replace(" ","-")
   elif field=="archive_date":target=meta.get("archive_date","")
   elif field=="origin":target=meta.get("estimated_origin_start","")
-  elif field=="date_mentioned":target=" ".join(x for x in (meta.get("earliest_date_mentioned",""),meta.get("latest_date_mentioned","")) if x)
+  elif field=="date_mentioned":target=" ".join(e["value"] for e in meta.get("date_evidence",[]) if e["kind"]=="date_mentioned")
   elif field=="date_confidence":target=meta.get("date_confidence","")
   elif field=="document_type":target=meta.get("document_type","")
   elif field=="retrospective":target=str(meta.get("retrospective_possible",False)).lower()
