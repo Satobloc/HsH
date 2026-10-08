@@ -1,0 +1,1600 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Chronostructure: Geometry of Time, Matter, and Constants",
+    "notebook_id": "4d6b4dbc-00f4-4526-8da9-cdf7e6a976b7",
+    "notebook_url": "https://notebook.google.com/notebook/4d6b4dbc-00f4-4526-8da9-cdf7e6a976b7?authuser=1",
+    "captured_at": "2026-10-08T01:32:10.517Z",
+    "visible_source_count": 24,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 32
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What specific diagrams illustrate core SAT concepts best?",
+      "citations": [],
+      "key": "abc348fc"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The core concepts of Scalar–Angular Theory (SAT), also known as the Chronophysical Structure Proposition, are best illustrated through diagrams that visualize the fundamental geometric interaction between one-dimensional filaments (particle worldlines) and the sweeping time surface (Σ\nt\n\t​\n\n)\n1\nmore_horiz\n.\nThe sources provide both specific image examples and descriptions of key geometric visualizations necessary to understand SAT's foundational principles.\nI. Fundamental Ontology and Motion\nThe foundational principle that geometry comes first\n6\n7\n is illustrated by diagrams showing how motion is an emergent phenomenon resulting from structure:\nFilament Intersecting the Time Surface (Σ\nt\n\t​\n\n): This visualization shows the 4D physical structure (the filament) being sliced by the propagating 3D time surface\n8\n.\nA straight filament, nearly perpendicular to the time surface, produces a particle at rest\n7\n.\nA diagonal filament creates a particle in motion, and curved filaments produce accelerating particles\n6\nmore_horiz\n.\nThe particle is the intersection; the filament is the physical thing\n7\nmore_horiz\n.\nHelical Filaments and Branes: Specific sketches show a helical filament (labeled as a 1-brane) passing through a planar surface (labeled as a 3-brane, representing the time surface)\n8\n. This helix represents a particle's worldline through spacetime\n13\n.\nII. Mass, Spin, and the Angular Constraint (θ\n4\n\t​\n\n)\nCore dynamic concepts like mass and spin are tied to the geometric angle of intersection between the filament and the time surface:\nThe Misalignment Angle (θ\n4\n\t​\n\n): Diagrams illustrate the angle (θ\n4\n\t​\n\n) between the filament’s tangent vector (v\nμ\n) and the time surface normal (u\nμ\n)\n14\nmore_horiz\n.\nThe gross or absolute angle of intersection (θ\n4\n\t​\n\n) is considered a primary contributor to imparting mass as an energetic transfer from the wavefront to the filaments\n18\n.\nIn a basic visualization, energy flux is shown to be zero when filaments are perpendicular to the Time(T) axis (vacuum), but is non-zero (E\nin\n\t​\n\n(θ\n4\n\t​\n\n)) when the filament is angled\n14\n.\nTwisted Ribbon Model: This visualization explicitly shows that the cross-section of a twisted filament (the particle) appears to be spinning\n19\n.\nThe diagram labels High θ patches that correspond to the intersection points of a moving or rotating particle, illustrating how the angle of the structure determines the local physics observed\n19\n. Mass arises from persistent θ-twist along a filament\n20\n.\nIII. Particle Classification as Topological Bundles\nThe Standard Model particle classes (fermions) are visualized as stable topological arrangements of filaments, which correspond to specific integer values of topological charge (Q)\n21\nmore_horiz\n:\nTopological Diagram\n\nCore SAT Concept\n\nParticle Class Analog\n\nTopological Charge (Q)\n\nUnbound Filament\n\nSingle, persistent line\n\nNeutrino analog\n24\n\nQ=1\n21\n25\n\nHopf Link\n\nTwo intertwined filaments\n\nMeson class (fermionic matter field Ψ)\n26\n27\n\nQ=2\n21\n25\n\nBorromean Rings\n\nThree triple-linked filaments (no pairwise linkage)\n\nBaryon class (e.g., proton/neutron)\n21\nmore_horiz\n\nQ=3\n21\n25\n\nTrefoil Knot\n\nFour linked filaments or a complex knot\n\nUnstable exotic hadrons (e.g., Tetraquark)\n23\n\nQ=4\n23\nThe rule that only Q≤3 configurations are SAT-stable provides a strong falsifiability constraint\n21\n23\n.\nIV. Interactions, Forces, and Unification\nForce carriers (bosons) are not independent filaments but ripples or structural transformations propagating across the fermionic filament lattice\n29\nmore_horiz\n.\nFilament-to-Filament Interactions: Sketches show fundamental topological interaction types that translate to physics, such as coiling, recombinations/bundling, splitting/annihilation, and simple crossings\n32\n. Gauge couplings emerge from the density of these linking classes (ρ\nwind\n\t​\n\n,ρ\nlink\n\t​\n\n,ρ\ntriplet\n\t​\n\n)\n33\n34\n.\nUnification with General Relativity: A visualization demonstrates how a helical filament bundle (representing particle content and quantum chromodynamics) locally bends the large blue surface (representing General Relativity/spacetime)\n35\n.\nGravity is reframed as filament tension deforming the time surface\n36\nmore_horiz\n.\nLight (photons/ripples) is reframed as the time surface pushing ripples into the filaments\n37\n38\n. This highlights a proposed weird symmetry between gravity and light as reciprocal actions across the time surface\n38\n39\n.\nBosons as Ripples: Photons are specifically described as transverse vibrations along filaments that are nearly aligned with the time surface, propagating without mass\n40\n41\n. The concept of bosons as vibrational or torsional patterns (ripples) propagating along the filament lattice is the key visualization for all forces\n30\nmore_horiz\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "5a82ef09"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Ok, write instructions for drawing precise mathematically constrained diagrammatic illustrations of the core concepts of SAT. These should be accurate, drawing from the Fundamental Intuitions for conceptual guidance, and using full mathematical annotation to describe what the diagrams are showing",
+      "citations": [],
+      "key": "be45220b"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The core of Scalar–Angular Theory (SAT), also known as the Chronophysical Structure Proposition, lies in treating particle worldlines as fundamental 4D geometric structures (filaments) interacting with a sweeping 3D boundary (the time surface)\n1\nmore_horiz\n.\nThe following instructions detail the construction of four key diagrams that visualize the SAT geometric hierarchy, from foundational ontology to particle dynamics, complete with the mathematical constraints defining their elements. All diagrams should be interpreted in Interpretive Mode 1 (True Block), where all dynamics emerge from slicing a static 4D structure\n4\n.\n\n--------------------------------------------------------------------------------\n\nDiagram 1: Fundamental Ontology and Emergent Motion\nThis diagram illustrates the core postulate of SAT: Geometry comes first\n5\n6\n. Motion is a direct emergent consequence of structure\n1\n5\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nI. Manifold and Axes\n\nDraw a 4D spacetime coordinate system, focusing on one spatial dimension (x) and the time dimension (t), with t vertical\n7\n.\n\nManifold M; Coordinates (t,x\n1\n,x\n2\n,x\n3\n)\n\nII. Time Surface (Σ\nt\n\t​\n\n)\n\nDraw a propagating 3D surface (a plane or subtle curve) slicing across the manifold\n8\n9\n. Label a local unit normal vector, u\nμ\n(x), pointing in the time direction.\n\nΣ\nt\n\t​\n\n⊂M: The Resolving Time Wavefront\n1\n10\n. u\nμ\n: Unit Timelike Vector, u\nμ\nu\nμ\n\t​\n\n=−1\n9\n11\n.\n\nIII. Filaments (γ)\n\nDraw several one-dimensional lines (filaments) extending through t and x\n1\n.\n\nγ\nμ\n(λ): Filament worldline parameterized by λ\n9\n12\n. v\nμ\n=dγ\nμ\n/dλ: Filament Tangent Vector\n9\n12\n.\n\nIV. Particle/Motion\n\n1. Draw a straight filament nearly parallel to the t-axis (perpendicular to Σ\nt\n\t​\n\n's tangent plane). 2. Draw a diagonal filament angled with respect to the t-axis\n5\n. Mark the point of intersection on Σ\nt\n\t​\n\n for each.\n\nParticle Definition: Particle=γ∩Σ\nt\n\t​\n\n2\n13\n. At Rest: v\nμ\n is aligned with u\nμ\n. In Motion: v\nμ\n is misaligned from u\nμ\n5\n. Curved Filaments (acceleration) should also be sketched\n5\n.\n\nV. Filament Form\n\nOptional: Label the filaments as 1-branes and the time surface as a 3-brane\n14\n. Sketch the hyperhelical nature of the filament as a coil or helix\n15\n16\n.\n\nγ\nμ\n(λ)=(λ,A\nx\n\t​\n\nsin(k\nx\n\t​\n\nλ+ϕ\nx\n\t​\n\n),…) (Hyperhelical Embedding)\n15\n.\n\n--------------------------------------------------------------------------------\n\nDiagram 2: Emergent Mass and Angular Constraints (θ\n4\n\t​\n\n)\nThis diagram focuses on the local geometric interaction that gives rise to inertial mass, which is a function of the angular misalignment between the filament and the time surface\n17\n18\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nI. Torsional Mass Origin\n\nSketch the four-dimensional intersection of a filament (γ) and the time surface (Σ\nt\n\t​\n\n). Use orthogonal axes labeled Time (T) and Energy (E)\n7\n.\n\nMass/Energy Origin: Energy flux transfer from Σ\nt\n\t​\n\n to γ\n7\n18\n.\n\nII. Misalignment Angle\n\nFocus on the local intersection point. Draw the filament tangent (v\nμ\n) and the time surface normal (u\nμ\n). Clearly label the angle between them as θ\n4\n\t​\n\n7\n18\n.\n\nθ\n4\n\t​\n\n(x)=arccos(\n∣v∣∣u∣\nv\nμ\nu\nμ\n\t​\n\n\t​\n\n) (Misalignment Angle)\n19\n20\n.\n\nIII. Energy Flux\n\nContrast two cases: Vacuum (Filament nearly parallel to T-axis, low θ\n4\n\t​\n\n) and Matter (Filament diagonal, high θ\n4\n\t​\n\n)\n7\n. Draw small arrows indicating Energy Flux (E\nflux\n\t​\n\n).\n\nVacuum: θ\n4\n\t​\n\n≈0 (perpendicular intersection in Minkowski space), E\nflux\n\t​\n\n=0\n7\n. Mass/Matter: θ\n4\n\t​\n\n\n=0, E\nflux\n\t​\n\n=E\nin\n\t​\n\n(θ\n4\n\t​\n\n)\n\n=0\n7\n18\n. Mass arises from persistent θ-twist along a filament\n21\n.\n\nIV. Twist and Spin\n\nDraw the Twisted Ribbon Model\n22\n. Show a helical filament being sliced by a curved surface (representing Σ\nt\n\t​\n\n). Inset a zoomed-in cross-section showing the particle appearing to spin\n22\n.\n\nSpin is an emergent geometric quantum number derived from the internal twist of filament bundles\n23\n. The cross-section is the intersection point, appearing to rotate due to the persistent torsion\n22\n. Mass is related to persistent angular torsion τ\nχ\n\t​\n\n21\n24\n.\n\n--------------------------------------------------------------------------------\n\nDiagram 3: Fermion Classification as Topological Bundles\nThis diagram shows how stable Standard Model fermion classes (lepton/quark families) emerge as discrete topological invariants of linked filament bundles, defined by Topological Charge Q\n25\n26\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nI. Unbound Filament\n\nDraw a single, smooth, persistent filament\n25\n.\n\nQ=1: Leptons/Neutrino Analog\n25\nmore_horiz\n. Mass Scaling: m∼m\n0\n\t​\n\n/Q\n24\n28\n.\n\nII. Linked Pair (Hopf)\n\nDraw two filaments intertwined in a minimal linked pair (Hopf link)\n25\n29\n.\n\nQ=2: Meson Class (Fermionic matter field Ψ)\n25\nmore_horiz\n. Mass Scaling: m∼m\n0\n\t​\n\n/2\n25\n28\n. Gauge Group: SU(2) emergent from phase alignment n=2\n30\nmore_horiz\n.\n\nIII. Triple Link (Borromean)\n\nDraw three filaments configured as Borromean Rings (triple-linked but no pairwise linkage)\n25\n.\n\nQ=3: Baryon Class (e.g., proton/neutron)\n25\nmore_horiz\n. Mass Scaling: m∼m\n0\n\t​\n\n/3\n25\n28\n. Gauge Group: SU(3) emergent from triality n=3\n30\nmore_horiz\n.\n\nIV. Falsifiability\n\nDraw a fourth, more complex arrangement (e.g., a Trefoil knot or a four-filament bundle)\n27\n.\n\nQ=4: Unstable/Exotic Hadrons (e.g., Tetraquark)\n27\n. Falsifiability Constraint: Stable bound states exist only for n≤3\n26\nmore_horiz\n.\n\nV. Charge Quantization\n\nAnnotate the quantization mechanism arising from compact phase holonomy Φ(γ).\n\nCharge Quantization: Φ(γ)=∮\nγ\n\t​\n\nA\nμ\n\t​\n\n(θ)dx\nμ\n∈2πZ (Holonomy drives quantization)\n35\nmore_horiz\n.\n\n--------------------------------------------------------------------------------\n\nDiagram 4: Forces, Gravity, and Unification\nThis diagram illustrates the derivation of fundamental forces and spacetime curvature from the geometry and tension of the filament structure, highlighting the matter-force dichotomy\n38\n39\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nI. Gravity as Tension\n\nDraw a tight, twisting, multi-colored helical bundle (representing particle content/QCD)\n40\n. Show this bundle lying on and slightly depressing/curving a large blue surface (representing the gravitational background/Time Surface).\n\nEmergent Metric: g\nμν\n\t​\n\n(x)=(⟨v\nμ\n\t​\n\nv\nν\n\t​\n\n⟩\nF\n\t​\n\n(x))\n−1\n (Lorentzian metric sourced by filament statistics)\n41\n42\n. Curvature: Gravity is filament tension deforming the time surface\n43\nmore_horiz\n. Gravitational Action: L\ngrav\n\t​\n\n∝R\n46\n47\n.\n\nII. Light as Ripple\n\nOn the helical bundle, draw small, rapid transverse oscillations or waves propagating along the filament\n48\n49\n. Label these Ripples or Patterns\n38\n50\n.\n\nBosons as Ripples: Photons are transverse vibrations along low-θ filaments\n48\n49\n. Force is Pattern\n38\n. Gauge coupling derived from filament density (ρ\nG\n\t​\n\n): g\nG\n−2\n\t​\n\n(x)∼ρ\nG\n\t​\n\n(x)ℓ\nf\n2\n\t​\n\n51\nmore_horiz\n.\n\nIII. Force Transmission\n\nShow a localized interaction event (e.g., two filaments crossing\n54\n). Show a ripple transferring from one filament to another at this intersection\n49\n.\n\nInteraction: Interactions occur as geometric transformations or structural adjustments\n55\n56\n. Fermions are Filaments; Bosons are Ripples\n38\n.\n\nIV. Gravity/Light Symmetry\n\nAnnotate the relationship between the two main arrows of energy/influence acting on Σ\nt\n\t​\n\n and the filaments\n57\n.\n\nReciprocity (Weird Symmetry): Gravity: Filament tension exerts back force onto Σ\nt\n\t​\n\n44\n. Light: Σ\nt\n\t​\n\n pushes ripples into the filaments\n39\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "50",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "54",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "55",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "56",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "57",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "87759236"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Ok, distill that down to be a little more concise",
+      "citations": [],
+      "key": "bea88bce"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "The instructions for drawing precise, mathematically constrained diagrams of Scalar–Angular Theory (SAT) can be distilled into four foundational visualizations that illustrate the core geometric, topological, and dynamical principles of the framework.\nAll diagrams are understood within Interpretive Mode 1 (True Block), where all observed motion is emergent from slicing a static 4D geometric structure\n1\n2\n.\n1. Fundamental Ontology and Emergent Motion\nThis visualization establishes the minimal ontology: Geometry comes first\n3\n. The particle is defined by the cross-section of the 4D filament as it is intersected by the sweeping time surface\n2\n4\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nSpacetime Manifold\n\nDraw 4D axes (Time t vs. Space x).\n\nManifold M; Coordinates (t,x\n1\n,x\n2\n,x\n3\n)\n5\n6\n.\n\nTime Surface (Σ\nt\n\t​\n\n)\n\nDraw a 3D surface propagating across M. Label the unit normal vector, u\nμ\n.\n\nΣ\nt\n\t​\n\n⊂M: The Resolving Time Wavefront. u\nμ\n: Unit Timelike Vector, u\nμ\nu\nμ\n\t​\n\n=−1\n7\n8\n.\n\nFilament (γ)\n\nDraw a continuous line extending through t and x, representing the fermion worldline\n4\nmore_horiz\n.\n\nγ\nμ\n(λ): Filament worldline. v\nμ\n=dγ\nμ\n/dλ: Filament Tangent Vector\n10\n.\n\nMotion\n\nShow the particle as the intersection γ∩Σ\nt\n\t​\n\n4\n. A filament diagonal to the t-axis produces a moving particle; a filament perpendicular to Σ\nt\n\t​\n\n (parallel to t-axis) produces a particle at rest\n3\n.\n\nParticle=γ∩Σ\nt\n\t​\n\n. Motion emerges from misalignment of v\nμ\n and u\nμ\n1\n3\n.\n2. Mass, Spin, and Angular Constraint\nThis diagram focuses on how particle properties like mass and spin arise from the local geometric configuration of the filament relative to the time surface\n11\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nMisalignment Angle\n\nZoom in on the intersection point. Draw the filament tangent (v\nμ\n) and the time surface normal (u\nμ\n). Label the angle between them as θ\n4\n\t​\n\n12\n.\n\nθ\n4\n\t​\n\n(x)=arccos(\n∣v∣∣u∣\nv\nμ\nu\nμ\n\t​\n\n\t​\n\n) (The Misalignment Angle)\n12\n.\n\nMass Origin\n\nContrast a perpendicular filament (θ\n4\n\t​\n\n≈0) with a diagonal filament (θ\n4\n\t​\n\n\n=0). Mass is proportional to persistent angular torsion (τ\nχ\n\t​\n\n) or θ-twist along the filament\n11\n13\n.\n\nMass is emergent from local geometric angularity (θ)\n14\n. Mass arises from energy flux transfer E\nflux\n\t​\n\n(θ\n4\n\t​\n\n)\n13\n.\n\nSpin\n\nSketch the Twisted Ribbon Model or a helical filament. Show that the 3D cross-section appears to rotate due to the persistent torsion\n11\n.\n\nSpin is an emergent geometric quantum number derived from the internal twist of filament bundles\n4\n11\n.\n3. Fermion Classification and Topology\nFermions (matter) are modeled as stable, composite arrangements of linked filaments, defined by topological invariants\n4\nmore_horiz\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nTopological Charge Q\n\nIllustrate three topologically distinct and stable filament configurations: Single Unbound Line (Q=1, Neutrino analog); Hopf Link (Q=2, Meson/Lepton analog); Borromean Rings (Q=3, Baryon analog)\n15\n.\n\nTopological Invariant: Q=L\nwind\n\t​\n\n+L\nlink\n\t​\n\n+W\nwrithe\n\t​\n\n15\n.\n\nMass Suppression\n\nAnnotate the relationship showing that mass decreases as complexity increases\n13\n15\n.\n\nMass Suppression: m\neff\n\t​\n\n=m\n0\n\t​\n\n/Q\n13\n15\n.\n\nStability Constraint\n\nDraw a complex, unstable knot (e.g., Trefoil Knot) or a Q=4 bundle\n16\n.\n\nOnly Q≤3 configurations are stable; Q>3 implies decay or exclusion\n16\n17\n.\n4. Unification, Gravity, and Forces\nIn SAT, force is pattern and matter is structure\n9\n18\n. Gravity and fields emerge from the geometric and statistical properties of the filament ensemble\n19\nmore_horiz\n.\nComponent\n\nDrawing Instruction\n\nMathematical Annotation\n\nEmergent Metric/Gravity\n\nShow a dense filament bundle (matter) locally curving or depressing the sweeping time surface (Σ\nt\n\t​\n\n)\n22\n23\n. Gravity is filament tension deforming the time surface\n11\n24\n.\n\nMetric sourced by filament statistics: g\nμν\n\t​\n\n(x)=⟨v\nμ\n\t​\n\nv\nν\n\t​\n\n⟩\nF\n\t​\n\n(x)\n10\nmore_horiz\n. Gravity arises from the R term in the unified action S∝∫\n−g\n\t​\n\nR(x)\n27\nmore_horiz\n.\n\nBosons as Ripples\n\nIllustrate force carriers (bosons) not as independent filaments, but as transverse vibrations or patterns propagating along the low-θ filaments\n9\nmore_horiz\n.\n\nBosons are ripples\n9\n31\n; Force is pattern\n18\n. Gauge coupling g\nG\n−2\n\t​\n\n is derived from linking density ρ\nG\n\t​\n\n (e.g., ρ\nlink\n\t​\n\n for SU(2))\n27\n.\n\nLight/Gravity Symmetry\n\nContrast two directional arrows: 1. Filament tension exerting force → on Σ\nt\n\t​\n\n (Gravity). 2. Σ\nt\n\t​\n\n pushing ripples → into filaments (Light/EM)\n32\n33\n.\n\nThis demonstrates a reciprocal action across the time-surface boundary\n32\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "ad3659ba"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\n✅SAT BIG PAPER.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "✅SAT BIG PAPER.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n🧱BLOCKWAVE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "🧱BLOCKWAVE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n🧱BLOCKWAVE.txt.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "🧱BLOCKWAVE.txt.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nA Glossary of Concepts in a Chronophysical Structure Proposition",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "A Glossary of Concepts in a Chronophysical Structure Proposition",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nBLOCKWAVE EXTENSION .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "BLOCKWAVE EXTENSION .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nFUNDAMENTAL INTUITIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "FUNDAMENTAL INTUITIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4082.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4082.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4508.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4508.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4552.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4552.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8718.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8718.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8995.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8995.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9514.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9514.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9515.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9515.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9588.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9588.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9590.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9590.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9628.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9628.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9630.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9630.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT to Chronophysical Proposition... writ large.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT to Chronophysical Proposition... writ large.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT—Blockwave Ideal Model.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT—Blockwave Ideal Model.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "drive_pdf\nSATOBLOC 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATOBLOC 2.pdf",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "24 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "videocam\nThe Shape of Reality\n6:40 · Explainer · 24 sources · 307d ago\nplay_arrow\nmore_vert\ntablet\nGeometry Structure Dynamics\n24 sources · 307d ago\nmore_vert\nstacked_bar_chart\nThe Chronophysical Proposition Explained\n24 sources · 307d ago\nmore_vert\narticle\nThe Four Pillars of Scalar–Angular Theory Visualization\n307d ago\nmore_vert\narticle\nGeometric Hierarchy of Scalar–Angular Theory\n307d ago\nmore_vert\narticle\nThe Geometric Foundations of Chronophysical Structure\n307d ago\nmore_vert\narticle\nA Glossary of Concepts in a Chronophysical Structure Proposition\n549d ago\nmore_vert\naudio_spark\nChronostructure: Geometry of Time, Matter, and Constants\n13:20 · 1 source · 549d ago\nwaving_hand\nplay_arrow\nmore_vert\narticle\nAdd note"
+    },
+    {
+      "text": "videocam\nThe Shape of Reality\n6:40 · Explainer · 24 sources · 307d ago\nplay_arrow\nmore_vert\ntablet\nGeometry Structure Dynamics\n24 sources · 307d ago\nmore_vert\nstacked_bar_chart\nThe Chronophysical Proposition Explained\n24 sources · 307d ago\nmore_vert\narticle\nThe Four Pillars of Scalar–Angular Theory Visualization\n307d ago\nmore_vert\narticle\nGeometric Hierarchy of Scalar–Angular Theory\n307d ago\nmore_vert\narticle\nThe Geometric Foundations of Chronophysical Structure\n307d ago\nmore_vert\narticle\nA Glossary of Concepts in a Chronophysical Structure Proposition\n549d ago\nmore_vert\naudio_spark\nChronostructure: Geometry of Time, Matter, and Constants\n13:20 · 1 source · 549d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nThe Shape of Reality\n6:40 · Explainer · 24 sources · 307d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nThe Shape of Reality\n6:40 · Explainer · 24 sources · 307d ago"
+    },
+    {
+      "text": "The Shape of Reality\n6:40 · Explainer · 24 sources · 307d ago"
+    },
+    {
+      "text": "The Shape of Reality"
+    },
+    {
+      "text": "6:40 · Explainer · 24 sources · 307d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "tablet\nGeometry Structure Dynamics\n24 sources · 307d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nGeometry Structure Dynamics\n24 sources · 307d ago"
+    },
+    {
+      "text": "Geometry Structure Dynamics\n24 sources · 307d ago"
+    },
+    {
+      "text": "Geometry Structure Dynamics"
+    },
+    {
+      "text": "24 sources · 307d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Chronophysical Proposition Explained\n24 sources · 307d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Chronophysical Proposition Explained\n24 sources · 307d ago"
+    },
+    {
+      "text": "The Chronophysical Proposition Explained\n24 sources · 307d ago"
+    },
+    {
+      "text": "The Chronophysical Proposition Explained"
+    },
+    {
+      "text": "article\nThe Four Pillars of Scalar–Angular Theory Visualization\n307d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Four Pillars of Scalar–Angular Theory Visualization\n307d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "The Four Pillars of Scalar–Angular Theory Visualization\n307d ago"
+    },
+    {
+      "text": "The Four Pillars of Scalar–Angular Theory Visualization"
+    },
+    {
+      "text": "307d ago"
+    },
+    {
+      "text": "article\nGeometric Hierarchy of Scalar–Angular Theory\n307d ago\nmore_vert"
+    },
+    {
+      "text": "article\nGeometric Hierarchy of Scalar–Angular Theory\n307d ago"
+    },
+    {
+      "text": "Geometric Hierarchy of Scalar–Angular Theory\n307d ago"
+    },
+    {
+      "text": "Geometric Hierarchy of Scalar–Angular Theory"
+    },
+    {
+      "text": "article\nThe Geometric Foundations of Chronophysical Structure\n307d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Geometric Foundations of Chronophysical Structure\n307d ago"
+    },
+    {
+      "text": "The Geometric Foundations of Chronophysical Structure\n307d ago"
+    },
+    {
+      "text": "The Geometric Foundations of Chronophysical Structure"
+    },
+    {
+      "text": "article\nA Glossary of Concepts in a Chronophysical Structure Proposition\n549d ago\nmore_vert"
+    },
+    {
+      "text": "article\nA Glossary of Concepts in a Chronophysical Structure Proposition\n549d ago"
+    },
+    {
+      "text": "A Glossary of Concepts in a Chronophysical Structure Proposition\n549d ago"
+    },
+    {
+      "text": "A Glossary of Concepts in a Chronophysical Structure Proposition"
+    },
+    {
+      "text": "549d ago"
+    },
+    {
+      "text": "audio_spark\nChronostructure: Geometry of Time, Matter, and Constants\n13:20 · 1 source · 549d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nChronostructure: Geometry of Time, Matter, and Constants\n13:20 · 1 source · 549d ago"
+    },
+    {
+      "text": "Chronostructure: Geometry of Time, Matter, and Constants\n13:20 · 1 source · 549d ago"
+    },
+    {
+      "text": "Chronostructure: Geometry of Time, Matter, and Constants"
+    },
+    {
+      "text": "13:20 · 1 source · 549d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-08T01:32:08.490Z",
+      "event": "harvest_complete",
+      "messages": 6,
+      "reachedTop": true
+    }
+  ]
+}
