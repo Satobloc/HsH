@@ -130,6 +130,34 @@ def iter_records(path:Path)->Iterable[Record]:
     if norm(text):yield Record(str(path),"pdf-page",text,path.stem,locator=f"page:{n}")
   except:return
 
+def classify_empty_source(path:Path)->str:
+ """Diagnose eligible sources that yielded zero records, without declaring them empty."""
+ ext=path.suffix.lower()
+ if ext==".json":
+  try:
+   with path.open("r",encoding="utf-8-sig") as fh:json.load(fh)
+  except (ValueError,UnicodeError):return "json_decode_failures"
+  except OSError:return "read_failures"
+  return "json_no_readable_records"
+ if ext==".pdf":
+  try:
+   from pypdf import PdfReader
+  except ImportError:return "pdf_parser_unavailable"
+  try:
+   reader=PdfReader(str(path))
+   if not len(reader.pages):return "pdf_no_pages"
+   for page in reader.pages:
+    if (page.extract_text() or "").strip():return "pdf_unexpected_no_records"
+  except Exception:return "pdf_parse_failures"
+  return "pdf_no_extractable_text"
+ if ext in TEXT_EXTS:
+  try:
+   with path.open("r",encoding="utf-8-sig",errors="replace") as fh:
+    if any(line.strip() for line in fh):return "text_unexpected_no_records"
+  except OSError:return "read_failures"
+  return "text_no_readable_records"
+ return "unknown_no_readable_records"
+
 def load_viewer(root:Path)->dict[str,dict[str,Any]]:
  p=root/"CONVERSATION_VIEWER"/"data"/"conversations.json"
  if not p.exists():return {}
@@ -491,6 +519,9 @@ def main()->int:
   if records==record_start:
    scan_stats["files_without_readable_records"]+=1
    per_repo_stats[repository]["files_without_readable_records"]+=1
+   reason=classify_empty_source(path)
+   scan_stats[reason]+=1
+   per_repo_stats[repository][reason]+=1
   per_repo_stats[repository]["matching_records"]+=len(hits)-hit_start
   if len(hits)>hit_start:
    if not requires_chrono:
@@ -544,7 +575,7 @@ def main()->int:
  coverage_status="complete" if not missing_repos else "partial"
  # Checkout presence and searchable-content coverage are different claims.
  # A present checkout can contain skipped, oversized or unparsed sources.
- content_gap_keys=("excluded_by_policy","unsupported_extension","oversized_files_skipped","inaccessible_files_skipped","files_without_readable_records")
+ content_gap_keys=("excluded_by_policy","unsupported_extension","oversized_files_skipped","inaccessible_files_skipped","files_without_readable_records","json_decode_failures","pdf_parser_unavailable","pdf_parse_failures","pdf_no_extractable_text","read_failures")
  content_gaps={k:int(scan_stats.get(k,0)) for k in content_gap_keys if scan_stats.get(k,0)}
  content_coverage_status="unverified" if not missing_repos and not content_gaps else "partial"
  content_coverage_warning=("Searchable content is not verified complete; inspect inventory_limitations and per-source extraction outcomes. "
