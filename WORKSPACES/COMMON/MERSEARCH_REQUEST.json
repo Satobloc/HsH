@@ -1,13 +1,13 @@
 {
-  "request_id": "2026-10-08-ravel-transported-helical-tube-001",
+  "request_id": "2026-10-08-ravel-elliptic-material-frame-001",
   "requester": "Ravel",
   "requested_at": "2026-10-08",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH"
   ],
-  "query": "((helix OR helical) AND (Frenet frame OR transported frame OR normal bundle OR tube surface OR tubular neighborhood) AND (surface Jacobian OR area element OR traction OR torque OR curvature OR torsion OR pitch)) OR ((finite core OR worldtube) AND (cross-section OR surface) AND (parallel transport OR material frame OR chirality OR handedness))",
-  "purpose": "Locate exact prior corpus treatments of transported finite-radius helical tube geometry, surface measure, and torque parity before deriving a pitch-dependent H(s)H discriminator.",
+  "query": "((elliptic OR elliptical OR anisotropic) AND (cross-section OR core OR tube) AND (material frame OR director OR Bishop frame OR Frenet frame OR twist angle OR normal bundle) AND (traction OR torque OR parity OR harmonic OR holonomy)) OR ((ribbon OR rod OR framed curve) AND (twist OR director) AND (finite core OR worldtube OR helix))",
+  "purpose": "Recover prior corpus constructions relevant to an elliptic finite core transported by an independent material frame, before deriving its torque harmonics and parity conditions.",
   "preferred_outputs": [
     "exact file paths",
     "line ranges",
