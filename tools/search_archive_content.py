@@ -16,12 +16,12 @@ import argparse,csv,fnmatch,hashlib,json,re,shlex
 from urllib.parse import quote
 from collections import Counter,defaultdict
 from dataclasses import asdict,dataclass,field
-import sys
-sys.path.insert(0,str(Path(__file__).resolve().parent))
-from mersearch_chronology import Chronology, VERSIONS, eras, message_date
 from datetime import datetime,timezone
 from pathlib import Path
 from typing import Any,Iterable
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from mersearch_chronology import Chronology, VERSIONS, eras, message_date
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
