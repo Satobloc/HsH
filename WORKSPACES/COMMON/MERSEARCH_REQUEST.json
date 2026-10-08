@@ -1,4 +1,4 @@
 {
-  "request_id": "2026-10-07-morrow-gr-qm-isomorphism-origin-001",
-  "query": "(\"isomorphism\" OR \"Schwarzschild\" OR \"Laplace-Beltrami\" OR \"SO(4)\" OR \"SU(2)\") AND (\"quantum\" OR \"QM\" OR \"relativity\" OR \"GR\" OR \"worldline\")"
+  "request_id": "2026-10-08-ravel-helical-traction-cancellation-001",
+  "query": "((helix OR helical OR superhelix OR handedness OR chirality) AND (traction OR contact OR pressure OR drag OR force OR torque) AND (surface OR timesheet OR resolver OR intersection)) OR ((finite core OR tube radius OR cross-section) AND (cancellation OR symmetry OR envelope OR matched))"
 }
