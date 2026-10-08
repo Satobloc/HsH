@@ -1,0 +1,3 @@
+# MK149 codimension-two vortex winding
+
+SANDBOXED. A closed spatial contour can wind around a 2D vortex worldsheet in 4D, although free causal worldlines cannot form protected 3D braids. For a straight defect x=y=0, the compact phase arg(x+iy) has loop winding 1. Offset loop delta+exp(i phi) has winding 1 for delta<1 and 0 for delta>1; at delta=1 the loop crosses the core. This is topology, not a derived force. Source: original SAT archive `2026/SAT MATH — BACKBONE.txt` F4 lines 168-205; current HsH MK148 and O_eff key. Numerical test and detailed local checkpoint retained separately. Morrow/Kestrel.
