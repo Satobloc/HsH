@@ -13,6 +13,7 @@ Fields: body, math, name, path, ext, type/kind, has, author/speaker, role, title
 """
 from __future__ import annotations
 import argparse,csv,fnmatch,hashlib,json,re,shlex
+from urllib.parse import quote
 from collections import Counter,defaultdict
 from dataclasses import asdict,dataclass,field
 from mersearch_chronology import Chronology, VERSIONS
@@ -276,6 +277,7 @@ def make_excerpt(text:str,positions:list[int],chars:int)->str:
 def sort_hits(hits:list[Hit],key:str,desc:bool)->None:
  def k(h:Hit):
   if key=="date":return (h.timestamp or "9999",h.speaker.casefold(),h.path,h.locator)
+  if key=="origin":return (h.chronology.get("estimated_origin_start") or "9999",h.path,h.locator)
   if key=="author":return ((h.speaker or h.role).casefold(),h.timestamp or "9999",h.path,h.locator)
   if key=="title":return (h.title.casefold(),h.timestamp or "9999",h.locator)
   if key=="path":return (h.path.casefold(),h.locator)
@@ -368,7 +370,6 @@ def main()->int:
   args.roots=discovered
   if not args.roots:ap.error("No archive checkout found. Clone the three repositories beside HsH or provide explicit roots.")
  if args.offset<0 or args.limit<0:ap.error("--offset and --limit must be nonnegative")
- explicit_roots=bool(args.roots) and args.roots is not discovered
  if args.expr:query=args.expr
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
  else:ap.error("provide --expr or --query")
@@ -390,7 +391,17 @@ def main()->int:
   try:rel=path.relative_to(args.viewer_root).as_posix()
   except:rel=path.as_posix()
   vc=viewer.get(rel) or viewer.get(path.as_posix())
+  repository=repo_for(path,args.roots)
+  chrono=Chronology(rel)
+  requires_chrono=bool(CHRONO_FIELDS.search(query))
+  if requires_chrono:
+   for prior in iter_records(path):
+    chrono.observe(prior.text,prior.locator,prior.kind,prior.timestamp)
+  known_chrono=chrono.result() if requires_chrono else {}
+  hit_start=len(hits)
   for rec in iter_records(path):
+   rec.chronology=known_chrono
+   rec.repository=repository
    records+=1
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
@@ -408,6 +419,16 @@ def main()->int:
    hits.append(Hit(query,rel,rec.kind,rec.title,rec.conversation_id,rec.message_id,rec.speaker,rec.role,rec.timestamp,rec.locator,
     make_excerpt(rec.text,ev.positions,args.excerpt_chars),status(rec.text),viewer_link(vc or {},rec.message_id),sha(path,cache),
     list(dict.fromkeys(ev.terms)),ev.near,ev.trace,present))
+  if len(hits)>hit_start:
+   if not requires_chrono:
+    for original in iter_records(path):
+     chrono.observe(original.text,original.locator,original.kind,original.timestamp)
+   meta=chrono.result()
+   root=next((rt for rt in args.roots if path==rt or rt in path.parents),None)
+   source_path=path.relative_to(root).as_posix() if root and root.is_dir() else path.name
+   url=f"https://github.com/{repository}/blob/main/{quote(source_path,safe='/')}" if repository.startswith("Satobloc/") else ""
+   for h in hits[hit_start:]:
+    h.chronology=meta;h.repository=repository;h.source_url=url
  sort_hits(hits,args.sort,args.descending)
  raw_match_records=len(hits)
  if args.result_mode=="files":
@@ -424,7 +445,8 @@ def main()->int:
   "extensions":Counter((Path(h.path).suffix.casefold().lstrip(".") or "(none)") for h in hits),
   "years":Counter((h.timestamp[:4] if len(h.timestamp)>=4 else "(undated)") for h in hits)}
  facet_json={k:[{"value":v,"count":n} for v,n in sorted(cnt.items(),key=lambda x:(-x[1],x[0].casefold()))] for k,cnt in facets.items()}
- if args.limit>0:hits=hits[:args.limit]
+ if args.limit>0:hits=hits[args.offset:args.offset+args.limit]
+ elif args.offset:hits=hits[args.offset:]
  args.out.mkdir(parents=True,exist_ok=True);generated=datetime.now(timezone.utc).isoformat()
  manifest={"schema_version":2,"generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
