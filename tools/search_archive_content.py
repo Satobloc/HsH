@@ -43,6 +43,7 @@ class Record:
  path:str;kind:str;text:str;title:str="";conversation_id:str="";message_id:str=""
  speaker:str="";role:str="";timestamp:str="";locator:str="";viewer_url:str=""
  chronology:dict[str,Any]=field(default_factory=dict);repository:str=""
+ capture_timestamp:str=""
 @dataclass
 class Eval:
  ok:bool; positions:list[int]; terms:list[str]; trace:list[str]; near:list[dict[str,Any]]
@@ -81,6 +82,22 @@ def iter_conversation(data:Any,path:Path)->Iterable[Record]:
   rows.append((msg.get("create_time") or 0,mid,Record(str(path),"conversation-message",text,title,cid,mid,speaker,role,iso_time(msg.get("create_time")),f"message:{mid}")))
  rows.sort(key=lambda x:(x[0] if isinstance(x[0],(int,float)) else 0,x[1]))
  for _,_,r in rows:yield r
+def iter_notebooklm(data:Any,path:Path)->Iterable[Record]:
+ """NotebookLM transcripts are secondary exports; captured_at is NOT message date."""
+ if not isinstance(data,dict) or not isinstance(data.get("messages"),list):return
+ meta=data.get("metadata") if isinstance(data.get("metadata"),dict) else {}
+ title=norm(meta.get("notebook_title") or path.stem)
+ capture=norm(meta.get("captured_at"))
+ for i,msg in enumerate(data["messages"]):
+  if not isinstance(msg,dict):continue
+  body=msg.get("text") or content_text(msg.get("content"))
+  if not isinstance(body,str) or not norm(body):continue
+  role=norm(msg.get("role"));mid=norm(msg.get("id") or msg.get("key") or i)
+  timestamp=msg.get("created_at") or msg.get("create_time") or ""
+  if isinstance(timestamp,(int,float)):timestamp=iso_time(timestamp)
+  yield Record(str(path),"notebooklm-message",body,title,norm(meta.get("notebook_id")),mid,
+               role,role,norm(timestamp),f"messages[{i}]",capture_timestamp=capture)
+
 def iter_json(obj:Any,path:Path,pointer:str="$")->Iterable[Record]:
  if isinstance(obj,dict):
   for k,v in obj.items():yield from iter_json(v,path,f"{pointer}.{k}")
@@ -93,6 +110,7 @@ def iter_records(path:Path)->Iterable[Record]:
   try:data=json.loads(path.read_text(encoding="utf-8-sig"))
   except:return
   conv=list(iter_conversation(data,path) or [])
+  if not conv:conv=list(iter_notebooklm(data,path) or [])
   yield from (conv if conv else iter_json(data,path));return
  if ext in TEXT_EXTS:
   try:lines=path.read_text(encoding="utf-8-sig",errors="replace").splitlines()
@@ -213,7 +231,7 @@ def field_eval(rec:Record,term:str)->Eval|None:
   return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
  if field=="has":
   flags={"conversation-source":rec.kind=="conversation-message","pdf-source":rec.kind=="pdf-page",
-         "text-source":rec.kind in ("text-line","json-scalar","conversation-message"),
+         "text-source":rec.kind in ("text-line","json-scalar","conversation-message","notebooklm-message"),
          "message-id":bool(rec.message_id),"conversation-id":bool(rec.conversation_id),"viewer":bool(rec.viewer_url)}
   ok=flags.get(val,False)
   return Eval(ok,[],[term] if ok else [],[f"FIELD has:{val} => {ok}"],[])
@@ -398,7 +416,7 @@ def main()->int:
   requires_chrono=bool(CHRONO_FIELDS.search(query))
   if requires_chrono:
    for prior in iter_records(path):
-    chrono.observe(prior.text,prior.locator,prior.kind,prior.timestamp)
+    chrono.observe(prior.text,prior.locator,prior.kind,prior.timestamp,prior.capture_timestamp)
   known_chrono=chrono.result() if requires_chrono else {}
   hit_start=len(hits)
   for rec in iter_records(path):
@@ -424,7 +442,7 @@ def main()->int:
   if len(hits)>hit_start:
    if not requires_chrono:
     for original in iter_records(path):
-     chrono.observe(original.text,original.locator,original.kind,original.timestamp)
+     chrono.observe(original.text,original.locator,original.kind,original.timestamp,original.capture_timestamp)
    meta=chrono.result()
    root=next((rt for rt in args.roots if path==rt or rt in path.parents),None)
    source_path=path.relative_to(root).as_posix() if root and root.is_dir() else path.name
