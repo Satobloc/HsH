@@ -1,5 +1,8 @@
 # Active automation roster
 
+> **STALE-SNAPSHOT WARNING — 2026-10-07:** The enabled-worker table below is a 2026-09-20 snapshot and does **not** reflect the current October free-build scheduler. Live scheduler state on 2026-10-07 showed the hourly rotation as :00 Morrow+Kestrel, :12 Orson, :24 Meridian, :36 Ravel, :48 Mercer. Do not disable or repurpose a live recurrence merely to make it match this older table. See `WORKSPACES/COMMON/CONTROL_PLANE_INCIDENT_2026-10-07_ORSON_AUTOMATION_ROSTER_DRIFT.md`.
+
+
 **Program:** Hourly SAT/H(s)H worker loops + continuity/system steering  
 **Snapshot:** 2026-09-20  
 **Purpose:** operational roster only; newer Nathan directives and current Common controls may change schedules/roles.
