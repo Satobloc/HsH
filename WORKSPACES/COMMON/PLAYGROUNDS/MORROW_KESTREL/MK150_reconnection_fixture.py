@@ -42,6 +42,6 @@ for t0 in (.005,.02,.1,.4):
     dmin=2*np.sqrt(r.fun)
     assert abs(dmin-2*np.sqrt(2*t0))<1e-10
 a=.1;L0=1
-assert a*a/(2*L0)==.005
+assert abs(a*a/(2*L0)-.005)<1e-12
 assert a==.1
 print("MK150 PASS: wave equation, induced signature, conserved flux, core-window discriminator")
