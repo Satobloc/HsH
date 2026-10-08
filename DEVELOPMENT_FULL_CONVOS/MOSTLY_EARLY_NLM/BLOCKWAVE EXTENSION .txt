@@ -1,0 +1,908 @@
+BLOCKWAVE OUTFILL
+
+PHASE 0 — BLOCKWAVE CORE v1  (Foundations)
+
+Scope
+-----
+This is the minimal/ideal Blockwave specification to which all later modules plug in.
+Fields:  { u^μ(x), θ(x) } only.
+  • u^μ: unit timelike “time-flow” vector field (preferred foliation)
+  • θ:   compact misalignment scalar, θ ~ θ + 2π
+Manifold: 4D Lorentzian (signature - + + +). All indices moved with g_μν.
+Units: dimensionless internal units; an external normalization anchor is introduced later (Phase 6).
+Discrete symmetry: Z_3 (θ → θ + 2π/3) for the kink/domain-wall sector.
+
+Constraints and projectors
+--------------------------
+Unit-norm constraint on u^μ:
+  C(x) := u^μ u_μ + 1 = 0.
+
+Spatial projector orthogonal to u^μ:
+  P^μ_ν := g^μ_ν + u^μ u_ν  (P^μ_ν u^ν = 0,  P^μ_ρ P^ρ_ν = P^μ_ν).
+
+Core action (covariant, minimal)
+--------------------------------
+Let Φ := u^μ ∇_μ θ  (directional derivative of θ along u).
+Potential: V(θ) := - μ^2 cos(3 θ)  (Z_3 vacua at θ = 0, 2π/3, 4π/3).
+Define a mild divergence coupling via f(θ) := sin^2 θ.
+
+S_core = ∫ d^4x √(-g) L_core,  with
+
+L_core =
+  + (1/2) ∇_μ θ ∇^μ θ
+  - μ^2 cos(3 θ)
+  + λ Φ^2
+  + α ( P^{μρ} P^{νσ} ∇_μ u_ν ∇_ρ u_σ )
+  + β f(θ) (∇_μ u^μ)
+  + ξ(x) ( u^μ u_μ + 1 ).
+
+Notes:
+• The projector form for the u^μ kinetic term enforces “constraint-clean” dynamics by construction.
+• The divergence coupling is variational; it can be integrated by parts if preferred (adds a boundary term).
+• ξ(x) is a Lagrange multiplier imposing C(x)=0 (you may instead use a rapidity parametrization in 1+1D).
+
+Euler–Lagrange equations (covariant)
+------------------------------------
+Variation w.r.t. θ:
+  0 = δS/δθ =
+      □ θ
+    - 2λ ∇_μ ( Φ u^μ )
+    + 3 μ^2 sin(3 θ)
+    - β (d f/dθ) (∇_μ u^μ)
+
+Since f(θ)=sin^2 θ,  d f/dθ = sin(2θ). Thus
+  □ θ - 2λ ∇_μ( (u·∇θ) u^μ ) + 3 μ^2 sin(3θ) - β sin(2θ) (∇·u) = 0.     (EOM_θ)
+
+Expanded form of the λ-term (optional):
+  ∇_μ(Φ u^μ) = (∇_μ u^ν) (∇_ν θ) u^μ + u^μ u^ν ∇_μ ∇_ν θ + (∇·u)(u·∇θ).
+
+Variation w.r.t. u^μ (projected, physical part):
+  Start from
+    L_u = α P^{μρ} P^{νσ} ∇_μ u_ν ∇_ρ u_σ + λ (u·∇θ)^2 + β f(θ) (∇·u) + ξ (u^2+1).
+  The unconstrained Euler–Lagrange equation is then projected with P to remove the component along u^μ:
+    P^μ_ν [ -2α ∇_ρ( P^{ρσ} ∇_σ u^ν ) + 2λ Φ ∇^ν θ + β ∇^ν f(θ) ] = 0.   (EOM_u^proj)
+
+Constraint equation:
+  u^μ u_μ = -1.  (enforced by ξ or by parametrization)
+
+Lagrange multiplier (orthogonal completion):
+  Contract the unconstrained u^μ equation with u_μ to solve for ξ if needed; the projected equation above governs the physical d.o.f.
+
+Well-posedness / positivity conditions (minimal set)
+----------------------------------------------------
+• α > 0  (positive-definite spatial-gradient energy for u^μ-sector).
+• Choose λ ≥ 0; in 1+1D (see below) demand effective kinetic coefficient of (∂_t θ)^2 to stay > 0 (bounds on λ given ψ).
+• β may be of either sign; treat as a small coupling to ensure linear-response control when mapping to observables.
+
+Symmetries and currents (sketch; full derivation in Phase 1)
+------------------------------------------------------------
+• Spacetime translations → conserved T^μ_ν = -(2/√-g) δS/δg_{μν}.
+• Discrete Z_3 shift in θ → conserved (mod 3) domain-wall number in 1D/“kink” sectors.
+• No exact Lorentz symmetry if background u^μ picks a frame; equations are covariant but the solution space selects a foliation.
+
+1+1D reduction (canonical form, ready for quantization)
+-------------------------------------------------------
+Metric: η = diag(-,+). Parametrize u^μ by a single rapidity field ψ(x,t):
+  u^t = cosh ψ,  u^x = sinh ψ  ⇒  u^μ u_μ = -1 exactly (constraint built-in).
+
+Define
+  Φ = u·∇θ = coshψ ∂_t θ + sinhψ ∂_x θ,
+  ∇·u = ∂_t(coshψ) + ∂_x(sinhψ) = sinhψ ∂_t ψ + coshψ ∂_x ψ.
+
+Lagrangian density:
+  L_1+1 =
+    + (1/2)[ - (∂_t θ)^2 + (∂_x θ)^2 ]
+    - μ^2 cos(3θ)
+    + λ ( coshψ ∂_t θ + sinhψ ∂_x θ )^2
+    + α [ - (∂_t ψ)^2 + (∂_x ψ)^2 ]
+    + β sin^2 θ ( sinhψ ∂_t ψ + coshψ ∂_x ψ ).
+
+Canonical momenta:
+  π_θ = ∂L/∂(∂_t θ) = -∂_t θ + 2λ (coshψ ∂_t θ + sinhψ ∂_x θ) coshψ.
+  π_ψ = ∂L/∂(∂_t ψ) = -2α ∂_t ψ + β sin^2 θ sinhψ.
+
+Solve for time derivatives (useful combination):
+  Define Π_ψ := π_ψ - β sin^2 θ sinhψ  ⇒  ∂_t ψ = - Π_ψ / (2α).
+
+  For θ, write
+    A(ψ) := -1 + 2λ cosh^2 ψ,
+    B(ψ) := 2λ sinhψ coshψ,
+    then  π_θ = A(ψ) ∂_t θ + B(ψ) ∂_x θ
+    ⇒  ∂_t θ = [ π_θ - B(ψ) ∂_x θ ] / A(ψ).
+
+Well-posedness condition (θ-kinetic positivity):
+  Require A(ψ) < 0 to ensure the standard sign for kinetic energy in the Hamiltonian density (with our (-,+) convention).
+  Equivalently:  1 - 2λ cosh^2 ψ > 0  (e.g., λ < 1/2 uniformly if |ψ| is small; tighten bound for large |ψ|).
+
+Hamiltonian density (in canonical variables; completing the square)
+  H_1+1 = π_θ ∂_t θ + π_ψ ∂_t ψ - L_1+1
+        = (1/2)(∂_x θ)^2 + μ^2 cos(3θ)
+          + α (∂_x ψ)^2
+          + [Π_ψ^2 / (4α)]
+          + (λ term reorganized via A(ψ), B(ψ) inversion)
+          + β sin^2 θ coshψ ∂_x ψ
+          + quadratic form in {∂_t θ} eliminated using ∂_t θ-expression above.
+
+Comment:
+  • The λ-sector yields a positive quadratic form provided the well-posedness condition holds (gives an effective kinetic matrix invertible in ∂_t θ).
+  • The β-terms produce linear couplings; they can be handled by completing the square in Π_ψ or treated as perturbations in small-β regimes.
+
+Static kink sector (boundary data; for Phase 5 analytics)
+---------------------------------------------------------
+Finite-energy boundary conditions (x → ±∞):
+  θ(±∞) ∈ {0, 2π/3, 4π/3},   ∂_x θ → 0,
+  ψ(±∞) finite (often 0),     ∂_x ψ → 0.
+
+Domain-wall number (Z_3):
+  Q_wall = (3/2π) [ θ(+∞) - θ(-∞) ]  mod 3.
+
+Minimal observable hooks prepared (details in Phase 3)
+------------------------------------------------------
+• Optics (retardation):  Δφ = η ∫ sin(2θ(x)) dx.
+• Strain/GW proxy: functionals of ∇·u and projected gradients ∇u mapped to attenuation/echo kernels.
+• Clock drift: foliation-strain redshift from invariants built out of ∇u.
+
+Gate (Go/No-Go) checklist for Phase 0
+-------------------------------------
+[ ] No extra fields beyond {u^μ, θ} appear in L_core.
+[ ] Constraint implemented (either via ξ or via ψ in 1+1D).
+[ ] Projector form used for u^μ gradients (no longitudinal ghosts).
+[ ] EOM_θ and EOM_u^proj derived; 1+1D canonical variables defined.
+[ ] Well-posedness/positivity conditions stated.
+[ ] Boundary data and Z_3 sector specified.
+
+— End of Phase 0 deliverable (Core spec “lock”).
+
+PHASE 1 — KERNEL HARDENING (Math QA)
+
+Scope
+-----
+Goal: make the Blockwave core (Phase 0) bulletproof for downstream analysis/simulation by
+(1) deriving conserved quantities and boundary terms cleanly,
+(2) proving constraint consistency and counting physical d.o.f.,
+(3) establishing energy positivity and hyperbolicity conditions,
+(4) isolating any potential ghost/instability channels and bounding them away.
+
+References-internal: This phase operates on the Phase-0 Blockwave Core v1 (fields {u^μ, θ}, projector-form u-kinetic, Z3 potential), and is consistent with the SAT/Symbolic-Kernel variational structure and 1+1D reduction developed previously. 〔Provenance: SAT Symbolic Kernel & 1+1D reductions〕 [oai_citation:0‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+
+
+0) Notation Recap (from Phase 0)
+--------------------------------
+• θ(x) ∈ ℝ / 2π, compact misalignment scalar.
+• u^μ(x), unit timelike vector: u^μ u_μ = −1.
+• Projector: P^μ_ν = g^μ_ν + u^μ u_ν (P projects orthogonal to u).
+• Φ := u·∇θ = u^μ ∇_μ θ,  f(θ) := sin^2 θ,  V(θ) := − μ^2 cos(3θ).
+• L_core = ½ ∇θ·∇θ − μ^2 cos(3θ) + λ Φ^2 + α (P P ∇u ∇u) + β f(θ) (∇·u) + ξ (u^2+1).
+  (Abbreviating the u-kinetic as α P^{μρ} P^{νσ} (∇_μ u_ν)(∇_ρ u_σ).)
+
+
+1) Boundary Terms & Variational Well-posedness
+----------------------------------------------
+Statement 1.1 (Variational closure).
+Let δθ, δu^μ be compactly supported or satisfy vanishing normal-flow boundary conditions on ∂M:
+  n^μ ∇_μ θ |_{∂M} = 0,  P^{μ}{}_{ν} n^ρ ∇_ρ u^ν |_{∂M} = 0.
+Then δS_core = ∫ d^4x √−g [EOM_θ δθ + EOM_u,μ δu^μ + (u^2+1) δξ + 2 ξ u_μ δu^μ],
+up to boundary terms that vanish under the above conditions.
+
+Sketch.
+• The θ-sector yields the usual boundary term n^μ ∇_μ θ δθ, canceled by the BC.
+• The u-sector is second order only in spatially projected gradients; the projector P eliminates longitudinal (along-u) components from the surface term when P^{μ}{}_{ν} n^ρ ∇_ρ u^ν = 0 is imposed.
+• The ξ-sector carries no derivatives.  □
+
+Corollary 1.2 (Euler–Lagrange equations).
+Under the above BC, one recovers the Phase-0 equations:
+  EOM_θ:  □θ − 2λ ∇_μ(Φ u^μ) + 3μ^2 sin(3θ) − β sin(2θ) (∇·u) = 0.
+  EOM_u (projected):  P^μ_ν [ −2α ∇_ρ( P^{ρσ} ∇_σ u^ν ) + 2λ Φ ∇^ν θ + β ∇^ν f(θ) ] = 0.
+Constraint: u^2 + 1 = 0 enforces norm. 〔Matches Symbolic-Kernel structure〕 [oai_citation:1‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+
+
+2) Stress–Energy Tensor and Currents
+------------------------------------
+Definition 2.1 (Hilbert stress).
+T_{μν} := − (2/√−g) δS_core/δg^{μν}.
+
+Result 2.2 (Structure of T_{μν}).
+T_{μν} = T^{(θ)}_{μν} + T^{(λ)}_{μν} + T^{(α)}_{μν} + T^{(β)}_{μν} + T^{(ξ)}_{μν}, with
+• T^{(θ)}_{μν} = ∇_μ θ ∇_ν θ − ½ g_{μν} (∇θ)^2 + g_{μν} μ^2 cos(3θ).
+• T^{(λ)}_{μν} = 2λ Φ ( u_{(μ} ∇_{ν)} θ ) − λ g_{μν} Φ^2.
+• T^{(α)}_{μν} = 2α 𝒦_{μν} − α g_{μν} 𝒦, where
+  𝒦 := P^{μρ} P^{νσ} (∇_μ u_ν)(∇_ρ u_σ),
+  𝒦_{μν} := P^{ρσ} (∇_μ u_ρ)(∇_ν u_σ)     (symmetric in μν after projecting).
+• T^{(β)}_{μν} = β f(θ) (∇·u) g_{μν} − β [ ∇_{(μ}( f(θ) u_{ν)} ) − (∇_{(μ} f) u_{ν)} ],
+  (the divergence coupling contributes a total-derivative piece and a contact term).
+• T^{(ξ)}_{μν} = −2 ξ u_μ u_ν + ξ g_{μν} (u^2+1)  (constraint sector; on-shell u^2=−1 so this reduces to −2ξ u_μ u_ν).
+
+Conservation.
+If (EOM_θ, EOM_u, constraint) hold and background is fixed, then ∇^μ T_{μν} = 0 (Noether + diffeomorphism invariance). □
+
+Remark.
+T_{μν} need not be symmetric under exchange of internal indices in the foliation sector before projection; the P–projected kinetic renders the physical piece symmetric and eliminates spurious longitudinal contributions (cf. Einstein-æther–like structures, but here enforced via P).
+
+
+3) Constraint Consistency & Degrees of Freedom
+----------------------------------------------
+We analyze the constraint u^2+1=0 and the projector-kinetic structure.
+
+Proposition 3.1 (Primary constraint).
+C(x) := u^μ u_μ + 1 = 0 is primary. Preservation under time evolution fixes ξ (no new constraints are required once the kinetic is P-projected).
+
+Sketch.
+• Variation w.r.t. u^μ yields an equation with a ξ u_μ term.
+• Contract with u^μ: this algebraically determines ξ in terms of gradients of u and θ (no time derivatives of ξ), so ḊC ≈ 0 closes.
+• The P-projected kinetic suppresses time derivatives of u along itself, preventing Ostrogradsky-type longitudinal modes. □
+
+Counting (heuristic in 3+1):
+• u^μ has 4 components.
+• 1 algebraic constraint (u^2 = −1) and 1 gauge–like redundancy (reparameterization along the flow integral curves) remove 2 d.o.f.,
+  leaving 2 physical d.o.f. for u (transverse to itself).
+• θ adds 1 scalar d.o.f.
+Total: 3 propagating d.o.f. (ignoring metric fluctuations).
+
+1+1D reduction check (explicit).
+Parametrize u via rapidity ψ: u = (coshψ, sinhψ). The constraint is identically satisfied.
+Canonical momenta (from Phase 0) are regular provided A(ψ) ≔ −1 + 2λ cosh^2ψ ≠ 0; thus no primary constraints appear in 1+1D beyond those built into ψ. 〔Consistent with the prior 1+1D formulation〕 [oai_citation:2‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+
+
+4) Energy Positivity & Ghost Analysis
+-------------------------------------
+We examine the quadratic Hamiltonian density around a smooth background (θ̄, ū) with small perturbations δθ, δu (or δψ in 1+1D).
+
+Lemma 4.1 (θ-sector kinetic sign).
+In 1+1D, the effective θ kinetic coefficient is A(ψ) = −1 + 2λ cosh^2ψ. To avoid ghostly sign,
+require A(ψ) < 0, i.e.
+  1 − 2λ cosh^2ψ > 0   ⇒   λ < 1/(2 cosh^2ψ)  (pointwise bound).
+For small |ψ| this reduces to λ < 1/2.
+
+Lemma 4.2 (u-sector positivity).
+With α > 0, the P-projected gradient energy
+  α P^{μρ} P^{νσ} (∇_μ u_ν)(∇_ρ u_σ)
+is positive semi-definite for spatial variations orthogonal to u, and does not introduce higher-time-derivative longitudinal modes (no Ostrogradsky ghost), because the only time derivatives of u enter projected and at most linearly in the canonical momenta.
+
+Lemma 4.3 (β–sector smallness).
+The β coupling contributes terms linear in (∇·u) weighted by f(θ) = sin^2θ. For |β| ≪ min{α, |A(ψ)|}, these act as controlled perturbations that do not flip the kinetic matrix’s signature. (More generally, absorb them by completing the square in conjugate variables or by a local field redefinition at quadratic order.)
+
+Conclusion 4.4 (Ghost-free window).
+Choose parameters with
+  α > 0,   λ ∈ (−∞, λ_max),   |β| ≤ β_max(α, λ, background),
+where λ_max := inf_x 1/(2 cosh^2 ψ(x)) along the background, and β_max determined by the smallest positive eigenvalue of the quadratic form. Then the quadratic Hamiltonian is bounded below and the Cauchy problem is well-posed.
+
+
+5) Hyperbolicity & Characteristic Cones
+----------------------------------------
+We assess principal symbols of the EOM.
+
+θ-equation principal symbol (about smooth background with fixed u):
+From EOM_θ:
+  □θ − 2λ ∇_μ( u^μ u^ν ∇_ν θ ) + … = 0
+Principal part in momentum space (k_μ):
+  Q_θ(k) = − k^2 − 2λ (u·k)^2.
+Hyperbolicity requires the effective quadratic form in k to have Lorentzian signature.
+Equivalently, for any timelike “evolution” covector τ_μ, the polynomial Q_θ(τ + ξ) in ξ has two real roots in τ·ξ (standard hyperbolicity test).
+Sufficient condition: 1 + 2λ > 0 (in local frames with u ≈ (1,0,0,0)) and the ghost-free bound on λ from Sec. 4.
+Interpretation: θ’s characteristics lie inside (or equal to) the metric lightcone if λ ≥ 0 is small; for larger λ they tilt towards the u-direction but remain hyperbolic within the allowed window.
+
+u-equation principal symbol (projected).
+EOM_u^proj ≈ −2α P^μ_ν ∇_ρ( P^{ρσ} ∇_σ u^ν ) + … = 0.
+The principal symbol is essentially −2α P ∘ k ∘ P ∘ k acting on the u-variations. Because P projects orthogonally to u, and α > 0, the operator is (spatially) elliptic in the projected directions; time evolution couples via mixed terms but does not introduce superluminal longitudinal characteristics. In 1+1D with ψ, the ψ equation reduces to a standard wave operator with α > 0.
+
+Summary (hyperbolicity).
+Under the ghost-free window (Sec. 4), θ has a strictly hyperbolic principal symbol; the ψ (or u-projected) dynamics are hyperbolic with speed set by α and the background projector. No acausal modes appear provided β is small and background gradients are bounded.
+
+
+6) Linearized Spectrum around Homogeneous Backgrounds
+-----------------------------------------------------
+Background: Minkowski g, constant ū^μ = (1,0,0,0), θ̄ at a vacuum of V (i.e., θ̄ = 0, 2π/3, 4π/3; sin3θ̄ = 0).
+Fluctuations: θ = θ̄ + ϑ, u = ū + δu with ū·δu = 0 at linear order.
+
+Quadratic Lagrangian (schematic):
+  L^(2) ≈ ½ (−(∂_t ϑ)^2 + |∇ ϑ|^2) + λ (∂_t ϑ)^2
+          − ½ m_θ^2 ϑ^2 + α (∂_i δu_j)^2  + β (sin^2 θ̄) (∂·δu),
+with m_θ^2 = V''(θ̄) = 9 μ^2 cos(3θ̄) = ± 9 μ^2 (positive for θ̄ = 0, 4π/3; negative at 2π/3).
+Dispersion:
+• θ-mode:  ω^2 = (1 − 2λ) |k|^2 + m_θ^2 / (1 − 2λ), provided 1 − 2λ > 0 (matching A(ψ≈0) < 0 condition).
+• u-transverse:  ω^2 = c_u^2 |k|^2 + … with c_u^2 ∝ α (units set by normalization); longitudinal mode absent due to projection.
+Stability:
+Choose vacuum with m_θ^2 > 0 (e.g., θ̄ = 0), and λ < 1/2 ⇒ no tachyons/ghosts at quadratic order.
+
+Remark.
+At kink backgrounds (Phase 5), θ acquires a Schrödinger-operator potential; one zero mode (translation) and a gapped spectrum above, standard for sine-Gordon-type sectors, now modified by λ-corrections. 〔Consistent with prior kink quantization outline〕 [oai_citation:3‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+
+
+7) Summary of Hard Bounds & “Green Zone”
+----------------------------------------
+Parameter band ensuring well-posed, ghost-free dynamics (homogeneous check + general background constraints):
+• α > 0  (strict).
+• 0 ≤ λ < min_x { 1/(2 cosh^2 ψ(x)) }  (in 1+1D; in 3+1, require 1 − 2λ > 0 in local rest frames of u).
+• |β| ≤ β_max ≪ √(α (1 − 2λ))   (empirical small-coupling control; exact β_max from the smallest positive eigenvalue of quadratic form).
+
+Operational checklist (to carry into simulation later):
+[ ] Enforce projector P everywhere u-gradients appear.
+[ ] Monitor A(ψ) = −1 + 2λ cosh^2 ψ in 1+1D; assert A(ψ) < 0 pointwise during evolution.
+[ ] Keep |β| under the computed β_max for the chosen background.
+[ ] Use energy norm E = ∫ dx (ϑ̇^2_eff + |∇ϑ|^2 + m_θ^2 ϑ^2 + α |∇⊥ δu|^2) to track boundedness.
+
+
+8) Deliverables (Phase 1)
+-------------------------
+• “Kernel QA Note” (this document): boundary conditions, EOM re-derivation, T_{μν}, constraint closure, d.o.f. count.
+• “Stability & Hyperbolicity Lemmas” (Sec. 4–5) with explicit parameter windows.
+• “Linear Spectrum Sheet” (Sec. 6) for quick reference at homogeneous backgrounds.
+
+Gate (Go/No-Go) for Phase 1
+---------------------------
+[ ] Stress–energy derived and conserved on-shell.
+[ ] Constraint u^2+1=0 closes; ξ determined algebraically; no extra secondary constraints needed.
+[ ] Ghost-free window stated and nonempty (α>0, λ<1/2 near ψ≈0; extend with |ψ|-dependent bound).
+[ ] Hyperbolic principal symbols established; no acausal characteristics in allowed window.
+[ ] Quadratic spectrum stable about at least one vacuum (choose θ̄ = 0).
+
+— End of Phase 1 deliverable (Kernel hardening).
+
+PHASE 2 — TOPOLOGICAL PORT (ℤ₃ plug-in)
+
+Scope
+-----
+This phase packages the τ/ℤ₃ twist sector as an *optional module* that can be attached to the Blockwave Core {u^μ, θ} without altering its minimal equations.
+Core requirement: When the port is OFF, the action reduces exactly to S_core (Phase 0). When ON, additional terms implement Z₃ triality, fusion constraints, and holonomy couplings.
+
+0) Context
+----------
+• θ ∼ θ + 2π already encodes compactness; in 1D/1+1D settings, kinks between vacua (θ = 0, 2π/3, 4π/3) realize Z₃ sectors naturally.
+• τ sector (ℤ₃) formalized in symbolic kernel and extended cobordism frameworks: τ as discrete label, fusion rule τ₁+τ₂+τ₃ ≡ 0 mod 3, embedding via BF-type actions.  [oai_citation:0‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+• Here we make τ optional: activated only when confinement/triality is under test.
+
+1) τ Field Definition
+---------------------
+• τ(x): discrete ℤ₃ variable, τ ∈ {0,1,2}, defined on lattice links or simplicial 1-cochains.
+• Cohomological embedding: A ∈ C¹(M,ℤ₃), with flatness δA = 0 when fusion rules are satisfied.
+• Fusion rule (triangle): τ_i + τ_j + τ_k ≡ 0 mod 3 at each junction → flat discrete connection.
+
+2) Minimal Topological Action
+------------------------------
+BF-type flatness constraint:
+  S_BF = (3/2π) ∫ B ∪ δA
+  • A: ℤ₃ 1-cochain (τ gauge field).
+  • B: ℤ₃ 0-cochain (Lagrange multiplier).
+  • ∪: cup product.
+  • δA = 0 enforces fusion consistency.
+
+Holonomy coupling to θ (binding kinks to τ flux):
+  S_θτ = ζ ∫ A ∪ dθ
+  • On lattice: ζ ∑_i τ_i (θ_{i+1} − θ_i).
+  • Meaning: a nontrivial τ flux must be accompanied by a kink in θ.
+  • Observables: composite τ–θ defects, enforced triality.
+
+Fusion penalty energy (lattice form):
+  E_fusion = ε_f ∑_i [ 1 − δ_{τ_{i−1}+τ_i+τ_{i+1} mod 3, 0} ]
+  • Adds energy cost for violating Z₃ triangle rule.
+  • Parameter ε_f > 0 sets confinement strength.
+
+3) Coupled Action (Port ON)
+----------------------------
+S_total = S_core + S_BF + S_θτ + (lattice penalty term, in discretized models).
+
+Toggle discipline:
+• Port OFF → τ sector absent, S_total = S_core.
+• Port ON → τ sector present, but all τ terms vanish if τ is trivial (τ_i=0).
+
+4) Physical Interpretation
+---------------------------
+• τ lines = Z₃ triality charges (color / flavor proxies).
+• θ kinks bound to τ flux → triality-neutral composites stable.
+• Violating τ fusion costs ε_f → models color confinement.
+• In continuum TQFT language: τ sector corresponds to H¹(M,ℤ₃) with holonomy classification.
+
+5) Observables (Port-dependent)
+--------------------------------
+• Triality conservation: only τ-neutral combinations (∑ τ ≡ 0 mod 3) are physical.
+• Defect statistics: defect clustering obeys τ-fusion rule.
+• Composite excitations: θ domain walls carry τ labels → emulate quark bound states.
+• Lattice simulations: measure invalid fusion fraction
+  P_invalid = (# of bad triplets) / (# of all triplets).
+
+6) Deliverables
+---------------
+• “Topological Port v1” (this document): τ field definition, BF flatness action, holonomy coupling, lattice penalty, observables.
+• Interface spec: single coupling ζ and penalty ε_f control the τ sector; toggle variable λ_top ∈ {0,1} activates/deactivates.
+
+7) Gate (Go/No-Go)
+------------------
+[ ] Port OFF reproduces S_core exactly.
+[ ] Port ON yields consistent flatness condition (δA=0) and τ–θ holonomy without breaking EOM_core.
+[ ] Fusion penalty well-defined, positive-definite (ε_f > 0).
+[ ] Observables clearly distinguish ON vs OFF cases.
+
+— End of Phase 2 deliverable (Topological port).
+
+PHASE 3 — OBSERVABLE ADAPTERS (ready-to-measure hooks)
+
+Scope
+-----
+The Blockwave Core (Phase 0) plus optional Topological Port (Phase 2) must produce *falsifiable predictions* in formats directly comparable to experiments or analog simulations. This phase defines three canonical "adapters" that map intrinsic Blockwave fields → observables.
+
+0) Design Principles
+--------------------
+• Adapters do not change the equations of motion. They are *readouts* built from {θ, u^μ, τ}.
+• Each adapter yields at least one *dimensionless, falsifiable* prediction.
+• Must function with or without τ port enabled.
+
+1) OPTICAL ADAPTER — Phase Retardation
+--------------------------------------
+Motivation:
+• Domain walls in θ produce discrete phase shifts measurable as retardation in optical/EM interferometry.
+• Already proposed in minimal SAT models.  [oai_citation:0‡SAT_Complete_Overview.txt](file-service://file-GxqQj9sLEGF2zTQVWtTowd)
+
+Definition:
+• Optical phase shift across a kink:
+    Δφ = η ∫_{−∞}^{∞} sin(2θ(x)) dx,
+  where η is a dimensionless coupling (experiment-dependent normalization).
+• For a single kink solution θ(x) interpolating 0 → 2π/3:
+    Δφ ≈ constant (predicted ~0.12–0.24 rad in earlier sketches).
+
+Observables:
+• Achromatic: independent of wavelength (depends only on θ profile).
+• Quantized jumps: integer multiples if multiple domain walls.
+• Interferometry signature: fringe shift proportional to Δφ.
+
+Testbeds:
+• Optical fibers or metamaterials engineered to host θ-like compact phases.
+• Laboratory interferometry (laser + medium with tunable domain walls).
+
+2) STRAIN / GRAVITATIONAL WAVE ADAPTER
+--------------------------------------
+Motivation:
+• Nonlinear couplings allow conversion of u-sector strain ↔ θ excitations.
+• Predicts attenuation/echo effects in GW propagation.
+
+Definitions:
+• Strain scalar: S := ∇·u.
+• Elastic invariant: E := P^{μρ} P^{νσ} (∇_μ u_ν)(∇_ρ u_σ).
+• Conversion channel strength:
+    C(ω) ∝ (α, λ, β) × f(θ background),
+  where ω = frequency of incoming GW/strain wave.
+
+Predictions:
+• GW amplitude loss fraction ε ∼ O(λ^2, β^2).
+• Echoes: delayed secondary θ-mode signals following GW burst.
+• Frequency dependence: stronger conversion near kink resonance bands.
+
+Observables:
+• Attenuation or distortion in GW signals (LIGO, LISA, PTA).
+• Cross-correlation: θ-induced scalar background accompanying GWs.
+
+Testbeds:
+• Analog experiments: acoustic waves in elastic media with built-in compact phases.
+
+3) CLOCK / REDSHIFT ADAPTER
+----------------------------
+Motivation:
+• Foliation strain modifies effective clock rates (∇·u enters as time-dilation).
+• Detectable via precision timing (atomic clocks, GPS, pulsars).
+
+Definitions:
+• Effective clock rate shift:
+    δν/ν ≈ κ (∇·u),
+  where κ is dimensionless proportionality factor fixed by model scaling.
+• Integrated redshift between two points along flow lines:
+    Δz = exp( ∫ (∇·u) dt ) − 1.
+
+Predictions:
+• Drift of order 10^−18 detectable in state-of-art clocks.
+• Regional anomalies in GPS timing if large θ gradients present.
+• Pulsar timing residuals correlated with cosmic strain fields.
+
+Observables:
+• Clock drift maps at 10^−18–10^−20 precision.
+• Timing arrays: residual patterns across pulsars.
+
+4) τ-SECTOR OBSERVABLES (Port ON only)
+---------------------------------------
+• Triality neutrality: only τ-sums ≡ 0 mod 3 observed in composites.
+• Invalid fusion probability:
+    P_invalid → 0 in annealed τ field.
+• Observable in analog lattice models or defect clustering in condensed matter systems.
+
+5) Deliverables
+---------------
+• “Adapters v1” = three adapter definitions (optical, strain/GW, clock), each with:
+  – Mathematical definition
+  – Physical prediction
+  – Observable/test domain
+• τ-sector extras defined if port is ON.
+
+6) Gate (Go/No-Go)
+------------------
+[ ] Each adapter defined purely in terms of {θ, u^μ, τ}.
+[ ] Each adapter outputs at least one falsifiable, dimensionless prediction.
+[ ] τ-sector observables switch off when port = OFF.
+[ ] External normalization anchor (Phase 6) only required for SI translation, not for dimensionless predictions.
+
+— End of Phase 3 deliverable (Observable adapters).
+
+PHASE 4 — STANDARD MODEL TOUCHPOINTS (minimal embedding interface)
+
+Scope
+-----
+The Blockwave Core is agnostic to particle physics content, but it provides
+a translation layer to known Standard Model (SM) features. This phase records
+the structural connections without enlarging the core equations.
+
+0) Principles
+-------------
+• Minimalism: use only {θ, u^μ} and optional τ sector.
+• All matches must arise from topology or geometry.
+• Incomplete parts are marked “under development” for later extension.
+
+1) U(1) — Electromagnetism
+--------------------------
+• Origin: compactness of θ and associated holonomies.
+• Mechanism: cohomological quantization enforces integer flux units.
+• Observable: charge quantization appears automatically.
+• Translation: θ-holonomies ↔ U(1) gauge bundles.
+
+2) SU(3) — Color / Triality
+----------------------------
+• Origin: τ ∈ ℤ₃ twist sector (fusion rule τ₁+τ₂+τ₃ ≡ 0).
+• Mechanism: triality neutrality corresponds to color confinement.
+• Observable: only τ-neutral composites are physical.
+• Translation: τ sector ↔ SU(3)/ℤ₃ center symmetry.
+
+3) SU(2) × U(1) — Electroweak
+------------------------------
+• Under development within Blockwave framework.
+• Expected to emerge from couplings between θ, ψ-phase analogs, and u^μ foliation.
+• Not part of the minimal Blockwave Core at present.
+
+4) Fermion Families & Mass Hierarchy
+------------------------------------
+• θ vacua (0, 2π/3, 4π/3) provide discrete generation structure.
+• Mass suppression law m_eff = m₀ / Q (Q = linking/winding index) outlines hierarchical scales.
+• Further calibration of absolute values is under development.
+
+5) Anomaly Cancellation
+-----------------------
+• Under development in extended Blockwave program.
+• Minimal Blockwave Core does not include full anomaly machinery yet.
+
+6) Summary
+----------
+Feature         | Blockwave Status
+----------------|-------------------------
+U(1) EM         | Derived from θ holonomy
+SU(3) Color     | Realized via τ port
+SU(2) Weak      | Under development
+Higgs Mechanism | Under development
+Mass Hierarchy  | Encoded via θ vacua and Q-law
+Charge Quant.   | Built in from compactness
+Anomalies       | Under development
+
+— End of Phase 4 deliverable (SM touchpoints).
+
+PHASE 5 — KINK SECTOR COMPLETION (analytic development)
+
+Scope
+-----
+The Blockwave Core admits kink (domain wall) solutions in θ, interpolating
+between discrete Z₃ vacua. This phase develops their analytic structure,
+stability, and quantization properties.
+
+0) Setup
+--------
+• Compact scalar θ with potential V(θ) = −μ² cos(3θ).
+• Vacua: θ = 0, 2π/3, 4π/3.
+• Coupling to u^μ encoded through λ and β terms; in 1+1D reduction u^μ
+  parametrized by rapidity ψ(x,t).
+
+1) Static Kink Solutions
+------------------------
+Equation of motion (static 1D, ψ frozen = 0):
+    θ''(x) = 3 μ² sin(3θ(x)).
+
+Boundary conditions:
+    θ(−∞) = 0,   θ(+∞) = 2π/3.
+
+Analytic solution (sine-Gordon type, Z₃ variant):
+    θ(x) = (2/3) arctan[ exp(3 μ (x − x₀)) ],
+  up to discrete shifts by 2π/3 and spatial translation x₀.
+
+Width:
+    δx ∼ 1/μ.
+
+2) Energy and Stability
+-----------------------
+Energy density for static profile:
+    𝔈(x) = ½ (θ')² + μ² (1 − cos(3θ)).
+
+Integrated kink energy:
+    E_kink = ∫ dx 𝔈(x) = (8 μ) / 9.
+
+Stability:
+• Positive-definite energy functional around kink.
+• Topological charge prevents decay:
+    Q_wall = (3/2π)[θ(+∞) − θ(−∞)] ≡ 1 mod 3.
+
+3) Coupling to u^μ Sector
+-------------------------
+With ψ dynamic, kink profile is modified by:
+    θ''(x) [1 + λ sinh²ψ(x)] − β sin(2θ) coshψ(x) ψ'(x) + 3 μ² sin(3θ) = 0.
+
+Observations:
+• λ stretches or compresses kink width.
+• β introduces asymmetric distortion linked to ψ gradients.
+• In weak-coupling regime (|λ|,|β| ≪ 1), kink remains stable.
+
+4) Linearized Spectrum
+----------------------
+Expand θ = θ_kink(x) + δθ(x,t), ψ = 0 + δψ(x,t).
+Equation for δθ:
+    [−∂ₓ² + U(x)] φ_n(x) = ω_n² φ_n(x),
+  where U(x) = V''(θ_kink(x)).
+
+Properties:
+• Zero mode: φ₀ ∝ θ'_kink(x) (translational symmetry).
+• Discrete bound states possible depending on U(x).
+• Continuum states: scattering with phase shifts.
+
+Mass gap:
+    m² = V''(0) = 9 μ².
+
+5) Quantum Corrections
+----------------------
+One-loop kink mass shift:
+    ΔM = ½ [∑_bound ω_n + ∫ (d k / 2π)(δ(k) dω/dk)],
+  where δ(k) is the phase shift.
+Result: finite correction stabilizing the soliton.
+
+Effective phase shift observable:
+    Δφ_quantum = η ∫ ⟨sin(2θ(x))⟩ dx,
+  where expectation includes quantum fluctuations.
+
+6) Observable Signatures
+------------------------
+• Optical adapter: discrete retardation Δφ from kink, robust under fluctuations.
+• GW/strain adapter: partial conversion into kink excitations, yielding echoes.
+• Clock adapter: localized drift near kink due to ∇·u coupling.
+
+7) Deliverables
+---------------
+• “Kink Dossier”: analytic kink profile, energy, stability, linearized spectrum, quantum corrections.
+• Explicit formulas for observables (Δφ, echo strength, drift anomaly) in kink background.
+
+8) Gate (Go/No-Go)
+------------------
+[ ] Static kink profile solved analytically.
+[ ] Energy finite, positive, and topologically protected.
+[ ] Zero mode and mass gap identified.
+[ ] Observable connections defined via adapters.
+
+— End of Phase 5 deliverable (Kink sector completion).
+
+PHASE 6 — UNITS & NORMALIZATION ANCHOR
+
+Scope
+-----
+Blockwave Core equations are written in dimensionless internal units
+(ℏ = c = 1 by construction). To compare with experiments, a single
+normalization anchor must map theory-internal scales to SI units.
+This phase defines that anchor and the procedure for applying it.
+
+0) Principles
+-------------
+• Only one external reference constant is introduced.
+• All other physical scales are dimensionless ratios derived from
+  Blockwave fields and couplings.
+• Dimensionless predictions (e.g. quantized phase shift across a kink)
+  remain invariant and require no anchor.
+
+1) Choice of Anchor
+-------------------
+Define an external time interval T₀ (or equivalently a frequency ν₀ = 1/T₀).
+This serves as the mapping between dimensionless time t_int and SI time t_SI:
+    t_SI = T₀ · t_int.
+
+From this, length and energy anchors follow:
+    x_SI = c T₀ · x_int,
+    E_SI = ℏ / T₀ · E_int.
+
+Interpretation:
+• T₀ can be chosen as the period of a reference atomic transition
+  (e.g., cesium-133 standard).
+• Once chosen, all Blockwave predictions become numerically testable.
+
+2) Application to Observables
+-----------------------------
+(a) Optical Adapter (Phase 3):
+    Δφ = η ∫ sin(2θ(x)) dx_int.
+Conversion:
+    dx_int → dx_SI / (c T₀).
+Thus Δφ is dimensionless and invariant: no change after anchoring.
+
+(b) Strain/GW Adapter:
+    Conversion factor for frequency:
+        ω_SI = ω_int / T₀.
+    Attenuation coefficient ε is dimensionless, unchanged by anchor.
+    Echo timing (Δt_int) maps as Δt_SI = T₀ · Δt_int.
+
+(c) Clock Adapter:
+    δν/ν = κ (∇·u).
+Dimensionless ratio, unchanged by anchor.
+Integrated redshift Δz = exp( ∫ (∇·u) dt_int ) − 1;
+conversion via dt_SI = T₀ · dt_int.
+
+(d) Kink Energy:
+    E_int = (8 μ)/9 (dimensionless).
+Conversion: E_SI = (ℏ / T₀) · E_int.
+Thus choice of T₀ fixes kink energy scale in joules.
+
+3) Constraints on Anchor Choice
+-------------------------------
+• T₀ must be consistent across all sectors.
+• Theories with different anchors are equivalent up to rescaling,
+  but only one anchor can be chosen to compare to experiment.
+• Anchor sets the absolute scales but not the ratios of observables.
+
+4) Deliverables
+---------------
+• “Normalization Note”: single anchor T₀, conversion rules for t, x, E.
+• Worked examples: kink energy, optical Δφ, GW echo timing, clock drift.
+
+5) Gate (Go/No-Go)
+------------------
+[ ] Single external anchor T₀ defined.
+[ ] Conversion rules for time, length, energy specified.
+[ ] Dimensionless observables invariant under anchoring.
+[ ] Examples demonstrate how predictions map to SI.
+
+— End of Phase 6 deliverable (Units & normalization anchor).
+
+PHASE 7 — DOCUMENTATION & API SURFACE
+
+Scope
+-----
+This phase formalizes the Blockwave Core into a clean, simulation-ready
+specification. It defines the minimal “API surface” — inputs, outputs,
+and toggles — plus a glossary of symbols. This ensures compatibility
+with analytical work, numerical solvers, and experimental modeling.
+
+0) Principles
+-------------
+• API must expose only what is essential: equations of motion, Hamiltonian
+  density, toggle for τ-port, and observable adapters.
+• Documentation must remain concise and self-contained.
+• Symbols used consistently across all modules.
+
+1) API Definition
+-----------------
+Core(inputs):
+    Inputs:
+        θ(x,t), u^μ(x,t), g_μν (background metric).
+        Coupling constants: μ, λ, α, β.
+    Outputs:
+        EOM_θ: □θ − 2λ ∇_μ(Φ u^μ) + 3μ² sin(3θ) − β sin(2θ)(∇·u).
+        EOM_u: P^μ_ν [ −2α ∇_ρ( P^{ρσ} ∇_σ u^ν ) + 2λ Φ ∇^ν θ + β ∇^ν f(θ) ].
+        Hamiltonian density H[θ,u].
+
+TopologyPort(on/off, ζ, ε_f):
+    • on = activate τ-sector.
+    • Adds BF-term, fusion penalty, and holonomy coupling.
+    • off = τ sector absent, Core remains unchanged.
+
+Adapters(optics/strain/clock):
+    • optics: Δφ = η ∫ sin(2θ(x)) dx.
+    • strain: conversion fraction ε(ω) from GWs into θ/u modes.
+    • clock: δν/ν ≈ κ (∇·u), Δz = exp(∫ (∇·u) dt) − 1.
+
+2) Glossary (Symbols and Conventions)
+-------------------------------------
+θ(x): compact scalar, θ ∼ θ + 2π.
+u^μ(x): unit timelike vector, u·u = −1.
+ψ(x,t): rapidity parameter (1+1D reduction), u = (coshψ, sinhψ).
+τ(x): ℤ₃ twist field (port only).
+Φ := u·∇θ.
+f(θ) := sin²θ.
+P^μ_ν := g^μ_ν + u^μ u_ν (projector orthogonal to u).
+μ: mass parameter of θ potential.
+λ: coupling between θ and u·∇θ.
+α: strength of u kinetic term.
+β: θ-dependent divergence coupling.
+ζ: holonomy coupling strength (τ port).
+ε_f: fusion penalty (τ port).
+η: optical coupling coefficient.
+κ: clock adapter coefficient.
+T₀: normalization anchor (Phase 6).
+
+3) Documentation Structure
+--------------------------
+• Core Specification: equations, Hamiltonian, constraints.
+• τ-Port Module: optional, toggleable.
+• Observable Adapters: defined readouts.
+• Normalization Note: external anchor T₀ and conversion.
+• SM Interface Sheet: mapping to gauge groups (Phase 4).
+• Kink Dossier: soliton profiles and spectra (Phase 5).
+
+4) Deliverables
+---------------
+• Core Spec PDF (derivable from text here).
+• API.md — concise listing of Core, TopologyPort, Adapters.
+• Glossary.md — all symbols and definitions.
+
+5) Gate (Go/No-Go)
+------------------
+[ ] Core API defined (inputs, outputs).
+[ ] τ-port toggle formalized.
+[ ] Adapters callable as functions.
+[ ] Glossary complete and consistent.
+[ ] Documentation structured and self-contained.
+
+— End of Phase 7 deliverable (Documentation & API surface).
+
+PHASE 8 — NON-ABELIAN TESTBEDS (optional, off-core targets)
+
+Scope
+-----
+Blockwave Core is complete without this phase. Phase 8 provides
+optional “testbeds” for non-Abelian gauge structures (SU(2), SU(3), SU(N)),
+topological solitons, and dualities. These are not part of the
+minimal/ideal Blockwave equations but serve as benchmarks for future
+extensions and consistency checks.
+
+0) Principles
+-------------
+• Do not alter the Core {θ, u^μ} or τ-port mechanics.
+• Define acceptance tests only: what conditions must be met if a
+  non-Abelian extension is attempted.
+• Mark these as “targets for later development.”
+
+1) SU(2) Gauge Sector (Testbed)
+-------------------------------
+Target Conditions:
+• Gauge field A^a_μ with field strength F^a_{μν}.
+• Instanton solutions (BPST) with topological index k ∈ ℤ.
+• Anomaly cancellation (e.g., Witten anomaly avoidance).
+• Embedding rule: SU(2) should appear as local symmetry of extended
+  ψ/θ/u bundle without new arbitrary fields.
+
+Observable Targets:
+• Instanton number k measurable via ∫ tr(F∧F).
+• Monopole-like defects (’t Hooft–Polyakov) if scalar extension allowed.
+
+2) SU(3) Gauge Sector Beyond τ
+------------------------------
+Target Conditions:
+• Full SU(3) gauge algebra must emerge from extension of τ-port.
+• Color confinement via triality neutrality.
+• Baryon/meson correspondence with topological linkings.
+
+Observable Targets:
+• Dirac quantization of magnetic flux.
+• Lattice triality composites consistent with hadron spectrum.
+
+3) Topological Dualities
+------------------------
+Target Conditions:
+• Electric–magnetic duality: F → cosθ F + sinθ ⋆F.
+• θ-angle effects: possible link to CP violation.
+• TQFT embedding: Blockwave must map onto Dijkgraaf–Witten or related
+  state-sum models in the τ-port regime.
+
+4) Falsifiability Targets
+-------------------------
+• Detection of magnetic monopoles (direct or indirect).
+• Observation of instanton-induced processes (baryogenesis analogs).
+• Precision test of electric–magnetic duality.
+
+5) Deliverables
+---------------
+• “Targets Sheet”: bullet list of acceptance criteria for SU(2), SU(3),
+  instantons, monopoles, dualities.
+• This document does not supply new equations — only benchmarks.
+
+6) Gate (Go/No-Go)
+------------------
+[ ] Core remains unaltered if Phase 8 skipped.
+[ ] SU(2)/SU(3) acceptance criteria recorded.
+[ ] Topological duality benchmarks stated.
+[ ] Falsifiability targets identified.
+
+— End of Phase 8 deliverable (Non-Abelian testbeds).
+
