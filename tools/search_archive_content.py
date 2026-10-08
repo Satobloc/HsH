@@ -320,7 +320,7 @@ ARCHIVE_ALIASES={
  "Satobloc/HsH":("HsH","hsh-main","hsh"),
  "Satobloc/HSH_RESOURCES":("HSH_RESOURCES","resources")
 }
-CHRONO_FIELDS=re.compile(r"\b(?:era|version|archive_date|origin|date_confidence|document_type|retrospective|date_mentioned|repo|repository):",re.I)
+CHRONO_FIELDS=re.compile(r"\b(?:era|version|archive_date|origin|date_confidence|document_type|retrospective|date_mentioned):",re.I)
 EXAMPLES=[
  'python tools/search_archive_content.py --capabilities',
  'python tools/search_archive_content.py --expr \'"0.24" OR "optical phase"\' --result-mode files',
