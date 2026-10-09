@@ -149,6 +149,10 @@ def _tokens(text: str) -> list[str]:
             prev and (prev[0].isalnum() or prev[0] == "_" or prev[0] == ".")
         )
         function_call = prev in ALLOWED_FUNCS and t == "("
+        # A name followed by parentheses may be a function call; fail closed
+        # unless it is explicitly whitelisted. Require B*(x+1) for products.
+        if prev and t=="(" and re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]*",prev) and prev not in ALLOWED_FUNCS|{"pi","E"}:
+            raise UnsupportedExpression("Unknown function or ambiguous implicit multiplication; write * explicitly")
         if result and prev_atom and curr_atom and not function_call:
             result.append("*")
         result.append("**" if t == "^" else t)
