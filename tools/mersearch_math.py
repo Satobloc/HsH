@@ -123,6 +123,7 @@ def normalize(raw: str) -> str:
     s = str(raw).strip().strip("$")
     s = s.replace(r"\[", "").replace(r"\]", "").replace(r"\(", "").replace(r"\)", "")
     s = _frac_convert(s)
+    s = s.replace(r"\approx", "≈").replace(r"\simeq", "≃")
     # Common optical phase notation uses Delta-phi as ONE observable, not the
     # product of unrelated variables named Delta and phi.
     s = re.sub(r"\\Delta\s*\\(?:phi|varphi)\b|Δ\s*φ", "Delta_phi", s)
