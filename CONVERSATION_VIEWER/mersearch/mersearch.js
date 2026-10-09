@@ -58,15 +58,16 @@
     const active=new Set(data.archives_searched||data.archives_discovered||[]);
     const missing=new Set(data.missing_archives||[]);
     const known=Array.isArray(data.archives_searched)||Array.isArray(data.archives_discovered);
-    $('scopeHeadline').textContent=known?active.size+'/3 FOUND':'UNKNOWN';
+    const catalog=data.kind==='public-conversation-catalog';
+    $('scopeHeadline').textContent=catalog?'CATALOG ONLY':known?active.size+'/3 FOUND':'UNKNOWN';
     const list=$('archiveRows');clean(list);
     archives.forEach(([repo,name])=>{
       const status=active.has(repo)?'active':missing.has(repo)||state.profile==='public'?'missing':'pending';
       put(list,E('div','archive-row'));const row=list.lastChild;
       put(row,E('span','archive-light '+status),E('span','',name),
-        E('small','',status==='active'?'Available':status==='missing'?'Not searched':'Unknown'));
+        E('small','',catalog&&status==='active'?'Catalog':status==='active'?'Available':status==='missing'?'Not searched':'Unknown'));
     });
-    $('scopeNote').textContent=!known?'Connect a search service or import a result file to see corpus coverage.'
+    $('scopeNote').textContent=catalog?data.scope_note:!known?'Connect a search service or import a result file to see corpus coverage.'
       :data.coverage_status==='complete'?'All three repositories reported. Format and size exclusions may still apply.'
       :state.profile==='public'?'Public search is restricted to approved public files. Private resources stay private.'
       :'Some archives were not searched. Results are not an exhaustive historical inventory.';
@@ -108,6 +109,10 @@
         if(catalog.kind!=='public-conversation-catalog'||!Array.isArray(catalog.hits))
           throw Error('Not a public catalog artifact');
         state.catalog=catalog;state.profile='public';
+        document.querySelectorAll('.suggestions [data-example]').forEach((b,i)=>{
+          const name=['SAT','Physics','Chronophysical','Meridian'][i]||'SAT';
+          b.dataset.example=name;b.replaceChildren(document.createTextNode(name+' '),E('span','','↗'));
+        });
         connection(false,'Public catalog search');
         $('connectionState').className='connection catalog';
         coverage(catalog);
