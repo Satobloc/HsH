@@ -43,8 +43,24 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Rebuild conversation catalog for deployment
-        run: python tools/build_conversation_viewer.py
+      - name: Validate resolved public Viewer catalog and exact curation hash
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          manifest=Path('CONVERSATION_VIEWER/data/conversations.json')
+          rules=Path('CONVERSATION_VIEWER/CURATION.json')
+          d=json.loads(manifest.read_text(encoding='utf-8'))
+          if not isinstance(d.get('conversations'),list) or not d['conversations']:
+              raise SystemExit('No published Viewer catalog; refusing to replace public site')
+          expected=hashlib.sha256(rules.read_bytes()).hexdigest()[:16]
+          actual=d.get('curation',{}).get('sha256_16')
+          if actual!=expected:
+              raise SystemExit('Viewer catalog curation hash is stale. Rebuild via build-conversation-viewer workflow before deploying.')
+          if d.get('counts',{}).get('conversations')!=len(d['conversations']):
+              raise SystemExit('Viewer catalog count mismatch')
+          print('VIEWER_PUBLISHED_CATALOG_ENTRIES='+str(len(d['conversations'])))
+          PY
 
       - name: Generate publicly curated Mersearch catalog
         run: |
