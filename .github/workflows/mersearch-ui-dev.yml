@@ -107,17 +107,24 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /CONVERSATION_VIEWER/
-            /tools/build_conversation_viewer.py
             /tools/build_mersearch_public_catalog.py
-            /indexes/manifests/development-conversation-dates.json
-            /indexes/manifests/live-conversation-dates.json
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild Viewer and Mersearch catalog exactly as Pages does
+      - name: Validate resolved Viewer catalog, curation hash and build public catalog
         run: |
-          python tools/build_conversation_viewer.py
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          catalog=Path('CONVERSATION_VIEWER/data/conversations.json')
+          rules=Path('CONVERSATION_VIEWER/CURATION.json')
+          d=json.loads(catalog.read_text(encoding='utf-8'))
+          assert len(d['conversations'])>0
+          assert d.get('curation',{}).get('sha256_16')==hashlib.sha256(rules.read_bytes()).hexdigest()[:16], 'stale public curation'
+          assert d['counts']['conversations']==len(d['conversations'])
+          print('RESOLVED_VIEWER_SOURCE_ENTRIES='+str(len(d['conversations'])))
+          PY
           python tools/build_mersearch_public_catalog.py
       - name: Confirm staged public source scope and artifact integrity
         run: |
