@@ -9,6 +9,8 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
+      - 'tools/build_mersearch_public_catalog.py'
       - '.github/workflows/mersearch-ui-dev.yml'
   pull_request:
     paths:
@@ -17,6 +19,8 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
+      - 'tools/build_mersearch_public_catalog.py'
       - '.github/workflows/mersearch-ui-dev.yml'
   workflow_dispatch:
 
@@ -32,17 +36,36 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /CONVERSATION_VIEWER/mersearch/
+            /CONVERSATION_VIEWER/data/conversations.json
+            /tools/build_mersearch_public_catalog.py
             /tools/serve_mersearch_ui.py
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
             /WORKSPACES/MERCER/test_mersearch_ui.py
+            /WORKSPACES/MERCER/test_mersearch_public_catalog.py
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Validate Python syntax
-        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py
+        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py tools/build_mersearch_public_catalog.py
       - name: Validate browser JavaScript syntax
         run: node --check CONVERSATION_VIEWER/mersearch/mersearch.js
       - name: Exercise public allowlist, local API and import-facing shell
         run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_ui.py' -v
+
+      - name: Test static catalog curation and safety
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_public_catalog.py' -v
+      - name: Build deployment catalog from real curated Viewer manifest
+        run: |
+          python tools/build_mersearch_public_catalog.py
+          python - <<'PY'
+          import json
+          p='CONVERSATION_VIEWER/mersearch/data/catalog.json'
+          d=json.load(open(p,encoding='utf-8'))
+          assert d['catalog_entries'] > 0
+          assert d['coverage_status']=='partial'
+          assert d['profile']=='public'
+          assert 'Satobloc/HSH_RESOURCES' not in d['archives_searched']
+          print('CURATED_PUBLIC_CATALOG_ENTRIES='+str(d['catalog_entries']))
+          PY
