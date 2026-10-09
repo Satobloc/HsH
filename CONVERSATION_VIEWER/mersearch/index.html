@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#132631">
-  <meta name="description" content="Mersearch, a provenance-first search atlas of the SAT and H(s)H research archives.">
+  <meta name="description" content="Mersearch. Explore the public SAT and H(s)H conversation record, with original source links and chronological evidence.">
+  <link rel="canonical" href="https://satobloc.github.io/HsH/mersearch/">
   <title>Mersearch | The Glass Archive</title>
   <link rel="stylesheet" href="./mersearch.css?v=1">
   <script defer src="./mersearch.js?v=1"></script>
@@ -25,7 +26,7 @@
           <button class="nav-item" data-view="saved"><span aria-hidden="true">▤</span> Saved searches</button>
           <a class="nav-item" href="../" rel="noopener"><span aria-hidden="true">↗</span> Conversation Viewer</a>
         </nav>
-        <div class="rail-section with-gap">YOUR ARCHIVES <span id="scopeHeadline" class="rail-count">CHECKING</span></div>
+        <div class="rail-section with-gap"><span id="archiveScopeTitle">YOUR ARCHIVES</span> <span id="scopeHeadline" class="rail-count">CHECKING</span></div>
         <div class="archive-rows" id="archiveRows" aria-live="polite">
           <div class="archive-row"><span class="archive-light pending"></span><span>Original SAT archive</span><small>…</small></div>
           <div class="archive-row"><span class="archive-light pending"></span><span>H(s)H workspace</span><small>…</small></div>
@@ -52,7 +53,7 @@
       <section class="hero">
         <div class="eyebrow"><span class="pulse-dot"></span> THE RESEARCH ATLAS <span class="hero-index">01 / SEARCH</span></div>
         <h1>Find the <em>first time</em><br>we said it.</h1>
-        <p>Three archives. Thousands of conversations. One thread back to the source.<br class="desktop-break"> Search a phrase, an equation, or the history of an idea.</p>
+        <p id="heroDescription">From early laboratory notes to H(s)H. Follow an idea through its conversations, equations, and original sources.</p>
       </section>
 
       <section class="search-frame" aria-label="Search the archives">
@@ -181,7 +182,7 @@
     <div class="dialog-top"><div><span class="section-eyebrow">ABOUT THE ARCHIVE</span><h2 id="aboutTitle">An idea has a history.</h2></div><button class="dialog-close" data-close-dialog type="button" aria-label="Close about">×</button></div>
     <p>Mersearch is a provenance-first research interface for the public SAT/H(s)H development record. It is designed to find original calculations, conversations, revisions, and the mathematical paths connecting them.</p>
     <p>The historical record includes experimental work, speculations, dead ends and corrections. Search is evidence discovery, not endorsement of any theoretical claim.</p>
-    <p class="guide-caution">The public site requires a separately deployed, explicitly allowlisted search service. Without one, this page can open and inspect exported Mersearch JSON result sets. It will never label that offline mode as live search.</p>
+    <p class="guide-caution">The public website includes a curated conversation-title catalog. It does not search the text inside those conversations. Full-text, equation and comprehensive chronology searches require the separate Mersearch research engine, with its own authorized corpus.</p>
     <div class="dialog-actions"><a href="../" rel="noopener">Open Conversation Viewer ↗</a><button data-close-dialog class="search-submit" type="button">Close</button></div>
   </dialog>
 </body>
