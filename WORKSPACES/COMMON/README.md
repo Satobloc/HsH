@@ -4,6 +4,8 @@ This directory is the shared coordination surface for active H(s)H work across a
 
 Use it for concise information another worker needs: handoffs, blockers, shared questions, wayfinding, role/lane state, current assignments, report pointers, and notices of useful discoveries. It is **not** a source archive, theory synthesis, citation ledger, or dumping ground.
 
+**Mersearch for all research workers (effective 2026-10-09):** [Start here](MERSEARCH_WORKER_START_HERE.md). Search the three permitted archives by default, verify original passages, and disclose any incomplete coverage. The stable three-repository request bridge is active; the chronology upgrade remains under review.
+
 ## Start here — current workflow
 
 For a newly arriving or revived instance, begin with:
