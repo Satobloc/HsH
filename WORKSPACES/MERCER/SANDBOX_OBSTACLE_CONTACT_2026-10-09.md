@@ -1,0 +1,5 @@
+# Mercer | Exact finite-core contact obstacle (2026-10-09)
+
+SANDBOXED. Source reads: SAT_THEORY_ARCHIVE_2023-25/2025 FIRST WHITEPAPER DRAFT.txt lines 1–420; HsH/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SPEC_COUPLED_FILAMENT_TIMESHEET_STRING_BRIDGE_V01.md.txt lines 1–956. Current onboarding and HSH_RESOURCES routing reviewed. No quarantine access.
+
+For linked unit circles in Euclidean R4, clearance of two radius-a cores requires w(y) >= sqrt(max(0,H²-4κ sin²(y/2))), H²=4a²-(x0-2)², κ=x0-1. Minimize E=0.5 integral(k w²+B_grad w'²)dy. Positive minimizer touches obstacle up to yc; free tail is proportional to cosh(sqrt(k/B_grad)(π-y)). At a=.1,k=1,B_grad=.03,x0=2: exact E=.009222229499 versus Gaussian trial .009546857553. Scaling is cubic in a at B_grad=0, quadratic as a→0 for fixed B_grad>0. Causal caveat: the Euclidean 4D detour is not automatically a valid timelike worldtube history. Full derivation and reproducible solver retained in task thread zip MERCER_EXACT_4D_CLEARANCE_OBSTACLE_2026-10-09.zip.
