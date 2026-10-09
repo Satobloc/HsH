@@ -547,7 +547,9 @@ def main()->int:
     equations,extraction=MM.extract(rec.text)
     math_inventory_stats.update(extraction)
     for eq in equations:
-     inventory_file.write(json.dumps({"path":rel,"repository":repository,"record_locator":rec.locator,
+     inventory_file.write(json.dumps({"path":rel,"repository":repository,
+       "source_sha256":sha(path,cache),
+       "record_locator":rec.locator,
        "message_id":rec.message_id,"timestamp":rec.timestamp,
        "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
        "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\n")
