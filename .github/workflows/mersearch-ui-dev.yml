@@ -9,6 +9,7 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
       - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
       - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
@@ -21,6 +22,7 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
       - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
       - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
@@ -46,6 +48,7 @@ jobs:
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
             /WORKSPACES/MERCER/test_mersearch_ui.py
             /WORKSPACES/MERCER/test_mersearch_browser.mjs
             /WORKSPACES/MERCER/test_mersearch_public_catalog.py
@@ -54,7 +57,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate Python syntax
-        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py tools/build_mersearch_public_catalog.py
+        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py tools/mersearch_math_genealogy.py tools/build_mersearch_public_catalog.py
       - name: Validate browser JavaScript syntax
         run: node --check CONVERSATION_VIEWER/mersearch/mersearch.js
       - name: Exercise public allowlist, local API and import-facing shell
