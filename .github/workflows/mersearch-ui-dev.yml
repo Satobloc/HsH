@@ -1,0 +1,164 @@
+name: Mersearch Human Interface Acceptance
+
+on:
+  push:
+    branches: [mersearch-chronology-20261007]
+    paths:
+      - 'CONVERSATION_VIEWER/mersearch/**'
+      - 'tools/serve_mersearch_ui.py'
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
+      - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
+      - 'tools/build_mersearch_public_catalog.py'
+      - '.github/workflows/mersearch-ui-dev.yml'
+  pull_request:
+    paths:
+      - 'CONVERSATION_VIEWER/mersearch/**'
+      - 'tools/serve_mersearch_ui.py'
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
+      - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
+      - 'tools/build_mersearch_public_catalog.py'
+      - '.github/workflows/mersearch-ui-dev.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  interface:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /CONVERSATION_VIEWER/mersearch/
+            /CONVERSATION_VIEWER/data/conversations.json
+            /tools/build_mersearch_public_catalog.py
+            /tools/serve_mersearch_ui.py
+            /tools/search_archive_content.py
+            /tools/mersearch_chronology.py
+            /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
+            /WORKSPACES/MERCER/test_mersearch_ui.py
+            /WORKSPACES/MERCER/test_mersearch_browser.mjs
+            /WORKSPACES/MERCER/test_mersearch_public_catalog.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python syntax
+        run: python -m py_compile tools/serve_mersearch_ui.py tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py tools/mersearch_math_genealogy.py tools/build_mersearch_public_catalog.py
+      - name: Validate browser JavaScript syntax
+        run: node --check CONVERSATION_VIEWER/mersearch/mersearch.js
+      - name: Exercise public allowlist, local API and import-facing shell
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_ui.py' -v
+
+      - name: Test static catalog curation and safety
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_public_catalog.py' -v
+      - name: Build deployment catalog from real curated Viewer manifest
+        run: |
+          python tools/build_mersearch_public_catalog.py
+          python - <<'PY'
+          import json
+          p='CONVERSATION_VIEWER/mersearch/data/catalog.json'
+          d=json.load(open(p,encoding='utf-8'))
+          assert d['catalog_entries'] > 0
+          assert d['coverage_status']=='partial'
+          assert d['profile']=='public'
+          assert 'Satobloc/HSH_RESOURCES' not in d['archives_searched']
+          print('CURATED_PUBLIC_CATALOG_ENTRIES='+str(d['catalog_entries']))
+          PY
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install headless Chromium browser harness
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Desktop and mobile visual/browser QA
+        env:
+          MERSEARCH_BASE: http://127.0.0.1:8977
+          MERSEARCH_SCREENSHOTS: /tmp/mersearch-screenshots
+        run: |
+          python -m http.server 8977 --bind 127.0.0.1 --directory CONVERSATION_VIEWER/mersearch > /tmp/mersearch-static-http.log 2>&1 &
+          for i in $(seq 1 25); do curl -fsS http://127.0.0.1:8977/ >/dev/null && break || sleep 1; done
+          node WORKSPACES/MERCER/test_mersearch_browser.mjs
+      - name: Upload review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mersearch-desktop-mobile-review
+          path: /tmp/mersearch-screenshots
+          if-no-files-found: ignore
+          retention-days: 14
+
+
+  pages-preflight:
+    name: Build public Pages artifact without deploying
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /CONVERSATION_VIEWER/
+            /tools/build_mersearch_public_catalog.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate resolved Viewer catalog, curation hash and build public catalog
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          catalog=Path('CONVERSATION_VIEWER/data/conversations.json')
+          rules=Path('CONVERSATION_VIEWER/CURATION.json')
+          d=json.loads(catalog.read_text(encoding='utf-8'))
+          assert len(d['conversations'])>0
+          assert d.get('curation',{}).get('sha256_16')==hashlib.sha256(rules.read_bytes()).hexdigest()[:16], 'stale public curation'
+          assert d['counts']['conversations']==len(d['conversations'])
+          print('RESOLVED_VIEWER_SOURCE_ENTRIES='+str(len(d['conversations'])))
+          PY
+          python tools/build_mersearch_public_catalog.py
+      - name: Confirm staged public source scope and artifact integrity
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('CONVERSATION_VIEWER')
+          view=json.loads((root/'data/conversations.json').read_text(encoding='utf-8'))
+          cat=json.loads((root/'mersearch/data/catalog.json').read_text(encoding='utf-8'))
+          assert cat['kind']=='public-conversation-catalog'
+          assert cat['coverage_status']=='partial'
+          assert 0 < cat['catalog_entries'] <= len(view['conversations'])
+          assert 'Satobloc/HSH_RESOURCES' not in cat['archives_searched']
+          assert all('HSH_RESOURCES' not in json.dumps(hit) for hit in cat['hits'])
+          assert all('PRIOR_ART' not in json.dumps(hit) for hit in cat['hits'])
+          assert (root/'mersearch/index.html').stat().st_size > 500
+          assert (root/'mersearch/mersearch.js').stat().st_size > 500
+          assert (root/'mersearch/mersearch.css').stat().st_size > 500
+          print('PAGES_DEPLOYMENT_PREFLIGHT='+json.dumps({
+              'viewer_conversations':len(view['conversations']),
+              'searchable_catalog_entries':cat['catalog_entries'],
+              'public_catalog_bytes':(root/'mersearch/data/catalog.json').stat().st_size,
+              'repositories':cat['archives_searched'],
+              'coverage_status':cat['coverage_status']}))
+          PY
+      - name: Upload reviewable Pages preflight artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mersearch-staged-pages-public
+          path: CONVERSATION_VIEWER
+          retention-days: 7

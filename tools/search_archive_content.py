@@ -13,16 +13,22 @@ Fields: body, math, name, path, ext, type/kind, has, author/speaker, role, title
 """
 from __future__ import annotations
 import argparse,csv,fnmatch,hashlib,json,re,shlex
+from urllib.parse import quote
 from collections import Counter,defaultdict
-from dataclasses import asdict,dataclass
+from dataclasses import asdict,dataclass,field
 from datetime import datetime,timezone
 from pathlib import Path
 from typing import Any,Iterable
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from mersearch_chronology import Chronology, VERSIONS, eras, message_date
+import mersearch_math as MM
+import mersearch_math_genealogy as MG
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
-TOOL_NAME="Mercer_Searcher_1.1-dev"
-TOOL_VERSION="1.1-dev"
+TOOL_NAME="Mersearch_1.3-math-dev"
+TOOL_VERSION="1.3-math-dev"
 WORD_RE=re.compile(r"\w+(?:['’.-]\w+)*",re.UNICODE)
 STATUS_PATTERNS=[
  ("correction",re.compile(r"\b(correction|correct(?:ed|ion)?|actually|rather|not quite|that's not|that is not)\b",re.I)),
@@ -38,6 +44,10 @@ PRECEDENCE={"OR":1,"AND":2,"NEAR":3,"NOT":4}
 class Record:
  path:str;kind:str;text:str;title:str="";conversation_id:str="";message_id:str=""
  speaker:str="";role:str="";timestamp:str="";locator:str="";viewer_url:str=""
+ chronology:dict[str,Any]=field(default_factory=dict);repository:str=""
+ capture_timestamp:str=""
+ math_evidence:list[dict[str,Any]]=field(default_factory=list)
+ math_extraction_stats:dict[str,int]=field(default_factory=dict)
 @dataclass
 class Eval:
  ok:bool; positions:list[int]; terms:list[str]; trace:list[str]; near:list[dict[str,Any]]
@@ -46,11 +56,18 @@ class Hit:
  query:str;path:str;kind:str;title:str;conversation_id:str;message_id:str;speaker:str;role:str
  timestamp:str;locator:str;excerpt:str;status_signals:list[str];viewer_url:str;source_sha256:str
  matched_terms:list[str];near_matches:list[dict[str,Any]];match_trace:list[str];topic_hits:list[str]
+ chronology:dict[str,Any]=field(default_factory=dict);repository:str="";source_url:str=""
+ passage_chronology:dict[str,Any]=field(default_factory=dict)
+ identical_file_sources:list[dict[str,str]]=field(default_factory=list)
+ math_evidence:list[dict[str,Any]]=field(default_factory=list)
 
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
  if x in (None,""):return ""
- try:return datetime.fromtimestamp(float(x),timezone.utc).isoformat()
+ try:
+  v=float(x)
+  if abs(v)>1e11:v/=1000  # millisecond Unix epoch
+  return datetime.fromtimestamp(v,timezone.utc).isoformat()
  except:return norm(x)
 def content_text(c:Any)->str:
  if isinstance(c,str):return c
@@ -75,6 +92,22 @@ def iter_conversation(data:Any,path:Path)->Iterable[Record]:
   rows.append((msg.get("create_time") or 0,mid,Record(str(path),"conversation-message",text,title,cid,mid,speaker,role,iso_time(msg.get("create_time")),f"message:{mid}")))
  rows.sort(key=lambda x:(x[0] if isinstance(x[0],(int,float)) else 0,x[1]))
  for _,_,r in rows:yield r
+def iter_notebooklm(data:Any,path:Path)->Iterable[Record]:
+ """NotebookLM transcripts are secondary exports; captured_at is NOT message date."""
+ if not isinstance(data,dict) or not isinstance(data.get("messages"),list):return
+ meta=data.get("metadata") if isinstance(data.get("metadata"),dict) else {}
+ title=norm(meta.get("notebook_title") or path.stem)
+ capture=norm(meta.get("captured_at"))
+ for i,msg in enumerate(data["messages"]):
+  if not isinstance(msg,dict):continue
+  body=msg.get("text") or content_text(msg.get("content"))
+  if not isinstance(body,str) or not norm(body):continue
+  role=norm(msg.get("role"));mid=norm(msg.get("id") or msg.get("key") or i)
+  timestamp=msg.get("created_at") or msg.get("create_time") or ""
+  if isinstance(timestamp,(int,float)):timestamp=iso_time(timestamp)
+  yield Record(str(path),"notebooklm-message",body,title,norm(meta.get("notebook_id")),mid,
+               role,role,norm(timestamp),f"messages[{i}]",capture_timestamp=capture)
+
 def iter_json(obj:Any,path:Path,pointer:str="$")->Iterable[Record]:
  if isinstance(obj,dict):
   for k,v in obj.items():yield from iter_json(v,path,f"{pointer}.{k}")
@@ -87,6 +120,7 @@ def iter_records(path:Path)->Iterable[Record]:
   try:data=json.loads(path.read_text(encoding="utf-8-sig"))
   except:return
   conv=list(iter_conversation(data,path) or [])
+  if not conv:conv=list(iter_notebooklm(data,path) or [])
   yield from (conv if conv else iter_json(data,path));return
  if ext in TEXT_EXTS:
   try:lines=path.read_text(encoding="utf-8-sig",errors="replace").splitlines()
@@ -100,6 +134,34 @@ def iter_records(path:Path)->Iterable[Record]:
     text=page.extract_text() or ""
     if norm(text):yield Record(str(path),"pdf-page",text,path.stem,locator=f"page:{n}")
   except:return
+
+def classify_empty_source(path:Path)->str:
+ """Diagnose eligible sources that yielded zero records, without declaring them empty."""
+ ext=path.suffix.lower()
+ if ext==".json":
+  try:
+   with path.open("r",encoding="utf-8-sig") as fh:json.load(fh)
+  except (ValueError,UnicodeError):return "json_decode_failures"
+  except OSError:return "read_failures"
+  return "json_no_readable_records"
+ if ext==".pdf":
+  try:
+   from pypdf import PdfReader
+  except ImportError:return "pdf_parser_unavailable"
+  try:
+   reader=PdfReader(str(path))
+   if not len(reader.pages):return "pdf_no_pages"
+   for page in reader.pages:
+    if (page.extract_text() or "").strip():return "pdf_unexpected_no_records"
+  except Exception:return "pdf_parse_failures"
+  return "pdf_no_extractable_text"
+ if ext in TEXT_EXTS:
+  try:
+   with path.open("r",encoding="utf-8-sig",errors="replace") as fh:
+    if any(line.strip() for line in fh):return "text_unexpected_no_records"
+  except OSError:return "read_failures"
+  return "text_no_readable_records"
+ return "unknown_no_readable_records"
 
 def load_viewer(root:Path)->dict[str,dict[str,Any]]:
  p=root/"CONVERSATION_VIEWER"/"data"/"conversations.json"
@@ -175,6 +237,36 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if ":" not in term:return None
  field,val=term.split(":",1);field=field.casefold();val=unquote(val).casefold()
  p=Path(rec.path);ext=p.suffix.casefold().lstrip(".");name=p.name.casefold()
+ if field in ("era","version","archive_date","origin","date_confidence","document_type","retrospective","date_mentioned","repo","repository"):
+  meta=rec.chronology or {}
+  if field=="era":
+   direct=message_date(rec.timestamp) if rec.kind in ("conversation-message","notebooklm-message") else ""
+   target=" ".join(eras(direct,direct) if direct else meta.get("era_labels",[]))
+  elif field=="version":target=" ".join(v["name"] for v in meta.get("version_evidence",[]));val=val.replace(" ","-")
+  elif field=="archive_date":target=meta.get("archive_date","")
+  elif field=="origin":
+   direct=message_date(rec.timestamp) if rec.kind in ("conversation-message","notebooklm-message") else ""
+   target=direct or meta.get("estimated_origin_start","")
+  elif field=="date_mentioned":target=" ".join(meta.get("dates_mentioned",[]))
+  elif field=="date_confidence":target=meta.get("date_confidence","")
+  elif field=="document_type":target=meta.get("document_type","")
+  elif field=="retrospective":target=str(meta.get("retrospective_possible",False)).lower()
+  else:target=rec.repository
+  target=target.casefold()
+  if field in ("repo","repository"):
+   ok=val==target  # exact: HsH must not also match HSH_RESOURCES
+  elif field in ("archive_date","origin") and ".." in val:
+   lo,hi=val.split("..",1)
+   ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
+  else:ok=bool(target) and val in target
+  return Eval(ok,[],[term] if ok else [],[f"CHRONOLOGY FIELD {field}:{val!r} => {ok}"],[])
+ if field in ("equiv","contains","value"):
+  matches,stats=MM.match_source(rec.text,field,unquote(term.split(":",1)[1]))
+  rec.math_extraction_stats=stats
+  rec.math_evidence.extend({"query_field":field,**m} for m in matches)
+  ok=bool(matches)
+  summary=(", ".join(m["classification"]+" line:"+str(m["source_line"]) for m in matches)) or "no supported match"
+  return Eval(ok,[],[term] if ok else [],[f"MATH {field} {summary}; extraction={stats}"],[])
  if field=="body":
   pos=phrase_positions(rec.text,val);ok=bool(pos)
   return Eval(ok,pos,[term] if ok else [],[f"FIELD body:{val!r} => {len(pos)} occurrence(s)"],[])
@@ -190,7 +282,7 @@ def field_eval(rec:Record,term:str)->Eval|None:
   return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
  if field=="has":
   flags={"conversation-source":rec.kind=="conversation-message","pdf-source":rec.kind=="pdf-page",
-         "text-source":rec.kind in ("text-line","json-scalar","conversation-message"),
+         "text-source":rec.kind in ("text-line","json-scalar","conversation-message","notebooklm-message"),
          "message-id":bool(rec.message_id),"conversation-id":bool(rec.conversation_id),"viewer":bool(rec.viewer_url)}
   ok=flags.get(val,False)
   return Eval(ok,[],[term] if ok else [],[f"FIELD has:{val} => {ok}"],[])
@@ -199,7 +291,7 @@ def field_eval(rec:Record,term:str)->Eval|None:
  if field not in fmap:return None
  target=(fmap[field] or "").casefold()
  if field=="date" and ".." in val:
-  lo,hi=val.split("..",1);ok=(not lo or target>=lo) and (not hi or target<=hi)
+  lo,hi=val.split("..",1);ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
  else:ok=val in target
  return Eval(ok,[],[term] if ok else [],[f"FIELD {field}:{val!r} => {ok}"],[])
 def term_eval(rec:Record,term:str)->Eval:
@@ -228,20 +320,43 @@ def evaluate(rec:Record,query:str,default_near:int)->Eval:
   st.append(term_eval(rec,tok))
  if len(st)!=1:raise ValueError("invalid query expression")
  return st[0]
-def permitted(roots:list[Path],ex:set[str],max_bytes:int)->Iterable[Path]:
+def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None=None,
+              per_repository:dict[str,Counter]|None=None)->Iterable[Path]:
+ """Count exclusions per repository as well as globally; never silently imply full coverage."""
+ stats=scan_stats if scan_stats is not None else Counter()
  seen=set()
  for root in roots:
   cand=[root] if root.is_file() else root.rglob("*")
   for p in cand:
    if not p.is_file():continue
+   if p.is_symlink():
+    stats["symlinks_skipped"]+=1
+    continue
+   repo=repo_for(p,roots)
+   local=per_repository.setdefault(repo,Counter()) if per_repository is not None else Counter()
+   local["files_discovered"]+=1
+   stats["files_discovered"]+=1
    try:key=p.resolve()
-   except:key=p
-   if key in seen:continue
+   except OSError:key=p
+   if key in seen:
+    stats["duplicate_paths"]+=1;local["duplicate_paths"]+=1;continue
    seen.add(key)
-   if any(x in ex for x in p.parts) or p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:continue
+   if any(x in ex for x in p.parts):
+    stats["excluded_by_policy"]+=1;local["excluded_by_policy"]+=1;continue
+   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:
+    stats["unsupported_extension"]+=1;local["unsupported_extension"]+=1;continue
    try:
-    if p.stat().st_size>max_bytes:continue
-   except:continue
+    size=p.stat().st_size
+    local["bytes_discovered"]+=size
+    if max_bytes and size>max_bytes:
+     stats["oversized_files_skipped"]+=1;local["oversized_files_skipped"]+=1
+     local["oversized_bytes_skipped"]+=size
+     continue
+   except OSError:
+    stats["inaccessible_files_skipped"]+=1;local["inaccessible_files_skipped"]+=1
+    continue
+   stats["eligible_files"]+=1;local["eligible_files"]+=1
+   local["eligible_bytes"]+=size
    yield p
 def sha(path:Path,cache:dict[str,str])->str:
  k=str(path)
@@ -256,30 +371,159 @@ def make_excerpt(text:str,positions:list[int],chars:int)->str:
 def sort_hits(hits:list[Hit],key:str,desc:bool)->None:
  def k(h:Hit):
   if key=="date":return (h.timestamp or "9999",h.speaker.casefold(),h.path,h.locator)
+  if key=="origin":return (h.passage_chronology.get("estimated_origin_start") or h.chronology.get("estimated_origin_start") or "9999",h.path,h.locator)
   if key=="author":return ((h.speaker or h.role).casefold(),h.timestamp or "9999",h.path,h.locator)
   if key=="title":return (h.title.casefold(),h.timestamp or "9999",h.locator)
   if key=="path":return (h.path.casefold(),h.locator)
   return (h.timestamp or "9999",h.path,h.locator)
  hits.sort(key=k,reverse=desc)
 
+ARCHIVE_ALIASES={
+ "Satobloc/SAT_THEORY_ARCHIVE_2023-25":("SAT_THEORY_ARCHIVE_2023-25","archive"),
+ "Satobloc/HsH":("HsH","hsh-main","hsh"),
+ "Satobloc/HSH_RESOURCES":("HSH_RESOURCES","resources")
+}
+CHRONO_FIELDS=re.compile(r"\b(?:era|version|archive_date|origin|date_confidence|document_type|retrospective|date_mentioned):",re.I)
+EXAMPLES=[
+ 'python tools/search_archive_content.py --capabilities',
+ 'python tools/search_archive_content.py --expr \'"0.24" OR "optical phase"\' --result-mode files',
+ 'python tools/search_archive_content.py --expr \'("refractive index" NEAR/12 "phase shift")\'',
+ 'python tools/search_archive_content.py --expr \'era:early-2025 AND "phase shift"\' --sort origin',
+ 'python tools/search_archive_content.py --expr \'version:sat-mark-v AND "phase shift"\'',
+ 'python tools/search_archive_content.py --expr \'math:"B=3/(4*pi)"\'',
+ 'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --sort origin',
+ 'python tools/search_archive_content.py --expr \'contains:"3/(4*pi)"\'',
+ 'python tools/search_archive_content.py --expr \'value:"B=0.2387;atol=0.003"\'',
+ 'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --math-genealogy --out /tmp/b-lineage',
+ 'python tools/search_archive_content.py --genealogy-only --out /tmp/all-formula-lineages',
+ 'python tools/search_archive_content.py --archives-root /work --coverage',
+]
+def discover_archives(base:Path)->tuple[list[Path],list[str]]:
+ base=base.resolve()  # Path('.').parent is still '.', not its actual parent
+ found=[];missing=[]
+ for repo,names in ARCHIVE_ALIASES.items():
+  hit=next((p for folder in (base,base.parent) for name in names
+            if (p:=folder/name).is_dir()),None)
+  if hit:found.append(hit)
+  else:missing.append(repo)
+ return found,missing
+
+def repo_for(path:Path,roots:list[Path])->str:
+ # Recognize archive checkout ancestors when search roots are allowlisted subpaths.
+ for candidate in (path,*path.parents):
+  for repo,names in ARCHIVE_ALIASES.items():
+   if candidate.name in names:return repo
+ for root in sorted(roots,key=lambda p:len(p.parts),reverse=True):
+  try:path.relative_to(root)
+  except ValueError:continue
+  return root.name
+ return "(unknown)"
+
+def repository_relative_source(path:Path,repo:str,roots:list[Path])->str:
+ for ancestor in (path,*path.parents):
+  if ancestor.name in ARCHIVE_ALIASES.get(repo,()):
+   try:return path.relative_to(ancestor).as_posix()
+   except ValueError:pass
+ root=next((rt for rt in sorted(roots,key=lambda p:len(p.parts),reverse=True)
+            if rt==path or rt in path.parents),None)
+ return path.relative_to(root).as_posix() if root and root.is_dir() else path.name
+
+def describe_capabilities()->dict[str,Any]:
+ return {"tool":TOOL_NAME,"version":TOOL_VERSION,
+   "help":"python tools/search_archive_content.py --help",
+   "tool_surfaces":{
+     "cli":"tools/search_archive_content.py (this interface; all archives when discovered)",
+     "chronology":"tools/mersearch_chronology.py (integrated evidence enrichment)",
+     "math_engine":"tools/mersearch_math.py (bounded AST/SymPy symbolic matching, separate from stable math:)",
+     "request_bridge":"WORKSPACES/COMMON/MERSEARCH_REQUEST.json + .github/workflows/mersearch-request-bridge.yml (connector-only workers; stable semantics until engine promotion)",
+     "viewer":"CONVERSATION_VIEWER/ (navigation; do not assume identical search semantics)",
+     "legacy_test":"WORKSPACES/MERCER/test_mercer_searcher_1_0.py",
+     "chronology_test":"WORKSPACES/MERCER/test_mersearch_chronology_20261007.py",
+     "release_registry":"WORKSPACES/COMMON/MERSEARCH_RELEASES.md"
+   },
+   "examples":EXAMPLES,
+   "archives_default":list(ARCHIVE_ALIASES),
+   "archives_policy":"All discoverable archives searched by default; missing ones always reported.",
+   "query_operators":["AND","OR","NOT","NEAR/n","()",'"phrase"',"implicit AND"],
+   "fields":["body","math","equiv","contains","value","name","path","ext","kind","has","author","speaker",
+     "role","title","conversation","cid","date","status","era","version",
+     "archive_date","origin","date_confidence","document_type",
+     "retrospective","date_mentioned","repo"],
+   "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md","optional MATH_EXPRESSIONS.jsonl and MATH_GENEALOGY.json"],
+   "genealogy":{"flag":"--math-genealogy","standalone_mode":"--genealogy-only (no text query required)","requires":"SymPy","scope":"source-attested recurrence of supported formulae, not causal derivation history","numeric_atol":"--genealogy-atol"},
+   "glossary_candidates":{"tool":"tools/mersearch_glossary_candidates.py",
+     "example":"python tools/mersearch_glossary_candidates.py --archives-home /archive --out /tmp/mersearch-terms.json",
+     "status":"M5a extraction candidate; NOT automatic query expansion",
+     "scope":"Explicit known historical source allowlist; unresolved authorship/currentness",
+     "warning":"Proposed SAT-to-standard correspondences are not algebraic equivalence or established physics"},
+   "result_modes":["records","files"],"optional_collapse":"--collapse-identical-files (file mode only, byte SHA-256 identity)",
+   "sorts":["date","origin","author","title","path"],
+   "math_capabilities":MM.capabilities(),
+   "cautions":["math: is notation search; equiv: is only bounded polynomial equality",
+     "chronology/version estimates are not hard dates",
+     "PRIOR_ART and QUARANTINE excluded by default",
+     "large files beyond --max-bytes skipped with explicit count; use --max-bytes 0 to disable limit",
+     "structured timestamps apply to messages, not quoted excerpts",
+     "no general CAS or derivation-proof retrieval; value: is numerical consistency only"]}
+
 def main()->int:
- ap=argparse.ArgumentParser(description=__doc__)
- ap.add_argument("roots",nargs="+",type=Path);ap.add_argument("--expr",help="Boolean/NEAR expression")
+ ap=argparse.ArgumentParser(description=__doc__,epilog="Start with --capabilities or --examples. By default Mersearch looks for ALL THREE archives and warns if any are absent.")
+ ap.add_argument("roots",nargs="*",type=Path,help="optional explicit corpus roots; absent means ALL discovered archives");ap.add_argument("--expr",help="Boolean/NEAR expression")
+ ap.add_argument("--archives-root",type=Path,default=Path("."),help="parent directory containing the three SAT/HsH archive checkouts")
+ ap.add_argument("--capabilities",action="store_true",help="print machine-readable commands, fields, modes, defaults and examples")
+ ap.add_argument("--examples",action="store_true",help="show working query examples")
+ ap.add_argument("--coverage",action="store_true",help="show available and missing default archives without running a search")
  ap.add_argument("--query",action="append",default=[],help="simple term/phrase; repeated values OR together")
  ap.add_argument("--near",type=int,default=10,help="default NEAR token window")
  ap.add_argument("--author",action="append",default=[]);ap.add_argument("--role",action="append",default=[])
- ap.add_argument("--date-from");ap.add_argument("--date-to");ap.add_argument("--sort",choices=["date","author","title","path"],default="date")
+ ap.add_argument("--date-from");ap.add_argument("--date-to");ap.add_argument("--sort",choices=["date","origin","author","title","path"],default="date")
  ap.add_argument("--descending",action="store_true");ap.add_argument("--group-by",choices=["none","author","conversation","date","title"],default="none")
  ap.add_argument("--topic-config",type=Path,help="JSON topics/aliases used for enrichment and concept graph")
  ap.add_argument("--out",type=Path,default=Path("indexes/topical/search"));ap.add_argument("--exclude",action="append",default=[])
  ap.add_argument("--max-bytes",type=int,default=25_000_000);ap.add_argument("--excerpt-chars",type=int,default=500)
  ap.add_argument("--viewer-root",type=Path,default=Path("."));ap.add_argument("--limit",type=int,default=0)
+ ap.add_argument("--offset",type=int,default=0,help="0-based offset after deterministic sorting")
+ ap.add_argument("--collapse-identical-files",action="store_true",help="group byte-identical files in file mode; retain all source locations in each representative")
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
+ ap.add_argument("--math-inventory",action="store_true",help="write MATH_EXPRESSIONS.jsonl extraction sidecar with original source locators; slower and bounded")
+ ap.add_argument("--math-genealogy",action="store_true",help="also construct MATH_GENEALOGY.json: dated formula recurrence families and explicit, NON-TRANSITIVE numerical relationships")
+ ap.add_argument("--genealogy-only",action="store_true",help="index equations and create MATH_GENEALOGY.json without requiring a keyword query; no text hits")
+ ap.add_argument("--genealogy-atol",type=float,default=0.001,help="absolute numeric proximity for genealogy links, not proof of equivalence")
  args=ap.parse_args()
+ if args.genealogy_only:
+  if args.expr or args.query:ap.error("--genealogy-only cannot be combined with --expr/--query")
+  args.math_genealogy=True
+ if args.math_genealogy:args.math_inventory=True
+ if args.capabilities:
+  print(json.dumps(describe_capabilities(),ensure_ascii=False,indent=2));return 0
+ if args.examples:
+  print("\n".join(EXAMPLES));return 0
+ discovered,missing=discover_archives(args.archives_root)
+ if args.coverage:
+  print(json.dumps({"archives_requested":list(ARCHIVE_ALIASES),
+    "archives_discovered":[repo_for(p,discovered) for p in discovered],
+    "missing_archives":missing,"coverage_status":"complete" if not missing else "partial"},
+    ensure_ascii=False,indent=2));return 0
+ if not args.roots:
+  args.roots=discovered
+  if not args.roots:ap.error("No archive checkout found. Clone the three repositories beside HsH or provide explicit roots.")
+ if args.offset<0 or args.limit<0:ap.error("--offset and --limit must be nonnegative")
  if args.expr:query=args.expr
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
- else:ap.error("provide --expr or --query")
+ elif args.genealogy_only:query="__MERSEARCH_INDEX_ONLY_NO_TEXT_MATCHES__"
+ else:ap.error("provide --expr or --query, or --genealogy-only")
  # Parse before scanning so malformed expressions fail fast.
+ expression_terms=[token for token in rpn(query) if token.partition(":")[0].casefold() in ("equiv","contains","value")]
+ if expression_terms or args.math_inventory:
+  MM.require_symbolic()
+ for token in expression_terms:
+  kind,_,v=token.partition(":");value=unquote(v)
+  try:
+   if kind.casefold()=="value":MM._numeric_request(value)
+   else:
+    parsed=MM.parse(value)
+    if kind.casefold()=="equiv" and parsed["residual"] is None:raise MM.UnsupportedExpression("equiv: requires an equality")
+  except MM.UnsupportedExpression as exc:ap.error("Unsupported mathematical query: "+str(exc))
  rpn(query)
  topic_rows=[]
  if args.topic_config:
@@ -290,15 +534,48 @@ def main()->int:
   elif isinstance(row,dict):
    name=norm(row.get("topic") or row.get("name"));aliases=[name]+[norm(x) for x in row.get("aliases",[]) if norm(x)]
    if name:topics.append((name,list(dict.fromkeys(aliases))))
- viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter()
+ viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter();per_repo_stats={}
+ math_inventory_count=0;math_inventory_stats=Counter()
+ inventory_file=None
+ if args.math_inventory:
+  args.out.mkdir(parents=True,exist_ok=True)
+  inventory_file=(args.out/"MATH_EXPRESSIONS.jsonl").open("w",encoding="utf-8")
  authors={x.casefold() for x in args.author};roles={x.casefold() for x in args.role}
- for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes):
+ for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats,per_repo_stats):
   files+=1
   try:rel=path.relative_to(args.viewer_root).as_posix()
   except:rel=path.as_posix()
   vc=viewer.get(rel) or viewer.get(path.as_posix())
+  repository=repo_for(path,args.roots)
+  per_repo_stats.setdefault(repository,Counter())["files_scanned"]+=1
+  record_start=records
+  chrono=Chronology(rel)
+  requires_chrono=bool(CHRONO_FIELDS.search(query))
+  if requires_chrono:
+   for prior in iter_records(path):
+    chrono.observe(prior.text,prior.locator,prior.kind,prior.timestamp,prior.capture_timestamp)
+  known_chrono=chrono.result() if requires_chrono else {}
+  hit_start=len(hits)
   for rec in iter_records(path):
+   rec.chronology=known_chrono
+   rec.repository=repository
    records+=1
+   if args.math_inventory:
+    equations,extraction=MM.extract(rec.text)
+    math_inventory_stats.update(extraction)
+    for eq in equations:
+     inventory_file.write(json.dumps({"path":rel,"repository":repository,
+       "source_sha256":sha(path,cache),
+       "source_url":f"https://github.com/{repository}/blob/main/{quote(repository_relative_source(path,repository,args.roots),safe='/')}" if repository.startswith("Satobloc/") else "",
+       "source_kind":rec.kind,"speaker":rec.speaker,"role":rec.role,
+       "record_locator":rec.locator,
+       "conversation_id":rec.conversation_id,
+       "message_id":rec.message_id,"timestamp":rec.timestamp,
+       "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
+       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\n")
+     math_inventory_count+=1
+   if args.genealogy_only:
+    continue  # no fabricated matching text hits in index-only mode
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
    if roles and rec.role.casefold() not in roles:continue
@@ -315,7 +592,39 @@ def main()->int:
    hits.append(Hit(query,rel,rec.kind,rec.title,rec.conversation_id,rec.message_id,rec.speaker,rec.role,rec.timestamp,rec.locator,
     make_excerpt(rec.text,ev.positions,args.excerpt_chars),status(rec.text),viewer_link(vc or {},rec.message_id),sha(path,cache),
     list(dict.fromkeys(ev.terms)),ev.near,ev.trace,present))
+   passage=Chronology(rel)
+   passage.observe(rec.text,rec.locator,rec.kind,rec.timestamp,rec.capture_timestamp)
+   hits[-1].passage_chronology=passage.result()
+   hits[-1].math_evidence=list(rec.math_evidence)
+  per_repo_stats[repository]["records_scanned"]+=records-record_start
+  if records==record_start:
+   scan_stats["files_without_readable_records"]+=1
+   per_repo_stats[repository]["files_without_readable_records"]+=1
+   reason=classify_empty_source(path)
+   scan_stats[reason]+=1
+   per_repo_stats[repository][reason]+=1
+  per_repo_stats[repository]["matching_records"]+=len(hits)-hit_start
+  if len(hits)>hit_start:
+   if not requires_chrono:
+    for original in iter_records(path):
+     chrono.observe(original.text,original.locator,original.kind,original.timestamp,original.capture_timestamp)
+   meta=chrono.result()
+   source_path=repository_relative_source(path,repository,args.roots)
+   url=f"https://github.com/{repository}/blob/main/{quote(source_path,safe='/')}" if repository.startswith("Satobloc/") else ""
+   for h in hits[hit_start:]:
+    h.chronology=meta;h.repository=repository;h.source_url=url
+ if inventory_file is not None:inventory_file.close()
  sort_hits(hits,args.sort,args.descending)
+ # Byte-identical sources may be collapsed on request, but each location remains
+ # visible in identical_file_sources. Similar titles or converted formats are
+ # NOT assumed to be the same work.
+ mirrors=defaultdict(dict)
+ for h in hits:
+  if h.source_sha256:
+   mirrors[h.source_sha256][h.repository+"|"+h.path]=dict(repository=h.repository,path=h.path,source_url=h.source_url)
+ for h in hits:
+  if h.source_sha256 and len(mirrors[h.source_sha256])>1:
+   h.identical_file_sources=sorted(mirrors[h.source_sha256].values(),key=lambda v:(v["repository"],v["path"]))
  raw_match_records=len(hits)
  if args.result_mode=="files":
   collapsed=[];seen_paths=set()
@@ -323,6 +632,14 @@ def main()->int:
    if h.path in seen_paths:continue
    seen_paths.add(h.path);collapsed.append(h)
   hits=collapsed
+ if args.collapse_identical_files:
+  if args.result_mode!="files":ap.error("--collapse-identical-files requires --result-mode files")
+  uniques=[];seen_sha=set()
+  for h in hits:
+   if h.source_sha256 and h.source_sha256 in seen_sha:continue
+   if h.source_sha256:seen_sha.add(h.source_sha256)
+   uniques.append(h)
+  hits=uniques
  result_total=len(hits)
  facets={
   "authors":Counter((h.speaker or h.role or "(unknown)") for h in hits),
@@ -331,14 +648,49 @@ def main()->int:
   "extensions":Counter((Path(h.path).suffix.casefold().lstrip(".") or "(none)") for h in hits),
   "years":Counter((h.timestamp[:4] if len(h.timestamp)>=4 else "(undated)") for h in hits)}
  facet_json={k:[{"value":v,"count":n} for v,n in sorted(cnt.items(),key=lambda x:(-x[1],x[0].casefold()))] for k,cnt in facets.items()}
- if args.limit>0:hits=hits[:args.limit]
+ if args.limit>0:hits=hits[args.offset:args.offset+args.limit]
+ elif args.offset:hits=hits[args.offset:]
  args.out.mkdir(parents=True,exist_ok=True);generated=datetime.now(timezone.utc).isoformat()
- manifest={"schema_version":2,"generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
+ coverage_repos=sorted({repo_for(root, args.roots) for root in args.roots})
+ missing_repos=[name for name in ARCHIVE_ALIASES if name not in coverage_repos]
+ coverage_status="complete" if not missing_repos else "partial"
+ # Checkout presence and searchable-content coverage are different claims.
+ # A present checkout can contain skipped, oversized or unparsed sources.
+ content_gap_keys=("excluded_by_policy","unsupported_extension","oversized_files_skipped","inaccessible_files_skipped","files_without_readable_records","json_decode_failures","pdf_parser_unavailable","pdf_parse_failures","pdf_no_extractable_text","read_failures")
+ content_gaps={k:int(scan_stats.get(k,0)) for k in content_gap_keys if scan_stats.get(k,0)}
+ content_coverage_status="unverified" if not missing_repos and not content_gaps else "partial"
+ content_coverage_warning=("Searchable content is not verified complete; inspect inventory_limitations and per-source extraction outcomes. "
+  "Repository presence does not establish full-text coverage.")
+ manifest={"schema_version":3,"capabilities":describe_capabilities(),
+  "archives_requested":list(ARCHIVE_ALIASES),
+  "archives_searched":coverage_repos,
+  "missing_archives":missing_repos,
+  "coverage_status":coverage_status,
+  "coverage_status_scope":"repository_checkout_presence_only",
+  "content_coverage_status":content_coverage_status,
+  "content_coverage_warning":content_coverage_warning,
+  "content_coverage_gaps":content_gaps,
+  "coverage_by_repository":{name:dict(per_repo_stats.get(name,{})) for name in ARCHIVE_ALIASES},
+  "inventory_limitations":dict(scan_stats),
+  "math_inventory":{"enabled":args.math_inventory,"equations_extracted":math_inventory_count,
+   "extraction_statistics":dict(math_inventory_stats),"coverage_class":"bounded, supported subset only"},
+  "coverage_reconciliation":{"files_match":sum(v.get("files_scanned",0) for v in per_repo_stats.values())==files,"records_match":sum(v.get("records_scanned",0) for v in per_repo_stats.values())==records,"matches_match":sum(v.get("matching_records",0) for v in per_repo_stats.values())==raw_match_records},
+  "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
+  "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
+  "pagination":{"offset":args.offset,"limit":args.limit,"total_hits":result_total,"returned_hits":len(hits)},
+  "generated_at_utc":generated,"tool_name":TOOL_NAME,"tool_version":TOOL_VERSION,"tool_path":"tools/search_archive_content.py","query":query,
   "query_rpn":rpn(query),"default_near_window_tokens":args.near,"filters":{"authors":args.author,"roles":args.role,"date_from":args.date_from,"date_to":args.date_to},
-  "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
-  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits)},"facets":facet_json,
+  "response_schema":"mersearch.response.v1","result_mode":args.result_mode,"collapse_identical_files":args.collapse_identical_files,"sort":{"key":args.sort,"descending":args.descending,"group_by":args.group_by},"roots":[str(x) for x in args.roots],
+  "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
+ if args.math_genealogy:
+  genealogy=MG.build(args.out/"MATH_EXPRESSIONS.jsonl",atol=args.genealogy_atol,manifest=manifest)
+  (args.out/"MATH_GENEALOGY.json").write_text(json.dumps(genealogy,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+  manifest["math_genealogy"]={"generated":True,"index_only":args.genealogy_only,"path":"MATH_GENEALOGY.json","node_count":len(genealogy["nodes"]),
+   "family_count":len(genealogy["families"]),"edge_count":len(genealogy["edges"]),
+   "scope":"observed formal relations, no documentary/causal derivation claims","statistics":genealogy["statistics"]}
+ else:manifest["math_genealogy"]={"generated":False}
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  with (args.out/"SEARCH_RESULTS.jsonl").open("w",encoding="utf-8") as fh:
   for h in hits:fh.write(json.dumps(asdict(h),ensure_ascii=False)+"\n")
@@ -351,7 +703,9 @@ def main()->int:
     if isinstance(v,(list,dict)):d[k]=json.dumps(v,ensure_ascii=False)
    w.writerow(d)
  lines=[f"# {TOOL_NAME} Results","",f"Generated: {generated}",f"Query: `{query}`",
-  f"Coverage: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",
+  f"Coverage: {coverage_status.upper()}: {files:,} files / {records:,} records / {result_total:,} result(s) before limit / {len(hits):,} returned.",
+ f"Archives: searched={', '.join(coverage_repos)}; missing={', '.join(missing_repos) or 'none'}.",
+ f"Unindexed (policy/extension/size/access): {sum(scan_stats[x] for x in ('excluded_by_policy','unsupported_extension','oversized_files_skipped','inaccessible_files_skipped')):,} files. Root coverage does not imply complete indexing.",
   f"Sort: {args.sort} {'descending' if args.descending else 'ascending'}; group: {args.group_by}.","",
   "Status labels are lexical retrieval signals only; they do not establish supersession or authority.",""]
  last=None
@@ -361,6 +715,10 @@ def main()->int:
   lines.append(f"- **{h.title or Path(h.path).name}** — {h.timestamp or 'undated'} — {h.speaker or h.role or 'unknown speaker'}")
   lines.append(f"  - Source: `{h.path}` · `{h.locator}`"+(f" · CID `{h.conversation_id}`" if h.conversation_id else ""))
   if h.message_id:lines.append(f"  - Message: `{h.message_id}`")
+  if h.source_url:lines.append(f"  - Source link: {h.source_url}")
+  if h.chronology:
+   c=h.chronology
+   lines.append(f"  - Chronology: origin={c.get('estimated_origin_start') or 'unknown'}..{c.get('estimated_origin_end') or 'unknown'} ({c.get('date_confidence')}); archived={c.get('archive_date') or 'unknown'}; versions={c.get('earliest_version_mentioned') or 'unknown'}..{c.get('latest_version_mentioned') or 'unknown'}")
   if h.viewer_url:lines.append(f"  - Viewer: `{h.viewer_url}`")
   lines.append(f"  - Matched: {', '.join(h.matched_terms) or '(field/Boolean match)'}")
   for n in h.near_matches:lines.append(f"  - NEAR: distance={n.get('distance_tokens')} tokens; window={n.get('window')}")
@@ -370,7 +728,7 @@ def main()->int:
  lines+=["","## Concept graph",""]
  lines += [f"- `{a}` ↔ `{b}` — {n} co-occurring hit record(s)" for (a,b),n in edges.most_common()] or ["_No configured topic co-occurrences._"]
  (args.out/"SEARCH_RESULTS.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
- print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,
+ print(json.dumps({"tool":TOOL_NAME,"version":TOOL_VERSION,"files_scanned":files,"records_scanned":records,"total_results_before_limit":result_total,"returned_hits":len(hits),"result_mode":args.result_mode,"sort":args.sort,"coverage_status":coverage_status,"coverage_status_scope":"repository_checkout_presence_only","content_coverage_status":content_coverage_status,"content_coverage_gaps":content_gaps,"missing_archives":missing_repos,
   "outputs":[str(args.out/x) for x in ("SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md")]},ensure_ascii=False))
  return 0
 if __name__=="__main__":raise SystemExit(main())

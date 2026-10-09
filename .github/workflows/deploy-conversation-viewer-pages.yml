@@ -8,8 +8,11 @@ on:
       - 'CONVERSATION_VIEWER/index.html'
       - 'CONVERSATION_VIEWER/*.js'
       - 'CONVERSATION_VIEWER/*.css'
+      - 'CONVERSATION_VIEWER/mersearch/**'
       - 'CONVERSATION_VIEWER/data/**'
       - 'tools/build_conversation_viewer.py'
+      - 'tools/build_mersearch_public_catalog.py'
+      - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
@@ -40,8 +43,42 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Rebuild conversation catalog for deployment
-        run: python tools/build_conversation_viewer.py
+      - name: Validate resolved public Viewer catalog and exact curation hash
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          manifest=Path('CONVERSATION_VIEWER/data/conversations.json')
+          rules=Path('CONVERSATION_VIEWER/CURATION.json')
+          d=json.loads(manifest.read_text(encoding='utf-8'))
+          if not isinstance(d.get('conversations'),list) or not d['conversations']:
+              raise SystemExit('No published Viewer catalog; refusing to replace public site')
+          expected=hashlib.sha256(rules.read_bytes()).hexdigest()[:16]
+          actual=d.get('curation',{}).get('sha256_16')
+          if actual!=expected:
+              raise SystemExit('Viewer catalog curation hash is stale. Rebuild via build-conversation-viewer workflow before deploying.')
+          if d.get('counts',{}).get('conversations')!=len(d['conversations']):
+              raise SystemExit('Viewer catalog count mismatch')
+          print('VIEWER_PUBLISHED_CATALOG_ENTRIES='+str(len(d['conversations'])))
+          PY
+
+      - name: Generate publicly curated Mersearch catalog
+        run: |
+          python tools/build_mersearch_public_catalog.py \
+            --catalog CONVERSATION_VIEWER/data/conversations.json \
+            --output CONVERSATION_VIEWER/mersearch/data/catalog.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path=Path('CONVERSATION_VIEWER/mersearch/data/catalog.json')
+          data=json.loads(path.read_text(encoding='utf-8'))
+          assert data['kind']=='public-conversation-catalog'
+          assert data['coverage_status']=='partial'
+          assert data['catalog_entries'] > 0
+          assert 'Satobloc/HSH_RESOURCES' not in data['archives_searched']
+          assert all('HSH_RESOURCES' not in json.dumps(x) for x in data['hits'])
+          print('MERSEARCH_PUBLIC_CATALOG='+str(data['catalog_entries']))
+          PY
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

@@ -1,0 +1,137 @@
+name: Mersearch Chronology Development Acceptance
+on:
+  push:
+    branches:
+      - mersearch-chronology-20261007
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'tools/mersearch_glossary_candidates.py'
+      - 'WORKSPACES/MERCER/test_mersearch_glossary_candidates.py'
+      - 'WORKSPACES/MERCER/test_mersearch_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_math.py'
+      - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
+      - '.github/workflows/mersearch-chronology-dev.yml'
+  pull_request:
+    paths:
+      - 'tools/search_archive_content.py'
+      - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'tools/mersearch_glossary_candidates.py'
+      - 'WORKSPACES/MERCER/test_mersearch_glossary_candidates.py'
+      - 'WORKSPACES/MERCER/test_mersearch_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_math.py'
+      - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
+      - '.github/workflows/mersearch-chronology-dev.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /tools/search_archive_content.py
+            /tools/mersearch_chronology.py
+            /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
+            /tools/mersearch_glossary_candidates.py
+            /WORKSPACES/MERCER/test_mersearch_glossary_candidates.py
+            /WORKSPACES/MERCER/test_mersearch_genealogy.py
+            /WORKSPACES/MERCER/test_mersearch_math.py
+            /WORKSPACES/MERCER/test_mercer_searcher_1_0.py
+            /WORKSPACES/MERCER/test_mersearch_chronology_20261007.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install bounded symbolic mathematics dependency
+        run: python -m pip install 'sympy>=1.12,<2'
+      - name: Compile search, chronology and math modules
+        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py tools/mersearch_math_genealogy.py tools/mersearch_glossary_candidates.py
+      - name: Historical 1.0 semantics acceptance
+        run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
+      - name: Chronology and three-archive acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_chronology_20261007.py' -v
+      - name: Capability discovery smoke check
+        run: python tools/search_archive_content.py --capabilities
+
+      - name: Mathematics semantic and safety acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_math.py' -v
+      - name: Genealogy evidence and chronology acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_genealogy.py' -v
+      - name: Historical glossary and proposed crosswalk extraction QA
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_glossary_candidates.py' -v
+
+
+  original-sat-math-smoke:
+    name: Recover optical phase expression from real SAT archival source
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /tools/search_archive_content.py
+            /tools/mersearch_chronology.py
+            /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
+            /tools/mersearch_glossary_candidates.py
+          sparse-checkout-cone-mode: false
+      - name: Checkout one real public SAT mathematical record
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: SAT_THEORY_ARCHIVE_2023-25
+          filter: blob:none
+          sparse-checkout: |
+            /SAT Mark V/SAT_Phase_Shift_Note.txt
+            /Early SAT/GLOSSARY (LIVE).txt
+            /2023-24 FRAMEWORK DEVELOPMENT/SATv  TO STANDARD MAP.txt
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install required mathematical parser
+        run: python -m pip install 'sympy>=1.12,<2'
+      - name: Find the original optical approximation and protect variable identity
+        run: |
+          python tools/search_archive_content.py 'SAT_THEORY_ARCHIVE_2023-25/SAT Mark V' --expr 'value:"0.239;atol=0.001"' --out /tmp/mersearch-optical
+          python tools/search_archive_content.py 'SAT_THEORY_ARCHIVE_2023-25/SAT Mark V' --expr 'equiv:"B=3/(4*pi)"' --out /tmp/mersearch-b
+          python tools/search_archive_content.py 'SAT_THEORY_ARCHIVE_2023-25/SAT Mark V' --genealogy-only --out /tmp/mersearch-optical-genealogy
+          python tools/mersearch_glossary_candidates.py --archives-home . --out /tmp/mersearch-glossary-candidates.json
+          python - <<'PY'
+          import json
+          note=json.load(open('/tmp/mersearch-optical/SEARCH_RESULTS.json',encoding='utf-8'))
+          unrelated=json.load(open('/tmp/mersearch-b/SEARCH_RESULTS.json',encoding='utf-8'))
+          hits=[h for h in note['hits'] if any(
+              'Delta_phi' in m.get('symbol_names',[]) and
+              m.get('classification')=='NUMERICALLY_CONSISTENT'
+              for m in h.get('math_evidence',[]))]
+          assert hits,'Failed to recover real archived optical Delta-phi numerical expression'
+          assert not unrelated['hits'], 'An optical phase shift was mistakenly equated to B'
+          graph=json.load(open('/tmp/mersearch-optical-genealogy/MATH_GENEALOGY.json',encoding='utf-8'))
+          optical=[n for n in graph['nodes'] if 'Delta_phi' in n['symbols']]
+          assert optical, 'Failed to preserve historical optical phase equation as a graph node'
+          assert all(n['polynomial_form_id']=='' for n in optical), 'Approximate optical source was misrepresented as an exact proof family'
+          assert all(not n['date'] for n in optical), 'Standalone undated historical text incorrectly gained a hard message date'
+          glossary=json.load(open('/tmp/mersearch-glossary-candidates.json',encoding='utf-8'))
+          terms=[e for e in glossary['entries'] if e['entry_kind']=='GLOSSARY_DEFINITION_CANDIDATE']
+          mappings=[e for e in glossary['entries'] if e['entry_kind']=='HISTORICAL_CROSSWALK_CANDIDATE']
+          assert len(terms)>=5, 'Historical live glossary was not indexed into candidate terms'
+          assert len(mappings)>=3, 'Historical SAT-W standard translation was not indexed'
+          assert all(e['content_authorship_status']=='unresolved' for e in glossary['entries'])
+          assert all(e['historical_currentness']=='unverified' for e in glossary['entries'])
+          print('REAL_ARCHIVE_MATH_SMOKE_PASS='+str(len(hits))+'; graph_nodes='+str(len(graph['nodes'])))
+          print('REAL_HISTORICAL_GLOSSARY_CANDIDATES='+str(len(terms))+'; translation_candidates='+str(len(mappings)))
+          PY

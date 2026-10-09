@@ -183,7 +183,17 @@ It runs `tools/search_archive_content.py` against the original archive, sorted b
 - This is a **worker execution bridge**, not a new search semantics or a replacement for Mersearch Core.
 - Results remain discovery evidence; consequential claims still require inspection of underlying sources.
 - Stable 1.0 exclusions remain in force, including default exclusion of QUARANTINE and PRIOR_ART.
-- The current bridge searches the original SAT archive only. Do not imply that a bridge result covers all three repositories.
+- **Bridge corpus scope is versioned.** Earlier bridge runs searched only the original SAT archive. The proposed multi-archive bridge checks out SAT_THEORY_ARCHIVE_2023-25, HsH, and HSH_RESOURCES. Inspect the workflow revision and each run's `RUN_MANIFEST.json` `read_roots` / `source_repositories`; never infer all-three coverage from the request alone.
 - `latest.*` is intentionally a moving result surface and can be overwritten by a later request. Preserve consequential result sets separately before issuing another request.
 - Use a unique `request_id` so workflow runs and commits can be audited.
 - If the bridge workflow fails, inspect the workflow run rather than silently substituting GitHub code search and calling that a Mersearch result.
+
+
+## 1.2 chronology development | NOT PROMOTED
+
+- Branch: `mersearch-chronology-20261007`
+- Draft review: https://github.com/Satobloc/HsH/pull/10
+- Candidate capabilities: date/version evidence at source and passage levels; `era:`, `version:`, `origin:`, archive-date and retrospective filters; `--capabilities`, `--examples`, `--coverage`; three-archive checkout discovery; source links; pagination and honest totals; identical-file mirror identity; NotebookLM capture-date separation.
+- Worker quickstart: `WORKSPACES/COMMON/MERSEARCH_AGENT_QUICKSTART.md`.
+- Acceptance: original regression plus `WORKSPACES/MERCER/test_mersearch_chronology_20261007.py`; GitHub Actions checks must pass before release promotion.
+- This section does not designate the development branch as a stable worker release.
