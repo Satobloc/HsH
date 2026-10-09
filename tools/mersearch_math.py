@@ -295,6 +295,12 @@ def extract(text: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
                 prefix = list(PROSE_BREAK.finditer(left))
                 if prefix:
                     left = left[prefix[-1].end():]
+                # Explicitly marked display equations often start with an
+                # ordinary label followed by a mathematical expression.
+                # Match only a word + whitespace, not variable Result=...
+                intro = re.match(r"^\s*(?:result|formula|observation|equation|calculation|computed)\s+(.+)$", left, re.I)
+                if intro:
+                    left = intro.group(1)
                 # An ordinary sentence often introduces one variable: 'Formula B=...'.
                 # Do not misread 'Formula B' as the product Formula*B.
                 if not re.search(r'[0-9+*/^()\\πθΔφτ]',left) and len(left.strip().split())>1:
