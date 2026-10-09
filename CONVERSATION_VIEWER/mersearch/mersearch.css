@@ -72,6 +72,7 @@ a:hover{text-decoration:underline}
 .connection{font-size:11px;color:#61747c;display:flex;align-items:center;gap:9px;white-space:nowrap}
 .connection i{width:7px;height:7px;border-radius:50%;background:#ddad78}
 .connection.online i{background:#599a88}
+.connection.catalog i{background:#c47757}
 .connection.offline i{background:#ad7c6f}
 .text-button{background:transparent;border:0;color:var(--ink-2);font-size:12px;font-weight:620;white-space:nowrap;padding:8px}
 .text-button:hover{color:var(--coral)}
