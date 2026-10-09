@@ -152,7 +152,8 @@ class UnifiedSearchCLITests(unittest.TestCase):
 
     def test_numeric_match_with_tolerance(self):
         data,_=self.run_query('value:"B=0.2387;atol=0.001"')
-        self.assertEqual(data["pagination"]["total_hits"],2)
+        # The original SAT fixture has TWO matching equation lines, plus HsH.
+        self.assertEqual(data["pagination"]["total_hits"],3)
         self.assertTrue(all(h["math_evidence"][0]["classification"]=="NUMERICALLY_CONSISTENT"
                             for h in data["hits"]))
 
