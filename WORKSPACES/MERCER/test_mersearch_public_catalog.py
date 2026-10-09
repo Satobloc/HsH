@@ -36,7 +36,7 @@ class PublicCatalogTests(unittest.TestCase):
         good=entry("valid1", "Optical phase shift 0.24")
         sat=entry("valid2", "Stringing Along Theory",
                   "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-                  "SAT Mark V/SAT_Phase_Shift_Note.txt", "registered-external")
+                  "SAT Mark V/SAT_Phase_Shift_Note.txt", "glass-public")
         bad=[
             entry("private1", "Sensitive docs", "Satobloc/HSH_RESOURCES", "private.txt"),
             entry("private2", "Prior art", path="PRIOR_ART/notes.txt"),
