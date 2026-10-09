@@ -14,6 +14,7 @@ import re
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 VERSION="m5a-source-inventory-2026-10-09"
 ARCHIVE_NAMES={
@@ -100,7 +101,7 @@ def build(archives_home:Path)->dict:
         status="not-available"
         if repo not in found_repos or any(p in PRIVATE_NAMES for p in Path(rel).parts):
             stats["source_missing_or_restricted"]+=1
-        elif path.is_symlink():
+        elif path.is_symlink() or any(parent.is_symlink() for parent in path.parents if parent!=root and root in parent.parents):
             status="symlink-refused";stats["source_symlink_refused"]+=1
         elif not path.is_file():
             stats["source_missing_or_restricted"]+=1
@@ -126,7 +127,7 @@ def build(archives_home:Path)->dict:
                     "source_id":"src:"+short_id(repo+"\0"+rel+"\0"+sha),
                     "repository":repo,"path":rel,"source_sha256":sha,
                     "source_url":f"https://github.com/{repo}/blob/main/"+
-                        __import__("urllib.parse",fromlist=["quote"]).quote(rel,safe="/"),
+                        quote(rel,safe="/"),
                     "source_family":family,
                     "content_authorship_status":"unresolved",
                     "historical_currentness":"unverified",
