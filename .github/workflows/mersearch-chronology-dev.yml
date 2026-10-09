@@ -77,6 +77,7 @@ jobs:
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
           sparse-checkout-cone-mode: false
       - name: Checkout one real public SAT mathematical record
         uses: actions/checkout@v4
