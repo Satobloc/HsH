@@ -97,6 +97,7 @@ jobs:
         run: |
           python tools/search_archive_content.py 'archive/SAT Mark V' --expr 'value:"0.239;atol=0.001"' --out /tmp/mersearch-optical
           python tools/search_archive_content.py 'archive/SAT Mark V' --expr 'equiv:"B=3/(4*pi)"' --out /tmp/mersearch-b
+          python tools/search_archive_content.py 'archive/SAT Mark V' --genealogy-only --out /tmp/mersearch-optical-genealogy
           python - <<'PY'
           import json
           note=json.load(open('/tmp/mersearch-optical/SEARCH_RESULTS.json',encoding='utf-8'))
@@ -107,5 +108,10 @@ jobs:
               for m in h.get('math_evidence',[]))]
           assert hits,'Failed to recover real archived optical Delta-phi numerical expression'
           assert not unrelated['hits'], 'An optical phase shift was mistakenly equated to B'
-          print('REAL_ARCHIVE_MATH_SMOKE_PASS='+str(len(hits)))
+          graph=json.load(open('/tmp/mersearch-optical-genealogy/MATH_GENEALOGY.json',encoding='utf-8'))
+          optical=[n for n in graph['nodes'] if 'Delta_phi' in n['symbols']]
+          assert optical, 'Failed to preserve historical optical phase equation as a graph node'
+          assert all(n['polynomial_form_id']=='' for n in optical), 'Approximate optical source was misrepresented as an exact proof family'
+          assert all(not n['date'] for n in optical), 'Standalone undated historical text incorrectly gained a hard message date'
+          print('REAL_ARCHIVE_MATH_SMOKE_PASS='+str(len(hits))+'; graph_nodes='+str(len(graph['nodes'])))
           PY
