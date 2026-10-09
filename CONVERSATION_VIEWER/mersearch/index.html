@@ -74,6 +74,16 @@
             </div>
             <button type="button" id="advancedToggle" class="filter-toggle" aria-expanded="false" aria-controls="advancedPanel">⚑ Filters <span id="filterCount"></span><span aria-hidden="true">⌄</span></button>
           </div>
+          <div id="mathTools" class="math-tools" hidden>
+            <label for="mathMatchMode">Equation matching</label>
+            <select id="mathMatchMode">
+              <option value="math">Notation / written form (fast)</option>
+              <option value="equiv">Proven polynomial rearrangement</option>
+              <option value="contains">Contains symbolic subexpression</option>
+              <option value="value">Numerically close (requires ;atol=)</option>
+            </select>
+            <span id="mathModeDescription">Looks for notation-normalized text. Does not establish mathematical equivalence.</span>
+          </div>
           <div id="advancedPanel" class="advanced-panel" hidden>
             <div class="field-grid">
               <label>Historical era
@@ -172,7 +182,7 @@
       <div><strong>Nearby ideas</strong><code>light NEAR/12 helix</code><span>Find words within twelve tokens.</span></div>
       <div><strong>Either term</strong><code>glitch OR anomaly</code><span>Include alternative terminology.</span></div>
       <div><strong>Exclude terms</strong><code>holonomy AND NOT draft</code><span>Restrict a search.</span></div>
-      <div><strong>Math notation</strong><code>math:"B=3/(4*pi)"</code><span>Symbol matching, not algebraic equivalence.</span></div>
+      <div><strong>Math notation</strong><code>math:"B=3/(4*pi)"</code><span>Written-form matching. Equation mode also offers polynomial equivalence, structural matching and numerical tolerance in the local research engine.</span></div>
       <div><strong>History</strong><code>era:early-2025</code><span>Use estimated dates without losing provenance.</span></div>
     </div>
     <p class="guide-caution">A dated quotation is not necessarily a dated conversation. Mersearch separates message timestamps, archive-folder dates, and estimated eras. Private or quarantined material is never made public by this page.</p>
