@@ -143,6 +143,16 @@ class BrowserApiTests(unittest.TestCase):
         self.assertEqual(result["hits"][0]["title"],"Verified phase note")
         self.assertNotIn("Satobloc/HSH_RESOURCES",result["archives_searched"])
 
+    def test_dns_rebinding_host_is_denied(self):
+        port = self.server.server_port
+        with self.assertRaises(HTTPError) as ctx:
+            self.fetch("/api/capabilities",headers={"Host":f"evil.example:{port}"})
+        self.assertEqual(ctx.exception.code,403)
+        with self.assertRaises(HTTPError) as ctx:
+            self.fetch("/api/search","POST",{"expr":"0.24"},
+                       {"Content-Type":"application/json","Host":f"evil.example:{port}"})
+        self.assertEqual(ctx.exception.code,403)
+
     def test_cross_site_request_is_denied(self):
         with self.assertRaises(HTTPError) as ctx:
             self.fetch("/api/search","POST",{"expr":"0.24"},
