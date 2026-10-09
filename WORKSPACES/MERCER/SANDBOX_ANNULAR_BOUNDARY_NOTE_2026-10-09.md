@@ -1,0 +1,5 @@
+# Mercer sandbox: finite annular timesheet boundary sensitivity
+
+2026-10-09. Independent, noncanonical mathematical result. On a finite annulus, the squared Laplacian and squared Hessian bending energies differ by a boundary integral even though their bulk biharmonic operator agrees. For h=x^2-y^2, the Laplacian bending energy vanishes while the Hessian bending energy is positive. Numerical Galerkin thresholds and selected modes change dramatically with natural, pinned, or clamped edges. The earlier preferred helix pitch is therefore conditional on boundary mechanics and the actual stress transmission law. Full derivation and executable verification: MERCER_ANNULAR_BOUNDARY_CONSTITUTIVE_2026-10-09.zip (conversation artifact).
+
+Primary sources read: historical SAT Filament onto.txt lines 1-240; HsH 30SEP26_DUMP/SPEC_COUPLED_FILAMENT_TIMESHEET_STRING_BRIDGE_V01.md.txt entire document. Mersearch shared request was occupied and was not overwritten. Quarantine preserved. Next: coupled in-plane and normal contact solver with stress computed rather than assumed.
