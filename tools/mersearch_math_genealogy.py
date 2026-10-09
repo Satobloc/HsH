@@ -107,7 +107,10 @@ def math_node(row: dict[str,Any]) -> dict[str,Any]:
     # separate provenance review before claiming an original direct attestation.
     direct=date if kind=="conversation-message" else ""
     unit=unit_hint(raw)
-    polykey=exact_polynomial_signature(p)
+    base_polykey=exact_polynomial_signature(p)
+    # A mathematical form with documented degrees/radians is not silently
+    # placed in one physical family with a different or unknown unit.
+    polykey=(base_polykey+"|unit:"+unit) if base_polykey else ""
     numeric=None
     numeric_basis=""
     variable=""
@@ -212,6 +215,9 @@ def build(inventory: Path, *, atol:float=0.001, max_nodes:int=MAX_NODES,
                              "authorship continuity","chronological priority outside indexed corpus"],
               "chronology":_chronology(indexed[source],indexed[target])}
         if details:edge.update(details)
+        if relation=="NUMERICALLY_CLOSE_NOT_EQUIVALENT":
+            edge["value_source"]=indexed[source]["numeric_value"]
+            edge["value_target"]=indexed[target]["numeric_value"]
         edges.append(edge)
         return True
 
@@ -271,6 +277,7 @@ def build(inventory: Path, *, atol:float=0.001, max_nodes:int=MAX_NODES,
     for n in nodes:
         if n["numeric_value"] is not None and n["numeric_variable"] and n["unit_hint"]!="mixed-or-ambiguous":
             numeric_groups[(n["numeric_variable"],n["unit_hint"])].append(n)
+    numeric_degree=Counter()
     for key,group in sorted(numeric_groups.items()):
         group.sort(key=lambda n:(n["numeric_value"],n["id"]))
         for i,a in enumerate(group):
@@ -280,7 +287,9 @@ def build(inventory: Path, *, atol:float=0.001, max_nodes:int=MAX_NODES,
                 if difference>atol:break
                 if a["mirror_identity"] and a["mirror_identity"]==b["mirror_identity"]:continue
                 if a["polynomial_form_id"] and a["polynomial_form_id"]==b["polynomial_form_id"]:continue
-                if candidates>=MAX_NUMERIC_NEIGHBORS:
+                if (candidates>=MAX_NUMERIC_NEIGHBORS or
+                        numeric_degree[a["id"]]>=MAX_NUMERIC_NEIGHBORS or
+                        numeric_degree[b["id"]]>=MAX_NUMERIC_NEIGHBORS):
                     stats["near_numeric_candidates_skipped_by_neighbor_bound"]+=1
                     continue
                 if add(a,b,"NUMERICALLY_CLOSE_NOT_EQUIVALENT",{
@@ -289,6 +298,8 @@ def build(inventory: Path, *, atol:float=0.001, max_nodes:int=MAX_NODES,
                     "absolute_difference":difference,"absolute_tolerance":atol,
                     "scope":"same symbol and same recorded unit category only; no equivalence or derivation inferred"}):
                     candidates+=1
+                    numeric_degree[a["id"]]+=1
+                    numeric_degree[b["id"]]+=1
     # Do not inadvertently leak all raw source text into a public catalog.
     for node in nodes:
         node.pop("mirror_identity")
