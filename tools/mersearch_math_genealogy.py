@@ -17,7 +17,7 @@ import json
 import math
 import re
 from collections import Counter, defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -46,9 +46,13 @@ def checked_date(value: Any) -> str:
         parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
         if not (2000 <= parsed.year <= 2100):
             return ""
+        if "T" not in value:
+            return parsed.date().isoformat()  # source-only day precision
+        if parsed.tzinfo is None:
+            return ""  # a clock without timezone cannot be chronologically ordered
+        return parsed.astimezone(timezone.utc).isoformat().replace("+00:00","Z")
     except ValueError:
         return ""
-    return value
 
 
 def unit_hint(raw: str) -> str:
@@ -138,6 +142,10 @@ def math_node(row: dict[str,Any]) -> dict[str,Any]:
 
 def _chronology(a: dict,b: dict) -> dict[str,str]:
     if a["date"] and b["date"]:
+        if a["date"][:10] == b["date"][:10] and (
+            len(a["date"]) == 10 or len(b["date"]) == 10
+        ):
+            return {"ordering":"same-calendar-day-no-time-order","basis":"at-least-one-day-precision-date"}
         if a["date"] == b["date"]:
             return {"ordering":"same-direct-timestamp","basis":"structured-message-timestamp"}
         return {"ordering":"earlier-to-later-direct-attestation"
