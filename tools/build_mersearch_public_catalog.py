@@ -18,7 +18,7 @@ DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/mersearch/data/catalog.json")
 MAX_ENTRIES = 20000
 MAX_CATALOG_BYTES = 12 * 1024 * 1024
 PUBLIC_REPOS = {"Satobloc/HsH", "Satobloc/SAT_THEORY_ARCHIVE_2023-25"}
-ACCEPTED_CORPORA = {"development", "live", "registered-external", "external"}
+ACCEPTED_CORPORA = {"development", "live", "registered-external", "external", "glass-public"}
 
 
 def iso_day(value: object) -> str:
