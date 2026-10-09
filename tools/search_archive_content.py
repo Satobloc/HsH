@@ -22,11 +22,12 @@ from typing import Any,Iterable
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from mersearch_chronology import Chronology, VERSIONS, eras, message_date
+import mersearch_math as MM
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
-TOOL_NAME="Mercer_Searcher_1.2-chronology-dev"
-TOOL_VERSION="1.2-chronology-dev"
+TOOL_NAME="Mersearch_1.3-math-dev"
+TOOL_VERSION="1.3-math-dev"
 WORD_RE=re.compile(r"\w+(?:['’.-]\w+)*",re.UNICODE)
 STATUS_PATTERNS=[
  ("correction",re.compile(r"\b(correction|correct(?:ed|ion)?|actually|rather|not quite|that's not|that is not)\b",re.I)),
@@ -44,6 +45,8 @@ class Record:
  speaker:str="";role:str="";timestamp:str="";locator:str="";viewer_url:str=""
  chronology:dict[str,Any]=field(default_factory=dict);repository:str=""
  capture_timestamp:str=""
+ math_evidence:list[dict[str,Any]]=field(default_factory=list)
+ math_extraction_stats:dict[str,int]=field(default_factory=dict)
 @dataclass
 class Eval:
  ok:bool; positions:list[int]; terms:list[str]; trace:list[str]; near:list[dict[str,Any]]
@@ -55,6 +58,7 @@ class Hit:
  chronology:dict[str,Any]=field(default_factory=dict);repository:str="";source_url:str=""
  passage_chronology:dict[str,Any]=field(default_factory=dict)
  identical_file_sources:list[dict[str,str]]=field(default_factory=list)
+ math_evidence:list[dict[str,Any]]=field(default_factory=list)
 
 def norm(x:Any)->str:return re.sub(r"\s+"," ",str(x or "")).strip()
 def iso_time(x:Any)->str:
@@ -255,6 +259,13 @@ def field_eval(rec:Record,term:str)->Eval|None:
    ok=bool(target) and (not lo or target>=lo) and (not hi or target<=hi)
   else:ok=bool(target) and val in target
   return Eval(ok,[],[term] if ok else [],[f"CHRONOLOGY FIELD {field}:{val!r} => {ok}"],[])
+ if field in ("equiv","contains","value"):
+  matches,stats=MM.match_source(rec.text,field,unquote(term.split(":",1)[1]))
+  rec.math_extraction_stats=stats
+  rec.math_evidence.extend({"query_field":field,**m} for m in matches)
+  ok=bool(matches)
+  summary=(", ".join(m["classification"]+" line:"+str(m["source_line"]) for m in matches)) or "no supported match"
+  return Eval(ok,[],[term] if ok else [],[f"MATH {field} {summary}; extraction={stats}"],[])
  if field=="body":
   pos=phrase_positions(rec.text,val);ok=bool(pos)
   return Eval(ok,pos,[term] if ok else [],[f"FIELD body:{val!r} => {len(pos)} occurrence(s)"],[])
@@ -379,6 +390,9 @@ EXAMPLES=[
  'python tools/search_archive_content.py --expr \'era:early-2025 AND "phase shift"\' --sort origin',
  'python tools/search_archive_content.py --expr \'version:sat-mark-v AND "phase shift"\'',
  'python tools/search_archive_content.py --expr \'math:"B=3/(4*pi)"\'',
+ 'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --sort origin',
+ 'python tools/search_archive_content.py --expr \'contains:"3/(4*pi)"\'',
+ 'python tools/search_archive_content.py --expr \'value:"B=0.2387;atol=0.003"\'',
  'python tools/search_archive_content.py --archives-root /work --coverage',
 ]
 def discover_archives(base:Path)->tuple[list[Path],list[str]]:
@@ -417,6 +431,7 @@ def describe_capabilities()->dict[str,Any]:
    "tool_surfaces":{
      "cli":"tools/search_archive_content.py (this interface; all archives when discovered)",
      "chronology":"tools/mersearch_chronology.py (integrated evidence enrichment)",
+     "math_engine":"tools/mersearch_math.py (bounded AST/SymPy symbolic matching, separate from stable math:)",
      "request_bridge":"WORKSPACES/COMMON/MERSEARCH_REQUEST.json + .github/workflows/mersearch-request-bridge.yml (connector-only workers; stable semantics until engine promotion)",
      "viewer":"CONVERSATION_VIEWER/ (navigation; do not assume identical search semantics)",
      "legacy_test":"WORKSPACES/MERCER/test_mercer_searcher_1_0.py",
@@ -427,19 +442,20 @@ def describe_capabilities()->dict[str,Any]:
    "archives_default":list(ARCHIVE_ALIASES),
    "archives_policy":"All discoverable archives searched by default; missing ones always reported.",
    "query_operators":["AND","OR","NOT","NEAR/n","()",'"phrase"',"implicit AND"],
-   "fields":["body","math","name","path","ext","kind","has","author","speaker",
+   "fields":["body","math","equiv","contains","value","name","path","ext","kind","has","author","speaker",
      "role","title","conversation","cid","date","status","era","version",
      "archive_date","origin","date_confidence","document_type",
      "retrospective","date_mentioned","repo"],
    "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md"],
    "result_modes":["records","files"],"optional_collapse":"--collapse-identical-files (file mode only, byte SHA-256 identity)",
    "sorts":["date","origin","author","title","path"],
-   "cautions":["math normalization is not algebraic equivalence",
+   "math_capabilities":MM.capabilities(),
+   "cautions":["math: is notation search; equiv: is only bounded polynomial equality",
      "chronology/version estimates are not hard dates",
      "PRIOR_ART and QUARANTINE excluded by default",
      "large files beyond --max-bytes skipped with explicit count; use --max-bytes 0 to disable limit",
      "structured timestamps apply to messages, not quoted excerpts",
-     "no semantic/vector or CAS retrieval in this development version"]}
+     "no general CAS or derivation-proof retrieval; value: is numerical consistency only"]}
 
 def main()->int:
  ap=argparse.ArgumentParser(description=__doc__,epilog="Start with --capabilities or --examples. By default Mersearch looks for ALL THREE archives and warns if any are absent.")
@@ -460,6 +476,7 @@ def main()->int:
  ap.add_argument("--offset",type=int,default=0,help="0-based offset after deterministic sorting")
  ap.add_argument("--collapse-identical-files",action="store_true",help="group byte-identical files in file mode; retain all source locations in each representative")
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
+ ap.add_argument("--math-inventory",action="store_true",help="write MATH_EXPRESSIONS.jsonl extraction sidecar with original source locators; slower and bounded")
  args=ap.parse_args()
  if args.capabilities:
   print(json.dumps(describe_capabilities(),ensure_ascii=False,indent=2));return 0
@@ -479,6 +496,17 @@ def main()->int:
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
  else:ap.error("provide --expr or --query")
  # Parse before scanning so malformed expressions fail fast.
+ expression_terms=[token for token in rpn(query) if token.partition(":")[0].casefold() in ("equiv","contains","value")]
+ if expression_terms or args.math_inventory:
+  MM.require_symbolic()
+ for token in expression_terms:
+  kind,_,v=token.partition(":");value=unquote(v)
+  try:
+   if kind.casefold()=="value":MM._numeric_request(value)
+   else:
+    parsed=MM.parse(value)
+    if kind.casefold()=="equiv" and parsed["residual"] is None:raise MM.UnsupportedExpression("equiv: requires an equality")
+  except MM.UnsupportedExpression as exc:ap.error("Unsupported mathematical query: "+str(exc))
  rpn(query)
  topic_rows=[]
  if args.topic_config:
@@ -490,6 +518,7 @@ def main()->int:
    name=norm(row.get("topic") or row.get("name"));aliases=[name]+[norm(x) for x in row.get("aliases",[]) if norm(x)]
    if name:topics.append((name,list(dict.fromkeys(aliases))))
  viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter();per_repo_stats={}
+ math_inventory_rows=[];math_inventory_stats=Counter()
  authors={x.casefold() for x in args.author};roles={x.casefold() for x in args.role}
  for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats,per_repo_stats):
   files+=1
@@ -510,6 +539,14 @@ def main()->int:
    rec.chronology=known_chrono
    rec.repository=repository
    records+=1
+   if args.math_inventory:
+    equations,extraction=MM.extract(rec.text)
+    math_inventory_stats.update(extraction)
+    for eq in equations:
+     math_inventory_rows.append({"path":rel,"repository":repository,"record_locator":rec.locator,
+       "message_id":rec.message_id,"timestamp":rec.timestamp,
+       "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
+       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"})
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
    if roles and rec.role.casefold() not in roles:continue
@@ -529,6 +566,7 @@ def main()->int:
    passage=Chronology(rel)
    passage.observe(rec.text,rec.locator,rec.kind,rec.timestamp,rec.capture_timestamp)
    hits[-1].passage_chronology=passage.result()
+   hits[-1].math_evidence=list(rec.math_evidence)
   per_repo_stats[repository]["records_scanned"]+=records-record_start
   if records==record_start:
    scan_stats["files_without_readable_records"]+=1
@@ -604,6 +642,8 @@ def main()->int:
   "content_coverage_gaps":content_gaps,
   "coverage_by_repository":{name:dict(per_repo_stats.get(name,{})) for name in ARCHIVE_ALIASES},
   "inventory_limitations":dict(scan_stats),
+  "math_inventory":{"enabled":args.math_inventory,"equations_extracted":len(math_inventory_rows),
+   "extraction_statistics":dict(math_inventory_stats),"coverage_class":"bounded, supported subset only"},
   "coverage_reconciliation":{"files_match":sum(v.get("files_scanned",0) for v in per_repo_stats.values())==files,"records_match":sum(v.get("records_scanned",0) for v in per_repo_stats.values())==records,"matches_match":sum(v.get("matching_records",0) for v in per_repo_stats.values())==raw_match_records},
   "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
   "coverage_warning":"PARTIAL CORPUS: search did not cover every configured archive" if missing_repos else "",
@@ -614,6 +654,9 @@ def main()->int:
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
+ if args.math_inventory:
+  with (args.out/"MATH_EXPRESSIONS.jsonl").open("w",encoding="utf-8") as fh:
+   for row in math_inventory_rows:fh.write(json.dumps(row,ensure_ascii=False)+"\n")
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  with (args.out/"SEARCH_RESULTS.jsonl").open("w",encoding="utf-8") as fh:
   for h in hits:fh.write(json.dumps(asdict(h),ensure_ascii=False)+"\n")
