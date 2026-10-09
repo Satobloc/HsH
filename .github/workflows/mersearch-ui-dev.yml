@@ -9,6 +9,7 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
       - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
       - 'tools/build_mersearch_public_catalog.py'
       - '.github/workflows/mersearch-ui-dev.yml'
@@ -19,6 +20,7 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'WORKSPACES/MERCER/test_mersearch_ui.py'
+      - 'WORKSPACES/MERCER/test_mersearch_browser.mjs'
       - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
       - 'tools/build_mersearch_public_catalog.py'
       - '.github/workflows/mersearch-ui-dev.yml'
@@ -42,6 +44,7 @@ jobs:
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
             /WORKSPACES/MERCER/test_mersearch_ui.py
+            /WORKSPACES/MERCER/test_mersearch_browser.mjs
             /WORKSPACES/MERCER/test_mersearch_public_catalog.py
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
@@ -69,3 +72,27 @@ jobs:
           assert 'Satobloc/HSH_RESOURCES' not in d['archives_searched']
           print('CURATED_PUBLIC_CATALOG_ENTRIES='+str(d['catalog_entries']))
           PY
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install headless Chromium browser harness
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Desktop and mobile visual/browser QA
+        env:
+          MERSEARCH_BASE: http://127.0.0.1:8977
+          MERSEARCH_SCREENSHOTS: /tmp/mersearch-screenshots
+        run: |
+          python -m http.server 8977 --bind 127.0.0.1 --directory CONVERSATION_VIEWER/mersearch > /tmp/mersearch-static-http.log 2>&1 &
+          for i in $(seq 1 25); do curl -fsS http://127.0.0.1:8977/ >/dev/null && break || sleep 1; done
+          node WORKSPACES/MERCER/test_mersearch_browser.mjs
+      - name: Upload review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mersearch-desktop-mobile-review
+          path: /tmp/mersearch-screenshots
+          if-no-files-found: ignore
+          retention-days: 14
