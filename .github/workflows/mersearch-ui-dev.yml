@@ -96,3 +96,56 @@ jobs:
           path: /tmp/mersearch-screenshots
           if-no-files-found: ignore
           retention-days: 14
+
+
+  pages-preflight:
+    name: Build public Pages artifact without deploying
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /CONVERSATION_VIEWER/
+            /tools/build_conversation_viewer.py
+            /tools/build_mersearch_public_catalog.py
+            /indexes/manifests/development-conversation-dates.json
+            /indexes/manifests/live-conversation-dates.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild Viewer and Mersearch catalog exactly as Pages does
+        run: |
+          python tools/build_conversation_viewer.py
+          python tools/build_mersearch_public_catalog.py
+      - name: Confirm staged public source scope and artifact integrity
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('CONVERSATION_VIEWER')
+          view=json.loads((root/'data/conversations.json').read_text(encoding='utf-8'))
+          cat=json.loads((root/'mersearch/data/catalog.json').read_text(encoding='utf-8'))
+          assert cat['kind']=='public-conversation-catalog'
+          assert cat['coverage_status']=='partial'
+          assert 0 < cat['catalog_entries'] <= len(view['conversations'])
+          assert 'Satobloc/HSH_RESOURCES' not in cat['archives_searched']
+          assert all('HSH_RESOURCES' not in json.dumps(hit) for hit in cat['hits'])
+          assert all('PRIOR_ART' not in json.dumps(hit) for hit in cat['hits'])
+          assert (root/'mersearch/index.html').stat().st_size > 500
+          assert (root/'mersearch/mersearch.js').stat().st_size > 500
+          assert (root/'mersearch/mersearch.css').stat().st_size > 500
+          print('PAGES_DEPLOYMENT_PREFLIGHT='+json.dumps({
+              'viewer_conversations':len(view['conversations']),
+              'searchable_catalog_entries':cat['catalog_entries'],
+              'public_catalog_bytes':(root/'mersearch/data/catalog.json').stat().st_size,
+              'repositories':cat['archives_searched'],
+              'coverage_status':cat['coverage_status']}))
+          PY
+      - name: Upload reviewable Pages preflight artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mersearch-staged-pages-public
+          path: CONVERSATION_VIEWER
+          retention-days: 7
