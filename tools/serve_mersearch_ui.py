@@ -31,6 +31,7 @@ import webbrowser
 from collections import OrderedDict
 from pathlib import Path
 from urllib.parse import urlsplit
+import mersearch_math as MM
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
@@ -128,9 +129,10 @@ class SearchService:
             "capabilities": {
                 "name": "Mersearch",
                 "mode": "local-read-only-api",
+                "math_capabilities": MM.capabilities(),
                 "query_operators": ["AND", "OR", "NOT", "NEAR/n", "phrases", "parentheses"],
                 "fields": [
-                    "body", "name", "path", "math", "role", "date", "status",
+                    "body", "name", "path", "math", "equiv", "contains", "value", "role", "date", "status",
                     "version", "era", "origin", "archive_date", "date_mentioned",
                     "date_confidence", "retrospective", "repo",
                 ],
