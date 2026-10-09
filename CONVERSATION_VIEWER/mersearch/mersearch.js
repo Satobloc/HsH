@@ -19,7 +19,7 @@
   ];
   const filters=['eraFilter','versionFilter','authorFilter','repoFilter','fieldFilter','confidenceFilter','retrospectiveFilter'];
   const state={online:false,profile:'static',mode:'text',view:'results',result:null,imported:false,
-    query:'',page:0,pageSize:20,sequence:0,saved:[]};
+    query:'',page:0,pageSize:20,sequence:0,saved:[],catalog:null,catalogMode:false};
   const safeUrl=value=>{
     if(!value||typeof value!=='string')return '';
     try{const u=new URL(value,location.href);return /^(https?):$/.test(u.protocol)?u.href:'';}
@@ -101,12 +101,34 @@
       const q=new URLSearchParams(location.search).get('q');
       if(q){$('searchQuery').value=q;updateClear();search();}
     }catch{
-      state.profile='static';connection(false,'Preview / import mode');coverage();
-      notify('warning','Search service not connected',
-        'This public-ready page can inspect real Mersearch JSON exports. Live searching requires its approved search service.',
-        {text:'Import JSON ↑',run:()=>$('importFile').click()});
-      const q=new URLSearchParams(location.search).get('q');
-      if(q){$('searchQuery').value=q;updateClear();}
+      // GitHub Pages cannot run Python. Offer an explicitly limited public
+      // catalog that contains titles and links from the curated Viewer only.
+      try{
+        const catalog=await api('./data/catalog.json',{},8000);
+        if(catalog.kind!=='public-conversation-catalog'||!Array.isArray(catalog.hits))
+          throw Error('Not a public catalog artifact');
+        state.catalog=catalog;state.profile='public';
+        connection(false,'Public catalog search');
+        $('connectionState').className='connection catalog';
+        coverage(catalog);
+        for(const name of ['math','advanced']){
+          const b=document.querySelector('[data-querymode="'+name+'"]');
+          if(b){b.disabled=true;b.title='Requires the full Mersearch engine';}
+        }
+        $('authorFilter').disabled=true;$('retrospectiveFilter').disabled=true;
+        notify('','Public conversation catalog available',
+          'Search conversation titles, file paths and dates. Full text, equations and cross-archive chronology require the Mersearch research engine.',
+          {text:'About coverage',run:()=>$('aboutDialog').showModal()});
+        const q=new URLSearchParams(location.search).get('q');
+        if(q){$('searchQuery').value=q;updateClear();search();}
+      }catch{
+        state.profile='static';connection(false,'Preview / import mode');coverage();
+        notify('warning','Search service not connected',
+          'No public catalog is deployed yet. Import a Mersearch JSON export or use the research service locally.',
+          {text:'Import JSON ↑',run:()=>$('importFile').click()});
+        const q=new URLSearchParams(location.search).get('q');
+        if(q){$('searchQuery').value=q;updateClear();}
+      }
     }
   }
   function quote(s){return '"'+String(s).replace(/\\/g,'\\\\').replace(/"/g,'\\"')+'"';}
@@ -152,7 +174,7 @@
     if(file.size>45*1024*1024){notify('warning','File is too large','Import files under 45 MB.');return;}
     try{
       const d=normal(JSON.parse(await file.text()));
-      state.result=d;state.imported=true;state.page=0;state.query=d.query||'';
+      state.result=d;state.imported=true;state.catalogMode=false;state.page=0;state.query=d.query||'';
       view('results');
       if(d.query){$('searchQuery').value=d.query;updateClear();}
       if(d.result_mode==='files')$('resultMode').value='files';
@@ -161,9 +183,74 @@
         d.hits.length+' source records loaded. This is an imported result set, not a new live search.');
     }catch(e){notify('warning','Could not import file',e.message);}
   }
+  function searchCatalog(){
+    const catalog=state.catalog;
+    if(!catalog)return;
+    if(state.mode!=='text'&&state.mode!=='exact'){
+      notify('warning','Full-text engine required',
+        'The public catalog searches titles, paths and dates only. Choose Text or Exact phrase.');return;
+    }
+    const query=$('searchQuery').value.trim().toLowerCase();
+    if(!query){notify('warning','Enter a search','Try SAT, phase shift, or a conversation title.');return;}
+    const terms=state.mode==='exact'?[query]:(query.match(/"[^"]+"|\S+/g)||[])
+      .map(x=>x.replace(/^"|"$/g,'')).filter(Boolean);
+    const field=$('fieldFilter').value;
+    const era=$('eraFilter').value,version=$('versionFilter').value,
+      repo=$('repoFilter').value,confidence=$('confidenceFilter').value;
+    const matches=catalog.hits.filter(hit=>{
+      const title=(hit.title||'').toLowerCase(),path=(hit.path||'').toLowerCase();
+      const haystack=field==='title'?title:field==='name'?(path.split('/').pop()||'')
+        :field==='path'?path:title+' '+path;
+      if(!terms.every(term=>haystack.includes(term)))return false;
+      if(repo&&hit.repository!==repo)return false;
+      if(confidence&&hit.chronology?.date_confidence!==confidence)return false;
+      if(version){
+        const names={
+          'stringing-along':['stringing along','stringing-along'],
+          'toy-theory':['toy theory','toy-theory'],
+          'sat-2':['sat 2.0','sat-2'],
+          'sat-mark-iv':['mark iv','mark 4'],
+          'sat-mark-iv-2':['mark iv.2','mark 4.2'],
+          'sat-mark-v':['mark v','mark 5'],
+          'sat-x':['sat x','sat-x'],
+          'sat-xy':['sat xy','sat-xy'],
+          'sat-z':['sat z','sat-z'],
+          'sat-o':['sat o','sat.o'],
+          'chronophysical':['chronophysical'],
+          'sato-blockwave':['blockwave'],
+          'hsh':['h(s)h','hyperhelical','hsh']
+        };
+        if(!(names[version]||[version]).some(x=>(title+' '+path).includes(x)))return false;
+      }
+      if(era){
+        const date=(hit.chronology?.earliest_message_at||'');
+        if(!date)return false;
+        const year=+date.slice(0,4),month=+date.slice(5,7);
+        const label=(month<=4?'early':month<=8?'mid':'late')+'-'+year;
+        if(label!==era)return false;
+      }
+      return true;
+    });
+    state.result={...catalog,hits:matches,query,kind:'public-catalog-query',scope_note:catalog.scope_note};
+    state.imported=true;state.catalogMode=true;state.page=0;state.query=query;
+    view('results');
+    const u=new URL(location.href);u.searchParams.set('q',$('searchQuery').value.trim());
+    history.replaceState(null,'',u);
+    coverage(catalog);
+    render();
+    notify('','Catalog results, not message full-text',
+      'Matches are from public conversation titles and paths only. The full Mersearch engine is broader.',
+      {text:'Search public code ↗',run:()=>{
+        const github='https://github.com/search?q='+
+          encodeURIComponent('repo:Satobloc/SAT_THEORY_ARCHIVE_2023-25 '+query)+'&type=code';
+        window.open(github,'_blank','noopener');
+      }});
+  }
+
   async function search(){
     const expr=expression();
     if(!expr){notify('warning','Enter a search','Try 0.24, refractive index, or Chronophysical.');$('searchQuery').focus();return;}
+    if(!state.online&&state.catalog){searchCatalog();return;}
     if(!state.online){
       notify('warning','Live search is unavailable',
         'Import an existing Mersearch JSON result set, or use GitHub code search as a limited fallback.',
@@ -173,7 +260,7 @@
         }});
       return;
     }
-    state.imported=false;state.query=expr;state.page=0;
+    state.imported=false;state.catalogMode=false;state.query=expr;state.page=0;
     view('results');
     const u=new URL(location.href);u.searchParams.set('q',$('searchQuery').value.trim());
     history.replaceState(null,'',u);
@@ -381,7 +468,7 @@
         total.toLocaleString()+' result'+(total===1?'':'s')+' in the record'):
       'Your research starts here.';
     $('resultSubheading').textContent=state.result?
-      (state.imported?'Imported results':'Live search')+' · '+(state.result.coverage_status||'scope unknown')+
+      (state.catalogMode?'Public catalog · titles and paths only':state.imported?'Imported results':'Live search')+' · '+(state.result.coverage_status||'scope unknown')+
       ' · '+(total?'Showing '+(start+1)+'–'+Math.min(total,start+hits.length):'No matching passages')
       :'Search the archive, or import an existing Mersearch result set.';
     const out=$('resultsBody');out.replaceChildren();
@@ -452,7 +539,7 @@
       const q=b.dataset.example||'';
       if(q.startsWith('math:')){searchMode('math');$('searchQuery').value=q.slice(5);}
       else{searchMode('text');$('searchQuery').value=q;}
-      updateClear();$('searchQuery').focus();if(state.online)search();
+      updateClear();$('searchQuery').focus();if(state.online||state.catalog)search();
     }));
     document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>view(b.dataset.view)));
     ['sortSelect','resultMode'].forEach(id=>$(id).addEventListener('change',()=>{
