@@ -107,6 +107,14 @@ class UnitMathGenealogyTests(unittest.TestCase):
         self.assertEqual(first["date"],"")
         self.assertEqual(first["source_timestamp_unverified"],"2025-01-01T10:00:00Z")
 
+    def test_notebooklm_secondary_timestamps_are_not_hard_attestations(self):
+        record=row("Satobloc/HsH","export-notebooklm.json","B=3/(4*pi)",
+                   "2025-01-02T10:00:00Z",kind="notebooklm-message")
+        graph=self.compile([record])
+        self.assertEqual(graph["nodes"][0]["date"],"")
+        self.assertEqual(graph["nodes"][0]["source_timestamp_unverified"],"2025-01-02T10:00:00Z")
+        self.assertIsNone(graph["families"][0]["first_direct_attestation"])
+
     def test_numeric_nearness_non_transitive(self):
         graph=self.compile([
             row("Satobloc/HsH","a","B≈0.2380"),
