@@ -268,7 +268,18 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(encoded)
 
+    def valid_host(self) -> bool:
+        # Prevent Host-based DNS rebinding into this loopback research API.
+        try:
+            host = urlsplit("http://" + self.headers.get("Host", "")).hostname
+            port = urlsplit("http://" + self.headers.get("Host", "")).port
+            return host in {"127.0.0.1", "localhost"} and port == self.server.server_port
+        except ValueError:
+            return False
+
     def do_GET(self):
+        if not self.valid_host():
+            return self.json_response({"ok": False, "error": "Forbidden host."}, 403)
         path = urlsplit(self.path).path
         if path == "/api/capabilities":
             return self.json_response(self.service.capabilities())
@@ -281,6 +292,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         return super().do_GET()
 
     def do_POST(self):
+        if not self.valid_host():
+            return self.json_response({"ok": False, "error": "Forbidden host."}, 403)
         if urlsplit(self.path).path != "/api/search":
             return self.json_response({"ok": False, "error": "Unknown endpoint."}, 404)
         # Same-origin, local-only. Do not accept cross-origin search requests.
