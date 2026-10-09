@@ -43,7 +43,8 @@ GREEK = {
     "γ": "gamma", "σ": "sigma", "ρ": "rho", "ε": "epsilon",
 }
 TEX_SYMBOLS = {
-    "pi": " pi ", "theta": "theta", "phi": "phi", "varphi": "phi",
+    "pi": " pi ", "theta": "theta", "Theta": "Theta", "phi": "phi", "varphi": "phi",
+    "Delta": "Delta", "Phi": "Phi",
     "tau": "tau", "delta": "delta", "mu": "mu", "lambda": "lambda",
     "omega": "omega", "alpha": "alpha", "beta": "beta",
     "gamma": "gamma", "sigma": "sigma", "rho": "rho",
@@ -122,6 +123,13 @@ def normalize(raw: str) -> str:
     s = str(raw).strip().strip("$")
     s = s.replace(r"\[", "").replace(r"\]", "").replace(r"\(", "").replace(r"\)", "")
     s = _frac_convert(s)
+    # Common optical phase notation uses Delta-phi as ONE observable, not the
+    # product of unrelated variables named Delta and phi.
+    s = re.sub(r"\\Delta\s*\\(?:phi|varphi)\b|Δ\s*φ", "Delta_phi", s)
+    s = re.sub(r"\\Delta\s*\\theta\b|Δ\s*θ", "Delta_theta", s)
+    # Preserve the raw source for units; strip only explicitly supported
+    # display-unit markup from the parsed right-hand expression.
+    s = re.sub(r"\\(?:text|mathrm)\s*\{\s*(?:rad|radians|deg|degrees)\s*\}", "", s, flags=re.I)
     s = re.sub(r"\\([A-Za-z]+)", lambda m: TEX_SYMBOLS.get(m.group(1), "\\" + m.group(1)), s)
     for old, new in GREEK.items():
         s = s.replace(old, new)
@@ -129,6 +137,7 @@ def normalize(raw: str) -> str:
                      "−": "-", "–": "-", "⁻": "-", "²": "^2", "³": "^3"}.items():
         s = s.replace(old, new)
     s = s.replace("{", "(").replace("}", ")")
+    s = re.sub(r"\s+(?:rad|radians|degrees|deg)\s*$", "", s, flags=re.I)
     s = re.sub(r"_\s*\(\s*(\d+)\s*\)", r"_\1", s)
     if "\\" in s or "[" in s or "]" in s:
         raise UnsupportedExpression("Unsupported TeX command/notation")
