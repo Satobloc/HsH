@@ -550,7 +550,7 @@ def main()->int:
      inventory_file.write(json.dumps({"path":rel,"repository":repository,"record_locator":rec.locator,
        "message_id":rec.message_id,"timestamp":rec.timestamp,
        "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
-       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\\n")
+       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\n")
      math_inventory_count+=1
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
