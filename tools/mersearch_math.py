@@ -351,6 +351,10 @@ def algebraically_equivalent(query: dict[str, Any], source: dict[str, Any]) -> b
     """Sound only for the explicitly bounded, constant-denominator polynomial class."""
     if query["residual"] is None or source["residual"] is None:
         return False
+    # An approximation is never proof of an equality, even when its
+    # rounded expression happens to have the same algebraic structure.
+    if query["operator"] != "=" or source["operator"] != "=":
+        return False
     q = query["residual"]
     s = source["residual"]
     if not q.free_symbols or q.free_symbols != s.free_symbols:
