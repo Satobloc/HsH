@@ -7,6 +7,8 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_genealogy.py'
       - 'WORKSPACES/MERCER/test_mersearch_math.py'
       - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
       - '.github/workflows/mersearch-chronology-dev.yml'
@@ -15,6 +17,8 @@ on:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
+      - 'tools/mersearch_math_genealogy.py'
+      - 'WORKSPACES/MERCER/test_mersearch_genealogy.py'
       - 'WORKSPACES/MERCER/test_mersearch_math.py'
       - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
       - '.github/workflows/mersearch-chronology-dev.yml'
@@ -34,6 +38,8 @@ jobs:
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
+            /WORKSPACES/MERCER/test_mersearch_genealogy.py
             /WORKSPACES/MERCER/test_mersearch_math.py
             /WORKSPACES/MERCER/test_mercer_searcher_1_0.py
             /WORKSPACES/MERCER/test_mersearch_chronology_20261007.py
@@ -44,7 +50,7 @@ jobs:
       - name: Install bounded symbolic mathematics dependency
         run: python -m pip install 'sympy>=1.12,<2'
       - name: Compile search, chronology and math modules
-        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py
+        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py tools/mersearch_math_genealogy.py
       - name: Historical 1.0 semantics acceptance
         run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
       - name: Chronology and three-archive acceptance
@@ -54,6 +60,8 @@ jobs:
 
       - name: Mathematics semantic and safety acceptance
         run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_math.py' -v
+      - name: Genealogy evidence and chronology acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_genealogy.py' -v
 
 
   original-sat-math-smoke:
