@@ -296,7 +296,7 @@ def extract(text: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
                     left = left[prefix[-1].end():]
                 # An ordinary sentence often introduces one variable: 'Formula B=...'.
                 # Do not misread 'Formula B' as the product Formula*B.
-                if not re.search(r'[0-9+*/^()]',left) and len(left.strip().split())>1:
+                if not re.search(r'[0-9+*/^()\\πθΔφτ]',left) and len(left.strip().split())>1:
                     left=left.strip().split()[-1]
                 # Cut after prose following the rightmost complete expression.
                 right = re.split(r"\s+(?:where|with|which|because|and|the|for)\b", right, 1, flags=re.I)[0]
