@@ -118,6 +118,8 @@ def math_node(row: dict[str,Any]) -> dict[str,Any]:
     return {
         "id":"eq:"+digest(row_identity),
         "repository":repository,"path":path,"source_sha256":sha,
+        "source_url":str(row.get("source_url") or ""),
+        "speaker":str(row.get("speaker") or ""),"role":str(row.get("role") or ""),
         "record_locator":record,"source_line":line,
         "message_id":str(row.get("message_id") or ""),
         "conversation_id":str(row.get("conversation_id") or ""),
