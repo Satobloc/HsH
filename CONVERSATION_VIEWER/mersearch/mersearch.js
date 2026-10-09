@@ -141,7 +141,7 @@
   function quote(s){return '"'+String(s).replace(/\\/g,'\\\\').replace(/"/g,'\\"')+'"';}
   function expression(){
     const s=$('searchQuery').value.trim();if(!s)return '';
-    let main=state.mode==='math'?'math:'+quote(s):state.mode==='exact'?quote(s)
+    let main=state.mode==='math'?$('mathMatchMode').value+':'+quote(s):state.mode==='exact'?quote(s)
       :state.mode==='advanced'?s
       :$('fieldFilter').value?$('fieldFilter').value+':'+quote(s):s;
     const extra=[];
@@ -163,8 +163,9 @@
       const on=b.dataset.querymode===mode;
       b.classList.toggle('selected',on);b.setAttribute('aria-pressed',String(on));
     });
+    $('mathTools').hidden=mode!=='math';
     if(mode==='advanced'){$('advancedPanel').hidden=false;$('advancedToggle').setAttribute('aria-expanded','true');}
-    $('searchQuery').placeholder=mode==='math'?'An equation, e.g. B = 3/(4*pi)'
+    $('searchQuery').placeholder=mode==='math'?($('mathMatchMode').value==='value'?'B=0.2387;atol=0.003':'An equation, e.g. B = 3/(4*pi)')
       :mode==='exact'?'Words together, in the original order…'
       :mode==='advanced'?'Boolean query, e.g. light NEAR/12 helix'
       :'A phrase, number, equation, or question…';
@@ -350,6 +351,18 @@
     rows.forEach(([a,b])=>put(grid,put(E('div'),E('span','',a),E('strong','',b))));
     box.append(grid);
     (d.warnings||d.contradictions||[]).slice(0,4).forEach(w=>box.append(E('p','warning-text','⚠ '+w)));
+    if(Array.isArray(h.math_evidence)&&h.math_evidence.length){
+      const proofs=E('div','evidence');proofs.append(E('h4','','Equation matching evidence'));
+      h.math_evidence.slice(0,6).forEach(e=>{
+        const row=E('div','evidence-line');
+        put(row,E('strong','',e.classification||'MATH MATCH'),
+          E('span','',e.expression+' (source line '+e.source_line+')'
+            +(e.difference_absolute!==undefined?' · |Δ|='+e.difference_absolute:'')
+            +(e.proof_class?' · '+e.proof_class:'')));
+        proofs.append(row);
+      });
+      box.append(proofs);
+    }
     const items=d.date_evidence||[];
     if(items.length){
       const block=E('div','evidence');block.append(E('h4','','Evidence excerpts'));
@@ -397,7 +410,10 @@
     if(!link(title,h.source_url||h.viewer_url,txt(h.title||h.path||'Untitled record',180)))
       title.textContent=txt(h.title||h.path||'Untitled record',180);
     const excerpt=E('p','result-excerpt');
-    highlightExcerpt(excerpt,h.excerpt||'');
+    if(h.math_evidence?.length){
+      excerpt.append(E('strong','',h.math_evidence[0].classification+' · '+h.math_evidence[0].expression));
+      if(h.excerpt)excerpt.append(E('span','', '  '+txt(h.excerpt,400)));
+    }else highlightExcerpt(excerpt,h.excerpt||'');
     const foot=E('div','result-foot');
     put(foot,E('span','',h.speaker||h.role||'Speaker not identified'));
     if(h.locator)foot.append(E('span','',h.locator));
@@ -533,6 +549,17 @@
     $('searchQuery').addEventListener('input',updateClear);
     $('clearQuery').addEventListener('click',()=>{$('searchQuery').value='';updateClear();$('searchQuery').focus();});
     document.querySelectorAll('[data-querymode]').forEach(b=>b.addEventListener('click',()=>searchMode(b.dataset.querymode)));
+    const explainModes={
+      math:'Notation-normalized text match. Does not establish mathematical equivalence.',
+      equiv:'A strict symbolic polynomial proof. Preserves variable names and rejects domain-sensitive transformations.',
+      contains:'Structural match to an expression inside a supported equation.',
+      value:'Numerically consistent only. Example: B=0.2387;atol=0.003. Neither identity nor matching units is implied.'
+    };
+    $('mathMatchMode').addEventListener('change',()=>{
+      const current=$('mathMatchMode').value;
+      $('mathModeDescription').textContent=explainModes[current]||'';
+      if(state.mode==='math')searchMode('math');
+    });
     $('advancedToggle').addEventListener('click',()=>{
       $('advancedPanel').hidden=!$('advancedPanel').hidden;
       $('advancedToggle').setAttribute('aria-expanded',String(!$('advancedPanel').hidden));
