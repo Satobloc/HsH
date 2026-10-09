@@ -47,11 +47,15 @@ class SafeMathParsing(unittest.TestCase):
             "B=__import__('os').system('echo OOPS')",
             "B=().__class__", "B=sum([1,2])", "B=x[0]",
             "B=1 if x else 2", "B=2^1000000","B=x^x",
-            "B=1/0", "B=sqrt(x)","B=lambda x:x",
+            "B=1/0", "B=eval(x)","B=lambda x:x",
         ]:
             with self.subTest(expression=expression):
                 with self.assertRaises(m.UnsupportedExpression):
                     m.parse(expression)
+
+    def test_supported_functions_are_not_claimed_as_polynomial_proofs(self):
+        expression=m.parse("B=sqrt(x)")
+        self.assertFalse(m.algebraically_equivalent(m.parse("B=3/(4*pi)"),expression))
 
     def test_numeric_approximation_not_symbolic_proof(self):
         q=m.parse("B=3/(4*pi)")
