@@ -149,6 +149,23 @@ class UnitMathGenealogyTests(unittest.TestCase):
 
 
 class EndToEndM4Tests(unittest.TestCase):
+    def test_index_only_mode_needs_no_search_query(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d)
+            sat=root/"SAT_THEORY_ARCHIVE_2023-25"
+            sat.mkdir()
+            (sat/"line.txt").write_text("B=3/(4*pi)\\n4πB=3\\n",encoding="utf-8")
+            out=root/"out"
+            run=subprocess.run([sys.executable,str(ROOT/"tools/search_archive_content.py"),
+              str(sat),"--genealogy-only","--out",str(out)],
+              capture_output=True,text=True,timeout=30)
+            self.assertEqual(run.returncode,0,run.stderr)
+            graph=json.loads((out/"MATH_GENEALOGY.json").read_text(encoding="utf-8"))
+            search=json.loads((out/"SEARCH_RESULTS.json").read_text(encoding="utf-8"))
+            self.assertTrue(search["math_genealogy"]["index_only"])
+            self.assertEqual(len(graph["nodes"]),2)
+            self.assertEqual(len(search["hits"]),0)
+
     def test_cli_writes_graph_and_inventory_as_search_sidecars(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)
