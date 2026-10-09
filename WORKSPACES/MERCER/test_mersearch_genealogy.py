@@ -96,6 +96,36 @@ class UnitMathGenealogyTests(unittest.TestCase):
         self.assertEqual(tags,{"rad","deg","not-recorded"})
         self.assertEqual(graph["edges"],[])
 
+    def test_exact_form_families_do_not_merge_conflicting_units(self):
+        graph=self.compile([
+            row("Satobloc/HsH","rad.txt","B=0.2387 rad"),
+            row("Satobloc/HsH","deg.txt","B=0.2387 deg"),
+            row("Satobloc/HsH","bare.txt","B=0.2387"),
+        ])
+        self.assertEqual(len(graph["families"]),3)
+        self.assertFalse(graph["edges"])
+
+    def test_numeric_degree_is_bounded_on_both_endpoints(self):
+        graph=self.compile([
+            row("Satobloc/HsH",str(i),"B≈0.2387") for i in range(12)
+        ],atol=0.001)
+        degrees={}
+        for edge in graph["edges"]:
+            if edge["relation"]!="NUMERICALLY_CLOSE_NOT_EQUIVALENT":continue
+            degrees[edge["source"]]=degrees.get(edge["source"],0)+1
+            degrees[edge["target"]]=degrees.get(edge["target"],0)+1
+            self.assertEqual(edge["value_source"],0.2387)
+            self.assertEqual(edge["value_target"],0.2387)
+        self.assertTrue(degrees)
+        self.assertTrue(all(v<=G.MAX_NUMERIC_NEIGHBORS for v in degrees.values()))
+        self.assertGreater(graph["statistics"]["near_numeric_candidates_skipped_by_neighbor_bound"],0)
+
+    def test_timezone_normalization_and_same_day_precision(self):
+        self.assertEqual(G.checked_date("2025-05-01T08:00:00-04:00"),"2025-05-01T12:00:00Z")
+        self.assertEqual(G.checked_date("2025-05-01T12:00:00"),"")
+        self.assertEqual(G._chronology({"date":"2025-05-01"},{"date":"2025-05-01T12:00:00Z"})["ordering"],
+                         "same-calendar-day-no-time-order")
+
     def test_soft_metadata_and_file_upload_dates_never_claim_direct_priority(self):
         graph=self.compile([
             row("Satobloc/HsH","copy.txt","B=3/(4*pi)","2025-01-01T10:00:00Z",kind="text-line"),
