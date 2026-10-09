@@ -154,7 +154,7 @@ class EndToEndM4Tests(unittest.TestCase):
             root=Path(d)
             sat=root/"SAT_THEORY_ARCHIVE_2023-25"
             sat.mkdir()
-            (sat/"line.txt").write_text("B=3/(4*pi)\\n4πB=3\\n",encoding="utf-8")
+            (sat/"line.txt").write_text("B=3/(4*pi)\n4πB=3\n",encoding="utf-8")
             out=root/"out"
             run=subprocess.run([sys.executable,str(ROOT/"tools/search_archive_content.py"),
               str(sat),"--genealogy-only","--out",str(out)],
