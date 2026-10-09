@@ -109,6 +109,8 @@
         if(catalog.kind!=='public-conversation-catalog'||!Array.isArray(catalog.hits))
           throw Error('Not a public catalog artifact');
         state.catalog=catalog;state.profile='public';
+        $('archiveScopeTitle').textContent='PUBLIC SOURCES';
+        $('heroDescription').textContent='Explore the curated public conversation catalog, with original source links and dated records. Full-text research search is in development.';
         document.querySelectorAll('.suggestions [data-example]').forEach((b,i)=>{
           const name=['SAT','Physics','Chronophysical','Meridian'][i]||'SAT';
           b.dataset.example=name;b.replaceChildren(document.createTextNode(name+' '),E('span','','↗'));
