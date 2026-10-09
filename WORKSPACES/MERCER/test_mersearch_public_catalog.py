@@ -37,6 +37,9 @@ class PublicCatalogTests(unittest.TestCase):
         sat=entry("valid2", "Stringing Along Theory",
                   "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
                   "SAT Mark V/SAT_Phase_Shift_Note.txt", "glass-public")
+        manual=entry("srena-20260731-hsh", "Srena",
+                     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+                     "SRENA SAT2.txt", "development", "companion export createdAt")
         bad=[
             entry("private1", "Sensitive docs", "Satobloc/HSH_RESOURCES", "private.txt"),
             entry("private2", "Prior art", path="PRIOR_ART/notes.txt"),
@@ -46,14 +49,15 @@ class PublicCatalogTests(unittest.TestCase):
             entry("private6", "Not curated", corpus="secret"),
         ]
         payload={"schema_version":1,"curation":{"source":"CURATION.json"},
-                 "conversations":[good,sat,*bad]}
+                 "conversations":[good,sat,manual,*bad]}
         out=catalog.make_catalog(payload)
         self.assertEqual(out["kind"],"public-conversation-catalog")
-        self.assertEqual(len(out["hits"]),2)
+        self.assertEqual(len(out["hits"]),3)
         self.assertEqual(out["coverage_status"],"partial")
         self.assertNotIn("Satobloc/HSH_RESOURCES",out["archives_searched"])
         self.assertTrue(all("satobloc" in r["source_url"].lower() for r in out["hits"]))
         self.assertTrue(all("message_count" in r for r in out["hits"]))
+        self.assertTrue(any("srena-20260731-hsh" in r["viewer_url"] for r in out["hits"]))
         self.assertEqual(out["catalog_rejections"]["not_publicly_linkable"],len(bad))
         self.assertEqual(out["hits"][0]["chronology"]["date_confidence"],
                          "direct-message-timestamps")
