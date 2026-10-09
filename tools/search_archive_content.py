@@ -23,6 +23,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from mersearch_chronology import Chronology, VERSIONS, eras, message_date
 import mersearch_math as MM
+import mersearch_math_genealogy as MG
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
@@ -393,6 +394,7 @@ EXAMPLES=[
  'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --sort origin',
  'python tools/search_archive_content.py --expr \'contains:"3/(4*pi)"\'',
  'python tools/search_archive_content.py --expr \'value:"B=0.2387;atol=0.003"\'',
+ 'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --math-genealogy --out /tmp/b-lineage',
  'python tools/search_archive_content.py --archives-root /work --coverage',
 ]
 def discover_archives(base:Path)->tuple[list[Path],list[str]]:
@@ -446,7 +448,8 @@ def describe_capabilities()->dict[str,Any]:
      "role","title","conversation","cid","date","status","era","version",
      "archive_date","origin","date_confidence","document_type",
      "retrospective","date_mentioned","repo"],
-   "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md"],
+   "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md","optional MATH_EXPRESSIONS.jsonl and MATH_GENEALOGY.json"],
+   "genealogy":{"flag":"--math-genealogy","requires":"SymPy","scope":"source-attested recurrence of supported formulae, not causal derivation history","numeric_atol":"--genealogy-atol"},
    "result_modes":["records","files"],"optional_collapse":"--collapse-identical-files (file mode only, byte SHA-256 identity)",
    "sorts":["date","origin","author","title","path"],
    "math_capabilities":MM.capabilities(),
@@ -477,7 +480,10 @@ def main()->int:
  ap.add_argument("--collapse-identical-files",action="store_true",help="group byte-identical files in file mode; retain all source locations in each representative")
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
  ap.add_argument("--math-inventory",action="store_true",help="write MATH_EXPRESSIONS.jsonl extraction sidecar with original source locators; slower and bounded")
+ ap.add_argument("--math-genealogy",action="store_true",help="also construct MATH_GENEALOGY.json: dated formula recurrence families and explicit, NON-TRANSITIVE numerical relationships")
+ ap.add_argument("--genealogy-atol",type=float,default=0.001,help="absolute numeric proximity for genealogy links, not proof of equivalence")
  args=ap.parse_args()
+ if args.math_genealogy:args.math_inventory=True
  if args.capabilities:
   print(json.dumps(describe_capabilities(),ensure_ascii=False,indent=2));return 0
  if args.examples:
@@ -549,7 +555,10 @@ def main()->int:
     for eq in equations:
      inventory_file.write(json.dumps({"path":rel,"repository":repository,
        "source_sha256":sha(path,cache),
+       "source_url":f"https://github.com/{repository}/blob/main/{quote(repository_relative_source(path,repository,args.roots),safe='/')}" if repository.startswith("Satobloc/") else "",
+       "source_kind":rec.kind,"speaker":rec.speaker,"role":rec.role,
        "record_locator":rec.locator,
+       "conversation_id":rec.conversation_id,
        "message_id":rec.message_id,"timestamp":rec.timestamp,
        "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
        "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\n")
@@ -662,6 +671,13 @@ def main()->int:
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
+ if args.math_genealogy:
+  genealogy=MG.build(args.out/"MATH_EXPRESSIONS.jsonl",atol=args.genealogy_atol,manifest=manifest)
+  (args.out/"MATH_GENEALOGY.json").write_text(json.dumps(genealogy,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+  manifest["math_genealogy"]={"generated":True,"path":"MATH_GENEALOGY.json","node_count":len(genealogy["nodes"]),
+   "family_count":len(genealogy["families"]),"edge_count":len(genealogy["edges"]),
+   "scope":"observed formal relations, no documentary/causal derivation claims","statistics":genealogy["statistics"]}
+ else:manifest["math_genealogy"]={"generated":False}
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  with (args.out/"SEARCH_RESULTS.jsonl").open("w",encoding="utf-8") as fh:
   for h in hits:fh.write(json.dumps(asdict(h),ensure_ascii=False)+"\n")
