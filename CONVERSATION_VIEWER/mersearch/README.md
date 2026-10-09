@@ -50,7 +50,7 @@ The existing Conversation Viewer Pages workflow publishes the contents of CONVER
 
     https://satobloc.github.io/HsH/mersearch/
 
-**Static Pages have no Python service.** In that environment this UI transparently enters preview/import mode. It can load existing local JSON results, but it will not falsely claim live archive-wide search. To make live public search available, configure a separately deployed approved API service or a public static index under a reviewed search architecture.
+**Static Pages have no Python service.** The deploy workflow now generates a bounded, curated `mersearch/data/catalog.json` from the public Conversation Viewer manifest, after Viewer curation is applied. If the search API is unavailable, the browser searches this **public conversation-title/path/date catalog** directly, and identifies the limited scope in the UI. It does **not** search messages, equations, or entire archives. For those capabilities, use the local research engine until a reviewed public full-text API/index is deployed. The site can still import existing Mersearch JSON exports.
 
 The Conversation Viewer gains a Mersearch navigation link. Static asset updates are included in the Pages workflow trigger.
 
@@ -64,3 +64,12 @@ Responsive for desktop/mobile, semantic labels and buttons, keyboard / or Ctrl+K
     node --check CONVERSATION_VIEWER/mersearch/mersearch.js
 
 GitHub Actions workflow: .github/workflows/mersearch-ui-dev.yml. Covers JavaScript/Python syntax, no private resources in public profile, pagination/caching and local API origin enforcement. A full human browser QA and large-corpus benchmark are still required before public launch.
+
+
+## Public deployment gate (October 2026)
+
+The Pages workflow rebuilds the curated Viewer catalog, then generates and checks the Mersearch public catalog before publishing. The public snapshot builder is `tools/build_mersearch_public_catalog.py`. Only GitHub links to public, approved source repositories are accepted. A link to HSH_RESOURCES, PRIOR_ART or QUARANTINE is rejected, including encoded path variants.
+
+The full-text local research server and research search results are **not published** to Pages. Browser-based title/path search is usable without a backend. It intentionally returns partial coverage, and version/era matching is limited to designation words and conversation dates in the catalog. It must never be marketed as a complete search of three repositories.
+
+Desktop and mobile browser QA, API safety, repository path provenance, and catalog publication checks are gated in `.github/workflows/mersearch-ui-dev.yml`. The public search launch remains a draft PR until the release gates are reviewed.
