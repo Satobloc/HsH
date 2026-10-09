@@ -518,7 +518,11 @@ def main()->int:
    name=norm(row.get("topic") or row.get("name"));aliases=[name]+[norm(x) for x in row.get("aliases",[]) if norm(x)]
    if name:topics.append((name,list(dict.fromkeys(aliases))))
  viewer=load_viewer(args.viewer_root);cache={};hits=[];files=records=0;edges=Counter();topic_counts=Counter();scan_stats=Counter();per_repo_stats={}
- math_inventory_rows=[];math_inventory_stats=Counter()
+ math_inventory_count=0;math_inventory_stats=Counter()
+ inventory_file=None
+ if args.math_inventory:
+  args.out.mkdir(parents=True,exist_ok=True)
+  inventory_file=(args.out/"MATH_EXPRESSIONS.jsonl").open("w",encoding="utf-8")
  authors={x.casefold() for x in args.author};roles={x.casefold() for x in args.role}
  for path in permitted(args.roots,DEFAULT_EXCLUDES|set(args.exclude),args.max_bytes,scan_stats,per_repo_stats):
   files+=1
@@ -543,10 +547,11 @@ def main()->int:
     equations,extraction=MM.extract(rec.text)
     math_inventory_stats.update(extraction)
     for eq in equations:
-     math_inventory_rows.append({"path":rel,"repository":repository,"record_locator":rec.locator,
+     inventory_file.write(json.dumps({"path":rel,"repository":repository,"record_locator":rec.locator,
        "message_id":rec.message_id,"timestamp":rec.timestamp,
        "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
-       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"})
+       "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\\n")
+     math_inventory_count+=1
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
    if roles and rec.role.casefold() not in roles:continue
@@ -584,6 +589,7 @@ def main()->int:
    url=f"https://github.com/{repository}/blob/main/{quote(source_path,safe='/')}" if repository.startswith("Satobloc/") else ""
    for h in hits[hit_start:]:
     h.chronology=meta;h.repository=repository;h.source_url=url
+ if inventory_file is not None:inventory_file.close()
  sort_hits(hits,args.sort,args.descending)
  # Byte-identical sources may be collapsed on request, but each location remains
  # visible in identical_file_sources. Similar titles or converted formats are
@@ -642,7 +648,7 @@ def main()->int:
   "content_coverage_gaps":content_gaps,
   "coverage_by_repository":{name:dict(per_repo_stats.get(name,{})) for name in ARCHIVE_ALIASES},
   "inventory_limitations":dict(scan_stats),
-  "math_inventory":{"enabled":args.math_inventory,"equations_extracted":len(math_inventory_rows),
+  "math_inventory":{"enabled":args.math_inventory,"equations_extracted":math_inventory_count,
    "extraction_statistics":dict(math_inventory_stats),"coverage_class":"bounded, supported subset only"},
   "coverage_reconciliation":{"files_match":sum(v.get("files_scanned",0) for v in per_repo_stats.values())==files,"records_match":sum(v.get("records_scanned",0) for v in per_repo_stats.values())==records,"matches_match":sum(v.get("matching_records",0) for v in per_repo_stats.values())==raw_match_records},
   "indexed_source_completeness":"not guaranteed: excluded extensions/large files and format extraction failures are possible",
@@ -654,9 +660,6 @@ def main()->int:
   "excluded_path_names":sorted(DEFAULT_EXCLUDES|set(args.exclude)),"coverage":{"files_scanned":files,"records_scanned":records,"matching_records_before_file_collapse":raw_match_records,"total_results_before_limit":result_total,"returned_hits":len(hits),"inventory_limitations":dict(scan_stats)},"facets":facet_json,
   "epistemic_note":"status signals and topic co-occurrences are retrieval aids, not authority/currentness/supersession judgments",
   "hits":[asdict(h) for h in hits],"concept_graph":{"edges":[{"source":a,"target":b,"cooccurrence_records":n} for (a,b),n in edges.most_common()]}}
- if args.math_inventory:
-  with (args.out/"MATH_EXPRESSIONS.jsonl").open("w",encoding="utf-8") as fh:
-   for row in math_inventory_rows:fh.write(json.dumps(row,ensure_ascii=False)+"\n")
  (args.out/"SEARCH_RESULTS.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  with (args.out/"SEARCH_RESULTS.jsonl").open("w",encoding="utf-8") as fh:
   for h in hits:fh.write(json.dumps(asdict(h),ensure_ascii=False)+"\n")
