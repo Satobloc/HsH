@@ -546,12 +546,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2669
+            "weight": 6.2676
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.178
+            "weight": 4.1784
           },
           {
             "family": "pseudo-correlation",
@@ -611,12 +611,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2669
+            "weight": 6.2676
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.178
+            "weight": 4.1784
           },
           {
             "family": "pseudo-correlation",
@@ -676,12 +676,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2669
+            "weight": 6.2676
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.178
+            "weight": 4.1784
           },
           {
             "family": "pseudo-correlation",
@@ -741,12 +741,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2669
+            "weight": 6.2676
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.178
+            "weight": 4.1784
           },
           {
             "family": "pseudo-correlation",
@@ -806,12 +806,12 @@
           {
             "family": "source_role",
             "rule": "H12A",
-            "weight": 6.2669
+            "weight": 6.2676
           },
           {
             "family": "path_metadata",
             "rule": "H12B",
-            "weight": 4.178
+            "weight": 4.1784
           },
           {
             "family": "pseudo-correlation",
@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 252.0,
+      "alpha": 257.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 252.0,
+      "alpha": 257.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 50,
-  "run_utc": "2026-10-09T16:36:54.068164+00:00",
+  "run_number": 51,
+  "run_utc": "2026-10-09T21:18:35.379455+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
