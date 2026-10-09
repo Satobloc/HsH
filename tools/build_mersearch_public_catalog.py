@@ -11,7 +11,7 @@ import argparse
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, unquote
 
 DEFAULT_INPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/mersearch/data/catalog.json")
@@ -40,13 +40,15 @@ def safe_source_link(value: object) -> tuple[str, str]:
         return "", ""
     if u.scheme != "https" or u.netloc != "github.com":
         return "", ""
-    parts = u.path.strip("/").split("/")
+    parts = [unquote(part) for part in u.path.strip("/").split("/")]
     if len(parts) < 5 or parts[2] != "blob":
         return "", ""
     repository = parts[0] + "/" + parts[1]
     if repository not in PUBLIC_REPOS:
         return "", ""
-    if any(part in {"PRIOR_ART", "QUARANTINE"} for part in parts):
+    if any(part.upper() in {"PRIOR_ART", "QUARANTINE"} or
+           part in {".", ".."} or ("\\" in part) or ("/" in part)
+           for part in parts):
         return "", ""
     return value, repository
 
