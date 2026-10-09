@@ -25,8 +25,9 @@ The catalog can contain publicly listed conversations from `Satobloc/HsH` and `S
 - [x] Local read-only HTTP/API, public allowlist, origin check and private-source exclusion tests.
 - [x] Static catalog builder unit tests, including URL-encoded quarantine bypass attempts.
 - [x] Static catalog build from a real curated Viewer manifest.
-- [ ] Headless desktop and mobile screenshot/browser interaction QA (GitHub Actions artifact).
-- [ ] Pages full deployment workflow dry run from the merged code, including Viewer catalog rebuild and Pages artifact size.
+- [x] Headless desktop and mobile screenshot/browser interaction QA; GitHub Actions run 37865627374, with screenshots archived in artifact mersearch-desktop-mobile-review.
+- [x] Non-deploying Pages artifact preflight against the resolved public Viewer manifest: 780/780 eligible entries, approximately 1.22 MB catalog, no rejections; run 37865627374. The older lossy catalog rebuild was removed from the deployment workflow.
+- [ ] Actual GitHub Pages deployment and post-merge workflow outcome; release has not been published.
 - [ ] Owner review of publicly listed titles and curation scope; confirm nothing needs withdrawal.
 - [ ] Owner approval to merge PR #10 and run the public Pages deployment.
 - [ ] Post-deployment URL and sample-query checks, plus rollback drill.
