@@ -92,6 +92,13 @@
       const spec=caps.capabilities||caps;
       if(!spec.fields&&!spec.query_operators)throw Error('No Mersearch service');
       state.profile=caps.profile||'local';
+      const sympyOk=spec.math_capabilities?.dependency_sympy==='available';
+      if(!sympyOk){
+        for(const field of ['equiv','contains','value']){
+          const option=$('mathMatchMode').querySelector('option[value="'+field+'"]');
+          if(option){option.disabled=true;option.title='Install SymPy for structural, algebraic and numerical search';}
+        }
+      }
       connection(true,state.profile==='public'?'Public search online':'Local search online');
       try{const c=await api('./api/coverage',{},5000);coverage(c.coverage||c);}
       catch{coverage();}
