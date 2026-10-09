@@ -103,7 +103,9 @@ def math_node(row: dict[str,Any]) -> dict[str,Any]:
         raise M.UnsupportedExpression("Missing repository, path or line provenance")
     date=checked_date(row.get("timestamp"))
     kind=str(row.get("source_kind") or "")
-    direct=date if kind in {"conversation-message","notebooklm-message"} else ""
+    # NotebookLM records are derived exports; even a message timestamp needs
+    # separate provenance review before claiming an original direct attestation.
+    direct=date if kind=="conversation-message" else ""
     unit=unit_hint(raw)
     polykey=exact_polynomial_signature(p)
     numeric=None
