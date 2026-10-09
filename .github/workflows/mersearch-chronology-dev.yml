@@ -6,12 +6,16 @@ on:
     paths:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'WORKSPACES/MERCER/test_mersearch_math.py'
       - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
       - '.github/workflows/mersearch-chronology-dev.yml'
   pull_request:
     paths:
       - 'tools/search_archive_content.py'
       - 'tools/mersearch_chronology.py'
+      - 'tools/mersearch_math.py'
+      - 'WORKSPACES/MERCER/test_mersearch_math.py'
       - 'WORKSPACES/MERCER/test_mersearch_chronology_20261007.py'
       - '.github/workflows/mersearch-chronology-dev.yml'
   workflow_dispatch:
@@ -29,17 +33,24 @@ jobs:
           sparse-checkout: |
             /tools/search_archive_content.py
             /tools/mersearch_chronology.py
+            /tools/mersearch_math.py
+            /WORKSPACES/MERCER/test_mersearch_math.py
             /WORKSPACES/MERCER/test_mercer_searcher_1_0.py
             /WORKSPACES/MERCER/test_mersearch_chronology_20261007.py
           sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Compile search and chronology modules
-        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py
+      - name: Install bounded symbolic mathematics dependency
+        run: python -m pip install 'sympy>=1.12,<2'
+      - name: Compile search, chronology and math modules
+        run: python -m py_compile tools/search_archive_content.py tools/mersearch_chronology.py tools/mersearch_math.py
       - name: Historical 1.0 semantics acceptance
         run: python WORKSPACES/MERCER/test_mercer_searcher_1_0.py
       - name: Chronology and three-archive acceptance
         run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_chronology_20261007.py' -v
       - name: Capability discovery smoke check
         run: python tools/search_archive_content.py --capabilities
+
+      - name: Mathematics semantic and safety acceptance
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_math.py' -v
