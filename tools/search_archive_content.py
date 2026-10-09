@@ -569,6 +569,8 @@ def main()->int:
        "source_line":eq["source_line"],"raw":eq["raw"],"normalized":eq["normalized"],
        "symbols":eq["symbols"],"status":"PARSED_SUPPORTED_SUBSET"},ensure_ascii=False)+"\n")
      math_inventory_count+=1
+   if args.genealogy_only:
+    continue  # no fabricated matching text hits in index-only mode
    who=(rec.speaker or rec.role).casefold()
    if authors and who not in authors:continue
    if roles and rec.role.casefold() not in roles:continue
