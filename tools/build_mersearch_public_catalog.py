@@ -9,9 +9,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit, unquote
+from urllib.parse import urlsplit, unquote, quote
 
 DEFAULT_INPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/mersearch/data/catalog.json")
@@ -68,7 +69,7 @@ def make_catalog(document: dict) -> dict:
         title = source.get("title")
         corpus = source.get("corpus")
         url, repository = safe_source_link(source.get("github_url"))
-        if not (isinstance(ident, str) and ident.isalnum() and len(ident) <= 128
+        if not (isinstance(ident, str) and re.fullmatch(r"[A-Za-z0-9._-]{1,128}", ident)
                 and isinstance(title, str) and title.strip()
                 and corpus in ACCEPTED_CORPORA and url):
             rejected["not_publicly_linkable"] = rejected.get("not_publicly_linkable", 0) + 1
@@ -111,7 +112,7 @@ def make_catalog(document: dict) -> dict:
             "path": str(source.get("path") or "")[:1200],
             "repository": repository,
             "source_url": url,
-            "viewer_url": "../?c=" + ident,
+            "viewer_url": "../?c=" + quote(ident, safe=""),
             "conversation_id": ident,
             "timestamp": timestamp,
             "speaker": "",
