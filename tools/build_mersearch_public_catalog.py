@@ -79,8 +79,8 @@ def make_catalog(document: dict) -> dict:
         counts.add(ident)
         start = iso_day(source.get("start_local"))
         end = iso_day(source.get("end_local"))
-        timestamp = start + "T00:00:00+00:00" if start else ""
         hard = bool(start and source.get("timestamp_source") == "message.create_time")
+        timestamp = start if hard else ""  # Day precision only; never invent 00:00 UTC.
         # A day value is a normalized display date; its source timezone remains
         # recorded in the underlying Conversation Viewer catalog.
         meta = {
