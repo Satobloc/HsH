@@ -7,6 +7,9 @@
 > **Doing SAT/H(s)H theory work? → [BEDROCK.md](BEDROCK.md)**  
 > BEDROCK is the central living premise-state and theory-reference surface. It records what is foundational, working bedrock, tentative, contested, superseded, or Nathan Direct, and routes outward to the primary theory sources. **All substantive theory work begins there and returns there when the premise state changes.**
 >
+> **LLM research workers: search the three SAT/H(s)H archives now → [MERSEARCH WORKER START HERE](WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md)**  
+> Use the verified stable engine or three-repository request bridge, inspect source evidence, and report coverage. Do not substitute one-repository GitHub search for full archive coverage.
+>
 > **Looking for conversations / historical development? → [Conversation Viewer](https://satobloc.github.io/HsH/) / [GLASS — Glass Sausage Factory](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)**  
 > GLASS is the historical SAT archive / working development record. These are archive/provenance lanes. Historical visibility does not confer current theory authority.
 >
