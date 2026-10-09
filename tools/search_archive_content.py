@@ -395,6 +395,7 @@ EXAMPLES=[
  'python tools/search_archive_content.py --expr \'contains:"3/(4*pi)"\'',
  'python tools/search_archive_content.py --expr \'value:"B=0.2387;atol=0.003"\'',
  'python tools/search_archive_content.py --expr \'equiv:"B=3/(4*pi)"\' --math-genealogy --out /tmp/b-lineage',
+ 'python tools/search_archive_content.py --genealogy-only --out /tmp/all-formula-lineages',
  'python tools/search_archive_content.py --archives-root /work --coverage',
 ]
 def discover_archives(base:Path)->tuple[list[Path],list[str]]:
@@ -449,7 +450,7 @@ def describe_capabilities()->dict[str,Any]:
      "archive_date","origin","date_confidence","document_type",
      "retrospective","date_mentioned","repo"],
    "formats":["SEARCH_RESULTS.json","SEARCH_RESULTS.jsonl","SEARCH_RESULTS.csv","SEARCH_RESULTS.md","optional MATH_EXPRESSIONS.jsonl and MATH_GENEALOGY.json"],
-   "genealogy":{"flag":"--math-genealogy","requires":"SymPy","scope":"source-attested recurrence of supported formulae, not causal derivation history","numeric_atol":"--genealogy-atol"},
+   "genealogy":{"flag":"--math-genealogy","standalone_mode":"--genealogy-only (no text query required)","requires":"SymPy","scope":"source-attested recurrence of supported formulae, not causal derivation history","numeric_atol":"--genealogy-atol"},
    "result_modes":["records","files"],"optional_collapse":"--collapse-identical-files (file mode only, byte SHA-256 identity)",
    "sorts":["date","origin","author","title","path"],
    "math_capabilities":MM.capabilities(),
@@ -481,8 +482,12 @@ def main()->int:
  ap.add_argument("--result-mode",choices=["records","files"],default="records",help="records returns matching records; files collapses matching records to one representative hit per source path")
  ap.add_argument("--math-inventory",action="store_true",help="write MATH_EXPRESSIONS.jsonl extraction sidecar with original source locators; slower and bounded")
  ap.add_argument("--math-genealogy",action="store_true",help="also construct MATH_GENEALOGY.json: dated formula recurrence families and explicit, NON-TRANSITIVE numerical relationships")
+ ap.add_argument("--genealogy-only",action="store_true",help="index equations and create MATH_GENEALOGY.json without requiring a keyword query; no text hits")
  ap.add_argument("--genealogy-atol",type=float,default=0.001,help="absolute numeric proximity for genealogy links, not proof of equivalence")
  args=ap.parse_args()
+ if args.genealogy_only:
+  if args.expr or args.query:ap.error("--genealogy-only cannot be combined with --expr/--query")
+  args.math_genealogy=True
  if args.math_genealogy:args.math_inventory=True
  if args.capabilities:
   print(json.dumps(describe_capabilities(),ensure_ascii=False,indent=2));return 0
@@ -500,7 +505,8 @@ def main()->int:
  if args.offset<0 or args.limit<0:ap.error("--offset and --limit must be nonnegative")
  if args.expr:query=args.expr
  elif args.query:query=" OR ".join(f'"{q}"' if " " in q and not q.startswith('"') else q for q in args.query)
- else:ap.error("provide --expr or --query")
+ elif args.genealogy_only:query="__MERSEARCH_INDEX_ONLY_NO_TEXT_MATCHES__"
+ else:ap.error("provide --expr or --query, or --genealogy-only")
  # Parse before scanning so malformed expressions fail fast.
  expression_terms=[token for token in rpn(query) if token.partition(":")[0].casefold() in ("equiv","contains","value")]
  if expression_terms or args.math_inventory:
@@ -674,7 +680,7 @@ def main()->int:
  if args.math_genealogy:
   genealogy=MG.build(args.out/"MATH_EXPRESSIONS.jsonl",atol=args.genealogy_atol,manifest=manifest)
   (args.out/"MATH_GENEALOGY.json").write_text(json.dumps(genealogy,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-  manifest["math_genealogy"]={"generated":True,"path":"MATH_GENEALOGY.json","node_count":len(genealogy["nodes"]),
+  manifest["math_genealogy"]={"generated":True,"index_only":args.genealogy_only,"path":"MATH_GENEALOGY.json","node_count":len(genealogy["nodes"]),
    "family_count":len(genealogy["families"]),"edge_count":len(genealogy["edges"]),
    "scope":"observed formal relations, no documentary/causal derivation claims","statistics":genealogy["statistics"]}
  else:manifest["math_genealogy"]={"generated":False}
