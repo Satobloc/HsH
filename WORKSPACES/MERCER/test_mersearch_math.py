@@ -94,6 +94,19 @@ class SafeMathParsing(unittest.TestCase):
         self.assertEqual(len(matches),2)
         self.assertEqual([x["source_line"] for x in matches],[2,4])
 
+    def test_real_sat_optical_note_approximation_not_projection_identity(self):
+        source=r"\Delta \phi \approx 0.239 \text{ rad}"
+        matches,stats=m.match_source(source,"value","0.239;atol=0.001")
+        self.assertEqual(len(matches),1)
+        self.assertEqual(matches[0]["classification"],"NUMERICALLY_CONSISTENT")
+        self.assertIn("Delta_phi",matches[0]["symbol_names"])
+        self.assertEqual(matches[0]["source_line"],1)
+        # The optical observable must not be silently equated to B.
+        not_same,_=m.match_source(source,"value","B=0.239;atol=0.001")
+        self.assertFalse(not_same)
+        exact,_=m.match_source(source,"equiv","B=3/(4*pi)")
+        self.assertFalse(exact)
+
     def test_latex_nested_fraction(self):
         raw=r"B=\frac{3}{\frac{16}{4}\pi}"
         self.assertTrue(m.algebraically_equivalent(m.parse("B=3/(4*pi)"),m.parse(raw)))
