@@ -21,9 +21,9 @@ from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 import date_conversation_exports as dates
+from conversation_json_sniff import is_json_document_candidate
 
-ALLOWED_SUFFIXES = {".json", ".txt"}
-PRUNE_DIRS = {".git", "PRIOR_ART", "__pycache__", ".pytest_cache"}
+PRUNE_DIRS = {".git", "PRIOR_ART", "QUARANTINE", "__pycache__", ".pytest_cache"}
 
 
 def sha256(path: Path) -> str:
@@ -36,11 +36,11 @@ def sha256(path: Path) -> str:
 
 def walk_candidates(root: Path):
     for current, dirs, files in os.walk(root):
-        dirs[:] = sorted([d for d in dirs if d not in PRUNE_DIRS], key=str.casefold)
+        dirs[:] = sorted([d for d in dirs if d.casefold() not in {p.casefold() for p in PRUNE_DIRS}], key=str.casefold)
         base = Path(current)
         for name in sorted(files, key=str.casefold):
             p = base / name
-            if p.suffix.lower() in ALLOWED_SUFFIXES:
+            if is_json_document_candidate(p):
                 yield p
 
 
@@ -57,7 +57,8 @@ def represented_hashes(root: Path) -> set[str]:
 
 def clean_title(path: Path) -> str:
     name = dates.PREFIX_RE.sub("", path.name, count=1)
-    for suffix in (" — raw.json", " — raw.txt", " — raw - .txt", " — raw - .TXT", ".json", ".txt"):
+    for suffix in (" — raw.json", " — raw.txt", " — raw - .txt", " — raw - .TXT",
+                   " — raw.md", ".json", ".txt", ".md", ".markdown", ".text", ".log", ".raw", ".data"):
         if name.lower().endswith(suffix.lower()):
             name = name[: -len(suffix)]
             break
