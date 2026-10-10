@@ -18,9 +18,15 @@ from pathlib import Path
 from typing import Any, Iterable
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
+try:
+    from .conversation_json_sniff import is_json_document_candidate
+except ImportError:  # direct script execution
+    from conversation_json_sniff import is_json_document_candidate
+
 DEFAULT_ROOT=Path("DEVELOPMENT_FULL_CONVOS"); DEFAULT_TIMEZONE="America/New_York"
 PREFIX_RE=re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
-ALLOWED_SUFFIXES={".json",".txt"}; HUMAN_ROLES={"user","assistant"}
+HUMAN_ROLES={"user","assistant"}
+INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE"}
 
 @dataclass
 class RenameRecord:
@@ -79,8 +85,16 @@ def load_conversation(path:Path)->dict[str,Any]:
     return data
 
 def candidates(root:Path)->Iterable[Path]:
+    """Find valid-looking JSON content in named plaintext document formats.
+
+    This includes .txt/.md/.log/etc and extensionless files. The full JSON
+    parser and conversation-specific timestamp checks remain authoritative.
+    """
     for path in sorted(root.rglob("*")):
-        if path.is_file() and path.suffix.lower() in ALLOWED_SUFFIXES:yield path
+        if any(part.upper() in INDEX_EXCLUDED_DIRS for part in path.relative_to(root).parts[:-1]):
+            continue
+        if is_json_document_candidate(path):
+            yield path
 
 def local_datetime(stamp:float,tz:ZoneInfo)->datetime:
     return datetime.fromtimestamp(stamp,tz=timezone.utc).astimezone(tz)
@@ -93,6 +107,11 @@ def build_records(root:Path,tz:ZoneInfo)->list[RenameRecord]:
         warnings=[]
         try:
             data=load_conversation(path); start,end,source,count,warnings=date_range(data)
+            # A valid JSON document is not necessarily a conversation. Prevent
+            # top-level create_time metadata on arbitrary JSON objects from
+            # triggering date-tagging or public Viewer indexing.
+            if not isinstance(data.get("mapping"),dict) or count<=0:
+                raise ValueError("not a ChatGPT mapping conversation with user/assistant messages")
             start_dt=local_datetime(start,tz); end_dt=local_datetime(end,tz)
             prefix=f"{start_dt:%y.%m.%d}•{end_dt:%y.%m.%d}•"; target=path.with_name(prefix+clean_original_name(path.name))
             status="unchanged" if target==path else "planned"
