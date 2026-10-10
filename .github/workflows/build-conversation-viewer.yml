@@ -10,15 +10,17 @@ on:
   push:
     branches: [main]
     paths:
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.txt'
-      - 'LIVE CONVOS/**/*.json'
-      - 'LIVE CONVOS/**/*.txt'
+      # Actual file contents determine whether a new source is JSON.
+      # Trigger immediately for all extensions, not only .json/.txt.
+      - 'DEVELOPMENT_FULL_CONVOS/**'
+      - 'LIVE CONVOS/**'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
       - 'tools/discover_external_conversations.py'
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/date_conversation_exports.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
