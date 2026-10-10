@@ -26,6 +26,7 @@ except ImportError:  # direct script execution
 DEFAULT_ROOT=Path("DEVELOPMENT_FULL_CONVOS"); DEFAULT_TIMEZONE="America/New_York"
 PREFIX_RE=re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 HUMAN_ROLES={"user","assistant"}
+INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE"}
 
 @dataclass
 class RenameRecord:
@@ -90,6 +91,8 @@ def candidates(root:Path)->Iterable[Path]:
     parser and conversation-specific timestamp checks remain authoritative.
     """
     for path in sorted(root.rglob("*")):
+        if any(part.upper() in INDEX_EXCLUDED_DIRS for part in path.relative_to(root).parts[:-1]):
+            continue
         if is_json_document_candidate(path):
             yield path
 
