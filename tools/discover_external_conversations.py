@@ -66,6 +66,9 @@ def clean_title(path: Path) -> str:
         if name.lower().endswith(suffix.lower()):
             name = name[: -len(suffix)]
             break
+    # A structurally valid JSON conversation may carry any original extension.
+    if path.suffix and name.lower().endswith(path.suffix.lower()):
+        name = name[:-len(path.suffix)]
     return name.strip() or path.stem
 
 
