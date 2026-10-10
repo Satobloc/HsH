@@ -1,0 +1,63 @@
+name: Conversation JSON-by-content indexing acceptance
+
+on:
+  push:
+    branches: [conversation-json-content-detection-20261009]
+    paths:
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/date_conversation_exports.py'
+      - 'tools/discover_external_conversations.py'
+      - 'tools/build_conversation_viewer.py'
+      - 'tools/build_conversation_viewer_resolved.py'
+      - 'tools/search_archive_content.py'
+      - 'tests/test_json_content_indexing.py'
+      - 'tests/test_date_conversation_exports.py'
+      - '.github/workflows/conversation-json-content-ci.yml'
+  pull_request:
+    paths:
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/date_conversation_exports.py'
+      - 'tools/discover_external_conversations.py'
+      - 'tools/build_conversation_viewer.py'
+      - 'tools/build_conversation_viewer_resolved.py'
+      - 'tools/search_archive_content.py'
+      - 'tests/test_json_content_indexing.py'
+      - '.github/workflows/conversation-json-content-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-conversations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile main indexer components
+        run: |
+          python -m py_compile \
+            tools/conversation_json_sniff.py \
+            tools/date_conversation_exports.py \
+            tools/build_conversation_viewer.py \
+            tools/build_conversation_viewer_resolved.py \
+            tools/discover_external_conversations.py \
+            tools/search_archive_content.py
+      - name: All repository unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify required suffix-independent cases
+        run: python -m unittest discover -s tests -p 'test_json_content_indexing.py' -v
+      - name: Smoke: actual first-party manifest remains valid without writing it
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from tools.date_conversation_exports import candidates
+          from tools.build_conversation_viewer import load_json
+          for path in [Path('indexes/manifests/development-conversation-dates.json'),
+                       Path('indexes/manifests/live-conversation-dates.json')]:
+              if path.exists():
+                  assert isinstance(load_json(path).get('records'),list)
+          print('PASS: canonical audit manifests remain read-only')
+          PY
