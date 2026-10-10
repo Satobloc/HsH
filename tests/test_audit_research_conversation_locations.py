@@ -31,6 +31,7 @@ class UnfiledConversationAuditTests(unittest.TestCase):
             (root/root_src).write_text('{"title":"root chat"}',encoding="utf-8")
             (root/loose_src).write_text('{"title":"loose chat"}',encoding="utf-8")
             (root/"QUARANTINE"/"secret — raw.json").write_text('{"title":"secret"}')
+            (root/"DEVELOPMENT_FULL_CONVOS"/"CONVO DOWNLOAD TARGETS.txt").write_text("List of raw conversations to export")
             catalog=root/"CONVERSATION_VIEWER"/"data"/"conversations.json"
             catalog.write_text(json.dumps({"conversations":[{"path":loose_src}]}))
             data=audit(root,catalog)
