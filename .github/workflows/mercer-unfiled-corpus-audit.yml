@@ -1,0 +1,57 @@
+name: Mercer root/unfiled conversation source audit
+
+on:
+  push:
+    branches:
+      - mercer-kerr-er-slab-corpus-20261009
+    paths:
+      - 'tools/audit_research_conversation_locations.py'
+      - 'tests/test_audit_research_conversation_locations.py'
+      - '.github/workflows/mercer-unfiled-corpus-audit.yml'
+  pull_request:
+    paths:
+      - 'tools/audit_research_conversation_locations.py'
+      - 'tests/test_audit_research_conversation_locations.py'
+      - '.github/workflows/mercer-unfiled-corpus-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile metadata-only research auditor
+        run: python -m py_compile tools/audit_research_conversation_locations.py
+      - name: Run synthetic safety and coverage tests
+        run: python -m unittest discover -s tests -p 'test_audit_research_conversation_locations.py' -v
+      - name: Audit real HsH repository tree without changing public Viewer
+        run: |
+          mkdir -p /tmp/mercer-conversation-source-audit
+          python tools/audit_research_conversation_locations.py \
+            --output /tmp/mercer-conversation-source-audit/unfiled-conversation-candidates.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('/tmp/mercer-conversation-source-audit/unfiled-conversation-candidates.json').read_text(encoding='utf-8'))
+          assert data['repository']=='Satobloc/HsH'
+          root=[x for x in data['items'] if x['classification']=='ROOT_OUTSIDE_ORGANIZING_FOLDERS']
+          loose=[x for x in data['items'] if x['classification']=='LOOSE_DEVELOPMENT_CONVERSATION']
+          assert len(root)>=5, 'Root-level raw conversation candidates lost from audit'
+          assert len(loose)>=16, 'Loose development conversations lost from audit'
+          assert all(not x['viewer_catalog_includes_source'] for x in root), 'Recheck public viewer root exposure'
+          assert all('QUARANTINE' not in x['source'] and 'PRIOR_ART' not in x['source'] for x in data['items'])
+          print('PASS: root candidates',len(root),'; loose development candidates',len(loose),
+                '; uncovered candidates',data['statistics'].get('not_in_viewer',0))
+          PY
+      - name: Upload research-only metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mercer-unfiled-candidates-research-only
+          path: /tmp/mercer-conversation-source-audit/unfiled-conversation-candidates.json
+          retention-days: 14
