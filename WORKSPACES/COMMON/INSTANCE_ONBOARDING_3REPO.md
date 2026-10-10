@@ -1,5 +1,7 @@
 # SAT/H(s)H Instance Onboarding — Three-Repository Orientation
 
+> **2026-10-09 Nathan Direct supersession:** Earlier blanket statements here that `PRIOR_ART` cannot be inspected are superseded **only for the scholarly subset** by [the current scoped rule](./NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits. Other external/nLab/braid material may be checked as cited prior art/comparison only **after** SAT/H(s)H internal precedent, never as the starting model. Unrelated private exposure and halted-integration restrictions stay in force.
+
 **Status:** CURRENT / REQUIRED FIRST-PASS ORIENTATION  
 **Current as of:** 2026-09-21  
 **Purpose:** give new, newer, revived, or reassigned instances a fast, safe route into the live project without assuming that all three repositories work the same way.
