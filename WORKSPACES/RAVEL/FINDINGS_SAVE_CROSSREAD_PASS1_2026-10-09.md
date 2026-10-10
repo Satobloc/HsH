@@ -1,0 +1,44 @@
+# Ravel findings save and internal cross-reading, PASS 1 of at most 3
+**Date:** 2026-10-09 EDT. **Status:** cross-reading and internal review inventory, not canonical physics or completed multi-worker review. **Authorship:** Ravel, not Nathan; Nathan authentication is [OWL] only.
+
+## Core model controls
+SAT worldlines plus timesheet/wavefront in Minkowski are foundational. H(s)H adds finite-core worldtubes. Worldlines do not wrap around a carrier. Straight timelike aligned tubes are the candidate ideal vacuum. ER/Kerr tube core, inductive shell, coil selection (including possible Klein cosmology), BEC-like aligned vacuum medium, photon/photoneutrino modes, Pauli mechanism and Kelvin electrogravity remain separate tentative/open hypotheses. External GR/strings are comparators, not assumed SAT mechanisms. Hypothesis H proper and directly Schreiber-authored materials remain strictly off-limits; any other outside prior art requires documented SAT-first precedent and citations. Sources: BEDROCK.md and WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md.
+
+## Ravel substantive findings saved
+1. Oct 8 director-wall/contact model: asymmetrical contact biases, but does not inherently create, retained states. Full continuum equal-energy transition near Λ=11.9; naive bare wall ~4.5082 was wrong; contact-dressed reduced model errors under 1% in four synthetic fixtures. Equal-energy crossing is NOT the dynamical switch/spinodal. Primary Ravel paths: SANDBOX_2026-10-08_CONTACT_DERIVED_DIRECTOR_MEMORY.md; SANDBOX_2026-10-08_CONTACT_DRESSED_WALL_ACTION.md.
+2. Recovered historical SAT 2025 scatter-amp toy: 1+exp(-T ell²) tests assigned weights, not a physical Lorentzian S-matrix. Covariant GR regular-metric light-deflection result and photon orbit are a **GR comparator**, not an H(s)H proof. Path: SANDBOX_2026-10-08_COVARIANT_SCATTERING_METRIC_AUDIT.md.
+3. Oct 9 action-first four-form plus thin GR sheath yields a radially stable *horizonless* ultracompact illustrative solution; four-form/shell is **external comparator**, NOT SAT-derived ER/Kerr core. Path: SANDBOX_2026-10-09_ACTION_FIRST_SHEATH_SCATTERING.md.
+4. Oct 9 strictly Minkowski straight-vs-coiled centerlines: timelike condition (Rk)^2+βz²<1, proper curvature κ4=Rk²/[1-βz²-(Rk)²]; no spontaneous free inertial coiling; local normal-tube criterion ε κ4<1 is not global exclusion/Pauli. Path: SANDBOX_2026-10-09_STRAIGHT_VACUUM_COILING_GATE.md.
+5. Oct 9 finite wavefront slab versus optional causal local material memory gives separable amplitude/phase response in a synthetic kernel; not an empirical Kelvin model or Coulomb derivation. Path: SANDBOX_2026-10-09_MERCER_ER_KERR_TEMPORAL_SUPPORT.md and CODE/temporal_support_two_branch.py.
+
+## Cross-reading, actual peer artifacts
+| Worker, checkpoint(s) read | Supported finding and status | Relevant Ravel follow-up |
+|---|---|---|
+| Meridian: WORKSPACES/MERIDIAN/MERIDIAN_CURRENT_SPINE_2026-10-05.md and SANDBOX_2026-10-07_RUN_37_PG_FLAT_SLICE_ESCAPE_HATCH.md | Schwarzschild admits exactly flat spatial Painlevé–Gullstrand slices with nonzero extrinsic curvature; local deformation/normal-line grammar, no derived preferred SAT foliation (sandbox). | Compare H(s)H radial w/normal transport and GR Kerr, distinguish gauge from geometric observables. |
+| Mercer: WORKSPACES/MERCER/CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md and 2026-10-09_KERR_ER_SLAB_INHERITANCE_AND_ARCHIVE_PASS.md | Candidate ring support has circle intersection, 3D shell worldvolume generically has 2D intersection; no automatic string identity/Pauli; Mersearch coverage still has loose/root indexing gaps (provenance and geometric checks). | Derive actual 4D tube/shell support and source genealogy before outside comparator. |
+| Mercer: SANDBOX_RELATIVE_VELOCITY_IMPULSE_2026-10-09.md, SANDBOX_TWO_COMPLIANT_CORES_2026-10-09.md | Under assumed Lorentzian scalar and vector couplings, rigid transverse impulse ratio 1/γrel; two compliant cores show frequency-dependent internal response and perturbative compliance correction. Carriers NOT derived from SAT (sandbox). | Closest Ravel scattering overlap; integrate finite-radius form factors, recoil and momentum conservation; test matching of real H(s)H contact. |
+| Mercer: SANDBOX_GEOMETRIC_BUCKLING_MEMORY_2026-10-09.md, SANDBOX_DYNAMIC_SHEET_ZERO_MODE_2026-10-09.md, SANDBOX_LOCAL_DERIVATIVE_DIRECTOR_2026-10-10.md | Buckling memory relies on persistent end-shortening; steady timesheet zero mode has limited infinite-time impulse invariance and causal high-k caveat; a Schwarzschild-like director gate is engineered rather than action-derived. | Test whether Ravel's director retention persists under physically free relaxation; stress causal finite-time test and director stability. |
+| Morrow/Kestrel: WORKSPACES/MORROW/2026-10-09_SANDBOX_CODIM2_INTERBRAID_RESCUE.md | Linked 1D circles unlink in R4; codimension-two defect yields conditional topological obstruction ONLY if independent physical constraint exists; sample linking loop fails for filled impenetrable B3 core (verified toy geometry, not force). | ER/Kerr shell must supply real contact constraints to preserve interbraid; no automatic 4D linkage or Pauli. |
+| Morrow/Kestrel: WORKSPACES/MORROW/2026-10-09_SANDBOX_OPEN_HELIX_NORMAL_HOLONOMY.md | Euclidean screw-relative normal holonomy is fragile to axial deformations, and Euclidean normal transport is not automatically Lorentzian Fermi–Walker; no stable Z2 physics established. | Timelike tube transport with physically driven twist/contact, no imposed quotient topology. |
+| Orson: WORKSPACES/ORSON_VAY/OV_20261009_54_FINDINGS_CROSSREAD_REVIEW_GATE.md; OV_20261009_53_ACTIVE_WAVEFRONT_GATE.md | Conditional linear w=ct core exposure geometry, plus OV50/52 local-order elastic memory requiring joint/global minimization. | Compare front *intersection duration* separately from electrodynamic force support and after-front retention. |
+
+## One actual independent review answer: Orson OV-53, limited geometry PASS
+Re-derive in Minkowski via Lorentz transformation ct=γ(cτ+β ξ), where ξ is any fixed longitudinal position inside a rest-frame spacelike core of radius a. For every fixed ξ, a finite fixed ct slab of coordinate thickness Δ gives proper-time exposure Δ/(γ c). The union across ξ∈[-a,a] extends by 2|β|a/c. Fubini integration over normalized nonnegative fixed rest-core weights shows total duration-weighted exposure equals Δ/(γ c), independent of a. Thus OV-53's **linear front, straight uniform rest-core geometric exposure identity checks algebraically**. This does not validate radial fronts, Kerr anisotropic core force, Maxwell memory, causal material law or actual particle physics. Reviewer: Ravel; not independent multi-worker consensus.
+
+## Review status from actually opened HsH issue threads
+| Threads | Observed state 2026-10-09 | Closure |
+|---|---|---|
+| #20, #21, #22 (Ravel scattering hostile reviews) | Open, only initial Ravel circulation/revision comments; no independent verdict posted | UNANSWERED |
+| #11, #12, #13 (Hagalaz hostile reviews) | Open, zero review comments | UNANSWERED |
+| #14–19 (Morrow/Kestrel six comparator reviews) | Open, one Nathan request/priority note each; no written independent technical review in inspected issue threads | UNANSWERED, some HIGH PRIORITY |
+| #23–24 (Whirligig hostile reviews) | Open, author addendum only, no independent verdict in inspected issues | UNANSWERED |
+| #6 (boundary weak-emission review) | Open, zero comments | UNANSWERED |
+| OV-53 (Orson linear slab geometry only) | Independently reconstructed by Ravel from assumptions | CHECKED TOY GEOMETRY ONLY |
+| OV-50/52 (joint director memory minimization), derived H(s)H scattering field, Pauli/exclusion and Kerr shell | Substantive missing derivations/reviews despite useful toy calculation | UNANSWERED |
+
+Open issue does not exclude a response in a not-yet-archived private conversation; DO NOT claim completeness. A GitHub invitation or author note is not a peer verdict. Only mark answered with a specific reviewer artifact or checkable independent calculation and bounded scope.
+
+## Bounded sync PASS 2, then resume research
+Cross-post the table to Common bulletin and Morrow/Kestrel inboxes with one small request: each worker post a one-paragraph receipt of work actually cross-read and state REVIEWED / BLOCKED / UNREAD on their own outstanding assignments, with exact artifact and one defect. Particularly triage Morrow #14–19 high priority, Meridian/Mercer #23–24 and #11–13, Ravel #20–22, Orson OV-53 radial-shell generalization. Do not spawn new scheduler tasks, or defer science until everybody replies. At latest after third turn, return to **SAT straight-vacuum worldtube → physically sourced Kerr/ER shell coiling/contact → timelike two-core scattering**, with Mercer/Orson/Morrow controls integrated.
+
+**Ravel.**
