@@ -48,6 +48,28 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Verify required suffix-independent cases
         run: python -m unittest discover -s tests -p 'test_json_content_indexing.py' -v
+      - name: Reject private and prose-only sources in content detector
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tools.conversation_json_sniff import is_json_document_candidate
+          from tools.date_conversation_exports import build_records
+          from zoneinfo import ZoneInfo
+          from tempfile import TemporaryDirectory
+          import json
+          with TemporaryDirectory() as d:
+              root=Path(d)
+              (root/'QUARANTINE').mkdir()
+              data={'current_node':'m','mapping':{'m':{'parent':None,'message':{'author':{'role':'user'},'create_time':1780000000}}}}
+              (root/'QUARANTINE'/'source.anything').write_text(json.dumps(data))
+              (root/'source.weird').write_text(json.dumps(data))
+              (root/'notes.md').write_text('A Markdown note\\n\\n' + json.dumps(data))
+              assert is_json_document_candidate(root/'source.weird')
+              assert not is_json_document_candidate(root/'notes.md')
+              records=build_records(root,ZoneInfo('America/New_York'))
+              assert len(records)==1 and records[0].old_path.endswith('source.weird')
+          print('PRIVATE_AND_PROSE_GATE_PASS')
+          PY
       - name: Smoke: actual first-party manifest remains valid without writing it
         run: |
           python - <<'PY'
