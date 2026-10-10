@@ -102,9 +102,11 @@ class JsonContentIndexingTests(unittest.TestCase):
     def test_resolved_catalog_accepts_original_unusual_extension(self):
         p = self.write("Earliest SAT conversation.backup")
         record = dates.build_records(self.root, TIMEZONE)[0]
-        self.assertEqual(resolved.existing_canonical_path(record.__dict__), str(p))
+        selected_path = resolved.existing_canonical_path(record.__dict__)
+        self.assertEqual(selected_path, str(p))
         item = viewer.normalize_record(
-            dict(record.__dict__, status="unchanged"), "development", "Satobloc", "HsH", "main"
+            dict(record.__dict__, new_path=selected_path, status="unchanged"),
+            "development", "Satobloc", "HsH", "main"
         )
         self.assertEqual(item["source_format"], "json")
         self.assertEqual(item["source_extension"], ".backup")
