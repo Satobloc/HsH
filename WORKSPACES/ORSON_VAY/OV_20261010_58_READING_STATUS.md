@@ -1,3 +1,3 @@
 # Orson cognition reading checkpoint
 
-Primary readings completed; formal test executed. Detailed local artifact pending repository access.
+Primary readings complete. Four-world check passed. No LLM trials.
