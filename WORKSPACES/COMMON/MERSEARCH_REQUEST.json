@@ -1,17 +1,19 @@
 {
-  "request_id": "2026-10-08-ravel-deformable-contact-backreaction-001",
-  "requester": "Ravel",
-  "requested_at": "2026-10-08",
+  "request_id": "2026-10-10-orson-one-drop-universe-math-001",
+  "requester": "Orson Vay",
+  "requested_at": "2026-10-10",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-    "Satobloc/HsH"
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
   ],
-  "query": "((deformable contact OR compliant sleeve OR elastic pad OR contact edge OR contact backreaction) AND (director OR twist OR domain wall OR kink OR finite core)) OR ((worldtube pressure OR nesting OR contact boundary) AND (deformation OR force balance OR coupled field))",
-  "purpose": "Recover prior constructions relevant to deriving a contact window from deformable-pad force balance and testing contact/director backreaction against the annular-contact null.",
+  "query": "path:*ONE*DROP*UNIVERSE* AND (Lagrangian OR equation OR operator OR matrix OR tensor OR Hamiltonian OR \"SU(3)\" OR \"SO(4)\" OR braid OR torsion OR helix OR nuclear OR symmetry)",
+  "purpose": "Recover mathematical constructions, notation, nuclear-physics material, and potentially reusable operator representations from Nathan-selected [🗄️] 🍩 ONE DROP UNIVERSE, with exact provenance before theory reuse.",
   "preferred_outputs": [
     "exact file paths",
-    "line ranges",
+    "message/record locators",
     "short excerpts",
+    "equation-bearing passages",
     "provenance labels"
   ],
   "status": "requested"
