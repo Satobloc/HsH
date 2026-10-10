@@ -1,0 +1,3 @@
+# Meridian transport control, 2026-10-10
+
+SANDBOX. Flat Minkowski Fermi-Walker transport along two accelerated timelike curves with shared endpoint events and shared endpoint velocities gives opposite signed director-return angles of +0.217715489785 and -0.217715489785 radians. A straight curve returns zero. This is path-dependent observer-frame transport, not Levi-Civita curvature. The independent numerical ODE and Thomas-angle quadrature agree to about 1e-13 rad. The full script and derivation are retained in the current Meridian task thread. Actual common Hagalaz interface ingestion remains open.
