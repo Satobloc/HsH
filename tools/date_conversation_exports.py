@@ -11,7 +11,7 @@ A collision is isolated to the affected source by default: unrelated safe
 renames still proceed. Use --atomic to retain the older all-or-nothing behavior.
 """
 from __future__ import annotations
-import argparse, json, re, sys
+import argparse, hashlib, json, re, sys
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -101,7 +101,23 @@ def local_datetime(stamp:float,tz:ZoneInfo)->datetime:
 
 def clean_original_name(name:str)->str:return PREFIX_RE.sub("",name,count=1)
 
-def build_records(root:Path,tz:ZoneInfo)->list[RenameRecord]:
+def safe_collision_target(path:Path,target:Path,reserved:dict[Path,Path])->Path:
+    """Preserve both sources when the desired date-prefixed name is occupied.
+
+    The reproducible content fingerprint identifies the alternative without
+    changing the date prefix or overwriting either source. A numeric suffix
+    resolves even identical-source-byte collisions deterministically.
+    """
+    fingerprint=hashlib.sha256(path.read_bytes()).hexdigest()[:10]
+    for sequence in range(1,1001):
+        suffix=f" [collision-{fingerprint}" + (f"-{sequence}]" if sequence>1 else "]")
+        alternate=target.with_name(target.stem+suffix+target.suffix)
+        if alternate!=path and not alternate.exists() and alternate not in reserved:
+            return alternate
+    raise ValueError("no available collision-safe date-prefixed filename")
+
+
+def build_records(root:Path,tz:ZoneInfo,resolve_collisions:bool=False)->list[RenameRecord]:
     records=[]; proposed_targets={}
     for path in candidates(root):
         warnings=[]
@@ -115,11 +131,16 @@ def build_records(root:Path,tz:ZoneInfo)->list[RenameRecord]:
             start_dt=local_datetime(start,tz); end_dt=local_datetime(end,tz)
             prefix=f"{start_dt:%y.%m.%d}•{end_dt:%y.%m.%d}•"; target=path.with_name(prefix+clean_original_name(path.name))
             status="unchanged" if target==path else "planned"
-            if target!=path and target.exists():
-                status="collision"; warnings.append("Target path already exists")
-            elif target in proposed_targets and proposed_targets[target]!=path:
-                status="collision"; warnings.append(f"Another source proposes the same target: {proposed_targets[target]}")
-            else:proposed_targets[target]=path
+            occupied = target!=path and (
+                target.exists() or (target in proposed_targets and proposed_targets[target]!=path)
+            )
+            if occupied and resolve_collisions:
+                target=safe_collision_target(path,target,proposed_targets)
+                warnings.append("Date-prefixed target occupied; preserved both sources using collision fingerprint")
+                status="planned"
+            elif occupied:
+                status="collision"; warnings.append("Target path already exists or is reserved")
+            if status!="collision":proposed_targets[target]=path
             records.append(RenameRecord(str(path),str(target),start_dt.isoformat(),end_dt.isoformat(),source,count,status,warnings))
         except (OSError,UnicodeError,json.JSONDecodeError,ValueError) as exc:
             records.append(RenameRecord(str(path),None,None,None,None,0,"skipped",[str(exc)]))
@@ -138,6 +159,7 @@ def parse_args()->argparse.Namespace:
     p.add_argument("--timezone",default=DEFAULT_TIMEZONE); p.add_argument("--manifest",type=Path,default=Path("conversation-rename-manifest.json"))
     p.add_argument("--apply",action="store_true",help="perform safe planned renames")
     p.add_argument("--atomic",action="store_true",help="with --apply, block all renames if any collision exists (legacy behavior)")
+    p.add_argument("--resolve-collisions",action="store_true",help="preserve both files using deterministic content-fingerprint suffixes when date-prefixed names collide")
     return p.parse_args()
 
 def main()->int:
@@ -145,7 +167,7 @@ def main()->int:
     if not args.root.is_dir():print(f"error: directory not found: {args.root}",file=sys.stderr);return 2
     try:tz=ZoneInfo(args.timezone)
     except ZoneInfoNotFoundError:print(f"error: unknown timezone: {args.timezone}",file=sys.stderr);return 2
-    records=build_records(args.root,tz); blockers=[r for r in records if r.status=="collision"]
+    records=build_records(args.root,tz,resolve_collisions=args.resolve_collisions); blockers=[r for r in records if r.status=="collision"]
     if args.apply and args.atomic and blockers:
         for r in records:
             if r.status=="planned":r.status="blocked";r.warnings.append("Atomic mode: no files renamed because at least one collision exists")
