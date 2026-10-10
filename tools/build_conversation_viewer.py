@@ -47,7 +47,9 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def canonical_path(record: dict[str, Any]) -> str | None:
     candidate = record.get("new_path") or record.get("old_path")
-    if not isinstance(candidate, str) or Path(candidate).suffix.lower() not in SUPPORTED_CONVERSATION_SUFFIXES:
+    # This path came from a successfully parsed and dated conversation record.
+    # Never use the filename suffix as a second, contradictory format gate.
+    if not isinstance(candidate, str) or not candidate.strip():
         return None
     return candidate.replace("\\", "/")
 
@@ -56,7 +58,7 @@ def display_title(path: str) -> str:
     name = Path(path).name
     name = DATE_PREFIX_RE.sub("", name, count=1)
     name = RAW_SUFFIX_RE.sub("", name)
-    if Path(name).suffix.lower() in SUPPORTED_CONVERSATION_SUFFIXES:
+    if Path(name).suffix:
         name = str(Path(name).with_suffix(""))
     return name.strip() or Path(path).stem
 
