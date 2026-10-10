@@ -91,7 +91,11 @@ jobs:
           paths = [x['path'] for x in data['conversations']]
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
-          assert all(Path(x['path']).suffix.lower() in {'.json', '.txt'} or x.get('external') for x in data['conversations'])
+          from tools.conversation_json_sniff import is_json_document_candidate
+          assert all(
+              x.get('external') or is_json_document_candidate(Path(x['path']))
+              for x in data['conversations']
+          ), 'catalog contains non-JSON first-party source'
           missing_paths = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
           assert not missing_paths, f'viewer catalog contains missing repository source paths: {missing_paths}'
 
