@@ -20,10 +20,6 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
-try:
-    from .conversation_json_sniff import PLAINTEXT_JSON_SUFFIXES
-except ImportError:  # direct script execution
-    from conversation_json_sniff import PLAINTEXT_JSON_SUFFIXES
 
 DEFAULT_DEV = Path("indexes/manifests/development-conversation-dates.json")
 DEFAULT_LIVE = Path("indexes/manifests/live-conversation-dates.json")
@@ -33,7 +29,6 @@ DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
 DEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")
 DATE_PREFIX_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.(?:json|txt)$", re.I)
-SUPPORTED_CONVERSATION_SUFFIXES = PLAINTEXT_JSON_SUFFIXES
 OMISSION_TEXT = "[Omitted from the public Conversation Viewer by a curation rule.]"
 
 
