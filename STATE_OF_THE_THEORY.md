@@ -5,6 +5,8 @@
 **Authority:** descriptive routing surface subordinate to [BEDROCK.md](BEDROCK.md) and newer Nathan Direct.  
 **Purpose:** answer, quickly and conservatively, **where the theory is now, what is live, what is inherited, what is being built, and what is not yet closed.**
 
+> **2026-10-09 source/control update:** [Nathan Direct internal-first foundation, ER/Kerr working hypothesis, straight vacuum baseline, coil-formation question and narrowed hard exclusions](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md). This supersedes older blanket PRIOR_ART access instructions for *individually cleared nonrestricted sources only*. Hypothesis H proper and direct Schreiber-authored sources remain off-limits. The wavefront-local vs persistent-medium EM fork remains open.
+
 > **Read [BEDROCK.md](BEDROCK.md) first for premise authority.** This document is the current map of the research programme, not an independent source of bedrock and not a substitute for primary sources.
 
 > **Current lead co-theorist updates:** [Running Co-theorist Log](!!_RUNNING_COTHEORIST_LOG.md) → current Ravel/live-theory update feed. It is an **intake/visibility surface, not theory authority**. New entries remain sandbox/open/tentative as appropriate until bounded source/status review changes BEDROCK or materially changes this state map.
