@@ -179,6 +179,14 @@ Use this template:
 
 **October 9 amendment:** [Nathan Direct internal-first source and model directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) controls the conditional prior-art release and continuing source restrictions. Earlier blanket exclusion language below is retained as historical text where not yet reconciled.
 
+### ND-2026-10-09-02 — Straight vacuum filament and partial prior-art access release
+
+- **Authority:** Direct user cross-post, October 9, 2026, signed with signet represented **only** as `[OWL]`; raw conversation/message IDs pending archive.
+- **Model clarification:** A SAT worldline does *not* wrap around a carrier. H(s)H extends it as a finite-core worldtube. Straight aligned tube is the conjectured ideal vacuum limit: 90° to timesheet / 0° from time normal and propagation; current BR-005 `θ₄=0` applies. Possible vacuum worldtube ocean, condensate-like organization, photon/photoneutrino traveling excitations, ER/Kerr core/ring/sheath and the cosmological origin of coil formation remain separately **TENTATIVE/OPEN**, not experimentally demonstrated.
+- **Quarantine override (SCHOLARLY PRIOR ART):** The former **blanket** hard exclusion of `PRIOR_ART` is lifted for other outside materials **only after** tracing and citing SAT/H(s)H-internal precedents. Outside/nLab/braid sources are comparisons, bibliographic/mainstream-legibility aids, not default H(s)H foundations. **Hypothesis H proper and directly Schreiber-authored materials stay strictly off-limits.** When attribution is uncertain, refrain from access. This does not silently waive distinct private material, stopped-integration or exposure rules.
+- **Source:** [Nathan-direct scope/routing note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Underlying signed user message is controlling; this entry is an indexed summary.
+- **Updates:** supersedes section 8's blanket `PRIOR_ART` prohibition *only in the above limited scholarly sense*; modifies ND-2026-10-09-01 and OC-002; preserves BR-000/001 ancestry. No physical claim is promoted by this document.
+
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
 Use this template:
