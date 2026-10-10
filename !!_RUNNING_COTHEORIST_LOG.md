@@ -8,6 +8,22 @@
 
 ---
 
+## 2026-10-09 — Nathan-direct correction: straight vacuum core, coiling gate, reference access
+
+**Direct source:** current signed user cross-post from Nathan, authentication signet rendered only as `[OWL]`, raw message ID pending. **Status:** ND (interpretation/workflow controls); Kerr/ER, Klein coiling driver, BEC-like sea and photon/photoneutrino modes remain TENTATIVE.
+
+**Inherited SAT:** worldline and time wavefront, not a worldline wrapped around any separate core or carrier. Straight timelike history parallel to time propagation / normal and perpendicular to timesheet is the candidate perfect-vacuum reference, with current θ₄ = 0 measured from normal. A population of aligned straight tubes may be the medium for traveling photon/photoneutrino-like excitations; collectivity/condensation remains conjectural.
+
+**New H(s)H anatomy:** finite-core worldtube conjectured as ER/Kerr-like singular-support tube with inductively active Kerr shell boundaries. “Kerr ring” denotes a possible **intersectional trace**, not a circular object the worldline wraps around. Pauli exclusion requires a quantum-statistical derivation independent of steric contact.
+
+**Mathematical discriminator (Ravel, not a new fact of nature):** strict Minkowski timelike helix with transverse excursion R and coordinate wavenumber k needs `(Rk)^2+beta_z^2<1`, and proper curvature `kappa_4 = R k²/[1-beta_z²-(Rk)²]`. A free straight inertial worldline has `kappa_4=0`; persistent coiling requires an independently sourced constraint/interaction. Candidate Fermi normal neighborhood of thickness epsilon has local condition `epsilon*kappa_4<1`, NOT a Pauli rule. [Derivation](WORKSPACES/RAVEL/SANDBOX_2026-10-09_STRAIGHT_VACUUM_COILING_GATE.md).
+
+**Reference restriction override:** Nathan partially lifted the *scholarly* PRIOR_ART hard quarantine, except **Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits**. Other nLab/braid materials require strict internal SAT/H(s)H historical-source search/citation **first**, with external scholarship thereafter as bibliography/convergence/prior-art comparison, not theory foundations. Independent privacy/Integration constraints unchanged. [Authority+coverage note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md); updates propagated to BEDROCK/front door.
+
+**Source status:** original SAT *Fundamental Intuitions* readable text and historic *RMS Spacetime Filaments* reread, but *Extended* FIE PDF and large canonical RMS not materially extracted because the bounded connector read path did not return usable text. Both remain reread cursors. No outside PRIOR_ART consulted this turn.
+
+---
+
 ## 2026-09-16 — θ₄, winding, and bosonic identity
 
 ### θ₄ baseline
