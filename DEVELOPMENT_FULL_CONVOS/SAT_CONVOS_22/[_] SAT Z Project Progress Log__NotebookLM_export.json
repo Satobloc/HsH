@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "notebook_title": "[_] SAT Z Project Progress Log",
+    "notebook_id": "7f3cad01-fa86-4fb1-81ab-365958f6c52e",
+    "notebook_url": "https://notebook.google.com/notebook/7f3cad01-fa86-4fb1-81ab-365958f6c52e?authuser=4",
+    "captured_at": "2026-10-10T12:30:45.231Z",
+    "visible_source_count": 19,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": false,
+    "scans": 6
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What’s the core equation for SAT",
+      "citations": [],
+      "key": "c78e0e55"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The SAT framework does not rely on a single isolated equation but is built upon a minimal core ontology of five fundamental mathematical expressions that define the behavior of reality\n1\n. The most central dynamical engine of the theory is the \"Mark IV.2\" Core Lagrangian, which describes how the fields θ\n4\n\t​\n\n and u\nμ\n interact to produce mass and gravity\n2\n3\n.\nThe Core Dynamical Lagrangian\nThe Mark IV.2 Lagrangian is expressed in natural units as:\nL=\n2\n1\n\t​\n\n(∂\nμ\n\t​\n\nθ\n4\n\t​\n\n)\n2\n−μ\n2\ncos3θ\n4\n\t​\n\n+α(∂\nμ\n\t​\n\nu\nν\n\t​\n\n)\n2\n+βsin\n2\nθ\n4\n\t​\n\n∇⋅u\n2\nmore_horiz\nThis equation is subject to the unit-timelike constraint, which requires that the vacuum flow vector u\nμ\n always maintains a fixed length:\nu\nμ\nu\nμ\n\t​\n\n=−1\n3\n5\n.\nThe Five Ontological Roots\nThe sources identify five specific equations as the irreducible mathematical \"roots\" from which the rest of the theory unfolds\n1\n:\nThe Click-Envelope Field: τ(x)=∂\nμ\n\t​\n\nu\nμ\n(x). This defines the local tension in the time-surface and the rate of \"ontic actualization\"\n6\n.\nThe ψ Field: ψ(x)∈S\n1\n. A scalar field on a unit circle encoding directional phase memory and holonomy\n5\n.\nTime-Surface Directionality: u\nμ\nu\nμ\n\t​\n\n=−1. This replaces the metric curvature of General Relativity with a directional vacuum flow\n5\n7\n.\nThe Ontic Action Integral: o=\nE\n^\n⋅\nA\n^\n⋅\nR\n^\n(x\n0\n\t​\n\n)⋅∮\nC\n\t​\n\nJ\nμ\n\t​\n\ndx\nμ\n⋅(⨁\ni=1\nn\n\t​\n\nV\ni\n\t​\n\n). This formula describes the emergence of an entity (o) through directed energy, attention, reference frames, and memory-tension currents\n7\n8\n.\nThe SAT Lagrangian: L\nSAT\n\t​\n\n=f(τ(x),ψ(x),∂\nμ\n\t​\n\nψ,u\nμ\n). This is the functional that encapsulate the dynamics of tension, phase, and directionality\n9\n.\nFoundational Phenomenological Laws\nBeyond the Lagrangian, two laws are frequently cited as the \"spine\" of SAT’s predictive power\n10\n:\nThe Click-Rate Law: f\nclick\n\t​\n\n(x)=ηsin\n2\nθ\n4\n\t​\n\n(x)f(ψ(x)). This relates geometry to the flow of proper time and is the mechanism through which inertial mass is instantiated\n11\n12\n.\nThe Energy–Tension Axiom: E=∫ηsin\n2\nθ\n4\n\t​\n\n∇⋅ud\n3\nx. Often described as the SAT analogue to E=mc\n2\n, it asserts that energy is stored as tension within the foliation of the time-surface\n11\nmore_horiz\n.\n\n--------------------------------------------------------------------------------\n\nAnalogy: Imagine the universe is a taut silk sheet drifting steadily forward\n15\n. Every particle is a steel guitar string skewered through that sheet\n16\n. The \"core equation\" is the rule that tells you how much the sheet dimples when you tilt the string; the steeper the tilt (θ\n4\n\t​\n\n), the more tension you store, and the heavier the note (mass) that clicks into existence\n17\n18\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "4599ff4e"
+    }
+  ],
+  "sources": [],
+  "studio": [],
+  "capture_log": []
+}
