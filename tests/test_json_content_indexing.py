@@ -106,9 +106,10 @@ class JsonContentIndexingTests(unittest.TestCase):
 
     def test_non_conversation_json_is_not_mislabeled(self):
         self.write("unrelated.markdown", obj={"schema_version": 3, "created_at": 1780000000})
+        self.write("unrelated-with-dates.json", obj={"create_time": 1780000000, "update_time": 1780000020})
         records = dates.build_records(self.root, TIMEZONE)
-        self.assertEqual(len(records), 1)
-        self.assertEqual(records[0].status, "skipped")
+        self.assertEqual(len(records), 2)
+        self.assertTrue(all(r.status == "skipped" and not r.new_path for r in records))
 
     def test_resolved_catalog_accepts_original_unusual_extension(self):
         p = self.write("Earliest SAT conversation.backup")
