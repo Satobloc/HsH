@@ -3,6 +3,8 @@
 **Status:** binding correction of modeling scope; not a completed new physical model.  
 **Author of the cross-posted statements:** Nathan. This note is Ravel's operational response and must not be misrepresented as Nathan-authored.
 
+> **NEWER NATHAN-DIRECT SCOPE REFINEMENT 2026-10-09:** Straight time-normal-aligned H(s)H tube is the candidate ideal vacuum; coiling is not wrapping around anything and requires a mechanism. Kerr core/ER and its shell/exclusion role remain tentative. BEC-like aligned-vacuum medium and photon/photoneutrino excitations are inherited SAT routes. Blanket scholarly PRIOR_ART ban is *partially lifted*, while Hypothesis H proper and directly Schreiber-authored items remain strictly off-limits; other outside works are cited comparisons only after SAT-first source audit. This overrides old quarantine wording below. [Updated directive](../COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md).
+
 ## Correction received
 Nathan's cross-post says, in substance:
 - **SAT = worldlines; H(s)H = worldtubes.** Don't replace the mapped object with made-up triangular vertices or other carriers.
