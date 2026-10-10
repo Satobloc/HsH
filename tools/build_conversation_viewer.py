@@ -20,6 +20,11 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+try:
+    from .conversation_json_sniff import PLAINTEXT_JSON_SUFFIXES
+except ImportError:  # direct script execution
+    from conversation_json_sniff import PLAINTEXT_JSON_SUFFIXES
+
 DEFAULT_DEV = Path("indexes/manifests/development-conversation-dates.json")
 DEFAULT_LIVE = Path("indexes/manifests/live-conversation-dates.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
@@ -28,7 +33,7 @@ DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
 DEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")
 DATE_PREFIX_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.(?:json|txt)$", re.I)
-SUPPORTED_CONVERSATION_SUFFIXES = {".json", ".txt"}
+SUPPORTED_CONVERSATION_SUFFIXES = PLAINTEXT_JSON_SUFFIXES
 OMISSION_TEXT = "[Omitted from the public Conversation Viewer by a curation rule.]"
 
 
@@ -84,6 +89,8 @@ def normalize_record(record: dict[str, Any], corpus: str, owner: str, repo: str,
         "start_local": record.get("start_local"),
         "end_local": record.get("end_local"),
         "message_count": count,
+        "source_format": "json",
+        "source_extension": Path(path).suffix.lower() or "(none)",
         "timestamp_source": record.get("timestamp_source"),
         "warnings": record.get("warnings") or [],
         "raw_url": f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{encoded}",
