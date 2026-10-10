@@ -111,6 +111,29 @@ class JsonContentIndexingTests(unittest.TestCase):
         self.assertEqual(item["path"], str(p).replace("\\", "/"))
         self.assertEqual(item["message_count"], 2)
 
+    def test_curated_json_in_txt_preserves_message_coordinates(self):
+        p = self.write("public-source.txt")
+        item = {
+            "id": "source123",
+            "title": "Public source",
+            "path": str(p),
+            "message_count": 2,
+        }
+        output = self.root / "curated"
+        n, omitted = viewer.write_curated_copy(
+            item,
+            {"visibility": "public", "omit_ranges": [(2, 2)], "only_ranges": [],
+             "note": "Test omission"},
+            output,
+        )
+        self.assertEqual(n, 2)
+        self.assertEqual(omitted, 1)
+        derived = json.loads((output / "source123.json").read_text(encoding="utf-8"))
+        self.assertEqual([x["source_message"] for x in derived["messages"]], [1, 2])
+        self.assertFalse(derived["messages"][0]["omitted"])
+        self.assertTrue(derived["messages"][1]["omitted"])
+        self.assertIn("Omitted from the public", derived["messages"][1]["content"])
+
     def test_json_in_plaintext_is_structured_in_main_mersearch(self):
         p = self.write("structured-messages.txt")
         parsed = list(search.iter_records(p))
