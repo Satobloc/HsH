@@ -2,13 +2,16 @@
 
 **Effective 2026-10-09. Direct user instruction:** SAT/H(s)H LLM workers **should be using Mersearch now** for archive archaeology, source recovery, prior calculations, theory history, provenance, and source-first mathematical work. It is an active shared tool, not a future idea. **Search before claiming a construction is absent, novel, unrecoverable or superseded.**
 
+**Additional controlling Nathan Direct, 2026-10-09:** Read [internal-first SAT, FIE/RMS, and restricted-source rules](NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md). Before consulting outside prior art, find/cite and examine SAT/H(s)H precedent and develop its internal implications first. *No Hopf/spherical carrier is imported.* **Hypothesis H proper and directly Schreiber-authored content stay off-limits** even if mirrored. Other formerly quarantined comparisons need *per-item* clearance. The searcher's automatic `PRIOR_ART`/`QUARANTINE` exclusions remain intentionally unchanged: do **not** bypass with a blanket index or publish them. The nlab Mersearch port is stand-alone and is not an interoperability bridge.
+
+
 ## The 15-second rule
 
 **Default: search ALL THREE permitted repositories together.**
 
 1. `Satobloc/SAT_THEORY_ARCHIVE_2023-25` (original SAT / GLASS)
 2. `Satobloc/HsH` (H(s)H, full conversations and current work)
-3. `Satobloc/HSH_RESOURCES` (supporting public resources)
+3. `Satobloc/HSH_RESOURCES` (private/internal reference resources and toolkit; **not** a public search corpus or theory authority)
 
 Treat `PRIOR_ART` and `QUARANTINE` as excluded. Do not silently limit a historical search to one archive. If one source is unavailable, **state which repository was missing** and report that results are **partial**. Repository names alone do not establish access rights; follow actual permissions and source classification.
 
@@ -54,6 +57,12 @@ author:user AND (worldtube NEAR/12 holonomy)
 Stable search supports Boolean `AND`/`OR`/`NOT`, parentheses, quoted phrases, `NEAR/n`, `author:`, `role:`, `body:`, `math:`, `title:`, `date:`, `name:`, `path:`, `status:` and path/name globs. The mathematical mode normalizes notation but does **not** prove algebraic equivalence. Search several alternate mathematical forms; don't pretend automatic CAS exists.
 
 **LLMs must discover available capabilities.** On the development branch, start with `--capabilities`. On stable 1.0, read `WORKSPACES/COMMON/MERSEARCH_RELEASES.md` and `--help`; do not assume later flags exist. Never guess a filter name.
+
+## Required researcher reading and provenance cycle (October 9)
+
+Each substantive theory-source pass should consult [FIE](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20FUNDAMENTAL%20INTUITIONS%20%E2%80%94%20EXTENDED.pdf) and relevant [RMS primary sources](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/RMS%20THE%20FRAMEWORK.txt) periodically, plus randomly or systematically sampled **older SAT files**. Search HsH *nested development folders, loose exports, LIVE CONVOS, root files and miscellaneous CONVOS locations*, not only the conventional `SAT_CONVOS_*` folders. Note exactly which documents were *read*, *searched*, *metadata-inventoried* or *unavailable*. Log new source-located equations and share concise cross-worker insights through Common Room. Early terminology and apparently failed constructions must be reconstructed before replacement mechanisms are invented.
+
+For any proposed external crosswalk, maintain this sequence: **SAT source search → exact SAT citations → internal reconstruction/test → nonrestricted prior-art source review → comparator citation only**. The new amendment does not authorize access to the two remaining forbidden classes, indiscriminate private source indexing, or changing public search allowlists.
 
 ## Historical provenance
 
