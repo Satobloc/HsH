@@ -2,14 +2,14 @@
   "generated_by": "WORKSPACES/COMMON/scripts/package_nathan_direct.py",
   "status": "UNSORTED-BUT-TAGGED NATHAN DIRECT SUBSTRATE",
   "authority_note": "Raw user authorship is verified by source role metadata; machine tags are retrieval aids and do not confer theory authority.",
-  "input_records": 134147,
-  "input_user_records": 39281,
-  "packaged_unique_user_messages": 19176,
-  "archive_duplicate_user_records_collapsed": 20105,
-  "context_dependent_inherited_tag_records": 18449,
+  "input_records": 134782,
+  "input_user_records": 39580,
+  "packaged_unique_user_messages": 19443,
+  "archive_duplicate_user_records_collapsed": 20137,
+  "context_dependent_inherited_tag_records": 18697,
   "records_missing_conversation_or_message_id": 0,
-  "records_with_resolved_parent_graph_pointer": 18443,
-  "records_with_child_graph_pointer": 12375,
+  "records_with_resolved_parent_graph_pointer": 18699,
+  "records_with_child_graph_pointer": 12628,
   "shards": [
     {
       "year": "2023",
@@ -19,22 +19,22 @@
     {
       "year": "2024",
       "path": "indexes/nathan-direct/nathan-direct-2024.jsonl",
-      "records": 308
+      "records": 497
     },
     {
       "year": "2025",
       "path": "indexes/nathan-direct/nathan-direct-2025.jsonl",
-      "records": 7543
+      "records": 7588
     },
     {
       "year": "2026",
       "path": "indexes/nathan-direct/nathan-direct-2026.jsonl",
-      "records": 11020
+      "records": 11053
     }
   ],
   "lookup": {
     "path": "indexes/nathan-direct/nathan-direct-lookup.jsonl",
-    "records": 19176,
+    "records": 19443,
     "key": [
       "conversation_id",
       "message_id"
