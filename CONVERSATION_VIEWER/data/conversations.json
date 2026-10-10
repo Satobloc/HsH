@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_state_at_utc": "2026-10-10T01:26:23.157422+00:00",
+  "source_state_at_utc": "2026-10-10T04:15:42.094362+00:00",
   "repository": "Satobloc/HsH",
   "branch": "main",
   "design": "manifest-only by default; derived viewer copies only for partially curated conversations",
@@ -24,7 +24,7 @@
       "status": "loaded",
       "records": 1016,
       "accepted_json_conversations": 749,
-      "source_generated_at_utc": "2026-10-10T01:26:22.590171+00:00"
+      "source_generated_at_utc": "2026-10-10T04:15:41.573026+00:00"
     },
     {
       "path": "indexes/manifests/live-conversation-dates.json",
@@ -32,7 +32,7 @@
       "status": "loaded",
       "records": 14,
       "accepted_json_conversations": 14,
-      "source_generated_at_utc": "2026-10-10T01:26:23.157422+00:00"
+      "source_generated_at_utc": "2026-10-10T04:15:42.094362+00:00"
     },
     {
       "path": "CONVERSATION_VIEWER/data/discovered_external_conversations.json",
@@ -12483,7 +12483,7 @@
     },
     {
       "id": "a76d85c95628",
-      "title": "Exploring Cosmos through Mind.",
+      "title": "Exploring Cosmos through Mind",
       "path": "DEVELOPMENT_FULL_CONVOS/24.03.14•24.03.14•Exploring Cosmos through Mind. — raw.json",
       "corpus": "development",
       "start_local": "2024-03-14T17:44:13.553742-04:00",
@@ -12787,7 +12787,7 @@
     },
     {
       "id": "20e6aa77c32b",
-      "title": "Notation for Set Theory.",
+      "title": "Notation for Set Theory",
       "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/23.04.25•23.04.25•Notation for Set Theory. — raw.json",
       "corpus": "development",
       "start_local": "2023-04-25T15:01:59.025246-04:00",
