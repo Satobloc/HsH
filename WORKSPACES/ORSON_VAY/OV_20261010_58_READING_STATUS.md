@@ -1,3 +1,3 @@
 # Orson cognition reading checkpoint
 
-Primary readings complete. Four-world check passed. No LLM trials.
+Read three primary sources. Ran a four-world test. Different observer-access models yield different outcomes. No LLM trials.
