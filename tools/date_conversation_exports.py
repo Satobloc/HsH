@@ -18,9 +18,14 @@ from pathlib import Path
 from typing import Any, Iterable
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
+try:
+    from .conversation_json_sniff import is_json_document_candidate
+except ImportError:  # direct script execution
+    from conversation_json_sniff import is_json_document_candidate
+
 DEFAULT_ROOT=Path("DEVELOPMENT_FULL_CONVOS"); DEFAULT_TIMEZONE="America/New_York"
 PREFIX_RE=re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
-ALLOWED_SUFFIXES={".json",".txt"}; HUMAN_ROLES={"user","assistant"}
+HUMAN_ROLES={"user","assistant"}
 
 @dataclass
 class RenameRecord:
@@ -79,8 +84,14 @@ def load_conversation(path:Path)->dict[str,Any]:
     return data
 
 def candidates(root:Path)->Iterable[Path]:
+    """Find valid-looking JSON content in named plaintext document formats.
+
+    This includes .txt/.md/.log/etc and extensionless files. The full JSON
+    parser and conversation-specific timestamp checks remain authoritative.
+    """
     for path in sorted(root.rglob("*")):
-        if path.is_file() and path.suffix.lower() in ALLOWED_SUFFIXES:yield path
+        if is_json_document_candidate(path):
+            yield path
 
 def local_datetime(stamp:float,tz:ZoneInfo)->datetime:
     return datetime.fromtimestamp(stamp,tz=timezone.utc).astimezone(tz)
