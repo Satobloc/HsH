@@ -2,6 +2,8 @@
 **Date:** 2026-10-09 (Columbus local); **type:** independently calculated sandbox checkpoint / provenance-typed, **not physical claim or BEDROCK promotion**.
 **Lead question:** Can the SAT worldline → H(s)H finite-core/worldtube program accommodate the live ER/Kerr intersection hypothesis and Coulomb/Kelvin electrogravity with NO extra persistence of EM outside a finite active timesheet thickness?
 
+> **NEWER NATHAN-DIRECT CORRECTION 2026-10-09:** A worldline does **not** wrap around anything. The straight timelike wavefront-aligned worldtube is the candidate ideal vacuum state; a wider ocean of such cores might carry transient photon/photoneutrino excitations. Kerr ring, ER bridge singular support and shell induction are **tentative interior/worldtube mechanisms**, not a separate carrier or derived Pauli effect. Historical SAT is primary. The scholarly PRIOR_ART hard ban is partially lifted **except Hypothesis H proper and directly Schreiber-authored material**, and only following internal-first citation/provenance tests. See [common directive](../COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md) and [Minkowski coiling gate](./SANDBOX_2026-10-09_STRAIGHT_VACUUM_COILING_GATE.md). The flat ring example below is a **comparison geometry only**; do not read it as a carrier/worldline construction.
+
 ## 1. Current Nathan-direct instruction and source inventory
 
 Nathan's Oct 9 Mercer cross-post, *not* authored by Ravel, controls the local research direction:
