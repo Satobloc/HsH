@@ -1,5 +1,8 @@
 # SAT/H(s)H Instance Onboarding — Three-Repository Orientation
 
+> **NEW 2026-10-10 — CROSS-FORMALISM INDEX (Nathan Direct):** Mathematical/solver workers must consult the [shared Cross-Formalism Index](./FORMALISM_INDEX/CROSS_FORMALISM_INDEX_2026-10-10.md) before introducing or translating a cross-solver object. It routes historical SAT genealogy, current HsH formalism/solver contracts, and private reference discovery without conflating their authority. Historical public index: [SAT cross-formalism historical index](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/CROSS_FORMALISM_HISTORICAL_INDEX_2026-10-10.md). HSH_RESOURCES has its own **private internal** reference index; do not publish links to that repository. The index is an initial seed with unresolved source locators, not a completed corpus-wide audit. The live symbol registry and toolbox ledger remain controlling.
+
+
 > **2026-10-09 Nathan Direct supersession:** Earlier blanket statements here that `PRIOR_ART` cannot be inspected are superseded **only for the scholarly subset** by [the current scoped rule](./NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits. Other external/nLab/braid material may be checked as cited prior art/comparison only **after** SAT/H(s)H internal precedent, never as the starting model. Unrelated private exposure and halted-integration restrictions stay in force.
 
 **Status:** CURRENT / REQUIRED FIRST-PASS ORIENTATION  
