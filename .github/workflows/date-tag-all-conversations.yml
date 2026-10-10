@@ -1,0 +1,109 @@
+name: Backfill and verify HsH conversation date tags
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/date-tag-all-conversations.yml'
+      - 'tools/date_conversation_exports.py'
+      - 'tools/audit_conversation_date_tags.py'
+      - 'tools/conversation_json_sniff.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hsh-date-tag-backfill
+  cancel-in-progress: false
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout HsH main with all conversation sources
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Date-tag all datable JSON conversations and commit verified audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'HsH Date Tag Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          for attempt in 1 2 3 4; do
+            echo "Backfill attempt $attempt: synchronize before inspecting live files."
+            git fetch origin main
+            git reset --hard origin/main
+            python -m unittest discover -s tests -p 'test_date_conversation_exports.py' -v
+
+            mkdir -p indexes/manifests
+            python tools/date_conversation_exports.py \
+              "DEVELOPMENT_FULL_CONVOS" \
+              --apply --resolve-collisions \
+              --manifest indexes/manifests/development-conversation-dates.json
+            python tools/date_conversation_exports.py \
+              "LIVE CONVOS" \
+              --apply --resolve-collisions \
+              --manifest indexes/manifests/live-conversation-dates.json
+
+            # Report undatable originals without fabricating historical times.
+            python tools/audit_conversation_date_tags.py \
+              --output indexes/manifests/date-tag-audit.json
+
+            # Rebuild the same derived surfaces used by both Viewer and chronology.
+            python tools/build_conversation_viewer_resolved.py
+            python tools/index_conversation_chronology.py \
+              "DEVELOPMENT_FULL_CONVOS" \
+              --output indexes/CONVERSATION_CHRONOLOGY.md
+            python tools/index_conversation_chronology.py \
+              "LIVE CONVOS" \
+              --output indexes/LIVE_CONVERSATION_CHRONOLOGY.md
+
+            git add -A -- "DEVELOPMENT_FULL_CONVOS" "LIVE CONVOS"
+            git add -A -- \
+              indexes/manifests/development-conversation-dates.json \
+              indexes/manifests/live-conversation-dates.json \
+              indexes/manifests/date-tag-audit.json \
+              indexes/CONVERSATION_CHRONOLOGY.md \
+              indexes/LIVE_CONVERSATION_CHRONOLOGY.md \
+              CONVERSATION_VIEWER/data/conversations.json \
+              CONVERSATION_VIEWER/data/curated
+
+            if git diff --cached --quiet; then
+              echo 'All date-tag and derived artifacts already match the current checkout.'
+              break
+            fi
+
+            git commit -m '[skip hsh-maintenance] [skip conversation-viewer] Apply and audit all HsH conversation date tags'
+            if git push origin HEAD:main; then
+              echo "Successfully committed date tags and verification ledger."
+              break
+            fi
+            echo "Remote changed during date tagging; rebuilding from the current main." >&2
+            if [ "$attempt" = 4 ]; then
+              echo "::error::Could not commit date-tag changes after four fresh attempts."
+              exit 1
+            fi
+          done
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('indexes/manifests/date-tag-audit.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          print('Date-tag verification:', data['overall_counts'])
+          if not data['fully_tagged']:
+              for root in data['roots']:
+                  for item in root['exceptions'][:20]:
+                      print('Exception:',root['root'],item)
+              raise SystemExit('At least one datable or undatable conversation remains untagged; see committed verification ledger.')
+          print('PASS: all datable HsH conversation exports have source-timestamp date prefixes.')
+          PY
