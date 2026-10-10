@@ -1,5 +1,8 @@
 # Mercer Continuity Packet
 
+> **2026-10-09 interactive Mercer cutoff:** The current Mersearch/SAT-H(s)H thread-specific handoff is [CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md](CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md). It preserves October 9 Nathan Direct corrections, completion state for Mersearch M1–M5a, date-tagged source coverage, nlab isolation, the six unfiled research conversation candidates, and next ER/Kerr/electrogravity discriminators. It supplements, not silently replaces, newer Common control documents or the ongoing `TRIAL_CHECKPOINT.md`. Raw conversation/message IDs still need backfill.
+
+
 ## Canonical restart rule
 
 Read `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` first. It is the controlling Mercer restart surface for the Prototype Tri(or Quin)ary Mover trial. This packet is a compact continuity aid; if it differs from the checkpoint, the checkpoint controls.
