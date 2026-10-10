@@ -107,6 +107,11 @@ def build_records(root:Path,tz:ZoneInfo)->list[RenameRecord]:
         warnings=[]
         try:
             data=load_conversation(path); start,end,source,count,warnings=date_range(data)
+            # A valid JSON document is not necessarily a conversation. Prevent
+            # top-level create_time metadata on arbitrary JSON objects from
+            # triggering date-tagging or public Viewer indexing.
+            if not isinstance(data.get("mapping"),dict) or count<=0:
+                raise ValueError("not a ChatGPT mapping conversation with user/assistant messages")
             start_dt=local_datetime(start,tz); end_dt=local_datetime(end,tz)
             prefix=f"{start_dt:%y.%m.%d}•{end_dt:%y.%m.%d}•"; target=path.with_name(prefix+clean_original_name(path.name))
             status="unchanged" if target==path else "planned"
