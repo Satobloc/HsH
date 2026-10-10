@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T00:24:18.471322+00:00",
+  "generated_at_utc": "2026-10-10T00:54:46.284958+00:00",
   "design": "manual registrations plus structurally discovered public cross-repo conversations; private resources excluded",
   "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
   "source_branch": "main",
   "stats": {
-    "candidates": 3000,
+    "candidates": 249,
     "recognized": 24,
-    "duplicate_hash": 1611,
-    "not_conversation": 1365,
+    "duplicate_hash": 114,
+    "not_conversation": 111,
     "manual": 1,
     "discovered_added": 24,
     "merged": 25
@@ -48,6 +48,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Image%20Prompt%20Construction%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Image Prompt Construction — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "be84214873d4a770a539737aa50d374eefdf2c11889cbf27c5e3a1ccf2b66139",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -65,6 +67,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/THE%20BIG%20US.txt",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "THE BIG US.txt",
+      "source_format": "json",
+      "source_extension": ".txt",
       "source_sha256": "98d73e30ee8f4d6d9bb8966fb7c1b75806d4d252e5c37050fa9643e1e381a7c3",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -82,6 +86,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/Loessl%20Construction%20Story%20Retelling%20%E2%80%94%20raw%20%282%29.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "Loessl Construction Story Retelling — raw (2).json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "3733d84ceebd6b5da6796874b3f34cf2035c7273bbc69694ee9d4e798be933d4",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -99,6 +105,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_H%28s%29H%20Skill%20Development%20%E2%80%94%20raw%20-%20.TXT",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "SAT_H(s)H Skill Development — raw - .TXT",
+      "source_format": "json",
+      "source_extension": ".txt",
       "source_sha256": "af7a9dd48d7c0634734b2816b9cc9a68ee150e1908bdc6d3f9bb55f070e0c821",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -116,6 +124,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/Einstein-Rosen%20Bridges%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "Einstein-Rosen Bridges — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "c4a0d81e616803e9b455574912f3017da5c466d5d13951d220f6eb62f4808938",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -133,6 +143,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Middle%20English%20response%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Middle English response — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "acc8b150a1381d4ced113068c44a1f234a6b7f07b0708b897061225d5196a5fa",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -150,6 +162,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Bogothia%20regions%20analysis%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothia regions analysis — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "136e58a6b41373a69301f4f91a17a0218288a5e3605cb12ed8101a645c8ad766",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -167,6 +181,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Bogothian%20language%20and%20history%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothian language and history — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "91173c73223186353f79754167a4dbfdae7c921b2d1784407d5ce71a271094f2",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -184,6 +200,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Koine%20merchant%20language%20800%20CE%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Koine merchant language 800 CE — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "8f7c58b25e71c057dacc3426ca207a5f40e33eb2606d3d2ee376ad5ac4f0a58e",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -201,6 +219,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Gothic%20compound%20order%20comparison%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Gothic compound order comparison — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "a5bcee20e554001bc7ba0a1ea939309cb9703f2a94df9de5702df7c55b57db70",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -218,6 +238,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Bogothian%20perspective%20analysis%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Bogothian perspective analysis — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "89d1fdd0e3183dd5baf28176b9a32aef5b18aa8f6ebd7170ba94c2396579b043",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -235,6 +257,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/9th%20century%20letter%20creation%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/9th century letter creation — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "6945ee704014949f1f6bfa32512a677eb3c06fd6364a14614262aebc50adacf2",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -252,6 +276,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Kodak%20Hawkeye%202A%20details%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Kodak Hawkeye 2A details — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "2107e7f219070eafa5f41f451ea7b4a8fc12bc36d518933f0a629b5bb667fbcb",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -269,6 +295,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Random%20prompt%20analysis%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Random prompt analysis — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "cb5d6ede12b91c42f258693ca77b14aefaa4bf03a182fe75ebaed4d41e5963a5",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -286,6 +314,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Kodacolor%20VR%20film%20info%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Kodacolor VR film info — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "5e14faac5ac801869964127b1c0ee89f04d74080a56801ae4649439c016593bb",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -303,6 +333,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Accordioncam%20overview%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Accordioncam overview — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "7841d368a6b144b3b7b76becff6de2e123fdababc86679f1619d59609ee76f50",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -320,6 +352,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Boxful%20of%20Light%20Ep2%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Boxful of Light Ep2 — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "47bdd3cedd1605b68340776af8d150d440e3d4525921d80866c829437edb0806",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -337,6 +371,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Collection%20rundown%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Collection rundown — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "a5e5910acf3fc44a93d12bf04b14e2424051d7596b07e127a53b2acb8a9a010a",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -354,6 +390,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Inventory%20list%20consolidation%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Inventory list consolidation — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "32997da3267568bed26a48fe7b0ebb9a0bd0ea299a00b91d0fce395626094076",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -371,6 +409,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Cleaned-up%20inventory%20list%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Cleaned-up inventory list — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "029f3844fd57b764df9777022c9f94cd88b9b6591f7b90dd5b43cbbff37c86b4",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -388,6 +428,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Wilfrid%20Voynich%20biography%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Wilfrid Voynich biography — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "125681e7ac1558128a1c942527897cca2da97e262d7feb56aebd9bd2351b18ff",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -405,6 +447,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Game%20idea%20feedback%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Game idea feedback — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "f314637fcfc1cf686f365c481a0e84e700f666c5611c1b4a34d6714a45da3577",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -422,6 +466,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Edit%20for%20McKnight%27s%20style%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Edit for McKnight's style — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "abc4a602b145a931e7cdfb78ff0b182421a6005f185da7b25d44549f13657f43",
       "discovery": "public-cross-repo-structural-scan"
     },
@@ -439,6 +485,8 @@
       "github_url": "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/FUN%20STUFF/GREAT%20MOMENTS%20IN%20PERSONAL%20SICENCE%20HISTORY/Developer%20Inventory%20Index%20%E2%80%94%20raw.json",
       "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "source_path": "FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/Developer Inventory Index — raw.json",
+      "source_format": "json",
+      "source_extension": ".json",
       "source_sha256": "915dcb943b719eea33decad531021aa98cd12848f4a96939476d3329278ddf11",
       "discovery": "public-cross-repo-structural-scan"
     }
