@@ -1,5 +1,8 @@
 # SAT/H(s)H Common Reference Desk
 
+> **NEW 2026-10-10 — CROSS-FORMALISM INDEX (Nathan Direct):** Mathematical/solver workers must consult the [shared Cross-Formalism Index](./FORMALISM_INDEX/CROSS_FORMALISM_INDEX_2026-10-10.md) before introducing or translating a cross-solver object. It routes historical SAT genealogy, current HsH formalism/solver contracts, and private reference discovery without conflating their authority. Historical public index: [SAT cross-formalism historical index](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/CROSS_FORMALISM_HISTORICAL_INDEX_2026-10-10.md). HSH_RESOURCES has its own **private internal** reference index; do not publish links to that repository. The index is an initial seed with unresolved source locators, not a completed corpus-wide audit. The live symbol registry and toolbox ledger remain controlling.
+
+
 > **2026-10-09 Nathan Direct scoped reference change:** The blanket scholarly `PRIOR_ART` quarantine is partially lifted; **Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits**. All other formerly quarantined external literature requires SAT/H(s)H precedent and citation *before* outside comparison; do not promote outside scholarship into SAT ontology. See [current directive](../NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). This supersedes any stale blanket restriction in this desk without cancelling independent privacy/integration rules.
 
 **Status:** IMMEDIATE REVIEW / FAMILIARITY REQUIRED FOR ALL WORKERS
