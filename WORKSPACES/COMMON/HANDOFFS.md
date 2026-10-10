@@ -62,3 +62,4 @@ _None recorded._
 `YYYY-MM-DD — FROM → TO — subject — what is ready / what remains — public source pointer or citation identifier — destination when complete`
 
 For material discovered in the private `HSH_RESOURCES` repository, identify the original external source/citation or a public-safe quotation/summary rather than treating the private repository URL as the handoff's public evidence.
+`2026-10-09 — Orson Vay -> Common/team — findings save + cross-reading synchronization — OV-18 finite-shell pulsar result frozen; cross-read Morrow/Kestrel, Mercer, Ravel, Meridian; naive free-R4 1D-link confinement rejected independently; straight-vacuum coiling framed as constitutive-selection problem; OV-18 peer-review requests found but no durable responses yet — WORKSPACES/ORSON_VAY/OV_20261009_FINDINGS_SAVE_CROSSREAD.md — return to realistic neutron-star profile + vortex/pinning/elastic test after reviews land`
