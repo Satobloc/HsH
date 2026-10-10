@@ -4,6 +4,8 @@ This directory is the shared coordination surface for active H(s)H work across a
 
 Use it for concise information another worker needs: handoffs, blockers, shared questions, wayfinding, role/lane state, current assignments, report pointers, and notices of useful discoveries. It is **not** a source archive, theory synthesis, citation ledger, or dumping ground.
 
+**Nathan Direct October 9 internal-first amendment:** [SAT/H(s)H source hierarchy, FIE/RMS rereads, three-repo source cycle and prior-art boundaries](NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md). This supersedes older blanket quarantines **only** for specifically reviewed nonrestricted sources. **Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits.** Do not open or index those materials, or silently make outside mathematics the foundation of the model. Every worker should report independently recovered old SAT equations and relevant loose/root conversation evidence to Common Room with exact citations.
+
 **Mersearch for all research workers (effective 2026-10-09):** [Start here](MERSEARCH_WORKER_START_HERE.md). Search the three permitted archives by default, verify original passages, and disclose any incomplete coverage. The stable three-repository request bridge is active; the chronology upgrade remains under review.
 
 ## Start here — current workflow
