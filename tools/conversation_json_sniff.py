@@ -5,8 +5,9 @@ The Conversation Viewer and date indexer must agree on whether a source is
 structured JSON. This is a cheap, bounded *content sniff*, not a JSON parser
 or an invitation to treat arbitrary prose containing braces as a conversation.
 
-Only known plaintext document suffixes and extensionless files are inspected.
-Actual JSON decoding and ChatGPT-conversation structure remain separate gates.
+Any regular, non-symlinked file may qualify based on its contents, regardless
+of extension. The probe reads at most 8192 bytes. Actual JSON decoding and
+ChatGPT-conversation structure remain separate gates.
 Original bytes, paths and file extensions are never rewritten here.
 """
 from __future__ import annotations
@@ -26,11 +27,12 @@ def is_json_document_candidate(path: Path) -> bool:
     """True when a permitted text document appears to contain standalone JSON.
 
     A .json filename remains eligible so malformed JSON is still recorded as
-    a parse failure, consistent with the old date audit. A .txt/.md/etc file
-    must have an actual JSON opener following optional UTF-8 BOM/whitespace.
+    a parse failure, consistent with the old date audit. All other names,
+    whether .txt/.md or unusual extensions, must have an actual JSON opener
+    following optional UTF-8 BOM/whitespace.
     Non-JSON prose, Markdown fenced code, and binary files are never promoted.
     """
-    if path.suffix.lower() not in PLAINTEXT_JSON_SUFFIXES or path.is_symlink():
+    if path.is_symlink():
         return False
     try:
         if not path.is_file():
