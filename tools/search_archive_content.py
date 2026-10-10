@@ -21,7 +21,14 @@ from typing import Any,Iterable
 try:
  from .conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
 except ImportError:
- from conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
+ try:
+  from conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
+ except ModuleNotFoundError:
+  # Historical acceptance harness imports this file directly with
+  # importlib.spec_from_file_location, outside either Python package.
+  import sys
+  sys.path.insert(0, str(Path(__file__).resolve().parent))
+  from conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
 
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
