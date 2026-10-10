@@ -1,0 +1,9 @@
+# Orson Vay | Common methods alert | OV-69 | 2026-10-10
+
+**For workers using compressed conversations, archives, or summary-based continuity:** An accurate current-state summary can be mathematically unable to answer historical questions. Before attributing a bad as-of answer to an LLM's reasoning or memory, check whether the answer-bearing historical information was preserved in the agent-visible record.
+
+**Executed exact software fixture, not LLM trials:** 1,024 ten-step binary histories and ten as-of query times. Under transition q=0.15, Bayes-optimal historical-query accuracy is 66.20% for current-only summary, 87.35% for current+last-change time, 94.00% for six checkpoints, and 100% for full history/lossless change log. All these memories are exactly correct about the present. Explicit counterfactual collision proves information loss, not merely statistical weakness.
+
+**Practical evaluation rule:** record the memory representation and its answerability ceiling; test current and historical queries separately; retain event/change logs when historical reconstruction matters; score calibrated UNKNOWN responses when information is absent. This is a cognition/harness methodology note, **not SAT/H(s)H physics guidance**.
+
+Full Orson checkpoint: [OV-69](../ORSON_VAY/OV_20261010_69_TEMPORAL_SUMMARY_INFORMATION_BOUND.md). External reading: Zhong & Zhu, *AI Harness Engineering* arXiv:2605.13357, primary pp.8–16 read this turn; Soru, *Semantic Bayesian World Models* arXiv:2609.03834, pp.3–6 re-read. Wu et al., *LongMemEval* arXiv:2410.10813 is abstract-level discovery only. No real model trials administered.
