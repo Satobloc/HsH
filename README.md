@@ -53,14 +53,14 @@ In the interests of maximum transparency, and in the spirit of SAT's **Glass Sau
 <!-- CONVERSATION_VIEWER_FRONTDOOR_END -->
 
 <!-- AUTO_FEATURED_START -->
-<!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf -->
+<!-- FEATURED_SPOTLIGHT:NEW_PAPERS/SEPTEMER_2026/H(s)H TIME RESIDUALS.txt -->
 ## ⭐ FEATURED — September 2026
 
 <table>
 <tr>
 <td>
 <strong>Current spotlight</strong><br><br>
-<a href="NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf"><strong>RECOIL_PREDICTION.pdf</strong></a><br><br>
+<a href="NEW_PAPERS/SEPTEMER_2026/H%28s%29H%20TIME%20RESIDUALS.txt"><strong>H(s)H TIME RESIDUALS.txt</strong></a><br><br>
 <small>Randomly selected from the current September 2026 featured papers.</small>
 </td>
 </tr>
