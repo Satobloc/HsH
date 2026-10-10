@@ -27,6 +27,19 @@ RAW_EXPORT=re.compile(r"(?i)(?:raw(?:\s*[-—_.]\s*|\b)|convo(?:s|versation)?(?:
 SUFFIXES={".json",".txt",".text",".md",".markdown",".log",".backup",""}
 MAX_HASH_BYTES=32_000_000
 
+def json_shaped(path:Path)->bool:
+    """Filename is a lead, not enough to claim plaintext is JSON."""
+    if path.suffix.lower()==".json":
+        return True
+    try:
+        with path.open("rb") as stream:
+            data=stream.read(8192)
+        if data.startswith(b"\xef\xbb\xbf"):
+            data=data[3:]
+        return data.lstrip(b" \n\t\r").startswith((b"{",b"["))
+    except OSError:
+        return False
+
 def kind(rel:Path)->str|None:
     parts=rel.parts
     if not parts or any(x.casefold() in {e.casefold() for e in SKIP_DIRS} for x in parts):
@@ -59,7 +72,7 @@ def audit(root:Path, catalog_path:Path)->dict:
         try:rel=path.relative_to(root)
         except ValueError:continue
         classification=kind(rel)
-        if classification is None:continue
+        if classification is None or not json_shaped(path):continue
         size=path.stat().st_size
         stats["candidates"]+=1
         stats[classification]+=1
