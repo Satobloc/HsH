@@ -20,8 +20,12 @@ from pathlib import Path
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
-import date_conversation_exports as dates
-from conversation_json_sniff import is_json_document_candidate
+try:
+    from . import date_conversation_exports as dates
+    from .conversation_json_sniff import is_json_document_candidate
+except ImportError:  # direct invocation: python tools/discover_external_conversations.py
+    import date_conversation_exports as dates
+    from conversation_json_sniff import is_json_document_candidate
 
 PRUNE_DIRS = {".git", "PRIOR_ART", "QUARANTINE", "__pycache__", ".pytest_cache"}
 
@@ -109,6 +113,8 @@ def discover(root: Path, repository: str, branch: str, known_hashes: set[str], t
             "github_url": f"https://github.com/{owner}/{repo}/blob/{branch}/{encoded}",
             "source_repository": repository,
             "source_path": rel,
+            "source_format": "json",
+            "source_extension": path.suffix.lower() or "(none)",
             "source_sha256": digest,
             "discovery": "public-cross-repo-structural-scan",
         })
