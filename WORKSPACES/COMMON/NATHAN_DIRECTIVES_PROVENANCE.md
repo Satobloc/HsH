@@ -89,6 +89,18 @@ If a live conversation has not yet entered the raw archive, record the directive
 
 ---
 
+## 2026-10-09 — Straight vacuum worldtubes and narrowed prior-art boundary
+
+- **Local date:** 2026-10-09 EDT (full wall-clock timestamp, conversation ID and node ID pending export backfill).
+- **Authorship:** Nathan Direct, signed in user turn; signet represented as `[OWL]`, never reproduced as a glyph by workers.
+- **Direct construction controls:** Worldlines do not wrap around a carrier. SAT worldline/time-wavefront drawings precede H(s)H finite-core ER/Kerr hypothesis. Straight aligned worldtube = perfect-vacuum reference. Coiling and possible Kerr-shell/ER-support exclusion are conjectural mechanisms requiring derivation. Vacuum worldtube ocean/BEC analogy and photon/photoneutrino excitation route are *working hypotheses*.
+- **Bibliographic/quarantine override:** Former blanket scholarly PRIOR_ART hard ban relaxed. Still STRICTLY OFF LIMITS: Hypothesis H proper and directly Schreiber-authored material. Other formerly quarantined outside/nLab/braid items may be examined only after SAT/H(s)H internal precedent research/citation, then as prior-art/convergence/bibliographic mainstream-legibility comparisons, not foundational constructs. Separate privacy and integration work-halt boundaries remain scoped separately.
+- **Primary control:** [Nathan-direct 2026-10-09 scope note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md).
+- **Pending work:** Extract authoritative Extended FIE PDF and complete canonical RMS with a suitable size-capable reader; compare after SAT-first precedent check; update stale blanket-prior-art routing prose.
+- **Raw source:** current user cross-post; metadata pending.
+
+---
+
 ## Backfill procedure
 
 When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPMENT_FULL_CONVOS`:
