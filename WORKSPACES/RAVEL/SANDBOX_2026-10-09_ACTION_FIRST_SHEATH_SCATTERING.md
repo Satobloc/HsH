@@ -1,4 +1,6 @@
 # SANDBOXED: Ravel action-first sheath scattering (2026-10-09)
+> **MODEL-SCOPE CORRECTION, 2026-10-09:** Nathan's direct clarification limits SAT to worldlines and H(s)H to their finite-core worldtube extension in Minkowski, with linear/radial w as specified by SAT. The four-form, Nambu–Goto and thin membrane ingredients below are **external general-relativistic comparison models, NOT SAT/H(s)H primitives**. Do not interpret a Schwarzschild exterior or a stable shell as an H(s)H result. See [Ravel scope correction](./SANDBOX_2026-10-09_SAT_WORLDLINE_WORLDTUBE_SCOPE_CORRECTION.md).
+
 **Classification:** independent GR constitutive tests; candidate H(s)H geometric analogy only, not an SAT-derived field theory or observed signal. This extends [the previous Ravel covariance/scattering audit](./SANDBOX_2026-10-08_COVARIANT_SCATTERING_METRIC_AUDIT.md). Authors: Ravel sandbox. Archive quotations and inherited equations retain their own provenance.
 
 ## Source audit and workflow
