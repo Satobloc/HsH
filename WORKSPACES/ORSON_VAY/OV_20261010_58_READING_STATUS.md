@@ -1,3 +1,3 @@
-# Orson cognition reading checkpoint
+# Orson OV-58
 
-Read source manuscripts and Lu et al. (2026). Ran a four-world test. Different observer-access models yield different outcomes. No LLM trials.
+Two internal sources and one external paper reviewed. A four-world Python check shows that different access rules yield different knowledge results. No LLM trials. Script: OV_20261010_58_FOUR_WORLD_CHECK.py.
