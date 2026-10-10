@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-10T01:26:07.370719+00:00",
+  "date_basis": "original message timestamps; original conversation timestamps only as explicit fallback",
+  "roots": [
+    {
+      "root": "DEVELOPMENT_FULL_CONVOS",
+      "counts": {
+        "dated_and_correct": 749,
+        "needs_renaming": 0,
+        "unresolved_collisions": 0,
+        "undatable_conversations": 0,
+        "skipped_not_conversations_or_bad_json": 267
+      },
+      "exceptions": []
+    },
+    {
+      "root": "LIVE CONVOS",
+      "counts": {
+        "dated_and_correct": 14,
+        "needs_renaming": 0,
+        "unresolved_collisions": 0,
+        "undatable_conversations": 0,
+        "skipped_not_conversations_or_bad_json": 0
+      },
+      "exceptions": []
+    }
+  ],
+  "overall_counts": {
+    "dated_and_correct": 763,
+    "needs_renaming": 0,
+    "unresolved_collisions": 0,
+    "undatable_conversations": 0,
+    "skipped_not_conversations_or_bad_json": 267
+  },
+  "fully_tagged": true
+}

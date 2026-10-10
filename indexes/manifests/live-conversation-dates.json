@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-10-05T01:32:46.655952+00:00",
+  "generated_at_utc": "2026-10-10T01:25:50.873987+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
-  "mode": "dry-run",
+  "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 1,
-    "planned": 10,
-    "skipped": 4
+    "renamed": 13
   },
   "records": [
     {
@@ -27,7 +26,7 @@
       "end_local": "2026-09-07T13:10:56.645938-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 689,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -37,32 +36,8 @@
       "end_local": "2026-09-08T21:38:46.439347-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 70,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/H(s)H TEMPORAL ISOTROPY.txt",
-      "new_path": null,
-      "start_local": null,
-      "end_local": null,
-      "timestamp_source": null,
-      "message_count": 0,
-      "status": "skipped",
-      "warnings": [
-        "Expecting value: line 1 column 1 (char 0)"
-      ]
-    },
-    {
-      "old_path": "LIVE CONVOS/H(s)H TIME RESIDUALS.txt",
-      "new_path": null,
-      "start_local": null,
-      "end_local": null,
-      "timestamp_source": null,
-      "message_count": 0,
-      "status": "skipped",
-      "warnings": [
-        "Expecting value: line 1 column 1 (char 0)"
-      ]
     },
     {
       "old_path": "LIVE CONVOS/H(s)H Team Orchestrator — raw.json",
@@ -71,41 +46,47 @@
       "end_local": "2026-09-08T23:09:42.841826-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 13,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
-      "old_path": "LIVE CONVOS/H(s)H+SAT DEFAULT ALL-PURPOSE FORMALISM.txt",
-      "new_path": null,
-      "start_local": null,
-      "end_local": null,
-      "timestamp_source": null,
-      "message_count": 0,
-      "status": "skipped",
-      "warnings": [
-        "Expecting value: line 1 column 1 (char 0)"
-      ]
-    },
-    {
-      "old_path": "LIVE CONVOS/H(s)H_TIME_RESIDUALS.txt",
-      "new_path": null,
-      "start_local": null,
-      "end_local": null,
-      "timestamp_source": null,
-      "message_count": 0,
-      "status": "skipped",
-      "warnings": [
-        "Expecting value: line 1 column 1 (char 0)"
-      ]
+      "old_path": "LIVE CONVOS/MERIDIAN_SOLVER_CONVO.txt",
+      "new_path": "LIVE CONVOS/26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 510,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "LIVE CONVOS/Meridian Mover Trial — raw.json",
-      "new_path": "LIVE CONVOS/26.09.13•26.09.20•Meridian Mover Trial — raw.json",
-      "start_local": "2026-09-13T12:33:01.867994-04:00",
-      "end_local": "2026-09-20T02:41:43.864833-04:00",
+      "new_path": "LIVE CONVOS/26.09.04•26.09.13•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 348,
-      "status": "planned",
+      "message_count": 510,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/Meridian Solver Loop — raw (1).json",
+      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:30:39.520505-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 342,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/Meridian Solver Loop — raw.json",
+      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:02:50.645400-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 289,
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -115,7 +96,7 @@
       "end_local": "2026-07-30T22:22:41.798336-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 430,
-      "status": "planned",
+      "status": "renamed",
       "warnings": [
         "1 user/assistant messages lacked timestamps"
       ]
@@ -127,7 +108,7 @@
       "end_local": "2026-09-21T07:09:21.748438-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 979,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -137,7 +118,7 @@
       "end_local": "2026-09-07T17:02:27.217279-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 425,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -147,7 +128,7 @@
       "end_local": "2026-09-08T06:04:20.605378-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 253,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -157,7 +138,7 @@
       "end_local": "2026-09-08T22:26:21.682596-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 710,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     },
     {
@@ -167,7 +148,7 @@
       "end_local": "2026-09-10T02:30:12-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 311,
-      "status": "planned",
+      "status": "renamed",
       "warnings": []
     }
   ]
