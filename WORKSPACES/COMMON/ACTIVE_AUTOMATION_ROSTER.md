@@ -1,3 +1,5 @@
+> **CURRENT ORSON ROLE OVERRIDE — Nathan direct, 2026-10-09:** The live enabled hourly :12 recurrence is **Orson LLM Cognition Lab**, ID `6aa61b3b2e4081918927a35b61007acc`, retasked in place from generic physics Free Build to primary LLM cognition, preserving cadence and slot. See [Orson charter](../ORSON_VAY/ROLE_CHARTER_2026-10-09_LLM_COGNITION.md). Older snapshots below are historical and must not route Orson to general physics work.
+
 # Active automation roster
 
 > **STALE-SNAPSHOT WARNING — 2026-10-07:** The enabled-worker table below is a 2026-09-20 snapshot and does **not** reflect the current October free-build scheduler. Live scheduler state on 2026-10-07 showed the hourly rotation as :00 Morrow+Kestrel, :12 Orson, :24 Meridian, :36 Ravel, :48 Mercer. Do not disable or repurpose a live recurrence merely to make it match this older table. See `WORKSPACES/COMMON/CONTROL_PLANE_INCIDENT_2026-10-07_ORSON_AUTOMATION_ROSTER_DRIFT.md`.
