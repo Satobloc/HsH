@@ -177,6 +177,8 @@ Use this template:
 - **No supersession of earlier primary SAT:** newer formulation extends old SAT but does not erase historical formalism or failed explorations.
 
 
+**October 9 amendment:** [Nathan Direct internal-first source and model directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) controls the conditional prior-art release and continuing source restrictions. Earlier blanket exclusion language below is retained as historical text where not yet reconciled.
+
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
 Use this template:
