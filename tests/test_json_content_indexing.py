@@ -93,6 +93,17 @@ class JsonContentIndexingTests(unittest.TestCase):
         record = dates.build_records(self.root, TIMEZONE)[0]
         self.assertEqual(record.message_count, 2)
 
+    def test_curation_source_remains_literal_original_format(self):
+        p = self.write("archive.original", text=json.dumps(conversation()))
+        self.assertTrue(is_json_document_candidate(p))
+        self.assertEqual(p.suffix, ".original")
+        # Detection is read-only: exact bytes and source path are unchanged.
+        original = p.read_bytes()
+        records = dates.build_records(self.root, TIMEZONE)
+        self.assertEqual(records[0].status, "planned")
+        self.assertEqual(p.read_bytes(), original)
+        self.assertTrue(p.exists())
+
     def test_non_conversation_json_is_not_mislabeled(self):
         self.write("unrelated.markdown", obj={"schema_version": 3, "created_at": 1780000000})
         records = dates.build_records(self.root, TIMEZONE)
