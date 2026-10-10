@@ -247,7 +247,7 @@ These links are intentionally status-separated from the foundational section. Th
 - **HsH:** current public H(s)H working/archive environment and this control surface.
 - **HSH_RESOURCES / permitted RESOURCES:** active supporting material; not generally quarantined.
 - **Toolkit:** active mathematical resource library for H(s)H work.
-- **PRIOR_ART:** hard quarantine. Do not import quarantine-side content or reasoning into this register except through explicitly cleared routing.
+- **PRIOR_ART and previously quarantined material:** older blanket prohibition superseded **for nonrestricted sources only**, subject to internal SAT/H(s)H first-appearance and citation review. **Hypothesis H proper and direct Schreiber-authored material remain hard-quarantined/off-limits** wherever copied. Default automated exclusions and public-release privacy rules remain in force until a source is individually screened. See [October 9 directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md).
 
 ---
 
