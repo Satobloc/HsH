@@ -1,0 +1,61 @@
+{
+  "request_id": "2026-10-10-orson-one-drop-universe-math-001",
+  "query": "path:*ONE*DROP*UNIVERSE* AND (Lagrangian OR equation OR operator OR matrix OR tensor OR Hamiltonian OR \"SU(3)\" OR \"SO(4)\" OR braid OR torsion OR helix OR nuclear OR symmetry)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "09bf53535f1a1f21b20db74252c9bc87db150e67",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "40acbe9c47e6cf0492bee85ab52c411fd0987e4a",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "8f78ffe91afd19d10a6179fe6a4aa57db4c8f31a",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "09bf53535f1a1f21b20db74252c9bc87db150e67",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "40acbe9c47e6cf0492bee85ab52c411fd0987e4a",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "699c369bd4384966d1befbf72c7c406d5ab19430cb5401d746fd61518d93e3f2",
+    "SEARCH_RESULTS.md": "79f92ebbef95abe5036a4e0711eb8943272638ae9d51be78eb1f04d49acb36a0"
+  }
+}
