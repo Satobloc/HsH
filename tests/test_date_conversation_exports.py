@@ -5,6 +5,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from tools.date_conversation_exports import build_records
+from tools.audit_conversation_date_tags import audit
 from tools import build_conversation_viewer_resolved as viewer_resolved
 
 class DateConversationExportsTests(unittest.TestCase):
@@ -24,6 +25,39 @@ class DateConversationExportsTests(unittest.TestCase):
             by_name={Path(r.old_path).name:r for r in records}
             self.assertEqual(by_name["A — raw.json"].status,"collision")
             self.assertEqual(by_name["B — raw.json"].status,"planned")
+
+    def test_collision_resolution_preserves_both_dated_exports(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td);tz=ZoneInfo("America/New_York")
+            original=root/"Collision — raw.json"
+            self.write_convo(original,1780000000)
+            desired=Path(build_records(root,tz)[0].new_path)
+            desired.write_text(original.read_text(encoding="utf-8"),encoding="utf-8")
+            rows=build_records(root,tz,resolve_collisions=True)
+            planned=next(x for x in rows if x.old_path==str(original))
+            self.assertEqual(planned.status,"planned")
+            self.assertIn("[collision-",planned.new_path)
+            self.assertNotEqual(planned.new_path,str(desired))
+            original.rename(planned.new_path)
+            self.assertTrue(desired.is_file())
+            self.assertTrue(Path(planned.new_path).is_file())
+            self.assertEqual(len(build_records(root,tz)),2)
+            self.assertTrue(all(x.status=="unchanged" for x in build_records(root,tz)))
+            check=audit(root)
+            self.assertEqual(check["counts"]["dated_and_correct"],2)
+            self.assertEqual(check["exceptions"],[])
+
+    def test_audit_refuses_to_invent_undated_conversation_dates(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            source=root/"no-timestamps.txt"
+            source.write_text(json.dumps({"current_node":"m","mapping":{
+                "m":{"parent":None,"message":{"author":{"role":"user"},"content":{"parts":["A message"]}}}
+            }}),encoding="utf-8")
+            result=audit(root)
+            self.assertEqual(result["counts"]["undatable_conversations"],1)
+            self.assertEqual(result["counts"]["dated_and_correct"],0)
+            self.assertEqual(result["exceptions"][0]["path"],str(source))
 
     def test_viewer_private_refresh_does_not_overwrite_canonical_audit_manifests(self):
         with tempfile.TemporaryDirectory() as td:
