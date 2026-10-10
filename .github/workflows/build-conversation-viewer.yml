@@ -10,15 +10,17 @@ on:
   push:
     branches: [main]
     paths:
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.txt'
-      - 'LIVE CONVOS/**/*.json'
-      - 'LIVE CONVOS/**/*.txt'
+      # Actual file contents determine whether a new source is JSON.
+      # Trigger immediately for all extensions, not only .json/.txt.
+      - 'DEVELOPMENT_FULL_CONVOS/**'
+      - 'LIVE CONVOS/**'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
       - 'tools/discover_external_conversations.py'
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/date_conversation_exports.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
@@ -89,7 +91,11 @@ jobs:
           paths = [x['path'] for x in data['conversations']]
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
-          assert all(Path(x['path']).suffix.lower() in {'.json', '.txt'} or x.get('external') for x in data['conversations'])
+          from tools.conversation_json_sniff import is_json_document_candidate
+          assert all(
+              x.get('external') or is_json_document_candidate(Path(x['path']))
+              for x in data['conversations']
+          ), 'catalog contains non-JSON first-party source'
           missing_paths = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
           assert not missing_paths, f'viewer catalog contains missing repository source paths: {missing_paths}'
 

@@ -29,9 +29,11 @@ from zoneinfo import ZoneInfo
 try:
     from . import build_conversation_viewer as base
     from . import date_conversation_exports as dater
+    from .conversation_json_sniff import is_json_document_candidate
 except ImportError:  # direct script execution: python tools/build_conversation_viewer_resolved.py
     import build_conversation_viewer as base
     import date_conversation_exports as dater
+    from conversation_json_sniff import is_json_document_candidate
 
 
 _original_normalize_record = base.normalize_record
@@ -88,9 +90,7 @@ def existing_canonical_path(record: dict[str, Any]) -> str | None:
         if not isinstance(candidate, str):
             continue
         normalized = candidate.replace("\\", "/")
-        if Path(normalized).suffix.lower() not in base.SUPPORTED_CONVERSATION_SUFFIXES:
-            continue
-        if Path(normalized).is_file():
+        if is_json_document_candidate(Path(normalized)):
             return normalized
     return None
 
