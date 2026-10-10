@@ -1,5 +1,7 @@
 # SAT/H(s)H Common Reference Desk
 
+> **2026-10-09 Nathan Direct scoped reference change:** The blanket scholarly `PRIOR_ART` quarantine is partially lifted; **Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits**. All other formerly quarantined external literature requires SAT/H(s)H precedent and citation *before* outside comparison; do not promote outside scholarship into SAT ontology. See [current directive](../NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). This supersedes any stale blanket restriction in this desk without cancelling independent privacy/integration rules.
+
 **Status:** IMMEDIATE REVIEW / FAMILIARITY REQUIRED FOR ALL WORKERS
 **Established by Nathan:** 2026-10-05
 
