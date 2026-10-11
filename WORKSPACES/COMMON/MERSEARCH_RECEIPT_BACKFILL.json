@@ -3,5 +3,7 @@
   "requested_by": "Mercer Calder",
   "purpose": "Generate connector-readable receipts from Orson's already successful three-repository Mersearch result. No full search rerun or shared request-slot change.",
   "source_commit": "1e9cfb397f0df994fe5a49dce7ec69850219929f",
-  "do_not_replace_full_results": true
+  "do_not_replace_full_results": true,
+  "retry_index": 1,
+  "retry_reason": "Bounded rebase retry added after documented concurrent-main push failure; preserve Orson full results and request slot"
 }
