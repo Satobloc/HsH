@@ -8,6 +8,18 @@
 
 ---
 
+## 2026-10-11 — Ravel geometric tube holonomy: real frame coupling, but local leakage dominates (SANDBOX)
+
+**Source:** [single-action geometric material-frame gate](WORKSPACES/RAVEL/SANDBOX_2026-10-11_MATERIAL_FRAME_ACTION_AND_LEAKAGE.md), with [reproducible Python](WORKSPACES/RAVEL/CODE/geometric_holonomy_backreaction.py) and [numerical fixture](WORKSPACES/RAVEL/DATA/geometric_holonomy_backreaction.json). Original SAT *Fundamental Intuitions — Extended* reread substantially; current HsH sources cross-checked. **Status: Ravel sandbox mathematical candidate only, no BEDROCK/state promotion.**
+
+A smooth periodic material-director angle gives only integer loop winding, not arbitrary fluctuating fractional holonomy. A bent finite tube with independently constrained centerline `r(theta)=((R+a cos2theta)cos theta,(R+a cos2theta)sin theta,b sin2theta)` has actual geometric holonomy `integral tau ds = 6 pi a b/R²+...`. The transverse finite-core state `exp(i l beta)` has standard normal SO(2) representation `chi_g=l`, nonzero only when a nonzero transverse angular mode exists. A positive mechanical oscillator bath produces PSD thermal covariance, retarded response and reciprocal force from the coupled mode+material action.
+
+**Decisive negative control:** the same normal-frame curvature has `j!=0` angular harmonics, hence changing deformation `bdot` induces mode leakage. Test fixture `R=1,a=.1,l=1,M=1,K=4,Gamma=2,kBT=.04,E0/hbar=1`: `phi'=0.30080578`; `F_2=0.95267635`; derived leading weak-noise `D_hol=.00180968`, `W_{0->+-2}=.00558518` per normalized time, ratio `3.08628`. Rates are a leading free-ring, adiabatic geometric control, **not exact deformed-ring spectroscopy**. For `l=0`, channel vanishes; for `a=0`, global holonomy linear response vanishes though local harmonic survives. Old holonomy fixture's instantaneous variance cannot be used as a white-noise integrated strength without a correlation-time factor; present work fixes those dimensions explicitly.
+
+**Next:** finite-core Laplace–Beltrami and geometric-potential eigenproblem with exact time-dependent normal connection and the same bath. Do not claim HsH gravity/timesheet backreaction, pure N-dephasing, particle identity, or a new physical constant.
+
+---
+
 ## 2026-10-09 — Nathan-direct correction: straight vacuum core, coiling gate, reference access
 
 **Direct source:** current signed user cross-post from Nathan, authentication signet rendered only as `[OWL]`, raw message ID pending. **Status:** ND (interpretation/workflow controls); Kerr/ER, Klein coiling driver, BEC-like sea and photon/photoneutrino modes remain TENTATIVE.
