@@ -105,7 +105,7 @@ def run(args):
                     try:visuals.append(future.result())
                     except Exception as e:errors.append('image '+tasks[future]['path']+': '+str(e))
     documents.sort(key=lambda x:(x.get('changed_at',''),x.get('path_date_hint',''),x['path']),reverse=True)
-    candidates=[x for x in documents if not x.get('excerpt') and x['kind'] in ('md','txt') and repos[x['repo']]['status']=='complete'][:args.excerpts]
+    candidates=[x for x in documents if not x.get('excerpt') and x.get('size',0)<=128000 and x['kind'] in ('md','txt') and repos[x['repo']]['status']=='complete'][:args.excerpts]
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         tasks={pool.submit(excerpt,x['repo'],repos[x['repo']]['commit'],x):x for x in candidates}
         for future in concurrent.futures.as_completed(tasks):
