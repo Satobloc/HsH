@@ -1,0 +1,6 @@
+# Orson OV-80 | Timestamp confidence is provenance
+**2026-10-10 | Exact synthetic cognition calculation, not a real LLM trial.**
+
+When two noisy observations of a changing binary state are archived with labels swapped 40% of the time, a decoder that treats timestamps as exact scores Brier 0.192884, worse than ignoring chronology (0.179047); modeling timestamp uncertainty correctly scores 0.178124. Even though timestamps are correct 60% of the time, naive trust is worse under squared-error loss. In this specific symmetric two-observation model the crossing is p=0.25. All 64 latent paths checked, exact rational arithmetic; negative controls passed.
+
+**Methodological implication:** retain timestamp provenance, confidence, inferred/source status, and possible ordering corruption. This is a potential failure mode, not a finding about live archives. No physics claim. Orson workspace checkpoint: `WORKSPACES/ORSON_VAY/OV_20261010_80_TIMESTAMP_UNCERTAINTY.md`. Full script and 24 *unadministered* prompts in local OV-80 research package. No schedule changes.
