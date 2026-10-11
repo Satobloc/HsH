@@ -87,3 +87,28 @@ Set `R=1,a=.1,b_reference=0,r_core=.04,l=1,E0/hbar=1,M=1,K=4,Gamma=2,kBT=.04`, 4
 **Further numerical work:** diagonalize the full Laplace–Beltrami plus curvature potential for the deformed finite tube, include proper arclength-mode Fourier coefficients and the complete time-dependent connection, then solve a jointly driven material/timesheet response with one covariant energy ledger. Compare against ordinary electromagnetic flux noise; do not tune to familiar constants.
 
 **Ravel | SANDBOX ONLY.**
+
+## 7. Important refinement: finite deformed ring spoils the dephasing eigenbasis
+
+A *subsequent* code-rendered Class P spectral gate treats the static radial deformation in its proper arclength coordinate `chi = (2*pi/L) integral_0^theta |r'(t)|dt`, and projects the usual leading thin-tube scalar geometric potential `U(chi) = -[L/(2*pi)]²*kappa(chi)²/4` in units `E0=hbar²(2*pi/L)²/(2m)=1`. The static finite Fourier Galerkin Hamiltonian is
+
+```
+H_static(phi)_{nm} = (n-ell*phi)² delta_nm + U_(n-m).
+```
+
+This is a standard thin-confined-waveguide comparison, **not an HsH fundamental Hamiltonian**. It exposes a stronger selection problem than the previous free-ring estimate.
+
+**Exact time-reversal statement:** if the real geometric potential removes the `n↔-n` degeneracy, every simple eigenvalue obeys `E_j(phi)=E_j(-phi)`. Consequently `dE_j/dphi|_0=0`. Even though `dphi/db` and `ell` are nonzero, no *linear* flux-induced diagonal phase sensitivity exists between the resulting stationary eigenstates at zero flux; the corresponding operator is off-diagonal and produces transitions, not the previously postulated pure dephasing. At the exactly circular symmetric limit, degeneracies return and one must use a degenerate angular-momentum basis; the `a→0` and `phi→0` limits do not commute uniformly.
+
+**Numeric spectral replication (4096 arclength samples, basis `n=-14,...,14`, `a=.1`, `r_core=.04`):**
+- First levels `E_0=-.264108785600678`, `E_1=.665909101203406`, `E_2=.809742365379293`; the first angular-momentum doublet splits `Delta_12=.143833264175888 E0`.
+- Between eigenstates 1 and 2: `|<1|N|2>|²=1.000315788203`. The diagonal current expectations of the lowest five eigenstates vanish numerically at zero flux, as required by time reversal (finite-difference energy slopes ≤ `3e-10`).
+- Fourier cutoff `n_max=8` to `14` changes the doublet splitting by <`2e-10`; Galerkin converged for the reported values.
+- **Separate uniform-holonomy-channel diagnostic**, using the earlier oscillator spectrum and the same `phi'=0.300805777566`: `W_{1→2}^{uniform}= (2E0*ell*phi'/hbar)² |<1|N|2>|² S_b(Delta_12/hbar)=.00363923235422` normalized inverse time.
+- The splitting is `79.48` times the earlier ideal-ring numerical `D_hol=.00180968231634`. Their ratio is a timescale comparison, **not** a new leakage/dephasing ratio of a fully derived Lindbladian.
+
+**Critical non-additivity:** the `0.003639` uniform-holonomy transition and the `0.005585` local-Berry estimate above are separately controlled *components of the same stochastic b(t) deformation*. Their transition amplitudes may interfere because `bdot` and `b` are correlated; **do not add these two rates as if they came from independent baths**, or claim either is a full transition prediction. The original `D_hol` is a counterfactual ideal-ring benchmark, not the rate of exact zero-flux eigenstate pure dephasing in this asymmetric tube.
+
+**Stronger research conclusion:** to derive a genuine `-D[N,[N,rho]]` from this tube action, HsH must independently obtain (i) a nonzero transverse representation, (ii) fractionally variable global connection, (iii) symmetry-protected or dynamically accurate angular-momentum eigenbasis, (iv) suppressed local Berry harmonics and their nonadiabatic transitions, and (v) a material spectrum with a physically justified Markov/weak-noise window. Item (iii) now fails in the concrete radial-anisotropy geometry that was used to make (ii) nonzero.
+
+This spectral gate is reproducible in `CODE/exact_deformed_ring_spectrum.py` and `DATA/exact_deformed_ring_spectrum.json`, with script-generated `FIGURES/finite_tube_avoided_spectral_crossing_class_P.png`. The prior numerical rates must always be cited with these revised domain warnings.
