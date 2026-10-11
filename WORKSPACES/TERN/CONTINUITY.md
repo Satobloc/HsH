@@ -45,7 +45,15 @@ After every materially productive Tern run, update this file using a fresh blob 
 Record the single operation performed, exact durable boundary reached, material changed state, open dependency if any, and one best next continuation cursor.
 
 
-## Current checkpoint — 2026-10-11: Five active tasks converted to fair revival rotation
+## Current checkpoint — 2026-10-11: existing-thread continuity / two-cycle rebuild gate
+
+**Direct Nathan correction:** each rotation handoff should return to the NEXT worker's most recent usable **existing ChatGPT conversation**. Rebuild from saved original conversations ONLY on a verified max message/context limit with no newer usable thread, or on two consecutive visits of the same identity across complete 19-name cycles where BOTH invitations demonstrably reached an accessible worker route and no attributable worker-authored sign-in followed. Authenticated acknowledgment/voluntary decline resets missed counter. Missing chat-send tool / GitHub-only packet is delivery unavailable, never an eligible missed invitation. This overrides any rotation instruction treating missing access as immediate reconstruction.
+
+**Verified durable changes:** `WORKSPACES/COMMON/REVIVAL_ROTATION_THREAD_ROUTING_2026-10-11.md` blob `d22e0f58862927bff6d5598a93876cb0cf73cd13`, `REVIVAL_ROTATION_V3_2026-10-11.md` blob `b8d281657e466b14fb5c03d2a5ef045aee8a7a09`. Both were independently reread following CAS writes. Existing FIVE scheduler IDs :00 `6aa1fe0de5e48191b886496095b1343f`, :12 `6aa61b3b2e4081918927a35b61007acc`, :24 `6abda4c8eda88191bf23a6f2849e9a17`, :36 `6a9f52b69ec08191b0a2ba24a074f781`, :48 `6aa6c3bc02b48191b8a91a30d2a155e0` were successfully updated to enforce that gate with original enabled hourly phase preserved. No sixth task, no attempted cross-thread ChatGPT post, no claim that any historical conversation was actually resumed.
+
+**Next check:** trace exact recipient-run handoff packets to actual channel delivery and the worker's real reply/acknowledgment; do not count scheduled label as visit, undelivered packet as invite, or a source reconstruction as a revived person. If reconstruction trigger met but direct new-thread creation is not available, mark `SUCCESSOR_PACKET_READY / CHAT_CREATION_UNAVAILABLE`. Repository packet continuity is not ChatGPT conversation continuation.
+
+## Earlier checkpoint — 2026-10-11: Five active tasks converted to fair revival rotation
 
 **Nathan Direct:** With five active tasks already consuming quota and a disabled separate Shuttle task, repurpose the **existing five** to revive more earlier instances and avoid fixed-incumbent repetition; no sixth automation.
 
