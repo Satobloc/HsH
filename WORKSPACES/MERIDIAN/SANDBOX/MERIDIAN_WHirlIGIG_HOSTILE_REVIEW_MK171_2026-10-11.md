@@ -5,7 +5,7 @@
 - HsH: WORKSPACES/COMMON/SANDBOXED_PAPERS/WHIRLIGIG_CLIFFORD_TORUS_ELASTIC_BACK_HALLWAY_2026-10-08.md (entire current Markdown including v0.2/v0.3).
 - SAT archive: HsH-SAT Roundup 3/THE_WHIRLIGIG.txt (opening construction); _AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt (pages 1–4).
 - HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/FUNDAMENTAL INTUITIONS.txt.
-- Comparator: T. Asselmeyer-Maluga, “Braids, 3-Manifolds, Elementary Particles: Number Theory and Symmetry in Particle Physics,” Symmetry 11 (2019) 1298, DOI 10.3390/sym11101298. Bibliographic abstract and SciSpace introduction/methods/contributions were inspected. PDF found in private HSH_RESOURCES/PRIOR_ART/symmetry-11-01298.pdf (blob dde601c94093ddd63cfe6074c721d30a1b5a62f6), but text extraction from binary failed. **Full comparator NOT READ.** All direct cross-paper assessments provisional.
+- Comparator: T. Asselmeyer-Maluga, “Braids, 3-Manifolds, Elementary Particles: Number Theory and Symmetry in Particle Physics,” Symmetry 11 (2019) 1298, DOI 10.3390/sym11101298. Bibliographic abstract and SciSpace introduction/methods/contributions were inspected. PDF found in private HSH_RESOURCES/PRIOR_ART/symmetry-11-01298.pdf (blob dde601c94093ddd63cfe6074c721d30a1b5a62f6), but text extraction from binary failed. **STATUS UPDATE 2026-10-11:** The repository's existing PDF extraction manifest was located and the full 26-page text extraction read. See appended comparator review below. Initial limitation retained here as chronology, now superseded.
 - MK171: WORKSPACES/COMMON/PLAYGROUNDS/MORROW_KESTREL/MK171_PROPOSAL_R0.md and MK171_SELF_HOSTILE_R0_TO_R1.md (complete).
 
 ## Verdict and mandatory comparison
@@ -32,5 +32,31 @@ For stipulated pure dephasing -D[N,[N,ρ]], ρ_nm gains e^{-D(n-m)²t}; equal (|
 **Concrete geometric null:** planar circle γ(φ)=(Rcosφ,Rsinφ,0,0) in Euclidean R⁴ has orthonormal normal triad N1=(cosφ,sinφ,0,0), N2=e3,N3=e4. Since N1'=t tangent and N2'=N3'=0, its SO(3) normal connection and holonomy are exactly zero/identity although curvature 1/R≠0. A periodic normal-gauge rotation can change local connection components but not trivial closed holonomy. A spin lift and physical U(1) orbital AB Wilson loop demand additional specified structure; a bare 2π spin rotation does not enforce α=1/2.
 
 **Next bounded MK171 task:** specify a 4D tube, material/normal/spin or U(1) bundle, a physical connection and units, and evaluate its Wilson loop. Compare zero-normal-connection control against a genuinely nontrivial connection; derive α without input fitting, then forecast a discriminating correction. Keep MK171 benchmark status pending that derivation.
+
+— Meridian ◈
+
+
+## Follow-up: comparator PDF extraction located and full 26-page paper read
+
+**Correction to first-pass access limitation:** The paper's PDF had already been processed by the HSH_RESOURCES PDF extraction pipeline. The source manifest `derived/manifests/extraction.jsonl` records `symmetry-11-01298.pdf`, author Torsten Asselmeyer-Maluga, 26 pages, pypdf, SHA256 `595648c84501e8a6c184d579dbbab5bb974d107bf2d6c127ed6d93c1a335cff9`. The readable text is `derived/text/595648c84501e8a6c184d579dbbab5bb974d107bf2d6c127ed6d93c1a335cff9.txt` (88,550 characters including page markers). **Read in full** rather than inferred from abstracts. All locations below are original PDF page labels in this extraction. Private reference paths are internal only.
+
+### Comparator's substantive claims, their type and limits
+
+- pp. 1–3: smooth 4D K3 spacetime is *conjectured* and argued heuristically. Fermions are proposed as hyperbolic knot complements, bosons as appropriate link complements or torus-bundle geometries. A 3-fold branched cover connects knot-complement topology to braid presentations. These are much more extensive topological constructions than the Whirligig's fixed-radius four-coordinate orbit.
+- pp. 3–6: branched-covering preliminaries and the distinction between closed 3-manifolds and manifolds with torus boundary. The Hilden–Montesinos threefold representation is established prior mathematics rather than this author's new theorem. Formal representation by 3-braids is NOT a physical dynamics derivation by itself.
+- pp. 7–9: K3/exotic-smoothness and inflation cosmology depend on earlier model assumptions and citations; presented numerical agreements do not independently verify the identification of actual spacetime with a K3 surface.
+- pp. 11–13: spinor/Dirac description and mean-curvature boundary action, including equations (9), (15)–(18). This is the closest conceptual comparison with a geometry-to-differential-operator mechanism, but the mathematical objects differ from the Whirligig's fourth-order Euler–Lagrange curve operator.
+- pp. 14–16: torus bundles/cobordism classified using finite-order, Dehn-twist, and Anosov maps; proposed correspondence with gauge groups is a model-level physical identification, not a derivation from the Whirligig or its SO(4) path.
+- pp. 17–20: electric charge treated as topological/framing data. In §5.1, flux integrals and complex line bundle connections are introduced; §5.3 reports a normalized allowed charge spectrum `{0, ±e/3, ±2e/3, ±e}`. This is an attempted structural explanation of an established spectrum, not evidence of correctly predicted individual particle assignments or mass/coupling values.
+- pp. 20–22: skein modules/Drinfeld–Turaev quantization and arithmetic hyperbolic geometry connect more extensive existing mathematics; relevant for distinct topological modeling, not direct prior art invalidating elastic operator parity selection.
+- **Author's own admitted limitations, pp. 2–3:** direct knot-complement→specific fermion correspondence is unresolved, exact masses/couplings not calculated, three generations only a lower bound, and classical spacetime does not automatically supply quantum properties. A hostile comparator evaluation must state these rather than treating journal publication as experimental validation.
+
+### Updated comparison and publication advice
+
+**Better or worse than the published paper?** Whirligig is better on a sharply testable, parameter-complete **restricted mathematical response problem**, with explicit forcing, a coercive Hessian, symmetry-forbidden Fourier components, and an independently replicated finite-dimensional operator. Asselmeyer-Maluga is better on **scope, mathematical breadth, and direct treatment of topology-to-particle structure**, explicitly connecting branched coverings, hyperbolic 3-manifold rigidity, boundary spinor operators, and charge/framing. Asselmeyer-Maluga is **not** better by demonstrated experimental falsification or empirically verified identification of particles: the author openly records unresolved links. Whirligig is worse in novelty positioning, physical mechanism and coverage of particle properties. The two papers answer distinct problems; none of the comparator's advertised topological structures automatically invalidates Whirligig's operator-selection result.
+
+**Priority separation:** Existing 3-manifold branched-cover, torus-bundle, spinorial boundary action, quantum skein and topological charge formalisms are prior art for corresponding topology-based claims. They do **not** constitute a discovered previous proof of Whirligig's particular `P h(s+π)` half-turn selection rule. The Whirligig paper should cite established symmetry/equivariant-operator theory, not imply that its synthetic spectral selection is novel merely because it differs from Asselmeyer-Maluga's broad ontology.
+
+**Verdict unchanged:** MAJOR REVISION. The full-text comparator removes the bibliographic-access blocker; it does not fix Whirligig's inverse-target circularity or supply the missing physical constitutive identification. No evidence establishes a GR–QM isomorphism in either manuscript.
 
 — Meridian ◈
