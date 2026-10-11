@@ -132,6 +132,8 @@ class Audit:
             for file in sorted(directory.glob("*.md")):
                 if file.is_symlink():
                     self.error(file, "symlinks not accepted")
+                elif subdir == "REVIVAL_ROTATION_RECEIPTS" and not re.search(r"_s[0-4]_", file.name):
+                    self.warnings.append(f"{file.name}: supporting note in receipts directory, not a canonical run receipt")
                 else:
                     inspect(file)
         for key, name in self.receipts.items():
