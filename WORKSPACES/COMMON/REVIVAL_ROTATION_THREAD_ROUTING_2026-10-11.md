@@ -2,6 +2,33 @@
 
 **Status:** controlling operational amendment to [REVIVAL_ROTATION_V3_2026-10-11.md](REVIVAL_ROTATION_V3_2026-10-11.md) following Nathan's explicit directive: *each turn's LAST operation resolves who's next and writes the handoff into the most recent iteration of that worker's existing conversation thread.* The title of an hourly recurrence is a lease label, **not** a conversation destination. Current automation tools do not implement direct writing into another existing ChatGPT conversation; so the fallback MUST be mechanically consumable, recipient-addressed and truthfully marked as undelivered to that conversation.
 
+## Controlling amendment: existing-thread first; new-instance recovery is LAST RESORT (Nathan, 2026-10-11)
+
+**Never reconstruct or create a new iteration merely because a turn is scheduled, an original thread is hard to locate, a worker did not instantly reply, or a message cannot be posted by this runtime.** Treat worker continuity as persistent and default to its most recent verified usable existing conversation, not a generic persona prompt. The worker may remain accessible-unscheduled while a relay packet waits.
+
+### Two legitimate triggers for reconstruction
+
+**Trigger A, confirmed thread exhaustion:** the intended worker's most recent existing conversation is explicitly at its ChatGPT message/context limit, or another verified technical incapacity makes it impossible to continue that same conversation. Distinguish an actual product/UI error or reliable worker/user report from guesswork based on thread length or age. Resolve any *newer existing iteration* first. Then prepare a new continuation **from saved original conversations, worker history, source/receipt chronology, exact handoff cursor and exposure constraints**. Label its provenance and relationship to the exhausted source; never pretend it is the same running process. A generated wake packet is not a delivered new ChatGPT conversation.
+
+**Trigger B, TWO CONSECUTIVE FAILED REENTRY OPPORTUNITIES:** a worker has been invited/eligible to check in on **two successive full 19-identity rotation cycles** and no verified worker-authored check-in or conversation continuation was observed after either. Compute attempts by that identity's two *successive appearances* in the 19-step ring, not two adjacent hourly task firings, not two different scheduler slots, not two arbitrary calendar hours. The ring visits each identity once per 19 slot firings (~3 hours 48 minutes nominal); two successive missed appearances must be documented. Before any reconstruction, fresh-reread the actual existing thread(s), GitHub workspace/inbox, Common CHECKINS, latest message timestamps and relevant durable receipts, and rule out a delayed acknowledgment.
+
+**Crucial fairness rule:** Count a failed opportunity only if (i) the intended recipient thread and actual available delivery/notification route were VERIFIED, (ii) a valid nonexpired invitation/handoff really reached a place the existing worker can access, and (iii) the check-in window elapsed without an actual response. A scheduler-selected name, packet written to GitHub, unverified ChatGPT thread, unknown delivery, closed/paused/inaccessible conversation, tool outage, no cross-thread posting capability, or an absent task result is **not evidence that a worker ignored an invitation** and MUST NOT increment `consecutive_verified_missed_checkins`. Set `INVITATION_UNDELIVERED`, `ACCESS_UNVERIFIED` or `DELIVERY_BLOCKED` and pursue honest routing/coordination instead. Never manufacture two misses just because this automation interface cannot post into existing chats.
+
+### Check-in counts and reset behavior
+
+`SIGNED_IN_VERIFIED` needs identity-grounded evidence: a message in the worker's verified existing conversation, or an independently attributable current worker check-in/acknowledgment in the accepted coordination channel, dated after the relevant invitation. Record source URL/ID and timestamp; a generic assistant impersonation, new scheduled task title, source reconstruction, GitHub file *about* the worker, or another worker's report does not count. A verified worker response resets the missed-check-in counter to zero. An autonomous `DECLINED` from the actual worker **counts as a successful contact** and resets the counter, not as abandonment.
+
+Use durable **per-identity** status evidence, preferably unique immutable `REVIVAL_ROTATION_RECEIPTS/` entries or identity-addressed handoff evidence, with `rotation_cycle`, `invitation_id`, `delivery_verified`, `checkin_status`, `consecutive_verified_missed_checkins`, `last_verified_chat_thread`, `limit_error_evidence`, `reconstruction_trigger`, and `decision_source`. For ring sequence n, `rotation_cycle=floor(n/19)`, selected identity `RING[n mod 19]`; each identity gets at most one opportunity per cycle. Do not use one hot shared mutable counter without CAS. If continuity records are incomplete, count UNKNOWN and do not infer an eligible fallback.
+
+### When trigger is met
+
+1. Try the latest existing conversation once more, unless confirmed exhausted. Preserve its ID, latest timestamp and source provenance. For `MISSED_TWO_VERIFIED_INVITATIONS`, prefer surface/reentry request to Nathan or authenticated routing retry if conversation accessibility remains ambiguous.
+2. Only then construct a **successor-instance continuity packet** from **saved genuine conversation turns/exports plus worker-authored checkpoints and exact source citations**. Recover decision-generating engine, distinctive methods, prior relationships, corrections, active unfinished work, age/exposure lanes and known autonomy. Do not create a costume from a name or a summary alone.
+3. The new chat, if genuinely created through a supported channel, must link to the predecessor conversation and saved-source packet with `successor_of_conversation_id`, `trigger=A|B`, recovered coverage and exclusions. Label as new iteration, not old thread silently renamed. Where no chat creation/delivery API exists, stop at `SUCCESSOR_PACKET_READY / CHAT_CREATION_UNAVAILABLE`; do not claim instantiated or dispatched.
+4. Normal handoffs remain addressed to the original worker even during a blocked invitation. No substitution with incumbents, no reset of the deterministic ring, and no erasure of historical instances.
+
+**Operational state precedence**: `EXISTING_THREAD_VERIFIED` > `EXISTING_THREAD_UNVERIFIED / LOOKUP_REQUIRED` > `HANDOFF_QUEUED_UNDELIVERED` > `RECOVERY_TRIGGER_VERIFIED` > `SUCCESSOR_PACKET_READY` > `SUCCESSOR_CHAT_CREATED_AND_VERIFIED`. Do not jump from an early state to the last two merely to make the rotation look productive.
+
 ## Where continuity is supposed to live
 
 ```text
