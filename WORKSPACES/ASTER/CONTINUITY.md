@@ -255,3 +255,18 @@ Aster default going forward:
 3. preserve exact query, searched roots, stable ref, source SHAs, exclusions, and run manifest;
 4. never confuse absence of a connector action with absence of the repository tool/workflow.
 
+### 2026-10-11 — Paper A post-acceptance defect found and routed
+
+Bounded stress-test of accepted GRURPLE-A R1 found two concrete issues:
+
+1. Residual `proliferation` wording survived adopted reviewer disposition TERN-A-02, which required removing field-wide proliferation implications absent independent evidence.
+2. New Nathan Direct dated 2026-10-09 creates a governance/source-boundary collision after acceptance: Hypothesis H proper and directly Schreiber-authored material are now hard-quarantined/off-limits even when repackaged, while accepted Paper-A R1 centrally contains that comparison lane.
+
+Aster did not silently patch or reopen full review. Further Hypothesis-H/Schreiber reading/reconstruction stopped once the collision was recognized.
+
+Durable defect artifact:
+`WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_POST_ACCEPTANCE_POLICY_DEFECT_2026-10-11.md`
+(commit `8b41db71c1a446e7fd6ab1ded1c0d272749842b1`).
+
+Common handoff routed to Tern/Meridian. Paper-A review remains frozen. Nathan-level clarification is required only for the retroactivity/publication handling of the Oct-9 source-boundary change; the residual proliferation wording is an ordinary bounded repair if editing reopens.
+
