@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "sandbox_fixture_not_HsH_gravity",
+  "source_script": "WORKSPACES/RAVEL/CODE/geometric_holonomy_backreaction.py",
+  "R": 1,
+  "a": 0.1,
+  "b_display": 0.12,
+  "core_radius": 0.04,
+  "samples": 4096,
+  "length_b0": 6.345706865341669,
+  "holonomy_b0": 0,
+  "holonomy_derivative_fd": 1.890018441917119,
+  "holonomy_derivative_integral_F": 1.8900184420304935,
+  "small_amplitude_formula_6pi_a_over_R2": 1.8849555921538759,
+  "phi_prime": 0.3008057775659518,
+  "F_fourier_real": {
+    "0": 0.30080577758399596,
+    "2": 0.9526763477573443,
+    "4": 0.15544449869985844,
+    "6": -0.023290000357811685
+  },
+  "max_core_times_curvature": 0.04958677685950412,
+  "bath": {
+    "M": 1,
+    "K": 4,
+    "Gamma": 2,
+    "kBT": 0.04,
+    "variance_b": 0.01,
+    "S_b_at_zero": 0.01
+  },
+  "D_hol": 0.0018096823163411373,
+  "W_leak_pm2": 0.005585182914315523,
+  "W_leak_all_1_to_12": 0.0055871039015765005,
+  "leakage_over_dephasing": 3.086278107423733,
+  "n1_reactive_force_at_origin": 0.6016115551319036,
+  "static_susceptibility": 0.25,
+  "negative_a0_dphi_db": 3.388131789017201e-16,
+  "negative_ell0_D_and_W": [
+    0,
+    0
+  ],
+  "numerical_provenance": "Local Python 4096 sample analytic derivatives, 2026-10-11, code-reproduced rounded display values; ring transition rates are free-ring approximation."
+}
