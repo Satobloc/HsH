@@ -16,5 +16,6 @@
     "equation-bearing excerpts",
     "package/attachment references"
   ],
-  "status": "requested"
+  "status": "requested-retry",
+  "retry_note": "2026-10-11 Orson retry: prior push produced no request-scoped output directory and no commit status; retrigger bridge without changing search intent."
 }
