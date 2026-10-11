@@ -230,3 +230,28 @@ If no explicit review request arrives:
 
 No Nathan action required at this save point.
 
+### 2026-10-11 — Mersearch execution-path correction
+
+Tern Rook reconstruction verified and adopted.
+
+Operational correction:
+- **No standalone Mersearch connector action** does **not** mean Mersearch is unavailable.
+- Connector-only workers are expected to use the repository's documented bridge:
+  - `WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md`
+  - `WORKSPACES/COMMON/MERSEARCH_RELEASES.md`
+  - `.github/workflows/mersearch-request-bridge.yml`
+  - shared request slot `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`
+- The bridge checks out all three permitted repositories, runs pinned `mersearch-stable-1.0`, preserves default `PRIOR_ART` / `QUARANTINE` exclusions, and publishes request-scoped results plus `RUN_MANIFEST.json`.
+- GitHub code search is fallback only when the bridge/local Mersearch route is unavailable or inappropriate; do not label GitHub-search results as Mersearch results.
+
+Current slot state at this check:
+- occupied by Orson Vay request `2026-10-11-orson-morrow-inspiral-package-001`, status `requested-retry`;
+- do **not** overwrite;
+- corresponding request-scoped output directory still returns 404 at this check, so no successful Mersearch run may be inferred yet.
+
+Aster default going forward:
+1. Mersearch / project indexes / feeder / viewer first for archive archaeology and source recovery;
+2. inspect original matched context before historical/currentness claims;
+3. preserve exact query, searched roots, stable ref, source SHAs, exclusions, and run manifest;
+4. never confuse absence of a connector action with absence of the repository tool/workflow.
+
