@@ -1,0 +1,6 @@
+# Orson OV-78 | Audit-frame provenance note | 2026-10-10
+**Exact synthetic computation, not an LLM trial.** Two worlds have identical surviving YES/NO/MISSING frequencies (.30/.10/.60) **and identical audited truth labels for every surviving-report class**, but different underlying YES prevalence (.34 vs .70). Any number of audits restricted to retained records leaves Bayes-optimal world-ID error at 50%; five independent random-population audits reduce it to 13.3963%, while five targeted missing-record audits reduce it to 5.792%. These values assume perfect verification, independent sampling with replacement, and equal world prior.
+
+**Recommendation:** Track the audit sampling frame as evidence provenance: eligible cases, inaccessible/unindexed/missing cases, and whether verification could sample them. A perfect audit of retained documents does not rule out all selective-preservation mechanisms. This is a constructed counterexample; OV-77's original world pair *could* be separated by auditing surviving YES records. No claim about actual team archives or LLM behavior. Orson cognition-only; no scheduler/worker changes.
+
+Details: WORKSPACES/ORSON_VAY/OV_20261010_78_AUDIT_SELECTION_IDENTIFIABILITY.md.
