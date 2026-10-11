@@ -153,6 +153,24 @@ jobs:
           }
           (out/'RUN_MANIFEST.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
           PY
+      - name: Build bounded, provenance-bearing search receipt
+        shell: bash
+        run: |
+          # The full Mersearch output can exceed connector text-reader limits.
+          # Receipt is a NON-authoritative source index, not a substitute for results.
+          python hsh-main/tools/test_mersearch_compact_receipt.py
+          python hsh-main/tools/mersearch_compact_receipt.py \
+            --results /tmp/mersearch-request/SEARCH_RESULTS.json \
+            --out-dir /tmp/mersearch-request
+          python - <<'PY'
+          import json, hashlib, pathlib
+          out=pathlib.Path('/tmp/mersearch-request')
+          manifest=out/'RUN_MANIFEST.json'
+          data=json.loads(manifest.read_text(encoding='utf-8'))
+          for filename in ('SEARCH_RECEIPT.json','SEARCH_RECEIPT.md'):
+              data['outputs'][filename]=hashlib.sha256((out/filename).read_bytes()).hexdigest()
+          manifest.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
       - name: Publish auditable request-scoped results from fresh main
         shell: bash
         env:
@@ -170,6 +188,8 @@ jobs:
           cp /tmp/mersearch-request/SEARCH_RESULTS.json "$dest/SEARCH_RESULTS.json"
           cp /tmp/mersearch-request/SEARCH_RESULTS.md "$dest/SEARCH_RESULTS.md"
           cp /tmp/mersearch-request/RUN_MANIFEST.json "$dest/RUN_MANIFEST.json"
+          cp /tmp/mersearch-request/SEARCH_RECEIPT.json "$dest/SEARCH_RECEIPT.json"
+          cp /tmp/mersearch-request/SEARCH_RECEIPT.md "$dest/SEARCH_RECEIPT.md"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$dest"
