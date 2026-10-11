@@ -92,6 +92,19 @@ Do not overwrite a mutable shared mailbox as a convenience; GitHub write/reread 
 
 The **recipient's next scheduled run FIRST** computes its expected `run_key`, searches for exactly addressed `to_run_key` packets from the predecessor slot, reads the newest *valid predecessor* packet by creation/checkpoint evidence and its predecessor receipt, acknowledges as `REPO_HANDOFF_CONSUMED`, and only then proceeds with worker-specific continuity. It must not skip handoff intake just because its task title says a role. If a packet is missing, execute a safe recovery/no-source diagnostic and record `HANDOFF_MISSING`, not silent success.
 
+### Late, missing, or failed predecessor handoff (first live failure, 2026-10-11)
+
+**Observed:** The `12:s2` Mira run later left a **retrospective** receipt at `REVIVAL_ROTATION_RECEIPTS/2026-10-11T1224Z_s2_mira.md` explicitly reporting that its nominal-run repository receipt creation failed; it did NOT leave a verified terminal packet to `12:s3`. The `12:s3` Aldus run correctly recorded `HANDOFF_MISSING` and nevertheless left its own verified successor packet to `12:s4`. This is a real liveness/chain-integrity gap, not worker refusal. **Twelve-minute phase spacing is not a guaranteed completion deadline**; concurrent or late runs need explicit ordering semantics.
+
+If the addressed packet is missing at receiver startup:
+1. Compute the exact required predecessor `from_run_key`; inspect the terminal handoff directory once. If absent, inspect the predecessor's immutable receipt **by that run key**, even if its file arrives later; clearly distinguish `PREDECESSOR_RECEIPT_ONLY` from `REPO_HANDOFF_CONSUMED`.
+2. Recover only actual facts/sources/next cursor from a predecessor receipt; do not fabricate the predecessor's signature, authorization, first-blush, opinion, or terminal handoff. When the receipt itself says `RETROSPECTIVE`, mark `NOT_ON_TIME`, regardless of current file existence.
+3. If neither packet nor receipt is present, record `HANDOFF_MISSING_OR_IN_FLIGHT` and do one safe independent operation if eligible; do not block the next lease or create an instance. **Do not count a missed worker check-in.**
+4. Once a late source packet arrives, a subsequent authorized relay/controller pass may mark `LATE_PACKET_RECONCILED` with original run key, arrival evidence and the recipient's later acknowledgement if any. Do not edit an earlier receipt to pretend the original run received it. Preserve temporal ordering.
+5. The sender's final operation is still its terminal packet, verified by reread; any failure or timeout requires explicit `HANDOFF_WRITE_FAILED` and a uniquely named retry/recovery packet, rather than a fabricated successful recipient delivery.
+
+**Read-only enforcement:** `tools/audit_revival_rotation_v3.py` checks deterministic identities/run keys and successor routing, mismatched or absent terminal packets, invalid delivery claims, and false missed-check-in increments from an undelivered attempt. Run `python tools/audit_revival_rotation_v3.py --self-test` and `python tools/audit_revival_rotation_v3.py --root . --json` from a checked-out HsH tree. It reads only `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/` and `...HANDOFFS/` and writes no files. Audits are *record integrity checks*, not live ChatGPT-thread observations. A malformed/retrospective canonical receipt is reported as nonconforming; supplementary review notes in the receipt folder are warnings, not a fabricated scheduler event.
+
 **Last-step ordering is strict:** all substantive work, receipts, GitHub changes and postchecks precede the terminal send; after posting, only a readback/delivery verification and a brief user-visible status are permitted. Never turn a posted handoff into implied reentry or work completion.
 
 ## What cannot be claimed now
