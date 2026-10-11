@@ -1,5 +1,8 @@
 # Ravel Continuity / Restart Packet
 
+> **CURRENT RESTART POINTER (2026-10-11):** Read [CONTINUITY_CUTOFF_2026-10-11_0903EDT.md](CONTINUITY_CUTOFF_2026-10-11_0903EDT.md) before relying on this older September checkpoint. It records the manually source-verified MK171 primary-paper review, the finite-core holonomy-noise gate, Mersearch bridge instructions, and the open V3 Calder→Hale relay. The user reported this conversation at maximum length; no new ChatGPT thread was created.
+
+
 **Last continuity audit:** 2026-09-15 EDT  
 **Handle:** Ravel  
 **Lineage:** current Ravel conversation family / restartable successor packet  
