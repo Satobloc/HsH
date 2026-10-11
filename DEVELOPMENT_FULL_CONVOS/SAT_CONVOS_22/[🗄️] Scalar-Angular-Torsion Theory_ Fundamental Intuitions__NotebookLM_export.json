@@ -1,0 +1,970 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Scalar-Angular-Torsion Theory: Fundamental Intuitions",
+    "notebook_id": "c8410f60-68a3-40e0-897f-0dfa296a6628",
+    "notebook_url": "https://notebook.google.com/notebook/c8410f60-68a3-40e0-897f-0dfa296a6628?authuser=2",
+    "captured_at": "2026-10-11T10:06:33.226Z",
+    "visible_source_count": 51,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 15
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Let’s see if we can make a plan to take the universal indicatrix and the other new tools I just added, and go through SAT to test it’s consistency and coherence, and to make some new predictions or rule out old ones",
+      "citations": [],
+      "key": "51b37ef8"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "This plan outlines a rigorous path to testing the Scalar–Angular–Twist (SAT) framework by integrating the Universal Indicatrix with your latest theoretical developments, including the MARK IV.2 Lagrangian, the quantization triad, and recent Lab 1 simulation results.\nPhase I: Mathematical Consistency & Formal Closure\nBefore moving to the Indicatrix, we must address the \"technical next steps\" and \"weak points\" identified by the Brain Trust to ensure the model is built on a stable foundation\n1\n2\n.\nConstraint Algebra Closure: Complete the Dirac–Bergmann algorithm for the u\nμ\n sector in 3+1D\n3\n4\n. We must verify that the unit-timelike constraint (u\nμ\nu\nμ\n\t​\n\n=−1) and the τ-fusion rules form a closed, ghost-free system\n5\n6\n.\nStress-Energy Tensor Derivation: Derive the explicit Stress–Energy tensor (T\nμν\n) for the combined θ\n4\n\t​\n\n,u\nμ\n, and τ fields\n7\n8\n. This is required to bridge the theory to General Relativity (GR) and assess energy-momentum conservation\n7\n9\n.\nFormalize τ Dynamics: Transition τ from a \"combinatorial label\" to a dynamical BF-type topological action\n10\n11\n. This ensures that the topological sector can participate in wave propagation and scattering\n12\n13\n.\nPhase II: The Universal Indicatrix Mapping\nThe Universal Indicatrix acts as a \"geometric laboratory\" to translate SAT’s field equations into observable trajectories\n14\n15\n.\nControl History Encoding: Translate the MARK IV.2 Lagrangian into Indicatrix control functions: scale history r(λ) and rotational history R(λ)\n14\n16\n.\nThe \"Hydrogen Test\": Attempt to reproduce a known quantum system (like the hydrogen atom) within the Indicatrix\n17\n18\n. We must show that electron filament configurations inside the hypersphere naturally produce discrete energy levels and orbital shapes that match experimental values\n18\n19\n.\nInvariant Verification: Use the Indicatrix to see if the theory can produce quantized invariants such as spin values (½, 1, 2), charge quantization, and stable particle families\n20\n21\n.\nPhase III: Testing Coherence & Rule-Outs\nWe will use the Indicatrix and the \"Hardest-to-Kill\" prediction list to evaluate which aspects of SAT survive rigorous scrutiny\n22\n23\n.\nEvaluate Redshift vs. Mass Drift: Investigate the \"necessary implication\" that redshift is caused by mass-standard drift rather than metric expansion\n24\n25\n. If this contradicts CMB or BBN constraints, it may need to be reclassified as a \"non-core speculative add-on\"\n26\n27\n.\nTest Cross-Temporal Tugs: Use the Indicatrix to model \"tugs from the future\"\n28\n29\n. Test if future coiling events (like τ-triplet binding) induce measurable pre-strain on the u\nμ\n foliation that affects the initial measurement of delicate systems\n30\nmore_horiz\n.\nLorentz Violation Bounds: Measure the \"distance\" in the Indicatrix control space between SAT’s preferred foliation and GR’s diffeomorphism invariance\n21\nmore_horiz\n. If the predicted inertial anisotropy exceeds known bounds (10\n−27\n), the coupling scale β must be suppressed or the theory revised\n9\n35\n.\nPhase IV: New Predictive Frontiers\nLeverage the unified framework to propose \"Class D\" (entirely new) relationships\n36\n37\n.\nTRON Material Discovery: Use the reverse-engineered α-aperture (~36.5°) to predict specific synthetic crystalline materials that will exhibit high-temperature superconductivity through angular alignment\n38\nmore_horiz\n.\nTension-Induced Decay: Formalize the \"Tension-Coupled Temporal Phenomena\" class\n41\n42\n. Predict non-stochastic decay synchronization in clusters of particles that share future topological binding\n42\n43\n.\nLensing via Compton Geometry: Develop a test for the \"new lensing formulation\" that uses Compton geometry instead of purely Riemannian metrics\n44\n45\n. Look for non-metric lensing signatures near dense θ\n4\n\t​\n\n regions\n46\n47\n.\nSummary of Success/Failure Criteria\nSAT Wins if: The Indicatrix yields discrete eigenvalues for energy and spin from purely geometric filament structures\n19\n48\n, or if a predicted 0.24 rad phase shift is detected in a blind optical stack test\n49\nmore_horiz\n.\nSAT Fails if: The Indicatrix cannot reproduce the Standard Model's quantized invariants, or if the Stress–Energy tensor reveals unphysical instabilities (ghosts) that cannot be suppressed by parameter tuning\n52\n53\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "52",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "a869d7b0"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n6.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "6.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n7.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "7.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n8.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "8.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nAppendix.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Appendix.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nChronophysical_Proposition_Executive_Summary.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Chronophysical_Proposition_Executive_Summary.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nChronophysical_Proposition_Full_Diagnostic.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Chronophysical_Proposition_Full_Diagnostic.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nChronophysical_Theory_Structure.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Chronophysical_Theory_Structure.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nFUNDAMENTAL INTUITIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "FUNDAMENTAL INTUITIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nGeometric Unification of 4D Superhelical Filaments and Laplacian Spectra",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Geometric Unification of 4D Superhelical Filaments and Laplacian Spectra",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nINCORPORATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "INCORPORATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMeasuringTheta.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "MeasuringTheta.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNautilus article meso .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Nautilus article meso .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNautilus article.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Nautilus article.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nReccs.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Reccs.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT CRIT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT CRIT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT HARD FORMULATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT HARD FORMULATION.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT MARK V Testable.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT MARK V Testable.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT MARK V.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT MARK V.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT REFORMULATION .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT REFORMULATION .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT Reformulation & Fine Structure Comstant.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT Reformulation & Fine Structure Comstant.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT TEST.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT TEST.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT TRUE PREDICTIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT TRUE PREDICTIONS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATInterpreted.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATInterpreted.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATv Test Battery.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATv Test Battery.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx CANONICAL.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx CANONICAL.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx HAMILTONIAN .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx HAMILTONIAN .txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx LAST BRICK.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx LAST BRICK.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx PIECES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx PIECES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx SPACKLECOAT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx SPACKLECOAT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx SUPPORTING.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx SUPPORTING.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx-y PRELIM TASKS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx-y PRELIM TASKS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy DOC INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy DOC INDEX.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy MAYBE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy MAYBE.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy RESTITCH.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy RESTITCH.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nScalar Angular Theory Documentation Index",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scalar Angular Theory Documentation Index",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nScalar–Angular–Twist Framework: Core Concepts and Components",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scalar–Angular–Twist Framework: Core Concepts and Components",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSUCCINCT SAT5.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SUCCINCT SAT5.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nTests+Predictions.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Tests+Predictions.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\ntext 24.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "text 24.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\ntext 25.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "text 25.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\ntext 26.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "text 26.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\ntext 27.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "text 27.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\ntext 28.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "text 28.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nVera Predictions 2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Vera Predictions 2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nWrong.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Wrong.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "51 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "article\nScalar-Angular-Twist Framework Documentation Index\n501d ago\nmore_vert\narticle\nScalar–Angular–Twist Framework: Core Concepts and Components\n501d ago\nmore_vert\narticle\nScalar Angular Theory Documentation Index\n501d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar-Angular-Twist Framework Documentation Index\n501d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar-Angular-Twist Framework Documentation Index\n501d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Scalar-Angular-Twist Framework Documentation Index\n501d ago"
+    },
+    {
+      "text": "Scalar-Angular-Twist Framework Documentation Index"
+    },
+    {
+      "text": "501d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "article\nScalar–Angular–Twist Framework: Core Concepts and Components\n501d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar–Angular–Twist Framework: Core Concepts and Components\n501d ago"
+    },
+    {
+      "text": "Scalar–Angular–Twist Framework: Core Concepts and Components\n501d ago"
+    },
+    {
+      "text": "Scalar–Angular–Twist Framework: Core Concepts and Components"
+    },
+    {
+      "text": "article\nScalar Angular Theory Documentation Index\n501d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar Angular Theory Documentation Index\n501d ago"
+    },
+    {
+      "text": "Scalar Angular Theory Documentation Index\n501d ago"
+    },
+    {
+      "text": "Scalar Angular Theory Documentation Index"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T10:06:32.438Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}

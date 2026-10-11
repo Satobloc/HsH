@@ -1,0 +1,1062 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] SAT GEOMETRY",
+    "notebook_id": "d1484f82-b80b-435f-a248-df8176486eed",
+    "notebook_url": "https://notebook.google.com/notebook/d1484f82-b80b-435f-a248-df8176486eed?authuser=2",
+    "captured_at": "2026-10-11T10:36:27.993Z",
+    "visible_source_count": 50,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 27
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Give me an index of the sources please",
+      "citations": [],
+      "key": "8617e53a"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the provided source material, here is an index of the images and diagrams included:\nCA79B138-54A2-4D89-A4D1-DC80306F2FDF.png: A photograph of a metallic coil or spring\n1\n.\nIMG_1183.jpeg: A hand-drawn sketch on graph paper illustrating a vibration and a spiral\n2\n.\nIMG_1522.png: A screenshot of the NotebookLM interface featuring Borromean rings\n3\n.\nIMG_1523.png: A visualization of a helical, DNA-like structure\nlock\n.\nIMG_1524.png: A screenshot showing microscopic coils alongside a 3D helical model\n4\n.\nIMG_1525.png: A screenshot of a double helical or coiled structure\n5\n.\nIMG_1526.png: A visualization of two interlocking rings in red and blue\n6\n.\nIMG_1527.png: A screenshot depicting a red and blue double helix\n7\n.\nIMG_1531.png: A screenshot showing two ribbon-like helical structures\n8\n.\nIMG_1532.png: A technical diagram of intertwined helices with mathematical parameters such as radius (R) and height (H)\n9\n.\nIMG_1533.png: A 3D model of a complex teal coiled structure wrapped around a central core\n10\n.\nIMG_1534.png: A screenshot showing complex 3D coils and a reference to Euler's formula\n11\n.\nIMG_1536.png: A 3D plot of a coiled torus-like shape mapped on a coordinate system\n12\n.\nIMG_1537.png: A 3D render of a wide, paper-like helical structure\nlock\n.\nIMG_1801.jpeg: A slide discussing \"A Geometric Cosmology\" and the concept of expansion as resolution\n13\n.\nIMG_1830.jpeg: Diagrams comparing the worldlines of a particle at rest versus a moving particle\n14\n.\nIMG_3012.jpeg: A hand-drawn sketch of a \"Neutrino\" helical ripple passing through a plane\n15\n.\nIMG_3437.jpeg: A 3D render showing spirals passing through a semi-transparent plane, creating ripples\n16\n.\nIMG_3480.jpeg: A 3D render of a multicolored triple helix entering a large blue spherical surface\n17\n.\nIMG_6112.jpeg: A diagram illustrating \"Shinkick Expansion\" within a spherical model of the universe\n18\n.\nIMG_6113.jpeg: A diagram illustrating \"Anchor-Centered Expansion\"\n19\n.\nIMG_6148.jpeg: A hand-drawn sketch on a napkin showing various worldlines and time directions\n20\n.\nIMG_6326.jpeg: A technical illustration of a coil deforming a grid-plane due to resistance force\n21\n.\nIMG_6327.jpeg: A diagram defining particle identity through four mathematical parameters: amplitude, winding numbers, phase offsets, and rotational planes\n22\n.\nIMG_6331.jpeg: A wireframe visualization of interlocking coiled tori\n23\n.\nIMG_6367.jpeg: A 3D model of a segmented helical tube with labels indicating various geometric features\n24\n.\nIMG_6544.jpeg: A technical rendering of complex coiled rope or cable structures\n25\n.\nIMG_6558.jpeg: A schematic drawing of a circuit-like path with positive and negative terminals\n26\n.\nIMG_6559.jpeg: A hand-drawn sketch of three parallel spring coils\n27\n.\nIMG_6991.jpeg: A diagram of a coil with angular measurements (0° to 270°) for rotation\n28\n.\nIMG_7007.jpeg: A 3D render of a laser beam coiling within a transparent glass block\n29\n.\nIMG_7047.jpeg: A diagram showing a partial loop on a sphere accompanied by a derivative equation\n30\n.\nIMG_7106.jpeg: A 3D render of glowing coils on a microprocessor chip\n31\n.\nIMG_7107.jpeg: A 3D render of a human brain with glowing, helical neural pathways\n32\n.\nIMG_8623.jpeg: An isometric technical drawing of a segmented coiled tube\n33\n.\nIMG_8741.jpeg: An abstract high-density circuitry pattern in purple and blue\n34\n.\nIMG_8749.jpeg: A 3D render of a spiral passing through stacked planes, creating energy ripples\n35\n.\nIMG_9081.jpeg: A 3D plot of a wavefront-filament intersection surface\n36\n.\nIMG_9706.jpeg: A close-up image of a glowing light coil around a transparent rod\n37\n.\nIMG_9792.jpeg: A braided multicolored cord entering a dark, grid-textured spherical object\n38\n.\nIMG_9871.jpeg: A complex geometric diagram illustrating 4D space-time with glowing paths and various dimensions\nlock\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "0775a7f5"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Ok, can you create an index of the newly added images",
+      "citations": [],
+      "key": "c1d19561"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "By comparing the current sources with those listed in your previous index, here is a list of the newly added images and diagrams:\nIMG_1236.jpeg: An abstract and highly blurred image featuring vibrant, luminous patches of yellow, pink, and white\n1\n.\nIMG_1749.jpeg: A clean 3D render of a dark blue coil passing through a transparent, horizontal plane, creating visible ripples on the surface\n2\n.\nIMG_2102.jpeg: A monochrome illustration depicting a leaf with a prominent water droplet that contains a reflection of a landscape\n3\n.\nIMG_2180.jpeg: A decorative and symmetrical design featuring red flowers with gold accents and bird motifs against a silver background\n4\n.\nIMG_2330.jpeg: A soft-focus, circular image of a celestial body or atmospheric phenomenon with a glowing yellow core and a blue outer ring\n5\n.\nIMG_2885.jpeg: A stylized 3D render of a mountain range characterized by sharp, jagged peaks and a gradient of blue, purple, and orange light\n6\n.\nIMG_5497.jpeg: A blurry, orange-tinted photograph taken with motion, seemingly inside an industrial or workshop setting\n7\n.\nIMG_9588.png: A technical 3D visualization titled \"Radial Filaments from Center of Sphere,\" showing lines emanating from the center of a wireframe globe\n8\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "d99cd2b2"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nAll notes 6/15/2026",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "All notes 6/15/2026",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nCA79B138-54A2-4D89-A4D1-DC80306F2FDF.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "CA79B138-54A2-4D89-A4D1-DC80306F2FDF.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1183.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1183.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1236.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1236.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1522.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1522.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1524.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1524.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1525.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1525.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1526.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1526.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1527.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1527.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1531.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1531.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1532.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1532.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1533.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1533.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1534.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1534.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1536.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1536.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1749.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1749.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1801.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1801.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1830.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1830.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_2102.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_2102.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_2180.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_2180.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_2330.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_2330.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_2885.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_2885.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3012.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3012.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3437.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3437.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_3480.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_3480.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_5497.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_5497.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6112.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6112.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6113.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6113.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6148.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6148.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6326.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6326.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6327.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6327.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6331.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6331.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6367.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6367.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6544.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6544.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6558.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6558.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6559.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6559.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6991.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6991.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7007.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7007.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7047.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7047.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7106.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7106.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_7107.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_7107.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8623.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8623.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8741.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8741.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_8749.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_8749.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9081.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9081.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9588.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9588.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9706.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9706.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9792.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9792.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nINDEX ONE",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "INDEX ONE",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nINDEX TWO",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "INDEX TWO",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nPROP Q.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "PROP Q.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "50 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "tablet\nThe Geometry of Artificial Probability\n50 sources · 98d ago\nmore_vert\naudio_spark\nThe Physics of Tangled World Tubes\n42:19 · Deep Dive · 50 sources · 116d ago\nwaving_hand\nplay_arrow\nmore_vert\ntablet\nThe H(s)H Synthesis\n50 sources · 116d ago\nmore_vert\naudio_spark\nThe Universe Is a Tangle of Rope\n47:24 · Deep Dive · 50 sources · 117d ago\nwaving_hand\nplay_arrow\nmore_vert\narticle\nThe H(s)H Minkowski Symplectic Coholonomy Synthesis\n117d ago\nmore_vert\ntablet\nSuperhelical Topology Matrix\n50 sources · 120d ago\nmore_vert\ntablet\nSuperhelical Morphology\n50 sources · 120d ago\nmore_vert\narticle\nINDEX TWO\n120d ago\nmore_vert\narticle\nINDEX ONE\n120d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Geometry of Artificial Probability\n50 sources · 98d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Geometry of Artificial Probability\n50 sources · 98d ago"
+    },
+    {
+      "text": "The Geometry of Artificial Probability\n50 sources · 98d ago"
+    },
+    {
+      "text": "The Geometry of Artificial Probability"
+    },
+    {
+      "text": "50 sources · 98d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "audio_spark\nThe Physics of Tangled World Tubes\n42:19 · Deep Dive · 50 sources · 116d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Physics of Tangled World Tubes\n42:19 · Deep Dive · 50 sources · 116d ago"
+    },
+    {
+      "text": "The Physics of Tangled World Tubes\n42:19 · Deep Dive · 50 sources · 116d ago"
+    },
+    {
+      "text": "The Physics of Tangled World Tubes"
+    },
+    {
+      "text": "42:19 · Deep Dive · 50 sources · 116d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "tablet\nThe H(s)H Synthesis\n50 sources · 116d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe H(s)H Synthesis\n50 sources · 116d ago"
+    },
+    {
+      "text": "The H(s)H Synthesis\n50 sources · 116d ago"
+    },
+    {
+      "text": "The H(s)H Synthesis"
+    },
+    {
+      "text": "50 sources · 116d ago"
+    },
+    {
+      "text": "audio_spark\nThe Universe Is a Tangle of Rope\n47:24 · Deep Dive · 50 sources · 117d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe Universe Is a Tangle of Rope\n47:24 · Deep Dive · 50 sources · 117d ago"
+    },
+    {
+      "text": "The Universe Is a Tangle of Rope\n47:24 · Deep Dive · 50 sources · 117d ago"
+    },
+    {
+      "text": "The Universe Is a Tangle of Rope"
+    },
+    {
+      "text": "47:24 · Deep Dive · 50 sources · 117d ago"
+    },
+    {
+      "text": "article\nThe H(s)H Minkowski Symplectic Coholonomy Synthesis\n117d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe H(s)H Minkowski Symplectic Coholonomy Synthesis\n117d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "The H(s)H Minkowski Symplectic Coholonomy Synthesis\n117d ago"
+    },
+    {
+      "text": "The H(s)H Minkowski Symplectic Coholonomy Synthesis"
+    },
+    {
+      "text": "117d ago"
+    },
+    {
+      "text": "tablet\nSuperhelical Topology Matrix\n50 sources · 120d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nSuperhelical Topology Matrix\n50 sources · 120d ago"
+    },
+    {
+      "text": "Superhelical Topology Matrix\n50 sources · 120d ago"
+    },
+    {
+      "text": "Superhelical Topology Matrix"
+    },
+    {
+      "text": "50 sources · 120d ago"
+    },
+    {
+      "text": "tablet\nSuperhelical Morphology\n50 sources · 120d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nSuperhelical Morphology\n50 sources · 120d ago"
+    },
+    {
+      "text": "Superhelical Morphology\n50 sources · 120d ago"
+    },
+    {
+      "text": "Superhelical Morphology"
+    },
+    {
+      "text": "article\nINDEX TWO\n120d ago\nmore_vert"
+    },
+    {
+      "text": "article\nINDEX TWO\n120d ago"
+    },
+    {
+      "text": "INDEX TWO\n120d ago"
+    },
+    {
+      "text": "INDEX TWO"
+    },
+    {
+      "text": "120d ago"
+    },
+    {
+      "text": "article\nINDEX ONE\n120d ago\nmore_vert"
+    },
+    {
+      "text": "article\nINDEX ONE\n120d ago"
+    },
+    {
+      "text": "INDEX ONE\n120d ago"
+    },
+    {
+      "text": "INDEX ONE"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T10:36:23.904Z",
+      "event": "harvest_complete",
+      "messages": 4,
+      "reachedTop": true
+    }
+  ]
+}

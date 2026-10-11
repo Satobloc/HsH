@@ -1,0 +1,1325 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] NeoSAT",
+    "notebook_id": "99c82fcd-0e9e-478e-aad9-a5f92602260a",
+    "notebook_url": "https://notebook.google.com/notebook/99c82fcd-0e9e-478e-aad9-a5f92602260a?authuser=2",
+    "captured_at": "2026-10-11T10:42:34.852Z",
+    "visible_source_count": 19,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 23
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "Describe in detail what the images show",
+      "citations": [],
+      "key": "df47db35"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The sources provide two distinct types of visual material: a 3D plot of complex trajectories, and a conceptual diagram illustrating the unification of several physics theories.\nImage IMG_1168.png (\n1\n,)\nThe images show a three-dimensional visualization of complex paths plotted on a spatial grid, with coordinates labeled along the x-axis\n1\n,. This type of plot suggests a representation of particle trajectories or dynamics\n2\n.\nThe visualization contains two distinct complex curves:\nA smoother, blue trajectory that forms a wavy, star-like pattern projected in the visible plane\n1\n,. A single red point marks a location along this blue path\n1\n,.\nA jagged, red trajectory that appears below the blue path, exhibiting sharper, more chaotic \"ripples\"\n1\n,.\nIn the conceptual framework of the Scalar Angular Twist (SAT) theory discussed in the sources, a particle's motion and properties are mapped as trajectories that include intrinsic oscillations or \"ripples\"\n3\n,\n4\n,\n5\n. Each particle's joint motion-property mapping is conceived as something like a coil or a spring whose complexity varies by particle\n5\n,\n6\n. The curves shown are consistent with a geometric visualization of such oscillating trajectories, where the path of the particle is the primary line, and the properties are encoded as deviations or oscillations along that path\n3\n,\n7\n.\nImage IMG_1193.png (\n8\n,)\nThis image is a detailed conceptual visualization illustrating the geometrical relationships between major physics theories\n8\n,. The entire depiction uses geometry and topology, a style consistent with the SAT framework which aims to unify phenomena through geometric/topological interactions\n9\n.\nThe key components and their labels are:\nQuantum Chromodynamics (QCD): This is represented by a structure resembling a triple-braided ribbon composed of red, green, and blue strands tightly twisted together\n8\n,. In the SAT framework, QCD (the strong interaction and color confinement) is conceptually mapped as the braiding and coupling of multi-particle helical trajectories\n10\n,\n11\n,\n12\n.\nGeneral Relativity (GR): This is associated with a large, curved blue background surface\n8\n,. An arrow points directly to the curvature of this surface, suggesting that GR is related to the overall structure or field distortion\n8\n,. Within SAT, General Relativity is considered the result of time field distortion\n13\n,\n11\n, or the statistical, collective back-reaction of particle motions on a dynamic temporal medium\n14\n.\nString Theory: This is represented by several faint, light-colored lines (pink, blue, cyan) that extend and cross over the curved surface, directed away from the central braided structure\n8\n,. This element represents the concept that the complexity of particle properties can be linked to oscillation modes on open or closed loops/strings\n15\n,\n16\n. In SAT, string theory is interpreted as the surface trace of particle vectors intersecting the propagating time field\n11\n.\nOverall, the image illustrates a unified geometric picture where all fundamental phenomena—gauge forces (QCD), quantum effects (via trajectories), and gravity (General Relativity)—are encoded in intertwined paths and the curvature of the underlying medium\n12\n,\n9\n. This visualization supports the idea that the \"stringiness\" or loop structure of physics emerges automatically from the geometry of oscillatory trajectories and time-field intersections\n17\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "1fcdb1ea"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "Do they clarify what is meant by the concepts in SAT",
+      "citations": [],
+      "key": "c1425888"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The concepts within the Scalar Angular Twist (SAT) theory are clarified in detail across the sources, establishing a geometrical and topological framework for unifying fundamental physics. SAT is defined as a geometric isomorphic reconstruction of known particle–field dynamics\n1\n.\nCore Principles of SAT\nThe foundation of SAT rests on two primitives and their interaction:\nParticle Representation (The Trajectory/Vector): A particle is represented as a classical trajectory in 4D (or 3D + time)\n2\n,\n3\n. Its intrinsic properties (such as mass, charge, and spin) are not treated as separate parameters but as oscillations or \"ripples\" superimposed onto the main path\n4\n,\n5\n. This joint motion-property mapping is conceptually visualized as a coil or a spring whose complexity varies by particle\n6\n,\n7\n.\nThe Time Field (The Medium): Time is modeled as a propagating slice or surface\n8\n, which is treated as a dynamic field\n9\n. This time field is capable of being distorted by energy exchange with particle trajectories\n8\n,\n10\n. The dynamics of the universe are viewed as asynchronous propagation along the Time direction\n11\n,\n12\n.\nKey Geometric Concepts\nThe interaction between the particle trajectory and the time field is governed by fundamental geometric parameters:\nIntersection Angle (θ): This is the single most important scalar in SAT\n13\n. The angle of intersection between the particle's oscillating trajectory (vector) and the time field encodes the fundamental mechanism of energy transfer or force transmission\n14\n,\n15\n,\n16\n. This angle is considered the differential of curvature\n17\n, or the atomic precursor of curvature\n18\n, and it is a mass-like function\n19\n,\n20\n.\nMass: Mass is not fundamental but is an emergent geometric consequence\n20\n. It is defined as the degree of deviation from null motion\n21\n, where the longer path length taken by the worldline relative to the lightlike line is mass itself\n22\n,\n23\n.\nQuantization (Holonomy): Quantum effects are captured through the geometrical concept of holonomy\n24\n,\n25\n. When a helical worldline is sliced by the propagating time field, the intersection produces a closed loop\n26\n. Quantization arises as the topological twisting or phase circle of this closed loop, which enforces discrete spectra\n27\n,\n28\n,\n29\n.\nUnification and Emergent Phenomena\nSAT proposes that all major physics phenomena emerge from these trajectory-field interactions:\nGravity (General Relativity - GR): GR is considered the statistical, collective back-reaction of all particle motions on the dynamic temporal medium\n30\n,\n29\n. What we perceive as spacetime curvature in GR is actually the distortion in the time field itself\n31\n,\n32\n, aggregated from microscopic intersection angle dynamics\n33\n,\n34\n. At the micro-level, gravity is the energetic cost of phase enforcement needed to synchronize a particle's internal oscillator to the local temporal flow\n35\n,\n36\n.\nQuantum Chromodynamics (QCD): The strong interaction and color confinement are encoded as the braiding and coupling of multi-particle helical trajectories\n37\n,\n29\n. For quarks in a baryon, the three trajectories are interbraided oscillations where the binding emerges from the intertwining geometry\n38\n,\n39\n.\nString Theory (ST): ST is reinterpreted as the geometric consequence of the SAT framework, specifically the surface trace of particle vector intersection over time\n40\n. Open and closed loops (or strings) emerge naturally when the oscillating trajectory is sliced by the time field\n41\n,\n42\n.\nElectromagnetism and Charge (α): All forces are considered apparent forces\n43\n, emergent from path deviations\n44\n. The fine-structure constant (α) is defined as a unitless curvature response coefficient\n45\n. It quantifies the ratio of interaction-caused path curvature to intrinsic path curvature\n46\n, reflecting the fractional deviation of the worldline angle due to charge interactions\n47\n.\nPhoton and Vacuum: The vacuum is not empty; it is a structured, uniform time-field substrate\n48\n, defined as perfectly straight, aligned vectors\n49\n,\n50\n. A photon is a massless, localized kink or oscillatory disturbance that propagates along these vacuum vectors\n51\n,\n52\n,\n53\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "50",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "51",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "52",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "77e586ab"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "In the simplest, most conservative terms possible, build the entire SAT picture, mentioning but not using the calculatory frameworks that would be used, starting with the basic 4D particle vector",
+      "citations": [],
+      "key": "76155db6"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "The Scalar Angular Twist (SAT) picture is a comprehensive geometric isomorphic reconstruction of known particle–field dynamics, which reinterprets all physical phenomena—from quantum mechanics to gravity—as the dynamics and geometry of particle trajectories intersecting a dynamic medium\n1\n,\n2\n. This framework utilizes and reorganizes existing classical wave mechanics and covariant equations\n3\n,\n4\n.\nThe entire picture is built upon a minimal set of primitives:\n1. The Particle and its Trajectory\nA particle is represented as a 4D classical trajectory\n5\n,\n6\n. This trajectory is not a simple line, but a joint motion-property mapping\n7\n. The particle's intrinsic properties, such as mass, charge, and spin, are encoded as oscillations or \"ripples\" superimposed onto the main path\n8\n,\n9\n. This oscillating trajectory is conceptually visualized as something like a coil or a spring whose complexity varies by particle\n7\n.\n2. The Time Field and the Vacuum\nTime is not a static background but is modeled as a propagating slice or surface, treated as a dynamic field\n10\n,\n6\n. This time field is capable of being distorted by interactions with particle trajectories\n10\n.\nThe vacuum itself is not empty, but a structured, uniform time-field substrate defined by perfectly straight vectors aligned with the direction of time propagation\n11\n,\n12\n. A photon is represented as a massless, localized kink or oscillatory disturbance that propagates along these straight vacuum vectors\n13\n.\n3. The Core Dynamic: Intersection Angle and Mass\nThe essential dynamic interaction occurs when the particle’s oscillating trajectory intersects the propagating time field\n14\n,\n15\n,\n16\n.\nThe Intersection Angle (θ): The angle of intersection between the particle's vector and the time field is the fundamental scalar encoding the energy transfer or force transmission\n17\n,\n18\n.\nMass and Path Length: This angle θ is considered a mass-like function\n19\n. Mass is conceptually defined as the length of the detour away from the lightlike line\n20\n. When a particle's trajectory tilts relative to the time field, its worldline becomes longer than a photon's null path, and this geometric deviation (the angle) is the mass itself\n21\n.\n4. Emergent Physics (The Unification Map)\nAll known forces and fundamental phenomena emerge from the geometrical consequences of these oscillating trajectories, intersections, and the topology they create:\nQuantum Mechanics (Quantization): Quantum effects, such as discrete spectra and phase, emerge from holonomy\n22\n,\n23\n. When the oscillatory worldline is sliced by the propagating time field, the trace of the intersection produces a closed loop\n16\n. Quantization arises as the topological twisting or phase circle of this closed loop\n24\n,\n25\n. This process can be mathematically formalized using existing topological concepts like holonomy\n26\n,\n23\n.\nGravity (General Relativity - GR): Gravity is not fundamentally curvature of space, but the statistical, collective back-reaction of all microscopic particle motions on the dynamic temporal medium\n27\n. At the local level, gravity is the energetic cost of phase enforcement needed to synchronize a particle's internal oscillation to the local temporal flow\n28\n,\n29\n. When averaged over large numbers of particles, the cumulative effect of these θ misalignments and enforcement costs produces the macroscopic distortion in the time field that we observe as spacetime curvature in GR\n30\n,\n27\n,\n31\n. The emergence of GR can be shown using statistical analysis of the local angle dynamics and existing covariant formalisms\n32\n,\n33\n.\nStrong Interaction (QCD): The strong force and color confinement are encoded as the geometric constraints arising from the braiding and coupling of multi-particle helical trajectories\n34\n,\n35\n. For quarks within a hadron, the binding emerges naturally from the intertwining geometry of their oscillations\n36\n. This requires modeling the interactions using explicit braiding constraints\n37\n,\n38\n.\nElectromagnetism and Forces: All conventional forces are apparent forces that arise from path deviations\n39\n. The fine-structure constant (α) is a unitless curvature response coefficient that quantifies the fractional deviation of the worldline angle due to charge interactions versus its intrinsic mass-driven deviation\n40\n,\n41\n. The governing equations essentially collapse the zoo of forces into generalized geodesic propagation, where the various forces are components of the single geometric propagation rule\n42\n,\n43\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "31",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "32",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "33",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "34",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "39",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "40",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "dc90410c"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1147.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1147.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1150.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1150.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1152.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1152.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1154.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1154.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1165.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1165.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1167.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1167.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1168.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1168.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1193.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1193.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_1204.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_1204.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_4372.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_4372.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_6581.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_6581.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9025.gif",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9025.gif",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9629.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nMinimal Toy Universe: Particle Dynamics Visualization",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Minimal Toy Universe: Particle Dynamics Visualization",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNeoSAT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "NeoSAT.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNeoSAT2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "NeoSAT2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNeoSAT15.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "NeoSAT15.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nNeoSAT25.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "NeoSAT25.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nScalar Angular Twist: A Geometric Unification of Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scalar Angular Twist: A Geometric Unification of Physics",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "19 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "videocam\nA New Picture of Reality\n7:24 · Explainer · 19 sources · 303d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nA New Picture of Reality\n7:24 · Explainer · 19 sources · 303d ago"
+    },
+    {
+      "text": "A New Picture of Reality\n7:24 · Explainer · 19 sources · 303d ago"
+    },
+    {
+      "text": "A New Picture of Reality"
+    },
+    {
+      "text": "7:24 · Explainer · 19 sources · 303d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unifies Physics Geometry\n28:56 · Deep Dive · 19 sources · 303d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unifies Physics Geometry\n28:56 · Deep Dive · 19 sources · 303d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Unifies Physics Geometry\n28:56 · Deep Dive · 19 sources · 303d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Unifies Physics Geometry"
+    },
+    {
+      "text": "28:56 · Deep Dive · 19 sources · 303d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "videocam\nScalar Angular Twist\n7:18 · Explainer · 1 source · 304d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nScalar Angular Twist\n7:18 · Explainer · 1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist\n7:18 · Explainer · 1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist"
+    },
+    {
+      "text": "7:18 · Explainer · 1 source · 304d ago"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unified Theory Explained\n26:15 · Deep Dive · 1 source · 304d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unified Theory Explained\n26:15 · Deep Dive · 1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Unified Theory Explained\n26:15 · Deep Dive · 1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Unified Theory Explained"
+    },
+    {
+      "text": "26:15 · Deep Dive · 1 source · 304d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nScalar Angular Twist Physics Theory\n1 source · 304d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nScalar Angular Twist Physics Theory\n1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Physics Theory\n1 source · 304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Physics Theory"
+    },
+    {
+      "text": "1 source · 304d ago"
+    },
+    {
+      "text": "article\nScalar Angular Twist: A Geometric Unification of Physics\n304d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar Angular Twist: A Geometric Unification of Physics\n304d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Scalar Angular Twist: A Geometric Unification of Physics\n304d ago"
+    },
+    {
+      "text": "Scalar Angular Twist: A Geometric Unification of Physics"
+    },
+    {
+      "text": "304d ago"
+    },
+    {
+      "text": "audio_spark\nSAT Framework A Map Not Prediction\n16:59 · Debate · 20 sources · 305d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nSAT Framework A Map Not Prediction\n16:59 · Debate · 20 sources · 305d ago"
+    },
+    {
+      "text": "SAT Framework A Map Not Prediction\n16:59 · Debate · 20 sources · 305d ago"
+    },
+    {
+      "text": "SAT Framework A Map Not Prediction"
+    },
+    {
+      "text": "16:59 · Debate · 20 sources · 305d ago"
+    },
+    {
+      "text": "videocam\nThe Geometry of Everything\n6:54 · Explainer · 18 sources · 305d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nThe Geometry of Everything\n6:54 · Explainer · 18 sources · 305d ago"
+    },
+    {
+      "text": "The Geometry of Everything\n6:54 · Explainer · 18 sources · 305d ago"
+    },
+    {
+      "text": "The Geometry of Everything"
+    },
+    {
+      "text": "6:54 · Explainer · 18 sources · 305d ago"
+    },
+    {
+      "text": "audio_spark\nGeometric Twist Unifies Gravity and Quantum Mechanics\n38:11 · Deep Dive · 18 sources · 305d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nGeometric Twist Unifies Gravity and Quantum Mechanics\n38:11 · Deep Dive · 18 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Twist Unifies Gravity and Quantum Mechanics\n38:11 · Deep Dive · 18 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Twist Unifies Gravity and Quantum Mechanics"
+    },
+    {
+      "text": "38:11 · Deep Dive · 18 sources · 305d ago"
+    },
+    {
+      "text": "tablet\nGeometric Isomorphism of Physics\n18 sources · 305d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nGeometric Isomorphism of Physics\n18 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Isomorphism of Physics\n18 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Isomorphism of Physics"
+    },
+    {
+      "text": "18 sources · 305d ago"
+    },
+    {
+      "text": "videocam\nSAT: The Universe from a Rule\n6:02 · Explainer · 7 sources · 305d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nSAT: The Universe from a Rule\n6:02 · Explainer · 7 sources · 305d ago"
+    },
+    {
+      "text": "SAT: The Universe from a Rule\n6:02 · Explainer · 7 sources · 305d ago"
+    },
+    {
+      "text": "SAT: The Universe from a Rule"
+    },
+    {
+      "text": "6:02 · Explainer · 7 sources · 305d ago"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unifies Physics Geometry\n30:24 · Deep Dive · 7 sources · 305d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nScalar Angular Twist Unifies Physics Geometry\n30:24 · Deep Dive · 7 sources · 305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Unifies Physics Geometry\n30:24 · Deep Dive · 7 sources · 305d ago"
+    },
+    {
+      "text": "30:24 · Deep Dive · 7 sources · 305d ago"
+    },
+    {
+      "text": "article\nScalar Angular Twist Visualizations: Trajectories and Unification\n305d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar Angular Twist Visualizations: Trajectories and Unification\n305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Visualizations: Trajectories and Unification\n305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Visualizations: Trajectories and Unification"
+    },
+    {
+      "text": "305d ago"
+    },
+    {
+      "text": "tablet\nThe Geometry of Everything\n7 sources · 305d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Geometry of Everything\n7 sources · 305d ago"
+    },
+    {
+      "text": "The Geometry of Everything\n7 sources · 305d ago"
+    },
+    {
+      "text": "7 sources · 305d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nScalar Angular Twist Physics Theory\n7 sources · 305d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nScalar Angular Twist Physics Theory\n7 sources · 305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Physics Theory\n7 sources · 305d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nGeometric Map of Scalar Angular Twist\n7 sources · 305d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nGeometric Map of Scalar Angular Twist\n7 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Map of Scalar Angular Twist\n7 sources · 305d ago"
+    },
+    {
+      "text": "Geometric Map of Scalar Angular Twist"
+    },
+    {
+      "text": "flowchart\nScalar Angular Twist Framework: Geometry and Emergent Physics\n7 sources · 305d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nScalar Angular Twist Framework: Geometry and Emergent Physics\n7 sources · 305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Framework: Geometry and Emergent Physics\n7 sources · 305d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Framework: Geometry and Emergent Physics"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T10:42:17.202Z",
+      "event": "harvest_complete",
+      "messages": 6,
+      "reachedTop": true
+    }
+  ]
+}
