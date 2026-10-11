@@ -195,4 +195,21 @@ jobs:
           git add "$dest"
           test "$(git diff --cached --name-only | grep -vc "^$dest/")" -eq 0
           git commit -m "Run Mersearch request $REQUEST_ID [skip mersearch-request]"
-          git push origin HEAD:main
+          # Main receives frequent independent worker commits. Rebase ONLY this
+          # generated-results commit, without discarding or overwriting others.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Published after attempt $attempt"
+              exit 0
+            fi
+            echo "Concurrent main-branch update; rebasing generated artifact commit (attempt $attempt)"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Rebase conflict: refuse to overwrite existing results"
+              exit 1
+            fi
+            sleep "$attempt"
+          done
+          echo "::error::Generated-results push failed after bounded retries"
+          exit 1
