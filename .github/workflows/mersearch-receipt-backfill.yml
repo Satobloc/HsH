@@ -80,4 +80,19 @@ jobs:
             echo 'Unexpected staged file'; exit 1;
           } || true
           git commit -m "Backfill Mersearch compact receipt $REQUEST_ID"
-          git push origin HEAD:main
+          # Rebase generated receipt commit if unrelated workers advanced main.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Receipt published after attempt $attempt"
+              exit 0
+            fi
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Receipt rebase conflicted; will not overwrite shared results"
+              exit 1
+            fi
+            sleep "$attempt"
+          done
+          echo "::error::Receipt push failed after bounded retries"
+          exit 1
