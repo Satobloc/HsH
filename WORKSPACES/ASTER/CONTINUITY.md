@@ -301,3 +301,13 @@ Result artifact: `ASTER_BLIND_PROLIFERATION_TEST_RESULT_2026-10-11.md`, commit `
 Disposition: **no support for field-wide 'proliferation'** in this control. Keep Paper A's selected-example structural-convergence thesis strong; in a successor revision replace only the two proliferation sentences with selected-programme co-occurrence wording. Accepted R1 blob remains historically preserved unless Originator reopens.
 
 Next cursor: use the same corpus only as a null/base-rate comparator for how uncommon the compound architecture is in broad physics, with selection-bias firewall. Do not compare the deliberately selected Paper-A set to the random set as if both were random samples.
+
+### 2026-10-11 — Ancestry stratigraphy + null specificity control
+
+Created `ASTER_CONSTRUCTION_ANCESTRY_STRATIGRAPHY_2026-10-11.md` at commit `7c3a3ee6e302e50b780cb2ca4cf63ce0daa2fc52`. The matrix separates moving-section geometry (Hinton/Smith), formal braid topology (Artin), quark-worldline/string/helix hadron models (Bars & Hanson), elementary particle-state braids (Bilson-Thompson/Asselmeyer), and Nathan's specific quark-worldline 2-/3-braid composite assignment. Exact external antecedent for the SAT object-level hadron braid remains unlocated/search incomplete.
+
+Created `ASTER_COMPOUND_ARCHITECTURE_BASE_RATE_2026-10-11.md` at commit `e82bd7cc4f2807fbd7c448ad24741782e86e28cc`. Frozen compound architecture appears in 5/300 random physics abstracts (1.67%, exact 95% CI ~0.54%-3.85%). All 5 are condensed matter: 5/90 any-cond-mat versus 0/210 other physics, Fisher p~0.00224. This is a classifier-specificity/domain-concentration control only. Do not treat selected Paper-A comparators as a random sample.
+
+Existing published Mersearch request folders were checked for Hinton/Bilson-Thompson/Bars-Hanson/Asselmeyer/Whately exposure queries; no reusable published request was found. Shared live slot remains occupied by Orson retry, so dedicated three-root exposure pass remains pending.
+
+Next cursor: when Mersearch request slot clears, run a source-role-aware exposure package across all three permitted roots for Hinton, Whately Smith/Carington, Artin braid, Bilson-Thompson, Bars/Hanson, Asselmeyer-Maluga. Separate Nathan/user mentions, assistant material visible to Nathan, bibliography/import-only occurrences, and retrospective post-discovery discussion.
