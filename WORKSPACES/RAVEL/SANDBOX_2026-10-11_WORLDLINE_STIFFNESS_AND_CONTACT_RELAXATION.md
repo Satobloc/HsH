@@ -51,6 +51,11 @@ U^\mu=\frac{dX^\mu}{d\tau},\qquad A^\mu=\frac{dU^\mu}{d\tau},
 
 A freely falling body in GR has \(A^\mu=0\), hence \(\kappa_{\rm p}=0\), even when its coordinate track looks curved. An orbit therefore does not itself prove elastic worldtube strain. H(s)H must distinguish invariant proper curvature, extrinsic curvature in an additional physical embedding, and slice/readout curvature.
 
+An extended freely falling body can still be tidally strained by geodesic
+deviation, \(D^2\xi^\mu/D\tau^2=-R^\mu{}_{\nu\rho\sigma}
+U^\nu\xi^\rho U^\sigma\).  That is a finite-core curvature coupling, not
+nonzero proper acceleration of the centerline.
+
 ## 3. Repair the dimensions numeral by numeral
 
 For a spatial elastic rod,
