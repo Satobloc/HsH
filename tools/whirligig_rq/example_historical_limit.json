@@ -1,0 +1,5 @@
+{
+  "config": {"major": 2.75, "minor": 0.55, "ball_radius": 0.55, "allow_degenerate_contact": true, "n": 256, "pen_turns": 0},
+  "R": {"kind":"expression", "label":"R", "expr":"cos(2*t)"},
+  "Q": {"kind":"expression", "label":"Q", "expr":"sin(3*t)"}
+}
