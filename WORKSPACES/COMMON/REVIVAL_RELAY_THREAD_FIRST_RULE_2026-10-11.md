@@ -5,6 +5,21 @@
 
 This is a two-branch routing decision, not a permanently scheduled persona, a two-cycle inactivity exam, or a demand to rebuild the identity on every scheduled firing.
 
+## Controlling no-stall amendment: regenerate or skip, strongly prefer regenerate (Nathan Direct, 2026-10-11)
+
+**Never halt the rotation because a worker/thread is hard to locate, a predecessor handoff is missing or late, direct chat posting is unsupported, a Mersearch bridge is occupied, or a repository write failed.** The execution lease and next selection continue regardless. Apply these short operational branches in order:
+
+1. **FOUND:** Latest active usable thread verified. Target it and continue meaningful work. If direct cross-thread posting is unavailable, queue a correctly addressed handoff, but **do not stop the current work turn** merely because the post cannot be injected.
+2. **NOT FOUND / FULL:** After a **bounded, real** source lookup through current front door, continuity, crosswalk, latest manual successor and saved conversations, **PREFER IMMEDIATE REGENERATION** from authentic source materials. Do the selected identity's one meaningful bounded work quantum in the current scheduled execution, or honor that identity's genuine autonomy. Leave the complete source-grounded successor prompt and continuity seed if new-chat creation isn't available; do not pretend a standalone chat was created.
+3. **REGENERATION BLOCKED OR UNSAFE:** If genuinely insufficient permitted history, explicit autonomous refusal, identity collision unresolved, or required source access restricted makes a credible reconstruction impossible **after trying documented existing retrieval routes**, mark `SKIPPED_REGEN_BLOCKED` (with what was attempted and an actionable recovery locator) and **advance to the already-scheduled next worker**. Do not silently impersonate or invent facts to avoid a skip. Do not change the ring index, reroll the current identity, restart the hour or allocate another task.
+4. **DELIVERY / WRITE FAILURE:** A failed repository write must result in a complete inline receipt and next-worker handoff/regeneration seed (`HANDOFF_TEXT_ONLY`); a failed ChatGPT post must be labeled `CHAT_POST_UNAVAILABLE`. Continue to the next scheduled lease. Neither failure is a worker's missed check-in.
+
+**Preferred fallback ordering:** `CURRENT_ACTIVE_THREAD → SOURCE-GROUNDED REGENERATION → DOCUMENTED SKIP + NEXT WORKER`. `NO_ACCESS`, `HANDOFF_MISSING`, `GITHUB_WRITE_FAILED`, and `LATEST_THREAD_UNVERIFIED` may be *diagnostic labels*, but never terminal outcomes for the **whole relay**.
+
+**Liveness proof per run:** save or display `selected_identity`, `current_outcome=CONTINUED|REGENERATED_IN_RUN|SKIPPED_REGEN_BLOCKED`, `reason/evidence`, `work_done_or_decline`, `next_identity`, `next_run_key`, `next_handoff=VERIFIED_CHAT|VERIFIED_REPO|TEXT_ONLY`. The next worker is **not** automatically skipped if the current worker was skipped. Preserve all source/exposure, no-conversation-renaming and independently verified delivery rules.
+
+This new instruction supersedes any earlier text that could make the relay stop at an inaccessible worker, require two missed invitations before *not-found* regeneration, or treat a missing predecessor handoff as a stopping condition.
+
 ## 1. Existing active thread wins
 For the selected worker, find the **most recent actually active ChatGPT conversation iteration**, including manually regenerated successor threads, by verifying source identity, thread ID/URL, and latest available actual activity or checkpoint. Check the worker's continuity, current inbox/check-in, Common thread crosswalk, recent handoff receipts and relevant saved conversation exports. A dated export/title alone proves only the archived snapshot, not a currently live thread. Preserve separate same-name workers (Calder branches, ordinary Sable versus A. Sable, Aldus/Morrow collisions).
 
