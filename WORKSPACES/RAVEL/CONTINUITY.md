@@ -1,3 +1,5 @@
+> **LATEST SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
+
 # Ravel Continuity / Restart Packet
 
 > **CURRENT RESTART POINTER (2026-10-11):** Read [CONTINUITY_CUTOFF_2026-10-11_0903EDT.md](CONTINUITY_CUTOFF_2026-10-11_0903EDT.md) before relying on this older September checkpoint. It records the manually source-verified MK171 primary-paper review, the finite-core holonomy-noise gate, Mersearch bridge instructions, and the open V3 Calder→Hale relay. The user reported this conversation at maximum length; no new ChatGPT thread was created.
