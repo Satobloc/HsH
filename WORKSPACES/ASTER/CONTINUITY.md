@@ -283,3 +283,21 @@ Nathan clarified directly that Aster is part of his prior-art review team; there
 **Registry repair:** Mira `INT-0001` corrected from stale 2024-03-22/path-pending state to 2024-03-23 plus exact root source path in HSH_RESOURCES commit `558497df1f0174b8889ba235310cc035ea80e6ca`.
 
 **Next cursor:** braid/configuration-space prior art versus Nathan's explicit March-2024 rule `two intertwined lines -> points on moving plane orbit one another`; determine whether that kinematic mapping is generic braid projection, a special braid geometry, or a Nathan-specific elaboration in the checked source set. Exposure search for Hinton/Smith remains pending until Mersearch shared slot is free.
+
+### 2026-10-11 — Blind proliferation control completed
+
+Paper A residual field-trend wording was tested rather than merely edited. Existing blinded random arXiv corpus: 100 physics abstracts each Jan-Sep 2024, 2025, 2026.
+
+Protocol frozen before year key: `ASTER_BLIND_PROLIFERATION_TEST_PROTOCOL_2026-10-11.md`, commit `97c98edb4ffaf72a08cdc7ad18bd9ed3b5c0d7c9`.
+
+Blind semantic scores frozen before year key: `ASTER_BLIND_PROLIFERATION_SCORES_FROZEN_2026-10-11.md`, commit `2835c36331aff531ae033935555715ce606b6c98`.
+
+Primary confirmed compound IDs: XR017, XR068, XR084, XR140, XR287. Ambiguous XR185 excluded from primary count.
+
+After unblinding: confirmed compounds = 1/100 (2024), 3/100 (2025), 1/100 (2026). XR185 is 2024, so permissive sensitivity = 2/3/1. Fisher 2024 vs 2026 p=1.0, risk ratio 1.0, risk difference 0pp. All five confirmed cases are condensed-matter papers. Frozen lexical motif diagnostics likewise show no monotonic 2024->2026 compound rise.
+
+Result artifact: `ASTER_BLIND_PROLIFERATION_TEST_RESULT_2026-10-11.md`, commit `0eb01a4577698b20516f8d0ffd2bc8974e74a845`.
+
+Disposition: **no support for field-wide 'proliferation'** in this control. Keep Paper A's selected-example structural-convergence thesis strong; in a successor revision replace only the two proliferation sentences with selected-programme co-occurrence wording. Accepted R1 blob remains historically preserved unless Originator reopens.
+
+Next cursor: use the same corpus only as a null/base-rate comparator for how uncommon the compound architecture is in broad physics, with selection-bias firewall. Do not compare the deliberately selected Paper-A set to the random set as if both were random samples.
