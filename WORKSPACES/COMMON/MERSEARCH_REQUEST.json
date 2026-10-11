@@ -1,20 +1,20 @@
 {
-  "request_id": "2026-10-10-orson-one-drop-universe-math-001",
+  "request_id": "2026-10-11-orson-morrow-inspiral-package-001",
   "requester": "Orson Vay",
-  "requested_at": "2026-10-10",
+  "requested_at": "2026-10-11",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "path:*ONE*DROP*UNIVERSE* AND (Lagrangian OR equation OR operator OR matrix OR tensor OR Hamiltonian OR \"SU(3)\" OR \"SO(4)\" OR braid OR torsion OR helix OR nuclear OR symmetry)",
-  "purpose": "Recover mathematical constructions, notation, nuclear-physics material, and potentially reusable operator representations from Nathan-selected [🗄️] 🍩 ONE DROP UNIVERSE, with exact provenance before theory reuse.",
+  "query": "(\"Cross-Scale Geometric Representation of Classical Inspirals\" OR \"mass-substitution fingerprints\" OR \"64/5\" OR \"beta^5\" OR \"4/3\" OR \"beta^3\" OR \"damped oscillator\" OR \"Morrow/Kestrel\" OR \"paper package\")",
+  "purpose": "Locate the exact Morrow/Kestrel Paper A package or handoff for hostile review issue #4, including PDF/LaTeX/text extraction/solver and any conversation message that supplied its path.",
   "preferred_outputs": [
     "exact file paths",
-    "message/record locators",
-    "short excerpts",
-    "equation-bearing passages",
-    "provenance labels"
+    "conversation/message locators",
+    "handoff text",
+    "equation-bearing excerpts",
+    "package/attachment references"
   ],
   "status": "requested"
 }
