@@ -49,6 +49,7 @@ class Audit:
     warnings: list[str] = field(default_factory=list)
     receipts: dict[tuple[int, int], str] = field(default_factory=dict)
     handoffs: dict[tuple[int, int], str] = field(default_factory=dict)
+    out_of_band: list[str] = field(default_factory=list)
 
     def error(self, p, msg):
         self.errors.append(f"{p.name}: {msg}")
@@ -132,10 +133,20 @@ class Audit:
             for file in sorted(directory.glob("*.md")):
                 if file.is_symlink():
                     self.error(file, "symlinks not accepted")
-                elif subdir == "REVIVAL_ROTATION_RECEIPTS" and not re.search(r"_s[0-4]_", file.name):
-                    self.warnings.append(f"{file.name}: supporting note in receipts directory, not a canonical run receipt")
-                else:
-                    inspect(file)
+                    continue
+                if subdir == "REVIVAL_ROTATION_RECEIPTS" and not re.search(r"_s[0-4]_", file.name):
+                    self.warnings.append(f"{file.name}: supporting note in receipts directory, not a run receipt")
+                    continue
+                # Manual continuations and retrospectively recovered records are
+                # valuable evidence but NOT proof of a nominal scheduler firing.
+                # Never apply strict on-time stamp/run-key assertions to them.
+                beginning = file.read_text(encoding="utf-8")[:800]
+                if "_manual" in file.name.lower() or "Retrospective recovery receipt" in beginning:
+                    kind = "manual" if "_manual" in file.name.lower() else "retrospective"
+                    self.out_of_band.append(f"{file.name}: {kind}")
+                    self.warnings.append(f"{file.name}: {kind} evidence, excluded from scheduled-run totals")
+                    continue
+                inspect(file)
         for key, name in self.receipts.items():
             if key not in self.handoffs:
                 self.warnings.append(f"{name}: terminal handoff missing for this recorded run")
@@ -145,6 +156,7 @@ class Audit:
         return {
             "status": "FAIL" if self.errors else "PASS_WITH_WARNINGS" if self.warnings else "PASS",
             "read_only": True, "receipts": len(self.receipts), "handoffs": len(self.handoffs),
+            "out_of_band": self.out_of_band,
             "errors": self.errors, "warnings": self.warnings,
             "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt."
         }
