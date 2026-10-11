@@ -2,6 +2,8 @@
 
 **Authority:** Nathan Direct, 2026-10-11, superseding the narrower V3 two-cycle-only reconstruction rule. **Status:** operative amendment, five existing scheduler leases only. This document changes *what the scheduled worker does when a thread cannot be located*, not the system's ability to post into an arbitrary ChatGPT conversation. Distinguish an in-run revival continuation from the creation of a new ChatGPT thread.
 
+> **2026-10-11 REQUIRED INCORPORATION PREFLIGHT:** All five Revival Relay recurrences now read [REVIVAL_RELAY_NAVIGATION_PREFLIGHT_2026-10-11.md](REVIVAL_RELAY_NAVIGATION_PREFLIGHT_2026-10-11.md) before archive/tool obstacles or new infrastructure proposals. Live Reference Desk, Mersearch 1.0/bridge, request-scoped `RUN_MANIFEST.json` and newer compact `SEARCH_RECEIPT.md/.json` are **existing** first choices. A large source result unreadable via one connector does not prove unavailable infrastructure; try documented alternatives and log `NAV_PREFLIGHT` evidence before escalation. This does not delay source-grounded revival when a thread cannot be found after a bounded search.
+
 ## Routing precedence
 
 1. **EXISTING_CHAT_FOUND_AND_USABLE**: continue/handoff to the newest verified relevant original conversation, if genuinely deliverable. A verified original thread takes precedence over reconstruction.
