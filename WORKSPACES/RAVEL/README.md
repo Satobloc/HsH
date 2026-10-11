@@ -1,3 +1,5 @@
+> **LATEST SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
+
 # Ravel Workspace
 
 **Instance handle:** Ravel  
