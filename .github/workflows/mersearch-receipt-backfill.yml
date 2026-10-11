@@ -1,0 +1,83 @@
+name: Backfill Mersearch compact receipt
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'WORKSPACES/COMMON/MERSEARCH_RECEIPT_BACKFILL.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mersearch-receipt-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read safe backfill identifier
+        id: request
+        run: |
+          python - <<'PY'
+          import json, re, os, pathlib
+          obj=json.loads(pathlib.Path('WORKSPACES/COMMON/MERSEARCH_RECEIPT_BACKFILL.json').read_text(encoding='utf-8'))
+          req=obj['request_id']
+          if not isinstance(req,str) or not re.fullmatch('[A-Za-z0-9._-]{1,120}',req):
+              raise SystemExit('Invalid request_id')
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as out:
+              out.write('request_id='+req+'\n')
+          PY
+      - name: Test compact generator
+        run: python tools/test_mersearch_compact_receipt.py
+      - name: Generate receipt from already committed results
+        shell: bash
+        env:
+          REQUEST_ID: ${{ steps.request.outputs.request_id }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          dest="indexes/mersearch_requests/$REQUEST_ID"
+          test -s "$dest/SEARCH_RESULTS.json"
+          test -s "$dest/RUN_MANIFEST.json"
+          if [ -e "$dest/SEARCH_RECEIPT.json" ] || [ -e "$dest/SEARCH_RECEIPT.md" ]; then
+            echo "Receipt already exists; refusing to overwrite or create duplicate"
+            exit 0
+          fi
+          python - "$dest" "$REQUEST_ID" <<'PY'
+          import json, hashlib, pathlib, sys
+          d=pathlib.Path(sys.argv[1]); rid=sys.argv[2]
+          mf=json.loads((d/'RUN_MANIFEST.json').read_text(encoding='utf-8'))
+          if mf.get('request_id') != rid:
+              raise SystemExit('Manifest request_id does not match')
+          digest=hashlib.sha256((d/'SEARCH_RESULTS.json').read_bytes()).hexdigest()
+          if mf.get('outputs',{}).get('SEARCH_RESULTS.json') != digest:
+              raise SystemExit('Full JSON checksum is not the manifest checksum')
+          PY
+          python tools/mersearch_compact_receipt.py --results "$dest/SEARCH_RESULTS.json" --out-dir "$dest"
+          python - "$dest" <<'PY'
+          import json, hashlib, pathlib, sys
+          d=pathlib.Path(sys.argv[1]); p=d/'RUN_MANIFEST.json'
+          mf=json.loads(p.read_text(encoding='utf-8'))
+          for filename in ('SEARCH_RECEIPT.json', 'SEARCH_RECEIPT.md'):
+              mf['outputs'][filename]=hashlib.sha256((d/filename).read_bytes()).hexdigest()
+          p.write_text(json.dumps(mf,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$dest/SEARCH_RECEIPT.json" "$dest/SEARCH_RECEIPT.md" "$dest/RUN_MANIFEST.json"
+          git diff --cached --quiet && { echo 'No changes'; exit 0; }
+          git diff --cached --name-only | grep -v -F -e "$dest/SEARCH_RECEIPT.json" -e "$dest/SEARCH_RECEIPT.md" -e "$dest/RUN_MANIFEST.json" && {
+            echo 'Unexpected staged file'; exit 1;
+          } || true
+          git commit -m "Backfill Mersearch compact receipt $REQUEST_ID"
+          git push origin HEAD:main
