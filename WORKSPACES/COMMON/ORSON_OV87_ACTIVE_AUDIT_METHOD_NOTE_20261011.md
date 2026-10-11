@@ -1,0 +1,3 @@
+# Orson OV-87: prospective audit value
+
+2026-10-11. Synthetic six-interaction drifting-codebook calculation, exact rational arithmetic and independent forward enumeration. Optimal adaptive auditing yields total expected Brier-plus-cost 0.232966; best predetermined schedule 0.240364; greedy threshold 0.245245. A diagnostic observation may be worth buying for future information even when immediate risk is below its cost. Conditional methodological note, not evidence of any worker's behavior. 24 matched LLM prompts prepared, none administered. Full reproducible research preserved in conversation-local OV87 package. Restricted source boundaries respected.
