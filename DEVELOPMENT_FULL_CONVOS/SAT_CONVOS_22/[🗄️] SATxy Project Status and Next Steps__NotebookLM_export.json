@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] SATxy Project Status and Next Steps",
+    "notebook_id": "a789f8f0-e994-459b-8c5e-89682097b4c9",
+    "notebook_url": "https://notebook.google.com/notebook/a789f8f0-e994-459b-8c5e-89682097b4c9?authuser=4",
+    "captured_at": "2026-10-11T13:58:15.085Z",
+    "visible_source_count": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 12
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What’s the core equation of SAT",
+      "citations": [],
+      "key": "faa9f7bb"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "The core of the SAT (Scalar-Angular-Twist) framework is defined by several foundational mathematical expressions, primarily the Mark IV.2 Lagrangian density\n1\n2\n. This Lagrangian, expressed as L=\n2\n1\n\t​\n\n(∂\nμ\n\t​\n\nθ\n4\n\t​\n\n)\n2\n−μ\n2\ncos3θ\n4\n\t​\n\n+α(∂\nμ\n\t​\n\nu\nν\n\t​\n\n)\n2\n+βsin\n2\nθ\n4\n\t​\n\n∂\nμ\n\t​\n\nu\nμ\n, serves as the emergence engine for the theory's dynamics\n1\n3\n. It governs the interactions between the θ\n4\n\t​\n\n misalignment scalar (which stores mass), the ψ internal phase field (flavor and spin), and the u\nμ\n preferred time-flow field\n1\nmore_horiz\n.\nAnother central pillar is the Energy-Tension Law (E=∫ηsin\n2\nθ\n4\n\t​\n\n∇⋅ud\n3\nx), which acts as the SAT replacement for E=mc\n2\n and traditional stress-energy tensors\n5\nmore_horiz\n. This equation posits that energy resides in the geometric tension of the spacetime foliation rather than being an intrinsic property of a particle\n7\n8\n.\nTo describe how specific entities or events materialize, SAT utilizes the Ontic Action Integral: o=\nE\n^\n⋅\nA\n^\n⋅\nR\n^\n(x\n0\n\t​\n\n)⋅∮\nC\n\t​\n\nJ\nμ\n\t​\n\ndx\nμ\n⋅(⨁\ni=1\nn\n\t​\n\nV\ni\n\t​\n\n)\n9\n10\n. This formula calculates the emergence of an \"ontic ejectum\" (o) by integrating memory-tension currents (J\nμ\n\t​\n\n) over a closed ψ-path, filtered through operators for energy, attention, and reference frames across orthogonal epistemic subspaces (V\ni\n\t​\n\n)\n3\nmore_horiz\n.\nFinally, the foundational click-rate law (f\nclick\n\t​\n\n=ηsin\n2\nθ\n4\n\t​\n\nf(ψ)) links these geometric structures to the actual \"ticking\" of reality, effectively converting geometric misalignment into the rate of time flow and observable mass\n5\nmore_horiz\n. All of these dynamics are anchored by the unit-timelike constraint (u\nμ\nu\nμ\n\t​\n\n=−1), which ensures the vacuum flow field remains a consistent directional substrate for the universe\n1\nmore_horiz\n.\n\n--------------------------------------------------------------------------------\n\nAnalogy: Think of the core equations as the blueprint for a musical loom: the Lagrangian sets the mechanics of the machine, the Energy-Tension Law defines the strength and vibration of the threads, and the Ontic Action Integral is the specific sequence of pulls that weaves a single, audible note into existence.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "4d669665"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n0 Pronunciation",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "0 Pronunciation",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n0 Pronunciation Note",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "0 Pronunciation Note",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\n0 SAT Explained Phonetic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "0 SAT Explained Phonetic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\n0 The Math",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "0 The Math",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n1 Why SAT?",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "1 Why SAT?",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n2 Intuitions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "2 Intuitions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n3 Slow Walk",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "3 Slow Walk",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n4 If Then",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "4 If Then",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\n5 Predictions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "5 Predictions",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nNext Phases of SATxy Development",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Next Phases of SATxy Development",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-QG.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-QG.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y 4D.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y 4D.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y CYCLETHROUGH+STUFF.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y CYCLETHROUGH+STUFF.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Hamiltonian+Quantum.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Hamiltonian+Quantum.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y LEFTOVERS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y LEFTOVERS.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Modes Buildout.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Modes Buildout.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y PRIORITIES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y PRIORITIES.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Theta+Helix Particle Properties.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Theta+Helix Particle Properties.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Theta+Helix Particles.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Theta+Helix Particles.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Theta4 Calcs.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Theta4 Calcs.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y ThetaProof.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y ThetaProof.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Vizualizations.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Vizualizations.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT-Y Vizualizations2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT-Y Vizualizations2.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATx-y FULL LOG.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATx-y FULL LOG.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy CYCLETHROUGH1-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy CYCLETHROUGH1-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy CYCLETHROUGH2-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy CYCLETHROUGH2-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy CYCLETHROUGH3-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy CYCLETHROUGH3-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSATxy CYCLETHROUGH4-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SATxy CYCLETHROUGH4-4.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nScalar-Angular-Torsion Theory: Fundamental Intuitions and Implications",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Scalar-Angular-Torsion Theory: Fundamental Intuitions and Implications",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "markdown\nThe SATxy Framework and Observable Signatures",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "The SATxy Framework and Observable Signatures",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "30 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nGeometric Mass and the Hidden Zoo\n37:03 · Deep Dive · 30 sources · 229d ago\nwaving_hand\nplay_arrow\nmore_vert\nauto_tab_group\nSAT/SAT-Y Study Guide Quiz and Glossary\nStudy Guide · 30 sources · 497d ago\nmore_vert\narticle\nScalar Angular Twist Model Core Mathematics\n497d ago\nmore_vert\naudio_spark\nSATxy Project Status and Next Steps\n23:12 · 28 sources · 497d ago\nwaving_hand\nplay_arrow\nmore_vert\narticle\nScalar Angular Twist Model Explained\n497d ago\nmore_vert\narticle\nSAT Claims: Deriving Constants and Unifying Physics\n497d ago\nmore_vert\narticle\nSAT Claims: Constants, Standard Model, and Gravity\n497d ago\nmore_vert\narticle\nSpeak the SAT: A Physics Lexicon\n497d ago\nmore_vert\narticle\nNext Phases of SATxy Development\n498d ago\nmore_vert\narticle\nSATxy Project Completion Status Report\n498d ago\nmore_vert\nauto_tab_group\nThe SATxy Framework and Observable Signatures\nTimeline · 21 sources · 498d ago\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nGeometric Mass and the Hidden Zoo\n37:03 · Deep Dive · 30 sources · 229d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nGeometric Mass and the Hidden Zoo\n37:03 · Deep Dive · 30 sources · 229d ago"
+    },
+    {
+      "text": "Geometric Mass and the Hidden Zoo\n37:03 · Deep Dive · 30 sources · 229d ago"
+    },
+    {
+      "text": "Geometric Mass and the Hidden Zoo"
+    },
+    {
+      "text": "37:03 · Deep Dive · 30 sources · 229d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "auto_tab_group\nSAT/SAT-Y Study Guide Quiz and Glossary\nStudy Guide · 30 sources · 497d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nSAT/SAT-Y Study Guide Quiz and Glossary\nStudy Guide · 30 sources · 497d ago"
+    },
+    {
+      "text": "SAT/SAT-Y Study Guide Quiz and Glossary\nStudy Guide · 30 sources · 497d ago"
+    },
+    {
+      "text": "SAT/SAT-Y Study Guide Quiz and Glossary"
+    },
+    {
+      "text": "Study Guide · 30 sources · 497d ago"
+    },
+    {
+      "text": "article\nScalar Angular Twist Model Core Mathematics\n497d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar Angular Twist Model Core Mathematics\n497d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "Scalar Angular Twist Model Core Mathematics\n497d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Model Core Mathematics"
+    },
+    {
+      "text": "497d ago"
+    },
+    {
+      "text": "audio_spark\nSATxy Project Status and Next Steps\n23:12 · 28 sources · 497d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nSATxy Project Status and Next Steps\n23:12 · 28 sources · 497d ago"
+    },
+    {
+      "text": "SATxy Project Status and Next Steps\n23:12 · 28 sources · 497d ago"
+    },
+    {
+      "text": "SATxy Project Status and Next Steps"
+    },
+    {
+      "text": "23:12 · 28 sources · 497d ago"
+    },
+    {
+      "text": "article\nScalar Angular Twist Model Explained\n497d ago\nmore_vert"
+    },
+    {
+      "text": "article\nScalar Angular Twist Model Explained\n497d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Model Explained\n497d ago"
+    },
+    {
+      "text": "Scalar Angular Twist Model Explained"
+    },
+    {
+      "text": "article\nSAT Claims: Deriving Constants and Unifying Physics\n497d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSAT Claims: Deriving Constants and Unifying Physics\n497d ago"
+    },
+    {
+      "text": "SAT Claims: Deriving Constants and Unifying Physics\n497d ago"
+    },
+    {
+      "text": "SAT Claims: Deriving Constants and Unifying Physics"
+    },
+    {
+      "text": "article\nSAT Claims: Constants, Standard Model, and Gravity\n497d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSAT Claims: Constants, Standard Model, and Gravity\n497d ago"
+    },
+    {
+      "text": "SAT Claims: Constants, Standard Model, and Gravity\n497d ago"
+    },
+    {
+      "text": "SAT Claims: Constants, Standard Model, and Gravity"
+    },
+    {
+      "text": "article\nSpeak the SAT: A Physics Lexicon\n497d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSpeak the SAT: A Physics Lexicon\n497d ago"
+    },
+    {
+      "text": "Speak the SAT: A Physics Lexicon\n497d ago"
+    },
+    {
+      "text": "Speak the SAT: A Physics Lexicon"
+    },
+    {
+      "text": "article\nNext Phases of SATxy Development\n498d ago\nmore_vert"
+    },
+    {
+      "text": "article\nNext Phases of SATxy Development\n498d ago"
+    },
+    {
+      "text": "Next Phases of SATxy Development\n498d ago"
+    },
+    {
+      "text": "Next Phases of SATxy Development"
+    },
+    {
+      "text": "498d ago"
+    },
+    {
+      "text": "article\nSATxy Project Completion Status Report\n498d ago\nmore_vert"
+    },
+    {
+      "text": "article\nSATxy Project Completion Status Report\n498d ago"
+    },
+    {
+      "text": "SATxy Project Completion Status Report\n498d ago"
+    },
+    {
+      "text": "SATxy Project Completion Status Report"
+    },
+    {
+      "text": "auto_tab_group\nThe SATxy Framework and Observable Signatures\nTimeline · 21 sources · 498d ago\nmore_vert"
+    },
+    {
+      "text": "auto_tab_group\nThe SATxy Framework and Observable Signatures\nTimeline · 21 sources · 498d ago"
+    },
+    {
+      "text": "The SATxy Framework and Observable Signatures\nTimeline · 21 sources · 498d ago"
+    },
+    {
+      "text": "The SATxy Framework and Observable Signatures"
+    },
+    {
+      "text": "Timeline · 21 sources · 498d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T13:58:14.108Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}
