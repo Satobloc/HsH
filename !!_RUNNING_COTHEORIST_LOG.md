@@ -20,6 +20,12 @@ A smooth periodic material-director angle gives only integer loop winding, not a
 
 ---
 
+### Same-day correction: asymmetric ring has no exact N-dephasing eigenbasis
+
+[Arclength spectral refinement](WORKSPACES/RAVEL/SANDBOX_2026-10-11_MATERIAL_FRAME_ACTION_AND_LEAKAGE.md#7-important-refinement-finite-deformed-ring-spoils-the-dephasing-eigenbasis) with [code](WORKSPACES/RAVEL/CODE/exact_deformed_ring_spectrum.py) and [fixture](WORKSPACES/RAVEL/DATA/exact_deformed_ring_spectrum.json) uses an exact Fourier-Galerkin diagonalization of the leading confined-waveguide Laplace–Beltrami plus curvature potential. A real deformation potential lifts the `n↔−n` degeneracy; simple stationary eigenvalues obey `E_j(phi)=E_j(−phi)`, so their **linear flux sensitivity vanishes at zero holonomy**. Numerically the first pair has `gap=.14383326418 E0`, `|<1|N|2>|²=1.0003157882`. A *separately isolated uniform-connection component* gives a transition rate `.00363923235` in the same bath fixture, not exact eigenstate pure dephasing. The prior `D_hol=.00180968` is **only an ideal free-ring benchmark** at this asymmetric point. Local Berry and uniform connection channels share one bath and their amplitudes can interfere: **do not sum independently**. The central operator-selection failure is stronger than the free-ring leakage ratio suggests. These are sandbox controls, not theory promotion.
+
+---
+
 ## 2026-10-09 — Nathan-direct correction: straight vacuum core, coiling gate, reference access
 
 **Direct source:** current signed user cross-post from Nathan, authentication signet rendered only as `[OWL]`, raw message ID pending. **Status:** ND (interpretation/workflow controls); Kerr/ER, Klein coiling driver, BEC-like sea and photon/photoneutrino modes remain TENTATIVE.
