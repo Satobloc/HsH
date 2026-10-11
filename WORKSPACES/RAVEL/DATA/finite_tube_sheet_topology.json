@@ -1,0 +1,110 @@
+{
+  "model": {
+    "ambient_coordinates": "(z,x1,x2,x3)",
+    "tube_lateral_boundary": "|z|<=L/2, x1^2+x2^2+x3^2=a^2",
+    "resolving_hyperplane": "cos(iota) z + sin(iota) x1 = d",
+    "a": 0.25,
+    "L": 1.0,
+    "aspect_ratio_a_over_L": 0.25
+  },
+  "classification": {
+    "m": "(L/2)|cos(iota)|",
+    "b": "a|sin(iota)|",
+    "closed_condition": "|d|+b <= m",
+    "absent_condition": "|d|-b > m",
+    "partial_condition": "otherwise"
+  },
+  "centered_transition": {
+    "critical_iota_rad": 1.1071487177940904,
+    "critical_iota_deg": 63.43494882292201
+  },
+  "examples": [
+    {
+      "label": "closed",
+      "iota_deg": 29.999999999999996,
+      "offset_d": 0.1,
+      "topology": "closed_S2",
+      "u_interval": [
+        -1.0,
+        1.0
+      ],
+      "cross_section_coordinate_area_fraction": 1.0
+    },
+    {
+      "label": "cap",
+      "iota_deg": 59.99999999999999,
+      "offset_d": 0.3,
+      "topology": "open_cap_D2",
+      "u_interval": [
+        0.23094010767585002,
+        1.0
+      ],
+      "cross_section_coordinate_area_fraction": 0.384529946162075
+    },
+    {
+      "label": "band",
+      "iota_deg": 75.0,
+      "offset_d": 0.0,
+      "topology": "open_band_S1xI",
+      "u_interval": [
+        -0.5358983848622454,
+        0.5358983848622454
+      ],
+      "cross_section_coordinate_area_fraction": 0.5358983848622454
+    },
+    {
+      "label": "none",
+      "iota_deg": 75.0,
+      "offset_d": 0.5,
+      "topology": "none",
+      "u_interval": [
+        null,
+        null
+      ],
+      "cross_section_coordinate_area_fraction": 0.0
+    }
+  ],
+  "closed_sphere_spectrum": {
+    "operator": "eta h_tau = -A h - D Delta_S^2 h",
+    "d4_sphere_D_over_Aa4": 2.5,
+    "rates": [
+      {
+        "ell": 0,
+        "multiplicity": 1,
+        "rate_A_over_eta": 1.0
+      },
+      {
+        "ell": 1,
+        "multiplicity": 3,
+        "rate_A_over_eta": 11.0
+      },
+      {
+        "ell": 2,
+        "multiplicity": 5,
+        "rate_A_over_eta": 91.0
+      },
+      {
+        "ell": 3,
+        "multiplicity": 7,
+        "rate_A_over_eta": 361.0
+      },
+      {
+        "ell": 4,
+        "multiplicity": 9,
+        "rate_A_over_eta": 1001.0
+      },
+      {
+        "ell": 5,
+        "multiplicity": 11,
+        "rate_A_over_eta": 2251.0
+      }
+    ],
+    "first_gap": 11.0,
+    "tenfold_threshold_D_over_Aa4": 2.25
+  },
+  "open_support_warning": {
+    "operator": "integral [(A/2)h^2+(D/2)(Delta_S h)^2] dA",
+    "natural_boundary_conditions": "Delta_S h=0 and normal_derivative(Delta_S h)=0",
+    "consequence": "every harmonic h lies in the zero-bending kernel; on a domain with boundary this kernel is infinite-dimensional"
+  }
+}
