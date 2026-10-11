@@ -134,3 +134,99 @@ By Nathan directive, opportunistically inspect and refine Nathan Voice fingerpri
 ## End-of-run discipline
 
 After material progress update this file with exact coverage, provenance/authorship decisions, duplicate/crosswalk status, theory/sandbox work, infrastructure/bibliography/enrichment changes, unresolved issues, and one best next cursor. Do not manufacture progress.
+
+---
+
+## 2026-10-11 — Resource/tool familiarity save + review-request check
+
+### Current identity / live role
+
+- Instance: **Aster / Ms. Aster**.
+- Soft capability bias remains Nathan-authored corpus, provenance, chronology, source ancestry, exact wording, contextual recovery, and fidelity review.
+- Current Paper-A role remains **Nathan-fidelity / provenance review lane**, but the formal review is **frozen** under current Code Grurple controls. No unrequested second formal review.
+- Conversation-title identity rule remains unchanged: do not rename or suggest renaming the user-visible ChatGPT conversation.
+
+### Resource-review directive completed
+
+Nathan's 2026-10-05 shared resource-review directive has been overview-read and role-triaged. Aster is now familiar with the following primary navigation/use surfaces and will prefer them over brute-force repository search:
+
+- Common Reference Desk and mirrored SAT26 BigBook indexes.
+- HSH_RESOURCES AI start/index corridor.
+- H(s)H Toolkit index and extraction routing.
+- Toolkit Digestion functional-family model.
+- HQ Tool Chest.
+- HSH_RESOURCES human-facing source index.
+- Nathan Preference Router / BOOT.
+- War Room declaration and linked non-quarantined resource surfaces.
+- PDF_SPECS/NATHAN_VOICE_MODEL active split-purpose voice architecture.
+- Historical Einstein/Minkowski, HISTORICAL, and KERR routes.
+- DATA / LIVE_RESEARCH_UPDATES / OUTSIDE RESEARCH LIBRARY discovery surfaces.
+- Exposure/control surfaces including Longitudinal Topic Atlas, the blinded 300-paper 2024/2025/2026 corpus, podcast guide, and GitHub/podcast exposure datasets.
+- Sable three-repository source inventory.
+
+Operational retrieval preference:
+1. use in-house indexes / manifests / BigBook routing / extracted-text maps first;
+2. use GitHub only as transport for exact repo objects where needed;
+3. do not infer absence from GitHub search/listing silence;
+4. preserve source-role typing: standard definition/reference, mathematical technique, formalism comparator, empirical constraint, deliberate import, or background;
+5. structural similarity is not genealogy, derivation, or validation.
+
+### BigBook route now active
+
+The SAT26 BigBook is indexed as 134 embedded source documents / 183,659 raw lines. Aster should use the Common Reference Desk BigBook index and document CSV for source-boundary routing before broad manual searching. Read substantial contiguous source context after routing; the index itself is not theory authority.
+
+High-value Aster uses include:
+- SAT chronology / provenance;
+- UI / Whirligig / scale-rotation ancestry;
+- Minkowski/relativity development conversations;
+- holonomy/torsion/phase history;
+- audit/retraction chains;
+- public/provenance anchors;
+- Paper-A origin/source-hardening questions.
+
+### Paper A / Code Grurple state checked
+
+Current authoritative roster says:
+- GRURPLE-A manuscript gate: **accepted R1; manuscript review closed**.
+- Aster state: **REVIEW FROZEN / CROSS-READ OPEN**.
+- No second formal review absent explicit Nathan/Originator request or a concrete post-acceptance manuscript defect.
+- Shared remaining Grurple issue is presentation/rendering verification, not scientific/editorial manuscript reopening.
+- Do not rewrite manuscript to solve reader rendering defects.
+
+### Review-request scan
+
+Checked in-house routing first:
+- WORKSPACES/COMMON/HANDOFFS.md
+- WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md
+- WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json
+- current Common review/request-related notices
+
+Result:
+- **No current Aster-specific formal review request found.**
+- Historical 2026-09-23 GRURPLE-B Aster NIBBLE is superseded by current manuscript-closed Grurple state and is not live.
+- 2026-10-11 MK171 issue-17 review notice is explicitly Orson Vay's bounded one-off physics review; not routed to Aster.
+- Orson's comparator review remains incomplete until Carroll–Diachenko–Dulani primary PDF is read, but that is Orson's lane unless separately reassigned.
+- Current Common handoff still notes Orson OV-18 peer-review requests without durable responses; no Aster assignment is attached in the routing checked here.
+
+### Infrastructure observations
+
+- HSH_RESOURCES toolkit catalog: 299 bibliographic records across the main toolkit, GR reference, and MIT string-theory subcorpora, with extraction-manifest routing.
+- HSH_RESOURCES human index reports 1136 unique PDF content groups accounted and explicit reviewed/provisional typing; bibliographic presence is not comprehension.
+- Sable source inventory remains a strong three-repository inventory route with PRIOR_ART pruned before descent.
+- War Room link `derivedvv` currently does not resolve; active documented extraction route is `derived/`. Treat `derivedvv` as stale/typo unless a stronger current source says otherwise.
+- Prior-art links were inventoried only at route/metadata level during this familiarity pass; quarantine semantics remain intact.
+
+### Paper-A opportunity noted
+
+The Longitudinal Topic Atlas and the blind 300-paper corpus may become useful for testing whether the paper's claimed convergence is actually unusual in the external literature. Do **not** use the quarantined old model-authored SATity rubric. Any such analysis requires a Nathan-authoritative operational feature definition first, then blind classification/control analysis.
+
+### Durable next cursor
+
+If no explicit review request arrives:
+1. remain available for bounded Paper-A Nathan-fidelity/provenance cross-read only if concrete manuscript defect/request appears;
+2. otherwise resume highest-value Nathan-source/provenance work using the new in-house retrieval stack, with SAT26 BigBook routing preferred over brute-force search;
+3. opportunistically support Paper-A chronology/source ancestry and Hagalaz/UI source recovery when those become active;
+4. preserve Code Grurple review freeze and current quarantine boundaries.
+
+No Nathan action required at this save point.
+
