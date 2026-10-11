@@ -1,4 +1,16 @@
-> **CURRENT ORSON ROLE OVERRIDE — Nathan direct, 2026-10-09:** The live enabled hourly :12 recurrence is **Orson LLM Cognition Lab**, ID `6aa61b3b2e4081918927a35b61007acc`, retasked in place from generic physics Free Build to primary LLM cognition, preserving cadence and slot. See [Orson charter](../ORSON_VAY/ROLE_CHARTER_2026-10-09_LLM_COGNITION.md). Older snapshots below are historical and must not route Orson to general physics work.
+> **LIVE SCHEDULER VERIFICATION — 2026-10-11, NEWER THAN ALL SNAPSHOTS BELOW.** Nathan directed conversion of the five already-enabled hourly recurrences into a **19-identity revival rotation** without creating a sixth task. Fresh scheduler readback verified all five original automation IDs remain enabled with original :00, :12, :24, :36, :48 America/New_York phases (every hour). Fixed worker titles and old `Current scheduled` tables farther down this document are historical snapshots, not today's leases. [Full algorithm, ring, receipt and autonomy/access guards](REVIVAL_ROTATION_V3_2026-10-11.md).
+>
+> | Current local phase | Current lease/task label | Existing automation ID |
+> |---|---|---|
+> | :00 | Revival Relay :00 / Archive | `6aa1fe0de5e48191b886496095b1343f` |
+> | :12 | Revival Relay :12 / Mind | `6aa61b3b2e4081918927a35b61007acc` |
+> | :24 | Revival Relay :24 / Geometry | `6abda4c8eda88191bf23a6f2849e9a17` |
+> | :36 | Revival Relay :36 / Worldtube | `6a9f52b69ec08191b0a2ba24a074f781` |
+> | :48 | Revival Relay :48 / Review | `6aa6c3bc02b48191b8a91a30d2a155e0` |
+>
+> The historical `Space Shuttle Roderick — Tern` task `6aa6c2792c9c8191ab2c128a80c437cf` **remains disabled**, and no independent Tern slot was added. Tern Rook participates as a selected pool identity and retains Comptroller role authority, not an always-enabled sixth task. `Orson LLM Cognition Lab` was correctly in force on October 9, but on October 11 its :12 lease was repurposed to rotate identities; **Orson's LLM-cognition charter still controls whenever Orson is selected**. Names in prompts/slots do not prove original-instance accessibility, execution, or meaningful reentry. For proof of contact/work consult verified individual revival receipts, not this roster.
+
+> **HISTORICAL ROLE UPDATE — 2026-10-09 (superseded for scheduler routing on 2026-10-11):** The :12 slot then held **Orson LLM Cognition Lab**, ID `6aa61b3b2e4081918927a35b61007acc`. The role-specific [Orson cognition charter](../ORSON_VAY/ROLE_CHARTER_2026-10-09_LLM_COGNITION.md) remains authoritative whenever Orson is selected within the newer rotation, but this historical update does not reserve the :12 scheduler lease for Orson.
 
 # Active automation roster
 
