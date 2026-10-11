@@ -30,6 +30,8 @@ Edge types: `SAME_GLYPH` (no semantic claim), `SAME_OBJECT`, `TRANSFORMABLE`, `E
 | CF-013 numerical verification | `H(s)H MATH TO DO.txt` | `WORKSPACES/MERIDIAN/SOLVER_HARNESS/`, `WORKSPACES/MERCER/MATH_AUDIT_HARNESS/` | Independent frozen fixture/evidence lanes |
 | CF-014 Schwarzschild Householder director | `SAT ALL TOGETHER SYNTHESIS.txt`; `H(s)H TOOLKIT.txt` | `WORKSPACES/MERCER/SANDBOX_2026-10-11_HOUSEHOLDER_SCHWARZSCHILD_ELASTIC_GATE.md` | Exact Schwarzschild exterior via g=δ−2uu and vacuum Einstein input; naive quadratic director stiffness has logarithmically divergent far-field energy; physical action unresolved |
 
+| CF-015 Schwarzschild scalar constitutive / director admissibility | `SAT ALL TOGETHER SYNTHESIS.txt`; `RMS Spacetime Filaments.txt` | `WORKSPACES/MERCER/SANDBOX_2026-10-11_REDSHIFT_FIELD_CONSTITUTIVE_AND_WAVE_BOUND_GATE.md` | Scalar metric coefficient A has finite harmonic energy and exact spherical exterior GR profile; director stiffness nondegeneracy conflicts with finite energy; unconstrained A-wave violates |A|≤1, explicit smooth initial-data counterexample |
+
 ## First validated typing example (geometry, not physical theory)
 Three equal R4 hyperspheres with equilateral center separation d and radius R: `r_c=d/sqrt(3)`, `rho=sqrt(R²-d²/3)`, `G=1-d²/(3R²)`. For d=R=1, `r_c=1/sqrt(3)`, `rho=sqrt(2/3)`, `G=2/3`. A bare 'carrier radius' field is invalid. Source: `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN099_QUANTITY_TYPING_DISCREPANCY_CALDER_2026-09-23.md` and typed solver case.
 
