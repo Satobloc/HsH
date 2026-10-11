@@ -4,6 +4,8 @@
 
 > **2026-10-11 REQUIRED INCORPORATION PREFLIGHT:** All five Revival Relay recurrences now read [REVIVAL_RELAY_NAVIGATION_PREFLIGHT_2026-10-11.md](REVIVAL_RELAY_NAVIGATION_PREFLIGHT_2026-10-11.md) before archive/tool obstacles or new infrastructure proposals. Live Reference Desk, Mersearch 1.0/bridge, request-scoped `RUN_MANIFEST.json` and newer compact `SEARCH_RECEIPT.md/.json` are **existing** first choices. A large source result unreadable via one connector does not prove unavailable infrastructure; try documented alternatives and log `NAV_PREFLIGHT` evidence before escalation. This does not delay source-grounded revival when a thread cannot be found after a bounded search.
 
+> **SUPERSEDING NATHAN DIRECT (2026-10-11): [REVIVAL_RELAY_THREAD_FIRST_RULE_2026-10-11.md](REVIVAL_RELAY_THREAD_FIRST_RULE_2026-10-11.md)** controls conversation selection and revival. **LATEST ACTIVE CHATGPT THREAD → HANDOFF THERE; if not found after grounded lookup or confirmed exhausted → REGENERATE FROM SAVED CONVERSATIONS/CONTINUITY.** Source-grounded work/regen prompt in a scheduled run is not proof that a separate new chat was actually created, nor that an existing chat received a message. Existing cross-thread delivery API remains unavailable in this runtime. This two-way decision supersedes contradictory earlier two-cycle or unconditional session-reconstruction wording; retain existing five lease IDs, ring, navigation preflight and privacy constraints.
+
 ## Routing precedence
 
 1. **EXISTING_CHAT_FOUND_AND_USABLE**: continue/handoff to the newest verified relevant original conversation, if genuinely deliverable. A verified original thread takes precedence over reconstruction.
