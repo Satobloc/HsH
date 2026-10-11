@@ -51,7 +51,7 @@ All figures are dimensionless mechanical tests, not measured physical observable
 **Automated search:** 60 trial combinations (four even annulum gears × five pen winding rates × three gimbal settings) saved **without discarding failures**; 24 satisfy heuristic smoothness criteria in the source-anchor-aligned version. Penalize near-degenerate sphere clearance; score first-derivative closure, curvature roughness, curvature-percentile, and low-order Fourier approximation errors. The best aligned trial: even gear 6, pen winding 4, first/second hinge turns (0,1), an actual closed and smooth trace. These criteria are engineering filters, not derived physical laws.
 
 **Test harness source** built and executed in conversation container:
-`whirligig.py` (R/Q engine + ranking), `ui4d.py` (SO(4) companion), `test_whirligig.py`, `plot_mechanics.py`, `validate_mapping.py`, three example JSONs, source/derived data and generated images/GIF. **These Python files are currently packaged as a verified downloadable conversation artifact; this commit is the repository-side mathematical/test ledger, NOT a false claim that the code bytes have been committed.** GitHub code upload is a separate pending synchronization step.
+`whirligig.py` (R/Q engine + ranking), `ui4d.py` (SO(4) companion), `test_whirligig.py`, `plot_mechanics.py`, `validate_mapping.py`, three example JSONs, source/derived data and generated images/GIF. **The complete tested source is now committed in [tools/whirligig_rq](https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq)**, including engine, six-plane SO(4) companion, tests, plotting/validation tools, requirements, three example inputs, README and results ledger. Eleven out of eleven repository text files were independently fetched back and verified **exactly identical** to the local transfer bytes. The local results, figures, data and animated GIF are additionally available as a generated conversation ZIP.
 
 ## Next computational priorities
 
@@ -60,7 +60,7 @@ All figures are dimensionless mechanical tests, not measured physical observable
 3. Find actual equations for Curvy_Lisa transformation under known source-to-target maps, measure joint dynamical residuals and inverse reconstruction; do *not* infer isomorphism from closure.
 4. Advance discrete candidate ranking to smooth constrained optimization, including nondifferentiability detection at root switches and semi-analytic arc-length/jacobian regularity tests.
 5. Recover original user-specified source equations and compare held-out Kepler↔hydrogen / Schwarzschild deformation tests in separate typed sectors.
-6. Synchronize the local tested Python source into HsH and obtain hostile mechanical review from other workers before treating it as shared production solver.
+6. Add repository CI and obtain hostile mechanical review from other workers before treating the code as a shared production solver.
 
 ## Related independent Mersearch note
 
