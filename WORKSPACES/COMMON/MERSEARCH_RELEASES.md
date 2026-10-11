@@ -154,36 +154,18 @@ For each promoted release record:
 Use results as discovery evidence. For consequential historical, mathematical, currentness or supersession claims, follow through to the underlying sources and relevant provenance review.
 
 
-## Shared request bridge for connector-only workers
+## Shared request bridge for connector-only workers (live implementation checked 2026-10-11)
 
-Workers that can read/write the repository but cannot directly execute a checkout can invoke stable Mersearch through the request bridge.
+**Use `WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md` for the controlling worker procedure.** This section updates the original *single-archive* bridge instructions in this release record. The tool's **stable search implementation remains `mersearch-stable-1.0`** (pinned commit above), while the **bridge workflow on HsH `main`** has evolved.
 
-**Request surface:** `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`  
-**Workflow:** `.github/workflows/mersearch-request-bridge.yml`  
-**Published results:** `indexes/mersearch_requests/latest.json` and `latest.md`
+- **Shared single-slot request:** `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`. Read it first. **Never overwrite a pending/retry request from another worker**. Changing this file on `main` is the execution trigger.
+- **Deployed workflow:** `.github/workflows/mersearch-request-bridge.yml`. The actual 2026-10-11 YAML checks out `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, `Satobloc/HsH`, and `Satobloc/HSH_RESOURCES`, then executes the stable Mersearch script against **all three roots**. Do not rely on an old one-repository description.
+- **Request-scoped result paths:** `indexes/mersearch_requests/<request_id>/SEARCH_RESULTS.json`, `SEARCH_RESULTS.md`, and `RUN_MANIFEST.json`. Check their existence and the recorded source repository commits, exclusions, version, output checksums, and actual run completion before treating them as a completed search. An existing request alone proves **nothing ran**. The `latest.*` aliases are not provenance and may lag.
+- **Stable runtime detail:** the current bridge builds a temporary runtime copy of the stable search script with a narrowly scoped `TOOL_NAME`/`TOOL_VERSION` identity-definition hotfix when necessary. Its manifest records whether that change was applied and both stable/runtime script SHA-256 digests. The stable branch is **not** rewritten. Cite the manifest, not an assumed identity.
+- **Safety:** the bridge retains default `PRIOR_ART` and `QUARANTINE` exclusions; external/private resources are reference-only, not automatic public citations or theory authority. Coverage may be partial because of unsupported extensions, size caps, or workflow failures. Keep every source's permission/provenance classification.
+- **Known pending slot when reviewed (2026-10-11):** `2026-10-11-orson-morrow-inspiral-package-001`, requester Orson, status `requested-retry`. The corresponding request-scoped output folder was **not found** at this inspection; workers must recheck live state before using the slot, and investigate runner logs if it still fails.
 
-Request shape:
+### Historical note
 
-```json
-{
-  "request_id": "unique-human-readable-id",
-  "query": "author:user AND (holonomy NEAR/12 glitch)"
-}
-```
+The original Mersearch 1.0 release text described an earlier bridge that searched only `SAT_THEORY_ARCHIVE_2023-25` and published moving `latest.*` files. Those sentences are **superseded for the currently deployed workflow**. This is a bridge-deployment documentation correction, **not** a new Mersearch search-semantics release.
 
-Committing a change to the request file on `main` triggers the bridge. The runner checks out:
-1. current HsH `main` for the request/results surfaces;
-2. the pinned `mersearch-stable-1.0` implementation;
-3. `Satobloc/SAT_THEORY_ARCHIVE_2023-25` as the searched corpus.
-
-It runs `tools/search_archive_content.py` against the original archive, sorted by date, then commits the JSON and Markdown result artifacts back to HsH.
-
-### Bridge cautions
-
-- This is a **worker execution bridge**, not a new search semantics or a replacement for Mersearch Core.
-- Results remain discovery evidence; consequential claims still require inspection of underlying sources.
-- Stable 1.0 exclusions remain in force, including default exclusion of QUARANTINE and PRIOR_ART.
-- The current bridge searches the original SAT archive only. Do not imply that a bridge result covers all three repositories.
-- `latest.*` is intentionally a moving result surface and can be overwritten by a later request. Preserve consequential result sets separately before issuing another request.
-- Use a unique `request_id` so workflow runs and commits can be audited.
-- If the bridge workflow fails, inspect the workflow run rather than silently substituting GitHub code search and calling that a Mersearch result.
