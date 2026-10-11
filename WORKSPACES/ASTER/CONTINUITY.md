@@ -273,3 +273,13 @@ Common handoff routed to Tern/Meridian. Paper-A review remains frozen. Nathan-le
 ### 2026-10-11 — Nathan clarification: Aster prior-art remit overrides earlier restriction reading
 
 Nathan clarified directly that Aster is part of his prior-art review team; therefore the Oct. 9 Hypothesis-H / directly-Schreiber restriction does **not** apply to Aster in that role. The earlier Paper-A post-acceptance policy-conflict escalation was a scope-reading error and has been withdrawn/corrected. Paper A does not require grandfathering, sanitization or hold on that basis. Aster may continue Hypothesis-H/Schreiber prior-art review under ordinary provenance, source-typing, exposure and non-premise-import controls. The residual `proliferation` wording issue remains the only live Paper-A defect from that stress-test.
+
+### 2026-10-11 — Paper A prior-art tranches: Hypothesis H + Hinton/Smith
+
+**Hypothesis-H audit:** citation-verified the three exact Paper-A comparator references and inspected indexed abstracts/findings. The accepted R1 comparator lane survives: source programme establishes twisted-cohomotopy charge quantization, M2/M5 consequences and K3 compactification/reduction structure; Paper A correctly keeps the SAT R_4? relation as its own conjectural test. Artifact: `ASTER_HYPOTHESIS_H_PRIOR_ART_AUDIT_2026-10-11.md`, commit `5644f9739c5576d539116138b18a7fb6120ec36b`.
+
+**Historical moving-section audit:** directly compared Nathan's 23 Mar 2024 `DIMENSIONAL GRAVITY` primary source with Hinton 1904 and Whately Smith 1920. Hinton explicitly gives fixed spiral + moving film -> point moving in a circle and generalizes to filament structures/apparent atoms/motion. Smith explicitly gives perpendicular/slanted thread intersection behavior plus twisted/intertwined threads across a film. Verdict: substantive prior art on the generic construction and helix/spiral circular-point readout; no influence established. Artifact: `ASTER_HISTORICAL_MOVING_SECTION_PRIOR_ART_AUDIT_2026-10-11.md`, commit `93b48b16abb8799a543ffa4edec45f32aae8e7dc`.
+
+**Registry repair:** Mira `INT-0001` corrected from stale 2024-03-22/path-pending state to 2024-03-23 plus exact root source path in HSH_RESOURCES commit `558497df1f0174b8889ba235310cc035ea80e6ca`.
+
+**Next cursor:** braid/configuration-space prior art versus Nathan's explicit March-2024 rule `two intertwined lines -> points on moving plane orbit one another`; determine whether that kinematic mapping is generic braid projection, a special braid geometry, or a Nathan-specific elaboration in the checked source set. Exposure search for Hinton/Smith remains pending until Mersearch shared slot is free.
