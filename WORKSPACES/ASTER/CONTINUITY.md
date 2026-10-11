@@ -270,3 +270,6 @@ Durable defect artifact:
 
 Common handoff routed to Tern/Meridian. Paper-A review remains frozen. Nathan-level clarification is required only for the retroactivity/publication handling of the Oct-9 source-boundary change; the residual proliferation wording is an ordinary bounded repair if editing reopens.
 
+### 2026-10-11 — Nathan clarification: Aster prior-art remit overrides earlier restriction reading
+
+Nathan clarified directly that Aster is part of his prior-art review team; therefore the Oct. 9 Hypothesis-H / directly-Schreiber restriction does **not** apply to Aster in that role. The earlier Paper-A post-acceptance policy-conflict escalation was a scope-reading error and has been withdrawn/corrected. Paper A does not require grandfathering, sanitization or hold on that basis. Aster may continue Hypothesis-H/Schreiber prior-art review under ordinary provenance, source-typing, exposure and non-premise-import controls. The residual `proliferation` wording issue remains the only live Paper-A defect from that stress-test.
