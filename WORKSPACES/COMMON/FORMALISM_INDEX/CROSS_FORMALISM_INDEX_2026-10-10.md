@@ -28,6 +28,7 @@ Edge types: `SAME_GLYPH` (no semantic claim), `SAME_OBJECT`, `TRANSFORMABLE`, `E
 | CF-011 variational methods | `H(s)H TOOLKIT.txt`; `[[SAT26 TOOLBOX]]/HsHtoolkit_manifest.csv` | `WORKSPACES/MERCER/MATH_AUDIT_HARNESS/README.md` | BV/AKSZ/symplectic candidates; no automatic adoption or lossless coarse-grain |
 | CF-012 historical formalism toolbox | `[[SAT26 TOOLBOX]]/` nine-file package; `H(s)H HEAVY TOOLBOX.txt` | `WORKSPACES/COMMON/terminology/TOOLBOX_NAMESPACE_LEDGER.md` | Heavy toolbox content unresolved; validate blob size before assuming empty |
 | CF-013 numerical verification | `H(s)H MATH TO DO.txt` | `WORKSPACES/MERIDIAN/SOLVER_HARNESS/`, `WORKSPACES/MERCER/MATH_AUDIT_HARNESS/` | Independent frozen fixture/evidence lanes |
+| CF-014 Schwarzschild Householder director | `SAT ALL TOGETHER SYNTHESIS.txt`; `H(s)H TOOLKIT.txt` | `WORKSPACES/MERCER/SANDBOX_2026-10-11_HOUSEHOLDER_SCHWARZSCHILD_ELASTIC_GATE.md` | Exact Schwarzschild exterior via g=δ−2uu and vacuum Einstein input; naive quadratic director stiffness has logarithmically divergent far-field energy; physical action unresolved |
 
 ## First validated typing example (geometry, not physical theory)
 Three equal R4 hyperspheres with equilateral center separation d and radius R: `r_c=d/sqrt(3)`, `rho=sqrt(R²-d²/3)`, `G=1-d²/(3R²)`. For d=R=1, `r_c=1/sqrt(3)`, `rho=sqrt(2/3)`, `G=2/3`. A bare 'carrier radius' field is invalid. Source: `WORKSPACES/COMMON/MERIDIAN_HANDOFFS/RUN099_QUANTITY_TYPING_DISCREPANCY_CALDER_2026-09-23.md` and typed solver case.
