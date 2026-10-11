@@ -1,0 +1,21 @@
+{
+  "config": {
+    "major": 1.6,
+    "minor": 0.55,
+    "annulum_gear": 6,
+    "n": 256,
+    "pen_turns": 0,
+    "align_source_anchors": true,
+    "holonomy_compensation": true
+  },
+  "R": {
+    "kind": "expression",
+    "label": "R: harmonic two + three",
+    "expr": "0.55*cos(2*t)+0.15*sin(3*t)"
+  },
+  "Q": {
+    "kind": "expression",
+    "label": "Q: harmonic three + five",
+    "expr": "0.6*sin(3*t)+0.1*cos(5*t)"
+  }
+}
