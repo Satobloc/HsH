@@ -26,12 +26,21 @@ RING = (
 EPOCH = datetime(2026, 10, 11, tzinfo=timezone.utc)
 PHASE = (0, 12, 24, 36, 48)
 KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
-FIELD = re.compile(r"^\s*-\s*\*\*(.+?):\*\*\s*(.+?)\s*$", re.M)
+BOLD_FIELD = re.compile(r"^\s*-\s*\*\*(.+?):\*\*\s*(.+?)\s*$")
+PLAIN_FIELD = re.compile(r"^\s*([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
 STAMP = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{4}Z)_")
 
+def field_name(value):
+    return value.strip().lower().replace(" ", "_").replace("-", "_")
+
 def data(text):
-    return {k.strip().lower().replace(" ", "_"): v.strip().strip(chr(96))
-            for k, v in FIELD.findall(text)}
+    """Parse both documented receipt dialects without interpreting prose."""
+    result = {}
+    for line in text.splitlines():
+        match = BOLD_FIELD.fullmatch(line) or PLAIN_FIELD.fullmatch(line)
+        if match:
+            result[field_name(match[1])] = match[2].strip().strip(chr(96))
+    return result
 
 def parse_key(value):
     m = KEY.fullmatch((value or "").strip(chr(96)))
@@ -177,12 +186,17 @@ def self_test():
         receipt.write_text("- **run_key:** REVROT3-19-20261011:12:s3\n- **selected_identity:** Aldus\n- **next_identity:** Calder\n- **next_run_key:** REVROT3-19-20261011:12:s4\n- **delivery_verified:** false\n", encoding="utf-8")
         packet.write_text("- **from_run_key:** REVROT3-19-20261011:12:s3\n- **to_run_key:** REVROT3-19-20261011:12:s4\n- **sender_identity:** Aldus\n- **recipient_identity:** Calder\n- **chat_delivery_state:** UNAVAILABLE\n- **delivery_counts_as_invitation:** false\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "PASS"
-        receipt.write_text(receipt.read_text() + "- **count_this_as_miss:** true\n", encoding="utf-8")
+        # Current relay artifacts commonly use plain key/value lines. They must
+        # audit identically to the older bold-list dialect.
+        receipt.write_text("run_key: REVROT3-19-20261011:12:s3\nselected_identity: Aldus\nnext_identity: Calder\nnext_run_key: REVROT3-19-20261011:12:s4\ndelivery_verified: false\n", encoding="utf-8")
+        packet.write_text("from_run_key: REVROT3-19-20261011:12:s3\nto_run_key: REVROT3-19-20261011:12:s4\nsender_identity: Aldus\nrecipient_identity: Calder\nchat_delivery_state: UNAVAILABLE\ndelivery_counts_as_invitation: false\n", encoding="utf-8")
+        assert Audit().check(temp)["status"] == "PASS"
+        receipt.write_text(receipt.read_text() + "count_this_as_miss: true\n", encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
-        receipt.write_text(receipt.read_text().replace("- **count_this_as_miss:** true\n", ""), encoding="utf-8")
+        receipt.write_text(receipt.read_text().replace("count_this_as_miss: true\n", ""), encoding="utf-8")
         packet.write_text(packet.read_text().replace(":s4\n", ":s3\n"), encoding="utf-8")
         assert Audit().check(temp)["status"] == "FAIL"
-    return {"status": "PASS", "checks": 6}
+    return {"status": "PASS", "checks": 7}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
