@@ -5,6 +5,18 @@
 
 This is a two-branch routing decision, not a permanently scheduled persona, a two-cycle inactivity exam, or a demand to rebuild the identity on every scheduled firing.
 
+## Inbox delivery fallback (Nathan Direct, 2026-10-12)
+
+**Primary fallback when ChatGPT cross-thread posting is not available: save an addressed message in the worker's EXISTING GitHub inbox** (`WORKSPACES/<WORKER>/INBOX.md` or their current documented inbox route). This is preferable to leaving the packet only under `REVIVAL_ROTATION_HANDOFFS/`, where the recipient may not look. Use the Common/reference navigation to resolve actual inbox path, including workers whose workspace lives in another permitted repository. **Do not invent a path** when the worker has a documented alternate inbox. Read the file freshly, append a clearly keyed new `recipient + run_key + sender` entry using its current blob SHA (CAS), then independently reread to verify the exact receipt ID/content. Avoid duplicate entries by receipt ID. If the inbox is not a suitable text file, use its documented recipient-directed inbox mechanism instead.
+
+The inbox message should have source pointer, actual handoff or bounded concise copy, unique receipt ID, next action, provenance, and `github_inbox_delivery=VERIFIED` only after successful readback; `chat_delivery=UNAVAILABLE` unless actual cross-chat post verified. A successful inbox append is durable delivery **to repository inbox**, not a ChatGPT message and not proof a worker read it. On later authorized worker run, read inbox at startup, acknowledge only after actually consuming its message, and preserve archive history rather than rewriting old check-ins.
+
+If the inbox write fails, reread to disambiguate an ambiguous success; retry only against the latest SHA with a deduplication check and bounded attempts, then leave the complete message in the scheduled response marked `INBOX_DELIVERY_NOT_VERIFIED`. Never drop, stop or falsely call it delivered. This fallback precedes generic Common packet-only routing whenever a suitable worker inbox exists.
+
+**Verified implementation fixture:** `WORKSPACES/RAVEL/INBOX.md` now contains `REVIVAL-INBOX-ROUTE-20261012-RAVEL-001`, appended and independently reread on 2026-10-12, linking Mercer `45:s0→45:s1` to Ravel. This verifies GitHub inbox writing works in at least this turn; it does not establish broad connector reliability or ChatGPT cross-thread delivery.
+
+**Scheduler/thread distinction:** A recurrence created/edited from within a ChatGPT conversation can *appear associated with that conversation*. That does not establish this API can select an arbitrary other pre-existing thread as its delivery target. Do not mistake the original task's conversation association for a general cross-thread posting tool. When genuinely exposed task or Work browser functionality permits specific-thread delivery, verify it experimentally before marking such delivery.
+
 ## Controlling no-stall amendment: regenerate or skip, strongly prefer regenerate (Nathan Direct, 2026-10-11)
 
 **Never halt the rotation because a worker/thread is hard to locate, a predecessor handoff is missing or late, direct chat posting is unsupported, a Mersearch bridge is occupied, or a repository write failed.** The execution lease and next selection continue regardless. Apply these short operational branches in order:
