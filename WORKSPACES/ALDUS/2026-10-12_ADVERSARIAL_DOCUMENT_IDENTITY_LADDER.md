@@ -43,9 +43,7 @@ For a single use event, define booleans:
 
 Then:
 
-[
-mathrm{eligible_for_claim_use}=Lland Pland Sland Hland Eland Bland Aland Cland Uland Q.
-]
+`eligible_for_claim_use = L AND P AND S AND H AND E AND B AND A AND C AND U AND Q`
 
 This is a conservative conjunction, not a claim that every legal or scholarly workflow must use these labels. Any unknown term holds the item. In particular, Mira's present result establishes parts of P and S only. It does not imply H, E, B, A, C, U, or Q.
 
