@@ -1,0 +1,14 @@
+{
+  "model": "f(E,L)=C(Ecut-E)^k L^(2ell), ell>=0",
+  "status": "sandboxed mathematical gate; no SAT/H(s)H physical claim",
+  "results": [
+    {"k":0.0,"ell":0.0,"n":1.5,"beta":0.0,"two_Tr_over_Tt":1.0,"xi1":3.6537537362191417,"dimensionless_mass":2.7140551201068237,"central_density_class":"finite_nonzero","ode_integral_residual":1.865174681370263e-14},
+    {"k":0.0,"ell":0.5,"n":2.0,"beta":-0.5,"two_Tr_over_Tt":0.6666666666666666,"xi1":3.2101956532389258,"dimensionless_mass":3.2101956532531535,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":2.220446049250313e-15},
+    {"k":0.0,"ell":1.0,"n":2.5,"beta":-1.0,"two_Tr_over_Tt":0.5,"xi1":2.881732424034295,"dimensionless_mass":3.461991460925981,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":3.1086244689504383e-15},
+    {"k":0.0,"ell":2.0,"n":3.5,"beta":-2.0,"two_Tr_over_Tt":0.3333333333333333,"xi1":2.475760977329991,"dimensionless_mass":3.7081356392205773,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":8.881784197001252e-16},
+    {"k":1.0,"ell":0.0,"n":2.5,"beta":0.0,"two_Tr_over_Tt":1.0,"xi1":5.355275459010779,"dimensionless_mass":2.187199565517082,"central_density_class":"finite_nonzero","ode_integral_residual":6.661338147750939e-15},
+    {"k":1.0,"ell":0.5,"n":3.0,"beta":-0.5,"two_Tr_over_Tt":0.6666666666666666,"xi1":4.044238350037312,"dimensionless_mass":2.5908646674664286,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":1.7763568394002505e-15},
+    {"k":1.0,"ell":1.0,"n":3.5,"beta":-1.0,"two_Tr_over_Tt":0.5,"xi1":3.3994113439794034,"dimensionless_mass":2.8398199658887466,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":8.881784197001252e-16},
+    {"k":1.0,"ell":2.0,"n":4.5,"beta":-2.0,"two_Tr_over_Tt":0.3333333333333333,"xi1":2.7517774674563507,"dimensionless_mass":3.1391470143755402,"central_density_class":"hollow_r^(2ell)","ode_integral_residual":1.3322676295501878e-15}
+  ]
+}
