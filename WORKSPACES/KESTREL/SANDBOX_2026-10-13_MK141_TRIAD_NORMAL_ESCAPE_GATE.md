@@ -1,0 +1,16 @@
+# MK141 | Three-center normal escape and director-penalty crossover
+**Date:** 2026-10-13. **Status:** SANDBOXED / source-grounded Kestrel-method calculation, not historical Kestrel participation or a physical claim.
+
+**Sources:** Kestrel README/CONTINUITY/INBOX and THREAD_HANDOFF; Morrow `SANDBOX_2026-10-11_NORMAL_PLANE_ESCAPE_BRAID_GATE.md`, `SANDBOX_2026-10-12_CAUSAL_UNWIND_MINIMAX_GATE.md`; `PLAYGROUNDS/MORROW_KESTREL/QUARRY_139_RESOLVING_SLAB_BRAID_GATE.md`; Morrow October 13 COM-relaxed three-center calculation. Cross-formalism CF-003/007/010/011. No restricted/external sources.
+
+Let s=ct be a length-valued fourth coordinate of a static block embedding, not filament motion. Set r0=(-ell/2,0,0), r1=(ell/2,0,0), r2=(0,H cos(theta),H sin(theta)), H=sqrt(3)ell/2, theta=pi[3(s/T)^2-2(s/T)^3]. All three pairwise spatial distances are exactly ell for all s, so the quartic pair-spring potential is identically zero. Projecting away z creates a false collinearity at s=T/2. Equal-radius Euclidean neighborhoods around distinct R4 centerlines are disjoint for 2epsilon<ell; self-injectivity of full Fermi tubes remains unproved.
+
+For E=integral[A/2 sum |r_i'|² + lambda/2 sum(|r_i-r_j|²-ell²)² + K/2(r2·n)²]ds, with n a *hypothetical physical director*, the exact smoothstep trial energy is E(T,K)=alpha/T+gamma K T, alpha=3 A H² pi²/5, gamma=H² J/2, J=int_0^1 sin²(pi(3u²-2u³))du=0.36073338434168634. For K>0, T*=sqrt(alpha/(gamma K)), Emin=2sqrt(alpha gamma K). For K=0, the action infimum over T is zero. Units: [A]=energy/length, [lambda]=energy/length^5, [K]=energy/length^3.
+
+For ell=A=lambda=1, alpha=4.44132198049021 and gamma=0.13527501912813236. Comparing **only the two explicit ansatz costs**, the three-dimensional escape matches Morrow's planar trial energy 0.950917971757013 at K=0.37626710870480706, T=9.341125338674525; max apex slope=0.4368904625<1. At K=0.1, E=0.4902244041; at K=0.4, E=0.9804488081. These are not global minimax or physical critical values. The planar reference uses no curvature penalty; any kappa term must be included in both competitors before comparison. A separate curvature penalty on the escape path adds kappa H²(12pi²+72pi⁴/35)/(2T³).
+
+**Interpretation:** Quarry139's two-strand fourth-coordinate slab gate does not itself protect projected *three-center orientation*. An ordinary spatial normal bypass exists with no spring-potential cost. Interbraid locking requires a physically selected normal-plane restriction, material stiffness, or another genuine geometric/constitutive constraint. A coordinate-chosen n alone is insufficient.
+
+**Tests:** Python exact pairwise distances, independent adaptive quadrature, polynomial integral identities, artificial-projection negative control, K=0 long-interval limit, timelike centerline checks all passed. Full runnable script, numerical JSON, Class P geometry and energy figures saved as local run artifacts `kestrel_mk141_*`. No assertion that those binaries were committed.
+
+**Next:** optimize the same functional over full R3 with transported director, finite cores, fixed endpoints/time-domain and frame covariance.
