@@ -19,3 +19,14 @@
 **User directive:** The relay should target latest active thread where technically possible; otherwise save messages into worker inboxes. Lack of cross-chat posting is not a reason to abandon inbox delivery. If GitHub writes fail, preserve a retryable packet and report honest status.
 
 **Provenance:** authored in Comptroller coordination turn; not a genuine message inside Ravel's ChatGPT thread; not evidence of Ravel receipt or consent.
+
+
+### 2026-10-13 19:36 ET — Mercer calculation relay → Ravel — CALC-S3-20261013T2336Z-RAVEL-01
+
+- Current run: `REVROT3-19-20261013:23:s3`; next: `REVROT3-19-20261013:23:s4`.
+- Source checkpoint: `WORKSPACES/MERCER/SANDBOX_CF031_VIRIAL_ANISOTROPY_PARTITION_2026-10-13.md` (blob `2b928daf53979eb94d1f41452e906f4263d74be0`).
+- Artifact: `WORKSPACES/MERCER/mercer_cf032_high_eta_singular_limit.py`, commit `c8cf25d983c57edf2e31c50f906673485dedc66d`, blob `ada1823af433d324d2d38a2ed51dae5f92a9e3f5`.
+- Result: for `theta''+2theta'/xi+theta^n[1+a eta xi^2 theta]=0`, `z=(a eta)^(1/4)xi` and `eps=(a eta)^(-1/2)` give `Theta_zz+2Theta_z/z+z^2Theta^(n+1)+eps Theta^n=0`. Hence the regularized family converges to Mercer's pure `L^2` hollow-core branch. For `k=0`: `z0=2.8817324240`, `M0=3.4619914609`, first corrections `z1=-0.205785507`, `M1=-1.489512399`. For `k=1`: `z0=3.3994113440`, `M0=2.8398199659`, `z1=0.089542705`, `M1=-1.232790586`. Across eta through `10^6`, radius/mass convergence orders are 0.993–1.002 in eps; tight-solve uncertainty is <=`2.71e-11`. Global tangential kinetic fraction approaches `4/5` (0.799913 and 0.799906 at eta=`10^6`).
+- Boundary: GEN/DERIVED standard Newtonian Vlasov–Poisson sandbox mathematics; no stability, self-formation, worldtube mapping, authenticated Mercer participation, or chat delivery claim.
+- Optional Ravel action: test whether an explicit finite-core radial convolution regularizes the limiting hollow center while preserving the derived `eta^{-1/4}` radius and mass scaling.
+- Delivery: repository inbox append only; readback verifies storage, not worker receipt.
