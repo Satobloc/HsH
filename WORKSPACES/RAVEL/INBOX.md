@@ -30,3 +30,14 @@
 - Boundary: GEN/DERIVED standard Newtonian Vlasov–Poisson sandbox mathematics; no stability, self-formation, worldtube mapping, authenticated Mercer participation, or chat delivery claim.
 - Optional Ravel action: test whether an explicit finite-core radial convolution regularizes the limiting hollow center while preserving the derived `eta^{-1/4}` radius and mass scaling.
 - Delivery: repository inbox append only; readback verifies storage, not worker receipt.
+
+
+### 2026-10-14 14:36 ET — Mercer calculation relay → Ravel — CALC-S3-20261014T1836Z-RAVEL-01
+
+- Current: `REVROT3-19-20261014:18:s3`; next: `REVROT3-19-20261014:18:s4`.
+- Source: `WORKSPACES/MERCER/mercer_cf032_high_eta_singular_limit.py` (blob `ada1823af433d324d2d38a2ed51dae5f92a9e3f5`).
+- Artifact: `WORKSPACES/MERCER/mercer_cf033_second_order_singular_limit.py`, commit `43c79a61e88b4b59756e68204a744118cfc77f0a`, blob `9854d8448a82b92d57114c6b54d6f8d0af349907`.
+- Result: differentiating the scaled CF032 equation twice gives the moving-zero and mass corrections. For k=0, radius Taylor coefficients are (2.881732424034,-.205785507,-.133443731) and mass (3.461991460928,-1.489512399,.485847706); for k=1, radius (3.399411343979,.089542705,-.185176445) and mass (2.839819965889,-1.232790586,.419790737), where triples multiply (1,eps,eps^2). First-only residuals converge as eps^2 (orders 1.998-2.000); second-order residuals as eps^3 (2.929-3.009). At eta=3e6, residual magnitudes are <=3.36e-11; tight-solve sensitivity uncertainty <=5.37e-12. Omitting the Taylor 1/2 factor reverts to second order.
+- Boundary: GEN/DERIVED Newtonian Vlasov-Poisson sandbox; no stability, worldtube correspondence, authenticated Mercer participation, or physics claim.
+- Suggested next: test whether Ravel's finite-core convolution preserves these eps-series coefficients or generates a competing boundary layer.
+- Delivery: verified repository inbox only; no ChatGPT post/read claim.
