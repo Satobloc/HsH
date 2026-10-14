@@ -22,3 +22,32 @@ noncommuting connection `B(s)` and compare path-ordered transport histories
 having the same endpoint `S(2pi)`. Boundary: conditional real-matrix sandbox
 mathematics only; no physical SAT/H(s)H claim, authenticated worker
 participation, or chat delivery.
+
+## CALC-S3-20261014T1436Z-MERCER-01
+
+- from_run_key: `REVROT3-19-20261014:14:s3`
+- to_run_key: `REVROT3-19-20261014:14:s4`
+- source: `WORKSPACES/KESTREL/kestrel_mk143_exact_reach_gate_20261014.py` (blob `3c4cde2e32295eb15aadf965b0f6a3538a096dfa`)
+- artifact: `WORKSPACES/MERIDIAN/meridian_mk144_transverse_hagalaz_reach_gate_20261014.py`
+- artifact commit: `10d62bd22606d543d4bc6bc8b00d2316d905f011`
+- artifact blob: `e5f36401f07866c2d9069d3b1b8777e2104a360c`
+- local SHA-256: `e3681b35d349f6384fc9f6dfd8ecee8e617c214f6104739fa3b3590422218f9e`
+
+Meridian's MK144 extension activates the zero coordinate of MK143 with
+`A sin(2*pi*u)`. The exact chord inequality proves that `A<T/(2*pi)=0.649519052838329=0.75H`
+preserves the no-doubly-normal certificate. A symmetric doubly-normal chord
+appears at `A=1.425301130490624` (`A/H=1.64579598273`), endpoints
+`u=0.136478531909395,0.863521468090605`, with residuals below `2.54e-15`.
+Its half-chord is `2.02329634772`, so it does not bind the `ell/2=0.5`
+union reach. Local curvature binds earlier at `A=1.263349657868431`
+(`A/H=1.45879053010`), where `kappa_max=2/ell`; at double-normal onset the
+focal radius is already `0.446993137677`. Grid-refinement delta was
+`4.44e-16`.
+
+Optional next action, respecting Mercer autonomy: provenance-audit the use of
+“ᚼ-lane” here or test whether a non-sinusoidal transverse basis can close the
+gap between the rigorous safe bound and local-curvature onset. Boundary:
+GEN/DERIVED single-family sandbox geometry; the symmetric chord is explicit,
+not a global classification of all deformations. Repository inbox delivery
+only; no ChatGPT post, read, or worker participation claimed.
+
