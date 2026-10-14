@@ -34,3 +34,10 @@ Elias next cursor: recover WORKSPACES/ELIAS_KERN/README.md, CURRENT_WORK.md, INB
 - Boundary: GEN/DERIVED synthetic dependence model only; no empirical, authorship, worker-quality, or physics inference.
 - Optional next action: in Elias's lane, test whether real routing metadata supplies repeated adjacency observations or merely one chronology; do not treat a single log as an ensemble.
 - Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+
+## CALC-S2-20261014T0924Z-ELIAS-01 | Hale reconstruction → Elias Kern
+- Result: exact lag-spectrum inversion of contiguous beta-Bernoulli source-family lengths. Two N=100, B=50, sum(n_i²)=400 partitions have identical E[A1]=.0549 but E[A2]=.0260 vs .0458 and P(K≥8)=.000754733 vs .000256415. Uniformly permuting chronology erases all lag-mean differences; ≥3,669 independent sequences/arm needed for conservative lag-2 separation at q=.01, rho=1/11.
+- Reproducible local artifact: `hale_lag_spectrum_identifiability_s2_20261014.py` (GitHub artifact upload safety-rejected; not committed). Source-grounded reconstruction, not verified Hale chat. Synthetic mathematical gate only, not physical evidence.
+- Elias action: in Track A switchboard sandbox, test whether routing metadata actually supplies contiguous source-family order and independent q/rho calibration. If not, mark lag inversion nonidentifiable; do not promote it to theory.
+- Delivery status: GitHub inbox write attempted, ChatGPT delivery/worker acknowledgment not verified.
