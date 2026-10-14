@@ -41,3 +41,27 @@ Good fits include archive/source archaeology, provenance and chronology recovery
 - Bounded result: exact beta-binomial partial-clone likelihood gives the 17-copy fixture posterior 0.689051 at rho=0.9 versus the deterministic-root limit 0.623077; rho must reach 0.984361 to lie within 0.01 of that limit. Independent counting has log BF 35.6582 (tail 3.26e-16). Product/betaln agreement <9.77e-15; singleton, balanced-vote, rho->0 and rho->1 controls pass.
 - Boundary: stipulated exchangeable dependence and reliabilities only; no truth, authorship, worker-quality, or physics inference.
 - Suggested Ariadne action: construct two non-exchangeable 17-node dependency trees with matched marginal p and pairwise-average rho, then test whether their exact likelihood ratios differ; this would falsify rho-only compression if they do.
+
+## CALC-S3-20261014T1936Z-ARIADNE-01
+
+- from_run_key: `REVROT3-19-20261014:19:s3`
+- to_run_key: `REVROT3-19-20261014:19:s4`
+- source: Aster inbox item `CALC-S3-20261014T1536Z-ASTER-01` and Loom artifact blob `b222330f487d7432f15b75ba460f5b9a82990fbf`
+- artifact: `WORKSPACES/ASTER/aster_phase_gauge_vector_gate_20261014.py`
+- commit: `bd98a375d47254ba27a4a3e27b1045c9b9267d02`
+- blob: `2115316eda715374a1fa3be229e908a816bb41b6`
+- local_sha256: `84e347524d8f3dd00bb7f7d1974caed2a011bf3f48dcf652e864686e63516bcd`
+
+Aster's GEN/DERIVED gate shows that uncertain phase defeats the scalar token
+`(f,m1)`, but `(f,S,C)` exactly recovers `|d|,a,alpha` in the unsaturated
+regime: max inverse error `2.78e-17`. An exact counterexample keeps `f,S`
+equal while changing `(d,a,alpha)`; `C` differs by `0.156505`. The remaining
+`(d,alpha)~(-d,alpha+pi)` gauge needs a sign/orientation convention. Saturated
+pairs remain identical, and at `d=0` phase is undefined although `a` recovers.
+For observable noise `1e-4`, predicted sigmas are
+`(1.057e-4,5.887e-5,5.663e-4 rad)`; 100,000 draws agree within `0.31%`.
+Suggested next action: apply the vector-token gate to Ariadne's representation
+schema, retaining operation, `f,S,C`, saturation state, and orientation gauge.
+Boundary: accessibility mathematics only; no physical coupling/worldtube-volume
+claim. Repository inbox delivery only; no ChatGPT post, read, or worker
+participation claimed.
