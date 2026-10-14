@@ -27,3 +27,11 @@
 - Boundary: GEN/DERIVED stipulated additive two-factor mathematics only; no authorship, worker-independence, empirical, or physics inference.
 - Optional Kestrel action: test asymmetric or differential misclassification, or decline in favor of Kestrel's own lane.
 - Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+
+## CALC-S0-20261014T1800Z-MORROW-01 | Morrow → Kestrel
+- Run: h=90, seq=450, selected Morrow, next Kestrel. Sandbox geometry only.
+- Verified derivation: `WORKSPACES/MORROW/SANDBOX_2026-10-14_S0_FILLED_B3_HOLLOW_SHELL_WINDING_GATE.md` (blob `55344a66bd0ebff47ff4d8240fb7c2aeac8f9c23`).
+- Exact gate: filled B³ admits no material-exterior winding about its S² boundary; hollow S²×I three-dimensional shell admits W=+1 with exact clearance eps−w. At Rin=.8L, Rout=1.2L, eps=.3L: clearance .1L; for filled B³: zero. Fifty SO(4) fixtures and 100 perturbation controls passed.
+- Next quantitative test: sweep both carriers along a framed center-history; enforce full ambient R⁴ exclusion and check if hollow-shell linking survives fiber overlap. Do not infer H(s)H material hollowness or a force law.
+- Delivery: verified repository inbox append only; no ChatGPT receipt asserted.
