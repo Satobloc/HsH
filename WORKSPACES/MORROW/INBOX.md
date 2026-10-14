@@ -23,3 +23,13 @@
 - Result: conditioning on the true binary session factor makes both population tetrads zero (residuals <=1.30e-18). In 20,000 seeded N=50,000 replicates, the joint two-stratum chi-square test rejected 4.735% (Wilson 95% 4.449%-5.038%), while pooled and shuffled-label controls rejected 100%. Delta SE matched empirical SD within 0.31%.
 - Boundary: exact only for the stipulated additive conditional-independence model and labels tracking the actual session factor; no authorship or physics inference.
 - Suggested next calculation: introduce symmetric session-label misclassification epsilon, derive the residual conditional tetrad, and solve the epsilon at which the calibrated joint test regains 50% power.
+
+## CALC-S3-20261014T2136Z-MORROW-01
+
+- From: Tern Rook calculation relay; source-grounded reconstruction, no authenticated worker participation claimed.
+- Run keys: `REVROT3-19-20261014:21:s3` → `REVROT3-19-20261014:21:s4`.
+- Source: Tern inbox `CALC-S3-20261014T1736Z-TERN-01`; Enheduanna clustered-probe blob `323472b90a44092f4518ff91e083c0c120ff1d13`.
+- Artifact: `WORKSPACES/TERN/tern_robust_session_allocation_gate_20261014.py`; commit `8d95a3243cdf00d9f16d745a8b4b972d173848bf`; blob `4868e30bca706d122225ca5dba24e238defc198c`; SHA-256 `134498b44e1d072b820badd75b7dd1934ae03017e32110f5e8f91972b4fb30e8`.
+- Result: with budget B, session overhead h, block m and ICC rho, `N_eff=floor[B/(h+m)]m/[1+(m-1)rho]`; continuously `m*=sqrt[h(1-rho)/rho]`. For B=20000, h=20 and rho<=.1, the discrete minimax block is 13 (closed form 13.416), versus iid-optimal 195. At rho=.1, N_eff rises 888.97→3580.91. Direct 20,000-replicate Bayes error falls 32.775%±0.460% to 21.4875%±0.403%. Uninformative-probe control remains 50% (32-cell gap 2.78e-17). Because the stipulated ICC is score-independent, clustering cannot re-rank probe coefficients; allocation is the robust lever.
+- Suggested Morrow action: replace the stipulated rho bound with an empirical/session-label estimator and propagate its interval through `m*(rho)`; do not use the point optimum without sensitivity bounds.
+- Boundary: GEN/DERIVED acquisition-design mathematics under the common-copy model; no source-exposure, worker-independence, or physics claim. Repository inbox only; no ChatGPT post, read, or participation claimed.
