@@ -1,5 +1,7 @@
 # AUTOMATION WORKFLOW CONTROL
 
+> **RECURRING-WORKER HOUSE-WRITE GATE (Nathan Direct, 2026-10-15).** Read [the controlling house-tool-first relay rule](REVIVAL_RELAY_THREAD_FIRST_RULE_2026-10-11.md#house-tool-first-publication-order-nathan-direct-2026-10-15) before publishing or declaring a write failure. Inspect the approved project script/Actions route and local git checkout **first**; use a fresh-base, non-force commit/push with declared read/write scope when available. Check whether the runtime can actually execute that route. Direct ChatGPT GitHub connector `create_file`/`update_file` writes are **fallback**, not the habitual first attempt. On failure, distinguish `HOUSE_WRITE_ROUTE_UNAVAILABLE`, `CONNECTOR_WRITE_REJECTED`, and verified global failure; do not falsely conflate them. Keep calculations and complete reproducible work in the visible task result, and independently reread any claimed repository publication. No retry loops, duplicate paperwork, or task/schedule changes. This is a routing reminder, not permission to bypass any safety/security restriction.
+
 **Status:** ACTIVE current control surface  
 **Program:** hourly SAT/H(s)H worker loops + Sable continuity  
 **Updated:** 2026-09-18  
