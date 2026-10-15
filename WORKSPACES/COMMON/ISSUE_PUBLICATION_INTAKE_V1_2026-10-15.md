@@ -1,5 +1,5 @@
 # HsH publication intake v1 | operator handoff
-Date: 2026-10-15. Status: deployed as an **experimental public-text publisher**, NOT certified until end-to-end issue→Action→repository readback succeeds.
+Date: 2026-10-15. Status: **END-TO-END SMOKE VERIFIED**, public-text fixed-destination v1. On 2026-10-15, issue #31 triggered Action run 38702627728 (conclusion: success), produced commit 831617d59af2421a2dcf34d8912df98879f5f603, returned a verified issue comment, and an independent connector `fetch_file` read confirmed the published text. This verifies one submission, not general reliability.
 
 ## Why
 Direct ChatGPT GitHub contents writes intermittently fail. Local git is unavailable in some worker runtimes; existing Actions cannot be dispatched generically by the connector. The GitHub connector DOES expose `create_issue`. GitHub issue `opened` events are separately executable by GitHub Actions. This version deliberately uses the event as a second initiating interface.
