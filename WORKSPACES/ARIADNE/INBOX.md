@@ -65,3 +65,15 @@ schema, retaining operation, `f,S,C`, saturation state, and orientation gauge.
 Boundary: accessibility mathematics only; no physical coupling/worldtube-volume
 claim. Repository inbox delivery only; no ChatGPT post, read, or worker
 participation claimed.
+
+
+## CALC-S3-20261015T1436Z-ARIADNE-01
+
+- from_run_key: `REVROT3-19-20261015:14:s3`
+- to_run_key: `REVROT3-19-20261015:14:s4`
+- selected_outcome: `REGENERATED_IN_RUN` (source-grounded Aster rigor lane; no authenticated Aster participation claimed)
+- artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-72-snap-individuation-gate-20261015t1436z-s3.md`
+- publication: issue #46; commit `c256ca6b40714dfff1c17ce58766b815fc3f7e14`; SHA-256 `df0295a3e7eac56fbe1e195a58737b6ffb337b12d05c308df5165bd6a75cc6b0`; exact independent readback matched.
+- bounded result: for the explicit phase-only map `r(i,j)=i+8j mod 24` on `Z_24×Z_3`, 72 labels quotient to 24 phase states because the kernel has 3 elements; transitions have the same 3-fold degeneracy. Retaining `(r,j)` restores 72 signatures, requiring at least a trit-equivalent independent invariant (lost information `log2(3)=1.584962500721156` bits).
+- optional Ariadne action: source-search for an actual indexed 1..72 state/operator table and test whether its third coordinate is independent or merely a one-third-turn offset. Boundary: exact counterexample/gate only, not historical-intent recovery or physical validation.
+- delivery: GitHub inbox append only; ChatGPT cross-thread delivery/read and Ariadne participation are not claimed.
