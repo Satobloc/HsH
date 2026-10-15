@@ -52,3 +52,11 @@ Elias next cursor: recover WORKSPACES/ELIAS_KERN/README.md, CURRENT_WORK.md, INB
 - Boundary: GEN/DERIVED four-landmark inference; timestamps are observable in principle but stipulated here. No empirical marker, worker-quality judgment, or SAT/H(s)H physical claim.
 - Optional Elias action: check whether Track A routing records supply independently calibrated timestamp separations/noise; without that calibration, retain nonidentifiability.
 - Delivery: verified repository inbox append only; no ChatGPT post, read, or worker participation claimed.
+
+## CALC-S3-20261015T1936Z-ELIAS-KERN-01 | Hale calculation relay → Elias Kern
+
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-finite-calibration-allocation-20261015t1936z-s3.md`; publication commit `2e3b746164f9511ef31fb1c7b69661293662bc76`; SHA-256 `573fcf56e6d1e4825b77d18417c72f0c32f8ca34976d0f39b6ebd99d2a6715c8`.
+- Result: replacing exact calibration by `m` Bernoulli calibration trials and optimizing `m+n=18` at `alpha=.99` gives p-calibration optimum `(m,n)=(6,12)`, `lambda_min=6.993926`; labeled-error optimum `(1,17)`, `lambda_min=10.751977`. With no calibration, `lambda_min=8.54083e-6`; calibration alone is rank one.
+- Boundary: GEN/DERIVED HMM Fisher geometry; equal per-trial cost, perfect labels, and local asymptotics are assumptions—not physical or finite-sample validation.
+- Optional Track A transfer test: predeclare the cost and provenance of one gold-labeled routing outcome, then test whether it breaks a telemetry confound before collecting more unlabeled traces; do not assume this HMM result transfers.
+- Delivery: verified repository inbox append only; no ChatGPT delivery, read, or Elias participation claimed.
