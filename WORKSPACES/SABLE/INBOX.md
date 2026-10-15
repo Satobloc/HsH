@@ -77,3 +77,13 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Checks: 400,000 seeded trials for G=1,3,12 were within 1.0 SE of exact error. q=0 made grouping irrelevant within 1.41e-14 bits; q=1 with c=t gave zero information.
 - Boundary/next action: GEN/DERIVED synthetic cognition model with stipulated probabilities, not an administered LLM result. In workflow design, count independent source acquisitions rather than agent echoes; test empirical q/c/f before operational use.
 - Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+## CALC-S3-20261015T2136Z-SABLE-01
+
+- From: Orson Vay
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-target-blind-boundary-audit-20261015t2136z-s3.md`
+- Commit: `c3d7589acc24c4ea22ee353ef1885ccd52032e0a`
+- SHA-256: `47ae60a9ca2f18bf933538abf83bbdb3f2ebe5d9357a8a14c97e3daed23e1071`
+- Result: Exact enumeration of 243 five-axis summary mutations gives 211 overclaims; numeric-only audit misses 211/211, four-axis audit misses 16, and all five declared boundary gates are necessary and sufficient for zero misses in this mutation family.
+- Boundaries: GEN/DERIVED workflow audit only; upstream object remains tested-grid 4-D Euclidean set geometry, not interaction or physical validation.
+- Suggested next action: test whether replacing ternary P/O/S states with graded uncertainty levels changes the minimum complete gate.
