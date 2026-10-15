@@ -1,14 +1,75 @@
 {
-  "generated_at_utc": "2026-10-10T01:25:50.873987+00:00",
+  "generated_at_utc": "2026-10-15T05:52:37.104691+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 1,
-    "renamed": 13
+    "unchanged": 14
   },
   "records": [
+    {
+      "old_path": "LIVE CONVOS/26.07.08•26.07.30•SAT Daily Action — raw.json",
+      "new_path": "LIVE CONVOS/26.07.08•26.07.30•SAT Daily Action — raw.json",
+      "start_local": "2026-07-08T22:08:45.412000-04:00",
+      "end_local": "2026-07-30T22:22:41.798336-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 430,
+      "status": "unchanged",
+      "warnings": [
+        "1 user/assistant messages lacked timestamps"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+      "new_path": "LIVE CONVOS/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-08T06:04:20.605378-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 253,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt",
+      "new_path": "LIVE CONVOS/26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 510,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.04•26.09.13•Meridian Mover Trial — raw.json",
+      "new_path": "LIVE CONVOS/26.09.04•26.09.13•Meridian Mover Trial — raw.json",
+      "start_local": "2026-09-04T07:19:46.137785-04:00",
+      "end_local": "2026-09-13T11:39:44.684593-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 510,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "new_path": "LIVE CONVOS/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
+      "start_local": "2026-09-06T18:33:31.020000-04:00",
+      "end_local": "2026-09-07T13:10:56.645938-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 689,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw (1).json",
+      "new_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw (1).json",
+      "start_local": "2026-09-06T03:46:03.438933-04:00",
+      "end_local": "2026-09-07T17:02:27.217279-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 425,
+      "status": "unchanged",
+      "warnings": []
+    },
     {
       "old_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json",
       "new_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw.json",
@@ -20,135 +81,73 @@
       "warnings": []
     },
     {
-      "old_path": "LIVE CONVOS/AUTO H(s)H Gitter — raw.json",
-      "new_path": "LIVE CONVOS/26.09.06•26.09.07•AUTO H(s)H Gitter — raw.json",
-      "start_local": "2026-09-06T18:33:31.020000-04:00",
-      "end_local": "2026-09-07T13:10:56.645938-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 689,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/Build Geometry Coding Skill — raw.json",
-      "new_path": "LIVE CONVOS/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
-      "start_local": "2026-09-08T20:21:41.279069-04:00",
-      "end_local": "2026-09-08T21:38:46.439347-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 70,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/H(s)H Team Orchestrator — raw.json",
-      "new_path": "LIVE CONVOS/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json",
-      "start_local": "2026-09-08T07:18:24.071268-04:00",
-      "end_local": "2026-09-08T23:09:42.841826-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 13,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/MERIDIAN_SOLVER_CONVO.txt",
-      "new_path": "LIVE CONVOS/26.09.04•26.09.13•MERIDIAN_SOLVER_CONVO.txt",
-      "start_local": "2026-09-04T07:19:46.137785-04:00",
-      "end_local": "2026-09-13T11:39:44.684593-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 510,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/Meridian Mover Trial — raw.json",
-      "new_path": "LIVE CONVOS/26.09.04•26.09.13•Meridian Mover Trial — raw.json",
-      "start_local": "2026-09-04T07:19:46.137785-04:00",
-      "end_local": "2026-09-13T11:39:44.684593-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 510,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/Meridian Solver Loop — raw (1).json",
-      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
-      "start_local": "2026-09-21T16:30:14.579439-04:00",
-      "end_local": "2026-09-27T00:30:39.520505-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 342,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/Meridian Solver Loop — raw.json",
-      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
-      "start_local": "2026-09-21T16:30:14.579439-04:00",
-      "end_local": "2026-09-27T00:02:50.645400-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 289,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/SAT Daily Action — raw.json",
-      "new_path": "LIVE CONVOS/26.07.08•26.07.30•SAT Daily Action — raw.json",
-      "start_local": "2026-07-08T22:08:45.412000-04:00",
-      "end_local": "2026-07-30T22:22:41.798336-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 430,
-      "status": "renamed",
-      "warnings": [
-        "1 user/assistant messages lacked timestamps"
-      ]
-    },
-    {
-      "old_path": "LIVE CONVOS/Science Made Stupid — raw.json",
-      "new_path": "LIVE CONVOS/26.09.20•26.09.21•Science Made Stupid — raw.json",
-      "start_local": "2026-09-20T19:52:22.997694-04:00",
-      "end_local": "2026-09-21T07:09:21.748438-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 979,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/Succinctness And Math Check — raw (1).json",
-      "new_path": "LIVE CONVOS/26.09.06•26.09.07•Succinctness And Math Check — raw (1).json",
-      "start_local": "2026-09-06T03:46:03.438933-04:00",
-      "end_local": "2026-09-07T17:02:27.217279-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 425,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
-      "new_path": "LIVE CONVOS/26.09.04•26.09.08•🌐Meridian [HsH] Michelstein-on-Meinorly — raw.json",
-      "start_local": "2026-09-04T07:19:46.137785-04:00",
-      "end_local": "2026-09-08T06:04:20.605378-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 253,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "LIVE CONVOS/🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
+      "old_path": "LIVE CONVOS/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
       "new_path": "LIVE CONVOS/26.09.07•26.09.08•🗿ORCHESTRATOR JANUS H(s)HvO — raw.json",
       "start_local": "2026-09-07T18:41:11.950000-04:00",
       "end_local": "2026-09-08T22:26:21.682596-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 710,
-      "status": "renamed",
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "LIVE CONVOS/🧮 H(s)H Archive Audit — raw.json",
+      "old_path": "LIVE CONVOS/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
+      "new_path": "LIVE CONVOS/26.09.08•26.09.08•Build Geometry Coding Skill — raw.json",
+      "start_local": "2026-09-08T20:21:41.279069-04:00",
+      "end_local": "2026-09-08T21:38:46.439347-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 70,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json",
+      "new_path": "LIVE CONVOS/26.09.08•26.09.08•H(s)H Team Orchestrator — raw.json",
+      "start_local": "2026-09-08T07:18:24.071268-04:00",
+      "end_local": "2026-09-08T23:09:42.841826-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 13,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json",
       "new_path": "LIVE CONVOS/26.09.09•26.09.10•🧮 H(s)H Archive Audit — raw.json",
       "start_local": "2026-09-09T04:39:45.467000-04:00",
       "end_local": "2026-09-10T02:30:12-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 311,
-      "status": "renamed",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "new_path": "LIVE CONVOS/26.09.20•26.09.21•Science Made Stupid — raw.json",
+      "start_local": "2026-09-20T19:52:22.997694-04:00",
+      "end_local": "2026-09-21T07:09:21.748438-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 979,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
+      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw (1).json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:30:39.520505-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 342,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
+      "new_path": "LIVE CONVOS/26.09.21•26.09.27•Meridian Solver Loop — raw.json",
+      "start_local": "2026-09-21T16:30:14.579439-04:00",
+      "end_local": "2026-09-27T00:02:50.645400-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 289,
+      "status": "unchanged",
       "warnings": []
     }
   ]
