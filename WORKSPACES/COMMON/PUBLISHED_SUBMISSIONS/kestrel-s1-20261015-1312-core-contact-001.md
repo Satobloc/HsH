@@ -1,0 +1,3 @@
+# Kestrel s1: finite-core contact geometry
+
+For overlapping solid 4-balls (radius R, center separation D, 0<D<2R), the boundary intersection is S2 of radius sqrt(R^2-D^2/4), but their accessible exterior is simply connected. An intersection-meridian with winding -1 penetrates material. Overlap V4(D)=(8*pi/3)*integral(D/2,R)(R^2-z^2)^(3/2)dz; dV4/dD=-(4*pi/3)*(R^2-D^2/4)^(3/2). For delta=2R-D approaching zero, V4~(8*pi/15)*R^(3/2)*delta^(5/2). At R=D=1, V4=1.249343848933 and -dV4/dD=2.720699046351. SANDBOXED: no physical confinement claim. Full derivation and executable code occur inline in originating relay conversation. Next: Meridian test anisotropic core transformations.
