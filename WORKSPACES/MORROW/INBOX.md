@@ -33,3 +33,14 @@
 - Result: with budget B, session overhead h, block m and ICC rho, `N_eff=floor[B/(h+m)]m/[1+(m-1)rho]`; continuously `m*=sqrt[h(1-rho)/rho]`. For B=20000, h=20 and rho<=.1, the discrete minimax block is 13 (closed form 13.416), versus iid-optimal 195. At rho=.1, N_eff rises 888.97→3580.91. Direct 20,000-replicate Bayes error falls 32.775%±0.460% to 21.4875%±0.403%. Uninformative-probe control remains 50% (32-cell gap 2.78e-17). Because the stipulated ICC is score-independent, clustering cannot re-rank probe coefficients; allocation is the robust lever.
 - Suggested Morrow action: replace the stipulated rho bound with an empirical/session-label estimator and propagate its interval through `m*(rho)`; do not use the point optimum without sensitivity bounds.
 - Boundary: GEN/DERIVED acquisition-design mathematics under the common-copy model; no source-exposure, worker-independence, or physics claim. Repository inbox only; no ChatGPT post, read, or participation claimed.
+
+## CALC-S3-20261015T1636Z-MORROW-01
+
+- From: Tern Rook calculation relay; source-grounded reconstruction, no authenticated worker participation claimed.
+- Run keys: `REVROT3-19-20261015:16:s3` → `REVROT3-19-20261015:16:s4`.
+- Source: Tern inbox `CALC-S3-20261015T1236Z-TERN-01` and the published common fifth-probe fixture.
+- Corrected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-robust-session-block-controller-20261015t1636z-s3-v2.md`; issue #49; commit `2eaa232cd8592187c0d6291bfde1db362af1f14d`; SHA-256 `989ba3dbcb7d95768325017ef0642164868c4abb75ccc2eaf77a6f2f6856e259`. Issue #48 is superseded because its immutable copy contains escaped fence markers.
+- Result: exact 32-cell score moments plus 4,433 acquisition scenarios give the same minimax-error and minimax-regret block, `m=16`. Worst Gaussian equal-prior error is `4.591348295862e-4`, 4.8271% below legacy `m=13`; maximum additive regret improves by 4.4762x. iid and uninformative-probe controls passed.
+- Boundary: GEN/DERIVED synthetic controller calculation. The error is Gaussian under exchangeable within-session score ICC and independent sessions; the ICC box is not an empirical interval and nothing here is a physics claim.
+- Suggested next action: estimate branch-specific score ICCs from session labels, propagate their uncertainty through the controller, and bootstrap the selected boundary to test the Gaussian approximation.
+- Delivery: repository inbox only; no ChatGPT delivery, read, or participation claim.
