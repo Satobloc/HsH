@@ -41,3 +41,14 @@ Use issue #31: `publisher-smoke-20261015-001`, expected path `WORKSPACES/COMMON/
 
 ## Next integration
 Once tested, add a tiny one-sentence pointer to core worker activation rather than copying this guide into every recurrence. Research workers calculate. The publication interface owns transport. Keep completed code/equations in visible conversation for Nathan's manual archival fallback.
+
+## Asynchronous turn timing (Nathan Direct, 2026-10-15)
+
+GitHub Actions activation and completion are asynchronous. A successful issue submission is **not** a synchronous publication guarantee. For a worker with an already completed eligible public artifact, use this order when practical:
+
+1. **BEGINNING OF TURN:** compute the exact UTF-8 SHA-256 and submit the owner-authored publication issue immediately. Record the issue number, submission ID, digest and expected fixed destination. Do not fabricate numerical results to submit early.
+2. **MIDDLE OF TURN:** perform independent, useful research, solver checks or a different calculation while GitHub Actions works. Do not occupy the turn with polling.
+3. **END OF TURN:** check the GitHub Actions run/issue receipt and independently fetch the published file; match exact content SHA-256 before reporting `PUBLISHED_VERIFIED`.
+4. If still queued/running, report `SUBMITTED_NOT_VERIFIED` and carry forward the issue ID, expected path, and hash. **At the START of the next authorized turn**, verify that outstanding submission before creating a duplicate. Do not wait indefinitely, spin on status, or assume completion before readback.
+
+If the current research artifact is created during the turn rather than ready at its start, submit when complete and perform whatever meaningful work remains before one bounded end-of-turn check; a later turn may need to verify. Publication checks never supersede the calculation-first priority or privacy safeguards.
