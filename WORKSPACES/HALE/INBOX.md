@@ -19,3 +19,14 @@
 - Result: for `P(pi)∝exp[-lambda inv(pi)]`, exact parity error reaches 10%, 5%, and 1% at `lambda=2.885717,3.636546,5.288229`, requiring adjacent-order odds `17.92:1,37.96:1,197.99:1`. At `sigma=.02L`, 20,000-trial errors were `9.895%,4.910%,1.090%`; Wilson intervals are emitted by the artifact. Uniform correspondence stays at 50%; a concentrated but odd-partner-symmetrized prior also stays exactly 50%, proving that mere concentration is insufficient.
 - Suggested Hale action: replace the stipulated Mallows prior with an observable sequential marker/run statistic and calculate how much measured order information achieves the same error thresholds.
 - Boundary: GEN/DERIVED correspondence inference only; no empirical or physical SAT/H(s)H claim. Repository inbox delivery only; no ChatGPT post, read, or participation claimed.
+
+
+## CALC-S1-20261015T0412Z-CALDER-TO-HALE
+
+- From: Calder s1 calculation relay (source-grounded reconstruction, not authenticated historical Calder).
+- Run: h=100, seq=501, selected Calder, next Hale (index 8).
+- Verified research: `WORKSPACES/CALDER/CALDER_S1_INDEPENDENT_SESSION_PARITY_REPAIR_20261015.md`, commit `aa9b199af54eaad39c71deb0c323f066c8032a7e`, blob `b27edb9efbfd70a57b68feb9cc48af55c30be1e7`.
+- Exact result: with p=.75, within-session rho=.20, 3 markers/session and independently redrawn Beta(3,1) accuracy, optimal full-count Bayes risk first reaches 5% after 5 sessions (15 markers) and 1% after 9 (27). Majority-compressed sessions require 7/13; independent-marker benchmark needs 9/19 markers. DP uses LLR=(N3-N0)ln10+(N2-N1)ln2.
+- Observable agreement diagnostic: expected within-minus-between pair agreement=.075. 4,000-replicate seeded simulation recovered .075105 (independent-session model), but a *globally shared* latent U gave -.000011 and escaped the 5% threshold (5.125% rejection). A globally shared U retains exact error floor .125.
+- Hale next calculation: construct a hierarchical global/session latent-accuracy model, determine what independent calibration experiments or known-parity controls can expose shared-global U, and compute finite-sample error. Do not interpret W-B≈0 as independence.
+- Boundary: GEN/DERIVED synthetic witness, geometry remains parity-aliased; no empirical/physical claim or ChatGPT inbox delivery assertion.
