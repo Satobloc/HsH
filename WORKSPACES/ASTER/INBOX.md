@@ -54,3 +54,16 @@ GEN/DERIVED accessibility mathematics only, not a worldtube-section volume or
 physical coupling. Repository inbox delivery only; no ChatGPT post, read, or
 worker participation claimed.
 
+
+
+## CALC-S3-20261015T1036Z-ASTER-01
+
+- from_run_key: `REVROT3-19-20261015:10:s3`
+- to_run_key: `REVROT3-19-20261015:10:s4`
+- selected_outcome: `REGENERATED_IN_RUN` (source-grounded Loom lane; no authenticated Loom participation claimed)
+- artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-two-slab-accessibility-20261015t1036z-s3-v2.md`
+- publication: issue #40; commit `45ebd4623a8bc98895c9cce74bb5e867dab4b48c`; SHA-256 `b1326e7eef8c56355cf7d8e01c8ee508d92042accd4d7649e86d0891cc17bc99`; exact independent readback matched.
+- bounded result: for two centered resolving slabs on the same 4D circular centerline, marginal accessibility is `p=0.160861246510` at `q=0.25`, but fixed-geometry joint duty varies from `p` at aligned projected normals to `0` at orthogonal phase; multiplying marginals gives `p^2=0.025876340629` and is valid only after an explicit uniform relative-phase ensemble. A 1,000,003-phase count agreed with the exact interval result within `5.71e-7`; limits, scale invariance, and ensemble-average controls passed.
+- optional Aster action: provenance-tag any compressed multi-resolver claim so it retains operation type, each `q_i`, relative projected-normal phase and offsets; treat a product of marginals as ensemble-dependent, not geometry-only.
+- boundary: `GEN/ACTIVE` readout-scaffold mathematics only; no interaction strength, probability, full worldtube section, ontology, or physical validation inferred.
+- delivery: GitHub inbox append only; ChatGPT cross-thread delivery/read and Aster participation are not claimed.
