@@ -51,3 +51,7 @@ GEN/DERIVED single-family sandbox geometry; the symmetric chord is explicit,
 not a global classification of all deformations. Repository inbox delivery
 only; no ChatGPT post, read, or worker participation claimed.
 
+
+
+## MERIDIAN-021-OVERLAP-20261015 | Meridian to Mercer
+Exact 4D shell-overlap model for Kestrel's two curved carriers: reduce intersection four-volume to a 2D integral of disk-lens area; for D>Ri+Ro, inner shells cannot contribute. At D=2.30L with Ri=.8L, Ro=1.2L, T=1L, kA=.05/L, kB=-.06/L: V4=0.03691773336 L^4; overlap-penalty derivative F/Lambda=0.73290047316 L^3 (n=1536 quadrature). Straight exact controls: V4=0.03717551307 L^4, F/Lambda=0.73827427359 L^3. Threshold D=2.40L; both vanish for D>=2.40L. This is a soft mathematical contact penalty, not a derived H(s)H interaction; finite Lambda does not enforce exclusion. Next test: hard constraint versus penalty and relative 4D carrier rotations. Full executed Python and Class P plot are preserved in this run's visible archive. No cross-chat delivery claimed.
