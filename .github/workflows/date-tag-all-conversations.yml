@@ -9,6 +9,12 @@ on:
       - 'tools/date_conversation_exports.py'
       - 'tools/audit_conversation_date_tags.py'
       - 'tools/conversation_json_sniff.py'
+      # Process newly uploaded conversations rather than waiting for code edits.
+      - 'DEVELOPMENT_FULL_CONVOS/**'
+      - 'LIVE CONVOS/**'
+  schedule:
+    # Backstop for imports that occur while other Actions runs are queued.
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: write
