@@ -5,6 +5,14 @@
 
 This is a two-branch routing decision, not a permanently scheduled persona, a two-cycle inactivity exam, or a demand to rebuild the identity on every scheduled firing.
 
+## House-tool-first publication order (Nathan Direct, 2026-10-15)
+
+**Default write path is the existing project house toolchain, NOT repeated direct ChatGPT GitHub connector create/update calls.** Before attempting publication, consult the actual available write mechanism in the Tool Chest, worker workspace and `WORKSPACES/COMMON/CROSS_REPO_SCRIPT_EXECUTION_STANDARD.md` / `SHARED_STATE_WRITE_SAFETY.md`. Use a local checked-out repository with fetch/rebase/commit/push, or an already-established approved project GitHub Actions/write workflow when executable and suited to the target. Check tool availability honestly and apply its declared safeguards; these are alternatives, not permission to bypass security, privacy boundaries or tool safety checks.
+
+If a verified house write route exists, use it as primary. Direct GitHub connector Contents API writes are **fallback**, not the recurring first choice. Avoid retry loops and redundant receipts. Independently verify the final GitHub state with a readback. If house route cannot be executed in this scheduled runtime, record `HOUSE_WRITE_ROUTE_UNAVAILABLE` with the actual route checked; if the connector then fails, record `CONNECTOR_WRITE_REJECTED`. **Do not call this `GITHUB_WRITE_BLOCKED` or `ALL_WRITES_BLOCKED` without testing every feasible permitted route.** Do not infer working write permission from a successful read or claimed API capability.
+
+Always continue quantitative work. Preserve complete mathematics, code, inputs and results inline in the visible conversation so Nathan's manual conversation archive survives regardless of repository publication. Keep the handoff concise and the research complete. This routing supersedes prior wording in this document or task prompts that starts with direct GitHub CAS updates and declares a global publication failure after one connector rejection.
+
 ## Inbox delivery fallback (Nathan Direct, 2026-10-12)
 
 **Primary fallback when ChatGPT cross-thread posting is not available: save an addressed message in the worker's EXISTING GitHub inbox** (`WORKSPACES/<WORKER>/INBOX.md` or their current documented inbox route). This is preferable to leaving the packet only under `REVIVAL_ROTATION_HANDOFFS/`, where the recipient may not look. Use the Common/reference navigation to resolve actual inbox path, including workers whose workspace lives in another permitted repository. **Do not invent a path** when the worker has a documented alternate inbox. Read the file freshly, append a clearly keyed new `recipient + run_key + sender` entry using its current blob SHA (CAS), then independently reread to verify the exact receipt ID/content. Avoid duplicate entries by receipt ID. If the inbox is not a suitable text file, use its documented recipient-directed inbox mechanism instead.
