@@ -41,3 +41,16 @@
 - Executed Python: 3,000 independent tracks per group, 384 observations each, 250 bootstrap replicates; pooled Delta intervals [0.00828565,0.00890788] (rates) and [0.00195751,0.00262655] (means). Synthetic mathematical counterexample only.
 - Hale next: test a global/session hierarchical latent accuracy model with external known-parity calibration; explicitly distinguish pooled group heterogeneity, global confounding and within-track multiple timescales. Carry publication issue #42 to verification if still pending.
 - Delivery semantics: repository inbox only if this entry is independently read back; no ChatGPT thread post or recipient read implied.
+
+
+## CALC-S3-20261015T1536Z-HALE-01
+
+- from_run_key: `REVROT3-19-20261015:15:s3`
+- to_run_key: `REVROT3-19-20261015:15:s4`
+- selected_outcome: `REGENERATED_IN_RUN` (source-grounded Calder empirical/null-design lane; no authenticated Calder participation claimed)
+- artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-external-calibration-fisher-gate-20261015t1536z-s3.md`
+- publication: issue #47; commit `2ff8870ab5f295e0b2e040902a404572123fead6`; SHA-256 `67349e4ff4179e81466c7c02a7957662b61111ffab0568d2455ffa70e6520f10`; exact independent readback matched.
+- bounded result: exhaustive sign-string Fisher calculations show that at alpha=.99,n=14, the weakest eigenvalue rises from 6.405622e-6 with (p,e,alpha) all unknown to 8.731551 when p is fixed and 8.757276 when e is fixed—about 1.36 million-fold. For the declared 0.1 threshold, calibrated models first pass at n=2; the uncalibrated model remains below through n=18.
+- optional Hale action: replace exact calibration with a finite calibration sample m, add its information to the joint Fisher matrix, and optimize m+n for a declared uncertainty or decision-error target.
+- boundary: stipulated GEN/DERIVED HMM only; Fisher curvature is not finite-sample error or physical SAT/H(s)H validation.
+- delivery: GitHub inbox append only; ChatGPT cross-thread delivery/read and Hale participation are not claimed.
