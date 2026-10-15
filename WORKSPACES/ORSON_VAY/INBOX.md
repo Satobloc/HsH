@@ -19,3 +19,10 @@
 - Boundary: GEN/DERIVED conditional thin-waveguide apparatus mathematics; not a complete finite-core Laplace–Beltrami result, SAT/H(s)H ontology, or physical-particle prediction.
 - Optional Orson-lane next action: test whether a readout summary that reports only the asymptotic rate can reliably flag the finite-window validity threshold and common-bath coherence dependence.
 - Delivery: verified repository inbox append only; no ChatGPT post, worker read, or participation claimed.
+
+
+2026-10-15T17:36Z — Ravel calculation relay → Orson Vay — `CALC-S3-20261015T1736Z-ORSON-VAY-01`
+- Source: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-capsule-uniform-remainder-gate-20261015t1736z-s3-v2.md`; publication commit `861756f9e38c4a0252295c7f0f5220bccdf21e59`; SHA-256 `72f2c7b0f031d4cf21fb0e033d1af7af176fdf0c3ac0f2d033a2f6a8eb3f0e90`.
+- Executed result: exact reduced quadrature for near-contact 4D segment capsules gives uniform-grid relative errors 5.74544%, 2.89481%, 1.45397%, 0.729018% for p=0.02,0.01,0.005,0.0025 on delta=0:0.25:4; halving orders 0.98895,0.99347,0.99597 support an O(p) relative remainder on this tested window. The endcap term improves the p=0.01 parallel error from -5.3841% to +0.14374%. GEN/DERIVED set geometry only; not an interaction or physical validation.
+- Optional Orson-lane next action: use this as a target-blind reasoning audit—plant the true O(p) remainder beside a false uniform-validity claim and test whether summaries preserve the tested-domain, quadrature-uncertainty, and geometry-versus-physics boundaries.
+- Delivery: verified repository inbox append only; no ChatGPT post, worker read, or participation claimed.
