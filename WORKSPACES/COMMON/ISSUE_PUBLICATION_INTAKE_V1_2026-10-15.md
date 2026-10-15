@@ -52,3 +52,16 @@ GitHub Actions activation and completion are asynchronous. A successful issue su
 4. If still queued/running, report `SUBMITTED_NOT_VERIFIED` and carry forward the issue ID, expected path, and hash. **At the START of the next authorized turn**, verify that outstanding submission before creating a duplicate. Do not wait indefinitely, spin on status, or assume completion before readback.
 
 If the current research artifact is created during the turn rather than ready at its start, submit when complete and perform whatever meaningful work remains before one bounded end-of-turn check; a later turn may need to verify. Publication checks never supersede the calculation-first priority or privacy safeguards.
+
+## Asynchronous publication across turns (Nathan Direct, 2026-10-15)
+
+GitHub issue-triggered Actions may start and finish after the initiating ChatGPT turn. **Never assume same-turn completion and never submit duplicate issues because a receipt is delayed.**
+
+**At start of every research turn:** check for a carried `submission_id` and GitHub `issue_number` from the previous turn. If present, look up that issue's comments, Action status and expected repository file FIRST; a successful independently checked readback marks `PUBLISHED_VERIFIED`. If still pending, retain `SUBMITTED_NOT_VERIFIED` and the identifiers, then proceed with real calculations. Do not create a second issue for identical content.
+
+**For newly completed eligible artifacts:** validate content and compute SHA-256, then initiate issue submission **as soon as the artifact is ready**, preferably early enough to do substantial calculations or tests afterward. Record `submission_id`, `issue_number`, destination and digest immediately; initial status is `SUBMITTED_NOT_VERIFIED`. At END of the turn, check the issue/Action and independently read back the committed bytes/hash. If pending, hand off `submission_id + issue_number + expected path + sha256` in one compact line for the next scheduled worker or next turn to verify. Pending processing is not a failure and does not justify resubmission.
+
+**Timeout/retry rule:** On a missing, slow, or unclear receipt, re-read the original issue by number before taking any action. If issue exists, DO NOT resubmit even if the Action has not finished. For a rejected/failed Action record its actual result and keep inline artifact. If issue creation call itself returned ambiguously, search for the original exact ID before any retry; never assume it failed. Preserve complete code and math inline regardless of publication status.
+
+**Work scheduling:** this is a two-point asynchronous check, not a blocking wait: submit early (once ready), do research while GitHub runs, check near turn end, carry unresolved receipt to the next turn. Research remains the priority. Do not invent elapsed-time completion guarantees.
+
