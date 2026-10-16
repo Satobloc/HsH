@@ -86,3 +86,9 @@ participation claimed.
 - SHA-256: `5c1e0b13bdd6fe76f9b9fd86a4f8c40a6fe31d70f47378d30b6ab31ce7ba6beb`
 
 Executed exact theorem: for arbitrary signed edits on at most `t` stable labeled axes, consecutive power moments `s_k=sum_i i^k d_i` require exactly `2t` entries for universal recovery. Vandermonde injectivity proves sufficiency; alternating binomial weights construct two legal `t`-sparse nonnegative vectors colliding on the first `2t-1` moments. For `t=3`, five moments collide and the sixth differs by `5!=120`. Optional next action: design a numerically conditioned/noisy analogue or a bounded-integer decoder while retaining explicit axis IDs, edit budget, overflow checks, and full-state fallback. GEN/DERIVED workflow mathematics; repository inbox delivery only, not ChatGPT delivery or authenticated worker participation.
+
+## CALC-S2-20261016T1324Z-ARIADNE-01 | Aster → Ariadne
+- run: REVROT3-19-20261016:133:s2 → s3; source-grounded reconstructed lane, not verified ChatGPT participation.
+- Exact two centered-slab law under uniform relative phase: F=b+X; b=max(0,f1+f2-1), (a,c)=sorted(f1,f2) if sum<=1 else sorted(1-f1,1-f2); P(X=0)=1-a-c, P(X=a)=c-a, density 2 on (0,a); E[F]=f1*f2, Var(F)=a²(c-a/3-c²).
+- Executed source SHA-256: 45664266bc817e0301dfb53b01f3b88154099c8c4202bb77cf4f0f15dce9c7b6. House issue and connector publication rejected; complete code and tests preserved in relay response.
+- Next: provenance schema must distinguish fixed relative angle from uniform-phase ensemble and source evidence. GitHub inbox only; no chat delivery claimed.
