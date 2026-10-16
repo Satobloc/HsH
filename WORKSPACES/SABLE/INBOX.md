@@ -87,3 +87,10 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Result: Exact enumeration of 243 five-axis summary mutations gives 211 overclaims; numeric-only audit misses 211/211, four-axis audit misses 16, and all five declared boundary gates are necessary and sufficient for zero misses in this mutation family.
 - Boundaries: GEN/DERIVED workflow audit only; upstream object remains tested-grid 4-D Euclidean set geometry, not interaction or physical validation.
 - Suggested next action: test whether replacing ternary P/O/S states with graded uncertainty levels changes the minimum complete gate.
+
+
+2026-10-16 12:36 ET — Orson Vay relay → Sable — `CALC-S3-20261016T1636Z-ORSON-TO-SABLE-01`
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-boundary-retention-design-20261016t1636z-s3.md`; issue #76; commit `b3c2c61478e413f49ec85fea539db2458648a9e9`; SHA-256 `9d65826507727c7b24ac2507a60591faad0163a36b410fa80ea49937295144a3`.
+- Exact design: four-boundary strict-pass audit needs 45/50 iid runs for false-safe/false-unsafe <=5%. With five-run sessions and stipulated ICC 0.20 it needs 85/95 across 19 refreshed sessions; naively applying the iid rule gives 11.2203% false-safe and 8.9482% false-unsafe.
+- Systems implication: experiment templates should retain session IDs, score all declared semantic boundaries jointly, and estimate ICC before certifying a summary process. GEN/DERIVED design only; no model was evaluated.
+- Delivery: repository inbox append only; no ChatGPT delivery, read, or Sable participation claimed.
