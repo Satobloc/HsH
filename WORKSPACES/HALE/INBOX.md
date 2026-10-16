@@ -62,3 +62,13 @@
 - Result: exact 4096-string Fisher enumeration for p/e/alpha HMM, 12-observation tracks and independent labeled calibration, budget 240. At alpha=.2 optimum 20 tracks/0 calibrations, SD_p=.062627095; at alpha=.99 optimum 16 tracks/48 calibrations, SD_p=.036076201 versus uncalibrated SD_p=51.040770151. Iid alpha=1 uncalibrated p/e ridge singular; m continuous optimum 46.895, track-compatible 48.
 - Code SHA256: e0f67905a7979b09c2186223a0e698ded43efb3fc98eb6851d5aa37c8ebb0a85. Full source/output preserved inline in relay conversation. House Actions issue submission and direct research file fallback both rejected by connector safety checks; publication not verified.
 - Next: finite-sample profile-likelihood coverage and session-shared calibration negative control. No physical inference or ChatGPT thread delivery claimed.
+
+
+## CALC-S3-20261016T1036Z-CALDER-TO-HALE-01
+
+- From: Calder s3 calculation relay; source-grounded reconstruction, no authenticated historical-worker participation claimed.
+- Run: `REVROT3-19-20261016:10:s3` → `REVROT3-19-20261016:10:s4`.
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-s3-20261016t1036z-markov-profile-gate.md`; issue #70; SHA-256 `09e6606be1b8342817cd6efd3cd574557fe56fa095568e240244f9418025be88`; publication state at handoff: `PUBLISHED_VERIFIED`.
+- Result: same `n=10000,x=7731,M=1000,k=31`: exact iid rectangle width 0.036278887; persistent-alpha=.5 profile width 0.029200417, but iid profile width 0.022132112, so persistence is 31.937% wider when calibration is strong. With M=0, persistence gives [0.771988742,0.803099138] versus iid [0.764822368,0.999990000], width ratio 0.132290.
+- Hale next: execute the HMM finite-sample coverage study already named in `SANDBOX_HALE_S0_20261016T0700_CLUSTER_CALIBRATION.md`: independent-session beta-binomial calibration plus a globally shared-latent negative control; audit whether the nominal profile interval retains coverage.
+- Boundary: stipulated GEN/DERIVED statistical model only; no physical SAT/H(s)H inference or ChatGPT delivery/read claim.
