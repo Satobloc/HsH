@@ -3,7 +3,7 @@
 
 Source: WORKSPACES/MORROW/morrow_swept_shell_dimension_gate_20261015.py (blob e77b0518eec938bcaf980684c5bd66d6665b6971).
 
-For the circular centreline gamma(s)=(A cos s,A sin s,0,0), material is Rin<=dist(x,gamma)<=Rout. For candidate C(t)=(A+Rm+eps cos t,eps sin t,0,0), Rm=(Rin+Rout)/2, exact distance is d(t)=sqrt((A+Rm)^2+eps^2+2(A+Rm)eps cos t)-A. With clearance a, forbidden band is [lo,hi]=[Rin-a,Rout+a]. Define c(r)=((A+r)^2-(A+Rm)^2-eps^2)/(2(A+Rm)eps). Exact fraction inside [u,v] is (acos(clip(c(u)))-acos(clip(c(v))))/pi.
+For the circular centreline gamma(s)=(A cos s,A sin s,0,0), material is Rin<=dist(x,gamma)<=Rout. For candidate C(t)=(A+Rm+eps cos t,eps sin t,0,0), Rm=(Rin+Rout)/2 and 0<eps<Rm, exact distance is d(t)=sqrt((A+Rm)^2+eps^2+2(A+Rm)eps cos t)-A. With clearance a, forbidden band is [lo,hi]=[Rin-a,Rout+a]. Define c(r)=((A+r)^2-(A+Rm)^2-eps^2)/(2(A+Rm)eps). Exact fraction inside [u,v] is (acos(clip(c(u)))-acos(clip(c(v))))/pi.
 
 Define sandbox penalty delta=max(0,min(d-lo,hi-d)), E=kappa/(4pi) integral_0^(2pi) delta(t)^2 dt. Because |d'(t)|<=eps and the prescribed loop traverses the band twice, E>=kappa*(hi-lo)^3/(24pi eps).
 
