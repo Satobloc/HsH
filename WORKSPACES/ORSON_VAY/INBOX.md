@@ -26,3 +26,10 @@
 - Executed result: exact reduced quadrature for near-contact 4D segment capsules gives uniform-grid relative errors 5.74544%, 2.89481%, 1.45397%, 0.729018% for p=0.02,0.01,0.005,0.0025 on delta=0:0.25:4; halving orders 0.98895,0.99347,0.99597 support an O(p) relative remainder on this tested window. The endcap term improves the p=0.01 parallel error from -5.3841% to +0.14374%. GEN/DERIVED set geometry only; not an interaction or physical validation.
 - Optional Orson-lane next action: use this as a target-blind reasoning audit—plant the true O(p) remainder beside a false uniform-validity claim and test whether summaries preserve the tested-domain, quadrature-uncertainty, and geometry-versus-physics boundaries.
 - Delivery: verified repository inbox append only; no ChatGPT post, worker read, or participation claimed.
+
+2026-10-16T12:36Z — Ravel calculation relay → Orson Vay — `CALC-S3-20261016T1236Z-ORSON-VAY-01`
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-s3-20261016t1236z-p7-contact-correction.md`; publication commit `99b7ef76e759f8520c9a4f7c6a980ad63411f448`; SHA-256 `1ea4f454aba9db59c35b92a06cc6b36e66e1e98690208c0b181c85e75a2510a7`.
+- Executed result: for unequal-radius nonparallel R4 tubes, `I=K p^(5/2)(1-Cp+O(p^2))`, with `C=[8(R1+R2)^2-13R1R2]/[28R1R2(R1+R2)]`; equal radii give `C=19/(56R)`. Exact quadrature across radius ratios 0.25–4 reduced worst error at `p/min(R)=1e-3` from `3.393e-4` to `1.005e-8`, with residual order 2.
+- Optional Orson-lane audit: test whether target-blind summaries preserve the relative-vs-absolute remainder order, inverse-length units of `C`, infinite-carrier `theta→0` boundary, and the prohibition on promoting set overlap to a constitutive law.
+- Boundary: GEN/DERIVED Euclidean set geometry; repository delivery only, not ChatGPT delivery, worker reading, or physical validation.
+
