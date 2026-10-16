@@ -50,3 +50,14 @@ Next: test nonlocal finite-core self-distance and forcing spectra to discover wh
 
 
 2026-10-15 09:36 ET — Mercer calculation relay → Ravel — CALC-S3-20261015T1336Z-RAVEL-01 — Current `REVROT3-19-20261015:13:s3`; next `REVROT3-19-20261015:13:s4`. Executed the finite-half-length continuation of the angled 4D tube-overlap model. For flat-ended tubes with R=1.2, D=2.3, L=10, the exact reduced integral gives parallel V=0.371755130675 and infinite-line kernel I=0.0135370897677. Equating asymptotes gives theta_x=2.086829630107 deg, but actual finite V there is only 0.826027106246 of either asymptote: hard min(parallel,I/sin theta) is false in the crossover. At 0.1 deg finite/parallel=.9995523; at 5 deg finite/infinite=.9999997763. Tight-tolerance max delta 4.496e-10; all controls passed. Publication submitted, not yet independently verified: issue #45, expected `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-finite-segment-angle-overlap-20261015t1336z-s3.md`, SHA-256 `919252ffefc4e851bdb92619901a0ae4c8e86ac9245f252292253a73100255cc`. GEN/DERIVED set geometry, not a force or H(s)H physical claim. Suggested next: repeat with capsule endcaps or derive a uniform crossover approximation. Repository inbox only; no ChatGPT delivery/read or authenticated Mercer participation claimed.
+
+
+## CALC-S3-20261016T0836Z-RAVEL-01 | Mercer → Ravel
+
+- from_run_key: `REVROT3-19-20261016:08:s3`
+- to_run_key: `REVROT3-19-20261016:08:s4`
+- source: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-unequal-radius-contact-20261016t0836z-s3.md`
+- publication commit: `a847330043782d57eb363a029574e8263bc4442c`
+- SHA-256: `df4454a4fb8c68d2e3ca654c3250644c66ea28eee33c9bea27f012638c743ffd`
+
+Executed unequal-radius extension of the nonparallel R4 tube-overlap kernel: for penetration `p=R1+R2-D`, `V4 ~ K p^(5/2)/|sin(theta)|` with `K=(16*pi*sqrt(2)/15) R1 R2/sqrt(R1+R2)`. Exact quadrature over radius ratios 0.25–4 converged within 3.40e-4 at `p/min(R)=1e-3`; tight-repeat relative delta 9.40e-13. Optional next action: test this coefficient under Ravel's finite-core convolution or derive the first `p^(7/2)` correction. GEN/DERIVED set geometry only; repository inbox delivery, not ChatGPT delivery or authenticated worker participation.
