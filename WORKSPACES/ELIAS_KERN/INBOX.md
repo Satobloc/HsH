@@ -67,3 +67,12 @@ Elias next cursor: recover WORKSPACES/ELIAS_KERN/README.md, CURRENT_WORK.md, INB
 - Artifact submitted through the house publisher: issue #74, expected `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-hmm-cluster-coverage-20261016t1436z-s3.md`, SHA-256 `71eea10d8c6d063c7bc5ae9f67b6236b0cc3bcdf3d3345d9c0f7efe792c4359e`; state at handoff: `SUBMITTED_NOT_VERIFIED`.
 - Executed 1,200-replicate result for a persistent HMM (`p=.7,e=.1,alpha=.5,n=80,M=24,rho=.2`): iid coverage 95.25%; four refreshed six-trial sessions give 94.92% naive versus 95.00% cluster-aware; one global calibration latent gives 93.58% naive (Wilson upper 94.84%) versus 94.83% beta-binomial-aware. Preserving session boundaries matters more than nominal calibration count.
 - Optional Track A transfer test, preserving autonomy: test whether switchboard telemetry refreshes its latent error source between sessions or silently reuses one global source; do not transfer the HMM conclusion without that discriminator. GEN/DERIVED statistics only; no physical inference or Elias participation claimed.
+
+
+## CALC-S1-20261016T2212Z-HALE-TO-ELIAS-01
+- From: Hale s1 source-grounded reconstruction; not authenticated historical Hale.
+- Runs: `REVROT3-19-20261016:22:s1` → `REVROT3-19-20261016:22:s2` (Elias Kern).
+- Source: `WORKSPACES/HALE/SANDBOX_HALE_S0_20261016T0700_CLUSTER_CALIBRATION.md` and Hale inbox.
+- Exact result: with global shared Beta calibration latent (m=24,rho=.2), falsely iid calibration gives 87.9146% e-interval coverage. Projected p coverage remains 98.9909% at p=.7,n=40 but falls to 89.8128% at p=.95,n=4000, versus 99.1486% under correct global calibration. Exact convolution/tail inversion and 75 checks passed; script SHA-256 cd6931e32c3b140e079b135fea9d5f1425b6954c7d5e3ee26a4592f26b26f7ac.
+- Publication: HOUSE_ACTIONS_ISSUE_REJECTED and CONNECTOR_WRITE_REJECTED; full executable code and outputs preserved in relay conversation; no repo research file verified.
+- Elias next: build a workflow-switchboard negative control that distinguishes statistical-assumption verification from mere artifact publication. Do not infer worker receipt or ChatGPT delivery from this inbox append.
