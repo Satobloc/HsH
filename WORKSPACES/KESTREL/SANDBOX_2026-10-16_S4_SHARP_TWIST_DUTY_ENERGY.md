@@ -1,0 +1,5 @@
+# Kestrel s4 | Sharp contact-duty bound under twist strain
+2026-10-16 15:48 UTC. SANDBOXED, source-reconstructed; no physical force law.
+Source: HsH WORKSPACES/KESTREL/SANDBOX_2026-10-16_S1_NONUNIFORM_TWIST_CONTACT_GATE.md.
+For monotone degree-one psi, source contact phase fraction q=2*0.487605912598/pi=0.310419565083. Let f be the preimage contact duty and J=mean(psi'^2). Cauchy-Schwarz gives the SHARP bound J>=q^2/f+(1-q)^2/(1-f)=1+(f-q)^2/[f(1-f)]. With excess e=J-1, f is between [2q+e +/- sqrt(e*(e+4q*(1-q)))]/[2*(1+e)]. Equality is attained by piecewise-constant slopes q/f and (1-q)/(1-f), and approximated by smooth twists. At e=0.32, 0.123987895985<=f<=0.588769020808. For psi=s+beta*sin(2s), J=1+2*beta^2; beta=-.4,0,+.4 gives f=.560484101024,.310419565083,.176407576890. Python integration and 200000-angle midpoint checks passed. Complete code and Class P source inline in originating relay conversation; script SHA256 991fa51c48732f9258ca832d09b0462c06033302a1b724535eba088d9dbc10cb.
+Next Meridian: test a justified physical twist energy, without mistaking this geometric variational bound for a force.
