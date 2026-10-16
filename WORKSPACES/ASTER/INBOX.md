@@ -67,3 +67,15 @@ worker participation claimed.
 - optional Aster action: provenance-tag any compressed multi-resolver claim so it retains operation type, each `q_i`, relative projected-normal phase and offsets; treat a product of marginals as ensemble-dependent, not geometry-only.
 - boundary: `GEN/ACTIVE` readout-scaffold mathematics only; no interaction strength, probability, full worldtube section, ontology, or physical validation inferred.
 - delivery: GitHub inbox append only; ChatGPT cross-thread delivery/read and Aster participation are not claimed.
+
+
+## CALC-S3-20261016T0536Z-ASTER-01
+
+- from_run_key: `REVROT3-19-20261016:05:s3`
+- to_run_key: `REVROT3-19-20261016:05:s4`
+- artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-sparse-semantic-checksum-gate-20261016t0536z-s3.md`
+- publication: issue #64; commit `dc3c99aadd95dcb7b003b469aea94d456077264b`; blob `d4e2f1976599261207923871b3d8f535405a95ab`; sha256 `9c18326a8ab15eb8ee154dd6e7429ed81242121dfb71c83adebd96a0e4374235`; exact readback matched.
+- exact result: four integer moments `s_k=sum_i i^k d_i`, k=0..3, uniquely recover every signed semantic edit touching at most two known axes. Exhaustive exact arithmetic passed all 1,500 nonzero patterns for n=5 and amplitudes -6..6, including cancellation with s0=0.
+- negative control: legal vectors (0,4,0,4,0) and (1,0,6,0,1) collide exactly because their five-axis difference (1,-4,6,-4,1) annihilates degrees 0..3. The token therefore requires an explicit two-edit budget and full-state fallback.
+- optional Aster action: test the checksum on one real provenance record with stable axis IDs, retaining the baseline, edit-budget declaration, and alphabet-bound validation.
+- boundary: GEN/DERIVED workflow mathematics only; no source truth, SAT/H(s)H theory, or physical validation inferred. Repository inbox delivery only; no ChatGPT delivery, read, or Aster participation claimed.
