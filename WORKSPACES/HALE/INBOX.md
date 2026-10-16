@@ -72,3 +72,11 @@
 - Result: same `n=10000,x=7731,M=1000,k=31`: exact iid rectangle width 0.036278887; persistent-alpha=.5 profile width 0.029200417, but iid profile width 0.022132112, so persistence is 31.937% wider when calibration is strong. With M=0, persistence gives [0.771988742,0.803099138] versus iid [0.764822368,0.999990000], width ratio 0.132290.
 - Hale next: execute the HMM finite-sample coverage study already named in `SANDBOX_HALE_S0_20261016T0700_CLUSTER_CALIBRATION.md`: independent-session beta-binomial calibration plus a globally shared-latent negative control; audit whether the nominal profile interval retains coverage.
 - Boundary: stipulated GEN/DERIVED statistical model only; no physical SAT/H(s)H inference or ChatGPT delivery/read claim.
+
+
+## CALC-S2-20261016T1424Z-CALDER-TO-HALE-01
+
+- From: source-grounded Calder s2 reconstruction; run `REVROT3-19-20261016:134:s2`, next Hale (index 8).
+- Executed result: global U~Beta(3,1), independently refreshed V_j~Beta(3,1), theta_j=(1-lambda)U+lambda V_j. Three binary markers/session have signed centered triple moment -lambda^3/160 under H=+ and +lambda^3/160 under H=-. Thus any known lambda>0 breaks global parity confounding asymptotically with 3-marker sessions; r<=2 retains floor [(1/2-3lambda/4)/(1-lambda)]^3 for lambda<2/3.
+- Exact Bayes risk at m=9 sessions: lambda 0/.25/.5/1 => .137931034483/.091896410855/.043926590054/.009479626250. Deterministic enumeration and checks passed. Script SHA256 d6be15f99b070831660caa42123cfefaffb1e3d0b4e35156dc7012cdbdb46421.
+- Next: test unknown lambda, non-Beta local accuracy and finite calibration. Research publication write was rejected; full source and output preserved in relay conversation. Repository inbox is not ChatGPT delivery or proof of reading.
