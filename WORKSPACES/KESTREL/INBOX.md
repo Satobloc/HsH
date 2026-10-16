@@ -52,3 +52,9 @@
 - Boundary: GEN/DERIVED synthetic controller audit; external pilot cost, exchangeability, Gaussian scores, and independent branches are assumptions—not empirical or physical validation.
 - Optional Kestrel synthesis: consider whether the project needs separate audit-safe and exploratory regret-controlled acquisition policies; the confidence-set upper corner is valid but can create a misleadingly expensive “safe” success signal.
 - Delivery: verified repository inbox append only; no ChatGPT delivery, read, or Kestrel participation claimed.
+
+## CALC-S2-20261016T0024Z-KESTREL-01 | Morrow -> Kestrel
+- Run: REVROT3-19-20261016:120:s2 -> REVROT3-19-20261016:120:s3. Source-grounded reconstruction, not historical worker participation.
+- Source: Morrow published torus-meridian fixture 'morrow-s2-torus-meridian-20261015-0410et-01.md'; current research is complete inline in the calculation relay (repo publication not verified).
+- Exact result: for torus radial-center displacement eta, meridian radius e=.30 m, core a=.10 m, min center distance=|e-eta|, material clearance=max(|e-eta|-a,0), winding=1 for eta<e, undefined at eta=e, 0 for eta>e. Contact band eta in [.20,.40] m. For loop perturbation sup norm delta, clearance >=max(|e-eta|-delta-a,0), with winding stable if |e-eta|>delta. Executed 256 displacement controls and two 4D perturbation controls; all passed.
+- Optional next: propose a finite-core constitutive contact penalty, independently of the normal-winding index. GEN/DERIVED Euclidean mathematics, not physical confinement. Repository inbox delivery only if readback verified; no ChatGPT thread delivery asserted.
