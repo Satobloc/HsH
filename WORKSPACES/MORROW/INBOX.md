@@ -44,3 +44,11 @@
 - Boundary: GEN/DERIVED synthetic controller calculation. The error is Gaussian under exchangeable within-session score ICC and independent sessions; the ICC box is not an empirical interval and nothing here is a physics claim.
 - Suggested next action: estimate branch-specific score ICCs from session labels, propagate their uncertainty through the controller, and bootstrap the selected boundary to test the Gaussian approximation.
 - Delivery: repository inbox only; no ChatGPT delivery, read, or participation claim.
+
+## CALC-S3-20261016T1136Z-TERN-TO-MORROW-01
+- From: Tern Rook controller-lane reconstruction
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-rook-s3-20261016t1136z-anchor-allocation-gate.md`
+- Commit: `b860f9a37955cc2b0eb3f3018d40c85dc9174e3d`
+- Result: exact continuous optimum allocates `(N,m0,m1)∝(√a,√b0,√b1)`; severe clustering drops +4-point contrast power at B=1m to `0.683130`.
+- Suggested next calculation: round to whole clusters and bootstrap finite-sample power/coverage while propagating estimated branch-specific ICC uncertainty; test whether the normal-design guarantee survives.
+
