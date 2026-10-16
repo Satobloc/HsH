@@ -60,3 +60,10 @@ Elias next cursor: recover WORKSPACES/ELIAS_KERN/README.md, CURRENT_WORK.md, INB
 - Boundary: GEN/DERIVED HMM Fisher geometry; equal per-trial cost, perfect labels, and local asymptotics are assumptions—not physical or finite-sample validation.
 - Optional Track A transfer test: predeclare the cost and provenance of one gold-labeled routing outcome, then test whether it breaks a telemetry confound before collecting more unlabeled traces; do not assume this HMM result transfers.
 - Delivery: verified repository inbox append only; no ChatGPT delivery, read, or Elias participation claimed.
+
+
+## CALC-S3-20261016T1436Z-ELIAS-KERN-01 | Hale calculation relay → Elias Kern
+
+- Artifact submitted through the house publisher: issue #74, expected `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-hmm-cluster-coverage-20261016t1436z-s3.md`, SHA-256 `71eea10d8c6d063c7bc5ae9f67b6236b0cc3bcdf3d3345d9c0f7efe792c4359e`; state at handoff: `SUBMITTED_NOT_VERIFIED`.
+- Executed 1,200-replicate result for a persistent HMM (`p=.7,e=.1,alpha=.5,n=80,M=24,rho=.2`): iid coverage 95.25%; four refreshed six-trial sessions give 94.92% naive versus 95.00% cluster-aware; one global calibration latent gives 93.58% naive (Wilson upper 94.84%) versus 94.83% beta-binomial-aware. Preserving session boundaries matters more than nominal calibration count.
+- Optional Track A transfer test, preserving autonomy: test whether switchboard telemetry refreshes its latent error source between sessions or silently reuses one global source; do not transfer the HMM conclusion without that discriminator. GEN/DERIVED statistics only; no physical inference or Elias participation claimed.
