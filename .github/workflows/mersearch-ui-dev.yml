@@ -7,6 +7,7 @@ on:
       - 'CONVERSATION_VIEWER/mersearch/**'
       - 'tools/serve_mersearch_ui.py'
       - 'tools/search_archive_content.py'
+      - 'tools/conversation_json_sniff.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
       - 'tools/mersearch_math_genealogy.py'
@@ -20,6 +21,7 @@ on:
       - 'CONVERSATION_VIEWER/mersearch/**'
       - 'tools/serve_mersearch_ui.py'
       - 'tools/search_archive_content.py'
+      - 'tools/conversation_json_sniff.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
       - 'tools/mersearch_math_genealogy.py'
@@ -46,6 +48,7 @@ jobs:
             /tools/build_mersearch_public_catalog.py
             /tools/serve_mersearch_ui.py
             /tools/search_archive_content.py
+            /tools/conversation_json_sniff.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
             /tools/mersearch_math_genealogy.py
