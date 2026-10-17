@@ -40,6 +40,13 @@ class PublicCatalogTests(unittest.TestCase):
         manual=entry("srena-20260731-hsh", "Srena",
                      "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
                      "SRENA SAT2.txt", "development", "companion export createdAt")
+        # The curated Viewer uses an archive-root prefix for GLASS paths,
+        # while canonical GitHub blob links are relative to the GLASS root.
+        prefixed=entry("valid-glass-prefix","GLASS with checkout prefix",
+            "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+            "SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/Note.txt","glass-public")
+        prefixed["github_url"]=("https://github.com/Satobloc/"
+            "SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT%20Mark%20V/Note.txt")
         bad=[
             entry("private1", "Sensitive docs", "Satobloc/HSH_RESOURCES", "private.txt"),
             entry("private2", "Prior art", path="PRIOR_ART/notes.txt"),
@@ -68,11 +75,21 @@ class PublicCatalogTests(unittest.TestCase):
         mismatch2=entry("bad-mismatch2", "Different good paths", path="PUBLIC_SITE/readme.md")
         mismatch2["github_url"]="https://github.com/Satobloc/HsH/blob/main/CONVERSATION_VIEWER/index.html"
         bad.extend([mismatch,nested,traversal,absolute,backslash,encoded_slash,encoded_url,literal_private,mismatch2])
+        # A GLASS prefix is allowed only with an exact corresponding blob path.
+        glass_mismatch=entry("bad-glass-mismatch","GLASS swapped source",
+            "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+            "SAT_THEORY_ARCHIVE_2023-25/SAT Mark V/Different.txt","glass-public")
+        glass_mismatch["github_url"]=prefixed["github_url"]
+        glass_forbidden=entry("bad-glass-forbidden","GLASS restricted",
+            "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+            "SAT_THEORY_ARCHIVE_2023-25/PRIOR_ART/secret.txt","glass-public")
+        glass_forbidden["github_url"]=prefixed["github_url"]
+        bad.extend([glass_mismatch,glass_forbidden])
         payload={"schema_version":1,"curation":{"source":"CURATION.json"},
-                 "conversations":[good,sat,manual,*bad]}
+                 "conversations":[good,sat,manual,prefixed,*bad]}
         out=catalog.make_catalog(payload)
         self.assertEqual(out["kind"],"public-conversation-catalog")
-        self.assertEqual(len(out["hits"]),3)
+        self.assertEqual(len(out["hits"]),4)
         self.assertEqual(out["coverage_status"],"partial")
         self.assertNotIn("Satobloc/HSH_RESOURCES",out["archives_searched"])
         self.assertNotIn("Satobloc/HSH_RESOURCES",out["archives_requested"])
