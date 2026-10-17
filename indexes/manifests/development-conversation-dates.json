@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-10-17T11:34:04.025692+00:00",
+  "generated_at_utc": "2026-10-17T12:34:24.532193+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
     "unchanged": 787,
-    "skipped": 358
+    "skipped": 358,
+    "renamed": 3
   },
   "records": [
     {
@@ -2454,6 +2455,28 @@
       "warnings": []
     },
     {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/ASTER — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json",
+      "start_local": "2026-09-20T12:16:08.508784-04:00",
+      "end_local": "2026-10-17T08:28:14.355847-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 860,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Mercer Free Build — raw (3).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (3) [collision-75cb3471ef].json",
+      "start_local": "2026-10-11T07:53:19.794942-04:00",
+      "end_local": "2026-10-17T07:27:09.596104-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 444,
+      "status": "renamed",
+      "warnings": [
+        "Date-prefixed target occupied; preserved both sources using collision fingerprint"
+      ]
+    },
+    {
       "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming A New Feeling — raw (3).txt",
       "new_path": null,
       "start_local": null,
@@ -2476,6 +2499,16 @@
       "warnings": [
         "Extra data: line 20 column 14 (char 647)"
       ]
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Ravel Free Build — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Ravel Free Build — raw (2).json",
+      "start_local": "2026-10-11T00:48:17.167498-04:00",
+      "end_local": "2026-10-17T07:52:51.877871-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 402,
+      "status": "renamed",
+      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md",
