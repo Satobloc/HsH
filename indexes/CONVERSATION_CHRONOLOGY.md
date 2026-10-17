@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-17T11:17:02.338339+00:00`
+- Generated: `2026-10-17T11:31:19.834980+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **786**
+- Dated conversation exports: **787**
 - Skipped non-conversation or unparseable files: **358**
 - Exact duplicate-content groups: **94**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -801,6 +801,7 @@
 | 2026-10-11 | 2026-10-15 | [Mercer Free Build](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 200 |  |  |
 | 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 401 |  |  |
 | 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (2).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%282%29.json) | `CONVOS_23` | 401 |  |  |
+| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (3).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%283%29.json) | `CONVOS_23` | 444 |  |  |
 | 2026-10-11 | 2026-10-15 | [Morrow + Kestrel Free Quarry](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Morrow%20%2B%20Kestrel%20Free%20Quarry%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 157 |  |  |
 | 2026-10-11 | 2026-10-15 | [Orson LLM Cognition Lab](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Orson%20LLM%20Cognition%20Lab%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 116 |  |  |
 | 2026-10-14 | 2026-10-14 | [Underwater Fermi Paradox](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.14%E2%80%A226.10.14%E2%80%A2Underwater%20Fermi%20Paradox%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 29 |  |  |
