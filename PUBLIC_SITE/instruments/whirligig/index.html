@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Whirligig R/Q | Glass Sausage Factory</title><style>
 :root{color-scheme:dark;font:14px system-ui;background:#111416;color:#ece9e1}*{box-sizing:border-box}body{margin:0}main{max-width:1250px;margin:auto;padding:16px}h1{font:38px Georgia,serif;margin:6px 0}p{color:#bbc0bc;max-width:95ch;line-height:1.5}a{color:#a1c8c4}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}button,select{background:#252d31;color:#eee;border:1px solid #53605e;padding:9px;border-radius:7px;cursor:pointer}.row{display:grid;grid-template-columns:1.45fr 1fr;gap:12px}.plate{position:relative;background:#181d20;border:1px solid #3b4447;border-radius:10px;overflow:hidden}canvas{display:block;width:100%;height:430px;touch-action:none}.plate>span{position:absolute;left:13px;top:11px;font:11px monospace;color:#b0c8bf;pointer-events:none}.controls{background:#20262a;border-radius:10px;padding:15px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:12px}.controls label{font-size:12px;color:#c6c7c3}.controls output{float:right;color:#e0be8e}input[type=range]{width:100%;display:block;margin-top:12px;accent-color:#6f9f9b}.stats{font:12px/1.8 monospace;color:#b5c8be;padding:12px;background:#20262a;border-radius:8px;margin-top:10px}.foot{font-size:12px;border-top:1px solid #424848;margin-top:15px;padding-top:10px}@media(max-width:720px){.row{grid-template-columns:1fr}canvas{height:320px}.controls{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:30px}}.equation-pickers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 18px}.eqbox{background:#20262a;border:1px solid #435052;border-radius:9px;padding:12px;min-width:0}.eqbox label{display:block;color:#f2efe6;font-weight:650}.eqbox label strong{font-size:11px;color:#a2c4be;font-weight:450}.eqbox select{display:block;width:100%;margin:9px 0;max-width:100%}.mathline{padding:10px;background:#12181b;overflow-wrap:anywhere;font:12px/1.5 ui-monospace,monospace;color:#d3d9d2;min-height:50px}.eqmeaning,.eqlimits{font-size:12px;line-height:1.5;margin:8px 0 0}.eqlimits{color:#d7b78e}.catalog-result{grid-column:1/-1;padding:9px 12px;background:#171e21;border:1px solid #3a484b;border-radius:7px}.catalog-result small{display:block;margin-top:5px;color:#bbc4bf}.bar>label{color:#cdd3cc}.bar>label select{margin-left:6px}@media(max-width:700px){.equation-pickers{grid-template-columns:1fr}.bar>label{width:100%}.bar>label select{width:100%;margin:6px 0 0}}
 </style></head>
-<body><main><small>THE GLASS SAUSAGE FACTORY / GEOMETRY LABORATORY / SANDBOXED</small><h1>Whirligig · R/Q</h1><p>The R and Q curve followers slide simultaneously around opposite east/west hemispheres of the same sphere. Their moving crossbar carries a perpendicular gimbal elbow; that elbow itself reaches the torus wall and draws the composite <i>Curvy Lisa</i> trace.</p>
+<body><main><small>THE GLASS SAUSAGE FACTORY / GEOMETRY LABORATORY / SANDBOXED</small><h1>Whirligig · R/Q</h1><p>The bar's rotating sweep plane finds moving contacts on the R and Q curves in opposite east/west hemispheres. The contacts slide along those tracks; the variable-length bar carries one perpendicular tracing elbow. Its torus-wall path is the composite <i>Curvy Lisa</i> trace.</p>
 <div class="bar"><button id="play">Pause</button><button id="reset">Restart</button><button id="svg">Export Curvy Lisa SVG</button><label>Compare presets <select id="pairPreset" aria-label="Choose an equation comparison preset"><option value="custom">Custom R/Q selection</option><option value="original" selected>Historical R / Q harmonic test</option><option value="u1su2">Gauge: U(1) versus SU(2)</option><option value="su2su3">Gauge: SU(2) versus SU(3)</option><option value="grwaves">GR: + versus × wave polarizations</option><option value="grmetrics">GR: Schwarzschild versus Kerr</option><option value="qmrabi">QM: Rabi versus coherent oscillator</option><option value="qmspin">QM: spin versus interference</option><option value="crossgq">Cross-sector: SU(2) versus QM spin</option><option value="crossgg">Cross-sector: gravitational wave versus QM Rabi</option><option value="crosssg">Cross-sector: SU(3) versus Kerr</option></select></label><button id="swap">Swap R ↔ Q</button><button id="trail">Hide guide lines</button></div><section class="equation-pickers" aria-label="Input equation library">
   <article class="eqbox"><label for="eqR">Equation R <strong>· East hemisphere</strong></label><select id="eqR" aria-label="Choose R equation"><optgroup label="Demonstration"><option value="harm_r" selected>R harmonic source</option><option value="harm_q">Q harmonic source</option></optgroup><optgroup label="Gauge groups"><option value="u1_phase">U(1) | relative phase</option><option value="su2_character">SU(2) | fundamental character</option><option value="su3_character">SU(3) | fundamental character</option></optgroup><optgroup label="General relativity"><option value="gw_plus">GR | plane GW + polarization</option><option value="gw_cross">GR | plane GW × polarization</option><option value="schwarz_orbit">GR | Schwarzschild circular orbit</option><option value="schwarz_lapse">GR | Schwarzschild lapse scan</option><option value="kerr_drag">GR | Kerr frame-dragging scan</option></optgroup><optgroup label="Quantum mechanics"><option value="qm_rabi">QM | resonant Rabi oscillation</option><option value="qm_spin">QM | spin-½ Larmor precession</option><option value="qm_coherent">QM | oscillator coherent state</option><option value="qm_interference">QM | two-energy-state interference</option></optgroup></select><div class="mathline" id="rFormula"></div><p id="rMeaning" class="eqmeaning"></p><p id="rLimits" class="eqlimits"></p></article>
   <article class="eqbox"><label for="eqQ">Equation Q <strong>· West hemisphere</strong></label><select id="eqQ" aria-label="Choose Q equation"><optgroup label="Demonstration"><option value="harm_r">R harmonic source</option><option value="harm_q" selected>Q harmonic source</option></optgroup><optgroup label="Gauge groups"><option value="u1_phase">U(1) | relative phase</option><option value="su2_character">SU(2) | fundamental character</option><option value="su3_character">SU(3) | fundamental character</option></optgroup><optgroup label="General relativity"><option value="gw_plus">GR | plane GW + polarization</option><option value="gw_cross">GR | plane GW × polarization</option><option value="schwarz_orbit">GR | Schwarzschild circular orbit</option><option value="schwarz_lapse">GR | Schwarzschild lapse scan</option><option value="kerr_drag">GR | Kerr frame-dragging scan</option></optgroup><optgroup label="Quantum mechanics"><option value="qm_rabi">QM | resonant Rabi oscillation</option><option value="qm_spin">QM | spin-½ Larmor precession</option><option value="qm_coherent">QM | oscillator coherent state</option><option value="qm_interference">QM | two-energy-state interference</option></optgroup></select><div class="mathline" id="qFormula"></div><p id="qMeaning" class="eqmeaning"></p><p id="qLimits" class="eqlimits"></p></article>
@@ -12,7 +12,7 @@
 <label>R display gain <output id="vr"></output><input data-key="ra" type="range" min="0" max="1" step=".01" value=".55"></label>
 <label>Q display gain <output id="vq"></output><input data-key="qa" type="range" min="0" max="1" step=".01" value=".60"></label>
 <label>Q sampling phase <output id="vp"></output><input data-key="ph" type="range" min="-3.14" max="3.14" step=".02" value="0"></label>
-<label>Shared curve laps <output id="vg1"></output><input data-key="g1" type="range" min="1" max="6" step="1" value="1"></label>
+<label>Crossbar sweep revolutions <output id="vg1"></output><input data-key="g1" type="range" min="1" max="6" step="1" value="1"></label>
 <label>Curvature → elbow gain <output id="vg2"></output><input data-key="g2" type="range" min="0" max="1.5" step=".02" value=".32"></label>
 <label>Elbow revolutions <output id="vpt"></output><input data-key="pt" type="range" min="0" max="8" step="1" value="4"></label>
 <label>Major radius R <output id="vmajor"></output><input data-key="major" type="range" min="1.25" max="2.4" step=".05" value="1.65"></label>
@@ -52,31 +52,64 @@ function applyPair(){const value=$('#pairPreset').value;if(PAIRS[value]){const i
 function changeChoice(){ $('#pairPreset').value='custom';rebuild()}
 function swapChoices(){let a=$('#eqR').value;$('#eqR').value=$('#eqQ').value;$('#eqQ').value=a;changeChoice()}
 // These are two independent, closed BODY sphere curves on east and west sides.
-function polar(t,c,side){const east=side==='r',a=.48+.20*Math.tanh(equation(t,c,side)),phi=t+(east?0:PI);return[(east?1:-1)*Math.cos(a),Math.sin(a)*Math.cos(phi),Math.sin(a)*Math.sin(phi)]}
-function curve(c,side){const pts=Array.from({length:513},(_,i)=>polar(TWO*i/512,c,side)),ss=[0];for(let i=1;i<pts.length;i++)ss.push(ss[i-1]+norm(sub(pts[i],pts[i-1])));return{pts,ss,total:ss.at(-1)}}
-function at(cur,f){const x=(((f%1)+1)%1)*cur.total,a=cur.ss;let i=0,j=a.length-1;while(j-i>1){let k=(i+j)>>1;if(a[k]<=x)i=k;else j=k}const p=(x-a[i])/(a[j]-a[i]);return unit(add(mul(cur.pts[i],1-p),mul(cur.pts[j],p)))}
-function follow(cur,rate,psi){const f=rate*psi/TWO,e=1/512,p=at(cur,f),before=at(cur,f-e),after=at(cur,f+e),u=unit(sub(p,before)),v=unit(sub(after,p));return{p,turn:Math.atan2(dot(cross(u,v),p),dot(u,v))/e}}
+// Each scalar equation determines polar aperture; a monotone azimuth adapter
+// supplies the second coordinate. This is an explicit representation choice.
+function bearing(t,c,side){
+ const k=side==='r'?0:.7;
+ return t+.11*(Math.sin(2*t+k)-Math.sin(k))
+        +.03*(Math.tanh(equation(t,c,side))-Math.tanh(equation(0,c,side)));
+}
+function polar(t,c,side){
+ const east=side==='r',a=.48+.20*Math.tanh(equation(t,c,side));
+ const phi=bearing(t,c,side)+(east?0:PI);
+ return [(east?1:-1)*Math.cos(a),Math.sin(a)*Math.cos(phi),Math.sin(a)*Math.sin(phi)];
+}
+function curve(c,side){
+ const pts=[],angles=[];
+ for(let i=0;i<=512;i++){const t=TWO*i/512;pts.push(polar(t,c,side));angles.push(bearing(t,c,side));}
+ for(let i=1;i<angles.length;i++)if(angles[i]<=angles[i-1])throw Error("Nonmonotone azimuth adapter; swept-plane intersection branch is ambiguous");
+ return {pts,angles,side};
+}
+// Sweep-plane follower: solve intersection of ONE rotating meridional plane
+// with EACH complete equation curve. We DO NOT prescribe two curve positions
+// and attach a connector to them. The bearing of the bar comes first.
+function follow(cur,c,sweep){
+ const alpha=((sweep%TWO)+TWO)%TWO;
+ const angles=cur.angles;
+ let i=0,j=angles.length-1;
+ while(j-i>1){const k=(i+j)>>1;if(angles[k]<=alpha)i=k;else j=k;}
+ let lo=TWO*i/512,hi=TWO*j/512;
+ for(let step=0;step<31;step++){const mid=(lo+hi)/2;if(bearing(mid,c,cur.side)<alpha)lo=mid;else hi=mid;}
+ const t=(lo+hi)/2,p=polar(t,c,cur.side),d=.003;
+ const before=polar(t-d,c,cur.side),after=polar(t+d,c,cur.side);
+ const u=unit(sub(p,before)),v=unit(sub(after,p));
+ const turn=Math.atan2(dot(cross(u,v),p),dot(u,v))/.003;
+ const planeN=[0,-Math.sin(alpha),Math.cos(alpha)];
+ return {p,turn,t,planeResidual:Math.abs(dot(p,planeN))};
+}
 function gcd(a,b){while(b){let c=a%b;a=b;b=c}return a}
 function clock(c){const M=Math.round(c.major*20),a=Math.round(c.minor*20),num=M+a,g=gcd(num,a);return{numerator:num/g,denominator:a/g,gear:num/a,shared:a/g}}
-function sample(psi,c){const k=clock(c),er=[Math.cos(psi),Math.sin(psi),0],et=[-Math.sin(psi),Math.cos(psi),0],ez=[0,0,1],center=mul(er,c.major),spin=k.gear*psi;
+function sample(psi,c){
+ const k=clock(c),er=[Math.cos(psi),Math.sin(psi),0],et=[-Math.sin(psi),Math.cos(psi),0],ez=[0,0,1],center=mul(er,c.major),spin=k.gear*psi;
  const rr=[Math.sin(spin),0,Math.cos(spin)],tt=[Math.cos(spin),0,-Math.sin(spin)],nn=[0,1,0];
  function Q(v){return add(add(mul(er,dot(v,rr)),mul(et,dot(v,tt))),mul(ez,dot(v,nn)))}
- // The two bearing contacts SLIDE simultaneously along their own loops,
- // using the SAME arc-length fraction clock, not independent motor phases.
- const R=follow(curveR,c.g1,psi),Qf=follow(curveQ,c.g1,psi);
+ // The bar's sweep bearing, NOT the source curves' sample indices,
+ // drives both intersections. Their curve parameters are outputs.
+ const sweep=c.g1*psi;
+ const R=follow(curveR,c,sweep),Qf=follow(curveQ,c,sweep);
  const pr=add(center,mul(Q(R.p),c.minor)),pq=add(center,mul(Q(Qf.p),c.minor));
  const bar=sub(pq,pr),dir=unit(bar),mid=mul(add(pr,pq),.5);
  let ref=Q([0,0,1]);if(Math.abs(dot(ref,dir))>.90)ref=Q([0,1,0]);
  const u=unit(sub(ref,mul(dir,dot(ref,dir)))),v=unit(cross(dir,u));
- // There is ONE elbow, with hinge at W_obble on the crossbar, with its
- // pointing direction locked perpendicular to that bar. Its own rotation
- // about the arm includes an explicit signed-curvature difference.
+ // The elbow is the ONLY torus projector. It rotates in the exact normal
+ // plane of the crossbar, with a curvature-sensitive deflection.
  const curvatureSignal=Math.tanh((R.turn-Qf.turn)/6);
  const theta=c.pt*psi+c.g2*curvatureSignal;
  const elbow=unit(add(mul(u,Math.cos(theta)),mul(v,Math.sin(theta))));
- return{center,pr,pq,mid,dir,elbow,contact:mul(er,c.major+c.minor),r:R.p,q:Qf.p,Q,er,
-  curvatureR:R.turn,curvatureQ:Qf.turn,curvatureSignal,
-  midOffset:norm(sub(mid,center))/c.minor,elbowDot:dot(elbow,dir)};
+ return {center,pr,pq,mid,dir,elbow,contact:mul(er,c.major+c.minor),r:R.p,q:Qf.p,Q,er,
+         curvatureR:R.turn,curvatureQ:Qf.turn,curvatureSignal,
+         tR:R.t,tQ:Qf.t,sweep,planeR:R.planeResidual,planeQ:Qf.planeResidual,
+         midOffset:norm(sub(mid,center))/c.minor,elbowDot:dot(elbow,dir)};
 }
 function torusF(v,c){let r=Math.hypot(v[0],v[1]);return (r-c.major)**2+v[2]**2-c.minor**2}
 function rayHit(origin,ray,c){ // Find earliest positive crossing via bracketed 1D solves; equation is torus implicit, equivalent to quartic zeros.
@@ -90,15 +123,15 @@ function rebuild(){
  N=Math.max(55,Math.floor(1650/sharedTurns))*sharedTurns+1;
  curveR=curve(cfg,'r');curveQ=curve(cfg,'q');data=[];
  for(let i=0;i<N;i++){const psi=TWO*sharedTurns*i/(N-1),s=sample(psi,cfg);s.hit=rayHit(s.mid,s.elbow,cfg);data.push(s)}
- const hits=data.filter(s=>s.hit).length,hem=data.filter(s=>s.r[0]<=0||s.q[0]>=0).length,
+ const hits=data.filter(s=>s.hit).length,hem=data.filter(s=>s.r[0]<=0||s.q[0]>=0).length,plane=Math.max(...data.map(s=>Math.max(s.planeR,s.planeQ))),
  perp=Math.max(...data.map(s=>Math.abs(s.elbowDot))),mid=Math.max(...data.map(s=>s.midOffset)),
  seam=data[0].hit&&data.at(-1).hit?norm(sub(data[0].hit,data.at(-1).hit)):NaN;
  $('#stats').textContent='MINIMUM SHARED RETURN: '+sharedTurns+' torus circuits · rolling gear '+k.numerator+'/'+k.denominator+
  ' · physical sphere rotations '+k.numerator+' · each curve follower '+cfg.g1*sharedTurns+
  ' circuits · elbow rotations '+cfg.pt*sharedTurns+' · curvature gain '+cfg.g2.toFixed(2)+
  ' · E/W violations '+hem+' · max |bar·elbow| '+perp.toExponential(1)+
- ' · midpoint displacement ≤ '+mid.toFixed(3)+' sphere radii · elbow-tip hits '+hits+'/'+N+
- ' · endpoint seam '+seam.toExponential(2)+'. Selected-point rolling only: b=a has nonisolated surface contact.';
+ ' · max sweep-plane intersection error '+plane.toExponential(1)+' · midpoint displacement ≤ '+mid.toFixed(3)+' sphere radii · elbow-tip hits '+hits+'/'+N+
+ ' · endpoint seam '+seam.toExponential(2)+'. Sweep contacts are solved, not preattached. Selected-point rolling only: b=a has nonisolated surface contact.';
  inputs.forEach(i=>{const ids={ra:'vr',qa:'vq',ph:'vp',g1:'vg1',g2:'vg2',pt:'vpt',major:'vmajor',minor:'va'};$('#'+ids[i.dataset.key]).textContent=i.value})
 }
 function setup(canvas,c){let rect=canvas.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1),w=rect.width,h=rect.height;if(canvas.width!==Math.round(w*d)||canvas.height!==Math.round(h*d)){canvas.width=Math.round(w*d);canvas.height=Math.round(h*d)}c.setTransform(d,0,0,d,0,0);c.clearRect(0,0,w,h);return[w,h]}
@@ -109,16 +142,21 @@ function draw(){let[w,h]=setup(mc,m),[ww,hh]=setup(oc,o),f=Math.min(w,h)*.40/(cf
  for(let i=0;i<=36;i++){let t=TWO*i/36,er=[Math.cos(t),Math.sin(t),0],pts=[];for(let j=0;j<=32;j++){let v=TWO*j/32,p=[(cfg.major+cfg.minor*Math.cos(v))*er[0],(cfg.major+cfg.minor*Math.cos(v))*er[1],cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,i%6===0?'#9a7852':'#65553f',i%6===0?1.2:.7)}
  for(let j=0;j<12;j++){let v=j*TWO/12,pts=[];for(let i=0;i<=128;i++){let t=i*TWO/128,p=[(cfg.major+cfg.minor*Math.cos(v))*Math.cos(t),(cfg.major+cfg.minor*Math.cos(v))*Math.sin(t),cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,'#66523f',.7)}
  drawSphere(s,w,h,f);
- for(let pair of [[curveR,'#6fbdad'],[curveQ,'#d89c9c']]){
-  const pts=[];for(let j=0;j<=160;j++)pts.push(project(add(s.center,mul(s.Q(at(pair[0],j/160)),cfg.minor)),w,h,f));
-  stroke(m,pts,pair[1],1.7);
+ for(const side of ['r','q']){
+   const color=side==='r'?'#6fbdad':'#d89c9c',cur=side==='r'?curveR:curveQ,progress=side==='r'?s.tR:s.tQ;
+   // The thin track is the entire input curve; the thick advancing portion
+   // is the distance already swept by the contact IN THE BALL BODY FRAME.
+   const full=[],travelled=[];
+   for(let j=0;j<=160;j++)full.push(project(add(s.center,mul(s.Q(cur.pts[Math.floor(512*j/160)]),cfg.minor)),w,h,f));
+   for(let j=0;j<=90;j++)travelled.push(project(add(s.center,mul(s.Q(polar(progress*j/90,cfg,side)),cfg.minor)),w,h,f));
+   stroke(m,full,'#516565',.8);stroke(m,travelled,color,3.1);
  }
  let p=a=>project(a,w,h,f);if(show){stroke(m,[p(s.pr),p(s.pq)],'#f1c479',2.5);if(s.hit)stroke(m,[p(s.mid),p(s.hit)],'#83d2ed',3);stroke(m,[p(s.center),p(s.contact)],'#b98755',1.3)}
  for(let [q,col] of [[s.pr,'#6fbdad'],[s.pq,'#d89c9c'],[s.mid,'#ffd188'],[s.hit,'#dcbee6']]){if(!q)continue;let z=p(q);m.beginPath();m.arc(z[0],z[1],4,0,TWO);m.fillStyle=col;m.fill()}
  let paths=[];let start=[];for(let i=0;i<=idx;i++){let q=data[i].hit;if(!q){if(start.length>1)paths.push(start);start=[];continue}start.push(project(q,ww,hh,fo))}if(start.length>1)paths.push(start);
  for(let i=0;i<=36;i++){let v=i*TWO/36,pts=[];for(let j=0;j<=144;j++){let t=j*TWO/144;pts.push(project([(cfg.major+cfg.minor*Math.cos(v))*Math.cos(t),(cfg.major+cfg.minor*Math.cos(v))*Math.sin(t),cfg.minor*Math.sin(v)],ww,hh,fo))}stroke(o,pts,'#303a3a',.5)}
  paths.forEach(pts=>stroke(o,pts,'#8dc9b9',2));if(s.hit){let z=project(s.hit,ww,hh,fo);o.beginPath();o.arc(z[0],z[1],4.5,0,TWO);o.fillStyle='#ffd188';o.fill()}
- $('#vt').textContent=(phase*TWO*sharedTurns).toFixed(2)}
+ $('#vt').textContent=(phase*TWO*sharedTurns).toFixed(2)+' · R '+s.tR.toFixed(2)+' · Q '+s.tQ.toFixed(2)}
 function loop(now){if(run){phase=(phase+Math.min(.05,(now-last)/1000)*.12)%1;$('#time').value=phase}last=now;draw();requestAnimationFrame(loop)}inputs.forEach(i=>i.addEventListener('input',rebuild));$('#pairPreset').onchange=applyPair;$('#eqR').onchange=changeChoice;$('#eqQ').onchange=changeChoice;$('#swap').onclick=swapChoices;$('#play').onclick=()=>{run=!run;$('#play').textContent=run?'Pause':'Play'};$('#reset').onclick=()=>{phase=0;$('#time').value=0};$('#time').oninput=e=>{phase=+e.target.value;run=false;$('#play').textContent='Play'};$('#trail').onclick=()=>{show=!show;$('#trail').textContent=show?'Hide guide lines':'Show guide lines'};mc.addEventListener('pointerdown',e=>{drag=true;px=e.clientX;py=e.clientY;mc.setPointerCapture(e.pointerId)});mc.addEventListener('pointermove',e=>{if(!drag)return;az+=(e.clientX-px)*.01;el=Math.max(-1.4,Math.min(1.4,el+(e.clientY-py)*.01));px=e.clientX;py=e.clientY});mc.addEventListener('pointerup',()=>drag=false);mc.addEventListener('pointercancel',()=>drag=false);
 $('#svg').onclick=()=>{let groups=[],g=[];data.forEach(s=>{if(!s.hit){if(g.length)groups.push(g);g=[];return}g.push([250+225*s.hit[0]/(cfg.major+cfg.minor),250-225*s.hit[1]/(cfg.major+cfg.minor)])});if(g.length)groups.push(g);let paths=groups.map(q=>'<polyline points="'+q.map(p=>p.map(v=>v.toFixed(3)).join(',')).join(' ')+'" fill="none" stroke="#8dc9b9" stroke-width="1.7"/>').join('');let xml='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><rect width="500" height="500" fill="#111416"/>'+paths+'</svg>',url=URL.createObjectURL(new Blob([xml],{type:'image/svg+xml'})),a=document.createElement('a');a.href=url;a.download='curvy-lisa-rq.svg';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 applyPair();requestAnimationFrame(loop)})();</script></body></html>
