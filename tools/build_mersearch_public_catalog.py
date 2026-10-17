@@ -98,17 +98,24 @@ def make_catalog(document: dict) -> dict:
         corpus = source.get("corpus")
         url, repository, url_parts = safe_source_link(source.get("github_url"))
         path_parts = safe_parts(source.get("path"))
+        # The public Viewer may prefix GLASS source.path with the checkout
+        # directory, while the GitHub blob URL begins at the repository root.
+        # This ONE named prefix is permitted; arbitrary mismatches are not.
+        comparable_path = (path_parts[1:]
+                           if repository == "Satobloc/SAT_THEORY_ARCHIVE_2023-25"
+                           and path_parts[:1] == ("SAT_THEORY_ARCHIVE_2023-25",)
+                           else path_parts)
         if not (isinstance(ident, str) and re.fullmatch(r"[A-Za-z0-9._-]{1,128}", ident)
                 and isinstance(title, str) and title.strip()
                 and corpus in ACCEPTED_CORPORA and url
-                and path_parts and path_parts == url_parts):
+                and path_parts and comparable_path == url_parts):
             rejected["not_publicly_linkable"] = rejected.get("not_publicly_linkable", 0) + 1
             # Aggregate-only diagnosis: never print rejected titles, paths or URLs.
             if not url:
                 reason = "url_unavailable_or_unsafe"
             elif not path_parts:
                 reason = "source_path_unavailable_or_unsafe"
-            elif path_parts != url_parts:
+            elif comparable_path != url_parts:
                 reason = "url_path_mismatch"
             else:
                 reason = "other_invalid_metadata"
