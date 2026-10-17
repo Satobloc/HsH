@@ -32,26 +32,53 @@ def iso_day(value: object) -> str:
         return ""
 
 
-def safe_source_link(value: object) -> tuple[str, str]:
+def safe_parts(value: object) -> tuple[str, ...]:
+    """Decode conservatively, rejecting traversal, encoded separators and quarantines.
+
+    A public catalog is an output security boundary, even if the upstream Viewer
+    manifest says an entry was curated. Refuse ambiguous URLs/paths rather than
+    normalizing them to some other file.
+    """
+    if not isinstance(value, str) or not value or value.startswith(("/", "\\")):
+        return ()
+    clean = []
+    for original in value.split("/"):
+        if not original:
+            return ()
+        item = original
+        for _ in range(5):
+            decoded = unquote(item)
+            if decoded == item:
+                break
+            item = decoded
+        # Percent escapes that remain after bounded recursive decoding are
+        # ambiguous; reject even literal percent signs in public paths.
+        if (not item or "%" in item or item in {".", ".."}
+                or item.upper() in {"PRIOR_ART", "QUARANTINE"}
+                or any(c in item for c in "/\\\x00\r\n")):
+            return ()
+        clean.append(item)
+    return tuple(clean)
+
+
+def safe_source_link(value: object) -> tuple[str, str, tuple[str, ...]]:
+    """Validate public GitHub blob URL and return its decoded repository path."""
     if not isinstance(value, str) or not value:
-        return "", ""
+        return "", "", ()
     try:
         u = urlsplit(value)
     except ValueError:
-        return "", ""
-    if u.scheme != "https" or u.netloc != "github.com":
-        return "", ""
-    parts = [unquote(part) for part in u.path.strip("/").split("/")]
-    if len(parts) < 5 or parts[2] != "blob":
-        return "", ""
+        return "", "", ()
+    if (u.scheme != "https" or u.netloc != "github.com"
+            or u.query or u.fragment):
+        return "", "", ()
+    parts = safe_parts(u.path.lstrip("/"))
+    if len(parts) < 5 or parts[2:4] != ("blob", "main"):
+        return "", "", ()
     repository = parts[0] + "/" + parts[1]
     if repository not in PUBLIC_REPOS:
-        return "", ""
-    if any(part.upper() in {"PRIOR_ART", "QUARANTINE"} or
-           part in {".", ".."} or ("\\" in part) or ("/" in part)
-           for part in parts):
-        return "", ""
-    return value, repository
+        return "", "", ()
+    return value, repository, parts[4:]
 
 
 def make_catalog(document: dict) -> dict:
@@ -68,10 +95,12 @@ def make_catalog(document: dict) -> dict:
         ident = source.get("id")
         title = source.get("title")
         corpus = source.get("corpus")
-        url, repository = safe_source_link(source.get("github_url"))
+        url, repository, url_parts = safe_source_link(source.get("github_url"))
+        path_parts = safe_parts(source.get("path"))
         if not (isinstance(ident, str) and re.fullmatch(r"[A-Za-z0-9._-]{1,128}", ident)
                 and isinstance(title, str) and title.strip()
-                and corpus in ACCEPTED_CORPORA and url):
+                and corpus in ACCEPTED_CORPORA and url
+                and path_parts and path_parts == url_parts):
             rejected["not_publicly_linkable"] = rejected.get("not_publicly_linkable", 0) + 1
             continue
         if ident in counts:
@@ -109,7 +138,7 @@ def make_catalog(document: dict) -> dict:
         )
         rows.append({
             "title": title[:400],
-            "path": str(source.get("path") or "")[:1200],
+            "path": "/".join(path_parts)[:1200],
             "repository": repository,
             "source_url": url,
             "viewer_url": "../?c=" + quote(ident, safe=""),
@@ -139,15 +168,12 @@ def make_catalog(document: dict) -> dict:
             "Title/path/date lookup only; NO message full-text, math or archive-wide chronology. "
             "Not a complete search of SAT, HsH, or HSH_RESOURCES."
         ),
-        "archives_requested": [
-            "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-            "Satobloc/HsH",
-            "Satobloc/HSH_RESOURCES",
-        ],
+        # Public static catalog never requests or scans the private repository.
+        "archives_requested": sorted(PUBLIC_REPOS),
+        "archives_excluded_by_policy": ["Satobloc/HSH_RESOURCES"],
         "archives_searched": available,
         "missing_archives": [
-            r for r in ("Satobloc/SAT_THEORY_ARCHIVE_2023-25",
-                        "Satobloc/HsH", "Satobloc/HSH_RESOURCES") if r not in available
+            r for r in sorted(PUBLIC_REPOS) if r not in available
         ],
         "catalog_entries": len(rows),
         "catalog_rejections": rejected,
