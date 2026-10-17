@@ -35,3 +35,11 @@ Frontend acceptance:
 
 ## Publication receipt
 2026-10-16: GitHub connector fallback used because the execution environment's `git ls-remote https://github.com/Satobloc/HsH.git HEAD` failed DNS resolution. Created `PUBLIC_SITE/instruments/whirligig/index.html` in commit `16d355ee3ec9e4f3472911c721a6b7ade70bc08a`. Independent `fetch_file` readback returned 9,140 characters, blob `397aac15d50750e3b01f9d891759f2dc3066dddc`. No ChatGPT Sites deployment action was available or verified.
+
+## 2026-10-17 browser mechanical rebuild
+
+Nathan Direct correction: torus tube minor diameter equals sphere diameter (a=b). Two source equations R and Q occupy opposing hemispheres/polar regions, and the mechanically coupled apparatus, not an unrelated decorative torus, must generate a composite Curvy Lisa curve. The previous browser visualization was structurally incorrect and is superseded by the replacement index.html in commit `937b02e0d410d635a364aa842c2802f437ecd66e`.
+
+Current browser implementation: equal-radius sphere inside torus; selected-point analytic roll frame Q=W B^T; separate inverse-tanh latitude representations for R/Q; independent body-frame Ry/Rx gimbals; world-space R/Q endpoints and connector midpoint; local connector-normal pen basis; torus implicit surface forward crossing via numerical root bracketing and bisection; SVG export; live diagnostics including contact gear, closure gear mismatch, hit counts, and reversed-ray fallback counts.
+
+**Scope limitations:** This browser construction does not yet reproduce the full Python solver's rotation-minimizing Bishop frame, strict quartic-root solver, optional source-anchor alignment, or validated holonomy compensation. The pen uses a documented 0.38 outward radial aiming bias, and may fall back to the opposite ray. The equal-radius tube/sphere contact is nonisolated, so unique-point rolling is not certified. A visible composite curve is an output of this chosen procedure, not a proved equation isomorphism. The current implementation has repository readback verification, **not browser runtime regression testing** or verified ChatGPT Sites deployment. Test independently before advertising as validated.
