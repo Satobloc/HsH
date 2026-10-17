@@ -48,6 +48,26 @@ class PublicCatalogTests(unittest.TestCase):
             entry("private5", "External", "OtherOwner/OtherRepo", "notes.txt"),
             entry("private6", "Not curated", corpus="secret"),
         ]
+        # Cross-field smuggling: source URL is innocuous, metadata path is not.
+        mismatch=entry("bad-mismatch", "Mismatch", path="PRIOR_ART/private.txt")
+        mismatch["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        nested=entry("bad-double", "Double encoded", path="%252551UARANTINE/secret.txt")
+        nested["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        traversal=entry("bad-traversal", "Traversal", path="PUBLIC_SITE/%252e%252e/hidden.txt")
+        traversal["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        absolute=entry("bad-absolute", "Absolute", path="/PUBLIC_SITE/readme.md")
+        absolute["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        backslash=entry("bad-backslash", "Backslash", path=r"PUBLIC_SITE\\..\\hidden.txt")
+        backslash["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        encoded_slash=entry("bad-slash", "Encoded slash", path="PUBLIC_SITE%2Freadme.md")
+        encoded_slash["github_url"]="https://github.com/Satobloc/HsH/blob/main/PUBLIC_SITE/readme.md"
+        encoded_url=entry("bad-url", "URL nested encoding")
+        encoded_url["github_url"]="https://github.com/Satobloc/HsH/blob/main/%252551UARANTINE/secret.txt"
+        literal_private=entry("bad-private", "Private label", path="HSH_RESOURCES/PAPER.txt")
+        literal_private["github_url"]="https://github.com/Satobloc/HSH_RESOURCES/blob/main/HSH_RESOURCES/PAPER.txt"
+        mismatch2=entry("bad-mismatch2", "Different good paths", path="PUBLIC_SITE/readme.md")
+        mismatch2["github_url"]="https://github.com/Satobloc/HsH/blob/main/CONVERSATION_VIEWER/index.html"
+        bad.extend([mismatch,nested,traversal,absolute,backslash,encoded_slash,encoded_url,literal_private,mismatch2])
         payload={"schema_version":1,"curation":{"source":"CURATION.json"},
                  "conversations":[good,sat,manual,*bad]}
         out=catalog.make_catalog(payload)
@@ -55,6 +75,9 @@ class PublicCatalogTests(unittest.TestCase):
         self.assertEqual(len(out["hits"]),3)
         self.assertEqual(out["coverage_status"],"partial")
         self.assertNotIn("Satobloc/HSH_RESOURCES",out["archives_searched"])
+        self.assertNotIn("Satobloc/HSH_RESOURCES",out["archives_requested"])
+        self.assertNotIn("Satobloc/HSH_RESOURCES",out["missing_archives"])
+        self.assertIn("Satobloc/HSH_RESOURCES",out["archives_excluded_by_policy"])
         self.assertTrue(all("satobloc" in r["source_url"].lower() for r in out["hits"]))
         self.assertTrue(all("message_count" in r for r in out["hits"]))
         self.assertTrue(any("srena-20260731-hsh" in r["viewer_url"] for r in out["hits"]))
