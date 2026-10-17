@@ -1,56 +1,75 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Whirligig R/Q | Glass Sausage Factory</title><style>
 :root{color-scheme:dark;font:14px system-ui;background:#111416;color:#ece9e1}*{box-sizing:border-box}body{margin:0}main{max-width:1250px;margin:auto;padding:16px}h1{font:38px Georgia,serif;margin:6px 0}p{color:#bbc0bc;max-width:95ch;line-height:1.5}a{color:#a1c8c4}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}button,select{background:#252d31;color:#eee;border:1px solid #53605e;padding:9px;border-radius:7px;cursor:pointer}.row{display:grid;grid-template-columns:1.45fr 1fr;gap:12px}.plate{position:relative;background:#181d20;border:1px solid #3b4447;border-radius:10px;overflow:hidden}canvas{display:block;width:100%;height:430px;touch-action:none}.plate>span{position:absolute;left:13px;top:11px;font:11px monospace;color:#b0c8bf;pointer-events:none}.controls{background:#20262a;border-radius:10px;padding:15px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:12px}.controls label{font-size:12px;color:#c6c7c3}.controls output{float:right;color:#e0be8e}input[type=range]{width:100%;display:block;margin-top:12px;accent-color:#6f9f9b}.stats{font:12px/1.8 monospace;color:#b5c8be;padding:12px;background:#20262a;border-radius:8px;margin-top:10px}.foot{font-size:12px;border-top:1px solid #424848;margin-top:15px;padding-top:10px}@media(max-width:720px){.row{grid-template-columns:1fr}canvas{height:320px}.controls{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:30px}}</style></head>
-<body><main><small>THE GLASS SAUSAGE FACTORY / GEOMETRY LABORATORY / SANDBOXED</small><h1>Whirligig · R/Q</h1><p>Two equations trace opposite east/west hemispheres of a sphere whose diameter matches the torus tube. Their moving endpoints define a variable-length connector passing near the sphere center; the gimbal elbow is constrained perpendicular to that bar. The coupled pen intersects the torus to generate the composite <i>Curvy Lisa</i> trace.</p>
+<body><main><small>THE GLASS SAUSAGE FACTORY / GEOMETRY LABORATORY / SANDBOXED</small><h1>Whirligig · R/Q</h1><p>The R and Q curve followers slide simultaneously around opposite east/west hemispheres of the same sphere. Their moving crossbar carries a perpendicular gimbal elbow; that elbow itself reaches the torus wall and draws the composite <i>Curvy Lisa</i> trace.</p>
 <div class="bar"><button id="play">Pause</button><button id="reset">Restart</button><button id="svg">Export Curvy Lisa SVG</button><select id="preset" aria-label="Equation pair"><option value="base">R/Q harmonics (archive example)</option><option value="first">First pair harmonics</option><option value="flat">Flat R, oscillating Q</option></select><button id="trail">Hide guide lines</button></div>
-<div class="row"><div class="plate"><span>TORUS + EQUAL-DIAMETER SPHERE · DRAG TO ORBIT</span><canvas id="mechanism" aria-label="3D projected coupled Whirligig apparatus"></canvas></div><div class="plate"><span>CURVY LISA · TORUS WALL COMPOSITE</span><canvas id="output" aria-label="Live mechanically coupled output"></canvas></div></div>
+<div class="row"><div class="plate"><span>TORUS + EQUAL-DIAMETER SPHERE · DRAG TO ORBIT</span><canvas id="mechanism" aria-label="3D projected coupled Whirligig apparatus"></canvas></div><div class="plate"><span>CURVY LISA · ELBOW TIP TRACE</span><canvas id="output" aria-label="Live mechanically coupled output"></canvas></div></div>
 <div class="controls">
 <label>Equation R amplitude <output id="vr"></output><input data-key="ra" type="range" min="0" max="1" step=".01" value=".55"></label>
 <label>Equation Q amplitude <output id="vq"></output><input data-key="qa" type="range" min="0" max="1" step=".01" value=".60"></label>
 <label>Q phase <output id="vp"></output><input data-key="ph" type="range" min="-3.14" max="3.14" step=".02" value="0"></label>
-<label>Elbow bearing turns <output id="vg1"></output><input data-key="g1" type="range" min="-2" max="2" step="1" value="0"></label>
-<label>Pen articulation modulation <output id="vg2"></output><input data-key="g2" type="range" min="-2" max="2" step="1" value="1"></label>
-<label>Pen turns <output id="vpt"></output><input data-key="pt" type="range" min="0" max="8" step="1" value="4"></label>
-<label>Major radius R <output id="vmajor"></output><input data-key="major" type="range" min="1.25" max="2.4" step=".05" value="1.6"></label>
+<label>Elbow bearing turns <output id="vg1"></output><input data-key="g1" type="range" min="1" max="6" step="1" value="1"></label>
+<label>Pen articulation modulation <output id="vg2"></output><input data-key="g2" type="range" min="0" max="1.5" step=".02" value=".32"></label>
+<label>Elbow revolutions <output id="vpt"></output><input data-key="pt" type="range" min="0" max="8" step="1" value="4"></label>
+<label>Major radius R <output id="vmajor"></output><input data-key="major" type="range" min="1.25" max="2.4" step=".05" value="1.65"></label>
 <label>Tube & sphere radius a=b <output id="va"></output><input data-key="minor" type="range" min=".3" max=".8" step=".05" value=".55"></label>
 <label>Time fraction <output id="vt"></output><input id="time" type="range" min="0" max="1" step=".002" value="0"></label>
 </div><div id="stats" class="stats" role="status">Computing geometry…</div>
-<p class="foot">This is a browser reconstruction of the historical <b>b=a</b> limiting setup. Its selected contact obeys the analytic no-slip condition at one nominated point; because equal radii create a nonisolated contact set, this does <b>not</b> certify no-slip across every point of contact. The elbow frame is explicitly projected perpendicular to the connector at its midpoint; the pen remains in that plane. The elbow/pen angle controls are visualization adapters, not a certified physical gimbal model. No isomorphism or physical law is assumed. Research reference: <a href="https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq">Whirligig R/Q Python solver</a>.</p></main>
-<script>(()=>{'use strict';const $=s=>document.querySelector(s),PI=Math.PI,TWO=2*PI,N=241,mc=$('#mechanism'),oc=$('#output'),m=mc.getContext('2d'),o=oc.getContext('2d'),inputs=[...document.querySelectorAll('[data-key]')];let run=true,show=true,phase=0,az=.7,el=.45,drag=false,px=0,py=0,last=performance.now(),data=[],cfg=null;
+<p class="foot">This is a browser reconstruction of the historical <b>b=a</b> limiting setup. Its selected contact obeys the analytic no-slip condition at one nominated point; because equal radii create a nonisolated contact set, this does <b>not</b> certify no-slip across every point of contact. There is no separate pen or projector. The only tracing member is the gimbal elbow, constrained perpendicular to the moving crossbar. Two independently shaped curves are traversed by one shared clock; signed curvature differences change elbow orientation. The mechanism is a geometric reconstruction, not a proven physical bearing model. No isomorphism or physical law is assumed. Research reference: <a href="https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq">Whirligig R/Q Python solver</a>.</p></main>
+<script>(()=>{'use strict';const $=s=>document.querySelector(s),PI=Math.PI,TWO=2*PI,mc=$('#mechanism'),oc=$('#output'),m=mc.getContext('2d'),o=oc.getContext('2d'),inputs=[...document.querySelectorAll('[data-key]')];let run=true,show=true,phase=0,az=.7,el=.45,drag=false,px=0,py=0,last=performance.now(),data=[],cfg=null;
 const add=(a,b)=>a.map((x,i)=>x+b[i]),sub=(a,b)=>a.map((x,i)=>x-b[i]),mul=(a,k)=>a.map(x=>x*k),dot=(a,b)=>a.reduce((v,x,i)=>v+x*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],norm=a=>Math.hypot(...a),unit=a=>mul(a,1/Math.max(1e-12,norm(a)));function Rx(v,t){let c=Math.cos(t),s=Math.sin(t);return[v[0],c*v[1]-s*v[2],s*v[1]+c*v[2]]}function Ry(v,t){let c=Math.cos(t),s=Math.sin(t);return[c*v[0]+s*v[2],v[1],-s*v[0]+c*v[2]]}
 function params(){return Object.fromEntries(inputs.map(x=>[x.dataset.key,+x.value]))}
-function equation(t,c,which){let p=$('#preset').value;if(which==='r')return p==='flat'?0:c.ra*(p==='first'?Math.cos(t):Math.cos(2*t))+.15*Math.sin(3*t);return c.qa*Math.sin(p==='first'?2*t:3*t+c.ph)+.1*Math.cos(5*t)}
-function sample(t,c){const R=c.major,a=c.minor,b=a,rho=R,gear=(R+a)/b,g=gear*t;const er=[Math.cos(t),Math.sin(t),0],et=[-Math.sin(t),Math.cos(t),0],ez=[0,0,1],center=mul(er,rho); // physical SO(3) orientation, distinct from the internal gimbal
- const rr=[Math.sin(g),0,Math.cos(g)],tt=[Math.cos(g),0,-Math.sin(g)],nn=[0,1,0];function Q(v){return add(add(mul(er,dot(v,rr)),mul(et,dot(v,tt))),mul(ez,dot(v,nn)))}
- // Two genuinely opposite E (+body x) and W (-body x) hemispheres.
- // Closed, near-antipodal equation maps with an explicitly bounded aperture.
- // The amplitude of each source equation modulates its angular distance from its own pole.
- function polar(value,east){const aperture=.48+.20*Math.tanh(value),azimuth=t+(east?0:PI);return [(east?1:-1)*Math.cos(aperture),Math.sin(aperture)*Math.cos(azimuth),Math.sin(aperture)*Math.sin(azimuth)]}
- const r=polar(equation(t,c,'r'),true),q=polar(equation(t,c,'q'),false);
- // Source points are selected ON curves; the gimbal does not rotate these
- // endpoints away from their input curves. The connector is freely variable in length.
- const pr=add(center,mul(Q(r),b)),pq=add(center,mul(Q(q),b));
- const connector=sub(pq,pr),dir=unit(connector),mid=mul(add(pr,pq),.5);
- // Right-angle gimbal elbow through W_obble. A reference is projected onto
- // W_iggle, the exact plane through the midpoint perpendicular to the bar.
- let ref=Q([0,0,1]);if(Math.abs(dot(ref,dir))>.92)ref=Q([0,1,0]);
+let N=241,sharedTurns=1,curveR=null,curveQ=null;
+function equation(t,c,side){const p=$('#preset').value;return side==='r'?(p==='flat'?0:c.ra*Math.cos((p==='first'?1:2)*t)+.15*Math.sin(3*t)):c.qa*Math.sin((p==='first'?2:3)*t+c.ph)+.1*Math.cos(5*t)}
+// These are two independent, closed BODY sphere curves on east and west sides.
+function polar(t,c,side){const east=side==='r',a=.48+.20*Math.tanh(equation(t,c,side)),phi=t+(east?0:PI);return[(east?1:-1)*Math.cos(a),Math.sin(a)*Math.cos(phi),Math.sin(a)*Math.sin(phi)]}
+function curve(c,side){const pts=Array.from({length:513},(_,i)=>polar(TWO*i/512,c,side)),ss=[0];for(let i=1;i<pts.length;i++)ss.push(ss[i-1]+norm(sub(pts[i],pts[i-1])));return{pts,ss,total:ss.at(-1)}}
+function at(cur,f){const x=(((f%1)+1)%1)*cur.total,a=cur.ss;let i=0,j=a.length-1;while(j-i>1){let k=(i+j)>>1;if(a[k]<=x)i=k;else j=k}const p=(x-a[i])/(a[j]-a[i]);return unit(add(mul(cur.pts[i],1-p),mul(cur.pts[j],p)))}
+function follow(cur,rate,psi){const f=rate*psi/TWO,e=1/512,p=at(cur,f),before=at(cur,f-e),after=at(cur,f+e),u=unit(sub(p,before)),v=unit(sub(after,p));return{p,turn:Math.atan2(dot(cross(u,v),p),dot(u,v))/e}}
+function gcd(a,b){while(b){let c=a%b;a=b;b=c}return a}
+function clock(c){const M=Math.round(c.major*20),a=Math.round(c.minor*20),num=M+a,g=gcd(num,a);return{numerator:num/g,denominator:a/g,gear:num/a,shared:a/g}}
+function sample(psi,c){const k=clock(c),er=[Math.cos(psi),Math.sin(psi),0],et=[-Math.sin(psi),Math.cos(psi),0],ez=[0,0,1],center=mul(er,c.major),spin=k.gear*psi;
+ const rr=[Math.sin(spin),0,Math.cos(spin)],tt=[Math.cos(spin),0,-Math.sin(spin)],nn=[0,1,0];
+ function Q(v){return add(add(mul(er,dot(v,rr)),mul(et,dot(v,tt))),mul(ez,dot(v,nn)))}
+ // The two bearing contacts SLIDE simultaneously along their own loops,
+ // using the SAME arc-length fraction clock, not independent motor phases.
+ const R=follow(curveR,c.g1,psi),Qf=follow(curveQ,c.g1,psi);
+ const pr=add(center,mul(Q(R.p),c.minor)),pq=add(center,mul(Q(Qf.p),c.minor));
+ const bar=sub(pq,pr),dir=unit(bar),mid=mul(add(pr,pq),.5);
+ let ref=Q([0,0,1]);if(Math.abs(dot(ref,dir))>.90)ref=Q([0,1,0]);
  const u=unit(sub(ref,mul(dir,dot(ref,dir)))),v=unit(cross(dir,u));
- const elbowAngle=c.g1*t;const elbow=unit(add(mul(u,Math.cos(elbowAngle)),mul(v,Math.sin(elbowAngle))));
- const crossElbow=unit(cross(dir,elbow));
- // Inner articulation is represented by a distinct periodic modulation;
- // this is an explicit visualization adapter, not yet an exact gimbal bearing solver.
- const penAngle=c.pt*t+c.g2*.42*Math.sin(t);
- const pen=unit(add(mul(elbow,Math.cos(penAngle)),mul(crossElbow,Math.sin(penAngle))));
- const elbowEnd=add(mid,mul(elbow,.58*b));
- const contact=mul(er,R+a);
- return{center,pr,pq,mid,dir,pen,elbow,elbowEnd,contact,r,q,er,Q,
-        elbowDot:dot(elbow,dir),penDot:dot(pen,dir),midOffset:norm(sub(mid,center))/b}}
-
+ // There is ONE elbow, with hinge at W_obble on the crossbar, with its
+ // pointing direction locked perpendicular to that bar. Its own rotation
+ // about the arm includes an explicit signed-curvature difference.
+ const curvatureSignal=Math.tanh((R.turn-Qf.turn)/6);
+ const theta=c.pt*psi+c.g2*curvatureSignal;
+ const elbow=unit(add(mul(u,Math.cos(theta)),mul(v,Math.sin(theta))));
+ return{center,pr,pq,mid,dir,elbow,contact:mul(er,c.major+c.minor),r:R.p,q:Qf.p,Q,er,
+  curvatureR:R.turn,curvatureQ:Qf.turn,curvatureSignal,
+  midOffset:norm(sub(mid,center))/c.minor,elbowDot:dot(elbow,dir)};
+}
 function torusF(v,c){let r=Math.hypot(v[0],v[1]);return (r-c.major)**2+v[2]**2-c.minor**2}
 function rayHit(origin,ray,c){ // Find earliest positive crossing via bracketed 1D solves; equation is torus implicit, equivalent to quartic zeros.
  let r0=torusF(origin,c),bound=2*(c.major+c.minor)+3;let lastx=0,lastf=r0,steps=100;for(let j=1;j<=steps;j++){let x=bound*j/steps,f=torusF(add(origin,mul(ray,x)),c);if((lastf<0&&f>=0)||(lastf>0&&f<=0)){let lo=lastx,hi=x,flo=lastf;for(let k=0;k<35;k++){let mid=(lo+hi)/2,fm=torusF(add(origin,mul(ray,mid)),c);if((fm>0)===(flo>0)){lo=mid;flo=fm}else hi=mid}return add(origin,mul(ray,(lo+hi)/2))}lastx=x;lastf=f}return null}
-function rebuild(){cfg=params();data=[];for(let i=0;i<N;i++){let t=TWO*i/(N-1),s=sample(t,cfg);s.hit=rayHit(s.mid,s.pen,cfg);if(!s.hit){ // opposite ray fallback explicitly marked, not hidden
- s.hit=rayHit(s.mid,mul(s.pen,-1),cfg);s.reversed=!!s.hit}
- data.push(s)}const hits=data.filter(s=>s.hit).length,reversed=data.filter(s=>s.reversed).length,maxOrth=Math.max(...data.map(s=>Math.abs(s.elbowDot))),maxPenOrth=Math.max(...data.map(s=>Math.abs(s.penDot))),maxOffset=Math.max(...data.map(s=>s.midOffset)),hemisphereFailures=data.filter(s=>s.r[0]<=0||s.q[0]>=0).length,rad=(cfg.major+cfg.minor)/cfg.minor,closure=Math.abs(rad-Math.round(rad));$('#stats').textContent='R='+cfg.major.toFixed(2)+' · a=b='+cfg.minor.toFixed(2)+' · center radius ρ=R · contact gear='+rad.toFixed(3)+' · closure gearing Δ='+closure.toFixed(3)+' · midpoint offset ≤ '+maxOffset.toFixed(3)+'b · |bar·elbow| ≤ '+maxOrth.toExponential(1)+' · |bar·pen| ≤ '+maxPenOrth.toExponential(1)+' · E/W violations='+hemisphereFailures+' · torus-wall hits='+hits+'/'+N+' · opposite-ray fallback='+reversed+'/'+N+'. Equal-radius contact is nonisolated; contact law is selected-point only.';inputs.forEach(i=>{let ids={ra:'vr',qa:'vq',ph:'vp',g1:'vg1',g2:'vg2',pt:'vpt',major:'vmajor',minor:'va'};$('#'+ids[i.dataset.key]).textContent=i.value})}
+function rebuild(){
+ cfg=params();const k=clock(cfg);sharedTurns=k.shared; // minimum simultaneous RETURN
+ // Rolling ratio=(major+minor)/minor is rational on the 0.05 input grid;
+ // its reduced denominator is the minimal integer torus circuits for body
+ // rotation to close. Both sliding followers and elbow make integer turns
+ // per circuit and therefore close on this same minimum return.
+ N=Math.max(55,Math.floor(1650/sharedTurns))*sharedTurns+1;
+ curveR=curve(cfg,'r');curveQ=curve(cfg,'q');data=[];
+ for(let i=0;i<N;i++){const psi=TWO*sharedTurns*i/(N-1),s=sample(psi,cfg);s.hit=rayHit(s.mid,s.elbow,cfg);data.push(s)}
+ const hits=data.filter(s=>s.hit).length,hem=data.filter(s=>s.r[0]<=0||s.q[0]>=0).length,
+ perp=Math.max(...data.map(s=>Math.abs(s.elbowDot))),mid=Math.max(...data.map(s=>s.midOffset)),
+ seam=data[0].hit&&data.at(-1).hit?norm(sub(data[0].hit,data.at(-1).hit)):NaN;
+ $('#stats').textContent='MINIMUM SHARED RETURN: '+sharedTurns+' torus circuits · rolling gear '+k.numerator+'/'+k.denominator+
+ ' · physical sphere rotations '+k.numerator+' · each curve follower '+cfg.g1*sharedTurns+
+ ' circuits · elbow rotations '+cfg.pt*sharedTurns+' · curvature gain '+cfg.g2.toFixed(2)+
+ ' · E/W violations '+hem+' · max |bar·elbow| '+perp.toExponential(1)+
+ ' · midpoint displacement ≤ '+mid.toFixed(3)+' sphere radii · elbow-tip hits '+hits+'/'+N+
+ ' · endpoint seam '+seam.toExponential(2)+'. Selected-point rolling only: b=a has nonisolated surface contact.';
+ inputs.forEach(i=>{const ids={ra:'vr',qa:'vq',ph:'vp',g1:'vg1',g2:'vg2',pt:'vpt',major:'vmajor',minor:'va'};$('#'+ids[i.dataset.key]).textContent=i.value})
+}
 function setup(canvas,c){let rect=canvas.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1),w=rect.width,h=rect.height;if(canvas.width!==Math.round(w*d)||canvas.height!==Math.round(h*d)){canvas.width=Math.round(w*d);canvas.height=Math.round(h*d)}c.setTransform(d,0,0,d,0,0);c.clearRect(0,0,w,h);return[w,h]}
 function project(q,w,h,zscale){let ca=Math.cos(az),sa=Math.sin(az),ce=Math.cos(el),se=Math.sin(el);let x=ca*q[0]-sa*q[1],y=sa*q[0]+ca*q[1],z=q[2];return[w/2+x*zscale,h/2-(z*ce-y*se)*zscale]}
 function stroke(c,pts,color,width=1){if(pts.length<2)return;c.beginPath();pts.forEach((p,i)=>i?c.lineTo(p[0],p[1]):c.moveTo(p[0],p[1]));c.lineWidth=width;c.strokeStyle=color;c.stroke()}
@@ -58,12 +77,17 @@ function drawSphere(s,w,h,scale){for(let j=-2;j<=2;j++){let theta=j*PI/6,pts=[];
 function draw(){let[w,h]=setup(mc,m),[ww,hh]=setup(oc,o),f=Math.min(w,h)*.40/(cfg.major+cfg.minor),fo=Math.min(ww,hh)*.41/(cfg.major+cfg.minor);if(!data.length)return;let idx=Math.round(phase*(N-1)),s=data[idx]; // tube mesh with toroidal centerline
  for(let i=0;i<=36;i++){let t=TWO*i/36,er=[Math.cos(t),Math.sin(t),0],pts=[];for(let j=0;j<=32;j++){let v=TWO*j/32,p=[(cfg.major+cfg.minor*Math.cos(v))*er[0],(cfg.major+cfg.minor*Math.cos(v))*er[1],cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,i%6===0?'#9a7852':'#65553f',i%6===0?1.2:.7)}
  for(let j=0;j<12;j++){let v=j*TWO/12,pts=[];for(let i=0;i<=128;i++){let t=i*TWO/128,p=[(cfg.major+cfg.minor*Math.cos(v))*Math.cos(t),(cfg.major+cfg.minor*Math.cos(v))*Math.sin(t),cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,'#66523f',.7)}
- drawSphere(s,w,h,f);let p=a=>project(a,w,h,f);if(show){stroke(m,[p(s.pr),p(s.pq)],'#f1c479',2);stroke(m,[p(s.mid),p(s.elbowEnd)],'#83d2ed',3);stroke(m,[p(s.mid),p(s.hit||s.mid)],'#c59ed4',1.8);stroke(m,[p(s.center),p(s.contact)],'#b98755',1.3)}
- for(let [q,col] of [[s.pr,'#6fbdad'],[s.pq,'#d89c9c'],[s.mid,'#ffd188'],[s.elbowEnd,'#83d2ed'],[s.hit,'#dcbee6']]){if(!q)continue;let z=p(q);m.beginPath();m.arc(z[0],z[1],4,0,TWO);m.fillStyle=col;m.fill()}
+ drawSphere(s,w,h,f);
+ for(let pair of [[curveR,'#6fbdad'],[curveQ,'#d89c9c']]){
+  const pts=[];for(let j=0;j<=160;j++)pts.push(project(add(s.center,mul(s.Q(at(pair[0],j/160)),cfg.minor)),w,h,f));
+  stroke(m,pts,pair[1],1.7);
+ }
+ let p=a=>project(a,w,h,f);if(show){stroke(m,[p(s.pr),p(s.pq)],'#f1c479',2.5);if(s.hit)stroke(m,[p(s.mid),p(s.hit)],'#83d2ed',3);stroke(m,[p(s.center),p(s.contact)],'#b98755',1.3)}
+ for(let [q,col] of [[s.pr,'#6fbdad'],[s.pq,'#d89c9c'],[s.mid,'#ffd188'],[s.hit,'#dcbee6']]){if(!q)continue;let z=p(q);m.beginPath();m.arc(z[0],z[1],4,0,TWO);m.fillStyle=col;m.fill()}
  let paths=[];let start=[];for(let i=0;i<=idx;i++){let q=data[i].hit;if(!q){if(start.length>1)paths.push(start);start=[];continue}start.push(project(q,ww,hh,fo))}if(start.length>1)paths.push(start);
  for(let i=0;i<=36;i++){let v=i*TWO/36,pts=[];for(let j=0;j<=144;j++){let t=j*TWO/144;pts.push(project([(cfg.major+cfg.minor*Math.cos(v))*Math.cos(t),(cfg.major+cfg.minor*Math.cos(v))*Math.sin(t),cfg.minor*Math.sin(v)],ww,hh,fo))}stroke(o,pts,'#303a3a',.5)}
  paths.forEach(pts=>stroke(o,pts,'#8dc9b9',2));if(s.hit){let z=project(s.hit,ww,hh,fo);o.beginPath();o.arc(z[0],z[1],4.5,0,TWO);o.fillStyle='#ffd188';o.fill()}
- $('#vt').textContent=(phase*TWO).toFixed(2)}
+ $('#vt').textContent=(phase*TWO*sharedTurns).toFixed(2)}
 function loop(now){if(run){phase=(phase+Math.min(.05,(now-last)/1000)*.12)%1;$('#time').value=phase}last=now;draw();requestAnimationFrame(loop)}inputs.forEach(i=>i.addEventListener('input',rebuild));$('#preset').onchange=rebuild;$('#play').onclick=()=>{run=!run;$('#play').textContent=run?'Pause':'Play'};$('#reset').onclick=()=>{phase=0;$('#time').value=0};$('#time').oninput=e=>{phase=+e.target.value;run=false;$('#play').textContent='Play'};$('#trail').onclick=()=>{show=!show;$('#trail').textContent=show?'Hide guide lines':'Show guide lines'};mc.addEventListener('pointerdown',e=>{drag=true;px=e.clientX;py=e.clientY;mc.setPointerCapture(e.pointerId)});mc.addEventListener('pointermove',e=>{if(!drag)return;az+=(e.clientX-px)*.01;el=Math.max(-1.4,Math.min(1.4,el+(e.clientY-py)*.01));px=e.clientX;py=e.clientY});mc.addEventListener('pointerup',()=>drag=false);mc.addEventListener('pointercancel',()=>drag=false);
 $('#svg').onclick=()=>{let groups=[],g=[];data.forEach(s=>{if(!s.hit){if(g.length)groups.push(g);g=[];return}g.push([250+225*s.hit[0]/(cfg.major+cfg.minor),250-225*s.hit[1]/(cfg.major+cfg.minor)])});if(g.length)groups.push(g);let paths=groups.map(q=>'<polyline points="'+q.map(p=>p.map(v=>v.toFixed(3)).join(',')).join(' ')+'" fill="none" stroke="#8dc9b9" stroke-width="1.7"/>').join('');let xml='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><rect width="500" height="500" fill="#111416"/>'+paths+'</svg>',url=URL.createObjectURL(new Blob([xml],{type:'image/svg+xml'})),a=document.createElement('a');a.href=url;a.download='curvy-lisa-rq.svg';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 rebuild();requestAnimationFrame(loop)})();</script></body></html>
