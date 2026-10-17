@@ -5,6 +5,7 @@ on:
       - mersearch-chronology-20261007
     paths:
       - 'tools/search_archive_content.py'
+      - 'tools/conversation_json_sniff.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
       - 'tools/mersearch_math_genealogy.py'
@@ -17,6 +18,7 @@ on:
   pull_request:
     paths:
       - 'tools/search_archive_content.py'
+      - 'tools/conversation_json_sniff.py'
       - 'tools/mersearch_chronology.py'
       - 'tools/mersearch_math.py'
       - 'tools/mersearch_math_genealogy.py'
@@ -40,6 +42,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /tools/search_archive_content.py
+            /tools/conversation_json_sniff.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
             /tools/mersearch_math_genealogy.py
