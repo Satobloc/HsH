@@ -76,3 +76,16 @@ Executed numerical checks in a JavaScript stub DOM/canvas runtime, not actual br
 Boundaries: equal-radii contact is nonisolated, so selected-point rolling does not establish global no-slip. The gimbal mount, force law and curvature-to-elbow transfer coefficient are engineering choices still to be derived. Minimum common return applies to this rational-gear / integer-lap configuration, not arbitrary nonperiodic equations; a closed output does not prove equation equivalence.
 
 Sites builder: update the EXISTING /laboratory/whirligig/ route and navigation with the latest file, remove old two-member projector drawings, show both moving contact traces and common-return diagnostics, and verify executable behavior on the published site. Repository publication does not prove live Sites publication.
+
+
+## 2026-10-17 | R/Q input equation library
+
+**Supersedes the older three-harmonic-demo-only input interface.**
+
+The visitor instrument now includes 14 independently selectable R/Q scalar input adapters: two demonstration profiles; U(1) relative phase, SU(2) and SU(3) group characters; two linearized GR wave polarizations, Schwarzschild circular-orbit coordinate, Schwarzschild lapse radial scan, Kerr equatorial frame-dragging radial scan; ideal QM Rabi contrast, spin-½ precession, coherent-oscillator quadrature and two-state interference contrast. The interface presents **10 comparison presets**, independent R and Q selectors, the mathematical expression being sampled, its meaning and its scope restrictions, and a scalar RMS-profile comparison that explicitly disclaims any equation-isomorphism inference.
+
+See [EQUATION_LIBRARY.md](EQUATION_LIBRARY.md) for precise formulas, chosen units/parameters, epistemic restrictions, and the executed test matrix. The labels denote **chosen representatives**, not arbitrary numerical solutions of Yang–Mills/Einstein/Schrödinger systems. The Whirligig sphere/torus, common-clock rolling, sliding crossbar, and one-elbow tracer should remain unchanged when changing the inputs.
+
+Source committed to HsH in `0cf005a95051ce046be71a04f01c60a3a166ad1e`. Confirmed via independent GitHub readback. JavaScript numerical checks executed for every choice on R and Q, and for all ten pair presets, checking hemisphere signs, elbow/bar orthogonality and torus intersections. Live browser QA and live ChatGPT Sites publication remain **not verified**.
+
+**Sites builder instruction:** Replace the live application at the EXISTING `/laboratory/whirligig/` route, keeping the homepage links and editorial design. Expose the R/Q selectors and scope descriptions and preserve functional SVG export. Do not mistake the updated GitHub document for an actual Sites deployment. After loading the served HTML, verify default selection, a gauge/GR cross-sector pair, a QM pair, manual equation choice, swap, R/Q display gains, Q phase, and mobile controls. Report the confirmed Sites URL/version and exact failures.
