@@ -88,6 +88,7 @@ def make_catalog(document: dict) -> dict:
     if not isinstance(document.get("curation"), dict):
         raise ValueError("Refuse uncurated conversation list.")
     rows, counts, rejected = [], set(), {}
+    rejection_reasons, rejection_corpora = {}, {}
     for source in document["conversations"]:
         if not isinstance(source, dict):
             rejected["not_an_object"] = rejected.get("not_an_object", 0) + 1
@@ -102,6 +103,18 @@ def make_catalog(document: dict) -> dict:
                 and corpus in ACCEPTED_CORPORA and url
                 and path_parts and path_parts == url_parts):
             rejected["not_publicly_linkable"] = rejected.get("not_publicly_linkable", 0) + 1
+            # Aggregate-only diagnosis: never print rejected titles, paths or URLs.
+            if not url:
+                reason = "url_unavailable_or_unsafe"
+            elif not path_parts:
+                reason = "source_path_unavailable_or_unsafe"
+            elif path_parts != url_parts:
+                reason = "url_path_mismatch"
+            else:
+                reason = "other_invalid_metadata"
+            rejection_reasons[reason] = rejection_reasons.get(reason, 0) + 1
+            scope = corpus if corpus in ACCEPTED_CORPORA else "other"
+            rejection_corpora[scope] = rejection_corpora.get(scope, 0) + 1
             continue
         if ident in counts:
             rejected["duplicate_id"] = rejected.get("duplicate_id", 0) + 1
@@ -177,6 +190,8 @@ def make_catalog(document: dict) -> dict:
         ],
         "catalog_entries": len(rows),
         "catalog_rejections": rejected,
+        "catalog_rejection_reasons": rejection_reasons,
+        "catalog_rejections_by_corpus": rejection_corpora,
         "source_curation": {
             "source": document["curation"].get("source"),
             "sha256_16": document["curation"].get("sha256_16"),
@@ -207,6 +222,8 @@ def main() -> None:
         "bytes": len(raw),
         "archives": output["archives_searched"],
         "rejections": output["catalog_rejections"],
+        "rejection_reasons": output["catalog_rejection_reasons"],
+        "rejected_corpora": output["catalog_rejections_by_corpus"],
         "output": str(args.output),
         "coverage_status": "partial",
     }))
