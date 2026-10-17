@@ -2,7 +2,7 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-17T10:39:10.013583+00:00`
+- Generated: `2026-10-17T10:42:07.147933+00:00`
 - Display timezone: `America/New_York`
 - Dated conversation exports: **786**
 - Skipped non-conversation or unparseable files: **358**

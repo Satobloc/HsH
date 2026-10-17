@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-10-17T10:38:26.064743+00:00",
+  "generated_at_utc": "2026-10-17T10:41:25.461635+00:00",
   "root": "DEVELOPMENT_FULL_CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 773,
-    "skipped": 358,
-    "renamed": 13
+    "unchanged": 786,
+    "skipped": 358
   },
   "records": [
     {
@@ -2315,53 +2314,133 @@
       ]
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Create UI Gallery — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Create UI Gallery — raw (1).json",
-      "start_local": "2026-10-15T20:38:14.913000-04:00",
-      "end_local": "2026-10-17T06:19:36.500642-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw (1).json",
+      "start_local": "2025-07-14T07:02:10.546000-04:00",
+      "end_local": "2026-10-16T10:21:31.346486-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 118,
-      "status": "renamed",
+      "message_count": 35,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Create UI Gallery — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.16•Create UI Gallery — raw.json",
-      "start_local": "2026-10-15T20:38:14.913000-04:00",
-      "end_local": "2026-10-16T07:55:10.398514-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw.json",
+      "start_local": "2025-07-14T07:02:10.546000-04:00",
+      "end_local": "2026-10-16T10:21:31.346486-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 115,
-      "status": "renamed",
+      "message_count": 35,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Mercer Free Build — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (1).json",
-      "start_local": "2026-10-11T07:53:19.794942-04:00",
-      "end_local": "2026-10-17T04:00:33.942622-04:00",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
+      "start_local": "2026-09-25T07:52:14.547646-04:00",
+      "end_local": "2026-10-17T04:00:54.230180-04:00",
       "timestamp_source": "message.create_time",
-      "message_count": 401,
-      "status": "renamed",
+      "message_count": 707,
+      "status": "unchanged",
       "warnings": []
     },
     {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Mercer Free Build — raw (2).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (2).json",
-      "start_local": "2026-10-11T07:53:19.794942-04:00",
-      "end_local": "2026-10-17T04:00:33.942622-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 401,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Meridian Free Build — raw (2).json",
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.10•26.10.17•Meridian Free Build — raw (2).json",
       "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.10•26.10.17•Meridian Free Build — raw (2).json",
       "start_local": "2026-10-10T11:26:42.644867-04:00",
       "end_local": "2026-10-17T05:12:18.855648-04:00",
       "timestamp_source": "message.create_time",
       "message_count": 396,
-      "status": "renamed",
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (1).json",
+      "start_local": "2026-10-11T07:53:19.794942-04:00",
+      "end_local": "2026-10-17T04:00:33.942622-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 401,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (2).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Mercer Free Build — raw (2).json",
+      "start_local": "2026-10-11T07:53:19.794942-04:00",
+      "end_local": "2026-10-17T04:00:33.942622-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 401,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Ravel Free Build — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Ravel Free Build — raw (1).json",
+      "start_local": "2026-10-11T00:48:17.167498-04:00",
+      "end_local": "2026-10-17T04:01:31.457682-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 376,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Ohio Democratic Polling Numbers — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Ohio Democratic Polling Numbers — raw.json",
+      "start_local": "2026-10-15T22:06:44.656795-04:00",
+      "end_local": "2026-10-15T22:14:22.666863-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Predict the Song Style — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Predict the Song Style — raw (1).json",
+      "start_local": "2026-10-15T09:07:22.121000-04:00",
+      "end_local": "2026-10-15T20:46:19.382722-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 102,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Suno prompt writing — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Suno prompt writing — raw.json",
+      "start_local": "2026-10-15T08:34:09.840535-04:00",
+      "end_local": "2026-10-15T08:34:16.023069-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 4,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.16•Create UI Gallery — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.16•Create UI Gallery — raw.json",
+      "start_local": "2026-10-15T20:38:14.913000-04:00",
+      "end_local": "2026-10-16T07:55:10.398514-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 115,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Create UI Gallery — raw (1).json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Create UI Gallery — raw (1).json",
+      "start_local": "2026-10-15T20:38:14.913000-04:00",
+      "end_local": "2026-10-17T06:19:36.500642-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 118,
+      "status": "unchanged",
+      "warnings": []
+    },
+    {
+      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Naming A New Feeling — raw.json",
+      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Naming A New Feeling — raw.json",
+      "start_local": "2026-10-15T18:39:29.886485-04:00",
+      "end_local": "2026-10-17T06:17:37.062820-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 904,
+      "status": "unchanged",
       "warnings": []
     },
     {
@@ -2387,86 +2466,6 @@
       "warnings": [
         "Extra data: line 20 column 14 (char 647)"
       ]
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming A New Feeling — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.17•Naming A New Feeling — raw.json",
-      "start_local": "2026-10-15T18:39:29.886485-04:00",
-      "end_local": "2026-10-17T06:17:37.062820-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 904,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Ohio Democratic Polling Numbers — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Ohio Democratic Polling Numbers — raw.json",
-      "start_local": "2026-10-15T22:06:44.656795-04:00",
-      "end_local": "2026-10-15T22:14:22.666863-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Predict the Song Style — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Predict the Song Style — raw (1).json",
-      "start_local": "2026-10-15T09:07:22.121000-04:00",
-      "end_local": "2026-10-15T20:46:19.382722-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 102,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Ravel Free Build — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11•26.10.17•Ravel Free Build — raw (1).json",
-      "start_local": "2026-10-11T00:48:17.167498-04:00",
-      "end_local": "2026-10-17T04:01:31.457682-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 376,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Space Shuttle Roderick — Tern — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25•26.10.17•Space Shuttle Roderick — Tern — raw (1).json",
-      "start_local": "2026-09-25T07:52:14.547646-04:00",
-      "end_local": "2026-10-17T04:00:54.230180-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 707,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Storytelling Voice Analysis — raw (1).json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw (1).json",
-      "start_local": "2025-07-14T07:02:10.546000-04:00",
-      "end_local": "2026-10-16T10:21:31.346486-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 35,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Storytelling Voice Analysis — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14•26.10.16•Storytelling Voice Analysis — raw.json",
-      "start_local": "2025-07-14T07:02:10.546000-04:00",
-      "end_local": "2026-10-16T10:21:31.346486-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 35,
-      "status": "renamed",
-      "warnings": []
-    },
-    {
-      "old_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/Suno prompt writing — raw.json",
-      "new_path": "DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15•26.10.15•Suno prompt writing — raw.json",
-      "start_local": "2026-10-15T08:34:09.840535-04:00",
-      "end_local": "2026-10-15T08:34:16.023069-04:00",
-      "timestamp_source": "message.create_time",
-      "message_count": 4,
-      "status": "renamed",
-      "warnings": []
     },
     {
       "old_path": "DEVELOPMENT_FULL_CONVOS/Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md",
