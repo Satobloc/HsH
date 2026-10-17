@@ -114,3 +114,20 @@ The explicit scalar-to-sphere *azimuth adapter* uses a small bounded periodic ph
 - The historical equal sphere/tube diameter is preserved; only the **selected-point** rolling condition is modeled due to the nonisolated contact set at equal radii.
 
 **Site action:** Replace the current implementation at the existing `/laboratory/whirligig/` route with the latest GitHub `index.html`. Keep the 14-equation selection library and existing links. Verify in a live browser that a visibly advancing colored path appears **on the sphere** behind each sliding follower while the bar sweeps, without a second projector. Confirm the new readout exposes distinct `R` and `Q` loop-local contact parameters. Report the deployed Sites version and live URL only after successful readback; no live deployment is established by this GitHub commit.
+
+
+## 2026-10-17 | Visible-motion and playback repair
+
+Nathan reported that the laboratory appeared not to be doing anything after the new sweep-plane contact algorithm. The actual repository script was fetched and its animation callback executed repeatedly in a stubbed JavaScript canvas/DOM. Before this patch it already advanced the sweep and the independently solved input-local R/Q contact parameters, but movement in the torus-wide camera was relatively hard to discern and animation status was not clear. **The live Sites page could not be accessed with available browsing tools, so whether that deployment was stale or blocked remains unresolved.**
+
+The browser code was updated in commit `9125ad38fc1194f724c68065aff5516077c3a848`:
+
+- Added a prominent fixed **sphere BODY-frame close-up**, with both complete stationary R/Q tracks and independently moving selected contacts; the moving telescoping crossbar and its perpendicular elbow direction are drawn there separately from the torus-wide view.
+- Added high-contrast contact markers and per-frame R and Q curve parameter readouts, plus live sweep angle.
+- Added explicit play/pause/scrub status and a playback speed control (0.25×–4×, default 1.5×).
+- The browser output continues to use a **single** gimbal elbow ray for the torus-wall intersection, preserving the R/Q input selectors and their declared representations. The close-up elbow arm length is **schematic**: the torus-reaching actual ray is shown in the whole-mechanism view.
+- Geometry and rolling constraints were not changed in this patch.
+
+**Executed checks:** After a GitHub fresh-file read, the modified script passed JavaScript syntax and ran in a stubbed DOM/canvas. Across 20 requestAnimationFrame callbacks, both R and Q input-local curve positions advanced, readouts changed, and canvases drew. After pause, the phase did not advance. Scrubbing to 0.5 set the correct phase and the speed control displayed its chosen value. These are **not** full browser visual or deployed-site checks.
+
+**Builder handoff:** Load the updated HsH file at the **existing** `/laboratory/whirligig/` website route; confirm the new fixed-body close-up, live readout and speed control appear. If absent, the website is still serving an older build. Test real browser animation, drag camera, pause, scrubbing and mobile frame rate before marking published. Report served asset revision and verified URL; do not infer Sites deployment from GitHub publication.
