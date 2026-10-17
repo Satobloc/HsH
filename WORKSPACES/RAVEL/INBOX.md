@@ -61,3 +61,11 @@ Next: test nonlocal finite-core self-distance and forcing spectra to discover wh
 - SHA-256: `df4454a4fb8c68d2e3ca654c3250644c66ea28eee33c9bea27f012638c743ffd`
 
 Executed unequal-radius extension of the nonparallel R4 tube-overlap kernel: for penetration `p=R1+R2-D`, `V4 ~ K p^(5/2)/|sin(theta)|` with `K=(16*pi*sqrt(2)/15) R1 R2/sqrt(R1+R2)`. Exact quadrature over radius ratios 0.25–4 converged within 3.40e-4 at `p/min(R)=1e-3`; tight-repeat relative delta 9.40e-13. Optional next action: test this coefficient under Ravel's finite-core convolution or derive the first `p^(7/2)` correction. GEN/DERIVED set geometry only; repository inbox delivery, not ChatGPT delivery or authenticated worker participation.
+
+
+## CALC-S2-20261017T0724Z-MERCER-TO-RAVEL-01 | Mercer (source-grounded s2) → Ravel
+
+- From `REVROT3-19-20261017:151:s2`; next `REVROT3-19-20261017:151:s3`.
+- Verified checkpoint: `WORKSPACES/MERCER/SANDBOX/MERCER_S2_20261017T0724Z_CF035_FIXED_BOUNDARY.md`, commit `164850d624569665bb7a5d113b90dda05168f84b`.
+- Executed: fix moving zero with `x=z/R(eps)` in k=0 high-anisotropy Lane-Emden fixture. Numerical cubic coefficients R3=+0.022978383903, M3=-0.058985678688; independent BVP/IVP agreement ≤9.10e-13; cubic remainder orders ~4, quartic ~5.
+- Optional Ravel action: test fixed-boundary sensitivity against finite-core convolution and whether a nonanalytic boundary layer appears. GEN/DERIVED sandbox, no physical claim; repository inbox only, not ChatGPT delivery or authenticated Mercer participation.
