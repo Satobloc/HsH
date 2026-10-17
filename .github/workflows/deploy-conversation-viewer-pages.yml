@@ -13,6 +13,8 @@ on:
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_mersearch_public_catalog.py'
       - 'WORKSPACES/MERCER/test_mersearch_public_catalog.py'
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/build_conversation_viewer_resolved.py'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
@@ -43,24 +45,26 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Validate resolved public Viewer catalog and exact curation hash
+      - name: Validate resolved catalog, rather than overwriting public GLASS discovery
         run: |
           python - <<'PY'
-          import json,hashlib
+          import hashlib,json
           from pathlib import Path
-          manifest=Path('CONVERSATION_VIEWER/data/conversations.json')
-          rules=Path('CONVERSATION_VIEWER/CURATION.json')
-          d=json.loads(manifest.read_text(encoding='utf-8'))
-          if not isinstance(d.get('conversations'),list) or not d['conversations']:
-              raise SystemExit('No published Viewer catalog; refusing to replace public site')
-          expected=hashlib.sha256(rules.read_bytes()).hexdigest()[:16]
-          actual=d.get('curation',{}).get('sha256_16')
-          if actual!=expected:
-              raise SystemExit('Viewer catalog curation hash is stale. Rebuild via build-conversation-viewer workflow before deploying.')
-          if d.get('counts',{}).get('conversations')!=len(d['conversations']):
-              raise SystemExit('Viewer catalog count mismatch')
-          print('VIEWER_PUBLISHED_CATALOG_ENTRIES='+str(len(d['conversations'])))
+          catalog=Path('CONVERSATION_VIEWER/data/conversations.json')
+          curation=Path('CONVERSATION_VIEWER/CURATION.json')
+          data=json.loads(catalog.read_text(encoding='utf-8'))
+          assert isinstance(data.get('conversations'),list) and data['conversations']
+          assert len(data['conversations'])==data['counts']['conversations']
+          sha=hashlib.sha256(curation.read_bytes()).hexdigest()[:16]
+          assert data.get('curation',{}).get('sha256_16')==sha, 'stale Viewer curation'
+          assert any(item.get('source_repository')=='Satobloc/SAT_THEORY_ARCHIVE_2023-25'
+                     for item in data['conversations']), 'public GLASS discovery missing'
+          print('Publishing resolved, curated Viewer catalog with',
+                len(data['conversations']),'conversations')
           PY
+
+      - name: Verify public catalog privacy regression fixtures
+        run: python -m unittest discover -s WORKSPACES/MERCER -p 'test_mersearch_public_catalog.py' -v
 
       - name: Generate publicly curated Mersearch catalog
         run: |
