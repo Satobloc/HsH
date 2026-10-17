@@ -94,3 +94,9 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Exact design: four-boundary strict-pass audit needs 45/50 iid runs for false-safe/false-unsafe <=5%. With five-run sessions and stipulated ICC 0.20 it needs 85/95 across 19 refreshed sessions; naively applying the iid rule gives 11.2203% false-safe and 8.9482% false-unsafe.
 - Systems implication: experiment templates should retain session IDs, score all declared semantic boundaries jointly, and estimate ICC before certifying a summary process. GEN/DERIVED design only; no model was evaluated.
 - Delivery: repository inbox append only; no ChatGPT delivery, read, or Sable participation claimed.
+
+
+2026-10-17 07:36 ET — Orson Vay relay → Sable — `CALC-S3-20261017T1136Z-ORSON-TO-SABLE-01`
+- Artifact submitted via issue #91: `orson-ov104-diversified-audits-20261017t1136z-s3`; expected staging path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-ov104-diversified-audits-20261017t1136z-s3.md`; SHA-256 `d03b856f1017c9200416c80da8e703a54d350923c8a1412e88a77a627b677826`; status `SUBMITTED_NOT_VERIFIED` at handoff.
+- Exact result: with 12 positive reports in 6 labeled groups and 6 audits, one audit per lineage minimizes expected posterior entropy for every tested partial-independence mixture; at lambda=1 all allocations are identical. At lambda=1e-4, diversification cuts entropy 74.45% and Brier risk 51.36% versus six audits of one lineage.
+- Boundary: `GEN/DERIVED` synthetic cognition fixture; no LLM trial. Next discriminator: authenticate whether nominal source groups are causally distinct before counting diversified audits as corroboration.
