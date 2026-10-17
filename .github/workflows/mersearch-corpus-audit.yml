@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: [mersearch-chronology-20261007]
-    paths: ['.github/workflows/mersearch-corpus-audit.yml']
+    paths:
+      - '.github/workflows/mersearch-corpus-audit.yml'
 permissions:
   contents: read
 jobs:
@@ -16,8 +17,12 @@ jobs:
           path: engine
           filter: blob:none
           sparse-checkout: |
-            tools/search_archive_content.py
-            tools/mersearch_chronology.py
+            /tools/search_archive_content.py
+            /tools/conversation_json_sniff.py
+            /tools/mersearch_chronology.py
+            /tools/mersearch_math.py
+            /tools/mersearch_math_genealogy.py
+          sparse-checkout-cone-mode: false
       - uses: actions/checkout@v4
         with:
           repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
@@ -33,13 +38,59 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Inventory and bounded search
+      - name: Install symbolic parser for bounded mathematical search
+        run: python -m pip install 'sympy>=1.12,<2'
+      - name: Three-root search and restricted-output validation
+        shell: bash
         run: |
           mkdir -p audit
           python engine/tools/search_archive_content.py --archives-root . --coverage > audit/checkouts.json
-          python engine/tools/search_archive_content.py archive hsh-main resources --expr '"holonomy"' --max-bytes 1000000 --limit 5 --out audit/search
-      - uses: actions/upload-artifact@v4
+          # Full private search results are transient and must never enter public artifacts.
+          python engine/tools/search_archive_content.py archive hsh-main resources \
+            --expr '"holonomy"' --max-bytes 1000000 --limit 5 --out /tmp/mersearch-audit-private
+          python - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          results=Path('/tmp/mersearch-audit-private/SEARCH_RESULTS.json')
+          source=json.loads(results.read_text(encoding='utf-8'))
+          wanted=('Satobloc/SAT_THEORY_ARCHIVE_2023-25','Satobloc/HsH','Satobloc/HSH_RESOURCES')
+          coverage=source.get('coverage_by_repository',{})
+          if any(name not in coverage for name in wanted):
+              raise SystemExit('No per-repository coverage: cannot claim three-root audit')
+          if not coverage['Satobloc/HSH_RESOURCES'].get('files_discovered',0):
+              raise SystemExit('Resources root was not actually inventoried')
+          if not coverage['Satobloc/HSH_RESOURCES'].get('records_scanned',0):
+              raise SystemExit('Resources root yielded no parsed records')
+          refs={name:subprocess.check_output(['git','-C',dir,'rev-parse','HEAD'],text=True).strip()
+                for name,dir in (('HsH-engine','engine'),
+                  ('SAT_THEORY_ARCHIVE_2023-25','archive'),
+                  ('HsH-main','hsh-main'),
+                  ('HSH_RESOURCES','resources'))}
+          report={
+            'schema':'mersearch-three-root-coverage-audit-v1',
+            'privacy':'aggregate-only; no private paths, excerpts, matches or terms',
+            'source_commits':refs,
+            'scope':'bounded one-megabyte-per-file search fixture, not complete archive coverage',
+            'coverage_status_scope':source.get('coverage_status_scope',''),
+            'content_coverage_status':source.get('content_coverage_status',''),
+            'coverage_by_repository':{name:coverage[name] for name in wanted},
+            'content_coverage_gaps':source.get('content_coverage_gaps',{}),
+            'coverage_reconciliation':source.get('coverage_reconciliation',{}),
+            'search_result_digest_sha256':hashlib.sha256(results.read_bytes()).hexdigest()
+          }
+          if not all(report['coverage_reconciliation'].get(k) for k in ('files_match','records_match','matches_match')):
+              raise SystemExit('Per-repository aggregation did not reconcile')
+          Path('audit/safe_aggregate_summary.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+          print('PRIVATE_SOURCE_BOUNDARY_RETAINED=aggregate only')
+          print('THREE_ROOT_AUDIT_PASSED')
+          PY
+      - name: Upload only redacted aggregate metadata
+        uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: mersearch-corpus-audit
-          path: audit
+          name: mersearch-three-root-safe-aggregate
+          path: |
+            audit/checkouts.json
+            audit/safe_aggregate_summary.json
+          if-no-files-found: warn
+          retention-days: 7
