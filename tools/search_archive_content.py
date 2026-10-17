@@ -25,6 +25,19 @@ from mersearch_chronology import Chronology, VERSIONS, eras, message_date
 import mersearch_math as MM
 import mersearch_math_genealogy as MG
 
+try:
+ from .conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
+except ImportError:
+ try:
+  from conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
+ except ModuleNotFoundError:
+  # Historical acceptance harness imports this file directly with
+  # importlib.spec_from_file_location, outside either Python package.
+  import sys
+  sys.path.insert(0, str(Path(__file__).resolve().parent))
+  from conversation_json_sniff import is_json_document_candidate, PLAINTEXT_JSON_SUFFIXES
+
+
 TEXT_EXTS={".txt",".md",".csv",".tsv",".yaml",".yml",".py",".js",".html",".htm",".xml",".tex",".rst"}
 DEFAULT_EXCLUDES={".git","node_modules","__pycache__",".venv","venv","QUARANTINE","PRIOR_ART"}
 TOOL_NAME="Mersearch_1.3-math-dev"
@@ -116,13 +129,19 @@ def iter_json(obj:Any,path:Path,pointer:str="$")->Iterable[Record]:
  elif isinstance(obj,str) and norm(obj):yield Record(str(path),"json-scalar",obj,path.stem,locator=pointer)
 def iter_records(path:Path)->Iterable[Record]:
  ext=path.suffix.lower()
- if ext==".json":
+ if is_json_document_candidate(path):
   try:data=json.loads(path.read_text(encoding="utf-8-sig"))
-  except:return
-  conv=list(iter_conversation(data,path) or [])
-  if not conv:conv=list(iter_notebooklm(data,path) or [])
-  yield from (conv if conv else iter_json(data,path));return
- if ext in TEXT_EXTS:
+  except (OSError,UnicodeError,json.JSONDecodeError):
+   if ext==".json":return
+   # Malformed JSON-shaped plaintext remains searchable as ordinary text.
+  else:
+   if isinstance(data,list) and len(data)==1 and isinstance(data[0],dict):
+    data=data[0]
+   conv=list(iter_conversation(data,path) or [])
+   if not conv:conv=list(iter_notebooklm(data,path) or [])
+   yield from (conv if conv else iter_json(data,path))
+   return
+ if ext in TEXT_EXTS or (ext in PLAINTEXT_JSON_SUFFIXES and ext!=".json"):
   try:lines=path.read_text(encoding="utf-8-sig",errors="replace").splitlines()
   except:return
   for n,line in enumerate(lines,1):
@@ -343,7 +362,7 @@ def permitted(roots:list[Path],ex:set[str],max_bytes:int,scan_stats:Counter|None
    seen.add(key)
    if any(x in ex for x in p.parts):
     stats["excluded_by_policy"]+=1;local["excluded_by_policy"]+=1;continue
-   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"}:
+   if p.suffix.lower() not in TEXT_EXTS|{".json",".pdf"} and not is_json_document_candidate(p):
     stats["unsupported_extension"]+=1;local["unsupported_extension"]+=1;continue
    try:
     size=p.stat().st_size
