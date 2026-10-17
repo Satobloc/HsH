@@ -55,3 +55,24 @@ Browser mathematical smoke test executed in a stubbed JS canvas/document runtime
 **Browser file commit:** `4d4aeeee0f1361182e02afd2d0ad356ba86ea5fa`.
 
 **Builder action:** Replace existing deployed `/laboratory/whirligig/` with this corrected repo instrument, revise homepage heading and copy to 'Whirligig R/Q: Two Equations, One Machine', and verify live behavior on mobile and desktop. Do not keep the old 'north/south' or free-floating decorative torus animation, and do not claim the site deployment happened from a repository write.
+
+
+## 2026-10-17 | Sliding followers and single projecting elbow (superseding prior browser mechanics)
+
+Nathan Direct correction: The crossbar is **not fastened to fixed points** on two source curves. Two contacts traverse the R and Q loops simultaneously as the ball rolls. Their moving positions determine the variable-length crossbar and its midpoint W_obble. The **gimbal elbow itself is the only projector**; it remains perpendicular to the instantaneous crossbar in W_iggle and reaches the torus wall to draw Curvy Lisa. There must be no second independently aimed pen or projector. Physical roll, ball orientation, input followers and elbow rotation use one minimum-return clock.
+
+Browser implementation from commit 8e0be905a7a95fd7d1c6e9fdba5f8e7e06d8c8a7:
+- Independent closed equation loops on east/west body hemispheres, with each loop parameterized by its own arc length but both followers driven by one common normalized phase and lap count.
+- Sphere rolling gear (major+minor)/minor, with sphere radius equal to tube radius and its ball-center path inside the torus.
+- Telescopic crossbar spanning the two *traveling* contacts, not permanently attached to either curve sample.
+- Projecting gimbal elbow constrained perpendicular to the connector. Its angle is modulated by the difference of two local signed-turning/curvature surrogates; this modulation is an explicit browser-model choice, not a deduced torque law.
+- First forward torus-wall intersection of the gimbal elbow is the one and only output Curvy Lisa. No separate pen and no reverse-ray fallback.
+- Reduced rational rolling gearing on the controls' 0.05-unit radius grid sets the minimum common torus-circuit return, assuming the source followers and elbow turn whole-number revolutions per torus circuit.
+
+Executed numerical checks in a JavaScript stub DOM/canvas runtime, not actual browser deployment:
+- Default major 1.65, minor=ball 0.55: 1,651/1,651 elbow-wall intersections; E/W violations 0; maximum unit connector/elbow dot product 3.2e-16; maximum connector-midpoint offset 0.0934 sphere radii; changing R or Q independently changed the traced geometry. The default selected-contact rolling ratio is 4, satisfying the historical even gear condition.
+- Alternate major 1.60, minor=ball 0.55: reduced rolling ratio 43/11 and minimal common return 11 torus circuits; 1,651/1,651 hits; max perpendicularity residual below 2.8e-16; midpoint offset below 0.094 sphere radii; start-end torus trace seam below 3e-14. This alternate ratio does *not* satisfy even gear per individual torus circuit.
+
+Boundaries: equal-radii contact is nonisolated, so selected-point rolling does not establish global no-slip. The gimbal mount, force law and curvature-to-elbow transfer coefficient are engineering choices still to be derived. Minimum common return applies to this rational-gear / integer-lap configuration, not arbitrary nonperiodic equations; a closed output does not prove equation equivalence.
+
+Sites builder: update the EXISTING /laboratory/whirligig/ route and navigation with the latest file, remove old two-member projector drawings, show both moving contact traces and common-return diagnostics, and verify executable behavior on the published site. Repository publication does not prove live Sites publication.
