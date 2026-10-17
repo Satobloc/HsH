@@ -89,3 +89,28 @@ See [EQUATION_LIBRARY.md](EQUATION_LIBRARY.md) for precise formulas, chosen unit
 Source committed to HsH in `0cf005a95051ce046be71a04f01c60a3a166ad1e`. Confirmed via independent GitHub readback. JavaScript numerical checks executed for every choice on R and Q, and for all ten pair presets, checking hemisphere signs, elbow/bar orthogonality and torus intersections. Live browser QA and live ChatGPT Sites publication remain **not verified**.
 
 **Sites builder instruction:** Replace the live application at the EXISTING `/laboratory/whirligig/` route, keeping the homepage links and editorial design. Expose the R/Q selectors and scope descriptions and preserve functional SVG export. Do not mistake the updated GitHub document for an actual Sites deployment. After loading the served HTML, verify default selection, a gauge/GR cross-sector pair, a QM pair, manual equation choice, swap, R/Q display gains, Q phase, and mobile controls. Report the confirmed Sites URL/version and exact failures.
+
+
+## 2026-10-17 | Mechanical correction: bar sweep first, curve intersections second
+
+**Nathan Direct, superseding the earlier synchronized-arc-length endpoint adapter:** Advancing two selected curve parameters and connecting their positions is not sufficient. This visually and kinematically locks the bar to a prescribed pair of curve points. Instead, the rotating crossbar/sweep-bearing motion must establish the shared scanning constraint, and the two curve contacts must be found **as intersections** of that constraint with R and Q. These two contacts slide along their separate E/W input curves on the moving sphere; their positions and curvature response define the moving bar and its perpendicular **single gimbal elbow**, which alone traces Curvy Lisa on the torus.
+
+**Updated browser code:** commit `635f12b0e80117acd47072064a55d4e60404cea7`. The algorithm now:
+
+1. Builds full closed E/W body-sphere curve geometries for R and Q.
+2. Advances **one sweep plane** through a prescribed whole-number angular cycle, locked to the master physical rolling parameter `psi` and the previously established minimum common return.
+3. Solves each loop's crossing with its own corresponding meridian of that plane by **bracketed bisection on the loop's monotone azimuth coordinate**; the two loop-local position parameters `tR` and `tQ` are **computed outputs**, and can differ.
+4. Calculates the variable-length crossbar from those solved contacts, then a perpendicular elbow direction at its midpoint with input-curve signed-turning modulation.
+5. Intersects the same elbow ray with the torus wall. It does **not** append a separate pen or prescribe a pair of input contact indices.
+6. Renders the complete source loops as subdued tracks and the already traversed portions as distinct bright R/Q track segments, demonstrating follower motion in the ball's own coordinates. Readout shows the current sweep parameter and the separately solved local R/Q parameters.
+
+The explicit scalar-to-sphere *azimuth adapter* uses a small bounded periodic phase warp plus a weak equation-dependent term. This is an admitted **representation choice**, not a source-derived physical contact law. The moving meridian-plane sweep is an **engineering reconstruction** of the bar follower, not yet a demonstrated full mechanical roller/cam/linkage solution. No bearing-force equations, physical minimization law or proven GR/QM/gauge isomorphism is asserted.
+
+**Executed tests, in a stubbed JavaScript DOM/canvas, not a real browser:**
+
+- 8 configurations (harmonic default; U(1)/SU(2), SU(2)/SU(3), GR waves, GR metric examples, QM, and GR/QM/SU(3) cross-sector examples), each with 1,651 samples: 100% torus-wall intersections, zero east/west violations, maximum normalized connector/elbow perpendicularity error below `4.2e-16`, maximum meridional-sweep intersection residual below `2e-12`.
+- Both contacts advance through all 1,650 successive discrete intervals; their computed input-local curve parameters differ during the cycle, demonstrating separate solved intersections rather than copied fixed point samples.
+- Maximum crossbar-midpoint offset among tested cases below 0.104 sphere radii. Composite response to changing the Q equation is nonzero. Endpoint seam discrepancy around `6e-16` to `1.6e-15` in test coordinate units.
+- The historical equal sphere/tube diameter is preserved; only the **selected-point** rolling condition is modeled due to the nonisolated contact set at equal radii.
+
+**Site action:** Replace the current implementation at the existing `/laboratory/whirligig/` route with the latest GitHub `index.html`. Keep the 14-equation selection library and existing links. Verify in a live browser that a visibly advancing colored path appears **on the sphere** behind each sliding follower while the bar sweeps, without a second projector. Confirm the new readout exposes distinct `R` and `Q` loop-local contact parameters. Report the deployed Sites version and live URL only after successful readback; no live deployment is established by this GitHub commit.
