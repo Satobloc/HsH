@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-17T04:40:22.351661+00:00`
+- Generated: `2026-10-17T10:39:10.013583+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **773**
-- Skipped non-conversation or unparseable files: **356**
+- Dated conversation exports: **786**
+- Skipped non-conversation or unparseable files: **358**
 - Exact duplicate-content groups: **94**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -207,6 +207,8 @@
 | 2025-07-01 | 2026-06-01 | [Podcast Analysis Summary](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_2/25.07.01%E2%80%A226.06.01%E2%80%A2Podcast%20Analysis%20Summary%20%E2%80%94%20raw.json) | `SAT_CONVOS_2` | 14 |  | 1 user/assistant messages lacked timestamps |
 | 2025-07-03 | 2026-07-21 | [Museum Anecdote Network](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/25.07.03%E2%80%A226.07.21%E2%80%A2Museum%20Anecdote%20Network%20%E2%80%94%20raw.json) | `SAT_CONVOS_8` | 216 |  |  |
 | 2025-07-11 | 2025-07-12 | [Capital de Colombia](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.07.11%E2%80%A225.07.12%E2%80%A2Capital%20de%20Colombia%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 72 |  |  |
+| 2025-07-14 | 2026-10-16 | [Storytelling Voice Analysis — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14%E2%80%A226.10.16%E2%80%A2Storytelling%20Voice%20Analysis%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 35 |  |  |
+| 2025-07-14 | 2026-10-16 | [Storytelling Voice Analysis](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/25.07.14%E2%80%A226.10.16%E2%80%A2Storytelling%20Voice%20Analysis%20%E2%80%94%20raw.json) | `CONVOS_23` | 35 |  |  |
 | 2025-07-25 | 2026-09-12 | [Concise Persona Guidelines](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_16/25.07.25%E2%80%A226.09.12%E2%80%A2Concise%20Persona%20Guidelines%20%E2%80%94%20raw.json) | `SAT_CONVOS_16` | 26 |  |  |
 | 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_1/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_1` | 4 | D76 |  |
 | 2025-08-12 | 2025-08-12 | [Rating the SAT theory](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/25.08.12%E2%80%A225.08.12%E2%80%A2Rating%20the%20SAT%20theory%20%E2%80%94%20raw.json) | `SAT_CONVOS_10` | 4 | D76 |  |
@@ -784,6 +786,7 @@
 | 2026-09-24 | 2026-09-24 | [Access Branched Chat](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.24%E2%80%A226.09.24%E2%80%A2Access%20Branched%20Chat%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 47 | D21 |  |
 | 2026-09-24 | 2026-09-24 | [Website Design Direction](../DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.24%E2%80%A226.09.24%E2%80%A2Website%20Design%20Direction%20%E2%80%94%20raw.json) | `30SEP26_DUMP` | 2 |  |  |
 | 2026-09-25 | 2026-10-15 | [Space Shuttle Roderick — Tern](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.25%E2%80%A226.10.15%E2%80%A2Space%20Shuttle%20Roderick%20%E2%80%94%20Tern%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 612 |  |  |
+| 2026-09-25 | 2026-10-17 | [Space Shuttle Roderick — Tern — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.25%E2%80%A226.10.17%E2%80%A2Space%20Shuttle%20Roderick%20%E2%80%94%20Tern%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 707 |  |  |
 | 2026-09-28 | 2026-09-28 | [Image Prompt Construction](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.28%E2%80%A226.09.28%E2%80%A2Image%20Prompt%20Construction%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 305 |  |  |
 | 2026-09-30 | 2026-10-01 | [Conga Ledger — Kestrel VI](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.09.30%E2%80%A226.10.01%E2%80%A2Conga%20Ledger%20%E2%80%94%20Kestrel%20VI%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 124 |  |  |
 | 2026-10-05 | 2026-10-07 | [Meridian Free Build](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.10.05%E2%80%A226.10.07%E2%80%A2Meridian%20Free%20Build%20%E2%80%94%20raw.json) | `7OCT26_A_GRADE_MINEABLES` | 72 |  |  |
@@ -792,12 +795,22 @@
 | 2026-10-06 | 2026-10-12 | [Orson Free Build](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.06%E2%80%A226.10.12%E2%80%A2Orson%20Free%20Build%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 616 |  |  |
 | 2026-10-06 | 2026-10-07 | [Check mass ratio calculation](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.10.06%E2%80%A226.10.07%E2%80%A2Check%20mass%20ratio%20calculation%20%E2%80%94%20raw.json) | `MOSTLY_EARLY_NLM` | 42 |  |  |
 | 2026-10-10 | 2026-10-15 | [Meridian Free Build — raw (1).json](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.10%E2%80%A226.10.15%E2%80%A2Meridian%20Free%20Build%20%E2%80%94%20raw%20%281%29.json) | `SAT_CONVOS_22` | 286 |  |  |
+| 2026-10-10 | 2026-10-17 | [Meridian Free Build — raw (2).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.10%E2%80%A226.10.17%E2%80%A2Meridian%20Free%20Build%20%E2%80%94%20raw%20%282%29.json) | `CONVOS_23` | 396 |  |  |
 | 2026-10-11 | 2026-10-15 | [Ravel Free Build](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Ravel%20Free%20Build%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 295 |  |  |
+| 2026-10-11 | 2026-10-17 | [Ravel Free Build — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Ravel%20Free%20Build%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 376 |  |  |
 | 2026-10-11 | 2026-10-15 | [Mercer Free Build](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 200 |  |  |
+| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 401 |  |  |
+| 2026-10-11 | 2026-10-17 | [Mercer Free Build — raw (2).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.11%E2%80%A226.10.17%E2%80%A2Mercer%20Free%20Build%20%E2%80%94%20raw%20%282%29.json) | `CONVOS_23` | 401 |  |  |
 | 2026-10-11 | 2026-10-15 | [Morrow + Kestrel Free Quarry](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Morrow%20%2B%20Kestrel%20Free%20Quarry%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 157 |  |  |
 | 2026-10-11 | 2026-10-15 | [Orson LLM Cognition Lab](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.11%E2%80%A226.10.15%E2%80%A2Orson%20LLM%20Cognition%20Lab%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 116 |  |  |
 | 2026-10-14 | 2026-10-14 | [Underwater Fermi Paradox](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.14%E2%80%A226.10.14%E2%80%A2Underwater%20Fermi%20Paradox%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 29 |  |  |
 | 2026-10-15 | 2026-10-15 | [Calculation Relay _36](../DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/26.10.15%E2%80%A226.10.15%E2%80%A2Calculation%20Relay%20_36%20%E2%80%94%20raw.json) | `SAT_CONVOS_22` | 1 |  |  |
+| 2026-10-15 | 2026-10-15 | [Suno prompt writing](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.15%E2%80%A2Suno%20prompt%20writing%20%E2%80%94%20raw.json) | `CONVOS_23` | 4 |  |  |
+| 2026-10-15 | 2026-10-15 | [Predict the Song Style — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.15%E2%80%A2Predict%20the%20Song%20Style%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 102 |  |  |
+| 2026-10-15 | 2026-10-17 | [Naming A New Feeling](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.17%E2%80%A2Naming%20A%20New%20Feeling%20%E2%80%94%20raw.json) | `CONVOS_23` | 904 |  |  |
+| 2026-10-15 | 2026-10-16 | [Create UI Gallery](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.16%E2%80%A2Create%20UI%20Gallery%20%E2%80%94%20raw.json) | `CONVOS_23` | 115 |  |  |
+| 2026-10-15 | 2026-10-17 | [Create UI Gallery — raw (1).json](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.17%E2%80%A2Create%20UI%20Gallery%20%E2%80%94%20raw%20%281%29.json) | `CONVOS_23` | 118 |  |  |
+| 2026-10-15 | 2026-10-15 | [Ohio Democratic Polling Numbers](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.10.15%E2%80%A226.10.15%E2%80%A2Ohio%20Democratic%20Polling%20Numbers%20%E2%80%94%20raw.json) | `CONVOS_23` | 4 |  |  |
 
 ## Exact duplicate-content groups
 
@@ -1374,6 +1387,8 @@ These remain in place and are not assigned conversation dates.
 - [DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/G5. Whirligig Lagrangian and 4D Superhelical Particle Paths__NotebookLM_export (1).json](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/G5.%20Whirligig%20Lagrangian%20and%204D%20Superhelical%20Particle%20Paths__NotebookLM_export%20%281%29.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/G5. Whirligig Lagrangian and 4D Superhelical Particle Paths__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/G5.%20Whirligig%20Lagrangian%20and%204D%20Superhelical%20Particle%20Paths__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/SAT GIGAPACK__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/SAT%20GIGAPACK__NotebookLM_export.json) — no usable conversation or message timestamps
+- [DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming A New Feeling — raw (3).txt](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming%20A%20New%20Feeling%20%E2%80%94%20raw%20%283%29.txt) — Expecting value: line 25515 column 15 (char 1845437)
+- [DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming A New Feeling — raw (4).txt](../DEVELOPMENT_FULL_CONVOS/CONVOS_23/Naming%20A%20New%20Feeling%20%E2%80%94%20raw%20%284%29.txt) — Extra data: line 20 column 14 (char 647)
 - [DEVELOPMENT_FULL_CONVOS/Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md](../DEVELOPMENT_FULL_CONVOS/Glass_Sausage_Factory_copy_rewrite_Nathan_voice.md) — Expecting value: line 1 column 2 (char 1)
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/$ SAT JAN 2026__NotebookLM_export.json](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%24%20SAT%20JAN%202026__NotebookLM_export.json) — no usable conversation or message timestamps
 - [DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/11MAR26_STREAMLINE.txt](../DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/11MAR26_STREAMLINE.txt) — Expecting value: line 1 column 2 (char 1)
