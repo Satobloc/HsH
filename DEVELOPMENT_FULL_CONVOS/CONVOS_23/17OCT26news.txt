@@ -1,0 +1,631 @@
+Skip to content
+ν neutrino‑science
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+History
+Experiments
+People
+Formulas
+Research
+Centers
+Neutrino Energy
+Search
+Blog
+/
+What Were the Gallium Experiments (GALLEX and SAGE)?
+October 9, 2026 · Sources · 2 min read
+
+What Were the Gallium Experiments (GALLEX and SAGE)?
+GALLEX and SAGE were solar neutrino experiments that used gallium to catch the Sun's low-energy pp neutrinos for the first time — deepening the solar neutrino problem. Here is what they found.
+
+GALLEX and SAGE were two solar neutrino experiments that used the metal gallium as their detecting material. Their achievement was to catch the Sun’s lowest-energy neutrinos — the pp neutrinos from the very first step of solar fusion — for the first time. In doing so, they both confirmed that the Sun shines by fusion and deepened the puzzle known as the solar neutrino problem.
+
+Why gallium?
+Earlier solar experiments, from Homestake onward, could only detect the rarer, higher-energy solar neutrinos. Gallium changed that. A solar neutrino can convert a gallium-71 atom into germanium-71 at a low enough energy threshold to catch the abundant pp neutrinos produced directly in proton-proton fusion — the dominant reaction powering the Sun. This made gallium uniquely able to test the Sun’s core at its most fundamental level.
+
+What GALLEX and SAGE found
+GALLEX, running under the Gran Sasso mountain in Italy, reported in 1992 the first observation of solar pp neutrinos, and SAGE, using tens of tonnes of gallium in Russia, reached the same conclusion. Both confirmed that pp neutrinos arrive from the Sun — but both also measured fewer neutrinos than the standard solar model predicted. The deficit that Homestake had first seen was real, and now it extended even to the most basic solar neutrinos.
+
+Their place in the story
+The gallium results sharpened the solar neutrino problem and helped point toward its resolution: oscillation. Together with Homestake, SNO, and KamLAND, the gallium experiments form part of the chain of measurements that revealed neutrinos change flavour — and therefore have mass. Decades later, Borexino would measure the pp neutrinos spectroscopically in real time.
+
+Read more
+What was the Homestake experiment?
+What is the solar neutrino problem?
+How did SNO solve the solar neutrino problem?
+References
+1.
+P. Anselmann et al. (GALLEX Collaboration), Solar neutrinos observed by GALLEX at Gran Sasso, Phys. Lett. B 285, 376 (1992). DOI: 10.1016/0370-2693(92)91521-A.
+← All articles
+
+Read next
+Sources
+
+What Is the Difference Between Nuclear Fusion and Fission?
+
+Fusion joins light nuclei together; fission splits heavy ones apart. Both release energy and both produce neutrinos — fusion powers the Sun, fission powers reactors. Here is the difference.
+
+Read →
+Sources
+
+What Is Nuclear Fusion?
+
+Nuclear fusion is the process that powers the Sun — fusing light nuclei into heavier ones and releasing energy and neutrinos. Those solar neutrinos are how we see into the Sun's core. Here is how fusion works.
+
+Read →
+Sources
+
+Francis Halzen Wins the 2026 Nobel Prize in Physics
+
+Francis Halzen has been awarded the 2026 Nobel Prize in Physics for the IceCube Neutrino Observatory and the discovery of high-energy astrophysical neutrinos — a landmark for neutrino science.
+
+Read →
+On this page
+
+Why gallium?
+What GALLEX and SAGE found
+Their place in the story
+Read more
+neutrino-science.org
+
+Editorial content is original. External papers are referenced with DOI/arXiv identifiers, not reproduced.
+
+Topics
+
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+Reference
+
+Series
+Formulas
+References
+Comparisons
+Experiments
+History
+People
+Glossary
+Parameters
+Sources by energy
+Detectors compared
+FAQ
+Concepts
+Open questions
+Future
+Blog
+Research Hub (live)
+Research centers
+Research & resources
+
+Neutrino Energy Group
+CERN
+Fermilab
+Particle Data Group
+Super-Kamiokande (ICRR)
+SNOLAB
+IceCube
+KM3NeT
+Gran Sasso (INFN LNGS)
+NuFIT
+Site
+
+About
+Editorial policy
+Privacy
+Search
+RSS feed
+© 2026 neutrino-science.org
+Serious science, plainly stated.
+This site uses no tracking and sets no advertising cookies. Read our privacy policy.
+
+Got it
+Skip to content
+ν neutrino‑science
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+History
+Experiments
+People
+Formulas
+Research
+Centers
+Neutrino Energy
+Search
+Blog
+/
+What Was the Homestake Experiment?
+June 30, 2026 · Sources · 2 min read
+
+What Was the Homestake Experiment?
+The Homestake experiment was the first to detect solar neutrinos — and by finding only about a third of the expected number, it opened the decades-long solar neutrino problem.
+
+The Homestake experiment was the first ever to detect neutrinos from the Sun, and its surprising result launched one of the longest-running puzzles in physics. Beginning in the late 1960s, it consistently registered only about a third of the solar neutrinos that theory predicted — a shortfall that became known as the solar neutrino problem.
+
+What was the Homestake experiment?
+Led by the chemist Raymond Davis Jr., the experiment sat nearly a mile and a half underground in the Homestake gold mine in South Dakota, shielded from cosmic rays. Its detector was a tank holding about 100,000 gallons of a perchloroethylene cleaning fluid, rich in chlorine. Very occasionally, an electron neutrino from the Sun would strike a chlorine atom and convert it into a radioactive atom of argon. Davis’s team periodically swept the tank, extracted the mere handful of argon atoms produced, and counted them — an extraordinary feat of chemistry, pulling a few atoms from a tank the size of a swimming pool.
+
+What did it find?
+The count was persistently, stubbornly low. Homestake saw only around a third of the neutrinos that the best models of the Sun’s core predicted. The measurement was checked and rechecked for decades, and the deficit would not go away. Either the models of the Sun were wrong, or the detector was, or something happened to the neutrinos on their way to Earth.
+
+Why it mattered
+For a long time the result was viewed with suspicion — surely something so hard to measure must have an error. But the Sun’s physics was well understood, and Davis’s chemistry proved sound. The deficit was real. It framed a question that took more than thirty years to answer: where were the missing neutrinos going? The resolution, that electron neutrinos change flavour en route and so escape a detector sensitive only to one type, would eventually reshape particle physics and earn Davis a share of the 2002 Nobel Prize.
+
+Read more
+What is the solar neutrino problem?
+What are solar neutrinos?
+How do neutrinos help us study the Sun?
+References
+1.
+R. Davis Jr., D. S. Harmer, K. C. Hoffman, Search for Neutrinos from the Sun, Phys. Rev. Lett. 20, 1205 (1968). DOI: 10.1103/PhysRevLett.20.1205.
+← All articles
+
+Read next
+Sources
+
+What Is the Difference Between Nuclear Fusion and Fission?
+
+Fusion joins light nuclei together; fission splits heavy ones apart. Both release energy and both produce neutrinos — fusion powers the Sun, fission powers reactors. Here is the difference.
+
+Read →
+Sources
+
+What Is Nuclear Fusion?
+
+Nuclear fusion is the process that powers the Sun — fusing light nuclei into heavier ones and releasing energy and neutrinos. Those solar neutrinos are how we see into the Sun's core. Here is how fusion works.
+
+Read →
+Sources
+
+What Were the Gallium Experiments (GALLEX and SAGE)?
+
+GALLEX and SAGE were solar neutrino experiments that used gallium to catch the Sun's low-energy pp neutrinos for the first time — deepening the solar neutrino problem. Here is what they found.
+
+Read →
+On this page
+
+What was the Homestake experiment?
+What did it find?
+Why it mattered
+Read more
+neutrino-science.org
+
+Editorial content is original. External papers are referenced with DOI/arXiv identifiers, not reproduced.
+
+Topics
+
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+Reference
+
+Series
+Formulas
+References
+Comparisons
+Experiments
+History
+People
+Glossary
+Parameters
+Sources by energy
+Detectors compared
+FAQ
+Concepts
+Open questions
+Future
+Blog
+Research Hub (live)
+Research centers
+Research & resources
+
+Neutrino Energy Group
+CERN
+Fermilab
+Particle Data Group
+Super-Kamiokande (ICRR)
+SNOLAB
+IceCube
+KM3NeT
+Gran Sasso (INFN LNGS)
+NuFIT
+Site
+
+About
+Editorial policy
+Privacy
+Search
+RSS feed
+© 2026 neutrino-science.org
+Serious science, plainly stated.
+This site uses no tracking and sets no advertising cookies. Read our privacy policy.
+
+Got it
+Skip to content
+ν neutrino‑science
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+History
+Experiments
+People
+Formulas
+Research
+Centers
+Neutrino Energy
+Search
+Blog
+/
+What Was the Solar Neutrino Problem?
+October 14, 2025 · Oscillations · 2 min read
+
+What Was the Solar Neutrino Problem?
+The solar neutrino problem was the decades-long puzzle that experiments saw only about a third of the electron neutrinos the Sun should produce. Oscillation finally explained the deficit.
+
+The solar neutrino problem was the puzzling, decades-long mismatch between how many electron neutrinos the Sun was expected to send to Earth and how many detectors actually caught. The first experiment to look found only about a third of the predicted number. For more than thirty years no one was certain whether the fault lay with the Sun, the detector or the theory. The answer turned out to be neutrino oscillation.
+
+How did the problem first appear?
+In the late 1960s Raymond Davis Jr. ran a pioneering experiment deep in the Homestake gold mine in South Dakota. A tank of cleaning fluid captured the rare neutrinos that converted chlorine atoms into argon, which Davis then counted. The count came in well below the prediction from John Bahcall’s solar model. The two men were confident in their work, yet the numbers stubbornly disagreed, and the shortfall became known as the solar neutrino problem.
+
+What were the possible explanations?
+For years three broad possibilities competed. Perhaps the solar model overestimated the core temperature and the neutrino output. Perhaps Davis’s difficult chemistry was losing atoms. Or perhaps the neutrinos themselves were changing on the way, turning into flavours the chlorine method could not see. Later experiments using gallium and water confirmed the deficit was real, which steadily narrowed suspicion toward the neutrinos.
+
+How was the problem resolved?
+The decisive evidence came from the Sudbury Neutrino Observatory in 2002. SNO could measure both electron neutrinos alone and the total of all three flavours together. It found that the total matched the solar model almost exactly, while the electron-only count was low. The missing electron neutrinos had simply transformed into muon and tau neutrinos en route. The Sun was fine, the model was fine, and the deficit was direct proof of flavour change, sharpened by the matter effect inside the Sun.
+
+Read more
+What Are Solar Neutrinos?
+What Is Neutrino Oscillation?
+References
+1.
+R. Davis Jr., D. S. Harmer, K. C. Hoffman, Search for Neutrinos from the Sun, Phys. Rev. Lett. (1968). DOI: 10.1103/PhysRevLett.20.1205.
+2.
+Q. R. Ahmad et al. (SNO Collaboration), Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in SNO, Phys. Rev. Lett. (2002). DOI: 10.1103/PhysRevLett.89.011301.
+← All articles
+
+Read next
+Oscillations
+
+Why Do Neutrinos Oscillate?
+
+Neutrinos oscillate because the flavours they are created in are blends of different mass states that travel at slightly different rates. That mismatch makes them change flavour in flight. Here is why.
+
+Read →
+Oscillations
+
+How Did SNO Solve the Solar Neutrino Problem?
+
+In 2002 the Sudbury Neutrino Observatory showed that the Sun's missing electron neutrinos had not vanished — they had changed flavour. Here is how it clinched the case for oscillation.
+
+Read →
+Oscillations
+
+What Are Flavour and Mass Eigenstates?
+
+Neutrinos are produced in flavour states but travel as mass states, and the two are not the same. This mismatch is the very root of neutrino oscillation.
+
+Read →
+On this page
+
+How did the problem first appear?
+What were the possible explanations?
+How was the problem resolved?
+Read more
+neutrino-science.org
+
+Editorial content is original. External papers are referenced with DOI/arXiv identifiers, not reproduced.
+
+Topics
+
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+Reference
+
+Series
+Formulas
+References
+Comparisons
+Experiments
+History
+People
+Glossary
+Parameters
+Sources by energy
+Detectors compared
+FAQ
+Concepts
+Open questions
+Future
+Blog
+Research Hub (live)
+Research centers
+Research & resources
+
+Neutrino Energy Group
+CERN
+Fermilab
+Particle Data Group
+Super-Kamiokande (ICRR)
+SNOLAB
+IceCube
+KM3NeT
+Gran Sasso (INFN LNGS)
+NuFIT
+Site
+
+About
+Editorial policy
+Privacy
+Search
+RSS feed
+© 2026 neutrino-science.org
+Serious science, plainly stated.
+This site uses no tracking and sets no advertising cookies. Read our privacy policy.
+
+Got it
+Skip to content
+ν neutrino‑science
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+History
+Experiments
+People
+Formulas
+Research
+Centers
+Neutrino Energy
+Search
+Blog
+/
+How Did SNO Solve the Solar Neutrino Problem?
+June 30, 2026 · Oscillations · 2 min read
+
+How Did SNO Solve the Solar Neutrino Problem?
+In 2002 the Sudbury Neutrino Observatory showed that the Sun's missing electron neutrinos had not vanished — they had changed flavour. Here is how it clinched the case for oscillation.
+
+For more than thirty years, experiments had seen only a fraction of the electron neutrinos the Sun should produce — the solar neutrino problem. In 2002, the Sudbury Neutrino Observatory settled it decisively, showing that the missing neutrinos had not disappeared at all: they had changed flavour on the way to Earth.
+
+The puzzle SNO inherited
+Earlier detectors, from Homestake onward, were sensitive mainly to electron neutrinos, the only flavour the Sun’s core emits. They all found a deficit. The tantalising possibility was that the electron neutrinos were oscillating into muon and tau neutrinos in flight — but to prove it, someone had to count the other flavours too, not just the missing electron type.
+
+SNO’s clever trick
+The Sudbury Neutrino Observatory used a kilotonne of heavy water, buried deep in a Canadian mine. Heavy water let SNO see solar neutrinos through three different reactions at once. One reaction responded only to electron neutrinos. A second, a neutral-current interaction, responded equally to all three flavours. That second channel was the key: it counted the total number of neutrinos arriving from the Sun, regardless of what flavour they had become.
+
+The result
+The answer was clean and conclusive. The electron-neutrino count alone was low, matching the old deficit. But the all-flavour total agreed beautifully with what solar models predicted the Sun should emit. In other words, the neutrinos were all still there — roughly two-thirds of them had simply transformed into muon and tau neutrinos during their journey. The missing neutrinos had been hiding in plain sight, in flavours the earlier experiments could not see.
+
+Why it mattered
+This was direct proof of neutrino flavour transformation, and therefore that neutrinos have mass — since oscillation is impossible for perfectly massless particles. It vindicated both the solar models and decades of puzzling measurements in a single stroke. SNO’s director, Arthur McDonald, shared the 2015 Nobel Prize for the work, together with Super-Kamiokande’s Takaaki Kajita.
+
+Read more
+What is the solar neutrino problem?
+What is neutrino oscillation?
+What was the Homestake experiment?
+References
+1.
+Q. R. Ahmad et al. (SNO Collaboration), Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory, Phys. Rev. Lett. 89, 011301 (2002). DOI: 10.1103/PhysRevLett.89.011301.
+← All articles
+
+Read next
+Oscillations
+
+Why Do Neutrinos Oscillate?
+
+Neutrinos oscillate because the flavours they are created in are blends of different mass states that travel at slightly different rates. That mismatch makes them change flavour in flight. Here is why.
+
+Read →
+Oscillations
+
+What Are Flavour and Mass Eigenstates?
+
+Neutrinos are produced in flavour states but travel as mass states, and the two are not the same. This mismatch is the very root of neutrino oscillation.
+
+Read →
+Oscillations
+
+What Is a Neutrino Baseline?
+
+A baseline is the distance neutrinos travel from source to detector. Together with their energy it sets how much oscillation has developed — which is why experiments choose their baseline so carefully.
+
+Read →
+On this page
+
+The puzzle SNO inherited
+SNO’s clever trick
+The result
+Why it mattered
+Read more
+neutrino-science.org
+
+Editorial content is original. External papers are referenced with DOI/arXiv identifiers, not reproduced.
+
+Topics
+
+Fundamentals
+Oscillations
+Detection
+Sources
+Cosmology
+Applications
+Reference
+
+Series
+Formulas
+References
+Comparisons
+Experiments
+History
+People
+Glossary
+Parameters
+Sources by energy
+Detectors compared
+FAQ
+Concepts
+Open questions
+Future
+Blog
+Research Hub (live)
+Research centers
+Research & resources
+
+Neutrino Energy Group
+CERN
+Fermilab
+Particle Data Group
+Super-Kamiokande (ICRR)
+SNOLAB
+IceCube
+KM3NeT
+Gran Sasso (INFN LNGS)
+NuFIT
+Site
+
+About
+Editorial policy
+Privacy
+Search
+RSS feed
+© 2026 neutrino-science.org
+Serious science, plainly stated.
+This site uses no tracking and sets no advertising cookies. Read our privacy policy.
+
+Got it
+APS Logo
+Journals
+APS Open Science
+Physical Review A
+Physical Review Accelerators and Beams
+Physical Review Applied
+Physical Review B
+Physical Review C
+Physical Review D
+Physical Review E
+Physical Review Fluids
+Physical Review Letters
+Physical Review Materials
+Physical Review Physics Education Research
+Physical Review Research
+Physical Review X
+PRX Energy
+PRX Intelligence
+PRX Life
+PRX Quantum
+Reviews of Modern Physics
+Physical Review (Archive)
+Physics Magazine
+APS News
+APS PhysicsAboutBrowsePressCollections
+Search articles
+Synopsis
+Gallium Anomaly May Finally Be Explained
+September 24, 2026• Physics 19, s116
+A decades-old neutrino mystery might be solved not by undiscovered physics but by improved calculations.
+Figure caption
+expand figure
+APS/Alan Stonebraker
+For more than 30 years, scientists have found that roughly 20% fewer electron neutrinos are captured by gallium nuclei than expected. Dubbed the gallium anomaly, this discrepancy has raised the possibility that something fundamental might be missing from our understanding of neutrinos or atomic nuclei. Now Matteo Cadeddu at the National Institute for Nuclear Physics (INFN) and the University of Cagliari, both in Italy, and his colleagues have shown that this mismatch may instead originate from the way the electron-neutrino capture rate is calculated [1]. If confirmed, the team’s results could have implications for other neutrino experiments and could reshape searches for new physics.
+
+When an electron neutrino is captured by a gallium nucleus, an electron is created and a neutron turns into a proton, transforming gallium into germanium. In the standard capture-rate calculation, the behavior of the nucleus is treated separately from that of the neutrino and electron. This approximation simplifies the calculation but may overlook key aspects of the capture process. Cadeddu and his colleagues instead developed a more rigorous approach that fully accounts for the interplay between the nucleus, neutrino, and electron.
+
+Using this technique, the researchers predicted a capture rate about 20% lower than previous estimates, closely matching the experimental results. This finding offers a solution to the gallium anomaly without requiring new physics. It disfavors one of the previously leading explanations: the existence of so-called sterile neutrinos. Scientists had proposed sterile neutrinos to account for several puzzling observations, but increasingly stringent experiments have made it more difficult to develop consistent models for these particles (see Synopsis: Sterile Neutrinos Remain Elusive).
+
+–Ryan Wilkinson
+
+Ryan Wilkinson is a Corresponding Editor for Physics Magazine based in Durham, UK.
+
+References
+M. Cadeddu et al., “Possible solution to the gallium anomaly moving beyond the leptonic wave-function factorization,” Phys. Rev. Lett. 137, 131805 (2026).
+Subject Areas
+Particles and FieldsNuclear Physics
+Related Articles
+First Nuclear Clocks Kick Off a Precision Race
+Nuclear Physics
+First Nuclear Clocks Kick Off a Precision Race
+October 7, 2026
+Two independent teams have built operating nuclear clocks—devices that might one day rival the best atomic clocks and offer new ways to probe fundamental physics. Read More »
+
+Nobel Prize: Neutrinos from Far, Far Away
+Particles and Fields
+Nobel Prize: Neutrinos from Far, Far Away
+October 6, 2026
+Neutrino astronomy and the effort to build a cubic-kilometer-sized detector at the South Pole are recognized by the 2026 Nobel Prize in Physics. Read More »
+
+Simulating Particle Creation with Cold Atoms
+Particles and Fields
+Simulating Particle Creation with Cold Atoms
+October 1, 2026
+Researchers observe atoms trapped in an optical lattice mimicking particles created in a strong electric field. Read More »
+
+More Articles
+PDF Version   share
+Possible Solution to the Gallium Anomaly Moving beyond the Leptonic Wave-Function Factorization
+M. Cadeddu, N. Cargioli, F. Dordei, L. Ferro, C. Giunti, and M. Pitzalis
+
+Phys. Rev. Lett. 137, 131805 (2026)
+
+Published September 24, 2026
+
+Recent Articles
+Imaging with Zero Photons
+A technique known as ghost imaging has been adapted so that an object can be imaged by discarding all photons that interact with it.
+
+Illuminating Quantum Ferroelectrics
+An ultrafast optical technique uncovers new clues to the origin of bulk polarization in quantum ferroelectric materials.
+
+Time Delay Probes Quantum Light
+Photoelectron interference can reveal otherwise hidden properties of quantum light through an apparent attosecond time shift.
+
+More Recent Articles »
+
+Sign up to receive weekly email alerts from Physics Magazine.
+
+Sign Up
+APS
+News and Announcements
+Join APS
+Contact Us
+APS Journals
+About
+Authors
+Referees
+Subscriptions
+Students
+Physics
+PhysicsCentral
+Student Membership
+APS Members
+Subscriptions
+Membership
+FAQ
+APS News
+Meetings & Events
+Privacy
+Policies
+Contact Information
+Feedback
+Use of the American Physical Society websites and journals implies that the user has read and agrees to our Terms and Conditions and any applicable Subscription Agreement.
