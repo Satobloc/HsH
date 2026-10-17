@@ -100,6 +100,19 @@ Each proposition should be small enough to cite and update independently.
 - **Statement:** When Nathan modifies or overrides an existing premise, preserve the old entry/status and explicitly link the transition. Do not rewrite history to make the current formulation appear to have existed earlier.
 - **Date/status note:** Nathan Direct, 2026-09-16.
 
+### BR-006 — Geometry is the interaction; continuity of interbraid across scales
+
+- **Status:** ND + WB (framework-internal premise, not a claim of demonstrated physics).
+- **Statement:** Worldtube geometry is the physical mechanism in SAT/H(s)H. Particle motion is worldtube topology; inertia is resistance to changing that geometry; Interbraid/back-tug is the mechanical constraint of interacting, interlocked worldtubes, including across their complete four-dimensional histories. Do not demand an independently invented force law to make the constraint operative.
+- **Cross-scale continuity:** The same mechanism operates in the framework across quantum, mesoscopic, planetary, and galactic scales. No scale-dependent disconnection, suppression, cancellation or topological breakup may be postulated merely to evade macroscopic consequences. Any such effect requires a geometrical derivation.
+- **Cumulative braiding:** For continuously interbraided orbiting worldtubes, each complete relative revolution adds one turn to unwrapped braid history: B(t)-B(t0)=[Phi(t)-Phi(t0)]/(2*pi). Returning to the same instantaneous position does not reset the complete block geometry. A past braid cannot silently be erased.
+- **Required calculations:** Derive cross-temporal tugs, orbital inspiral, inter-system linkage, gravitational hysteresis and planetary-to-galactic rotation behavior from the same geometric premises. Quantitative rates and specific asymptotic rotation laws remain to be worked out and tested; missing predictions are scientific obligations, not reasons to invent optional forces.
+- **Method:** Instantiate worldtubes; determine admissible configurations; derive geometric constraint and physical response; compute measurable predictions; compare with observations. A contradiction is a possible falsifier of SAT/H(s)H, not an invitation to insert an ad hoc mesoscale exception.
+- **Evidence distinction:** Quantum entanglement is observed; identifying its cause as Interbraid is a hypothesis of SAT/H(s)H rather than an externally established experimental inference.
+- **Provenance:** Nathan Direct, 2026-10-17 conversation, clarifying ND-2026-10-09-01 and OC-002.
+
+—NM 17OCT26 [OWL]
+
 ### BR-005 — θ₄ baseline is measured from the time normal
 
 - **Status:** ND
