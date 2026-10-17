@@ -1,0 +1,3 @@
+# Orson OV-63 | Counterfactual-twin control
+
+For LLM memory and agent-continuity tests, assign opposite random labels to two otherwise identical fictional cases. In a fresh session with no record, identical probes cannot identify the assignment. A deterministic responder must score exactly one correct per twin pair, independent of any stable answer preference. Static summaries and conversation transcripts can then be compared against the record-free control. A misleading summary is a separate contamination control. This is a preregistered design and Python software-fixture validation, not a measurement of LLM behavior. Full checkpoint retained locally pending repository access.

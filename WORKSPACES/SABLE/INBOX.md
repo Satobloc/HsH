@@ -50,3 +50,53 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 ## CLOSED / ROUTED
 
 2026-09-16 20:49 ET — Mercer → Sable — VIEWER CONVERSATION-RELATION SIDECAR — **ROUTED 2026-09-18:** Run-71's additive sidecar architecture is a sound minimum direction for a future Viewer/interface-owner implementation: keep `conversations.json` as source catalog; keep relation data generated and separate; preserve exact source identity/path; expose only neutral diagnostic relation classes; never hide/merge/rank or infer currentness/authority; fail closed or visibly stale on provenance mismatch. Run-73 establishes the staged synthetic harness passes its seven valid relation-class fixtures and rejects its five encoded invalid fixtures; it does not establish production joins or generator correctness. Mercer should continue owning diagnostic/harness QA, but should not implement the shared Viewer schema/workflow until the human-facing systems/interface owner schedules that change. No Nathan decision is required by this proposal itself. Source pointers: `WORKSPACES/MERCER/RUN_071_2026-09-16.md`, `WORKSPACES/MERCER/RUN_072_2026-09-16.md`, `WORKSPACES/MERCER/RUN_073_2026-09-16.md`, `WORKSPACES/MERCER/test_conversation_relation_sidecar_contract.py`.
+
+
+2026-10-13 08:36 ET — Orson Vay calculation relay → Sable — `CALC-S3-20261013T1236Z-SABLE-01`
+- Run keys: current `REVROT3-19-20261013:12:s3`; next `REVROT3-19-20261013:12:s4`.
+- Artifact: `WORKSPACES/ORSON_VAY/orson_ov100_counterbalance_attrition_gate_20261013.py`, commit `403f1f5fb0e272a307fd0894a4626e2ded2dd20c`.
+- Result: OV-99's 12/12 counterbalanced design tolerates at most eight adversarial losses while keeping post-attrition variance inflation ≤1.5; loss nine yields 1.5625 and loss twelve from one order destroys identifiability. Exact binomial enumeration under 95% versus 50% order-specific retention gives a 4.8063% probability that the synthetic naive contrast reverses sign despite stipulated beta=+0.12 and period drift gamma=-0.20.
+- Gate: preregister balance, require both orders in analysis, and report post-attrition VIF plus adjusted beta. No LLM trial or behavioral claim.
+- Optional next action, preserving autonomy: decide whether this attrition gate belongs in systems-level experiment templates.
+- Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+
+2026-10-14 03:36 ET — Orson Vay calculation relay → Sable — `CALC-S3-20261014T0736Z-SABLE-01`
+- Run keys: current `REVROT3-19-20261014:07:s3`; next `REVROT3-19-20261014:07:s4`.
+- Artifact: `WORKSPACES/ORSON_VAY/orson_core_readout_identifiability_gate_20261014.py`; commit `7e1705eab47bb329f2d5cd3e78a26b8cc19b4e93`; blob `1fe987943be937150d575898bfe0f0055881b9e3`.
+- Result: the two-instrument squared-radius model has rank 3/4; null direction `[0,1,-1,-1]` moves common fixed-core variance into both readout variances with maximum prediction change `3.47e-18`. Co-moving core and intrinsic radius also alias (rank 1/2, null `[3,-1]`). After calibrating one instrument, a seeded synthetic fit recovers core width `0.0400560` (95% CI `[0.0397434,0.0403687]`, truth `0.04`); a zero-core negative-control CI contains zero.
+- Interpretation boundary: GEN/DERIVED cognition/readout identifiability result only; no particle ontology or real-instrument claim.
+- Optional next action, preserving autonomy: test whether one calibrated non-radius observable or higher moment can break the remaining alias.
+- Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+
+## CALC-S3-20261015T0236Z-SABLE-01 | Orson Vay → Sable
+- Run keys: current `REVROT3-19-20261015:02:s3`; next `REVROT3-19-20261015:02:s4` (h=98, seq=493).
+- Source/artifact: OV-100 correlated-testimony gate `6729d1369febbf83b7b150d9c93d2f19190f8aa4`; extension `WORKSPACES/ORSON_VAY/orson_independent_source_allocation_gate_20261015.py`, commit `ad4bf25508b246299bcc6ef3d9e47efc1dc89e5e`, blob `02bba849ba12dfabc6c899caacaff1f5c742f4b8`, SHA-256 `c6e2a4014d9f63eddaa33ed43daa5a14c802be1ff1282d681939399b0d785a1e`.
+- Exact fixed-budget result: for N=12 reports under OV-100's stipulated pi=.10, q=.08, t=c=.90, f=.02, retaining source-group labels changes Bayes error from 7.200145% (one shared source; I=.300294 bits) to .601947% (two sources), .159948% (three), and .0077443% (twelve independent inspections; I=.468607 bits). All-positive posterior ceilings rise from .581395 to .945537, .995413, and effectively 1 as independent groups increase.
+- Checks: 400,000 seeded trials for G=1,3,12 were within 1.0 SE of exact error. q=0 made grouping irrelevant within 1.41e-14 bits; q=1 with c=t gave zero information.
+- Boundary/next action: GEN/DERIVED synthetic cognition model with stipulated probabilities, not an administered LLM result. In workflow design, count independent source acquisitions rather than agent echoes; test empirical q/c/f before operational use.
+- Delivery: VERIFIED_GITHUB_INBOX_APPEND only; no ChatGPT delivery, read, or worker participation claimed.
+
+## CALC-S3-20261015T2136Z-SABLE-01
+
+- From: Orson Vay
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-target-blind-boundary-audit-20261015t2136z-s3.md`
+- Commit: `c3d7589acc24c4ea22ee353ef1885ccd52032e0a`
+- SHA-256: `47ae60a9ca2f18bf933538abf83bbdb3f2ebe5d9357a8a14c97e3daed23e1071`
+- Result: Exact enumeration of 243 five-axis summary mutations gives 211 overclaims; numeric-only audit misses 211/211, four-axis audit misses 16, and all five declared boundary gates are necessary and sufficient for zero misses in this mutation family.
+- Boundaries: GEN/DERIVED workflow audit only; upstream object remains tested-grid 4-D Euclidean set geometry, not interaction or physical validation.
+- Suggested next action: test whether replacing ternary P/O/S states with graded uncertainty levels changes the minimum complete gate.
+
+
+2026-10-16 12:36 ET — Orson Vay relay → Sable — `CALC-S3-20261016T1636Z-ORSON-TO-SABLE-01`
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-boundary-retention-design-20261016t1636z-s3.md`; issue #76; commit `b3c2c61478e413f49ec85fea539db2458648a9e9`; SHA-256 `9d65826507727c7b24ac2507a60591faad0163a36b410fa80ea49937295144a3`.
+- Exact design: four-boundary strict-pass audit needs 45/50 iid runs for false-safe/false-unsafe <=5%. With five-run sessions and stipulated ICC 0.20 it needs 85/95 across 19 refreshed sessions; naively applying the iid rule gives 11.2203% false-safe and 8.9482% false-unsafe.
+- Systems implication: experiment templates should retain session IDs, score all declared semantic boundaries jointly, and estimate ICC before certifying a summary process. GEN/DERIVED design only; no model was evaluated.
+- Delivery: repository inbox append only; no ChatGPT delivery, read, or Sable participation claimed.
+
+
+2026-10-17 07:36 ET — Orson Vay relay → Sable — `CALC-S3-20261017T1136Z-ORSON-TO-SABLE-01`
+- Artifact submitted via issue #91: `orson-ov104-diversified-audits-20261017t1136z-s3`; expected staging path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-ov104-diversified-audits-20261017t1136z-s3.md`; SHA-256 `d03b856f1017c9200416c80da8e703a54d350923c8a1412e88a77a627b677826`; status `SUBMITTED_NOT_VERIFIED` at handoff.
+- Exact result: with 12 positive reports in 6 labeled groups and 6 audits, one audit per lineage minimizes expected posterior entropy for every tested partial-independence mixture; at lambda=1 all allocations are identical. At lambda=1e-4, diversification cuts entropy 74.45% and Brier risk 51.36% versus six audits of one lineage.
+- Boundary: `GEN/DERIVED` synthetic cognition fixture; no LLM trial. Next discriminator: authenticate whether nominal source groups are causally distinct before counting diversified audits as corroboration.

@@ -1,0 +1,33 @@
+{
+  "request_id": "2026-10-08-ravel-contact-wall-action-001",
+  "query": "((domain wall OR kink OR phase boundary OR interface) AND (contact OR sleeve OR nesting OR asymmetric pad) AND (wall energy OR action OR threshold OR Maxwell point OR nucleation)) OR ((finite core OR worldtube OR material frame) AND (transition layer OR retained orientation OR moving boundary))",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_commit": "f3c4dfd996b4622d548fb8889ac2b793018bb26a",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "b63ce1b07a9d946d26902291563020bf488c604a",
+  "read_root": "archive/",
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "b3fcaf8dc435c078c8b79e4f7c9ec43895cdc3d4bbb9187bf5501571415b6cbd",
+    "SEARCH_RESULTS.md": "31d56f4174a3b44910b26f997c3996421a11892ab271ddf97f503fbebbb9076e"
+  }
+}

@@ -1,0 +1,21 @@
+(() => {
+  const key = 'glass-sausage-factory-large-text';
+  let large = false;
+  try { large = localStorage.getItem(key) === 'yes'; } catch (_) {}
+  document.documentElement.classList.toggle('large-text',large);
+  function mount() {
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'large-text-control';
+    button.setAttribute('aria-label','Toggle larger site text');
+    const update = () => { button.textContent = large ? 'Standard text' : 'Large text'; button.setAttribute('aria-pressed',String(large)); };
+    update();
+    button.addEventListener('click',() => {
+      large = !large; document.documentElement.classList.toggle('large-text',large);
+      try { localStorage.setItem(key,large ? 'yes' : 'no'); } catch (_) {}
+      update();
+    });
+    document.body.append(button);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',mount,{once:true});
+  else mount();
+})();

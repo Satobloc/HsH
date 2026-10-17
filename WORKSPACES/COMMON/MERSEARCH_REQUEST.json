@@ -1,4 +1,21 @@
 {
-  "request_id": "2026-10-07-ravel-moving-intersection-wake-001",
-  "query": "((filament OR worldline OR worldtube) AND (crossing OR interface OR moving OR sweep) AND (drag OR wake OR scar OR relaxation OR friction)) OR ((timesheet OR \"time surface\") AND (wake OR healing OR motion OR propagation))"
+  "request_id": "2026-10-11-orson-morrow-inspiral-package-001",
+  "requester": "Orson Vay",
+  "requested_at": "2026-10-11",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "query": "(\"Cross-Scale Geometric Representation of Classical Inspirals\" OR \"mass-substitution fingerprints\" OR \"64/5\" OR \"beta^5\" OR \"4/3\" OR \"beta^3\" OR \"damped oscillator\" OR \"Morrow/Kestrel\" OR \"paper package\")",
+  "purpose": "Locate the exact Morrow/Kestrel Paper A package or handoff for hostile review issue #4, including PDF/LaTeX/text extraction/solver and any conversation message that supplied its path.",
+  "preferred_outputs": [
+    "exact file paths",
+    "conversation/message locators",
+    "handoff text",
+    "equation-bearing excerpts",
+    "package/attachment references"
+  ],
+  "status": "requested-retry",
+  "retry_note": "2026-10-11 Orson retry: prior push produced no request-scoped output directory and no commit status; retrigger bridge without changing search intent."
 }

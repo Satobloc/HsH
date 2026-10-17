@@ -1,0 +1,56 @@
+name: Complete checkout artifact bridge
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact triggering revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          lfs: true
+          submodules: recursive
+
+      - name: Verify and package checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test -z "$(git status --porcelain)"
+
+          mkdir -p "$RUNNER_TEMP/checkout-artifact"
+          {
+            echo "repository=$GITHUB_REPOSITORY"
+            echo "sha=$GITHUB_SHA"
+            echo "ref=$GITHUB_REF"
+            printf 'tracked_files='
+            git ls-files -z | tr -cd '\0' | wc -c
+            printf 'symlinks='
+            git ls-files -s | awk '$1=="120000"{n++} END{print n+0}'
+            printf 'submodules='
+            git ls-files -s | awk '$1=="160000"{n++} END{print n+0}'
+            printf 'lfs_tracked='
+            git lfs ls-files --name-only 2>/dev/null | wc -l
+          } > "$RUNNER_TEMP/checkout-artifact/PROVENANCE.txt"
+
+          git ls-files -z | xargs -0 sha256sum > "$RUNNER_TEMP/checkout-artifact/TRACKED_SHA256.txt"
+
+          # Package the resolved working tree, not `git archive`, so LFS working
+          # bytes are retained. Preserve symlinks; exclude only Git metadata.
+          tar --exclude='./.git' -czf "$RUNNER_TEMP/checkout-artifact/HSH_RESOURCES-$GITHUB_SHA.tar.gz" .
+          sha256sum "$RUNNER_TEMP/checkout-artifact/HSH_RESOURCES-$GITHUB_SHA.tar.gz"             > "$RUNNER_TEMP/checkout-artifact/ARCHIVE_SHA256.txt"
+
+      - name: Upload exact-SHA checkout artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: HSH_RESOURCES-checkout-${{ github.sha }}
+          path: ${{ runner.temp }}/checkout-artifact/
+          if-no-files-found: error
+          retention-days: 7

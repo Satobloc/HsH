@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "notebook_title": "[🗄️] Parameterized SAT Predictions",
+    "notebook_id": "7b66d265-a88b-45cf-915f-8bd3f23e2ad8",
+    "notebook_url": "https://notebook.google.com/notebook/7b66d265-a88b-45cf-915f-8bd3f23e2ad8?authuser=4",
+    "captured_at": "2026-10-11T13:44:05.172Z",
+    "visible_source_count": null,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 12
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "What’s the core equation for SAT",
+      "citations": [],
+      "key": "c78e0e55"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the provided sources, there is no single \"core equation\" explicitly stated for Scalar Angular Topology (SAT), as the framework is identified as unreleased\n1\n. However, the sources detail the mathematical parameters and expected deviations that define the theory's application to physics.\nThe framework appears to rely on angularly dependent residuals, where physical constants or observations vary based on their orientation in space. Key mathematical expressions used to describe SAT’s effects include:\nResidual Phase Delay (Δϕ): For gravitational waves, the predicted deviation is expressed as Δϕ∼10\n−3\n–10\n−2\n radians relative to the sky angle (θ)\n1\n.\nAngular Memory (ΔT): In repeating transients, the expected offset is defined by the parameter ΔT(z,θ), representing a 1–5% deviation from standard time-dilation scaling that correlates with celestial coordinates (RA/Dec)\n2\n.\nDirectional Neutrino Oscillation (Δm\neff\n2\n\t​\n\n): The framework predicts a shift in mass squared difference, Δ(Δm\n2\n)∼10\n−5\n–10\n−4\neV\n2\n, between paths of the same baseline but different spatial orientations\n3\n.\nB-mode Shear Power (C\nB\n\t​\n\n(ℓ)): In weak lensing, SAT expects a B-mode excess at low multipoles (ℓ=2–20) and systematic ellipticity residuals\n4\n.\nOrientation Phase Shift: For atom interferometry, the phase shift is a function of the instrument’s Euler angles: Δϕ(α,β,γ)\n3\n.\nIn summary, while the underlying fundamental equation remains unreleased, the core mathematical theme of SAT is the introduction of a directional or angular bias (θ) into standard physical models (like ΛCDM), suggesting that the topology of space itself creates systematic offsets based on orientation\n1\nmore_horiz\n.\nTo understand this conceptually, imagine the universe is not a perfectly smooth mirror, but a slightly warped or textured lens. In standard physics, light and gravity should look the same no matter which way you point the telescope; however, under SAT, the \"texture\" of the lens causes subtle, predictable distortions that change depending on the specific direction you are looking.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "c347b782"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Sources\nside_nav\nadd_2\nAdd sources\nadd_2\nCreate note\nlanguage\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward\nsort\nSelect all\ndescription\nSAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "add_2\nAdd sources\nadd_2\nCreate note\nlanguage\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward\nsort\nSelect all\ndescription\nSAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description\nSAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "SAT predictions 3.txt",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "description",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "1 source",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "audio_spark\nParameterized SAT Predictions\n18:05 · 1 source · 520d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nParameterized SAT Predictions\n18:05 · 1 source · 520d ago"
+    },
+    {
+      "text": "Parameterized SAT Predictions\n18:05 · 1 source · 520d ago"
+    },
+    {
+      "text": "Parameterized SAT Predictions"
+    },
+    {
+      "text": "18:05 · 1 source · 520d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "more_vert"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T13:43:53.421Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    }
+  ]
+}

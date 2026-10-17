@@ -49,3 +49,13 @@ Its first screen should expose:
 - Project history
 
 Every thumbnail opens either a lightbox/detail card or its relevant presented document/episode/history page. It must never strand the reader on a repository file path.
+
+## Affirmative copy and Reading room headline (Nathan Direct, 2026-10-15)
+
+State what a feature **is and does**, using affirmative, reader-facing language. Avoid headline constructions that define a feature by what it is not.
+
+For the Reading room, replace **“A reading room, not a link wall.”** with:
+
+> **Explore the conversations, research, and evolving ideas behind the project.**
+
+Apply this to the actual rendered Sites headline when the site frontend next syncs or becomes editable. This repository-side rule is a copy directive, not proof that the independently hosted Sites page has been updated.

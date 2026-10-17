@@ -1,6 +1,6 @@
 # SAT/H(s)H Visual Catalog — all thumbnails
 
-**1006 images · 6 pages · 180 per page**
+**1801 images · 11 pages · 180 per page**
 
 This is the complete cross-repo image index. Suggestions are path-derived until human-reviewed.
 
@@ -9,4 +9,9 @@ This is the complete cross-repo image index. Suggestions are path-derived until 
 - [Page 3 — images 361–540](page-003.md)
 - [Page 4 — images 541–720](page-004.md)
 - [Page 5 — images 721–900](page-005.md)
-- [Page 6 — images 901–1006](page-006.md)
+- [Page 6 — images 901–1080](page-006.md)
+- [Page 7 — images 1081–1260](page-007.md)
+- [Page 8 — images 1261–1440](page-008.md)
+- [Page 9 — images 1441–1620](page-009.md)
+- [Page 10 — images 1621–1800](page-010.md)
+- [Page 11 — images 1801–1801](page-011.md)

@@ -64,6 +64,10 @@ At the beginning of each run:
 4. choose a bounded useful operation or safe alternate;
 5. preserve exact source/exposure state and update continuity before ending a materially productive run.
 
+### October 9 Nathan Direct amendment: internal-first research and two remaining hard exclusions
+
+**This newer Nathan Direct directive supersedes older blanket prior-art prohibition text in this historical protocol where the source is not otherwise restricted.** Read [internal-first source boundary](NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) before theory work, outside comparison or archive sampling. Workers must use FIE/RMS regularly, original SAT documentation first, current and loose/root HsH conversations second, and the HSH_RESOURCES toolkit for *supporting* math/bibliography. Only after exact internal precedent is found, cited and discussed should a safely screened external comparator be consulted. **Hypothesis H proper and direct Schreiber-authored material remain strictly off-limits** in originals, mirrors and substantial reproductions. Older `PRIOR_ART`/quarantine defaults continue at the automatic tool/public-corpus level; per-item eligible comparison is a separate controlled workflow. Do not add direct external constructions as SAT premises. Share new recoveries and meaningful corrections in the Common Room.
+
 ### Current source-refresh notice
 
 Before the next substantive operation after Nathan's 2026-10-05 source-review directive, read `SOURCE_REFRESH_2026-10-05.md`. Use it as a routing/familiarity map for the supplied HSH_RESOURCES and GLASS entry points, including the War Room declaration link graph. Do not treat routing-level review as deep source comprehension, and do not cross quarantine boundaries while following linked material.

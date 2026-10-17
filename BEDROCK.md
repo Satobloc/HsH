@@ -100,6 +100,19 @@ Each proposition should be small enough to cite and update independently.
 - **Statement:** When Nathan modifies or overrides an existing premise, preserve the old entry/status and explicitly link the transition. Do not rewrite history to make the current formulation appear to have existed earlier.
 - **Date/status note:** Nathan Direct, 2026-09-16.
 
+### BR-006 — Geometry is the interaction; continuity of interbraid across scales
+
+- **Status:** ND + WB (framework-internal premise, not a claim of demonstrated physics).
+- **Statement:** Worldtube geometry is the physical mechanism in SAT/H(s)H. Particle motion is worldtube topology; inertia is resistance to changing that geometry; Interbraid/back-tug is the mechanical constraint of interacting, interlocked worldtubes, including across their complete four-dimensional histories. Do not demand an independently invented force law to make the constraint operative.
+- **Cross-scale continuity:** The same mechanism operates in the framework across quantum, mesoscopic, planetary, and galactic scales. No scale-dependent disconnection, suppression, cancellation or topological breakup may be postulated merely to evade macroscopic consequences. Any such effect requires a geometrical derivation.
+- **Cumulative braiding:** For continuously interbraided orbiting worldtubes, each complete relative revolution adds one turn to unwrapped braid history: B(t)-B(t0)=[Phi(t)-Phi(t0)]/(2*pi). Returning to the same instantaneous position does not reset the complete block geometry. A past braid cannot silently be erased.
+- **Required calculations:** Derive cross-temporal tugs, orbital inspiral, inter-system linkage, gravitational hysteresis and planetary-to-galactic rotation behavior from the same geometric premises. Quantitative rates and specific asymptotic rotation laws remain to be worked out and tested; missing predictions are scientific obligations, not reasons to invent optional forces.
+- **Method:** Instantiate worldtubes; determine admissible configurations; derive geometric constraint and physical response; compute measurable predictions; compare with observations. A contradiction is a possible falsifier of SAT/H(s)H, not an invitation to insert an ad hoc mesoscale exception.
+- **Evidence distinction:** Quantum entanglement is observed; identifying its cause as Interbraid is a hypothesis of SAT/H(s)H rather than an externally established experimental inference.
+- **Provenance:** Nathan Direct, 2026-10-17 conversation, clarifying ND-2026-10-09-01 and OC-002.
+
+—NM 17OCT26 [OWL]
+
 ### BR-005 — θ₄ baseline is measured from the time normal
 
 - **Status:** ND
@@ -122,6 +135,15 @@ Each proposition should be small enough to cite and update independently.
 - **Boundary:** Proposed devices such as a “holonomy bridge” remain historical/exploratory unless separately established; NotebookLM material is wayfinding/reconstruction evidence subject to authorship/source-boundary checks, not automatic theory authority.
 - **Next discriminator:** source-chronology reconstruction across Q, inverse-Q, braid-smoothing, scaling, scale-transition, and bridge attempts.
 - **Date/status note:** Nathan Direct, 2026-09-19; propagated to BEDROCK 2026-09-19.
+
+### OC-002 — Temporal support of electromagnetic/electrogravity interactions
+
+- **Status:** ND + OC
+- **Scope:** wavefront-local update, Kelvin vortices, timesheet solitons, responsive-medium interpretation
+- **Statement:** The active time-wavefront thickness remains the preferred first-pass *region of update*. Whether electromagnetic effects also persist in portions of the 4D block ahead of or behind a passing sheet is **open**. A strictly wavefront-local account is Nathan's tentative preference, **not a settled law**. The historic t-boson/f-boson and timesheet-soliton vocabulary and a responsive medium are to be compared for which, if any, physical state persists.
+- **Preserved distinctions:** Worldtube continuity and back-tug/transtemporal interbraid force remain inherited SAT modeling commitments. Electromagnetic memory is a separate unresolved constitutive question. Neither a static Coulomb law nor a toolkit's vortex analogy demonstrates complete Maxwell/QED dynamics.
+- **Source:** Nathan Direct, 2026-10-09 current conversation; raw message anchor pending. [Mercer bounded source/geometry check](WORKSPACES/MERCER/2026-10-09_KERR_ER_SLAB_INHERITANCE_AND_ARCHIVE_PASS.md).
+- **Next discriminator:** derive Coulomb stationary limit *and* finite-speed response to time-dependent charge currents in at least a wavefront-only and persistent-medium version, before tuning to CODATA.
 
 ---
 
@@ -153,6 +175,30 @@ Use this template:
 ---
 
 ## 5. Nathan Direct override / amendment intake
+
+### ND-2026-10-09-01 — SAT inheritance; H(s)H Kerr/ER tube core is the *working* hypothesis
+
+- **Authority:** Nathan Direct, current conversation 2026-10-09, raw export/message ID pending; not a claim that current particle-physics theory is validated.
+- **Scope:** SAT-to-H(s)H construction and source/tool ingestion.
+- **Controls:** SAT worldlines in Minkowski space with a linear or radial w, extended as H(s)H finite-core worldtubes. Do **not** import Hopf carriers, extra spherical ontology, vertices or outside constructions as prerequisites.
+- **Working hypothesis, TENTATIVE:** H(s)H worldtubes as Kerr-like Einstein–Rosen structures; the Kerr ring as an intersection trace of a tube singular support; a conjectured geometric origin of exclusion; candidate closed-string-like intersections of shell substructure and topology-dependent modes. These are proposed model maps, not already-derived spin statistics, conventional Kerr horizons, or established string-theoretic identities.
+- **Inherited SAT mechanisms:** four-dimensional physical worldtube continuity, interbraid/back-tug/transtemporal interactions for gravitation and strong-like behavior within the model. Operational physical validity is separate.
+- **Preserved OC:** electrogravity/Kelvin mechanism and whether EM influence exists outside the **finite-thickness active update wavefront**; no premature decision on persistent medium versus localized timesheet-soliton/t-/f-boson implementation. See OC-002.
+- **Source and reconstruction priority:** read old SAT foundational and failed/superseded constructions; use real HsH conversations including loose and root exports, and the permitted reference toolkit as *external machinery*, never as imported ontology. Follow literal Nathan wording and preserve provenance.
+- **Affects:** BR-001 ancestry; live Kerr/Kelvin construction status; OC-002; Mersearch historical mathematical genealogy and glossary typing.
+- **Test/coverage note:** [Mercer analytical checkpoint](WORKSPACES/MERCER/2026-10-09_KERR_ER_SLAB_INHERITANCE_AND_ARCHIVE_PASS.md) includes conditional geometry checks, limitations, and sampled primary documents. That checkpoint is *sandbox assistant work*, not a Nathan-authored derivation.
+- **No supersession of earlier primary SAT:** newer formulation extends old SAT but does not erase historical formalism or failed explorations.
+
+
+**October 9 amendment:** [Nathan Direct internal-first source and model directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) controls the conditional prior-art release and continuing source restrictions. Earlier blanket exclusion language below is retained as historical text where not yet reconciled.
+
+### ND-2026-10-09-02 — Straight vacuum filament and partial prior-art access release
+
+- **Authority:** Direct user cross-post, October 9, 2026, signed with signet represented **only** as `[OWL]`; raw conversation/message IDs pending archive.
+- **Model clarification:** A SAT worldline does *not* wrap around a carrier. H(s)H extends it as a finite-core worldtube. Straight aligned tube is the conjectured ideal vacuum limit: 90° to timesheet / 0° from time normal and propagation; current BR-005 `θ₄=0` applies. Possible vacuum worldtube ocean, condensate-like organization, photon/photoneutrino traveling excitations, ER/Kerr core/ring/sheath and the cosmological origin of coil formation remain separately **TENTATIVE/OPEN**, not experimentally demonstrated.
+- **Quarantine override (SCHOLARLY PRIOR ART):** The former **blanket** hard exclusion of `PRIOR_ART` is lifted for other outside materials **only after** tracing and citing SAT/H(s)H-internal precedents. Outside/nLab/braid sources are comparisons, bibliographic/mainstream-legibility aids, not default H(s)H foundations. **Hypothesis H proper and directly Schreiber-authored materials stay strictly off-limits.** When attribution is uncertain, refrain from access. This does not silently waive distinct private material, stopped-integration or exposure rules.
+- **Source:** [Nathan-direct scope/routing note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Underlying signed user message is controlling; this entry is an indexed summary.
+- **Updates:** supersedes section 8's blanket `PRIOR_ART` prohibition *only in the above limited scholarly sense*; modifies ND-2026-10-09-01 and OC-002; preserves BR-000/001 ancestry. No physical claim is promoted by this document.
 
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
@@ -222,7 +268,7 @@ These links are intentionally status-separated from the foundational section. Th
 - **HsH:** current public H(s)H working/archive environment and this control surface.
 - **HSH_RESOURCES / permitted RESOURCES:** active supporting material; not generally quarantined.
 - **Toolkit:** active mathematical resource library for H(s)H work.
-- **PRIOR_ART:** hard quarantine. Do not import quarantine-side content or reasoning into this register except through explicitly cleared routing.
+- **PRIOR_ART and previously quarantined material:** older blanket prohibition superseded **for nonrestricted sources only**, subject to internal SAT/H(s)H first-appearance and citation review. **Hypothesis H proper and direct Schreiber-authored material remain hard-quarantined/off-limits** wherever copied. Default automated exclusions and public-release privacy rules remain in force until a source is individually screened. See [October 9 directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md).
 
 ---
 

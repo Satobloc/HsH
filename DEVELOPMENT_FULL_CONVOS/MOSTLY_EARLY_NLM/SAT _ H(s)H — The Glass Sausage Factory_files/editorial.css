@@ -1,0 +1,104 @@
+/* Shared editorial system: compact type, restrained chrome, dense source objects. */
+:root{--site-title:clamp(2rem,3.2vw,2.8rem);--section-title:clamp(1.35rem,2vw,1.8rem);--card-title:clamp(1rem,1.2vw,1.13rem)}
+html{scroll-padding-top:6rem}
+body{font-size:15px;line-height:1.52}
+body main{line-height:1.52}
+h1{font-size:var(--site-title)!important;line-height:1.06!important}
+h2{font-size:var(--section-title)!important;line-height:1.16!important}
+h3{font-size:var(--card-title)!important;line-height:1.25!important}
+.lede,.dek{font-size:1rem!important;line-height:1.5!important}
+body main>header.hero,body main>.hero,body main>.intro,body main>.masthead{padding-top:1.5rem!important;padding-bottom:1.2rem!important;min-height:0!important}
+body main>section{scroll-margin-top:5rem}
+body main>section:not(.live-desk){margin-block:0}
+body nav{gap:.8rem;scrollbar-width:thin}
+body nav a{font-size:.82rem}
+body .tag,body .eyebrow,body .status,body .label{letter-spacing:.1em}
+body .card,body .item,body .entry,body .episode,body .news-item{line-height:1.46}
+body .card p,body .item p,body .entry p{margin-top:.4rem}
+body .button{padding:.47rem .7rem;font-size:.86rem}
+body img{max-width:100%;height:auto}
+/* Compact source-aware headline strip on every page. */
+.live-ribbon{position:relative;background:#20282e;border-bottom:1px solid #405159;color:#d8e2e3;z-index:4}
+.live-ribbon-inner{max-width:1180px;margin:auto;padding:.35rem 1.25rem;display:flex;align-items:center;gap:.75rem;min-width:0}
+.live-ribbon-label{flex:none;font-size:.7rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:#e7c291;text-decoration:none;border-right:1px solid #52616b;padding-right:.8rem}
+.live-ribbon-items{display:flex;align-items:center;gap:1.25rem;overflow-x:auto;scrollbar-width:thin;white-space:nowrap;min-width:0;flex:1;font-size:.8rem}
+.live-ribbon-items a{flex:none;color:#e1e7e6;text-decoration:none;max-width:38ch;overflow:hidden;text-overflow:ellipsis}
+.live-ribbon-items a:hover{text-decoration:underline}
+.live-ribbon-end{flex:none;font-size:.76rem;color:#c6d7d7;text-decoration:none}
+/* Homepage: small modules and image shapes chosen by the source aspect ratio. */
+body.home-tight .hero{grid-template-columns:minmax(0,1fr) auto!important}
+body.home-tight .hero-visual{width:210px;max-width:100%;justify-self:end;border:0;box-shadow:none}
+body.home-tight .hero-visual img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+body.home-tight .hero-visual figcaption{position:static;padding:.3rem 0;font-size:.68rem;background:none}
+body.home-tight .time-quote{margin:.2rem 0 .7rem;padding:.62rem 1rem}
+body.home-tight .time-quote p{font-size:clamp(1.12rem,1.8vw,1.5rem)}
+body.home-tight .time-quote footer{font-size:.76rem}
+body.home-tight .front-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}
+body.home-tight .front-tile{display:grid;grid-template-columns:104px minmax(0,1fr);grid-template-rows:auto auto 1fr;column-gap:.7rem;align-items:start;min-height:104px}
+body.home-tight .front-tile img{grid-column:1;grid-row:1/4;width:104px;height:104px;object-fit:contain;padding:0;background:#080a0d}
+body.home-tight .front-tile span,body.home-tight .front-tile strong,body.home-tight .front-tile small{grid-column:2;padding-left:0;padding-right:.55rem}
+body.home-tight .front-tile span{padding-top:.45rem}
+body.home-tight .front-tile strong{line-height:1.18}
+body.home-tight .front-tile small{margin:0}
+body.home-tight #podcast .thumb-strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.home-tight #podcast .thumb-strip a{display:grid;grid-template-columns:100px minmax(0,1fr);align-items:center}
+body.home-tight #podcast .thumb-strip img{width:100px;height:100px;object-fit:contain}
+body.home-tight #podcast .thumb-strip span{padding:.5rem}
+body.home-tight #visuals .era-images{align-items:start}
+body.home-tight #visuals .era-images img{width:100%;height:auto;object-fit:contain}
+body.home-tight #visuals .gallery{display:block;columns:3;column-gap:.7rem}
+body.home-tight #visuals .gallery figure{display:inline-block;width:100%;break-inside:avoid;margin:0 0 .7rem;vertical-align:top}
+body.home-tight #visuals .gallery img,body.home-tight #visuals .gallery img[src$="gendarme-graticule.jpeg"]{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+body.home-tight #visuals .gallery figcaption{padding:.65rem;font-size:.77rem}
+body.home-tight .other-project img{width:100%;height:auto;min-height:0;object-fit:contain}
+/* Live research desk uses editorial feeds, with explicit worker intake. */
+body.home-tight .live-desk{padding:.85rem 0 1rem;border-top:2px solid #87989a}
+.desk-heading{display:flex;justify-content:space-between;gap:1rem;align-items:end;margin-bottom:.65rem}
+.desk-heading h2{margin:.1rem 0!important}
+.desk-heading p{max-width:43ch;margin:0;color:#b5c1c2;font-size:.86rem;line-height:1.38}
+.desk-grid{display:grid;grid-template-columns:1.05fr 1fr .95fr;gap:.6rem}
+.desk-panel{min-width:0;background:#10171c;border:1px solid #3a484e;border-top:3px solid #91abaa}
+.desk-panel:nth-child(2){border-top-color:#8ca1bc}
+.desk-panel-worker{border-top-color:#ae9d87}
+.desk-panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:.4rem;padding:.62rem .75rem .25rem}
+.desk-panel-head h3{margin:0!important}
+.desk-panel-head a,.desk-source{font-size:.72rem;color:#adcfd0;white-space:nowrap}
+.desk-feed-state{font-size:.7rem;color:#b0bec0;margin:0;padding:0 .75rem .4rem;border-bottom:1px solid #2f3a40}
+.feed-error{color:#ecc7a3}
+.desk-scroll{height:252px;overflow:auto;scrollbar-width:thin;scrollbar-color:#7a9098 #161d22;overscroll-behavior:contain}
+.desk-scroll:focus-visible{outline:2px solid #afd0d0;outline-offset:-2px}
+.desk-story{padding:.58rem .75rem;border-bottom:1px solid #2b363c;display:grid;gap:.16rem}
+.desk-story:last-child{border-bottom:0}
+.desk-story.priority{background:#18232a}
+.desk-meta{font-size:.69rem;text-transform:uppercase;letter-spacing:.075em;color:#b6c6c9}
+.desk-headline{display:block;color:#f1f2ee;text-decoration:none;font:700 1rem/1.2 Georgia,serif}
+.desk-headline:hover{text-decoration:underline}
+.desk-relation{font-size:.76rem;color:#b4bec0;line-height:1.35}
+.desk-empty{font-size:.82rem;color:#b4bec0;padding:.6rem .75rem;margin:0}
+.desk-bottom{display:flex;align-items:center;justify-content:space-between;gap:1rem;border-bottom:1px solid #3b484b;padding:.6rem .1rem}
+.desk-quote{display:flex;align-items:baseline;gap:.75rem;min-width:0}
+.desk-quote blockquote{font:italic 1rem/1.35 Georgia,serif;margin:0;color:#e8e2dc}
+.desk-quote .desk-source{white-space:normal}
+.desk-updates{white-space:nowrap;font-size:.8rem}
+/* Other pages share the newspaper rhythm while retaining their own tools. */
+body:not(.home-tight) main{max-width:1180px}
+body:not(.home-tight) .hero,body:not(.home-tight) .intro,body:not(.home-tight) .masthead{gap:1.3rem}
+body:not(.home-tight) section{scroll-margin-top:5rem}
+body:not(.home-tight) .controls{padding:.7rem;gap:.55rem}
+body:not(.home-tight) .card,body:not(.home-tight) .entry{padding:1rem}
+body:not(.home-tight) .results,body:not(.home-tight) .grid{gap:.7rem}
+body:not(.home-tight) .update{gap:1rem;padding:.85rem 0}
+body:not(.home-tight) .episode img{object-fit:contain;background:#080a0d}
+@media(max-width:900px){.desk-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.desk-panel-worker{grid-column:1/-1}.desk-panel-worker .desk-scroll{height:150px}.desk-heading{display:block}.desk-heading p{margin:.25rem 0 0}}
+@media(max-width:700px){body.home-tight .hero{grid-template-columns:1fr!important}body.home-tight .hero-visual{justify-self:start;width:180px}body.home-tight .front-grid{grid-template-columns:1fr}body.home-tight #podcast .thumb-strip{grid-template-columns:1fr}body.home-tight #visuals .gallery{columns:2}.desk-grid{grid-template-columns:1fr}.desk-panel-worker{grid-column:auto}.desk-scroll{height:195px}.desk-bottom,.desk-quote{display:block}.desk-quote blockquote{margin:.25rem 0}.desk-updates{display:inline-block;margin-top:.4rem}.live-ribbon-inner{padding-inline:.65rem}}
+@media(max-width:480px){body.home-tight #visuals .gallery{columns:1}body.home-tight .front-tile{grid-template-columns:86px minmax(0,1fr);min-height:86px}body.home-tight .front-tile img{width:86px;height:86px}body.home-tight .front-tile small{font-size:.76rem}body.home-tight #podcast .thumb-strip a{grid-template-columns:82px minmax(0,1fr)}body.home-tight #podcast .thumb-strip img{width:82px;height:82px}}
+@media(prefers-reduced-motion:reduce){.live-ribbon{scroll-behavior:auto}}
+.updates-live{padding:1rem 0 1.3rem;margin-bottom:1rem;border-bottom:1px solid #465257}
+.updates-live .desk-grid{margin-top:.6rem}
+@media(max-width:760px){body .top nav{display:flex;overflow-x:auto;white-space:nowrap}body .top nav a:not(.mark){display:inline-flex}body .top{overflow-x:auto}body .top>a,body .top>.back{flex:none}}
+body.home-tight main>section.live-desk{padding:.7rem 0 1rem}
+body.home-tight .live-desk .desk-scroll{height:205px}
+@media(max-width:700px){body.home-tight .live-desk .desk-scroll{height:185px}}
+.home-paper-lead{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin:.5rem 0}
+.home-paper-lead>div{border:1px solid #4a585b;background:#11191d;padding:.9rem}.home-paper-lead h3{margin:.3rem 0}.home-paper-lead p{font-size:.86rem;color:#bbc8c7;margin:.3rem 0 .65rem}
+@media(max-width:700px){.home-paper-lead{grid-template-columns:1fr}}

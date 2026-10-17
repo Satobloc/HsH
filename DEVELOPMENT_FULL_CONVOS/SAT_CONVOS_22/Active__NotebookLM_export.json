@@ -1,0 +1,1171 @@
+{
+  "metadata": {
+    "notebook_title": "Active",
+    "notebook_id": "004a4730-1e7f-4ff6-9f67-da9c619295df",
+    "notebook_url": "https://notebook.google.com/notebook/004a4730-1e7f-4ff6-9f67-da9c619295df?authuser=2",
+    "captured_at": "2026-10-11T10:07:30.563Z",
+    "visible_source_count": 21,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "exporter_version": "0.2.2",
+    "reached_top": true,
+    "scans": 35
+  },
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "text": "OK, can you list all of the Chinese words/phrases",
+      "citations": [],
+      "key": "e763bd4f"
+    },
+    {
+      "index": 2,
+      "role": "user",
+      "text": "Based on the provided images, here are the Chinese words and phrases appearing in the sources:\n自家松树 (Zìjiā sōngshù): Family/home pine tree\nlock\n.\n松香备用 (Sōngxiāng bèiyòng): Pine resin (rosin) set aside for use\nlock\nmore_horiz\n.\n松油炼化 (Sōngyóu liànhuà): Refining pine oil\nlock\n.\n竹叶 (Zhúyè): Bamboo leaves\nlock\n.\n面粉 (Miànfěn): Flour\nlock\n.\n糯米粉揉团 (Nuòmǐfěn róu tuán): Kneading glutinous rice flour into a ball\nlock\n.\n擀平 (Gǎn píng): To roll flat (often referring to dough)\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "2599cbbd"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "text": "OK… How do you like the logic of the video?",
+      "citations": [],
+      "key": "8b6254bc"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "text": "The logic presented in the video centers on the physical, biological, and informational constraints that would govern hypothetical scenarios like time travel, prehistoric survival, and space communication. Instead of focusing on how to travel through time, the speakers focus on the \"credibility problem\" and the practical realities of such a journey.\nProving You Are a Time Traveler\nThe core logic for proving one’s origin in the past (e.g., 2007) rests on the accumulation of verifiable \"lost\" information\nlock\nlock\n.\nThe Credibility Problem: Future knowledge alone isn't enough because people often find simpler explanations, like luck or being \"in cahoots\" with a system (such as the lottery)\nlock\nlock\n.\nMultiple Data Points: The video argues that providing coordinates for one lost item might be luck, but providing coordinates for multiple, diverse items (e.g., the Titanic, the HMS Endurance, and the Baltimore gold horde) makes time travel the most logical explanation\nlock\nlock\n.\nImmediate Verification: Unlike sports results or lottery numbers, which require waiting for the event to happen, coordinates for lost items allow for immediate discovery and verification\nlock\n.\nSurvival in the Jurassic Period\nThe logic regarding traveling 150 million years ago highlights that humans would likely face biological and atmospheric failure\nlock\n.\nLack of Nutrition: Because flowering plants did not exist, there would be no fruit, legumes, or root vegetables\nlock\n.\nChemical Hazards: Many prehistoric plants (like cycads) and the dinosaurs that ate them were likely loaded with carcinogens, meaning your options would be \"eat nothing or cancer\"\nlock\n.\nAtmospheric Toxicity: CO2 levels were 5 to 10 times higher than today, meaning a time traveler would suffer from CO2 toxicity and be perpetually out of breath\nlock\n.\nThe Speed of Light and Space Communication\nThe video uses the logic of finite light speed to demonstrate why deep-space \"conversations\" are impossible\nlock\n.\nThe Moon: A delay of ~1.3 seconds makes conversation awkward but possible\nlock\nlock\n.\nMars: A delay of 3 to 21 minutes shifts communication into \"voice note territory\"\nlock\n.\nProxima Centuri: A 4.25-year delay one-way means that by the time a reply is received, over 8.5 years have passed, rendering the information obsolete\nlock\n.\nThe Physics of Wormholes\nWhen considering wormholes between Earth locations (like London and Denver), the logic focuses on pressure differentials\nlock\nlock\n.\nStructural Failure: Opening a portal between sea level and high altitude would cause air to rush through at roughly 150 m/s—worse than a Category 5 hurricane\nlock\n.\nTemperature Extremes: The rapid expansion of air into a lower-pressure environment would cause temperatures to drop by tens of degrees instantly, creating freezing blasts and localized weather (clouds or condensation)\nlock\n.\nThe Limit of Collective Knowledge\nThe video explores the logic of when human knowledge became \"too big\" for one person to know\nlock\n.\nThe Printing Press Metric: Using English printed books as a proxy, the \"tipping point\" is estimated at the year 1529. Before this, one could potentially have read every English book printed; by 1530, the rate of publication became too high to catch up\nlock\n.\nTool Use as a Barrier: The logic suggests that once humans began inventing tools and specialized skills (like stone-napping or fermentation), it became impossible to know everything collectively because knowledge became specialized within specific groups\nlock\nlock\n.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "0620b432"
+    },
+    {
+      "index": 5,
+      "role": "user",
+      "text": "Would you say the logic is pretty solid?",
+      "citations": [],
+      "key": "4e7b58b8"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "text": "Based on the sources, the logic presented by the speakers is highly rigorous because it shifts away from speculative \"sci-fi\" tropes and instead applies established physics, biology, and historical data to hypothetical scenarios.\nHere is an evaluation of the \"solidity\" of the logic in several key areas:\n1. The Logic of Credibility (Time Travel)\nThe speakers argue that knowledge of the future (like lottery numbers) is logically weak for proving time travel because there are simpler explanations, such as being \"in cahoots\" with the lottery organizers\nlock\n. The logic for the \"slap bracelet\" tool is solid because it relies on the accumulation of evidence:\nStatistical Probability: While finding one lost item (like the Titanic) could be attributed to luck or expertise, finding multiple, diverse items (a shipwreck, a gold hoard, and an ancient manuscript) makes the \"time traveler\" explanation more logically sound than \"the world's luckiest person\"\nlock\n.\nImmediate Verification: Unlike waiting 13 years for a pandemic to happen, coordinates for lost items allow for instant proof\nlock\nlock\n.\n2. The Logic of Biological Constraints (The Jurassic)\nThe assessment of survival 150 million years ago is based on evolutionary biology and atmospheric science rather than just \"avoiding predators\":\nNutritional Logic: Because flowering plants had not yet evolved, there would be no fruit, legumes, or root vegetables, leaving a human with essentially \"no aisles of the supermarket\"\nlock\nlock\n.\nAtmospheric Reality: The logic regarding CO2 toxicity is particularly strong; with CO2 levels 5 to 10 times higher than today, a human would be perpetually out of breath and physically compromised, making survival difficult regardless of food source\nlock\n.\n3. The Logic of Physics (Wormholes and Space)\nThe speakers apply fluid dynamics and thermodynamics to demonstrate the practical \"nightmare\" of wormholes:\nPressure Differentials: Connecting London (sea level) to Denver (high altitude) isn't just a doorway; it's a structural failure. The logic uses the 2.6 PSI difference to predict air rushing at 150 m/s—faster than a Category 5 hurricane\nlock\n.\nThermodynamic Cooling: They correctly apply the logic of rapid gas expansion, noting that air moving into lower pressure would drop in temperature by tens of degrees instantly, creating localized freezing weather\nlock\n.\nSpeed of Light: The logic regarding deep-space communication is a simple but solid application of finite light speed, proving that a \"conversation\" with Proxima Centuri is impossible because information would be obsolete by the time a reply arrived 8.5 years later\nlock\n.\n4. The Logic of Information Scarcity vs. Abundance\nThe attempt to find the \"tipping point\" of human knowledge uses verifiable data points:\nThe Printing Press Metric: By using the number of English books printed annually, they establish 1529 as a logical limit for individual mastery. Before 1530, the publication rate (about 18 books a year) was \"catch-upable,\" but the jump to 96 books in 1530 made it impossible for one person to keep pace\nlock\n.\nSpecialization: They argue that tool use is the logical point where \"collective knowledge\" became impossible for one person to hold, as skills (like stone-napping or ancient chemistry) became specialized within specific groups\nlock\nlock\n.\nOverall, the logic is \"solid\" because it prioritizes environmental and physical barriers that are often ignored in popular fiction. It treats time travel and space exploration as problems of logistics, biology, and data management rather than just technological capability.",
+      "citations": [
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "lock",
+          "aria_label": null,
+          "disabled": null
+        }
+      ],
+      "key": "33bf72c2"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "text": "Let’s see if we can make a plan to take the universal indicatrix and the other new tools I just added, and go through SAT to test it’s consistency and coherence, and to make some new predictions or rule out old ones",
+      "citations": [],
+      "key": "51b37ef8"
+    },
+    {
+      "index": 8,
+      "role": "user",
+      "text": "This plan outlines a rigorous path to testing the Scalar–Angular–Twist (SAT) framework by integrating the Universal Indicatrix with your latest theoretical developments, including the MARK IV.2 Lagrangian, the quantization triad, and recent Lab 1 simulation results.\nPhase I: Mathematical Consistency & Formal Closure\nBefore moving to the Indicatrix, we must address the \"technical next steps\" and \"weak points\" identified by the Brain Trust to ensure the model is built on a stable foundation\n1\n2\n.\nConstraint Algebra Closure: Complete the Dirac–Bergmann algorithm for the u\nμ\n sector in 3+1D\n3\n4\n. We must verify that the unit-timelike constraint (u\nμ\nu\nμ\n\t​\n\n=−1) and the τ-fusion rules form a closed, ghost-free system\n5\n6\n.\nStress-Energy Tensor Derivation: Derive the explicit Stress–Energy tensor (T\nμν\n) for the combined θ\n4\n\t​\n\n,u\nμ\n, and τ fields\n7\n8\n. This is required to bridge the theory to General Relativity (GR) and assess energy-momentum conservation\n7\n9\n.\nFormalize τ Dynamics: Transition τ from a \"combinatorial label\" to a dynamical BF-type topological action\n10\n11\n. This ensures that the topological sector can participate in wave propagation and scattering\n12\n13\n.\nPhase II: The Universal Indicatrix Mapping\nThe Universal Indicatrix acts as a \"geometric laboratory\" to translate SAT’s field equations into observable trajectories\n14\n15\n.\nControl History Encoding: Translate the MARK IV.2 Lagrangian into Indicatrix control functions: scale history r(λ) and rotational history R(λ)\n14\n16\n.\nThe \"Hydrogen Test\": Attempt to reproduce a known quantum system (like the hydrogen atom) within the Indicatrix\n17\n18\n. We must show that electron filament configurations inside the hypersphere naturally produce discrete energy levels and orbital shapes that match experimental values\n18\n19\n.\nInvariant Verification: Use the Indicatrix to see if the theory can produce quantized invariants such as spin values (½, 1, 2), charge quantization, and stable particle families\n20\n21\n.\nPhase III: Testing Coherence & Rule-Outs\nWe will use the Indicatrix and the \"Hardest-to-Kill\" prediction list to evaluate which aspects of SAT survive rigorous scrutiny\n22\n23\n.\nEvaluate Redshift vs. Mass Drift: Investigate the \"necessary implication\" that redshift is caused by mass-standard drift rather than metric expansion\n24\n25\n. If this contradicts CMB or BBN constraints, it may need to be reclassified as a \"non-core speculative add-on\"\n26\n27\n.\nTest Cross-Temporal Tugs: Use the Indicatrix to model \"tugs from the future\"\n28\n29\n. Test if future coiling events (like τ-triplet binding) induce measurable pre-strain on the u\nμ\n foliation that affects the initial measurement of delicate systems\n30\nmore_horiz\n.\nLorentz Violation Bounds: Measure the \"distance\" in the Indicatrix control space between SAT’s preferred foliation and GR’s diffeomorphism invariance\n21\nmore_horiz\n. If the predicted inertial anisotropy exceeds known bounds (10\n−27\n), the coupling scale β must be suppressed or the theory revised\n9\n35\n.\nPhase IV: New Predictive Frontiers\nLeverage the unified framework to propose \"Class D\" (entirely new) relationships\n36\n37\n.\nTRON Material Discovery: Use the reverse-engineered α-aperture (~36.5°) to predict specific synthetic crystalline materials that will exhibit high-temperature superconductivity through angular alignment\n38\nmore_horiz\n.\nTension-Induced Decay: Formalize the \"Tension-Coupled Temporal Phenomena\" class\n41\n42\n. Predict non-stochastic decay synchronization in clusters of particles that share future topological binding\n42\n43\n.\nLensing via Compton Geometry: Develop a test for the \"new lensing formulation\" that uses Compton geometry instead of purely Riemannian metrics\n44\n45\n. Look for non-metric lensing signatures near dense θ\n4\n\t​\n\n regions\n46\n47\n.\nSummary of Success/Failure Criteria\nSAT Wins if: The Indicatrix yields discrete eigenvalues for energy and spin from purely geometric filament structures\n19\n48\n, or if a predicted 0.24 rad phase shift is detected in a blind optical stack test\n49\nmore_horiz\n.\nSAT Fails if: The Indicatrix cannot reproduce the Standard Model's quantized invariants, or if the Stress–Energy tensor reveals unphysical instabilities (ghosts) that cannot be suppressed by parameter tuning\n52\n53\n.",
+      "citations": [
+        {
+          "label": "1",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "2",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "3",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "4",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "5",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "6",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "8",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "7",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "10",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "11",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "12",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "13",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "15",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "14",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "16",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "17",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "18",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "20",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "22",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "23",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "24",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "25",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "26",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "27",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "28",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "29",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "30",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "21",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "9",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "35",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "36",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "37",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "38",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "41",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "42",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "43",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "44",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "45",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "46",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "47",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "19",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "48",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "49",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "more_horiz",
+          "aria_label": null,
+          "disabled": null
+        },
+        {
+          "label": "52",
+          "aria_label": null,
+          "disabled": "false"
+        },
+        {
+          "label": "53",
+          "aria_label": null,
+          "disabled": "false"
+        }
+      ],
+      "key": "a869d7b0"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "title": "Collapse source panel",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Add source",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "language\nWeb\nkeyboard_arrow_down\nsearch_spark\nFast Research\nkeyboard_arrow_down\narrow_forward",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Auto-label your sources by topic",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Sort sources",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "Drop files here",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9636.gif",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9636.gif",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "more_vert",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9637.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9637.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9638.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9638.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9639.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9639.webp",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9640.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9640.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9675.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9675.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9676.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9676.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9677.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9677.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9678.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9678.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9679.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9679.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9680.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9680.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9681.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9681.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9682.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9682.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9683.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9683.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9684.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9684.jpeg",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9686.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9686.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9687.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9687.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9690.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9690.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9695.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9695.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9696.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9696.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "image\nIMG_9698.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "IMG_9698.png",
+      "row_text": null
+    },
+    {
+      "source_id": null,
+      "title": "21 sources",
+      "row_text": null
+    }
+  ],
+  "studio": [
+    {
+      "text": "🎉\nNew: You can now create Interactive Reports!\nTry it\nclose"
+    },
+    {
+      "text": "audio_spark\nAudio Overview\ntablet\nSlide Deck\nvideocam\nVideo Overview\nflowchart\nMind Map\nauto_tab_group\nReports\nNew!\ncopy\nFlashcards\nquiz\nQuiz\nstacked_bar_chart\nInfographic\nformat_list_bulleted\nData Table"
+    },
+    {
+      "text": "audio_spark\nAudio Overview"
+    },
+    {
+      "text": "audio_spark"
+    },
+    {
+      "text": "tablet\nSlide Deck"
+    },
+    {
+      "text": "tablet"
+    },
+    {
+      "text": "videocam\nVideo Overview"
+    },
+    {
+      "text": "videocam"
+    },
+    {
+      "text": "flowchart\nMind Map"
+    },
+    {
+      "text": "flowchart"
+    },
+    {
+      "text": "auto_tab_group\nReports"
+    },
+    {
+      "text": "auto_tab_group"
+    },
+    {
+      "text": "copy\nFlashcards"
+    },
+    {
+      "text": "copy"
+    },
+    {
+      "text": "quiz\nQuiz"
+    },
+    {
+      "text": "quiz"
+    },
+    {
+      "text": "stacked_bar_chart\nInfographic"
+    },
+    {
+      "text": "stacked_bar_chart"
+    },
+    {
+      "text": "format_list_bulleted\nData Table"
+    },
+    {
+      "text": "format_list_bulleted"
+    },
+    {
+      "text": "tablet\nThe Buckeye Synergy\n33 sources · 163d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Buckeye Synergy\n33 sources · 163d ago"
+    },
+    {
+      "text": "The Buckeye Synergy\n33 sources · 163d ago"
+    },
+    {
+      "text": "The Buckeye Synergy"
+    },
+    {
+      "text": "33 sources · 163d ago"
+    },
+    {
+      "text": "more_vert"
+    },
+    {
+      "text": "flowchart\nThe Cartography and Character of Ohio\n33 sources · 163d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Cartography and Character of Ohio\n33 sources · 163d ago"
+    },
+    {
+      "text": "The Cartography and Character of Ohio\n33 sources · 163d ago"
+    },
+    {
+      "text": "The Cartography and Character of Ohio"
+    },
+    {
+      "text": "tablet\nPlanetary Impact Dynamics\n1 source · 169d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nPlanetary Impact Dynamics\n1 source · 169d ago"
+    },
+    {
+      "text": "Planetary Impact Dynamics\n1 source · 169d ago"
+    },
+    {
+      "text": "Planetary Impact Dynamics"
+    },
+    {
+      "text": "1 source · 169d ago"
+    },
+    {
+      "text": "audio_spark\nThe day the Earth turned to plasma\n18:30 · Deep Dive · 1 source · 169d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nThe day the Earth turned to plasma\n18:30 · Deep Dive · 1 source · 169d ago"
+    },
+    {
+      "text": "The day the Earth turned to plasma\n18:30 · Deep Dive · 1 source · 169d ago"
+    },
+    {
+      "text": "The day the Earth turned to plasma"
+    },
+    {
+      "text": "18:30 · Deep Dive · 1 source · 169d ago"
+    },
+    {
+      "text": "waving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "waving_hand\nplay_arrow"
+    },
+    {
+      "text": "waving_hand"
+    },
+    {
+      "text": "play_arrow"
+    },
+    {
+      "text": "stacked_bar_chart\nDramatic Planetary Impact and Energy\n1 source · 169d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nDramatic Planetary Impact and Energy\n1 source · 169d ago"
+    },
+    {
+      "text": "Dramatic Planetary Impact and Energy\n1 source · 169d ago"
+    },
+    {
+      "text": "Dramatic Planetary Impact and Energy"
+    },
+    {
+      "text": "tablet\nPlanetary Impact Telemetry\n1 source · 169d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nPlanetary Impact Telemetry\n1 source · 169d ago"
+    },
+    {
+      "text": "Planetary Impact Telemetry\n1 source · 169d ago"
+    },
+    {
+      "text": "Planetary Impact Telemetry"
+    },
+    {
+      "text": "stacked_bar_chart\nPhysics of Planetary Impact\n1 source · 169d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nPhysics of Planetary Impact\n1 source · 169d ago"
+    },
+    {
+      "text": "Physics of Planetary Impact\n1 source · 169d ago"
+    },
+    {
+      "text": "Physics of Planetary Impact"
+    },
+    {
+      "text": "flowchart\nThe Thermodynamics of Planetary Collision Dynamics\n1 source · 169d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nThe Thermodynamics of Planetary Collision Dynamics\n1 source · 169d ago"
+    },
+    {
+      "text": "The Thermodynamics of Planetary Collision Dynamics\n1 source · 169d ago"
+    },
+    {
+      "text": "The Thermodynamics of Planetary Collision Dynamics"
+    },
+    {
+      "text": "article\nThe Fluid Dynamics and Thermal Evolution of Planetary Impacts\n169d ago\nmore_vert"
+    },
+    {
+      "text": "article\nThe Fluid Dynamics and Thermal Evolution of Planetary Impacts\n169d ago"
+    },
+    {
+      "text": "article"
+    },
+    {
+      "text": "The Fluid Dynamics and Thermal Evolution of Planetary Impacts\n169d ago"
+    },
+    {
+      "text": "The Fluid Dynamics and Thermal Evolution of Planetary Impacts"
+    },
+    {
+      "text": "169d ago"
+    },
+    {
+      "text": "tablet\nUnlocking Forward Reasoning\n1 source · 171d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nUnlocking Forward Reasoning\n1 source · 171d ago"
+    },
+    {
+      "text": "Unlocking Forward Reasoning\n1 source · 171d ago"
+    },
+    {
+      "text": "Unlocking Forward Reasoning"
+    },
+    {
+      "text": "1 source · 171d ago"
+    },
+    {
+      "text": "flowchart\nCognitive Architectures for Analytical Reasoning and Communication\n1 source · 171d ago\nmore_vert"
+    },
+    {
+      "text": "flowchart\nCognitive Architectures for Analytical Reasoning and Communication\n1 source · 171d ago"
+    },
+    {
+      "text": "Cognitive Architectures for Analytical Reasoning and Communication\n1 source · 171d ago"
+    },
+    {
+      "text": "Cognitive Architectures for Analytical Reasoning and Communication"
+    },
+    {
+      "text": "videocam\nCracking Musical Taste\n6:35 · Explainer · 2 sources · 292d ago\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "videocam\nCracking Musical Taste\n6:35 · Explainer · 2 sources · 292d ago"
+    },
+    {
+      "text": "Cracking Musical Taste\n6:35 · Explainer · 2 sources · 292d ago"
+    },
+    {
+      "text": "Cracking Musical Taste"
+    },
+    {
+      "text": "6:35 · Explainer · 2 sources · 292d ago"
+    },
+    {
+      "text": "play_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nListening for Structural Intelligence Intentionality\n33:11 · Deep Dive · 2 sources · 292d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nListening for Structural Intelligence Intentionality\n33:11 · Deep Dive · 2 sources · 292d ago"
+    },
+    {
+      "text": "Listening for Structural Intelligence Intentionality\n33:11 · Deep Dive · 2 sources · 292d ago"
+    },
+    {
+      "text": "Listening for Structural Intelligence Intentionality"
+    },
+    {
+      "text": "33:11 · Deep Dive · 2 sources · 292d ago"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Architecture of Musical Taste\n2 sources · 292d ago\nmore_vert"
+    },
+    {
+      "text": "stacked_bar_chart\nThe Architecture of Musical Taste\n2 sources · 292d ago"
+    },
+    {
+      "text": "The Architecture of Musical Taste\n2 sources · 292d ago"
+    },
+    {
+      "text": "The Architecture of Musical Taste"
+    },
+    {
+      "text": "2 sources · 292d ago"
+    },
+    {
+      "text": "tablet\nThe Listener's Notebook Temporal Intelligence\n1 source · 292d ago\nmore_vert"
+    },
+    {
+      "text": "tablet\nThe Listener's Notebook Temporal Intelligence\n1 source · 292d ago"
+    },
+    {
+      "text": "The Listener's Notebook Temporal Intelligence\n1 source · 292d ago"
+    },
+    {
+      "text": "The Listener's Notebook Temporal Intelligence"
+    },
+    {
+      "text": "1 source · 292d ago"
+    },
+    {
+      "text": "audio_spark\nRavel and Bach Share Temporal Structure\n 32:41 · Deep Dive · 1 source · 292d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nRavel and Bach Share Temporal Structure\n 32:41 · Deep Dive · 1 source · 292d ago"
+    },
+    {
+      "text": "Ravel and Bach Share Temporal Structure\n 32:41 · Deep Dive · 1 source · 292d ago"
+    },
+    {
+      "text": "Ravel and Bach Share Temporal Structure"
+    },
+    {
+      "text": "32:41 · Deep Dive · 1 source · 292d ago"
+    },
+    {
+      "text": "audio_spark\nPhotography in Nathan McKnight's prompts\n19:22 · 684d ago\nwaving_hand\nplay_arrow\nmore_vert"
+    },
+    {
+      "text": "audio_spark\nPhotography in Nathan McKnight's prompts\n19:22 · 684d ago"
+    },
+    {
+      "text": "Photography in Nathan McKnight's prompts\n19:22 · 684d ago"
+    },
+    {
+      "text": "Photography in Nathan McKnight's prompts"
+    },
+    {
+      "text": "19:22 · 684d ago"
+    }
+  ],
+  "capture_log": [
+    {
+      "at": "2026-10-11T10:06:32.438Z",
+      "event": "harvest_complete",
+      "messages": 2,
+      "reachedTop": true
+    },
+    {
+      "at": "2026-10-11T10:07:27.048Z",
+      "event": "harvest_complete",
+      "messages": 8,
+      "reachedTop": true
+    }
+  ]
+}

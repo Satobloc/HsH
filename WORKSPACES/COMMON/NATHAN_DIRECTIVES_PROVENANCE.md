@@ -89,6 +89,32 @@ If a live conversation has not yet entered the raw archive, record the directive
 
 ---
 
+## 2026-10-09 — Straight vacuum worldtubes and narrowed prior-art boundary
+
+- **Local date:** 2026-10-09 EDT (full wall-clock timestamp, conversation ID and node ID pending export backfill).
+- **Authorship:** Nathan Direct, signed in user turn; signet represented as `[OWL]`, never reproduced as a glyph by workers.
+- **Direct construction controls:** Worldlines do not wrap around a carrier. SAT worldline/time-wavefront drawings precede H(s)H finite-core ER/Kerr hypothesis. Straight aligned worldtube = perfect-vacuum reference. Coiling and possible Kerr-shell/ER-support exclusion are conjectural mechanisms requiring derivation. Vacuum worldtube ocean/BEC analogy and photon/photoneutrino excitation route are *working hypotheses*.
+- **Bibliographic/quarantine override:** Former blanket scholarly PRIOR_ART hard ban relaxed. Still STRICTLY OFF LIMITS: Hypothesis H proper and directly Schreiber-authored material. Other formerly quarantined outside/nLab/braid items may be examined only after SAT/H(s)H internal precedent research/citation, then as prior-art/convergence/bibliographic mainstream-legibility comparisons, not foundational constructs. Separate privacy and integration work-halt boundaries remain scoped separately.
+- **Primary control:** [Nathan-direct 2026-10-09 scope note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md).
+- **Pending work:** Extract authoritative Extended FIE PDF and complete canonical RMS with a suitable size-capable reader; compare after SAT-first precedent check; update stale blanket-prior-art routing prose.
+- **Raw source:** current user cross-post; metadata pending.
+
+---
+
+
+## 2026-10-10 — Nathan Direct: constrained geometric encoding and minimal construction
+
+- **Local date:** 2026-10-10 EDT. **Conversation address/URL:** `PENDING CHAT EXPORT / URL BACKFILL` (the live ChatGPT conversation's native URL is not exposed by this connector). **Conversation ID:** `PENDING RAW-ID BACKFILL`. **Message/node IDs:** `PENDING RAW-ID BACKFILL`. **Durable conversation path:** `PENDING LIVE EXPORT`.
+- **Direct authorship:** Nathan (NM), explicit signed request `—NM 10OCT26 [OWL]`; signet transliterated as instructed.
+- **Control:** SAT starts with the sufficiency of a single arbitrarily elaborated geometric line as an information representation. That mathematical information capacity is **not itself** an empirical explanation or a claim of infinitely measurable physical information. SAT **chooses** the Minkowski diagram's worldline/time-surface grammar and already experimentally characterized physics to constrain geometric encodings, rather than permitting arbitrary codebooks. The scientific project is to determine which geometrical possibilities survive these physical/empirical constraints, particularly for the remaining unresolved phenomena. The expectation of a small viable residual family is an inverse-problem hypothesis to check, not established solely by representational capacity.
+- **Strict limit reaffirmed:** `Minkowski + known physics + responsive medium`. An awkward ansatz does not license new physical fields/dimensions/ontology. Assistant-added representation is not Nathan-authored theory.
+- **Exact Nathan source-turn excerpt (verified in this live conversation):** “The SAT position is that a single line, elaborated sufficiently can contain an infinite amount of information.” Nathan also specifies “we choose observable phenomena well characterized by existing physics” and that the remaining unknowns become constrained by “existing geometric commitments imposed upon us by the Minkowski structure.”
+- **Authoritative signed locator:** `WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-10_GEOMETRIC_ENCODING.md`; see its source/transcription and signoff. Companion assistant analysis remains separately at `WORKSPACES/MERIDIAN/SANDBOX/GEOMETRIC_INFORMATION_CAPACITY_VS_PHYSICAL_CONSTRAINT_2026-10-10.md`.
+- **Backfill:** when conversation JSON is deposited, use the quoted wording and date to recover its native conversation URL, conversation ID, and user message/node ID; replace pending locators rather than inventing them. This log entry preserves the live provenance.
+- **Status:** current Nathan clarification; saved on user request.
+
+---
+
 ## Backfill procedure
 
 When the corresponding live conversation JSON enters `LIVE CONVOS` or `DEVELOPMENT_FULL_CONVOS`:

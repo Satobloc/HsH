@@ -1,0 +1,908 @@
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Partly cloudy
+‎42‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+Tech Times
+2.5K Followers
+Spin, not orbital current, powers titanium signal; Nobel laureate study reshapes orbitronics
+Story by Jeremy Fielding • 1d • 11 min read
+
+
+GettyImages-78298666
+GettyImages-78298666
+© SOREN ANDERSSON/gettyimages.com
+A Nobel laureate-co-authored experiment has overturned one of the central assumptions driving a decade of orbitronics research: the idea that orbital angular momentum can travel long distances through titanium and similar light metals. The study, published October 14 in Physical Review Letters by a team led by Melissa Yactayo of Universidad Nacional Mayor de San Marcos in Lima and the Institut Jean Lamour in Nancy, France — and co-authored by Albert Fert, the 2007 Nobel laureate who co-discovered giant magnetoresistance and effectively founded modern spintronics — found instead that what looked like long-range orbital transport was actually spin current doing the heavy lifting in disguise. The full preprint is available at arXiv.
+
+Optimize Kubernetes with Insights
+Optimize Kubernetes with Insights
+Datadog
+Datadog
+·
+Sponsored
+call to action icon
+
+Orbitronics Promised More Than Spintronics. Its Key Assumption Just Failed an Experiment.
+For roughly two decades, spintronics — the field that exploits the intrinsic spin of the electron to store and transmit information — has powered nearly every hard drive, magnetic sensor, and magnetic random-access memory (MRAM) chip manufactured worldwide. Albert Fert and Peter Grünberg's 1988 discovery of giant magnetoresistance (GMR) made it possible to read far smaller magnetic domains on storage media, increasing hard drive density roughly a thousandfold and earning Fert the Nobel Prize in Physics.
+
+The emerging sister field of orbitronics promised to extend those gains further by adding a second quantum handle on the electron: its orbital angular momentum, or OAM — the angular momentum associated with the electron's motion around an atomic nucleus, as distinct from its intrinsic spin. Unlike spintronics, which requires heavy metals with strong spin-orbit coupling to generate usable currents, orbitronics can in principle harness light and abundant 3d transition metals such as titanium, chromium, and vanadium. An extensive nanowerk orbitronics overview explains the field's central premise. Titanium was particularly prized: theoretical calculations predicted that Ti would have one of the largest orbital Hall conductivities of any transition metal — a measure of how strongly a material deflects OAM sideways — while its spin contributions were expected to be negligible. A 2025 Nature Physics Perspective paper by Fukami, Lee, and Kläui on orbitronics challenges and opportunities summarized the field's engineering promise.
+
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Splunk
+Splunk
+·
+Sponsored
+call to action icon
+
+That combination made Ti the ideal sandbox for proving that orbital effects were real, long-range, and distinct from anything spin was doing. Several experimental groups reported orbital diffusion lengths in titanium ranging from roughly 4 nanometers (nm) to as long as 61 nm (2.4 microinches to about 2.4 millionths of an inch) — lengths that would make Ti competitive with spin-transport materials for practical device use. The Yactayo-Fert preprint at arXiv reviews this prior literature in detail.
+
+The Yactayo-Fert paper eliminated that picture.
+
+What the Thickness Test Revealed
+The experiment's logic was straightforward: if orbital angular momentum really travels through a titanium spacer layer as a bulk current, then a thicker Ti spacer should absorb more of it before it reaches a detector. The detected signal should decay with Ti thickness, revealing the orbital diffusion length.
+
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+Yactayo and her collaborators built a series of Ni/(Pt)Ti/Au heterostructures — layered stacks in which a nickel ferromagnet injected angular momentum into a titanium spacer of varying thickness, and a gold layer at the far end converted whatever arrived into a measurable charge signal via the inverse orbital Rashba-Edelstein effect. As described in the Yactayo-Fert paper abstract, they used two independent injection methods — ferromagnetic resonance (FMR), which drives spin and orbital pumping by magnetization oscillation, and the spin/orbital Seebeck effect, which drives angular momentum flow using a thermal gradient — to confirm that results were not an artifact of one particular injection technique.
+
+The titanium layer thickness was varied systematically from 2 nm to 60 nm (0.08 to 2.4 millionths of an inch).
+
+The signal was essentially unchanged across that entire range.
+
+A 60 nm titanium spacer produced the same detected charge current as a 2 nm spacer. That finding, as the team states plainly in the paper's abstract, is "incompatible with orbital transport in Ti." Sixty nanometers far exceeds any plausible orbital diffusion length in any material for which theoretical calculations have been published. Something other than orbital current was crossing those 60 nm.
+
+How Spin Became the Secret Relay
+What was crossing the Ti layer, the team concluded, is spin current — and the orbital character of the signal is an emergent property of conversions at both interfaces of the stack, not of anything traveling through the bulk.
+
+The mechanism the paper proposes operates in three steps. At the near (Ni/Ti) interface, angular momentum injected from the nickel ferromagnet accumulates locally as orbital angular momentum. The large orbital Hall conductivity of titanium is real and active — but it produces orbital polarization that is confined to the interfacial region, not launched into the bulk as a propagating current. The HTML full text of arXiv:2603.28075 details this mechanism. At that same interface, spin-orbit coupling converts the localized orbital accumulation into a spin current, which propagates through the titanium bulk. Titanium's spin transport, despite its weak intrinsic spin-orbit coupling, is competent enough to carry that spin current across tens of nanometers without significant attenuation. At the far (Ti/Au) interface, the arriving spin current is reconverted back into orbital angular momentum by the inverse orbital Rashba-Edelstein effect at the Ti/Au contact, and the gold layer converts the resulting OAM accumulation into the charge current the experiment detects.
+
+This three-step relay — orbit to spin at the near interface, spin through the bulk, spin back to orbit at the far interface — explains why the detected signal depends critically on the character of both Ti interfaces but not on how thick the Ti spacer is. Both interfaces are active conversion sites; the bulk is merely a passive spin highway.
+
+There is an additional subtlety worth noting. The very property that made titanium seem ideal for isolating orbital from spin effects — its weak spin-orbit coupling and weak spin Hall conductivity — turns out to be what makes it an efficient spin relay. A material with strong spin-orbit coupling in the bulk would begin reconverting spin back to orbital angular momentum prematurely as the current traversed the film, attenuating the signal before it could reach the far interface. Ti's weakness at bulk spin conversion is, paradoxically, what keeps the relay clean.
+
+Why Researchers Believed Long-Range Orbital Transport Existed
+The Yactayo paper does not arrive in a vacuum. Prior experimental reports of long orbital diffusion lengths in light metals were not methodologically careless — they were interpreting signals that the relay mechanism can now explain. When a device exhibits long-range sensitivity to orbital sources that is independent of spacer thickness, and when spin Hall contributions seem too weak to account for the effect, it is natural to conclude that orbital current is doing the traveling. The relay mechanism produces exactly that phenomenology, because the spin highway is invisible to techniques that are not specifically designed to detect bulk spin currents.
+
+That interpretive trap was identified in parallel by other groups using different methods. A December 2025 study on aluminum confirmed that orbital polarization undergoes fast relaxation and "hardly participates in non-local accumulation, transport, or torque generation." A separate terahertz emission spectroscopy study published in April 2026 found that orbital diffusion lengths in tungsten and platinum are ultrashort — approximately 0.36 nm (less than two atomic layers) in tungsten — compared to spin diffusion lengths of roughly 2.2 nm in tungsten, finding them "substantially shorter than the spin diffusion lengths." First-principles theoretical calculations reached the same conclusion: orbital relaxation lengths in transition metals are on the order of a few atomic layers, consistent with sub-nanometer orbital relaxation.
+
+The community debate between long-range and short-range orbital transport had produced results differing by as much as two orders of magnitude — a 0.36 nm orbital mean free path in tungsten versus reported 18–80 nm orbital transport in similar material systems. The Yactayo-Fert paper's contribution is to provide a mechanistic explanation — the orbit-spin-orbit relay — that accounts for the long-range phenomenology while being physically consistent with the short-range orbital relaxation lengths that theory and THz spectroscopy have independently established. A 2026 THz orbital transport review paper explored this orbital transport debate in depth.
+
+How Should Engineers Redesign Orbitronics Stacks Now That the Paradigm Has Shifted?
+The engineering implications are immediate and concrete. Spin-orbit torque magnetic random-access memory (SOT-MRAM) is the device class most directly affected. SOT-MRAM stores bits in a magnetic free layer and writes them by passing a charge current through an adjacent non-magnetic layer — ideally generating a large transverse angular momentum flow that switches the magnetic state efficiently and without the read-write path sharing that limits its predecessor, spin-transfer-torque MRAM (STT-MRAM). The mram-info.com SOT-MRAM overview surveys how this technology class works.
+
+Orbitronics has attracted intense interest from the MRAM community because light metals such as titanium were predicted to generate torques much larger than the spin torques achievable with conventional heavy-metal SOT layers (such as tungsten and platinum). A January 2025 Nature Communications paper by Gupta et al. demonstrated that ruthenium as an orbital source produced roughly a 30% enhancement in damping-like torque efficiency and an approximately 20% reduction in switching current compared to a standard platinum reference, resulting in more than 60% less switching power across more than 250 devices. A 2026 SPINTEC/CNRS study on Ta/W-based devices found that SOT-MRAM conversion efficiency currently reaches roughly 45% charge-to-spin conversion; the projected threshold for next-generation transistor node compatibility is approximately 80%.
+
+The Yactayo-Fert result does not undercut this engineering momentum. It redirects it. The large orbital Hall conductivity of titanium and similar light metals is genuine — the team's own experiment confirms that orbital polarization builds at the Ni/Ti interface. What the paper corrects is the design target: the goal is not to maximize the orbital diffusion length in the non-magnetic spacer but to maximize the efficiency of orbit-to-spin conversion at the near interface and spin-to-orbit reconversion at the far interface. Both conversions are governed by interface-level spin-orbit coupling, interfacial crystal quality, and the electronic band structure of the material boundary — not by the bulk properties of the spacer material.
+
+For device engineers, the implication is a shift in priority from materials discovery (finding a metal with a longer orbital mean free path) to interface engineering (choosing material pairs, deposition conditions, and crystallographic orientations that maximize local orbit-to-spin conversion efficiency at both contacts). A 2026 SPINTEC doctoral thesis by Marco Biagi, which integrated orbital-to-spin conversion in SOT-MTJ devices, independently confirmed that conversion efficiency depends strongly on the spin-orbit coupling strength of the conversion layer material — consistent with an interface-dominated picture.
+
+The Paper and Its Authors
+The study was published in Physical Review Letters on October 14, 2026. The preprint at arXiv:2603.28075, submitted March 30, 2026 under the title "Unconventional views on orbitronics supported by experimental results," lists 12 authors affiliated with institutions in France, Peru, China, and Germany, including Institut Jean Lamour (CNRS, Université de Lorraine) and the Laboratoire Albert Fert (CNRS/Thales, Université Paris-Saclay).
+
+Albert Fert's co-authorship and corresponding authorship on the paper carries weight beyond his institutional affiliation. Fert's 1988 discovery of giant magnetoresistance — the quantum effect that enabled read heads sensitive enough to detect individual magnetized bits on a hard drive — launched the field of spintronics, which now underpins billions of dollars of computing and data storage infrastructure annually. His engagement with the orbital transport debate signals that the field's founding figures regard the mechanistic question as fundamental, not peripheral. The Nobel Prize record for Physics 2007 details the GMR discovery and its significance.
+
+Melissa Yactayo, the paper's lead author, is affiliated with two institutions that represent a trans-Atlantic collaboration between Peru and France. The UNMSM, Peru's oldest and largest public university, is the institutional home of a research thread in condensed matter physics whose output is increasingly appearing in high-impact journals.
+
+The paper was also presented at the 2026 Materials Research Society Spring Meeting in Honolulu in April, where Yactayo's group described the inverse orbital Edelstein effect detection mechanism in the Ti/Au interface and its relationship to the spin and orbital Rashba texture.
+
+What Comes Next for Orbitronics
+The orbit-spin-orbit relay mechanism opens rather than closes research questions. Theorists will need to develop quantitative models of the interface conversion efficiencies — the probability per unit area that an orbital accumulation at a Ni/Ti boundary produces a spin current, and the equivalent reconversion probability at a Ti/Au boundary. Those numbers do not yet exist in a form useful for device design.
+
+Experimentalists will need to probe whether the same relay operates in other light metals where long-range orbital transport had been reported: vanadium, zirconium, and chromium have all attracted orbitronics attention for their large predicted orbital Hall conductivities. The Yactayo paper makes predictions about what such experiments would find: thickness independence, interface sensitivity, and an absence of bulk transport.
+
+And the engineering community will need to reframe what "optimizing an orbitronic stack" means. If the orbital Hall conductivity of the light metal determines the strength of the interfacial orbital accumulation — and if that accumulation's conversion to spin current determines the long-range transport amplitude — then Ti and its peers remain attractive, but for a different reason than previously assumed. They are not orbital highways. They are orbital funnels that concentrate angular momentum at interfaces where spin current can take over the long run.
+
+That reframing is what makes the Yactayo-Fert study a foundational correction rather than a negative result. The orbital degree of freedom is still at both ends of the relay; the spin current is an intermediary that the orbital mechanism conscripts, not a competitor that displaces it.
+
+Frequently Asked Questions
+What is orbitronics, and how is it different from spintronics?
+Spintronics exploits the intrinsic spin of electrons — a two-state quantum property (up or down) — to store and transmit information, most notably in hard drive read heads and in magnetic RAM chips. Orbitronics exploits a different quantum property: the orbital angular momentum of electrons, which arises from their motion around atomic nuclei. The key practical advantage is that orbital effects can in principle be generated in common, lightweight metals such as titanium without requiring the heavy, rare, or expensive materials — platinum, tungsten, tantalum — that spintronics relies on for strong spin-orbit coupling. The orbital Hall effect, orbitronics' central phenomenon, can exist even in materials with very weak spin-orbit coupling. The Yactayo-Fert paper does not invalidate orbitronics; it clarifies that the mechanism involves both orbital and spin angular momentum working in tandem, with spin doing the distance running between two orbital conversion points.
+
+What does it mean that titanium's orbital signal was "thickness-independent"?
+If orbital angular momentum truly traveled through titanium as a bulk current — the way spin currents travel through copper or platinum — then doubling the thickness of the titanium layer should reduce the signal, because more material would absorb the OAM before it reaches the detector. Yactayo and Fert's team found that signal strength did not change between a 2 nm (0.08 millionths of an inch) and a 60 nm (2.4 millionths of an inch) Ti spacer. That thickness independence is a definitive signature that the Ti bulk is not transporting anything detectably; the active physics is entirely at the two interfaces that bookend the spacer.
+
+Does this finding kill the case for orbitronics-based memory chips?
+No — it redirects the engineering strategy. The orbital Hall effect in titanium is real, and it generates strong orbital accumulations at interfaces. What the paper establishes is that engineers should optimize those interface conversion events, not the bulk spacer material. Instead of seeking a metal with a longer orbital diffusion length, the design goal becomes maximizing the efficiency of orbit-to-spin conversion at the near interface and spin-to-orbit reconversion at the far interface — both of which are governed by interface chemistry, crystallographic quality, and the electronic properties of the material boundary. The field remains viable; it simply requires a different materials-science strategy than the one that was dominant until now.
+
+Why did titanium's weak spin-orbit coupling matter so much in this experiment?
+Paradoxically, titanium's weakness at spin-orbit coupling is what made it a clean relay medium. A material with strong spin-orbit coupling in the bulk would begin converting spin angular momentum back to orbital form — or scattering it — before it could traverse the film. Titanium's weak coupling means the spin current launched at the near interface travels through the bulk relatively undisturbed, allowing the far interface to receive and reconvert it efficiently. Engineers designing orbitronic stacks based on this mechanism should therefore look for light-metal spacers with low bulk spin-orbit coupling (to preserve the relay) combined with high interface-level orbital Rashba texture (to maximize the end-point conversions) — a parameter set that may not correlate straightforwardly with any single published material metric.
+
+
+Sponsored
+Tech Times
+Visit Tech Times
+Idiot girls and school ghost: Korean J-horror parody opens in Japan this December
+Volvo adopts Nvidia's sensor-dense platform while owner Geely faces Chinese intelligence laws
+AHS: 13 episodes 9-10 explained: Devil's mortality runs on real epigenetic clock
+
+Sponsored
+Sponsored Content
+On Time: Causality And The Quantum Gravity Conflict
+Amazon.com
+On Time: Causality And The Quantum Gravity Conflict
+Sponsored
+
+Quantum Theory PDF Download - Perlego Textbooks Library - 1M+ Books Across 1000+ Topics
+Perlego
+Perlego
+Quantum Theory PDF Download - Perlego Textbooks Library - 1M+ Books Across 1000+ Topics
+Sponsored
+
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Cygnus Technologies
+Cygnus Technologies
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Sponsored
+
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+BookNova
+BookNova
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+Sponsored
+
+More for You
+
+
+Most normal matter in the universe isn't found in planets, stars or galaxies – an astronomer explains where it's distributed
+Space
+Space
+Most normal matter in the universe isn't found in planets, stars or galaxies – an astronomer explains where it's distributed
+
+
+Play video preview
+WooGlobe
+WooGlobe
+·
+18h
+NASA’s Perseverance achieves new milestone in Martian travel
+
+
+A 'flying' Tesla Roadster sounds impossible, until you see what Lockheed Martin built decades ago
+Engadget
+Engadget
+·
+13h
+A 'flying' Tesla Roadster sounds impossible, until you see what Lockheed Martin built decades ago
+
+
+Did Trump post AI video of himself playing with tiger after deadly UK attack?
+Snopes
+Snopes
+·
+2d
+Did Trump post AI video of himself playing with tiger after deadly UK attack?
+
+
+Play video preview
+StarTalk
+StarTalk
+·
+4w
+Scientists create a missing element
+
+
+Play video preview
+Yee Yee LIfe
+Yee Yee LIfe
+Can a 100 pound block of lead stop a 50 cal sniper rifle?
+
+
+Play video preview
+Isaac Arthur
+Isaac Arthur
+A wormhole could become a time machine if one end moves fast enough
+
+
+Try AI Video Generator Today - Vidu Ai - Create Videos From Photos Fast
+opengen.ai
+Try AI Video Generator Today - Vidu Ai - Create Videos From Photos Fast
+Sponsored
+
+The Meaning Of Quantum Gravity (Fundamental Theories Of Physics, 20)
+Amazon.com
+The Meaning Of Quantum Gravity (Fundamental Theories Of Physics, 20)
+Sponsored
+
+headphone stoped
+share
+more
+
+Snopes
+118.4K Followers
+Pentagon's new Office of Religious Affairs under Hegseth: What we know
+Story by Anna Rascouët-Paz • 2w • 6 min read
+
+
+Pete Hegseth, a white man with gray hair in a gray suit, blue and white tie and U.S. flag pocket square, speaks and gestures as he stands in front of a deep blue background that reads 
+Pete Hegseth, a white man with gray hair in a gray suit, blue and white tie and U.S. flag pocket square, speaks and gestures as he stands in front of a deep blue background that reads
+
+U.S. Secretary of Defense Pete Hegseth announced the creation of an Office of Religious Affairs at the Department of Defense on Sept. 30, 2026, during a speech he called the "State of the Force" address.
+Hegseth suggested the Office of Religious Affairs would address urgent spiritual needs among the troops, which he said had long been neglected. He said the office would report directly to him and that budgets would be guaranteed both for chaplaincy and infrastructure, such as "base chapels."
+Hegseth said that "less than 5% of our force identifies as non-religious," without citing his source for the number. A 2019 congressional report found that while 2.3% of the force identified as agnostic or atheist, the affiliation of 24.4% of active duty personnel fell under "Other/Unclassified/Unknown."
+"We strongly oppose the creation of the Office of Religious Affairs under Sec. Hegseth," Rachel Deitch, policy and political director at the American Humanist Association, told Snopes in an email. The American Humanist Association is a nonprofit that advocates for secular humanism.
+Snopes will update this report if, or when, additional information surfaces. We have reached out to the DOD to ask what concrete actions the office will take. 
+In October 2026, a rumor spread that U.S. Secretary of Defense Pete Hegseth had announced the creation of an Office of Religious Affairs at the Pentagon.
+
+The claim spread on social media, including X. One X post included a video of Hegseth speaking on a stage with a U.S. flag background (archived):
+
+
+
+"Today, at my direction, I am establishing the Office of Religious Affairs," Hegseth says in the video. "Starting today, and for secretaries of war after me, the Office of Religious Affairs will report straight to the top. No staff filters. No bureaucratic dilution. A direct line to the secretary."
+
+Expand article logo  Continue reading
+
+
+
+Leadgen logo
+Snopes
+Join our fight against online misinformation.
+$5.00 per month
+Join
+Snopes
+Visit Snopes
+Ilhan Omar didn't flee to Morocco after federal agents' raid on her home
+Trump didn't accuse Ukraine of election interference after strikes on Russian bot farms, despite claims
+Are videos of Tesla's new 'flying' car performing mid-air stunts real?
+Sponsored Content
+More for You
+
+Feedback
+
+Profile Picture
+
+
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+80
+ (80)
+Pull requests
+1
+ (1)
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Issues
+Search issues
+is:issue state:open
+Issues
+
+Select all issues: Issues
+0 of 80 selected0 issues of 80 selected
+Open
+80
+ (80)
+Closed
+2
+ (2)
+
+
+Matter is Slow Glass | Nathan-origin SAT/H(s)H research seed (tentative)
+
+Satobloc/HsH#88
+· Filter by authorSatobloc opened 1h ago
+[HSH-PUBLISH-V1] Kestrel bounded torus energy gate
+
+Unread
+Satobloc/HsH#87
+· Filter by authorSatobloc opened 2h ago
+1
+[HSH-PUBLISH-V1] Ravel finite-window interference gate
+
+Unread
+Satobloc/HsH#86
+· Filter by authorSatobloc opened 2h ago
+1
+All-worker BEDROCK review | 17 Oct 2026
+
+Satobloc/HsH#85
+· Filter by authorSatobloc opened 2h ago
+1
+[HSH-PUBLISH-V1] BEDROCK all-worker review 2026-10-17
+
+Unread
+Satobloc/HsH#84
+· Filter by authorSatobloc opened 2h ago
+1
+All instances: review BEDROCK before next theory work (Nathan Direct, 17 Oct 2026)
+
+Satobloc/HsH#83
+· Filter by authorSatobloc opened 2h ago
+[NATHAN DIRECT] All workers: review BEDROCK before further theory work
+
+Satobloc/HsH#82
+· Filter by authorSatobloc opened 2h ago
+ALL WORKERS: Review BEDROCK against current theory and checkpoints (Nathan Direct 2026-10-17)
+
+Satobloc/HsH#81
+· Filter by authorSatobloc opened 2h ago
+1
+[HSH-PUBLISH-V1] kestrel-preservation-portfolio-20261016t1932z-s3
+
+Unread
+Satobloc/HsH#80
+· Filter by authorSatobloc opened 15h ago
+1
+[HSH-PUBLISH-V1] elias-async-writer-poll-gate-20261016t1838z-s3
+
+Unread
+Satobloc/HsH#79
+· Filter by authorSatobloc opened 16h ago
+1
+[HSH-PUBLISH-V1] mira-s4-20261016t1748z-parity-persistence-001
+
+Unread
+Satobloc/HsH#78
+· Filter by authorSatobloc opened 16h ago
+1
+[HSH-PUBLISH-V1] alberr-torus-local-focal-gate-20261016t1737z-s3
+
+Unread
+Satobloc/HsH#77
+· Filter by authorSatobloc opened 17h ago
+1
+[HSH-PUBLISH-V1] orson-boundary-retention-design-20261016t1636z-s3
+
+Unread
+Satobloc/HsH#76
+· Filter by authorSatobloc opened 18h ago
+1
+[HSH-PUBLISH-V1] morrow-clock-uncertainty-gate-20261016t1536z-s3
+
+Unread
+Satobloc/HsH#75
+· Filter by authorSatobloc opened 19h ago
+1
+[HSH-PUBLISH-V1] Hale HMM clustered-calibration coverage
+
+Unread
+Satobloc/HsH#74
+· Filter by authorSatobloc opened 20h ago
+1
+[HSH-PUBLISH-V1] Ariadne bounded-integer moment audit
+
+Unread
+Satobloc/HsH#73
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] ravel-s3-20261016t1236z-p7-contact-correction
+
+Unread
+Satobloc/HsH#72
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] tern-rook-s3-20261016t1136z-anchor-allocation-gate
+
+Unread
+Satobloc/HsH#71
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] calder-s3-20261016t1036z-markov-profile-gate
+
+Unread
+Satobloc/HsH#70
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Aster exact 2t-moment sparse-edit theorem
+
+Unread
+Satobloc/HsH#69
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Cumulative uncommitted s0 research 2026-10-16
+
+Unread
+Satobloc/HsH#68
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Mercer unequal-radius contact kernel
+
+Unread
+Satobloc/HsH#67
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Enheduanna anchor-bias tetrad gate
+
+Unread
+Satobloc/HsH#66
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Aldus exact iid-boundary confidence gate
+
+Unread
+Satobloc/HsH#65
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] loom sparse semantic checksum gate 20261016T0536Z
+
+Unread
+Satobloc/HsH#64
+· Filter by authorSatobloc opened 1d ago
+1
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+80
+ (80)
+Pull requests
+1
+ (1)
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Issues
+Search issues
+is:issue state:open
+Issues
+
+Select all issues: Issues
+0 of 80 selected0 issues of 80 selected
+Open
+80
+ (80)
+Closed
+2
+ (2)
+
+
+[HSH-PUBLISH-V1] meridian-hard-contact-penalty-limit-20261016t0436z-s3
+
+Unread
+Satobloc/HsH#63
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] nadir-frenet-gauge-gate-20261016t0336z-s3-v2
+
+Unread
+Satobloc/HsH#62
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] mira-ternary-source-independence-gate-20261016t0236z-s3
+
+Unread
+Satobloc/HsH#60
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] sable-graded-boundary-gate-20261016t0136z-s3
+
+Unread
+Satobloc/HsH#59
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Kestrel finite-core contact energy 2026-10-16T00:36Z s3
+
+Unread
+Satobloc/HsH#58
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Elias gold-label value gate 2026-10-15T23:36Z s3
+
+Unread
+Satobloc/HsH#57
+· Filter by authorSatobloc opened 1d ago
+1
+[HSH-PUBLISH-V1] Alberr noisy-trit recovery
+
+Unread
+Satobloc/HsH#56
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Orson target-blind boundary audit
+
+Unread
+Satobloc/HsH#55
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Morrow finite-pilot ICC controller
+
+Unread
+Satobloc/HsH#54
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Hale finite calibration allocation
+
+Unread
+Satobloc/HsH#53
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Ariadne phase-trit completion classifier 20261015T1836Z s3
+
+Unread
+Satobloc/HsH#52
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Ravel capsule uniform remainder gate 20261015T1736Z s3 v2
+
+Unread
+Satobloc/HsH#51
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Ravel capsule uniform remainder gate 20261015T1736Z s3
+
+Unread
+Satobloc/HsH#50
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Tern robust session-block controller corrected fences 20261015T1636Z s3
+
+Unread
+Satobloc/HsH#49
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Tern robust session-block controller 20261015T1636Z s3
+
+Unread
+Satobloc/HsH#48
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Calder external calibration Fisher gate 2026-10-15T15:36Z s3
+
+Unread
+Satobloc/HsH#47
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Aster 72-snap individuation gate 2026-10-15T14:36Z s3
+
+Unread
+Satobloc/HsH#46
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Mercer finite-segment angle overlap 20261015T1336Z s3
+
+Unread
+Satobloc/HsH#45
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Kestrel s1 finite-core contact geometry 2026-10-15
+
+Unread
+Satobloc/HsH#44
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Enheduanna common fifth-probe optimization 20261015T1236Z s3
+
+Unread
+Satobloc/HsH#43
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Calder pooled parity covariance alias
+
+Unread
+Satobloc/HsH#42
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Aldus HMM Fisher identifiability audit
+
+Unread
+Satobloc/HsH#41
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Loom two-slab accessibility counterexample corrected
+
+Unread
+Satobloc/HsH#40
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Meridian relative-angle carrier overlap
+
+Unread
+Satobloc/HsH#38
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Nadir weighted drift spectrum
+
+Unread
+Satobloc/HsH#37
+· Filter by authorSatobloc opened 2d ago
+1
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+80
+ (80)
+Pull requests
+1
+ (1)
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Issues
+Search issues
+is:issue state:open
+Issues
+
+Select all issues: Issues
+0 of 80 selected0 issues of 80 selected
+Open
+80
+ (80)
+Closed
+2
+ (2)
+
+
+[HSH-PUBLISH-V1] Meridian two-bundle Hessian interaction repair
+
+Unread
+Satobloc/HsH#36
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Ravel exact finite-time correlated-bath rate
+
+Unread
+Satobloc/HsH#35
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] 4D curvature-energy parity counterexample
+
+Unread
+Satobloc/HsH#34
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Morrow s2 finite-core torus meridian gate
+
+Unread
+Satobloc/HsH#33
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] Calder global correspondence-parity calibration
+
+Unread
+Satobloc/HsH#32
+· Filter by authorSatobloc opened 2d ago
+1
+[HSH-PUBLISH-V1] transport smoke 2026-10-15
+
+Unread
+Satobloc/HsH#31
+· Filter by authorSatobloc opened 2d ago
+1
+Whirligig full gimbal Python engine | next conversation build + closure tests
+
+Satobloc/HsH#30
+· Filter by authorSatobloc opened 1w ago
+SANDBOXED | Complete historical Whirligig gimbal and Great Annulum: 60 explicit gates
+
+Satobloc/HsH#29
+· Filter by authorSatobloc opened 1w ago
+Mersearch M5: versioned glossary and SAT↔standard translation graph
+
+Satobloc/HsH#25
+· Filter by authorSatobloc opened 1w ago
+[Mercer] Hostile peer review: Whirligig exact back hallway vs separate published comparator
+
+Satobloc/HsH#24
+· Filter by authorSatobloc opened 1w ago
+2
+[Meridian] Hostile peer review: Whirligig exact back hallway vs separate published comparator
+
+Satobloc/HsH#23
+· Filter by authorSatobloc opened 1w ago
+3
+Hostile audit C: null capture versus archived black-hole paper
+
+Satobloc/HsH#22
+· Filter by authorSatobloc opened 1w ago
+5
+Hostile audit B: covariant scattering versus 2025 SAT amplitude
+
+Satobloc/HsH#21
+· Filter by authorSatobloc opened 1w ago
+6
+Hostile audit A: covariant scattering versus Einstein/Minkowski
+
+Satobloc/HsH#20
+· Filter by authorSatobloc opened 1w ago
+5
+MK171 review packet F: Einstein's 1905 electrodynamics versus Morrow's exact benchmark
+
+Satobloc/HsH#19
+· Filter by authorSatobloc opened 1w ago
+1
+MK171 review packet E: Morrow versus Is Time Reversal in de Sitter Space a Spontaneously Broken Gauge Symmetry?
+
+Satobloc/HsH#18
+· Filter by authorSatobloc opened 1w ago
+2
+MK171 review packet D: Morrow versus Toward a Phenomenologically Acceptable Quantum Cyclic Universe
+
+Satobloc/HsH#17
+· Filter by authorSatobloc opened 1w ago
+2
+
+MK171 review packet C: Morrow versus Stochastic Modes in Postquantum Classical Gravity
+
+Satobloc/HsH#16
+· Filter by authorSatobloc opened 1w ago
+5
+MK171 review packet B: Morrow versus Klein Bottle Cosmology
+
+Satobloc/HsH#15
+· Filter by authorSatobloc opened 1w ago
+1
+MK171 review packet A: Greene et al. versus Morrow (nonorientable compactification)
+
+Satobloc/HsH#14
+· Filter by authorSatobloc opened 1w ago
+1
+Hostile review requested: Kestrel | ᚼ transport vs F. Brock Fuller
+
+Satobloc/HsH#13
+· Filter by authorSatobloc opened 1w ago
+Hostile review requested: Mercer | ᚼ transport vs F. H. C. Crick
+
+Satobloc/HsH#12
+· Filter by authorSatobloc opened 1w ago
+1
+Hostile review requested: Ravel | ᚼ transport vs Neville H. Fletcher, T. Tarnopolskaya and F. R. de Hoog
+
+Satobloc/HsH#11
+· Filter by authorSatobloc opened 1w ago
+Standing rule implementation: recurring code-rendered geometry checks
+
+Satobloc/HsH#9
+· Filter by authorSatobloc opened 2w ago
+HIGH PRIORITY: Mersearch cross-corpus equation search (M1 + notation-normalized retrieval)
+
+Satobloc/HsH#8
+· Filter by authorSatobloc opened 2w ago
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+Skip to content
+Satobloc
+HsH
+Repository navigation
+Code
+Issues
+80
+ (80)
+Pull requests
+1
+ (1)
+Agents
+Discussions
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+Issues
+Search issues
+is:issue state:open
+Issues
+
+Select all issues: Issues
+0 of 80 selected0 issues of 80 selected
+Open
+80
+ (80)
+Closed
+2
+ (2)
+
+
+[PEER REVIEW R1][SANDBOXED] Boundary weak-emission paper
+peer-review
+
+Satobloc/HsH#6
+· Filter by authorSatobloc opened 1mo ago
+[COMPTROLLER][WORKER-REQUESTABLE] Mersearch 1.1 promotion + multi-corpus retrieval
+
+Satobloc/HsH#5
+· Filter by authorSatobloc opened 1mo ago
+VISIBLE DIALOGUE — Meridian ↔ current instance: triswale / Graticule → ᚼ transport
+
+Satobloc/HsH#4
+· Filter by authorSatobloc opened 1mo ago
+3
+SABLE — streamline orientation docs and make [[GLASS]] resource map unmistakable
+
+Satobloc/HsH#3
+· Filter by authorSatobloc opened on Sep 16
+2
+HARD-CORE MUST-KNOW — FUNDAMENTAL INTUITIONS + RESOURCE MAP
+
+Satobloc/HsH#2
+· Filter by authorSatobloc opened on Sep 16
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information

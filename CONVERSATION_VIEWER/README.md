@@ -7,7 +7,7 @@ A static, source-preserving viewer for the public conversation archive.
 - browses `DEVELOPMENT_FULL_CONVOS`, `LIVE CONVOS`, hand-registered external sources, and structurally discovered eligible conversations in the public `SAT_THEORY_ARCHIVE_2023-25` (`[[GLASS]]`) repository through one compact catalog;
 - deduplicates public cross-repo discovery by source SHA-256 so archival copies already represented in HsH do not flood the Viewer;
 - keeps private `HSH_RESOURCES` outside automatic public discovery;
-- loads a selected raw JSON/JSON-in-TXT export on demand rather than duplicating conversation data;
+- loads selected raw JSON exports on demand, **regardless of their filename extension** (including `.txt`, `.md`, and extensionless files), rather than duplicating conversation data;
 - follows the active ChatGPT branch (`current_node` → parents) when that structure is present;
 - colors speakers distinctly;
 - progressively renders long conversations in bounded batches;
@@ -26,7 +26,9 @@ The public Viewer follows an inclusion invariant:
 
 > Every eligible public, non-quarantined conversation source should either be represented in the Viewer or have an explicit exclusion/routing reason.
 
-HsH's normal development/live roots are discovered recursively. The build workflow also checks out public `[[GLASS]]` and structurally recognizes ChatGPT mapping exports there, including JSON stored with a `.txt` extension. It prunes any `PRIOR_ART` path before descent and does not scan private `[RESOURCES]` for public Viewer inclusion.
+HsH's normal development/live roots are discovered recursively. The indexer **inspects file contents, not filename extensions**, so a valid standalone JSON conversation stored as `.json`, `.txt`, `.md`, `.log`, an unusual extension, or no extension can enter the same date-indexing and Viewer pipeline. The build workflow also checks out public `[[GLASS]]` and uses the same content detection with an additional ChatGPT mapping-structure check. Non-JSON prose, Markdown code-fence examples, and arbitrary JSON objects that are not conversations are not promoted to conversations. `PRIOR_ART` and `QUARANTINE` paths are excluded from automatic public discovery, and private `[RESOURCES]` is not scanned for public Viewer inclusion.
+
+The source retains its **original filename and bytes** during JSON recognition. The separate date-tagging maintenance action may add date prefixes in DEVELOPMENT_FULL_CONVOS as before. If the original source uses a different extension, the Viewer still fetches it as text and parses the JSON payload.
 
 Public GLASS files whose SHA-256 is already represented by an HsH development/live source are suppressed as duplicate archive copies. Unique recognized GLASS conversations are cataloged as external sources pointing to their original repository path; they are not copied or moved into HsH.
 

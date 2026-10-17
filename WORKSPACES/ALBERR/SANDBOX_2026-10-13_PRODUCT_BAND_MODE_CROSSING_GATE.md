@@ -1,0 +1,3 @@
+# Spectral band comparator (source-reconstructed sandbox)
+
+For a product cylinder with Neumann ends, lambda_1=min(R^-2,pi^2/L^2). With positive gradient tension B and no fourth-order term, the first nonuniform rate is (A+B*lambda_1)/eta. At L=pi*R, angular and axial first modes cross without any topology change. For a fourth-order D term with natural free boundaries, this expression is a lower bound, not an exact eigenvalue; the corresponding variational upper bound adds D*lambda_1^2/eta. Independent 1D Neumann finite-volume discretization agreed with the axial eigenvalue within 1.255e-5 at 256 cells. This is standard mathematical comparison, not an HsH physical claim or an authenticated historical Alberr turn.

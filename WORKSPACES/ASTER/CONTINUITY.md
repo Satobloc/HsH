@@ -134,3 +134,180 @@ By Nathan directive, opportunistically inspect and refine Nathan Voice fingerpri
 ## End-of-run discipline
 
 After material progress update this file with exact coverage, provenance/authorship decisions, duplicate/crosswalk status, theory/sandbox work, infrastructure/bibliography/enrichment changes, unresolved issues, and one best next cursor. Do not manufacture progress.
+
+---
+
+## 2026-10-11 — Resource/tool familiarity save + review-request check
+
+### Current identity / live role
+
+- Instance: **Aster / Ms. Aster**.
+- Soft capability bias remains Nathan-authored corpus, provenance, chronology, source ancestry, exact wording, contextual recovery, and fidelity review.
+- Current Paper-A role remains **Nathan-fidelity / provenance review lane**, but the formal review is **frozen** under current Code Grurple controls. No unrequested second formal review.
+- Conversation-title identity rule remains unchanged: do not rename or suggest renaming the user-visible ChatGPT conversation.
+
+### Resource-review directive completed
+
+Nathan's 2026-10-05 shared resource-review directive has been overview-read and role-triaged. Aster is now familiar with the following primary navigation/use surfaces and will prefer them over brute-force repository search:
+
+- Common Reference Desk and mirrored SAT26 BigBook indexes.
+- HSH_RESOURCES AI start/index corridor.
+- H(s)H Toolkit index and extraction routing.
+- Toolkit Digestion functional-family model.
+- HQ Tool Chest.
+- HSH_RESOURCES human-facing source index.
+- Nathan Preference Router / BOOT.
+- War Room declaration and linked non-quarantined resource surfaces.
+- PDF_SPECS/NATHAN_VOICE_MODEL active split-purpose voice architecture.
+- Historical Einstein/Minkowski, HISTORICAL, and KERR routes.
+- DATA / LIVE_RESEARCH_UPDATES / OUTSIDE RESEARCH LIBRARY discovery surfaces.
+- Exposure/control surfaces including Longitudinal Topic Atlas, the blinded 300-paper 2024/2025/2026 corpus, podcast guide, and GitHub/podcast exposure datasets.
+- Sable three-repository source inventory.
+
+Operational retrieval preference:
+1. use in-house indexes / manifests / BigBook routing / extracted-text maps first;
+2. use GitHub only as transport for exact repo objects where needed;
+3. do not infer absence from GitHub search/listing silence;
+4. preserve source-role typing: standard definition/reference, mathematical technique, formalism comparator, empirical constraint, deliberate import, or background;
+5. structural similarity is not genealogy, derivation, or validation.
+
+### BigBook route now active
+
+The SAT26 BigBook is indexed as 134 embedded source documents / 183,659 raw lines. Aster should use the Common Reference Desk BigBook index and document CSV for source-boundary routing before broad manual searching. Read substantial contiguous source context after routing; the index itself is not theory authority.
+
+High-value Aster uses include:
+- SAT chronology / provenance;
+- UI / Whirligig / scale-rotation ancestry;
+- Minkowski/relativity development conversations;
+- holonomy/torsion/phase history;
+- audit/retraction chains;
+- public/provenance anchors;
+- Paper-A origin/source-hardening questions.
+
+### Paper A / Code Grurple state checked
+
+Current authoritative roster says:
+- GRURPLE-A manuscript gate: **accepted R1; manuscript review closed**.
+- Aster state: **REVIEW FROZEN / CROSS-READ OPEN**.
+- No second formal review absent explicit Nathan/Originator request or a concrete post-acceptance manuscript defect.
+- Shared remaining Grurple issue is presentation/rendering verification, not scientific/editorial manuscript reopening.
+- Do not rewrite manuscript to solve reader rendering defects.
+
+### Review-request scan
+
+Checked in-house routing first:
+- WORKSPACES/COMMON/HANDOFFS.md
+- WORKSPACES/COMMON/CODE_GRURPLE_ROSTER.md
+- WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json
+- current Common review/request-related notices
+
+Result:
+- **No current Aster-specific formal review request found.**
+- Historical 2026-09-23 GRURPLE-B Aster NIBBLE is superseded by current manuscript-closed Grurple state and is not live.
+- 2026-10-11 MK171 issue-17 review notice is explicitly Orson Vay's bounded one-off physics review; not routed to Aster.
+- Orson's comparator review remains incomplete until Carroll–Diachenko–Dulani primary PDF is read, but that is Orson's lane unless separately reassigned.
+- Current Common handoff still notes Orson OV-18 peer-review requests without durable responses; no Aster assignment is attached in the routing checked here.
+
+### Infrastructure observations
+
+- HSH_RESOURCES toolkit catalog: 299 bibliographic records across the main toolkit, GR reference, and MIT string-theory subcorpora, with extraction-manifest routing.
+- HSH_RESOURCES human index reports 1136 unique PDF content groups accounted and explicit reviewed/provisional typing; bibliographic presence is not comprehension.
+- Sable source inventory remains a strong three-repository inventory route with PRIOR_ART pruned before descent.
+- War Room link `derivedvv` currently does not resolve; active documented extraction route is `derived/`. Treat `derivedvv` as stale/typo unless a stronger current source says otherwise.
+- Prior-art links were inventoried only at route/metadata level during this familiarity pass; quarantine semantics remain intact.
+
+### Paper-A opportunity noted
+
+The Longitudinal Topic Atlas and the blind 300-paper corpus may become useful for testing whether the paper's claimed convergence is actually unusual in the external literature. Do **not** use the quarantined old model-authored SATity rubric. Any such analysis requires a Nathan-authoritative operational feature definition first, then blind classification/control analysis.
+
+### Durable next cursor
+
+If no explicit review request arrives:
+1. remain available for bounded Paper-A Nathan-fidelity/provenance cross-read only if concrete manuscript defect/request appears;
+2. otherwise resume highest-value Nathan-source/provenance work using the new in-house retrieval stack, with SAT26 BigBook routing preferred over brute-force search;
+3. opportunistically support Paper-A chronology/source ancestry and Hagalaz/UI source recovery when those become active;
+4. preserve Code Grurple review freeze and current quarantine boundaries.
+
+No Nathan action required at this save point.
+
+### 2026-10-11 — Mersearch execution-path correction
+
+Tern Rook reconstruction verified and adopted.
+
+Operational correction:
+- **No standalone Mersearch connector action** does **not** mean Mersearch is unavailable.
+- Connector-only workers are expected to use the repository's documented bridge:
+  - `WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md`
+  - `WORKSPACES/COMMON/MERSEARCH_RELEASES.md`
+  - `.github/workflows/mersearch-request-bridge.yml`
+  - shared request slot `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`
+- The bridge checks out all three permitted repositories, runs pinned `mersearch-stable-1.0`, preserves default `PRIOR_ART` / `QUARANTINE` exclusions, and publishes request-scoped results plus `RUN_MANIFEST.json`.
+- GitHub code search is fallback only when the bridge/local Mersearch route is unavailable or inappropriate; do not label GitHub-search results as Mersearch results.
+
+Current slot state at this check:
+- occupied by Orson Vay request `2026-10-11-orson-morrow-inspiral-package-001`, status `requested-retry`;
+- do **not** overwrite;
+- corresponding request-scoped output directory still returns 404 at this check, so no successful Mersearch run may be inferred yet.
+
+Aster default going forward:
+1. Mersearch / project indexes / feeder / viewer first for archive archaeology and source recovery;
+2. inspect original matched context before historical/currentness claims;
+3. preserve exact query, searched roots, stable ref, source SHAs, exclusions, and run manifest;
+4. never confuse absence of a connector action with absence of the repository tool/workflow.
+
+### 2026-10-11 — Paper A post-acceptance defect found and routed
+
+Bounded stress-test of accepted GRURPLE-A R1 found two concrete issues:
+
+1. Residual `proliferation` wording survived adopted reviewer disposition TERN-A-02, which required removing field-wide proliferation implications absent independent evidence.
+2. New Nathan Direct dated 2026-10-09 creates a governance/source-boundary collision after acceptance: Hypothesis H proper and directly Schreiber-authored material are now hard-quarantined/off-limits even when repackaged, while accepted Paper-A R1 centrally contains that comparison lane.
+
+Aster did not silently patch or reopen full review. Further Hypothesis-H/Schreiber reading/reconstruction stopped once the collision was recognized.
+
+Durable defect artifact:
+`WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/ASTER_POST_ACCEPTANCE_POLICY_DEFECT_2026-10-11.md`
+(commit `8b41db71c1a446e7fd6ab1ded1c0d272749842b1`).
+
+Common handoff routed to Tern/Meridian. Paper-A review remains frozen. Nathan-level clarification is required only for the retroactivity/publication handling of the Oct-9 source-boundary change; the residual proliferation wording is an ordinary bounded repair if editing reopens.
+
+### 2026-10-11 — Nathan clarification: Aster prior-art remit overrides earlier restriction reading
+
+Nathan clarified directly that Aster is part of his prior-art review team; therefore the Oct. 9 Hypothesis-H / directly-Schreiber restriction does **not** apply to Aster in that role. The earlier Paper-A post-acceptance policy-conflict escalation was a scope-reading error and has been withdrawn/corrected. Paper A does not require grandfathering, sanitization or hold on that basis. Aster may continue Hypothesis-H/Schreiber prior-art review under ordinary provenance, source-typing, exposure and non-premise-import controls. The residual `proliferation` wording issue remains the only live Paper-A defect from that stress-test.
+
+### 2026-10-11 — Paper A prior-art tranches: Hypothesis H + Hinton/Smith
+
+**Hypothesis-H audit:** citation-verified the three exact Paper-A comparator references and inspected indexed abstracts/findings. The accepted R1 comparator lane survives: source programme establishes twisted-cohomotopy charge quantization, M2/M5 consequences and K3 compactification/reduction structure; Paper A correctly keeps the SAT R_4? relation as its own conjectural test. Artifact: `ASTER_HYPOTHESIS_H_PRIOR_ART_AUDIT_2026-10-11.md`, commit `5644f9739c5576d539116138b18a7fb6120ec36b`.
+
+**Historical moving-section audit:** directly compared Nathan's 23 Mar 2024 `DIMENSIONAL GRAVITY` primary source with Hinton 1904 and Whately Smith 1920. Hinton explicitly gives fixed spiral + moving film -> point moving in a circle and generalizes to filament structures/apparent atoms/motion. Smith explicitly gives perpendicular/slanted thread intersection behavior plus twisted/intertwined threads across a film. Verdict: substantive prior art on the generic construction and helix/spiral circular-point readout; no influence established. Artifact: `ASTER_HISTORICAL_MOVING_SECTION_PRIOR_ART_AUDIT_2026-10-11.md`, commit `93b48b16abb8799a543ffa4edec45f32aae8e7dc`.
+
+**Registry repair:** Mira `INT-0001` corrected from stale 2024-03-22/path-pending state to 2024-03-23 plus exact root source path in HSH_RESOURCES commit `558497df1f0174b8889ba235310cc035ea80e6ca`.
+
+**Next cursor:** braid/configuration-space prior art versus Nathan's explicit March-2024 rule `two intertwined lines -> points on moving plane orbit one another`; determine whether that kinematic mapping is generic braid projection, a special braid geometry, or a Nathan-specific elaboration in the checked source set. Exposure search for Hinton/Smith remains pending until Mersearch shared slot is free.
+
+### 2026-10-11 — Blind proliferation control completed
+
+Paper A residual field-trend wording was tested rather than merely edited. Existing blinded random arXiv corpus: 100 physics abstracts each Jan-Sep 2024, 2025, 2026.
+
+Protocol frozen before year key: `ASTER_BLIND_PROLIFERATION_TEST_PROTOCOL_2026-10-11.md`, commit `97c98edb4ffaf72a08cdc7ad18bd9ed3b5c0d7c9`.
+
+Blind semantic scores frozen before year key: `ASTER_BLIND_PROLIFERATION_SCORES_FROZEN_2026-10-11.md`, commit `2835c36331aff531ae033935555715ce606b6c98`.
+
+Primary confirmed compound IDs: XR017, XR068, XR084, XR140, XR287. Ambiguous XR185 excluded from primary count.
+
+After unblinding: confirmed compounds = 1/100 (2024), 3/100 (2025), 1/100 (2026). XR185 is 2024, so permissive sensitivity = 2/3/1. Fisher 2024 vs 2026 p=1.0, risk ratio 1.0, risk difference 0pp. All five confirmed cases are condensed-matter papers. Frozen lexical motif diagnostics likewise show no monotonic 2024->2026 compound rise.
+
+Result artifact: `ASTER_BLIND_PROLIFERATION_TEST_RESULT_2026-10-11.md`, commit `0eb01a4577698b20516f8d0ffd2bc8974e74a845`.
+
+Disposition: **no support for field-wide 'proliferation'** in this control. Keep Paper A's selected-example structural-convergence thesis strong; in a successor revision replace only the two proliferation sentences with selected-programme co-occurrence wording. Accepted R1 blob remains historically preserved unless Originator reopens.
+
+Next cursor: use the same corpus only as a null/base-rate comparator for how uncommon the compound architecture is in broad physics, with selection-bias firewall. Do not compare the deliberately selected Paper-A set to the random set as if both were random samples.
+
+### 2026-10-11 — Ancestry stratigraphy + null specificity control
+
+Created `ASTER_CONSTRUCTION_ANCESTRY_STRATIGRAPHY_2026-10-11.md` at commit `7c3a3ee6e302e50b780cb2ca4cf63ce0daa2fc52`. The matrix separates moving-section geometry (Hinton/Smith), formal braid topology (Artin), quark-worldline/string/helix hadron models (Bars & Hanson), elementary particle-state braids (Bilson-Thompson/Asselmeyer), and Nathan's specific quark-worldline 2-/3-braid composite assignment. Exact external antecedent for the SAT object-level hadron braid remains unlocated/search incomplete.
+
+Created `ASTER_COMPOUND_ARCHITECTURE_BASE_RATE_2026-10-11.md` at commit `e82bd7cc4f2807fbd7c448ad24741782e86e28cc`. Frozen compound architecture appears in 5/300 random physics abstracts (1.67%, exact 95% CI ~0.54%-3.85%). All 5 are condensed matter: 5/90 any-cond-mat versus 0/210 other physics, Fisher p~0.00224. This is a classifier-specificity/domain-concentration control only. Do not treat selected Paper-A comparators as a random sample.
+
+Existing published Mersearch request folders were checked for Hinton/Bilson-Thompson/Bars-Hanson/Asselmeyer/Whately exposure queries; no reusable published request was found. Shared live slot remains occupied by Orson retry, so dedicated three-root exposure pass remains pending.
+
+Next cursor: when Mersearch request slot clears, run a source-role-aware exposure package across all three permitted roots for Hinton, Whately Smith/Carington, Artin braid, Bilson-Thompson, Bars/Hanson, Asselmeyer-Maluga. Separate Nathan/user mentions, assistant material visible to Nathan, bibliography/import-only occurrences, and retrospective post-discovery discussion.

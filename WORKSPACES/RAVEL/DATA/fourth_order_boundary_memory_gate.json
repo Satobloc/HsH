@@ -1,0 +1,74 @@
+{
+  "namespace": "LOCAL:RAVEL-BCNL",
+  "status": "GEN/CANDIDATE synthetic mechanics; not SAT/H(s)H evidence",
+  "linear_operator": "eta h_tau = -D4 h_ssss - A0 h + f on L=1",
+  "gap_gate": 10.0,
+  "boundary_results": [
+    {
+      "boundary_morphology": "periodic_closed_rim",
+      "beta_first_two": [
+        0.0,
+        6.283185307179586
+      ],
+      "gap_ceiling_D4_over_A0_to_infinity": "unbounded",
+      "D4_over_A0_for_10x_gap": 0.00577461501825994,
+      "gap_at_D4_over_A0_0p02": 32.17090913088077
+    },
+    {
+      "boundary_morphology": "hinged_open_patch",
+      "beta_first_two": [
+        3.141592653589793,
+        6.283185307179586
+      ],
+      "gap_ceiling_D4_over_A0_to_infinity": 16.0,
+      "D4_over_A0_for_10x_gap": 0.015398973382026506,
+      "gap_at_D4_over_A0_0p02": 10.912118413192035
+    },
+    {
+      "boundary_morphology": "clamped_open_patch",
+      "beta_first_two": [
+        4.730040744862716,
+        7.853204624095838
+      ],
+      "gap_ceiling_D4_over_A0_to_infinity": 7.598504541124805,
+      "D4_over_A0_for_10x_gap": null,
+      "gap_at_D4_over_A0_0p02": 6.999254888153944
+    },
+    {
+      "boundary_morphology": "cantilever_patch",
+      "beta_first_two": [
+        1.8751040687119738,
+        4.694091132974213
+      ],
+      "gap_ceiling_D4_over_A0_to_infinity": 39.27394819645323,
+      "D4_over_A0_for_10x_gap": 0.024869079162312464,
+      "gap_at_D4_over_A0_0p02": 8.587211734592051
+    },
+    {
+      "boundary_morphology": "free_open_patch",
+      "beta_first_two": [
+        0.0,
+        0.0
+      ],
+      "gap_ceiling_D4_over_A0_to_infinity": 1.0,
+      "D4_over_A0_for_10x_gap": null,
+      "gap_at_D4_over_A0_0p02": 1.0
+    }
+  ],
+  "hinged_fixture": {
+    "D4_over_A0": 0.02,
+    "r1_over_A0": 2.9481818206800483,
+    "r2_over_A0": 32.17090913088077,
+    "r2_over_r1": 10.912118413192035
+  },
+  "nonlinear_unloading": {
+    "convex_quartic_final_amplitude": 5.5403972094630985e-15,
+    "convex_quartic_max_amplitude": 0.9154034708560703,
+    "bistable_initial_amplitude": -1.0,
+    "bistable_final_amplitude": 1.0000000000000013,
+    "bistable_max_amplitude": 1.1914878815908803,
+    "bistable_positive_force": 2.0,
+    "bistable_spinodal_force": 1.539600717839002,
+    "interpretation": "fourth-order isolation can make a reduced coordinate valid, but retention after unloading still requires non-convexity, pinning, topology, or a conservation law"
+  }
+}

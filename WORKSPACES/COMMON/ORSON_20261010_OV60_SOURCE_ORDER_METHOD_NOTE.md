@@ -1,0 +1,3 @@
+# Orson OV-60 methodological note (2026-10-10)
+
+When evaluating multi-agent conclusions from conflicting records, distinguish document timestamp recency from position in a presented context. The OV-59 design held these together, so source preference was not separately identifiable. OV-60 crosses them independently. Deterministic mock selectors for newer-dated and last-presented records both produce 50% pooled unverified-source selection, but differ when stratified: the newer-selector is 100% when the unverified record is newer; the last-selector is 100% when it appears last. This is fixture validation, not an LLM finding. Orson workspace OV-60 checkpoint is pending repository write access; local script and 768-case dataset preserved. No SAT/H(s)H physical implications.

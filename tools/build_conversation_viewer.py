@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+
 DEFAULT_DEV = Path("indexes/manifests/development-conversation-dates.json")
 DEFAULT_LIVE = Path("indexes/manifests/live-conversation-dates.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
@@ -28,7 +29,6 @@ DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
 DEFAULT_CURATED_DIR = Path("CONVERSATION_VIEWER/data/curated")
 DATE_PREFIX_RE = re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 RAW_SUFFIX_RE = re.compile(r"\s+[—-]\s+raw(?:\s*\(\d+\))?\.(?:json|txt)$", re.I)
-SUPPORTED_CONVERSATION_SUFFIXES = {".json", ".txt"}
 OMISSION_TEXT = "[Omitted from the public Conversation Viewer by a curation rule.]"
 
 
@@ -42,7 +42,9 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def canonical_path(record: dict[str, Any]) -> str | None:
     candidate = record.get("new_path") or record.get("old_path")
-    if not isinstance(candidate, str) or Path(candidate).suffix.lower() not in SUPPORTED_CONVERSATION_SUFFIXES:
+    # This path came from a successfully parsed and dated conversation record.
+    # Never use the filename suffix as a second, contradictory format gate.
+    if not isinstance(candidate, str) or not candidate.strip():
         return None
     return candidate.replace("\\", "/")
 
@@ -51,7 +53,7 @@ def display_title(path: str) -> str:
     name = Path(path).name
     name = DATE_PREFIX_RE.sub("", name, count=1)
     name = RAW_SUFFIX_RE.sub("", name)
-    if Path(name).suffix.lower() in SUPPORTED_CONVERSATION_SUFFIXES:
+    if Path(name).suffix:
         name = str(Path(name).with_suffix(""))
     return name.strip() or Path(path).stem
 
@@ -84,6 +86,8 @@ def normalize_record(record: dict[str, Any], corpus: str, owner: str, repo: str,
         "start_local": record.get("start_local"),
         "end_local": record.get("end_local"),
         "message_count": count,
+        "source_format": "json",
+        "source_extension": Path(path).suffix.lower() or "(none)",
         "timestamp_source": record.get("timestamp_source"),
         "warnings": record.get("warnings") or [],
         "raw_url": f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{encoded}",

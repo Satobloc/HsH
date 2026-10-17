@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-11-ravel-contact-relaxation-hysteresis-001",
+  "title": "Ravel — dynamic contact relaxation and hysteresis minimal-pair recovery",
+  "requested_by": "Ravel",
+  "repositories": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH"
+  ],
+  "query": "((contact OR sleeve OR resolver OR timesheet) AND (relaxation OR hysteresis OR delayed response OR moving boundary OR deformation memory) AND (worldtube OR filament OR finite core OR director)) OR ((ONE DROP UNIVERSE OR IMPORTANT) AND (contact OR relaxation OR hysteresis OR strain OR phase slip))",
+  "purpose": "Recover old SAT equations, mechanisms, and apparatus notes that can be translated into a strict H(s)H minimal pair: quasistatic deformable contact versus finite-time relaxing contact. Identify repairable old mathematics, especially places where a static deformation was asked to do dynamic-memory work.",
+  "preferred_outputs": [
+    "exact repository path",
+    "stable file locator or line/section locator",
+    "verbatim equation or faithful equation transcription",
+    "source-status and provenance notes",
+    "contradictions or repair opportunities",
+    "September 30 / IMPORTANT / ONE DROP hits prioritized"
+  ],
+  "exclusions": [
+    "Do not promote historical constants or particle labels to targets",
+    "Do not import Hypothesis H proper or restricted Schreiber material",
+    "Do not infer that a worldline wraps around an external carrier"
+  ]
+}

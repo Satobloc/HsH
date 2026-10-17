@@ -1,0 +1,840 @@
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Partly cloudy
+‎41‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+TechRadar Pro
+23.6K Followers
+This superconducting memory bit runs at an estimated 5x the limit
+Story by Rahim Amir • 12h • 4 min read
+
+
+ This superconducting memory bit runs at an estimated 5x the limit 
+This superconducting memory bit runs at an estimated 5x the limit
+© Pixabay
+Hebrew University physicists estimate a single superconducting vortex can act as a memory bit at about five times Landauer's limit, at 4.2 kelvin
+The fivefold figure is a simulation-based estimate anchored to continuous-drive measurements, not a measured erasure, however
+The release's million-fold edge over conventional computers disregards refrigeration costs
+Every time a computer erases a bit, it pays an energy toll that physics will not waive; IBM physicist Rolf Landauer pinned down the minimum in 1961: kT ln 2, a figure that scales with temperature and works out to about 2.9 zeptojoules at room temperature.
+
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+No real chip comes close, making that gap a favorite target as computing's electricity bill keeps climbing.
+
+Physicists at the Hebrew University of Jerusalem now say they have come within about five times of that floor using a single superconducting vortex, a nanoscale whirlpool of electrical current.
+
+Storing a bit in a whirlpool might be a slightly controversial play
+The work, published in Nature Communications on September 24 and publicized in a university release on October 11, is a clever measurement, but it has limitations: the device works only at liquid-helium temperatures, and one of the paper's three peer reviewers has opposed the final version.
+
+Related video: IBM quantum computer reaches 15-minute computing milestone (WooGlobe)
+View on Watch
+View on Watch
+
+WooGlobe
+IBM quantum computer reaches 15-minute computing milestone
+IBM researchers and University of Chicago scientists
+Current Time 
+0:00
+/
+Duration 
+1:05
+0
+In a thin superconducting film, a magnetic field can punch through in tiny tubes, each ringed by circulating current and carrying one quantum of flux, and these vortices snag on defects.
+
+The team, led by Yonathan Anahory, used a 55-nanometer niobium film patterned into a strip 10 micrometers wide and cooled to 4.2 kelvin. Sweeping a steady current through the strip nudged individual vortices into spots where the film's natural disorder offers two neighboring resting places only a few nanometers apart. The positioning matters here, acting effectively as a store of value: left or right becomes zero or one.
+
+They then rocked each vortex with an alternating current and tracked it with a SQUID-on-tip microscope, a magnetic sensor built onto a tapered glass probe. The part of the motion that lags behind the push reveals how much energy is lost each cycle.
+
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+Anahory said the result puts the bit at roughly five times Landauer's limit, “bringing it remarkably close to the minimum permitted by physics.” The release covers the energy as measured for the actual test, not the cooling aspect, which could significantly reduce the efficiency story here.
+
+The paper adds another caveat here: Its abstract concedes that “our experimental method requires a steady sinusoidal drive incompatible with Landauer’s erasure protocol” and attributes the near-limit figure to numerical analysis.
+
+The lab measured dissipation while vortices were wiggled back and forth continuously; the cost of a true erasure, forcing a bit of unknown value into a known state, was estimated with simulations anchored to that data. The fivefold number is the authors' estimate for a working bit driven at 150 kHz, spelled out in their replies to reviewers.
+
+Explore Medicare Plans Based On Your Needs And Budget With Licensed Sales Agent Support.
+Explore Medicare Plans Based On Your Needs And Budget With Licensed Sales Agent Support.
+Reliance
+Reliance
+·
+Sponsored
+call to action icon
+
+This has, however, spurred a peer review fight, also published by Nature Communications, which lists the unusually blunt referee reports alongside the paper.
+
+Reviewer #2 rejected the first draft, said the second could run only with extra experiments, and recommended against the final version, opening with “Authors write that they measure work. It is not true.” The reviewer argued that force, displacement, and work were estimated or inferred rather than observed, and asked for two sanity checks: show the vortex being pushed into one well and staying there, and show its spontaneous hopping changing with temperature, as thermal activation predicts.
+
+The authors declined both, citing scanning drift that limits static imaging to about 20 nanometers and noting that changing temperature also reshapes the pinning landscape.
+
+Reviewer #3 backed publication, calling the work original and sound and warning that the extra experiments could delay it indefinitely. Reviewer #1 judged the technique ill-suited to erasure at useful speeds and encouraged a more modest title.
+
+Speed is the tradeoff
+Not only is the cost of cooling unaccounted for, with real-world refrigeration costs not being factored in, but the bigger problem is also speed. Landauer's limit is only reachable if you take your time, and work by Proesmans, Ehrich, and Bechhoefer shows that the extra cost of erasure rises as operations speed up.
+
+The Hebrew University estimate applies at 150 kHz, or essentially one operation every 6.7 microseconds, while superconducting logic chips were clocked at 6 GHz more than a decade ago.
+
+Going slower does not help either. By the authors' own noise data, the two wells central to the near-limit result let the vortex hop on its own roughly 3,000 to 7,000 times a second at 4.2 K.
+
+The authors argue that this is fine as long as operations run much faster than the hopping. But it means the most efficient wells hold information for well under a millisecond, and the paper does not show a single well that is both near the limit and able to keep data for long.
+
+The tradeoff, therefore, is one between speed, cost, and durability, and given that the use case is data storage, it is a tough call to make. Vortex memory is not entirely new; the Hebrew University contribution is energy accounting, and its claim to a first is narrow, though it uses a single vortex.
+
+The Hebrew University team has produced a careful, somewhat contested estimate of how cheaply a single vortex can be shuffled between two spots, and a reminder that sitting close to the physical limit and being efficient at the wall socket are very different things.
+
+Like this article? For more stories like this, follow us on MSN by clicking the +Follow button at the top of this page.
+
+
+Sponsored
+TechRadar Pro
+Visit TechRadar Pro
+Biomemory’s DNA Shield stores critical data in synthetic DNA — beyond the reach of cyberattacks
+Small business owners are ditching web developers for AI
+
+Sponsored
+Sponsored Content
+Quantum Theory PDF Download - Perlego Textbooks Library - 1M+ Books Across 1000+ Topics
+Perlego
+Perlego
+Quantum Theory PDF Download - Perlego Textbooks Library - 1M+ Books Across 1000+ Topics
+Sponsored
+
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Splunk
+Splunk
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Sponsored
+
+Build a Cost-Conscious IT Culture
+Datadog
+Datadog
+Build a Cost-Conscious IT Culture
+Sponsored
+
+Learn To Monitor Azure OpenAI
+Datadog
+Datadog
+Learn To Monitor Azure OpenAI
+Sponsored
+
+More for You
+
+
+Scientists believe the universe has 11 dimensions but we can only see four
+Sciencephile the AI
+Sciencephile the AI
+Scientists believe the universe has 11 dimensions but we can only see four
+
+
+Play video preview
+PsyPost
+PsyPost
+AI reveals the immense computing power of single human brain cells
+
+
+Play video preview
+The Action Lab
+The Action Lab
+Can you find the hidden variable?
+
+
+Play video preview
+CNBC
+CNBC
+·
+1d
+Tesla unveils its next-generation Roadster flying car
+
+
+Ilhan Omar didn't flee to Morocco after federal agents' raid on her home
+Snopes
+Snopes
+·
+14h
+Ilhan Omar didn't flee to Morocco after federal agents' raid on her home
+
+
+Why Kelly Clarkson’s feud over a $15,000 mechanical bird sounds all wrong to birders
+Country Living
+Country Living
+·
+19h
+Why Kelly Clarkson’s feud over a $15,000 mechanical bird sounds all wrong to birders
+
+
+Play video preview
+Celestium
+Celestium
+·
+3w
+The discovery that could rewrite stellar physics
+
+
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+BookNova
+BookNova
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+Sponsored
+
+Physics Meets Philosophy At The Planck Scale: Contemporary Theories In Quantum Gravity (Volume 0)
+Amazon.com
+Physics Meets Philosophy At The Planck Scale: Contemporary Theories In Quantum Gravity (Volume 0)
+Sponsored
+
+share
+more
+
+Gravity Lab
+Tahoe disappeared under snow and daily life came to a stop
+1w
+View on Watch
+View on Watch
+
+Gravity Lab
+Tahoe disappeared under snow and daily life came to a stop
+Current Time 
+0:00
+/
+Duration 
+9:27
+0
+December brought record snowfall to the Tahoe region, with nearly 200 inches falling over a short period. Power outages lasted for days, forcing residents to rely on generators and wood heat. Vehicles and homes were buried under heavy snow. Daily routines shifted to digging out and staying warm. Despite the disruption, conditions created rare riding opportunities.
+
+TOP STORIES
+ APTOPIX Oregon School Shooting
+The Associated PressThe Associated Press
+Oregon father is the latest armed civilian to confront a gunman in a US mass shooting
+ The Moment Katie Zacharia Found Out Her Five-Day Stint as Press Secretary Was Over
+The Wall Street JournalThe Wall Street Journal
+Katie Zacharia projected confidence. Less than an hour later, she was out.
+ 2026-10-16T203723Z_549741652_RC2K4OAUX5CF_RTRMADP_3_USA-TRUMP-GEORGIA.JPG
+CNNCNN
+Trump waives Russia-related sanctions before they even kick in as Ukraine ties worsen
+Sponsored Content
+More for You
+
+Feedback
+
+Profile Picture
+
+
+ This superconducting memory bit runs at an estimated 5x the limit 
+This superconducting memory bit runs at an estimated 5x the limit
+© Pixabay
+Hebrew University physicists estimate a single superconducting vortex can act as a memory bit at about five times Landauer's limit, at 4.2 kelvin
+The fivefold figure is a simulation-based estimate anchored to continuous-drive measurements, not a measured erasure, however
+The release's million-fold edge over conventional computers disregards refrigeration costs
+Every time a computer erases a bit, it pays an energy toll that physics will not waive; IBM physicist Rolf Landauer pinned down the minimum in 1961: kT ln 2, a figure that scales with temperature and works out to about 2.9 zeptojoules at room temperature.
+
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+No real chip comes close, making that gap a favorite target as computing's electricity bill keeps climbing.
+
+Physicists at the Hebrew University of Jerusalem now say they have come within about five times of that floor using a single superconducting vortex, a nanoscale whirlpool of electrical current.
+
+Storing a bit in a whirlpool might be a slightly controversial play
+The work, published in Nature Communications on September 24 and publicized in a university release on October 11, is a clever measurement, but it has limitations: the device works only at liquid-helium temperatures, and one of the paper's three peer reviewers has opposed the final version.
+
+Related video: IBM quantum computer reaches 15-minute computing milestone (WooGlobe)
+View on Watch
+View on Watch
+
+WooGlobe
+IBM quantum computer reaches 15-minute computing milestone
+have reached a major milestone in quantum computing.
+0
+In a thin superconducting film, a magnetic field can punch through in tiny tubes, each ringed by circulating current and carrying one quantum of flux, and these vortices snag on defects.
+
+The team, led by Yonathan Anahory, used a 55-nanometer niobium film patterned into a strip 10 micrometers wide and cooled to 4.2 kelvin. Sweeping a steady current through the strip nudged individual vortices into spots where the film's natural disorder offers two neighboring resting places only a few nanometers apart. The positioning matters here, acting effectively as a store of value: left or right becomes zero or one.
+
+They then rocked each vortex with an alternating current and tracked it with a SQUID-on-tip microscope, a magnetic sensor built onto a tapered glass probe. The part of the motion that lags behind the push reveals how much energy is lost each cycle.
+
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Order Cygnus® HCP ELISA Kits - Minimal Matrix Interference - 96-Well Microplate Format
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+Anahory said the result puts the bit at roughly five times Landauer's limit, “bringing it remarkably close to the minimum permitted by physics.” The release covers the energy as measured for the actual test, not the cooling aspect, which could significantly reduce the efficiency story here.
+
+The paper adds another caveat here: Its abstract concedes that “our experimental method requires a steady sinusoidal drive incompatible with Landauer’s erasure protocol” and attributes the near-limit figure to numerical analysis.
+
+The lab measured dissipation while vortices were wiggled back and forth continuously; the cost of a true erasure, forcing a bit of unknown value into a known state, was estimated with simulations anchored to that data. The fivefold number is the authors' estimate for a working bit driven at 150 kHz, spelled out in their replies to reviewers.
+
+Explore Medicare Plans Based On Your Needs And Budget With Licensed Sales Agent Support.
+Explore Medicare Plans Based On Your Needs And Budget With Licensed Sales Agent Support.
+Reliance
+Reliance
+·
+Sponsored
+call to action icon
+
+This has, however, spurred a peer review fight, also published by Nature Communications, which lists the unusually blunt referee reports alongside the paper.
+
+Reviewer #2 rejected the first draft, said the second could run only with extra experiments, and recommended against the final version, opening with “Authors write that they measure work. It is not true.” The reviewer argued that force, displacement, and work were estimated or inferred rather than observed, and asked for two sanity checks: show the vortex being pushed into one well and staying there, and show its spontaneous hopping changing with temperature, as thermal activation predicts.
+
+The authors declined both, citing scanning drift that limits static imaging to about 20 nanometers and noting that changing temperature also reshapes the pinning landscape.
+
+Reviewer #3 backed publication, calling the work original and sound and warning that the extra experiments could delay it indefinitely. Reviewer #1 judged the technique ill-suited to erasure at useful speeds and encouraged a more modest title.
+
+Speed is the tradeoff
+Not only is the cost of cooling unaccounted for, with real-world refrigeration costs not being factored in, but the bigger problem is also speed. Landauer's limit is only reachable if you take your time, and work by Proesmans, Ehrich, and Bechhoefer shows that the extra cost of erasure rises as operations speed up.
+
+The Hebrew University estimate applies at 150 kHz, or essentially one operation every 6.7 microseconds, while superconducting logic chips were clocked at 6 GHz more than a decade ago.
+
+Going slower does not help either. By the authors' own noise data, the two wells central to the near-limit result let the vortex hop on its own roughly 3,000 to 7,000 times a second at 4.2 K.
+
+The authors argue that this is fine as long as operations run much faster than the hopping. But it means the most efficient wells hold information for well under a millisecond, and the paper does not show a single well that is both near the limit and able to keep data for long.
+
+The tradeoff, therefore, is one between speed, cost, and durability, and given that the use case is data storage, it is a tough call to make. Vortex memory is not entirely new; the Hebrew University contribution is energy accounting, and its claim to a first is narrow, though it uses a single vortex.
+
+The Hebrew University team has produced a careful, somewhat contested estimate of how cheaply a single vortex can be shuffled between two spots, and a reminder that sitting close to the physical limit and being efficient at the wall socket are very different things.
+
+Like this article? For more stories like this, follow us on MSN by clicking the +Follow button at the top of this page.
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Partly cloudy
+‎41‎
+‎°F‎
+
+headphone stoped
+share
+more
+
+Sponsored
+
+Space
+161.9K Followers
+Most normal matter in the universe isn't found in planets, stars or galaxies – an astronomer explains where it's distributed
+Story by Chris Impey • 9mo • 5 min read
+
+This article was originally published at The Conversation. The publication contributed the article to Space.com's Expert Voices: Op-Ed & Insights.
+
+If you look across space with a telescope, you'll see countless galaxies, most of which host large central black holes, billions of stars and their attendant planets. The universe teems with huge, spectacular objects, and it might seem like these massive objects should hold most of the universe's matter.
+
+Master Azure OpenAI monitoring with our detailed guide. Download it now.
+Master Azure OpenAI monitoring with our detailed guide. Download it now.
+Datadog
+Datadog
+·
+Sponsored
+call to action icon
+
+But the Big Bang theory predicts that about 5% of the universe's contents should be atoms made of protons, neutrons and electrons. Most of those atoms cannot be found in stars and galaxies – a discrepancy that has puzzled astronomers.
+
+If not in visible stars and galaxies, the most likely hiding place for the matter is in the dark space between galaxies. While space is often referred to as a vacuum, it isn't completely empty. Individual particles and atoms are dispersed throughout the space between stars and galaxies, forming a dark, filamentary network called the "cosmic web."
+
+Throughout my career as an astronomer, I've studied this cosmic web, and I know how difficult it is to account for the matter spread throughout space.
+
+In a study published in June 2025, a team of scientists used a unique radio technique to complete the census of normal matter in the universe.
+
+Related video: We can't look beyond the Big Bang - The cosmic mystery that could hide an entire parent universe beyond our reach (Origins Explained)
+View on Watch
+View on Watch
+
+Origins Explained
+We can't look beyond the Big Bang - The cosmic mystery that could hide an entire parent universe beyond our reach
+Current Time 
+0:00
+/
+Duration 
+27:46
+0
+The census of normal matter
+The most obvious place to look for normal matter is in the form of stars. Gravity gathers stars together into galaxies, and astronomers can count galaxies throughout the observable universe.
+
+The census comes to several hundred billion galaxies, each made of several hundred billion stars. The numbers are uncertain because many stars lurk outside of galaxies. That's an estimated 1023 stars in the universe, or hundreds of times more than the number of sand grains on all of Earth's beaches. There are an estimated 1082 atoms in the universe.
+
+However, this prodigious number falls far short of accounting for all the matter predicted by the Big Bang. Careful accounting indicates that stars contain only 0.5% of the matter in the universe. Ten times more atoms are presumably floating freely in space. Just 0.03% of the matter is elements other than hydrogen and helium, including carbon and all the building blocks of life.
+
+
+The cosmic web is an underpinning structure to our universe. (Image credit: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA/J. Pinto, CC BY 4.0)
+The cosmic web is an underpinning structure to our universe. (Image credit: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA/J. Pinto, CC BY 4.0)
+Looking between galaxies
+The intergalactic medium – the space between galaxies – is near-total vacuum, with a density of one atom per cubic meter, or one atom every 35 cubic feet. That's less than a billionth of a billionth of the density of air on Earth. Even at this very low density, this diffuse medium adds up to a lot of matter, given the enormous, 92-billion-light-year diameter of the universe.
+
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Order Cygnus® HCP ELISA Kits - 96-Well Microplate Format - Minimal Matrix Interference
+Cygnus Technologies
+Cygnus Technologies
+·
+Sponsored
+call to action icon
+
+The intergalactic medium is very hot, with a temperature of millions of degrees. That makes it difficult to observe except with X-ray telescopes, since very hot gas radiates out through the universe at very short X-ray wavelengths. X-ray telescopes have limited sensitivity because they are smaller than most optical telescopes.
+
+Deploying a new tool
+Astronomers recently used a new tool to solve this missing matter problem. Fast radio bursts are intense blasts of radio waves that can put out as much energy in a millisecond as the Sun puts out in three days. First discovered in 2007, scientists found that the bursts are caused by compact stellar remnants in distant galaxies. Their energy peters out as the bursts travel through space, and by the time that energy reaches the Earth, it is a thousand times weaker than a mobile phone signal would be if emitted on the moon, then detected on Earth.
+
+16–18 Months Part Time - MS in Data Science - 6 Start Dates Per Year
+16–18 Months Part Time - MS in Data Science - 6 Start Dates Per Year
+online.merrimack.edu
+·
+Sponsored
+call to action icon
+
+Research from early 2025 suggests the source of the bursts is the highly magnetic region around an ultra-compact neutron star. Neutron stars are incredibly dense remnants of massive stars that have collapsed under their own gravity after a supernova explosion. The particular type of neutron star that emits radio bursts is called a magnetar, with a magnetic field a thousand trillion times stronger than the Earth's.
+
+Even though astronomers don't fully understand fast radio bursts, they can use them to probe the spaces between galaxies. As the bursts travel through space, interactions with electrons in the hot intergalactic gas preferentially slow down longer wavelengths. The radio signal is spread out, analogous to the way a prism turns sunlight into a rainbow. Astronomers use the amount of spreading to calculate how much gas the burst has passed through on its way to Earth.
+
+Puzzle solved
+In the new study, published in June 2025, a team of astronomers from Caltech and the Harvard Center for Astrophysics studied 69 fast radio bursts using an array of 110 radio telescopes in California. The team found that 76% of the universe's normal matter lies in the space between galaxies, with another 15% in galaxy halos – the area surrounding the visible stars in a galaxy – and the remaining 9% in stars and cold gas within galaxies.
+
+The complete accounting of normal matter in the universe provides a strong affirmation of the Big Bang theory. The theory predicts the abundance of normal matter formed in the first few minutes of the universe, so by recovering the predicted 5%, the theory passes a critical test.
+
+Several thousand fast radio bursts have already been observed, and an upcoming array of radio telescopes will likely increase the discovery rate to 10,000 per year. Such a large sample will let fast radio bursts become powerful tools for cosmology. Cosmology is the study of the size, shape and evolution of the universe. Radio bursts could go beyond counting atoms to mapping the three-dimensional structure of the cosmic web.
+
+
+A pie chart showing the universe's matter-energy budget (Image credit: Robert Lea (created with Canva))
+A pie chart showing the universe's matter-energy budget (Image credit: Robert Lea (created with Canva))
+Pie chart of the universe
+Scientists may now have the complete picture of where normal matter is distributed, but most of the universe is still made up of stuff they don't fully understand.
+
+The most abundant ingredients in the universe are dark matter and dark energy, both of which are poorly understood. Dark energy is causing the accelerating expansion of the universe, and dark matter is the invisible glue that holds galaxies and the universe together.
+
+Dark matter is probably a previously unstudied type of fundamental particle that is not part of the standard model of particle physics. Physicists haven't been able to detect this novel particle yet, but we know it exists because, according to general relativity, mass bends light, and far more gravitational lensing is seen than can be explained by visible matter. With gravitational lensing, a cluster of galaxies bends and magnifies light in a way that's analogous to an optical lens. Dark matter outweighs conventional matter by more than a factor of five.
+
+One mystery may be solved, but a larger mystery remains. While dark matter is still enigmatic, we now know a lot about the normal atoms making up us as humans, and the world around us.
+
+Like this article? For more stories like this, follow us on MSN by clicking the +Follow button at the top of this page.
+
+
+Sponsored
+Space
+Visit Space
+When not to watch a meteor shower — why I'm not staying up for the Orionids
+Scientists find gemstones in atmosphere of bizarre, scorching-hot marshmallow exoplanet
+How to see the Orionid meteor shower 2026 peak this week — and when to look
+
+Sponsored
+Sponsored Content
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+BookNova
+BookNova
+Drop One Story Idea and the AI Writes Every Chapter, Cover and Illustration
+Sponsored
+
+Master Kubernetes performance with our detailed eBook and metrics guide.
+Datadog
+Datadog
+Master Kubernetes performance with our detailed eBook and metrics guide.
+Sponsored
+
+Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster - Download Free Guide Now
+Splunk
+Splunk
+Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster - Download Free Guide Now
+Sponsored
+
+New "Grand Canyon Discovery" Could Power America
+Behind the Markets
+New "Grand Canyon Discovery" Could Power America
+Sponsored
+
+More for You
+
+
+Scientists believe the universe has 11 dimensions but we can only see four
+Sciencephile the AI
+Sciencephile the AI
+Scientists believe the universe has 11 dimensions but we can only see four
+
+
+Black holes might not just swallow stars—they could destroy habitable worlds
+Futura-sciences
+Futura-sciences
+·
+22h
+Black holes might not just swallow stars—they could destroy habitable worlds
+
+
+Play video preview
+The Action Lab
+The Action Lab
+Can you find the hidden variable?
+
+
+Play video preview
+Dark Footage Official
+Dark Footage Official
+·
+1w
+Scientists put a kitten in zero gravity. Nobody knew how it would react
+
+
+Play video preview
+Veritasium
+Veritasium
+Scientists found strange crystals inside a perfect drug
+
+
+Play video preview
+StarTalk
+StarTalk
+·
+4w
+Scientists create a missing element
+
+
+Google's quantum computer just achieved a major breakthrough with 'magic states'
+ScienceAlert
+ScienceAlert
+·
+1d
+Google's quantum computer just achieved a major breakthrough with 'magic states'
+
+
+Download Free Guide Now - Fix Kubernetes Issues Faster - Kubernetes Troubleshoot Guide
+Splunk
+Splunk
+Download Free Guide Now - Fix Kubernetes Issues Faster - Kubernetes Troubleshoot Guide
+Sponsored
+
+Download AWS Lambda Cheatsheet
+Datadog
+Download AWS Lambda Cheatsheet
+Sponsored
+
+share
+more
+
+PsyPost
+14.6K Followers
+AI reveals the immense computing power of single human brain cells
+3mo
+View on Watch
+View on Watch
+
+PsyPost
+AI reveals the immense computing power of single human brain cells
+The secret to human intelligence might be hidden inside the
+Current Time 
+0:00
+/
+Duration 
+1:03
+0
+Researchers used artificial intelligence to compare the computational power of individual neurons from humans and rats. They found that human cortical neurons are much more functionally complex, driven largely by their sprawling dendritic branches and highly reactive synaptic proteins. This suggests that human cognitive abilities stem partly from the sophisticated information-processing capabilities of single cells. Read more here: #neuroscience #neurons #cognition #braincells #artificialintelligence #psychology #science #Shorts
+
+TOP STORIES
+ APTOPIX Oregon School Shooting
+The Associated PressThe Associated Press
+Oregon father is the latest armed civilian to confront a gunman in a US mass shooting
+ The Moment Katie Zacharia Found Out Her Five-Day Stint as Press Secretary Was Over
+The Wall Street JournalThe Wall Street Journal
+Katie Zacharia projected confidence. Less than an hour later, she was out.
+ 2026-10-16T203723Z_549741652_RC2K4OAUX5CF_RTRMADP_3_USA-TRUMP-GEORGIA.JPG
+CNNCNN
+Trump waives Russia-related sanctions before they even kick in as Ukraine ties worsen
+Sponsored Content
+More for You
+
+Feedback
+
+Profile Picture
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Partly cloudy
+‎41‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+Click to unmute
+Click to unmute
+Video Player is loading.
+Current Time 
+0:00
+/
+Duration 
+17:39
+0
+
+Sideprojects
+8mo8 months ago, 2/5/2026, 12:34 PM
+Questions so confusing even math gave up
+Some paradoxes don’t just challenge logic, they completely break it. These puzzles create situations where something must be both true and false at the same time. Philosophers, mathematicians, and scientists have argued about them for centuries without agreement. Attempts to solve them often create new paradoxes instead. Some even reshaped mathematics and physics forever. Others still have no accepted explanation. These are the questions reality itself struggles to answer. 
+
+share
+more
+placeholder
+Click to unmute
+Click to unmute
+
+Current Time 
+0:00
+/
+Duration 
+11:35
+•Intro
+0
+
+The Infographics Show
+3mo3 months ago, 7/7/2026, 1:48 PM
+Scientists just found something hidden in black holes
+Black holes aren't just cosmic monsters, they might be home. A discovery from the James Webb Space Telescope has scientists questioning everything we know about space, time, and the very fabric of our universe. Watch now to find out more!
+
+share
+more
+placeholder
+Click to unmute
+Click to unmute
+Current Time 
+0:00
+/
+Duration 
+0:00
+0
+
+Ellie in Space
+1d1 day ago, 10/16/2026, 7:14 AM
+Throwback to a NASA moonwalker arguing with a podcaster and conspiracy theorist
+A former NASA astronaut who walked on the Moon sat for what he expected to be a normal interview. The conversation became a four-hour argument after a conspiracy theorist repeatedly challenged his account, while the host let the exchange continue.
+
+share
+more
+Master Azure OpenAI monitoring with our detailed guide. Download it now.Sponsored
+Datadog
+Datadog
+Master Azure OpenAI monitoring with our detailed guide. Download it now.
+placeholder
+Click to unmute
+Click to unmute
+
+Current Time 
+0:00
+/
+Duration 
+0:00
+•Intro
+100
+
+Dark Records
+22h22 hours ago, 10/16/2026, 8:40 AM
+Students stepped onto a viewing platform 100 feet above a ravine… then the entire structure broke away
+In 1995, a group of students on a field trip reached the Cave Creek viewing platform on New Zealand’s South Island, unaware that serious problems were hidden within its construction. The platform had even been observed flexing the previous day, but when the students stepped onto it, the structure suddenly separated from its supports and plunged nearly 100 feet into the ravine below. Investigators later discovered that qualified structural engineers had not been involved, construction plans had not been properly followed, nails had been substituted where bolts were intended, and a planned occupancy-limit sign was never installed. The subsequent inquiry concluded that the Department of Conservation’s failure to follow safe building practices was the principal cause of the collapse.
+
+share
+more
+placeholder
+
+The Why Files
+8mo8 months ago, 1/22/2026, 6:35 AM
+Tesla built a device to talk to the dead
+In 1901, Nikola Tesla believed something was in his lab — something not of this world. So he built a device to detect it. What he called the “spirit radio” sparked a century of speculation. This is the story of science reaching into the afterlife.
+
+share
+more
+placeholder
+
+The Space Race
+3w3 weeks ago, 9/25/2026, 5:04 AM
+Something is slowing down NASA and SpaceX - and few people are talking about it
+NASA and SpaceX are leading humanity's return to the Moon and eventual journey to Mars. But behind the headlines, a growing list of challenges is raising difficult questions about the future of space exploration. Engineers are racing to solve problems that could affect some of the most ambitious missions ever attempted. What happens next may determine how quickly humanity expands beyond Earth.
+
+share
+more
+
+Sponsored
+Top Stories
+ APTOPIX Oregon School Shooting
+The Associated PressThe Associated Press
+Oregon father is the latest armed civilian to confront a gunman in a US mass shooting
+ The Moment Katie Zacharia Found Out Her Five-Day Stint as Press Secretary Was Over
+The Wall Street JournalThe Wall Street Journal
+Katie Zacharia projected confidence. Less than an hour later, she was out.
+
+Sponsored
+
+Profile Picture
+
+Feedback
+
+
+Skip to content
+
+Skip to footer
+
+Back to feed
+Columbus
+Partly cloudy
+‎41‎
+‎°F‎
+
+Search
+For you
+Weather
+Lifestyle
+Money
+Sports
+Entertainment
+Shorts
+History
+Saved Videos
+placeholder
+Click to unmute
+Click to unmute
+
+Current Time 
+0:00
+/
+Duration 
+17:39
+0
+
+Sideprojects
+8mo8 months ago, 2/5/2026, 12:34 PM
+Questions so confusing even math gave up
+Some paradoxes don’t just challenge logic, they completely break it. These puzzles create situations where something must be both true and false at the same time. Philosophers, mathematicians, and scientists have argued about them for centuries without agreement. Attempts to solve them often create new paradoxes instead. Some even reshaped mathematics and physics forever. Others still have no accepted explanation. These are the questions reality itself struggles to answer. 
+
+share
+more
+placeholder
+Click to unmute
+Click to unmute
+Black holes are some of the most terrifying and mysterious
+Current Time 
+0:00
+/
+Duration 
+11:35
+•Intro
+0
+
+The Infographics Show
+3mo3 months ago, 7/7/2026, 1:48 PM
+Scientists just found something hidden in black holes
+Black holes aren't just cosmic monsters, they might be home. A discovery from the James Webb Space Telescope has scientists questioning everything we know about space, time, and the very fabric of our universe. Watch now to find out more! 
+
+share
+more
+placeholder
+Click to unmute
+Click to unmute
+You're just digging your hole deeper every time you say
+Current Time 
+0:04
+/
+Duration 
+14:40
+0
+
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Download Free Guide Now - Kubernetes Troubleshoot Guide - Fix Kubernetes Issues Faster
+Splunk
+Sponsored
+Ad Choice
+
+Ellie in Space
+1d1 day ago, 10/16/2026, 7:14 AM
+Throwback to a NASA moonwalker arguing with a podcaster and conspiracy theorist
+A former NASA astronaut who walked on the Moon sat for what he expected to be a normal interview. The conversation became a four-hour argument after a conspiracy theorist repeatedly challenged his account, while the host let the exchange continue.
+
+share
+more
+Master Azure OpenAI monitoring with our detailed guide. Download it now.Sponsored
+Datadog
+Datadog
+Master Azure OpenAI monitoring with our detailed guide. Download it now.
+placeholder
+Click to unmute
+Click to unmute
+
+Current Time 
+0:00
+/
+Duration 
+11:32
+•Intro
+0
+
+Dark Records
+22h22 hours ago, 10/16/2026, 8:40 AM
+Students stepped onto a viewing platform 100 feet above a ravine… then the entire structure broke away
+In 1995, a group of students on a field trip reached the Cave Creek viewing platform on New Zealand’s South Island, unaware that serious problems were hidden within its construction. The platform had even been observed flexing the previous day, but when the students stepped onto it, the structure suddenly separated from its supports and plunged nearly 100 feet into the ravine below. Investigators later discovered that qualified structural engineers had not been involved, construction plans had not been properly followed, nails had been substituted where bolts were intended, and a planned occupancy-limit sign was never installed. The subsequent inquiry concluded that the Department of Conservation’s failure to follow safe building practices was the principal cause of the collapse.
+
+share
+more
+placeholder
+
+The Why Files
+8mo8 months ago, 1/22/2026, 6:35 AM
+Tesla built a device to talk to the dead
+In 1901, Nikola Tesla believed something was in his lab — something not of this world. So he built a device to detect it. What he called the “spirit radio” sparked a century of speculation. This is the story of science reaching into the afterlife.
+
+share
+more
+placeholder
+
+The Space Race
+3w3 weeks ago, 9/25/2026, 5:04 AM
+Something is slowing down NASA and SpaceX - and few people are talking about it
+NASA and SpaceX are leading humanity's return to the Moon and eventual journey to Mars. But behind the headlines, a growing list of challenges is raising difficult questions about the future of space exploration. Engineers are racing to solve problems that could affect some of the most ambitious missions ever attempted. What happens next may determine how quickly humanity expands beyond Earth.
+
+share
+more
+
+Sponsored
+Top Stories
+ APTOPIX Oregon School Shooting
+The Associated PressThe Associated Press
+Oregon father is the latest armed civilian to confront a gunman in a US mass shooting
+ The Moment Katie Zacharia Found Out Her Five-Day Stint as Press Secretary Was Over
+The Wall Street JournalThe Wall Street Journal
+Katie Zacharia projected confidence. Less than an hour later, she was out.
+
+Sponsored
+
+Profile Picture
+
+Feedback

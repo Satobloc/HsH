@@ -1,3 +1,5 @@
+> **ORSON ROLE-CALL UPDATE — Nathan direct, 2026-10-09:** Orson Vay is primarily **LLM cognition** (reasoning, memory, representation, observer apparatus, recursion, multiscale coordination, calibration, empirical/model testing), with SAT/H(s)H methodological interface only. Do not list Orson as a standing finite-core/geometry/EM/theory-building worker. Previous OV-49–54 geometry artifacts are historical sandbox outputs. [Current charter](../ORSON_VAY/ROLE_CHARTER_2026-10-09_LLM_COGNITION.md). This is a role bias/assignment, not a monopoly on cognition or a claim of model personhood.
+
 # Instance Capability Atlas
 
 **Status:** CURRENT / DYNAMIC ROUTING AID  

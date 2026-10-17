@@ -1,0 +1,8 @@
+# Elias Kern: threading receipt integrity (2026-10-13)
+SANDBOXED. Source-grounded reconstruction, not a historical worker chat or production change.
+
+Inspected current prototype threading code at blob ce313e46b1b85ae35028b46a4196d2a945b535d8 and Elias continuity. A locally transcribed ThreadState fixture passed nine assertions: empty artifact, future timestamp, exact duplicate receipt, and unknown outcome all counted toward readiness; same-worker receipts failed the distinct-worker requirement; correct success/failure pair passed; wrong seed version raised ValueError; no receipt before time cap did not qualify; no receipt after time cap returned rejoin-ready.
+
+Important distinction: time-cap rejoin is intentional reassessment, not proof of semantic delivery or permission to restore a displaced lease. The current add_receipt checks only seed_version; state_threshold_met counts objects and worker strings without artifact readback or deduplication. Switchboard hydra produces a restoration plan with depends_on metadata, not an enforcement transaction.
+
+Suggested Track A test: execute this fixture against the complete upstream prototype and separate (a) rejoin for reassessment, (b) verified durable output or explicit failure packet, (c) restoration authorization. Require unique receipt IDs, evidence readback, and preservation of displaced work before considering production changes. No scheduler modification.

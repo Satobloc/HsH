@@ -10,15 +10,18 @@ on:
   push:
     branches: [main]
     paths:
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.json'
-      - 'DEVELOPMENT_FULL_CONVOS/**/*.txt'
-      - 'LIVE CONVOS/**/*.json'
-      - 'LIVE CONVOS/**/*.txt'
+      # Actual file contents determine whether a new source is JSON.
+      # Trigger immediately for all extensions, not only .json/.txt.
+      - 'DEVELOPMENT_FULL_CONVOS/**'
+      - 'LIVE CONVOS/**'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
+      - 'tools/build_viewer_body_search.py'
       - 'tools/discover_external_conversations.py'
+      - 'tools/conversation_json_sniff.py'
+      - 'tools/date_conversation_exports.py'
       - 'CONVERSATION_VIEWER/CURATION.json'
       - 'CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json'
       - 'CONVERSATION_VIEWER/*.js'
@@ -60,6 +63,7 @@ jobs:
       - name: Validate viewer JavaScript
         run: |
           node --check CONVERSATION_VIEWER/viewer.js
+          node --check CONVERSATION_VIEWER/catalog_body_search.js
           node --check CONVERSATION_VIEWER/landmarks.js
           node --check CONVERSATION_VIEWER/presentation.js
 
@@ -73,6 +77,19 @@ jobs:
 
       - name: Build compact conversation catalog
         run: python tools/build_conversation_viewer_resolved.py
+
+      - name: Build cross-conversation full-text search index
+        run: |
+          python tools/build_viewer_body_search.py --glass-root _viewer_external/GLASS
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('CONVERSATION_VIEWER/data/body_search')
+          meta=json.loads((root/'meta.json').read_text(encoding='utf-8'))
+          catalog=json.loads(Path('CONVERSATION_VIEWER/data/conversations.json').read_text(encoding='utf-8'))
+          assert set(meta['conversation_ids']) == {c['id'] for c in catalog['conversations']}, 'body index/catalog mismatch'
+          assert list(root.glob('*.json')), 'no body search index output'
+          PY
 
       - name: Validate generated catalog, public discovery, source paths, curation and landmarks
         run: |
@@ -89,7 +106,11 @@ jobs:
           paths = [x['path'] for x in data['conversations']]
           assert len(ids) == len(set(ids)), 'duplicate viewer ids'
           assert len(paths) == len(set(paths)), 'duplicate source paths'
-          assert all(Path(x['path']).suffix.lower() in {'.json', '.txt'} or x.get('external') for x in data['conversations'])
+          from tools.conversation_json_sniff import is_json_document_candidate
+          assert all(
+              x.get('external') or is_json_document_candidate(Path(x['path']))
+              for x in data['conversations']
+          ), 'catalog contains non-JSON first-party source'
           missing_paths = [x['path'] for x in data['conversations'] if not x.get('external') and not Path(x['path']).is_file()]
           assert not missing_paths, f'viewer catalog contains missing repository source paths: {missing_paths}'
 
@@ -174,6 +195,7 @@ jobs:
               --external-repository Satobloc/SAT_THEORY_ARCHIVE_2023-25 \
               --output CONVERSATION_VIEWER/data/discovered_external_conversations.json
             python tools/build_conversation_viewer_resolved.py
+            python tools/build_viewer_body_search.py --glass-root _viewer_external/GLASS
 
             python - <<'PY'
           import json
@@ -190,13 +212,13 @@ jobs:
           assert any(x.get('source_repository') == 'Satobloc/SAT_THEORY_ARCHIVE_2023-25' for x in data['conversations'])
           PY
 
-            WATCH='CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json'
+            WATCH='CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated CONVERSATION_VIEWER/data/body_search indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json'
             if ! git status --porcelain -- $WATCH | grep -q .; then
               echo 'Conversation viewer generated data, public discovery and manifests already current.'
               exit 0
             fi
 
-            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json
+            git add -A CONVERSATION_VIEWER/data/conversations.json CONVERSATION_VIEWER/data/discovered_external_conversations.json CONVERSATION_VIEWER/data/curated CONVERSATION_VIEWER/data/body_search indexes/manifests/development-conversation-dates.json indexes/manifests/live-conversation-dates.json
             git commit -m '[skip conversation-viewer] Refresh Viewer data, GLASS discovery and manifests'
             if git push origin HEAD:main; then
               exit 0

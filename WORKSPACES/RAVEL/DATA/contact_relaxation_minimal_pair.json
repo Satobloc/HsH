@@ -1,0 +1,102 @@
+{
+  "status": "SANDBOXED dimensionless verification fixture",
+  "parameters": {
+    "a": 3.0,
+    "b": 2.0,
+    "c": 1.0,
+    "eta_x": 1.0,
+    "eta_y": 5.0,
+    "force_amplitude": 1.0
+  },
+  "checks": {
+    "stability_determinant_ab_minus_c2": 5.0,
+    "stiffness_eigenvalues": [
+      1.381966011250105,
+      3.618033988749895
+    ],
+    "static_compliance_both_models": 0.4,
+    "full_decay_rates": [
+      0.32522729151324803,
+      3.0747727084867518
+    ],
+    "enslaved_decay_rate": 2.5,
+    "full_slowest_relaxation_time": 3.0747727084867518,
+    "full_fastest_relaxation_time": 0.32522729151324803,
+    "enslaved_relaxation_time": 0.4,
+    "full_peak_loop_area": 0.5252169681957172,
+    "full_peak_loop_omega": 2.90970339514183,
+    "enslaved_peak_loop_area": 0.6283173774157589,
+    "enslaved_peak_loop_omega": 2.495214569914667,
+    "zero_frequency_limit": 0.4,
+    "high_frequency_full_asymptote": "chi ~ 1/(i omega eta_x)"
+  },
+  "frequency_rows": [
+    {
+      "omega": 0.01,
+      "full_amplitude": 0.3999338557605006,
+      "full_phase_deg": -0.5154047885488248,
+      "full_loop_area_abs": 0.011302070253393895,
+      "enslaved_amplitude": 0.3999968000383995,
+      "enslaved_phase_deg": -0.22918189575410042,
+      "enslaved_loop_area_abs": 0.005026467822258514,
+      "relative_amplitude_difference": 0.00015736195362772197
+    },
+    {
+      "omega": 0.1,
+      "full_amplitude": 0.3938933328359876,
+      "full_phase_deg": -4.917988231584693,
+      "full_loop_area_abs": 0.10608645448829271,
+      "enslaved_amplitude": 0.3996803834887158,
+      "enslaved_phase_deg": -2.2906100426385296,
+      "enslaved_loop_area_abs": 0.05018518615958137,
+      "relative_amplitude_difference": 0.014479196107185496
+    },
+    {
+      "omega": 1.0,
+      "full_amplitude": 0.3167744004196767,
+      "full_phase_deg": -21.80140948635181,
+      "full_loop_area_abs": 0.36959913571644626,
+      "enslaved_amplitude": 0.3713906763541038,
+      "enslaved_phase_deg": -21.80140948635181,
+      "enslaved_loop_area_abs": 0.433323124633075,
+      "relative_amplitude_difference": 0.1470588235294119
+    },
+    {
+      "omega": 10.0,
+      "full_amplitude": 0.09560956166338126,
+      "full_phase_deg": -73.33637834312735,
+      "full_loop_area_abs": 0.2877523397958124,
+      "enslaved_amplitude": 0.09701425001453319,
+      "enslaved_phase_deg": -75.96375653207353,
+      "enslaved_loop_area_abs": 0.295679308573157,
+      "relative_amplitude_difference": 0.014479196107185276
+    },
+    {
+      "omega": 100.0,
+      "full_amplitude": 0.009995303336070665,
+      "full_phase_deg": -88.28168092304064,
+      "full_loop_area_abs": 0.031387051174459925,
+      "enslaved_amplitude": 0.009996876464081227,
+      "enslaved_phase_deg": -88.56790381583535,
+      "enslaved_loop_area_abs": 0.031396303845994185,
+      "relative_amplitude_difference": 0.00015736195362761292
+    }
+  ],
+  "time_domain_integration_checks": [
+    {
+      "omega": 0.1,
+      "full_complex_relative_error": 1.1264672746077454e-14,
+      "enslaved_complex_relative_error": 9.056779689810636e-15
+    },
+    {
+      "omega": 1.0,
+      "full_complex_relative_error": 5.524264904337467e-13,
+      "enslaved_complex_relative_error": 4.838669134938651e-13
+    },
+    {
+      "omega": 10.0,
+      "full_complex_relative_error": 0.00031168380165710305,
+      "enslaved_complex_relative_error": 0.0002658020371336823
+    }
+  ]
+}

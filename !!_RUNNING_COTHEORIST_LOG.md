@@ -8,6 +8,40 @@
 
 ---
 
+## 2026-10-11 — Ravel geometric tube holonomy: real frame coupling, but local leakage dominates (SANDBOX)
+
+**Source:** [single-action geometric material-frame gate](WORKSPACES/RAVEL/SANDBOX_2026-10-11_MATERIAL_FRAME_ACTION_AND_LEAKAGE.md), with [reproducible Python](WORKSPACES/RAVEL/CODE/geometric_holonomy_backreaction.py) and [numerical fixture](WORKSPACES/RAVEL/DATA/geometric_holonomy_backreaction.json). Original SAT *Fundamental Intuitions — Extended* reread substantially; current HsH sources cross-checked. **Status: Ravel sandbox mathematical candidate only, no BEDROCK/state promotion.**
+
+A smooth periodic material-director angle gives only integer loop winding, not arbitrary fluctuating fractional holonomy. A bent finite tube with independently constrained centerline `r(theta)=((R+a cos2theta)cos theta,(R+a cos2theta)sin theta,b sin2theta)` has actual geometric holonomy `integral tau ds = 6 pi a b/R²+...`. The transverse finite-core state `exp(i l beta)` has standard normal SO(2) representation `chi_g=l`, nonzero only when a nonzero transverse angular mode exists. A positive mechanical oscillator bath produces PSD thermal covariance, retarded response and reciprocal force from the coupled mode+material action.
+
+**Decisive negative control:** the same normal-frame curvature has `j!=0` angular harmonics, hence changing deformation `bdot` induces mode leakage. Test fixture `R=1,a=.1,l=1,M=1,K=4,Gamma=2,kBT=.04,E0/hbar=1`: `phi'=0.30080578`; `F_2=0.95267635`; derived leading weak-noise `D_hol=.00180968`, `W_{0->+-2}=.00558518` per normalized time, ratio `3.08628`. Rates are a leading free-ring, adiabatic geometric control, **not exact deformed-ring spectroscopy**. For `l=0`, channel vanishes; for `a=0`, global holonomy linear response vanishes though local harmonic survives. Old holonomy fixture's instantaneous variance cannot be used as a white-noise integrated strength without a correlation-time factor; present work fixes those dimensions explicitly.
+
+**Next:** finite-core Laplace–Beltrami and geometric-potential eigenproblem with exact time-dependent normal connection and the same bath. Do not claim HsH gravity/timesheet backreaction, pure N-dephasing, particle identity, or a new physical constant.
+
+---
+
+### Same-day correction: asymmetric ring has no exact N-dephasing eigenbasis
+
+[Arclength spectral refinement](WORKSPACES/RAVEL/SANDBOX_2026-10-11_MATERIAL_FRAME_ACTION_AND_LEAKAGE.md#7-important-refinement-finite-deformed-ring-spoils-the-dephasing-eigenbasis) with [code](WORKSPACES/RAVEL/CODE/exact_deformed_ring_spectrum.py) and [fixture](WORKSPACES/RAVEL/DATA/exact_deformed_ring_spectrum.json) uses an exact Fourier-Galerkin diagonalization of the leading confined-waveguide Laplace–Beltrami plus curvature potential. A real deformation potential lifts the `n↔−n` degeneracy; simple stationary eigenvalues obey `E_j(phi)=E_j(−phi)`, so their **linear flux sensitivity vanishes at zero holonomy**. Numerically the first pair has `gap=.14383326418 E0`, `|<1|N|2>|²=1.0003157882`. A *separately isolated uniform-connection component* gives a transition rate `.00363923235` in the same bath fixture, not exact eigenstate pure dephasing. The prior `D_hol=.00180968` is **only an ideal free-ring benchmark** at this asymmetric point. Local Berry and uniform connection channels share one bath and their amplitudes can interfere: **do not sum independently**. The central operator-selection failure is stronger than the free-ring leakage ratio suggests. These are sandbox controls, not theory promotion.
+
+---
+
+## 2026-10-09 — Nathan-direct correction: straight vacuum core, coiling gate, reference access
+
+**Direct source:** current signed user cross-post from Nathan, authentication signet rendered only as `[OWL]`, raw message ID pending. **Status:** ND (interpretation/workflow controls); Kerr/ER, Klein coiling driver, BEC-like sea and photon/photoneutrino modes remain TENTATIVE.
+
+**Inherited SAT:** worldline and time wavefront, not a worldline wrapped around any separate core or carrier. Straight timelike history parallel to time propagation / normal and perpendicular to timesheet is the candidate perfect-vacuum reference, with current θ₄ = 0 measured from normal. A population of aligned straight tubes may be the medium for traveling photon/photoneutrino-like excitations; collectivity/condensation remains conjectural.
+
+**New H(s)H anatomy:** finite-core worldtube conjectured as ER/Kerr-like singular-support tube with inductively active Kerr shell boundaries. “Kerr ring” denotes a possible **intersectional trace**, not a circular object the worldline wraps around. Pauli exclusion requires a quantum-statistical derivation independent of steric contact.
+
+**Mathematical discriminator (Ravel, not a new fact of nature):** strict Minkowski timelike helix with transverse excursion R and coordinate wavenumber k needs `(Rk)^2+beta_z^2<1`, and proper curvature `kappa_4 = R k²/[1-beta_z²-(Rk)²]`. A free straight inertial worldline has `kappa_4=0`; persistent coiling requires an independently sourced constraint/interaction. Candidate Fermi normal neighborhood of thickness epsilon has local condition `epsilon*kappa_4<1`, NOT a Pauli rule. [Derivation](WORKSPACES/RAVEL/SANDBOX_2026-10-09_STRAIGHT_VACUUM_COILING_GATE.md).
+
+**Reference restriction override:** Nathan partially lifted the *scholarly* PRIOR_ART hard quarantine, except **Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits**. Other nLab/braid materials require strict internal SAT/H(s)H historical-source search/citation **first**, with external scholarship thereafter as bibliography/convergence/prior-art comparison, not theory foundations. Independent privacy/Integration constraints unchanged. [Authority+coverage note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md); updates propagated to BEDROCK/front door.
+
+**Source status:** original SAT *Fundamental Intuitions* readable text and historic *RMS Spacetime Filaments* reread, but *Extended* FIE PDF and large canonical RMS not materially extracted because the bounded connector read path did not return usable text. Both remain reread cursors. No outside PRIOR_ART consulted this turn.
+
+---
+
 ## 2026-09-16 — θ₄, winding, and bosonic identity
 
 ### θ₄ baseline

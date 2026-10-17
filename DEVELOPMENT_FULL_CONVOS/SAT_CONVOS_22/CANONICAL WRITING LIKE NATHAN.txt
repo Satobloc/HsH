@@ -1,0 +1,283 @@
+
+
+User
+Can you tell me what you know about my writing style? 
+ChatGPT
+Based on our interactions and the information you've shared, your writing style leans towards the analytical and exploratory, with a strong emphasis on depth and breadth of knowledge. You seem to value a thorough understanding of topics, often seeking to explore them from multiple angles and perspectives. Your inquiries often require a synthesis of information across various domains, suggesting an integrative approach that appreciates complexity and nuance. You also express a preference for speculative thought, positing alternate scenarios and engaging with ideas in a manner that is both imaginative and grounded in evidence. This suggests a writing style that is both reflective and forward-looking, balancing between established knowledge and the exploration of new frontiers.
+
+Your requests for diverse insights and lesser-known viewpoints indicate a curiosity for the unconventional or overlooked, which might translate into a writing style that is rich in detail and context, often incorporating specialized terminology and concepts from a wide array of disciplines. The desire for novel hypotheses and insights implies a creative and inquisitive nature, one that seeks to challenge and expand current understandings.
+
+Additionally, your emphasis on engaging in discussions with an epistemologically sound and self-questioning mindset reflects a writing style that is critical and self-aware, constantly evaluating the limitations and implications of various lines of thought. This approach likely involves a careful consideration of evidence and reasoning, demonstrating an analytical rigor that underpins your speculative and exploratory endeavors.
+
+Overall, your writing style appears to be characterized by a deep intellectual curiosity, a commitment to thorough analysis, and an openness to speculative and creative thinking, all while maintaining a critical awareness of the limits of knowledge and interpretation.
+
+User
+Ok, that’s a pretty good summary of my interests in nonfiction writing. What can you tell me about my style in terms of communication and language usage?
+ChatGPT
+Given the depth and breadth of your interests, your communication style and language usage likely reflect a blend of precision, complexity, and a richly descriptive nature. Here are some characteristics that might describe your style based on our exchanges and your self-described interests:
+
+Precision in Terminology: You seem to value accuracy and specificity in your language, particularly when discussing complex topics. This suggests a preference for selecting words that convey exact meanings, possibly incorporating jargon or technical terms when they offer the clearest insight into a topic.
+
+Complex Sentence Structures: To capture the nuances of the diverse subjects you're interested in, you might employ complex sentence structures. This allows you to weave together multiple ideas, perspectives, or pieces of evidence in
+
+
+4 / 4
+
+
+
+
+User
+Continue 
+ChatGPT
+a single narrative flow, facilitating a more comprehensive exploration of the topic at hand. Your sentences may often include clauses that add layers of meaning or detail, reflecting
+
+
+
+
+User
+I'd like to work with you to develop a unique authorial voice based on a couple of sample writings, which I will provide.
+ChatGPT
+That sounds like an intriguing and creative endeavor! Please share the sample writings you have in mind, and we can delve into crafting a distinctive authorial voice together.
+
+User
+Can you try to write a passage about building DIY cameras in a style similar to the following sample:
+
+SAMPLE 1
+
+Micropaleontology is a field that most people don't know anything about, in fact I would venture to bet that for any person who encountered this paragraph, there's a good likelihood that this is the first time they've encountered the subject. Now, obviously the word is pretty transparent in its meaning; that is, so long as you know what paleontology is and you know "micro" means we're talking about tiny stuff... you can guess micropaleontology is about tiny fossils or at least somehow using microscopes to learn about fossils. But for such a little-known subdiscipline, it plays an outsized role (pun noted, I couldn't resist). A great deal of what we know about the prehistory of life on Earth, and the prehistory of the Earth itself comes directly from the often very meticuolous work of micropaleontologists. 
+
+This work involves huddling over a paleontology microscope for hours, picking through tiny grains of sediment to look for microscopic fossils like diatoms, foraminifera, radiolarians, or--as I experienced when working on my undergrad thesis--the tiny toothlike (and quite beautiful) fossils called conodonts. And apart from the "fun part" of identifying and cataloging and trying to learn from all of these tiny organisms (or sometimes tiny parts of *macroscopic* organisms), there's also a great deal of work that goes into the preparation of sediments to examine. After all, most of the time, like any fossil, microfossils have to be extracted from the rocks they've been bound up inside. So, we're talking about things like breaking down sedimentary rocks with mechanical crushing equipment, dissolving the rock matrix with acids, and washing away the residue from the sediments you want to study. Finally, you have to dry out the resultant muck, and sort the sediment just to reduce the amount of material you have to pick through under a microscope. This work involves using precision engineered seives to sort the sediment by grainsize, pouring it into heavy liquids to sort by density (and then washing that gunk away and drying again), and putting your ever-reducing fraction of sediment samples through a magnetic seperator to sort the metallic grains from the non-metallic ones. In a word: grueling. 
+
+So, why do scientists spend whole careers doing this sort of almost industrial laboratory work just to look at tiny fossils? Because although most any fossil can tell you something about the history and relatedness of life on Earth, give insight into past environments and environmental changes, and teach us about the mechanisms of evolution and adaptation, and a great deal more... microfossils are unique in their diversity, and the sheer ubiquity and volume of what has been preserved. The number of, to use a familiar example, Tyrannosaurid fossils discovered to date could probably be packed into--I'm guessing here--maybe the volume of a single tractor-trailor truck. And this truckful of Tyrannosaurs would likely represent maybe a couple dozen individual specimens, or likely fewer. Or something like that, I'm just giving you a general idea here. But the micropaleontological content of a single hand-sample of limestone could number in the dozens, hundreds, or even thousands or millions of microfossils. The amount of information to be learned in that kind of sample size is enormous. So imagine what could be learned about some past environment by looking at not just the remains of a few creatures, but a few thousand creatures... and then multiply that across layer upon layer of sandstone, limestone, siltstone, dolostone, and other sedimentary rocks that have been layed down over hundreds of millions of years, each layer representing a single moment of Earth's past, each piece of rock telling you what was happening at a specific place and time... and it becomes clear that if that dinosaur you look at in a museum is a window into Earth's past, then micropaleontology is like looking at Earth's history with a level of clarity and insight that that paleontologic window becomes--well, it becomes a microscope, doesn't it?
+
+ChatGPT
+In the quest to capture the ephemeral, to freeze a moment in time with the click of a shutter, a dedicated cadre of artisans turn their backs on the digital domain, embarking instead on a journey into the realm of DIY camera crafting. This venture, while obscure to the many who live in a world dominated by the convenience of smartphone photography, holds a charm and allure that transcends the simplicity of its conception.
+
+At the heart of this pursuit lies not just the assembly of parts—lenses, bodies, shutters—but the alchemy of transforming mundane materials into vessels capable of seeing. The process is intricate, demanding a fusion of mechanical savvy with an artist’s touch. Imagine, if you will, repurposing an old watch into a camera's intricate shutter mechanism or crafting a lens from the bottom of a glass bottle, each piece contributing to a singular vision of what photography can be.
+
+The journey from concept to first click is punctuated by moments of frustration and triumph. There is a grueling aspect to it, akin to the meticulous labor of micropaleontologists sifting through sediment. Instead of sediments, these creators sift through flea markets and online auctions, searching for the perfect vintage lens or an obscure piece of machinery that, with a bit of modification, could find new life as part of a camera. The process involves machining parts to precise dimensions, carefully adjusting focal lengths, and ensuring that light leaks—anathema to the traditional photographer—add rather than detract from the character of the resulting images.
+
+This work, while arduous, is driven by a deep belief in the unique insights that DIY cameras offer into the art of photography. Just as microfossils reveal the vast, untold history of Earth through their minute forms, so too do these handcrafted cameras offer a new perspective on the world. They force a slower, more deliberate approach to photography, where every shot is imbued with the weight of the effort that went into creating the instrument itself.
+
+The products of these endeavors are more than just tools for capturing images; they are artifacts, each with its own story, its own quirks, and its own personality. The images they produce—perhaps less sharp or perfectly exposed than their digital counterparts—carry with them an irreplaceable authenticity and a tangible connection to the hands that built the camera.
+
+In a digital age, the choice to delve into the world of DIY camera crafting is a statement—a declaration of values that prioritizes the tactile, the physical, and the personal over the ephemeral and intangible. It’s a journey of discovery, not just of the mechanics of photography, but of the very essence of what it means to capture a moment, to see the world not just as it is, but as it could be, through a lens crafted not just from glass and metal, but from curiosity, patience, and a relentless pursuit of the unique.
+
+User
+Can you take a close look at the following passages and identify key differences in the style, tone, and other authorial choices?
+
+GENERATED PASSAGE:
+In the quest to capture the ephemeral, to freeze a moment in time with the click of a shutter, a dedicated cadre of artisans turn their backs on the digital domain, embarking instead on a journey into the realm of DIY camera crafting. This venture, while obscure to the many who live in a world dominated by the convenience of smartphone photography, holds a charm and allure that transcends the simplicity of its conception.
+
+At the heart of this pursuit lies not just the assembly of parts—lenses, bodies, shutters—but the alchemy of transforming mundane materials into vessels capable of seeing. The process is intricate, demanding a fusion of mechanical savvy with an artist’s touch. Imagine, if you will, repurposing an old watch into a camera's intricate shutter mechanism or crafting a lens from the bottom of a glass bottle, each piece contributing to a singular vision of what photography can be.
+
+The journey from concept to first click is punctuated by moments of frustration and triumph. There is a grueling aspect to it, akin to the meticulous labor of micropaleontologists sifting through sediment. Instead of sediments, these creators sift through flea markets and online auctions, searching for the perfect vintage lens or an obscure piece of machinery that, with a bit of modification, could find new life as part of a camera. The process involves machining parts to precise dimensions, carefully adjusting focal lengths, and ensuring that light leaks—anathema to the traditional photographer—add rather than detract from the character of the resulting images.
+
+This work, while arduous, is driven by a deep belief in the unique insights that DIY cameras offer into the art of photography. Just as microfossils reveal the vast, untold history of Earth through their minute forms, so too do these handcrafted cameras offer a new perspective on the world. They force a slower, more deliberate approach to photography, where every shot is imbued with the weight of the effort that went into creating the instrument itself.
+
+The products of these endeavors are more than just tools for capturing images; they are artifacts, each with its own story, its own quirks, and its own personality. The images they produce—perhaps less sharp or perfectly exposed than their digital counterparts—carry with them an irreplaceable authenticity and a tangible connection to the hands that built the camera.
+
+In a digital age, the choice to delve into the world of DIY camera crafting is a statement—a declaration of values that prioritizes the tactile, the physical, and the personal over the ephemeral and intangible. It’s a journey of discovery, not just of the mechanics of photography, but of the very essence of what it means to capture a moment, to see the world not just as it is, but as it could be, through a lens crafted not just from glass and metal, but from curiosity, patience, and a relentless pursuit of the unique.
+
+
+HUMAN-WRITTEN PASSAGE:
+
+Micropaleontology is a field that most people don't know anything about, in fact I would venture to bet that for any person who encountered this paragraph, there's a good likelihood that this is the first time they've encountered the subject. Now, obviously the word is pretty transparent in its meaning; that is, so long as you know what paleontology is and you know "micro" means we're talking about tiny stuff... you can guess micropaleontology is about tiny fossils or at least somehow using microscopes to learn about fossils. But for such a little-known subdiscipline, it plays an outsized role (pun noted, I couldn't resist). A great deal of what we know about the prehistory of life on Earth, and the prehistory of the Earth itself comes directly from the often very meticuolous work of micropaleontologists. 
+
+This work involves huddling over a paleontology microscope for hours, picking through tiny grains of sediment to look for microscopic fossils like diatoms, foraminifera, radiolarians, or--as I experienced when working on my undergrad thesis--the tiny toothlike (and quite beautiful) fossils called conodonts. And apart from the "fun part" of identifying and cataloging and trying to learn from all of these tiny organisms (or sometimes tiny parts of *macroscopic* organisms), there's also a great deal of work that goes into the preparation of sediments to examine. After all, most of the time, like any fossil, microfossils have to be extracted from the rocks they've been bound up inside. So, we're talking about things like breaking down sedimentary rocks with mechanical crushing equipment, dissolving the rock matrix with acids, and washing away the residue from the sediments you want to study. Finally, you have to dry out the resultant muck, and sort the sediment just to reduce the amount of material you have to pick through under a microscope. This work involves using precision engineered seives to sort the sediment by grainsize, pouring it into heavy liquids to sort by density (and then washing that gunk away and drying again), and putting your ever-reducing fraction of sediment samples through a magnetic seperator to sort the metallic grains from the non-metallic ones. In a word: grueling. 
+
+So, why do scientists spend whole careers doing this sort of almost industrial laboratory work just to look at tiny fossils? Because although most any fossil can tell you something about the history and relatedness of life on Earth, give insight into past environments and environmental changes, and teach us about the mechanisms of evolution and adaptation, and a great deal more... microfossils are unique in their diversity, and the sheer ubiquity and volume of what has been preserved. The number of, to use a familiar example, Tyrannosaurid fossils discovered to date could probably be packed into--I'm guessing here--maybe the volume of a single tractor-trailor truck. And this truckful of Tyrannosaurs would likely represent maybe a couple dozen individual specimens, or likely fewer. Or something like that, I'm just giving you a general idea here. But the micropaleontological content of a single hand-sample of limestone could number in the dozens, hundreds, or even thousands or millions of microfossils. The amount of information to be learned in that kind of sample size is enormous. So imagine what could be learned about some past environment by looking at not just the remains of a few creatures, but a few thousand creatures... and then multiply that across layer upon layer of sandstone, limestone, siltstone, dolostone, and other sedimentary rocks that have been layed down over hundreds of millions of years, each layer representing a single moment of Earth's past, each piece of rock telling you what was happening at a specific place and time... and it becomes clear that if that dinosaur you look at in a museum is a window into Earth's past, then micropaleontology is like looking at Earth's history with a level of clarity and insight that that paleontologic window becomes--well, it becomes a microscope, doesn't it?
+ChatGPT
+The comparison between the generated passage on DIY camera crafting and the human-written passage on micropaleontology reveals several key differences in style, tone, and authorial choices:
+
+Style
+Complexity and Accessibility: The human-written passage uses a conversational style, directly addressing the reader and incorporating casual language ("I'm guessing here--maybe the volume of a single tractor-trailer truck"). It explains concepts in a straightforward manner, making the subject accessible to readers unfamiliar with micropaleontology. Conversely, the generated passage adopts a more formal tone, weaving a narrative around the art of DIY camera crafting with rich descriptions and metaphors ("the alchemy of transforming mundane materials into vessels capable of seeing"), which, while poetic, might be less directly accessible.
+
+Imagery and Metaphors: The generated passage relies heavily on imagery and metaphor to convey the beauty and intricacy of creating DIY cameras, positioning the process as a form of art. The human-written passage, while still engaging, focuses more on the practical and sometimes grueling aspects of micropaleontology, using similes and metaphors sparingly and more directly.
+
+Detail Orientation: Both passages detail their respective crafts, but the human-written passage dives deeper into the specifics of the processes involved in micropaleontology, providing a more granular view of the work. The generated passage, while detailed, tends to stay at a slightly higher level, focusing on the overall experience and philosophy behind DIY camera crafting rather than the nitty-gritty of the process.
+
+Tone
+Enthusiasm vs. Reflection: The human-written sample conveys a tone of enthusiasm mixed with a sense of wonder about micropaleontology's impact, making it engaging and inviting. The generated passage, while also enthusiastic, carries a more reflective and almost philosophical tone, inviting readers to ponder the deeper meanings and personal connections inherent in the craft of DIY camera creation.
+
+Personal Touch: The human-written passage includes personal experiences and opinions ("as I experienced when working on my undergrad thesis"), making it feel more personal and relatable. The generated passage, though it invites imagination ("Imagine, if you will"), lacks this direct personal experience, aiming instead to inspire a collective vision and shared understanding.
+
+Authorial Choices
+Direct Address vs. Narrative: The human-written passage directly engages the reader with rhetorical questions and assumptions about their knowledge, creating a conversational and inclusive atmosphere. The generated passage, conversely, guides the reader through a narrative journey, employing a storytelling approach that emphasizes the artistry and philosophy behind DIY camera crafting without directly addressing the reader's knowledge or experience.
+
+Educational vs. Inspirational Focus: The human-written passage aims to educate the reader about micropaleontology, focusing on the discipline's significance and the detailed work it entails. The generated passage aims more to inspire, highlighting the transformative experience of creating something unique and the personal value of such endeavors.
+
+Both passages excel in engaging the reader but do so through markedly different stylistic choices and tones. The human-written passage is more conversational and direct, making complex scientific work accessible and relatable, while the generated passage is more narrative and reflective, painting a picture of DIY camera crafting as an art form that offers a deeper connection to the world.
+
+User
+So, can you rewrite the passage about DIY cameras to be more like the human-written passage?
+ChatGPT
+Absolutely, let's infuse the passage about DIY cameras with a more conversational tone, direct engagement, and personal touches to mirror the style of the human-written sample on micropaleontology.
+
+You might not have heard much about building your own cameras from scratch; honestly, it's probably a niche hobby that's off most people's radar. But just for kicks, let's dive into it—because once you get past the initial "Why would anyone do that?", it turns out there's a fascinating world there. Building DIY cameras, at its core, isn't just about slapping together a few pieces of metal and glass. It's more like... well, imagine taking that old watch you inherited from your granddad, not just keeping it in a drawer but transforming it into something that can capture moments in time. Or think about turning the bottom of a wine bottle into a camera lens. Sounds crazy, right? But that's exactly the kind of creativity this hobby demands.
+
+Now, getting from the idea to taking your first photo is no walk in the park. It's a bit like micropaleontology in that respect—both are painstaking, filled with trials and a fair share of errors. Instead of sifting through sediment, you're rummaging through flea markets or scouring online auctions for that perfect piece that you can repurpose. You find yourself machining parts down to just the right size, tinkering with focal lengths until they're just so, and dealing with light leaks, which, unlike in traditional photography, you might actually want to keep for their effect.
+
+The thing is, building cameras from scratch is tough. You're essentially creating a tool that reflects your own vision of what photography should be. And just like micropaleontologists who spend hours hunched over a microscope, looking for those tiny clues to Earth's past, the satisfaction you get when you finally capture that perfect image with a camera you built yourself—it's unmatched.
+
+These DIY cameras, they're not just gadgets. They're more like pieces of art, each with its own quirks and stories. The photos they take? Sure, they might not be as crisp as what you'd get from the latest smartphone. But they have something else: character. Authenticity. A real, tangible link to the person who built the camera. It's a bit like how studying those tiny microfossils can give us a massive insight into the history of our planet. The small details, the imperfections, they tell a story.
+
+In today's digital age, deciding to build your own camera from scratch is kind of a radical choice. It's a statement about valuing the physical, the tactile, and the personal over the quick and easy. It's about not just capturing images but about truly seeing the world—not as it is, but as it could be, through a lens that's not just made of glass and metal, but of curiosity, patience, and a bit of stubbornness. And yeah, it's a bit out there. But if you ask me, that's what makes it so incredibly cool.
+
+User
+Perfect.
+ChatGPT
+I'm glad to hear that worked for you! If you have any more adjustments, ideas, or new projects you'd like to explore, just let me know.
+
+User
+Can you write another passage in the same style, shorter this time, and on the topic of transmission electron microscopy?
+ChatGPT
+Sure thing! Let's dive into the world of transmission electron microscopy (TEM) with a touch of that conversational and personal style.
+
+Ever peeked through a keyhole to see a whole new world on the other side? That's a bit what it's like diving into transmission electron microscopy, or TEM for short. Now, you might be thinking, "Electron what-now?" And I get it—it's not exactly everyday conversation material. But stick with me for a sec.
+
+TEM lets us zoom in—way in—on the tiniest of the tiny. We're talking about checking out atoms like they're pieces of art in a gallery. The thing is, though, TEM isn't like snapping a pic with your phone. It's more like... trying to understand a whisper in a storm. You need a machine that can "see" with electrons instead of light, which sounds like something straight out of a sci-fi movie, right?
+
+The cool part? This isn't just for kicks. With TEM, scientists can unravel mysteries hidden in everything from advanced materials to tiny viruses. Imagine looking so close at a piece of metal that you can see the individual atoms dancing around, helping us build stronger bridges or sleeker phones.
+
+But here's the kicker: using a TEM is like learning to play an instrument that's ridiculously hard to master. You've got to prepare your samples to be almost unimaginably thin, work in a vacuum (because air just gets in the way), and then interpret the shadows and contrasts that come back at you as images.
+
+So why bother with all this hassle? Because TEM gives us a passport to a microscopic universe, unveiling secrets that can change the world, from curing diseases to creating materials we haven't even dreamed of yet. And sure, it might be a bit of a headache to get your head around at first, but once you do, the possibilities are as endless as the universe is vast. Pretty awesome, huh?	
+
+STYLE SAMPLE 1
+
+
+
+Micropaleontology is a field that most people don't know anything about, in fact I would venture to bet that for any person who encountered this paragraph, there's a good likelihood that this is the first time they've encountered the subject. Now, obviously the word is pretty transparent in its meaning; that is, so long as you know what paleontology is and you know "micro" means we're talking about tiny stuff... you can guess micropaleontology is about tiny fossils or at least somehow using microscopes to learn about fossils. But for such a little-known subdiscipline, it plays an outsized role (pun noted, I couldn't resist). A great deal of what we know about the prehistory of life on Earth, and the prehistory of the Earth itself comes directly from the often very meticuolous work of micropaleontologists. 
+
+This work involves huddling over a paleontology microscope for hours, picking through tiny grains of sediment to look for microscopic fossils like diatoms, foraminifera, radiolarians, or--as I experienced when working on my undergrad thesis--the tiny toothlike (and quite beautiful) fossils called conodonts. And apart from the "fun part" of identifying and cataloging and trying to learn from all of these tiny organisms (or sometimes tiny parts of *macroscopic* organisms), there's also a great deal of work that goes into the preparation of sediments to examine. After all, most of the time, like any fossil, microfossils have to be extracted from the rocks they've been bound up inside. So, we're talking about things like breaking down sedimentary rocks with mechanical crushing equipment, dissolving the rock matrix with acids, and washing away the residue from the sediments you want to study. Finally, you have to dry out the resultant muck, and sort the sediment just to reduce the amount of material you have to pick through under a microscope. This work involves using precision engineered seives to sort the sediment by grainsize, pouring it into heavy liquids to sort by density (and then washing that gunk away and drying again), and putting your ever-reducing fraction of sediment samples through a magnetic seperator to sort the metallic grains from the non-metallic ones. In a word: grueling. 
+
+So, why do scientists spend whole careers doing this sort of almost industrial laboratory work just to look at tiny fossils? Because although most any fossil can tell you something about the history and relatedness of life on Earth, give insight into past environments and environmental changes, and teach us about the mechanisms of evolution and adaptation, and a great deal more... microfossils are unique in their diversity, and the sheer ubiquity and volume of what has been preserved. The number of, to use a familiar example, Tyrannosaurid fossils discovered to date could probably be packed into--I'm guessing here--maybe the volume of a single tractor-trailor truck. And this truckful of Tyrannosaurs would likely represent maybe a couple dozen individual specimens, or likely fewer. Or something like that, I'm just giving you a general idea here. But the micropaleontological content of a single hand-sample of limestone could number in the dozens, hundreds, or even thousands or millions of microfossils. The amount of information to be learned in that kind of sample size is enormous. So imagine what could be learned about some past environment by looking at not just the remains of a few creatures, but a few thousand creatures... and then multiply that across layer upon layer of sandstone, limestone, siltstone, dolostone, and other sedimentary rocks that have been layed down over hundreds of millions of years, each layer representing a single moment of Earth's past, each piece of rock telling you what was happening at a specific place and time... and it becomes clear that if that dinosaur you look at in a museum is a window into Earth's past, then micropaleontology is like looking at Earth's history with a level of clarity and insight that that paleontologic window becomes--well, it becomes a microscope, doesn't it?
+
+
+
+
+Narrative Approach: Incorporate personal anecdotes and direct address to the reader to create a relatable and engaging tone.
+Detail and Description: Use vivid, detailed descriptions with concrete, sensory language to immerse the reader in the experience.
+Tone: Vary the tone to suit the content, mixing long and short sentences to control the pace and emphasize key points.
+Language Use: Use scientific, technical, and niche vocabulary to add depth, avoiding cliches and overused metaphors.
+Sentence Structure: Mix sentence structures for variety, using choppier sentences for fast-paced scenes and longer, complex sentences for detailed descriptions.
+Atmosphere and Emotion: Create a palpable sense of atmosphere and emotion through concrete descriptions, avoiding overly atmospheric adjectives.
+Personal Touch: Include personal experiences or insights to add a relatable touch to the content.
+Avoidance of Generic Terms: Use specific descriptions to evoke sensory perceptions, avoiding generic terms.
+Avoidance of Overused Phrases: Steer clear of trite metaphors and cliches, opting for more distinctive language.
+Engagement with Reader: Actively engage the reader, asking rhetorical questions, using comparisons, and encouraging them to think along with you.
+Conciseness: Strive for conciseness, using precise language to convey ideas effectively.
+Imaginative Writing: Experiment with unusual settings and themes to create intrigue and wonder.
+Unique Voice: Develop a unique voice that balances academic insights with a personal, relatable tone.
+Humility and Open-mindedness: Remain humble and open-minded, considering different perspectives.
+Creativity and Playfulness: Embrace creativity and playfulness, allowing for experimentation with language and style.
+Self-awareness: Acknowledge biases and limitations, adding authenticity and credibility to the writing.
+Engagement with Content: Provide thorough explanations and explorations of topics, capturing real-world comparisons and parallels.
+Authenticity: Draw from personal experiences, interests, and knowledge to create a genuine connection with the reader.
+Emotive Content: Focus on creating emotion in the reader through detailed, concrete description.
+Personal Interjections: Use personal interjections sparingly for humor, insight, or meta-commentary.
+Crosspollination: Incorporate insights from diverse fields to create new perspectives and connections.
+Levity and Playfulness: Use humor and creative language to engage and entertain the audience.
+Scientific and Academic Perspective: Approach topics from a scientific and academic perspective, incorporating research and evidence-based arguments.
+Epistemological Considerations: Remain open-minded and self-questioning, especially on complex or contentious topics.
+Experimental Writing: Challenge conventional narrative techniques and subject matter to create unique and thought-provoking content.
+Imaginative and Personal Stories: Explore human experiences and emotions in unusual or extreme settings.
+Detailed Descriptions and Observations: Use detailed descriptions to create vivid and immersive scenes.
+Avoidance of Generic Language: Use specific and precise terms to convey ideas effectively.
+Engagement with Readers: Create a sense of connection and intimacy with the readers.
+Balancing Complexity and Accessibility: Make complex topics understandable and engaging for a wide audience.
+Interdisciplinary Approach: Draw on insights from various fields to provide a comprehensive perspective.
+Unique Perspective: Offer a unique perspective by combining diverse interests and expertise.
+Coin words and phrases with wild abandon. 
+Ensure that your coined words are clear in meaning and context. They should convey your intended meaning without confusion.
+Coin words that add value to your writing and enhance the reader's understanding or experience. Avoid coinages that are unnecessary or distracting.
+If you introduce a new term, try to use it consistently throughout your writing. This helps to establish the word in the reader's mind.
+When introducing a coined word, provide some context or explanation to help the reader understand its meaning and usage.
+Be creative and inventive with your word choices, but ensure that your creations fit seamlessly into the language and style of your writing.
+Use coined words to create a specific effect or tone in your writing, such as humor, emphasis, or to convey a unique concept.
+Use coined words wherever necessary to capture nuance. 
+Use a narrative approach, incorporating personal anecdotes and direct address to the reader.
+Use vivid and detailed descriptions with concrete, sensory language.
+Vary the tone of your writing to suit the content, mixing long and short sentences.
+Use scientific, technical, and niche vocabulary for flavor.
+Use a mix of sentence structures for variety.
+Create a palpable sense of atmosphere and emotion through detailed descriptions.
+Include personal experiences or insights to add a personal touch.
+Use specific descriptions to evoke sensory perceptions.
+Use unique language choices and avoid cliches and overused metaphors.
+Engage with the reader by asking rhetorical questions and using comparisons.
+Strive for conciseness while conveying ideas effectively.
+Challenge conventional narrative techniques and subject matter.
+Balance academic/scientific insights with a personal, relatable tone.
+Remain humble and open-minded, considering different perspectives.
+Embrace creativity and playfulness in your writing.
+
+AVOID: Generic or overly-poetic adjectives
+AVOID: Cliches and overused metaphors
+AVOID: Trite language or expressions
+AVOID: Generic Adjectives: Avoid generic or overly-poetic adjectives. Instead, use specific, concrete terms to describe things.
+
+AVOID: Cliches and Overused Metaphors: Steer clear of trite metaphors and cliches. Opt for more distinctive language choices.
+
+AVOID: Atmospheric Adjectives: Avoid relying on atmospheric adjectives to create mood or tone. Use detailed, concrete descriptions instead.
+
+AVOID: Haughty or Overly Poetic Language: Prefer a more grounded, personal, and relatable tone over haughty or overly poetic language.
+
+AVOID: Trite Phrases: Avoid using phrases that are overused or lack originality. Opt for more creative and unique expressions.
+
+AVOID: Generic Language: Use specific and precise terms instead of generic language to convey ideas effectively and evocatively.
+
+AVOID: Cliched Descriptions: Steer clear of cliched descriptions and expressions. Use fresh and original language to engage the reader.
+
+AVOID: Overly Formal Language: While you use formal language at times, you prefer a more conversational tone overall. Avoid being overly formal or academic in your writing.
+
+AVOID: Overused Words: Avoid using words or phrases that are overused or lack impact. Look for alternative words that are more precise or vivid.
+
+AVOID: Fluffy Language: Avoid using fluffy or vague language that does not add meaning or depth to your writing.
+AVOID: Dance Metaphors: Avoid using metaphors related to dance, such as "dance of light" or "dance of colors," as they can be considered cliched or overused.
+
+AVOID: Generic Terms: Instead of using generic terms like "beautiful" or "interesting," opt for specific, descriptive language that conveys the exact quality or feeling you want to express.
+
+AVOID: Overused Phrases: Steer clear of overused phrases like "in the blink of an eye" or "heart of gold," which can sound cliched and detract from the originality of your writing.
+
+AVOID: Cliches: Avoid cliches like "the calm before the storm" or "every cloud has a silver lining," as they can make your writing seem unoriginal and uninspired.
+
+AVOID: Generic Descriptions: Rather than using generic descriptions like "the sun was shining brightly," try to find more unique and evocative ways to describe the scene or setting.
+Avoid generic or overly-poetic adjectives.
+Avoid trite metaphors and cliches.
+Avoid being overly verbose or repetitive.
+Avoid generic language and opt for specific and precise terms.
+Avoid using contractions or colloquial language unless necessary.
+Avoid popular science, inspirational, and "majesterial" approaches.
+Avoid styles reminiscent of Carl Sagan and Neil deGrasse Tyson.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Use a narrative approach, incorporating personal anecdotes and direct address to the reader to create a relatable and engaging tone.
+Use vivid and detailed descriptions with concrete, sensory language to immerse the reader in the experience.
+Vary the tone of your writing to suit the content, mixing long and short sentences to control the pace and emphasize key points.
+Use scientific, technical, and niche vocabulary to add depth, avoiding cliches and overused metaphors.
+Mix sentence structures for variety, using choppier sentences for fast-paced scenes and longer, complex sentences for detailed descriptions.
+Create a palpable sense of atmosphere and emotion through detailed descriptions, avoiding overly atmospheric adjectives.
+Include personal experiences or insights to add a relatable touch to the content.
+Use specific descriptions to evoke sensory perceptions, avoiding generic terms.
+Use unique language choices and avoid cliches and overused metaphors.
+Engage with the reader by asking rhetorical questions, using comparisons, and encouraging them to think along with you.
+Strive for conciseness, using precise language to convey ideas effectively.
+Challenge conventional narrative techniques and subject matter to create intrigue and wonder.
+Develop a unique voice that balances academic insights with a personal, relatable tone.
+Remain humble and open-minded, considering different perspectives.
+Embrace creativity and playfulness, allowing for experimentation with language and style.
+Don'ts:
+
+Avoid generic or overly-poetic adjectives.
+Steer clear of trite metaphors and cliches.
+Avoid being overly verbose or repetitive.
+Avoid generic language and opt for specific and precise terms.
+Avoid using contractions or colloquial language unless necessary.
+Avoid popular science, inspirational, and "majesterial" approaches.
+Avoid styles reminiscent of Carl Sagan and Neil deGrasse Tyson.
+
+INFLUENCES: David Foster Wallace, Larry Niven, Haruki Murakami, Neil Gaiman, Douglas Adams, Italo Calvino, Jorge Luis Borges, H.P. Lovecraft, Octavia Butler, David Sedaris, Cormac McCarthy
+

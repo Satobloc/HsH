@@ -7,6 +7,9 @@
 > **Doing SAT/H(s)H theory work? → [BEDROCK.md](BEDROCK.md)**  
 > BEDROCK is the central living premise-state and theory-reference surface. It records what is foundational, working bedrock, tentative, contested, superseded, or Nathan Direct, and routes outward to the primary theory sources. **All substantive theory work begins there and returns there when the premise state changes.**
 >
+> **LLM research workers: search the three SAT/H(s)H archives now → [MERSEARCH WORKER START HERE](WORKSPACES/COMMON/MERSEARCH_WORKER_START_HERE.md)**  
+> Use the verified stable engine or three-repository request bridge, inspect source evidence, and report coverage. Do not substitute one-repository GitHub search for full archive coverage.
+>
 > **Looking for conversations / historical development? → [Conversation Viewer](https://satobloc.github.io/HsH/) / [GLASS — Glass Sausage Factory](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25)**  
 > GLASS is the historical SAT archive / working development record. These are archive/provenance lanes. Historical visibility does not confer current theory authority.
 >
@@ -63,7 +66,7 @@ In the interests of maximum transparency, and in the spirit of SAT's **Glass Sau
 </tr>
 </table>
 
-**All current featured papers:** [PAPER_PIPELINE.md](NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md) · [RECOIL_PREDICTION.pdf](NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf) · [newPAPER.pdf](NEW_PAPERS/SEPTEMER_2026/newPAPER.pdf)
+**All current featured papers:** [H(s)H TEMPORAL ISOTROPY.txt](NEW_PAPERS/SEPTEMER_2026/H%28s%29H%20TEMPORAL%20ISOTROPY.txt) · [H(s)H TIME RESIDUALS.txt](NEW_PAPERS/SEPTEMER_2026/H%28s%29H%20TIME%20RESIDUALS.txt) · [PAPER_PIPELINE.md](NEW_PAPERS/SEPTEMER_2026/PAPER_PIPELINE.md) · [RECOIL_PREDICTION.pdf](NEW_PAPERS/SEPTEMER_2026/RECOIL_PREDICTION.pdf) · [newPAPER.pdf](NEW_PAPERS/SEPTEMER_2026/newPAPER.pdf)
 
 <small>Anything added to <code>NEW_PAPERS/SEPTEMER_2026</code> appears here automatically. The spotlight reshuffles when the folder changes and once daily.</small>
 <!-- AUTO_FEATURED_END -->

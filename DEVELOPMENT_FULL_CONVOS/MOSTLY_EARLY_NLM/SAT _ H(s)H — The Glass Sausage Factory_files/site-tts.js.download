@@ -1,0 +1,33 @@
+(()=>{
+ if(document.querySelector('.site-tts-toggle'))return;
+ const supported='speechSynthesis' in window;
+ let session=0,iterator=null,active=null,utterance=null;
+ const wrap=document.createElement('div');wrap.className='site-tts';wrap.hidden=true;wrap.setAttribute('role','toolbar');wrap.setAttribute('aria-label','Page audio');
+ wrap.innerHTML='<button type="button" data-audio="play">Read page</button><button type="button" data-audio="pause">Pause</button><button type="button" data-audio="resume">Resume</button><button type="button" data-audio="stop">Stop</button><label>Speed <select data-audio="rate"><option>1</option><option>1.25</option><option>1.5</option><option>1.75</option><option>2</option></select></label><label>Voice <select data-audio="voice"><option value="auto">Auto — Mark / Zira</option></select></label><button type="button" data-audio="close">Close</button><span class="site-tts-status" aria-live="polite">Ready</span>';
+ const toggle=document.createElement('button');toggle.className='site-tts-toggle';toggle.type='button';toggle.textContent='Listen';toggle.setAttribute('aria-label','Listen to this page');document.body.append(wrap,toggle);
+ const status=wrap.querySelector('.site-tts-status'),rate=wrap.querySelector('[data-audio="rate"]'),voice=wrap.querySelector('[data-audio="voice"]');
+ const stored=(key,fallback)=>{try{return localStorage.getItem(key)||fallback}catch{return fallback}};
+ const save=(key,value)=>{try{localStorage.setItem(key,value)}catch{}};
+ rate.value=stored('gsf.tts.rate','1.5');rate.onchange=()=>save('gsf.tts.rate',rate.value);
+ toggle.onclick=()=>{wrap.hidden=false;toggle.hidden=true;if(supported)wrap.querySelector('[data-audio="play"]').click()};wrap.querySelector('[data-audio="close"]').onclick=()=>{wrap.hidden=true;toggle.hidden=false};
+ if(!supported){status.textContent='Speech playback is unavailable in this browser.';wrap.querySelectorAll('button:not([data-audio="close"]),select').forEach(x=>x.disabled=true);return}
+ const voices=()=>speechSynthesis.getVoices()||[];
+ function fill(){const saved=stored('gsf.tts.voice.site','auto');voice.querySelectorAll('option:not(:first-child)').forEach(o=>o.remove());voices().forEach(v=>voice.add(new Option(v.name+' — '+v.lang,v.voiceURI)));voice.value=[...voice.options].some(o=>o.value===saved)?saved:'auto'}
+ fill();speechSynthesis.addEventListener('voiceschanged',fill);voice.onchange=()=>save('gsf.tts.voice.site',voice.value);
+ function pick(){const list=voices();return list.find(v=>v.voiceURI===voice.value)||list.find(v=>/Mark|Zira/i.test(v.name)&&/^en-US/i.test(v.lang))||list.find(v=>/^en-US/i.test(v.lang))||list.find(v=>/^en/i.test(v.lang))||list[0]}
+ function chunks(text){const out=[];let rest=text.trim();while(rest.length>260){let end=rest.lastIndexOf(' ',260);if(end<60)end=260;out.push(rest.slice(0,end));rest=rest.slice(end).trim()}if(rest)out.push(rest);return out}
+ async function* content(){
+   if(window.gsfPageAudio){for await(const item of window.gsfPageAudio())for(const text of chunks(item.text||''))yield {...item,text};return}
+   const root=document.querySelector('[data-tts-content],main,article')||document.body;
+   for(const node of root.querySelectorAll('h1,h2,h3,h4,p,li,blockquote,figcaption,td,th,pre')){
+     if(node.closest('nav,footer,.site-tts,[data-tts-skip],details:not([open])')||node.querySelector('p,li,blockquote,pre'))continue;
+     for(const text of chunks(node.innerText||node.textContent||''))yield {text,el:node};
+   }
+ }
+ function stop(label='Stopped'){session++;speechSynthesis.cancel();iterator=null;utterance=null;if(active)active.classList.remove('site-speaking');active=null;window.gsfStopConversationAudio?.();status.textContent=label}
+ async function run(token){if(token!==session||!iterator)return;let next;try{next=await iterator.next()}catch(e){if(token===session)stop('Audio could not read this document: '+e.message);return}if(token!==session)return;if(next.done){stop('Finished');return}const item=next.value;if(active)active.classList.remove('site-speaking');active=item.el;if(active){active.classList.add('site-speaking');active.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+   utterance=new SpeechSynthesisUtterance(item.text);const v=pick();if(v)utterance.voice=v;utterance.rate=Number(rate.value);utterance.onend=()=>run(token);utterance.onerror=e=>{if(token!==session)return;if(e.error==='interrupted'||e.error==='canceled')return;stop('Speech playback stopped: '+e.error)};status.textContent=item.page?'Reading PDF page '+item.page:'Reading page';speechSynthesis.speak(utterance);
+ }
+ wrap.querySelector('[data-audio="play"]').onclick=()=>{stop('Preparing');const conversation=document.querySelector('.tts-toolbar [data-tts="play"]');if(conversation){conversation.click();status.textContent='Conversation playback controls are in the reader.';return}iterator=content();run(session)};
+ wrap.querySelector('[data-audio="pause"]').onclick=()=>speechSynthesis.pause();wrap.querySelector('[data-audio="resume"]').onclick=()=>speechSynthesis.resume();wrap.querySelector('[data-audio="stop"]').onclick=()=>stop();window.addEventListener('pagehide',()=>stop());
+})();

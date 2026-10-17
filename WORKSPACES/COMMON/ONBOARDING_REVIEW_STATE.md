@@ -1,5 +1,8 @@
 # Instance Onboarding Review State
 
+**2026-10-10 material change:** Added federated Cross-Formalism Index navigation to NEW_INSTANCE_START_HERE.md, INSTANCE_ONBOARDING_3REPO.md, and REFERENCE_DESK/README.md. Workers doing mathematics/solver work should absorb at next onboarding review; this is a new navigation layer, not a change to symbol authority or quarantine.
+
+
 **Status:** CLEAN COLD-START PASS RECORDED / MONITOR  
 **Current as of:** 2026-09-21
 

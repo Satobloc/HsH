@@ -1,0 +1,5 @@
+# Enheduanna s1 | Cross-anchor contaminated-anchor blind locus
+2026-10-16 15:12 UTC. SANDBOXED GEN/DERIVED mathematical calculation, not source-exposure evidence or physics.
+Model: independent Z~Bern(p), H~Bern(q); E[Xi|Z,H]=fi+di Z+ci H; E[Y|Z,H]=r0+t H+u Z; E[W|Z,H]=w0+v H, with conditional independence. A=p(1-p), B=q(1-q), qhat=q+p*u/t, K=qhat(1-qhat)t^2.
+Let F=(d1*c4-c1*d4)*(d2*c3-c2*d3). The incorrectly anchor-corrected tetrad is Delta=A*B*F*[1-(A*u^2+B*t^2)/K]. It vanishes at u=0 and at nonzero u=t*(1-2q), a structural false negative. Independent anchor score Di=Cov(Xi,Y)-(t/v)Cov(Xi,W)=A*u*di detects contamination at the blind locus.
+Fixture p=.3, q=.38, t=.55, u=.132, d1=.61 gives Delta=0 exactly but D1=.0169092. Exact 256-cell Bernoulli enumeration: SD(IF_D1)=.261885932, expected z=6.456704 at N=10000. Seeded independent 640-dataset Monte Carlo validated the variance formula. Executable SHA256 a506ef4b465bd7241e11a89ba0784c6f43ccb104055aad5c1e1bcd30d9fa3abf; complete executable code and two Class P figures preserved in the relay conversation.

@@ -1,5 +1,7 @@
 # Current Workflow Orientation — v2
 
+> **2026-10-09 Nathan Direct bibliographic boundary:** Older blanket `PRIOR_ART` hard-quarantine language in this orientation is now scoped by [the current directive](./NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md): Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits; other scholarly materials can be examined **after** SAT/H(s)H source-precedent checking and cited as outside comparators only. Separate stopped-integration/private/exposure rules have not been lifted.
+
 **Current as of:** 2026-09-20  
 **Status:** CURRENT / controlling workflow front door  
 **Supersedes for current workflow:** `CURRENT_WORKFLOW_ORIENTATION.md` (retained as historical workflow-state evidence)  

@@ -1,0 +1,45 @@
+// Route public repository objects into the site's reader. Preserve named link text.
+function readingUrl(input){let url;try{url=new URL(input,location.href)}catch{return null}
+ if(url.hostname==='satobloc.github.io'&&/^\/HsH\/?$/i.test(url.pathname))return new URL('conversations.html',new URL('.',document.querySelector('script[src$="repository-links.js"]')?.src||location.href)).href;
+ let owner,repo,branch='main',path='',kind='dir';
+ if(url.hostname==='github.com'){
+  const parts=url.pathname.split('/').filter(Boolean).map(decodeURIComponent);
+  if(parts.length<2||!/^Satobloc$/i.test(parts[0]))return null;
+  [owner,repo]=parts;
+  if(['blob','tree','raw'].includes(parts[2])){kind=parts[2]==='tree'?'dir':'file';branch=parts[3]||'main';path=parts.slice(4).join('/')}
+  else if(parts[2])return null;
+ }else if(url.hostname==='raw.githubusercontent.com'){
+  const parts=url.pathname.split('/').filter(Boolean).map(decodeURIComponent);
+  if(parts.length<4||!/^Satobloc$/i.test(parts[0]))return null;
+  [owner,repo,branch]=parts;path=parts.slice(3).join('/');kind='file';
+ }else return null;
+ const key=repo.toLowerCase()==='hsh'?'hsh':repo==='SAT_THEORY_ARCHIVE_2023-25'?'sat':'external';
+ const q=new URLSearchParams({mode:'browse',repo:key,path,kind});
+ if(key==='external'){q.set('owner',owner);q.set('name',repo);q.set('branch',branch)}
+ if(url.hash)q.set('source_anchor',url.hash.slice(1));
+ q.set('ref',branch);return new URL('reader.html?'+q.toString(),new URL('.',document.querySelector('script[src$="repository-links.js"]')?.src||location.href)).href;
+}
+function route(root=document){const anchors=[...(root.matches?.('a[href]')?[root]:[]),...root.querySelectorAll('a[href]')];anchors.forEach(a=>{
+ if(a.dataset.raw==='true'||/^(?:open )?raw\b/i.test(a.textContent.trim()))return;
+ let decoded=a.href;try{decoded=decodeURIComponent(decoded)}catch{}if(/Science Made Stupid/i.test(decoded)){a.remove();return}
+ if(a.dataset.repositoryRouted===a.href)return;
+ let target=readingUrl(a.href);const url=new URL(a.href,location.href),base=new URL('.',document.querySelector('script[src$="repository-links.js"]')?.src||location.href);
+ if(!target&&/\.(png|jpe?g|webp|gif|svg)$/i.test(url.pathname))target=new URL('gallery.html?'+new URLSearchParams({image:url.href}),base).href;
+ if(!target&&/\.pdf$/i.test(url.pathname))target=new URL('reader.html?'+new URLSearchParams({mode:'pdf',url:url.href}),base).href;
+ if(!target&&/\.(txt|md|tex|json|csv|py|zip)$/i.test(url.pathname))target=new URL('reader.html?'+new URLSearchParams({mode:'remote',url:url.href}),base).href;
+ if(!target)return;a.href=target;a.dataset.repositoryRouted=a.href;a.removeAttribute('target');
+ if(/^https?:\/\//.test(a.textContent.trim())||a.textContent.trim()===a.dataset.originalUrl){a.textContent='↗';a.setAttribute('aria-label','Open in the Reading Room')}
+})}
+// A bare URL carries its destination through a compact, accessible icon.
+function compactUrls(root){
+ if(root.closest?.('pre,code,.archive-index,.repo-list,.index-desk'))return;
+ const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){if(node.parentElement?.closest('a,pre,code,script,style,.archive-index,.repo-list,.index-desk'))return NodeFilter.FILTER_REJECT;return /https?:\/\//.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT}});
+ const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+ for(const node of nodes){const text=node.nodeValue,re=/https?:\/\/[^\s<>"']+/g;let match,last=0,fragment=document.createDocumentFragment(),changed=false;
+  while((match=re.exec(text))){const raw=match[0],url=raw.replace(/[.,;!?)]*$/,'');if(!url)continue;fragment.append(document.createTextNode(text.slice(last,match.index)));const a=document.createElement('a');a.href=readingUrl(url)||url;a.textContent='↗';a.title=url;a.setAttribute('aria-label','Open link: '+url);a.rel='noopener noreferrer';fragment.append(a);last=match.index+url.length;changed=true;re.lastIndex=last}
+  if(changed){fragment.append(document.createTextNode(text.slice(last)));node.replaceWith(fragment)}
+ }
+}
+function formatLinks(root=document){route(root);compactUrls(root)}
+formatLinks(document.body);
+new MutationObserver(records=>{for(const record of records){if(record.type==='attributes'){route(record.target);continue}for(const node of record.addedNodes)if(node.nodeType===1)formatLinks(node)}}).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['href']});

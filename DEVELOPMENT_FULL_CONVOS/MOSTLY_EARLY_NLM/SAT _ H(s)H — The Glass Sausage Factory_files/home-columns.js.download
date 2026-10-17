@@ -1,0 +1,41 @@
+// Keep the source sections intact while grouping the compact reading shelves on wide screens.
+const main=document.querySelector('body.home-tight main');
+const essay=main?.querySelector('#essay');
+if(main&&essay){
+  const shell=document.createElement('div');shell.className='home-columns';
+  const content=document.createElement('div');content.className='home-column-content';
+  const side=document.createElement('aside');side.className='home-column-shelves';side.setAttribute('aria-label','Browse the reading shelves');
+  const following=[];for(let node=essay.nextElementSibling;node;node=node.nextElementSibling)following.push(node);
+  for(const node of following){if(['orientation','history','links'].includes(node.id))side.append(node);else content.append(node)}
+  // The paper shelf is useful beside the other compact lists, while its manuscript leads stay in the reading column.
+  const library=content.querySelector('#library');
+  if(library){const list=library.querySelector('.library.scroll-module');if(list){const shelf=document.createElement('section');shelf.className='side-paper-shelf';shelf.innerHTML='<h2>Source PDFs</h2>';shelf.append(list);side.append(shelf)}}
+  shell.append(content,side);essay.after(shell);
+  // Let fonts, layout and live feeds settle before selecting long panels.
+}
+const motion=matchMedia('(prefers-reduced-motion: reduce)');
+const states=new Map();let chosen=false;
+function prepareScrollers(){
+  for(const scroller of document.querySelectorAll('.scroll-module,.desk-scroll')){
+    if(states.has(scroller)||scroller.scrollHeight<=scroller.clientHeight+30)continue;
+    const state={enabled:false,hover:false,focused:false,visible:false};states.set(scroller,state);
+    state.enable=()=>{state.enabled=true};
+    scroller.addEventListener('pointerenter',()=>state.hover=true);scroller.addEventListener('pointerleave',()=>state.hover=false);
+    scroller.addEventListener('focusin',()=>state.focused=true);scroller.addEventListener('focusout',()=>state.focused=false);
+    const stop=()=>{state.enabled=false};
+    scroller.addEventListener('wheel',stop,{passive:true});scroller.addEventListener('touchstart',stop,{passive:true});scroller.addEventListener('keydown',stop);
+    new IntersectionObserver(entries=>state.visible=entries[0].isIntersecting,{threshold:.15}).observe(scroller);
+  }
+  if(!chosen&&states.size){
+    chosen=true;
+    if(!motion.matches){const longest=[...states.keys()].sort((a,b)=>(b.scrollHeight-b.clientHeight)-(a.scrollHeight-a.clientHeight)).slice(0,4);
+      for(let i=longest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[longest[i],longest[j]]=[longest[j],longest[i]]}
+      longest.slice(0,1+Math.floor(Math.random()*2)).forEach(node=>states.get(node).enable());
+    }
+  }
+}
+requestAnimationFrame(()=>requestAnimationFrame(prepareScrollers));
+window.addEventListener('load',prepareScrollers,{once:true});
+new MutationObserver(()=>requestAnimationFrame(prepareScrollers)).observe(document.querySelector('main'),{childList:true,subtree:true});
+new ResizeObserver(prepareScrollers).observe(document.querySelector('main'));
+setInterval(()=>{for(const [node,state]of states){if(motion.matches||!state.enabled||state.hover||state.focused||!state.visible||document.hidden)continue;const end=node.scrollHeight-node.clientHeight;if(end>30)node.scrollTop=node.scrollTop>=end-2?0:node.scrollTop+1}},65);

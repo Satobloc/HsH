@@ -1,0 +1,5 @@
+{
+  "config": {"major": 1.6, "minor": 0.55, "annulum_gear": 6, "n": 256, "pen_turns": 0, "align_source_anchors": true},
+  "R": {"kind":"ode", "label":"Classical harmonic oscillator", "rhs":["y","-x"], "initial":[1.0,0.0]},
+  "Q": {"kind":"implicit", "label":"Planar ellipse zero contour", "expr":"x*x/2.25+y*y-1", "bounds":[-1.8,1.8,-1.2,1.2], "grid":240}
+}

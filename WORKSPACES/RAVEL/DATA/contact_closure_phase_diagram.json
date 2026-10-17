@@ -1,0 +1,301 @@
+{
+  "namespace": "LOCAL:RAVEL-CCPD",
+  "status": "GEN/CANDIDATE synthetic mechanics; not SAT/H(s)H evidence",
+  "parameters": {
+    "C_dir": 0.01,
+    "K_dir": 0.05,
+    "A_pad": 40.0,
+    "load": 13.5,
+    "grid_n": 121,
+    "ell_values": [
+      0.012,
+      0.018,
+      0.025,
+      0.035,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "contact_threshold": 0.5,
+    "pair_tolerance": 0.01,
+    "strict_gap": 10.0
+  },
+  "classification": "0=static/slaved below third director rate; 1=one contact mode below cutoff and pair error<1%; 2=distributed/failing",
+  "strict_gate": "candidate single regime plus >=10 spectral gap to next contact-dominated mode",
+  "transitions": [
+    {
+      "ell": 0.012,
+      "candidate_single_ratio_range": [
+        20.5,
+        21.0
+      ],
+      "distributed_onset_ratio": 21.25,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.018,
+      "candidate_single_ratio_range": [
+        20.5,
+        21.0
+      ],
+      "distributed_onset_ratio": 21.25,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.025,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 20.75,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.035,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 21.0,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.05,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 21.650279035578723,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.075,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 22.5,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "ell": 0.1,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 24.0,
+      "strict_gate_ever_passes": false
+    }
+  ],
+  "transition_grid_refinement": [
+    {
+      "grid_n": 81,
+      "ell": 0.012,
+      "gradient_inf": 6.166809354282102E-8,
+      "candidate_single_ratio_range": [
+        20.5,
+        21.0
+      ],
+      "distributed_onset_ratio": 21.25,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "grid_n": 81,
+      "ell": 0.025,
+      "gradient_inf": 4.583386892321518E-8,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 20.75,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "grid_n": 121,
+      "ell": 0.012,
+      "gradient_inf": 9.649789508919208E-8,
+      "candidate_single_ratio_range": [
+        20.5,
+        21.0
+      ],
+      "distributed_onset_ratio": 21.25,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "grid_n": 121,
+      "ell": 0.025,
+      "gradient_inf": 9.294601919895E-8,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 20.75,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "grid_n": 161,
+      "ell": 0.012,
+      "gradient_inf": 8.338545194394175E-8,
+      "candidate_single_ratio_range": [
+        20.5,
+        21.0
+      ],
+      "distributed_onset_ratio": 21.25,
+      "strict_gate_ever_passes": false
+    },
+    {
+      "grid_n": 161,
+      "ell": 0.025,
+      "gradient_inf": 2.982707299431595E-7,
+      "candidate_single_ratio_range": null,
+      "distributed_onset_ratio": 20.75,
+      "strict_gate_ever_passes": false
+    }
+  ],
+  "uncoupled_pad_spectrum": [
+    {
+      "ell": 0.012,
+      "first_three_rates_eta1": [
+        40.056845674454756,
+        40.22734373863325,
+        40.511377341678866
+      ],
+      "second_to_first_ratio": 1.004256402652474
+    },
+    {
+      "ell": 0.018,
+      "first_three_rates_eta1": [
+        40.127902767523196,
+        40.51152341192481,
+        41.15059901877745
+      ],
+      "second_to_first_ratio": 1.0095599475164223
+    },
+    {
+      "ell": 0.025,
+      "first_three_rates_eta1": [
+        40.24672601759876,
+        40.98673497670681,
+        42.21951971214786
+      ],
+      "second_to_first_ratio": 1.018386811359127
+    },
+    {
+      "ell": 0.035,
+      "first_three_rates_eta1": [
+        40.48358299449357,
+        41.934000554345346,
+        44.3502586358098
+      ],
+      "second_to_first_ratio": 1.035827302144898
+    },
+    {
+      "ell": 0.05,
+      "first_three_rates_eta1": [
+        40.986904070395035,
+        43.94693990682724,
+        48.87807884859143
+      ],
+      "second_to_first_ratio": 1.072219063712359
+    },
+    {
+      "ell": 0.075,
+      "first_three_rates_eta1": [
+        42.22053415838882,
+        48.88061479036129,
+        59.975677409330714
+      ],
+      "second_to_first_ratio": 1.1577450585297528
+    },
+    {
+      "ell": 0.1,
+      "first_three_rates_eta1": [
+        43.94761628158013,
+        55.78775962730897,
+        75.51231539436571
+      ],
+      "second_to_first_ratio": 1.2694149159277934
+    }
+  ],
+  "annulus_linear_null": [
+    {
+      "ell": 0.012,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 1.2236153782599301E-17
+    },
+    {
+      "ell": 0.018,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 8.506959780133832E-18
+    },
+    {
+      "ell": 0.025,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 6.228522615609894E-18
+    },
+    {
+      "ell": 0.035,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 4.489006436573479E-18
+    },
+    {
+      "ell": 0.05,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 3.157418438030572E-18
+    },
+    {
+      "ell": 0.075,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 2.1103746146057756E-18
+    },
+    {
+      "ell": 0.1,
+      "max_abs_cross_block": 2.9480812322596475E-17,
+      "frobenius_normalized_cross_block": 1.5842343905976448E-18
+    }
+  ],
+  "architecture_comparison": {
+    "second_order_pad": "eta_h h_tau = Bp h_ss - Ap(h-ht) - coupling; r_n=(Ap+Bp(n pi/L)^2)/eta_h",
+    "second_order_gap_bound": "r2/r1=(1+4q)/(1+q)<4 for q=Bp pi^2/(Ap L^2); a decade gap is impossible from this operator alone",
+    "fourth_order_candidate": "eta_h h_tau = -Dp h_ssss + Bp h_ss - Ap(h-ht) - coupling",
+    "pure_fourth_order_decade_condition": "for Bp=0 and L=1, (Ap+16 Dp pi^4)/(Ap+Dp pi^4)>=10 iff Dp pi^4/Ap>=1.5",
+    "threshold_Dp_over_Ap": 0.015398973382026506,
+    "threshold_fourth_order_length": 0.35226779590146834,
+    "rates_at_threshold_normalized_by_Ap": [
+      2.5,
+      25.0,
+      122.5
+    ],
+    "warning": "This is a derived competing architecture, not permission to add bending without a contact-surface constitutive basis."
+  },
+  "equilibria": [
+    {
+      "ell": 0.012,
+      "success": true,
+      "gradient_inf": 9.649789508919208E-8,
+      "peak_over_pi": 0.973363687498261,
+      "pad_peak": 1.0275191296695887
+    },
+    {
+      "ell": 0.018,
+      "success": true,
+      "gradient_inf": 8.671920424471475E-8,
+      "peak_over_pi": 0.9737328321982601,
+      "pad_peak": 1.0261867647227525
+    },
+    {
+      "ell": 0.025,
+      "success": true,
+      "gradient_inf": 5.7142134759585695E-8,
+      "peak_over_pi": 0.9741509355468597,
+      "pad_peak": 1.0190308799939356
+    },
+    {
+      "ell": 0.035,
+      "success": true,
+      "gradient_inf": 7.717311233286506E-8,
+      "peak_over_pi": 0.9746269487783,
+      "pad_peak": 0.9944565206000788
+    },
+    {
+      "ell": 0.05,
+      "success": true,
+      "gradient_inf": 1.9873640070457578E-7,
+      "peak_over_pi": 0.9749604203935046,
+      "pad_peak": 0.9353883397229794
+    },
+    {
+      "ell": 0.075,
+      "success": true,
+      "gradient_inf": 1.244308090076092E-7,
+      "peak_over_pi": 0.9744622959898478,
+      "pad_peak": 0.8224114698897487
+    },
+    {
+      "ell": 0.1,
+      "success": true,
+      "gradient_inf": 1.3395935623771414E-7,
+      "peak_over_pi": 0.9727909539164131,
+      "pad_peak": 0.72094551696796
+    }
+  ]
+}

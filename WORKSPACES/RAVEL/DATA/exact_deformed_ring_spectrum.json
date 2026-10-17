@@ -1,0 +1,39 @@
+{
+  "status": "SANDBOX exact arclength leading thin-tube spectrum",
+  "R": 1,
+  "a": 0.1,
+  "core_radius": 0.04,
+  "arclength_grid": 4096,
+  "length": 6.345706865341669,
+  "basis_cutoff": 14,
+  "first_five_energy_over_E0": [
+    -0.26410878560067813,
+    0.6659091012034056,
+    0.8097423653792934,
+    3.729705663080545,
+    3.7489863601210924
+  ],
+  "first_excited_pair_split_E0": 0.14383326417588782,
+  "N12_squared": 1.000315788202936,
+  "flux_slope_finite_difference_first_five": [
+    -2.5368596112684827e-10,
+    -1.8318679906315083e-11,
+    4.718447854656915e-11,
+    1.7541523789077473e-10,
+    3.9968028886505635e-11
+  ],
+  "uniform_holonomy_channel_transition_W12_per_unit_time": 0.0036392323542181327,
+  "old_ideal_ring_D_counterfactual": 0.0018096823163411373,
+  "split_over_counterfactual_D": 79.47984178056934,
+  "basis_cutoff_convergence": {
+    "nmax_8_split": 0.1438332640255976,
+    "nmax_10_split": 0.14383326420004694,
+    "nmax_14_split": 0.14383326417588782
+  },
+  "warnings": [
+    "Real anisotropic potential removes n/-n degeneracy; nondegenerate energy slopes at zero flux vanish by time reversal.",
+    "Uniform-connection and nonuniform Berry contributions share the same bath and should not be added as independent rates.",
+    "Leading confined scalar thin-tube comparator; no derived SAT particle or gravity claim."
+  ],
+  "reproduction": "WORKSPACES/RAVEL/CODE/exact_deformed_ring_spectrum.py"
+}
