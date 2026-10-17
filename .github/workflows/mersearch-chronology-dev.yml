@@ -86,6 +86,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /tools/search_archive_content.py
+            /tools/conversation_json_sniff.py
             /tools/mersearch_chronology.py
             /tools/mersearch_math.py
             /tools/mersearch_math_genealogy.py
