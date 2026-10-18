@@ -1,0 +1,3 @@
+# Optional dependency for M1–M3 symbolic equation search.
+# Stable Mersearch 1.0 still works without this.
+sympy>=1.12,<2

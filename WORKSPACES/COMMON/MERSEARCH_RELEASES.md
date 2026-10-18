@@ -169,3 +169,13 @@ Use results as discovery evidence. For consequential historical, mathematical, c
 
 The original Mersearch 1.0 release text described an earlier bridge that searched only `SAT_THEORY_ARCHIVE_2023-25` and published moving `latest.*` files. Those sentences are **superseded for the currently deployed workflow**. This is a bridge-deployment documentation correction, **not** a new Mersearch search-semantics release.
 
+
+
+## 1.2 chronology development | NOT PROMOTED
+
+- Branch: `mersearch-chronology-20261007`
+- Draft review: https://github.com/Satobloc/HsH/pull/10
+- Candidate capabilities: date/version evidence at source and passage levels; `era:`, `version:`, `origin:`, archive-date and retrospective filters; `--capabilities`, `--examples`, `--coverage`; three-archive checkout discovery; source links; pagination and honest totals; identical-file mirror identity; NotebookLM capture-date separation.
+- Worker quickstart: `WORKSPACES/COMMON/MERSEARCH_AGENT_QUICKSTART.md`.
+- Acceptance: original regression plus `WORKSPACES/MERCER/test_mersearch_chronology_20261007.py`; GitHub Actions checks must pass before release promotion.
+- This section does not designate the development branch as a stable worker release.
