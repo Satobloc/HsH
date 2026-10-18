@@ -231,6 +231,18 @@ If a Nathan Direct statement conflicts with this register, **the newer Nathan Di
 
 ---
 
+### ND-2026-10-18-02 — General Nathan Direct construction-continuity rule
+
+- **Authority:** Nathan Direct, October 18, 2026, general clarification following the Proper Dimensionality audit.
+- **Scope:** All Nathan Direct sources and constructions, not just `00 PROPER DIMENSIONALITY .txt`.
+- **Controlling rule:** Nathan Direct material is presumptively operative as an underlying construction unless a specific discrepancy, supersession, correction, or explicit rejection is identified and evidenced. Do not bulk-demote an earlier Nathan Direct work to merely historical because the vocabulary, later notation, preferred formalism, or presentation has changed.
+- **Internal status granularity:** A source can remain operative while individual elements within it are explicitly tentative, later established, later rejected, unresolved, or superseded. Preserve each proposition's status and subsequent transitions separately; never promote tentative language automatically merely because the enclosing work is Nathan Direct.
+- **Construction-first translation:** Track the underlying geometrical/mathematical construction through renamings and changes of representation. Compare structure, mapping, assumptions and consequences before concluding two formulations conflict or agree. Terminological change alone is not structural supersession.
+- **Audit discipline:** For any alleged discrepancy, name the exact source passage/construction, later source or counterexample, dates/status, and what actually differs. Preserve original stratigraphy, correct only the demonstrated divergence, and keep unresolved cases open for Nathan review. Nathan Direct designation is project authority, not independent physical proof or a blanket mathematical proof of every assistant-produced equation within a source.
+- **Relation:** Generalizes ND-2026-10-18-01; applies to BR-001, BR-003 and BR-004 and to future source reconciliation.
+
+---
+
 ## 6. Promotion / demotion discipline
 
 Allowed state movements include:
