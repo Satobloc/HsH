@@ -28,6 +28,21 @@ This register does **not** replace primary sources. It points to them and record
 
 ---
 
+## 0A. Mandatory source retrieval rule
+
+### BR-007 — Mersearch-first archival retrieval (mandatory)
+
+- **Status:** ND
+- **Authority/date:** Nathan Direct, 2026-10-18.
+- **Scope:** Every SAT/H(s)H worker and every research task involving discovery, reconstruction, comparison, verification, citation or retrieval across the SAT/H(s)H historical archives.
+- **Rule:** **ALWAYS USE MERSEARCH FIRST.** Before ordinary GitHub code search, manual filename hunting, grep, archive browsing, or building a new indexing workaround, consult the live Mersearch service/index and run a properly scoped Mersearch query. This is mandatory, not optional convenience.
+- **Fallback:** If Mersearch is not deployed, unavailable, does not cover the needed corpus, or returns insufficient results, record precisely what was attempted and the availability/coverage failure, then use supplementary tools and direct primary-source reading. Never falsely report a Mersearch run.
+- **Source discipline:** Mersearch results are discovery/genealogy leads, not mathematical proofs, source authorship certification, or automatic theory authority. Read original materials and verify source paths, dates, authorship, exact equations, chronology, corrections and classifications independently.
+- **Coverage:** Applies equally to historical mathematical recovery, the June 2025–January 2026 proton/electron mass-ratio reconstruction, and seemingly unrelated archive material.
+- **Priority:** This entry belongs near the top of BEDROCK, before ordinary theory calculations or archive investigation; it supplements BR-000/002 and ND-2026-10-18-03 without relaxing privacy, source-sensitivity or other safeguards.
+
+---
+
 ## 1. Authority and status strata
 
 ### ND — Nathan Direct / Override
