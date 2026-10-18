@@ -1,3 +1,5 @@
+> **Functional correction, 2026-10-18 (Nathan Direct):** GrAnn's intended primary role is the minimum common rotational lock: the sphere cycles through all three axes, source R/Q phase returns are synchronized, and elbow rotation count is derived from the common denominator. The curvature-to-spin construction below is a valid **alternative contact mechanism experiment**, not the GrAnn design specification. See [GRANN_ROTATIONAL_LOCK_2026-10-18.md](GRANN_ROTATIONAL_LOCK_2026-10-18.md) and [grann_rotational_lock.py](grann_rotational_lock.py). Do not implement the older independent curvature-gain elbow oscillator as if it were canonical.
+
 # GrAnn as a curvature-to-spin connection: functional reconstruction
 
 **Status:** SANDBOXED derivation and executed NumPy/SciPy numerical tests, not a full reconstruction of historical GrAnn, and not published to the live website. **Date:** 2026-10-18.
