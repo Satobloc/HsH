@@ -51,6 +51,17 @@ This register does **not** replace primary sources. It points to them and record
 - **Method:** Mersearch-first retrieval of genuinely relevant historical mathematical constructions; recover complete equations, assumptions, intermediate steps and surviving numeric outputs; test algebra, units, limits, topology/geometry and reproducibility. Compare viable alternatives and record corrections or failure openly. An observational fit does not establish an independent prediction.
 - **Status:** An internally corrected formulation remains tentative pending appropriate checks. Follow the existing internal-check-to-CODATA gate where applicable; never auto-promote into BEDROCK or claim physical validation.
 
+### ND-2026-10-18-06 — Internal-logic reconstruction and periodic archive rereading without research disruption
+
+- **Authority:** Nathan Direct, 2026-10-18; refines ND-2026-10-18-03/05 and BR-007.
+- **Primary objective:** **Keep current theoretical and mathematical research moving.** Historical source recovery and provenance are supporting activities, not gates that indefinitely block construction, testing, or correction.
+- **Bounded lookup, then reconstruction:** Search relevant prior work **with Mersearch first**. If the needed formulation is not located within a reasonable bounded effort, reconstruct a candidate **from the internal logic, operative premises, and constraints of SAT/H(s)H**. Treat it explicitly as a **working hypothesis**, not a recovered historical fact or established result.
+- **Scientific checks:** Derive consequences from that candidate; test algebra, geometry/topology, dimensional consistency, limits, numerical reproducibility, and consistency/coherence with the wider theory. Look for contradictions rather than smoothing them away. A reconstruction that fits measured values only after tuning is not an independent prediction. Apply the existing internal-check-to-CODATA verification gate when warranted.
+- **Parallel historical obligation:** Continue trying to identify the **earliest successful original formulation** with dates, authorship, exact intermediate equations and output, in order to preserve an accurate development history. This is valuable but normally **parallel to**, not prerequisite for, present research.
+- **Anti-tunnel-vision reading:** Keep **periodic substantive reading of varied historical archive material**, including sources outside the immediate current topic, to recover neglected ideas, alternative mathematical routes, corrections and context. Log actual source/extent and findings. Archive reading is an ongoing corrective against conceptual narrowing, not a substitute for calculations.
+- **Status/provenance:** Label derived current working hypotheses separately from verbatim recovered formulations; record uncertainty, failures and corrections. Never silently promote reconstruction to Nathan Direct, BEDROCK or physical proof.
+
+
 ---
 
 ## 1. Authority and status strata
