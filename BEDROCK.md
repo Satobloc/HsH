@@ -43,6 +43,16 @@ This register does **not** replace primary sources. It points to them and record
 
 ---
 
+### ND-2026-10-18-05 — Recover the correct mathematics, not the history of a mistake
+
+- **Authority:** Nathan Direct, 2026-10-18; supplements ND-2026-10-18-03 and BR-007.
+- **Research priority:** The objective of historical mathematical recovery is **the correct operative formulation**. If an earlier formulation was sound, reconstruct and independently check it. If it was also wrong, identify the mathematical or conceptual failure and correct it under existing standards, or state the unresolved obstruction. Find the nearest justified formulation and carry it through internal checks and, when eligible, external verification.
+- **Provenance is evidence, not the goal:** Locating a particular lost cut-and-paste, assistant interpolation, or exact moment of error may help reconstruct an equation, but is **not an operational deliverable or prerequisite**. Do not divert substantive calculation into exhaustive blame/incident chronology.
+- **Method:** Mersearch-first retrieval of genuinely relevant historical mathematical constructions; recover complete equations, assumptions, intermediate steps and surviving numeric outputs; test algebra, units, limits, topology/geometry and reproducibility. Compare viable alternatives and record corrections or failure openly. An observational fit does not establish an independent prediction.
+- **Status:** An internally corrected formulation remains tentative pending appropriate checks. Follow the existing internal-check-to-CODATA gate where applicable; never auto-promote into BEDROCK or claim physical validation.
+
+---
+
 ## 1. Authority and status strata
 
 ### ND — Nathan Direct / Override
