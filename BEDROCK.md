@@ -256,6 +256,19 @@ If a Nathan Direct statement conflicts with this register, **the newer Nathan Di
 
 ---
 
+### ND-2026-10-18-04 — Minkowski mapping, minimal-pair discrimination, and geometrically justified domains
+
+- **Authority:** Nathan Direct, 2026-10-18 current conversation. **Scope:** SAT methodological bedrock and SAT → H(s)H mathematical verification.
+- **Controlling construction:** Within SAT, the actual methodological bedrock is the **Minkowski construction**. When properly implemented algorithmically, without mathematical or computational mistakes, its task is to provide a faithful map of **known physics**. Fidelity of the map must be tested, not presumed merely from the construction's intent; this designation does not itself establish new physical predictions.
+- **Method of minimal pairs:** Prefer well-known, well-constrained physical systems; compare exactly equivalent scenarios differing ideally in only one isolated variable or condition. The variable may itself be a complex geometrical/configurational degree of freedom. For kinematically undefined behavior, search the admissible configurations satisfying all fixed constraints rather than inventing an explanatory interaction.
+- **Consistency and correction:** Mathematical errors, model defects, interpretive-layer mismatches, observational limitations, and changes of representation are distinct candidate explanations for an apparent discrepancy. Decide case by case, with demonstrable calculations and discriminating comparisons; do **not** automatically force historical mathematics into current H(s)H, revise the model to protect a preferred equation, or treat a plausible interpretation as empirical confirmation. Provenance, mathematical consistency, interpretation, and physical-data agreement must remain separately auditable.
+- **Universal applicability / nonarbitrary domain rule:** Scientific laws are presumed to operate wherever the same or substantially equivalent **relevant physical geometry and conditions** occur. A theory or interaction cannot be exempted from a scale, system, or observational regime by arbitrarily declaring a narrower domain. A different response, vanished effect, scale threshold, topological transition, or breakdown of an approximation must follow from an explicit derivation of the changed geometry, boundary/initial conditions, controlling dimensionless ratios, or other relevant physical conditions. An asserted domain of validity is a testable geometric claim, not a discretionary rescue of the model.
+- **Limits and falsification:** A worldline or centerline approximation to finite-core worldtube behavior is admissible only where its approximation limit and neglected terms are justified. Geometrically equivalent systems must be handled by the same rule; a contradiction with reliable measurements may falsify the construction. Do not add ad hoc scale-dependent suppression, disconnection, cancellation or exceptional treatment to evade such a result.
+- **Relations:** Strengthens the method in **BR-006**; specifies the verification discipline of **ND-2026-10-18-02/03**; preserves **BR-000/001** foundational ancestry, **BR-003** tentative-results status, **BR-004** stratigraphy, and the open status of **OC-001/002**. No existing equation or hypothesis is promoted to physical validation merely by this methodological directive.
+- **Provenance:** Nathan Direct, current 2026-10-18 conversation: Minkowski-map bedrock, one-variable minimal-pair comparisons, admissible configurations for kinematically undefined behavior, and explicit prohibition of arbitrary domains/exceptions. Signature not supplied; do not attach a protected signet on Nathan's behalf.
+
+---
+
 ## 6. Promotion / demotion discipline
 
 Allowed state movements include:
