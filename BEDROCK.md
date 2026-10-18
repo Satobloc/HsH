@@ -220,6 +220,17 @@ If a Nathan Direct statement conflicts with this register, **the newer Nathan Di
 
 ---
 
+### ND-2026-10-18-01 — Proper Dimensionality retains Nathan Direct status pending explicit discrepancy audit
+
+- **Authority:** Nathan Direct, 2026-10-18 clarification.
+- **Source:** [`00 PROPER DIMENSIONALITY .txt`](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/00%20PROPER%20DIMENSIONALITY%20.txt), source blob observed `e4836ca1f57e9da5996cf1eaad10ee436e49545a`.
+- **Statement:** *Proper Dimensionality* is Nathan Direct and its research direction and operative mathematical program are **not to be blanket-demoted as merely historical or superseded**. Presume continuing relevance unless a specific discrepancy is shown, cited by passage and reconciled against a newer Nathan Direct clarification or actual mathematical/empirical counterexample. Workers must preserve the source verbatim and track corrections individually.
+- **Provenance precision:** The document includes exchanges and assistant-written exposition. Its Nathan Direct designation does not independently prove every assistant assertion or cited theorem, or confer empirical validation on proposed constructions. Distinguish Nathan's controlling project direction from unverified proposed proofs and formulas.
+- **Targeted discrepancy candidates requiring audit, not blanket rejection:** explicit 24-cell-as-mandatory-lattice passages versus later no-mandatory-lattice working choices; statements equating Hopf/24-cell constructs to obligatory physical carriers versus October 9 straight-vacuum/no-Hopf-carrier clarification; strong claims of proven GR–QM resolution, Higgs replacement, confinement, and automatic quasi-isomorphism that require their stated mathematical premises and proofs. Mark exact source passages and applicable newer controls; do not substitute silent deletion or summary-level demotion.
+- **Status:** ND recognition active. Particular equations/constructions are operative to the extent consistent with newer specific Nathan Direct and sound mathematics; unresolved tensions are OC pending bounded audit rather than an excuse to dismiss the document.
+
+---
+
 ## 6. Promotion / demotion discipline
 
 Allowed state movements include:
