@@ -243,6 +243,19 @@ If a Nathan Direct statement conflicts with this register, **the newer Nathan Di
 
 ---
 
+### ND-2026-10-18-03 — Historical mathematics recovery and CODATA verification pipeline
+
+- **Authority:** Nathan Direct, 2026-10-18. **Priority:** all SAT/H(s)H workers, ongoing and cross-cutting.
+- **Mandate:** Recover historically developed mathematical constructions, equations and derivations from Nathan Direct and other provenance-tagged project sources across the main SAT and HsH archives. Preserve the earliest available exact notation, original assumptions, dates/source locators and later equivalent/revised forms. Do not overlook historical work because vocabulary, notation, formalism or preferred ontology changed.
+- **Internal tests first:** Reconstruct calculations exactly and test syntax, dimensional homogeneity (including SAT's explicit conventions), algebra, limiting cases, sign conventions, numerical reproducibility, relevant topology/geometry, and consistency with operative BEDROCK and subsequently corrected standards. Record both successful and failed checks and whether any correction is verbatim-source-supported versus confidently derivable from already established standards.
+- **Correction discipline:** Repair only clear transcription, notation or mathematically demonstrable mistakes where a unique or tightly bounded correction follows from existing operative rules, and retain before/after form with proof, provenance and a reproducible test. Non-unique repairs, unresolved structural contradictions or parameter tuning are **not** automatic passes; mark contested and escalate. Do not fit constants to CODATA and then represent the fit as independent prediction.
+- **Promotion target:** Mathematics that passes basic internal tests, or can be confidently corrected under existing operative standards, enters an **ACTIVE VERIFICATION PROGRAM AGAINST CODATA**. This promotes a candidate to structured *external testing*, **not** to established physical law, not necessarily to WB, and not to a proof of the framework.
+- **External benchmark:** Compare applicable predictions to version-identified CODATA recommended values with quantity identification, units, uncertainty, correlation where relevant, source year/revision, and fully reproducible code. Distinguish independent prediction, post-hoc parameter fit, coincidental numerical proximity, and quantities not defined in CODATA. Assess uncertainty-normalized residuals and known applicable experimental bounds; report null and contradictory results just as visibly as matches. CODATA alone cannot adjudicate every geometric, astronomical or topological hypothesis.
+- **Worker deliverable:** One provenance-grounded math-recovery packet per bounded work quantum: exact original equation + archive locator, construction genealogy, assumptions, test script and outputs, discrepancy/correction ledger, gate verdict (REJECTED / UNRESOLVED / INTERNALLY_CHECKED / ACTIVE_CODATA_VERIFICATION / CODATA_COMPARED), and the concrete CODATA quantity/test when applicable. Publish public-safe packets via approved house workflow, and retain complete substantive work in the chat archive.
+- **Relation:** Extends ND-2026-10-18-02 and BR-001/003/004; complements Mersearch equation genealogy M4 without mistaking recurrence for independent derivation or scientific verification.
+
+---
+
 ## 6. Promotion / demotion discipline
 
 Allowed state movements include:
