@@ -1,0 +1,63 @@
+{
+  "request_id": "2026-10-20-orson-braid-smoothing-q-rules-001",
+  "query": "(\"Q rule\" OR \"inverse Q\" OR \"braid smoothing\" OR smoothing OR \"He2\" OR \"He-2\" OR \"He3\" OR \"He-3\" OR deuterium OR tritium OR \"Li3\" OR \"Li-3\" OR \"W. R. Alexander\" OR Alexander) AND (braid OR helix OR tube OR nuclear OR cluster OR packing OR crevice OR stability OR decay OR lifetime)",
+  "tool": "Mercer_Searcher_1.0",
+  "mersearch_ref": "mersearch-stable-1.0",
+  "mersearch_commit": "89933c358b67ccbfbbaa680aadeb1f35d22d91b2",
+  "source_repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+  "source_repositories": [
+    {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "commit": "09a635df3e352b4f82c4049356d579f703ed5b8a",
+      "root": "archive/"
+    },
+    {
+      "repository": "Satobloc/HsH",
+      "commit": "7006d638683cdda03c254841452d43e35171d0b7",
+      "root": "hsh-main/"
+    },
+    {
+      "repository": "Satobloc/HSH_RESOURCES",
+      "commit": "80cdf88eb827a90ae11c6d13c31c740e281712c5",
+      "root": "resources/"
+    }
+  ],
+  "archives_requested": [
+    "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "Satobloc/HsH",
+    "Satobloc/HSH_RESOURCES"
+  ],
+  "scope_note": "All three checked-out repositories searched; extension, size and policy exclusions still apply.",
+  "source_commit": "09a635df3e352b4f82c4049356d579f703ed5b8a",
+  "request_repository": "Satobloc/HsH",
+  "request_commit": "7006d638683cdda03c254841452d43e35171d0b7",
+  "read_root": "archive/ hsh-main/ resources/",
+  "read_roots": [
+    "archive/",
+    "hsh-main/",
+    "resources/"
+  ],
+  "write_root": "indexes/mersearch_requests/<request_id>/",
+  "write_class": "derived/generated output",
+  "default_exclusions": [
+    "QUARANTINE",
+    "PRIOR_ART"
+  ],
+  "bridge_runtime_hotfix": {
+    "applied": true,
+    "reason": "mersearch-stable-1.0 references TOOL_NAME/TOOL_VERSION when writing its manifest but does not define them",
+    "scope": "runtime copy only; mersearch-stable-1.0 branch is unchanged",
+    "injected_definitions": {
+      "TOOL_NAME": "Mercer_Searcher_1.0",
+      "TOOL_VERSION": "1.0"
+    },
+    "stable_script_sha256": "5fb48b8a5f19422313246445d0c663a2a39064934706082dd9100d3368b4b8c7",
+    "runtime_script_sha256": "be9efdb308268c8a941fc6385b72d64517dd62caacb0dbfdabd6878ebfb3e4b4"
+  },
+  "outputs": {
+    "SEARCH_RESULTS.json": "cab42018d16594bed39bb2c4dfb3b6fae457c4b6588498d23808f9f3d401d2be",
+    "SEARCH_RESULTS.md": "3fc457ac424abc65379cf3393691c962bfc16643aead57478ba9b38420bdab45",
+    "SEARCH_RECEIPT.json": "8a63dcebc79c9adce67d9760c9d2b89c7b21eac7e214078c165086615d36331b",
+    "SEARCH_RECEIPT.md": "3ca29e9f700b71a1085422a24166db087901d1529cc78ba5b6e1b771fd1e7c21"
+  }
+}

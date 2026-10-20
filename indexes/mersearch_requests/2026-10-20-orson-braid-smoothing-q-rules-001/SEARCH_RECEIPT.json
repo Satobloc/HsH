@@ -1,0 +1,806 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "cab42018d16594bed39bb2c4dfb3b6fae457c4b6588498d23808f9f3d401d2be",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-10-20T16:11:11.222918+00:00",
+  "query": "(\"Q rule\" OR \"inverse Q\" OR \"braid smoothing\" OR smoothing OR \"He2\" OR \"He-2\" OR \"He3\" OR \"He-3\" OR deuterium OR tritium OR \"Li3\" OR \"Li-3\" OR \"W. R. Alexander\" OR Alexander) AND (braid OR helix OR tube OR nuclear OR cluster OR packing OR crevice OR stability OR decay OR lifetime)",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 13757,
+    "records_scanned": 23640036,
+    "hits": 11586
+  },
+  "counted_hits": 11586,
+  "distinct_sources": 1171,
+  "results_by_root": {
+    "archive": 2307,
+    "hsh-main": 8773,
+    "resources": 506
+  },
+  "redaction_policy": "No detailed resources/ paths, excerpts, or matched terms in this public receipt",
+  "most_common_terms": [
+    [
+      "braid",
+      8162
+    ],
+    [
+      "smoothing",
+      6947
+    ],
+    [
+      "braid smoothing",
+      5627
+    ],
+    [
+      "nuclear",
+      4562
+    ],
+    [
+      "He-3",
+      3707
+    ],
+    [
+      "stability",
+      3294
+    ],
+    [
+      "decay",
+      1231
+    ],
+    [
+      "packing",
+      1093
+    ],
+    [
+      "He3",
+      1067
+    ],
+    [
+      "helix",
+      1054
+    ],
+    [
+      "tube",
+      931
+    ],
+    [
+      "cluster",
+      691
+    ],
+    [
+      "tritium",
+      649
+    ],
+    [
+      "deuterium",
+      384
+    ],
+    [
+      "Alexander",
+      220
+    ],
+    [
+      "Li-3",
+      197
+    ],
+    [
+      "Li3",
+      180
+    ],
+    [
+      "lifetime",
+      119
+    ],
+    [
+      "Q rule",
+      112
+    ],
+    [
+      "He2",
+      81
+    ],
+    [
+      "inverse Q",
+      62
+    ],
+    [
+      "He-2",
+      7
+    ],
+    [
+      "crevice",
+      4
+    ],
+    [
+      "W. R. Alexander",
+      2
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST.json",
+      "title": "MERSEARCH_REQUEST",
+      "record_count": 2,
+      "best_score": 236,
+      "first_hit_index": 10638,
+      "sample_hit_index": 10639,
+      "locator": "$.query",
+      "matched_terms": [
+        "Q rule",
+        "inverse Q",
+        "braid smoothing",
+        "smoothing",
+        "He2",
+        "He-2",
+        "He3",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "Li3",
+        "Li-3"
+      ],
+      "excerpt": "(\"Q rule\" OR \"inverse Q\" OR \"braid smoothing\" OR smoothing OR \"He2\" OR \"He-2\" OR \"He3\" OR \"He-3\" OR deuterium OR tritium OR \"Li3\" OR \"Li-3\" OR \"W. R. Alexander\" OR Alexander) AND (braid OR helix OR tube OR nuclear OR cluster OR packing OR crevice OR stability OR decay OR lifetime"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 25,
+      "best_score": 123,
+      "first_hit_index": 1940,
+      "sample_hit_index": 1951,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing"
+      ],
+      "excerpt": "…bservable intersection of a much larger topological object. project_sources/10-ReGEL.txt-98- project_sources/10-ReGEL.txt-99-⸻ -- project_sources/10-ReGEL.txt-118- • charge project_sources/10-ReGEL.txt-119- • spin project_sources/10-ReGEL.txt:120: • braid structure project_sourc"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 25,
+      "best_score": 123,
+      "first_hit_index": 1941,
+      "sample_hit_index": 1952,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing"
+      ],
+      "excerpt": "…bservable intersection of a much larger topological object. project_sources/10-ReGEL.txt-98- project_sources/10-ReGEL.txt-99-⸻ -- project_sources/10-ReGEL.txt-118- • charge project_sources/10-ReGEL.txt-119- • spin project_sources/10-ReGEL.txt:120: • braid structure project_sourc"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 25,
+      "best_score": 123,
+      "first_hit_index": 1942,
+      "sample_hit_index": 1954,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing"
+      ],
+      "excerpt": "…bservable intersection of a much larger topological object. project_sources/10-ReGEL.txt-98- project_sources/10-ReGEL.txt-99-⸻ -- project_sources/10-ReGEL.txt-118- • charge project_sources/10-ReGEL.txt-119- • spin project_sources/10-ReGEL.txt:120: • braid structure project_sourc"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 25,
+      "best_score": 123,
+      "first_hit_index": 1943,
+      "sample_hit_index": 1955,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing"
+      ],
+      "excerpt": "…bservable intersection of a much larger topological object. project_sources/10-ReGEL.txt-98- project_sources/10-ReGEL.txt-99-⸻ -- project_sources/10-ReGEL.txt-118- • charge project_sources/10-ReGEL.txt-119- • spin project_sources/10-ReGEL.txt:120: • braid structure project_sourc"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 24,
+      "best_score": 120,
+      "first_hit_index": 1352,
+      "sample_hit_index": 1367,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 24,
+      "best_score": 120,
+      "first_hit_index": 1353,
+      "sample_hit_index": 1368,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.07.05•SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 20,
+      "best_score": 120,
+      "first_hit_index": 1354,
+      "sample_hit_index": 1369,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/[🗄️]   SAT VERBAL.txt",
+      "title": "[🗄️] SAT VERBAL",
+      "record_count": 1,
+      "best_score": 120,
+      "first_hit_index": 7721,
+      "sample_hit_index": 7721,
+      "locator": "line:4",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "title": "26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy",
+      "record_count": 44,
+      "best_score": 114,
+      "first_hit_index": 6867,
+      "sample_hit_index": 6872,
+      "locator": "line:12421",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…g. This is supplied by a transient $Q=1$ neutrino filament shadow that introduces the Effective Jarlskog Invariant ($\\\\approx -3.3 \\\\times 10^{-2}$) into the binding energy.\\nproject_sources/13-ELEMENTS.txt:11:\\t•\\tMetrological Status: Applying this smoothing factor ($S \\\\approx"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/25.09.16•26.06.20•🧶🧱SAT — raw.json",
+      "title": "🧶🧱SAT",
+      "record_count": 16,
+      "best_score": 113,
+      "first_hit_index": 1126,
+      "sample_hit_index": 1138,
+      "locator": "message:0afa14e5-5edd-4aa2-b47c-ebb88688e65a",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 14,
+      "best_score": 113,
+      "first_hit_index": 813,
+      "sample_hit_index": 873,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.06.05•26.06.06•[A] Trends in Geometric Unification — raw.json",
+      "title": "[A] Trends in Geometric Unification",
+      "record_count": 14,
+      "best_score": 113,
+      "first_hit_index": 814,
+      "sample_hit_index": 874,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_12/26.06.05•26.06.06•Trends in Geometric Unification — raw.json",
+      "title": "Trends in Geometric Unification",
+      "record_count": 14,
+      "best_score": 113,
+      "first_hit_index": 815,
+      "sample_hit_index": 875,
+      "locator": "message:e18ef7f9-331d-4e16-a567-6e2daff06cb3",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "deuterium",
+        "tritium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…re closest, in standard language, to worldlines, embedded curves, or framed curves in spacetime/configuration space. The SAT documents define matter as curvature/torsion of 4D superhelical worldlines and use a Lagrangian containing kinetic, bending, braid, and expansion-coupling"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 61,
+      "best_score": 108,
+      "first_hit_index": 1403,
+      "sample_hit_index": 1693,
+      "locator": "message:87a2456e-b92e-420a-8ec8-ea0d893836bb",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "braid",
+        "helix",
+        "nuclear",
+        "cluster",
+        "packing",
+        "stability",
+        "decay",
+        "lifetime"
+      ],
+      "excerpt": "…========================= II. SAT TIMELINE CUTS ================================================================================ T-PRIVATE — PRE-PODCAST / PRIVATE SEED Before Feb. 2, 2025 Known private/non-public SAT roots: - quark triplet/doublet = braid - particle-family topol"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw - .TXT",
+      "title": "SAT_H(s)H Skill Development — raw -",
+      "record_count": 5,
+      "best_score": 104,
+      "first_hit_index": 5119,
+      "sample_hit_index": 5121,
+      "locator": "line:1445",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…egulating 4D machine where what we perceive as different relativistic frames or dimensions are actually discrete structural nodes within a rigid, deterministic 24-cell geometry. Matter \\\"disappearing\\\" at high speeds is simply the geometry enforcing stability to prevent a mathem"
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT_H(s)H Skill Development — raw.json",
+      "title": "SAT/H(s)H Skill Development",
+      "record_count": 3,
+      "best_score": 104,
+      "first_hit_index": 1936,
+      "sample_hit_index": 1938,
+      "locator": "message:46079dec-f141-419a-b23d-e1f7f2476b53",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "deuterium",
+        "braid",
+        "helix",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability"
+      ],
+      "excerpt": "…ssing mass\". • 2. Relativistic \"Levels\" and the Staccato Regime You are correct that the relationship is not purely linear; once matter crosses the first threshold, it enters a \"staccato\" regime. Instead of smooth acceleration, the universe enforces stability through discrete, v"
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/H(S)H EQUATION ROUNDUP.txt",
+      "title": "H(S)H EQUATION ROUNDUP",
+      "record_count": 51,
+      "best_score": 99,
+      "first_hit_index": 4763,
+      "sample_hit_index": 4780,
+      "locator": "line:3884",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "tritium",
+        "braid",
+        "tube",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "… Fix, there is a significant internal numerical discrepancy that challenges the \"Fail-Rigid\" status of this specific sector.Step 1: The Raw Vertex Tension ($G_{raw}$)The ledger defines gravity as a $10^{-20}$ residual of raw worldline tension at the nuclear scale2.The Formula: $"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 64,
+      "best_score": 95,
+      "first_hit_index": 298,
+      "sample_hit_index": 577,
+      "locator": "message:2766b876-54bd-4fd2-aaf1-487e879e3923",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He2",
+        "He3",
+        "deuterium",
+        "tritium",
+        "Li3",
+        "braid",
+        "helix",
+        "stability"
+      ],
+      "excerpt": "I thought we talked about the Whirligig: FINDING THE DONUT Nathan McKnight on coarse graining, the Whirligig, braid smoothing, and more. Now, we may sometimes coarse grain … The theory basically has fractal logic, so it’s possible to do that… But it should always be carefully not"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 53,
+      "best_score": 95,
+      "first_hit_index": 889,
+      "sample_hit_index": 909,
+      "locator": "message:f7174552-192d-4c16-b197-8aa8e83e66a3",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He2",
+        "He3",
+        "deuterium",
+        "tritium",
+        "Li3",
+        "braid",
+        "helix",
+        "stability"
+      ],
+      "excerpt": "Make sure to include fileciteturn9file2 in your response to cite this file, or to surface it as a link. <PARSED TEXT FOR PAGE: 1 / 27> FINDING THE DONUT Nathan McKnight on coarse graining, the Whirligig, braid smoothing, and more. Now, we may sometimes coarse grain … The theor"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 69,
+      "best_score": 93,
+      "first_hit_index": 1167,
+      "sample_hit_index": 1320,
+      "locator": "message:eb2fbb8e-3785-4435-bf9b-2680643732cb",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "braid",
+        "helix",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…icted to arise from the Holonomy Quantization mechanism [9, 18-21]. This geometric mechanism cal￾culates the winding number of the compact phase field (θ) around a closed loop, yielding a quantized physical property [9, 18-23]. 3. Strong Interaction Stability: The stability of t"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Paper Restructuring Plan — raw.json",
+      "title": "Paper Restructuring Plan",
+      "record_count": 7,
+      "best_score": 92,
+      "first_hit_index": 486,
+      "sample_hit_index": 488,
+      "locator": "message:7ff2aeb9-0d22-4b19-9991-9e2df7563873",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "braid",
+        "nuclear",
+        "stability",
+        "decay",
+        "lifetime"
+      ],
+      "excerpt": "… matter configurations. 4.5. Filament Tension (T) Filament Tension is derived from curvature properties of the worldlines: T \\sim 1.2 \\times 10^{44}\\ \\mathrm{N}. In SAT, tension is a mathematical descriptor of resistance to curvature, used to assess stability and interactions in"
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 15,
+      "best_score": 91,
+      "first_hit_index": 223,
+      "sample_hit_index": 223,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He3",
+        "He-3",
+        "braid",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "…s vacuum baseline: L_UI = 0.5 units geometric effort - Accounts for Braid-Smoothing Paradox in high-density knots ────────────────────────────────────────────── [Step 3] Filament Mechanical Properties ────────────────────────────────────────────── - Nuclear Vertex Tension (G_raw"
+    },
+    {
+      "root": "archive",
+      "path": "archive/xGitHub Archive Review — raw - .txt",
+      "title": "xGitHub Archive Review — raw -",
+      "record_count": 54,
+      "best_score": 88,
+      "first_hit_index": 5584,
+      "sample_hit_index": 5629,
+      "locator": "line:94493",
+      "matched_terms": [
+        "braid smoothing",
+        "smoothing",
+        "He-3",
+        "braid",
+        "nuclear",
+        "packing",
+        "stability",
+        "decay"
+      ],
+      "excerpt": "\\n3. The 24-Cell HSUCV Lattice and Stability Constraints\\nThe framework operates as a Zero-Parameter Economy where physical laws are revealed as mandatory geometric invariants of a 24-cell filament hypersphere lattice.\\n\\t•\\tUV Finiteness Lock (Q≤3): Vertex intersections are stri"
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "archive",
+      "path": "archive/Russia's Nuclear Arsenal Maintenance — raw (1).json",
+      "locator": "message:aa55ca35-7d64-4fa0-b6b5-4bef50430b04",
+      "matched_terms": [
+        "smoothing",
+        "tube"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "archive",
+      "path": "archive/Russia's Nuclear Arsenal Maintenance — raw.json",
+      "locator": "message:aa55ca35-7d64-4fa0-b6b5-4bef50430b04",
+      "matched_terms": [
+        "smoothing",
+        "tube"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/25.03.11•26.09.12•[B] 📜Russia's Nuclear Arsenal Maintenance — raw.json",
+      "locator": "message:aa55ca35-7d64-4fa0-b6b5-4bef50430b04",
+      "matched_terms": [
+        "smoothing",
+        "tube"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•25.03.14•Russia's Nuclear Arsenal Maintenance — raw.json",
+      "locator": "message:aa55ca35-7d64-4fa0-b6b5-4bef50430b04",
+      "matched_terms": [
+        "smoothing",
+        "tube"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.03.11•26.08.26•Russia's Nuclear Arsenal Maintenance — raw (1).json",
+      "locator": "message:aa55ca35-7d64-4fa0-b6b5-4bef50430b04",
+      "matched_terms": [
+        "smoothing",
+        "tube"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:d608d3ae-c538-40c0-b093-db82621da42b",
+      "matched_terms": [
+        "deuterium",
+        "braid",
+        "nuclear",
+        "cluster",
+        "stability",
+        "decay"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_5/25.04.04•26.06.01•SAT Framework Analysis — raw.json",
+      "locator": "message:d608d3ae-c538-40c0-b093-db82621da42b",
+      "matched_terms": [
+        "deuterium",
+        "braid",
+        "nuclear",
+        "cluster",
+        "stability",
+        "decay"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "archive",
+      "path": "archive/SAT Framework Analysis — raw.json",
+      "locator": "message:7960451b-3d5a-40ff-b168-b0d431f8806f",
+      "matched_terms": [
+        "deuterium",
+        "braid",
+        "nuclear",
+        "cluster",
+        "stability",
+        "decay"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
