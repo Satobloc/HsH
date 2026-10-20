@@ -171,3 +171,48 @@ The current research proposition is therefore:
 ### Required restraint
 
 Do **not** state that SAT is string theory, derives string theory, or historically descends from Alexander. The bridge is presently a structural/mathematical correspondence program. It must be earned by explicit maps between objects, invariants, cobordisms, mode spectra, and observables.
+
+
+## Long-standing model, newly localized mathematics
+
+Nathan's clarification: the SAT↔ST bridge is **not a newly invented model produced by the Alexander comparison**. It is a long-standing SAT working model that has repeatedly been expressed through the correspondence:
+
+[
+	ext{helical footprint / worldtube intersection}
+leftrightarrow
+	ext{string-theory vibrational mode}.
+]
+
+What changes now is that the Alexander + pants/cobordism synthesis tells the project **where to look for the missing mathematics**.
+
+The research target is therefore no longer merely “find a suggestive analogy to string theory.” It is to test whether the existing SAT working model can be formalized through a chain such as:
+
+[
+	ext{finite-core worldtube geometry}
+ightarrow
+	ext{wild embedding / complement topology}
+ightarrow
+	ext{pair-of-pants and related cobordisms}
+ightarrow
+	ext{worldsheet interaction structure}
+ightarrow
+	ext{mode spectrum / observable intersection footprint}.
+]
+
+This should be treated as a **mathematical localization of an existing working hypothesis**, not as retrospective replacement of SAT by Alexander or string theory.
+
+### Where to look
+
+Priority mathematical neighborhoods now include:
+
+- wild embeddings of spheres, tubes and related manifolds;
+- tame vs wild embedding criteria;
+- complement topology and fundamental-group structure;
+- pair-of-pants cobordisms and higher cobordism composition;
+- string worldsheet joining/splitting formalisms;
+- mode spectra on embedded/branched surfaces;
+- maps between local intersection geometry and global surface modes;
+- invariants that survive changes of parameterization and coordinate chart;
+- explicit failure tests showing when the SAT object cannot be represented by the candidate ST/cobordism machinery.
+
+The goal is not to assume identity. It is to determine whether the long-held correspondence can be made exact enough to calculate with.
