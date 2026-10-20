@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-10-20__calculation-relay__cumulative-science-gates",
+  "created": "2026-10-20",
+  "producer": "Calculation Relay archival consolidation",
+  "title": "What the latest finite-core and mass-ratio audits actually establish",
+  "kinds": [
+    "current-work",
+    "document",
+    "cross-link",
+    "history"
+  ],
+  "status": "candidate",
+  "summary": "Cumulative source-linked mathematics from October 18–20: Householder and finite-core obstructions, Kerr and return-neck discriminators, and historical mass-ratio arithmetic failures. These are tentative internal tests, not physical validation.",
+  "sources": [
+    {
+      "role": "controlling",
+      "path": "BEDROCK.md"
+    },
+    {
+      "role": "controlling",
+      "path": "STATE_OF_THE_THEORY.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/relay-cumulative-20261020-archive-website-index-v2.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-projection-quotient-mass-ratio-20261020t1336z-s3.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-static-lapse-neck-no-go-20261020t12z-s3.md"
+    }
+  ],
+  "destinations": [
+    {
+      "surface": "Current Work",
+      "action": "review science-gate summary"
+    },
+    {
+      "surface": "Public Notebook",
+      "action": "link full checked source-and-test packets"
+    },
+    {
+      "surface": "Research Library",
+      "action": "index archival equations and corrections"
+    }
+  ],
+  "epistemic": {
+    "status": "candidate, sandbox/tentative and historical-source audit",
+    "validation": "internal algebra/numerical tests; no physical proof",
+    "authority": "BEDROCK controls"
+  },
+  "public_copy": "Recent mathematical audits distinguish internally consistent geometrical constructions from verified physical predictions. Tests of radial cores and necks reveal regularity, topology, or standard-GR energy-condition constraints. A recovered fifth-power mass-ratio expression fails literal arithmetic checks. Full equations and reproducible code remain available in the archive.",
+  "follow_up": [
+    "Check issue #179 receipt and independent readback",
+    "Curate with source/provenance links",
+    "Do not claim live-site deployment from intake alone"
+  ]
+}
