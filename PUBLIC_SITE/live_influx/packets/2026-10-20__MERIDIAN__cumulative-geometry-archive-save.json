@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-10-20__MERIDIAN__cumulative-geometry-archive-save",
+  "created": "2026-10-20",
+  "producer": {
+    "instance": "MERIDIAN"
+  },
+  "title": "Four-dimensional geometry: measure, rotations, and finite-core contact",
+  "kinds": [
+    "current-work",
+    "concept-update",
+    "document",
+    "cross-link"
+  ],
+  "status": "candidate",
+  "summary": "A source-linked cumulative Meridian checkpoint covering four-dimensional solver representations, noncommuting SO(4) rotation closure, finite-core contact kernels, and Archimedean S3 integration, with numerical controls and explicit unresolved physics.",
+  "public_copy": "Recent geometry controls expose three differences that matter for SAT/H(s)H reconstruction: rotations in four dimensions can leave an ordered residual after their nominal angles cancel; measuring the three-sphere by a continuum of tori requires the correct normal-spacing factor; and hard-core overlap is mathematically unlike smooth interactions at complete coincidence. These are reproducible tools and sandboxed tests, not a derived force or confirmation of the physical model.",
+  "sources": [
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-cumulative-geometry-site-intake-20261020-001.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-so4-score-counterexample-20261017t1836z-s3.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-20261015-kernel-hessian-001.md"
+    },
+    {
+      "role": "current-sandbox",
+      "path": "WORKSPACES/MERIDIAN/SANDBOX/RUN_061_4D_DONUT_STEREOGRAPHIC_BRIDGE.md"
+    },
+    {
+      "role": "controlling",
+      "path": "BEDROCK.md"
+    },
+    {
+      "role": "provenance",
+      "path": "LIVE CONVOS/Meridian Free Build — raw__chunk_0005_of_0005.txt"
+    }
+  ],
+  "destinations": [
+    {
+      "surface": "homepage-current-work"
+    },
+    {
+      "surface": "public-notebook"
+    },
+    {
+      "surface": "reading-room-related-work"
+    }
+  ],
+  "epistemic": {
+    "theory_status": "SANDBOXED mathematical and numerical tests; no new physical law or BEDROCK promotion",
+    "publication_status": "Candidate editorial intake only; source published-submission status must be verified before incorporation",
+    "source_caution": "Do not display raw worker markdown or exports as ordinary public reader"
+  },
+  "time_sensitive": false,
+  "follow_up": [
+    "Verify publication receipt and exact source digest before editorial incorporation.",
+    "Use approved typeset document and reviewed Class P geometry visual before public reader promotion.",
+    "The chatgpt.site frontend may require a separate site-builder integration even if repository automatic discovery refresh succeeds."
+  ],
+  "provenance": {
+    "note": "Meridian public site handoff from archived Oct 20 cumulative save. Both external educational sources credited in the cumulative artifact; no private material included."
+  }
+}
