@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "packet_id": "2026-10-20-relay24-conversation-continuity",
+  "created": "2026-10-20T13:51:00Z",
+  "producer": "Calculation Relay :24 archival checkpoint",
+  "title": "What a projection forgets: braid history, hidden rotations, and rolling contact",
+  "kinds": [
+    "current-work",
+    "document",
+    "history",
+    "cross-link"
+  ],
+  "status": "candidate",
+  "summary": "Cumulative mathematical/archival summary of the Calculation Relay :24 conversation. Explicit braid nonabelian distinction, finite-core intermediate-slab open gate, SO(4) observation ambiguity and GrAnn candidate contact obstruction. Retains CODATA literal failures and source-authorship limitations. This is not theory promotion or site deployment.",
+  "sources": [
+    {
+      "path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/relay24-conversation-continuity-20261020-0951-v1.md",
+      "role": "current-sandbox"
+    },
+    {
+      "path": "BEDROCK.md",
+      "role": "controlling"
+    },
+    {
+      "path": "STATE_OF_THE_THEORY.md",
+      "role": "provenance"
+    },
+    {
+      "path": "PUBLIC_SITE/instruments/whirligig/index.html",
+      "role": "implementation"
+    }
+  ],
+  "destinations": [
+    {
+      "surface": "Glass Sausage Factory / Current Work",
+      "status": "editorial-candidate"
+    },
+    {
+      "surface": "Glass Sausage Factory / Laboratory / Whirligig",
+      "status": "editorial-candidate"
+    }
+  ],
+  "epistemic": {
+    "status": "sandbox, mixed prior worker reports",
+    "verified": "source-linked cumulative checkpoint committed and independently reread; not independent reproduction of prior fixtures",
+    "limits": "No raw transcript ingestion; no claim of physical validation, CODATA agreement, website publishing or canonical BEDROCK status."
+  },
+  "public_copy": "The latest relay work explores what measurements leave out: identical local geometry can hide different braid histories; a projection can conceal a fourth-dimensional rotation orientation; and a rolling sphere may satisfy point-contact constraints while failing historical GrAnn closure. Mathematical constructions, counterexamples and unresolved measurements remain labeled separately."
+}
