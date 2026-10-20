@@ -1,21 +1,21 @@
 {
-  "request_id": "2026-10-11-orson-morrow-inspiral-package-001",
+  "request_id": "2026-10-20-orson-braid-smoothing-q-rules-001",
   "requester": "Orson Vay",
-  "requested_at": "2026-10-11",
+  "requested_at": "2026-10-20",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "(\"Cross-Scale Geometric Representation of Classical Inspirals\" OR \"mass-substitution fingerprints\" OR \"64/5\" OR \"beta^5\" OR \"4/3\" OR \"beta^3\" OR \"damped oscillator\" OR \"Morrow/Kestrel\" OR \"paper package\")",
-  "purpose": "Locate the exact Morrow/Kestrel Paper A package or handoff for hostile review issue #4, including PDF/LaTeX/text extraction/solver and any conversation message that supplied its path.",
+  "query": "(\"Q rule\" OR \"inverse Q\" OR \"braid smoothing\" OR smoothing OR \"He2\" OR \"He-2\" OR \"He3\" OR \"He-3\" OR deuterium OR tritium OR \"Li3\" OR \"Li-3\" OR \"W. R. Alexander\" OR Alexander) AND (braid OR helix OR tube OR nuclear OR cluster OR packing OR crevice OR stability OR decay OR lifetime)",
+  "purpose": "Recover the historical Q/inverse-Q assumptions and any braid-smoothing, He-2/He-3, D/T/Li-3, or W. R. Alexander material relevant to replacing Q with a morphology-based finite-core smoothing/stability measure.",
   "preferred_outputs": [
     "exact file paths",
     "conversation/message locators",
-    "handoff text",
     "equation-bearing excerpts",
-    "package/attachment references"
+    "Q-rule definitions",
+    "nuclear comparison passages",
+    "Alexander references"
   ],
-  "status": "requested-retry",
-  "retry_note": "2026-10-11 Orson retry: prior push produced no request-scoped output directory and no commit status; retrigger bridge without changing search intent."
+  "status": "requested"
 }
