@@ -105,3 +105,16 @@ Do not rewrite Alexander into SAT/H(s)H history. Nathan reports encountering thi
 ## Citation shorthand
 
 Alexander (1924), PNAS 10(1):8–10, DOI 10.1073/pnas.10.1.8.
+
+
+## Mnemonic coincidence noted 2026-10-20
+
+Nathan noted the compact visual mnemonic:
+
+[
+mathrm{SAT};ightarrow;mathrm{S(A)T};ightarrow;mathrm{ST}.
+]
+
+The parenthesized `A` can serve as a memorable shorthand for **Alexander** as an external wild-embedding prior-art bridge between SAT-style finite-core recursive geometry and the broader mathematical/topological language one might otherwise associate with string/tube constructions.
+
+**Do not overread this.** It is a mnemonic coincidence noticed after the fact, not etymological evidence, historical ancestry, or a claim that Alexander influenced the naming or early development of SAT.
