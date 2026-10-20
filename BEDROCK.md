@@ -64,6 +64,20 @@ This register does **not** replace primary sources. It points to them and record
 
 ---
 
+### BR-008 — Coordinate-artifact and measurement-choice audit
+
+- **Status:** ND
+- **Authority/date:** Nathan Direct, 2026-10-20.
+- **Scope:** All SAT/H(s)H geometry, topology, singularity, projection, observer, measurement, and numerical-analysis work.
+- **Rule:** **Always watch out for coordinate artifacts and “problems” that arise purely from measurement choices.** Before interpreting any singularity, discontinuity, divergence, winding change, orientation loss, pole, branch cut, degeneracy, ambiguity, or apparent physical escape as a property of the underlying geometry or dynamics, test whether it is produced by the chosen coordinates, chart, axis, projection, parameterization, observer convention, gauge, readout, or measurement protocol.
+- **Sphere/pole control:** A sphere by itself has no distinguished pole. A “pole” appears only after extra structure such as an axis or coordinate chart is chosen. The failure of longitude or azimuth at a selected pole is a failure of that coordinate/readout there, not an intrinsic singularity of the sphere.
+- **Required discriminator:** Re-express the claimed effect, whenever possible, in coordinate-free or invariant terms and/or in overlapping nonsingular charts. If the effect disappears, moves with the chart/axis, or exists only where a readout loses rank, classify it as a coordinate/measurement artifact unless an independent invariant physical quantity also changes.
+- **Dynamics boundary:** A mathematically permitted reparameterization, ambient deformation, or coordinate transition is not automatically a physically admissible evolution. Keep `drawable/deformable` distinct from `causally/dynamically allowed`.
+- **Application:** This rule directly constrains interpretation of winding-loss / “transverse coordinate singularity” constructions, but is project-wide and not limited to that case.
+- **Relationship:** Supplements BR-006 by requiring invariant/physical support before treating an apparent braid-history loss as real; supplements BR-005 and all observer/readout work by separating geometry from measurement convention.
+
+---
+
 ## 1. Authority and status strata
 
 ### ND — Nathan Direct / Override
