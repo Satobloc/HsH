@@ -1,0 +1,20 @@
+# Calculation Relay :24 | Cumulative checkpoint, 2026-10-20
+
+Status: archival SUMMARY of prior conversation reports; not a full raw transcript or independent replication. Theory: sandbox/TF, not BEDROCK or physical validation.
+Control: https://github.com/Satobloc/HsH/blob/main/BEDROCK.md ; subordinate STATE_OF_THE_THEORY.md.
+Different concurrently published relay index (return-neck/Kerr branch): https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/relay-cumulative-20261020-archive-website-index-v2.md
+
+## Mathematical continuity
+1. Planar three-strand commutator and identity minimal pair can share all pairwise winding, endpoints, individual intrinsic curvature integrals and instantaneous unlabeled separation measurements yet have different complete braid topology. P3 is isomorphic to Z times F2. Signed shape-history area distinguishes that fixture but is NOT generally a braid invariant; contractible-loop negative control retained.
+2. A narrow Euclidean hard-center slab deformation retracts onto planar hard-disc configuration space if vertical width is less than exclusion diameter. Distinguish this from complete Minkowski-normal solid worldtubes. Affine/zero-vertical-velocity crossing examples require slab width H >= 4 epsilon. The general curved-core interval 2 epsilon < H <= 4 epsilon remains OPEN; acceleration and jerk change fixed-time normal chords and can increase or decrease width.
+3. With Euclidean-unit tangent T and flow u, Householder g=delta-2u⊗u gives g(T,T)=2sin^2(theta4)-1. Euclidean angles and Lorentz rapidity are different; translation only under declared conventions.
+4. Historical SO(4) double-rotation recurrence: algebraic fourth-order palindromic polynomial; five pairwise incommensurate sampling intervals sufficient for exact absolute-frequency identification under stated model but not uniform numerical stability. Hankel projection can hide a mode. Two plane-resolving observations remove one degeneracy; rank-three projection hides an orientation-reflection ambiguity. Actual Whirligig SO(4) observation map is NOT established.
+5. GrAnn current constant-axis candidate: equal-radius sphere and torus share a contact meridian; simultaneous whole-circle no-slip impossible for orbiting center, although selected-point no-slip possible. The candidate produces a multiply traversed small circle, missing historical transverse self-intersection and antipodal contact. Not a general GrAnn no-go theorem.
+6. Historical SAT mass formula mu=3/(2B^5)(1+Delta_bridge), source SAT_THEORY_ARCHIVE_2023-25/SCALING.txt. B0=3/(4pi) predicts 1934.346649507; B=0.24177 predicts 1815.846806586; the latter with bridge 0.000082 predicts 1815.995706024. Compared with CODATA 2022 m_p/m_e=1836.152673426(32): residuals +98.193976081, -20.305866840, -20.156967402; literal failures. The 3/(4pi) unit-ball volume/surface interpretation is erroneous (V/A=1/3; reciprocal unit-ball volume=3/(4pi)). Do not refit inputs and call them independent predictions.
+7. Three-core response-eigenmode model is a toy; time-length normalized oscillators/Schrodinger are algebraic identities. CODATA electron Compton checks based on CODATA electron mass are correlated identities, not independent predictions.
+
+## Provenance and next gates
+Summaries from previous assistant turns in THIS conversation, not current reruns of all scripts. Their local bundles/figures and SHA logs require separate independent inspection from original conversation archival before promotion. Earlier local relay issue publication attempts were reported as NOT_SUBMITTED; don't fabricate their receipts.
+October 18 BEDROCK requires source/author/date, real scripts and outputs, corrections with visible proof, dimensional/limit/topology audit and versioned CODATA uncertainty, with fitted-vs-independent classification.
+Raw full ChatGPT transcript belongs in LIVE CONVOS via separate actual conversation ingestion; this packet must not be presented as a verbatim transcript.
+Suggested public website editorial intake: 'What a projection forgets: braid history, hidden rotations, and rolling contact.' A staged file is not a deployed site.
