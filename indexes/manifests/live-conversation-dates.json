@@ -1,11 +1,13 @@
 {
-  "generated_at_utc": "2026-10-20T11:50:16.325717+00:00",
+  "generated_at_utc": "2026-10-20T17:19:39.379381+00:00",
   "root": "LIVE CONVOS",
   "timezone": "America/New_York",
   "mode": "apply",
   "filename_format": "YY.MM.DD•YY.MM.DD•OriginalName.ext",
   "summary": {
-    "unchanged": 14
+    "unchanged": 14,
+    "skipped": 7,
+    "renamed": 1
   },
   "records": [
     {
@@ -149,6 +151,100 @@
       "message_count": 289,
       "status": "unchanged",
       "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/Calculation Relay _00 _ House Tools — raw__chunk_0001_of_0002.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 21633 column 1 (char 2435481)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Calculation Relay _12 _ House Tools — raw.__chunk_0001_of_0002.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting property name enclosed in double quotes: line 21978 column 1 (char 2442880)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt",
+      "new_path": "LIVE CONVOS/26.10.18•26.10.20•Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt",
+      "start_local": "2026-10-18T09:32:36.420875-04:00",
+      "end_local": "2026-10-20T08:32:55.088321-04:00",
+      "timestamp_source": "message.create_time",
+      "message_count": 55,
+      "status": "renamed",
+      "warnings": []
+    },
+    {
+      "old_path": "LIVE CONVOS/Calculation Relay _36 — raw__chunk_0001_of_0002.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 23848 column 1 (char 2431949)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Calculation Relay _48 _ House Tools — raw__chunk_0001_of_0003.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 13369 column 1 (char 2431710)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Interpret abstract artwork — raw__chunk_0001_of_0002.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting property name enclosed in double quotes: line 32121 column 1 (char 2447172)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Meridian Free Build — raw__chunk_0001_of_0005.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting value: line 32894 column 1 (char 2440397)"
+      ]
+    },
+    {
+      "old_path": "LIVE CONVOS/Orson Free Build — raw__chunk_0001_of_0005.txt",
+      "new_path": null,
+      "start_local": null,
+      "end_local": null,
+      "timestamp_source": null,
+      "message_count": 0,
+      "status": "skipped",
+      "warnings": [
+        "Expecting ',' delimiter: line 13067 column 188 (char 1187204)"
+      ]
     }
   ]
 }

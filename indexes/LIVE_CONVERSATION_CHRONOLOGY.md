@@ -2,10 +2,10 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-20T11:51:00.534970+00:00`
+- Generated: `2026-10-20T17:20:34.268618+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **14**
-- Skipped non-conversation or unparseable files: **0**
+- Dated conversation exports: **15**
+- Skipped non-conversation or unparseable files: **7**
 - Exact duplicate-content groups: **0**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
 
@@ -27,8 +27,16 @@
 | 2026-09-20 | 2026-09-21 | [Science Made Stupid](../LIVE%20CONVOS/26.09.20%E2%80%A226.09.21%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `.` | 979 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop](../LIVE%20CONVOS/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json) | `.` | 289 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop — raw (1).json](../LIVE%20CONVOS/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw%20%281%29.json) | `.` | 342 |  |  |
+| 2026-10-18 | 2026-10-20 | [Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt](../LIVE%20CONVOS/26.10.18%E2%80%A226.10.20%E2%80%A2Calculation%20Relay%20_24%20_%20House%20Tools%20%E2%80%94%20raw%20%281%29__chunk_0001_of_0001.txt) | `.` | 55 |  |  |
 
 ## Skipped files
 
 These remain in place and are not assigned conversation dates.
 
+- [LIVE CONVOS/Calculation Relay _00 _ House Tools — raw__chunk_0001_of_0002.txt](../LIVE%20CONVOS/Calculation%20Relay%20_00%20_%20House%20Tools%20%E2%80%94%20raw__chunk_0001_of_0002.txt) — Expecting value: line 21633 column 1 (char 2435481)
+- [LIVE CONVOS/Calculation Relay _12 _ House Tools — raw.__chunk_0001_of_0002.txt](../LIVE%20CONVOS/Calculation%20Relay%20_12%20_%20House%20Tools%20%E2%80%94%20raw.__chunk_0001_of_0002.txt) — Expecting property name enclosed in double quotes: line 21978 column 1 (char 2442880)
+- [LIVE CONVOS/Calculation Relay _36 — raw__chunk_0001_of_0002.txt](../LIVE%20CONVOS/Calculation%20Relay%20_36%20%E2%80%94%20raw__chunk_0001_of_0002.txt) — Expecting value: line 23848 column 1 (char 2431949)
+- [LIVE CONVOS/Calculation Relay _48 _ House Tools — raw__chunk_0001_of_0003.txt](../LIVE%20CONVOS/Calculation%20Relay%20_48%20_%20House%20Tools%20%E2%80%94%20raw__chunk_0001_of_0003.txt) — Expecting value: line 13369 column 1 (char 2431710)
+- [LIVE CONVOS/Interpret abstract artwork — raw__chunk_0001_of_0002.txt](../LIVE%20CONVOS/Interpret%20abstract%20artwork%20%E2%80%94%20raw__chunk_0001_of_0002.txt) — Expecting property name enclosed in double quotes: line 32121 column 1 (char 2447172)
+- [LIVE CONVOS/Meridian Free Build — raw__chunk_0001_of_0005.txt](../LIVE%20CONVOS/Meridian%20Free%20Build%20%E2%80%94%20raw__chunk_0001_of_0005.txt) — Expecting value: line 32894 column 1 (char 2440397)
+- [LIVE CONVOS/Orson Free Build — raw__chunk_0001_of_0005.txt](../LIVE%20CONVOS/Orson%20Free%20Build%20%E2%80%94%20raw__chunk_0001_of_0005.txt) — Expecting ',' delimiter: line 13067 column 188 (char 1187204)
