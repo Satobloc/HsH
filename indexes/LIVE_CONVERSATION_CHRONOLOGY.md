@@ -2,9 +2,9 @@
 
 > Generated navigation across all subfolders; original files and provenance folders are preserved.
 
-- Generated: `2026-10-20T21:45:11.781531+00:00`
+- Generated: `2026-10-20T22:24:19.932621+00:00`
 - Display timezone: `America/New_York`
-- Dated conversation exports: **15**
+- Dated conversation exports: **18**
 - Skipped non-conversation or unparseable files: **7**
 - Exact duplicate-content groups: **0**
 - Sort key: first active-branch user/assistant message, then final message, then source path.
@@ -27,7 +27,10 @@
 | 2026-09-20 | 2026-09-21 | [Science Made Stupid](../LIVE%20CONVOS/26.09.20%E2%80%A226.09.21%E2%80%A2Science%20Made%20Stupid%20%E2%80%94%20raw.json) | `.` | 979 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop](../LIVE%20CONVOS/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw.json) | `.` | 289 |  |  |
 | 2026-09-21 | 2026-09-27 | [Meridian Solver Loop — raw (1).json](../LIVE%20CONVOS/26.09.21%E2%80%A226.09.27%E2%80%A2Meridian%20Solver%20Loop%20%E2%80%94%20raw%20%281%29.json) | `.` | 342 |  |  |
+| 2026-10-05 | 2026-10-20 | [Meridian Free Build](../LIVE%20CONVOS/26.10.05%E2%80%A226.10.20%E2%80%A2Meridian%20Free%20Build%20%E2%80%94%20raw.json) | `.` | 989 |  |  |
+| 2026-10-15 | 2026-10-20 | [Predict the Song Style](../LIVE%20CONVOS/26.10.15%E2%80%A226.10.20%E2%80%A2Predict%20the%20Song%20Style%20%E2%80%94%20raw.json) | `.` | 1090 |  |  |
 | 2026-10-18 | 2026-10-20 | [Calculation Relay _24 _ House Tools — raw (1)__chunk_0001_of_0001.txt](../LIVE%20CONVOS/26.10.18%E2%80%A226.10.20%E2%80%A2Calculation%20Relay%20_24%20_%20House%20Tools%20%E2%80%94%20raw%20%281%29__chunk_0001_of_0001.txt) | `.` | 55 |  |  |
+| 2026-10-19 | 2026-10-20 | [Interpret abstract artwork](../LIVE%20CONVOS/26.10.19%E2%80%A226.10.20%E2%80%A2Interpret%20abstract%20artwork%20%E2%80%94%20raw.txt) | `.` | 503 |  |  |
 
 ## Skipped files
 
