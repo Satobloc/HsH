@@ -118,3 +118,56 @@ mathrm{SAT};ightarrow;mathrm{S(A)T};ightarrow;mathrm{ST}.
 The parenthesized `A` can serve as a memorable shorthand for **Alexander** as an external wild-embedding prior-art bridge between SAT-style finite-core recursive geometry and the broader mathematical/topological language one might otherwise associate with string/tube constructions.
 
 **Do not overread this.** It is a mnemonic coincidence noticed after the fact, not etymological evidence, historical ancestry, or a claim that Alexander influenced the naming or early development of SAT.
+
+
+## Alexander as SAT ↔ ST geometric bridge
+
+Nathan's current interpretation is that Alexander's wild-embedding work supplies a stronger bridge between SAT and string-theoretic geometry than the project's older working maxim:
+
+[
+	ext{helical footprint / worldtube intersection}
+leftrightarrow
+	ext{ST vibrational mode}.
+]
+
+That older maxim is a **mode-level correspondence**: a local/observed helical footprint or worldtube intersection can be compared to a string-theory vibrational mode.
+
+The Alexander connection is potentially deeper because it acts at the level of the **embedded carrier and its interaction geometry**:
+
+[
+	ext{SAT finite-core worldtube / braid}
+ightarrow
+	ext{wild embedding / complement topology / recursive crevice geometry}
+ightarrow
+	ext{pants-type cobordism / string-worldsheet interaction language}.
+]
+
+This is especially significant because pair-of-pants topology already appears in the internal SAT archive as an interaction geometry. Alexander therefore does not merely supply a visual analogy; his work provides mature external mathematics for asking when a sphere-like or tube-like object remains topologically simple while its embedding and complement become recursively nontrivial.
+
+### Interpretive synthesis
+
+The bridge can be stated schematically as:
+
+[
+oxed{
+mathrm{SAT}
+ightarrow
+mathrm{S(A)T}
+ightarrow
+mathrm{ST}
+}
+]
+
+where (A) denotes Alexander **as a retrospective mnemonic for the external mathematical bridge**, not historical influence or etymology.
+
+The current research proposition is therefore:
+
+1. SAT contributes worldline/worldtube, helical and interbraid geometry.
+2. Internal SAT already contains pants/cobordism interaction motifs.
+3. Alexander supplies prior-art mathematics for wild sphere/tube embeddings and nontrivial complements.
+4. String-theory mathematics supplies a mature worldsheet/cobordism vocabulary for joining/splitting and vibrational-mode descriptions.
+5. The task is to determine whether these are merely analogous descriptions or whether a precise mathematical map can be built without importing unsupported ontology.
+
+### Required restraint
+
+Do **not** state that SAT is string theory, derives string theory, or historically descends from Alexander. The bridge is presently a structural/mathematical correspondence program. It must be earned by explicit maps between objects, invariants, cobordisms, mode spectra, and observables.
