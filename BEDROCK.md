@@ -104,6 +104,17 @@ This register does **not** replace primary sources. It points to them and record
 
 ---
 
+### ND-2026-10-21-01 — Forest reorganization: Planck-unit-first calculations and historical bending-energy retrieval
+
+- **Status / authority:** ND, Nathan Direct, 2026-10-21. This is a **research-method directive** for the Forest reorganization and all substantive SAT/H(s)H/Cruller/finite-core calculations. It does **not** canonize a historical numerical tension, energy, lattice scale, or deformation law.
+- **Planck units as default working units:** Develop and compare the mathematics **in explicitly declared Planck-normalized quantities first**, with a clear convention (standard Planck units `c = hbar = G = 1`, with `k_B=1` when thermodynamic quantities are involved). Every tensor, curvature, momentum, force, stress/tension, bending modulus, action and finite-core size must have its physical dimensions recorded before normalization, and the Planck-unit exponent/unit type retained. In reporting, supply ordinary SI equivalents where helpful to interpretation, empirical comparison and sanity checks. Do **not** erase physically meaningful ratios by setting all dimensional quantities equal to one, and do not infer that an H(s)H material parameter has Planck magnitude merely because Planck units were chosen.
+- **Distinguish units:** `E_P = sqrt(hbar*c^5/G)` is energy (J); `F_P=c^4/G=E_P/l_P` is force / 1D tension (N = J/m); bending rigidity and integrated maximum bending energy are different quantities with separately derived units. The historical `~1.2e44 N` filament-tension entry is numerically Planck-force-scale but **historically reported and not accepted as current calibrated worldtube tension** until its source derivation is independently reconstructed. Never substitute `~1e44 J` for `~1e44 N` or import the historical number as an unexamined constitutive coefficient.
+- **Recover historical maximum bending energy:** Nathan explicitly recalls **prior calculations of a maximum worldtube bending energy**. Search those original calculations using **Mersearch first (BR-007)**, with exact source paths, dates, equations, dimensional definitions, assumptions, and results. Evaluate whether they describe maximum stored energy, local bending energy density, bending modulus, curvature limit, or a geometric/kinematic threshold. Recover and test the actual old calculation rather than saying the quantity has never been calculated; its existence in the archive is a provenance lead, **not proof of its current validity**. Old mechanism/formalism remains historical if superseded.
+- **Forest reorganization / present Cruller:** Use Planck-normalized exact geometry to test global winding, finite-core clearance, tension and bend constraints, material energy and contact; enforce the Forest physical information/path premise; keep intrinsic versus extrinsic curvature, apparent slice multiplication versus physical genesis, and geometric bounds versus dynamic responses separate. Avoid invented suppression/correction coefficients, Nambu-Goto/string actions or ad hoc restoring laws. Preserve dimensional and observational reconstructions as independent comparison/holdout controls.
+- **Work status:** The Planck-unit convention is adopted **now** by user direction. Particular old numerical values, candidate energy ceilings and any link to Kerr/ER/cosmobarygenesis are **tentative pending independent derivation**. No automatic upgrade to physical validation.
+
+---
+
 ## 1. Authority and status strata
 
 ### ND — Nathan Direct / Override
