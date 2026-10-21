@@ -1,0 +1,560 @@
+% SINGLE-FILE, OVERLEAF-READY REVTeX 4.2 MANUSCRIPT
+% Select LuaLaTeX in Overleaf; pdfLaTeX should also work.
+% This file contains the entire article, the mechanism comparison table,
+% the 17-entry evidence datasheet (appendix), and the formatted bibliography.
+% No \input, \include, \bibliography, external .bib, or external figures required.
+% Build with: lualatex -interaction=nonstopmode -halt-on-error stellar_wink_singlefile_revtex.tex
+% Recompile once to resolve citations and cross-references.
+\documentclass[aps,prx,reprint,showkeys,amsmath,amssymb,floatfix]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{xurl}
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
+\begin{document}
+\title{Toward a Survey-Agnostic Census of Temporary Stellar Non-Detection:\\Rate Statistics and Multi-Purpose Diagnostic Tests}
+\author{Nathan McKnight}
+\thanks{Working R0 research draft prepared for review; collaborators, affiliations, and authorship to be confirmed.}
+\date{21 October 2026}
+\begin{abstract}
+A star may be recorded as absent for reasons ranging from detector or catalog failure to intrinsic fading, intervening extinction, occultation, refraction, or gravitational changes in the ray mapping. The central observational object should therefore be neither an isolated catalog mismatch nor a presumed new physical phenomenon, but a rigorously defined \emph{temporary non-detection event} with measured exposure, selection function, uncertainty and recovery probability. We propose a survey-agnostic stellar-wink census that estimates event rates, durations, depth distributions, wavelength dependence, sky correlations, astrometric changes, and associations with foreground structure, while explicitly modeling false positives and interval censoring. The program joins source-position forced photometry, image-level injection/recovery, cadence-aware hierarchical rate estimation, multiband and astrometric diagnostics, and replication across independent instruments. It produces several immediate scientific returns: quantitative validation of survey pipelines; constraints on obscuring populations and Galactic structure; improved classification of variable and lensed objects; and calibrated limits on rare or presently speculative propagation models. An appended hypothesis-evidence datasheet prespecifies what would support, weaken or fail to distinguish each mechanism. The proposed output is a proposed public, machine-readable catalog of event posteriors and a reproducible rate likelihood, not a catalog of asserted stellar disappearances.
+\end{abstract}
+\keywords{time-domain astronomy, stellar variability, gravitational lensing, extinction, occultation, survey selection, nondetections, transient statistics, forced photometry}
+\maketitle
+\noindent\textit{Manuscript status: proposed methodology; no measured rates, claimed astronomical anomalies, or validated nonstandard propagation signatures.}
+
+\section{Motivation and scope}
+
+In a realistic, inhomogeneous universe, individual lines of sight do not share identical optical transfer functions. Gravitational curvature, foreground material, plasma, intervening bodies, source variability and the measurement apparatus can all affect apparent flux. Homogeneity or isotropy of a theoretical reference model does not require uniformity of the optical conditions experienced by every photon bundle. However, \emph{possibility} is not an event-rate estimate. This study asks a measurement-first question: \textbf{At a specified baseline brightness, sensitivity, cadence and sky environment, how often does a previously observed source fall below recoverable detectability, for how long, and with what joint photometric, astrometric and environmental signatures?}
+
+This is not a search designed to validate any one cosmological hypothesis. The established lensing and extinction channels, rare transient astrophysics, and observational false positives each define independent scientific deliverables. The VASCO survey's 5,399 remaining unidentified POSS-I sources, after many cross-matching and artifact checks, are \emph{unclassified catalog candidates}, not 5,399 verified stars that winked out. Its example motivates precisely the source-level controls here \cite{R1}. Microlensing programs already provide a mature template for efficiency-corrected event-rate work: OGLE-IV analyzed approximately 8,000 bulge microlensing events, with source population accounting changing inferred rates materially \cite{R2}. MOA-II's 2025 bulge event-rate estimates provide another external control, but its \emph{brightening microlensing event rate must not be equated with a stellar-wink rate} \cite{R3}.
+
+\section{Definitions and estimands}
+
+\textbf{Source universe.} Select an externally verifiable baseline stellar sample, with quality-controlled source identity, position and proper-motion propagation, non-saturated and sufficiently high-S/N reference flux, photometric stability characterization, contaminant flags and crowding information. Stratify source type, distance estimates, variability classification and sky environment. Do not discard known variables; place them in explicitly modeled strata.
+
+\textbf{Wink event.} A time interval during which the \emph{direct, calibrated source-position flux} falls below a declared, epoch- and band-specific detectability criterion, relative to a previously demonstrated source baseline. A single absent catalog row or absent difference-image alert does not qualify. The event record must include actual forced-flux likelihoods (including negative measurements), uncertainties, mask fractions, cross-match alternatives, image evidence and observation dates. Define separate categories of \textbf{closed events} (recovered above threshold), \textbf{right-censored disappearances} (not yet recovered), \textbf{left-censored events} (already hidden at monitoring start) and \textbf{identity-unresolved candidates}.
+
+Detection is statistical rather than a universal fixed-flux property. Store the survey-local threshold \(F_{{\rm lim},i,k}\), calibrated flux \(f_{i,k}\), uncertainty \(\sigma_{i,k}\), PSF model, background and quality flags. Thresholds and confidence levels must be set \emph{before} estimating rates. Define at least two severity categories: threshold crossing and a deeper, sustained flux attenuation relative to baseline; sweep thresholds as a sensitivity analysis rather than retrospectively selecting the most impressive cut.
+
+\textbf{Primary estimand.} \(R_{\rm wink}(b,\delta,T)\), the true event incidence per monitored source per unit time in a prespecified bin \(b\) (survey footprint, band, magnitude, crowding, Galactic latitude and source population), exceeding a specified attenuation severity \(\delta\) and subject to event duration range \(T\). State source-year denominators and confidence intervals. Secondary estimands: per-source duty cycle \(f_{\rm hidden}\), event depth/duration distributions, intrinsic recurrence, sky/time covariance, companion astrometric shifts, and associations with foreground tracer maps.
+
+Do not infer an individual source's physical cessation of emission from an observational absence. Record raw time-domain \emph{evidence}, not an ontology.
+
+\section{Measurement and physical modeling}
+
+\subsection{Observable flux across mechanisms}
+
+For a compact unresolved source and a simple propagation model,
+
+\begin{align}
+F_{\rm pred}(\lambda,t) &= \sum_j |\mu_j(\lambda,t)|\,F_{\star}(\lambda,t-\Delta t_j)\nonumber\\
+&\qquad\times T_j(\lambda,t)+F_{\rm blend}(\lambda,t).
+\end{align}
+
+where \(j\) indexes \emph{accessible} images/paths, \(|\mu_j|\) are absolute magnifications (parity does not imply negative photon flux), \(\Delta t_j\) are relative delays, and \(T_j\) includes transmission or attenuation along each path. This is a model factorization, not a universally separable radiative-transfer theorem; scattering into an aperture, coherent interference, and extended-source treatment may require a full transfer or wave-optics calculation. In physical modeling use consistent natural/Planck units; report observer times, passbands and fluxes in calibrated survey units for analysis and legibility.
+
+\textbf{GR optics.} Fit complete, finite-source lens models and sum \emph{all detectable images}. A fold caustic can create/annihilate a \emph{pair} of images without total-source disappearance. Standard positive point-mass lenses normally magnify unresolved total flux; cosmic underdensities can modify magnification relative to a smooth reference, often weakly; the sign can depend on relativistic and velocity effects \cite{R4,R11}. Distinguish time-variable source flux from a static cosmological magnification field.
+
+\textbf{Absorption and occultation.} For a simple extinguishing foreground screen, \(F_{\rm obs}=F_0 e^{-\tau_\lambda(t)}\). Under a fixed flux limit, a source crosses threshold if \(\tau_\lambda>\ln(F_0/F_{\rm lim})\). Partial covering, scattering and mixed dust grain distributions need their own models; neither \(\tau\propto\lambda^{-1}\) nor universal reddening is presumed. Occultations by opaque material can appear grey over limited bands. ASASSN-24fw provides an empirical severe and long-duration fading case interpreted using circumsecondary rings \cite{R5}.
+
+\textbf{Plasma refraction.} Strong wavelength-dependent refraction is demonstrably important at radio frequencies, including extreme scattering events \cite{R6}. Its optical-band efficacy must be established from electron columns and frequency scaling before using it as an optical-wink explanation.
+
+\textbf{Intrinsic sources.} Stellar pulsation, eclipses, rotational modulation, accretion, eruptions and catastrophic evolutionary events need source-population and timescale priors. A terminal event is not a \emph{recurrent wink}, but can enter one-way disappearance catalogs.
+
+\textbf{Systematics.} Forced-flux confidence is conditioned on seeing, clouds, sky background, scattered light, detector saturation/bloom, cosmic rays, image subtraction, deblending, host light, crowded fields, pointing, camera geometry, nearby movers, cross-match radius and template contamination.
+
+\subsection{Timescale and geometric control}
+
+For a convex effective obscuring region with area \(A\), perimeter \(P\), perpendicular relative speed \(v_\perp\), and isotropically distributed crossing-line orientations, mean event length conditional on an encounter is \(\langle T\rangle=\pi A/(P v_\perp)\). For uniform circular obscurers of effective radius \(R_{\rm eff}\), \(T_{\max}=2R_{\rm eff}/v_\perp\) and conditional duration CDF is
+
+\[
+{\Pr}(T'\le T)=1-\sqrt{1-(T/T_{\max})^2},
+\quad 0<T<T_{\max}.
+\]
+
+These are \emph{announced geometric controls}, not global distributions for arbitrary astrophysical occultations. Real populations integrate over cloud morphologies, sizes, speeds, impact parameters, partial transparency, source angular size and detection efficiencies. Their timescale distributions should be calculated forward, not asserted by analogy.
+
+\section{Core observational experiment}
+
+\begin{enumerate}
+
+
+\item
+  \textbf{Sample and baseline freeze.} Define target source populations using cross-survey astrometric identity, photometric stability summaries, historical detections and robust proper-motion propagation. Select pre-registered sky strata, bands, brightness bins and fixed depth criteria.
+\item
+  \textbf{Forced-flux reconstruction.} Extract source-position fluxes and uncertainties for \emph{every usable visit}, including non-alert visits and negative difference-image fluxes, and preserve direct-image vs difference-image provenance. Inspect raw/calibrated cutouts for leading candidates.
+\item
+  \textbf{Image-level injection/recovery.} Inject realistic dimmings, occultations, caustic-like changes, calibration anomalies and simulated movers into original pixel data or a validated image simulation, then rerun the same photometric detection and event classifier. Recover \(\epsilon(\theta,i,t)\), including false-event rates and confusion between mechanism classes.
+\item
+  \textbf{Event detection and association.} Infer event start/end posteriors and peak attenuation from irregular samples; store censoring/interval bounds. Reject/flag catalog misidentification with position propagation, shape, PSF and independent image review.
+\item
+  \textbf{Independent replication.} Require matched observations from other instruments when available, with transparently handled differences in aperture, passband, reference flux and sensitivity. An absent second-survey counterpart is only informative if a recovery test shows it should have been detected.
+\item
+  \textbf{Physical diagnostics.} Compare event shapes, chromaticity, polarization where available, astrometric motion, neighboring-source correlations, dust/H I/CO foreground tracers, compact-object density, large-scale-structure shear and observing-systematics maps.
+\item
+  \textbf{Hold-out tests.} Freeze event definitions, model families and angular templates before independent seasons, fields, or instruments. Publish all tested families and trials rather than only a best-fitting map.
+\end{enumerate}
+
+Rubin LSST began in late June 2026, and its baseline wide survey plans approximately one exposure every three days \emph{in any filter}, with much higher-cadence Deep Drilling programs \cite{R7}. Its calibrated visit images, difference images, forced-source and DIA products support this design, subject to data release/data rights and each product's availability \cite{R8}. Do not presume simultaneous multi-band observations or that an alert absence is source absence. Rubin data previews and subsequent releases, including DP1 forced-source measurements \cite{RubinDP1}, can be used to validate software and data-access mechanics before sufficient multi-year incidence exposure accrues \cite{R9}.
+
+\section{Rate likelihood, efficiency, and uncertainty}
+
+Partition true wink events by physical/severity/duration parameter vector \(\vartheta\), sky/source stratum \(b\) and time. Let \(r_b(\vartheta,t)\) be the true rate in events per source per unit time per parameter volume, and \(\epsilon_i(\vartheta,t)\in[0,1]\) the \emph{joint} probability that source \(i\)'s event is measurable and accepted by this pipeline, conditional on its actual survey history. A Poisson-process control gives
+
+\[
+\Lambda_b=\sum_{i\in b}\int_{\mathcal T_i}dt\int d\vartheta\ 
+r_b(\vartheta,t)\,\epsilon_i(\vartheta,t).
+\]
+
+For detected, classified events with measured data \(d_j\), one may use a marked-process likelihood with selection, event measurement likelihoods and a separate model of false positives:
+
+\[
+\mathcal L \propto e^{-(\Lambda_{\rm real}+\Lambda_{\rm false})}
+\prod_{j=1}^{N_{\rm cand}}
+\left[\lambda_{\rm real}(d_j)+\lambda_{\rm false}(d_j)\right].
+\]
+
+The intensities \(\lambda(d)\) are formed by marginalizing over latent true event properties and measurement uncertainties. A basic corrected count \(N/(\epsilon E)\) is only appropriate when efficiencies are adequately constant within a stratum, classifications are reliable, and \(E\) is defined monitored source-time. Publish likelihood alternatives accommodating recurrent or clustered events, source-specific frailty, weather-dependent selection and temporal correlations.
+
+\textbf{Power and null-result utility.} For a \emph{preselected}, independent Poisson event class with negligible false positives, no recovered events, and a known integrated effective exposure \(E_{\mathrm{eff}}\) measured in detection-efficiency-weighted star-years, the one-sided 95\% upper bound is
+
+\[
+R_{95} = -\ln(0.05)/E_{\rm eff} \simeq 2.996/E_{\rm eff}.
+\]
+
+This is the simplest quantitative planning and reporting benchmark, not a substitute for the full selection/contamination likelihood. If the candidate class is searched across many thresholds, time windows or sky templates, report multiplicity-aware uncertainty and use an independent validation set. \textbf{A scientifically useful null result is a principal deliverable, not a project failure.}
+
+\textbf{Censoring.} A finite observing season creates interval-censored starts and ends, left/right-censored events and missed short events. Estimate duration distributions with an observation-window likelihood or injected-cadence forward modeling. Kaplan--Meier style methods are appropriate only when their censoring assumptions hold. Source years should count usable monitored intervals, not the full calendar time indiscriminately.
+
+\textbf{Error budget.} At minimum report Poisson/statistical error, completeness variation, classification contamination, baseline instability, source-count calibration, cross-matching, season and filter exposure differences, astrophysical population model uncertainty, and correlated detector/atmospheric calibration. Give upper limits in empty bins with specified confidence/credibility and model assumptions.
+
+\section{Multiple useful scientific outputs}
+
+\textbf{A. Survey verification.} A shared negative-transient injection set exposes photometric depth inconsistency, cross-match failure, template leakage, detector-domain artifacts and cadence biases. This value is independent of any unusual astronomical signal.
+
+\textbf{B. Line-of-sight matter structure.} Event rate, \(T\) and color dependence map obscurer covering fractions, size--speed mixtures and associations with dust, molecular material or circumstellar disks. A rate--duration--duty-cycle relation is a consistency check for assumed moving-screen populations.
+
+\textbf{C. Compact and extended gravitating structures.} Joint flux/astrometric signals and known lensing environment tests improve classification of strong-lens caustics, microlensing, source blending and void/large-scale-structure demagnification relative to standard cosmological baselines. They do not presume that weak lensing alone commonly hides bright stars.
+
+\textbf{D. Galactic and stellar populations.} Source-class-conditioned rates constrain irregular variability and rare dimming events; event characteristics may identify disks, companions, and dynamical environments. Separate recurrent winks from permanent end states.
+
+\textbf{E. Rare-hypothesis constraints.} After ordinary mechanisms and survey effects are modeled, residual sky-coherent, temporally reproducible anomalies can be tested against preregistered alternative propagation models. Successful null results provide useful upper bounds just as positive results provide follow-up targets.
+
+\section{Hypothesis evidence datasheet: interpretation rules}
+
+% Each family below points to one or more fully specified records in the appendix.
+% Complete evidence criteria and contrary observations are printed in this document.
+\begin{table*}[t]
+\caption{Mechanism families represented in the full appendix evidence matrix (17 entries). The table is a design aid, not an event classification result; signatures are nonunique.}
+\label{tab:mechanisms}
+\begin{ruledtabular}
+\begin{tabular}{p{0.20\textwidth}p{0.39\textwidth}p{0.32\textwidth}}
+Family (matrix IDs) & Potential supportive observations & Essential competing explanation or control \\
+\hline
+Survey/identity effects (H01--H03) & Detector-footprint recurrence; proper-motion-corrected counterpart; crowding-dependent recoverability & Independent images, source-level likelihoods, injection/recovery \\
+Intrinsic and companion variability (H04--H06) & Color and line-profile changes; orbital periodicity; occulting disks or rings & Multiband cadence, stellar class, spectroscopic and IR follow-up \\
+Dust and opaque occultation (H07--H09) & Extinction curves, absorption features, foreground tracer maps; sharp ingress/egress & Grey dust, diffraction, projected speed and source-size distribution \\
+Gravitational optics (H10--H12) & Image/centroid changes, finite-source caustic shapes, foreground lens environment & Sum total accessible-image flux; evolving magnification and static void effects \\
+Plasma and compound propagation (H13--H14) & Frequency-dependent refraction, shifted images, correlated foreground sightlines & Optical versus radio scaling, combined extinction and lensing \\
+Permanent states and unconstrained hypotheses (H15--H17) & Repeatable mechanism-derived prediction or irreversible stellar end-state indicator & Survey artifacts, known astrophysical families, blinded replication \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+
+
+The complete appendix datasheet is a \textbf{hypothesis-by-observable design matrix, not measured data}. For each mechanism it records: maturity, expected signatures, evidence that would increase plausibility, a contrary or tension-producing observation, key impostors, necessary measurements, and a cited starting reference. Entries are tests, not exclusive labels. An achromatic event does not prove gravity, a sharp event does not prove a metric discontinuity, and a signed lag covariance does not prove rotational spacetime. Standard drifting screens can produce nonzero lag antisymmetry. A sky-aligned signal still requires controls against correlated astrophysical foregrounds.
+
+One appendix record addresses SAT/H(s)H among several exploratory propagation alternatives. It has \emph{no privileged selection threshold or prediction}. A geometric model contributes a genuinely new test only if it independently derives a null transport/flux law, event or covariance scale, and quantitative population rate \textbf{before} inspection of held-out events. Historical angular constants or proposed percent blackouts are not observational predictors without a physical transfer mapping.
+
+\section{Deliverables and reporting standards}
+
+Publicly release (where data rights allow): (i) immutable sample definitions and source lists, (ii) per-visit forced-flux likelihoods and flags, (iii) event/posterior and nondetection records including censored events, (iv) source-time and image-level recovery functions, (v) classified and unclassified rates with uncertainty, (vi) reproducible sky--time covariance/null-test code and (vii) a signed protocol changelog. For a primary result, report \emph{counts together with their denominators} and efficiency uncertainties, not just a gallery of unusual sources.
+
+Predefine an independent pilot in archival OGLE/ZTF/ASAS-SN and cross-catalog controls, then a Rubin DP2 engineering test, followed by an appropriately mature Rubin LSST rate measurement. These phases have different sensitivities, sky coverage and event populations and must not be combined naively. Explicitly separate raw candidate count from vetted closed-event count.
+
+\textbf{This manuscript proposes measurements and tests. No population rate or positive signal is claimed.}
+
+\appendix
+\section{Full hypothesis--evidence datasheet}
+The following records reproduce all 17 mechanism entries in the accompanying design matrix. They specify candidate observations and discriminants, not measured findings. No mechanism is assigned exclusivity from a single feature, and the final exploratory entry receives no preferential weighting.
+\subsection{H01: Detector artifact / calibration / detector-coordinate leakage}
+\noindent\textbf{Evidence status.} Established contaminant\par
+\noindent\textbf{Expected behavior.} Epoch- or CCD-dependent disappearance; may coincide with defect map\par
+\noindent\textbf{Supportive observations.} Feature repeats in detector coordinates; correlated with image masks, PSF or scattered light\par
+\noindent\textbf{Evidence against.} Independent facilities detect same disappearance at same time while target is on differing detectors\par
+\noindent\textbf{Primary confounder.} Can imitate achromatic rapid steps and angularly correlated noise\par
+\noindent\textbf{Essential measurements.} Raw cutouts; detector ID; flags; PSF; background; repeat visits\par
+\noindent\textbf{Population/sky dependence.} Camera pixel geometry, observing conditions\par
+\noindent\textbf{Spectral dependence.} Any; may look grey or filter-dependent\par
+\noindent\textbf{Temporal behavior.} Often single visit or epoch dependent\par
+\noindent\textbf{Priority test.} Blind injection/recovery plus detector-rotation control\par
+\noindent\textbf{Reference or starting resource.} \url{https://rubinobservatory.org/for-scientists/data-products/planned-data-products}\par
+\subsection{H02: Catalog cross-match / proper-motion mismatch}
+\noindent\textbf{Evidence status.} Established contaminant\par
+\noindent\textbf{Expected behavior.} Historical source lacks present catalog counterpart despite actual source presence\par
+\noindent\textbf{Supportive observations.} Propagating proper motion and PSF positional likelihood restores identity\par
+\noindent\textbf{Evidence against.} Distinct repeatably located source remains absent in independent images despite adequate depth\par
+\noindent\textbf{Primary confounder.} Nearby blends, historical plate defects, color/filter mismatches\par
+\noindent\textbf{Essential measurements.} Gaia proper motions; image cutouts; source association posterior\par
+\noindent\textbf{Population/sky dependence.} Nearby/high-PM populations; plate eras\par
+\noindent\textbf{Spectral dependence.} Catalog-band dependent\par
+\noindent\textbf{Temporal behavior.} Multi-year to decade catalog baseline; no true flux event\par
+\noindent\textbf{Priority test.} Motion-aware multi-catalog matching and human image audit\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.1093/mnras/stac1552}\par
+\subsection{H03: Crowding / blending / background-dependent completeness}
+\noindent\textbf{Evidence status.} Established contaminant\par
+\noindent\textbf{Expected behavior.} Apparent fading or nondetection in dense scenes\par
+\noindent\textbf{Supportive observations.} Flux instability follows PSF seeing and deblending; forced phot restores\par
+\noindent\textbf{Evidence against.} Isolated reproducible source with consistent independent high-resolution light curve\par
+\noindent\textbf{Primary confounder.} Real blended binaries and microlensing\par
+\noindent\textbf{Essential measurements.} Deblend model; crowd density; seeing; neighbor flux\par
+\noindent\textbf{Population/sky dependence.} Galactic bulge/plane; globular clusters\par
+\noindent\textbf{Spectral dependence.} Instrument- and PSF-dependent\par
+\noindent\textbf{Temporal behavior.} Seeing and season variability\par
+\noindent\textbf{Priority test.} Inject stars into crowded pixels and retest\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.71929/rubin/2570545}\par
+\subsection{H04: Intrinsic stellar pulsation / spot modulation}
+\noindent\textbf{Evidence status.} Established astrophysics\par
+\noindent\textbf{Expected behavior.} Recurring intrinsic brightness and often color/temperature changes\par
+\noindent\textbf{Supportive observations.} Stable period or quasi-period tied to stellar class and spectra\par
+\noindent\textbf{Evidence against.} Strong foreground extinction tracer / synchronized adjacent-source dip\par
+\noindent\textbf{Primary confounder.} Eclipsing systems; accretion; blended stars\par
+\noindent\textbf{Essential measurements.} Dense multiband light curve; color/spectra; recurrence\par
+\noindent\textbf{Population/sky dependence.} HR diagram, stellar type, age\par
+\noindent\textbf{Spectral dependence.} Often chromatic, context-dependent\par
+\noindent\textbf{Temporal behavior.} Hours to years, population-dependent\par
+\noindent\textbf{Priority test.} Fit class-informed stochastic and periodic models\par
+\noindent\textbf{Reference or starting resource.} \url{https://www.aavso.org/}\par
+\subsection{H05: Eclipsing stellar binary / transiting companion}
+\noindent\textbf{Evidence status.} Established astrophysics\par
+\noindent\textbf{Expected behavior.} Repeated geometric dips with orbital recurrence\par
+\noindent\textbf{Supportive observations.} Repeatable timings, phase-folded duration, radial-velocity/astrometric support\par
+\noindent\textbf{Evidence against.} Irregular unrelated nonperiodic dips across stars with foreground alignment\par
+\noindent\textbf{Primary confounder.} Circumstellar rings, stellar spots, missed periods\par
+\noindent\textbf{Essential measurements.} Timing; eclipse morphology; radial velocities; high cadence\par
+\noindent\textbf{Population/sky dependence.} Binary population, source stellar radius\par
+\noindent\textbf{Spectral dependence.} May be approximately grey; chromatic limb darkening\par
+\noindent\textbf{Temporal behavior.} Hours to months; recurrence may exceed baseline\par
+\noindent\textbf{Priority test.} Search recurrence and follow-up radial velocity\par
+\noindent\textbf{Reference or starting resource.} \url{https://science.nasa.gov/mission/tess/}\par
+\subsection{H06: Circumstellar / circumsecondary disk or dusty ring occultation}
+\noindent\textbf{Evidence status.} Observed in selected cases; model-dependent details\par
+\noindent\textbf{Expected behavior.} Deep, structured, potentially flat-bottomed long dimming\par
+\noindent\textbf{Supportive observations.} Ingress substructure, IR excess, co-moving gas lines, repeatability if orbital\par
+\noindent\textbf{Evidence against.} No associated dust/companion signs despite high-quality diagnostics\par
+\noindent\textbf{Primary confounder.} Opaque foreground cloud; intrinsic disk/accretion changes\par
+\noindent\textbf{Essential measurements.} Optical+IR SED; H-alpha; polarimetry; resolved imaging\par
+\noindent\textbf{Population/sky dependence.} Young stars / disks / companion systems\par
+\noindent\textbf{Spectral dependence.} Usually reddening or IR excess; thick occulters may look grey\par
+\noindent\textbf{Temporal behavior.} Weeks to years; long orbital recurrence\par
+\noindent\textbf{Priority test.} Cross-match infrared excess and ingress shape\par
+\noindent\textbf{Reference or starting resource.} \url{https://academic.oup.com/mnras/article/546/3/staf2251/8471205}\par
+\subsection{H07: Interstellar dust filament / cloud extinction}
+\noindent\textbf{Evidence status.} Established, but compact-clump rates uncertain\par
+\noindent\textbf{Expected behavior.} Dimming correlated with wavelength-dependent optical depth\par
+\noindent\textbf{Supportive observations.} Reddening/polarization/gas tracer spatial alignment; dust-compliant extinction fit\par
+\noindent\textbf{Evidence against.} Repeated strictly grey dips with no evidence of grains despite high sensitivity\par
+\noindent\textbf{Primary confounder.} Grey dust, opaque clouds, intrinsic reddening, atmospheric extinction\par
+\noindent\textbf{Essential measurements.} Calibrated optical/near-IR colors; dust map; polarimetry; CO/HI\par
+\noindent\textbf{Population/sky dependence.} Galactic latitude, dust column, molecular regions\par
+\noindent\textbf{Spectral dependence.} Usually chromatic; variable curve, not universal lambda\textasciicircum{}-1\par
+\noindent\textbf{Temporal behavior.} Cloud chord time from angular size and transverse speed\par
+\noindent\textbf{Priority test.} Model cloud populations and cross-star correlated extinction\par
+\noindent\textbf{Reference or starting resource.} \url{https://academic.oup.com/mnras/article/546/3/staf2251/8471205}\par
+\subsection{H08: Solar System body occultation}
+\noindent\textbf{Evidence status.} Established astrophysics\par
+\noindent\textbf{Expected behavior.} Fast extinction/step of stellar flux, potential diffraction\par
+\noindent\textbf{Supportive observations.} Event timed with ephemeris; multi-site moving shadow; Fresnel signature\par
+\noindent\textbf{Evidence against.} No plausible body trajectory at required sensitivity and geometry\par
+\noindent\textbf{Primary confounder.} Camera shutter/readout; tiny dust screens\par
+\noindent\textbf{Essential measurements.} High-cadence multi-site images; occultation geometry; ephemerides\par
+\noindent\textbf{Population/sky dependence.} Ecliptic latitude; solar-system populations\par
+\noindent\textbf{Spectral dependence.} Often approximately achromatic in broadband geometric limit\par
+\noindent\textbf{Temporal behavior.} Milliseconds to minutes often; larger bodies longer\par
+\noindent\textbf{Priority test.} High-cadence follow-up and ephemeris cross-check\par
+\noindent\textbf{Reference or starting resource.} \url{https://occultations.org/}\par
+\subsection{H09: Unbound substellar / interstellar compact occulter}
+\noindent\textbf{Evidence status.} Physically plausible, population rate unconstrained\par
+\noindent\textbf{Expected behavior.} Rare unresolved obscuration with finite-source ingress\par
+\noindent\textbf{Supportive observations.} Repeatable multiband extinction edge; astrometric/IR companion evidence\par
+\noindent\textbf{Evidence against.} High-quality imaging excludes size-distance-speed region\par
+\noindent\textbf{Primary confounder.} Dust filament, Solar System occulter, brown-dwarf disk\par
+\noindent\textbf{Essential measurements.} Event duration; proper motions; IR imaging; astrometry\par
+\noindent\textbf{Population/sky dependence.} Galactic density and velocity distributions\par
+\noindent\textbf{Spectral dependence.} Opaque body grey; envelope chromatic\par
+\noindent\textbf{Temporal behavior.} Source crossing scale / transverse speed\par
+\noindent\textbf{Priority test.} Injection recovery over simulated size and velocity functions\par
+\noindent\textbf{Reference or starting resource.} \url{https://academic.oup.com/mnras/article/546/3/staf2251/8471205}\par
+\subsection{H10: Ordinary positive-mass point-lens microlensing}
+\noindent\textbf{Evidence status.} Established\par
+\noindent\textbf{Expected behavior.} Symmetric magnification, generally not isolated-star demagnification\par
+\noindent\textbf{Supportive observations.} Achromatic brightening; astrometric shift; fit t\_E and blending\par
+\noindent\textbf{Evidence against.} Flux drop below unlensed baseline attributed solely to isolated positive point lens\par
+\noindent\textbf{Primary confounder.} Variable source; blending; other lens configurations\par
+\noindent\textbf{Essential measurements.} Source-position photometry; centroid shifts; blending\par
+\noindent\textbf{Population/sky dependence.} Galactic bulge/plane star densities\par
+\noindent\textbf{Spectral dependence.} Geometric optics nearly achromatic; blends introduce chromaticity\par
+\noindent\textbf{Temporal behavior.} Days to months typical, broad distribution\par
+\noindent\textbf{Priority test.} Fit standard finite-source lens and source-blend model\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.3847/1538-4357/ada352}\par
+\subsection{H11: Strong-lens caustic / moving stellar microlenses}
+\noindent\textbf{Evidence status.} Established lens physics\par
+\noindent\textbf{Expected behavior.} Extra image pairs appear/disappear; total source flux can cross detection limit\par
+\noindent\textbf{Supportive observations.} Finite-source fold/cusp morphology with neighboring macroimages and foreground massive lens\par
+\noindent\textbf{Evidence against.} No strong-lensing geometry; source stays bright in independent full-image photometry\par
+\noindent\textbf{Primary confounder.} Dust occultation, sampling aliasing, blending\par
+\noindent\textbf{Essential measurements.} Resolved images; lens mass model; multiband photometry\par
+\noindent\textbf{Population/sky dependence.} Galaxy clusters; high-shear lens environments\par
+\noindent\textbf{Spectral dependence.} Nominally achromatic, finite-source effects possible\par
+\noindent\textbf{Temporal behavior.} Microlens and source relative proper motion\par
+\noindent\textbf{Priority test.} Image-plane total-flux modeling incl finite-source caustics\par
+\noindent\textbf{Reference or starting resource.} \url{https://arxiv.org/abs/1906.02210}\par
+\subsection{H12: Cosmological void / weak gravitational demagnification}
+\noindent\textbf{Evidence status.} Established weak-lensing effect; rapid wink unproven\par
+\noindent\textbf{Expected behavior.} Modest, usually slowly varying dimming relative to smooth-universe reference\par
+\noindent\textbf{Supportive observations.} Correlated shear/convergence and foreground void maps, consistent distance scaling\par
+\noindent\textbf{Evidence against.} Strong short-lived total blackout without viable curvature/time variation\par
+\noindent\textbf{Primary confounder.} Dust, magnification bias, source intrinsic variability\par
+\noindent\textbf{Essential measurements.} Weak shear maps; distances; galaxy-density maps; light curves\par
+\noindent\textbf{Population/sky dependence.} Large-scale structure / source distance\par
+\noindent\textbf{Spectral dependence.} Nearly achromatic geometric optics\par
+\noindent\textbf{Temporal behavior.} Usually long evolution; short wink implausible without additional dynamics\par
+\noindent\textbf{Priority test.} Compare residual brightness with preregistered void map\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.1046/j.1365-8711.1999.02841.x}\par
+\subsection{H13: Plasma refraction / extreme scattering events}
+\noindent\textbf{Evidence status.} Established at radio; optical efficacy not established\par
+\noindent\textbf{Expected behavior.} Frequency-dependent flux minima/caustics with wandering images\par
+\noindent\textbf{Supportive observations.} Radio dynamic-spectrum frequency scaling; scattering/dispersion changes\par
+\noindent\textbf{Evidence against.} Strict optical effect predicted despite implausibly weak electron refraction and radio nondetection\par
+\noindent\textbf{Primary confounder.} Gravity lens, chromatic dust screen\par
+\noindent\textbf{Essential measurements.} Radio multi-frequency light curves; dispersion; scintillation; astrometry\par
+\noindent\textbf{Population/sky dependence.} Ionized ISM structure / scattering screens\par
+\noindent\textbf{Spectral dependence.} Strong radio chromaticity; optical much weaker\par
+\noindent\textbf{Temporal behavior.} Days to months in known radio events\par
+\noindent\textbf{Priority test.} Radio-optical contemporaneous control and plasma lens transfer\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.1038/326675a0}\par
+\subsection{H14: Multiple-plane compound lens and extinction}
+\noindent\textbf{Evidence status.} Established ingredients, combined prevalence unknown\par
+\noindent\textbf{Expected behavior.} Complex chromatic plus astrometric changes / multiple features\par
+\noindent\textbf{Supportive observations.} Joint lens/dust/plasma fits beat single-mechanism controls, physically plausible parameters\par
+\noindent\textbf{Evidence against.} Joint model requires nonphysical column densities or lens masses\par
+\noindent\textbf{Primary confounder.} Overfit complicated light curves\par
+\noindent\textbf{Essential measurements.} Time-resolved spectrum; images; astrometric centroid; tracer maps\par
+\noindent\textbf{Population/sky dependence.} Dense environments, strong lenses\par
+\noindent\textbf{Spectral dependence.} Mechanism-dependent mixed behavior\par
+\noindent\textbf{Temporal behavior.} Multiple timescales\par
+\noindent\textbf{Priority test.} Joint model comparison with complexity penalties\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.1046/j.1365-8711.1999.02841.x}\par
+\subsection{H15: Permanent stellar end state / failed supernova}
+\noindent\textbf{Evidence status.} Established possible class, but event rarity constrained\par
+\noindent\textbf{Expected behavior.} One-way source disappearance, often not recovery; possible neutrino/dust/spectroscopic remnant\par
+\noindent\textbf{Supportive observations.} Persistent nondetection in deep repeated multi-band observations and evolutionary progenitor prior\par
+\noindent\textbf{Evidence against.} Original source recovered stably; object was transient contaminant\par
+\noindent\textbf{Primary confounder.} Outbursts obscured by dust, crossmatch errors\par
+\noindent\textbf{Essential measurements.} Decade images; spectra; IR; progenitor mass\par
+\noindent\textbf{Population/sky dependence.} Massive evolved stars and star-forming galaxies\par
+\noindent\textbf{Spectral dependence.} Possible dust IR reradiation\par
+\noindent\textbf{Temporal behavior.} Years to decades; one-way rather than closed wink\par
+\noindent\textbf{Priority test.} Independent deep repeat imaging, late-time infrared\par
+\noindent\textbf{Reference or starting resource.} \url{https://doi.org/10.1093/mnras/stac1552}\par
+\subsection{H16: Unknown astrophysical foreground / anisotropic transfer}
+\noindent\textbf{Evidence status.} Exploratory generic\par
+\noindent\textbf{Expected behavior.} Sky-coherent, reproducible residual not explained by calibrated known processes\par
+\noindent\textbf{Supportive observations.} Predefined amplitude/timescale distribution reproduces held-out sky-time covariance and flux statistics\par
+\noindent\textbf{Evidence against.} No residual after forward-modeling known matter/instrument effects\par
+\noindent\textbf{Primary confounder.} Unmapped dust/gas; correlated calibration; clustering\par
+\noindent\textbf{Essential measurements.} Independent instrument flux/astrometric multi-band + foreground tomography\par
+\noindent\textbf{Population/sky dependence.} Specified before holdout, not fit after selection\par
+\noindent\textbf{Spectral dependence.} Unspecified until derived; achromaticity not identifying\par
+\noindent\textbf{Temporal behavior.} Must derive physical timescales first\par
+\noindent\textbf{Priority test.} Independent blind validation with theory-frozen transport law\par
+\noindent\textbf{Reference or starting resource.} \url{https://rubinobservatory.org/for-scientists/data-products}\par
+\subsection{H17: SAT/H(s)H native optical geometry (nonstandard candidate)}
+\noindent\textbf{Evidence status.} Exploratory, no validated transfer or event-rate law\par
+\noindent\textbf{Expected behavior.} Only signature derived from explicit model metric/null transport would count\par
+\noindent\textbf{Supportive observations.} Independent geometric derivation predicts quantitative rates/sky covariance before withheld test and passes instrumental/known-lens controls\par
+\noindent\textbf{Evidence against.} Fails preregistered rate/geometry prediction; no unique result beyond conventional models\par
+\noindent\textbf{Primary confounder.} Known inhomogeneous GR; obscuration; camera drifts; look-elsewhere effects\par
+\noindent\textbf{Essential measurements.} Test only model-locked prediction with complete flux/magnification and selection\par
+\noindent\textbf{Population/sky dependence.} No presupposed toroidal stripe or 0.246 rad conversion\par
+\noindent\textbf{Spectral dependence.} No warranted universal 80\% or achromatic prediction\par
+\noindent\textbf{Temporal behavior.} Period/rate must be computed, not chosen\par
+\noindent\textbf{Priority test.} Withhold data until derivation; joint fit with conventional controls\par
+\noindent\textbf{Reference or starting resource.} \url{https://github.com/Satobloc/HsH/blob/main/WORKSPACES/PAPERS/CRULLER_RUBIN_VISIBILITY_2026-10-21/DRAFT_R0.md}\par
+
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{11}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Solano}\ \emph {et~al.}(2022)\citenamefont {Solano},
+  \citenamefont {Villarroel},\ and\ \citenamefont {Rodrigo}}]{R1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Solano}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Villarroel}},\
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Rodrigo}},\
+  }\bibfield  {title} {\bibinfo {title} {Discovering vanishing objects in {POSS
+  I} red images using the {Virtual Observatory}},\ }\href
+  {https://doi.org/10.1093/mnras/stac1552} {\bibfield  {journal} {\bibinfo
+  {journal} {Monthly Notices of the Royal Astronomical Society}\ }\textbf
+  {\bibinfo {volume} {515}},\ \bibinfo {pages} {1380} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mr{\'o}z}\ \emph {et~al.}(2019)\citenamefont
+  {Mr{\'o}z} \emph {et~al.}}]{R2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Mr{\'o}z}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title}
+  {Microlensing optical depth and event rate toward the galactic bulge from 8
+  yr of {OGLE-IV} observations},\ }\href
+  {https://doi.org/10.3847/1538-4365/ab426b} {\bibfield  {journal} {\bibinfo
+  {journal} {The Astrophysical Journal Supplement Series}\ }\textbf {\bibinfo
+  {volume} {244}},\ \bibinfo {pages} {29} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1906.02210} {arXiv:1906.02210 [astro-ph.GA]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nunota}\ \emph {et~al.}(2025)\citenamefont {Nunota},
+  \citenamefont {Sumi}, \citenamefont {Koshimoto} \emph {et~al.}}]{R3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Nunota}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Sumi}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Koshimoto}}, \emph
+  {et~al.},\ }\bibfield  {title} {\bibinfo {title} {The microlensing event rate
+  and optical depth from {MOA-II} 9 yr survey toward the galactic bulge},\
+  }\href {https://doi.org/10.3847/1538-4357/ada352} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume}
+  {979}},\ \bibinfo {pages} {123} (\bibinfo {year} {2025})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Amendola}\ \emph {et~al.}(1999)\citenamefont
+  {Amendola}, \citenamefont {Frieman},\ and\ \citenamefont {Waga}}]{R4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Amendola}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Frieman}},\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Waga}},\ }\bibfield  {title} {\bibinfo {title} {Weak gravitational lensing
+  by voids},\ }\href {https://doi.org/10.1046/j.1365-8711.1999.02841.x}
+  {\bibfield  {journal} {\bibinfo  {journal} {Monthly Notices of the Royal
+  Astronomical Society}\ }\textbf {\bibinfo {volume} {309}},\ \bibinfo {pages}
+  {465} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bolejko}\ \emph {et~al.}(2013)\citenamefont
+  {Bolejko}, \citenamefont {Clarkson}, \citenamefont {Maartens}, \citenamefont
+  {Bacon}, \citenamefont {Meures},\ and\ \citenamefont {Beynon}}]{R11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bolejko}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Clarkson}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Maartens}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Bacon}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Meures}},\ and\ \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Beynon}},\ }\bibfield  {title} {\bibinfo
+  {title} {Antilensing: The bright side of voids},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.110.021302} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {110}},\ \bibinfo {pages} {021302} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Shah}\ \emph {et~al.}(2026)\citenamefont {Shah} \emph
+  {et~al.}}]{R5}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Shah}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {The nature of
+  {ASASSN-24fw}'s occultation: modelling the event as dimming by optically
+  thick rings around a substellar companion},\ }\href
+  {https://doi.org/10.1093/mnras/staf2251} {\bibfield  {journal} {\bibinfo
+  {journal} {Monthly Notices of the Royal Astronomical Society}\ }\textbf
+  {\bibinfo {volume} {546}},\ \bibinfo {pages} {staf2251} (\bibinfo {year}
+  {2026})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fiedler}\ \emph {et~al.}(1987)\citenamefont
+  {Fiedler}, \citenamefont {Dennison}, \citenamefont {Johnston},\ and\
+  \citenamefont {Hewish}}]{R6}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Fiedler}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Dennison}},
+  \bibinfo {author} {\bibfnamefont {K.~J.}\ \bibnamefont {Johnston}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Hewish}},\ }\bibfield
+  {title} {\bibinfo {title} {Extreme scattering events caused by compact
+  structures in the interstellar medium},\ }\href
+  {https://doi.org/10.1038/326675a0} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature}\ }\textbf {\bibinfo {volume} {326}},\ \bibinfo {pages} {675}
+  (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}(2026{\natexlab{a}})}]{R7}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}},\ }\href
+  {https://rubinobservatory.org/for-scientists/rubin-101/the-legacy-survey-of-space-and-time-lsst}
+  {\bibinfo {title} {The legacy survey of space and time ({LSST})}},\ \bibinfo
+  {howpublished} {Rubin Observatory} (\bibinfo {year} {2026}{\natexlab{a}}),\
+  \bibinfo {note} {accessed October 2026}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}(2026{\natexlab{b}})}]{R8}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}},\ }\href
+  {https://rubinobservatory.org/for-scientists/data-products/planned-data-products}
+  {\bibinfo {title} {Future data products}},\ \bibinfo {howpublished} {Rubin
+  Observatory} (\bibinfo {year} {2026}{\natexlab{b}}),\ \bibinfo {note}
+  {accessed October 2026}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}(2025)}]{RubinDP1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}},\ }\href {https://doi.org/10.71929/rubin/2570327} {\bibinfo
+  {title} {Legacy survey of space and time data preview 1: Forcedsource
+  searchable catalog}} (\bibinfo {year} {2025})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}(2026{\natexlab{c}})}]{R9}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{NSF--DOE Vera C. Rubin
+  Observatory}}},\ }\href {https://data.lsst.cloud/docs} {\bibinfo {title}
+  {Rubin science platform documentation and data previews}},\ \bibinfo
+  {howpublished} {Rubin Observatory} (\bibinfo {year} {2026}{\natexlab{c}}),\
+  \bibinfo {note} {accessed October 2026}\BibitemShut {NoStop}%
+\end{thebibliography}%
+
+\end{document}
