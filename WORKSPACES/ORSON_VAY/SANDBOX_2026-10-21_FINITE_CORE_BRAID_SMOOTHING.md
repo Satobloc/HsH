@@ -573,3 +573,73 @@ If a geometric quantity near 0.2621 exists, it must involve at least one additio
 - The triad 2pi/3 branch is variationally present in old audits but was NOT established as a topological law; one audit explicitly corrected the old winding-based derivation.
 - This is local transverse geometry of worldtubes, not a full nuclear model.
 - BR-008 still applies: R must be a physical interaction support or finite core, not arbitrary display/readout resolution.
+
+## 15. Historical radius assignment lands exactly at q = R/a = 1
+
+A fresh archive search recovered an important distinction from `2026/SAT AUDIT — Refine .txt` and related May refinement files:
+
+- hard-core thickness: `epsilon ~= 2e-21 m`;
+- **Effective Interaction Radius:** `ell_f ~= 0.7937 fm`;
+- older particle-dimension notes also identify `ell_f` as the primary helical/coil radius.
+
+These numerical derivations are historically insecure, especially the absolute ell_f derivation. However, the historical *identification of the same scale* for coil radius and effective interaction radius supplies a dimensionless control:
+
+`q = R/a = 1`.
+
+Under the helical-phase calculation of Section 14:
+
+`S_perim,2(1) = 1`
+
+and
+
+`S_perim,3(1) = 2/3`.
+
+Thus the old radius assignments themselves place the symmetric pair exactly at first contact while the 120-degree triad has already hidden one-third of its isolated active transverse boundary.
+
+### Significance
+
+This recovers the qualitative historical activation rule without using Q, isotope masses, or the old fitted S:
+
+`two-body nuclear level -> no extra active-boundary smoothing`
+
+`three-body symmetric nuclear level -> 1/3 active-boundary suppression`.
+
+This is currently a geometric control, not a mass law.
+
+Absolute ell_f can be wrong while this ratio result survives if the effective interaction radius and helix radius are genuinely the same physical scale.
+
+## 16. Nested triad composition control
+
+The archive often describes a three-nucleon system such as He-3 as a 'triplet of triplets': three effective nucleon tubes, each itself coarse-grained from a three-strand constituent bundle.
+
+If, as a deliberately strict self-similar control, each independent triadic level has the same q=1 active-perimeter factor 2/3 and the coarse-graining factors compose multiplicatively, then:
+
+- one internal triplet level: `S^(1) = 2/3 ~= 0.666667`;
+- two nested triplet levels: `S^(2) = (2/3)^2 = 4/9 ~= 0.444444`;
+- three levels: `S^(3) = 8/27 ~= 0.296296`;
+- four levels: `S^(4) = 16/81 ~= 0.197531`.
+
+For a two-nucleon composite built from two internally smoothed nucleons, the nuclear-level pair factor at q=1 is 1, so the extra nuclear smoothing is zero in this control.
+
+For a three-nucleon composite, the additional nuclear-level factor is 2/3.
+
+Hence the clean scale-crossing discriminator is not the absolute product but
+
+`S_nuclear(3 effective tubes) / S_nuclear(2 effective tubes) = 2/3`.
+
+### Old 0.2621 check
+
+`0.2621` is not `(2/3)^n` for any integer n.
+
+It lies between the three-level and four-level self-similar controls.
+
+Therefore the historical fitted factor is not recovered even by simple repeated q=1 triadic coarse-graining.
+
+This further supports treating 0.2621 as non-authoritative unless a distinct geometry is recovered.
+
+### Composition caveat
+
+Multiplicative composition is a test hypothesis, not yet derived.
+The correct H(s)H question is exactly the earlier commutator question: whether coarse-graining a smoothed constituent and then computing the next interaction equals computing the full fine finite-core union and only then coarse-graining.
+
+Thus the two-level `4/9` value is a regression control for a future explicit fine-vs-coarse calculation, not a promoted prediction.
