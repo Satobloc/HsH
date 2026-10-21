@@ -13,13 +13,13 @@
 <label>Q display gain <output id="vq"></output><input data-key="qa" type="range" min="0" max="1" step=".01" value=".60"></label>
 <label>Q sampling phase <output id="vp"></output><input data-key="ph" type="range" min="-3.14" max="3.14" step=".02" value="0"></label>
 <label>Crossbar sweep revolutions <output id="vg1"></output><input data-key="g1" type="range" min="1" max="6" step="1" value="1"></label>
-<label>Minimum GrAnn winding <output id="vGrannTurns">4</output> (auto)</label>
+<label>Minimum Analemma circuits <output id="vGrannTurns">2</output> (auto)</label>
 <label>Locked elbow turns <output id="vElbowTurns">4</output> (LCM)</label>
 <label>Major radius R <output id="vmajor"></output><input data-key="major" type="range" min="1.25" max="2.4" step=".05" value="1.65"></label>
 <label>Tube & sphere radius a=b <output id="va"></output><input data-key="minor" type="range" min=".3" max=".8" step=".05" value=".55"></label>
 <label>Time fraction <output id="vt"></output><input id="time" type="range" min="0" max="1" step=".002" value="0"></label>
 <label class="speed-label">Playback speed <output id="vspeed">1.5×</output><input id="speed" type="range" min=".25" max="4" step=".25" value="1.5"></label>
-</div><div id="stats" class="stats" role="status">Computing geometry…</div><section class="grann-panel"><strong>Analemma / inner-torus rotational lock</strong><div id="grannStatus" role="status">Computing GrAnn constraints…</div><button id="evenGear" type="button">Restore inner-wall reference</button></section>
+</div><div id="stats" class="stats" role="status">Computing geometry…</div><section class="grann-panel"><strong>Analemma / inner-torus rotational lock</strong><div id="grannStatus" role="status">Computing Analemma constraints…</div><button id="evenGear" type="button">Restore inner-wall reference</button></section>
 <p class="foot">This is a browser reconstruction of the historical <b>b=a</b> limiting setup. Its selected contact obeys the analytic no-slip condition at one nominated point; because equal radii create a nonisolated contact set, this does <b>not</b> certify no-slip across every point of contact. There is no separate pen or projector. The only tracing member is the gimbal elbow, constrained perpendicular to the moving crossbar. Analemma is a minimum-return three-axis rotational lock with the INNER torus selected contact at Donomphulon and opposite OUTER torus P_ivot; the radial construction is BigRad. The earlier GrAnn/Great Annulum naming was incorrect. The intended Analemma is reconstructed as a closed spherical figure-eight with a genuine double-point and distinct branch tangents. New rotational lock uses the INNER torus wall and drives the elbow from minimum even three-axis rotations via LCM. Two independently shaped source curves share a sweep clock; GrAnn's minimum rotational return sets the elbow-turn count by LCM, with no independently chosen curvature-gain phase. This is not a certified physical bearing model. No isomorphism or physical law is assumed. Research reference: <a href="https://github.com/Satobloc/HsH/tree/main/tools/whirligig_rq">Whirligig R/Q Python solver</a>.</p></main>
 <script>(()=>{'use strict';const $=s=>document.querySelector(s),PI=Math.PI,TWO=2*PI,mc=$('#mechanism'),oc=$('#output'),dc=$('#detail'),diffC=$('#difference'),m=mc.getContext('2d'),o=oc.getContext('2d'),dctx=dc.getContext('2d'),diffCtx=diffC.getContext('2d'),inputs=[...document.querySelectorAll('[data-key]')];let run=true,show=true,phase=0,az=.7,el=.45,drag=false,px=0,py=0,last=performance.now(),data=[],cfg=null,previousTrace=null,previousLabel='',currentLabel='';
 const add=(a,b)=>a.map((x,i)=>x+b[i]),sub=(a,b)=>a.map((x,i)=>x-b[i]),mul=(a,k)=>a.map(x=>x*k),dot=(a,b)=>a.reduce((v,x,i)=>v+x*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],norm=a=>Math.hypot(...a),unit=a=>mul(a,1/Math.max(1e-12,norm(a)));function Rx(v,t){let c=Math.cos(t),s=Math.sin(t);return[v[0],c*v[1]-s*v[2],s*v[1]+c*v[2]]}function Ry(v,t){let c=Math.cos(t),s=Math.sin(t);return[c*v[0]+s*v[2],v[1],-s*v[0]+c*v[2]]}
@@ -215,6 +215,9 @@ function rebuild(){
   ' · peak Δ '+peak.toFixed(5)+
   (rms<1e-8?' · identical mapped outputs; different equation labels may share the same sampled function.':' · geometrically distinct output; no aesthetic ranking.');
  }else $('#differenceStatus').textContent='Change R or Q to compare the previous physically computed torus-wall trace.';
+ const neighborSteps=data.slice(1).map((s,i)=>s.hit&&data[i].hit?norm(sub(s.hit,data[i].hit)):null);
+ const jumpLimit=.2*cfg.minor,largeJumps=neighborSteps.filter(d=>d!==null&&d>jumpLimit).length,
+ largestJump=Math.max(0,...neighborSteps.filter(d=>d!==null));
  const max=v=>Math.max(...data.map(s=>Math.abs(s[v]))),hits=data.filter(s=>s.hit).length;
  const EW=data.filter(s=>s.r[0]<=0||s.q[0]>=0).length,
  plane=Math.max(...data.map(s=>Math.max(s.planeR,s.planeQ))),
@@ -226,7 +229,9 @@ function rebuild(){
  ' · LCM elbow '+k.elbowTurns+' rotations · radial spin '+Math.max(...data.map(s=>Math.abs(s.radialSpin))).toFixed(3)+
  ' · frame seam '+frame.toExponential(1)+' · trace seam '+seam.toExponential(1)+
  ' · E/W violations '+EW+' · sweep error '+plane.toExponential(1)+
- ' · perpendicular error '+max('elbowDot').toExponential(1)+' · wall hits '+hits+'/'+N;
+ ' · perpendicular error '+max('elbowDot').toExponential(1)+' · wall hits '+hits+'/'+N+
+ ' · adjacent jumps above '+jumpLimit.toFixed(3)+': '+largeJumps+
+ ' (max '+largestJump.toFixed(3)+'; may involve wall-hit branch changes; not smoothed)';
  $('#grannStatus').textContent='Selected INNER wall residual '+max('wallResidual').toExponential(2)+
  ' · OUTER P_ivot '+max('pivotResidual').toExponential(2)+
  ' · INNER Donomphulon '+max('innerResidual').toExponential(2)+
@@ -259,8 +264,7 @@ function drawBodyDetail(s){
   let pts=[];for(let j=0;j<cv.pts.length;j+=3)pts.push(p(cv.pts[j]));
   pts.push(p(cv.pts[0]));stroke(dctx,pts,color,1.8)
  }
- // GrAnn's BODY three-axis contact-lock track and its moving contact phase.
- // Distinct from a reconstructed self-intersecting GrAnn_Omph geometry.
+ // Analemma's BODY spherical self-crossing contact track and its transport frame.
  const grann=[];for(let i=0;i<=128;i++){const a=TWO*i/128;grann.push(p(s.grannBodyCircle(a)))}
  stroke(dctx,grann,'#ed88cf',2.6);
  for(const [v,color,radius] of [[s.grannBody,'#ffe58e',6],[mul(s.grannBody,-1),'#94b1fc',5]]){
@@ -305,8 +309,7 @@ function drawDifference(){
 function draw(){let[w,h]=setup(mc,m),[ww,hh]=setup(oc,o),f=Math.min(w,h)*.40/(cfg.major+cfg.minor),fo=Math.min(ww,hh)*.41/(cfg.major+cfg.minor);if(!data.length)return;drawDifference();let idx=Math.round(phase*(N-1)),s=data[idx]; // tube mesh with toroidal centerline
  for(let i=0;i<=36;i++){let t=TWO*i/36,er=[Math.cos(t),Math.sin(t),0],pts=[];for(let j=0;j<=32;j++){let v=TWO*j/32,p=[(cfg.major+cfg.minor*Math.cos(v))*er[0],(cfg.major+cfg.minor*Math.cos(v))*er[1],cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,i%6===0?'#9a7852':'#65553f',i%6===0?1.2:.7)}
  for(let j=0;j<12;j++){let v=j*TWO/12,pts=[];for(let i=0;i<=128;i++){let t=i*TWO/128,p=[(cfg.major+cfg.minor*Math.cos(v))*Math.cos(t),(cfg.major+cfg.minor*Math.cos(v))*Math.sin(t),cfg.minor*Math.sin(v)];pts.push(project(p,w,h,f))}stroke(m,pts,'#66523f',.7)}
- // Wall-constrained GrAnn carrier: the body circle is rolled onto
- // the torus inner and outer wall simultaneously in the a=b limit.
+ // Analemma is transported by a locked contact/tangent Darboux frame.
  const loop=[];for(let j=0;j<=128;j++)loop.push(project(s.grannCircle(TWO*j/128),w,h,f));
  stroke(m,loop,'#ed88cf',2.4);
  drawSphere(s,w,h,f);drawBodyDetail(s);
