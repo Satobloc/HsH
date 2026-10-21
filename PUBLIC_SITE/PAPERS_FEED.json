@@ -17,7 +17,7 @@
       "summary": "A survey-agnostic protocol for quantifying temporary source nondetections, event rates, durations, detection efficiencies, and multi-mechanism diagnostics; with 17-hypothesis evidence matrix.",
       "caveat": "Methodology draft only. No observed wink rate or evidence for any speculative cosmological mechanism. Requires domain review before scientific submission.",
       "manuscript_path": "WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/DRAFT_R0.md",
-      "manuscript_ref": "b14feda4ae53fcc3fca650469435560b165c4484",
+      "manuscript_ref": "0bd5150a378871238dd2c8403cd7856934e0a9f4",
       "datasheet_path": "WORKSPACES/PAPERS/STELLAR_WINK_CENSUS_2026-10-21/HYPOTHESIS_EVIDENCE_MATRIX_R0.csv",
       "datasheet_ref": "8989ffa890b6877642819e88fc54598b130e60cb",
       "review_path": null,
